@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Where is the elevator?\nB: It is at the end of that hallway.",
      funFact:"Japanese elevator etiquette is precise: the person nearest the buttons operates them for everyone, holding the 'open' button (開(ひら)く) for others. When exiting, you say お先(さき)に (going ahead of you) or すみません (excuse me). Some elevators bow (announce floors) in a polite voice."},
 
-    {type:"mc", q:"In Japan, the emergency number for fire and ambulance is:", opts:["119","110","911","999"], ans:"119",
+    {type:"mc", q:"In Japan, the emergency number for fire and ambulance is:", opts:["999","119","110","911"], ans:"119",
      hint:"The Japanese fire station number is different from the police number (110)."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"日本(にほん)は世界(せかい)でもっとも{1}な国(くに)のひとつです。\n(Japan is one of the safest countries in the world.)", a:"安全(あんぜん)", opts:["安全(あんぜん)","健康(けんこう)","賑(にぎ)やか","広(ひろ)い"], sSrc:"Japan is one of the safest countries in the world.",
      hint:"The word meaning safety or safe, describing low crime and order."},
 
-    {type:"mc", q:"役所(やくしょ) is the place to:", opts:["Register residence and get official documents","Borrow books","Report crimes","See art exhibitions"], ans:"Register residence and get official documents",
+    {type:"mc", q:"役所(やくしょ) is the place to:", opts:["Report crimes","See art exhibitions","Register residence and get official documents","Borrow books"], ans:"Register residence and get official documents",
      hint:"This government office handles o... paperwork for residents."}
   ,{type:"match",pairs:[{trg:"大使館(たいしかん)",src:"embassy"},{trg:"体育館(たいいくかん)",src:"gymnasium / sports center"},{trg:"健康(けんこう)",src:"health"},{trg:"階段(かいだん)",src:"stairs / staircase"},{trg:"エレベーター",src:"elevator"}]}]
 };

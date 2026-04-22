@@ -1,4 +1,4 @@
-// L11: Dreams, Aspirations & Motivation — 20 B2 gap words
+// L11: Dreams, Aspirations & Motivation, 20 B2 gap words
 const LESSON_11 = {
   id:"nlv2_b2g3_l11", title:"Dromen, Ambities en Motivatie", icon:"\u2B50", xp:15, board:true,
   steps:[
@@ -95,7 +95,7 @@ const LESSON_11 = {
      deepDive:{title:"When compounds become cliches",
       text:"'Droom-' compounds are so common that they can feel cliched. Job ads promising a 'droombaan' or real estate agents selling a 'droomhuis' are using marketing language.\n\nMore authentic alternatives:\n'De baan waar ik van droom' (the job I dream of)\n'Het huis dat ik altijd wilde' (the house I always wanted)\n\nThe compound is quicker, the phrase is more personal. B2 speakers should recognize both and choose based on register."}},
     {type:"mc", q:"Wat is een 'driesprong'?",
-     opts:["een drievoudige sprong","een kruispunt met drie wegen","een driehoek","een drietal"],
+     opts:["een kruispunt met drie wegen","een driehoek","een drietal","een drievoudige sprong"],
      ans:"een kruispunt met drie wegen",
      hint:"A compound: d... (three) + sprong (jump). Where three roads come together."},
     {type:"fb", s:"Durf jij van de hoge {1}?", a:["duikplank"],
@@ -109,7 +109,7 @@ const LESSON_11 = {
       {trg:"cultstatus", src:"cult status"}
     ]},
     {type:"mc", q:"Michael van Gerwen is een Nederlandse held in welke sport?",
-     opts:["voetbal","schaatsen","darts","tennis"],
+     opts:["schaatsen","darts","tennis","voetbal"],
      ans:"darts",
      hint:"A pub sport played with pointed projectiles thrown at a numbered board."},
     {type:"fb", s:"De {1} moet je eerst beheersen.", a:["basistechniek"],

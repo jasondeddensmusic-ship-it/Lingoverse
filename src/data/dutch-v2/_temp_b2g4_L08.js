@@ -1,4 +1,4 @@
-// L08: Art, Culture & Festivals — 20 B2 gap words
+// L08: Art, Culture & Festivals, 20 B2 gap words
 const LESSON_8 = {
   id:"nlv2_b2g4_l8", title:"Kunst, Cultuur en Festivals", icon:"\uD83C\uDFA8", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_8 = {
      deepDive:{title:"Why the Dutch love festivals",
       text:"With over 900 festivals per year, the Netherlands has more festivals per capita than almost any country. The flat landscape makes large outdoor events easy to organize. The 'poldermodel' of cooperation means festivals run smoothly. Even the weather is factored in: most festivals provide covered stages and sell rain ponchos. Dutch directness means festival reviews are honest and harsh."}},
     {type:"mc", q:"Wat is een 'festivalganger'?",
-     opts:["iemand die festivals organiseert","iemand die naar festivals gaat","iemand die op festivals speelt","iemand die festivals beoordeelt"],
+     opts:["iemand die naar festivals gaat","iemand die op festivals speelt","iemand die festivals beoordeelt","iemand die festivals organiseert"],
      ans:"iemand die naar festivals gaat",
      hint:"Compound: festival + ganger (goer). Someone who attends."},
     {type:"fb", s:"Het {1} is enorm dit jaar.", a:["festivalterrein"],

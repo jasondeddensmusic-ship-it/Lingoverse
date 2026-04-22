@@ -1,4 +1,4 @@
-// Batch 4 — Unit 12, Lesson 2: Reflexive Verbs in the Past
+// Batch 4. Unit 12, Lesson 2: Reflexive Verbs in the Past
 const BATCH4_U12_L2 = {
   id:"itv2_u12l_b4_2", title:"Riflessivi al passato", icon:"\uD83D\uDD04", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U12_L2 = {
     ]},
 
     {type:"mc", q:"Come si dice 'We got married' se siamo un uomo e una donna?",
-     opts:["Ci siamo sposati","Ci siamo sposate","Ci siamo sposato","Ci siamo sposata"],
+     opts:["Ci siamo sposata","Ci siamo sposati","Ci siamo sposate","Ci siamo sposato"],
      ans:"Ci siamo sposati",
      hint:"Mixed gender groups use the masculine plural ending -i."},
 
@@ -126,7 +126,7 @@ const BATCH4_U12_L2 = {
      sSrc:"I {1} the mistake too late."},
 
     {type:"mc", q:"Perche 'mi sono sentita male' ha la -a finale?",
-     opts:["The speaker is female, and the participle agrees with the subject","It is a fixed expression","Male is a feminine noun","All past participles end in -a"],
+     opts:["Male is a feminine noun","All past participles end in -a","The speaker is female, and the participle agrees with the subject","It is a fixed expression"],
      ans:"The speaker is female, and the participle agrees with the subject",
      hint:"With essere, the past p... always matches the s...'s gender."},
 
@@ -136,7 +136,7 @@ const BATCH4_U12_L2 = {
      sSrc:"The boys {1} a lot at the party!"},
 
     {type:"mc", q:"Cosa significa 'laurearsi' letteralmente?",
-     opts:["To crown oneself with laurel, referring to the ancient graduation wreath","To learn quickly","To leave university","To study hard"],
+     opts:["To learn quickly","To leave university","To study hard","To crown oneself with laurel, referring to the ancient graduation wreath"],
      ans:"To crown oneself with laurel, referring to the ancient graduation wreath",
      hint:"Italian graduates still wear l... wreaths, continuing a Roman tradition."}
   ,{type:"match",pairs:[{trg:"svegliarsi / svegliato",src:"to wake up / woken up"},{trg:"lavarsi / lavato",src:"to wash oneself / washed"},{trg:"prepararsi / preparato",src:"to get ready / gotten ready"},{trg:"arrabbiarsi / arrabbiato",src:"to get angry / gotten angry"},{trg:"sentirsi / sentito",src:"to feel / felt"},{trg:"addormentarsi / addormentato",src:"to fall asleep / fallen asleep"}]},{type:"match",pairs:[{trg:"sposarsi / sposato",src:"to get married / married"},{trg:"trasferirsi / trasferito",src:"to move (relocate) / moved"},{trg:"abituarsi / abituato",src:"to get used to / used to"}]}]

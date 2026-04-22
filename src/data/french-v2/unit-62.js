@@ -1,4 +1,4 @@
-// French V2 Unit 62 — B2 Vocabulary Batch 6
+// French V2 Unit 62. B2 Vocabulary Batch 6
 import L16 from './_temp_b2g6_L16.js';
 import L17 from './_temp_b2g6_L17.js';
 import L18 from './_temp_b2g6_L18.js';

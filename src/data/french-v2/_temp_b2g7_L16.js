@@ -80,7 +80,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel est un recif corallien en forme d'anneau entourant un lagon ?",
-     opts:["un atoll","une butte","un bosquet","une benne"],
+     opts:["une benne","un atoll","une butte","un bosquet"],
      ans:"un atoll",
      hint:"A ring of coral with a lagoon in the middle, found in tropical oceans."},
 
@@ -113,7 +113,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quelle langue celtique est enseignee dans toutes les ecoles d'Irlande ?",
-     opts:["le gaelique","le flamand","le finnois","l'islandais"],
+     opts:["le finnois","l'islandais","le gaelique","le flamand"],
      ans:"le gaelique",
      hint:"Ireland's Celtic language, compulsory in schools but not widely spoken daily."},
 

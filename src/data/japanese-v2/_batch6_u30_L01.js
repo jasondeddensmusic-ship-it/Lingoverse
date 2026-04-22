@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: I wish for a peaceful world.\nB: Me too. War must never happen again.\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"平和(へいわ) is deeply significant in post-war Japan. Article 9 of the Japanese Constitution renounces war. 広島(ひろしま)と長崎(ながさき)の平和(へいわ)記念式典(きねんしきてん) (peace memorial ceremonies) are held every August. 平和(へいわ)教育(きょういく) (peace education) is part of Japanese schooling. The concept shapes Japan's international identity."},
 
-    {type:"mc", q:"思(おも)いやり describes:", opts:["Proactive empathy and consideration for others","Strict discipline","Physical strength","Academic knowledge"], ans:"Proactive empathy and consideration for others",
+    {type:"mc", q:"思(おも)いやり describes:", opts:["Academic knowledge","Proactive empathy and consideration for others","Strict discipline","Physical strength"], ans:"Proactive empathy and consideration for others",
      hint:"This Japanese virtue goes beyond feeling to actively caring for o...' wellbeing."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"すべての人(ひと)には平等(びょうどう)な{1}があります。\n(All people have equal rights.)", a:"けんり", opts:["けんり","ぎむ","りんり","どうとく"], sSrc:"All people have equal rights.",
      hint:"The legal/philosophical concept of entitlements that all people possess."},
 
-    {type:"mc", q:"誠実(せいじつ) describes someone who is:", opts:["Sincere and honest","Strict and harsh","Quiet and shy","Funny and entertaining"], ans:"Sincere and honest",
+    {type:"mc", q:"誠実(せいじつ) describes someone who is:", opts:["Quiet and shy","Funny and entertaining","Sincere and honest","Strict and harsh"], ans:"Sincere and honest",
      hint:"This quality involves truthfulness and genuine behavior."}
   ,{type:"match",pairs:[{trg:"道徳(どうとく)",src:"morality / morals"},{trg:"公平(こうへい)",src:"fairness / impartiality"},{trg:"思(おも)いやり",src:"empathy / consideration / compassion"},{trg:"誠実(せいじつ)",src:"sincere / honest / faithful"},{trg:"許(ゆる)す",src:"to forgive / to permit"}]},
   {type:"fb", s:"社会(しゃかい)において{1}を守(まも)ることは大切(たいせつ)です。", a:["正義(せいぎ)"], opts:["正義(せいぎ)","倫理(りんり)","義務(ぎむ)","道徳(どうとく)"], hint:"The moral principle of what is right and fair in society.", sSrc:"In society, it is important to uphold {1}."},

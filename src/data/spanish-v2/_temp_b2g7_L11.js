@@ -13,7 +13,7 @@ const LESSON_11 = {id:"esv2_b2g7_l11",title:"Familia y roles sociales",icon:"�
 {type:"teach",trg:"la educación física",src:"the physical education (PE)",pos:"noun",gender:"f",note:"The school subject focused on sports and physical activity.",example:"A: La educación física es mi asignatura favorita.\nB: En educación física jugamos al baloncesto hoy.",exampleSrc:"A: Physical education is my favorite subject.\nB: In PE we played basketball today.",funFact:"In Spain, PE is mandatory from primary school through Bachillerato (age 16-18). It is assessed but does not count toward university entrance scores."},
 {type:"mc",q:"En España, ¿a qué edad se alcanza la mayoría de edad?",opts:["A los 18 años","A los 16 años","A los 21 años","A los 14 años"],ans:"A los 18 años",hint:"This is the standard legal adulthood age in most European countries."},
 {type:"fb",s:"Las {1} en los cuentos de hadas siempre son malvadas.",a:["madrastras"],opts:["madrastras","congregaciones","individualidades","heroicidades"],hint:"This word means stepmothers, and fairy tales give them a bad reputation.",sSrc:"The {1} in fairy tales are always evil."},
-{type:"mc",q:"'Los Reyes Católicos' se refiere a:",opts:["Isabel y Fernando, que unificaron España","Los reyes actuales","Todos los monarcas españoles","Los papas de Roma"],ans:"Isabel y Fernando, que unificaron España",hint:"These monarchs completed the Reconquista in 1492 and sponsored Columbus."},
+{type:"mc",q:"'Los Reyes Católicos' se refiere a:",opts:["Los papas de Roma","Isabel y Fernando, que unificaron España","Los reyes actuales","Todos los monarcas españoles"],ans:"Isabel y Fernando, que unificaron España",hint:"These monarchs completed the Reconquista in 1492 and sponsored Columbus."},
 {type:"fb",s:"Hay que respetar la {1} de cada persona.",a:["individualidad"],opts:["individualidad","heroicidad","congregación","educación"],hint:"This abstract noun means the unique qualities that make someone different.",sSrc:"We must respect each person's {1}."},
 {type:"match",pairs:[
   {trg:"la madrastra",src:"the stepmother"},
@@ -22,7 +22,7 @@ const LESSON_11 = {id:"esv2_b2g7_l11",title:"Familia y roles sociales",icon:"�
   {trg:"materialista",src:"materialistic"},
   {trg:"la heroicidad",src:"the heroism"}
 ]},
-{type:"mc",q:"Si alguien es 'materialista', valora sobre todo:",opts:["Las posesiones y el dinero","Las relaciones humanas","La naturaleza","El arte y la cultura"],ans:"Las posesiones y el dinero",hint:"This word describes someone focused on material things rather than spiritual values."},
+{type:"mc",q:"Si alguien es 'materialista', valora sobre todo:",opts:["La naturaleza","El arte y la cultura","Las posesiones y el dinero","Las relaciones humanas"],ans:"Las posesiones y el dinero",hint:"This word describes someone focused on material things rather than spiritual values."},
 {type:"fb",s:"El {1} antes del ejercicio previene lesiones musculares.",a:["estiramiento"],opts:["estiramiento","acondicionamiento","contragolpe","mandato"],hint:"This noun refers to the act of stretching your muscles.",sSrc:"{1} before exercise prevents muscle injuries."}
 ]};
 export default LESSON_11;

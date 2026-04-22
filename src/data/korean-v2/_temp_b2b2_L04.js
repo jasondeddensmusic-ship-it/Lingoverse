@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 4: Awakening and Insight
+// Korean B2. Batch 2, Lesson 4: Awakening and Insight
 // Words: 깨끗해지다, 깨닫다, 깨달음, 깨뜨리다, 깨소금, 깨어나다, 깨어지다, 깨우다, 꺼지다, 꺾다, 껌, 꼬리, 꼬마, 꼭, 꼭대기, 꼴, 꼼꼼하다, 꼼짝, 꽂다, 꽉
 
 const LESSON_4 = {
@@ -107,7 +107,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"'꼬리를 흔들다'에서 꼬리의 뜻은?",
-     opts:["동물의 뒷부분에 달린 것","머리 위의 뿔","앞발","목에 달린 방울"],
+     opts:["목에 달린 방울","동물의 뒷부분에 달린 것","머리 위의 뿔","앞발"],
      ans:"동물의 뒷부분에 달린 것",
      hint:"The appendage at the rear end of an animal, often used to express emotion."},
 

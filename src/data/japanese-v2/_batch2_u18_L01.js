@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: Is it okay to let the child use the computer?\nB: Please let them use it with a time limit.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"使わせる is common in parenting discussions about technology. Letting children use smartphones and computers (sumaho wo tsukawaseru) is a major debate topic in Japan. Schools increasingly use tablets, but screen time limits (スクリーンタイム制限) are widely recommended by pediatricians."},
 
-    {type:"mc", q:"親(おや)が留学(りゅうがく)させてくれた means:", opts:["My parents made me study abroad against my will","My parents kindly let me study abroad","I let my parents study abroad","My parents studied abroad"], ans:"My parents kindly let me study abroad",
+    {type:"mc", q:"親(おや)が留学(りゅうがく)させてくれた means:", opts:["My parents kindly let me study abroad","I let my parents study abroad","My parents studied abroad","My parents made me study abroad against my will"], ans:"My parents kindly let me study abroad",
      hint:"させてくれる = someone lets you do something, and you feel g... for their kindness."},
 
     {type:"teach", trg:"遊(あそ)ばせる", src:"to let someone play / to make someone play", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"遊(あそ)ばせる",src:"let play"},{trg:"選(えら)ばせる",src:"let choose"},{trg:"留学(りゅうがく)",src:"study abroad"},{trg:"許可(きょか)",src:"permission"}]},
 
-    {type:"mc", q:"辞(や)めさせる means:", opts:["to quit by oneself","to make someone quit / to fire","to ask to quit","to want to quit"], ans:"to make someone quit / to fire",
+    {type:"mc", q:"辞(や)めさせる means:", opts:["to want to quit","to quit by oneself","to make someone quit / to fire","to ask to quit"], ans:"to make someone quit / to fire",
      hint:"The causative of 辞(や)める. The subject forces or causes s... else to q...."},
   {type:"match",pairs:[{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]},
   {type:"fb", s:"社長(しゃちょう)は問題(もんだい)のある社員(しゃいん)を{1}ことにしました。", a:["辞(や)めさせる"], opts:["辞(や)めさせる","遊(あそ)ばせる","使(つか)わせる","通(かよ)わせる"], hint:"The causative verb meaning to compel someone to quit their position.", sSrc:"The company president decided to {1} the problematic employee."}

@@ -66,7 +66,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: There is a dilemma between environmental protection and economic growth.\nB: We should search for ways to achieve both.\nA: How are the recent trends?\nB: Overall things are going well, but there are some issues.\nA: What kinds of issues are there?\nB: Securing human resources is the biggest challenge.",
      funFact:"ジレンマ entered Japanese from the Greek 'dilemma' via English. Japanese philosophy and ethics courses use the famous 'trolley problem' (トロッコ問題(もんだい)) to explore moral dilemmas. The Japanese approach to ジレンマ often seeks a 'third way' (第三(だいさん)の道(みち)) that transcends the either/or choice, reflecting the cultural preference for harmony."},
 
-    {type:"mc", q:"良心(りょうしん) means:", opts:["Conscience / moral sense","Intelligence","Social status","Legal knowledge"], ans:"Conscience / moral sense",
+    {type:"mc", q:"良心(りょうしん) means:", opts:["Legal knowledge","Conscience / moral sense","Intelligence","Social status"], ans:"Conscience / moral sense",
      hint:"The compound of 'good' and 'heart,' describing your inner m... compass."},
 
     {type:"fb", s:"社会(しゃかい){1}は時代(じだい)とともに変化(へんか)します。\n(Social norms change with the times.)", a:"規範(きはん)", opts:["規範(きはん)","正義(せいぎ)","人権(じんけん)","平等(びょうどう)"], sSrc:"Social norms change with the times.",
@@ -79,7 +79,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"差別(さべつ)",src:"discrimination"},{trg:"自由意志(じゆういし)",src:"free will"},{trg:"規範(きはん)",src:"norm"},{trg:"良心(りょうしん)",src:"conscience"}]},
 
-    {type:"mc", q:"The Japanese approach to moral dilemmas often seeks:", opts:["The harshest punishment","A third way that transcends either/or choices","Complete avoidance of the issue","Majority rule decision"], ans:"A third way that transcends either/or choices",
+    {type:"mc", q:"The Japanese approach to moral dilemmas often seeks:", opts:["Majority rule decision","The harshest punishment","A third way that transcends either/or choices","Complete avoidance of the issue"], ans:"A third way that transcends either/or choices",
      hint:"Japanese culture often prefers harmony and synthesis over binary c...."},
   ]
 };

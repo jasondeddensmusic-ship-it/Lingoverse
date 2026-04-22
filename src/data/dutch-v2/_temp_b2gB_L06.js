@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 06 — Koken en Smaak
+// Dutch B2 gapB Lesson 06. Koken en Smaak
 // Kitchen, cooking culture, and food vocabulary
 
 const LESSON_6 = {id:"nlv2_b2gB_l6", title:"Koken en Smaak", icon:"\u{1F373}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_6 = {id:"nlv2_b2gB_l6", title:"Koken en Smaak", icon:"\u{1F373}", x
  funFact:"The Dutch consume 32 million kilos of liquorice per year, more per capita than any other country. Salty liquorice is an acquired taste."},
 
 {type:"mc", q:"'Uit de muur' is een typisch Nederlandse manier om ... te eten.",
- opts:["Broodjes","Kroketten","Soep","Pannenkoeken"],
+ opts:["Kroketten","Soep","Pannenkoeken","Broodjes"],
  ans:"Kroketten",
  hint:"FEBO's vending machine wall. You put in coins and get a hot snack."},
 
@@ -82,7 +82,7 @@ const LESSON_6 = {id:"nlv2_b2gB_l6", title:"Koken en Smaak", icon:"\u{1F373}", x
 ]},
 
 {type:"mc", q:"'Dubbel-zoute drop' is:",
- opts:["Very sweet liquorice","Double-salt liquorice","Chocolate-covered liquorice","Liquorice-flavored ice cream"],
+ opts:["Liquorice-flavored ice cream","Very sweet liquorice","Double-salt liquorice","Chocolate-covered liquorice"],
  ans:"Double-salt liquorice",
  hint:"The extreme version of the Dutch national candy, with extra s..."},
 

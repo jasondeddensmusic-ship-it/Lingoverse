@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 10 — Politics & Government
+// B2 Gap Batch B Lesson 10. Politics & Government
 const LESSON_10 = {id:"esv2_b2gB_l10",title:"Política y gobierno",icon:"🏛️",xp:15,board:true,steps:[
 {type:"intro",title:"Política y gobierno",desc:"Master political and governmental vocabulary for understanding Spanish news and public discourse.",goals:["Learn 12 words about politics and government","Discuss governmental institutions","Navigate formal political vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_10 = {id:"esv2_b2gB_l10",title:"Política y gobierno",icon:"🏛️
  funFact:"From Greek orthos (correct) + doxa (belief). In Spanish, used for both religion and general conformity."},
 
 {type:"mc",q:"¿Qué es un oligopolio?",
- opts:["Un mercado controlado por pocas empresas","Un gobierno de una sola persona","Una forma de democracia directa","Un tipo de impuesto especial"],
+ opts:["Un tipo de impuesto especial","Un mercado controlado por pocas empresas","Un gobierno de una sola persona","Una forma de democracia directa"],
  ans:"Un mercado controlado por pocas empresas",
  hint:"Think about the Greek prefix 'oligo-' meaning 'few' and a market with limited competition."},
 

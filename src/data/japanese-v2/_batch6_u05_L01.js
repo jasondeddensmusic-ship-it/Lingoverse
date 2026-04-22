@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Please cut it thin.\nB: Okay, is this thickness alright?",
      funFact:"薄(うす)い pairs with 濃(こ)い (thick/concentrated) for flavors: 薄(うす)い味(あじ) (light flavor), 濃(こ)い味(あじ) (rich flavor). Kansai region (Osaka/Kyoto) cuisine is known for 薄味(うすあじ) (light seasoning), while Kanto (Tokyo) tends toward 濃(こ)い味(あじ). This difference sparks friendly regional rivalry."},
 
-    {type:"mc", q:"What does 鍋(なべ) mean?", opts:["Pot or hot pot dish","Plate or dish","Chopsticks","Knife"], ans:"Pot or hot pot dish",
+    {type:"mc", q:"What does 鍋(なべ) mean?", opts:["Knife","Pot or hot pot dish","Plate or dish","Chopsticks"], ans:"Pot or hot pot dish",
      hint:"This word is both a cooking vessel and a type of communal meal."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"スープが{1}ですよ。気(き)をつけて。\n(The soup is hot. Be careful.)", a:"熱(あつ)い", opts:["熱(あつ)い","冷(つめ)たい","薄(うす)い","辛(から)い"], sSrc:"The soup is hot. Be careful.",
      hint:"This i-adjective describes high temperature of objects and liquids."},
 
-    {type:"mc", q:"The opposite of 薄(うす)い (thin/light) in terms of flavor is:", opts:["濃(こ)い (thick/rich)","甘(あま)い (sweet)","苦(にが)い (bitter)","酸(す)っぱい (sour)"], ans:"濃(こ)い (thick/rich)",
+    {type:"mc", q:"The opposite of 薄(うす)い (thin/light) in terms of flavor is:", opts:["苦(にが)い (bitter)","酸(す)っぱい (sour)","濃(こ)い (thick/rich)","甘(あま)い (sweet)"], ans:"濃(こ)い (thick/rich)",
      hint:"This adjective describes a strong, concentrated flavor."}
   ,{type:"match",pairs:[{trg:"料理(りょうり)",src:"cooking / cuisine / dish"},{trg:"鍋(なべ)",src:"pot / pan / hot pot"},{trg:"皿(さら)",src:"plate / dish"},{trg:"箸(はし)",src:"chopsticks"},{trg:"薄(うす)い",src:"thin / light (color, flavor)"}]},
   {type:"fb", s:"野菜(やさい)を小(ちい)さく{1}てから鍋(なべ)に入(い)れます。", a:["切(き)る"], opts:["切(き)る","焼(や)く","煮(に)る","混(ま)ぜる"], hint:"The verb for dividing something with a knife or blade.", sSrc:"After {1} the vegetables into small pieces, put them in the pot."}

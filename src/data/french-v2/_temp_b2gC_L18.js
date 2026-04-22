@@ -67,7 +67,7 @@ const LESSON_18 = {id:"frv2_b2gC_l18", title:"Concepts abstraits", icon:"\u{1F4A
 
 {type:"mc",
  q:"Que fait l'Académie Française en matière de néologie ?",
- opts:["Elle crée des mots français pour remplacer les anglicismes","Elle interdit tous les nouveaux mots","Elle emprunte des mots à l'anglais","Elle simplifie l'orthographe"],
+ opts:["Elle simplifie l'orthographe","Elle crée des mots français pour remplacer les anglicismes","Elle interdit tous les nouveaux mots","Elle emprunte des mots à l'anglais"],
  ans:"Elle crée des mots français pour remplacer les anglicismes",
  hint:"This institution actively protects French by inventing alternatives to English terms."},
 
@@ -87,7 +87,7 @@ const LESSON_18 = {id:"frv2_b2gC_l18", title:"Concepts abstraits", icon:"\u{1F4A
 
 {type:"mc",
  q:"Que signifie 'a contrario' en logique ?",
- opts:["Raisonner par l'argument opposé","Être d'accord avec tout le monde","Refuser toute logique","Accepter sans preuve"],
+ opts:["Refuser toute logique","Accepter sans preuve","Raisonner par l'argument opposé","Être d'accord avec tout le monde"],
  ans:"Raisonner par l'argument opposé",
  hint:"A Latin term used in French law and philosophy. Reasoning from the opposite case."},
 
@@ -105,7 +105,7 @@ const LESSON_18 = {id:"frv2_b2gC_l18", title:"Concepts abstraits", icon:"\u{1F4A
 
 {type:"mc",
  q:"Cette règle n'a aucune logique. C'est un _____ complet.",
- opts:["non-sens","positivisme","anonymat","contrario"],
+ opts:["positivisme","anonymat","contrario","non-sens"],
  ans:"non-sens",
  hint:"A loanword from English for something logically incoherent or absurd, used both formally and casually in French."}
 

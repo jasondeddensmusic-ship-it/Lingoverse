@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 06 — History & Civilization
+// B2 Gap Batch B Lesson 06. History & Civilization
 
 const LESSON_6 = {id:"esv2_b2gB_l6",title:"Historia y civilización",icon:"🏛️",xp:15,board:true,steps:[
 
@@ -148,7 +148,7 @@ const LESSON_6 = {id:"esv2_b2gB_l6",title:"Historia y civilización",icon:"🏛�
 
 {type:"mc",q:"¿Qué es un arcabuz?",
 
- opts:["Un arma de fuego antigua","Un instrumento musical","Una herramienta agrícola","Un tipo de embarcación"],
+ opts:["Un tipo de embarcación","Un arma de fuego antigua","Un instrumento musical","Una herramienta agrícola"],
 
  ans:"Un arma de fuego antigua",
 

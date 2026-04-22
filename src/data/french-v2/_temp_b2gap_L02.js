@@ -98,7 +98,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel adjectif d\u00e9crit une personne qui a facilement peur ?",
-     opts:["craintif","alarmiste","affectif","antipathique"],
+     opts:["antipathique","craintif","alarmiste","affectif"],
      ans:"craintif",
      hint:"From the noun 'crainte' (fear). Describes a timid, easily frightened character."},
 
@@ -143,7 +143,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel adjectif signifie 'passionn\u00e9, br\u00fblant d'enthousiasme' ?",
-     opts:["ardent","bourru","craintif","affectif"],
+     opts:["craintif","affectif","ardent","bourru"],
      ans:"ardent",
      hint:"From Latin for 'burning'. Describes intense passion or enthusiasm."}
   ]

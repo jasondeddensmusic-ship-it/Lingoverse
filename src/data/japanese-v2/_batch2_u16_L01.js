@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 16 (Plans) — more future plans, intentions, promises, schedules
+// Batch 2 expansion for Unit 16 (Plans), more future plans, intentions, promises, schedules
 const BATCH2_L_1 = {
   id:"jav2_u16l_b2_1", title:"未来(みらい)の話(はなし)", icon:"🔭", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: I intend to get a job after graduating.\nB: What kind of work do you want to do?\nA: That is a nice memory.\nB: Yes, I will never forget it.",
    funFact:"就職(しゅうしょく) combines 就(しゅう) (take up) and 職(しょく) (occupation). Japanese job hunting (就活(しゅうかつ), shuukatsu) is a massive, organized process. University students begin job hunting in their third year with standardized suits, resume formats, and group interviews. Companies hire in batches every April."},
 
-  {type:"mc", q:"来年(らいねん) means:", opts:["last year","this year","next year","every year"], ans:"next year",
+  {type:"mc", q:"来年(らいねん) means:", opts:["next year","every year","last year","this year"], ans:"next year",
    hint:"The time word using 来(らい) (coming) + 年(ねん) (y...), pointing to the future."},
 
   {type:"teach", trg:"入学(にゅうがく)する", src:"to enter school / to enroll", pos:"verb", gender:null,

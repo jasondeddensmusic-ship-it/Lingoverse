@@ -84,7 +84,7 @@ const LESSON_17 = {id:"esv2_b2g4_l17",title:"Medios y comunicación",icon:"📰"
  exampleSrc:"A: His music is an evocation of rural Spain.\nB: It transports you to post-war villages.",
  funFact:"'Poder evocador' (evocative power) is a key concept in Spanish literary criticism."},
 
-{type:"mc",q:"'Enmascarar' los datos significa:",opts:["Ocultar la verdadera información","Publicar los datos abiertamente","Analizar estadísticas con cuidado","Compartir información con todos"],ans:"Ocultar la verdadera información",hint:"Think about hiding or disguising the true nature of something behind a mask."},
+{type:"mc",q:"'Enmascarar' los datos significa:",opts:["Compartir información con todos","Ocultar la verdadera información","Publicar los datos abiertamente","Analizar estadísticas con cuidado"],ans:"Ocultar la verdadera información",hint:"Think about hiding or disguising the true nature of something behind a mask."},
 
 {type:"fb",s:"Voy a {1} esta fotografía con un marco de madera.",a:["enmarcar"],opts:["enmarcar","enmascarar","embestir","espirar"],hint:"To put a picture inside a decorative border for display.",sSrc:"I am going to {1} this photograph with a wooden frame."},
 

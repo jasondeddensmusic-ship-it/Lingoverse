@@ -1,4 +1,4 @@
-// Batch 3 — Unit 30 Lesson 2 (Advanced Subjunctive: Subjunctive in Independent Clauses)
+// Batch 3. Unit 30 Lesson 2 (Advanced Subjunctive: Subjunctive in Independent Clauses)
 const BATCH3_L_2 = {
   id:"itv2_u30l_b3_2", title:"Congiuntivo indipendente", icon:"🎯", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che funzione ha il congiuntivo nella frase 'Viva l'Italia'?",
-     opts:["Esprime un dubbio sull'esistenza dell'Italia come nazione","Esprime un augurio: che l'Italia viva e prosperi","E un errore grammaticale: dovrebbe essere 'Vive l'Italia'","Indica che l'Italia non esiste più come stato indipendente"],
+     opts:["Esprime un augurio: che l'Italia viva e prosperi","E un errore grammaticale: dovrebbe essere 'Vive l'Italia'","Indica che l'Italia non esiste più come stato indipendente","Esprime un dubbio sull'esistenza dell'Italia come nazione"],
      ans:"Esprime un augurio: che l'Italia viva e prosperi",
      hint:"The subjunctive here expresses a wish or acclamation: may Italy live! It is an ancient construction inherited from Latin."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Da quale lingua greca deriva la parola 'magari'?",
-     opts:["Da 'mageiros' (cuoco), per il piacere del buon cibo","Da 'makarios' (beato, felice), per esprimere un desiderio","Da 'magos' (mago), per il senso di meraviglia","Da 'magia' (magia), per il potere delle parole"],
+     opts:["Da 'magia' (magia), per il potere delle parole","Da 'mageiros' (cuoco), per il piacere del buon cibo","Da 'makarios' (beato, felice), per esprimere un desiderio","Da 'magos' (mago), per il senso di meraviglia"],
      ans:"Da 'makarios' (beato, felice), per esprimere un desiderio",
      hint:"The Greek word for 'blessed' or 'happy.' The Italian word captures the longing for that blessed state."}
   ,{type:"match",pairs:[{trg:"che Dio ci aiuti",src:"may God help us"},{trg:"non sia mai",src:"God forbid / let it never be"},{trg:"che io sappia",src:"as far as I know / to my knowledge"},{trg:"vada come vada",src:"come what may"},{trg:"sappia",src:"(formal) know / be aware that"}]}]

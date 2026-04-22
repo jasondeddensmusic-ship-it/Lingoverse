@@ -33,7 +33,7 @@ const BATCH3_L_1 = {
      exampleSrc:"A: I will buy a present at the department store.\nB: What would be good?",
      funFact:"Japanese department stores (depato) are temples of retail. The basement food hall (depachika = depa + chika, underground) alone is worth visiting. Traditional depato have roof gardens, art galleries, and travel agencies. Staff bow as elevators open. Service here sets Japan's retail standard."},
 
-    {type:"mc", q:"コンビニ means:", opts:["Department store","Convenience store","Supermarket","Bookstore"],
+    {type:"mc", q:"コンビニ means:", opts:["Convenience store","Supermarket","Bookstore","Department store"],
      ans:"Convenience store",
      hint:"Shortened from the katakana loanword for 'c... s....' Open 24 hours."},
 
@@ -73,7 +73,7 @@ const BATCH3_L_1 = {
      exampleSrc:"A: If I give 1,000 yen, how much change?\nB: 500 yen.",
      funFact:"Otsuri comes from tsuri (fishing). The idea is that change is 'pulled back' to you. Japanese cashiers count out change meticulously and often place it in a small tray (okane tray) rather than directly in your hand, maintaining hygiene and respect."},
 
-    {type:"mc", q:"お釣(つ)り means:", opts:["receipt","credit card","discount","change (money returned)"],
+    {type:"mc", q:"お釣(つ)り means:", opts:["discount","change (money returned)","receipt","credit card"],
      ans:"change (money returned)",
      hint:"The m... you receive back when you pay more than the exact price."},
 
@@ -115,7 +115,7 @@ const BATCH3_L_1 = {
      hint:"The polite present form of 'to be able to use' (potential verb form of tsukau).",
      sSrc:"Can I use a card?"},
 
-    {type:"mc", q:"いらっしゃいませ is said by:", opts:["The customer when entering","Store staff to greeting customers","The cashier when giving change","Both the customer and staff"],
+    {type:"mc", q:"いらっしゃいませ is said by:", opts:["Both the customer and staff","The customer when entering","Store staff to greeting customers","The cashier when giving change"],
      ans:"Store staff to greeting customers",
      hint:"This welcome phrase is directed FROM s... TO c.... No reply is expected."},
   {type:"match",pairs:[{trg:"本屋(ほんや)",src:"bookstore"},{trg:"薬屋(くすりや)",src:"pharmacy / drugstore"},{trg:"締(し)めて",src:"total / grand total"},{trg:"いらっしゃいませ",src:"welcome (to our store)"}]},

@@ -98,7 +98,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel mot signifie 'weapon' en français ?",
-     opts:["l'arme","l'armure","l'armée","l'arbitre"],
+     opts:["l'arbitre","l'arme","l'armure","l'armée"],
      ans:"l'arme",
      hint:"This feminine noun is any instrument used for fighting, from swords to modern weapons."},
 
@@ -143,7 +143,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel mot a le même son que 'amande' mais signifie 'fine' ?",
-     opts:["amende","arme","armure","attaque"],
+     opts:["armure","attaque","amende","arme"],
      ans:"amende",
      hint:"This word sounds like the nut but means a financial penalty. A classic French homophone."},
 

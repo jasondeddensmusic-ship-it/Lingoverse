@@ -1,4 +1,4 @@
-// French V2 Unit 36 — B1 Vocabulary Expansion
+// French V2 Unit 36. B1 Vocabulary Expansion
 import L06 from './_temp_b1gap_L06.js';
 import L07 from './_temp_b1gap_L07.js';
 import L08 from './_temp_b1gap_L08.js';

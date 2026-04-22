@@ -84,7 +84,7 @@ const LESSON_8 = {id:"esv2_b2g5_l8",title:"Ciencia y naturaleza",icon:"🔬",xp:
  exampleSrc:"A: Oil prices are very fluctuating.\nB: They change every day according to demand.",
  funFact:"In economics, 'tipo de cambio fluctuante' (floating exchange rate) describes most modern currencies."},
 
-{type:"mc",q:"¿Qué es la absorción?",opts:["El proceso de absorber o asimilar algo","Un tipo de explosión","Una medida de grosor","Un compuesto químico"],ans:"El proceso de absorber o asimilar algo",hint:"Think about a sponge soaking up water, or your body taking in nutrients."},
+{type:"mc",q:"¿Qué es la absorción?",opts:["Un compuesto químico","El proceso de absorber o asimilar algo","Un tipo de explosión","Una medida de grosor"],ans:"El proceso de absorber o asimilar algo",hint:"Think about a sponge soaking up water, or your body taking in nutrients."},
 
 {type:"fb",s:"La {1} del gas causó daños en las ventanas cercanas.",a:["detonación"],opts:["detonación","absorción","fluctuación","esfera"],hint:"A violent explosion or the act of something blowing up.",sSrc:"The {1} of the gas caused damage to nearby windows."},
 
@@ -92,7 +92,7 @@ const LESSON_8 = {id:"esv2_b2g5_l8",title:"Ciencia y naturaleza",icon:"🔬",xp:
 
 {type:"fb",s:"Los precios del mercado son muy {1} en esta época del año.",a:["fluctuantes"],opts:["fluctuantes","fluidos","glaciares","férreos"],hint:"An adjective meaning rising and falling irregularly, not stable.",sSrc:"Market prices are very {1} at this time of year."},
 
-{type:"mc",q:"¿Dónde está el último glaciar de España?",opts:["En los Pirineos","En Sierra Nevada","En los Picos de Europa","En la Sierra de Guadarrama"],ans:"En los Pirineos",hint:"Spain's remaining glacier is in the mountain range bordering France."}
+{type:"mc",q:"¿Dónde está el último glaciar de España?",opts:["En los Picos de Europa","En la Sierra de Guadarrama","En los Pirineos","En Sierra Nevada"],ans:"En los Pirineos",hint:"Spain's remaining glacier is in the mountain range bordering France."}
 ]};
 
 export default LESSON_8;

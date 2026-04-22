@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"Where is the world's first geothermal power plant located?",
-     opts:["Reykjavik, Iceland","Larderello, Tuscany, Italy","Yellowstone, USA","Rotorua, New Zealand"],
+     opts:["Larderello, Tuscany, Italy","Yellowstone, USA","Rotorua, New Zealand","Reykjavik, Iceland"],
      ans:"Larderello, Tuscany, Italy",
      hint:"This Tuscan town has been producing geothermal electricity since 1904. I...'s volcanic geology provides natural underground heat."},
 
@@ -81,7 +81,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What threatens Italy's hydroelectric production?",
-     opts:["Too many new dams being built","Excess rainfall flooding the turbines","Reduced rainfall and glacier melting from climate change","Government regulations limiting water use"],
+     opts:["Excess rainfall flooding the turbines","Reduced rainfall and glacier melting from climate change","Government regulations limiting water use","Too many new dams being built"],
      ans:"Reduced rainfall and glacier melting from climate change",
      hint:"Less water in Alpine rivers means less power generation. C... c... undermines a clean energy source."},
 
@@ -92,7 +92,7 @@ const LESSON_6 = {
      sSrc:"More charging {1} are needed for electric cars."},
 
     {type:"mc", q:"What is the 'APE' in Italian real estate?",
-     opts:["An annual property evaluation","An energy performance certificate rating buildings A to G","An insurance policy for homeowners","A tax document for property sales"],
+     opts:["A tax document for property sales","An annual property evaluation","An energy performance certificate rating buildings A to G","An insurance policy for homeowners"],
      ans:"An energy performance certificate rating buildings A to G",
      hint:"'Attestato di Prestazione Energetica.' It rates how much e... a building consumes. Mandatory for sales and rentals."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"Italy must modernize the electric {1} for renewables."},
 
     {type:"mc", q:"What incentive does Italy offer for buying electric vehicles?",
-     opts:["Free parking in all cities","Up to 5,000 euros toward the purchase","Free electricity for one year","No road tax for ten years"],
+     opts:["Free electricity for one year","No road tax for ten years","Free parking in all cities","Up to 5,000 euros toward the purchase"],
      ans:"Up to 5,000 euros toward the purchase",
      hint:"The government provides financial 'incentivi' to encourage the switch from fossil fuel cars to electric vehicles."}
   ]

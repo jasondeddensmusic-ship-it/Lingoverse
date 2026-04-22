@@ -40,7 +40,7 @@ const LESSON_37 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"다음 중 가장 강한 의무를 나타내는 부사는?",
-     opts:["무척","아마","반드시","살짝"],
+     opts:["반드시","살짝","무척","아마"],
      ans:"반드시",
      hint:"This adverb expresses absolute obligation, stronger than 꼭. It appears in laws and formal promises."},
 
@@ -183,7 +183,7 @@ const LESSON_37 = {
 
     {type:"mc",
      q:"다음 중 공식적인 글에서만 쓰는 단어는?",
-     opts:["얼른","및","방금","아까"],
+     opts:["아까","얼른","및","방금"],
      ans:"및",
      hint:"This formal written connector means 'and/as well as' and appears in documents and contracts, never in casual speech."},
 

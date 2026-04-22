@@ -84,7 +84,7 @@ const LESSON_11 = {id:"esv2_b2g4_l11",title:"El mundo laboral",icon:"💼",xp:15
  exampleSrc:"A: The service is offered in exchange for financial compensation.\nB: The contract specifies the exact amount.",
  funFact:"In contract law, 'contraprestación' is the equivalent of the English legal concept of 'consideration'."},
 
-{type:"mc",q:"Un 'conglomerado empresarial' es:",opts:["Un grupo de empresas bajo una misma corporación","Un tipo de contrato laboral","Una pequeña tienda familiar","Un sindicato de trabajadores"],ans:"Un grupo de empresas bajo una misma corporación",hint:"Think about a large corporation that owns many different brands or companies."},
+{type:"mc",q:"Un 'conglomerado empresarial' es:",opts:["Un sindicato de trabajadores","Un grupo de empresas bajo una misma corporación","Un tipo de contrato laboral","Una pequeña tienda familiar"],ans:"Un grupo de empresas bajo una misma corporación",hint:"Think about a large corporation that owns many different brands or companies."},
 
 {type:"teach",trg:"la coproducción",src:"the co-production",pos:"noun",gender:"f",
  note:"Feminine noun. Joint production between parties.\nCommon in film: coproducción hispano-francesa.",
@@ -102,7 +102,7 @@ const LESSON_11 = {id:"esv2_b2g4_l11",title:"El mundo laboral",icon:"💼",xp:15
 
 {type:"match",pairs:[{trg:"directiva",src:"board of directors"},{trg:"competitividad",src:"competitiveness"},{trg:"asociado",src:"associate"},{trg:"conglomerado",src:"conglomerate"},{trg:"comercio exterior",src:"foreign trade"}]},
 
-{type:"mc",q:"¿Quién es el 'causante' de un accidente?",opts:["La persona responsable del accidente","La víctima del accidente","El testigo del accidente","El médico que atiende el accidente"],ans:"La persona responsable del accidente",hint:"Think about the person who caused or is responsible for what happened."}
+{type:"mc",q:"¿Quién es el 'causante' de un accidente?",opts:["El testigo del accidente","El médico que atiende el accidente","La persona responsable del accidente","La víctima del accidente"],ans:"La persona responsable del accidente",hint:"Think about the person who caused or is responsible for what happened."}
 ]};
 
 export default LESSON_11;

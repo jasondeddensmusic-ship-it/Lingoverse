@@ -81,11 +81,11 @@ lessons:[
 {type:"fb", s:"A: {1}！\nB: Hello back! How are you?",
  a:["你好(nǐhǎo)"],
  opts:["你好(nǐhǎo)","再见(zàijiàn)","谢谢(xièxie)","好(hǎo)"],
- hint:"The most common informal Chinese greeting — B greets back in English for clarity.",
+ hint:"The most common informal Chinese greeting. B greets back in English for clarity.",
  sSrc:"A: {1}!\nB: Hello back! How are you?"},
 
 {type:"mc", q:"你好(nǐhǎo) can be used:",
- opts:["Only in the morning","Only in the afternoon","Only in the evening","Any time of day"],
+ opts:["Only in the afternoon","Only in the evening","Any time of day","Only in the morning"],
  ans:"Any time of day",
  hint:"Unlike English, this Chinese greeting does not change based on the hour."},
 
@@ -145,7 +145,7 @@ lessons:[
  funFact:"不 changes its tone depending on what follows. Before a 4th tone word, it becomes 2nd tone: 不是 is pronounced búshì, not bùshì. This is one of only two characters in Chinese that change tone by rule."},
 
 {type:"mc", q:"How do you say 'My name is Lisa' in Chinese?",
- opts:["我(wǒ)好(hǎo)丽萨(Lìsà)","我(wǒ)你(nǐ)丽萨(Lìsà)","我(wǒ)叫(jiào)丽萨(Lìsà)","我(wǒ)再见(zàijiàn)丽萨(Lìsà)"],
+ opts:["我(wǒ)叫(jiào)丽萨(Lìsà)","我(wǒ)再见(zàijiàn)丽萨(Lìsà)","我(wǒ)好(hǎo)丽萨(Lìsà)","我(wǒ)你(nǐ)丽萨(Lìsà)"],
  ans:"我(wǒ)叫(jiào)丽萨(Lìsà)",
  hint:"The verb meaning 'to be called' is placed between the subject and the name."},
 
@@ -156,7 +156,7 @@ lessons:[
  sSrc:"What is your name? (Literally: You are called {1} name?)"},
 
 {type:"mc", q:"Which sentence correctly uses 不(bù) to negate?",
- opts:["不(bù)我(wǒ)是(shì)老师(lǎoshī)","我(wǒ)是(shì)不(bù)老师(lǎoshī)","我(wǒ)是(shì)老师(lǎoshī)不(bù)","我(wǒ)不(bú)是(shì)老师(lǎoshī)"],
+ opts:["我(wǒ)是(shì)老师(lǎoshī)不(bù)","我(wǒ)不(bú)是(shì)老师(lǎoshī)","不(bù)我(wǒ)是(shì)老师(lǎoshī)","我(wǒ)是(shì)不(bù)老师(lǎoshī)"],
  ans:"我(wǒ)不(bú)是(shì)老师(lǎoshī)",
  hint:"In Chinese, the negation word goes directly BEFORE the verb it negates."},
 
@@ -175,7 +175,7 @@ lessons:[
  sSrc:"I {1} a student."},
 
 {type:"mc", q:"你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？ What does this sentence ask?",
- opts:["Where are you from?","Are you a student?","How old are you?","What is your name?"],
+ opts:["Are you a student?","How old are you?","What is your name?","Where are you from?"],
  ans:"What is your name?",
  hint:"The question word 什么 means 'what,' and 名字 means '___.' Put them together."},
 
@@ -222,7 +222,7 @@ lessons:[
   text:"Chinese has a gradient of formality, just like English:\n\nThanks (casual to formal):\n谢谢 = thank you (standard)\n谢谢你 = thank you (slightly warmer, specifying 'you')\n非常感谢 = extremely grateful (very formal)\n\nApologies (casual to formal):\n不好意思 = excuse me / my bad (mild)\n对不起 = sorry (genuine apology)\n非常抱歉 = deeply sorry (very formal)\n\nFor now, 谢谢 and 对不起 will cover all your needs at A1 level."}},
 
 {type:"mc", q:"Someone says 谢谢(xièxie) to you. What is the natural response?",
- opts:["对不起(duìbuqǐ)","再见(zàijiàn)","没关系(méi guānxi)","不(bú)客气(kèqi)"],
+ opts:["不(bú)客气(kèqi)","对不起(duìbuqǐ)","再见(zàijiàn)","没关系(méi guānxi)"],
  ans:"不(bú)客气(kèqi)",
  hint:"This response literally tells someone not to be overly formal or polite with you."},
 
@@ -240,12 +240,12 @@ lessons:[
 ]},
 
 {type:"mc", q:"What does 对不起(duìbuqǐ) literally mean?",
- opts:["Cannot face (you)","Thank you very much","No relationship","You are good"],
+ opts:["You are good","Cannot face (you)","Thank you very much","No relationship"],
  ans:"Cannot face (you)",
  hint:"对 means '___/toward,' 不 means 'not,' and 起 means 'up/able to.' Combine them for the literal meaning."},
 
 {type:"mc", q:"Which phrase means 'you are welcome' in Chinese?",
- opts:["对不起(duìbuqǐ)","不(bú)客气(kèqi)","没关系(méi guānxi)","再见(zàijiàn)"],
+ opts:["再见(zàijiàn)","对不起(duìbuqǐ)","不(bú)客气(kèqi)","没关系(méi guānxi)"],
  ans:"不(bú)客气(kèqi)",
  hint:"This phrase uses the negation word 不 plus a word meaning 'polite' or 'courteous.'"},
 
@@ -256,13 +256,13 @@ lessons:[
  sSrc:"A: This is your book.\nB: {1}!"},
 
 {type:"mc", q:"关系(guānxi) in 没关系(méi guānxi) means:",
- opts:["problem","relationship / connection","sorry","goodbye"],
+ opts:["sorry","goodbye","problem","relationship / connection"],
  ans:"relationship / connection",
  hint:"This word is one of the most important cultural concepts in Chinese society, referring to personal connections and networks."},
 
 // ─── Unit 1 Review Quiz ───
 {type:"mc", q:"How do you ask 'What is your name?' in Chinese?",
- opts:["你(nǐ)好(hǎo)吗(ma)？","你(nǐ)好(hǎo)！","你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？","你(nǐ)是(shì)谁(shéi)？"],
+ opts:["你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？","你(nǐ)是(shì)谁(shéi)？","你(nǐ)好(hǎo)吗(ma)？","你(nǐ)好(hǎo)！"],
  ans:"你(nǐ)叫(jiào)什么(shénme)名字(míngzi)？",
  hint:"This question uses the verb for 'to be called' plus the question word for 'what' plus the word for 'name.'"},
 

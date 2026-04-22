@@ -32,13 +32,13 @@ const LESSON_8 = {id:"esv2_b2g3_l8", title:"Materiales y construcción", icon:"�
 
   {type:"teach", trg:"el cronómetro", src:"the stopwatch / chronometer", pos:"noun", gender:"m", note:"From Greek chronos (time) + metron (measure).\nUsed in sports and scientific measurement.", example:"A: El cronómetro marca dos minutos y treinta segundos.\nB: Es un nuevo récord personal.", exampleSrc:"A: The stopwatch reads two minutes and thirty seconds.\nB: It's a new personal record.", funFact:"Chrono- words are abundant in Spanish: cronología, crónica, sincronizar. All from Greek chronos (time)."},
 
-  {type:"mc", q:"'Tirar por la borda' significa...", opts:["Desperdiciar algo valioso","Lanzar algo al cielo","Construir un barco nuevo","Pintar una pared"], ans:"Desperdiciar algo valioso", hint:"To throw something overboard, figuratively meaning to waste or discard something valuable."},
+  {type:"mc", q:"'Tirar por la borda' significa...", opts:["Pintar una pared","Desperdiciar algo valioso","Lanzar algo al cielo","Construir un barco nuevo"], ans:"Desperdiciar algo valioso", hint:"To throw something overboard, figuratively meaning to waste or discard something valuable."},
 
   {type:"match", pairs:[{trg:"acetato", src:"acetate"},{trg:"cartulina", src:"card stock"},{trg:"amasijo", src:"hodgepodge"},{trg:"arcón", src:"large chest"},{trg:"cronómetro", src:"stopwatch"}]},
 
   {type:"fb", s:"La bandera está a media {1} en señal de duelo.", a:["asta"], opts:["asta","borda","calza","batiente"], hint:"The tall pole from which a flag flies, lowered halfway to show mourning.", sSrc:"The flag is at half {1} as a sign of mourning."},
 
-  {type:"mc", q:"¿Cuál es el significado original de 'amasijo'?", opts:["Una masa de pan","Un tipo de metal","Una herramienta antigua","Un edificio romano"], ans:"Una masa de pan", hint:"The original meaning comes from bread-making. Think of kneading dough into a lump before it rises."},
+  {type:"mc", q:"¿Cuál es el significado original de 'amasijo'?", opts:["Una herramienta antigua","Un edificio romano","Una masa de pan","Un tipo de metal"], ans:"Una masa de pan", hint:"The original meaning comes from bread-making. Think of kneading dough into a lump before it rises."},
 
   {type:"fb", s:"El {1} de calcio es un componente fundamental de los huesos.", a:["carbonato"], opts:["carbonato","amoníaco","acetato","cronómetro"], hint:"A chemical compound found in shells, chalk, and bones.", sSrc:"{1} of calcium is a fundamental component of bones."}
 ]};

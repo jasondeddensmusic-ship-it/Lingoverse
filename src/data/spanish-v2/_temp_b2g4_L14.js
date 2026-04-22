@@ -84,7 +84,7 @@ const LESSON_14 = {id:"esv2_b2g4_l14",title:"Historia y cultura",icon:"🏛️",
  exampleSrc:"A: The Eucharist is the central sacrament of Catholicism.\nB: It is celebrated at every Mass.",
  funFact:"Spain's Corpus Christi celebrations, honoring the Eucharist, feature elaborate street processions."},
 
-{type:"mc",q:"El personaje del 'criado' en el teatro clásico español suele ser:",opts:["Astuto e ingenioso","Torpe y lento","Malvado y cruel","Rico y poderoso"],ans:"Astuto e ingenioso",hint:"Think about the clever servant archetype in Spanish Golden Age plays."},
+{type:"mc",q:"El personaje del 'criado' en el teatro clásico español suele ser:",opts:["Rico y poderoso","Astuto e ingenioso","Torpe y lento","Malvado y cruel"],ans:"Astuto e ingenioso",hint:"Think about the clever servant archetype in Spanish Golden Age plays."},
 
 {type:"teach",trg:"la décima",src:"the tenth / a type of verse",pos:"noun",gender:"f",
  note:"Feminine noun. A tenth part or a 10-line poetic form.\nPoetry: décima espinela (10 octosyllabic lines).",

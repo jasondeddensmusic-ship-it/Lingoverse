@@ -65,10 +65,10 @@ const LESSON_ADMIN = {
    deepDive:{title:"Why Keigo Matters at City Hall",
     text:"Administrative offices are formal contexts requiring polite speech. When making requests, use the humble pattern:\n\n住民票(じゅうみんひょう)を申請(しんせい)したいのですが = I would like to apply for a resident record.\n\nThe のですが ending softens the request. Adding いただけますか makes it even more polite:\n確認(かくにん)していただけますか = Could you please confirm?\n\nStaff respond with sonkeigo (honorific): いらっしゃいますか (are you here?), なさいますか (will you do?). Recognizing both directions of keigo helps you navigate any official encounter."}},
 
-  {type:"mc", q:"住民票(じゅうみんひょう) is:", opts:["a residence card for foreigners","a resident record proving your address","an application form","a renewal notice"], ans:"a resident record proving your address",
+  {type:"mc", q:"住民票(じゅうみんひょう) is:", opts:["a resident record proving your address","an application form","a renewal notice","a residence card for foreigners"], ans:"a resident record proving your address",
    hint:"This document proves where you live in Japan. It is issued by the 役所(やくしょ) and needed for many official purposes."},
 
-  {type:"mc", q:"在留(ざいりゅう)カード is specifically issued to:", opts:["Japanese citizens only","all residents for ID","foreign nationals staying over 3 months","students over 18"], ans:"foreign nationals staying over 3 months",
+  {type:"mc", q:"在留(ざいりゅう)カード is specifically issued to:", opts:["all residents for ID","foreign nationals staying over 3 months","students over 18","Japanese citizens only"], ans:"foreign nationals staying over 3 months",
    hint:"The kanji 在留 means '…/residing.' This card is not for Japanese citizens but for people from other countries living in Japan."},
 
   {type:"fb", s:"パスポートと{1}が必要(ひつよう)です。\n(A passport and documents are required.)", a:"書類(しょるい)", opts:["書類(しょるい)","手続(てつづ)き","申請(しんせい)","更新(こうしん)"], sSrc:"A passport and documents are required.",

@@ -76,7 +76,7 @@ const LESSON_16 = {
      sSrc:"The {1} watches over the forest animals."},
 
     {type:"mc", q:"Depuis quand est-il interdit de fumer dans les restaurants en France?",
-     opts:["2007","1995","2015","2000"],
+     opts:["2000","2007","1995","2015"],
      ans:"2007",
      hint:"The indoor smoking ban came relatively late compared to some other countries"},
 
@@ -93,7 +93,7 @@ const LESSON_16 = {
      sSrc:"They {1} their son Gabriel."},
 
     {type:"mc", q:"Qui a invente le polo (le vetement)?",
-     opts:["Rene Lacoste","Coco Chanel","Yves Saint Laurent","Christian Dior"],
+     opts:["Yves Saint Laurent","Christian Dior","Rene Lacoste","Coco Chanel"],
      ans:"Rene Lacoste",
      hint:"This French tennis player created the iconic shirt with a crocodile logo"},
 
@@ -103,7 +103,7 @@ const LESSON_16 = {
      sSrc:"The {1} thing in this story is the betrayal."},
 
     {type:"mc", q:"'Orange' comme adjectif de couleur est:",
-     opts:["Invariable","Feminin","Masculin pluriel","Accord normal"],
+     opts:["Feminin","Masculin pluriel","Accord normal","Invariable"],
      ans:"Invariable",
      hint:"This color adjective never changes form regardless of the noun it describes"},
 

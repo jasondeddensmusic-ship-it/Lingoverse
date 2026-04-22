@@ -51,7 +51,7 @@ lessons:[
  funFact:"一直 paints a picture of a straight, unbroken line. It implies no interruption or change. 总是 means 'always' for habitual actions, but 一直 means 'continuously without stopping.' Subtle but important difference at B1."},
 
 {type:"mc", q:"你(nǐ)吃(chī)过(guò)北京烤鸭(Běijīng kǎoyā)吗(ma)？ What is this asking?",
- opts:["Are you eating Peking duck now?","Did you eat Peking duck yesterday?","Have you ever eaten Peking duck?","Do you want to eat Peking duck?"],
+ opts:["Have you ever eaten Peking duck?","Do you want to eat Peking duck?","Are you eating Peking duck now?","Did you eat Peking duck yesterday?"],
  ans:"Have you ever eaten Peking duck?",
  hint:"过 after the verb asks about lifetime experience, not a specific moment."},
 
@@ -70,7 +70,7 @@ lessons:[
  sSrc:"I have never been to China."},
 
 {type:"mc", q:"我(wǒ)刚(gāng)到(dào)。 When did the speaker arrive?",
- opts:["A long time ago","Yesterday","Just now","Tomorrow"],
+ opts:["Yesterday","Just now","Tomorrow","A long time ago"],
  ans:"Just now",
  hint:"刚 indicates something happened very recently, within the last few minutes."},
 
@@ -135,7 +135,7 @@ lessons:[
  funFact:"搬 has the hand radical (扌) on the left, showing it involves physical effort. Moving house in Chinese culture involves many traditions: checking lucky dates, carrying a rice cooker first (symbolizing food), and lighting the stove immediately."},
 
 {type:"mc", q:"你(nǐ)记得(jìde)他(tā)吗(ma)？ What is this asking?",
- opts:["Do you know him?","Do you remember him?","Do you like him?","Do you see him?"],
+ opts:["Do you remember him?","Do you like him?","Do you see him?","Do you know him?"],
  ans:"Do you remember him?",
  hint:"记得 means 'to ___.' The question asks whether someone is in your memory."},
 
@@ -165,7 +165,7 @@ lessons:[
  sSrc:"I {1} in Beijing."},
 
 {type:"mc", q:"她(tā)下(xià)个(gè)月(yuè)搬(bān)家(jiā)。 What is she doing next month?",
- opts:["Buying a house","Moving house","Cleaning the house","Visiting home"],
+ opts:["Visiting home","Buying a house","Moving house","Cleaning the house"],
  ans:"Moving house",
  hint:"搬家 means 'to move ___.' The action is planned for next month."},
 
@@ -237,7 +237,7 @@ lessons:[
  sSrc:"I do not {1}, it was a good experience."},
 
 {type:"mc", q:"你(nǐ)决定(juédìng)了(le)吗(ma)？ vs 你(nǐ)选择(xuǎnzé)了(le)吗(ma)？ What is the difference?",
- opts:["They mean the same thing","决定 is about resolving, 选择 is about picking from options","选择 is more formal","决定 is about regret"],
+ opts:["决定 is about regret","They mean the same thing","决定 is about resolving, 选择 is about picking from options","选择 is more formal"],
  ans:"决定 is about resolving, 选择 is about picking from options",
  hint:"决定 means making a firm resolution. 选择 means selecting one thing from multiple ___."},
 
@@ -263,7 +263,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)以前(yǐqián)住(zhù)在(zài)北京(Běijīng)，后来(hòulái)搬(bān)到(dào)了(le)上海(Shànghǎi)。 What happened?",
- opts:["The speaker lives in Beijing now","The speaker moved from Beijing to Shanghai","The speaker has never been to Shanghai","The speaker is moving to Beijing"],
+ opts:["The speaker moved from Beijing to Shanghai","The speaker has never been to Shanghai","The speaker is moving to Beijing","The speaker lives in Beijing now"],
  ans:"The speaker moved from Beijing to Shanghai",
  hint:"以前 marks the previous situation, and 搬到了 shows the move already happened."},
 
@@ -293,7 +293,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)决定(juédìng)不(bù)后悔(hòuhuǐ)。 What is the speaker saying?",
- opts:["I decided to regret it","I decided not to regret it","I regret the decision","I cannot decide"],
+ opts:["I cannot decide","I decided to regret it","I decided not to regret it","I regret the decision"],
  ans:"I decided not to regret it",
  hint:"决定 is the main verb (to decide), and 不后悔 (not ___) is what was ___."},
 
@@ -304,7 +304,7 @@ lessons:[
  sSrc:"I {1} in Shanghai."},
 
 {type:"mc", q:"他(tā)刚(gāng)搬(bān)到(dào)这儿(zhèr)。 When did he move here?",
- opts:["A long time ago","Just recently","Next month","He has not moved yet"],
+ opts:["Next month","He has not moved yet","A long time ago","Just recently"],
  ans:"Just recently",
  hint:"刚 indicates something happened very ___. The move just took place."},
 
@@ -323,7 +323,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"虽然(suīrán)很(hěn)难(nán)，但是(dànshì)我(wǒ)不(bù)后悔(hòuhuǐ)这(zhè)个(gè)选择(xuǎnzé)。 How does the speaker feel?",
- opts:["Regretful about a hard choice","Satisfied with a hard choice","Angry about an easy choice","Unsure about the choice"],
+ opts:["Satisfied with a hard choice","Angry about an easy choice","Unsure about the choice","Regretful about a hard choice"],
  ans:"Satisfied with a hard choice",
  hint:"虽然...但是 acknowledges difficulty. 不后悔 means no regret. The speaker stands by their decision."},
 
@@ -387,7 +387,7 @@ lessons:[
  note:"正 = upright/correct, 确 = certain/confirmed.\n正确的答案 = the correct answer.\n你说得正确 = you are correct (said correctly).",
  example:"A: 这(zhè)个(gè)答案(dá'àn)正确(zhèngquè)吗(ma)？\nB: 对(duì)，你(nǐ)回答(huídá)得(de)很(hěn)正确(zhèngquè)。",
  exampleSrc:"A: Is this answer correct?\nB: Yes, you answered correctly.",
- funFact:"正 appears in many correctness-related words: 正确 (correct), 正式 (formal/official), 正在 (right now). The character 正 shows an arrow hitting a target exactly — hitting the mark is the visual origin of 'correct.' In Chinese school culture, getting 正确答案 (the correct answer) is a serious achievement."},
+ funFact:"正 appears in many correctness-related words: 正确 (correct), 正式 (formal/official), 正在 (right now). The character 正 shows an arrow hitting a target exactly, hitting the mark is the visual origin of 'correct.' In Chinese school culture, getting 正确答案 (the correct answer) is a serious achievement."},
 
 {type:"teach", trg:"合适(héshì)", src:"suitable / appropriate / fitting", pos:"adj", gender:null,
  phonetic:"héshì",
@@ -419,9 +419,9 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)感觉(gǎnjué)今天(jīntiān)的(de)汉语课(Hànyǔkè)很(hěn)有趣(yǒuqù)。 What does 感觉 express here?",
- opts:["A formal opinion about the class","A physical sensation in the body","A feeling or personal impression","A comparison with other classes"],
+ opts:["A feeling or personal impression","A comparison with other classes","A formal opinion about the class","A physical sensation in the body"],
  ans:"A feeling or personal impression",
- hint:"感觉 means 'to ___' — a subjective inner state, not a formal judgment about quality."},
+ hint:"感觉 means 'to ___', a subjective inner state, not a formal judgment about quality."},
 
 {type:"fb", s:"请(qǐng)大家(dàjiā){1}，我们(wǒmen)要(yào)开始(kāishǐ)了(le)。",
  a:["安静(ānjìng)"],
@@ -452,7 +452,7 @@ lessons:[
  sSrc:"I {1} writing Chinese characters every day."},
 
 {type:"mc", q:"这(zhè)本(běn)词典(cídiǎn)非常(fēicháng)有用(yǒuyòng)。 What does 有用 mean?",
- opts:["very interesting","very expensive","very useful","very suitable"],
+ opts:["very suitable","very interesting","very expensive","very useful"],
  ans:"very useful",
  hint:"有 = have, 用 = use. Together they form an adjective: 'having use.'"},
 
@@ -463,7 +463,7 @@ lessons:[
  sSrc:"Learning Chinese is very {1}, I enjoy studying it."},
 
 {type:"mc", q:"她(tā)学习(xuéxí)很(hěn)认真(rènzhēn)。 What compliment is being given?",
- opts:["She is very fast at studying","She studies very seriously and earnestly","She finds studying very interesting","She studies comparatively well"],
+ opts:["She studies very seriously and earnestly","She finds studying very interesting","She studies comparatively well","She is very fast at studying"],
  ans:"She studies very seriously and earnestly",
  hint:"认真 means taking something ___. It is a character compliment, not about speed or results."},
 

@@ -56,7 +56,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'dare del Lei' mean in the workplace?",
-     opts:["To give your name to a colleague","To address someone using the formal 'you'","To introduce yourself at a company meeting","To hand over a document to a superior"],
+     opts:["To address someone using the formal 'you'","To introduce yourself at a company meeting","To hand over a document to a superior","To give your name to a colleague"],
      ans:"To address someone using the formal 'you'",
      hint:"'Lei' is the f... second person pronoun. U... it shows respect for hierarchy and distance until familiarity is offered."},
 
@@ -75,7 +75,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"When do most Italians take their main vacation?",
-     opts:["December for Christmas","March for Easter","August around Ferragosto","January for New Year"],
+     opts:["March for Easter","August around Ferragosto","January for New Year","December for Christmas"],
      ans:"August around Ferragosto",
      hint:"Many businesses close entirely a... A... 15. Italian highways are famously gridlocked as people migrate to the coast."},
 
@@ -97,7 +97,7 @@ const LESSON_5 = {
      sSrc:"This week I worked ten hours of {1}."},
 
     {type:"mc", q:"What is 'il permesso retribuito'?",
-     opts:["Unpaid personal time off","Paid leave from work","A parking permit for staff","A written work authorization"],
+     opts:["A parking permit for staff","A written work authorization","Unpaid personal time off","Paid leave from work"],
      ans:"Paid leave from work",
      hint:"'Retribuito' means 'p....' This l... is for medical, family, or other reasons, and the worker still receives salary."}
   ]

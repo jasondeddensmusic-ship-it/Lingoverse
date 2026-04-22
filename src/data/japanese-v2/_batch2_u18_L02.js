@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: I want to surprise her at the birthday party.\nB: That is a wonderful plan.\nA: What did you eat?\nB: I ate the local specialty.",
      funFact:"驚かせる can be positive (surprise party) or negative (scare someone). サプライズ (surprise, from English) has become a popular loanword for planned pleasant surprises. Japanese surprise parties (sapuraizu paatii) have become trendy, influenced by Western culture but adapted with Japanese attention to detail."},
 
-    {type:"mc", q:"親(おや)を心配(しんぱい)させてすみません means:", opts:["My parents worry too much","I am sorry for making my parents worry","Please do not worry my parents","My parents made me worry"], ans:"I am sorry for making my parents worry",
+    {type:"mc", q:"親(おや)を心配(しんぱい)させてすみません means:", opts:["I am sorry for making my parents worry","Please do not worry my parents","My parents made me worry","My parents worry too much"], ans:"I am sorry for making my parents worry",
      hint:"Causative + てすみません = apologizing for causing someone to experience something."},
 
     {type:"teach", trg:"困(こま)らせる", src:"to trouble someone / to put someone in a difficult position", pos:"verb", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: I am so sad I am about to cry.\nB: Are you okay?\nA: That is nice.\nB: Yes, it was very fun.",
      funFact:"泣きそう uses the auxiliary そう (looks like/about to). Verb stem + そう describes imminent actions: 落(お)ちそう (about to fall), 降(ふ)りそう (about to rain). 泣(な)きそうになる (to get to the point of almost crying) is a very common phrase in emotional storytelling and daily conversation."},
 
-    {type:"mc", q:"上司(じょうし)を怒(おこ)らせてしまった means:", opts:["My boss was already angry","I intentionally angered my boss","I accidentally made my boss angry","My boss made me angry"], ans:"I accidentally made my boss angry",
+    {type:"mc", q:"上司(じょうし)を怒(おこ)らせてしまった means:", opts:["I intentionally angered my boss","I accidentally made my boss angry","My boss made me angry","My boss was already angry"], ans:"I accidentally made my boss angry",
      hint:"Causative + てしまう = causing something to happen regrettably or a...."},
 
     {type:"tip", title:"Emotional Causatives: Impact on Others",
@@ -81,7 +81,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"困(こま)らせる",src:"trouble someone"},{trg:"喜(よろこ)ばせる",src:"make happy"},{trg:"怒(おこ)らせる",src:"make angry"},{trg:"感動的(かんどうてき)",src:"moving/touching"}]},
 
-    {type:"mc", q:"泣(な)かせる vs 泣(な)かれる: what is the difference?", opts:["They mean the same thing","泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)","泣(な)かせる is polite; 泣(な)かれる is casual","泣(な)かせる is past; 泣(な)かれる is present"], ans:"泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)",
+    {type:"mc", q:"泣(な)かせる vs 泣(な)かれる: what is the difference?", opts:["泣(な)かせる is past; 泣(な)かれる is present","They mean the same thing","泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)","泣(な)かせる is polite; 泣(な)かれる is casual"], ans:"泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)",
      hint:"One form is c... (you cause the action); the other is a... p... (you suffer from the action)."},
   {type:"match",pairs:[{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]},
   {type:"fb", s:"映画(えいが)のラストシーンが観客(かんきゃく)を{1}ました。", a:["泣(な)かせる"], opts:["泣(な)かせる","笑(わら)わせる","驚(おどろ)かせる","困(こま)らせる"], hint:"The causative verb for provoking tears in someone.", sSrc:"The final scene of the film {1} the audience."}

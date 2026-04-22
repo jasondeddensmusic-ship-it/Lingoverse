@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 1: Fullness and Possibility
+// Korean B2. Batch 3, Lesson 1: Fullness and Possibility
 // Words: 가구, 가까워지다, 가난, 가능, 가능해지다, 가득하다, 가득히, 가라앉다, 가려지다, 가령, 가로, 가로등, 가로막다, 가로수, 가르다, 가르침, 가만, 가만있다, 가뭄, 가사
 
 const LESSON_1 = {
@@ -83,7 +83,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'가라앉다'의 반대말에 가장 가까운 것은?",
-     opts:["떠오르다","가려지다","가만있다","가득하다"],
+     opts:["가득하다","떠오르다","가려지다","가만있다"],
      ans:"떠오르다",
      hint:"If sinking means going down, the opposite means coming up to the surface."},
 
@@ -163,7 +163,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'가뭄에 콩 나듯'이라는 표현의 의미는?",
-     opts:["아주 드문 일을 뜻한다","농사가 잘되는 것을 뜻한다","비가 많이 오는 것을 뜻한다","콩을 많이 심는 것을 뜻한다"],
+     opts:["비가 많이 오는 것을 뜻한다","콩을 많이 심는 것을 뜻한다","아주 드문 일을 뜻한다","농사가 잘되는 것을 뜻한다"],
      ans:"아주 드문 일을 뜻한다",
      hint:"Think about how rare it would be for beans to grow when there is no water at all."},
 

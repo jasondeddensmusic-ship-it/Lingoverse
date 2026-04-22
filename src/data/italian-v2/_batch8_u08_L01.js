@@ -1,4 +1,4 @@
-// Batch 8 — Unit 08 extra lesson. Shopping: Materials & Fabrics
+// Batch 8. Unit 08 extra lesson. Shopping: Materials & Fabrics
 const BATCH8_L1 = {id:"itv2_u08l_b8_1", title:"Tessuti e materiali", icon:"🧵", xp:15, board:true, steps:[
 {type:"intro", title:"Tessuti e materiali",
  desc:"Learn about fabrics, materials, and quality in Italian fashion and shopping contexts.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u08l_b8_1", title:"Tessuti e materiali", icon:"🧵"
 
 {type:"mc",
  q:"When do Italian 'saldi invernali' (winter sales) begin?",
- opts:["January","November","March","September"],
+ opts:["September","January","November","March"],
  ans:"January",
  hint:"Italy regulates sale seasons by law. The winter sales begin at the start of the new year."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u08l_b8_1", title:"Tessuti e materiali", icon:"🧵"
 
 {type:"mc",
  q:"What does 'cucire' mean?",
- opts:["To sew","To cut","To wash","To iron"],
+ opts:["To wash","To iron","To sew","To cut"],
  ans:"To sew",
  hint:"You need a needle and thread for this activity. Grandmothers traditionally taught this skill."}
 ,{type:"match",pairs:[{trg:"il tessuto",src:"the fabric / textile"},{trg:"cucire",src:"to sew"},{trg:"lo sconto",src:"the discount"},{trg:"il camerino",src:"the fitting room"}]}]};

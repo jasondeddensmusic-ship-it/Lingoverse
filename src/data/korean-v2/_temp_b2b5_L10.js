@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 10: Life, Awards, and Commerce
+// Korean B2. Batch 5, Lesson 10: Life, Awards, and Commerce
 // Words: 살인, 살피다, 삶, 삶다, 삼가다, 삼국, 삼다, 삼촌, 삼키다, 상, 상관, 상관없다, 상관없이, 상금, 상담, 상당, 상당수, 상당하다, 상당히, 상대성
 
 const LESSON_10 = {

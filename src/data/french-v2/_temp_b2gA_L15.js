@@ -86,7 +86,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel mot designe un obstacle ou une epreuve a surmonter ?",
-     opts:["un defi","un parcours","un podium","un arbitre"],
+     opts:["un arbitre","un defi","un parcours","un podium"],
      ans:"un defi",
      hint:"A challenge to be taken on. 'Relever' this word means to rise to the occasion."},
 
@@ -113,7 +113,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quelle qualite physique permet de maintenir un effort prolonge ?",
-     opts:["l'endurance","la revanche","le defi","le classement"],
+     opts:["le defi","le classement","l'endurance","la revanche"],
      ans:"l'endurance",
      hint:"The ability to keep going over a long period. Think of marathon runners."}
   ]

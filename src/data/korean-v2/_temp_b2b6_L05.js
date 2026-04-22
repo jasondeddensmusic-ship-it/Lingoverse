@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 5: New Things and Identity
+// Korean B2. Batch 6, Lesson 5: New Things and Identity
 // Words: 식품점, 식히다, 신경, 신고하다, 신규, 신기하다, 신념, 신랑, 신문사, 신문지, 신분, 신비, 신사, 신설, 신세, 신세대, 신속하다, 신인, 신입생, 신제품
 
 const LESSON_5 = {
@@ -143,7 +143,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"신입생 환영회는 무엇을 위한 행사인가요?",
-     opts:["새로 들어온 학생을 환영하기 위해","졸업생을 축하하기 위해","교수를 소개하기 위해","시험 결과를 발표하기 위해"],
+     opts:["시험 결과를 발표하기 위해","새로 들어온 학생을 환영하기 위해","졸업생을 축하하기 위해","교수를 소개하기 위해"],
      ans:"새로 들어온 학생을 환영하기 위해",
      hint:"The event is for students who are NEW to the school. What is its purpose?"},
 

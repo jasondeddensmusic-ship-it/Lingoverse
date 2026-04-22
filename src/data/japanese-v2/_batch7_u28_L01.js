@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"There is a {1} of train suspension due to the typhoon."},
 
     {type:"mc", q:"記載漏(きさいも)れ on an official document means:",
-     opts:["An omission in the required information","A spelling mistake","A signature missing","An expired date"],
+     opts:["An expired date","An omission in the required information","A spelling mistake","A signature missing"],
      ans:"An omission in the required information",
      hint:"Failing to fill in r... fields can cause document rejection in Japanese bureaucracy."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"The report {1} is ready. Please review it."},
 
     {type:"mc", q:"ないし is used for:",
-     opts:["Expressing a range (2 to 3 weeks)","Asking questions","Showing contrast","Expressing emotions"],
+     opts:["Showing contrast","Expressing emotions","Expressing a range (2 to 3 weeks)","Asking questions"],
      ans:"Expressing a range (2 to 3 weeks)",
      hint:"This formal conjunction means 'or' or 'to' when describing a r... of values."},
 

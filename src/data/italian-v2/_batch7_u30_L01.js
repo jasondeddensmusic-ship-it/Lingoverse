@@ -1,4 +1,4 @@
-// Batch 7 — Unit 30 extra lesson. Il congiuntivo avanzato: Formal Writing & Registers
+// Batch 7. Unit 30 extra lesson. Il congiuntivo avanzato: Formal Writing & Registers
 const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F4DD}", xp:15, board:true, steps:[
 {type:"intro", title:"Il registro formale",
  desc:"Master formal writing expressions, academic register, and sophisticated subjunctive constructions.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
 ]},
 
 {type:"mc", q:"In un saggio accademico, quale parola per 'therefore' e più appropriata?",
- opts:["pertanto","quindi","percio","allora"],
+ opts:["allora","pertanto","quindi","percio"],
  ans:"pertanto",
  hint:"The most formal option in the hierarchy. Preferred in academic writing."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  sSrc:"In {1} of the new data, let us revise the strategy."},
 
 {type:"mc", q:"Che costruzione formale si usa per 'it should be emphasized'?",
- opts:["Va sottolineato che","E importante","Bisogna dire","Si deve capire"],
+ opts:["Bisogna dire","Si deve capire","Va sottolineato che","E importante"],
  ans:"Va sottolineato che",
  hint:"Uses 'va + past participle' construction. Very formal passive voice."},
 

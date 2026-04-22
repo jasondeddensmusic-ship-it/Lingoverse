@@ -80,7 +80,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot désigne un animal à carapace comme le crabe ou le homard ?",
-     opts:["un crustacé","un mammifère","un neurone","une mâchoire"],
+     opts:["une mâchoire","un crustacé","un mammifère","un neurone"],
      ans:"un crustacé",
      hint:"Think of shellfish. Crabs, lobsters, and shrimp all belong to this category."},
 
@@ -119,7 +119,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot signifie 'la transmission des caractères biologiques des parents aux enfants' ?",
-     opts:["l'hérédité","la malformation","l'indigestion","l'insuffisance"],
+     opts:["l'indigestion","l'insuffisance","l'hérédité","la malformation"],
      ans:"l'hérédité",
      hint:"The passing of traits from one generation to the next. Think of genes and DNA."},
 

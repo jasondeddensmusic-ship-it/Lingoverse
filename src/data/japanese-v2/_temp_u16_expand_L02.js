@@ -24,7 +24,7 @@ const LESSON_4 = {id:"jav2_u16l4", title:"スケジュール", icon:"⏰", xp:15
    exampleSrc:"A: Please submit the report by Friday.\nB: Understood. I will submit it on Thursday.\nA: When was it?\nB: It was last summer.",
    funFact:"までに (by) and まで (until) are commonly confused. ごじまで (until 5) means the action continues until 5. ごじまでに (by 5) means it must be done before the 5 o'clock deadline. This distinction matters greatly in work: 'work until 5' vs 'finish by 5' are very different instructions."},
 
-  {type:"mc", q:"さんじごろ means:", opts:["Exactly at 3","Around 3 o'clock","Before 3","After 3"], ans:"Around 3 o'clock",
+  {type:"mc", q:"さんじごろ means:", opts:["Around 3 o'clock","Before 3","After 3","Exactly at 3"], ans:"Around 3 o'clock",
    hint:"ごろ makes a time approximate, meaning 'a...' that time."},
 
   {type:"teach", trg:"おくれる", src:"to be late", pos:"verb", gender:null,

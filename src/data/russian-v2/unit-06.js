@@ -1,4 +1,4 @@
-// Russian V2 Unit 6 — Places and Directions (A1.2)
+// Russian V2 Unit 6. Places and Directions (A1.2)
 const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:"Places and Location",
  icon:"🗺️", level:"A1.2", color:"#7B5EE8",
  lessons:[
@@ -13,7 +13,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Used for static location (where something IS).\nOpposite of куда (where TO).",
  example:"A: Где ты?\nB: Я здесь.",
  exampleSrc:"A: Where are you?\nB: I'm here.",
- funFact:"Russian distinguishes location vs direction: где (where, static) vs куда (where, moving). English uses 'where' for both. This distinction is consistent in Russian — don't mix them."},
+ funFact:"Russian distinguishes location vs direction: где (where, static) vs куда (where, moving). English uses 'where' for both. This distinction is consistent in Russian, don't mix them."},
 
 {type:"teach", trg:"здесь", src:"here", pos:"adv", gender:null,
  note:"For location (static).\nSynonym: тут (more colloquial).",
@@ -31,7 +31,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Masculine. Ends in consonant.\nBoth the physical house and the concept of home.",
  example:"A: Это твой дом?\nB: Да, это мой дом.",
  exampleSrc:"A: Is this your house?\nB: Yes, this is my house.",
- funFact:"Russian distinguishes house vs home by preposition: в доме (in the building) vs дома (at home, adverbial). The phrase 'дом — это крепость' (home is a fortress) is a common saying."},
+ funFact:"Russian distinguishes house vs home by preposition: в доме (in the building) vs дома (at home, adverbial). The phrase 'дом, это крепость' (home is a fortress) is a common saying."},
 
 {type:"teach", trg:"школа", src:"school", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nCommon loanword base for many languages.",
@@ -43,7 +43,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Feminine. Ends in -а.\nBoth 'work' (activity) and 'workplace.'",
  example:"A: Где твоя работа?\nB: Там.",
  exampleSrc:"A: Where is your work?\nB: There.",
- funFact:"Работа shares a root with раб (slave) — reflecting old Slavic understanding of work as servitude. The modern Russian 'работать' (to work) still carries this Latin-like root."},
+ funFact:"Работа shares a root with раб (slave), reflecting old Slavic understanding of work as servitude. The modern Russian 'работать' (to work) still carries this Latin-like root."},
 
 {type:"teach", trg:"магазин", src:"shop / store", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nFrom French 'magasin.'",
@@ -58,11 +58,11 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  funFact:"Moscow has the 'ресторанный рейтинг' (restaurant rating) culture, with Russian equivalents of Michelin stars. Famous chain White Rabbit was ranked in World's 50 Best Restaurants."},
 
 {type:"tip", title:"Location vs Direction: Где vs Куда",
- text:"Russian splits 'where' into two distinct concepts:\n\nГДЕ (location, static):\nГде ты? (Where are you?)\nВ магазине. (At the store.)\nPreposition + PREPOSITIONAL CASE.\n\nКУДА (direction, motion):\nКуда ты идёшь? (Where are you going?)\nВ магазин. (To the store.)\nPreposition + ACCUSATIVE CASE.\n\nNotice: в магазине (prep) vs в магазин (acc). The ending changes by case!\n\nThis is a FUNDAMENTAL Russian distinction. It appears with many verbs and prepositions. Master it early — you'll use it constantly.",
+ text:"Russian splits 'where' into two distinct concepts:\n\nГДЕ (location, static):\nГде ты? (Where are you?)\nВ магазине. (At the store.)\nPreposition + PREPOSITIONAL CASE.\n\nКУДА (direction, motion):\nКуда ты идёшь? (Where are you going?)\nВ магазин. (To the store.)\nPreposition + ACCUSATIVE CASE.\n\nNotice: в магазине (prep) vs в магазин (acc). The ending changes by case!\n\nThis is a FUNDAMENTAL Russian distinction. It appears with many verbs and prepositions. Master it early, you'll use it constantly.",
  icon:"🎯"},
 
 {type:"mc", q:"'Where are you?' (asking about static location) is:",
- opts:["Куда ты?","Где ты?","Откуда ты?","Что ты?"],
+ opts:["Где ты?","Откуда ты?","Что ты?","Куда ты?"],
  ans:"Где ты?",
  hint:"Location (static) uses где. Куда is for direction (where TO)."},
 
@@ -102,7 +102,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"For surfaces (на столе = on the table), events (на концерте = at the concert), islands.\nLike в, takes prepositional for location.",
  example:"A: Где школа?\nB: Она там, рядом.",
  exampleSrc:"A: Where is the school?\nB: It's there, nearby.",
- funFact:"Islands and peninsulas use на, not в: на Кубе (in Cuba), на Украине (in Ukraine — politically controversial, modern use prefers в Украину), на Кипре (in Cyprus)."},
+ funFact:"Islands and peninsulas use на, not в: на Кубе (in Cuba), на Украине (in Ukraine, politically controversial, modern use prefers в Украину), на Кипре (in Cyprus)."},
 
 {type:"teach", trg:"у", src:"at (someone's place) / by", pos:"prep", gender:null,
  note:"Takes the genitive case.\nУ меня = at my place / I have.",
@@ -126,7 +126,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Adverb. With с + instrumental: 'рядом с кем/чем'.\nStress on first: RYA-dom.",
  example:"A: Где твоя школа?\nB: Рядом с моим домом.",
  exampleSrc:"A: Where is your school?\nB: Next to my house.",
- funFact:"Рядом literally means 'in a row' (from ряд = row). In Russian, things that are 'nearby' are in the same row — implying close proximity."},
+ funFact:"Рядом literally means 'in a row' (from ряд = row). In Russian, things that are 'nearby' are in the same row, implying close proximity."},
 
 {type:"teach", trg:"далеко", src:"far", pos:"adv", gender:null,
  note:"Literally: 'far away.'\nOpposite of близко (close).",
@@ -138,14 +138,14 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Opposite of далеко.\nSame от + genitive construction: близко от (close to/from).",
  example:"A: Магазин близко?\nB: Да, в пяти минутах.",
  exampleSrc:"A: Is the store close?\nB: Yes, five minutes away.",
- funFact:"'В пяти минутах' (in five minutes) is the Russian way to express distance in time. Also 'в двух шагах' (two steps away — meaning very close)."},
+ funFact:"'В пяти минутах' (in five minutes) is the Russian way to express distance in time. Also 'в двух шагах' (two steps away, meaning very close)."},
 
 {type:"tip", title:"Prepositions Take Cases",
  text:"Russian prepositions govern specific cases. You must memorize which case each preposition uses.\n\nFOR LOCATION:\nВ + prepositional: в школе (at school).\nНа + prepositional: на столе (on the table).\nУ + genitive: у меня (at my place).\n\nFOR MOTION/DIRECTION:\nВ + accusative: в школу (to school).\nНа + accusative: на стол (onto the table).\nК + dative: к маме (to mom's).\n\nSame preposition, DIFFERENT CASE = different meaning!\nВ магазине = at the store (I'm there).\nВ магазин = to the store (I'm going).\n\nThis is WHY cases matter in Russian. They disambiguate what would otherwise be identical prepositions.",
  icon:"🔑"},
 
 {type:"mc", q:"Which preposition expresses 'at someone's place' in Russian?",
- opts:["в","на","у","за"],
+ opts:["у","за","в","на"],
  ans:"у",
  hint:"The preposition takes genitive: 'у друга' (at friend's)."},
 
@@ -157,7 +157,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 {type:"fb", s:"A: Где ты живёшь?\nB: Я живу {1} Петербурге.",
  a:["в"],
  opts:["в","на","у","за"],
- hint:"Cities are 'enclosed' areas — use the preposition for enclosed spaces (with prepositional case ending -е).",
+ hint:"Cities are 'enclosed' areas, use the preposition for enclosed spaces (with prepositional case ending -е).",
  sSrc:"A: Where do you live?\nB: I live {1} Petersburg."},
 
 {type:"fb", s:"A: Где кошка?\nB: {1} диваном.",
@@ -185,7 +185,7 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"For motion/direction, not location.\nOpposite of где (static where).",
  example:"A: Куда ты идёшь?\nB: В магазин.",
  exampleSrc:"A: Where are you going?\nB: To the store.",
- funFact:"'Куда глаза глядят' (wherever the eyes look) — a Russian idiom meaning 'to wander aimlessly.' Famous opening to many fairy tales."},
+ funFact:"'Куда глаза глядят' (wherever the eyes look), a Russian idiom meaning 'to wander aimlessly.' Famous opening to many fairy tales."},
 
 {type:"teach", trg:"идти", src:"to go (on foot)", pos:"verb", gender:null,
  note:"For walking or going on foot.\nIrregular conjugation: я иду, ты идёшь, они идут.",
@@ -219,22 +219,22 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
 
 {type:"teach", trg:"быстро", src:"quickly", pos:"adv", gender:null,
  note:"Used with verbs of motion.\nOpposite of медленно (slowly).",
- example:"A: Как далеко?\nB: Если идти быстро — десять минут.",
- exampleSrc:"A: How far?\nB: If you walk quickly — ten minutes.",
+ example:"A: Как далеко?\nB: Если идти быстро, десять минут.",
+ exampleSrc:"A: How far?\nB: If you walk quickly, ten minutes.",
  funFact:"Быстро is the root of 'быстрый' (fast) and 'быстрота' (speed). Russian word families let you guess many related words once you know one base."},
 
 {type:"teach", trg:"медленно", src:"slowly", pos:"adv", gender:null,
  note:"Opposite of быстро.\nDouble-N in Russian: pronounced as long N.",
  example:"A: Идите медленно, пожалуйста.\nB: Да, хорошо.",
  exampleSrc:"A: Please walk slowly.\nB: Yes, okay.",
- funFact:"The phrase 'Говорите медленно, пожалуйста!' is every Russian learner's lifeline. Russian is notorious for fast speech — this is the phrase that signals 'please slow down.'"},
+ funFact:"The phrase 'Говорите медленно, пожалуйста!' is every Russian learner's lifeline. Russian is notorious for fast speech, this is the phrase that signals 'please slow down.'"},
 
 {type:"tip", title:"Motion Verbs: Идти vs Ехать",
- text:"Russian has TWO verbs for 'to go,' based on how you travel:\n\nИДТИ — on foot (walking).\nЯ иду в парк. (I'm walking to the park.)\n\nЕХАТЬ — by any vehicle.\nЯ еду на работу. (I'm going to work [by car/bus/etc.].)\n\nNEVER use идти when you're in a vehicle. This is wrong:\n✗ Я иду в Петербург. (if you're taking a train).\n\nRight:\n✓ Я еду в Петербург.\n\nAdditional verbs will come for going by plane (лететь), by boat (плыть). But идти/ехать covers most daily situations.",
+ text:"Russian has TWO verbs for 'to go,' based on how you travel:\n\nИДТИ, on foot (walking).\nЯ иду в парк. (I'm walking to the park.)\n\nЕХАТЬ, by any vehicle.\nЯ еду на работу. (I'm going to work [by car/bus/etc.].)\n\nNEVER use идти when you're in a vehicle. This is wrong:\n✗ Я иду в Петербург. (if you're taking a train).\n\nRight:\n✓ Я еду в Петербург.\n\nAdditional verbs will come for going by plane (лететь), by boat (плыть). But идти/ехать covers most daily situations.",
  icon:"🚶🚗"},
 
 {type:"mc", q:"Which verb means 'to go by car/train/bus'?",
- opts:["идти","ехать","ходить","бежать"],
+ opts:["ехать","ходить","бежать","идти"],
  ans:"ехать",
  hint:"For any motorized transport, use this verb. Идти is only for walking."},
 
@@ -277,13 +277,13 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Masculine. Ends in consonant.\nPrepositional: в банке (at the bank).",
  example:"A: Где банк?\nB: Там, рядом.",
  exampleSrc:"A: Where is the bank?\nB: There, nearby.",
- funFact:"Russian inherited 'банк' from Italian 'banca' (bench) — medieval money-changers worked at wooden benches. The Russian Central Bank (Центральный банк) was founded in 1990 and controls the ruble."},
+ funFact:"Russian inherited 'банк' from Italian 'banca' (bench), medieval money-changers worked at wooden benches. The Russian Central Bank (Центральный банк) was founded in 1990 and controls the ruble."},
 
 {type:"teach", trg:"университет", src:"university", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nPrepositional: в университете (at university).",
  example:"A: Где твой университет?\nB: Там, далеко.",
  exampleSrc:"A: Where is your university?\nB: There, far away.",
- funFact:"Moscow State University (МГУ — Московский государственный университет) was founded in 1755 and is the oldest in Russia. Its Stalin-era skyscraper on Sparrow Hills is one of Moscow's most iconic buildings."},
+ funFact:"Moscow State University (МГУ, Московский государственный университет) was founded in 1755 and is the oldest in Russia. Its Stalin-era skyscraper on Sparrow Hills is one of Moscow's most iconic buildings."},
 
 {type:"teach", trg:"супермаркет", src:"supermarket", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nPrepositional: в супермаркете (at the supermarket).",
@@ -295,37 +295,37 @@ const UNIT_06 = {n:6, lang:"ru", srcLang:"en", track:"v2", title:"Где?", sub:
  note:"Feminine. Ends in -ия.\nPrepositional: на станции (at the station). Use на, not в.",
  example:"A: Где станция?\nB: Рядом с банком.",
  exampleSrc:"A: Where is the station?\nB: Next to the bank.",
- funFact:"Moscow Metro has 257 stations — more than London. Each is uniquely decorated: marble halls, mosaics, chandeliers. Muscovites call it 'the most beautiful metro in the world.'"},
+ funFact:"Moscow Metro has 257 stations, more than London. Each is uniquely decorated: marble halls, mosaics, chandeliers. Muscovites call it 'the most beautiful metro in the world.'"},
 
 {type:"teach", trg:"библиотека", src:"library", pos:"noun", gender:"f",
  note:"Feminine. Ends in -а.\nPrepositional: в библиотеке (at the library).",
  example:"A: Ты идёшь в библиотеку?\nB: Да, там тихо.",
  exampleSrc:"A: Are you going to the library?\nB: Yes, it's quiet there.",
- funFact:"The Russian State Library in Moscow (formerly Lenin Library) holds over 47 million items — one of the largest collections in the world. Russians have the highest book-reading rate in Europe."},
+ funFact:"The Russian State Library in Moscow (formerly Lenin Library) holds over 47 million items, one of the largest collections in the world. Russians have the highest book-reading rate in Europe."},
 
 {type:"teach", trg:"кафе", src:"café", pos:"noun", gender:"n",
- note:"Neuter. Indeclinable — form never changes.\nAlways: в кафе (in the café), even in other cases.",
+ note:"Neuter. Indeclinable, form never changes.\nAlways: в кафе (in the café), even in other cases.",
  example:"A: Где ты?\nB: Я в кафе.",
  exampleSrc:"A: Where are you?\nB: I'm at a café.",
- funFact:"Кафе is an indeclinable word — borrowed from French, it keeps its form in all cases. Russian has many such foreign borrowings: кино, метро, такси. The final vowel signals they don't follow standard Russian declension patterns."},
+ funFact:"Кафе is an indeclinable word, borrowed from French, it keeps its form in all cases. Russian has many such foreign borrowings: кино, метро, такси. The final vowel signals they don't follow standard Russian declension patterns."},
 
 {type:"teach", trg:"парк", src:"park", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nPrepositional: в парке (in the park).",
  example:"A: Где ты был?\nB: Я был в парке.",
  exampleSrc:"A: Where were you?\nB: I was in the park.",
- funFact:"Gorky Park (Парк Горького) opened in 1928 in Moscow and was the Soviet Union's first 'culture and rest park.' Today it has bike rentals, outdoor gyms, and ping-pong tables — a modern Moscow landmark."},
+ funFact:"Gorky Park (Парк Горького) opened in 1928 in Moscow and was the Soviet Union's first 'culture and rest park.' Today it has bike rentals, outdoor gyms, and ping-pong tables, a modern Moscow landmark."},
 
 {type:"tip", title:"Prepositional Case with Places",
- text:"Most place nouns use В + prepositional case for location.\n\nMASCULINE and NEUTER nouns: add -е.\nбанк → в банке (at the bank).\nуниверситет → в университете.\nсупермаркет → в супермаркете.\nпарк → в парке.\n\nFEMININE nouns ending -а: change to -е.\nбиблиотека → в библиотеке.\n\nFEMININE nouns ending -ия: change to -ии.\nстанция → на станции (use НА, not В).\n\nINDECLINABLE (foreign loans ending in vowel): never change!\nкафе → в кафе (same form always).\n\nRemember: 'на станции' not 'в станции' — stations use на like events and some public places.",
+ text:"Most place nouns use В + prepositional case for location.\n\nMASCULINE and NEUTER nouns: add -е.\nбанк → в банке (at the bank).\nуниверситет → в университете.\nсупермаркет → в супермаркете.\nпарк → в парке.\n\nFEMININE nouns ending -а: change to -е.\nбиблиотека → в библиотеке.\n\nFEMININE nouns ending -ия: change to -ии.\nстанция → на станции (use НА, not В).\n\nINDECLINABLE (foreign loans ending in vowel): never change!\nкафе → в кафе (same form always).\n\nRemember: 'на станции' not 'в станции', stations use на like events and some public places.",
  icon:"📍"},
 
-{type:"mc", q:"Where is the bank? — Где банк?",
- opts:["В библиотеке","Рядом с кафе","В парке","На станции"],
+{type:"mc", q:"Where is the bank?, Где банк?",
+ opts:["Рядом с кафе","В парке","На станции","В библиотеке"],
  ans:"Рядом с кафе",
  hint:"The question asks where the bank IS. 'Next to the café' is a valid location answer."},
 
 {type:"mc", q:"Which noun is FEMININE?",
- opts:["банк","парк","станция","супермаркет"],
+ opts:["парк","станция","супермаркет","банк"],
  ans:"станция",
  hint:"Nouns ending in -ия are feminine. The three masculine options all end in consonants."},
 

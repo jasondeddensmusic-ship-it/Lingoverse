@@ -1,4 +1,4 @@
-// Batch 6 — Unit 35 extra lesson. L'innovazione: AI, Automation & Future Work
+// Batch 6. Unit 35 extra lesson. L'innovazione: AI, Automation & Future Work
 const BATCH6_L1 = {id:"itv2_u35l_b6_1", title:"L'intelligenza artificiale", icon:"\u{1F916}", xp:15, board:true, steps:[
 {type:"intro", title:"L'intelligenza artificiale",
  desc:"Learn vocabulary for artificial intelligence, automation, and the future of work and technology.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u35l_b6_1", title:"L'intelligenza artificiale", icon
  {trg:"il brevetto", src:"patent"}
 ]},
 {type:"mc", q:"Come chiamano gli italiani il lavoro da remoto?",
- opts:["Smart working (o lavoro agile)","Home office","Telelavoro solo","Remote job"],
+ opts:["Remote job","Smart working (o lavoro agile)","Home office","Telelavoro solo"],
  ans:"Smart working (o lavoro agile)",
  hint:"Italy borrowed an English term that English speakers rarely use. The legal term is 'l... a....'"},
 {type:"fb", s:"La {1} deve guidare l'innovazione per proteggere l'ambiente.", a:["sostenibilita"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u35l_b6_1", title:"L'intelligenza artificiale", icon
  hint:"Meeting present needs without compromising future generations.",
  sSrc:"{1} must guide innovation to protect the environment."},
 {type:"mc", q:"Quale regione italiana e leader nell'automazione industriale?",
- opts:["Emilia-Romagna","Sicilia","Sardegna","Calabria"],
+ opts:["Sardegna","Calabria","Emilia-Romagna","Sicilia"],
  ans:"Emilia-Romagna",
  hint:"A northern Italian region known for manufacturing, automotive, and industrial innovation."},
 {type:"fb", s:"Le {1} imparano dai dati, come fa il cervello umano.", a:["reti neurali"],

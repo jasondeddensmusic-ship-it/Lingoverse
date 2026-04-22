@@ -1,4 +1,4 @@
-// Batch 4 — Unit 01 Lesson 2: Polite Expressions & Apologies
+// Batch 4. Unit 01 Lesson 2: Polite Expressions & Apologies
 const BATCH4_L_2 = {
   id:"jav2_u01l_b4_2", title:"丁寧(ていねい)なことば", icon:"🙇", xp:15, board:true,
   steps:[
@@ -111,7 +111,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What does ごちそうさまでした mean?",
-     opts:["thank you for the meal","congratulations","I'm sorry","good morning"], ans:"thank you for the meal",
+     opts:["I'm sorry","good morning","thank you for the meal","congratulations"], ans:"thank you for the meal",
      hint:"Said after finishing eating to express gratitude."},
 
     {type:"fb", s:"風邪(かぜ)ですか？{1}。", a:"お大事(だいじ)に",
@@ -120,7 +120,7 @@ const BATCH4_L_2 = {
      hint:"A caring phrase for someone who is unwell."},
 
     {type:"mc", q:"ごめんなさい is best translated as:",
-     opts:["I'm sorry (apology)","excuse me","thank you","congratulations"], ans:"I'm sorry (apology)",
+     opts:["excuse me","thank you","congratulations","I'm sorry (apology)"], ans:"I'm sorry (apology)",
      hint:"A direct, emotional a... to someone you wronged."}
   ,{type:"match",pairs:[{trg:"ごめんなさい",src:"I'm sorry (apology)"},{trg:"お願(ねが)いします",src:"please (request)"},{trg:"お疲(つか)れさまです",src:"good work / thanks for your effort"},{trg:"ただいま",src:"I'm home"}]}]
 };

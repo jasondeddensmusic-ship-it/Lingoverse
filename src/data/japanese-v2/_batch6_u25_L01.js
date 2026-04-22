@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: You contributed greatly to this project's success.\nB: Thank you. It was the entire team's effort.\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"貢献(こうけん) combines 貢 (tribute) and 献 (offering). In Japanese corporate evaluations, 貢献度(こうけんど) (contribution level) determines bonuses and promotions. 社会貢献(しゃかいこうけん) (social contribution) through volunteering, charity, and environmental programs is increasingly important for corporate reputation."},
 
-    {type:"mc", q:"締(し)め切(き)り means:", opts:["Deadline","Contract","Profit","Efficiency"], ans:"Deadline",
+    {type:"mc", q:"締(し)め切(き)り means:", opts:["Efficiency","Deadline","Contract","Profit"], ans:"Deadline",
      hint:"This word literally means 'closing and cutting off,' referring to a time limit."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"目標(もくひょう)を{1}にしてください。\n(Please clarify the goals.)", a:"めいかく", opts:["めいかく","ふくざつ","かんたん","あいまい"], sSrc:"Please clarify the goals.",
      hint:"The na-adjective meaning clear, precise, and definite."},
 
-    {type:"mc", q:"採用(さいよう) covers:", opts:["Both hiring people and adopting plans","Only hiring people","Only adopting plans","Firing people"], ans:"Both hiring people and adopting plans",
+    {type:"mc", q:"採用(さいよう) covers:", opts:["Only adopting plans","Firing people","Both hiring people and adopting plans","Only hiring people"], ans:"Both hiring people and adopting plans",
      hint:"This versatile word is used for bringing in both new employees and new ideas."}
   ,{type:"match",pairs:[{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"締(し)め切(き)り",src:"deadline"},{trg:"採用(さいよう)",src:"hiring / adoption (of a plan)"},{trg:"貢献(こうけん)",src:"contribution"}]},
   {type:"fb", s:"両社(りょうしゃ)は新(あたら)しい{1}に署名(しょめい)しました。", a:["契約(けいやく)"], opts:["契約(けいやく)","条件(じょうけん)","判断(はんだん)","交渉(こうしょう)"], hint:"A formal written agreement between two parties with legal binding.", sSrc:"The two companies signed a new {1}."},

@@ -1,4 +1,4 @@
-// Batch 7 — Unit 14 extra lesson. Il mondo del lavoro: Job Interviews & Applications
+// Batch 7. Unit 14 extra lesson. Il mondo del lavoro: Job Interviews & Applications
 const BATCH7_L1 = {id:"itv2_u14l_b7_1", title:"Il colloquio di lavoro", icon:"\u{1F4BC}", xp:15, board:true, steps:[
 {type:"intro", title:"Il colloquio di lavoro",
  desc:"Learn essential vocabulary for job interviews, applications, and the hiring process in Italy.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u14l_b7_1", title:"Il colloquio di lavoro", icon:"\u
 ]},
 
 {type:"mc", q:"In Italia, che cosa e una 'raccomandazione'?",
- opts:["A personal connection vouching for you","A reference letter","A job application","A training course"],
+ opts:["A training course","A personal connection vouching for you","A reference letter","A job application"],
  ans:"A personal connection vouching for you",
  hint:"Controversial but common. Having someone who knows you speak on your behalf."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u14l_b7_1", title:"Il colloquio di lavoro", icon:"\u
  sSrc:"What are the {1} for this job?"},
 
 {type:"mc", q:"Quanti mesi di tirocinio ha fatto il candidato?",
- opts:["Sei","Tre","Dodici","Due"],
+ opts:["Dodici","Due","Sei","Tre"],
  ans:"Sei",
  hint:"The example in the teach card mentioned this specific duration for the internship."},
 

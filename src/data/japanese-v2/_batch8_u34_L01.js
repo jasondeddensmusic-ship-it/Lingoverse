@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"外交(がいこう)",src:"diplomacy"},{trg:"制裁(せいさい)",src:"sanctions"},{trg:"難民(なんみん)",src:"refugee"},{trg:"同盟(どうめい)",src:"alliance"},{trg:"軍縮(ぐんしゅく)",src:"disarmament"}],
      hint:"Match each international relations term with its English meaning."},
 
-    {type:"mc", q:"Why is Japan's 難民(なんみん) recognition rate criticized?", opts:["It is extremely low at about 1-2% of applications","It is too high","The process is too fast","There are no applications"], ans:"It is extremely low at about 1-2% of applications",
+    {type:"mc", q:"Why is Japan's 難民(なんみん) recognition rate criticized?", opts:["There are no applications","It is extremely low at about 1-2% of applications","It is too high","The process is too fast"], ans:"It is extremely low at about 1-2% of applications",
      hint:"This rate is significantly lower than most other developed nations."},
 
     {type:"fb", s:"日米(にちべい){1}は日本(にほん)の安全保障(あんぜんほしょう)の基盤(きばん)です。\n(The US-Japan alliance is the foundation of Japan's security.)", a:"同盟(どうめい)", opts:["同盟(どうめい)","外交(がいこう)","緊張(きんちょう)","調停(ちょうてい)"], sSrc:"The US-Japan alliance is the foundation of Japan's security.",
      hint:"This word means a formal partnership between nations for mutual benefit."},
 
-    {type:"mc", q:"What limits Japan's PKO military activities abroad?", opts:["Constitutional constraints from Article 9","Lack of military equipment","International treaties","Budget limitations"], ans:"Constitutional constraints from Article 9",
+    {type:"mc", q:"What limits Japan's PKO military activities abroad?", opts:["International treaties","Budget limitations","Constitutional constraints from Article 9","Lack of military equipment"], ans:"Constitutional constraints from Article 9",
      hint:"Japan's pacifist constitution restricts the use of force in international operations."}
   ,{type:"match",pairs:[{trg:"首脳(しゅのう)",src:"head of state / leader / chief"},{trg:"調停(ちょうてい)",src:"mediation / arbitration / adjustment"},{trg:"多国間協定(たこくかんきょうてい)",src:"multilateral agreement"},{trg:"相互理解(そうごりかい)",src:"mutual understanding"},{trg:"人道的援助(じんどうてきえんじょ)",src:"humanitarian aid"},{trg:"平和維持(へいわいじ)",src:"peacekeeping"}]},{type:"match",pairs:[{trg:"緊張(きんちょう)",src:"tension / strain"}]}]
 };

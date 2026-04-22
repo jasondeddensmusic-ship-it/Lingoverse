@@ -109,7 +109,7 @@ const LESSON_5 = {
      sSrc:"I cannot {1} this situation anymore."},
 
     {type:"mc", q:"What suffix pattern creates 'tenerezza' from 'tenero'?",
-     opts:["The -mente suffix for adverbs","The -ezza suffix for abstract nouns","The -zione suffix for processes","The -ismo suffix for ideologies"],
+     opts:["The -zione suffix for processes","The -ismo suffix for ideologies","The -mente suffix for adverbs","The -ezza suffix for abstract nouns"],
      ans:"The -ezza suffix for abstract nouns",
      hint:"Same pattern as triste > tristezza, bello > bellezza, dolce > dolcezza. One of Italian's most productive word-building tools."}
   ]

@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 13 — Dieren en Natuur
+// Dutch B2 gapB Lesson 13. Dieren en Natuur
 // Animals, nature, and wildlife vocabulary
 
 const LESSON_13 = {id:"nlv2_b2gB_l13", title:"Dieren en Natuur", icon:"\u{1F426}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_13 = {id:"nlv2_b2gB_l13", title:"Dieren en Natuur", icon:"\u{1F426}
  funFact:"Dutch 'kruisingen' (crossroads) are often roundabouts. The Netherlands has more roundabouts per capita than almost any country."},
 
 {type:"mc", q:"'Krokodillentranen huilen' betekent:",
- opts:["To cry from pain","To show fake sadness","To be scared of crocodiles","To cry very loudly"],
+ opts:["To show fake sadness","To be scared of crocodiles","To cry very loudly","To cry from pain"],
  ans:"To show fake sadness",
  hint:"Same expression as in English: tears that aren't genuine"},
 

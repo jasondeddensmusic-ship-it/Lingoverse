@@ -1,4 +1,4 @@
-// L14: Finance and Economy — 20 B1 gap words
+// L14: Finance and Economy, 20 B1 gap words
 const LESSON_14 = {
   id:"nlv2_b1gap_l14", title:"Geld en Economie", icon:"\u{1F4B0}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Je hebt een nieuwe bankpas gekregen. Wat moet je eerst doen?",
-     opts:["activeren","automatiseren","aflossen","aanleveren"],
+     opts:["aanleveren","activeren","automatiseren","aflossen"],
      ans:"activeren",
      hint:"Which verb describes making a new card or account ready for use?"},
 
@@ -144,7 +144,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Je wilt je werk minder saai maken. Je zoekt meer ___.",
-     opts:["afwisseling","afschrijving","agglomeratie","arbeidsparticipatie"],
+     opts:["agglomeratie","arbeidsparticipatie","afwisseling","afschrijving"],
      ans:"afwisseling",
      hint:"Which word means having different tasks and not doing the same thing every day?"}
   ]

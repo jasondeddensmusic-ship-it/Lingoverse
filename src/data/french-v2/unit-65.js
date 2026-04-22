@@ -1,4 +1,4 @@
-// French V2 Unit 65 — B2 Vocabulary Batch 7
+// French V2 Unit 65. B2 Vocabulary Batch 7
 import L11 from './_temp_b2g7_L11.js';
 import L12 from './_temp_b2g7_L12.js';
 import L13 from './_temp_b2g7_L13.js';

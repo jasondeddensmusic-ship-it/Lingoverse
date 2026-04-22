@@ -73,7 +73,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"私小説(ししょうせつ)",src:"I-novel"},{trg:"物(もの)の哀(あわ)れ",src:"pathos of things"},{trg:"文語体(ぶんごたい)",src:"literary style"},{trg:"現代文学(げんだいぶんがく)",src:"contemporary literature"}]},
 
-    {type:"mc", q:"言文一致(げんぶんいっち) was a Meiji-era movement to:", opts:["Unify spoken and written Japanese","Create a new alphabet","Abolish Chinese characters","Standardize dialects"], ans:"Unify spoken and written Japanese",
+    {type:"mc", q:"言文一致(げんぶんいっち) was a Meiji-era movement to:", opts:["Abolish Chinese characters","Standardize dialects","Unify spoken and written Japanese","Create a new alphabet"], ans:"Unify spoken and written Japanese",
      hint:"This movement made writing accessible by aligning it with how people actually spoke."},
   ]
 };

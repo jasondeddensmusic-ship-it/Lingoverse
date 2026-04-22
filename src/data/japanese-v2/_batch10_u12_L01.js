@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"試合(しあい)", src:"match/game"}
     ]},
 
-    {type:"mc", q:"What is ラジオ体操(たいそう)?", opts:["Radio calisthenics broadcast since 1928","A radio show about sports","A type of martial art","A dance competition"], ans:"Radio calisthenics broadcast since 1928",
+    {type:"mc", q:"What is ラジオ体操(たいそう)?", opts:["A dance competition","Radio calisthenics broadcast since 1928","A radio show about sports","A type of martial art"], ans:"Radio calisthenics broadcast since 1928",
      hint:"This daily exercise routine has been b... on NHK for nearly a century and is known by almost all Japanese people."}
   ,{type:"match",pairs:[{trg:"マラソン",src:"marathon"},{trg:"体操(たいそう)",src:"gymnastics / exercise"}]}]
 };

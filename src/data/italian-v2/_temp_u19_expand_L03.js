@@ -68,7 +68,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'deludere' actually mean?",
-     opts:["To delude or to trick someone","To disappoint someone","To delete or remove something","To delay something"],
+     opts:["To disappoint someone","To delete or remove something","To delay something","To delude or to trick someone"],
      ans:"To disappoint someone",
      hint:"Famous false friend. English 'delude' is 'illudere' in Italian. This verb means to let s... down."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {
      sSrc:"I am always {1} by his kindness."},
 
     {type:"mc", q:"What is the literal meaning of 'apprezzare'?",
-     opts:["To assign a price or value to something","To press something down firmly","To pray or give thanks to someone","To approach or get close to"],
+     opts:["To pray or give thanks to someone","To approach or get close to","To assign a price or value to something","To press something down firmly"],
      ans:"To assign a price or value to something",
      hint:"From 'prezzo' (p.../v...). Recognizing someone's worth. 'Ti apprezzo' fills the space between gratitude and love."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {
      sSrc:"I have {1} myself to not winning."},
 
     {type:"mc", q:"Which Italian film genre is famous for trying to 'spaventare' audiences?",
-     opts:["Commedia all'italiana","Neorealismo","Giallo (Italian horror)","Spaghetti western"],
+     opts:["Spaghetti western","Commedia all'italiana","Neorealismo","Giallo (Italian horror)"],
      ans:"Giallo (Italian horror)",
      hint:"Dario Argento is a master of this genre. The name comes from the yellow covers of I... mystery paperbacks."}
   ]

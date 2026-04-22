@@ -86,7 +86,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'produire des fruits ou des profits' ?",
-     opts:["fructifier","fleurer","froisser","fracasser"],
+     opts:["fracasser","fructifier","fleurer","froisser"],
      ans:"fructifier",
      hint:"Built on the root 'fruct-' from Latin 'fructus' meaning fruit. Used for trees and investments."},
 
@@ -113,7 +113,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Que signifie 'fraichement' quand on parle d'un accueil ?",
-     opts:["Avec froideur","Avec chaleur","Avec joie","Avec surprise"],
+     opts:["Avec joie","Avec surprise","Avec froideur","Avec chaleur"],
      ans:"Avec froideur",
      hint:"This adverb has a double meaning. For bread it means 'freshly', but for a reception it means something colder."}
   ]

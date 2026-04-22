@@ -66,7 +66,7 @@ const LESSON_18 = {id:"esv2_b2gC_l18",title:"Arquitectura y patrimonio",icon:"�
  exampleSrc:"A: The bricklayer spreads cement with the trowel.\nB: He's been working on the site since seven.",
  funFact:"A child with prominent front teeth is said to have 'paletas grandes'. One word, five different meanings."},
 
-{type:"mc",q:"¿Qué herramienta usa un albañil para extender cemento?",opts:["La paleta","La línea","La olmeda","El fierro"],ans:"La paleta",hint:"A flat tool with a handle used to spread mortar or plaster in construction work."},
+{type:"mc",q:"¿Qué herramienta usa un albañil para extender cemento?",opts:["El fierro","La paleta","La línea","La olmeda"],ans:"La paleta",hint:"A flat tool with a handle used to spread mortar or plaster in construction work."},
 
 {type:"fb",s:"El {1} inmobiliario nos mostró tres apartamentos en el centro.",a:["agente"],opts:["agente","batiente","fierro","cañizal"],hint:"A professional who acts as an intermediary, in this case for buying and selling property.",sSrc:"The real estate {1} showed us three apartments in the center."},
 

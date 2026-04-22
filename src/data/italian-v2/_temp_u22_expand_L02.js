@@ -56,7 +56,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'campanilismo'?",
-     opts:["A type of Italian bell-ringing music","Deep loyalty to one's town, named after the bell tower","A musical composition for church bells","A style of architecture found only in Rome"],
+     opts:["Deep loyalty to one's town, named after the bell tower","A musical composition for church bells","A style of architecture found only in Rome","A type of Italian bell-ringing music"],
      ans:"Deep loyalty to one's town, named after the bell tower",
      hint:"Your l... extends as far as you can hear your t...'s bells. This explains fierce rivalries between neighboring Italian cities."},
 
@@ -75,7 +75,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"How many UNESCO World Heritage Sites does Italy have?",
-     opts:["About 20 scattered across the country","Exactly 35 concentrated in central Italy","59, more than any other country worldwide","Over 100 but many are contested"],
+     opts:["Exactly 35 concentrated in central Italy","59, more than any other country worldwide","Over 100 but many are contested","About 20 scattered across the country"],
      ans:"59, more than any other country worldwide",
      hint:"'Patrimonio' literally means 'father's estate.' Italy's cultural inheritance spans millennia from Roman ruins to Renaissance art."},
 
@@ -86,7 +86,7 @@ const LESSON_5 = {
      sSrc:"Every city has its {1} saint."},
 
     {type:"mc", q:"What is the historical significance of a 'bottega'?",
-     opts:["A type of traditional Italian restaurant","An artisan workshop where Renaissance masters trained apprentices","A regional government office building","A style of Italian countryside villa"],
+     opts:["A style of Italian countryside villa","A type of traditional Italian restaurant","An artisan workshop where Renaissance masters trained apprentices","A regional government office building"],
      ans:"An artisan workshop where Renaissance masters trained apprentices",
      hint:"Verrocchio's t... Leonardo. Ghirlandaio's t... Michelangelo. The word carries romantic weight that 'negozio' does not."},
 
@@ -97,7 +97,7 @@ const LESSON_5 = {
      sSrc:"Italian {1} varies from region to region."},
 
     {type:"mc", q:"Why is standard Italian based on the Tuscan dialect?",
-     opts:["Tuscany was the largest Italian region","The Italian government chose it by popular vote","Dante, Petrarca, and Boccaccio wrote in Tuscan","Tuscan was the easiest dialect to learn"],
+     opts:["Tuscan was the easiest dialect to learn","Tuscany was the largest Italian region","The Italian government chose it by popular vote","Dante, Petrarca, and Boccaccio wrote in Tuscan"],
      ans:"Dante, Petrarca, and Boccaccio wrote in Tuscan",
      hint:"These three literary giants established T... as the prestige language of literature centuries before Italian unification in 1861."}
   ]

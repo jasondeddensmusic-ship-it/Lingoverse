@@ -1,4 +1,4 @@
-// L17: Formal Expressions & Register — 20 B2 gap words
+// L17: Formal Expressions & Register, 20 B2 gap words
 const LESSON_17 = {
   id:"nlv2_b2g3_l17", title:"Formele Uitdrukkingen en Register", icon:"\uD83C\uDFF7\uFE0F", xp:15, board:true,
   steps:[
@@ -85,7 +85,7 @@ const LESSON_17 = {
      deepDive:{title:"Why Dutch loves this construction",
       text:"Substantivized participles are economical: one word replaces an entire phrase.\n\n'De bedrogenen' = 'de mensen die bedrogen zijn' (the people who were deceived)\n'De gedupeerden' = 'de mensen die gedupeerd zijn' (the people who were affected)\n\nJournalism uses this constantly: 'de gewonden' (the wounded), 'de doden' (the dead), 'de overlevenden' (the survivors). It is shorter and sounds more formal.\n\nPresent participles work too: 'de aanwezigen' (those present), 'de deelnemenden' (the participants). Both past and present participles can become nouns."}},
     {type:"mc", q:"Wat betekent 'bezint eer ge begint'?",
-     opts:["begin snel","denk na voordat je begint","begin opnieuw","stop op tijd"],
+     opts:["denk na voordat je begint","begin opnieuw","stop op tijd","begin snel"],
      ans:"denk na voordat je begint",
      hint:"An old proverb. 'Bezinnen' means to reflect carefully. 'Eer' means before."},
     {type:"fb", s:"De {1} ontkent alle beschuldigingen.", a:["aangeklaagde"],

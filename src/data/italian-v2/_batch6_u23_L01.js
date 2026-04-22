@@ -1,4 +1,4 @@
-// Batch 6 — Unit 23 extra lesson. La politica e la società: Justice & Legal System
+// Batch 6. Unit 23 extra lesson. La politica e la società: Justice & Legal System
 const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"\u{2696}\u{FE0F}", xp:15, board:true, steps:[
 {type:"intro", title:"La giustizia e i diritti",
  desc:"Learn vocabulary about justice, rights, and the Italian legal system at an intermediate level.",
@@ -100,7 +100,7 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
 ]},
 
 {type:"mc", q:"Quando ha abolito l'Italia la pena di morte?",
- opts:["Nel 1947","Nel 1964","Nel 2000","Mai"],
+ opts:["Mai","Nel 1947","Nel 1964","Nel 2000"],
  ans:"Nel 1947",
  hint:"One of the first European nations to abolish it, right after World War II."},
 
@@ -110,7 +110,7 @@ const BATCH6_L1 = {id:"itv2_u23l_b6_1", title:"La giustizia e i diritti", icon:"
  sSrc:"The defendant was {1} for lack of evidence."},
 
 {type:"mc", q:"Perche i processi in Italia sono spesso lunghi?",
- opts:["The justice system is notoriously slow with multiple appeal levels","Judges take long vacations","Lawyers refuse to work quickly","There are too few crimes"],
+ opts:["Lawyers refuse to work quickly","There are too few crimes","The justice system is notoriously slow with multiple appeal levels","Judges take long vacations"],
  ans:"The justice system is notoriously slow with multiple appeal levels",
  hint:"Three l... of courts (first instance, a..., supreme) mean cases take years."},
 

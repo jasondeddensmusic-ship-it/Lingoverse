@@ -50,7 +50,7 @@ lessons:[
   text:"Chinese transport words follow beautiful logic:\n\n车(chē) = vehicle (the base word)\n火车 = fire + vehicle = train\n汽车 = steam + vehicle = car\n公共汽车 = public + steam vehicle = bus\n出租车 = rental + vehicle = taxi\n自行车(zìxíngchē) = self-moving + vehicle = bicycle\n\n机(jī) = machine\n飞机 = flying + machine = airplane\n手机 = hand + machine = phone\n\nOnce you know the building blocks, you can decode new words instantly."}},
 
 {type:"mc", q:"火车(huǒchē) literally means:",
- opts:["fast vehicle","iron vehicle","fire vehicle","steam vehicle"],
+ opts:["fire vehicle","steam vehicle","fast vehicle","iron vehicle"],
  ans:"fire vehicle",
  hint:"火 is one of the most basic characters in Chinese, referring to flames and combustion."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"The {1} is here! Let us get on!"},
 
 {type:"mc", q:"打车(dǎ chē) means 'hail a taxi.' Which verb is used?",
- opts:["坐(zuò)","打(dǎ)","开(kāi)","去(qù)"],
+ opts:["去(qù)","坐(zuò)","打(dǎ)","开(kāi)"],
  ans:"打(dǎ)",
  hint:"This is the same versatile verb used for basketball and phone calls. It means to hit or strike."}
 ]},
@@ -116,7 +116,7 @@ lessons:[
  funFact:"路 appears in many Chinese city street names. If you see a street sign with 路, it means 'road.' 南京路(Nánjīng Lù) in Shanghai is one of the most famous shopping streets in the world."},
 
 {type:"mc", q:"机场(jīchǎng) literally means:",
- opts:["big field","flying field","airplane field","travel ground"],
+ opts:["airplane field","travel ground","big field","flying field"],
  ans:"airplane field",
  hint:"机 is short for 飞机, and 场 means a flat open area or …."},
 
@@ -187,7 +187,7 @@ lessons:[
  funFact:"慢慢来 (take it slowly, no rush) is a beloved Chinese phrase. It reflects a cultural value of patience and not rushing through life. You will hear it in restaurants, shops, and from friends who want you to relax."},
 
 {type:"mc", q:"准备(zhǔnbèi)好(hǎo)了(le)吗(ma)？ What is being asked?",
- opts:["Where are you going?","Are you ready?","What time is it?","How fast is it?"],
+ opts:["Are you ready?","What time is it?","How fast is it?","Where are you going?"],
  ans:"Are you ready?",
  hint:"准备 means to prepare, and 好了 indicates completion. Together they ask about readiness."},
 
@@ -246,7 +246,7 @@ lessons:[
   text:"Chinese has a full toolkit for ordering events:\n\n先(xiān) = first\n然后(ránhòu) = then\n接着(jiēzhe) = next/following that\n最后(zuìhòu) = finally/lastly\n\nExample of a full sequence:\n先买票，然后去车站，接着上车，最后到机场。\nFirst buy tickets, then go to the station, next board, finally arrive at the airport.\n\nThis is essential for giving directions, telling stories, and explaining processes."}},
 
 {type:"mc", q:"先(xiān)买(mǎi)票(piào)，然后(ránhòu)去(qù)车站(chēzhàn)。 What is the correct order?",
- opts:["Go to the station, then buy tickets","Buy tickets and go to the station at the same time","Buy tickets first, then go to the station","Go to the station only"],
+ opts:["Buy tickets first, then go to the station","Go to the station only","Go to the station, then buy tickets","Buy tickets and go to the station at the same time"],
  ans:"Buy tickets first, then go to the station",
  hint:"先 marks the initial step, 然后 marks the subsequent step. Read the sequence logically."},
 
@@ -266,7 +266,7 @@ lessons:[
  sSrc:"{1} get ready, then depart."},
 
 {type:"mc", q:"坐(zuò)飞机(fēijī)快(kuài)，坐(zuò)火车(huǒchē)慢(màn)。 Based on this, which is better for a long trip?",
- opts:["Bus","Train","Plane","Taxi"],
+ opts:["Train","Plane","Taxi","Bus"],
  ans:"Plane",
  hint:"快 means fast. For covering a great distance, the faster option is more practical."},
 
@@ -283,7 +283,7 @@ lessons:[
  sSrc:"Are you ready? We {1} at eight o'clock."},
 
 {type:"mc", q:"Which sequence correctly plans a trip?",
- opts:["然后买票，先坐飞机","先买票，然后去机场，然后坐飞机","坐飞机，先买票，然后去机场","先坐飞机，然后买票"],
+ opts:["先坐飞机，然后买票","然后买票，先坐飞机","先买票，然后去机场，然后坐飞机","坐飞机，先买票，然后去机场"],
  ans:"先买票，然后去机场，然后坐飞机",
  hint:"Think logically: what must you do before you can board? And where must you go to find the plane?"},
 
@@ -302,7 +302,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我们(wǒmen)先(xiān)坐(zuò)出租车(chūzūchē)去(qù)机场(jīchǎng)，然后(ránhòu)坐(zuò)飞机(fēijī)去(qù)北京(Běijīng)。 How many types of transport are used?",
- opts:["One","Two","Three","Four"],
+ opts:["Three","Four","One","Two"],
  ans:"Two",
  hint:"Count each distinct vehicle mentioned in the sentence. The journey has two legs."},
 
@@ -323,13 +323,13 @@ lessons:[
  note:"火车 (train) + 站 (station/stop).\nYou already know 火车 (fire vehicle). 站 means a stop or platform.",
  example:"A: 火车站(huǒchēzhàn)怎么(zěnme)走(zǒu)？\nB: 坐(zuò)地铁(dìtiě)，十(shí)分钟(fēnzhōng)就(jiù)到(dào)了(le)。",
  exampleSrc:"A: How do I get to the train station?\nB: Take the subway, you will be there in ten minutes.",
- funFact:"中国 has the world's longest high-speed rail network — over 40,000 kilometres of track, more than the rest of the world combined. The fastest trains reach 350 km/h. A journey from Beijing to Shanghai (1,318 km) takes just four hours by high-speed rail."},
+ funFact:"中国 has the world's longest high-speed rail network, over 40,000 kilometres of track, more than the rest of the world combined. The fastest trains reach 350 km/h. A journey from Beijing to Shanghai (1,318 km) takes just four hours by high-speed rail."},
 
 {type:"teach", trg:"房子(fángzi)", src:"house / building", pos:"noun", gender:null,
  note:"房 (room/building) + 子 (noun suffix). Refers to a physical building.\nDifferent from 家(jiā) which means 'home' (the emotional concept or family).",
  example:"A: 那(nà)个(gè)房子(fángzi)很(hěn)大(dà)！\nB: 是(shì)的(de)，里面(lǐmiàn)有(yǒu)五(wǔ)个(gè)房间(fángjiān)。",
  exampleSrc:"A: That house is very big!\nB: Yes, inside there are five rooms.",
- funFact:"房子 is the physical structure, 家 is the emotional home. Chinese speakers say 我的家在北京 (my home is in Beijing) but 那个房子很大 (that house is big). This mirrors the English distinction between 'house' and 'home' — though Chinese learners often mix them up, just as English learners of Chinese do."},
+ funFact:"房子 is the physical structure, 家 is the emotional home. Chinese speakers say 我的家在北京 (my home is in Beijing) but 那个房子很大 (that house is big). This mirrors the English distinction between 'house' and 'home', though Chinese learners often mix them up, just as English learners of Chinese do."},
 
 {type:"teach", trg:"近(jìn)", src:"near / close", pos:"adj", gender:null,
  note:"Fourth tone (falling). Describes short distances.\n近 + place = close to somewhere. 很近 = very close.",
@@ -341,7 +341,7 @@ lessons:[
  note:"Third tone. The opposite of 近.\n远 + place = far from somewhere. 不远 = not far.",
  example:"A: 机场(jīchǎng)离(lí)市中心(shìzhōngxīn)远(yuǎn)吗(ma)？\nB: 比较(bǐjiào)远(yuǎn)，坐(zuò)地铁(dìtiě)要(yào)四十(sìshí)分钟(fēnzhōng)。",
  exampleSrc:"A: Is the airport far from the city centre?\nB: Fairly far, it takes forty minutes by subway.",
- funFact:"远 appears in the beautiful phrase 远在天边 (far to the edge of heaven) — used to describe something or someone who feels impossibly distant. Chinese poetry loves 远 as a symbol of longing, separation, and the vastness of the world. Even at A2, you are inheriting a rich literary tradition."},
+ funFact:"远 appears in the beautiful phrase 远在天边 (far to the edge of heaven), used to describe something or someone who feels impossibly distant. Chinese poetry loves 远 as a symbol of longing, separation, and the vastness of the world. Even at A2, you are inheriting a rich literary tradition."},
 
 {type:"tip", title:"离 (lí): Expressing Distance From",
  text:"To express distance between two points, Chinese uses 离:\n\n A + 离(lí) + B + distance\n\n火车站(huǒchēzhàn)离(lí)这里(zhèlǐ)很近(hěn jìn)。\nThe train station is very close to here.\n\n公司(gōngsī)离(lí)我家(wǒ jiā)很远(hěn yuǎn)。\nThe company is very far from my home.\n\n学校(xuéxiào)离(lí)这里(zhèlǐ)不远(bù yuǎn)。\nThe school is not far from here.\n\n离 = measured separation between two locations.",
@@ -363,11 +363,11 @@ lessons:[
 {type:"fb", s:"公司(gōngsī)离(lí)我(wǒ)家(jiā)很(hěn){1}，我(wǒ)每(měi)天(tiān)坐(zuò)地铁(dìtiě)。",
  a:["远(yuǎn)"],
  opts:["远(yuǎn)","近(jìn)","快(kuài)","慢(màn)"],
- hint:"The speaker takes the subway every day — this suggests the company is not nearby. Which distance word fits?",
+ hint:"The speaker takes the subway every day, this suggests the company is not nearby. Which distance word fits?",
  sSrc:"My company is very {1} from home, I take the subway every day."},
 
 {type:"mc", q:"那个房子(fángzi)很大。 What is being described?",
- opts:["The family is large","A room inside is large","The physical building is large","The home feels warm and big"],
+ opts:["A room inside is large","The physical building is large","The home feels warm and big","The family is large"],
  ans:"The physical building is large",
  hint:"房子 refers to a structure made of walls and a roof, not the family inside it."},
 
@@ -380,7 +380,7 @@ lessons:[
 {type:"mc", q:"公司(gōngsī)离(lí)我家(wǒ jiā)很远(hěn yuǎn)。 The pattern A + 离 + B + distance means:",
  opts:["A is moving toward B","B is inside A","The gap between A and B is large","A and B are the same place"],
  ans:"The gap between A and B is large",
- hint:"离 expresses the distance … between two locations — no movement, just separation."},
+ hint:"离 expresses the distance … between two locations, no movement, just separation."},
 
 {type:"match", pairs:[
   {trg:"火车站(huǒchēzhàn)", src:"train station"},
@@ -409,14 +409,14 @@ lessons:[
  note:"大 = big / great + 家 = family/home. Literally: the big family.\nUsed to address or refer to a whole group. Always plural in meaning.",
  example:"A: 大家(dàjiā)好(hǎo)！\nB: 老师(lǎoshī)好(hǎo)！",
  exampleSrc:"A: Hello, everyone!\nB: Hello, teacher!",
- funFact:"大家好！ is the classic opening line Chinese teachers use at the start of every class. 大 (great/big) combined with 家 (family) expresses the idea of one big family — a warm, collective greeting rooted in Confucian values of group harmony."},
+ funFact:"大家好！ is the classic opening line Chinese teachers use at the start of every class. 大 (great/big) combined with 家 (family) expresses the idea of one big family, a warm, collective greeting rooted in Confucian values of group harmony."},
 
 {type:"teach", trg:"成功(chénggōng)", src:"success / to succeed", pos:"noun", gender:null,
  phonetic:"chénggōng",
  note:"成 = to achieve/become + 功 = achievement/merit.\nWorks as both noun (success) and verb (to succeed).\n成功了！= We succeeded! / It worked!",
  example:"A: 你(nǐ)想(xiǎng)成功(chénggōng)吗(ma)？\nB: 想(xiǎng)！我(wǒ)要(yào)努力(nǔlì)！",
  exampleSrc:"A: Do you want to succeed?\nB: Yes! I will work hard!",
- funFact:"成功 appears constantly in Chinese motivational culture. The phrase 祝你成功 (zhù nǐ chénggōng — wishing you success) is as common as 'good luck' in English. 功 is also the root of 功夫 (gōngfu) — skill built through hard work and merit."},
+ funFact:"成功 appears constantly in Chinese motivational culture. The phrase 祝你成功 (zhù nǐ chénggōng, wishing you success) is as common as 'good luck' in English. 功 is also the root of 功夫 (gōngfu), skill built through hard work and merit."},
 
 {type:"teach", trg:"当然(dāngrán)", src:"of course / certainly", pos:"adv", gender:null,
  phonetic:"dāngrán",
@@ -430,21 +430,21 @@ lessons:[
  note:"表 = to display/show + 示 = to indicate/point out.\nUsed when something conveys a meaning: a gesture, word, or action expresses something.",
  example:"A: 这(zhè)个(gè)词(cí)表示(biǎoshì)什么(shénme)？\nB: 这(zhè)个(gè)词(cí)表示(biǎoshì)成功(chénggōng)。",
  exampleSrc:"A: What does this word indicate?\nB: This word indicates success.",
- funFact:"表示 is heavily used in academic and formal Chinese — in textbooks, news reports, and speeches. Politicians 表示 their support; scientists 表示 their findings. At HSK 3, mastering this verb marks the shift from everyday chat to formal literacy."},
+ funFact:"表示 is heavily used in academic and formal Chinese, in textbooks, news reports, and speeches. Politicians 表示 their support; scientists 表示 their findings. At HSK 3, mastering this verb marks the shift from everyday chat to formal literacy."},
 
 {type:"teach", trg:"经过(jīngguò)", src:"to pass through / via / after", pos:"prep", gender:null,
  phonetic:"jīngguò",
  note:"经 = to pass through/experience + 过 = to cross/pass.\nCan be a verb (pass through a place) or a preposition (via / after going through).",
  example:"A: 你(nǐ)怎么(zěnme)去(qù)车站(chēzhàn)？\nB: 我(wǒ)经过(jīngguò)公园(gōngyuán)去(qù)。",
  exampleSrc:"A: How do you get to the station?\nB: I go via the park.",
- funFact:"经过 shares its root 经 with 经验 (jīngyàn — experience) and 经济 (jīngjì — economy). The idea of passing through or traversing connects all three: you gain experience by passing through events; an economy is the flow of goods passing through society."},
+ funFact:"经过 shares its root 经 with 经验 (jīngyàn, experience) and 经济 (jīngjì, economy). The idea of passing through or traversing connects all three: you gain experience by passing through events; an economy is the flow of goods passing through society."},
 
 {type:"teach", trg:"形成(xíngchéng)", src:"to form / to take shape", pos:"verb", gender:null,
  phonetic:"xíngchéng",
  note:"形 = shape/form + 成 = to become/achieve.\nDescribes how a pattern, habit, idea, or structure gradually develops.",
  example:"A: 好(hǎo)习惯(xíguàn)是(shì)怎么(zěnme)形成(xíngchéng)的(de)？\nB: 每(měi)天(tiān)练习(liànxí)就(jiù)能(néng)形成(xíngchéng)。",
  exampleSrc:"A: How do good habits form?\nB: Practicing every day is how they form.",
- funFact:"形成 is a favorite word in Chinese educational writing. Teachers talk about how knowledge forms, how character forms, how society forms. The character 形 originated as a pictograph of shadows cast by a shape — visual form emerging from light. Even abstract ideas have a visual root in Chinese."},
+ funFact:"形成 is a favorite word in Chinese educational writing. Teachers talk about how knowledge forms, how character forms, how society forms. The character 形 originated as a pictograph of shadows cast by a shape, visual form emerging from light. Even abstract ideas have a visual root in Chinese."},
 
 {type:"teach", trg:"内容(nèiróng)", src:"content / contents", pos:"noun", gender:null,
  phonetic:"nèiróng",
@@ -458,15 +458,15 @@ lessons:[
  note:"目 = eye/aim + 的 (dì in this word, not the particle de) = target.\nLiterally: the target the eye is aimed at. Used for goals, intentions, and purposes.",
  example:"A: 你(nǐ)学(xué)习(xí)中文(zhōngwén)的(de)目的(mùdì)是(shì)什么(shénme)？\nB: 我(wǒ)的(de)目的(mùdì)是(shì)去(qù)中国(Zhōngguó)工作(gōngzuò)。",
  exampleSrc:"A: What is your goal in learning Chinese?\nB: My goal is to work in China.",
- funFact:"The character 目 is one of the oldest pictographs in Chinese — it depicts a human eye turned sideways. A goal is literally 'what the eye aims at.' 的 (dì) as a suffix marks a target or destination (different from the particle 的 de), and it appears in 目的地 (mùdìdì — destination)."},
+ funFact:"The character 目 is one of the oldest pictographs in Chinese, it depicts a human eye turned sideways. A goal is literally 'what the eye aims at.' 的 (dì) as a suffix marks a target or destination (different from the particle 的 de), and it appears in 目的地 (mùdìdì, destination)."},
 
 {type:"tip", title:"Abstract HSK 2–3 Nouns: 成功, 内容, 目的",
  text:"Three abstract nouns you just learned appear in HSK 2-3 exam questions and real Mandarin constantly:\n\n成功(chénggōng) = success (also a verb: to succeed)\n内容(nèiróng) = content (of a text, lesson, conversation)\n目的(mùdì) = purpose, goal, objective\n\nAll three describe outcomes and substance, not physical objects.\n\nUseful patterns:\n你的目的是什么？= What is your purpose?\n这本书的内容很好。= The content of this book is great.\n经过努力，他成功了。= After hard work, he succeeded.\n\n目的 and 成功 often appear together: 达到目的 = reach your goal.",
- deepDive:{title:"给(gěi) — Three Roles in One Word",
-  text:"给 at HSK 2 means 'to give.' But it has two more roles worth knowing:\n\nRole 1 — Verb (give):\n我给你一本书。= I give you a book.\n\nRole 2 — Preposition (for / to):\n给我打电话。= Call me. (literally: make a call for/to me)\n我给大家介绍一下。= Let me introduce to everyone.\n\nRole 3 — Passive marker (B1+):\n书给他拿走了。= The book was taken away by him.\n\nAt A2, focus on Roles 1 and 2. The passive role comes naturally at B1 with more exposure."}},
+ deepDive:{title:"给(gěi). Three Roles in One Word",
+  text:"给 at HSK 2 means 'to give.' But it has two more roles worth knowing:\n\nRole 1. Verb (give):\n我给你一本书。= I give you a book.\n\nRole 2. Preposition (for / to):\n给我打电话。= Call me. (literally: make a call for/to me)\n我给大家介绍一下。= Let me introduce to everyone.\n\nRole 3. Passive marker (B1+):\n书给他拿走了。= The book was taken away by him.\n\nAt A2, focus on Roles 1 and 2. The passive role comes naturally at B1 with more exposure."}},
 
 {type:"mc", q:"我(wǒ)给(gěi)你(nǐ)一(yī)本(běn)书(shū)。 What is 给 doing in this sentence?",
- opts:["Acting as a preposition meaning for","Acting as a verb meaning to give","Acting as a passive marker","Acting as an adverb"],
+ opts:["Acting as a verb meaning to give","Acting as a passive marker","Acting as an adverb","Acting as a preposition meaning for"],
  ans:"Acting as a verb meaning to give",
  hint:"The subject (I) performs an action transferring something to the recipient (you). Look at the structure: who acts, who receives, and what is transferred."},
 
@@ -515,18 +515,18 @@ lessons:[
  sSrc:"What is your {1} in studying Chinese?"},
 
 {type:"mc", q:"好习惯经过每天练习可以形成。 What does 形成 mean here?",
- opts:["to disappear","to form and take shape","to express","to pass through"],
+ opts:["to pass through","to disappear","to form and take shape","to express"],
  ans:"to form and take shape",
  hint:"形 is a pictograph of a visible outline, and 成 means to achieve or become. What happens when repeated practice gradually produces a stable pattern?"},
 
 {type:"fb", s:"这(zhè)本(běn)书(shū)的(de){1}很(hěn)好(hǎo)，我(wǒ)很(hěn)喜欢(xǐhuan)。",
  a:["内容(nèiróng)"],
  opts:["内容(nèiróng)","目的(mùdì)","成功(chénggōng)","当然(dāngrán)"],
- hint:"The speaker praises the substance or subject matter of a book. Which noun means what is held inside — the material or subject?",
+ hint:"The speaker praises the substance or subject matter of a book. Which noun means what is held inside, the material or subject?",
  sSrc:"The {1} of this book is great, I like it very much."},
 
 {type:"mc", q:"经过努力，他成功了。 What caused the success?",
- opts:["Passing through the park","Hard work and effort","Giving something to someone","Forming a new habit"],
+ opts:["Giving something to someone","Forming a new habit","Passing through the park","Hard work and effort"],
  ans:"Hard work and effort",
  hint:"经过 here functions as 'after going through.' 努力 describes the sustained, determined action he performed. What kind of input produces 成功?"}
 ]}

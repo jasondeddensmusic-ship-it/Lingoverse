@@ -32,7 +32,7 @@ const LESSON_12 = {id:"esv2_b2gap_l12",title:"Acciones y cambio II",icon:"⚡",x
  exampleSrc:"A: Allow me to add a note about an important detail.\nB: Go ahead, all information is welcome.",
  funFact:"From apostilla (annotation). In diplomacy, an 'apostilla' is an official document certification."},
 
-{type:"mc",q:"¿Qué instrumento típico español se usa para abanicarse?",opts:["Una guitarra","Un abanico","Una castañuela","Un tambor"],ans:"Un abanico",hint:"A folding device used to cool yourself in hot weather."},
+{type:"mc",q:"¿Qué instrumento típico español se usa para abanicarse?",opts:["Un abanico","Una castañuela","Un tambor","Una guitarra"],ans:"Un abanico",hint:"A folding device used to cool yourself in hot weather."},
 
 {type:"teach",trg:"arrollar",src:"to run over / to overwhelm",pos:"verb",gender:null,
  note:"Regular -ar verb. To knock down, or to dominate completely.",
@@ -84,7 +84,7 @@ const LESSON_12 = {id:"esv2_b2gap_l12",title:"Acciones y cambio II",icon:"⚡",x
  exampleSrc:"A: They fenced the land with a wooden fence.\nB: That way the sheep cannot escape.",
  funFact:"From cerca (fence/near). The noun 'cerco' means siege: 'poner cerco a' means to lay siege to."},
 
-{type:"mc",q:"'La lluvia nos caló hasta los huesos' significa:",opts:["Nos mojó completamente","Nos calentó","Nos secó","Nos protegió"],ans:"Nos mojó completamente",hint:"Being soaked so thoroughly that even your bones feel wet."},
+{type:"mc",q:"'La lluvia nos caló hasta los huesos' significa:",opts:["Nos protegió","Nos mojó completamente","Nos calentó","Nos secó"],ans:"Nos mojó completamente",hint:"Being soaked so thoroughly that even your bones feel wet."},
 
 {type:"teach",trg:"carcomer",src:"to eat away / to gnaw",pos:"verb",gender:null,
  note:"Regular -er verb. To consume slowly, literally or figuratively.\nLa carcoma: woodworm.",
@@ -112,13 +112,13 @@ const LESSON_12 = {id:"esv2_b2gap_l12",title:"Acciones y cambio II",icon:"⚡",x
 
 {type:"fb",s:"Los celos le {1} por dentro día tras día.",a:["carcomen"],opts:["carcomen","bombean","cercan","civilizan"],hint:"To eat away at someone slowly, like a worm eating wood.",sSrc:"Jealousy {1} him from the inside day after day."},
 
-{type:"mc",q:"'Cohesionar un equipo' significa:",opts:["Dividirlo","Unirlo y darle fuerza","Eliminarlo","Criticarlo"],ans:"Unirlo y darle fuerza",hint:"Bringing the members together to work as one unit."},
+{type:"mc",q:"'Cohesionar un equipo' significa:",opts:["Criticarlo","Dividirlo","Unirlo y darle fuerza","Eliminarlo"],ans:"Unirlo y darle fuerza",hint:"Bringing the members together to work as one unit."},
 
 {type:"match",pairs:[{trg:"arrollar",src:"to overwhelm"},{trg:"calar",src:"to soak through"},{trg:"cercar",src:"to fence / surround"},{trg:"codiciar",src:"to covet"},{trg:"cohesionar",src:"to unite"}]},
 
 {type:"fb",s:"Se {1} en un pueblo costero tras jubilarse.",a:["afincaron"],opts:["afincaron","ausentaron","arrollaron","abocaron"],hint:"To settle permanently in a place, putting down roots.",sSrc:"They {1} in a coastal town after retiring."},
 
-{type:"mc",q:"Un periodista 'avezado' es uno que:",opts:["Es novato","Tiene mucha experiencia","Escribe mal","Trabaja poco"],ans:"Tiene mucha experiencia",hint:"Someone who has been trained and seasoned through long practice."}
+{type:"mc",q:"Un periodista 'avezado' es uno que:",opts:["Escribe mal","Trabaja poco","Es novato","Tiene mucha experiencia"],ans:"Tiene mucha experiencia",hint:"Someone who has been trained and seasoned through long practice."}
 ]};
 
 export default LESSON_12;

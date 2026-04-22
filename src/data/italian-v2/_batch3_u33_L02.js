@@ -1,4 +1,4 @@
-// Batch 3 — Unit 33 Lesson 2 (Philosophy: Aesthetics & Epistemology)
+// Batch 3. Unit 33 Lesson 2 (Philosophy: Aesthetics & Epistemology)
 const BATCH3_L_2 = {
   id:"itv2_u33l_b3_2", title:"Estetica e conoscenza", icon:"🎨", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Chi scrisse 'Estetica come scienza dell'espressione,' ridefinendo la filosofia dell'arte?",
-     opts:["Machiavelli","Gramsci","Croce","Eco"],
+     opts:["Croce","Eco","Machiavelli","Gramsci"],
      ans:"Croce",
      hint:"This Neapolitan philosopher's 1902 work dominated Italian intellectual life for decades. His idealist aesthetics shaped art criticism."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche Croce e Gentile, partendo dalla stessa tradizione filosofica, finirono su posizioni politiche opposte?",
-     opts:["Perche uno era monarchico e l'altro repubblicano","Perche Croce si oppose al fascismo mentre Gentile ne divenne il filosofo ufficiale","Perche uno era cattolico e l'altro ateo","Perche uno insegnava a Napoli e l'altro a Roma"],
+     opts:["Perche uno insegnava a Napoli e l'altro a Roma","Perche uno era monarchico e l'altro repubblicano","Perche Croce si oppose al fascismo mentre Gentile ne divenne il filosofo ufficiale","Perche uno era cattolico e l'altro ateo"],
      ans:"Perche Croce si oppose al fascismo mentre Gentile ne divenne il filosofo ufficiale",
      hint:"Both were Italian idealists, but one became the regime's intellectual champion while the other openly opposed it. Philosophy does not guarantee political alignment."}
   ,{type:"match",pairs:[{trg:"la contemplazione",src:"contemplation"},{trg:"il relativismo morale",src:"moral relativism"},{trg:"il giudizio",src:"judgment"},{trg:"la coscienza critica",src:"critical consciousness"},{trg:"la dialettica hegeliana",src:"Hegelian dialectics"},{trg:"la fenomenologia",src:"phenomenology"}]},

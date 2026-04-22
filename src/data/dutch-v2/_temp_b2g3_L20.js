@@ -1,4 +1,4 @@
-// L20: Review & Integration — Mixed B2 gap words
+// L20: Review & Integration. Mixed B2 gap words
 const LESSON_20 = {
   id:"nlv2_b2g3_l20", title:"Herhaling en Integratie", icon:"\uD83C\uDF1F", xp:15, board:true,
   steps:[
@@ -60,7 +60,7 @@ const LESSON_20 = {
      deepDive:{title:"Your B2 Dutch toolkit",
       text:"At B2 level, you should now be able to:\n\n1. Break apart ANY Dutch compound: find the head noun (rightmost), then read left\n2. Recognize register: 'eerdergenoemd' = formal, 'die ik al noemde' = informal\n3. Detect genitive fossils: 'des', 'desnoods', 'enigermate'\n4. Navigate both Netherlands and Flemish Dutch differences\n5. Use formal vocabulary in writing and understand it in news\n\nThe next step: reading Dutch newspapers (NRC, de Volkskrant) and watching Dutch talk shows (Buitenhof, Op1). You have the vocabulary. Now build fluency through exposure."}},
     {type:"mc", q:"Wat is 'draagvlak' in de politiek?",
-     opts:["een bouwmateriaal","publieke steun voor een plan","een fundament","een campagnestrategie"],
+     opts:["publieke steun voor een plan","een fundament","een campagnestrategie","een bouwmateriaal"],
      ans:"publieke steun voor een plan",
      hint:"A compound: draag (carry) + vlak (surface). The base of support that carries a policy forward."},
     {type:"fb", s:"Wie is de {1} van deze campagne?", a:["doelgroep"],
@@ -92,7 +92,7 @@ const LESSON_20 = {
      hint:"A quintessentially Dutch compound meaning public support or backing for a policy.",
      sSrc:"There is insufficient support for this plan."},
     {type:"mc", q:"Welk woord beschrijft de Nederlandse eigenschap om nooit op te geven?",
-     opts:["eenvoudigheid","eigenwijsheid","eerbied","enthousiasme"],
+     opts:["enthousiasme","eenvoudigheid","eigenwijsheid","eerbied"],
      ans:"eigenwijsheid",
      hint:"Literally 'self-wise'. A Dutch trait of sticking to your own opinion and not giving up."}
   ]

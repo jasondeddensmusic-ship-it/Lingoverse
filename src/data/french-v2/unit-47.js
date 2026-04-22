@@ -1,4 +1,4 @@
-// French V2 Unit 47 — B2 Vocabulary Batch 3
+// French V2 Unit 47. B2 Vocabulary Batch 3
 import L01 from './_temp_b2g3_L01.js';
 import L02 from './_temp_b2g3_L02.js';
 import L03 from './_temp_b2g3_L03.js';

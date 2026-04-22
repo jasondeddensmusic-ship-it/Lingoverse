@@ -1,4 +1,4 @@
-// Batch 8 — Unit 33 extra lesson. Philosophy: Ethics & Moral Reasoning
+// Batch 8. Unit 33 extra lesson. Philosophy: Ethics & Moral Reasoning
 const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:15, board:true, steps:[
 {type:"intro", title:"Etica e morale",
  desc:"Learn vocabulary for ethical reasoning, moral philosophy, and value-based discussions in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
 
 {type:"mc",
  q:"What is 'obiezione di coscienza' in Italian law?",
- opts:["Conscientious objection (refusing on moral grounds)","A legal complaint","A philosophical theory","A court procedure"],
+ opts:["A court procedure","Conscientious objection (refusing on moral grounds)","A legal complaint","A philosophical theory"],
  ans:"Conscientious objection (refusing on moral grounds)",
  hint:"This legal right allows individuals to refuse certain duties that conflict with their m... beliefs."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
 
 {type:"mc",
  q:"Where in Italian law does 'dignita' appear?",
- opts:["In the first articles of the Constitution","Only in criminal law","In tax regulations","Nowhere"],
+ opts:["In tax regulations","Nowhere","In the first articles of the Constitution","Only in criminal law"],
  ans:"In the first articles of the Constitution",
  hint:"The post-war founders placed human dignity at the very foundation of the Republic, remembering the horrors of fascism."}
-,{type:"match",pairs:[{trg:"la virtu",src:"the virtue"},{trg:"il principio",src:"the principle"}]},{type:"mc",q:"How do you say \"ethics\" in Italian?",opts:["la finestra","l'etica","il tavolo","la bicicletta"],ans:"l'etica",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"la virtu",src:"the virtue"},{trg:"il principio",src:"the principle"}]},{type:"mc",q:"How do you say \"ethics\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'etica"],ans:"l'etica",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

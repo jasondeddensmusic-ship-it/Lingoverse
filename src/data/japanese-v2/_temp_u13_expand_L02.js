@@ -24,7 +24,7 @@ const LESSON_4 = {id:"jav2_u13l4", title:"じんせいのできごと", icon:"�
    exampleSrc:"A: Have you had a job interview in Japanese?\nB: No, I am too scared and cannot yet.\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
    funFact:"面接 combines 面 (face) and 接 (contact), literally 'face-to-face contact.' Japanese job interviews follow strict protocols: knock three times, bow, sit only when invited. The しゅうしょくかつどう (job hunting) season for university students is a highly structured national process."},
 
-  {type:"mc", q:"がいこくにひっこしたことがある means:", opts:["I want to move abroad","I moved abroad recently","I have moved to a foreign country before","I am moving abroad"], ans:"I have moved to a foreign country before",
+  {type:"mc", q:"がいこくにひっこしたことがある means:", opts:["I have moved to a foreign country before","I am moving abroad","I want to move abroad","I moved abroad recently"], ans:"I have moved to a foreign country before",
    hint:"た-form + ことがある describes a past life experience."},
 
   {type:"teach", trg:"うんてんめんきょ", src:"driver's license", pos:"noun", gender:null,

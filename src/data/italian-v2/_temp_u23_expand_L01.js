@@ -56,7 +56,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"Who appoints the Italian Prime Minister?",
-     opts:["Citizens vote directly for the PM","The Senate chooses by internal vote","The President of the Republic appoints based on parliamentary support","The outgoing PM selects their successor"],
+     opts:["The President of the Republic appoints based on parliamentary support","The outgoing PM selects their successor","Citizens vote directly for the PM","The Senate chooses by internal vote"],
      ans:"The President of the Republic appoints based on parliamentary support",
      hint:"The PM is not directly elected. The P... consults parties and a... whoever can form a majority in Parliament."},
 
@@ -75,7 +75,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"What is special about Italian referendums?",
-     opts:["They can only be held once per decade","They are advisory with no legal binding power","They require 50% voter turnout to be valid","Only Parliament can vote in them"],
+     opts:["They are advisory with no legal binding power","They require 50% voter turnout to be valid","Only Parliament can vote in them","They can only be held once per decade"],
      ans:"They require 50% voter turnout to be valid",
      hint:"This quorum rule means many Italian referendums fail because not enough citizens participate, regardless of how the actual voters choose."},
 
@@ -86,7 +86,7 @@ const LESSON_4 = {
      sSrc:"The {1} inaugurated the new park."},
 
     {type:"mc", q:"Where does the word 'ministro' come from?",
-     opts:["Latin 'magister' (master and teacher)","Latin 'minister' (servant of the state)","Greek 'ministra' (government official)","Italian 'amministrare' (to manage)"],
+     opts:["Italian 'amministrare' (to manage)","Latin 'magister' (master and teacher)","Latin 'minister' (servant of the state)","Greek 'ministra' (government official)"],
      ans:"Latin 'minister' (servant of the state)",
      hint:"A m... is technically a 's...,' the opposite of 'magister' (master). The role is one of public service."},
 
@@ -97,7 +97,7 @@ const LESSON_4 = {
      sSrc:"The government is a {1} of three parties."},
 
     {type:"mc", q:"How often has Italy changed governments since 1946?",
-     opts:["About once every five years on average","About once every fourteen months on average","Only when elections are held every four years","The same government has served continuously"],
+     opts:["Only when elections are held every four years","The same government has served continuously","About once every five years on average","About once every fourteen months on average"],
      ans:"About once every fourteen months on average",
      hint:"Coalition disagreements frequently lead to 'crisi di governo.' Italy has had over 70 governments in roughly 80 years."}
   ]

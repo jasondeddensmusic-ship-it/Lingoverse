@@ -90,7 +90,7 @@ const LESSON_1 = {id:"esv2_b2g5_l1",title:"El arte y la artesanía",icon:"🎨",
  exampleSrc:"A: Look at his splendid new car.\nB: Wow! It must have cost a fortune.",
  funFact:"From Latin flammare (to flame). Something 'flamante' shines as if it were on fire."},
 
-{type:"mc",q:"¿Qué es un folletín?",opts:["Una novela publicada por entregas","Un tipo de grabado artístico","Una técnica de carpintería","Un instrumento de flamenco"],ans:"Una novela publicada por entregas",hint:"Think about stories that appeared chapter by chapter in newspapers."},
+{type:"mc",q:"¿Qué es un folletín?",opts:["Un instrumento de flamenco","Una novela publicada por entregas","Un tipo de grabado artístico","Una técnica de carpintería"],ans:"Una novela publicada por entregas",hint:"Think about stories that appeared chapter by chapter in newspapers."},
 
 {type:"fb",s:"La {1} de ese director incluye diez películas premiadas.",a:["filmografía"],opts:["filmografía","historieta","fotonovela","genialidad"],hint:"The complete list of films made by a director or actor.",sSrc:"The {1} of that director includes ten award-winning films."},
 
@@ -98,7 +98,7 @@ const LESSON_1 = {id:"esv2_b2g5_l1",title:"El arte y la artesanía",icon:"🎨",
 
 {type:"fb",s:"La {1} de Picasso se refleja en cada obra que creó.",a:["genialidad"],opts:["genialidad","carpintería","filmografía","herrería"],hint:"The quality of being brilliantly creative or inventive.",sSrc:"The {1} of Picasso is reflected in every work he created."},
 
-{type:"mc",q:"¿Qué significa 'flamante'?",opts:["Espléndido y nuevo","Relacionado con el flamenco","Hecho de hierro","Muy antiguo"],ans:"Espléndido y nuevo",hint:"The word comes from 'flame' and describes something that shines like new."}
+{type:"mc",q:"¿Qué significa 'flamante'?",opts:["Hecho de hierro","Muy antiguo","Espléndido y nuevo","Relacionado con el flamenco"],ans:"Espléndido y nuevo",hint:"The word comes from 'flame' and describes something that shines like new."}
 ]};
 
 export default LESSON_1;

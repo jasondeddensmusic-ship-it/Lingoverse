@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Last year's {1} achieved the targets."},
 
     {type:"mc", q:"潜在(せんざい)ニーズ means:",
-     opts:["Needs customers cannot yet articulate","Already expressed customer demands","Government regulations","Competitor actions"],
+     opts:["Competitor actions","Needs customers cannot yet articulate","Already expressed customer demands","Government regulations"],
      ans:"Needs customers cannot yet articulate",
      hint:"Japanese innovation focuses on addressing what people want but have not y... realized they want."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"{1} training is mandatory for everyone."},
 
     {type:"mc", q:"三方(さんぽう)よし (sanpo yoshi) means:",
-     opts:["Good for seller, buyer, and society","Three strategic pillars","Three-year plan","Three department heads"],
+     opts:["Three-year plan","Three department heads","Good for seller, buyer, and society","Three strategic pillars"],
      ans:"Good for seller, buyer, and society",
      hint:"This Edo-era merchant philosophy views business success as benefiting all three parties."},
 

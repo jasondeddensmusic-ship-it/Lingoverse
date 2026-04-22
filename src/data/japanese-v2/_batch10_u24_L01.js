@@ -14,7 +14,7 @@ const BATCH10_L1 = {
     {type:"mc", q:"When should you avoid なるほど?", opts:["With superiors","With friends","In writing","When confused"], ans:"With superiors", hint:"This response can sound like you are evaluating their words, which is presumptuous toward higher-status people."},
     {type:"fb", s:"{1}、迷(まよ)っています。\n(Actually, I am undecided.)", a:"実(じつ)は", opts:["実(じつ)は","ところで","やっぱり","まあ"], sSrc:"Actually, I am undecided.", hint:"This marker reveals hidden truth or makes a confession."},
     {type:"match", pairs:[{trg:"ところで",src:"topic change"},{trg:"やっぱり",src:"as expected"},{trg:"一応(いちおう)",src:"tentatively"},{trg:"とにかく",src:"anyway"}]},
-    {type:"mc", q:"What does やっぱりこれにします mean?", opts:["On second thought, I will take this one","This is what I expected","I give up on this","This is the best one"], ans:"On second thought, I will take this one", hint:"やっぱり can also signal changing your mind back to an earlier choice."}
+    {type:"mc", q:"What does やっぱりこれにします mean?", opts:["This is the best one","On second thought, I will take this one","This is what I expected","I give up on this"], ans:"On second thought, I will take this one", hint:"やっぱり can also signal changing your mind back to an earlier choice."}
   ,{type:"match",pairs:[{trg:"なるほど",src:"I see / that makes sense"},{trg:"まあ",src:"well / kind of"},{trg:"そういえば",src:"come to think of it / speaking of which"}]}]
 };
 export default BATCH10_L1;

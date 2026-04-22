@@ -1,4 +1,4 @@
-// L09: Society and Politics — 20 B1 gap words
+// L09: Society and Politics, 20 B1 gap words
 const LESSON_9 = {
   id:"nlv2_b1gap_l9", title:"Maatschappij en Politiek", icon:"\u{1F3DB}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Mensen die demonstreren tegen het beleid van de overheid zijn ___.",
-     opts:["actievoerders","ambtenaren","ambassadeurs","accountants"],
+     opts:["accountants","actievoerders","ambtenaren","ambassadeurs"],
      ans:"actievoerders",
      hint:"Which word describes people who protest and campaign for change?"},
 
@@ -144,7 +144,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"De huizenprijzen stijgen ___ verder. Het houdt niet op.",
-     opts:["alsmaar","althans","afkomstig","alledaags"],
+     opts:["afkomstig","alledaags","alsmaar","althans"],
      ans:"alsmaar",
      hint:"Which adverb means something keeps happening without stopping?"}
   ]

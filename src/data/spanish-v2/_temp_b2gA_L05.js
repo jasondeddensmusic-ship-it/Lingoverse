@@ -1,4 +1,4 @@
-// Lesson 5 — Discurso académico
+// Lesson 5. Discurso académico
 const LESSON_5 = {id:"esv2_b2gA_l5", title:"Discurso académico", icon:"🎓", xp:15, board:true, steps:[
 {type:"intro", title:"Discurso académico", desc:"Master the language of academic discourse, argumentation, and formal presentations.", goals:["Learn 15 academic discourse terms","Structure arguments formally","Navigate university-level vocabulary"]},
 
@@ -57,7 +57,7 @@ const LESSON_5 = {id:"esv2_b2gA_l5", title:"Discurso académico", icon:"🎓", x
  exampleSrc:"A: The gathering of experts debated the topic for hours.\nB: They didn't reach a clear consensus.",
  funFact:"In the Vatican, congregaciones are the departments of the Roman Curia."},
 
-{type:"mc", q:"¿Quién es un 'negociador'?", opts:["Una persona que conduce negociaciones","Un tipo de abogado","Un juez de un tribunal","Un político elegido"], ans:"Una persona que conduce negociaciones",
+{type:"mc", q:"¿Quién es un 'negociador'?", opts:["Un político elegido","Una persona que conduce negociaciones","Un tipo de abogado","Un juez de un tribunal"], ans:"Una persona que conduce negociaciones",
  hint:"The word directly derives from 'negociación' plus the agent suffix -dor."},
 
 {type:"fb", s:"El {1} propuso un compromiso aceptable para ambas partes.", a:["mediador"], opts:["mediador","negociador","mediación","incursión"],
@@ -94,7 +94,7 @@ const LESSON_5 = {id:"esv2_b2gA_l5", title:"Discurso académico", icon:"🎓", x
  hint:"This noun means the completion or conclusion of something.",
  sSrc:"The {1} of the trade agreement will take place on Friday."},
 
-{type:"mc", q:"¿Qué es una 'contraprestación'?", opts:["Lo que una parte ofrece a cambio en un contrato","Una queja formal","Un tipo de impuesto","Un regalo sin condiciones"], ans:"Lo que una parte ofrece a cambio en un contrato",
+{type:"mc", q:"¿Qué es una 'contraprestación'?", opts:["Un tipo de impuesto","Un regalo sin condiciones","Lo que una parte ofrece a cambio en un contrato","Una queja formal"], ans:"Lo que una parte ofrece a cambio en un contrato",
  hint:"In contracts, both sides must give something. This is what one side gives."},
 
 {type:"fb", s:"La {1} de la empresa al mercado asiático generó enormes beneficios.", a:["internacionalización"], opts:["internacionalización","finalización","complementación","congregación"],

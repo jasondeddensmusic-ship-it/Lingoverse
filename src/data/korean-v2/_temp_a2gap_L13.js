@@ -48,7 +48,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'독일'이라는 이름은 어디에서 왔어요?",
-     opts:["영어 'Germany'에서","독일어 'Deutsch'에서","프랑스어에서","러시아어에서"],
+     opts:["독일어 'Deutsch'에서","프랑스어에서","러시아어에서","영어 'Germany'에서"],
      ans:"독일어 'Deutsch'에서",
      hint:"This country name came through Japanese kanji and traces back to the country's own word for itself."},
 
@@ -76,7 +76,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"호주의 한자 이름은 어떤 뜻이에요?",
-     opts:["큰 나라","남쪽 나라","호수 나라","소리가 비슷해서"],
+     opts:["호수 나라","소리가 비슷해서","큰 나라","남쪽 나라"],
      ans:"소리가 비슷해서",
      hint:"Like many country names in Chinese characters, the meaning matters less than the sound match."},
 
@@ -111,7 +111,7 @@ const LESSON_13 = {
     // ── Quiz block 3 ──
     {type:"mc",
      q:"산 위에서 아래로 이동하는 것은?",
-     opts:["올라가다","내려가다","걸어가다","걸어오다"],
+     opts:["걸어오다","올라가다","내려가다","걸어가다"],
      ans:"내려가다",
      hint:"This verb combines 'descend' with 'go' for downward movement away from the speaker."},
 
@@ -160,7 +160,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'물 좀 가져와 주세요'는 무슨 뜻이에요?",
-     opts:["Please bring me some water","Please take the water away","Please drink water","Please pour some water"],
+     opts:["Please take the water away","Please drink water","Please pour some water","Please bring me some water"],
      ans:"Please bring me some water",
      hint:"This compound verb means to carry something toward the person speaking."},
 
@@ -173,7 +173,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"아래에 있는 사람이 위에 있는 사람에게: '빨리 ___!'",
-     opts:["올라가세요","내려오세요","걸어가세요","날아가세요"],
+     opts:["내려오세요","걸어가세요","날아가세요","올라가세요"],
      ans:"내려오세요",
      hint:"The speaker is below, asking someone above to move downward toward them."},
   ]

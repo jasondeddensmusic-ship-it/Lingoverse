@@ -61,7 +61,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"How is the past conditional formed?",
-     opts:["Imperfect + past participle","Conditional of avere/essere + past participle","Future + past participle","Present + conditional ending"],
+     opts:["Conditional of avere/essere + past participle","Future + past participle","Present + conditional ending","Imperfect + past participle"],
      ans:"Conditional of avere/essere + past participle",
      hint:"Like the passato prossimo but with the c... as the auxiliary. The choice between a... and e... follows the same rules."},
 
@@ -80,7 +80,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"Why does 'sarei andato' need gender agreement?",
-     opts:["All Italian verbs require gender agreement always","Only because 'andare' is irregular","Verbs using 'essere' agree the past participle with the subject","It is an exception with no grammatical reason"],
+     opts:["Only because 'andare' is irregular","Verbs using 'essere' agree the past participle with the subject","It is an exception with no grammatical reason","All Italian verbs require gender agreement always"],
      ans:"Verbs using 'essere' agree the past participle with the subject",
      hint:"Same rule as passato prossimo. 'Sarei andata' (f), 'saremmo andati' (m.pl.), 'saremmo andate' (f.pl.)."},
 
@@ -102,7 +102,7 @@ const LESSON_6 = {
      sSrc:"I {1} never have thought I would live in Italy."},
 
     {type:"mc", q:"What is the difference between 'avrei preferito' and 'non mi e piaciuto'?",
-     opts:["They mean exactly the same thing in all contexts","'Avrei preferito' is diplomatic; 'non mi e piaciuto' is direct criticism","'Avrei preferito' is rude; the other is polite","One is present tense; the other is future"],
+     opts:["'Avrei preferito' is rude; the other is polite","One is present tense; the other is future","They mean exactly the same thing in all contexts","'Avrei preferito' is diplomatic; 'non mi e piaciuto' is direct criticism"],
      ans:"'Avrei preferito' is diplomatic; 'non mi e piaciuto' is direct criticism",
      hint:"The past conditional softens dissatisfaction by framing it as an unfulfilled wish rather than a complaint."}
   ]

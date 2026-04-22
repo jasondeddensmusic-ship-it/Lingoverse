@@ -1,4 +1,4 @@
-// L08: Agriculture & Environment — 20 B2 gap words
+// L08: Agriculture & Environment, 20 B2 gap words
 const LESSON_8 = {
   id:"nlv2_b2g2_l8", title:"Landbouw en Milieu", icon:"\uD83C\uDF3E", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_8 = {
      sSrc:"The painting is {1} from the Rijksmuseum for an exhibition."},
     {type:"mc",
      q:"Welk Nederlands bedrijf is wereldberoemd in baggerwerk?",
-     opts:["Boskalis en Van Oord","Philips en ASML","Shell en Unilever","Heineken en Grolsch"],
+     opts:["Heineken en Grolsch","Boskalis en Van Oord","Philips en ASML","Shell en Unilever"],
      ans:"Boskalis en Van Oord",
      hint:"Think about companies that move earth and water, building islands and harbors worldwide."},
     {type:"match", pairs:[

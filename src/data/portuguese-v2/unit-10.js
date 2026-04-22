@@ -77,7 +77,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  sSrc:"I am a {1} of engineering at USP."},
 
 {type:"mc", q:"How do you say 'I am a teacher' (female)?",
- opts:["Sou professor","Sou professora","Tenho professora","Estou professora"],
+ opts:["Sou professora","Tenho professora","Estou professora","Sou professor"],
  ans:"Sou professora",
  hint:"Use the permanent 'to be' verb and the feminine ending -a."},
 
@@ -181,7 +181,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  hint:"The word comes from 'escrever' (to write); it is the writing place."},
 
 {type:"mc", q:"What does 'reunião' mean?",
- opts:["vacation","salary","meeting","company"],
+ opts:["salary","meeting","company","vacation"],
  ans:"meeting",
  hint:"A gathering of people to discuss work topics."},
 
@@ -199,7 +199,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 ]},
 
 {type:"mc", q:"Which word means a coworker you see every day?",
- opts:["o chefe","o colega","o médico","o cliente"],
+ opts:["o cliente","o chefe","o colega","o médico"],
  ans:"o colega",
  hint:"A coworker of equal rank, from Latin 'collega'."},
 
@@ -210,7 +210,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  sSrc:"My work {1} is from eight to five."},
 
 {type:"mc", q:"'Trabalho numa empresa grande' means:",
- opts:["I visit a big company","I work at a big company","I own a big company","I see a big company"],
+ opts:["I own a big company","I see a big company","I visit a big company","I work at a big company"],
  ans:"I work at a big company",
  hint:"The verb is trabalho and the preposition 'numa' is in+a."}
 ]},
@@ -268,7 +268,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
   text:"Two prepositions with 'trabalhar' mean different things:\n\nTrabalho num escritório. (I work in an office.) Location.\nTrabalho como advogado. (I work as a lawyer.) Role.\n\nSo 'trabalho como engenheiro numa empresa grande' combines both: the role and the place."}},
 
 {type:"mc", q:"Which is the 'eu' form of 'fazer'?",
- opts:["faz","faço","fazo","faze"],
+ opts:["faço","fazo","faze","faz"],
  ans:"faço",
  hint:"The 'eu' form is irregular and ends in -ço."},
 
@@ -284,7 +284,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  sSrc:"I {1} at a hospital as a nurse."},
 
 {type:"mc", q:"What does 'Nós trabalhamos juntos' mean?",
- opts:["I work alone","We work together","You work a lot","They work here"],
+ opts:["They work here","I work alone","We work together","You work a lot"],
  ans:"We work together",
  hint:"Nós is 'we' and trabalhamos is the first person plural of trabalhar."},
 
@@ -302,7 +302,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 ]},
 
 {type:"mc", q:"Which answer correctly responds to 'O que você faz?'",
- opts:["Sou professor","Tenho professor","Estou professor","Faço professor"],
+ opts:["Tenho professor","Estou professor","Faço professor","Sou professor"],
  ans:"Sou professor",
  hint:"Stating your profession uses the permanent 'to be' verb without an article."},
 
@@ -416,7 +416,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
 ]},
 
 {type:"mc", q:"Which sentence means 'I hope the meeting goes well'?",
- opts:["Acredito que a reunião vai bem","Espero que a reunião vá bem","Lembro que a reunião vai bem","Preciso de reunião boa"],
+ opts:["Lembro que a reunião vai bem","Preciso de reunião boa","Acredito que a reunião vai bem","Espero que a reunião vá bem"],
  ans:"Espero que a reunião vá bem",
  hint:"The verb 'esperar' covers both hoping and waiting. In this sentence the speaker is expressing a wish about the meeting."}
 ]},
@@ -490,7 +490,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  funFact:"'Ajudar' is one of the first verbs a learner hears in Brazil. Shop assistants use 'Posso ajudar?' (Can I help you?) as their standard greeting."},
 
 {type:"tip", title:"Estar with Emotion Adjectives",
- text:"In Portuguese, temporary states and feelings use 'estar', not 'ser':\n\nEstou triste. (I am sad — right now.)\nEstou nervoso. (I am nervous — at this moment.)\nEstou cansado. (I am tired — today.)\n\nUsing 'ser' would mean a permanent character trait:\nEle é calmo. (He is a calm person.) — personality.\nEle está calmo. (He is calm right now.) — current state.\n\nFor most emotions at A2, you will use 'estar'.",
+ text:"In Portuguese, temporary states and feelings use 'estar', not 'ser':\n\nEstou triste. (I am sad, right now.)\nEstou nervoso. (I am nervous, at this moment.)\nEstou cansado. (I am tired, today.)\n\nUsing 'ser' would mean a permanent character trait:\nEle é calmo. (He is a calm person.), personality.\nEle está calmo. (He is calm right now.), current state.\n\nFor most emotions at A2, you will use 'estar'.",
  deepDive:{title:"Gender Agreement with Emotion Adjectives",
   text:"Adjectives ending in -o change to -a for feminine nouns. Adjectives ending in -e are neutral:\n\n-o/-a group: cansado/cansada, nervoso/nervosa, calmo/calma, preocupado/preocupada\n-e group (no change): triste, alegre\n\nPractical shortcut: if you are female or talking about a woman, swap the -o ending to -a. Nothing else changes."}},
 
@@ -501,7 +501,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  sSrc:"She is {1} because she lost the book."},
 
 {type:"mc", q:"Which sentence correctly describes a temporary feeling?",
- opts:["Sou nervosa hoje","Estou nervosa hoje","Tenho nervosa hoje","Vou nervosa hoje"],
+ opts:["Estou nervosa hoje","Tenho nervosa hoje","Vou nervosa hoje","Sou nervosa hoje"],
  ans:"Estou nervosa hoje",
  hint:"Temporary feelings use the verb to be that describes states, not permanent traits."},
 
@@ -560,7 +560,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  sSrc:"I am {1} about my family, I do not know how she is."},
 
 {type:"mc", q:"How do you say 'Stay calm' in Portuguese?",
- opts:["Fique nervoso","Fique triste","Fique calmo","Fique cansado"],
+ opts:["Fique cansado","Fique nervoso","Fique triste","Fique calmo"],
  ans:"Fique calmo",
  hint:"Use the imperative of 'ficar' followed by the adjective that means calm."}
 ]}

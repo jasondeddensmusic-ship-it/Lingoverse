@@ -1,4 +1,4 @@
-// PP63 Round 2 — B2 Vocabulary Gaps
+// PP63 Round 2. B2 Vocabulary Gaps
 // Closes flags: elite, diabetes, detox, mayo
 const LESSON_PP63R2_B2 = {
   id:"nlv2_pp63r2_b2", title:"B2 Woordenschat Extra", icon:"\u{1F393}", xp:15, board:true,

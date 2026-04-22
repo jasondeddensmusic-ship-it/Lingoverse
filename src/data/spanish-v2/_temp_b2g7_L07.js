@@ -13,7 +13,7 @@ const LESSON_7 = {id:"esv2_b2g7_l7",title:"Imposibilidades y límites",icon:"�
 {type:"teach",trg:"el acondicionamiento",src:"the conditioning / fitting out",pos:"noun",gender:"m",note:"Preparing or equipping a space. Also: air conditioning context.",example:"A: El acondicionamiento del local costó miles de euros.\nB: Sin un buen acondicionamiento, no podemos abrir.",exampleSrc:"A: The fitting out of the premises cost thousands of euros.\nB: Without proper conditioning, we cannot open.",funFact:"'Aire acondicionado' (air conditioning) comes from this word. Spain's summers make it practically essential."},
 {type:"mc",q:"Si un recurso es 'limitado', significa que:",opts:["No hay una cantidad infinita disponible","Es muy abundante","Es gratis","Nadie lo quiere"],ans:"No hay una cantidad infinita disponible",hint:"Think about what limits imply: restrictions on quantity or availability."},
 {type:"fb",s:"El problema sigue {1}, aunque no es visible todavía.",a:["latente"],opts:["latente","limitado","indirecto","itinerante"],hint:"This adjective means present but hidden, not yet active.",sSrc:"The problem remains {1}, although it is not visible yet."},
-{type:"mc",q:"Una exposición 'itinerante' es una que:",opts:["Viaja de ciudad en ciudad","Se queda siempre en el mismo museo","Solo abre un día","Es muy pequeña"],ans:"Viaja de ciudad en ciudad",hint:"The Latin root 'iter' means journey. Think of something always on the move."},
+{type:"mc",q:"Una exposición 'itinerante' es una que:",opts:["Es muy pequeña","Viaja de ciudad en ciudad","Se queda siempre en el mismo museo","Solo abre un día"],ans:"Viaja de ciudad en ciudad",hint:"The Latin root 'iter' means journey. Think of something always on the move."},
 {type:"fb",s:"La {1} del proyecto está prevista para diciembre.",a:["finalización"],opts:["finalización","absorción","aspiración","imposición"],hint:"This formal noun means the completion or finishing of something.",sSrc:"The {1} of the project is scheduled for December."},
 {type:"match",pairs:[
   {trg:"limitado",src:"limited"},
@@ -22,7 +22,7 @@ const LESSON_7 = {id:"esv2_b2g7_l7",title:"Imposibilidades y límites",icon:"�
   {trg:"la aspiración",src:"the aspiration"},
   {trg:"la absorción",src:"the absorption"}
 ]},
-{type:"mc",q:"'Fusión por absorción' en el mundo empresarial significa:",opts:["Una empresa absorbe a otra","Dos empresas se separan","Una empresa cierra","Se crea una empresa nueva"],ans:"Una empresa absorbe a otra",hint:"One company takes in another company completely."},
+{type:"mc",q:"'Fusión por absorción' en el mundo empresarial significa:",opts:["Una empresa cierra","Se crea una empresa nueva","Una empresa absorbe a otra","Dos empresas se separan"],ans:"Una empresa absorbe a otra",hint:"One company takes in another company completely."},
 {type:"fb",s:"¿Cuáles son tus {1} profesionales para el futuro?",a:["aspiraciones"],opts:["aspiraciones","finalizaciones","absorciones","imposiciones"],hint:"This word means ambitions or strong desires to achieve something.",sSrc:"What are your professional {1} for the future?"}
 ]};
 export default LESSON_7;

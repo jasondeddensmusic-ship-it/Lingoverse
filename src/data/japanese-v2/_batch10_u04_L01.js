@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"〜冊(さつ)", src:"books/volumes"}
     ]},
 
-    {type:"mc", q:"How do you say 'one person' in Japanese?", opts:["1人(ひとり)","1人(いちにん)","1個(いっこ)","1つ(ひとつ)"], ans:"1人(ひとり)",
+    {type:"mc", q:"How do you say 'one person' in Japanese?", opts:["1つ(ひとつ)","1人(ひとり)","1人(いちにん)","1個(いっこ)"], ans:"1人(ひとり)",
      hint:"The counter for people has special native Japanese readings for 1 and 2."}
   ,{type:"fb", s:"車(くるま)やパソコンを数(かぞ)えるときに使(つか)う助数詞(じょすうし)は{1}です。",
     a:["〜台(だい)"],

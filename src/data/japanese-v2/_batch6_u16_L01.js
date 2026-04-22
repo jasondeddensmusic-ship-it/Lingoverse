@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Could you call me back?\nB: Yes, what time would be good?",
      funFact:"折(お)り返(かえ)し literally means 'folding back,' like a letter being folded and returned. In business, 折(お)り返(かえ)し電話(でんわ) (return call) is standard practice. 折(お)り返(かえ)し連絡(れんらく)します (I will get back to you) is a common way to buy time before committing."},
 
-    {type:"mc", q:"確認(かくにん) means:", opts:["Confirmation or verification","Cancellation","Reservation","Change"], ans:"Confirmation or verification",
+    {type:"mc", q:"確認(かくにん) means:", opts:["Change","Confirmation or verification","Cancellation","Reservation"], ans:"Confirmation or verification",
      hint:"This word is about checking and making sure something is correct."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"水曜日(すいようび)は{1}いますか？\n(Are you free on Wednesday?)", a:"空(あ)いて", opts:["空(あ)いて","開(あ)けて","閉(し)めて","決(き)めて"], sSrc:"Are you free on Wednesday?",
      hint:"The て-form of 空(あ)く, describing being available or open."},
 
-    {type:"mc", q:"折(お)り返(かえ)し relates to:", opts:["Returning a call or message","Making a new reservation","Arriving on time","Going to sleep"], ans:"Returning a call or message",
+    {type:"mc", q:"折(お)り返(かえ)し relates to:", opts:["Arriving on time","Going to sleep","Returning a call or message","Making a new reservation"], ans:"Returning a call or message",
      hint:"This word literally means 'folding back' and is used for return contact."}
   ,{type:"match",pairs:[{trg:"日にち(ひにち)",src:"date / day"},{trg:"都合(つごう)",src:"convenience / circumstances / availability"},{trg:"遅(おく)らせる",src:"to delay / to postpone"},{trg:"繰(く)り返(かえ)す",src:"to repeat"},{trg:"折(お)り返(かえ)し",src:"return (call/contact)"}]},
   {type:"fb", s:"レストランに電話(でんわ)して{1}を入(い)れました。", a:["予約(よやく)"], opts:["予約(よやく)","約束(やくそく)","都合(つごう)","変更(へんこう)"], hint:"A booking made in advance at a restaurant or hotel.", sSrc:"I called the restaurant and made a {1}."}

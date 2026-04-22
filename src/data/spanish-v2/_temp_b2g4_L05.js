@@ -78,7 +78,7 @@ const LESSON_5 = {id:"esv2_b2g4_l5",title:"Leyes y gobernanza",icon:"⚖️",xp:
  exampleSrc:"A: He excused himself for not attending the meeting.\nB: He said he was ill.",
  funFact:"'Excusado' as a noun is an old-fashioned word for 'bathroom' in some Spanish regions."},
 
-{type:"mc",q:"¿Qué es el etiquetado de alimentos?",opts:["La información en los envases de comida","Un tipo de impuesto","Una receta de cocina","Un estilo de cocinar"],ans:"La información en los envases de comida",hint:"Think about the labels on food packaging that tell you ingredients and nutrition."},
+{type:"mc",q:"¿Qué es el etiquetado de alimentos?",opts:["Un estilo de cocinar","La información en los envases de comida","Un tipo de impuesto","Una receta de cocina"],ans:"La información en los envases de comida",hint:"Think about the labels on food packaging that tell you ingredients and nutrition."},
 
 {type:"teach",trg:"el enfoque",src:"the approach / focus",pos:"noun",gender:"m",
  note:"Masculine noun. A way of dealing with something.\nVerb: enfocar.",
@@ -90,7 +90,7 @@ const LESSON_5 = {id:"esv2_b2g4_l5",title:"Leyes y gobernanza",icon:"⚖️",xp:
 
 {type:"match",pairs:[{trg:"estatuto",src:"statute"},{trg:"estipular",src:"to stipulate"},{trg:"erróneo",src:"erroneous"},{trg:"equivalencia",src:"equivalence"},{trg:"enfoque",src:"approach"}]},
 
-{type:"mc",q:"Si una información es 'errónea', es:",opts:["Incorrecta o equivocada","Muy detallada","Completamente secreta","Bastante útil"],ans:"Incorrecta o equivocada",hint:"Think about data that contains mistakes or falsehoods."},
+{type:"mc",q:"Si una información es 'errónea', es:",opts:["Completamente secreta","Bastante útil","Incorrecta o equivocada","Muy detallada"],ans:"Incorrecta o equivocada",hint:"Think about data that contains mistakes or falsehoods."},
 
 {type:"fb",s:"Debemos {1} las reglas para que todos las entiendan.",a:["explicitar"],opts:["explicitar","etiquetar","estipular","escandalizar"],hint:"To make something clearly stated and openly understood.",sSrc:"We must {1} the rules so that everyone understands them."}
 ]};

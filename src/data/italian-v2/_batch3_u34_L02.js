@@ -1,4 +1,4 @@
-// Batch 3 — Unit 34 Lesson 2 (International Relations: Conflict & Human Rights)
+// Batch 3. Unit 34 Lesson 2 (International Relations: Conflict & Human Rights)
 const BATCH3_L_2 = {
   id:"itv2_u34l_b3_2", title:"Conflitti e diritti umani", icon:"✊", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Dove fu adottato lo statuto fondativo della Corte Penale Internazionale?",
-     opts:["A Ginevra nel 1945","All'Aia nel 2002","A Roma nel 1998","A New York nel 1948"],
+     opts:["A Roma nel 1998","A New York nel 1948","A Ginevra nel 1945","All'Aia nel 2002"],
      ans:"A Roma nel 1998",
      hint:"This foundational treaty bears the name of the Italian capital where the conference was held. Italy hosted and championed the court's creation."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Qual e la differenza tra 'profugo,' 'rifugiato' e 'sfollato' in italiano?",
-     opts:["Sono tre sinonimi perfetti e intercambiabili in ogni contesto","Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese","Il profugo viene dall'Africa, il rifugiato dal Medio Oriente, lo sfollato dall'Europa orientale","La differenza riguarda solo l'età: profugo per adulti, rifugiato per famiglie, sfollato per minori"],
+     opts:["La differenza riguarda solo l'età: profugo per adulti, rifugiato per famiglie, sfollato per minori","Sono tre sinonimi perfetti e intercambiabili in ogni contesto","Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese","Il profugo viene dall'Africa, il rifugiato dal Medio Oriente, lo sfollato dall'Europa orientale"],
      ans:"Il profugo e generico, il rifugiato ha status giuridico internazionale, lo sfollato e interno al proprio paese",
      hint:"Three related but distinct terms: one is general, one has specific legal recognition under international law, and one refers to displacement within national borders."}
   ,{type:"match",pairs:[{trg:"il genocidio",src:"genocide"},{trg:"la zona di conflitto",src:"the conflict zone"},{trg:"le mine antiuomo",src:"antipersonnel landmines"},{trg:"la sicurezza collettiva",src:"collective security"}]},

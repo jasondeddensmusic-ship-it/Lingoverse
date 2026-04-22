@@ -68,7 +68,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"mc",
  q:"Which word means 'duty'?",
- opts:["direito","dever","lei","liberdade"],
+ opts:["dever","lei","liberdade","direito"],
  ans:"dever",
  hint:"Obligation or moral responsibility. Opposite of rights."},
 
@@ -190,7 +190,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"mc",
  q:"How do you say 'to vote for someone' in Portuguese?",
- opts:["votar por alguém","votar em alguém","votar a alguém","votar com alguém"],
+ opts:["votar em alguém","votar a alguém","votar com alguém","votar por alguém"],
  ans:"votar em alguém",
  hint:"Portuguese uses a different preposition than English here."},
 
@@ -284,7 +284,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"mc",
  q:"Which preposition goes with 'discordar'?",
- opts:["com","de","em","a"],
+ opts:["de","em","a","com"],
  ans:"de",
  hint:"Discordar takes a different preposition than English 'disagree with'."},
 
@@ -320,7 +320,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"mc",
  q:"Which phrase introduces a personal view?",
- opts:["Por exemplo","Na minha opinião","Por isso","De qualquer forma"],
+ opts:["De qualquer forma","Por exemplo","Na minha opinião","Por isso"],
  ans:"Na minha opinião",
  hint:"The B2 signature phrase for giving your view."},
 
@@ -360,7 +360,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  note:"A specific remembered moment, or a physical souvenir. Plural 'lembranças'. From the verb 'lembrar-se de' (to remember).",
  example:"A: Tenho muitas lembranças boas da infância.\nB: Eu também. São muito especiais.",
  exampleSrc:"A: I have many good memories of childhood.\nB: Me too. They are very special.",
- funFact:"In Brazilian Portuguese, 'lembranças' at the end of a letter means 'regards' — like sending warm memories to someone."},
+ funFact:"In Brazilian Portuguese, 'lembranças' at the end of a letter means 'regards', like sending warm memories to someone."},
 
 {type:"teach", trg:"a emoção", src:"emotion / feeling", pos:"noun", gender:"f",
  note:"A strong feeling. Plural 'emoções'. 'Com emoção' means with emotion or moved. Adjective: 'emocionante' (moving).",
@@ -393,19 +393,19 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  funFact:"'Ter boa memória' means to have a good memory. 'Em memória de' means 'in memory of' and appears on plaques, dedications, and book inscriptions."},
 
 {type:"tip", title:"Significar vs Querer dizer",
- text:"Two ways to ask or say 'what does this mean' in Portuguese:\n\nO que significa isso? (What does this mean? — formal, written)\nO que quer dizer isso? (What does this mean? — everyday spoken)\n\nBoth are correct. 'Significar' is preferred in writing and emotional contexts. 'Querer dizer' is used in conversation to check understanding.\n\nFor personal significance, always use 'significar':\n\nIsso significa muito para mim. (This means a lot to me.)\nO que a família significa para você? (What does family mean to you?)",
+ text:"Two ways to ask or say 'what does this mean' in Portuguese:\n\nO que significa isso? (What does this mean?, formal, written)\nO que quer dizer isso? (What does this mean?, everyday spoken)\n\nBoth are correct. 'Significar' is preferred in writing and emotional contexts. 'Querer dizer' is used in conversation to check understanding.\n\nFor personal significance, always use 'significar':\n\nIsso significa muito para mim. (This means a lot to me.)\nO que a família significa para você? (What does family mean to you?)",
  deepDive:{title:"Building a Reflective Essay in Portuguese",
   text:"CAPLE B2 writing tasks often ask for a 'texto reflexivo' (reflective text). The key vocabulary cluster is: 'uma experiência marcante', 'isso me transformou', 'a lembrança que tenho', 'com grande emoção'. Brazilian ENEM essays use the same cluster. Train yourself to link these words: an event that was 'marcante' led to a 'transformação', and the 'emoção' involved is preserved in a 'lembrança inesquecível'. This chain tells a complete personal narrative."}},
 
 {type:"mc",
  q:"What does 'marcante' mean?",
- opts:["ordinary","deeply memorable","recent","difficult"],
+ opts:["deeply memorable","recent","difficult","ordinary"],
  ans:"deeply memorable",
- hint:"From 'marcar' — this adjective describes an experience that leaves a lasting impression."},
+ hint:"From 'marcar', this adjective describes an experience that leaves a lasting impression."},
 
 {type:"mc",
  q:"Which word refers to a specific remembered moment?",
- opts:["a memória","a emoção","a lembrança","a sociedade"],
+ opts:["a emoção","a lembrança","a sociedade","a memória"],
  ans:"a lembrança",
  hint:"The noun from 'lembrar-se de'. You might keep one of these in a photo album."},
 
@@ -425,7 +425,7 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
 
 {type:"mc",
  q:"How do you say 'This means a lot to me' in Portuguese?",
- opts:["Isso lembra muito para mim.","Isso significa muito para mim.","Isso transforma muito para mim.","Isso marca muito para mim."],
+ opts:["Isso marca muito para mim.","Isso lembra muito para mim.","Isso significa muito para mim.","Isso transforma muito para mim."],
  ans:"Isso significa muito para mim.",
  hint:"Use the verb meaning 'to signify or mean' in the present tense."},
 
@@ -494,17 +494,17 @@ const UNIT_25 = {n:25, lang:"pt", srcLang:"en", track:"v2", title:"Valores e soc
  note:"Masculine noun. Plural: os impactos.\nUsed for effects, consequences, results.\nTer impacto em + area.",
  example:"A: Qual é o impacto da mudança?\nB: O impacto é muito grande.",
  exampleSrc:"A: What is the impact of the change?\nB: The impact is very large.",
- funFact:"Impacto in Brazilian Portuguese is used constantly in news and environmental writing — 'impacto ambiental' is a required section of every major project proposal."},
+ funFact:"Impacto in Brazilian Portuguese is used constantly in news and environmental writing, 'impacto ambiental' is a required section of every major project proposal."},
 {type:"tip", title:"Academic Register: Verbs that Argue",
- text:"Academic B2 Portuguese favors specific verbs:\n\npesquisar — investigate a topic systematically\nexaminar — inspect data or arguments closely\nenfatizar — stress an important point\n\nThese replace casual alternatives in essays and research.",
+ text:"Academic B2 Portuguese favors specific verbs:\n\npesquisar, investigate a topic systematically\nexaminar, inspect data or arguments closely\nenfatizar, stress an important point\n\nThese replace casual alternatives in essays and research.",
  deepDive:{title:"Hypothesis and evidence pair",
-  text:"Academic argument in Portuguese builds on two nouns:\n\nhipótese — your claim or proposed explanation\nevidência — the support for that claim\n\nPattern: 'Minha hipótese é X. As evidências mostram Y.'"}},
+  text:"Academic argument in Portuguese builds on two nouns:\n\nhipótese, your claim or proposed explanation\nevidência, the support for that claim\n\nPattern: 'Minha hipótese é X. As evidências mostram Y.'"}},
 {type:"mc", q:"Qual palavra significa 'hypothesis'?",
- opts:["a perspectiva","a hipótese","a premissa","a evidência"],
+ opts:["a hipótese","a premissa","a evidência","a perspectiva"],
  ans:"a hipótese",
- hint:"Keep the Greek stem intact — the word sits at the start of every research paper."},
+ hint:"Keep the Greek stem intact, the word sits at the start of every research paper."},
 {type:"mc", q:"Qual palavra é o oposto de 'opinião pessoal' em um debate acadêmico?",
- opts:["a perspectiva","a premissa","a evidência","o impacto"],
+ opts:["a premissa","a evidência","o impacto","a perspectiva"],
  ans:"a evidência",
  hint:"The objective support for a claim."},
 {type:"fb", s:"Eu quero {1} um ponto importante na reunião.", a:"enfatizar", opts:["enfatizar","pesquisar","examinar","aceitar"],

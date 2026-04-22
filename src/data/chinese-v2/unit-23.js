@@ -70,7 +70,7 @@ lessons:[
  sSrc:"A big event {1} yesterday."},
 
 {type:"mc", q:"你(nǐ)还(hái)看(kàn)报纸(bàozhǐ)吗(ma)？ 很少(hěnshǎo)了(le)。 What does this exchange tell us?",
- opts:["The person rarely reads newspapers anymore","The person reads newspapers every day","The person never reads anything","The person only reads newspapers"],
+ opts:["The person only reads newspapers","The person rarely reads newspapers anymore","The person reads newspapers every day","The person never reads anything"],
  ans:"The person rarely reads newspapers anymore",
  hint:"还 asks 'still,' and 很少了 means '___ now.' The 了 suggests a change from a previous habit."},
 
@@ -155,7 +155,7 @@ lessons:[
  sSrc:"Everyone is {1} this social issue."},
 
 {type:"mc", q:"你(nǐ)对(duì)这件(zhèjiàn)事(shì)有(yǒu)什么(shénme)意见(yìjiàn)？ This asks:",
- opts:["What is your opinion about this?","Did you hear about this?","Are you interested in this?","Did you report this?"],
+ opts:["Did you report this?","What is your opinion about this?","Did you hear about this?","Are you interested in this?"],
  ans:"What is your opinion about this?",
  hint:"意见 means ___ or view. The question asks for your personal viewpoint on the matter."},
 
@@ -216,7 +216,7 @@ lessons:[
  sSrc:"Young people marrying late is a social {1}."},
 
 {type:"mc", q:"关注(guānzhù) on Chinese social media means:",
- opts:["To follow or subscribe","To block someone","To report content","To share a post"],
+ opts:["To share a post","To follow or subscribe","To block someone","To report content"],
  ans:"To follow or subscribe",
  hint:"This word has gained a digital meaning. It is the button you press when you want to see someone's future posts."},
 
@@ -233,7 +233,7 @@ lessons:[
  sSrc:"Online education is a new {1}."},
 
 {type:"mc", q:"现象(xiànxiàng) contains the character 象(xiàng), which originally depicted:",
- opts:["An elephant","A dragon","A horse","A tiger"],
+ opts:["A horse","A tiger","An elephant","A dragon"],
  ans:"An elephant",
  hint:"This character is one of the oldest pictographs. It showed the largest animal ancient people could see, then evolved to mean 'form' or 'appearance.'"}
 ]},
@@ -264,7 +264,7 @@ lessons:[
  sSrc:"Everyone has a different {1} about this matter."},
 
 {type:"mc", q:"这件(zhèjiàn)事(shì)引起(yǐnqǐ)了(le)公众(gōngzhòng)的(de)关注(guānzhù)。 What happened?",
- opts:["The event drew the public's attention","The public caused the event","The news was censored","A new trend appeared"],
+ opts:["A new trend appeared","The event drew the public's attention","The public caused the event","The news was censored"],
  ans:"The event drew the public's attention",
  hint:"引起 means 'to cause' or 'to draw.' The sentence describes an ___ that attracted widespread ___ interest."},
 
@@ -289,7 +289,7 @@ lessons:[
  sSrc:"Many media outlets {1} this event."},
 
 {type:"mc", q:"社会(shèhuì) originally referred to:",
- opts:["A gathering around the earth god","A government building","A marketplace","A school"],
+ opts:["A marketplace","A school","A gathering around the earth god","A government building"],
  ans:"A gathering around the earth god",
  hint:"社 originally meant the ___ of the ___. 会 means ___. The word captures the communal nature of living together."},
 
@@ -300,7 +300,7 @@ lessons:[
  hint:"Recently online media reported a new social phenomenon, many people are discussing it, and everyone has different opinions."},
 
 {type:"mc", q:"趋势(qūshì) describes:",
- opts:["The direction or momentum of a development","A single news event","A fixed tradition","A personal habit"],
+ opts:["A single news event","A fixed tradition","A personal habit","The direction or momentum of a development"],
  ans:"The direction or momentum of a development",
  hint:"趋 means to hasten toward, and 势 means ___ or power. Together they describe where things are heading."}
 ]}

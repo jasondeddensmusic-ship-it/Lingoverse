@@ -1,4 +1,4 @@
-// Batch 6 — Unit 04 extra lesson. Al bar: Pastries & Breakfast Culture
+// Batch 6. Unit 04 extra lesson. Al bar: Pastries & Breakfast Culture
 const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F950}", xp:15, board:true, steps:[
 {type:"intro", title:"La colazione al bar",
  desc:"Explore Italian breakfast culture, pastries, and the rituals of the morning bar visit.",
@@ -99,7 +99,7 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
  sSrc:"First I pay at the {1}, then I order at the counter."},
 
 {type:"mc", q:"Cosa significa 'inzuppare'?",
- opts:["to dunk or dip","to drink quickly","to pay","to order"],
+ opts:["to order","to dunk or dip","to drink quickly","to pay"],
  ans:"to dunk or dip",
  hint:"What you do with your cornetto in your cappuccino."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u04l_b6_1", title:"La colazione al bar", icon:"\u{1F
  sSrc:"The {1} makes an excellent cappuccino every morning."},
 
 {type:"mc", q:"Dove costa meno il caffè in un bar italiano?",
- opts:["Al bancone","Al tavolo","In terrazza","Alla cassa"],
+ opts:["In terrazza","Alla cassa","Al bancone","Al tavolo"],
  ans:"Al bancone",
  hint:"Standing up at the bar is the cheapest option, a quick Italian tradition."},
 

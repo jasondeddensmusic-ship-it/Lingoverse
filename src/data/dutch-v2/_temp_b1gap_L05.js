@@ -1,4 +1,4 @@
-// L05: Cars and Transport — 20 B1 gap words
+// L05: Cars and Transport, 20 B1 gap words
 const LESSON_5 = {
   id:"nlv2_b1gap_l5", title:"Auto en Verkeer", icon:"\u{1F697}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Waar zet je je koffers als je met de auto op vakantie gaat?",
-     opts:["in de achterbak","op de achterbank","bij de airbag","op het autoraam"],
+     opts:["op het autoraam","in de achterbak","op de achterbank","bij de airbag"],
      ans:"in de achterbak",
      hint:"Think about the storage compartment at the rear of the car."},
 

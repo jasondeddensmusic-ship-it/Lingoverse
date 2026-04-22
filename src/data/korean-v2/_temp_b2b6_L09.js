@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 9: Seeds and Innocence
+// Korean B2. Batch 6, Lesson 9: Seeds and Innocence
 // Words: 씌우다, 씨, 씨름, 씨앗, 씩씩하다, 씻기다, 아깝다, 아끼다, 아냐, 아뇨, 아니야, 아니하다, 아드님, 아래쪽, 아래층, 아랫사람, 아르바이트, 아무개, 아무런, (det)
 
 const LESSON_9 = {
@@ -131,7 +131,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'알바'는 어느 나라 말에서 온 외래어인가요?",
-     opts:["독일어","영어","일본어","프랑스어"],
+     opts:["프랑스어","독일어","영어","일본어"],
      ans:"독일어",
      hint:"The full form is 아르바이트. This word comes from a European language meaning 'work.'"},
 

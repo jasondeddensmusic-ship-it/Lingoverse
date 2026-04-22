@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"誕生日(たんじょうび)",src:"birthday"},{trg:"結婚式(けっこんしき)",src:"wedding ceremony"},{trg:"卒業式(そつぎょうしき)",src:"graduation ceremony"},{trg:"お盆(ぼん)",src:"Obon festival"},{trg:"お正月(しょうがつ)",src:"New Year"}],
      hint:"Match each life event or holiday with its English meaning."},
 
-    {type:"mc", q:"What is お年玉(としだま)?", opts:["New Year money given to children","A birthday gift","A wedding present","Condolence money"], ans:"New Year money given to children",
+    {type:"mc", q:"What is お年玉(としだま)?", opts:["Condolence money","New Year money given to children","A birthday gift","A wedding present"], ans:"New Year money given to children",
      hint:"This cash gift in a small envelope is a cherished annual tradition for Japanese c...."},
 
     {type:"fb", s:"お盆(ぼん)に{1}に帰(かえ)ります。\n(I will return to my hometown for Obon.)", a:"実家(じっか)", opts:["実家(じっか)","学校(がっこう)","会社(かいしゃ)","病院(びょういん)"], sSrc:"I will return to my hometown for Obon.",
      hint:"This word means your family home or the house where you grew up."},
 
-    {type:"mc", q:"What happens at お宮参(みやまい)り?", opts:["A newborn baby visits a shrine for the first time","A student graduates from school","A couple gets married","Ancestors are honored"], ans:"A newborn baby visits a shrine for the first time",
+    {type:"mc", q:"What happens at お宮参(みやまい)り?", opts:["A couple gets married","Ancestors are honored","A newborn baby visits a shrine for the first time","A student graduates from school"], ans:"A newborn baby visits a shrine for the first time",
      hint:"This ceremony introduces the newest family member to the local deity."}
   ,{type:"fb", s:"結婚(けっこん)して今日(きょう)で10年(ねん)です。大切(たいせつ)な{1}ですね。",
      a:["記念日(きねんび)"],

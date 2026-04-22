@@ -1,4 +1,4 @@
-// L14: Time & Daily Life — Routine and schedule
+// L14: Time & Daily Life. Routine and schedule
 const LESSON_14 = {
   id:"esv2_a1gap_l14", title:"El día a día", icon:"\u{23F0}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"\u00bfDónde vive mucha gente que trabaja en la ciudad?",
-     opts:["En las afueras","En la agenda","En la alimentación","Adentro"],
+     opts:["Adentro","En las afueras","En la agenda","En la alimentación"],
      ans:"En las afueras",
      hint:"This word describes the area around a city, outside the center but not fully rural."},
 

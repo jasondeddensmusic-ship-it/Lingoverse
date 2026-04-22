@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 01: Maatschappij & Beleid
+// B2 Gap Batch A. Lesson 01: Maatschappij & Beleid
 // Theme: Society, policy, citizenship
 
 const LESSON_1 = {id:"nlv2_b2gA_l1", title:"Maatschappij & Beleid", icon:"\u{1F3DB}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_1 = {id:"nlv2_b2gA_l1", title:"Maatschappij & Beleid", icon:"\u{1F3
    sSrc:"The population composition of the Netherlands has changed significantly in recent decades."},
 
   {type:"mc", q:"De fractie stemde tegen het voorstel. Wat is een 'fractie' in de politiek?",
-   opts:["een groep parlementsleden van dezelfde partij","een onderdeel van een gemeente","een soort beleid","een type verkiezing"],
+   opts:["een type verkiezing","een groep parlementsleden van dezelfde partij","een onderdeel van een gemeente","een soort beleid"],
    ans:"een groep parlementsleden van dezelfde partij",
    hint:"Think of a group of politicians who belong to the same party in parliament."},
 
@@ -76,7 +76,7 @@ const LESSON_1 = {id:"nlv2_b2gA_l1", title:"Maatschappij & Beleid", icon:"\u{1F3
   ]},
 
   {type:"mc", q:"Je hebt een indicatie nodig voor thuiszorg. Wat is een 'indicatie'?",
-   opts:["an official assessment of care needs","a type of insurance","a hospital department","a medical prescription"],
+   opts:["a hospital department","a medical prescription","an official assessment of care needs","a type of insurance"],
    ans:"an official assessment of care needs",
    hint:"An o... determination that you qualify for a certain level of c...."},
 

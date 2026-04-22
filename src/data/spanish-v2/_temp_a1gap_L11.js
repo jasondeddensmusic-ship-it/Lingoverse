@@ -1,4 +1,4 @@
-// L11: Shopping & Money — Buying, selling, and commerce
+// L11: Shopping & Money. Buying, selling, and commerce
 const LESSON_11 = {
   id:"esv2_a1gap_l11", title:"De compras", icon:"\u{1F6CD}\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"\u00bfQué dices cuando ves a alguien comiendo?",
-     opts:["Que aproveche","Que anuncie","Que avise","Que asegure"],
+     opts:["Que asegure","Que aproveche","Que anuncie","Que avise"],
      ans:"Que aproveche",
      hint:"This is the Spanish equivalent of 'bon appétit', wishing someone a good meal."},
 

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 02 Lesson 1: Countries & Nationalities
+// Batch 4. Unit 02 Lesson 1: Countries & Nationalities
 const BATCH4_L_1 = {
   id:"jav2_u02l_b4_1", title:"国(くに)と国籍(こくせき)", icon:"🌏", xp:15, board:true,
   steps:[
@@ -95,7 +95,7 @@ const BATCH4_L_1 = {
      hint:"Add the suffix for 'person' after the country name."},
 
     {type:"mc", q:"ドイツ means:",
-     opts:["Germany","France","Italy","Spain"], ans:"Germany",
+     opts:["Spain","Germany","France","Italy"], ans:"Germany",
      hint:"This name comes from the German word 'Deutsch.'"},
 
     {type:"fb", s:"日本(にほん){1}を勉強(べんきょう)しています。", a:"語(ご)",
@@ -111,7 +111,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What does 留学生(りゅうがくせい) mean?",
-     opts:["exchange student","teacher","tourist","businessman"], ans:"exchange student",
+     opts:["tourist","businessman","exchange student","teacher"], ans:"exchange student",
      hint:"Someone who stays in a foreign country to study."},
 
     {type:"fb", s:"{1}はどこですか？", a:"出身(しゅっしん)",
@@ -120,7 +120,7 @@ const BATCH4_L_1 = {
      hint:"The word for your hometown or place of origin."},
 
     {type:"mc", q:"Which country name comes from Portuguese?",
-     opts:["イギリス","ドイツ","中国(ちゅうごく)","韓国(かんこく)"], ans:"イギリス",
+     opts:["ドイツ","中国(ちゅうごく)","韓国(かんこく)","イギリス"], ans:"イギリス",
      hint:"Portugal was the first European nation to reach Japan."}
   ,{type:"match",pairs:[{trg:"オーストラリア",src:"Australia"},{trg:"インド",src:"India"},{trg:"日本人(にほんじん)",src:"Japanese person"},{trg:"日本語(にほんご)",src:"Japanese language"},{trg:"外国人(がいこくじん)",src:"foreigner"},{trg:"留学生(りゅうがくせい)",src:"exchange student / foreign student"}]},{type:"match",pairs:[{trg:"役(やく)に立(た)つ",src:"to be useful / helpful"}]},
   {type:"fb", s:"{1}はソウルが首都(しゅと)です。", a:["韓国(かんこく)"], opts:["韓国(かんこく)","中国(ちゅうごく)","フランス","ドイツ"], hint:"The East Asian nation whose capital is Seoul, south of the peninsula's border.", sSrc:"{1}'s capital is Seoul."}

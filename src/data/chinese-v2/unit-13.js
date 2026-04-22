@@ -46,7 +46,7 @@ lessons:[
  funFact:"只 is one of those characters with multiple pronunciations. As zhǐ it means 'only.' As zhī it is a measure word for animals and certain objects. Pronunciation determines meaning entirely."},
 
 {type:"mc", q:"今天(jīntiān)特别(tèbié)热(rè)！ How is the weather?",
- opts:["A bit warm","Especially hot","Not very hot","Cool"],
+ opts:["Especially hot","Not very hot","Cool","A bit warm"],
  ans:"Especially hot",
  hint:"特别 means '___' or 'particularly,' indicating a strong degree. Combined with 热 (___), it means extremely ___."},
 
@@ -76,7 +76,7 @@ lessons:[
  sSrc:"He is {1} late, and today he was late again."},
 
 {type:"mc", q:"我(wǒ)只(zhǐ)有(yǒu)两(liǎng)个(gè)。 What does 只 tell us?",
- opts:["The speaker has many","The speaker has a total of exactly two","The speaker has at least two","The speaker has more than two"],
+ opts:["The speaker has more than two","The speaker has many","The speaker has a total of exactly two","The speaker has at least two"],
  ans:"The speaker has a total of exactly two",
  hint:"只 limits the quantity, meaning 'only' or 'just.' It emphasizes the number is small or limited."},
 
@@ -136,7 +136,7 @@ lessons:[
  funFact:"清楚 works with many verbs: 看清楚 (see clearly), 听清楚 (hear clearly), 说清楚 (say clearly). It is a result complement, indicating the outcome of the action was clarity."},
 
 {type:"mc", q:"你(nǐ)的(de)中文(zhōngwén)越来越(yuèláiyuè)好(hǎo)了(le)！ What is being said?",
- opts:["Your Chinese is bad","Your Chinese is getting worse","Your Chinese is getting better and better","Your Chinese is the same"],
+ opts:["Your Chinese is getting better and better","Your Chinese is the same","Your Chinese is bad","Your Chinese is getting worse"],
  ans:"Your Chinese is getting better and better",
  hint:"越来越 describes something that increases progressively. Combined with 好, it means improving continuously."},
 
@@ -166,7 +166,7 @@ lessons:[
  sSrc:"This exam is not hard, very {1}."},
 
 {type:"mc", q:"差不多(chàbuduō) literally means:",
- opts:["very different","differ not much","exactly the same","completely wrong"],
+ opts:["completely wrong","very different","differ not much","exactly the same"],
  ans:"differ not much",
  hint:"差 means '…,' 不 means 'not,' 多 means '….' Put the three parts together."},
 
@@ -207,7 +207,7 @@ lessons:[
  funFact:"另外 can also work as an adjective meaning 'another' or 'other.' 另外一个人 means 'another person.' It is versatile: use it to add to a list, change topics, or mention something separate."},
 
 {type:"mc", q:"虽然(suīrán)贵(guì)，但是(dànshì)很(hěn)好(hǎo)。 What is the speaker's overall opinion?",
- opts:["It is too expensive","It is good despite the price","It is cheap and good","It is bad"],
+ opts:["It is good despite the price","It is cheap and good","It is bad","It is too expensive"],
  ans:"It is good despite the price",
  hint:"The real opinion follows 但是. The speaker acknowledges the ___ but emphasizes the quality."},
 
@@ -248,7 +248,7 @@ lessons:[
  sSrc:"Although it is very hard, {1} I will definitely learn it well."},
 
 {type:"mc", q:"Which pattern describes doing two things at the same time?",
- opts:["虽然...但是","一边...一边","越来越","差不多"],
+ opts:["越来越","差不多","虽然...但是","一边...一边"],
  ans:"一边...一边",
  hint:"This paired pattern puts a different action after each half, indicating simultaneous activities."},
 
@@ -274,7 +274,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"虽然(suīrán)学校(xuéxiào)很(hěn)远(yuǎn)，但是(dànshì)他(tā)总是(zǒngshì)走(zǒu)。 What does this mean?",
- opts:["The school is close so he walks","Although school is far, he always walks","He sometimes walks to school","He never walks to school"],
+ opts:["Although school is far, he always walks","He sometimes walks to school","He never walks to school","The school is close so he walks"],
  ans:"Although school is far, he always walks",
  hint:"虽然...但是 sets up a contrast. 总是 means he does this every time."},
 
@@ -304,7 +304,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"他(tā)一边(yìbiān)喝(hē)茶(chá)，一边(yìbiān)看(kàn)书(shū)。 What is happening?",
- opts:["He drinks tea, then reads","He drinks tea while reading","He either drinks tea or reads","He stopped drinking tea to read"],
+ opts:["He stopped drinking tea to read","He drinks tea, then reads","He drinks tea while reading","He either drinks tea or reads"],
  ans:"He drinks tea while reading",
  hint:"一边...一边 describes two actions happening simultaneously."},
 
@@ -315,7 +315,7 @@ lessons:[
  sSrc:"The money is not {1}, let us think again."},
 
 {type:"mc", q:"其实(qíshí)这(zhè)个(gè)不(bù)难(nán)，很(hěn)容易(róngyì)。 What is the speaker doing?",
- opts:["Complaining about difficulty","Correcting a misconception about difficulty","Agreeing it is hard","Asking if it is hard"],
+ opts:["Agreeing it is hard","Asking if it is hard","Complaining about difficulty","Correcting a misconception about difficulty"],
  ans:"Correcting a misconception about difficulty",
  hint:"其实 signals that reality is different from what was assumed. The speaker reveals it is actually easy."},
 
@@ -334,7 +334,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"虽然(suīrán)容易(róngyì)，但是(dànshì)很(hěn)重要(zhòngyào)。 What is the main message?",
- opts:["It is easy and unimportant","It is difficult and important","It is easy but important","It is hard but unimportant"],
+ opts:["It is easy but important","It is hard but unimportant","It is easy and unimportant","It is difficult and important"],
  ans:"It is easy but important",
  hint:"虽然 acknowledges the ease. The real point after 但是 is that it is ___."},
 

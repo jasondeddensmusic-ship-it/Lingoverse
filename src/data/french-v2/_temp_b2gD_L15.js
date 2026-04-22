@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 15 — Expressions and Idioms
+// French B2 Gap Batch D Lesson 15. Expressions and Idioms
 const LESSON_15 = {id:"frv2_b2gD_l15", title:"Expressions et locutions", icon:"🗝️", xp:15, board:true, steps:[
   {type:"intro", title:"Expressions et locutions",
    desc:"Master fixed expressions and idiomatic phrases that are essential for advanced French communication.",
@@ -73,7 +73,7 @@ const LESSON_15 = {id:"frv2_b2gD_l15", title:"Expressions et locutions", icon:"�
 
   {type:"mc",
    q:"Quelle expression introduit une clarification de ce qui vient d'être dit?",
-   opts:["C'est-à-dire que","Jusqu'au bout","En marge de","Par suite de"],
+   opts:["Par suite de","C'est-à-dire que","Jusqu'au bout","En marge de"],
    ans:"C'est-à-dire que",
    hint:"This connector is used to rephrase or explain, abbreviated as 'c.-à-d.' in writing."},
 

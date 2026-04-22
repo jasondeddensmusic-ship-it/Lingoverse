@@ -1,4 +1,4 @@
-// Batch 6 — Unit 30 extra lesson. Il congiuntivo avanzato: Nuances & Edge Cases
+// Batch 6. Unit 30 extra lesson. Il congiuntivo avanzato: Nuances & Edge Cases
 const BATCH6_L1 = {id:"itv2_u30l_b6_1", title:"Sfumature del congiuntivo", icon:"\u{1F3A8}", xp:15, board:true, steps:[
 {type:"intro", title:"Sfumature del congiuntivo",
  desc:"Master the subtle nuances and edge cases of the Italian subjunctive at an advanced level.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u30l_b6_1", title:"Sfumature del congiuntivo", icon:
  {trg:"a patto che", src:"on condition that"}
 ]},
 {type:"mc", q:"Cosa rende 'magari' speciale?",
- opts:["It has multiple meanings depending on context and intonation","It is the hardest word to pronounce","It is only used in southern Italy","It replaces all subjunctive forms"],
+ opts:["It replaces all subjunctive forms","It has multiple meanings depending on context and intonation","It is the hardest word to pronounce","It is only used in southern Italy"],
  ans:"It has multiple meanings depending on context and intonation",
  hint:"Maybe, if only, I wish, absolutely, why not: all from one word."},
 {type:"fb", s:"Parla {1} fosse un esperto, ma non sa niente.", a:["come se"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u30l_b6_1", title:"Sfumature del congiuntivo", icon:
  hint:"Two words meaning 'as if.' Always takes imperfect subjunctive.",
  sSrc:"He speaks {1} he were an expert, but he knows nothing."},
 {type:"mc", q:"Quale congiunzione ha un significato 'contrattuale'?",
- opts:["a patto che (on condition that)","benché (although)","senza che (without)","come se (as if)"],
+ opts:["senza che (without)","come se (as if)","a patto che (on condition that)","benché (although)"],
  ans:"a patto che (on condition that)",
  hint:"Contains 'p...' (pact/agreement). Sets a binding c...."},
 {type:"fb", s:"{1} potessi viaggiare di più! Sarebbe bellissimo.", a:["Magari"],

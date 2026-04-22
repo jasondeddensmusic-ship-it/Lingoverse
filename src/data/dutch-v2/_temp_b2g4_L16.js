@@ -1,4 +1,4 @@
-// L16: Science & Research — 20 B2 gap words
+// L16: Science & Research, 20 B2 gap words
 const LESSON_16 = {
   id:"nlv2_b2g4_l16", title:"Wetenschap en Onderzoek", icon:"\uD83D\uDD2C", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_16 = {
      deepDive:{title:"The bèta shortage",
       text:"The Netherlands faces a persistent shortage of bèta graduates. Government campaigns encourage students to choose STEM subjects. Companies offer scholarships for bèta students. Despite this, many students still prefer alfa and gamma disciplines. The debate about 'what we study vs. what the economy needs' is ongoing in Dutch education policy."}},
     {type:"mc", q:"How does Dutch academia classify disciplines?",
-     opts:["by color codes","by Greek letters: alfa, bèta, gamma","by numbers 1, 2, 3","by animal names"],
+     opts:["by Greek letters: alfa, bèta, gamma","by numbers 1, 2, 3","by animal names","by color codes"],
      ans:"by Greek letters: alfa, bèta, gamma",
      hint:"Humanities, natural sciences, and social sciences each get a G... letter."},
     {type:"fb", s:"De {1} van het proces moet omhoog.", a:["efficiëntie"],
@@ -126,7 +126,7 @@ const LESSON_16 = {
      hint:"Points that need attention. A softer word than 'problemen' in Dutch meetings.",
      sSrc:"There are some points of concern in the report."},
     {type:"mc", q:"'Hij is meer een beleidsmens.' What is a 'beleidsmens'?",
-     opts:["a practical person","a policy-focused person","a creative person","a technical person"],
+     opts:["a technical person","a practical person","a policy-focused person","a creative person"],
      ans:"a policy-focused person",
      hint:"Compound: beleid (p...) + mens (p...). Works on strategy, not on the floor."},
     {type:"match", pairs:[

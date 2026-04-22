@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: I caught a cold.\nB: Take care. Please rest well.",
      funFact:"お大事(だいじ)に (お大事に) is universally said to sick people. Pharmacy staff, doctors, nurses, and friends all use it. The full formal version is お大事(だいじ)になさってください. It literally means 'please treat your body as something important.' A simple but deeply caring expression."},
 
-    {type:"mc", q:"保険証(ほけんしょう) is:", opts:["A health insurance card","A prescription","A medical test","A hospital bill"], ans:"A health insurance card",
+    {type:"mc", q:"保険証(ほけんしょう) is:", opts:["A hospital bill","A health insurance card","A prescription","A medical test"], ans:"A health insurance card",
      hint:"This document is presented at the reception desk of every Japanese medical facility."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"風邪(かぜ)をひいてしまいました。{1}。\n(I caught a cold. Take care.)", a:"お大事(だいじ)に", opts:["お大事(だいじ)に","おめでとう","お疲(つか)れさま","おやすみ"], sSrc:"I caught a cold. Take care.",
      hint:"The caring expression said to someone who is unwell."},
 
-    {type:"mc", q:"花粉(かふん)アレルギー is:", opts:["Pollen allergy (hay fever)","Food allergy","Drug allergy","Pet allergy"], ans:"Pollen allergy (hay fever)",
+    {type:"mc", q:"花粉(かふん)アレルギー is:", opts:["Drug allergy","Pet allergy","Pollen allergy (hay fever)","Food allergy"], ans:"Pollen allergy (hay fever)",
      hint:"This seasonal a... is extremely common in Japan during spring."}
   ,{type:"match",pairs:[{trg:"病院(びょういん)",src:"hospital"},{trg:"吐(は)く",src:"to vomit / to throw up"},{trg:"保険証(ほけんしょう)",src:"health insurance card"},{trg:"診察(しんさつ)",src:"medical examination / consultation"}]}]
 };

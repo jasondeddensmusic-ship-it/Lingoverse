@@ -1,4 +1,4 @@
-// Batch 7 — Unit 07 extra lesson. Al ristorante: Beverages & Table Manners
+// Batch 7. Unit 07 extra lesson. Al ristorante: Beverages & Table Manners
 const BATCH7_L1 = {id:"itv2_u07l_b7_1", title:"Le bevande e il galateo", icon:"\u{1F377}", xp:15, board:true, steps:[
 {type:"intro", title:"Le bevande e il galateo",
  desc:"Learn vocabulary for drinks, toasting customs, and Italian table etiquette.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u07l_b7_1", title:"Le bevande e il galateo", icon:"\
 ]},
 
 {type:"mc", q:"Con che cosa NON si mangiano gli spaghetti in Italia?",
- opts:["Con il cucchiaio","Con la forchetta","Con le mani","Con il piatto"],
+ opts:["Con il piatto","Con il cucchiaio","Con la forchetta","Con le mani"],
  ans:"Con il cucchiaio",
  hint:"Italians only use one utensil for twirling pasta. Using a second one is for tourists."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u07l_b7_1", title:"Le bevande e il galateo", icon:"\
  sSrc:"Shall I {1} you some red wine?"},
 
 {type:"mc", q:"Che cos'e l'aperitivo?",
- opts:["A pre-dinner drink with snacks","A type of pasta","A dessert wine","A breakfast item"],
+ opts:["A dessert wine","A breakfast item","A pre-dinner drink with snacks","A type of pasta"],
  ans:"A pre-dinner drink with snacks",
  hint:"The d... you have before d..., often with free small bites (stuzzichini)."},
 

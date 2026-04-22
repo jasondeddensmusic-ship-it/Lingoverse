@@ -67,7 +67,7 @@ const LESSON_7 = {id:"frv2_b2gC_l7", title:"Crime et justice", icon:"\u{2696}", 
 
 {type:"mc",
  q:"Que désigne 'la pègre' ?",
- opts:["Le milieu criminel organisé","La police secrète","Les juges d'un tribunal","Les victimes d'un crime"],
+ opts:["Les victimes d'un crime","Le milieu criminel organisé","La police secrète","Les juges d'un tribunal"],
  ans:"Le milieu criminel organisé",
  hint:"The criminal underworld. Think of organized crime networks operating in the shadows."},
 
@@ -87,7 +87,7 @@ const LESSON_7 = {id:"frv2_b2gC_l7", title:"Crime et justice", icon:"\u{2696}", 
 
 {type:"mc",
  q:"Quel mot désigne une tendance naturelle vers quelque chose ?",
- opts:["un penchant","un préambule","un prévenu","un outrage"],
+ opts:["un prévenu","un outrage","un penchant","un préambule"],
  ans:"un penchant",
  hint:"From the verb pencher (to lean). What you naturally lean toward or are drawn to."},
 
@@ -105,7 +105,7 @@ const LESSON_7 = {id:"frv2_b2gC_l7", title:"Crime et justice", icon:"\u{2696}", 
 
 {type:"mc",
  q:"Quelle expression signifie 'être submergé par un sentiment' ?",
- opts:["Être en proie à","Être en pègre de","Être en penchant pour","Être en outrage à"],
+ opts:["Être en pègre de","Être en penchant pour","Être en outrage à","Être en proie à"],
  ans:"Être en proie à",
  hint:"Literally, to be the prey of. Used figuratively with emotions like fear or doubt."}
 

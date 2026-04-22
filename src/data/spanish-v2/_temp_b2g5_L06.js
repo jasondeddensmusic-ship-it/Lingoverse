@@ -90,7 +90,7 @@ const LESSON_6 = {id:"esv2_b2g5_l6",title:"Historia y arqueología",icon:"🏛�
  exampleSrc:"A: The scribe wrote all the official documents.\nB: It was a very respected profession.",
  funFact:"In colonial Spanish America, the escribano was essential for all legal transactions and land grants."},
 
-{type:"mc",q:"¿Qué es un homínido?",opts:["Un antepasado del ser humano","Un tipo de fósil vegetal","Una herramienta de piedra","Un estamento social"],ans:"Un antepasado del ser humano",hint:"Think about early human ancestors that walked upright millions of years ago."},
+{type:"mc",q:"¿Qué es un homínido?",opts:["Un estamento social","Un antepasado del ser humano","Un tipo de fósil vegetal","Una herramienta de piedra"],ans:"Un antepasado del ser humano",hint:"Think about early human ancestors that walked upright millions of years ago."},
 
 {type:"fb",s:"El sistema {1} dividía la sociedad en señores y siervos.",a:["feudal"],opts:["feudal","grecorromano","contemporáneo","fósil"],hint:"A word describing the medieval system of lords and serfs.",sSrc:"The {1} system divided society into lords and serfs."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"esv2_b2g5_l6",title:"Historia y arqueología",icon:"🏛�
 
 {type:"fb",s:"La cultura {1} dejó una huella profunda en la península ibérica.",a:["grecorromana"],opts:["grecorromana","feudal","contemporánea","paleolítica"],hint:"An adjective combining two ancient Mediterranean civilizations.",sSrc:"The {1} culture left a deep mark on the Iberian Peninsula."},
 
-{type:"mc",q:"¿Qué es un 'cantar de gesta'?",opts:["Un poema épico medieval","Una canción de fiesta","Un documento oficial","Un hallazgo arqueológico"],ans:"Un poema épico medieval",hint:"A literary form that narrates the heroic deeds of warriors and knights."}
+{type:"mc",q:"¿Qué es un 'cantar de gesta'?",opts:["Un documento oficial","Un hallazgo arqueológico","Un poema épico medieval","Una canción de fiesta"],ans:"Un poema épico medieval",hint:"A literary form that narrates the heroic deeds of warriors and knights."}
 ]};
 
 export default LESSON_6;

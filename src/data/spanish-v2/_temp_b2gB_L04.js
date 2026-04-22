@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 04 — Environment & Nature
+// B2 Gap Batch B Lesson 04. Environment & Nature
 const LESSON_4 = {id:"esv2_b2gB_l4",title:"El medio ambiente y la naturaleza",icon:"🌿",xp:15,board:true,steps:[
 {type:"intro",title:"El medio ambiente y la naturaleza",desc:"Explore environmental vocabulary including trees, landscapes, and ecological concepts in Spanish.",goals:["Learn 12 words about the environment and nature","Discuss ecology and natural phenomena","Use scientific and descriptive nature vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_4 = {id:"esv2_b2gB_l4",title:"El medio ambiente y la naturaleza",ic
  funFact:"Spain's environmental normativa is largely shaped by EU directives, translated into national law."},
 
 {type:"mc",q:"¿Qué elemento químico compone el 78% de la atmósfera?",
- opts:["El nitrógeno","El nitrato","El laurel","El nevado"],
+ opts:["El nevado","El nitrógeno","El nitrato","El laurel"],
  ans:"El nitrógeno",
  hint:"The most abundant gas in our atmosphere, essential for plant growth."},
 

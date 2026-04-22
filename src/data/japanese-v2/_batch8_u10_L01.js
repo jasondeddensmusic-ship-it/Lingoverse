@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"地震(じしん)",src:"earthquake"},{trg:"台風(たいふう)",src:"typhoon"},{trg:"津波(つなみ)",src:"tsunami"},{trg:"洪水(こうずい)",src:"flood"},{trg:"火山(かざん)",src:"volcano"}],
      hint:"Match each natural disaster with its English name."},
 
-    {type:"mc", q:"What is 防災(ぼうさい)?", opts:["Disaster prevention and preparedness","A type of natural disaster","An emergency phone number","A weather forecast"], ans:"Disaster prevention and preparedness",
+    {type:"mc", q:"What is 防災(ぼうさい)?", opts:["A weather forecast","Disaster prevention and preparedness","A type of natural disaster","An emergency phone number"], ans:"Disaster prevention and preparedness",
      hint:"Japan is a world leader in this field, with regular drills and emergency supplies."},
 
     {type:"fb", s:"{1}が起(お)きて、建物(たてもの)が揺(ゆ)れました。\n(An earthquake occurred and the building shook.)", a:"地震(じしん)", opts:["地震(じしん)","台風(たいふう)","雷(かみなり)","津波(つなみ)"], sSrc:"An earthquake occurred and the building shook.",
      hint:"This natural event causes the ground and buildings to shake."},
 
-    {type:"mc", q:"What is the Japanese emergency number for fire and ambulance?", opts:["119","110","911","999"], ans:"119",
+    {type:"mc", q:"What is the Japanese emergency number for fire and ambulance?", opts:["911","999","119","110"], ans:"119",
      hint:"This is the reverse order of police calls. Fire and ambulance share this number."}
   ,{type:"match",pairs:[{trg:"警報(けいほう)",src:"warning / alert"},{trg:"揺(ゆ)れる",src:"to shake / to sway"},{trg:"雷(かみなり)",src:"thunder / lightning"},{trg:"虹(にじ)",src:"rainbow"},{trg:"防災(ぼうさい)",src:"disaster prevention / preparedness"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"}]}]
 };

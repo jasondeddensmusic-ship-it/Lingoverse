@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 36.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs, rerun to refresh.
 const COVERAGE_U36 = {
   id:"kov2_u36_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[

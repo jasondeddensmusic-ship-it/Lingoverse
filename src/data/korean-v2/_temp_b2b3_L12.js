@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 12: Rights and Returning Home
+// Korean B2. Batch 3, Lesson 12: Rights and Returning Home
 // Words: 권리, 권위, 권투, 귀가, 귀가하다, 귀국, 귀국하다, 귀신, 귀중하다, 귀찮다, 귀하다, 귓속, 규모, 규정, 규칙적, 균형, 귤, 그간, 그나마, 그녀
 
 const LESSON_12 = {
@@ -107,7 +107,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"'규모'와 의미가 가장 비슷한 것은?",
-     opts:["크기","규칙","규정","균형"],
+     opts:["균형","크기","규칙","규정"],
      ans:"크기",
      hint:"This word describes the overall size or extent of something, like a project or event."},
 

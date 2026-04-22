@@ -56,7 +56,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"When did Italian women first vote?",
-     opts:["1918, after World War I","1946, in the referendum that established the Republic","1960, following a constitutional reform","1975, after feminist movement campaigns"],
+     opts:["1946, in the referendum that established the Republic","1960, following a constitutional reform","1975, after feminist movement campaigns","1918, after World War I"],
      ans:"1946, in the referendum that established the Republic",
      hint:"June 2, 1946 is now 'Festa della Repubblica.' Women voted to abolish the monarchy and create a democratic r...."},
 
@@ -75,7 +75,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"What are Italy's three major union confederations?",
-     opts:["CGIL, CISL, UIL","CGIL, UIL, FIOM","CISL, FIOM, CGL","UIL, CNA, CISL"],
+     opts:["UIL, CNA, CISL","CGIL, CISL, UIL","CGIL, UIL, FIOM","CISL, FIOM, CGL"],
      ans:"CGIL, CISL, UIL",
      hint:"Left-leaning, Catholic-centrist, and social-democratic respectively. Together they negotiate collective agreements for entire industries."},
 
@@ -86,7 +86,7 @@ const LESSON_5 = {
      sSrc:"I do {1} work with the Red Cross."},
 
     {type:"mc", q:"What does 'sciopero bianco' mean?",
-     opts:["A peaceful protest without violence","Working strictly by the rules to slow everything down","A strike only by white-collar office workers","A one-day symbolic walk-out from work"],
+     opts:["A one-day symbolic walk-out from work","A peaceful protest without violence","Working strictly by the rules to slow everything down","A strike only by white-collar office workers"],
      ans:"Working strictly by the rules to slow everything down",
      hint:"By following every regulation to the letter, workers cause delays without officially stopping. A creative form of industrial action."},
 
@@ -97,7 +97,7 @@ const LESSON_5 = {
      sSrc:"The {1} helps families in difficulty."},
 
     {type:"mc", q:"Which article of the Italian Constitution establishes solidarity as a civic value?",
-     opts:["Article 1 (on democracy and work)","Article 2 (on solidarity and rights)","Article 3 (on equality)","Article 18 (on freedom of association)"],
+     opts:["Article 3 (on equality)","Article 18 (on freedom of association)","Article 1 (on democracy and work)","Article 2 (on solidarity and rights)"],
      ans:"Article 2 (on solidarity and rights)",
      hint:"This a... establishes inviolable human r... and demands citizens fulfill duties of 'solidarieta' toward the community."}
   ]

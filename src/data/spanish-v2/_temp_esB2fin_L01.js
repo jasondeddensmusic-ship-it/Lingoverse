@@ -49,7 +49,7 @@ const LESSON_1 = {
      funFact:"From 'corresponder' (to correspond). War correspondents date back to the Crimean War in the 1850s."},
 
     {type:"mc", q:"¿Cómo se llama el lugar donde trabajan los periodistas de un periódico?",
-     opts:["La emisora","La redacción","El titular","La portada"],
+     opts:["La redacción","El titular","La portada","La emisora"],
      ans:"La redacción",
      hint:"This word refers to both the writing process and the physical newsroom space."},
 
@@ -95,7 +95,7 @@ const LESSON_1 = {
      funFact:"From Latin 'catena' (chain). A network is a 'chain' of linked stations broadcasting together."},
 
     {type:"mc", q:"¿Qué palabra describe la supresión de información por parte de las autoridades?",
-     opts:["La portada","El reportaje","La censura","El sesgo"],
+     opts:["El reportaje","La censura","El sesgo","La portada"],
      ans:"La censura",
      hint:"This refers to authorities blocking or suppressing the free flow of information."},
 
@@ -136,7 +136,7 @@ const LESSON_1 = {
     ]},
 
     {type:"mc", q:"¿Qué término describe a un periodista que informa desde otro país?",
-     opts:["El oyente","El corresponsal","El titular","El comunicado"],
+     opts:["El comunicado","El oyente","El corresponsal","El titular"],
      ans:"El corresponsal",
      hint:"This journalist is stationed in a specific location to report back to their network."},
 
@@ -146,7 +146,7 @@ const LESSON_1 = {
      sSrc:"The investigative {1} on corruption lasted six months."},
 
     {type:"mc", q:"¿Qué son 'los medios digitales'?",
-     opts:["Periódicos impresos","Plataformas de noticias en línea","Cartas formales","Emisoras de radio"],
+     opts:["Cartas formales","Emisoras de radio","Periódicos impresos","Plataformas de noticias en línea"],
      ans:"Plataformas de noticias en línea",
      hint:"These media platforms exist on the internet rather than in print or over airwaves."},
 
@@ -163,7 +163,7 @@ const LESSON_1 = {
      sSrc:"I don't trust that article because it has a lot of media {1}."},
 
     {type:"mc", q:"¿Qué significa 'difundir una noticia'?",
-     opts:["Censurar una noticia","Escribir una noticia","Propagar una noticia ampliamente","Leer una noticia"],
+     opts:["Propagar una noticia ampliamente","Leer una noticia","Censurar una noticia","Escribir una noticia"],
      ans:"Propagar una noticia ampliamente",
      hint:"This verb means to spread or disseminate information to a wide audience."}
   ]

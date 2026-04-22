@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「ごろ」と「ぐらい」はどう違(ちが)いますか？",
-     opts:["ごろ for time points, ぐらい for durations","They are the same","ごろ is more formal","ぐらい is for time, ごろ is for quantity"],
+     opts:["ぐらい is for time, ごろ is for quantity","ごろ for time points, ぐらい for durations","They are the same","ごろ is more formal"],
      ans:"ごろ for time points, ぐらい for durations",
      hint:"Think about 'around 3 o'clock' (a point) vs 'about 3 hours' (a duration). Each has its own word."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Sorry for being late."},
 
     {type:"mc", q:"日本語(にほんご)の頻度(ひんど)のことばをじゅんばんにならべたら？",
-     opts:["いつも > よく > ときどき > ぜんぜん","ときどき > いつも > よく > ぜんぜん","ぜんぜん > ときどき > よく > いつも","よく > いつも > ときどき > ぜんぜん"],
+     opts:["ぜんぜん > ときどき > よく > いつも","よく > いつも > ときどき > ぜんぜん","いつも > よく > ときどき > ぜんぜん","ときどき > いつも > よく > ぜんぜん"],
      ans:"いつも > よく > ときどき > ぜんぜん",
      hint:"Order from most frequent to least frequent: always, often, sometimes, never."}
   ,{type:"match",pairs:[{trg:"午前(ごぜん)",src:"AM / morning (time)"},{trg:"午後(ごご)",src:"PM / afternoon (time)"},{trg:"前(まえ)",src:"before / in front of"},{trg:"後(あと)",src:"after / later"},{trg:"間(あいだ)",src:"between / during"}]}]

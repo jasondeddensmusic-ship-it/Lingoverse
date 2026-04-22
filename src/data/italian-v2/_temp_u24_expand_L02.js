@@ -55,7 +55,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What tenses does Type 3 use?",
-     opts:["Present + future in both clauses","Imperfect subjunctive + conditional (same as Type 2)","Pluperfect subjunctive + past conditional","Future + past conditional"],
+     opts:["Pluperfect subjunctive + past conditional","Future + past conditional","Present + future in both clauses","Imperfect subjunctive + conditional (same as Type 2)"],
      ans:"Pluperfect subjunctive + past conditional",
      hint:"Se avessi studiato (p... subj.), avrei superato (p... c...). Both parts refer to an unchangeable p...."},
 
@@ -85,7 +85,7 @@ const LESSON_5 = {
      sSrc:"If it had not {1}, we would have gone to the park."},
 
     {type:"mc", q:"When is 'qualora' used instead of 'se'?",
-     opts:["In casual everyday spoken conversation","In formal written contexts: contracts, legal documents, official letters","Only when speaking to children in simple terms","When the condition is absolutely certain to happen"],
+     opts:["When the condition is absolutely certain to happen","In casual everyday spoken conversation","In formal written contexts: contracts, legal documents, official letters","Only when speaking to children in simple terms"],
      ans:"In formal written contexts: contracts, legal documents, official letters",
      hint:"'Qualora' signals a high register. In speech, Italians prefer 'se' or 'nel caso in cui.'"},
 
@@ -96,7 +96,7 @@ const LESSON_5 = {
      sSrc:"I will help you, {1} you do your duty."},
 
     {type:"mc", q:"What does 'Se avessi saputo' express?",
-     opts:["A real future plan that is certain to happen","A present-tense question about current knowledge","Regret about acting without full information in the past","A formal greeting in business Italian"],
+     opts:["A formal greeting in business Italian","A real future plan that is certain to happen","A present-tense question about current knowledge","Regret about acting without full information in the past"],
      ans:"Regret about acting without full information in the past",
      hint:"'If I had known.' The universal lament. You cannot change the p..., but the pluperfect subjunctive lets you imagine what might have been different."}
   ]

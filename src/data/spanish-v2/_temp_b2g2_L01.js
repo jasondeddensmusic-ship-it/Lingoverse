@@ -84,7 +84,7 @@ const LESSON_1 = {id:"esv2_b2g2_l1",title:"Justicia y derecho",icon:"⚖️",xp:
  exampleSrc:"A: The decision seems completely arbitrary.\nB: It is not based on any objective criteria.",
  funFact:"From Latin arbitrarius. An 'árbitro' (referee) makes decisions, hopefully not arbitrary ones."},
 
-{type:"mc",q:"¿Qué hace un juez cuando absuelve a alguien?",opts:["Lo declara no culpable","Lo condena a prisión","Lo deporta del país","Le impone una multa"],ans:"Lo declara no culpable",hint:"This is the opposite of finding someone guilty in a trial."},
+{type:"mc",q:"¿Qué hace un juez cuando absuelve a alguien?",opts:["Le impone una multa","Lo declara no culpable","Lo condena a prisión","Lo deporta del país"],ans:"Lo declara no culpable",hint:"This is the opposite of finding someone guilty in a trial."},
 
 {type:"teach",trg:"defectuoso",src:"defective / faulty",pos:"adj",gender:null,
  note:"Adjective. Having a flaw or malfunction.\nFeminine: defectuosa.",
@@ -120,7 +120,7 @@ const LESSON_1 = {id:"esv2_b2g2_l1",title:"Justicia y derecho",icon:"⚖️",xp:
 
 {type:"match",pairs:[{trg:"absolver",src:"to acquit"},{trg:"censurar",src:"to censure"},{trg:"decomisar",src:"to confiscate"},{trg:"custodiar",src:"to guard"},{trg:"demandar",src:"to sue"}]},
 
-{type:"mc",q:"¿Qué es la demagogia?",opts:["Manipulación política con apelaciones emocionales","Un tipo de gobierno democrático","Un sistema de justicia alternativo","Una forma de protesta pacífica"],ans:"Manipulación política con apelaciones emocionales",hint:"Think about politicians who use emotions instead of real solutions to get votes."},
+{type:"mc",q:"¿Qué es la demagogia?",opts:["Un sistema de justicia alternativo","Una forma de protesta pacífica","Manipulación política con apelaciones emocionales","Un tipo de gobierno democrático"],ans:"Manipulación política con apelaciones emocionales",hint:"Think about politicians who use emotions instead of real solutions to get votes."},
 
 {type:"fb",s:"Lo acusaron de {1} a Hacienda durante cinco años.",a:["defraudar"],opts:["defraudar","demandar","decomisar","corromper"],hint:"The verb for committing financial fraud, especially with taxes.",sSrc:"He was accused of {1} the Treasury for five years."}
 ]};

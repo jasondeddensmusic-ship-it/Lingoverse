@@ -86,7 +86,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel adjectif décrit une politique qui discrimine les jeunes ?",
-     opts:["antijeunes","adopté","corse","dijonnais"],
+     opts:["dijonnais","antijeunes","adopté","corse"],
      ans:"antijeunes",
      hint:"This compound adjective uses the prefix 'anti-' combined with a word for young people."},
 

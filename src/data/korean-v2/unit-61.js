@@ -1,4 +1,4 @@
-// Korean V2 Unit 61 — B2 Vocabulary Batch 4
+// Korean V2 Unit 61. B2 Vocabulary Batch 4
 import L16 from './_temp_b2b4_L16.js';
 import L17 from './_temp_b2b4_L17.js';
 import L18 from './_temp_b2b4_L18.js';

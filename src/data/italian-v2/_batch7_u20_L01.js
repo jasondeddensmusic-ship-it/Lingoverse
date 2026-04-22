@@ -1,4 +1,4 @@
-// Batch 7 — Unit 20 extra lesson. L'istruzione: University Life & Higher Education
+// Batch 7. Unit 20 extra lesson. L'istruzione: University Life & Higher Education
 const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{1F393}", xp:15, board:true, steps:[
 {type:"intro", title:"La vita universitaria",
  desc:"Learn vocabulary for university life, academic studies, and the Italian higher education system.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
 ]},
 
 {type:"mc", q:"Quanti punti servono come minimo per passare un esame universitario?",
- opts:["18","10","25","15"],
+ opts:["15","18","10","25"],
  ans:"18",
  hint:"The minimum passing grade in the Italian university system, on a scale up to 30."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  sSrc:"I {1} in the Economics department."},
 
 {type:"mc", q:"Che cos'e un 'fuori corso'?",
- opts:["A student behind the normal graduation schedule","A course that was cancelled","A failed exam","A scholarship recipient"],
+ opts:["A failed exam","A scholarship recipient","A student behind the normal graduation schedule","A course that was cancelled"],
  ans:"A student behind the normal graduation schedule",
  hint:"Very common in Italy. About 40% of students are in this situation."},
 
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  {trg:"la dispensa", src:"course notes"},
  {trg:"la mensa", src:"cafeteria"}
 ]}
-,{type:"match",pairs:[{trg:"iscriversi",src:"to enroll / to register"}]},{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la sessione d'esami","la finestra","il tavolo","la bicicletta"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"iscriversi",src:"to enroll / to register"}]},{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","la sessione d'esami"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"あのときもっと頑張(がんば)れ{1}。\n(I should have tried harder at that time.)", a:"ばよかった", opts:["ばよかった","ばいい","たら","ば"], sSrc:"I should have tried harder at that time.",
      hint:"The ば-conditional + the past tense of いい (good) creates a regret expression."},
 
-    {type:"mc", q:"せっかく作(つく)ったのに means:", opts:["Even though I went to the trouble of making it","I made it easily","I will make it specially","Making things is troublesome"], ans:"Even though I went to the trouble of making it",
+    {type:"mc", q:"せっかく作(つく)ったのに means:", opts:["Making things is troublesome","Even though I went to the trouble of making it","I made it easily","I will make it specially"], ans:"Even though I went to the trouble of making it",
      hint:"せっかく (with special effort) + のに (despite/although) expresses frustrated expectations."},
 
     {type:"match", pairs:[{trg:"ばよかった",src:"I should have"},{trg:"のに",src:"although (disappointed)"},{trg:"悔(くや)しい",src:"frustrating/vexing"},{trg:"もったいない",src:"wasteful/what a waste"}]},
@@ -85,7 +85,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"日本語(にほんご)がもっと上手(じょうず)だっ{1}いいのに。\n(I wish my Japanese were better.)", a:"たら", opts:["たら","ば","と","なら"], sSrc:"I wish my Japanese were better.",
      hint:"The conditional that attaches to the past tense form to create a wish expression with いいのに."},
 
-    {type:"mc", q:"もったいない best describes:", opts:["A feeling that something valuable should not be wasted","A feeling of anger","A feeling of happiness","A feeling of fear"], ans:"A feeling that something valuable should not be wasted",
+    {type:"mc", q:"もったいない best describes:", opts:["A feeling of happiness","A feeling of fear","A feeling that something valuable should not be wasted","A feeling of anger"], ans:"A feeling that something valuable should not be wasted",
      hint:"This Japanese concept respects the inherent value in resources and opportunities."}
   ,{type:"match",pairs:[{trg:"せっかく",src:"with effort / going to the trouble of / specially"},{trg:"後悔(こうかい)する",src:"to regret"},{trg:"残(のこ)す",src:"to leave behind / to leave remaining"},{trg:"取(と)り返(かえ)しがつかない",src:"irreversible / it cannot be undone"}]},
   {type:"fb", s:"{1}来(き)たのに、店(みせ)が閉(し)まっていた。", a:["せっかく"], opts:["せっかく","もしも","〜のに","〜ばよかった"], hint:"An adverb expressing that effort was made specifically for this occasion, now frustrated.", sSrc:"I came all this way ({1}), but the shop was closed."}

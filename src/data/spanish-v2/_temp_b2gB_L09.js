@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 09 — Science & Research
+// B2 Gap Batch B Lesson 09. Science & Research
 const LESSON_9 = {id:"esv2_b2gB_l9",title:"Ciencia e investigación",icon:"🔬",xp:15,board:true,steps:[
 {type:"intro",title:"Ciencia e investigación",desc:"Learn scientific vocabulary for discussing research, processes, and discoveries in Spanish.",goals:["Learn 12 words about science and research","Discuss scientific methods and findings","Use precise academic vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_9 = {id:"esv2_b2gB_l9",title:"Ciencia e investigación",icon:"🔬"
  funFact:"The extended meaning of 'fisonomía' for places is more common in Spanish than in English."},
 
 {type:"mc",q:"¿Qué es la objetividad en la ciencia?",
- opts:["Analizar los hechos sin opiniones personales","Repetir un experimento muchas veces","Publicar los resultados rápidamente","Usar tecnología avanzada"],
+ opts:["Usar tecnología avanzada","Analizar los hechos sin opiniones personales","Repetir un experimento muchas veces","Publicar los resultados rápidamente"],
  ans:"Analizar los hechos sin opiniones personales",
  hint:"The principle of being unbiased, keeping personal feelings out of the analysis."},
 

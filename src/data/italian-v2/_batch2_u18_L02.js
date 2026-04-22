@@ -74,7 +74,7 @@ const BATCH2_U18_L2 = {
 
     // Quiz steps
     {type:"mc", q:"Why is Italy the European country with the highest biodiversity?",
-     opts:["Because it has the largest land area in Europe","Because of its varied climate, geography, and position between Alps and Mediterranean","Because it introduced the most foreign species","Because all European animals migrated there"],
+     opts:["Because of its varied climate, geography, and position between Alps and Mediterranean","Because it introduced the most foreign species","Because all European animals migrated there","Because it has the largest land area in Europe"],
      ans:"Because of its varied climate, geography, and position between Alps and Mediterranean",
      hint:"Mountains, islands, coastline, and diverse elevations create many different habitats. Over 60,000 animal species live in Italy."},
 
@@ -104,7 +104,7 @@ const BATCH2_U18_L2 = {
      sSrc:"Many species are at risk of {1}."},
 
     {type:"mc", q:"What is the 'Rete Natura 2000' in Italy?",
-     opts:["A new internet provider for rural areas","A network of over 2,500 protected habitat sites","A chain of organic food stores","A cycling path network across the country"],
+     opts:["A cycling path network across the country","A new internet provider for rural areas","A network of over 2,500 protected habitat sites","A chain of organic food stores"],
      ans:"A network of over 2,500 protected habitat sites",
      hint:"This EU-wide conservation n... protects important habitats and species. Italy has one of the highest numbers of designated s...."},
 
@@ -115,7 +115,7 @@ const BATCH2_U18_L2 = {
      sSrc:"The marine {1} is in danger due to overfishing."},
 
     {type:"mc", q:"How much green land does Italy lose to urbanization per second?",
-     opts:["About 1 square meter per second","About 2 square meters per second","About 10 square meters per second","About 50 square meters per second"],
+     opts:["About 10 square meters per second","About 50 square meters per second","About 1 square meter per second","About 2 square meters per second"],
      ans:"About 2 square meters per second",
      hint:"The ISPRA reports document this alarming rate of 'consumo di suolo.' Farmland and natural areas are converted to concrete."}
   ,{type:"match",pairs:[{trg:"la deforestazione",src:"deforestation"}]},

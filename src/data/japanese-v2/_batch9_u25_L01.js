@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"名刺(めいし)",src:"business card"},{trg:"交渉(こうしょう)",src:"negotiation"},{trg:"契約(けいやく)",src:"contract"},{trg:"取引(とりひき)",src:"transaction"}]},
 
-    {type:"mc", q:"Which word means trust relationship?", opts:["信頼関係(しんらいかんけい)","納得(なっとく)する","交渉(こうしょう)","交換(こうかん)する"], ans:"信頼関係(しんらいかんけい)",
+    {type:"mc", q:"Which word means trust relationship?", opts:["交換(こうかん)する","信頼関係(しんらいかんけい)","納得(なっとく)する","交渉(こうしょう)"], ans:"信頼関係(しんらいかんけい)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"申(もう)し込(こ)む",src:"to apply for"}]}]
 };

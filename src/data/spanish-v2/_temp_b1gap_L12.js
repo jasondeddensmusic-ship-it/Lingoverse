@@ -105,7 +105,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"\u00bfC\u00f3mo se llama un nombre informal que usan tus amigos?",
-     opts:["un apodo","un atributo","un admirador","un aldeano"],
+     opts:["un aldeano","un apodo","un atributo","un admirador"],
      ans:"un apodo",
      hint:"An informal name given to someone instead of their real name, like Pepe for Jos\u00e9."},
 

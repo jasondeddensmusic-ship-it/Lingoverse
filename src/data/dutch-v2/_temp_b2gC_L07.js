@@ -1,4 +1,4 @@
-// L07: Krant en Media — News and Media Vocabulary
+// L07: Krant en Media. News and Media Vocabulary
 const LESSON_7 = {
   id:"nlv2_b2gC_l7", title:"Krant en Media", icon:"\u{1F4F0}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Wat meet de 'kijkdichtheid'?",
-     opts:["Hoe dik een krant is","Hoeveel mensen naar een programma kijken","Hoe ver je kunt kijken","Hoeveel programma's er zijn"],
+     opts:["Hoeveel mensen naar een programma kijken","Hoe ver je kunt kijken","Hoeveel programma's er zijn","Hoe dik een krant is"],
      ans:"Hoeveel mensen naar een programma kijken",
      hint:"Kijk (viewing) + dichtheid (density). How densely packed the audience is for a broadcast."},
 
@@ -95,7 +95,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Nederlandse scheldwoorden gebruiken vaak:",
-     opts:["Dierennamen","Ziektenamen","Beroepen","Kleuren"],
+     opts:["Kleuren","Dierennamen","Ziektenamen","Beroepen"],
      ans:"Ziektenamen",
      hint:"Unlike most languages that use body parts or religion, Dutch profanity has a unique category."},
 

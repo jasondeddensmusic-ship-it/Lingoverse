@@ -60,7 +60,7 @@ const LESSON_1 = {id:"esv2_b2gC_l1",title:"Liderazgo empresarial",icon:"👔",xp
  exampleSrc:"A: We appreciate your consideration regarding our proposal.\nB: We will study it carefully.",
  funFact:"In business Spanish, 'tener en consideración' is more formal than 'tener en cuenta' (to take into account)."},
 
-{type:"mc",q:"¿Qué es un convenio colectivo?",opts:["Un acuerdo laboral entre sindicatos y empresas","Una reunión de todos los empleados","Un aumento de sueldo general","Un contrato individual de trabajo"],ans:"Un acuerdo laboral entre sindicatos y empresas",hint:"Think about organized labor groups negotiating terms with employers."},
+{type:"mc",q:"¿Qué es un convenio colectivo?",opts:["Un contrato individual de trabajo","Un acuerdo laboral entre sindicatos y empresas","Una reunión de todos los empleados","Un aumento de sueldo general"],ans:"Un acuerdo laboral entre sindicatos y empresas",hint:"Think about organized labor groups negotiating terms with employers."},
 
 {type:"teach",trg:"dar de alta",src:"to register / to enroll",pos:"verb",gender:null,
  note:"Phrasal verb. To officially register someone.\nOpposite: dar de baja (to deregister).",
@@ -78,7 +78,7 @@ const LESSON_1 = {id:"esv2_b2gC_l1",title:"Liderazgo empresarial",icon:"👔",xp
 
 {type:"match",pairs:[{trg:"negociador",src:"negotiator"},{trg:"mediador",src:"mediator"},{trg:"coordinador",src:"coordinator"},{trg:"aumento de sueldo",src:"pay raise"},{trg:"convenio colectivo",src:"collective agreement"}]},
 
-{type:"mc",q:"¿Qué significa 'dar de alta'?",opts:["Registrar oficialmente a alguien","Despedir a un empleado","Subir el sueldo","Organizar una reunión"],ans:"Registrar oficialmente a alguien",hint:"This phrase involves official enrollment, often in social security or a professional registry."},
+{type:"mc",q:"¿Qué significa 'dar de alta'?",opts:["Subir el sueldo","Organizar una reunión","Registrar oficialmente a alguien","Despedir a un empleado"],ans:"Registrar oficialmente a alguien",hint:"This phrase involves official enrollment, often in social security or a professional registry."},
 
 {type:"fb",s:"La {1} de su trabajo le ha valido el reconocimiento de todos.",a:["consistencia"],opts:["consistencia","consideración","coordinación","mediación"],hint:"The quality of being steady and reliable over time.",sSrc:"The {1} of her work has earned her everyone's recognition."}
 ]};

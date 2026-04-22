@@ -40,7 +40,7 @@ const LESSON_23 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'해가 산 넘어로 넘어갔어요'는 무슨 뜻이에요?",
-     opts:["해가 떴어요","산이 높아졌어요","해가 다가왔어요","해가 산 뒤로 졌어요"],
+     opts:["해가 산 뒤로 졌어요","해가 떴어요","산이 높아졌어요","해가 다가왔어요"],
      ans:"해가 산 뒤로 졌어요",
      hint:"The sun moved over the mountain and went to the other side. Think about what happens at sunset."},
 
@@ -131,7 +131,7 @@ const LESSON_23 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'공이 날아왔어요'에서 공이 어디로 움직이고 있어요?",
-     opts:["나에게서 멀어지고 있어요","하늘 위로 올라가고 있어요","나에게로 오고 있어요","바닥으로 떨어지고 있어요"],
+     opts:["하늘 위로 올라가고 있어요","나에게로 오고 있어요","바닥으로 떨어지고 있어요","나에게서 멀어지고 있어요"],
      ans:"나에게로 오고 있어요",
      hint:"The directional helper 오다 means 'to come.' The ball is moving toward the person speaking."},
 
@@ -190,7 +190,7 @@ const LESSON_23 = {
 
     {type:"mc",
      q:"'제가 나서겠습니다'는 어떤 상황에서 써요?",
-     opts:["뒤로 물러날 때","앞으로 나와서 자원할 때","서두를 때","물에 뛰어들 때"],
+     opts:["물에 뛰어들 때","뒤로 물러날 때","앞으로 나와서 자원할 때","서두를 때"],
      ans:"앞으로 나와서 자원할 때",
      hint:"This verb means stepping forward and taking initiative. It implies volunteering or courage."}
   ]

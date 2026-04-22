@@ -73,7 +73,7 @@ const LESSON_11 = {id:"esv2_b2g8_l11",title:"Historia y arqueología",icon:"🏺
  funFact:"Spain's 'Acorazado España' served from 1913 to 1937. It was sunk during the Spanish Civil War."},
 
 {type:"mc",q:"¿Qué significa 'a media asta'?",
- opts:["Que la bandera está a mitad del mástil, en señal de duelo","Que la bandera es muy grande","Que el mástil está roto","Que hay celebración"],
+ opts:["Que hay celebración","Que la bandera está a mitad del mástil, en señal de duelo","Que la bandera es muy grande","Que el mástil está roto"],
  ans:"Que la bandera está a mitad del mástil, en señal de duelo",
  hint:"When something sad happens, flags are lowered to the middle of the pole."},
 

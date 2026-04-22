@@ -1,4 +1,4 @@
-// Batch 4 — Unit 11 Lesson 1: Te-form Compound Verbs
+// Batch 4. Unit 11 Lesson 1: Te-form Compound Verbs
 const BATCH4_L_1 = {
   id:"jav2_u11l_b4_1", title:"て-形(けい)の複合(ふくごう)", icon:"🔧", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"食(た)べ過(す)ぎました means:",
-     opts:["I ate too much","I finished eating","I started eating","I tried eating"], ans:"I ate too much",
+     opts:["I tried eating","I ate too much","I finished eating","I started eating"], ans:"I ate too much",
      hint:"The suffix that means excess, going beyond the normal amount."},
 
     {type:"fb", s:"この本(ほん)は{1}やすいです。", a:"読(よ)み",
@@ -116,7 +116,7 @@ const BATCH4_L_1 = {
      hint:"The verb stem for 'to read' combined with the ease suffix."},
 
     {type:"mc", q:"What does -かた mean as a suffix?",
-     opts:["way of doing","too much","hard to","continue"], ans:"way of doing",
+     opts:["hard to","continue","way of doing","too much"], ans:"way of doing",
      hint:"Turns a verb into 'the method/manner of performing that action.'"},
 
     {type:"fb", s:"間違(まちが)いを{1}ました。", a:"直(なお)し",

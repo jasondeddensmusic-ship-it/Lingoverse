@@ -1,4 +1,4 @@
-// Batch 4 — Unit 10 Lesson 1: Nature & Animals
+// Batch 4. Unit 10 Lesson 1: Nature & Animals
 const BATCH4_L_1 = {
   id:"jav2_u10l_b4_1", title:"自然(しぜん)と動物(どうぶつ)", icon:"🦊", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What does 空 mean in addition to 'sky'?",
-     opts:["empty","full","bright","dark"], ans:"empty",
+     opts:["dark","empty","full","bright"], ans:"empty",
      hint:"A Buddhist concept connecting the vast sky with the void."},
 
     {type:"fb", s:"夏(なつ)に{1}に行(い)きます。", a:"海(うみ)",
@@ -110,11 +110,11 @@ const BATCH4_L_1 = {
      hint:"The large body of salt water surrounding Japan's islands."},
 
     {type:"mc", q:"Tanabata celebrates:",
-     opts:["star-crossed lovers meeting across the Milky Way","the New Year","cherry blossoms","autumn harvest"], ans:"star-crossed lovers meeting across the Milky Way",
+     opts:["cherry blossoms","autumn harvest","star-crossed lovers meeting across the Milky Way","the New Year"], ans:"star-crossed lovers meeting across the Milky Way",
      hint:"A July festival where people write wishes on paper strips."},
 
     {type:"mc", q:"虫(むし) means:",
-     opts:["insect","fish","bird","snake"], ans:"insect",
+     opts:["fish","bird","snake","insect"], ans:"insect",
      hint:"Japanese children famously love to collect these small creatures."}
   ,{type:"match",pairs:[{trg:"動物(どうぶつ)",src:"animal"},{trg:"虫(むし)",src:"insect / bug"},{trg:"山(やま)",src:"mountain"},{trg:"川(かわ)",src:"river"},{trg:"森(もり)",src:"forest"},{trg:"花(はな)",src:"flower"}]},{type:"match",pairs:[{trg:"空(そら)",src:"sky"},{trg:"星(ほし)",src:"star"}]}]
 };

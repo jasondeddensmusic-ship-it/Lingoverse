@@ -60,7 +60,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: Reducing emissions requires effort from each individual citizen.\nB: Let us raise energy conservation awareness.\nA: Is there a good method?\nB: I have one suggestion. How about proceeding step by step?\nA: What do you mean by step by step?\nB: It means trying it on a small scale first, then gradually expanding.",
      funFact:"削減 uses 削(さく) (shave/cut) and 減(げん) (decrease). In Japanese policy and business, 削減(さくげん) is a key action word. Budget cuts (予算(よさん)削減(さくげん)), staff reductions (人員(じんいん)削減(さくげん)), and emissions reductions (排出(はいしゅつ)削減(さくげん)) all use this term. The nuance is deliberate, planned reduction rather than passive decline."},
 
-    {type:"mc", q:"省(しょう)エネ is an abbreviation for:", opts:["省エネルギー (energy conservation)","消費エネルギー (consumed energy)","商業エネルギー (commercial energy)","小エネルギー (small energy)"], ans:"省エネルギー (energy conservation)",
+    {type:"mc", q:"省(しょう)エネ is an abbreviation for:", opts:["小エネルギー (small energy)","省エネルギー (energy conservation)","消費エネルギー (consumed energy)","商業エネルギー (commercial energy)"], ans:"省エネルギー (energy conservation)",
      hint:"The first kanji 省(しょう) means 'to conserve/save,' creating a compound about using less e...."},
 
     {type:"fb", s:"CO2排出量(はいしゅつりょう)の{1}を目指(めざ)しています。\n(Aiming to reduce CO2 emissions.)", a:"削減(さくげん)", opts:["削減(さくげん)","増加(ぞうか)","拡大(かくだい)","継続(けいぞく)"], sSrc:"Aiming to reduce CO2 emissions.",
@@ -73,7 +73,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"電力(でんりょく)",src:"electric power"},{trg:"排出量(はいしゅつりょう)",src:"emissions"},{trg:"省(しょう)エネ",src:"energy conservation"},{trg:"削減(さくげん)",src:"reduction"}]},
 
-    {type:"mc", q:"Japan's energy policy debate intensified after:", opts:["The 1995 Kobe earthquake","The 2011 Fukushima nuclear disaster","The 1973 oil crisis","The 2020 Olympics"], ans:"The 2011 Fukushima nuclear disaster",
+    {type:"mc", q:"Japan's energy policy debate intensified after:", opts:["The 2020 Olympics","The 1995 Kobe earthquake","The 2011 Fukushima nuclear disaster","The 1973 oil crisis"], ans:"The 2011 Fukushima nuclear disaster",
      hint:"This event led to the shutdown of all 54 n... reactors and a national rethinking of energy mix."},
   ]
 };

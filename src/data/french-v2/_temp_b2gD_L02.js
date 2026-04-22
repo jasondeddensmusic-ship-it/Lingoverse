@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 2 — Health and Medicine
+// French B2 Gap Batch D Lesson 2. Health and Medicine
 const LESSON_2 = {id:"frv2_b2gD_l2", title:"Santé et médecine", icon:"🏥", xp:15, board:true, steps:[
   {type:"intro", title:"Santé et médecine",
    desc:"Learn specialized vocabulary for discussing health issues, medical procedures, and wellness in French.",
@@ -73,7 +73,7 @@ const LESSON_2 = {id:"frv2_b2gD_l2", title:"Santé et médecine", icon:"🏥", x
 
   {type:"mc",
    q:"Que signifie 'la pâleur' chez un patient?",
-   opts:["Un manque de couleur dans la peau","Une douleur dans la mâchoire","Un problème de digestion","Une incapacité de travail"],
+   opts:["Une incapacité de travail","Un manque de couleur dans la peau","Une douleur dans la mâchoire","Un problème de digestion"],
    ans:"Un manque de couleur dans la peau",
    hint:"Think of the adjective 'pâle' and what it describes about someone's appearance."},
 

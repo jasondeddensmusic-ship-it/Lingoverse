@@ -1,4 +1,4 @@
-// Korean V2 Unit 9 — 주말에 뭐 할 거예요?
+// Korean V2 Unit 9, 주말에 뭐 할 거예요?
 // Level: A2.1
 
 const UNIT_9 =
@@ -136,7 +136,7 @@ const UNIT_9 =
   {type:"mc",q:"한국 사람처럼 means:",opts:["To a Korean person","Like a Korean person","From a Korean person","With a Korean person"],ans:"Like a Korean person",hint:"처럼 = …/as (comparison)."},
 ]},
 
-// ═══ L5b: -(으)ㄹ래요 — Want To / Would Like ═══
+// ═══ L5b: -(으)ㄹ래요. Want To / Would Like ═══
 {id:"kou9l5b",title:"-(으)ㄹ래요: 뭐 먹을래요?",icon:"🙋",xp:22,board:true,steps:[
   {type:"intro",title:"Korean's Three Future Forms",desc:"-(으)ㄹ 거예요: I will (plan)\n-(으)ㄹ까요?: Shall we? (suggestion)\n-(으)ㄹ래요: I want to / do you want to? (preference)\n\nYou know the first two. Now the third.",goals:["Use -(으)ㄹ래요 for casual wants and preferences","Distinguish -(으)ㄹ래요 from -고 싶어요","Contrast all three -(으)ㄹ future forms","Know when each form is appropriate"]},
   {type:"tip",title:"Korean's Three Future Endings",text:"All three use the -(으)ㄹ base. Different endings, different meanings:\n\n-(으)ㄹ 거예요: plan/intention (about YOU)\n-(으)ㄹ까요?: suggestion/question (about US)\n-(으)ㄹ래요: want/preference (casual, direct)",deepDive:{title:"Why Three Forms?",text:"Korean is deeply listener-aware.\n\n-(으)ㄹ 거예요: states YOUR plan. Neutral.\n내일 갈 거예요. = I will go tomorrow.\n\n-(으)ㄹ까요?: asks the LISTENER to decide together.\n같이 갈까요? = Shall we go together?\n\n-(으)ㄹ래요: expresses YOUR preference casually.\n나 갈래요. = I want to go. / I'll go (casual)."}},
@@ -352,12 +352,12 @@ const UNIT_9 =
    example:"A: 지하철이 아침에 왜 이렇게 불편해요?\nB: 너무 좁아서 사람들이 꽉 차 있어요.\nA: 다른 시간에 타는 게 좋겠어요.\nB: 네, 좁은 지하철은 힘들어요.",
    exampleSrc:"A: Why is the subway so uncomfortable in the morning?\nB: It's so cramped that it's packed with people.\nA: It would be better to ride at a different time.\nB: Yes, a cramped subway is tough.",
    funFact:"좁다 is used for physical space AND narrow perspectives: 시야가 좁다 (narrow-minded / limited perspective)."},
-  {type:"mc",q:"가능하다 means:",opts:["to be wide","to be possible","to be simple","to be quiet"],ans:"to be possible",hint:"가능 = ability to happen. 가능해요 = it is …."},
-  {type:"mc",q:"조용하다 ↔ opposite?",opts:["복잡하다","넓다","시끄럽다","좁다"],ans:"시끄럽다",hint:"Quiet and noisy are direct opposites."},
-  {type:"mc",q:"시끄럽다 → polite present (ㅂ-irregular):",opts:["시끄럽어요","시끄러워요","시끄럽아요","시끄러어요"],ans:"시끄러워요",hint:"ㅂ-irregular: ㅂ changes to 우 before a vowel ending."},
-  {type:"mc",q:"간단하다 means:",opts:["to be complex","to be noisy","to be simple","to be wide"],ans:"to be simple",hint:"간단 = …/uncomplicated. 간단하다 ↔ 복잡하다."},
-  {type:"mc",q:"넓다 ↔ opposite?",opts:["조용하다","복잡하다","가능하다","좁다"],ans:"좁다",hint:"Wide and narrow are direct opposites."},
-  {type:"mc",q:"지하철이 아침에 왜 복잡해요? 복잡하다 here means:",opts:["complicated (logically)","noisy (sound)","cramped (space)","possible (situation)"],ans:"cramped (space)",hint:"복잡하다 describes both complicated AND a crowded, packed place."},
+  {type:"mc",q:"가능하다 means:",opts:["to be possible","to be simple","to be quiet","to be wide"],ans:"to be possible",hint:"가능 = ability to happen. 가능해요 = it is …."},
+  {type:"mc",q:"조용하다 ↔ opposite?",opts:["넓다","시끄럽다","좁다","복잡하다"],ans:"시끄럽다",hint:"Quiet and noisy are direct opposites."},
+  {type:"mc",q:"시끄럽다 → polite present (ㅂ-irregular):",opts:["시끄러어요","시끄럽어요","시끄러워요","시끄럽아요"],ans:"시끄러워요",hint:"ㅂ-irregular: ㅂ changes to 우 before a vowel ending."},
+  {type:"mc",q:"간단하다 means:",opts:["to be wide","to be complex","to be noisy","to be simple"],ans:"to be simple",hint:"간단 = …/uncomplicated. 간단하다 ↔ 복잡하다."},
+  {type:"mc",q:"넓다 ↔ opposite?",opts:["좁다","조용하다","복잡하다","가능하다"],ans:"좁다",hint:"Wide and narrow are direct opposites."},
+  {type:"mc",q:"지하철이 아침에 왜 복잡해요? 복잡하다 here means:",opts:["noisy (sound)","cramped (space)","possible (situation)","complicated (logically)"],ans:"cramped (space)",hint:"복잡하다 describes both complicated AND a crowded, packed place."},
   {type:"mc",q:"넓다 (to be wide) → polite present form:",opts:["넓아요","넓이에요","넓어요","넓으요"],ans:"넓어요",hint:"Regular adjective. Stem consonant cluster ㄼ + 어요. Vowel harmony: 어 follows dark vowels."},
   {type:"fb",s:"도서관이 항상 ___어요.\n(The library is always quiet.)",a:"조용하",opts:["조용하","시끄럽","복잡하","넓"],hint:"Which adjective means quiet and peaceful?"},
   {type:"fb",s:"오늘 만날 수 있어요? 네, ___해요.\n(Can we meet today? Yes, it's possible.)",a:"가능",opts:["가능","간단","복잡","조용"],hint:"___해요 = it is [adjective]. Which word means possible?"},

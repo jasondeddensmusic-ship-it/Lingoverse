@@ -1,4 +1,4 @@
-// Batch 4 — Unit 07 Lesson 2: More Daily Actions
+// Batch 4. Unit 07 Lesson 2: More Daily Actions
 const BATCH4_L_2 = {
   id:"jav2_u07l_b4_2", title:"日常(にちじょう)", icon:"🌅", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What is the 洗濯指数?",
-     opts:["laundry drying index","washing machine rating","water quality score","clothing size chart"], ans:"laundry drying index",
+     opts:["clothing size chart","laundry drying index","washing machine rating","water quality score"], ans:"laundry drying index",
      hint:"A weather forecast feature telling how good the day is for d... clothes."},
 
     {type:"fb", s:"レストランを{1}しました。", a:"予約(よやく)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"Securing a table or appointment in advance."},
 
     {type:"mc", q:"What does 帰(かえ)る specifically mean?",
-     opts:["to return to home base","to go anywhere","to leave","to arrive"], ans:"to return to home base",
+     opts:["to leave","to arrive","to return to home base","to go anywhere"], ans:"to return to home base",
      hint:"Going back to your place of belonging, not just moving somewhere."},
 
     {type:"mc", q:"歯磨(はみが)き means:",
-     opts:["brushing teeth","washing face","combing hair","taking a bath"], ans:"brushing teeth",
+     opts:["washing face","combing hair","taking a bath","brushing teeth"], ans:"brushing teeth",
      hint:"T... + polishing, the hygiene act done after meals."}
   ,{type:"match",pairs:[{trg:"寝(ね)る",src:"to sleep / go to bed"},{trg:"シャワーを浴(あ)びる",src:"to take a shower"},{trg:"歯磨(はみが)き",src:"brushing teeth"},{trg:"化粧(けしょう)する",src:"to put on makeup"},{trg:"出(で)かける",src:"to go out / leave home"},{trg:"帰(かえ)る",src:"to return / go home"}]},{type:"match",pairs:[{trg:"散歩(さんぽ)する",src:"to take a walk"},{trg:"休(やす)む",src:"to rest / take a day off"}]},
   {type:"fb", s:"朝(あさ)ごはんの後(あと)に{1}をするのを忘(わす)れないでください。", a:["歯磨(はみが)き"], opts:["歯磨(はみが)き","シャワーを浴(あ)びる","化粧(けしょう)する","起(お)きる"], hint:"The oral hygiene routine done with a toothbrush and paste.", sSrc:"Please don't forget to do {1} after breakfast."}

@@ -38,7 +38,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"한국의 예절 문화에 큰 영향을 준 것은?",
-     opts:["서양","유교","종교","전쟁"],
+     opts:["유교","종교","전쟁","서양"],
      ans:"유교",
      hint:"This philosophical system from China emphasized respect, family, and social harmony."},
 
@@ -149,7 +149,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"서울이 아닌 곳을 한국에서 뭐라고 불러요?",
-     opts:["지역","주택","지방","전국"],
+     opts:["주택","지방","전국","지역"],
      ans:"지방",
      hint:"This word refers to provinces or regions outside the capital city."}
   ]

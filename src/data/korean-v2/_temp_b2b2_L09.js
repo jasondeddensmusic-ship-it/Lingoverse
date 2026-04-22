@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 9: Agriculture and Logic
+// Korean B2. Batch 2, Lesson 9: Agriculture and Logic
 // Words: 녹화, 논, 논리, 논리적, 논하다, 놀리다, 놀이터, 놈, 농민, 농부, 농사일, 농사짓다, 농산물, 농장, 놓아두다, 놔두다, 뇌, 눈가, 눈감다, 눈길
 
 const LESSON_9 = {
@@ -119,7 +119,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'농산물'의 뜻으로 맞는 것은?",
-     opts:["농사로 생산한 물건","공장에서 만든 물건","바다에서 잡은 것","숲에서 모은 것"],
+     opts:["숲에서 모은 것","농사로 생산한 물건","공장에서 만든 물건","바다에서 잡은 것"],
      ans:"농사로 생산한 물건",
      hint:"Products that come from agricultural cultivation, like vegetables, rice, and fruit."},
 

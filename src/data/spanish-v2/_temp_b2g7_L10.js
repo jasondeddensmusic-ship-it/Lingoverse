@@ -13,7 +13,7 @@ const LESSON_10 = {id:"esv2_b2g7_l10",title:"Procesos y cambio",icon:"🔄",xp:1
 {type:"teach",trg:"lentamente",src:"slowly",pos:"adv",gender:null,note:"In a slow manner. The -mente suffix creates adverbs from adjectives.",example:"A: La economía se recupera lentamente.\nB: Lentamente, la situación va mejorando.",exampleSrc:"A: The economy is recovering slowly.\nB: Slowly, the situation is improving.",funFact:"Spanish adverbs in -mente keep the feminine adjective form: lenta > lentamente, rápida > rápidamente. Never 'lentOmente'."},
 {type:"mc",q:"'En cambio' se usa para:",opts:["Introducir un contraste entre dos ideas","Añadir información similar","Dar una conclusión","Expresar una causa"],ans:"Introducir un contraste entre dos ideas",hint:"This connector shows that the second statement contrasts with the first."},
 {type:"fb",s:"El espía logró {1} en la organización sin ser detectado.",a:["infiltrarse"],opts:["infiltrarse","manufacturar","legislar","lamentar"],hint:"This reflexive verb means to enter a group secretly.",sSrc:"The spy managed to {1} the organization without being detected."},
-{type:"mc",q:"Un 'contragolpe' en fútbol es:",opts:["Un ataque rápido tras recuperar el balón","Un gol en propia puerta","Una falta grave","Un cambio de portero"],ans:"Un ataque rápido tras recuperar el balón",hint:"'Contra' (counter) + 'golpe' (strike). Think of a swift response after defending."},
+{type:"mc",q:"Un 'contragolpe' en fútbol es:",opts:["Un cambio de portero","Un ataque rápido tras recuperar el balón","Un gol en propia puerta","Una falta grave"],ans:"Un ataque rápido tras recuperar el balón",hint:"'Contra' (counter) + 'golpe' (strike). Think of a swift response after defending."},
 {type:"fb",s:"La economía se recupera {1}, pero de forma constante.",a:["lentamente"],opts:["lentamente","masivamente","indirectamente","idiomáticamente"],hint:"This adverb means at a slow pace.",sSrc:"The economy is recovering {1}, but steadily."},
 {type:"match",pairs:[
   {trg:"infiltrar",src:"to infiltrate"},
@@ -22,7 +22,7 @@ const LESSON_10 = {id:"esv2_b2g7_l10",title:"Procesos y cambio",icon:"🔄",xp:1
   {trg:"el causante",src:"the cause / culprit"},
   {trg:"lentamente",src:"slowly"}
 ]},
-{type:"mc",q:"El conductor imprudente fue el 'causante' del accidente. Esto significa que:",opts:["Él provocó el accidente","Él fue la víctima","Él ayudó a los heridos","Él llamó a la policía"],ans:"Él provocó el accidente",hint:"A 'causante' is the person or thing that caused something to happen."},
+{type:"mc",q:"El conductor imprudente fue el 'causante' del accidente. Esto significa que:",opts:["Él ayudó a los heridos","Él llamó a la policía","Él provocó el accidente","Él fue la víctima"],ans:"Él provocó el accidente",hint:"A 'causante' is the person or thing that caused something to happen."},
 {type:"fb",s:"Esta película es una {1} entre España y Argentina.",a:["coproducción"],opts:["coproducción","contraprestación","complementación","interconexión"],hint:"This word means a joint production between two countries or companies.",sSrc:"This film is a {1} between Spain and Argentina."}
 ]};
 export default LESSON_10;

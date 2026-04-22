@@ -1,4 +1,4 @@
-// L18: More Descriptions and States — 20 A1 gap words
+// L18: More Descriptions and States, 20 A1 gap words
 const LESSON_18 = {
   id:"nlv2_a1gap_l18", title:"Meer Beschrijvingen", icon:"\u{1F50D}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Dat is mijn ___ kamer. Niemand anders mag erin.",
-     opts:["eigen","andere","dezelfde","dichte"],
+     opts:["dichte","eigen","andere","dezelfde"],
      ans:"eigen",
      hint:"Which adjective means 'own', indicating personal possession?"},
 

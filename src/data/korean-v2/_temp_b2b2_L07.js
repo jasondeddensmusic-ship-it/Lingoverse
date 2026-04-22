@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 7: Flight and Sharpness
+// Korean B2. Batch 2, Lesson 7: Flight and Sharpness
 // Words: 날리다, 날아다니다, 납득하다, 낭비, 낮아지다, 내과, 내다보다, 내달, 내려놓다, 내려다보다, 내려지다, 내버리다, 내보내다, 내부, 내쉬다, 내외, 내용물, 내적, 내주다, 내후년
 
 const LESSON_7 = {
@@ -113,7 +113,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"'내달'은 무엇을 뜻하나요?",
-     opts:["다음 달","지난달","이번 달","다다음 달"],
+     opts:["다다음 달","다음 달","지난달","이번 달"],
      ans:"다음 달",
      hint:"The month coming right after this one. A formal way to say 'next month.'"},
 

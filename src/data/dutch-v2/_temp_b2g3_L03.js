@@ -1,4 +1,4 @@
-// L03: Breaking Through & Taking Action — 20 B2 gap words
+// L03: Breaking Through & Taking Action, 20 B2 gap words
 const LESSON_3 = {
   id:"nlv2_b2g3_l3", title:"Doorbreken en Actie Ondernemen", icon:"\uD83D\uDCA5", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_3 = {
      deepDive:{title:"Separable vs inseparable 'door-'",
       text:"Some 'door-' verbs exist in both forms with different meanings:\n\ndoorBREken (sep.): De zon breekt door. = The sun breaks through. (literal)\nDOORbreken (insep.): Het doorbreekt het patroon. = It breaks the pattern. (figurative)\n\nStress on 'door' = separable (literal meaning).\nStress on the verb stem = inseparable (figurative meaning).\n\nThis dual nature is unique to Dutch and German. Context and stress make all the difference."}},
     {type:"mc", q:"'De journalist prikte de leugen door.' Wat deed de journalist?",
-     opts:["Hij verspreidde de leugen","Hij ontmaskerde de leugen","Hij negeerde de leugen","Hij herhaalde de leugen"],
+     opts:["Hij ontmaskerde de leugen","Hij negeerde de leugen","Hij herhaalde de leugen","Hij verspreidde de leugen"],
      ans:"Hij ontmaskerde de leugen",
      hint:"Think of pricking a balloon to burst it. The journalist exposed what was false."},
     {type:"fb", s:"We moeten de knoop {1}.", a:["doorhakken"],
@@ -119,7 +119,7 @@ const LESSON_3 = {
       {trg:"doorslaan", src:"to go too far"}
     ]},
     {type:"mc", q:"Wat betekent 'doorgewinterd'?",
-     opts:["koud","onervaren","ervaren","uitgeput"],
+     opts:["onervaren","ervaren","uitgeput","koud"],
      ans:"ervaren",
      hint:"Someone who has survived many winters. Think of what that experience means."},
     {type:"fb", s:"Wat was je {1} om dit bedrijf te starten?", a:["drijfveer"],

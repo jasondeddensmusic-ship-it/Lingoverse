@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"診察(しんさつ)",src:"medical examination"},{trg:"手術(しゅじゅつ)",src:"surgery"},{trg:"処方箋(しょほうせん)",src:"prescription"},{trg:"入院(にゅういん)",src:"hospitalization"}]},
 
-    {type:"mc", q:"Which word means immunity?", opts:["免疫(めんえき)","退院(たいいん)","手術(しゅじゅつ)","健康診断(けんこうしんだん)"], ans:"免疫(めんえき)",
+    {type:"mc", q:"Which word means immunity?", opts:["健康診断(けんこうしんだん)","免疫(めんえき)","退院(たいいん)","手術(しゅじゅつ)"], ans:"免疫(めんえき)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"予防(よぼう)",src:"prevention"}]}]
 };

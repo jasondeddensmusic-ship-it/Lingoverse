@@ -81,7 +81,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Wat betekent 'honkvast'?",
-     opts:["Iemand die liever thuisblijft","Iemand die goed is in honkbal","Iemand die veel reist","Iemand die heel snel rent"],
+     opts:["Iemand die heel snel rent","Iemand die liever thuisblijft","Iemand die goed is in honkbal","Iemand die veel reist"],
      ans:"Iemand die liever thuisblijft",
      hint:"'Honk' means home base and 'vast' means stuck or fixed. Someone who is attached to their home."},
 
@@ -101,7 +101,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Wat betekent 'naar hartenlust'?",
-     opts:["Zoveel als je wilt, naar believen","Met een zwaar hart","Zonder plezier","Met tegenzin"],
+     opts:["Zonder plezier","Met tegenzin","Zoveel als je wilt, naar believen","Met een zwaar hart"],
      ans:"Zoveel als je wilt, naar believen",
      hint:"Literally 'to the heart's desire'. An expression meaning you can do something as much as you want."}
   ]

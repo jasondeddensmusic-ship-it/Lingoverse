@@ -1,4 +1,4 @@
-// L14: Work & Employment — 20 B2 gap words
+// L14: Work & Employment, 20 B2 gap words
 const LESSON_14 = {
   id:"nlv2_b2g2_l14", title:"Werk en Loopbaan", icon:"\uD83D\uDCCB", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_14 = {
      sSrc:"The company is registered at the Chamber of Commerce at an official {1}."},
     {type:"mc",
      q:"Wat is een andere informele betekenis van 'aanhang'?",
-     opts:["Romantische partner","Familielid","Collega","Buurman"],
+     opts:["Buurman","Romantische partner","Familielid","Collega"],
      ans:"Romantische partner",
      hint:"Besides meaning 'supporters', this word is informally used for someone you are romantically involved with."},
     {type:"match", pairs:[

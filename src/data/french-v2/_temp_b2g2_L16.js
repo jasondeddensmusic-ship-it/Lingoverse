@@ -92,7 +92,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel type de contrat offre le plus de securite en France ?",
-     opts:["un CDI","un CDD","un stage","un debrayage"],
+     opts:["un debrayage","un CDI","un CDD","un stage"],
      ans:"un CDI",
      hint:"A permanent employment contract. The most sought-after status in French labor law."},
 
@@ -137,7 +137,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel droit les employes francais ont-ils obtenu en 2017 ?",
-     opts:["le droit a la deconnexion","le droit a la greve","le droit au teletravail","le droit au licenciement"],
+     opts:["le droit au teletravail","le droit au licenciement","le droit a la deconnexion","le droit a la greve"],
      ans:"le droit a la deconnexion",
      hint:"Not checking work emails outside office hours. Protecting personal time."},
 

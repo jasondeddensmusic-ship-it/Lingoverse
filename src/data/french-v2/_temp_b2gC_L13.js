@@ -67,7 +67,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
 
 {type:"mc",
  q:"Que signifie 'la déscolarisation' ?",
- opts:["L'abandon de l'école","L'inscription à l'école","La réussite scolaire","Le changement d'école"],
+ opts:["Le changement d'école","L'abandon de l'école","L'inscription à l'école","La réussite scolaire"],
  ans:"L'abandon de l'école",
  hint:"The dé- prefix reverses the meaning. Un-schooling. Leaving education."},
 
@@ -87,7 +87,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
 
 {type:"mc",
  q:"Quel mot était lié au Code de l'indigénat dans l'histoire coloniale française ?",
- opts:["indigène","modéré","prétexte","intégrisme"],
+ opts:["prétexte","intégrisme","indigène","modéré"],
  ans:"indigène",
  hint:"A person native to a region. The colonial code using this word was deeply discriminatory."},
 
@@ -105,7 +105,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
 
 {type:"mc",
  q:"Quelle est la métaphore française pour 'to pay attention' ?",
- opts:["Prêter (lend) attention","Donner (give) attention","Acheter (buy) attention","Vendre (sell) attention"],
+ opts:["Donner (give) attention","Acheter (buy) attention","Vendre (sell) attention","Prêter (lend) attention"],
  ans:"Prêter (lend) attention",
  hint:"French uses a different verb than English. You 'l...' your focus rather than 'pay' for it."}
 

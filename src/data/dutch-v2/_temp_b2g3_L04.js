@@ -1,4 +1,4 @@
-// L04: Environment & Sustainability — 20 B2 gap words
+// L04: Environment & Sustainability, 20 B2 gap words
 const LESSON_4 = {
   id:"nlv2_b2g3_l4", title:"Milieu en Duurzaamheid", icon:"\u267B\uFE0F", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_4 = {
      deepDive:{title:"Why water words dominate Dutch",
       text:"A third of the Netherlands lies below sea level. This means Dutch has an extraordinarily rich vocabulary for water management: dijk, polder, sluis (lock), gemaal (pumping station), waterschap (water board), keerkade (secondary dike).\n\nThe Dutch 'waterschappen' (water boards) are among the oldest democratic institutions in Europe, dating back to the 13th century. Water management is not just vocabulary, it is identity."}},
     {type:"mc", q:"Wat is de grondstof voor aluminium?",
-     opts:["antraciet","bauxiet","canvas","compost"],
+     opts:["bauxiet","canvas","compost","antraciet"],
      ans:"bauxiet",
      hint:"Named after a place in southern France where it was discovered. An ore mined in tropical regions."},
     {type:"fb", s:"De {1} langs de Maas is bijna klaar.", a:["dijkverhoging"],

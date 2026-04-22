@@ -1,4 +1,4 @@
-// L10: Learning & Work — School, study, and professional life
+// L10: Learning & Work. School, study, and professional life
 const LESSON_10 = {
   id:"esv2_a1gap_l10", title:"Aprender y trabajar", icon:"\u{1F4DA}", xp:15, board:true,
   steps:[
@@ -111,7 +111,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"\u00bfQué expresión significa 'okay' o 'agreed'?",
-     opts:["de acuerdo","de acto","de además","de actual"],
+     opts:["de actual","de acuerdo","de acto","de además"],
      ans:"de acuerdo",
      hint:"This two-word expression uses a noun meaning 'agreement'. You hear it constantly in conversation."},
 

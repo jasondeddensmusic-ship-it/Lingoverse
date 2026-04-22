@@ -34,7 +34,7 @@ const LESSON_5 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"영화를 보고 울었다면, 어떤 감정을 느꼈을까요?",
-     opts:["긴장","기쁨","감동","궁금함"],
+     opts:["감동","궁금함","긴장","기쁨"],
      ans:"감동",
      hint:"When a movie makes you cry (in a good way), you were deeply touched or moved."},
 
@@ -119,7 +119,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"일이 잘 안 풀릴 때 느끼는 감정은?",
-     opts:["기쁨","감동","궁금함","답답함"],
+     opts:["감동","궁금함","답답함","기쁨"],
      ans:"답답함",
      hint:"When things are stuck and nothing is progressing, you feel stifled and frustrated."},
 
@@ -191,7 +191,7 @@ const LESSON_5 = {
     // --- Quiz batch 5 ---
     {type:"mc",
      q:"'긍정적'의 반대말은?",
-     opts:["매력적","감동적","부정적","과학적"],
+     opts:["과학적","매력적","감동적","부정적"],
      ans:"부정적",
      hint:"The opposite of positive/optimistic uses the prefix 부 (不, meaning 'not')."},
 
@@ -204,7 +204,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"사람에게 '매력적이다'라고 하면 어떤 뜻인가요?",
-     opts:["그 사람이 화가 났다","그 사람이 긴장하고 있다","그 사람이 답답해하고 있다","그 사람이 끌리는 점이 있다"],
+     opts:["그 사람이 끌리는 점이 있다","그 사람이 화가 났다","그 사람이 긴장하고 있다","그 사람이 답답해하고 있다"],
      ans:"그 사람이 끌리는 점이 있다",
      hint:"매력 means charm or attractive power. The adjective form describes someone appealing."}
   ]

@@ -32,7 +32,7 @@ const LESSON_4 = {id:"esv2_b2gap_l4",title:"Negocios y trabajo",icon:"💼",xp:1
  exampleSrc:"A: I have been self-employed for three years.\nB: Is it difficult to manage taxes?",
  funFact:"Spain has over 3 million 'autónomos'. Their monthly social security fee is a hot political topic."},
 
-{type:"mc",q:"Una persona que trabaja por cuenta propia es un:",opts:["becario","asalariado","autónomo","administrador"],ans:"autónomo",hint:"This person does not have an employer, they work for themselves."},
+{type:"mc",q:"Una persona que trabaja por cuenta propia es un:",opts:["autónomo","administrador","becario","asalariado"],ans:"autónomo",hint:"This person does not have an employer, they work for themselves."},
 
 {type:"teach",trg:"el comercio exterior",src:"the foreign trade",pos:"noun",gender:"m",
  note:"Masculine compound noun. Trade between countries.",
@@ -124,7 +124,7 @@ const LESSON_4 = {id:"esv2_b2gap_l4",title:"Negocios y trabajo",icon:"💼",xp:1
 
 {type:"fb",s:"La {1} del sector tecnológico es cada vez mayor.",a:["competitividad"],opts:["competitividad","calificación","clasificación","conformidad"],hint:"The quality of being able to compete effectively in a market.",sSrc:"The {1} of the tech sector is increasingly high."},
 
-{type:"mc",q:"¿Qué significa 'compaginar trabajo y estudios'?",opts:["Dejar de trabajar","Equilibrar ambas actividades","Estudiar más","Buscar un becario"],ans:"Equilibrar ambas actividades",hint:"Balancing two things so neither suffers."}
+{type:"mc",q:"¿Qué significa 'compaginar trabajo y estudios'?",opts:["Estudiar más","Buscar un becario","Dejar de trabajar","Equilibrar ambas actividades"],ans:"Equilibrar ambas actividades",hint:"Balancing two things so neither suffers."}
 ]};
 
 export default LESSON_4;

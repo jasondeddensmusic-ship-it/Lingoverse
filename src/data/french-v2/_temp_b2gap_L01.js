@@ -92,7 +92,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot signifie 'sans importance, insignifiant' ?",
-     opts:["anodin","abstrait","acerbe","ardent"],
+     opts:["ardent","anodin","abstrait","acerbe"],
      ans:"anodin",
      hint:"From Greek 'anodunos', originally a medical term meaning painless."},
 

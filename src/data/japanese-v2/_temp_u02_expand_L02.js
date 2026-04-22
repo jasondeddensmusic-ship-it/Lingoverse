@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: I want to go to Australia.\nB: Nice. Do you want to see koalas?",
      funFact:"Australia is one of the top destinations for Japanese working holidays and study abroad. The abbreviation Oosutoraria is long, so many Japanese people just say Oosutoraria or shorten it to Ooji (Aussie) in casual speech."},
 
-    {type:"mc", q:"ドイツ is the Japanese name for:", opts:["Denmark","Germany","Austria","Netherlands"], ans:"Germany",
+    {type:"mc", q:"ドイツ is the Japanese name for:", opts:["Germany","Austria","Netherlands","Denmark"], ans:"Germany",
      hint:"This word came from Dutch traders who called their neighbors by a specific name."},
 
     {type:"teach", trg:"インド", src:"India", pos:"noun", gender:null,
@@ -116,10 +116,10 @@ const LESSON_4 = {
      hint:"The onomatopoeia word that describes smooth, flowing speech.",
      sSrc:"Your Japanese is so fluent!"},
 
-    {type:"mc", q:"How do you say 'I speak Korean'?", opts:["かんこくごをはなします","かんこくじんです","かんこくからです","かんこくがすきです"], ans:"かんこくごをはなします",
+    {type:"mc", q:"How do you say 'I speak Korean'?", opts:["かんこくからです","かんこくがすきです","かんこくごをはなします","かんこくじんです"], ans:"かんこくごをはなします",
      hint:"Country + go (language) + wo + hanashimasu (speak)."},
 
-    {type:"mc", q:"Which country has the largest Japanese diaspora?", opts:["アメリカ","ブラジル","オーストラリア","イギリス"], ans:"ブラジル",
+    {type:"mc", q:"Which country has the largest Japanese diaspora?", opts:["オーストラリア","イギリス","アメリカ","ブラジル"], ans:"ブラジル",
      hint:"About 1.5 million people of Japanese descent live in this South American country."},
   ]
 };

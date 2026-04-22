@@ -1,4 +1,4 @@
-// Batch 3 — Unit 36 Lesson 2 (Comprehensive Review: Oral Production & Cultural Competence)
+// Batch 3. Unit 36 Lesson 2 (Comprehensive Review: Oral Production & Cultural Competence)
 const BATCH3_L_2 = {
   id:"itv2_u36l_b3_2", title:"Produzione orale e competenza culturale", icon:"🗣️", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Quale espressione e più formale per introdurre un'opinione personale?",
-     opts:["Per me","Secondo me","Io penso che","A mio avviso"],
+     opts:["A mio avviso","Per me","Secondo me","Io penso che"],
      ans:"A mio avviso",
      hint:"The most formal option from this list. Used in academic essays, official speeches, and formal presentations. The hierarchy goes from casual to very formal."},
 
@@ -126,10 +126,10 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"In definitiva, quale competenza e più importante al livello B2?",
-     opts:["Conoscere perfettamente tutte le regole grammaticali senza eccezione","Saper comunicare efficacemente adattando il registro al contesto","Avere un accento identico a quello di un madrelingua italiano","Memorizzare il maggior numero possibile di vocaboli specialistici"],
+     opts:["Memorizzare il maggior numero possibile di vocaboli specialistici","Conoscere perfettamente tutte le regole grammaticali senza eccezione","Saper comunicare efficacemente adattando il registro al contesto","Avere un accento identico a quello di un madrelingua italiano"],
      ans:"Saper comunicare efficacemente adattando il registro al contesto",
      hint:"At B2, effective communication with appropriate register is the gold standard. Perfect grammar or native accent are not required. Adaptability is key."}
-  ,{type:"match",pairs:[{trg:"il discorso",src:"the speech / address"},{trg:"il gesto",src:"the gesture"},{trg:"il dibattito",src:"the debate"},{trg:"a mio parere",src:"in my opinion (formal)"},{trg:"il proverbio",src:"the proverb / saying"},{trg:"in definitiva",src:"ultimately / when all is said and done"}]},{type:"mc",q:"How do you say \"I agree, but / granted, however\" in Italian?",opts:["d'accordo, però","la finestra","il tavolo","la bicicletta"],ans:"d'accordo, però",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il discorso",src:"the speech / address"},{trg:"il gesto",src:"the gesture"},{trg:"il dibattito",src:"the debate"},{trg:"a mio parere",src:"in my opinion (formal)"},{trg:"il proverbio",src:"the proverb / saying"},{trg:"in definitiva",src:"ultimately / when all is said and done"}]},{type:"mc",q:"How do you say \"I agree, but / granted, however\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","d'accordo, però"],ans:"d'accordo, però",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il {1} formale e necessario in un discorso pubblico.",a:["registro formale"],opts:["registro formale","proverbio","gesto","dibattito"],hint:"The level of formal language used in official or professional contexts.",sSrc:"Formal {1} is necessary in a public speech."}]
 };
 export default BATCH3_L_2;

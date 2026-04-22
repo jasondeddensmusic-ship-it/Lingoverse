@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 02 — Jeugd en Opvoeding
+// Dutch B2 gapB Lesson 02. Jeugd en Opvoeding
 // Youth, education, and upbringing vocabulary
 
 const LESSON_2 = {id:"nlv2_b2gB_l2", title:"Jeugd en Opvoeding", icon:"\u{1F9D2}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_2 = {id:"nlv2_b2gB_l2", title:"Jeugd en Opvoeding", icon:"\u{1F9D2}
  funFact:"Dutch scouting and church youth camps in the Belgian Ardennes are a rite of passage for many Dutch children."},
 
 {type:"mc", q:"'De kinderrechter' is:",
- opts:["A teacher of children","A juvenile judge","A children's doctor","A youth worker"],
+ opts:["A juvenile judge","A children's doctor","A youth worker","A teacher of children"],
  ans:"A juvenile judge",
  hint:"Rechter means j.... This one specializes in cases involving minors."},
 
@@ -82,7 +82,7 @@ const LESSON_2 = {id:"nlv2_b2gB_l2", title:"Jeugd en Opvoeding", icon:"\u{1F9D2}
 ]},
 
 {type:"mc", q:"'Op kamp gaan' betekent:",
- opts:["To go camping alone","To go to youth camp","To set up a military camp","To go on holiday"],
+ opts:["To go on holiday","To go camping alone","To go to youth camp","To set up a military camp"],
  ans:"To go to youth camp",
  hint:"A summer activity for children, organized by scouts or churches"},
 

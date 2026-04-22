@@ -92,7 +92,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Que signifie 'au compte-gouttes' ?",
-     opts:["en tres petites quantites","en grandes quantites","rapidement","gratuitement"],
+     opts:["gratuitement","en tres petites quantites","en grandes quantites","rapidement"],
      ans:"en tres petites quantites",
      hint:"Like drops from a dropper. Very slowly and sparingly."},
 
@@ -137,7 +137,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot designe un meuble a tiroirs souvent de style ancien ?",
-     opts:["une commode","un coffre-fort","un coupe-papier","un debarras"],
+     opts:["un coupe-papier","un debarras","une commode","un coffre-fort"],
      ans:"une commode",
      hint:"A piece of furniture with drawers. The word also means 'convenient'."},
 

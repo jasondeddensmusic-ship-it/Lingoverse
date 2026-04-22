@@ -30,7 +30,7 @@ lessons:[
  note:"人 (person/human) + 类 (kind/category).\nThe human kind. Collective humanity.",
  example:"A: 这(zhè)是(shì)人类(rénlèi)共同(gòngtóng)面临(miànlín)的(de)挑战(tiǎozhàn)。\nB: 所以(suǒyǐ)我们(wǒmen)要(yào)合作(hézuò)。",
  exampleSrc:"A: This is a challenge humanity faces together.\nB: So we need to cooperate.",
- funFact:"人类 is often used in discussions of existential issues: 人类文明 (human civilization), 人类历史 (human history), 人类命运共同体 (community of shared human destiny — a phrase central to contemporary Chinese diplomacy)."},
+ funFact:"人类 is often used in discussions of existential issues: 人类文明 (human civilization), 人类历史 (human history), 人类命运共同体 (community of shared human destiny, a phrase central to contemporary Chinese diplomacy)."},
 
 {type:"teach", trg:"和平(hépíng)", src:"peace", pos:"noun", gender:null,
  note:"和 (harmony) + 平 (flat/peaceful).\nHarmony and calm. Both noun and adjective.",
@@ -42,7 +42,7 @@ lessons:[
  note:"冲 (charge/rush) + 突 (sudden/break through).\nRushing collision. Used for wars, arguments, or clashes.",
  example:"A: 两(liǎng)个(gè)国家(guójiā)之间(zhījiān)有(yǒu)文化(wénhuà)冲突(chōngtū)。\nB: 我们(wǒmen)需要(xūyào)更(gèng)多(duō)的(de)交流(jiāoliú)。",
  exampleSrc:"A: There is cultural conflict between the two countries.\nB: We need more exchange.",
- funFact:"冲突 covers conflicts at many scales: armed war, workplace disputes, cultural clashes, even scheduling conflicts (时间冲突). The imagery of 'rushing collision' is vivid — two forces suddenly meeting with impact."},
+ funFact:"冲突 covers conflicts at many scales: armed war, workplace disputes, cultural clashes, even scheduling conflicts (时间冲突). The imagery of 'rushing collision' is vivid, two forces suddenly meeting with impact."},
 
 {type:"teach", trg:"交流(jiāoliú)", src:"exchange / communication (cultural)", pos:"verb", gender:null,
  note:"交 (exchange) + 流 (flow).\nFlowing exchange. For ideas, cultures, experiences.",
@@ -51,7 +51,7 @@ lessons:[
  funFact:"交流 is broader than just 'talk.' It implies mutual exchange of substance: ideas, culture, experience. A 学术交流 (academic exchange) or 文化交流 (cultural exchange) is a structured two-way flow, not just conversation."},
 
 {type:"mc", q:"国家(guójiā) literally combines 'country' with which character?",
- opts:["government","people","home/family","territory"],
+ opts:["home/family","territory","government","people"],
  ans:"home/family",
  hint:"The second character also means '___.' The word frames the nation as extended ___."},
 
@@ -105,7 +105,7 @@ lessons:[
  note:"发 (develop) + 达 (reach).\nDeveloped and arrived. For countries, economies, technology.",
  example:"A: 日本(Rìběn)是(shì)一(yí)个(gè)发达(fādá)国家(guójiā)。\nB: 是(shì)的(de)，经济(jīngjì)和(hé)科技(kējì)都(dōu)很(hěn)先进(xiānjìn)。",
  exampleSrc:"A: Japan is a developed country.\nB: Yes, both economy and technology are advanced.",
- funFact:"发达国家 (developed country) versus 发展中国家 (developing country) is the standard Chinese translation of the OECD framework. The contrast 发达 vs 发展中 captures 'arrived' versus 'still traveling' — an elegant translation philosophy."},
+ funFact:"发达国家 (developed country) versus 发展中国家 (developing country) is the standard Chinese translation of the OECD framework. The contrast 发达 vs 发展中 captures 'arrived' versus 'still traveling', an elegant translation philosophy."},
 
 {type:"teach", trg:"不平等(bùpíngděng)", src:"inequality", pos:"noun", gender:null,
  note:"不 (not) + 平 (flat/equal) + 等 (equal/degree).\nNot-equal-equal. Triple emphasis on inequality.",
@@ -120,7 +120,7 @@ lessons:[
  funFact:"援助 is the formal term used in diplomatic contexts: 对外援助 (foreign aid), 人道主义援助 (humanitarian aid). Everyday helping uses 帮助 instead. The formality tells you immediately whether the context is casual or institutional."},
 
 {type:"mc", q:"不平等(bùpíngděng) contains how many characters emphasizing 'equal / not equal'?",
- opts:["one","two","three","four"],
+ opts:["three","four","one","two"],
  ans:"three",
  hint:"Each character contributes to the meaning. 不 (not) + 平 (flat/equal) + 等 (equal)."},
 
@@ -162,7 +162,7 @@ lessons:[
  note:"多 (many) + 元 (element/basic unit).\nMany elements. Used for diversity of all kinds.",
  example:"A: 我(wǒ)们(men)的(de)社会(shèhuì)越(yuè)来(lái)越(yuè)多元(duōyuán)。\nB: 这(zhè)是(shì)好(hǎo)事(shì)，不同(bùtóng)的(de)视角(shìjiǎo)让(ràng)我们(wǒmen)更(gèng)智慧(zhìhuì)。",
  exampleSrc:"A: Our society is becoming more and more diverse.\nB: That is a good thing. Different perspectives make us wiser.",
- funFact:"多元 is a modern term that emerged alongside globalization. 多元文化 (multicultural), 多元化 (diversify). It carries generally positive connotations — more Chinese cities now proudly describe themselves as 多元化."},
+ funFact:"多元 is a modern term that emerged alongside globalization. 多元文化 (multicultural), 多元化 (diversify). It carries generally positive connotations, more Chinese cities now proudly describe themselves as 多元化."},
 
 {type:"teach", trg:"价值观(jiàzhíguān)", src:"values (moral/cultural)", pos:"noun", gender:null,
  note:"价值 (value) + 观 (view).\nViews on value. What you consider important.",
@@ -189,12 +189,12 @@ lessons:[
  funFact:"未来 elegantly describes the future as 'what has not yet come.' This is different from English, which uses a direct directional word. Chinese frames the future as incoming, on its way to us, already on the horizon."},
 
 {type:"mc", q:"多元(duōyuán) combines 'many' with which character?",
- opts:["language","culture","element","country"],
+ opts:["element","country","language","culture"],
  ans:"element",
  hint:"The second character means 'basic unit' or '___.' Think of many basic components coming together."},
 
 {type:"mc", q:"未来(wèilái) literally means:",
- opts:["year to come","time ahead","not yet come","coming soon"],
+ opts:["time ahead","not yet come","coming soon","year to come"],
  ans:"not yet come",
  hint:"未 means 'not yet,' 来 means 'approach / arrive.' The future has not yet arrived."},
 

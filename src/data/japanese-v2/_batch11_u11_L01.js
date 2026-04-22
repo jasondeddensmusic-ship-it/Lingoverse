@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「戻(もど)る」と「帰(かえ)る」はどう違(ちが)いますか？",
-     opts:["戻(もど)る is temporary return, 帰(かえ)る is going home","They mean the same thing","戻(もど)る is polite, 帰(かえ)る is casual","戻(もど)る is for things, 帰(かえ)る is for people"],
+     opts:["戻(もど)る is for things, 帰(かえ)る is for people","戻(もど)る is temporary return, 帰(かえ)る is going home","They mean the same thing","戻(もど)る is polite, 帰(かえ)る is casual"],
      ans:"戻(もど)る is temporary return, 帰(かえ)る is going home",
      hint:"One word implies you will come back and continue, while the other means you are done for the day."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"I forgot my umbrella!"},
 
     {type:"mc", q:"日本(にほん)の天気予報(てんきよほう)ではなにが放送(ほうそう)されますか？",
-     opts:["A laundry drying index","A cooking difficulty index","A shopping index","A sleep quality index"],
+     opts:["A shopping index","A sleep quality index","A laundry drying index","A cooking difficulty index"],
      ans:"A laundry drying index",
      hint:"Because most Japanese households dry clothes outside, the weather forecast includes a helpful rating about this daily chore."}
   ,{type:"fb", s:"部屋(へや)が散(ち)らかっています。まず机(つくえ)の上(うえ)を{1}ましょう。",

@@ -1,4 +1,4 @@
-// Batch 6 — Unit 02 extra lesson. Numbers, Days & Time: Appointments & Schedules
+// Batch 6. Unit 02 extra lesson. Numbers, Days & Time: Appointments & Schedules
 const BATCH6_L1 = {id:"itv2_u02l_b6_1", title:"Appuntamenti e orari", icon:"\u{1F4C5}", xp:15, board:true, steps:[
 {type:"intro", title:"Appuntamenti e orari",
  desc:"Learn to make appointments, discuss schedules, and talk about daily routines using time expressions.",
@@ -99,7 +99,7 @@ const BATCH6_L1 = {id:"itv2_u02l_b6_1", title:"Appuntamenti e orari", icon:"\u{1
  sSrc:"Sorry, I am {1} by twenty minutes!"},
 
 {type:"mc", q:"Cosa fai se non puoi andare all'appuntamento?",
- opts:["Lo annullo o lo sposto","Lo confermo","Lo prenoto","Sono puntuale"],
+ opts:["Sono puntuale","Lo annullo o lo sposto","Lo confermo","Lo prenoto"],
  ans:"Lo annullo o lo sposto",
  hint:"Two options when you cannot make it: cancel or reschedule."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u02l_b6_1", title:"Appuntamenti e orari", icon:"\u{1
  sSrc:"I check my {1} to see if I am free."},
 
 {type:"mc", q:"Qual e il contrario di 'in ritardo'?",
- opts:["in anticipo","puntuale","disponibile","annullato"],
+ opts:["disponibile","annullato","in anticipo","puntuale"],
  ans:"in anticipo",
  hint:"The direct opposite: arriving before the scheduled time, not just on time."},
 

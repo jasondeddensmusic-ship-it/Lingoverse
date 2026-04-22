@@ -86,7 +86,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel adjectif décrit quelqu'un dont les vêtements sont en désordre ?",
-     opts:["débraillé","désapprobateur","différencié","attardé"],
+     opts:["attardé","débraillé","désapprobateur","différencié"],
      ans:"débraillé",
      hint:"This adjective comes from 'braies' (old trousers). It describes someone whose clothing is untidy or undone."},
 

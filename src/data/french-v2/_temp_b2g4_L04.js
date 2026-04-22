@@ -86,7 +86,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot designe un petit flacon decoratif pour le parfum ?",
-     opts:["un flacon","un cendrier","un embout","un gant"],
+     opts:["un gant","un flacon","un cendrier","un embout"],
      ans:"un flacon",
      hint:"A small decorative bottle. Grasse, the perfume capital, is famous for designing these."},
 
@@ -113,7 +113,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Que signifie 'immobiliser' dans un contexte medical ?",
-     opts:["Empecher de bouger","Guerir rapidement","Diagnostiquer","Operer d'urgence"],
+     opts:["Diagnostiquer","Operer d'urgence","Empecher de bouger","Guerir rapidement"],
      ans:"Empecher de bouger",
      hint:"The prefix 'im-' means not, and 'mobiliser' means to move. To prevent all movement."}
   ]

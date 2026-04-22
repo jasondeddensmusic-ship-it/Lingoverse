@@ -1,4 +1,4 @@
-// L17: Sports & Leisure — Having fun and staying active
+// L17: Sports & Leisure. Having fun and staying active
 const LESSON_17 = {
   id:"esv2_a1gap_l17", title:"Deporte y ocio", icon:"\u26BD", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"\u00bfQué significa 'agitar antes de usar'?",
-     opts:["Shake before use","Stir before eating","Open before using","Taste before serving"],
+     opts:["Taste before serving","Shake before use","Stir before eating","Open before using"],
      ans:"Shake before use",
      hint:"This instruction is commonly found on bottles of juice or medicine that need to be mixed."},
 

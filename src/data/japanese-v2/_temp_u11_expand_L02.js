@@ -24,7 +24,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
    exampleSrc:"A: I lost my key.\nB: That is terrible. Let us search together.",
    funFact:"なくす means to lose an object (not a person or game). The てしまう ending makes it clear this was accidental and regrettable. For losing a game, use まける. For losing a person (death), use なくなる, a euphemism meaning 'to cease to exist.'"},
 
-  {type:"mc", q:"ケーキをぜんぶたべてしまった expresses:", opts:["I want to eat cake","I ate all the cake (with regret/surprise)","I am eating cake now","I will eat cake later"], ans:"I ate all the cake (with regret/surprise)",
+  {type:"mc", q:"ケーキをぜんぶたべてしまった expresses:", opts:["I ate all the cake (with regret/surprise)","I am eating cake now","I will eat cake later","I want to eat cake"], ans:"I ate all the cake (with regret/surprise)",
      hint:"てしまう marks completion that carries an emotional tone, like an accidental or unwanted outcome."},
 
   {type:"teach", trg:"〜ちゃった", src:"ended up doing ~ (casual)", pos:"part", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {id:"jav2_u11l4", title:"てしまう・てみる", icon:"😱"
 
   {type:"match", pairs:[{trg:"わすれてしまった",src:"forgot (regret)"},{trg:"なくしてしまった",src:"lost something (regret)"},{trg:"きいてみる",src:"try asking"},{trg:"つかってみる",src:"try using"}]},
 
-  {type:"mc", q:"たべちゃった is the casual form of:", opts:["たべてみた","たべてしまった","たべている","たべておいた"], ans:"たべてしまった",
+  {type:"mc", q:"たべちゃった is the casual form of:", opts:["たべておいた","たべてみた","たべてしまった","たべている"], ans:"たべてしまった",
    hint:"In casual speech, てしまった contracts by removing しま and changing to ちゃった."},
 
   {type:"fb", s:"このアプリをつかって{1}ください。\n(Please try using this app.)", a:"みて", opts:["みて","しまって","おいて","いて"], sSrc:"Please try using this app.",

@@ -71,7 +71,7 @@ lessons:[
  sSrc:"The police found important {1}."},
 
 {type:"mc", q:"你(nǐ)需要(xūyào)请(qǐng)一(yí)个(gè)律师(lǜshī)。 What does this advise?",
- opts:["You need to hire a lawyer","You need to see a judge","The crime was illegal","The evidence is important"],
+ opts:["The evidence is important","You need to hire a lawyer","You need to see a judge","The crime was illegal"],
  ans:"You need to hire a lawyer",
  hint:"请 here means 'to ___' or 'to invite.' 律师 is the legal professional who represents you."},
 
@@ -150,7 +150,7 @@ lessons:[
  sSrc:"This {1} is very complex, the lawyer needs more time."},
 
 {type:"mc", q:"公正(gōngzhèng) combines which two meanings?",
- opts:["Public/fair + correct/upright","Crime + punishment","Law + power","Evidence + proof"],
+ opts:["Evidence + proof","Public/fair + correct/upright","Crime + punishment","Law + power"],
  ans:"Public/fair + correct/upright",
  hint:"Break the word into its two characters: 公 and 正. What does each one mean on its own?"},
 
@@ -203,7 +203,7 @@ lessons:[
  sSrc:"The court ruled the company must {1} the losses."},
 
 {type:"mc", q:"协议(xiéyì) contains the concept of:",
- opts:["Cooperative discussion","Single authority","Criminal punishment","Physical evidence"],
+ opts:["Physical evidence","Cooperative discussion","Single authority","Criminal punishment"],
  ans:"Cooperative discussion",
  hint:"协 means 'cooperate' and 议 means 'discuss.' What does a formal agreement require?"},
 
@@ -220,7 +220,7 @@ lessons:[
  hint:"The person who presides over court made a decision based on proof."},
 
 {type:"mc", q:"Which pair are logical opposites?",
- opts:["合法(héfǎ) / 违法(wéifǎ)","法官(fǎguān) / 律师(lǜshī)","起诉(qǐsù) / 赔偿(péicháng)","证据(zhèngjù) / 案件(ànjiàn)"],
+ opts:["起诉(qǐsù) / 赔偿(péicháng)","证据(zhèngjù) / 案件(ànjiàn)","合法(héfǎ) / 违法(wéifǎ)","法官(fǎguān) / 律师(lǜshī)"],
  ans:"合法(héfǎ) / 违法(wéifǎ)",
  hint:"One means 'conforming to law' and the other means 'violating law.' They share the same second character."},
 

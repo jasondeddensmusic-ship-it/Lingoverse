@@ -93,13 +93,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"可能性(かのうせい)",src:"possibility"},{trg:"価値観(かちかん)",src:"values"},{trg:"本質(ほんしつ)",src:"essence"},{trg:"発想(はっそう)",src:"idea/concept"},{trg:"動機(どうき)",src:"motivation"}],
      hint:"Match each abstract noun with its English meaning."},
 
-    {type:"mc", q:"What is the difference between そうぞう (想像) and そうぞう (創造)?", opts:["Imagination vs. Creation (same pronunciation, different kanji)","Past vs. Future","Abstract vs. Concrete","They mean the same thing"], ans:"Imagination vs. Creation (same pronunciation, different kanji)",
+    {type:"mc", q:"What is the difference between そうぞう (想像) and そうぞう (創造)?", opts:["They mean the same thing","Imagination vs. Creation (same pronunciation, different kanji)","Past vs. Future","Abstract vs. Concrete"], ans:"Imagination vs. Creation (same pronunciation, different kanji)",
      hint:"These homophone pairs are distinguished by their k... but sound identical in speech."},
 
     {type:"fb", s:"日本語(にほんご)を学(まな)ぶ{1}は何(なに)ですか？\n(What is your motivation for learning Japanese?)", a:"動機(どうき)", opts:["動機(どうき)","基準(きじゅん)","価値観(かちかん)","原則(げんそく)"], sSrc:"What is your motivation for learning Japanese?",
      hint:"This word asks about the driving reason behind an action."},
 
-    {type:"mc", q:"What does the 力(りょく) suffix add to a noun?", opts:["Power or ability","Size or quantity","Feeling or emotion","Time or period"], ans:"Power or ability",
+    {type:"mc", q:"What does the 力(りょく) suffix add to a noun?", opts:["Feeling or emotion","Time or period","Power or ability","Size or quantity"], ans:"Power or ability",
      hint:"影響力(えいきょうりょく) (influence p...), 想像力(そうぞうりょく) (imagination p...) all use this suffix."}
   ,{type:"match",pairs:[{trg:"実現(じつげん)する",src:"to realize / to make real / to achieve"},{trg:"原則(げんそく)",src:"principle / fundamental rule"},{trg:"見方(みかた)",src:"perspective / way of seeing / viewpoint"},{trg:"思考(しこう)",src:"thinking / thought process"},{trg:"貢献(こうけん)する",src:"to contribute"},{trg:"基準(きじゅん)",src:"standard / criterion / benchmark"}]}]
 };

@@ -36,13 +36,13 @@ lessons:[
  note:"应 (respond) + 聘 (engage/hire).\nTo respond to a hiring call.",
  example:"A: 我(wǒ)想(xiǎng)应聘(yìngpìn)你(nǐ)们(men)公司(gōngsī)的(de)设计师(shèjìshī)职位(zhíwèi)。\nB: 好(hǎo)的(de)，请(qǐng)把(bǎ)简历(jiǎnlì)发(fā)过来(guòlái)。",
  exampleSrc:"A: I want to apply for the designer position at your company.\nB: Okay, please send your resume.",
- funFact:"聘 originally meant sending a formal delegation to engage someone's service — used for hiring scholars, generals, or ministers. Modern 应聘 preserves this formal flavor, giving job applications a slightly ceremonial weight."},
+ funFact:"聘 originally meant sending a formal delegation to engage someone's service, used for hiring scholars, generals, or ministers. Modern 应聘 preserves this formal flavor, giving job applications a slightly ceremonial weight."},
 
 {type:"teach", trg:"辞职(cízhí)", src:"to resign / to quit a job", pos:"verb", gender:null,
  note:"辞 (decline/resign) + 职 (position).\nTo decline a position. Separable verb.",
  example:"A: 听说(tīngshuō)她(tā)要(yào)辞职(cízhí)了(le)。\nB: 是(shì)的(de)，她(tā)找(zhǎo)到(dào)了(le)更(gèng)好(hǎo)的(de)机会(jīhuì)。",
  exampleSrc:"A: I heard she is going to resign.\nB: Yes, she found a better opportunity.",
- funFact:"辞 also appears in 告辞 (take leave, polite goodbye) and 推辞 (decline politely). It always carries a note of respectful departure. 辞职 quitting keeps that flavor — leaving a role formally, not just walking away."},
+ funFact:"辞 also appears in 告辞 (take leave, polite goodbye) and 推辞 (decline politely). It always carries a note of respectful departure. 辞职 quitting keeps that flavor, leaving a role formally, not just walking away."},
 
 {type:"teach", trg:"升职(shēngzhí)", src:"to be promoted", pos:"verb", gender:null,
  note:"升 (rise) + 职 (position).\nRising in position. Separable verb.",
@@ -51,12 +51,12 @@ lessons:[
  funFact:"升 (rise) appears in many movement-up words: 升级 (upgrade), 升学 (advance in school), 升迁 (career advancement). The upward metaphor applies to careers, technology, and education alike."},
 
 {type:"mc", q:"简历(jiǎnlì) literally means:",
- opts:["full story","life record","brief history","personal details"],
+ opts:["brief history","personal details","full story","life record"],
  ans:"brief history",
  hint:"简 means …. 历 means … or experience. Combine them."},
 
 {type:"mc", q:"To resign from a job is:",
- opts:["应聘(yìngpìn)","升职(shēngzhí)","辞职(cízhí)","职位(zhíwèi)"],
+ opts:["升职(shēngzhí)","辞职(cízhí)","职位(zhíwèi)","应聘(yìngpìn)"],
  ans:"辞职(cízhí)",
  hint:"The first character 辞 means 'to decline' or 'to take leave.' The word conveys formal departure."},
 
@@ -120,7 +120,7 @@ lessons:[
  funFact:"Unlike 同事 (colleagues, same company) and 同学 (classmates, same school), 同行 refers to professional peers across companies. Attending a 同行交流会 (peer exchange conference) means networking with industry counterparts."},
 
 {type:"mc", q:"汇报(huìbào) and 报告(bàogào) differ in what way?",
- opts:["汇报 is more casual","汇报 is spoken, 报告 is written","汇报 is specifically upward to a superior","They are identical"],
+ opts:["汇报 is specifically upward to a superior","They are identical","汇报 is more casual","汇报 is spoken, 报告 is written"],
  ans:"汇报 is specifically upward to a superior",
  hint:"The first character 汇 implies 'gathering and remitting ___.'"},
 
@@ -189,7 +189,7 @@ lessons:[
  funFact:"方案 is a concrete, detailed plan for a specific task, while 计划 (jìhuà) is a broader strategic plan. In project management, you 制定方案 (formulate plans) as specific responses to problems identified in the broader 计划."},
 
 {type:"mc", q:"Which word specifically describes a formal presentation or speech?",
- opts:["报告(bàogào)","演讲(yǎnjiǎng)","汇报(huìbào)","讨论(tǎolùn)"],
+ opts:["演讲(yǎnjiǎng)","汇报(huìbào)","讨论(tǎolùn)","报告(bàogào)"],
  ans:"演讲(yǎnjiǎng)",
  hint:"The first character 演 means 'perform.' This word implies performative speaking."},
 

@@ -76,7 +76,7 @@ const LESSON_1 = {
      sSrc:"Civil {1} is an act of political resistance."},
 
     {type:"mc", q:"Que signifie 'profaner' un lieu sacre?",
-     opts:["Le traiter avec irrespect","Le renover","Le visiter","Le photographier"],
+     opts:["Le photographier","Le traiter avec irrespect","Le renover","Le visiter"],
      ans:"Le traiter avec irrespect",
      hint:"The verb comes from putting something outside the sacred space"},
 
@@ -93,7 +93,7 @@ const LESSON_1 = {
      sSrc:"His {1} allowed him to solve the mystery."},
 
     {type:"mc", q:"Quel est le feminin de 'administrateur'?",
-     opts:["administratrice","administrateuse","administrateure","administrateresse"],
+     opts:["administrateure","administrateresse","administratrice","administrateuse"],
      ans:"administratrice",
      hint:"This follows the regular -teur to -trice pattern like acteur/actrice"},
 
@@ -103,7 +103,7 @@ const LESSON_1 = {
      sSrc:"This behavior is {1} by the internal regulations."},
 
     {type:"mc", q:"'Semer la division' signifie:",
-     opts:["Creer des desaccords","Planter des graines","Calculer une operation","Organiser un groupe"],
+     opts:["Planter des graines","Calculer une operation","Organiser un groupe","Creer des desaccords"],
      ans:"Creer des desaccords",
      hint:"Semer means to sow; think of spreading something negative among people"},
 

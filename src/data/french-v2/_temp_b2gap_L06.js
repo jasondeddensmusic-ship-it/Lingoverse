@@ -143,7 +143,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel m\u00e9tal est traditionnellement utilis\u00e9 pour les casseroles en France ?",
-     opts:["Le cuivre","Le cognac","Le biscuit","Le bonus"],
+     opts:["Le bonus","Le cuivre","Le cognac","Le biscuit"],
      ans:"Le cuivre",
      hint:"A reddish metal prized by French chefs for excellent heat distribution."}
   ]

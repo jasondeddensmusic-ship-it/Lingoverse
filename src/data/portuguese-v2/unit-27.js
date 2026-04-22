@@ -66,7 +66,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"What is the gender of 'mercado'?",
- opts:["masculine","feminine","neuter","varies"],
+ opts:["varies","masculine","feminine","neuter"],
  ans:"masculine",
  hint:"Most nouns ending in -o are this gender."},
 
@@ -96,7 +96,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"Which phrase means 'business plan'?",
- opts:["plano de vendas","plano de negócios","plano de mercado","plano de contrato"],
+ opts:["plano de contrato","plano de vendas","plano de negócios","plano de mercado"],
  ans:"plano de negócios",
  hint:"The plural noun form is used for 'business' here."},
 
@@ -109,7 +109,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"What does 'serviço' in a restaurant bill usually mean?",
- opts:["the menu","a 10% suggested tip","the order","the dish of the day"],
+ opts:["the order","the dish of the day","the menu","a 10% suggested tip"],
  ans:"a 10% suggested tip",
  hint:"An optional percentage added for the staff."},
 
@@ -189,13 +189,13 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"What is the opposite of 'lucro'?",
- opts:["custo","prejuízo","investimento","juros"],
+ opts:["prejuízo","investimento","juros","custo"],
  ans:"prejuízo",
  hint:"If lucro means profit, what means loss?"},
 
 {type:"mc",
  q:"Which preposition goes with 'investir'?",
- opts:["em","para","por","de"],
+ opts:["de","em","para","por"],
  ans:"em",
  hint:"Portuguese uses the same preposition as 'to invest IN'."},
 
@@ -225,7 +225,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"What is 'custo-benefício'?",
- opts:["cost-benefit","profit margin","interest rate","sales target"],
+ opts:["interest rate","sales target","cost-benefit","profit margin"],
  ans:"cost-benefit",
  hint:"A fixed expression pairing ___ against value gained."},
 
@@ -304,7 +304,7 @@ const UNIT_27 = {n:27, lang:"pt", srcLang:"en", track:"v2", title:"O mundo dos n
 
 {type:"mc",
  q:"Which word means 'proposal' in business?",
- opts:["preço","proposta","acordo","reunião"],
+ opts:["proposta","acordo","reunião","preço"],
  ans:"proposta",
  hint:"What you send before the deal is signed."},
 

@@ -1,4 +1,4 @@
-// Korean V2 B1 Gap Lesson 13 — Effort, Growth, and Change
+// Korean V2 B1 Gap Lesson 13. Effort, Growth, and Change
 // 20 teach cards + interleaved quizzes. Max 30 steps.
 
 const LESSON_13 = {
@@ -36,7 +36,7 @@ const LESSON_13 = {
     // ── Quiz batch 1 ──
     {type:"mc",
      q:"열심히 ___면 좋은 결과가 올 거예요.",
-     opts:["고생하","견디","강조하","노력하"],
+     opts:["노력하","고생하","견디","강조하"],
      ans:"노력하",
      hint:"If you try hard, good results will come. Which verb means to make effort?"},
 
@@ -82,7 +82,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"비가 3일째 ___고 있어요.",
-     opts:["계속하","높아지","계속되","꾸준히"],
+     opts:["높아지","계속되","꾸준히","계속하"],
      ans:"계속되",
      hint:"The rain has been going on for 3 days. Is the rain continuing on its own, or is someone making it continue?"},
 
@@ -187,7 +187,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"운동하니까 ___이 많이 나요.",
-     opts:["기운","땀","노력","고생"],
+     opts:["고생","기운","땀","노력"],
      ans:"땀",
      hint:"A liquid that comes out of your skin when you exercise. What is it called?"},
 

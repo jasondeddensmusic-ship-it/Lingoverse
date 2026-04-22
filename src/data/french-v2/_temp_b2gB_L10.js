@@ -76,7 +76,7 @@ const LESSON_10 = {
      sSrc:"Skilled {1} is rare in this region."},
 
     {type:"mc", q:"Que signifie 'sous pretexte de'?",
-     opts:["En utilisant comme fausse raison","Avant de commencer","A cause de","Grace a"],
+     opts:["Grace a","En utilisant comme fausse raison","Avant de commencer","A cause de"],
      ans:"En utilisant comme fausse raison",
      hint:"A pretext is a false justification used to hide the real motivation"},
 
@@ -93,7 +93,7 @@ const LESSON_10 = {
      sSrc:"The company {1} funds for future risks."},
 
     {type:"mc", q:"Le 'productivisme' est souvent critique par:",
-     opts:["Les ecologistes","Les banquiers","Les consommateurs","Les informaticiens"],
+     opts:["Les consommateurs","Les informaticiens","Les ecologistes","Les banquiers"],
      ans:"Les ecologistes",
      hint:"This ideology of maximizing production at all costs conflicts with sustainability"},
 
@@ -103,7 +103,7 @@ const LESSON_10 = {
      sSrc:"The {1} budget forecasts three percent growth."},
 
     {type:"mc", q:"Que signifie 'cheque sans provision'?",
-     opts:["Un cheque sans fonds suffisants","Un cheque sans signature","Un cheque sans date","Un cheque sans nom"],
+     opts:["Un cheque sans signature","Un cheque sans date","Un cheque sans nom","Un cheque sans fonds suffisants"],
      ans:"Un cheque sans fonds suffisants",
      hint:"Provision in banking means the available balance to cover a payment"},
 

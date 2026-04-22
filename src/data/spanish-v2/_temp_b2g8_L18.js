@@ -79,7 +79,7 @@ const LESSON_18 = {id:"esv2_b2g8_l18",title:"Cuestiones morales",icon:"⚖️",x
  funFact:"Spain uses a proportional representation system, so absolute majorities are rare and coalitions common."},
 
 {type:"mc",q:"¿Qué es un mandatario?",
- opts:["Un líder político o jefe de estado","Un soldado","Un periodista","Un juez de un tribunal"],
+ opts:["Un juez de un tribunal","Un líder político o jefe de estado","Un soldado","Un periodista"],
  ans:"Un líder político o jefe de estado",
  hint:"A person who holds a position of political authority, especially at the highest level."},
 
@@ -101,7 +101,7 @@ const LESSON_18 = {id:"esv2_b2g8_l18",title:"Cuestiones morales",icon:"⚖️",x
  sSrc:"The {1} marched through the streets demanding better working conditions."},
 
 {type:"mc",q:"Un 'manto de niebla' significa:",
- opts:["Una capa de niebla que cubre todo","Un tipo de abrigo","Una montaña cubierta de nieve","Un fenómeno eléctrico"],
+ opts:["Una montaña cubierta de nieve","Un fenómeno eléctrico","Una capa de niebla que cubre todo","Un tipo de abrigo"],
  ans:"Una capa de niebla que cubre todo",
  hint:"A 'manto' is a covering layer. Think of fog as a blanket over the landscape."},
 
@@ -119,7 +119,7 @@ const LESSON_18 = {id:"esv2_b2g8_l18",title:"Cuestiones morales",icon:"⚖️",x
  sSrc:"Her {1} as mayor was remembered for the social reforms."},
 
 {type:"mc",q:"'Darse maña' significa:",
- opts:["Tener habilidad para hacer algo","Tener mala suerte","Estar cansado","Levantarse temprano"],
+ opts:["Tener mala suerte","Estar cansado","Levantarse temprano","Tener habilidad para hacer algo"],
  ans:"Tener habilidad para hacer algo",
  hint:"Having a clever ability or resourcefulness to accomplish tasks skillfully."}
 ]};

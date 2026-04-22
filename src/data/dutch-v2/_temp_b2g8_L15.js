@@ -1,4 +1,4 @@
-// Lesson 15 — Science & Research
+// Lesson 15. Science & Research
 const LESSON_15 = {id:"nlv2_b2g8_l15", title:"Wetenschap en Onderzoek", icon:"\u{1F52C}", xp:20, board:true, steps:[
 {type:"intro", title:"Wetenschap en Onderzoek", desc:"Scientific and research vocabulary for discussing academic studies, experiments, and scholarly topics in Dutch.", goals:["Learn 10 science and research words","Discuss research methods","Understand Dutch academic vocabulary"]},
 {type:"teach", trg:"de ingebruikname", src:"the commissioning, the putting into use", pos:"noun", gender:"c", note:"COMPOUND: in gebruik (in use) + name (taking).\nDe-word. Formal. 'De ingebruikname van het gebouw.'\n'Na ingebruikname van de brug.'", example:"A: De ingebruikname van de nieuwe brug is morgen.\nB: Komt de burgemeester?\nA: Ja, die knipt het lint door.\nB: Een feestelijk moment.", exampleSrc:"A: The commissioning of the new bridge is tomorrow.\nB: Is the mayor coming?\nA: Yes, they will cut the ribbon.\nB: A festive moment.", funFact:"Dutch loves combining prepositions with nouns: ingebruikname, indiensttreding, instandhouding. All formal register."},

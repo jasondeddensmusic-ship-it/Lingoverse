@@ -1,4 +1,4 @@
-// L02: Law, Claims & Governance — 20 B2 gap words
+// L02: Law, Claims & Governance, 20 B2 gap words
 const LESSON_2 = {
   id:"nlv2_b2gap_l2", title:"Recht en Aanspraken", icon:"\u2696\uFE0F", xp:15, board:true,
   steps:[
@@ -105,11 +105,11 @@ const LESSON_2 = {
      deepDive:{title:"The Dutch legal system",
       text:"The Netherlands has a civil law system based on the 'Burgerlijk Wetboek' (Civil Code). Unlike English common law, judges follow written codes rather than precedent.\n\nKey institutions:\n'De rechtbank' = district court (first instance)\n'Het gerechtshof' = court of appeal\n'De Hoge Raad' = Supreme Court\n'Het Openbaar Ministerie' = Public Prosecution Service\n\nUseful to know: Dutch law distinguishes 'strafrecht' (criminal law), 'civiel recht' (civil law), and 'bestuursrecht' (administrative law)."}},
     {type:"mc", q:"'De politie hield drie verdachten aan.' What happened?",
-     opts:["Three suspects were released","Three suspects were arrested","Three suspects were questioned","Three suspects escaped"],
+     opts:["Three suspects were arrested","Three suspects were questioned","Three suspects escaped","Three suspects were released"],
      ans:"Three suspects were arrested",
      hint:"'Aanhouden' by police means to take someone into custody."},
     {type:"mc", q:"Which word means 'the mediator'?",
-     opts:["de bemiddelaar","de aanklager","de bepaling","het bewind"],
+     opts:["het bewind","de bemiddelaar","de aanklager","de bepaling"],
      ans:"de bemiddelaar",
      hint:"Someone who stands in the middle between two parties."},
     {type:"fb", s:"Zij bekleedt een hoge {1} bij de overheid.", a:["functie"],
@@ -127,7 +127,7 @@ const LESSON_2 = {
       {trg:"bewering", src:"claim"}
     ]},
     {type:"mc", q:"'Verboden te betreden' means:",
-     opts:["Forbidden to leave","Forbidden to enter","Forbidden to park","Forbidden to speak"],
+     opts:["Forbidden to speak","Forbidden to leave","Forbidden to enter","Forbidden to park"],
      ans:"Forbidden to enter",
      hint:"You see this sign on construction sites and private property."},
     {type:"fb", s:"De {1} van het contract is per eerste januari.", a:["beëindiging"],

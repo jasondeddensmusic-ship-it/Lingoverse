@@ -1,4 +1,4 @@
-// Russian V2 Unit 26 — Science and Technology (B2.1)
+// Russian V2 Unit 26. Science and Technology (B2.1)
 const UNIT_26 = {n:26, lang:"ru", srcLang:"en", track:"v2", title:"Наука и технология", sub:"Science and Technology",
  icon:"🔬", level:"B2.1", color:"#7B5EE8",
  lessons:[
@@ -55,14 +55,14 @@ const UNIT_26 = {n:26, lang:"ru", srcLang:"en", track:"v2", title:"Наука и
  note:"Masculine. English loanword.\nGen sg: компьютера.",
  example:"A: Новый компьютер?\nB: Да, только купил.",
  exampleSrc:"A: New computer?\nB: Yes, just bought.",
- funFact:"Soviet computing developed BESM and Elbrus systems. Modern Russia has mixed tech culture — English loanwords dominate in IT: компьютер, интернет, сайт, пароль."},
+ funFact:"Soviet computing developed BESM and Elbrus systems. Modern Russia has mixed tech culture. English loanwords dominate in IT: компьютер, интернет, сайт, пароль."},
 
 {type:"tip", title:"Russian Science Vocabulary",
- text:"SCIENCE FIELDS:\n• физика (physics)\n• химия (chemistry)\n• биология (biology)\n• математика (mathematics)\n• психология (psychology)\n• медицина (medicine)\n\nTECHNICAL TERMS:\n• опыт (experience/experiment)\n• гипотеза (hypothesis)\n• данные (data)\n• метод (method)\n• анализ (analysis)\n• вывод (conclusion)\n\nTECHNOLOGY:\n• техника (technology/equipment)\n• инновация (innovation)\n• программа (program)\n• интернет (internet)\n• данные (data)\n\nRUSSIAN SCIENTIFIC GENIUSES:\n• Ломоносов (18th c. polymath)\n• Менделеев (periodic table)\n• Павлов (classical conditioning)\n• Королев (space program)\n• Капица (physics)\n\nRussian scientific culture remains strong — major STEM pipeline.",
+ text:"SCIENCE FIELDS:\n• физика (physics)\n• химия (chemistry)\n• биология (biology)\n• математика (mathematics)\n• психология (psychology)\n• медицина (medicine)\n\nTECHNICAL TERMS:\n• опыт (experience/experiment)\n• гипотеза (hypothesis)\n• данные (data)\n• метод (method)\n• анализ (analysis)\n• вывод (conclusion)\n\nTECHNOLOGY:\n• техника (technology/equipment)\n• инновация (innovation)\n• программа (program)\n• интернет (internet)\n• данные (data)\n\nRUSSIAN SCIENTIFIC GENIUSES:\n• Ломоносов (18th c. polymath)\n• Менделеев (periodic table)\n• Павлов (classical conditioning)\n• Королев (space program)\n• Капица (physics)\n\nRussian scientific culture remains strong, major STEM pipeline.",
  icon:"🔬"},
 
 {type:"mc", q:"Which is a feminine noun?",
- opts:["эксперимент","результат","теория","открытие"],
+ opts:["теория","открытие","эксперимент","результат"],
  ans:"теория",
  hint:"Ends in -ия, a feminine ending."},
 

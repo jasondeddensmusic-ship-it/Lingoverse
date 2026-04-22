@@ -1,4 +1,4 @@
-// Batch 4 — Unit 13 Lesson 1: Travel & Transportation
+// Batch 4. Unit 13 Lesson 1: Travel & Transportation
 const BATCH4_L_1 = {
   id:"jav2_u13l_b4_1", title:"交通(こうつう)", icon:"🚄", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What is special about the Japanese passport?",
-     opts:["world's most powerful for visa-free travel","unique design","free to obtain","lasts forever"], ans:"world's most powerful for visa-free travel",
+     opts:["lasts forever","world's most powerful for visa-free travel","unique design","free to obtain"], ans:"world's most powerful for visa-free travel",
      hint:"Access to 190+ countries without needing a v... in advance."},
 
     {type:"fb", s:"ホテルの{1}をしました。", a:"予約(よやく)",
@@ -110,11 +110,11 @@ const BATCH4_L_1 = {
      hint:"Securing a room or table in advance for a specific date."},
 
     {type:"mc", q:"お土産(おみやげ) is best described as:",
-     opts:["souvenir gifts from a trip for others","personal shopping","travel insurance","tour guide"], ans:"souvenir gifts from a trip for others",
+     opts:["travel insurance","tour guide","souvenir gifts from a trip for others","personal shopping"], ans:"souvenir gifts from a trip for others",
      hint:"A social obligation to bring back local specialties for coworkers and friends."},
 
     {type:"mc", q:"What does 改札(かいさつ) mean?",
-     opts:["ticket gate","ticket office","waiting room","exit"], ans:"ticket gate",
+     opts:["ticket office","waiting room","exit","ticket gate"], ans:"ticket gate",
      hint:"The turnstile where you tap your IC card to enter the station."}
   ,{type:"match",pairs:[{trg:"乗(の)り換(か)え",src:"transfer (trains/buses)"},{trg:"改札(かいさつ)",src:"ticket gate / turnstile"},{trg:"ホーム",src:"platform (train station)"},{trg:"定期券(ていきけん)",src:"commuter pass"},{trg:"入国(にゅうこく)",src:"entry into a country / immigration"},{trg:"手荷物(てにもつ)",src:"hand luggage / carry-on"}]},{type:"match",pairs:[{trg:"観光(かんこう)",src:"sightseeing / tourism"}]}]
 };

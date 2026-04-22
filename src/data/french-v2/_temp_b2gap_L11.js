@@ -92,7 +92,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel mot designe l'ensemble des animaux d'une ferme ?",
-     opts:["le cheptel","le crustac\u00e9","le bosquet","le copeau"],
+     opts:["le copeau","le cheptel","le crustac\u00e9","le bosquet"],
      ans:"le cheptel",
      hint:"From Latin 'capitale' meaning property. Livestock was the original form of wealth."},
 
@@ -137,7 +137,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel adjectif decrit un terrain envahi par la vegetation sauvage ?",
-     opts:["broussailleux","aigre","douillet","cantonal"],
+     opts:["douillet","cantonal","broussailleux","aigre"],
      ans:"broussailleux",
      hint:"From 'broussaille' meaning bramble or bush. Think of an overgrown path."},
 

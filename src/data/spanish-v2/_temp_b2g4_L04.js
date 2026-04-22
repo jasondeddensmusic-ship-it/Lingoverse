@@ -78,7 +78,7 @@ const LESSON_4 = {id:"esv2_b2g4_l4",title:"Emociones y carácter",icon:"💭",xp
  exampleSrc:"A: The move was exhausting.\nB: I need an entire weekend to recover.",
  funFact:"From Latin extenuare (to thin out). Being 'thinned out' by effort became meaning 'exhausted'."},
 
-{type:"mc",q:"Si alguien actúa 'sin escrúpulos', significa que:",opts:["No tiene moral ni remordimientos","Es muy tímido","Tiene mucha energía","Se esfuerza mucho"],ans:"No tiene moral ni remordimientos",hint:"Think about someone who has no m... doubts about their actions."},
+{type:"mc",q:"Si alguien actúa 'sin escrúpulos', significa que:",opts:["Se esfuerza mucho","No tiene moral ni remordimientos","Es muy tímido","Tiene mucha energía"],ans:"No tiene moral ni remordimientos",hint:"Think about someone who has no m... doubts about their actions."},
 
 {type:"teach",trg:"el elogio",src:"the praise / compliment",pos:"noun",gender:"m",
  note:"Masculine noun. Words of admiration or approval.\nVerb: elogiar. Plural: elogios.",
@@ -90,7 +90,7 @@ const LESSON_4 = {id:"esv2_b2g4_l4",title:"Emociones y carácter",icon:"💭",xp
 
 {type:"match",pairs:[{trg:"entusiasta",src:"enthusiastic"},{trg:"espeluznante",src:"terrifying"},{trg:"debilidad",src:"weakness"},{trg:"elogio",src:"praise"},{trg:"devoción",src:"devotion"}]},
 
-{type:"mc",q:"¿Qué significa 'extenuante'?",opts:["Extremadamente cansado","Muy divertido","Bastante fácil","Poco interesante"],ans:"Extremadamente cansado",hint:"Think about an activity that leaves you completely drained of energy."},
+{type:"mc",q:"¿Qué significa 'extenuante'?",opts:["Bastante fácil","Poco interesante","Extremadamente cansado","Muy divertido"],ans:"Extremadamente cansado",hint:"Think about an activity that leaves you completely drained of energy."},
 
 {type:"fb",s:"Su reacción me causó gran {1}.",a:["extrañeza"],opts:["extrañeza","exageración","evocación","devoción"],hint:"The feeling of something being odd or surprising.",sSrc:"His reaction caused me great {1}."}
 ]};

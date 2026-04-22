@@ -1,4 +1,4 @@
-// Batch 7 — Unit 28 extra lesson. La letteratura: Poetry & Verse
+// Batch 7. Unit 28 extra lesson. La letteratura: Poetry & Verse
 const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:15, board:true, steps:[
 {type:"intro", title:"La poesia",
  desc:"Learn vocabulary for poetry, verse forms, and Italy's rich poetic tradition.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:
 ]},
 
 {type:"mc", q:"Quante sillabe ha l'endecasillabo?",
- opts:["Undici","Dieci","Dodici","Quattordici"],
+ opts:["Quattordici","Undici","Dieci","Dodici"],
  ans:"Undici",
  hint:"The name contains the number. 'Hendeca' (from Greek) means this number."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u28l_b7_1", title:"La poesia", icon:"\u{1F4DC}", xp:
  sSrc:"'Life is a journey' is a {1}."},
 
 {type:"mc", q:"Chi e 'il Sommo Poeta'?",
- opts:["Dante Alighieri","Francesco Petrarca","Giacomo Leopardi","Ludovico Ariosto"],
+ opts:["Giacomo Leopardi","Ludovico Ariosto","Dante Alighieri","Francesco Petrarca"],
  ans:"Dante Alighieri",
  hint:"The Supreme Poet. Author of the Divine Comedy. Father of the Italian language."},
 

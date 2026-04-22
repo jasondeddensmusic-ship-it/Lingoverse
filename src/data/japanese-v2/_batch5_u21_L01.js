@@ -75,7 +75,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"この問題(もんだい)について世論(よろん)は{1}います。\n(Public opinion is divided on this issue.)", a:"分(わ)かれて", opts:["分(わ)かれて","集(あつ)まって","決(き)まって","まとまって"], sSrc:"Public opinion is divided on this issue.",
      hint:"The verb meaning 'to be divided/split' in the て-form."},
 
-    {type:"mc", q:"支持率(しじりつ) means:", opts:["Approval rating / support rate","Election result","Public opinion","Survey method"], ans:"Approval rating / support rate",
+    {type:"mc", q:"支持率(しじりつ) means:", opts:["Survey method","Approval rating / support rate","Election result","Public opinion"], ans:"Approval rating / support rate",
      hint:"支持(しじ) (s...) + 率(りつ) (r...) creates the compound for how much backing something has."},
 
     {type:"match", pairs:[{trg:"賛成(さんせい)",src:"agreement/approval"},{trg:"反対(はんたい)",src:"opposition"},{trg:"主張(しゅちょう)",src:"claim/assertion"},{trg:"根拠(こんきょ)",src:"basis/evidence"}]},
@@ -83,7 +83,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"地球温暖化(ちきゅうおんだんか)は世界中(せかいちゅう)に{1}を与(あた)えています。\n(Global warming is having an impact around the world.)", a:"影響(えいきょう)", opts:["影響(えいきょう)","意見(いけん)","議論(ぎろん)","調査(ちょうさ)"], sSrc:"Global warming is having an impact around the world.",
      hint:"The noun meaning influence/impact, using the kanji for shadow and echo."},
 
-    {type:"mc", q:"Japanese opinions are typically softened with:", opts:["と思(おも)います (I think)","絶対(ぜったい)に (absolutely)","必(かなら)ず (certainly)","もちろん (of course)"], ans:"と思(おも)います (I think)",
+    {type:"mc", q:"Japanese opinions are typically softened with:", opts:["必(かなら)ず (certainly)","もちろん (of course)","と思(おも)います (I think)","絶対(ぜったい)に (absolutely)"], ans:"と思(おも)います (I think)",
      hint:"Even strong views are often hedged with this phrase to maintain conversational harmony."}
   ,{type:"match",pairs:[{trg:"世論(よろん)",src:"public opinion"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"調査(ちょうさ)",src:"survey / investigation / research"},{trg:"支持(しじ)する",src:"to support / to back"},{trg:"議論(ぎろん)",src:"debate / discussion / argument"}]}]
 };

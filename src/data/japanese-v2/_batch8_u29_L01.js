@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"輸出(ゆしゅつ)",src:"export"},{trg:"輸入(ゆにゅう)",src:"import"},{trg:"関税(かんぜい)",src:"tariff"},{trg:"円高(えんだか)",src:"strong yen"},{trg:"規制(きせい)",src:"regulation"}],
      hint:"Match each economic term with its English meaning."},
 
-    {type:"mc", q:"What is Japan's 食料(しょくりょう)自給率(じきゅうりつ) approximately?", opts:["About 38%","About 80%","About 95%","About 55%"], ans:"About 38%",
+    {type:"mc", q:"What is Japan's 食料(しょくりょう)自給率(じきゅうりつ) approximately?", opts:["About 55%","About 38%","About 80%","About 95%"], ans:"About 38%",
      hint:"Japan depends heavily on food imports for most of its calories."},
 
     {type:"fb", s:"パンデミックで{1}が混乱(こんらん)しました。\n(The pandemic disrupted supply chains.)", a:"供給(きょうきゅう)網(もう)", opts:["供給(きょうきゅう)網(もう)","貿易(ぼうえき)","産業(さんぎょう)","インフラ"], sSrc:"The pandemic disrupted supply chains.",
      hint:"This word describes the network of suppliers and manufacturers that deliver goods."},
 
-    {type:"mc", q:"What does 円高(えんだか) mean for Japanese consumers?", opts:["Imported goods become cheaper","Exported goods become cheaper","No effect on prices","All goods become more expensive"], ans:"Imported goods become cheaper",
+    {type:"mc", q:"What does 円高(えんだか) mean for Japanese consumers?", opts:["No effect on prices","All goods become more expensive","Imported goods become cheaper","Exported goods become cheaper"], ans:"Imported goods become cheaper",
      hint:"When the yen is strong, buying foreign products costs fewer yen."}
   ,{type:"match",pairs:[{trg:"貿易(ぼうえき)",src:"trade / foreign trade"},{trg:"直接投資(ちょくせつとうし)",src:"foreign direct investment (FDI)"},{trg:"競争者(きょうそうしゃ)",src:"competitor"},{trg:"産業(さんぎょう)",src:"industry"},{trg:"インフラ",src:"infrastructure"},{trg:"経済(けいざい)成長(せいちょう)",src:"economic growth"}]}]
 };

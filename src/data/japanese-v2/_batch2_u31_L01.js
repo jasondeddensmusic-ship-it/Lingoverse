@@ -60,7 +60,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: In the lay judge system, ordinary citizens participate in trials.\nB: It is a heavy responsibility, but important for democracy.\nA: Please tell me more about that.\nB: For example, looking at recent cases, the changes are dramatic.\nA: Is that so? How should we handle it?\nB: Let's first grasp the current situation, then make a plan.",
      funFact:"裁判員 was created in 2009, modeled partly on American and European jury systems. Six 裁判員(さいばんいん) sit alongside three professional judges in serious criminal cases. Citizens are randomly selected and cannot refuse without good reason. The system aimed to bring 'common sense' (市民感覚(しみんかんかく)) into a court system that had been entirely judge-driven."},
 
-    {type:"mc", q:"自白(じはく) means:", opts:["Confession","Evidence","Witness","Verdict"], ans:"Confession",
+    {type:"mc", q:"自白(じはく) means:", opts:["Verdict","Confession","Evidence","Witness"], ans:"Confession",
      hint:"The word combining 'self' and 'reveal/confess,' the act of admitting guilt."},
 
     {type:"fb", s:"弁護側(べんごがわ)は{1}を申請(しんせい)しました。\n(The defense applied for bail.)", a:"保釈(ほしゃく)", opts:["保釈(ほしゃく)","控訴(こうそ)","逮捕(たいほ)","尋問(じんもん)"], sSrc:"The defense applied for bail.",
@@ -73,7 +73,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"勾留(こうりゅう)",src:"pretrial detention"},{trg:"控訴(こうそ)",src:"appeal"},{trg:"保釈(ほしゃく)",src:"bail"},{trg:"裁判員(さいばんいん)",src:"lay judge"}]},
 
-    {type:"mc", q:"裁判員(さいばんいん)制度(せいど) was introduced to:", opts:["Replace all professional judges","Bring citizen perspectives to serious criminal trials","Handle only civil cases","Reduce court costs"], ans:"Bring citizen perspectives to serious criminal trials",
+    {type:"mc", q:"裁判員(さいばんいん)制度(せいど) was introduced to:", opts:["Reduce court costs","Replace all professional judges","Bring citizen perspectives to serious criminal trials","Handle only civil cases"], ans:"Bring citizen perspectives to serious criminal trials",
      hint:"This 2009 reform lets ordinary citizens participate alongside professional judges."},
   ]
 };

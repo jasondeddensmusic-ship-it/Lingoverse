@@ -1,4 +1,4 @@
-// Batch 8 — Unit 36 extra lesson. Final Review: Essential Connectors & Academic Writing
+// Batch 8. Unit 36 extra lesson. Final Review: Essential Connectors & Academic Writing
 const BATCH8_L1 = {id:"itv2_u36l_b8_1", title:"Connettori e stile", icon:"🎯", xp:15, board:true, steps:[
 {type:"intro", title:"Connettori e stile",
  desc:"Master essential connectors, transition words, and academic writing style for advanced Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u36l_b8_1", title:"Connettori e stile", icon:"🎯",
 
 {type:"mc",
  q:"What do politicians use 'per quanto riguarda' for?",
- opts:["To pivot to a new topic or away from uncomfortable questions","To end a speech","To agree with someone","To introduce themselves"],
+ opts:["To introduce themselves","To pivot to a new topic or away from uncomfortable questions","To end a speech","To agree with someone"],
  ans:"To pivot to a new topic or away from uncomfortable questions",
  hint:"This versatile phrase smoothly shifts the discussion to any n... subject. It is the Swiss Army knife of formal Italian."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u36l_b8_1", title:"Connettori e stile", icon:"🎯",
 
 {type:"mc",
  q:"Why do Italian academic journals often use 'abstract' in English?",
- opts:["The English term is considered more precise than the Italian 'riassunto'","Italian has no equivalent word","It is required by law","English is the only academic language"],
+ opts:["It is required by law","English is the only academic language","The English term is considered more precise than the Italian 'riassunto'","Italian has no equivalent word"],
  ans:"The English term is considered more precise than the Italian 'riassunto'",
  hint:"Code-switching between I... and E... is standard in I... academia. E... terms carry specific academic weight."}
 ,{type:"match",pairs:[{trg:"in conclusione",src:"in conclusion"},{trg:"a tal proposito",src:"in this regard / on this matter"},{trg:"per quanto riguarda",src:"as regards / concerning"}]},{type:"mc",q:"How do you say \"abstract\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'abstract"],ans:"l'abstract",hint:"Recall the Italian vocabulary word taught in this lesson."}]};

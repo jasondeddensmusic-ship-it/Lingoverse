@@ -92,7 +92,7 @@ const LESSON_1 = {id:"frv2_b1gap_l1", title:"Emotions profondes", icon:"\u{1F30A
 
 {type:"mc",
  q:"Comment dit-on quand quelqu'un est en état de panique totale ?",
- opts:["affolé","anxieux","amer","angoissant"],
+ opts:["angoissant","affolé","anxieux","amer"],
  ans:"affolé",
  hint:"This adjective comes from the word for 'fool.' Panic makes you lose your senses."},
 
@@ -143,7 +143,7 @@ const LESSON_1 = {id:"frv2_b1gap_l1", title:"Emotions profondes", icon:"\u{1F30A
 
 {type:"mc",
  q:"Quel verbe signifie 'rendre plus doux' ?",
- opts:["adoucir","angoisser","affliger","apeurer"],
+ opts:["affliger","apeurer","adoucir","angoisser"],
  ans:"adoucir",
  hint:"This verb is built from the adjective doux, meaning soft or sweet."},
 
@@ -156,7 +156,7 @@ const LESSON_1 = {id:"frv2_b1gap_l1", title:"Emotions profondes", icon:"\u{1F30A
 
 {type:"mc",
  q:"Quel mot décrit une légère irritation ?",
- opts:["l'agacement","l'angoisse","l'affolement","l'adversité"],
+ opts:["l'angoisse","l'affolement","l'adversité","l'agacement"],
  ans:"l'agacement",
  hint:"Think of the verb agacer, originally meaning to set your teeth on edge."}
 

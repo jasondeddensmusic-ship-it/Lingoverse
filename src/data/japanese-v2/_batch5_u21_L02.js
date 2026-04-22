@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"日本(にほん)の{1}は世界(せかい)で最(もっと)も進(すす)んでいます。\n(Japan's population aging is the most advanced in the world.)", a:"高齢化(こうれいか)", opts:["高齢化(こうれいか)","少子化(しょうしか)","高齢者(こうれいしゃ)","若者(わかもの)"], sSrc:"Japan's population aging is the most advanced in the world.",
      hint:"The noun meaning 'aging of society,' using the characters for high, age, and -ification."},
 
-    {type:"mc", q:"格差社会(かくさしゃかい) means:", opts:["A society with growing inequality/gaps","A classless society","A wealthy society","A peaceful society"], ans:"A society with growing inequality/gaps",
+    {type:"mc", q:"格差社会(かくさしゃかい) means:", opts:["A peaceful society","A society with growing inequality/gaps","A classless society","A wealthy society"], ans:"A society with growing inequality/gaps",
      hint:"格差 (gap/disparity) + 社会(しゃかい) (s...) describes widening i...."},
 
     {type:"match", pairs:[{trg:"高齢化(こうれいか)",src:"population aging"},{trg:"少子化(しょうしか)",src:"declining birth rate"},{trg:"福祉(ふくし)",src:"social welfare"},{trg:"介護(かいご)",src:"nursing care"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"少子化(しょうしか){1}として子育(こそだ)て支援(しえん)があります。\n(As a countermeasure for declining births, there is child-rearing support.)", a:"対策(たいさく)", opts:["対策(たいさく)","問題(もんだい)","原因(げんいん)","結果(けっか)"], sSrc:"As a countermeasure for declining births, there is child-rearing support.",
      hint:"The noun meaning countermeasure or policy solution, often paired with social problems."},
 
-    {type:"mc", q:"急務(きゅうむ) describes:", opts:["A task that demands immediate action","A routine duty","A completed task","An optional project"], ans:"A task that demands immediate action",
+    {type:"mc", q:"急務(きゅうむ) describes:", opts:["A completed task","An optional project","A task that demands immediate action","A routine duty"], ans:"A task that demands immediate action",
      hint:"This formal word combines 'urgent' with 'duty/t...' to signal pressing need."}
   ,{type:"match",pairs:[{trg:"格差(かくさ)",src:"gap / disparity / divide"},{trg:"充実(じゅうじつ)",src:"enrichment / enhancement / fulfillment"},{trg:"急務(きゅうむ)",src:"urgent task / pressing need"},{trg:"改革(かいかく)",src:"reform / restructuring"}]}]
 };

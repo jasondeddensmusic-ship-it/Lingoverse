@@ -38,7 +38,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'주변'과 비슷한 의미의 단어는?",
-     opts:["중간","한쪽","주위","곁"],
+     opts:["주위","곁","중간","한쪽"],
      ans:"주위",
      hint:"This word also means 'surroundings' or 'vicinity,' very close in meaning to 주변."},
 

@@ -86,7 +86,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'comme il le souhaite, a sa maniere' ?",
-     opts:["a sa guise","a sa lese-majeste","a son guet-apens","a son passe-passe"],
+     opts:["a son passe-passe","a sa guise","a sa lese-majeste","a son guet-apens"],
      ans:"a sa guise",
      hint:"'As one pleases' or 'in one's own way'. A polite but sometimes cold expression."},
 
@@ -113,7 +113,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel phenomene psychologique est l'oppose du deja vu ?",
-     opts:["le jamais-vu","le passe-passe","la lese-majeste","le guet-apens"],
+     opts:["la lese-majeste","le guet-apens","le jamais-vu","le passe-passe"],
      ans:"le jamais-vu",
      hint:"When something familiar suddenly feels completely new and unfamiliar. French coined both terms."}
   ]

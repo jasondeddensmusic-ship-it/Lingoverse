@@ -32,7 +32,7 @@ const LESSON_3 = {id:"esv2_b2gap_l3",title:"Ley y conflicto",icon:"⚖️",xp:15
  exampleSrc:"A: The victim was stabbed in the arm.\nB: Luckily, the wound was not deep.",
  funFact:"From puño (fist) via puñal (dagger). The fist holds the blade, giving us 'apuñalar'."},
 
-{type:"mc",q:"Un ataque persistente contra una persona es:",opts:["una acusación","un acoso","un asalto","un consenso"],ans:"un acoso",hint:"This word describes ongoing, unwanted attention or bullying."},
+{type:"mc",q:"Un ataque persistente contra una persona es:",opts:["un acoso","un asalto","un consenso","una acusación"],ans:"un acoso",hint:"This word describes ongoing, unwanted attention or bullying."},
 
 {type:"teach",trg:"el apuñalamiento",src:"the stabbing",pos:"noun",gender:"m",
  note:"Masculine noun. The act of stabbing someone.",
@@ -84,7 +84,7 @@ const LESSON_3 = {id:"esv2_b2gap_l3",title:"Ley y conflicto",icon:"⚖️",xp:15
  exampleSrc:"A: The minister announced his immediate dismissal.\nB: Nobody expected that resignation.",
  funFact:"'Cese' can mean both stopping an activity and being dismissed from a position."},
 
-{type:"mc",q:"El acusado debe comparecer ante el:",opts:["hospital","restaurante","tribunal","estadio"],ans:"tribunal",hint:"This is where legal cases are heard and judged."},
+{type:"mc",q:"El acusado debe comparecer ante el:",opts:["restaurante","tribunal","estadio","hospital"],ans:"tribunal",hint:"This is where legal cases are heard and judged."},
 
 {type:"teach",trg:"la cesión",src:"the cession / transfer",pos:"noun",gender:"f",
  note:"Feminine noun. The act of handing over rights or territory.",
@@ -118,13 +118,13 @@ const LESSON_3 = {id:"esv2_b2gap_l3",title:"Ley y conflicto",icon:"⚖️",xp:15
 
 {type:"fb",s:"El {1} del director sorprendió a todos en la empresa.",a:["cese"],opts:["cese","acoso","cautivo","causante"],hint:"The sudden stopping or dismissal from a position.",sSrc:"The {1} of the director surprised everyone in the company."},
 
-{type:"mc",q:"¿Qué es una cláusula?",opts:["Una disposición en un documento legal","Un tipo de delito","Una sala del tribunal","Un agente de policía"],ans:"Una disposición en un documento legal",hint:"Think about the specific provisions written in contracts."},
+{type:"mc",q:"¿Qué es una cláusula?",opts:["Una sala del tribunal","Un agente de policía","Una disposición en un documento legal","Un tipo de delito"],ans:"Una disposición en un documento legal",hint:"Think about the specific provisions written in contracts."},
 
 {type:"match",pairs:[{trg:"acusación",src:"accusation"},{trg:"cautivo",src:"captive"},{trg:"cláusula",src:"clause"},{trg:"cesión",src:"cession / transfer"},{trg:"colisión",src:"collision"}]},
 
 {type:"fb",s:"Los dos coches sufrieron una {1} en la autopista.",a:["colisión"],opts:["colisión","confusión","cesión","acusación"],hint:"A crash between two vehicles.",sSrc:"The two cars suffered a {1} on the highway."},
 
-{type:"mc",q:"Tres victorias seguidas sin interrupción son victorias:",opts:["causales","consecutivas","condicionales","concernientes"],ans:"consecutivas",hint:"One after another, in an unbroken sequence."}
+{type:"mc",q:"Tres victorias seguidas sin interrupción son victorias:",opts:["condicionales","concernientes","causales","consecutivas"],ans:"consecutivas",hint:"One after another, in an unbroken sequence."}
 ]};
 
 export default LESSON_3;

@@ -1,4 +1,4 @@
-// Korean V2 Unit 3 — 하나, 둘, 셋
+// Korean V2 Unit 3, 하나, 둘, 셋
 // Level: A1.1
 
 const UNIT_3 =

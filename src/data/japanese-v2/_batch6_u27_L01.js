@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: The effects of global warming are serious.\nB: We should act immediately.\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"おんだんか (温暖化) combines 温暖 (warm) and 化 (change/become). Japan is already experiencing effects: hotter summers, stronger typhoons, and shifting cherry blossom timing. さくらぜんせん (cherry blossom front) data shows blooming dates have moved earlier by about 10 days over the past century."},
 
-    {type:"mc", q:"もったいない expresses:", opts:["Regret at wasting something valuable","Excitement about something new","Confusion about a situation","Anger at someone"], ans:"Regret at wasting something valuable",
+    {type:"mc", q:"もったいない expresses:", opts:["Anger at someone","Regret at wasting something valuable","Excitement about something new","Confusion about a situation"], ans:"Regret at wasting something valuable",
      hint:"This uniquely Japanese word has become a global environmental slogan."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"地球(ちきゅう){1}の影響(えいきょう)が深刻(しんこく)です。\n(The effects of global warming are serious.)", a:"おんだんか", opts:["おんだんか","じしん","たいふう","こうずい"], sSrc:"The effects of global warming are serious.",
      hint:"The compound noun for the warming of the planet."},
 
-    {type:"mc", q:"Japan's energy self-sufficiency is low because:", opts:["The country has few natural resources","It uses too much solar power","It exports all its energy","It has no nuclear power"], ans:"The country has few natural resources",
+    {type:"mc", q:"Japan's energy self-sufficiency is low because:", opts:["It exports all its energy","It has no nuclear power","The country has few natural resources","It uses too much solar power"], ans:"The country has few natural resources",
      hint:"Japan must import most of its fossil fuels and raw materials."}
   ,{type:"match",pairs:[{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"汚(よご)す",src:"to pollute / to dirty / to contaminate"}]},
   {type:"fb", s:"日本(にほん)はエネルギー{1}が少(すく)ないので輸入(ゆにゅう)に頼(たよ)っています。", a:["資源(しげん)"], opts:["資源(しげん)","排出(はいしゅつ)","太陽光(たいようこう)","持続可能(じぞくかのう)"], hint:"Natural materials such as oil, gas, or minerals that an economy depends on.", sSrc:"Japan relies on imports because it has few energy {1}."}

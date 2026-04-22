@@ -38,7 +38,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"아이들에게 '커서 뭐가 되고 싶어?'라고 물을 때 관련된 단어는?",
-     opts:["일상","장사","장래","임시"],
+     opts:["장래","임시","일상","장사"],
      ans:"장래",
      hint:"This word refers to one's future or upcoming prospects in life."},
 
@@ -149,7 +149,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"하루 종일 일해서 기운이 없는 상태를 뭐라고 해요?",
-     opts:["지다","지르다","지치다","지나치다"],
+     opts:["지르다","지치다","지나치다","지다"],
      ans:"지치다",
      hint:"This verb describes deep exhaustion from extended physical or mental effort."}
   ]

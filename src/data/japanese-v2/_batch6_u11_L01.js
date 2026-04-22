@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Memorizing kanji is difficult.\nB: Let us memorize a little bit each day.",
      funFact:"覚(おぼ)える means both to memorize and to learn (a skill). 体(からだ)が覚(おぼ)えている (the body remembers) describes muscle memory. Japanese students spend years 覚(おぼ)える-ing kanji. Flashcard apps and the practice of 書(か)き取(と)り (writing practice) are standard methods."},
 
-    {type:"mc", q:"忘(わす)れないでください means:", opts:["Please don't forget","Please remember","Please come back","Please hand it over"], ans:"Please don't forget",
+    {type:"mc", q:"忘(わす)れないでください means:", opts:["Please hand it over","Please don't forget","Please remember","Please come back"], ans:"Please don't forget",
      hint:"忘(わす)れる means to f.... Adding ないでください makes it a negative request."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"部屋(へや)を{1}てください。\n(Please tidy up the room.)", a:"片付(かたづ)け", opts:["片付(かたづ)け","忘(わす)れ","戻(もど)っ","消(け)し"], sSrc:"Please tidy up the room.",
      hint:"The て-form of the verb meaning to clean up or put things away."},
 
-    {type:"mc", q:"戻(もど)る means:", opts:["To return to a previous place","To open something","To forget","To hand over"], ans:"To return to a previous place",
+    {type:"mc", q:"戻(もど)る means:", opts:["To forget","To hand over","To return to a previous place","To open something"], ans:"To return to a previous place",
      hint:"This verb emphasizes physically going back to where you were."}
   ,{type:"match",pairs:[{trg:"触(さわ)る",src:"to touch"},{trg:"戻(もど)る",src:"to return / to go back"},{trg:"渡(わた)す",src:"to hand over / to pass"},{trg:"残(のこ)る",src:"to remain / to stay behind"},{trg:"覚(おぼ)える",src:"to memorize / to remember"}]},
   {type:"fb", s:"暑(あつ)いので窓(まど)を{1}てください。", a:["開(あ)ける"], opts:["開(あ)ける","閉(し)める","付(つ)ける","消(け)す"], hint:"The verb for making a door or window no longer closed.", sSrc:"Please {1} the window because it is hot."},

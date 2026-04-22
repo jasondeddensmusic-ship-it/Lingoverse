@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 07 — Education & Academia
+// B2 Gap Batch B Lesson 07. Education & Academia
 const LESSON_7 = {id:"esv2_b2gB_l7",title:"Educación y mundo académico",icon:"🎓",xp:15,board:true,steps:[
 {type:"intro",title:"Educación y mundo académico",desc:"Master vocabulary for the Spanish education system, academic disciplines, and university life.",goals:["Learn 12 words about education and academia","Discuss academic fields and methods","Navigate the Spanish education system vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_7 = {id:"esv2_b2gB_l7",title:"Educación y mundo académico",icon:"
  funFact:"Spanish universities undergo plan de estudios modifications every few years to meet European standards."},
 
 {type:"mc",q:"¿Qué es una metáfora?",
- opts:["Una comparación implícita entre dos cosas distintas","Una palabra con varios significados","Un error gramatical frecuente","Una regla de ortografía"],
+ opts:["Una regla de ortografía","Una comparación implícita entre dos cosas distintas","Una palabra con varios significados","Un error gramatical frecuente"],
  ans:"Una comparación implícita entre dos cosas distintas",
  hint:"A literary device where you describe one thing using the imagery of another."},
 

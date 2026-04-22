@@ -1,4 +1,4 @@
-// L07: Education & Academia — 20 B2 gap words
+// L07: Education & Academia, 20 B2 gap words
 const LESSON_7 = {
   id:"nlv2_b2g4_l7", title:"Onderwijs en Academie", icon:"\uD83C\uDF93", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_7 = {
      deepDive:{title:"The Dutch grading system",
       text:"The Netherlands uses a 1-10 scale. A 5.5 or higher is a pass. Most professors rarely give a 10, and a 9 is exceptional. The average passing grade is around 6.5-7. Students aim for 'cum laude' (with honors), which usually requires an 8.0 average. The system reflects Dutch directness: grades are not inflated."}},
     {type:"mc", q:"What does 'het examenrooster' mean?",
-     opts:["the exam result","the exam room","the exam schedule","the exam board"],
+     opts:["the exam schedule","the exam board","the exam result","the exam room"],
      ans:"the exam schedule",
      hint:"'Rooster' means both 'grid' and 's...'. It is the timetable for exams."},
     {type:"fb", s:"De {1} beslist over vrijstellingen.", a:["examencommissie"],
@@ -118,7 +118,7 @@ const LESSON_7 = {
      hint:"The board that governs exam rules and exemptions at a university.",
      sSrc:"The examination board decides on exemptions."},
     {type:"mc", q:"Which Dutch word means 'practitioner'?",
-     opts:["beoefenaar","beginner","doctorandus","basistechniek"],
+     opts:["basistechniek","beoefenaar","beginner","doctorandus"],
      ans:"beoefenaar",
      hint:"From the verb 'beoefenen', meaning to practice or pursue an activity."},
     {type:"fb", s:"In het Nederlandse onderwijs zijn natuur en techniek de {1} vakken.", a:["exacte"],

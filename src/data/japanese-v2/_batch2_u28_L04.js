@@ -79,7 +79,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"抱(いだ)く",src:"to harbor (feelings)"},{trg:"佇(たたず)む",src:"to stand motionless"},{trg:"綴(つづ)る",src:"to compose (literary)"},{trg:"囁(ささや)く",src:"to whisper"}]},
 
-    {type:"mc", q:"佇(たたず)む in literature suggests:", opts:["Running quickly","Standing motionless in contemplation","Sitting casually","Walking briskly"], ans:"Standing motionless in contemplation",
+    {type:"mc", q:"佇(たたず)む in literature suggests:", opts:["Walking briskly","Running quickly","Standing motionless in contemplation","Sitting casually"], ans:"Standing motionless in contemplation",
      hint:"This literary verb implies emotional depth and reflection, not just physical stillness."},
   ]
 };

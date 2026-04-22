@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Che cos'e il 'framing' nella comunicazione mediatica?",
-     opts:["L'inquadratura fotografica di un'immagine","Il modo in cui un'informazione viene presentata per influenzarne l'interpretazione","La cornice di un articolo online","Il formato di un programma televisivo"],
+     opts:["Il modo in cui un'informazione viene presentata per influenzarne l'interpretazione","La cornice di un articolo online","Il formato di un programma televisivo","L'inquadratura fotografica di un'immagine"],
      ans:"Il modo in cui un'informazione viene presentata per influenzarne l'interpretazione",
      hint:"How information is packaged and presented shapes how people understand it. The same facts can lead to opposite conclusions depending on this technique."},
 
@@ -96,7 +96,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Perche l'alfabetizzazione mediatica e importante per i giovani?",
-     opts:["Per diventare giornalisti professionisti","Per saper valutare criticamente le informazioni e distinguere le fonti affidabili","Per imparare a creare contenuti virali","Per evitare completamente i social media"],
+     opts:["Per evitare completamente i social media","Per diventare giornalisti professionisti","Per saper valutare criticamente le informazioni e distinguere le fonti affidabili","Per imparare a creare contenuti virali"],
      ans:"Per saper valutare criticamente le informazioni e distinguere le fonti affidabili",
      hint:"In an era of overwhelming information, the ability to evaluate what you read, see, and hear critically is essential. Not avoiding media, but engaging with it wisely."}
   ]

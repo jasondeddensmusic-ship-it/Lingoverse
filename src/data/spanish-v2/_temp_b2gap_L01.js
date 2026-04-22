@@ -118,13 +118,13 @@ const LESSON_1 = {id:"esv2_b2gap_l1",title:"Ciudadanos y sociedad",icon:"🏛️
 
 {type:"fb",s:"La {1} del poder es un tema polémico en España.",a:["centralización"],opts:["centralización","ciudadanía","aspiración","aprobación"],hint:"The process of concentrating control in one central place.",sSrc:"The {1} of power is a controversial topic in Spain."},
 
-{type:"mc",q:"¿Qué es el clero?",opts:["El conjunto de religiosos","Un tipo de gobierno","Una asamblea política","Un edificio público"],ans:"El conjunto de religiosos",hint:"Think about priests, bishops, and other religious figures."},
+{type:"mc",q:"¿Qué es el clero?",opts:["Una asamblea política","Un edificio público","El conjunto de religiosos","Un tipo de gobierno"],ans:"El conjunto de religiosos",hint:"Think about priests, bishops, and other religious figures."},
 
 {type:"match",pairs:[{trg:"ciudadano",src:"citizen"},{trg:"consenso",src:"consensus"},{trg:"asamblea",src:"assembly"},{trg:"censo",src:"census"},{trg:"clero",src:"clergy"}]},
 
 {type:"fb",s:"Los {1} compitieron durante tres semanas en televisión.",a:["concursantes"],opts:["concursantes","aspirantes","ciudadanos","caudillos"],hint:"People who take part in a TV competition show.",sSrc:"The {1} competed for three weeks on television."},
 
-{type:"mc",q:"¿Qué necesitas para votar en España?",opts:["Estar inscrito en el censo electoral","Ser miembro del clero","Tener una acreditación universitaria","Pertenecer a una asamblea"],ans:"Estar inscrito en el censo electoral",hint:"You must be officially registered in the population count."}
+{type:"mc",q:"¿Qué necesitas para votar en España?",opts:["Ser miembro del clero","Tener una acreditación universitaria","Pertenecer a una asamblea","Estar inscrito en el censo electoral"],ans:"Estar inscrito en el censo electoral",hint:"You must be officially registered in the population count."}
 ]};
 
 export default LESSON_1;

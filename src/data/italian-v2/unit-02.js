@@ -76,7 +76,7 @@ const UNIT_02 = {
        funFact:"'Grazie mille' (a thousand thanks) uses the singular mille. For the year 2000, Italians say 'Duemila' with the irregular plural mila."},
 
       {type:"tip", title:"Asking Questions in Italian",
-       text:"Italian questions are simpler than English: just raise your intonation. No do/does needed.\n\nParli italiano? (Do you speak Italian?) — same word order, different intonation.\n\nQuestion words:\nChi? — Who? Chi e? (Who is it?)\nChe cosa? / Cosa? — What? Cosa fai? (What are you doing?)\nDove? — Where? Dove abiti? (Where do you live?)\nQuando? — When? Quando parti? (When do you leave?)\nPerche? — Why? Also means 'because' in answers.\nCome? — How? Come stai? (How are you?)\nQuanto/a? — How much? Quanto costa? (How much does it cost?)\nQuali/Quale? — Which? Quale preferisci?\n\nNote: perche means both 'why' and 'because' depending on position.",
+       text:"Italian questions are simpler than English: just raise your intonation. No do/does needed.\n\nParli italiano? (Do you speak Italian?), same word order, different intonation.\n\nQuestion words:\nChi?. Who? Chi e? (Who is it?)\nChe cosa? / Cosa?. What? Cosa fai? (What are you doing?)\nDove?. Where? Dove abiti? (Where do you live?)\nQuando?. When? Quando parti? (When do you leave?)\nPerche?. Why? Also means 'because' in answers.\nCome?. How? Come stai? (How are you?)\nQuanto/a?. How much? Quanto costa? (How much does it cost?)\nQuali/Quale?. Which? Quale preferisci?\n\nNote: perche means both 'why' and 'because' depending on position.",
        icon:"💡",
        deepDive:{title:"Question formation and word order",
         text:"Italian does not invert subject and verb for questions the way English does. 'Parli italiano?' and 'Tu parli italiano?' are both correct questions. The question mark at the end (or rising intonation in speech) is what signals a question. More formal or precise questions use a question word at the start: 'Dove abiti?' (Where do you live?). With 'perche,' the same word serves as both the question (perche studi?) and the connector in the answer (perche voglio imparare). French works the same way: pourquoi/parce que. Italian keeps it simpler with one word."}},
@@ -293,7 +293,7 @@ const UNIT_02 = {
        sSrc:"What is your {1} of birth?"},
 
       {type:"mc", q:"What is the Italian term for the @ symbol?",
-       opts:["la chiocciola","il punto","la virgola","il trattino"],
+       opts:["il trattino","la chiocciola","il punto","la virgola"],
        ans:"la chiocciola",
        hint:"This symbol is named after a small garden creature with a spiral shell. Much more poetic than the English name."},
 
@@ -304,7 +304,7 @@ const UNIT_02 = {
        sSrc:"My {1} is marco.rossi@esempio.it."},
 
       {type:"mc", q:"On Italian official forms, which name field comes FIRST?",
-       opts:["Il cognome (surname)","Il nome (first name)","La firma (signature)","La data (date)"],
+       opts:["La firma (signature)","La data (date)","Il cognome (surname)","Il nome (first name)"],
        ans:"Il cognome (surname)",
        hint:"Italian forms reverse the English order. The family name appears before the given name on all official documents."},
     ]},
@@ -346,13 +346,13 @@ const UNIT_02 = {
        funFact:"'Parlare' comes from Late Latin 'parabolare,' meaning to speak in parables. The same root gives French 'parler' and Spanish 'hablar' (via a different path). Italian and French kept the Latin form almost intact."},
 
       {type:"tip", title:"Italian Subject Pronouns: Optional but Useful",
-       text:"Italian is a pro-drop language: the verb ending already shows who is acting.\nio parlo — I speak (the -o tells you it's io)\nlui parla — he speaks (the -a tells you it's lei/lui)\n\nSo Italians often drop the pronoun:\nParli italiano? (Do you speak Italian?) — the -i ending = tu.\n\nUse the pronoun when you want to:\n- Contrast: Io lavoro, lui studia. (I work, HE studies.)\n- Clarify: Lei parla inglese? (Does SHE speak English?)\n- Emphasize: Voi lavorare molto! (YOU all work a lot!)\n\nKey pronoun summary:\nio — I | tu — you (sing.) | lui — he | lei — she\nnoi — we | voi — you (pl.) | loro — they",
+       text:"Italian is a pro-drop language: the verb ending already shows who is acting.\nio parlo. I speak (the -o tells you it's io)\nlui parla, he speaks (the -a tells you it's lei/lui)\n\nSo Italians often drop the pronoun:\nParli italiano? (Do you speak Italian?), the -i ending = tu.\n\nUse the pronoun when you want to:\n- Contrast: Io lavoro, lui studia. (I work, HE studies.)\n- Clarify: Lei parla inglese? (Does SHE speak English?)\n- Emphasize: Voi lavorare molto! (YOU all work a lot!)\n\nKey pronoun summary:\nio. I | tu, you (sing.) | lui, he | lei, she\nnoi, we | voi, you (pl.) | loro, they",
        icon:"💡",
        deepDive:{title:"When to use subject pronouns in Italian",
-        text:"In languages like Spanish, French, and Italian (called pro-drop languages), subject pronouns are optional because the verb conjugation encodes the subject. Italian verbs have six distinct endings for the six persons, making the pronoun redundant. However, pronouns appear in three situations: (1) Contrastive focus: 'Io lavoro, tu studi' — the contrast is the whole point. (2) Disambiguation: 'lui parla' vs. 'lei parla' both share the -a ending, so the pronoun clarifies gender. (3) Formal contexts: written Italian and careful speech retain pronouns more often. The pronoun 'loro' for third-person plural is increasingly replaced by 'loro lavorano' being shortened to just the conjugated verb in casual speech."}},
+        text:"In languages like Spanish, French, and Italian (called pro-drop languages), subject pronouns are optional because the verb conjugation encodes the subject. Italian verbs have six distinct endings for the six persons, making the pronoun redundant. However, pronouns appear in three situations: (1) Contrastive focus: 'Io lavoro, tu studi', the contrast is the whole point. (2) Disambiguation: 'lui parla' vs. 'lei parla' both share the -a ending, so the pronoun clarifies gender. (3) Formal contexts: written Italian and careful speech retain pronouns more often. The pronoun 'loro' for third-person plural is increasingly replaced by 'loro lavorano' being shortened to just the conjugated verb in casual speech."}},
 
       {type:"teach", trg:"facile", src:"easy", pos:"adj", gender:null,
-       note:"Adjective ending in -e: same form for masculine and feminine singular.\nFacile/facile (m./f. sing.) — facili/facili (m./f. pl.).",
+       note:"Adjective ending in -e: same form for masculine and feminine singular.\nFacile/facile (m./f. sing.), facili/facili (m./f. pl.).",
        example:"A: E difficile parlare italiano?\nB: No, e facile! Le parole sono interessanti.",
        exampleSrc:"A: Is it difficult to speak Italian?\nB: No, it is easy! The words are interesting.",
        funFact:"Italian adjectives ending in -e (not -o/-a) are invariable for gender: un libro facile, una lezione facile. Only the plural changes: libri facili, lezioni facili. This is one of the few places Italian grammar is simpler than Spanish."},
@@ -379,7 +379,7 @@ const UNIT_02 = {
        note:"Invariable adverb. Placed at start or mid-sentence.\nForse + present tense = maybe it is so. Forse + future = maybe it will happen.",
        example:"A: Lui lavora all'università?\nB: Forse. Non sono sicuro.",
        exampleSrc:"A: Does he work at the university?\nB: Maybe. I am not sure.",
-       funFact:"'Forse' comes from Latin 'forsitan' (perhaps, it may be). In formal or literary Italian, you might see 'forse' doubled for emphasis — 'forse forse' — meaning 'quite possibly' or 'I really think so, but I'm not sure.' Very expressive!"},
+       funFact:"'Forse' comes from Latin 'forsitan' (perhaps, it may be). In formal or literary Italian, you might see 'forse' doubled for emphasis, 'forse forse', meaning 'quite possibly' or 'I really think so, but I'm not sure.' Very expressive!"},
 
       {type:"mc", q:"Come si dice 'he' in italiano?",
        opts:["lui","voi","loro","io"],
@@ -387,7 +387,7 @@ const UNIT_02 = {
        hint:"This pronoun refers to a single male person. It shares its first letter with the English word 'him.'"},
 
       {type:"mc", q:"Which pronoun means 'you (plural)' when addressing a group?",
-       opts:["voi","loro","lui","si"],
+       opts:["si","voi","loro","lui"],
        ans:"voi",
        hint:"This is the pronoun used to address multiple people informally. In Italian restaurants, the server uses this when talking to a table of guests."},
 
@@ -417,12 +417,12 @@ const UNIT_02 = {
        sSrc:"They {1} at the university."},
 
       {type:"mc", q:"Which Italian adjective means 'easy'?",
-       opts:["facile","difficile","interessante","bene"],
+       opts:["interessante","bene","facile","difficile"],
        ans:"facile",
        hint:"Think of 'facility' in English, meaning ease or the ability to do something without effort. Same Latin root."},
 
       {type:"mc", q:"How does the adjective 'interessante' change for a feminine noun?",
-       opts:["It stays the same (interessante)","It becomes interessanta","It becomes interessanti","It becomes interessa"],
+       opts:["It becomes interessanta","It becomes interessanti","It becomes interessa","It stays the same (interessante)"],
        ans:"It stays the same (interessante)",
        hint:"Italian adjectives ending in -e are invariable for gender in the singular. Only the plural form changes. Think of the -e class: one form covers both masculine and feminine."},
 
@@ -452,7 +452,7 @@ const UNIT_02 = {
        sSrc:"You (all) {1} Italian well!"},
 
       {type:"mc", q:"How do you say 'maybe' in Italian?",
-       opts:["forse","bene","anche","molto"],
+       opts:["molto","forse","bene","anche"],
        ans:"forse",
        hint:"This adverb expresses uncertainty. It is placed at the beginning or middle of a sentence. Think of 'perhaps' and its role in conversation."},
     ]},

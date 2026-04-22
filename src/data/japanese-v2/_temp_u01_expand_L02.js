@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: I passed the Japanese exam!\nB: Amazing! Congratulations!",
      funFact:"Sugoi originally meant 'terrifying/dreadful' and shifted to mean 'amazing/incredible.' This positive drift happened gradually. Young people use it for everything: sugoi oishii (super delicious), sugoi kawaii (super cute)."},
 
-    {type:"mc", q:"そうですか expresses:", opts:["Disagreement","Acknowledgment of information","An apology","A greeting"], ans:"Acknowledgment of information",
+    {type:"mc", q:"そうですか expresses:", opts:["Acknowledgment of information","An apology","A greeting","Disagreement"], ans:"Acknowledgment of information",
      hint:"This phrase shows you heard and are processing what someone told you."},
 
     {type:"teach", trg:"たいへんですね", src:"that must be tough / that's rough", pos:"intj", gender:null,
@@ -116,13 +116,13 @@ const LESSON_4 = {
      hint:"The warm response when someone shares happy news with you.",
      sSrc:"When hearing good news, you say {1}."},
 
-    {type:"mc", q:"だいじょうぶです can mean all EXCEPT:", opts:["I'm fine","No thank you","It's okay","Hello"], ans:"Hello",
+    {type:"mc", q:"だいじょうぶです can mean all EXCEPT:", opts:["No thank you","It's okay","Hello","I'm fine"], ans:"Hello",
      hint:"This versatile phrase covers reassurance, refusal, and confirming well-being, but not greetings."},
 
-    {type:"mc", q:"Which response shows sympathy for bad news?", opts:["すごい","なるほど","ざんねんですね","そうですね"], ans:"ざんねんですね",
+    {type:"mc", q:"Which response shows sympathy for bad news?", opts:["そうですね","すごい","なるほど","ざんねんですね"], ans:"ざんねんですね",
      hint:"The phrase containing the word for 'regrettable.'"},
 
-    {type:"mc", q:"まじですか is:", opts:["Very formal","Casual disbelief","A greeting","An apology"], ans:"Casual disbelief",
+    {type:"mc", q:"まじですか is:", opts:["Casual disbelief","A greeting","An apology","Very formal"], ans:"Casual disbelief",
      hint:"This slang expression from 1980s youth culture means 'seriously?'"},
   ]
 };

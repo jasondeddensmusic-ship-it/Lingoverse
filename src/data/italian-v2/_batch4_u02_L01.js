@@ -1,4 +1,4 @@
-// Batch 4 — Unit 02, Lesson 1: Ordinal Numbers & Dates
+// Batch 4. Unit 02, Lesson 1: Ordinal Numbers & Dates
 const BATCH4_U02_L1 = {
   id:"itv2_u02l_b4_1", title:"Primo, secondo, terzo", icon:"\uD83D\uDCC5", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U02_L1 = {
     ]},
 
     {type:"mc", q:"Quale mese prende il nome da Giulio Cesare?",
-     opts:["Luglio","Agosto","Giugno","Marzo"],
+     opts:["Marzo","Luglio","Agosto","Giugno"],
      ans:"Luglio",
      hint:"Julius Caesar's first name 'Julius' becomes 'Giulio' in Italian."},
 
@@ -120,7 +120,7 @@ const BATCH4_U02_L1 = {
      sSrc:"I live on the {1} floor, not the second."},
 
     {type:"mc", q:"Come si scrive la data in italiano?",
-     opts:["Giorno/mese/anno","Mese/giorno/anno","Anno/mese/giorno","Mese/anno/giorno"],
+     opts:["Anno/mese/giorno","Mese/anno/giorno","Giorno/mese/anno","Mese/giorno/anno"],
      ans:"Giorno/mese/anno",
      hint:"Italian format puts the day first, opposite to American English."},
 
@@ -130,7 +130,7 @@ const BATCH4_U02_L1 = {
      sSrc:"Italy almost completely shuts down in mid-{1}."},
 
     {type:"mc", q:"Perche settembre si chiama così?",
-     opts:["Was the 7th month in the Roman calendar","Has seven letters","Was dedicated to a senator","Means harvest month"],
+     opts:["Has seven letters","Was dedicated to a senator","Means harvest month","Was the 7th month in the Roman calendar"],
      ans:"Was the 7th month in the Roman calendar",
      hint:"The prefix 'sette' in Italian means seven, from Latin 'septem.'"}
   ,{type:"match",pairs:[{trg:"febbraio",src:"February"},{trg:"maggio",src:"May"},{trg:"settembre",src:"September"},{trg:"la data",src:"the date"}]}]

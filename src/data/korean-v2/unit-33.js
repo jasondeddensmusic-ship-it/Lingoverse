@@ -1,4 +1,4 @@
-// Korean V2 Unit 33 — A2 Vocabulary Expansion: Travel, Colors & Actions
+// Korean V2 Unit 33. A2 Vocabulary Expansion: Travel, Colors & Actions
 // New unit for TOPIK A-level gap coverage (lessons 13-18)
 // srcLang: English
 

@@ -63,7 +63,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"排出量(はいしゅつりょう)を50%{1}することが目標(もくひょう)です。\n(The goal is to reduce emissions by 50%.)", a:"削減(さくげん)", opts:["削減(さくげん)","増加(ぞうか)","移行(いこう)","排出(はいしゅつ)"], sSrc:"The goal is to reduce emissions by 50%.",
      hint:"The noun meaning reduction or cutback, using kanji for shave and decrease."},
 
-    {type:"mc", q:"ざるをえない expresses:", opts:["Reluctant necessity (no choice but to)","Strong desire to do something","Polite refusal","Happy agreement"], ans:"Reluctant necessity (no choice but to)",
+    {type:"mc", q:"ざるをえない expresses:", opts:["Happy agreement","Reluctant necessity (no choice but to)","Strong desire to do something","Polite refusal"], ans:"Reluctant necessity (no choice but to)",
      hint:"This formal pattern means circumstances force the action, even if it is not preferred."},
 
     {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"原子力(げんしりょく)",src:"nuclear power"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"化石燃料(かせきねんりょう)",src:"fossil fuels"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"現状(げんじょう)を考(かんが)えると、対策(たいさく)を取(と)ら{1}えません。\n(Considering the situation, we have no choice but to take measures.)", a:"ざるを", opts:["ざるを","なくても","ないでも","ずにも"], sSrc:"Considering the situation, we have no choice but to take measures.",
      hint:"The classical negative form + を before 得(え)ない, expressing reluctant necessity."},
 
-    {type:"mc", q:"Japan imports what percentage of its energy resources?", opts:["Over 90%","About 50%","About 25%","Less than 10%"], ans:"Over 90%",
+    {type:"mc", q:"Japan imports what percentage of its energy resources?", opts:["About 25%","Less than 10%","Over 90%","About 50%"], ans:"Over 90%",
      hint:"Japan has minimal domestic fossil fuel reserves, making it heavily dependent on imports."}
   ,{type:"match",pairs:[{trg:"排出量(はいしゅつりょう)",src:"emissions volume / amount of emissions"},{trg:"移行(いこう)",src:"transition / shift / migration"}]}]
 };

@@ -1,4 +1,4 @@
-// L01: Society & Identity — 20 B2 gap words
+// L01: Society & Identity, 20 B2 gap words
 const LESSON_1 = {
   id:"nlv2_b2g3_l1", title:"Maatschappij en Identiteit", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_1 = {
      deepDive:{title:"The linking 's' in compounds",
       text:"The linking 's' (tussenletter) follows patterns:\n\nAfter -ing: bevolking-s-samenstelling\nAfter -heid: eensgezind-heid (no extra link needed)\nAfter -atie: emancipatie-beleid (no 's' after -atie usually)\n\nSome compounds take an 'en' link instead: vrouw-en-emancipatie. There is no single rule that covers all cases, which is why native speakers sometimes disagree about the correct form."}},
     {type:"mc", q:"Het woord 'allochtoon' wordt niet meer officieel gebruikt. Waarom?",
-     opts:["Het is te kort","Het wordt als beledigend ervaren","Het is te moeilijk uit te spreken","Het is een Duits woord"],
+     opts:["Het wordt als beledigend ervaren","Het is te moeilijk uit te spreken","Het is een Duits woord","Het is te kort"],
      ans:"Het wordt als beledigend ervaren",
      hint:"The word was replaced because it was seen as labeling people. Think about why language changes."},
     {type:"fb", s:"De {1} van Amsterdam is heel divers.", a:["bevolkingssamenstelling"],

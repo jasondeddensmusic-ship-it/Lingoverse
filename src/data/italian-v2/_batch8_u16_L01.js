@@ -1,4 +1,4 @@
-// Batch 8 — Unit 16 extra lesson. Advanced Health: Mental Health & Wellness
+// Batch 8. Unit 16 extra lesson. Advanced Health: Mental Health & Wellness
 const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:15, board:true, steps:[
 {type:"intro", title:"Salute mentale",
  desc:"Learn vocabulary for discussing mental health, well-being, and self-care in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:
 
 {type:"mc",
  q:"What did Italy introduce in 2022 for mental health?",
- opts:["A bonus psicologo (psychology bonus) of up to 600 euros","Free yoga classes","Mandatory meditation at work","A mental health holiday"],
+ opts:["A mental health holiday","A bonus psicologo (psychology bonus) of up to 600 euros","Free yoga classes","Mandatory meditation at work"],
  ans:"A bonus psicologo (psychology bonus) of up to 600 euros",
  hint:"A financial subsidy to help citizens afford psychologist sessions. It reflects changing attitudes toward mental health."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u16l_b8_1", title:"Salute mentale", icon:"🧘", xp:
 
 {type:"mc",
  q:"What does 'sfogo' mean besides emotional venting?",
- opts:["A skin rash or breakout","A vacation","A deep sleep","A type of exercise"],
+ opts:["A deep sleep","A type of exercise","A skin rash or breakout","A vacation"],
  ans:"A skin rash or breakout",
  hint:"Italians believe that stress manifests physically. The same word for emotional release also describes a s... condition."}
 ,{type:"match",pairs:[{trg:"sfogare",src:"to vent / to let out"},{trg:"la meditazione",src:"the meditation"}]}]};

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 04, Lesson 1: Italian Desserts & Sweet Treats
+// Batch 4. Unit 04, Lesson 1: Italian Desserts & Sweet Treats
 const BATCH4_U04_L1 = {
   id:"itv2_u04l_b4_1", title:"I dolci", icon:"\uD83C\uDF70", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U04_L1 = {
     ]},
 
     {type:"mc", q:"Qual e la capitale italiana del cioccolato?",
-     opts:["Torino","Roma","Napoli","Firenze"],
+     opts:["Firenze","Torino","Roma","Napoli"],
      ans:"Torino",
      hint:"This northern city is home to Ferrero and the gianduia tradition."},
 
@@ -120,7 +120,7 @@ const BATCH4_U04_L1 = {
      sSrc:"Can I {1} the ice cream before buying it?"},
 
     {type:"mc", q:"Cosa significa 'amaro' in italiano?",
-     opts:["Bitter","Sweet","Sour","Spicy"],
+     opts:["Sour","Spicy","Bitter","Sweet"],
      ans:"Bitter",
      hint:"This word is also the name of a category of Italian herbal liqueurs."},
 
@@ -130,7 +130,7 @@ const BATCH4_U04_L1 = {
      sSrc:"Grandma's cake is {1}! The best!"},
 
     {type:"mc", q:"Cosa significa 'biscotto' letteralmente?",
-     opts:["Twice-cooked","Sweet bread","Little bite","Round cake"],
+     opts:["Sweet bread","Little bite","Round cake","Twice-cooked"],
      ans:"Twice-cooked",
      hint:"The prefix 'bis-' means t..., and 'cotto' means c...."}
   ,{type:"match",pairs:[{trg:"il tiramisu",src:"the tiramisu"},{trg:"il cioccolato",src:"the chocolate"},{trg:"dolce",src:"sweet / dessert"},{trg:"amaro",src:"bitter"},{trg:"la fragola",src:"the strawberry"},{trg:"la pasticceria",src:"the pastry shop / bakery"}]},{type:"match",pairs:[{trg:"squisito",src:"delicious / exquisite"}]}]

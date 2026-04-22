@@ -40,7 +40,7 @@ const LESSON_27 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"도시의 반대 개념으로, 공기가 맑고 조용한 곳은?",
-     opts:["시내","동네","골목","시골"],
+     opts:["시골","시내","동네","골목"],
      ans:"시골",
      hint:"This word describes the rural area outside cities, where nature is closer and life is quieter."},
 
@@ -131,7 +131,7 @@ const LESSON_27 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'역 부근에 가게가 많아요'에서 '부근'은?",
-     opts:["역 근처에","역 안에","역에서 먼 곳","역 반대편에"],
+     opts:["역 반대편에","역 근처에","역 안에","역에서 먼 곳"],
      ans:"역 근처에",
      hint:"This Sino-Korean word means the area nearby or in the vicinity of something. Close, not far."},
 
@@ -176,7 +176,7 @@ const LESSON_27 = {
     // --- Quiz batch 4 ---
     {type:"mc",
      q:"'농촌'과 '농사'와 '농업'에 공통으로 들어 있는 한자는?",
-     opts:["事 (일)","農 (농)","村 (마을)","業 (업)"],
+     opts:["業 (업)","事 (일)","農 (농)","村 (마을)"],
      ans:"農 (농)",
      hint:"All three words share a hanja character that relates to cultivating crops and working the land."},
 

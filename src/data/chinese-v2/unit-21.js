@@ -56,7 +56,7 @@ lessons:[
  funFact:"China has seven official public holidays totaling about 29 days off per year, but some are created by swapping with weekends, so workers sometimes have to work on Saturdays or Sundays to compensate. This system is called 调休(tiáoxiū), adjusted rest."},
 
 {type:"mc", q:"Which festival involves eating 月饼(yuèbǐng) and viewing the moon?",
- opts:["春节(Chūnjié)","中秋节(Zhōngqiūjié)","端午节(Duānwǔjié)","元宵节(Yuánxiāojié)"],
+ opts:["中秋节(Zhōngqiūjié)","端午节(Duānwǔjié)","元宵节(Yuánxiāojié)","春节(Chūnjié)"],
  ans:"中秋节(Zhōngqiūjié)",
  hint:"This festival falls in mid-autumn. Its name literally contains the characters for 'middle' and 'autumn.'"},
 
@@ -76,7 +76,7 @@ lessons:[
  sSrc:"During New Year, grandpa gave me a {1}."},
 
 {type:"mc", q:"饺子(jiǎozi) are especially associated with Spring Festival because:",
- opts:["They are shaped like ancient gold ingots, symbolizing wealth","They are made from rice, the symbol of spring","They are the cheapest food available","They were invented during Spring Festival"],
+ opts:["They were invented during Spring Festival","They are shaped like ancient gold ingots, symbolizing wealth","They are made from rice, the symbol of spring","They are the cheapest food available"],
  ans:"They are shaped like ancient gold ingots, symbolizing wealth",
  hint:"The crescent shape of these dumplings resembles something valuable from ___ China, and the name sounds ___ an old word for currency."},
 
@@ -143,7 +143,7 @@ lessons:[
  sSrc:"Eating dumplings is a Spring Festival {1}."},
 
 {type:"mc", q:"文化(wénhuà) literally means:",
- opts:["transformation through writing/learning","old stories","festival traditions","family customs"],
+ opts:["family customs","transformation through writing/learning","old stories","festival traditions"],
  ans:"transformation through writing/learning",
  hint:"文 relates to … and patterns, while 化 means … or change."},
 
@@ -154,7 +154,7 @@ lessons:[
  sSrc:"I have already gotten {1} to life in China."},
 
 {type:"mc", q:"我们(wǒmen)怎么(zěnme)庆祝(qìngzhù)你(nǐ)的(de)生日(shēngrì)？ This asks:",
- opts:["How shall we celebrate your birthday?","When is your birthday?","Where is the birthday party?","Do you want a birthday gift?"],
+ opts:["Where is the birthday party?","Do you want a birthday gift?","How shall we celebrate your birthday?","When is your birthday?"],
  ans:"How shall we celebrate your birthday?",
  hint:"怎么 asks 'how,' and 庆祝 means 'to ___.' The question is about the method of celebration."},
 
@@ -201,7 +201,7 @@ lessons:[
   text:"Much of Chinese social behavior revolves around 面子(miànzi), or 'face.' Face is your social reputation, dignity, and standing.\n\nGiving face: praising someone publicly, showing respect.\nLosing face: embarrassment, being corrected publicly.\nSaving face: avoiding direct confrontation.\n\nGift-giving, hosting guests, and polite refusals all connect to face. When a host insists you eat more, declining too quickly could make them lose face (suggesting their food is not good). Accepting after polite resistance gives both sides face."}},
 
 {type:"mc", q:"In Chinese culture, when should you open a gift?",
- opts:["Immediately in front of the giver","Later, in private","Only if the giver asks you to","After saying thank you three times"],
+ opts:["Later, in private","Only if the giver asks you to","After saying thank you three times","Immediately in front of the giver"],
  ans:"Later, in private",
  hint:"Chinese etiquette differs from Western customs here. Opening a gift right away could seem greedy or create awkwardness."},
 
@@ -219,7 +219,7 @@ lessons:[
  sSrc:"When visiting someone's home, you should bring a {1}."},
 
 {type:"mc", q:"热闹(rènao) describes:",
- opts:["A lively, energetic atmosphere","A quiet, peaceful atmosphere","A sad, lonely atmosphere","A dangerous, chaotic atmosphere"],
+ opts:["A dangerous, chaotic atmosphere","A lively, energetic atmosphere","A quiet, peaceful atmosphere","A sad, lonely atmosphere"],
  ans:"A lively, energetic atmosphere",
  hint:"This word combines 'hot' and 'noisy.' In Chinese culture, this kind of ___ is always positive and festive."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"We should {1} every country's traditions."},
 
 {type:"mc", q:"家(jiā)里(lǐ)来(lái)了(le)客人(kèrén)。 What happened?",
- opts:["Guests came to the house","The family went out","The house became empty","The guests left"],
+ opts:["The house became empty","The guests left","Guests came to the house","The family went out"],
  ans:"Guests came to the house",
  hint:"来了 means '___.' 客人 means '___.' The sentence describes visitors arriving at someone's home."},
 
@@ -292,7 +292,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"In Chinese culture, 龙(lóng) represents:",
- opts:["Power and good fortune","Danger and destruction","Fire and war","Fear and darkness"],
+ opts:["Fire and war","Fear and darkness","Power and good fortune","Danger and destruction"],
  ans:"Power and good fortune",
  hint:"Unlike Western mythology, the Chinese version of this creature is a positive, benevolent symbol associated with water and prosperity."},
 
@@ -303,7 +303,7 @@ lessons:[
  sSrc:"Many {1} came to the house today."},
 
 {type:"mc", q:"春节(Chūnjié)放假(fàngjià)几天(jǐtiān)？ This asks:",
- opts:["How many days off for Spring Festival?","When is Spring Festival?","Where do you go for Spring Festival?","How do you celebrate Spring Festival?"],
+ opts:["When is Spring Festival?","Where do you go for Spring Festival?","How do you celebrate Spring Festival?","How many days off for Spring Festival?"],
  ans:"How many days off for Spring Festival?",
  hint:"几天 asks 'how ___ ___,' and 放假 means 'to have holiday.' The question is about the length of the break."},
 

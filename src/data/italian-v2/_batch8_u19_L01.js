@@ -1,4 +1,4 @@
-// Batch 8 — Unit 19 extra lesson. Emotions: Complex Emotional States
+// Batch 8. Unit 19 extra lesson. Emotions: Complex Emotional States
 const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭", xp:15, board:true, steps:[
 {type:"intro", title:"Emozioni complesse",
  desc:"Learn vocabulary for nuanced and complex emotional states that go beyond basic feelings.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"mc",
  q:"What does 'imbarazzo della scelta' mean?",
- opts:["Having too many good options to choose from","Being embarrassed at a restaurant","Making the wrong choice","Having no options"],
+ opts:["Having no options","Having too many good options to choose from","Being embarrassed at a restaurant","Making the wrong choice"],
  ans:"Having too many good options to choose from",
  hint:"It is a positive expression. The 'embarrassment' comes from abundance, not from mistakes."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
 
 {type:"mc",
  q:"What unusual second meaning does 'gelosia' have?",
- opts:["A type of window shutter","A type of gemstone","A musical instrument","A cooking technique"],
+ opts:["A musical instrument","A cooking technique","A type of window shutter","A type of gemstone"],
  ans:"A type of window shutter",
  hint:"The slatted shutters let you peek outside without being seen, like a jealous person spying."}
-,{type:"match",pairs:[{trg:"la gratitudine",src:"the gratitude"}]},{type:"mc",q:"How do you say \"enthusiasm\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'entusiasmo"],ans:"l'entusiasmo",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"embarrassment\" in Italian?",opts:["la finestra","il tavolo","l'imbarazzo","la bicicletta"],ans:"l'imbarazzo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"la gratitudine",src:"the gratitude"}]},{type:"mc",q:"How do you say \"enthusiasm\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'entusiasmo"],ans:"l'entusiasmo",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"embarrassment\" in Italian?",opts:["l'imbarazzo","la bicicletta","la finestra","il tavolo"],ans:"l'imbarazzo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

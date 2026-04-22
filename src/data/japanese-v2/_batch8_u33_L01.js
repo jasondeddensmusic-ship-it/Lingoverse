@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"小説(しょうせつ)",src:"novel"},{trg:"物語(ものがたり)",src:"story/tale"},{trg:"伏線(ふくせん)",src:"foreshadowing"},{trg:"どんでんがえし",src:"plot twist"},{trg:"余韻(よいん)",src:"lingering impression"}],
      hint:"Match each literary term with its English meaning."},
 
-    {type:"mc", q:"What does 行間(ぎょうかん)を読(よ)む mean?", opts:["To read between the lines","To read very quickly","To read aloud","To read backwards"], ans:"To read between the lines",
+    {type:"mc", q:"What does 行間(ぎょうかん)を読(よ)む mean?", opts:["To read backwards","To read between the lines","To read very quickly","To read aloud"], ans:"To read between the lines",
      hint:"This skill is essential in Japanese high-context communication and literature."},
 
     {type:"fb", s:"作文(さくぶん)は{1}で書(か)きましょう。\n(Let us write essays in four-part structure.)", a:"起承転結(きしょうてんけつ)", opts:["起承転結(きしょうてんけつ)","比喩(ひゆ)","抒情(じょじょう)","行間(ぎょうかん)"], sSrc:"Let us write essays in four-part structure.",
      hint:"This traditional structure has four parts: introduction, development, turn, conclusion."},
 
-    {type:"mc", q:"What is 余韻(よいん) in Japanese aesthetics?", opts:["The lingering emotional impression after an experience","The opening scene of a story","A type of poetry","A writing technique"], ans:"The lingering emotional impression after an experience",
+    {type:"mc", q:"What is 余韻(よいん) in Japanese aesthetics?", opts:["A type of poetry","A writing technique","The lingering emotional impression after an experience","The opening scene of a story"], ans:"The lingering emotional impression after an experience",
      hint:"Great art leaves a resonance that keeps reverberating in the mind long after you have finished it."}
   ,{type:"match",pairs:[{trg:"比喩(ひゆ)",src:"metaphor / figure of speech"},{trg:"主人公(しゅじんこう)",src:"protagonist / main character"},{trg:"行間(ぎょうかん)を読(よ)む",src:"to read between the lines"},{trg:"展開(てんかい)",src:"development / unfolding / progression (of a story)"},{trg:"抒情(じょじょう)",src:"lyricism / emotional expression / pathos"},{trg:"はいく",src:"haiku (17-syllable poem)"}]}]
 };

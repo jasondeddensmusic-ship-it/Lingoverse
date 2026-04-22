@@ -1,4 +1,4 @@
-// Batch 4 — Unit 01 Lesson 1: Classroom Japanese
+// Batch 4. Unit 01 Lesson 1: Classroom Japanese
 const BATCH4_L_1 = {
   id:"jav2_u01l_b4_1", title:"教室(きょうしつ)", icon:"🏫", xp:15, board:true,
   steps:[
@@ -104,7 +104,7 @@ const BATCH4_L_1 = {
      hint:"You want to borrow something from someone."},
 
     {type:"mc", q:"教室(きょうしつ) means:",
-     opts:["classroom","library","gym","cafeteria"], ans:"classroom",
+     opts:["gym","cafeteria","classroom","library"], ans:"classroom",
      hint:"A room where teaching takes place in school."},
 
     {type:"fb", s:"明日(あした)の{1}は難(むずか)しいです。", a:"試験(しけん)",
@@ -120,7 +120,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What does 忘(わす)れる mean?",
-     opts:["to forget","to remember","to study","to teach"], ans:"to forget",
+     opts:["to remember","to study","to teach","to forget"], ans:"to forget",
      hint:"The opposite of memorizing or keeping in mind."},
 
     {type:"fb", s:"毎日(まいにち)日本語(にほんご)を{1}します。", a:"勉強(べんきょう)",

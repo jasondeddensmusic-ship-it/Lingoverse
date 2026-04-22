@@ -1,4 +1,4 @@
-// Lesson 9 — Comercio y economía
+// Lesson 9. Comercio y economía
 const LESSON_9 = {id:"esv2_b2gA_l9", title:"Comercio y economía", icon:"📊", xp:15, board:true, steps:[
 {type:"intro", title:"Comercio y economía", desc:"Navigate the vocabulary of trade, markets, and economic policy at B2 level.", goals:["Learn 15 commerce and economy terms","Discuss trade and market dynamics","Use formal business register"]},
 
@@ -57,7 +57,7 @@ const LESSON_9 = {id:"esv2_b2gA_l9", title:"Comercio y economía", icon:"📊", 
  exampleSrc:"A: The contestant answered all the questions correctly.\nB: He won the ten-thousand-euro prize.",
  funFact:"In legal Spanish, 'concursante' also means a company in bankruptcy proceedings."},
 
-{type:"mc", q:"¿Qué es un 'convenio colectivo'?", opts:["Un acuerdo laboral entre empresarios y sindicatos","Un tipo de contrato individual","Una ley del gobierno","Un acuerdo entre dos amigos"], ans:"Un acuerdo laboral entre empresarios y sindicatos",
+{type:"mc", q:"¿Qué es un 'convenio colectivo'?", opts:["Un acuerdo entre dos amigos","Un acuerdo laboral entre empresarios y sindicatos","Un tipo de contrato individual","Una ley del gobierno"], ans:"Un acuerdo laboral entre empresarios y sindicatos",
  hint:"This agreement is 'collective' because it covers all workers in a sector."},
 
 {type:"fb", s:"El {1} total de la operación asciende a cinco millones.", a:["montante"], opts:["montante","margen","aumento","convenio"],
@@ -94,7 +94,7 @@ const LESSON_9 = {id:"esv2_b2gA_l9", title:"Comercio y economía", icon:"📊", 
  hint:"This compound noun means a raise in salary for workers.",
  sSrc:"The unions negotiated a {1} of three percent."},
 
-{type:"mc", q:"¿Qué es un 'concursante' en un contexto legal?", opts:["Una empresa en proceso de quiebra","Un participante en un juego","Un juez de un concurso","Un abogado especializado"], ans:"Una empresa en proceso de quiebra",
+{type:"mc", q:"¿Qué es un 'concursante' en un contexto legal?", opts:["Un juez de un concurso","Un abogado especializado","Una empresa en proceso de quiebra","Un participante en un juego"], ans:"Una empresa en proceso de quiebra",
  hint:"In legal Spanish, 'concurso de acreedores' means bankruptcy proceedings."},
 
 {type:"drag_fill", s:"El {1} identificó al {2} del incendio forestal.", blanks:{"1":"conductor","2":"causante"}, pool:["conductor","causante","concursante","montante"],

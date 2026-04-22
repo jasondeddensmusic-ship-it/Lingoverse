@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: Would you like a refill?\nB: Yes, please.",
      funFact:"Many Japanese restaurants offer free gohan (rice) and miso soup refills. Just say 'okawari kudasai.' At ramen shops, you can order kaedama (extra noodles added to your remaining broth). Free tea and water refills are standard everywhere."},
 
-    {type:"mc", q:"おすすめはなんですか means:", opts:["How much is it?","What do you recommend?","What is this?","Is it delicious?"], ans:"What do you recommend?",
+    {type:"mc", q:"おすすめはなんですか means:", opts:["What do you recommend?","What is this?","Is it delicious?","How much is it?"], ans:"What do you recommend?",
      hint:"Osusume is the chef's or staff's recommendation."},
 
     {type:"teach", trg:"べつべつ", src:"separately (split bill)", pos:"adv", gender:null,
@@ -113,7 +113,7 @@ const LESSON_4 = {
     {type:"mc", q:"Tipping in Japan is:", opts:["Expected at 15-20%","Optional but appreciated","Not practiced and considered rude","Only for excellent service"], ans:"Not practiced and considered rude",
      hint:"Japanese service culture includes excellent service in the price."},
 
-    {type:"mc", q:"のみほうだい means:", opts:["No drinking allowed","All-you-can-drink","Drink menu","Last call"], ans:"All-you-can-drink",
+    {type:"mc", q:"のみほうだい means:", opts:["Drink menu","Last call","No drinking allowed","All-you-can-drink"], ans:"All-you-can-drink",
      hint:"Nomi (d...) + houdai (as much as you like) = unlimited drinks for a flat fee."},
   ]
 };

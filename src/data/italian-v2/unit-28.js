@@ -111,12 +111,12 @@ const UNIT_28 = {
        goals:["Describe characters and their roles in a story","Discuss plot structure and narrative twists","Analyze storytelling techniques"]},
 
       {type:"tip", title:"Passato Remoto",
-       text:"Italian has two simple past tenses. Which one you use depends on register and region.\n\nPassato prossimo (compound past): used in northern and central Italy for all past events in everyday speech.\n'Ho mangiato la pizza.' (I ate pizza.) — standard spoken Italian.\n\nPassato remoto (simple past): used in southern Italy in daily speech, and across Italy in writing, literature, history, and formal narrative.\n'Mangiai la pizza.' (I ate pizza.) — literary or southern regional.\n\nIn literature, history, and formal writing, passato remoto dominates regardless of region. When you read Dante, Pirandello, or any Italian novel, you will encounter it constantly.\n\nFormation: remove the infinitive ending, add tense endings:\n-are: -ai, -asti, -o, -ammo, -aste, -arono\n-ere: -ei/-etti, -esti, -e/-ette, -emmo, -este, -erono/-ettero\n-ire: -ii, -isti, -i, -immo, -iste, -irono\n\nMany common verbs are irregular: essere > fui, avere > ebbi, fare > feci, dire > dissi, scrivere > scrissi, venire > venni.",
+       text:"Italian has two simple past tenses. Which one you use depends on register and region.\n\nPassato prossimo (compound past): used in northern and central Italy for all past events in everyday speech.\n'Ho mangiato la pizza.' (I ate pizza.), standard spoken Italian.\n\nPassato remoto (simple past): used in southern Italy in daily speech, and across Italy in writing, literature, history, and formal narrative.\n'Mangiai la pizza.' (I ate pizza.), literary or southern regional.\n\nIn literature, history, and formal writing, passato remoto dominates regardless of region. When you read Dante, Pirandello, or any Italian novel, you will encounter it constantly.\n\nFormation: remove the infinitive ending, add tense endings:\n-are: -ai, -asti, -o, -ammo, -aste, -arono\n-ere: -ei/-etti, -esti, -e/-ette, -emmo, -este, -erono/-ettero\n-ire: -ii, -isti, -i, -immo, -iste, -irono\n\nMany common verbs are irregular: essere > fui, avere > ebbi, fare > feci, dire > dissi, scrivere > scrissi, venire > venni.",
        icon:"💡",
        deepDive:{title:"North vs South: the great tense divide", text:"Italy's north-south split on the passato remoto is one of the most striking regional differences in the language. In Milan or Bologna, 'ieri ho incontrato Marco' (yesterday I met Marco) is natural. In Palermo or Naples, 'ieri incontrai Marco' sounds equally natural.\n\nThe boundary runs roughly through Tuscany. North of Florence, passato prossimo dominates speech. South of Rome, passato remoto is the living spoken tense.\n\nFor learners: learn passato remoto to read literature and understand southern Italian speech. Use passato prossimo in your own spoken Italian unless you are deliberately imitating a literary or southern register."}},
 
       {type:"tip", title:"Trapassato Remoto",
-       text:"The trapassato remoto is Italian's rarest tense. You will almost never produce it, but you will encounter it in literature.\n\nFormation: passato remoto of avere or essere + past participle.\navere: ebbi parlato, avesti scritto, ebbe dormito...\nessere: fui andato/a, fosti partito/a, fu arrivato/a...\n\nWhen is it used? Only in formal written Italian, in subordinate time clauses introduced by dopo che, quando, non appena, or appena, when the main clause is in the passato remoto.\n\n'Dopo che ebbe letto la lettera, la brucio.'\n(After he had read the letter, he burned it.)\n\nIn modern Italian, this tense is replaced by:\n— dopo aver letto la lettera (infinitive construction)\n— dopo che aveva letto la lettera (trapassato prossimo)\n\nYou need to recognize it in literary texts. You rarely need to produce it.",
+       text:"The trapassato remoto is Italian's rarest tense. You will almost never produce it, but you will encounter it in literature.\n\nFormation: passato remoto of avere or essere + past participle.\navere: ebbi parlato, avesti scritto, ebbe dormito...\nessere: fui andato/a, fosti partito/a, fu arrivato/a...\n\nWhen is it used? Only in formal written Italian, in subordinate time clauses introduced by dopo che, quando, non appena, or appena, when the main clause is in the passato remoto.\n\n'Dopo che ebbe letto la lettera, la brucio.'\n(After he had read the letter, he burned it.)\n\nIn modern Italian, this tense is replaced by:\n- dopo aver letto la lettera (infinitive construction)\n- dopo che aveva letto la lettera (trapassato prossimo)\n\nYou need to recognize it in literary texts. You rarely need to produce it.",
        icon:"💡",
        deepDive:{title:"Why it survives only in formal writing", text:"The trapassato remoto disappeared from spoken Italian centuries ago. It survives only in literary and legal Italian precisely because those registers deliberately preserve archaic forms.\n\nWhen you read 19th-century Italian novels (Manzoni's 'I Promessi Sposi', Verga's 'I Malavoglia'), you will see it frequently. When you read contemporary literature or journalism, it is rare.\n\nA useful shortcut: any time you see ebbi, avesti, ebbe, avemmo, aveste, ebbero (or fui, fosti, fu...) followed by a past participle in a time clause, you are looking at the trapassato remoto."}},
 
@@ -358,7 +358,7 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"Which verb means to formally challenge or dispute a claim?",
-       opts:["illustrare","argomentare","contestare","sottolineare"],
+       opts:["contestare","sottolineare","illustrare","argomentare"],
        ans:"contestare",
        hint:"This verb implies active opposition. It became prominent during the 1968 Italian student movement."},
 
@@ -392,9 +392,9 @@ const UNIT_28 = {
 
       {type:"mc",
        q:"'Dimostrare' and 'mostrare' are related, but 'dimostrare' implies:",
-       opts:["showing something visually","logical proof or evidence","drawing a picture","giving a speech"],
+       opts:["giving a speech","showing something visually","logical proof or evidence","drawing a picture"],
        ans:"logical proof or evidence",
-       hint:"'Dimostrare' is stronger than 'mostrare.' It goes beyond showing — it establishes a claim through reasoning. A math 'dimostrazione' is a formal derivation."},
+       hint:"'Dimostrare' is stronger than 'mostrare.' It goes beyond showing, it establishes a claim through reasoning. A math 'dimostrazione' is a formal derivation."},
 
       {type:"fb",
        s:"Bisogna {1} ogni saggio prima di pubblicarlo.",

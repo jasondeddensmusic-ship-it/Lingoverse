@@ -75,7 +75,7 @@ lessons:[
  funFact:"口味 can refer to a person's preferences (一道合你口味的菜 = a dish to your taste) or to a cuisine's general character (川菜的口味 = Sichuan cuisine's flavor profile). It is both personal and categorical."},
 
 {type:"mc", q:"Which character means 'spicy' in Chinese food contexts?",
- opts:["甜(tián)","咸(xián)","辣(là)","苦(kǔ)"],
+ opts:["辣(là)","苦(kǔ)","甜(tián)","咸(xián)"],
  ans:"辣(là)",
  hint:"The character refers to chili heat. Sichuan cuisine is known for it."},
 
@@ -104,7 +104,7 @@ lessons:[
 // ─── L2: Cooking Methods ───
 {id:"zhv2_u41l2", title:"Cooking Methods", icon:"🍳", xp:15, board:true, steps:[
 {type:"intro", title:"Cooking Methods",
- desc:"Chinese cuisine has a rich vocabulary for how to prepare food. Stir-fry, boil, steam — each method produces distinct textures and flavors.",
+ desc:"Chinese cuisine has a rich vocabulary for how to prepare food. Stir-fry, boil, steam, each method produces distinct textures and flavors.",
  goals:["Name major Chinese cooking methods","Distinguish techniques","Describe kitchen actions"]},
 
 {type:"teach", trg:"做饭(zuòfàn)", src:"to cook / to prepare a meal", pos:"verb", gender:null,
@@ -144,7 +144,7 @@ lessons:[
  funFact:"材料 is a general word covering cooking ingredients, building materials, and research data. In cooking contexts, 食材 (shícái, food material) is a more specific synonym emphasizing edible components."},
 
 {type:"mc", q:"Which cooking method produces stir-fried dishes?",
- opts:["煮(zhǔ)","蒸(zhēng)","炒(chǎo)","烤(kǎo)"],
+ opts:["炒(chǎo)","烤(kǎo)","煮(zhǔ)","蒸(zhēng)"],
  ans:"炒(chǎo)",
  hint:"The signature Chinese method using a wok and high heat."},
 
@@ -184,7 +184,7 @@ lessons:[
  note:"川 (short for 四川) + 菜 (cuisine).\nFamous for 麻辣 (numbing-spicy) flavors.",
  example:"A: 你(nǐ)喜欢(xǐhuan)吃(chī)川菜(Chuāncài)吗(ma)？\nB: 喜欢(xǐhuan)，越(yuè)辣(là)越(yuè)好(hǎo)！",
  exampleSrc:"A: Do you like Sichuan cuisine?\nB: Yes, the spicier the better!",
- funFact:"Sichuan cuisine's signature 花椒 (Sichuan peppercorn) creates a tingling, numbing sensation called 麻. Combined with 辣 (chili heat), you get 麻辣 — a taste entirely unique to Sichuan and nearly impossible to describe in English."},
+ funFact:"Sichuan cuisine's signature 花椒 (Sichuan peppercorn) creates a tingling, numbing sensation called 麻. Combined with 辣 (chili heat), you get 麻辣, a taste entirely unique to Sichuan and nearly impossible to describe in English."},
 
 {type:"teach", trg:"粤菜(Yuècài)", src:"Cantonese cuisine", pos:"noun", gender:null,
  note:"粤 (Guangdong) + 菜 (cuisine).\nKnown for freshness, delicate flavors, dim sum.",
@@ -217,12 +217,12 @@ lessons:[
  funFact:"Asking 有什么特色？ is a polite, informed way to order at a Chinese restaurant. It signals 'I want what you are known for' rather than asking for a standard menu. Every Chinese city claims multiple 特色 dishes."},
 
 {type:"mc", q:"川菜(Chuāncài) is most famous for being:",
- opts:["sweet","light","spicy and numbing","sour"],
+ opts:["spicy and numbing","sour","sweet","light"],
  ans:"spicy and numbing",
  hint:"Sichuan food uses chili for heat and peppercorn for tingling. Neither flavor is subtle."},
 
 {type:"mc", q:"清淡(qīngdàn) is the opposite of:",
- opts:["热(rè)","甜(tián)","油腻(yóunì)","辣(là)"],
+ opts:["甜(tián)","油腻(yóunì)","辣(là)","热(rè)"],
  ans:"油腻(yóunì)",
  hint:"清淡 means light/mild. Its opposite is heavy and greasy."},
 

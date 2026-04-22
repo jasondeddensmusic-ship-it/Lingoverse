@@ -1,4 +1,4 @@
-// L13: Media & Communication — 20 B2 gap words
+// L13: Media & Communication, 20 B2 gap words
 const LESSON_13 = {
   id:"nlv2_b2gap_l13", title:"Media en Communicatie", icon:"\uD83D\uDCF0", xp:15, board:true,
   steps:[
@@ -110,11 +110,11 @@ const LESSON_13 = {
      deepDive:{title:"Dutch media landscape",
       text:"Key Dutch media:\n\nPublic broadcasting: NPO (NOS for news, VPRO, BNN-VARA, KRO-NCRV)\nCommercial: RTL (RTL4, RTL5, RTL7), Talpa (SBS6)\nNewspapers: de Volkskrant, NRC, Trouw, AD, De Telegraaf\nOnline: NU.nl (most-visited news site)\n\nBelgian media:\nPublic: VRT (Flemish), RTBF (French)\nCommercial: VTM, Vier\nNewspapers: De Standaard, De Morgen, Het Laatste Nieuws\n\nThe Netherlands has exceptionally high media literacy and press freedom (consistently top 5 worldwide)."}},
     {type:"mc", q:"'Alsnog' implies:",
-     opts:["something happened as expected","a change of mind or reversal","something will never happen","a request for information"],
+     opts:["a change of mind or reversal","something will never happen","a request for information","something happened as expected"],
      ans:"a change of mind or reversal",
      hint:"It means 'after all', despite what was initially expected or decided."},
     {type:"mc", q:"Which word is the MOST formal way to say 'once again'?",
-     opts:["nogmaals","weer","andermaal","opnieuw"],
+     opts:["weer","andermaal","opnieuw","nogmaals"],
      ans:"andermaal",
      hint:"Literary and old-fashioned. Politicians use it in speeches for emphasis."},
     {type:"fb", s:"De betaling bleef {1}.", a:["achterwege"],

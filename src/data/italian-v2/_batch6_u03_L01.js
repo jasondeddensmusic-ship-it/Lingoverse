@@ -1,4 +1,4 @@
-// Batch 6 — Unit 03 extra lesson. La famiglia: Stages of Life & Celebrations
+// Batch 6. Unit 03 extra lesson. La famiglia: Stages of Life & Celebrations
 const BATCH6_L1 = {id:"itv2_u03l_b6_1", title:"Le fasi della vita", icon:"\u{1F382}", xp:15, board:true, steps:[
 {type:"intro", title:"Le fasi della vita",
  desc:"Learn vocabulary for life stages, celebrations, and family milestones in Italian culture.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u03l_b6_1", title:"Le fasi della vita", icon:"\u{1F3
 ]},
 
 {type:"mc", q:"Cos'e l'onomastico?",
- opts:["The feast day of the saint you are named after","Your birthday","A wedding anniversary","A baptism celebration"],
+ opts:["A baptism celebration","The feast day of the saint you are named after","Your birthday","A wedding anniversary"],
  ans:"The feast day of the saint you are named after",
  hint:"Every Italian name has a corresponding s...'s d... on the calendar."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u03l_b6_1", title:"Le fasi della vita", icon:"\u{1F3
  sSrc:"The baby has the {1} on Sunday at church."},
 
 {type:"mc", q:"Cosa significa 'ereditare'?",
- opts:["to inherit","to celebrate","to age","to grow up"],
+ opts:["to age","to grow up","to inherit","to celebrate"],
  ans:"to inherit",
  hint:"What happens when property or traits pass from one generation to the next."},
 

@@ -342,7 +342,7 @@ const UNIT_10 = {
        note:"A warm, standard opener after the greeting.\nLiterally: 'I hope that you are well.'",
        example:"A: Cosa scrivi dopo 'Caro Marco'?\nB: Scrivo: Spero che tu stia bene.",
        exampleSrc:"A: What do you write after 'Dear Marco'?\nB: I write: I hope you are well.",
-       funFact:"This phrase uses the subjunctive mood ('stia' from 'stare'). Even Italians who rarely use subjunctive in speech use it here because it is a fixed letter formula — a great way to meet the subjunctive naturally before studying it formally."},
+       funFact:"This phrase uses the subjunctive mood ('stia' from 'stare'). Even Italians who rarely use subjunctive in speech use it here because it is a fixed letter formula, a great way to meet the subjunctive naturally before studying it formally."},
 
       {type:"teach", trg:"A presto", src:"See you soon (letter closing)", pos:"intj", gender:null,
        note:"One of the most common informal closings.\nUsed in letters, emails, and text messages.",
@@ -373,12 +373,12 @@ const UNIT_10 = {
        deepDive:"Informal Italian letters follow a consistent structure that has changed little in a century. The comma after the greeting ('Caro Marco,') is standard. The closing phrase goes on its own line, then the sign-off on the next line. Italians write the city and date at the top right: 'Roma, 15 aprile'. In emails, the same phrases are used but the date header is optional."},
 
       {type:"mc", q:"What is the correct informal opening for a letter to a female friend named Giulia?",
-       opts:["Caro Giulia,","Gentile Giulia,","Cara Giulia,","Egregio Giulia,"],
+       opts:["Cara Giulia,","Egregio Giulia,","Caro Giulia,","Gentile Giulia,"],
        ans:"Cara Giulia,",
        hint:"Informal openings use 'Caro' for males and the feminine form for females. 'Gentile' and 'Egregio' are formal."},
 
       {type:"mc", q:"Which phrase means 'I am writing to you' in an informal Italian letter?",
-       opts:["ti scrivo","vi scrivo","scrivo voi","me scrivo"],
+       opts:["me scrivo","ti scrivo","vi scrivo","scrivo voi"],
        ans:"ti scrivo",
        hint:"The informal singular 'you' object pronoun in Italian is a two-letter word that comes before the verb."},
 
@@ -395,7 +395,7 @@ const UNIT_10 = {
        sSrc:"A {1}, Marco."},
 
       {type:"mc", q:"Which two closings are typical for an informal Italian letter?",
-       opts:["Distinti saluti and Egregio","Un bacio and Un abbraccio","Cordiali saluti and Gentile","A domani and Buongiorno"],
+       opts:["A domani and Buongiorno","Distinti saluti and Egregio","Un bacio and Un abbraccio","Cordiali saluti and Gentile"],
        ans:"Un bacio and Un abbraccio",
        hint:"Formal closings use 'saluti' with adjectives. Informal ones use warm physical gestures. Which pair reflects that?"},
 

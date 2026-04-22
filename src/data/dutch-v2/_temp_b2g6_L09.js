@@ -81,7 +81,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Wat is een 'geuzennaam'?",
-     opts:["Een scheldnaam die met trots wordt aangenomen","Een officiële titel van de koning","Een bijnaam voor een stad","Een historische familienaam"],
+     opts:["Een historische familienaam","Een scheldnaam die met trots wordt aangenomen","Een officiële titel van de koning","Een bijnaam voor een stad"],
      ans:"Een scheldnaam die met trots wordt aangenomen",
      hint:"The Geuzen were Dutch rebels who took an insult and made it their proud identity. This word describes that phenomenon."},
 
@@ -101,7 +101,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Wat is een 'gokautomaat'?",
-     opts:["Een machine om op te gokken","Een automaat voor eten","Een pinautomaat","Een koffieautomaat"],
+     opts:["Een pinautomaat","Een koffieautomaat","Een machine om op te gokken","Een automaat voor eten"],
      ans:"Een machine om op te gokken",
      hint:"Compound of 'gok' (gamble) and 'automaat' (m...). Found in bars and arcades."}
   ]

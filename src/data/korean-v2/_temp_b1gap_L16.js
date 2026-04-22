@@ -40,7 +40,7 @@ const LESSON_16 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"빈칸에 알맞은 단어는? '도와주셔서 _____ 감사합니다.'",
-     opts:["꽤","대단히","막","괜히"],
+     opts:["대단히","막","괜히","꽤"],
      ans:"대단히",
      hint:"This is a formal expression of deep gratitude. Which intensifier fits polite thanks?"},
 
@@ -92,7 +92,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'그리 어렵지 않았어요'는 무슨 뜻이에요?",
-     opts:["굉장히 어려웠어요","단순히 쉬웠어요","그렇게 어렵지 않았어요","되게 어려웠어요"],
+     opts:["단순히 쉬웠어요","그렇게 어렵지 않았어요","되게 어려웠어요","굉장히 어려웠어요"],
      ans:"그렇게 어렵지 않았어요",
      hint:"This adverb softens difficulty with negation. It means 'not so' or 'not particularly.'"},
 
@@ -137,7 +137,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'괜히 걱정했어요'는 무슨 뜻이에요?",
-     opts:["조금 걱정했어요","굉장히 걱정했어요","가만히 걱정했어요","쓸데없이 걱정했어요"],
+     opts:["굉장히 걱정했어요","가만히 걱정했어요","쓸데없이 걱정했어요","조금 걱정했어요"],
      ans:"쓸데없이 걱정했어요",
      hint:"This adverb means the worrying was pointless and without real cause."},
 

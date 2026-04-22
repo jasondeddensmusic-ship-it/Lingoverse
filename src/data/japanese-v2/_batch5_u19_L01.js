@@ -71,7 +71,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"今(いま)出(で)れば{1}と思(おも)います。\n(If you leave now, I think you will make it.)", a:"間(ま)に合(あ)う", opts:["間(ま)に合(あ)う","間(ま)に合(あ)って","間(ま)に合(あ)えば","間(ま)に合(あ)わない"], sSrc:"If you leave now, I think you will make it.",
      hint:"The plain dictionary form of the verb meaning 'to be in time,' following the ば-condition."},
 
-    {type:"mc", q:"日本(にほん)なら春(はる)がいい means:", opts:["If it is Japan, spring is good","Japan is like spring","Spring is Japan","In Japan, I like spring"], ans:"If it is Japan, spring is good",
+    {type:"mc", q:"日本(にほん)なら春(はる)がいい means:", opts:["In Japan, I like spring","If it is Japan, spring is good","Japan is like spring","Spring is Japan"], ans:"If it is Japan, spring is good",
      hint:"なら responds to a topic: 'Speaking of J... / If we are talking about J....'"},
 
     {type:"teach", trg:"実(みの)る", src:"to bear fruit / to ripen / (efforts) to pay off", pos:"verb", gender:null,
@@ -85,7 +85,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"時間(じかん){1}あれば旅行(りょこう)したいです。\n(If only I had time, I would like to travel.)", a:"さえ", opts:["さえ","しか","だけ","まで"], sSrc:"If only I had time, I would like to travel.",
      hint:"The particle meaning 'even/just' that combines with ば to express a minimal condition."},
 
-    {type:"mc", q:"と conditional CANNOT be used for:", opts:["Requests and commands","Natural results","Giving directions","Habitual outcomes"], ans:"Requests and commands",
+    {type:"mc", q:"と conditional CANNOT be used for:", opts:["Giving directions","Habitual outcomes","Requests and commands","Natural results"], ans:"Requests and commands",
      hint:"This conditional only works for automatic, natural, or habitual consequences."}
   ,{type:"match",pairs:[{trg:"合格(ごうかく)",src:"passing (an exam) / success"},{trg:"塵(ちり)も積(つ)もれば山(やま)となる",src:"many a little makes a mickle (proverb)"},{trg:"勧(すす)める",src:"to recommend / to suggest / to advance"},{trg:"宝(たから)くじ",src:"lottery"},{trg:"実(みの)る",src:"to bear fruit / to ripen / (efforts) to pay off"}]}]
 };

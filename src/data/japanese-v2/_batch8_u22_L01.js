@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"お返(かえ)し",src:"return gift"},{trg:"手土産(てみやげ)",src:"visiting gift"},{trg:"おすそ分(わ)け",src:"sharing a portion"}],
      hint:"Match each gift type with its English description."},
 
-    {type:"mc", q:"Why is the number 4 avoided in Japanese gifts?", opts:["It sounds like the word for death (し)","It is considered unlucky in astrology","It represents loneliness","It breaks easily into pieces"], ans:"It sounds like the word for death (し)",
+    {type:"mc", q:"Why is the number 4 avoided in Japanese gifts?", opts:["It breaks easily into pieces","It sounds like the word for death (し)","It is considered unlucky in astrology","It represents loneliness"], ans:"It sounds like the word for death (し)",
      hint:"This homophone avoidance also applies to hospital room numbers."},
 
     {type:"fb", s:"気持(きも)ちを{1}手紙(てがみ)を書(か)きました。\n(I wrote a letter with my feelings put into it.)", a:"込(こ)めて", opts:["込(こ)めて","包(つつ)んで","送(おく)って","言(い)って"], sSrc:"I wrote a letter with my feelings put into it.",
      hint:"This verb means to fill or put something (especially emotions) into something."},
 
-    {type:"mc", q:"What is のし in gift culture?", opts:["Decorative wrapping paper with ornamental cord","A type of bow","A thank-you card","A receipt for the gift"], ans:"Decorative wrapping paper with ornamental cord",
+    {type:"mc", q:"What is のし in gift culture?", opts:["A thank-you card","A receipt for the gift","Decorative wrapping paper with ornamental cord","A type of bow"], ans:"Decorative wrapping paper with ornamental cord",
      hint:"Different styles indicate celebrations versus condolences."}
   ,{type:"fb", s:"結婚式(けっこんしき)の引(ひ)き出物(でもの)として{1}をいただきました。",
     a:["記念品(きねんひん)"],

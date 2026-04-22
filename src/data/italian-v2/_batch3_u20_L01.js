@@ -1,4 +1,4 @@
-// Batch 3 — Unit 20, Lesson 1: Materie e valutazioni (Subjects & Assessments)
+// Batch 3. Unit 20, Lesson 1: Materie e valutazioni (Subjects & Assessments)
 const BATCH3_U20_L1 = {
   id:"itv2_u20l_b3_1", title:"Materie e valutazioni", icon:"\uD83D\uDCDA", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U20_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What makes the Italian 'interrogazione' unique?",
-     opts:["It is always a written test","Students answer questions orally in front of the class","It only happens at the end of the year","It is graded by other students"],
+     opts:["Students answer questions orally in front of the class","It only happens at the end of the year","It is graded by other students","It is always a written test"],
      ans:"Students answer questions orally in front of the class",
      hint:"Called to the f..., questioned by the teacher while classmates watch. It tests knowledge, expression, and poise under pressure."},
 
@@ -110,7 +110,7 @@ const BATCH3_U20_L1 = {
      sSrc:"Where are you going on a school {1} this year?"},
 
     {type:"mc", q:"What are 'ripetizioni' in the Italian education context?",
-     opts:["Repeated school years only","Private tutoring lessons (major industry)","Oral exam retakes","Physical education repetitions"],
+     opts:["Physical education repetitions","Repeated school years only","Private tutoring lessons (major industry)","Oral exam retakes"],
      ans:"Private tutoring lessons (major industry)",
      hint:"Many Italian teachers earn extra income this way. Students struggling with subjects seek these after-school sessions for improvement."},
 
@@ -121,10 +121,10 @@ const BATCH3_U20_L1 = {
      sSrc:"Today we have the {1} math teacher."},
 
     {type:"mc", q:"Why is philosophy mandatory in Italian high schools?",
-     opts:["It is required by the EU","Italy considers it essential to education","It was added recently due to budget cuts","Only private schools teach it"],
+     opts:["It was added recently due to budget cuts","Only private schools teach it","It is required by the EU","Italy considers it essential to education"],
      ans:"Italy considers it essential to education",
      hint:"Three years of mandatory philosophical study from ancient Greece to modern thought. I... values critical thinking as a core educational goal, not an optional extra."}
-  ,{type:"match",pairs:[{trg:"ripetere",src:"to repeat / to review"},{trg:"il registro",src:"the register / gradebook"},{trg:"la cattedra",src:"the teaching position / teacher's desk"}]},{type:"mc",q:"How do you say \"art history\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","la storia dell'arte"],ans:"la storia dell'arte",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"oral exam / questioning\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'interrogazione"],ans:"l'interrogazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"ripetere",src:"to repeat / to review"},{trg:"il registro",src:"the register / gradebook"},{trg:"la cattedra",src:"the teaching position / teacher's desk"}]},{type:"mc",q:"How do you say \"art history\" in Italian?",opts:["la storia dell'arte","la finestra","il tavolo","la bicicletta"],ans:"la storia dell'arte",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"oral exam / questioning\" in Italian?",opts:["la bicicletta","l'interrogazione","la finestra","il tavolo"],ans:"l'interrogazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il professore ha consegnato la {1} ai genitori.",a:["pagella"],opts:["pagella","cattedra","mensa","gita scolastica"],hint:"A school document showing grades given to students at the end of term.",sSrc:"The teacher handed the {1} to the parents."}]
 };
 export default BATCH3_U20_L1;

@@ -85,7 +85,7 @@ const LESSON_14 = {
     ]},
     {type:"mc",
      q:"Wat is een 'hoeder'?",
-     opts:["Een bewaker of beschermer","Een hoedenmaker","Een herder","Een helper"],
+     opts:["Een helper","Een bewaker of beschermer","Een hoedenmaker","Een herder"],
      ans:"Een bewaker of beschermer",
      hint:"From 'hoeden' (to guard/watch over). This literary word describes someone who protects something important."},
     {type:"fb",
@@ -96,7 +96,7 @@ const LESSON_14 = {
      sSrc:"The judge is the {1} of the constitution and the rights of citizens."},
     {type:"mc",
      q:"Wat beschrijft 'aanhang'?",
-     opts:["De groep supporters of volgelingen","Een aanhangwagen","Een bijlage bij een document","Een hanger aan een ketting"],
+     opts:["Een bijlage bij een document","Een hanger aan een ketting","De groep supporters of volgelingen","Een aanhangwagen"],
      ans:"De groep supporters of volgelingen",
      hint:"From 'aanhangen' (to follow/support). This collective noun describes the total group of followers."}
   ]

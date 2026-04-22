@@ -84,7 +84,7 @@ const LESSON_2 = {id:"esv2_b2g2_l2",title:"Economía y negocios",icon:"💼",xp:
  exampleSrc:"A: Who is going to guarantee the loan?\nB: My parents have offered to be guarantors.",
  funFact:"An 'aval' is a guarantee. Needing a guarantor ('avalista') is standard for Spanish rentals."},
 
-{type:"mc",q:"¿Qué describe una tendencia alcista?",opts:["Un mercado que sube","Un mercado que baja","Una empresa en bancarrota","Un impuesto nuevo"],ans:"Un mercado que sube",hint:"Think about the direction of stock prices when investors are optimistic."},
+{type:"mc",q:"¿Qué describe una tendencia alcista?",opts:["Un impuesto nuevo","Un mercado que sube","Un mercado que baja","Una empresa en bancarrota"],ans:"Un mercado que sube",hint:"Think about the direction of stock prices when investors are optimistic."},
 
 {type:"teach",trg:"el conglomerado",src:"the conglomerate",pos:"noun",gender:"m",
  note:"Masculine noun. A large corporation made up of diverse businesses.",
@@ -120,7 +120,7 @@ const LESSON_2 = {id:"esv2_b2g2_l2",title:"Economía y negocios",icon:"💼",xp:
 
 {type:"match",pairs:[{trg:"bancarrota",src:"bankruptcy"},{trg:"cotización",src:"stock price"},{trg:"accionista",src:"shareholder"},{trg:"avalar",src:"to guarantee"},{trg:"credibilidad",src:"credibility"}]},
 
-{type:"mc",q:"¿Quién custodia el dinero de los accionistas?",opts:["El administrador de la empresa","El coordinador del proyecto","El asociado del bufete","El dueño del autoservicio"],ans:"El administrador de la empresa",hint:"The person who manages and oversees a company's resources."}
+{type:"mc",q:"¿Quién custodia el dinero de los accionistas?",opts:["El asociado del bufete","El dueño del autoservicio","El administrador de la empresa","El coordinador del proyecto"],ans:"El administrador de la empresa",hint:"The person who manages and oversees a company's resources."}
 ]};
 
 export default LESSON_2;

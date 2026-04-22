@@ -90,7 +90,7 @@ const LESSON_13 = {id:"esv2_b2g2_l13",title:"Política y gobernanza",icon:"🏛�
  exampleSrc:"A: What is the consideration for this service?\nB: The monthly payment stated in the contract.",
  funFact:"Strictly legal and business vocabulary. Rarely used in everyday conversation."},
 
-{type:"mc",q:"¿Qué es la cúpula de un partido político?",opts:["Los líderes principales del partido","El edificio de la sede","Los votantes más fieles","Las leyes que proponen"],ans:"Los líderes principales del partido",hint:"Think about the top-level decision makers who run the party organization."},
+{type:"mc",q:"¿Qué es la cúpula de un partido político?",opts:["Las leyes que proponen","Los líderes principales del partido","El edificio de la sede","Los votantes más fieles"],ans:"Los líderes principales del partido",hint:"Think about the top-level decision makers who run the party organization."},
 
 {type:"teach",trg:"la consideración",src:"the consideration / regard",pos:"noun",gender:"f",
  note:"Feminine noun. Careful thought, or respect for others.",

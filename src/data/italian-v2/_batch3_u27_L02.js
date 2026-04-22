@@ -1,4 +1,4 @@
-// Batch 3 — Unit 27 Lesson 2 (Science: Physics & Environment)
+// Batch 3. Unit 27 Lesson 2 (Science: Physics & Environment)
 const BATCH3_L_2 = {
   id:"itv2_u27l_b3_2", title:"Fisica e ambiente", icon:"🌡️", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche l'Italia non usa l'energia nucleare?",
-     opts:["Perche non ha abbastanza uranio sul territorio nazionale","Perche due referendum popolari (1987 e 2011) l'hanno vietata","Perche le centrali nucleari sono troppo costose per il bilancio italiano","Perche l'Unione Europea vieta il nucleare a tutti gli stati membri"],
+     opts:["Perche due referendum popolari (1987 e 2011) l'hanno vietata","Perche le centrali nucleari sono troppo costose per il bilancio italiano","Perche l'Unione Europea vieta il nucleare a tutti gli stati membri","Perche non ha abbastanza uranio sul territorio nazionale"],
      ans:"Perche due referendum popolari (1987 e 2011) l'hanno vietata",
      hint:"Two popular votes, triggered by nuclear disasters abroad, resulted in banning nuclear power plants in Italy."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche la siccita del 2022 e stata particolarmente grave per l'Italia?",
-     opts:["Ha causato una crisi energetica perché non funzionavano le pale eoliche","Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso","Ha provocato un referendum sul nucleare come fonte alternativa","Ha costretto il governo a importare acqua dalla Francia"],
+     opts:["Ha costretto il governo a importare acqua dalla Francia","Ha causato una crisi energetica perché non funzionavano le pale eoliche","Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso","Ha provocato un referendum sul nucleare come fonte alternativa"],
      ans:"Ha colpito il fiume Po e le risaie del nord, minacciando la produzione di riso",
      hint:"Italy's longest river nearly dried up, threatening the rice paddies that produce most of Europe's risotto rice."}
   ,{type:"match",pairs:[{trg:"la gravita",src:"gravity"},{trg:"la materia",src:"matter"},{trg:"il clima",src:"the climate"},{trg:"la velocita",src:"velocity / speed"},{trg:"il riciclaggio",src:"the recycling"},{trg:"la temperatura",src:"the temperature"}]},{type:"match",pairs:[{trg:"il riscaldamento globale",src:"global warming"}]}]

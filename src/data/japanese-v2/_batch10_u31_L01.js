@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"人権(じんけん)",src:"human rights"},{trg:"市民権(しみんけん)",src:"civil rights"},{trg:"選挙権(せんきょけん)",src:"right to vote"},{trg:"言論(げんろん)の自由(じゆう)",src:"freedom of speech"}]},
 
-    {type:"mc", q:"Which word means law?", opts:["法律(ほうりつ)","プライバシー","市民権(しみんけん)","平等(びょうどう)"], ans:"法律(ほうりつ)",
+    {type:"mc", q:"Which word means law?", opts:["平等(びょうどう)","法律(ほうりつ)","プライバシー","市民権(しみんけん)"], ans:"法律(ほうりつ)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"差別(さべつ)",src:"discrimination"}]}]
 };

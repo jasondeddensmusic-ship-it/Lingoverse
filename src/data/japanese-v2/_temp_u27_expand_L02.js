@@ -54,7 +54,7 @@ const LESSON_4 = {
      exampleSrc:"A: The energy problem is one of Japan's biggest challenges.\nB: It will take time to solve.\nA: What kind of impact was there?\nB: It had a big impact on society as a whole.\nA: A good impact or a bad impact?\nB: Both. There are both merits and demerits.",
      funFact:"課題 uses 課 (assign/impose) and 題 (topic). Unlike もんだい (problem), かだい implies an assigned task you must tackle. Students have 課題 (homework/assignments), companies have 経営課題 (management challenges), and nations have 政策課題 (policy challenges). It carries a sense of duty and active engagement."},
 
-    {type:"mc", q:"もったいない expresses:", opts:["Excitement about new things","A desire to buy more","Indifference to the environment","A feeling that waste is regrettable"], ans:"A feeling that waste is regrettable",
+    {type:"mc", q:"もったいない expresses:", opts:["Indifference to the environment","A feeling that waste is regrettable","Excitement about new things","A desire to buy more"], ans:"A feeling that waste is regrettable",
      hint:"This uniquely Japanese concept links wastefulness to a f... of shame or loss."},
 
     {type:"teach", trg:"とりくむ", src:"to tackle / to work on / to engage with", pos:"verb", gender:null,

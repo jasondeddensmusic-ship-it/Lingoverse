@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"{1} management is important. Leak incidents are increasing."},
 
     {type:"mc", q:"はんこ culture in Japan is being challenged by:",
-     opts:["Digital signatures and remote work","New seal designs","Faster ink","Larger stamps"],
+     opts:["Larger stamps","Digital signatures and remote work","New seal designs","Faster ink"],
      ans:"Digital signatures and remote work",
      hint:"COVID made physical seal-stamping impractical, accelerating the shift to 電子署名(でんししょめい)."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"There is a {1} between elderly and young people."},
 
     {type:"mc", q:"Japan approved Level 4 autonomous driving in 2023 primarily for:",
-     opts:["Rural areas where elderly face transportation challenges","Tokyo highway traffic","Racing competitions","Delivery drones"],
+     opts:["Racing competitions","Delivery drones","Rural areas where elderly face transportation challenges","Tokyo highway traffic"],
      ans:"Rural areas where elderly face transportation challenges",
      hint:"The focus is solving mobility problems for aging populations in places with limited public transport."},
 

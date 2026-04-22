@@ -80,7 +80,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Wat betekent 'in groepsverband'?",
-     opts:["Als onderdeel van een groep, samen","Alleen en onafhankelijk","In een groot gebouw","Op afstand"],
+     opts:["Op afstand","Als onderdeel van een groep, samen","Alleen en onafhankelijk","In een groot gebouw"],
      ans:"Als onderdeel van een groep, samen",
      hint:"'G...' means group and 'verband' means context or connection. Together they describe doing something collectively."},
 
@@ -100,7 +100,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Wat is een 'gezegde'?",
-     opts:["Een spreekwoord of vaste uitdrukking","Een grammaticale term voor het werkwoord","Een soort gedicht","Een officieel document"],
+     opts:["Een soort gedicht","Een officieel document","Een spreekwoord of vaste uitdrukking","Een grammaticale term voor het werkwoord"],
      ans:"Een spreekwoord of vaste uitdrukking",
      hint:"From the verb 'zeggen' (to say). It refers to a well-known expression passed down through generations."}
   ]

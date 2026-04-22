@@ -1,4 +1,4 @@
-// Batch 4 — Unit 16 Lesson 1: Work & Career
+// Batch 4. Unit 16 Lesson 1: Work & Career
 const BATCH4_L_1 = {
   id:"jav2_u16l_b4_1", title:"仕事(しごと)", icon:"💼", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"アルバイト comes from which language?",
-     opts:["German","English","French","Dutch"], ans:"German",
+     opts:["Dutch","German","English","French"], ans:"German",
      hint:"From the G... word meaning 'work,' entering Japanese in the Meiji era."},
 
     {type:"fb", s:"{1}はいつですか？", a:"締(し)め切(き)り",
@@ -110,11 +110,11 @@ const BATCH4_L_1 = {
      hint:"The final date by which something must be completed."},
 
     {type:"mc", q:"What is 根回し (nemawashi)?",
-     opts:["informal consensus-building before meetings","formal debate","written proposal","deadline extension"], ans:"informal consensus-building before meetings",
+     opts:["written proposal","deadline extension","informal consensus-building before meetings","formal debate"], ans:"informal consensus-building before meetings",
      hint:"The pre-meeting process of b... agreement through individual conversations."},
 
     {type:"mc", q:"定時(ていじ) means:",
-     opts:["regular work hours / quitting time","overtime","holiday","meeting time"], ans:"regular work hours / quitting time",
+     opts:["overtime","holiday","meeting time","regular work hours / quitting time"], ans:"regular work hours / quitting time",
      hint:"The official scheduled t... when the workday ends."}
   ,{type:"match",pairs:[{trg:"会社員(かいしゃいん)",src:"company employee"},{trg:"給料(きゅうりょう)",src:"salary / pay"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"会議(かいぎ)",src:"meeting"},{trg:"休憩(きゅうけい)",src:"break / rest period"},{trg:"定時(ていじ)",src:"regular hours / quitting time"}]},{type:"match",pairs:[{trg:"アルバイト",src:"part-time job"}]}]
 };

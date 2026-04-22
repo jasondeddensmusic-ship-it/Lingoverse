@@ -1,4 +1,4 @@
-// L02: Law and Justice — 20 B1 gap words
+// L02: Law and Justice, 20 B1 gap words
 const LESSON_2 = {
   id:"nlv2_b1gap_l2", title:"Recht en Justitie", icon:"\u{2696}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"De man heeft een misdrijf ___. Nu moet hij naar de rechter.",
-     opts:["begaan","bekeurd","bedreigd","bekend"],
+     opts:["bekend","begaan","bekeurd","bedreigd"],
      ans:"begaan",
      hint:"Which verb collocates with 'misdrijf' to mean carrying out a criminal act?"},
 
@@ -144,7 +144,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Welk woord beschrijft iemand die heel streng leidt en geen tegenspraak duldt?",
-     opts:["autoritair","antisociaal","absurd","abstract"],
+     opts:["absurd","abstract","autoritair","antisociaal"],
      ans:"autoritair",
      hint:"Think of a leadership style where the boss demands total obedience."}
   ]

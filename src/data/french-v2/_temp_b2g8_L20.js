@@ -31,7 +31,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel pronom emphatique de la première personne du pluriel souligne que le groupe a agi sans aide extérieure ?",
-     opts:["les nôtres","nous-mêmes","nous autres","entre nous"],
+     opts:["nous-mêmes","nous autres","entre nous","les nôtres"],
      ans:"nous-mêmes",
      hint:"A hyphenated emphatic pronoun. '-même' is added for emphasis, like English 'ourselves'."},
 
@@ -80,7 +80,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel mot signifie 'une carte représentant le monde entier' ?",
-     opts:["une matrice","une malformation","une mappemonde","une médiation"],
+     opts:["une malformation","une mappemonde","une médiation","une matrice"],
      ans:"une mappemonde",
      hint:"From Latin 'mappa mundi'. Can be a flat map or a globe, though purists distinguish them."},
 
@@ -119,7 +119,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel mot décrit un changement subtil de ton dans la voix de quelqu'un ?",
-     opts:["une exclamation","une extrémité","une exaltation","une inflexion"],
+     opts:["une extrémité","une exaltation","une inflexion","une exclamation"],
      ans:"une inflexion",
      hint:"A shift in direction or tone. Used in grammar, politics, and voice description."},
 

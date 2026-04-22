@@ -1,4 +1,4 @@
-// Korean V2 Unit 43 — B1 Final: Identity, Quality, Society, Emotions, Change
+// Korean V2 Unit 43. B1 Final: Identity, Quality, Society, Emotions, Change
 import L07 from './_temp_b1fin_L07.js';
 import L08 from './_temp_b1fin_L08.js';
 import L09 from './_temp_b1fin_L09.js';

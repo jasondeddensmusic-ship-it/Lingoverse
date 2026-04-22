@@ -1,4 +1,4 @@
-// Batch 7 — Unit 03 extra lesson. La famiglia: Pets & Animals
+// Batch 7. Unit 03 extra lesson. La famiglia: Pets & Animals
 const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{1F436}", xp:15, board:true, steps:[
 {type:"intro", title:"Gli animali domestici",
  desc:"Learn vocabulary for common pets and animals, and talk about taking care of them.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{
 ]},
 
 {type:"mc", q:"Che cos'e il Palio di Siena?",
- opts:["A horse race","A dog show","A cat festival","A sheep market"],
+ opts:["A sheep market","A horse race","A dog show","A cat festival"],
  ans:"A horse race",
  hint:"A famous competition held in Siena's main square, using a specific animal."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{
  sSrc:"The cat moves its {1} when it is happy."},
 
 {type:"mc", q:"Dove porti un animale malato?",
- opts:["Dal veterinario","Dal dottore","In farmacia","All'ospedale"],
+ opts:["In farmacia","All'ospedale","Dal veterinario","Dal dottore"],
  ans:"Dal veterinario",
  hint:"The doctor specialized in treating animals, not humans."},
 

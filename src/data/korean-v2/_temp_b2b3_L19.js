@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 19: Readiness and Mindset
+// Korean B2. Batch 3, Lesson 19: Readiness and Mindset
 // Words: 레저, 렌즈, 로봇, 로터리, 리, 리그, 리터, 마누라, 마당, 마디, 마땅하다, 마라톤, 마련, 마무리, 마사지, 마약, 마요네즈, 마음가짐, 마음껏, 마음먹다
 
 const LESSON_19 = {
@@ -113,7 +113,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'마땅하다'와 의미가 가장 비슷한 것은?",
-     opts:["적절하다","어렵다","불편하다","이상하다"],
+     opts:["이상하다","적절하다","어렵다","불편하다"],
      ans:"적절하다",
      hint:"This word describes something that is proper, fitting, or appropriate for the situation."},
 

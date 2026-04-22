@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 2: Burden and Diligence
+// Korean B2. Batch 5, Lesson 2: Burden and Diligence
 // Words: 부담, 부담하다, 부대, 부딪히다, 부러워하다, 부러지다, 부문, 부분적, 부상, 부서, 부서지다, 부위, 부자, 부잣집, 부재, 부정, 부정적, 부정하다, 부지런하다, 부지런히
 
 const LESSON_2 = {
@@ -150,7 +150,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"부지런한 사람의 특징으로 가장 적절한 것은?",
-     opts:["일찍 일어나서 열심히 일한다","다른 사람을 부러워한다","부정적인 태도를 가진다","부담을 느끼지 않는다"],
+     opts:["부담을 느끼지 않는다","일찍 일어나서 열심히 일한다","다른 사람을 부러워한다","부정적인 태도를 가진다"],
      ans:"일찍 일어나서 열심히 일한다",
      hint:"Diligent people are known for getting up early and working hard. Which answer describes that?"},
 

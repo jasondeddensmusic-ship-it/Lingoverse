@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: May I visit you tomorrow?\nB: Yes, I will be waiting.\nA: How was it?\nB: It was very good.",
      funFact:"伺う is the humble mirror of いらっしゃる, but while いらっしゃる covers 3 verbs (be/go/come), うかがう covers different ones (visit/ask/listen). When visiting a client: おうかがいします (I will humbly visit). When asking a question: おうかがいしてもよろしいですか (may I humbly ask?)."},
 
-    {type:"mc", q:"ごぞんじですか is used to ask:", opts:["Do I know?","Do you know? (honorific)","Does he know? (humble)","Did anyone know?"], ans:"Do you know? (honorific)",
+    {type:"mc", q:"ごぞんじですか is used to ask:", opts:["Do you know? (honorific)","Does he know? (humble)","Did anyone know?","Do I know?"], ans:"Do you know? (honorific)",
      hint:"ご存知 is the h... form, used when asking about the other person's knowledge."},
 
     {type:"teach", trg:"さしあげる", src:"to give (humble, to someone higher)", pos:"verb", gender:null,
@@ -60,7 +60,7 @@ const LESSON_5 = {
      exampleSrc:"A: Do you know this person?\nB: I am sorry. I do not know them.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"ぞんじません is the humble 'I do not know,' contrasting with しりません (neutral). Adding もうしわけございません (deepest apology) before admitting ignorance is standard business etiquette. Not knowing something a superior expects you to know requires the cushion of a humble apology."},
 
-    {type:"mc", q:"The correct pair for eating is:", opts:["めしあがる (hon.) / いただく (hum.)","たべられる (hon.) / たべます (hum.)","おたべになる (hon.) / もうす (hum.)","くださる (hon.) / さしあげる (hum.)"], ans:"めしあがる (hon.) / いただく (hum.)",
+    {type:"mc", q:"The correct pair for eating is:", opts:["くださる (hon.) / さしあげる (hum.)","めしあがる (hon.) / いただく (hum.)","たべられる (hon.) / たべます (hum.)","おたべになる (hon.) / もうす (hum.)"], ans:"めしあがる (hon.) / いただく (hum.)",
      hint:"The special honorific for eating pairs with the humble verb also used before meals."},
 
     {type:"tip", title:"Complete Keigo Pair Chart",
@@ -75,7 +75,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"おめにかかる",src:"to meet (hum.)"},{trg:"ぞんじません",src:"I do not know (hum.)"},{trg:"おっしゃる / もうす",src:"say (hon. / hum.)"},{trg:"めしあがる / いただく",src:"eat (hon. / hum.)"}]},
 
-    {type:"mc", q:"When meeting someone important for the first time, you say:", opts:["あえてうれしいです (neutral)","おめにかかれてうれしいです (humble)","いらっしゃってうれしいです (honorific)","みてうれしいです (casual)"], ans:"おめにかかれてうれしいです (humble)",
+    {type:"mc", q:"When meeting someone important for the first time, you say:", opts:["みてうれしいです (casual)","あえてうれしいです (neutral)","おめにかかれてうれしいです (humble)","いらっしゃってうれしいです (honorific)"], ans:"おめにかかれてうれしいです (humble)",
      hint:"You h... YOUR action of meeting. The h... verb for 'to meet' replaces あう."},
   ]
 };

@@ -69,7 +69,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"'성격이 좋다'는 무슨 뜻이에요?",
-     opts:["외모가 좋다","건강하다","인품이 좋다","똑똑하다"],
+     opts:["인품이 좋다","똑똑하다","외모가 좋다","건강하다"],
      ans:"인품이 좋다",
      hint:"This phrase describes someone with a good temperament or character, not looks."},
 
@@ -142,10 +142,10 @@ const LESSON_7 = {
      funFact:"욕심 has a neutral-to-negative nuance. Saying someone has 욕심 can mean ambition (positive) or greed (negative) depending on tone."},
 
     {type:"mc",
-     q:"The Korean title of 'Alice in Wonderland' (앨리스) uses a modifier meaning 'strange/odd' — which adjective is it?",
-     opts:["아름다운","평범한","이상적인","이상한"],
+     q:"The Korean title of 'Alice in Wonderland' (앨리스) uses a modifier meaning 'strange/odd', which adjective is it?",
+     opts:["이상적인","이상한","아름다운","평범한"],
      ans:"이상한",
-     hint:"Wonderland is full of oddities — pick the adjective that means 'strange/unusual.'"}
+     hint:"Wonderland is full of oddities, pick the adjective that means 'strange/unusual.'"}
   ]
 };
 export default LESSON_7;

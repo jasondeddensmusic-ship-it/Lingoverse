@@ -1,4 +1,4 @@
-// PP63 Round 2 — A2/B1 Vocabulary Gaps
+// PP63 Round 2. A2/B1 Vocabulary Gaps
 // Closes flags: moskee, kans, pech, kunst, lastig, boete, beurs, campagne, motivatie, passie, effect, focus
 const LESSON_PP63R2_B1 = {
   id:"nlv2_pp63r2_b1", title:"A2-B1 Kernwoorden", icon:"\u{1F4A1}", xp:15, board:true,
@@ -64,7 +64,7 @@ const LESSON_PP63R2_B1 = {
 
     {type:"mc",
      q:"Ze werkt op de ___ in Amsterdam. Ze koopt en verkoopt aandelen.",
-     opts:["beurs","boete","moskee","kunst"],
+     opts:["kunst","beurs","boete","moskee"],
      ans:"beurs",
      hint:"Where do people trade stocks and shares? The financial marketplace. Three letters in Dutch."},
 

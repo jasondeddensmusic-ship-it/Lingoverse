@@ -13,7 +13,7 @@ const LESSON_5 = {id:"esv2_b2g7_l5",title:"Comunicación e interacción",icon:"�
 {type:"teach",trg:"la inflexión",src:"the inflection / turning point",pos:"noun",gender:"f",note:"A change in direction, tone, or form. Used abstractly and in grammar.",example:"A: Este momento marca un punto de inflexión.\nB: Sí, la inflexión de la curva económica es clara.",exampleSrc:"A: This moment marks a turning point.\nB: Yes, the inflection of the economic curve is clear.",funFact:"In grammar, 'inflexión' refers to how words change form (conjugation, declension). In economics, it marks trend reversals."},
 {type:"mc",q:"'Lamentamos comunicarle que su solicitud ha sido rechazada.' Este tono es:",opts:["Formal y oficial","Informal y amistoso","Humorístico","Coloquial"],ans:"Formal y oficial",hint:"The verb 'lamentar' is used in official and f... communication."},
 {type:"fb",s:"La {1} entre profesores y alumnos mejora el aprendizaje.",a:["interacción"],opts:["interacción","exageración","inflexión","impronta"],hint:"This noun describes how people communicate and work together.",sSrc:"The {1} between teachers and students improves learning."},
-{type:"mc",q:"Gaudí dejó su impronta en Barcelona. Esto significa que:",opts:["Su influencia perdura en la ciudad","Se fue de Barcelona","No le gustaba Barcelona","Visitó la ciudad brevemente"],ans:"Su influencia perdura en la ciudad",hint:"An 'impronta' is a lasting mark or influence that remains."},
+{type:"mc",q:"Gaudí dejó su impronta en Barcelona. Esto significa que:",opts:["Visitó la ciudad brevemente","Su influencia perdura en la ciudad","Se fue de Barcelona","No le gustaba Barcelona"],ans:"Su influencia perdura en la ciudad",hint:"An 'impronta' is a lasting mark or influence that remains."},
 {type:"fb",s:"Eso es una {1}. La realidad no es tan dramática.",a:["exageración"],opts:["exageración","definición","interacción","intermediación"],hint:"This word means making something seem bigger than it really is.",sSrc:"That is an {1}. Reality is not that dramatic."},
 {type:"match",pairs:[
   {trg:"la interacción",src:"the interaction"},
@@ -22,7 +22,7 @@ const LESSON_5 = {id:"esv2_b2g7_l5",title:"Comunicación e interacción",icon:"�
   {trg:"la impronta",src:"the imprint / mark"},
   {trg:"la inflexión",src:"the inflection / turning point"}
 ]},
-{type:"mc",q:"¿Qué institución define oficialmente las palabras del español?",opts:["La Real Academia Española","El Congreso de los Diputados","La Unión Europea","El Ministerio de Cultura"],ans:"La Real Academia Española",hint:"This institution, known as the RAE, is the authority on Spanish definitions."},
+{type:"mc",q:"¿Qué institución define oficialmente las palabras del español?",opts:["La Unión Europea","El Ministerio de Cultura","La Real Academia Española","El Congreso de los Diputados"],ans:"La Real Academia Española",hint:"This institution, known as the RAE, is the authority on Spanish definitions."},
 {type:"fb",s:"Sin la {1} del mediador, no se habría resuelto el conflicto.",a:["intermediación"],opts:["intermediación","exageración","inflexión","definición"],hint:"This noun means acting as a go-between to resolve a dispute.",sSrc:"Without the mediator's {1}, the conflict would not have been resolved."}
 ]};
 export default LESSON_5;

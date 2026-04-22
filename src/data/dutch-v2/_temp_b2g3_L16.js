@@ -1,4 +1,4 @@
-// L16: Numbers, Time & Sequences — 20 B2 gap words
+// L16: Numbers, Time & Sequences, 20 B2 gap words
 const LESSON_16 = {
   id:"nlv2_b2g3_l16", title:"Getallen, Tijd en Volgorde", icon:"\uD83D\uDD22", xp:15, board:true,
   steps:[
@@ -85,7 +85,7 @@ const LESSON_16 = {
      deepDive:{title:"Why Dutch reverses numbers",
       text:"The reversal dates back to Proto-Germanic. Old English did the same: 'four-and-twenty blackbirds'. English simplified to 'twenty-four' around the 17th century. Dutch and German kept the old order.\n\nThis causes practical problems:\n- Phone numbers must be read differently\n- Check amounts can be confusing\n- Foreign students struggle with math dictation\n\nSome Dutch linguists have proposed switching to 'twintigacht' (twenty-eight) instead of 'achtentwintig', but this has zero chance of being adopted."}},
     {type:"mc", q:"Hoe zeg je '28' in het Nederlands?",
-     opts:["twintigacht","achtentwintig","tweeacht","achttwintig"],
+     opts:["achtentwintig","tweeacht","achttwintig","twintigacht"],
      ans:"achtentwintig",
      hint:"Dutch reverses units and tens: the 8 comes first, then 'en' (and), then 20."},
     {type:"fb", s:"Ze werkt {1} aan haar onderzoek.", a:["dag in dag uit"],

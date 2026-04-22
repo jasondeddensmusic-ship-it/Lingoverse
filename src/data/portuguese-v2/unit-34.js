@@ -62,7 +62,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Which region is the economic powerhouse of Brazil?",
- opts:["Norte","Sul","Sudeste","Centro-Oeste"],
+ opts:["Sul","Sudeste","Centro-Oeste","Norte"],
  ans:"Sudeste",
  hint:"Contains São Paulo, the biggest city in South America."},
 
@@ -88,7 +88,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Which word is the singular form for a Brazilian federal unit?",
- opts:["região","estado","cidade","país"],
+ opts:["cidade","país","região","estado"],
  ans:"estado",
  hint:"Brazil has 26 of these, each with its own governor."},
 
@@ -156,7 +156,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Which biome is the world's largest tropical wetland?",
- opts:["Amazônia","Cerrado","Pantanal","Mata Atlântica"],
+ opts:["Pantanal","Mata Atlântica","Amazônia","Cerrado"],
  ans:"Pantanal",
  hint:"Floods every rainy season. Home to many caimans and jaguars."},
 
@@ -182,7 +182,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Which biome covers the Brazilian savanna in the Center-West?",
- opts:["Pantanal","Cerrado","Mata Atlântica","Amazônia"],
+ opts:["Amazônia","Pantanal","Cerrado","Mata Atlântica"],
  ans:"Cerrado",
  hint:"Tropical savanna. Called 'the Brazilian savanna'. Over 50% already deforested."},
 
@@ -195,7 +195,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"What does 'sertão' refer to geographically?",
- opts:["coastal beaches","Amazon rainforest","dry interior of the Northeast","mountain ranges"],
+ opts:["mountain ranges","coastal beaches","Amazon rainforest","dry interior of the Northeast"],
  ans:"dry interior of the Northeast",
  hint:"Harsh backlands far from the coast. Setting of Euclides da Cunha's famous work."},
 
@@ -233,7 +233,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"'O Pantanal ___ milhares de espécies.'",
- opts:["abriga","fica","é","cobre"],
+ opts:["cobre","abriga","fica","é"],
  ans:"abriga",
  hint:"Verb meaning 'shelters' or 'houses'. Which verb hosts species?"},
 
@@ -267,7 +267,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Most Brazilians live close to which geographic feature?",
- opts:["the sertão","the Amazon","the coast","the serra"],
+ opts:["the serra","the sertão","the Amazon","the coast"],
  ans:"the coast",
  hint:"About 80 percent live within 200 km of the ocean."},
 
@@ -280,7 +280,7 @@ const UNIT_34 = {n:34, lang:"pt", srcLang:"en", track:"v2", title:"O Brasil", su
 
 {type:"mc",
  q:"Which expression means 'is located in'?",
- opts:["abriga","estende-se por","fica no","cobre"],
+ opts:["fica no","cobre","abriga","estende-se por"],
  ans:"fica no",
  hint:"Literal meaning: 'stays in'. Used for fixed geographic positions."},
 

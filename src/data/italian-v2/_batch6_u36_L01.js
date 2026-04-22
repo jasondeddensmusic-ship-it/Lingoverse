@@ -1,4 +1,4 @@
-// Batch 6 — Unit 36 extra lesson. Esame finale: CILS B2 Exam-Ready Review
+// Batch 6. Unit 36 extra lesson. Esame finale: CILS B2 Exam-Ready Review
 const BATCH6_L1 = {id:"itv2_u36l_b6_1", title:"Pronti per il CILS B2", icon:"\u{1F3C6}", xp:15, board:true, steps:[
 {type:"intro", title:"Pronti per il CILS B2",
  desc:"Review high-frequency CILS B2 exam vocabulary and expressions for the Italian proficiency certification.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u36l_b6_1", title:"Pronti per il CILS B2", icon:"\u{
  {trg:"in conclusione", src:"in conclusion"}
 ]},
 {type:"mc", q:"Cosa valuta il CILS B2?",
- opts:["La padronanza linguistica per discutere temi complessi","La capacita di ordinare al ristorante","La conoscenza dell'alfabeto","La pronuncia perfetta"],
+ opts:["La pronuncia perfetta","La padronanza linguistica per discutere temi complessi","La capacita di ordinare al ristorante","La conoscenza dell'alfabeto"],
  ans:"La padronanza linguistica per discutere temi complessi",
  hint:"B2 is the level where you can discuss complex topics fluently with native speakers."},
 {type:"fb", s:"Vorrei {1} questo argomento con più dettagli.", a:["approfondire"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u36l_b6_1", title:"Pronti per il CILS B2", icon:"\u{
  hint:"To go deeper into a topic. From 'profondo' (deep).",
  sSrc:"I would like to {1} this topic in more detail."},
 {type:"mc", q:"Quale verbo significa 'riassumere in poche parole'?",
- opts:["sintetizzare","approfondire","elaborare","controbattere"],
+ opts:["elaborare","controbattere","sintetizzare","approfondire"],
  ans:"sintetizzare",
  hint:"To condense and summarize key points. The opposite of 'approfondire.'"},
 {type:"fb", s:"{1}, la riforma e necessaria per il futuro del paese.", a:["In conclusione"],
@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u36l_b6_1", title:"Pronti per il CILS B2", icon:"\u{
  {trg:"sintetizzare", src:"to summarize"},
  {trg:"controbattere", src:"to counter"}
 ]}
-,{type:"match",pairs:[{trg:"a mio avviso",src:"in my opinion"},{trg:"a condizione che",src:"on condition that"},{trg:"evidenziare",src:"to highlight / to emphasize"},{trg:"conseguentemente",src:"consequently / as a result"}]},{type:"mc",q:"How do you say \"argumentation / reasoning\" in Italian?",opts:["la finestra","il tavolo","l'argomentazione","la bicicletta"],ans:"l'argomentazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"a mio avviso",src:"in my opinion"},{trg:"a condizione che",src:"on condition that"},{trg:"evidenziare",src:"to highlight / to emphasize"},{trg:"conseguentemente",src:"consequently / as a result"}]},{type:"mc",q:"How do you say \"argumentation / reasoning\" in Italian?",opts:["la bicicletta","la finestra","il tavolo","l'argomentazione"],ans:"l'argomentazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH6_L1;

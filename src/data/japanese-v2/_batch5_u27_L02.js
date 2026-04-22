@@ -63,7 +63,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"生物(せいぶつ){1}の保全(ほぜん)は地球規模(ちきゅうきぼ)の課題(かだい)です。\n(Biodiversity conservation is a global-scale challenge.)", a:"多様性(たようせい)", opts:["多様性(たようせい)","資源(しげん)","環境(かんきょう)","自然(しぜん)"], sSrc:"Biodiversity conservation is a global-scale challenge.",
      hint:"The word for diversity/variety, combined with せいぶつ (living things) for 'biodiversity.'"},
 
-    {type:"mc", q:"さとやま represents:", opts:["A managed landscape between village and wilderness","A pristine untouched forest","An urban park","A desert region"], ans:"A managed landscape between village and wilderness",
+    {type:"mc", q:"さとやま represents:", opts:["A desert region","A managed landscape between village and wilderness","A pristine untouched forest","An urban park"], ans:"A managed landscape between village and wilderness",
      hint:"This Japanese concept describes the zone where humans traditionally m... forests and fields sustainably."},
 
     {type:"match", pairs:[{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"},{trg:"共生(きょうせい)",src:"coexistence"},{trg:"資源(しげん)",src:"resources"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"人間(にんげん)と自然(しぜん)の{1}をめざすべきです。\n(We should aim for coexistence between humans and nature.)", a:"共生(きょうせい)", opts:["共生(きょうせい)","対立(たいりつ)","分離(ぶんり)","競争(きょうそう)"], sSrc:"We should aim for coexistence between humans and nature.",
      hint:"The word meaning living together harmoniously, using kanji for 'together' and 'life.'"},
 
-    {type:"mc", q:"Japan's recycling culture is driven partly by:", opts:["Being resource-poor and importing most raw materials","Having abundant natural resources","Government mandates only","Foreign pressure only"], ans:"Being resource-poor and importing most raw materials",
+    {type:"mc", q:"Japan's recycling culture is driven partly by:", opts:["Government mandates only","Foreign pressure only","Being resource-poor and importing most raw materials","Having abundant natural resources"], ans:"Being resource-poor and importing most raw materials",
      hint:"Japan's scarcity of natural resources fostered a deep cultural value of not wasting."}
   ,{type:"match",pairs:[{trg:"保全(ほぜん)",src:"preservation / conservation"},{trg:"里山(さとやま)",src:"satoyama (managed rural landscape)"},{trg:"復活(ふっかつ)",src:"revival / restoration / resurrection"}]}]
 };

@@ -13,7 +13,7 @@ const LESSON_6 = {id:"esv2_b2g7_l6",title:"Industria y logística",icon:"🏭",x
 {type:"teach",trg:"el margen",src:"the margin / edge",pos:"noun",gender:"m",note:"The edge of something, or the difference between cost and price.",example:"A: El margen de beneficio es del veinte por ciento.\nB: Necesitamos aumentar el margen para ser rentables.",exampleSrc:"A: The profit margin is twenty percent.\nB: We need to increase the margin to be profitable.",funFact:"Careful with gender: 'el margen' (margin/edge) is masculine, but 'la margen' (riverbank) is feminine. Same word, different meaning."},
 {type:"mc",q:"Un 'centro logístico' se encarga de:",opts:["Almacenar y distribuir mercancías","Enseñar idiomas","Curar enfermos","Investigar delitos"],ans:"Almacenar y distribuir mercancías",hint:"Logistics is about moving and managing the flow of goods."},
 {type:"fb",s:"La producción {1} redujo los costes unitarios.",a:["masiva"],opts:["masiva","logística","manual","limitada"],hint:"This adjective means on a very large scale.",sSrc:"Mass {1} production reduced unit costs."},
-{type:"mc",q:"Si el 'margen de beneficio' es del 20%, esto significa que:",opts:["De cada 100 euros de ventas, 20 son ganancia","La empresa pierde dinero","Los precios son muy bajos","No hay beneficios"],ans:"De cada 100 euros de ventas, 20 son ganancia",hint:"A margin is the difference between cost and selling price."},
+{type:"mc",q:"Si el 'margen de beneficio' es del 20%, esto significa que:",opts:["No hay beneficios","De cada 100 euros de ventas, 20 son ganancia","La empresa pierde dinero","Los precios son muy bajos"],ans:"De cada 100 euros de ventas, 20 son ganancia",hint:"A margin is the difference between cost and selling price."},
 {type:"fb",s:"Mi abuelo tenía una {1} donde hacía muebles a mano.",a:["carpintería"],opts:["carpintería","logística","interacción","legislación"],hint:"This is a workshop where a craftsperson works with wood.",sSrc:"My grandfather had a {1} where he made furniture by hand."},
 {type:"match",pairs:[
   {trg:"la logística",src:"the logistics"},
@@ -22,7 +22,7 @@ const LESSON_6 = {id:"esv2_b2g7_l6",title:"Industria y logística",icon:"🏭",x
   {trg:"el margen",src:"the margin"},
   {trg:"el autoservicio",src:"the self-service"}
 ]},
-{type:"mc",q:"La palabra 'manufacturar' viene del latín 'manu factura'. ¿Qué significa literalmente?",opts:["Hacer a mano","Hacer en máquina","Hacer rápido","Hacer barato"],ans:"Hacer a mano",hint:"'Manu' is Latin for 'hand', and 'factura' means 'making'."},
+{type:"mc",q:"La palabra 'manufacturar' viene del latín 'manu factura'. ¿Qué significa literalmente?",opts:["Hacer rápido","Hacer barato","Hacer a mano","Hacer en máquina"],ans:"Hacer a mano",hint:"'Manu' is Latin for 'hand', and 'factura' means 'making'."},
 {type:"fb",s:"¿Has leído el {1} de instrucciones antes de usar la máquina?",a:["manual"],opts:["manual","listado","margen","autoservicio"],hint:"This is a book that explains how to use something.",sSrc:"Have you read the instruction {1} before using the machine?"}
 ]};
 export default LESSON_6;

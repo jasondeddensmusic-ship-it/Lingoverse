@@ -119,10 +119,10 @@ const LESSON_3 = {
     {type:"mc", q:"ただいま means:", opts:["Goodbye","I'm leaving now","I'm home","Welcome back"], ans:"I'm home",
      hint:"Said when you arrive back at your house after being out."},
 
-    {type:"mc", q:"What is the response to いってきます?", opts:["ただいま","おかえりなさい","いってらっしゃい","おやすみなさい"], ans:"いってらっしゃい",
+    {type:"mc", q:"What is the response to いってきます?", opts:["おやすみなさい","ただいま","おかえりなさい","いってらっしゃい"], ans:"いってらっしゃい",
      hint:"The phrase that wishes someone a safe departure and return."},
 
-    {type:"mc", q:"もしもし is used:", opts:["Face-to-face","On the telephone","In emails","At the office"], ans:"On the telephone",
+    {type:"mc", q:"もしもし is used:", opts:["On the telephone","In emails","At the office","Face-to-face"], ans:"On the telephone",
      hint:"This greeting has a supernatural origin story connected to early phone technology."},
   ]
 };

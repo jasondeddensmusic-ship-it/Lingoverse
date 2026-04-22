@@ -1,4 +1,4 @@
-// Korean V2 Unit 38 — B1 Vocabulary Expansion: Description, Cooking, Movement, Actions & Home
+// Korean V2 Unit 38. B1 Vocabulary Expansion: Description, Cooking, Movement, Actions & Home
 import L21 from './_temp_b1gap_L21.js';
 import L22 from './_temp_b1gap_L22.js';
 import L23 from './_temp_b1gap_L23.js';

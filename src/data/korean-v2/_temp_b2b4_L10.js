@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 10: Description and Indifference
+// Korean B2. Batch 4, Lesson 10: Description and Indifference
 // Words: 묘사하다, 무, 무관심, 무관심하다, 무궁화, 무기, 무너지다, 무늬, 무대, 무더위, 무덤, 무덥다, 무려, 무료, 무리, 무리하다, 무사하다, 무용가, 무의미하다, 무책임하다
 
 const LESSON_10 = {
@@ -119,7 +119,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'무려'는 어떤 의미로 쓰이나요?",
-     opts:["놀라운 수량을 강조할 때","작은 양을 말할 때","정확한 수를 말할 때","대략적인 수를 말할 때"],
+     opts:["대략적인 수를 말할 때","놀라운 수량을 강조할 때","작은 양을 말할 때","정확한 수를 말할 때"],
      ans:"놀라운 수량을 강조할 때",
      hint:"This adverb is placed before numbers to express amazement, like 'as many as' or 'no less than.'"},
 

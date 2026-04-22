@@ -1,4 +1,4 @@
-// L12: Transport — 20 A1 gap words
+// L12: Transport, 20 A1 gap words
 const LESSON_12 = {
   id:"nlv2_a1gap_l12", title:"Vervoer", icon:"\u{1F68C}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Er staat een ___ op de snelweg. Het verkeer staat stil.",
-     opts:["file","fiets","bus","meter"],
+     opts:["meter","file","fiets","bus"],
      ans:"file",
      hint:"Which word means 'traffic jam'? A long line of cars not moving."},
 

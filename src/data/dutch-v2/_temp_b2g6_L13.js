@@ -81,7 +81,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Hoeveel drop eten Nederlanders per jaar?",
-     opts:["Meer dan 30 miljoen kilo","Ongeveer 5 miljoen kilo","Minder dan 1 miljoen kilo","Drop is niet populair in Nederland"],
+     opts:["Drop is niet populair in Nederland","Meer dan 30 miljoen kilo","Ongeveer 5 miljoen kilo","Minder dan 1 miljoen kilo"],
      ans:"Meer dan 30 miljoen kilo",
      hint:"The Netherlands is the world's largest consumer of licorice per capita. The number is staggeringly high."},
 
@@ -101,7 +101,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Wat is een 'gelegenheidsonderneming'?",
-     opts:["Een tijdelijk bedrijf voor een specifieke gelegenheid","Een groot internationaal bedrijf","Een overheidsinstelling","Een bank voor kleine leningen"],
+     opts:["Een overheidsinstelling","Een bank voor kleine leningen","Een tijdelijk bedrijf voor een specifieke gelegenheid","Een groot internationaal bedrijf"],
      ans:"Een tijdelijk bedrijf voor een specifieke gelegenheid",
      hint:"Think of the stalls on King's Day. A temporary business set up for a specific occasion or opportunity."}
   ]

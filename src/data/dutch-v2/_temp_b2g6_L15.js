@@ -81,7 +81,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Wat is 'bauxiet'?",
-     opts:["Een erts waaruit aluminium wordt gewonnen","Een soort steen voor gebouwen","Een tropisch fruit","Een type brandstof"],
+     opts:["Een type brandstof","Een erts waaruit aluminium wordt gewonnen","Een soort steen voor gebouwen","Een tropisch fruit"],
      ans:"Een erts waaruit aluminium wordt gewonnen",
      hint:"Named after the French village Les Baux. It is the raw material mined to produce a common lightweight metal."},
 
@@ -101,7 +101,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Wat is 'huiswerkbegeleiding'?",
-     opts:["Bijles en ondersteuning bij het huiswerk","Een boek met uitleg","Een schoolvak","Een ouderavond"],
+     opts:["Een schoolvak","Een ouderavond","Bijles en ondersteuning bij het huiswerk","Een boek met uitleg"],
      ans:"Bijles en ondersteuning bij het huiswerk",
      hint:"'H...' is homework and 'begeleiding' is guidance. Extra support for students outside school hours."}
   ]

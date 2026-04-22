@@ -93,13 +93,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"において",src:"in/at (formal)"},{trg:"に関(かん)して",src:"regarding (formal)"},{trg:"に基(もと)づく",src:"based on"},{trg:"を通(つう)じて",src:"through (formal)"},{trg:"べき",src:"should/ought to"}],
      hint:"Match each formal written pattern with its English meaning."},
 
-    {type:"mc", q:"What does にすぎない express?", opts:["Merely / nothing more than (minimizing)","More than / exceeding","Absolutely / certainly","Possibly / perhaps"], ans:"Merely / nothing more than (minimizing)",
+    {type:"mc", q:"What does にすぎない express?", opts:["Possibly / perhaps","Merely / nothing more than (minimizing)","More than / exceeding","Absolutely / certainly"], ans:"Merely / nothing more than (minimizing)",
      hint:"This expression downplays the significance of something by saying it does not exceed a certain point."},
 
     {type:"fb", s:"わたしたちは環境(かんきょう)を守(まも)る{1}である。\n(We should protect the environment.)", a:"べき", opts:["べき","はず","そう","らしい"], sSrc:"We should protect the environment.",
      hint:"This formal particle expresses strong obligation or recommendation."},
 
-    {type:"mc", q:"What does ざるをえない express?", opts:["Having no choice but to (reluctant obligation)","Wanting to do something","Being able to do something","Refusing to do something"], ans:"Having no choice but to (reluctant obligation)",
+    {type:"mc", q:"What does ざるをえない express?", opts:["Being able to do something","Refusing to do something","Having no choice but to (reluctant obligation)","Wanting to do something"], ans:"Having no choice but to (reluctant obligation)",
      hint:"This pattern combines classical negative ず with forced inevitability."}
   ,{type:"match",pairs:[{trg:"に伴(ともな)う",src:"accompanying / along with / as a result of"},{trg:"にすぎない",src:"merely / nothing more than / only"},{trg:"に際(さい)して",src:"on the occasion of / when / in doing"},{trg:"ざるをえない",src:"have no choice but to / cannot help but"},{trg:"にほかならない",src:"nothing other than / precisely because"},{trg:"一方(いっぽう)で",src:"on one hand / while (contrasting)"}]},{type:"match",pairs:[{trg:"を踏(ふ)まえて",src:"taking into account / based on / considering"}]}]
 };

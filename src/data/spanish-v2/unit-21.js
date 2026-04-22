@@ -1,4 +1,4 @@
-// Unit 21 — En Las Noticias
+// Unit 21. En Las Noticias
 // Passive Voice & News Language
 
 export default {n:21,lang:"es",srcLang:"en",track:"v2",title:"En Las Noticias",sub:"Passive Voice & News Language",icon:"📰",level:"B1.3",color:"#7B5EE8",lessons:[

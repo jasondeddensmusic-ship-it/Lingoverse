@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Che cos'e l'obbligatorieta dell'azione penale?",
-     opts:["L'obbligo per l'accusato di confessare","L'obbligo per il PM di indagare su tutti i reati denunciati","L'obbligo per il giudice di emettere una condanna","L'obbligo per la vittima di testimoniare"],
+     opts:["L'obbligo per il PM di indagare su tutti i reati denunciati","L'obbligo per il giudice di emettere una condanna","L'obbligo per la vittima di testimoniare","L'obbligo per l'accusato di confessare"],
      ans:"L'obbligo per il PM di indagare su tutti i reati denunciati",
      hint:"A constitutional principle requiring prosecutors to investigate every reported crime. They cannot pick and choose which cases to pursue."},
 
@@ -75,7 +75,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Come si chiama la corte suprema italiana?",
-     opts:["La Corte Costituzionale","La Corte d'Appello","La Corte di Cassazione","Il Tribunale Supremo"],
+     opts:["La Corte d'Appello","La Corte di Cassazione","Il Tribunale Supremo","La Corte Costituzionale"],
      ans:"La Corte di Cassazione",
      hint:"The highest court in the ordinary judicial system. It sits in Rome and can only review legal questions, not re-examine facts."},
 
@@ -102,7 +102,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Perche il sistema giudiziario italiano e considerato lento?",
-     opts:["Perche ci sono pochi giudici","Perche le udienze vengono spesso rinviate e i processi ripetuti in appello","Perche non esiste una corte suprema","Perche le leggi sono troppo semplici"],
+     opts:["Perche le leggi sono troppo semplici","Perche ci sono pochi giudici","Perche le udienze vengono spesso rinviate e i processi ripetuti in appello","Perche non esiste una corte suprema"],
      ans:"Perche le udienze vengono spesso rinviate e i processi ripetuti in appello",
      hint:"Frequent postponements and the fact that appeal courts re-examine everything from scratch, not just legal errors, create very long proceedings."}
   ]

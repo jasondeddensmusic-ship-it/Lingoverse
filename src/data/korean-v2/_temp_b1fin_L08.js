@@ -38,7 +38,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"시험에서 답이 정답과 다르면?",
-     opts:["옳다","잘못되다","틀리다","완벽하다"],
+     opts:["틀리다","완벽하다","옳다","잘못되다"],
      ans:"틀리다",
      hint:"This word specifically means factually incorrect, especially on tests and quizzes."},
 
@@ -149,7 +149,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"'적당히'의 반대 개념은?",
-     opts:["지나치게","제대로","확실히","완전히"],
+     opts:["완전히","지나치게","제대로","확실히"],
      ans:"지나치게",
      hint:"The opposite of doing something in moderation is doing it excessively or too much."}
   ]

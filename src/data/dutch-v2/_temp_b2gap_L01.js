@@ -1,4 +1,4 @@
-// L01: Encouragement & Persuasion — 20 B2 gap words
+// L01: Encouragement & Persuasion, 20 B2 gap words
 const LESSON_1 = {
   id:"nlv2_b2gap_l1", title:"Aanmoedigen en Overtuigen", icon:"\uD83D\uDCAA", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_1 = {
      deepDive:{title:"Stress patterns reveal separability",
       text:"In separable verbs, the stress falls on the prefix: AANmoedigen, AANsporen, AANscherpen. In inseparable verbs, the stress falls on the verb stem: beNAdrukken, beVEStigen, beOORdelen.\n\nThis is the same pattern as in English: OVERlook (miss) vs overLOOK (supervise). The stress tells you whether the prefix is 'part of' the verb or 'attached to' it.\n\nPractical consequence: in the past participle, separable verbs insert 'ge-' between prefix and stem (aanGEmoedigd), while inseparable verbs skip 'ge-' entirely (benadrukt, bevestigd)."}},
     {type:"mc", q:"'De coach moedigde het team aan.' What does 'aanmoedigen' mean?",
-     opts:["to discourage","to encourage","to punish","to replace"],
+     opts:["to encourage","to punish","to replace","to discourage"],
      ans:"to encourage",
      hint:"The root word 'moed' means courage. The prefix adds it."},
     {type:"mc", q:"Which verb means 'to tighten or sharpen rules'?",
@@ -127,7 +127,7 @@ const LESSON_1 = {
       {trg:"aanscherpen", src:"to tighten"}
     ]},
     {type:"mc", q:"'De media blazen de angst aan.' What are the media doing?",
-     opts:["calming the fear","fanning the fear","reporting the fear","ignoring the fear"],
+     opts:["ignoring the fear","calming the fear","fanning the fear","reporting the fear"],
      ans:"fanning the fear",
      hint:"Think of blowing on flames to make them bigger."},
     {type:"fb", s:"Heb je de {1} al ontvangen?", a:["bevestiging"],
@@ -141,7 +141,7 @@ const LESSON_1 = {
       {trg:"aanvulling", src:"supplement"}
     ]},
     {type:"mc", q:"'Aanvaardbaar' is the formal way to say:",
-     opts:["unacceptable","affordable","acceptable","adjustable"],
+     opts:["adjustable","unacceptable","affordable","acceptable"],
      ans:"acceptable",
      hint:"From 'aanvaarden', the formal verb for accepting something."},
     {type:"fb", s:"Dit rapport is een {1} op het vorige.", a:["aanvulling"],

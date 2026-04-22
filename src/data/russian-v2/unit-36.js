@@ -1,4 +1,4 @@
-// Russian V2 Unit 36 — Mastery and Fluency (B2.2 Capstone)
+// Russian V2 Unit 36. Mastery and Fluency (B2.2 Capstone)
 const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свободное владение", sub:"Fluency and Mastery",
  icon:"🏆", level:"B2.2", color:"#7B5EE8",
  lessons:[
@@ -43,7 +43,7 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
  note:"Feminine -ь.\nПоставить цель = set a goal.",
  example:"A: Какая твоя цель?\nB: Говорить свободно.",
  exampleSrc:"A: What's your goal?\nB: To speak fluently.",
- funFact:"Цель (goal) and целый (whole, complete) share root. Goals 'complete' something in you. Russian view: goals aren't external — they're about wholeness."},
+ funFact:"Цель (goal) and целый (whole, complete) share root. Goals 'complete' something in you. Russian view: goals aren't external, they're about wholeness."},
 
 {type:"teach", trg:"продолжать", src:"to continue", pos:"verb", gender:null,
  note:"Imperfective. Pair: продолжить.\n+ Infinitive for continuing activity.",
@@ -55,27 +55,27 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
  note:"Fixed phrase.\nFrom поздравлять (to congratulate).",
  example:"A: Я выучил русский!\nB: Поздравляю!",
  exampleSrc:"A: I learned Russian!\nB: Congratulations!",
- funFact:"Russian celebrates effortful achievements. 'Поздравляю' carries warmth — genuine appreciation for someone's work. More than casual 'congrats.'"},
+ funFact:"Russian celebrates effortful achievements. 'Поздравляю' carries warmth, genuine appreciation for someone's work. More than casual 'congrats.'"},
 
 {type:"tip", title:"The Russian Learning Journey",
  text:"YOUR JOURNEY SO FAR:\n\nLEVEL A1 (Units 1-6):\nBasic greetings, family, numbers, food, time, places.\nFoundation of survival Russian.\n\nLEVEL A2 (Units 7-12):\nWeather, shopping, health, work, hobbies, travel.\nDaily life in Russian.\n\nLEVEL B1 (Units 13-24):\nAspect (the Russian verb system)\nSix cases\nPast/future tenses\nReflexive verbs\nImperative\nMotion verbs with prefixes\n\nLEVEL B2 (Units 25-36):\nSociety, science, business, health, media\nArts, history, nature\nFormal Russian\nGeography\nIdioms\nMastery\n\nWHAT'S NEXT?\n• READ: Russian novels (short stories of Chekhov, Dostoyevsky's shorter works)\n• WATCH: Russian films with subtitles, TV series\n• LISTEN: Russian podcasts, music, news\n• SPEAK: Find conversation partners, language exchanges\n• WRITE: Journal in Russian, social media posts\n\nCONGRATULATIONS on reaching this level. You've built a strong foundation. Continuing to practice is the only path forward.\n\nУдачи в учёбе! (Good luck in your studies!)",
  deepDive:{title:"Becoming a Lifelong Learner",
-  text:"Russian at B2 is just the beginning of authentic mastery. Native speakers know ~40,000+ words; you may know ~5,000. The best path forward: read extensively, engage with culture, find Russians to talk with. The language comes alive in context. Don't aim for perfection — aim for communication. Make mistakes confidently. Russians appreciate effort deeply."}},
+  text:"Russian at B2 is just the beginning of authentic mastery. Native speakers know ~40,000+ words; you may know ~5,000. The best path forward: read extensively, engage with culture, find Russians to talk with. The language comes alive in context. Don't aim for perfection, aim for communication. Make mistakes confidently. Russians appreciate effort deeply."}},
 
 {type:"mc", q:"What's the perfective pair of 'учить'?",
- opts:["изучить","выучить","учиться","понимать"],
+ opts:["выучить","учиться","понимать","изучить"],
  ans:"выучить",
- hint:"Mastering the learning — perfective prefix вы- signals completion."},
+ hint:"Mastering the learning, perfective prefix вы- signals completion."},
 
 {type:"mc", q:"Which Russian expresses 'to speak fluently'?",
  opts:["говорить быстро","говорить свободно","говорить много","говорить громко"],
  ans:"говорить свободно",
  hint:"Свободно (freely) = fluently. Free with the language."},
 
-{type:"fb", s:"Моя {1} — говорить свободно по-русски.",
+{type:"fb", s:"Моя {1}, говорить свободно по-русски.",
  a:["цель"],
  opts:["цель","мечта","учёба","понимание"],
- hint:"Goal/objective of learning — what drives progress?",
+ hint:"Goal/objective of learning, what drives progress?",
  sSrc:"My goal is to speak Russian fluently."},
 
 {type:"fb", s:"A: Я уже говорю на двух языках!\nB: {1}!",
@@ -93,7 +93,7 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
 ]},
 
 {type:"mc", q:"What's the best Russian learning strategy from this unit?",
- opts:["Memorize 40,000 words","Read, watch, listen, speak, write regularly","Only study grammar","Translate everything to English"],
+ opts:["Translate everything to English","Memorize 40,000 words","Read, watch, listen, speak, write regularly","Only study grammar"],
  ans:"Read, watch, listen, speak, write regularly",
  hint:"Balance of all skills. Context is key."}
 ,

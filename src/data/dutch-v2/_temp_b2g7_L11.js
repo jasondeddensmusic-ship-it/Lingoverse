@@ -90,7 +90,7 @@ const LESSON_11 = {
      funFact:"Dutch creates powerful verbs with 'ineen': ineenstorten (collapse), ineenkrimpen (cringe), ineenslaan (interlock). All suggest things coming together forcefully."},
     {type:"mc",
      q:"Wat betekent 'in lichterlaaie staan'?",
-     opts:["In brand staan","Fel verlicht zijn","In de zon staan","Gloeiend heet zijn"],
+     opts:["Gloeiend heet zijn","In brand staan","Fel verlicht zijn","In de zon staan"],
      ans:"In brand staan",
      hint:"'Lichterlaaie' describes bright, blazing flames. What state is a building in when it is burning fiercely?"},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_11 = {
      sSrc:"{1} last year, unemployment has now decreased."},
     {type:"mc",
      q:"Wanneer gebruik je 'in overleg met'?",
-     opts:["Als je iets samen met anderen hebt besloten","Als je iets alleen hebt gedaan","Als je het ergens niet mee eens bent","Als je iets snel moet afmaken"],
+     opts:["Als je het ergens niet mee eens bent","Als je iets snel moet afmaken","Als je iets samen met anderen hebt besloten","Als je iets alleen hebt gedaan"],
      ans:"Als je iets samen met anderen hebt besloten",
      hint:"'Overleg' means consultation or deliberation. This expression signals that others were involved in a decision."},
     {type:"match", pairs:[

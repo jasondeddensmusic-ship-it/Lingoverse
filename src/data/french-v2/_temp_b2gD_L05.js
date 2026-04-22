@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 5 — Education and Learning
+// French B2 Gap Batch D Lesson 5. Education and Learning
 const LESSON_5 = {id:"frv2_b2gD_l5", title:"Enseignement et apprentissage", icon:"📚", xp:15, board:true, steps:[
   {type:"intro", title:"Enseignement et apprentissage",
    desc:"Build vocabulary for discussing education systems, teaching methods, and academic life in France.",
@@ -73,7 +73,7 @@ const LESSON_5 = {id:"frv2_b2gD_l5", title:"Enseignement et apprentissage", icon
 
   {type:"mc",
    q:"Qu'est-ce que 'la déscolarisation'?",
-   opts:["L'abandon scolaire ou la sortie du système éducatif","L'inscription dans une nouvelle école","La réforme du programme scolaire","L'apprentissage à domicile par choix"],
+   opts:["L'apprentissage à domicile par choix","L'abandon scolaire ou la sortie du système éducatif","L'inscription dans une nouvelle école","La réforme du programme scolaire"],
    ans:"L'abandon scolaire ou la sortie du système éducatif",
    hint:"The prefix 'dé-' means removal or reversal. Think about what it means to undo 'scolarisation'."},
 

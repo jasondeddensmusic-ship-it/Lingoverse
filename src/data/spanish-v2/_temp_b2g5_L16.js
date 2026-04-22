@@ -78,7 +78,7 @@ const LESSON_16 = {id:"esv2_b2g5_l16",title:"Movimiento y deporte",icon:"⚽",xp
  exampleSrc:"A: There was total chaos in the defense.\nB: That's why we conceded three goals in ten minutes.",
  funFact:"In Spanish nightlife slang, 'fue un descontrol' means a wild, out-of-control party."},
 
-{type:"mc",q:"¿Qué es la halterofilia?",opts:["El deporte de levantar pesas","Un tipo de carrera de obstáculos","Una técnica de natación","Un ejercicio de estiramiento"],ans:"El deporte de levantar pesas",hint:"An Olympic sport where athletes lift very heavy barbells above their heads."},
+{type:"mc",q:"¿Qué es la halterofilia?",opts:["Un ejercicio de estiramiento","El deporte de levantar pesas","Un tipo de carrera de obstáculos","Una técnica de natación"],ans:"El deporte de levantar pesas",hint:"An Olympic sport where athletes lift very heavy barbells above their heads."},
 
 {type:"fb",s:"El equipo ganó gracias a un {1} rápido en el último minuto.",a:["contragolpe"],opts:["contragolpe","estampido","escaque","córner"],hint:"A quick attack launched immediately after defending, catching the opponent off guard.",sSrc:"The team won thanks to a quick {1} in the last minute."},
 
@@ -86,7 +86,7 @@ const LESSON_16 = {id:"esv2_b2g5_l16",title:"Movimiento y deporte",icon:"⚽",xp
 
 {type:"fb",s:"El entrenador {1} el ceño cuando vio el penalti.",a:["frunció"],opts:["frunció","flexionó","fragmentó","fraccionó"],hint:"To wrinkle or pucker the brow, showing displeasure.",sSrc:"The coach {1} when he saw the penalty."},
 
-{type:"mc",q:"¿Qué significa 'fraccionar un pago'?",opts:["Dividirlo en varias cuotas","Pagarlo todo de golpe","Cancelar el pago","Aumentar el precio"],ans:"Dividirlo en varias cuotas",hint:"To split a total amount into smaller portions paid over time."}
+{type:"mc",q:"¿Qué significa 'fraccionar un pago'?",opts:["Cancelar el pago","Aumentar el precio","Dividirlo en varias cuotas","Pagarlo todo de golpe"],ans:"Dividirlo en varias cuotas",hint:"To split a total amount into smaller portions paid over time."}
 ]};
 
 export default LESSON_16;

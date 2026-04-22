@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)の有罪(ゆうざい)率(りつ)はどのくらいですか？",
-     opts:["Over 99%","About 50%","About 75%","About 90%"],
+     opts:["About 90%","Over 99%","About 50%","About 75%"],
      ans:"Over 99%",
      hint:"Japan's conviction rate is remarkably high, which means prosecutors are very selective about which cases to bring to court."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"I paid a fine for a traffic violation."},
 
     {type:"mc", q:"日本国憲法(にほんこくけんぽう)の第九条(だいきゅうじょう)は何(なに)を規定(きてい)していますか？",
-     opts:["Renunciation of war","Freedom of speech","Right to education","Right to work"],
+     opts:["Right to education","Right to work","Renunciation of war","Freedom of speech"],
      ans:"Renunciation of war",
      hint:"This is the most famous and most debated article of the Japanese constitution, establishing a unique military policy."}
   ,{type:"match",pairs:[{trg:"契約(けいやく)",src:"contract / agreement"},{trg:"罰金(ばっきん)",src:"fine (monetary penalty)"},{trg:"正当(せいとう)",src:"legitimate / justified / fair"},{trg:"損害賠償(そんがいばいしょう)",src:"compensation for damages"},{trg:"条例(じょうれい)",src:"ordinance / local regulation"},{trg:"憲法(けんぽう)",src:"constitution"}]}]

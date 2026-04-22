@@ -32,7 +32,7 @@ const LESSON_16 = {id:"esv2_b2gap_l16",title:"Personas y roles",icon:"👥",xp:1
  exampleSrc:"A: The astronomer discovered a new asteroid.\nB: They named it after him in honor of the discovery.",
  funFact:"Spain's Canary Islands have world-class astronomical observatories due to exceptionally clear skies."},
 
-{type:"mc",q:"Un trabajador de la construcción que trabaja con ladrillos es:",opts:["un agente","un albañil","un acupuntor","un astrónomo"],ans:"un albañil",hint:"This Arabic-origin word describes someone who builds with bricks and mortar."},
+{type:"mc",q:"Un trabajador de la construcción que trabaja con ladrillos es:",opts:["un albañil","un acupuntor","un astrónomo","un agente"],ans:"un albañil",hint:"This Arabic-origin word describes someone who builds with bricks and mortar."},
 
 {type:"teach",trg:"el ateo",src:"the atheist",pos:"noun",gender:"m",
  note:"Masculine noun. A person who does not believe in God.\nFeminine: la atea.",
@@ -118,13 +118,13 @@ const LESSON_16 = {id:"esv2_b2gap_l16",title:"Personas y roles",icon:"👥",xp:1
 
 {type:"fb",s:"Encontré a un {1} en el aeropuerto de Bangkok.",a:["compatriota"],opts:["compatriota","anglosajón","brasileño","católico"],hint:"Someone from your same home country, found unexpectedly abroad.",sSrc:"I found a {1} at the Bangkok airport."},
 
-{type:"mc",q:"El personaje literario Don Juan es famoso por ser un:",opts:["bedel","burlador","conferenciante","albañil"],ans:"burlador",hint:"A trickster and seducer from classic Spanish literature."},
+{type:"mc",q:"El personaje literario Don Juan es famoso por ser un:",opts:["albañil","bedel","burlador","conferenciante"],ans:"burlador",hint:"A trickster and seducer from classic Spanish literature."},
 
 {type:"match",pairs:[{trg:"albañil",src:"bricklayer"},{trg:"bedel",src:"school caretaker"},{trg:"colegiado",src:"referee"},{trg:"conferenciante",src:"speaker"},{trg:"burlador",src:"trickster"}]},
 
 {type:"fb",s:"Los {1} llevan uniforme en muchos centros educativos.",a:["colegiales"],opts:["colegiales","colegiados","conferenciantes","compatriotas"],hint:"Young students who attend primary or secondary school.",sSrc:"The {1} wear uniforms in many educational centers."},
 
-{type:"mc",q:"'Anglófono' significa una persona que habla:",opts:["Francés","Español","Inglés","Portugués"],ans:"Inglés",hint:"The prefix 'anglo-' refers to English, and '-fono' means speaker."}
+{type:"mc",q:"'Anglófono' significa una persona que habla:",opts:["Portugués","Francés","Español","Inglés"],ans:"Inglés",hint:"The prefix 'anglo-' refers to English, and '-fono' means speaker."}
 ]};
 
 export default LESSON_16;

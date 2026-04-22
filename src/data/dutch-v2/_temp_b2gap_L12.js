@@ -1,4 +1,4 @@
-// L12: Health & Body — 20 B2 gap words
+// L12: Health & Body, 20 B2 gap words
 const LESSON_12 = {
   id:"nlv2_b2gap_l12", title:"Gezondheid en Lichaam", icon:"\uD83E\uDE7A", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_12 = {
      deepDive:{title:"Dutch healthcare system",
       text:"The Dutch healthcare system is based on mandatory health insurance ('zorgverzekering'). Key features:\n\nEveryone must have 'basiszorg' (basic insurance), about 130 euros/month.\nThe 'huisarts' (GP) is the gatekeeper for all specialist care.\n'Eigen risico' (deductible) is about 385 euros/year.\n'De apotheek' (pharmacy) fills prescriptions.\n'De huisartsenpost' (after-hours GP) handles evenings/weekends.\n\nEmergency: call 112 or go to 'de Spoedeisende Hulp' (ER).\nNon-urgent: call the huisarts or use 'Thuisarts.nl'."}},
     {type:"mc", q:"What does 'nuchter' mean in a medical context?",
-     opts:["sober","fasting","nervous","awake"],
+     opts:["fasting","nervous","awake","sober"],
      ans:"fasting",
      hint:"Before a blood test, you must not eat for 12 hours."},
     {type:"mc", q:"The Dutch exercise guideline recommends:",
@@ -132,7 +132,7 @@ const LESSON_12 = {
       {trg:"ademhaling", src:"breathing"}
     ]},
     {type:"mc", q:"'Benauwd' can mean all of the following EXCEPT:",
-     opts:["stuffy","short of breath","anxious","hungry"],
+     opts:["short of breath","anxious","hungry","stuffy"],
      ans:"hungry",
      hint:"It relates to tight spaces, breathing difficulty, or oppressive feelings."},
     {type:"fb", s:"Hij heeft een visuele {1}.", a:["beperking"],

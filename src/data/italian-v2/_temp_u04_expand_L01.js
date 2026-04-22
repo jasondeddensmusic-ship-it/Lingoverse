@@ -87,7 +87,7 @@ const LESSON_3 = {
      sSrc:"I like {1}."},
 
     {type:"mc", q:"How many pasta shapes exist in Italy?",
-     opts:["Over 300","About 50","Exactly 100","Less than 20"],
+     opts:["Less than 20","Over 300","About 50","Exactly 100"],
      ans:"Over 300",
      hint:"Each shape is designed for a specific type of sauce. Italians take the pairing very seriously."},
 
@@ -106,7 +106,7 @@ const LESSON_3 = {
     ]},
 
     {type:"mc", q:"How do you say 'I like spaghetti' in Italian?",
-     opts:["Mi piacciono gli spaghetti","Mi piace gli spaghetti","Io piaccio gli spaghetti","Mi piace lo spaghetti"],
+     opts:["Io piaccio gli spaghetti","Mi piace lo spaghetti","Mi piacciono gli spaghetti","Mi piace gli spaghetti"],
      ans:"Mi piacciono gli spaghetti",
      hint:"S... is plural, so the verb must be plural too. The thing liked is the grammatical subject."},
 
@@ -117,7 +117,7 @@ const LESSON_3 = {
      sSrc:"The pizza is {1}!"},
 
     {type:"mc", q:"Why do Italians avoid saying food is 'cattivo'?",
-     opts:["It sounds too harsh; 'non buono' is gentler","Cattivo only describes people","It is grammatically wrong","It means poisonous"],
+     opts:["Cattivo only describes people","It is grammatically wrong","It means poisonous","It sounds too harsh; 'non buono' is gentler"],
      ans:"It sounds too harsh; 'non buono' is gentler",
      hint:"Italian food culture is sensitive. Saying 'not good' is diplomatic; saying 'bad' is a strong insult."},
 

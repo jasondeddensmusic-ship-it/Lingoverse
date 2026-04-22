@@ -80,7 +80,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Que désigne 'le maillon' dans une chaîne ?",
-     opts:["Un anneau qui relie deux parties","Le premier élément","Le dernier élément","Le point central"],
+     opts:["Le point central","Un anneau qui relie deux parties","Le premier élément","Le dernier élément"],
      ans:"Un anneau qui relie deux parties",
      hint:"Think of a physical chain: each ring that connects to the next is one of these."},
 
@@ -131,7 +131,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Que signifie 'poser des jalons' ?",
-     opts:["Préparer le terrain pour un projet","Planter des arbres","Installer des clôtures","Construire des routes"],
+     opts:["Installer des clôtures","Construire des routes","Préparer le terrain pour un projet","Planter des arbres"],
      ans:"Préparer le terrain pour un projet",
      hint:"From surveyor's markers along a path. Figuratively, doing the preparatory work."},
 

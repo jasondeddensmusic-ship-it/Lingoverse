@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: The number of young people is decreasing.\nB: It is the effect of the declining birthrate.\nA: When was it?\nB: It was last summer.",
      funFact:"減(へ)る (intransitive, to decrease) pairs with 減(へ)らす (transitive, to reduce). The distinction matters: 人口(じんこう)が減(へ)る (population decreases, naturally) vs. ごみを減(へ)らす (to reduce garbage, deliberately). This intransitive/transitive verb pair pattern is fundamental to Japanese."},
 
-    {type:"mc", q:"少子化(しょうしか)と高齢化(こうれいか) combined describe:", opts:["A growing population","Japan's twin demographic crisis: few births and aging","Economic growth","Immigration policy"], ans:"Japan's twin demographic crisis: few births and aging",
+    {type:"mc", q:"少子化(しょうしか)と高齢化(こうれいか) combined describe:", opts:["Japan's twin demographic crisis: few births and aging","Economic growth","Immigration policy","A growing population"], ans:"Japan's twin demographic crisis: few births and aging",
      hint:"少子(しょうし) (f... children) + 化(か) and 高齢(こうれい) (elderly) + 化(か) describe J...'s d... reality."},
 
     {type:"teach", trg:"増(ふ)える", src:"to increase / to grow in number", pos:"verb", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: It is a serious labor shortage.\nB: We must think of solutions.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"深刻 literally means 'deeply engraved,' suggesting a problem that cuts deep. Japanese news uses 深刻(しんこく) to signal that a situation has crossed from concerning to critical. 深刻(しんこく)な人材(じんざい)不足(ぶそく) (severe labor shortage) is one of the most-heard phrases in modern Japanese economic discussion."},
 
-    {type:"mc", q:"過疎化(かそか) means:", opts:["overcrowding","population growth","depopulation / becoming sparse","urbanization"], ans:"depopulation / becoming sparse",
+    {type:"mc", q:"過疎化(かそか) means:", opts:["population growth","depopulation / becoming sparse","urbanization","overcrowding"], ans:"depopulation / becoming sparse",
      hint:"過(か) (excess/passing) + 疎(そ) (s.../alienated) + 化(か) (-ification). People leaving, areas emptying."},
 
     {type:"tip", title:"Japan's Demographic Vocabulary",
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"減(へ)る",src:"to decrease"},{trg:"増(ふ)える",src:"to increase"},{trg:"移民(いみん)",src:"immigration"},{trg:"深刻(しんこく)",src:"serious/severe"}]},
 
-    {type:"mc", q:"減(へ)る vs 減(へ)らす: what is the difference?", opts:["They mean the same thing","減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)","減(へ)る is formal; 減(へ)らす is casual","減(へ)る is past; 減(へ)らす is present"], ans:"減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)",
+    {type:"mc", q:"減(へ)る vs 減(へ)らす: what is the difference?", opts:["減(へ)る is past; 減(へ)らす is present","They mean the same thing","減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)","減(へ)る is formal; 減(へ)らす is casual"], ans:"減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)",
      hint:"One describes something happening by itself. The other describes a deliberate act by an agent. Same kanji, different ending."},
   {type:"match",pairs:[{trg:"地域(ちいき)",src:"region / area / community"}]}]
 };

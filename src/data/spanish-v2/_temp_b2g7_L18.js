@@ -13,7 +13,7 @@ const LESSON_18 = {id:"esv2_b2g7_l18",title:"Cambio gradual y movimiento",icon:"
 {type:"teach",trg:"la consideración",src:"the consideration",pos:"noun",gender:"f",note:"Careful thought or respect. Recycled from Lesson 4.",example:"A: Tomemos en consideración todos los factores.\nB: Agradezco su consideración hacia mi propuesta.",exampleSrc:"A: Let us take into consideration all the factors.\nB: I appreciate your consideration of my proposal.",funFact:"'En consideración a' means 'in view of'. It is extremely common in formal Spanish writing and speeches."},
 {type:"mc",q:"Cuando dos adverbios en -mente van juntos, se dice:",opts:["'lenta y constantemente' (solo el segundo lleva -mente)","'lentamente y constantemente'","'lenta-mente y constante-mente'","No se pueden usar dos juntos"],ans:"'lenta y constantemente' (solo el segundo lleva -mente)",hint:"In Spanish, only the last adverb in a series keeps the -m... suffix."},
 {type:"fb",s:"La economía se recupera {1}, pero de forma constante.",a:["lentamente"],opts:["lentamente","masivamente","indirectamente","logísticamente"],hint:"This adverb means at a slow pace.",sSrc:"The economy is recovering {1}, but steadily."},
-{type:"mc",q:"Un 'punto de inflexión' es:",opts:["Un momento de cambio importante","Un lugar en un mapa","Un tipo de ejercicio","Una moneda"],ans:"Un momento de cambio importante",hint:"This phrase describes a critical moment when the direction of something changes."},
+{type:"mc",q:"Un 'punto de inflexión' es:",opts:["Una moneda","Un momento de cambio importante","Un lugar en un mapa","Un tipo de ejercicio"],ans:"Un momento de cambio importante",hint:"This phrase describes a critical moment when the direction of something changes."},
 {type:"fb",s:"Debemos seguir los {1} establecidos por el ministerio.",a:["lineamientos"],opts:["lineamientos","estiramientos","acondicionamientos","mandatos"],hint:"These are official guidelines or directives from an authority.",sSrc:"We must follow the {1} established by the ministry."},
 {type:"match",pairs:[
   {trg:"lentamente",src:"slowly"},
@@ -22,7 +22,7 @@ const LESSON_18 = {id:"esv2_b2g7_l18",title:"Cambio gradual y movimiento",icon:"
   {trg:"el lineamiento",src:"the guideline"},
   {trg:"la complementación",src:"the complementation"}
 ]},
-{type:"mc",q:"'El acondicionamiento físico' se refiere a:",opts:["La preparación del cuerpo mediante ejercicio","La decoración de una habitación","La reparación de un coche","La limpieza de una casa"],ans:"La preparación del cuerpo mediante ejercicio",hint:"Think about conditioning the body through physical training."},
+{type:"mc",q:"'El acondicionamiento físico' se refiere a:",opts:["La reparación de un coche","La limpieza de una casa","La preparación del cuerpo mediante ejercicio","La decoración de una habitación"],ans:"La preparación del cuerpo mediante ejercicio",hint:"Think about conditioning the body through physical training."},
 {type:"fb",s:"Tomemos en {1} todos los factores antes de decidir.",a:["consideración"],opts:["consideración","complementación","finalización","inflexión"],hint:"This formal expression means to take into careful thought.",sSrc:"Let us take into {1} all factors before deciding."}
 ]};
 export default LESSON_18;

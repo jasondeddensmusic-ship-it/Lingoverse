@@ -92,7 +92,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Comment dit-on 'me too' en français ?",
-     opts:["Moi aussi","Moi alors","Moi ainsi","Moi aujourd'hui"],
+     opts:["Moi aujourd'hui","Moi aussi","Moi alors","Moi ainsi"],
      ans:"Moi aussi",
      hint:"This adverb means 'also' or 'too' and goes after the verb or pronoun."},
 
@@ -143,7 +143,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot veut dire 'before' en français ?",
-     opts:["avant","après","avec","aussi"],
+     opts:["avec","aussi","avant","après"],
      ans:"avant",
      hint:"This word is the opposite of 'après' and refers to earlier in time."},
 

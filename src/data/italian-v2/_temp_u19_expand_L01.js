@@ -73,7 +73,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"How do you say 'I miss you' in Italian?",
-     opts:["Ti manco","Mi manchi","Io manco te","Tu manchi me"],
+     opts:["Mi manchi","Io manco te","Tu manchi me","Ti manco"],
      ans:"Mi manchi",
      hint:"The grammar is reversed: 'you are lacking to me.' The person missed is the subject, not the object."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"Mutual {1} is fundamental."},
 
     {type:"mc", q:"What does 'complicita' mean in a romantic relationship?",
-     opts:["Criminal involvement together","Deep closeness and shared understanding","Competitive rivalry between partners","Formal business partnership"],
+     opts:["Formal business partnership","Criminal involvement together","Deep closeness and shared understanding","Competitive rivalry between partners"],
      ans:"Deep closeness and shared understanding",
      hint:"In Italian relationships, this word is warmly positive. It describes finishing each other's sentences and sharing private jokes."},
 
@@ -114,7 +114,7 @@ const LESSON_4 = {
      sSrc:"I have grown {1} to the neighbor's dog."},
 
     {type:"mc", q:"Where does 'tradire' (to betray) come from?",
-     opts:["Arabic 'tadrij' (deception)","Germanic 'tradi' (treachery)","Latin 'tradere' (to hand over)","Greek 'tradikos' (dishonest)"],
+     opts:["Greek 'tradikos' (dishonest)","Arabic 'tadrij' (deception)","Germanic 'tradi' (treachery)","Latin 'tradere' (to hand over)"],
      ans:"Latin 'tradere' (to hand over)",
      hint:"The same root gives English 'traitor' and even 'tradition' (handing down customs). Dante placed traitors in the deepest circle."}
   ]

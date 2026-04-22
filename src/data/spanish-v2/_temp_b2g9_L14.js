@@ -1,4 +1,4 @@
-// Lesson 14 — Objetos y materiales (Objects and Materials)
+// Lesson 14. Objetos y materiales (Objects and Materials)
 const LESSON_14 = {id:"esv2_b2g9_l14", title:"Objetos y materiales", icon:"\u{1F9F1}", xp:25, board:true, steps:[
   {type:"intro", title:"Objetos y materiales",
    desc:"Name everyday objects, tools, and materials with precision. From keychains to skateparks, build vocabulary for describing the physical world around you.",
@@ -35,7 +35,7 @@ const LESSON_14 = {id:"esv2_b2g9_l14", title:"Objetos y materiales", icon:"\u{1F
    funFact:"'Asta' uses 'el' (not 'la') before it because it starts with a stressed 'a', like 'el agua' and 'el \u00e1guila'. But it is feminine."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un llavero?",
-   opts:["Una tienda de llaves","Un objeto para guardar las llaves juntas","Un cerrajero","Una cerradura"],
+   opts:["Un objeto para guardar las llaves juntas","Un cerrajero","Una cerradura","Una tienda de llaves"],
    ans:"Un objeto para guardar las llaves juntas",
    hint:"The -ero suffix here means 'holder': llave (key) + ero = key holder."},
 

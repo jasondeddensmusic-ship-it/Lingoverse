@@ -1,4 +1,4 @@
-// Lesson 19 — Tecnologia y modernidad (Technology and Modernity)
+// Lesson 19. Tecnologia y modernidad (Technology and Modernity)
 const LESSON_19 = {id:"esv2_b2g9_l19", title:"Tecnolog\u00eda y modernidad", icon:"\u{1F4F1}", xp:25, board:true, steps:[
   {type:"intro", title:"Tecnolog\u00eda y modernidad",
    desc:"Navigate the vocabulary of technology, innovation, and the modern digital world. From GPS to casting calls, these terms define contemporary life.",
@@ -69,7 +69,7 @@ const LESSON_19 = {id:"esv2_b2g9_l19", title:"Tecnolog\u00eda y modernidad", ico
    funFact:"'Cabeza' appears in many Spanish expressions: 'cabeza de turco' (scapegoat), 'de cabeza' (headfirst), 'perder la cabeza' (to lose one's mind)."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un ERE?",
-   opts:["Un tipo de contrato laboral","Un procedimiento formal de despido masivo","Una empresa de trabajo temporal","Un sindicato"],
+   opts:["Un procedimiento formal de despido masivo","Una empresa de trabajo temporal","Un sindicato","Un tipo de contrato laboral"],
    ans:"Un procedimiento formal de despido masivo",
    hint:"Expediente de Regulaci\u00f3n de Empleo. It is what companies must file when laying off many workers at once."},
 

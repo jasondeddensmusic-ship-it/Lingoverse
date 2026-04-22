@@ -40,7 +40,7 @@ const LESSON_18 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"공연을 보는 사람들을 뭐라고 해요?",
-     opts:["그룹","드라마","관객","동화"],
+     opts:["관객","동화","그룹","드라마"],
      ans:"관객",
      hint:"The word combines 'watch' and 'guest' in its hanja roots. Spectators at a show."},
 
@@ -137,7 +137,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"'다양하다'의 뜻에 가장 가까운 것은?",
-     opts:["매우 크다","아주 좋다","단순하다","여러 종류가 있다"],
+     opts:["아주 좋다","단순하다","여러 종류가 있다","매우 크다"],
      ans:"여러 종류가 있다",
      hint:"This adjective describes having many different types or varieties of something."},
 

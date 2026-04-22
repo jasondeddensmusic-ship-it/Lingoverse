@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'la bufala' mean in informal Italian?",
-     opts:["A type of Italian cheese","A hoax or fake story","A very large animal","A type of pasta dish"],
+     opts:["A hoax or fake story","A very large animal","A type of pasta dish","A type of Italian cheese"],
      ans:"A hoax or fake story",
      hint:"While literally meaning 'water buffalo,' in slang it describes false information. 'E una b...!' means 'It is f...!'"},
 
@@ -92,7 +92,7 @@ const LESSON_6 = {
      sSrc:"Did you {1} this information before sharing it?"},
 
     {type:"mc", q:"What is 'il clickbait'?",
-     opts:["A computer virus that steals data","Sensationalist headlines designed to generate clicks","An app for organizing bookmarks","A type of online advertisement"],
+     opts:["A type of online advertisement","A computer virus that steals data","Sensationalist headlines designed to generate clicks","An app for organizing bookmarks"],
      ans:"Sensationalist headlines designed to generate clicks",
      hint:"These eye-catching titles lure you into clicking, but the actual content often disappoints. Italian journalism has a long tradition of dramatic h...."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"This source is not {1}. Don't trust it."},
 
     {type:"mc", q:"What does 'Prima di condividere, verifica!' mean?",
-     opts:["Before writing, proofread carefully","Before sharing, fact-check first","Before posting, adjust privacy settings","Before buying, compare the prices"],
+     opts:["Before posting, adjust privacy settings","Before buying, compare the prices","Before writing, proofread carefully","Before sharing, fact-check first"],
      ans:"Before sharing, fact-check first",
      hint:"This is a common Italian media literacy slogan. It urges people to c... information b... spreading it online."}
   ]

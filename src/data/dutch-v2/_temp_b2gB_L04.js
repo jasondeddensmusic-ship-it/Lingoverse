@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 04 — Kinderen en Gezin
+// Dutch B2 gapB Lesson 04. Kinderen en Gezin
 // Children, family life, and parenting vocabulary
 
 const LESSON_4 = {id:"nlv2_b2gB_l4", title:"Kinderen en Gezin", icon:"\u{1F476}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_4 = {id:"nlv2_b2gB_l4", title:"Kinderen en Gezin", icon:"\u{1F476}"
  funFact:"Knutselen is considered a core Dutch childhood skill. Schools dedicate significant time to it, especially around Sinterklaas and Christmas."},
 
 {type:"mc", q:"'Het knuffeldier' is:",
- opts:["A pet you can hug","A stuffed animal","A teddy bear brand","A zoo animal"],
+ opts:["A stuffed animal","A teddy bear brand","A zoo animal","A pet you can hug"],
  ans:"A stuffed animal",
  hint:"Knuffel (cuddle) + dier (a...). The toy children sleep with."},
 
@@ -82,7 +82,7 @@ const LESSON_4 = {id:"nlv2_b2gB_l4", title:"Kinderen en Gezin", icon:"\u{1F476}"
 ]},
 
 {type:"mc", q:"'Een knuffel geven' betekent:",
- opts:["To give a gift","To give a hug","To give a stuffed toy","To give a kiss"],
+ opts:["To give a kiss","To give a gift","To give a hug","To give a stuffed toy"],
  ans:"To give a hug",
  hint:"The physical act of embracing someone warmly"},
 

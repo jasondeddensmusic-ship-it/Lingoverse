@@ -1,4 +1,4 @@
-// L09: Shopping — 20 A1 gap words
+// L09: Shopping, 20 A1 gap words
 const LESSON_9 = {
   id:"nlv2_a1gap_l9", title:"Boodschappen Doen", icon:"\u{1F6D2}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'Boodschappen doen' betekent ___.",
-     opts:["boodschappen kopen","een cadeau geven","naar de bakker gaan","geld betalen"],
+     opts:["geld betalen","boodschappen kopen","een cadeau geven","naar de bakker gaan"],
      ans:"boodschappen kopen",
      hint:"This phrase is about a routine household task involving a store and groceries."},
 

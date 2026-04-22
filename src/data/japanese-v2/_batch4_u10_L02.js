@@ -1,4 +1,4 @@
-// Batch 4 — Unit 10 Lesson 2: Outdoor Activities & Disasters
+// Batch 4. Unit 10 Lesson 2: Outdoor Activities & Disasters
 const BATCH4_L_2 = {
   id:"jav2_u10l_b4_2", title:"アウトドア", icon:"⛺", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"Which word is a Japanese loanword used worldwide?",
-     opts:["津波(つなみ)","台風(たいふう)","地震(じしん)","警報(けいほう)"], ans:"津波(つなみ)",
+     opts:["警報(けいほう)","津波(つなみ)","台風(たいふう)","地震(じしん)"], ans:"津波(つなみ)",
      hint:"Literally 'harbor wave,' adopted into English and most world languages."},
 
     {type:"fb", s:"山(やま)で{1}をしました。", a:"キャンプ",
@@ -110,11 +110,11 @@ const BATCH4_L_2 = {
      hint:"Sleeping outdoors in a tent, cooking over fire."},
 
     {type:"mc", q:"What is the J-Alert system?",
-     opts:["earthquake/disaster warning to phones","weather forecast app","news broadcast","traffic information"], ans:"earthquake/disaster warning to phones",
+     opts:["news broadcast","traffic information","earthquake/disaster warning to phones","weather forecast app"], ans:"earthquake/disaster warning to phones",
      hint:"An official system that sends emergency alerts to every mobile phone."},
 
     {type:"mc", q:"虹(にじ) means:",
-     opts:["rainbow","cloud","thunder","lightning"], ans:"rainbow",
+     opts:["cloud","thunder","lightning","rainbow"], ans:"rainbow",
      hint:"The colorful arc that appears in the sky after rain."}
   ,{type:"match",pairs:[{trg:"ハイキング",src:"hiking"},{trg:"釣(つ)り",src:"fishing"},{trg:"泳(およ)ぐ",src:"to swim"},{trg:"登(のぼ)る",src:"to climb"},{trg:"バーベキュー",src:"barbecue"},{trg:"虹(にじ)",src:"rainbow"}]},
   {type:"fb", s:"先週(せんしゅう)、友(とも)だちと山(やま)に{1}ました。", a:["登(のぼ)る"], opts:["登(のぼ)る","泳(およ)ぐ","釣(つ)り","ハイキング"], hint:"The verb meaning to ascend a mountain or height.", sSrc:"Last week I {1} a mountain with my friend."}

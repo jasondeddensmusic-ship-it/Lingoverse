@@ -1,4 +1,4 @@
-// Batch 4 — Unit 05 Lesson 2: Restaurant & Ordering
+// Batch 4. Unit 05 Lesson 2: Restaurant & Ordering
 const BATCH4_L_2 = {
   id:"jav2_u05l_b4_2", title:"レストラン", icon:"🍽️", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What is a 定食(ていしょく)?",
-     opts:["a set meal with rice and sides","a single dish","a dessert","a drink"], ans:"a set meal with rice and sides",
+     opts:["a drink","a set meal with rice and sides","a single dish","a dessert"], ans:"a set meal with rice and sides",
      hint:"A balanced Japanese m... combo that always includes r... and miso soup."},
 
     {type:"fb", s:"ご飯(はん)の{1}をお願(ねが)いします。", a:"お代(か)わり",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The word for getting a second serving of something."},
 
     {type:"mc", q:"アレルギー comes from which language?",
-     opts:["German","English","French","Dutch"], ans:"German",
+     opts:["French","Dutch","German","English"], ans:"German",
      hint:"Japan borrowed many medical terms from this European language."},
 
     {type:"mc", q:"持(も)ち帰(かえ)り means:",
-     opts:["takeout","delivery","reservation","waiting"], ans:"takeout",
+     opts:["delivery","reservation","waiting","takeout"], ans:"takeout",
      hint:"Taking food home rather than eating at the restaurant."}
   ,{type:"match",pairs:[{trg:"注文(ちゅうもん)",src:"order (at restaurant)"},{trg:"お勧(すす)め",src:"recommendation"},{trg:"定食(ていしょく)",src:"set meal"},{trg:"生(なま)もの",src:"raw food / uncooked food"},{trg:"アレルギー",src:"allergy"},{trg:"別々(べつべつ)",src:"separately / split (the bill)"}]},{type:"match",pairs:[{trg:"持(も)ち帰(かえ)り",src:"takeout / to-go"},{trg:"満腹(まんぷく)",src:"full (stomach)"}]}]
 };

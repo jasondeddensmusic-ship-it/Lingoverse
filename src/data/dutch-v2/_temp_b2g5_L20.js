@@ -30,7 +30,7 @@ const LESSON_20 = {
      deepDive:{title:"From B2 to C1: next steps",
       text:"At B2, you can handle most Dutch conversations and read newspapers. The jump to C1 requires:\n\n1. Idioms and fixed expressions (gezegden, spreekwoorden)\n2. Register awareness (formal vs informal vs academic)\n3. Nuanced connectors (enerzijds/anderzijds, desalniettemin, niettemin)\n4. Passive vocabulary of 8,000+ words\n5. Cultural fluency (understanding Dutch humor, directness, and unwritten social rules)\n\nThe good news: Dutch B2 compound vocabulary transfers directly to C1. Every compound you have learned generates related words."}},
     {type:"mc", q:"Which prefix means 're-' or 'again' in Dutch?",
-     opts:["be-","ver-","her-","ont-"],
+     opts:["her-","ont-","be-","ver-"],
      ans:"her-",
      hint:"Herontdekken, herschrijven, herscholing. All mean doing something again."},
     {type:"fb", s:"De {1} van het industriegebied is indrukwekkend.", a:["herschepping"],
@@ -44,7 +44,7 @@ const LESSON_20 = {
       {trg:"gemeenteraadslid", src:"city council member"}
     ]},
     {type:"mc", q:"What is the linking element in 'bevolking-s-samenstelling'?",
-     opts:["the -s- connects the compound parts","the -s- makes it plural","the -s- makes it possessive","the -s- is a spelling mistake"],
+     opts:["the -s- is a spelling mistake","the -s- connects the compound parts","the -s- makes it plural","the -s- makes it possessive"],
      ans:"the -s- connects the compound parts",
      hint:"The 'tussen-s' is a phonological connector, not a grammar marker."},
     {type:"fb", s:"Hij is een {1} verzamelaar.", a:["hartstochtelijk"],
@@ -58,7 +58,7 @@ const LESSON_20 = {
       {trg:"hamvraag", src:"key question"}
     ]},
     {type:"mc", q:"What makes Dutch a 'compound-loving' language?",
-     opts:["it has many prefixes","it strings nouns together into single words","it has Latin roots","it uses many articles"],
+     opts:["it uses many articles","it has many prefixes","it strings nouns together into single words","it has Latin roots"],
      ans:"it strings nouns together into single words",
      hint:"Bevolkingssamenstelling, gezondheidscampagne, burgerservicenummer. One word each."},
     {type:"fb", s:"De {1} van dit boek is bijzonder.", a:["gelaagdheid"],
@@ -72,7 +72,7 @@ const LESSON_20 = {
       {trg:"gokverslaving", src:"gambling addiction"}
     ]},
     {type:"mc", q:"Which Dutch cultural concept means 'reaching consensus through lengthy discussion'?",
-     opts:["verzuiling","polderen","gedogen","versoberen"],
+     opts:["gedogen","versoberen","verzuiling","polderen"],
      ans:"polderen",
      hint:"Named after the reclaimed land that required cooperation to maintain. Water management shaped democracy."},
     {type:"fb", s:"Er is een {1} van de Nederlandse taal in Belgie.", a:["heropleving"],
@@ -80,7 +80,7 @@ const LESSON_20 = {
      hint:"A comeback or resurgence. Something that was declining is gaining strength again.",
      sSrc:"There is a revival of the Dutch language in Belgium."},
     {type:"mc", q:"At B2 level, what is the best strategy for unknown Dutch compounds?",
-     opts:["look up every word","break from right to left, main noun is last","guess from English","skip them"],
+     opts:["break from right to left, main noun is last","guess from English","skip them","look up every word"],
      ans:"break from right to left, main noun is last",
      hint:"The L... element is always the core meaning. Everything before modifies it."}
   ]

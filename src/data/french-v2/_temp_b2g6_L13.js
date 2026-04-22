@@ -80,7 +80,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Que signifie 'faire demi-tour' ?",
-     opts:["Revenir en arrière, changer de direction","Tourner à gauche","Accélérer fortement","S'arrêter brusquement"],
+     opts:["S'arrêter brusquement","Revenir en arrière, changer de direction","Tourner à gauche","Accélérer fortement"],
      ans:"Revenir en arrière, changer de direction",
      hint:"A 180-degree reversal. Used for driving, walking, or changing one's mind completely."},
 
@@ -131,7 +131,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Que vend-on dans un 'café-tabac' en plus des boissons ?",
-     opts:["Du tabac et des timbres","Des médicaments","Des journaux uniquement","Des vêtements"],
+     opts:["Des journaux uniquement","Des vêtements","Du tabac et des timbres","Des médicaments"],
      ans:"Du tabac et des timbres",
      hint:"A dual-function French establishment. The red diamond sign outside is the clue."},
 

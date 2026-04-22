@@ -1,4 +1,4 @@
-// L13: School and Work — 20 A1 gap words
+// L13: School and Work, 20 A1 gap words
 const LESSON_13 = {
   id:"nlv2_a1gap_l13", title:"School en Werk", icon:"\u{1F4DA}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"In Nederland is een 6 voor een examen ___.",
-     opts:["voldoende","onvoldoende","heel goed","perfect"],
+     opts:["perfect","voldoende","onvoldoende","heel goed"],
      ans:"voldoende",
      hint:"A grade of 6 out of 10 is the minimum to pass. What does that mean?"},
 

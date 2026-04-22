@@ -74,7 +74,7 @@ const BATCH2_U14_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'l'ordine del giorno' in a meeting?",
-     opts:["The daily schedule for the office","The agenda listing topics for the meeting","The seating arrangement for attendees","The order in which people speak"],
+     opts:["The agenda listing topics for the meeting","The seating arrangement for attendees","The order in which people speak","The daily schedule for the office"],
      ans:"The agenda listing topics for the meeting",
      hint:"Literally 'the order of the day.' It lists what will be discussed and in what sequence during the m...."},
 
@@ -104,7 +104,7 @@ const BATCH2_U14_L1 = {
      sSrc:"The company offers ongoing {1} to employees."},
 
     {type:"mc", q:"What are 'buoni pasto'?",
-     opts:["Company parking passes for employees","Meal vouchers as a company benefit","Annual performance bonuses","Extra vacation day coupons"],
+     opts:["Extra vacation day coupons","Company parking passes for employees","Meal vouchers as a company benefit","Annual performance bonuses"],
      ans:"Meal vouchers as a company benefit",
      hint:"These tax-free v... are part of 'welfare aziendale.' Employees use them at restaurants and supermarkets for meals."},
 
@@ -115,10 +115,10 @@ const BATCH2_U14_L1 = {
      sSrc:"I asked the boss for a {1}."},
 
     {type:"mc", q:"What is the difference between 'tirocinio' and 'stage'?",
-     opts:["They mean completely different things","Tirocinio is formal Italian, stage is a French loanword for the same concept","Tirocinio is paid, stage is always unpaid","Stage is only for students, tirocinio is only for graduates"],
+     opts:["Tirocinio is paid, stage is always unpaid","Stage is only for students, tirocinio is only for graduates","They mean completely different things","Tirocinio is formal Italian, stage is a French loanword for the same concept"],
      ans:"Tirocinio is formal Italian, stage is a French loanword for the same concept",
      hint:"Both mean 'internship.' 'T...' is the proper I... word from Greek roots. 'S...' (pronounced 'stazh') comes from F...."}
-  ,{type:"match",pairs:[{trg:"la retribuzione",src:"the pay / remuneration"},{trg:"il tirocinio",src:"the internship / traineeship"},{trg:"il beneficio aziendale",src:"the company benefit / perk"}]},{type:"mc",q:"How do you say \"agenda\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'ordine del giorno"],ans:"l'ordine del giorno",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"la retribuzione",src:"the pay / remuneration"},{trg:"il tirocinio",src:"the internship / traineeship"},{trg:"il beneficio aziendale",src:"the company benefit / perk"}]},{type:"mc",q:"How do you say \"agenda\" in Italian?",opts:["l'ordine del giorno","la finestra","il tavolo","la bicicletta"],ans:"l'ordine del giorno",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"La {1} mostra lo stipendio netto e le detrazioni.",a:["busta paga"],opts:["busta paga","formazione","clausola","retribuzione"],hint:"A monthly document showing net pay and deductions.",sSrc:"The {1} shows the net salary and deductions."}]
 };
 export default BATCH2_U14_L1;

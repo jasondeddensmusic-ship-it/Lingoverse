@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 16: Women and History
+// Korean B2. Batch 6, Lesson 16: Women and History
 // Words: 여가, 여간, 여건, 여겨지다, 여고생, 여관, 여군, 여기다, 여대생, 여럿, 여름철, 여왕, 여우, 여인, 여전하다, 여전히, 여직원, 여쭈다, 여행사, 역사상
 
 const LESSON_16 = {
@@ -119,7 +119,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"윗사람에게 정중하게 질문할 때 쓰는 말은?",
-     opts:["여쭤보다","물어보다","질문하다","궁금하다"],
+     opts:["궁금하다","여쭤보다","물어보다","질문하다"],
      ans:"여쭤보다",
      hint:"The humble form of asking, used to show respect when speaking to a superior or elder."},
 

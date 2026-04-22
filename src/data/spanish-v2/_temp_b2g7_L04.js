@@ -13,7 +13,7 @@ const LESSON_4 = {id:"esv2_b2g7_l4",title:"Cualidades abstractas",icon:"💡",xp
 {type:"teach",trg:"la invalidez",src:"the disability / invalidity",pos:"noun",gender:"f",note:"A condition of disability, or the quality of being null and void.",example:"A: Recibe una pensión por invalidez.\nB: La invalidez le impide trabajar.",exampleSrc:"A: He receives a disability pension.\nB: The disability prevents him from working.",funFact:"In legal contexts, 'invalidez de un contrato' means a contract is null and void. Very different from medical use."},
 {type:"mc",q:"La palabra 'dureza' viene de 'duro'. ¿Qué sufijo se usa?",opts:["-eza","-ción","-dad","-miento"],ans:"-eza",hint:"This two-letter suffix attaches to adjectives to form abstract feminine nouns. Used here with 'duro', it creates the quality noun."},
 {type:"fb",s:"Su reacción me causó mucha {1}. No la esperaba.",a:["extrañeza"],opts:["extrañeza","dureza","consistencia","conformidad"],hint:"This noun means a feeling of puzzlement or surprise.",sSrc:"His reaction caused me a lot of {1}. I didn't expect it."},
-{type:"mc",q:"'Ante la imposibilidad de negociar' significa:",opts:["No era posible llegar a un acuerdo","La negociación tuvo éxito","Todos estaban de acuerdo","El plan era perfecto"],ans:"No era posible llegar a un acuerdo",hint:"The word 'imposibilidad' means that something cannot be done."},
+{type:"mc",q:"'Ante la imposibilidad de negociar' significa:",opts:["El plan era perfecto","No era posible llegar a un acuerdo","La negociación tuvo éxito","Todos estaban de acuerdo"],ans:"No era posible llegar a un acuerdo",hint:"The word 'imposibilidad' means that something cannot be done."},
 {type:"fb",s:"Todo está en {1} con la normativa vigente.",a:["conformidad"],opts:["conformidad","irritación","imposibilidad","impulsividad"],hint:"This formal word means agreement or compliance with rules.",sSrc:"Everything is in {1} with current regulations."},
 {type:"match",pairs:[
   {trg:"la dureza",src:"the hardness / harshness"},
@@ -22,7 +22,7 @@ const LESSON_4 = {id:"esv2_b2g7_l4",title:"Cualidades abstractas",icon:"💡",xp
   {trg:"la conformidad",src:"the conformity"},
   {trg:"la imposibilidad",src:"the impossibility"}
 ]},
-{type:"mc",q:"Recibe una pensión por invalidez. ¿Qué le pasa?",opts:["Tiene una discapacidad que le impide trabajar","Ha ganado la lotería","Se ha jubilado","Ha encontrado un nuevo empleo"],ans:"Tiene una discapacidad que le impide trabajar",hint:"This word describes a condition that prevents someone from working."},
+{type:"mc",q:"Recibe una pensión por invalidez. ¿Qué le pasa?",opts:["Se ha jubilado","Ha encontrado un nuevo empleo","Tiene una discapacidad que le impide trabajar","Ha ganado la lotería"],ans:"Tiene una discapacidad que le impide trabajar",hint:"This word describes a condition that prevents someone from working."},
 {type:"fb",s:"La {1} de cada detalle es fundamental en este proyecto.",a:["consideración"],opts:["consideración","impulsividad","extrañeza","invalidez"],hint:"This noun means careful thought or attention given to something.",sSrc:"The {1} of every detail is fundamental in this project."}
 ]};
 export default LESSON_4;

@@ -1,4 +1,4 @@
-// L13: Food, Drink & Agriculture — 20 B2 gap words
+// L13: Food, Drink & Agriculture, 20 B2 gap words
 const LESSON_13 = {
   id:"nlv2_b2g4_l13", title:"Eten, Drinken en Landbouw", icon:"\uD83C\uDF3E", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_13 = {
      deepDive:{title:"Dutch food culture surprises",
       text:"Dutch eating habits surprise visitors. Lunch is typically bread with cheese or peanut butter, not a hot meal. Dinner ('avondeten') is the main meal, traditionally at 6 PM sharp. 'Hagelslag' (chocolate sprinkles on bread) is a legitimate breakfast. 'Drie in de pan' (three in the pan) are small pancakes. And the 'kroket' from an 'automatiek' is a national institution."}},
     {type:"mc", q:"What is a 'friettent' in Dutch?",
-     opts:["a potato farm","a tent at a festival","a chip shop","a supermarket"],
+     opts:["a chip shop","a supermarket","a potato farm","a tent at a festival"],
      ans:"a chip shop",
      hint:"Compound: friet (fries) + tent (stall/s...). Informal word."},
     {type:"fb", s:"Kaas is een belangrijk {1}.", a:["exportartikel"],

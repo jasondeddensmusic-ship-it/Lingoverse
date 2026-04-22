@@ -1,4 +1,4 @@
-// Russian V2 Unit 27 — Business and Economics (B2.1)
+// Russian V2 Unit 27. Business and Economics (B2.1)
 const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес", sub:"Business and Economics",
  icon:"📈", level:"B2.1", color:"#7B5EE8",
  lessons:[
@@ -19,7 +19,7 @@ const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес"
  note:"Feminine. International.\nMeans both 'business company' AND 'group of friends.'",
  example:"A: В какой компании работаешь?\nB: В IT-компании.",
  exampleSrc:"A: What company do you work for?\nB: An IT company.",
- funFact:"Two meanings: 'company' (business) and 'company' (group of people, friends). Russian 'хорошая компания' can be a good business OR good friends — context clarifies."},
+ funFact:"Two meanings: 'company' (business) and 'company' (group of people, friends). Russian 'хорошая компания' can be a good business OR good friends, context clarifies."},
 
 {type:"teach", trg:"рынок", src:"market", pos:"noun", gender:"m",
  note:"Masculine. Both economic market and physical market.\nPlural: рынки.",
@@ -31,7 +31,7 @@ const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес"
  note:"Feminine. Ends in ь.\nOpposite: убыток (loss).",
  example:"A: Была прибыль?\nB: Небольшая.",
  exampleSrc:"A: Was there profit?\nB: Small.",
- funFact:"Прибыль is business profit. Distinct from личная прибыль (personal benefit) — though related. Russian commerce has specific financial vocabulary."},
+ funFact:"Прибыль is business profit. Distinct from личная прибыль (personal benefit), though related. Russian commerce has specific financial vocabulary."},
 
 {type:"teach", trg:"инвестировать", src:"to invest", pos:"verb", gender:null,
  note:"Imperfective. -овать verb.\n'Инвестировать в X' = invest in X.",
@@ -58,18 +58,18 @@ const UNIT_27 = {n:27, lang:"ru", srcLang:"en", track:"v2", title:"Бизнес"
  funFact:"Договор is a formal agreement. Alternative: контракт (more formal), соглашение (informal agreement). All three exist; договор is middle-formal."},
 
 {type:"tip", title:"Russian Business Language",
- text:"MODERN BUSINESS TERMS:\n• рынок (market)\n• экономика (economy)\n• финансы (finance)\n• бюджет (budget)\n• налог (tax)\n• банк (bank)\n• валюта (currency)\n• акция (share/stock)\n• инвестиция (investment)\n• кредит (credit/loan)\n• услуга (service)\n• продукт (product)\n• качество (quality)\n• цена (price)\n\nJOB TITLES:\n• директор (director)\n• менеджер (manager)\n• сотрудник (employee)\n• бухгалтер (accountant)\n• маркетолог (marketing specialist)\n• программист (programmer)\n• дизайнер (designer)\n\nRUSSIA'S TECH INDUSTRY:\nЯндекс (search engine) — Russia's Google alternative. Competitive, fast-growing ecosystem in IT and startups.",
+ text:"MODERN BUSINESS TERMS:\n• рынок (market)\n• экономика (economy)\n• финансы (finance)\n• бюджет (budget)\n• налог (tax)\n• банк (bank)\n• валюта (currency)\n• акция (share/stock)\n• инвестиция (investment)\n• кредит (credit/loan)\n• услуга (service)\n• продукт (product)\n• качество (quality)\n• цена (price)\n\nJOB TITLES:\n• директор (director)\n• менеджер (manager)\n• сотрудник (employee)\n• бухгалтер (accountant)\n• маркетолог (marketing specialist)\n• программист (programmer)\n• дизайнер (designer)\n\nRUSSIA'S TECH INDUSTRY:\nЯндекс (search engine). Russia's Google alternative. Competitive, fast-growing ecosystem in IT and startups.",
  icon:"📈"},
 
 {type:"mc", q:"Which term is an English loanword in Russian business?",
- opts:["компания","бизнес","рынок","прибыль"],
+ opts:["бизнес","рынок","прибыль","компания"],
  ans:"бизнес",
  hint:"From English 'business.' Entered Russian in 1990s."},
 
 {type:"fb", s:"Наша {1} растёт быстро.",
  a:["компания"],
  opts:["компания","рынок","прибыль","бизнес"],
- hint:"Growing business entity — company-sized.",
+ hint:"Growing business entity, company-sized.",
  sSrc:"Our company is growing fast."},
 
 {type:"match", pairs:[

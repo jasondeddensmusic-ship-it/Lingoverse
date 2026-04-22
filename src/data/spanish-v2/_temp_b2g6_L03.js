@@ -66,7 +66,7 @@ const LESSON_3 = {id:"esv2_b2g6_l3",title:"Salud y cuerpo",icon:"🏥",xp:15,boa
  exampleSrc:"A: You should control your salt intake.\nB: You are right, I eat too many processed foods.",
  funFact:"'Ingesta calórica' (caloric intake) is a key term in Spanish nutrition and dietetics."},
 
-{type:"mc",q:"¿Qué son los estiramientos?",opts:["Ejercicios para flexibilizar los músculos","Hormonas del cuerpo","Capas de la piel","Inflamaciones oculares"],ans:"Ejercicios para flexibilizar los músculos",hint:"What you do before exercise to prepare your muscles."},
+{type:"mc",q:"¿Qué son los estiramientos?",opts:["Inflamaciones oculares","Ejercicios para flexibilizar los músculos","Hormonas del cuerpo","Capas de la piel"],ans:"Ejercicios para flexibilizar los músculos",hint:"What you do before exercise to prepare your muscles."},
 
 {type:"match",pairs:[
   {trg:"hernia",src:"hernia"},

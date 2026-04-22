@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Japan's {1} is famous for infrastructure development."},
 
     {type:"mc", q:"Japan's refugee acceptance rate has historically been:",
-     opts:["Under 1% of applicants","About 50%","Over 75%","About 30%"],
+     opts:["About 30%","Under 1% of applicants","About 50%","Over 75%"],
      ans:"Under 1% of applicants",
      hint:"One of the lowest rates among developed nations, though recent reforms aim to improve this."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"{1} is being conducted between the two countries."},
 
     {type:"mc", q:"The 2023 G7 Summit in Hiroshima was significant because:",
-     opts:["World leaders visited the atomic bomb memorial","It was the first G7 ever","Japan left the G7","The summit failed"],
+     opts:["Japan left the G7","The summit failed","World leaders visited the atomic bomb memorial","It was the first G7 ever"],
      ans:"World leaders visited the atomic bomb memorial",
      hint:"The symbolic choice of Hiroshima connected nuclear disarmament to modern diplomacy."},
 

@@ -379,7 +379,7 @@ const UNIT_09 = {
        text:"Standard script for calling an Italian medical practice:\n\n1. Greeting:\n'Buongiorno, vorrei prendere un appuntamento.'\n\n2. With which doctor:\n'Con il dottor / la dottoressa [name].'\n\n3. Indicate type of visit:\n'È per una visita di controllo.' (routine check-up)\n'È urgente.' (it's urgent)\n\n4. Confirm details:\n'Quindi è mercoledì alle 11, giusto?'\n\nKey vocabulary:\nlo studio medico = the medical practice / doctor's office\nla segreteria = the reception / secretary\ndisponibile = available\nurgente = urgent"},
 
       {type:"mc", q:"Which verb means 'to cancel' an appointment in Italian?",
-       opts:["confermare","spostare","annullare","prendere"],
+       opts:["annullare","prendere","confermare","spostare"],
        ans:"annullare",
        hint:"This verb makes something null and void. It contains the Latin root for 'null'."},
 

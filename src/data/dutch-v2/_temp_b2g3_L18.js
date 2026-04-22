@@ -1,4 +1,4 @@
-// L18: Compounds & Neologisms — 20 B2 gap words
+// L18: Compounds & Neologisms, 20 B2 gap words
 const LESSON_18 = {
   id:"nlv2_b2g3_l18", title:"Samenstellingen en Neologismen", icon:"\uD83E\uDDE9", xp:15, board:true,
   steps:[
@@ -85,7 +85,7 @@ const LESSON_18 = {
      deepDive:{title:"The longest Dutch compounds",
       text:"There is no theoretical limit to Dutch compound length. Famous examples:\n\nmeaborstcrawlwedstrijd (girls' breaststroke crawl competition)\narbeidsongeschiktheidsverzekering (disability insurance)\nvervoersregiovergunningverleningsprocedure (transport region licensing procedure)\n\nIn practice, compounds longer than 3-4 parts become hard to read. Style guides recommend hyphenating very long compounds for clarity: vervoersregio-vergunningverlenings-procedure.\n\nThe key skill: always find the head noun (rightmost word). Everything before it is modification."}},
     {type:"mc", q:"Waarom heeft 'auto-ongeval' een streepje?",
-     opts:["Het is een Engels woord","Twee klinkers botsen","Het is een afkorting","Het is een nieuwe spelling"],
+     opts:["Twee klinkers botsen","Het is een afkorting","Het is een nieuwe spelling","Het is een Engels woord"],
      ans:"Twee klinkers botsen",
      hint:"'Auto' ends in 'o' and 'ongeval' starts with 'o'. Dutch spelling prevents this collision."},
     {type:"fb", s:"Het {1} is dit jaar kleiner.", a:["advertentiebudget"],
@@ -99,7 +99,7 @@ const LESSON_18 = {
       {trg:"biermerk", src:"beer brand"}
     ]},
     {type:"mc", q:"In een samengesteld woord, welk deel bepaalt de betekenis?",
-     opts:["het eerste woord","het middelste woord","het laatste woord","alle woorden evenveel"],
+     opts:["het middelste woord","het laatste woord","alle woorden evenveel","het eerste woord"],
      ans:"het laatste woord",
      hint:"Read compounds from right to left. The rightmost word is always the head noun."},
     {type:"fb", s:"Mijn {1} zijn niet gezond.", a:["coordinatievaardigheden"],

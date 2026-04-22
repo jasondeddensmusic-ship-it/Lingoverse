@@ -1,4 +1,4 @@
-// Batch 8 — Unit 18 extra lesson. Environment: Natural Disasters & Climate
+// Batch 8. Unit 18 extra lesson. Environment: Natural Disasters & Climate
 const BATCH8_L1 = {id:"itv2_u18l_b8_1", title:"Disastri e clima", icon:"🌊", xp:15, board:true, steps:[
 {type:"intro", title:"Disastri e clima",
  desc:"Learn vocabulary for natural disasters, extreme weather, and climate-related events in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u18l_b8_1", title:"Disastri e clima", icon:"🌊", x
 
 {type:"mc",
  q:"What does 'dissesto idrogeologico' refer to?",
- opts:["Instability of land and water systems due to poor land management","A type of earthquake","A volcanic eruption","A weather forecast"],
+ opts:["A weather forecast","Instability of land and water systems due to poor land management","A type of earthquake","A volcanic eruption"],
  ans:"Instability of land and water systems due to poor land management",
  hint:"'Dissesto' means i.... Combined with w... (idro) and geological (geologico), it describes terrain fragility."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u18l_b8_1", title:"Disastri e clima", icon:"🌊", x
 
 {type:"mc",
  q:"Which three volcanoes are active in Italy?",
- opts:["Etna, Stromboli, and Vesuvio","Etna, Monte Bianco, and Dolomiti","Vesuvio, Stromboli, and Cervino","Etna, Amiata, and Stromboli"],
+ opts:["Vesuvio, Stromboli, and Cervino","Etna, Amiata, and Stromboli","Etna, Stromboli, and Vesuvio","Etna, Monte Bianco, and Dolomiti"],
  ans:"Etna, Stromboli, and Vesuvio",
  hint:"One is in Sicily, one in the Aeolian Islands, and one near Naples. The last one famously destroyed Pompeii."}
 ,{type:"fb",s:"I volontari hanno coordinato {1} dopo il terremoto.",a:["il soccorso"],opts:["il soccorso","il dissesto","la frana","la siccita"],hint:"Emergency assistance and rescue operations carried out after a natural disaster.",sSrc:"Volunteers coordinated {1} after the earthquake."}]};

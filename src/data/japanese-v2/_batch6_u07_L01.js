@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Please carry this luggage to the room.\nB: Okay, understood.",
      funFact:"運(はこ)ぶ uses the same kanji as 運動(うんどう) (exercise) and 運(うん) (luck). The common thread is movement. 運(はこ)ぶ can also describe progress: 話(はなし)がうまく運(はこ)ぶ (the conversation goes well), showing how physical carrying became a metaphor for smooth progress."},
 
-    {type:"mc", q:"What does 間(ま)に合(あ)う mean?", opts:["To be on time / to make it","To be late","To be crowded","To transfer"], ans:"To be on time / to make it",
+    {type:"mc", q:"What does 間(ま)に合(あ)う mean?", opts:["To transfer","To be on time / to make it","To be late","To be crowded"], ans:"To be on time / to make it",
      hint:"This verb means to arrive within the t... limit."},
 
     {type:"teach", trg:"回(まわ)す", src:"to turn / to spin / to rotate", pos:"verb", gender:null,
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"朝(あさ)の電車(でんしゃ)は{1}います。\n(Morning trains are crowded.)", a:"混(こ)んで", opts:["混(こ)んで","乗(の)って","降(お)りて","間(ま)に合(あ)って"], sSrc:"Morning trains are crowded.",
      hint:"The て-form of 混(こ)む (to be crowded) in the progressive state."},
 
-    {type:"mc", q:"運(はこ)ぶ means:", opts:["To carry or transport","To push","To pull","To ride"], ans:"To carry or transport",
+    {type:"mc", q:"運(はこ)ぶ means:", opts:["To pull","To ride","To carry or transport","To push"], ans:"To carry or transport",
      hint:"This verb describes moving objects from one place to another."}
   ,{type:"match",pairs:[{trg:"通勤(つうきん)",src:"commuting (to work)"},{trg:"切符(きっぷ)",src:"ticket"},{trg:"ホーム",src:"platform (train station)"},{trg:"混(こ)む",src:"to be crowded"},{trg:"運(はこ)ぶ",src:"to carry / to transport"},{trg:"回(まわ)す",src:"to turn / to spin / to rotate"}]},
   {type:"fb", s:"駅(えき)の自動販売機(じどうはんばいき)で{1}を買(か)いました。", a:["切符(きっぷ)"], opts:["切符(きっぷ)","通勤(つうきん)","ホーム","乗(の)り換(か)える"], hint:"The paper or card proof of payment that allows you to board a train.", sSrc:"I bought a {1} at the vending machine at the station."}

@@ -45,7 +45,7 @@ lessons:[
  funFact:"The metaphor is perfect: water always finds its true level. Your 水平 is the natural level your ability settles at. A spirit level tool in Chinese is also called 水平仪, using the same logic."},
 
 {type:"mc", q:"进步(jìnbù) literally means:",
- opts:["big change","advancing steps","looking back","good student"],
+ opts:["advancing steps","looking back","good student","big change"],
  ans:"advancing steps",
  hint:"进 means to advance or enter. 步 means step. Together they describe forward movement."},
 
@@ -82,7 +82,7 @@ lessons:[
  funFact:"表 means 'surface' and 达 means 'to reach.' Expression is making inner thoughts arrive at the surface where others can perceive them. A beautiful metaphor for communication."},
 
 {type:"mc", q:"Which word is the highest compliment for a language learner's Chinese?",
- opts:["流利(liúlì)","水平(shuǐpíng)","地道(dìdao)","进步(jìnbù)"],
+ opts:["水平(shuǐpíng)","地道(dìdao)","进步(jìnbù)","流利(liúlì)"],
  ans:"地道(dìdao)",
  hint:"This word means 'authentic' or 'native-like.' It means you sound like a local, not a textbook."},
 
@@ -107,7 +107,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"水平(shuǐpíng) uses the metaphor of water because:",
- opts:["Water is clear and transparent","Water always finds its true level","Water flows quickly like speech","Water is necessary for life"],
+ opts:["Water is necessary for life","Water is clear and transparent","Water always finds its true level","Water flows quickly like speech"],
  ans:"Water always finds its true level",
  hint:"A spirit ___ uses ___ to find the ___ horizontal. Similarly, your 水平 represents the ___ ___ your ability naturally settles at."}
 ]},
@@ -149,7 +149,7 @@ lessons:[
  funFact:"继 means 'to follow' or 'to succeed' and 续 means 'to extend.' Together they mean to follow on without stopping. This is the verb of commitment: 继续努力 (keep working hard) is one of the most common encouraging phrases in Chinese."},
 
 {type:"mc", q:"理解(lǐjiě) goes deeper than 明白(míngbai) because:",
- opts:["理解 is more formal","理解 means surface clarity","理解 means untying the underlying logic","理解 only applies to grammar"],
+ opts:["理解 means untying the underlying logic","理解 only applies to grammar","理解 is more formal","理解 means surface clarity"],
  ans:"理解 means untying the underlying logic",
  hint:"理 ___ ___ or principle, 解 ___ to untie or solve. The compound describes reaching the deep structure of meaning."},
 
@@ -233,7 +233,7 @@ lessons:[
  funFact:"Revisiting this word from earlier in the unit. After a full B2 course, 信心 should be what you feel. Trust in your own heart and abilities."},
 
 {type:"mc", q:"未来(wèilái) literally means:",
- opts:["tomorrow morning","next year","not yet come","already passed"],
+ opts:["not yet come","already passed","tomorrow morning","next year"],
  ans:"not yet come",
  hint:"未 means 'not yet.' 来 means 'to approach / arrive.' Put them together for a poetic description of the future."},
 
@@ -263,7 +263,7 @@ lessons:[
  sSrc:"Full of hope for the {1}."},
 
 {type:"mc", q:"成语(chéngyǔ) are typically how many characters?",
- opts:["Two","Three","Four","Five"],
+ opts:["Three","Four","Five","Two"],
  ans:"Four",
  hint:"These idiomatic expressions follow the rhythmic pattern that Chinese literature has favored for thousands of years."},
 
@@ -273,7 +273,7 @@ lessons:[
  hint:"Looking back: great forward movement. Looking ahead to what has not yet come: full of belief in the heart."},
 
 {type:"mc", q:"Which sentence best uses 坚持(jiānchí)?",
- opts:["坚持(jiānchí)了(le)一天(yìtiān)就(jiù)放弃(fàngqì)了(le)","只要(zhǐyào)坚持(jiānchí)，就(jiù)能(néng)成功(chénggōng)","坚持(jiānchí)不(bù)重要(zhòngyào)","坚持(jiānchí)是(shì)一(yí)个(gè)地方(dìfang)"],
+ opts:["坚持(jiānchí)是(shì)一(yí)个(gè)地方(dìfang)","坚持(jiānchí)了(le)一天(yìtiān)就(jiù)放弃(fàngqì)了(le)","只要(zhǐyào)坚持(jiānchí)，就(jiù)能(néng)成功(chénggōng)","坚持(jiānchí)不(bù)重要(zhòngyào)"],
  ans:"只要(zhǐyào)坚持(jiānchí)，就(jiù)能(néng)成功(chénggōng)",
  hint:"坚持 means to persist with firm resolve. Which sentence treats it as the key to success?"},
 
@@ -292,7 +292,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"You have completed B2. Which word describes your Chinese journey from A1 to now?",
- opts:["总结(zǒngjié) - to summarize","回顾(huígù) - to look back","进步(jìnbù) - progress","水平(shuǐpíng) - level"],
+ opts:["水平(shuǐpíng) - level","总结(zǒngjié) - to summarize","回顾(huígù) - to look back","进步(jìnbù) - progress"],
  ans:"进步(jìnbù) - progress",
  hint:"This word means advancing steps, moving forward. It captures the steady forward movement from beginner to upper-intermediate."},
 

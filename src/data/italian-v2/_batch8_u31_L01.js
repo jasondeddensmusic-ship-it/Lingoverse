@@ -1,4 +1,4 @@
-// Batch 8 — Unit 31 extra lesson. Advanced Media: Journalism & Press
+// Batch 8. Unit 31 extra lesson. Advanced Media: Journalism & Press
 const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo", icon:"📰", xp:15, board:true, steps:[
 {type:"intro", title:"Il giornalismo",
  desc:"Learn vocabulary for journalism, the press, and media production in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo", icon:"📰", xp:
 
 {type:"mc",
  q:"What does 'palinsesto' originally mean?",
- opts:["A parchment scraped and rewritten","A television set","A newspaper column","A radio frequency"],
+ opts:["A radio frequency","A parchment scraped and rewritten","A television set","A newspaper column"],
  ans:"A parchment scraped and rewritten",
  hint:"The archaeological term was borrowed by television because schedules are constantly revised, like rewriting old p...."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo", icon:"📰", xp:
 
 {type:"mc",
  q:"What right does Italian press law guarantee to individuals?",
- opts:["The right of reply (diritto di rettifica)","Free newspaper subscriptions","Access to newsrooms","Immunity from criticism"],
+ opts:["Access to newsrooms","Immunity from criticism","The right of reply (diritto di rettifica)","Free newspaper subscriptions"],
  ans:"The right of reply (diritto di rettifica)",
  hint:"If incorrect information is published about you, you can demand a correction with equal prominence."}
-,{type:"match",pairs:[{trg:"il titolo",src:"the headline / title"},{trg:"il palinsesto",src:"the programming schedule"},{trg:"il comunicato stampa",src:"the press release"}]},{type:"mc",q:"How do you say \"correspondent / reporter\" in Italian?",opts:["la finestra","l'inviato","il tavolo","la bicicletta"],ans:"l'inviato",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"interview\" in Italian?",opts:["l'intervista","la finestra","il tavolo","la bicicletta"],ans:"l'intervista",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il titolo",src:"the headline / title"},{trg:"il palinsesto",src:"the programming schedule"},{trg:"il comunicato stampa",src:"the press release"}]},{type:"mc",q:"How do you say \"correspondent / reporter\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'inviato"],ans:"l'inviato",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"interview\" in Italian?",opts:["l'intervista","la finestra","il tavolo","la bicicletta"],ans:"l'intervista",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

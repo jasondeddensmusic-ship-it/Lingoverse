@@ -84,7 +84,7 @@ const LESSON_18 = {id:"esv2_b2g4_l18",title:"Psicología y carácter",icon:"🧠
  exampleSrc:"A: He has a very sporting attitude toward defeat.\nB: He congratulated the rival and recognized their merit.",
  funFact:"'Deportivo' can be a noun too: 'un deportivo' means a sports car in Spanish."},
 
-{type:"mc",q:"'Engorroso' describe algo que es:",opts:["Complicado y molesto de hacer","Fácil y agradable","Rápido y sencillo","Divertido y entretenido"],ans:"Complicado y molesto de hacer",hint:"Think about a tedious bureaucratic task that is annoying to complete."},
+{type:"mc",q:"'Engorroso' describe algo que es:",opts:["Divertido y entretenido","Complicado y molesto de hacer","Fácil y agradable","Rápido y sencillo"],ans:"Complicado y molesto de hacer",hint:"Think about a tedious bureaucratic task that is annoying to complete."},
 
 {type:"fb",s:"Sus declaraciones {1} a toda la sociedad.",a:["escandalizaron"],opts:["escandalizaron","exaltaron","dignaron","excusaron"],hint:"To cause public shock and outrage with controversial statements.",sSrc:"His statements {1} all of society."},
 

@@ -86,7 +86,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Que signifie l'expression 'jurer comme un charretier' ?",
-     opts:["Utiliser un langage tres grossier","Conduire dangereusement","Travailler tres dur","Mentir constamment"],
+     opts:["Mentir constamment","Utiliser un langage tres grossier","Conduire dangereusement","Travailler tres dur"],
      ans:"Utiliser un langage tres grossier",
      hint:"Cart drivers were famous for their colorful vocabulary. The English equivalent involves sailors."},
 
@@ -113,7 +113,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel professionnel dessine et amenage les interieurs ?",
-     opts:["un decorateur","un administrateur","un footballeur","un charretier"],
+     opts:["un footballeur","un charretier","un decorateur","un administrateur"],
      ans:"un decorateur",
      hint:"From 'decorer' (to decorate). In France this is a certified professional title."}
   ]

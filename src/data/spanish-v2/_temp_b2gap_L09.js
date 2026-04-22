@@ -32,7 +32,7 @@ const LESSON_9 = {id:"esv2_b2gap_l9",title:"Política y gobierno",icon:"🏛️"
  exampleSrc:"A: The report was approving in all aspects.\nB: We can proceed with the project.",
  funFact:"From aprobar (to approve). Opposite: 'desaprobatorio' (disapproving)."},
 
-{type:"mc",q:"La entrada de España en la UE se llama:",opts:["la admisión","la adhesión","la afiliación","la abstención"],ans:"la adhesión",hint:"Countries join the EU through a process of formal accession."},
+{type:"mc",q:"La entrada de España en la UE se llama:",opts:["la adhesión","la afiliación","la abstención","la admisión"],ans:"la adhesión",hint:"Countries join the EU through a process of formal accession."},
 
 {type:"teach",trg:"autonómico",src:"autonomic / regional",pos:"adj",gender:null,
  note:"Adjective. Related to autonomous regions.\nFeminine: autonómica.",
@@ -124,7 +124,7 @@ const LESSON_9 = {id:"esv2_b2gap_l9",title:"Política y gobierno",icon:"🏛️"
 
 {type:"fb",s:"La manifestación {1} a más de diez mil personas.",a:["congregó"],opts:["congregó","conllevó","conformó","consolidó"],hint:"To bring a large group of people together in one place.",sSrc:"The demonstration {1} more than ten thousand people."},
 
-{type:"mc",q:"¿Qué significa 'conformarse con algo'?",opts:["Aceptarlo sin quejas","Rechazarlo","Cambiarlo","Destruirlo"],ans:"Aceptarlo sin quejas",hint:"To settle for something, to be content with what you have."}
+{type:"mc",q:"¿Qué significa 'conformarse con algo'?",opts:["Rechazarlo","Cambiarlo","Destruirlo","Aceptarlo sin quejas"],ans:"Aceptarlo sin quejas",hint:"To settle for something, to be content with what you have."}
 ]};
 
 export default LESSON_9;

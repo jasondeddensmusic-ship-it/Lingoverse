@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 8: Droit et Justice
+// French B2 Gap Batch 9. Lesson 8: Droit et Justice
 // Law and justice vocabulary
 
 const LESSON_8 = {id:"frv2_b2g9_l8", title:"Droit et Justice", icon:"⚖️", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_8 = {id:"frv2_b2g9_l8", title:"Droit et Justice", icon:"⚖️", xp
    exampleSrc:"A: Exhibitionism is a misdemeanor in France.\nB: It is punished by one year of imprisonment.",
    funFact:"French law distinguishes délit (misdemeanor) from crime (felony). Exhibitionism is a délit."},
 
-  {type:"mc", q:"Un guet-apens est:", opts:["Un procès public","Un piège prémédité","Un avocat célèbre","Un tribunal militaire"], ans:"Un piège prémédité",
+  {type:"mc", q:"Un guet-apens est:", opts:["Un piège prémédité","Un avocat célèbre","Un tribunal militaire","Un procès public"], ans:"Un piège prémédité",
    hint:"Guet means watching. Apens means premeditated. An attack lying in wait."},
 
   {type:"teach", trg:"la détonation", src:"detonation, blast", pos:"noun", gender:"f",
@@ -117,7 +117,7 @@ const LESSON_8 = {id:"frv2_b2g9_l8", title:"Droit et Justice", icon:"⚖️", xp
     {trg:"la lèse-majesté", src:"lese-majesty"}
   ]},
 
-  {type:"mc", q:"Un parachute doré est:", opts:["Un sport extrême","Une indemnité de départ très élevée","Un parachute en or","Un prix militaire"], ans:"Une indemnité de départ très élevée",
+  {type:"mc", q:"Un parachute doré est:", opts:["Un prix militaire","Un sport extrême","Une indemnité de départ très élevée","Un parachute en or"], ans:"Une indemnité de départ très élevée",
    hint:"Golden parachute: the huge severance package a CEO receives when leaving."},
 
   {type:"fb", s:"La {1} a été entendue dans tout le quartier.", a:["détonation"], opts:["détonation","déflagration","démocratisation","désobéissance"],

@@ -86,7 +86,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel verbe signifie séparer quelque chose en parties pour l'analyser ?",
-     opts:["décomposer","dessécher","anesthésier","démotiver"],
+     opts:["démotiver","décomposer","dessécher","anesthésier"],
      ans:"décomposer",
      hint:"This verb means to break something into its component parts, like analyzing a problem step by step."},
 

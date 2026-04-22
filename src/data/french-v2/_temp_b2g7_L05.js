@@ -80,7 +80,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'glorifier' ou 'exalter' quelqu'un ?",
-     opts:["magnifier","malmener","manoeuvrer","maximiser"],
+     opts:["maximiser","magnifier","malmener","manoeuvrer"],
      ans:"magnifier",
      hint:"A false friend with English. In French, it means to praise highly, not to make bigger."},
 
@@ -113,7 +113,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot designe une pause entre deux evenements ?",
-     opts:["un intermede","un mentor","un manifeste","un mandataire"],
+     opts:["un manifeste","un mandataire","un intermede","un mentor"],
      ans:"un intermede",
      hint:"From Italian 'intermedio'. A short break in a performance or event."},
 

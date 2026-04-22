@@ -1,4 +1,4 @@
-// Russian V2 Unit 28 — Health and Wellness (B2.1)
+// Russian V2 Unit 28. Health and Wellness (B2.1)
 const UNIT_28 = {n:28, lang:"ru", srcLang:"en", track:"v2", title:"Здоровый образ жизни", sub:"Healthy Lifestyle",
  icon:"🏃", level:"B2.1", color:"#7B5EE8",
  lessons:[
@@ -49,7 +49,7 @@ const UNIT_28 = {n:28, lang:"ru", srcLang:"en", track:"v2", title:"Здоров�
  note:"Feminine. Ends in -ка.\nХорошая/плохая привычка = good/bad habit.",
  example:"A: Привычка важна?\nB: Да, привычка.",
  exampleSrc:"A: Are habits important?\nB: Yes, habit.",
- funFact:"Russian proverb: 'Привычка — вторая натура' (habit is second nature). Culture acknowledges difficulty of breaking habits through this phrase."},
+ funFact:"Russian proverb: 'Привычка, вторая натура' (habit is second nature). Culture acknowledges difficulty of breaking habits through this phrase."},
 
 {type:"teach", trg:"стресс", src:"stress", pos:"noun", gender:"m",
  note:"Masculine. English loanword.\nCovers all types of stress.",
@@ -62,7 +62,7 @@ const UNIT_28 = {n:28, lang:"ru", srcLang:"en", track:"v2", title:"Здоров�
  icon:"🏃"},
 
 {type:"mc", q:"'ЗОЖ' stands for:",
- opts:["здоровая организация жизни","здоровый образ жизни","здравоохранение общества","забота об организме жизни"],
+ opts:["здоровый образ жизни","здравоохранение общества","забота об организме жизни","здоровая организация жизни"],
  ans:"здоровый образ жизни",
  hint:"Acronym for 'healthy lifestyle.'"},
 
@@ -74,7 +74,7 @@ const UNIT_28 = {n:28, lang:"ru", srcLang:"en", track:"v2", title:"Здоров�
 {type:"fb", s:"Регулярная {1} физическая активность полезна для здоровья.",
  a:["привычка"],
  opts:["привычка","профилактика","закаливание","стресс"],
- hint:"Regular physical activity is a valuable — something you develop over time.",
+ hint:"Regular physical activity is a valuable, something you develop over time.",
  sSrc:"Regular physical activity is a beneficial habit for health."},
 
 {type:"match", pairs:[

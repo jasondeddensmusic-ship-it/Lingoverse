@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 17 — Food and Gastronomy
+// French B2 Gap Lesson 17. Food and Gastronomy
 const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"🍽️", xp:15, board:true, steps:[
   {type:"intro", title:"Gastronomie et terroir",
    desc:"Explore vocabulary for discussing French gastronomy, regional cuisine, and food culture at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
    funFact:"From 'grade' (rank), itself from Latin 'gradus' (step). Each grade is a step up in the hierarchy."},
 
   {type:"mc", q:"Quel instrument est l'icône de la musique populaire parisienne?",
-   opts:["L'accordéon","Le piano","La guitare","Le violon"],
+   opts:["Le violon","L'accordéon","Le piano","La guitare"],
    ans:"L'accordéon",
    hint:"The instrument of the 'bal musette', the sound of traditional Paris"},
 
@@ -105,7 +105,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
   ]},
 
   {type:"mc", q:"Que signifie 'un café frappé'?",
-   opts:["Un café servi glacé","Un café très fort","Un café au lait","Un café décaféiné"],
+   opts:["Un café au lait","Un café décaféiné","Un café servi glacé","Un café très fort"],
    ans:"Un café servi glacé",
    hint:"'Frappé' means chilled or struck by cold, served with ice"},
 
@@ -120,7 +120,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
    hint:"Venues combining drinks and live entertainment, a precursor to cabaret"},
 
   {type:"mc", q:"Les adjectifs de couleur tirés de noms (crème, orange, marron) sont:",
-   opts:["Invariables, ils ne changent pas","Variables comme les autres adjectifs","Toujours au féminin","Toujours au pluriel"],
+   opts:["Variables comme les autres adjectifs","Toujours au féminin","Toujours au pluriel","Invariables, ils ne changent pas"],
    ans:"Invariables, ils ne changent pas",
    hint:"These color adjectives derived from nouns never change form for gender or number"}
 ]};

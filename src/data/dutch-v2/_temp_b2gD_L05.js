@@ -1,4 +1,4 @@
-// L05: Krant en Media — Press and Media
+// L05: Krant en Media. Press and Media
 const LESSON_5 = {
   id:"nlv2_b2gD_l05", title:"Krant en Media", icon:"\u{1F4F0}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Wat deed Nederland in 2021 met online gokken?",
-     opts:["Het werd gelegaliseerd","Het werd verboden","Er veranderde niets","Alleen poker werd toegestaan"],
+     opts:["Alleen poker werd toegestaan","Het werd gelegaliseerd","Het werd verboden","Er veranderde niets"],
      ans:"Het werd gelegaliseerd",
      hint:"A significant legal change opened up the online gambling market in the Netherlands for the first time."},
 

@@ -99,7 +99,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 significa 'atascarse' cuando hablamos de tr\u00e1fico?",
-     opts:["Quedarse parado sin avanzar","Ir muy r\u00e1pido","Tomar un desv\u00edo","Aparcar el coche"],
+     opts:["Aparcar el coche","Quedarse parado sin avanzar","Ir muy r\u00e1pido","Tomar un desv\u00edo"],
      ans:"Quedarse parado sin avanzar",
      hint:"When too many cars try to use the same road and nobody can move forward."},
 

@@ -66,7 +66,7 @@ const LESSON_16 = {id:"esv2_b2gC_l16",title:"Industria alimentaria y mercados",i
  exampleSrc:"A: Cholera was a terrible epidemic in the 19th century.\nB: The lack of clean water favored its spread.",
  funFact:"Note the gender switch: 'el cólera' is the disease, 'la cólera' is fury. Same word, different meanings."},
 
-{type:"mc",q:"¿Cuántos escaques tiene un tablero de ajedrez?",opts:["Sesenta y cuatro","Treinta y dos","Cuarenta y ocho","Ochenta y uno"],ans:"Sesenta y cuatro",hint:"The standard chess board has an 8 by 8 grid of alternating black and white squares."},
+{type:"mc",q:"¿Cuántos escaques tiene un tablero de ajedrez?",opts:["Ochenta y uno","Sesenta y cuatro","Treinta y dos","Cuarenta y ocho"],ans:"Sesenta y cuatro",hint:"The standard chess board has an 8 by 8 grid of alternating black and white squares."},
 
 {type:"fb",s:"El tráfico de Madrid en hora punta es un {1}.",a:["infierno"],opts:["infierno","escaque","paredón","chanquete"],hint:"A word for the underworld, used figuratively for any terrible, unbearable situation.",sSrc:"Madrid traffic during rush hour is {1}."},
 

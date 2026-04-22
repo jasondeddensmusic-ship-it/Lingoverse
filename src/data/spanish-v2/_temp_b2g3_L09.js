@@ -32,13 +32,13 @@ const LESSON_9 = {id:"esv2_b2g3_l9", title:"Educación y cualificaciones", icon:
 
   {type:"teach", trg:"la clasificación", src:"the classification / ranking", pos:"noun", gender:"f", note:"Sorting into categories or a league table.\nFrom clasificar (to classify).", example:"A: España está en buena posición en la clasificación mundial.\nB: Sí, ha subido tres puestos este año.", exampleSrc:"A: Spain is in a good position in the world ranking.\nB: Yes, it has moved up three places this year.", funFact:"In football, la clasificación means the league table. Clasificarse para el Mundial = to qualify for the World Cup."},
 
-  {type:"mc", q:"¿Qué es un curso de actualización?", opts:["Un curso para renovar conocimientos profesionales","Un curso para principiantes","Un curso de historia antigua","Un curso de cocina"], ans:"Un curso para renovar conocimientos profesionales", hint:"A refresher course that brings your professional skills up to date."},
+  {type:"mc", q:"¿Qué es un curso de actualización?", opts:["Un curso de cocina","Un curso para renovar conocimientos profesionales","Un curso para principiantes","Un curso de historia antigua"], ans:"Un curso para renovar conocimientos profesionales", hint:"A refresher course that brings your professional skills up to date."},
 
   {type:"match", pairs:[{trg:"cualificación", src:"qualification"},{trg:"acreditación", src:"accreditation"},{trg:"admisión", src:"admission"},{trg:"currículo", src:"CV / curriculum"},{trg:"clasificación", src:"ranking"}]},
 
   {type:"fb", s:"La {1} universitaria es un requisito para los profesores.", a:["acreditación"], opts:["acreditación","admisión","clasificación","definición"], hint:"Official recognition that someone or something meets established quality standards.", sSrc:"University {1} is a requirement for professors."},
 
-  {type:"mc", q:"En España, 'colegio' normalmente significa...", opts:["Escuela primaria","Universidad","Oficina","Hospital"], ans:"Escuela primaria", hint:"Unlike 'college' in English, this word in Spain refers to where young children study."},
+  {type:"mc", q:"En España, 'colegio' normalmente significa...", opts:["Oficina","Hospital","Escuela primaria","Universidad"], ans:"Escuela primaria", hint:"Unlike 'college' in English, this word in Spain refers to where young children study."},
 
   {type:"fb", s:"El plazo de {1} para el máster termina en septiembre.", a:["admisión"], opts:["admisión","asignación","actualización","adecuación"], hint:"The process of being accepted into an academic programme.", sSrc:"The {1} deadline for the master's programme ends in September."}
 ]};

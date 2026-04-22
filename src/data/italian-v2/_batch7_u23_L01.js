@@ -1,4 +1,4 @@
-// Batch 7 — Unit 23 extra lesson. La politica e la società: Civic Participation & Volunteering
+// Batch 7. Unit 23 extra lesson. La politica e la società: Civic Participation & Volunteering
 const BATCH7_L1 = {id:"itv2_u23l_b7_1", title:"La partecipazione civica", icon:"\u{1F3DB}\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"La partecipazione civica",
  desc:"Learn vocabulary for civic participation, volunteering, and community engagement in Italy.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u23l_b7_1", title:"La partecipazione civica", icon:"
 ]},
 
 {type:"mc", q:"Quante firme servono per un'iniziativa popolare in Italia?",
- opts:["50.000","100.000","10.000","500.000"],
+ opts:["500.000","50.000","100.000","10.000"],
  ans:"50.000",
  hint:"The number of signatures needed to propose a law through people's initiative."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u23l_b7_1", title:"La partecipazione civica", icon:"
  sSrc:"I commit myself to my community."},
 
 {type:"mc", q:"Quale articolo della Costituzione italiana protegge il patrimonio culturale?",
- opts:["Articolo 9","Articolo 1","Articolo 18","Articolo 48"],
+ opts:["Articolo 18","Articolo 48","Articolo 9","Articolo 1"],
  ans:"Articolo 9",
  hint:"One of the most cited articles. It mandates protection of landscape and heritage."},
 

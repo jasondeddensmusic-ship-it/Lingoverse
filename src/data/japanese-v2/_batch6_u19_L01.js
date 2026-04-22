@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Do you have any recommendations?\nB: I recommend this book.\nA: How long did it take?\nB: About two hours.",
      funFact:"おすすめ is everywhere in Japanese commerce: おすすめメニュー (recommended menu items), おすすめ商品(しょうひん) (recommended products), スタッフのおすすめ (staff picks). The humble suggestion form 勧(すす)める softens advice. Rather than commanding, Japanese culture prefers 勧(すす)める (gently recommending)."},
 
-    {type:"mc", q:"慣(な)れる means:", opts:["To get used to something","To give up","To find","To fix"], ans:"To get used to something",
+    {type:"mc", q:"慣(な)れる means:", opts:["To fix","To get used to something","To give up","To find"], ans:"To get used to something",
      hint:"This verb describes the process of becoming accustomed to a new situation."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"日本(にほん)の生活(せいかつ)に{1}ましたか？\n(Have you gotten used to life in Japan?)", a:"なれ", opts:["なれ","なり","なおし","みつけ"], sSrc:"Have you gotten used to life in Japan?",
      hint:"The past polite form of the verb meaning to become accustomed."},
 
-    {type:"mc", q:"おすすめ means:", opts:["A recommendation","A problem","A complaint","An apology"], ans:"A recommendation",
+    {type:"mc", q:"おすすめ means:", opts:["A complaint","An apology","A recommendation","A problem"], ans:"A recommendation",
      hint:"You see this word on menus and in shops when staff suggest their best items."}
   ,{type:"match",pairs:[{trg:"困(こま)る",src:"to be troubled / in difficulty"},{trg:"直(なお)す",src:"to fix / to repair / to correct"},{trg:"探(さが)す",src:"to search / to look for"},{trg:"選(えら)ぶ",src:"to choose / to select"},{trg:"慣(な)れる",src:"to get used to / to become accustomed"},{trg:"見(み)つける",src:"to find / to discover"}]},
   {type:"fb", s:"なくした鍵(かぎ)を家中(いえじゅう){1}ました。", a:["探(さが)す"], opts:["探(さが)す","直(なお)す","困(こま)る","相談(そうだん)する"], hint:"The verb for looking all over to find something that is missing.", sSrc:"I {1} the whole house for the lost key."},

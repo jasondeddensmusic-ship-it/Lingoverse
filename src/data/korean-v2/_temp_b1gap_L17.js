@@ -40,7 +40,7 @@ const LESSON_17 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'90년대 음악을 좋아해요'에서 '년대'는 무슨 뜻이에요?",
-     opts:["그 해","그 시대","그 달","그 날"],
+     opts:["그 시대","그 달","그 날","그 해"],
      ans:"그 시대",
      hint:"This bound noun refers to a ten-year period, like the nineties or eighties."},
 
@@ -92,7 +92,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'먼저 숙제를 하고, 그다음에 놀아요'에서 '그다음'의 역할은?",
-     opts:["이유를 말해요","반대를 나타내요","순서를 나타내요","정도를 나타내요"],
+     opts:["반대를 나타내요","순서를 나타내요","정도를 나타내요","이유를 말해요"],
      ans:"순서를 나타내요",
      hint:"This word connects two actions in chronological order. First one thing, then another."},
 
@@ -137,7 +137,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'그냥'을 가장 자연스럽게 사용한 문장은?",
-     opts:["그냥 열심히 공부해서 합격했어요.","그냥 내일은 월요일이에요.","그냥 서울은 한국의 수도예요.","왜 샀어? 그냥 사고 싶었어."],
+     opts:["그냥 내일은 월요일이에요.","그냥 서울은 한국의 수도예요.","왜 샀어? 그냥 사고 싶었어.","그냥 열심히 공부해서 합격했어요."],
      ans:"왜 샀어? 그냥 사고 싶었어.",
      hint:"This word works best when there is no particular reason. Which answer implies a casual, reason-free action?"},
 

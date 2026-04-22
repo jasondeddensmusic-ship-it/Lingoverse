@@ -1,4 +1,4 @@
-// Batch 6 — Unit 12 extra lesson. Essere al passato: Movement & Direction Verbs
+// Batch 6. Unit 12 extra lesson. Essere al passato: Movement & Direction Verbs
 const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3C3}", xp:15, board:true, steps:[
 {type:"intro", title:"Verbi di movimento",
  desc:"Learn key verbs of movement and direction that use 'essere' in the past tense, plus physical action verbs.",
@@ -112,7 +112,7 @@ const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3
 ]},
 
 {type:"mc", q:"Cosa significa 'attraversare la strada'?",
- opts:["to cross the street","to walk down the street","to climb the street","to run along the street"],
+ opts:["to run along the street","to cross the street","to walk down the street","to climb the street"],
  ans:"to cross the street",
  hint:"To go from one side to the other. Usually done at a 'semaforo' (traffic light)."},
 
@@ -122,7 +122,7 @@ const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3
  sSrc:"I {1} on the wet floor and fell."},
 
 {type:"mc", q:"Quale espressione idiomatica significa 'fare scuse disperate'?",
- opts:["arrampicarsi sugli specchi","tuffarsi nel lavoro","saltare la scuola","cadere dalle nuvole"],
+ opts:["saltare la scuola","cadere dalle nuvole","arrampicarsi sugli specchi","tuffarsi nel lavoro"],
  ans:"arrampicarsi sugli specchi",
  hint:"Literally 'to climb on mirrors.' An impossible physical feat used figuratively."},
 

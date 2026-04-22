@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"My {1} hurts. Please give me warm tea."},
 
     {type:"mc", q:"花粉症(かふんしょう) affects about what percentage of Japanese people?",
-     opts:["40%","10%","5%","70%"],
+     opts:["70%","40%","10%","5%"],
      ans:"40%",
      hint:"This pollen allergy is a national health issue, mainly caused by cedar trees planted after WWII."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Please take {1} and rest."},
 
     {type:"mc", q:"具合(ぐあい)が悪(わる)い means:",
-     opts:["Feeling unwell (general)","Having a headache specifically","Being tired","Being hungry"],
+     opts:["Being tired","Being hungry","Feeling unwell (general)","Having a headache specifically"],
      ans:"Feeling unwell (general)",
      hint:"This is the most g... expression for not f... well, without specifying exact symptoms."},
 

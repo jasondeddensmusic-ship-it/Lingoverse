@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 16: Registration and Appearance
+// Korean B2. Batch 3, Lesson 16: Registration and Appearance
 // Words: 등록, 등록금, 등록증, 등록하다, 등산로, 등장, 등장하다, 디스크, 디자이너, 디자인, 따님, 따라다니다, 따라서, 따라오다, 따로따로, 따스하다, 딱딱하다, 딸아이, 땅바닥, 땅속
 
 const LESSON_16 = {
@@ -113,7 +113,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'따라서'의 역할은 문장에서 무엇인가?",
-     opts:["앞의 내용에서 결론을 이끌어내는 것","시간 순서를 나타내는 것","반대 의미를 나타내는 것","예를 들어 설명하는 것"],
+     opts:["예를 들어 설명하는 것","앞의 내용에서 결론을 이끌어내는 것","시간 순서를 나타내는 것","반대 의미를 나타내는 것"],
      ans:"앞의 내용에서 결론을 이끌어내는 것",
      hint:"This word connects a cause or premise to its logical result or conclusion."},
 

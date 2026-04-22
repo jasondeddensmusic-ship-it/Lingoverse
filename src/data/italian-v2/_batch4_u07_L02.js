@@ -1,4 +1,4 @@
-// Batch 4 — Unit 07, Lesson 2: Dietary Needs & Food Allergies
+// Batch 4. Unit 07, Lesson 2: Dietary Needs & Food Allergies
 const BATCH4_U07_L2 = {
   id:"itv2_u07l_b4_2", title:"Allergie e diete", icon:"\u26A0\uFE0F", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U07_L2 = {
     ]},
 
     {type:"mc", q:"Perche l'Italia ha molte opzioni senza glutine?",
-     opts:["Italy screens all children for celiac disease","Gluten-free is a trend","Italian wheat has no gluten","Restaurants are required to remove gluten"],
+     opts:["Restaurants are required to remove gluten","Italy screens all children for celiac disease","Gluten-free is a trend","Italian wheat has no gluten"],
      ans:"Italy screens all children for celiac disease",
      hint:"I... has one of the highest diagnosed c... rates due to national screening."},
 
@@ -126,7 +126,7 @@ const BATCH4_U07_L2 = {
      sSrc:"This dessert {1} peanuts and nuts."},
 
     {type:"mc", q:"Cosa significa 'fresco di giornata'?",
-     opts:["Fresh from today","Fresh from the fridge","Freshly frozen","Freshly imported"],
+     opts:["Freshly frozen","Freshly imported","Fresh from today","Fresh from the fridge"],
      ans:"Fresh from today",
      hint:"This expression is the highest compliment for seafood and produce."},
 
@@ -136,7 +136,7 @@ const BATCH4_U07_L2 = {
      sSrc:"I must {1} dairy, I am intolerant."},
 
     {type:"mc", q:"Cos'e un 'ammazzacaffe'?",
-     opts:["A digestif liqueur after coffee","A very strong coffee","A coffee-flavored cake","A coffee substitute"],
+     opts:["A very strong coffee","A coffee-flavored cake","A coffee substitute","A digestif liqueur after coffee"],
      ans:"A digestif liqueur after coffee",
      hint:"Literally 'c... killer,' this drink aids digestion a... a heavy meal."}
   ,{type:"match",pairs:[{trg:"il glutine",src:"gluten"},{trg:"il lattosio",src:"lactose"},{trg:"le arachidi",src:"peanuts"},{trg:"il grano",src:"wheat / grain"},{trg:"contenere",src:"to contain"},{trg:"fresco",src:"fresh"}]},{type:"match",pairs:[{trg:"digerire",src:"to digest"}]},{type:"mc",q:"How do you say \"allergy\" in Italian?",opts:["l'allergia","la finestra","il tavolo","la bicicletta"],ans:"l'allergia",hint:"Recall the Italian vocabulary word taught in this lesson."}]

@@ -1,4 +1,4 @@
-// L20: Everyday Expressions — Useful words for real life
+// L20: Everyday Expressions. Useful words for real life
 const LESSON_20 = {
   id:"esv2_a1gap_l20", title:"Palabras útiles", icon:"\u{1F4A1}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"\u00bfCuántos artículos definidos tiene el español?",
-     opts:["Cuatro: el, la, los, las","Dos: el, la","Uno: el","Tres: el, la, lo"],
+     opts:["Tres: el, la, lo","Cuatro: el, la, los, las","Dos: el, la","Uno: el"],
      ans:"Cuatro: el, la, los, las",
      hint:"Spanish has articles for masculine/feminine AND singular/plural, giving four combinations."},
 

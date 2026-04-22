@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"ホチキス", src:"stapler"}
     ]},
 
-    {type:"mc", q:"Why is the Japanese word for 'blackboard' (黒板(こくばん)) ironic?", opts:["Most Japanese blackboards are actually green","They are made of white wood","Students write on paper instead","The word means 'green board'"], ans:"Most Japanese blackboards are actually green",
+    {type:"mc", q:"Why is the Japanese word for 'blackboard' (黒板(こくばん)) ironic?", opts:["The word means 'green board'","Most Japanese blackboards are actually green","They are made of white wood","Students write on paper instead"], ans:"Most Japanese blackboards are actually green",
      hint:"Despite the name meaning 'black board,' the actual color was changed to reduce eye strain."}
   ,{type:"match",pairs:[{trg:"ものさし",src:"ruler"},{trg:"筆箱(ふでばこ)",src:"pencil case"},{trg:"黒板(こくばん)",src:"blackboard"}]}]
 };

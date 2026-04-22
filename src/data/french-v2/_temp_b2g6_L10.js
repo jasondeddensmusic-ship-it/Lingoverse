@@ -80,7 +80,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Que signifie 'sans encombre' ?",
-     opts:["Sans problème ni obstacle","Sans argent","Sans aide extérieure","Sans autorisation"],
+     opts:["Sans autorisation","Sans problème ni obstacle","Sans argent","Sans aide extérieure"],
      ans:"Sans problème ni obstacle",
      hint:"A set phrase using a rarely seen noun. Means everything went smoothly."},
 
@@ -131,7 +131,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel substantif masculin désigne le moment où le soleil apparaît à l'horizon le matin ?",
-     opts:["le lever","le dixième","le complet","le curieux"],
+     opts:["le complet","le curieux","le lever","le dixième"],
      ans:"le lever",
      hint:"A noun formed from the verb 'l...' (to raise). Think of the sun coming up."},
 

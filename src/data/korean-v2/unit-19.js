@@ -1,4 +1,4 @@
-// Korean V2 Unit 19 — 한국에서 산 지 1년
+// Korean V2 Unit 19, 한국에서 산 지 1년
 // Level: B1.2
 
 const UNIT_19 =
@@ -287,15 +287,15 @@ const UNIT_19 =
 {type:"teach",trg:"평등",src:"equality",pos:"noun",gender:null,note:"COMPOUND: 평(flat/平) + 등(equal/等).\nFlat-equal: being on the same level.\n평등하다 = to be equal.",example:"A: 사회에서 평등이 중요해요?\nB: 물론이죠. 평등은 민주주의의 기본이에요.",exampleSrc:"A: Is equality important in society?\nB: Of course. Equality is the foundation of democracy.",funFact:"平等 entered Korean through classical Chinese texts. Gender equality (성 평등) and opportunity equality (기회의 평등) are major TOPIK essay themes."},
 {type:"teach",trg:"복지",src:"welfare / well-being",pos:"noun",gender:null,note:"COMPOUND: 복(fortune/福) + 지(support/祉).\nFortune-support: social well-being.\n복지 제도 = welfare system.",example:"A: 복지 제도가 왜 필요해요?\nB: 어려운 사람들을 도와주기 위해서예요.",exampleSrc:"A: Why is a welfare system necessary?\nB: It is to help people who are in difficulty.",funFact:"福祉 is used across East Asia. South Korea's welfare spending has grown rapidly since the 1990s. 복지 국가 (welfare state) is a key term in TOPIK II political essays."},
 {type:"tip",title:"Sino-Korean Abstract Nouns in Civic Discourse",text:"Most Korean civic/political nouns are Sino-Korean (한자어).\nThey follow a COMPOUND pattern: two hanja characters.\n\n의무 (義務) = duty-task\n제도 (制度) = make-degree (system)\n현실 (現實) = present-real\n지식 (知識) = know-know\n정책 (政策) = govern-plan\n평등 (平等) = flat-equal\n복지 (福祉) = fortune-support\n\nNotice: most are VERB + NOUN or ADJ + NOUN compounds.\nLearning the hanja roots helps you guess new words.",deepDive:"These nouns appear in TOPIK II essay prompts:\n\n사회 문제 = social problems\n복지 제도 = welfare system\n평등한 사회 = equal society\n정책 입안 = policy making\n\nKey essay verb patterns:\n-에 대해 논하시오 = discuss [topic]\n-의 중요성 = the importance of [topic]\n-의 문제점 = the problems of [topic]\n\nBuilding these noun phrases is essential for TOPIK II writing."},
-{type:"mc",q:"의무 means:",opts:["knowledge","duty / obligation","equality","welfare"],ans:"duty / obligation",hint:"의(义) means righteousness/…. 무(务) means task. Think: your required task."},
-{type:"mc",q:"Which word means 'the way things actually are' (as opposed to ideals)?",opts:["제도","지식","현실","정책"],ans:"현실",hint:"현(現) = present/now. 실(實) = real. Now-real = the actual situation."},
+{type:"mc",q:"의무 means:",opts:["duty / obligation","equality","welfare","knowledge"],ans:"duty / obligation",hint:"의(义) means righteousness/…. 무(务) means task. Think: your required task."},
+{type:"mc",q:"Which word means 'the way things actually are' (as opposed to ideals)?",opts:["지식","현실","정책","제도"],ans:"현실",hint:"현(現) = present/now. 실(實) = real. Now-real = the actual situation."},
 {type:"fb",s:"새 {1}이 발표됐어요. 주거 지원에 관한 내용이에요.\n(A new ___ was announced. It is about housing support.)",a:"정책",opts:["정책","제도","복지","의무"],hint:"What is a government's formal course of action on a social issue?"},
 {type:"match",pairs:[{trg:"의무",src:"duty / obligation"},{trg:"현실",src:"reality / real life"},{trg:"지식",src:"knowledge"},{trg:"복지",src:"welfare / well-being"}]},
 {type:"fb",s:"사회에서 {1}은 민주주의의 기본이에요.\n(In society, ___ is the foundation of democracy.)",a:"평등",opts:["평등","제도","의무","지식"],hint:"Which word means being on the same level? 平(flat) + 等(equal)."},
 {type:"fb",s:"한국의 교육 {1}에 대해 어떻게 생각해요?\n(What do you think about Korea's education ___?)",a:"제도",opts:["제도","정책","복지","지식"],hint:"제(制) means 'to make/establish.' 도(度) means 'degree/measure.' Together: an established system."},
 {type:"match",pairs:[{trg:"정책",src:"policy"},{trg:"제도",src:"system / institution"},{trg:"평등",src:"equality"},{trg:"의무",src:"duty / obligation"}]},
 {type:"drag_fill",s:"좋은 {1}이 있어야 {2}가 발전해요. 그리고 모든 사람에게 기본적인 의무가 있어요.\n(You need good policy for society to develop. And everyone has basic duties.)",blanks:{"1":"정책","2":"사회"},pool:["정책","사회","제도","평등","지식","의무"],hint:"정책 = policy. 사회 = society (taught in unit 17). These two nouns complete the civic argument."},
-{type:"mc",q:"복지 제도 means:",opts:["a knowledge system","a welfare system","an equality system","a duty system"],ans:"a welfare system",hint:"복지 = …/well-being. 제도 = …. Combine them: the institutional structure for social support."},
+{type:"mc",q:"복지 제도 means:",opts:["a duty system","a knowledge system","a welfare system","an equality system"],ans:"a welfare system",hint:"복지 = …/well-being. 제도 = …. Combine them: the institutional structure for social support."},
 ]},
 
 ]};

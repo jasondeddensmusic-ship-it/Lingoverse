@@ -31,7 +31,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot désigne un standard ou une règle acceptée par la société ?",
-     opts:["un migrant","une norme","un mixage","un modernisme"],
+     opts:["une norme","un mixage","un modernisme","un migrant"],
      ans:"une norme",
      hint:"From Latin 'norma' (carpenter's square). Think of what buildings, products, and behavior must meet."},
 
@@ -80,7 +80,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot décrit la résolution d'un conflit par un tiers neutre ?",
-     opts:["la mutilation","la médiocrité","la médiation","la météorologie"],
+     opts:["la médiocrité","la médiation","la météorologie","la mutilation"],
      ans:"la médiation",
      hint:"A formal process where a neutral person helps two sides reach agreement. Avoids going to court."},
 

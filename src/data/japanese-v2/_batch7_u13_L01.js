@@ -111,7 +111,7 @@ const BATCH7_L1 = {
      sSrc:"I {1} the train. The next one is in 5 minutes."},
 
     {type:"mc", q:"温泉(おんせん) etiquette requires:",
-     opts:["Washing your body before entering the bath","Wearing a swimsuit in the water","Bringing a towel into the water","Entering with shoes on"],
+     opts:["Entering with shoes on","Washing your body before entering the bath","Wearing a swimsuit in the water","Bringing a towel into the water"],
      ans:"Washing your body before entering the bath",
      hint:"You must be completely clean b... e... the shared hot water. No swimsuits allowed."},
 
@@ -122,7 +122,7 @@ const BATCH7_L1 = {
      sSrc:"It will rain tomorrow. That is {1}."},
 
     {type:"mc", q:"新宿駅(しんじゅくえき) is nicknamed 'the dungeon' because:",
-     opts:["People get lost due to 200+ exits","It is underground","It is dark","It is old"],
+     opts:["It is dark","It is old","People get lost due to 200+ exits","It is underground"],
      ans:"People get lost due to 200+ exits",
      hint:"Even locals g... 迷(まよ)う in this enormous station with its confusing maze of passages and e...."},
 

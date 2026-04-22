@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 5 — Education and Knowledge
+// French B2 Gap Lesson 5. Education and Knowledge
 const LESSON_5 = {id:"frv2_b2g5_l5", title:"Savoir et éducation", icon:"📚", xp:15, board:true, steps:[
   {type:"intro", title:"Savoir et éducation",
    desc:"Build vocabulary for discussing education, learning processes, and intellectual life at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_5 = {id:"frv2_b2g5_l5", title:"Savoir et éducation", icon:"📚", 
    funFact:"From 'individuel' + '-ement'. French adverbs often add '-ment' to the feminine adjective form."},
 
   {type:"mc", q:"Quel adjectif signifie 'étudié en profondeur'?",
-   opts:["Approfondi","Incomplet","Indirect","Initial"],
+   opts:["Initial","Approfondi","Incomplet","Indirect"],
    ans:"Approfondi",
    hint:"Deeply examined, thoroughly investigated over a long period"},
 
@@ -105,7 +105,7 @@ const LESSON_5 = {id:"frv2_b2g5_l5", title:"Savoir et éducation", icon:"📚", 
   ]},
 
   {type:"mc", q:"Que signifie 'l'idéalisation du passé'?",
-   opts:["Voir le passé comme parfait alors qu'il ne l'était pas","Étudier l'histoire en détail","Oublier complètement le passé","Critiquer le passé sévèrement"],
+   opts:["Oublier complètement le passé","Critiquer le passé sévèrement","Voir le passé comme parfait alors qu'il ne l'était pas","Étudier l'histoire en détail"],
    ans:"Voir le passé comme parfait alors qu'il ne l'était pas",
    hint:"Nostalgia makes us remember only the good parts, ignoring the bad"},
 
@@ -120,7 +120,7 @@ const LESSON_5 = {id:"frv2_b2g5_l5", title:"Savoir et éducation", icon:"📚", 
    hint:"Mutual exchange between teacher and students leads to thorough learning"},
 
   {type:"mc", q:"Chaque élève sera évalué comment?",
-   opts:["Individuellement","Collectivement","Indirectement","Initialement"],
+   opts:["Collectivement","Indirectement","Initialement","Individuellement"],
    ans:"Individuellement",
    hint:"One by one, each person assessed separately"}
 ]};

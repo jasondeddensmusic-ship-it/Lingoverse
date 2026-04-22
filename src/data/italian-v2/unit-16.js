@@ -294,7 +294,7 @@ const UNIT_16 = {
       ]},
 
       {type:"mc", q:"What is the past participle of 'prescrivere'?",
-       opts:["Prescritto","Prescritto","Prescrivuto","Prescrito"],
+       opts:["Prescrito","Prescritto","Prescritto","Prescrivuto"],
        ans:"Prescritto",
        hint:"This is an irregular past participle. Like 'scrivere' > 'scritto,' 'prescrivere' follows the same -itto pattern."},
 

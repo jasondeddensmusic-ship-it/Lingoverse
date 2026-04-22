@@ -1,4 +1,4 @@
-// Lesson 18 — Identidad y lengua
+// Lesson 18. Identidad y lengua
 const LESSON_18 = {id:"esv2_b2gA_l18", title:"Identidad y lengua", icon:"🗣️", xp:15, board:true, steps:[
 {type:"intro", title:"Identidad y lengua", desc:"Discuss language, identity, and cultural belonging with sophisticated B2 vocabulary.", goals:["Learn 15 language and identity terms","Discuss linguistic diversity","Express cultural identity concepts"]},
 
@@ -57,7 +57,7 @@ const LESSON_18 = {id:"esv2_b2gA_l18", title:"Identidad y lengua", icon:"🗣️
  exampleSrc:"A: What are you doing tonight?\nB: I'm staying at home watching a movie.",
  funFact:"'En casa' without article means 'at home'. 'En la casa' refers to a specific building."},
 
-{type:"mc", q:"¿Cuándo se usa 'a partir de'?", opts:["Para marcar un punto de inicio en el tiempo","Para expresar distancia física","Para indicar una cantidad exacta","Para hablar del pasado"], ans:"Para marcar un punto de inicio en el tiempo",
+{type:"mc", q:"¿Cuándo se usa 'a partir de'?", opts:["Para hablar del pasado","Para marcar un punto de inicio en el tiempo","Para expresar distancia física","Para indicar una cantidad exacta"], ans:"Para marcar un punto de inicio en el tiempo",
  hint:"This prepositional phrase sets the beginning point from which something starts."},
 
 {type:"fb", s:"Llegaron {1} para la ceremonia de graduación.", a:["justo a tiempo"], opts:["justo a tiempo","a la moda","en casa","como que no"],
@@ -94,7 +94,7 @@ const LESSON_18 = {id:"esv2_b2gA_l18", title:"Identidad y lengua", icon:"🗣️
  hint:"This expression means following current fashion trends.",
  sSrc:"She always dresses {1}; she loves designer clothes."},
 
-{type:"mc", q:"¿Qué es un 'acorazado'?", opts:["Un buque de guerra con blindaje pesado","Un tipo de castillo medieval","Un soldado con armadura","Un coche blindado"], ans:"Un buque de guerra con blindaje pesado",
+{type:"mc", q:"¿Qué es un 'acorazado'?", opts:["Un soldado con armadura","Un coche blindado","Un buque de guerra con blindaje pesado","Un tipo de castillo medieval"], ans:"Un buque de guerra con blindaje pesado",
  hint:"From 'coraza' (armor). Apply heavy armor to a warship."},
 
 {type:"drag_fill", s:"{1} septiembre, las clases empiezan {2} las ocho.", blanks:{"1":"A partir de","2":"a"}, pool:["A partir de","a","En","por"],

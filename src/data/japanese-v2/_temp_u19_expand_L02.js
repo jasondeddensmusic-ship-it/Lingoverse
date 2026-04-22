@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: I want to become good at Japanese. What should I do?\nB: You should practice every day.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
      funFact:"ばいい is the essential advice pattern. どうすればいい (what should I do?) is one of the most frequently asked questions in Japanese. It literally means 'if I do how, would it be good?' The answer follows the same pattern: れんしゅうすればいい (if you practice, it will be good = you should practice)."},
 
-    {type:"mc", q:"どうすればいいですか means:", opts:["What did you do?","What should I do?","How are you?","What happened?"], ans:"What should I do?",
+    {type:"mc", q:"どうすればいいですか means:", opts:["What should I do?","How are you?","What happened?","What did you do?"], ans:"What should I do?",
      hint:"ば + いい creates the advice-seeking pattern: if I do what, would it be good?"},
 
     {type:"teach", trg:"いそがばまわれ", src:"more haste, less speed (proverb)", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"ばいい",src:"should/it would be good"},{trg:"なければならない",src:"must do"},{trg:"いそがばまわれ",src:"haste makes waste"},{trg:"れんしゅうする",src:"to practice"}]},
 
-    {type:"mc", q:"なければならない is built from:", opts:["Causative + passive","ば conditional of ない + ならない","たら + いけない","と + だめ"], ans:"ば conditional of ない + ならない",
+    {type:"mc", q:"なければならない is built from:", opts:["と + だめ","Causative + passive","ば conditional of ない + ならない","たら + いけない"], ans:"ば conditional of ない + ならない",
      hint:"The ば-form of the negative (なければ) plus ならない (will not do) creates obligation."},
   ]
 };

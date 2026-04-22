@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"味見(あじみ)", src:"taste testing"}
     ]},
 
-    {type:"mc", q:"What is 茶碗蒸(ちゃわんむ)し?", opts:["Steamed egg custard","Grilled chicken","Boiled rice","Cut vegetables"], ans:"Steamed egg custard",
+    {type:"mc", q:"What is 茶碗蒸(ちゃわんむ)し?", opts:["Cut vegetables","Steamed egg custard","Grilled chicken","Boiled rice"], ans:"Steamed egg custard",
      hint:"茶碗(ちゃわん) means tea cup and 蒸(む)し means s.... It is a savory dish."}
   ,{type:"fb", s:"野菜(やさい)と肉(にく)を{1}で食材(しょくざい)を切(き)ります。",
     a:["まな板(いた)"],

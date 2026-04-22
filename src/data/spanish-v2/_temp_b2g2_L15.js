@@ -90,7 +90,7 @@ const LESSON_15 = {id:"esv2_b2g2_l15",title:"Influir y comunicar",icon:"🗣️"
  exampleSrc:"A: The cat curled up on the sofa by the fireplace.\nB: Nobody can move it from there in winter.",
  funFact:"Evokes warmth and comfort. 'Acurrucarse' is one of those cozy Spanish words with no exact English match."},
 
-{type:"mc",q:"¿Qué significa cosificar a alguien?",opts:["Tratarle como si fuera un objeto","Hacerle un regalo","Darle un empleo","Describirle con detalle"],ans:"Tratarle como si fuera un objeto",hint:"Think about reducing a person to the status of a thing, removing their humanity."},
+{type:"mc",q:"¿Qué significa cosificar a alguien?",opts:["Describirle con detalle","Tratarle como si fuera un objeto","Hacerle un regalo","Darle un empleo"],ans:"Tratarle como si fuera un objeto",hint:"Think about reducing a person to the status of a thing, removing their humanity."},
 
 {type:"teach",trg:"abusar",src:"to abuse / to take advantage",pos:"verb",gender:null,
  note:"Regular -ar verb. To use excessively or treat badly.\nOften followed by 'de'.",

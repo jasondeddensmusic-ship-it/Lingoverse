@@ -1,4 +1,4 @@
-// Korean V2 Unit 12 — 취미가 뭐예요?
+// Korean V2 Unit 12, 취미가 뭐예요?
 // Level: B1.1
 
 const UNIT_12 =

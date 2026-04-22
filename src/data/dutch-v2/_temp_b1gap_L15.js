@@ -1,4 +1,4 @@
-// L15: Nature and Environment — 20 B1 gap words
+// L15: Nature and Environment, 20 B1 gap words
 const LESSON_15 = {
   id:"nlv2_b1gap_l15", title:"Natuur en Milieu", icon:"\u{1F33F}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"De prijzen zijn zo hoog dat niemand ze kan betalen. Ze zijn ___.",
-     opts:["astronomisch","architecturaal","abstract","alternatief"],
+     opts:["alternatief","astronomisch","architecturaal","abstract"],
      ans:"astronomisch",
      hint:"Which adjective originally relates to stars but means extremely high?"},
 
@@ -144,7 +144,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Waar ga je naartoe om aan het strand te liggen en in zee te zwemmen?",
-     opts:["een badplaats","een afgrond","een aquarium","een arsenaal"],
+     opts:["een aquarium","een arsenaal","een badplaats","een afgrond"],
      ans:"een badplaats",
      hint:"Think about a coastal town that people visit for beach holidays."}
   ]

@@ -58,13 +58,13 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  hint:"Subject is eles. Third person plural preterite of falar.",
  sSrc:"They {1} for three hours in the meeting."},
 
-{type:"mc", q:"Choose the correct preterite of falar for eu:", opts:["falou","falei","falamos","falaram"], ans:"falei", hint:"First person singular -ar preterite ends in a very distinctive diphthong."},
+{type:"mc", q:"Choose the correct preterite of falar for eu:", opts:["falei","falamos","falaram","falou"], ans:"falei", hint:"First person singular -ar preterite ends in a very distinctive diphthong."},
 
-{type:"mc", q:"What does 'Ontem eu estudei' mean?", opts:["Yesterday I studied","Today I studied","Tomorrow I will study","I study every day"], ans:"Yesterday I studied", hint:"Ontem is the time marker. The verb is completed in the past."},
+{type:"mc", q:"What does 'Ontem eu estudei' mean?", opts:["I study every day","Yesterday I studied","Today I studied","Tomorrow I will study"], ans:"Yesterday I studied", hint:"Ontem is the time marker. The verb is completed in the past."},
 
 {type:"fb", s:"Nós {1} com o professor depois da aula.", a:["falamos"], opts:["falamos","falei","falaram","falou"], hint:"Subject is nós, so use the first person plural preterite of falar.", sSrc:"We {1} with the teacher after class."},
 
-{type:"mc", q:"Which sentence uses the preterite correctly?", opts:["Ela falou comigo ontem","Ela fala comigo ontem","Ela falamos ontem","Ela falaram ontem"], ans:"Ela falou comigo ontem", hint:"___ is third person singular. Match the subject to the correct past-tense ending."},
+{type:"mc", q:"Which sentence uses the preterite correctly?", opts:["Ela falamos ontem","Ela falaram ontem","Ela falou comigo ontem","Ela fala comigo ontem"], ans:"Ela falou comigo ontem", hint:"___ is third person singular. Match the subject to the correct past-tense ending."},
 
 {type:"fb", s:"Você {1} com a minha mãe na festa?", a:["falou"], opts:["falou","falei","falamos","falaram"], hint:"Você takes the same ending as ele or ela in the preterite.", sSrc:"Did you {1} with my mother at the party?"},
 
@@ -81,7 +81,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
   {trg:"eles falaram", src:"they spoke"}
 ]},
 
-{type:"mc", q:"'Eles estudaram a noite toda' means:", opts:["They studied all night","They study all night","They will study all night","They were studying all night"], ans:"They studied all night", hint:"Estudaram is the plural preterite. The action is complete."},
+{type:"mc", q:"'Eles estudaram a noite toda' means:", opts:["They study all night","They will study all night","They were studying all night","They studied all night"], ans:"They studied all night", hint:"Estudaram is the plural preterite. The action is complete."},
 
 {type:"fb", s:"Ontem eu {1} português por duas horas.", a:["estudei"], opts:["estudei","estudou","estudamos","estudaram"], hint:"Subject is eu, and the time marker ontem confirms the preterite.", sSrc:"Yesterday I {1} Portuguese for two hours."}
 ]},
@@ -143,7 +143,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  exampleSrc:"A: Where did you live before?\nB: I lived in Portugal for five years.\nA: And how was it?\nB: Very well, I learned a lot.",
  funFact:"Viver is often used for experiences, morar for residence. Vivi em Paris feels richer than morei em Paris."},
 
-{type:"mc", q:"Choose the correct preterite of comer for eu:", opts:["comeu","comi","comemos","comeram"], ans:"comi", hint:"First person singular -er preterite drops everything except the -i."},
+{type:"mc", q:"Choose the correct preterite of comer for eu:", opts:["comi","comemos","comeram","comeu"], ans:"comi", hint:"First person singular -er preterite drops everything except the -i."},
 
 {type:"fb", s:"Nós {1} uma pizza enorme ontem à noite.", a:["comemos"], opts:["comemos","comi","comeram","comeu"], hint:"Subject is nós. Use the plural first person preterite of comer.", sSrc:"We {1} a huge pizza last night."},
 
@@ -168,7 +168,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  exampleSrc:"A: Did you travel recently?\nB: Yes, I traveled last week.\nA: Where to?\nB: I went to Rio.",
  funFact:"Passada literally means 'passed'. Portuguese calls last week 'the passed week'. Poetic, no?"},
 
-{type:"mc", q:"'A semana passada eu comi sushi' means:", opts:["Last week I ate sushi","Next week I will eat sushi","I eat sushi weekly","I ate sushi today"], ans:"Last week I ate sushi", hint:"A semana passada is the time marker. Comi is the completed action."}
+{type:"mc", q:"'A semana passada eu comi sushi' means:", opts:["Next week I will eat sushi","I eat sushi weekly","I ate sushi today","Last week I ate sushi"], ans:"Last week I ate sushi", hint:"A semana passada is the time marker. Comi is the completed action."}
 ]},
 
 {id:"ptv2_u13l3", title:"Irregular Preterites", icon:"⚡", xp:15, board:true, steps:[
@@ -269,11 +269,11 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
 
 {type:"fb", s:"O que você {1} no final de semana?", a:["fez"], opts:["fez","fiz","fizemos","fizeram"], hint:"Você takes the third person singular of fazer in the preterite.", sSrc:"What did you {1} on the weekend?"},
 
-{type:"mc", q:"Which sentence is correct?", opts:["Nós fomos à praia ontem","Nós foi à praia ontem","Nós fui à praia ontem","Nós foram à praia ontem"], ans:"Nós fomos à praia ontem", hint:"___ is first person plural. Use the -mos form of ir/ser."},
+{type:"mc", q:"Which sentence is correct?", opts:["Nós foram à praia ontem","Nós fomos à praia ontem","Nós foi à praia ontem","Nós fui à praia ontem"], ans:"Nós fomos à praia ontem", hint:"___ is first person plural. Use the -mos form of ir/ser."},
 
 {type:"fb", s:"Ontem eu {1} um problema com o carro.", a:["tive"], opts:["tive","teve","tivemos","tiveram"], hint:"Subject is eu, past tense of ter, irregular stem.", sSrc:"Yesterday I {1} a problem with the car."},
 
-{type:"mc", q:"Which answer pairs correctly with 'Você já comeu?'", opts:["Já, comi em casa","Já, como em casa","Ainda não foi","Já vai"], ans:"Já, comi em casa", hint:"Já calls for a completed preterite. Match the tense."},
+{type:"mc", q:"Which answer pairs correctly with 'Você já comeu?'", opts:["Ainda não foi","Já vai","Já, comi em casa","Já, como em casa"], ans:"Já, comi em casa", hint:"Já calls for a completed preterite. Match the tense."},
 
 {type:"match", pairs:[
   {trg:"eu fui", src:"I went / was"},
@@ -282,7 +282,7 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
   {trg:"eles foram", src:"they went / were"}
 ]},
 
-{type:"mc", q:"'No ano passado' means:", opts:["Last year","Next year","This year","Every year"], ans:"Last year", hint:"Passado means 'passed' or 'gone by'. Another preterite time marker."},
+{type:"mc", q:"'No ano passado' means:", opts:["Next year","This year","Every year","Last year"], ans:"Last year", hint:"Passado means 'passed' or 'gone by'. Another preterite time marker."},
 
 {type:"fb", s:"No ano passado nós {1} para a Europa.", a:["fomos"], opts:["fomos","fui","foi","foram"], hint:"Subject is nós, and the time marker is past. Use first person plural of ir.", sSrc:"Last year we {1} to Europe."},
 
@@ -350,20 +350,20 @@ const UNIT_13 = {n:13, lang:"pt", srcLang:"en", track:"v2", title:"O que você f
  exampleSrc:"A: What a thing!\nB: It is true.",
  funFact:"Coisa is one of the most frequent words in Brazilian Portuguese. 'Que coisa!' is an all-purpose exclamation of surprise."},
 {type:"tip",title:"maneira vs jeito",
- text:"Two Portuguese nouns mean 'way / manner':\n\na maneira — more formal, written\no jeito — colloquial, spoken\n\n'De qualquer maneira' and 'de qualquer jeito' both mean 'anyway,' but 'jeito' sounds warmer.",
+ text:"Two Portuguese nouns mean 'way / manner':\n\na maneira, more formal, written\no jeito, colloquial, spoken\n\n'De qualquer maneira' and 'de qualquer jeito' both mean 'anyway,' but 'jeito' sounds warmer.",
  deepDive:{title:"The Brazilian jeitinho",
   text:"'O jeitinho brasileiro' is a cultural concept: the creative knack Brazilians have for finding flexible solutions to difficult situations."}},
 {type:"mc",q:"Qual palavra significa 'path' (physical route)?",
  opts:["o caminho","o lugar","o espaço","o jeito"],
  ans:"o caminho",
- hint:"Masculine noun — the physical route you travel."},
+ hint:"Masculine noun, the physical route you travel."},
 {type:"mc",q:"Qual palavra é colloquial para 'way' (manner)?",
  opts:["a maneira","o jeito","a forma","o momento"],
  ans:"o jeito",
  hint:"Warmer register than 'maneira.' Core to Brazilian culture."},
 {type:"fb",opts:["momento","lugar","caminho","tempo"],hint:"Masculine noun for a specific brief instant in time.",s:"Só um {1}, por favor.",a:"momento",sSrc:"Just a {1}, please."},
 {type:"fb",opts:["espaço","lugar","caminho","momento"],hint:"Masculine noun for physical room available.",s:"Tem {1} para mais?",a:"espaço",sSrc:"Is there {1} for more?"},
-{type:"fb",opts:["forma","maneira","época","coisa"],hint:"Feminine noun for shape — physical or abstract.",s:"A {1} é redonda.",a:"forma",sSrc:"The {1} is round."},
+{type:"fb",opts:["forma","maneira","época","coisa"],hint:"Feminine noun for shape, physical or abstract.",s:"A {1} é redonda.",a:"forma",sSrc:"The {1} is round."},
 {type:"fb",opts:["coisa","maneira","forma","época"],hint:"Feminine all-purpose noun for any object or matter.",s:"Que {1}!",a:"coisa",sSrc:"What a {1}!"},
 {type:"match",pairs:[{trg:"o caminho",src:"the path"},{trg:"o lugar",src:"the place"},{trg:"o espaço",src:"the space"},{trg:"o momento",src:"the moment"},{trg:"a época",src:"the era"}]},
 {type:"match",pairs:[{trg:"a maneira",src:"the way (formal)"},{trg:"o jeito",src:"the way (casual)"},{trg:"a forma",src:"the shape"},{trg:"a coisa",src:"the thing"}]}

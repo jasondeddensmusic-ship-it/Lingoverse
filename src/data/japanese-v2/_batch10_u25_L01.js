@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"議題(ぎだい)",src:"agenda item"},{trg:"議事録(ぎじろく)",src:"meeting minutes"},{trg:"結論(けつろん)",src:"conclusion"},{trg:"合意(ごうい)",src:"agreement"}]},
 
-    {type:"mc", q:"Which word means interpreter?", opts:["通訳(つうやく)","司会(しかい)","議事録(ぎじろく)","発言(はつげん)する"], ans:"通訳(つうやく)",
+    {type:"mc", q:"Which word means interpreter?", opts:["発言(はつげん)する","通訳(つうやく)","司会(しかい)","議事録(ぎじろく)"], ans:"通訳(つうやく)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"要約(ようやく)",src:"summary"}]}]
 };

@@ -84,7 +84,7 @@ const LESSON_19 = {id:"esv2_b2g4_l19",title:"Ciencia y medición",icon:"🔬",xp
  exampleSrc:"A: You must dissolve the cornstarch in cold water before adding it.\nB: Otherwise, lumps form.",
  funFact:"'Desleír' is mostly used in cooking instructions. In chemistry, 'disolver' is preferred."},
 
-{type:"mc",q:"Un 'elevador' es lo mismo que:",opts:["Un ascensor","Un tipo de grúa","Una escalera mecánica","Un vehículo de carga"],ans:"Un ascensor",hint:"Think about a device in buildings that carries people up and down between floors."},
+{type:"mc",q:"Un 'elevador' es lo mismo que:",opts:["Un vehículo de carga","Un ascensor","Un tipo de grúa","Una escalera mecánica"],ans:"Un ascensor",hint:"Think about a device in buildings that carries people up and down between floors."},
 
 {type:"fb",s:"El {1} de la tubería principal es de cincuenta centímetros.",a:["diámetro"],opts:["diámetro","elevador","córner","encendido"],hint:"The measurement of width across the center of a circular pipe.",sSrc:"The {1} of the main pipe is fifty centimeters."},
 

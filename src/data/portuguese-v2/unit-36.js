@@ -75,7 +75,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"Which verb is MORE formal than 'entender'?",
- opts:["aprender","expressar","comunicar","compreender"],
+ opts:["expressar","comunicar","compreender","aprender"],
  ans:"compreender",
  hint:"Used in exams and official speech. Shares root with 'comprehend'."},
 
@@ -88,7 +88,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"What does it mean to be 'fluente'?",
- opts:["to know grammar rules","to speak smoothly and naturally","to memorize vocabulary","to pass a test"],
+ opts:["to memorize vocabulary","to pass a test","to know grammar rules","to speak smoothly and naturally"],
  ans:"to speak smoothly and naturally",
  hint:"From Latin 'fluere' (to flow). Fluency = words that flow."},
 
@@ -183,7 +183,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"What is the difference between 'argumentar' and 'brigar'?",
- opts:["they mean the same","argumentar means to make a logical case, brigar means to quarrel","brigar is more polite","argumentar is informal"],
+ opts:["argumentar is informal","they mean the same","argumentar means to make a logical case, brigar means to quarrel","brigar is more polite"],
  ans:"argumentar means to make a logical case, brigar means to quarrel",
  hint:"One uses reason and evidence. The other is an emotional or physical conflict."},
 
@@ -196,7 +196,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"Which noun describes something difficult that requires effort?",
- opts:["conquista","desafio","saudade","identidade"],
+ opts:["saudade","identidade","conquista","desafio"],
  ans:"desafio",
  hint:"A task that tests your limits. Three syllables."},
 
@@ -240,7 +240,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"Which Portuguese word expresses bittersweet longing?",
- opts:["conquista","saudade","fluente","desafio"],
+ opts:["saudade","fluente","desafio","conquista"],
  ans:"saudade",
  hint:"The famous untranslatable word. Three syllables ending in -ade."},
 
@@ -253,7 +253,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"To keep improving, what matters most at this stage?",
- opts:["exposure and practice","grammar rules","vocabulary lists","translation"],
+ opts:["translation","exposure and practice","grammar rules","vocabulary lists"],
  ans:"exposure and practice",
  hint:"At B2+, you need real input and output, not more textbook study."},
 
@@ -266,7 +266,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"What does 'matar a saudade' mean?",
- opts:["to kill someone","to satisfy the longing","to end a friendship","to forget the past"],
+ opts:["to forget the past","to kill someone","to satisfy the longing","to end a friendship"],
  ans:"to satisfy the longing",
  hint:"Literally 'to kill the saudade'. A poetic idiom for doing what you miss."},
 
@@ -287,7 +287,7 @@ const UNIT_36 = {n:36, lang:"pt", srcLang:"en", track:"v2", title:"Fluência e m
 
 {type:"mc",
  q:"Parabéns! You finished the B2.2 level. What does 'parabéns' mean?",
- opts:["goodbye","welcome","congratulations","sorry"],
+ opts:["sorry","goodbye","welcome","congratulations"],
  ans:"congratulations",
  hint:"A celebration word. You deserve this one right now."}
 ,

@@ -1,4 +1,4 @@
-// Unit 02 Batch 2 — Lesson 1: Higher Numbers & Ordinals
+// Unit 02 Batch 2. Lesson 1: Higher Numbers & Ordinals
 const BATCH2_U02_L1 = {
   id:"itv2_u02l_b2_1", title:"I numeri grandi", icon:"\ud83d\udcaf", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U02_L1 = {
      sSrc:"It is the {1} day of school."},
 
     {type:"mc", q:"Which ordinal number is used for dates in Italian?",
-     opts:["Only 'primo' for the 1st","All ordinals for all dates","None of them","Only 'ultimo' for the last day"],
+     opts:["Only 'ultimo' for the last day","Only 'primo' for the 1st","All ordinals for all dates","None of them"],
      ans:"Only 'primo' for the 1st",
      hint:"January 1st uses an ordinal, but all other dates use cardinals: il due, il tre, il quattro..."},
 
@@ -122,7 +122,7 @@ const BATCH2_U02_L1 = {
     ]},
 
     {type:"mc", q:"Come si dice 'half an hour' in italiano?",
-     opts:["Mezz'ora","Mezzo ora","Mezza ora","Meta ora"],
+     opts:["Mezza ora","Meta ora","Mezz'ora","Mezzo ora"],
      ans:"Mezz'ora",
      hint:"The word for 'half' contracts before 'o....' The apostrophe marks the dropped vowel."},
 
@@ -133,7 +133,7 @@ const BATCH2_U02_L1 = {
      sSrc:"A {1} espresso, please."},
 
     {type:"mc", q:"What does 'secondo me' mean?",
-     opts:["According to me","My second","I am second","Second time"],
+     opts:["My second","I am second","Second time","According to me"],
      ans:"According to me",
      hint:"The ordinal 'secondo' has a third meaning beyond numbers and restaurant courses. It introduces an opinion."}
   ,{type:"match",pairs:[{trg:"ottanta",src:"eighty"},{trg:"secondo",src:"second"},{trg:"terzo",src:"third"},{trg:"il numero",src:"the number"},{trg:"mezzo",src:"half"}]}]

@@ -98,7 +98,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Que signifie 'avoir du mal à dormir' ?",
-     opts:["to have trouble sleeping","to have a bad dream","to sleep badly","to not want to sleep"],
+     opts:["to not want to sleep","to have trouble sleeping","to have a bad dream","to sleep badly"],
      ans:"to have trouble sleeping",
      hint:"This expression with 'avoir' describes struggling or having difficulty with an action."},
 
@@ -143,7 +143,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Comment dit-on 'homepage' en français ?",
-     opts:["page d'accueil","page d'album","page d'argent","page d'avis"],
+     opts:["page d'argent","page d'avis","page d'accueil","page d'album"],
      ans:"page d'accueil",
      hint:"This uses the word for 'welcome' or 'reception' combined with 'p...'."},
 

@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"防災(ぼうさい)", src:"disaster prevention"}
     ]},
 
-    {type:"mc", q:"When is 防災(ぼうさい)の日(ひ) (Disaster Prevention Day)?", opts:["September 1st","March 11th","January 17th","August 15th"], ans:"September 1st",
+    {type:"mc", q:"When is 防災(ぼうさい)の日(ひ) (Disaster Prevention Day)?", opts:["August 15th","September 1st","March 11th","January 17th"], ans:"September 1st",
      hint:"This date commemorates the Great Kanto Earthquake of 1923."}
   ,{type:"fb", s:"大雨(おおあめ)で川(かわ)が{1}しそうです。危険(きけん)な場所(ばしょ)には近(ちか)づかないでください。",
     a:["洪水(こうずい)"],

@@ -1,4 +1,4 @@
-// Russian V2 Unit 20 — Dative Case (B1.2)
+// Russian V2 Unit 20. Dative Case (B1.2)
 const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Дательный падеж", sub:"Dative Case",
  icon:"🎯", level:"B1.2", color:"#7B5EE8",
  lessons:[
@@ -6,20 +6,20 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
 {id:"ruv2_u20l1", title:"Giving and Indirect Objects", icon:"🎯", xp:15, board:true, steps:[
 
 {type:"intro", title:"Dative: The 'To' Case",
- desc:"Dative marks the recipient — who you're giving/saying/showing to. Also used for age, feelings, and modal expressions (мне нужно).",
+ desc:"Dative marks the recipient, who you're giving/saying/showing to. Also used for age, feelings, and modal expressions (мне нужно).",
  goals:["Use dative for indirect objects","Form dative endings","Use dative for age/feelings"]},
 
 {type:"teach", trg:"Я дал Анне", src:"I gave Anna (DAT)", pos:"phrase", gender:null,
  note:"Анна → Анне.\nIndirect object (recipient).",
  example:"A: Кому ты дал цветы?\nB: Анне, на день рождения.",
  exampleSrc:"A: Who did you give flowers to?\nB: Anna, for her birthday.",
- funFact:"Dative is the 'receiving' case. Дать (give), сказать (say), показать (show), помочь (help) — all take dative for recipient."},
+ funFact:"Dative is the 'receiving' case. Дать (give), сказать (say), показать (show), помочь (help), all take dative for recipient."},
 
 {type:"teach", trg:"Я сказал другу", src:"I told friend (DAT)", pos:"phrase", gender:null,
  note:"Друг → другу.\nMasculine dative -у ending.",
  example:"A: Что ты сказал?\nB: Сказал другу, что мы опоздаем.",
  exampleSrc:"A: What did you say?\nB: Told (a) friend we'd be late.",
- funFact:"Masculine dative -у is distinct from accusative -а (for animates). Сказал друга (wrong — acc) vs сказал другу (correct — dat)."},
+ funFact:"Masculine dative -у is distinct from accusative -а (for animates). Сказал друга (wrong, acc) vs сказал другу (correct, dat)."},
 
 {type:"teach", trg:"Я помог маме", src:"I helped mom (DAT)", pos:"phrase", gender:null,
  note:"Помочь takes DATIVE (not accusative like English).\nМама → маме.",
@@ -37,25 +37,25 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
  note:"Impersonal + dative for feelings.\nSubject is the state, not the person.",
  example:"A: Холодно тебе?\nB: Мне очень холодно.",
  exampleSrc:"A: Are you cold?\nB: I'm very cold.",
- funFact:"Russian 'мне холодно' = 'to-me cold.' The feeling happens TO you. Not 'я холодный' (I am a cold person — completely different meaning)."},
+ funFact:"Russian 'мне холодно' = 'to-me cold.' The feeling happens TO you. Not 'я холодный' (I am a cold person, completely different meaning)."},
 
 {type:"teach", trg:"Мне нужно", src:"I need (DAT for modal)", pos:"phrase", gender:null,
  note:"Нужно + infinitive for 'need to do.'\nAlways uses dative.",
  example:"A: Что тебе нужно?\nB: Мне нужно идти.",
  exampleSrc:"A: What do you need?\nB: I need to go.",
- funFact:"Alternative: надо (very casual), необходимо (very formal). All take dative. 'Мне надо,' 'мне нужно,' 'мне необходимо' — same meaning, different registers."},
+ funFact:"Alternative: надо (very casual), необходимо (very formal). All take dative. 'Мне надо,' 'мне нужно,' 'мне необходимо', same meaning, different registers."},
 
 {type:"tip", title:"Dative: Key Uses",
  text:"DATIVE APPEARS FOR:\n\n1. INDIRECT OBJECTS (recipients):\nЯ дал цветы маме. (I gave flowers to mom.)\nОн сказал это другу. (He said this to a friend.)\n\n2. AGE:\nМне 25 лет. (I'm 25.)\nЕй 30. (She's 30.)\n\n3. FEELINGS AND STATES:\nМне скучно. (I'm bored.)\nЕй холодно. (She's cold.)\nЕму жарко. (He's hot.)\n\n4. NECESSITY/NEED:\nМне нужно идти. (I need to go.)\nНам надо отдохнуть. (We need to rest.)\n\n5. AFTER VERBS:\nпомогать (help): Я помогаю маме.\nзвонить (call): Я звоню другу.\nмешать (bother): Не мешай мне.\nответить (reply): Ответь мне.\n\n6. AFTER PREPOSITIONS К, ПО:\nК маме (to mom's).\nПо улице (along the street).\n\nENDINGS:\nм: -у (другу).\nf: -е (маме).\nn: -у (окну).",
  icon:"🎯"},
 
 {type:"mc", q:"Which case after 'помочь' (to help)?",
- opts:["Nominative","Accusative","Dative","Instrumental"],
+ opts:["Dative","Instrumental","Nominative","Accusative"],
  ans:"Dative",
  hint:"Unlike English 'help someone' (direct object), Russian uses ___."},
 
 {type:"mc", q:"'I'm 30' in Russian:",
- opts:["Я 30","Я есть 30","Мне 30","Мной 30"],
+ opts:["Я есть 30","Мне 30","Мной 30","Я 30"],
  ans:"Мне 30",
  hint:"Age uses dative + number. Always impersonal."},
 
@@ -127,12 +127,12 @@ const UNIT_20 = {n:20, lang:"ru", srcLang:"en", track:"v2", title:"Датель�
  icon:"📝"},
 
 {type:"mc", q:"Dative of 'школа' (f):",
- opts:["школа","школу","школы","школе"],
+ opts:["школе","школа","школу","школы"],
  ans:"школе",
  hint:"Feminine -а → -е in dative (same as prep)."},
 
 {type:"mc", q:"Dative of 'друг' (m):",
- opts:["другу","друга","другом","друге"],
+ opts:["друге","другу","друга","другом"],
  ans:"другу",
  hint:"Masculine dative: consonant + -у."},
 

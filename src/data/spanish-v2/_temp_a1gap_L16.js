@@ -1,4 +1,4 @@
-// L16: Travel & Tourism — Exploring new places
+// L16: Travel & Tourism. Exploring new places
 const LESSON_16 = {
   id:"esv2_a1gap_l16", title:"De viaje", icon:"\u2708\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"\u00bfQué monumento romano famoso hay en Segovia?",
-     opts:["Un acueducto","Una basílica","Un altar","Una antena"],
+     opts:["Una antena","Un acueducto","Una basílica","Un altar"],
      ans:"Un acueducto",
      hint:"This structure was built by the Romans to carry water. It is still standing after 2,000 years."},
 

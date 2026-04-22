@@ -66,7 +66,7 @@ const LESSON_10 = {id:"esv2_b2gC_l10",title:"Medios y comunicación digital",ico
  exampleSrc:"A: The government's passivity in the face of the crisis was criticized.\nB: The opposition demanded immediate measures.",
  funFact:"In grammar, 'pasividad' relates to the passive voice. In psychology, it describes learned helplessness."},
 
-{type:"mc",q:"¿Qué deberías hacer antes de presentar un invento nuevo?",opts:["Patentarlo","Publicarlo en un diario digital","Colgarlo en una percha","Esperar con pasividad"],ans:"Patentarlo",hint:"A legal process that protects your intellectual property from being copied."},
+{type:"mc",q:"¿Qué deberías hacer antes de presentar un invento nuevo?",opts:["Esperar con pasividad","Patentarlo","Publicarlo en un diario digital","Colgarlo en una percha"],ans:"Patentarlo",hint:"A legal process that protects your intellectual property from being copied."},
 
 {type:"fb",s:"Su legado {1} durante muchas generaciones.",a:["perdurará"],opts:["perdurará","patentará","parpadeará","ondulará"],hint:"A verb meaning to last or endure far into the future.",sSrc:"His legacy will {1} for many generations."},
 

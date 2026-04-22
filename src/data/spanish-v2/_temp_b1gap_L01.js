@@ -138,7 +138,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 fruto comen los cerdos ib\u00e9ricos?",
-     opts:["la bellota","la avellana","el alga","la burbuja"],
+     opts:["la burbuja","la bellota","la avellana","el alga"],
      ans:"la bellota",
      hint:"This nut grows on oak trees and is famous in Spanish ham production."},
 

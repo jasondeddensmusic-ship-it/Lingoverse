@@ -40,7 +40,7 @@ const LESSON_26 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'강물이 맑다'에서 '강물'의 뜻은?",
-     opts:["바다의 파도","강에 흐르는 물","비가 내리는 물","호수의 물"],
+     opts:["강에 흐르는 물","비가 내리는 물","호수의 물","바다의 파도"],
      ans:"강에 흐르는 물",
      hint:"This compound word combines 'river' with 'water.' It refers specifically to what flows through a river."},
 
@@ -92,7 +92,7 @@ const LESSON_26 = {
 
     {type:"mc",
      q:"한국 산에 가장 많은 나무는?",
-     opts:["대나무","은행나무","벚나무","소나무"],
+     opts:["벚나무","소나무","대나무","은행나무"],
      ans:"소나무",
      hint:"This tree is a national symbol of Korea and even appears in the Korean national anthem."},
 

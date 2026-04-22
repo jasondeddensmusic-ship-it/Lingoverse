@@ -74,7 +74,7 @@ const BATCH2_U16_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does the Italian proverb 'prevenire e meglio che curare' mean?",
-     opts:["Prevention costs more than the cure itself","Prevention is better than cure","Doctors should prevent their own illnesses first","Curing is always preferable to preventing"],
+     opts:["Prevention is better than cure","Doctors should prevent their own illnesses first","Curing is always preferable to preventing","Prevention costs more than the cure itself"],
      ans:"Prevention is better than cure",
      hint:"This proverb reflects Italy's healthcare philosophy. Regular check-ups and healthy living are emphasized before treatment."},
 
@@ -104,7 +104,7 @@ const BATCH2_U16_L2 = {
      sSrc:"I need to go to the {1} for my back."},
 
     {type:"mc", q:"What makes Italy's approach to food intolerances notable?",
-     opts:["Food intolerances are generally ignored by doctors","Free celiac testing is available through the national health service","Only private clinics diagnose food intolerances","Restaurants are not required to list allergens at all"],
+     opts:["Restaurants are not required to list allergens at all","Food intolerances are generally ignored by doctors","Free celiac testing is available through the national health service","Only private clinics diagnose food intolerances"],
      ans:"Free celiac testing is available through the national health service",
      hint:"Italy has one of Europe's highest c... diagnosis rates. F... t... and widely a... 'senza glutine' options reflect the commitment."},
 
@@ -115,7 +115,7 @@ const BATCH2_U16_L2 = {
      sSrc:"I need to follow a {1} of antibiotics for a week."},
 
     {type:"mc", q:"What do Italians typically prefer before taking sleeping pills?",
-     opts:["Strong coffee late at night","Chamomile tea and natural remedies","Heavy exercise right before bed","Watching exciting television programs"],
+     opts:["Heavy exercise right before bed","Watching exciting television programs","Strong coffee late at night","Chamomile tea and natural remedies"],
      ans:"Chamomile tea and natural remedies",
      hint:"'Camomilla,' herbal teas, and melatonin are tried first. Sleeping pills require a prescription and are a last resort."}
   ,{type:"match",pairs:[{trg:"la dieta",src:"the diet"}]}]

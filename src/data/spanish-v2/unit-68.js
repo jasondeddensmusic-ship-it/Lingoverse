@@ -1,4 +1,4 @@
-// Spanish V2 Unit 68 — B2 Vocabulary Batch 8
+// Spanish V2 Unit 68. B2 Vocabulary Batch 8
 import L06 from './_temp_b2g8_L06.js';
 import L07 from './_temp_b2g8_L07.js';
 import L08 from './_temp_b2g8_L08.js';

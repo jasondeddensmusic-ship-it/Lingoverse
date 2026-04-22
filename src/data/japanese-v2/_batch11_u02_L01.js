@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"パン屋(や)とはなんですか？",
-     opts:["A bakery","A bread company","A type of bread","A bread brand"],
+     opts:["A bread brand","A bakery","A bread company","A type of bread"],
      ans:"A bakery",
      hint:"The や suffix turns a product word into the name of a shop that sells it."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"What is your job?"},
 
     {type:"mc", q:"日本(にほん)のタクシーの運転手(うんてんしゅ)はなにをしていますか？",
-     opts:["Wearing white gloves","Wearing a suit","Wearing sunglasses","Wearing a hat"],
+     opts:["Wearing sunglasses","Wearing a hat","Wearing white gloves","Wearing a suit"],
      ans:"Wearing white gloves",
      hint:"This is a famous detail about Japanese professional drivers that surprises many visitors."}
   ,{type:"fb", s:"近所(きんじょ)に面白(おもしろ)い{1}がいくつもあります。パン屋(や)や花屋(はなや)も近(ちか)いです。",

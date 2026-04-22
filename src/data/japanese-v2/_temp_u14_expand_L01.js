@@ -24,7 +24,7 @@ const LESSON_3 = {id:"jav2_u14l3", title:"さんせい・はんたい", icon:"�
    exampleSrc:"A: Studying Japanese is fun, is it not.\nB: I think so too.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
    funFact:"そうおもいます is the most natural agreement phrase for opinions. Adding わたしも (me too) reinforces it. The phrase そうですね (that is right / indeed) is the all-purpose agreement response in Japanese, but it is weaker than そうおもいます, which commits to sharing the opinion."},
 
-  {type:"mc", q:"はんたいです means:", opts:["I agree","I am not sure","I am against it","I do not care"], ans:"I am against it",
+  {type:"mc", q:"はんたいです means:", opts:["I am against it","I do not care","I agree","I am not sure"], ans:"I am against it",
    hint:"はんたい is the direct expression of opposition or disagreement."},
 
   {type:"teach", trg:"ちょっと...", src:"well... / it is a bit... (polite refusal)", pos:"adv", gender:null,
@@ -60,7 +60,7 @@ const LESSON_3 = {id:"jav2_u14l3", title:"さんせい・はんたい", icon:"�
    exampleSrc:"A: Why are you opposed?\nB: There are three reasons. First...\nA: That is exciting.\nB: Yes, I am already excited.",
    funFact:"理由 combines 理 (reason/logic) and 由 (cause/origin). Giving clear reasons (理由をのべる) is valued in Japanese argumentation. The structure 'りゆうは...からです' (the reason is... because...) is standard in essays and formal discussions."},
 
-  {type:"mc", q:"ちょっと... (trailing off) usually means:", opts:["I totally agree","I am very happy","I politely disagree or decline","I do not understand"], ans:"I politely disagree or decline",
+  {type:"mc", q:"ちょっと... (trailing off) usually means:", opts:["I am very happy","I politely disagree or decline","I do not understand","I totally agree"], ans:"I politely disagree or decline",
    hint:"Leaving the sentence unfinished with ちょっと is a classic soft refusal."},
 
   {type:"teach", trg:"でも", src:"but / however", pos:"conj", gender:null,
@@ -82,7 +82,7 @@ const LESSON_3 = {id:"jav2_u14l3", title:"さんせい・はんたい", icon:"�
 
   {type:"match", pairs:[{trg:"たしかに",src:"certainly"},{trg:"ちょっと...",src:"well... (soft refusal)"},{trg:"でも",src:"but"},{trg:"ほうがいい",src:"better to"}]},
 
-  {type:"mc", q:"たしかに、でも... is used to:", opts:["Completely disagree","Acknowledge a point, then add your view","Ask a question","Express confusion"], ans:"Acknowledge a point, then add your view",
+  {type:"mc", q:"たしかに、でも... is used to:", opts:["Express confusion","Completely disagree","Acknowledge a point, then add your view","Ask a question"], ans:"Acknowledge a point, then add your view",
    hint:"This pattern shows respect by agreeing partially before introducing a contrast."},
 
   {type:"fb", s:"もうすこしかんがえた{1}がいいとおもいます。\n(I think it would be better to think a bit more.)", a:"ほう", opts:["ほう","こと","もの","ため"], sSrc:"I think it would be better to think a bit more.",

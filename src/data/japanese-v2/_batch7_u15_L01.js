@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"The train departs from {1} number 3."},
 
     {type:"mc", q:"To buy a car in Japan, you need:",
-     opts:["Proof of a parking space (車庫証明(しゃこしょうめい))","Only a driver's license","Permission from neighbors","A recommendation letter"],
+     opts:["A recommendation letter","Proof of a parking space (車庫証明(しゃこしょうめい))","Only a driver's license","Permission from neighbors"],
      ans:"Proof of a parking space (車庫証明(しゃこしょうめい))",
      hint:"You must prove you have somewhere to park before you can purchase a vehicle."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Let us cross the crosswalk when the signal turns {1}."},
 
     {type:"mc", q:"各駅停車(かくえきていしゃ) means the train:",
-     opts:["Stops at every station","Skips most stations","Only runs on weekends","Goes to the airport"],
+     opts:["Only runs on weekends","Goes to the airport","Stops at every station","Skips most stations"],
      ans:"Stops at every station",
      hint:"各駅(かくえき) means 'each s...' and 停車(ていしゃ) means 'stopping.' The slowest but most thorough service."},
 

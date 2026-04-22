@@ -93,13 +93,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"おそれながら",src:"with all due respect"},{trg:"さしつかえなければ",src:"if you do not mind"},{trg:"かならずしも",src:"not necessarily"},{trg:"あくまでも",src:"strictly/to the end"},{trg:"まさに",src:"precisely/exactly"}],
      hint:"Match each advanced expression with its English meaning."},
 
-    {type:"mc", q:"What does 〜かねる express in business Japanese?", opts:["A polite way to refuse or say 'unable to'","An enthusiastic agreement","A casual greeting","A formal invitation"], ans:"A polite way to refuse or say 'unable to'",
+    {type:"mc", q:"What does 〜かねる express in business Japanese?", opts:["A formal invitation","A polite way to refuse or say 'unable to'","An enthusiastic agreement","A casual greeting"], ans:"A polite way to refuse or say 'unable to'",
      hint:"This verb suffix is softer than できません and avoids direct rejection."},
 
     {type:"fb", s:"高(たか)いものが{1}良(よ)いとは限(かぎ)りません。\n(Expensive things are not necessarily good.)", a:"かならずしも", opts:["かならずしも","かならず","ぜったいに","確(たし)かに"], sSrc:"Expensive things are not necessarily good.",
      hint:"This adverb + negative pattern means 'not always' or 'not necessarily.'"},
 
-    {type:"mc", q:"What is the most common essay debate structure in Japanese?", opts:["確(たし)かに...しかし (certainly...however)","まず...そして (first...then)","もちろん...だから (of course...therefore)","ところで...でも (by the way...but)"], ans:"確(たし)かに...しかし (certainly...however)",
+    {type:"mc", q:"What is the most common essay debate structure in Japanese?", opts:["もちろん...だから (of course...therefore)","ところで...でも (by the way...but)","確(たし)かに...しかし (certainly...however)","まず...そして (first...then)"], ans:"確(たし)かに...しかし (certainly...however)",
      hint:"Conceding before countering shows intellectual honesty and is valued in academic writing."}
   ,{type:"match",pairs:[{trg:"言(い)わば",src:"so to speak / as it were"},{trg:"に限(かぎ)らず",src:"not limited to / not just"},{trg:"改(あらた)めて",src:"once again / anew / formally"},{trg:"ともかくとして",src:"setting that aside / regardless of"},{trg:"一見(いっけん)",src:"at first glance / seemingly / apparently"},{trg:"〜かねる",src:"to be unable to / to find it difficult to"}]},{type:"match",pairs:[{trg:"快(こころよ)く",src:"willingly / gladly / with pleasure"}]}]
 };

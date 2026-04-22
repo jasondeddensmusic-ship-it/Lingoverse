@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 13 — Argumentation & Debate
+// B2 Gap Batch B Lesson 13. Argumentation & Debate
 
 const LESSON_13 = {id:"esv2_b2gB_l13",title:"Argumentación y debate",icon:"💬",xp:15,board:true,steps:[
 
@@ -148,7 +148,7 @@ const LESSON_13 = {id:"esv2_b2gB_l13",title:"Argumentación y debate",icon:"💬
 
 {type:"mc",q:"¿Qué significa 'oficioso' en español?",
 
- opts:["No oficial pero de fuente fiable","Muy trabajador y eficiente","Relacionado con una oficina","Opuesto a lo religioso"],
+ opts:["Opuesto a lo religioso","No oficial pero de fuente fiable","Muy trabajador y eficiente","Relacionado con una oficina"],
 
  ans:"No oficial pero de fuente fiable",
 

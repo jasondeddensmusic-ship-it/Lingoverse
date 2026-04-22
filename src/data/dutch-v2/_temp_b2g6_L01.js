@@ -81,7 +81,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Wat is een 'huizenruil'?",
-     opts:["Een woningruil voor vakantie","Een hypotheekovereenkomst","Een verhuisbedrijf","Een woningcorporatie"],
+     opts:["Een woningcorporatie","Een woningruil voor vakantie","Een hypotheekovereenkomst","Een verhuisbedrijf"],
      ans:"Een woningruil voor vakantie",
      hint:"The compound combines houses with exchange. Think about what you do on holiday."},
 
@@ -101,7 +101,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Wat is een 'traumahelikopter'?",
-     opts:["Een helikopter voor medische noodgevallen","Een militaire helikopter","Een helikopter voor toeristen","Een politiehelikopter"],
+     opts:["Een helikopter voor toeristen","Een politiehelikopter","Een helikopter voor medische noodgevallen","Een militaire helikopter"],
      ans:"Een helikopter voor medische noodgevallen",
      hint:"Trauma refers to serious injuries. What kind of helicopter would respond to those?"},
 

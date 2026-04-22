@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Paying taxes is a citizen's {1}."},
 
     {type:"mc", q:"Japan's conviction rate is approximately:",
-     opts:["Over 99%","About 80%","About 90%","About 95%"],
+     opts:["About 95%","Over 99%","About 80%","About 90%"],
      ans:"Over 99%",
      hint:"This extremely high rate raises questions about prosecutorial power and the justice system."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"Protecting intellectual {1} is important."},
 
     {type:"mc", q:"Japan has fewer lawsuits than the US because:",
-     opts:["Japanese prefer mediation and settlement","Courts are closed","Lawyers are banned","Laws do not allow it"],
+     opts:["Lawyers are banned","Laws do not allow it","Japanese prefer mediation and settlement","Courts are closed"],
      ans:"Japanese prefer mediation and settlement",
      hint:"Cultural preference for harmony over courtroom conflict keeps 訴訟(そしょう) rates low."},
 

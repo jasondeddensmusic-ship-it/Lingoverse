@@ -68,10 +68,10 @@ const LESSON_8 = {id:"esv2_b2gD_l8",title:"Mercados y gastronomía",icon:"\uD83C
  {trg:"pastizal",src:"pastureland"}
 ]},
 
-{type:"mc",q:"'La pescadilla que se muerde la cola' significa...",opts:["Un círculo vicioso","Un plato de pescado frito","Un tipo de danza popular","Una técnica de pesca"],ans:"Un círculo vicioso",hint:"An idiom about a fish biting its own tail, representing a situation with no escape."},
+{type:"mc",q:"'La pescadilla que se muerde la cola' significa...",opts:["Una técnica de pesca","Un círculo vicioso","Un plato de pescado frito","Un tipo de danza popular"],ans:"Un círculo vicioso",hint:"An idiom about a fish biting its own tail, representing a situation with no escape."},
 
 {type:"fb",s:"Los {1} de la meseta castellana son ideales para la ganadería.",a:["pastizales"],opts:["pastizales","pepinillos","bolillos","abastos"],hint:"Large areas of natural grassland used for grazing livestock.",sSrc:"The {1} of the Castilian plateau are ideal for livestock farming."},
 
-{type:"mc",q:"La nogada es una salsa hecha principalmente de...",opts:["Nueces","Tomates","Aceitunas","Almendras"],ans:"Nueces",hint:"This creamy sauce takes its name from 'nuez' (walnut), the main ingredient."}
+{type:"mc",q:"La nogada es una salsa hecha principalmente de...",opts:["Aceitunas","Almendras","Nueces","Tomates"],ans:"Nueces",hint:"This creamy sauce takes its name from 'nuez' (walnut), the main ingredient."}
 ]};
 export default LESSON_8;

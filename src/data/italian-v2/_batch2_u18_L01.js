@@ -74,7 +74,7 @@ const BATCH2_U18_L1 = {
 
     // Quiz steps
     {type:"mc", q:"How many active volcanoes does Italy have?",
-     opts:["One (only Vesuvius)","Two (Vesuvius and Etna)","Three (Etna, Stromboli, Vesuvius)","Five (scattered across the peninsula)"],
+     opts:["Three (Etna, Stromboli, Vesuvius)","Five (scattered across the peninsula)","One (only Vesuvius)","Two (Vesuvius and Etna)"],
      ans:"Three (Etna, Stromboli, Vesuvius)",
      hint:"Sicily has E..., the Aeolian Islands have S..., and the Bay of Naples has V.... All t... remain active."},
 
@@ -104,7 +104,7 @@ const BATCH2_U18_L1 = {
      sSrc:"The {1} in Milan is unbearable today."},
 
     {type:"mc", q:"What color-coded system does Italy's Protezione Civile use?",
-     opts:["Red, blue, yellow for wind, rain, and snow","Green, yellow, orange, red from low to high risk","Only red and green for danger and safety","Numbers from 1 to 5 for severity levels"],
+     opts:["Numbers from 1 to 5 for severity levels","Red, blue, yellow for wind, rain, and snow","Green, yellow, orange, red from low to high risk","Only red and green for danger and safety"],
      ans:"Green, yellow, orange, red from low to high risk",
      hint:"Each color represents a r... level. An 'allerta arancione' means moderate r..., while 'allerta rossa' signals serious danger."},
 

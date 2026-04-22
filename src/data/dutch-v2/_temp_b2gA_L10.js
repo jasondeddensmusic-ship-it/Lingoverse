@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 10: Wonen & Vastgoed
+// B2 Gap Batch A. Lesson 10: Wonen & Vastgoed
 // Theme: Housing, property, urban planning
 
 const LESSON_10 = {id:"nlv2_b2gA_l10", title:"Wonen & Vastgoed", icon:"\u{1F3E0}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_10 = {id:"nlv2_b2gA_l10", title:"Wonen & Vastgoed", icon:"\u{1F3E0}
    sSrc:"There was a burglary at the neighbours' last night."},
 
   {type:"mc", q:"Laten we langs de kade wandelen. Wat is een 'kade'?",
-   opts:["a paved embankment alongside water","a type of bridge","a canal boat","a market square"],
+   opts:["a market square","a paved embankment alongside water","a type of bridge","a canal boat"],
    ans:"a paved embankment alongside water",
    hint:"From French 'quai'. The walkway along a canal or river."},
 
@@ -77,7 +77,7 @@ const LESSON_10 = {id:"nlv2_b2gA_l10", title:"Wonen & Vastgoed", icon:"\u{1F3E0}
   ]},
 
   {type:"mc", q:"De grootte van het appartement is zestig vierkante meter. Wat is 'grootte'?",
-   opts:["size, magnitude","price","age","location"],
+   opts:["age","location","size, magnitude","price"],
    ans:"size, magnitude",
    hint:"From 'groot' (big) + -te suffix. An abstract measurement of how big something is."},
 

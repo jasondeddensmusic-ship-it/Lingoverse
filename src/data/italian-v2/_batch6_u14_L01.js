@@ -1,4 +1,4 @@
-// Batch 6 — Unit 14 extra lesson. Il mondo del lavoro: Office & Workplace
+// Batch 6. Unit 14 extra lesson. Il mondo del lavoro: Office & Workplace
 const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4BC}", xp:15, board:true, steps:[
 {type:"intro", title:"La vita in ufficio",
  desc:"Learn vocabulary for the modern workplace, office equipment, and professional interactions.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
 ]},
 
 {type:"mc", q:"Cosa fa il sindacato quando i lavoratori non sono soddisfatti?",
- opts:["Proclama uno sciopero","Promuove il capo","Chiude la pratica","Stampa i documenti"],
+ opts:["Stampa i documenti","Proclama uno sciopero","Promuove il capo","Chiude la pratica"],
  ans:"Proclama uno sciopero",
  hint:"The organized action where workers stop working to demand better conditions."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u14l_b6_1", title:"La vita in ufficio", icon:"\u{1F4
  sSrc:"He {1} from his position for personal reasons."},
 
 {type:"mc", q:"Cosa significa 'sbrigare le pratiche'?",
- opts:["to handle the paperwork","to attend a meeting","to fire an employee","to go on strike"],
+ opts:["to fire an employee","to go on strike","to handle the paperwork","to attend a meeting"],
  ans:"to handle the paperwork",
  hint:"Dealing with bureaucratic files and documents. A common Italian office activity."},
 

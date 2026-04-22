@@ -1,4 +1,4 @@
-// L11: Work, Career & Business — 20 B2 gap words
+// L11: Work, Career & Business, 20 B2 gap words
 const LESSON_11 = {
   id:"nlv2_b2g4_l11", title:"Werk en Carrière", icon:"\uD83D\uDCBC", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_11 = {
      deepDive:{title:"Why the Dutch work part-time",
       text:"The Netherlands has the highest rate of part-time work in the EU. About 50% of women and 20% of men work part-time. This is not seen as a weakness but as a lifestyle choice. Dutch law gives employees the right to request reduced hours. The expression 'work to live, not live to work' describes the Dutch attitude. Productivity per hour is among the highest in the world."}},
     {type:"mc", q:"What is a 'flexkantoor'?",
-     opts:["a home office","an office with no fixed desks","a temporary office","a corner office"],
+     opts:["an office with no fixed desks","a temporary office","a corner office","a home office"],
      ans:"an office with no fixed desks",
      hint:"'Flex' means flexible. Workers choose a different spot each day."},
     {type:"fb", s:"Het bedrijf is {1} gegaan.", a:["failliet"],

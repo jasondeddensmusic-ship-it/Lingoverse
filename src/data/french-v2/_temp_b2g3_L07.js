@@ -86,7 +86,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Comment appelle-t-on un café qui vend aussi du tabac ?",
-     opts:["un café-tabac","un café-crème","une crêperie","une boulange"],
+     opts:["une boulange","un café-tabac","un café-crème","une crêperie"],
      ans:"un café-tabac",
      hint:"These traditional establishments have a distinctive red diamond-shaped sign outside."},
 

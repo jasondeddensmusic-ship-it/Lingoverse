@@ -1,4 +1,4 @@
-// Lesson 13 — Verbos de accion (Action Verbs)
+// Lesson 13. Verbos de accion (Action Verbs)
 const LESSON_13 = {id:"esv2_b2g9_l13", title:"Verbos de acci\u00f3n", icon:"\u{1F4AA}", xp:25, board:true, steps:[
   {type:"intro", title:"Verbos de acci\u00f3n",
    desc:"Expand your verb repertoire with precise action verbs. These B2-level verbs add specificity and richness to your Spanish.",
@@ -35,7 +35,7 @@ const LESSON_13 = {id:"esv2_b2g9_l13", title:"Verbos de acci\u00f3n", icon:"\u{1
    funFact:"The tradition of crowning with laurels comes from ancient Rome, where victorious generals received a 'corona de laurel'."},
 
   {type:"mc", q:"\u00bfQu\u00e9 significa 'merodear'?",
-   opts:["Correr r\u00e1pidamente","Andar por un lugar de forma sospechosa","Cocinar al aire libre","Dormir profundamente"],
+   opts:["Andar por un lugar de forma sospechosa","Cocinar al aire libre","Dormir profundamente","Correr r\u00e1pidamente"],
    ans:"Andar por un lugar de forma sospechosa",
    hint:"Someone wandering around a place suspiciously, often at night."},
 

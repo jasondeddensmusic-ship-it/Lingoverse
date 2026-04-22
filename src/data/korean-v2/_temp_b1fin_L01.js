@@ -32,7 +32,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'연구소'에서 '소(所)'의 의미는?",
-     opts:["사람","장소","시간","방법"],
+     opts:["장소","시간","방법","사람"],
      ans:"장소",
      hint:"Think about what 소 adds to 연구. It indicates where the research happens."},
 
@@ -138,7 +138,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"회사의 모든 직원을 관리하는 사람은?",
-     opts:["회원","총장","책임자","연구자"],
+     opts:["총장","책임자","연구자","회원"],
      ans:"책임자",
      hint:"This person is responsible for overseeing and managing others."},
 

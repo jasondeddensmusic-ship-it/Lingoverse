@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 6: Économie et Entreprise
+// French B2 Gap Batch 9. Lesson 6: Économie et Entreprise
 // Economy and business vocabulary
 
 const LESSON_6 = {id:"frv2_b2g9_l6", title:"Économie et Entreprise", icon:"💼", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_6 = {id:"frv2_b2g9_l6", title:"Économie et Entreprise", icon:"💼
    exampleSrc:"A: She is a pillar of this team.\nB: Without her, nothing would work.",
    funFact:"Un pilier de bar is a humorous expression for someone who spends too much time at the bar."},
 
-  {type:"mc", q:"PDG signifie:", opts:["Premier Directeur Gouvernemental","Président-Directeur Général","Petit Directeur de Groupe","Patron De Gestion"], ans:"Président-Directeur Général",
+  {type:"mc", q:"PDG signifie:", opts:["Président-Directeur Général","Petit Directeur de Groupe","Patron De Gestion","Premier Directeur Gouvernemental"], ans:"Président-Directeur Général",
    hint:"The French equivalent of CEO. Three words, all starting with P-D-G."},
 
   {type:"teach", trg:"la globalité", src:"totality, entirety", pos:"noun", gender:"f",
@@ -110,7 +110,7 @@ const LESSON_6 = {id:"frv2_b2g9_l6", title:"Économie et Entreprise", icon:"💼
     {trg:"la division", src:"division"}
   ]},
 
-  {type:"mc", q:"Le budget participatif permet:", opts:["Aux banques de décider","Aux citoyens de choisir comment dépenser","Au PDG de réduire les coûts","Aux employés de quitter l'entreprise"], ans:"Aux citoyens de choisir comment dépenser",
+  {type:"mc", q:"Le budget participatif permet:", opts:["Aux employés de quitter l'entreprise","Aux banques de décider","Aux citoyens de choisir comment dépenser","Au PDG de réduire les coûts"], ans:"Aux citoyens de choisir comment dépenser",
    hint:"Participatif means people participate. They decide how public money is spent."},
 
   {type:"fb", s:"C'est {1} impossible de finir en une journée.", a:["matériellement"], opts:["matériellement","passionnément","partiellement","patrimonial"],

@@ -1,4 +1,4 @@
-// Batch 3 — Unit 07, Lesson 1: Metodi di cottura (Cooking Methods)
+// Batch 3. Unit 07, Lesson 1: Metodi di cottura (Cooking Methods)
 const BATCH3_U07_L1 = {
   id:"itv2_u07l_b3_1", title:"Metodi di cottura", icon:"\uD83D\uDD25", xp:15, board:true,
   steps:[
@@ -92,7 +92,7 @@ const BATCH3_U07_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'alla griglia' mean?",
-     opts:["Baked in the oven","Steamed gently","Fried in oil","Grilled over heat"],
+     opts:["Grilled over heat","Baked in the oven","Steamed gently","Fried in oil"],
      ans:"Grilled over heat",
      hint:"This method uses direct h... from below. Italians love it for fish and vegetables, especially in summer barbecues."},
 
@@ -122,7 +122,7 @@ const BATCH3_U07_L1 = {
      sSrc:"How do you {1} the salad?"},
 
     {type:"mc", q:"Which cooking method requires constant stirring for risotto?",
-     opts:["Bollire (boiling only)","Friggere (frying)","Al vapore (steaming)","Mescolare continuamente (constant stirring)"],
+     opts:["Friggere (frying)","Al vapore (steaming)","Mescolare continuamente (constant stirring)","Bollire (boiling only)"],
      ans:"Mescolare continuamente (constant stirring)",
      hint:"18-20 minutes of s... releases starch, creating risotto's signature creamy texture. Patience is key."},
 
@@ -136,6 +136,6 @@ const BATCH3_U07_L1 = {
      opts:["France via royal courts","England via merchant traders","Spain via colonial trade","Italy via Venetian Byzantine contacts"],
      ans:"Italy via Venetian Byzantine contacts",
      hint:"The fork arrived in Venice from Byzantium in the 11th century. Other Europeans considered it an overly refined Italian habit for centuries."}
-  ,{type:"match",pairs:[{trg:"alla griglia",src:"grilled"},{trg:"la ricetta",src:"the recipe"},{trg:"condire",src:"to season / to dress"},{trg:"tagliare",src:"to cut / to slice"},{trg:"il cucchiaio",src:"the spoon"},{trg:"la forchetta",src:"the fork"}]},{type:"mc",q:"How do you say \"ingredient\" in Italian?",opts:["la finestra","l'ingrediente","il tavolo","la bicicletta"],ans:"l'ingrediente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"alla griglia",src:"grilled"},{trg:"la ricetta",src:"the recipe"},{trg:"condire",src:"to season / to dress"},{trg:"tagliare",src:"to cut / to slice"},{trg:"il cucchiaio",src:"the spoon"},{trg:"la forchetta",src:"the fork"}]},{type:"mc",q:"How do you say \"ingredient\" in Italian?",opts:["l'ingrediente","il tavolo","la bicicletta","la finestra"],ans:"l'ingrediente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U07_L1;

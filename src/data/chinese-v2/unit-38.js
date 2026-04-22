@@ -45,7 +45,7 @@ lessons:[
  funFact:"卫生间 is the standard polite term. 洗手间 (washing-hands room) is even softer, like 'restroom' in English. 厕所 (cèsuǒ) is the blunt direct word, common in homes but avoided in formal places."},
 
 {type:"mc", q:"卧室(wòshì) literally describes a room for what action?",
- opts:["eating","cooking","lying down","washing"],
+ opts:["lying down","washing","eating","cooking"],
  ans:"lying down",
  hint:"The first character 卧 depicts a body in a horizontal position. Think about what you do at night."},
 
@@ -182,12 +182,12 @@ lessons:[
  funFact:"开 is one of the busiest verbs in Chinese. 开始 (begin), 开心 (happy, 'open heart'), 开学 (start school), 开玩笑 (joke, 'open a joke'). It generally means to initiate or unlock something."},
 
 {type:"mc", q:"Which word means physical cleaning, like sweeping floors?",
- opts:["整理(zhěnglǐ)","打扫(dǎsǎo)","干净(gānjìng)","放(fàng)"],
+ opts:["打扫(dǎsǎo)","干净(gānjìng)","放(fàng)","整理(zhěnglǐ)"],
  ans:"打扫(dǎsǎo)",
  hint:"This verb's second character 扫 means 'to sweep.' It is the action, not the result."},
 
 {type:"mc", q:"To turn OFF the TV, you say:",
- opts:["开电视","放电视","关电视","整理电视"],
+ opts:["放电视","关电视","整理电视","开电视"],
  ans:"关电视",
  hint:"The verb for shutting a door or switching off a device. Opposite of 开."},
 

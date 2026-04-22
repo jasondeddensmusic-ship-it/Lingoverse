@@ -1,4 +1,4 @@
-// Unit 11 — Cuando Era Niño
+// Unit 11. Cuando Era Niño
 // The Imperfect Tense
 
 export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",sub:"The Imperfect Tense",icon:"👶",level:"A2.2",color:"#7B5EE8",lessons:[
@@ -305,9 +305,9 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
      exampleSrc:"A: Do you play any sport?\nB: Yes, I play tennis on Saturdays.\nA: Are you good?\nB: More or less, I like it a lot.",
      funFact:"Rafael Nadal has won the French Open 14 times, more than any other player. His dominance on clay made Spanish tennis world-famous in the 2000s and 2010s."},
     {type:"tip",title:"Jugar AL vs. Practicar",text:"Sports in Spanish use jugar + AL (a + el): jugar al fútbol, jugar al tenis, jugar al baloncesto.\n\nFor activity verbs, no preposition is needed: nadar, correr, cantar, pintar.\n\nPracticar also works with sports: practicar el tenis. Both jugar al and practicar are correct and natural.",deepDive:"The contraction AL (a + el) is mandatory before masculine nouns: juego al fútbol (never 'juego a el fútbol'). Before feminine nouns: juego a la pelota. The same rule applies to el agua, el aula, and other feminine nouns that take 'el' to avoid vowel clash."},
-    {type:"mc",q:"What does 'el camarero' mean?",opts:["the chef","the waiter","the shop assistant","the doctor"],ans:"the waiter",hint:"Think of someone who takes your order at a restaurant and brings food to your table."},
+    {type:"mc",q:"What does 'el camarero' mean?",opts:["the waiter","the shop assistant","the doctor","the chef"],ans:"the waiter",hint:"Think of someone who takes your order at a restaurant and brings food to your table."},
     {type:"fb",opts:["camarera","cocinera","dependienta","médica"],hint:"She works in the restaurant and brings the menu and the bill to your table.",s:"La {1} nos trajo el menú y la cuenta.",a:"camarera"},
-    {type:"mc",q:"Which sentence correctly uses 'nadar'?",opts:["Nado la guitarra","Nado al fútbol","Nado en el mar","Nado un cuadro"],ans:"Nado en el mar",hint:"This verb means to swim. Think of what you do in water."},
+    {type:"mc",q:"Which sentence correctly uses 'nadar'?",opts:["Nado al fútbol","Nado en el mar","Nado un cuadro","Nado la guitarra"],ans:"Nado en el mar",hint:"This verb means to swim. Think of what you do in water."},
     {type:"fb",opts:["pintar","correr","cantar","comprar"],hint:"To produce art with a brush. Picasso and Velázquez both did this.",s:"Me gusta {1} cuadros los fines de semana.",a:"pintar"},
     {type:"mc",q:"Which sport uses 'jugar AL' before its name?",opts:["nadar","correr","el fútbol","pintar"],ans:"el fútbol",hint:"Ball sports take 'jugar al'. Activity verbs like swim and run stand alone."},
     {type:"fb",opts:["baloncesto","fútbol","tenis","fútbol"],hint:"Spain won this sport's World Cup in 2010. It uses a round ball and a goal.",s:"Mi equipo favorito de {1} es el Barça.",a:"fútbol"},
@@ -319,7 +319,7 @@ export default {n:11,lang:"es",srcLang:"en",track:"v2",title:"Cuando Era Niño",
       {trg:"cantar",src:"to sing"}
     ]},
     {type:"fb",opts:["cantar","nadar","correr","pintar"],hint:"This activity verb uses the voice and produces music. Think of the shower.",s:"Me encanta {1} cuando escucho música.",a:"cantar"},
-    {type:"mc",q:"What is 'el baloncesto'?",opts:["football","tennis","basketball","swimming"],ans:"basketball",hint:"Think of a very tall player, a hoop, and a net. Spain's Pau Gasol played this sport in the NBA."},
+    {type:"mc",q:"What is 'el baloncesto'?",opts:["swimming","football","tennis","basketball"],ans:"basketball",hint:"Think of a very tall player, a hoop, and a net. Spain's Pau Gasol played this sport in the NBA."},
     {type:"fb",opts:["tenis","baloncesto","fútbol","deporte"],hint:"You play this sport with a racket. Rafa Nadal made Spain famous for it.",s:"Juego al {1} los sábados con mi amigo.",a:"tenis"},
     {type:"match",pairs:[
       {trg:"pintar",src:"to paint"},

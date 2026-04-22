@@ -55,7 +55,7 @@ const BATCH9_L1 = {
       {trg:"参(まい)る", src:"to go/come (humble)"},
       {trg:"いただく", src:"to receive (humble)"}
     ]},
-    {type:"mc", q:"What does かしこまりました mean?", opts:["Certainly / I understand (very humble)","I am sorry","Please wait","Thank you"], ans:"Certainly / I understand (very humble)",
+    {type:"mc", q:"What does かしこまりました mean?", opts:["Thank you","Certainly / I understand (very humble)","I am sorry","Please wait"], ans:"Certainly / I understand (very humble)",
      hint:"This is the most formal response to a request, commonly heard in service settings."}
   ,{type:"fb", s:"名刺(めいし)をお渡(わた)しし、メールを{1}しました。",
     a:["拝見(はいけん)する"],

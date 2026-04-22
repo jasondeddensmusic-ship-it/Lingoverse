@@ -68,10 +68,10 @@ const LESSON_10 = {id:"esv2_b2gD_l10",title:"Sociedad y movimientos",icon:"\u270
  {trg:"paridad",src:"parity / equality"}
 ]},
 
-{type:"mc",q:"La paridad de género busca...",opts:["Igualdad entre hombres y mujeres en representación","Superioridad femenina en la política","Eliminación de todos los partidos políticos","Separación de poderes del estado"],ans:"Igualdad entre hombres y mujeres en representación",hint:"Equal representation. Think of quotas and balanced numbers in leadership."},
+{type:"mc",q:"La paridad de género busca...",opts:["Separación de poderes del estado","Igualdad entre hombres y mujeres en representación","Superioridad femenina en la política","Eliminación de todos los partidos políticos"],ans:"Igualdad entre hombres y mujeres en representación",hint:"Equal representation. Think of quotas and balanced numbers in leadership."},
 
 {type:"fb",s:"Su {1} en el mundo del cine fue breve pero exitosa.",a:["incursión"],opts:["incursión","ovación","paridad","modificación"],hint:"A brief entry or foray into a new field or territory. Often used figuratively.",sSrc:"His {1} into the world of cinema was brief but successful."},
 
-{type:"mc",q:"Una congregación es...",opts:["Un grupo de personas reunidas con un fin común","Un tipo de edificio religioso","Un documento oficial","Una fiesta popular"],ans:"Un grupo de personas reunidas con un fin común",hint:"People who come together for a shared purpose, often in a religious or community context."}
+{type:"mc",q:"Una congregación es...",opts:["Un documento oficial","Una fiesta popular","Un grupo de personas reunidas con un fin común","Un tipo de edificio religioso"],ans:"Un grupo de personas reunidas con un fin común",hint:"People who come together for a shared purpose, often in a religious or community context."}
 ]};
 export default LESSON_10;

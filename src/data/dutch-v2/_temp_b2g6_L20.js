@@ -21,7 +21,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Wat betekent 'improviseren'?",
-     opts:["Iets ter plekke verzinnen zonder voorbereiding","Iets heel precies plannen","Iets importeren uit het buitenland","Iets imiteren van iemand anders"],
+     opts:["Iets imiteren van iemand anders","Iets ter plekke verzinnen zonder voorbereiding","Iets heel precies plannen","Iets importeren uit het buitenland"],
      ans:"Iets ter plekke verzinnen zonder voorbereiding",
      hint:"To create something spontaneously, without a plan or script. Very Dutch: just do it."},
 
@@ -41,7 +41,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Wat bestudeert een 'historicus'?",
-     opts:["De geschiedenis","De natuur","De wiskunde","De muziek"],
+     opts:["De wiskunde","De muziek","De geschiedenis","De natuur"],
      ans:"De geschiedenis",
      hint:"From Latin 'historicus'. A scholar who studies the past and writes about historical events."},
 
@@ -61,7 +61,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Wat is een 'geuzennaam'?",
-     opts:["Een scheldnaam die met trots wordt gedragen","Een koninklijke titel","Een meisjesnaam","Een achternaam uit de middeleeuwen"],
+     opts:["Een koninklijke titel","Een meisjesnaam","Een achternaam uit de middeleeuwen","Een scheldnaam die met trots wordt gedragen"],
      ans:"Een scheldnaam die met trots wordt gedragen",
      hint:"Named after the Geuzen, Dutch rebels who adopted an insult as their proud identity."},
 
@@ -101,7 +101,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Welk woord beschrijft iemand die zijn ware roeping niet heeft gevolgd?",
-     opts:["Gemankeerd","Humanistisch","Idealistisch","Hiërarchisch"],
+     opts:["Hiërarchisch","Gemankeerd","Humanistisch","Idealistisch"],
      ans:"Gemankeerd",
      hint:"From French 'manquer' (to miss). A frustrated artist or musician who ended up in a different career."},
 
@@ -121,7 +121,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Hoeveel kilo drop eten Nederlanders per jaar?",
-     opts:["Meer dan 30 miljoen kilo","Ongeveer 5 miljoen kilo","Minder dan 1 miljoen kilo","Nederland eet geen drop"],
+     opts:["Minder dan 1 miljoen kilo","Nederland eet geen drop","Meer dan 30 miljoen kilo","Ongeveer 5 miljoen kilo"],
      ans:"Meer dan 30 miljoen kilo",
      hint:"The Netherlands is the world's largest consumer of licorice per capita. The number is impressive."}
   ]

@@ -99,7 +99,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 instrumento se usa para pesar cosas?",
-     opts:["la balanza","la baraja","el bast\u00f3n","el billar"],
+     opts:["el billar","la balanza","la baraja","el bast\u00f3n"],
      ans:"la balanza",
      hint:"A device with two pans or a platform that measures how heavy something is."},
 

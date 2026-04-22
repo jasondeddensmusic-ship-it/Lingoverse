@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 13: Time, Memory, and Longing
+// Korean B2. Batch 3, Lesson 13: Time, Memory, and Longing
 // Words: 그놈, 그대, 그때그때, 그래야, 그래픽, 그러다, 그런대로, 그럴듯하다, 그렇지, 그루, 그리로, 그리움, 그리하여, 그립다, 그만하다, 그사이, 그야말로, 그이, 그저, 그저께
 
 const LESSON_13 = {
@@ -107,7 +107,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'그리움'을 느끼는 상황으로 가장 적절한 것은?",
-     opts:["고향을 떠나 오래 살 때","맛있는 음식을 먹을 때","새 친구를 사귈 때","시험을 잘 볼 때"],
+     opts:["시험을 잘 볼 때","고향을 떠나 오래 살 때","맛있는 음식을 먹을 때","새 친구를 사귈 때"],
      ans:"고향을 떠나 오래 살 때",
      hint:"This emotion arises when you are separated from someone or someplace dear for a long time."},
 

@@ -72,7 +72,7 @@ const LESSON_9 = {id:"esv2_b2g4_l9",title:"Política y sociedad",icon:"🏛️",
  exampleSrc:"A: They acted without mercy against the corrupt officials.\nB: It was time to restore order.",
  funFact:"'Sin contemplaciones' is a strong expression meaning ruthlessly or without holding back."},
 
-{type:"mc",q:"Si un partido termina en 'empate', significa que:",opts:["Los dos equipos tienen la misma puntuación","Un equipo ganó claramente","Se canceló el partido","Los jugadores se pelearon"],ans:"Los dos equipos tienen la misma puntuación",hint:"Think about what happens when neither side wins because the score is equal."},
+{type:"mc",q:"Si un partido termina en 'empate', significa que:",opts:["Los jugadores se pelearon","Los dos equipos tienen la misma puntuación","Un equipo ganó claramente","Se canceló el partido"],ans:"Los dos equipos tienen la misma puntuación",hint:"Think about what happens when neither side wins because the score is equal."},
 
 {type:"teach",trg:"la confusión",src:"the confusion",pos:"noun",gender:"f",
  note:"Feminine noun. A state of disorder or bewilderment.\nVerb: confundir.",
@@ -84,7 +84,7 @@ const LESSON_9 = {id:"esv2_b2g4_l9",title:"Política y sociedad",icon:"🏛️",
 
 {type:"match",pairs:[{trg:"confusión",src:"confusion"},{trg:"empate",src:"draw / tie"},{trg:"dependencia",src:"dependency"},{trg:"desinterés",src:"disinterest"},{trg:"asignación",src:"allocation"}]},
 
-{type:"mc",q:"'Sin contemplaciones' significa:",opts:["Sin piedad ni miramientos","Con mucha calma","De forma espiritual","Con gran alegría"],ans:"Sin piedad ni miramientos",hint:"Think about acting ruthlessly, without holding back or showing mercy."},
+{type:"mc",q:"'Sin contemplaciones' significa:",opts:["De forma espiritual","Con gran alegría","Sin piedad ni miramientos","Con mucha calma"],ans:"Sin piedad ni miramientos",hint:"Think about acting ruthlessly, without holding back or showing mercy."},
 
 {type:"fb",s:"La {1} de recursos debe ser justa para todas las regiones.",a:["asignación"],opts:["asignación","confusión","detonación","desviación"],hint:"The distribution or allocation of something among different groups.",sSrc:"The {1} of resources must be fair for all regions."}
 ]};

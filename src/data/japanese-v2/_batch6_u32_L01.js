@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: I felt relieved that my daughter arrived safely.\nB: That is good.\nA: That is an excellent result.\nB: Thank you. It is thanks to the effort of the whole team.\nA: What are the future goals?\nB: To further improve quality.",
      funFact:"安心(あんしん) combines 安 (peace) and 心 (heart). 安心(あんしん)と安全(あんぜん) (safety) are often paired: 安心(あんしん)・安全(あんぜん)なまち (a safe and secure town). The feeling of 安心(あんしん) is what Japanese hospitality (おもてなし) aims to create. Products labeled 安心設計(あんしんせっけい) (peace-of-mind design) sell better."},
 
-    {type:"mc", q:"我慢(がまん) describes:", opts:["Patient endurance without complaining","Extreme happiness","Complete relaxation","Intense fear"], ans:"Patient endurance without complaining",
+    {type:"mc", q:"我慢(がまん) describes:", opts:["Intense fear","Patient endurance without complaining","Extreme happiness","Complete relaxation"], ans:"Patient endurance without complaining",
      hint:"This traditional Japanese value involves quietly bearing difficulty."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"自信(じしん)を{1}て頑張(がんば)ってください。\n(Please be confident and do your best.)", a:"もっ", opts:["もっ","すて","わすれ","なくし"], sSrc:"Please be confident and do your best.",
      hint:"The て-form of もつ (to hold/have), used with じしん meaning to have confidence."},
 
-    {type:"mc", q:"孤独死(こどくし) is a social problem involving:", opts:["People dying alone without anyone noticing","Children being bullied","Traffic accidents","Natural disasters"], ans:"People dying alone without anyone noticing",
+    {type:"mc", q:"孤独死(こどくし) is a social problem involving:", opts:["Traffic accidents","Natural disasters","People dying alone without anyone noticing","Children being bullied"], ans:"People dying alone without anyone noticing",
      hint:"This issue particularly affects elderly p... living a... in Japan."}
   ,{type:"match",pairs:[{trg:"メンタルヘルス",src:"mental health"},{trg:"うつ",src:"depression"},{trg:"カウンセリング",src:"counseling"},{trg:"気分(きぶん)",src:"mood / feeling / disposition"},{trg:"りらっくす",src:"to relax"},{trg:"自信(じしん)",src:"self-confidence / confidence in oneself"}]},
   {type:"fb", s:"ストレスが続(つづ)くので専門家(せんもんか)に{1}を受(う)けることにしました。", a:["カウンセリング"], opts:["カウンセリング","メンタルヘルス","うつ","不安(ふあん)"], hint:"A professional talking therapy service for mental and emotional wellbeing.", sSrc:"Since the stress continues, I decided to receive {1} from a specialist."},

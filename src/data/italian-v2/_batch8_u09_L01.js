@@ -1,4 +1,4 @@
-// Batch 8 — Unit 09 extra lesson. Health: First Aid & Emergencies
+// Batch 8. Unit 09 extra lesson. Health: First Aid & Emergencies
 const BATCH8_L1 = {id:"itv2_u09l_b8_1", title:"Il pronto soccorso", icon:"🚑", xp:15, board:true, steps:[
 {type:"intro", title:"Il pronto soccorso",
  desc:"Learn essential vocabulary for medical emergencies, first aid, and getting help in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u09l_b8_1", title:"Il pronto soccorso", icon:"🚑",
 
 {type:"mc",
  q:"What does 'svenire' literally mean?",
- opts:["To un-come (consciousness goes away)","To fall down","To see red","To feel sick"],
+ opts:["To feel sick","To un-come (consciousness goes away)","To fall down","To see red"],
  ans:"To un-come (consciousness goes away)",
  hint:"The prefix s- means 'un-' and the verb root means 'to c....' C... departs."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u09l_b8_1", title:"Il pronto soccorso", icon:"🚑",
 
 {type:"mc",
  q:"What is unusual about Italians and ice in drinks?",
- opts:["They rarely put ice in drinks","They always want extra ice","They only use ice in summer","They crush all ice"],
+ opts:["They only use ice in summer","They crush all ice","They rarely put ice in drinks","They always want extra ice"],
  ans:"They rarely put ice in drinks",
  hint:"If you want ice in your drink in Italy, you need to specifically request it. The default is without."}
 ,{type:"match",pairs:[{trg:"il pronto soccorso",src:"the emergency room / first aid"},{trg:"la bruciatura",src:"the burn"},{trg:"gonfiare",src:"to swell / to inflate"},{trg:"la stampella",src:"the crutch"}]}]};

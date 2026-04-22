@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: Welfare services should be further enhanced.\nB: Especially welfare for the elderly is important.\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"福祉 combines 福 (good fortune) and 祉 (happiness/blessings). Japan's welfare system includes universal healthcare, national pension, and long-term care insurance. As the population ages, welfare spending has become the largest portion of the national budget. The phrase ふくしこっか (welfare state) describes this social safety net."},
 
-    {type:"mc", q:"あんぜん means:", opts:["crime","poverty","safety","welfare"], ans:"safety",
+    {type:"mc", q:"あんぜん means:", opts:["safety","welfare","crime","poverty"], ans:"safety",
      hint:"This word combines characters meaning 'peace' and 'whole.' Japan is known for this quality."},
 
     {type:"teach", trg:"さべつ", src:"discrimination", pos:"noun", gender:null,

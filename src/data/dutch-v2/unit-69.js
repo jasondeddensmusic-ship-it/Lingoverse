@@ -1,4 +1,4 @@
-// Dutch V2 Unit 69 — B2 Vocabulary Batch 8
+// Dutch V2 Unit 69. B2 Vocabulary Batch 8
 import L11 from './_temp_b2g8_L11.js';
 import L12 from './_temp_b2g8_L12.js';
 import L13 from './_temp_b2g8_L13.js';

@@ -1,4 +1,4 @@
-// Batch 3 — Unit 12, Lesson 1: Verbi riflessivi al passato (Reflexive Verbs in the Past)
+// Batch 3. Unit 12, Lesson 1: Verbi riflessivi al passato (Reflexive Verbs in the Past)
 const BATCH3_U12_L1 = {
   id:"itv2_u12l_b3_1", title:"Verbi riflessivi al passato", icon:"\uD83E\uDE9E", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U12_L1 = {
 
     // Quiz steps
     {type:"mc", q:"Which auxiliary do all reflexive verbs use in the passato prossimo?",
-     opts:["Avere","Stare","Essere","Fare"],
+     opts:["Essere","Fare","Avere","Stare"],
      ans:"Essere",
      hint:"Without exception. Every reflexive verb uses e.... The formula: reflexive pronoun + e... + participle (agrees with subject)."},
 
@@ -110,7 +110,7 @@ const BATCH3_U12_L1 = {
      sSrc:"Did you have {1} at the party?"},
 
     {type:"mc", q:"What is the difference between 'addormentarsi' and 'dormire'?",
-     opts:["They mean the same thing","Addormentarsi = to fall asleep (transition), dormire = to sleep (state)","Addormentarsi is formal, dormire is informal","Dormire is reflexive, addormentarsi is not"],
+     opts:["Dormire is reflexive, addormentarsi is not","They mean the same thing","Addormentarsi = to fall asleep (transition), dormire = to sleep (state)","Addormentarsi is formal, dormire is informal"],
      ans:"Addormentarsi = to fall asleep (transition), dormire = to sleep (state)",
      hint:"One describes the moment of drifting off. The other describes the ongoing s.... 'Mi sono addormentato alle undici e ho dormito otto ore.'"},
 
@@ -121,7 +121,7 @@ const BATCH3_U12_L1 = {
      sSrc:"I {1} to Rome two years ago."},
 
     {type:"mc", q:"What is the correct morning routine order in reflexive verbs?",
-     opts:["Vestirsi, svegliarsi, lavarsi, alzarsi","Svegliarsi, alzarsi, lavarsi, vestirsi","Alzarsi, vestirsi, svegliarsi, lavarsi","Lavarsi, vestirsi, alzarsi, svegliarsi"],
+     opts:["Alzarsi, vestirsi, svegliarsi, lavarsi","Lavarsi, vestirsi, alzarsi, svegliarsi","Vestirsi, svegliarsi, lavarsi, alzarsi","Svegliarsi, alzarsi, lavarsi, vestirsi"],
      ans:"Svegliarsi, alzarsi, lavarsi, vestirsi",
      hint:"Wake up, get up, wash, get dressed. A logical sequence that Italian children learn early. All four verbs are reflexive and use essere."}
   ,{type:"match",pairs:[{trg:"si e seduto/a",src:"he/she sat down"},{trg:"mi sono lavato/a",src:"I washed (myself)"},{trg:"mi sono preparato/a",src:"I prepared / I got ready"},{trg:"si e alzato/a",src:"he/she got up / stood up"},{trg:"mi sono addormentato/a",src:"I fell asleep"},{trg:"mi sono abituato/a",src:"I got used to"}]},

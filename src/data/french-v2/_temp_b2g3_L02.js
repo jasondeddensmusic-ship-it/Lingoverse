@@ -86,7 +86,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel est le synonyme le plus fort de 'cruauté' ?",
-     opts:["barbarie","atrocité","désobéissance","contradiction"],
+     opts:["contradiction","barbarie","atrocité","désobéissance"],
      ans:"barbarie",
      hint:"This word implies extreme, almost primitive cruelty. Think of uncivilized behavior."},
 
@@ -125,7 +125,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot désigne le processus de rendre quelque chose accessible à tous ?",
-     opts:["la démocratisation","la désobéissance","la criminologie","la cruauté"],
+     opts:["la criminologie","la cruauté","la démocratisation","la désobéissance"],
      ans:"la démocratisation",
      hint:"Think of expanding access and opportunity. It contains a familiar political root word."}
   ]

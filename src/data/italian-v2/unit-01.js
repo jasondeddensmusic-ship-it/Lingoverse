@@ -270,7 +270,7 @@ const UNIT_01 = {
        opts:["very much","a lot","a little","nothing"],
        ans:"a little",
        hint:"This is a shortened form of 'poco.' The apostrophe marks the dropped letters."},
-    {type:"mc",q:"Which expression means 'a little' in Italian?",opts:["un po'","un molto","un tutto","un niente"],ans:"un po'",hint:"This shortened form of 'poco' is used constantly. The apostrophe marks the dropped letters."},
+    {type:"mc",q:"Which expression means 'a little' in Italian?",opts:["un molto","un tutto","un niente","un po'"],ans:"un po'",hint:"This shortened form of 'poco' is used constantly. The apostrophe marks the dropped letters."},
     {type:"match",pairs:[{trg:"per favore",src:"please"}]}]},
     EXP_L1, EXP_L2, EXP_L3,
   

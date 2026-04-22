@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 1: Commemorations and Records
+// Korean B2. Batch 2, Lesson 1: Commemorations and Records
 // Words: 기념, 기념일, 기념품, 기념하다, 기록, 기록되다, 기법, 기본적, 기막히다, 기성, 기성세대, 기술자, 기술하다, 기억나다, 기억되다, 기호, 기혼, 기획, 기초적, 기초하다
 
 const LESSON_1 = {
@@ -89,7 +89,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'기막히다'는 어떤 뜻인가요?",
-     opts:["놀랍고 대단하다","슬프고 외롭다","무겁고 답답하다","조용하고 평화롭다"],
+     opts:["조용하고 평화롭다","놀랍고 대단하다","슬프고 외롭다","무겁고 답답하다"],
      ans:"놀랍고 대단하다",
      hint:"When something is so amazing that it literally blocks your breath or life force."},
 
@@ -164,7 +164,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'이 연구는 실험 데이터에 ___하고 있다'에서 빈칸에 알맞은 것은?",
-     opts:["기초","기념","기록","기술"],
+     opts:["기록","기술","기초","기념"],
      ans:"기초",
      hint:"The research rests on a foundation of experimental data. Think of the word for 'foundation.'"},
 

@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 20 — Abstract Thought & Philosophy
+// B2 Gap Batch B Lesson 20. Abstract Thought & Philosophy
 const LESSON_20 = {id:"esv2_b2gB_l20",title:"Pensamiento abstracto",icon:"🧠",xp:15,board:true,steps:[
 {type:"intro",title:"Pensamiento abstracto",desc:"Learn advanced abstract vocabulary for discussing ideas, values, and philosophical concepts in Spanish.",goals:["Learn 12 abstract and philosophical words","Discuss values, qualities, and ideas","Use high-register abstract vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_20 = {id:"esv2_b2gB_l20",title:"Pensamiento abstracto",icon:"🧠",
  funFact:"In Colombia, 'caneca' is the everyday word for trash can. In Spain, 'papelera' or 'cubo de basura' is used."},
 
 {type:"mc",q:"¿Qué significa 'echar una cana al aire'?",
- opts:["Disfrutar de una noche de diversión","Teñirse el pelo de blanco","Cortarse el pelo muy corto","Preocuparse demasiado"],
+ opts:["Preocuparse demasiado","Disfrutar de una noche de diversión","Teñirse el pelo de blanco","Cortarse el pelo muy corto"],
  ans:"Disfrutar de una noche de diversión",
  hint:"Think about letting go of responsibilities for a night, having a bit of carefree fun."},
 

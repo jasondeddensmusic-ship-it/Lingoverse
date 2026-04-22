@@ -56,13 +56,13 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"Which word completes the equality pattern? 'tão bonita ___ aquela'",
- opts:["que","como","de","quanto"],
+ opts:["quanto","que","como","de"],
  ans:"quanto",
  hint:"The equality frame uses a specific second word that pairs with 'tão', not the word for 'than'.",},
 
 {type:"mc",
  q:"How do you say 'hotter than'?",
- opts:["menos quente que","tão quente quanto","mais quente que","muito quente"],
+ opts:["tão quente quanto","mais quente que","muito quente","menos quente que"],
  ans:"mais quente que",
  hint:"Superiority pattern: ___ + adjective + ___."},
 
@@ -96,7 +96,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"Which sentence uses inferiority correctly?",
- opts:["Paulo é menos alto do que Ana.","Paulo é tão alto quanto Ana.","Paulo é mais alto que Ana.","Paulo menos alto Ana."],
+ opts:["Paulo é tão alto quanto Ana.","Paulo é mais alto que Ana.","Paulo menos alto Ana.","Paulo é menos alto do que Ana."],
  ans:"Paulo é menos alto do que Ana.",
  hint:"Inferiority: ___ + adjective + ___/do ___."}
 ]},
@@ -151,19 +151,19 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"What is the comparative of 'bom'?",
- opts:["mais bom","melhor","pior","maior"],
+ opts:["melhor","pior","maior","mais bom"],
  ans:"melhor",
  hint:"Irregular form. Never use 'mais' with this adjective."},
 
 {type:"mc",
  q:"Choose the comparative of 'grande':",
- opts:["mais grande","menor","maior","melhor"],
+ opts:["menor","maior","melhor","mais grande"],
  ans:"maior",
  hint:"Irregular form for 'bigger'. 'Mais grande' is always wrong."},
 
 {type:"mc",
  q:"Which sentence is CORRECT?",
- opts:["Este filme é mais bom que o outro.","Este filme é melhor que o outro.","Este filme é mais grande que o outro.","Este filme é pior bom que o outro."],
+ opts:["Este filme é pior bom que o outro.","Este filme é mais bom que o outro.","Este filme é melhor que o outro.","Este filme é mais grande que o outro."],
  ans:"Este filme é melhor que o outro.",
  hint:"Use the irregular comparative of 'bom'."},
 
@@ -190,7 +190,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"What is the opposite of 'melhor'?",
- opts:["maior","menor","pior","mais bom"],
+ opts:["mais bom","maior","menor","pior"],
  ans:"pior",
  hint:"Good vs bad. Better vs..."},
 
@@ -249,7 +249,7 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"How do you say 'the most beautiful city'?",
- opts:["a mais bonita cidade","a cidade mais bonita","a cidade maior bonita","a cidade muito bonita"],
+ opts:["a cidade mais bonita","a cidade maior bonita","a cidade muito bonita","a mais bonita cidade"],
  ans:"a cidade mais bonita",
  hint:"Article + noun + ___ + adjective. Adjective usually follows the noun."},
 
@@ -283,13 +283,13 @@ const UNIT_19 = {n:19, lang:"pt", srcLang:"en", track:"v2", title:"Mais ou menos
 
 {type:"mc",
  q:"How do you form the absolute superlative of 'caro'?",
- opts:["cariíssimo","caríssimo","carasíssimo","maissimo caro"],
+ opts:["maissimo caro","cariíssimo","caríssimo","carasíssimo"],
  ans:"caríssimo",
  hint:"Drop final vowel, add -íssimo."},
 
 {type:"mc",
  q:"Choose the correct superlative: 'Este é ___ café da cidade.'",
- opts:["mais melhor o","o mais melhor","o melhor","melhor o"],
+ opts:["melhor o","mais melhor o","o mais melhor","o melhor"],
  ans:"o melhor",
  hint:"Irregular superlative. Never combine 'mais' with '___'."},
 

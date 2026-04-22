@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: Please lend me an eraser.\nB: Yes, this white one.",
      funFact:"The word gomu comes from Dutch 'gom' (gum/rubber). MONO erasers by Tombow are considered the best in the world and are exported to over 70 countries. Japanese children collect cute novelty erasers shaped like food and animals."},
 
-    {type:"mc", q:"えんぴつ literally means:", opts:["writing stick","lead brush","wood pen","sharp point"], ans:"lead brush",
+    {type:"mc", q:"えんぴつ literally means:", opts:["lead brush","wood pen","sharp point","writing stick"], ans:"lead brush",
      hint:"The kanji combine 'l...' (the graphite material) and 'writing b....'"},
 
     {type:"teach", trg:"つくえ", src:"desk", pos:"noun", gender:null,
@@ -110,10 +110,10 @@ const LESSON_3 = {
      hint:"The flat material you write on, counted with the mai counter.",
      sSrc:"One sheet of paper, please."},
 
-    {type:"mc", q:"パソコン is short for:", opts:["Portable computer","Personal computer","Power console","Processing center"], ans:"Personal computer",
+    {type:"mc", q:"パソコン is short for:", opts:["Processing center","Portable computer","Personal computer","Power console"], ans:"Personal computer",
      hint:"A uniquely Japanese abbreviation of the full katakana loanword."},
 
-    {type:"mc", q:"Which word is a loanword from Dutch?", opts:["えんぴつ","けしゴム","つくえ","かみ"], ans:"けしゴム",
+    {type:"mc", q:"Which word is a loanword from Dutch?", opts:["つくえ","かみ","えんぴつ","けしゴム"], ans:"けしゴム",
      hint:"The gomu (rubber) part of this compound came from Dutch traders."},
   ]
 };

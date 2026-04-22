@@ -1,4 +1,4 @@
-// French V2 Unit 51 — B2 Vocabulary Batch 4
+// French V2 Unit 51. B2 Vocabulary Batch 4
 import L01 from './_temp_b2g4_L01.js';
 import L02 from './_temp_b2g4_L02.js';
 import L03 from './_temp_b2g4_L03.js';

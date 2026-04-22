@@ -1,4 +1,4 @@
-// Unit 4 — Eten & Drinken
+// Unit 4. Eten & Drinken
 // Food, Modals & Possessives
 
 export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub:"Food, Modals & Possessives",icon:"🍽️",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -304,10 +304,10 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"teach",trg:"belangrijk",src:"important",pos:"adj",gender:null,phonetic:"buh-LANG-rayk",note:"One of the most useful adjectives in Dutch.\n'Belang' = interest / importance.\n'Rijk' = rich / full of.\n'Belangrijk' = full of importance.",example:"A: Dit is heel belangrijk.\nB: Ja, dat begrijp ik.\nA: Mooi zo.",exampleSrc:"A: This is very important.\nB: Yes, I understand.\nA: Great.",funFact:"Literally 'importance-rich': belang (importance) + rijk (rich). Dutch loves compound adjectives."},
         {type:"teach",trg:"de fout",src:"the mistake / the error",pos:"noun",gender:"c",phonetic:"duh fowt",note:"De-word. Plural: fouten.\nAlso used as adj: 'fout' = wrong, incorrect.\n'Dat is fout' = That is wrong.\n'Mijn fout' = my mistake.",example:"A: Ik maak een fout.\nB: Dat geeft niet, fouten maken is leren.\nA: Ja, goed punt.",exampleSrc:"A: I am making a mistake.\nB: That's fine, making mistakes is learning.\nA: Yes, good point.",funFact:"Also used as an adjective: 'fout' = wrong. In informal Dutch, 'fout' can also mean morally wrong or in bad taste."},
         {type:"tip",title:"🏛️ Uit in Nederland",text:"Going out in the Netherlands:\n\n'Uit eten gaan' = going out to eat\n'Naar het museum gaan' = going to the museum\n\nThe Dutch are big museum fans.\nAmsterdam has 51 museums  -  more per capita than any city.\nRijksmuseum (art), Van Gogh Museum, Anne Frank Huis...\n\nRain? That's when the museum comes in.\nDe paraplu in de hand, het museum in!\n\n'Fout' as an adjective:\nDat is fout = That is wrong\nDat is jouw fout = That is your mistake\nMijn fout! = My mistake! (casual apology)"},
-        {type:"mc",q:"'Het restaurant' and 'het museum' are both:",opts:["de-words","het-words","plurals","irregular"],ans:"het-words",hint:"Check the article in their Dutch names"},
+        {type:"mc",q:"'Het restaurant' and 'het museum' are both:",opts:["het-words","plurals","irregular","de-words"],ans:"het-words",hint:"Check the article in their Dutch names"},
         {type:"mc",q:"'De paraplu' comes from French meaning:",opts:["against wind","against rain","against cold","rainy day"],ans:"against rain",hint:"Two French roots: para (shield/protect) + pluie (think: the weather it blocks)."},
         {type:"fb",opts:["belangrijk","fout","mooi","groot"],hint:"This is very ___. (= This really matters)",s:"Dit is heel ___.",a:"belangrijk"},
-        {type:"mc",q:"'Mijn fout' means:",opts:["My mistake","My fault","I am wrong","Correct mistake"],ans:"My mistake",hint:"fout = the … (de-word)"},
+        {type:"mc",q:"'Mijn fout' means:",opts:["I am wrong","Correct mistake","My mistake","My fault"],ans:"My mistake",hint:"fout = the … (de-word)"},
         {type:"match",pairs:[{trg:"het restaurant",src:"the restaurant"},{trg:"het museum",src:"the museum"},{trg:"de paraplu",src:"the umbrella"},{trg:"de fout",src:"the mistake"}]},
         {type:"fb",opts:["paraplu","museum","restaurant","fout"],hint:"Takes cover from the rain",s:"Heb je een ___?",a:"paraplu"}
   ]}

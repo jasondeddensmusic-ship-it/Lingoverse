@@ -68,10 +68,10 @@ const LESSON_16 = {id:"esv2_b2gD_l16",title:"Familia y sociedad",icon:"\uD83D\uD
  {trg:"patente",src:"obvious / patent"}
 ]},
 
-{type:"mc",q:"Un bien patrimonial es...",opts:["Un elemento del patrimonio cultural protegido","Un producto financiero bancario","Un regalo de cumpleaños","Un tipo de seguro de vida"],ans:"Un elemento del patrimonio cultural protegido",hint:"A heritage asset, like a historic building or artwork, legally protected for future generations."},
+{type:"mc",q:"Un bien patrimonial es...",opts:["Un tipo de seguro de vida","Un elemento del patrimonio cultural protegido","Un producto financiero bancario","Un regalo de cumpleaños"],ans:"Un elemento del patrimonio cultural protegido",hint:"A heritage asset, like a historic building or artwork, legally protected for future generations."},
 
 {type:"fb",s:"Dejar ese trabajo fue una experiencia {1} para ella.",a:["liberadora"],opts:["liberadora","paternal","patriarcal","pascual"],hint:"An adjective describing something that frees you from a burden or oppression.",sSrc:"Leaving that job was a {1} experience for her."},
 
-{type:"mc",q:"'Hoy en día' es sinónimo de...",opts:["Actualmente / en la actualidad","Ayer por la mañana","El año pasado","En el futuro"],ans:"Actualmente / en la actualidad",hint:"A fixed expression meaning 'nowadays' or 'in the present time'."}
+{type:"mc",q:"'Hoy en día' es sinónimo de...",opts:["El año pasado","En el futuro","Actualmente / en la actualidad","Ayer por la mañana"],ans:"Actualmente / en la actualidad",hint:"A fixed expression meaning 'nowadays' or 'in the present time'."}
 ]};
 export default LESSON_16;

@@ -84,7 +84,7 @@ const LESSON_10 = {id:"esv2_b2g5_l10",title:"Engaño y justicia",icon:"⚖️",x
  exampleSrc:"A: The storm caused damage to several buildings.\nB: Especially to roofs and windows.",
  funFact:"'Sin desperfectos' (without defects) is the standard phrase used when inspecting apartments in Spain."},
 
-{type:"mc",q:"¿Qué significa 'fulminar con la mirada'?",opts:["Mirar a alguien con mucha furia","Cerrar los ojos lentamente","Guiñar un ojo","Mirar con curiosidad"],ans:"Mirar a alguien con mucha furia",hint:"Think about looks that could kill, like being struck by lightning from someone's eyes."},
+{type:"mc",q:"¿Qué significa 'fulminar con la mirada'?",opts:["Mirar con curiosidad","Mirar a alguien con mucha furia","Cerrar los ojos lentamente","Guiñar un ojo"],ans:"Mirar a alguien con mucha furia",hint:"Think about looks that could kill, like being struck by lightning from someone's eyes."},
 
 {type:"fb",s:"La prensa {1} al gobierno por su falta de acción.",a:["fustigó"],opts:["fustigó","fulminó","enredó","exageró"],hint:"To criticize harshly, as if whipping with words.",sSrc:"The press {1} the government for its lack of action."},
 
@@ -92,7 +92,7 @@ const LESSON_10 = {id:"esv2_b2g5_l10",title:"Engaño y justicia",icon:"⚖️",x
 
 {type:"fb",s:"La tormenta causó {1} en las fachadas de varios edificios.",a:["desperfectos"],opts:["desperfectos","escrúpulos","enredos","exageraciones"],hint:"Minor damage or flaws, from the opposite of 'perfecto'.",sSrc:"The storm caused {1} to the facades of several buildings."},
 
-{type:"mc",q:"¿Qué es un enredo?",opts:["Una situación confusa y complicada","Un tipo de castigo legal","Una exageración evidente","Un arma antigua"],ans:"Una situación confusa y complicada",hint:"Think about a tangled mess of lies, schemes, or confusing circumstances."}
+{type:"mc",q:"¿Qué es un enredo?",opts:["Una exageración evidente","Un arma antigua","Una situación confusa y complicada","Un tipo de castigo legal"],ans:"Una situación confusa y complicada",hint:"Think about a tangled mess of lies, schemes, or confusing circumstances."}
 ]};
 
 export default LESSON_10;

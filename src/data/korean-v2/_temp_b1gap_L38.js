@@ -40,7 +40,7 @@ const LESSON_38 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'이야기를 꺼내다'의 뜻은?",
-     opts:["이야기를 끝내다","이야기를 시작하다, 화제를 꺼내다","이야기를 듣다","이야기를 쓰다"],
+     opts:["이야기를 시작하다, 화제를 꺼내다","이야기를 듣다","이야기를 쓰다","이야기를 끝내다"],
      ans:"이야기를 시작하다, 화제를 꺼내다",
      hint:"This compound verb literally means 'to take something out.' When used with a topic, it means to introduce or raise that subject."},
 
@@ -183,7 +183,7 @@ const LESSON_38 = {
 
     {type:"mc",
      q:"'수상'이라는 단어의 다른 뜻은?",
-     opts:["수영","의심스러운","아름다운","빠른"],
+     opts:["빠른","수영","의심스러운","아름다운"],
      ans:"의심스러운",
      hint:"This Sino-Korean word has a homophone with a very different meaning. Think about describing someone who seems suspicious."},
 

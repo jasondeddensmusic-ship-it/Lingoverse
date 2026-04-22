@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 5: Crowds, Rain, and Criticism
+// Korean B2. Batch 5, Lesson 5: Crowds, Rain, and Criticism
 // Words: 붐비다, 붙들다, 붙잡다, 붙잡히다, 브랜드, 블라우스, 비, 비극, 비기다, 비난, 비닐, 비닐봉지, 비다, 비둘기, 비롯되다, 비롯하다, 비만, 비명, 비바람, 비비다
 
 const LESSON_5 = {
@@ -143,7 +143,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"비빔밥을 만들 때 밥과 재료를 어떻게 하는가?",
-     opts:["비빈다","비난한다","비긴다","비운다"],
+     opts:["비운다","비빈다","비난한다","비긴다"],
      ans:"비빈다",
      hint:"Which verb means to mix by rubbing, the key action when preparing Korea's famous mixed rice bowl?"},
 

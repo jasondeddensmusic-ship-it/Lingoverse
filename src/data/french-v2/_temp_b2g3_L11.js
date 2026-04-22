@@ -86,7 +86,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Comment appelle-t-on une personne qui est décédée, dans un contexte formel ?",
-     opts:["un défunt","un curieux","un aspirant","un commercial"],
+     opts:["un commercial","un défunt","un curieux","un aspirant"],
      ans:"un défunt",
      hint:"This formal noun is used in legal proceedings and funeral contexts for someone who has passed away."},
 

@@ -66,7 +66,7 @@ const LESSON_7 = {id:"esv2_b2gC_l7",title:"Salud y medicina",icon:"🏥",xp:15,b
  exampleSrc:"A: Don't spend time on those petty things.\nB: You're right, there are more important matters.",
  funFact:"The suffix -ez creates abstract quality nouns: pequeño > pequeñez, viejo > vejez, bello > belleza."},
 
-{type:"mc",q:"¿Qué significa 'fisonomía'?",opts:["Los rasgos del rostro de una persona","Una enfermedad de la piel","Un tipo de medicina alternativa","La obesidad infantil"],ans:"Los rasgos del rostro de una persona",hint:"Think about the distinctive features of someone's face that make them recognizable."},
+{type:"mc",q:"¿Qué significa 'fisonomía'?",opts:["La obesidad infantil","Los rasgos del rostro de una persona","Una enfermedad de la piel","Un tipo de medicina alternativa"],ans:"Los rasgos del rostro de una persona",hint:"Think about the distinctive features of someone's face that make them recognizable."},
 
 {type:"fb",s:"La {1} negra devastó Europa en el siglo XIV.",a:["peste"],opts:["peste","impureza","desnudez","pequeñez"],hint:"A deadly epidemic disease that killed millions across the continent.",sSrc:"The Black {1} devastated Europe in the 14th century."},
 

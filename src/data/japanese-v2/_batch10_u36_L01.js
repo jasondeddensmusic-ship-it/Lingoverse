@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"達成感(たっせいかん)",src:"sense of achievement"},{trg:"振(ふ)り返(かえ)り",src:"reflection or review"},{trg:"応用(おうよう)する",src:"to apply"},{trg:"発展(はってん)する",src:"to develop"}]},
 
-    {type:"mc", q:"Which word means outlook or prospect?", opts:["展望(てんぼう)","貢献(こうけん)する","振(ふ)り返(かえ)り","期待(きたい)"], ans:"展望(てんぼう)",
+    {type:"mc", q:"Which word means outlook or prospect?", opts:["期待(きたい)","展望(てんぼう)","貢献(こうけん)する","振(ふ)り返(かえ)り"], ans:"展望(てんぼう)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"課題(かだい)",src:"challenge or task"}]}]
 };

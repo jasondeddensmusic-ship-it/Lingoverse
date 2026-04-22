@@ -66,7 +66,7 @@ const LESSON_8 = {id:"esv2_b2gC_l8",title:"Historia y arqueología",icon:"🏛�
  exampleSrc:"A: Van der Weyden's Descent from the Cross is in the Prado Museum.\nB: It is one of the most famous paintings in the museum.",
  funFact:"The Prado's Descendimiento is considered one of the greatest masterpieces of Flemish painting."},
 
-{type:"mc",q:"¿Qué material usaban los primeros humanos para hacer fuego?",opts:["El pedernal","El papiro","El palimpsesto","El bronce"],ans:"El pedernal",hint:"A very hard type of stone that produces sparks when struck."},
+{type:"mc",q:"¿Qué material usaban los primeros humanos para hacer fuego?",opts:["El bronce","El pedernal","El papiro","El palimpsesto"],ans:"El pedernal",hint:"A very hard type of stone that produces sparks when struck."},
 
 {type:"fb",s:"La {1} de la Península Ibérica fue un proceso largo.",a:["cristianización"],opts:["cristianización","edad antigua","edad de piedra","edad contemporánea"],hint:"The historical process of converting a region's population to Christianity.",sSrc:"The {1} of the Iberian Peninsula was a long process."},
 

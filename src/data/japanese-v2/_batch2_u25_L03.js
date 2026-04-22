@@ -60,7 +60,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: When will you send the invoice?\nB: I will send it after delivery.\nA: What did you learn from that experience?\nB: I learned how important advance preparation is.\nA: What kind of preparation should be done specifically?\nB: First, gather information, then it is important to develop a plan.",
      funFact:"請求 uses 請(せい) (request) and 求(きゅう) (seek/demand). An invoice is a formal request for payment. The Japanese business cycle of 納品(のうひん) (delivery), 請求(せいきゅう) (invoicing), and 支払(しはら)い (payment) is highly structured. Late 請求(せいきゅう) or incorrect amounts can damage business relationships significantly."},
 
-    {type:"mc", q:"根回(ねまわ)し in business means:", opts:["Building consensus informally before formal meetings","Giving a formal presentation","Writing a detailed report","Rejecting a proposal politely"], ans:"Building consensus informally before formal meetings",
+    {type:"mc", q:"根回(ねまわ)し in business means:", opts:["Rejecting a proposal politely","Building consensus informally before formal meetings","Giving a formal presentation","Writing a detailed report"], ans:"Building consensus informally before formal meetings",
      hint:"This gardening-derived term describes the preparatory consultation that happens behind the scenes."},
 
     {type:"teach", trg:"納品(のうひん)", src:"delivery (of goods/products)", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"見積(みつも)もり",src:"estimate/quote"},{trg:"請求(せいきゅう)",src:"billing/invoice"},{trg:"納品(のうひん)",src:"delivery (goods)"},{trg:"作成(さくせい)",src:"drafting (documents)"}]},
 
-    {type:"mc", q:"The standard Japanese business cycle order is:", opts:["見積(みつも)もり, 納品(のうひん), 請求(せいきゅう), 支払(しはら)い","支払(しはら)い, 請求(せいきゅう), 納品(のうひん), 見積(みつも)もり","交渉(こうしょう), 支払(しはら)い, 納品(のうひん), 請求(せいきゅう)","納品(のうひん), 見積(みつも)もり, 支払(しはら)い, 請求(せいきゅう)"], ans:"見積(みつも)もり, 納品(のうひん), 請求(せいきゅう), 支払(しはら)い",
+    {type:"mc", q:"The standard Japanese business cycle order is:", opts:["交渉(こうしょう), 支払(しはら)い, 納品(のうひん), 請求(せいきゅう)","納品(のうひん), 見積(みつも)もり, 支払(しはら)い, 請求(せいきゅう)","見積(みつも)もり, 納品(のうひん), 請求(せいきゅう), 支払(しはら)い","支払(しはら)い, 請求(せいきゅう), 納品(のうひん), 見積(みつも)もり"], ans:"見積(みつも)もり, 納品(のうひん), 請求(せいきゅう), 支払(しはら)い",
      hint:"First you estimate costs, then deliver, then bill, then receive payment."},
   ]
 };

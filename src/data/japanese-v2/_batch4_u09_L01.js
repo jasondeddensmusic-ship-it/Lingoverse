@@ -1,4 +1,4 @@
-// Batch 4 — Unit 09 Lesson 1: Store Types & Payment
+// Batch 4. Unit 09 Lesson 1: Store Types & Payment
 const BATCH4_L_1 = {
   id:"jav2_u09l_b4_1", title:"お店(みせ)の種類(しゅるい)", icon:"🏬", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What does 税込(ぜいこ)み mean?",
-     opts:["tax included","tax excluded","discounted","free"], ans:"tax included",
+     opts:["free","tax included","tax excluded","discounted"], ans:"tax included",
      hint:"The total price that already has the consumption t... built in."},
 
     {type:"fb", s:"{1}はけっこうです。", a:"お釣(つ)り",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"The coins you receive back after paying more than the total."},
 
     {type:"mc", q:"The suffix -屋(や) in store names means:",
-     opts:["shop / store","person","thing","place"], ans:"shop / store",
+     opts:["thing","place","shop / store","person"], ans:"shop / store",
      hint:"Added to a product name to create the s... that sells it."},
 
     {type:"mc", q:"What does ポイントカード mean?",
-     opts:["loyalty/points card","credit card","ID card","gift card"], ans:"loyalty/points card",
+     opts:["credit card","ID card","gift card","loyalty/points card"], ans:"loyalty/points card",
      hint:"Collect stamps or digital p... for rewards at chain stores."}
   ,{type:"match",pairs:[{trg:"コンビニ",src:"convenience store"},{trg:"スーパー",src:"supermarket"},{trg:"電気屋(でんきや)",src:"electronics store"},{trg:"花屋(はなや)",src:"flower shop / florist"},{trg:"現金(げんきん)",src:"cash"},{trg:"レシート",src:"receipt"}]},{type:"match",pairs:[{trg:"税込(ぜいこ)み",src:"tax included (price)"},{trg:"ポイントカード",src:"points card / loyalty card"}]}]
 };

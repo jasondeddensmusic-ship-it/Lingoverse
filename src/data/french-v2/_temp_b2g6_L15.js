@@ -80,7 +80,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Que mesure 'le taux de chômage' ?",
-     opts:["Le pourcentage de personnes sans emploi","Le nombre total d'entreprises","La croissance économique","Le salaire moyen"],
+     opts:["Le salaire moyen","Le pourcentage de personnes sans emploi","Le nombre total d'entreprises","La croissance économique"],
      ans:"Le pourcentage de personnes sans emploi",
      hint:"A numerical rate showing the proportion of people without work in the economy."},
 
@@ -131,7 +131,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Que signifie 'une fourchette de prix' ?",
-     opts:["Une gamme entre un minimum et un maximum","Un prix unique fixe","Une réduction de prix","Un prix au kilo"],
+     opts:["Une réduction de prix","Un prix au kilo","Une gamme entre un minimum et un maximum","Un prix unique fixe"],
      ans:"Une gamme entre un minimum et un maximum",
      hint:"The fork shape suggests two prongs: a lower bound and an upper bound for values."},
 

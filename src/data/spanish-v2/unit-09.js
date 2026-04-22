@@ -1,4 +1,4 @@
-// Unit 9 — ¿Qué Pasó?
+// Unit 9, ¿Qué Pasó?
 // Past Tense: Regular Verbs
 
 export default {n:9,lang:"es",srcLang:"en",track:"v2",title:"¿Qué Pasó?",sub:"Past Tense: Regular Verbs",icon:"⏪",level:"A2.1",color:"#7B5EE8",lessons:[
@@ -205,9 +205,9 @@ export default {n:9,lang:"es",srcLang:"en",track:"v2",title:"¿Qué Pasó?",sub:
     {type:"tip",title:"Mental Verbs in Spanish",text:"These 7 verbs express thoughts, beliefs, and preferences.\n\nRegular verbs:\nnecesitar (-AR), creer (-ER), esperar (-AR), decidir (-IR)\n\nStem-changers (e-ie):\npensar: pienso, piensas, piensa, pensamos, piensan\npreferir: prefiero, prefieres, prefiere, preferimos, prefieren\n\nStem-changer (o-ue):\nrecordar: recuerdo, recuerdas, recuerda, recordamos, recuerdan\n\nStem changes only affect stressed syllables. Nosotros is always regular."},
     {type:"mc",q:"Which verb has the stem change o-ue?",opts:["recordar","decidir","creer","esperar"],ans:"recordar",hint:"Look for the verb whose infinitive contains an o that shifts in stressed positions."},
     {type:"fb",opts:["necesito","necesitas","necesitan","necesitamos"],hint:"Fill in the yo form of necesitar, a regular -AR verb.",s:"________ más tiempo para terminar el trabajo.",a:"necesito"},
-    {type:"mc",q:"A: ¿Qué ________ tú, café o té?\nB: Prefiero té.",opts:["prefieres","preferes","préfieres","prefereces"],ans:"prefieres",hint:"Tú form of preferir: e changes to ie in the stressed stem, then add -es."},
+    {type:"mc",q:"A: ¿Qué ________ tú, café o té?\nB: Prefiero té.",opts:["prefereces","prefieres","preferes","préfieres"],ans:"prefieres",hint:"Tú form of preferir: e changes to ie in the stressed stem, then add -es."},
     {type:"fb",opts:["Creo","Cree","Crees","Creemos"],hint:"Fill in the yo form of creer, a regular -ER verb meaning 'to believe'.",s:"________ que el examen es mañana.",a:"Creo"},
-    {type:"mc",q:"Which sentence uses esperar to mean 'to wait for someone'?",opts:["Espero a mi madre en la puerta.","Espero que llueva mañana.","Esperamos aprender más.","No espero nada."],ans:"Espero a mi madre en la puerta.",hint:"When esperar means 'to wait', it takes a + person, not que + verb."},
+    {type:"mc",q:"Which sentence uses esperar to mean 'to wait for someone'?",opts:["Esperamos aprender más.","No espero nada.","Espero a mi madre en la puerta.","Espero que llueva mañana."],ans:"Espero a mi madre en la puerta.",hint:"When esperar means 'to wait', it takes a + person, not que + verb."},
     {type:"fb",opts:["decidimos","decide","decidieron","decidiste"],hint:"Nosotros past tense of decidir. Regular -IR nosotros past ending: -imos.",s:"Ayer nosotros ________ cenar en un restaurante.",a:"decidimos"},
     {type:"match",pairs:[{trg:"necesitar",src:"to need"},{trg:"pensar",src:"to think"},{trg:"creer",src:"to believe"},{trg:"esperar",src:"to hope / to wait"},{trg:"decidir",src:"to decide"},{trg:"preferir",src:"to prefer"},{trg:"recordar",src:"to remember"}]},
     {type:"fb",opts:["recuerdas","recordas","recuerdes","recordes"],hint:"Tú form of recordar: o changes to ue in the stem, then add -as.",s:"¿________ dónde vivías de niño?",a:"recuerdas"}

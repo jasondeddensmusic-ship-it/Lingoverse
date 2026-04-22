@@ -80,7 +80,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot decrit du pain couvert de champignons verts ?",
-     opts:["moisi","mortifere","multicolore","momentane"],
+     opts:["momentane","moisi","mortifere","multicolore"],
      ans:"moisi",
      hint:"Think of what happens to bread left too long in a damp place."},
 
@@ -113,7 +113,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot designe l'ensemble complet d'un probleme ou d'une situation ?",
-     opts:["la globalite","la longueur","la mutilation","la meteorologie"],
+     opts:["la mutilation","la meteorologie","la globalite","la longueur"],
      ans:"la globalite",
      hint:"Seeing the whole picture, not just parts of it."},
 

@@ -84,7 +84,7 @@ const LESSON_5 = {id:"esv2_b2g2_l5",title:"Arte y cultura",icon:"🎭",xp:15,boa
  exampleSrc:"A: The judge activated the stopwatch at the start of the race.\nB: Every hundredth of a second counts.",
  funFact:"Compound: crono (time) + metro (measure). Spain's F1 coverage uses 'cronómetro' constantly."},
 
-{type:"mc",q:"¿Cómo se llama el cantante de flamenco?",opts:["Cantaor","Cancionero","Castizo","Claroscuro"],ans:"Cantaor",hint:"A special flamenco term that drops a letter from the standard word for singer."},
+{type:"mc",q:"¿Cómo se llama el cantante de flamenco?",opts:["Claroscuro","Cantaor","Cancionero","Castizo"],ans:"Cantaor",hint:"A special flamenco term that drops a letter from the standard word for singer."},
 
 {type:"teach",trg:"armonioso",src:"harmonious",pos:"adj",gender:null,
  note:"Adjective. Pleasing in arrangement, balanced.\nFeminine: armoniosa.",
@@ -120,7 +120,7 @@ const LESSON_5 = {id:"esv2_b2g2_l5",title:"Arte y cultura",icon:"🎭",xp:15,boa
 
 {type:"match",pairs:[{trg:"bailaor",src:"flamenco dancer"},{trg:"cantaor",src:"flamenco singer"},{trg:"collage",src:"collage"},{trg:"claroscuro",src:"chiaroscuro"},{trg:"artesanal",src:"artisanal"}]},
 
-{type:"mc",q:"¿Qué es una banderilla como tapa?",opts:["Encurtidos ensartados en un palillo","Un trozo de pan con tomate","Un plato de arroz con mariscos","Una rebanada de jamón curado"],ans:"Encurtidos ensartados en un palillo",hint:"Think about pickled items skewered on a small stick, often served with beer."}
+{type:"mc",q:"¿Qué es una banderilla como tapa?",opts:["Un plato de arroz con mariscos","Una rebanada de jamón curado","Encurtidos ensartados en un palillo","Un trozo de pan con tomate"],ans:"Encurtidos ensartados en un palillo",hint:"Think about pickled items skewered on a small stick, often served with beer."}
 ]};
 
 export default LESSON_5;

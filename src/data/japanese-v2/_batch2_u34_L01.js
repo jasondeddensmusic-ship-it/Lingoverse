@@ -60,7 +60,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: All countries should comply with international law.\nB: However, violations actually occur.\nA: How has it changed compared to before?\nB: It has improved considerably. Efficiency has increased.\nA: What was the cause of that improvement?\nB: The introduction of the new system was a big factor.",
      funFact:"国際法 uses 国際(こくさい) (international) and 法(ほう) (law). Japan's postwar identity is closely tied to 国際法(こくさいほう) compliance. The country has been a strong advocate for the rule-based international order. Japanese legal scholars have contributed significantly to 国際法(こくさいほう) development, particularly in maritime law and environmental law."},
 
-    {type:"mc", q:"被爆者(ひばくしゃ) refers to:", opts:["Atomic bomb survivors","War veterans","Peace activists","Government officials"], ans:"Atomic bomb survivors",
+    {type:"mc", q:"被爆者(ひばくしゃ) refers to:", opts:["Government officials","Atomic bomb survivors","War veterans","Peace activists"], ans:"Atomic bomb survivors",
      hint:"This uniquely Japanese term describes people who directly experienced nuclear attacks."},
 
     {type:"fb", s:"両国間(りょうこくかん)で{1}が結(むす)ばれました。\n(A ceasefire agreement was concluded between the two countries.)", a:"停戦協定(ていせんきょうてい)", opts:["停戦協定(ていせんきょうてい)","貿易(ぼうえき)協定(きょうてい)","安保(あんぽ)条約(じょうやく)","国際法(こくさいほう)"], sSrc:"A ceasefire agreement was concluded between the two countries.",
@@ -73,7 +73,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"PKO",src:"peacekeeping operations"},{trg:"停戦協定(ていせんきょうてい)",src:"ceasefire agreement"},{trg:"国際法(こくさいほう)",src:"international law"},{trg:"爆弾(ばくだん)",src:"bomb"}]},
 
-    {type:"mc", q:"Japan's SDF is widely supported for its role in:", opts:["Offensive military operations","Disaster relief and humanitarian aid","Nuclear weapons development","Intelligence gathering"], ans:"Disaster relief and humanitarian aid",
+    {type:"mc", q:"Japan's SDF is widely supported for its role in:", opts:["Intelligence gathering","Offensive military operations","Disaster relief and humanitarian aid","Nuclear weapons development"], ans:"Disaster relief and humanitarian aid",
      hint:"The SDF's response to earthquakes, typhoons, and tsunamis earns strong public appreciation."},
   ]
 };

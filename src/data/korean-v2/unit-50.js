@@ -1,4 +1,4 @@
-// Korean V2 Unit 50 — B2 Vocabulary Batch 2
+// Korean V2 Unit 50. B2 Vocabulary Batch 2
 import L01 from './_temp_b2b2_L01.js';
 import L02 from './_temp_b2b2_L02.js';
 import L03 from './_temp_b2b2_L03.js';

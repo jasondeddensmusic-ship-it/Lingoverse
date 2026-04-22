@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 13: Thinness and Children
+// Korean B2. Batch 6, Lesson 13: Thinness and Children
 // Words: 얇다, 양국, 양력, 양배추, 양보, 양보하다, 양상추, 양식, 양옆, 양주, 얕다, 얘(interj), 어기다, 어느덧, 어두워지다, 어때(contraction), 어려워지다, 어리석다, 어린아이, 어린애
 
 const LESSON_13 = {
@@ -125,7 +125,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'어느덧 봄이 왔다'의 뜻은?",
-     opts:["모르는 사이에 봄이 왔다","갑자기 봄이 왔다","드디어 봄이 왔다","아직 봄이 안 왔다"],
+     opts:["아직 봄이 안 왔다","모르는 사이에 봄이 왔다","갑자기 봄이 왔다","드디어 봄이 왔다"],
      ans:"모르는 사이에 봄이 왔다",
      hint:"This adverb describes time passing gently and unnoticed, as if spring arrived without you realizing."},
 

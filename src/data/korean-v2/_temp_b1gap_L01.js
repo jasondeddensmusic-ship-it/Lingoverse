@@ -34,7 +34,7 @@ const LESSON_1 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'결정'의 반대말에 가장 가까운 것은?",
-     opts:["결국","취소","목적","경우"],
+     opts:["취소","목적","경우","결국"],
      ans:"취소",
      hint:"Think about what undoes a decision. It means cancellation."},
 
@@ -80,7 +80,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"만약 내일 비가 오면 ___.",
-     opts:["결정이에요","가능성이에요","집에서 쉴 거예요","경우가 됐어요"],
+     opts:["가능성이에요","집에서 쉴 거예요","경우가 됐어요","결정이에요"],
      ans:"집에서 쉴 거예요",
      hint:"After a conditional clause with 만약...오면, you need a natural result clause."},
 
@@ -119,7 +119,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'까닭'과 비슷한 뜻의 단어는?",
-     opts:["결정","목적","뜻","이유"],
+     opts:["목적","뜻","이유","결정"],
      ans:"이유",
      hint:"Both words mean 'reason,' but one is native Korean and the other is Sino-Korean."},
 
@@ -191,7 +191,7 @@ const LESSON_1 = {
     // --- Quiz batch 5 ---
     {type:"mc",
      q:"3년 동안 노력한 후에 _____ 성공했다.",
-     opts:["또는","만약","마침내","게다가"],
+     opts:["게다가","또는","만약","마침내"],
      ans:"마침내",
      hint:"After years of effort, the positive outcome finally arrived. Which word conveys triumph?"},
 
@@ -204,7 +204,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'목적'과 '뜻'의 차이점으로 가장 맞는 것은?",
-     opts:["목적은 의미, 뜻은 결과","목적은 목표, 뜻은 의미","둘 다 같은 뜻이다","목적은 이유, 뜻은 경우"],
+     opts:["목적은 목표, 뜻은 의미","둘 다 같은 뜻이다","목적은 이유, 뜻은 경우","목적은 의미, 뜻은 결과"],
      ans:"목적은 목표, 뜻은 의미",
      hint:"One relates to goals and objectives, the other to definitions and meanings."}
   ]

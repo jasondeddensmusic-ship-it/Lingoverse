@@ -1,4 +1,4 @@
-// Batch 6 — Unit 10 extra lesson. I viaggi: At the Airport
+// Batch 6. Unit 10 extra lesson. I viaggi: At the Airport
 const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{FE0F}", xp:15, board:true, steps:[
 {type:"intro", title:"All'aeroporto",
  desc:"Learn essential airport vocabulary for navigating Italian airports, checking in, and boarding flights.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{
 ]},
 
 {type:"mc", q:"Dove ritiri le valigie dopo il volo?",
- opts:["Al ritiro bagagli","Al check-in","Al controllo passaporti","Al gate"],
+ opts:["Al gate","Al ritiro bagagli","Al check-in","Al controllo passaporti"],
  ans:"Al ritiro bagagli",
  hint:"The area with conveyor belts where checked luggage appears."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{
  sSrc:"{1} your seatbelts, please."},
 
 {type:"mc", q:"Cosa succede se perdi la coincidenza?",
- opts:["Perdi il volo di collegamento","Perdi il passaporto","Perdi il bagaglio","Perdi il posto"],
+ opts:["Perdi il bagaglio","Perdi il posto","Perdi il volo di collegamento","Perdi il passaporto"],
  ans:"Perdi il volo di collegamento",
  hint:"A 'coincidenza' at the airport is a connecting flight to your final destination."},
 

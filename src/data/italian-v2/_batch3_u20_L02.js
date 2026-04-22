@@ -1,4 +1,4 @@
-// Batch 3 — Unit 20, Lesson 2: La vita studentesca (Student Life)
+// Batch 3. Unit 20, Lesson 2: La vita studentesca (Student Life)
 const BATCH3_U20_L2 = {
   id:"itv2_u20l_b3_2", title:"La vita studentesca", icon:"\uD83C\uDF93", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U20_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What is a 'fuoricorso' student?",
-     opts:["A dropout who left school","A student behind on their degree timeline","An exchange student from abroad","A student with top grades"],
+     opts:["A student behind on their degree timeline","An exchange student from abroad","A student with top grades","A dropout who left school"],
      ans:"A student behind on their degree timeline",
      hint:"Very common in Italy. The flexible exam system means many take longer than the standard years. Little stigma is attached."},
 
@@ -110,7 +110,7 @@ const BATCH3_U20_L2 = {
      sSrc:"What is your {1}?"},
 
     {type:"mc", q:"How does Italian university attendance typically work?",
-     opts:["Strict mandatory attendance at all lectures","Attendance is often optional with independent study allowed","Attendance is tracked by fingerprint scanners","Students must attend at least 90% of classes"],
+     opts:["Students must attend at least 90% of classes","Strict mandatory attendance at all lectures","Attendance is often optional with independent study allowed","Attendance is tracked by fingerprint scanners"],
      ans:"Attendance is often optional with independent study allowed",
      hint:"This academic freedom surprises foreign students. You can skip lectures and s... on your own, only showing up for exams."},
 
@@ -121,7 +121,7 @@ const BATCH3_U20_L2 = {
      sSrc:"I need to {1} before the exam."},
 
     {type:"mc", q:"What does a '30 e lode' represent at Italian universities?",
-     opts:["A failing grade with a warning","A perfectly average result","The maximum achievable score with honors","A grade only professors can give themselves"],
+     opts:["A grade only professors can give themselves","A failing grade with a warning","A perfectly average result","The maximum achievable score with honors"],
      ans:"The maximum achievable score with honors",
      hint:"30 is already the top mark. Adding 'lode' (praise/h...) makes it the ultimate achievement. Students celebrate enthusiastically when they earn one."}
   ,{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la sessione d'esami","la finestra","il tavolo","la bicicletta"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]

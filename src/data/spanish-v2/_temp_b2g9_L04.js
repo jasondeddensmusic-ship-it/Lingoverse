@@ -1,4 +1,4 @@
-// Lesson 4 — Poder y gobierno (Power and Government)
+// Lesson 4. Poder y gobierno (Power and Government)
 const LESSON_4 = {id:"esv2_b2g9_l4", title:"Poder y gobierno", icon:"\u{1F3DB}\uFE0F", xp:25, board:true, steps:[
   {type:"intro", title:"Poder y gobierno",
    desc:"Understand how Spanish-speaking countries talk about government, law enforcement, and political structures. Essential for reading news and discussing current affairs.",
@@ -35,7 +35,7 @@ const LESSON_4 = {id:"esv2_b2g9_l4", title:"Poder y gobierno", icon:"\u{1F3DB}\u
    funFact:"The Spanish Communist Party (PCE) played a key role in the transition to democracy after Franco's death in 1975."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es la Guardia Civil?",
-   opts:["Un partido pol\u00edtico","Un cuerpo de seguridad del Estado","Una organizaci\u00f3n humanitaria","Un sindicato de trabajadores"],
+   opts:["Un cuerpo de seguridad del Estado","Una organizaci\u00f3n humanitaria","Un sindicato de trabajadores","Un partido pol\u00edtico"],
    ans:"Un cuerpo de seguridad del Estado",
    hint:"They wear green uniforms and patrol roads and rural areas in Spain."},
 

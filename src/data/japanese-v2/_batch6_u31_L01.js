@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: A new law has been enacted.\nB: What is its content?\nA: What did you learn from that experience?\nB: I learned how important advance preparation is.\nA: What kind of preparation should be done specifically?\nB: First, gather information, then it is important to develop a plan.",
      funFact:"法律(ほうりつ) combines 法 (law/method) and 律 (rule/regulation). Japan's legal system blends continental European (especially German) civil law with Anglo-American influences. The 憲法(けんぽう) (constitution), enacted in 1947, is the supreme law. Japan has never amended its 憲法(けんぽう), making it unique among major democracies."},
 
-    {type:"mc", q:"容疑者(ようぎしゃ) is used for:", opts:["A person suspected of a crime before conviction","A convicted criminal","A judge","A lawyer"], ans:"A person suspected of a crime before conviction",
+    {type:"mc", q:"容疑者(ようぎしゃ) is used for:", opts:["A lawyer","A person suspected of a crime before conviction","A convicted criminal","A judge"], ans:"A person suspected of a crime before conviction",
      hint:"Japanese media carefully distinguishes suspects from convicted persons."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"被告人(ひこくにん)は{1}を主張(しゅちょう)しています。\n(The defendant claims innocence.)", a:"むざい", opts:["むざい","ゆうざい","ばっきん","きそ"], sSrc:"The defendant claims innocence.",
      hint:"The legal term meaning not guilty or innocent."},
 
-    {type:"mc", q:"Japan's criminal conviction rate is:", opts:["Over 99%","About 75%","About 50%","About 30%"], ans:"Over 99%",
+    {type:"mc", q:"Japan's criminal conviction rate is:", opts:["About 50%","About 30%","Over 99%","About 75%"], ans:"Over 99%",
      hint:"Once Japanese prosecutors decide to indict, conviction is almost certain."}
   ,{type:"match",pairs:[{trg:"犯人(はんにん)",src:"criminal / perpetrator"},{trg:"起訴(きそ)",src:"prosecution / indictment"},{trg:"罰金(ばっきん)",src:"fine / penalty payment"},{trg:"容疑者(ようぎしゃ)",src:"suspect"}]},
   {type:"fb", s:"犯人(はんにん)を特定(とくてい)する{1}が見(み)つかりました。", a:["証拠(しょうこ)"], opts:["証拠(しょうこ)","犯罪(はんざい)","裁判(さいばん)","無罪(むざい)"], hint:"The physical or factual material that proves or disproves a claim in a legal case.", sSrc:"{1} was found that identifies the perpetrator."}

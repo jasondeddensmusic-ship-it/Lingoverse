@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"将来(しょうらい)",src:"future"},{trg:"目標(もくひょう)",src:"goal"},{trg:"努力(どりょく)",src:"effort"},{trg:"挑戦(ちょうせん)",src:"challenge"},{trg:"成長(せいちょう)",src:"growth"}],
      hint:"Match each life goal word with its English meaning."},
 
-    {type:"mc", q:"What does きっかけ mean?", opts:["The trigger or catalyst that starts something","A long-term goal","A feeling of regret","Hard work and effort"], ans:"The trigger or catalyst that starts something",
+    {type:"mc", q:"What does きっかけ mean?", opts:["Hard work and effort","The trigger or catalyst that starts something","A long-term goal","A feeling of regret"], ans:"The trigger or catalyst that starts something",
      hint:"This word answers the question 'what made you start?'"},
 
     {type:"fb", s:"難(むずか)しくても{1}ません。\n(Even if it is difficult, I will not give up.)", a:"諦(あきら)め", opts:["諦(あきら)め","後悔(こうかい)し","決(き)め","続(つづ)け"], sSrc:"Even if it is difficult, I will not give up.",
      hint:"This verb means to abandon or quit an effort."},
 
-    {type:"mc", q:"What does 応援(おうえん)しています express?", opts:["I am cheering you on / rooting for you","I am watching you","I am competing with you","I am worried about you"], ans:"I am cheering you on / rooting for you",
+    {type:"mc", q:"What does 応援(おうえん)しています express?", opts:["I am competing with you","I am worried about you","I am cheering you on / rooting for you","I am watching you"], ans:"I am cheering you on / rooting for you",
      hint:"This is one of the warmest supportive phrases in Japanese."}
   ,{type:"fb", s:"夢(ゆめ)を実現(じつげん)するためには毎日(まいにち)の{1}が大切(たいせつ)です。",
      a:["努力(どりょく)"],

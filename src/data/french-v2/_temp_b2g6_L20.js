@@ -80,7 +80,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel mot désigne une croissance rapide et dynamique ?",
-     opts:["l'essor","le déclin","le tournant","l'enjeu"],
+     opts:["l'enjeu","l'essor","le déclin","le tournant"],
      ans:"l'essor",
      hint:"Originally meant a bird taking flight. Now describes rapid development or expansion."},
 
@@ -131,7 +131,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Que signifie 'se remettre en question' ?",
-     opts:["Réévaluer ses croyances et pratiques","Poser une question à nouveau","Abandonner un projet","Refuser de changer"],
+     opts:["Abandonner un projet","Refuser de changer","Réévaluer ses croyances et pratiques","Poser une question à nouveau"],
      ans:"Réévaluer ses croyances et pratiques",
      hint:"A phrase about questioning yourself and your established ways. A sign of maturity in French culture."},
 

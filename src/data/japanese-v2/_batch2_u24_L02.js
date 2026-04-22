@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Regarding this matter, a bit more investigation is needed.\nB: By when will the investigation be done?\nA: How long did it take?\nB: About two hours.",
      funFact:"に関して is the formal upgrade of について. While both mean 'regarding,' に関して is preferred in business correspondence, academic papers, and official documents. The kanji 関(かん) means 'barrier/gate,' suggesting a topic you are entering into. にかんする (adjectival form) modifies nouns: この問題(もんだい)にかんする研究(けんきゅう) (research concerning this problem)."},
 
-    {type:"mc", q:"日本(にほん)は地震(じしん)が多(おお)いことから、建物(たてもの)は耐震(たいしん)設計(せっけい)です means:", opts:["Buildings cause earthquakes in Japan","Japan has few earthquakes because of building design","From the fact that Japan has many earthquakes, buildings are seismically designed","Earthquake design is unnecessary in Japan"], ans:"From the fact that Japan has many earthquakes, buildings are seismically designed",
+    {type:"mc", q:"日本(にほん)は地震(じしん)が多(おお)いことから、建物(たてもの)は耐震(たいしん)設計(せっけい)です means:", opts:["From the fact that Japan has many earthquakes, buildings are seismically designed","Earthquake design is unnecessary in Japan","Buildings cause earthquakes in Japan","Japan has few earthquakes because of building design"], ans:"From the fact that Japan has many earthquakes, buildings are seismically designed",
      hint:"ことから presents a f... and its logical consequence: because of X, Y follows."},
 
     {type:"teach", trg:"耐震(たいしん)", src:"earthquake resistance / seismic resistance", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"をはじめ",src:"starting with"},{trg:"をふまえて",src:"taking into account"},{trg:"以上(いじょう)のことから",src:"from the above"},{trg:"説得力(せっとくりょく)",src:"persuasiveness"}]},
 
-    {type:"mc", q:"をふまえて differs from にもとづいて because:", opts:["They are identical","をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation","をふまえて is casual; にもとづいて is formal","をふまえて is for negatives only"], ans:"をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation",
+    {type:"mc", q:"をふまえて differs from にもとづいて because:", opts:["をふまえて is for negatives only","They are identical","をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation","をふまえて is casual; にもとづいて is formal"], ans:"をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation",
      hint:"踏(ふ)まえて (step u...) is more dynamic than 基(もと)づいて (be based on). One a... builds; the other s... references."},
   {type:"match",pairs:[{trg:"耐震(たいしん)",src:"earthquake resistance / seismic resistance"}]},
   {type:"fb", s:"この建物(たてもの)は最新(さいしん)の{1}設計(せっけい)で建(た)てられています。", a:["耐震(たいしん)"], opts:["耐震(たいしん)","すなわち","〜にもとづいて","〜ことから"], hint:"The engineering property that allows a building to withstand seismic shaking.", sSrc:"This building was constructed with the latest {1} design."}

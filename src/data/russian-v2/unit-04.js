@@ -1,4 +1,4 @@
-// Russian V2 Unit 4 — Food and Drinks (A1.2)
+// Russian V2 Unit 4. Food and Drinks (A1.2)
 const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу есть", sub:"Food and Drinks",
  icon:"🍽️", level:"A1.2", color:"#7B5EE8",
  lessons:[
@@ -6,7 +6,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 {id:"ruv2_u4l1", title:"Еда и напитки", icon:"🍽️", xp:15, board:true, steps:[
 
 {type:"intro", title:"Food and Drinks",
- desc:"Core food vocabulary for every day. Russian food words have regular gender patterns and some fun cultural ties — borscht, blini, and the enduring chai tradition.",
+ desc:"Core food vocabulary for every day. Russian food words have regular gender patterns and some fun cultural ties, borscht, blini, and the enduring chai tradition.",
  goals:["Name basic foods","Name basic drinks","Know the gender of each word"]},
 
 {type:"teach", trg:"хлеб", src:"bread", pos:"noun", gender:"m",
@@ -40,7 +40,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  funFact:"Tea reached Russia in the 1600s via Mongolian trade. The самовар (samovar, traditional water heater) became the heart of Russian tea culture. Чаепитие (tea-drinking) is a ritual of hospitality."},
 
 {type:"teach", trg:"кофе", src:"coffee", pos:"noun", gender:"m",
- note:"Masculine (controversial!).\nIndeclinable — never changes form.",
+ note:"Masculine (controversial!).\nIndeclinable, never changes form.",
  example:"A: Два кофе, пожалуйста.\nB: С молоком?",
  exampleSrc:"A: Two coffees, please.\nB: With milk?",
  funFact:"Кофе is officially masculine (чёрный кофе) but many Russians treat it as neuter (чёрное кофе). Dictionaries now accept both. A famous 'correct usage' debate in Russia."},
@@ -62,7 +62,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  icon:"🔑"},
 
 {type:"mc", q:"Which word is NEUTER in gender?",
- opts:["хлеб","рыба","молоко","чай"],
+ opts:["молоко","чай","хлеб","рыба"],
  ans:"молоко",
  hint:"Neuter nouns typically end in -о or -е. Check each word's ending."},
 
@@ -93,19 +93,19 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  goals:["Use хочу + infinitive","Conjugate есть (to eat)","Conjugate пить (to drink)"]},
 
 {type:"teach", trg:"хочу", src:"I want", pos:"verb", gender:null,
- note:"1st person singular of хотеть (to want).\nIrregular verb — memorize all forms.",
+ note:"1st person singular of хотеть (to want).\nIrregular verb, memorize all forms.",
  example:"A: Что ты хочешь?\nB: Я хочу чай.",
  exampleSrc:"A: What do you want?\nB: I want tea.",
- funFact:"Хотеть has a unique conjugation pattern: я хочу, ты хочешь, он хочет, мы хотим, вы хотите, они хотят. The stem changes between 'хоч-' and 'хот-' — neither predictable."},
+ funFact:"Хотеть has a unique conjugation pattern: я хочу, ты хочешь, он хочет, мы хотим, вы хотите, они хотят. The stem changes between 'хоч-' and 'хот-', neither predictable."},
 
 {type:"teach", trg:"хочешь", src:"you want (informal)", pos:"verb", gender:null,
  note:"2nd person singular.\nStem changes to хоч-.",
  example:"A: Хочешь пить?\nB: Да, очень.",
  exampleSrc:"A: Are you thirsty? (lit. Do you want to drink?)\nB: Yes, very much.",
- funFact:"'Хочешь пить?' is how Russians ask 'are you thirsty?' — literally 'do you want to drink?' Similarly 'хочешь есть?' means 'are you hungry?'"},
+ funFact:"'Хочешь пить?' is how Russians ask 'are you thirsty?', literally 'do you want to drink?' Similarly 'хочешь есть?' means 'are you hungry?'"},
 
 {type:"teach", trg:"есть", src:"to eat", pos:"verb", gender:null,
- note:"Infinitive. Irregular — conjugates differently from most verbs.\nNOT the same word as есть (there is, to be).",
+ note:"Infinitive. Irregular, conjugates differently from most verbs.\nNOT the same word as есть (there is, to be).",
  example:"A: Ты хочешь есть?\nB: Нет.",
  exampleSrc:"A: Do you want to eat?\nB: No.",
  funFact:"Russian has TWO identical words 'есть': one means 'to eat' (verb), the other means 'there is/are' (existential). Context makes the distinction clear."},
@@ -120,7 +120,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  note:"Adverb (not adjective).\nUsed impersonally: 'это вкусно' (this is tasty).",
  example:"A: Как рыба?\nB: Очень вкусно!",
  exampleSrc:"A: How is the fish?\nB: Very tasty!",
- funFact:"Russians rarely say a simple 'да' when enjoying food — the expected response is 'очень вкусно!' (very tasty). Saying just 'good' would seem cold."},
+ funFact:"Russians rarely say a simple 'да' when enjoying food, the expected response is 'очень вкусно!' (very tasty). Saying just 'good' would seem cold."},
 
 {type:"teach", trg:"много", src:"a lot / many", pos:"adv", gender:null,
  note:"Used with both countable and uncountable.\nRequires genitive case after it.",
@@ -132,14 +132,14 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  note:"Opposite of много.\nAlso requires genitive case.",
  example:"A: Воды много?\nB: Нет, мало.",
  exampleSrc:"A: Is there a lot of water?\nB: No, a little.",
- funFact:"Мало has a slightly negative tone — implies 'not enough.' For 'a little bit' positive, use немного. The distinction: мало = too little; немного = a bit."},
+ funFact:"Мало has a slightly negative tone, implies 'not enough.' For 'a little bit' positive, use немного. The distinction: мало = too little; немного = a bit."},
 
 {type:"tip", title:"Хотеть: The Want Verb",
  text:"Хотеть (to want) is irregular but essential. Full conjugation:\n\nя хочу (I want).\nты хочешь (you want, informal).\nон/она хочет (he/she wants).\nмы хотим (we want).\nвы хотите (you want, formal/plural).\nони хотят (they want).\n\nNote: The stem CHANGES between 'хоч-' (for я/ты/он/она) and 'хот-' (for мы/вы/они).\n\nХочу + infinitive = I want to...\nХочу + accusative noun = I want...\n\nExamples:\nЯ хочу есть. (I want to eat.)\nЯ хочу чай. (I want tea.)",
  icon:"🎯"},
 
 {type:"mc", q:"How do you say 'I want to drink' in Russian?",
- opts:["Я хочу есть","Я хочу пить","Я ем","Я пью"],
+ opts:["Я хочу пить","Я ем","Я пью","Я хочу есть"],
  ans:"Я хочу пить",
  hint:"Combine 'I want' (хочу) with the infinitive 'to drink' (пить)."},
 
@@ -157,7 +157,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 {type:"fb", s:"A: Как пицца?\nB: Очень {1}!",
  a:["вкусно"],
  opts:["вкусно","много","мало","хочу"],
- hint:"Responding to 'how's the pizza?' — use the word that means 'tasty/delicious.'",
+ hint:"Responding to 'how's the pizza?', use the word that means 'tasty/delicious.'",
  sSrc:"A: How's the pizza?\nB: Very {1}!"},
 
 {type:"match", pairs:[
@@ -176,7 +176,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  goals:["Order food politely","Describe food preferences","Use есть and пить naturally"]},
 
 {type:"mc", q:"In a Russian café, what would you say to order tea politely?",
- opts:["Чай!","Я хочу чай, пожалуйста.","Тебе чай.","Чай хорошо."],
+ opts:["Я хочу чай, пожалуйста.","Тебе чай.","Чай хорошо.","Чай!"],
  ans:"Я хочу чай, пожалуйста.",
  hint:"Combine 'I want' with the food and 'please' for proper politeness."},
 
@@ -194,7 +194,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 {type:"fb", s:"На завтрак я обычно {1} кашу.",
  a:["ем"],
  opts:["ем","пью","хочу","есть"],
- hint:"Kasha (porridge) is food — use 'to eat' conjugated for 'я' (I).",
+ hint:"Kasha (porridge) is food, use 'to eat' conjugated for 'я' (I).",
  sSrc:"For breakfast I usually {1} porridge."},
 
 {type:"drag_fill", s:"Я хочу {1} хлеб и {2} чай. Спасибо, очень {3}!",
@@ -211,9 +211,9 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 ]},
 
 {type:"mc", q:"Russian bread-and-salt tradition (хлеб-соль) represents:",
- opts:["Winter food","Welcome for guests","Religious ceremony only","Breakfast"],
+ opts:["Breakfast","Winter food","Welcome for guests","Religious ceremony only"],
  ans:"Welcome for guests",
- hint:"An ancient Russian custom of hospitality — offering bread and salt to visitors."}
+ hint:"An ancient Russian custom of hospitality, offering bread and salt to visitors."}
 ,{type:"match",pairs:[{trg:"сок",src:"juice"},{trg:"мало",src:"a little / few"}]}]}
 
 ,
@@ -228,25 +228,25 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  note:"Masculine. Ends in consonant.\nOne of the most common Russian lunch dishes.",
  example:"A: Ты хочешь суп?\nB: Да, суп и хлеб.",
  exampleSrc:"A: Do you want soup?\nB: Yes, soup and bread.",
- funFact:"Borscht (борщ) and solyanka (солянка) are Russia's most iconic soups. Russians say 'первое' (first course) instead of 'soup course' — it always starts the main meal."},
+ funFact:"Borscht (борщ) and solyanka (солянка) are Russia's most iconic soups. Russians say 'первое' (first course) instead of 'soup course', it always starts the main meal."},
 
 {type:"teach", trg:"простите", src:"sorry / excuse me (formal)", pos:"intj", gender:null,
  note:"Formal apology/excuse. From простить (to forgive).\nUse простите with strangers; прости with friends.",
  example:"A: Простите, где туалет?\nB: Там.",
  exampleSrc:"A: Excuse me, where is the toilet?\nB: Over there.",
- funFact:"Простите literally means 'forgive me' (imperative plural/formal). Russians use it for interrupting someone, bumping into them, or asking a favour of a stranger — a full-use apology word."},
+ funFact:"Простите literally means 'forgive me' (imperative plural/formal). Russians use it for interrupting someone, bumping into them, or asking a favour of a stranger, a full-use apology word."},
 
 {type:"teach", trg:"слышать", src:"to hear", pos:"verb", gender:null,
  note:"2nd conjugation imperfective. Stem: слыш-.\nConj: я слышу, ты слышишь, он слышит.",
  example:"A: Ты слышишь меня?\nB: Да, я слышу тебя.",
  exampleSrc:"A: Can you hear me?\nB: Yes, I can hear you.",
- funFact:"Слышать is an involuntary perception verb — you hear without trying. Compare with слушать (to listen), which is deliberate. The same distinction as English 'hear' vs 'listen.'"},
+ funFact:"Слышать is an involuntary perception verb, you hear without trying. Compare with слушать (to listen), which is deliberate. The same distinction as English 'hear' vs 'listen.'"},
 
 {type:"teach", trg:"лёгкий", src:"easy / light", pos:"adj", gender:"m",
  note:"Short-form predicate: лёгок (m), легка (f), легко (n).\nTwo meanings: easy and physically light.",
  example:"A: Этот суп лёгкий?\nB: Да, очень лёгкий.",
  exampleSrc:"A: Is this soup light (mild)?\nB: Yes, very light.",
- funFact:"The ё in лёгкий is mandatory — 'легкий' (without ё) is technically wrong but very common in informal writing. In pronunciation, the е is always stressed: лЁгкий. The г is often pronounced like 'kh' before кий."},
+ funFact:"The ё in лёгкий is mandatory, 'легкий' (without ё) is technically wrong but very common in informal writing. In pronunciation, the е is always stressed: лЁгкий. The г is often pronounced like 'kh' before кий."},
 
 {type:"teach", trg:"трудный", src:"difficult / hard", pos:"adj", gender:"m",
  note:"Regular adj, 1st declension.\nOpposite of лёгкий. Stress on ТРУД-.",
@@ -264,24 +264,24 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
  note:"Masculine. Ends in consonant.\nPlural: вопросы. Often paired with ответ (answer).",
  example:"A: У тебя есть вопрос?\nB: Да, один вопрос.",
  exampleSrc:"A: Do you have a question?\nB: Yes, one question.",
- funFact:"Вопросительный знак (question mark) is called that because вопрос means question. In Russian classrooms, raising your hand is сигнал вопроса — a universal gesture that needs no translation."},
+ funFact:"Вопросительный знак (question mark) is called that because вопрос means question. In Russian classrooms, raising your hand is сигнал вопроса, a universal gesture that needs no translation."},
 
 {type:"tip", title:"Adjective Agreement: Short Preview",
- text:"Russian adjectives agree with the noun's gender. For now, just know the masculine form (dictionary form) and use it as a predicate after 'это':\n\nЭто лёгкий суп. (easy/light soup — masc noun)\nЭто трудный вопрос. (difficult question — masc noun)\nЭто интересный вопрос. (interesting question — masc noun)\n\nAs a predicate after 'is':\nСуп лёгкий.\nВопрос трудный.\n\nFull adjective declension comes in A2. For now, master the pattern with masculine nouns.",
+ text:"Russian adjectives agree with the noun's gender. For now, just know the masculine form (dictionary form) and use it as a predicate after 'это':\n\nЭто лёгкий суп. (easy/light soup, masc noun)\nЭто трудный вопрос. (difficult question, masc noun)\nЭто интересный вопрос. (interesting question, masc noun)\n\nAs a predicate after 'is':\nСуп лёгкий.\nВопрос трудный.\n\nFull adjective declension comes in A2. For now, master the pattern with masculine nouns.",
  icon:"🎯"},
 
 {type:"mc", q:"You bump into someone on the street in Russia. What do you say?",
- opts:["Да","Простите","Спасибо","Нет"],
+ opts:["Простите","Спасибо","Нет","Да"],
  ans:"Простите",
  hint:"This formal expression is used to apologise or get someone's attention politely."},
 
 {type:"mc", q:"Which word best describes something you find engaging and want to know more about?",
- opts:["лёгкий","трудный","интересный","много"],
+ opts:["трудный","интересный","много","лёгкий"],
  ans:"интересный",
  hint:"This adjective comes from the same Latin root as the English word for the same concept."},
 
 {type:"mc", q:"What is the Russian word for 'to hear' (involuntary perception)?",
- opts:["слышать","слушать","смотреть","говорить"],
+ opts:["смотреть","говорить","слышать","слушать"],
  ans:"слышать",
  hint:"This verb describes hearing without deliberately trying. It differs from listening attentively."},
 
@@ -294,7 +294,7 @@ const UNIT_04 = {n:4, lang:"ru", srcLang:"en", track:"v2", title:"Я хочу е
 {type:"fb", s:"A: Русский язык трудный?\nB: Немного, но очень {1}.",
  a:["интересный"],
  opts:["интересный","лёгкий","трудный","много"],
- hint:"B agrees it is somewhat difficult but adds a positive quality — what word fits 'engaging and worth learning'?",
+ hint:"B agrees it is somewhat difficult but adds a positive quality, what word fits 'engaging and worth learning'?",
  sSrc:"A: Is Russian difficult?\nB: A little, but very {1}."},
 
 {type:"match", pairs:[

@@ -50,7 +50,7 @@ lessons:[
  funFact:"下 means 'down' and 载 means 'to carry/load.' Upload is the mirror image: 上传, where 上 means 'up' and 传 means 'to transmit.' Chinese builds these pairs from directional logic."},
 
 {type:"mc", q:"手机(shǒujī) literally means:",
- opts:["electric brain","hand machine","small phone","pocket device"],
+ opts:["hand machine","small phone","pocket device","electric brain"],
  ans:"hand machine",
  hint:"Break the compound into its two characters: 手 means …, and 机 means …."},
 
@@ -63,7 +63,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"电脑(diànnǎo) literally translates as:",
- opts:["electric brain","electric box","computing machine","smart device"],
+ opts:["smart device","electric brain","electric box","computing machine"],
  ans:"electric brain",
  hint:"电 means electricity, and the second character refers to a body part you think with."},
 
@@ -74,7 +74,7 @@ lessons:[
  sSrc:"I {1} to read news every day."},
 
 {type:"mc", q:"What is the opposite of 下载(xiàzǎi) (download)?",
- opts:["上传(shàngchuán)","上网(shàngwǎng)","收到(shōudào)","发(fā)"],
+ opts:["收到(shōudào)","发(fā)","上传(shàngchuán)","上网(shàngwǎng)"],
  ans:"上传(shàngchuán)",
  hint:"If downloading uses the character for 'down,' the opposite action uses the character for 'up' plus 'transmit.'"},
 
@@ -128,7 +128,7 @@ lessons:[
  funFact:"When Chinese people exchange contact info, they almost always mean WeChat. Instead of asking for a phone number, people say 加个微信吧(jiā ge Wēixìn ba), meaning 'let us add each other on WeChat.' It functions like a phone number, email, and social media combined."},
 
 {type:"mc", q:"收到(shōudào) is commonly used in Chinese group chats to mean:",
- opts:["Goodbye","Received / Got it","Send again","Thank you"],
+ opts:["Received / Got it","Send again","Thank you","Goodbye"],
  ans:"Received / Got it",
  hint:"This two-character reply confirms you have gotten the message. Think of it as the Chinese 'roger that.'"},
 
@@ -159,7 +159,7 @@ lessons:[
  sSrc:"Did you {1} my message?"},
 
 {type:"mc", q:"你(nǐ)怎么(zěnme)联系(liánxì)他(tā)？ What does this sentence ask?",
- opts:["When will you contact him?","How do you contact him?","Why did you contact him?","Did you contact him?"],
+ opts:["Did you contact him?","When will you contact him?","How do you contact him?","Why did you contact him?"],
  ans:"How do you contact him?",
  hint:"The question word 怎么 asks about the method or manner of doing something."},
 
@@ -212,7 +212,7 @@ lessons:[
   text:"Chinese has two main ways to form yes/no questions:\n\n1. Add 吗(ma) at the end (neutral):\n这个方便吗？ Is this convenient?\n\n2. A-not-A pattern (offering a choice):\n这个方便不方便？ Is this convenient or not?\n\nBoth are correct, but A-not-A feels slightly more direct. It is especially common when genuinely asking for an opinion rather than expecting a 'yes.' In everyday speech, both are interchangeable. Use whichever feels natural."}},
 
 {type:"mc", q:"方便(fāngbiàn)不(bu)方便(fāngbiàn)？ This question pattern is called:",
- opts:["The 吗 question","The A-not-A question","The 什么 question","The topic-comment pattern"],
+ opts:["The A-not-A question","The 什么 question","The topic-comment pattern","The 吗 question"],
  ans:"The A-not-A question",
  hint:"This pattern repeats the same word with a negation in between, offering both options to the listener."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"This website is too {1}, I cannot find what I need."},
 
 {type:"mc", q:"简单(jiǎndān) and 容易(róngyì) both relate to 'easy.' What is the difference?",
- opts:["简单 means a thing IS uncomplicated, 容易 means a thing is easy TO DO","They are exactly the same","简单 is formal, 容易 is casual","简单 is for objects, 容易 is for people"],
+ opts:["简单 is for objects, 容易 is for people","简单 means a thing IS uncomplicated, 容易 means a thing is easy TO DO","They are exactly the same","简单 is formal, 容易 is casual"],
  ans:"简单 means a thing IS uncomplicated, 容易 means a thing is easy TO DO",
  hint:"One describes the inherent nature of something, while the other describes the experience of doing something."},
 
@@ -241,7 +241,7 @@ lessons:[
  sSrc:"Do you know the WiFi {1}?"},
 
 {type:"mc", q:"Which is the correct A-not-A form of 这个简单吗?",
- opts:["这个简单不简单？","这个不简单吗？","这个简单吗不？","不这个简单？"],
+ opts:["这个简单吗不？","不这个简单？","这个简单不简单？","这个不简单吗？"],
  ans:"这个简单不简单？",
  hint:"The A-not-A pattern places the adjective, then 不, then the same adjective again, right after the topic."},
 
@@ -284,14 +284,14 @@ lessons:[
  sSrc:"You can find a lot of information on this {1}."},
 
 {type:"mc", q:"短信(duǎnxìn) literally means:",
- opts:["short message","phone message","quick letter","small news"],
+ opts:["small news","short message","phone message","quick letter"],
  ans:"short message",
  hint:"Break down the compound: 短 means … in length, and 信 means letter or …."},
 
 {type:"fb", s:"网上(wǎngshàng)买菜(mǎicài)很(hěn){1}。",
  a:["方便(fāngbiàn)"],
  opts:["方便(fāngbiàn)","简单(jiǎndān)","复杂(fùzá)","密码(mìmǎ)"],
- hint:"The word meaning 'convenient' — easy and handy, especially when describing online services.",
+ hint:"The word meaning 'convenient', easy and handy, especially when describing online services.",
  sSrc:"Buying groceries online is very {1}."},
 
 {type:"match", pairs:[
@@ -303,7 +303,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"你(nǐ)怎么(zěnme)联系(liánxì)他(tā)？ The best answer is:",
- opts:["我(wǒ)收到(shōudào)了(le)","我(wǒ)可以(kěyǐ)给(gěi)他(tā)发(fā)消息(xiāoxi)","他(tā)很(hěn)方便(fāngbiàn)","密码(mìmǎ)是(shì)12345"],
+ opts:["密码(mìmǎ)是(shì)12345","我(wǒ)收到(shōudào)了(le)","我(wǒ)可以(kěyǐ)给(gěi)他(tā)发(fā)消息(xiāoxi)","他(tā)很(hěn)方便(fāngbiàn)"],
  ans:"我(wǒ)可以(kěyǐ)给(gěi)他(tā)发(fā)消息(xiāoxi)",
  hint:"The question asks HOW you contact someone. The answer should describe a method of communication."},
 
@@ -320,7 +320,7 @@ lessons:[
  hint:"Going online with your phone is handy because you can stay in touch with friends anytime."},
 
 {type:"mc", q:"消息(xiāoxi) can mean both:",
- opts:["A chat message AND general news","A password AND a code","An email AND a letter","A download AND an upload"],
+ opts:["A password AND a code","An email AND a letter","A download AND an upload","A chat message AND general news"],
  ans:"A chat message AND general news",
  hint:"This word has a dual meaning depending on context. It covers both personal messages and broader information."},
 

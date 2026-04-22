@@ -1,4 +1,4 @@
-// Batch 6 — Unit 13 extra lesson. Il congiuntivo: Subjunctive with Impersonal Verbs
+// Batch 6. Unit 13 extra lesson. Il congiuntivo: Subjunctive with Impersonal Verbs
 const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo", icon:"\u{1F52E}", xp:15, board:true, steps:[
 {type:"intro", title:"Verbi impersonali e congiuntivo",
  desc:"Learn impersonal expressions that trigger the subjunctive mood and practice using them in context.",
@@ -112,7 +112,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
 ]},
 
 {type:"mc", q:"Cosa significa 'pretendere' in italiano?",
- opts:["to demand or expect","to pretend","to protect","to prevent"],
+ opts:["to prevent","to demand or expect","to pretend","to protect"],
  ans:"to demand or expect",
  hint:"A famous false friend. NOT the same as the English word it resembles."},
 
@@ -122,7 +122,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
  sSrc:"I speak slowly {1} everyone understands."},
 
 {type:"mc", q:"Perche 'prima che' richiede il congiuntivo?",
- opts:["Because the event has not happened yet","Because it is a negative expression","Because it is formal language","Because it expresses certainty"],
+ opts:["Because it is formal language","Because it expresses certainty","Because the event has not happened yet","Because it is a negative expression"],
  ans:"Because the event has not happened yet",
  hint:"The subjunctive is used for events that are hypothetical or unrealized."},
 

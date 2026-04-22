@@ -1,4 +1,4 @@
-// L06: Health & Wellbeing — 20 B2 gap words
+// L06: Health & Wellbeing, 20 B2 gap words
 const LESSON_6 = {
   id:"nlv2_b2g2_l6", title:"Gezondheid en Welzijn", icon:"\uD83C\uDFE5", xp:15, board:true,
   steps:[
@@ -127,7 +127,7 @@ const LESSON_6 = {
      sSrc:"She is receiving {1} treatment and does not need to stay in the hospital."},
     {type:"mc",
      q:"Welk woord past NIET bij gezondheidszorg?",
-     opts:["Composteerbaar","Besmetting","Angststoornis","Ambulant"],
+     opts:["Ambulant","Composteerbaar","Besmetting","Angststoornis"],
      ans:"Composteerbaar",
      hint:"Three words are clearly medical or health-related. One belongs to waste management and sustainability."},
     {type:"match", pairs:[

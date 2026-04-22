@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 2: Membership and Value
+// Korean B2. Batch 3, Lesson 2: Membership and Value
 // Words: 가상, 가슴속, 가요, 가위, 가이드, 가입, 가입자, 가입하다, 가정교사, 가져가다, 가져다주다, 가죽, 가짜, 가치, 가톨릭, 가하다, 각기, 각오, 각자, 간격
 
 const LESSON_2 = {
@@ -95,7 +95,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'가져다주다'는 어떤 동작을 뜻하나요?",
-     opts:["가지고 와서 주는 것","가지고 가서 버리는 것","가까이 와서 앉는 것","가만히 서서 기다리는 것"],
+     opts:["가만히 서서 기다리는 것","가지고 와서 주는 것","가지고 가서 버리는 것","가까이 와서 앉는 것"],
      ans:"가지고 와서 주는 것",
      hint:"This compound verb combines carrying something and giving it to someone."},
 

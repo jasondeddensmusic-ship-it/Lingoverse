@@ -118,7 +118,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"Which number is considered unlucky because it sounds like 'death'?",
-   opts:["九(jiǔ)","三(sān)","四(sì)","七(qī)"],
+   opts:["三(sān)","四(sì)","七(qī)","九(jiǔ)"],
    ans:"四(sì)",
    hint:"Many buildings in China skip this floor number entirely."},
 
@@ -139,13 +139,13 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"三(sān) 加(jiā) 五(wǔ) 是(shì) 几(jǐ)?",
-   opts:["六(liù)","九(jiǔ)","七(qī)","八(bā)"],
+   opts:["九(jiǔ)","七(qī)","八(bā)","六(liù)"],
    ans:"八(bā)",
    hint:"This is a simple addition problem: 3 + 5 = ?"},
 
   {type:"mc",
    q:"What does 零(líng) mean?",
-   opts:["ten","zero","one","five"],
+   opts:["one","five","ten","zero"],
    ans:"zero",
    hint:"This number represents nothing. Used in phone numbers and room numbers."}
 ]},
@@ -187,7 +187,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"How do you ask a child 'How old are you?'",
-   opts:["你(nǐ)好(hǎo)吗(ma)?","你(nǐ)叫(jiào)什么(shénme)?","你(nǐ)几(jǐ)岁(suì)?","你(nǐ)是(shì)谁(shuí)?"],
+   opts:["你(nǐ)几(jǐ)岁(suì)?","你(nǐ)是(shì)谁(shuí)?","你(nǐ)好(hǎo)吗(ma)?","你(nǐ)叫(jiào)什么(shénme)?"],
    ans:"你(nǐ)几(jǐ)岁(suì)?",
    hint:"This form uses the 'how many' question word plus the age measure word."},
 
@@ -211,7 +211,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"你有几个? Which is the correct answer for 'I have two'?",
-   opts:["我(wǒ)有(yǒu)多(duō)个(gè)","我(wǒ)有(yǒu)二(èr)个(gè)","我(wǒ)有(yǒu)二(èr)","我(wǒ)有(yǒu)两(liǎng)个(gè)"],
+   opts:["我(wǒ)有(yǒu)二(èr)","我(wǒ)有(yǒu)两(liǎng)个(gè)","我(wǒ)有(yǒu)多(duō)个(gè)","我(wǒ)有(yǒu)二(èr)个(gè)"],
    ans:"我(wǒ)有(yǒu)两(liǎng)个(gè)",
    hint:"Before measure words, which version of 'two' do Chinese speakers use?"},
 
@@ -231,7 +231,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"他(tā)三(sān)岁(suì)。 What does this mean?",
-   opts:["He is three years old.","He has three.","He wants three.","He is three meters tall."],
+   opts:["He wants three.","He is three meters tall.","He is three years old.","He has three."],
    ans:"He is three years old.",
    hint:"岁 is the measure word specifically for age, counting ___ of life."},
 
@@ -252,7 +252,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"When do you use 二(èr) instead of 两(liǎng)?",
-   opts:["Before measure words","Before nouns","When counting: 1, 2, 3...","When talking about age"],
+   opts:["When talking about age","Before measure words","Before nouns","When counting: 1, 2, 3..."],
    ans:"When counting: 1, 2, 3...",
    hint:"Think of reciting numbers in order, doing math, or reading phone numbers."}
 ]},
@@ -281,7 +281,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"五(wǔ) 加(jiā) 四(sì) 是(shì) 几(jǐ)?",
-   opts:["十(shí)","九(jiǔ)","七(qī)","八(bā)"],
+   opts:["九(jiǔ)","七(qī)","八(bā)","十(shí)"],
    ans:"九(jiǔ)",
    hint:"Simple addition: 5 + 4 = ? Think through the numbers."},
 
@@ -294,7 +294,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"我(wǒ)有(yǒu)两(liǎng)个(gè)。How many does the speaker have?",
-   opts:["one","three","two","zero"],
+   opts:["three","two","zero","one"],
    ans:"two",
    hint:"两 appears before measure words and represents a specific small quantity."},
 
@@ -307,7 +307,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"她(tā)多(duō)大(dà)? 她(tā)六(liù)岁(suì)。How old is she?",
-   opts:["five","six","eight","seven"],
+   opts:["seven","five","six","eight"],
    ans:"six",
    hint:"Look at the number before 岁 in the answer sentence."},
 
@@ -328,13 +328,13 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"二(èr) 加(jiā) 六(liù) 是(shì) 几(jǐ)?",
-   opts:["八(bā)","十(shí)","九(jiǔ)","七(qī)"],
+   opts:["十(shí)","九(jiǔ)","七(qī)","八(bā)"],
    ans:"八(bā)",
    hint:"Add the numbers: 2 + 6 = ? The result is the luckiest number in Chinese."},
 
   {type:"mc",
    q:"Which of these is NOT a correct use of 两(liǎng)?",
-   opts:["两杯 (two cups)","一、两、三 (counting 1, 2, 3)","两个人 (two people)","两个 (two items)"],
+   opts:["一、两、三 (counting 1, 2, 3)","两个人 (two people)","两个 (two items)","两杯 (two cups)"],
    ans:"一、两、三 (counting 1, 2, 3)",
    hint:"When reciting numbers in sequence, you should use the other word for two."},
 
@@ -347,7 +347,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"她(tā)多(duō)大(dà)? What is this sentence asking?",
-   opts:["How old is she?","Where is she?","What is her name?","How tall is she?"],
+   opts:["How tall is she?","How old is she?","Where is she?","What is her name?"],
    ans:"How old is she?",
    hint:"多大 literally means 'how big' but when asking about a person, it means age."},
 
@@ -360,7 +360,7 @@ const UNIT_02 = {
 
   {type:"mc",
    q:"十(shí) looks like which symbol?",
-   opts:["Three horizontal lines","A cross / plus sign","Two vertical lines","A circle"],
+   opts:["A circle","Three horizontal lines","A cross / plus sign","Two vertical lines"],
    ans:"A cross / plus sign",
    hint:"This character for ten has one horizontal and one vertical stroke intersecting."}
 ]},
@@ -419,12 +419,12 @@ const UNIT_02 = {
   text:"In China, most personal and professional communication happens on WeChat (微信 Wēixìn), not email. Email is mainly for formal documents and government correspondence.\n\nA typical formal WeChat message opens with 您好 and closes with a polite phrase. Chinese business culture values proper greetings even in digital messages.\n\nWhen filling in forms for hotels, hospitals, or official services, you will see all seven field labels above. Recognizing them instantly makes every registration much faster."}},
 
 {type:"mc", q:"Which field label on a Chinese form asks for your full name?",
- opts:["地址(dìzhǐ)","出生日期(chūshēng rìqī)","姓名(xìngmíng)","邮箱(yóuxiāng)"],
+ opts:["姓名(xìngmíng)","邮箱(yóuxiāng)","地址(dìzhǐ)","出生日期(chūshēng rìqī)"],
  ans:"姓名(xìngmíng)",
  hint:"This word combines the character for surname with the character for given name."},
 
 {type:"mc", q:"On a Chinese form, 出生日期(chūshēng rìqī) asks for your:",
- opts:["Home address","Phone number","Email address","Date of birth"],
+ opts:["Email address","Date of birth","Home address","Phone number"],
  ans:"Date of birth",
  hint:"出生 means 'born' and 日期 means 'when something happens.' What event is this asking about?"},
 
@@ -449,7 +449,7 @@ const UNIT_02 = {
  sSrc:"Hello! Please fill in your {1}: liming@163.com"},
 
 {type:"mc", q:"您好(nín hǎo) is used instead of 你好(nǐhǎo) when:",
- opts:["Greeting a close friend","Starting a formal message or greeting an elder","Saying goodbye","Talking to a child"],
+ opts:["Talking to a child","Greeting a close friend","Starting a formal message or greeting an elder","Saying goodbye"],
  ans:"Starting a formal message or greeting an elder",
  hint:"您 is the respectful version of 你. It adds formality, similar to 'sir' or 'ma'am' in English."},
 

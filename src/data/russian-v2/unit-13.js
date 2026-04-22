@@ -1,4 +1,4 @@
-// Russian V2 Unit 13 — Verb Aspect (B1.1)
+// Russian V2 Unit 13. Verb Aspect (B1.1)
 const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид глагола", sub:"Verb Aspect: The B1 Core",
  icon:"🔄", level:"B1.1", color:"#7B5EE8",
  lessons:[
@@ -48,15 +48,15 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 {type:"tip", title:"Aspect Pairs: The Core Concept",
  text:"Every Russian verb has TWO forms:\n\nIMPERFECTIVE (process/habit/repetition):\n• I am doing... (right now)\n• I do... (every day)\n• I was doing... (for a while)\n\nPERFECTIVE (single completed action):\n• I did... (and finished)\n• I will do... (once, completed)\n\nHOW TO FORM PAIRS:\n1. Adding a prefix: делать → сделать (с-)\n   писать → написать (на-)\n   читать → прочитать (про-)\n\n2. Stem change: покупать → купить\n   поднимать → поднять\n\n3. Completely different: говорить → сказать\n   брать → взять\n\nLEARN BOTH FORMS TOGETHER ALWAYS.\nOne verb = one pair. Drill them as units.",
  deepDive:{title:"Why Aspect Matters So Much",
-  text:"English uses tense + aspect (I was writing, I have written). Russian separates them: tense tells WHEN, aspect tells HOW the action unfolds. This dual-layer system is why Russian only has 3 tenses but expresses more nuance. Mastering aspect IS mastering Russian verbs — there's no shortcut. Every verb must be memorized as a pair."}},
+  text:"English uses tense + aspect (I was writing, I have written). Russian separates them: tense tells WHEN, aspect tells HOW the action unfolds. This dual-layer system is why Russian only has 3 tenses but expresses more nuance. Mastering aspect IS mastering Russian verbs, there's no shortcut. Every verb must be memorized as a pair."}},
 
 {type:"mc", q:"Which verb is imperfective?",
- opts:["написать","писать","сделать","купить"],
+ opts:["писать","сделать","купить","написать"],
  ans:"писать",
  hint:"Imperfective = action as process (writing in general). Usually doesn't have a prefix."},
 
 {type:"mc", q:"Why is 'прочитать' perfective?",
- opts:["It's longer","It has the про- prefix","It's about completion","All of the above"],
+ opts:["It's about completion","All of the above","It's longer","It has the про- prefix"],
  ans:"All of the above",
  hint:"The prefix AND the meaning (complete reading) AND greater length all signal perfective."},
 
@@ -94,10 +94,10 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  funFact:"Говорить conjugates: я говорю, ты говоришь, он говорит. Note the stem stays ГОВОР- throughout. Common -ить verb pattern."},
 
 {type:"teach", trg:"сказать", src:"to say (perfective)", pos:"verb", gender:null,
- note:"Perfective. Single utterance.\nСУPPletive pair — completely different stem.",
+ note:"Perfective. Single utterance.\nСУPPletive pair, completely different stem.",
  example:"A: Что он сказал?\nB: Не знаю.",
  exampleSrc:"A: What did he say?\nB: Don't know.",
- funFact:"Говорить and сказать are suppletive — historically unrelated stems. Similar to English 'go/went.' Russians don't think about this — they just learn the pair."},
+ funFact:"Говорить and сказать are suppletive, historically unrelated stems. Similar to English 'go/went.' Russians don't think about this, they just learn the pair."},
 
 {type:"teach", trg:"брать", src:"to take (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Ongoing/habitual taking.\nPair: взять.",
@@ -121,7 +121,7 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  note:"Perfective. Single giving action.\nIrregular in future: я дам, ты дашь.",
  example:"A: Дашь мне ручку?\nB: Конечно, возьми.",
  exampleSrc:"A: Will you give me a pen?\nB: Of course, take it.",
- funFact:"Дать has totally irregular future: дам, дашь, даст, дадим, дадите, дадут. Russians memorize this chart in school — it's famous."},
+ funFact:"Дать has totally irregular future: дам, дашь, даст, дадим, дадите, дадут. Russians memorize this chart in school, it's famous."},
 
 {type:"teach", trg:"покупать", src:"to buy (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Stem change pair with купить.\nSyllable addition: пок-у-пать.",
@@ -140,12 +140,12 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  icon:"⚡"},
 
 {type:"mc", q:"What kind of pair is 'говорить/сказать'?",
- opts:["Prefix pair","Stem change pair","Suppletive pair","Not a pair"],
+ opts:["Suppletive pair","Not a pair","Prefix pair","Stem change pair"],
  ans:"Suppletive pair",
  hint:"The two verbs have completely different roots/stems. Historically unrelated."},
 
-{type:"mc", q:"'Я беру такси каждый день' — which aspect?",
- opts:["Imperfective (habitual)","Perfective (one time)","Future","Past"],
+{type:"mc", q:"'Я беру такси каждый день', which aspect?",
+ opts:["Past","Imperfective (habitual)","Perfective (one time)","Future"],
  ans:"Imperfective (habitual)",
  hint:"'Каждый день' (every day) = ___ action = ___."},
 
@@ -186,13 +186,13 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  note:"Past marker, typically perfective.\nBut with duration: imperfective.",
  example:"A: Что ты делал вчера?\nB: Читал книгу весь день.",
  exampleSrc:"A: What did you do yesterday?\nB: Read a book all day.",
- funFact:"'Вчера' alone doesn't determine aspect. Depends on duration. Вчера весь день писал (imperfective — process). Вчера наконец написал (perfective — completed)."},
+ funFact:"'Вчера' alone doesn't determine aspect. Depends on duration. Вчера весь день писал (imperfective, process). Вчера наконец написал (perfective, completed)."},
 
 {type:"teach", trg:"обычно", src:"usually", pos:"adv", gender:null,
  note:"Strong imperfective trigger.\nHabitual action.",
  example:"A: Ты обычно встаёшь рано?\nB: Да, в шесть.",
  exampleSrc:"A: Do you usually get up early?\nB: Yes, at six.",
- funFact:"Обычно pairs with imperfective. 'Обычно покупаю' (usually buy) — habit. 'Обычно купил' (usually bought) sounds wrong — you can't regularly complete something once."},
+ funFact:"Обычно pairs with imperfective. 'Обычно покупаю' (usually buy), habit. 'Обычно купил' (usually bought) sounds wrong, you can't regularly complete something once."},
 
 {type:"teach", trg:"уже", src:"already", pos:"adv", gender:null,
  note:"Completion marker.\nStrong perfective trigger in past.",
@@ -225,16 +225,16 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  funFact:"Duration expressions require imperfective: до завтра (until tomorrow), в течение часа (for an hour), весь день (all day), долго (for a long time)."},
 
 {type:"tip", title:"Aspect Decision Rules",
- text:"PICK IMPERFECTIVE WHEN:\n✓ Repeated/habitual action: каждый день, обычно, часто.\n✓ Ongoing process: весь день, долго, в течение часа.\n✓ Statement of fact about an activity (no result implied).\n✓ Asking 'what were you doing?' — process.\n\nPICK PERFECTIVE WHEN:\n✓ Single completed action: вчера вечером, утром.\n✓ Result achieved: уже, наконец.\n✓ Future promise/plan: завтра сделаю.\n✓ Specific moment: в три часа, в понедельник.\n\nKEY DIAGNOSTIC:\nIf you can add 'process of' in English, use imperfective.\nI was doing [process of doing] = делал.\nIf you can add 'completed' in English, use perfective.\nI (completed) did = сделал.\n\nPRACTICE:\nOn the way to work I usually buy bread. (ongoing habit = imperfective → покупаю).\nYesterday I bought a new phone. (completed once = perfective → купил).\nI'll tell you a story. (will complete = perfective → расскажу).\nI'll be writing all day. (continuous future = imperfective → буду писать).",
+ text:"PICK IMPERFECTIVE WHEN:\n✓ Repeated/habitual action: каждый день, обычно, часто.\n✓ Ongoing process: весь день, долго, в течение часа.\n✓ Statement of fact about an activity (no result implied).\n✓ Asking 'what were you doing?', process.\n\nPICK PERFECTIVE WHEN:\n✓ Single completed action: вчера вечером, утром.\n✓ Result achieved: уже, наконец.\n✓ Future promise/plan: завтра сделаю.\n✓ Specific moment: в три часа, в понедельник.\n\nKEY DIAGNOSTIC:\nIf you can add 'process of' in English, use imperfective.\nI was doing [process of doing] = делал.\nIf you can add 'completed' in English, use perfective.\nI (completed) did = сделал.\n\nPRACTICE:\nOn the way to work I usually buy bread. (ongoing habit = imperfective → покупаю).\nYesterday I bought a new phone. (completed once = perfective → купил).\nI'll tell you a story. (will complete = perfective → расскажу).\nI'll be writing all day. (continuous future = imperfective → буду писать).",
  icon:"🎯"},
 
-{type:"mc", q:"'Каждое утро я ___ душ' — which verb?",
+{type:"mc", q:"'Каждое утро я ___ душ', which verb?",
  opts:["принимаю (imperf)","приму (perf future)","принял (perf past)","буду принимать (imperf future)"],
  ans:"принимаю (imperf)",
  hint:"'Каждое утро' (every morning) = habit = imperfective, present tense."},
 
-{type:"mc", q:"'Вчера я ___ интересную книгу' — which?",
- opts:["читаю","читал (imperf past)","прочитал (perf past)","буду читать"],
+{type:"mc", q:"'Вчера я ___ интересную книгу', which?",
+ opts:["читал (imperf past)","прочитал (perf past)","буду читать","читаю"],
  ans:"прочитал (perf past)",
  hint:"Finished reading a specific book yesterday = completed = perfective ___."},
 
@@ -262,7 +262,7 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
 {id:"ruv2_u13l_a2_actions_qualities", title:"Actions and Qualities", icon:"🌟", xp:15, board:true, steps:[
 
 {type:"intro", title:"Actions and Qualities",
- desc:"Expand your vocabulary with essential A2 verbs and adjectives. These words describe what people do and what they are like — the building blocks of everyday conversation.",
+ desc:"Expand your vocabulary with essential A2 verbs and adjectives. These words describe what people do and what they are like, the building blocks of everyday conversation.",
  goals:["Learn 5 high-frequency A2 action verbs","Learn 4 core personality adjectives","Use them in natural dialogue"]},
 
 {type:"teach", trg:"начинать", src:"to begin / to start", pos:"verb", gender:null,
@@ -320,22 +320,22 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  funFact:"'Умный' comes from 'ум' (mind/intelligence). Common phrases: умная мысль (clever thought), умный вопрос (smart question). Russians consider intellectual sharpness a high compliment."},
 
 {type:"tip", title:"Adjective Short Forms",
- text:"Russian adjectives have two forms:\n\nLONG FORM (attributive — before a noun):\nумный студент (a smart student)\nвесёлый человек (a cheerful person)\nскучный фильм (a boring film)\n\nSHORT FORM (predicative — after verb быть):\nОн умён. (He is smart.)\nОна весела. (She is merry.)\nФильм скучен. (The film is boring.)\n\nFor BEGINNERS: use long form for everything.\nShort forms appear in formal writing, proverbs, and high register speech.\n\nADJECTIVE AGREEMENT: adjectives match noun gender.\n умный (m) — умная (f) — умное (n) — умные (pl)\n весёлый (m) — весёлая (f) — весёлое (n) — весёлые (pl)\n серьёзный (m) — серьёзная (f) — серьёзное (n) — серьёзные (pl)\n скучный (m) — скучная (f) — скучное (n) — скучные (pl)",
+ text:"Russian adjectives have two forms:\n\nLONG FORM (attributive, before a noun):\nумный студент (a smart student)\nвесёлый человек (a cheerful person)\nскучный фильм (a boring film)\n\nSHORT FORM (predicative, after verb быть):\nОн умён. (He is smart.)\nОна весела. (She is merry.)\nФильм скучен. (The film is boring.)\n\nFor BEGINNERS: use long form for everything.\nShort forms appear in formal writing, proverbs, and high register speech.\n\nADJECTIVE AGREEMENT: adjectives match noun gender.\n умный (m), умная (f), умное (n), умные (pl)\n весёлый (m), весёлая (f), весёлое (n), весёлые (pl)\n серьёзный (m), серьёзная (f), серьёзное (n), серьёзные (pl)\n скучный (m), скучная (f), скучное (n), скучные (pl)",
  deepDive:{title:"Short vs Long Form in Practice",
   text:"Short forms survive in modern Russian mainly in set phrases and elevated registers. You will encounter them in literature, proverbs, and official documents. In everyday speech, most speakers prefer long forms even after verbs. Exception: masculine singular short forms are still common in speech, especially with рад (glad), готов (ready), должен (must), and уверен (sure). These four have no usable long forms."}},
 
 {type:"mc", q:"Which verb requires a dative object?",
- opts:["начинать","ждать","бояться","помогать"],
+ opts:["помогать","начинать","ждать","бояться"],
  ans:"помогать",
- hint:"This verb means 'to help.' In Russian, you help TO someone — so the person gets a special object case."},
+ hint:"This verb means 'to help.' In Russian, you help TO someone, so the person gets a special object case."},
 
-{type:"mc", q:"'Я ___ экзамена' — what verb fits?",
- opts:["помогаю","начинаю","боюсь","жду"],
+{type:"mc", q:"'Я ___ экзамена', what verb fits?",
+ opts:["начинаю","боюсь","жду","помогаю"],
  ans:"боюсь",
  hint:"This verb means to be afraid of something. It takes genitive case. 'Экзамена' is genitive of экзамен."},
 
 {type:"mc", q:"Which adjective describes someone who is always laughing and making jokes?",
- opts:["серьёзный","скучный","умный","весёлый"],
+ opts:["скучный","умный","весёлый","серьёзный"],
  ans:"весёлый",
  hint:"Think: laughter, parties, fun. This word contains the root for 'merriment.'"},
 
@@ -357,8 +357,8 @@ const UNIT_13 = {n:13, lang:"ru", srcLang:"en", track:"v2", title:"Вид гла
  hint:"The person wants to keep watching. The film is entertaining and fun, not boring.",
  sSrc:"This film is very fun. I want to watch more."},
 
-{type:"mc", q:"'Серьёзный студент' — what does this mean?",
- opts:["A student who is afraid","A student who helps others","A diligent, focused student","A bored student"],
+{type:"mc", q:"'Серьёзный студент', what does this mean?",
+ opts:["A bored student","A student who is afraid","A student who helps others","A diligent, focused student"],
  ans:"A diligent, focused student",
  hint:"This adjective describes someone who takes things seriously and works hard."},
 

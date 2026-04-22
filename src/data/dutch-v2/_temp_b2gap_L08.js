@@ -1,4 +1,4 @@
-// L08: Policy & Administration — 20 B2 gap words
+// L08: Policy & Administration, 20 B2 gap words
 const LESSON_8 = {
   id:"nlv2_b2gap_l8", title:"Beleid en Bestuur", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_8 = {
      deepDive:{title:"Dutch government structure",
       text:"The Netherlands has three levels of government:\n\n1. Rijksoverheid (national): Eerste and Tweede Kamer\n2. Provincie (12 provinces): Provinciale Staten\n3. Gemeente (342+ municipalities): Gemeenteraad\n\nPlus: 'waterschappen' (water boards), the oldest democratic institutions in the Netherlands, dating back to the 13th century.\n\nKey officials:\n'De minister-president' = prime minister\n'De commissaris van de Koning' = King's Commissioner (province)\n'De burgemeester' = mayor (not elected but appointed!)"}},
     {type:"mc", q:"'De Belastingdienst' is the Dutch equivalent of:",
-     opts:["the police","the tax authority","the health service","the court system"],
+     opts:["the tax authority","the health service","the court system","the police"],
      ans:"the tax authority",
      hint:"'Belasting' means t..., 'dienst' means service/a...."},
     {type:"mc", q:"'Afbakenen' means:",
@@ -132,7 +132,7 @@ const LESSON_8 = {
       {trg:"agendapunt", src:"agenda item"}
     ]},
     {type:"mc", q:"'Borgen' in management Dutch means:",
-     opts:["to borrow","to safeguard","to budget","to break"],
+     opts:["to break","to borrow","to safeguard","to budget"],
      ans:"to safeguard",
      hint:"Related to 'borg' (guarantee). Ensuring quality is maintained."},
     {type:"fb", s:"Dit plan is de {1} voor de toekomst.", a:["blauwdruk"],

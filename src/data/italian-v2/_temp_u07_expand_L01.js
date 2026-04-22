@@ -87,7 +87,7 @@ const LESSON_4 = {id:"itv2_u7l4", title:"Il vino italiano", icon:"\uD83C\uDF77",
   ]},
 
   {type:"mc", q:"What is 'il vino della casa'?",
-   opts:["The house wine","The expensive wine","The imported wine","The dessert wine"],
+   opts:["The dessert wine","The house wine","The expensive wine","The imported wine"],
    ans:"The house wine",
    hint:"This is the restaurant's own selection, served in a carafe. Usually the best value on the list."},
 
@@ -98,7 +98,7 @@ const LESSON_4 = {id:"itv2_u7l4", title:"Il vino italiano", icon:"\uD83C\uDF77",
    sSrc:"May I see the wine {1}?"},
 
   {type:"mc", q:"What is the difference between 'frizzante' and 'spumante'?",
-   opts:["Frizzante is lightly sparkling, spumante is fully sparkling","They are the same","Frizzante is still, spumante is sparkling","Frizzante is sweet, spumante is dry"],
+   opts:["Frizzante is still, spumante is sparkling","Frizzante is sweet, spumante is dry","Frizzante is lightly sparkling, spumante is fully sparkling","They are the same"],
    ans:"Frizzante is lightly sparkling, spumante is fully sparkling",
    hint:"One has gentle bubbles, the other has strong bubbles like champagne. Prosecco can be either."},
 
@@ -109,7 +109,7 @@ const LESSON_4 = {id:"itv2_u7l4", title:"Il vino italiano", icon:"\uD83C\uDF77",
    sSrc:"Let's make a {1}! Cheers!"},
 
   {type:"mc", q:"What verb means 'to pair' food and wine?",
-   opts:["Abbinare","Ordinare","Consigliare","Assaggiare"],
+   opts:["Ordinare","Consigliare","Assaggiare","Abbinare"],
    ans:"Abbinare",
    hint:"From 'binario' (pair). This verb describes matching the right wine with the right dish."},
 

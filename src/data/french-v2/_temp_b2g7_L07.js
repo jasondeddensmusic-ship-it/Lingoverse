@@ -80,7 +80,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel document officiel permet de passer un controle ?",
-     opts:["un laissez-passer","un guet-apens","une inflexion","une guise"],
+     opts:["une guise","un laissez-passer","un guet-apens","une inflexion"],
      ans:"un laissez-passer",
      hint:"Literally 'let pass'. An official permit for access or passage."},
 
@@ -113,7 +113,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot designe des manipulations malhonnetes en politique ?",
-     opts:["des magouilles","des inflexions","des jointures","des manivelles"],
+     opts:["des jointures","des manivelles","des magouilles","des inflexions"],
      ans:"des magouilles",
      hint:"Informal word for corrupt dealings and backroom scheming."},
 

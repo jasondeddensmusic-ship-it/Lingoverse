@@ -67,7 +67,7 @@ const LESSON_9 = {id:"frv2_b2gC_l9", title:"Art et expression", icon:"\u{1F3A8}"
 
 {type:"mc",
  q:"Qui a écrit 'Les Rêveries du promeneur solitaire' ?",
- opts:["Rousseau","Voltaire","Hugo","Zola"],
+ opts:["Zola","Rousseau","Voltaire","Hugo"],
  ans:"Rousseau",
  hint:"An 18th-century philosopher known for his ideas about nature and society."},
 
@@ -87,7 +87,7 @@ const LESSON_9 = {id:"frv2_b2gC_l9", title:"Art et expression", icon:"\u{1F3A8}"
 
 {type:"mc",
  q:"Quel mot décrit l'attachement fort à une identité régionale ?",
- opts:["le particularisme","le pamphlétaire","le promeneur","le pléonasme"],
+ opts:["le promeneur","le pléonasme","le particularisme","le pamphlétaire"],
  ans:"le particularisme",
  hint:"Think of regions like Brittany or Corsica with their own language and traditions."},
 
@@ -105,7 +105,7 @@ const LESSON_9 = {id:"frv2_b2gC_l9", title:"Art et expression", icon:"\u{1F3A8}"
 
 {type:"mc",
  q:"Quel mot français signifie un cri soudain d'émotion ?",
- opts:["une exclamation","un pléonasme","un particularisme","une physionomie"],
+ opts:["un pléonasme","un particularisme","une physionomie","une exclamation"],
  ans:"une exclamation",
  hint:"A sudden emotional outburst. Think of 'Oh la la!' or 'Zut!' in French."}
 

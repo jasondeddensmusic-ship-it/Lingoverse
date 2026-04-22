@@ -66,7 +66,7 @@ const BATCH2_L_4 = {
      exampleSrc:"A: Sales increased compared to last year.\nB: By how much did they increase?\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"前年比 is a standard business metric. Japanese financial reporting constantly references 前年比(ぜんねんひ) to show growth or decline. The suffix 比(ひ) (comparison) appears in many business terms: 前期比(ぜんきひ) (compared to previous period), 対前年比(たいぜんねんひ) (versus previous year). These comparisons drive quarterly earnings reports and stock market analysis."},
 
-    {type:"mc", q:"打(う)ち合(あ)わせ is different from 会議(かいぎ) because:", opts:["It is less formal and more collaborative","It is more formal and structured","It requires written minutes","It only happens with clients"], ans:"It is less formal and more collaborative",
+    {type:"mc", q:"打(う)ち合(あ)わせ is different from 会議(かいぎ) because:", opts:["It only happens with clients","It is less formal and more collaborative","It is more formal and structured","It requires written minutes"], ans:"It is less formal and more collaborative",
      hint:"This working meeting is for coordination and alignment, unlike the f... conference setting."},
 
     {type:"fb", s:"今日(きょう)は{1}で打(う)ち合(あ)わせがあります。\n(I have a meeting at a client's office today.)", a:"客先(きゃくさき)", opts:["客先(きゃくさき)","会社(かいしゃ)","本社(ほんしゃ)","事務所(じむしょ)"], sSrc:"I have a meeting at a client's office today.",
@@ -79,7 +79,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"売上(うりあげ)",src:"sales/revenue"},{trg:"目標(もくひょう)",src:"target/goal"},{trg:"客先(きゃくさき)",src:"client (visited)"},{trg:"前年比(ぜんねんひ)",src:"year-on-year"}]},
 
-    {type:"mc", q:"自己紹介(じこしょうかい) in Japanese business typically includes:", opts:["Only your name","Your company name, department, then personal name","Your personal hobbies first","Your salary information"], ans:"Your company name, department, then personal name",
+    {type:"mc", q:"自己紹介(じこしょうかい) in Japanese business typically includes:", opts:["Your salary information","Only your name","Your company name, department, then personal name","Your personal hobbies first"], ans:"Your company name, department, then personal name",
      hint:"In Japanese business culture, your organizational affiliation comes before your individual identity."},
   {type:"match",pairs:[{trg:"スライド",src:"slide (presentation)"}]}]
 };

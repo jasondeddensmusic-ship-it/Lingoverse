@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"予定(よてい)",src:"plan/schedule"},{trg:"予約(よやく)",src:"reservation"},{trg:"間(ま)に合(あ)う",src:"to be on time"},{trg:"都合(つごう)",src:"availability"},{trg:"約束(やくそく)",src:"promise/appointment"}],
      hint:"Match each scheduling word with its English meaning."},
 
-    {type:"mc", q:"What does 早(はや)めに mean?", opts:["Early / ahead of time","Late / behind schedule","On time / punctual","Sometimes / occasionally"], ans:"Early / ahead of time",
+    {type:"mc", q:"What does 早(はや)めに mean?", opts:["Sometimes / occasionally","Early / ahead of time","Late / behind schedule","On time / punctual"], ans:"Early / ahead of time",
      hint:"Japanese business culture strongly values arriving with this mindset."},
 
     {type:"fb", s:"電車(でんしゃ)に{1}ますか？\n(Will we make it to the train?)", a:"間(ま)に合(あ)い", opts:["間(ま)に合(あ)い","遅(おそ)くなり","つき","乗(の)り"], sSrc:"Will we make it to the train?",
      hint:"This verb means to arrive or fit within the available time."},
 
-    {type:"mc", q:"How would you politely ask about someone's availability?", opts:["ご都合(つごう)はいかがですか","いま何時(なんじ)ですか","予約(よやく)しましたか","遅(おそ)くなりますか"], ans:"ご都合(つごう)はいかがですか",
+    {type:"mc", q:"How would you politely ask about someone's availability?", opts:["予約(よやく)しましたか","遅(おそ)くなりますか","ご都合(つごう)はいかがですか","いま何時(なんじ)ですか"], ans:"ご都合(つごう)はいかがですか",
      hint:"This phrase uses the honorific form of the word for convenience/availability."}
   ,{type:"fb", s:"来週(らいしゅう)の月曜日(げつようび)に大事(だいじ)な{1}があります。忘(わす)れないでください。",
      a:["予定(よてい)"],

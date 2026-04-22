@@ -90,7 +90,7 @@ const LESSON_17 = {id:"esv2_b2g2_l17",title:"Emociones y vida interior",icon:"�
  exampleSrc:"A: She has an angelic voice that moves everyone.\nB: It seems like an angel were singing.",
  funFact:"Often used with irony: 'con su cara angelical' (with his angelic face) before describing mischief."},
 
-{type:"mc",q:"¿Cuál es el falso amigo de 'decepcionar'?",opts:["No significa engañar, sino desilusionar","No significa alegrar, sino entristecer","No significa confundir, sino aclarar","No significa amar, sino odiar"],ans:"No significa engañar, sino desilusionar",hint:"English speakers often think this word means to trick someone, but in Spanish it means to let down."},
+{type:"mc",q:"¿Cuál es el falso amigo de 'decepcionar'?",opts:["No significa amar, sino odiar","No significa engañar, sino desilusionar","No significa alegrar, sino entristecer","No significa confundir, sino aclarar"],ans:"No significa engañar, sino desilusionar",hint:"English speakers often think this word means to trick someone, but in Spanish it means to let down."},
 
 {type:"teach",trg:"cínico",src:"cynical",pos:"adj",gender:null,
  note:"Adjective. Believing people are motivated only by self-interest.\nFeminine: cínica.",

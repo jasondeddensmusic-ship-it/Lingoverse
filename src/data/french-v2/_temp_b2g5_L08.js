@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 8 — Culture and Arts
+// French B2 Gap Lesson 8. Culture and Arts
 const LESSON_8 = {id:"frv2_b2g5_l8", title:"Culture et arts", icon:"🎭", xp:15, board:true, steps:[
   {type:"intro", title:"Culture et arts",
    desc:"Explore vocabulary for discussing cultural movements, artistic expression, and the creative world at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_8 = {id:"frv2_b2g5_l8", title:"Culture et arts", icon:"🎭", xp:15
    funFact:"From Latin 'inexplicabilis'. The double negative prefix 'in-' + 'ex-' creates a strong sense of impossibility."},
 
   {type:"mc", q:"Que signifie 'la griffe' dans le monde de la mode?",
-   opts:["Le style distinctif d'un créateur","Un type de tissu","Un outil de couture","Une couleur spéciale"],
+   opts:["Une couleur spéciale","Le style distinctif d'un créateur","Un type de tissu","Un outil de couture"],
    ans:"Le style distinctif d'un créateur",
    hint:"A designer's unique mark or label that identifies their work"},
 
@@ -105,7 +105,7 @@ const LESSON_8 = {id:"frv2_b2g5_l8", title:"Culture et arts", icon:"🎭", xp:15
   ]},
 
   {type:"mc", q:"Quel adjectif signifie 'impossible à expliquer'?",
-   opts:["Inexplicable","Indicible","Intrigant","Flatteur"],
+   opts:["Intrigant","Flatteur","Inexplicable","Indicible"],
    ans:"Inexplicable",
    hint:"Something that defies all attempts at explanation or understanding"},
 
@@ -120,7 +120,7 @@ const LESSON_8 = {id:"frv2_b2g5_l8", title:"Culture et arts", icon:"🎭", xp:15
    hint:"The gallery owner shows work of indescribable beauty"},
 
   {type:"mc", q:"L'incrustation de nacre est:",
-   opts:["Un travail d'artisan minutieux","Un style de peinture","Un genre musical","Un type d'architecture"],
+   opts:["Un style de peinture","Un genre musical","Un type d'architecture","Un travail d'artisan minutieux"],
    ans:"Un travail d'artisan minutieux",
    hint:"Embedding decorative materials into surfaces requires careful, detailed craftsmanship"}
 ]};

@@ -50,7 +50,7 @@ lessons:[
  funFact:"\u5348 originally meant 'the moment the sun is highest.' The Horse is the 7th zodiac animal and its hour is 11 AM to 1 PM, the 'noon horse hour.' This is why \u5348 means noon."},
 
 {type:"mc", q:"Where do time words go in a Chinese sentence?",
- opts:["At the end","After the noun","Before the verb","Anywhere is fine"],
+ opts:["Before the verb","Anywhere is fine","At the end","After the noun"],
  ans:"Before the verb",
  hint:"Chinese follows a strict pattern: Subject + Time + ___. Time always precedes the action."},
 
@@ -69,7 +69,7 @@ lessons:[
  sSrc:"I am very good {1}!"},
 
 {type:"mc", q:"\u660E(m\u00EDng) is made of \u65E5(r\u00EC) and \u6708(yu\u00E8). What does \u660E literally mean?",
- opts:["bright","dark","big","old"],
+ opts:["old","bright","dark","big"],
  ans:"bright",
  hint:"Sun plus moon together create a word describing something full of light."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"He ate rice {1}."},
 
 {type:"mc", q:"\u4E0A\u5348(sh\u00E0ngw\u01D4) literally means:",
- opts:["below noon","middle of noon","before the sun","above noon"],
+ opts:["middle of noon","before the sun","above noon","below noon"],
  ans:"above noon",
  hint:"上 marks the earlier/upper position; 午 marks the mid-day slot. The compound points to the pre-midday stretch."},
 
@@ -137,7 +137,7 @@ lessons:[
  sSrc:"It is now {1} o'clock."},
 
 {type:"mc", q:"\u4E09(s\u0101n)\u70B9(di\u01CEn)\u4E8C\u5341(\u00E8rsh\u00ED)\u5206(f\u0113n) means:",
- opts:["3:02","3:12","2:30","3:20"],
+ opts:["3:20","3:02","3:12","2:30"],
  ans:"3:20",
  hint:"\u70B9 marks the hour (three) and \u5206 marks the minutes (twenty)."},
 
@@ -156,7 +156,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u73B0\u5728(xi\u00E0nz\u00E0i)\u53BB(q\u00F9)\u5417(ma)\uFF1F What is this asking?",
- opts:["Where are you going?","When did you go?","Are you going now?","Who is going?"],
+ opts:["When did you go?","Are you going now?","Who is going?","Where are you going?"],
  ans:"Are you going now?",
  hint:"\u73B0\u5728 means 'now' and \u5417 makes it a yes/no question. The verb \u53BB means 'to go.'"},
 
@@ -167,7 +167,7 @@ lessons:[
  sSrc:"2:10 PM."},
 
 {type:"mc", q:"\u4E0A\u5348(sh\u00E0ngw\u01D4)\u4E5D(ji\u01D4)\u70B9(di\u01CEn) means:",
- opts:["9 PM","9:00 minutes","9 days","9 AM"],
+ opts:["9:00 minutes","9 days","9 AM","9 PM"],
  ans:"9 AM",
  hint:"\u4E0A\u5348 means 'morning (AM).' Combine it with the hour number and \u70B9."}
 ]},
@@ -214,7 +214,7 @@ lessons:[
   text:"\u5728 does double duty in Chinese:\n\n1. As a verb (to be at): \u6211\u5728\u5BB6\u3002 I am at home.\n2. As a preposition (at/in): \u6211\u5728\u5BB6\u91CC\u5403\u996D\u3002 I eat at home.\n\nWhen \u5728 is the only verb, it means 'to be located at.' When another verb follows, \u5728 works like a preposition showing where the action happens. Context makes the difference clear."}},
 
 {type:"mc", q:"\u6211(w\u01D2)\u53BB(q\u00F9)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 What is the speaker doing?",
- opts:["Coming to school","Returning from school","Studying at school","Going to school"],
+ opts:["Going to school","Coming to school","Returning from school","Studying at school"],
  ans:"Going to school",
  hint:"The verb \u53BB means movement away from the speaker toward a destination."},
 
@@ -233,7 +233,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u5728(z\u00E0i)\u5BB6(ji\u0101)\u91CC(l\u01D0)\u3002 What does this mean?",
- opts:["He is going home","He returned home","He left home","He is at home"],
+ opts:["He left home","He is at home","He is going home","He returned home"],
  ans:"He is at home",
  hint:"\u5728 indicates location. The sentence describes where someone currently is."},
 
@@ -244,7 +244,7 @@ lessons:[
  sSrc:"I {1} home at 5 PM."},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
- opts:["Where are you?","When are you leaving?","Who are you?","What do you want?"],
+ opts:["Who are you?","What do you want?","Where are you?","When are you leaving?"],
  ans:"Where are you?",
  hint:"\u5728 asks about location, and \u54EA\u513F means '___.'"},
 
@@ -296,7 +296,7 @@ lessons:[
   text:"\u4E86 is NOT the same as English past tense. It marks completion, which can happen in the past, present, or even future.\n\nPast: \u6211\u5403\u4E86 (I have eaten / I ate)\nFuture: \u4F60\u5403\u4E86\u996D\u5C31\u53BB (After you eat, then go)\n\nDo not think of \u4E86 as '-ed.' Think of it as 'done' or 'completed.' This subtle difference matters more at higher levels, but for now, verb + \u4E86 = action happened is a safe rule."}},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u53BB(q\u00F9)\u4E86(le)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 When did the action happen?",
- opts:["It will happen tomorrow","It is happening now","It already happened","It might happen"],
+ opts:["It already happened","It might happen","It will happen tomorrow","It is happening now"],
  ans:"It already happened",
  hint:"\u4E86 after the verb signals that the action has been completed."},
 
@@ -326,7 +326,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u5979(t\u0101)\u6CA1(m\u00E9i)\u6765(l\u00E1i)\u3002 What does this mean?",
- opts:["She will not come","She came","She is coming","She did not come"],
+ opts:["She is coming","She did not come","She will not come","She came"],
  ans:"She did not come",
  hint:"\u6CA1 negates a completed action. The absence of \u4E86 confirms the action did not happen."},
 
@@ -337,7 +337,7 @@ lessons:[
  sSrc:"I went to school this morning."},
 
 {type:"mc", q:"\u6211(w\u01D2)\u5403(ch\u012B)\u4E86(le)\u7C73\u996D(m\u01D0f\u00E0n)\u3002 What happened?",
- opts:["I ate rice","I am eating rice","I want to eat rice","I did not eat rice"],
+ opts:["I want to eat rice","I did not eat rice","I ate rice","I am eating rice"],
  ans:"I ate rice",
  hint:"The verb \u5403 (eat) is followed by \u4E86 (completed). The action is already done."},
 
@@ -356,7 +356,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4E0B\u5348(xi\u00E0w\u01D4)\u4E09(s\u0101n)\u70B9(di\u01CEn)\u4ED6(t\u0101)\u56DE(hu\u00ED)\u4E86(le)\u5BB6(ji\u0101)\u3002 What happened?",
- opts:["He is going home at 3 PM","He went home at 3 PM","He will go home at 3 PM","He is at home now"],
+ opts:["He will go home at 3 PM","He is at home now","He is going home at 3 PM","He went home at 3 PM"],
  ans:"He went home at 3 PM",
  hint:"\u4E86 after the verb \u56DE marks the action as completed. The time is \u4E0B\u5348\u4E09\u70B9 (3 PM)."},
 
@@ -367,14 +367,14 @@ lessons:[
  sSrc:"She did not go to school yesterday."}
 ]},
 
-// ═══ L5: More Time Words — HSK 1 Essentials ═══
+// ═══ L5: More Time Words. HSK 1 Essentials ═══
 {id:"zhv2_u5l5", title:"年月日 Year, Month, Date", icon:"📅", xp:15, board:true, steps:[
 {type:"intro", title:"年月日 Year, Month, Date",
  desc:"Complete your time vocabulary with five essential HSK 1 words: noon, year, minute, date numbers, and the handy phrase 'a moment.'",
  goals:["Say noon with 中午","Count years and minutes","Use 号 for dates and 一下 for brief actions"]},
 
 {type:"teach", trg:"中午(zhōngwǔ)", src:"noon / midday", pos:"noun", gender:null,
- note:"中 (middle) + 午 (the horse hour, noon). Literally: middle of noon.\n上午 (morning) — 中午 (noon) — 下午 (afternoon).",
+ note:"中 (middle) + 午 (the horse hour, noon). Literally: middle of noon.\n上午 (morning), 中午 (noon), 下午 (afternoon).",
  example:"A: 你(nǐ)中午(zhōngwǔ)吃(chī)什么(shénme)？\nB: 我(wǒ)中午(zhōngwǔ)吃(chī)米饭(mǐfàn)。",
  exampleSrc:"A: What do you eat at noon?\nB: I eat rice at noon.",
  funFact:"午 comes from the Chinese zodiac hour system. The horse hour (午时, wǔshí) was 11am–1pm. Noon was the peak of the horse hour, so 中午 (middle of horse) came to mean midday. Chinese time divisions survive in everyday words."},
@@ -383,13 +383,13 @@ lessons:[
  note:"Second tone (rising). Used for years, New Year, and age.\n今年 = this year. 明年 = next year. 去年 = last year.",
  example:"A: 今年(jīnnián)是(shì)哪(nǎ)年(nián)？\nB: 今年(jīnnián)是(shì)二零二六(èr líng èr liù)年(nián)。",
  exampleSrc:"A: What year is this year?\nB: This year is 2026.",
- funFact:"The character 年 depicts a person (人) carrying a sheaf of grain (禾). A year is one harvest cycle. Chinese New Year celebrations last 15 days — from New Year's Eve to the Lantern Festival — because the new year is the biggest annual event in Chinese culture."},
+ funFact:"The character 年 depicts a person (人) carrying a sheaf of grain (禾). A year is one harvest cycle. Chinese New Year celebrations last 15 days, from New Year's Eve to the Lantern Festival, because the new year is the biggest annual event in Chinese culture."},
 
 {type:"teach", trg:"分钟(fēnzhōng)", src:"minute", pos:"noun", gender:null,
  note:"分 (minute/divide) + 钟 (clock). Together: a minute on a clock.\n三分钟 = three minutes.",
  example:"A: 你(nǐ)还(hái)要(yào)多少(duōshao)分钟(fēnzhōng)？\nB: 再(zài)等(děng)五(wǔ)分钟(fēnzhōng)！",
  exampleSrc:"A: How many more minutes do you need?\nB: Wait five more minutes!",
- funFact:"分 also means 'point' or 'score.' In Chinese time, 三点十五分 means 3:15 — literally 'three-o'clock fifteen-minutes.' The same character covers minutes of time and decimal points in numbers."},
+ funFact:"分 also means 'point' or 'score.' In Chinese time, 三点十五分 means 3:15, literally 'three-o'clock fifteen-minutes.' The same character covers minutes of time and decimal points in numbers."},
 
 {type:"teach", trg:"号(hào)", src:"number / date (of month)", pos:"noun", gender:null,
  note:"Used for dates, room numbers, and phone numbers.\n三号 = the 3rd (of the month). 一号房间 = room 1.",
@@ -404,7 +404,7 @@ lessons:[
  funFact:"一下 is the ultimate politeness softener in Chinese. 看一下 (have a quick look), 想一下 (think for a moment), 试一下 (try it out once). Adding 一下 makes any verb sound casual, brief, and non-demanding."},
 
 {type:"mc", q:"今天几号(hào)？ What is this question asking?",
- opts:["What is today's day of the week?","What year is it?","What is today's date?","What time is it?"],
+ opts:["What is today's date?","What time is it?","What is today's day of the week?","What year is it?"],
  ans:"What is today's date?",
  hint:"号 marks the specific day within a month. 几号 is the standard way to ask."},
 
@@ -445,7 +445,7 @@ lessons:[
  sSrc:"Today is the {1}th."}
 ]},
 
-// ═══ L6: 早上晚上 Morning and Evening — HSK 2 Time ═══
+// ═══ L6: 早上晚上 Morning and Evening. HSK 2 Time ═══
 {id:"zhv2_u5l6", title:"早上晚上 Morning and Evening", icon:"🌙", xp:15, board:true, steps:[
 {type:"intro", title:"Morning and Evening",
  desc:"Complete the Chinese day. Learn early morning and evening time words, the word for time itself, and the from-to pattern for expressing durations.",
@@ -461,19 +461,19 @@ lessons:[
  note:"晚 (late/evening) + 上 (above/start). Refers to evening, roughly 7 PM onward.\n晚上好 = Good evening.",
  example:"A: 你(nǐ)晚上(wǎnshang)做(zuò)什么(shénme)？\nB: 我(wǒ)晚上(wǎnshang)看(kàn)电影(diànyǐng)。",
  exampleSrc:"A: What do you do in the evening?\nB: I watch movies in the evening.",
- funFact:"晚 contains the 日 (sun) radical and 免 (avoid), suggesting the time when the sun is avoided — hidden beyond the horizon. The 上 suffix works the same as in 早上 and 上午: all three time words use 上 to signal a block of time rather than a single point."},
+ funFact:"晚 contains the 日 (sun) radical and 免 (avoid), suggesting the time when the sun is avoided, hidden beyond the horizon. The 上 suffix works the same as in 早上 and 上午: all three time words use 上 to signal a block of time rather than a single point."},
 
 {type:"teach", trg:"时间(shíjiān)", src:"time", pos:"noun", gender:null,
  note:"时 (time) + 间 (space/interval). The general word for time.\n有时间 = have time (be free). 没时间 = no time (be too busy).",
  example:"A: 你(nǐ)有(yǒu)时间(shíjiān)吗(ma)？\nB: 对(duì)不(bu)起(qǐ)，我(wǒ)现在(xiànzài)没有(méiyǒu)时间(shíjiān)。",
  exampleSrc:"A: Do you have time?\nB: Sorry, I do not have time right now.",
- funFact:"时间 covers both 'time as a resource' (有时间 = have free time) and 'time as a period' (这段时间 = during this period). In Chinese philosophy, particularly Taoism, time (时) is seen as cyclic and infinite. The character 时 shows the sun (日) and 寸 (a unit, the pulse) — time as measured by heartbeats under the sun."},
+ funFact:"时间 covers both 'time as a resource' (有时间 = have free time) and 'time as a period' (这段时间 = during this period). In Chinese philosophy, particularly Taoism, time (时) is seen as cyclic and infinite. The character 时 shows the sun (日) and 寸 (a unit, the pulse), time as measured by heartbeats under the sun."},
 
 {type:"teach", trg:"从(cóng)", src:"from", pos:"prep", gender:null,
  note:"Marks the starting point of time or place.\n从 A 到 B = from A to B. Very common pattern.",
  example:"A: 你(nǐ)从(cóng)几(jǐ)点(diǎn)工作(gōngzuò)到(dào)几(jǐ)点(diǎn)？\nB: 从(cóng)九(jiǔ)点(diǎn)到(dào)五(wǔ)点(diǎn)。",
  exampleSrc:"A: From what time to what time do you work?\nB: From nine to five.",
- funFact:"从 originally depicted a person following another person — one walks, the other follows from behind. This 'following from' sense evolved into the preposition 'from,' indicating a starting point. The character still shows two people stacked one behind the other."},
+ funFact:"从 originally depicted a person following another person, one walks, the other follows from behind. This 'following from' sense evolved into the preposition 'from,' indicating a starting point. The character still shows two people stacked one behind the other."},
 
 {type:"teach", trg:"到(dào)", src:"to / arrive at / until", pos:"verb", gender:null,
  note:"Marks the end point of time or place. Paired with 从 for the from-to pattern.\nAlso means 'to arrive': 我到了 = I have arrived.",
@@ -487,7 +487,7 @@ lessons:[
   text:"到 is also used as a verb complement showing that an action reached its goal:\n\n买到(mǎi dào) = managed to buy (the buying reached the goal)\n找到(zhǎo dào) = managed to find (the finding reached its target)\n做到(zuò dào) = managed to accomplish (the doing reached completion)\n\nThis is different from the from-to 到. Context makes the difference clear. At A2, focus on the from-to pattern with 从...到... and the arrival meaning of 到."}},
 
 {type:"mc", q:"早上好 is said:",
- opts:["in the afternoon","at noon","in the evening","in the morning"],
+ opts:["in the morning","in the afternoon","at noon","in the evening"],
  ans:"in the morning",
  hint:"早上 is the Chinese time word for the early part of the day. The greeting matches the time period."},
 
@@ -506,14 +506,14 @@ lessons:[
  sSrc:"I work from nine {1} five."},
 
 {type:"mc", q:"你有时间吗？ What is this question asking?",
- opts:["What time is it?","Are you on time?","Do you have free time?","How long does it take?"],
+ opts:["Are you on time?","Do you have free time?","How long does it take?","What time is it?"],
  ans:"Do you have free time?",
  hint:"有 + this word = to be unoccupied. 没有 + this word = too occupied to help. The question asks about availability."},
 
 {type:"fb", s:"她(tā)每(měi)天(tiān){1}六(liù)点(diǎn)跑步(pǎobù)。",
  a:["早上(zǎoshang)"],
  opts:["早上(zǎoshang)","晚上(wǎnshang)","中午(zhōngwǔ)","下午(xiàwǔ)"],
- hint:"She runs at 6 o'clock — which time of day is typically 6 AM, the early morning?",
+ hint:"She runs at 6 o'clock, which time of day is typically 6 AM, the early morning?",
  sSrc:"She runs every {1} at six."},
 
 {type:"mc", q:"从北京到上海 uses 从 and 到. What do these mark?",

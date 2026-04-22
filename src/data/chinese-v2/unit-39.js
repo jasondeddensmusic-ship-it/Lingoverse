@@ -48,15 +48,15 @@ lessons:[
  note:"诚 (sincere) + 实 (real/solid).\nSincere and real. Not deceitful.",
  example:"A: 他(tā)是(shì)一(yí)个(gè)非常(fēicháng)诚实(chéngshí)的(de)人(rén)。\nB: 这(zhè)样(yàng)的(de)人(rén)值得(zhíde)信任(xìnrèn)。",
  exampleSrc:"A: He is a very honest person.\nB: A person like this deserves trust.",
- funFact:"诚 is one of the highest Confucian virtues: to be true both to others and to oneself. 诚实 goes beyond not lying — it means living authentically according to one's principles."},
+ funFact:"诚 is one of the highest Confucian virtues: to be true both to others and to oneself. 诚实 goes beyond not lying, it means living authentically according to one's principles."},
 
 {type:"mc", q:"热情(rèqíng) literally combines 'hot' with which character?",
- opts:["heart","feeling","fire","word"],
+ opts:["feeling","fire","word","heart"],
  ans:"feeling",
  hint:"The second character 情 appears in words about emotion, like 爱情 (love)."},
 
 {type:"mc", q:"Which word describes someone who stays cool under pressure?",
- opts:["热情(rèqíng)","聪明(cōngming)","冷静(lěngjìng)","诚实(chéngshí)"],
+ opts:["聪明(cōngming)","冷静(lěngjìng)","诚实(chéngshí)","热情(rèqíng)"],
  ans:"冷静(lěngjìng)",
  hint:"This word literally means 'cold and still.' Think of the attitude a surgeon needs."},
 
@@ -108,13 +108,13 @@ lessons:[
  funFact:"内向 is increasingly destigmatized in modern China. Younger generations proudly identify as 内向 on social media, pushing back against older expectations that everyone should be socially outgoing."},
 
 {type:"teach", trg:"开朗(kāilǎng)", src:"cheerful / open / sunny", pos:"adj", gender:null,
- note:"开 (open) + 朗 (bright).\nOpen and bright. More than just happy — fundamentally sunny.",
+ note:"开 (open) + 朗 (bright).\nOpen and bright. More than just happy, fundamentally sunny.",
  example:"A: 她(tā)性格(xìnggé)很(hěn)开朗(kāilǎng)，总是(zǒngshì)笑(xiào)着(zhe)。\nB: 跟(gēn)开朗(kāilǎng)的(de)人(rén)在(zài)一起(yìqǐ)，心情(xīnqíng)也(yě)会(huì)变(biàn)好(hǎo)。",
  exampleSrc:"A: Her personality is very cheerful. She is always smiling.\nB: Being around cheerful people lifts your mood too.",
  funFact:"开朗 is often used to describe both weather (a clear, open sky) and personality. The metaphor is the same: nothing blocking the light. It is one of the most positive personality descriptors in Chinese."},
 
 {type:"mc", q:"幽默(yōumò) is a phonetic loan word from which language?",
- opts:["Japanese","English","French","Russian"],
+ opts:["English","French","Russian","Japanese"],
  ans:"English",
  hint:"This 20th-century word was coined by a Chinese writer to match a Western concept. Try saying the Chinese syllables quickly."},
 
@@ -142,7 +142,7 @@ lessons:[
 // ─── L3: Appearance and Looks ───
 {id:"zhv2_u39l3", title:"Appearance and Looks", icon:"👀", xp:15, board:true, steps:[
 {type:"intro", title:"Appearance and Looks",
- desc:"Describe how people look. Height, build, attractiveness. Chinese has specific words for these descriptions — let us learn the common ones.",
+ desc:"Describe how people look. Height, build, attractiveness. Chinese has specific words for these descriptions, let us learn the common ones.",
  goals:["Describe physical appearance","Compare heights and builds","Express attractiveness"]},
 
 {type:"teach", trg:"样子(yàngzi)", src:"appearance / look / way", pos:"noun", gender:null,
@@ -182,7 +182,7 @@ lessons:[
  funFact:"漂亮 covers a broad range: beautiful people, pretty flowers, well-done work (这件事做得漂亮, this was done beautifully). It is a warmer compliment than the more formal 美丽 (měilì)."},
 
 {type:"mc", q:"Which word means SHORT in HEIGHT?",
- opts:["短(duǎn)","矮(ǎi)","瘦(shòu)","小(xiǎo)"],
+ opts:["矮(ǎi)","瘦(shòu)","小(xiǎo)","短(duǎn)"],
  ans:"矮(ǎi)",
  hint:"This word is only for vertical height, not length or duration."},
 

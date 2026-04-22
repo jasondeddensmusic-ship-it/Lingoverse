@@ -33,7 +33,7 @@ const LESSON_15 = {
     // Quiz block 1: first 4 words
     {type:"mc",
      q:"영화가 어제 ___.",
-     opts:["넣었어요","나왔어요","바꿨어요","냈어요"],
+     opts:["나왔어요","바꿨어요","냈어요","넣었어요"],
      ans:"나왔어요",
      hint:"Think about a movie being released or appearing for the first time."},
 
@@ -78,7 +78,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"자기 전에 이를 꼭 ___.",
-     opts:["닦으세요","깎으세요","켜세요","끄세요"],
+     opts:["끄세요","닦으세요","깎으세요","켜세요"],
      ans:"닦으세요",
      hint:"What do you do to your teeth every night before sleeping?"},
 
@@ -116,7 +116,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"배고파서 ___!",
-     opts:["뛰겠어요","불겠어요","깎겠어요","죽겠어요"],
+     opts:["불겠어요","깎겠어요","죽겠어요","뛰겠어요"],
      ans:"죽겠어요",
      hint:"Koreans exaggerate hunger with a dramatic life-or-death expression."},
 
@@ -174,7 +174,7 @@ const LESSON_15 = {
     // Quiz block 5: final words + cumulative
     {type:"mc",
      q:"여기서 사진을 찍으면 ___.",
-     opts:["버려요","끝내요","안돼요","생겨요"],
+     opts:["생겨요","버려요","끝내요","안돼요"],
      ans:"안돼요",
      hint:"What do you say when something is not allowed or prohibited?"},
 
@@ -187,7 +187,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"불 좀 ___ 주세요. 어두워요.",
-     opts:["끄","깎아","닦아","켜"],
+     opts:["켜","끄","깎아","닦아"],
      ans:"켜",
      hint:"It's dark, so you need to activate the light source."}
   ]

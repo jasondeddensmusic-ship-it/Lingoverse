@@ -24,7 +24,7 @@ const LESSON_5 = {
      exampleSrc:"A: I will take your order.\nB: Coffee, please.\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"承る packs enormous politeness into one word. It replaces both きく (hear) and うける (receive) in humble contexts. Hotel staff, restaurant servers, and customer service agents use it constantly. The kanji 承 also appears in 承認 (approval) and 承知 (acknowledged), all carrying the sense of humbly receiving."},
 
-    {type:"mc", q:"おっしゃるとおりです means:", opts:["I will consider it","That is difficult","You are exactly right","Please say it again"], ans:"You are exactly right",
+    {type:"mc", q:"おっしゃるとおりです means:", opts:["You are exactly right","Please say it again","I will consider it","That is difficult"], ans:"You are exactly right",
      hint:"おっしゃる replaces いう for the listener's speech, and とおり means 'in accordance with.'"},
 
     {type:"teach", trg:"ごらんになる", src:"to see / to look (respectful keigo)", pos:"verb", gender:null,
@@ -59,7 +59,7 @@ const LESSON_5 = {
      exampleSrc:"A: That is all. I humbly request your cooperation.\nB: Understood.\nA: How much do you know about that field?\nB: It is not my specialty, but I have basic knowledge.\nA: If I want to know more in detail, what should I do?\nB: I recommend consulting a specialist or reading related books.",
      funFact:"This is the ultimate business sign-off. よろしく (well/favorably) + おねがい (request) + いたします (humble do). The phrase is untranslatable because it combines a request, an apology for imposing, and an expression of trust. Every Japanese business email ends with some version of this."},
 
-    {type:"mc", q:"はいけんする is the humble keigo form of:", opts:["みる (to see)","きく (to hear)","いう (to say)","する (to do)"], ans:"みる (to see)",
+    {type:"mc", q:"はいけんする is the humble keigo form of:", opts:["する (to do)","みる (to see)","きく (to hear)","いう (to say)"], ans:"みる (to see)",
      hint:"The 見 (s...) kanji is embedded in 拝見, combined with 拝 (worship)."},
 
     {type:"teach", trg:"しょうち", src:"acknowledgment / understanding / consent", pos:"noun", gender:null,
@@ -73,7 +73,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"おっしゃる",src:"to say (respectful)"},{trg:"もうしあげる",src:"to say (humble)"},{trg:"ごらんになる",src:"to see (respectful)"},{trg:"はいけんする",src:"to see (humble)"}]},
 
-    {type:"mc", q:"しょうちいたしました is the business-level replacement for:", opts:["すみません (sorry)","わかりました (understood)","ありがとう (thank you)","おねがいします (please)"], ans:"わかりました (understood)",
+    {type:"mc", q:"しょうちいたしました is the business-level replacement for:", opts:["おねがいします (please)","すみません (sorry)","わかりました (understood)","ありがとう (thank you)"], ans:"わかりました (understood)",
      hint:"This phrase elevates 'I understand' to formal business acknowledgment."},
 
     {type:"match", pairs:[{trg:"うけたまわる",src:"to receive (humble)"},{trg:"おせわになる",src:"to receive support"},{trg:"しょうち",src:"acknowledgment"},{trg:"よろしくおねがいいたします",src:"requesting cooperation"}]},

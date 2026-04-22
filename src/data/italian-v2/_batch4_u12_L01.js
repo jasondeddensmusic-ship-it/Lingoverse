@@ -1,4 +1,4 @@
-// Batch 4 — Unit 12, Lesson 1: Movement Verbs & Essere in the Past
+// Batch 4. Unit 12, Lesson 1: Movement Verbs & Essere in the Past
 const BATCH4_U12_L1 = {
   id:"itv2_u12l_b4_1", title:"Verbi di movimento", icon:"\uD83C\uDFC3", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U12_L1 = {
     ]},
 
     {type:"mc", q:"Come dice una donna 'I fell'?",
-     opts:["Sono caduta","Sono caduto","Ho caduto","Ho caduta"],
+     opts:["Ho caduta","Sono caduta","Sono caduto","Ho caduto"],
      ans:"Sono caduta",
      hint:"Essere auxiliary + feminine agreement on the past participle."},
 
@@ -126,7 +126,7 @@ const BATCH4_U12_L1 = {
      sSrc:"Did you {1} the movie? Was it good?"},
 
     {type:"mc", q:"Qual e il participio passato di 'nascere'?",
-     opts:["Nato","Nascuto","Nasciuto","Nascito"],
+     opts:["Nasciuto","Nascito","Nato","Nascuto"],
      ans:"Nato",
      hint:"This irregular past participle is very common in personal information."},
 
@@ -136,7 +136,7 @@ const BATCH4_U12_L1 = {
      sSrc:"We {1} at the restaurant until midnight."},
 
     {type:"mc", q:"Cosa significa 'sono rimasto sorpreso'?",
-     opts:["I was left surprised / I was surprised","I stayed at the surprise","I returned to be surprised","I surprised someone"],
+     opts:["I stayed at the surprise","I returned to be surprised","I surprised someone","I was left surprised / I was surprised"],
      ans:"I was left surprised / I was surprised",
      hint:"'Rimanere' with emotions means 'to be l... in that emotional state.'"}
   ,{type:"match",pairs:[{trg:"salire / salito",src:"to go up, to climb / gone up"},{trg:"scendere / sceso",src:"to go down, to descend / gone down"},{trg:"morire / morto",src:"to die / dead, died"},{trg:"rimanere / rimasto",src:"to stay, to remain / stayed"},{trg:"succedere / successo",src:"to happen / happened"},{trg:"restare / restato",src:"to stay, to remain / stayed"}]},{type:"match",pairs:[{trg:"arrivare / arrivato",src:"to arrive / arrived"},{trg:"entrare / entrato",src:"to enter / entered"},{trg:"uscire / uscito",src:"to go out, to exit / gone out"}]}]

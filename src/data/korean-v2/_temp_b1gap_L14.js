@@ -1,4 +1,4 @@
-// Korean V2 B1 Gap Lesson 14 — People, Family, and Social Groups
+// Korean V2 B1 Gap Lesson 14. People, Family, and Social Groups
 // 20 teach cards + interleaved quizzes. Max 30 steps.
 
 const LESSON_14 = {
@@ -115,7 +115,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"___가 찬성하면 그렇게 결정해요.",
-     opts:["동시","모임","개인","다수"],
+     opts:["개인","다수","동시","모임"],
      ans:"다수",
      hint:"If the majority agrees, we decide that way. Which noun means the greater number of people?"},
 
@@ -193,7 +193,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"축제 때문에 사람들이 많이 ___.",
-     opts:["모였어요","모았어요","나눴어요","돌봤어요"],
+     opts:["모았어요","나눴어요","돌봤어요","모였어요"],
      ans:"모였어요",
      hint:"People came together because of the festival. Which intransitive verb means to assemble?"}
   ]

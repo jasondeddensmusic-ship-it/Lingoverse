@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)で花粉症(かふんしょう)に苦(くる)しんでいる人(ひと)はどのくらいですか？",
-     opts:["About 40%","About 10%","About 5%","About 80%"],
+     opts:["About 80%","About 40%","About 10%","About 5%"],
      ans:"About 40%",
      hint:"This pollen allergy is so widespread it is considered a national health issue, especially during spring."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Sleep, nutrition, and exercise are important for boosting immunity."},
 
     {type:"mc", q:"日本(にほん)の会社(かいしゃ)に義務(ぎむ)づけられているのは何(なん)ですか？",
-     opts:["ストレスチェック for employees","Free gym membership","Mandatory vacation","Daily exercise time"],
+     opts:["Mandatory vacation","Daily exercise time","ストレスチェック for employees","Free gym membership"],
      ans:"ストレスチェック for employees",
      hint:"A legally required assessment to monitor employee mental health and prevent workplace stress disorders."}
   ,{type:"fb", s:"最近(さいきん){1}がたまって体調(たいちょう)が悪(わる)いです。ゆっくり休(やす)んでください。",

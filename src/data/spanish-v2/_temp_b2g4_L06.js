@@ -72,7 +72,7 @@ const LESSON_6 = {id:"esv2_b2g4_l6",title:"Trabajo y profesiones",icon:"👔",xp
  exampleSrc:"A: The software update will take a few minutes.\nB: Meanwhile, we can have a coffee.",
  funFact:"'Actualización profesional' means continuing education to keep your skills current."},
 
-{type:"mc",q:"¿Qué es un estanco en España?",opts:["Una tienda que vende tabaco y sellos","Un restaurante tradicional","Un banco pequeño","Una oficina de correos"],ans:"Una tienda que vende tabaco y sellos",hint:"Think about the licensed shop where you buy tobacco, stamps, and metro cards."},
+{type:"mc",q:"¿Qué es un estanco en España?",opts:["Una oficina de correos","Una tienda que vende tabaco y sellos","Un restaurante tradicional","Un banco pequeño"],ans:"Una tienda que vende tabaco y sellos",hint:"Think about the licensed shop where you buy tobacco, stamps, and metro cards."},
 
 {type:"teach",trg:"el acondicionamiento",src:"the conditioning / fitting out",pos:"noun",gender:"m",
  note:"Masculine noun. Preparing or adapting something.\nCommon: acondicionamiento físico, aire acondicionado.",
@@ -84,7 +84,7 @@ const LESSON_6 = {id:"esv2_b2g4_l6",title:"Trabajo y profesiones",icon:"👔",xp
 
 {type:"match",pairs:[{trg:"entrenador",src:"coach"},{trg:"diseñador",src:"designer"},{trg:"estanco",src:"tobacconist"},{trg:"expatriación",src:"expatriation"},{trg:"actualización",src:"update"}]},
 
-{type:"mc",q:"¿Qué significa 'espabilar'?",opts:["Ponerse en marcha rápidamente","Quedarse dormido","Hablar en voz baja","Pensar con calma"],ans:"Ponerse en marcha rápidamente",hint:"What a parent says to a child who is moving too slowly in the morning."},
+{type:"mc",q:"¿Qué significa 'espabilar'?",opts:["Hablar en voz baja","Pensar con calma","Ponerse en marcha rápidamente","Quedarse dormido"],ans:"Ponerse en marcha rápidamente",hint:"What a parent says to a child who is moving too slowly in the morning."},
 
 {type:"fb",s:"La {1} de los conocimientos es esencial en cualquier profesión.",a:["actualización"],opts:["actualización","expatriación","equivalencia","expropiación"],hint:"The process of bringing your skills and knowledge up to date.",sSrc:"The {1} of knowledge is essential in any profession."}
 ]};

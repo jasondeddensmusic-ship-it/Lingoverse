@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: The police arrested the suspect.\nB: Where was the arrest made?\nA: What kinds of methods are there?\nB: There are several options. The most effective is practice.\nA: What specifically should we do in practice?\nB: It is important to work on it a little each day.",
      funFact:"逮捕 uses two rare kanji: 逮 (catch up to) and 捕 (seize). In headlines, たいほ often appears without particles: 容疑者逮捕 (Suspect Arrested). This telegraphic style is unique to headlines. Full sentence: ようぎしゃがたいほされた. Headline: ようぎしゃたいほ. The particle が and the passive される are both dropped."},
 
-    {type:"mc", q:"How does the headline ようぎしゃたいほ differ from the full sentence ようぎしゃがたいほされた?", opts:["The headline uses past tense only","They have different meanings","The headline adds emphasis","The headline drops the particle and passive marker"], ans:"The headline drops the particle and passive marker",
+    {type:"mc", q:"How does the headline ようぎしゃたいほ differ from the full sentence ようぎしゃがたいほされた?", opts:["The headline drops the particle and passive marker","The headline uses past tense only","They have different meanings","The headline adds emphasis"], ans:"The headline drops the particle and passive marker",
      hint:"Headlines compress by removing grammatical particles and verb conjugations."},
 
     {type:"teach", trg:"ひがい", src:"damage / harm", pos:"noun", gender:null,
@@ -68,7 +68,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"はんめい",src:"becoming clear"},{trg:"ようぎしゃ",src:"suspect"},{trg:"たいほ",src:"arrest"},{trg:"ひがい",src:"damage"}]},
 
-    {type:"mc", q:"In headlines, particles like が and を are typically:", opts:["Dropped entirely to save space","Always present for clarity","Replaced with commas","Doubled for emphasis"], ans:"Dropped entirely to save space",
+    {type:"mc", q:"In headlines, particles like が and を are typically:", opts:["Replaced with commas","Doubled for emphasis","Dropped entirely to save space","Always present for clarity"], ans:"Dropped entirely to save space",
      hint:"Headline grammar compresses sentences by removing grammatical connectors."},
 
     {type:"match", pairs:[{trg:"きんきゅう",src:"emergency"},{trg:"そくほう",src:"breaking news"},{trg:"はっせい",src:"occurrence"},{trg:"かくだい",src:"expansion/spread"}]},

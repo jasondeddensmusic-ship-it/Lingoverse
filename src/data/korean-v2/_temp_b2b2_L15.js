@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 15: Scale and Conversation
+// Korean B2. Batch 2, Lesson 15: Scale and Conversation
 // Words: 대형, 대화하다, 댐, 더더욱, 더러워지다, 더럽다, 더불다, 더욱, 더욱더, 더욱이, 더위, 덕, 덜다, 덧붙이다, 덩어리, 덮이다, 데려가다, 데려오다, 데우다, 데이트
 
 const LESSON_15 = {
@@ -119,7 +119,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'덕분에'와 '탓에'의 차이는?",
-     opts:["덕분에는 긍정적, 탓에는 부정적","둘 다 긍정적","둘 다 부정적","차이가 없다"],
+     opts:["차이가 없다","덕분에는 긍정적, 탓에는 부정적","둘 다 긍정적","둘 다 부정적"],
      ans:"덕분에는 긍정적, 탓에는 부정적",
      hint:"One is used when the cause is positive (thanks to), the other when it is negative (because of)."},
 

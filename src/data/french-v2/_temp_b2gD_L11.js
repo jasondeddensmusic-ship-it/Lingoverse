@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 11 — Food and Gastronomy
+// French B2 Gap Batch D Lesson 11. Food and Gastronomy
 const LESSON_11 = {id:"frv2_b2gD_l11", title:"Gastronomie et cuisine", icon:"🍷", xp:15, board:true, steps:[
   {type:"intro", title:"Gastronomie et cuisine",
    desc:"Explore the rich vocabulary of French food culture, from dining establishments to culinary traditions.",
@@ -73,7 +73,7 @@ const LESSON_11 = {id:"frv2_b2gD_l11", title:"Gastronomie et cuisine", icon:"�
 
   {type:"mc",
    q:"Quel est le 'plat du jour' dans un restaurant français?",
-   opts:["Le plat spécial qui change chaque jour","Le dessert le plus populaire","L'entrée la plus chère","Le menu complet pour enfants"],
+   opts:["Le menu complet pour enfants","Le plat spécial qui change chaque jour","Le dessert le plus populaire","L'entrée la plus chère"],
    ans:"Le plat spécial qui change chaque jour",
    hint:"This compound literally means 'dish of the day' and is usually the freshest, most affordable option."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 17: Wishes, Consumption, and Ownership
+// Korean B2. Batch 5, Lesson 17: Wishes, Consumption, and Ownership
 // Words: 소망, 소매, 소문나다, 소박하다, 소비, 소비하다, 소설가, 소속, 소수, 소시지, 소아과, 소요되다, 소용, 소용없다, 소원, 소위, 소유, 소유자, 소유하다, 소음
 
 const LESSON_17 = {

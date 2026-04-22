@@ -1,4 +1,4 @@
-// L20: Abstract Concepts & Review — 20 B2 gap words
+// L20: Abstract Concepts & Review, 20 B2 gap words
 const LESSON_20 = {
   id:"nlv2_b2g2_l20", title:"Abstracte Begrippen", icon:"\uD83D\uDCA1", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_20 = {
      sSrc:"Many young people experience {1} due to flex contracts and high rents."},
     {type:"mc",
      q:"In welke ranglijst staat Nederland consequent in de top 5?",
-     opts:["De gelukkigste landen ter wereld","De grootste landen ter wereld","De warmste landen ter wereld","De goedkoopste landen ter wereld"],
+     opts:["De goedkoopste landen ter wereld","De gelukkigste landen ter wereld","De grootste landen ter wereld","De warmste landen ter wereld"],
      ans:"De gelukkigste landen ter wereld",
      hint:"The World Database of Happiness is maintained at Erasmus University Rotterdam. The Dutch are famously content."},
     {type:"match", pairs:[

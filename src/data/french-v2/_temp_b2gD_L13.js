@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 13 — Language and Communication
+// French B2 Gap Batch D Lesson 13. Language and Communication
 const LESSON_13 = {id:"frv2_b2gD_l13", title:"Langue et communication", icon:"💬", xp:15, board:true, steps:[
   {type:"intro", title:"Langue et communication",
    desc:"Learn vocabulary for discussing language, speech, and communication in French.",
@@ -74,7 +74,7 @@ const LESSON_13 = {id:"frv2_b2gD_l13", title:"Langue et communication", icon:"�
 
   {type:"mc",
    q:"Que signifie 'la prunelle de ses yeux'?",
-   opts:["La personne ou la chose la plus chère","La partie la plus sombre de l'oeil","Un type de fruit sauvage","Une maladie des yeux"],
+   opts:["Une maladie des yeux","La personne ou la chose la plus chère","La partie la plus sombre de l'oeil","Un type de fruit sauvage"],
    ans:"La personne ou la chose la plus chère",
    hint:"This expression compares someone precious to the dark center of the eye. Similar to 'apple of one's eye'."},
 

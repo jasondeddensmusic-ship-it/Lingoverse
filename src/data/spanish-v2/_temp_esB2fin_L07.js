@@ -49,7 +49,7 @@ const LESSON_7 = {
      funFact:"From Latin 'assignatura' (what is assigned). Each course is 'assigned' to students as part of their plan."},
 
     {type:"mc", q:"¿Qué significa 'la matrícula' en el contexto universitario?",
-     opts:["Un examen final","La inscripción o el pago para estudiar","Una beca de investigación","Un título académico"],
+     opts:["La inscripción o el pago para estudiar","Una beca de investigación","Un título académico","Un examen final"],
      ans:"La inscripción o el pago para estudiar",
      hint:"This word covers both the enrollment process and the fees you pay to attend university."},
 
@@ -147,7 +147,7 @@ const LESSON_7 = {
     ]},
 
     {type:"mc", q:"¿Qué es 'el expediente académico'?",
-     opts:["Un examen final","El registro oficial de notas del estudiante","Una beca de investigación","Un plan de estudios"],
+     opts:["Una beca de investigación","Un plan de estudios","Un examen final","El registro oficial de notas del estudiante"],
      ans:"El registro oficial de notas del estudiante",
      hint:"This official document contains your complete record of grades and courses taken."}
   ]

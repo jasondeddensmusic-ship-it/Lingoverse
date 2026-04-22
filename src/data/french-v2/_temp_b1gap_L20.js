@@ -92,7 +92,7 @@ const LESSON_20 = {id:"frv2_b1gap_l20", title:"Nuances avancées", icon:"\u{1F39
 
 {type:"mc",
  q:"Quel mot signifie à la fois un juriste et un fruit vert ?",
- opts:["un avocat","un avare","un auditeur","un aventurier"],
+ opts:["un aventurier","un avocat","un avare","un auditeur"],
  ans:"un avocat",
  hint:"This homonym covers two very different meanings. The fruit name comes from an Aztec language."},
 
@@ -143,7 +143,7 @@ const LESSON_20 = {id:"frv2_b1gap_l20", title:"Nuances avancées", icon:"\u{1F39
 
 {type:"mc",
  q:"Quel verbe signifie 'reconnaître la vérité' ou 'confesser' ?",
- opts:["avouer","aviser","avertir","augurer"],
+ opts:["avertir","augurer","avouer","aviser"],
  ans:"avouer",
  hint:"In casual speech, 'j'...' this verb means 'I have to admit.' It's a very common filler expression."},
 

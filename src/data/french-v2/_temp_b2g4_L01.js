@@ -86,7 +86,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel style architectural utilise des arcs en ogive ?",
-     opts:["gothique","baroque","roman","classique"],
+     opts:["classique","gothique","baroque","roman"],
      ans:"gothique",
      hint:"This medieval style was named by Renaissance critics who associated it with barbarians."},
 
@@ -119,7 +119,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Comment decrit-on une situation absurde et ridicule ?",
-     opts:["grotesque","gracieux","gothique","grandiose"],
+     opts:["gothique","grandiose","grotesque","gracieux"],
      ans:"grotesque",
      hint:"From Italian 'grottesca', originally describing bizarre paintings found in caves."},
 

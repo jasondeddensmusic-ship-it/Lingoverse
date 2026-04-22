@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"権利(けんり)",src:"right"},{trg:"義務(ぎむ)",src:"obligation"},{trg:"裁判(さいばん)",src:"trial"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"訴訟(そしょう)",src:"lawsuit"}],
      hint:"Match each legal term with its English meaning."},
 
-    {type:"mc", q:"What is special about Japan's conviction rate?", opts:["It exceeds 99%","It is about 50%","It is the lowest in Asia","It varies widely by region"], ans:"It exceeds 99%",
+    {type:"mc", q:"What is special about Japan's conviction rate?", opts:["It varies widely by region","It exceeds 99%","It is about 50%","It is the lowest in Asia"], ans:"It exceeds 99%",
      hint:"This extremely high rate is both praised for accuracy and criticized for potential bias."},
 
     {type:"fb", s:"日本国(にほんこく)憲法(けんぽう)の{1}条(じょう)は平和(へいわ)主義(しゅぎ)をうたっています。\n(Article 9 of the Japanese Constitution advocates pacifism.)", a:"第九(だいきゅう)", opts:["第九(だいきゅう)","第一(だいいち)","第二(だいに)","第三(だいさん)"], sSrc:"Article 9 of the Japanese Constitution advocates pacifism.",
      hint:"This famous article renounces war and is the most debated constitutional provision."},
 
-    {type:"mc", q:"What does Japan prefer before filing a 訴訟(そしょう) (lawsuit)?", opts:["Settlement, mediation, and reconciliation","Immediate court action","Public protests","International arbitration"], ans:"Settlement, mediation, and reconciliation",
+    {type:"mc", q:"What does Japan prefer before filing a 訴訟(そしょう) (lawsuit)?", opts:["Public protests","International arbitration","Settlement, mediation, and reconciliation","Immediate court action"], ans:"Settlement, mediation, and reconciliation",
      hint:"Japan is less litigious than many Western countries, preferring harmonious resolution."}
   ,{type:"fb", s:"契約(けいやく)書(しょ)に署名(しょめい)する前(まえ)に{1}に相談(そうだん)してください。",
     a:["弁護士(べんごし)"],

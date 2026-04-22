@@ -60,7 +60,7 @@ const LESSON_8 = {
      deepDive:{title:"Why the Dutch are happy",
       text:"Research points to several factors for Dutch happiness: strong social safety net, work-life balance (the Netherlands has the most part-time workers in Europe), cycling culture, gezelligheid (social coziness), and the 'doe maar gewoon' (just act normal) mentality that reduces social comparison.\n\nThe Dutch concept of 'nuchterheid' (soberness/level-headedness) means people have realistic expectations. Not expecting too much may paradoxically lead to more satisfaction."}},
     {type:"mc", q:"Wat betekent 'naar hartenlust'?",
-     opts:["met tegenzin","met hartpijn","zo veel als je wilt","met haast"],
+     opts:["zo veel als je wilt","met haast","met tegenzin","met hartpijn"],
      ans:"zo veel als je wilt",
      hint:"Harten (hearts) + lust (desire). Think of doing something freely."},
     {type:"fb", s:"Wat is je belangrijkste {1}?", a:["drijfveer"],
@@ -74,7 +74,7 @@ const LESSON_8 = {
       {trg:"diepgang", src:"depth/profundity"}
     ]},
     {type:"mc", q:"'Voor de helderheid: de vergadering is om drie uur.' Why is this phrase used?",
-     opts:["to make a complaint","to start a debate","to clarify something","to cancel a meeting"],
+     opts:["to start a debate","to clarify something","to cancel a meeting","to make a complaint"],
      ans:"to clarify something",
      hint:"'Helderheid' means clarity. This phrase prevents misunderstandings."},
     {type:"fb", s:"Het gesprek had veel {1}.", a:["diepgang"],

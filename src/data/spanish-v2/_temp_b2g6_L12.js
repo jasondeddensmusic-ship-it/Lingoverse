@@ -66,7 +66,7 @@ const LESSON_12 = {id:"esv2_b2g6_l12",title:"Economía y finanzas",icon:"📊",x
  exampleSrc:"A: He had the courtesy of inviting us to dinner.\nB: He is a very thoughtful person.",
  funFact:"'Tener la fineza de' is a formal way of saying 'to be kind enough to'."},
 
-{type:"mc",q:"¿Qué es la irrupción de una tecnología?",opts:["Su aparición repentina y fuerte en el mercado","Su desaparición gradual","Su mejora progresiva","Su regulación por el gobierno"],ans:"Su aparición repentina y fuerte en el mercado",hint:"A sudden, forceful appearance. Something bursting onto the scene."},
+{type:"mc",q:"¿Qué es la irrupción de una tecnología?",opts:["Su regulación por el gobierno","Su aparición repentina y fuerte en el mercado","Su desaparición gradual","Su mejora progresiva"],ans:"Su aparición repentina y fuerte en el mercado",hint:"A sudden, forceful appearance. Something bursting onto the scene."},
 
 {type:"match",pairs:[
   {trg:"finanzas",src:"finance"},

@@ -62,7 +62,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"How do Italians pronounce 'wifi'?",
-     opts:["WHY-fy","WEE-fee","WI-fi","WAY-fay"],
+     opts:["WEE-fee","WI-fi","WAY-fay","WHY-fy"],
      ans:"WEE-fee",
      hint:"Italian phonetics makes the 'i' sound like 'ee.' This pronunciation is standard across Italy."},
 
@@ -92,7 +92,7 @@ const LESSON_5 = {
      sSrc:"Digital {1} is fundamental for the elderly."},
 
     {type:"mc", q:"What is the 'Polizia Postale'?",
-     opts:["The Italian mail delivery service","The cybercrime division of Italian police","A private security company for websites","The agency that regulates postal rates"],
+     opts:["The agency that regulates postal rates","The Italian mail delivery service","The cybercrime division of Italian police","A private security company for websites"],
      ans:"The cybercrime division of Italian police",
      hint:"Despite the name suggesting mail ('postale'), this p... unit specializes in online fraud and c...."},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {
      sSrc:"I need to {1} from social media for a while. It is good to unplug."},
 
     {type:"mc", q:"What does 'disdire l'abbonamento' mean?",
-     opts:["To renew a subscription","To upgrade a subscription plan","To cancel a subscription","To share a subscription with someone"],
+     opts:["To share a subscription with someone","To renew a subscription","To upgrade a subscription plan","To cancel a subscription"],
      ans:"To cancel a subscription",
      hint:"'Disdire' means to c... or revoke. Combined with 'abbonamento,' it means ending your ongoing s...."}
   ]

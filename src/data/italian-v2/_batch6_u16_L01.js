@@ -1,4 +1,4 @@
-// Batch 6 — Unit 16 extra lesson. La salute avanzata: Mental Health & Wellbeing
+// Batch 6. Unit 16 extra lesson. La salute avanzata: Mental Health & Wellbeing
 const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1F9E0}", xp:15, board:true, steps:[
 {type:"intro", title:"Il benessere mentale",
  desc:"Learn vocabulary for discussing mental health, wellbeing, stress management, and self-care in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
 ]},
 
 {type:"mc", q:"Cosa significa 'Pazienza!' come esclamazione?",
- opts:["Oh well, never mind","I am angry","Be patient","I am tired"],
+ opts:["I am tired","Oh well, never mind","I am angry","Be patient"],
  ans:"Oh well, never mind",
  hint:"An expression of resigned acceptance, a philosophical Italian shrug."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u16l_b6_1", title:"Il benessere mentale", icon:"\u{1
  sSrc:"My friends always {1} me in difficult moments."},
 
 {type:"mc", q:"Cos'e l'esaurimento nervoso?",
- opts:["A nervous breakdown or burnout","A type of medication","A relaxation technique","A form of therapy"],
+ opts:["A relaxation technique","A form of therapy","A nervous breakdown or burnout","A type of medication"],
  ans:"A nervous breakdown or burnout",
  hint:"When someone is completely depleted, mentally and physically exhausted."},
 

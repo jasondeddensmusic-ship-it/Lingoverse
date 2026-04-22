@@ -76,7 +76,7 @@ const LESSON_13 = {
      sSrc:"The {1} is Brittany's specialty."},
 
     {type:"mc", q:"Que signifie 'priser' dans un contexte gastronomique?",
-     opts:["Apprecier hautement","Preparer un plat","Couper en morceaux","Melanger des ingredients"],
+     opts:["Melanger des ingredients","Apprecier hautement","Preparer un plat","Couper en morceaux"],
      ans:"Apprecier hautement",
      hint:"The verb describes connoisseurs who highly value fine food or wine"},
 
@@ -93,7 +93,7 @@ const LESSON_13 = {
      sSrc:"The year-end {1} bring the whole family together."},
 
     {type:"mc", q:"Que trouve-t-on encore dans les champs du nord-est de la France?",
-     opts:["Des obus de la Premiere Guerre mondiale","Des tresors romains","Des fossiles de dinosaures","Des meteorites"],
+     opts:["Des fossiles de dinosaures","Des meteorites","Des obus de la Premiere Guerre mondiale","Des tresors romains"],
      ans:"Des obus de la Premiere Guerre mondiale",
      hint:"Over a century after the war, unexploded ammunition remains in the soil"},
 
@@ -103,7 +103,7 @@ const LESSON_13 = {
      sSrc:"French {1} is traditionally light."},
 
     {type:"mc", q:"En argot, 'binocles' signifie:",
-     opts:["Des lunettes","Des jumelles","Des yeux","Des monocles"],
+     opts:["Des jumelles","Des yeux","Des monocles","Des lunettes"],
      ans:"Des lunettes",
      hint:"The slang term is used playfully by children for everyday eyeglasses"},
 

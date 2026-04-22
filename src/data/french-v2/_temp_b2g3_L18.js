@@ -86,7 +86,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quelle expression sert à reformuler ou préciser ce qu'on vient de dire ?",
-     opts:["c'est-à-dire que","de toute façon","eh bien oui","en plein"],
+     opts:["en plein","c'est-à-dire que","de toute façon","eh bien oui"],
      ans:"c'est-à-dire que",
      hint:"This connecting phrase literally means 'that is to say that'. It introduces a clarification or rephrasing."},
 

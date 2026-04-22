@@ -87,7 +87,7 @@ const LESSON_6 = {
      sSrc:"What is the {1} like today?"},
 
     {type:"mc", q:"What is the difference between 'fa freddo' and 'ho freddo'?",
-     opts:["Fa freddo = weather is cold, ho freddo = I feel cold","They are the same","Fa freddo is formal","Ho freddo is about weather"],
+     opts:["Ho freddo is about weather","Fa freddo = weather is cold, ho freddo = I feel cold","They are the same","Fa freddo is formal"],
      ans:"Fa freddo = weather is cold, ho freddo = I feel cold",
      hint:"Italian uses different verbs: 'fare' for w... conditions, 'avere' for personal sensations."},
 
@@ -106,7 +106,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"Where does the word 'ombrello' come from?",
-     opts:["Ombra (shade/shadow)","Omero (Homer)","Ombra (ghost)","A French word"],
+     opts:["Ombra (ghost)","A French word","Ombra (shade/shadow)","Omero (Homer)"],
      ans:"Ombra (shade/shadow)",
      hint:"Umbrellas were originally for sun protection. The diminutive -ello makes it 'little s....'"},
 
@@ -117,7 +117,7 @@ const LESSON_6 = {
      sSrc:"How many {1} is it today?"},
 
     {type:"mc", q:"What temperature scale does Italy use?",
-     opts:["Celsius","Fahrenheit","Both equally","It depends on the region"],
+     opts:["Fahrenheit","Both equally","It depends on the region","Celsius"],
      ans:"Celsius",
      hint:"All European countries use this scale. Water freezes at 0 and boils at 100 in this system."},
 

@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"2020年(ねん)から、日本(にほん)のお店(みせ)ではなにがかわりましたか？",
-     opts:["Plastic bags now cost money","All shops went cashless","Receipts became digital","Points cards were eliminated"],
+     opts:["Points cards were eliminated","Plastic bags now cost money","All shops went cashless","Receipts became digital"],
      ans:"Plastic bags now cost money",
      hint:"A new policy about レジ袋(ぶくろ) changed shopping habits. Customers n... often bring their own b...."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Do you have a points card?"},
 
     {type:"mc", q:"「二割引(にわりびき)」はどのくらい安(やす)くなりますか？",
-     opts:["20% off","2% off","200 yen off","Half price"],
+     opts:["200 yen off","Half price","20% off","2% off"],
      ans:"20% off",
      hint:"二(に) means 'two' and 割(わり) means '10%.' So two units of 10% equals a specific percentage."}
   ,{type:"match",pairs:[{trg:"お会計(かいけい)",src:"payment / checkout"},{trg:"レジ",src:"register / checkout counter"},{trg:"カード",src:"card (credit/debit)"},{trg:"袋(ふくろ)",src:"bag"}]}]

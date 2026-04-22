@@ -1,4 +1,4 @@
-// Batch 8 — Unit 10 extra lesson. Travel: Accommodation & Hotels
+// Batch 8. Unit 10 extra lesson. Travel: Accommodation & Hotels
 const BATCH8_L1 = {id:"itv2_u10l_b8_1", title:"L'alloggio", icon:"🏨", xp:15, board:true, steps:[
 {type:"intro", title:"L'alloggio",
  desc:"Learn vocabulary for booking accommodation, checking in, and staying at hotels in Italy.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u10l_b8_1", title:"L'alloggio", icon:"🏨", xp:15, 
 
 {type:"mc",
  q:"In Italy, what floor is 'primo piano'?",
- opts:["The floor above ground level (US second floor)","The ground floor","The basement","The top floor"],
+ opts:["The top floor","The floor above ground level (US second floor)","The ground floor","The basement"],
  ans:"The floor above ground level (US second floor)",
  hint:"Italy counts floors starting from 'piano terra' (f... zero). The first numbered f... is one l... up."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u10l_b8_1", title:"L'alloggio", icon:"🏨", xp:15, 
 
 {type:"mc",
  q:"What does 'tutto esaurito' mean at a hotel?",
- opts:["All sold out / fully booked","Breakfast included","Late checkout available","Free cancellation"],
+ opts:["Late checkout available","Free cancellation","All sold out / fully booked","Breakfast included"],
  ans:"All sold out / fully booked",
  hint:"'Esaurito' means exhausted or depleted. When everything is used up, there is nothing left to offer."}
 ,{type:"match",pairs:[{trg:"la reception",src:"the front desk / reception"},{trg:"la coperta",src:"the blanket"}]}]};

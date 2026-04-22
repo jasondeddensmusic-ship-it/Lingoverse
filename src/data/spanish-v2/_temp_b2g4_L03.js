@@ -78,13 +78,13 @@ const LESSON_3 = {id:"esv2_b2g4_l3",title:"Medio ambiente y naturaleza",icon:"�
  exampleSrc:"A: Cultural exchange is a mutual enrichment.\nB: You always learn something new from other cultures.",
  funFact:"'Enriquecimiento ilícito' (illicit enrichment) is a legal term for unexplained wealth by officials."},
 
-{type:"mc",q:"¿Qué significa 'de gran envergadura'?",opts:["De gran tamaño o importancia","De poco interés","De origen extranjero","De corta duración"],ans:"De gran tamaño o importancia",hint:"Think about the scale or magnitude of something very large."},
+{type:"mc",q:"¿Qué significa 'de gran envergadura'?",opts:["De corta duración","De gran tamaño o importancia","De poco interés","De origen extranjero"],ans:"De gran tamaño o importancia",hint:"Think about the scale or magnitude of something very large."},
 
 {type:"fb",s:"La {1} de agua es el mayor problema ambiental de la región.",a:["escasez"],opts:["escasez","esfera","corteza","envergadura"],hint:"The lack or insufficient supply of a vital resource.",sSrc:"Water {1} is the biggest environmental problem in the region."},
 
 {type:"match",pairs:[{trg:"corteza",src:"bark / crust"},{trg:"estanque",src:"pond"},{trg:"epicentro",src:"epicenter"},{trg:"escasez",src:"scarcity"},{trg:"dispersión",src:"dispersal"}]},
 
-{type:"mc",q:"El Retiro de Madrid es famoso por su:",opts:["Estanque con barcas","Epicentro sísmico","Factoría de chocolate","Esfera de cristal"],ans:"Estanque con barcas",hint:"A body of water where visitors can rent small boats in the park."},
+{type:"mc",q:"El Retiro de Madrid es famoso por su:",opts:["Factoría de chocolate","Esfera de cristal","Estanque con barcas","Epicentro sísmico"],ans:"Estanque con barcas",hint:"A body of water where visitors can rent small boats in the park."},
 
 {type:"fb",s:"Mi {1} diario al trabajo dura cuarenta y cinco minutos.",a:["desplazamiento"],opts:["desplazamiento","enriquecimiento","estiramiento","epicentro"],hint:"The journey or commute from one place to another.",sSrc:"My daily {1} to work takes forty-five minutes."}
 ]};

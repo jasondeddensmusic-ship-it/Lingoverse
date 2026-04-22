@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"情報(じょうほう)をうのみに{1}はいけません。\n(You must not swallow information uncritically.)", a:"して", opts:["して","する","され","した"], sSrc:"You must not swallow information uncritically.",
      hint:"The て-form of する, needed before はいけません (must not)."},
 
-    {type:"mc", q:"きゃっかんてき is the opposite of:", opts:["しゅかんてき (subjective)","ろんりてき (logical)","きほんてき (basic)","ぐたいてき (concrete)"], ans:"しゅかんてき (subjective)",
+    {type:"mc", q:"きゃっかんてき is the opposite of:", opts:["ぐたいてき (concrete)","しゅかんてき (subjective)","ろんりてき (logical)","きほんてき (basic)"], ans:"しゅかんてき (subjective)",
      hint:"Objective (based on external facts) vs. s... (based on personal feelings/views)."},
 
     {type:"match", pairs:[{trg:"信頼性(しんらいせい)",src:"reliability"},{trg:"事実(じじつ)",src:"fact"},{trg:"フェイクニュース",src:"fake news"},{trg:"客観的(きゃっかんてき)",src:"objective"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"複数(ふくすう)の{1}を確認(かくにん)しましょう。\n(Let us check multiple information sources.)", a:"情報源(じょうほうげん)", opts:["情報源(じょうほうげん)","情報(じょうほう)","記事(きじ)","主張(しゅちょう)"], sSrc:"Let us check multiple information sources.",
      hint:"The compound meaning 'information source,' combining じょうほう with the kanji for origin/spring."},
 
-    {type:"mc", q:"うのみにする literally comes from:", opts:["A cormorant swallowing fish whole","A person drinking water","A bird singing","A dog fetching"], ans:"A cormorant swallowing fish whole",
+    {type:"mc", q:"うのみにする literally comes from:", opts:["A bird singing","A dog fetching","A cormorant swallowing fish whole","A person drinking water"], ans:"A cormorant swallowing fish whole",
      hint:"The metaphor compares uncritical acceptance to how cormorants gulp f... without chewing."}
   ,{type:"match",pairs:[{trg:"うのみにする",src:"to swallow whole / to believe uncritically"},{trg:"区別(くべつ)",src:"distinction / differentiation / telling apart"},{trg:"論争(ろんそう)",src:"controversy / debate / dispute"},{trg:"対立(たいりつ)",src:"confrontation / opposition / conflict"}]}]
 };

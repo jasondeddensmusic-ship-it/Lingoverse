@@ -1,4 +1,4 @@
-// Lesson 6 — Tecnología e innovación
+// Lesson 6. Tecnología e innovación
 const LESSON_6 = {id:"esv2_b2gA_l6", title:"Tecnología e innovación", icon:"💻", xp:15, board:true, steps:[
 {type:"intro", title:"Tecnología e innovación", desc:"Navigate vocabulary about technology, digital tools, and modern innovation in Spanish.", goals:["Learn 15 technology and innovation terms","Discuss digital transformation","Use tech vocabulary in formal contexts"]},
 
@@ -57,7 +57,7 @@ const LESSON_6 = {id:"esv2_b2gA_l6", title:"Tecnología e innovación", icon:"�
  exampleSrc:"A: The project coordinator has called a meeting.\nB: I hope he updates us on the deadlines.",
  funFact:"In Spanish politics, 'coordinador general' is a common party leadership title."},
 
-{type:"mc", q:"¿Qué es un 'lineamiento'?", opts:["Una directriz o principio guía","Un tipo de línea telefónica","Un programa de diseño","Un cable de red"], ans:"Una directriz o principio guía",
+{type:"mc", q:"¿Qué es un 'lineamiento'?", opts:["Un cable de red","Una directriz o principio guía","Un tipo de línea telefónica","Un programa de diseño"], ans:"Una directriz o principio guía",
  hint:"Think about 'línea' (line) in the sense of a guiding direction."},
 
 {type:"fb", s:"La película es una {1} entre tres países europeos.", a:["coproducción"], opts:["coproducción","interconexión","coordinación","producción"],
@@ -94,7 +94,7 @@ const LESSON_6 = {id:"esv2_b2gA_l6", title:"Tecnología e innovación", icon:"�
  hint:"This person is responsible for organizing joint activities and meetings.",
  sSrc:"The team {1} organizes all the weekly meetings."},
 
-{type:"mc", q:"¿Qué es una 'fotonovela'?", opts:["Una historia contada con fotografías y bocadillos de diálogo","Una novela sobre fotografía","Un álbum de fotos familiar","Una revista de moda"], ans:"Una historia contada con fotografías y bocadillos de diálogo",
+{type:"mc", q:"¿Qué es una 'fotonovela'?", opts:["Un álbum de fotos familiar","Una revista de moda","Una historia contada con fotografías y bocadillos de diálogo","Una novela sobre fotografía"], ans:"Una historia contada con fotografías y bocadillos de diálogo",
  hint:"Combine 'foto' (photo) with 'novela' (novel) for this storytelling format."},
 
 {type:"drag_fill", s:"El {1} incluía los {2} para el desarrollo del proyecto.", blanks:{"1":"manual","2":"lineamientos"}, pool:["manual","lineamientos","monólogo","logo"],

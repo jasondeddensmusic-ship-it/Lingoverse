@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 9: Education System
+// Korean B2. Batch 3, Lesson 9: Education System
 // Words: 교시, 교양, 교외, 교육비, 교육자, 교장, 교재, 교직, 교체, 교통사고, 교포, 교환, 교환하다, 교훈, 구, 구경하다, 구르다, 구별, 구별되다, 구별하다
 
 const LESSON_9 = {
@@ -107,7 +107,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'교포'가 가리키는 사람은?",
-     opts:["해외에 사는 한국인","한국을 방문하는 외국인","한국에서 태어난 외국인","한국에서 일하는 교사"],
+     opts:["한국에서 일하는 교사","해외에 사는 한국인","한국을 방문하는 외국인","한국에서 태어난 외국인"],
      ans:"해외에 사는 한국인",
      hint:"This word describes a Korean person who has settled and lives permanently in another country."},
 

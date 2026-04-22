@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 12 — Technology & Innovation
+// B2 Gap Batch B Lesson 12. Technology & Innovation
 const LESSON_12 = {id:"esv2_b2gB_l12",title:"Tecnología e innovación",icon:"💻",xp:15,board:true,steps:[
 {type:"intro",title:"Tecnología e innovación",desc:"Learn vocabulary about technology, digital innovation, and modern tools in Spanish.",goals:["Learn 12 words about technology and innovation","Discuss digital tools and processes","Use technical vocabulary in professional contexts"]},
 
@@ -73,7 +73,7 @@ const LESSON_12 = {id:"esv2_b2gB_l12",title:"Tecnología e innovación",icon:"�
  funFact:"'Cabeza' appears in dozens of idioms: 'perder la cabeza' (lose one's mind), 'cabeza de turco' (scapegoat)."},
 
 {type:"mc",q:"¿Qué cambia con el género de 'margen'?",
- opts:["El significado: el margen (margen/espacio), la margen (orilla del río)","La pronunciación","El número de sílabas","Nada, es siempre masculino"],
+ opts:["Nada, es siempre masculino","El significado: el margen (margen/espacio), la margen (orilla del río)","La pronunciación","El número de sílabas"],
  ans:"El significado: el margen (margen/espacio), la margen (orilla del río)",
  hint:"This is one of the rare words where masculine and feminine forms have different meanings."},
 

@@ -1,4 +1,4 @@
-// Unit 26 — Maatschappij & Cultuur
+// Unit 26. Maatschappij & Cultuur
 // Advanced Conjunctions & Essay Structure
 
 export default {n:26,lang:"nl",srcLang:"en",track:"v2",title:"Maatschappij & Cultuur",sub:"Advanced Conjunctions & Essay Structure",icon:"🏛️",level:"B2.2",color:"#7B5EE8",lessons:[
@@ -211,7 +211,7 @@ export default {n:26,lang:"nl",srcLang:"en",track:"v2",title:"Maatschappij & Cul
     {type:"fb",opts:["bekritiseren","verdedigen","immigreren","discrimineren"],hint:"Journalists question and challenge government decisions in a democracy.",s:"Journalisten mogen het beleid van de overheid {1}.",a:"bekritiseren"},
     {type:"fb",opts:["discriminatie","ongelijkheid","immigratie","globalisering"],hint:"Refusing someone a job because of their religion is this.",s:"Weigering op basis van religie is een vorm van {1}.",a:"discriminatie"},
     {type:"fb",opts:["immigratie","emigratie","globalisering","discriminatie"],hint:"Im- means INTO. People moving INTO the Netherlands.",s:"De {1} naar Nederland is de afgelopen jaren toegenomen.",a:"immigratie"},
-    {type:"fb",opts:["biodiversiteit","samenleving","ongelijkheid","globalisering"],hint:"The variety of life forms — plants, animals, fungi — in an ecosystem.",s:"De {1} in de Noordzee is de laatste jaren afgenomen.",a:"biodiversiteit"},
+    {type:"fb",opts:["biodiversiteit","samenleving","ongelijkheid","globalisering"],hint:"The variety of life forms, plants, animals, fungi, in an ecosystem.",s:"De {1} in de Noordzee is de laatste jaren afgenomen.",a:"biodiversiteit"},
     {type:"fb",opts:["globalisering","biodiversiteit","samenleving","ongelijkheid"],hint:"The connection of world economies and cultures into one global system.",s:"Door de {1} zijn landen economisch steeds afhankelijker van elkaar.",a:"globalisering"}
   ]}
 ]};

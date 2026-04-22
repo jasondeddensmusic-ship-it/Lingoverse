@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"省(しょう)エネ",src:"energy conservation"},{trg:"排出(はいしゅつ)",src:"emission"},{trg:"保全(ほぜん)",src:"conservation"}],
      hint:"Match each environmental term with its English meaning."},
 
-    {type:"mc", q:"Why is 省(しょう)エネ culture so strong in Japan?", opts:["Japan imports over 90% of its energy resources","Japan has too much energy","It is only a trend since 2020","Japan produces all its own energy"], ans:"Japan imports over 90% of its energy resources",
+    {type:"mc", q:"Why is 省(しょう)エネ culture so strong in Japan?", opts:["Japan produces all its own energy","Japan imports over 90% of its energy resources","Japan has too much energy","It is only a trend since 2020"], ans:"Japan imports over 90% of its energy resources",
      hint:"Resource scarcity drives innovation in efficiency and conservation."},
 
     {type:"fb", s:"{1}な社会(しゃかい)を目指(めざ)しましょう。\n(Let us aim for a sustainable society.)", a:"持続可能(じぞくかのう)", opts:["持続可能(じぞくかのう)","再生可能(さいせいかのう)","省(しょう)エネ","環境(かんきょう)"], sSrc:"Let us aim for a sustainable society.",
      hint:"This term from the UN SDGs describes something that can be maintained long-term."},
 
-    {type:"mc", q:"What is Japan's carbon neutrality target year?", opts:["2050","2030","2040","2060"], ans:"2050",
+    {type:"mc", q:"What is Japan's carbon neutrality target year?", opts:["2040","2060","2050","2030"], ans:"2050",
      hint:"Japan pledged to achieve net-zero greenhouse gas emissions by this year."}
   ,{type:"match",pairs:[{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"原子力(げんしりょく)",src:"nuclear power / atomic energy"},{trg:"温室効果(おんしつこうか)ガス",src:"greenhouse gas"},{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"資源(しげん)",src:"resources / natural resources"},{trg:"開発(かいはつ)",src:"development"}]},{type:"match",pairs:[{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]}]
 };

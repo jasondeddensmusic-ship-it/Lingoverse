@@ -68,10 +68,10 @@ const LESSON_13 = {id:"esv2_b2gD_l13",title:"Conectores y discurso",icon:"\uD83D
  {trg:"perfeccionamiento",src:"refinement"}
 ]},
 
-{type:"mc",q:"'A partir de' marca...",opts:["Un punto de inicio en el tiempo","El final de un proceso","Una comparación entre dos ideas","Una causa y su efecto"],ans:"Un punto de inicio en el tiempo",hint:"This phrase indicates when something begins. Think of a timeline with a clear starting point."},
+{type:"mc",q:"'A partir de' marca...",opts:["Una causa y su efecto","Un punto de inicio en el tiempo","El final de un proceso","Una comparación entre dos ideas"],ans:"Un punto de inicio en el tiempo",hint:"This phrase indicates when something begins. Think of a timeline with a clear starting point."},
 
 {type:"fb",s:"La {1} del curso está prevista para el 30 de junio.",a:["finalización"],opts:["finalización","complementación","mejoramiento","perfeccionamiento"],hint:"The formal noun for the act of finishing or concluding a process.",sSrc:"The {1} of the course is scheduled for June 30th."},
 
-{type:"mc",q:"'Hacer partícipe a alguien' significa...",opts:["Incluirlo en algo importante","Excluirlo de una decisión","Criticar su comportamiento","Darle un regalo"],ans:"Incluirlo en algo importante",hint:"To make someone a part of something, to share information or include them in a process."}
+{type:"mc",q:"'Hacer partícipe a alguien' significa...",opts:["Criticar su comportamiento","Darle un regalo","Incluirlo en algo importante","Excluirlo de una decisión"],ans:"Incluirlo en algo importante",hint:"To make someone a part of something, to share information or include them in a process."}
 ]};
 export default LESSON_13;

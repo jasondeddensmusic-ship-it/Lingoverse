@@ -194,16 +194,16 @@ const UNIT_17 = {
 // ═══ L3: 連体修飾 (Relative Clauses) ═══
 {id:"jav2_u17l_rentai", title:"連体修飾(れんたいしゅうしょく)", icon:"🔗", xp:15, board:true, steps:[
   {type:"intro", title:"連体修飾(れんたいしゅうしょく)",
-   desc:"In Japanese, whole clauses can directly modify nouns — placed before the noun, in plain form, with no relative pronoun needed. This is called rentai shuushoku (pre-nominal modification). Instead of 'the book that I read,' Japanese says 'I-read book': 私(わたし)が読(よ)んだ本(ほん)。 This single structure covers 'who,' 'which,' 'that,' and 'where' clauses in English.",
+   desc:"In Japanese, whole clauses can directly modify nouns, placed before the noun, in plain form, with no relative pronoun needed. This is called rentai shuushoku (pre-nominal modification). Instead of 'the book that I read,' Japanese says 'I-read book': 私(わたし)が読(よ)んだ本(ほん)。 This single structure covers 'who,' 'which,' 'that,' and 'where' clauses in English.",
    goals:["Form relative clauses with godan, ichidan, and irregular verbs in plain past form","Modify nouns with い-adjectives and な-adjectives directly","Understand the particle-drop rule inside relative clauses"]},
 
   {type:"tip", title:"How Relative Clauses Work in Japanese",
-   text:"English: 'the book [that I read]' — relative pronoun 'that' links clause to noun.\nJapanese: [私(わたし)が読(よ)んだ] 本(ほん) — clause comes first, noun comes last. No connector word.\n\nStructure: [CLAUSE in plain form] + NOUN\n\nExamples:\n• 私(わたし)が読(よ)んだ本(ほん) = the book I read\n• 先生(せんせい)に褒(ほ)められた学生(がくせい) = the student who was praised by the teacher\n• 静(しず)かな場所(ばしょ) = a quiet place\n• 大(おお)きい公園(こうえん) = a big park\n\nKey rule: the verb or adjective inside the clause is always in plain form, never polite (ます/です).",
+   text:"English: 'the book [that I read]', relative pronoun 'that' links clause to noun.\nJapanese: [私(わたし)が読(よ)んだ] 本(ほん), clause comes first, noun comes last. No connector word.\n\nStructure: [CLAUSE in plain form] + NOUN\n\nExamples:\n• 私(わたし)が読(よ)んだ本(ほん) = the book I read\n• 先生(せんせい)に褒(ほ)められた学生(がくせい) = the student who was praised by the teacher\n• 静(しず)かな場所(ばしょ) = a quiet place\n• 大(おお)きい公園(こうえん) = a big park\n\nKey rule: the verb or adjective inside the clause is always in plain form, never polite (ます/です).",
    deepDive:{title:"The Particle-Drop Rule",
     text:"Inside a relative clause, the subject is often marked with が, but it can also be marked with の instead:\n私(わたし)が読(よ)んだ本(ほん) = 私(わたし)の読(よ)んだ本(ほん) (both correct)\n\nThe topic particle は cannot appear inside a relative clause. If the original sentence has は, it disappears or shifts to が:\nOriginal: 私(わたし)は本(ほん)を読(よ)んだ。\nRelative: 私(わたし)が読(よ)んだ本(ほん) (は → が)\n\nThis は-to-が shift is one of the most important and most tested features of relative clauses at JLPT N4/N3."}},
 
   {type:"teach", trg:"私(わたし)が読(よ)んだ本(ほん)", src:"the book I read (godan verb)", pos:"noun", gender:null,
-   note:"読(よ)む is a godan verb. Plain past: 読(よ)んだ.\n読(よ)んだ modifies 本(ほん) — no connector word needed.",
+   note:"読(よ)む is a godan verb. Plain past: 読(よ)んだ.\n読(よ)んだ modifies 本(ほん), no connector word needed.",
    example:"A: あの本(ほん)はどうでしたか？\nB: 昨日(きのう)読(よ)んだ本(ほん)はとてもおもしろかったです。\nA: どんな内容(ないよう)ですか？\nB: 日本(にほん)の歴史(れきし)についての本(ほん)です。",
    exampleSrc:"A: How was that book?\nB: The book I read yesterday was very interesting.\nA: What is it about?\nB: It is a book about the history of Japan.",
    funFact:"読む (to read) is one of the most frequently relativized verbs in JLPT N4 reading tasks. The pattern 読んだ本 appears in almost every N4 grammar exam. Godan past-plain formation: む → んだ (the same ん contraction used in て-form)."},
@@ -212,7 +212,7 @@ const UNIT_17 = {
    note:"作(つく)る is a godan verb. Plain past: 作(つく)った.\n作(つく)った modifies 料理(りょうり).",
    example:"A: この料理(りょうり)、おいしいですね。\nB: ありがとうございます。母(はは)が作(つく)った料理(りょうり)です。\nA: いつもおいしいですね。\nB: はい、母(はは)の料理(りょうり)が大好(だいす)きです。",
    exampleSrc:"A: This dish is delicious!\nB: Thank you. It is a dish my mother made.\nA: It is always delicious.\nB: Yes, I love my mother's cooking.",
-   funFact:"作る (to make/cook) uses the godan past rule: る → った (not to be confused with ichidan verbs which also end in る but follow a different rule). The distinction — godan vs ichidan — is the core challenge of plain-form relative clauses."},
+   funFact:"作る (to make/cook) uses the godan past rule: る → った (not to be confused with ichidan verbs which also end in る but follow a different rule). The distinction, godan vs ichidan, is the core challenge of plain-form relative clauses."},
 
   {type:"teach", trg:"昨日(きのう)食(た)べた寿司(すし)", src:"the sushi I ate yesterday (ichidan verb)", pos:"noun", gender:null,
    note:"食(た)べる is an ichidan verb. Plain past: 食(た)べた.\nStem 食(た)べ + た → 食(た)べた.",
@@ -230,7 +230,7 @@ const UNIT_17 = {
    note:"い-adjectives modify nouns directly: 大(おお)きい + 公園(こうえん).\nNo change to the adjective form. Same as English word order.",
    example:"A: 近(ちか)くに大(おお)きい公園(こうえん)がありますか？\nB: はい、駅(えき)の前(まえ)に大(おお)きい公園(こうえん)があります。\nA: よく行(い)きますか？\nB: 週末(しゅうまつ)によく行(い)きます。",
    exampleSrc:"A: Is there a big park nearby?\nB: Yes, there is a big park in front of the station.\nA: Do you often go?\nB: I often go on weekends.",
-   funFact:"い-adjective modification is the simplest case of rentai shuushoku. The adjective sits directly before the noun with no change: 大きい公園, 小さい店, おいしい料理. This structure exists in English too ('big park'), but in Japanese it generalizes to full clauses — the same pattern that handles entire verb phrases."},
+   funFact:"い-adjective modification is the simplest case of rentai shuushoku. The adjective sits directly before the noun with no change: 大きい公園, 小さい店, おいしい料理. This structure exists in English too ('big park'), but in Japanese it generalizes to full clauses, the same pattern that handles entire verb phrases."},
 
   {type:"teach", trg:"静(しず)かな場所(ばしょ)", src:"a quiet place (な-adjective + な)", pos:"noun", gender:null,
    note:"な-adjectives add な before a noun: 静(しず)か → 静(しず)かな.\nWithout な, 静(しず)か cannot directly precede a noun.",
@@ -239,17 +239,17 @@ const UNIT_17 = {
    funFact:"な-adjectives (called 形容動詞 keiyou doushi in Japanese grammar) take な when modifying nouns and に when modifying verbs. 静か is the prototype na-adjective for JLPT N4 examples. The pair 静かな / 静かに (quiet / quietly) captures the two key uses perfectly."},
 
   {type:"tip", title:"Common Learner Pitfalls",
-   text:"Pitfall 1: Using ます/です form inside relative clauses.\nWRONG: 読みます本 — verbs in relative clauses must be plain form.\nCORRECT: 読んだ本\n\nPitfall 2: Forgetting な for な-adjectives before nouns.\nWRONG: 静か場所 — the な connector is mandatory.\nCORRECT: 静かな場所\n\nPitfall 3: Leaving は inside the relative clause.\nWRONG: 私は読んだ本 — は cannot be the subject of a relative clause.\nCORRECT: 私が読んだ本\n\nPitfall 4: Placing the noun before the clause (English word order).\nWRONG: 本・私が読んだ\nCORRECT: 私が読んだ本 (clause + noun, always)",
+   text:"Pitfall 1: Using ます/です form inside relative clauses.\nWRONG: 読みます本, verbs in relative clauses must be plain form.\nCORRECT: 読んだ本\n\nPitfall 2: Forgetting な for な-adjectives before nouns.\nWRONG: 静か場所, the な connector is mandatory.\nCORRECT: 静かな場所\n\nPitfall 3: Leaving は inside the relative clause.\nWRONG: 私は読んだ本, は cannot be the subject of a relative clause.\nCORRECT: 私が読んだ本\n\nPitfall 4: Placing the noun before the clause (English word order).\nWRONG: 本・私が読んだ\nCORRECT: 私が読んだ本 (clause + noun, always)",
    deepDive:{title:"Non-Past Relative Clauses",
     text:"Relative clauses also use the non-past plain form for present or future reference:\n\n今(いま)読(よ)んでいる本(ほん) = the book I am reading now (progressive)\n明日(あした)食(た)べる寿司(すし) = the sushi I will eat tomorrow (future)\n先生(せんせい)がする説明(せつめい) = the explanation the teacher will give\n\nThe て-form + いる construction inside a relative clause gives a progressive meaning. This is how Japanese handles 'the book I am reading' without a separate relative pronoun."}},
 
-  {type:"mc", q:"Which sentence correctly modifies 本(ほん) with a relative clause?", opts:["私(わたし)は読みます本(ほん)","私(わたし)が読(よ)んだ本(ほん)","読(よ)んだ私(わたし)の本(ほん)","本(ほん)私(わたし)が読(よ)んだ"],
+  {type:"mc", q:"Which sentence correctly modifies 本(ほん) with a relative clause?", opts:["私(わたし)が読(よ)んだ本(ほん)","読(よ)んだ私(わたし)の本(ほん)","本(ほん)私(わたし)が読(よ)んだ","私(わたし)は読みます本(ほん)"],
    ans:"私(わたし)が読(よ)んだ本(ほん)",
    hint:"The clause uses plain past form and comes before the noun. は cannot be the subject inside a relative clause."},
 
-  {type:"mc", q:"母(はは)が作(つく)った料理(りょうり) is best translated as:", opts:["the mother who made food","food that made my mother","the dish my mother made","my mother makes food"],
+  {type:"mc", q:"母(はは)が作(つく)った料理(りょうり) is best translated as:", opts:["food that made my mother","the dish my mother made","my mother makes food","the mother who made food"],
    ans:"the dish my mother made",
-   hint:"作った modifies 料理 — the clause describes which one. The agent (母) appears inside the clause with が."},
+   hint:"作った modifies 料理, the clause describes which one. The agent (母) appears inside the clause with が."},
 
   {type:"fb", s:"昨日(きのう)食(た)べた{1}はとてもおいしかったです。\n(The sushi I ate yesterday was very delicious.)",
    a:"寿司(すし)", opts:["寿司(すし)","駅(えき)","公園(こうえん)","料理(りょうり)"],
@@ -261,7 +261,7 @@ const UNIT_17 = {
    hint:"な-adjectives need this connector when placed directly before a noun. Without it the sentence is ungrammatical.",
    sSrc:"I am looking for a quiet {1} place to study."},
 
-  {type:"mc", q:"Which particle CANNOT appear as the subject marker inside a relative clause?", opts:["が","の","を","は"],
+  {type:"mc", q:"Which particle CANNOT appear as the subject marker inside a relative clause?", opts:["の","を","は","が"],
    ans:"は",
    hint:"The topic particle は cannot appear inside a relative clause. The subject shifts to が (or の) inside the clause."},
 
@@ -279,7 +279,7 @@ const UNIT_17 = {
     {trg:"先生(せんせい)がした説明(せつめい)", src:"the explanation the teacher gave"}
   ]},
 
-  {type:"mc", q:"昨日(きのう)食(た)べた寿司(すし) — which verb type is 食(た)べる?", opts:["godan (う-verb)","ichidan (る-verb)","irregular","auxiliary"],
+  {type:"mc", q:"昨日(きのう)食(た)べた寿司(すし), which verb type is 食(た)べる?", opts:["irregular","auxiliary","godan (う-verb)","ichidan (る-verb)"],
    ans:"ichidan (る-verb)",
    hint:"These verbs end in る and their stem takes た directly: 食べ + た → 食べた. The other class needs a different ending."},
 
@@ -313,7 +313,7 @@ const UNIT_17 = {
    note:"A general term for any employee of a company.\nKanji: 社 (company/shrine) + 員 (member).",
    example:"A: あの人(ひと)は誰(だれ)ですか？\nB: 新(あたら)しい社員(しゃいん)の田中(たなか)さんです。\nA: 何人(なんにん)の社員(しゃいん)がいますか？\nB: 約(やく)五十人(ごじゅうにん)います。",
    exampleSrc:"A: Who is that person?\nB: That is Tanaka, a new employee.\nA: How many employees are there?\nB: There are about fifty.",
-   funFact:"社員 specifically means a full-time regular employee. Japan's labor system distinguishes sharply between 正社員(せいしゃいん) (permanent staff) and 非正規(ひせいき) (non-regular/contract workers). 社員 implies loyalty and long-term commitment — a significant social status in Japanese corporate culture."},
+   funFact:"社員 specifically means a full-time regular employee. Japan's labor system distinguishes sharply between 正社員(せいしゃいん) (permanent staff) and 非正規(ひせいき) (non-regular/contract workers). 社員 implies loyalty and long-term commitment, a significant social status in Japanese corporate culture."},
 
   {type:"teach", trg:"社長(しゃちょう)", src:"company president / CEO", pos:"noun", gender:null,
    note:"The head of a company. Literally: company (社) + chief (長).\nSpeaking to or about the 社長(しゃちょう) requires polite language.",
@@ -321,14 +321,14 @@ const UNIT_17 = {
    exampleSrc:"A: Is the president here today?\nB: Yes, the president is here.\nA: Are the employees here today too?\nB: Yes, all the employees are here.",
    funFact:"社長 combines 社 (company) and 長 (head/chief). The same 長 appears in 部長(ぶちょう) (department head) and 課長(かちょう) (section manager). Japanese companies have a clear hierarchy: 社長 at the top, then 副社長(ふくしゃちょう) (VP), then 部長, 課長, 係長(かかりちょう), and 一般社員(いっぱんしゃいん) (general staff)."},
 
-  {type:"mc", q:"Which word means 'meeting' in a work context?", opts:["社員(しゃいん)","会議(かいぎ)","社長(しゃちょう)","残業(ざんぎょう)"], ans:"会議(かいぎ)",
+  {type:"mc", q:"Which word means 'meeting' in a work context?", opts:["会議(かいぎ)","社長(しゃちょう)","残業(ざんぎょう)","社員(しゃいん)"], ans:"会議(かいぎ)",
    hint:"Two kanji: 会 (meet) + 議 (discuss). Used for any scheduled professional gathering."},
 
   {type:"teach", trg:"残業(ざんぎょう)", src:"overtime work / working late", pos:"noun", gender:null,
    note:"Working beyond scheduled hours. Very common in Japanese workplaces.\nKanji: 残 (remain) + 業 (work/business).",
    example:"A: 昨日(きのう)も残業(ざんぎょう)しましたか？\nB: はい、また残業(ざんぎょう)でした。\nA: 大変(たいへん)ですね。\nB: でも、仕事(しごと)が終(お)わりました。",
    exampleSrc:"A: Did you work overtime again yesterday?\nB: Yes, it was overtime again.\nA: That is tough.\nB: But the work is finished.",
-   funFact:"Zangyo is a defining feature of Japanese work culture. Japan even has a word for dying from overwork: 過労死(かろうし). In recent years the government has pushed for 働(はたら)き方(かた)改革(かいかく) (work-style reform) to reduce zangyo. The phrase サービス残業(ざんぎょう) means 'unpaid overtime' — literally 'service overtime,' referring to free labor expected from loyal employees."},
+   funFact:"Zangyo is a defining feature of Japanese work culture. Japan even has a word for dying from overwork: 過労死(かろうし). In recent years the government has pushed for 働(はたら)き方(かた)改革(かいかく) (work-style reform) to reduce zangyo. The phrase サービス残業(ざんぎょう) means 'unpaid overtime', literally 'service overtime,' referring to free labor expected from loyal employees."},
 
   {type:"teach", trg:"出張(しゅっちょう)", src:"business trip", pos:"noun", gender:null,
    note:"A work-related trip away from the main office.\nKanji: 出 (go out) + 張 (stretch/post).",
@@ -346,10 +346,10 @@ const UNIT_17 = {
    note:"Group 2 verb: stem 続(つづ)け + る. Often combines with te-form: 〜し続(つづ)ける (keep doing).\nKanji: 続 (continue/connect).",
    example:"A: このプロジェクトを続(つづ)けますか？\nB: はい、来月(らいげつ)まで続(つづ)けるつもりです。\nA: 一人(ひとり)でできますか？\nB: はい、頑張(がんば)って続(つづ)けます。",
    exampleSrc:"A: Will you continue this project?\nB: Yes, I intend to keep going until next month.\nA: Can you do it alone?\nB: Yes, I will keep working hard at it.",
-   funFact:"続ける follows the pattern VERB-stem + 続ける. So 働(はたら)き続(つづ)ける means 'to keep working' and 話(はな)し続(つづ)ける means 'to keep talking.' The kanji 続 appears in 続(つづ)き (continuation), 連続(れんぞく) (consecutive), and 手続(てつづ)き (procedure) — a key workplace word."},
+   funFact:"続ける follows the pattern VERB-stem + 続ける. So 働(はたら)き続(つづ)ける means 'to keep working' and 話(はな)し続(つづ)ける means 'to keep talking.' The kanji 続 appears in 続(つづ)き (continuation), 連続(れんぞく) (consecutive), and 手続(てつづ)き (procedure), a key workplace word."},
 
   {type:"tip", title:"Workplace Roles and Hierarchy",
-   text:"Japanese companies have clear title layers:\n社長(しゃちょう) — company president / CEO\n副社長(ふくしゃちょう) — vice president\n部長(ぶちょう) — department head\n課長(かちょう) — section chief\n社員(しゃいん) — employee / staff member\n\nWhen addressing these people, use their title instead of their name:\n田中社長(しゃちょう) = President Tanaka\n鈴木部長(ぶちょう) = Department Head Suzuki\n\nUsing bare names with superiors sounds rude. Titles function as honorifics.",
+   text:"Japanese companies have clear title layers:\n社長(しゃちょう), company president / CEO\n副社長(ふくしゃちょう), vice president\n部長(ぶちょう), department head\n課長(かちょう), section chief\n社員(しゃいん), employee / staff member\n\nWhen addressing these people, use their title instead of their name:\n田中社長(しゃちょう) = President Tanaka\n鈴木部長(ぶちょう) = Department Head Suzuki\n\nUsing bare names with superiors sounds rude. Titles function as honorifics.",
    deepDive:{title:"残業(ざんぎょう) Culture and Reform",
     text:"Japan's zangyo culture is one of the most discussed workplace topics worldwide. The 2019 Work Style Reform Act (働(はたら)き方(かた)改革(かいかく)関連法(かんれんほう)) set overtime caps for the first time. Before this law, there were no legal limits on monthly overtime hours in many industries.\n\nCompanies now face fines for exceeding limits. Young Japanese workers increasingly value work-life balance and use the term ワークライフバランス. Remote work (テレワーク) became mainstream after 2020, challenging traditional office attendance culture.\n\nThe phrase 定時(ていじ)退社(たいしゃ) (leaving at scheduled time) was once mocked; today it is celebrated as healthy and efficient."}},
 
@@ -357,7 +357,7 @@ const UNIT_17 = {
    note:"Used in formal and educational contexts. More formal than 疑問(ぎもん).\nKanji: 質 (quality/substance) + 問 (question).\n質問(しつもん)する = to ask a question.",
    example:"A: 何(なに)か質問(しつもん)がありますか？\nB: はい、一(ひと)つ質問(しつもん)があります。\nA: どうぞ。\nB: この仕事(しごと)はいつ始(はじ)まりますか？",
    exampleSrc:"A: Do you have any questions?\nB: Yes, I have one question.\nA: Go ahead.\nB: When does this job start?",
-   funFact:"質問 is used in classrooms, meetings, and formal situations. The polite phrase 質問(しつもん)があるのですが... (I have a question, but...) is the standard way to raise one in a meeting. The kanji 質 also appears in 品質(ひんしつ) (product quality) and 質(しつ)の高(たか)い (high quality) — both common in Japanese business writing."},
+   funFact:"質問 is used in classrooms, meetings, and formal situations. The polite phrase 質問(しつもん)があるのですが... (I have a question, but...) is the standard way to raise one in a meeting. The kanji 質 also appears in 品質(ひんしつ) (product quality) and 質(しつ)の高(たか)い (high quality), both common in Japanese business writing."},
 
   {type:"teach", trg:"返事(へんじ)", src:"reply / response / answer", pos:"noun", gender:null,
    note:"A response to a message or spoken question. More everyday than 回答(かいとう).\nKanji: 返 (return) + 事 (thing/matter).\n返事(へんじ)する = to reply.",
@@ -368,7 +368,7 @@ const UNIT_17 = {
   {type:"fb", s:"明日(あした)の会議(かいぎ)の時間(じかん)を{1}ましたか？\n(Did you decide on tomorrow's meeting time?)", a:"決(き)め", opts:["決(き)め","続(つづ)け","始(はじ)め","集(あつ)め"], sSrc:"Did you decide on the meeting time for tomorrow?",
    hint:"Which verb means to make a decision or to set a time? Group 2 ichidan verb."},
 
-  {type:"mc", q:"社員(しゃいん) means:", opts:["company president","business trip","employee / staff member","meeting"], ans:"employee / staff member",
+  {type:"mc", q:"社員(しゃいん) means:", opts:["business trip","employee / staff member","meeting","company president"], ans:"employee / staff member",
    hint:"社 = corporation; 員 denotes any regular-rank worker on the payroll. Put them together literally."},
 
   {type:"fb", s:"仕事(しごと)を{1}けるために、毎日(まいにち)頑張(がんば)っています。\n(I work hard every day in order to keep doing my job.)", a:"続(つづ)", opts:["続(つづ)","決(き)","始(はじ)","終(お)わ"], sSrc:"I work hard every day in order to keep {1} my job.",
@@ -381,7 +381,7 @@ const UNIT_17 = {
   {type:"fb", s:"何(なに)か{1}がありますか？\n(Do you have any questions?)", a:"質問(しつもん)", opts:["質問(しつもん)","返事(へんじ)","会議(かいぎ)","出張(しゅっちょう)"], sSrc:"Do you have any {1}?",
    hint:"This noun means a question or inquiry. Used to invite input in meetings or classrooms."},
 
-  {type:"mc", q:"出張(しゅっちょう) means:", opts:["overtime work","business trip","company meeting","job interview"], ans:"business trip",
+  {type:"mc", q:"出張(しゅっちょう) means:", opts:["job interview","overtime work","business trip","company meeting"], ans:"business trip",
    hint:"出 (go out) + 張 (post/extend). This is a work … away from the main office."},
 
   {type:"fb", s:"社長(しゃちょう)はただいま会議(かいぎ){1}です。\n(The president is currently in a meeting.)", a:"中(ちゅう)", opts:["中(ちゅう)","後(ご)","前(まえ)","外(そと)"], sSrc:"The president is currently in the middle of a meeting.",

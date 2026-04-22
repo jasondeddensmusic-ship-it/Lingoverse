@@ -38,7 +38,7 @@ const LESSON_22 = {
 
     {type:"mc",
      q:"'___ 사랑은 없다'에서 '영원히 계속되는'의 의미를 가진 단어는?",
-     opts:["첫","온","영원한","이러한"],
+     opts:["영원한","이러한","첫","온"],
      ans:"영원한",
      hint:"This adjective means lasting forever, without end."},
 
@@ -131,7 +131,7 @@ const LESSON_22 = {
 
     {type:"mc",
      q:"에세이에서 다른 관점을 소개할 때 쓰는 연결어는?",
-     opts:["한편","자꾸","잔뜩","흔히"],
+     opts:["흔히","한편","자꾸","잔뜩"],
      ans:"한편",
      hint:"This discourse connector means 'on the other hand' or 'meanwhile.'"}
   ]

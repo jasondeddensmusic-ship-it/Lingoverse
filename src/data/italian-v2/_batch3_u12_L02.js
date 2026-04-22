@@ -1,4 +1,4 @@
-// Batch 3 — Unit 12, Lesson 2: Piu verbi con essere (More Essere Verbs)
+// Batch 3. Unit 12, Lesson 2: Piu verbi con essere (More Essere Verbs)
 const BATCH3_U12_L2 = {
   id:"itv2_u12l_b3_2", title:"Piu verbi con essere", icon:"\uD83C\uDFE0", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U12_L2 = {
 
     // Quiz steps
     {type:"mc", q:"Why does 'diventare' use essere?",
-     opts:["It describes a movement from place to place","It is always used in passive voice only","It describes a change of state, not an action","It is an arbitrary exception with no logic"],
+     opts:["It describes a change of state, not an action","It is an arbitrary exception with no logic","It describes a movement from place to place","It is always used in passive voice only"],
      ans:"It describes a change of state, not an action",
      hint:"Movement AND s...-c... verbs use essere. The subject undergoes a transformation rather than performing an a... on something."},
 
@@ -121,7 +121,7 @@ const BATCH3_U12_L2 = {
      sSrc:"It {1} almost three hours!"},
 
     {type:"mc", q:"What does 'Basta!' mean as an exclamation?",
-     opts:["Beautiful!","Enough! / Stop!","Help!","Please!"],
+     opts:["Help!","Please!","Beautiful!","Enough! / Stop!"],
      ans:"Enough! / Stop!",
      hint:"One of Italian's most powerful single words. Parents, teachers, and anyone who has had e... uses this constantly."}
   ,{type:"match",pairs:[{trg:"piacere",src:"to be pleasing / to like"},{trg:"bastare",src:"to be enough / to suffice"},{trg:"sembrare",src:"to seem / to appear"},{trg:"durare",src:"to last"},{trg:"costare",src:"to cost"},{trg:"dispiacere",src:"to be sorry / to displease"}]},{type:"match",pairs:[{trg:"mancare",src:"to be missing / to miss (someone)"}]}]

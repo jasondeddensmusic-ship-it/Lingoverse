@@ -1,4 +1,4 @@
-// Unit 17 — Le subjonctif
+// Unit 17. Le subjonctif
 // Subjunctive: Wishes & Necessity
 
 import COVERAGE_U17 from './_coverage_u17.js';
@@ -224,9 +224,9 @@ export default {n:17,lang:"fr",srcLang:"en",track:"v2",title:"Le subjonctif",sub
     {type:"tip",title:"Suffixes for abstract nouns",text:"French abstract nouns follow predictable suffix patterns:\n\n-MENT (masc.): gouvernement, changement, mouvement\n-ICE (fem.): justice, pratique, service\n-ITÉ (fem.): fraternité, pauvreté, responsabilité\n-FORME (fem.): réforme, plateforme\n-AT (masc.): débat, résultat, combat\n\nRecognizing these suffixes helps you guess gender and meaning.\nMany have English cognates: government, justice, poverty.",deepDive:"The -ité suffix is especially productive in civic French. It comes from Latin -itas and marks abstract qualities: liberté (freedom), égalité (equality), fraternité (solidarity). These three are literally carved into every French public building."},
     {type:"mc",q:"What is 'le gouvernement' in English?",opts:["government","debate","poverty","citizen"],ans:"government",hint:"The body that runs a country. Ends in -ment (masculine)."},
     {type:"fb",opts:["citoyen","gouvernement","débat","réforme"],hint:"Each person with nationality and the right to vote is called this.",s:"Chaque {1} a le droit de voter.",a:["citoyen"]},
-    {type:"mc",q:"Which word completes: 'Le ___ oppose deux candidats.'?",opts:["débat","réforme","fraternité","pauvreté"],ans:"débat",hint:"An event where two people argue opposing positions publicly."},
+    {type:"mc",q:"Which word completes: 'Le ___ oppose deux candidats.'?",opts:["pauvreté","débat","réforme","fraternité"],ans:"débat",hint:"An event where two people argue opposing positions publicly."},
     {type:"fb",opts:["justice","réforme","fraternité","pauvreté"],hint:"The -ité suffix. A value in France's national motto alongside liberté and égalité.",s:"La liberté, l'égalité et la {1} sont dans la devise française.",a:["fraternité"]},
-    {type:"mc",q:"'La réforme' means:",opts:["reform","revolution","republic","routine"],ans:"reform",hint:"A planned change to improve a system. The government often proposes one."},
+    {type:"mc",q:"'La réforme' means:",opts:["republic","routine","reform","revolution"],ans:"reform",hint:"A planned change to improve a system. The government often proposes one."},
     {type:"fb",opts:["pauvreté","justice","débat","citoyen"],hint:"The -té suffix. The state of being poor. A DELF B1 essay topic.",s:"Le gouvernement lutte contre la {1} dans le pays.",a:["pauvreté"]},
     {type:"match",pairs:[{trg:"le gouvernement",src:"government"},{trg:"la justice",src:"justice"},{trg:"le citoyen",src:"citizen"},{trg:"la réforme",src:"reform"},{trg:"la fraternité",src:"brotherhood / solidarity"},{trg:"la pauvreté",src:"poverty"}]}
   ]}

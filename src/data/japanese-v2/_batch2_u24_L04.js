@@ -85,7 +85,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"失敗(しっぱい)",src:"failure"},{trg:"成功(せいこう)",src:"success"},{trg:"分析(ぶんせき)",src:"analysis"},{trg:"特定(とくてい)",src:"identification"}]},
 
-    {type:"mc", q:"にしても expresses:", opts:["Complete agreement","Concession before maintaining your main point","Strong disagreement","Uncertainty about the facts"], ans:"Concession before maintaining your main point",
+    {type:"mc", q:"にしても expresses:", opts:["Uncertainty about the facts","Complete agreement","Concession before maintaining your main point","Strong disagreement"], ans:"Concession before maintaining your main point",
      hint:"This pattern acknowledges the other side but still pushes back with your argument."},
   {type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / even though ~"},{trg:"〜にもかかわらず",src:"despite / in spite of (formal)"}]},
   {type:"fb", s:"たとえ{1}しても、諦(あきら)めないことが重要(じゅうよう)です。", a:["失敗(しっぱい)"], opts:["失敗(しっぱい)","〜かぎり","〜どころか","〜ないかぎり"], hint:"An outcome where something does not go as planned.", sSrc:"Even if you {1}, it is important not to give up."}

@@ -1,4 +1,4 @@
-// Korean V2 Unit 17 — 뉴스를 봤어요
+// Korean V2 Unit 17, 뉴스를 봤어요
 // Level: B1.2
 
 const UNIT_17 =
@@ -146,7 +146,7 @@ const UNIT_17 =
 {type:"mc",q:"뉴스에서 사고가 보도됐어요. This means:",opts:["The news caused an accident","An accident was reported on the news","The accident reported the news","Someone reported to the accident"],ans:"An accident was reported on the news",hint:"보도되다 = passive of 보도하다. The … was …."},
 {type:"fb",s:"경제 성장률이 3%로 {1}.\n(The economic growth rate was ___ at 3%.)",a:"확인됐어요",opts:["확인됐어요","확인했어요","확인하면","확인해서"],hint:"Economic growth rate was confirmed at 3%. Passive: 확인되다."},
 {type:"match",pairs:[{nl:"발표되다",en:"be announced"},{nl:"보도되다",en:"be reported"},{nl:"체포되다",en:"be arrested"},{nl:"확인되다",en:"be confirmed"}]},
-{type:"mc",q:"한자어 + 되다 pattern creates:",opts:["Passive voice (be [action]ed)","Active voice","Future tense","Past tense"],ans:"Passive voice (be [action]ed)",hint:"되다 after a Sino-Korean noun turns the subject into the receiver. Extremely common in news Korean."},
+{type:"mc",q:"한자어 + 되다 pattern creates:",opts:["Future tense","Past tense","Passive voice (be [action]ed)","Active voice"],ans:"Passive voice (be [action]ed)",hint:"되다 after a Sino-Korean noun turns the subject into the receiver. Extremely common in news Korean."},
 {type:"drag_fill",s:"오늘 뉴스: 큰 사건이 {1}. 범인은 아직 {2}.\n(Today's news: A big incident was ___. The criminal hasn't been ___.)",blanks:{"1":"보도됐어요","2":"체포되지 않았어요"},pool:["보도됐어요","체포되지 않았어요","보도했어요","체포했어요","발표했어요"],hint:"Today's news: A big incident was reported. The criminal hasn't been arrested yet."},
 {type:"teach",nl:"개최하다",en:"to hold (an event)",pos:"verb",gender:null,funFact:"Sino-Korean compound: 개(open/開) + 최(gather/催)",phonetic:"gae-choe-ha-da",note:"COMPOUND: 개(open/開) + 최(gather/催).\nOpen-gather = hold an event.\nPassive: 개최되다 = be held.",kind:"verb"},
 {type:"fb",s:"올림픽이 서울에서 {1}.\n(The Olympics were ___ in Seoul.)",a:"개최됐어요",opts:["개최됐어요","개최했어요","발표됐어요","체포됐어요"],hint:"The Olympics were held in Seoul. 개최되다 = passive of 개최하다."},
@@ -370,19 +370,19 @@ const UNIT_17 =
 {type:"tip",title:"Spoken vs. Written Contrast Connectors",text:"Korean has two registers for 'however':\n\nSPOKEN (해요체 / 반말):\n하지만 = but / however\n그런데 = but / by the way\n\nFORMAL WRITTEN (문어체):\n그러나 = however / but\n반면에 = on the other hand\n\nFor B1-B2 writing: use 그러나.\nFor conversation: use 하지만.\n\nThe fastest way to sound more advanced\nin TOPIK 쓰기 is to replace 하지만\nwith 그러나 in your essays.",
  deepDive:"Full register table for contrast connectors:\n\n하지만: spoken, informal writing, blogs\n그런데: spoken, topic shift, light contrast\n그러나: formal essays, news, academic writing\n반면에: formal, side-by-side comparison\n반면: same, slightly shorter form\n\nAlso note additive connectors by register:\nCAUSAL / SPOKEN: 그래서, 그러니까\nFORMAL: 따라서, 그러므로\n\nADDITIVE / SPOKEN: 그리고\nFORMAL: 또한, 더불어\nESCALATING: 게다가 (neutral-formal)\n\nFor TOPIK II 쓰기 (writing task):\nUse 그러나, 또한, 따라서, 게다가."},
 
-{type:"mc",q:"하지만 is used in which context?",opts:["Formal essay writing","Spoken conversation and informal writing","Academic research papers","News broadcasts only"],ans:"Spoken conversation and informal writing",hint:"하지만 belongs to 해요체 -- the everyday register. Its formal counterpart, 그러나, is saved for essays and news."},
+{type:"mc",q:"하지만 is used in which context?",opts:["Spoken conversation and informal writing","Academic research papers","News broadcasts only","Formal essay writing"],ans:"Spoken conversation and informal writing",hint:"하지만 belongs to 해요체 -- the everyday register. Its formal counterpart, 그러나, is saved for essays and news."},
 
 {type:"fb",s:"경제 문제가 심각해요. ___ 해결책도 있어요.\n(The economic problem is serious. ___, there are also solutions.)",a:"하지만",opts:["하지만","또한","게다가","왜냐하면"],hint:"Two contrasting facts: 'serious problem' vs. 'solutions exist'. Which spoken contrast connector fits here?"},
 
-{type:"mc",q:"사회가 발전했다. ___ 환경 문제가 생겼다.\nWhich formal connector fits the blank?",opts:["하지만","왜냐하면","그러나","게다가"],ans:"그러나",hint:"The sentence is in formal written style (-다 ending). Which connector belongs in formal essays and news?"},
+{type:"mc",q:"사회가 발전했다. ___ 환경 문제가 생겼다.\nWhich formal connector fits the blank?",opts:["왜냐하면","그러나","게다가","하지만"],ans:"그러나",hint:"The sentence is in formal written style (-다 ending). Which connector belongs in formal essays and news?"},
 
 {type:"fb",s:"___ 어렵지만 포기하지 않아요.\n(Although it's hard, I don't give up.)",a:"비록",opts:["비록","게다가","또한","그러나"],hint:"This connector signals concession: 'I acknowledge the difficulty, but still...' It always pairs with -지만 or -아도."},
 
-{type:"mc",q:"기사를 썼어요. ___ 사진도 찍었어요.\nWhich connector shows 'in addition'?",opts:["하지만","그러나","비록","또한"],ans:"또한",hint:"Both actions are positive additions. Which formal additive connector links two parallel efforts?"},
+{type:"mc",q:"기사를 썼어요. ___ 사진도 찍었어요.\nWhich connector shows 'in addition'?",opts:["그러나","비록","또한","하지만"],ans:"또한",hint:"Both actions are positive additions. Which formal additive connector links two parallel efforts?"},
 
-{type:"mc",q:"선생님이 문법을 ___ 주셨어요.\n(The teacher ___ the grammar for us.)",opts:["설명하다","결정하다","발전하다","이해하다"],ans:"설명하다",hint:"The teacher made the grammar clear and easy to understand. Which verb means 'to explain'?"},
+{type:"mc",q:"선생님이 문법을 ___ 주셨어요.\n(The teacher ___ the grammar for us.)",opts:["결정하다","발전하다","이해하다","설명하다"],ans:"설명하다",hint:"The teacher made the grammar clear and easy to understand. Which verb means 'to explain'?"},
 
-{type:"mc",q:"어디서 만날지 ___ 해야 해요.\n(We need to ___ where to meet.)",opts:["설명하다","결정하다","참여하다","이해하다"],ans:"결정하다",hint:"You have not yet agreed on a meeting place. A choice needs to be made. Which verb means 'to decide'?"},
+{type:"mc",q:"어디서 만날지 ___ 해야 해요.\n(We need to ___ where to meet.)",opts:["결정하다","참여하다","이해하다","설명하다"],ans:"결정하다",hint:"You have not yet agreed on a meeting place. A choice needs to be made. Which verb means 'to decide'?"},
 
 {type:"drag_fill",s:"기자가 사건을 {1}. 비록 정보가 적지만 {2} {3}줬어요. {4} 사회 영향도 보도했어요.\n(The reporter ___ the incident. Although there was little information, they ___ explained well. Moreover, they also reported the social impact.)",blanks:{"1":"결정하다","2":"잘","3":"설명해","4":"또한"},pool:["결정하다","잘","설명해","또한","게다가","했어요"],hint:"Decided what to report. Explained clearly despite limited info. Then added social context."},
 
@@ -396,10 +396,10 @@ const UNIT_17 =
 
 {type:"teach",trg:"그래서",src:"so / therefore",pos:"conj",gender:null,
  phonetic:"geu-rae-seo",
- note:"Signals cause-and-effect: A 그래서 B.\nA caused B. Neutral register — spoken and written.",
+ note:"Signals cause-and-effect: A 그래서 B.\nA caused B. Neutral register, spoken and written.",
  example:"A: 어제 아팠어요. 그래서 학교에 못 갔어요.\nB: 지금은 괜찮아요?",
  exampleSrc:"A: I was sick yesterday. So I couldn't go to school.\nB: Are you OK now?",
- funFact:"그래서 traces to 그렇게 (like that) + 해서 (having done). Literally 'having done like that' — the cause already happened, so the result follows."},
+ funFact:"그래서 traces to 그렇게 (like that) + 해서 (having done). Literally 'having done like that', the cause already happened, so the result follows."},
 
 {type:"teach",trg:"그런데",src:"but / by the way",pos:"conj",gender:null,
  phonetic:"geu-reon-de",
@@ -424,10 +424,10 @@ const UNIT_17 =
 
 {type:"teach",trg:"그래도",src:"still / even so / but still",pos:"conj",gender:null,
  phonetic:"geu-rae-do",
- note:"Concedes a point but asserts something despite it.\n'Even so / still' — the speaker acknowledges the reality but pushes back.",
+ note:"Concedes a point but asserts something despite it.\n'Even so / still', the speaker acknowledges the reality but pushes back.",
  example:"A: 힘들지 않아요?\nB: 네, 힘들어요. 그래도 계속하고 싶어요.",
  exampleSrc:"A: Isn't it hard?\nB: Yes, it's hard. But I still want to keep going.",
- funFact:"그래도 = 그래 (so / like that) + -도 (even). Compare: 그래서 (so, therefore — consequence) vs. 그래도 (even so — concession despite the fact). The -도 is the same particle that means 'even' in 저도 (me too)."},
+ funFact:"그래도 = 그래 (so / like that) + -도 (even). Compare: 그래서 (so, therefore, consequence) vs. 그래도 (even so, concession despite the fact). The -도 is the same particle that means 'even' in 저도 (me too)."},
 
 {type:"tip",title:"Connector Logic Map",
  text:"Five connectors, five logical relationships:\n\n그래서 → CAUSE/RESULT: A happened, so B.\n그런데 → CONTRAST or TOPIC SHIFT: A, but B / By the way...\n그리고 → ADDITION/SEQUENCE: A, and also B.\n그러면 → CONDITION/CONSEQUENCE: Given A, then B.\n그래도 → CONCESSION: A is true, but still B.\n\nSpoken shortened forms:\n그러면 → 그럼\n그런데 → 근데\n그리고 → (no standard short form)\n\nFormal written alternatives:\n그래서 → 따라서 / 그러므로\n그런데 → 그러나\n그리고 → 또한 / 더불어",
@@ -435,11 +435,11 @@ const UNIT_17 =
 
 {type:"mc",q:"어제 비가 많이 왔어요. ___ 집에 있었어요.\nWhich connector best fills the blank?",opts:["그래서","그런데","그래도","그러면"],ans:"그래서",hint:"Heavy rain caused staying home. Choose the connector that signals 'A happened, so B followed.'"},
 
-{type:"mc",q:"오늘 날씨가 좋아요. ___ 내일은 비가 온대요.\nWhich connector fits?",opts:["그래서","그리고","그런데","그러면"],ans:"그런데",hint:"The two sentences shift from good news to unexpected news. Which connector signals contrast or a topic shift?"},
+{type:"mc",q:"오늘 날씨가 좋아요. ___ 내일은 비가 온대요.\nWhich connector fits?",opts:["그리고","그런데","그러면","그래서"],ans:"그런데",hint:"The two sentences shift from good news to unexpected news. Which connector signals contrast or a topic shift?"},
 
 {type:"fb",s:"도서관에서 공부했어요. ___ 카페에서 쉬었어요.\n(I studied at the library. ___ I rested at the cafe.)",a:"그리고",opts:["그리고","그래서","그래도","그런데"],hint:"Two actions listed in sequence, with no contrast or cause. Which connector simply adds the next thing that happened?"},
 
-{type:"mc",q:"시험이 어려웠어요. ___ 열심히 공부했어요.\nWhich connector expresses 'even so / but still'?",opts:["그리고","그러면","그래도","그래서"],ans:"그래도",hint:"The exam was hard — that is acknowledged. But the speaker studied hard anyway. Which connector signals 'despite that'?"},
+{type:"mc",q:"시험이 어려웠어요. ___ 열심히 공부했어요.\nWhich connector expresses 'even so / but still'?",opts:["그리고","그러면","그래도","그래서"],ans:"그래도",hint:"The exam was hard, that is acknowledged. But the speaker studied hard anyway. Which connector signals 'despite that'?"},
 
 {type:"fb",s:"내일 회의가 있어요. ___ 오늘 준비해야 해요.\n(There is a meeting tomorrow. ___ I should prepare today.)",a:"그러면",opts:["그러면","그런데","그리고","그래도"],hint:"The meeting tomorrow is the given condition. What follows is the logical next step. Which connector means 'in that case / then'?"},
 
@@ -447,9 +447,9 @@ const UNIT_17 =
 
 {type:"fb",s:"날씨가 추워요. ___ 운동하러 갔어요.\n(The weather is cold. ___ I still went to exercise.)",a:"그래도",opts:["그래도","그래서","그러면","그리고"],hint:"Cold weather is the acknowledged obstacle. The speaker went anyway. Which connector signals 'even so'?"},
 
-{type:"mc",q:"배가 고파요. ___ 식당을 찾아요.\nWhich connector logically fits?",opts:["그래도","그러면","그런데","그리고"],ans:"그러면",hint:"Being hungry is the stated condition. Going to find a restaurant is the logical response. Which connector means 'given that, then...'?"},
+{type:"mc",q:"배가 고파요. ___ 식당을 찾아요.\nWhich connector logically fits?",opts:["그런데","그리고","그래도","그러면"],ans:"그러면",hint:"Being hungry is the stated condition. Going to find a restaurant is the logical response. Which connector means 'given that, then...'?"},
 
-{type:"mc",q:"그러면 is often shortened in spoken Korean to:",opts:["그러나","그래서","그럼","그래도"],ans:"그럼",hint:"The shortened spoken form keeps only the first syllable of each part. Listen for this in TOPIK 듣기."},
+{type:"mc",q:"그러면 is often shortened in spoken Korean to:",opts:["그럼","그래도","그러나","그래서"],ans:"그럼",hint:"The shortened spoken form keeps only the first syllable of each part. Listen for this in TOPIK 듣기."},
 
 {type:"drag_fill",s:"어제 늦게 잤어요. {1} 피곤해요. {2} 일은 해야 해요.\n(I went to bed late yesterday. ___ I'm tired. ___ I still have to work.)",blanks:{"1":"그래서","2":"그래도"},pool:["그래서","그래도","그런데","그러면","그리고"],hint:"Late sleep caused tiredness. Tiredness is acknowledged but work continues regardless."},
 

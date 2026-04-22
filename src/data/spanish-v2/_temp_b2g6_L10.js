@@ -66,7 +66,7 @@ const LESSON_10 = {id:"esv2_b2g6_l10",title:"Tecnología e innovación",icon:"�
  exampleSrc:"A: Insert the card into the reader.\nB: Done, the system has recognized it.",
  funFact:"In computing, 'insertar' is used for pasting or adding elements, like 'insertar una imagen'."},
 
-{type:"mc",q:"¿Qué es un intermitente en un coche?",opts:["La luz que indica un giro","El motor del vehículo","El freno de mano","El espejo retrovisor"],ans:"La luz que indica un giro",hint:"The blinking light you use before turning left or right."},
+{type:"mc",q:"¿Qué es un intermitente en un coche?",opts:["El espejo retrovisor","La luz que indica un giro","El motor del vehículo","El freno de mano"],ans:"La luz que indica un giro",hint:"The blinking light you use before turning left or right."},
 
 {type:"match",pairs:[
   {trg:"innovar",src:"to innovate"},

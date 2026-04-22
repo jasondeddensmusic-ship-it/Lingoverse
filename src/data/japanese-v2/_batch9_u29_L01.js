@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"インフレ",src:"inflation"},{trg:"デフレ",src:"deflation"},{trg:"円高(えんだか)",src:"strong yen"},{trg:"円安(えんやす)",src:"weak yen"}]},
 
-    {type:"mc", q:"Which word means employment rate?", opts:["雇用率(こようりつ)","景気後退(けいきこうたい)","デフレ","不況(ふきょう)"], ans:"雇用率(こようりつ)",
+    {type:"mc", q:"Which word means employment rate?", opts:["不況(ふきょう)","雇用率(こようりつ)","景気後退(けいきこうたい)","デフレ"], ans:"雇用率(こようりつ)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"GDP",src:"gross domestic product"}]}]
 };

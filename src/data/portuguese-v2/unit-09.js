@@ -65,12 +65,12 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"I have two {1} and two hands."},
 
 {type:"mc", q:"Which word means 'the head'?",
- opts:["o corpo","a cabeça","a mão","o pé"],
+ opts:["a cabeça","a mão","o pé","o corpo"],
  ans:"a cabeça",
  hint:"The feminine noun for the top part of your body."},
 
 {type:"mc", q:"What is the plural of 'mão'?",
- opts:["mãos","mães","manos","mãoes"],
+ opts:["mãoes","mãos","mães","manos"],
  ans:"mãos",
  hint:"Add an s directly to the -ão ending."},
 
@@ -88,7 +88,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 ]},
 
 {type:"mc", q:"'Abra a boca' means:",
- opts:["Close your mouth","Open your mouth","Wash your hands","Lift your leg"],
+ opts:["Lift your leg","Close your mouth","Open your mouth","Wash your hands"],
  ans:"Open your mouth",
  hint:"Abra is the imperative of abrir; boca is the …."},
 
@@ -99,7 +99,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"I walked a lot and my {1} hurt."},
 
 {type:"mc", q:"Which body part is feminine?",
- opts:["o corpo","o olho","a perna","o pé"],
+ opts:["o pé","o corpo","o olho","a perna"],
  ans:"a perna",
  hint:"It uses the feminine article a."}
 ]},
@@ -163,7 +163,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"I've had a stomach {1} since yesterday."},
 
 {type:"mc", q:"How do you say 'I am sick'?",
- opts:["Eu sou doente","Estou doente","Eu tenho doente","Eu doente"],
+ opts:["Estou doente","Eu tenho doente","Eu doente","Eu sou doente"],
  ans:"Estou doente",
  hint:"Sickness is a temporary state, so use the temporary being verb."},
 
@@ -186,7 +186,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
 ]},
 
 {type:"mc", q:"Which sentence describes feeling unwell?",
- opts:["Estou bem","Me sinto mal","Tudo bem","Estou aqui"],
+ opts:["Estou aqui","Estou bem","Me sinto mal","Tudo bem"],
  ans:"Me sinto mal",
  hint:"The adverb after the feeling verb means 'badly'."},
 
@@ -197,7 +197,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"How do you {1} today?"},
 
 {type:"mc", q:"'Dói-me a perna' means:",
- opts:["My leg is strong","My leg hurts","My leg is broken","My leg is long"],
+ opts:["My leg is broken","My leg is long","My leg is strong","My leg hurts"],
  ans:"My leg hurts",
  hint:"The verb describes pain felt by the speaker in that body part."}
 ]},
@@ -249,7 +249,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
   text:"Brazilians use two structures for symptoms:\n\nEstou com febre. (I am with fever.)\nTenho febre. (I have a fever.)\n\nBoth mean the same thing. 'Estar com' is more conversational and common in spoken Brazilian. 'Ter' is shorter and works equally well. Pick whichever feels more natural to you."}},
 
 {type:"mc", q:"Which word means 'the medicine'?",
- opts:["o médico","o remédio","a febre","o hospital"],
+ opts:["o remédio","a febre","o hospital","o médico"],
  ans:"o remédio",
  hint:"This is the noun for pills or syrups, not the person who prescribes them."},
 
@@ -283,7 +283,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"The doctor gave me a {1} to buy medicine."},
 
 {type:"mc", q:"Which sentence means 'I have a fever'?",
- opts:["Sou febre","Estou com febre","Dói febre","Compro febre"],
+ opts:["Dói febre","Compro febre","Sou febre","Estou com febre"],
  ans:"Estou com febre",
  hint:"Brazilian speech describes symptoms by saying you are 'with' them, not that you 'have' them."}
 ,
@@ -346,7 +346,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  text:"Standard script for calling a clinic:\n\n1. Opening:\n'Bom dia, gostaria de marcar uma consulta.'\n\n2. Specify the doctor:\n'Com o doutor / a doutora [name].'\n\n3. Indicate urgency:\n'É urgente.' or 'Para quando for possível.'\n\n4. Confirm the details:\n'Então é segunda-feira às 10h, certo?'\n\nKey vocabulary:\na clínica = the clinic\no consultório = the doctor's private office\nagendado = scheduled\ndisponível = available\no mais cedo possível = as soon as possible"},
 
 {type:"mc", q:"Which verb means 'to reschedule' an appointment in Brazilian Portuguese?",
- opts:["cancelar","confirmar","remarcar","marcar"],
+ opts:["remarcar","marcar","cancelar","confirmar"],
  ans:"remarcar",
  hint:"The prefix 're-' means again. You are marking the appointment again for a new time."},
 
@@ -462,7 +462,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"I sleep in the {1} every day."},
 
 {type:"mc", q:"Which room has the stove and refrigerator?",
- opts:["o quarto","a sala","a cozinha","o banheiro"],
+ opts:["a cozinha","o banheiro","o quarto","a sala"],
  ans:"a cozinha",
  hint:"The room where you prepare and cook food."},
 
@@ -481,7 +481,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  sSrc:"The {1} is closed. Can you open it?"},
 
 {type:"mc", q:"What does 'limpo' mean?",
- opts:["big","old","clean","open"],
+ opts:["old","clean","open","big"],
  ans:"clean",
  hint:"The adjective for a room or object that has been washed or tidied."},
 

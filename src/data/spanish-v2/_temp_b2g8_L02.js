@@ -73,7 +73,7 @@ const LESSON_2 = {id:"esv2_b2g8_l2",title:"Medios y comunicación",icon:"📡",x
  funFact:"The word 'logotipo' comes from Greek logos (word) + typos (impression). 'Logo' is the informal form."},
 
 {type:"mc",q:"¿Qué significa 'comunicación empresarial'?",
- opts:["La comunicación profesional dentro y fuera de una empresa","El servicio de correos de una ciudad","Las noticias publicadas en un diario","La conversación entre amigos"],
+ opts:["La conversación entre amigos","La comunicación profesional dentro y fuera de una empresa","El servicio de correos de una ciudad","Las noticias publicadas en un diario"],
  ans:"La comunicación profesional dentro y fuera de una empresa",
  hint:"The -ial suffix signals a corporate context. Think about formal messaging that flows inside and outside an organisation."},
 
@@ -103,7 +103,7 @@ const LESSON_2 = {id:"esv2_b2g8_l2",title:"Medios y comunicación",icon:"📡",x
 ]},
 
 {type:"mc",q:"Si dices que había un millón de personas pero solo eran mil, ¿qué es eso?",
- opts:["Una exageración","Una definición","Una consideración","Una coproducción"],
+ opts:["Una consideración","Una coproducción","Una exageración","Una definición"],
  ans:"Una exageración",
  hint:"Making something seem much bigger or more dramatic than it really is."},
 

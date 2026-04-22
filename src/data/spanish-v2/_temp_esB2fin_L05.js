@@ -49,7 +49,7 @@ const LESSON_5 = {
      funFact:"From Latin 'patiens' (suffering). A patient is literally 'one who suffers' and waits for healing."},
 
     {type:"mc", q:"¿Qué significa 'quirúrgico'?",
-     opts:["Relacionado con la farmacia","Relacionado con la cirugía","Relacionado con la nutrición","Relacionado con la psicología"],
+     opts:["Relacionado con la cirugía","Relacionado con la nutrición","Relacionado con la psicología","Relacionado con la farmacia"],
      ans:"Relacionado con la cirugía",
      hint:"This adjective comes from Greek and literally means 'done by hand' in a medical context."},
 
@@ -130,7 +130,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"¿Dónde se realizan las operaciones en un hospital?",
-     opts:["En la farmacia","En el quirófano","En la consulta","En el laboratorio"],
+     opts:["En el laboratorio","En la farmacia","En el quirófano","En la consulta"],
      ans:"En el quirófano",
      hint:"This sterile room is specially equipped for the surgical team to perform operations."},
 
@@ -147,7 +147,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"¿Qué necesitas para comprar ciertos medicamentos en España?",
-     opts:["Una tarjeta de crédito","Una receta médica","Un diagnóstico escrito","Una analítica"],
+     opts:["Un diagnóstico escrito","Una analítica","Una tarjeta de crédito","Una receta médica"],
      ans:"Una receta médica",
      hint:"A doctor must write this document authorizing the pharmacy to dispense the medication."}
   ]

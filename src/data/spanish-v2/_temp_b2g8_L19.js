@@ -79,7 +79,7 @@ const LESSON_19 = {id:"esv2_b2g8_l19",title:"Artes y publicaciones",icon:"📜",
  funFact:"'La Ilustracion' (the Enlightenment) reached Spain through figures like Jovellanos and Feijoo in the 18th century."},
 
 {type:"mc",q:"'El margen' y 'la margen' tienen distinto significado. ¿Cuál es femenino?",
- opts:["La orilla de un río","El espacio en blanco de una página","El beneficio económico","El borde de un libro"],
+ opts:["El borde de un libro","La orilla de un río","El espacio en blanco de una página","El beneficio económico"],
  ans:"La orilla de un río",
  hint:"When feminine, this word refers to the bank or edge of a river. The masculine form is for page edges."},
 
@@ -101,7 +101,7 @@ const LESSON_19 = {id:"esv2_b2g8_l19",title:"Artes y publicaciones",icon:"📜",
  sSrc:"The {1} between the two companies resolved the conflict without going to court."},
 
 {type:"mc",q:"¿Qué hace un maquetador?",
- opts:["Diseña la disposición visual de publicaciones","Escribe artículos de prensa","Repara máquinas","Conduce un camión de reparto"],
+ opts:["Repara máquinas","Conduce un camión de reparto","Diseña la disposición visual de publicaciones","Escribe artículos de prensa"],
  ans:"Diseña la disposición visual de publicaciones",
  hint:"This person arranges text, images, and layout for magazines, books, or newspapers."},
 
@@ -119,7 +119,7 @@ const LESSON_19 = {id:"esv2_b2g8_l19",title:"Artes y publicaciones",icon:"📜",
  sSrc:"Do not settle for {1}. Always seek to improve."},
 
 {type:"mc",q:"¿Qué es una impronta cultural?",
- opts:["Una huella o influencia duradera en la cultura","Un tipo de estampa decorativa","Un documento oficial","Una ceremonia religiosa"],
+ opts:["Un tipo de estampa decorativa","Un documento oficial","Una ceremonia religiosa","Una huella o influencia duradera en la cultura"],
  ans:"Una huella o influencia duradera en la cultura",
  hint:"A lasting mark or influence left behind. Think of how Arab culture shaped Spanish architecture."}
 ]};

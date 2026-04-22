@@ -43,7 +43,7 @@ const LESSON_2 = {
      funFact:"From Latin 'dispositus' (arranged). Devices are arranged circuits working together."},
 
     {type:"mc", q:"¿Qué es un algoritmo?",
-     opts:["Un tipo de virus informático","Un conjunto de instrucciones para resolver un problema","Una red social","Un dispositivo electrónico"],
+     opts:["Un conjunto de instrucciones para resolver un problema","Una red social","Un dispositivo electrónico","Un tipo de virus informático"],
      ans:"Un conjunto de instrucciones para resolver un problema",
      hint:"Named after a Persian mathematician, it is a step-by-step procedure."},
 
@@ -130,7 +130,7 @@ const LESSON_2 = {
     ]},
 
     {type:"mc", q:"¿Qué significa 'la brecha digital'?",
-     opts:["Un virus informático","La diferencia de acceso a la tecnología","Un tipo de programa","Una red social nueva"],
+     opts:["Una red social nueva","Un virus informático","La diferencia de acceso a la tecnología","Un tipo de programa"],
      ans:"La diferencia de acceso a la tecnología",
      hint:"This gap separates those who have technology access from those who do not."},
 
@@ -147,7 +147,7 @@ const LESSON_2 = {
     ]},
 
     {type:"mc", q:"¿Cuál es el acrónimo en español para este campo tecnológico?",
-     opts:["AI","IA","Int.Art.","I.A.R."],
+     opts:["Int.Art.","I.A.R.","AI","IA"],
      ans:"IA",
      hint:"Spanish reverses the English word order: the noun comes before the adjective."},
 

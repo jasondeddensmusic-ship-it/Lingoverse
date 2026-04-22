@@ -1,4 +1,4 @@
-// Batch 6 — Unit 07 extra lesson. Al ristorante: Kitchen & Cooking Vocabulary
+// Batch 6. Unit 07 extra lesson. Al ristorante: Kitchen & Cooking Vocabulary
 const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:15, board:true, steps:[
 {type:"intro", title:"In cucina",
  desc:"Learn vocabulary for kitchen tools, cooking methods, and describing food preparation in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
 ]},
 
 {type:"mc", q:"Cosa devi fare prima di buttare la pasta nell'acqua?",
- opts:["Aspettare che l'acqua bolla","Tritare la cipolla","Mescolare il sugo","Scolare la pentola"],
+ opts:["Scolare la pentola","Aspettare che l'acqua bolla","Tritare la cipolla","Mescolare il sugo"],
  ans:"Aspettare che l'acqua bolla",
  hint:"The water needs to reach a vigorous rolling state first."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
  sSrc:"Put the {1} on the pot so the water boils faster."},
 
 {type:"mc", q:"Cosa significa 'sono fritto' in italiano colloquiale?",
- opts:["I am in big trouble","I am hungry","I am cooking","I am tired"],
+ opts:["I am cooking","I am tired","I am in big trouble","I am hungry"],
  ans:"I am in big trouble",
  hint:"Literally 'I am fried,' but used to mean you are done for."},
 

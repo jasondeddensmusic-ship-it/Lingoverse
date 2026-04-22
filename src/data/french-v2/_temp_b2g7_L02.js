@@ -80,7 +80,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Comment decrit-on quelque chose qui ne dure qu'un instant ?",
-     opts:["momentane","mercantile","mesquin","multinational"],
+     opts:["multinational","momentane","mercantile","mesquin"],
      ans:"momentane",
      hint:"Think of the word 'moment' plus an adjective ending."},
 
@@ -113,7 +113,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot designe le manque de variete dans la vie quotidienne ?",
-     opts:["la monotonie","la mediocrite","la mediation","la maladresse"],
+     opts:["la mediation","la maladresse","la monotonie","la mediocrite"],
      ans:"la monotonie",
      hint:"Think of 'mono' (one) plus 'tone' meaning the same unchanging note."},
 

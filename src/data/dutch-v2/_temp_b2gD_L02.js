@@ -1,4 +1,4 @@
-// L02: Kinderen en Jeugd — Children and Youth
+// L02: Kinderen en Jeugd. Children and Youth
 const LESSON_2 = {
   id:"nlv2_b2gD_l02", title:"Kinderen en Jeugd", icon:"\u{1F9D2}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Wat is een 'knuffel' in het Nederlands?",
-     opts:["Een omhelzing of een zacht speelgoeddier","Een kinderwagen","Een speeltuin","Een kinderboek"],
+     opts:["Een kinderboek","Een omhelzing of een zacht speelgoeddier","Een kinderwagen","Een speeltuin"],
      ans:"Een omhelzing of een zacht speelgoeddier",
      hint:"This word has a double meaning. It can refer to a physical embrace or a soft toy you squeeze."},
 

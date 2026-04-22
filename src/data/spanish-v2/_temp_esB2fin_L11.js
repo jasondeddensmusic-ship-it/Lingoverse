@@ -91,7 +91,7 @@ const LESSON_11 = {
      funFact:"From Greek 'demokratia': 'demos' (people) + 'kratos' (power). Ancient Athens had direct democracy where citizens voted on laws themselves."},
 
     {type:"mc", q:"\u00bfQu\u00e9 es la democracia?",
-     opts:["Un sistema donde el rey gobierna solo","Un sistema donde los ciudadanos eligen a sus representantes","Un tipo de econom\u00eda","Un conjunto de leyes escritas"],
+     opts:["Un sistema donde los ciudadanos eligen a sus representantes","Un tipo de econom\u00eda","Un conjunto de leyes escritas","Un sistema donde el rey gobierna solo"],
      ans:"Un sistema donde los ciudadanos eligen a sus representantes",
      hint:"In this political system, the power ultimately comes from the people through voting."},
 

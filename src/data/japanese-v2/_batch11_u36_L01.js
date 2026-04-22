@@ -98,7 +98,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「かえって」はどんなときに使(つか)いますか？",
-     opts:["When the result is opposite to what was expected","When things go as planned","When agreeing with someone","When asking a question"],
+     opts:["When asking a question","When the result is opposite to what was expected","When things go as planned","When agreeing with someone"],
      ans:"When the result is opposite to what was expected",
      hint:"This adverb signals a paradoxical or ironic outcome. What happened was the contrary of the intention."},
 
@@ -109,7 +109,7 @@ const BATCH11_L1 = {
      sSrc:"After five years of study, I finally passed N2."},
 
     {type:"mc", q:"「さすがに」にはどんな使(つか)い方(かた)がありますか？",
-     opts:["Both praise (as expected of a pro) and limits (even I am tired)","Only praise","Only criticism","Only surprise"],
+     opts:["Only criticism","Only surprise","Both praise (as expected of a pro) and limits (even I am tired)","Only praise"],
      ans:"Both praise (as expected of a pro) and limits (even I am tired)",
      hint:"This versatile adverb can acknowledge someone's reputation positively or recognize that e... a capable person has l...."}
   ,{type:"match",pairs:[{trg:"〜ざるをえない",src:"cannot help but ~ / have no choice but to ~"},{trg:"〜にともなって",src:"along with ~ / accompanying ~"},{trg:"いわば",src:"so to speak / as it were"},{trg:"かえって",src:"on the contrary / rather"},{trg:"さすがに",src:"as expected / even (someone) must ~"},{trg:"いざ",src:"when it comes to the moment / when push comes to shove"}]}]

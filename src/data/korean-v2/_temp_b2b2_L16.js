@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 16: Morality and Challenge
+// Korean B2. Batch 2, Lesson 16: Morality and Challenge
 // Words: 도달하다, 도대체, 도덕, 도둑, 도리어, 도마, 도망, 도망가다, 도망치다, 도심, 도움말, 도입, 도자기, 도장, 도저히, 도전, 독감, 독립, 독립하다, 독일어
 
 const LESSON_16 = {
@@ -119,7 +119,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'도저히'는 어떤 문장에서 쓰이나요?",
-     opts:["부정문에서만 쓰인다","긍정문에서만 쓰인다","모든 문장에서 쓰인다","의문문에서만 쓰인다"],
+     opts:["의문문에서만 쓰인다","부정문에서만 쓰인다","긍정문에서만 쓰인다","모든 문장에서 쓰인다"],
      ans:"부정문에서만 쓰인다",
      hint:"This adverb meaning 'by no means' only appears with negative verb forms. It cannot be positive."},
 

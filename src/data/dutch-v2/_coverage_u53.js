@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 53.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs, rerun to refresh.
 const COVERAGE_U53 = {
   id:"duv2_u53_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[

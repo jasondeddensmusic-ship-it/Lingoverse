@@ -1,4 +1,4 @@
-// L16: Common Verbs — 20 A1 gap words
+// L16: Common Verbs, 20 A1 gap words
 const LESSON_16 = {
   id:"nlv2_a1gap_l16", title:"Veelgebruikte Werkwoorden", icon:"\u{1F3C3}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'Dat ___!' betekent 'That's correct!' in het Nederlands.",
-     opts:["klopt","belt","gooit","huilt"],
+     opts:["huilt","klopt","belt","gooit"],
      ans:"klopt",
      hint:"Which verb has a second meaning of 'to be correct'? Also means 'to knock'."},
 

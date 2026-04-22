@@ -1,4 +1,4 @@
-// L17: Religion, Philosophy & Belief — 20 B2 gap words
+// L17: Religion, Philosophy & Belief, 20 B2 gap words
 const LESSON_17 = {
   id:"nlv2_b2gap_l17", title:"Geloof en Filosofie", icon:"\uD83D\uDD4C", xp:15, board:true,
   steps:[
@@ -110,11 +110,11 @@ const LESSON_17 = {
      deepDive:{title:"Religion in the Netherlands",
       text:"Dutch religious demographics have shifted dramatically:\n\n1960: ~70% religious (Catholic + Protestant)\n2025: ~50% non-religious ('geen religie')\n\nThe south (Brabant, Limburg) is traditionally Catholic. The north (Friesland, Groningen) is Protestant. The 'Bible Belt' runs diagonally through the center.\n\nNew religious landscape:\nIslam: ~5% (mainly Moroccan and Turkish communities)\nBuddhism and Hinduism: growing through immigration\nSpiritual but not religious: largest growing group\n\n'Ontkerkelijking' (de-churching) has been the trend for 60 years."}},
     {type:"mc", q:"What is the key difference between 'astronomie' and 'astrologie'?",
-     opts:["They are the same","Astronomy is science, astrology is belief","Astrology is newer","Astronomy studies the sun only"],
+     opts:["Astronomy is science, astrology is belief","Astrology is newer","Astronomy studies the sun only","They are the same"],
      ans:"Astronomy is science, astrology is belief",
      hint:"One uses the scientific method, the other interprets star positions for predictions."},
     {type:"mc", q:"'Blijkens' is used in:",
-     opts:["casual conversation","text messages","legal documents and official reports","children's books"],
+     opts:["text messages","legal documents and official reports","children's books","casual conversation"],
      ans:"legal documents and official reports",
      hint:"One of the most formal Dutch prepositions, meaning 'according to' or 'as evidenced by'."},
     {type:"fb", s:"Het {1} groeit in Nederland.", a:["boeddhisme"],
@@ -132,7 +132,7 @@ const LESSON_17 = {
       {trg:"astrologie", src:"astrology"}
     ]},
     {type:"mc", q:"The 'Rijnlands model' versus the 'Angelsaksisch model' is about:",
-     opts:["river management","business models (stakeholder vs shareholder)","language families","cooking traditions"],
+     opts:["cooking traditions","river management","business models (stakeholder vs shareholder)","language families"],
      ans:"business models (stakeholder vs shareholder)",
      hint:"Dutch vs Anglo-Saxon approaches to running companies and economies."},
     {type:"fb", s:"Is mindfulness een {1} of een hype?", a:["blijver"],

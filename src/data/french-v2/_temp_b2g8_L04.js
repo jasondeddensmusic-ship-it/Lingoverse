@@ -80,7 +80,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel appareil sert à griller du pain ?",
-     opts:["un grille-pain","un coupe-papier","un coffre-fort","un grillage"],
+     opts:["un grillage","un grille-pain","un coupe-papier","un coffre-fort"],
      ans:"un grille-pain",
      hint:"A compound noun that literally describes what the appliance does to bread."},
 
@@ -119,7 +119,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel document officiel permet d'accéder à un lieu restreint ?",
-     opts:["un laissez-passer","un compte-gouttes","un best-seller","un bonus"],
+     opts:["un best-seller","un bonus","un laissez-passer","un compte-gouttes"],
      ans:"un laissez-passer",
      hint:"Literally means 'let pass'. An official permit for entering restricted areas."},
 

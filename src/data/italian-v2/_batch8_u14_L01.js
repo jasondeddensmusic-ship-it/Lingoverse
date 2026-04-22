@@ -1,4 +1,4 @@
-// Batch 8 — Unit 14 extra lesson. Work: Workplace Communication
+// Batch 8. Unit 14 extra lesson. Work: Workplace Communication
 const BATCH8_L1 = {id:"itv2_u14l_b8_1", title:"Comunicare al lavoro", icon:"📧", xp:15, board:true, steps:[
 {type:"intro", title:"Comunicare al lavoro",
  desc:"Learn essential vocabulary for workplace communication, meetings, and professional interaction.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u14l_b8_1", title:"Comunicare al lavoro", icon:"📧
 
 {type:"mc",
  q:"Why is 'collega' unusual in Italian grammar?",
- opts:["It ends in -a but is masculine","It has no plural form","It is always feminine","It is only used formally"],
+ opts:["It is only used formally","It ends in -a but is masculine","It has no plural form","It is always feminine"],
  ans:"It ends in -a but is masculine",
  hint:"Most Italian words ending in -a are feminine, but this one comes from Greek and is m.... Il collega."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u14l_b8_1", title:"Comunicare al lavoro", icon:"📧
 
 {type:"mc",
  q:"What became mandatory for Italian businesses in 2019?",
- opts:["Fattura elettronica (electronic invoicing)","Email communication","Overtime limits","Union membership"],
+ opts:["Overtime limits","Union membership","Fattura elettronica (electronic invoicing)","Email communication"],
  ans:"Fattura elettronica (electronic invoicing)",
  hint:"Italy digitized its billing process in 2019 to combat tax evasion. This digital mandate applies to all businesses."}
 ,{type:"match",pairs:[{trg:"la riunione",src:"the meeting"},{trg:"la sede",src:"the headquarters / office location"}]}]};

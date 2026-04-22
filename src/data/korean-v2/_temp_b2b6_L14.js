@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 14: Language and Cold
+// Korean B2. Batch 6, Lesson 14: Language and Cold
 // Words: 어린이날, 어머(interj), 어저께, 어젯밤, 어지럽다, 어째서, 어쨌든, 어쩌다가, 어쩐지, 어쩜, 어찌, 어찌나, 어찌하다, 억, 억울하다, 언덕, 언론, 언어, 얻어먹다, 얼다
 
 const LESSON_14 = {
@@ -131,7 +131,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'억울하다'에 가장 가까운 뜻은?",
-     opts:["부당한 대우에 속상하다","화가 나다","슬프다","걱정되다"],
+     opts:["걱정되다","부당한 대우에 속상하다","화가 나다","슬프다"],
      ans:"부당한 대우에 속상하다",
      hint:"The unique feeling of being unfairly treated, with frustration and helplessness combined."},
 

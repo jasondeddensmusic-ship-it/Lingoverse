@@ -1,4 +1,4 @@
-// L15: City and Places — 20 A1 gap words
+// L15: City and Places, 20 A1 gap words
 const LESSON_15 = {
   id:"nlv2_a1gap_l15", title:"De Stad en Plaatsen", icon:"\u{1F3D9}\uFE0F", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'De bank' kan twee dingen betekenen: een financiele bank en een ___.",
-     opts:["zitbank","winkel","kerk","school"],
+     opts:["school","zitbank","winkel","kerk"],
      ans:"zitbank",
      hint:"What piece of furniture in your living room shares its name with a financial institution?"},
 

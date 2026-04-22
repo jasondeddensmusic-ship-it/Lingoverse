@@ -1,4 +1,4 @@
-// Unit 5 — Mi Día
+// Unit 5. Mi Día
 // Daily Routine & Reflexive Verbs
 
 export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily Routine & Reflexive Verbs",icon:"🌅",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -292,19 +292,19 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
      exampleSrc:"A: Excuse me, do you speak Spanish?\nB: Yes, I speak Spanish.",
      funFact:"From the verb perdonar (to forgive), from Latin perdonare. English 'pardon' comes from Old French pardonner, which shares the Latin root."},
     {type:"tip",title:"Perdón vs Disculpe",text:"Both mean 'excuse me' or 'sorry', with a small difference in register:\n\nperdón = casual, used with anyone. Works for apologies AND getting attention.\ndisculpe = slightly more formal. Preferred with strangers in formal situations.\n\nFor A1 learners: perdón works in almost every situation.\nWhen in doubt, add a smile.\n\nGracias / de nada is the essential pair: always respond to gracias with de nada.",icon:"💡"},
-    {type:"mc",q:"What does 'hoy' mean?",opts:["yesterday","tomorrow","today","this week"],ans:"today",hint:"It describes the current day you are in right now."},
+    {type:"mc",q:"What does 'hoy' mean?",opts:["today","this week","yesterday","tomorrow"],ans:"today",hint:"It describes the current day you are in right now."},
     {type:"fb",opts:["hora","semana","mes","día"],hint:"The unit of time made up of 7 days.",s:"La {1} tiene siete días.",a:"semana"},
-    {type:"mc",q:"¿Qué hora es? — when would you say this?",opts:["To ask the day of the week","To ask the current time","To ask the month","To ask the year"],ans:"To ask the current time",hint:"This is a question about what the clock shows right now. Hora = hour."},
+    {type:"mc",q:"¿Qué hora es?, when would you say this?",opts:["To ask the day of the week","To ask the current time","To ask the month","To ask the year"],ans:"To ask the current time",hint:"This is a question about what the clock shows right now. Hora = hour."},
     {type:"fb",opts:["año","mes","hora","día"],hint:"This unit of time contains 12 months.",s:"El {1} tiene doce meses.",a:"año"},
-    {type:"mc",q:"'El día' is masculine even though it ends in -a. Which other word is the SAME exception?",opts:["la mesa","el agua","la semana","el libro"],ans:"el agua",hint:"A liquid you drink every day — also masculine despite ending in -a. There are only a few such nouns in Spanish."},
+    {type:"mc",q:"'El día' is masculine even though it ends in -a. Which other word is the SAME exception?",opts:["el libro","la mesa","el agua","la semana"],ans:"el agua",hint:"A liquid you drink every day, also masculine despite ending in -a. There are only a few such nouns in Spanish."},
     {type:"fb",opts:["De nada","Perdón","Gracias","Hola"],hint:"Someone says 'gracias'. You reply with this expression.",s:"A: Muchas gracias.\nB: {1}, es un placer.",a:"De nada"},
     {type:"match",pairs:[{trg:"hoy",src:"today"},{trg:"el día",src:"day"},{trg:"la semana",src:"week"},{trg:"el mes",src:"month"},{trg:"el año",src:"year"}]},
     {type:"fb",opts:["amiga","amigo","amigos","amigas"],hint:"One female friend. Feminine singular form.",s:"Tengo una {1} en la clase.",a:"amiga"},
     {type:"mc",q:"How do you say 'you're welcome' in Spanish?",opts:["gracias","perdón","hola","de nada"],ans:"de nada",hint:"Literally means 'of nothing'. Said after someone thanks you."},
     {type:"fb",opts:["Perdón","Gracias","De nada","Hola"],hint:"You bumped into someone by accident. What do you say first?",s:"{1}, no es mi intención.",a:"Perdón"},
-    {type:"mc",q:"Complete: 'Este ___ tengo un examen.' (this month)",opts:["hora","año","mes","semana"],ans:"mes",hint:"The time unit smaller than a year but larger than a week."},
+    {type:"mc",q:"Complete: 'Este ___ tengo un examen.' (this month)",opts:["mes","semana","hora","año"],ans:"mes",hint:"The time unit smaller than a year but larger than a week."},
     {type:"fb",opts:["semana","mes","año","día"],hint:"There are 7 of these in a week.",s:"La semana tiene siete {1}s.",a:"día"},
-    {type:"mc",q:"A friend helps you carry a bag and says 'gracias'. You respond:",opts:["Perdón","Gracias","De nada","Hoy"],ans:"De nada",hint:"This expression responds to gracias. It means the help was no trouble at all."},
+    {type:"mc",q:"A friend helps you carry a bag and says 'gracias'. You respond:",opts:["Gracias","De nada","Hoy","Perdón"],ans:"De nada",hint:"This expression responds to gracias. It means the help was no trouble at all."},
     {type:"match",pairs:[{trg:"el amigo / la amiga",src:"friend (m/f)"},{trg:"de nada",src:"you're welcome"},{trg:"perdón",src:"sorry / pardon me"},{trg:"la hora",src:"hour / the time"}]}
   ]}
 ]};

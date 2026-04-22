@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: January is cold, isn't it?\nB: Yes, it snows.",
      funFact:"Japanese months are beautifully logical: ichi-gatsu (month 1), ni-gatsu (month 2), and so on. No need to memorize separate names. The old poetic names are still known: mutsuki (month of harmony) for January, kisaragi (changing clothes) for February."},
 
-    {type:"mc", q:"Japanese months use:", opts:["Unique names like English","Number + gatsu","Animal names","Season names"], ans:"Number + gatsu",
+    {type:"mc", q:"Japanese months use:", opts:["Number + gatsu","Animal names","Season names","Unique names like English"], ans:"Number + gatsu",
      hint:"Ichi-g..., ni-g..., san-g...: the logical n... system."},
 
     {type:"teach", trg:"にがつ", src:"February", pos:"noun", gender:null,
@@ -110,10 +110,10 @@ const LESSON_5 = {
      hint:"The counter specifically for a person's age.",
      sSrc:"I am 20 years old."},
 
-    {type:"mc", q:"たんじょうび celebrations with cake are:", opts:["An ancient Japanese tradition","A Western import from the postwar period","Only for children","From the Edo period"], ans:"A Western import from the postwar period",
+    {type:"mc", q:"たんじょうび celebrations with cake are:", opts:["From the Edo period","An ancient Japanese tradition","A Western import from the postwar period","Only for children"], ans:"A Western import from the postwar period",
      hint:"Before this, Japanese people traditionally all aged together on New Year's Day."},
 
-    {type:"mc", q:"How do you say 'March 3rd' in Japanese?", opts:["さんがつさんにち","さんがつみっか","さんつきさんび","みっかさんがつ"], ans:"さんがつみっか",
+    {type:"mc", q:"How do you say 'March 3rd' in Japanese?", opts:["さんつきさんび","みっかさんがつ","さんがつさんにち","さんがつみっか"], ans:"さんがつみっか",
      hint:"Month comes first, then the day. Days 1-10 use the old native counting system."},
   ]
 };

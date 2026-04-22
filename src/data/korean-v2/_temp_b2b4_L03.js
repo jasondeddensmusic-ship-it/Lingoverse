@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 3: Review and Decision
+// Korean B2. Batch 4, Lesson 3: Review and Decision
 // Words: 검토, 겁나다, 게, 게으르다, 겨울철, 겨자, 겪다, 견해, 결과적, 결석, 결석하다, 결승, 결심, 결심하다, 결코, 경계, 경고, 경고하다, 경기장, 경비
 
 const LESSON_3 = {
@@ -107,7 +107,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"'결승'은 대회에서 무엇을 의미하나요?",
-     opts:["최종 경기","연습 경기","예선 경기","친선 경기"],
+     opts:["친선 경기","최종 경기","연습 경기","예선 경기"],
      ans:"최종 경기",
      hint:"The Hanja 決 means 'decide' and 勝 means 'win.' This is the match where the winner is determined."},
 

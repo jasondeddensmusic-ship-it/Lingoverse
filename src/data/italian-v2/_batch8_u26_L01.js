@@ -1,4 +1,4 @@
-// Batch 8 — Unit 26 extra lesson. Law: Rights & Responsibilities
+// Batch 8. Unit 26 extra lesson. Law: Rights & Responsibilities
 const BATCH8_L1 = {id:"itv2_u26l_b8_1", title:"Diritti e doveri", icon:"📜", xp:15, board:true, steps:[
 {type:"intro", title:"Diritti e doveri",
  desc:"Learn vocabulary for fundamental rights, civic duties, and constitutional principles in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u26l_b8_1", title:"Diritti e doveri", icon:"📜", x
 
 {type:"mc",
  q:"When did Italy abolish the death penalty?",
- opts:["1948 (in the new Constitution)","1900","1975","2000"],
+ opts:["2000","1948 (in the new Constitution)","1900","1975"],
  ans:"1948 (in the new Constitution)",
  hint:"The post-war C... included this abolition. Article 27 focuses on rehabilitation, not punishment."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u26l_b8_1", title:"Diritti e doveri", icon:"📜", x
 
 {type:"mc",
  q:"What is Italy's biggest criticism of its justice system?",
- opts:["The extreme slowness of proceedings","Too few courts","Too many judges","Not enough laws"],
+ opts:["Too many judges","Not enough laws","The extreme slowness of proceedings","Too few courts"],
  ans:"The extreme slowness of proceedings",
  hint:"Cases can take years or even decades through the multi-level appeal system. 'Lentezza della giustizia' is a famous phrase."}
 ,{type:"match",pairs:[{trg:"la Costituzione",src:"the Constitution"},{trg:"la pena",src:"the penalty / punishment"}]}]};

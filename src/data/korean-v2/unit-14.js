@@ -1,4 +1,4 @@
-// Korean V2 Unit 14 — 해야 돼요
+// Korean V2 Unit 14, 해야 돼요
 // Level: B1.1
 
 const UNIT_14 =
@@ -317,19 +317,19 @@ const UNIT_14 =
 
 {type:"fb",s:"{1}에 날씨가 따뜻해요. 꽃이 피어요.\n(___ weather is warm. Flowers bloom.)",a:"봄",opts:["봄","여름","가을","겨울"],hint:"Which season has warm weather and blooming flowers?"},
 
-{type:"mc",q:"한국 여름은 덥고 습해요. 습하다 means:",opts:["cold","dry","humid, muggy","windy"],ans:"humid, muggy",hint:"Summer in Korea is famously hot and …. 덥다 = hot. 습하다 = the weather quality that makes you sweat even at night."},
+{type:"mc",q:"한국 여름은 덥고 습해요. 습하다 means:",opts:["dry","humid, muggy","windy","cold"],ans:"humid, muggy",hint:"Summer in Korea is famously hot and …. 덥다 = hot. 습하다 = the weather quality that makes you sweat even at night."},
 
 {type:"fb",s:"가을에 날씨가 좋아서 공원에서 {1}.\n(The autumn weather is nice so I ___ in the park.)",a:"쉬어요",opts:["쉬어요","출근해요","제출해요","준비해요"],hint:"The autumn weather is nice so I do what in the park? A relaxing activity."},
 
-{type:"mc",q:"겨울에 눈이 많이 와요. 눈 here means:",opts:["eye","snow","cloud","sun"],ans:"snow",hint:"겨울 = winter. 많이 와요 = comes a lot. What falls from the sky in winter in Korea?"},
+{type:"mc",q:"겨울에 눈이 많이 와요. 눈 here means:",opts:["sun","eye","snow","cloud"],ans:"snow",hint:"겨울 = winter. 많이 와요 = comes a lot. What falls from the sky in winter in Korea?"},
 
 {type:"fb",s:"주말에 보통 뭐 해요? → 주말에 가족이랑 {1}.\n(What do you usually do on weekends? → On weekends I ___ with my family.)",a:"만나요",opts:["만나요","야근해요","출근해요","제출해요"],hint:"주말 is a day off. What is a natural weekend activity with family? A social verb."},
 
-{type:"mc",q:"특히 가을에 자주 여행해요 means:",opts:["I especially travel often in autumn","I traveled last autumn","I do not travel in autumn","I prefer summer travel"],ans:"I especially travel often in autumn",hint:"특히 = …. 자주 = …. 가을에 = in …. 여행해요 = …."},
+{type:"mc",q:"특히 가을에 자주 여행해요 means:",opts:["I traveled last autumn","I do not travel in autumn","I prefer summer travel","I especially travel often in autumn"],ans:"I especially travel often in autumn",hint:"특히 = …. 자주 = …. 가을에 = in …. 여행해요 = …."},
 
 {type:"fb",s:"이 공원이 조용하고 {1}어서 자주 와요.\n(This park is quiet and ___ so I come often.)",a:"편해",opts:["편해","야근해","출근해","제출해"],hint:"The park is quiet and this descriptive quality makes it pleasant. Which adjective fits 'comfortable, at ease'?"},
 
-{type:"mc",q:"깨끗하다 is the OPPOSITE of:",opts:["따뜻하다 (warm)","편하다 (comfortable)","더럽다 (dirty)","조용하다 (quiet)"],ans:"더럽다 (dirty)",hint:"깨끗하다 = clean. Which of these options means the exact opposite?"},
+{type:"mc",q:"깨끗하다 is the OPPOSITE of:",opts:["더럽다 (dirty)","조용하다 (quiet)","따뜻하다 (warm)","편하다 (comfortable)"],ans:"더럽다 (dirty)",hint:"깨끗하다 = clean. Which of these options means the exact opposite?"},
 
 {type:"drag_fill",s:"저는 {1}을 제일 좋아해요. 날씨가 따뜻하고 날씨도 좋거든요.\n(I like ___ the most. The weather is warm and the weather is also nice, you see.)",blanks:{"1":"봄"},pool:["봄","여름","가을","겨울","주말"],hint:"This season has warm weather and nice conditions. Which of the four seasons fits?"},
 
@@ -337,7 +337,7 @@ const UNIT_14 =
 
 {type:"match",pairs:[{trg:"봄",src:"spring"},{trg:"여름",src:"summer"},{trg:"가을",src:"autumn"},{trg:"겨울",src:"winter"},{trg:"계절",src:"season"},{trg:"주말",src:"weekend"}]},
 
-{type:"mc",q:"Which sentence uses 여행하다 correctly?",opts:["주말에 여행해요.","주말에 여행이에요.","주말을 여행이에요.","주말은 여행했어요 해요."],ans:"주말에 여행해요.",hint:"여행하다 is a verb. Use the time particle 에 for 주말 (weekend). Which option has the correct particle and verb form?"},
+{type:"mc",q:"Which sentence uses 여행하다 correctly?",opts:["주말은 여행했어요 해요.","주말에 여행해요.","주말에 여행이에요.","주말을 여행이에요."],ans:"주말에 여행해요.",hint:"여행하다 is a verb. Use the time particle 에 for 주말 (weekend). Which option has the correct particle and verb form?"},
 
 {type:"drag_fill",s:"봄 {1}에는 따뜻하고 {2}해서 여행하기 좋아요.\n(In the spring ___, it is warm and ___ so it is good to travel.)",blanks:{"1":"계절","2":"편"},pool:["계절","편","주말","직장","여름","깨끗"],hint:"봄 계절 = the spring season. 편하다 = comfortable. Both make travel enjoyable."},
 {type:"match",pairs:[{trg:"여행하다",src:"to travel (dictionary form)"},{trg:"깨끗하다",src:"to be clean (dictionary form)"}]},
@@ -371,7 +371,7 @@ const UNIT_14 =
  example:"A: 어떤 서류가 필요해요?\nB: 여권이랑 사진 두 장이 필요해요.",
  exampleSrc:"A: What documents are needed?\nB: You need a passport and two photos.",
  funFact:"Korean bureaucracy is famous for its 서류 requirements. A popular joke: Koreans bring 서류 to their own birthday parties, just in case."},
-{type:"tip",title:"Key Administrative Vocabulary",text:"At the 관공서, you will often hear:\n\n번호표 뽑으세요 = Please take a number.\n창구 = service window\n담당자 = person in charge\n대기 중 = waiting\n\nPolite phrases:\n어떻게 도와드릴까요? = How may I help you?\n서류가 다 갖춰졌나요? = Are all the documents in order?",deepDive:"Korean honorifics at 관공서:\n\nStaff use formal -ㅂ니다/습니다 speech.\nYou should use polite -아요/어요 or formal speech.\n\n처리해 드리겠습니다 = I will process this for you (humble).\n확인해 주시겠어요? = Could you please check this?\n\nBring your 도장 (personal seal/stamp) for some procedures — still required for official forms."},
+{type:"tip",title:"Key Administrative Vocabulary",text:"At the 관공서, you will often hear:\n\n번호표 뽑으세요 = Please take a number.\n창구 = service window\n담당자 = person in charge\n대기 중 = waiting\n\nPolite phrases:\n어떻게 도와드릴까요? = How may I help you?\n서류가 다 갖춰졌나요? = Are all the documents in order?",deepDive:"Korean honorifics at 관공서:\n\nStaff use formal -ㅂ니다/습니다 speech.\nYou should use polite -아요/어요 or formal speech.\n\n처리해 드리겠습니다 = I will process this for you (humble).\n확인해 주시겠어요? = Could you please check this?\n\nBring your 도장 (personal seal/stamp) for some procedures, still required for official forms."},
 {type:"teach",trg:"신청하다",src:"to apply, to request",pos:"verb",gender:null,
  note:"Sino-Korean: 신(state/申) + 청(request/請) + 하다.\n신청서 = application form.\n신청 마감 = application deadline.",
  example:"A: 등록증을 신청하러 왔어요.\nB: 신청서를 작성해 주세요.",
@@ -383,11 +383,11 @@ const UNIT_14 =
  exampleSrc:"A: I would like to extend my visa.\nB: You must apply one month before the expiry date.",
  funFact:"Missing your visa expiry date in Korea results in a daily fine and can lead to deportation. Koreans use the phrase '기간 연장' (period extension) for everything from gym memberships to employment contracts."},
 {type:"mc",q:"관공서 means:",opts:["Government office","Private company","University campus","Shopping center"],ans:"Government office",hint:"관(官) = official. 공(公) = public. 서(署) = …. All three characters point to official public functions."},
-{type:"mc",q:"주민등록증 is issued to:",opts:["Korean citizens at age 17","Foreigners staying long-term","All residents regardless of nationality","University students only"],ans:"Korean citizens at age 17",hint:"주민(住民) means resident — referring to the national population. Foreigners carry a different 등록증. When does the standard national ID process begin?"},
-{type:"mc",q:"외국인등록증 is for:",opts:["Korean citizens at age 17","Foreigners staying in Korea long-term","International students only","Tourists visiting under 90 days"],ans:"Foreigners staying in Korea long-term",hint:"외국인 = foreigner. 등록증 = registration card. Citizens use a different card. This one is specifically for non-citizens who stay beyond a short visit."},
+{type:"mc",q:"주민등록증 is issued to:",opts:["University students only","Korean citizens at age 17","Foreigners staying long-term","All residents regardless of nationality"],ans:"Korean citizens at age 17",hint:"주민(住民) means resident, referring to the national population. Foreigners carry a different 등록증. When does the standard national ID process begin?"},
+{type:"mc",q:"외국인등록증 is for:",opts:["Tourists visiting under 90 days","Korean citizens at age 17","Foreigners staying in Korea long-term","International students only"],ans:"Foreigners staying in Korea long-term",hint:"외국인 = foreigner. 등록증 = registration card. Citizens use a different card. This one is specifically for non-citizens who stay beyond a short visit."},
 {type:"fb",s:"비자를 {1}하러 출입국 사무소에 갔어요.\n(I went to the immigration office to ___ my visa.)",a:"연장",opts:["연장","신청","제출","발급"],hint:"I went to the immigration office to extend my visa. Which verb means to extend or renew?"},
 {type:"fb",s:"등록증을 {1}하려면 여러 서류가 필요해요.\n(To ___ for a registration card, you need several documents.)",a:"신청",opts:["신청","연장","졸업","제출"],hint:"To apply for the registration card. Which verb means to apply or request?"},
-{type:"mc",q:"서류를 제출하다 means:",opts:["To review documents","To submit documents","To sign documents","To lose documents"],ans:"To submit documents",hint:"제출하다 = to … (was taught in L2 of this unit). 서류 = …. Put them together."},
+{type:"mc",q:"서류를 제출하다 means:",opts:["To sign documents","To lose documents","To review documents","To submit documents"],ans:"To submit documents",hint:"제출하다 = to … (was taught in L2 of this unit). 서류 = …. Put them together."},
 {type:"match",pairs:[{trg:"관공서",src:"government office"},{trg:"비자",src:"visa"},{trg:"신청하다",src:"to apply"},{trg:"연장하다",src:"to extend/renew"},{trg:"주민등록증",src:"resident registration card (Korean nationals)"},{trg:"외국인등록증",src:"alien registration card (foreign residents)"}]},
 {type:"drag_fill",s:"A: 비자 기간이 끝났어요. {1}하고 싶어요.\nB: 만료일 전에 {2}를 제출해야 해요.\n(A: My visa period is up. I want to ___.\nB: You must submit the ___ before the expiry date.)",blanks:{"1":"연장","2":"서류"},pool:["연장","서류","신청","관공서","주민등록증"],hint:"A wants to extend. B says submit documents before expiry."},
 ]},

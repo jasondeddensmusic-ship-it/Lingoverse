@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 18: Endurance and Translation
+// Korean B2. Batch 4, Lesson 18: Endurance and Translation
 // Words: 버티다, 번거롭다, 번역, 번역하다, 번지, 벌, 벌금, 벌떡, 벌레, 범위, 범인, 범죄, 법률, 법원, 법적, 법칙, 베개, 베다, 벤치, 벼
 
 const LESSON_18 = {
@@ -119,7 +119,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"'법률'과 '법칙'의 차이점은?",
-     opts:["법률은 사람이 만든 법, 법칙은 자연의 원리","둘 다 같은 뜻이다","법칙이 더 강한 법이다","법률은 과학에서만 쓴다"],
+     opts:["법률은 과학에서만 쓴다","법률은 사람이 만든 법, 법칙은 자연의 원리","둘 다 같은 뜻이다","법칙이 더 강한 법이다"],
      ans:"법률은 사람이 만든 법, 법칙은 자연의 원리",
      hint:"One is enacted by governments for society, the other describes natural or scientific principles."},
 

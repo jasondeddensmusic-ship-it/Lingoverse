@@ -1,4 +1,4 @@
-// Unit 13 — Wat Vind Jij?
+// Unit 13. Wat Vind Jij?
 // Opinions & Extended Subordination
 
 export default {n:13,lang:"nl",srcLang:"en",track:"v2",title:"Wat Vind Jij?",sub:"Opinions & Extended Subordination",icon:"💬",level:"B1.1",color:"#7B5EE8",lessons:[
@@ -178,8 +178,8 @@ export default {n:13,lang:"nl",srcLang:"en",track:"v2",title:"Wat Vind Jij?",sub
         {type:"teach",trg:"slim",src:"clever / smart / intelligent",pos:"adj",gender:null,phonetic:"slim",note:"'Slim' means clever, not 'slim' in the English body sense!\nBeware: English 'slim' = Dutch 'slank'.\n'Wat slim!' = How clever!",example:"A: Wat een slimme oplossing!\nB: Dank je, ik dacht er lang over na.\nA: Dat zie ik.",exampleSrc:"A: What a clever solution!\nB: Thanks, I thought about it for a long time.\nA: I can see that.",funFact:"False friend! English 'slim' means thin. Dutch 'slim' means clever/smart. Related to German 'schlimm' (bad) but Dutch shifted the meaning toward clever."},
         {type:"teach",trg:"zeldzaam",src:"rare / uncommon",pos:"adj",gender:null,phonetic:"ZEL-dzahm",note:"COMPOUND: zeld (rare) + zaam (suffix meaning 'in a manner').\nUsed for rare animals, events, phenomena.\n'Dat is zeldzaam.' = That is rare.",example:"A: Heb je een zeldzame vogel gezien?\nB: Ja, in het bos.\nA: Dat is zeldzaam!",exampleSrc:"A: Did you see a rare bird?\nB: Yes, in the forest.\nA: That is rare!",funFact:"Related to 'zelden' (seldom/rarely). The -zaam suffix also appears in 'langzaam' (slow), 'werkzaam' (active)."},
         {type:"teach",trg:"uniek",src:"unique / one of a kind",pos:"adj",gender:null,phonetic:"oo-NEEK",note:"Cognate with English. Stress on second syllable: oo-NEEK.\n'Dat is uniek!' = That's unique!\nUsed for truly one-of-a-kind things.",example:"A: Dit schilderij is uniek.\nB: Ja, er is er maar een van.\nA: Geweldig.",exampleSrc:"A: This painting is unique.\nB: Yes, there is only one of it.\nA: Great.",funFact:"Cognate with English 'unique', French 'unique'. From Latin 'unicus' (only one). 'Uni' = one, the same root as 'unit', 'universe'."},
-        {type:"mc",q:"'Slim' in Dutch means:",opts:["thin","clever/smart","slow","shy"],ans:"clever/smart",hint:"False friend alert! Dutch slim does NOT mean thin."},
-        {type:"mc",q:"'Dat is zeldzaam.' means:",opts:["That is dangerous","That is easy","That is rare","That is unique"],ans:"That is rare",hint:"Zeldzaam = r..."},
+        {type:"mc",q:"'Slim' in Dutch means:",opts:["clever/smart","slow","shy","thin"],ans:"clever/smart",hint:"False friend alert! Dutch slim does NOT mean thin."},
+        {type:"mc",q:"'Dat is zeldzaam.' means:",opts:["That is easy","That is rare","That is unique","That is dangerous"],ans:"That is rare",hint:"Zeldzaam = r..."},
         {type:"fb",opts:["fantastisch","makkelijk","uniek","slim"],hint:"One of a kind, no duplicate exists",s:"Dit kunstwerk is ___. Er is er maar een van.",a:"uniek"},
         {type:"match",pairs:[{trg:"fantastisch",src:"fantastic"},{trg:"makkelijk",src:"easy"},{trg:"slim",src:"clever/smart"},{trg:"zeldzaam",src:"rare"}]},
         {type:"fb",opts:["makkelijk","moeilijk","slim","zeldzaam"],hint:"Opposite of 'moeilijk' (difficult)",s:"Het examen was niet moeilijk. Het was heel ___.",a:"makkelijk"}

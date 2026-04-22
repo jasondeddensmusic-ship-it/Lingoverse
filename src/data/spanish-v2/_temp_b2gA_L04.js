@@ -1,4 +1,4 @@
-// Lesson 4 — Emociones y psicología
+// Lesson 4. Emociones y psicología
 const LESSON_4 = {id:"esv2_b2gA_l4", title:"Emociones y psicología", icon:"🧠", xp:15, board:true, steps:[
 {type:"intro", title:"Emociones y psicología", desc:"Express complex emotions, personality traits, and psychological states with nuance.", goals:["Learn 15 emotion and psychology words","Describe inner states precisely","Discuss character with sophistication"]},
 
@@ -57,7 +57,7 @@ const LESSON_4 = {id:"esv2_b2gA_l4", title:"Emociones y psicología", icon:"🧠
  exampleSrc:"A: She speaks with extraordinary refinement.\nB: You can tell she's had a good education.",
  funFact:"In Mexico, 'hacer una fineza' means to do someone a kind favor."},
 
-{type:"mc", q:"Si alguien está 'mustio', ¿cómo se siente?", opts:["Triste y sin energía","Muy enfadado","Extremadamente feliz","Nervioso y agitado"], ans:"Triste y sin energía",
+{type:"mc", q:"Si alguien está 'mustio', ¿cómo se siente?", opts:["Nervioso y agitado","Triste y sin energía","Muy enfadado","Extremadamente feliz"], ans:"Triste y sin energía",
  hint:"Picture a wilted flower. Now apply that image to a person's mood."},
 
 {type:"fb", s:"La {1} del mensaje le dejó sin saber qué responder.", a:["extrañeza"], opts:["extrañeza","fineza","nobleza","impulsividad"],
@@ -94,7 +94,7 @@ const LESSON_4 = {id:"esv2_b2gA_l4", title:"Emociones y psicología", icon:"🧠
  hint:"This onomatopoeic noun describes a soft, low sound of many voices.",
  sSrc:"In the room a nervous {1} could be heard before the announcement."},
 
-{type:"mc", q:"¿Qué significa 'la invalidez permanente'?", opts:["Incapacidad laboral definitiva por enfermedad o lesión","Una multa de tráfico grave","Un tipo de seguro de vida","Una condición temporal"], ans:"Incapacidad laboral definitiva por enfermedad o lesión",
+{type:"mc", q:"¿Qué significa 'la invalidez permanente'?", opts:["Un tipo de seguro de vida","Una condición temporal","Incapacidad laboral definitiva por enfermedad o lesión","Una multa de tráfico grave"], ans:"Incapacidad laboral definitiva por enfermedad o lesión",
  hint:"This term combines permanent inability with work capacity."},
 
 {type:"fb", s:"Su {1} de carácter le distingue de los demás políticos.", a:["nobleza"], opts:["nobleza","irritabilidad","impulsividad","incompetencia"],

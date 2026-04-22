@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 7: Caractère et Personnalité
+// French B2 Gap Batch 9. Lesson 7: Caractère et Personnalité
 // Character and personality vocabulary
 
 const LESSON_7 = {id:"frv2_b2g9_l7", title:"Caractère et Personnalité", icon:"🎭", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_7 = {id:"frv2_b2g9_l7", title:"Caractère et Personnalité", icon:"
    exampleSrc:"A: It's a rather ordinary story.\nB: Nothing extraordinary, indeed.",
    funFact:"The masculine plural banals is irregular. Most -al adjectives become -aux, but not this one."},
 
-  {type:"mc", q:"Orgueilleux est le contraire de:", opts:["Courageux","Modeste","Curieux","Persévérant"], ans:"Modeste",
+  {type:"mc", q:"Orgueilleux est le contraire de:", opts:["Modeste","Curieux","Persévérant","Courageux"], ans:"Modeste",
    hint:"Orgueilleux means arrogantly proud. The opposite is being humble or..."},
 
   {type:"teach", trg:"justicier", src:"vigilante, dispenser of justice", pos:"adj", gender:null,
@@ -117,7 +117,7 @@ const LESSON_7 = {id:"frv2_b2g9_l7", title:"Caractère et Personnalité", icon:"
     {trg:"banal", src:"ordinary"}
   ]},
 
-  {type:"mc", q:"'Faire tout à sa guise' signifie:", opts:["Faire tout rapidement","Faire tout comme on veut","Faire tout avec soin","Faire tout ensemble"], ans:"Faire tout comme on veut",
+  {type:"mc", q:"'Faire tout à sa guise' signifie:", opts:["Faire tout ensemble","Faire tout rapidement","Faire tout comme on veut","Faire tout avec soin"], ans:"Faire tout comme on veut",
    hint:"À sa guise = as one wishes. Complete freedom to do things one's own way."},
 
   {type:"fb", s:"La folie des {1} l'a conduit à la ruine.", a:["grandeurs"], opts:["grandeurs","infidélités","piquants","modérés"],

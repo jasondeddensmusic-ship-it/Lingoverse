@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 4: Economy and Planning
+// Korean B2. Batch 4, Lesson 4: Economy and Planning
 // Words: 경영하다, 경쟁력, 경제력, 경제학, 계곡, 계산기, 계좌, 계층, 계획하다, 고교, 고구마, 고궁, 고급스럽다, 고모부, 고무신, 고민하다, 고생하다, 고소하다, 고속, 고속도로
 
 const LESSON_4 = {
@@ -107,7 +107,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"'고구마'의 슬랭 의미는?",
-     opts:["답답한 상황","맛있는 음식","추운 날씨","비싼 물건"],
+     opts:["비싼 물건","답답한 상황","맛있는 음식","추운 날씨"],
      ans:"답답한 상황",
      hint:"Think about the feeling of a sweet potato getting stuck in your throat, causing frustration."},
 

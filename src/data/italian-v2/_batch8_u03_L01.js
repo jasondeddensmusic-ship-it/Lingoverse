@@ -1,4 +1,4 @@
-// Batch 8 — Unit 03 extra lesson. Family: Life Events & Celebrations
+// Batch 8. Unit 03 extra lesson. Family: Life Events & Celebrations
 const BATCH8_L1 = {id:"itv2_u03l_b8_1", title:"Le feste in famiglia", icon:"🎂", xp:15, board:true, steps:[
 {type:"intro", title:"Le feste in famiglia",
  desc:"Learn vocabulary for family celebrations, life events, and the traditions that bring Italian families together.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u03l_b8_1", title:"Le feste in famiglia", icon:"🎂
 
 {type:"mc",
  q:"What is 'l'onomastico' in Italian culture?",
- opts:["A name day celebration","A birthday party","A wedding anniversary","A religious holiday"],
+ opts:["A religious holiday","A name day celebration","A birthday party","A wedding anniversary"],
  ans:"A name day celebration",
  hint:"It is connected to your first n... and the saint associated with it."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u03l_b8_1", title:"Le feste in famiglia", icon:"🎂
 
 {type:"mc",
  q:"What must you do while clinking glasses in Italy?",
- opts:["Look each person in the eyes","Close your eyes","Hold the glass with two hands","Say your name"],
+ opts:["Hold the glass with two hands","Say your name","Look each person in the eyes","Close your eyes"],
  ans:"Look each person in the eyes",
  hint:"Not doing this is considered bad luck, similar to a superstition in many European countries."}
 ,{type:"match",pairs:[{trg:"il compleanno",src:"the birthday"},{trg:"il matrimonio",src:"the wedding / marriage"},{trg:"il brindisi",src:"the toast (celebratory)"},{trg:"riunirsi",src:"to gather / to get together"},{trg:"sorprendere",src:"to surprise"}]},{type:"fb",s:"Hanno fatto {1} per festeggiare la vittoria della squadra.",a:["il brindisi"],opts:["il brindisi","il ricordo","il regalo","il matrimonio"],hint:"A celebratory gesture where glasses are raised and clinked together, often accompanied by a short speech.",sSrc:"They made {1} to celebrate the team victory."}]};

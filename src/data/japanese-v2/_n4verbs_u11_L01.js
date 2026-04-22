@@ -1,4 +1,4 @@
-// N4 Core Verbs — Unit 11 Lesson: Essential JLPT N4 Verbs (A2.1)
+// N4 Core Verbs. Unit 11 Lesson: Essential JLPT N4 Verbs (A2.1)
 // 7 teach cards: 会う, 遊ぶ, 生まれる, 入れる, 持つ, 呼ぶ, 変える
 // PP64: every teach card tested. PP67: 2+ fb with Japanese answers.
 
@@ -63,33 +63,33 @@ const N4VERBS_L1 = {id:"jpv2_u11l_n4v", title:"N4必須動詞(ひっすどうし
    deepDive:{title:"Why the distinction matters",
     text:"Godan and ichidan verbs form て-form differently.\n\nGodan rules vary by ending:\n会(あ)う -> 会(あ)って (u-ending: double consonant + te)\n遊(あそ)ぶ -> 遊(あそ)んで (bu-ending: n + de)\n持(も)つ -> 持(も)って (tsu-ending: double t + te)\n呼(よ)ぶ -> 呼(よ)んで (bu-ending: n + de)\n\nIchidan rule is always simple: drop る, add て.\n生(う)まれる -> 生(う)まれて\n入(い)れる -> 入(い)れて\n変(か)える -> 変(か)えて\n\nMastering this split unlocks て-form for all verbs."}},
 
-  // ── Quiz 1: mc — 会う meaning ──
-  {type:"mc", q:"What does 会(あ)う mean?", opts:["to go","to meet","to call","to hold"], ans:"to meet",
+  // ── Quiz 1: mc, 会う meaning ──
+  {type:"mc", q:"What does 会(あ)う mean?", opts:["to meet","to call","to hold","to go"], ans:"to meet",
    hint:"This verb uses に to mark the person you encounter."},
 
-  // ── Quiz 2: mc — 遊ぶ meaning ──
+  // ── Quiz 2: mc, 遊ぶ meaning ──
   {type:"mc", q:"Which verb means 'to play / to have fun'?",
-   opts:["変(か)える","持(も)つ","遊(あそ)ぶ","生(う)まれる"], ans:"遊(あそ)ぶ",
+   opts:["持(も)つ","遊(あそ)ぶ","生(う)まれる","変(か)える"], ans:"遊(あそ)ぶ",
    hint:"This godan bu-verb describes recreational activity or hanging out."},
 
-  // ── Quiz 3: mc — correct particle for 会う ──
+  // ── Quiz 3: mc, correct particle for 会う ──
   {type:"mc", q:"Choose the correct particle: 父(ちち)___会(あ)いました。",
    opts:["を","は","に","が"], ans:"に",
    hint:"The verb 会(あ)う uses this particle to mark the person met."},
 
-  // ── Quiz 4: fb — production: 入れる ──
+  // ── Quiz 4: fb, production: 入れる ──
   {type:"fb", s:"かばんに本(ほん)を{1}ください。\n(Please put the book in the bag.)", a:"入(い)れて",
    opts:["入(い)れて","変(か)えて","遊(あそ)んで","呼(よ)んで"],
    sSrc:"Please put the book in the bag.",
    hint:"The て-form of 入(い)れる (ichidan): drop る, add て."},
 
-  // ── Quiz 5: fb — production: 持つ ──
+  // ── Quiz 5: fb, production: 持つ ──
   {type:"fb", s:"携帯(けいたい)を{1}いますか？\n(Do you have a cellphone?)", a:"持(も)って",
    opts:["持(も)って","呼(よ)んで","会(あ)って","遊(あそ)んで"],
    sSrc:"Do you have a cellphone?",
    hint:"Use the て-form of 持(も)つ with いますか to ask about possession."},
 
-  // ── Quiz 6: match — all 7 verbs ──
+  // ── Quiz 6: match, all 7 verbs ──
   {type:"match", pairs:[
     {trg:"会(あ)う", src:"to meet"},
     {trg:"遊(あそ)ぶ", src:"to play / to have fun"},
@@ -97,25 +97,25 @@ const N4VERBS_L1 = {id:"jpv2_u11l_n4v", title:"N4必須動詞(ひっすどうし
     {trg:"変(か)える", src:"to change (something)"}
   ]},
 
-  // ── Quiz 7: match — remaining 3 verbs ──
+  // ── Quiz 7: match, remaining 3 verbs ──
   {type:"match", pairs:[
     {trg:"入(い)れる", src:"to put in"},
     {trg:"持(も)つ", src:"to hold / to have"},
     {trg:"呼(よ)ぶ", src:"to call (someone)"}
   ]},
 
-  // ── Quiz 8: mc — 生まれる context ──
+  // ── Quiz 8: mc, 生まれる context ──
   {type:"mc", q:"日本(にほん)で生(う)まれました means:",
-   opts:["I went to Japan","I live in Japan","I was born in Japan","I visited Japan"], ans:"I was born in Japan",
+   opts:["I visited Japan","I went to Japan","I live in Japan","I was born in Japan"], ans:"I was born in Japan",
    hint:"生(う)まれる is the ichidan verb for birth. で marks the location."},
 
-  // ── Quiz 9: mc — 変える vs 変わる ──
+  // ── Quiz 9: mc, 変える vs 変わる ──
   {type:"mc", q:"Which sentence means 'I changed the recipe'?",
-   opts:["レシピが変(か)わりました","レシピを変(か)えました","レシピに会(あ)いました","レシピを遊(あそ)びました"],
+   opts:["レシピを変(か)えました","レシピに会(あ)いました","レシピを遊(あそ)びました","レシピが変(か)わりました"],
    ans:"レシピを変(か)えました",
    hint:"変(か)える is transitive: the subject performs the change on an object marked with を."},
 
-  // ── Quiz 10: mc — 呼ぶ meaning ──
+  // ── Quiz 10: mc, 呼ぶ meaning ──
   {type:"mc", q:"母(はは)を呼(よ)んでください means:",
    opts:["Please meet my mother","Please call my mother","Please change my mother","Please hold my mother"],
    ans:"Please call my mother",

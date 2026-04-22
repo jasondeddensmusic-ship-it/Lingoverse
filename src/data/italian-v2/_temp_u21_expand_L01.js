@@ -61,7 +61,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What is the most elegant way to ask for something in a formal setting?",
-     opts:["Voglio questo (I want this)","Dammi quello (Give me that)","Sarebbe possibile avere...? (Would it be possible to have...?)","Ho bisogno di (I need)"],
+     opts:["Sarebbe possibile avere...? (Would it be possible to have...?)","Ho bisogno di (I need)","Voglio questo (I want this)","Dammi quello (Give me that)"],
      ans:"Sarebbe possibile avere...? (Would it be possible to have...?)",
      hint:"This impersonal form removes any sense of demanding. You are asking if reality allows it, not telling someone to do it."},
 
@@ -80,7 +80,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"When should you use 'potrebbe' instead of 'potresti'?",
-     opts:["When speaking to friends and family","When writing text messages casually","When addressing strangers, officials, or elders (Lei)","When speaking very quickly in informal settings"],
+     opts:["When writing text messages casually","When addressing strangers, officials, or elders (Lei)","When speaking very quickly in informal settings","When speaking to friends and family"],
      ans:"When addressing strangers, officials, or elders (Lei)",
      hint:"'Potrebbe' matches the formal 'L...' pronoun. 'Potresti' matches the informal 'tu.' Start formal with unknown people."},
 
@@ -91,7 +91,7 @@ const LESSON_4 = {
      sSrc:"We {1} a table for two, please."},
 
     {type:"mc", q:"What makes 'Le dispiacerebbe...?' so polite?",
-     opts:["It uses the future tense showing planning","It appeals to the other person's willingness rather than ability","It is louder and shows confidence","It includes a formal greeting before the request"],
+     opts:["It includes a formal greeting before the request","It uses the future tense showing planning","It appeals to the other person's willingness rather than ability","It is louder and shows confidence"],
      ans:"It appeals to the other person's willingness rather than ability",
      hint:"Instead of asking 'Can you?' it asks 'Would it bother you?' This subtly puts the o... p... in control."},
 
@@ -102,7 +102,7 @@ const LESSON_4 = {
      sSrc:"What {1} you recommend as a main course?"},
 
     {type:"mc", q:"What is the general rule for choosing tu vs. Lei in Italy?",
-     opts:["Always use tu with everyone","Always use Lei with everyone","Start formal (Lei) and wait for the other person to suggest tu","Use tu in the morning and Lei in the evening"],
+     opts:["Use tu in the morning and Lei in the evening","Always use tu with everyone","Always use Lei with everyone","Start formal (Lei) and wait for the other person to suggest tu"],
      ans:"Start formal (Lei) and wait for the other person to suggest tu",
      hint:"Age, setting, and regional norms matter. The safe approach is to begin with courtesy and let familiarity develop naturally."}
   ]

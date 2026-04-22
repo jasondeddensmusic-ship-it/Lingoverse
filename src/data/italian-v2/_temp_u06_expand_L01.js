@@ -87,7 +87,7 @@ const LESSON_4 = {
      sSrc:"Where is the nearest {1}?"},
 
     {type:"mc", q:"What emergency number reaches the Italian state police?",
-     opts:["113","112","115","118"],
+     opts:["118","113","112","115"],
      ans:"113",
      hint:"Italy has separate numbers for different emergency services. The state police (Polizia di Stato) uses this three-digit number."},
 
@@ -106,7 +106,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"Why does English 'bankrupt' come from Italian?",
-     opts:["Medieval Italian bankers' benches were broken when they failed","Banks were invented in Italy","English borrowed the word randomly","It comes from Latin"],
+     opts:["English borrowed the word randomly","It comes from Latin","Medieval Italian bankers' benches were broken when they failed","Banks were invented in Italy"],
      ans:"Medieval Italian bankers' benches were broken when they failed",
      hint:"'Banca rotta' (b... bench) described what happened to a f... money changer's workplace in the marketplace."},
 
@@ -117,7 +117,7 @@ const LESSON_4 = {
      sSrc:"The {1} of Bologna is the oldest in the world."},
 
     {type:"mc", q:"What does 'l'edicola' sell besides newspapers?",
-     opts:["Bus tickets, phone cards, magazines","Only newspapers","Only books","Only food"],
+     opts:["Only newspapers","Only books","Only food","Bus tickets, phone cards, magazines"],
      ans:"Bus tickets, phone cards, magazines",
      hint:"Italian newsstands are multi-purpose kiosks. They are convenient one-stop shops for small daily needs."},
 

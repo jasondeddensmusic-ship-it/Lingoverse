@@ -70,7 +70,7 @@ lessons:[
  sSrc:"He will {1} next June."},
 
 {type:"mc", q:"成绩(chéngjì) can refer to:",
- opts:["Academic scores, work results, and sports records","Only exam scores","Only sports results","Only work performance"],
+ opts:["Only work performance","Academic scores, work results, and sports records","Only exam scores","Only sports results"],
  ans:"Academic scores, work results, and sports records",
  hint:"This word covers measurable achievements across many areas of life, not just one context."},
 
@@ -143,7 +143,7 @@ lessons:[
  sSrc:"I went to a company {1} yesterday."},
 
 {type:"mc", q:"他(tā)有(yǒu)十年(shínián)的(de)工作(gōngzuò)经验(jīngyàn)。 This means:",
- opts:["He has ten years of work experience","He has been looking for work for ten years","He has ten jobs","He works ten hours a day"],
+ opts:["He works ten hours a day","He has ten years of work experience","He has been looking for work for ten years","He has ten jobs"],
  ans:"He has ten years of work experience",
  hint:"工作经验 means professional …. 十年 means … …. The sentence describes someone's career history."},
 
@@ -216,7 +216,7 @@ lessons:[
  sSrc:"My {1} is to become a good teacher."},
 
 {type:"mc", q:"努力(nǔlì) in Chinese culture is valued because:",
- opts:["Hard work is believed to outweigh natural talent","It is required by law","Only scholars need to work hard","It refers to physical strength only"],
+ opts:["It refers to physical strength only","Hard work is believed to outweigh natural talent","It is required by law","Only scholars need to work hard"],
  ans:"Hard work is believed to outweigh natural talent",
  hint:"Chinese culture deeply values persistence and effort. A famous saying compares this to grinding an iron rod into a needle."},
 
@@ -233,7 +233,7 @@ lessons:[
  sSrc:"This city's economy has {1} very fast."},
 
 {type:"mc", q:"我(wǒ)计划(jìhuà)先(xiān)工作(gōngzuò)，然后(ránhòu)读(dú)研究生(yánjiūshēng)。 What is the plan?",
- opts:["Work first, then study for a master's degree","Study first, then find work","Work and study at the same time","Quit work and travel"],
+ opts:["Work and study at the same time","Quit work and travel","Work first, then study for a master's degree","Study first, then find work"],
  ans:"Work first, then study for a master's degree",
  hint:"先 means '___,' and 然后 means '___.' 研究生 means graduate student. The sentence describes a two-step plan."}
 ]},
@@ -264,7 +264,7 @@ lessons:[
  sSrc:"Her {1} is English education."},
 
 {type:"mc", q:"申请(shēnqǐng) is used when you want to:",
- opts:["Formally request or apply for something","Casually ask a question","Complain about something","Accept an offer"],
+ opts:["Accept an offer","Formally request or apply for something","Casually ask a question","Complain about something"],
  ans:"Formally request or apply for something",
  hint:"This word combines 'state' and '___.' It is used for formal applications to jobs, schools, and visa offices."},
 
@@ -289,7 +289,7 @@ lessons:[
  sSrc:"You must {1} at studying to do well on the exam."},
 
 {type:"mc", q:"机会(jīhuì) literally combines which two ideas?",
- opts:["Trigger mechanism + meeting","Good + luck","Open + door","Hand + reach"],
+ opts:["Open + door","Hand + reach","Trigger mechanism + meeting","Good + luck"],
  ans:"Trigger mechanism + meeting",
  hint:"机 originally meant the ___ of a crossbow, representing a critical moment. 会 means ___ or convergence."},
 
@@ -306,7 +306,7 @@ lessons:[
  hint:"After graduating from university, he applied to many companies, went through interviews, and finally found a good opportunity."},
 
 {type:"mc", q:"这个(zhège)城市(chéngshì)发展(fāzhǎn)得(de)很(hěn)快(kuài)。 This means the city:",
- opts:["Has developed very quickly","Has many universities","Has lots of competition","Has good weather"],
+ opts:["Has many universities","Has lots of competition","Has good weather","Has developed very quickly"],
  ans:"Has developed very quickly",
  hint:"发展 means development or growth. 得很快 describes something happening at a fast pace."}
 ]}
@@ -358,7 +358,7 @@ lessons:[
  note:"Hand + sequence. The steps you must complete to accomplish something officially.\n办手续 = complete the formalities. 手续很复杂 = the procedures are complicated.",
  example:"A: 办理(bànlǐ)签证(qiānzhèng)的(de)手续(shǒuxù)复杂(fùzá)吗(ma)？\nB: 有(yǒu)点(diǎn)复杂(fùzá)，需要(xūyào)填写(tiánxiě)申请(shēnqǐng)材料(cáiliào)，手续(shǒuxù)很(hěn)多(duō)。",
  exampleSrc:"A: Are the procedures for processing a visa complicated?\nB: A bit complicated. You need to fill out application materials. There are many procedures.",
- funFact:"手 means hand, and 序 (written as 续 in this compound) means sequence or order. Procedures are literally 'the sequence your hands must follow.' Chinese bureaucracy is famous for its 手续 — sometimes requiring multiple offices, specific forms, passport photos, original documents, and notarized copies all at once. The phrase 手续繁琐 (máfan and complicated procedures) is a common complaint."},
+ funFact:"手 means hand, and 序 (written as 续 in this compound) means sequence or order. Procedures are literally 'the sequence your hands must follow.' Chinese bureaucracy is famous for its 手续, sometimes requiring multiple offices, specific forms, passport photos, original documents, and notarized copies all at once. The phrase 手续繁琐 (máfan and complicated procedures) is a common complaint."},
 
 {type:"teach", trg:"证明(zhèngmíng)", src:"certificate / proof / to certify", pos:"noun", gender:null,
  note:"Prove + make clear. Evidence or documentation confirming a fact.\n开证明 = issue a certificate. 收入证明 = income certificate.",
@@ -386,7 +386,7 @@ lessons:[
  sSrc:"Going to the United States requires {1} for a passport and visa."},
 
 {type:"mc", q:"手续(shǒuxù) refers to:",
- opts:["The formal steps required to complete an official task","A type of ID document","A government office","The cost of applying"],
+ opts:["The cost of applying","The formal steps required to complete an official task","A type of ID document","A government office"],
  ans:"The formal steps required to complete an official task",
  hint:"手 means hand, and 序 means sequence. This compound describes the bureaucratic process you must follow step by step, not a document or building."},
 
@@ -403,7 +403,7 @@ lessons:[
  sSrc:"Buying train tickets requires showing your {1}."},
 
 {type:"mc", q:"开证明(kāi zhèngmíng) means:",
- opts:["To issue an official certificate","To open a file","To write a letter","To cancel an appointment"],
+ opts:["To write a letter","To cancel an appointment","To issue an official certificate","To open a file"],
  ans:"To issue an official certificate",
  hint:"开 here means to … or produce. 证明 means proof or …. Together they describe producing an authorised document for someone."},
 

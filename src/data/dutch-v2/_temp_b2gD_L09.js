@@ -1,4 +1,4 @@
-// L09: Jeugdrecht en Bescherming — Youth Justice and Protection
+// L09: Jeugdrecht en Bescherming. Youth Justice and Protection
 const LESSON_9 = {
   id:"nlv2_b2gD_l09", title:"Jeugdrecht en Bescherming", icon:"\u{2696}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Wat kan 'aanhang' informeel betekenen in het Nederlands?",
-     opts:["Je partner","Je baas","Je buurman","Je huisgenoot"],
+     opts:["Je huisgenoot","Je partner","Je baas","Je buurman"],
      ans:"Je partner",
      hint:"Besides 'followers/supporters', this word has a casual meaning for someone close to you romantically."},
 

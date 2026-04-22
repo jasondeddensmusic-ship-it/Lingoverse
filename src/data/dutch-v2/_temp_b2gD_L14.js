@@ -1,4 +1,4 @@
-// L14: Keuken en Kooktraditie — Kitchen and Cooking Traditions
+// L14: Keuken en Kooktraditie. Kitchen and Cooking Traditions
 const LESSON_14 = {
   id:"nlv2_b2gD_l14", title:"Keuken en Kooktraditie", icon:"\u{1F373}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Wat is de Maeslantkering?",
-     opts:["Een stormvloedkering die Rotterdam beschermt","Een brug over de Maas","Een museum in Rotterdam","Een haven voor schepen"],
+     opts:["Een haven voor schepen","Een stormvloedkering die Rotterdam beschermt","Een brug over de Maas","Een museum in Rotterdam"],
      ans:"Een stormvloedkering die Rotterdam beschermt",
      hint:"This is a massive engineering structure near R.... It closes automatically when water levels threaten the city."},
 

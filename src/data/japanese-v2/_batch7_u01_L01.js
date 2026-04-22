@@ -111,7 +111,7 @@ const BATCH7_L1 = {
      sSrc:"Your Japanese is {1}!"},
 
     {type:"mc", q:"覚(おぼ)える means:",
-     opts:["To memorize","To forget","To practice","To repeat"],
+     opts:["To repeat","To memorize","To forget","To practice"],
      ans:"To memorize",
      hint:"This verb is about storing information in your mind. It covers both deliberate memorization and passive recall."},
 
@@ -122,7 +122,7 @@ const BATCH7_L1 = {
      sSrc:"Sorry, I {1}. Once more please."},
 
     {type:"mc", q:"やさしい can mean both:",
-     opts:["Easy and kind","Difficult and easy","Big and small","Good and bad"],
+     opts:["Big and small","Good and bad","Easy and kind","Difficult and easy"],
      ans:"Easy and kind",
      hint:"This adjective has two different kanji but sounds the same. One meaning is about difficulty, the other about personality."},
 

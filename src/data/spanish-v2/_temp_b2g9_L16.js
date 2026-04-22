@@ -1,4 +1,4 @@
-// Lesson 16 — Estilo y apariencia (Style and Appearance)
+// Lesson 16. Estilo y apariencia (Style and Appearance)
 const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F453}", xp:25, board:true, steps:[
   {type:"intro", title:"Estilo y apariencia",
    desc:"Describe style, appearance, and design with sophisticated vocabulary. From minimalism to colour theory, these terms help you discuss aesthetics.",
@@ -35,7 +35,7 @@ const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F4
    funFact:"In art, 'fisonom\u00eda' is used to describe how painters capture facial character, especially in portrait painting."},
 
   {type:"mc", q:"\u00bfQu\u00e9 significa 'monocromo'?",
-   opts:["Con muchos colores","Con un solo color","Sin ning\u00fan color","Con colores pastel"],
+   opts:["Con un solo color","Sin ning\u00fan color","Con colores pastel","Con muchos colores"],
    ans:"Con un solo color",
    hint:"Mono means one, single. Cromo means colour."},
 
@@ -87,7 +87,7 @@ const LESSON_16 = {id:"esv2_b2g9_l16", title:"Estilo y apariencia", icon:"\u{1F4
   ]},
 
   {type:"mc", q:"\u00bfD\u00f3nde se usa 'fisonom\u00eda' con m\u00e1s frecuencia?",
-   opts:["En la cocina","En las descripciones de rostros y rasgos faciales","En la m\u00fasica","En los deportes"],
+   opts:["En los deportes","En la cocina","En las descripciones de rostros y rasgos faciales","En la m\u00fasica"],
    ans:"En las descripciones de rostros y rasgos faciales",
    hint:"From Greek physiognomia, this word specifically describes the features of a person's face."},
 

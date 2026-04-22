@@ -1,4 +1,4 @@
-// L15: Uitdrukkingen en Idioom — Expressions and Idioms
+// L15: Uitdrukkingen en Idioom. Expressions and Idioms
 const LESSON_15 = {
   id:"nlv2_b2gC_l15", title:"Uitdrukkingen en Idioom", icon:"\u{1F4AC}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'In lichterlaaie staan' betekent:",
-     opts:["In het donker staan","Helemaal in brand staan","In de rij staan","In de zon staan"],
+     opts:["Helemaal in brand staan","In de rij staan","In de zon staan","In het donker staan"],
      ans:"Helemaal in brand staan",
      hint:"'Lichterlaaie' is an old word for bright blaze. Something is fully on fire."},
 

@@ -1,4 +1,4 @@
-// L15: Attention, Focus & Perception — 20 B2 gap words
+// L15: Attention, Focus & Perception, 20 B2 gap words
 const LESSON_15 = {
   id:"nlv2_b2g3_l15", title:"Aandacht, Focus en Waarneming", icon:"\uD83D\uDC41\uFE0F", xp:15, board:true,
   steps:[
@@ -90,7 +90,7 @@ const LESSON_15 = {
      deepDive:{title:"Why Dutch has two registers",
       text:"Written Dutch diverged from spoken Dutch more than in most languages. The reasons:\n\n1. Legal tradition: Dutch law inherited Latin formality via French\n2. The 'Statenbijbel' (1637): the first standardized Dutch was very formal\n3. Academic tradition: universities taught in Latin until the 1800s\n4. Bureaucratic tradition: Dutch government documents are notoriously formal\n\nModern Dutch is simplifying. The government now mandates 'Schrijven in klare taal' (writing in clear language). But formal register remains in law, academia, and official correspondence."}},
     {type:"mc", q:"Hoe spreek je een rechter aan in Nederland?",
-     opts:["meneer de rechter","edelachtbare","hoogheid","excellentie"],
+     opts:["edelachtbare","hoogheid","excellentie","meneer de rechter"],
      ans:"edelachtbare",
      hint:"A compound honorific: edel (noble) + achtbaar (honorable). The formal judicial address."},
     {type:"fb", s:"De {1} van de studenten daalde na de lunch.", a:["attentieniveau"],
@@ -104,7 +104,7 @@ const LESSON_15 = {
       {trg:"dichtbijbestemming", src:"nearby destination"}
     ]},
     {type:"mc", q:"Wat betekent 'eerdergenoemd'?",
-     opts:["later genoemd","eerder gestopt","eerder vermeld","eerder begonnen"],
+     opts:["eerder gestopt","eerder vermeld","eerder begonnen","later genoemd"],
      ans:"eerder vermeld",
      hint:"A compound: e... (earlier) + genoemd (named). Something that was mentioned before."},
     {type:"fb", s:"Ze {1} met die zanger.", a:["dwepen"],

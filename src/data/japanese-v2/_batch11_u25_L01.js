@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「にもとづいて」と「をもとに」はどう違(ちが)いますか？",
-     opts:["にもとづいて is stricter/factual, をもとに allows creative adaptation","They are the same","にもとづいて is casual","をもとに is more formal"],
+     opts:["をもとに is more formal","にもとづいて is stricter/factual, をもとに allows creative adaptation","They are the same","にもとづいて is casual"],
      ans:"にもとづいて is stricter/factual, をもとに allows creative adaptation",
      hint:"One follows facts precisely, the other uses something as inspiration. Think: following a law vs adapting a true story into fiction."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"The event will be held regardless of weather."},
 
     {type:"mc", q:"「において」is the formal register equivalent of which particle?",
-     opts:["で","に","を","と"],
+     opts:["を","と","で","に"],
      ans:"で",
      hint:"This formal particle replaces the common location/context particle used in everyday speech."},
     {type:"fb", s:"外国人(がいこくじん){1}、漢字(かんじ)を覚(おぼ)えることは一番(いちばん)難(むずか)しい課題(かだい)です。",

@@ -55,7 +55,7 @@ const BATCH9_L1 = {
       {trg:"飲(の)み会(かい)", src:"drinking party"},
       {trg:"残業(ざんぎょう)", src:"overtime"}
     ]},
-    {type:"mc", q:"What is サービスざんぎょう?", opts:["Unpaid overtime work","A service industry job","Overtime with bonus pay","Voluntary weekend work"], ans:"Unpaid overtime work",
+    {type:"mc", q:"What is サービスざんぎょう?", opts:["Voluntary weekend work","Unpaid overtime work","A service industry job","Overtime with bonus pay"], ans:"Unpaid overtime work",
      hint:"This practice, though technically illegal, involves working extra hours without compensation."}
   ,{type:"match",pairs:[{trg:"上司(じょうし)",src:"superior / boss"},{trg:"部下(ぶか)",src:"subordinate"},{trg:"同僚(どうりょう)",src:"colleague / coworker"},{trg:"有給(ゆうきゅう)",src:"paid leave / paid vacation"}]}]
 };

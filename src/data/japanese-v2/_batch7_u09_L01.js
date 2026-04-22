@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"This dress really {1} you."},
 
     {type:"mc", q:"家(いえ)に入(はい)るとき、まず何(なに)をしますか？",
-     opts:["靴(くつ)を脱(ぬ)ぐ","帽子(ぼうし)をかぶる","服(ふく)を着(き)る","手袋(てぶくろ)をはめる"],
+     opts:["手袋(てぶくろ)をはめる","靴(くつ)を脱(ぬ)ぐ","帽子(ぼうし)をかぶる","服(ふく)を着(き)る"],
      ans:"靴(くつ)を脱(ぬ)ぐ",
      hint:"The first thing you do when entering a Japanese home is at the 玄関(げんかん) (entryway)."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Let us {1} the laundry and put it in the dresser."},
 
     {type:"mc", q:"衣替(ころもが)え is:",
-     opts:["The seasonal switch between summer and winter wardrobes","A fashion brand","A type of kimono","A fabric cleaning method"],
+     opts:["A type of kimono","A fabric cleaning method","The seasonal switch between summer and winter wardrobes","A fashion brand"],
      ans:"The seasonal switch between summer and winter wardrobes",
      hint:"Japanese people and school uniforms s... b... short sleeves and long sleeves on fixed dates."},
 

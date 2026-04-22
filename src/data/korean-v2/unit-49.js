@@ -1,4 +1,4 @@
-// Korean V2 Unit 49 — B2 Vocabulary Batch 1
+// Korean V2 Unit 49. B2 Vocabulary Batch 1
 import L16 from './_temp_b2_L16.js';
 import L17 from './_temp_b2_L17.js';
 import L18 from './_temp_b2_L18.js';

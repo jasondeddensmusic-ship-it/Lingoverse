@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"投資(とうし)",src:"investment"},{trg:"資産(しさん)",src:"assets"},{trg:"債務(さいむ)",src:"debt"},{trg:"融資(ゆうし)",src:"financing/loan"},{trg:"収益(しゅうえき)",src:"revenue"}],
      hint:"Match each financial term with its English meaning."},
 
-    {type:"mc", q:"What is the difference between 戦略(せんりゃく) and 戦術(せんじゅつ)?", opts:["Strategy (big picture) vs. Tactics (details)","They mean the same thing","戦略(せんりゃく) is military, 戦術(せんじゅつ) is business","戦略(せんりゃく) is short-term, 戦術(せんじゅつ) is long-term"], ans:"Strategy (big picture) vs. Tactics (details)",
+    {type:"mc", q:"What is the difference between 戦略(せんりゃく) and 戦術(せんじゅつ)?", opts:["戦略(せんりゃく) is short-term, 戦術(せんじゅつ) is long-term","Strategy (big picture) vs. Tactics (details)","They mean the same thing","戦略(せんりゃく) is military, 戦術(せんじゅつ) is business"], ans:"Strategy (big picture) vs. Tactics (details)",
      hint:"Both have military origins: one plans the war, the other plans the battle."},
 
     {type:"fb", s:"企業(きぎょう){1}が行(おこな)われました。\n(A corporate acquisition took place.)", a:"買収(ばいしゅう)", opts:["買収(ばいしゅう)","破産(はさん)","戦略(せんりゃく)","融資(ゆうし)"], sSrc:"A corporate acquisition took place.",
      hint:"This word means buying and taking over another company."},
 
-    {type:"mc", q:"What does 破産(はさん) mean?", opts:["Bankruptcy / insolvency","Merger","Profit","Investment"], ans:"Bankruptcy / insolvency",
+    {type:"mc", q:"What does 破産(はさん) mean?", opts:["Profit","Investment","Bankruptcy / insolvency","Merger"], ans:"Bankruptcy / insolvency",
      hint:"The kanji literally mean 'broken production,' indicating a company can no longer operate."}
   ,{type:"match",pairs:[{trg:"財務(ざいむ)",src:"finance / financial affairs"},{trg:"金融(きんゆう)",src:"finance / financial services"},{trg:"株式(かぶしき)",src:"stock / shares / equity"},{trg:"競争力(きょうそうりょく)",src:"competitiveness"},{trg:"破産(はさん)",src:"bankruptcy / insolvency"}]}]
 };

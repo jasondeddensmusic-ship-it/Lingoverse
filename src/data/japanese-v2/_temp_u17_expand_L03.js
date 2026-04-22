@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: A new archaeological site was discovered.\nB: Where was it found?\nA: How was it?\nB: It was very good.",
      funFact:"見つけられる (passive) describes something being found by someone. Compare with the intransitive みつかる (to be found, to turn up). News prefers the passive 見つけられた when crediting discoverers, and みつかった for general reporting. Both are common in news about archaeological finds and missing persons."},
 
-    {type:"mc", q:"あたらしいけいかくがはっぴょうされました means:", opts:["They announced a new plan","A new plan was announced","I announced my plan","The plan was cancelled"], ans:"A new plan was announced",
+    {type:"mc", q:"あたらしいけいかくがはっぴょうされました means:", opts:["A new plan was announced","I announced my plan","The plan was cancelled","They announced a new plan"], ans:"A new plan was announced",
      hint:"Passive of はっぴょうする. The focus is on the p... (what was a...), not who a... it."},
 
     {type:"teach", trg:"えらばれる", src:"to be chosen / to be elected", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"つたえられる",src:"to be reported"},{trg:"おこなわれる",src:"to be carried out"},{trg:"けいかく",src:"plan"},{trg:"かんせいする",src:"to be completed"}]},
 
-    {type:"mc", q:"Why does Japanese news prefer passive voice?", opts:["It sounds more casual","It focuses on events rather than actors","It is easier to conjugate","Passive is required by law"], ans:"It focuses on events rather than actors",
+    {type:"mc", q:"Why does Japanese news prefer passive voice?", opts:["Passive is required by law","It sounds more casual","It focuses on events rather than actors","It is easier to conjugate"], ans:"It focuses on events rather than actors",
      hint:"News reporting puts the event first. Passive lets you describe what happened without naming who did it."},
   ]
 };

@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: For health, the thing to do is sleep early.\nB: Understood. I will do so from tonight.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
      funFact:"ことだ as advice literally means 'the matter/thing is to do X.' It is authoritative and direct, used by people in positions of authority. A doctor says うんどうすることだ (the thing to do is exercise). A teacher says もっとべんきょうすることだ (you need to study more). It is too strong for peer conversations."},
 
-    {type:"mc", q:"よくあそんだものだ expresses:", opts:["A plan to play soon","A nostalgic memory of playing in the past","Playing is a natural thing","A command to play more"], ans:"A nostalgic memory of playing in the past",
+    {type:"mc", q:"よくあそんだものだ expresses:", opts:["A nostalgic memory of playing in the past","Playing is a natural thing","A command to play more","A plan to play soon"], ans:"A nostalgic memory of playing in the past",
      hint:"P... tense + ものだ carries warm, fond recollection of habits from long ago."},
 
     {type:"teach", trg:"しっぱい", src:"failure / mistake", pos:"noun", gender:null,
@@ -66,7 +66,7 @@ const LESSON_5 = {
      exampleSrc:"A: There are only three days until the exam.\nB: Don't panic, let us study systematically.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"焦る uses 焦 (scorch/burn). The image is of something burning from impatience. あせる describes both physical rushing and mental panic. あせっている (being panicky) is a common state before exams, deadlines, and presentations. The advice あせらないで (don't rush) is heard constantly in Japanese life."},
 
-    {type:"mc", q:"けんこうのためにはやくねることだ expresses:", opts:["A nostalgic memory","A general truth about nature","Strong advice from an authority","An ongoing habit"], ans:"Strong advice from an authority",
+    {type:"mc", q:"けんこうのためにはやくねることだ expresses:", opts:["A general truth about nature","Strong advice from an authority","An ongoing habit","A nostalgic memory"], ans:"Strong advice from an authority",
      hint:"Dictionary form + ことだ is used by teachers, doctors, and parents to give firm recommendations."},
 
     {type:"match", pairs:[{trg:"ものだ (dict.)",src:"it is natural to / one should"},{trg:"たものだ",src:"used to (nostalgic)"},{trg:"ところだ",src:"about to / in the middle / just did"},{trg:"ことだ (advice)",src:"the thing to do is"}]},

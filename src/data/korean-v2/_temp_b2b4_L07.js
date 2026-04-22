@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 7: Media and Connection
+// Korean B2. Batch 4, Lesson 7: Media and Connection
 // Words: 매체, 맺다, 머리말, 머리칼, 머물다, 먹고살다, 먹이, 먹히다, 멀어지다, 멋, 멋있다, 멋지다, 멍멍, 멎다, 메다, 메모, 메우다, 메일, 면, 면담
 
 const LESSON_7 = {
@@ -125,7 +125,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"'멎다'는 무엇이 멈출 때 쓰나요?",
-     opts:["비나 눈물처럼 자연히 그치는 것","기계가 작동을 멈추는 것","사람이 걸음을 멈추는 것","차가 정지하는 것"],
+     opts:["차가 정지하는 것","비나 눈물처럼 자연히 그치는 것","기계가 작동을 멈추는 것","사람이 걸음을 멈추는 것"],
      ans:"비나 눈물처럼 자연히 그치는 것",
      hint:"This verb is reserved for things that stop naturally, like rain stopping or tears ceasing."},
 

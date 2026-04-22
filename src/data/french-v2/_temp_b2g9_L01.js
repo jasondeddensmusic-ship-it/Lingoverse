@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 1: Société et Citoyenneté
+// French B2 Gap Batch 9. Lesson 1: Société et Citoyenneté
 // Society and citizenship vocabulary
 
 const LESSON_1 = {id:"frv2_b2g9_l1", title:"Société et Citoyenneté", icon:"🏛️", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_1 = {id:"frv2_b2g9_l1", title:"Société et Citoyenneté", icon:"�
    exampleSrc:"A: I admire her perceptiveness.\nB: She always understands the situation before others.",
    funFact:"From Latin perspicax meaning 'sharp-sighted'. Related to English 'perspicacious'."},
 
-  {type:"mc", q:"La démocratisation de l'enseignement signifie que:", opts:["L'école est réservée aux riches","Tout le monde peut étudier","Les professeurs décident tout","L'éducation est gratuite uniquement"], ans:"Tout le monde peut étudier",
+  {type:"mc", q:"La démocratisation de l'enseignement signifie que:", opts:["Tout le monde peut étudier","Les professeurs décident tout","L'éducation est gratuite uniquement","L'école est réservée aux riches"], ans:"Tout le monde peut étudier",
    hint:"Democratization means making something available to all, not just a select few."},
 
   {type:"teach", trg:"le pamphlet", src:"pamphlet, lampoon", pos:"noun", gender:"m",
@@ -135,14 +135,14 @@ const LESSON_1 = {id:"frv2_b2g9_l1", title:"Société et Citoyenneté", icon:"�
     {trg:"l'outrage", src:"contempt (legal)"}
   ]},
 
-  {type:"mc", q:"L'insuffisance cardiaque est:", opts:["Un problème de digestion","Une défaillance du coeur","Un excès d'énergie","Une maladie de la peau"], ans:"Une défaillance du coeur",
+  {type:"mc", q:"L'insuffisance cardiaque est:", opts:["Une maladie de la peau","Un problème de digestion","Une défaillance du coeur","Un excès d'énergie"], ans:"Une défaillance du coeur",
    hint:"Cardiaque relates to the heart. Insuffisance means something is not working well enough."},
 
   {type:"fb", s:"Les manifestants brandissaient des {1} dans la rue.", a:["pancartes"], opts:["pancartes","pamphlets","perquisitions","persuasions"],
    hint:"Protesters carry these boards with slogans written on them.",
    sSrc:"The protesters were waving {1} in the street."},
 
-  {type:"mc", q:"Quelle est la forme féminine d'administrateur?", opts:["Administrateuse","Administratrice","Administrateure","Administrateresse"], ans:"Administratrice",
+  {type:"mc", q:"Quelle est la forme féminine d'administrateur?", opts:["Administrateure","Administrateresse","Administrateuse","Administratrice"], ans:"Administratrice",
    hint:"The feminine form uses the -trice ending, common for -teur nouns."},
 
   {type:"match", pairs:[

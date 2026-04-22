@@ -84,7 +84,7 @@ const LESSON_11 = {id:"esv2_b2g5_l11",title:"Familia y relaciones",icon:"👨‍
  exampleSrc:"A: Is that information source trustworthy?\nB: Yes, it is a reference newspaper.",
  funFact:"Compound of fide (faith) + digno (worthy). Used almost exclusively in formal writing and journalism."},
 
-{type:"mc",q:"¿Qué es un huérfano?",opts:["Un niño cuyos padres han muerto","Un niño con muchos hermanos","Un adulto sin hijos","Un familiar lejano"],ans:"Un niño cuyos padres han muerto",hint:"A child who has lost both parents and has no one to care for them."},
+{type:"mc",q:"¿Qué es un huérfano?",opts:["Un familiar lejano","Un niño cuyos padres han muerto","Un niño con muchos hermanos","Un adulto sin hijos"],ans:"Un niño cuyos padres han muerto",hint:"A child who has lost both parents and has no one to care for them."},
 
 {type:"fb",s:"Es un proyecto de gran {1} que requiere muchos recursos.",a:["envergadura"],opts:["envergadura","extrañeza","fineza","desnudez"],hint:"A word meaning scale or magnitude, originally referring to wingspan.",sSrc:"It is a project of great {1} that requires many resources."},
 
@@ -92,7 +92,7 @@ const LESSON_11 = {id:"esv2_b2g5_l11",title:"Familia y relaciones",icon:"👨‍
 
 {type:"fb",s:"La información de esa fuente no es {1}.",a:["fidedigna"],opts:["fidedigna","hacendosa","flamante","grata"],hint:"An adjective meaning worthy of trust or belief, used in formal contexts.",sSrc:"The information from that source is not {1}."},
 
-{type:"mc",q:"¿Por qué se dice 'el hada' y no 'la hada'?",opts:["Porque empieza por 'a' tónica, pero sigue siendo femenina","Porque es una palabra masculina","Porque es un error gramatical","Porque viene del latín masculino"],ans:"Porque empieza por 'a' tónica, pero sigue siendo femenina",hint:"Think about why we say 'el agua' instead of 'la agua' even though water is feminine."}
+{type:"mc",q:"¿Por qué se dice 'el hada' y no 'la hada'?",opts:["Porque es un error gramatical","Porque viene del latín masculino","Porque empieza por 'a' tónica, pero sigue siendo femenina","Porque es una palabra masculina"],ans:"Porque empieza por 'a' tónica, pero sigue siendo femenina",hint:"Think about why we say 'el agua' instead of 'la agua' even though water is feminine."}
 ]};
 
 export default LESSON_11;

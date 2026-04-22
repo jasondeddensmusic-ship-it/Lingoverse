@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 02 — Media & Communication
+// B2 Gap Batch B Lesson 02. Media & Communication
 const LESSON_2 = {id:"esv2_b2gB_l2",title:"Medios de comunicación",icon:"📡",xp:15,board:true,steps:[
 {type:"intro",title:"Medios de comunicación",desc:"Learn vocabulary for media, journalism, and public communication in the Spanish-speaking world.",goals:["Learn 12 words about media and communication","Discuss journalism and digital media","Navigate formal media language"]},
 
@@ -73,7 +73,7 @@ const LESSON_2 = {id:"esv2_b2gB_l2",title:"Medios de comunicación",icon:"📡",
  funFact:"The word is onomatopoetic, imitating the low humming sound of many voices speaking softly."},
 
 {type:"mc",q:"¿Quién es un orador?",
- opts:["Una persona que habla en público con elocuencia","Un presentador de televisión","Un periodista de prensa escrita","Un concursante de un programa"],
+ opts:["Un concursante de un programa","Una persona que habla en público con elocuencia","Un presentador de televisión","Un periodista de prensa escrita"],
  ans:"Una persona que habla en público con elocuencia",
  hint:"Think about ancient Rome and the art of delivering persuasive speeches."},
 

@@ -98,7 +98,7 @@ const LESSON_3 = {id:"frv2_b1gap_l3", title:"Abondance et pénurie", icon:"\u{1F
 
 {type:"mc",
  q:"Comment décrit-on quelqu'un qui vit dans le confort financier ?",
- opts:["aisé","ample","abondant","assorti"],
+ opts:["assorti","aisé","ample","abondant"],
  ans:"aisé",
  hint:"This adjective is a polite alternative to 'riche.' It also means 'easy' in other contexts."},
 
@@ -143,7 +143,7 @@ const LESSON_3 = {id:"frv2_b1gap_l3", title:"Abondance et pénurie", icon:"\u{1F
 
 {type:"mc",
  q:"Quel nom masculin décrit un flux soudain de personnes ?",
- opts:["un afflux","une affluence","une abondance","un apport"],
+ opts:["une abondance","un apport","un afflux","une affluence"],
  ans:"un afflux",
  hint:"This word describes the movement itself, not the state. Think of water flowing in."}
 

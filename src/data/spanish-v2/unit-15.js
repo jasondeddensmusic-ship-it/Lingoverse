@@ -1,4 +1,4 @@
-// Unit 15 — Comparaciones
+// Unit 15. Comparaciones
 // Comparatives & Superlatives
 
 export default {n:15,lang:"es",srcLang:"en",track:"v2",title:"Comparaciones",sub:"Comparatives & Superlatives",icon:"⚖️",level:"A2.4",color:"#7B5EE8",lessons:[
@@ -211,7 +211,7 @@ export default {n:15,lang:"es",srcLang:"en",track:"v2",title:"Comparaciones",sub
     {type:"fb",opts:["debatir","cantar","correr","comprar"],hint:"To debate: a structured exchange of opposing views on a topic.",s:"Vamos a {1} el tema del cambio climático.",a:["debatir"]},
     {type:"mc",q:"Choose the correct definition of 'rebatir'.",opts:["to summarize a discussion","to counter-argue a point","to introduce a topic","to reach an agreement"],ans:"to counter-argue a point",hint:"Re- means 'back'. rebatir = to hit back at an argument."},
     {type:"fb",opts:["cuestionar","negociar","resumir","concluir"],hint:"To challenge or call into question an assumption someone has made.",s:"Hay que {1} esa idea porque no hay datos que la apoyen.",a:["cuestionar"]},
-    {type:"mc",q:"A: Para cerrar la reunión, ¿puedes hacer un resumen? B: Claro, ___",opts:["resumo los tres puntos principales","debato los tres puntos","planteo los tres puntos","negocios los tres puntos"],ans:"resumo los tres puntos principales",hint:"The request was to summarize. Which response uses the matching verb in first person?"},
+    {type:"mc",q:"A: Para cerrar la reunión, ¿puedes hacer un resumen? B: Claro, ___",opts:["planteo los tres puntos","negocios los tres puntos","resumo los tres puntos principales","debato los tres puntos"],ans:"resumo los tres puntos principales",hint:"The request was to summarize. Which response uses the matching verb in first person?"},
     {type:"fb",opts:["concluir","plantear","rebatir","negociar"],hint:"When a debate ends, you draw a conclusion. Which verb means exactly that?",s:"Después de debatir, podemos {1} que la propuesta es viable.",a:["concluir"]},
     {type:"match",pairs:[
       {trg:"debatir",src:"to debate"},
@@ -220,7 +220,7 @@ export default {n:15,lang:"es",srcLang:"en",track:"v2",title:"Comparaciones",sub
       {trg:"negociar",src:"to negotiate"}
     ]},
     {type:"fb",opts:["negociar","debatir","cuestionar","resumir"],hint:"Two sides want different things. They talk to find a middle position. Which verb fits?",s:"Tenemos que {1} un acuerdo entre las dos partes.",a:["negociar"]},
-    {type:"mc",q:"Which verb means to summarize at the end of a speech?",opts:["cuestionar","plantear","resumir","debatir"],ans:"resumir",hint:"Think of what a speaker does in the final minute: they recap all key points."},
+    {type:"mc",q:"Which verb means to summarize at the end of a speech?",opts:["debatir","cuestionar","plantear","resumir"],ans:"resumir",hint:"Think of what a speaker does in the final minute: they recap all key points."},
     {type:"drag_fill",hint:"I want to raise the topic of price so we can debate it and then conclude.",s:"Quiero {1} el tema del precio para {2}lo y luego {3}.",blanks:{"1":"plantear","2":"debatir","3":"concluir"},pool:["plantear","debatir","concluir","negociar","resumir"]}
   ]},
   {id:"esp15l8b",title:"El Transporte",icon:"🚌",xp:15,board:true,steps:[

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 30.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs, rerun to refresh.
 const COVERAGE_U30 = {
   id:"frv2_u30_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[

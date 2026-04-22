@@ -55,7 +55,7 @@ const BATCH10_L1 = {
       {trg:"工夫(くふう)", src:"ingenuity"},
       {trg:"なんとかなる", src:"it will work out"}
     ]},
-    {type:"mc", q:"What does 工夫(くふう) represent in Japanese culture?", opts:["Finding clever solutions within constraints","Giving up on difficult tasks","Spending more money","Asking for help"], ans:"Finding clever solutions within constraints",
+    {type:"mc", q:"What does 工夫(くふう) represent in Japanese culture?", opts:["Asking for help","Finding clever solutions within constraints","Giving up on difficult tasks","Spending more money"], ans:"Finding clever solutions within constraints",
      hint:"This word captures the Japanese value of creative invention born from necessity."}
   ,{type:"fb", s:"問題(もんだい)が起(お)きたとき、まず上司(じょうし)に{1}しましょう。",
     a:["相談(そうだん)する"],

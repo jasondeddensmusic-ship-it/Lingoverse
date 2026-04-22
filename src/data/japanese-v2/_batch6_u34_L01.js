@@ -66,7 +66,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"環境(かんきょう)問題(もんだい)には国際(こくさい){1}が不可欠(ふかけつ)です。\n(International cooperation is essential for environmental issues.)", a:"きょうりょく", opts:["きょうりょく","たいりつ","きょうい","ぼうえき"], sSrc:"International cooperation is essential for environmental issues.",
      hint:"The word meaning working together with other countries toward shared goals."},
 
-    {type:"mc", q:"難民(なんみん) describes:", opts:["People forced to flee their country due to conflict or persecution","Tourists","Business travelers","Students abroad"], ans:"People forced to flee their country due to conflict or persecution",
+    {type:"mc", q:"難民(なんみん) describes:", opts:["Students abroad","People forced to flee their country due to conflict or persecution","Tourists","Business travelers"], ans:"People forced to flee their country due to conflict or persecution",
      hint:"This word combines 'difficulty' and 'p...' to describe displaced populations."},
 
     {type:"match", pairs:[
@@ -80,7 +80,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"両国間(りょうこくかん)で新(しん){1}が結(むす)ばれました。\n(A new treaty was concluded between the two countries.)", a:"じょうやく", opts:["じょうやく","ぼうえき","がいこう","えんじょ"], sSrc:"A new treaty was concluded between the two countries.",
      hint:"The formal agreement between nations, often covering peace, trade, or security."},
 
-    {type:"mc", q:"援助(えんじょ) in international context means:", opts:["Providing aid and assistance to other countries","Attacking enemies","Closing borders","Raising taxes"], ans:"Providing aid and assistance to other countries",
+    {type:"mc", q:"援助(えんじょ) in international context means:", opts:["Closing borders","Raising taxes","Providing aid and assistance to other countries","Attacking enemies"], ans:"Providing aid and assistance to other countries",
      hint:"Japan is known for its generous ODA program supporting developing nations."}
   ,{type:"match",pairs:[{trg:"難民(なんみん)",src:"refugee"},{trg:"脅威(きょうい)",src:"threat / menace"}]},
   {type:"fb", s:"その国(くに)では多(おお)くの{1}が支援(しえん)を必要(ひつよう)としています。", a:["難民(なんみん)"], opts:["難民(なんみん)","外交(がいこう)","条約(じょうやく)","貿易(ぼうえき)"], hint:"People who have fled their country due to war or persecution.", sSrc:"In that country, many {1} are in need of support."}

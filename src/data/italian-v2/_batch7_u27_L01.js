@@ -1,4 +1,4 @@
-// Batch 7 — Unit 27 extra lesson. La scienza: Space & Astronomy
+// Batch 7. Unit 27 extra lesson. La scienza: Space & Astronomy
 const BATCH7_L1 = {id:"itv2_u27l_b7_1", title:"Lo spazio e l'astronomia", icon:"\u{1F30C}", xp:15, board:true, steps:[
 {type:"intro", title:"Lo spazio e l'astronomia",
  desc:"Learn vocabulary for space exploration, astronomy, and Italy's contributions to space science.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u27l_b7_1", title:"Lo spazio e l'astronomia", icon:"
 ]},
 
 {type:"mc", q:"Quale astronauta italiana ha fatto il caffè nello spazio?",
- opts:["Samantha Cristoforetti","Luca Parmitano","Paolo Nespoli","Roberto Vittori"],
+ opts:["Roberto Vittori","Samantha Cristoforetti","Luca Parmitano","Paolo Nespoli"],
  ans:"Samantha Cristoforetti",
  hint:"The first Italian woman in space. She made espresso in zero gravity."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u27l_b7_1", title:"Lo spazio e l'astronomia", icon:"
  sSrc:"The {1} was launched successfully."},
 
 {type:"mc", q:"Quale fu il primo satellite italiano?",
- opts:["San Marco 1","Vega 1","Galileo 1","Roma 1"],
+ opts:["Galileo 1","Roma 1","San Marco 1","Vega 1"],
  ans:"San Marco 1",
  hint:"Launched in 1964, making Italy the third country to put a satellite in orbit."},
 

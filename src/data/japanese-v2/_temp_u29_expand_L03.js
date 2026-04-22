@@ -24,7 +24,7 @@ const LESSON_5 = {
      exampleSrc:"A: High tariffs are imposed on imported goods.\nB: Is it to protect domestic industry?\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"関税 uses 関 (barrier/checkpoint) and 税 (tax). Historically, かんぜい protected Japan's rice farmers and manufacturers. The phrase 聖域なき関税撤廃 (tariff elimination without sacred areas) was a controversial phrase during TPP negotiations. Rice, dairy, and beef remained Japan's most politically sensitive かんぜい items."},
 
-    {type:"mc", q:"じゆうぼうえき means:", opts:["Government-controlled trade","Domestic commerce only","International commerce without government trade barriers","Trade in luxury goods"], ans:"International commerce without government trade barriers",
+    {type:"mc", q:"じゆうぼうえき means:", opts:["International commerce without government trade barriers","Trade in luxury goods","Government-controlled trade","Domestic commerce only"], ans:"International commerce without government trade barriers",
      hint:"じゆう means free/unrestricted, and ぼうえき means i... t...."},
 
     {type:"teach", trg:"サプライチェーン", src:"supply chain", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_5 = {
      exampleSrc:"A: We need to strengthen the competitiveness of Japanese companies.\nB: Innovation is the key.\nA: How much do you know about that field?\nB: It is not my specialty, but I have basic knowledge.\nA: If I want to know more in detail, what should I do?\nB: I recommend consulting a specialist or reading related books.",
      funFact:"競争力 is a critical concept in Japanese economic discourse. Japan consistently ranks in the top 10 of global competitiveness indices but has slipped from its 1980s peak. The phrase きょうそうりょくのていか (declining competitiveness) is a frequent worry. The りょく suffix productively creates power-nouns: 技術力 (technical power), 開発力 (development power)."},
 
-    {type:"mc", q:"ガラパゴスか refers to:", opts:["Japanese products evolving in isolation from global markets","A tropical vacation destination","An export strategy for electronics","A type of trade agreement"], ans:"Japanese products evolving in isolation from global markets",
+    {type:"mc", q:"ガラパゴスか refers to:", opts:["A type of trade agreement","Japanese products evolving in isolation from global markets","A tropical vacation destination","An export strategy for electronics"], ans:"Japanese products evolving in isolation from global markets",
      hint:"Like the Galapagos Islands' unique species, some J... p... evolved separately."},
 
     {type:"teach", trg:"ぶひん", src:"parts / components", pos:"noun", gender:null,
@@ -74,7 +74,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"ぼうえき",src:"trade"},{trg:"きょうてい",src:"agreement/pact"},{trg:"かんぜい",src:"tariff"},{trg:"サプライチェーン",src:"supply chain"}]},
 
-    {type:"mc", q:"はんどうたい is critical because:", opts:["They are used only in military equipment","Japan has unlimited supply of them","They replace the need for electricity","These components are essential in nearly all modern electronic devices"], ans:"These components are essential in nearly all modern electronic devices",
+    {type:"mc", q:"はんどうたい is critical because:", opts:["Japan has unlimited supply of them","They replace the need for electricity","These components are essential in nearly all modern electronic devices","They are used only in military equipment"], ans:"These components are essential in nearly all modern electronic devices",
      hint:"Cars, phones, computers, appliances: n... everything e... needs t... c...."},
 
     {type:"match", pairs:[{trg:"グローバルか",src:"globalization"},{trg:"きょうそうりょく",src:"competitiveness"},{trg:"ぶひん",src:"parts/components"},{trg:"はんどうたい",src:"semiconductor"}]},

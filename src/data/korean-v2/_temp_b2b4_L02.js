@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 2: Worry and Crossing Over
+// Korean B2. Batch 4, Lesson 2: Worry and Crossing Over
 // Words: 걱정스럽다, 건, 건너, 건너가다, 건너오다, 건너편, 건넌방, 건네다, 건네주다, 건드리다, 건설, 건설되다, 건설하다, 건전하다, 건조, 건조하다, 걷기, 걷다, 걸치다, 검정색
 
 const LESSON_2 = {
@@ -101,7 +101,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'건드리다'는 어떤 뉘앙스를 가지고 있나요?",
-     opts:["허락 없이 만지거나 방해한다","부드럽게 만진다","건설을 시작한다","조용히 지나간다"],
+     opts:["조용히 지나간다","허락 없이 만지거나 방해한다","부드럽게 만진다","건설을 시작한다"],
      ans:"허락 없이 만지거나 방해한다",
      hint:"This verb implies touching something you probably should not, or provoking someone."},
 

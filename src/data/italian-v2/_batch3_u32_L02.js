@@ -1,4 +1,4 @@
-// Batch 3 — Unit 32 Lesson 2 (Globalization: Cultural Exchange & Environment)
+// Batch 3. Unit 32 Lesson 2 (Globalization: Cultural Exchange & Environment)
 const BATCH3_L_2 = {
   id:"itv2_u32l_b3_2", title:"Scambi culturali e ambiente globale", icon:"🌿", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e il movimento 'Slow Food' e dove e nato?",
-     opts:["Un'azienda americana di ristorazione salutista fondata in California","Un marchio europeo di alimenti biologici certificati nato in Francia","Un movimento italiano nato a Bra per difendere le tradizioni alimentari locali","Un programma televisivo di cucina italiana trasmesso dalla RAI"],
+     opts:["Un movimento italiano nato a Bra per difendere le tradizioni alimentari locali","Un programma televisivo di cucina italiana trasmesso dalla RAI","Un'azienda americana di ristorazione salutista fondata in California","Un marchio europeo di alimenti biologici certificati nato in Francia"],
      ans:"Un movimento italiano nato a Bra per difendere le tradizioni alimentari locali",
      hint:"Founded in Piedmont as a response to fast food chains threatening Italian culinary traditions. Now active in 160 countries."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche Venezia e un esempio drammatico di gentrificazione?",
-     opts:["Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente","Perche il governo ha demolito i vecchi edifici per costruire hotel","Perche i veneziani si sono trasferiti all'estero per ragioni economiche","Perche la città e stata chiusa ai residenti per motivi di sicurezza"],
+     opts:["Perche la città e stata chiusa ai residenti per motivi di sicurezza","Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente","Perche il governo ha demolito i vecchi edifici per costruire hotel","Perche i veneziani si sono trasferiti all'estero per ragioni economiche"],
      ans:"Perche il turismo e gli affitti alti hanno dimezzato la popolazione residente permanente",
      hint:"Tourism and short-term rentals drove up housing costs, pushing out permanent residents. The city lost half its population."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"In che cosa l'Italia e leader in Europa nell'ambito della sostenibilita?",
-     opts:["Nella produzione di energia nucleare per uso civile","Nel riciclaggio dei rifiuti industriali con un tasso superiore all'80%","Nel numero di auto elettriche vendute per abitante","Nella superficie di parchi nazionali protetti rispetto al territorio totale"],
+     opts:["Nella superficie di parchi nazionali protetti rispetto al territorio totale","Nella produzione di energia nucleare per uso civile","Nel riciclaggio dei rifiuti industriali con un tasso superiore all'80%","Nel numero di auto elettriche vendute per abitante"],
      ans:"Nel riciclaggio dei rifiuti industriali con un tasso superiore all'80%",
      hint:"Italy recycles the highest percentage of industrial waste in the EU. The circular economy is a genuine competitive strength."}
   ,{type:"match",pairs:[{trg:"la contaminazione culturale",src:"cultural cross-pollination"},{trg:"il protocollo",src:"the protocol / agreement"},{trg:"la transizione energetica",src:"the energy transition"},{trg:"la decrescita",src:"degrowth"},{trg:"la resilienza urbana",src:"urban resilience"}]},{type:"mc",q:"How do you say \"ecological footprint\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'impronta ecologica"],ans:"l'impronta ecologica",hint:"Recall the Italian vocabulary word taught in this lesson."},

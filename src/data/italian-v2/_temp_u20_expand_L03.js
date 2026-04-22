@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"Who can be called 'dottore' in Italy?",
-     opts:["Only medical doctors","Only PhD holders","Anyone with a university degree","Only professors"],
+     opts:["Anyone with a university degree","Only professors","Only medical doctors","Only PhD holders"],
      ans:"Anyone with a university degree",
      hint:"Even bachelor's graduates are technically 'dottore/dottoressa.' This surprises foreigners who reserve the title for physicians or PhD holders."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"Have you updated your {1}?"},
 
     {type:"mc", q:"What is 'fuga di cervelli' in the context of academic careers?",
-     opts:["A student holiday tradition","Brain drain: researchers leaving Italy for better opportunities","A competitive academic exam format","An annual research funding event"],
+     opts:["A competitive academic exam format","An annual research funding event","A student holiday tradition","Brain drain: researchers leaving Italy for better opportunities"],
      ans:"Brain drain: researchers leaving Italy for better opportunities",
      hint:"The long path from PhD to professor (15-20 years) and low research funding push many scholars abroad."}
   ]

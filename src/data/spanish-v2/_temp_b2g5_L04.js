@@ -84,7 +84,7 @@ const LESSON_4 = {id:"esv2_b2g5_l4",title:"En la cocina",icon:"🍳",xp:15,board
  exampleSrc:"A: Preparing dinner for twenty people is a big job.\nB: But it's worth it when everyone enjoys it.",
  funFact:"In bullfighting, 'faena' refers to the matador's entire performance with the cape and sword."},
 
-{type:"mc",q:"¿Qué son los grumos?",opts:["Trozos sólidos no deseados en una salsa","Un tipo de especia española","Verduras cortadas en trozos","Un plato tradicional catalán"],ans:"Trozos sólidos no deseados en una salsa",hint:"Small hard pieces that form when you don't stir a liquid mixture properly."},
+{type:"mc",q:"¿Qué son los grumos?",opts:["Un plato tradicional catalán","Trozos sólidos no deseados en una salsa","Un tipo de especia española","Verduras cortadas en trozos"],ans:"Trozos sólidos no deseados en una salsa",hint:"Small hard pieces that form when you don't stir a liquid mixture properly."},
 
 {type:"fb",s:"Hay que {1} el bizcocho con chocolate para que brille.",a:["glasear"],opts:["glasear","guisar","gratinar","gritar"],hint:"To coat food with a shiny layer, especially in pastry-making.",sSrc:"We need to {1} the sponge cake with chocolate so it shines."},
 
@@ -92,7 +92,7 @@ const LESSON_4 = {id:"esv2_b2g5_l4",title:"En la cocina",icon:"🍳",xp:15,board
 
 {type:"fb",s:"No seas {1}, deja algo para los demás.",a:["glotón"],opts:["glotón","grato","graso","grumo"],hint:"A word meaning greedy or eating excessively.",sSrc:"Don't be {1}, leave some for the others."},
 
-{type:"mc",q:"¿Qué significa 'gratinar'?",opts:["Dorar la superficie de un plato al horno","Cocinar lentamente en líquido","Cortar verduras en trozos finos","Cubrir con una capa brillante"],ans:"Dorar la superficie de un plato al horno",hint:"Think about putting a dish under high heat to create a golden, crispy top layer."}
+{type:"mc",q:"¿Qué significa 'gratinar'?",opts:["Cortar verduras en trozos finos","Cubrir con una capa brillante","Dorar la superficie de un plato al horno","Cocinar lentamente en líquido"],ans:"Dorar la superficie de un plato al horno",hint:"Think about putting a dish under high heat to create a golden, crispy top layer."}
 ]};
 
 export default LESSON_4;

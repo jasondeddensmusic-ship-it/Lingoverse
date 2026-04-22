@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 18: Éducation et Savoir
+// French B2 Gap Batch 9. Lesson 18: Éducation et Savoir
 // Education and knowledge vocabulary
 
 const LESSON_18 = {id:"frv2_b2g9_l18", title:"Éducation et Savoir", icon:"📚", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_18 = {id:"frv2_b2g9_l18", title:"Éducation et Savoir", icon:"📚"
    exampleSrc:"A: His inability to concentrate worries his parents.\nB: The doctor recommends an assessment.",
    funFact:"Incapacité de travail (work incapacity) is a legal status in French employment law."},
 
-  {type:"mc", q:"Une interro surprise est:", opts:["Un examen prévu à l'avance","Un test sans prévenir les élèves","Une interview avec un professeur","Un exercice facile"], ans:"Un test sans prévenir les élèves",
+  {type:"mc", q:"Une interro surprise est:", opts:["Un test sans prévenir les élèves","Une interview avec un professeur","Un exercice facile","Un examen prévu à l'avance"], ans:"Un test sans prévenir les élèves",
    hint:"Surprise = without warning. An unannounced quiz that catches students off guard."},
 
   {type:"teach", trg:"la justification", src:"justification, reasoning", pos:"noun", gender:"f",
@@ -111,7 +111,7 @@ const LESSON_18 = {id:"frv2_b2g9_l18", title:"Éducation et Savoir", icon:"📚"
     {trg:"le cursus", src:"curriculum"}
   ]},
 
-  {type:"mc", q:"L'intériorisation des règles signifie:", opts:["Les apprendre par coeur","Les absorber jusqu'à les appliquer naturellement","Les écrire dans un cahier","Les oublier rapidement"], ans:"Les absorber jusqu'à les appliquer naturellement",
+  {type:"mc", q:"L'intériorisation des règles signifie:", opts:["Les oublier rapidement","Les apprendre par coeur","Les absorber jusqu'à les appliquer naturellement","Les écrire dans un cahier"], ans:"Les absorber jusqu'à les appliquer naturellement",
    hint:"Making external rules become internal, natural behavior. Deep learning."},
 
   {type:"fb", s:"Les {1} sont propres à chaque langue et difficiles à traduire.", a:["idiomatismes"], opts:["idiomatismes","participes","justifications","cursus"],

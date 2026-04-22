@@ -86,7 +86,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel mot designe l'instabilite economique et sociale ?",
-     opts:["la precarite","la solidarite","l'integration","la delinquance"],
+     opts:["la delinquance","la precarite","la solidarite","l'integration"],
      ans:"la precarite",
      hint:"A key concept in French social debate. Covers insecure jobs, housing, and life conditions."},
 
@@ -113,7 +113,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel concept, souvent critique en France, designe la priorite donnee a l'identite communautaire ?",
-     opts:["le communautarisme","la solidarite","l'emancipation","la precarite"],
+     opts:["l'emancipation","la precarite","le communautarisme","la solidarite"],
      ans:"le communautarisme",
      hint:"Seen as a threat to France's universal Republican model. Almost always used negatively."}
   ]

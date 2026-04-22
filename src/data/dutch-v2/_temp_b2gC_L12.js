@@ -1,4 +1,4 @@
-// L12: Industrie en Economie — Industry and Economy
+// L12: Industrie en Economie. Industry and Economy
 const LESSON_12 = {
   id:"nlv2_b2gC_l12", title:"Industrie en Economie", icon:"\u{1F3ED}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Welke stad wordt 'de slimste vierkante kilometer van Europa' genoemd?",
-     opts:["Amsterdam","Den Haag","Eindhoven","Utrecht"],
+     opts:["Eindhoven","Utrecht","Amsterdam","Den Haag"],
      ans:"Eindhoven",
      hint:"Home to the High Tech Campus and a major Technical University. A southern city."},
 
@@ -95,7 +95,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Op Koningsdag mag iedereen spullen verkopen zonder vergunning. Dit heet:",
-     opts:["Een gelegenheidsonderneming","Een illegale markt","Een vakbond","Een handelspost"],
+     opts:["Een vakbond","Een handelspost","Een gelegenheidsonderneming","Een illegale markt"],
      ans:"Een gelegenheidsonderneming",
      hint:"A temporary, occasion-based enterprise. Pop-up selling on a special day."},
 
@@ -115,7 +115,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Nederland is qua landbouwexport nummer:",
-     opts:["Een","Twee","Vijf","Tien"],
+     opts:["Vijf","Tien","Een","Twee"],
      ans:"Twee",
      hint:"A tiny country that punches far above its weight. Only the USA exports more agricultural products."}
   ]

@@ -86,7 +86,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"De quel mot vient le mot 'cravate' ?",
-     opts:["croate","hongrois","hollandais","flamand"],
+     opts:["flamand","croate","hongrois","hollandais"],
      ans:"croate",
      hint:"Croatian soldiers wore distinctive neck scarves that inspired a French fashion accessory."},
 
@@ -113,7 +113,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quelle langue celtique est encore parlee en Irlande ?",
-     opts:["le gaelique","le flamand","le finnois","le croate"],
+     opts:["le finnois","le croate","le gaelique","le flamand"],
      ans:"le gaelique",
      hint:"A Celtic language related to Breton, which is still spoken in western France."}
   ]

@@ -63,7 +63,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"裁判所(さいばんしょ)は有罪(ゆうざい)の{1}を言(い)い渡(わた)しました。\n(The court pronounced a guilty verdict.)", a:"判決(はんけつ)", opts:["判決(はんけつ)","証拠(しょうこ)","控訴(こうそ)","刑罰(けいばつ)"], sSrc:"The court pronounced a guilty verdict.",
      hint:"The word for the court's formal decision/ruling on a case."},
 
-    {type:"mc", q:"裁判員制度(さいばんいんせいど) is:", opts:["A system where citizens participate in criminal trials","An online court system","A system for appeals only","A military tribunal system"], ans:"A system where citizens participate in criminal trials",
+    {type:"mc", q:"裁判員制度(さいばんいんせいど) is:", opts:["A military tribunal system","A system where citizens participate in criminal trials","An online court system","A system for appeals only"], ans:"A system where citizens participate in criminal trials",
      hint:"This s..., introduced in 2009, involves lay judges alongside professional judges."},
 
     {type:"match", pairs:[{trg:"裁判(さいばん)",src:"trial"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"弁護士(べんごし)",src:"lawyer"},{trg:"判決(はんけつ)",src:"verdict"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"被告側(ひこくがわ)は判決(はんけつ)を不服(ふふく)として{1}しました。\n(The defense appealed, dissatisfied with the verdict.)", a:"控訴(こうそ)", opts:["控訴(こうそ)","裁判(さいばん)","起訴(きそ)","公判(こうはん)"], sSrc:"The defense appealed, dissatisfied with the verdict.",
      hint:"The legal term for taking a case to a higher court for review."},
 
-    {type:"mc", q:"反省(はんせい) in Japanese culture means:", opts:["Genuine self-reflection and remorse","A simple apology","Legal punishment","Financial compensation"], ans:"Genuine self-reflection and remorse",
+    {type:"mc", q:"反省(はんせい) in Japanese culture means:", opts:["Legal punishment","Financial compensation","Genuine self-reflection and remorse","A simple apology"], ans:"Genuine self-reflection and remorse",
      hint:"This concept goes deeper than saying sorry; it requires visible introspection and change."}
   ,{type:"match",pairs:[{trg:"被告(ひこく)",src:"defendant / the accused"},{trg:"刑罰(けいばつ)",src:"punishment / penalty / criminal sanction"},{trg:"反省(はんせい)",src:"self-reflection / remorse / introspection"}]}]
 };

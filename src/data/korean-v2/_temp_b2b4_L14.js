@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 14: Wheels and Clapping
+// Korean B2. Batch 4, Lesson 14: Wheels and Clapping
 // Words: 바퀴, 바탕, 박, 박다, 박수, 박스, 박히다, 반기다, 반대편, 반면, 반발, 반복되다, 반복하다, 반성, 반성하다, 반영하다, 반응, 반죽, 반지, 반짝거리다
 
 const LESSON_14 = {
@@ -113,7 +113,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'반성문'은 무엇인가요?",
-     opts:["잘못을 되돌아보며 쓰는 글","소설의 한 종류","신문 기사","편지의 한 형식"],
+     opts:["편지의 한 형식","잘못을 되돌아보며 쓰는 글","소설의 한 종류","신문 기사"],
      ans:"잘못을 되돌아보며 쓰는 글",
      hint:"This is a written form of self-reflection, commonly assigned as a corrective measure in Korean schools."},
 

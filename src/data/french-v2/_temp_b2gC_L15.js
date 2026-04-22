@@ -67,7 +67,7 @@ const LESSON_15 = {id:"frv2_b2gC_l15", title:"Adverbes et locutions", icon:"\u{1
 
 {type:"mc",
  q:"Quelle paire d'expressions structure un argument en deux parties ?",
- opts:["D'une part... d'autre part","Là-dessus... là-dedans","Bien dit... bien vu","Pour peu... pour beaucoup"],
+ opts:["Pour peu... pour beaucoup","D'une part... d'autre part","Là-dessus... là-dedans","Bien dit... bien vu"],
  ans:"D'une part... d'autre part",
  hint:"On one hand... on the other hand. Essential for balanced argumentation."},
 
@@ -87,7 +87,7 @@ const LESSON_15 = {id:"frv2_b2gC_l15", title:"Adverbes et locutions", icon:"\u{1
 
 {type:"mc",
  q:"Quelle famille d'adverbes inclut 'là-dessus,' 'là-dedans,' et 'là-dessous' ?",
- opts:["Les adverbes de lieu composés avec 'là'","Les adverbes de temps","Les adverbes de manière","Les adverbes de quantité"],
+ opts:["Les adverbes de manière","Les adverbes de quantité","Les adverbes de lieu composés avec 'là'","Les adverbes de temps"],
  ans:"Les adverbes de lieu composés avec 'là'",
  hint:"All three start with 'là' and add a preposition: on, in, under."},
 
@@ -105,7 +105,7 @@ const LESSON_15 = {id:"frv2_b2gC_l15", title:"Adverbes et locutions", icon:"\u{1
 
 {type:"mc",
  q:"Quel suffixe transforme un adjectif en adverbe en français ?",
- opts:["-ment","-tion","-esse","-eur"],
+ opts:["-tion","-esse","-eur","-ment"],
  ans:"-ment",
  hint:"Like English -ly. Attach this four-letter suffix to the feminine form of an adjective to create an adverb."}
 

@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 18: Verbanden & Structuur
+// B2 Gap Batch A. Lesson 18: Verbanden & Structuur
 // Theme: Connections, structures, organization
 
 const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1F517}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1
    sSrc:"In a group setting you learn more than alone."},
 
   {type:"mc", q:"De gokverslaafde verloor alles. Wat is een 'gokverslaafde'?",
-   opts:["someone addicted to gambling","a casino owner","a lottery winner","a professional poker player"],
+   opts:["a professional poker player","someone addicted to gambling","a casino owner","a lottery winner"],
    ans:"someone addicted to gambling",
    hint:"Gok (gamble) + verslaafde (addict). S... who cannot stop g...."},
 
@@ -77,7 +77,7 @@ const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1
   ]},
 
   {type:"mc", q:"Is graffiti kunst of vandalisme? Wat is 'graffiti'?",
-   opts:["drawings or text sprayed on walls","a type of sculpture","a painting technique","a music genre"],
+   opts:["a painting technique","a music genre","drawings or text sprayed on walls","a type of sculpture"],
    ans:"drawings or text sprayed on walls",
    hint:"From Italian. Street art that is s... or painted on public surfaces."},
 

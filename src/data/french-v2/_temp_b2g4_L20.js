@@ -86,7 +86,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel objet sert a ouvrir des enveloppes ?",
-     opts:["un coupe-papier","un grille-pain","un compte-goutte","un coffre-fort"],
+     opts:["un coffre-fort","un coupe-papier","un grille-pain","un compte-goutte"],
      ans:"un coupe-papier",
      hint:"A compound noun built from a cutting action plus a material. Used at elegant desks to slit open envelopes."},
 
@@ -119,7 +119,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"D'ou vient le nom du meuble 'gueridon' ?",
-     opts:["D'un personnage de theatre du XVIIe siecle","D'un roi de France","D'une ville italienne","D'un mot arabe"],
+     opts:["D'une ville italienne","D'un mot arabe","D'un personnage de theatre du XVIIe siecle","D'un roi de France"],
      ans:"D'un personnage de theatre du XVIIe siecle",
      hint:"Named after a character in a play who held a candle tray. The table replaced the servant."}
   ]

@@ -45,7 +45,7 @@ lessons:[
  funFact:"China's one-child policy (1980-2015) created an entire generation of only children, sometimes called 'little emperors.' The policy has now been relaxed, but its social effects, including a rapidly aging population, continue to shape society."},
 
 {type:"mc", q:"改革开放(gǎigé kāifàng) began in which year?",
- opts:["1949","1966","1978","1989"],
+ opts:["1978","1989","1949","1966"],
  ans:"1978",
  hint:"This economic reform policy started in the late 1970s, transforming China from a planned economy toward a market economy."},
 
@@ -186,7 +186,7 @@ lessons:[
  sSrc:"Globalization has brought opportunities to China, but also {1}."},
 
 {type:"mc", q:"Which word uses the 力(lì) suffix meaning 'power' or 'force'?",
- opts:["全球化(quánqiúhuà)","可持续(kěchíxù)","竞争力(jìngzhēnglì)","挑战(tiǎozhàn)"],
+ opts:["可持续(kěchíxù)","竞争力(jìngzhēnglì)","挑战(tiǎozhàn)","全球化(quánqiúhuà)"],
  ans:"竞争力(jìngzhēnglì)",
  hint:"This suffix names the capacity or force to do something. Which word ends with 力?"},
 
@@ -205,7 +205,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Which statement best describes China's payment technology?",
- opts:["China relies mainly on credit cards","China skipped credit cards and went from cash to mobile payments","China only accepts cash in most places","China uses the same payment systems as Europe"],
+ opts:["China uses the same payment systems as Europe","China relies mainly on credit cards","China skipped credit cards and went from cash to mobile payments","China only accepts cash in most places"],
  ans:"China skipped credit cards and went from cash to mobile payments",
  hint:"Think about what made ___ payment adoption so rapid. The country did not go through a widespread ___ card phase first."}
 ]},
@@ -228,7 +228,7 @@ lessons:[
  sSrc:"China's cities are getting bigger and bigger."},
 
 {type:"mc", q:"越来越(yuèláiyuè) is used to express:",
- opts:["A sudden change","A gradual increasing trend","A comparison between two things","Something that happened in the past"],
+ opts:["A gradual increasing trend","A comparison between two things","Something that happened in the past","A sudden change"],
  ans:"A gradual increasing trend",
  hint:"This pattern describes something that is progressively becoming more of something over time."},
 
@@ -249,7 +249,7 @@ lessons:[
  sSrc:"Many young people want to {1}, to be their own boss."},
 
 {type:"mc", q:"电子商务(diànzǐ shāngwù) can be shortened to:",
- opts:["电商(diànshāng)","电子(diànzǐ)","商务(shāngwù)","电务(diànwù)"],
+ opts:["商务(shāngwù)","电务(diànwù)","电商(diànshāng)","电子(diànzǐ)"],
  ans:"电商(diànshāng)",
  hint:"Chinese frequently abbreviates four-character compounds by taking one character from each pair."},
 
@@ -273,7 +273,7 @@ lessons:[
  hint:"Modern China faces two major difficulties. One is the aging population, the other is environmental."},
 
 {type:"mc", q:"Which compound follows the pattern: noun + 化(huà) = process of becoming?",
- opts:["挑战(tiǎozhàn)","竞争力(jìngzhēnglì)","全球化(quánqiúhuà)","创业(chuàngyè)"],
+ opts:["创业(chuàngyè)","挑战(tiǎozhàn)","竞争力(jìngzhēnglì)","全球化(quánqiúhuà)"],
  ans:"全球化(quánqiúhuà)",
  hint:"Look for the word that ends with 化, the suffix meaning '-ization' or 'process of becoming.'"},
 

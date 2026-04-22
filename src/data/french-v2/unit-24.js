@@ -1,4 +1,4 @@
-// Unit 24 — Bilan B1
+// Unit 24. Bilan B1
 // B1 review and consolidation
 
 export default {n:24,lang:"fr",srcLang:"en",track:"v2",title:"Bilan B1",sub:"B1 review and consolidation",icon:"🎯",level:"B1.8",color:"#7B5EE8",lessons:[

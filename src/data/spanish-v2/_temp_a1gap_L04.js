@@ -1,4 +1,4 @@
-// L04: Food & Kitchen — Essential food vocabulary
+// L04: Food & Kitchen. Essential food vocabulary
 const LESSON_4 = {
   id:"esv2_a1gap_l4", title:"En la cocina", icon:"\u{1F373}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"\u00bfA qué hora almuerzan normalmente en España?",
-     opts:["A las dos","A las doce","A las seis","A las ocho"],
+     opts:["A las ocho","A las dos","A las doce","A las seis"],
      ans:"A las dos",
      hint:"Spanish mealtimes are famously later than in most countries. Lunch is the big daily meal."},
 

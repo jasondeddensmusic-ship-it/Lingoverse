@@ -1,4 +1,4 @@
-// Lesson 11 — Ciencia e investigación
+// Lesson 11. Ciencia e investigación
 const LESSON_11 = {id:"esv2_b2gA_l11", title:"Ciencia e investigación", icon:"🔬", xp:15, board:true, steps:[
 {type:"intro", title:"Ciencia e investigación", desc:"Master scientific vocabulary for discussing research, experiments, and discoveries.", goals:["Learn 15 science and research terms","Discuss scientific topics formally","Navigate academic scientific register"]},
 
@@ -57,7 +57,7 @@ const LESSON_11 = {id:"esv2_b2gA_l11", title:"Ciencia e investigación", icon:"�
  exampleSrc:"A: The irredentist movement sought to recover lost territories.\nB: It was an important political force in the 19th century.",
  funFact:"From Italian irredento. The term originated with Italian unification in the 1860s."},
 
-{type:"mc", q:"Si algo es 'ingente', es:", opts:["Enormemente grande","Muy pequeño","Bastante normal","Ligeramente diferente"], ans:"Enormemente grande",
+{type:"mc", q:"Si algo es 'ingente', es:", opts:["Ligeramente diferente","Enormemente grande","Muy pequeño","Bastante normal"], ans:"Enormemente grande",
  hint:"This formal adjective describes something of vast, enormous proportions."},
 
 {type:"fb", s:"Su voluntad de luchar por sus derechos era {1}.", a:["irreductible"], opts:["irreductible","ingente","irredento","metafísico"],
@@ -94,7 +94,7 @@ const LESSON_11 = {id:"esv2_b2gA_l11", title:"Ciencia e investigación", icon:"�
  hint:"This formal adjective means enormously large in quantity.",
  sSrc:"The task of cataloguing all the documents is {1}."},
 
-{type:"mc", q:"¿Qué es una 'infanta' en la monarquía española?", opts:["Una hija del rey que no es heredera directa","La reina madre","La esposa del rey","La primera en la línea de sucesión"], ans:"Una hija del rey que no es heredera directa",
+{type:"mc", q:"¿Qué es una 'infanta' en la monarquía española?", opts:["La esposa del rey","La primera en la línea de sucesión","Una hija del rey que no es heredera directa","La reina madre"], ans:"Una hija del rey que no es heredera directa",
  hint:"Royal children who are not the direct heir to the throne hold this title."},
 
 {type:"drag_fill", s:"El {1} era una idea {2} para los filósofos griegos.", blanks:{"1":"infinito","2":"metafísica"}, pool:["infinito","metafísica","ingente","irreductible"],

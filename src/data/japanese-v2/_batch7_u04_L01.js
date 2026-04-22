@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"You cannot {1} by card. Cash only."},
 
     {type:"mc", q:"負(まか)けてください is used:",
-     opts:["To ask for a discount at a market","To ask for a receipt at a store","To return an item","To complain about quality"],
+     opts:["To complain about quality","To ask for a discount at a market","To ask for a receipt at a store","To return an item"],
      ans:"To ask for a discount at a market",
      hint:"This casual verb is for bargaining, typically at flea markets or small shops."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Please {1} it nicely as a gift."},
 
     {type:"mc", q:"Japanese prices marked 税込(ぜいこ)み mean:",
-     opts:["Tax is already included in the price","Tax will be added at checkout","The item is tax-free","A discount is applied"],
+     opts:["The item is tax-free","A discount is applied","Tax is already included in the price","Tax will be added at checkout"],
      ans:"Tax is already included in the price",
      hint:"税(ぜい) means t... and 込(こ)み means i.... The displayed p... is what you actually pay."},
 

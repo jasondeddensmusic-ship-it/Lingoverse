@@ -86,7 +86,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel adjectif signifie 'sans nationalite, sans pays' ?",
-     opts:["apatride","cantonal","collectiviste","communiste"],
+     opts:["communiste","apatride","cantonal","collectiviste"],
      ans:"apatride",
      hint:"From Greek roots meaning 'without fatherland'. A humanitarian term."},
 

@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"わくわく",src:"excited/thrilled"},{trg:"もやもや",src:"uneasy/unsettled"},{trg:"すっきり",src:"refreshed/cleared"},{trg:"ほっと",src:"relieved"},{trg:"じーん",src:"deeply moved"}],
      hint:"Match each mimetic emotion word with its English meaning."},
 
-    {type:"mc", q:"What is the opposite feeling of すっきりする?", opts:["もやもやする","わくわくする","ほっとする","じーんとする"], ans:"もやもやする",
+    {type:"mc", q:"What is the opposite feeling of すっきりする?", opts:["じーんとする","もやもやする","わくわくする","ほっとする"], ans:"もやもやする",
      hint:"If すっきり is the clear, refreshed feeling, this is the foggy, unsettled one."},
 
     {type:"fb", s:"旅行(りょこう)が{1}します。\n(I am excited about the trip.)", a:"わくわく", opts:["わくわく","もやもや","うんざり","ほっと"], sSrc:"I am excited about the trip.",
      hint:"This onomatopoeic word expresses positive excitement and eager anticipation."},
 
-    {type:"mc", q:"What does しみじみ describe?", opts:["Deep, quiet, heartfelt contemplation","Loud excitement","Physical pain","Sudden surprise"], ans:"Deep, quiet, heartfelt contemplation",
+    {type:"mc", q:"What does しみじみ describe?", opts:["Physical pain","Sudden surprise","Deep, quiet, heartfelt contemplation","Loud excitement"], ans:"Deep, quiet, heartfelt contemplation",
      hint:"This word connects to Japanese aesthetic concepts of q... appreciation."}
   ,{type:"fb", s:"昔(むかし)の写真(しゃしん)を見(み)ると{1}気持(きも)ちになります。",
      a:["懐(なつ)かしい"],

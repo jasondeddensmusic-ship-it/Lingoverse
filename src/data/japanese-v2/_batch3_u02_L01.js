@@ -1,6 +1,6 @@
 // Unit 02 Batch3 L01. Hobbies, Family, & Describing Yourself
 // New vocab: しゅみ, スポーツ, おんがく, どくしょ, りょこう, えいが,
-// かぞく, ちち, はは, あに, あね, いもうと, おとうと — all absent from
+// かぞく, ちち, はは, あに, あね, いもうと, おとうと, all absent from
 // unit-02.js and _temp_u02 files (which cover more occupations / languages).
 const BATCH3_L_1 = {
   id:"jav2_u2l_b3_1", title:"趣味(しゅみ)と家族(かぞく)", icon:"🎵", xp:15, board:true,
@@ -33,7 +33,7 @@ const BATCH3_L_1 = {
      exampleSrc:"A: My hobby is reading.\nB: What kind of books do you like?",
      funFact:"読 (read) + 書 (write/document). Japan consistently ranks among the world's top-reading nations. Manga (comics) are counted as literature. Japan's publishing industry is the third largest in the world. Light novels (raito noberu) for young adults are a uniquely Japanese genre."},
 
-    {type:"mc", q:"趣味(しゅみ)は何(なん)ですか means:", opts:["How are you?","What is your job?","Where are you from?","What is your hobby?"],
+    {type:"mc", q:"趣味(しゅみ)は何(なん)ですか means:", opts:["What is your hobby?","How are you?","What is your job?","Where are you from?"],
      ans:"What is your hobby?",
      hint:"Shumi means h.../interest. The question asks what yours is."},
 
@@ -74,7 +74,7 @@ const BATCH3_L_1 = {
      funFact:"Haha is ancient Japanese for mother, connecting to the sound a baby makes when nursing. The same root gives ohaha (obsolete) and okaasan (modern polite form). This is one of the most universally cross-linguistic baby words."},
 
     {type:"mc", q:"How do you refer to YOUR father when talking to someone else?",
-     opts:["お父(とう)さん","お兄(にい)さん","父(ちち)","兄(あに)"],
+     opts:["お兄(にい)さん","父(ちち)","兄(あに)","お父(とう)さん"],
      ans:"父(ちち)",
      hint:"The humble word for your own father, not the polite form you use for someone else's."},
 
@@ -122,7 +122,7 @@ const BATCH3_L_1 = {
      hint:"The hobby noun meaning 'travel,' combining characters for 'journey' and 'go.'",
      sSrc:"My hobby is travel."},
 
-    {type:"mc", q:"家族(かぞく)は何人(なんにん)ですか means:", opts:["Do you have a family?","Who is your family?","Where does your family live?","How many people are in your family?"],
+    {type:"mc", q:"家族(かぞく)は何人(なんにん)ですか means:", opts:["Who is your family?","Where does your family live?","How many people are in your family?","Do you have a family?"],
      ans:"How many people are in your family?",
      hint:"Nannin means 'how … p....' Kazoku is f...."},
   {type:"match",pairs:[{trg:"スポーツ",src:"sport(s)"},{trg:"読書(どくしょ)",src:"reading (books)"},{trg:"映画(えいが)",src:"movie / film"}]}]

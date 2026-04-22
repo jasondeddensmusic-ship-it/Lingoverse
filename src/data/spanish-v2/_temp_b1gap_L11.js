@@ -105,7 +105,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 haces con documentos que ya no necesitas en tu escritorio?",
-     opts:["archivarlos","anudarlos","ablandarlos","blanquearlos"],
+     opts:["blanquearlos","archivarlos","anudarlos","ablandarlos"],
      ans:"archivarlos",
      hint:"The process of organizing and storing papers in a systematic filing system."},
 

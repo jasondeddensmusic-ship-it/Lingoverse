@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u12l6", title:"Il fine settimana", icon:"\uD83C\uDF1F
   ]},
 
   {type:"mc", q:"Which verbs in a weekend recap use essere?",
-   opts:["Movement and reflexive verbs (uscire, rilassarsi, andare)","All verbs","Only cooking verbs","Only sleeping verbs"],
+   opts:["Only sleeping verbs","Movement and reflexive verbs (uscire, rilassarsi, andare)","All verbs","Only cooking verbs"],
    ans:"Movement and reflexive verbs (uscire, rilassarsi, andare)",
    hint:"Actions you do TO something (cooking, sleeping, eating) use avere. M... and self-directed actions use essere."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u12l6", title:"Il fine settimana", icon:"\uD83C\uDF1F
    sSrc:"I did not do {1} special."},
 
   {type:"mc", q:"What is 'pranzare dalla nonna'?",
-   opts:["Having lunch at grandma's house","Cooking for grandma","Calling grandma","Meeting grandma at a restaurant"],
+   opts:["Calling grandma","Meeting grandma at a restaurant","Having lunch at grandma's house","Cooking for grandma"],
    ans:"Having lunch at grandma's house",
    hint:"'Da' before a person means at their place. 'Dalla nonna' = at g...'s. The quintessential Italian Sunday."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u12l6", title:"Il fine settimana", icon:"\uD83C\uDF1F
    sSrc:"We went {1} for dinner with friends Saturday evening."},
 
   {type:"mc", q:"Why does 'dormire' use avere but 'uscire' use essere?",
-   opts:["Dormire is a state (no movement), uscire is movement","Both use essere","Both use avere","It is random"],
+   opts:["Both use essere","Both use avere","It is random","Dormire is a state (no movement), uscire is movement"],
    ans:"Dormire is a state (no movement), uscire is movement",
    hint:"Sleeping happens in one place (avere). Going out involves leaving a place (essere). M... is the key."},
 

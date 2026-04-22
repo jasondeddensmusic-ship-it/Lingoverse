@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"お客(きゃく)様(さま)を{1}にご案内(あんない)してください。\n(Please guide the customer to the seat of honor.)", a:"上座(かみざ)", opts:["上座(かみざ)","下座(しもざ)","窓際(まどぎわ)","入口(いりぐち)"], sSrc:"Please guide the customer to the seat of honor.",
      hint:"The prestigious seat farthest from the door, reserved for guests and superiors."},
 
-    {type:"mc", q:"納期(のうき)を守(まも)る means:", opts:["To meet the delivery deadline","To break a promise","To set a new deadline","To extend the deadline"], ans:"To meet the delivery deadline",
+    {type:"mc", q:"納期(のうき)を守(まも)る means:", opts:["To extend the deadline","To meet the delivery deadline","To break a promise","To set a new deadline"], ans:"To meet the delivery deadline",
      hint:"守(まも)る means 'to protect/observe,' combined with the word for d... date."},
 
     {type:"match", pairs:[{trg:"名刺交換(めいしこうかん)",src:"business card exchange"},{trg:"契約(けいやく)",src:"contract"},{trg:"納品(のうひん)",src:"delivery of goods"},{trg:"検品(けんぴん)",src:"product inspection"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"納期(のうき)を守(まも)ることで{1}が築(きず)かれます。\n(Trust is built by meeting deadlines.)", a:"信用(しんよう)", opts:["信用(しんよう)","人気(にんき)","信頼(しんらい)","経験(けいけん)"], sSrc:"Trust is built by meeting deadlines.",
      hint:"The business concept of credibility/trust that takes years to build but moments to lose."},
 
-    {type:"mc", q:"Guests in a Japanese meeting room should sit:", opts:["Farthest from the door (上座(かみざ))","Nearest the door (下座(しもざ))","Wherever they like","Next to the host"], ans:"Farthest from the door (上座(かみざ))",
+    {type:"mc", q:"Guests in a Japanese meeting room should sit:", opts:["Wherever they like","Next to the host","Farthest from the door (上座(かみざ))","Nearest the door (下座(しもざ))"], ans:"Farthest from the door (上座(かみざ))",
      hint:"Japanese seating etiquette places honored guests at the seat of highest prestige."}
   ,{type:"match",pairs:[{trg:"挨拶(あいさつ)",src:"greeting / salutation"},{trg:"納期(のうき)",src:"delivery date / deadline"},{trg:"残業対策(ざんぎょうたいさく)",src:"overtime reduction measures"}]}]
 };

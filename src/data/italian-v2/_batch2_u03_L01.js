@@ -1,4 +1,4 @@
-// Unit 03 Batch 2 — Lesson 1: Ages, Life Stages & Family Verbs
+// Unit 03 Batch 2. Lesson 1: Ages, Life Stages & Family Verbs
 const BATCH2_U03_L1 = {
   id:"itv2_u03l_b2_1", title:"Eta e vita", icon:"\ud83c\udf82", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U03_L1 = {
      sSrc:"I {1} two brothers and a sister."},
 
     {type:"mc", q:"Which word is more respectful for describing elderly people?",
-     opts:["Anziano","Vecchio","Grande","Alto"],
+     opts:["Alto","Anziano","Vecchio","Grande"],
      ans:"Anziano",
      hint:"This word comes from Latin 'ante' (before). It carries respect for someone who came before, unlike the blunter alternative."},
 
@@ -122,7 +122,7 @@ const BATCH2_U03_L1 = {
     ]},
 
     {type:"mc", q:"What verb does Italian use with 'nascere' in past tenses?",
-     opts:["Essere (to be)","Avere (to have)","Fare (to do)","Stare (to stay)"],
+     opts:["Fare (to do)","Stare (to stay)","Essere (to be)","Avere (to have)"],
      ans:"Essere (to be)",
      hint:"A small group of verbs of movement and change use this auxiliary instead of 'avere.' 'Sono nato' not 'ho nato.'"},
 
@@ -133,9 +133,9 @@ const BATCH2_U03_L1 = {
      sSrc:"My daughter is a {1}. She is fifteen years old."},
 
     {type:"mc", q:"What is the difference between 'vivere' and 'abitare'?",
-     opts:["Vivere = live (exist), abitare = reside (address)","They are identical","Vivere is formal only","Abitare means to work"],
+     opts:["They are identical","Vivere is formal only","Abitare means to work","Vivere = live (exist), abitare = reside (address)"],
      ans:"Vivere = live (exist), abitare = reside (address)",
      hint:"One asks about your life in general, the other specifically about where you r.... Both translate to 'l....'"}
-  ,{type:"match",pairs:[{trg:"il/la gemello/a",src:"the twin"}]},{type:"mc",q:"How do you say \"age\" in Italian?",opts:["la finestra","l'età","il tavolo","la bicicletta"],ans:"l'età",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["l'adulto","la finestra","il tavolo","la bicicletta"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il/la gemello/a",src:"the twin"}]},{type:"mc",q:"How do you say \"age\" in Italian?",opts:["l'età","il tavolo","la bicicletta","la finestra"],ans:"l'età",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["la bicicletta","l'adulto","la finestra","il tavolo"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U03_L1;

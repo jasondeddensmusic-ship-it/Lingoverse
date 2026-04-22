@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Che cos'e il divario digitale?",
-     opts:["La differenza tra smartphone e computer","Il gap tra chi ha accesso alla tecnologia e chi no","Un tipo di connessione internet","La distanza tra due server"],
+     opts:["Il gap tra chi ha accesso alla tecnologia e chi no","Un tipo di connessione internet","La distanza tra due server","La differenza tra smartphone e computer"],
      ans:"Il gap tra chi ha accesso alla tecnologia e chi no",
      hint:"The g... between those who can fully participate in the digital world and those who are left behind due to lack of access, skills, or infrastructure."},
 
@@ -96,7 +96,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Perche l'Italia si classifica sotto la media europea negli indici di digitalizzazione?",
-     opts:["Perche gli italiani non usano internet","Per il ritardo nelle infrastrutture, il divario digitale geografico e la lenta trasformazione dei servizi pubblici","Perche il governo vieta la tecnologia","Perche non esistono aziende tecnologiche italiane"],
+     opts:["Perche non esistono aziende tecnologiche italiane","Perche gli italiani non usano internet","Per il ritardo nelle infrastrutture, il divario digitale geografico e la lenta trasformazione dei servizi pubblici","Perche il governo vieta la tecnologia"],
      ans:"Per il ritardo nelle infrastrutture, il divario digitale geografico e la lenta trasformazione dei servizi pubblici",
      hint:"Multiple factors combine: uneven broadband coverage, differences between regions, and slow adoption of digital tools by government offices."}
   ]

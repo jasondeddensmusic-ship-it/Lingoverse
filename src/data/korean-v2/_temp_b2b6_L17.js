@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 17: Connections and Performance
+// Korean B2. Batch 6, Lesson 17: Connections and Performance
 // Words: 연간, 연결, 연관, 연구실, 연구원, 연극, 연기되다, 연기자, 연기하다, 연두색, 연락, 연락처, 연락하다, 연령, 연말, 연상하다, 연설, 연속, 연애, (note: 역사학 in prev)
 
 const LESSON_17 = {
@@ -131,7 +131,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'연기되다'와 '연기하다'가 같은 뜻일 때는?",
-     opts:["일정을 미룰 때","무대에서 공연할 때","연락할 때","연결할 때"],
+     opts:["연결할 때","일정을 미룰 때","무대에서 공연할 때","연락할 때"],
      ans:"일정을 미룰 때",
      hint:"Both words can mean postponing when they use the 延期 hanja, not the acting (演技) hanja."},
 

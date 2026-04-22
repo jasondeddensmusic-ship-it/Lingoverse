@@ -88,7 +88,7 @@ lessons:[
  sSrc:"China's {1} varies greatly: the south is hot, the north is cold."},
 
 {type:"mc", q:"人口(rénkǒu) literally translates as:",
- opts:["people mouths","many people","big family","human count"],
+ opts:["human count","people mouths","many people","big family"],
  ans:"people mouths",
  hint:"人 means person/___. The second character means 'mouth.' Think about ancient census methods."},
 
@@ -107,7 +107,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Which sentence correctly describes China's north-south food divide?",
- opts:["南方(nánfāng)人(rén)吃(chī)面条(miàntiáo)，北方(běifāng)人(rén)吃(chī)米饭(mǐfàn)","南方(nánfāng)人(rén)吃(chī)米饭(mǐfàn)，北方(běifāng)人(rén)吃(chī)面条(miàntiáo)","南方(nánfāng)和(hé)北方(běifāng)都(dōu)吃(chī)面条(miàntiáo)","北方(běifāng)人(rén)吃(chī)米饭(mǐfàn)，南方(nánfāng)人(rén)不(bù)吃(chī)"],
+ opts:["北方(běifāng)人(rén)吃(chī)米饭(mǐfàn)，南方(nánfāng)人(rén)不(bù)吃(chī)","南方(nánfāng)人(rén)吃(chī)面条(miàntiáo)，北方(běifāng)人(rén)吃(chī)米饭(mǐfàn)","南方(nánfāng)人(rén)吃(chī)米饭(mǐfàn)，北方(běifāng)人(rén)吃(chī)面条(miàntiáo)","南方(nánfāng)和(hé)北方(běifāng)都(dōu)吃(chī)面条(miàntiáo)"],
  ans:"南方(nánfāng)人(rén)吃(chī)米饭(mǐfàn)，北方(běifāng)人(rén)吃(chī)面条(miàntiáo)",
  hint:"Rice needs warm, wet conditions found in southern China. Wheat grows better in the drier, cooler north."}
 ]},
@@ -221,7 +221,7 @@ lessons:[
   text:"Chinese sentences often follow a topic-comment pattern rather than strict subject-verb-object:\n\n中国(Zhōngguó)的(de)气候(qìhòu)，南方(nánfāng)热(rè)，北方(běifāng)冷(lěng)。\n(As for) China's climate, the south is hot, the north is cold.\n\nThe topic comes first, then the comment follows. This is different from English, where you would say 'The south of China is hot.' In Chinese, you set up the topic and then describe it. This structure is natural for comparing regions."}},
 
 {type:"mc", q:"Which pattern emphasizes a known fact in Chinese?",
- opts:["有...吗","是...的","在...里","从...到"],
+ opts:["是...的","在...里","从...到","有...吗"],
  ans:"是...的",
  hint:"This two-part pattern wraps around the key information to stress that it is an established fact, not something new."},
 
@@ -248,7 +248,7 @@ lessons:[
  hint:"The first blank describes the size of land. The second describes how many people live there."},
 
 {type:"mc", q:"Which pair of words are directional opposites?",
- opts:["城市(chéngshì) and 农村(nóngcūn)","南方(nánfāng) and 北方(běifāng)","高原(gāoyuán) and 沙漠(shāmò)","省(shěng) and 面积(miànjī)"],
+ opts:["省(shěng) and 面积(miànjī)","城市(chéngshì) and 农村(nóngcūn)","南方(nánfāng) and 北方(běifāng)","高原(gāoyuán) and 沙漠(shāmò)"],
  ans:"南方(nánfāng) and 北方(běifāng)",
  hint:"One means south/southern region, the other means north/northern region. Compass directions."},
 
@@ -267,7 +267,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"青藏(Qīngzàng)高原(gāoyuán)被(bèi)称为(chēngwéi)'世界屋脊(shìjiè wūjǐ).' What is the 'Roof of the World'?",
- opts:["The Gobi Desert","The North China Plain","The Qinghai-Tibet Plateau","The Yangtze River Delta"],
+ opts:["The Yangtze River Delta","The Gobi Desert","The North China Plain","The Qinghai-Tibet Plateau"],
  ans:"The Qinghai-Tibet Plateau",
  hint:"This geographical feature is the highest and largest ___ on Earth, with an average elevation over 4,000 meters."},
 
@@ -277,7 +277,7 @@ lessons:[
  hint:"Asia's longest river is the 'Long River.' The 'Mother River' is the one named for its color."},
 
 {type:"mc", q:"城市(chéngshì) and 农村(nóngcūn) represent what contrast in Chinese society?",
- opts:["North versus south","Modern versus ancient","Urban versus rural","Mountain versus river"],
+ opts:["Urban versus rural","Mountain versus river","North versus south","Modern versus ancient"],
  ans:"Urban versus rural",
  hint:"One word combines 'wall/fortress' and 'market' for ___ areas. The other combines 'agriculture' and 'village' for ___ areas."},
 

@@ -66,7 +66,7 @@ const LESSON_6 = {id:"esv2_b2g6_l6",title:"Educación y academia",icon:"🎓",xp
  exampleSrc:"A: That idea was a stroke of genius.\nB: Sometimes the best ideas are the simplest ones.",
  funFact:"'Genial' in Spanish means 'brilliant/great' in everyday speech, not just related to genius."},
 
-{type:"mc",q:"¿Qué significa inculcar?",opts:["Enseñar valores profundamente","Estudiar agronomía","Hacer un examen","Acondicionar un espacio"],ans:"Enseñar valores profundamente",hint:"When parents press values deeply into their children's minds."},
+{type:"mc",q:"¿Qué significa inculcar?",opts:["Acondicionar un espacio","Enseñar valores profundamente","Estudiar agronomía","Hacer un examen"],ans:"Enseñar valores profundamente",hint:"When parents press values deeply into their children's minds."},
 
 {type:"match",pairs:[
   {trg:"intelecto",src:"intellect"},

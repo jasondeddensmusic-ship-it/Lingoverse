@@ -1,4 +1,4 @@
-// Unit 3 — La famille
+// Unit 3. La famille
 // Family, Possessives & Descriptions
 
 export default {n:3,lang:"fr",srcLang:"en",track:"v2",title:"La famille",sub:"Family, Possessives & Descriptions",icon:"👨‍👩‍👧‍👦",level:"A1.1",color:"#7B5EE8",lessons:[
@@ -221,16 +221,16 @@ export default {n:3,lang:"fr",srcLang:"en",track:"v2",title:"La famille",sub:"Fa
     {type:"tip",title:"Savoir vs Connaitre: Two Verbs for To Know",text:"French has two verbs for to know, and they are not interchangeable.\n\nSavoir = to know a fact, information, or how to do something.\nJe sais que Paris est en France. (I know that Paris is in France.)\nJe sais nager. (I know how to swim.)\n\nConnaitre = to know a person or a place (to be acquainted with).\nJe connais Pierre. (I know Pierre.)\nJe connais Paris. (I know Paris.)\n\nQuick rule: if you can replace know with know how to or know that, use savoir. If you can replace know with be familiar with, use connaitre.",deepDive:{title:"Why two verbs?",text:"Latin had the same distinction: sapere (to know intellectually) and noscere (to recognise, to be acquainted). French inherited both, giving savoir from sapere and connaitre from cognoscere.\n\nGerman, Italian, and Spanish have the same split: German wissen vs kennen, Italian sapere vs conoscere, Spanish saber vs conocer.\n\nThis is a European pattern, not a French quirk. Once you learn the rule in French, you will recognise the same split in other languages instantly."}},
     {type:"mc",q:"'La famille' means:",opts:["The family","The father","The daughter","The sister"],ans:"The family",hint:"A feminine noun from Latin. Close to the English word familiar."},
     {type:"fb",opts:["soeur","frere","enfant","tante"],hint:"The female sibling: one word, feminine noun.",s:"J'ai une {1} et deux freres. (sister)",a:"soeur"},
-    {type:"mc",q:"'L'enfant' uses l' (not le or la) because:",opts:["Enfant is neutral gender","Enfant is plural","Enfant begins with a vowel","Enfant is informal"],ans:"Enfant begins with a vowel",hint:"Elision: le or la both contract to l' before a ___ sound."},
+    {type:"mc",q:"'L'enfant' uses l' (not le or la) because:",opts:["Enfant is plural","Enfant begins with a vowel","Enfant is informal","Enfant is neutral gender"],ans:"Enfant begins with a vowel",hint:"Elision: le or la both contract to l' before a ___ sound."},
     {type:"fb",opts:["restaurant","ville","ecole","maison"],hint:"The place where children go to learn. Feminine noun.",s:"Mes enfants aiment l'{1}. Ils apprennent beaucoup. (school)",a:"ecole"},
-    {type:"mc",q:"'En ville' means:",opts:["In the village","In town","In school","In the house"],ans:"In town",hint:"La ville = city or …. En ville = in ___ (no article needed)."},
+    {type:"mc",q:"'En ville' means:",opts:["In the house","In the village","In town","In school"],ans:"In town",hint:"La ville = city or …. En ville = in ___ (no article needed)."},
     {type:"match",pairs:[{trg:"la famille",src:"family"},{trg:"l'enfant",src:"child"},{trg:"la ville",src:"city, town"},{trg:"l'ecole",src:"school"},{trg:"le restaurant",src:"restaurant"}]},
     {type:"fb",opts:["legume","fruit","viande","pain"],hint:"The food category covering carrots, tomatoes, and peas. Masculine noun.",s:"Je mange des {1}s chaque jour. C'est bon pour la sante. (vegetable)",a:"legume"},
-    {type:"mc",q:"'Le fruit' ends in a silent T. The plural 'les fruits' sounds:",opts:["Like the singular (T still silent)","Like FRWEE-TSS","Like FRWEE-ZZ","Different: the S is spoken"],ans:"Like the singular (T still silent)",hint:"French plural -s is never pronounced. The spoken form of fruit does not change in the plural."},
+    {type:"mc",q:"'Le fruit' ends in a silent T. The plural 'les fruits' sounds:",opts:["Like FRWEE-TSS","Like FRWEE-ZZ","Different: the S is spoken","Like the singular (T still silent)"],ans:"Like the singular (T still silent)",hint:"French plural -s is never pronounced. The spoken form of fruit does not change in the plural."},
     {type:"fb",opts:["dors","bois","sais","fais"],hint:"I sleep: the je form of dormir. One syllable.",s:"Je {1} mal quand j'ai beaucoup de travail. (I sleep)",a:"dors"},
-    {type:"mc",q:"'Je bois de l'eau' means:",opts:["I want water","I drink water","I like water","I have water"],ans:"I drink water",hint:"Boire = to …. Je bois = I ___."},
+    {type:"mc",q:"'Je bois de l'eau' means:",opts:["I drink water","I like water","I have water","I want water"],ans:"I drink water",hint:"Boire = to …. Je bois = I ___."},
     {type:"fb",opts:["sais","connais","veux","peux"],hint:"I know how to speak French: use the verb for knowing facts and abilities.",s:"Je {1} parler francais et anglais. (I know how to)",a:"sais"},
-    {type:"mc",q:"Which sentence correctly uses 'savoir'?",opts:["Je sais Pierre.","Je sais Paris.","Je sais nager.","Je sais ma soeur."],ans:"Je sais nager.",hint:"Savoir is used for knowing how to do something or knowing a fact, not for being acquainted with a person or place."},
+    {type:"mc",q:"Which sentence correctly uses 'savoir'?",opts:["Je sais Paris.","Je sais nager.","Je sais ma soeur.","Je sais Pierre."],ans:"Je sais nager.",hint:"Savoir is used for knowing how to do something or knowing a fact, not for being acquainted with a person or place."},
     {type:"match",pairs:[{trg:"dormir",src:"to sleep"},{trg:"boire",src:"to drink"},{trg:"savoir",src:"to know (facts)"},{trg:"le legume",src:"vegetable"},{trg:"le fruit",src:"fruit"}]}
   ]}
 ]};

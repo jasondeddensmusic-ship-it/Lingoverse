@@ -66,7 +66,7 @@ const LESSON_17 = {id:"esv2_b2gC_l17",title:"Tecnología e innovación",icon:"�
  exampleSrc:"A: I prefer to work from home on Fridays.\nB: Remote work has changed the way we live.",
  funFact:"Since 2020, 'trabajar en casa' and 'teletrabajo' have become part of everyday Spanish vocabulary."},
 
-{type:"mc",q:"¿Qué expresión indica un punto de inicio en el tiempo?",opts:["A partir de","En cambio","Como que no","Justo a tiempo"],ans:"A partir de",hint:"This two-word prepositional phrase means 'starting from' a specific moment."},
+{type:"mc",q:"¿Qué expresión indica un punto de inicio en el tiempo?",opts:["Justo a tiempo","A partir de","En cambio","Como que no"],ans:"A partir de",hint:"This two-word prepositional phrase means 'starting from' a specific moment."},
 
 {type:"fb",s:"{1} el lunes, el nuevo sistema estará operativo.",a:["A partir de"],opts:["A partir de","En cambio","Justo a tiempo","En casa"],hint:"A prepositional phrase meaning 'starting from' or 'as of' a particular date.",sSrc:"{1} Monday, the new system will be operational."},
 

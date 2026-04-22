@@ -86,7 +86,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel nom technique désigne les petites lignes au bout des lettres dans une police classique ?",
-     opts:["l'empâtement","l'emboîtage","l'embout","l'embellissement"],
+     opts:["l'embellissement","l'empâtement","l'emboîtage","l'embout"],
      ans:"l'empâtement",
      hint:"In typography, this word describes the serifs that give classic fonts their elegant appearance."},
 

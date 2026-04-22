@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 16 — Human Rights and Ethics
+// French B2 Gap Lesson 16. Human Rights and Ethics
 const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:"✊", xp:15, board:true, steps:[
   {type:"intro", title:"Droits humains et éthique",
    desc:"Learn vocabulary for discussing human rights, social justice, and ethical dilemmas at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:
    funFact:"From 'généreux/généreuse' + '-ment'. Note: 'généralement' means 'generally' (different word!)."},
 
   {type:"mc", q:"Qu'est-ce que la déscolarisation?",
-   opts:["L'abandon de l'école avant la fin des études","L'inscription dans une nouvelle école","L'augmentation des effectifs scolaires","La réforme du système éducatif"],
+   opts:["La réforme du système éducatif","L'abandon de l'école avant la fin des études","L'inscription dans une nouvelle école","L'augmentation des effectifs scolaires"],
    ans:"L'abandon de l'école avant la fin des études",
    hint:"Leaving school before completing one's education"},
 
@@ -105,7 +105,7 @@ const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:
   ]},
 
   {type:"mc", q:"Quel adjectif décrit une mentalité étroite liée à la vie sur une île?",
-   opts:["Insulaire","Indiscriminée","Imprononçable","Indolore"],
+   opts:["Imprononçable","Indolore","Insulaire","Indiscriminée"],
    ans:"Insulaire",
    hint:"From the Latin word for island, also meaning closed-minded"},
 
@@ -120,7 +120,7 @@ const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:
    hint:"Native peoples' rights are often overlooked by large corporations"},
 
   {type:"mc", q:"Que signifie 'un résultat inattendu'?",
-   opts:["Un résultat que personne n'avait prévu","Un résultat très attendu","Un résultat officiel","Un résultat final"],
+   opts:["Un résultat très attendu","Un résultat officiel","Un résultat final","Un résultat que personne n'avait prévu"],
    ans:"Un résultat que personne n'avait prévu",
    hint:"Something nobody saw coming, a surprising outcome"}
 ]};

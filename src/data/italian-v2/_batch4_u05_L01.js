@@ -1,4 +1,4 @@
-// Batch 4 — Unit 05, Lesson 1: Furniture & Household Objects
+// Batch 4. Unit 05, Lesson 1: Furniture & Household Objects
 const BATCH4_U05_L1 = {
   id:"itv2_u05l_b4_1", title:"I mobili", icon:"\uD83D\uDECB", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U05_L1 = {
     ]},
 
     {type:"mc", q:"Qual e la differenza tra 'tavolo' e 'tavola'?",
-     opts:["Tavolo is the furniture; tavola is the table set for a meal","They mean the same thing","Tavolo is formal; tavola is informal","Tavola is bigger than tavolo"],
+     opts:["Tavola is bigger than tavolo","Tavolo is the furniture; tavola is the table set for a meal","They mean the same thing","Tavolo is formal; tavola is informal"],
      ans:"Tavolo is the furniture; tavola is the table set for a meal",
      hint:"One refers to the object itself, the other to the dining experience."},
 
@@ -126,7 +126,7 @@ const BATCH4_U05_L1 = {
      sSrc:"The keys are in the {1} of the desk."},
 
     {type:"mc", q:"Cosa significa 'comodino' in italiano?",
-     opts:["Nightstand / bedside table","A small sofa","A comfortable pillow","A desk lamp"],
+     opts:["A comfortable pillow","A desk lamp","Nightstand / bedside table","A small sofa"],
      ans:"Nightstand / bedside table",
      hint:"The diminutive of 'comodo' (comfortable), it sits next to your bed."},
 
@@ -136,7 +136,7 @@ const BATCH4_U05_L1 = {
      sSrc:"This sofa is very {1}, I always fall asleep here."},
 
     {type:"mc", q:"Da quale lingua viene la parola 'tappeto'?",
-     opts:["Arabic","Latin","Greek","German"],
+     opts:["Latin","Greek","German","Arabic"],
      ans:"Arabic",
      hint:"This word entered Italian through centuries of Mediterranean trade."}
   ,{type:"match",pairs:[{trg:"la coperta",src:"the blanket"}]}]

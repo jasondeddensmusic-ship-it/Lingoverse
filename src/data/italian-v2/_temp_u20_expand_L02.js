@@ -56,7 +56,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What is unique about Italian oral exams?",
-     opts:["They are always taken in private offices","They are conducted publicly with other students watching","They last only five minutes each","They are always optional extras"],
+     opts:["They are conducted publicly with other students watching","They last only five minutes each","They are always optional extras","They are always taken in private offices"],
      ans:"They are conducted publicly with other students watching",
      hint:"S... stand before the professor and answer for 15-30 minutes. Waiting s... often observe the process."},
 
@@ -97,7 +97,7 @@ const LESSON_5 = {
      sSrc:"The {1} for the exam takes months."},
 
     {type:"mc", q:"What does the 'relatore' do?",
-     opts:["Grades all written exams for a course","Manages university enrollment records","Supervises and guides a student's thesis","Teaches all first-year introductory lectures"],
+     opts:["Teaches all first-year introductory lectures","Grades all written exams for a course","Manages university enrollment records","Supervises and guides a student's thesis"],
      ans:"Supervises and guides a student's thesis",
      hint:"This professor mentors you from proposal to defense. At the 'discussione,' they introduce your work to the examination panel."}
   ]

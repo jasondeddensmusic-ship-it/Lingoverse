@@ -86,7 +86,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Que signifie 'faire des chichis' ?",
-     opts:["Faire des manieres inutiles","Chuchoter doucement","B\u00e9gayer de peur","Administrer un remede"],
+     opts:["Administrer un remede","Faire des manieres inutiles","Chuchoter doucement","B\u00e9gayer de peur"],
      ans:"Faire des manieres inutiles",
      hint:"Unnecessary fuss or affected behavior. 'Sans chichi' means straightforward."},
 

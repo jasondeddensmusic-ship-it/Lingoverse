@@ -51,12 +51,12 @@ lessons:[
  funFact:"虚 also appears in philosophical contexts in Chinese: 虚心 (humble, 'empty heart'). The idea of emptiness is not negative but open and ready. Fittingly, 虚拟 describes spaces that feel real while being empty of physical substance."},
 
 {type:"mc", q:"机器人(jīqìrén) literally means:",
- opts:["computer brain","machine person","smart tool","digital helper"],
+ opts:["machine person","smart tool","digital helper","computer brain"],
  ans:"machine person",
  hint:"机器 means …. 人 means …. Combine them literally."},
 
 {type:"mc", q:"The character 自 in 自动 means:",
- opts:["ready","new","self","fast"],
+ opts:["new","self","fast","ready"],
  ans:"self",
  hint:"Automatic in Chinese is '…-moving.' The first character carries the reflexive meaning."},
 
@@ -111,7 +111,7 @@ lessons:[
  note:"工 (work) + 程 (process) + 师 (teacher/master).\nA master of work processes.",
  example:"A: 他(tā)是(shì)软件(ruǎnjiàn)工程师(gōngchéngshī)吗(ma)？\nB: 是(shì)的(de)，他(tā)在(zài)一(yì)家(jiā)科技(kējì)公司(gōngsī)工作(gōngzuò)。",
  exampleSrc:"A: Is he a software engineer?\nB: Yes, he works at a tech company.",
- funFact:"In China, 工程师 was historically one of the most respected job titles — a 高级工程师 (senior engineer) was a high-status certification. The term still carries weight, even as job titles evolve."},
+ funFact:"In China, 工程师 was historically one of the most respected job titles, a 高级工程师 (senior engineer) was a high-status certification. The term still carries weight, even as job titles evolve."},
 
 {type:"teach", trg:"用户(yònghù)", src:"user", pos:"noun", gender:null,
  note:"用 (use) + 户 (household/account).\nUsing-account. Standard word for platform users.",
@@ -189,12 +189,12 @@ lessons:[
  funFact:"下载 and 上传 (upload, up-load) are perfect calques of English tech terms. Chinese adopted the directional metaphor wholesale: down from the cloud to your device, up from your device to the cloud."},
 
 {type:"mc", q:"在线(zàixiàn) literally means:",
- opts:["over the hill","on the line","at the station","on the air"],
+ opts:["on the line","at the station","on the air","over the hill"],
  ans:"on the line",
  hint:"在 means 'on' or 'at.' 线 means '….' This echoes the telegraph-era metaphor."},
 
 {type:"mc", q:"To download is 下载. To upload is:",
- opts:["远载(yuǎnzài)","上载(shàngzài)","上传(shàngchuán)","大载(dàzài)"],
+ opts:["上载(shàngzài)","上传(shàngchuán)","大载(dàzài)","远载(yuǎnzài)"],
  ans:"上传(shàngchuán)",
  hint:"The opposite direction of 下载. Think 'up' (上) plus a word meaning 'transmit' or 'deliver.'"},
 

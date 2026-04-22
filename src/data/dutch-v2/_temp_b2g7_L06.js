@@ -95,7 +95,7 @@ const LESSON_6 = {
      funFact:"'Inwisselbaar' has both a commercial sense (redeemable points) and a philosophical one (people as 'inwisselbaar' means dispensable, which sounds harsh)."},
     {type:"mc",
      q:"Wat is een 'integrale aanpak'?",
-     opts:["Een aanpak die alle aspecten tegelijk behandelt","Een aanpak die stap voor stap werkt","Een wiskundige methode","Een aanpak die alleen op korte termijn werkt"],
+     opts:["Een aanpak die alleen op korte termijn werkt","Een aanpak die alle aspecten tegelijk behandelt","Een aanpak die stap voor stap werkt","Een wiskundige methode"],
      ans:"Een aanpak die alle aspecten tegelijk behandelt",
      hint:"'Integraal' means comprehensive or holistic. What kind of approach addresses everything at once?"},
     {type:"fb",
@@ -106,7 +106,7 @@ const LESSON_6 = {
      sSrc:"The restaurant has {1} atmosphere in recent years."},
     {type:"mc",
      q:"Wat is een 'dwarsverbinding'?",
-     opts:["Een verbinding tussen verschillende onderdelen","Een rechte lijn","Een doodlopende weg","Een verticale verbinding"],
+     opts:["Een doodlopende weg","Een verticale verbinding","Een verbinding tussen verschillende onderdelen","Een rechte lijn"],
      ans:"Een verbinding tussen verschillende onderdelen",
      hint:"'Dwars' means cross or transverse. What kind of connection goes across rather than straight?"}
   ]

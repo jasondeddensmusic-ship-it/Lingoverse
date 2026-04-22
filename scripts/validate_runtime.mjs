@@ -119,8 +119,11 @@ function validateLanguage(name, units) {
   const code = LANG_CODE[name];
   const totals = { units: units.length, lessons: 0, teach: 0, mc: 0, fb: 0, match: 0, drag_fill: 0, production: 0 };
   const violations = {
-    pp8_hint: [],      // {unit, lesson, stepIdx, field, trg/ans, leaks}
-    pp8_visual: [],
+    pp8_hint: [],      // hint contains answer word
+    pp8_visual: [],    // answer visible in question text
+    pp8_position: [],  // answer always in same position
+    pp8_length: [],    // answer always longest option
+    pp22c: [],         // em-dash in user-facing text
     pp43: [],          // over-dense
     pp48: [],          // multi-blank fb
     pp64: [],          // untested teach
@@ -178,6 +181,9 @@ function validateLanguage(name, units) {
         violations.pp43.push({ unit: unitId, lesson: lessonId, steps: stepCount });
       }
 
+      // Per-lesson MC aggregation for PP8 position + length leak detection.
+      const lessonMc = [];
+
       for (let i = 0; i < steps.length; i++) {
         const step = steps[i];
         if (!step) continue;
@@ -204,6 +210,16 @@ function validateLanguage(name, units) {
             if (leaks.length > 0) {
               violations.pp8_hint.push({ unit: unitId, lesson: lessonId, stepIdx: i, type: 'mc', ans, hint, leaks });
             }
+          }
+          // Collect for per-lesson position/length analysis.
+          if (ans && opts.length > 0) {
+            const ansIdx = opts.findIndex(o => String(o).toLowerCase() === String(ans).toLowerCase());
+            const ansLen = String(ans).length;
+            // Strict: ans must be uniquely longer than every other option.
+            // Ties don't cue the learner to pick the longest, so they don't
+            // count as a PP8 length leak.
+            const ansIsLongest = opts.every(o => String(o) === String(ans) || String(o).length < ansLen);
+            lessonMc.push({ ans, opts: opts.map(String), ansIdx, ansIsLongest });
           }
         }
 
@@ -254,6 +270,63 @@ function validateLanguage(name, units) {
             if (isProductionAnswer(v)) prodHit = true;
           }
           if (prodHit) { totals.production++; unitProd++; }
+        }
+
+        // PP22c — em-dash scanning across user-facing string fields on any step.
+        const STRING_FIELDS = ['trg','src','nl','en','q','s','ans','hint','note','funFact',
+                               'example','exampleSrc','exampleEn','sSrc','sEn','text','deepDive',
+                               'title','desc','sub'];
+        for (const f of STRING_FIELDS) {
+          const val = step[f];
+          if (typeof val === 'string' && val.includes('—')) {
+            violations.pp22c.push({ unit: unitId, lesson: lessonId, stepIdx: i, field: f, snippet: val.slice(0, 80) });
+          } else if (val && typeof val === 'object' && !Array.isArray(val)) {
+            // deepDive can be nested {title, text}.
+            for (const sk of Object.values(val)) {
+              if (typeof sk === 'string' && sk.includes('—')) {
+                violations.pp22c.push({ unit: unitId, lesson: lessonId, stepIdx: i, field: f+'.*', snippet: sk.slice(0, 80) });
+                break;
+              }
+            }
+          }
+        }
+        // opts[] and goals[] are arrays of strings.
+        for (const f of ['opts','goals']) {
+          const arr = step[f];
+          if (Array.isArray(arr)) {
+            for (const v of arr) {
+              if (typeof v === 'string' && v.includes('—')) {
+                violations.pp22c.push({ unit: unitId, lesson: lessonId, stepIdx: i, field: f, snippet: v.slice(0, 80) });
+                break;
+              }
+            }
+          }
+        }
+      }
+
+      // PP8 position + length leak per lesson.
+      // Position: require 4+ MC steps and >50% clustering in one slot.
+      // Length: require 6+ MC steps and >60% uniquely-longest — small samples
+      // and near-50% rates reflect natural vocab distribution, not an
+      // engineered leak a learner could exploit as a strategy.
+      if (lessonMc.length >= 4) {
+        const positionCounts = [0, 0, 0, 0, 0, 0];
+        let longestCount = 0;
+        for (const s of lessonMc) {
+          if (s.ansIdx >= 0 && s.ansIdx < positionCounts.length) positionCounts[s.ansIdx]++;
+          if (s.ansIsLongest) longestCount++;
+        }
+        for (let p = 0; p < positionCounts.length; p++) {
+          const pct = positionCounts[p] / lessonMc.length;
+          if (pct > 0.5) {
+            violations.pp8_position.push({ unit: unitId, lesson: lessonId, position: p, count: positionCounts[p], total: lessonMc.length, pct: Math.round(pct * 100) });
+          }
+        }
+        if (lessonMc.length >= 6) {
+          const longestPct = longestCount / lessonMc.length;
+          if (longestPct > 0.6) {
+            violations.pp8_length.push({ unit: unitId, lesson: lessonId, count: longestCount, total: lessonMc.length, pct: Math.round(longestPct * 100) });
+          }
         }
       }
     }
@@ -309,19 +382,22 @@ function fmt(n) { return String(n).padStart(5); }
 
 function printSummary(name, report) {
   const t = report.totals, v = report.violations;
-  const total = v.pp8_hint.length + v.pp8_visual.length + v.pp43.length + v.pp48.length + v.pp64.length + v.pp67.length;
+  const total = v.pp8_hint.length + v.pp8_visual.length + v.pp8_position.length + v.pp8_length.length + v.pp22c.length + v.pp43.length + v.pp48.length + v.pp64.length + v.pp67.length;
   console.log(`\n${'='.repeat(60)}`);
   console.log(`  VALIDATION SUMMARY: ${name}`);
   console.log(`${'='.repeat(60)}`);
   console.log(`  Units=${t.units}  Lessons=${t.lessons}  Teach=${t.teach}`);
   console.log(`  MC=${t.mc}  FB=${t.fb}  drag_fill=${t.drag_fill}  match=${t.match}  production=${t.production}`);
   console.log(`${'─'.repeat(60)}`);
-  console.log(`  PP8  hint leaks:     ${fmt(v.pp8_hint.length)}`);
-  console.log(`  PP8  visual leaks:   ${fmt(v.pp8_visual.length)}`);
-  console.log(`  PP43 over-dense:     ${fmt(v.pp43.length)}`);
-  console.log(`  PP48 multi-blank fb: ${fmt(v.pp48.length)}`);
-  console.log(`  PP64 untested teach: ${fmt(v.pp64.length)} / ${t.teach}`);
-  console.log(`  PP67 under-prod unit: ${fmt(v.pp67.length)} / ${report.perUnit.length}`);
+  console.log(`  PP8  hint leaks:       ${fmt(v.pp8_hint.length)}`);
+  console.log(`  PP8  visual leaks:     ${fmt(v.pp8_visual.length)}`);
+  console.log(`  PP8  position leaks:   ${fmt(v.pp8_position.length)}`);
+  console.log(`  PP8  length leaks:     ${fmt(v.pp8_length.length)}`);
+  console.log(`  PP22c em-dash:         ${fmt(v.pp22c.length)}`);
+  console.log(`  PP43 over-dense:       ${fmt(v.pp43.length)}`);
+  console.log(`  PP48 multi-blank fb:   ${fmt(v.pp48.length)}`);
+  console.log(`  PP64 untested teach:   ${fmt(v.pp64.length)} / ${t.teach}`);
+  console.log(`  PP67 under-prod unit:  ${fmt(v.pp67.length)} / ${report.perUnit.length}`);
   console.log(`${'─'.repeat(60)}`);
   console.log(`  RESULT: ${total === 0 ? 'PASS — zero violations' : `${total} violations`}`);
   console.log(`${'='.repeat(60)}`);
@@ -361,7 +437,7 @@ if (wantJson) {
 let totalV = 0;
 for (const r of Object.values(reports)) {
   const v = r.violations;
-  totalV += v.pp8_hint.length + v.pp8_visual.length + v.pp43.length + v.pp48.length + v.pp64.length + v.pp67.length;
+  totalV += v.pp8_hint.length + v.pp8_visual.length + v.pp8_position.length + v.pp8_length.length + v.pp22c.length + v.pp43.length + v.pp48.length + v.pp64.length + v.pp67.length;
 }
 if (!wantJson) {
   console.log(`\nGRAND TOTAL violations across ${targets.length} language(s): ${totalV}`);

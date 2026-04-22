@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"人工知能(じんこうちのう)の{1}的(てき)問題(もんだい)について考(かんが)えるべきです。\n(We should think about the ethical issues of AI.)", a:"倫理(りんり)", opts:["倫理(りんり)","道徳(どうとく)","法律(ほうりつ)","経済(けいざい)"], sSrc:"We should think about the ethical issues of AI.",
      hint:"The word for ethics/moral philosophy, used as a な-adjective modifier with てき."},
 
-    {type:"mc", q:"義理(ぎり) describes:", opts:["Social obligations created by relationships","Personal desires","Financial debts","Legal requirements"], ans:"Social obligations created by relationships",
+    {type:"mc", q:"義理(ぎり) describes:", opts:["Legal requirements","Social obligations created by relationships","Personal desires","Financial debts"], ans:"Social obligations created by relationships",
      hint:"This concept governs the sense of duty felt toward people in your s... network."},
 
     {type:"match", pairs:[{trg:"倫理(りんり)",src:"ethics"},{trg:"正義(せいぎ)",src:"justice"},{trg:"良心(りょうしん)",src:"conscience"},{trg:"価値観(かちかん)",src:"values/value system"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"日本(にほん)社会(しゃかい)では義理(ぎり)と{1}のバランスが重要(じゅうよう)です。\n(In Japan, the balance of obligation and human feeling is important.)", a:"人情(にんじょう)", opts:["人情(にんじょう)","倫理(りんり)","道徳(どうとく)","正義(せいぎ)"], sSrc:"In Japan, the balance of obligation and human feeling is important.",
      hint:"The word for human feelings, compassion, and empathy that contrasts with social obligation."},
 
-    {type:"mc", q:"Japanese ethics draws from:", opts:["Buddhism, Confucianism, and Shinto simultaneously","Only Western philosophy","Only Buddhism","Only Confucianism"], ans:"Buddhism, Confucianism, and Shinto simultaneously",
+    {type:"mc", q:"Japanese ethics draws from:", opts:["Only Buddhism","Only Confucianism","Buddhism, Confucianism, and Shinto simultaneously","Only Western philosophy"], ans:"Buddhism, Confucianism, and Shinto simultaneously",
      hint:"Japan's moral framework blends multiple philosophical and religious traditions."}
   ,{type:"match",pairs:[{trg:"公平性(こうへいせい)",src:"fairness / impartiality / equity"},{trg:"善悪(ぜんあく)",src:"good and evil / right and wrong"},{trg:"義理(ぎり)",src:"social obligation / duty / honor"}]}]
 };

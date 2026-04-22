@@ -1,4 +1,4 @@
-// L03: Klimaat en Milieu — Climate and Environment
+// L03: Klimaat en Milieu. Climate and Environment
 const LESSON_3 = {
   id:"nlv2_b2gD_l03", title:"Klimaat en Milieu", icon:"\u{1F30D}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Wat betekent 'kringloop' in de context van winkelen?",
-     opts:["Een tweedehandswinkel","Een supermarkt","Een online webshop","Een marktplein"],
+     opts:["Een marktplein","Een tweedehandswinkel","Een supermarkt","Een online webshop"],
      ans:"Een tweedehandswinkel",
      hint:"Short for 'kringloopwinkel'. These shops sell donated second-hand items. Think circular economy."},
 

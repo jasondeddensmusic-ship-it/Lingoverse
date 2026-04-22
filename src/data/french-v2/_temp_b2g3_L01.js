@@ -86,7 +86,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot signifie rendre explicite ce qui est implicite ?",
-     opts:["expliciter","certifier","approfondir","accumuler"],
+     opts:["accumuler","expliciter","certifier","approfondir"],
      ans:"expliciter",
      hint:"This verb is specifically about spelling out what is only implied, not about explaining."},
 
@@ -137,7 +137,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Comment dit-on 'in-depth' quand on parle d'une étude détaillée ?",
-     opts:["approfondi","alphabétique","académique","certifié"],
+     opts:["académique","certifié","approfondi","alphabétique"],
      ans:"approfondi",
      hint:"This adjective comes from the verb meaning to deepen. Think of going deep into analysis."},
 

@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"When you are in trouble, please {1} me."},
 
     {type:"mc", q:"思(おも)いやり requires:",
-     opts:["Imagining others' feelings and acting on it","Saying sorry frequently","Giving expensive gifts","Being quiet all the time"],
+     opts:["Being quiet all the time","Imagining others' feelings and acting on it","Saying sorry frequently","Giving expensive gifts"],
      ans:"Imagining others' feelings and acting on it",
      hint:"This virtue goes beyond empathy. It requires actively doing something based on imagined f...."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"We fought but {1}."},
 
     {type:"mc", q:"許(ゆる)す in Japan requires the offender to show:",
-     opts:["反省(はんせい) (genuine self-reflection)","Money","Gifts","Nothing special"],
+     opts:["Gifts","Nothing special","反省(はんせい) (genuine self-reflection)","Money"],
      ans:"反省(はんせい) (genuine self-reflection)",
      hint:"Simply saying sorry is not enough. The person must demonstrate they have reflected and will change."},
 

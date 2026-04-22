@@ -93,7 +93,7 @@ const LESSON_6 = {
      sSrc:"Marco is very {1}, he always makes me laugh!"},
 
     {type:"mc", q:"What is the literal meaning of 'coraggioso'?",
-     opts:["From the heart","From the head","From strength","From the mind"],
+     opts:["From the mind","From the heart","From the head","From strength"],
      ans:"From the heart",
      hint:"The root 'coraggio' comes from Latin 'cor' (h...). Bravery is literally a quality of the h...."},
 
@@ -112,7 +112,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What does 'furbo' describe?",
-     opts:["Someone street-smart or cunning","Someone angry","Someone shy","Someone boring"],
+     opts:["Someone shy","Someone boring","Someone street-smart or cunning","Someone angry"],
      ans:"Someone street-smart or cunning",
      hint:"This uniquely Italian trait can be admired or criticized. It describes cleverness in bending rules."},
 
@@ -123,7 +123,7 @@ const LESSON_6 = {
      sSrc:"My brother is very {1}, he never stops!"},
 
     {type:"mc", q:"What is the opposite of 'pigro'?",
-     opts:["Energico","Noioso","Tranquillo","Timido"],
+     opts:["Noioso","Tranquillo","Timido","Energico"],
      ans:"Energico",
      hint:"A lazy person lacks energy. The opposite is someone full of activity and drive."},
 

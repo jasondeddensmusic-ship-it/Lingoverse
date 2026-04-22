@@ -1,4 +1,4 @@
-// Lesson 12 — Normas y regulación
+// Lesson 12. Normas y regulación
 const LESSON_12 = {id:"esv2_b2gA_l12", title:"Normas y regulación", icon:"📋", xp:15, board:true, steps:[
 {type:"intro", title:"Normas y regulación", desc:"Navigate formal vocabulary about rules, standards, and regulatory frameworks.", goals:["Learn 15 regulation and compliance terms","Discuss rules and standards formally","Use administrative vocabulary precisely"]},
 
@@ -57,7 +57,7 @@ const LESSON_12 = {id:"esv2_b2gA_l12", title:"Normas y regulación", icon:"📋"
  exampleSrc:"A: Van der Weyden's Descent from the Cross is in the Prado.\nB: It's one of the museum's masterpieces.",
  funFact:"One of the most painted scenes in Western art. The Prado version is considered the finest."},
 
-{type:"mc", q:"¿Qué es una 'fechoría'?", opts:["Un acto malo o criminal","Una fiesta popular","Un tipo de comida","Una fecha importante"], ans:"Un acto malo o criminal",
+{type:"mc", q:"¿Qué es una 'fechoría'?", opts:["Una fecha importante","Un acto malo o criminal","Una fiesta popular","Un tipo de comida"], ans:"Un acto malo o criminal",
  hint:"Despite sounding like 'fecha' (date), it comes from 'hecho' (deed) and means a bad act."},
 
 {type:"fb", s:"La {1} controlada del puente se realizó sin incidentes.", a:["detonación"], opts:["detonación","fechoría","normalización","regulación"],
@@ -94,7 +94,7 @@ const LESSON_12 = {id:"esv2_b2gA_l12", title:"Normas y regulación", icon:"📋"
  hint:"This connector introduces a contrast between two statements.",
  sSrc:"Madrid is noisy; Seville, {1}, has a calmer rhythm."},
 
-{type:"mc", q:"¿Qué describe el 'imperfecto' en gramática?", opts:["Acciones habituales o en progreso en el pasado","Acciones futuras","Acciones completadas en el pasado","Órdenes directas"], ans:"Acciones habituales o en progreso en el pasado",
+{type:"mc", q:"¿Qué describe el 'imperfecto' en gramática?", opts:["Acciones completadas en el pasado","Órdenes directas","Acciones habituales o en progreso en el pasado","Acciones futuras"], ans:"Acciones habituales o en progreso en el pasado",
  hint:"This tense views past actions as ongoing or repeated, not finished."},
 
 {type:"drag_fill", s:"Le dieron de {1} en el hospital después de la {2}.", blanks:{"1":"alta","2":"neumonía"}, pool:["alta","neumonía","baja","detonación"],

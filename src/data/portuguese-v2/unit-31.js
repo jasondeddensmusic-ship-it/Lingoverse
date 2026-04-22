@@ -50,7 +50,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
 
 {type:"mc",
  q:"Complete: 'No ___, as pessoas escreviam cartas à mão.'",
- opts:["futuro","presente","passado","século"],
+ opts:["presente","passado","século","futuro"],
  ans:"passado",
  hint:"The sentence describes something people did long ago, not now."},
 
@@ -76,7 +76,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
 
 {type:"mc",
  q:"História can mean both 'history' and:",
- opts:["poem","story","lesson","century"],
+ opts:["lesson","century","poem","story"],
  ans:"story",
  hint:"A narrative, whether fictional or factual."},
 
@@ -84,7 +84,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
  s:"A {1} estuda os eventos do passado e do presente.",
  a:["história"],
  opts:["história","século","futuro","presente"],
- hint:"The discipline and the subject — means both 'history' and 'story'.",
+ hint:"The discipline and the subject, means both 'history' and 'story'.",
  sSrc:"The {1} studies the events of the past and present."},
 
 {type:"fb",
@@ -185,7 +185,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
 
 {type:"mc",
  q:"Brazil was a Portuguese colony for approximately how long?",
- opts:["100 years","200 years","300 years","500 years"],
+ opts:["500 years","100 years","200 years","300 years"],
  ans:"300 years",
  hint:"From 1500 to 1822 is roughly three centuries."},
 
@@ -248,7 +248,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
 
 {type:"mc",
  q:"Which word means 'peace'?",
- opts:["guerra","paz","revolução","império"],
+ opts:["paz","revolução","império","guerra"],
  ans:"paz",
  hint:"Three letters, the opposite of armed conflict."},
 
@@ -261,7 +261,7 @@ const UNIT_31 = {n:31, lang:"pt", srcLang:"en", track:"v2", title:"História e p
 
 {type:"mc",
  q:"Since 1889, Brazil has been a:",
- opts:["colônia","império","república","ditadura"],
+ opts:["império","república","ditadura","colônia"],
  ans:"república",
  hint:"A state with elected leaders, not a monarch."},
 

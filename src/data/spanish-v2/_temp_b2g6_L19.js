@@ -66,7 +66,7 @@ const LESSON_19 = {id:"esv2_b2g6_l19",title:"Vida urbana y servicios",icon:"🏙
  exampleSrc:"A: Starting from tomorrow, the schedule changes.\nB: What time will they open?",
  funFact:"Very common in formal announcements. 'A partir de' can refer to both time and amounts."},
 
-{type:"mc",q:"¿Qué significa a partir de mañana?",opts:["Desde mañana en adelante","Hasta mañana","Antes de mañana","Durante mañana"],ans:"Desde mañana en adelante",hint:"From that point forward. Starting at a particular moment."},
+{type:"mc",q:"¿Qué significa a partir de mañana?",opts:["Durante mañana","Desde mañana en adelante","Hasta mañana","Antes de mañana"],ans:"Desde mañana en adelante",hint:"From that point forward. Starting at a particular moment."},
 
 {type:"match",pairs:[
   {trg:"junta",src:"board / committee"},

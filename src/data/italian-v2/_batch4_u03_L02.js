@@ -1,4 +1,4 @@
-// Batch 4 — Unit 03, Lesson 2: Physical Appearance & Age
+// Batch 4. Unit 03, Lesson 2: Physical Appearance & Age
 const BATCH4_U03_L2 = {
   id:"itv2_u03l_b4_2", title:"Come sei?", icon:"\uD83D\uDC64", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U03_L2 = {
     ]},
 
     {type:"mc", q:"Perche in italiano si dice 'ho 25 anni' e non 'sono 25 anni'?",
-     opts:["Italian uses avere (to have) for age, not essere (to be)","It is a fixed expression with no logic","Both forms are correct","Sono is only for older people"],
+     opts:["Sono is only for older people","Italian uses avere (to have) for age, not essere (to be)","It is a fixed expression with no logic","Both forms are correct"],
      ans:"Italian uses avere (to have) for age, not essere (to be)",
      hint:"A... in I... is something you 'have,' not something you 'are.'"},
 
@@ -126,7 +126,7 @@ const BATCH4_U03_L2 = {
      sSrc:"She has green {1} and red hair."},
 
     {type:"mc", q:"Qual e il modo educato per dire che qualcuno e vecchio?",
-     opts:["Anziano","Vecchio","Robusto","Magro"],
+     opts:["Robusto","Magro","Anziano","Vecchio"],
      ans:"Anziano",
      hint:"This politer word is preferred over the more blunt alternative in conversation."},
 
@@ -136,7 +136,7 @@ const BATCH4_U03_L2 = {
      sSrc:"My brother is very {1}, he has black hair and dark skin."},
 
     {type:"mc", q:"Cosa significa 'che barba!'?",
-     opts:["How boring!","What a beard!","How annoying!","What a mess!"],
+     opts:["What a beard!","How annoying!","What a mess!","How boring!"],
      ans:"How boring!",
      hint:"This colloquial expression uses the word for 'beard' in an unexpected way."}
   ,{type:"match",pairs:[{trg:"i capelli",src:"the hair (on head)"},{trg:"castano",src:"brown (hair/eyes)"},{trg:"la barba",src:"the beard"},{trg:"i baffi",src:"the mustache"},{trg:"giovane",src:"young"},{trg:"somigliare",src:"to look alike / to resemble"}]}]

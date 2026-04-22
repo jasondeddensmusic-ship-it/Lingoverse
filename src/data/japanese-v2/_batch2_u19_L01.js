@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: If you won the lottery, what would you do?\nB: I would want to travel the world.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"もしも doubles the hypothetical emphasis of もし. It signals a clearly imaginary scenario: lottery wins, superpowers, time travel. The pattern もしも + たら is common in conversation games and interviews. Japanese TV shows love the もしもシリーズ (what-if series) format."},
 
-    {type:"mc", q:"もっと勉強(べんきょう)すればよかった means:", opts:["I studied a lot","I should have studied more","I will study more","Studying is good"], ans:"I should have studied more",
+    {type:"mc", q:"もっと勉強(べんきょう)すればよかった means:", opts:["I should have studied more","I will study more","Studying is good","I studied a lot"], ans:"I should have studied more",
      hint:"ばよかった expresses regret about something you S... HAVE done but did not."},
 
     {type:"teach", trg:"宝(たから)くじ", src:"lottery", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"宝(たから)くじ",src:"lottery"},{trg:"後悔(こうかい)する",src:"to regret"},{trg:"あのとき",src:"at that time"},{trg:"ないかぎり",src:"unless"}]},
 
-    {type:"mc", q:"練習(れんしゅう)しないかぎり上手(じょうず)になりません means:", opts:["If you practice, you will improve","Unless you practice, you will not improve","Practicing is not necessary","You practiced and improved"], ans:"Unless you practice, you will not improve",
+    {type:"mc", q:"練習(れんしゅう)しないかぎり上手(じょうず)になりません means:", opts:["You practiced and improved","If you practice, you will improve","Unless you practice, you will not improve","Practicing is not necessary"], ans:"Unless you practice, you will not improve",
      hint:"ないかぎり sets a hard boundary: the result ONLY changes if the condition is met."},
   {type:"match",pairs:[{trg:"世界(せかい)旅行(りょこう)",src:"world travel / trip around the world"}]},
   {type:"fb", s:"もし{1}に当(あ)たったら、世界(せかい)旅行(りょこう)をするのに。", a:["宝(たから)くじ"], opts:["宝(たから)くじ","もしも","〜ばよかった","お金(かね)"], hint:"A game of chance where you buy a ticket hoping for a large prize.", sSrc:"If I won the {1}, I would travel the world."}

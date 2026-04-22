@@ -31,7 +31,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel adjectif décrit un sourire moqueur et sournois ?",
-     opts:["narcotique","naval","narquois","natif"],
+     opts:["narquois","natif","narcotique","naval"],
      ans:"narquois",
      hint:"A quiet, sly mockery. Think of someone smiling while silently making fun of you."},
 
@@ -119,7 +119,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel Français a relancé les Jeux olympiques modernes en 1896 ?",
-     opts:["Victor Hugo","Napoléon","Louis Pasteur","Pierre de Coubertin"],
+     opts:["Napoléon","Louis Pasteur","Pierre de Coubertin","Victor Hugo"],
      ans:"Pierre de Coubertin",
      hint:"The philosophy he created is called 'olympisme'. A French educator with a vision for world sport."},
 

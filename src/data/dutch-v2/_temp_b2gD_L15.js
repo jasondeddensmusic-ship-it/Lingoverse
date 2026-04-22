@@ -1,4 +1,4 @@
-// L15: Industrie en Werk — Industry and Work
+// L15: Industrie en Werk. Industry and Work
 const LESSON_15 = {
   id:"nlv2_b2gD_l15", title:"Industrie en Werk", icon:"\u{1F3ED}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Wat is bijzonder aan Nederlandse scheldwoorden?",
-     opts:["Ze zijn vaak gebaseerd op ziektes","Ze zijn altijd in het Engels","Ze worden nooit gebruikt","Ze zijn hetzelfde als in het Duits"],
+     opts:["Ze zijn hetzelfde als in het Duits","Ze zijn vaak gebaseerd op ziektes","Ze zijn altijd in het Engels","Ze worden nooit gebruikt"],
      ans:"Ze zijn vaak gebaseerd op ziektes",
      hint:"Dutch expletives uniquely reference medical conditions like tuberculosis and cholera. This pattern is unusual among world languages."},
 

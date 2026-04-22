@@ -1,4 +1,4 @@
-// Unit 10 — Le passé composé (être)
+// Unit 10. Le passé composé (être)
 // Past with être & Agreement
 
 import COVERAGE_U10 from './_coverage_u10.js';

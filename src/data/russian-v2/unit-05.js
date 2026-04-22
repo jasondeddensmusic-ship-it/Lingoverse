@@ -1,4 +1,4 @@
-// Russian V2 Unit 5 — Daily Life and Time (A1.2)
+// Russian V2 Unit 5. Daily Life and Time (A1.2)
 const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый день", sub:"Daily Life and Time",
  icon:"🌅", level:"A1.2", color:"#7B5EE8",
  lessons:[
@@ -19,25 +19,25 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Stress on last: fche-RA.\nCommon opening word for stories.",
  example:"A: Ты здесь вчера?\nB: Нет, я там вчера.",
  exampleSrc:"A: Were you here yesterday?\nB: No, I was there yesterday.",
- funFact:"Russians often open anecdotes with 'Вчера...' (Yesterday...) — similar to English storytelling. It signals a complete past narrative is coming."},
+ funFact:"Russians often open anecdotes with 'Вчера...' (Yesterday...), similar to English storytelling. It signals a complete past narrative is coming."},
 
 {type:"teach", trg:"завтра", src:"tomorrow", pos:"adv", gender:null,
  note:"Stress on first: ZAV-tra.\nLiterally means 'at-dawn' (за + утро).",
  example:"A: Ты здесь завтра?\nB: Да, завтра вечером.",
  exampleSrc:"A: Are you here tomorrow?\nB: Yes, tomorrow evening.",
- funFact:"Завтра comes from за (behind) + утро (morning) — 'beyond this morning.' Similar compound logic creates позавчера (day before yesterday) and послезавтра (day after tomorrow)."},
+ funFact:"Завтра comes from за (behind) + утро (morning), 'beyond this morning.' Similar compound logic creates позавчера (day before yesterday) and послезавтра (day after tomorrow)."},
 
 {type:"teach", trg:"сейчас", src:"now", pos:"adv", gender:null,
  note:"Stress on last: sey-CHAS.\nContains 'час' (hour) as a component.",
  example:"A: Ты здесь сейчас?\nB: Да, я здесь сейчас.",
  exampleSrc:"A: Are you here now?\nB: Yes, I am here now.",
- funFact:"Сейчас literally means 'this-hour.' It's often drawn out in casual speech to 'сейча-а-ас' meaning 'just a moment' — the Russian equivalent of 'hang on.'"},
+ funFact:"Сейчас literally means 'this-hour.' It's often drawn out in casual speech to 'сейча-а-ас' meaning 'just a moment', the Russian equivalent of 'hang on.'"},
 
 {type:"teach", trg:"утром", src:"in the morning", pos:"adv", gender:null,
  note:"Instrumental case form of утро (morning).\nRussian uses instrumental for time-of-day expressions.",
  example:"A: Когда ты встаёшь?\nB: Утром, в семь часов.",
  exampleSrc:"A: When do you get up?\nB: In the morning, at seven o'clock.",
- funFact:"Russian doesn't say 'in the morning' with a preposition — it uses the instrumental case of 'morning' alone. This extends to all times of day: утром, днём, вечером, ночью."},
+ funFact:"Russian doesn't say 'in the morning' with a preposition, it uses the instrumental case of 'morning' alone. This extends to all times of day: утром, днём, вечером, ночью."},
 
 {type:"teach", trg:"днём", src:"in the afternoon / during the day", pos:"adv", gender:null,
  note:"Instrumental of день (day).\nIncludes noon through late afternoon.",
@@ -49,25 +49,25 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Instrumental of вечер (evening).\nFrom about 6pm to bedtime.",
  example:"A: Ты здесь вечером?\nB: Да, я здесь вечером.",
  exampleSrc:"A: Are you here in the evening?\nB: Yes, I am here in the evening.",
- funFact:"Вечер also names the social event — an evening gathering. 'Литературный вечер' = literary evening (reading). 'Торжественный вечер' = formal evening event."},
+ funFact:"Вечер also names the social event, an evening gathering. 'Литературный вечер' = literary evening (reading). 'Торжественный вечер' = formal evening event."},
 
 {type:"teach", trg:"ночью", src:"at night", pos:"adv", gender:null,
  note:"Instrumental of ночь (night).\nFrom bedtime to dawn.",
  example:"A: Ты здесь ночью?\nB: Нет, я там ночью.",
  exampleSrc:"A: Are you here at night?\nB: No, I am there at night.",
- funFact:"Russian has a midnight-specific greeting: 'Спокойной ночи!' (Good night!) — literally 'peaceful night.' It's only said before sleep, never as a greeting."},
+ funFact:"Russian has a midnight-specific greeting: 'Спокойной ночи!' (Good night!), literally 'peaceful night.' It's only said before sleep, never as a greeting."},
 
 {type:"tip", title:"Time Expressions Without Prepositions",
- text:"English: 'I work IN THE morning.' Russian: 'Я работаю УТРОМ.' No preposition needed!\n\nInstrumental case alone = 'during [this time].'\nУтром (morning) → in the morning.\nДнём (day) → during the day.\nВечером (evening) → in the evening.\nНочью (night) → at night.\n\nAlso applies to seasons:\nЗимой (winter) → in winter.\nВесной (spring) → in spring.\nЛетом (summer) → in summer.\nОсенью (autumn) → in autumn.\n\nThis is your first taste of the instrumental case — one of Russia's 6 cases. You'll meet it formally in B1.",
+ text:"English: 'I work IN THE morning.' Russian: 'Я работаю УТРОМ.' No preposition needed!\n\nInstrumental case alone = 'during [this time].'\nУтром (morning) → in the morning.\nДнём (day) → during the day.\nВечером (evening) → in the evening.\nНочью (night) → at night.\n\nAlso applies to seasons:\nЗимой (winter) → in winter.\nВесной (spring) → in spring.\nЛетом (summer) → in summer.\nОсенью (autumn) → in autumn.\n\nThis is your first taste of the instrumental case, one of Russia's 6 cases. You'll meet it formally in B1.",
  icon:"🎯"},
 
 {type:"mc", q:"How do you say 'tomorrow evening' in Russian?",
- opts:["завтра вечер","завтра вечером","в завтра вечер","завтра на вечере"],
+ opts:["завтра вечером","в завтра вечер","завтра на вечере","завтра вечер"],
  ans:"завтра вечером",
- hint:"'Tomorrow' is already an adverb. Add the instrumental form of 'evening' — no preposition."},
+ hint:"'Tomorrow' is already an adverb. Add the instrumental form of 'evening', no preposition."},
 
 {type:"mc", q:"Which word contains the Г→В pronunciation rule?",
- opts:["завтра","вчера","сегодня","сейчас"],
+ opts:["вчера","сегодня","сейчас","завтра"],
  ans:"сегодня",
  hint:"One of only three words (plus -ого adjective endings) where Г sounds like V in Russian."},
 
@@ -108,7 +108,7 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Literally: 'which hour?'\nFormal, standard way to ask.",
  example:"A: Который час?\nB: Сейчас три часа.",
  exampleSrc:"A: What time is it?\nB: It's three o'clock now.",
- funFact:"More casually: 'Сколько времени?' (How much time?) — also standard. Both work. 'Сколько времени?' is marginally more common in everyday speech."},
+ funFact:"More casually: 'Сколько времени?' (How much time?), also standard. Both work. 'Сколько времени?' is marginally more common in everyday speech."},
 
 {type:"teach", trg:"в", src:"at / in / to", pos:"prep", gender:null,
  note:"Time-specific: 'at X o'clock' = 'в X часов.'\nTakes nominative for hours (exception pattern).",
@@ -126,13 +126,13 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Literally: 'late' in time.\nCommonly: 'поздно уже' = 'it's already late.'",
  example:"A: Уже поздно?\nB: Да, поздно.",
  exampleSrc:"A: Is it late already?\nB: Yes, late.",
- funFact:"'Лучше поздно, чем никогда' (better late than never) — a Russian idiom taken directly from the Latin. Used in the same situations as in English."},
+ funFact:"'Лучше поздно, чем никогда' (better late than never), a Russian idiom taken directly from the Latin. Used in the same situations as in English."},
 
 {type:"teach", trg:"всегда", src:"always", pos:"adv", gender:null,
  note:"Stress: fse-g-DA.\nPositive counterpart of никогда (never).",
  example:"A: Ты всегда встаёшь в семь?\nB: Да, всегда.",
  exampleSrc:"A: Do you always get up at seven?\nB: Yes, always.",
- funFact:"Russian frequency adverbs form a spectrum: всегда (always) > часто (often) > иногда (sometimes) > редко (rarely) > никогда (never). Each is a single word — no complex 'every so often' phrases."},
+ funFact:"Russian frequency adverbs form a spectrum: всегда (always) > часто (often) > иногда (sometimes) > редко (rarely) > никогда (never). Each is a single word, no complex 'every so often' phrases."},
 
 {type:"teach", trg:"никогда", src:"never", pos:"adv", gender:null,
  note:"Requires double negative: 'я никогда НЕ...'\nRussian negative words always pair with не.",
@@ -141,16 +141,16 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  funFact:"Russian REQUIRES double negatives for grammatical correctness. 'I never eat nothing' is the correct form. Single negatives would be ungrammatical."},
 
 {type:"tip", title:"Telling Time: Simple Patterns",
- text:"Basic time expressions follow patterns based on the ending digit:\n\n'IT'S X O'CLOCK' — number + час/часа/часов:\n1 = Час. (one o'clock).\n2-4 = Два часа, три часа, четыре часа.\n5-20 = Пять часов, десять часов.\n\n'AT X O'CLOCK' — в + number + час/часа/часов:\nВ час. (at 1).\nВ два часа. (at 2).\nВ пять часов. (at 5).\n\nAM/PM clarifiers:\nутра (in the morning): 6-12am.\nдня (in the afternoon): 12-5pm.\nвечера (in the evening): 5-11pm.\nночи (at night): 11pm-6am.\n\nSo '3 PM' = 'три часа дня' (three o'clock of-day).",
+ text:"Basic time expressions follow patterns based on the ending digit:\n\n'IT'S X O'CLOCK', number + час/часа/часов:\n1 = Час. (one o'clock).\n2-4 = Два часа, три часа, четыре часа.\n5-20 = Пять часов, десять часов.\n\n'AT X O'CLOCK', в + number + час/часа/часов:\nВ час. (at 1).\nВ два часа. (at 2).\nВ пять часов. (at 5).\n\nAM/PM clarifiers:\nутра (in the morning): 6-12am.\nдня (in the afternoon): 12-5pm.\nвечера (in the evening): 5-11pm.\nночи (at night): 11pm-6am.\n\nSo '3 PM' = 'три часа дня' (three o'clock of-day).",
  icon:"⏰"},
 
 {type:"mc", q:"How do you ask 'What time is it?' in Russian?",
- opts:["Что время?","Который час?","В какое время?","Что часы?"],
+ opts:["Который час?","В какое время?","Что часы?","Что время?"],
  ans:"Который час?",
  hint:"Literally 'which hour?' The other common way is 'Сколько времени?'"},
 
 {type:"mc", q:"'At 5 o'clock' in Russian is:",
- opts:["В пять часов","Пять часов","На пять час","За пять часов"],
+ opts:["За пять часов","В пять часов","Пять часов","На пять час"],
  ans:"В пять часов",
  hint:"Use 'в' + number + genitive plural 'часов' (since 5+ takes gen pl)."},
 
@@ -191,25 +191,25 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Feminine. Ends in -я (soft feminine).\nUsed with на + prepositional: 'на этой неделе' (this week).",
  example:"A: Это неделя?\nB: Да, семь дней.",
  exampleSrc:"A: Is this a week?\nB: Yes, seven days.",
- funFact:"Неделя originally meant 'Sunday' in Old Slavic — the 'not-day' when you don't work. Modern Russian uses воскресенье for Sunday, with неделя shifting to mean 'week.'"},
+ funFact:"Неделя originally meant 'Sunday' in Old Slavic, the 'not-day' when you don't work. Modern Russian uses воскресенье for Sunday, with неделя shifting to mean 'week.'"},
 
 {type:"teach", trg:"понедельник", src:"Monday", pos:"noun", gender:"m",
  note:"Masculine. From 'после недели' (after Sunday).\nFirst workday. Russian weeks start Monday.",
  example:"A: Ты здесь в понедельник?\nB: Да, в понедельник.",
  exampleSrc:"A: Are you here on Monday?\nB: Yes, on Monday.",
- funFact:"Понедельник literally 'after-week-day' — since неделя once meant Sunday, this is 'the day after Sunday.' Russian days follow numerical logic: вторник (2nd), среда (middle), четверг (4th)."},
+ funFact:"Понедельник literally 'after-week-day', since неделя once meant Sunday, this is 'the day after Sunday.' Russian days follow numerical logic: вторник (2nd), среда (middle), четверг (4th)."},
 
 {type:"teach", trg:"суббота", src:"Saturday", pos:"noun", gender:"f",
  note:"Feminine. From Hebrew Sabbath via Greek.\nFirst day of the weekend.",
  example:"A: Ты здесь в субботу?\nB: Да, в субботу.",
  exampleSrc:"A: Are you here on Saturday?\nB: Yes, on Saturday.",
- funFact:"Суббота is one of two Russian day names from Hebrew (via Greek Σάββατον) — the Sabbath. The other is воскресенье (Sunday), meaning 'resurrection' in Old Slavic."},
+ funFact:"Суббота is one of two Russian day names from Hebrew (via Greek Σάββατον), the Sabbath. The other is воскресенье (Sunday), meaning 'resurrection' in Old Slavic."},
 
 {type:"teach", trg:"воскресенье", src:"Sunday", pos:"noun", gender:"n",
  note:"Neuter. Ends in -е.\nThe longest day name. Stress on fourth syllable.",
  example:"A: Вы здесь в воскресенье?\nB: Да, в воскресенье.",
  exampleSrc:"A: Are you here on Sunday?\nB: Yes, on Sunday.",
- funFact:"Воскресенье literally means 'resurrection' — from the Christian belief about Easter Sunday. The name embedded a religious concept that stuck even in Soviet times."},
+ funFact:"Воскресенье literally means 'resurrection', from the Christian belief about Easter Sunday. The name embedded a religious concept that stuck even in Soviet times."},
 
 {type:"teach", trg:"каждый день", src:"every day", pos:"phrase", gender:null,
  note:"Literally: 'every day' (masculine form).\nWorks for habitual actions.",
@@ -227,14 +227,14 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Positive frequency adverb.\nOpposite: редко (rarely).",
  example:"A: Ты часто здесь?\nB: Да, часто.",
  exampleSrc:"A: Are you here often?\nB: Yes, often.",
- funFact:"Часто comes from the root 'часть' (part) — something that happens 'in parts' (frequently). Russian word families are often transparent once you see them."},
+ funFact:"Часто comes from the root 'часть' (part), something that happens 'in parts' (frequently). Russian word families are often transparent once you see them."},
 
 {type:"tip", title:"Russian Days of the Week",
- text:"Russian days follow simple logic:\n\nпонедельник (Monday) — after-Sunday-day.\nвторник (Tuesday) — 'second day.'\nсреда (Wednesday) — 'middle day' (of the week).\nчетверг (Thursday) — 'fourth day.'\nпятница (Friday) — 'fifth day.'\nсуббота (Saturday) — from Hebrew Sabbath.\nвоскресенье (Sunday) — 'resurrection.'\n\nThe week in Russian STARTS Monday (ends Sunday), aligned with the ISO standard. This affects calendars and date-counting.\n\nTo say 'on [day]': в + accusative.\nВ понедельник (on Monday).\nВ среду (on Wednesday — feminine accusative of среда).\nВ субботу (on Saturday).\nВ воскресенье (on Sunday — neuter, no change).",
+ text:"Russian days follow simple logic:\n\nпонедельник (Monday), after-Sunday-day.\nвторник (Tuesday), 'second day.'\nсреда (Wednesday), 'middle day' (of the week).\nчетверг (Thursday), 'fourth day.'\nпятница (Friday), 'fifth day.'\nсуббота (Saturday), from Hebrew Sabbath.\nвоскресенье (Sunday), 'resurrection.'\n\nThe week in Russian STARTS Monday (ends Sunday), aligned with the ISO standard. This affects calendars and date-counting.\n\nTo say 'on [day]': в + accusative.\nВ понедельник (on Monday).\nВ среду (on Wednesday, feminine accusative of среда).\nВ субботу (on Saturday).\nВ воскресенье (on Sunday, neuter, no change).",
  icon:"📅"},
 
 {type:"mc", q:"What does 'среда' (Wednesday) literally mean?",
- opts:["Day five","Middle day","Market day","After Sunday"],
+ opts:["Middle day","Market day","After Sunday","Day five"],
  ans:"Middle day",
  hint:"It's the ___ of the week (Mon-Sun). The word also means 'medium' or 'environment' in Russian."},
 
@@ -286,7 +286,7 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"Imperfective. Conjugation: умею, умеешь, умеет.\nExpresses ACQUIRED skill. Takes a bare infinitive.",
  example:"A: Ты умеешь играть?\nB: Да, я умею играть.",
  exampleSrc:"A: Do you know how to play?\nB: Yes, I know how to play.",
- funFact:"Уметь is specifically about a skill you learned — like swimming or playing piano. Compare to мочь, which covers physical possibility or permission. Both translate as 'can' in English but differ in meaning."},
+ funFact:"Уметь is specifically about a skill you learned, like swimming or playing piano. Compare to мочь, which covers physical possibility or permission. Both translate as 'can' in English but differ in meaning."},
 
 {type:"teach", trg:"мочь", src:"to be able to / can", pos:"verb", gender:null,
  note:"Imperfective. Irregular: могу, можешь, может, можем, можете, могут.\nExpresses POSSIBILITY or permission.",
@@ -313,11 +313,11 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  funFact:"Не могу is the go-to phrase when something is impossible in the moment: not allowed, too busy, physically unable. It's softer than a refusal. Very common in everyday Russian."},
 
 {type:"tip", title:"уметь vs мочь vs знать",
- text:"Three verbs all translate as 'can' or 'know' in English, but each has a precise role:\n\nУМЕТЬ (know how — learned skill):\nЯ умею плавать. I know how to swim.\nОн умеет играть на пианино. He can play piano.\n\nМОЧЬ (be able to — possibility or permission):\nЯ могу прийти завтра. I can come tomorrow.\nОна не может говорить сейчас. She can't talk right now.\n\nЗНАТЬ (know — knowledge of facts or subjects):\nЯ знаю русский. I know Russian.\nТы знаешь это? Do you know this?\n\nRule of thumb: уметь for physical skills, мочь for circumstances, знать for facts.",
+ text:"Three verbs all translate as 'can' or 'know' in English, but each has a precise role:\n\nУМЕТЬ (know how, learned skill):\nЯ умею плавать. I know how to swim.\nОн умеет играть на пианино. He can play piano.\n\nМОЧЬ (be able to, possibility or permission):\nЯ могу прийти завтра. I can come tomorrow.\nОна не может говорить сейчас. She can't talk right now.\n\nЗНАТЬ (know, knowledge of facts or subjects):\nЯ знаю русский. I know Russian.\nТы знаешь это? Do you know this?\n\nRule of thumb: уметь for physical skills, мочь for circumstances, знать for facts.",
  icon:"🔑"},
 
 {type:"mc", q:"Which verb expresses a learned physical skill like swimming?",
- opts:["мочь","знать","уметь","играть"],
+ opts:["уметь","играть","мочь","знать"],
  ans:"уметь",
  hint:"One of these three verbs specifically describes ACQUIRED skills, not circumstances or facts."},
 
@@ -363,19 +363,19 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"2nd conjugation. Present: вижу, видишь, видит, видим, видите, видят.\nNote the consonant change: вид- → виж- in 1st-person singular.",
  example:"A: Ты видишь это?\nB: Да, я вижу.",
  exampleSrc:"A: Do you see this?\nB: Yes, I see it.",
- funFact:"Видеть (imperfective) means 'to see' as an ongoing state. Its perfective partner is увидеть (to catch sight of). The д→ж change in 'вижу' is a standard 2nd-conjugation softening — the same pattern appears in сидеть (to sit) → сижу."},
+ funFact:"Видеть (imperfective) means 'to see' as an ongoing state. Its perfective partner is увидеть (to catch sight of). The д→ж change in 'вижу' is a standard 2nd-conjugation softening, the same pattern appears in сидеть (to sit) → сижу."},
 
 {type:"teach", trg:"жить", src:"to live", pos:"verb", gender:null,
  note:"1st conjugation, irregular. Present: живу, живёшь, живёт, живём, живёте, живут.\nThe ж always takes ё (never е) when stressed.",
  example:"A: Где ты живёшь?\nB: Я живу здесь.",
  exampleSrc:"A: Where do you live?\nB: I live here.",
- funFact:"Жить is one of the most common A1 verbs. Notice that живёшь has the ё vowel — Ж, Ш, Щ, and Ч cannot be followed by unstressed Е in Russian spelling; they take Ё instead. This is a core spelling rule."},
+ funFact:"Жить is one of the most common A1 verbs. Notice that живёшь has the ё vowel, Ж, Ш, Щ, and Ч cannot be followed by unstressed Е in Russian spelling; they take Ё instead. This is a core spelling rule."},
 
 {type:"teach", trg:"спать", src:"to sleep", pos:"verb", gender:null,
  note:"2nd conjugation. Present: сплю, спишь, спит, спим, спите, спят.\nNote the cluster change: спа- → спл- in 1st-person singular.",
  example:"A: Ты спишь?\nB: Нет, я не сплю.",
  exampleSrc:"A: Are you sleeping?\nB: No, I'm not sleeping.",
- funFact:"The спа→спл- shift in 'сплю' (I sleep) is called an 'epenthetic Л' — Russian inserts an Л when certain consonants meet a first-person ending. Other verbs with this pattern: любить→люблю (to love), готовить→готовлю (to cook)."},
+ funFact:"The спа→спл- shift in 'сплю' (I sleep) is called an 'epenthetic Л'. Russian inserts an Л when certain consonants meet a first-person ending. Other verbs with this pattern: любить→люблю (to love), готовить→готовлю (to cook)."},
 
 {type:"teach", trg:"смотреть", src:"to watch / to look", pos:"verb", gender:null,
  note:"2nd conjugation. Present: смотрю, смотришь, смотрит.\nPerfective: посмотреть. Followed by на + accusative for 'to look at.'",
@@ -387,7 +387,7 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  note:"1st conjugation. Present: читаю, читаешь, читает, читаем, читаете, читают.\nPerfective: прочитать.",
  example:"A: Ты читаешь книгу?\nB: Да, я читаю книгу.",
  exampleSrc:"A: Are you reading a book?\nB: Yes, I'm reading a book.",
- funFact:"Читать is a regular 1st-conjugation verb — all endings follow the -аю, -аешь, -ает pattern. Russian has two main conjugation types (1st and 2nd), and mastering their patterns unlocks hundreds of verbs at once."},
+ funFact:"Читать is a regular 1st-conjugation verb, all endings follow the -аю, -аешь, -ает pattern. Russian has two main conjugation types (1st and 2nd), and mastering their patterns unlocks hundreds of verbs at once."},
 
 {type:"teach", trg:"писать", src:"to write", pos:"verb", gender:null,
  note:"1st conjugation, irregular stem. Present: пишу, пишешь, пишет.\nThe root consonant changes: пис- → пиш- throughout the present.",
@@ -402,21 +402,21 @@ const UNIT_05 = {n:5, lang:"ru", srcLang:"en", track:"v2", title:"Каждый �
  funFact:"Russian has a unique 'verbs of motion' system. Ходить means habitual or multi-directional walking (going and coming back, or going regularly). Its partner идти means walking in one direction right now. This distinction exists for all motion verbs (ехать/ездить for vehicle travel, etc.)."},
 
 {type:"tip", title:"1st vs 2nd Conjugation",
- text:"Russian verbs follow two main conjugation patterns:\n\n1ST CONJUGATION (stem + аю/аешь/ает):\nчитать: читаю, читаешь, читает.\nписать: пишу, пишешь, пишет (irregular stem пиш-).\nжить: живу, живёшь, живёт (irregular — uses -у/-ёшь/-ёт endings).\n\n2ND CONJUGATION (stem + ю/ишь/ит):\nговорить: говорю, говоришь, говорит.\nспать: сплю, спишь, спит.\nвидеть: вижу, видишь, видит.\nсмотреть: смотрю, смотришь, смотрит.\nходить: хожу, ходишь, ходит.\n\nKey signals:\n2nd conjugation infinitives often end in -ить, -еть, or -ать after a consonant.\nSome 2nd-conjugation verbs mutate the 1st-person stem (д→ж, с→ш, б→бл).\nWhen in doubt, learn the я-form and the ты-form — the others follow.",
+ text:"Russian verbs follow two main conjugation patterns:\n\n1ST CONJUGATION (stem + аю/аешь/ает):\nчитать: читаю, читаешь, читает.\nписать: пишу, пишешь, пишет (irregular stem пиш-).\nжить: живу, живёшь, живёт (irregular, uses -у/-ёшь/-ёт endings).\n\n2ND CONJUGATION (stem + ю/ишь/ит):\nговорить: говорю, говоришь, говорит.\nспать: сплю, спишь, спит.\nвидеть: вижу, видишь, видит.\nсмотреть: смотрю, смотришь, смотрит.\nходить: хожу, ходишь, ходит.\n\nKey signals:\n2nd conjugation infinitives often end in -ить, -еть, or -ать after a consonant.\nSome 2nd-conjugation verbs mutate the 1st-person stem (д→ж, с→ш, б→бл).\nWhen in doubt, learn the я-form and the ты-form, the others follow.",
  icon:"📖"},
 
 {type:"mc", q:"What is the correct 1st-person form of видеть (to see)?",
- opts:["видю","видею","вижу","виду"],
+ opts:["вижу","виду","видю","видею"],
  ans:"вижу",
  hint:"Second-conjugation verbs often have a consonant change in the я-form. The letter before the ending shifts."},
 
-{type:"mc", q:"'Ты ходишь в школу каждый день?' — What does ходишь mean here?",
+{type:"mc", q:"'Ты ходишь в школу каждый день?'. What does ходишь mean here?",
  opts:["you are going (now, one direction)","you go (regularly, on foot)","you drive","you are running"],
  ans:"you go (regularly, on foot)",
  hint:"Ходить describes habitual or multi-directional movement, not a single journey happening right now. Compare идти (single trip, now) vs ходить (regular trips)."},
 
 {type:"mc", q:"Which verb pair means 'to write' in Russian?",
- opts:["видеть / увидеть","писать / написать","спать / поспать","смотреть / посмотреть"],
+ opts:["смотреть / посмотреть","видеть / увидеть","писать / написать","спать / поспать"],
  ans:"писать / написать",
  hint:"The target verb here has an irregular present stem where С shifts to Ш. Its perfective adds a prefix."},
 

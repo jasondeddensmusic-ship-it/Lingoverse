@@ -24,7 +24,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
    exampleSrc:"A: Turn left at the end of this road.\nB: Got it. Left at the dead end.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"突き当たり literally means 'the place you bump into.' It vividly describes reaching the end of a road where you cannot go forward. In a country of narrow, winding streets like Japan, dead ends are common and つきあたり is an essential direction word."},
 
-  {type:"mc", q:"つぎのかどをみぎにまがってください means:", opts:["Turn left at this corner","Turn right at the next corner","Go straight past the corner","Stop at the corner"], ans:"Turn right at the next corner",
+  {type:"mc", q:"つぎのかどをみぎにまがってください means:", opts:["Turn right at the next corner","Go straight past the corner","Stop at the corner","Turn left at this corner"], ans:"Turn right at the next corner",
    hint:"かど is a c..., and つぎの means 'the n... one.'"},
 
   {type:"teach", trg:"コンビニ", src:"convenience store", pos:"noun", gender:null,
@@ -60,7 +60,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
    exampleSrc:"A: Is there a landmark?\nB: A big red building is the landmark.\nA: Do you recommend it?\nB: Yes, please try it.",
    funFact:"目印 literally means 'eye mark.' In a country where streets often lack names and addresses are block-based, landmarks are the primary navigation tool. なにかめじるしはありますか (Is there a landmark?) is the most useful direction question in Japan."},
 
-  {type:"mc", q:"AとBのあいだ means:", opts:["next to A and B","in front of A and B","between A and B","behind A and B"], ans:"between A and B",
+  {type:"mc", q:"AとBのあいだ means:", opts:["in front of A and B","between A and B","behind A and B","next to A and B"], ans:"between A and B",
    hint:"あいだ describes the space in the middle of two reference points."},
 
   {type:"teach", trg:"まいご", src:"lost (person)", pos:"noun", gender:null,
@@ -82,7 +82,7 @@ const LESSON_3 = {id:"jav2_u15l3", title:"くわしいみちあんない", icon:
 
   {type:"match", pairs:[{trg:"となり",src:"next to"},{trg:"むかい",src:"across from"},{trg:"あいだ",src:"between"},{trg:"ちかく",src:"nearby"}]},
 
-  {type:"mc", q:"なにかめじるしはありますか means:", opts:["What is the address?","Is there a landmark?","Where is the station?","How far is it?"], ans:"Is there a landmark?",
+  {type:"mc", q:"なにかめじるしはありますか means:", opts:["How far is it?","What is the address?","Is there a landmark?","Where is the station?"], ans:"Is there a landmark?",
    hint:"めじるし is a visual reference point used for navigation."},
 
   {type:"fb", s:"レストランはえきの{1}にあります。\n(The restaurant is across from the station.)", a:"むかい", opts:["むかい","となり","ちかく","うしろ"], sSrc:"The restaurant is across from the station.",

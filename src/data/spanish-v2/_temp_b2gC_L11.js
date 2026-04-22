@@ -66,7 +66,7 @@ const LESSON_11 = {id:"esv2_b2gC_l11",title:"Química y materiales",icon:"🧪",
  exampleSrc:"A: After Christmas, we all have a bigger belly.\nB: It's time to go back to the gym.",
  funFact:"'Panza' is more informal than 'barriga' or 'vientre'. Sancho Panza's name literally means Sancho Belly."},
 
-{type:"mc",q:"¿Qué mineral verde se usa en joyería desde la antigüedad?",opts:["La malaquita","El nitrato","El nitrógeno","El pegamento"],ans:"La malaquita",hint:"A copper-based green mineral named after a plant with similar-colored leaves."},
+{type:"mc",q:"¿Qué mineral verde se usa en joyería desde la antigüedad?",opts:["El pegamento","La malaquita","El nitrato","El nitrógeno"],ans:"La malaquita",hint:"A copper-based green mineral named after a plant with similar-colored leaves."},
 
 {type:"fb",s:"Necesito {1} especial para cerámica para arreglar este jarrón.",a:["pegamento"],opts:["pegamento","nitrato","ozono","base"],hint:"A sticky substance used to join broken pieces together.",sSrc:"I need special ceramic {1} to fix this vase."},
 

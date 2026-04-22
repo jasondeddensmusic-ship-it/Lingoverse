@@ -1,4 +1,4 @@
-// L10: Action & Movement — 20 B2 gap words
+// L10: Action & Movement, 20 B2 gap words
 const LESSON_10 = {
   id:"nlv2_b2gap_l10", title:"Handelen en Bewegen", icon:"\uD83C\uDFC3", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_10 = {
      deepDive:{title:"The 'zich' pattern in Dutch verbs",
       text:"Some action verbs require 'zich' (reflexive pronoun):\n\nzich blindstaren op = to fixate on\nzich behelpen met = to make do with\nzich beraden = to deliberate\n\nThe 'zich' means the action reflects back on the subject. You stare YOURSELF blind. You help YOURSELF manage.\n\nConjugation: ik staar me blind, jij staart je blind, hij staart zich blind, wij staren ons blind, jullie staren je blind, zij staren zich blind.\n\nIn formal writing, 'zich' is always used instead of 'me/je/ons'."}},
     {type:"mc", q:"'Ik trof een rommel aan in de keuken.' What happened?",
-     opts:["I cleaned the kitchen","I encountered a mess in the kitchen","I caused a mess","I left the kitchen"],
+     opts:["I encountered a mess in the kitchen","I caused a mess","I left the kitchen","I cleaned the kitchen"],
      ans:"I encountered a mess in the kitchen",
      hint:"'Aantreffen' means to find or encounter something, often unexpectedly."},
     {type:"mc", q:"Which verb means 'to find out the truth'?",
@@ -132,7 +132,7 @@ const LESSON_10 = {
       {trg:"afleveren", src:"to deliver"}
     ]},
     {type:"mc", q:"'Zich behelpen' means:",
-     opts:["to hurt oneself","to make do with limited means","to help others","to complain loudly"],
+     opts:["to complain loudly","to hurt oneself","to make do with limited means","to help others"],
      ans:"to make do with limited means",
      hint:"A reflexive verb expressing Dutch pragmatism: manage with what you have."},
     {type:"fb", s:"De brandweer kon het vuur snel {1}.", a:["blussen"],

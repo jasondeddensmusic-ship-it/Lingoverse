@@ -62,7 +62,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What is the 'farmacia di turno'?",
-     opts:["A pharmacy that only sells generic brands","A pharmacy inside a hospital","The duty pharmacy that stays open at night","A pharmacy that offers free consultations"],
+     opts:["The duty pharmacy that stays open at night","A pharmacy that offers free consultations","A pharmacy that only sells generic brands","A pharmacy inside a hospital"],
      ans:"The duty pharmacy that stays open at night",
      hint:"Italian pharmacies rotate n... and holiday d.... The green cross outside lights up when one is o...."},
 
@@ -92,7 +92,7 @@ const LESSON_5 = {
      sSrc:"I have been suffering from {1} for a few months."},
 
     {type:"mc", q:"What is the 'bonus psicologo'?",
-     opts:["A tax deduction for buying self-help books","A government voucher covering therapy sessions","A discount card for pharmacy purchases","A free online mental health course"],
+     opts:["A free online mental health course","A tax deduction for buying self-help books","A government voucher covering therapy sessions","A discount card for pharmacy purchases"],
      ans:"A government voucher covering therapy sessions",
      hint:"Introduced in 2022 for lower-income citizens. Over 300,000 applications in the first round showed massive demand."},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {
      sSrc:"I go to the {1} every two weeks."},
 
     {type:"mc", q:"What can an Italian pharmacist do that differs from many other countries?",
-     opts:["Prescribe any medication without limits","Perform minor surgical procedures","Advise on and recommend treatments for minor ailments","Diagnose chronic diseases officially"],
+     opts:["Diagnose chronic diseases officially","Prescribe any medication without limits","Perform minor surgical procedures","Advise on and recommend treatments for minor ailments"],
      ans:"Advise on and recommend treatments for minor ailments",
      hint:"For a cold, headache, or rash, many Italians go to the pharmacy first. The pharmacist recommends over-the-counter options."}
   ]

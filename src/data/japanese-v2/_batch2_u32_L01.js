@@ -24,7 +24,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: The vaccination rate has risen sufficiently.\nB: We are approaching herd immunity.\nA: What do you think about this issue?\nB: It is a complex issue, but I think there are solutions.\nA: What kind of solutions are you thinking of?\nB: The first step is to set up a discussion forum for all stakeholders.",
      funFact:"ワクチン entered Japanese from German, not English. Japan's ワクチン policy has been cautious: the country was slower than many Western nations to approve COVID vaccines, reflecting a cultural preference for thorough safety review. Japan has strong 予防接種(よぼうせっしゅ) (vaccination) programs for children, though the HPV vaccine faced controversy due to reported side effects."},
 
-    {type:"mc", q:"公衆衛生(こうしゅうえいせい) focuses on:", opts:["Individual medical treatment","Protecting community and population health","Pharmaceutical development","Hospital management"], ans:"Protecting community and population health",
+    {type:"mc", q:"公衆衛生(こうしゅうえいせい) focuses on:", opts:["Protecting community and population health","Pharmaceutical development","Hospital management","Individual medical treatment"], ans:"Protecting community and population health",
      hint:"This field deals with the h... of the public as a whole, not individual patients."},
 
     {type:"teach", trg:"流行(りゅうこう)", src:"epidemic / trend / fashion", pos:"noun", gender:null,
@@ -60,7 +60,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: Herd immunity was achieved through vaccination.\nB: The safety of society as a whole has increased.\nA: That is an unexpected result.\nB: Yes, I was surprised too. We are investigating the cause.\nA: When do you think you will know the cause?\nB: The analysis results are expected to come out by the end of this week.",
      funFact:"集団免疫 became a widely discussed concept during the COVID-19 pandemic. The debate between pursuing 集団免疫(しゅうだんめんえき) through natural infection versus vaccination was intense globally and in Japan. Japanese public health authorities ultimately pursued a vaccination-based strategy, achieving high ワクチン接種率(せっしゅりつ) (vaccination rates) among developed nations."},
 
-    {type:"mc", q:"流行(りゅうこう) can mean both:", opts:["Epidemic and fashion trend","Cure and disease","Doctor and patient","Hospital and clinic"], ans:"Epidemic and fashion trend",
+    {type:"mc", q:"流行(りゅうこう) can mean both:", opts:["Hospital and clinic","Epidemic and fashion trend","Cure and disease","Doctor and patient"], ans:"Epidemic and fashion trend",
      hint:"This word describes anything that 'flows through' a population, whether disease or popularity."},
 
     {type:"fb", s:"病気(びょうき)の{1}が進(すす)んでいます。\n(Investigation into the cause of the disease is progressing.)", a:"原因究明(げんいんきゅうめい)", opts:["原因究明(げんいんきゅうめい)","治療(ちりょう)","予防(よぼう)","診察(しんさつ)"], sSrc:"Investigation into the cause of the disease is progressing.",
@@ -73,7 +73,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"患者(かんじゃ)",src:"patient"},{trg:"死亡率(しぼうりつ)",src:"mortality rate"},{trg:"原因究明(げんいんきゅうめい)",src:"cause investigation"},{trg:"集団免疫(しゅうだんめんえき)",src:"herd immunity"}]},
 
-    {type:"mc", q:"Japan's high life expectancy is attributed to:", opts:["Universal healthcare, diet, and public hygiene","Only advanced hospital technology","Warm climate throughout the country","Lack of stress in daily life"], ans:"Universal healthcare, diet, and public hygiene",
+    {type:"mc", q:"Japan's high life expectancy is attributed to:", opts:["Warm climate throughout the country","Lack of stress in daily life","Universal healthcare, diet, and public hygiene","Only advanced hospital technology"], ans:"Universal healthcare, diet, and public hygiene",
      hint:"The combination of h... access, Japanese food culture, and strong h... practices."},
   ]
 };

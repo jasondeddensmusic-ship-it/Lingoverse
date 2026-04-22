@@ -1,10 +1,10 @@
-// Korean V2 Unit 26 — 세대 차이
+// Korean V2 Unit 26, 세대 차이
 // Level: B2.2
 
 const UNIT_26 =
 {n:26,lang:"ko",srcLang:"en",track:"v2",title:"세대 차이",sub:"Habits & Tendencies",icon:"👴",level:"B2.2",color:"#7BC47F",lessons:[
 
-// ── L1: 세대 차이 (Generation Gap — Vocabulary) ──
+// ── L1: 세대 차이 (Generation Gap. Vocabulary) ──
 {id:"kou26l1",title:"세대 차이",icon:"👥",xp:20,board:true,steps:[
 {type:"intro",title:"The Generation Gap",desc:"세대 차이\n→ Korean generational differences shape language use.\n\nThis unit teaches patterns for habits, tendencies,\nand realizations :  perfect for discussing\nhow different generations think and behave.",goals:["Learn generation and tendency vocabulary","Understand Korean generational concepts","Prepare for habit and tendency grammar"]},
 {type:"teach",kind:"noun",nl:"세대",en:"generation",pos:"noun",gender:null,funFact:"Sino-Korean compound: 세(world/世) + 대(era/代)",phonetic:"se-dae",example:"세대 차이가 큰 편이에요.\n(The generation gap tends to be big.)",exampleEn:"The generation gap tends to be big.",note:"COMPOUND: 세(world/世) + 대(era/代).\nWorld-era: people born in the same time period.\n세대 차이 = generation gap.\n세대 갈등 = generational conflict."},
@@ -215,7 +215,7 @@ const UNIT_26 =
 {type:"drag_fill",s:"겉{1}만 보면 달라 보이{2}만, 속{3} 보면 비슷해요.\n(Looking only at the outside, seems different, but looking inside, similar.)",blanks:{"1":"으로","2":"지","3":"을"},pool:["으로","지","을","에서","고","이"],hint:"By-appearance. But. Object."},
 ]},
 
-// ── L9: 한국의 세대들 (Korean Generations — Culture) ──
+// ── L9: 한국의 세대들 (Korean Generations. Culture) ──
 {id:"kou26l9",title:"한국의 세대들",icon:"🇰🇷",xp:20,board:true,steps:[
 {type:"intro",title:"Korean Generations",desc:"한국의 세대들\n→ Understanding Korean generational labels and values.\n\nApplying all U26 patterns to describe\nhow each generation thinks and behaves.",goals:["Understand Korean generational categories","Apply tendency patterns to cultural descriptions","Practice multi-pattern B2 sentences"]},
 {type:"tip",title:"386세대 (Democratic Generation)",text:"386세대: the backbone of Korean democracy.\n\nBorn: 1960s\nKey event: 1980s democratic movement\nValues: collective action, sacrifice, loyalty\n\nThey grew up fighting for freedom.\nNow often in leadership positions.\nSometimes called 꼰대 by younger people.\n\n알고 보면 나라를 바꾼 세대예요.\n(Once you know, they changed the country.)",deepDive:"386 name origin:\n3 = 30대 (in their 30s)\n8 = 80년대 (attended college in the 80s)\n6 = 60년대 (born in the 60s)\n\nThis was coined in the 1990s.\nNow they're in their 60s.\n\n민주화 운동 = democratization movement.\nThey marched, protested, and some were imprisoned.\nThis shared experience shapes their worldview:\n- Sacrifice for the group\n- Distrust of authority (from experience)\n- But now THEY are the authority"},
@@ -328,7 +328,7 @@ const UNIT_26 =
 
 {type:"fb",s:"두 분의 의견이 달라서 서로 {1}해야 해요.\n(Since your opinions differ, you need to coordinate with each other.)",a:"조율",opts:["조율","화해","중재","용서"],hint:"Bringing different viewpoints into alignment, like tuning instruments before a concert."},
 
-{type:"mc",q:"상대방 입장에서 생각해 보세요.\nWhat does 입장 mean here?",opts:["argument","apology","standpoint / perspective","misunderstanding"],ans:"standpoint / perspective",hint:"입장 = the mental position you occupy when viewing a situation."},
+{type:"mc",q:"상대방 입장에서 생각해 보세요.\nWhat does 입장 mean here?",opts:["standpoint / perspective","misunderstanding","argument","apology"],ans:"standpoint / perspective",hint:"입장 = the mental position you occupy when viewing a situation."},
 
 {type:"drag_fill",s:"오해가 생겼{1}니, 서로 {2}을 이해하고 {3}하는 게 중요해요.\n(Since a misunderstanding arose, understanding each other's standpoint and reconciling is important.)",blanks:{"1":"으","2":"입장","3":"화해"},pool:["으","입장","화해","았","오해","중재","아","배려"],hint:"Past-cause connector. Standpoint noun. Reconcile verb stem."},
 

@@ -1,4 +1,4 @@
-// Unit 01 Batch 2 — Lesson 1: Time-of-Day Greetings & Farewell Variations
+// Unit 01 Batch 2. Lesson 1: Time-of-Day Greetings & Farewell Variations
 const BATCH2_U01_L1 = {
   id:"itv2_u01l_b2_1", title:"Saluti del giorno", icon:"\u2600\ufe0f", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U01_L1 = {
      sSrc:"{1}! Is the shop open?"},
 
     {type:"mc", q:"What is the difference between 'buonasera' and 'buona serata'?",
-     opts:["Buonasera = greeting, buona serata = farewell","They are the same","Buonasera = farewell, buona serata = greeting","Buonasera is informal only"],
+     opts:["Buonasera is informal only","Buonasera = greeting, buona serata = farewell","They are the same","Buonasera = farewell, buona serata = greeting"],
      ans:"Buonasera = greeting, buona serata = farewell",
      hint:"One is used when meeting someone in the evening, the other when parting. The longer form is a wish for the time ahead."},
 
@@ -122,7 +122,7 @@ const BATCH2_U01_L1 = {
     ]},
 
     {type:"mc", q:"Cosa si dice prima di mangiare?",
-     opts:["Buon appetito!","Buona serata!","A presto!","Salve!"],
+     opts:["A presto!","Salve!","Buon appetito!","Buona serata!"],
      ans:"Buon appetito!",
      hint:"This expression is said before a meal. It wishes someone a good appetite. Almost mandatory in Italy."},
 
@@ -133,7 +133,7 @@ const BATCH2_U01_L1 = {
      sSrc:"How is it going? {1}. Not my best period."},
 
     {type:"mc", q:"Which greeting works when you are unsure about formal or informal?",
-     opts:["Salve","Ciao","Buonanotte","Arrivederci"],
+     opts:["Ciao","Buonanotte","Arrivederci","Salve"],
      ans:"Salve",
      hint:"This 2,000-year-old Latin greeting sits perfectly between casual and formal. Use it with anyone."},
 

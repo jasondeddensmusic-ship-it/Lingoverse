@@ -98,7 +98,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Que signifie 'actuellement' en français ?",
-     opts:["currently","actually","really","finally"],
+     opts:["finally","currently","actually","really"],
      ans:"currently",
      hint:"This is a famous false friend. It does NOT translate to the English word it resembles."},
 
@@ -143,7 +143,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel mot décrit les 'hands' d'une horloge en français ?",
-     opts:["les aiguilles","les allées","les armes","les ailes"],
+     opts:["les armes","les ailes","les aiguilles","les allées"],
      ans:"les aiguilles",
      hint:"This feminine noun also means 'needles' and describes the thin pointers on a clock face."},
 

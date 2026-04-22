@@ -93,7 +93,7 @@ const LESSON_5 = {
      sSrc:"{1} does a kilo of apples cost?"},
 
     {type:"mc", q:"Does 'euro' change in the Italian plural?",
-     opts:["No, it stays 'euro'","Yes, it becomes 'euri'","Yes, it becomes 'euros'","It depends on the number"],
+     opts:["It depends on the number","No, it stays 'euro'","Yes, it becomes 'euri'","Yes, it becomes 'euros'"],
      ans:"No, it stays 'euro'",
      hint:"Unlike most Italian nouns, this currency word is invariable: 'un e..., cinque e....'"},
 
@@ -112,7 +112,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"What is special about Italian markets?",
-     opts:["Weekly open-air markets are a cherished tradition","They only sell fish","They are indoors only","They are only in big cities"],
+     opts:["They are indoors only","They are only in big cities","Weekly open-air markets are a cherished tradition","They only sell fish"],
      ans:"Weekly open-air markets are a cherished tradition",
      hint:"Every Italian town has one. Vendors shout prices, creating a vibrant atmosphere."},
 
@@ -123,7 +123,7 @@ const LESSON_5 = {
      sSrc:"A {1} of water, please."},
 
     {type:"mc", q:"What does 'fresco' mean for food?",
-     opts:["Fresh","Cold","Frozen","Cooked"],
+     opts:["Cold","Frozen","Cooked","Fresh"],
      ans:"Fresh",
      hint:"Italian food culture prizes produce that has just arrived. The same word describes paintings done on wet plaster ('affresco')."},
 

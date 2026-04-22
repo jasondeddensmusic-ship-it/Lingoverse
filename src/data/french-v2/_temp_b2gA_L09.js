@@ -86,7 +86,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mouvement artistique utilise des points de couleur pour creer une image ?",
-     opts:["le pointillisme","l'expressionnisme","le positivisme","le modernisme"],
+     opts:["le modernisme","le pointillisme","l'expressionnisme","le positivisme"],
      ans:"le pointillisme",
      hint:"From 'point' (dot). Seurat invented this technique in the 1880s."},
 
@@ -113,7 +113,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot designe l'attachement aux specificites d'une region ?",
-     opts:["le particularisme","le positivisme","l'integrisme","le pamphletaire"],
+     opts:["l'integrisme","le pamphletaire","le particularisme","le positivisme"],
      ans:"le particularisme",
      hint:"From 'particulier'. The emphasis on what makes a region or group unique."}
   ]

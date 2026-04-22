@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u11l5", title:"ておく・てはいけない", icon:
    exampleSrc:"A: Please prepare materials in advance for tomorrow's meeting.\nB: Yes, I will prepare them.",
    funFact:"じゅんびしておく is the ultimate preparation phrase. Japanese business culture values being prepared (用意周到, youi-shutou = thoroughly prepared). Arriving unprepared to a meeting is a serious faux pas. The ておく pattern naturally fits this preparation-oriented mindset."},
 
-  {type:"mc", q:"ビールをかっておきます means:", opts:["I am drinking beer now","I will buy beer in advance","I forgot to buy beer","I do not want beer"], ans:"I will buy beer in advance",
+  {type:"mc", q:"ビールをかっておきます means:", opts:["I will buy beer in advance","I forgot to buy beer","I do not want beer","I am drinking beer now"], ans:"I will buy beer in advance",
    hint:"ておく means doing something now to prepare for a future situation."},
 
   {type:"teach", trg:"〜てはいけない", src:"must not do ~ / it is not allowed to ~", pos:"part", gender:null,

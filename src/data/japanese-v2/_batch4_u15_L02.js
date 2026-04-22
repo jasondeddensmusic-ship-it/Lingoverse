@@ -1,4 +1,4 @@
-// Batch 4 — Unit 15 Lesson 2: Giving & Following Directions
+// Batch 4. Unit 15 Lesson 2: Giving & Following Directions
 const BATCH4_L_2 = {
   id:"jav2_u15l_b4_2", title:"道案内(みちあんない)", icon:"🗺️", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"目印(めじるし) means:",
-     opts:["landmark / visual reference point","road sign","address","compass"], ans:"landmark / visual reference point",
+     opts:["compass","landmark / visual reference point","road sign","address"], ans:"landmark / visual reference point",
      hint:"Something you look for visually to know you are in the right place."},
 
     {type:"fb", s:"{1}を教(おし)えましょうか？", a:"近道(ちかみち)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"A shorter, faster route to reach your destination."},
 
     {type:"mc", q:"東京(とうきょう) literally means:",
-     opts:["eastern capital","great city","sun origin","peace capital"], ans:"eastern capital",
+     opts:["sun origin","peace capital","eastern capital","great city"], ans:"eastern capital",
      hint:"The kanji combine 'east' with 'c.../metropolis.'"},
 
     {type:"mc", q:"What is an 横断歩道(おうだんほどう)?",
-     opts:["crosswalk","overpass","tunnel","sidewalk"], ans:"crosswalk",
+     opts:["overpass","tunnel","sidewalk","crosswalk"], ans:"crosswalk",
      hint:"The striped area where pedestrians cross a road at an intersection."}
   ,{type:"match",pairs:[{trg:"交差点(こうさてん)",src:"intersection / crossroads"},{trg:"横断歩道(おうだんほどう)",src:"crosswalk / pedestrian crossing"},{trg:"通(とお)り",src:"street / avenue"},{trg:"橋(はし)",src:"bridge"},{trg:"目印(めじるし)",src:"landmark / sign to look for"},{trg:"突(つ)き当(あ)たり",src:"dead end / T-junction"}]},{type:"match",pairs:[{trg:"遠回(とおまわ)り",src:"detour / the long way around"},{trg:"地図(ちず)",src:"map"}]}]
 };

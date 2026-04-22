@@ -1,4 +1,4 @@
-// Korean V2 Unit 39 — B1 Vocabulary Expansion: Nature, Infrastructure, Economy, Careers & Media
+// Korean V2 Unit 39. B1 Vocabulary Expansion: Nature, Infrastructure, Economy, Careers & Media
 import L26 from './_temp_b1gap_L26.js';
 import L27 from './_temp_b1gap_L27.js';
 import L28 from './_temp_b1gap_L28.js';

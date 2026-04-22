@@ -67,7 +67,7 @@ const LESSON_8 = {id:"frv2_b2gC_l8", title:"Environnement et nature", icon:"\u{1
 
 {type:"mc",
  q:"Quelle maladie tropicale est liée aux marécages dans son étymologie ?",
- opts:["le paludisme","la détonation","la jointure","la porosité"],
+ opts:["la porosité","le paludisme","la détonation","la jointure"],
  ans:"le paludisme",
  hint:"From Latin palus meaning swamp. Spread by mosquitoes in tropical regions."},
 
@@ -87,7 +87,7 @@ const LESSON_8 = {id:"frv2_b2gC_l8", title:"Environnement et nature", icon:"\u{1
 
 {type:"mc",
  q:"Que protège un grillage dans un jardin ?",
- opts:["Les plants contre les animaux","Les oiseaux contre les chats","Le sol contre la pluie","L'eau contre la pollution"],
+ opts:["Le sol contre la pluie","L'eau contre la pollution","Les plants contre les animaux","Les oiseaux contre les chats"],
  ans:"Les plants contre les animaux",
  hint:"A wire mesh fence installed around growing areas. Common in French gardens."},
 
@@ -105,7 +105,7 @@ const LESSON_8 = {id:"frv2_b2gC_l8", title:"Environnement et nature", icon:"\u{1
 
 {type:"mc",
  q:"En rugby français, comment appelle-t-on les joueurs de la première ligne ?",
- opts:["les piliers","les grillages","les mâchoires","les jointures"],
+ opts:["les grillages","les mâchoires","les jointures","les piliers"],
  ans:"les piliers",
  hint:"These players support the scrum. The word also means column or mainstay."}
 

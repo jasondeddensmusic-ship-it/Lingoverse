@@ -80,7 +80,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot désigne un collègue de la même profession ?",
-     opts:["un confrère","un négociant","un mutualiste","un administrateur"],
+     opts:["un administrateur","un confrère","un négociant","un mutualiste"],
      ans:"un confrère",
      hint:"Stronger bond than 'collègue'. You share the same professional expertise, not just an office."},
 
@@ -119,7 +119,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel système français permet de créer facilement une petite entreprise individuelle ?",
-     opts:["la micro-entreprise","la martingale","le modernisme","la mutualité"],
+     opts:["le modernisme","la mutualité","la micro-entreprise","la martingale"],
      ans:"la micro-entreprise",
      hint:"A legal status for very small businesses, often just one person. Created in 2009."},
 

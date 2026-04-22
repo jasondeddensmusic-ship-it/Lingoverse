@@ -98,7 +98,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'to shake' ?",
-     opts:["agiter","abaisser","abriter","abîmer"],
+     opts:["abîmer","agiter","abaisser","abriter"],
      ans:"agiter",
      hint:"This verb describes vigorous back-and-forth movement, like what you do to a bottle."},
 
@@ -143,7 +143,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quelle est la différence entre 'amener' et 'apporter' ?",
-     opts:["amener = person, apporter = thing","amener = thing, apporter = person","They mean the same","amener = formal, apporter = informal"],
+     opts:["They mean the same","amener = formal, apporter = informal","amener = person, apporter = thing","amener = thing, apporter = person"],
      ans:"amener = person, apporter = thing",
      hint:"One verb is for living beings you guide somewhere, the other for objects you carry."},
 

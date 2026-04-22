@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"記者(きしゃ)が現地(げんち)で{1}を行(おこな)っています。\n(Reporters are conducting on-location reporting.)", a:"取材(しゅざい)", opts:["取材(しゅざい)","報道(ほうどう)","社説(しゃせつ)","放送(ほうそう)"], sSrc:"Reporters are conducting on-location reporting.",
      hint:"The word for the process of gathering news through interviews and on-site investigation."},
 
-    {type:"mc", q:"閲覧数(えつらんすう) means:", opts:["Page views / number of times viewed","Number of articles","Number of subscribers","Publication date"], ans:"Page views / number of times viewed",
+    {type:"mc", q:"閲覧数(えつらんすう) means:", opts:["Publication date","Page views / number of times viewed","Number of articles","Number of subscribers"], ans:"Page views / number of times viewed",
      hint:"閲覧(えつらん) (reading/browsing) + 数(すう) (n...) = a count of how many t... content was v...."},
 
     {type:"match", pairs:[{trg:"放送(ほうそう)",src:"broadcasting"},{trg:"出版(しゅっぱん)",src:"publishing"},{trg:"編集(へんしゅう)",src:"editing"},{trg:"取材(しゅざい)",src:"news gathering"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"偏向(へんこう){1}に注意(ちゅうい)するべきです。\n(We should be careful of biased reporting.)", a:"報道(ほうどう)", opts:["報道(ほうどう)","社説(しゃせつ)","記事(きじ)","投稿(とうこう)"], sSrc:"We should be careful of biased reporting.",
      hint:"The word for news reporting/coverage, combined with 偏向(へんこう) (bias) for 'biased reporting.'"},
 
-    {type:"mc", q:"社説(しゃせつ) is:", opts:["A newspaper's official editorial opinion","A news article","A reporter's blog","A reader's letter"], ans:"A newspaper's official editorial opinion",
+    {type:"mc", q:"社説(しゃせつ) is:", opts:["A reporter's blog","A reader's letter","A newspaper's official editorial opinion","A news article"], ans:"A newspaper's official editorial opinion",
      hint:"This combines 社(しゃ) (company) with 説(せつ) (o.../theory) for the paper's institutional stance."}
   ,{type:"match",pairs:[{trg:"社説(しゃせつ)",src:"editorial (newspaper opinion piece)"},{trg:"媒体(ばいたい)",src:"media / medium (communication channel)"},{trg:"投稿(とうこう)",src:"contribution / submission (to a publication)"},{trg:"閲覧(えつらん)",src:"reading / perusal / browsing"},{trg:"偏向(へんこう)",src:"bias / partiality / leaning"}]}]
 };

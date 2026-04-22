@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Japanese keigo is complex, isn't it?\nB: Yes. But you get used to it little by little.\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"複雑(ふくざつ) combines 複 (multiple/duplicate) and 雑 (miscellaneous). It describes systems with many interacting parts. 複雑(ふくざつ)な気持(きも)ち (complicated feelings), 複雑(ふくざつ)な関係(かんけい) (complicated relationship), 複雑(ふくざつ)な仕組(しく)み (complex mechanism). The word itself is 複雑(ふくざつ) to write."},
 
-    {type:"mc", q:"つまり is used to:", opts:["Rephrase or summarize the main point","Add an exception","Give an example","Express surprise"], ans:"Rephrase or summarize the main point",
+    {type:"mc", q:"つまり is used to:", opts:["Express surprise","Rephrase or summarize the main point","Add an exception","Give an example"], ans:"Rephrase or summarize the main point",
      hint:"This word signals that a simpler explanation or conclusion follows."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"この報告書(ほうこくしょ)はデータに{1}います。\n(This report is based on data.)", a:"もとづいて", opts:["もとづいて","しめして","のべて","まとめて"], sSrc:"This report is based on data.",
      hint:"The て-form of the verb meaning 'to be based on' or 'to be founded upon.'"},
 
-    {type:"mc", q:"明(あき)らか means:", opts:["Clear or obvious","Complex or complicated","Important or precious","Difficult or hard"], ans:"Clear or obvious",
+    {type:"mc", q:"明(あき)らか means:", opts:["Important or precious","Difficult or hard","Clear or obvious","Complex or complicated"], ans:"Clear or obvious",
      hint:"This adjective describes something that is plainly evident."}
   ,{type:"match",pairs:[{trg:"まとめる",src:"to summarize / to compile / to organize"},{trg:"述(の)べる",src:"to state / to express / to mention"},{trg:"基(もと)づく",src:"to be based on"},{trg:"明(あき)らか",src:"clear / obvious / evident"},{trg:"示(しめ)す",src:"to show / to indicate / to demonstrate"},{trg:"複雑(ふくざつ)",src:"complex / complicated"}]},
   {type:"fb", s:"{1}難(むずか)しいですが、不可能(ふかのう)ではありません。", a:["確(たし)かに"], opts:["確(たし)かに","つまり","ただし","さらに"], hint:"An adverb conceding that something is true before adding a counter-point.", sSrc:"{1}, it is difficult, but it is not impossible."}

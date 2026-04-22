@@ -1,4 +1,4 @@
-// L12: Arts & Culture — Creative expression
+// L12: Arts & Culture. Creative expression
 const LESSON_12 = {
   id:"esv2_a1gap_l12", title:"Arte y cultura", icon:"\u{1F3A8}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"\u00bfQué significa 'biblioteca'?",
-     opts:["library","bookshop","school","museum"],
+     opts:["museum","library","bookshop","school"],
      ans:"library",
      hint:"This is a false friend. A bookshop is 'librería' in Spanish. This word means a place to borrow books."},
 

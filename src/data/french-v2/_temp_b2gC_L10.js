@@ -67,7 +67,7 @@ const LESSON_10 = {id:"frv2_b2gC_l10", title:"Vie quotidienne et objets", icon:"
 
 {type:"mc",
  q:"Que signifie l'expression 'la prunelle de mes yeux' ?",
- opts:["Quelque chose de très précieux","Un problème de vue","Une petite baie sauvage","Un ancien type de lunettes"],
+ opts:["Un ancien type de lunettes","Quelque chose de très précieux","Un problème de vue","Une petite baie sauvage"],
  ans:"Quelque chose de très précieux",
  hint:"English says 'the apple of my eye.' French uses a different fruit for the same idea."},
 
@@ -87,7 +87,7 @@ const LESSON_10 = {id:"frv2_b2gC_l10", title:"Vie quotidienne et objets", icon:"
 
 {type:"mc",
  q:"Que signifie 'au compte-gouttes' ?",
- opts:["De manière très limitée, goutte par goutte","Très rapidement","En grande quantité","Sans aucun contrôle"],
+ opts:["En grande quantité","Sans aucun contrôle","De manière très limitée, goutte par goutte","Très rapidement"],
  ans:"De manière très limitée, goutte par goutte",
  hint:"Think of a dropper releasing one tiny drop at a time. Extremely sparingly."},
 
@@ -105,7 +105,7 @@ const LESSON_10 = {id:"frv2_b2gC_l10", title:"Vie quotidienne et objets", icon:"
 
 {type:"mc",
  q:"Quel Français a réalisé le premier saut en parachute en 1797 ?",
- opts:["André-Jacques Garnerin","Louis Pasteur","Jules Verne","Napoléon Bonaparte"],
+ opts:["Louis Pasteur","Jules Verne","Napoléon Bonaparte","André-Jacques Garnerin"],
  ans:"André-Jacques Garnerin",
  hint:"This inventor literally threw himself from a hot air balloon to test his invention."}
 

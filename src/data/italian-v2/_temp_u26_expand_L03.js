@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Che cos'e una clausola contrattuale?",
-     opts:["Un tipo di contratto speciale","Una singola disposizione o condizione all'interno di un contratto","Una firma digitale","Un certificato legale"],
+     opts:["Una singola disposizione o condizione all'interno di un contratto","Una firma digitale","Un certificato legale","Un tipo di contratto speciale"],
      ans:"Una singola disposizione o condizione all'interno di un contratto",
      hint:"An individual provision or condition within a larger agreement. Contracts contain many of these, each governing a specific aspect of the deal."},
 

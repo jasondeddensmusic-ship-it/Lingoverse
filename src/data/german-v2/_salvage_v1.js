@@ -1,4 +1,4 @@
-// German V1 salvage lesson — 23 teach cards from v1 units that were not
+// German V1 salvage lesson, 23 teach cards from v1 units that were not
 // covered by v2 content. Imported into Unit 35 (Prüfung B2) as a final
 // vocabulary review. See docs/V1_SALVAGE_STATUS.md.
 

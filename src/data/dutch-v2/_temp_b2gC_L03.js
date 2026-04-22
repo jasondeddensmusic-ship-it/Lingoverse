@@ -1,4 +1,4 @@
-// L03: Klimaat en Milieu — Climate and Environment
+// L03: Klimaat en Milieu. Climate and Environment
 const LESSON_3 = {
   id:"nlv2_b2gC_l3", title:"Klimaat en Milieu", icon:"\u{1F30D}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"'De kringloop' kan twee dingen betekenen. Welke?",
-     opts:["Een winkel en een school","Een natuurlijke cyclus en een tweedehandswinkel","Een fietspad en een snelweg","Een politiek debat en een wet"],
+     opts:["Een natuurlijke cyclus en een tweedehandswinkel","Een fietspad en een snelweg","Een politiek debat en een wet","Een winkel en een school"],
      ans:"Een natuurlijke cyclus en een tweedehandswinkel",
      hint:"Think cycle: one meaning is scientific (water cycle), the other is about reusing goods."},
 
@@ -101,7 +101,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"'Kentering' komt oorspronkelijk uit:",
-     opts:["De politiek","De scheepvaart","De muziek","De sport"],
+     opts:["De sport","De politiek","De scheepvaart","De muziek"],
      ans:"De scheepvaart",
      hint:"Originally about ships and tides. When a vessel turns over or the tide shifts direction."},
 
@@ -121,7 +121,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Welk artikel hoort bij 'knelpunt'?",
-     opts:["de","het","geen artikel nodig","beide zijn correct"],
+     opts:["geen artikel nodig","beide zijn correct","de","het"],
      ans:"het",
      hint:"Words ending in '-punt' (point) are typically neuter: het standpunt, het knelpunt, het uitgangspunt."}
   ]

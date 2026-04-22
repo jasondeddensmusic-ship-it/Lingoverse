@@ -40,7 +40,7 @@ const LESSON_36 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'손바닥'에서 '바닥'의 원래 뜻은?",
-     opts:["손가락","바닥, 밑면","팔꿈치","손톱"],
+     opts:["바닥, 밑면","팔꿈치","손톱","손가락"],
      ans:"바닥, 밑면",
      hint:"Think about the structure: 손 means hand, and the second part refers to a flat surface underneath."},
 
@@ -131,7 +131,7 @@ const LESSON_36 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"다음 중 부정적인 뉘앙스가 강한 단어는?",
-     opts:["습관","생활","버릇","식품"],
+     opts:["생활","버릇","식품","습관"],
      ans:"버릇",
      hint:"One of these words for 'habit' carries a slightly negative connotation and is used for bad mannerisms."},
 
@@ -183,7 +183,7 @@ const LESSON_36 = {
 
     {type:"mc",
      q:"'아무렇지도 않아요'의 뜻은?",
-     opts:["아주 아파요","전혀 괜찮아요","조금 걱정돼요","매우 슬퍼요"],
+     opts:["매우 슬퍼요","아주 아파요","전혀 괜찮아요","조금 걱정돼요"],
      ans:"전혀 괜찮아요",
      hint:"This expression means the speaker is completely unaffected. Think about the 아무 prefix meaning 'any/no.'"},
 
@@ -197,7 +197,7 @@ const LESSON_36 = {
     // --- Final review ---
     {type:"mc",
      q:"'세 살 버릇 여든까지 간다'와 비슷한 영어 표현은?",
-     opts:["시간은 금이다","습관은 제2의 천성","아는 것이 힘이다","눈에서 멀어지면 마음에서도 멀어진다"],
+     opts:["아는 것이 힘이다","눈에서 멀어지면 마음에서도 멀어진다","시간은 금이다","습관은 제2의 천성"],
      ans:"습관은 제2의 천성",
      hint:"This proverb is about habits formed in childhood persisting through old age. Which option means the same?"}
   ]

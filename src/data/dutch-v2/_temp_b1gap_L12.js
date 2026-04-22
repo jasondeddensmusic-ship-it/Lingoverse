@@ -1,4 +1,4 @@
-// L12: Descriptions and Qualities — 20 B1 gap words
+// L12: Descriptions and Qualities, 20 B1 gap words
 const LESSON_12 = {
   id:"nlv2_b1gap_l12", title:"Beschrijvingen en Kenmerken", icon:"\u{1F50D}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Hij heeft vijf wedstrijden ___ gewonnen. Wat een reeks!",
-     opts:["achtereen","achteraf","achterin","achterstevoren"],
+     opts:["achterstevoren","achtereen","achteraf","achterin"],
      ans:"achtereen",
      hint:"Which adverb means one after another, without a break in between?"},
 
@@ -138,7 +138,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Je trui zit verkeerd om. De achterkant zit vooraan. Hij zit ___.",
-     opts:["achterstevoren","achterin","achtereen","achteraf"],
+     opts:["achtereen","achteraf","achterstevoren","achterin"],
      ans:"achterstevoren",
      hint:"Which adverb describes wearing something with the back at the front?"}
   ]

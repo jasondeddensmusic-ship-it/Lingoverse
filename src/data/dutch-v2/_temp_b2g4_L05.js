@@ -1,4 +1,4 @@
-// L05: Environment & Sustainability — 20 B2 gap words
+// L05: Environment & Sustainability, 20 B2 gap words
 const LESSON_5 = {
   id:"nlv2_b2g4_l5", title:"Milieu en Duurzaamheid", icon:"\u267B\uFE0F", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_5 = {
      deepDive:{title:"Why water words matter",
       text:"A quarter of the Netherlands lies below sea level. Water management is not just vocabulary but national identity. The 'waterschappen' (water boards) are the oldest democratic institutions, predating parliament. Every Dutch person pays 'waterschapsbelasting' (water board tax). Understanding words like dijkverhoging and dijkversterking is understanding Dutch civilization itself."}},
     {type:"mc", q:"What is a 'dakakker'?",
-     opts:["a dike farm","a rooftop farm","an underground farm","a floating farm"],
+     opts:["a rooftop farm","an underground farm","a floating farm","a dike farm"],
      ans:"a rooftop farm",
      hint:"Compound: dak (roof) + akker (field). Urban farming concept."},
     {type:"fb", s:"De {1} kost miljoenen maar is noodzakelijk.", a:["dijkversterking"],

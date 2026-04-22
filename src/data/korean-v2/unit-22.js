@@ -1,4 +1,4 @@
-// Korean V2 Unit 22 — 의견과 토론
+// Korean V2 Unit 22, 의견과 토론
 // Level: B2.1
 
 const UNIT_22 =
@@ -30,7 +30,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"이 문제{1} 대해 어떻{2} 생각하세요? 찬성{3} 반대{4}?\n(What do you think about this issue? For or against?)",blanks:{"1":"에","2":"게","3":"이에요","4":"예요"},pool:["에","게","이에요","예요","를","는","인가요","인데요"],hint:"About/regarding. How. Copula. Copula."},
 ]},
 
-// ── L2: 반면에 (On the Other Hand) — HARVEST ──
+// ── L2: 반면에 (On the Other Hand). HARVEST ──
 {id:"kou22l2",title:"반면에: On the Other Hand",icon:"⚖️",xp:20,board:true,steps:[
 {type:"intro",title:"Harvest: -(으)ㄴ/는 반면(에)",desc:"-(으)ㄴ/는 반면(에)\n→ on the other hand, whereas\n\nYou first saw this in the B1 finale.\nNow you use it to contrast two sides of an argument.",goals:["Harvest 반면(에) preview","Contrast two opposing facts or opinions","Use 반면에 in debate contexts","Combine with U21 formal patterns"]},
 {type:"tip",title:"Harvest: 반면에",text:"At the end of B1, you saw:\n-(으)ㄴ/는 반면(에): on the other hand\n\nThis pattern contrasts two FACTS, not emotions:\n한국어는 문법이 어려운 반면에 발음은 규칙적이에요.\nKorean grammar is hard, whereas pronunciation is regular.\n\nBoth halves are true. You contrast them.",deepDive:"반면(에) vs -지만:\n\n-지만: simple contrast, any situation\n비가 오지만 나갈 거예요.\nIt rains but I will go out.\n\n반면(에): contrasting two PARALLEL facts\n형은 키가 큰 반면에 동생은 작아요.\nThe older brother is tall, whereas the younger is short.\n\n반면에 emphasizes the comparison. -지만 just marks 'but'.\n반면에 is more formal and more common in writing/debate."},
@@ -56,7 +56,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"온라인 쇼핑{1} 편리한 반면{2} 직접 볼 수 없{3} 단점{4} 있어요.\n(Online shopping is convenient but has the disadvantage of not seeing items directly.)",blanks:{"1":"은","2":"에","3":"는","4":"이"},pool:["은","에","는","이","이","의","을","가"],hint:"Topic. Contrast. Inability modifier. Subject."},
 ]},
 
-// ── L3: 하긴 하지만 — -기는 하다 [HARVEST] + -기는(요) ──
+// ── L3: 하긴 하지만, -기는 하다 [HARVEST] + -기는(요) ──
 {id:"kou22l3",title:"하긴 하지만: Concessive Admission",icon:"🤷",xp:20,board:true,steps:[
 {type:"intro",title:"Concessive Admission",desc:"-기는 하다\n→ I DID do it, but...\n\nAdmitting something is true while preparing to contrast it.",goals:["Harvest -기는 하다 Tier 3","Learn the modest dismissal -기는(요)","Admit and then contrast in debate","Build nuanced concessive arguments"]},
 {type:"tip",title:"Harvest: -기는 하다",text:"Deferred Tier 3. Now harvested for debate.\n\n-기는 하다: admitting something is true\n공부하기는 했지만 시험을 못 봤어요.\nI DID study, but I failed the exam.\n\nThe speaker ADMITS the first fact\nthen CONTRASTS it with the second.",deepDive:"-기는 하다 structure:\n\nVerb + -기는 하다 + -지만/-(으)ㄴ데\n\n맛있기는 하지만 너무 비싸요.\nIt IS delicious, but it is too expensive.\n\n좋기는 좋은데 시간이 없어요.\nIt IS good, but I have no time.\n\nColloquial shortening:\n하기는 → 하긴 (common in speech)\n맛있기는 → 맛있긴 (shortened)"},
@@ -82,7 +82,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"-기는 하다: {1} then counter.\n-기는(요): dismissive {2}.\n-긴: {3} spoken form.\n(Three forms of the concessive.)",blanks:{"1":"acknowledge","2":"denial","3":"shortened"},pool:["acknowledge","denial","shortened","agree","question","formal"],hint:"하다=but... 기는요=pfft. 긴=casual."},
 ]},
 
-// ── L4: 뿐만 아니라 (Not Only But Also) — HARVEST + -는데다가 ──
+// ── L4: 뿐만 아니라 (Not Only But Also). HARVEST + -는데다가 ──
 {id:"kou22l4",title:"뿐만 아니라: Not Only... But Also",icon:"➕",xp:20,board:true,steps:[
 {type:"intro",title:"Harvest: 뿐만 아니라 + Moreover",desc:"-(으)ㄹ 뿐만 아니라\n→ not only... but also\n\n-는데다가\n→ moreover, on top of that\n\nTwo ways to BUILD stronger arguments.",goals:["Harvest 뿐만 아니라 preview","Learn -는데다가 for 'moreover'","Build layered arguments in debate","Combine addition patterns with contrast"]},
 {type:"tip",title:"Harvest: 뿐만 아니라",text:"From the B1 finale preview:\n-(으)ㄹ 뿐만 아니라: not only X but also Y\n\n경험이 풍부할 뿐만 아니라 자격증도 있습니다.\nNot only is experience rich, but there are also certifications.\n\nBuilds an argument by ADDING strength.",deepDive:"뿐만 아니라 usage patterns:\n\nNoun + 뿐만 아니라:\n한국어뿐만 아니라 일본어도 합니다.\nNot only Korean but also Japanese.\n\nVerb + -(으)ㄹ 뿐만 아니라:\n맛있을 뿐만 아니라 건강에도 좋아요.\nNot only delicious but also healthy.\n\nThe pattern ALWAYS adds something positive or important."},
@@ -108,7 +108,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"뿐만 아니라: not only A, {1} also B.\n-는데다가: A, {2} B on top.\n-고: A {3} B.\n(Adding information patterns.)",blanks:{"1":"but","2":"and additionally","3":"and"},pool:["but","and additionally","and","or","yet","because"],hint:"뿐만아니라=formal addition. 는데다가=piling on. 고=simple and."},
 ]},
 
-// ── L5: 가정과 양보 — -다고 해도, -다고 해서 ──
+// ── L5: 가정과 양보, -다고 해도, -다고 해서 ──
 {id:"kou22l5",title:"Even If & Just Because",icon:"🤔",xp:20,board:true,steps:[
 {type:"intro",title:"Even If & Just Because",desc:"-ㄴ/는다고 해도\n→ even if one says / even if\n\n-ㄴ/는다고 해서\n→ just because X doesn't mean Y\n\nTwo patterns for handling objections in debate.",goals:["Learn -다고 해도 for 'even if'","Learn -다고 해서 for 'just because... doesn't mean'","Counter opposing arguments gracefully","Build nuanced debate responses"]},
 {type:"teach",kind:"grammar",nl:"-ㄴ/는다고 해도",en:"even if (one says/it is the case that)",pos:"part",gender:null,funFact:"Means \"also/too.\" Replaces other particles: 저는 → 저도 (me too). Very common in daily speech.",phonetic:"-n/neun-da-go hae-do",example:"A: 요즘 너무 바빠서 운동할 시간이 없어요. B: 아무리 바쁘다고 해도 건강을 챙겨야 해요. A: 그래도 마감이 다음 주인데요. B: 마감이 급하다고 해도 밥은 먹어야죠. A: 알겠어요, 점심은 꼭 먹을게요. B: 그리고 아무리 피곤하다고 해도 하루 30분은 쉬세요.",exampleEn:"A: I am so busy these days I have no time to exercise. B: Even if you say you are busy, you must take care of your health. A: But the deadline is next week. B: Even if the deadline is urgent, you must eat. A: Okay, I will make sure to eat lunch. B: And even if you say you are tired, rest at least 30 minutes a day.",note:"Concedes a point but says it doesn't matter.\nAction: -ㄴ/는다고 해도\nDescriptive: -다고 해도\nPast: -았/었다고 해도\nOften with 아무리 (no matter how)."},
@@ -134,7 +134,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"-다고 해도: even if X, {1} anyway.\n-다고 해서: just because X, doesn't mean {2}.\n-아/어도: {3} form of 'even if'.\n(Three concessive patterns.)",blanks:{"1":"I will act","2":"Y follows","3":"simpler"},pool:["I will act","Y follows","simpler","I won't act","Y is true","formal"],hint:"해도=determination. 해서=logic challenge. 아/어도=basic even-if."},
 ]},
 
-// ── L6: 그렇죠? — -죠/-지요 [HARVEST] + -고 말고 ──
+// ── L6: 그렇죠?, -죠/-지요 [HARVEST] + -고 말고 ──
 {id:"kou22l6",title:"-죠: Right?",icon:"❓",xp:20,board:true,steps:[
 {type:"intro",title:"Tag Questions & Emphatic Agreement",desc:"-죠 / -지요\n→ right? isn't it?\n\n-고 말고(요)\n→ of course! absolutely!\n\nSeeking confirmation and giving emphatic agreement.",goals:["Harvest -죠/-지요 Tier 3","Learn -고 말고(요) for emphatic agreement","Use tag questions in debate","Seek and give confirmation naturally"]},
 {type:"tip",title:"Harvest: -죠/-지요",text:"Deferred Tier 3. Now harvested.\n\n-지요 (formal) / -죠 (casual): 'right? isn't it?'\n\n오늘 날씨가 좋죠?\nThe weather is nice today, right?\n\nThe speaker EXPECTS agreement.\nNot a real question. More like 'you agree, right?'",deepDive:"-죠 usage patterns:\n\n1. Seeking confirmation:\n이거 맞죠? (This is correct, right?)\n\n2. Shared knowledge:\n한국 음식은 맛있죠. (Korean food is delicious, as we both know.)\n\n3. Polite suggestion:\n같이 가시죠. (Let's go together, shall we?)\n\n4. Rhetorical:\n당연하죠! (Of course! Obviously!)"},
@@ -160,7 +160,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"-죠: seeking {1}.\n-고 말고요: emphatic {2}.\n-잖아요: you {3}, right? \n(Three agreement-seeking patterns.)",blanks:{"1":"confirmation","2":"agreement","3":"know"},pool:["confirmation","agreement","know","question","denial","forgot"],hint:"죠=right? 고 말고요=absolutely! 잖아요=as you know."},
 ]},
 
-// ── L7: 대신에 (Instead) — HARVEST + -걸(요) ──
+// ── L7: 대신에 (Instead). HARVEST + -걸(요) ──
 {id:"kou22l7",title:"대신에: Instead",icon:"🔄",xp:20,board:true,steps:[
 {type:"intro",title:"Harvest: 대신(에) + Mild Assertion",desc:"대신(에)\n→ instead of\n\n-(으)ㄴ/는걸(요)\n→ ...though / but you know\n\nProposing alternatives and making soft assertions.",goals:["Harvest 대신(에) Tier 3","Learn -걸(요) for mild assertions","Propose alternatives in debate","Make nuanced, hedged claims"]},
 {type:"teach",kind:"grammar",nl:"대신(에)",en:"instead of, in place of",pos:"part",gender:null,funFact:"Sino-Korean compound: 대(replace/代) + 신(body/身)",phonetic:"dae-sin(e)",example:"커피 대신에 차를 마시겠습니다. (spoken)\n(I will drink tea instead of coffee.)",exampleEn:"I will drink tea instead of coffee.",note:"COMPOUND: 대(replace/代) + 신(body/身).\nReplace-body: substituting one for another.\n대신에 or 대신: both correct (에 optional).\nNoun + 대신(에): instead of [noun]."},
@@ -186,7 +186,7 @@ const UNIT_22 =
 {type:"drag_fill",s:"대신에: A {1} B.\n-(으)ㄴ/는걸요: but actually {2}!\n-지만: A, {3} B.\n(Three debate tools.)",blanks:{"1":"instead of","2":"it IS X","3":"but"},pool:["instead of","it IS X","but","because of","it ISN'T","and"],hint:"대신=substitute. 는걸요=counter-evidence. 지만=simple contrast."},
 ]},
 
-// ── L8: 시나리오 — -다거나, -다고 치다 ──
+// ── L8: 시나리오, -다거나, -다고 치다 ──
 {id:"kou22l8",title:"Listing & Supposing",icon:"📋",xp:20,board:true,steps:[
 {type:"intro",title:"Listing Scenarios & Supposing",desc:"-(ㄴ/는)다거나\n→ or / listing possible scenarios\n\n-ㄴ/는다고 치다\n→ suppose / let's assume that\n\nTwo patterns for exploring possibilities in debate.",goals:["Learn -다거나 for listing possibilities","Learn -다고 치다 for hypothetical assumptions","Build hypothetical arguments","Explore multiple scenarios"]},
 {type:"teach",kind:"grammar",nl:"-(ㄴ/는)다거나",en:"or / listing possible scenarios",pos:"part",gender:null,funFact:"Korean particles attach after nouns to mark their role. No equivalent in English.",phonetic:"-(n/neun)da-geo-na",example:"A: 왔 회의에 안 왔어요? B: 시간이 없다거나 돈이 부족하다거나 핑계를 대요. A: 항상 그런 식이에요? B: 네, 아프다거나 약속이 있다거나 매번 달라요. A: 솔직하게 말하면 안 되나요? B: 관심이 없다거나 하면 실례잖아요.",exampleEn:"A: Why did they not come to the meeting? B: They make excuses like not having time or not having enough money. A: Is it always like that? B: Yes, things like being sick or having plans, it is different every time. A: Can they not just be honest? B: Saying things like having no interest would be rude.",note:"Lists multiple examples or scenarios.\nAction: -ㄴ/는다거나 (한다거나)\nDescriptive: -다거나 (좋다거나)\nOften in pairs: A다거나 B다거나.\nImplies there may be more examples."},
@@ -318,17 +318,17 @@ funFact:"From hanja 主觀的: 主 (main/subject) + 觀 (view/observe) + 的 (su
 
 {type:"tip",title:"Academic Adjectives: 객관적 vs 주관적",text:"Korean academic writing demands this contrast:\n\n객관적 (objective): based on evidence and facts\n주관적 (subjective): based on personal feelings or views\n\nIn debate: 주관적인 의견 = personal opinion\n객관적인 증거 = objective evidence\n\nBoth take -이다/-이지 않다 for statements.\n효과적이다 = is effective\n필수적이지 않다 = is not essential",deepDive:"Academic register in Korean:\n\n-적 suffix makes nouns into adjectives:\n주관(主觀) = subjective view + 적 = 주관적 (subjective)\n객관(客觀) = objective view + 적 = 객관적 (objective)\n효과(效果) = effect + 적 = 효과적 (effective)\n필수(必須) = necessity + 적 = 필수적 (essential)\n\nAll four appear in TOPIK II writing tasks.\nLearners who master these score higher in academic register."},
 
-{type:"mc",q:"찬성하다 vs 찬성:\nA: 찬성하세요? (Do you agree?)\nB: 찬성합니다. (I agree.)\n찬성하다 is:",opts:["A noun meaning agreement","The verb form meaning to agree","An adjective meaning agreeable","A particle for agreement"],ans:"The verb form meaning to agree",hint:"-하다 attached to a noun makes it into an action word. 찬성 alone cannot be conjugated."},
+{type:"mc",q:"찬성하다 vs 찬성:\nA: 찬성하세요? (Do you agree?)\nB: 찬성합니다. (I agree.)\n찬성하다 is:",opts:["The verb form meaning to agree","An adjective meaning agreeable","A particle for agreement","A noun meaning agreement"],ans:"The verb form meaning to agree",hint:"-하다 attached to a noun makes it into an action word. 찬성 alone cannot be conjugated."},
 
 {type:"fb",s:"주장을 {1}하려면 증거가 필요합니다.\n(To prove a claim, evidence is needed.)",a:"증명",opts:["증명","평가","판단","찬성"],hint:"Making a claim clear through evidence. 證明 = verify + clarify."},
 
 {type:"mc",q:"증거 vs 근거:\nA: 법적 증거가 있어요. (There is legal evidence.)\nB: 근거가 충분해요. (The grounds are sufficient.)\nKey difference:",opts:["They mean exactly the same","증거 = physical or factual proof; 근거 = logical grounds or basis","근거 is formal; 증거 is casual","증거 is for science; 근거 is for law"],ans:"증거 = physical or factual proof; 근거 = logical grounds or basis",hint:"One comes from 證 (testify, as in court). The other from 根 (root) and 據 (rely on). One is a thing you can point to; the other is the reasoning structure."},
 
-{type:"mc",q:"이 계획이 ___ 인지 먼저 ___ 해야 합니다.\n(We must first evaluate whether this plan is effective.)",opts:["효과적 / 평가","필수적 / 증명","주관적 / 판단","효과적 / 찬성"],ans:"효과적 / 평가",hint:"Fruit-bearing results (effective). Put a value on it systematically (evaluate)."},
+{type:"mc",q:"이 계획이 ___ 인지 먼저 ___ 해야 합니다.\n(We must first evaluate whether this plan is effective.)",opts:["주관적 / 판단","효과적 / 찬성","효과적 / 평가","필수적 / 증명"],ans:"효과적 / 평가",hint:"Fruit-bearing results (effective). Put a value on it systematically (evaluate)."},
 
 {type:"fb",s:"의견이 {1}이면 찬성하기 어렵습니다.\n(If an opinion is subjective, it is hard to agree with it.)",a:"주관적",opts:["주관적","효과적","필수적","객관적"],hint:"Personal feelings-based. Opposite of 객관적."},
 
-{type:"mc",q:"주장을 평가할 때 무엇이 필수적입니까?\n(When evaluating a claim, what is essential?)",opts:["타협이 필수적입니다","증거와 근거가 필수적입니다","여론이 필수적입니다","댓글이 필수적입니다"],ans:"증거와 근거가 필수적입니다",hint:"Evidence + grounds are the non-negotiable elements of any valid argument."},
+{type:"mc",q:"주장을 평가할 때 무엇이 필수적입니까?\n(When evaluating a claim, what is essential?)",opts:["여론이 필수적입니다","댓글이 필수적입니다","타협이 필수적입니다","증거와 근거가 필수적입니다"],ans:"증거와 근거가 필수적입니다",hint:"Evidence + grounds are the non-negotiable elements of any valid argument."},
 
 {type:"fb",s:"이 이론은 증거로 충분히 {1}되었습니다.\n(This theory has been sufficiently proven by evidence.)",a:"증명",opts:["증명","판단","평가","찬성"],hint:"Proving via evidence. 證明 hanja: testify + make clear."},
 

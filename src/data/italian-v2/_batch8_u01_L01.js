@@ -1,4 +1,4 @@
-// Batch 8 — Unit 01 extra lesson. Greetings: Formal Register & Titles
+// Batch 8. Unit 01 extra lesson. Greetings: Formal Register & Titles
 const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", xp:15, board:true, steps:[
 {type:"intro", title:"Signore e signora",
  desc:"Learn formal titles and polite expressions for respectful conversations in Italian.",
@@ -86,7 +86,7 @@ const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", 
 
 {type:"mc",
  q:"Which title is now considered outdated for women in Italian?",
- opts:["Signorina","Signora","Dottoressa","Professoressa"],
+ opts:["Professoressa","Signorina","Signora","Dottoressa"],
  ans:"Signorina",
  hint:"Modern Italian uses one title for all adult women, regardless of marital status."},
 
@@ -99,7 +99,7 @@ const BATCH8_L1 = {id:"itv2_u01l_b8_1", title:"Signore e signora", icon:"🎩", 
 
 {type:"mc",
  q:"What does 'Complimenti!' mean when used alone?",
- opts:["Congratulations!","I am sorry!","Excuse me!","Thank you!"],
+ opts:["Excuse me!","Thank you!","Congratulations!","I am sorry!"],
  ans:"Congratulations!",
  hint:"It is related to the English word 'compliment' but used as an exclamation of praise."}
 ,{type:"match",pairs:[{trg:"il signore",src:"the gentleman / Mr."},{trg:"accomodarsi",src:"to take a seat / make oneself comfortable"},{trg:"disturbare",src:"to disturb / to bother"},{trg:"augurare",src:"to wish"},{trg:"il complimento",src:"the compliment"}]}]};

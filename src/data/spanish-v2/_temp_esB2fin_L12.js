@@ -19,7 +19,7 @@ const LESSON_12 = {
      funFact:"From Latin 'proponere' (to put before). Related to 'pr\u00f3logo' and English 'proposal'. You 'put' an idea 'in front of' others."},
 
     {type:"mc", q:"\u00bfQu\u00e9 significa 'proponer una soluci\u00f3n'?",
-     opts:["Rechazar una idea","Plantear una posible respuesta al problema","Estudiar una situaci\u00f3n","Comparar dos opciones"],
+     opts:["Plantear una posible respuesta al problema","Estudiar una situaci\u00f3n","Comparar dos opciones","Rechazar una idea"],
      ans:"Plantear una posible respuesta al problema",
      hint:"This verb means to put forward an idea or plan for others to consider."},
 
@@ -129,7 +129,7 @@ const LESSON_12 = {
      sSrc:"To debate well, you need to know how to {1} the arguments of both sides."},
 
     {type:"mc", q:"\u00bfQu\u00e9 significa 'sintetizar un texto'?",
-     opts:["Traducirlo a otro idioma","Resumir las ideas principales en poco espacio","Criticar los argumentos del autor","Rechazar las conclusiones"],
+     opts:["Rechazar las conclusiones","Traducirlo a otro idioma","Resumir las ideas principales en poco espacio","Criticar los argumentos del autor"],
      ans:"Resumir las ideas principales en poco espacio",
      hint:"This academic verb means to bring together the key … into a compact, coherent form."}
   ]

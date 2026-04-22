@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 15 — Science and Research
+// French B2 Gap Lesson 15. Science and Research
 const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬", xp:15, board:true, steps:[
   {type:"intro", title:"Science et recherche",
    desc:"Build vocabulary for discussing scientific research, methodology, and discoveries at the B2 level.",
@@ -81,7 +81,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
    funFact:"From Latin 'jejunare'. The circumflex accent on the 'u' marks a historical lost 's' (cf. Old French 'jeuner')."},
 
   {type:"mc", q:"Que signifie 's'interposer'?",
-   opts:["Intervenir entre deux personnes ou choses","Se retirer d'une situation","Ignorer un conflit","Encourager une dispute"],
+   opts:["Encourager une dispute","Intervenir entre deux personnes ou choses","Se retirer d'une situation","Ignorer un conflit"],
    ans:"Intervenir entre deux personnes ou choses",
    hint:"Stepping in between two parties to prevent conflict or harm"},
 
@@ -99,7 +99,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
   ]},
 
   {type:"mc", q:"Qu'est-ce que l'adduction d'eau?",
-   opts:["Le système d'approvisionnement en eau potable","Un type de traitement de l'eau","Un barrage","Une fontaine publique"],
+   opts:["Un barrage","Une fontaine publique","Le système d'approvisionnement en eau potable","Un type de traitement de l'eau"],
    ans:"Le système d'approvisionnement en eau potable",
    hint:"The infrastructure that brings drinking water to communities"},
 
@@ -114,7 +114,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
    hint:"One is made on a large factory scale, the other by hand in a traditional workshop"},
 
   {type:"mc", q:"Quel transport permet de monter une pente très raide?",
-   opts:["Le funiculaire","Le métro","Le tramway","Le bus"],
+   opts:["Le métro","Le tramway","Le bus","Le funiculaire"],
    ans:"Le funiculaire",
    hint:"A cable railway specifically designed for steep slopes"}
 ]};

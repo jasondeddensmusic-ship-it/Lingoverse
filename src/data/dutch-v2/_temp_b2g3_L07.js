@@ -1,4 +1,4 @@
-// L07: Colors, Shapes & Descriptions — 20 B2 gap words
+// L07: Colors, Shapes & Descriptions, 20 B2 gap words
 const LESSON_7 = {
   id:"nlv2_b2g3_l7", title:"Kleuren, Vormen en Beschrijvingen", icon:"\uD83C\uDFA8", xp:15, board:true,
   steps:[
@@ -95,7 +95,7 @@ const LESSON_7 = {
      deepDive:{title:"Color compounds: when to use 'diep' vs 'donker'",
       text:"'Donker-' (dark) is neutral and descriptive: donkerblauw, donkergroen, donkerrood. Use it for everyday descriptions.\n\n'Diep-' (deep) is literary and emotional: dieprood suggests passion or drama. Dieprood is the color of wine, sunsets, and theatrical curtains.\n\nOther color prefixes: licht- (light), hel- (bright), vuil- (dirty), zacht- (soft). Each adds a nuance. 'Zachtroze' (soft pink) vs 'felroze' (bright pink) vs 'vuilroze' (dirty pink)."}},
     {type:"mc", q:"Welk woord betekent 'enorm lang en saai'?",
-     opts:["eeuwenoud","eersterangs","ellenlang","eigenhandig"],
+     opts:["ellenlang","eigenhandig","eeuwenoud","eersterangs"],
      ans:"ellenlang",
      hint:"From 'el', an old unit of measurement. Something that is many 'ells' long."},
     {type:"fb", s:"De zonsondergang kleurde de lucht {1}.", a:["dieprood"],
@@ -109,7 +109,7 @@ const LESSON_7 = {
       {trg:"dieprood", src:"deep red"}
     ]},
     {type:"mc", q:"Wat is de diamanthoofdstad van de wereld?",
-     opts:["Amsterdam","Brussel","Antwerpen","Londen"],
+     opts:["Brussel","Antwerpen","Londen","Amsterdam"],
      ans:"Antwerpen",
      hint:"A Flemish city that has handled the majority of the world's diamond trade for centuries."},
     {type:"fb", s:"Hij leeft in een {1}.", a:["droomwereld"],

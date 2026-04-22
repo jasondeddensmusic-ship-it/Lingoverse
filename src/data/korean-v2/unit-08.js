@@ -1,4 +1,4 @@
-// Korean V2 Unit 8 — 아프면 쉬세요
+// Korean V2 Unit 8, 아프면 쉬세요
 // Level: A2.1
 
 const UNIT_8 =
@@ -325,9 +325,9 @@ const UNIT_8 =
   {type:"teach",trg:"예약하고 싶은데요",src:"I would like to make an appointment (polite)",pos:"intj",gender:null,note:"예약하다 + -고 싶다 (want to) + -ㄴ데요 (softening).\nThe softening makes it more polite and natural on the phone.",funFact:"The -ㄴ데요 ending softens a request, making it sound less abrupt. Standard phone etiquette in Korean.",example:"A: 예약하고 싶은데요.\nB: 의사 선생님 예약이요?",exampleSrc:"A: I would like to make an appointment.\nB: An appointment with the doctor?"},
   {type:"teach",trg:"언제가 괜찮으세요?",src:"When is convenient for you?",pos:"intj",gender:null,note:"언제 (when) + 가 (subject) + 괜찮다 (to be okay) + -으세요 (honorific).\nUsed by receptionists and hosts.",funFact:"Receptionists say this to offer flexibility. Using 괜찮으세요 instead of just 괜찮아요 adds respectful honorific register.",example:"A: 언제가 괜찮으세요?\nB: 내일 오후가 괜찮아요.",exampleSrc:"A: When is convenient for you?\nB: Tomorrow afternoon is fine."},
   {type:"tip",title:"Making a Clinic Appointment",text:"Step-by-step phone call:\n1. 예약하고 싶은데요 = I would like to make an appointment.\n2. 언제가 괜찮으세요? = When is convenient?\n3. 내일 오전이 괜찮아요 = Tomorrow morning is fine.\n4. 예약을 확인해 주세요 = Please confirm the appointment.\n5. 취소/변경: 예약을 취소하고 싶어요 / 예약을 변경하고 싶어요.",deepDive:{title:"Korean Clinic Phone Protocol",text:"Calling a Korean clinic:\n\n직원: 여보세요, 병원입니다.\nYou: 예약하고 싶은데요.\n직원: 언제가 괜찮으세요?\nYou: 내일 오전이요.\n직원: 이름이 어떻게 되세요?\nYou: 김민수예요.\n직원: 예약됐습니다.\n\nCancelling:\n예약을 취소하고 싶어요.\n\nRescheduling:\n예약을 변경하고 싶어요.\n\nConfirming:\n예약을 확인하고 싶어요."}},
-  {type:"mc",q:"예약하고 싶은데요 is used to:",opts:["cancel an appointment","confirm a visit","make an appointment politely","reschedule a reservation"],ans:"make an appointment politely",hint:"싶은데요 is -고 싶다 (want to) + -ㄴ데요 (softening). What action does 예약하다 name?"},
-  {type:"mc",q:"Which verb means 'to confirm'?",opts:["취소하다","변경하다","확인하다","예약하다"],ans:"확인하다",hint:"This hanja compound means to verify or check. 확(確) + 인(認)."},
-  {type:"mc",q:"예약을 취소하다 means:",opts:["to make an appointment","to confirm an appointment","to miss an appointment","to cancel an appointment"],ans:"to cancel an appointment",hint:"취소 = …. 예약 = …. Which action ends a booking?"},
+  {type:"mc",q:"예약하고 싶은데요 is used to:",opts:["make an appointment politely","reschedule a reservation","cancel an appointment","confirm a visit"],ans:"make an appointment politely",hint:"싶은데요 is -고 싶다 (want to) + -ㄴ데요 (softening). What action does 예약하다 name?"},
+  {type:"mc",q:"Which verb means 'to confirm'?",opts:["변경하다","확인하다","예약하다","취소하다"],ans:"확인하다",hint:"This hanja compound means to verify or check. 확(確) + 인(認)."},
+  {type:"mc",q:"예약을 취소하다 means:",opts:["to confirm an appointment","to miss an appointment","to cancel an appointment","to make an appointment"],ans:"to cancel an appointment",hint:"취소 = …. 예약 = …. Which action ends a booking?"},
   {type:"fb",s:"병원을 ___하고 싶어요.\n(I would like to make a hospital appointment.)",a:"예약",opts:["예약","취소","변경","확인"],hint:"Which verb means 'to book or reserve'?"},
   {type:"fb",s:"예약을 ___하고 싶어요.\n(I would like to reschedule the appointment.)",a:"변경",opts:["변경","확인","취소","예약"],hint:"Which verb means 'to change or reschedule'? More formal than 바꾸다."},
   {type:"match",pairs:[{trg:"예약",src:"appointment / reservation"},{trg:"확인하다",src:"to confirm"},{trg:"취소하다",src:"to cancel"},{trg:"변경하다",src:"to change / reschedule"}]},
@@ -355,7 +355,7 @@ const UNIT_8 =
    note:"크다: to be big, large, great.\nKorean descriptive verbs conjugate just like action verbs.\n크다 → 커요 (polite present, ㅡ drops).\n이 가방이 커요: This bag is big.",
    example:"A: 이 방이 커요?\nB: 네, 방이 아주 커요.",
    exampleSrc:"A: Is this room big?\nB: Yes, the room is very big.",
-   funFact:"크다 behaves like a verb: 크면 (if big), 크고 (big and), 컸어요 (was big). This is why Korean linguists call adjectives '형용사' (descriptive verbs) — they follow the same grammatical rules as action verbs."},
+   funFact:"크다 behaves like a verb: 크면 (if big), 크고 (big and), 컸어요 (was big). This is why Korean linguists call adjectives '형용사' (descriptive verbs), they follow the same grammatical rules as action verbs."},
 
   {type:"teach",trg:"작다",src:"to be small",pos:"adj",gender:null,phonetic:"jak-da",
    note:"작다: to be small, little, tiny.\n작다 → 작아요 (polite present).\n크다 (big) ↔ 작다 (small): a key opposite pair.",
@@ -401,8 +401,8 @@ const UNIT_8 =
    exampleSrc:"A: Is this movie scary?\nB: Yes, it is really scary!",
    funFact:"무섭다 follows the ㅂ-irregular pattern: ㅂ becomes 우 before vowel endings. You already saw this pattern in the conditional lesson: 덥다 → 더우면, 춥다 → 추우면. 무섭다 → 무서워요 follows the same rule."},
 
-  {type:"mc",q:"사다 means:",opts:["to sell","to buy","to make","to open"],ans:"to buy",hint:"You use this verb at a store when handing over money. Its opposite is 팔다 (to sell)."},
-  {type:"mc",q:"싫어하다 is the opposite of:",opts:["가다 (to go)","알다 (to know)","좋아하다 (to like)","먹다 (to eat)"],ans:"좋아하다 (to like)",hint:"싫어하다 = to dislike. The opposite emotional verb is used when you enjoy something."},
+  {type:"mc",q:"사다 means:",opts:["to buy","to make","to open","to sell"],ans:"to buy",hint:"You use this verb at a store when handing over money. Its opposite is 팔다 (to sell)."},
+  {type:"mc",q:"싫어하다 is the opposite of:",opts:["알다 (to know)","좋아하다 (to like)","먹다 (to eat)","가다 (to go)"],ans:"좋아하다 (to like)",hint:"싫어하다 = to dislike. The opposite emotional verb is used when you enjoy something."},
 
   {type:"fb",s:"저는 매운 음식을 ___.\n(I dislike spicy food.)",a:"싫어해요",opts:["싫어해요","좋아해요","먹어요","사요"],hint:"싫어하다 → polite present: 싫어해요. The opposite of 좋아해요."},
 
@@ -410,7 +410,7 @@ const UNIT_8 =
 
   {type:"fb",s:"이 신발이 ___.\n(These shoes are small.)",a:"작아요",opts:["작아요","커요","길어요","짧아요"],hint:"작다 → bright vowel stem 작 → 아요 → 작아요."},
 
-  {type:"mc",q:"바쁘다 → polite present:",opts:["바빠요","바쁘요","바쁘어요","바빼요"],ans:"바빠요",hint:"ㅡ drops: 바쁘 → 바ㅃ + 아요 → 바빠요. Same pattern as 크다 → 커요."},
+  {type:"mc",q:"바쁘다 → polite present:",opts:["바쁘요","바쁘어요","바빼요","바빠요"],ans:"바빠요",hint:"ㅡ drops: 바쁘 → 바ㅃ + 아요 → 바빠요. Same pattern as 크다 → 커요."},
 
   {type:"fb",s:"오늘 ___ 바빠요.\n(I am very busy today.)",a:"많이",opts:["많이","조금","적게","크게"],hint:"Which adverb means 'very much / a lot'?"},
 
@@ -418,13 +418,13 @@ const UNIT_8 =
 
   {type:"fb",s:"이 음식은 ___지 않아요. 맛있어요!\n(This food is not bad. It is delicious!)",a:"나쁘",opts:["나쁘","좋","작","길"],hint:"나쁘다 + 지 않아요 = is not bad. What is the stem of 나쁘다?"},
 
-  {type:"mc",q:"길다 → polite present:",opts:["길아요","기아요","길어요","길요"],hint:"ㄹ-stem stays before vowel endings: 길 + 어요.",ans:"길어요"},
+  {type:"mc",q:"길다 → polite present:",opts:["기아요","길어요","길요","길아요"],hint:"ㄹ-stem stays before vowel endings: 길 + 어요.",ans:"길어요"},
 
-  {type:"mc",q:"짧다 is the opposite of:",opts:["크다 (big)","길다 (long)","바쁘다 (busy)","나쁘다 (bad)"],ans:"길다 (long)",hint:"짧다 = short in length. Think of a ruler: which Korean adjective names the other end of the scale?"},
+  {type:"mc",q:"짧다 is the opposite of:",opts:["나쁘다 (bad)","크다 (big)","길다 (long)","바쁘다 (busy)"],ans:"길다 (long)",hint:"짧다 = short in length. Think of a ruler: which Korean adjective names the other end of the scale?"},
 
   {type:"fb",s:"사람이 ___. 오늘 조용해요.\n(There are few people. It is quiet today.)",a:"적어요",opts:["적어요","많아요","커요","바빠요"],hint:"적다 → 적어요. The opposite of 많아요 (there are many)."},
 
-  {type:"mc",q:"무섭다 → polite present (ㅂ-irregular):",opts:["무섭아요","무섭어요","무서워요","무서아요"],ans:"무서워요",hint:"ㅂ-irregular: ㅂ becomes 우 before vowels. Same pattern as 덥다 → 더워요."},
+  {type:"mc",q:"무섭다 → polite present (ㅂ-irregular):",opts:["무서아요","무섭아요","무섭어요","무서워요"],ans:"무서워요",hint:"ㅂ-irregular: ㅂ becomes 우 before vowels. Same pattern as 덥다 → 더워요."},
 
   {type:"match",pairs:[{trg:"사다",src:"to buy"},{trg:"싫어하다",src:"to dislike"},{trg:"크다",src:"to be big"},{trg:"작다",src:"to be small"}]},
   {type:"match",pairs:[{trg:"바쁘다",src:"to be busy"},{trg:"나쁘다",src:"to be bad"},{trg:"길다",src:"to be long"},{trg:"짧다",src:"to be short"}]},

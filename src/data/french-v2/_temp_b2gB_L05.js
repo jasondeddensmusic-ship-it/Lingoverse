@@ -76,7 +76,7 @@ const LESSON_5 = {
      sSrc:"{1} are abundant in autumn in this region."},
 
     {type:"mc", q:"Quel est le sens figure de 'pilier'?",
-     opts:["Un element fondamental","Une colonne en pierre","Un sport d'equipe","Un type de pont"],
+     opts:["Un type de pont","Un element fondamental","Une colonne en pierre","Un sport d'equipe"],
      ans:"Un element fondamental",
      hint:"Beyond the architectural meaning, think of something that supports a system"},
 
@@ -93,7 +93,7 @@ const LESSON_5 = {
      sSrc:"We need to consider the problem in its {1}."},
 
     {type:"mc", q:"Que fait quelqu'un qui agit 'precipitamment'?",
-     opts:["Il agit de facon trop rapide","Il agit avec prudence","Il attend patiemment","Il reflechit longtemps"],
+     opts:["Il attend patiemment","Il reflechit longtemps","Il agit de facon trop rapide","Il agit avec prudence"],
      ans:"Il agit de facon trop rapide",
      hint:"The adverb suggests acting in a rushed, hasty manner without thinking"},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {
      sSrc:"This discovery {1} a scientific revolution."},
 
     {type:"mc", q:"L'{1} agricole a des consequences environnementales.",
-     opts:["intensification","precipitation","globalite","porosite"],
+     opts:["precipitation","globalite","porosite","intensification"],
      ans:"intensification",
      hint:"Making farming more intense through chemicals and machinery has ecological costs"},
 

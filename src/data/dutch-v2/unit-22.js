@@ -1,4 +1,4 @@
-// Unit 22 — Nieuws & Media
+// Unit 22. Nieuws & Media
 // Advanced Passive, Indirect Speech & Dutch Media
 
 export default {n:22,lang:"nl",srcLang:"en",track:"v2",title:"Nieuws & Media",sub:"Advanced Passive, Indirect Speech & Dutch Media",icon:"📰",level:"B2.1",color:"#7B5EE8",lessons:[

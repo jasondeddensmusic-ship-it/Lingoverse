@@ -65,12 +65,12 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  sSrc:"Let's go to the {1} to swim! It's very hot today."},
 
 {type:"mc", q:"How do you say 'I like football'?",
- opts:["Eu gosto futebol","Eu gosto de futebol","Eu futebol gosto","Eu sou futebol"],
+ opts:["Eu gosto de futebol","Eu futebol gosto","Eu sou futebol","Eu gosto futebol"],
  ans:"Eu gosto de futebol",
  hint:"The verb 'gostar' always needs the preposition that means 'of'."},
 
 {type:"mc", q:"Which word means 'the beach'?",
- opts:["a praia","a música","o livro","o filme"],
+ opts:["o filme","a praia","a música","o livro"],
  ans:"a praia",
  hint:"The feminine noun for the sandy place next to the ocean."},
 
@@ -88,7 +88,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 ]},
 
 {type:"mc", q:"'Vamos à praia!' means:",
- opts:["We are at the beach","Let's go to the beach","I like the beach","The beach is nice"],
+ opts:["The beach is nice","We are at the beach","Let's go to the beach","I like the beach"],
  ans:"Let's go to the beach",
  hint:"'Vamos' with infinitive is 'let's go' and 'à' is 'to the'."},
 
@@ -99,7 +99,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  sSrc:"What is your favorite sport? I love {1}."},
 
 {type:"mc", q:"Which word means 'music'?",
- opts:["o livro","o filme","a música","o esporte"],
+ opts:["o esporte","o livro","o filme","a música"],
  ans:"a música",
  hint:"The feminine noun for what musicians create."}
 ]},
@@ -157,7 +157,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
   text:"'Tocar' can also mean:\n\nto touch: Não toque nisso. (Do not touch that.)\nto ring: O telefone está tocando. (The phone is ringing.)\nto be someone's turn: Agora toca a você. (Now it is your turn.)\n\nContext always makes it clear. Instruments remain the most common use."}},
 
 {type:"mc", q:"Which verb do you use for playing the guitar?",
- opts:["jogar","tocar","cantar","dançar"],
+ opts:["tocar","cantar","dançar","jogar"],
  ans:"tocar",
  hint:"Musical instruments need a different verb than sports."},
 
@@ -180,7 +180,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 ]},
 
 {type:"mc", q:"What does 'Gosto de assistir filmes' mean?",
- opts:["I like making films","I like watching films","I like writing films","I like singing films"],
+ opts:["I like singing films","I like making films","I like watching films","I like writing films"],
  ans:"I like watching films",
  hint:"The verb assistir means 'to watch' in Brazilian usage."},
 
@@ -191,7 +191,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  sSrc:"My sister {1} very well. She has already recorded an album."},
 
 {type:"mc", q:"'Adoro ler livros' means:",
- opts:["I love to write books","I love to read books","I love to watch books","I love to buy books"],
+ opts:["I love to watch books","I love to buy books","I love to write books","I love to read books"],
  ans:"I love to read books",
  hint:"'Ler' is the verb for reading; 'livros' is …."},
 
@@ -231,7 +231,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
   text:"Both verbs mean 'to walk':\n\nCaminhar is for exercise or a long walk: 'Caminho na praia.'\nAndar is general movement: 'Ando devagar.' (I walk slowly.)\n\n'Andar' also has non-walking meanings: 'Como anda o trabalho?' (How is work going?). For fitness and leisurely walks, 'caminhar' is clearer."}},
 
 {type:"mc", q:"Which verb means 'to run'?",
- opts:["caminhar","correr","nadar","jogar"],
+ opts:["correr","nadar","jogar","caminhar"],
  ans:"correr",
  hint:"Faster than walking, related to 'current' in English."},
 
@@ -254,7 +254,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 ]},
 
 {type:"mc", q:"Which sentence means 'She swims in the sea'?",
- opts:["Ela corre no mar","Ela nada no mar","Ela joga no mar","Ela caminha no mar"],
+ opts:["Ela caminha no mar","Ela corre no mar","Ela nada no mar","Ela joga no mar"],
  ans:"Ela nada no mar",
  hint:"Swimming involves water and the matching verb."},
 
@@ -265,7 +265,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  sSrc:"My brother {1} five kilometers every day."},
 
 {type:"mc", q:"'Nadamos na piscina' means:",
- opts:["We run in the pool","We swim in the pool","We walk in the pool","We play in the pool"],
+ opts:["We walk in the pool","We play in the pool","We run in the pool","We swim in the pool"],
  ans:"We swim in the pool",
  hint:"The 'we' form of the verb for moving through water."},
 
@@ -276,7 +276,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  sSrc:"I like to {1} in the park because it is shady."},
 
 {type:"mc", q:"Which hobby verb pairs with 'violão' (guitar)?",
- opts:["jogar","tocar","correr","ler"],
+ opts:["tocar","correr","ler","jogar"],
  ans:"tocar",
  hint:"Instruments require the touch/play verb, not the sports verb."}
 ,

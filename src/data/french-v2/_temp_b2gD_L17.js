@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 17 — Abstract Concepts
+// French B2 Gap Batch D Lesson 17. Abstract Concepts
 const LESSON_17 = {id:"frv2_b2gD_l17", title:"Concepts abstraits", icon:"💡", xp:15, board:true, steps:[
   {type:"intro", title:"Concepts abstraits",
    desc:"Master abstract vocabulary for philosophical discussion, intellectual debate, and critical thinking.",
@@ -73,7 +73,7 @@ const LESSON_17 = {id:"frv2_b2gD_l17", title:"Concepts abstraits", icon:"💡", 
 
   {type:"mc",
    q:"Qu'est-ce que 'la néologie'?",
-   opts:["L'étude et la création de mots nouveaux","L'étude des langues anciennes","La grammaire des verbes irréguliers","L'analyse des accents régionaux"],
+   opts:["L'analyse des accents régionaux","L'étude et la création de mots nouveaux","L'étude des langues anciennes","La grammaire des verbes irréguliers"],
    ans:"L'étude et la création de mots nouveaux",
    hint:"'Néo-' means 'new' and '-logie' means 'study of'. This field creates and studies new vocabulary."},
 

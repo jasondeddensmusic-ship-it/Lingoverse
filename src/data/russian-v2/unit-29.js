@@ -1,4 +1,4 @@
-// Russian V2 Unit 29 — Media and News (B2.1)
+// Russian V2 Unit 29. Media and News (B2.1)
 const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и новости", sub:"Media and News",
  icon:"📰", level:"B2.1", color:"#7B5EE8",
  lessons:[
@@ -25,13 +25,13 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
  note:"Masculine. The device.\nТелевидение = broadcasting (abstract).",
  example:"A: Купил телевизор.\nB: Хороший!",
  exampleSrc:"A: I bought a TV.\nB: Good one!",
- funFact:"Russian distinguishes телевизор (TV set, device) from телевидение (TV as institution/medium). 'Смотрю телевизор' — watch the device. 'Российское телевидение' — Russian TV."},
+ funFact:"Russian distinguishes телевизор (TV set, device) from телевидение (TV as institution/medium). 'Смотрю телевизор', watch the device. 'Российское телевидение'. Russian TV."},
 
 {type:"teach", trg:"интернет", src:"internet", pos:"noun", gender:"m",
  note:"Masculine. Usually capitalized: Интернет.\nEnglish loanword.",
  example:"A: Ищешь в интернете?\nB: Да, в Яндексе.",
  exampleSrc:"A: Are you searching the internet?\nB: Yes, on Yandex.",
- funFact:"В интернете (on the internet, prep case) — standard phrase. Russian treats internet as location. 'В интернете' vs English 'on the internet.'"},
+ funFact:"В интернете (on the internet, prep case), standard phrase. Russian treats internet as location. 'В интернете' vs English 'on the internet.'"},
 
 {type:"teach", trg:"социальные сети", src:"social networks", pos:"noun", gender:null,
  note:"Feminine plural.\nOften abbreviated: соцсети.",
@@ -58,11 +58,11 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
  funFact:"'По моему мнению' is the formal 'in my opinion' in Russian. Casually: 'по-моему' (one word). Essential for expressing views."},
 
 {type:"tip", title:"Russian Media Landscape",
- text:"TRADITIONAL MEDIA:\n• газета (newspaper)\n• журнал (magazine)\n• радио (radio)\n• телевидение (TV broadcasting)\n• телевизор (TV set)\n\nDIGITAL MEDIA:\n• интернет (internet)\n• сайт (website)\n• блог (blog)\n• видео (video)\n\nSOCIAL NETWORKS:\n• ВКонтакте (VK) — Russian Facebook.\n• Одноклассники (Classmates) — for older demographic.\n• Telegram — messaging + news channels.\n• Instagram, TikTok — international apps.\n\nNEWS DISCUSSION:\n• мнение (opinion)\n• точка зрения (point of view)\n• аргумент (argument)\n• факт (fact)\n• источник (source)\n\n'СМИ' (средства массовой информации) = mass media. Common umbrella term.",
+ text:"TRADITIONAL MEDIA:\n• газета (newspaper)\n• журнал (magazine)\n• радио (radio)\n• телевидение (TV broadcasting)\n• телевизор (TV set)\n\nDIGITAL MEDIA:\n• интернет (internet)\n• сайт (website)\n• блог (blog)\n• видео (video)\n\nSOCIAL NETWORKS:\n• ВКонтакте (VK). Russian Facebook.\n• Одноклассники (Classmates), for older demographic.\n• Telegram, messaging + news channels.\n• Instagram, TikTok, international apps.\n\nNEWS DISCUSSION:\n• мнение (opinion)\n• точка зрения (point of view)\n• аргумент (argument)\n• факт (fact)\n• источник (source)\n\n'СМИ' (средства массовой информации) = mass media. Common umbrella term.",
  icon:"📰"},
 
 {type:"mc", q:"Which is 'social networks' in Russian?",
- opts:["социальное сообщество","социальные сети","социальные медиа","социальная пресса"],
+ opts:["социальные сети","социальные медиа","социальная пресса","социальное сообщество"],
  ans:"социальные сети",
  hint:"Plural feminine: сети (networks)."},
 

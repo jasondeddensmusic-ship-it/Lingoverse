@@ -1,4 +1,4 @@
-// Batch 7 — Unit 22 extra lesson. La cultura italiana: Music & Performing Arts
+// Batch 7. Unit 22 extra lesson. La cultura italiana: Music & Performing Arts
 const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:"\u{1F3B6}", xp:15, board:true, steps:[
 {type:"intro", title:"La musica e lo spettacolo",
  desc:"Learn vocabulary for music, performing arts, and Italian entertainment culture.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
 ]},
 
 {type:"mc", q:"Che cos'e il Festival di Sanremo?",
- opts:["Italy's most important music festival","A food festival","A film festival","A fashion show"],
+ opts:["A fashion show","Italy's most important music festival","A food festival","A film festival"],
  ans:"Italy's most important music festival",
  hint:"Held annually since 1951. The biggest event in Italian m...."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u22l_b7_1", title:"La musica e lo spettacolo", icon:
  sSrc:"Verdi is the greatest Italian {1}."},
 
 {type:"mc", q:"Da quale parola italiana viene 'ballet'?",
- opts:["balletto","ballo","ballare","ballerino"],
+ opts:["ballare","ballerino","balletto","ballo"],
  ans:"balletto",
  hint:"The Italian diminutive meaning 'little dance.' Italy was the birthplace of this art form."},
 

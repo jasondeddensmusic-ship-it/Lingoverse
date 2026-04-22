@@ -1,4 +1,4 @@
-// Batch 3 — Unit 25 Lesson (Economy: Trade & Employment)
+// Batch 3. Unit 25 Lesson (Economy: Trade & Employment)
 const BATCH3_L_1 = {
   id:"itv2_u25l_b3_1", title:"Commerciò è occupazione", icon:"🏭", xp:15, board:true,
   steps:[
@@ -87,7 +87,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Quale organizzazione rappresenta i lavoratori e negozia le condizioni di lavoro?",
-     opts:["Il sindacato","Il tribunale","La borsa","La banca centrale"],
+     opts:["La banca centrale","Il sindacato","Il tribunale","La borsa"],
      ans:"Il sindacato",
      hint:"An organization of workers that negotiates with employers. Italy has three major ones: CGIL, CISL, and UIL."},
 
@@ -120,7 +120,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche la produttivita italiana e stagnante da vent'anni?",
-     opts:["Perche gli italiani non lavorano abbastanza ore all'anno","Per la dimensione ridotta delle imprese, la scarsa innovazione e la burocrazia","Perche l'Italia non commercia abbastanza con l'estero","Perche i sindacati impediscono qualsiasi cambiamento"],
+     opts:["Perche i sindacati impediscono qualsiasi cambiamento","Perche gli italiani non lavorano abbastanza ore all'anno","Per la dimensione ridotta delle imprese, la scarsa innovazione e la burocrazia","Perche l'Italia non commercia abbastanza con l'estero"],
      ans:"Per la dimensione ridotta delle imprese, la scarsa innovazione e la burocrazia",
      hint:"Multiple structural factors: small firm size limits investment, technology adoption lags, and administrative complexity slows everything down."}
   ,{type:"match",pairs:[{trg:"il PIL pro capite",src:"the GDP per capita"},{trg:"il contratto",src:"the contract"},{trg:"la produttivita",src:"the productivity"},{trg:"la previsione",src:"the forecast / prediction"},{trg:"lo stipendio",src:"the salary"}]},{type:"mc",q:"How do you say \"employment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'occupazione"],ans:"l'occupazione",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"import\" in Italian?",opts:["l'importazione","la finestra","il tavolo","la bicicletta"],ans:"l'importazione",hint:"Recall the Italian vocabulary word taught in this lesson."},

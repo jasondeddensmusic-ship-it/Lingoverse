@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 10: Structure and Composition
+// Korean B2. Batch 3, Lesson 10: Structure and Composition
 // Words: 구분, 구분되다, 구분하다, 구석, 구석구석, 구성, 구성되다, 구성하다, 구속, 구속되다, 구속하다, 구역, 구입, 구입하다, 구청, 국가적, 국기, 국내선, 국내외, 국립
 
 const LESSON_10 = {
@@ -107,7 +107,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'구역'과 의미가 가장 비슷한 것은?",
-     opts:["지역","건물","도로","교실"],
+     opts:["교실","지역","건물","도로"],
      ans:"지역",
      hint:"This word refers to a designated section or territory within a larger space."},
 

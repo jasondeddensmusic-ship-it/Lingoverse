@@ -86,7 +86,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel mot designe une erreur maladroite ou une gaffe ?",
-     opts:["une balourdise","une bord\u00e9e","une barbarie","une combine"],
+     opts:["une combine","une balourdise","une bord\u00e9e","une barbarie"],
      ans:"une balourdise",
      hint:"From 'balourd' meaning oaf. A clumsy mistake, especially a tactless remark."},
 
@@ -137,7 +137,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel adjectif decrit un accent musical et melodieux ?",
-     opts:["chantant","distinct","divergent","douteux"],
+     opts:["divergent","douteux","chantant","distinct"],
      ans:"chantant",
      hint:"Like a song. Southern French accents, especially from Marseille, are famously described this way."},
 

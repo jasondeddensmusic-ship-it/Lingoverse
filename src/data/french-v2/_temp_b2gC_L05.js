@@ -67,7 +67,7 @@ const LESSON_5 = {id:"frv2_b2gC_l5", title:"Économie et entreprise", icon:"\u{1
 
 {type:"mc",
  q:"Que critique le mouvement anti-productiviste ?",
- opts:["La maximisation de la production au détriment de l'environnement","Le manque de production","Les importations étrangères","La technologie moderne"],
+ opts:["La technologie moderne","La maximisation de la production au détriment de l'environnement","Le manque de production","Les importations étrangères"],
  ans:"La maximisation de la production au détriment de l'environnement",
  hint:"This ideology puts output above everything else. Ecologists oppose it."},
 
@@ -87,7 +87,7 @@ const LESSON_5 = {id:"frv2_b2gC_l5", title:"Économie et entreprise", icon:"\u{1
 
 {type:"mc",
  q:"Que signifie 'prospère' ?",
- opts:["Qui connaît le succès et la richesse","Qui est en difficulté","Qui refuse le changement","Qui commence quelque chose"],
+ opts:["Qui refuse le changement","Qui commence quelque chose","Qui connaît le succès et la richesse","Qui est en difficulté"],
  ans:"Qui connaît le succès et la richesse",
  hint:"Think of thriving, flourishing. A state of success and well-being."},
 
@@ -105,7 +105,7 @@ const LESSON_5 = {id:"frv2_b2gC_l5", title:"Économie et entreprise", icon:"\u{1
 
 {type:"mc",
  q:"Quel mot peut désigner à la fois un département d'entreprise et un désaccord ?",
- opts:["la division","la pénalité","l'accélération","le productivisme"],
+ opts:["la pénalité","l'accélération","le productivisme","la division"],
  ans:"la division",
  hint:"In business it means a unit. In politics it means discord. Same word, two uses."}
 

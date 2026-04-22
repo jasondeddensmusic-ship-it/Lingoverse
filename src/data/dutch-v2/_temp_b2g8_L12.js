@@ -1,4 +1,4 @@
-// Lesson 12 — Environment & Sustainability
+// Lesson 12. Environment & Sustainability
 const LESSON_12 = {id:"nlv2_b2g8_l12", title:"Milieu en Duurzaamheid", icon:"\u{1F33F}", xp:20, board:true, steps:[
 {type:"intro", title:"Milieu en Duurzaamheid", desc:"Environmental vocabulary for discussing sustainability, waste management, and green initiatives in Dutch. The Netherlands is at the forefront of many environmental debates.", goals:["Learn 10 environment and sustainability words","Discuss waste and recycling","Talk about green urban planning"]},
 {type:"teach", trg:"het ecoplan", src:"the eco plan", pos:"noun", gender:"n", note:"COMPOUND: eco + plan.\nHet-word. 'Een gemeentelijk ecoplan.'\nA sustainability or environmental plan.", example:"A: De gemeente heeft een nieuw ecoplan.\nB: Wat staat erin?\nA: Minder auto's, meer groen, zonnepanelen.\nB: Klinkt ambitieus.", exampleSrc:"A: The municipality has a new eco plan.\nB: What is in it?\nA: Fewer cars, more greenery, solar panels.\nB: Sounds ambitious.", funFact:"Many Dutch municipalities have sustainability plans aiming for climate neutrality by 2050, in line with the EU Green Deal."},
@@ -14,7 +14,7 @@ const LESSON_12 = {id:"nlv2_b2g8_l12", title:"Milieu en Duurzaamheid", icon:"\u{
 {type:"mc", q:"Wat is een dakakker?", opts:["Een tuin op een dak","Een kelder met planten","Een park in de stad","Een boerderij buiten de stad"], ans:"Een tuin op een dak", hint:"A compound of roof + field, an urban farming concept"},
 {type:"fb", s:"Wat is het belangrijkste {1} van Nederland?", a:["exportartikel"], opts:["exportartikel","gespreksonderwerp","design","ecoplan"], hint:"The product that a country sells the most to other countries", sSrc:"What is the most important {1} of the Netherlands?"},
 {type:"match", pairs:[{trg:"de drop", src:"licorice"},{trg:"de dynamiek", src:"dynamics"},{trg:"het design", src:"design"},{trg:"het bauxiet", src:"bauxite"}]},
-{type:"mc", q:"Hoeveel drop eten Nederlanders per persoon per jaar?", opts:["500 gram","1 kilo","2 kilo","5 kilo"], ans:"2 kilo", hint:"The Dutch are the world's biggest licorice consumers"},
+{type:"mc", q:"Hoeveel drop eten Nederlanders per persoon per jaar?", opts:["1 kilo","2 kilo","5 kilo","500 gram"], ans:"2 kilo", hint:"The Dutch are the world's biggest licorice consumers"},
 {type:"fb", s:"Het weer is altijd een populair {1} in Nederland.", a:["gespreksonderwerp"], opts:["gespreksonderwerp","exportartikel","ecoplan","design"], hint:"Something people talk about together", sSrc:"The weather is always a popular {1} in the Netherlands."},
 {type:"drag_fill", s:"Er is een {1} op dat gebouw. Er groeien {2} en kruiden.", blanks:{"1":"dakakker","2":"groenten"}, pool:["dakakker","groenten","design","bloemen"], hint:"A farm on a rooftop where food is grown."}
 ]};

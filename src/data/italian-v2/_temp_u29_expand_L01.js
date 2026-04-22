@@ -96,7 +96,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Perche l'italiano usa la parola inglese 'problem-solving' invece di tradurla?",
-     opts:["Perche e piu precisa della traduzione italiana","Perche 'risoluzione di problemi' e troppo lungo per il linguaggio professionale","Perche gli italiani non capiscono i concetti cognitivi","Perche la psicologia non esiste in Italia"],
+     opts:["Perche la psicologia non esiste in Italia","Perche e piu precisa della traduzione italiana","Perche 'risoluzione di problemi' e troppo lungo per il linguaggio professionale","Perche gli italiani non capiscono i concetti cognitivi"],
      ans:"Perche 'risoluzione di problemi' e troppo lungo per il linguaggio professionale",
      hint:"The literal Italian translation is clunky and wordy. In professional and business contexts, the concise English borrowing has become standard practice."}
   ]

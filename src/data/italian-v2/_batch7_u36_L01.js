@@ -1,4 +1,4 @@
-// Batch 7 — Unit 36 extra lesson. Esame finale: CILS B2 Exam Strategies & Key Phrases
+// Batch 7. Unit 36 extra lesson. Esame finale: CILS B2 Exam Strategies & Key Phrases
 const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", icon:"\u{1F3C6}", xp:15, board:true, steps:[
 {type:"intro", title:"Strategie per l'esame CILS B2",
  desc:"Master essential exam phrases, discourse markers, and strategic language for the CILS B2 certification.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
 ]},
 
 {type:"mc", q:"Quale espressione formale per 'in my opinion' usa la parola 'avviso'?",
- opts:["a mio avviso","secondo me","per me","credo che"],
+ opts:["credo che","a mio avviso","secondo me","per me"],
  ans:"a mio avviso",
  hint:"The most formal of the options. Uses 'a...' (opinion/notice)."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
  sSrc:"It cannot be {1} that the situation is difficult."},
 
 {type:"mc", q:"Nella scala di formalita, quale espressione per 'therefore' e PIU formale?",
- opts:["pertanto","quindi","percio","allora"],
+ opts:["percio","allora","pertanto","quindi"],
  ans:"pertanto",
  hint:"The most formal cause-effect connector. Preferred in academic writing."},
 

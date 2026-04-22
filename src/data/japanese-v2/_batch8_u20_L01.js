@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"おっしゃる",src:"to say (honorific)"},{trg:"もうしあげる",src:"to say (humble)"},{trg:"めしあがる",src:"to eat (honorific)"},{trg:"いただく",src:"to receive (humble)"},{trg:"くださる",src:"to give (honorific)"}],
      hint:"Match each keigo verb with its meaning and politeness type."},
 
-    {type:"mc", q:"What does はいけんする literally imply?", opts:["Humbly looking at something precious","Secretly watching something","Quickly glancing","Carefully inspecting"], ans:"Humbly looking at something precious",
+    {type:"mc", q:"What does はいけんする literally imply?", opts:["Carefully inspecting","Humbly looking at something precious","Secretly watching something","Quickly glancing"], ans:"Humbly looking at something precious",
      hint:"The first kanji 拝 means worship/bow, showing deep humility toward what you are viewing."},
 
     {type:"fb", s:"はじめて{1}ます。田中(たなか)ともうします。\n(It is my first time meeting you. My name is Tanaka.)", a:"おめにかかり", opts:["おめにかかり","あい","みえ","うかがい"], sSrc:"It is my first time meeting you. My name is Tanaka.",
      hint:"This very formal humble verb literally means 'to hang upon your eyes.'"},
 
-    {type:"mc", q:"What is the formal apology hierarchy from casual to most formal?", opts:["ごめん, すみません, もうしわけありません, もうしわけございません","すみません, ごめん, もうしわけ, しつれい","もうしわけ, すみません, ごめん, しつれい","ごめん, しつれい, すみません, もうしわけ"], ans:"ごめん, すみません, もうしわけありません, もうしわけございません",
+    {type:"mc", q:"What is the formal apology hierarchy from casual to most formal?", opts:["もうしわけ, すみません, ごめん, しつれい","ごめん, しつれい, すみません, もうしわけ","ごめん, すみません, もうしわけありません, もうしわけございません","すみません, ごめん, もうしわけ, しつれい"], ans:"ごめん, すみません, もうしわけありません, もうしわけございません",
      hint:"Each level adds formality, from casual among friends to the most formal business apology."}
   ,{type:"fb", s:"来週(らいしゅう)ご都合(つごう)がよければ、先生(せんせい)のお宅(たく)に{1}てもよいですか？",
      a:["うかがう"],

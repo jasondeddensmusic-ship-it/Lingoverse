@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: There is a target to reduce CO2 emission volume.\nB: To zero by 2050, right?\nA: Is there anything else to be careful about?\nB: Yes, meeting deadlines is the most important thing.\nA: What do you do if you cannot meet the deadline?\nB: Consult your supervisor early and ask for an adjustment.",
      funFact:"排出量 is a three-part compound: 排 (expel) + 出 (exit) + 量 (amount). Japan is the world's fifth-largest CO2 emitter. The phrase はいしゅつりょうさくげん (emission reduction) appears in every environmental policy document. りょう as a suffix creates many measurement words: 生産量 (production volume), 消費量 (consumption volume)."},
 
-    {type:"mc", q:"さいせいかのうエネルギー includes:", opts:["Nuclear power only","Fossil fuels like coal","Solar and wind power","Natural gas pipelines"], ans:"Solar and wind power",
+    {type:"mc", q:"さいせいかのうエネルギー includes:", opts:["Solar and wind power","Natural gas pipelines","Nuclear power only","Fossil fuels like coal"], ans:"Solar and wind power",
      hint:"さいせい means regeneration and かのう means possible: energy that regenerates itself."},
 
     {type:"teach", trg:"たいようこう", src:"solar power / sunlight", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_3 = {
      exampleSrc:"A: Safety inspections are required for restart.\nB: The consent of residents is also needed.\nA: Is there a good method?\nB: I have one suggestion. How about proceeding step by step?\nA: What do you mean by step by step?\nB: It means trying it on a small scale first, then gradually expanding.",
      funFact:"再稼働 became a politically charged word after 2011. Every nuclear plant restart requires 原子力規制委員会 (Nuclear Regulation Authority) approval plus local government consent. The process is slow and contentious. As of the mid-2020s, only about a third of Japan's reactors have been approved for さいかどう."},
 
-    {type:"mc", q:"Why is げんしりょく especially sensitive in Japan?", opts:["Nuclear plants are common everywhere","Japan has no nuclear history","Nuclear power is too expensive","Japan experienced both atomic bombings and a nuclear disaster"], ans:"Japan experienced both atomic bombings and a nuclear disaster",
+    {type:"mc", q:"Why is げんしりょく especially sensitive in Japan?", opts:["Nuclear power is too expensive","Japan experienced both atomic bombings and a nuclear disaster","Nuclear plants are common everywhere","Japan has no nuclear history"], ans:"Japan experienced both atomic bombings and a nuclear disaster",
      hint:"J...'s unique historical experiences with a... weapons and Fukushima shape this debate."},
 
     {type:"teach", trg:"じゅうみん", src:"residents / inhabitants", pos:"noun", gender:null,

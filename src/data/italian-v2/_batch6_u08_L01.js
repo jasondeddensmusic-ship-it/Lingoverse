@@ -1,4 +1,4 @@
-// Batch 6 — Unit 08 extra lesson. Lo shopping: At the Bank & Money
+// Batch 6. Unit 08 extra lesson. Lo shopping: At the Bank & Money
 const BATCH6_L1 = {id:"itv2_u08l_b6_1", title:"In banca", icon:"\u{1F3E6}", xp:15, board:true, steps:[
 {type:"intro", title:"In banca",
  desc:"Learn essential vocabulary for banking, money transactions, and financial services in Italy.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u08l_b6_1", title:"In banca", icon:"\u{1F3E6}", xp:1
 ]},
 
 {type:"mc", q:"Cosa sono 'le bollette'?",
- opts:["Utility bills for electricity, gas, and water","Bank transfers","Monthly installments","Savings accounts"],
+ opts:["Savings accounts","Utility bills for electricity, gas, and water","Bank transfers","Monthly installments"],
  ans:"Utility bills for electricity, gas, and water",
  hint:"The b... that arrive every month for household services."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u08l_b6_1", title:"In banca", icon:"\u{1F3E6}", xp:1
  sSrc:"I pay for the phone in {1}: fifty euros per month."},
 
 {type:"mc", q:"In Italia, cosa significa 'bancomat'?",
- opts:["Both the ATM machine and the debit card","Only the debit card","Only the ATM machine","The bank building"],
+ opts:["Only the ATM machine","The bank building","Both the ATM machine and the debit card","Only the debit card"],
  ans:"Both the ATM machine and the debit card",
  hint:"A brand name that became generic. It refers to two things at once."},
 

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 05 Lesson 1: Cooking Methods & Kitchen
+// Batch 4. Unit 05 Lesson 1: Cooking Methods & Kitchen
 const BATCH4_L_1 = {
   id:"jav2_u05l_b4_1", title:"料理(りょうり)のしかた", icon:"🍳", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"包丁(ほうちょう) means:",
-     opts:["kitchen knife","cutting board","frying pan","pot"], ans:"kitchen knife",
+     opts:["pot","kitchen knife","cutting board","frying pan"], ans:"kitchen knife",
      hint:"Named after a legendary Chinese chef who was incredibly skilled with blades."},
 
     {type:"fb", s:"刺身(さしみ)に{1}をつけます。", a:"醤油(しょうゆ)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"Japan's most essential liquid condiment, dark and salty."},
 
     {type:"mc", q:"Which taste did Japan discover?",
-     opts:["umami","sweet","sour","bitter"], ans:"umami",
+     opts:["sour","bitter","umami","sweet"], ans:"umami",
      hint:"The savory fifth taste, identified by a Japanese scientist in 1908."},
 
     {type:"mc", q:"What is a 鍋(なべ)?",
-     opts:["pot / hot pot","knife","pan","bowl"], ans:"pot / hot pot",
+     opts:["knife","pan","bowl","pot / hot pot"], ans:"pot / hot pot",
      hint:"Both a cooking vessel and a popular winter group meal in Japan."}
   ,{type:"match",pairs:[{trg:"焼(や)く",src:"to grill / to bake / to roast"},{trg:"切(き)る",src:"to cut"},{trg:"鍋(なべ)",src:"pot / saucepan"},{trg:"フライパン",src:"frying pan"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まな板(いた)",src:"cutting board"}]},{type:"match",pairs:[{trg:"味(あじ)",src:"flavor / taste"},{trg:"味噌(みそ)",src:"miso (fermented soybean paste)"}]},
   {type:"fb", s:"とんかつを作(つく)るには油(あぶら)で肉(にく)を{1}ます。", a:["揚(あ)げる"], opts:["揚(あ)げる","焼(や)く","煮(に)る","蒸(む)す"], hint:"The cooking method that submerges food in hot oil until crispy.", sSrc:"To make tonkatsu, you {1} the meat in oil."}

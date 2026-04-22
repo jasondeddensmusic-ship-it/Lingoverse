@@ -1,4 +1,4 @@
-// Batch 7 — Unit 21 extra lesson. Il condizionale: Giving Advice & Suggestions
+// Batch 7. Unit 21 extra lesson. Il condizionale: Giving Advice & Suggestions
 const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\u{1F4A1}", xp:15, board:true, steps:[
 {type:"intro", title:"Consigli e suggerimenti",
  desc:"Learn how to give advice, make suggestions, and express polite recommendations using the conditional mood.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\
 ]},
 
 {type:"mc", q:"Che cosa significa 'nero su bianco'?",
- opts:["In writing / clearly documented","In black and white photos","Dark and light","Serious and funny"],
+ opts:["Serious and funny","In writing / clearly documented","In black and white photos","Dark and light"],
  ans:"In writing / clearly documented",
  hint:"Having something written down officially, not just spoken."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u21l_b7_1", title:"Consigli e suggerimenti", icon:"\
  sSrc:"{1} than driving, I would take the train."},
 
 {type:"mc", q:"Quale forma verbale si usa per dare consigli educati?",
- opts:["Il condizionale","L'imperativo","Il congiuntivo","L'indicativo"],
+ opts:["Il congiuntivo","L'indicativo","Il condizionale","L'imperativo"],
  ans:"Il condizionale",
  hint:"The mood that softens commands into polite suggestions. 'I would...'"},
 

@@ -1,4 +1,4 @@
-// L19: Descriptions & Judgments — 20 B2 gap words
+// L19: Descriptions & Judgments, 20 B2 gap words
 const LESSON_19 = {
   id:"nlv2_b2gap_l19", title:"Beschrijven en Beoordelen", icon:"\uD83D\uDCDD", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_19 = {
      deepDive:{title:"Dutch opinion language",
       text:"The Dutch are famously direct, but their opinion language has subtle gradations:\n\nPositive: goed > heel goed > uitstekend > fantastisch\nNegative: matig > slecht > verschrikkelijk > afgrijselijk\nNeutral: redelijk, behoorlijk, acceptabel\n\nDutch understatement:\n'Niet gek' = actually quite good\n'Kan beter' = pretty bad\n'Valt mee' = better than expected\n'Valt tegen' = worse than expected\n\n'Nou ja' (well...) before an opinion signals disagreement is coming."}},
     {type:"mc", q:"'Aller-' before a superlative means:",
-     opts:["less than","of all / the very most","somewhat","not at all"],
+     opts:["of all / the very most","somewhat","not at all","less than"],
      ans:"of all / the very most",
      hint:"It creates an absolute superlative: allergrootst = the very greatest of all."},
     {type:"mc", q:"Why should you avoid using 'achterlijk' about people?",
@@ -132,7 +132,7 @@ const LESSON_19 = {
       {trg:"boud", src:"bold/audacious"}
     ]},
     {type:"mc", q:"'Goedaardig' and 'kwaadaardig' in Dutch medicine mean:",
-     opts:["good and bad behavior","benign and malignant","high and low quality","fast and slow"],
+     opts:["fast and slow","good and bad behavior","benign and malignant","high and low quality"],
      ans:"benign and malignant",
      hint:"Used for tumor types: one is harmless, the other is cancerous."},
     {type:"fb", s:"Heb je de {1} bij het contract gelezen?", a:["bijlage"],

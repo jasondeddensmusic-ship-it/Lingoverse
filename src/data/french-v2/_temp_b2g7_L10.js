@@ -80,7 +80,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Ou reposent les depouilles des grands Francais comme Victor Hugo ?",
-     opts:["au Pantheon","au Louvre","a Versailles","a Notre-Dame"],
+     opts:["a Notre-Dame","au Pantheon","au Louvre","a Versailles"],
      ans:"au Pantheon",
      hint:"This building in Paris's Latin Quarter was built as a church but became a secular mausoleum."},
 
@@ -113,7 +113,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Attention au genre ! Quel est le genre de 'moule' quand il designe un recipient pour gateaux ?",
-     opts:["masculin","feminin","les deux","neutre"],
+     opts:["les deux","neutre","masculin","feminin"],
      ans:"masculin",
      hint:"'Le moule' is the container for shaping. 'La moule' is the shellfish. Different genders!"},
 

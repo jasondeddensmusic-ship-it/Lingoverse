@@ -40,7 +40,7 @@ const LESSON_35 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'시민'의 원래 한자 뜻은?",
-     opts:["나라 사람","도시 사람","농촌 사람","바다 사람"],
+     opts:["도시 사람","농촌 사람","바다 사람","나라 사람"],
      ans:"도시 사람",
      hint:"The first hanja character means 'city' or 'market.' Combined with 'people,' it originally described urban residents before expanding to mean citizen in general."},
 
@@ -196,7 +196,7 @@ const LESSON_35 = {
     // --- Final quiz ---
     {type:"mc",
      q:"'식구'의 한자 뜻은?",
-     opts:["집 사람","같이 사는 사람","먹는 입","가까운 사람"],
+     opts:["가까운 사람","집 사람","같이 사는 사람","먹는 입"],
      ans:"먹는 입",
      hint:"The two hanja characters mean 'eat' and 'mouth.' The word comes from the idea that family members are the people who share meals together."},
 

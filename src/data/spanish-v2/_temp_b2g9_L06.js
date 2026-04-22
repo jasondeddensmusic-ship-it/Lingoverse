@@ -1,4 +1,4 @@
-// Lesson 6 — Cualidades y defectos (Qualities and Flaws)
+// Lesson 6. Cualidades y defectos (Qualities and Flaws)
 const LESSON_6 = {id:"esv2_b2g9_l6", title:"Cualidades y defectos", icon:"\u{1F3AD}", xp:25, board:true, steps:[
   {type:"intro", title:"Cualidades y defectos",
    desc:"Describe character traits with precision. From heroism to incompetence, these abstract nouns and adjectives let you discuss human nature at a B2 level.",
@@ -35,7 +35,7 @@ const LESSON_6 = {id:"esv2_b2g9_l6", title:"Cualidades y defectos", icon:"\u{1F3
    funFact:"Spanish has a rich vocabulary for emotions: infelicidad, desdicha, tristeza, pena, and desgracia all convey shades of unhappiness."},
 
   {type:"mc", q:"\u00bfQu\u00e9 significa 'impulsividad'?",
-   opts:["Actuar con calma y reflexi\u00f3n","Actuar sin pensar en las consecuencias","Ser muy lento","Tener mucha paciencia"],
+   opts:["Actuar sin pensar en las consecuencias","Ser muy lento","Tener mucha paciencia","Actuar con calma y reflexi\u00f3n"],
    ans:"Actuar sin pensar en las consecuencias",
    hint:"An impulsive person acts first, thinks later. This noun describes that trait."},
 
@@ -87,7 +87,7 @@ const LESSON_6 = {id:"esv2_b2g9_l6", title:"Cualidades y defectos", icon:"\u{1F3
   ]},
 
   {type:"mc", q:"\u00bfCu\u00e1l de estas palabras describe una cualidad positiva?",
-   opts:["incompetencia","mediocridad","heroicidad","indisciplina"],
+   opts:["mediocridad","heroicidad","indisciplina","incompetencia"],
    ans:"heroicidad",
    hint:"Only one of these four words describes something admirable and brave."},
 

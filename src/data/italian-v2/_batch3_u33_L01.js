@@ -1,4 +1,4 @@
-// Batch 3 — Unit 33 Lesson (Philosophy: Ethics & Political Philosophy)
+// Batch 3. Unit 33 Lesson (Philosophy: Ethics & Political Philosophy)
 const BATCH3_L_1 = {
   id:"itv2_u33l_b3_1", title:"Etica e filosofia politica", icon:"⚖️", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Quale filosofo italiano anticipo il pensiero utilitarista decenni prima di Bentham?",
-     opts:["Machiavelli","Gramsci","Beccaria","Croce"],
+     opts:["Beccaria","Croce","Machiavelli","Gramsci"],
      ans:"Beccaria",
      hint:"His 1764 work on crimes and punishments argued for the greatest happiness for the greatest number, anticipating British utilitarianism."},
 
@@ -108,10 +108,10 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e il 'pensiero debole' proposto dal filosofo italiano Gianni Vattimo?",
-     opts:["Una critica alla debolezza intellettuale della cultura contemporanea","Una forma di nichilismo positivo che accetta l'assenza di verita assolute","Un metodo di studio basato sulla lettura superficiale dei testi filosofici","Una teoria economica sulla fragilita dei mercati finanziari globali"],
+     opts:["Una teoria economica sulla fragilita dei mercati finanziari globali","Una critica alla debolezza intellettuale della cultura contemporanea","Una forma di nichilismo positivo che accetta l'assenza di verita assolute","Un metodo di studio basato sulla lettura superficiale dei testi filosofici"],
      ans:"Una forma di nichilismo positivo che accetta l'assenza di verita assolute",
      hint:"This Italian philosopher proposed that accepting no absolute truths can lead to tolerance and openness. A positive interpretation of nihilism."}
-  ,{type:"match",pairs:[{trg:"il determinismo",src:"determinism"},{trg:"la democrazia",src:"democracy"},{trg:"il pragmatismo",src:"pragmatism"},{trg:"il nichilismo",src:"nihilism"}]},{type:"mc",q:"How do you say \"utilitarianism\" in Italian?",opts:["la finestra","l'utilitarismo","il tavolo","la bicicletta"],ans:"l'utilitarismo",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il determinismo",src:"determinism"},{trg:"la democrazia",src:"democracy"},{trg:"il pragmatismo",src:"pragmatism"},{trg:"il nichilismo",src:"nihilism"}]},{type:"mc",q:"How do you say \"utilitarianism\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'utilitarismo"],ans:"l'utilitarismo",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Un giudice deve affrontare ogni {1} etico con cura.",a:["dilemma etico"],opts:["dilemma etico","utilitarismo","nichilismo","pragmatismo"],hint:"A situation with no clearly right answer, requiring careful moral reasoning.",sSrc:"A judge must approach every ethical {1} carefully."}]
 };
 export default BATCH3_L_1;

@@ -55,7 +55,7 @@ const BATCH9_L1 = {
       {trg:"結果(けっか)", src:"result"},
       {trg:"原因(げんいん)", src:"cause"}
     ]},
-    {type:"mc", q:"What is Toyota's なぜなぜぶんせき?", opts:["Asking 'why' 5 times to find root cause","A financial analysis method","A hiring process","A quality inspection"], ans:"Asking 'why' 5 times to find root cause",
+    {type:"mc", q:"What is Toyota's なぜなぜぶんせき?", opts:["A quality inspection","Asking 'why' 5 times to find root cause","A financial analysis method","A hiring process"], ans:"Asking 'why' 5 times to find root cause",
      hint:"This problem-solving methodology has been adopted worldwide for finding the true げんいん of issues."}
   ,{type:"match",pairs:[{trg:"もしも",src:"if / what if / suppose"},{trg:"間違(まちが)える",src:"to make a mistake / to get wrong"},{trg:"選(えら)ぶ",src:"to choose / to select"},{trg:"代(か)わりに",src:"instead of / in exchange for"}]}]
 };

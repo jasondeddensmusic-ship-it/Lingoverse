@@ -101,7 +101,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"인터넷에서 정보를 검색하는 것을 뭐라고 해요?",
-     opts:["찾아가다","찾아보다","찾아내다","찾아오다"],
+     opts:["찾아보다","찾아내다","찾아오다","찾아가다"],
      ans:"찾아보다",
      hint:"This compound verb means to look something up, like searching on the internet."},
 

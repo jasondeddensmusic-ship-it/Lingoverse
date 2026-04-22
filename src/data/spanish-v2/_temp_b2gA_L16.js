@@ -1,4 +1,4 @@
-// Lesson 16 — Deportes y ocio
+// Lesson 16. Deportes y ocio
 const LESSON_16 = {id:"esv2_b2gA_l16", title:"Deportes y ocio", icon:"⚽", xp:15, board:true, steps:[
 {type:"intro", title:"Deportes y ocio", desc:"Discuss sports, leisure activities, and competition with specialized B2 vocabulary.", goals:["Learn 15 sports and leisure terms","Discuss athletic events and hobbies","Use sports vocabulary naturally"]},
 
@@ -57,7 +57,7 @@ const LESSON_16 = {id:"esv2_b2gA_l16", title:"Deportes y ocio", icon:"⚽", xp:1
  exampleSrc:"A: The multimillionaire donated ten million to research.\nB: His foundation supports scientific projects.",
  funFact:"Spain's richest person is Amancio Ortega, founder of Zara, worth over 80 billion euros."},
 
-{type:"mc", q:"¿Cuál es la connotación de 'mirón'?", opts:["Ligeramente negativa: alguien que mira sin participar","Muy positiva: un gran observador","Neutral: un espectador normal","Formal: un investigador"], ans:"Ligeramente negativa: alguien que mira sin participar",
+{type:"mc", q:"¿Cuál es la connotación de 'mirón'?", opts:["Formal: un investigador","Ligeramente negativa: alguien que mira sin participar","Muy positiva: un gran observador","Neutral: un espectador normal"], ans:"Ligeramente negativa: alguien que mira sin participar",
  hint:"The -on suffix often adds a sense of excess. Someone who watches too much."},
 
 {type:"fb", s:"El {1} muestra empate a cero en el descanso.", a:["marcador"], opts:["marcador","mediocampo","motocross","mirón"],
@@ -94,7 +94,7 @@ const LESSON_16 = {id:"esv2_b2gA_l16", title:"Deportes y ocio", icon:"⚽", xp:1
  hint:"This word means 'as a young man'. It describes youth and vigor.",
  sSrc:"As a {1} he worked as a waiter to pay for his studies."},
 
-{type:"mc", q:"¿Qué significa 'hacer una cobra' en argot español?", opts:["Esquivar un beso en la mejilla","Bailar como una serpiente","Enfadarse mucho","Correr muy rápido"], ans:"Esquivar un beso en la mejilla",
+{type:"mc", q:"¿Qué significa 'hacer una cobra' en argot español?", opts:["Enfadarse mucho","Correr muy rápido","Esquivar un beso en la mejilla","Bailar como una serpiente"], ans:"Esquivar un beso en la mejilla",
  hint:"The cobra 'dodges' by pulling its head back. Apply that to a social greeting."},
 
 {type:"drag_fill", s:"El {1} del equipo controla el {2} con maestría.", blanks:{"1":"centrocampista","2":"mediocampo"}, pool:["centrocampista","mediocampo","marcador","motocross"],

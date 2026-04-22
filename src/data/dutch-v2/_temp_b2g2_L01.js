@@ -1,4 +1,4 @@
-// L01: Recommendations & Advice — 20 B2 gap words
+// L01: Recommendations & Advice, 20 B2 gap words
 const LESSON_1 = {
   id:"nlv2_b2g2_l1", title:"Aanbevelingen en Advies", icon:"\uD83D\uDCDD", xp:15, board:true,
   steps:[
@@ -131,7 +131,7 @@ const LESSON_1 = {
      sSrc:"This report is a {1} to the previous study."},
     {type:"mc",
      q:"Wie is aansprakelijk voor de schade aan het gebouw?",
-     opts:["De aannemer die het bouwde","De bewoner van het pand","De postbode die langskwam","De buurman die toekeek"],
+     opts:["De buurman die toekeek","De aannemer die het bouwde","De bewoner van het pand","De postbode die langskwam"],
      ans:"De aannemer die het bouwde",
      hint:"This word relates to legal liability. Who constructed the building?"},
     {type:"match", pairs:[
@@ -149,7 +149,7 @@ const LESSON_1 = {
      sSrc:"The {1} for next year leaves little room for extra spending."},
     {type:"mc",
      q:"Wat betekent 'bevattelijk'?",
-     opts:["Gemakkelijk te begrijpen","Moeilijk te geloven","Onmogelijk te bereiken","Lastig te onthouden"],
+     opts:["Onmogelijk te bereiken","Lastig te onthouden","Gemakkelijk te begrijpen","Moeilijk te geloven"],
      ans:"Gemakkelijk te begrijpen",
      hint:"From the verb 'bevatten' meaning to comprehend. The suffix '-elijk' makes it an adjective."}
   ]

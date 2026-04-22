@@ -1,4 +1,4 @@
-// Lesson 16 — Emotions & Psychology
+// Lesson 16. Emotions & Psychology
 const LESSON_16 = {id:"nlv2_b2g8_l16", title:"Emoties en Psychologie", icon:"\u{1F9E0}", xp:20, board:true, steps:[
 {type:"intro", title:"Emoties en Psychologie", desc:"Vocabulary for discussing emotions, mental states, and psychological concepts in Dutch. Essential for expressing complex feelings and understanding personal narratives.", goals:["Learn 10 emotion and psychology words","Discuss mental states and well-being","Express complex feelings in Dutch"]},
 {type:"teach", trg:"de gemoedstoestand", src:"the state of mind", pos:"noun", gender:"c", note:"COMPOUND: gemoed (mind/mood) + toestand (state).\nDe-word. 'In een goede gemoedstoestand.'\nFormal/literary register.", example:"A: Hoe is je gemoedstoestand?\nB: Wisselend, eerlijk gezegd.\nA: Heb je ergens zorgen over?\nB: Het werk is erg stressvol.", exampleSrc:"A: How is your state of mind?\nB: Variable, to be honest.\nA: Are you worried about something?\nB: Work is very stressful.", funFact:"'Gemoed' is a beautiful Dutch word without a perfect English equivalent. It means the emotional core of a person, the 'inner mood'."},

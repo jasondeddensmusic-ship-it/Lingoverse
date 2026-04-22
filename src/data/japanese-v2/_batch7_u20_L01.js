@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Thank you for always {1}."},
 
     {type:"mc", q:"おもてなし became globally famous through:",
-     opts:["Tokyo's 2020 Olympics bid presentation","A TV drama","A restaurant chain","A government campaign"],
+     opts:["A government campaign","Tokyo's 2020 Olympics bid presentation","A TV drama","A restaurant chain"],
      ans:"Tokyo's 2020 Olympics bid presentation",
      hint:"This word was used to describe Japan's hospitality culture in a famous international p...."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"Are these clothes {1} for the ceremony?"},
 
     {type:"mc", q:"謙虚(けんきょ) means:",
-     opts:["Humble and modest","Confident and bold","Quiet and shy","Angry and frustrated"],
+     opts:["Quiet and shy","Angry and frustrated","Humble and modest","Confident and bold"],
      ans:"Humble and modest",
      hint:"The most admired personality trait in Japan. Even successful people are expected to show this quality."},
 

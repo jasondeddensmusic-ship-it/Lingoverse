@@ -92,7 +92,7 @@ const LESSON_18 = {id:"frv2_b1gap_l18", title:"Observer et percevoir", icon:"\u{
 
 {type:"mc",
  q:"Quel mot désigne le premier moment de lumière le matin ?",
- opts:["l'aube","l'audience","l'audace","l'attente"],
+ opts:["l'attente","l'aube","l'audience","l'audace"],
  ans:"l'aube",
  hint:"This poetic word is preferred in literature over 'lever du jour.' Think of poets watching sunrise."},
 
@@ -137,7 +137,7 @@ const LESSON_18 = {id:"frv2_b1gap_l18", title:"Observer et percevoir", icon:"\u{
 
 {type:"mc",
  q:"Quel adjectif décrit un chef qui impose son pouvoir de façon excessive ?",
- opts:["autoritaire","attentif","artificiel","autonome"],
+ opts:["artificiel","autonome","autoritaire","attentif"],
  ans:"autoritaire",
  hint:"This adjective has a negative connotation in most contexts. Think of a boss who doesn't listen."}
 

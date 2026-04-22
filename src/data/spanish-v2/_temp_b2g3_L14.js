@@ -32,13 +32,13 @@ const LESSON_14 = {id:"esv2_b2g3_l14", title:"Verbos: deshacer y quitar", icon:"
 
   {type:"teach", trg:"desenvolver", src:"to unwrap / to develop", pos:"verb", gender:null, note:"Des- + envolver (to wrap). To unwrap a package.\nDesenvolvimiento = development.", example:"A: El niño desenvolvió el regalo con mucha ilusión.\nB: Se puso muy contento al ver el juguete.", exampleSrc:"A: The child unwrapped the gift with great excitement.\nB: He was very happy when he saw the toy.", funFact:"Desenvolverse also means to manage or cope: se desenvuelve bien en inglés = she manages well in English. To 'unwrap' your abilities."},
 
-  {type:"mc", q:"El río Guadalquivir desemboca en...", opts:["El océano Atlántico","El mar Mediterráneo","El mar Cantábrico","El río Ebro"], ans:"El océano Atlántico", hint:"This major Andalusian river flows through Córdoba and Seville before reaching the Atlantic."},
+  {type:"mc", q:"El río Guadalquivir desemboca en...", opts:["El río Ebro","El océano Atlántico","El mar Mediterráneo","El mar Cantábrico"], ans:"El océano Atlántico", hint:"This major Andalusian river flows through Córdoba and Seville before reaching the Atlantic."},
 
   {type:"match", pairs:[{trg:"desabrochar", src:"to unbutton"},{trg:"destapar", src:"to uncover"},{trg:"desvelar", src:"to reveal"},{trg:"descartar", src:"to rule out"},{trg:"desplegar", src:"to unfold / deploy"}]},
 
   {type:"fb", s:"La policía {1} a los manifestantes con gases lacrimógenos.", a:["dispersó"], opts:["dispersó","desplegó","descartó","despejó"], hint:"To cause a crowd to break apart and scatter in different directions.", sSrc:"The police {1} the protesters with tear gas."},
 
-  {type:"mc", q:"'Desvelar un secreto' significa...", opts:["Revelar algo oculto","Olvidar un secreto","Guardar un secreto","Inventar un secreto"], ans:"Revelar algo oculto", hint:"Des- removes the veil (velo). To take the veil off something hidden means to make it known."},
+  {type:"mc", q:"'Desvelar un secreto' significa...", opts:["Guardar un secreto","Inventar un secreto","Revelar algo oculto","Olvidar un secreto"], ans:"Revelar algo oculto", hint:"Des- removes the veil (velo). To take the veil off something hidden means to make it known."},
 
   {type:"fb", s:"Hemos {1} esa posibilidad porque no es viable económicamente.", a:["descartado"], opts:["descartado","despejado","desplegado","desembocado"], hint:"To eliminate an option from consideration, like discarding a card in a game.", sSrc:"We have {1} that possibility because it's not economically viable."}
 ]};

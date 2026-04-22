@@ -1,4 +1,4 @@
-// Batch 7 — Unit 33 extra lesson. La filosofia: Logic & Argumentation
+// Batch 7. Unit 33 extra lesson. La filosofia: Logic & Argumentation
 const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", icon:"\u{1F9E0}", xp:15, board:true, steps:[
 {type:"intro", title:"La logica e l'argomentazione",
  desc:"Learn vocabulary for logical reasoning, argumentation, and constructing persuasive discourse.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", ic
 ]},
 
 {type:"mc", q:"Che cosa significa 'confutare'?",
- opts:["To refute / disprove","To confirm","To ignore","To accept"],
+ opts:["To accept","To refute / disprove","To confirm","To ignore"],
  ans:"To refute / disprove",
  hint:"The scholarly verb for systematically destroying an argument with evidence."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u33l_b7_1", title:"La logica e l'argomentazione", ic
  sSrc:"I {1} that education is the solution."},
 
 {type:"mc", q:"In diritto italiano, cosa permette il 'ragionamento per analogia'?",
- opts:["Applying laws to uncovered cases by similarity","Creating new laws","Ignoring existing laws","Contradicting judges"],
+ opts:["Ignoring existing laws","Contradicting judges","Applying laws to uncovered cases by similarity","Creating new laws"],
  ans:"Applying laws to uncovered cases by similarity",
  hint:"When a specific case is not covered, similar existing rules can be applied."},
 

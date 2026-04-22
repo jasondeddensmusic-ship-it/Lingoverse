@@ -84,7 +84,7 @@ const LESSON_15 = {id:"esv2_b2g4_l15",title:"Derecho y gobernanza",icon:"⚖️"
  exampleSrc:"A: There are fifty applicants for a single teaching position.\nB: The competition is very high.",
  funFact:"In Spain, 'oposiciones' (competitive exams for public jobs) attract thousands of aspirantes each year."},
 
-{type:"mc",q:"Un ERE afecta principalmente a:",opts:["Trabajadores despedidos de forma colectiva","Estudiantes universitarios","Jubilados que cobran pensión","Políticos en campaña electoral"],ans:"Trabajadores despedidos de forma colectiva",hint:"Think about a legal procedure companies use when they need to lay off many employees at once."},
+{type:"mc",q:"Un ERE afecta principalmente a:",opts:["Políticos en campaña electoral","Trabajadores despedidos de forma colectiva","Estudiantes universitarios","Jubilados que cobran pensión"],ans:"Trabajadores despedidos de forma colectiva",hint:"Think about a legal procedure companies use when they need to lay off many employees at once."},
 
 {type:"fb",s:"Su mayor {1} es convertirse en abogada de derechos humanos.",a:["aspiración"],opts:["aspiración","constatación","aprobación","expropiación"],hint:"A strong desire or ambition to achieve something important.",sSrc:"Her greatest {1} is to become a human rights lawyer."},
 

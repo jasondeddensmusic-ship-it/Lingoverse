@@ -92,7 +92,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Que signifie 'crible de dettes' ?",
-     opts:["couvert de dettes","libre de dettes","proche de la faillite","en train de rembourser"],
+     opts:["en train de rembourser","couvert de dettes","libre de dettes","proche de la faillite"],
      ans:"couvert de dettes",
      hint:"Full of debts, like a sieve full of holes. A vivid financial metaphor."},
 
@@ -137,7 +137,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel processus consiste a retirer l'amiante d'un batiment ?",
-     opts:["le desamiantage","le deblaiement","la desaffectation","le coulissage"],
+     opts:["la desaffectation","le coulissage","le desamiantage","le deblaiement"],
      ans:"le desamiantage",
      hint:"Removing a dangerous mineral fiber from buildings. Think of 'amiante' (asbestos)."},
 

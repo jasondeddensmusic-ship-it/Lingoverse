@@ -24,7 +24,7 @@ const LESSON_5 = {
      exampleSrc:"A: Several factors are necessary for success.\nB: For example, what kind of factors?\nA: How much do you know about that field?\nB: It is not my specialty, but I have basic knowledge.\nA: If I want to know more in detail, what should I do?\nB: I recommend consulting a specialist or reading related books.",
      funFact:"要素 uses 要 (essential) and 素 (element). Commentators break complex events into their ようそ to make them understandable. The word appears in every analytical discussion: けいざいてきようそ (economic factors), しゃかいてきようそ (social factors), しんりてきようそ (psychological factors)."},
 
-    {type:"mc", q:"はいけいにある means:", opts:["To be in the foreground","To be irrelevant","To be well-known","To exist as the underlying context"], ans:"To exist as the underlying context",
+    {type:"mc", q:"はいけいにある means:", opts:["To exist as the underlying context","To be in the foreground","To be irrelevant","To be well-known"], ans:"To exist as the underlying context",
      hint:"はいけい is the scenery behind an event, and にある means to e... there."},
 
     {type:"teach", trg:"みとおし", src:"outlook / forecast / prospect", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_5 = {
      exampleSrc:"A: The investigation results have been announced.\nB: What were the results?\nA: What kinds of methods are there?\nB: There are several options. The most effective is practice.\nA: What specifically should we do in practice?\nB: It is important to work on it a little each day.",
      funFact:"調査 uses 調 (investigate/tune) and 査 (inspect). The word covers everything from police investigations to market research to academic surveys. Japanese media loves citing ちょうさ results. The phrases ちょうさによると (according to a survey) and ちょうさでわかった (it was found through investigation) are editorial staples."},
 
-    {type:"mc", q:"げんいんとけっか describes:", opts:["The relationship where one thing leads to another","A type of news report","A commentary structure","An editorial opinion"], ans:"The relationship where one thing leads to another",
+    {type:"mc", q:"げんいんとけっか describes:", opts:["An editorial opinion","The relationship where one thing leads to another","A type of news report","A commentary structure"], ans:"The relationship where one thing leads to another",
      hint:"げんいん (origin/source) and けっか (outcome) describe what produces what."},
 
     {type:"teach", trg:"しんちょう", src:"cautious / prudent / careful", pos:"adj", gender:null,

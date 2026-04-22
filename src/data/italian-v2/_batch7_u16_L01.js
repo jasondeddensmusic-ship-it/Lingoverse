@@ -1,4 +1,4 @@
-// Batch 7 — Unit 16 extra lesson. La salute avanzata: Nutrition & Diet
+// Batch 7. Unit 16 extra lesson. La salute avanzata: Nutrition & Diet
 const BATCH7_L1 = {id:"itv2_u16l_b7_1", title:"L'alimentazione", icon:"\u{1F957}", xp:15, board:true, steps:[
 {type:"intro", title:"L'alimentazione",
  desc:"Learn vocabulary about nutrition, dietary habits, and healthy eating in Italian culture.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u16l_b7_1", title:"L'alimentazione", icon:"\u{1F957}
 ]},
 
 {type:"mc", q:"Che cosa significa 'peso forma'?",
- opts:["Ideal weight","Heavy weight","Underweight","Overweight"],
+ opts:["Overweight","Ideal weight","Heavy weight","Underweight"],
  ans:"Ideal weight",
  hint:"The healthy target w... for your height. A common Italian health concept."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u16l_b7_1", title:"L'alimentazione", icon:"\u{1F957}
  sSrc:"A {1} diet is fundamental."},
 
 {type:"mc", q:"Quale minerale ha lo stesso nome dello sport più popolare in Italia?",
- opts:["il calcio (calcium)","il ferro (iron)","lo zinco (zinc)","il sodio (sodium)"],
+ opts:["lo zinco (zinc)","il sodio (sodium)","il calcio (calcium)","il ferro (iron)"],
  ans:"il calcio (calcium)",
  hint:"This mineral shares its name with the Italian word for football."},
 

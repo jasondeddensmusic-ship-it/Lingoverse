@@ -1,4 +1,4 @@
-// Spanish V2 Unit 35 — B1 Vocabulary Expansion
+// Spanish V2 Unit 35. B1 Vocabulary Expansion
 import L01 from './_temp_b1gap_L01.js';
 import L02 from './_temp_b1gap_L02.js';
 import L03 from './_temp_b1gap_L03.js';

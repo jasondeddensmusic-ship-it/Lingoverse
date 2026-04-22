@@ -1,4 +1,4 @@
-// Lesson 2 — Pensamiento abstracto
+// Lesson 2. Pensamiento abstracto
 const LESSON_2 = {id:"esv2_b2gA_l2", title:"Pensamiento abstracto", icon:"💭", xp:15, board:true, steps:[
 {type:"intro", title:"Pensamiento abstracto", desc:"Develop vocabulary for discussing abstract concepts, reasoning, and intellectual processes.", goals:["Learn 15 abstract nouns and verbs","Express complex ideas precisely","Navigate academic register"]},
 
@@ -57,7 +57,7 @@ const LESSON_2 = {id:"esv2_b2gA_l2", title:"Pensamiento abstracto", icon:"💭",
  exampleSrc:"A: What is your greatest professional aspiration?\nB: My aspiration is to run my own company.",
  funFact:"In phonetics, aspiración refers to the puff of air with certain consonants."},
 
-{type:"mc", q:"¿Qué es una metodología?", opts:["Un sistema de métodos para investigar","Un tipo de examen universitario","Una clase de filosofía","Un libro de texto"], ans:"Un sistema de métodos para investigar",
+{type:"mc", q:"¿Qué es una metodología?", opts:["Un libro de texto","Un sistema de métodos para investigar","Un tipo de examen universitario","Una clase de filosofía"], ans:"Un sistema de métodos para investigar",
  hint:"Think about the Greek roots: method + study/science."},
 
 {type:"fb", s:"La {1} entre profesor y alumno es clave para el aprendizaje.", a:["interacción"], opts:["interacción","exageración","aspiración","definición"],
@@ -94,7 +94,7 @@ const LESSON_2 = {id:"esv2_b2gA_l2", title:"Pensamiento abstracto", icon:"💭",
  hint:"This word describes a critical turning point or change in direction.",
  sSrc:"His speech marked a turning {1} in the electoral campaign."},
 
-{type:"mc", q:"¿Qué indica una 'mención honorífica'?", opts:["Un reconocimiento especial sin ser el primer premio","El primer premio del concurso","Un castigo leve","Una queja formal"], ans:"Un reconocimiento especial sin ser el primer premio",
+{type:"mc", q:"¿Qué indica una 'mención honorífica'?", opts:["Un castigo leve","Una queja formal","Un reconocimiento especial sin ser el primer premio","El primer premio del concurso"], ans:"Un reconocimiento especial sin ser el primer premio",
  hint:"It's an award that recognizes quality without being the top prize."},
 
 {type:"teach", trg:"el indicio", src:"the indication / clue", pos:"noun", gender:"m",
@@ -110,7 +110,7 @@ const LESSON_2 = {id:"esv2_b2gA_l2", title:"Pensamiento abstracto", icon:"💭",
 {type:"drag_fill", s:"La {1} de este estudio sigue una {2} rigurosa.", blanks:{"1":"definición","2":"metodología"}, pool:["definición","metodología","exageración","imposición"],
  hint:"The study's scope follows a strict system of methods."},
 
-{type:"mc", q:"¿Cuál es sinónimo de 'aspiración'?", opts:["Ambición","Exageración","Imposición","Consistencia"], ans:"Ambición",
+{type:"mc", q:"¿Cuál es sinónimo de 'aspiración'?", opts:["Exageración","Imposición","Consistencia","Ambición"], ans:"Ambición",
  hint:"Both words refer to a strong desire to achieve something great."},
 
 {type:"match", pairs:[

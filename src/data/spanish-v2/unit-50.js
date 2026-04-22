@@ -1,4 +1,4 @@
-// Spanish V2 Unit 50 — B2 Vocabulary Batch 3
+// Spanish V2 Unit 50. B2 Vocabulary Batch 3
 import L16 from './_temp_b2g3_L16.js';
 import L17 from './_temp_b2g3_L17.js';
 import L18 from './_temp_b2g3_L18.js';

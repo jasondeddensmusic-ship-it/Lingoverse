@@ -90,7 +90,7 @@ const LESSON_2 = {id:"esv2_b2g5_l2",title:"Negocios y comercio",icon:"💼",xp:1
  exampleSrc:"A: This film is a Spanish-French co-production.\nB: That's why it has actors from both countries.",
  funFact:"Spain has co-production treaties with over 20 countries, making it a hub for international filmmaking."},
 
-{type:"mc",q:"¿Qué es un gravamen?",opts:["Un impuesto o carga fiscal","Un tipo de contrato laboral","Una reunión de negocios","Un aumento de precio"],ans:"Un impuesto o carga fiscal",hint:"A formal word for a burden or charge placed on property or goods by the government."},
+{type:"mc",q:"¿Qué es un gravamen?",opts:["Un aumento de precio","Un impuesto o carga fiscal","Un tipo de contrato laboral","Una reunión de negocios"],ans:"Un impuesto o carga fiscal",hint:"A formal word for a burden or charge placed on property or goods by the government."},
 
 {type:"fb",s:"El {1} colectivo establece las condiciones laborales del sector.",a:["convenio"],opts:["convenio","gravamen","fraude","autoservicio"],hint:"A formal agreement negotiated between workers' unions and employers.",sSrc:"The collective {1} establishes the working conditions for the sector."},
 
@@ -98,7 +98,7 @@ const LESSON_2 = {id:"esv2_b2g5_l2",title:"Negocios y comercio",icon:"💼",xp:1
 
 {type:"fb",s:"El lanzamiento fue un {1} porque nadie compró el producto.",a:["fiasco"],opts:["fiasco","fraude","gravamen","convenio"],hint:"A word for a complete and embarrassing failure, borrowed from Italian.",sSrc:"The launch was a {1} because nobody bought the product."},
 
-{type:"mc",q:"¿Qué es una contraprestación?",opts:["Algo que se da a cambio de un servicio","Un tipo de fraude comercial","Una queja formal al director","Un aumento de sueldo anual"],ans:"Algo que se da a cambio de un servicio",hint:"In a contract, both sides must give something. This word describes what is given in return."}
+{type:"mc",q:"¿Qué es una contraprestación?",opts:["Una queja formal al director","Un aumento de sueldo anual","Algo que se da a cambio de un servicio","Un tipo de fraude comercial"],ans:"Algo que se da a cambio de un servicio",hint:"In a contract, both sides must give something. This word describes what is given in return."}
 ]};
 
 export default LESSON_2;

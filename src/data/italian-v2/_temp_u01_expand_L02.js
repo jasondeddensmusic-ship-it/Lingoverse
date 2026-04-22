@@ -93,7 +93,7 @@ const LESSON_4 = {
      sSrc:"I am {1} for the delay."},
 
     {type:"mc", q:"How should you respond to 'In bocca al lupo'?",
-     opts:["Crepi!","Grazie!","Prego!","Salute!"],
+     opts:["Salute!","Crepi!","Grazie!","Prego!"],
      ans:"Crepi!",
      hint:"The traditional response literally means 'may it die.' Saying 'grazie' instead would be considered bad luck."},
 
@@ -112,7 +112,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"What does 'non c'e di che' literally mean?",
-     opts:["There is nothing for which (to thank)","It is nothing","Do not worry","You are welcome"],
+     opts:["Do not worry","You are welcome","There is nothing for which (to thank)","It is nothing"],
      ans:"There is nothing for which (to thank)",
      hint:"A three-part expression: negation + existence verb + a relative phrase. Together it makes a modest, gracious dismissal of gratitude."},
 
@@ -123,7 +123,7 @@ const LESSON_4 = {
      sSrc:"Today is my birthday! Happy {1}!"},
 
     {type:"mc", q:"What do you say when someone sneezes in Italy?",
-     opts:["Salute!","Auguri!","Cin cin!","Complimenti!"],
+     opts:["Auguri!","Cin cin!","Complimenti!","Salute!"],
      ans:"Salute!",
      hint:"This word means 'health.' It works both as a sneeze response and as a drinking toast."},
 
@@ -133,7 +133,7 @@ const LESSON_4 = {
      hint:"This expression entered Italian from Chinese traders via Portuguese sailors. Always maintain eye contact."},
 
     {type:"mc", q:"When is 'mi dispiace' used instead of 'scusa'?",
-     opts:["For genuine apologies or sympathy","For small accidents","When passing someone","When ordering food"],
+     opts:["When ordering food","For genuine apologies or sympathy","For small accidents","When passing someone"],
      ans:"For genuine apologies or sympathy",
      hint:"This phrase expresses deeper regret. 'Scusa' is casual; this one is for real sorrow or condolence."}
   ]

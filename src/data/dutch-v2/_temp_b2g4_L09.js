@@ -1,4 +1,4 @@
-// L09: Politics & Governance — 20 B2 gap words
+// L09: Politics & Governance, 20 B2 gap words
 const LESSON_9 = {
   id:"nlv2_b2g4_l9", title:"Politiek en Bestuur", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_9 = {
      deepDive:{title:"The Dutch coalition system",
       text:"The Netherlands has never had a single-party government. Every cabinet is a coalition of 2-4 parties. Formation talks after elections can take months. The 'informateur' and 'formateur' guide the process. This system forces compromise and consensus, reflecting the polder model. It also means Dutch voters are used to parties not fully delivering their promises."}},
     {type:"mc", q:"In Dutch, what does 'collaboratie' specifically refer to?",
-     opts:["teamwork","wartime collaboration with the enemy","business partnership","academic cooperation"],
+     opts:["wartime collaboration with the enemy","business partnership","academic cooperation","teamwork"],
      ans:"wartime collaboration with the enemy",
      hint:"Unlike English 'c...', this Dutch word has a strong WWII association."},
     {type:"fb", s:"Dit is een {1} schending van de regels.", a:["flagrante"],
@@ -118,7 +118,7 @@ const LESSON_9 = {
      hint:"Blatant, obvious. From Latin 'flagrans' (burning).",
      sSrc:"This is a flagrant violation of the rules."},
     {type:"mc", q:"What is a 'staatssecretaris' in Dutch government?",
-     opts:["the prime minister","a senator","a junior minister","a civil servant"],
+     opts:["a senator","a junior minister","a civil servant","the prime minister"],
      ans:"a junior minister",
      hint:"Subordinate to a m..., handling specific policy areas."},
     {type:"fb", s:"Wie staat {1} voor de lening?", a:["garant"],

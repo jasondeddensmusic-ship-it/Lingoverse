@@ -76,7 +76,7 @@ const LESSON_11 = {
      sSrc:"The {1} was converted into a rural cottage."},
 
     {type:"mc", q:"Qui a fonde le positivisme?",
-     opts:["Auguste Comte","Voltaire","Descartes","Rousseau"],
+     opts:["Rousseau","Auguste Comte","Voltaire","Descartes"],
      ans:"Auguste Comte",
      hint:"This French philosopher developed a philosophy based purely on scientific observation"},
 
@@ -93,7 +93,7 @@ const LESSON_11 = {
      sSrc:"The {1} of the opponent harms democratic debate."},
 
     {type:"mc", q:"Le participe passe s'accorde avec le sujet quand le verbe auxiliaire est:",
-     opts:["etre","avoir","faire","aller"],
+     opts:["faire","aller","etre","avoir"],
      ans:"etre",
      hint:"This auxiliary verb triggers agreement between participle and subject"},
 
@@ -103,7 +103,7 @@ const LESSON_11 = {
      sSrc:"The {1} of family values happens from childhood."},
 
     {type:"mc", q:"'Mecreant' signifiait a l'origine:",
-     opts:["Non-croyant","Criminel","Paysan","Soldat"],
+     opts:["Criminel","Paysan","Soldat","Non-croyant"],
      ans:"Non-croyant",
      hint:"The word combines mes- (mis-) with creant (believing)"},
 

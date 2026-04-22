@@ -1,4 +1,4 @@
-// L12: Neighborhood & Community — 20 B2 gap words
+// L12: Neighborhood & Community, 20 B2 gap words
 const LESSON_12 = {
   id:"nlv2_b2g2_l12", title:"Buurt en Gemeenschap", icon:"\uD83C\uDFD8\uFE0F", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_12 = {
      sSrc:"From {1} it seems like a quiet village, but there is a lot going on."},
     {type:"mc",
      q:"Welk woord betekent 'de moed hebben om iets te doen' in informeel Nederlands?",
-     opts:["Courage","Chagrijn","Blazer","Bijval"],
+     opts:["Bijval","Courage","Chagrijn","Blazer"],
      ans:"Courage",
      hint:"A French loanword that Dutch uses informally and slightly humorously. Think of 'gathering your c...'."},
     {type:"match", pairs:[

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 13: Western World and Documents
+// Korean B2. Batch 5, Lesson 13: Western World and Documents
 // Words: 생활용품, 생활환경, 서구, 서너, 서늘하다, 서랍, 서류, 서명, 서명하다, 서민, 서부, 서서히, 서양인, 서적, 서클, 서투르다, 서툴다, 석, 석사, 선
 
 const LESSON_13 = {

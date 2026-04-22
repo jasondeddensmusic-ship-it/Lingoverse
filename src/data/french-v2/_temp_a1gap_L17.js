@@ -98,7 +98,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Que signifie 'd'accord' ?",
-     opts:["okay/agreed","with chords","with records","according to"],
+     opts:["according to","okay/agreed","with chords","with records"],
      ans:"okay/agreed",
      hint:"This is the most common way to express agreement in French, from 'accord' (agreement)."},
 
@@ -143,7 +143,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'to cancel' ?",
-     opts:["annuler","abandonner","accumuler","autoriser"],
+     opts:["accumuler","autoriser","annuler","abandonner"],
      ans:"annuler",
      hint:"This verb means to officially call off an event, meeting, or appointment."},
 

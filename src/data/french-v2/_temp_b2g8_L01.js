@@ -80,7 +80,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot signifie 'le fait d'obtenir quelque chose' ?",
-     opts:["obtention","omission","exaltation","déduction"],
+     opts:["déduction","obtention","omission","exaltation"],
      ans:"obtention",
      hint:"The formal noun for the act of getting or achieving. Very common on official documents."},
 
@@ -119,7 +119,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Que signifie 'l'inflexion de la courbe' ?",
-     opts:["Un changement de direction","Une accélération","Une disparition","Un arrêt complet"],
+     opts:["Une disparition","Un arrêt complet","Un changement de direction","Une accélération"],
      ans:"Un changement de direction",
      hint:"The curve is not stopping or speeding up. It is shifting its trajectory."},
 

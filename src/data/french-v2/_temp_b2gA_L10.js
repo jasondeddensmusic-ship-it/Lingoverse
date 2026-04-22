@@ -86,7 +86,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel statut fiscal simplifie permet de creer facilement une petite activite en France ?",
-     opts:["la micro-entreprise","la mutualiste","le bilan","le decret"],
+     opts:["le decret","la micro-entreprise","la mutualiste","le bilan"],
      ans:"la micro-entreprise",
      hint:"Created in 2009 as 'auto-entrepreneur'. Simplified tax status for small businesses."},
 
@@ -113,7 +113,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel mot designe une personne qui fournit des ressources ou des biens ?",
-     opts:["un pourvoyeur","un pigiste","un PDG","un administrateur"],
+     opts:["un PDG","un administrateur","un pourvoyeur","un pigiste"],
      ans:"un pourvoyeur",
      hint:"From the verb 'pourvoir' (to provide). Someone who supplies things."}
   ]

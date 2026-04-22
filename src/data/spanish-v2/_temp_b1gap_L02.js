@@ -132,7 +132,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 necesitas para hacer una sopa?",
-     opts:["una cacerola","un asado","un buf\u00e9","un bistec"],
+     opts:["un bistec","una cacerola","un asado","un buf\u00e9"],
      ans:"una cacerola",
      hint:"You need a cooking vessel with handles to heat liquid on the stove."}
   ]

@@ -1,4 +1,4 @@
-// Lesson 17 — Asuntos globales
+// Lesson 17. Asuntos globales
 const LESSON_17 = {id:"esv2_b2gA_l17", title:"Asuntos globales", icon:"🌎", xp:15, board:true, steps:[
 {type:"intro", title:"Asuntos globales", desc:"Discuss international affairs, geopolitics, and global issues with formal B2 vocabulary.", goals:["Learn 15 global affairs terms","Discuss international topics formally","Navigate diplomatic register"]},
 
@@ -57,7 +57,7 @@ const LESSON_17 = {id:"esv2_b2gA_l17", title:"Asuntos globales", icon:"🌎", xp
  exampleSrc:"A: The castaways were rescued by a fishing boat.\nB: They had spent three days adrift.",
  funFact:"Gabriel García Márquez wrote 'Relato de un náufrago' based on a real 1955 incident."},
 
-{type:"mc", q:"¿Qué lengua de España NO es indoeuropea?", opts:["El euskera (vasco)","El catalán","El gallego","El castellano"], ans:"El euskera (vasco)",
+{type:"mc", q:"¿Qué lengua de España NO es indoeuropea?", opts:["El castellano","El euskera (vasco)","El catalán","El gallego"], ans:"El euskera (vasco)",
  hint:"Three of Spain's languages come from Latin. One has unknown, pre-Roman origins."},
 
 {type:"fb", s:"Los pueblos {1} invadieron la Península Ibérica tras la caída de Roma.", a:["germanos"], opts:["germanos","nórdicos","islámicos","nipones"],
@@ -94,7 +94,7 @@ const LESSON_17 = {id:"esv2_b2gA_l17", title:"Asuntos globales", icon:"🌎", xp
  hint:"This large South American community is one of Spain's biggest immigrant groups.",
  sSrc:"The {1} community in Spain exceeds one hundred and twenty thousand people."},
 
-{type:"mc", q:"¿Qué eran los normandos originalmente?", opts:["Descendientes de vikingos asentados en Francia","Comerciantes romanos","Monjes celtas","Soldados árabes"], ans:"Descendientes de vikingos asentados en Francia",
+{type:"mc", q:"¿Qué eran los normandos originalmente?", opts:["Monjes celtas","Soldados árabes","Descendientes de vikingos asentados en Francia","Comerciantes romanos"], ans:"Descendientes de vikingos asentados en Francia",
  hint:"Their name means 'north men'. They settled in what became Normandy."},
 
 {type:"drag_fill", s:"El español es una lengua {1} de la rama {2}.", blanks:{"1":"indoeuropea","2":"romance"}, pool:["indoeuropea","romance","germana","islámica"],

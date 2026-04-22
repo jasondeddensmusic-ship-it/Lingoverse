@@ -80,7 +80,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot signifie 'le manque d'efficacité' ?",
-     opts:["inefficacité","infidélité","agressivité","médiocrité"],
+     opts:["médiocrité","inefficacité","infidélité","agressivité"],
      ans:"inefficacité",
      hint:"The prefix 'in-' negates 'efficacité'. Not about being unfaithful or mediocre."},
 
@@ -119,7 +119,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot est un synonyme formel de 'cher' ?",
-     opts:["onéreux","narquois","momentané","observateur"],
+     opts:["momentané","observateur","onéreux","narquois"],
      ans:"onéreux",
      hint:"From Latin 'onerosus' meaning burdensome. Used in formal and legal language."},
 

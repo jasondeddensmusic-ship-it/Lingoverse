@@ -86,7 +86,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel impot historique portait sur le sel en France ?",
-     opts:["la gabelle","la garderie","la gazette","la galere"],
+     opts:["la galere","la gabelle","la garderie","la gazette"],
      ans:"la gabelle",
      hint:"One of the most hated taxes in French history. Salt smugglers were called 'faux-sauniers'."},
 
@@ -113,7 +113,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel adjectif designe un vehicule tire par des chevaux ?",
-     opts:["hippomobile","funiculaire","frontal","habitable"],
+     opts:["frontal","habitable","hippomobile","funiculaire"],
      ans:"hippomobile",
      hint:"From the Greek word for horse (hippos). A technical term for horse-powered transport."}
   ]

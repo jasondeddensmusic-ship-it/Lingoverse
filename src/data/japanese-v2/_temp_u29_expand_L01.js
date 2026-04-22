@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: Import prices are rising due to the weak yen.\nB: Overseas travel has also become expensive.\nA: How much do you know about that field?\nB: It is not my specialty, but I have basic knowledge.\nA: If I want to know more in detail, what should I do?\nB: I recommend consulting a specialist or reading related books.",
      funFact:"円安 and 円高 are among the most frequently discussed economic topics in Japan. えんやす makes exports cheaper (good for Toyota, Sony) but raises import costs (bad for consumers, energy bills). Japan's economy swings between periods of えんやす and えんだか, and each has winners and losers."},
 
-    {type:"mc", q:"えんやすがすすむ means:", opts:["The yen is gaining strength","The yen continues to lose value against other currencies","Yen coins are becoming scarce","Yen notes are being redesigned"], ans:"The yen continues to lose value against other currencies",
+    {type:"mc", q:"えんやすがすすむ means:", opts:["The yen continues to lose value against other currencies","Yen coins are becoming scarce","Yen notes are being redesigned","The yen is gaining strength"], ans:"The yen continues to lose value against other currencies",
      hint:"やす means cheap/weak, and すすむ means to advance or progress."},
 
     {type:"teach", trg:"えんだか", src:"strong yen / yen appreciation", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_3 = {
      exampleSrc:"A: Mortgage interest rates might rise.\nB: Monthly payments will increase.\nA: What kinds of methods are there?\nB: There are several options. The most effective is practice.\nA: What specifically should we do in practice?\nB: It is important to work on it a little each day.",
      funFact:"ローン entered Japanese from English but has become thoroughly naturalized. じゅうたくローン (housing loan) is the standard term for mortgages. Japan's famously long mortgage terms (up to 35 years) and historically low きんり made home ownership accessible. The phrase ローンをかえす (to repay a loan) is a reality for millions of Japanese households."},
 
-    {type:"mc", q:"かわせレート tells you:", opts:["The interest rate on savings","The stock market index","The inflation rate","How much one currency is worth in terms of another"], ans:"How much one currency is worth in terms of another",
+    {type:"mc", q:"かわせレート tells you:", opts:["The inflation rate","How much one currency is worth in terms of another","The interest rate on savings","The stock market index"], ans:"How much one currency is worth in terms of another",
      hint:"かわせ means exchange, and レート means rate: the rate at which currencies trade."},
 
     {type:"teach", trg:"ふあんてい", src:"unstable / volatile", pos:"adj", gender:null,

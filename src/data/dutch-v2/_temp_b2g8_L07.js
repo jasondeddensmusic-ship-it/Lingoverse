@@ -1,4 +1,4 @@
-// Lesson 7 — Finance & Economy
+// Lesson 7. Finance & Economy
 const LESSON_7 = {id:"nlv2_b2g8_l7", title:"Financien en Economie", icon:"\u{1F4B0}", xp:20, board:true, steps:[
 {type:"intro", title:"Financien en Economie", desc:"Financial and economic vocabulary for understanding Dutch business news, investment discussions, and economic policy debates.", goals:["Learn 10 finance and economy words","Discuss investments and economic systems","Understand Dutch financial terminology"]},
 {type:"teach", trg:"de investeerder", src:"the investor", pos:"noun", gender:"c", note:"De-word. From 'investeren' (to invest).\nPlural: investeerders.\n'Een buitenlandse investeerder.'", example:"A: De investeerder wil meer informatie.\nB: Over welk project?\nA: Het nieuwe kantoorgebouw in Utrecht.\nB: Ik stuur hem het businessplan.", exampleSrc:"A: The investor wants more information.\nB: About which project?\nA: The new office building in Utrecht.\nB: I will send him the business plan.", funFact:"The Netherlands is one of the top destinations for foreign investment in Europe, thanks to its business-friendly tax treaties."},

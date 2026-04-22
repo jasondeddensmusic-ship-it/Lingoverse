@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 9 — Business and Economy
+// French B2 Gap Batch D Lesson 9. Business and Economy
 const LESSON_9 = {id:"frv2_b2gD_l9", title:"Affaires et économie", icon:"💼", xp:15, board:true, steps:[
   {type:"intro", title:"Affaires et économie",
    desc:"Master vocabulary for discussing business, economic trends, and the professional world in French.",
@@ -73,7 +73,7 @@ const LESSON_9 = {id:"frv2_b2gD_l9", title:"Affaires et économie", icon:"💼",
 
   {type:"mc",
    q:"Quel terme désigne une personne qui exploite injustement une situation?",
-   opts:["Un profiteur","Un administrateur","Un consommateur","Un modéré"],
+   opts:["Un modéré","Un profiteur","Un administrateur","Un consommateur"],
    ans:"Un profiteur",
    hint:"This person takes unfair advantage of others' difficulties for personal gain. Always negative."},
 

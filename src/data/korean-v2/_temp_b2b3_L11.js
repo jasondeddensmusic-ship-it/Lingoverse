@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 11: Nation and Society
+// Korean B2. Batch 3, Lesson 11: Nation and Society
 // Words: 국물, 국민적, 국사, 국산, 국수, 국어, 국왕, 국적, 국제선, 국제적, 국제화, 국회, 군데, 군사, 굳다, 굳어지다, 굳히다, 굶다, 굽히다, 궁극적
 
 const LESSON_11 = {
@@ -107,7 +107,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'국회'의 역할로 맞는 것은?",
-     opts:["법을 만들고 통과시키는 것","범죄자를 재판하는 것","군대를 지휘하는 것","외국과 무역하는 것"],
+     opts:["외국과 무역하는 것","법을 만들고 통과시키는 것","범죄자를 재판하는 것","군대를 지휘하는 것"],
      ans:"법을 만들고 통과시키는 것",
      hint:"This institution is the legislative body, where elected representatives create and pass laws."},
 

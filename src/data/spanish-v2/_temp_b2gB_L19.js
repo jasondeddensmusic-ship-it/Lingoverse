@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 19 — Social Issues & Society
+// B2 Gap Batch B Lesson 19. Social Issues & Society
 const LESSON_19 = {id:"esv2_b2gB_l19",title:"Problemas sociales",icon:"🤲",xp:15,board:true,steps:[
 {type:"intro",title:"Problemas sociales",desc:"Learn vocabulary for discussing social issues, inequality, and contemporary challenges in Spanish society.",goals:["Learn 12 words about social issues","Discuss inequality and cultural challenges","Use vocabulary for social analysis"]},
 
@@ -73,7 +73,7 @@ const LESSON_19 = {id:"esv2_b2gB_l19",title:"Problemas sociales",icon:"🤲",xp:
  funFact:"There are no cobras in Spain, but the word is widely known. Spanish has many snake words from Latin colubra."},
 
 {type:"mc",q:"¿Qué connotación tiene la palabra 'mirón'?",
- opts:["Negativa: alguien que mira cuando no debe","Positiva: alguien observador e inteligente","Neutra: simplemente alguien que mira","Formal: un investigador profesional"],
+ opts:["Formal: un investigador profesional","Negativa: alguien que mira cuando no debe","Positiva: alguien observador e inteligente","Neutra: simplemente alguien que mira"],
  ans:"Negativa: alguien que mira cuando no debe",
  hint:"Think about someone who just watches instead of helping, or who peeps at private things."},
 

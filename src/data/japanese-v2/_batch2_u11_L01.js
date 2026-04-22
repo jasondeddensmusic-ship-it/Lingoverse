@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 11 (て-form) — more て-form verbs, giving/receiving, instructions
+// Batch 2 expansion for Unit 11 (て-form), more て-form verbs, giving/receiving, instructions
 const BATCH2_L_1 = {
   id:"jav2_u11l_b2_1", title:"て-形(けい)練習(れんしゅう)", icon:"🔄", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Please turn on the air conditioner.\nB: Yes, it is hot.",
    funFact:"付(つ)ける means 'to attach/turn on.' It is used for lights (電気(でんき)を付(つ)ける), appliances (テレビを付(つ)ける), and even figurative things like names (名前(なまえ)を付(つ)ける = to name). Its intransitive partner is 付(つ)く (to be on/attached)."},
 
-  {type:"mc", q:"What is the て-form of 持(も)つ (to hold)?", opts:["持(も)ちて","持(も)って","持(も)いて","持(も)んで"], ans:"持(も)って",
+  {type:"mc", q:"What is the て-form of 持(も)つ (to hold)?", opts:["持(も)って","持(も)いて","持(も)んで","持(も)ちて"], ans:"持(も)って",
    hint:"持(も)つ ends in つ. The つ/う/る group changes to って."},
 
   {type:"teach", trg:"消(け)して", src:"turn off / erase (て-form)", pos:"verb", gender:null,

@@ -51,12 +51,12 @@ lessons:[
  funFact:"持续 lies at the heart of 可持续发展 (kěchíxù fāzhǎn, 'sustainable development'), a phrase adopted from UN terminology and now core to Chinese policy language. The concept has shaped national strategy since the 1990s."},
 
 {type:"mc", q:"可再生(kězàishēng) literally means:",
- opts:["able to save","can generate again","environmentally protected","important resource"],
+ opts:["can generate again","environmentally protected","important resource","able to save"],
  ans:"can generate again",
  hint:"Three characters: 可 (can) + 再 + 生. Combine them literally."},
 
 {type:"mc", q:"过度(guòdù) is the Chinese equivalent of which English prefix?",
- opts:["un-","re-","over-","pre-"],
+ opts:["re-","over-","pre-","un-"],
  ans:"over-",
  hint:"It means 'exceeding the right degree.' Think overuse, overwork, overeating."},
 
@@ -120,12 +120,12 @@ lessons:[
  funFact:"绿色 as 'eco-friendly' is a linguistic loan from English 'green' in the environmental sense. It now prefixes many terms: 绿色能源 (green energy), 绿色出行 (green travel), 绿色经济 (green economy)."},
 
 {type:"mc", q:"温室(wēnshì) literally describes what kind of room?",
- opts:["clean room","warm room","big room","glass room"],
+ opts:["warm room","big room","glass room","clean room"],
  ans:"warm room",
  hint:"温 means ___. 室 means ___. The name captures the function: trapping heat."},
 
 {type:"mc", q:"碳排放 means:",
- opts:["carbon dioxide","coal usage","carbon emissions","air pressure"],
+ opts:["coal usage","carbon emissions","air pressure","carbon dioxide"],
  ans:"carbon emissions",
  hint:"碳 is …. 排放 means 'to emit' or '….' Combine them."},
 
@@ -189,12 +189,12 @@ lessons:[
  funFact:"保护 appears in numerous contexts: 保护动物 (protect animals), 保护环境 (protect environment), 保护隐私 (protect privacy). The word is central to rights-based and conservation discourse in modern Chinese."},
 
 {type:"mc", q:"全球(quánqiú) literally breaks down as:",
- opts:["all countries","whole sphere","many lands","international"],
+ opts:["whole sphere","many lands","international","all countries"],
  ans:"whole sphere",
  hint:"全 means ___. 球 means ball or ___. Earth is the ___ in question."},
 
 {type:"mc", q:"环保(huánbǎo) is short for which longer phrase?",
- opts:["环境保护(huánjìng bǎohù)","环球保险(huánqiú bǎoxiǎn)","环行保持(huánxíng bǎochí)","环形保养(huánxíng bǎoyǎng)"],
+ opts:["环形保养(huánxíng bǎoyǎng)","环境保护(huánjìng bǎohù)","环球保险(huánqiú bǎoxiǎn)","环行保持(huánxíng bǎochí)"],
  ans:"环境保护(huánjìng bǎohù)",
  hint:"Environmental + protection. The two full words combine into the short form."},
 

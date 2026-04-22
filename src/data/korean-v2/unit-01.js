@@ -1,11 +1,11 @@
-// Korean V2 Unit 1 — 안녕하세요!
+// Korean V2 Unit 1, 안녕하세요!
 // Level: A1.1
 
 const UNIT_1 =
 {n:1,lang:"ko",srcLang:"en",track:"v2",title:"안녕하세요!",sub:"Greetings, 이다 & Being",icon:"👋",level:"A1.1",color:"#FF6B6B",lessons:[
  // ═══ L1: 안녕하세요 ═══
 // ═══════════════════════════════════════════════════════════
-// KOREAN SEED REGISTRY — P26 AUDIT REFERENCE
+// KOREAN SEED REGISTRY. P26 AUDIT REFERENCE
 // Every agent MUST read this before writing any Korean lesson.
 // concept → first planted → harvest lesson
 // ═══════════════════════════════════════════════════════════
@@ -19,7 +19,7 @@ const UNIT_1 =
 // ru_eu_irregular       → kou6l5 (preview)            → kou9l7 (A2) ✅harvested
 // h_irregular           → kou6l5 (preview)            → kou11l9 (B1) ✅harvested
 // past_tense            → kou6l5 (preview)            → kou7l2 (A2) ✅harvested
-// future_tense          → ——                       → kou9l2 (A2)
+// future_tense          → --                       → kou9l2 (A2)
 // neunde_connector      → kou8l8 (preview) ✅planted  → kou13l2 (B1) ✅harvested
 // go_iss_progressive    → kou9l6 (preview) ✅planted  → kou11l4 (B1) ✅harvested
 // ge_dwae_change        → kou7l4 (preview) ✅planted  → kou15l4 (B1) ✅harvested
@@ -40,7 +40,7 @@ const UNIT_1 =
  {type:"intro",title:"안녕하세요!",desc:"안녕\n→ peace\n\nYour first Korean words. Greetings are about respect.",goals:["Say hello and goodbye in Korean","Learn two different goodbyes (leaving vs staying)","Understand how Korean differs from English","See how Korean verbs work at a high level"]},
  // ── Step 2: Teach 안녕하세요 ──
  {type:"teach",kind:"grammar",nl:"안녕하세요",en:"Hello",pos:"verb",gender:null,funFact:"Sino-Korean compound: 안녕 (peace) + 하 (do) + 세요 (please/honorific)",phonetic:"an-nyeong-ha-se-yo",example:"A: 안녕하세요! B: 안녕하세요! 만나서 반갑습니다.",exampleEn:"A: Hello! B: Hello! Nice to meet you.",note:"COMPOUND: 안녕 (peace) + 하 (do) + 세요 (please/honorific).\nLiterally: 'Do you have peace?'\nUse with EVERYONE. It's universally polite.",deepDive:{title:"The Culture Behind the Greeting",text:"Korean greetings encode respect through verb endings.\n\nThe -세요 in 안녕하세요 is the polite request form.\nYou are literally asking someone if they have peace.\n\nThis same ending appears in 주세요 (please give) and 오세요 (please come)."}},
- // ── Step 3: Tip — How Korean Is Different (rewrite plan U1-L1) ──
+ // ── Step 3: Tip. How Korean Is Different (rewrite plan U1-L1) ──
  {type:"tip",title:"🌏 How Korean Is Different From English",text:"A few things to know before you dive in:\n\n• Korean puts the verb LAST (you'll see this every sentence)\n• Korean has NO articles (a, the). Context tells you.\n• Korean verbs DON'T change for person (I go, you go, he goes: all the same)\n• Korean questions sound like statements (your voice just rises)\n• Korean drops subjects constantly: 'coffee exists' can mean 'I have coffee'",deepDive:{title:"The Big Picture: Korean vs English",text:"SOV vs SVO:\nEnglish: I coffee drink (weird!)\nKorean: 저는 커피를 마셔요 (I coffee drink: normal!)\nThe verb ALWAYS goes last in Korean.\n\nAgglutinative language:\nKorean snaps pieces onto verb stems.\nOne verb can carry tense + politeness + mood.\nThink of it like LEGO for grammar.\n\nContext-heavy:\nKorean trusts you to figure out who and what from context.\nNo grammatical gender. No plural markers (usually). No articles.\n\nGOOD NEWS:\nNo irregular spelling. Consistent pronunciation rules.\nEvery syllable block is pronounced. What you see is what you say."}},
  // ── Step 4: Tip  -  Korean Verbs End in -다 (rewrite plan U1-L1) ──
  {type:"tip",title:"📖 Korean Verbs End in -다",text:"Every Korean verb in the dictionary ends in -다:\n하다 (to do), 가다 (to go), 먹다 (to eat), 있다 (to exist).\n\nTo USE a verb, drop -다 and add an ending.\n하다 → 하세요 (please do).",deepDive:{title:"Why -다 Matters",text:"The ending shows politeness, tense, and mood.\nYou are learning the POLITE ending (-요) from day one.\n\nDictionary form: always ends in -다.\n\nStem: everything BEFORE -다.\n하다 → stem is 하\n가다 → stem is 가\n먹다 → stem is 먹\n있다 → stem is 있\n\nEndings snap onto the stem:\n-세요: polite request\n-이에요/예요: am/is\n-아/어요: polite present tense\n\nFor now: -다 is dictionary form, -요 means polite."}},
@@ -53,33 +53,33 @@ const UNIT_1 =
  // ── Step 8: Teach 안녕 (casual)  -  BEFORE any quiz that uses it ──
  {type:"teach",kind:"word",nl:"안녕",en:"Hi / Bye (casual)",pos:"intj",gender:null,funFact:"Stay with 안녕하세요 until you know when 안녕 is safe to use.",phonetic:"an-nyeong",example:"A: 안녕! 내일 봐! B: 안녕! 내일 봐!",exampleEn:"A: Bye! See you tomorrow! B: Bye! See you tomorrow!",note:"Casual hello AND goodbye in one word.\nOnly use with CLOSE friends your age or younger.\n⚠️ NEVER use with strangers, elders, or at work.",deepDive:{title:"Using 안녕",text:"Stay with 안녕하세요 until you know when 안녕 is safe to use."}},
   {type:"mc",q:"안녕히 계세요 means:",opts:["Hi","Goodbye","Thank you","See you tomorrow"],ans:"Goodbye",hint:"This farewell is said to the person who stays behind."},
- // ── Step 9: Tip — Two Goodbyes + casual ──
+ // ── Step 9: Tip. Two Goodbyes + casual ──
  {type:"tip",title:"🧠 Goodbye Summary: Formal vs Casual",text:"Leaving someone who STAYS:\n안녕히 계세요 = Goodbye (you stay well)\n\nYOU are the one leaving:\n안녕히 가세요 = Goodbye (go well)",deepDive:{title:"Full Comparison",text:"BOTH leaving: either works, or just 안녕!\n잘 가 = bye (casual, to someone leaving)\n\n• 가세요 = please go\n• 계세요 = please stay\n\nThink about what the OTHER person is doing.\nThat tells you which formal goodbye to use."}},
- // ── Step 10: Tip — Bowing ──
+ // ── Step 10: Tip. Bowing ──
  {type:"tip",title:"🙇 Bowing Basics",text:"Korean greetings usually come with a bow.\n\n• Slight nod (15°): friends, casual settings\n• Medium bow (30°): normal polite greeting\n• Deep bow (45°+): elders, formal situations, apologies",deepDive:{title:"When and How Deep to Bow",text:"When you say 안녕하세요, a small bow shows respect.\n\nYou don't need to bow deeply in casual settings.\nJust a gentle nod of the head is enough."}},
- // ── Step 11: MC — leaving shop ──
+ // ── Step 11: MC, leaving shop ──
  {type:"mc",q:"You're leaving a shop. The shopkeeper stays. You say:",opts:["안녕히 가세요","안녕하세요","안녕히 계세요","안녕"],ans:"안녕히 계세요",hint:"THEY stay, so you wish them to 'stay in peace'"},
- // ── Step 10: MC — friend leaving ──
+ // ── Step 10: MC, friend leaving ──
  {type:"mc",q:"Your friend is leaving the café. You stay. You say:",opts:["안녕히","안녕히 계세요","안녕하세요","안녕히 가세요"],ans:"안녕히 가세요",hint:"THEY go, so you wish them to 'go in peace'"},
- // ── Step 11: FB — goodbye fill-blank ──
+ // ── Step 11: FB, goodbye fill-blank ──
  {type:"fb",s:"You leave the office. Your coworker stays. You say: ___",a:"안녕히 계세요",opts:["안녕히 가세요","안녕히 계세요","안녕하세요","안녕"],hint:"Your coworker STAYS. Wish them to 'stay in peace.'"},
- // ── Step 12: MC — who says which (conceptual angle) ──
+ // ── Step 12: MC, who says which (conceptual angle) ──
  {type:"mc",q:"가세요 in 안녕히 가세요 means 'please go.' You say this to someone who is:",opts:["Leaving","Staying behind","Arriving","Sleeping"],ans:"Leaving",hint:"가 = go. You wish the LEAVER to go in peace."},
  // ── Step 15: MC  -  when is 안녕 OK ──
  {type:"mc",q:"안녕 (casual) is appropriate when talking to:",opts:["Your boss","A close friend your age","A stranger on the street","Your friend's grandmother"],ans:"A close friend your age",hint:"안녕 is casual. Safe only with peers you know well, typically your own generation or younger."},
- // ── Step 16: FB — greeting your teacher ──
+ // ── Step 16: FB, greeting your teacher ──
  {type:"fb",s:"A student greets their teacher in the morning: ___",a:"안녕하세요",opts:["안녕","안녕하세요","안녕히 가세요","안녕히 계세요"],hint:"A teacher is senior. Use the polite, universal greeting."},
- // ── Step 17: Match — all four greetings ──
+ // ── Step 17: Match, all four greetings ──
  {type:"match",pairs:[{nl:"안녕하세요",en:"Hello (polite)"},{nl:"안녕히 가세요",en:"Goodbye (to leaver)"},{nl:"안녕히 계세요",en:"Goodbye (to stayer)"},{nl:"안녕",en:"Hi / Bye (casual)"}]},
  // ── Step 18: MC  -  tests -다 tip ──
  {type:"mc",q:"In the dictionary, Korean verbs always end in:",opts:["-요","-세요","-다","-하"],ans:"-다",hint:"All Korean verbs share the same dictionary ending. Which one?"},
- // ── Step 19: FB — both leaving ──
+ // ── Step 19: FB, both leaving ──
  {type:"fb",s:"Two friends part ways on the street. Both are leaving. They both say: ___",a:"안녕히 가세요",opts:["안녕히 가세요","안녕히 계세요","안녕하세요","안녕"],hint:"Both are GOING. Each wishes the other to 'go in peace.'"},
- // ── Step 20: MC — tests verb-last from tip ──
+ // ── Step 20: MC, tests verb-last from tip ──
  {type:"mc",q:"In Korean sentences, the verb goes:",opts:["At the beginning","In the middle","Before the subject","At the END"],ans:"At the END",hint:"Korean is a verb-last language. Subject first, verb last."},
- // ── Step 21: Match — scenario-based ──
+ // ── Step 21: Match, scenario-based ──
  {type:"match",pairs:[{nl:"Meeting someone for the first time",en:"안녕하세요"},{nl:"Your friend leaves, you stay",en:"안녕히 가세요"},{nl:"You leave, host stays",en:"안녕히 계세요"},{nl:"Texting a close friend",en:"안녕"}]},
- // ── Step 22: MC — boss checkpoint ──
+ // ── Step 22: MC, boss checkpoint ──
  {type:"mc",q:"You visit a Korean home. The host greets you with 안녕하세요. After tea, you leave. The host stays. What do you say as you go?",opts:["안녕히 계세요","안녕히 가세요","안녕하세요","안녕"],ans:"안녕히 계세요",hint:"You are LEAVING, the host STAYS. Wish them to stay in peace."},
  ]},
 
@@ -92,9 +92,9 @@ const UNIT_1 =
  {type:"tip",title:"해요체: 🎀 You're Speaking Politely",text:"Every -요 ending you have learned is 해요체 (polite casual).\n가요 (go), 먹어요 (eat), 있어요 (have).\n\n해요체 is safe for 95% of daily situations.\nPolite but not stiff. Perfect for stores, cafés, new people.",deepDive:{title:"Why Politeness Is Built Into Korean Grammar",text:"English uses WORDS for politeness: 'Can you please pass the salt?'\n\nKorean uses VERB ENDINGS (grammar, not vocabulary).\nSame sentence, different ending = different respect level.\n\nAge determines EVERYTHING:\nWho speaks first, which ending you use.\nThis is why Koreans ask your age immediately.\nIt's not rude. It's NECESSARY to know which verb endings to use with you.\n\n해요체 (-요 ending): safe with literally everyone.\n반말 (no -요): friends your age, younger people, NEVER strangers."}},
  {type:"teach",kind:"grammar",nl:"이에요 / 예요",en:"am / is / are",pos:"aux",gender:null,funFact:"Marks location or time. One particle, two jobs. Context tells you which.",phonetic:"i-e-yo / ye-yo",example:"A: 학생이에요? B: 네, 저는 학생이에요. A: 저는 선생님이에요.",exampleEn:"A: Are you a student? B: Yes, I am a student. A: I am a teacher.",note:"After a consonant ending:\n학생이에요.\n→ I am a student.",deepDive:{title:"The Rule",text:"The verb goes at the END. Always.\n엠마예요.\n→ I am Emma.\n\nThe verb goes at the END. Always. -요 = polite marker."}},
  {type:"tip",title:"🔍 SOV: Verb Goes Last",text:"Every sentence you've seen so far:\n\n저는 사라예요. (I am Sara.)\n저는 학생이에요. (I am a student.)\n\nSubject, then VERB (last).\n",deepDive:{title:"Why Verb-Last Feels Natural",text:"This is how Korean works. The verb ALWAYS goes at the end.\nYou'll see this in every single lesson.\n\nBonus: 저는 is often dropped in casual speech.\n사라예요 alone means 'I'm Sara' from context."}},
- {type:"mc",q:"저는 사라___.\n(Sara)",opts:["이에요","예요"],ans:"예요",hint:"Vowel ending or consonant ending?"},
- {type:"mc",q:"I am a student: 저는 학생___.",opts:["이에요","예요"],ans:"이에요",hint:"Vowel ending or consonant ending?"},
- {type:"mc",q:"저는 민수___.\n(Minsu)",opts:["이에요","예요"],ans:"예요",hint:"Vowel ending or consonant ending?"},
+ {type:"mc",q:"저는 사라___.\n(Sara)",opts:["예요","이에요"],ans:"예요",hint:"Vowel ending or consonant ending?"},
+ {type:"mc",q:"I am a student: 저는 학생___.",opts:["예요","이에요"],ans:"이에요",hint:"Vowel ending or consonant ending?"},
+ {type:"mc",q:"저는 민수___.\n(Minsu)",opts:["예요","이에요"],ans:"예요",hint:"Vowel ending or consonant ending?"},
  {type:"fb",s:"저는 엠마___.\n(I am Emma ___.)",a:"예요",opts:["이에요","예요"],hint:"Check the last letter. Vowel or consonant?"},
  {type:"fb",s:"저는 선생님___.\n(I am a teacher ___.)",a:"이에요",opts:["이에요","예요"],hint:"Vowel ending or consonant ending?"},
  {type:"mc",q:"The -요 at the end of 이에요 shows that you are being:",opts:["Casual","Formal-written","Angry","Polite"],ans:"Polite",hint:"The ending -요 signals a specific speech register you learned about."},
@@ -109,7 +109,7 @@ const UNIT_1 =
  {type:"mc",q:"To introduce yourself, say your name then:",opts:["하세요","이에요 or 예요","있어요","없어요"],ans:"이에요 or 예요",hint:"Check what the word before it ends with."},
  ]},
 
- // ═══ L2b: ★ THE VERB ENGINE — Stem + Ending = Everything ═══
+ // ═══ L2b: ★ THE VERB ENGINE. Stem + Ending = Everything ═══
  {id:"kou1l2b",title:"★ The Verb Engine",icon:"🚂",xp:25,board:true,steps:[
   {type:"intro",title:"How Korean Verbs Actually Work",desc:"이에요 / 가세요 / 있어요\n→ verbs you already know\n\nHow are they built? One system behind every verb.",goals:["See how every Korean verb is built from two parts","Understand what the stem is","See why -요 makes speech polite","Recognise the 하다 verb family that unlocks hundreds of words"]},
 

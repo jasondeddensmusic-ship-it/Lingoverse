@@ -81,7 +81,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Wat betekent 'humaan'?",
-     opts:["Menselijk en medelevend","Grappig en humoristisch","Heel erg moe","Ouderwets en traditioneel"],
+     opts:["Ouderwets en traditioneel","Menselijk en medelevend","Grappig en humoristisch","Heel erg moe"],
      ans:"Menselijk en medelevend",
      hint:"Think of the Latin root 'humanus'. It relates to treating people with dignity and compassion."},
 
@@ -101,7 +101,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Wat is een 'harmonie' in de muziek?",
-     opts:["Een blaasorkest","Een koor","Een strijkorkest","Een rockband"],
+     opts:["Een strijkorkest","Een rockband","Een blaasorkest","Een koor"],
      ans:"Een blaasorkest",
      hint:"In Dutch music tradition, this word refers to a specific type of ensemble with brass and woodwind instruments."}
   ]

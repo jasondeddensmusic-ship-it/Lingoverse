@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"The surgery {1}. Take care."},
 
     {type:"mc", q:"iPS細胞(さいぼう) were developed by:",
-     opts:["Yamanaka Shinya (Nobel Prize 2012)","Watson and Crick","Marie Curie","Alexander Fleming"],
+     opts:["Alexander Fleming","Yamanaka Shinya (Nobel Prize 2012)","Watson and Crick","Marie Curie"],
      ans:"Yamanaka Shinya (Nobel Prize 2012)",
      hint:"This Japanese scientist's discovery of induced pluripotent stem cells revolutionized regenerative medicine."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"{1} strength is boosted by sleep."},
 
     {type:"mc", q:"ストレスチェック in Japanese workplaces became:",
-     opts:["Legally required in 2015","Voluntary forever","Only for hospitals","Only for schools"],
+     opts:["Only for hospitals","Only for schools","Legally required in 2015","Voluntary forever"],
      ans:"Legally required in 2015",
      hint:"All companies with 50+ employees must conduct annual stress checks for employee mental health."},
 

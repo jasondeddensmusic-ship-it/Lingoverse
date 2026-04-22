@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"お互(たが)いに{1}てんを見(み)つけましょう。\n(Let us find a point of compromise.)", a:"だきょう", opts:["だきょう","もんだい","ごうい","しゅちょう"], sSrc:"Let us find a point of compromise.",
      hint:"The noun meaning compromise, combined with てん (point) for the place where both sides yield."},
 
-    {type:"mc", q:"ねまわし happens:", opts:["Before the formal meeting or decision","During the meeting","After the decision is made","Only in emergencies"], ans:"Before the formal meeting or decision",
+    {type:"mc", q:"ねまわし happens:", opts:["Only in emergencies","Before the formal meeting or decision","During the meeting","After the decision is made"], ans:"Before the formal meeting or decision",
      hint:"This behind-the-scenes process prepares consensus so the m... runs smoothly."},
 
     {type:"match", pairs:[{trg:"交渉(こうしょう)",src:"negotiation"},{trg:"妥協(だきょう)",src:"compromise"},{trg:"合意(ごうい)",src:"agreement/consensus"},{trg:"根回(ねまわ)し",src:"behind-the-scenes prep"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"ようやく両者(りょうしゃ)の{1}に達(たっ)しました。\n(We finally reached agreement between both parties.)", a:"ごうい", opts:["ごうい","けいやく","こうしょう","だきょう"], sSrc:"We finally reached agreement between both parties.",
      hint:"The word meaning agreement or consensus, not contract, that represents a meeting of minds."},
 
-    {type:"mc", q:"ちょっとむずかしいですね in business likely means:", opts:["An indirect refusal (probably no)","A genuine statement of difficulty","A request for more time","An enthusiastic yes"], ans:"An indirect refusal (probably no)",
+    {type:"mc", q:"ちょっとむずかしいですね in business likely means:", opts:["A request for more time","An enthusiastic yes","An indirect refusal (probably no)","A genuine statement of difficulty"], ans:"An indirect refusal (probably no)",
      hint:"Japanese business communication often uses softened language to decline without saying 'no' directly."}
   ,{type:"match",pairs:[{trg:"条件(じょうけん)",src:"condition / terms / requirements"},{trg:"要望(ようぼう)",src:"demand / request / requirement"},{trg:"折(お)り合(あ)い",src:"compromise / mutual concession / middle ground"},{trg:"譲(ゆず)る",src:"to yield / to concede / to give way"},{trg:"満足(まんぞく)",src:"satisfaction / being satisfied"}]},
   {type:"fb", s:"両社(りょうしゃ)は価格(かかく)について{1}に達(たっ)しました。", a:["合意(ごうい)"], opts:["合意(ごうい)","交渉(こうしょう)","妥協(だきょう)","条件(じょうけん)"], hint:"The shared understanding reached when both sides agree on terms.", sSrc:"The two companies reached a {1} on the price."}

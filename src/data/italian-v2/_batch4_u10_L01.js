@@ -1,4 +1,4 @@
-// Batch 4 — Unit 10, Lesson 1: Hotel & Accommodation Vocabulary
+// Batch 4. Unit 10, Lesson 1: Hotel & Accommodation Vocabulary
 const BATCH4_U10_L1 = {
   id:"itv2_u10l_b4_1", title:"In albergo", icon:"\uD83C\uDFE8", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U10_L1 = {
     ]},
 
     {type:"mc", q:"Perche i bagni italiani hanno sempre un bidet?",
-     opts:["It is legally required in Italian homes","Hotels choose to install them","Only luxury hotels have them","It is a recent trend"],
+     opts:["It is a recent trend","It is legally required in Italian homes","Hotels choose to install them","Only luxury hotels have them"],
      ans:"It is legally required in Italian homes",
      hint:"Italy is one of the few countries where this bathroom fixture is mandatory by law."},
 
@@ -126,7 +126,7 @@ const BATCH4_U10_L1 = {
      sSrc:"Does the room have {1}? It is very hot."},
 
     {type:"mc", q:"Cos'e il 'piano terra' in Italia?",
-     opts:["The ground floor","The first floor","The basement","The top floor"],
+     opts:["The basement","The top floor","The ground floor","The first floor"],
      ans:"The ground floor",
      hint:"Italian f... numbering starts counting from above this level."},
 
@@ -136,7 +136,7 @@ const BATCH4_U10_L1 = {
      sSrc:"Can you {1} a good restaurant for tonight?"},
 
     {type:"mc", q:"Cosa succede al plurale di 'lenzuolo'?",
-     opts:["It changes gender: il lenzuolo becomes le lenzuola","It stays the same: i lenzuoli","It adds -i: i lenzuoli","There is no plural form"],
+     opts:["It stays the same: i lenzuoli","It adds -i: i lenzuoli","There is no plural form","It changes gender: il lenzuolo becomes le lenzuola"],
      ans:"It changes gender: il lenzuolo becomes le lenzuola",
      hint:"This is one of Italian's rare g...-switching plurals."}
   ,{type:"match",pairs:[{trg:"la camera",src:"the room (hotel)"}]}]

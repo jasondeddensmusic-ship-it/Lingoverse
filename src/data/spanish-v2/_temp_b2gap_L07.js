@@ -32,7 +32,7 @@ const LESSON_7 = {id:"esv2_b2gap_l7",title:"Cultura e intelecto",icon:"🎨",xp:
  exampleSrc:"A: Don Quixote is the archetype of the idealist.\nB: And Sancho Panza of the practical realist.",
  funFact:"From Greek arkhetypon (first mold). Jung popularized archetypes in psychology."},
 
-{type:"mc",q:"Un concurso literario o artístico formal se llama:",opts:["un casting","un collage","un certamen","un cancionero"],ans:"un certamen",hint:"This formal word comes from Latin and means a structured competition."},
+{type:"mc",q:"Un concurso literario o artístico formal se llama:",opts:["un certamen","un cancionero","un casting","un collage"],ans:"un certamen",hint:"This formal word comes from Latin and means a structured competition."},
 
 {type:"teach",trg:"el ajedrez",src:"the chess",pos:"noun",gender:"m",
  note:"Masculine noun. The strategic board game.",
@@ -118,13 +118,13 @@ const LESSON_7 = {id:"esv2_b2gap_l7",title:"Cultura e intelecto",icon:"🎨",xp:
 
 {type:"fb",s:"ONU es el {1} de Organización de las Naciones Unidas.",a:["acrónimo"],opts:["acrónimo","anagrama","asterisco","arabismo"],hint:"A word formed from the first letters of a longer name.",sSrc:"ONU is the {1} for United Nations Organization."},
 
-{type:"mc",q:"¿Cuál es un arabismo en español?",opts:["Collage","Almohada","Casting","Brócoli"],ans:"Almohada",hint:"This common word for pillow comes from Arabic, like many 'al-' words in Spanish."},
+{type:"mc",q:"¿Cuál es un arabismo en español?",opts:["Brócoli","Collage","Almohada","Casting"],ans:"Almohada",hint:"This common word for pillow comes from Arabic, like many 'al-' words in Spanish."},
 
 {type:"match",pairs:[{trg:"certamen",src:"contest"},{trg:"ajedrez",src:"chess"},{trg:"arquetipo",src:"archetype"},{trg:"acrónimo",src:"acronym"},{trg:"cometa",src:"comet"}]},
 
 {type:"fb",s:"El arte {1} valora más la idea que la forma física.",a:["conceptual"],opts:["conceptual","clasicista","cognitivo","académico"],hint:"Art based on concepts and ideas rather than visual beauty.",sSrc:"The {1} art values the idea more than the physical form."},
 
-{type:"mc",q:"'El cometa' y 'la cometa' significan cosas diferentes. 'La cometa' es:",opts:["Un cuerpo celeste","Un juguete que vuela","Un tipo de estrella","Un instrumento musical"],ans:"Un juguete que vuela",hint:"The feminine form refers to something children fly on a string."}
+{type:"mc",q:"'El cometa' y 'la cometa' significan cosas diferentes. 'La cometa' es:",opts:["Un tipo de estrella","Un instrumento musical","Un cuerpo celeste","Un juguete que vuela"],ans:"Un juguete que vuela",hint:"The feminine form refers to something children fly on a string."}
 ]};
 
 export default LESSON_7;

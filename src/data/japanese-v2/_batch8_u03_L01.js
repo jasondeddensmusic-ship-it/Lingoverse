@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"消(け)しゴム",src:"eraser"},{trg:"はさみ",src:"scissors"},{trg:"のり",src:"glue"},{trg:"ホチキス",src:"stapler"},{trg:"電卓(でんたく)",src:"calculator"}],
      hint:"Match each Japanese item name with its English translation."},
 
-    {type:"mc", q:"Why are staplers called ホチキス in Japan?", opts:["Named after the Hotchkiss brand that first imported them","It is the Japanese pronunciation of 'hook kiss'","It is an abbreviation of a longer word","Named after a Japanese inventor"], ans:"Named after the Hotchkiss brand that first imported them",
+    {type:"mc", q:"Why are staplers called ホチキス in Japan?", opts:["Named after a Japanese inventor","Named after the Hotchkiss brand that first imported them","It is the Japanese pronunciation of 'hook kiss'","It is an abbreviation of a longer word"], ans:"Named after the Hotchkiss brand that first imported them",
      hint:"This is a case of a b... name becoming the generic word for the product."},
 
     {type:"fb", s:"この言葉(ことば)を{1}で調(しら)べてください。\n(Please look up this word in a dictionary.)", a:"辞書(じしょ)", opts:["辞書(じしょ)","電卓(でんたく)","ノート","ファイル"], sSrc:"Please look up this word in a dictionary.",
      hint:"This reference book helps you find the meanings of words."},
 
-    {type:"mc", q:"What does コピー機(き) mean?", opts:["Copy machine","Coffee maker","Computer","Calculator"], ans:"Copy machine",
+    {type:"mc", q:"What does コピー機(き) mean?", opts:["Computer","Calculator","Copy machine","Coffee maker"], ans:"Copy machine",
      hint:"This compound word joins the loanword for 'c...' with the Japanese word for 'm....'"}
   ,{type:"match",pairs:[{trg:"ものさし",src:"ruler"},{trg:"黒板(こくばん)",src:"blackboard / chalkboard"},{trg:"棚(たな)に",src:"on the shelf"},{trg:"コピー機(き)",src:"copy machine / photocopier"},{trg:"ファイル",src:"file / folder / binder"}]}]
 };

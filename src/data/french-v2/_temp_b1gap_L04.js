@@ -92,7 +92,7 @@ const LESSON_4 = {id:"frv2_b1gap_l4", title:"Agir avec détermination", icon:"\u
 
 {type:"mc",
  q:"Comment dit-on qu'on est complètement d'accord avec une idée ?",
- opts:["adhérer à","aboutir à","accentuer","accroître"],
+ opts:["accroître","adhérer à","aboutir à","accentuer"],
  ans:"adhérer à",
  hint:"This verb has three meanings: to stick, to join a group, or to support an idea."},
 
@@ -149,7 +149,7 @@ const LESSON_4 = {id:"frv2_b1gap_l4", title:"Agir avec détermination", icon:"\u
 
 {type:"mc",
  q:"Quel mot désigne un document officiel qui certifie quelque chose ?",
- opts:["une attestation","une adhésion","une admission","une aspiration"],
+ opts:["une admission","une aspiration","une attestation","une adhésion"],
  ans:"une attestation",
  hint:"During COVID, the French needed this paper just to leave their homes."},
 

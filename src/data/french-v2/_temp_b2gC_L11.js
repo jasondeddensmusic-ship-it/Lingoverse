@@ -67,7 +67,7 @@ const LESSON_11 = {id:"frv2_b2gC_l11", title:"Éducation et institutions", icon:
 
 {type:"mc",
  q:"Comment appelle-t-on une règle de 20 cm dans les écoles françaises ?",
- opts:["un double décimètre","un demi-mètre","un centimètre","un décamètre"],
+ opts:["un décamètre","un double décimètre","un demi-mètre","un centimètre"],
  ans:"un double décimètre",
  hint:"Two units of 10 cm each. A standard item in every French schoolbag."},
 
@@ -87,7 +87,7 @@ const LESSON_11 = {id:"frv2_b2gC_l11", title:"Éducation et institutions", icon:
 
 {type:"mc",
  q:"Avant la Révolution, quelle était l'unité de base de la société française ?",
- opts:["la paroisse","le primaire","le professorat","la phonétique"],
+ opts:["le professorat","la phonétique","la paroisse","le primaire"],
  ans:"la paroisse",
  hint:"A local church community. Parish records are key sources for genealogy."},
 
@@ -105,7 +105,7 @@ const LESSON_11 = {id:"frv2_b2gC_l11", title:"Éducation et institutions", icon:
 
 {type:"mc",
  q:"Combien d'années dure l'école primaire en France ?",
- opts:["5 ans","3 ans","6 ans","4 ans"],
+ opts:["3 ans","6 ans","4 ans","5 ans"],
  ans:"5 ans",
  hint:"From CP to CM2. Children start at age 6 and finish at age 11."}
 

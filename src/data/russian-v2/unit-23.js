@@ -1,4 +1,4 @@
-// Russian V2 Unit 23 — Imperative Mood (B1.2)
+// Russian V2 Unit 23. Imperative Mood (B1.2)
 const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повелительное наклонение", sub:"Imperative Mood",
  icon:"📣", level:"B1.2", color:"#7B5EE8",
  lessons:[
@@ -31,13 +31,13 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
  note:"Irregular imperative of идти: иди/идите.\nMotion verbs often irregular.",
  example:"A: Идите домой!\nB: Уже ухожу.",
  exampleSrc:"A: Go home!\nB: Already leaving.",
- funFact:"Идти's imperative иди/идите. Idiomatic: 'Да иди ты!' (Go on! — informal skepticism). Russian imperatives can express surprise or disbelief too."},
+ funFact:"Идти's imperative иди/идите. Idiomatic: 'Да иди ты!' (Go on!, informal skepticism). Russian imperatives can express surprise or disbelief too."},
 
 {type:"teach", trg:"скажи!", src:"tell! / say! (inf)", pos:"verb", gender:null,
  note:"Perfective imperative of сказать.\nChange stem: сказать → скаж- → скажи.",
  example:"A: Скажи мне правду!\nB: Хорошо, скажу.",
  exampleSrc:"A: Tell me the truth!\nB: Okay, I'll tell.",
- funFact:"'Скажите мне' (tell me, formal) — common request. Russian imperatives often end in -и/-ите. Simple rule: present tense я-form stem + и."},
+ funFact:"'Скажите мне' (tell me, formal), common request. Russian imperatives often end in -и/-ите. Simple rule: present tense я-form stem + и."},
 
 {type:"teach", trg:"не говорите!", src:"don't speak!", pos:"phrase", gender:null,
  note:"Negative imperative = не + imperfective.\nUse imperfective for prohibitions.",
@@ -80,7 +80,7 @@ const UNIT_23 = {n:23, lang:"ru", srcLang:"en", track:"v2", title:"Повели�
 {type:"fb", s:"A: {1} пойдём гулять!\nB: С удовольствием.",
  a:["Давай"],
  opts:["Давай","Давайте","Пойдём","Идите"],
- hint:"Informal 'let's' suggestion — singular.",
+ hint:"Informal 'let's' suggestion, singular.",
  sSrc:"A: Let's go for a walk!\nB: With pleasure."},
 
 {type:"match", pairs:[

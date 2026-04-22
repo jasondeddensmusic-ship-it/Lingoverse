@@ -1,4 +1,4 @@
-// Batch 3 — Unit 19, Lesson 2: Dinamiche relazionali (Relationship Dynamics)
+// Batch 3. Unit 19, Lesson 2: Dinamiche relazionali (Relationship Dynamics)
 const BATCH3_U19_L2 = {
   id:"itv2_u19l_b3_2", title:"Dinamiche relazionali", icon:"\uD83D\uDC94", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U19_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does the exclamation 'Pazienza!' express?",
-     opts:["Great anger","Accepting what cannot be changed (oh well)","Urgent impatience","Deep sadness"],
+     opts:["Accepting what cannot be changed (oh well)","Urgent impatience","Deep sadness","Great anger"],
      ans:"Accepting what cannot be changed (oh well)",
      hint:"From 'patire' (to endure). This single word captures Italian philosophical acceptance of life's imperfections and frustrations."},
 
@@ -110,7 +110,7 @@ const BATCH3_U19_L2 = {
      sSrc:"We need to find a {1}."},
 
     {type:"mc", q:"What is 'colpo di fulmine' in Italian?",
-     opts:["A sudden illness","Love at first sight (literally 'lightning strike')","A loud argument","A lucky coincidence"],
+     opts:["A lucky coincidence","A sudden illness","Love at first sight (literally 'lightning strike')","A loud argument"],
      ans:"Love at first sight (literally 'lightning strike')",
      hint:"Italian culture romanticizes the sudden, overwhelming nature of falling in l.... It hits like l..., without warning."},
 
@@ -121,7 +121,7 @@ const BATCH3_U19_L2 = {
      sSrc:"The {1} between mother and child is very strong."},
 
     {type:"mc", q:"What value does 'portare rispetto' teach Italian children?",
-     opts:["To always agree with adults","To show respect, especially to elders and family","To never speak in public","To avoid all arguments"],
+     opts:["To never speak in public","To avoid all arguments","To always agree with adults","To show respect, especially to elders and family"],
      ans:"To show respect, especially to elders and family",
      hint:"R... is a cornerstone of Italian upbringing. 'Con tutto il rispetto' politely precedes any disagreement."}
   ,{type:"match",pairs:[{trg:"la comprensione",src:"the understanding / comprehension"},{trg:"la pazienza",src:"the patience"},{trg:"litigare",src:"to argue / to quarrel"},{trg:"la convivenza",src:"the cohabitation / living together"}]}]

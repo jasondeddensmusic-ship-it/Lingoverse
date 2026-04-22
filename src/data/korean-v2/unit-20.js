@@ -1,4 +1,4 @@
-// Korean V2 Unit 20 — B1 완성!
+// Korean V2 Unit 20. B1 완성!
 // Level: B1.2
 
 const UNIT_20 =
@@ -66,7 +66,7 @@ const UNIT_20 =
 {type:"fb",s:"길이 미끄러{1} 넘어질 뻔했어요.\n(The road was slippery so I almost fell.)",a:"워서",opts:["워서","우면","운데","워도"],hint:"Because it was slippery... 미끄럽다 is ㅂ-irregular. Cause → result connector."},
 ]},
 
-// ── L2b: -(으)ㅂ시다 (Let's — Formal) ──
+// ── L2b: -(으)ㅂ시다 (Let's. Formal) ──
 {id:"kou20l2b",title:"-(으)ㅂ시다",icon:"🤝",xp:20,board:true,steps:[
 {type:"intro",title:"Let's (Formal): -(으)ㅂ시다",desc:"같이 합시다!\n→ Let's do it together!\n\nThe formal 'let's' for meetings, speeches, groups.",goals:["Use -(으)ㅂ시다 for formal proposals","Contrast with -(으)ㄹ까요 (suggestion)","Contrast with -자 (casual 'let's')","Apply in workplace/formal settings"]},
 {type:"teach",kind:"noun",nl:"존댓말",en:"polite/formal speech",pos:"noun",gender:null,funFact:"Sino-Korean compound: 존(respect/尊) + 대(treat/待) + 말(speech)",phonetic:"jon-daen-mal",example:"어른한테는 존댓말을 써야 해요.\n(You must use formal speech to elders.)",exampleEn:"You must use formal speech to elders.",note:"COMPOUND: 존(respect/尊) + 대(treat/待) + 말(speech).\nRespect-treat-speech: polite language."},

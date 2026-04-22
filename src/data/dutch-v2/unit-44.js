@@ -1,4 +1,4 @@
-// Dutch V2 Unit 44 — B2 Vocabulary Batch 2
+// Dutch V2 Unit 44. B2 Vocabulary Batch 2
 import L06 from './_temp_b2g2_L06.js';
 import L07 from './_temp_b2g2_L07.js';
 import L08 from './_temp_b2g2_L08.js';

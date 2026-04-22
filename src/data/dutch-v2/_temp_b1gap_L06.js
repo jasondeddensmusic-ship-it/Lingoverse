@@ -1,4 +1,4 @@
-// L06: Arts and Entertainment — 20 B1 gap words
+// L06: Arts and Entertainment, 20 B1 gap words
 const LESSON_6 = {
   id:"nlv2_b1gap_l6", title:"Kunst en Amusement", icon:"\u{1F3AD}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Een kort, grappig verhaal dat iemand vertelt heet een ___.",
-     opts:["anekdote","animatie","affiche","actie"],
+     opts:["actie","anekdote","animatie","affiche"],
      ans:"anekdote",
      hint:"Think of a brief amusing story someone shares at a dinner party."},
 
@@ -144,7 +144,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Wie schrijft boeken en verhalen als beroep?",
-     opts:["een auteur","een acteur","een atleet","een adviseur"],
+     opts:["een atleet","een adviseur","een auteur","een acteur"],
      ans:"een auteur",
      hint:"Think about the person whose job is creating written works."}
   ]

@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 11: Famille et Relations
+// French B2 Gap Batch 9. Lesson 11: Famille et Relations
 // Family and relationship vocabulary
 
 const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨‍👩‍👧", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨�
    exampleSrc:"A: The oral bac exam is in two weeks.\nB: I'm terrified.",
    funFact:"The French baccalauréat includes both written (l'écrit) and oral (l'oral) exams."},
 
-  {type:"mc", q:"Les arrière-grands-parents sont:", opts:["Les parents de vos parents","Les grands-parents de vos parents","Les parents de vos grands-parents","Les frères de vos grands-parents"], ans:"Les parents de vos grands-parents",
+  {type:"mc", q:"Les arrière-grands-parents sont:", opts:["Les parents de vos grands-parents","Les frères de vos grands-parents","Les parents de vos parents","Les grands-parents de vos parents"], ans:"Les parents de vos grands-parents",
    hint:"Arrière adds one generation back. Grand-parent + one more = great-grandparent."},
 
   {type:"teach", trg:"l'intériorisation", src:"internalization", pos:"noun", gender:"f",
@@ -117,7 +117,7 @@ const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨�
     {trg:"le demi-tour", src:"U-turn"}
   ]},
 
-  {type:"mc", q:"'Donnant-donnant' exprime:", opts:["Un cadeau gratuit","Un échange équitable","Une compétition","Un refus"], ans:"Un échange équitable",
+  {type:"mc", q:"'Donnant-donnant' exprime:", opts:["Un refus","Un cadeau gratuit","Un échange équitable","Une compétition"], ans:"Un échange équitable",
    hint:"Giving-giving: both sides contribute equally. A fair deal."},
 
   {type:"fb", s:"Ce tableau est le {1} de celui qui est en face.", a:["pendant"], opts:["pendant","pire","demi-tour","oral"],

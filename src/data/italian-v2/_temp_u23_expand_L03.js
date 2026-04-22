@@ -56,7 +56,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What percentage of Italy's population are foreign residents?",
-     opts:["About 2%","About 8%","About 15%","About 25%"],
+     opts:["About 8%","About 15%","About 25%","About 2%"],
      ans:"About 8%",
      hint:"A... 5 million people. The largest communities come from Romania, Albania, Morocco, China, and Ukraine."},
 
@@ -86,7 +86,7 @@ const LESSON_6 = {
      sSrc:"Cultural {1} enriches society."},
 
     {type:"mc", q:"What is 'convivenza civile' in Italian education?",
-     opts:["A university entrance exam subject","The concept of peaceful coexistence now taught in schools","A historic political party platform","A type of student housing"],
+     opts:["A type of student housing","A university entrance exam subject","The concept of peaceful coexistence now taught in schools","A historic political party platform"],
      ans:"The concept of peaceful coexistence now taught in schools",
      hint:"It describes how different people live together respectfully. Italian s... n... teach it as a civic education subject."},
 
@@ -97,7 +97,7 @@ const LESSON_6 = {
      sSrc:"{1} requires effort from both sides."},
 
     {type:"mc", q:"What does 'pregiudizio' literally mean?",
-     opts:["Post-judgment (judging after the fact)","Pre-judgment (judging before knowing)","Legal judgment (a court decision)","Self-judgment (judging yourself)"],
+     opts:["Legal judgment (a court decision)","Self-judgment (judging yourself)","Post-judgment (judging after the fact)","Pre-judgment (judging before knowing)"],
      ans:"Pre-judgment (judging before knowing)",
      hint:"From 'p...-' (b...) and 'giudizio' (j...). Forming an opinion without examining evidence. 'Senza pregiudizi' is both legal and social."}
   ]

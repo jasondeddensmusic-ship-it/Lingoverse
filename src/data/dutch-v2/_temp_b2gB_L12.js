@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 12 — Gezondheid en Lichaam
+// Dutch B2 gapB Lesson 12. Gezondheid en Lichaam
 // Health, body, and medical vocabulary
 
 const LESSON_12 = {id:"nlv2_b2gB_l12", title:"Gezondheid en Lichaam", icon:"\u{1F3E5}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_12 = {id:"nlv2_b2gB_l12", title:"Gezondheid en Lichaam", icon:"\u{1
  funFact:"'Knus' overlaps with 'gezellig' but focuses more on physical warmth and comfort. A blanket can be knus, but a birthday party is gezellig."},
 
 {type:"mc", q:"'Met een korreltje zout nemen' betekent:",
- opts:["To add salt to food","To take something with skepticism","To eat very little","To be very precise"],
+ opts:["To take something with skepticism","To eat very little","To be very precise","To add salt to food"],
  ans:"To take something with skepticism",
  hint:"Same idiom as English: not fully believing what you hear"},
 
@@ -82,7 +82,7 @@ const LESSON_12 = {id:"nlv2_b2gB_l12", title:"Gezondheid en Lichaam", icon:"\u{1
 ]},
 
 {type:"mc", q:"'Gokverslaafd' betekent:",
- opts:["Lucky at gambling","Addicted to gambling","Against gambling","Good at gambling"],
+ opts:["Good at gambling","Lucky at gambling","Addicted to gambling","Against gambling"],
  ans:"Addicted to gambling",
  hint:"Gok (gamble) + verslaafd (a...). A compulsive gambler."},
 

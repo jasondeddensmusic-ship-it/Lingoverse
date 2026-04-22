@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 17 — Recht en Bestuur
+// Dutch B2 gapB Lesson 17. Recht en Bestuur
 // Law, justice, and governance vocabulary
 
 const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}"
  funFact:"Dutch universities offer many 'keuzevakken' (electives), reflecting the Dutch value of individual choice in education."},
 
 {type:"mc", q:"'De aangeklaagde' is:",
- opts:["The judge","The lawyer","The accused person","The witness"],
+ opts:["The accused person","The witness","The judge","The lawyer"],
  ans:"The accused person",
  hint:"From 'aanklagen' (to accuse). The p... being a... in court."},
 
@@ -82,7 +82,7 @@ const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}"
 ]},
 
 {type:"mc", q:"'Het rooster' kan twee dingen betekenen:",
- opts:["A schedule and a physical grid","A chicken and a clock","A student and a teacher","A book and a pen"],
+ opts:["A student and a teacher","A book and a pen","A schedule and a physical grid","A chicken and a clock"],
  ans:"A schedule and a physical grid",
  hint:"Both a timetable and a metal grating, depending on context"},
 

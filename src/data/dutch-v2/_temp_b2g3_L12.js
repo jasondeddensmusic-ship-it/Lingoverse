@@ -1,4 +1,4 @@
-// L12: Processes & Formal Actions — 20 B2 gap words
+// L12: Processes & Formal Actions, 20 B2 gap words
 const LESSON_12 = {
   id:"nlv2_b2g3_l12", title:"Processen en Formele Handelingen", icon:"\uD83D\uDCCB", xp:15, board:true,
   steps:[
@@ -95,7 +95,7 @@ const LESSON_12 = {
      deepDive:{title:"When to use Latin verbs vs native Dutch",
       text:"Latin verbs sound more formal and academic:\n'De situatie escaleert' (formal/news)\n'Het loopt uit de hand' (informal/spoken)\n\nBoth are correct, but the choice signals register. Academic papers prefer Latin verbs. Spoken Dutch prefers native compounds.\n\nException: some Latin verbs have no natural native equivalent: 'analyseren', 'organiseren', 'communiceren'. These are used at all registers because Dutch has no simple alternative."}},
     {type:"mc", q:"Wat betekent 'het onderspit delven'?",
-     opts:["een gat graven","verliezen","kolen mijnen","doorgraven"],
+     opts:["verliezen","kolen mijnen","doorgraven","een gat graven"],
      ans:"verliezen",
      hint:"An idiom with the formal verb 'delven' (to dig). 'Het onderspit' is the underside."},
     {type:"fb", s:"Dit schilderij {1} uit de zeventiende eeuw.", a:["dateert"],

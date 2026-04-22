@@ -1,4 +1,4 @@
-// Batch 4 — Unit 05, Lesson 2: Household Chores & Daily Tasks
+// Batch 4. Unit 05, Lesson 2: Household Chores & Daily Tasks
 const BATCH4_U05_L2 = {
   id:"itv2_u05l_b4_2", title:"Le faccende domestiche", icon:"\uD83E\uDDF9", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U05_L2 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'aspirapolvere' letteralmente?",
-     opts:["Dust-sucker","Floor-cleaner","Air-pusher","Dirt-eater"],
+     opts:["Dirt-eater","Dust-sucker","Floor-cleaner","Air-pusher"],
      ans:"Dust-sucker",
      hint:"Break it into two parts: aspira (sucks) + polvere (d...)."},
 
@@ -126,7 +126,7 @@ const BATCH4_U05_L2 = {
      sSrc:"Don't {1} away the old newspapers! I want to read them."},
 
     {type:"mc", q:"Perche gli italiani stendono i vestiti fuori?",
-     opts:["To dry laundry on clotheslines instead of using dryers","Because dryers are illegal","To show off their clothes","Because Italian fabric cannot be machine-dried"],
+     opts:["To show off their clothes","Because Italian fabric cannot be machine-dried","To dry laundry on clotheslines instead of using dryers","Because dryers are illegal"],
      ans:"To dry laundry on clotheslines instead of using dryers",
      hint:"Air-drying on lines between buildings is an iconic Italian urban sight."},
 
@@ -136,7 +136,7 @@ const BATCH4_U05_L2 = {
      sSrc:"Can you {1} me clean the kitchen?"},
 
     {type:"mc", q:"Cos'e la 'raccolta differenziata'?",
-     opts:["Sorted waste collection / recycling system","A type of Italian cooking","A museum collection","A traditional card game"],
+     opts:["A type of Italian cooking","A museum collection","A traditional card game","Sorted waste collection / recycling system"],
      ans:"Sorted waste collection / recycling system",
      hint:"Italian cities require separating trash into different bins for r...."}
   ,{type:"match",pairs:[{trg:"il bucato",src:"the laundry"},{trg:"la lavatrice",src:"the washing machine"},{trg:"pulito",src:"clean"},{trg:"ordinato",src:"tidy / organized"},{trg:"la spazzatura",src:"the garbage / trash"},{trg:"sistemare",src:"to tidy up / to fix / to arrange"}]},{type:"mc",q:"How do you say \"vacuum cleaner\" in Italian?",opts:["l'aspirapolvere","la finestra","il tavolo","la bicicletta"],ans:"l'aspirapolvere",hint:"Recall the Italian vocabulary word taught in this lesson."}]

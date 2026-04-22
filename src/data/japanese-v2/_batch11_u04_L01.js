@@ -91,7 +91,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「三百(さんびゃく)」はいくつですか？",
-     opts:["300","3,000","30","3"],
+     opts:["3","300","3,000","30"],
      ans:"300",
      hint:"百(ひゃく) means 100. When combined with 三(さん) (3), the ひ becomes び due to sound changes."},
 

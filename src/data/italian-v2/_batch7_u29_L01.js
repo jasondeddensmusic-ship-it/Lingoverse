@@ -1,4 +1,4 @@
-// Batch 7 — Unit 29 extra lesson. La psicologia: Motivation & Personal Growth
+// Batch 7. Unit 29 extra lesson. La psicologia: Motivation & Personal Growth
 const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita personale", icon:"\u{1F331}", xp:15, board:true, steps:[
 {type:"intro", title:"La motivazione e la crescita personale",
  desc:"Learn vocabulary for motivation, personal development, and self-improvement.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
 ]},
 
 {type:"mc", q:"Che cosa significa 'chi la dura la vince'?",
- opts:["Those who endure, win","Those who run, win","Those who start, win","Those who think, win"],
+ opts:["Those who think, win","Those who endure, win","Those who run, win","Those who start, win"],
  ans:"Those who endure, win",
  hint:"An Italian proverb about the value of persistence and not giving up."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u29l_b7_1", title:"La motivazione e la crescita pers
  sSrc:"You need to leave the {1} zone."},
 
 {type:"mc", q:"Che cosa significa 'grinta' in italiano?",
- opts:["Grit / fierce determination","Anger","Laziness","Intelligence"],
+ opts:["Laziness","Intelligence","Grit / fierce determination","Anger"],
  ans:"Grit / fierce determination",
  hint:"The highest compliment in Italian sports. Fighting with heart, not just talent."},
 

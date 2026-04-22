@@ -1,4 +1,4 @@
-// Batch 8 — Unit 15 extra lesson. Housing: Apartment Problems & Maintenance
+// Batch 8. Unit 15 extra lesson. Housing: Apartment Problems & Maintenance
 const BATCH8_L1 = {id:"itv2_u15l_b8_1", title:"Problemi in casa", icon:"🔧", xp:15, board:true, steps:[
 {type:"intro", title:"Problemi in casa",
  desc:"Learn vocabulary for common household problems, repairs, and dealing with maintenance issues.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u15l_b8_1", title:"Problemi in casa", icon:"🔧", x
 
 {type:"mc",
  q:"Why does 'rubinetto' literally mean 'little ruby'?",
- opts:["Medieval taps were shaped like small ruby-colored roosters","Taps were made of rubies","Taps were always red","Rubies were used to seal pipes"],
+ opts:["Rubies were used to seal pipes","Medieval taps were shaped like small ruby-colored roosters","Taps were made of rubies","Taps were always red"],
  ans:"Medieval taps were shaped like small ruby-colored roosters",
  hint:"The diminutive -etto is applied to 'rubino' (r...). The old tap handle shape resembled a s... rooster."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u15l_b8_1", title:"Problemi in casa", icon:"🔧", x
 
 {type:"mc",
  q:"How much is a typical rental deposit (caparra) in Italy?",
- opts:["Two to three months' rent","One week's rent","One year's rent","There is no deposit"],
+ opts:["One year's rent","There is no deposit","Two to three months' rent","One week's rent"],
  ans:"Two to three months' rent",
  hint:"Italian landlords require a substantial upfront payment, typically measured in months of rent."}
 ]};

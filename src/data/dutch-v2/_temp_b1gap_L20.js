@@ -1,4 +1,4 @@
-// L20: Mixed Vocabulary Roundup — 20 B1 gap words
+// L20: Mixed Vocabulary Roundup, 20 B1 gap words
 const LESSON_20 = {
   id:"nlv2_b1gap_l20", title:"Woordenschat Afronden", icon:"\u{1F4DA}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Je fiets is gestolen. Wat moet je doen bij de politie?",
-     opts:["aangifte doen","aanbrengen","achterzitten","arriveren"],
+     opts:["arriveren","aangifte doen","aanbrengen","achterzitten"],
      ans:"aangifte doen",
      hint:"What is the formal action of reporting a crime to the authorities?"},
 
@@ -144,7 +144,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Je bent mooi ___. Heb je een feestje?",
-     opts:["aangekleed","afgeladen","afgelopen","aangetekend"],
+     opts:["afgelopen","aangetekend","aangekleed","afgeladen"],
      ans:"aangekleed",
      hint:"Which word describes someone wearing nice clothes for an occasion?"},
 

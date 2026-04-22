@@ -36,7 +36,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Nella frase 'Benche creda che sia giusto,' quanti congiuntivi ci sono?",
-     opts:["Uno: 'creda'","Uno: 'sia'","Due: 'creda' e 'sia'","Nessuno"],
+     opts:["Due: 'creda' e 'sia'","Nessuno","Uno: 'creda'","Uno: 'sia'"],
      ans:"Due: 'creda' e 'sia'",
      hint:"Count the subjunctive forms. 'Benche' forces the first verb into the subjunctive, and 'che' after a verb of belief forces the second."},
 
@@ -94,7 +94,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Perche il doppio congiuntivo e piu comune nella lingua scritta che in quella parlata?",
-     opts:["Perche e grammaticalmente sbagliato nell'orale","Perche nell'orale i parlanti tendono a semplificare le strutture complesse usando l'indicativo","Perche la lingua scritta ha regole diverse","Perche il congiuntivo non esiste nell'italiano parlato"],
+     opts:["Perche il congiuntivo non esiste nell'italiano parlato","Perche e grammaticalmente sbagliato nell'orale","Perche nell'orale i parlanti tendono a semplificare le strutture complesse usando l'indicativo","Perche la lingua scritta ha regole diverse"],
      ans:"Perche nell'orale i parlanti tendono a semplificare le strutture complesse usando l'indicativo",
      hint:"In spontaneous speech, managing two subjunctive forms in one sentence is cognitively demanding. Speakers naturally simplify, replacing one or both with the indicative."}
   ]

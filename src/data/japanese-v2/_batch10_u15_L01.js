@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"歩行者天国(ほこうしゃてんごく)", src:"pedestrian zone"}
     ]},
 
-    {type:"mc", q:"What does 歩行者天国(ほこうしゃてんごく) literally mean?", opts:["Pedestrian heaven","Walking zone","Car-free road","Sunday market"], ans:"Pedestrian heaven",
+    {type:"mc", q:"What does 歩行者天国(ほこうしゃてんごく) literally mean?", opts:["Sunday market","Pedestrian heaven","Walking zone","Car-free road"], ans:"Pedestrian heaven",
      hint:"This poetic Japanese term for car-free zones combines 'p...' with 'h.../paradise.'"}
   ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / marker"},{trg:"一方通行(いっぽうつうこう)",src:"one-way street"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"}]}]
 };

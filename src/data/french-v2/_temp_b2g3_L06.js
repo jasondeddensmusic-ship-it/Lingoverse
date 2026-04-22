@@ -86,7 +86,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel meuble a des tiroirs et sert à ranger des vêtements ?",
-     opts:["une commode","un coffre-fort","un châssis","un débarras"],
+     opts:["un débarras","une commode","un coffre-fort","un châssis"],
      ans:"une commode",
      hint:"This word is also an adjective meaning convenient. As furniture, it has multiple drawers."},
 

@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"택시를 탈 때 내는 돈을 뭐라고 해요?",
-     opts:["예금","요금","용돈","임금"],
+     opts:["요금","용돈","임금","예금"],
      ans:"요금",
      hint:"This word means the fare or charge for using a service like transportation."},
 
@@ -149,7 +149,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"'사업을 더 크게 만들다'는 무슨 뜻이에요?",
-     opts:["확대하다","포함하다","제한하다","이용하다"],
+     opts:["이용하다","확대하다","포함하다","제한하다"],
      ans:"확대하다",
      hint:"This verb means to make something bigger or broader in scope."}
   ]

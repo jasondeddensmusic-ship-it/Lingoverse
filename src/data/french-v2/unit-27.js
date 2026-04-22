@@ -1,4 +1,4 @@
-// Unit 27 — La Nominalisation
+// Unit 27. La Nominalisation
 // Academic register and formal writing
 
 export default {n:27,lang:"fr",srcLang:"en",track:"v2",title:"La Nominalisation",sub:"Academic register and formal writing",icon:"📝",level:"B2.3",color:"#7B5EE8",lessons:[

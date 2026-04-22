@@ -32,13 +32,13 @@ const LESSON_13 = {id:"esv2_b2g3_l13", title:"Destrucción y declive", icon:"�
 
   {type:"teach", trg:"la desviación", src:"the deviation / detour", pos:"noun", gender:"f", note:"Straying from a path or standard.\nDesviación típica = standard deviation (statistics).", example:"A: Hay una desviación en la carretera por obras.\nB: Tendremos que ir por otro camino.", exampleSrc:"A: There's a detour on the road due to construction.\nB: We'll have to go another way.", funFact:"In statistics, desviación típica (standard deviation) is essential vocabulary. From desviar (to divert from the path)."},
 
-  {type:"mc", q:"¿Qué es un desperfecto?", opts:["Un daño menor y reparable","Una destrucción total","Un desastre natural","Una mejora inesperada"], ans:"Un daño menor y reparable", hint:"The word literally means 'un-perfection': a flaw or minor damage that can be fixed."},
+  {type:"mc", q:"¿Qué es un desperfecto?", opts:["Una mejora inesperada","Un daño menor y reparable","Una destrucción total","Un desastre natural"], ans:"Un daño menor y reparable", hint:"The word literally means 'un-perfection': a flaw or minor damage that can be fixed."},
 
   {type:"match", pairs:[{trg:"devastar", src:"to devastate"},{trg:"desplome", src:"collapse / plunge"},{trg:"desperdicio", src:"waste"},{trg:"descenso", src:"descent / decline"},{trg:"desolación", src:"desolation"}]},
 
   {type:"fb", s:"Las ventas se han {1} un cuarenta por ciento este mes.", a:["desplomado"], opts:["desplomado","derrumbado","devastado","desviado"], hint:"To drop dramatically and suddenly, like lead falling. Used for prices, sales, and markets.", sSrc:"Sales have {1} forty percent this month."},
 
-  {type:"mc", q:"'El desperdicio de comida' se refiere a...", opts:["Tirar comida que se podría haber aprovechado","Cocinar demasiada comida","Comprar comida cara","Comer muy rápido"], ans:"Tirar comida que se podría haber aprovechado", hint:"Food that could have been used but was thrown away instead. A global problem."},
+  {type:"mc", q:"'El desperdicio de comida' se refiere a...", opts:["Comprar comida cara","Comer muy rápido","Tirar comida que se podría haber aprovechado","Cocinar demasiada comida"], ans:"Tirar comida que se podría haber aprovechado", hint:"Food that could have been used but was thrown away instead. A global problem."},
 
   {type:"fb", s:"La gestión del proyecto fue {1}, perdimos tiempo y dinero.", a:["desastrosa"], opts:["desastrosa","destructiva","desoladora","desviada"], hint:"Describes something that went terribly wrong, involving multiple failures.", sSrc:"The project management was {1}, we lost time and money."}
 ]};

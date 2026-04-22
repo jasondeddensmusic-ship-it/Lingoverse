@@ -1,4 +1,4 @@
-// Unit 20 — Antes de Eso
+// Unit 20. Antes de Eso
 // Pluscuamperfecto & Reported Speech
 
 export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:"Pluscuamperfecto & Reported Speech",icon:"⏮️",level:"B1.2",color:"#7B5EE8",lessons:[

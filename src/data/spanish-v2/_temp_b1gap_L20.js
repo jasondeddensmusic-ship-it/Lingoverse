@@ -99,7 +99,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 objeto tradicional espa\u00f1ol mantiene el agua fresca?",
-     opts:["el botijo","el alfajor","el bong\u00f3","el bast\u00f3n"],
+     opts:["el bast\u00f3n","el botijo","el alfajor","el bong\u00f3"],
      ans:"el botijo",
      hint:"A porous clay vessel that uses evaporation to cool water naturally, used for centuries in Spain."},
 

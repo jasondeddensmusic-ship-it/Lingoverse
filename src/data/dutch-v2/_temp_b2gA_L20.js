@@ -14,7 +14,7 @@ const LESSON_20 = {
     {type:"teach", trg:"de vooruitgang", src:"the progress", pos:"noun", gender:"c", note:"From vooruit (forward) + gang (movement). Forward movement.", example:"A: Maken we vooruitgang?\nB: Zeker, we liggen voor op schema.", exampleSrc:"A: Are we making progress?\nB: Definitely, we're ahead of schedule.", funFact:"Three-part compound: voor (before) + uit (out) + gang (going). Triple Germanic precision."},
     {type:"mc", q:"Wat betekent 'samenvatting'?", opts:["A summary","A conversation","A conclusion","An experience"], ans:"A summary", hint:"Think about the parts: samen (together) + vatten (to grasp). Grasping things together."},
     {type:"fb", s:"De {1} van het onderzoek laat zien dat meer inspanning nodig is.", a:["conclusie"], opts:["conclusie","samenvatting","ervaring","bijdrage"], hint:"The final judgment drawn from research findings. What comes at the end of an argument?", sSrc:"The {1} of the research shows that more effort is needed."},
-    {type:"mc", q:"Welk woord betekent 'responsibility' in het Nederlands?", opts:["verantwoordelijkheid","mogelijkheid","ontwikkeling","vooruitgang"], ans:"verantwoordelijkheid", hint:"The longest word in this lesson. It contains 'verantwoord' (accountable)."},
+    {type:"mc", q:"Welk woord betekent 'responsibility' in het Nederlands?", opts:["vooruitgang","verantwoordelijkheid","mogelijkheid","ontwikkeling"], ans:"verantwoordelijkheid", hint:"The longest word in this lesson. It contains 'verantwoord' (accountable)."},
     {type:"match", pairs:[{trg:"toekomst",src:"future"},{trg:"ervaring",src:"experience"},{trg:"bijdrage",src:"contribution"},{trg:"vooruitgang",src:"progress"}]}
   ]
 };

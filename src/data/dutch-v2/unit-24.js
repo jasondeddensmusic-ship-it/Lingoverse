@@ -1,4 +1,4 @@
-// Unit 24 — Academisch Nederlands
+// Unit 24. Academisch Nederlands
 // Participials, Cleft Sentences & Academic Writing
 
 export default {n:24,lang:"nl",srcLang:"en",track:"v2",title:"Academisch Nederlands",sub:"Participials, Cleft Sentences & Academic Writing",icon:"🎓",level:"B2.1",color:"#7B5EE8",lessons:[

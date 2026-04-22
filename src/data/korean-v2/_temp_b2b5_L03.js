@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 3: Debt, Family, and Analysis
+// Korean B2. Batch 5, Lesson 3: Debt, Family, and Analysis
 // Words: 부채, 부치다, 부친, 부탁, 부품, 부피, 부회장, 북, 북부, 분노, 분량, 분리, 분리되다, 분리하다, 분명하다, 분명해지다, 분석, 분야, 분주하다, 분포하다
 
 const LESSON_3 = {

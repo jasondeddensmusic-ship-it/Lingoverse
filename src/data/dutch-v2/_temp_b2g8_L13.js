@@ -1,4 +1,4 @@
-// Lesson 13 — Media & Communication
+// Lesson 13. Media & Communication
 const LESSON_13 = {id:"nlv2_b2g8_l13", title:"Media en Communicatie", icon:"\u{1F4F0}", xp:20, board:true, steps:[
 {type:"intro", title:"Media en Communicatie", desc:"Media vocabulary for discussing journalism, information sources, and the changing media landscape in Dutch.", goals:["Learn 10 media and communication words","Discuss news sources and journalism","Understand Dutch media terminology"]},
 {type:"teach", trg:"het item", src:"the item, the news segment", pos:"noun", gender:"n", note:"Het-word. From English.\nPlural: items.\n'Een nieuwsitem' = a news segment.\n'Het volgende item.'", example:"A: Heb je dat item op het journaal gezien?\nB: Over de overstromingen?\nA: Ja, heel indrukwekkend.\nB: De beelden waren schokkend.", exampleSrc:"A: Did you see that segment on the news?\nB: About the flooding?\nA: Yes, very impressive.\nB: The images were shocking.", funFact:"'Het journaal' is the main Dutch TV news program, broadcast on NPO 1. It has been running since 1956."},
@@ -14,7 +14,7 @@ const LESSON_13 = {id:"nlv2_b2g8_l13", title:"Media en Communicatie", icon:"\u{1
 {type:"mc", q:"Wat is een informaticus?", opts:["Een computerwetenschapper","Een journalist","Een bibliothecaris","Een docent"], ans:"Een computerwetenschapper", hint:"Someone who studies the science of computing and information systems"},
 {type:"fb", s:"Ken je het {1} 'wie het laatst lacht, lacht het best'?", a:["gezegde"], opts:["gezegde","gejoel","kapsel","item"], hint:"A traditional saying or proverb passed down through generations", sSrc:"Do you know the {1} 'he who laughs last, laughs best'?"},
 {type:"match", pairs:[{trg:"het item", src:"news segment"},{trg:"de feministe", src:"feminist (f)"},{trg:"het kapsel", src:"hairstyle"},{trg:"de hostess", src:"hostess"}]},
-{type:"mc", q:"Aletta Jacobs streed voor:", opts:["Vrouwenkiesrecht","Milieubescherming","Persvrijheid","Onderwijshervorming"], ans:"Vrouwenkiesrecht", hint:"She fought for women's right to vote, achieved in 1919"},
+{type:"mc", q:"Aletta Jacobs streed voor:", opts:["Onderwijshervorming","Vrouwenkiesrecht","Milieubescherming","Persvrijheid"], ans:"Vrouwenkiesrecht", hint:"She fought for women's right to vote, achieved in 1919"},
 {type:"fb", s:"Het {1} was oorverdovend. Het publiek juichte.", a:["gejoel"], opts:["gejoel","gezegde","kapsel","dialectniveau"], hint:"The loud noise of a crowd cheering or jeering", sSrc:"The {1} was deafening. The audience cheered."},
 {type:"drag_fill", s:"Er ligt {1} bij de receptie. Het gaat over de nieuwe {2}.", blanks:{"1":"informatiemateriaal","2":"regels"}, pool:["informatiemateriaal","regels","documentatiemateriaal","wetten"], hint:"Brochures and leaflets about new regulations at the front desk."}
 ]};

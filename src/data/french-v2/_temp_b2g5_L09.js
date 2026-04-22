@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 9 — Technology and Innovation
+// French B2 Gap Lesson 9. Technology and Innovation
 const LESSON_9 = {id:"frv2_b2g5_l9", title:"Technologie et innovation", icon:"💡", xp:15, board:true, steps:[
   {type:"intro", title:"Technologie et innovation",
    desc:"Learn vocabulary for discussing technology, digital culture, and innovation at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_9 = {id:"frv2_b2g5_l9", title:"Technologie et innovation", icon:"�
    funFact:"From 'in-' (not) + 'usité' (used). 'Usité' itself is quite formal and somewhat inusité!"},
 
   {type:"mc", q:"Quel adjectif décrit une stratégie qui ne produit aucun résultat?",
-   opts:["Inopérante","Ingénieuse","Explosive","Inusitée"],
+   opts:["Inusitée","Inopérante","Ingénieuse","Explosive"],
    ans:"Inopérante",
    hint:"Not operating or producing the desired effect at all"},
 
@@ -105,7 +105,7 @@ const LESSON_9 = {id:"frv2_b2g5_l9", title:"Technologie et innovation", icon:"�
   ]},
 
   {type:"mc", q:"Que signifie 'une inflexion de la politique'?",
-   opts:["Un changement de direction subtil","Une explosion soudaine","Une connexion nouvelle","Un dérivé chimique"],
+   opts:["Une connexion nouvelle","Un dérivé chimique","Un changement de direction subtil","Une explosion soudaine"],
    ans:"Un changement de direction subtil",
    hint:"A bend or shift, not a dramatic reversal but a noticeable change in d..."},
 
@@ -120,7 +120,7 @@ const LESSON_9 = {id:"frv2_b2g5_l9", title:"Technologie et innovation", icon:"�
    hint:"A by-product from petroleum housed in a lightweight metal casing"},
 
   {type:"mc", q:"Quel mot décrit quelque chose qui n'est plus utilisé de nos jours?",
-   opts:["Inusité","Ingénieux","Inopérant","Indicible"],
+   opts:["Ingénieux","Inopérant","Indicible","Inusité"],
    ans:"Inusité",
    hint:"Rarely or no longer in use, fallen out of common practice"}
 ]};

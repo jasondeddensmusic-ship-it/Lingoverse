@@ -1,4 +1,4 @@
-// L05: Environment & Nature — 20 B2 gap words
+// L05: Environment & Nature, 20 B2 gap words
 const LESSON_5 = {
   id:"nlv2_b2gap_l5", title:"Milieu en Natuur", icon:"\uD83C\uDF3F", xp:15, board:true,
   steps:[
@@ -110,11 +110,11 @@ const LESSON_5 = {
      deepDive:{title:"Dutch water management vocabulary",
       text:"The Netherlands exists because of water management. Key vocabulary:\n\n'De dijk' = the dike\n'De polder' = reclaimed land below sea level\n'Het waterschap' = water board (elected authority)\n'De sluis' = the lock (for boats)\n'Het gemaal' = the pumping station\n'De Deltawerken' = the Delta Works (storm surge barrier)\n\nThe saying 'God created the world, but the Dutch created the Netherlands' reflects how central water engineering is to Dutch identity."}},
     {type:"mc", q:"What does 'aardverschuiving' literally mean?",
-     opts:["earthquake","earth shift/landslide","ground collapse","soil erosion"],
+     opts:["earth shift/landslide","ground collapse","soil erosion","earthquake"],
      ans:"earth shift/landslide",
      hint:"'Aard' means e..., 'verschuiving' means s... or slide."},
     {type:"mc", q:"Which word means 'dredging work'?",
-     opts:["baggerwerk","bosbouw","boomwoning","biodiesel"],
+     opts:["biodiesel","baggerwerk","bosbouw","boomwoning"],
      ans:"baggerwerk",
      hint:"The Dutch are world-famous for removing silt from waterways."},
     {type:"fb", s:"Er stroomt een {1} door het bos.", a:["beek"],
@@ -132,7 +132,7 @@ const LESSON_5 = {
       {trg:"biodiesel", src:"biodiesel"}
     ]},
     {type:"mc", q:"'Baggeren' in slang means:",
-     opts:["fantastic","terrible","funny","expensive"],
+     opts:["expensive","fantastic","terrible","funny"],
      ans:"terrible",
      hint:"Think of unpleasant mud from the bottom of a canal."},
     {type:"fb", s:"De minister beging een enorme {1}.", a:["blunder"],

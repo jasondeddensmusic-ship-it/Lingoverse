@@ -86,7 +86,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel mot designe le modele original dont d'autres sont copies ?",
-     opts:["un archetype","un derive","un decimetre","un criminologue"],
+     opts:["un criminologue","un archetype","un derive","un decimetre"],
      ans:"un archetype",
      hint:"From Greek 'arche' (first) and 'typos' (model). Jung made it a psychology concept."},
 
@@ -113,7 +113,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Que signifie 'herculeen' ?",
-     opts:["Qui demande une force surhumaine","Qui est tres facile","Qui est invisible","Qui est rapide"],
+     opts:["Qui est invisible","Qui est rapide","Qui demande une force surhumaine","Qui est tres facile"],
      ans:"Qui demande une force surhumaine",
      hint:"Named after the Roman demigod Hercules, known for his incredible strength."}
   ]

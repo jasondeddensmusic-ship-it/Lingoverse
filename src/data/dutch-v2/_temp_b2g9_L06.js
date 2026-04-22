@@ -19,10 +19,10 @@ const LESSON_6 = {id:"nlv2_b2g9_l6", title:"Kantoor & Carriere", icon:"\u{1F4BC}
   {type:"fb", s:"Wanneer is je datum van {1}?", a:["indiensttreding"], opts:["indiensttreding","jaarbasis","kantoorleven","jaarsalaris"], hint:"The formal HR term for when you start a new job, entering service", sSrc:"When is your date of {1}?"},
   {type:"fb", s:"Het {1} is net gepubliceerd.", a:["jaarverslag"], opts:["jaarverslag","jaarsalaris","kantoorvertrek","kantoorleven"], hint:"The document a company publishes yearly with its financial results", sSrc:"The {1} has just been published."},
   {type:"match", pairs:[{trg:"de jobmarkt", src:"job market"},{trg:"het jaarsalaris", src:"annual salary"},{trg:"de jaarbasis", src:"annual basis"},{trg:"het jaarverslag", src:"annual report"}]},
-  {type:"mc", q:"Welk beroep is breder dan 'advocaat'?", opts:["de ingenieur","de jurist","de informaticus","de historicus"], ans:"de jurist", hint:"This legal professional title includes lawyers, judges, and notaries"},
+  {type:"mc", q:"Welk beroep is breder dan 'advocaat'?", opts:["de historicus","de ingenieur","de jurist","de informaticus"], ans:"de jurist", hint:"This legal professional title includes lawyers, judges, and notaries"},
   {type:"fb", s:"We zoeken een ervaren {1} voor IT-beveiliging.", a:["informaticus"], opts:["informaticus","historicus","jurist","ingenieur"], hint:"A specialist in computer science and information technology", sSrc:"We're looking for an experienced {1} for IT security."},
   {type:"match", pairs:[{trg:"de ingenieur", src:"engineer"},{trg:"de informaticus", src:"IT specialist"},{trg:"de historicus", src:"historian"},{trg:"de kenner", src:"connoisseur"}]},
-  {type:"mc", q:"Welk lidwoord hoort bij 'jaarsalaris'?", opts:["de","het","een","dat"], ans:"het", hint:"The same neuter article as 'het jaarverslag' and 'het kantoorvertrek'"},
+  {type:"mc", q:"Welk lidwoord hoort bij 'jaarsalaris'?", opts:["een","dat","de","het"], ans:"het", hint:"The same neuter article as 'het jaarverslag' and 'het kantoorvertrek'"},
   {type:"fb", s:"Hij is een echte {1} van Nederlandse kunst.", a:["kenner"], opts:["kenner","jurist","historicus","ingenieur"], hint:"An expert or connoisseur, someone who truly knows their subject", sSrc:"He is a true {1} of Dutch art."}
 ]};
 export default LESSON_6;

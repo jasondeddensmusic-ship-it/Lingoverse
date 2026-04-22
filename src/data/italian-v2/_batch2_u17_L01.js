@@ -74,7 +74,7 @@ const BATCH2_U17_L1 = {
 
     // Quiz steps
     {type:"mc", q:"How is 'AI' abbreviated in Italian?",
-     opts:["AI (same as English)","IA (reversed initials)","IN (for Intelligenza Nuova)","AS (for Artificiale Smart)"],
+     opts:["IA (reversed initials)","IN (for Intelligenza Nuova)","AS (for Artificiale Smart)","AI (same as English)"],
      ans:"IA (reversed initials)",
      hint:"'Intelligenza Artificiale' puts 'Intelligenza' first. The abbreviation follows Italian word order: IA, not AI."},
 
@@ -104,7 +104,7 @@ const BATCH2_U17_L1 = {
      sSrc:"Scan the QR {1} for the restaurant menu."},
 
     {type:"mc", q:"Why was Italy notable in the AI regulation space?",
-     opts:["Italy created the world's first AI system","Italy was the first EU country to temporarily restrict ChatGPT","Italy banned all AI research permanently","Italy built a national AI computer system"],
+     opts:["Italy built a national AI computer system","Italy created the world's first AI system","Italy was the first EU country to temporarily restrict ChatGPT","Italy banned all AI research permanently"],
      ans:"Italy was the first EU country to temporarily restrict ChatGPT",
      hint:"The 'Garante della Privacy' (Privacy Authority) cited data protection concerns under GDPR when taking this action in 2023."},
 
@@ -115,9 +115,9 @@ const BATCH2_U17_L1 = {
      sSrc:"The {1} is too slow. Let's switch providers."},
 
     {type:"mc", q:"What does 'itanglese' refer to?",
-     opts:["A dialect spoken in southern Italy","The mix of Italian and English in modern Italian speech","An ancient Italian language form","A type of Italian hand gesture"],
+     opts:["An ancient Italian language form","A type of Italian hand gesture","A dialect spoken in southern Italy","The mix of Italian and English in modern Italian speech"],
      ans:"The mix of Italian and English in modern Italian speech",
      hint:"I... creators often blend the two languages, especially in tech and digital contexts. It is a characteristic of m... communication."}
-  ,{type:"match",pairs:[{trg:"il commercio elettronico",src:"e-commerce / online shopping"},{trg:"il backup",src:"the backup (data)"},{trg:"lo smartphone",src:"the smartphone"},{trg:"il tutorial",src:"the tutorial"}]},{type:"mc",q:"How do you say \"artificial intelligence\" in Italian?",opts:["la finestra","il tavolo","l'intelligenza artificiale","la bicicletta"],ans:"l'intelligenza artificiale",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il commercio elettronico",src:"e-commerce / online shopping"},{trg:"il backup",src:"the backup (data)"},{trg:"lo smartphone",src:"the smartphone"},{trg:"il tutorial",src:"the tutorial"}]},{type:"mc",q:"How do you say \"artificial intelligence\" in Italian?",opts:["l'intelligenza artificiale","la bicicletta","la finestra","il tavolo"],ans:"l'intelligenza artificiale",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U17_L1;

@@ -77,7 +77,7 @@ lessons:[
  sSrc:"We need to verify this theory through {1}."},
 
 {type:"mc", q:"数据(shùjù) literally means:",
- opts:["Numerical evidence","Written notes","Personal opinions","Historical records"],
+ opts:["Historical records","Numerical evidence","Written notes","Personal opinions"],
  ans:"Numerical evidence",
  hint:"数 means number, and 据 means basis or …. Data is factual information in measurable form."},
 
@@ -137,7 +137,7 @@ lessons:[
  sSrc:"Practicing every day is the best study {1}."},
 
 {type:"mc", q:"你(nǐ)的(de)中文(Zhōngwén)进步(jìnbù)很(hěn)大(dà)！ This is:",
- opts:["A compliment about improvement","A criticism about mistakes","A question about plans","A suggestion about study"],
+ opts:["A suggestion about study","A compliment about improvement","A criticism about mistakes","A question about plans"],
  ans:"A compliment about improvement",
  hint:"进步 means progress or ___. 很大 means very big. Telling someone they have improved a lot is a warm ___."},
 
@@ -203,7 +203,7 @@ lessons:[
  sSrc:"{1} is the driving force of economic development."},
 
 {type:"mc", q:"基因(jīyīn)技术(jìshù)的(de)发展(fāzhǎn)带来(dàilái)了(le)道德(dàodé)问题(wèntí)。 This means:",
- opts:["Genetic technology's development has brought ethical issues","Gene technology is too expensive","Genetic research has stopped","Gene editing is illegal"],
+ opts:["Gene editing is illegal","Genetic technology's development has brought ethical issues","Gene technology is too expensive","Genetic research has stopped"],
  ans:"Genetic technology's development has brought ethical issues",
  hint:"道德问题 means moral/… …. The sentence acknowledges that scientific progress raises … questions."},
 
@@ -246,7 +246,7 @@ lessons:[
  sSrc:"We need more {1} to support this theory."},
 
 {type:"mc", q:"过程(guòchéng) emphasizes:",
- opts:["The journey from start to finish","Only the final result","Only the beginning","The cost of something"],
+ opts:["The cost of something","The journey from start to finish","Only the final result","Only the beginning"],
  ans:"The journey from start to finish",
  hint:"过 means to pass through, and 程 means ___. The word describes the full progression of an experience."},
 
@@ -271,7 +271,7 @@ lessons:[
  sSrc:"Your Chinese {1} is big!"},
 
 {type:"mc", q:"系统(xìtǒng) originally involves the image of:",
- opts:["A silk thread connecting things","A stone wall","A flowing river","A growing tree"],
+ opts:["A flowing river","A growing tree","A silk thread connecting things","A stone wall"],
  ans:"A silk thread connecting things",
  hint:"系 originally depicted a ___ ___. A system is ___ bound together, unified and connected."},
 
@@ -282,7 +282,7 @@ lessons:[
  hint:"Scientists used a new method, conducted experiments, collected lots of data, and proved the theory correct."},
 
 {type:"mc", q:"创新(chuàngxīn) shares the character 创(chuàng) with 创作(chuàngzuò). Both words share the idea of:",
- opts:["Bringing something new into existence","Destroying something old","Copying something","Analyzing something"],
+ opts:["Destroying something old","Copying something","Analyzing something","Bringing something new into existence"],
  ans:"Bringing something new into existence",
  hint:"创 means to initiate or begin ___ new. Both 创新 and 创作 involve original creation."}
 ]}

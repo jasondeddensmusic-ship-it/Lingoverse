@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 19: Hands and Traditions
+// Korean B2. Batch 5, Lesson 19: Hands and Traditions
 // Words: 손발, 손뼉, 손수, 손수건, 손쉽다, 손실, 손자, 손잡다, 손잡이, 손질, 손질하다, 손톱, 손해, 솜, 솜씨, 솟다, 송아지, 송이, 송편, 쇠
 
 const LESSON_19 = {

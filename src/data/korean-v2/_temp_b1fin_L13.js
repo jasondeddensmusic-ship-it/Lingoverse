@@ -38,7 +38,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"어떤 것이 진짜인지 아닌지 확실하지 않을 때 하는 것은?",
-     opts:["의미하다","의심하다","의하다","확인하다"],
+     opts:["의심하다","의하다","확인하다","의미하다"],
      ans:"의심하다",
      hint:"This verb means to have reservations about whether something is true."},
 

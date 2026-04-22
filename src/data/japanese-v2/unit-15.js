@@ -220,7 +220,7 @@ const UNIT_15 = {
    exampleSrc:"A: Have you ever climbed Mount Fuji?\nB: No, but I love mountains.",
    funFact:"山 is one of the first kanji most people learn because its shape clearly pictures three mountain peaks. Japan has over 100 mountains above 2,000 meters. The honorific prefix 富士山 (Mt. Fuji) uses さん, the same suffix as for people, showing deep respect for the mountain."},
 
-  {type:"mc", q:"橋(はし)を渡(わた)る means:", opts:["climb a mountain","cross a bridge","walk on a road","reach the station"], ans:"cross a bridge",
+  {type:"mc", q:"橋(はし)を渡(わた)る means:", opts:["cross a bridge","walk on a road","reach the station","climb a mountain"], ans:"cross a bridge",
    hint:"渡る means to …, and 橋 is the structure over water."},
 
   {type:"teach", trg:"借(か)りる", src:"to borrow", pos:"verb", gender:null,
@@ -256,7 +256,7 @@ const UNIT_15 = {
    exampleSrc:"A: Have you ever stayed at a Japanese inn?\nB: Yes, I stayed there last year with friends.",
    funFact:"泊まる contains the kanji 泊 (overnight), which combines water (氵) and white (白). Legend says it evokes a boat anchored overnight on still water. The counter for nights is 泊(はく): 一泊(いっぱく) = one night, 二泊(にはく) = two nights. Hotel check-in forms ask 何泊(なんはく)ですか？"},
 
-  {type:"mc", q:"お金(かね)を払(はら)う means:", opts:["to borrow money","to lend money","to pay money","to return money"], ans:"to pay money",
+  {type:"mc", q:"お金(かね)を払(はら)う means:", opts:["to lend money","to pay money","to return money","to borrow money"], ans:"to pay money",
    hint:"This verb describes giving money at a shop or restaurant."},
 
   {type:"fb", s:"この本(ほん)は図書館(としょかん)に{1}します。\n(I will return this book to the library.)", a:"返(かえ)", opts:["返(かえ)","貸(か)","借(か)","払(はら)"], sSrc:"I will return this book to the library.",
@@ -271,7 +271,7 @@ const UNIT_15 = {
 
   {type:"match", pairs:[{trg:"道(みち)",src:"road / path"},{trg:"橋(はし)",src:"bridge"},{trg:"海(うみ)",src:"sea / ocean"},{trg:"山(やま)",src:"mountain"}]},
 
-  {type:"mc", q:"泊(と)まる means:", opts:["to travel","to stay overnight","to check out","to book a room"], ans:"to stay overnight",
+  {type:"mc", q:"泊(と)まる means:", opts:["to book a room","to travel","to stay overnight","to check out"], ans:"to stay overnight",
    hint:"This verb describes spending the night at a hotel or inn."},
 
   {type:"fb", s:"ホテルに一晩(ひとばん){1}ました。\n(I stayed overnight at the hotel.)", a:"泊(と)ま", opts:["泊(と)ま","借(か)り","払(はら)","返(かえ)し"], sSrc:"I stayed overnight at the hotel.",
@@ -280,10 +280,10 @@ const UNIT_15 = {
   {type:"fb", s:"海(うみ)まで{1}を渡(わた)ってください。\n(Please cross the bridge to reach the sea.)", a:"橋(はし)", opts:["橋(はし)","山(やま)","道(みち)","信号(しんごう)"], sSrc:"Please cross the bridge to reach the sea.",
    hint:"The structure built over water for crossing."},
 
-  {type:"mc", q:"貸(か)す means:", opts:["to borrow","to lend","to return","to pay"], ans:"to lend",
+  {type:"mc", q:"貸(か)す means:", opts:["to return","to pay","to borrow","to lend"], ans:"to lend",
    hint:"You give something to someone temporarily. They will give it back later."},
 
-  {type:"mc", q:"Which sentence means 'I borrowed money from a friend'?", opts:["友達(ともだち)にお金(かね)を貸(か)しました","友達(ともだち)にお金(かね)を借(か)りました","友達(ともだち)にお金(かね)を返(かえ)しました","友達(ともだち)にお金(かね)を払(はら)いました"], ans:"友達(ともだち)にお金(かね)を借(か)りました",
+  {type:"mc", q:"Which sentence means 'I borrowed money from a friend'?", opts:["友達(ともだち)にお金(かね)を借(か)りました","友達(ともだち)にお金(かね)を返(かえ)しました","友達(ともだち)にお金(かね)を払(はら)いました","友達(ともだち)にお金(かね)を貸(か)しました"], ans:"友達(ともだち)にお金(かね)を借(か)りました",
    hint:"に marks the source when you receive something temporarily."},
 ]}
 ,

@@ -87,7 +87,7 @@ const LESSON_4 = {
      sSrc:"I need to {1} the kitchen."},
 
     {type:"mc", q:"What does the -trice suffix create?",
-     opts:["Feminine machine nouns","Masculine nouns","Verb forms","Adjectives"],
+     opts:["Adjectives","Feminine machine nouns","Masculine nouns","Verb forms"],
      ans:"Feminine machine nouns",
      hint:"Lavare + -trice = lavatrice. This suffix attaches to a verb stem to name the device performing the action."},
 
@@ -106,7 +106,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"What is 'il pavimento'?",
-     opts:["The floor","The pavement","The wall","The ceiling"],
+     opts:["The wall","The ceiling","The floor","The pavement"],
      ans:"The floor",
      hint:"From Latin 'pavimentum' (beaten surface). In Italian, this word applies to indoor surfaces, not outdoor pavement."},
 
@@ -117,7 +117,7 @@ const LESSON_4 = {
      sSrc:"The clothes are in the {1}."},
 
     {type:"mc", q:"What is the opposite of 'sporco'?",
-     opts:["Pulito","Bello","Grande","Nuovo"],
+     opts:["Bello","Grande","Nuovo","Pulito"],
      ans:"Pulito",
      hint:"One means dirty, the other means clean. The clean word comes from Latin 'polire' (to polish)."},
 

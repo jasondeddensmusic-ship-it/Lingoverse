@@ -92,7 +92,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel terme designe un mouvement proposant une mondialisation differente ?",
-     opts:["altermondialiste","communiste","confederaliste","conformiste"],
+     opts:["conformiste","altermondialiste","communiste","confederaliste"],
      ans:"altermondialiste",
      hint:"Not anti-globalization but pro-alternative globalization. Think 'alter' (other) + 'monde' (world)."},
 
@@ -137,7 +137,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot designe la lignee familiale d'une personne ?",
-     opts:["l'ascendance","l'allegresse","l'antipathie","l'avenement"],
+     opts:["l'antipathie","l'avenement","l'ascendance","l'allegresse"],
      ans:"l'ascendance",
      hint:"Your family tree going back through generations. Think of 'ascending' through time."},
 

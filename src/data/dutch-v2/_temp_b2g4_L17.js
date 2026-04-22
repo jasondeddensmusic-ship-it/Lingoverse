@@ -1,4 +1,4 @@
-// L17: Law, Justice & Formal Register — 20 B2 gap words
+// L17: Law, Justice & Formal Register, 20 B2 gap words
 const LESSON_17 = {
   id:"nlv2_b2g4_l17", title:"Recht en Formeel Taalgebruik", icon:"\u2696\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_17 = {
      deepDive:{title:"Dutch register awareness",
       text:"Dutch has clear register differences. Formal Dutch uses Latin and French loanwords: formulering, cliënt, associatie. Informal Dutch prefers Germanic words: woorden, klant, verband. B2 learners must recognize both registers. Government letters use formal register. Conversations use informal register. Mixing them sounds awkward. The ability to switch registers marks an advanced speaker."}},
     {type:"mc", q:"What does 'beslag leggen op' mean in Dutch law?",
-     opts:["to make a claim","to seize property","to file a complaint","to appeal a verdict"],
+     opts:["to seize property","to file a complaint","to appeal a verdict","to make a claim"],
      ans:"to seize property",
      hint:"'Beslag' is legal seizure. The court can order this for unpaid debts."},
     {type:"fb", s:"Ik {1} Nederland met fietsen.", a:["associeer"],

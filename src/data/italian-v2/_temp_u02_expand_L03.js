@@ -93,7 +93,7 @@ const LESSON_5 = {
      sSrc:"{1} I wake up at seven."},
 
     {type:"mc", q:"What is a typical Italian breakfast?",
-     opts:["Cappuccino and a cornetto","Eggs and bacon","Cereal and fruit","Bread and cheese"],
+     opts:["Bread and cheese","Cappuccino and a cornetto","Eggs and bacon","Cereal and fruit"],
      ans:"Cappuccino and a cornetto",
      hint:"Italian breakfast is sweet and quick. Coffee plus pastry, often consumed standing at a bar."},
 
@@ -112,7 +112,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"Which meal is the biggest in traditional Italian culture?",
-     opts:["Il pranzo (lunch)","La cena (dinner)","La colazione (breakfast)","Lo spuntino (snack)"],
+     opts:["La colazione (breakfast)","Lo spuntino (snack)","Il pranzo (lunch)","La cena (dinner)"],
      ans:"Il pranzo (lunch)",
      hint:"Traditionally, the midday meal includes multiple courses: primo, secondo, contorno, and dolce."},
 
@@ -123,7 +123,7 @@ const LESSON_5 = {
      sSrc:"I study Italian {1} day for an hour."},
 
     {type:"mc", q:"What time do Italians typically eat dinner?",
-     opts:["Around 8-9 PM","Around 5-6 PM","At noon","Before 7 PM"],
+     opts:["Around 5-6 PM","At noon","Before 7 PM","Around 8-9 PM"],
      ans:"Around 8-9 PM",
      hint:"Italian dinner starts later than in most English-speaking countries. Even later in southern Italy."},
 

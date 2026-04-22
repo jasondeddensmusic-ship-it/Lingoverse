@@ -81,7 +81,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Wat is een 'aanspreekvorm'?",
-     opts:["De manier waarop je iemand aanspreekt (u, je, gij)","Een soort telefoonformulier","Een type werkwoord","Een formele brief"],
+     opts:["Een formele brief","De manier waarop je iemand aanspreekt (u, je, gij)","Een soort telefoonformulier","Een type werkwoord"],
      ans:"De manier waarop je iemand aanspreekt (u, je, gij)",
      hint:"'Aanspreken' means to address someone. The 'vorm' (form) refers to whether you use u, je, or g...."},
 
@@ -101,7 +101,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Wat betekent 'continuïteit'?",
-     opts:["Het voortbestaan zonder onderbreking","Een continent in de aardrijkskunde","Een soort contract","Een muzikale term"],
+     opts:["Een soort contract","Een muzikale term","Het voortbestaan zonder onderbreking","Een continent in de aardrijkskunde"],
      ans:"Het voortbestaan zonder onderbreking",
      hint:"From Latin 'continuitas'. The state of continuing without interruption. Important in business planning."}
   ]

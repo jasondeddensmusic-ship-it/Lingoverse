@@ -40,7 +40,7 @@ const LESSON_29 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"한국 회사에서 '부장'은 어떤 위치예요?",
-     opts:["신입 직원","중간 관리직","가장 높은 직위","인턴"],
+     opts:["중간 관리직","가장 높은 직위","인턴","신입 직원"],
      ans:"중간 관리직",
      hint:"This Sino-Korean title sits between lower managers and executives. A department head position."},
 
@@ -131,7 +131,7 @@ const LESSON_29 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"경찰에 사건을 알리는 것을 뭐라고 해요?",
-     opts:["신청","방문","신고","업무"],
+     opts:["방문","신고","업무","신청"],
      ans:"신고",
      hint:"This is the Sino-Korean word for officially reporting something to authorities, like the police or tax office."},
 
@@ -183,7 +183,7 @@ const LESSON_29 = {
 
     {type:"mc",
      q:"'부탁 하나 해도 돼요?'에서 '부탁하다'는?",
-     opts:["명령하다","보관하다","거절하다","정중하게 요청하다"],
+     opts:["보관하다","거절하다","정중하게 요청하다","명령하다"],
      ans:"정중하게 요청하다",
      hint:"This verb means to politely ask someone for help or a favor. It is a core Korean politeness expression."},
 

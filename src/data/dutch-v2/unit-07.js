@@ -1,4 +1,4 @@
-// Unit 7 — Mijn Dag
+// Unit 7. Mijn Dag
 // Perfect Tense & 't Kofschip
 
 export default {n:7,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Dag",sub:"Perfect Tense & 't Kofschip",icon:"⏰",level:"A2.1",color:"#7B5EE8",lessons:[

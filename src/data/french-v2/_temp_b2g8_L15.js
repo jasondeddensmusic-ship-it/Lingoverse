@@ -80,7 +80,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Comment commande-t-on un café avec du lait dans un café parisien ?",
-     opts:["Un crème","Un latte","Un café au lait","Un cappuccino"],
+     opts:["Un cappuccino","Un crème","Un latte","Un café au lait"],
      ans:"Un crème",
      hint:"The shortened form of 'café-c...'. Just one word is enough in a Parisian café."},
 
@@ -119,7 +119,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel mot peut désigner à la fois une noble, un auvent et un dessert au chocolat ?",
-     opts:["marquise","crème","béarnaise","fête"],
+     opts:["béarnaise","fête","marquise","crème"],
      ans:"marquise",
      hint:"Three different meanings in one word. A noblewoman, a glass canopy, and a chocolate treat."},
 

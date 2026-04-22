@@ -1,4 +1,4 @@
-// Batch 3 — Unit 10, Lesson 1: Problemi in viaggio (Travel Problems)
+// Batch 3. Unit 10, Lesson 1: Problemi in viaggio (Travel Problems)
 const BATCH3_U10_L1 = {
   id:"itv2_u10l_b3_1", title:"Problemi in viaggio", icon:"\u26A0\uFE0F", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U10_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What is a 'denuncia' and why is it important?",
-     opts:["A hotel review posted online","A police report needed for insurance claims","A pharmacy prescription for travelers","A customs declaration for imported goods"],
+     opts:["A police report needed for insurance claims","A pharmacy prescription for travelers","A customs declaration for imported goods","A hotel review posted online"],
      ans:"A police report needed for insurance claims",
      hint:"Filing this at the p... station is essential after theft. Without it, your i... company will not process a claim."},
 
@@ -116,7 +116,7 @@ const BATCH3_U10_L1 = {
      sSrc:"They {1} my phone!"},
 
     {type:"mc", q:"What is a ZTL in Italian cities?",
-     opts:["A type of Italian train service","A restricted traffic zone with camera enforcement","A special tourist bus route","A covered pedestrian shopping area"],
+     opts:["A covered pedestrian shopping area","A type of Italian train service","A restricted traffic zone with camera enforcement","A special tourist bus route"],
      ans:"A restricted traffic zone with camera enforcement",
      hint:"'Zona Traffico Limitato' fines are a common surprise for tourists who drive into city centers. The cameras send fines by mail, even months later."},
 
@@ -130,6 +130,6 @@ const BATCH3_U10_L1 = {
      opts:["The nearest train station","Your hotel reception only","The local hospital","Your country's embassy or consulate"],
      ans:"Your country's embassy or consulate",
      hint:"They issue emergency travel documents. Embassies are in Rome; consulates exist in major cities like Milan and Florence. Keep a photocopy separate."}
-  ,{type:"match",pairs:[{trg:"smarrire",src:"to lose / to misplace"},{trg:"la denuncia",src:"the police report / complaint"},{trg:"il reclamo",src:"the complaint / claim"},{trg:"cancellare",src:"to cancel"},{trg:"il guasto",src:"the breakdown / malfunction"},{trg:"il sostituto",src:"the replacement / substitute"}]},{type:"match",pairs:[{trg:"il consolato",src:"the consulate"}]},{type:"mc",q:"How do you say \"embassy\" in Italian?",opts:["la finestra","l'ambasciata","il tavolo","la bicicletta"],ans:"l'ambasciata",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"smarrire",src:"to lose / to misplace"},{trg:"la denuncia",src:"the police report / complaint"},{trg:"il reclamo",src:"the complaint / claim"},{trg:"cancellare",src:"to cancel"},{trg:"il guasto",src:"the breakdown / malfunction"},{trg:"il sostituto",src:"the replacement / substitute"}]},{type:"match",pairs:[{trg:"il consolato",src:"the consulate"}]},{type:"mc",q:"How do you say \"embassy\" in Italian?",opts:["l'ambasciata","il tavolo","la bicicletta","la finestra"],ans:"l'ambasciata",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U10_L1;

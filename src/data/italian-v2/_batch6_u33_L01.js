@@ -1,4 +1,4 @@
-// Batch 6 — Unit 33 extra lesson. La filosofia: Ethical Debates & Moral Vocabulary
+// Batch 6. Unit 33 extra lesson. La filosofia: Ethical Debates & Moral Vocabulary
 const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{2696}\u{FE0F}", xp:15, board:true, steps:[
 {type:"intro", title:"L'etica e la morale",
  desc:"Learn advanced vocabulary for ethical reasoning, moral philosophy, and debating values in Italian.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  {trg:"la dignita", src:"dignity"}
 ]},
 {type:"mc", q:"Cosa dice l'articolo 2 della Costituzione italiana sulla solidarieta?",
- opts:["It is a fundamental duty of every citizen","It is optional","It applies only to the state","It was added recently"],
+ opts:["It was added recently","It is a fundamental duty of every citizen","It is optional","It applies only to the state"],
  ans:"It is a fundamental duty of every citizen",
  hint:"Solidarity is not just a value but a constitutional obligation in Italy."},
 {type:"fb", s:"Trovare un {1} e difficile ma necessario per la pace.", a:["compromesso"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  hint:"An agreement where both sides make concessions. An Italian political art.",
  sSrc:"Finding a {1} is difficult but necessary for peace."},
 {type:"mc", q:"Cosa significa 'il bene comune'?",
- opts:["The welfare of all people in a society","Personal wealth","A type of government","A legal document"],
+ opts:["A type of government","A legal document","The welfare of all people in a society","Personal wealth"],
  ans:"The welfare of all people in a society",
  hint:"The collective good that benefits everyone, not just a few individuals."},
 {type:"fb", s:"La {1} umana e inviolabile secondo la Costituzione.", a:["dignita"],

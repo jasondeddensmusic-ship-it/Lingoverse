@@ -92,7 +92,7 @@ const LESSON_8 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"한국의 학교 학년은 몇 월에 시작해요?",
-     opts:["9월","1월","3월","4월"],
+     opts:["1월","3월","4월","9월"],
      ans:"3월",
      hint:"The Korean academic calendar begins in spring, not fall like many Western countries."},
 
@@ -150,7 +150,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"한국어에서 가장 어려운 발음은 뭐예요?",
-     opts:["모음","자음","성조","받침"],
+     opts:["자음","성조","받침","모음"],
      ans:"받침",
      hint:"These are the consonants that appear at the bottom of a Korean syllable block."},
 

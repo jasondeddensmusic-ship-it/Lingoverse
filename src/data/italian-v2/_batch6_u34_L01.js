@@ -1,4 +1,4 @@
-// Batch 6 — Unit 34 extra lesson. Le relazioni internazionali: Diplomacy & Cooperation
+// Batch 6. Unit 34 extra lesson. Le relazioni internazionali: Diplomacy & Cooperation
 const BATCH6_L1 = {id:"itv2_u34l_b6_1", title:"La diplomazia", icon:"\u{1F91D}", xp:15, board:true, steps:[
 {type:"intro", title:"La diplomazia",
  desc:"Learn advanced vocabulary for diplomacy, international cooperation, and geopolitical discourse.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u34l_b6_1", title:"La diplomazia", icon:"\u{1F91D}",
  {trg:"l'alleanza", src:"alliance"}
 ]},
 {type:"mc", q:"Cosa dice l'articolo 11 della Costituzione italiana?",
- opts:["L'Italia ripudia la guerra come strumento di offesa","L'Italia e una potenza militare","L'Italia non fa parte di alleanze","L'Italia mantiene un esercito offensivo"],
+ opts:["L'Italia mantiene un esercito offensivo","L'Italia ripudia la guerra come strumento di offesa","L'Italia e una potenza militare","L'Italia non fa parte di alleanze"],
  ans:"L'Italia ripudia la guerra come strumento di offesa",
  hint:"Italy 'rejects' war as an instrument of aggression. A pacifist constitutional principle."},
 {type:"fb", s:"I {1} tra i due paesi sono in corso da mesi.", a:["negoziati"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u34l_b6_1", title:"La diplomazia", icon:"\u{1F91D}",
  hint:"Formal discussions aimed at reaching a diplomatic agreement.",
  sSrc:"The {1} between the two countries have been going on for months."},
 {type:"mc", q:"Da dove viene la parola 'veto'?",
- opts:["Dal latino, usato dai tribuni romani","Dal francese medievale","Dall'inglese moderno","Dal greco antico"],
+ opts:["Dall'inglese moderno","Dal greco antico","Dal latino, usato dai tribuni romani","Dal francese medievale"],
  ans:"Dal latino, usato dai tribuni romani",
  hint:"Latin for 'I forbid.' Roman tribunes used it to block Senate decisions."},
 {type:"fb", s:"Il {1} nucleare resta un obiettivo importante per la pace.", a:["disarmo"],

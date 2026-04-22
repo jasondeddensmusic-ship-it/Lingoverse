@@ -80,7 +80,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Que signifie 'en guise de' ?",
-     opts:["En remplacement de, comme","En plus de","Malgré","Au lieu de"],
+     opts:["Au lieu de","En remplacement de, comme","En plus de","Malgré"],
      ans:"En remplacement de, comme",
      hint:"A formal expression meaning 'as' or 'by way of'. Think of offering something as a substitute."},
 
@@ -119,7 +119,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel adjectif formel signifie 'cher, coûteux' ?",
-     opts:["onéreux","observateur","momentané","narquois"],
+     opts:["momentané","narquois","onéreux","observateur"],
      ans:"onéreux",
      hint:"From Latin 'onerosus' meaning burdensome. Used in legal and formal contexts."},
 

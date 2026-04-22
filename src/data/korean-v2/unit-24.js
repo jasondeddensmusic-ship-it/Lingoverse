@@ -1,10 +1,10 @@
-// Korean V2 Unit 24 — 후회와 가정
+// Korean V2 Unit 24, 후회와 가정
 // Level: B2.1
 
 const UNIT_24 =
 {n:24,lang:"ko",srcLang:"en",track:"v2",title:"후회와 가정",sub:"Regret & Hypotheticals",icon:"😔",level:"B2.1",color:"#9B7EDE",lessons:[
 
-// ── L1: 아쉬움 (The Feeling of Regret — Vocabulary) ──
+// ── L1: 아쉬움 (The Feeling of Regret. Vocabulary) ──
 {id:"kou24l1",title:"아쉬움",icon:"💭",xp:20,board:true,steps:[
 {type:"intro",title:"The Feeling of Regret",desc:"아쉬움\n→ Korean has rich vocabulary for regret,\nmissed chances, and what could have been.\n\nThis unit teaches you to express:\n- I should have...\n- I almost...\n- If only I had...",goals:["Learn regret and hypothetical vocabulary","Understand Korean emotional concepts of 아쉬움 and 한","Express regret in multiple registers"]},
 {type:"teach",kind:"noun",nl:"후회",en:"regret",pos:"noun",gender:null,funFact:"Sino-Korean compound: 후(after/後) + 회(turn back/悔)",phonetic:"hu-hoe",example:"후회해도 소용없어요.\n(Regretting is no use.)",exampleEn:"Regretting is no use.",note:"COMPOUND: 후(after/後) + 회(turn back/悔).\nAfter-turn back: wishing you could go back.\n후회하다 = to regret."},
@@ -112,7 +112,7 @@ const UNIT_24 =
 {type:"mc",q:"힘들었을 텐데 잘 해냈어요!\n-았/었을 텐데 is past + expectation.\n-아/어 내다 means?\n(It must have been hard but you did great!)",opts:["내다 = to start","내다 = to put out","-아/어 내다 = to accomplish/manage to do ","내다 = to forget"],ans:"-아/어 내다 = to accomplish/manage to do ",hint:"completion auxiliary: successfully did."},
 ]},
 
-// ── L5: 했더라면 (If I Had Done — Past Counterfactual) ──
+// ── L5: 했더라면 (If I Had Done. Past Counterfactual) ──
 {id:"kou24l5",title:"했더라면",icon:"⏪",xp:20,board:true,steps:[
 {type:"intro",title:"If I Had Done...",desc:"-았/었더라면\n→ The Korean 'if only I had...'\n\nThe most powerful regret pattern.\nDescribes an UNREAL past and its imagined result.",goals:["Use -았/었더라면 for past counterfactuals","Combine with -(으)ㄹ 텐데 for imagined results","Build full counterfactual regret sentences"]},
 {type:"teach",kind:"grammar",nl:"-았/었더라면",en:"if (I/they) had done... (past counterfactual)",pos:"verb",gender:null,funFact:"Past tense markers. Korean uses just one past tense where English has several.",phonetic:"at-deo-ra-myeon",example:"A: 비행기를 놓쳤어요. B: 왜요? 무슨 일이 있었어요? A: 택시가 늦게 왔어요. 일찍 출발했더라면 늦지 않았을 텐데. B: 그 전날 미리 준비했더라면 좋았을 텐데요. A: 알람을 더 일찍 맞췄더라면 이런 일이 없었을 거예요. B: 공항 근처에서 잤더라면 편했을 텐데. A: 맞아요. 다음부터는 전날에 짐을 싸 놓을게요. B: 다음 비행기는 몇 시예요? A: 세 시간 후에 있어요. 기다릴 수밖에 없어요. B: 카페에서 기다리면서 쉬세요.",exampleEn:"A: I missed the flight. B: Why? What happened? A: The taxi came late. If I had left early, I wouldn't have been late. B: It would have been good if you had prepared the day before. A: If I had set my alarm earlier, this wouldn't have happened. B: If you had slept near the airport, it would have been easier. A: You're right. From now on I'll pack my bags the night before. B: What time is the next flight? A: In three hours. I have no choice but to wait. B: Rest at a cafe while you wait.",note:"Past counterfactual condition.\nThe action did NOT happen.\nImagining a different past.\n\nStructure:\nV-았/었더라면 + result + (으)ㄹ 텐데\n\n했더라면 = if (I) had done\n갔더라면 = if (I) had gone\n알았더라면 = if (I) had known"},

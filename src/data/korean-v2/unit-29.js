@@ -1,4 +1,4 @@
-// Korean V2 Unit 29 — 격식과 비격식
+// Korean V2 Unit 29, 격식과 비격식
 // Level: B2.2
 
 const UNIT_29 =

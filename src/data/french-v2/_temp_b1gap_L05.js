@@ -98,7 +98,7 @@ const LESSON_5 = {id:"frv2_b1gap_l5", title:"Ici et ailleurs", icon:"\u{1F30D}",
 
 {type:"mc",
  q:"Quel lieu est littéralement de l'autre côté de la Terre ?",
- opts:["les antipodes","l'arrière-plan","l'amont","l'au-delà"],
+ opts:["l'au-delà","les antipodes","l'arrière-plan","l'amont"],
  ans:"les antipodes",
  hint:"This word comes from Greek, meaning 'opposite feet.' New Zealand is this for France."},
 
@@ -143,7 +143,7 @@ const LESSON_5 = {id:"frv2_b1gap_l5", title:"Ici et ailleurs", icon:"\u{1F30D}",
 
 {type:"mc",
  q:"Comment appelle-t-on un petit arbre ou un grand buisson ?",
- opts:["un arbuste","un arbre","une arcade","un alpage"],
+ opts:["une arcade","un alpage","un arbuste","un arbre"],
  ans:"un arbuste",
  hint:"This is the diminutive form of the word for 'tree.' Smaller than a tree but bigger than a bush."}
 

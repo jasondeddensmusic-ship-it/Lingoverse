@@ -1,4 +1,4 @@
-// Batch 6 — Unit 28 extra lesson. La letteratura: Narrative & Storytelling Vocabulary
+// Batch 6. Unit 28 extra lesson. La letteratura: Narrative & Storytelling Vocabulary
 const BATCH6_L1 = {id:"itv2_u28l_b6_1", title:"L'arte del racconto", icon:"\u{1F4D6}", xp:15, board:true, steps:[
 {type:"intro", title:"L'arte del racconto",
  desc:"Learn advanced vocabulary for literary analysis, narrative structure, and storytelling in Italian.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u28l_b6_1", title:"L'arte del racconto", icon:"\u{1F
  {trg:"la metafora", src:"metaphor"}
 ]},
 {type:"mc", q:"Quale opera letteraria DEVE leggere ogni studente italiano?",
- opts:["I Promessi Sposi di Manzoni","Il Decamerone di Boccaccio","La Divina Commedia (intero)","Il Gattopardo di Lampedusa"],
+ opts:["Il Gattopardo di Lampedusa","I Promessi Sposi di Manzoni","Il Decamerone di Boccaccio","La Divina Commedia (intero)"],
  ans:"I Promessi Sposi di Manzoni",
  hint:"The great Italian novel, read in every Italian high school."},
 {type:"fb", s:"Dante ha inventato la 'terza {1}' per la Divina Commedia.", a:["rima"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u28l_b6_1", title:"L'arte del racconto", icon:"\u{1F
  hint:"A poetic pattern where sounds repeat at the end of lines: ABA BCB CDC.",
  sSrc:"Dante invented the 'terza {1}' for the Divine Comedy."},
 {type:"mc", q:"Cosa significa 'capolavoro'?",
- opts:["masterpiece (literally 'chief work')","first draft","last chapter","main character"],
+ opts:["last chapter","main character","masterpiece (literally 'chief work')","first draft"],
  ans:"masterpiece (literally 'chief work')",
  hint:"A compound of 'capo' (head/c...) and 'lavoro' (w...). The best creative w...."},
 {type:"fb", s:"Il {1} racconta la storia in prima persona.", a:["narratore"],

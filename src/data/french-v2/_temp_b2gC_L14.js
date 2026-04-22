@@ -67,7 +67,7 @@ const LESSON_14 = {id:"frv2_b2gC_l14", title:"Famille et relations", icon:"\u{1F
 
 {type:"mc",
  q:"Que signifie 'la main-d'oeuvre' ?",
- opts:["L'ensemble des travailleurs disponibles","Un gant de travail","Une machine industrielle","Un outil manuel"],
+ opts:["Un outil manuel","L'ensemble des travailleurs disponibles","Un gant de travail","Une machine industrielle"],
  ans:"L'ensemble des travailleurs disponibles",
  hint:"Literally: the hand of work. The collective labor force in an industry or region."},
 
@@ -87,7 +87,7 @@ const LESSON_14 = {id:"frv2_b2gC_l14", title:"Famille et relations", icon:"\u{1F
 
 {type:"mc",
  q:"Que signifie le suffixe '-même(s)' ajouté aux pronoms ?",
- opts:["Il ajoute de l'emphase: 'nous-mêmes' = 'we ourselves'","Il crée le pluriel","Il exprime le doute","Il marque le passé"],
+ opts:["Il exprime le doute","Il marque le passé","Il ajoute de l'emphase: 'nous-mêmes' = 'we ourselves'","Il crée le pluriel"],
  ans:"Il ajoute de l'emphase: 'nous-mêmes' = 'we ourselves'",
  hint:"Self-emphasis. Adding it to a pronoun means the person themselves, no one else."},
 
@@ -105,7 +105,7 @@ const LESSON_14 = {id:"frv2_b2gC_l14", title:"Famille et relations", icon:"\u{1F
 
 {type:"mc",
  q:"Pourquoi le mot 'assisté' est-il considéré comme sensible en France ?",
- opts:["Il stigmatise les personnes en difficulté financière","Il est grammaticalement incorrect","Il n'existe pas en français officiel","Il est trop technique"],
+ opts:["Il est grammaticalement incorrect","Il n'existe pas en français officiel","Il est trop technique","Il stigmatise les personnes en difficulté financière"],
  ans:"Il stigmatise les personnes en difficulté financière",
  hint:"This word can carry negative judgment about people receiving social support."}
 

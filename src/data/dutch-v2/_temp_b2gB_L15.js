@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 15 — Handel en Ondernemen
+// Dutch B2 gapB Lesson 15. Handel en Ondernemen
 // Trade, commerce, and entrepreneurship vocabulary
 
 const LESSON_15 = {id:"nlv2_b2gB_l15", title:"Handel en Ondernemen", icon:"\u{1F4B0}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_15 = {id:"nlv2_b2gB_l15", title:"Handel en Ondernemen", icon:"\u{1F
  funFact:"'Kompaan' has shifted from its positive French origin (companion for sharing bread) to a more negative connotation in modern Dutch."},
 
 {type:"mc", q:"'De koopmansmoraal' verwijst naar:",
- opts:["The price of goods","The ethical standards of merchants","The quality of products","The speed of delivery"],
+ opts:["The ethical standards of merchants","The quality of products","The speed of delivery","The price of goods"],
  ans:"The ethical standards of merchants",
  hint:"The moral framework by which traders operated, historically not always admirable"},
 

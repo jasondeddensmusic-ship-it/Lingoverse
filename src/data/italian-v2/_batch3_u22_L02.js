@@ -1,4 +1,4 @@
-// Batch 3 — Unit 22, Lesson 2: Movimenti artistici e festivita (Art Movements & Festivals)
+// Batch 3. Unit 22, Lesson 2: Movimenti artistici e festivita (Art Movements & Festivals)
 const BATCH3_U22_L2 = {
   id:"itv2_u22l_b3_2", title:"Movimenti artistici e festivita", icon:"\uD83C\uDFA8", xp:15, board:true,
   steps:[
@@ -74,7 +74,7 @@ const BATCH3_U22_L2 = {
 
     // Quiz steps
     {type:"mc", q:"Where did the Renaissance begin?",
-     opts:["Rome","Venice","Florence","Milan"],
+     opts:["Florence","Milan","Rome","Venice"],
      ans:"Florence",
      hint:"The Medici family were primary patrons. 'Rinascimento' literally means 'rebirth' of classical culture. 14th century."},
 
@@ -104,7 +104,7 @@ const BATCH3_U22_L2 = {
      sSrc:"My grandfather still speaks in {1}."},
 
     {type:"mc", q:"What did Italian Futurists controversially want to do with museums?",
-     opts:["Fill them with modern art only","Destroy them to break with the past","Convert them into factories","Move them all to Rome"],
+     opts:["Move them all to Rome","Fill them with modern art only","Destroy them to break with the past","Convert them into factories"],
      ans:"Destroy them to break with the past",
      hint:"Marinetti's 1909 manifesto glorified speed and modernity while rejecting Italy's obsession with its classical heritage."},
 
@@ -115,7 +115,7 @@ const BATCH3_U22_L2 = {
      sSrc:"The Mediterranean diet is UNESCO intangible {1}."},
 
     {type:"mc", q:"What unified the Italian language more than schools?",
-     opts:["Radio in the 1920s","Television in the 1950s-60s","Newspapers in the 1800s","The Catholic Church"],
+     opts:["Newspapers in the 1800s","The Catholic Church","Radio in the 1920s","Television in the 1950s-60s"],
      ans:"Television in the 1950s-60s",
      hint:"When Italy unified in 1861, only 2-3% spoke standard Italian. TV brought one common language into every home, something centuries of education had failed to achieve."}
   ,{type:"match",pairs:[{trg:"la Festa della Repubblica",src:"Republic Day"},{trg:"il presepe",src:"the nativity scene"},{trg:"il design",src:"the design"},{trg:"la processione",src:"the procession"}]}]

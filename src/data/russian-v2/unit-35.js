@@ -1,4 +1,4 @@
-// Russian V2 Unit 35 — Idioms and Proverbs (B2.2)
+// Russian V2 Unit 35. Idioms and Proverbs (B2.2)
 const UNIT_35 = {n:35, lang:"ru", srcLang:"en", track:"v2", title:"Фразеологизмы", sub:"Idioms and Proverbs",
  icon:"💬", level:"B2.2", color:"#7B5EE8",
  lessons:[
@@ -6,7 +6,7 @@ const UNIT_35 = {n:35, lang:"ru", srcLang:"en", track:"v2", title:"Фразео�
 {id:"ruv2_u35l1", title:"Russian Idioms", icon:"💬", xp:15, board:true, steps:[
 
 {type:"intro", title:"Idiomatic Russian",
- desc:"Russian idioms reveal cultural logic. B2 learners should recognize common phrases — literal translation often makes no sense.",
+ desc:"Russian idioms reveal cultural logic. B2 learners should recognize common phrases, literal translation often makes no sense.",
  goals:["Learn key idioms","Understand their cultural meaning","Use in appropriate contexts"]},
 
 {type:"teach", trg:"водить за нос", src:"to lead by the nose (deceive)", pos:"phrase", gender:null,
@@ -41,16 +41,16 @@ const UNIT_35 = {n:35, lang:"ru", srcLang:"en", track:"v2", title:"Фразео�
 
 {type:"teach", trg:"кот в мешке", src:"cat in a bag (pig in a poke)", pos:"phrase", gender:null,
  note:"Literal: cat in bag. Figurative: unknown purchase, risky deal.\n'Купить кота в мешке' = buy a pig in a poke.",
- example:"A: Брать этот дом?\nB: Без проверки — кот в мешке.",
- exampleSrc:"A: Take this house?\nB: Without checking — a pig in a poke.",
+ example:"A: Брать этот дом?\nB: Без проверки, кот в мешке.",
+ exampleSrc:"A: Take this house?\nB: Without checking, a pig in a poke.",
  funFact:"Medieval origin: scammers sold cat in bag claiming it was suckling pig. 'Не покупай кота в мешке' = don't buy a cat in a bag. Universal European idiom."},
 
 {type:"tip", title:"Russian Proverbs",
- text:"FAMOUS RUSSIAN PROVERBS:\n\n'Без труда не выловишь и рыбку из пруда.'\n(Without work you won't catch a fish from the pond — no pain, no gain.)\n\n'Семь раз отмерь, один раз отрежь.'\n(Measure seven times, cut once — plan carefully.)\n\n'В гостях хорошо, а дома лучше.'\n(It's good as a guest, but better at home.)\n\n'Цыплят по осени считают.'\n(Count the chickens in autumn — don't count chickens before they hatch.)\n\n'Яблоко от яблони недалеко падает.'\n(The apple doesn't fall far from the tree.)\n\n'Любишь кататься — люби и саночки возить.'\n(Love to ride — love to pull the sled too.)\n\n'Волков бояться — в лес не ходить.'\n(If you fear wolves, don't go into the forest — no risk, no reward.)\n\nMASTER THESE:\nThey appear in literature, daily conversation, political speeches. Quote them to sound culturally fluent.",
+ text:"FAMOUS RUSSIAN PROVERBS:\n\n'Без труда не выловишь и рыбку из пруда.'\n(Without work you won't catch a fish from the pond, no pain, no gain.)\n\n'Семь раз отмерь, один раз отрежь.'\n(Measure seven times, cut once, plan carefully.)\n\n'В гостях хорошо, а дома лучше.'\n(It's good as a guest, but better at home.)\n\n'Цыплят по осени считают.'\n(Count the chickens in autumn, don't count chickens before they hatch.)\n\n'Яблоко от яблони недалеко падает.'\n(The apple doesn't fall far from the tree.)\n\n'Любишь кататься, люби и саночки возить.'\n(Love to ride, love to pull the sled too.)\n\n'Волков бояться, в лес не ходить.'\n(If you fear wolves, don't go into the forest, no risk, no reward.)\n\nMASTER THESE:\nThey appear in literature, daily conversation, political speeches. Quote them to sound culturally fluent.",
  icon:"💬"},
 
 {type:"mc", q:"What does 'бить баклуши' mean?",
- opts:["To work hard","To be idle / waste time","To fight","To travel"],
+ opts:["To be idle / waste time","To fight","To travel","To work hard"],
  ans:"To be idle / waste time",
  hint:"Colorful Russian idiom for laziness."},
 
@@ -74,11 +74,11 @@ const UNIT_35 = {n:35, lang:"ru", srcLang:"en", track:"v2", title:"Фразео�
 ]}
 ,
 
-{type:"fb", s:"Не покупай машину без проверки — это настоящий {1}.",
+{type:"fb", s:"Не покупай машину без проверки, это настоящий {1}.",
  a:["кот в мешке"],
  opts:["кот в мешке","бить баклуши","водить за нос","как две капли воды"],
  hint:"Russian idiom for buying something unseen, a risky unknown purchase.",
- sSrc:"Don't buy the car without checking — it's a real pig in a poke."},
+ sSrc:"Don't buy the car without checking, it's a real pig in a poke."},
 
 {type:"match", pairs:[
   {trg:"убить двух зайцев", src:"kill two rabbits (with one stone)"},

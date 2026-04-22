@@ -93,7 +93,7 @@ const LESSON_5 = {
      sSrc:"I {1} you to dinner tonight."},
 
     {type:"mc", q:"What does 'magari' mean when said with excitement?",
-     opts:["I wish! / If only!","Maybe","Never","Of course"],
+     opts:["Of course","I wish! / If only!","Maybe","Never"],
      ans:"I wish! / If only!",
      hint:"This famously untranslatable word changes meaning with emotion. Said with feeling, it expresses deep longing."},
 
@@ -112,7 +112,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"What is the difference between 'giornata' and 'giorno'?",
-     opts:["Giornata = the experience, giorno = calendar day","They are the same","Giornata is formal","Giorno is for evenings"],
+     opts:["Giornata is formal","Giorno is for evenings","Giornata = the experience, giorno = calendar day","They are the same"],
      ans:"Giornata = the experience, giorno = calendar day",
      hint:"When wishing someone a good d... ahead, use the form that emphasizes the e... of the whole d...."},
 
@@ -123,7 +123,7 @@ const LESSON_5 = {
      sSrc:"I cannot come. What a {1}!"},
 
     {type:"mc", q:"How should 'benvenuto' change for a group of women?",
-     opts:["Benvenute","Benvenuti","Benvenuta","Benvenuto"],
+     opts:["Benvenuti","Benvenuta","Benvenuto","Benvenute"],
      ans:"Benvenute",
      hint:"Gender agreement applies even to greetings. All-female plural takes the -e ending."},
 

@@ -68,10 +68,10 @@ const LESSON_7 = {id:"esv2_b2gD_l7",title:"Cuerpo y apariencia",icon:"\uD83D\uDC
  {trg:"montera",src:"bullfighter's hat"}
 ]},
 
-{type:"mc",q:"'Jugarse el pellejo' significa...",opts:["Arriesgar la vida","Cambiar de ropa","Cuidar la piel","Perder peso"],ans:"Arriesgar la vida",hint:"An idiom using the word for skin/hide. It means putting your very existence at stake."},
+{type:"mc",q:"'Jugarse el pellejo' significa...",opts:["Perder peso","Arriesgar la vida","Cambiar de ropa","Cuidar la piel"],ans:"Arriesgar la vida",hint:"An idiom using the word for skin/hide. It means putting your very existence at stake."},
 
 {type:"fb",s:"La bandera ondeaba a media {1} en señal de duelo.",a:["asta"],opts:["asta","calza","peineta","montera"],hint:"The pole from which a flag flies. At half this, it signals mourning.",sSrc:"The flag flew at half {1} as a sign of mourning."},
 
-{type:"mc",q:"Una peineta se lleva en...",opts:["El pelo, como adorno tradicional","El cuello, como collar","La muñeca, como pulsera","Los pies, como calzado"],ans:"El pelo, como adorno tradicional",hint:"A large decorative accessory associated with Spanish mantilla tradition, worn on the head."}
+{type:"mc",q:"Una peineta se lleva en...",opts:["La muñeca, como pulsera","Los pies, como calzado","El pelo, como adorno tradicional","El cuello, como collar"],ans:"El pelo, como adorno tradicional",hint:"A large decorative accessory associated with Spanish mantilla tradition, worn on the head."}
 ]};
 export default LESSON_7;

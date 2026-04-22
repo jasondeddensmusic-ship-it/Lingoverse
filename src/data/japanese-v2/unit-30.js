@@ -165,7 +165,7 @@ const UNIT_30 = {
    exampleSrc:"A: It is hard to preserve your true self while growing.\nB: I think if your values are solid, you will be fine.",
    funFact:"自分(じぶん)らしさ is a distinctly modern Japanese concept that emerged prominently in 1990s self-help culture. The suffix らしさ nominalizes the sense of 'being like something.' 自分(じぶん)らしさ gained cultural weight as a counterpoint to Japan's traditionally group-oriented society, where standing out is often discouraged. It now appears frequently in career counseling and personal essays."},
 
-  {type:"mc", q:"記憶(きおく)に残(のこ)る means:", opts:["to erase a memory","to share a memory","to stick in one's memory","to create a memory"], ans:"to stick in one's memory",
+  {type:"mc", q:"記憶(きおく)に残(のこ)る means:", opts:["to stick in one's memory","to create a memory","to erase a memory","to share a memory"], ans:"to stick in one's memory",
    hint:"残(のこ)る means 'to remain' or 'to be left behind,' so this phrase describes something that stays with you."},
 
   {type:"teach", trg:"価値観(かちかん)", src:"values / personal value system", pos:"noun", gender:null,
@@ -186,14 +186,14 @@ const UNIT_30 = {
   {type:"fb", s:"幼(おさな)い頃(ごろ)の経験(けいけん)が私(わたし)たちを{1}と思(おも)います。\n(I think childhood experiences shape who we are.)", a:"形作(かたちづく)る", opts:["形作(かたちづく)る","覚(おぼ)える","忘(わす)れる","表(あらわ)す"], sSrc:"I think childhood experiences shape who we are.",
    hint:"The verb meaning 'to shape' or 'to form,' combining the kanji for 'shape' and 'make.'"},
 
-  {type:"mc", q:"自分(じぶん)らしさ describes:", opts:["your social status","your nationality","your true self or authenticity","your academic ability"], ans:"your true self or authenticity",
+  {type:"mc", q:"自分(じぶん)らしさ describes:", opts:["your nationality","your true self or authenticity","your academic ability","your social status"], ans:"your true self or authenticity",
    hint:"The suffix らしさ turns an adjective into a noun meaning 'the quality of being like.' 自分(じぶん) is the everyday pronoun for 'I/me,' giving the compound its meaning of genuine personal expression."},
 
   {type:"match", pairs:[{trg:"感情(かんじょう)",src:"emotion / feelings"},{trg:"記憶(きおく)",src:"memory / recollection"},{trg:"忘(わす)れられない",src:"unforgettable"},{trg:"形作(かたちづく)る",src:"to shape / to form"}]},
 
   {type:"match", pairs:[{trg:"自分(じぶん)らしさ",src:"one's true self"},{trg:"価値観(かちかん)",src:"personal value system"},{trg:"自己(じこ)形成(けいせい)",src:"self-formation"},{trg:"記憶(きおく)に残(のこ)る",src:"to stick in one's memory"}]},
 
-  {type:"mc", q:"自己(じこ)形成(けいせい) refers to:", opts:["memory loss","the process of building one's character","forgetting past experiences","expressing emotions publicly"], ans:"the process of building one's character",
+  {type:"mc", q:"自己(じこ)形成(けいせい) refers to:", opts:["expressing emotions publicly","memory loss","the process of building one's character","forgetting past experiences"], ans:"the process of building one's character",
    hint:"形成(けいせい) means 'formation' and 自己(じこ) is the formal word for one's own identity. The compound is a key term in Japanese developmental psychology and university essays."},
 
   {type:"fb", s:"あの経験(けいけん)は本当(ほんとう)に{1}ですね。\n(That experience is truly unforgettable, isn't it.)", a:"忘(わす)れられない", opts:["忘(わす)れられない","覚(おぼ)えられない","話(はな)せない","続(つづ)けられない"], sSrc:"That experience is truly unforgettable, isn't it.",

@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 16: Natuur & Milieu
+// B2 Gap Batch A. Lesson 16: Natuur & Milieu
 // Theme: Nature, environment, sustainability
 
 const LESSON_16 = {id:"nlv2_b2gA_l16", title:"Natuur & Milieu", icon:"\u{1F33F}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_16 = {id:"nlv2_b2gA_l16", title:"Natuur & Milieu", icon:"\u{1F33F}"
    sSrc:"What types of fruit grow in the Netherlands?"},
 
   {type:"mc", q:"Irrigatie is essentieel voor de landbouw. Wat is 'irrigatie'?",
-   opts:["artificial water supply for crops","a type of fertilizer","a harvesting technique","a soil treatment"],
+   opts:["a soil treatment","artificial water supply for crops","a type of fertilizer","a harvesting technique"],
    ans:"artificial water supply for crops",
    hint:"From Latin 'irrigatio'. Bringing w... to fields where it doesn't rain enough."},
 
@@ -77,7 +77,7 @@ const LESSON_16 = {id:"nlv2_b2gA_l16", title:"Natuur & Milieu", icon:"\u{1F33F}"
   ]},
 
   {type:"mc", q:"Het kalenderjaar loopt van januari tot december. Wat is een 'kalenderjaar'?",
-   opts:["a year from January 1st to December 31st","a school year","a fiscal quarter","a leap year"],
+   opts:["a fiscal quarter","a leap year","a year from January 1st to December 31st","a school year"],
    ans:"a year from January 1st to December 31st",
    hint:"Kalender + jaar. The standard twelve-month y... as on the calendar."},
 

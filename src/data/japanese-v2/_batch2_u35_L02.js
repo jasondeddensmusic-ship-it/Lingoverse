@@ -60,7 +60,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: The company's network is protected by a firewall.\nB: There are cases where that alone is not enough.\nA: How are the recent trends?\nB: Overall things are going well, but there are some issues.\nA: What kinds of issues are there?\nB: Securing human resources is the biggest challenge.",
      funFact:"ファイアウォール is used as-is in Japanese IT vocabulary. Japanese cybersecurity combines Western technology with uniquely Japanese challenges: legacy systems in government offices, a shortage of security professionals, and cultural reluctance to report breaches. The government aims to train 250,000 cybersecurity professionals by 2025 to address the talent gap."},
 
-    {type:"mc", q:"二段階(にだんかい)認証(にんしょう) provides:", opts:["Extra security beyond just a password","Faster login speed","Automatic password generation","Free internet access"], ans:"Extra security beyond just a password",
+    {type:"mc", q:"二段階(にだんかい)認証(にんしょう) provides:", opts:["Free internet access","Extra security beyond just a password","Faster login speed","Automatic password generation"], ans:"Extra security beyond just a password",
      hint:"Two-factor authentication requires something you know (p...) plus something you have (phone/token)."},
 
     {type:"fb", s:"ソフトウェアの{1}が発見(はっけん)されました。\n(A software vulnerability was discovered.)", a:"脆弱性(ぜいじゃくせい)", opts:["脆弱性(ぜいじゃくせい)","暗号化(あんごうか)","認証(にんしょう)","ファイアウォール"], sSrc:"A software vulnerability was discovered.",
@@ -73,7 +73,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"認証(にんしょう)",src:"authentication"},{trg:"脆弱性(ぜいじゃくせい)",src:"vulnerability"},{trg:"フィッシング",src:"phishing"},{trg:"ファイアウォール",src:"firewall"}]},
 
-    {type:"mc", q:"Japan faces a cybersecurity challenge because:", opts:["There is a shortage of security professionals","Japan does not use the internet","All systems are already perfectly secure","Cybercrime does not exist in Japan"], ans:"There is a shortage of security professionals",
+    {type:"mc", q:"Japan faces a cybersecurity challenge because:", opts:["All systems are already perfectly secure","Cybercrime does not exist in Japan","There is a shortage of security professionals","Japan does not use the internet"], ans:"There is a shortage of security professionals",
      hint:"The government is actively working to train hundreds of thousands of cybersecurity specialists."},
   ]
 };

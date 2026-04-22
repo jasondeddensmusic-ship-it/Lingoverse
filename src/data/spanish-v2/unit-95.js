@@ -1,4 +1,4 @@
-// Spanish V2 Unit 95 — B2 PCIC Academic Verbs & Social Justice
+// Spanish V2 Unit 95. B2 PCIC Academic Verbs & Social Justice
 import LESSON_13 from './_temp_esB2fin_L13.js';
 
 import COVERAGE_U95 from './_coverage_u95.js';

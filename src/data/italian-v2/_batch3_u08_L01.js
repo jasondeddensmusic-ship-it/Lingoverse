@@ -1,4 +1,4 @@
-// Batch 3 — Unit 08, Lesson 1: Materiali e taglie (Materials & Sizes)
+// Batch 3. Unit 08, Lesson 1: Materiali e taglie (Materials & Sizes)
 const BATCH3_U08_L1 = {
   id:"itv2_u08l_b3_1", title:"Materiali e taglie", icon:"\uD83E\uDDF5", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U08_L1 = {
 
     // Quiz steps
     {type:"mc", q:"Which Italian city is the center of silk production?",
-     opts:["Milano (Milan)","Firenze (Florence)","Como","Napoli (Naples)"],
+     opts:["Como","Napoli (Naples)","Milano (Milan)","Firenze (Florence)"],
      ans:"Como",
      hint:"This lakeside city in Lombardy has produced luxury silk since the 15th century. Many fashion houses source fabrics from here."},
 
@@ -105,7 +105,7 @@ const BATCH3_U08_L1 = {
     ]},
 
     {type:"mc", q:"What is 'guardare le vetrine'?",
-     opts:["Cleaning the shop windows","Arranging the product display","Window shopping","Opening the store for business"],
+     opts:["Arranging the product display","Window shopping","Opening the store for business","Cleaning the shop windows"],
      ans:"Window shopping",
      hint:"'Vetrina' (from 'vetro,' glass) is the display w.... Looking at them without buying is a popular Italian pastime."},
 
@@ -116,7 +116,7 @@ const BATCH3_U08_L1 = {
      sSrc:"Can I do a size {1}?"},
 
     {type:"mc", q:"What is the difference between 'aderente' and 'stretto'?",
-     opts:["They mean exactly the same thing","Aderente is slim-fitting, stretto is uncomfortably tight","Stretto is slim, aderente is loose","Both mean loose-fitting"],
+     opts:["Both mean loose-fitting","They mean exactly the same thing","Aderente is slim-fitting, stretto is uncomfortably tight","Stretto is slim, aderente is loose"],
      ans:"Aderente is slim-fitting, stretto is uncomfortably tight",
      hint:"One follows your body shape nicely. The other squeezes u.... Italian fashion favors the first."},
 
@@ -127,7 +127,7 @@ const BATCH3_U08_L1 = {
      sSrc:"Where is the women's {1}?"},
 
     {type:"mc", q:"Why do Italians accept linen wrinkles in summer?",
-     opts:["They cannot afford irons","Wrinkles are part of 'sprezzatura' (studied casualness)","Linen is never sold in Italy","Italian linen does not wrinkle"],
+     opts:["Linen is never sold in Italy","Italian linen does not wrinkle","They cannot afford irons","Wrinkles are part of 'sprezzatura' (studied casualness)"],
      ans:"Wrinkles are part of 'sprezzatura' (studied casualness)",
      hint:"Over-ironing linen is considered fussy. The relaxed, slightly rumpled look is intentionally elegant in Italian fashion culture."}
   ,{type:"match",pairs:[{trg:"la misura",src:"the measurement / size"},{trg:"il camerino",src:"the fitting room"},{trg:"il numero",src:"the number / shoe size"},{trg:"la vetrina",src:"the shop window / display"},{trg:"il marchio",src:"the brand / label"}]}]

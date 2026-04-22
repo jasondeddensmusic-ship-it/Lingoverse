@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 14 — Heritage and History
+// French B2 Gap Lesson 14. Heritage and History
 const LESSON_14 = {id:"frv2_b2g5_l14", title:"Patrimoine et histoire", icon:"🏰", xp:15, board:true, steps:[
   {type:"intro", title:"Patrimoine et histoire",
    desc:"Learn vocabulary for discussing heritage, historical events, and collective memory at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_14 = {id:"frv2_b2g5_l14", title:"Patrimoine et histoire", icon:"�
    funFact:"From 'frais/fraîche' (fresh/cool) + '-ment'. 'Accueilli fraîchement' means received coolly."},
 
   {type:"mc", q:"Quel effort est qualifié de 'herculéen'?",
-   opts:["Un effort qui demande une force énorme","Un effort quotidien","Un effort intellectuel","Un effort collectif"],
+   opts:["Un effort collectif","Un effort qui demande une force énorme","Un effort quotidien","Un effort intellectuel"],
    ans:"Un effort qui demande une force énorme",
    hint:"Named after the Greek hero known for his incredible strength"},
 
@@ -105,7 +105,7 @@ const LESSON_14 = {id:"frv2_b2g5_l14", title:"Patrimoine et histoire", icon:"�
   ]},
 
   {type:"mc", q:"D'où vient la sauce béarnaise?",
-   opts:["De la région du Béarn, dans le sud-ouest","De Paris","De Normandie","De Provence"],
+   opts:["De Normandie","De Provence","De la région du Béarn, dans le sud-ouest","De Paris"],
    ans:"De la région du Béarn, dans le sud-ouest",
    hint:"Named after a region in southwestern France, home of King Henri IV"},
 
@@ -120,7 +120,7 @@ const LESSON_14 = {id:"frv2_b2g5_l14", title:"Patrimoine et histoire", icon:"�
    hint:"Recently repainted walls and theatrical makeup that took a long time"},
 
   {type:"mc", q:"Le flamand est parlé dans quelle région de France?",
-   opts:["Le nord de la France","Le sud de la France","L'ouest de la France","Le centre de la France"],
+   opts:["Le sud de la France","L'ouest de la France","Le centre de la France","Le nord de la France"],
    ans:"Le nord de la France",
    hint:"Near the Belgian border, where Dutch-speaking communities have existed for centuries"}
 ]};

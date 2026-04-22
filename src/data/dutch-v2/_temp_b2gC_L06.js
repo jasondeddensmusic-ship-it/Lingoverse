@@ -1,4 +1,4 @@
-// L06: Immigratie en Integratie — Immigration and Integration
+// L06: Immigratie en Integratie. Immigration and Integration
 const LESSON_6 = {
   id:"nlv2_b2gC_l6", title:"Immigratie en Integratie", icon:"\u{1F3E0}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Waarom wordt het woord 'allochtoon' niet meer officieel gebruikt?",
-     opts:["Het was te moeilijk uit te spreken","Het werd als stigmatiserend ervaren","Het was grammaticaal incorrect","Het was een Engels leenwoord"],
+     opts:["Het werd als stigmatiserend ervaren","Het was grammaticaal incorrect","Het was een Engels leenwoord","Het was te moeilijk uit te spreken"],
      ans:"Het werd als stigmatiserend ervaren",
      hint:"The term was felt to label people negatively based on their background."},
 
@@ -75,7 +75,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Wanneer kregen vrouwen in Nederland het actieve kiesrecht?",
-     opts:["1848","1890","1919","1945"],
+     opts:["1890","1919","1945","1848"],
      ans:"1919",
      hint:"Nearly a century ago. It came shortly after World War I ended."},
 
@@ -95,7 +95,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Het suffix '-genoot' betekent:",
-     opts:["Vijand","Metgezel, deelgenoot","Leider","Vreemdeling"],
+     opts:["Vreemdeling","Vijand","Metgezel, deelgenoot","Leider"],
      ans:"Metgezel, deelgenoot",
      hint:"Geloofsgenoot, lotgenoot, vakgenoot. They all share something with you."},
 

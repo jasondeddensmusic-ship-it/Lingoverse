@@ -1,4 +1,4 @@
-// L12: Social Issues & Identity — 20 B2 gap words
+// L12: Social Issues & Identity, 20 B2 gap words
 const LESSON_12 = {
   id:"nlv2_b2g4_l12", title:"Maatschappij en Identiteit", icon:"\uD83E\uDD1D", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_12 = {
      deepDive:{title:"Dutch directness and social issues",
       text:"The Netherlands is known for open discussion of social issues. Topics considered taboo elsewhere, like sexuality, drugs, and euthanasia, are discussed matter-of-factly. This directness extends to feedback, criticism, and personal opinions. However, the Dutch also value 'gedogen' (toleration), a uniquely Dutch concept of officially ignoring what is technically illegal. This nuanced approach shapes Dutch social policy."}},
     {type:"mc", q:"What was the Netherlands the first country in the world to do in 2001?",
-     opts:["legalize cannabis","allow women to vote","legalize same-sex marriage","abolish the monarchy"],
+     opts:["legalize same-sex marriage","abolish the monarchy","legalize cannabis","allow women to vote"],
      ans:"legalize same-sex marriage",
      hint:"Related to 'geaardheid' (sexual orientation). A landmark legal achievement."},
     {type:"fb", s:"Dat was pure {1}.", a:["domheid"],

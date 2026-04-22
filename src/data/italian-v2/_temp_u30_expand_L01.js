@@ -30,7 +30,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"'Cerco un appartamento che {1} due camere da letto.' Quale forma e corretta?",
-     opts:["ha","abbia","avra","aveva"],
+     opts:["abbia","avra","aveva","ha"],
      ans:"abbia",
      hint:"You have not found the apartment yet. The subjunctive is needed because the antecedent (the apartment) is desired but unknown."},
 
@@ -88,7 +88,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quale frase richiede il congiuntivo nella relativa?",
-     opts:["Ho un gatto che dorme tutto il giorno","Cerco un gatto che non perda troppo pelo","Il gatto che ho adottato e affettuoso","Il gatto che viveva qui si e trasferito"],
+     opts:["Il gatto che viveva qui si e trasferito","Ho un gatto che dorme tutto il giorno","Cerco un gatto che non perda troppo pelo","Il gatto che ho adottato e affettuoso"],
      ans:"Cerco un gatto che non perda troppo pelo",
      hint:"Only one sentence describes something desired but not yet found. The others describe known, existing cats. The subjunctive marks the difference between reality and desire."}
   ]

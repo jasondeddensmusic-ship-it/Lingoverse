@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Please teach me how to use this machine.\nB: Please press this button.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"かた (方) is one of Japanese's most productive suffixes. Attach it to any verb's masu-stem: 食(た)べ + かた = way of eating, 行(い)き + かた = way of going/living (生(い)き方(かた), a philosophy of life). Japanese bookstores have entire sections on 生(い)き方(かた) (ways of living), reflecting the culture's interest in life philosophy."},
 
-    {type:"mc", q:"試験(しけん)に合格(ごうかく)するために勉強(べんきょう)する means:", opts:["I study because I passed the exam","I study in order to pass the exam","Studying is for the exam","I passed the exam by studying"], ans:"I study in order to pass the exam",
+    {type:"mc", q:"試験(しけん)に合格(ごうかく)するために勉強(べんきょう)する means:", opts:["I study in order to pass the exam","Studying is for the exam","I passed the exam by studying","I study because I passed the exam"], ans:"I study in order to pass the exam",
      hint:"ために expresses deliberate purpose: you s... WITH THE GOAL of passing."},
 
     {type:"teach", trg:"使(つか)い方(かた)", src:"way of using / how to use", pos:"noun", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Let us work hard for the children's future.\nB: Yes. Let us combine our efforts.\nA: Do you go often?\nB: I go about once a month.",
      funFact:"未来 literally means 'not yet come,' a beautiful way to describe the future. It is more literary and aspirational than the everyday 将来(しょうらい) (future/prospects). Politicians and visionaries use 未来(みらい) for inspiring speeches, while 将来(しょうらい) is used for practical planning: 将来(しょうらい)の夢(ゆめ) (future dream)."},
 
-    {type:"mc", q:"使(つか)い方(かた) is formed from:", opts:["使(つか)う + こと","使(つか)う + のに","使(つか)い (masu-stem) + 方(かた) (way)","使(つか)う + ために"], ans:"使(つか)い (masu-stem) + 方(かた) (way)",
+    {type:"mc", q:"使(つか)い方(かた) is formed from:", opts:["使(つか)う + のに","使(つか)い (masu-stem) + 方(かた) (way)","使(つか)う + ために","使(つか)う + こと"], ans:"使(つか)い (masu-stem) + 方(かた) (way)",
      hint:"The 方(かた) suffix attaches to the m...-s... of verbs to create 'the way/method of doing.'"},
 
     {type:"tip", title:"Nominalization for Purpose, Suitability, and Method",
@@ -81,8 +81,8 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"使(つか)い方(かた)",src:"how to use"},{trg:"生(い)き方(かた)",src:"way of living"},{trg:"のに時間(じかん)がかかる",src:"takes time to do"},{trg:"未来(みらい)",src:"future"}]},
 
-    {type:"mc", q:"生(い)き方(かた) is a profound word because:", opts:["It means 'walking style'","It refers to your life philosophy and how you choose to exist","It is a casual greeting","It describes physical exercise"], ans:"It refers to your life philosophy and how you choose to exist",
-     hint:"This profound term encompasses your values, principles, and fundamental approach to being in the world — far deeper than a mere routine or habit."},
+    {type:"mc", q:"生(い)き方(かた) is a profound word because:", opts:["It describes physical exercise","It means 'walking style'","It refers to your life philosophy and how you choose to exist","It is a casual greeting"], ans:"It refers to your life philosophy and how you choose to exist",
+     hint:"This profound term encompasses your values, principles, and fundamental approach to being in the world, far deeper than a mere routine or habit."},
   ]
 };
 export default BATCH2_L_2;

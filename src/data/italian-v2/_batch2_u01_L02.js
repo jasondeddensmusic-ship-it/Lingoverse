@@ -1,4 +1,4 @@
-// Unit 01 Batch 2 — Lesson 2: Essential Polite Requests & Responses
+// Unit 01 Batch 2. Lesson 2: Essential Polite Requests & Responses
 const BATCH2_U01_L2 = {
   id:"itv2_u01l_b2_2", title:"Per cortesia", icon:"\ud83d\udc4d", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U01_L2 = {
      sSrc:"A coffee, please. {1}!"},
 
     {type:"mc", q:"Which is the most elegant way to say 'please'?",
-     opts:["Per cortesia","Per favore","Per piacere","Prego"],
+     opts:["Prego","Per cortesia","Per favore","Per piacere"],
      ans:"Per cortesia",
      hint:"This version comes from 'corte' (court). It was the language of royal courts. The most refined register."},
 
@@ -122,7 +122,7 @@ const BATCH2_U01_L2 = {
     ]},
 
     {type:"mc", q:"What does a shop assistant mean by 'mi dica'?",
-     opts:["How can I help you?","Go away","Wait here","Come back later"],
+     opts:["Wait here","Come back later","How can I help you?","Go away"],
      ans:"How can I help you?",
      hint:"Literally 'tell me,' this formal phrase invites you to state what you need. Used by service staff throughout Italy."},
 
@@ -133,9 +133,9 @@ const BATCH2_U01_L2 = {
      sSrc:"Enjoy your meal! Thanks, {1}!"},
 
     {type:"mc", q:"How do you say 'excuse me' to a group of people?",
-     opts:["Scusate","Scusa","Scusi","Mi scusi"],
+     opts:["Scusa","Scusi","Mi scusi","Scusate"],
      ans:"Scusate",
      hint:"Italian distinguishes singular/plural and formal/informal. The plural form ends in -ate."}
-  ,{type:"match",pairs:[{trg:"niente",src:"nothing / no problem"},{trg:"mi dica",src:"tell me / how can I help"},{trg:"posso",src:"can I / may I"},{trg:"con piacere",src:"with pleasure / gladly"},{trg:"devo andare",src:"I have to go"}]},{type:"mc",q:"How do you say \"absolutely / without doubt\" in Italian?",opts:["la finestra","senz'altro","il tavolo","la bicicletta"],ans:"senz'altro",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"niente",src:"nothing / no problem"},{trg:"mi dica",src:"tell me / how can I help"},{trg:"posso",src:"can I / may I"},{trg:"con piacere",src:"with pleasure / gladly"},{trg:"devo andare",src:"I have to go"}]},{type:"mc",q:"How do you say \"absolutely / without doubt\" in Italian?",opts:["senz'altro","il tavolo","la bicicletta","la finestra"],ans:"senz'altro",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U01_L2;

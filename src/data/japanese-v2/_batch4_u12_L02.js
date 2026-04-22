@@ -1,4 +1,4 @@
-// Batch 4 — Unit 12 Lesson 2: Abilities & Skills
+// Batch 4. Unit 12 Lesson 2: Abilities & Skills
 const BATCH4_L_2 = {
   id:"jav2_u12l_b4_2", title:"能力(のうりょく)", icon:"🏅", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"頑張(がんば)る means:",
-     opts:["to do one's best","to give up","to fail","to succeed"], ans:"to do one's best",
+     opts:["to succeed","to do one's best","to give up","to fail"], ans:"to do one's best",
      hint:"Japan's most famous motivational verb, heard everywhere."},
 
     {type:"fb", s:"日本語(にほんご)の{1}は毎日(まいにち)練習(れんしゅう)することです。", a:"コツ",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The essential technique or secret to doing something well."},
 
     {type:"mc", q:"What does 無理(むり) mean?",
-     opts:["impossible/unreasonable","easy","difficult","interesting"], ans:"impossible/unreasonable",
+     opts:["difficult","interesting","impossible/unreasonable","easy"], ans:"impossible/unreasonable",
      hint:"When something is beyond what can reasonably be done."},
 
     {type:"mc", q:"自信(じしん) means:",
-     opts:["self-confidence","earthquake","effort","ability"], ans:"self-confidence",
+     opts:["earthquake","effort","ability","self-confidence"], ans:"self-confidence",
      hint:"S... + believe. Different kanji from the natural disaster word."}
   ,{type:"match",pairs:[{trg:"能力(のうりょく)",src:"ability / capability"},{trg:"得意(とくい)",src:"good at / strong point"},{trg:"経験(けいけん)",src:"experience"},{trg:"自信(じしん)",src:"self-confidence"},{trg:"成長(せいちょう)する",src:"to grow / develop"}]},
   {type:"fb", s:"練習(れんしゅう)を続(つづ)けると{1}がつきます。", a:["自信(じしん)"], opts:["自信(じしん)","得意(とくい)","苦手(にがて)","経験(けいけん)"], hint:"The inner belief in your own abilities, built through practice.", sSrc:"If you keep practising, you will gain {1}."}

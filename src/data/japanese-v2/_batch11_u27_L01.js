@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)はなぜリサイクルが盛(さか)んですか？",
-     opts:["Because of limited natural resources","Because it is legally required only","Because of aesthetic reasons","Because of foreign influence"],
+     opts:["Because of foreign influence","Because of limited natural resources","Because it is legally required only","Because of aesthetic reasons"],
      ans:"Because of limited natural resources",
      hint:"Japan's scarcity of n... 資源(しげん) has shaped a culture of conservation and careful resource management."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"This is strictly my opinion."},
 
     {type:"mc", q:"「おおむね」はどんな意味(いみ)ですか？",
-     opts:["Generally / for the most part","Absolutely / definitely","Never / not at all","Suddenly / unexpectedly"],
+     opts:["Never / not at all","Suddenly / unexpectedly","Generally / for the most part","Absolutely / definitely"],
      ans:"Generally / for the most part",
      hint:"This formal adverb acknowledges that something is mostly true while leaving room for minor imperfections."}
   ,{type:"match",pairs:[{trg:"かならずしも",src:"not necessarily / not always"},{trg:"再生可能(さいせいかのう)",src:"renewable (energy)"},{trg:"排出(はいしゅつ)",src:"emission / discharge"},{trg:"資源(しげん)",src:"resources"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"おおむね",src:"generally / for the most part"}]}]

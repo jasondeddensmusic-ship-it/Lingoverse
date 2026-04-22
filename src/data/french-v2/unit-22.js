@@ -1,4 +1,4 @@
-// Unit 22 — Les Connecteurs Logiques
+// Unit 22. Les Connecteurs Logiques
 // Advanced connectors and conjunctions
 
 export default {n:22,lang:"fr",srcLang:"en",track:"v2",title:"Les Connecteurs Logiques",sub:"Advanced connectors and conjunctions",icon:"🔗",level:"B1.6",color:"#7B5EE8",lessons:[
@@ -197,9 +197,9 @@ export default {n:22,lang:"fr",srcLang:"en",track:"v2",title:"Les Connecteurs Lo
         {type:"teach",trg:"l'inegalite",src:"inequality",pos:"noun",gender:"f",phonetic:"ee-nay-gah-lee-TAY",note:"Feminine noun. Often used in plural: les inegalites (inequalities).\nInegalite sociale = social inequality.\nCore term for DELF B2 essays on society and justice.",example:"A: Les inegalites sociales augmentent dans de nombreux pays.\nB: C'est un probleme serieux pour la democratie.\nA: Comment lutter contre ces inegalites?\nB: Par une meilleure education et des politiques sociales adaptees.",exampleSrc:"A: Social inequalities are growing in many countries.\nB: It's a serious problem for democracy.\nA: How do we fight these inequalities?\nB: Through better education and appropriate social policies.",funFact:"Inegalite = in- (not) + egalite (equality). The French Revolution's motto Liberte, Egalite, Fraternite placed equality at the heart of French civic identity. Discussion of inegalites is central to DELF B2 essay topics."},
         {type:"mc",q:"Which sentence expresses the idea of low cost correctly?",opts:["Ce manteau est pas cher, je l'achete.","Ce manteau est pas cher de rien.","Pas cher est ce manteau.","Je pas cher ce manteau."],ans:"Ce manteau est pas cher, je l'achete.",hint:"The adverbial phrase comes after a linking verb (etre). The full sentence then uses je + pronom + verbe to act on the result."},
         {type:"fb",opts:["l'urgence","la chance","la reunion","l'entree"],hint:"A feminine noun meaning 'emergency' that also means the hospital emergency room in plural.",s:"C'est {1}! Appelez les secours!",a:["l'urgence"]},
-        {type:"mc",q:"Your colleague left early. How do you say 'My colleague left' in French?",opts:["Mon collegue est parti.","Le collegue a parti.","Mon collegue est alle.","Ma collegue est parti."],ans:"Mon collegue est parti.",hint:"Colleague is masculine here. Partir uses etre as its auxiliary in passe compose."},
+        {type:"mc",q:"Your colleague left early. How do you say 'My colleague left' in French?",opts:["Ma collegue est parti.","Mon collegue est parti.","Le collegue a parti.","Mon collegue est alle."],ans:"Mon collegue est parti.",hint:"Colleague is masculine here. Partir uses etre as its auxiliary in passe compose."},
         {type:"fb",opts:["encore","toujours","souvent","jamais"],hint:"The adverb meaning 'again / still / not yet' depending on context.",s:"Tu veux {1} du cafe? (Would you like more coffee?)",a:["encore"]},
-        {type:"mc",q:"Marie is pleased with her new apartment. How does she express this?",opts:["Je suis contente de mon appartement.","Je suis content de mon appartement.","Je suis contents de mon appartement.","Je suis contenti de mon appartement."],ans:"Je suis contente de mon appartement.",hint:"Marie is female. The adjective 'content' adds -e for feminine agreement."},
+        {type:"mc",q:"Marie is pleased with her new apartment. How does she express this?",opts:["Je suis contents de mon appartement.","Je suis contenti de mon appartement.","Je suis contente de mon appartement.","Je suis content de mon appartement."],ans:"Je suis contente de mon appartement.",hint:"Marie is female. The adjective 'content' adds -e for feminine agreement."},
         {type:"fb",opts:["la mondialisation","l'immigration","la democratie","l'inegalite"],hint:"The feminine noun describing the worldwide economic interconnection process.",s:"La {1} a change le commerce mondial.",a:["la mondialisation"]},
         {type:"match",pairs:[
           {trg:"pas cher",src:"cheap / not expensive"},
@@ -209,7 +209,7 @@ export default {n:22,lang:"fr",srcLang:"en",track:"v2",title:"Les Connecteurs Lo
           {trg:"content",src:"happy / pleased"}
         ]},
         {type:"fb",opts:["la democratie","la mondialisation","l'inegalite","l'immigration"],hint:"The civic noun related to people coming into a country to live.",s:"L'{1} est un sujet de debat en France.",a:["l'immigration"]},
-        {type:"mc",q:"Which sentence correctly describes growing social inequality?",opts:["Les inegalites sociales augmentent.","Les inegalite social augmentent.","L'inegalites sociales augmentent.","Les inegalites sociales augmente."],ans:"Les inegalites sociales augmentent.",hint:"Check noun-adjective agreement and plural verb conjugation. Both the noun and the verb must reflect a plural subject."},
+        {type:"mc",q:"Which sentence correctly describes growing social inequality?",opts:["Les inegalite social augmentent.","L'inegalites sociales augmentent.","Les inegalites sociales augmente.","Les inegalites sociales augmentent."],ans:"Les inegalites sociales augmentent.",hint:"Check noun-adjective agreement and plural verb conjugation. Both the noun and the verb must reflect a plural subject."},
         {type:"fb",opts:["l'inegalite","la mondialisation","la democratie","l'urgence"],hint:"The political system built on the power of the people (from Greek demos + kratos).",s:"La {1} reste le meilleur systeme politique.",a:["la democratie"]},
         {type:"match",pairs:[
           {trg:"la mondialisation",src:"globalization"},
@@ -219,6 +219,6 @@ export default {n:22,lang:"fr",srcLang:"en",track:"v2",title:"Les Connecteurs Lo
         ]},
         {type:"mc",q:"A friend says: 'Pas encore!' What does this mean?",opts:["Not yet!","Not again!","Not even!","No more!"],ans:"Not yet!",hint:"Combines the standard French negation pas with the adverb encore in its time-completion sense."},
         {type:"fb",opts:["contente","content","contents","contentes"],hint:"She is pleased with the result. Use the feminine singular form of content.",s:"Elle est tres {1} du resultat.",a:["contente"]},
-        {type:"mc",q:"Which three words form the French Republic's motto?",opts:["Liberte, Egalite, Fraternite","Democratie, Egalite, Liberte","Liberte, Immigration, Fraternite","Egalite, Inegalite, Democratie"],ans:"Liberte, Egalite, Fraternite",hint:"France's founding civic slogan connects directly to the vocabulary in this lesson. It appears on public buildings across France."}
+        {type:"mc",q:"Which three words form the French Republic's motto?",opts:["Egalite, Inegalite, Democratie","Liberte, Egalite, Fraternite","Democratie, Egalite, Liberte","Liberte, Immigration, Fraternite"],ans:"Liberte, Egalite, Fraternite",hint:"France's founding civic slogan connects directly to the vocabulary in this lesson. It appears on public buildings across France."}
   ]}
 ]};

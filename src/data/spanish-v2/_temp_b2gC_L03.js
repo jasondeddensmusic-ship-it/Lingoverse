@@ -66,7 +66,7 @@ const LESSON_3 = {id:"esv2_b2gC_l3",title:"Recursos humanos y formación",icon:"
  exampleSrc:"A: The completion of the project is scheduled for June.\nB: We're on track, there won't be delays.",
  funFact:"Spanish loves abstract -ción nouns. There are over 5,000 words ending in -ción in standard dictionaries."},
 
-{type:"mc",q:"¿Qué significa 'perfeccionamiento'?",opts:["El proceso de mejorar algo hasta hacerlo perfecto","Un tipo de empleo público","Un departamento de la empresa","Un contrato laboral especial"],ans:"El proceso de mejorar algo hasta hacerlo perfecto",hint:"This word is built from the verb meaning 'to perfect' or 'to refine'."},
+{type:"mc",q:"¿Qué significa 'perfeccionamiento'?",opts:["Un contrato laboral especial","El proceso de mejorar algo hasta hacerlo perfecto","Un tipo de empleo público","Un departamento de la empresa"],ans:"El proceso de mejorar algo hasta hacerlo perfecto",hint:"This word is built from the verb meaning 'to perfect' or 'to refine'."},
 
 {type:"fb",s:"La {1} del contrato debe ser aprobada por ambas partes.",a:["modificación"],opts:["modificación","normalización","finalización","formación"],hint:"A change or alteration to an existing agreement or document.",sSrc:"The {1} of the contract must be approved by both parties."},
 

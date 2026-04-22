@@ -1,4 +1,4 @@
-// Batch 4 — Unit 06 Lesson 1: Body Parts
+// Batch 4. Unit 06 Lesson 1: Body Parts
 const BATCH4_L_1 = {
   id:"jav2_u06l_b4_1", title:"体(からだ)", icon:"🦵", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"Which body part is used in the idiom for 'smart'?",
-     opts:["頭(あたま) (head)","手(て) (hand)","目(め) (eye)","鼻(はな) (nose)"], ans:"頭(あたま) (head)",
+     opts:["鼻(はな) (nose)","頭(あたま) (head)","手(て) (hand)","目(め) (eye)"], ans:"頭(あたま) (head)",
      hint:"'Good ___' means intelligent in Japanese, just like in English."},
 
     {type:"fb", s:"{1}を洗(あら)いましょう。", a:"手(て)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"What you wash frequently for hygiene, especially before eating."},
 
     {type:"mc", q:"肩(かた)こり means:",
-     opts:["stiff shoulders","headache","stomachache","backache"], ans:"stiff shoulders",
+     opts:["stomachache","backache","stiff shoulders","headache"], ans:"stiff shoulders",
      hint:"Japan's most common physical complaint, treated with massage."},
 
     {type:"mc", q:"What does 指(ゆび) mean?",
-     opts:["finger","wrist","elbow","knee"], ans:"finger",
+     opts:["wrist","elbow","knee","finger"], ans:"finger",
      hint:"The five digits at the end of your hand used for gripping."}
   ,{type:"match",pairs:[{trg:"体(からだ)",src:"body"},{trg:"顔(かお)",src:"face"},{trg:"歯(は)",src:"tooth"},{trg:"指(ゆび)",src:"finger"},{trg:"足(あし)",src:"leg / foot"},{trg:"お腹(なか)",src:"stomach / belly"}]},{type:"match",pairs:[{trg:"背中(せなか)",src:"back (body)"},{trg:"肩(かた)",src:"shoulder"}]}]
 };

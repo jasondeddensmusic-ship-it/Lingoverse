@@ -73,7 +73,7 @@ const LESSON_17 = {id:"esv2_b2g8_l17",title:"Deporte y competición",icon:"⚽",
  funFact:"As an adjective, 'accidentado' describes both rough terrain and eventful situations: 'un viaje accidentado'."},
 
 {type:"mc",q:"¿De qué idioma viene la palabra 'jaque' del ajedrez?",
- opts:["Del árabe","Del inglés","Del francés","Del italiano"],
+ opts:["Del italiano","Del árabe","Del inglés","Del francés"],
  ans:"Del árabe",
  hint:"Chess terminology in Spanish came through Arabic-speaking cultures in medieval Al-Andalus."},
 

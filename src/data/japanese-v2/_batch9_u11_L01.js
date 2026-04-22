@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"〜てみる", src:"try doing"}
     ]},
 
-    {type:"mc", q:"What does 日本語(にほんご)がわかってきました mean?", opts:["I have gradually come to understand Japanese","I understood Japanese completely","I forgot Japanese","I started studying Japanese"], ans:"I have gradually come to understand Japanese",
+    {type:"mc", q:"What does 日本語(にほんご)がわかってきました mean?", opts:["I started studying Japanese","I have gradually come to understand Japanese","I understood Japanese completely","I forgot Japanese"], ans:"I have gradually come to understand Japanese",
      hint:"てくる expresses a gradual change approaching the present moment."}
   ,{type:"fb", s:"この歌(うた)を{1}ますか？有名(ゆうめい)な曲(きょく)ですよ。",
     a:["知(し)っている"],

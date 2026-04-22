@@ -92,7 +92,7 @@ const LESSON_15 = {id:"frv2_b1gap_l15", title:"Débattre et argumenter", icon:"\
 
 {type:"mc",
  q:"Quel nom désigne l'acte d'admettre la vérité ?",
- opts:["un aveu","un avertissement","un argument","un apparat"],
+ opts:["un apparat","un aveu","un avertissement","un argument"],
  ans:"un aveu",
  hint:"This is what a criminal does when they admit their guilt. To confess is to 'passer aux...'"},
 
@@ -137,7 +137,7 @@ const LESSON_15 = {id:"frv2_b1gap_l15", title:"Débattre et argumenter", icon:"\
 
 {type:"mc",
  q:"Quel mot signifie à la fois 'opinion' et 'annonce officielle' ?",
- opts:["un avis","un aveu","un avenir","un avertissement"],
+ opts:["un avenir","un avertissement","un avis","un aveu"],
  ans:"un avis",
  hint:"'À mon...' is how you start saying 'in my opinion.' It also appears on official notice boards."},
 

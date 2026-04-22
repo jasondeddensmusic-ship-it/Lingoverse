@@ -1,4 +1,4 @@
-// L14: Natuur en Dieren — Nature and Animals
+// L14: Natuur en Dieren. Nature and Animals
 const LESSON_14 = {
   id:"nlv2_b2gC_l14", title:"Natuur en Dieren", icon:"\u{1F33F}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Waarom heet de kalkoen 'kalkoen' in het Nederlands?",
-     opts:["Naar de kleur van het dier","Naar de stad Calicut in India","Naar een Nederlandse ontdekker","Naar het geluid dat het dier maakt"],
+     opts:["Naar de stad Calicut in India","Naar een Nederlandse ontdekker","Naar het geluid dat het dier maakt","Naar de kleur van het dier"],
      ans:"Naar de stad Calicut in India",
      hint:"Like many European languages, Dutch named this bird after the wrong place of origin."},
 

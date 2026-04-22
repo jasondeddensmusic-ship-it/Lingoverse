@@ -1,4 +1,4 @@
-// L10: Kerk en Geloof — Church and Faith
+// L10: Kerk en Geloof. Church and Faith
 const LESSON_10 = {
   id:"nlv2_b2gD_l10", title:"Kerk en Geloof", icon:"\u{26EA}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Wat is een 'automatiek' in Nederland?",
-     opts:["Een muur met vakjes waar je snacks uit kunt halen","Een wasserette","Een geldautomaat","Een parkeerautomaat"],
+     opts:["Een parkeerautomaat","Een muur met vakjes waar je snacks uit kunt halen","Een wasserette","Een geldautomaat"],
      ans:"Een muur met vakjes waar je snacks uit kunt halen",
      hint:"Think of FEBO. A wall of small heated compartments where you insert coins to get hot s... like croquettes."},
 

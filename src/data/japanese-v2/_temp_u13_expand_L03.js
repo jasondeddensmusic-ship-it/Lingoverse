@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    exampleSrc:"A: Have you experienced tea ceremony before?\nB: No, I want to try it once.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
    funFact:"茶道 combines 茶 (tea) and 道 (way/path). Tea ceremony is not just about drinking tea but about mindfulness, aesthetics, and respect. The four principles are wa (harmony), kei (respect), sei (purity), and jaku (tranquility). A single ceremony can take up to four hours."},
 
-  {type:"mc", q:"はなみをしたことがありますか means:", opts:["Do you like flowers?","Have you gone flower shopping?","Have you done cherry blossom viewing?","Will you go see flowers?"], ans:"Have you done cherry blossom viewing?",
+  {type:"mc", q:"はなみをしたことがありますか means:", opts:["Have you done cherry blossom viewing?","Will you go see flowers?","Do you like flowers?","Have you gone flower shopping?"], ans:"Have you done cherry blossom viewing?",
    hint:"はなみ is the springtime tradition of v... c... blossoms."},
 
   {type:"teach", trg:"たいけん", src:"hands-on experience", pos:"noun", gender:null,
@@ -60,7 +60,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
    exampleSrc:"A: Have you bought souvenirs in Japan?\nB: Yes, I bought sweets and phone straps.\nA: Where do you recommend?\nB: I recommend Kyoto.",
    funFact:"Omiyage culture is a deeply ingrained social obligation. When traveling, you are expected to buy treats for coworkers and friends. Train stations have entire floors dedicated to omiyage. Regional specialties (めいぶつ) are the standard choice. Forgetting omiyage can cause social awkwardness."},
 
-  {type:"mc", q:"はなび literally means:", opts:["sky light","big sound","flower fire","star rain"], ans:"flower fire",
+  {type:"mc", q:"はなび literally means:", opts:["big sound","flower fire","star rain","sky light"], ans:"flower fire",
    hint:"はな (f...) + び/ひ (f...), describing how fireworks bloom like flowers."},
 
   {type:"teach", trg:"もみじ", src:"autumn leaves / maple", pos:"noun", gender:null,
@@ -76,7 +76,7 @@ const LESSON_5 = {id:"jav2_u13l5", title:"にほんのぶんか", icon:"🎎", x
 
   {type:"match", pairs:[{trg:"はなび",src:"fireworks"},{trg:"おせちりょうり",src:"New Year food"},{trg:"おみやげ",src:"souvenir"},{trg:"もみじ",src:"autumn leaves"}]},
 
-  {type:"mc", q:"おみやげ is:", opts:["A type of food","A gift bought during travel","A festival event","A traditional dance"], ans:"A gift bought during travel",
+  {type:"mc", q:"おみやげ is:", opts:["A traditional dance","A type of food","A gift bought during travel","A festival event"], ans:"A gift bought during travel",
    hint:"A deeply ingrained Japanese social obligation: you must return from any trip with something for those who stayed behind."},
 
   {type:"fb", s:"きょうとで{1}をしたことがありますか？\n(Have you done cherry blossom viewing in Kyoto?)", a:"はなみ", opts:["はなみ","はなび","はなし","はなや"], sSrc:"Have you done cherry blossom viewing in Kyoto?",

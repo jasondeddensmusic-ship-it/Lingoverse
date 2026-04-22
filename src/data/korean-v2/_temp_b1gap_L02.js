@@ -34,7 +34,7 @@ const LESSON_2 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"국내 여행과 국제 여행의 차이는?",
-     opts:["국내는 비싸고, 국제는 싸다","국내는 정치, 국제는 경제","국내는 나라 안, 국제는 나라 밖","둘 다 같은 뜻이다"],
+     opts:["국내는 나라 안, 국제는 나라 밖","둘 다 같은 뜻이다","국내는 비싸고, 국제는 싸다","국내는 정치, 국제는 경제"],
      ans:"국내는 나라 안, 국제는 나라 밖",
      hint:"Think about the hanja: 內 means inside, 際 means between/boundary."},
 
@@ -119,7 +119,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'대중교통'에서 '대중'의 뜻은?",
-     opts:["대표하는 것","크고 무거운 것","대통령과 관련된 것","일반 사람들, 공공"],
+     opts:["크고 무거운 것","대통령과 관련된 것","일반 사람들, 공공","대표하는 것"],
      ans:"일반 사람들, 공공",
      hint:"Think about who uses public transportation: everyone, the general public."},
 
@@ -191,7 +191,7 @@ const LESSON_2 = {
     // --- Quiz batch 5 ---
     {type:"mc",
      q:"'노동자'와 '근로자'의 차이로 맞는 것은?",
-     opts:["노동자는 공무원, 근로자는 군인","노동자는 육체적, 근로자는 공식적 표현","둘 다 대통령을 뜻한다","노동자는 학생, 근로자는 선생님"],
+     opts:["둘 다 대통령을 뜻한다","노동자는 학생, 근로자는 선생님","노동자는 공무원, 근로자는 군인","노동자는 육체적, 근로자는 공식적 표현"],
      ans:"노동자는 육체적, 근로자는 공식적 표현",
      hint:"One emphasizes physical labor, the other is more neutral and used in legal documents."},
 
@@ -204,7 +204,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"각종 행사에서 '각종'의 뜻은?",
-     opts:["하나의, 유일한","국제적인","여러 가지, 다양한","강제적인"],
+     opts:["여러 가지, 다양한","강제적인","하나의, 유일한","국제적인"],
      ans:"여러 가지, 다양한",
      hint:"The prefix 각 means 'each' and 종 means 'kind.' Together they mean various types."}
   ]

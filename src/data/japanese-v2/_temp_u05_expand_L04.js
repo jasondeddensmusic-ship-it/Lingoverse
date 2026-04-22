@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: Will you have beer?\nB: Yes, one glass please.",
      funFact:"Beer came from Dutch traders (bier, not English 'beer'). Japan's big four: Asahi, Kirin, Sapporo, Suntory. The first glass is almost always beer at social gatherings (toriaezu biiru = beer for now). It is poured for others, never yourself."},
 
-    {type:"mc", q:"コンビニ is short for:", opts:["Combination","Convenience store","Community center","Company office"], ans:"Convenience store",
+    {type:"mc", q:"コンビニ is short for:", opts:["Convenience store","Community center","Company office","Combination"], ans:"Convenience store",
      hint:"A shortened loanword from 'c... s....'"},
 
     {type:"teach", trg:"おさけ", src:"alcohol / sake / rice wine", pos:"noun", gender:null,
@@ -113,7 +113,7 @@ const LESSON_6 = {
     {type:"mc", q:"はなよりだんご means:", opts:["Flowers are beautiful","Dumplings with flowers","Practicality over beauty","Food before rest"], ans:"Practicality over beauty",
      hint:"This proverb puts dango (practical satisfaction) above hana (aesthetic appreciation)."},
 
-    {type:"mc", q:"あたためますか is asked at konbini when:", opts:["You buy drinks","You buy bento or onigiri","You pay with a card","You ask for directions"], ans:"You buy bento or onigiri",
+    {type:"mc", q:"あたためますか is asked at konbini when:", opts:["You pay with a card","You ask for directions","You buy drinks","You buy bento or onigiri"], ans:"You buy bento or onigiri",
      hint:"Staff offer to microwave your purchased food items."},
   ]
 };

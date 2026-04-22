@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: The volume of government bond issuance keeps increasing.\nB: I am worried about the burden on future generations.\nA: That is an excellent result.\nB: Thank you. It is thanks to the effort of the whole team.\nA: What are the future goals?\nB: To further improve quality.",
      funFact:"国債 uses 国 (country) and 債 (debt). Japanese government bonds are unique: about half are held by the にちぎん itself, and most of the rest by domestic institutions. This means Japan borrows mainly from itself, which is why the huge debt has not caused a crisis (yet). The phrase しょうらいのせだいへのふたん (burden on future generations) is a common concern."},
 
-    {type:"mc", q:"ざいせいあかじ means:", opts:["The economy is growing rapidly","Tax revenues are increasing","The trade balance is positive","The government spends more than it collects in revenue"], ans:"The government spends more than it collects in revenue",
+    {type:"mc", q:"ざいせいあかじ means:", opts:["The government spends more than it collects in revenue","The economy is growing rapidly","Tax revenues are increasing","The trade balance is positive"], ans:"The government spends more than it collects in revenue",
      hint:"ざいせい is g... finance, and あかじ means a deficit or shortfall."},
 
     {type:"teach", trg:"こよう", src:"employment", pos:"noun", gender:null,

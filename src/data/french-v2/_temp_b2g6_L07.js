@@ -80,7 +80,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Que signifie 'jusqu'au bout' ?",
-     opts:["Jusqu'à la fin, complètement","Au début seulement","À contrecœur","De temps en temps"],
+     opts:["De temps en temps","Jusqu'à la fin, complètement","Au début seulement","À contrecœur"],
      ans:"Jusqu'à la fin, complètement",
      hint:"'Bout' means end or tip. This phrase expresses total commitment and perseverance."},
 
@@ -131,7 +131,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'dans les limites de' ?",
-     opts:["dans la limite de","dans l'espoir de","en marge de","en guise de"],
+     opts:["en marge de","en guise de","dans la limite de","dans l'espoir de"],
      ans:"dans la limite de",
      hint:"A prepositional phrase setting a boundary or maximum extent for something."},
 

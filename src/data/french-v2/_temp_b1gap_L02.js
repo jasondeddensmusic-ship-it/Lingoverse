@@ -86,7 +86,7 @@ const LESSON_2 = {id:"frv2_b1gap_l2", title:"Perte et abandon", icon:"\u{1F4A8}"
 
 {type:"mc",
  q:"Quel mot signifie un gouffre sans fond, au sens propre ou figuré ?",
- opts:["un abîme","un abus","une abolition","un abandon"],
+ opts:["un abandon","un abîme","un abus","une abolition"],
  ans:"un abîme",
  hint:"This masculine noun comes from the Greek word for 'bottomless.' Note the circumflex accent."},
 
@@ -143,7 +143,7 @@ const LESSON_2 = {id:"frv2_b1gap_l2", title:"Perte et abandon", icon:"\u{1F4A8}"
 
 {type:"mc",
  q:"Comment décrit-on un travailleur qui ne s'arrête jamais ?",
- opts:["acharné","abandonné","affaibli","accablé"],
+ opts:["affaibli","accablé","acharné","abandonné"],
  ans:"acharné",
  hint:"This adjective comes from a word meaning 'flesh' and suggests dog-like tenacity."},
 

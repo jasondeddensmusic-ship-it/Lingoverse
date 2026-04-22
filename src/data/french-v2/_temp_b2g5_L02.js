@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 2 — Media and Communication
+// French B2 Gap Lesson 2. Media and Communication
 const LESSON_2 = {id:"frv2_b2g5_l2", title:"Médias et communication", icon:"📡", xp:15, board:true, steps:[
   {type:"intro", title:"Médias et communication",
    desc:"Build vocabulary for discussing media, journalism, online communication, and the digital landscape at the B2 level.",
@@ -93,7 +93,7 @@ const LESSON_2 = {id:"frv2_b2g5_l2", title:"Médias et communication", icon:"�
    funFact:"Past participle of 'fonder' (to found). 'Bien fondé' as a noun means 'validity' or 'soundness'."},
 
   {type:"mc", q:"Quel mot décrit une augmentation soudaine et forte des prix?",
-   opts:["Une flambée","Une formulation","Une affirmation","Une exclamation"],
+   opts:["Une exclamation","Une flambée","Une formulation","Une affirmation"],
    ans:"Une flambée",
    hint:"Think of a blaze of fire: sudden, intense, and hard to control"},
 
@@ -111,7 +111,7 @@ const LESSON_2 = {id:"frv2_b2g5_l2", title:"Médias et communication", icon:"�
   ]},
 
   {type:"mc", q:"Que signifie 'flirter avec le danger'?",
-   opts:["Prendre des risques","Avoir une relation amoureuse","Écrire un article","Publier un blog"],
+   opts:["Écrire un article","Publier un blog","Prendre des risques","Avoir une relation amoureuse"],
    ans:"Prendre des risques",
    hint:"The figurative use of this verb means approaching something risky"},
 
@@ -126,7 +126,7 @@ const LESSON_2 = {id:"frv2_b2g5_l2", title:"Médias et communication", icon:"�
    hint:"Portraying the opponent as evil creates splits in the community"},
 
   {type:"mc", q:"Quel adjectif signifie 'basé sur des preuves solides'?",
-   opts:["Fondé","Irrésistible","Insignifiant","Incompris"],
+   opts:["Irrésistible","Insignifiant","Incompris","Fondé"],
    ans:"Fondé",
    hint:"A criticism or claim that rests on verifiable facts and solid reasoning"}
 ]};

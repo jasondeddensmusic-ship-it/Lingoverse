@@ -1,4 +1,4 @@
-// Unit 26 — Le Conditionnel Passé
+// Unit 26. Le Conditionnel Passé
 // Past conditional, regrets, and reproaches
 
 export default {n:26,lang:"fr",srcLang:"en",track:"v2",title:"Le Conditionnel Passé",sub:"Past conditional, regrets, and reproaches",icon:"😔",level:"B2.2",color:"#7B5EE8",lessons:[

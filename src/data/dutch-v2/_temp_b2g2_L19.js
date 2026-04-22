@@ -1,4 +1,4 @@
-// L19: Sports & Leisure — 20 B2 gap words
+// L19: Sports & Leisure, 20 B2 gap words
 const LESSON_19 = {
   id:"nlv2_b2g2_l19", title:"Sport en Vrije Tijd", icon:"\u26BD", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const LESSON_19 = {
      sSrc:"The physiotherapist drew up a {1} for my rehabilitation."},
     {type:"mc",
      q:"Wat is een typisch Nederlands sociaal evenement na een werkdag?",
-     opts:["Een borrel","Een cocktailparty","Een banket","Een galadiner"],
+     opts:["Een galadiner","Een borrel","Een cocktailparty","Een banket"],
      ans:"Een borrel",
      hint:"An informal Dutch gathering with drinks and snacks, typically on Friday afternoon at 17:00."},
     {type:"match", pairs:[

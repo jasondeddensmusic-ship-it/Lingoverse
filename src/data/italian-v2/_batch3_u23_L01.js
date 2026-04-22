@@ -1,4 +1,4 @@
-// Batch 3 — Unit 23, Lesson 1: Istituzioni e dovere civico (Institutions & Civic Duty)
+// Batch 3. Unit 23, Lesson 1: Istituzioni e dovere civico (Institutions & Civic Duty)
 const BATCH3_U23_L1 = {
   id:"itv2_u23l_b3_1", title:"Istituzioni e dovere civico", icon:"\uD83D\uDDF3\uFE0F", xp:15, board:true,
   steps:[
@@ -74,7 +74,7 @@ const BATCH3_U23_L1 = {
 
     // Quiz steps
     {type:"mc", q:"How is the Italian President elected?",
-     opts:["By popular vote of all citizens","By parliament for a seven-year term","By the prime minister alone","By regional governors jointly"],
+     opts:["By parliament for a seven-year term","By the prime minister alone","By regional governors jointly","By popular vote of all citizens"],
      ans:"By parliament for a seven-year term",
      hint:"Not by the people directly. The role is largely ceremonial but carries significant moral authority. The Quirinale Palace is the residence."},
 
@@ -115,7 +115,7 @@ const BATCH3_U23_L1 = {
      sSrc:"I {1} at the Red Cross."},
 
     {type:"mc", q:"Which regions have 'statuto speciale' (special autonomy)?",
-     opts:["Lombardia and Veneto","Toscana and Lazio","Sicilia, Sardegna, Trentino-Alto Adige, Valle d'Aosta, Friuli VG","Campania and Puglia"],
+     opts:["Campania and Puglia","Lombardia and Veneto","Toscana and Lazio","Sicilia, Sardegna, Trentino-Alto Adige, Valle d'Aosta, Friuli VG"],
      ans:"Sicilia, Sardegna, Trentino-Alto Adige, Valle d'Aosta, Friuli VG",
      hint:"Five regions have greater self-governance due to geography, language minorities, or historical agreements. Islands and border regions predominate."}
   ,{type:"match",pairs:[{trg:"il presidente della Repubblica",src:"the President of the Republic"},{trg:"il primo ministro",src:"the prime minister"},{trg:"la tassa",src:"the tax"},{trg:"il welfare",src:"the welfare (state)"}]}]

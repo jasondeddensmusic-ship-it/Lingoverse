@@ -95,7 +95,7 @@ const LESSON_2 = {
      funFact:"'Gemoed' is a beautiful Dutch word with no exact English equivalent. It encompasses mood, spirit, and emotional temperament all at once."},
     {type:"mc",
      q:"Wat betekent 'insmeren'?",
-     opts:["Crème of zalf op de huid aanbrengen","Iets in de oven stoppen","Een wond verbinden","Medicijnen innemen"],
+     opts:["Medicijnen innemen","Crème of zalf op de huid aanbrengen","Iets in de oven stoppen","Een wond verbinden"],
      ans:"Crème of zalf op de huid aanbrengen",
      hint:"This separable verb combines 'in' with 'smeren' (to spread/smear). Think of applying lotion."},
     {type:"fb",
@@ -106,7 +106,7 @@ const LESSON_2 = {
      sSrc:"The psychologist asked about my {1} after losing my job."},
     {type:"mc",
      q:"Welk woord beschrijft moeilijkheden met in slaap vallen?",
-     opts:["inslaapproblemen","infectieproblemen","inhaleerproblemen","inlogproblemen"],
+     opts:["inhaleerproblemen","inlogproblemen","inslaapproblemen","infectieproblemen"],
      ans:"inslaapproblemen",
      hint:"A compound: in (into) + slaap (sleep) + problemen (problems). What happens at bedtime?"}
   ]

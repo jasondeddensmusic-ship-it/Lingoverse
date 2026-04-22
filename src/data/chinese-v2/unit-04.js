@@ -52,7 +52,7 @@ lessons:[
  funFact:"\u83DC has the grass radical (\u8279) on top, showing its plant origin. The double meaning is practical: \u4E70\u83DC means 'buy vegetables' (at the market), while \u70B9\u83DC means 'order dishes' (at a restaurant)."},
 
 {type:"mc", q:"What does \u4F60\u5403\u4E86\u5417 literally ask?",
- opts:["What is your name?","How are you?","Have you eaten?","Where are you going?"],
+ opts:["Have you eaten?","Where are you going?","What is your name?","How are you?"],
  ans:"Have you eaten?",
  hint:"This question uses the verb for eating. It functions as a common daily greeting in Chinese."},
 
@@ -71,14 +71,14 @@ lessons:[
  sSrc:"I {1} tea."},
 
 {type:"mc", q:"\u7C73\u996D(m\u01D0f\u00E0n) refers to:",
- opts:["cooked rice","noodles","bread","raw rice grains"],
+ opts:["raw rice grains","cooked rice","noodles","bread"],
  ans:"cooked rice",
  hint:"\u7C73 means ___ grain and \u996D means meal. Together they refer to the prepared staple food."},
 
 {type:"fb", s:"\u4F60(n\u01D0){1}\u4EC0\u4E48(sh\u00E9nme)?",
  a:["\u5403(ch\u012B)"],
  opts:["\u5403(ch\u012B)","\u559D(h\u0113)","\u662F(sh\u00EC)","\u53EB(ji\u00E0o)"],
- hint:"Which verb goes with solid foods — one that means 'to consume via chewing'?",
+ hint:"Which verb goes with solid foods, one that means 'to consume via chewing'?",
  sSrc:"What do you {1}?"},
 
 {type:"mc", q:"\u83DC(c\u00E0i) can mean both:",
@@ -153,7 +153,7 @@ lessons:[
  funFact:"\u90FD refers back to a plural subject. \u4ED6\u4EEC\u90FD\u559D\u8336 means 'They ALL drink tea.' It summarizes the group. Unlike English 'all,' \u90FD always appears after the subject and before the verb."},
 
 {type:"mc", q:"\u8FD9(zh\u00E8)\u4E2A(g\u00E8)\u83DC(c\u00E0i)\u5F88(h\u011Bn)\u597D(h\u01CEo)\u5403(ch\u012B)! What does this mean?",
- opts:["This dish is very big","This dish is terrible","This dish is very hot","This dish is very delicious"],
+ opts:["This dish is very delicious","This dish is very big","This dish is terrible","This dish is very hot"],
  ans:"This dish is very delicious",
  hint:"\u5F88 means 'very' and \u597D\u5403 literally means 'good to eat.' What is the sentence praising?"},
 
@@ -178,7 +178,7 @@ lessons:[
  sSrc:"Dad and Mom {1} eat rice."},
 
 {type:"mc", q:"Where does \u4E5F(y\u011B) go in a Chinese sentence?",
- opts:["After the verb","Before the subject","At the end","Before the verb"],
+ opts:["At the end","Before the verb","After the verb","Before the subject"],
  ans:"Before the verb",
  hint:"Chinese ad___s like \u4E5F and \u90FD have a fixed position. They always come between subject and ___."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"I want one {1} of tea."},
 
 {type:"mc", q:"\u6211\u559D\u4E00\u70B9\u513F\u3002 What does this mean?",
- opts:["I do not drink","I drink a lot","I want to drink","I drink a little"],
+ opts:["I drink a little","I do not drink","I drink a lot","I want to drink"],
  ans:"I drink a little",
  hint:"\u4E00\u70B9\u513F means a small amount. The speaker is being modest about the quantity."},
 
@@ -249,7 +249,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u8981(y\u00E0o)\u51E0(j\u01D0)\u676F(b\u0113i)\u6C34(shu\u01D0)? What is being asked?",
- opts:["How many cups of water do you want?","Is the water good?","Where is the water?","Do you want water?"],
+ opts:["Do you want water?","How many cups of water do you want?","Is the water good?","Where is the water?"],
  ans:"How many cups of water do you want?",
  hint:"\u51E0 asks 'how ___' and \u676F is the measure word for ___. The question asks about quantity."},
 
@@ -294,7 +294,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u6211(w\u01D2)\u60F3(xi\u01CEng)\u559D(h\u0113)\u4E00(y\u00EC)\u676F(b\u0113i)\u8336(ch\u00E1)\u3002 What does the speaker want?",
- opts:["to eat rice","to drink one cup of tea","to drink two cups of water","to eat a dish"],
+ opts:["to drink one cup of tea","to drink two cups of water","to eat a dish","to eat rice"],
  ans:"to drink one cup of tea",
  hint:"Identify the verb (\u559D), the quantity (\u4E00), the measure word (\u676F), and the item (\u8336) to decode."},
 
@@ -305,7 +305,7 @@ lessons:[
  sSrc:"What do you want to eat? I want to eat {1}."},
 
 {type:"mc", q:"\u8BF7(q\u01D0ng)\u559D(h\u0113)\u8336(ch\u00E1)\u3002 This sentence is:",
- opts:["a command","a negative statement","a polite offer","a question"],
+ opts:["a negative statement","a polite offer","a question","a command"],
  ans:"a polite offer",
  hint:"\u8BF7 at the beginning turns the sentence into a courteous invitation, not a demand."},
 
@@ -327,7 +327,7 @@ lessons:[
  sSrc:"{1} I drink tea?"},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u8981(y\u00E0o)\u4E24(li\u01CEng)\u676F(b\u0113i)\u6C34(shu\u01D0)\u3002 How many cups of water does he want?",
- opts:["five","two","one","three"],
+ opts:["one","three","five","two"],
  ans:"two",
  hint:"Look at the number before the measure word \u676F. \u4E24 is the form of 'two' used before measure words."},
 
@@ -357,7 +357,7 @@ lessons:[
  sSrc:"Dad drinks tea, I {1} drink tea."},
 
 {type:"mc", q:"\u8BF7(q\u01D0ng)\u5403(ch\u012B)\u7C73\u996D(m\u01D0f\u00E0n)\u3002 A host says this to you. They are:",
- opts:["saying goodbye","apologizing","asking your name","inviting you to eat"],
+ opts:["inviting you to eat","saying goodbye","apologizing","asking your name"],
  ans:"inviting you to eat",
  hint:"\u8BF7 makes any statement into a polite invitation. Combined with '___ rice,' it is a warm welcome to a meal."}
 ]},
@@ -384,7 +384,7 @@ lessons:[
  note:"东 (east) + 西 (west). Originally: goods from east and west.\nNow: any thing or object.",
  example:"A: 你(nǐ)在(zài)买(mǎi)什么(shénme)东西(dōngxi)？\nB: 我(wǒ)在(zài)买(mǎi)水果(shuǐguǒ)。",
  exampleSrc:"A: What are you buying?\nB: I am buying fruit.",
- funFact:"东西 originally meant merchandise from the east and west trade routes. China's east and west were the two great trading directions. Today 东西 is the casual word for any object — 'this thing,' 'that stuff,' 'what's that thing?'"},
+ funFact:"东西 originally meant merchandise from the east and west trade routes. China's east and west were the two great trading directions. Today 东西 is the casual word for any object, 'this thing,' 'that stuff,' 'what's that thing?'"},
 
 {type:"teach", trg:"杯子(bēizi)", src:"cup / glass", pos:"noun", gender:null,
  note:"杯 (cup) + 子 (general noun suffix). The actual object.\n杯 alone is the measure word. 杯子 is the noun (a cup as an object).",
@@ -396,10 +396,10 @@ lessons:[
  note:"Fourth tone. Used when answering the phone.\nIn person, it can also mean 'hey' to get attention.",
  example:"A: 喂(wèi)？你(nǐ)好(hǎo)！\nB: 你(nǐ)好(hǎo)！我(wǒ)是(shì)小明(Xiǎomíng)。",
  exampleSrc:"A: Hello? Hi!\nB: Hi! I am Xiaoming.",
- funFact:"喂 is used ONLY on the phone or to call attention — never as a general greeting like 你好. The character 喂 has the mouth radical (口) showing it is a spoken sound. In restaurants, you might hear it to call a waiter: 喂，服务员！"},
+ funFact:"喂 is used ONLY on the phone or to call attention, never as a general greeting like 你好. The character 喂 has the mouth radical (口) showing it is a spoken sound. In restaurants, you might hear it to call a waiter: 喂，服务员！"},
 
 {type:"mc", q:"水果(shuǐguǒ) literally means 'water fruit.' What does this word mean?",
- opts:["watermelon","fruit in general","juice","garden"],
+ opts:["fruit in general","juice","garden","watermelon"],
  ans:"fruit in general",
  hint:"This is the broad category word. It covers apples, oranges, and everything else of its kind."},
 
@@ -414,7 +414,7 @@ lessons:[
 {type:"fb", s:"你(nǐ)在(zài)买(mǎi)什么(shénme){1}？",
  a:["东西(dōngxi)"],
  opts:["东西(dōngxi)","水果(shuǐguǒ)","苹果(píngguǒ)","杯子(bēizi)"],
- hint:"Which word means 'thing/stuff' in the general sense — useful in 'What are you buying?'",
+ hint:"Which word means 'thing/stuff' in the general sense, useful in 'What are you buying?'",
  sSrc:"What stuff are you buying?"},
 
 {type:"mc", q:"When do you use 喂(wèi)?",
@@ -436,7 +436,7 @@ lessons:[
 ]}
 ]},
 
-// ═══ L6: Essential HSK 1 — Time, Actions, and School ═══
+// ═══ L6: Essential HSK 1. Time, Actions, and School ═══
 {id:"zhv2_u4l_essential_hsk1", title:"Time, Actions, and School", icon:"📅", xp:20, board:true, steps:[
 {type:"intro", title:"Time, Actions, and School",
  desc:"Nine essential HSK 1 words that appear in every real conversation: days (yesterday, today, tomorrow), time expressions, core verbs (to speak, to do), school, and the question word for place.",
@@ -454,19 +454,19 @@ lessons:[
  note:"First + first tone. 今 = now/present. 天 = day/sky.\nToday = the present day.",
  example:"A: 你(nǐ)今天(jīntiān)去(qù)学校(xuéxiào)吗(ma)?\nB: 去(qù), 今天(jīntiān)我(wǒ)去(qù)学校(xuéxiào)。",
  exampleSrc:"A: Are you going to school today?\nB: Yes, I am going to school today.",
- funFact:"今天, 今年 (this year), 今晚 (tonight) all use 今 (now/present). The character 今 has a person with a sealed mouth — meaning 'the present moment,' right now, contained and immediate."},
+ funFact:"今天, 今年 (this year), 今晚 (tonight) all use 今 (now/present). The character 今 has a person with a sealed mouth, meaning 'the present moment,' right now, contained and immediate."},
 
 {type:"teach", trg:"明天(míngtiān)", src:"tomorrow", pos:"noun", gender:null,
  phonetic:"míngtiān",
  note:"Second + first tone. 明 = bright/clear = tomorrow (the bright day coming).\n明 also means 'clear' or 'to understand.'",
  example:"A: 你(nǐ)明天(míngtiān)去(qù)学校(xuéxiào)吗(ma)?\nB: 不(bù)去(qù), 明天(míngtiān)我(wǒ)在(zài)家(jiā)。",
  exampleSrc:"A: Are you going to school tomorrow?\nB: No, I will be home tomorrow.",
- funFact:"明 combines 日 (sun) and 月 (moon) — the two brightest things in the sky. 明天 is therefore 'the day when the sky brightens again.' This makes it one of the most beautiful characters in HSK 1."},
+ funFact:"明 combines 日 (sun) and 月 (moon), the two brightest things in the sky. 明天 is therefore 'the day when the sky brightens again.' This makes it one of the most beautiful characters in HSK 1."},
 
 {type:"tip", title:"Time Words Go BEFORE the Verb in Chinese",
- text:"In Chinese, time expressions come BEFORE the main verb — the opposite of English.\n\nEnglish: 'I am at home TODAY.'\nChinese: 我今天在家。(I today am-at home.)\n\nEnglish: 'She went to school YESTERDAY.'\nChinese: 她昨天去学校了。(She yesterday went school.)\n\nThis rule applies to: 昨天, 今天, 明天, 现在 — and all future time words you learn.\nLearn this pattern once, and it works forever.",
+ text:"In Chinese, time expressions come BEFORE the main verb, the opposite of English.\n\nEnglish: 'I am at home TODAY.'\nChinese: 我今天在家。(I today am-at home.)\n\nEnglish: 'She went to school YESTERDAY.'\nChinese: 她昨天去学校了。(She yesterday went school.)\n\nThis rule applies to: 昨天, 今天, 明天, 现在, and all future time words you learn.\nLearn this pattern once, and it works forever.",
  deepDive:{title:"Why does Chinese put time first?",
-  text:"Chinese organizes sentences from large to small, global to specific. Time sets the scene before the action. This is why Chinese addresses go from country to city to street to house number — the opposite of English.\n\nIn sentences: Time > Place > Verb > Object.\n我(wǒ)今天(jīntiān)在(zài)学校(xuéxiào)学习(xuéxí)。\nI today at school study.\n\nOnce you internalize this 'big-to-small' logic, Chinese word order becomes much more intuitive."}},
+  text:"Chinese organizes sentences from large to small, global to specific. Time sets the scene before the action. This is why Chinese addresses go from country to city to street to house number, the opposite of English.\n\nIn sentences: Time > Place > Verb > Object.\n我(wǒ)今天(jīntiān)在(zài)学校(xuéxiào)学习(xuéxí)。\nI today at school study.\n\nOnce you internalize this 'big-to-small' logic, Chinese word order becomes much more intuitive."}},
 
 {type:"teach", trg:"现在(xiànzài)", src:"now", pos:"noun", gender:null,
  phonetic:"xiànzài",
@@ -480,7 +480,7 @@ lessons:[
  note:"Second tone + neutral. 时 = time. 候 = moment/period.\n什么时候 = when (question). 那时候 = at that time.",
  example:"A: 你(nǐ)什么(shénme)时候(shíhou)去(qù)学校(xuéxiào)?\nB: 我(wǒ)今天(jīntiān)去(qù)。",
  exampleSrc:"A: When are you going to school?\nB: I am going today.",
- funFact:"时候 is the core of the question 什么时候 (shénme shíhou) — 'when?' This is one of the five essential question words in Chinese: 什么 (what), 谁 (who), 哪儿 (where), 什么时候 (when), 为什么 (why). Master 时候 and you can ask 'when' about anything."},
+ funFact:"时候 is the core of the question 什么时候 (shénme shíhou), 'when?' This is one of the five essential question words in Chinese: 什么 (what), 谁 (who), 哪儿 (where), 什么时候 (when), 为什么 (why). Master 时候 and you can ask 'when' about anything."},
 
 {type:"teach", trg:"学校(xuéxiào)", src:"school", pos:"noun", gender:null,
  phonetic:"xuéxiào",
@@ -501,7 +501,7 @@ lessons:[
  note:"Fourth tone. A high-frequency HSK 1 verb.\n做什么 = do what? 你在做什么 = What are you doing?",
  example:"A: 你(nǐ)今天(jīntiān)做(zuò)什么(shénme)?\nB: 我(wǒ)想(xiǎng)去(qù)学校(xuéxiào)。",
  exampleSrc:"A: What are you doing today?\nB: I want to go to school.",
- funFact:"做 appears in many everyday expressions: 做饭 (cook), 做作业 (do homework), 做梦 (dream). The character has the human radical 亻on the left — a person doing something. It covers both 'to do' and 'to make,' just as English uses one verb for both."},
+ funFact:"做 appears in many everyday expressions: 做饭 (cook), 做作业 (do homework), 做梦 (dream). The character has the human radical 亻on the left, a person doing something. It covers both 'to do' and 'to make,' just as English uses one verb for both."},
 
 {type:"teach", trg:"哪儿(nǎr)", src:"where", pos:"pron", gender:null,
  phonetic:"nǎr",
@@ -511,7 +511,7 @@ lessons:[
  funFact:"哪儿 is the Beijing dialect version of 哪里 (where). The 儿 suffix (erhua) is a distinctive feature of northern Chinese speech. In standard textbooks and the south, 哪里 is preferred. Both are understood everywhere in China."},
 
 {type:"mc", q:"Which word means 'yesterday' in Chinese?",
- opts:["今天(jīntiān)","明天(míngtiān)","昨天(zuótiān)","现在(xiànzài)"],
+ opts:["昨天(zuótiān)","现在(xiànzài)","今天(jīntiān)","明天(míngtiān)"],
  ans:"昨天(zuótiān)",
  hint:"Three days are in the set: yesterday, today, tomorrow. The one in the past has a character meaning 'day just passed.'"},
 
@@ -530,7 +530,7 @@ lessons:[
  sSrc:"Where are you {1}?"},
 
 {type:"mc", q:"什么(shénme)时候(shíhou)去(qù)? What is being asked?",
- opts:["Who is going?","How are you going?","Where are you going?","When are you going?"],
+ opts:["Where are you going?","When are you going?","Who is going?","How are you going?"],
  ans:"When are you going?",
  hint:"什么时候 is the question expression for time. It uses the word that means 'moment/period.'"},
 
@@ -554,7 +554,7 @@ lessons:[
  sSrc:"Do you {1} Chinese?"},
 
 {type:"mc", q:"你(nǐ)在(zài)哪儿(nǎr)? How would you correctly answer: 'I am at school.'",
- opts:["我(wǒ)是(shì)学校(xuéxiào)。","我(wǒ)在(zài)学校(xuéxiào)。","我(wǒ)有(yǒu)学校(xuéxiào)。","我(wǒ)去(qù)学校(xuéxiào)。"],
+ opts:["我(wǒ)去(qù)学校(xuéxiào)。","我(wǒ)是(shì)学校(xuéxiào)。","我(wǒ)在(zài)学校(xuéxiào)。","我(wǒ)有(yǒu)学校(xuéxiào)。"],
  ans:"我(wǒ)在(zài)学校(xuéxiào)。",
  hint:"The question uses 在 to ask about location. The answer also uses 在 to state a location."},
 
@@ -565,14 +565,14 @@ lessons:[
  sSrc:"I want to {1} (cook) a meal."},
 
 {type:"mc", q:"Where does 今天(jīntiān) go in a Chinese sentence?",
- opts:["After the verb","At the very end","Before the verb, after the subject","Before the subject"],
+ opts:["Before the subject","After the verb","At the very end","Before the verb, after the subject"],
  ans:"Before the verb, after the subject",
  hint:"Time words in Chinese come before the action. The speaker comes first, then the time, then what they do."},
 
 {type:"fb", s:"她(tā){1}在(zài)家(jiā)。",
  a:["昨天(zuótiān)"],
  opts:["昨天(zuótiān)","明天(míngtiān)","学校(xuéxiào)","说(shuō)"],
- hint:"She was home — in the past. Which time word means 'yesterday'?",
+ hint:"She was home, in the past. Which time word means 'yesterday'?",
  sSrc:"She was home {1}."},
 
 {type:"match", pairs:[
@@ -584,7 +584,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"你(nǐ)明天(míngtiān)做(zuò)什么(shénme)? What does this question ask?",
- opts:["Where are you today?","What did you do yesterday?","What are you doing tomorrow?","When did you go to school?"],
+ opts:["What are you doing tomorrow?","When did you go to school?","Where are you today?","What did you do yesterday?"],
  ans:"What are you doing tomorrow?",
  hint:"明天 points to the future. 做什么 asks 'do what.' The full question asks about plans ahead."},
 

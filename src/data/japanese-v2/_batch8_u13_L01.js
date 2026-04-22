@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"乗(の)り換(か)える",src:"to transfer"},{trg:"乗(の)り遅(おく)れる",src:"to miss (a vehicle)"},{trg:"降(お)りる",src:"to get off"},{trg:"迎(むか)えに行(い)く",src:"to go pick up"},{trg:"見送(みおく)る",src:"to see off"}],
      hint:"Match each travel verb with its English meaning."},
 
-    {type:"mc", q:"What is the opposite of 近道(ちかみち) (shortcut)?", opts:["遠回(とおまわ)り","寄(よ)り道(みち)","突(つ)き当(あ)たり","迷(まよ)う"], ans:"遠回(とおまわ)り",
+    {type:"mc", q:"What is the opposite of 近道(ちかみち) (shortcut)?", opts:["迷(まよ)う","遠回(とおまわ)り","寄(よ)り道(みち)","突(つ)き当(あ)たり"], ans:"遠回(とおまわ)り",
      hint:"This word combines 'far' with 'going around' for a longer alternative route."},
 
     {type:"fb", s:"空港(くうこう)に{1}に行(い)きます。\n(I will go pick you up at the airport.)", a:"迎(むか)え", opts:["迎(むか)え","見送(みおく)り","寄(よ)り道(みち)","乗(の)り換(か)え"], sSrc:"I will go pick you up at the airport.",
      hint:"This word means to go welcome or meet someone arriving."},
 
-    {type:"mc", q:"What does 寄(よ)り道(みち)する mean?", opts:["To stop by somewhere on the way","To get lost","To take a shortcut","To walk straight"], ans:"To stop by somewhere on the way",
+    {type:"mc", q:"What does 寄(よ)り道(みち)する mean?", opts:["To take a shortcut","To walk straight","To stop by somewhere on the way","To get lost"], ans:"To stop by somewhere on the way",
      hint:"Parents often tell children not to do this when they should come straight home."}
   ,{type:"fb", s:"次(つぎ)の駅(えき)で地下鉄(ちかてつ)を{1}てバスに乗(の)ります。",
      a:["降(お)りる"],

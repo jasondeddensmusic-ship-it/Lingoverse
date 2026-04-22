@@ -86,7 +86,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'sans probleme, sans difficulte' ?",
-     opts:["sans encombre","sans griffes","sans jointure","sans porosite"],
+     opts:["sans porosite","sans encombre","sans griffes","sans jointure"],
      ans:"sans encombre",
      hint:"A very common expression. The noun means obstacle or hindrance."},
 
@@ -113,7 +113,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel animal est un jeune porc ?",
-     opts:["un porcelet","un poivrier","un plaquage","un portant"],
+     opts:["un plaquage","un portant","un porcelet","un poivrier"],
      ans:"un porcelet",
      hint:"The diminutive of 'porc'. A small, young pig. A festive dish in southern France."}
   ]

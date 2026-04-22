@@ -1,4 +1,4 @@
-// Korean V2 Unit 7 — 어제 뭐 했어요?
+// Korean V2 Unit 7, 어제 뭐 했어요?
 // Level: A2.1
 
 const UNIT_7 =
@@ -28,8 +28,8 @@ const UNIT_7 =
   {type:"fb",s:"___에 영화를 봤어요.\n(I saw a movie last week.)",a:"지난주",opts:["지난주","다음 주","이번 주","내일"],hint:"Last week = 지난 (passed) + 주 (week)"},
   {type:"teach",kind:"word",nl:"만나다",en:"to meet",pos:"verb",gender:null,phonetic:"man-na-da",funFact:"Regular verb with vowel harmony: 만나 (bright ㅏ) → 만나요, 만났어요. Used for planned meetings and chance encounters alike.",example:"A: 어제 뭐 했어요? B: 친구를 만났어요. A: 어디에서 만났어요? B: 카페에서 만났어요.",exampleEn:"A: What did you do yesterday? B: I met a friend. A: Where did you meet? B: We met at a cafe.",note:"만나다: to meet.\n만나다 → 만나요 (present).\n만나다 → 만났어요 (past).\n\n친구를 만나요: I meet a friend.",deepDive:{title:"만나다 vs 보다 vs 사귀다",text:"만나다: to meet (general, planned or chance).\n보다: to see (could be from a distance).\n사귀다: to date/go out (romantic).\n\n친구를 만났어요: I met a friend.\n처음 만났어요: We met for the first time.\n\n처음 만나서 반갑습니다.\n= Nice to meet you (for the first time)."}},
   {type:"teach",kind:"word",nl:"읽다",en:"to read",pos:"verb",gender:null,phonetic:"ik-da",funFact:"The ㄺ cluster in 읽 is pronounced ik (the ㄹ is silent before a consonant). Before vowels, both consonants sound: 읽어요 = il-geo-yo.",example:"A: 어제 뭐 했어요? B: 책을 읽었어요. A: 재미있었어요? B: 네, 정말 재미있었어요!",exampleEn:"A: What did you do yesterday? B: I read a book. A: Was it fun? B: Yes, it was really fun!",note:"읽다: to read.\n읽다 → 읽어요 (present).\n읽다 → 읽었어요 (past).\n\n책을 읽다: to read a book.",deepDive:{title:"읽다 Pronunciation",text:"읽 has ㄺ (double consonant cluster).\n\nBefore consonant: only ㄱ sounds.\n읽다 → [익따] (the ㄹ is silent)\n읽습니다 → [익씁니다]\n\nBefore vowel: ㄹ + ㄱ both sound.\n읽어요 → [일거요]\n\n한국어 책을 읽어요.\n= I read Korean books."}} ,
-  {type:"mc",q:"만나다 means:",opts:["to meet","to make","to see (watch)","to go"],ans:"to meet",hint:"You saw 만났어요 in this unit's opening: 친구를 만났어요 (I met a friend)."},
-  {type:"mc",q:"읽다 means:",opts:["to write","to hear","to read","to speak"],ans:"to read",hint:"책을 읽다 = to … a book. The ㄺ cluster is pronounced 'ik' before consonants."},
+  {type:"mc",q:"만나다 means:",opts:["to make","to see (watch)","to go","to meet"],ans:"to meet",hint:"You saw 만났어요 in this unit's opening: 친구를 만났어요 (I met a friend)."},
+  {type:"mc",q:"읽다 means:",opts:["to read","to speak","to write","to hear"],ans:"to read",hint:"책을 읽다 = to … a book. The ㄺ cluster is pronounced 'ik' before consonants."},
   {type:"match",pairs:[{nl:"어제",en:"yesterday"},{nl:"내일",en:"tomorrow"},{nl:"지난주",en:"last week"},{nl:"내년",en:"next year"}]},
   {type:"match",pairs:[{nl:"작년",en:"last year"},{nl:"올해",en:"this year"},{nl:"만나다",en:"to meet"},{nl:"읽다",en:"to read"}]},
   {type:"drag_fill",s:"{1} 한국에 갔어요. {2} 일본에 가고 싶어요.",blanks:{"1":"작년에","2":"내년에"},pool:["작년에","내년에","어제","오늘","내일에"],hint:"Last year I went to Korea. Next year I want to go to Japan."},

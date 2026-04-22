@@ -60,7 +60,7 @@ const LESSON_4 = {id:"esv2_b2gD_l4",title:"Persuadir y persistir",icon:"\uD83D\u
  exampleSrc:"A: His partner's perfidy cost him everything he had.\nB: Trusting blindly in business is very risky.",
  funFact:"'Pérfida Albión' (Perfidious Albion) is a Spanish phrase for England, reflecting historical rivalry from the Armada era."},
 
-{type:"mc",q:"'Perturbar' significa...",opts:["Causar malestar emocional o mental","Convencer con argumentos","Continuar con determinación","Corromper la moral"],ans:"Causar malestar emocional o mental",hint:"To cause psychological disturbance or distress. More formal than simply annoying someone."},
+{type:"mc",q:"'Perturbar' significa...",opts:["Corromper la moral","Causar malestar emocional o mental","Convencer con argumentos","Continuar con determinación"],ans:"Causar malestar emocional o mental",hint:"To cause psychological disturbance or distress. More formal than simply annoying someone."},
 
 {type:"match",pairs:[
  {trg:"persuadir",src:"to persuade"},
@@ -72,6 +72,6 @@ const LESSON_4 = {id:"esv2_b2gD_l4",title:"Persuadir y persistir",icon:"\uD83D\u
 
 {type:"fb",s:"Las noticias sobre el accidente le {1} durante varios días.",a:["perturbaron"],opts:["perturbaron","persuadieron","perseveraron","pervirtieron"],hint:"The news caused deep emotional distress and psychological disturbance.",sSrc:"The news about the accident {1} him for several days."},
 
-{type:"mc",q:"Un efecto pernicioso es...",opts:["Gradualmente dañino","Inmediatamente positivo","Ligeramente molesto","Completamente neutral"],ans:"Gradualmente dañino",hint:"This adjective describes harm that builds up insidiously over time."}
+{type:"mc",q:"Un efecto pernicioso es...",opts:["Ligeramente molesto","Completamente neutral","Gradualmente dañino","Inmediatamente positivo"],ans:"Gradualmente dañino",hint:"This adjective describes harm that builds up insidiously over time."}
 ]};
 export default LESSON_4;

@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 14 (Opinions) — more opinion expressions, agreement/disagreement
+// Batch 2 expansion for Unit 14 (Opinions), more opinion expressions, agreement/disagreement
 const BATCH2_L_1 = {
   id:"jav2_u14l_b2_1", title:"気持(きも)ちを伝(つた)える", icon:"💬", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: I am worried about the exam.\nB: It will be fine. Do your best!\nA: What did you eat?\nB: I ate the local specialty.",
    funFact:"心配(しんぱい) combines 心(こころ) (heart) and 配(はい) (distribute/arrange), suggesting a heart that is unsettled. 心配(しんぱい)しないでください (please do not worry) is a common comfort phrase. Japanese people often express concern indirectly: 大丈夫(だいじょうぶ)ですか？ (Are you okay?) rather than stating worry directly."},
 
-  {type:"mc", q:"嬉(うれ)しい is used when:", opts:["You are generally content with life","Something specific made you happy","You are always happy","You are sad"], ans:"Something specific made you happy",
+  {type:"mc", q:"嬉(うれ)しい is used when:", opts:["Something specific made you happy","You are always happy","You are sad","You are generally content with life"], ans:"Something specific made you happy",
    hint:"This adjective describes reactive happiness triggered by a particular event."},
 
   {type:"teach", trg:"便利(べんり)", src:"convenient / useful", pos:"adj", gender:null,

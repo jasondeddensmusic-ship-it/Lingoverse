@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'contratto 4+4' mean?",
-     opts:["A four-month trial contract","A four-year lease renewable for another four","A contract for four rooms plus four parking spaces","A lease with four months' deposit required"],
+     opts:["A four-year lease renewable for another four","A contract for four rooms plus four parking spaces","A lease with four months' deposit required","A four-month trial contract"],
      ans:"A four-year lease renewable for another four",
      hint:"This is the standard Italian rental contract. It automatically renews unless either party sends a formal notice."},
 
@@ -92,7 +92,7 @@ const LESSON_4 = {
      sSrc:"I have to send the termination notice by {1}."},
 
     {type:"mc", q:"What is the 'verbale di consegna'?",
-     opts:["The monthly utility bill statement","A report describing apartment condition at move-in","The landlord's tax declaration form","The building's annual maintenance budget"],
+     opts:["The building's annual maintenance budget","The monthly utility bill statement","A report describing apartment condition at move-in","The landlord's tax declaration form"],
      ans:"A report describing apartment condition at move-in",
      hint:"This document with photos protects both sides. Without it, disputes over pre-existing damage become unresolvable."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"The gas {1} is very high this month."},
 
     {type:"mc", q:"What is 'canone concordato'?",
-     opts:["The highest possible market rent","Below-market rent with tax benefits for the landlord","A penalty fee for late rent payments","The monthly building maintenance fee"],
+     opts:["A penalty fee for late rent payments","The monthly building maintenance fee","The highest possible market rent","Below-market rent with tax benefits for the landlord"],
      ans:"Below-market rent with tax benefits for the landlord",
      hint:"Landlords agree to charge less in exchange for t... advantages. Rates are set by agreements between associations and unions."}
   ]

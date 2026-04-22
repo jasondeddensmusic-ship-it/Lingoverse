@@ -96,7 +96,7 @@ const UNIT_04 = {
       ]},
 
       {type:"tip", title:"Definite Articles: il, lo, la, l', i, gli, le",
-       text:"Italian has 7 definite articles. The right form depends on gender, number, and the first sound of the word.\n\nMasculine singular:\nil — before most consonants: il caffe, il vino\nlo — before s+consonant, z, gn, ps: lo zucchero\nl' — before vowels: l'amico\n\nFeminine singular:\nla — before consonants: la pizza, la birra\nl' — before vowels: l'acqua, l'amica\n\nPlural:\ni — masculine (most): i panini, i vini\ngli — masculine (vowel or special clusters): gli amici\nle — all feminine: le pizze, le birre\n\nThe article is part of the word. Learn nouns with their article.",
+       text:"Italian has 7 definite articles. The right form depends on gender, number, and the first sound of the word.\n\nMasculine singular:\nil, before most consonants: il caffe, il vino\nlo, before s+consonant, z, gn, ps: lo zucchero\nl', before vowels: l'amico\n\nFeminine singular:\nla, before consonants: la pizza, la birra\nl', before vowels: l'acqua, l'amica\n\nPlural:\ni, masculine (most): i panini, i vini\ngli, masculine (vowel or special clusters): gli amici\nle, all feminine: le pizze, le birre\n\nThe article is part of the word. Learn nouns with their article.",
        icon:"💡",
        deepDive:{title:"Why so many articles?",
         text:"Italian articles encode gender AND phonology. The phonological rules (il vs. lo, la vs. l') exist for smooth pronunciation. 'Il zucchero' would clash because two consonants in a row is awkward. 'Lo zucchero' flows. Same with 'la acqua' vs. 'l'acqua.' Italian always chooses the path of least resistance phonologically. The best strategy: never learn a noun alone. Always learn it as 'il caffe,' 'la pizza,' 'lo zucchero.' The article locks in gender."}},
@@ -312,7 +312,7 @@ const UNIT_04 = {
        hint:"Masculine nouns ending in -o form their feminine by changing -o to -a. The article also changes."},
 
       {type:"mc", q:"What does 'la pallacanestro' literally mean?",
-       opts:["ball in the basket","round ball game","court ball","big round thing"],
+       opts:["big round thing","ball in the basket","round ball game","court ball"],
        ans:"ball in the basket",
        hint:"The Italian name is a compound word describing the sport visually. The first part means the round object you throw. The second part ('canestro') names the hoop you score through."},
 
@@ -337,7 +337,7 @@ const UNIT_04 = {
        sSrc:"Do you like {1}?\nYes, I like it a lot!"},
 
       {type:"mc", q:"Which animal is described by 'orso'?",
-       opts:["a bear","a mouse","a pig","a horse"],
+       opts:["a pig","a horse","a bear","a mouse"],
        ans:"a bear",
        hint:"This large animal still lives in the Italian Alps. Its Latin name 'ursus' gave English the name Ursula."},
 
@@ -348,7 +348,7 @@ const UNIT_04 = {
        sSrc:"The female {1} is excellent! We eat well here."},
 
       {type:"mc", q:"What does 'il maiale' represent in Italian food culture?",
-       opts:["A farm animal used for world-famous cured meats","A symbol of bad luck","An animal kept only as a pet","An animal found only in zoos"],
+       opts:["A symbol of bad luck","An animal kept only as a pet","An animal found only in zoos","A farm animal used for world-famous cured meats"],
        ans:"A farm animal used for world-famous cured meats",
        hint:"Italians say 'nothing is thrown away' from this creature. Prosciutto di Parma and salame are two products made from it."},
 

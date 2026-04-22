@@ -86,7 +86,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'voler quelque chose de petit' de facon familiere ?",
-     opts:["chiper","agripper","croquer","braconner"],
+     opts:["braconner","chiper","agripper","croquer"],
      ans:"chiper",
      hint:"A playful word for petty theft. Much lighter than 'voler'. Almost endearing."},
 

@@ -32,7 +32,7 @@ const LESSON_3 = {id:"esv2_b2g3_l3", title:"Salud y cuerpo", icon:"🏥", xp:15,
 
   {type:"teach", trg:"el acupuntor", src:"the acupuncturist", pos:"noun", gender:"m", note:"Male form. Female: la acupuntora.\nA practitioner of acupuncture (acupuntura).", example:"A: Mi acupuntor me ha ayudado mucho con el dolor de espalda.\nB: ¿De verdad? Yo siempre he tenido curiosidad.", exampleSrc:"A: My acupuncturist has helped me a lot with back pain.\nB: Really? I've always been curious.", funFact:"From Latin acus (needle) + punctura (pricking). Acupuncture arrived in Spain in the 1970s and is now widely practiced."},
 
-  {type:"mc", q:"La absorción del hierro mejora con...", opts:["vitamina C","antibióticos","edulcorantes","dermis"], ans:"vitamina C", hint:"A vitamin found in citrus fruits enhances how the body takes in iron."},
+  {type:"mc", q:"La absorción del hierro mejora con...", opts:["dermis","vitamina C","antibióticos","edulcorantes"], ans:"vitamina C", hint:"A vitamin found in citrus fruits enhances how the body takes in iron."},
 
   {type:"teach", trg:"la conjuntivitis", src:"conjunctivitis / pink eye", pos:"noun", gender:"f", note:"Inflammation of the conjunctiva (eye membrane).\nVery contagious, especially in children.", example:"A: El niño tiene conjuntivitis y no puede ir al colegio.\nB: Es muy contagiosa, mejor que se quede en casa.", exampleSrc:"A: The child has conjunctivitis and can't go to school.\nB: It's very contagious, better that he stays home.", funFact:"The suffix -itis means inflammation in medical Spanish: conjuntivitis, bronquitis, gastritis. Greek medical roots are universal."},
 
@@ -40,7 +40,7 @@ const LESSON_3 = {id:"esv2_b2g3_l3", title:"Salud y cuerpo", icon:"🏥", xp:15,
 
   {type:"fb", s:"El médico aún no ha dado el {1} definitivo.", a:["diagnóstico"], opts:["diagnóstico","desmayo","edulcorante","cutis"], hint:"The medical identification of a condition or disease.", sSrc:"The doctor has not yet given the definitive {1}."},
 
-  {type:"mc", q:"¿Qué palabra describe la piel del rostro?", opts:["La dermis","El cutis","La absorción","El desmayo"], ans:"El cutis", hint:"This word specifically refers to the quality and appearance of facial skin, not the scientific layer."},
+  {type:"mc", q:"¿Qué palabra describe la piel del rostro?", opts:["El desmayo","La dermis","El cutis","La absorción"], ans:"El cutis", hint:"This word specifically refers to the quality and appearance of facial skin, not the scientific layer."},
 
   {type:"fb", s:"La {1} de este medicamento ha sido probada en estudios clínicos.", a:["eficacia"], opts:["eficacia","absorción","dermis","diabetes"], hint:"How well something works at achieving its intended result.", sSrc:"The {1} of this medication has been proven in clinical studies."}
 ]};

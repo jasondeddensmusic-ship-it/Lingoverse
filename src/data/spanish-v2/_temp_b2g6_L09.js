@@ -66,7 +66,7 @@ const LESSON_9 = {id:"esv2_b2g6_l9",title:"Psicología y emociones",icon:"🧠",
  exampleSrc:"A: She looked at me with surprise when I spoke in Spanish.\nB: She did not expect a foreigner to speak it so well.",
  funFact:"Can mean both the quality of strangeness and the feeling of surprise. 'Causar extrañeza' means to cause surprise."},
 
-{type:"mc",q:"¿Qué significa ilusionarse?",opts:["Llenarse de esperanza o emoción","Sentir ira","Estar irritado","Tener miedo"],ans:"Llenarse de esperanza o emoción",hint:"Getting excited or hopeful about something positive."},
+{type:"mc",q:"¿Qué significa ilusionarse?",opts:["Tener miedo","Llenarse de esperanza o emoción","Sentir ira","Estar irritado"],ans:"Llenarse de esperanza o emoción",hint:"Getting excited or hopeful about something positive."},
 
 {type:"match",pairs:[
   {trg:"ira",src:"anger / wrath"},

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 20: Protection and Fortune
+// Korean B2. Batch 4, Lesson 20: Protection and Fortune
 // Words: 보수, 보수적, 보안, 보완하다, 보자기, 보장, 보장되다, 보장하다, 보전, 보조, 보존, 보존하다, 보충하다, 보편적, 보호되다, 보호하다, 복, 복사, 복사기, 복사하다
 
 const LESSON_20 = {
@@ -113,7 +113,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"'보편적'은 어떤 의미인가요?",
-     opts:["모든 곳에 널리 적용되는","특정 지역에만 해당하는","일시적인","비밀스러운"],
+     opts:["비밀스러운","모든 곳에 널리 적용되는","특정 지역에만 해당하는","일시적인"],
      ans:"모든 곳에 널리 적용되는",
      hint:"The Hanja 普 means 'broadly' and 遍 means 'everywhere.' Together they mean applying universally."},
 

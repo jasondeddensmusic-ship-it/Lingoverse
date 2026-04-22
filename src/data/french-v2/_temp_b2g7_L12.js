@@ -80,7 +80,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel petit plat individuel sert a presenter des champignons au four ?",
-     opts:["une cassolette","une creperie","une cochonnaille","une bearnaise"],
+     opts:["une bearnaise","une cassolette","une creperie","une cochonnaille"],
      ans:"une cassolette",
      hint:"A small individual cooking dish, diminutive of 'casserole'."},
 
@@ -113,7 +113,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel mot familier designe la charcuterie a base de porc ?",
-     opts:["la cochonnaille","la cassolette","la bearnaise","la creperie"],
+     opts:["la bearnaise","la creperie","la cochonnaille","la cassolette"],
      ans:"la cochonnaille",
      hint:"From 'cochon' (pig). A rustic, warm word for pork-based charcuterie."},
 

@@ -40,7 +40,7 @@ const LESSON_31 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'시험 결과가 너무 ___해요'에서 미래에 대한 걱정을 나타내는 말은?",
-     opts:["불편","불안","심각","안타깝"],
+     opts:["불안","심각","안타깝","불편"],
      ans:"불안",
      hint:"This word combines 'not' and 'peace' from Chinese characters. It describes worry about something that hasn't happened yet."},
 
@@ -137,7 +137,7 @@ const LESSON_31 = {
 
     {type:"mc",
      q:"'미소'의 한자 뜻은?",
-     opts:["큰 웃음","작은 웃음","슬픈 웃음","이상한 웃음"],
+     opts:["이상한 웃음","큰 웃음","작은 웃음","슬픈 웃음"],
      ans:"작은 웃음",
      hint:"The hanja components mean 'tiny' and 'laugh.' This is a gentle, subtle expression rather than a big grin."},
 
@@ -203,7 +203,7 @@ const LESSON_31 = {
 
     {type:"mc",
      q:"'숨을 참다'는 무슨 뜻이에요?",
-     opts:["깊이 쉬다","숨을 멈추다","빨리 뛰다","크게 쉬다"],
+     opts:["빨리 뛰다","크게 쉬다","깊이 쉬다","숨을 멈추다"],
      ans:"숨을 멈추다",
      hint:"When you 참다 (endure/hold), combined with breath, it means you temporarily stop the natural breathing process."}
   ]

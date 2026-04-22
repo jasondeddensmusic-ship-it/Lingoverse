@@ -66,7 +66,7 @@ const LESSON_16 = {id:"esv2_b2g6_l16",title:"Conceptos abstractos",icon:"💭",x
  exampleSrc:"A: There is no infallible method for learning languages.\nB: But consistency always works.",
  funFact:"In Catholic theology, papal infallibility ('infalibilidad papal') is a formal doctrine since 1870."},
 
-{type:"mc",q:"¿Qué significa ineludible?",opts:["Que no se puede evitar","Que es invisible","Que no tiene importancia","Que es fácil de resolver"],ans:"Que no se puede evitar",hint:"Something that cannot be escaped or avoided. It must be faced."},
+{type:"mc",q:"¿Qué significa ineludible?",opts:["Que es fácil de resolver","Que no se puede evitar","Que es invisible","Que no tiene importancia"],ans:"Que no se puede evitar",hint:"Something that cannot be escaped or avoided. It must be faced."},
 
 {type:"match",pairs:[
   {trg:"inutilidad",src:"futility"},

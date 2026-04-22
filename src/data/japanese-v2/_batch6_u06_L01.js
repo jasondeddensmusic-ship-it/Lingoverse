@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: That person is cool, isn't he?\nB: Yes. His clothes are also nice.",
      funFact:"かっこいい comes from かっこう (格好(かっこう), appearance) + いい (good). It originally described manly attractiveness but now applies to anything stylish: people, cars, fashion, actions. A parallel word, かわいい (cute), is perhaps Japan's most famous cultural export."},
 
-    {type:"mc", q:"The opposite of 静(しず)か (quiet) is:", opts:["賑(にぎ)やか (lively)","優(やさ)しい (kind)","厳(きび)しい (strict)","恥(は)ずかしい (shy)"], ans:"賑(にぎ)やか (lively)",
+    {type:"mc", q:"The opposite of 静(しず)か (quiet) is:", opts:["恥(は)ずかしい (shy)","賑(にぎ)やか (lively)","優(やさ)しい (kind)","厳(きび)しい (strict)"], ans:"賑(にぎ)やか (lively)",
      hint:"This na-adjective describes a bustling, energetic atmosphere."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"この町(まち)は{1}ですね。\n(This town is lively, isn't it?)", a:"賑(にぎ)やか", opts:["賑(にぎ)やか","静(しず)か","厳(きび)しい","恥(は)ずかしい"], sSrc:"This town is lively, isn't it?",
      hint:"The na-adjective that means bustling and full of energy."},
 
-    {type:"mc", q:"真面目(まじめ)な人(ひと) describes someone who is:", opts:["Serious and diligent","Funny and playful","Shy and quiet","Tall and strong"], ans:"Serious and diligent",
+    {type:"mc", q:"真面目(まじめ)な人(ひと) describes someone who is:", opts:["Shy and quiet","Tall and strong","Serious and diligent","Funny and playful"], ans:"Serious and diligent",
      hint:"This na-adjective describes someone reliable and hardworking."}
   ,{type:"match",pairs:[{trg:"背(せ)が高(たか)い",src:"tall (person)"},{trg:"背(せ)が低(ひく)い",src:"short (person)"},{trg:"真面目(まじめ)",src:"serious / diligent / earnest"},{trg:"元気(げんき)",src:"energetic / healthy / well"},{trg:"かっこいい",src:"cool / handsome / stylish"}]}]
 };

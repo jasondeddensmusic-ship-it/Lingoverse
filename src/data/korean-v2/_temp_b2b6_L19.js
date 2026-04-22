@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 19: Heroes and Film
+// Korean B2. Batch 6, Lesson 19: Heroes and Film
 // Words: 엿보다, 영(adv), 영남, 영상, 영양, 영업, 영역, 영웅, 영원히, 영하, 영향, 영향력, 영혼, 영화관, 영화배우, 영화제, 옆구리, 옆방, 옆집, 예감
 
 const LESSON_19 = {
@@ -131,7 +131,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"한국의 가장 유명한 영화제가 열리는 도시는?",
-     opts:["부산","서울","인천","광주"],
+     opts:["광주","부산","서울","인천"],
      ans:"부산",
      hint:"The largest international film festival in Asia is held every October in a coastal Korean city."},
 

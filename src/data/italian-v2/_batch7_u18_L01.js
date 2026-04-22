@@ -1,4 +1,4 @@
-// Batch 7 — Unit 18 extra lesson. L'ambiente: Sustainable Living
+// Batch 7. Unit 18 extra lesson. L'ambiente: Sustainable Living
 const BATCH7_L1 = {id:"itv2_u18l_b7_1", title:"La vita sostenibile", icon:"\u267B\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"La vita sostenibile",
  desc:"Learn vocabulary for sustainable living, green practices, and everyday environmental choices.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u18l_b7_1", title:"La vita sostenibile", icon:"\u267
 ]},
 
 {type:"mc", q:"Quale movimento contro il consumismo e nato in Italia?",
- opts:["Slow Food","Fast Food","Green Peace","Zero Waste"],
+ opts:["Zero Waste","Slow Food","Fast Food","Green Peace"],
  ans:"Slow Food",
  hint:"A movement that started in Italy as a reaction to fast f... culture."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u18l_b7_1", title:"La vita sostenibile", icon:"\u267
  sSrc:"{1} energies are the future."},
 
 {type:"mc", q:"Che sistema protegge Venezia dalle inondazioni?",
- opts:["Il MOSE","Il PO","Il SOLE","Il MARE"],
+ opts:["Il SOLE","Il MARE","Il MOSE","Il PO"],
  ans:"Il MOSE",
  hint:"A barrier system completed in 2020, named with an acronym."},
 

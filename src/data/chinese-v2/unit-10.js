@@ -50,7 +50,7 @@ lessons:[
   text:"都 is one of the most versatile words in Chinese. With 每, it emphasizes that something applies to every instance without exception.\n\nWithout 都: 我每天工作。 I work every day. (neutral statement)\nWith 都: 我每天都工作。 I work every single day. (emphasis, no exceptions)\n\n都 always comes AFTER the subject or topic it refers to, never before. This is a common mistake for learners."}},
 
 {type:"mc", q:"工作(gōngzuò) can function as:",
- opts:["Only a noun","Only a verb","Both a noun and a verb","An adjective"],
+ opts:["Both a noun and a verb","An adjective","Only a noun","Only a verb"],
  ans:"Both a noun and a verb",
  hint:"Consider the different ways this word is used: as a thing you have, and an action you do."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"Work {1} at nine o'clock."},
 
 {type:"mc", q:"The character 忙(máng) contains the heart radical. Why?",
- opts:["Because busy people have big hearts","Because being busy affects your emotional state","Because it sounds like 'heart' in Chinese","Because it was originally a medical term"],
+ opts:["Because it was originally a medical term","Because busy people have big hearts","Because being busy affects your emotional state","Because it sounds like 'heart' in Chinese"],
  ans:"Because being busy affects your emotional state",
  hint:"The heart radical appears in many characters related to feelings and mental states in Chinese."}
 ]},
@@ -127,7 +127,7 @@ lessons:[
   text:"This up/down metaphor extends throughout Chinese:\n\n上车(shàng chē) = get on a vehicle\n下车(xià chē) = get off a vehicle\n上网(shàng wǎng) = go online (get on the net)\n下线(xià xiàn) = go offline (get off the line)\n\nThe pattern is consistent: 上 = engage/enter, 下 = disengage/exit. Once you see this pattern, you can predict many compound words."}},
 
 {type:"mc", q:"What does 同学(tóngxué) literally mean?",
- opts:["Old study","Same study","New student","Good teacher"],
+ opts:["Same study","New student","Good teacher","Old study"],
  ans:"Same study",
  hint:"Look at the two characters individually: 同 and 学. What concept does each one express?"},
 
@@ -146,7 +146,7 @@ lessons:[
  sSrc:"I am {1} Chinese."},
 
 {type:"mc", q:"老师(lǎoshī) can be used to address:",
- opts:["Only primary school teachers","Only university professors","Teachers at all levels, plus experts as a sign of respect","Only female teachers"],
+ opts:["Only university professors","Teachers at all levels, plus experts as a sign of respect","Only female teachers","Only primary school teachers"],
  ans:"Teachers at all levels, plus experts as a sign of respect",
  hint:"This title reflects deep Confucian ___ and extends well beyond the classroom."},
 
@@ -157,7 +157,7 @@ lessons:[
  sSrc:"How many {1} do you have today?"},
 
 {type:"mc", q:"下课(xià kè) means:",
- opts:["Go to class","Class is over","Skip class","Good class"],
+ opts:["Good class","Go to class","Class is over","Skip class"],
  ans:"Class is over",
  hint:"下 means 'down' or 'exit from.' Combined with …, it signals the end of the activity."},
 
@@ -211,7 +211,7 @@ lessons:[
  funFact:"教 is one of the oldest characters in Chinese, found on oracle bones from 3,000 years ago. The right side shows a hand holding a stick, the left shows a child. Teaching was quite literal back then."},
 
 {type:"mc", q:"问题(wèntí) can mean both 'question' and:",
- opts:["answer","teacher","problem","exam"],
+ opts:["problem","exam","answer","teacher"],
  ans:"problem",
  hint:"This word covers two related concepts. In everyday life, it often refers to a difficulty or issue."},
 
@@ -242,7 +242,7 @@ lessons:[
  sSrc:"There is a {1} tomorrow, I am very busy."},
 
 {type:"mc", q:"教(jiāo) changes meaning based on tone. First tone means 'to teach.' What happens with fourth tone?",
- opts:["It means 'to learn'","It is used in compound words like 教室 (classroom)","It means 'to test'","It becomes a noun meaning 'education'"],
+ opts:["It becomes a noun meaning 'education'","It means 'to learn'","It is used in compound words like 教室 (classroom)","It means 'to test'"],
  ans:"It is used in compound words like 教室 (classroom)",
  hint:"The fourth-tone version appears in a ___ word for the room where learning happens."},
 
@@ -253,7 +253,7 @@ lessons:[
  sSrc:"Teacher Wang {1} us Chinese."},
 
 {type:"mc", q:"请(qǐng)读(dú)这(zhè)个(gè)句子(jùzi)。 What are you being asked to do?",
- opts:["Write this sentence","Read this sentence aloud","Answer this question","Teach this class"],
+ opts:["Answer this question","Teach this class","Write this sentence","Read this sentence aloud"],
  ans:"Read this sentence aloud",
  hint:"读 involves vocalizing text. You are being asked to produce sound from written words."}
 ]},
@@ -270,7 +270,7 @@ lessons:[
   text:"Chinese has strict time placement rules:\n\nSubject + Time + Verb + Object\n\n我(wǒ) + 每天 + 学习 + 中文。\nI + every day + study + Chinese.\n\nYou can also put time at the very front for emphasis:\n每天我都学习中文。\nEvery day, I study Chinese.\n\nBut time NEVER goes after the verb like in English ('I study every day'). This is one of the most important word order rules for learners."}},
 
 {type:"mc", q:"我(wǒ)每(měi)天(tiān)学习(xuéxí)三(sān)个(gè)小时(xiǎoshí)中文(zhōngwén)。 What does this mean?",
- opts:["I study Chinese three times a day","I study Chinese for three hours every day","I have three Chinese classes every day","I started studying Chinese three days ago"],
+ opts:["I study Chinese for three hours every day","I have three Chinese classes every day","I started studying Chinese three days ago","I study Chinese three times a day"],
  ans:"I study Chinese for three hours every day",
  hint:"每天 is the frequency. 三个小时 is the duration. 中文 is the subject. Combine all pieces."},
 
@@ -289,7 +289,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Where does the time expression go in a Chinese sentence?",
- opts:["After the verb","At the end of the sentence","Before the verb","It does not matter"],
+ opts:["At the end of the sentence","Before the verb","It does not matter","After the verb"],
  ans:"Before the verb",
  hint:"Chinese has a strict rule about where time expressions go relative to the ___."},
 
@@ -300,7 +300,7 @@ lessons:[
  sSrc:"The teacher {1} us to write Chinese."},
 
 {type:"mc", q:"Which pair correctly shows the start and end of a class?",
- opts:["上课 and 下课","大课 and 小课","好课 and 不课","开课 and 关课"],
+ opts:["好课 and 不课","开课 and 关课","上课 and 下课","大课 and 小课"],
  ans:"上课 and 下课",
  hint:"Chinese uses 上 (up/enter) and 下 (down/exit) to mark the beginning and end of activities."},
 
@@ -317,7 +317,7 @@ lessons:[
  sSrc:"Do you have a {1}? I can answer."},
 
 {type:"mc", q:"她(tā)每(měi)天(tiān)都(dōu)很(hěn)忙(máng)。 The 都 in this sentence:",
- opts:["Means 'also'","Means 'but'","Emphasizes 'every single day without exception'","Has no meaning"],
+ opts:["Has no meaning","Means 'also'","Means 'but'","Emphasizes 'every single day without exception'"],
  ans:"Emphasizes 'every single day without exception'",
  hint:"When paired with 每, this word stresses that the statement is true for all instances."},
 
@@ -341,13 +341,13 @@ lessons:[
  note:"公 (public/official) + 司 (to manage). Literally: public management.\nRefers to any business company.",
  example:"A: 你(nǐ)在(zài)哪(nǎ)家(jiā)公司(gōngsī)工作(gōngzuò)？\nB: 我(wǒ)在(zài)一(yī)家(jiā)科技(kējì)公司(gōngsī)工作(gōngzuò)。",
  exampleSrc:"A: Which company do you work at?\nB: I work at a tech company.",
- funFact:"司 originally depicted a person kneeling with a mouth — someone managing affairs by speaking official words. Today 公司 is universal for any company: 大公司 (big company), 小公司 (small company). The word entered Chinese during the late Qing dynasty as Western business culture arrived."},
+ funFact:"司 originally depicted a person kneeling with a mouth, someone managing affairs by speaking official words. Today 公司 is universal for any company: 大公司 (big company), 小公司 (small company). The word entered Chinese during the late Qing dynasty as Western business culture arrived."},
 
 {type:"teach", trg:"教室(jiàoshì)", src:"classroom", pos:"noun", gender:null,
  note:"教 (teach, 4th tone here) + 室 (room). Literally: teaching room.\nNote: 教 is 1st tone (jiāo) as a verb but 4th tone (jiào) in this compound.",
  example:"A: 同学们(tóngxuémen)，进(jìn)教室(jiàoshì)吧(ba)！\nB: 好(hǎo)的(de)，老师(lǎoshī)！",
  exampleSrc:"A: Students, let us go into the classroom!\nB: Okay, teacher!",
- funFact:"室 appears in many formal room names: 教室 (classroom), 办公室 (office), 卧室 (bedroom), 浴室 (bathroom). It is more formal than 房间. You can always recognize a 室 as a purposeful, designated room — not just any room."},
+ funFact:"室 appears in many formal room names: 教室 (classroom), 办公室 (office), 卧室 (bedroom), 浴室 (bathroom). It is more formal than 房间. You can always recognize a 室 as a purposeful, designated room, not just any room."},
 
 {type:"teach", trg:"知道(zhīdào)", src:"to know (a fact)", pos:"verb", gender:null,
  note:"知 (know/understand) + 道 (way/path). Literally: know the way.\nUsed for knowing facts. 认识 is used for knowing people.",
@@ -359,7 +359,7 @@ lessons:[
  note:"结 (tie/conclude) + 束 (bundle/end). Literally: tie up the bundle.\nOpposite of 开始 (to begin), which was taught in L1 of this unit.",
  example:"A: 工作(gōngzuò)几(jǐ)点(diǎn)结束(jiéshù)？\nB: 六(liù)点(diǎn)结束(jiéshù)。",
  exampleSrc:"A: When does work finish?\nB: It finishes at six.",
- funFact:"束 shows an arrow tied to a bundle — the idea of binding things together to close them. 结束 perfectly pairs with 开始 (begin): together they bracket any event, period, or task. Chinese learners should learn them as a matching pair from the very start."},
+ funFact:"束 shows an arrow tied to a bundle, the idea of binding things together to close them. 结束 perfectly pairs with 开始 (begin): together they bracket any event, period, or task. Chinese learners should learn them as a matching pair from the very start."},
 
 {type:"teach", trg:"可以(kěyǐ)", src:"can / may (permission)", pos:"aux", gender:null,
  note:"Expresses permission or possibility. Used when asking or giving permission.\nDifferent from 会(huì) = ability and 能(néng) = capability.",
@@ -371,15 +371,15 @@ lessons:[
  note:"Expresses that something happens later than expected or involves only a small amount.\n才 = only just, barely, not until.\nOpposite sense from 就 (already, right away).",
  example:"A: 你(nǐ)什么(shénme)时候(shíhou)到(dào)的(de)？\nB: 我(wǒ)才(cái)到(dào)，刚(gāng)进(jìn)门(mén)。",
  exampleSrc:"A: When did you arrive?\nB: I only just arrived, just walked in the door.",
- funFact:"才 and 就 are mirror opposites. 才 = later than expected or emphasizing smallness. 就 = sooner than expected or emphasizing readiness. 他八点才来 (He did not come until 8 — late!) vs 他八点就来了 (He came as early as 8 — early!). Same time, opposite emotional framing."},
+ funFact:"才 and 就 are mirror opposites. 才 = later than expected or emphasizing smallness. 就 = sooner than expected or emphasizing readiness. 他八点才来 (He did not come until 8, late!) vs 他八点就来了 (He came as early as 8, early!). Same time, opposite emotional framing."},
 
 {type:"tip", title:"可以 vs 能 vs 会: Three Ways of 'Can'",
  text:"Chinese has three modal verbs for ability:\n\n可以(kěyǐ) = permission\n你(nǐ)可以(kěyǐ)进(jìn)来(lái)。 You may come in.\n\n能(néng) = situational capability\n我(wǒ)今天(jīntiān)不(bù)能(néng)来(lái)。 I cannot come today (not possible).\n\n会(huì) = learned skill\n我(wǒ)会(huì)说(shuō)中文(zhōngwén)。 I can speak Chinese (I learned it).\n\nAt A2, focus on 可以 for asking permission and 会 for skills.",
  deepDive:{title:"Why Three Modals?",
-  text:"English 'can' covers all three meanings at once. Chinese keeps them separate because the reasons for ability differ:\n\n可以: External permission — someone allows it.\n能: External/internal conditions — circumstances allow it.\n会: Internal knowledge — you learned how.\n\n我可以游泳 = I am allowed to swim.\n我能游泳 = I am capable of swimming right now.\n我会游泳 = I know how to swim.\n\nAt B1 you will see them overlap in casual speech. At A2, keeping them separate is the clean, exam-correct approach."}},
+  text:"English 'can' covers all three meanings at once. Chinese keeps them separate because the reasons for ability differ:\n\n可以: External permission, someone allows it.\n能: External/internal conditions, circumstances allow it.\n会: Internal knowledge, you learned how.\n\n我可以游泳 = I am allowed to swim.\n我能游泳 = I am capable of swimming right now.\n我会游泳 = I know how to swim.\n\nAt B1 you will see them overlap in casual speech. At A2, keeping them separate is the clean, exam-correct approach."}},
 
 {type:"mc", q:"What is the main difference between 公司(gōngsī) and 学校(xuéxiào)?",
- opts:["公司 is smaller","学校 is for working, 公司 is for studying","公司 is for business work, 学校 is for education","They mean the same thing"],
+ opts:["公司 is for business work, 学校 is for education","They mean the same thing","公司 is smaller","学校 is for working, 公司 is for studying"],
  ans:"公司 is for business work, 学校 is for education",
  hint:"One is where you earn money doing a job, the other is where students go to learn."},
 
@@ -398,7 +398,7 @@ lessons:[
  sSrc:"I do not {1} where he is."},
 
 {type:"mc", q:"我可以进来吗？ What is the speaker asking for?",
- opts:["Asking if they are able to enter","Asking if they know the way in","Asking permission to enter","Asking when to enter"],
+ opts:["Asking if they know the way in","Asking permission to enter","Asking when to enter","Asking if they are able to enter"],
  ans:"Asking permission to enter",
  hint:"可以 specifically asks whether an action is allowed by social rules or authority."},
 
@@ -409,9 +409,9 @@ lessons:[
  sSrc:"Class has {1}, students may leave now."},
 
 {type:"mc", q:"她(tā)才(cái)到(dào)，刚(gāng)进(jìn)门(mén)。 What does 才 tell you here?",
- opts:["She arrived very early","She arrived right on time","She only just arrived — a moment ago","She arrived a long time ago"],
- ans:"She only just arrived — a moment ago",
- hint:"才 emphasizes that the action happened very recently or later than expected — not earlier."},
+ opts:["She arrived very early","She arrived right on time","She only just arrived, a moment ago","She arrived a long time ago"],
+ ans:"She only just arrived, a moment ago",
+ hint:"才 emphasizes that the action happened very recently or later than expected, not earlier."},
 
 {type:"match", pairs:[
   {trg:"知道(zhīdào)", src:"to know a fact"},
@@ -440,29 +440,29 @@ lessons:[
  note:"A casual written greeting used in informal notes and messages.\nMore common in writing than in speech.",
  example:"A: 你好吗(nǐ hǎo ma)？好久(hǎojiǔ)没(méi)见(jiàn)你(nǐ)了(le)。\nB: 我(wǒ)很(hěn)好(hǎo)，谢谢(xièxie)你(nǐ)！",
  exampleSrc:"A: How are you? I haven't seen you in a long time.\nB: I'm very well, thank you!",
- funFact:"In spoken Chinese, people rarely open conversations with 你好吗 — it sounds a bit formal. But in written messages, especially to friends you haven't contacted in a while, it fits naturally."},
+ funFact:"In spoken Chinese, people rarely open conversations with 你好吗, it sounds a bit formal. But in written messages, especially to friends you haven't contacted in a while, it fits naturally."},
 
 {type:"teach", trg:"好久不见(hǎojiǔ bújiàn)", src:"Long time no see", pos:"intj", gender:null,
  note:"A fixed phrase for reconnecting after a long absence.\n好久 = a long time; 不见 = haven't seen (each other).",
  example:"A: 好久不见(hǎojiǔ bújiàn)！你(nǐ)最近(zuìjìn)好(hǎo)吗(ma)？\nB: 好久不见(hǎojiǔ bújiàn)！我(wǒ)很(hěn)好(hǎo)。",
  exampleSrc:"A: Long time no see! How have you been recently?\nB: Long time no see! I am very well.",
- funFact:"This phrase was actually borrowed INTO English as 'long time no see' by Chinese labourers in the 1800s — the English phrase is a direct calque of the Mandarin structure."},
+ funFact:"This phrase was actually borrowed INTO English as 'long time no see' by Chinese labourers in the 1800s, the English phrase is a direct calque of the Mandarin structure."},
 
 {type:"teach", trg:"想你(xiǎng nǐ)", src:"I miss you", pos:"intj", gender:null,
  note:"Literally 'think of you' or 'want you.' Common in warm informal messages.\nUsed between close friends, family, and partners.",
  example:"A: 我(wǒ)很(hěn)想你(xiǎng nǐ)，你(nǐ)什么(shénme)时候(shíhou)回来(huílái)？\nB: 我(wǒ)也(yě)想你(xiǎng nǐ)！",
  exampleSrc:"A: I really miss you. When are you coming back?\nB: I miss you too!",
- funFact:"想 is one of those Chinese characters that combines meaning with structure: the top part 木 (tree/stand) plus 目 (eye) over 心 (heart). Looking with your heart — the image of longing."},
+ funFact:"想 is one of those Chinese characters that combines meaning with structure: the top part 木 (tree/stand) plus 目 (eye) over 心 (heart). Looking with your heart, the image of longing."},
 
 {type:"tip", title:"Structure of a Short Chinese Message",
  text:"Informal Mandarin messages follow a simple three-part structure:\n1. Opening: 你好吗？ or 好久不见！\n2. Main point: state your news, ask a question, or share a feeling\n3. Closing: 想你 / 保重 / 下次见\n\nYou do not need 亲爱的 (dear) in a WeChat message to a friend. That register belongs to formal letters.",
- deepDive:"WeChat messages are Chinese daily digital life. Even older generations send long voice notes and text. Short written messages mix formal openers with casual closers freely — there are no strict rules, just common patterns."},
+ deepDive:"WeChat messages are Chinese daily digital life. Even older generations send long voice notes and text. Short written messages mix formal openers with casual closers freely, there are no strict rules, just common patterns."},
 
 {type:"teach", trg:"保重(bǎozhòng)", src:"take care / stay safe", pos:"intj", gender:null,
  note:"A warm closing phrase meaning 'take care of yourself.'\n保 = protect; 重 = important / serious.",
  example:"A: 你(nǐ)要(yào)走(zǒu)了(le)，多(duō)保重(bǎozhòng)！\nB: 谢谢(xièxie)，你(nǐ)也(yě)保重(bǎozhòng)！",
  exampleSrc:"A: You are leaving now. Take good care!\nB: Thank you, you take care too!",
- funFact:"保重 is the standard warm farewell in Chinese correspondence. It appears in the closing line of letters, emails, and WeChat messages alike. The equivalent of 'take care' in English — genuine, not just filler."},
+ funFact:"保重 is the standard warm farewell in Chinese correspondence. It appears in the closing line of letters, emails, and WeChat messages alike. The equivalent of 'take care' in English, genuine, not just filler."},
 
 {type:"teach", trg:"下次见(xià cì jiàn)", src:"See you next time", pos:"intj", gender:null,
  note:"A casual closing meaning 'until we meet again.'\n下次 = next time; 见 = to see / to meet.",
@@ -477,7 +477,7 @@ lessons:[
  funFact:"回 is a fascinatingly symmetric character: a small square inside a large square. Scholars believe it originally depicted a whirlpool or spiral, giving it the core meaning of 'turning back' or 'returning.'"},
 
 {type:"mc", q:"Which phrase is used to reconnect with someone after a long absence?",
- opts:["你好吗？(nǐ hǎo ma?)","好久不见(hǎojiǔ bújiàn)","保重(bǎozhòng)","回信(huí xìn)"],
+ opts:["好久不见(hǎojiǔ bújiàn)","保重(bǎozhòng)","回信(huí xìn)","你好吗？(nǐ hǎo ma?)"],
  ans:"好久不见(hǎojiǔ bújiàn)",
  hint:"Think of the phrase that literally means you haven't seen someone in a long time."},
 
@@ -505,12 +505,12 @@ lessons:[
  sSrc:"Time to set off. {1}!"},
 
 {type:"mc", q:"你发短信给我了吗？ What is being asked?",
- opts:["Did you call me?","Did you send me a text?","Did you reply to me?","Did you write me a letter?"],
+ opts:["Did you write me a letter?","Did you call me?","Did you send me a text?","Did you reply to me?"],
  ans:"Did you send me a text?",
  hint:"短信 is the key word. Focus on which action the speaker completed: calling, replying, texting, or writing a physical letter."},
 
 {type:"mc", q:"Which phrase is the most natural way to close a WeChat message to a friend you plan to see again soon?",
- opts:["保重(bǎozhòng)","你好吗？(nǐ hǎo ma?)","下次见(xià cì jiàn)","好久不见(hǎojiǔ bújiàn)"],
+ opts:["好久不见(hǎojiǔ bújiàn)","保重(bǎozhòng)","你好吗？(nǐ hǎo ma?)","下次见(xià cì jiàn)"],
  ans:"下次见(xià cì jiàn)",
  hint:"Which closing phrase specifically points forward to the next meeting? It is lighter and shorter than the standard goodbye."},
 
@@ -556,7 +556,7 @@ lessons:[
  funFact:"决 contains the water radical 氵, evoking a river breaking through a dam. Once decided, the flow cannot be stopped. The character visually captures the moment of commitment."},
 
 {type:"teach", trg:"觉得(juéde)", src:"to feel / to think (opinion)", pos:"verb", gender:null,
- note:"Expresses a personal feeling or subjective opinion.\nDo NOT use for factual knowledge — use 知道(zhīdào) for that.",
+ note:"Expresses a personal feeling or subjective opinion.\nDo NOT use for factual knowledge, use 知道(zhīdào) for that.",
  example:"A: 你(nǐ)觉得(juéde)这(zhè)门(mén)课(kè)怎么样(zěnmeyàng)？\nB: 我(wǒ)觉得(juéde)很(hěn)好(hǎo)，老师(lǎoshī)教(jiāo)得(de)好(hǎo)。",
  exampleSrc:"A: How do you feel about this class?\nB: I think it is very good. The teacher teaches well.",
  funFact:"觉 shares its root with 睡觉(shuìjiào), 'to sleep.' Both involve a state of consciousness. 觉得 is the waking, conscious sense of something, while 睡觉 is surrendering that awareness."},
@@ -579,7 +579,7 @@ lessons:[
   text:"These three overlap but differ in register and implication.\n\n以为 (yǐwéi): subjective assumption, often wrong. Used in everyday speech.\n觉得 (juéde): gut feeling or casual opinion. Very common in conversation.\n认为 (rènwéi): considered, reasoned opinion. Formal. Used in writing and debate.\n\nExample set:\n我以为今天有课。I assumed there was class today. (probably wrong)\n我觉得这很难。I feel this is difficult. (personal impression)\n我认为这个方法更好。I consider this method better. (argued position)"}},
 
 {type:"mc", q:"Which verb describes having an incorrect assumption?",
- opts:["希望(xīwàng)","以为(yǐwéi)","相信(xiāngxìn)","决定(juédìng)"],
+ opts:["以为(yǐwéi)","相信(xiāngxìn)","决定(juédìng)","希望(xīwàng)"],
  ans:"以为(yǐwéi)",
  hint:"Think about the verb that native speakers use right after discovering they were wrong about something."},
 
@@ -601,7 +601,7 @@ lessons:[
  sSrc:"Do you {1} that there is an exam today?"},
 
 {type:"mc", q:"希望(xīwàng) is best described as:",
- opts:["A certainty about the future","A forward-looking wish for what you do not yet have","A mistaken belief","A firm commitment"],
+ opts:["A firm commitment","A certainty about the future","A forward-looking wish for what you do not yet have","A mistaken belief"],
  ans:"A forward-looking wish for what you do not yet have",
  hint:"希望 is neither a decision nor a guarantee. It expresses wanting what lies ahead without controlling whether it happens."},
 
@@ -612,7 +612,7 @@ lessons:[
  sSrc:"He has already {1} to go to Beijing to work."},
 
 {type:"mc", q:"我(wǒ)以为(yǐwéi)今天(jīntiān)没有(méiyǒu)课(kè)，但是(dànshì)有(yǒu)课(kè)。 What does this tell us?",
- opts:["The speaker knew about the class in advance","The speaker assumed there was no class but was wrong","The speaker decided not to attend class","The speaker hopes there is no class"],
+ opts:["The speaker decided not to attend class","The speaker hopes there is no class","The speaker knew about the class in advance","The speaker assumed there was no class but was wrong"],
  ans:"The speaker assumed there was no class but was wrong",
  hint:"以为 always carries the meaning that the assumption turned out to be incorrect. The second clause confirms the surprise."},
 

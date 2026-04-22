@@ -73,7 +73,7 @@ const LESSON_9 = {id:"esv2_b2g8_l9",title:"Educación y academia",icon:"🎓",xp
  funFact:"'Lengua materna' (mother tongue) is the standard term, but 'lengua maternal' is also grammatically correct."},
 
 {type:"mc",q:"¿Qué fue la Ilustración?",
- opts:["Un movimiento intelectual del siglo XVIII","Un tipo de arte medieval","Una ley educativa","Un estilo de escritura"],
+ opts:["Un estilo de escritura","Un movimiento intelectual del siglo XVIII","Un tipo de arte medieval","Una ley educativa"],
  ans:"Un movimiento intelectual del siglo XVIII",
  hint:"An intellectual movement that promoted reason and science. Think 18th century."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 8: Customs and Observations
+// Korean B2. Batch 3, Lesson 8: Customs and Observations
 // Words: 관념, 관람, 관람객, 관리하다, 관습, 관심사, 관점, 관찰, 광경, 광장, 괴로움, 괴로워하다, 괴롭다, 괴롭히다, 굉장하다, 교내, 교대, 교문, 교복, 교사
 
 const LESSON_8 = {
@@ -107,7 +107,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"'괴로워하다'와 '괴롭히다'의 차이는?",
-     opts:["자기가 괴로운 것과 남을 괴롭게 하는 것","둘 다 같은 뜻이다","하나는 명사이고 하나는 동사이다","하나는 과거형이고 하나는 현재형이다"],
+     opts:["하나는 과거형이고 하나는 현재형이다","자기가 괴로운 것과 남을 괴롭게 하는 것","둘 다 같은 뜻이다","하나는 명사이고 하나는 동사이다"],
      ans:"자기가 괴로운 것과 남을 괴롭게 하는 것",
      hint:"One describes experiencing pain yourself, the other describes causing pain to someone else."},
 

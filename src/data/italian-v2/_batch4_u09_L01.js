@@ -1,4 +1,4 @@
-// Batch 4 — Unit 09, Lesson 1: Mental Health & Wellness Vocabulary
+// Batch 4. Unit 09, Lesson 1: Mental Health & Wellness Vocabulary
 const BATCH4_U09_L1 = {
   id:"itv2_u09l_b4_1", title:"Benessere e stress", icon:"\uD83E\uDDD8", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U09_L1 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'guarisci presto'?",
-     opts:["Get well soon","Good morning","Be careful","Sleep well"],
+     opts:["Sleep well","Get well soon","Good morning","Be careful"],
      ans:"Get well soon",
      hint:"This wish is said to someone who is sick or recovering."},
 
@@ -126,7 +126,7 @@ const BATCH4_U09_L1 = {
      sSrc:"How do you {1} today? Better than yesterday?"},
 
     {type:"mc", q:"Qual e il primo posto dove vanno gli italiani quando stanno male?",
-     opts:["La farmacia (the pharmacist)","L'ospedale","Il pronto soccorso","Il dentista"],
+     opts:["Il pronto soccorso","Il dentista","La farmacia (the pharmacist)","L'ospedale"],
      ans:"La farmacia (the pharmacist)",
      hint:"This professional gives advice and sells remedies before seeing a doctor."},
 
@@ -136,7 +136,7 @@ const BATCH4_U09_L1 = {
      sSrc:"I have a {1}, 38 degrees. I must stay in bed."},
 
     {type:"mc", q:"Qual e la differenza tra 'sentire' e 'sentirsi'?",
-     opts:["Sentire means to hear/sense; sentirsi means to feel a personal state","They mean the same thing","Sentire is formal; sentirsi is informal","Sentirsi is past tense of sentire"],
+     opts:["They mean the same thing","Sentire is formal; sentirsi is informal","Sentirsi is past tense of sentire","Sentire means to hear/sense; sentirsi means to feel a personal state"],
      ans:"Sentire means to hear/sense; sentirsi means to feel a personal state",
      hint:"The reflexive form changes the meaning from external sensing to internal feeling."}
   ,{type:"match",pairs:[{trg:"dormire",src:"to sleep"},{trg:"la ricetta medica",src:"the prescription"},{trg:"guarire",src:"to heal / to recover"},{trg:"stare bene",src:"to feel well / to be fine"}]}]

@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 15 (Directions) — more navigation, landmarks, compass, transport
+// Batch 2 expansion for Unit 15 (Directions), more navigation, landmarks, compass, transport
 const BATCH2_L_1 = {
   id:"jav2_u15l_b2_1", title:"町(まち)を歩(ある)く", icon:"🚶", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Please go up these stairs.\nB: What is at the top?\nA: Shall we go together?\nB: That sounds good. Let's go.",
    funFact:"上(のぼ)る uses different kanji depending on context: 上(のぼ)る for going up in general, 登(のぼ)る for climbing mountains or ladders. Both are read のぼる. The distinction is subtle and even native speakers sometimes mix them up. For directions, either works."},
 
-  {type:"mc", q:"横断歩道(おうだんほどう) means:", opts:["sidewalk","bridge","crosswalk","parking lot"], ans:"crosswalk",
+  {type:"mc", q:"横断歩道(おうだんほどう) means:", opts:["crosswalk","parking lot","sidewalk","bridge"], ans:"crosswalk",
    hint:"The striped area on the road specifically designed for pedestrians to cross."},
 
   {type:"teach", trg:"降(お)りる", src:"to go down / to get off", pos:"verb", gender:null,

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 08, Lesson 1: Fabrics, Accessories & Fashion Terms
+// Batch 4. Unit 08, Lesson 1: Fabrics, Accessories & Fashion Terms
 const BATCH4_U08_L1 = {
   id:"itv2_u08l_b4_1", title:"Moda e accessori", icon:"\uD83D\uDC5C", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U08_L1 = {
     ]},
 
     {type:"mc", q:"Qual e la differenza tra 'elegante' e 'alla moda'?",
-     opts:["Elegante is timeless refinement; alla moda follows current trends","They mean the same thing","Elegante is for men; alla moda is for women","Alla moda is more formal"],
+     opts:["Alla moda is more formal","Elegante is timeless refinement; alla moda follows current trends","They mean the same thing","Elegante is for men; alla moda is for women"],
      ans:"Elegante is timeless refinement; alla moda follows current trends",
      hint:"One is about lasting class, the other is about what is currently popular."},
 
@@ -120,7 +120,7 @@ const BATCH4_U08_L1 = {
      sSrc:"Can I {1} this jacket? Where is the fitting room?"},
 
     {type:"mc", q:"Dove si produce la seta in Italia?",
-     opts:["Como, in northern Italy","Firenze, in Tuscany","Napoli, in the south","Roma, in Lazio"],
+     opts:["Napoli, in the south","Roma, in Lazio","Como, in northern Italy","Firenze, in Tuscany"],
      ans:"Como, in northern Italy",
      hint:"This lakeside city has been the center of silk production since the 1400s."},
 
@@ -130,9 +130,9 @@ const BATCH4_U08_L1 = {
      sSrc:"What {1} do you wear? We have 38, 40 and 42."},
 
     {type:"mc", q:"Cosa significa 'colpo d'aria' nella cultura italiana?",
-     opts:["A feared cold draft that Italians protect against with scarves","A fashion trend","A type of fabric","A summer breeze"],
+     opts:["A fashion trend","A type of fabric","A summer breeze","A feared cold draft that Italians protect against with scarves"],
      ans:"A feared cold draft that Italians protect against with scarves",
      hint:"Italian mothers are especially concerned about this invisible health threat."}
-  ,{type:"match",pairs:[{trg:"la borsa",src:"the bag / purse"},{trg:"la cintura",src:"the belt"},{trg:"gli occhiali",src:"glasses / eyeglasses"}]},{type:"mc",q:"How do you say \"ring\" in Italian?",opts:["la finestra","il tavolo","l'anello","la bicicletta"],ans:"l'anello",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"watch / clock\" in Italian?",opts:["la finestra","l'orologio","il tavolo","la bicicletta"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la borsa",src:"the bag / purse"},{trg:"la cintura",src:"the belt"},{trg:"gli occhiali",src:"glasses / eyeglasses"}]},{type:"mc",q:"How do you say \"ring\" in Italian?",opts:["l'anello","la bicicletta","la finestra","il tavolo"],ans:"l'anello",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"watch / clock\" in Italian?",opts:["la finestra","l'orologio","il tavolo","la bicicletta"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U08_L1;

@@ -73,7 +73,7 @@ const LESSON_12 = {id:"esv2_b2g8_l12",title:"Comercio y mercados",icon:"🏪",xp
  funFact:"'Línea' has dozens of uses: línea telefónica, línea de metro, en línea (online), línea de crédito."},
 
 {type:"mc",q:"¿Qué es la internacionalización de una empresa?",
- opts:["Expandir su actividad a otros países","Cambiar su nombre","Reducir su plantilla","Cerrar las oficinas centrales"],
+ opts:["Cerrar las oficinas centrales","Expandir su actividad a otros países","Cambiar su nombre","Reducir su plantilla"],
  ans:"Expandir su actividad a otros países",
  hint:"When a company grows beyond its national borders to operate in foreign markets."},
 

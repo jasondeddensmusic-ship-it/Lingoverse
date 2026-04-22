@@ -98,7 +98,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot décrit une personne qui apprend un métier ?",
-     opts:["l'apprenti","l'assistant","l'amateur","l'animateur"],
+     opts:["l'animateur","l'apprenti","l'assistant","l'amateur"],
      ans:"l'apprenti",
      hint:"This noun describes someone training under a skilled professional to learn a craft."},
 
@@ -143,7 +143,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quelle est la forme abrégée et familière utilisée pour désigner ce logiciel mobile ?",
-     opts:["appli","asso","admin","appart"],
+     opts:["admin","appart","appli","asso"],
      ans:"appli",
      hint:"This casual abbreviation is the French equivalent of the English word 'app'."},
 

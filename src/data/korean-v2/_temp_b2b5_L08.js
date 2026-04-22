@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 8: Society and Family
+// Korean B2. Batch 5, Lesson 8: Society and Family
 // Words: 사례, 사립, 사망, 사망하다, 사모님, 사무, 사무소, 사무직, 사방, 사상, 사생활, 사설, 사소하다, 사슴, 사실상, 사업가, 사업자, 사위, 사이사이, 사이좋다
 
 const LESSON_8 = {

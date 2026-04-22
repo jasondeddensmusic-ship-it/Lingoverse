@@ -1,4 +1,4 @@
-// L11: Actions and Decisions — 20 B1 gap words
+// L11: Actions and Decisions, 20 B1 gap words
 const LESSON_11 = {
   id:"nlv2_b1gap_l11", title:"Handelen en Beslissen", icon:"\u{1F4A1}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"De dokter ___ je om alcohol te drinken als je medicijnen slikt.",
-     opts:["raadt af","wijst aan","geeft aan","dringt aan"],
+     opts:["dringt aan","raadt af","wijst aan","geeft aan"],
      ans:"raadt af",
      hint:"Which separable verb means the doctor recommends you NOT do something?"},
 
@@ -138,7 +138,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Ik ___ me ___ waarom hij niet belt. Misschien is hij druk.",
-     opts:["vraag ... af","wacht ... af","wijs ... aan","sluit ... aan"],
+     opts:["wijs ... aan","sluit ... aan","vraag ... af","wacht ... af"],
      ans:"vraag ... af",
      hint:"Which reflexive separable verb means to ponder or wonder about something?"}
   ]

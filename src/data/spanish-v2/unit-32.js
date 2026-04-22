@@ -1,4 +1,4 @@
-// Spanish V2 Unit 32 — A1 Vocabulary Expansion
+// Spanish V2 Unit 32. A1 Vocabulary Expansion
 import L06 from './_temp_a1gap_L06.js';
 import L07 from './_temp_a1gap_L07.js';
 import L08 from './_temp_a1gap_L08.js';

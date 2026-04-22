@@ -1,4 +1,4 @@
-// L01: Society & Demographics — 20 B2 gap words
+// L01: Society & Demographics, 20 B2 gap words
 const LESSON_1 = {
   id:"nlv2_b2g4_l1", title:"Samenleving en Demografie", icon:"\uD83C\uDFD8\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_1 = {
      deepDive:{title:"The linking 's' in compounds",
       text:"The linking letter between compound parts is not random. Words ending in -ing, -heid, -iteit, -schap almost always take an 's': bevolkings-, geheimhoudings-, gelijkwaardigheidS-. Words ending in -e usually take no linker: geboortestad (not geboortesstad). Some words have both options, but one is standard. Getting this right marks you as an advanced speaker."}},
     {type:"mc", q:"What does 'allochtoon' mean in Dutch?",
-     opts:["a native person","a person of foreign origin","a tourist","an illegal immigrant"],
+     opts:["a person of foreign origin","a tourist","an illegal immigrant","a native person"],
      ans:"a person of foreign origin",
      hint:"From Greek roots meaning 'other land'. Now considered outdated."},
     {type:"fb", s:"De {1} aan de verkiezingen was laag.", a:["deelname"],
@@ -127,7 +127,7 @@ const LESSON_1 = {
       {trg:"geleerde", src:"scholar"}
     ]},
     {type:"mc", q:"'Zijn kennis is gebrekkig.' What does 'gebrekkig' mean?",
-     opts:["excellent","deficient","average","improving"],
+     opts:["improving","excellent","deficient","average"],
      ans:"deficient",
      hint:"Related to 'gebrek', meaning a lack or deficiency."},
     {type:"fb", s:"De {1} rond het project is streng.", a:["geheimhouding"],

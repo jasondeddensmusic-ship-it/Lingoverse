@@ -90,7 +90,7 @@ const LESSON_10 = {
      funFact:"The Netherlands consistently ranks in the top 5 of the World Happiness Report. Dutch children are rated the happiest in the developed world by UNICEF."},
     {type:"mc",
      q:"Wat betekent 'jatten' in informeel Nederlands?",
-     opts:["Stelen","Rennen","Liegen","Slapen"],
+     opts:["Slapen","Stelen","Rennen","Liegen"],
      ans:"Stelen",
      hint:"This is a very informal, slang verb. In formal Dutch you would say 's...'. What does a thief do?"},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_10 = {
      sSrc:"The police were {1} after the neighbours heard suspicious sounds."},
     {type:"mc",
      q:"Wat is een 'geluksbeleving'?",
-     opts:["De persoonlijke ervaring van geluk","Een type loterij","Een geluksbrenger","Een feestdag"],
+     opts:["Een geluksbrenger","Een feestdag","De persoonlijke ervaring van geluk","Een type loterij"],
      ans:"De persoonlijke ervaring van geluk",
      hint:"Break the compound: g... (happiness) + beleving (experience). What does this describe?"}
   ]

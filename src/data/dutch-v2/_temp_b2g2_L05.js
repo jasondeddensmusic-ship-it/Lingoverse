@@ -1,4 +1,4 @@
-// L05: Construction & Architecture — 20 B2 gap words
+// L05: Construction & Architecture, 20 B2 gap words
 const LESSON_5 = {
   id:"nlv2_b2g2_l5", title:"Bouwen en Architectuur", icon:"\uD83C\uDFD7\uFE0F", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_5 = {
      sSrc:"She has a {1} and has not been at work for months."},
     {type:"mc",
      q:"Welk woord heeft DRIE totaal verschillende betekenissen?",
-     opts:["Beslag: beslag, beslagleggen, en pannenkoekbeslag","Bouw: bouwen, gebouw, en landbouw","Breuk: fractuur, breuk, en gebroken","Bestek: specificatie, bestek, en vork"],
+     opts:["Bestek: specificatie, bestek, en vork","Beslag: beslag, beslagleggen, en pannenkoekbeslag","Bouw: bouwen, gebouw, en landbouw","Breuk: fractuur, breuk, en gebroken"],
      ans:"Beslag: beslag, beslagleggen, en pannenkoekbeslag",
      hint:"One word means batter in the kitchen, metal fittings in construction, and legal seizure in court."},
     {type:"match", pairs:[

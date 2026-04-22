@@ -62,7 +62,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"Where is the washing machine usually placed in Italian apartments?",
-     opts:["In the kitchen next to the dishwasher","In a dedicated laundry room on each floor","In the bathroom near the sink","In the basement shared laundry area"],
+     opts:["In the bathroom near the sink","In the basement shared laundry area","In the kitchen next to the dishwasher","In a dedicated laundry room on each floor"],
      ans:"In the bathroom near the sink",
      hint:"Italian apartment layouts differ from American ones. The b... houses this appliance because a separate laundry space is rare."},
 
@@ -92,7 +92,7 @@ const LESSON_5 = {
      sSrc:"The upstairs {1} are very noisy."},
 
     {type:"mc", q:"What is 'l'assemblea condominiale'?",
-     opts:["A religious gathering in the building chapel","A meeting where building owners vote on shared matters","A neighborhood street party held annually","A mandatory fire drill for all residents"],
+     opts:["A mandatory fire drill for all residents","A religious gathering in the building chapel","A meeting where building owners vote on shared matters","A neighborhood street party held annually"],
      ans:"A meeting where building owners vote on shared matters",
      hint:"All apartment o... in the b... form this assembly. They decide on expenses, renovations, and rules."},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {
      sSrc:"The {1} holds packages for us when we are not home."},
 
     {type:"mc", q:"What does 'il frigo' shorten?",
-     opts:["Il frigorifero","Il frigido","Il frigobar","Il frigidaire"],
+     opts:["Il frigido","Il frigobar","Il frigidaire","Il frigorifero"],
      ans:"Il frigorifero",
      hint:"Italians almost always use the short form. Italian fridges tend to be smaller than American ones."}
   ]

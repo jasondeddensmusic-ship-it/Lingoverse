@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB
   ]},
 
   {type:"mc", q:"How many days do you have to return online purchases in Italy?",
-   opts:["14 days","7 days","30 days","3 days"],
+   opts:["3 days","14 days","7 days","30 days"],
    ans:"14 days",
    hint:"EU consumer law protects online buyers. This 'diritto di recesso' period starts from delivery."},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB
    sSrc:"How much is {1}?"},
 
   {type:"mc", q:"What does 'esaurito' mean on an Italian shopping site?",
-   opts:["Out of stock / sold out","Available","On sale","New arrival"],
+   opts:["On sale","New arrival","Out of stock / sold out","Available"],
    ans:"Out of stock / sold out",
    hint:"The opposite of 'disponibile.' The item is no longer available for purchase."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u8l5", title:"Lo shopping online", icon:"\uD83D\uDCBB
    sSrc:"How do I make the {1}?"},
 
   {type:"mc", q:"What does 'Aggiungi al carrello' mean?",
-   opts:["Add to cart","Remove from cart","Proceed to checkout","View cart"],
+   opts:["Remove from cart","Proceed to checkout","View cart","Add to cart"],
    ans:"Add to cart",
    hint:"'Aggiungere' means to a.... 'Carrello' is the c.... This is the main shopping button."},
 

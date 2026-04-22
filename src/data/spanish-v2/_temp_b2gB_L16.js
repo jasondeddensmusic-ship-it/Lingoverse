@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 16 — Agriculture & Rural Life
+// B2 Gap Batch B Lesson 16. Agriculture & Rural Life
 const LESSON_16 = {id:"esv2_b2gB_l16",title:"Agricultura y vida rural",icon:"🌾",xp:15,board:true,steps:[
 {type:"intro",title:"Agricultura y vida rural",desc:"Learn vocabulary about farming, rural traditions, and agricultural life in Spain.",goals:["Learn 12 words about agriculture and rural life","Discuss farming practices and rural culture","Use agricultural and nature vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_16 = {id:"esv2_b2gB_l16",title:"Agricultura y vida rural",icon:"�
  funFact:"The horsetail plant (Equisetum) has been used in Spanish folk medicine for centuries as a diuretic."},
 
 {type:"mc",q:"¿Qué es un lagar?",
- opts:["Un lugar donde se prensan uvas para hacer vino","Un tipo de herramienta agrícola","Un campo de trigo","Una granja de animales"],
+ opts:["Una granja de animales","Un lugar donde se prensan uvas para hacer vino","Un tipo de herramienta agrícola","Un campo de trigo"],
  ans:"Un lugar donde se prensan uvas para hacer vino",
  hint:"Think about the winemaking process, specifically the step where grapes are crushed."},
 

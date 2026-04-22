@@ -92,7 +92,7 @@ const LESSON_7 = {id:"frv2_b1gap_l7", title:"Politique et société", icon:"\u{1
 
 {type:"mc",
  q:"Quel mot décrit une attaque violente à caractère politique ?",
- opts:["un attentat","une accusation","un armement","un arbitrage"],
+ opts:["un arbitrage","un attentat","une accusation","un armement"],
  ans:"un attentat",
  hint:"This masculine noun specifically describes violent political attacks, not general arguments."},
 
@@ -143,7 +143,7 @@ const LESSON_7 = {id:"frv2_b1gap_l7", title:"Politique et société", icon:"\u{1
 
 {type:"mc",
  q:"Quel adjectif décrit une décision prise sans logique ni justification ?",
- opts:["arbitraire","aristocratique","associatif","athée"],
+ opts:["associatif","athée","arbitraire","aristocratique"],
  ans:"arbitraire",
  hint:"Saussure used this word for the relationship between words and meanings. Think 'based on whim.'"},
 
@@ -186,7 +186,7 @@ const LESSON_7 = {id:"frv2_b1gap_l7", title:"Politique et société", icon:"\u{1
 
 {type:"mc",
  q:"Quel mot est le deuxième terme de la devise de la République française ?",
- opts:["l'égalité","la liberté","la fraternité","la démocratie"],
+ opts:["la liberté","la fraternité","la démocratie","l'égalité"],
  ans:"l'égalité",
  hint:"France's national motto has three terms: the second one means being treated the same before the law."}
 

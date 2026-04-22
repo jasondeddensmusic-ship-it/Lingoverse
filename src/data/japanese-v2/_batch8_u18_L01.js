@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"命令(めいれい)",src:"order/command"},{trg:"指示(しじ)",src:"instruction/direction"},{trg:"相談(そうだん)",src:"consultation"},{trg:"報告(ほうこく)",src:"report"},{trg:"許可(きょか)",src:"permission/approval"}],
      hint:"Match each workplace communication type with its English meaning."},
 
-    {type:"mc", q:"What does 任(まか)せてください mean?", opts:["Leave it to me","I will command you","Please report","I need permission"], ans:"Leave it to me",
+    {type:"mc", q:"What does 任(まか)せてください mean?", opts:["I need permission","Leave it to me","I will command you","Please report"], ans:"Leave it to me",
      hint:"This phrase expresses confidence in handling an entrusted task."},
 
     {type:"fb", s:"上司(じょうし)に{1}したいことがあります。\n(There is something I want to consult my boss about.)", a:"相談(そうだん)", opts:["相談(そうだん)","命令(めいれい)","報告(ほうこく)","指示(しじ)"], sSrc:"There is something I want to consult my boss about.",
      hint:"This word is the third part of the ほうれんそう principle."},
 
-    {type:"mc", q:"What is the difference between 命令(めいれい) and 指示(しじ)?", opts:["命令(めいれい) is a strong command, 指示(しじ) is a standard instruction","They mean exactly the same thing","指示(しじ) is stronger than 命令(めいれい)","命令(めいれい) is polite, 指示(しじ) is rude"], ans:"命令(めいれい) is a strong command, 指示(しじ) is a standard instruction",
+    {type:"mc", q:"What is the difference between 命令(めいれい) and 指示(しじ)?", opts:["指示(しじ) is stronger than 命令(めいれい)","命令(めいれい) is polite, 指示(しじ) is rude","命令(めいれい) is a strong command, 指示(しじ) is a standard instruction","They mean exactly the same thing"], ans:"命令(めいれい) is a strong command, 指示(しじ) is a standard instruction",
      hint:"One carries the weight of a military-style order, the other is everyday workplace guidance."}
   ,{type:"fb", s:"チームの結果(けっか)を上司(じょうし)に{1}する時間(じかん)です。",
      a:["報告(ほうこく)する"],

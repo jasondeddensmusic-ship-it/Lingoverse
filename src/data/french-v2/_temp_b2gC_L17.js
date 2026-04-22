@@ -67,7 +67,7 @@ const LESSON_17 = {id:"frv2_b2gC_l17", title:"Vie urbaine et architecture", icon
 
 {type:"mc",
  q:"Que signifie 's'incruster' en français familier ?",
- opts:["Arriver sans invitation et refuser de partir","Décorer un mur","Construire un bâtiment","Ouvrir une lettre"],
+ opts:["Ouvrir une lettre","Arriver sans invitation et refuser de partir","Décorer un mur","Construire un bâtiment"],
  ans:"Arriver sans invitation et refuser de partir",
  hint:"From incrustation (embedding). To embed yourself somewhere uninvited."},
 
@@ -87,7 +87,7 @@ const LESSON_17 = {id:"frv2_b2gC_l17", title:"Vie urbaine et architecture", icon
 
 {type:"mc",
  q:"Quel objet était autrefois indispensable sur tout bureau français ?",
- opts:["le coupe-papier","le grille-pain","le pied-à-terre","le non-fumeur"],
+ opts:["le pied-à-terre","le non-fumeur","le coupe-papier","le grille-pain"],
  ans:"le coupe-papier",
  hint:"Before email replaced letters. A blunt blade for opening envelopes."},
 
@@ -105,7 +105,7 @@ const LESSON_17 = {id:"frv2_b2gC_l17", title:"Vie urbaine et architecture", icon
 
 {type:"mc",
  q:"Depuis quelle année est-il interdit de fumer dans les lieux publics en France ?",
- opts:["2007","1999","2015","1985"],
+ opts:["1999","2015","1985","2007"],
  ans:"2007",
  hint:"A major cultural shift. Before this law, smoking in cafes was iconic French behavior."}
 

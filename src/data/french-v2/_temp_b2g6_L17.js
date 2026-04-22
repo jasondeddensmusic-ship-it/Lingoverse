@@ -80,7 +80,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot exprime une joie collective et festive ?",
-     opts:["l'allégresse","la mélancolie","la consternation","l'effroi"],
+     opts:["l'effroi","l'allégresse","la mélancolie","la consternation"],
      ans:"l'allégresse",
      hint:"From Italian, meaning great collective joy. Think of celebrations in the streets."},
 
@@ -131,7 +131,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot moderne remplace souvent 'le sentiment' en psychologie ?",
-     opts:["le ressenti","la perplexité","la véhémence","la consternation"],
+     opts:["la véhémence","la consternation","le ressenti","la perplexité"],
      ans:"le ressenti",
      hint:"A modern French noun for subjective emotional experience, now preferred in media and psychology."},
 

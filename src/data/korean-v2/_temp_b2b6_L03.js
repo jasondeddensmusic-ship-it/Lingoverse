@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 3: Poetry, Time, and City Life
+// Korean B2. Batch 6, Lesson 3: Poetry, Time, and City Life
 // Words: 시, 시각, 시금치, 시기, 시끄럽다, 시나리오, 시내버스, 시대적, 시댁, 시도, 시들다, 시디, 시디롬, 시멘트, 시부모, 시선, 시스템, 시아버지, 시야, 시어머니
 
 const LESSON_3 = {
@@ -143,7 +143,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"남편 쪽 부모님을 뭐라고 하나요?",
-     opts:["시부모","장인","처가","외가"],
+     opts:["외가","시부모","장인","처가"],
      ans:"시부모",
      hint:"The prefix for husband's-side family members is 시-. What is the combined word for both parents?"},
 

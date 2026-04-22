@@ -92,7 +92,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Que signifie 'mettre de cote' ?",
-     opts:["economiser","jeter","partager","depenser"],
+     opts:["depenser","economiser","jeter","partager"],
      ans:"economiser",
      hint:"To put something aside, especially money. Think of saving for a rainy day."},
 
@@ -137,7 +137,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quelle conjonction prend TOUJOURS le subjonctif ?",
-     opts:["avant meme que","au point que","en sorte que","du fait de"],
+     opts:["en sorte que","du fait de","avant meme que","au point que"],
      ans:"avant meme que",
      hint:"Expressing 'even before' something happens. Time conjunctions with 'a...' need subjunctive."},
 

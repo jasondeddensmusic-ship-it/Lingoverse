@@ -1,4 +1,4 @@
-// Batch 3 — Unit 08, Lesson 2: Contrattare e comprare (Bargaining & Buying)
+// Batch 3. Unit 08, Lesson 2: Contrattare e comprare (Bargaining & Buying)
 const BATCH3_U08_L2 = {
   id:"itv2_u08l_b3_2", title:"Contrattare e comprare", icon:"\uD83D\uDCB0", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U08_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'conveniente' actually mean in Italian?",
-     opts:["Convenient (easy to reach)","Affordable / good value","Comfortable to wear","Traditional and classic"],
+     opts:["Affordable / good value","Comfortable to wear","Traditional and classic","Convenient (easy to reach)"],
      ans:"Affordable / good value",
      hint:"This is a false friend. It does NOT mean 'convenient.' For that, Italians say 'comodo' or 'pratico.'"},
 
@@ -116,7 +116,7 @@ const BATCH3_U08_L2 = {
      sSrc:"Is anything on {1}?"},
 
     {type:"mc", q:"Why do Italian shops now charge for plastic bags?",
-     opts:["To make extra profit from customers","A 2011 environmental law mandates the fee","Bags were always expensive in Italy","Only certain exclusive stores charge for them"],
+     opts:["Only certain exclusive stores charge for them","To make extra profit from customers","A 2011 environmental law mandates the fee","Bags were always expensive in Italy"],
      ans:"A 2011 environmental law mandates the fee",
      hint:"This l... significantly reduced plastic bag use. Most Italians now bring reusable bags or pay a few cents for biodegradable ones."},
 
@@ -127,7 +127,7 @@ const BATCH3_U08_L2 = {
      sSrc:"Shall I {1} it? It is a gift."},
 
     {type:"mc", q:"What is the difference between 'caro' and 'economico'?",
-     opts:["Caro = new, economico = used","Caro = expensive, economico = inexpensive","They mean the same thing","Caro = small, economico = large"],
+     opts:["They mean the same thing","Caro = small, economico = large","Caro = new, economico = used","Caro = expensive, economico = inexpensive"],
      ans:"Caro = expensive, economico = inexpensive",
      hint:"They are opposites on the price scale. 'C...' also means 'dear' (beloved). 'E...' is a false friend meaning cheap, not 'economic.'"}
   ,{type:"match",pairs:[{trg:"conveniente",src:"affordable / good value"},{trg:"la busta",src:"the bag / envelope"},{trg:"la fattura",src:"the invoice / formal receipt"},{trg:"incartare",src:"to wrap (a package)"}]}]

@@ -1,4 +1,4 @@
-// Batch 3 — Unit 25 Lesson 2 (Economy: Fiscal Policy & Banking)
+// Batch 3. Unit 25 Lesson 2 (Economy: Fiscal Policy & Banking)
 const BATCH3_L_2 = {
   id:"itv2_u25l_b3_2", title:"Politica fiscale e banche", icon:"🏦", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Quanto costa all'Italia l'evasione fiscale ogni anno, secondo le stime?",
-     opts:["Circa 10 miliardi","Circa 50 miliardi","Oltre 100 miliardi","Circa 500 miliardi"],
+     opts:["Oltre 100 miliardi","Circa 500 miliardi","Circa 10 miliardi","Circa 50 miliardi"],
      ans:"Oltre 100 miliardi",
      hint:"The shadow economy is massive. This staggering amount could fund major public services if collected."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e lo 'spread' nel contesto finanziario italiano?",
-     opts:["La differenza tra entrate e uscite dello Stato","Il tasso di inflazione annuale misurato dall'ISTAT","La differenza di rendimento tra titoli di Stato italiani e tedeschi","Il costo medio dei mutui nelle banche italiane"],
+     opts:["Il tasso di inflazione annuale misurato dall'ISTAT","La differenza di rendimento tra titoli di Stato italiani e tedeschi","Il costo medio dei mutui nelle banche italiane","La differenza tra entrate e uscite dello Stato"],
      ans:"La differenza di rendimento tra titoli di Stato italiani e tedeschi",
      hint:"The gap between Italian and German government bond yields. When it rises, markets are signaling less confidence in Italy."},
 
@@ -123,7 +123,7 @@ const BATCH3_L_2 = {
      opts:["Articolo 1","Articolo 11","Articolo 47","Articolo 139"],
      ans:"Articolo 47",
      hint:"This article declares that the Republic encourages and protects savings. A unique constitutional guarantee reflecting postwar values."}
-  ,{type:"match",pairs:[{trg:"la banca centrale",src:"the central bank"},{trg:"il patrimonio",src:"the wealth / assets / estate"},{trg:"il risparmio",src:"the savings"},{trg:"il titolo di Stato",src:"the government bond"},{trg:"il fallimento bancario",src:"the bank failure"}]},{type:"mc",q:"How do you say \"tax evasion\" in Italian?",opts:["l'evasione fiscale","la finestra","il tavolo","la bicicletta"],ans:"l'evasione fiscale",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"la banca centrale",src:"the central bank"},{trg:"il patrimonio",src:"the wealth / assets / estate"},{trg:"il risparmio",src:"the savings"},{trg:"il titolo di Stato",src:"the government bond"},{trg:"il fallimento bancario",src:"the bank failure"}]},{type:"mc",q:"How do you say \"tax evasion\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'evasione fiscale"],ans:"l'evasione fiscale",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Per comprare casa ho chiesto un {1} alla banca.",a:["mutuo"],opts:["mutuo","prestito","risparmio","patrimonio"],hint:"A long-term bank loan specifically used to purchase property.",sSrc:"To buy a house I asked the bank for a {1}."}]
 };
 export default BATCH3_L_2;

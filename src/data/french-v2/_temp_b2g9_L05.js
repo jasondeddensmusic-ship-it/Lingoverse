@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 5: Expressions et Locutions
+// French B2 Gap Batch 9. Lesson 5: Expressions et Locutions
 // Fixed expressions and adverbial phrases
 
 const LESSON_5 = {id:"frv2_b2g9_l5", title:"Expressions et Locutions", icon:"💬", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_5 = {id:"frv2_b2g9_l5", title:"Expressions et Locutions", icon:"�
    exampleSrc:"A: She works night and day to succeed.\nB: I hope she takes care of her health.",
    funFact:"English says 'day and night' but French says 'nuit et jour', putting night first."},
 
-  {type:"mc", q:"'Dans l'absolu' est suivi le plus souvent de:", opts:["Un compliment","Une nuance ou une restriction","Un ordre","Une question"], ans:"Une nuance ou une restriction",
+  {type:"mc", q:"'Dans l'absolu' est suivi le plus souvent de:", opts:["Une nuance ou une restriction","Un ordre","Une question","Un compliment"], ans:"Une nuance ou une restriction",
    hint:"You state the absolute truth, then add 'but in reality...' as a contrast."},
 
   {type:"teach", trg:"par moments", src:"at times, now and then", pos:"adv", gender:null,
@@ -103,7 +103,7 @@ const LESSON_5 = {id:"frv2_b2g9_l5", title:"Expressions et Locutions", icon:"�
    exampleSrc:"A: In contrast with last year, the results are excellent.\nB: The team did remarkable work.",
    funFact:"French academic writing relies heavily on contrast markers like this one."},
 
-  {type:"mc", q:"'Pas le moins du monde' exprime:", opts:["Un accord total","Un désaccord modéré","Une négation très forte","Une hésitation"], ans:"Une négation très forte",
+  {type:"mc", q:"'Pas le moins du monde' exprime:", opts:["Un désaccord modéré","Une négation très forte","Une hésitation","Un accord total"], ans:"Une négation très forte",
    hint:"Not the least of the world. This is the strongest way to say 'absolutely not'."},
 
   {type:"fb", s:"{1} du festival, des ateliers étaient organisés.", a:["En marge"], opts:["En marge","Par suite","Par contraste","Là-dessus"],

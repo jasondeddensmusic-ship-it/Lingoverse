@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"特派(とくは)",src:"scoop"},{trg:"社説(しゃせつ)",src:"editorial"},{trg:"コメンテーター",src:"commentator"},{trg:"世論(せろん)",src:"public opinion"}]},
 
-    {type:"mc", q:"Which word means headline?", opts:["見出(みだ)し","アンケート","社説(しゃせつ)","電波(でんぱ)"], ans:"見出(みだ)し",
+    {type:"mc", q:"Which word means headline?", opts:["電波(でんぱ)","見出(みだ)し","アンケート","社説(しゃせつ)"], ans:"見出(みだ)し",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"特集(とくしゅう)",src:"special feature"}]}]
 };

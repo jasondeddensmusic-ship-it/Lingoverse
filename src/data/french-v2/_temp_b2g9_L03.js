@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 3: Santé et Corps
+// French B2 Gap Batch 9. Lesson 3: Santé et Corps
 // Health and body vocabulary
 
 const LESSON_3 = {id:"frv2_b2g9_l3", title:"Santé et Corps", icon:"🏥", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_3 = {id:"frv2_b2g9_l3", title:"Santé et Corps", icon:"🏥", xp:15
    exampleSrc:"A: He has very expressive facial features.\nB: You can read his emotions on his face.",
    funFact:"A physionomiste in French is someone who remembers faces well, often a nightclub bouncer."},
 
-  {type:"mc", q:"Le paludisme est le nom français pour:", opts:["La grippe","Le cancer","La malaria","Le diabète"], ans:"La malaria",
+  {type:"mc", q:"Le paludisme est le nom français pour:", opts:["La malaria","Le diabète","La grippe","Le cancer"], ans:"La malaria",
    hint:"The French word comes from Latin palus (swamp), where mosquitoes breed."},
 
   {type:"teach", trg:"la jointure", src:"joint (body)", pos:"noun", gender:"f",
@@ -123,7 +123,7 @@ const LESSON_3 = {id:"frv2_b2g9_l3", title:"Santé et Corps", icon:"🏥", xp:15
     {trg:"la malformation", src:"malformation"}
   ]},
 
-  {type:"mc", q:"Un physionomiste est une personne qui:", opts:["Étudie la physique","Se souvient bien des visages","Fait de la gymnastique","Dessine des portraits"], ans:"Se souvient bien des visages",
+  {type:"mc", q:"Un physionomiste est une personne qui:", opts:["Dessine des portraits","Étudie la physique","Se souvient bien des visages","Fait de la gymnastique"], ans:"Se souvient bien des visages",
    hint:"Physionomie means facial features. Someone good at remembering them is a..."},
 
   {type:"fb", s:"La tension dans la salle était {1}.", a:["palpable"], opts:["palpable","phosphorescent","physiologique","phonétique"],

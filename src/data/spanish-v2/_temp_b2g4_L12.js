@@ -84,7 +84,7 @@ const LESSON_12 = {id:"esv2_b2g4_l12",title:"Sociedad y desigualdad",icon:"⚖�
  exampleSrc:"A: The centralization of government in Madrid generates debate.\nB: Some regions demand more autonomy.",
  funFact:"Spain's 17 autonomous communities were created partly to counter centuries of centralización."},
 
-{type:"mc",q:"Un 'desajuste' entre oferta y demanda significa:",opts:["Que no están equilibradas","Que funcionan perfectamente","Que son idénticas","Que no existen"],ans:"Que no están equilibradas",hint:"Think about two things that should match but do not fit together properly."},
+{type:"mc",q:"Un 'desajuste' entre oferta y demanda significa:",opts:["Que no existen","Que no están equilibradas","Que funcionan perfectamente","Que son idénticas"],ans:"Que no están equilibradas",hint:"Think about two things that should match but do not fit together properly."},
 
 {type:"teach",trg:"encuestar",src:"to survey / to poll",pos:"verb",gender:null,
  note:"Regular -ar verb. To conduct a survey or poll.\nNoun: la encuesta (survey).",

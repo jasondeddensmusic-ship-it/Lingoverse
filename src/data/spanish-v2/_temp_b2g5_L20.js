@@ -84,7 +84,7 @@ const LESSON_20 = {id:"esv2_b2g5_l20",title:"Palabras para dominar",icon:"🎯",
  exampleSrc:"A: She leads a very sporty lifestyle.\nB: She runs, swims, and plays tennis every week.",
  funFact:"'Deportivo' as a noun means a sports car. As a proper noun, Deportivo de La Coruña is a famous Spanish club."},
 
-{type:"mc",q:"¿Cuál es la diferencia entre 'la cólera' y 'el cólera'?",opts:["'La cólera' es ira, 'el cólera' es la enfermedad","Son exactamente lo mismo","'El cólera' es ira, 'la cólera' es la enfermedad","No existe 'el cólera'"],ans:"'La cólera' es ira, 'el cólera' es la enfermedad",hint:"The gender of the article changes the meaning completely: one is an emotion, the other a disease."},
+{type:"mc",q:"¿Cuál es la diferencia entre 'la cólera' y 'el cólera'?",opts:["No existe 'el cólera'","'La cólera' es ira, 'el cólera' es la enfermedad","Son exactamente lo mismo","'El cólera' es ira, 'la cólera' es la enfermedad"],ans:"'La cólera' es ira, 'el cólera' es la enfermedad",hint:"The gender of the article changes the meaning completely: one is an emotion, the other a disease."},
 
 {type:"fb",s:"La razón por {1} no vine fue una emergencia familiar.",a:["la cual"],opts:["la cual","el cual","lo que","que es"],hint:"A formal relative pronoun meaning 'which', used after prepositions.",sSrc:"The reason for {1} I didn't come was a family emergency."},
 
@@ -92,7 +92,7 @@ const LESSON_20 = {id:"esv2_b2g5_l20",title:"Palabras para dominar",icon:"🎯",
 
 {type:"fb",s:"Hay que llamar al {1} porque el grifo no para de gotear.",a:["fontanero"],opts:["fontanero","goleador","gastrónomo","acupuntor"],hint:"The professional who fixes water pipes, taps, and plumbing.",sSrc:"We need to call the {1} because the tap won't stop dripping."},
 
-{type:"mc",q:"¿Por qué 'el día' es masculino aunque termina en '-a'?",opts:["Es una excepción: algunos sustantivos en -a son masculinos","Porque es una palabra corta","Porque viene del inglés","Porque se refiere al sol"],ans:"Es una excepción: algunos sustantivos en -a son masculinos",hint:"Like 'el mapa', 'el problema', and 'el tema', this word breaks the usual pattern."}
+{type:"mc",q:"¿Por qué 'el día' es masculino aunque termina en '-a'?",opts:["Porque viene del inglés","Porque se refiere al sol","Es una excepción: algunos sustantivos en -a son masculinos","Porque es una palabra corta"],ans:"Es una excepción: algunos sustantivos en -a son masculinos",hint:"Like 'el mapa', 'el problema', and 'el tema', this word breaks the usual pattern."}
 ]};
 
 export default LESSON_20;

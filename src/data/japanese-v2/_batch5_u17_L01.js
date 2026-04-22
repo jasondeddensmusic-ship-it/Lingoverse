@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"夜(よる)赤(あか)ちゃんに{1}て眠(ねむ)れませんでした。\n(The baby cried at night and I could not sleep.)", a:"泣(な)かれ", opts:["泣(な)かれ","泣(な)いて","泣(な)き","泣(な)く"], sSrc:"The baby cried at night and I could not sleep.",
      hint:"The adversity passive of 泣(な)く (to cry). Group 1 passive: change く to か + れる."},
 
-    {type:"mc", q:"Which is an adversity passive?", opts:["隣(となり)に騒(さわ)がれて困(こま)った","先生(せんせい)に褒(ほ)められた","友達(ともだち)にプレゼントをもらった","お母(かあ)さんに作(つく)ってもらった"], ans:"隣(となり)に騒(さわ)がれて困(こま)った",
+    {type:"mc", q:"Which is an adversity passive?", opts:["お母(かあ)さんに作(つく)ってもらった","隣(となり)に騒(さわ)がれて困(こま)った","先生(せんせい)に褒(ほ)められた","友達(ともだち)にプレゼントをもらった"], ans:"隣(となり)に騒(さわ)がれて困(こま)った",
      hint:"Look for the pattern where someone's action caused the speaker trouble or inconvenience."},
 
     {type:"teach", trg:"驚(おどろ)かされる", src:"to be surprised / startled (by someone)", pos:"verb", gender:null,
@@ -97,7 +97,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"犯人(はんにん)に{1}て警察(けいさつ)は困(こま)っています。\n(The criminal escaped and the police are in trouble.)", a:"逃(に)げられ", opts:["逃(に)げられ","逃(に)げて","逃(に)げ","逃(に)げる"], sSrc:"The criminal escaped and the police are in trouble.",
      hint:"Adversity passive of 逃(に)げる (to escape). Group 2 passive: stem + られる."},
 
-    {type:"mc", q:"迷惑(めいわく)をかける means:", opts:["To cause trouble for someone","To receive trouble","To avoid trouble","To apologize for trouble"], ans:"To cause trouble for someone",
+    {type:"mc", q:"迷惑(めいわく)をかける means:", opts:["To avoid trouble","To apologize for trouble","To cause trouble for someone","To receive trouble"], ans:"To cause trouble for someone",
      hint:"かける here means to impose. Combined with the noun for nuisance/bother."},
 
     {type:"teach", trg:"うんざりする", src:"to be fed up / to be sick of", pos:"verb", gender:null,
@@ -106,10 +106,10 @@ const BATCH5_L_1 = {
      exampleSrc:"A: I am fed up with rain every day.\nB: It is the rainy season, after all.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
      funFact:"うんざり is another gitaigo (mimetic word). It suggests a heavy, drooping feeling of exhaustion. The rainy season (梅雨(つゆ), June-July) makes many Japanese people うんざり. Unlike イライラ (sharp irritation), うんざり is a slow, accumulated weariness."},
 
-    {type:"mc", q:"父(ちち)に死(し)なれた expresses:", opts:["Grief that one's father passed away","Father killed someone","Father is alive","Father was born"], ans:"Grief that one's father passed away",
+    {type:"mc", q:"父(ちち)に死(し)なれた expresses:", opts:["Father killed someone","Father is alive","Father was born","Grief that one's father passed away"], ans:"Grief that one's father passed away",
      hint:"The adversity passive of 死(し)ぬ (to die) expresses that someone's death affected the speaker deeply."}
   ,{type:"match",pairs:[{trg:"騒(さわ)がれる",src:"to be made noisy (by someone)"},{trg:"困(こま)る",src:"to be troubled / to be in difficulty"},{trg:"汚(よご)される",src:"to have something dirtied (by someone)"},{trg:"イライラする",src:"to be irritated / to be frustrated"},{trg:"迷惑(めいわく)",src:"nuisance / bother / annoyance"},{trg:"仕方(しかた)がない",src:"it cannot be helped / there is no choice"}]},{type:"match",pairs:[{trg:"驚(おどろ)かされる",src:"to be surprised / startled (by someone)"},{trg:"踏(ふ)みつけられる",src:"to have something stepped on"},{trg:"うんざりする",src:"to be fed up / to be sick of"}]},
-  {type:"fb", s:"電車(でんしゃ)が遅(おく)れて約束(やくそく)の時間(じかん)に間(ま)に合(あ)わず、本当(ほんとう)に{1}ました。", a:["困(こま)る"], opts:["困(こま)る","逃(に)げられる","騒(さわ)がれる","泣(な)かれる"], hint:"The verb for being in a difficult or troubling situation with no easy solution.", sSrc:"The train was delayed and I couldn't make it on time — I was really in a {1} situation."},
+  {type:"fb", s:"電車(でんしゃ)が遅(おく)れて約束(やくそく)の時間(じかん)に間(ま)に合(あ)わず、本当(ほんとう)に{1}ました。", a:["困(こま)る"], opts:["困(こま)る","逃(に)げられる","騒(さわ)がれる","泣(な)かれる"], hint:"The verb for being in a difficult or troubling situation with no easy solution.", sSrc:"The train was delayed and I couldn't make it on time. I was really in a {1} situation."},
   {type:"fb", s:"電車(でんしゃ)の中(なか)で大声(おおごえ)で話(はな)すのは{1}です。", a:["迷惑(めいわく)"], opts:["迷惑(めいわく)","仕方(しかた)がない","イライラする","困(こま)る"], hint:"The noun describing behaviour that causes trouble or annoyance to others.", sSrc:"Speaking loudly on the train is a {1}."}
 ]
 };

@@ -1,4 +1,4 @@
-// L09: Gezondheid en Welzijn — Health and Wellbeing
+// L09: Gezondheid en Welzijn. Health and Wellbeing
 const LESSON_9 = {
   id:"nlv2_b2gC_l9", title:"Gezondheid en Welzijn", icon:"\u{1F3E5}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"In Nederland ga je eerst naar de huisarts voordat je:",
-     opts:["Naar de apotheek gaat","Een specialist kunt zien","Naar de supermarkt gaat","Een recept kunt lezen"],
+     opts:["Een specialist kunt zien","Naar de supermarkt gaat","Een recept kunt lezen","Naar de apotheek gaat"],
      ans:"Een specialist kunt zien",
      hint:"The Dutch GP serves as a gatekeeper. You need their referral to see a s...."},
 
@@ -95,7 +95,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Welk artikel hoort bij 'kuiken'?",
-     opts:["de","het","een de-woord","geen artikel"],
+     opts:["geen artikel","de","het","een de-woord"],
      ans:"het",
      hint:"Baby animals in Dutch are often het-words: het kuiken, het lam, het veulen."},
 

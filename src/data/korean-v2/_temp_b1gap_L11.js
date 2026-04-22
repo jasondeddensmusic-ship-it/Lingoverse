@@ -1,4 +1,4 @@
-// Korean V2 B1 Gap Lesson 11 — Speech, Communication, and Reference
+// Korean V2 B1 Gap Lesson 11. Speech, Communication, and Reference
 // 20 teach cards + interleaved quizzes. Max 30 steps.
 
 const LESSON_11 = {
@@ -115,7 +115,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"갑자기 길에서 친구가 ___.",
-     opts:["나타냈어요","가리켰어요","나타났어요","대했어요"],
+     opts:["가리켰어요","나타났어요","대했어요","나타냈어요"],
      ans:"나타났어요",
      hint:"A friend showed up suddenly on the street. Which is the intransitive appear verb?"},
 

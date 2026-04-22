@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Che cos'e la revisione paritaria nella ricerca scientifica?",
-     opts:["Un tipo di esperimento condotto tra pari","La valutazione di un articolo da parte di esperti prima della pubblicazione","Una revisione del bilancio di un laboratorio","Un metodo per selezionare i campioni"],
+     opts:["La valutazione di un articolo da parte di esperti prima della pubblicazione","Una revisione del bilancio di un laboratorio","Un metodo per selezionare i campioni","Un tipo di esperimento condotto tra pari"],
      ans:"La valutazione di un articolo da parte di esperti prima della pubblicazione",
      hint:"Before a scientific paper is published, anonymous experts in the same field evaluate its quality, methodology, and conclusions."},
 

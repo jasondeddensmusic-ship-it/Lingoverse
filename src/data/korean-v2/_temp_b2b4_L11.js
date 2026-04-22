@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 11: Staying and Writing
+// Korean B2. Batch 4, Lesson 11: Staying and Writing
 // Words: 묵다, 묶이다, 문구, 문득, 문밖, 문서, 문자, 문제되다, 문학적, 문화재, 문화적, 묻히다, 물가, 물결, 물기, 물러나다, 물리학, 물질, 물질적, 물체
 
 const LESSON_11 = {
@@ -125,7 +125,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'물가'에는 두 가지 뜻이 있는데, 다른 뜻은?",
-     opts:["물 근처, 물이 있는 곳","물이 깊은 곳","물이 맑은 곳","물이 없는 곳"],
+     opts:["물이 없는 곳","물 근처, 물이 있는 곳","물이 깊은 곳","물이 맑은 곳"],
      ans:"물 근처, 물이 있는 곳",
      hint:"Besides meaning prices (物價), this word with different Hanja characters means the waterside (水邊)."},
 

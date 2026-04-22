@@ -80,7 +80,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel objet sert a ouvrir les enveloppes ?",
-     opts:["un coupe-papier","un grille-pain","un coffre-fort","un compte-gouttes"],
+     opts:["un compte-gouttes","un coupe-papier","un grille-pain","un coffre-fort"],
      ans:"un coupe-papier",
      hint:"A blade that 'cuts paper'. A desk tool from the pre-email era."},
 
@@ -113,7 +113,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Combien de lettres l'alphabet francais comporte-t-il ?",
-     opts:["vingt-six","vingt-quatre","vingt-huit","trente"],
+     opts:["vingt-huit","trente","vingt-six","vingt-quatre"],
      ans:"vingt-six",
      hint:"Same number as the English alphabet, plus diacritics."},
 

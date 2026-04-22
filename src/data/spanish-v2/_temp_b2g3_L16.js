@@ -32,13 +32,13 @@ const LESSON_16 = {id:"esv2_b2g3_l16", title:"Sustantivos abstractos: procesos",
 
   {type:"teach", trg:"la desviación", src:"the deviation / detour", pos:"noun", gender:"f", note:"Moving away from the expected path or standard.\nDesviación típica = standard deviation.", example:"A: Hubo una desviación importante del presupuesto original.\nB: Gastamos un veinte por ciento más de lo previsto.", exampleSrc:"A: There was a significant deviation from the original budget.\nB: We spent twenty percent more than planned.", funFact:"In statistics, desviación típica is standard deviation. The concept of straying from the average applies to numbers and roads alike."},
 
-  {type:"mc", q:"¿Qué es la autocrítica?", opts:["La evaluación honesta de los propios errores","La crítica a los demás","Un tipo de arte abstracto","Una forma de elogio"], ans:"La evaluación honesta de los propios errores", hint:"Auto- means self. It's the act of honestly examining your own shortcomings."},
+  {type:"mc", q:"¿Qué es la autocrítica?", opts:["Una forma de elogio","La evaluación honesta de los propios errores","La crítica a los demás","Un tipo de arte abstracto"], ans:"La evaluación honesta de los propios errores", hint:"Auto- means self. It's the act of honestly examining your own shortcomings."},
 
   {type:"match", pairs:[{trg:"abstracción", src:"abstraction"},{trg:"autoevaluación", src:"self-assessment"},{trg:"eclosión", src:"emergence"},{trg:"efusión", src:"outpouring"},{trg:"depuración", src:"purification"}]},
 
   {type:"fb", s:"La {1} es fundamental para mejorar como profesional.", a:["autocrítica"], opts:["autocrítica","abstracción","efusión","eclosión"], hint:"The honest practice of examining and critiquing your own performance.", sSrc:"{1} is fundamental for improving as a professional."},
 
-  {type:"mc", q:"'La eclosión de un movimiento social' describe...", opts:["Su aparición repentina y vigorosa","Su desaparición gradual","Su organización interna","Su financiación"], ans:"Su aparición repentina y vigorosa", hint:"Like a chick breaking out of an egg, this word describes sudden, energetic emergence."},
+  {type:"mc", q:"'La eclosión de un movimiento social' describe...", opts:["Su organización interna","Su financiación","Su aparición repentina y vigorosa","Su desaparición gradual"], ans:"Su aparición repentina y vigorosa", hint:"Like a chick breaking out of an egg, this word describes sudden, energetic emergence."},
 
   {type:"fb", s:"La {1} presupuestaria para hospitales ha aumentado este año.", a:["dotación"], opts:["dotación","depuración","desviación","abstracción"], hint:"The allocation of budget resources assigned to a specific purpose.", sSrc:"The budget {1} for hospitals has increased this year."}
 ]};

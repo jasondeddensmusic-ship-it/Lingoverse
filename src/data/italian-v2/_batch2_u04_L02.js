@@ -1,4 +1,4 @@
-// Unit 04 Batch 2 — Lesson 2: Paying, Tasting & Expressing Preferences
+// Unit 04 Batch 2. Lesson 2: Paying, Tasting & Expressing Preferences
 const BATCH2_U04_L2 = {
   id:"itv2_u04l_b2_2", title:"Pagare e scegliere", icon:"\ud83d\udcb6", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U04_L2 = {
      sSrc:"Can I {1} by card?"},
 
     {type:"mc", q:"Why must you keep the receipt in Italy?",
-     opts:["Tax police can fine you without it","It is a tradition","For returns only","Restaurants require it"],
+     opts:["Restaurants require it","Tax police can fine you without it","It is a tradition","For returns only"],
      ans:"Tax police can fine you without it",
      hint:"Italian law combats t... evasion by requiring both shops and customers to handle the 'scontrino' properly."},
 
@@ -122,7 +122,7 @@ const BATCH2_U04_L2 = {
     ]},
 
     {type:"mc", q:"What does 'dolce o salato?' ask?",
-     opts:["Sweet or savory?","Hot or cold?","Big or small?","Here or there?"],
+     opts:["Big or small?","Here or there?","Sweet or savory?","Hot or cold?"],
      ans:"Sweet or savory?",
      hint:"The fundamental Italian snack question. It divides the food world into two basic taste categories."},
 
@@ -133,7 +133,7 @@ const BATCH2_U04_L2 = {
      sSrc:"The coffee is {1} hot. Wait a moment."},
 
     {type:"mc", q:"What is an 'amaro' as a noun?",
-     opts:["A bitter digestive liqueur","A type of coffee","A dessert","A salad"],
+     opts:["A type of coffee","A dessert","A salad","A bitter digestive liqueur"],
      ans:"A bitter digestive liqueur",
      hint:"Drunk after meals to aid digestion. Famous brands include Fernet-Branca and Averna. Intentionally b...."}
   ,{type:"match",pairs:[{trg:"la carta",src:"the card (credit/debit)"},{trg:"preferire",src:"to prefer"},{trg:"delizioso",src:"delicious"},{trg:"dolce",src:"sweet (taste)"},{trg:"amaro",src:"bitter"},{trg:"salato",src:"salty / savory"}]},{type:"match",pairs:[{trg:"abbastanza",src:"enough / quite"}]}]

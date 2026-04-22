@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 19 — Language and Expression
+// French B2 Gap Lesson 19. Language and Expression
 const LESSON_19 = {id:"frv2_b2g5_l19", title:"Langue et expression", icon:"💬", xp:15, board:true, steps:[
   {type:"intro", title:"Langue et expression",
    desc:"Explore vocabulary about language itself, communication styles, and linguistic phenomena at B2 level.",
@@ -81,7 +81,7 @@ const LESSON_19 = {id:"frv2_b2g5_l19", title:"Langue et expression", icon:"💬"
    funFact:"From 'ethnologie' + '-iquement'. One of the longest French adverbs at 19 letters."},
 
   {type:"mc", q:"Un 'diplodocus' en argot désigne quelqu'un qui est:",
-   opts:["Démodé ou dépassé","Très intelligent","Très grand et mince","Très rapide"],
+   opts:["Très rapide","Démodé ou dépassé","Très intelligent","Très grand et mince"],
    ans:"Démodé ou dépassé",
    hint:"Like the extinct dinosaur: someone who belongs to another era"},
 
@@ -99,7 +99,7 @@ const LESSON_19 = {id:"frv2_b2g5_l19", title:"Langue et expression", icon:"💬"
   ]},
 
   {type:"mc", q:"Que signifie 'le dixième' quand on parle de Paris?",
-   opts:["Le dixième arrondissement","Le dixième étage","La dixième rue","Le dixième café"],
+   opts:["La dixième rue","Le dixième café","Le dixième arrondissement","Le dixième étage"],
    ans:"Le dixième arrondissement",
    hint:"Paris is divided into 20 numbered districts, each with its own character"},
 
@@ -114,7 +114,7 @@ const LESSON_19 = {id:"frv2_b2g5_l19", title:"Langue et expression", icon:"💬"
    hint:"The room was made bigger to accommodate more guests"},
 
   {type:"mc", q:"La cleptomanie est:",
-   opts:["Un trouble psychologique compulsif","Un type de vol professionnel","Une maladie physique","Un style d'écriture"],
+   opts:["Un type de vol professionnel","Une maladie physique","Un style d'écriture","Un trouble psychologique compulsif"],
    ans:"Un trouble psychologique compulsif",
    hint:"A recognized psychological condition involving an irresistible urge to steal"}
 ]};

@@ -74,7 +74,7 @@ const BATCH2_U15_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'il riscaldamento autonomo'?",
-     opts:["Automatic heating powered by artificial intelligence","Independent heating controlled by the tenant","Solar-powered heating installed on the roof","Central heating managed by building staff"],
+     opts:["Independent heating controlled by the tenant","Solar-powered heating installed on the roof","Central heating managed by building staff","Automatic heating powered by artificial intelligence"],
      ans:"Independent heating controlled by the tenant",
      hint:"'Autonomo' means i.... Unlike centralized h..., you decide when and how much to heat your own apartment."},
 
@@ -93,7 +93,7 @@ const BATCH2_U15_L1 = {
     ]},
 
     {type:"mc", q:"What is the difference between 'manutenzione ordinaria' and 'straordinaria'?",
-     opts:["Ordinaria is free, straordinaria costs money","Ordinaria is indoor, straordinaria is outdoor only","Ordinaria is routine, straordinaria is major work","Ordinaria is for new buildings, straordinaria for old ones"],
+     opts:["Ordinaria is indoor, straordinaria is outdoor only","Ordinaria is routine, straordinaria is major work","Ordinaria is for new buildings, straordinaria for old ones","Ordinaria is free, straordinaria costs money"],
      ans:"Ordinaria is routine, straordinaria is major work",
      hint:"R... tasks (painting, small fixes) fall on the tenant. M... w... (structural, systems) is the landlord's responsibility."},
 
@@ -104,7 +104,7 @@ const BATCH2_U15_L1 = {
      sSrc:"I need to file a {1} with the gas provider."},
 
     {type:"mc", q:"What tax benefit do Italian home renovations offer?",
-     opts:["Complete refund of all renovation costs","Up to 50% tax deduction spread over 10 years","Free government-funded construction workers","Zero VAT on all building materials purchased"],
+     opts:["Zero VAT on all building materials purchased","Complete refund of all renovation costs","Up to 50% tax deduction spread over 10 years","Free government-funded construction workers"],
      ans:"Up to 50% tax deduction spread over 10 years",
      hint:"'Detrazioni fiscali' make r... much more affordable. The percentage increases to 65% for energy efficiency improvements."},
 
@@ -115,7 +115,7 @@ const BATCH2_U15_L1 = {
      sSrc:"Did you do the gas {1} to your name?"},
 
     {type:"mc", q:"What does 'l'allacciamento' mean for a new apartment?",
-     opts:["The interior decoration and furnishing","The physical connection to the utility network","The legal registration of the property","The insurance policy for the building"],
+     opts:["The legal registration of the property","The insurance policy for the building","The interior decoration and furnishing","The physical connection to the utility network"],
      ans:"The physical connection to the utility network",
      hint:"From 'allacciare' (to connect). This hooks your property to gas, water, or electricity infrastructure. It can take weeks."}
   ,{type:"match",pairs:[{trg:"il riscaldamento autonomo",src:"independent heating"},{trg:"la ristrutturazione",src:"the renovation"}]},{type:"mc",q:"How do you say \"connection\" in Italian?",opts:["l'allacciamento","la finestra","il tavolo","la bicicletta"],ans:"l'allacciamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]

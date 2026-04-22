@@ -54,7 +54,7 @@ const LESSON_3 = {
      exampleSrc:"A: Let us adopt this proposal.\nB: No objections.\nA: What do you mean specifically?\nB: I mean we need to change our approach depending on the situation.\nA: I see. That is certainly true.\nB: Yes, I think flexible response is important.",
      funFact:"採用 has two major meanings that share the same logic. 採 (pick/select) + 用 (use). Picking a proposal to use = adoption. Picking a person to use = hiring. During しゅうしょくかつどう (job hunting season), university students anxiously await さいようつうち (hiring notifications) from companies."},
 
-    {type:"mc", q:"けつろんをだす means:", opts:["To postpone a decision","To reject a proposal","To arrive at a final decision","To create a new agenda"], ans:"To arrive at a final decision",
+    {type:"mc", q:"けつろんをだす means:", opts:["To reject a proposal","To arrive at a final decision","To create a new agenda","To postpone a decision"], ans:"To arrive at a final decision",
      hint:"けつろん is the endpoint of deliberation, and だす means to bring out or produce."},
 
     {type:"teach", trg:"いぎ", src:"objection", pos:"noun", gender:null,
@@ -74,7 +74,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"ぎじろく",src:"meeting minutes"},{trg:"しかい",src:"facilitator"},{trg:"ぎだい",src:"agenda item"},{trg:"けつろん",src:"conclusion"}]},
 
-    {type:"mc", q:"In a Japanese meeting, silence after いぎはありませんか means:", opts:["People are confused","The meeting is over","Someone disagrees","Everyone agrees"], ans:"Everyone agrees",
+    {type:"mc", q:"In a Japanese meeting, silence after いぎはありませんか means:", opts:["The meeting is over","Someone disagrees","Everyone agrees","People are confused"], ans:"Everyone agrees",
      hint:"In Japanese consensus culture, not voicing opposition is treated as consent."},
 
     {type:"match", pairs:[{trg:"よさん",src:"budget"},{trg:"たんとう",src:"in charge"},{trg:"さいよう",src:"adoption/hiring"},{trg:"いぎ",src:"objection"}]},

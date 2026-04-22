@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: Well, I'm heading out.\nB: Take care!",
      funFact:"気 (ki, spirit/mind) + をつけて (wo tsukete, attach/apply). Literally 'apply your mind' or 'stay alert.' Japanese parents say this to children leaving for school every morning. It expresses care without being overbearing."},
 
-    {type:"mc", q:"またね is more common than さようなら because:", opts:["It is more polite","It sounds less final","It is newer","It is shorter"], ans:"It sounds less final",
+    {type:"mc", q:"またね is more common than さようなら because:", opts:["It sounds less final","It is newer","It is shorter","It is more polite"], ans:"It sounds less final",
      hint:"Sayounara implies a long or permanent separation that feels too heavy for daily use."},
 
     {type:"teach", trg:"バイバイ", src:"bye-bye", pos:"intj", gender:null,
@@ -116,13 +116,13 @@ const LESSON_6 = {
      hint:"The seasonal farewell used exclusively in late December before the new year arrives.",
      sSrc:"The special December greeting is {1}."},
 
-    {type:"mc", q:"おせわになりました is used when:", opts:["Meeting someone new","Leaving a job or relationship","Ordering food","Answering the phone"], ans:"Leaving a job or relationship",
+    {type:"mc", q:"おせわになりました is used when:", opts:["Answering the phone","Meeting someone new","Leaving a job or relationship","Ordering food"], ans:"Leaving a job or relationship",
      hint:"This phrase thanks someone for all their care and assistance over time."},
 
-    {type:"mc", q:"しつれいします literally means:", opts:["I will be rude","I am sorry","Thank you","Goodbye"], ans:"I will be rude",
+    {type:"mc", q:"しつれいします literally means:", opts:["I am sorry","Thank you","Goodbye","I will be rude"], ans:"I will be rude",
      hint:"The phrase acknowledges the 'rudeness' of entering or leaving someone's space."},
 
-    {type:"mc", q:"Which farewell is best when someone has a cold?", opts:["がんばって","おだいじに","きをつけて","おげんきで"], ans:"おだいじに",
+    {type:"mc", q:"Which farewell is best when someone has a cold?", opts:["おだいじに","きをつけて","おげんきで","がんばって"], ans:"おだいじに",
      hint:"The health-specific farewell used by doctors, nurses, and caring friends."},
   ]
 };

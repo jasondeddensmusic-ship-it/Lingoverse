@@ -123,7 +123,7 @@ const LESSON_3 = {
      sSrc:"Good morning, {1} Rossi."},
 
     {type:"mc", q:"In Italy, who can be called 'dottore'?",
-     opts:["Any university graduate","Only medical doctors","Only PhDs","Only men"],
+     opts:["Only men","Any university graduate","Only medical doctors","Only PhDs"],
      ans:"Any university graduate",
      hint:"This title reflects the Italian value placed on education. It extends far beyond the medical profession."},
 
@@ -142,7 +142,7 @@ const LESSON_3 = {
     ]},
 
     {type:"mc", q:"What is the difference between conoscere and sapere?",
-     opts:["Conoscere = people/places, sapere = facts","They are the same","Conoscere = facts, sapere = people","Conoscere is formal, sapere informal"],
+     opts:["Conoscere = facts, sapere = people","Conoscere is formal, sapere informal","Conoscere = people/places, sapere = facts","They are the same"],
      ans:"Conoscere = people/places, sapere = facts",
      hint:"Italian splits 'to know' into two verbs. One is for acquaintance, the other for information."},
 
@@ -153,7 +153,7 @@ const LESSON_3 = {
      sSrc:"I am {1}, from London."},
 
     {type:"mc", q:"How do you state your profession in Italian?",
-     opts:["Sono + profession (no article)","Sono un + profession","Ho + profession","Faccio il + profession"],
+     opts:["Sono un + profession","Ho + profession","Faccio il + profession","Sono + profession (no article)"],
      ans:"Sono + profession (no article)",
      hint:"With essere, job titles stand alone without any determiner. English 'I am a doctor' loses its 'a' in Italian."},
 

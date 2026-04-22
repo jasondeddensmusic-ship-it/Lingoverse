@@ -80,7 +80,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Comment appelle-t-on un café français qui vend aussi du tabac et des timbres ?",
-     opts:["un café-tabac","un café-concert","un café-crème","un café-hôtel"],
+     opts:["un café-hôtel","un café-tabac","un café-concert","un café-crème"],
      ans:"un café-tabac",
      hint:"Marked by a red diamond sign. You can buy cigarettes, stamps, and lottery tickets there."},
 
@@ -119,7 +119,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel mot désigne des lunettes anciennes sans branches ?",
-     opts:["un binocle","un monocle","une lorgnette","une mappemonde"],
+     opts:["une lorgnette","une mappemonde","un binocle","un monocle"],
      ans:"un binocle",
      hint:"From Latin 'two eyes'. Glasses that perch on the nose without ear pieces."},
 

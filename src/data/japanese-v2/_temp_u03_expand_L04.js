@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: It's a short skirt.\nB: Yes, because it's summer.",
      funFact:"Japanese school uniforms (seifuku) with pleated skirts are iconic worldwide, influencing fashion and pop culture. The sailor-style uniform (sera-fuku) was adopted from European naval uniforms in the 1920s. Some schools still use this classic design."},
 
-    {type:"mc", q:"ズボン comes from which language?", opts:["English","German","French","Portuguese"], ans:"French",
+    {type:"mc", q:"ズボン comes from which language?", opts:["French","Portuguese","English","German"], ans:"French",
      hint:"This clothing word entered Japanese from a F... word for a type of undergarment."},
 
     {type:"teach", trg:"くつ", src:"shoes", pos:"noun", gender:null,
@@ -87,7 +87,7 @@ const LESSON_6 = {
      exampleSrc:"A: I'll wear black pants.\nB: Will you wear black shoes too?",
      funFact:"Haku covers everything below the waist: zubon wo haku (wear pants), kutsu wo haku (wear shoes), kutsushita wo haku (wear socks). This verb specificity shows how Japanese language pays precise attention to the body and its relationship with objects."},
 
-    {type:"mc", q:"きる is used for:", opts:["Shoes","Hats","Shirts and coats","Glasses"], ans:"Shirts and coats",
+    {type:"mc", q:"きる is used for:", opts:["Hats","Shirts and coats","Glasses","Shoes"], ans:"Shirts and coats",
      hint:"This 'wear' verb covers upper body clothing only."},
 
     {type:"teach", trg:"かぶる", src:"to wear (on head)", pos:"verb", gender:null,
@@ -116,10 +116,10 @@ const LESSON_6 = {
      hint:"The specific 'wear' verb for items placed on your head.",
      sSrc:"Let's wear a hat."},
 
-    {type:"mc", q:"くつした literally means:", opts:["Foot cover","Below shoes","Toe warmers","Indoor wear"], ans:"Below shoes",
+    {type:"mc", q:"くつした literally means:", opts:["Indoor wear","Foot cover","Below shoes","Toe warmers"], ans:"Below shoes",
      hint:"Kutsu (s...) + shita (b...) = what goes under s...."},
 
-    {type:"mc", q:"How do you say 'I wear pants' in Japanese?", opts:["ズボンをきます","ズボンをはきます","ズボンをかぶります","ズボンをかけます"], ans:"ズボンをはきます",
+    {type:"mc", q:"How do you say 'I wear pants' in Japanese?", opts:["ズボンをかぶります","ズボンをかけます","ズボンをきます","ズボンをはきます"], ans:"ズボンをはきます",
      hint:"Lower body items require the haku verb, not kiru."},
   ]
 };

@@ -379,7 +379,7 @@ const UNIT_07 = {
        funFact:"August in Rome, Naples, or Milan can be extremely 'afoso.' Italians leave cities in August (called 'Ferragosto') partly because of the unbearable heat and humidity. Many shops and restaurants close entirely for two weeks in August."},
 
       {type:"mc", q:"Which Italian word means 'the season'?",
-       opts:["il tempo","la stagione","il grado","la pioggia"],
+       opts:["la stagione","il grado","la pioggia","il tempo"],
        ans:"la stagione",
        hint:"This feminine noun ends in -ione. Italy has four of them, from the Alps to Sicily."},
 
@@ -421,7 +421,7 @@ const UNIT_07 = {
        sSrc:"It is {1} today, bring a jacket."},
 
       {type:"mc", q:"How do you say 'it is cold' as a weather expression in Italian?",
-       opts:["Ho freddo","Fa freddo","Il freddo e forte","Sono freddo"],
+       opts:["Sono freddo","Ho freddo","Fa freddo","Il freddo e forte"],
        ans:"Fa freddo",
        hint:"Italian uses the verb 'fare' (to make/do) for weather. This is the third-person form.",
        note:"'Ho freddo' = I feel cold (personal sensation). 'Fa freddo' = the weather is cold (impersonal)."},
@@ -435,7 +435,7 @@ const UNIT_07 = {
       ]},
 
       {type:"mc", q:"What is 'la bella stagione' in Italian?",
-       opts:["A poetic phrase for winter","A poetic phrase for summer","The skiing season","A rainy autumn period"],
+       opts:["The skiing season","A rainy autumn period","A poetic phrase for winter","A poetic phrase for summer"],
        ans:"A poetic phrase for summer",
        hint:"'Bella' means beautiful. Italians use this expression to describe the warm, sunny months of the year."}
     ]},

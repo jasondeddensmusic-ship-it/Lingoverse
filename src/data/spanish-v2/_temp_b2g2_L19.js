@@ -90,7 +90,7 @@ const LESSON_19 = {id:"esv2_b2g2_l19",title:"Verbos de transformación",icon:"�
  exampleSrc:"A: Her performance captivated the audience.\nB: Everyone stood up at the end.",
  funFact:"Two opposite vibes: violent snatching and passionate captivation. Context is everything."},
 
-{type:"mc",q:"¿Qué significa que un proyecto no cuajó?",opts:["Que no se materializó o no tuvo éxito","Que se completó perfectamente","Que fue muy costoso","Que fue demasiado largo"],ans:"Que no se materializó o no tuvo éxito",hint:"Think about milk that does not solidify into cheese. The figurative meaning is similar."},
+{type:"mc",q:"¿Qué significa que un proyecto no cuajó?",opts:["Que fue demasiado largo","Que no se materializó o no tuvo éxito","Que se completó perfectamente","Que fue muy costoso"],ans:"Que no se materializó o no tuvo éxito",hint:"Think about milk that does not solidify into cheese. The figurative meaning is similar."},
 
 {type:"teach",trg:"curvar",src:"to bend / to curve",pos:"verb",gender:null,
  note:"Regular -ar verb. To make something curved.\nReflexive: curvarse.",

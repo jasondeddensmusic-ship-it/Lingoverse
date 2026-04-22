@@ -1,4 +1,4 @@
-// Batch 3 — Unit 32 Lesson (Globalization: Development & Trade)
+// Batch 3. Unit 32 Lesson (Globalization: Development & Trade)
 const BATCH3_L_1 = {
   id:"itv2_u32l_b3_1", title:"Sviluppo e commercio mondiale", icon:"📊", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e la delocalizzazione nel contesto economico?",
-     opts:["Lo spostamento della sede legale di un'azienda in un'altra città italiana","Il trasferimento della produzione in paesi con costi inferiori","L'apertura di filiali di vendita in nuovi mercati esteri","La fusione tra due aziende di paesi diversi"],
+     opts:["Il trasferimento della produzione in paesi con costi inferiori","L'apertura di filiali di vendita in nuovi mercati esteri","La fusione tra due aziende di paesi diversi","Lo spostamento della sede legale di un'azienda in un'altra città italiana"],
      ans:"Il trasferimento della produzione in paesi con costi inferiori",
      hint:"Moving manufacturing to countries where labor and other costs are lower. A major issue for Italy's textile and manufacturing sectors."},
 
@@ -108,10 +108,10 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e la 'filiera corta' nell'economia italiana?",
-     opts:["Un modello che collega direttamente produttori locali e consumatori senza intermediari","Un tipo di contratto di lavoro a breve termine nel settore agricolo","Una catena di negozi che vende solo prodotti italiani Made in Italy","Una strategia di delocalizzazione per ridurre i costi di trasporto"],
+     opts:["Una catena di negozi che vende solo prodotti italiani Made in Italy","Una strategia di delocalizzazione per ridurre i costi di trasporto","Un modello che collega direttamente produttori locali e consumatori senza intermediari","Un tipo di contratto di lavoro a breve termine nel settore agricolo"],
      ans:"Un modello che collega direttamente produttori locali e consumatori senza intermediari",
      hint:"A short, direct connection between local producers and consumers. Farmers' markets and solidarity purchasing groups exemplify this trend."}
-  ,{type:"match",pairs:[{trg:"il debito estero",src:"the foreign debt"},{trg:"la microfinanza",src:"microfinance"},{trg:"la zona franca",src:"the free trade zone"},{trg:"la crescita demografica",src:"population growth"}]},{type:"mc",q:"How do you say \"World Trade Organization\" in Italian?",opts:["la finestra","l'organizzazione mondiale del commercio","il tavolo","la bicicletta"],ans:"l'organizzazione mondiale del commercio",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il debito estero",src:"the foreign debt"},{trg:"la microfinanza",src:"microfinance"},{trg:"la zona franca",src:"the free trade zone"},{trg:"la crescita demografica",src:"population growth"}]},{type:"mc",q:"How do you say \"World Trade Organization\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'organizzazione mondiale del commercio"],ans:"l'organizzazione mondiale del commercio",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Molte aziende usano la {1} per tagliare i costi di produzione.",a:["delocalizzazione"],opts:["delocalizzazione","microfinanza","filiera","embargo"],hint:"Moving production to another country to reduce labour costs.",sSrc:"Many companies use {1} to cut production costs."}]
 };
 export default BATCH3_L_1;

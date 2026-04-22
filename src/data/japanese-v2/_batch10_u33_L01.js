@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"歌舞伎(かぶき)",src:"kabuki theater"},{trg:"能(のう)",src:"noh theater"},{trg:"落語(らくご)",src:"comic storytelling"},{trg:"書道(しょどう)",src:"calligraphy"}]},
 
-    {type:"mc", q:"Which word means living national treasure?", opts:["人間国宝(にんげんこくほう)","生(い)け花(ばな)","能(のう)","茶道(さどう)"], ans:"人間国宝(にんげんこくほう)",
+    {type:"mc", q:"Which word means living national treasure?", opts:["茶道(さどう)","人間国宝(にんげんこくほう)","生(い)け花(ばな)","能(のう)"], ans:"人間国宝(にんげんこくほう)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"浮世絵(うきよえ)",src:"ukiyo-e prints"}]}]
 };

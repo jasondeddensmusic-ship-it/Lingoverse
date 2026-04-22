@@ -67,7 +67,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"Why does 'non e vero che' take the subjunctive while 'e vero che' takes the indicative?",
-     opts:["Because negative sentences always use the subjunctive","Because denying a truth introduces uncertainty about the situation","Because 'non' is a special subjunctive particle in Italian","Because the negative form is only used in formal writing"],
+     opts:["Because denying a truth introduces uncertainty about the situation","Because 'non' is a special subjunctive particle in Italian","Because the negative form is only used in formal writing","Because negative sentences always use the subjunctive"],
      ans:"Because denying a truth introduces uncertainty about the situation",
      hint:"Affirming t... = certainty = indicative. D... t... = doubt enters = subjunctive. Negation flips the mood."},
 
@@ -86,7 +86,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What is special about 'non' in 'a meno che non piova'?",
-     opts:["It makes the sentence negative, reversing the meaning","It is optional and can be freely removed","It does not negate; it is grammatically required but expletive","It changes 'a meno che' from indicative to subjunctive mood"],
+     opts:["It is optional and can be freely removed","It does not negate; it is grammatically required but expletive","It changes 'a meno che' from indicative to subjunctive mood","It makes the sentence negative, reversing the meaning"],
      ans:"It does not negate; it is grammatically required but expletive",
      hint:"This 'non' is called 'espletivo.' The sentence means 'unless it rains,' not 'unless it does not rain.' It sounds wrong without it."},
 
@@ -97,7 +97,7 @@ const LESSON_6 = {
      sSrc:"Let's leave {1} it rains."},
 
     {type:"mc", q:"When does 'perche' require the subjunctive?",
-     opts:["When it is at the start of a question","When it means 'so that' (expressing purpose)","When it follows a past tense verb form","When the speaker is uncertain about the cause"],
+     opts:["When the speaker is uncertain about the cause","When it is at the start of a question","When it means 'so that' (expressing purpose)","When it follows a past tense verb form"],
      ans:"When it means 'so that' (expressing purpose)",
      hint:"Cause (because) = indicative. P... (so that, replaceable with 'affinche') = subjunctive. Same word, different moods."},
 
@@ -108,7 +108,7 @@ const LESSON_6 = {
      sSrc:"{1} you do, I support you."},
 
     {type:"mc", q:"Which conjunction is a synonym of 'nonostante'?",
-     opts:["Affinche","Benche","Prima che","Perche"],
+     opts:["Prima che","Perche","Affinche","Benche"],
      ans:"Benche",
      hint:"Both mean 'although' and both require the subjunctive. Italian has many formal concessive conjunctions, all interchangeable."}
   ]

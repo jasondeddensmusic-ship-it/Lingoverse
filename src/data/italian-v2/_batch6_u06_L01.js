@@ -1,4 +1,4 @@
-// Batch 6 — Unit 06 extra lesson. In città: Public Services & Emergencies
+// Batch 6. Unit 06 extra lesson. In città: Public Services & Emergencies
 const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3E5}", xp:15, board:true, steps:[
 {type:"intro", title:"I servizi pubblici",
  desc:"Learn essential vocabulary for public services, emergencies, and getting help in Italian cities.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3
 ]},
 
 {type:"mc", q:"Cosa fai se ti rubano qualcosa?",
- opts:["Fai una denuncia alla questura","Chiami un pompiere","Vai al pronto soccorso","Prendi una multa"],
+ opts:["Prendi una multa","Fai una denuncia alla questura","Chiami un pompiere","Vai al pronto soccorso"],
  ans:"Fai una denuncia alla questura",
  hint:"You file an official report at the police station."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3
  sSrc:"The {1} gave me a fine for illegal parking."},
 
 {type:"mc", q:"Cosa significa 'smarrire'?",
- opts:["to lose or misplace","to steal","to rescue","to arrest"],
+ opts:["to rescue","to arrest","to lose or misplace","to steal"],
  ans:"to lose or misplace",
  hint:"A formal way to say you lost something. Used in 'oggetti smarriti' (lost and found)."},
 

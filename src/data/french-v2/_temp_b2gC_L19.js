@@ -67,7 +67,7 @@ const LESSON_19 = {id:"frv2_b2gC_l19", title:"Caractère et moralité", icon:"\u
 
 {type:"mc",
  q:"Que signifie le mot 'presbyte' ?",
- opts:["Qui a du mal à voir de près","Qui a du mal à voir de loin","Qui est très intelligent","Qui est très fort"],
+ opts:["Qui est très fort","Qui a du mal à voir de près","Qui a du mal à voir de loin","Qui est très intelligent"],
  ans:"Qui a du mal à voir de près",
  hint:"From Greek presbys (old person). This vision condition typically starts around age 40."},
 
@@ -87,7 +87,7 @@ const LESSON_19 = {id:"frv2_b2gC_l19", title:"Caractère et moralité", icon:"\u
 
 {type:"mc",
  q:"Jusqu'en 1993, quelle restriction existait sur les prénoms en France ?",
- opts:["Seuls les noms de saints étaient autorisés","Aucune restriction n'existait","Les prénoms étrangers étaient obligatoires","Les parents ne choisissaient pas"],
+ opts:["Les prénoms étrangers étaient obligatoires","Les parents ne choisissaient pas","Seuls les noms de saints étaient autorisés","Aucune restriction n'existait"],
  ans:"Seuls les noms de saints étaient autorisés",
  hint:"French law was very strict about naming. Only names from the calendar of s... were allowed."},
 
@@ -105,7 +105,7 @@ const LESSON_19 = {id:"frv2_b2gC_l19", title:"Caractère et moralité", icon:"\u
 
 {type:"mc",
  q:"Quel mot est toujours négatif en français, contrairement à 'profiter' qui peut être neutre ?",
- opts:["profiteur","mécréant","presbyte","polémique"],
+ opts:["mécréant","presbyte","polémique","profiteur"],
  ans:"profiteur",
  hint:"Profiter can mean simply 'to enjoy.' But this noun always means someone who exploits others."}
 

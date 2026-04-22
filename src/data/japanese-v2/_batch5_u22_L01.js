@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"日本語(にほんご)の作文(さくぶん)を先生(せんせい)に直(なお)して{1}ました。\n(I had the teacher correct my essay.)", a:"もらい", opts:["もらい","あげ","くれ","やり"], sSrc:"I had the teacher correct my essay.",
      hint:"The favor-receiving verb in its masu-stem form: 'I received the action of correcting.'"},
 
-    {type:"mc", q:"てもらえますか is used for:", opts:["Making polite requests","Giving orders","Offering help","Expressing regret"], ans:"Making polite requests",
+    {type:"mc", q:"てもらえますか is used for:", opts:["Expressing regret","Making polite requests","Giving orders","Offering help"], ans:"Making polite requests",
      hint:"This potential form of てもらう asks 'is it possible for me to receive the favor of...?'"},
 
     {type:"match", pairs:[{trg:"てあげる",src:"do a favor (away from speaker)"},{trg:"てもらう",src:"receive a favor (I as subject)"},{trg:"てくれる",src:"receive a favor (other as subject)"},{trg:"てもらえますか",src:"could you do for me?"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"皆(みな)さんの{1}で成功(せいこう)しました。\n(Thanks to everyone, we succeeded.)", a:"おかげ", opts:["おかげ","せい","ため","理由(りゆう)"], sSrc:"Thanks to everyone, we succeeded.",
      hint:"The noun meaning 'blessing/grace' that expresses gratitude for positive outcomes."},
 
-    {type:"mc", q:"てあげる can sound condescending because:", opts:["It implies doing a favor from a superior position","It is always rude","It uses wrong grammar","It is too casual"], ans:"It implies doing a favor from a superior position",
+    {type:"mc", q:"てあげる can sound condescending because:", opts:["It uses wrong grammar","It is too casual","It implies doing a favor from a superior position","It is always rude"], ans:"It implies doing a favor from a superior position",
      hint:"Saying 'I did X for you' can sound like you are placing yourself above the other person."}
   ,{type:"match",pairs:[{trg:"直(なお)す",src:"to fix / to correct / to repair"},{trg:"送(おく)る",src:"to see off / to send / to escort"},{trg:"親切(しんせつ)",src:"kind / helpful / friendly"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"}]},
   {type:"fb", s:"壊(こわ)れた自転車(じてんしゃ)を{1}てもらいました。", a:["直(なお)す"], opts:["直(なお)す","送(おく)る","役(やく)に立(た)つ","親切(しんせつ)"], hint:"The verb for repairing something that is broken or correcting a mistake.", sSrc:"I had my broken bicycle {1} for me."}

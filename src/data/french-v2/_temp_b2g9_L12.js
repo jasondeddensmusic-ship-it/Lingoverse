@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 12: Environnement et Nature
+// French B2 Gap Batch 9. Lesson 12: Environnement et Nature
 // Environment and nature vocabulary
 
 const LESSON_12 = {id:"frv2_b2g9_l12", title:"Environnement et Nature", icon:"🌿", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_12 = {id:"frv2_b2g9_l12", title:"Environnement et Nature", icon:"�
    exampleSrc:"A: Information is coming in very sparingly.\nB: We know almost nothing for now.",
    funFact:"Au compte-gouttes (drop by drop) is more common than the literal dropper meaning."},
 
-  {type:"mc", q:"'Au compte-gouttes' signifie:", opts:["En grande quantité","Très lentement et peu à peu","Avec un instrument médical","En comptant soigneusement"], ans:"Très lentement et peu à peu",
+  {type:"mc", q:"'Au compte-gouttes' signifie:", opts:["Très lentement et peu à peu","Avec un instrument médical","En comptant soigneusement","En grande quantité"], ans:"Très lentement et peu à peu",
    hint:"Drop by drop. A very small amount at a time, sparingly."},
 
   {type:"teach", trg:"la mégafusion", src:"mega-merger", pos:"noun", gender:"f",
@@ -97,7 +97,7 @@ const LESSON_12 = {id:"frv2_b2g9_l12", title:"Environnement et Nature", icon:"�
    exampleSrc:"A: The oak is a pillar of the forest ecosystem.\nB: Hundreds of species depend on it.",
    funFact:"Pilier comes from Latin pila (column). The piliers of a rugby team are the front-row forwards."},
 
-  {type:"mc", q:"Le clou du spectacle est:", opts:["L'entrée des artistes","Le moment le plus ennuyeux","Le point culminant et le meilleur moment","Le prix du billet"], ans:"Le point culminant et le meilleur moment",
+  {type:"mc", q:"Le clou du spectacle est:", opts:["Le moment le plus ennuyeux","Le point culminant et le meilleur moment","Le prix du billet","L'entrée des artistes"], ans:"Le point culminant et le meilleur moment",
    hint:"The nail of the show: the highlight, the best part of the whole event."},
 
   {type:"fb", s:"Le {1} a surpris des braconniers dans la forêt.", a:["garde-chasse"], opts:["garde-chasse","compte-gouttes","coupe-papier","pied-de-biche"],
@@ -111,7 +111,7 @@ const LESSON_12 = {id:"frv2_b2g9_l12", title:"Environnement et Nature", icon:"�
     {trg:"le garde-chasse", src:"gamekeeper"}
   ]},
 
-  {type:"mc", q:"'S'incruster' familièrement signifie:", opts:["Décorer un meuble","S'imposer quelque part sans y être invité","Construire un mur","Nettoyer du calcaire"], ans:"S'imposer quelque part sans y être invité",
+  {type:"mc", q:"'S'incruster' familièrement signifie:", opts:["Nettoyer du calcaire","Décorer un meuble","S'imposer quelque part sans y être invité","Construire un mur"], ans:"S'imposer quelque part sans y être invité",
    hint:"To embed yourself somewhere uninvited. To overstay your welcome."},
 
   {type:"fb", s:"Le feu d'artifice était le {1} de la soirée.", a:["clou"], opts:["clou","pilier","frisbee","phosphate"],

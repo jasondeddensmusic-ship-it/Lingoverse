@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 18 — Science and Innovation
+// French B2 Gap Batch D Lesson 18. Science and Innovation
 const LESSON_18 = {id:"frv2_b2gD_l18", title:"Science et innovation", icon:"🔬", xp:15, board:true, steps:[
   {type:"intro", title:"Science et innovation",
    desc:"Develop vocabulary for discussing scientific research, innovation, and technology in French.",
@@ -73,7 +73,7 @@ const LESSON_18 = {id:"frv2_b2gD_l18", title:"Science et innovation", icon:"🔬
 
   {type:"mc",
    q:"Quelle est la différence entre 'déflagration' et 'détonation'?",
-   opts:["La déflagration est plus lente que la détonation","La déflagration est plus forte","Il n'y a aucune différence","La déflagration est silencieuse"],
+   opts:["La déflagration est silencieuse","La déflagration est plus lente que la détonation","La déflagration est plus forte","Il n'y a aucune différence"],
    ans:"La déflagration est plus lente que la détonation",
    hint:"Both are explosions, but one propagates faster than the speed of sound and the other does not."},
 

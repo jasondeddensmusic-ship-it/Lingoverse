@@ -92,7 +92,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Comment dit-on 'birthday' en français ?",
-     opts:["l'anniversaire","l'an","l'année","l'aîné"],
+     opts:["l'aîné","l'anniversaire","l'an","l'année"],
      ans:"l'anniversaire",
      hint:"This masculine noun covers both birthdays and wedding anniversaries."},
 
@@ -143,7 +143,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel est le contraire de 'l'adulte' ?",
-     opts:["l'adolescent","l'admirateur","l'adversaire","l'auteur"],
+     opts:["l'adversaire","l'auteur","l'adolescent","l'admirateur"],
      ans:"l'adolescent",
      hint:"This word describes a young person who is not yet a grown-up."},
 

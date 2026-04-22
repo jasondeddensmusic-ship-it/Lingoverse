@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: When is the deadline?\nB: Next Friday.\nA: Who did you go with?\nB: I went with a friend.",
      funFact:"締め切り literally means 'close and cut.' Once the shimekiri passes, the opportunity is gone. Japanese business culture takes deadlines extremely seriously. Missing a shimekiri (shimekiri ni okureu) damages trust and reputation. Magazines, applications, and contests all announce their shimekiri prominently."},
 
-    {type:"mc", q:"もしまにあわなかったらどうしますか means:", opts:["We made it in time, what next?","If we do not make it in time, what will we do?","We should hurry up","The deadline was extended"], ans:"If we do not make it in time, what will we do?",
+    {type:"mc", q:"もしまにあわなかったらどうしますか means:", opts:["If we do not make it in time, what will we do?","We should hurry up","The deadline was extended","We made it in time, what next?"], ans:"If we do not make it in time, what will we do?",
      hint:"もし emphasizes the hypothetical. たら + どうする asks about the plan if the condition is met."},
 
     {type:"teach", trg:"けんとうする", src:"to consider / to examine (formally)", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"けんとうする",src:"to consider"},{trg:"ていあん",src:"proposal"},{trg:"ばあい",src:"in case of"},{trg:"ようすをみる",src:"wait and see"}]},
 
-    {type:"mc", q:"1しゅうかんだけならだいじょうぶです uses なら because:", opts:["It describes an automatic result","It responds to context just stated","It expresses a past discovery","It is a proverb"], ans:"It responds to context just stated",
+    {type:"mc", q:"1しゅうかんだけならだいじょうぶです uses なら because:", opts:["It is a proverb","It describes an automatic result","It responds to context just stated","It expresses a past discovery"], ans:"It responds to context just stated",
      hint:"なら picks up on what the other person just said and r... with your condition/opinion."},
   ]
 };

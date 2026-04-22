@@ -1,4 +1,4 @@
-// L02: Kinderen en Jeugd — Children, Youth, and Social Services
+// L02: Kinderen en Jeugd. Children, Youth, and Social Services
 const LESSON_2 = {
   id:"nlv2_b2gC_l2", title:"Kinderen en Jeugd", icon:"\u{1F9D2}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Een kinderrechter behandelt zaken over:",
-     opts:["Volwassen criminelen","Minderjarigen","Huwelijken","Belastingen"],
+     opts:["Minderjarigen","Huwelijken","Belastingen","Volwassen criminelen"],
      ans:"Minderjarigen",
      hint:"The 'kinder' prefix tells you this judge specialises in cases involving young people."},
 
@@ -101,7 +101,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'De jeugdpolitie was op school voor een voorlichtingsbezoek.' Wat is voorlichting?",
-     opts:["Straf","Informatie en educatie","Bewaking","Arrestatie"],
+     opts:["Arrestatie","Straf","Informatie en educatie","Bewaking"],
      ans:"Informatie en educatie",
      hint:"For + lichting (enlightenment). Providing information to educate people about a topic."},
 
@@ -121,7 +121,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Welk artikel hoort bij 'kleuterdagverblijf'?",
-     opts:["de","het","een de-woord","geen artikel"],
+     opts:["een de-woord","geen artikel","de","het"],
      ans:"het",
      hint:"Words ending in '-verblijf' (a place to stay) are typically het-words."}
   ]

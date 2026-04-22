@@ -87,7 +87,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
   ]},
 
   {type:"mc", q:"What does 'diritto di recesso' guarantee for online purchases?",
-   opts:["14 days to return the item","30 days to return","Free shipping","A lifetime warranty"],
+   opts:["A lifetime warranty","14 days to return the item","30 days to return","Free shipping"],
    ans:"14 days to return the item",
    hint:"EU consumer law protects online shoppers. You have two weeks from delivery to change your mind."},
 
@@ -98,7 +98,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
    sSrc:"I would like to {1} this jacket."},
 
   {type:"mc", q:"What does 'difettoso' mean?",
-   opts:["Defective / faulty","Expensive","Different","Difficult"],
+   opts:["Different","Difficult","Defective / faulty","Expensive"],
    ans:"Defective / faulty",
    hint:"From 'difetto' (defect). Something is broken or does not work properly. You have legal rights."},
 
@@ -109,7 +109,7 @@ const LESSON_4 = {id:"itv2_u8l4", title:"Contrattare e restituire", icon:"\uD83E
    sSrc:"Is there a special {1}? Three for the price of two."},
 
   {type:"mc", q:"What is a 'camerino' in a shop?",
-   opts:["A fitting room","A cashier","A warehouse","A display window"],
+   opts:["A cashier","A warehouse","A display window","A fitting room"],
    ans:"A fitting room",
    hint:"Diminutive of 'camera' (r...). The small r... where you try on clothes before buying."},
 

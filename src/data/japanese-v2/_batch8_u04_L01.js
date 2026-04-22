@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"お金(かね)",src:"money"},{trg:"おつり",src:"change"},{trg:"現金(げんきん)",src:"cash"},{trg:"割引(わりびき)",src:"discount"},{trg:"税込(ぜいこ)み",src:"tax included"}],
      hint:"Match each money-related term with its English meaning."},
 
-    {type:"mc", q:"What is 領収書(りょうしゅうしょ)?", opts:["A formal receipt for tax purposes","A bank account","A wallet","A credit card bill"], ans:"A formal receipt for tax purposes",
+    {type:"mc", q:"What is 領収書(りょうしゅうしょ)?", opts:["A credit card bill","A formal receipt for tax purposes","A bank account","A wallet"], ans:"A formal receipt for tax purposes",
      hint:"Business travelers in Japan always request this document for expense reports."},
 
     {type:"fb", s:"学生(がくせい){1}はありますか？\n(Is there a student discount?)", a:"割引(わりびき)", opts:["割引(わりびき)","税込(ぜいこ)み","ポイント","おつり"], sSrc:"Is there a student discount?",
      hint:"This word means a reduction in price."},
 
-    {type:"mc", q:"Why is the 二千円(にせんえん)札(さつ) (2000 yen bill) special?", opts:["It is extremely rare and most people have never used one","It is the most common bill in Japan","It was discontinued in 2010","It features Mount Fuji"], ans:"It is extremely rare and most people have never used one",
+    {type:"mc", q:"Why is the 二千円(にせんえん)札(さつ) (2000 yen bill) special?", opts:["It was discontinued in 2010","It features Mount Fuji","It is extremely rare and most people have never used one","It is the most common bill in Japan"], ans:"It is extremely rare and most people have never used one",
      hint:"This bill was issued for a special occasion and mainly circulates in one region."}
   ,{type:"match",pairs:[{trg:"領収書(りょうしゅうしょ)",src:"receipt (formal/tax)"},{trg:"お財布(さいふ)",src:"wallet / purse"},{trg:"口座(こうざ)",src:"bank account"},{trg:"二千円(にせんえん)札(さつ)",src:"2000 yen bill"},{trg:"ポイントカード",src:"loyalty card / point card"},{trg:"振込(ふりこみ)",src:"bank transfer"}]}]
 };

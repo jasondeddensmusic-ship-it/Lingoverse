@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 11: Diversity and Determination
+// Korean B2. Batch 2, Lesson 11: Diversity and Determination
 // Words: 다소, 다양성, 다양해지다, 다이어트, 다정하다, 다지다, 다짐하다, 다치다, 다투다, 다툼, 다행, 다행히, 닥치다, 단계, 단골, 단단하다, 단독, 단맛, 단순, 단위
 
 const LESSON_11 = {
@@ -113,7 +113,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'다행히'는 문장에서 어떤 역할을 하나요?",
-     opts:["안도의 느낌을 표현한다","슬픔을 표현한다","분노를 표현한다","놀라움을 표현한다"],
+     opts:["놀라움을 표현한다","안도의 느낌을 표현한다","슬픔을 표현한다","분노를 표현한다"],
      ans:"안도의 느낌을 표현한다",
      hint:"This adverb expresses relief that a situation turned out well despite worry."},
 

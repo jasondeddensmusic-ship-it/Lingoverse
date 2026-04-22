@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"この靴(くつ)、かっこいい{1}。\n(These shoes are cool, right?)", a:"じゃん", opts:["じゃん","です","だ","ます"], sSrc:"These shoes are cool, right? (casual)",
      hint:"The Tokyo casual contraction of じゃない used for seeking light confirmation."},
 
-    {type:"mc", q:"まあまあ means:", opts:["So-so / not bad / mediocre","Excellent","Terrible","Exciting"], ans:"So-so / not bad / mediocre",
+    {type:"mc", q:"まあまあ means:", opts:["Exciting","So-so / not bad / mediocre","Excellent","Terrible"], ans:"So-so / not bad / mediocre",
      hint:"The doubled form of the filler まあ expresses a middle-ground evaluation."},
 
     {type:"match", pairs:[{trg:"やっぱり",src:"as expected / after all"},{trg:"なんか",src:"somehow / like (filler)"},{trg:"っぽい",src:"-ish / tends to be"},{trg:"じゃん",src:"isn't it? (casual)"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"心配(しんぱい)しなくていい{1}。なんとかなるよ。\n(No need to worry. It will work out.)", a:"さ", opts:["さ","よ","ね","か"], sSrc:"No need to worry. It will work out. (casual masculine)",
      hint:"The casual sentence-final particle that adds a relaxed, matter-of-fact assertion."},
 
-    {type:"mc", q:"ぶっちゃけ signals:", opts:["The speaker is about to be unusually direct/honest","The speaker is joking","The speaker is uncertain","The speaker is being formal"], ans:"The speaker is about to be unusually direct/honest",
+    {type:"mc", q:"ぶっちゃけ signals:", opts:["The speaker is uncertain","The speaker is being formal","The speaker is about to be unusually direct/honest","The speaker is joking"], ans:"The speaker is about to be unusually direct/honest",
      hint:"This slang word warns that blunt honesty is coming, unusual in indirect Japanese culture."}
   ,{type:"match",pairs:[{trg:"まあ",src:"well / I guess / more or less"},{trg:"なんとかなる",src:"things will work out somehow"},{trg:"っていうか",src:"or rather / I mean / to put it differently"},{trg:"ぶっちゃけ",src:"honestly / to be blunt / frankly speaking"}]}]
 };

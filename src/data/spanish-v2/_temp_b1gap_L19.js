@@ -99,7 +99,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"\u00bfC\u00f3mo describes algo que te hace sentir feliz y triste a la vez?",
-     opts:["agridulce","absorbente","at\u00edpico","atmosf\u00e9rico"],
+     opts:["atmosf\u00e9rico","agridulce","absorbente","at\u00edpico"],
      ans:"agridulce",
      hint:"A compound adjective combining a sour/bitter element with a sweet one."},
 

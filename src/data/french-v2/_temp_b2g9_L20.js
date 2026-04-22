@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 20: Synthèse et Révision
+// French B2 Gap Batch 9. Lesson 20: Synthèse et Révision
 // Synthesis and review of all B2 gap vocabulary
 
 const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"🎓", xp:15, board:true, steps:[
@@ -30,14 +30,14 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    exampleSrc:"A: Deepening these concepts will come later.\nB: For now, the basics are enough.",
    funFact:"Cours d'approfondissement means an advanced course that goes deeper than the introductory level."},
 
-  {type:"mc", q:"Un pamphlet en français est:", opts:["Un guide de voyage","Un texte critique et polémique","Une brochure publicitaire","Un roman court"], ans:"Un texte critique et polémique",
+  {type:"mc", q:"Un pamphlet en français est:", opts:["Un texte critique et polémique","Une brochure publicitaire","Un roman court","Un guide de voyage"], ans:"Un texte critique et polémique",
    hint:"Unlike English pamphlet (informational), French pamphlet means a sharp attack."},
 
   {type:"fb", s:"La {1} de l'adversaire est une tactique malhonnête.", a:["diabolisation"], opts:["diabolisation","consolidation","récapitulation","synthèse"],
    hint:"Making your opponent appear evil. From diable (devil).",
    sSrc:"The {1} of opponents is a dishonest tactic."},
 
-  {type:"mc", q:"Le paludisme est:", opts:["Une maladie transmise par les moustiques","Un trouble mental","Une allergie alimentaire","Un problème cardiaque"], ans:"Une maladie transmise par les moustiques",
+  {type:"mc", q:"Le paludisme est:", opts:["Un problème cardiaque","Une maladie transmise par les moustiques","Un trouble mental","Une allergie alimentaire"], ans:"Une maladie transmise par les moustiques",
    hint:"From Latin palus (swamp). The French word for malaria."},
 
   {type:"fb", s:"Il a travaillé {1} pour terminer sa thèse.", a:["nuit et jour"], opts:["nuit et jour","par écrit","dans l'absolu","au compte-gouttes"],
@@ -58,14 +58,14 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    hint:"Signs carried by protesters with slogans written on them.",
    sSrc:"The protesters were holding up {1}."},
 
-  {type:"mc", q:"Le pluriel de grille-pain est:", opts:["Des grille-pain","Des grilles-pains","Des grille-pains","Des grilles-pain"], ans:"Des grille-pain",
+  {type:"mc", q:"Le pluriel de grille-pain est:", opts:["Des grilles-pains","Des grille-pains","Des grilles-pain","Des grille-pain"], ans:"Des grille-pain",
    hint:"Verb + noun compounds are invariable. Nothing changes in the plural."},
 
   {type:"fb", s:"La {1} est un principe fondamental de la République.", a:["laïcité"], opts:["laïcité","grossièreté","malhonnêteté","niaiserie"],
    hint:"The French principle of separation of church and state.",
    sSrc:"{1} is a fundamental principle of the Republic."},
 
-  {type:"mc", q:"Un confrère partage avec vous:", opts:["Le même bureau","La même famille","La même profession","Le même quartier"], ans:"La même profession",
+  {type:"mc", q:"Un confrère partage avec vous:", opts:["La même profession","Le même quartier","Le même bureau","La même famille"], ans:"La même profession",
    hint:"The prefix con- means 'with' and frère means 'brother'. Think of two doctors or two lawyers sharing a field."},
 
   {type:"match", pairs:[
@@ -93,7 +93,7 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    hint:"Variety and difference as a positive force. Many cultures together.",
    sSrc:"Cultural {1} enriches our society."},
 
-  {type:"mc", q:"Bibliothèque et librairie:", opts:["Sont des synonymes","Bibliothèque = library, librairie = bookshop","Sont des antonymes","Bibliothèque = bookshop, librairie = library"], ans:"Bibliothèque = library, librairie = bookshop",
+  {type:"mc", q:"Bibliothèque et librairie:", opts:["Bibliothèque = bookshop, librairie = library","Sont des synonymes","Bibliothèque = library, librairie = bookshop","Sont des antonymes"], ans:"Bibliothèque = library, librairie = bookshop",
    hint:"Classic false friend. One lends books, the other sells them."},
 
   {type:"match", pairs:[
@@ -107,7 +107,7 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    hint:"Pre-judged opinions formed without knowing the facts.",
    sSrc:"{1} prevent dialogue between cultures."},
 
-  {type:"mc", q:"S'obstiner a une connotation:", opts:["Positive","Négative: persister malgré la raison","Neutre","Variable selon le contexte"], ans:"Négative: persister malgré la raison",
+  {type:"mc", q:"S'obstiner a une connotation:", opts:["Neutre","Variable selon le contexte","Positive","Négative: persister malgré la raison"], ans:"Négative: persister malgré la raison",
    hint:"Unlike persévérer (positive), this verb implies irrational stubbornness."},
 
   {type:"match", pairs:[

@@ -294,7 +294,7 @@ const UNIT_29 = {
        hint:"A communication technique where you fully concentrate on the speaker and show understanding. More than just hearing words."}
     ,{type:"match",pairs:[{trg:"la percezione",src:"the perception"},{trg:"lo stress",src:"the stress"},{trg:"la consapevolezza",src:"the awareness / mindfulness"},{trg:"il condizionamento",src:"the conditioning"}]},{type:"mc",q:"How do you say \"attachment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'attaccamento"],ans:"l'attaccamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]},
 
-    // ─── Lesson 4: Il significato personale (F21 — CILS B2 autobiographical writing) ───
+    // ─── Lesson 4: Il significato personale (F21. CILS B2 autobiographical writing) ───
     {id:"itv2_u29l_sign", title:"Il significato personale", icon:"💭", xp:15, board:true, steps:[
       {type:"intro", title:"Writing About Personal Significance",
        desc:"Learn to write about meaningful experiences, memories, and values in Italian. Essential for CILS B2 autobiographical writing and personal reflections.",
@@ -383,7 +383,7 @@ const UNIT_29 = {
 
       {type:"mc",
        q:"Quale parola completa meglio questa frase? 'Per me, la famiglia ha un grande ___ nella vita.'",
-       opts:["significato","commozione","plasmare","indimenticabile"],
+       opts:["plasmare","indimenticabile","significato","commozione"],
        ans:"significato",
        hint:"The noun form of 'significare.' When something has great personal importance or deep meaning for you, it has this quality."}
     ]}

@@ -66,7 +66,7 @@ const LESSON_7 = {id:"esv2_b2g6_l7",title:"Política y gobernanza",icon:"🏛️
  exampleSrc:"A: Her involvement in the project was key.\nB: Without her, we would not have finished on time.",
  funFact:"Has two meanings: 'involvement' (active participation) and 'implication' (consequence)."},
 
-{type:"mc",q:"¿Quién es un ideólogo?",opts:["Alguien que promueve una ideología","Un conductor de televisión","Un agente inmobiliario","Un miembro de una congregación"],ans:"Alguien que promueve una ideología",hint:"A person who develops and promotes a set of political ideas."},
+{type:"mc",q:"¿Quién es un ideólogo?",opts:["Un miembro de una congregación","Alguien que promueve una ideología","Un conductor de televisión","Un agente inmobiliario"],ans:"Alguien que promueve una ideología",hint:"A person who develops and promotes a set of political ideas."},
 
 {type:"match",pairs:[
   {trg:"descentralización",src:"decentralization"},

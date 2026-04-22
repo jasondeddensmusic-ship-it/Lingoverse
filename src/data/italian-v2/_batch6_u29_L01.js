@@ -1,4 +1,4 @@
-// Batch 6 — Unit 29 extra lesson. La psicologia: Cognitive Biases & Thinking Patterns
+// Batch 6. Unit 29 extra lesson. La psicologia: Cognitive Biases & Thinking Patterns
 const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u{1F9E9}", xp:15, board:true, steps:[
 {type:"intro", title:"I pregiudizi cognitivi",
  desc:"Learn vocabulary for cognitive biases, thinking patterns, and psychological phenomena in Italian.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
  {trg:"l'empatia", src:"empathy"}
 ]},
 {type:"mc", q:"Perche la malattia 'influenza' si chiama così?",
- opts:["Medieval belief that epidemics were caused by stellar influence","Named after an Italian doctor","From a Latin word for sneezing","Named after a famous patient"],
+ opts:["Named after a famous patient","Medieval belief that epidemics were caused by stellar influence","Named after an Italian doctor","From a Latin word for sneezing"],
  ans:"Medieval belief that epidemics were caused by stellar influence",
  hint:"The same word as 'i....' Stars w... believed to cause disease outbreaks."},
 {type:"fb", s:"{1} non significa causazione. E un errore logico comune.", a:["Correlazione"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
  hint:"A statistical relationship between variables that does not prove one causes the other.",
  sSrc:"{1} does not mean causation. It is a common logical error."},
 {type:"mc", q:"Cosa significa 'mettersi nei panni di qualcuno'?",
- opts:["To empathize, to put yourself in their shoes","To wear someone else's clothes","To imitate someone","To judge someone"],
+ opts:["To imitate someone","To judge someone","To empathize, to put yourself in their shoes","To wear someone else's clothes"],
  ans:"To empathize, to put yourself in their shoes",
  hint:"Literally 'to p... y... in someone's clothes.' An expression for empathy."},
 {type:"fb", s:"Il {1} limita la creativita e il pensiero originale.", a:["conformismo"],

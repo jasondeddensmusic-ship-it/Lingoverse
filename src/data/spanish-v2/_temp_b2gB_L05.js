@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 05 — Law & Social Order
+// B2 Gap Batch B Lesson 05. Law & Social Order
 const LESSON_5 = {id:"esv2_b2gB_l5",title:"Ley y orden social",icon:"⚖️",xp:15,board:true,steps:[
 {type:"intro",title:"Ley y orden social",desc:"Learn vocabulary related to law, justice, policing, and social order in Spain.",goals:["Learn 12 words about law and social institutions","Discuss legal processes and social structures","Use formal institutional vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_5 = {id:"esv2_b2gB_l5",title:"Ley y orden social",icon:"⚖️",xp:
  funFact:"In law, 'incompetencia' can mean a court lacks jurisdiction over a case, not that it is unable."},
 
 {type:"mc",q:"¿Qué significa 'ocultación de pruebas'?",
- opts:["Esconder evidencias de un delito","Presentar pruebas falsas","Destruir un documento oficial","Inventar testigos falsos"],
+ opts:["Inventar testigos falsos","Esconder evidencias de un delito","Presentar pruebas falsas","Destruir un documento oficial"],
  ans:"Esconder evidencias de un delito",
  hint:"Think about the verb 'ocultar' (to hide) applied to evidence in a legal case."},
 

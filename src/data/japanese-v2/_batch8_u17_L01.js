@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"開(あ)く/開(あ)ける",src:"to open"},{trg:"閉(し)まる/閉(し)める",src:"to close"},{trg:"壊(こわ)れる/壊(こわ)す",src:"to break"},{trg:"落(お)ちる/落(お)とす",src:"to fall/drop"},{trg:"直(なお)る/直(なお)す",src:"to be fixed/to fix"}],
      hint:"Match each transitivity pair with its shared English meaning."},
 
-    {type:"mc", q:"Why do Japanese speakers prefer 壊(こわ)れた (it broke) over 壊(こわ)した (I broke it)?", opts:["Japanese naturally frames events from the perspective of the affected object","To avoid taking responsibility","Because transitive verbs are harder to conjugate","Because Japanese has no transitive verbs"], ans:"Japanese naturally frames events from the perspective of the affected object",
+    {type:"mc", q:"Why do Japanese speakers prefer 壊(こわ)れた (it broke) over 壊(こわ)した (I broke it)?", opts:["Because Japanese has no transitive verbs","Japanese naturally frames events from the perspective of the affected object","To avoid taking responsibility","Because transitive verbs are harder to conjugate"], ans:"Japanese naturally frames events from the perspective of the affected object",
      hint:"This reflects how J... grammar describes e..., not a cultural avoidance."},
 
     {type:"fb", s:"季節(きせつ)が{1}ましたね。\n(The season has changed, hasn't it.)", a:"変(か)わり", opts:["変(か)わり","変(か)え","直(なお)り","映(うつ)り"], sSrc:"The season has changed, hasn't it.",
      hint:"Use the intransitive form because the season changes naturally on its own."},
 
-    {type:"mc", q:"Which pair means 'to grow up / to raise'?", opts:["育(そだ)つ / 育(そだ)てる","開(あ)く / 開(あ)ける","壊(こわ)れる / 壊(こわ)す","決(き)まる / 決(き)める"], ans:"育(そだ)つ / 育(そだ)てる",
+    {type:"mc", q:"Which pair means 'to grow up / to raise'?", opts:["壊(こわ)れる / 壊(こわ)す","決(き)まる / 決(き)める","育(そだ)つ / 育(そだ)てる","開(あ)く / 開(あ)ける"], ans:"育(そだ)つ / 育(そだ)てる",
      hint:"The intransitive form describes a child growing, the transitive describes raising a child."}
   ,{type:"fb", s:"窓(まど)が{1}たままにしておくと、虫(むし)が入(はい)ります。",
      a:["開(あ)く"],

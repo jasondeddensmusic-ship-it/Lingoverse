@@ -1,4 +1,4 @@
-// L13: Communication and Media — 20 B1 gap words
+// L13: Communication and Media, 20 B1 gap words
 const LESSON_13 = {
   id:"nlv2_b1gap_l13", title:"Communicatie en Media", icon:"\u{1F4F0}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Je wilt een boek over iemands eigen leven lezen. Je zoekt een ___.",
-     opts:["autobiografie","audioboek","beeldverhaal","activiteitenkalender"],
+     opts:["activiteitenkalender","autobiografie","audioboek","beeldverhaal"],
      ans:"autobiografie",
      hint:"Which word describes a book someone writes about their own life story?"},
 
@@ -144,7 +144,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"De brief moet met een handtekening worden ontvangen. Je stuurt hem ___.",
-     opts:["aangetekend","afzonderlijk","aankomend","beduidend"],
+     opts:["aankomend","beduidend","aangetekend","afzonderlijk"],
      ans:"aangetekend",
      hint:"Which type of mail requires the recipient to sign for delivery?"}
   ]

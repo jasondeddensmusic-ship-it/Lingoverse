@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 12: Love and Effort
+// Korean B2. Batch 6, Lesson 12: Love and Effort
 // Words: 애쓰다, 애인, 애정, 액세서리, 액수, 앨범, 야간, 야구장, 야단, 야옹, 야외, 야채, 야하다, 약수, 약점, 약품, 약해지다, 약혼녀, 약혼자, 얄밉다
 
 const LESSON_12 = {
@@ -131,7 +131,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"건강이 나빠지는 것을 뭐라고 하나요?",
-     opts:["약해지다","약품","약점","약수"],
+     opts:["약수","약해지다","약품","약점"],
      ans:"약해지다",
      hint:"A verb that means your body or condition is becoming weaker over time."},
 

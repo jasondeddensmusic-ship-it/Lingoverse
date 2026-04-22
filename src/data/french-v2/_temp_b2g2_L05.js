@@ -92,7 +92,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Comment appelle-t-on un specialiste qui etudie les populations ?",
-     opts:["un demographe","un cartographe","un anthropologue","un administrateur"],
+     opts:["un administrateur","un demographe","un cartographe","un anthropologue"],
      ans:"un demographe",
      hint:"A specialist who studies birth rates, migration, and population trends."},
 
@@ -143,7 +143,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel adjectif signifie 'detaille et complet' ?",
-     opts:["approfondi","ajourne","certifie","analphabete"],
+     opts:["certifie","analphabete","approfondi","ajourne"],
      ans:"approfondi",
      hint:"An analysis that goes deep. Think of 'profond' (deep) with a prefix."},
 

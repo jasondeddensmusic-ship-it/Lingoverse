@@ -32,7 +32,7 @@ const LESSON_11 = {id:"esv2_b2gap_l11",title:"Edificios y lugares",icon:"🏰",x
  exampleSrc:"A: The garden pool is full of water lilies.\nB: It is a very peaceful and beautiful corner.",
  funFact:"From Arabic al-birka (the pool). Alhambra's gardens have beautiful historical albercas."},
 
-{type:"mc",q:"Una fortaleza árabe dentro de una ciudad española es:",opts:["una choza","una alberca","una alcazaba","una carpintería"],ans:"una alcazaba",hint:"This Arabic-origin word describes a fortified enclosure."},
+{type:"mc",q:"Una fortaleza árabe dentro de una ciudad española es:",opts:["una alcazaba","una carpintería","una choza","una alberca"],ans:"una alcazaba",hint:"This Arabic-origin word describes a fortified enclosure."},
 
 {type:"teach",trg:"el bungaló",src:"the bungalow",pos:"noun",gender:"m",
  note:"Masculine noun. A small vacation house, usually one story.",
@@ -130,7 +130,7 @@ const LESSON_11 = {id:"esv2_b2gap_l11",title:"Edificios y lugares",icon:"🏰",x
 
 {type:"fb",s:"Qué {1} encontrarnos en el mismo restaurante.",a:["coincidencia"],opts:["coincidencia","cabida","base","consistorio"],hint:"An unexpected chance meeting in the same place.",sSrc:"What a {1} running into each other at the same restaurant."},
 
-{type:"mc",q:"Un 'arcón' es:",opts:["Un baúl grande de madera","Una ventana pequeña","Un muro de piedra","Un jardín interior"],ans:"Un baúl grande de madera",hint:"A large storage container, bigger than a regular chest."}
+{type:"mc",q:"Un 'arcón' es:",opts:["Una ventana pequeña","Un muro de piedra","Un jardín interior","Un baúl grande de madera"],ans:"Un baúl grande de madera",hint:"A large storage container, bigger than a regular chest."}
 ]};
 
 export default LESSON_11;

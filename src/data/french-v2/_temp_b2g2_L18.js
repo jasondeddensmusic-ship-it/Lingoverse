@@ -92,7 +92,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel mot decrit la capacite a se remettre d'une epreuve ?",
-     opts:["la resilience","la lucidite","l'empathie","le stoicisme"],
+     opts:["le stoicisme","la resilience","la lucidite","l'empathie"],
      ans:"la resilience",
      hint:"The ability to bounce back from hardship. Popularized by Boris Cyrulnik."},
 
@@ -137,7 +137,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel philosophe francais a popularise le concept de resilience ?",
-     opts:["Boris Cyrulnik","Albert Camus","Michel Foucault","Jean-Paul Sartre"],
+     opts:["Michel Foucault","Jean-Paul Sartre","Boris Cyrulnik","Albert Camus"],
      ans:"Boris Cyrulnik",
      hint:"A French neuropsychiatrist who wrote extensively about recovering from trauma."},
 

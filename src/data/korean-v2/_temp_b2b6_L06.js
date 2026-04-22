@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 6: Applications and Thread
+// Korean B2. Batch 6, Lesson 6: Applications and Thread
 // Words: 신중하다, 신청서, 신청하다, 신체적, 신호등, 신혼부부, 신혼여행, 신화, 실, 실감, 실로, 실리다, 실망, 실수하다, 실습, 실시, 실시되다, 실은, 실장, 실정
 
 const LESSON_6 = {
@@ -125,7 +125,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'실습'과 가장 관련이 깊은 것은?",
-     opts:["실제 현장에서 배우는 것","책으로 공부하는 것","시험을 보는 것","집에서 쉬는 것"],
+     opts:["집에서 쉬는 것","실제 현장에서 배우는 것","책으로 공부하는 것","시험을 보는 것"],
      ans:"실제 현장에서 배우는 것",
      hint:"This type of learning happens in real settings like hospitals or classrooms, not in textbooks."},
 

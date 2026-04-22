@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 07: Inspiratie & Creativiteit
+// B2 Gap Batch A. Lesson 07: Inspiratie & Creativiteit
 // Theme: Inspiration, arts, hobbies
 
 const LESSON_7 = {id:"nlv2_b2gA_l7", title:"Inspiratie & Creativiteit", icon:"\u{1F3A8}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_7 = {id:"nlv2_b2gA_l7", title:"Inspiratie & Creativiteit", icon:"\u
    sSrc:"The theatre group does improvisation: everything without a script."},
 
   {type:"mc", q:"Ben je een professionele fotograaf? Nee, ik ben een hobbyist. Wat is een 'hobbyist'?",
-   opts:["someone who does something as a hobby","a professional photographer","a hobby shop owner","a creative director"],
+   opts:["a creative director","someone who does something as a hobby","a professional photographer","a hobby shop owner"],
    ans:"someone who does something as a hobby",
    hint:"The -ist suffix indicates a person. H... + -ist = s... who does it for fun."},
 
@@ -77,7 +77,7 @@ const LESSON_7 = {id:"nlv2_b2gA_l7", title:"Inspiratie & Creativiteit", icon:"\u
   ]},
 
   {type:"mc", q:"Zijn schilderij is een imitatie van Rembrandt. Wat is 'imitatie'?",
-   opts:["a copy or reproduction","an original work","a critique","an exhibition"],
+   opts:["a critique","an exhibition","a copy or reproduction","an original work"],
    ans:"a copy or reproduction",
    hint:"From Latin imitatio. Making something that resembles the original."},
 

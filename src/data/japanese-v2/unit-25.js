@@ -213,7 +213,7 @@ const UNIT_25 = {
   {type:"mc", q:"仲裁(ちゅうさい)に入(はい)る means:", opts:["To enter into a contract","To step in as a mediator","To join a discussion as an observer","To file a formal complaint"], ans:"To step in as a mediator",
    hint:"仲(ちゅう) refers to acting as the middle person between two parties in dispute."},
 
-  {type:"mc", q:"訴(うった)える in a workplace context means:", opts:["To escalate a complaint to a superior","To hold a celebration","To sign a contract","To take a vacation"], ans:"To escalate a complaint to a superior",
+  {type:"mc", q:"訴(うった)える in a workplace context means:", opts:["To sign a contract","To take a vacation","To escalate a complaint to a superior","To hold a celebration"], ans:"To escalate a complaint to a superior",
    hint:"This verb covers both informal complaints and formal legal filings, from reporting to a manager up to filing legal action."},
 
   {type:"fb", s:"会議(かいぎ)で{1}が生(う)まれました。\n(A conflict arose in the meeting.)", a:"対立(たいりつ)", opts:["対立(たいりつ)","誤解(ごかい)","和解(わかい)","話(はな)し合(あ)い"], sSrc:"A conflict arose in the meeting.",
@@ -250,7 +250,7 @@ const UNIT_25 = {
    funFact:"防ぐ uses the kanji 防(ふせ), which appears in 防火(ぼうか) (fire prevention), 防衛(ぼうえい) (defense), and 防犯(ぼうはん) (crime prevention). In public health messaging, 感染(かんせん)を防(ふせ)ぐ (prevent infection) is one of the most common uses. Note the て-form: 防(ふせ)いで, not 防(ふせ)ぎて, due to a voicing rule for gu-ending verbs."},
 
   {type:"mc", q:"Which verb means to prevent something harmful from happening?",
-   opts:["願(ねが)う","疑(うたが)う","防(ふせ)ぐ","頑張(がんば)る"],
+   opts:["防(ふせ)ぐ","頑張(がんば)る","願(ねが)う","疑(うたが)う"],
    ans:"防(ふせ)ぐ",
    hint:"This verb is used for blocking illness, accidents, or problems before they occur."},
 

@@ -13,7 +13,7 @@ const LESSON_13 = {id:"esv2_b2g7_l13",title:"Política e ideología",icon:"🏛�
 {type:"teach",trg:"el islámico",src:"Islamic",pos:"adj",gender:null,note:"Relating to Islam. Used for culture, art, architecture.",example:"A: La arquitectura islámica de la Alhambra es impresionante.\nB: El arte islámico influyó profundamente en España.",exampleSrc:"A: The Islamic architecture of the Alhambra is impressive.\nB: Islamic art deeply influenced Spain.",funFact:"Al-Andalus (Islamic Spain, 711-1492) left an enormous cultural legacy: the Alhambra, the Mezquita, and thousands of Spanish words from Arabic."},
 {type:"mc",q:"La Ley contra la Violencia de Género en España se aprobó en:",opts:["2004","1978","1936","2020"],ans:"2004",hint:"This landmark law was one of Europe's first comprehensive anti-gender-violence laws."},
 {type:"fb",s:"La {1} cambió la forma de pensar en toda Europa.",a:["Ilustración"],opts:["Ilustración","evangelización","cristianización","indisciplina"],hint:"This 18th-century intellectual movement championed reason and science.",sSrc:"The {1} changed the way of thinking across all of Europe."},
-{type:"mc",q:"El 'machismo' se refiere a:",opts:["Una actitud de dominación masculina","Un deporte español","Un estilo de cocina","Una corriente artística"],ans:"Una actitud de dominación masculina",hint:"This word describes aggressive male pride and the belief in male superiority."},
+{type:"mc",q:"El 'machismo' se refiere a:",opts:["Una corriente artística","Una actitud de dominación masculina","Un deporte español","Un estilo de cocina"],ans:"Una actitud de dominación masculina",hint:"This word describes aggressive male pride and the belief in male superiority."},
 {type:"fb",s:"La arquitectura {1} de la Alhambra atrae a millones de turistas.",a:["islámica"],opts:["islámica","cristiana","ilustrada","comunista"],hint:"This adjective relates to the religion and culture of Al-Andalus.",sSrc:"The {1} architecture of the Alhambra attracts millions of tourists."},
 {type:"match",pairs:[
   {trg:"el comunismo",src:"communism"},
@@ -22,7 +22,7 @@ const LESSON_13 = {id:"esv2_b2g7_l13",title:"Política e ideología",icon:"🏛�
   {trg:"la evangelización",src:"the evangelization"},
   {trg:"el gueto",src:"the ghetto"}
 ]},
-{type:"mc",q:"Al-Andalus se refiere a:",opts:["La España islámica medieval","La España romana","La España moderna","La España celta"],ans:"La España islámica medieval",hint:"This was the name for the parts of the Iberian Peninsula under Muslim rule."},
+{type:"mc",q:"Al-Andalus se refiere a:",opts:["La España moderna","La España celta","La España islámica medieval","La España romana"],ans:"La España islámica medieval",hint:"This was the name for the parts of the Iberian Peninsula under Muslim rule."},
 {type:"fb",s:"La {1} en el aula ha aumentado según los profesores.",a:["indisciplina"],opts:["indisciplina","evangelización","ilustración","cristianización"],hint:"This noun means a lack of discipline or failure to follow rules.",sSrc:"The {1} in the classroom has increased according to teachers."}
 ]};
 export default LESSON_13;

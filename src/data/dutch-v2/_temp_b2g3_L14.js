@@ -1,4 +1,4 @@
-// L14: Arts, Science & Knowledge — 20 B2 gap words
+// L14: Arts, Science & Knowledge, 20 B2 gap words
 const LESSON_14 = {
   id:"nlv2_b2g3_l14", title:"Kunst, Wetenschap en Kennis", icon:"\uD83D\uDD2C", xp:15, board:true,
   steps:[
@@ -104,7 +104,7 @@ const LESSON_14 = {
       {trg:"curator", src:"curator"}
     ]},
     {type:"mc", q:"Het boek 'Camera Obscura' beschrijft welk land in de 19e eeuw?",
-     opts:["Belgie","Duitsland","Nederland","Frankrijk"],
+     opts:["Duitsland","Nederland","Frankrijk","Belgie"],
      ans:"Nederland",
      hint:"Written by Hildebrand (pen name), it is a classic humorous portrait of 19th-century Dutch society."},
     {type:"fb", s:"Het {1} van Nederland is tulpen en molens.", a:["clichebeeld"],

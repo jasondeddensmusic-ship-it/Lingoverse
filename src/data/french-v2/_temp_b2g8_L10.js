@@ -80,7 +80,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel terme français, utilisé en psychologie, est l'opposé du déjà-vu ?",
-     opts:["le jamais-vu","l'ennui","le déchaînement","l'intériorisation"],
+     opts:["l'intériorisation","le jamais-vu","l'ennui","le déchaînement"],
      ans:"le jamais-vu",
      hint:"Literally 'never seen'. The feeling that something familiar suddenly seems completely new."},
 
@@ -119,7 +119,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel écrivain français a fait de 'l'ennui' un grand thème littéraire ?",
-     opts:["Baudelaire","Molière","Voltaire","Zola"],
+     opts:["Voltaire","Zola","Baudelaire","Molière"],
      ans:"Baudelaire",
      hint:"A 19th century poet who explored boredom as existential weariness in his famous poetry."},
 

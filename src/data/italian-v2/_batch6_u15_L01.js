@@ -1,4 +1,4 @@
-// Batch 6 — Unit 15 extra lesson. La casa e l'affitto: Home Repairs & Problems
+// Batch 6. Unit 15 extra lesson. La casa e l'affitto: Home Repairs & Problems
 const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527}", xp:15, board:true, steps:[
 {type:"intro", title:"Problemi in casa",
  desc:"Learn vocabulary for common household problems, repairs, and communicating with landlords and technicians.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
 ]},
 
 {type:"mc", q:"Cosa significa 'allagare'?",
- opts:["to flood","to repair","to crack","to drip"],
+ opts:["to drip","to flood","to repair","to crack"],
  ans:"to flood",
  hint:"From 'lago' (lake). When too much water fills a room."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527
  sSrc:"There is {1} on the walls, we need to air out more."},
 
 {type:"mc", q:"Chi deve pagare le riparazioni strutturali in un appartamento in affitto?",
- opts:["Il proprietario","L'inquilino","L'idraulico","L'elettricista"],
+ opts:["L'idraulico","L'elettricista","Il proprietario","L'inquilino"],
  ans:"Il proprietario",
  hint:"The person who owns the property, not the person renting it."},
 

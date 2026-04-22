@@ -1,4 +1,4 @@
-// Lesson 10 — Comunicacion y medios (Communication and Media)
+// Lesson 10. Comunicacion y medios (Communication and Media)
 const LESSON_10 = {id:"esv2_b2g9_l10", title:"Comunicaci\u00f3n y medios", icon:"\u{1F4F0}", xp:25, board:true, steps:[
   {type:"intro", title:"Comunicaci\u00f3n y medios",
    desc:"Master the vocabulary of media, communication, and the digital world. From newspapers to social media, these terms are essential for modern discourse.",
@@ -69,7 +69,7 @@ const LESSON_10 = {id:"esv2_b2g9_l10", title:"Comunicaci\u00f3n y medios", icon:
    funFact:"Though 'l\u00edder' comes from English, the RAE accepted it in 1984. The verb 'liderar' (to lead) followed naturally."},
 
   {type:"mc", q:"\u00bfCu\u00e1ntas letras tiene la palabra 'internacionalizaci\u00f3n'?",
-   opts:["18","22","26","30"],
+   opts:["26","30","18","22"],
    ans:"26",
    hint:"It is one of the longest common words in Spanish, built from internacional + -izaci\u00f3n."},
 

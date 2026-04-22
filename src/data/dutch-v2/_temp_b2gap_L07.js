@@ -1,4 +1,4 @@
-// L07: Emotions & Character — 20 B2 gap words
+// L07: Emotions & Character, 20 B2 gap words
 const LESSON_7 = {
   id:"nlv2_b2gap_l7", title:"Emoties en Karakter", icon:"\uD83D\uDE24", xp:15, board:true,
   steps:[
@@ -109,12 +109,12 @@ const LESSON_7 = {
      text:"Dutch organizes emotions on scales:\n\nAnger: irritatie < boosheid < woede < razernij\nFear: onrust < angst < paniek < doodsangst\nJealousy: jaloezie < afgunst < wrok\nDislike: hekel < afkeer < walging\n\nCharacter adjectives:\nPositive: bedreven, dapper, wijs\nNegative: balorig, apathisch, boosaardig\nNeutral: afstandelijk, afwijkend\n\nIntensifier compounds:\nbomvol, ijskoud, piepklein, brandschoon",
      deepDive:{title:"The Dutch art of understatement",
       text:"The Dutch are masters of 'understatement'. They often use milder words than they mean:\n\n'Niet gek' = actually very good\n'Niet verkeerd' = quite impressive\n'Valt mee' = better than expected\n'Niet zo best' = actually terrible\n\nThis contrasts with emotion words: when a Dutch person says something is 'afgrijselijk' or 'boosaardig', they REALLY mean it. Strong words are reserved for genuinely strong situations."}},
-    {type:"mc", q:"Which Dutch word for envy carries the stronger charge — jealousy mixed with resentment and wanting another's failure?",
-     opts:["jaloezie","afgunst","They are identical","Neither is negative"],
+    {type:"mc", q:"Which Dutch word for envy carries the stronger charge, jealousy mixed with resentment and wanting another's failure?",
+     opts:["afgunst","They are identical","Neither is negative","jaloezie"],
      ans:"afgunst",
      hint:"One implies mild jealousy, the other includes resentment."},
     {type:"mc", q:"'Boosaardig' literally means:",
-     opts:["angry-natured","kind-hearted","badly made","deeply sad"],
+     opts:["deeply sad","angry-natured","kind-hearted","badly made"],
      ans:"angry-natured",
      hint:"'Boos' = a..., 'aardig' here = n... (not nice)."},
     {type:"fb", s:"Die grap is zo {1}.", a:["afgezaagd"],
@@ -132,7 +132,7 @@ const LESSON_7 = {
       {trg:"belevenis", src:"experience"}
     ]},
     {type:"mc", q:"'Berucht' is the negative version of:",
-     opts:["beroemd","bedreven","balorig","berusten"],
+     opts:["balorig","berusten","beroemd","bedreven"],
      ans:"beroemd",
      hint:"Famous (positive) vs infamous (negative). Same root word."},
     {type:"fb", s:"Ze is heel {1} in onderhandelen.", a:["bedreven"],

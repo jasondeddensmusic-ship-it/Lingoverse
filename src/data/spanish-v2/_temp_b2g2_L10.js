@@ -90,7 +90,7 @@ const LESSON_10 = {id:"esv2_b2g2_l10",title:"Problemas sociales",icon:"📢",xp:
  exampleSrc:"A: Tourism is booming in Spain.\nB: This year visitor records are expected.",
  funFact:"From French 'auge'. 'Estar en auge' (to be booming) is one of the most useful B2 expressions."},
 
-{type:"mc",q:"¿Qué es el auge de algo?",opts:["Su momento de mayor éxito","Su punto más bajo","Su inicio","Su final"],ans:"Su momento de mayor éxito",hint:"Think about the peak or golden era when something is at its highest point of success."},
+{type:"mc",q:"¿Qué es el auge de algo?",opts:["Su final","Su momento de mayor éxito","Su punto más bajo","Su inicio"],ans:"Su momento de mayor éxito",hint:"Think about the peak or golden era when something is at its highest point of success."},
 
 {type:"teach",trg:"el anticipo",src:"the advance (payment) / preview",pos:"noun",gender:"m",
  note:"Masculine noun. Money paid in advance, or an early indication.",

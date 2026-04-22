@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「食(た)べかけのサンドイッチ」はどんなサンドイッチですか？",
-     opts:["A half-eaten sandwich","A freshly made sandwich","A discarded sandwich","A frozen sandwich"],
+     opts:["A frozen sandwich","A half-eaten sandwich","A freshly made sandwich","A discarded sandwich"],
      ans:"A half-eaten sandwich",
      hint:"The compound 〜かける describes an action that was started but not completed. Apply this to eating."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Good friends help each other."},
 
     {type:"mc", q:"「書(か)き直(なお)す」はどういう意味(いみ)ですか？",
-     opts:["To rewrite (fixing mistakes)","To write quickly","To stop writing","To start writing"],
+     opts:["To stop writing","To start writing","To rewrite (fixing mistakes)","To write quickly"],
      ans:"To rewrite (fixing mistakes)",
      hint:"This compound combines 'write' with a verb meaning 'to fix/repair.' The result implies correcting through redoing."}
   ,{type:"fb", s:"レポートを書(か)き{1}ましたか？提出(ていしゅつ)前(まえ)に確認(かくにん)してください。",

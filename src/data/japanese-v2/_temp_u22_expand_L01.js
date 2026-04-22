@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: Let us write a thank-you letter.\nB: Yes, since they took care of us.\nA: That is exciting.\nB: Yes, I am already excited.",
      funFact:"お礼 has a dual meaning: the expression of thanks and the physical return gift. Japanese gift culture requires a return (お返し, okaeshi) for gifts received. Wedding guests receive お返し worth about half the gift value. This reciprocity system keeps social relationships balanced and is considered basic etiquette."},
 
-    {type:"mc", q:"さしあげる is the humble form of:", opts:["もらう","くれる","あげる","おくる"], ans:"あげる",
+    {type:"mc", q:"さしあげる is the humble form of:", opts:["あげる","おくる","もらう","くれる"], ans:"あげる",
      hint:"This keigo verb replaces the standard 'to give away from speaker' in formal situations."},
 
     {type:"teach", trg:"おせわになる", src:"to be in someone's care / to receive help", pos:"verb", gender:null,

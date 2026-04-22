@@ -90,7 +90,7 @@ const LESSON_8 = {
      funFact:"Dutch improvisational theatre (improv) has grown hugely since 2010. The show 'De Lama's' popularized improv comedy on Dutch television."},
     {type:"mc",
      q:"Wat doet een 'gemeentesecretaris'?",
-     opts:["Leidt de ambtelijke organisatie van een gemeente","Schrijft de notulen van vergaderingen","Beantwoordt brieven van burgers","Beheert de gemeentelijke website"],
+     opts:["Beheert de gemeentelijke website","Leidt de ambtelijke organisatie van een gemeente","Schrijft de notulen van vergaderingen","Beantwoordt brieven van burgers"],
      ans:"Leidt de ambtelijke organisatie van een gemeente",
      hint:"This is the top civil servant in a municipality. They lead all the officials and advise the mayor."},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_8 = {
      sSrc:"The date of {1} is in your employment contract."},
     {type:"mc",
      q:"Wat is 'huiswerkbegeleiding'?",
-     opts:["Hulp bij het maken van schoolwerk na schooltijd","Een type huishoudelijke hulp","Begeleiding bij het zoeken van een huis","Een stage op een basisschool"],
+     opts:["Begeleiding bij het zoeken van een huis","Een stage op een basisschool","Hulp bij het maken van schoolwerk na schooltijd","Een type huishoudelijke hulp"],
      ans:"Hulp bij het maken van schoolwerk na schooltijd",
      hint:"Break it down: huiswerk (homework) + begeleiding (guidance/supervision). What service is this?"}
   ]

@@ -95,7 +95,7 @@ const LESSON_4 = {
      funFact:"'In groepsverband' is a very common Dutch expression. You do things 'in groepsverband' at work, school, and sports. The phrase implies organized collaboration."},
     {type:"mc",
      q:"Wat betekent 'individualisering'?",
-     opts:["Het proces van toenemende persoonlijke autonomie","Het oprichten van een bedrijf","Het leren van een nieuwe taal","Het verhuizen naar een andere stad"],
+     opts:["Het verhuizen naar een andere stad","Het proces van toenemende persoonlijke autonomie","Het oprichten van een bedrijf","Het leren van een nieuwe taal"],
      ans:"Het proces van toenemende persoonlijke autonomie",
      hint:"This noun describes a sociological trend. The -isering suffix signals a gradual process of becoming more individual."},
     {type:"fb",
@@ -106,7 +106,7 @@ const LESSON_4 = {
      sSrc:"The {1} of large cities has changed significantly in recent decades due to migration."},
     {type:"mc",
      q:"Wat is een 'geloofsgenoot'?",
-     opts:["Iemand met hetzelfde geloof","Een religieuze leider","Een kerkgebouw","Een gelovig kind"],
+     opts:["Een kerkgebouw","Een gelovig kind","Iemand met hetzelfde geloof","Een religieuze leider"],
      ans:"Iemand met hetzelfde geloof",
      hint:"Break this compound: g... (faith) + genoot (fellow/companion). What does that give you?"}
   ]

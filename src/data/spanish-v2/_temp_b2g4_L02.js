@@ -78,7 +78,7 @@ const LESSON_2 = {id:"esv2_b2g4_l2",title:"Economía y empresa",icon:"📊",xp:1
  exampleSrc:"A: Picasso is the greatest exponent of modern art.\nB: His work is very important in the history of art.",
  funFact:"In math, 'exponente' means the power to which a number is raised, just like in English."},
 
-{type:"mc",q:"¿Qué significa 'factible'?",opts:["Que se puede hacer","Que es muy caro","Que está prohibido","Que ya está hecho"],ans:"Que se puede hacer",hint:"Think about whether a plan or project can actually be carried out."},
+{type:"mc",q:"¿Qué significa 'factible'?",opts:["Que ya está hecho","Que se puede hacer","Que es muy caro","Que está prohibido"],ans:"Que se puede hacer",hint:"Think about whether a plan or project can actually be carried out."},
 
 {type:"teach",trg:"la especialización",src:"the specialization",pos:"noun",gender:"f",
  note:"Feminine noun. Focusing on a specific area.\nVerb: especializarse.",
@@ -90,7 +90,7 @@ const LESSON_2 = {id:"esv2_b2g4_l2",title:"Economía y empresa",icon:"📊",xp:1
 
 {type:"match",pairs:[{trg:"estafa",src:"scam"},{trg:"factoría",src:"factory"},{trg:"estabilidad",src:"stability"},{trg:"expropiación",src:"expropriation"},{trg:"exponente",src:"exponent"}]},
 
-{type:"mc",q:"España es el mayor país exportador de:",opts:["Aceite de oliva","Café","Chocolate","Algodón"],ans:"Aceite de oliva",hint:"Think about the Mediterranean product Spain produces more than anyone else."},
+{type:"mc",q:"España es el mayor país exportador de:",opts:["Chocolate","Algodón","Aceite de oliva","Café"],ans:"Aceite de oliva",hint:"Think about the Mediterranean product Spain produces more than anyone else."},
 
 {type:"fb",s:"La {1} inmobiliaria causó la crisis de 2008 en España.",a:["especulación"],opts:["especulación","estabilidad","expropiación","especialización"],hint:"Risky financial betting on rising property prices.",sSrc:"Real estate {1} caused the 2008 crisis in Spain."}
 ]};

@@ -1,4 +1,4 @@
-// Korean V2 Unit 34 — B1 Vocabulary Expansion: Logic, Politics & Business
+// Korean V2 Unit 34. B1 Vocabulary Expansion: Logic, Politics & Business
 import L01 from './_temp_b1gap_L01.js';
 import L02 from './_temp_b1gap_L02.js';
 import L03 from './_temp_b1gap_L03.js';

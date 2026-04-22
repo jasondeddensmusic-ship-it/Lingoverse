@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u15l5", title:"おねがいとたすけ", icon:"🙏"
    exampleSrc:"A: Could you please tell me where the restroom is?\nB: It is at the end of this hallway.\nA: That is nice.\nB: Yes, it was very fun.",
    funFact:"おしえる covers a wider range than English 'teach.' It includes teaching (school), telling (information), and showing (directions). みちをおしえる (show the way) is the standard phrase for asking directions. おしえてください is sufficient in most situations."},
 
-  {type:"mc", q:"みちをおしえていただけますか is:", opts:["A casual request","A very polite request for directions","A command","A complaint"], ans:"A very polite request for directions",
+  {type:"mc", q:"みちをおしえていただけますか is:", opts:["A very polite request for directions","A command","A complaint","A casual request"], ans:"A very polite request for directions",
    hint:"ていただけますか is the most p... r... form, suitable for strangers."},
 
   {type:"teach", trg:"ちず", src:"map", pos:"noun", gender:null,

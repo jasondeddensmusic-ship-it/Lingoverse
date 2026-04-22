@@ -1,4 +1,4 @@
-// Unit 28 — Por Un Lado
+// Unit 28. Por Un Lado
 // Discourse Markers & Essay Structure
 
 export default {n:28,lang:"es",srcLang:"en",track:"v2",title:"Por Un Lado",sub:"Discourse Markers & Essay Structure",icon:"📝",level:"B2.2",color:"#7B5EE8",lessons:[

@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"Tanaka is a {1} person. He is always laughing."},
 
     {type:"mc", q:"背(せ)が高(たか)い describes:",
-     opts:["A tall person","A short person","A thin person","A heavy person"],
+     opts:["A heavy person","A tall person","A short person","A thin person"],
      ans:"A tall person",
      hint:"背(せ) means height or stature, and 高(たか)い means high or t...."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Who is that person {1} glasses?"},
 
     {type:"mc", q:"真面目(まじめ) in Japanese is usually:",
-     opts:["A compliment meaning diligent","An insult meaning boring","A neutral word for normal","A word for shy"],
+     opts:["A neutral word for normal","A word for shy","A compliment meaning diligent","An insult meaning boring"],
      ans:"A compliment meaning diligent",
      hint:"Unlike 'serious' in English, this na-adjective is almost always positive in Japanese. It means hardworking and reliable."},
 

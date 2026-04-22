@@ -46,7 +46,7 @@ const LESSON_20 = {
      sSrc:"We need to {1} this analysis before concluding."},
 
     {type:"mc", q:"Un 'prevenu' est:",
-     opts:["Une personne accusee avant le proces","Un temoin","Un juge","Un avocat"],
+     opts:["Un avocat","Une personne accusee avant le proces","Un temoin","Un juge"],
      ans:"Une personne accusee avant le proces",
      hint:"This legal term from Lesson 1 describes someone charged but not yet tried"},
 
@@ -63,7 +63,7 @@ const LESSON_20 = {
      sSrc:"His self-{1} is admirable in stressful situations."},
 
     {type:"mc", q:"'La democratisation de l'enseignement' signifie:",
-     opts:["Rendre l'education accessible a tous","Voter pour les professeurs","Elire les directeurs","Supprimer les examens"],
+     opts:["Elire les directeurs","Supprimer les examens","Rendre l'education accessible a tous","Voter pour les professeurs"],
      ans:"Rendre l'education accessible a tous",
      hint:"From Lesson 3, this process makes something available to the whole population"},
 
@@ -73,7 +73,7 @@ const LESSON_20 = {
      sSrc:"This success is the {1} of several years of effort."},
 
     {type:"mc", q:"Que signifie 'en marge de' une conference?",
-     opts:["En dehors du programme officiel","Pendant l'evenement","Au centre de l'attention","Contre la conference"],
+     opts:["Pendant l'evenement","Au centre de l'attention","Contre la conference","En dehors du programme officiel"],
      ans:"En dehors du programme officiel",
      hint:"From Lesson 9, this prepositional phrase means on the sidelines of"},
 
@@ -100,7 +100,7 @@ const LESSON_20 = {
      sSrc:"This {1} perfectly summarizes the stakes of the debate."},
 
     {type:"mc", q:"La 'probite' est:",
-     opts:["Une honnetete absolue et integre","Un type de courage","Une forme de prudence","Un devoir civique"],
+     opts:["Un devoir civique","Une honnetete absolue et integre","Un type de courage","Une forme de prudence"],
      ans:"Une honnetete absolue et integre",
      hint:"From Lesson 19, this formal word describes complete moral integrity"},
 
@@ -112,7 +112,7 @@ const LESSON_20 = {
     ]},
 
     {type:"mc", q:"Combien de stations de metro compte Paris?",
-     opts:["308","150","450","200"],
+     opts:["450","200","308","150"],
      ans:"308",
      hint:"From Lesson 18, the Paris Metro is one of the densest networks in the world"},
 

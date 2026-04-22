@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 4: City Media and Food Basics
+// Korean B2. Batch 6, Lesson 4: City Media and Food Basics
 // Words: 시외, 시외버스, 시위, 시일, 시점, 시중, 시즌, 시집, 시집가다, 시청, 시청률, 시합, 식기, 식다, 식량, 식료품, 식빵, 식생활, 식욕, 식초
 
 const LESSON_4 = {
@@ -150,7 +150,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"건강한 식생활을 위해 중요한 것은?",
-     opts:["균형 잡힌 식단","비싼 식기","높은 시청률","긴 시일"],
+     opts:["긴 시일","균형 잡힌 식단","비싼 식기","높은 시청률"],
      ans:"균형 잡힌 식단",
      hint:"For a healthy dietary life, what matters most: balanced meals, expensive dishes, ratings, or time?"}
   ]

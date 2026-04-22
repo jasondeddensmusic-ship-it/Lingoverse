@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 03 — Health & the Human Body
+// B2 Gap Batch B Lesson 03. Health & the Human Body
 const LESSON_3 = {id:"esv2_b2gB_l3",title:"El cuerpo y la salud",icon:"🩺",xp:15,board:true,steps:[
 {type:"intro",title:"El cuerpo y la salud",desc:"Learn vocabulary about the human body, physical conditions, and health-related topics at an advanced level.",goals:["Learn 12 words about the body and health","Discuss physical conditions and medical topics","Use precise anatomical and health vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_3 = {id:"esv2_b2gB_l3",title:"El cuerpo y la salud",icon:"🩺",xp:
  funFact:"Spanish fitness trainers often say 'activa los glúteos' (activate your glutes) as a key cue."},
 
 {type:"mc",q:"¿Qué especialidad médica trata los problemas de los ojos?",
- opts:["La oftalmología","La neumonía","La irritabilidad","La invalidez"],
+ opts:["La invalidez","La oftalmología","La neumonía","La irritabilidad"],
  ans:"La oftalmología",
  hint:"Think about the Greek root for 'eye' and the medical suffix for a branch of medicine."},
 

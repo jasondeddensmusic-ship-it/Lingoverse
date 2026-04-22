@@ -1,4 +1,4 @@
-// Dutch V2 Unit 63 — B2 Vocabulary Batch 7
+// Dutch V2 Unit 63. B2 Vocabulary Batch 7
 import L01 from './_temp_b2g7_L01.js';
 import L02 from './_temp_b2g7_L02.js';
 import L03 from './_temp_b2g7_L03.js';

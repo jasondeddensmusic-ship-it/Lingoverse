@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"このホテルは駅(えき)から近(ちか)いです。{1}、値段(ねだん)も手頃(てごろ)です。\n(This hotel is close to the station. Moreover, the price is reasonable.)", a:"そのうえ", opts:["そのうえ","しかし","ところが","つまり"], sSrc:"This hotel is close to the station. Moreover, the price is reasonable.",
      hint:"The addition connector meaning 'on top of that,' adding another positive point."},
 
-    {type:"mc", q:"しかも adds:", opts:["A surprising additional fact","A contradiction","A question","A conclusion"], ans:"A surprising additional fact",
+    {type:"mc", q:"しかも adds:", opts:["A conclusion","A surprising additional fact","A contradiction","A question"], ans:"A surprising additional fact",
      hint:"This connector means 'and would you believe it!' adding an impressive or unexpected point."},
 
     {type:"match", pairs:[{trg:"そのうえ",src:"moreover"},{trg:"さらに",src:"furthermore"},{trg:"つまり",src:"in other words"},{trg:"もっとも",src:"admittedly/although"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"彼(かれ)は日本語(にほんご)が話(はな)せます。{1}、漢字(かんじ)も二千字(にせんじ)読(よ)めます。\n(He speaks Japanese. What is more, he can read 2,000+ kanji.)", a:"しかも", opts:["しかも","しかし","したがって","そこで"], sSrc:"He speaks Japanese. What is more, he can read 2,000+ kanji.",
      hint:"The connector that adds a surprising or impressive additional fact."},
 
-    {type:"mc", q:"以上(いじょう)のことから is used to:", opts:["Introduce a conclusion based on previous points","Start a new topic","Express disagreement","Ask for clarification"], ans:"Introduce a conclusion based on previous points",
+    {type:"mc", q:"以上(いじょう)のことから is used to:", opts:["Express disagreement","Ask for clarification","Introduce a conclusion based on previous points","Start a new topic"], ans:"Introduce a conclusion based on previous points",
      hint:"This formal phrase signals that everything before was evidence, and now the c... follows."}
   ,{type:"match",pairs:[{trg:"言(い)い換(か)えれば",src:"in other words / to put it differently"},{trg:"手頃(てごろ)",src:"reasonable (price) / affordable / handy"},{trg:"以上(いじょう)のことから",src:"from the above / based on the foregoing"},{trg:"説得力(せっとくりょく)",src:"persuasiveness / convincing power"}]}]
 };

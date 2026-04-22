@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 07 (Time) — schedules, durations, frequency
+// Batch 2 expansion for Unit 07 (Time), schedules, durations, frequency
 const BATCH2_L_1 = {
   id:"jav2_u07l_b2_1", title:"どのくらい", icon:"⏱️", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: About how many days will you stay?\nB: About one week.",
    funFact:"ぐらい and くらい are interchangeable. Some speakers prefer one over the other, but there is no meaning difference. Adding ぐらい to any number makes it approximate, softening the precision. Japanese speakers use approximations frequently in conversation."},
 
-  {type:"mc", q:"二時間(にじかん) means:", opts:["2 o'clock","2 hours (duration)","2 minutes","2 days"], ans:"2 hours (duration)",
+  {type:"mc", q:"二時間(にじかん) means:", opts:["2 hours (duration)","2 minutes","2 days","2 o'clock"], ans:"2 hours (duration)",
    hint:"時間(じかん) is the d... counter for h..., not a clock time."},
 
   {type:"teach", trg:"一週間(いっしゅうかん)", src:"one week", pos:"num", gender:null,

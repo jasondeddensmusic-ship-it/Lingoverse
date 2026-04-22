@@ -1,4 +1,4 @@
-// Batch 4 — Unit 10, Lesson 2: Vacation Activities & Sightseeing
+// Batch 4. Unit 10, Lesson 2: Vacation Activities & Sightseeing
 const BATCH4_U10_L2 = {
   id:"itv2_u10l_b4_2", title:"Cosa visitare", icon:"\uD83C\uDFDB", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U10_L2 = {
     ]},
 
     {type:"mc", q:"Cos'e uno 'stabilimento balneare'?",
-     opts:["A private beach club with umbrellas and services","A swimming pool","A water park","A boat rental"],
+     opts:["A boat rental","A private beach club with umbrellas and services","A swimming pool","A water park"],
      ans:"A private beach club with umbrellas and services",
      hint:"These Italian b... establishments rent sunbeds and u...."},
 
@@ -120,7 +120,7 @@ const BATCH4_U10_L2 = {
      sSrc:"I {1} a fantastic restaurant near the Colosseum!"},
 
     {type:"mc", q:"Quanti siti UNESCO ha l'Italia?",
-     opts:["More than any other country in the world","About 20","Fewer than France","The same as Spain"],
+     opts:["Fewer than France","The same as Spain","More than any other country in the world","About 20"],
      ans:"More than any other country in the world",
      hint:"Italy leads the global UNESCO W... Heritage list."},
 
@@ -130,10 +130,10 @@ const BATCH4_U10_L2 = {
      sSrc:"{1} your vacation! You deserve the rest."},
 
     {type:"mc", q:"Cos'era il 'Grand Tour'?",
-     opts:["A journey through Italy taken by European aristocrats for education","A modern tour bus company","An Italian TV show","A Renaissance art style"],
+     opts:["A modern tour bus company","An Italian TV show","A Renaissance art style","A journey through Italy taken by European aristocrats for education"],
      ans:"A journey through Italy taken by European aristocrats for education",
      hint:"18th-century English nobles traveled this Italian route as part of their e...."}
-  ,{type:"match",pairs:[{trg:"il monumento",src:"the monument"},{trg:"la guida turistica",src:"the tour guide / guidebook"},{trg:"la fotografia",src:"the photograph / photography"},{trg:"il souvenir",src:"the souvenir"},{trg:"godersi",src:"to enjoy (oneself)"},{trg:"scoprire",src:"to discover / to find out"}]},{type:"match",pairs:[{trg:"indimenticabile",src:"unforgettable"}]},{type:"mc",q:"How do you say \"itinerary / route\" in Italian?",opts:["la finestra","l'itinerario","il tavolo","la bicicletta"],ans:"l'itinerario",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il monumento",src:"the monument"},{trg:"la guida turistica",src:"the tour guide / guidebook"},{trg:"la fotografia",src:"the photograph / photography"},{trg:"il souvenir",src:"the souvenir"},{trg:"godersi",src:"to enjoy (oneself)"},{trg:"scoprire",src:"to discover / to find out"}]},{type:"match",pairs:[{trg:"indimenticabile",src:"unforgettable"}]},{type:"mc",q:"How do you say \"itinerary / route\" in Italian?",opts:["l'itinerario","il tavolo","la bicicletta","la finestra"],ans:"l'itinerario",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Abbiamo comprato una {1} come ricordo del viaggio.",a:["cartolina"],opts:["cartolina","fotografia","souvenir","guida turistica"],hint:"A printed card with a picture, sent to family or kept as a memento.",sSrc:"We bought a {1} as a memory of the trip."}]
 };
 export default BATCH4_U10_L2;

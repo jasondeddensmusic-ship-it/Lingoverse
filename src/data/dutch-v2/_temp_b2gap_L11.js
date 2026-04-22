@@ -1,4 +1,4 @@
-// L11: Food, Drink & Daily Life — 20 B2 gap words
+// L11: Food, Drink & Daily Life, 20 B2 gap words
 const LESSON_11 = {
   id:"nlv2_b2gap_l11", title:"Eten, Drinken en Dagelijks Leven", icon:"\uD83C\uDF7D\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_11 = {
      deepDive:{title:"Dutch food culture",
       text:"Dutch eating habits:\n\nOntbijt (breakfast): bread with 'hagelslag' (chocolate sprinkles)\nLunch: 'boterham met kaas' (cheese sandwich)\nAvondeten (dinner): traditionally at 6 PM sharp\nBorrel: drinks with 'borrelhapjes' (snacks) after work\n\nRegional specialties:\nZeeland: bolus, mosselen\nBrabant: worstenbroodje\nLimburg: vlaai (fruit pie)\nFriesland: suikerbrood, Beerenburg\n\nThe Dutch eat dinner earlier than most Europeans. 'Zes uur eten' (dinner at six) is the unspoken rule."}},
     {type:"mc", q:"What is a 'bolus'?",
-     opts:["a type of cheese","a sticky sweet bread roll from Zeeland","a beer glass","a bath towel"],
+     opts:["a sticky sweet bread roll from Zeeland","a beer glass","a bath towel","a type of cheese"],
      ans:"a sticky sweet bread roll from Zeeland",
      hint:"A regional specialty with brown sugar in a spiral shape."},
     {type:"mc", q:"'Pinnen' in Dutch daily life means:",

@@ -86,7 +86,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot designe le fait de laisser quelque chose hors d'un texte ou rapport ?",
-     opts:["une omission","une oscillation","une division","une justification"],
+     opts:["une justification","une omission","une oscillation","une division"],
      ans:"une omission",
      hint:"From Latin 'omittere' meaning to let go. Something that was left out."},
 
@@ -113,7 +113,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel nom designe la capacite de parler plusieurs langues ?",
-     opts:["le plurilinguisme","le modernisme","le photomontage","le mixage"],
+     opts:["le photomontage","le mixage","le plurilinguisme","le modernisme"],
      ans:"le plurilinguisme",
      hint:"Built from 'pluri-' (many) and 'linguisme' (relating to languages)."}
   ]

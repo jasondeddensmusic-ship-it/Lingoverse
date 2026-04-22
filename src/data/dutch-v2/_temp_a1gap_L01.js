@@ -1,4 +1,4 @@
-// L01: Greetings and Basics — 20 A1 gap words
+// L01: Greetings and Basics, 20 A1 gap words
 const LESSON_1 = {
   id:"nlv2_a1gap_l1", title:"Hallo en Tot Ziens", icon:"\u{1F44B}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Welk woord past? ___ weekend!",
-     opts:["Fijn","Groet","Naam","Afscheid"],
+     opts:["Afscheid","Fijn","Groet","Naam"],
      ans:"Fijn",
      hint:"Which word means 'nice' and is used to wish someone a good weekend?"},
 

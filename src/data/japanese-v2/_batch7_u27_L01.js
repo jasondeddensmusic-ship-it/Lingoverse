@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Japan is a country with few {1}. That is why recycling is important."},
 
     {type:"mc", q:"Japan's Minamata disease was caused by:",
-     opts:["Mercury pollution from a factory","Air pollution from cars","Nuclear radiation","Volcanic gases"],
+     opts:["Volcanic gases","Mercury pollution from a factory","Air pollution from cars","Nuclear radiation"],
      ans:"Mercury pollution from a factory",
      hint:"This devastating 汚染(おせん) event in the 1950s-60s led to strict environmental laws."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"We should increase the share of {1} energy."},
 
     {type:"mc", q:"トキ (crested ibis) conservation in Japan:",
-     opts:["Successfully restored a wild population from near-extinction","Failed completely","Was never attempted","Is still in early stages"],
+     opts:["Was never attempted","Is still in early stages","Successfully restored a wild population from near-extinction","Failed completely"],
      ans:"Successfully restored a wild population from near-extinction",
      hint:"Once extinct in the w... in Japan, breeding programs now sustain over 400 w... birds on Sado Island."},
 

@@ -98,7 +98,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot signifie 'the future' en français ?",
-     opts:["l'avenir","l'aventure","l'avantage","l'avion"],
+     opts:["l'avion","l'avenir","l'aventure","l'avantage"],
      ans:"l'avenir",
      hint:"This masculine noun refers to the time that is yet to come, what lies ahead."},
 
@@ -143,7 +143,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot désigne un bus longue distance ?",
-     opts:["l'autocar","l'automobile","l'autoroute","l'avion"],
+     opts:["l'autoroute","l'avion","l'autocar","l'automobile"],
      ans:"l'autocar",
      hint:"This masculine noun is for inter-city buses, not the local city bus."},
 

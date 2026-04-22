@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"噂(うわさ)", src:"rumor"}
     ]},
 
-    {type:"mc", q:"What does デマ mean in Japanese?", opts:["False rumor / misinformation","Democracy","Demonstration","Demand"], ans:"False rumor / misinformation",
+    {type:"mc", q:"What does デマ mean in Japanese?", opts:["Demand","False rumor / misinformation","Democracy","Demonstration"], ans:"False rumor / misinformation",
      hint:"This word, from German 'Demagogie,' refers to deliberately spread f... information."}
   ,{type:"match",pairs:[{trg:"取材(しゅざい)する",src:"to interview / to gather news"},{trg:"発表(はっぴょう)する",src:"to announce / to publish / to present"},{trg:"世論(よろん)",src:"public opinion"},{trg:"取(と)り上(あ)げる",src:"to take up / to cover (a topic)"}]}]
 };

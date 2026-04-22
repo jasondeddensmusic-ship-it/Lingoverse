@@ -78,7 +78,7 @@ const LESSON_1 = {id:"esv2_b2g4_l1",title:"Cuerpo y salud avanzada",icon:"🏥",
  exampleSrc:"A: With this heat, the water evaporates right away.\nB: We need to water the plants at night.",
  funFact:"From Latin evaporare (e- out + vapor steam). Spain loses massive water to evaporation in summer."},
 
-{type:"mc",q:"¿Qué significa 'estéril' en un contexto médico?",opts:["Libre de gérmenes","Muy doloroso","Relacionado con los huesos","De larga duración"],ans:"Libre de gérmenes",hint:"Think about the cleanliness required in an operating room."},
+{type:"mc",q:"¿Qué significa 'estéril' en un contexto médico?",opts:["De larga duración","Libre de gérmenes","Muy doloroso","Relacionado con los huesos"],ans:"Libre de gérmenes",hint:"Think about the cleanliness required in an operating room."},
 
 {type:"teach",trg:"la absorción",src:"the absorption",pos:"noun",gender:"f",
  note:"Feminine noun. The process of absorbing.\nUsed in medicine, science, and business.",
@@ -96,7 +96,7 @@ const LESSON_1 = {id:"esv2_b2g4_l1",title:"Cuerpo y salud avanzada",icon:"🏥",
 
 {type:"match",pairs:[{trg:"esguince",src:"sprain"},{trg:"diagnóstico",src:"diagnosis"},{trg:"envejecimiento",src:"aging"},{trg:"articulación",src:"joint"},{trg:"extremidad",src:"limb"}]},
 
-{type:"mc",q:"¿Qué se evapora con el calor?",opts:["El agua","El hielo","La tierra","El viento"],ans:"El agua",hint:"Think about what happens to liquid when temperatures rise."},
+{type:"mc",q:"¿Qué se evapora con el calor?",opts:["La tierra","El viento","El agua","El hielo"],ans:"El agua",hint:"Think about what happens to liquid when temperatures rise."},
 
 {type:"fb",s:"Haz {1} antes de empezar a correr para no lesionarte.",a:["estiramiento"],opts:["estiramiento","envejecimiento","estreñimiento","diagnóstico"],hint:"The warm-up exercise where you extend your muscles.",sSrc:"Do {1} before you start running so you do not get injured."}
 ]};

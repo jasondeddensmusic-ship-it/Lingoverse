@@ -1,4 +1,4 @@
-// Batch 8 — Unit 32 extra lesson. Globalization: Migration & Cultural Exchange
+// Batch 8. Unit 32 extra lesson. Globalization: Migration & Cultural Exchange
 const BATCH8_L1 = {id:"itv2_u32l_b8_1", title:"Migrazione e culture", icon:"🌏", xp:15, board:true, steps:[
 {type:"intro", title:"Migrazione e culture",
  desc:"Learn vocabulary for discussing migration, cultural exchange, and the global movement of people and ideas.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u32l_b8_1", title:"Migrazione e culture", icon:"🌏
 
 {type:"mc",
  q:"Which Italian island became a symbol of Mediterranean migration?",
- opts:["Lampedusa","Sardinia","Capri","Elba"],
+ opts:["Elba","Lampedusa","Sardinia","Capri"],
  ans:"Lampedusa",
  hint:"This small Sicilian island is the closest European point to North Africa. Thousands arrive by sea each year."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u32l_b8_1", title:"Migrazione e culture", icon:"🌏
 
 {type:"mc",
  q:"What does 'convivenza' also mean besides cultural coexistence?",
- opts:["Living together as an unmarried couple","A cooking tradition","A political alliance","A religious ceremony"],
+ opts:["A political alliance","A religious ceremony","Living together as an unmarried couple","A cooking tradition"],
  ans:"Living together as an unmarried couple",
  hint:"Italy legally recognized civil unions in 2016. 'Convivenza' covers both cultural and romantic l... t...."}
-,{type:"match",pairs:[{trg:"il meticciato",src:"the cultural mixing / mestizaje"},{trg:"la seconda generazione",src:"the second generation"}]},{type:"mc",q:"How do you say \"immigration\" in Italian?",opts:["la finestra","il tavolo","l'immigrazione","la bicicletta"],ans:"l'immigrazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il meticciato",src:"the cultural mixing / mestizaje"},{trg:"la seconda generazione",src:"the second generation"}]},{type:"mc",q:"How do you say \"immigration\" in Italian?",opts:["la bicicletta","la finestra","il tavolo","l'immigrazione"],ans:"l'immigrazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

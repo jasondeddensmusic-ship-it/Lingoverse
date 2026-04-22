@@ -1,4 +1,4 @@
-// Batch 4 — Unit 11, Lesson 1: Time Expressions for the Past
+// Batch 4. Unit 11, Lesson 1: Time Expressions for the Past
 const BATCH4_U11_L1 = {
   id:"itv2_u11l_b4_1", title:"Quando e successo?", icon:"\uD83D\uDD52", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U11_L1 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'ancora' in 'non ho ancora finito'?",
-     opts:["Yet","Still","Again","Always"],
+     opts:["Always","Yet","Still","Again"],
      ans:"Yet",
      hint:"With 'non...ancora,' the word means something has not happened y...."},
 
@@ -126,7 +126,7 @@ const BATCH4_U11_L1 = {
      sSrc:"What {1}? Why are you sad?"},
 
     {type:"mc", q:"Qual e la differenza tra 'ricordare' e 'ricordarsi'?",
-     opts:["They mean the same thing. Both forms are correct","Ricordare is formal; ricordarsi is informal","Ricordarsi is past tense","Only ricordare is correct"],
+     opts:["Ricordarsi is past tense","Only ricordare is correct","They mean the same thing. Both forms are correct","Ricordare is formal; ricordarsi is informal"],
      ans:"They mean the same thing. Both forms are correct",
      hint:"Italian sometimes offers two parallel f... with identical meaning."},
 
@@ -136,9 +136,9 @@ const BATCH4_U11_L1 = {
      sSrc:"{1} everything about your vacation!"},
 
     {type:"mc", q:"Cosa significa 'poco fa'?",
-     opts:["A little while ago","A little later","A little bit","A few days"],
+     opts:["A little later","A little bit","A few days","A little while ago"],
      ans:"A little while ago",
      hint:"'Poco' means 'a l...' and 'fa' means 'a...' in time expressions."}
-  ,{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"ancora",src:"still / yet / again"},{trg:"appena",src:"just (now) / barely"},{trg:"succedere",src:"to happen / to occur"},{trg:"dimenticare",src:"to forget"},{trg:"raccontare",src:"to tell / to narrate"}]},{type:"mc",q:"How do you say \"last time\" in Italian?",opts:["la finestra","l'ultima volta","il tavolo","la bicicletta"],ans:"l'ultima volta",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"experience\" in Italian?",opts:["la finestra","l'esperienza","il tavolo","la bicicletta"],ans:"l'esperienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"ancora",src:"still / yet / again"},{trg:"appena",src:"just (now) / barely"},{trg:"succedere",src:"to happen / to occur"},{trg:"dimenticare",src:"to forget"},{trg:"raccontare",src:"to tell / to narrate"}]},{type:"mc",q:"How do you say \"last time\" in Italian?",opts:["l'ultima volta","il tavolo","la bicicletta","la finestra"],ans:"l'ultima volta",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"experience\" in Italian?",opts:["la finestra","l'esperienza","il tavolo","la bicicletta"],ans:"l'esperienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U11_L1;

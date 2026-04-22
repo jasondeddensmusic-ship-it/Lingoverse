@@ -41,7 +41,7 @@ const LESSON_11 = {
     // ── Quiz block 1 ──
     {type:"mc",
      q:"'사무실'에서 '실'의 뜻은 무엇입니까?",
-     opts:["building","floor","room","street"],
+     opts:["room","street","building","floor"],
      ans:"room",
      hint:"This hanja character appears in many Korean words for enclosed spaces where people gather."},
 
@@ -90,7 +90,7 @@ const LESSON_11 = {
     // ── Quiz block 2 ──
     {type:"mc",
      q:"'박물관'과 '대사관'에 공통으로 들어가는 글자는?",
-     opts:["실","장","서","관"],
+     opts:["서","관","실","장"],
      ans:"관",
      hint:"Both words end with a character meaning a large public building or hall."},
 
@@ -175,7 +175,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'자리 있어요?'는 무슨 뜻이에요?",
-     opts:["Is there a seat?","Where is the place?","Is this the middle?","Is the park open?"],
+     opts:["Where is the place?","Is this the middle?","Is the park open?","Is there a seat?"],
      ans:"Is there a seat?",
      hint:"This native Korean word refers to a spot where you can sit down."},
 
@@ -210,7 +210,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"멀리 있는 건물을 가리키며: '___이 뭐예요?'",
-     opts:["이곳","그곳","저곳","여기"],
+     opts:["저곳","여기","이곳","그곳"],
      ans:"저곳",
      hint:"The building is far from both you and the person you are speaking to."},
 

@@ -98,7 +98,7 @@ const LESSON_16 = {id:"frv2_b1gap_l16", title:"Changer et se transformer", icon:
 
 {type:"mc",
  q:"Quel verbe signifie 'satisfaire complètement un désir profond' ?",
- opts:["assouvir","assagir","augurer","acclimater"],
+ opts:["acclimater","assouvir","assagir","augurer"],
  ans:"assouvir",
  hint:"This verb implies complete satisfaction of a deep craving. Think of fully satiating hunger."},
 
@@ -137,7 +137,7 @@ const LESSON_16 = {id:"frv2_b1gap_l16", title:"Changer et se transformer", icon:
 
 {type:"mc",
  q:"Quel est l'encouragement français équivalent de 'Hang in there!' ?",
- opts:["Accroche-toi !","Assagis-toi !","Acclimate-toi !","Assouvis-toi !"],
+ opts:["Acclimate-toi !","Assouvis-toi !","Accroche-toi !","Assagis-toi !"],
  ans:"Accroche-toi !",
  hint:"This reflexive verb literally means to hook onto something. It's the most common French encouragement."},
 

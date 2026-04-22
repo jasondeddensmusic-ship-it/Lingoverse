@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'il candidato' in a job context?",
-     opts:["The employer","The applicant","The interviewer","The recruiter"],
+     opts:["The applicant","The interviewer","The recruiter","The employer"],
      ans:"The applicant",
      hint:"From Latin 'candidatus' (dressed in white). This person is seeking the open position."},
 
@@ -81,7 +81,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"What is 'il colloquio conoscitivo'?",
-     opts:["The final interview round","A salary negotiation meeting","A casual introductory interview","A written exam for candidates"],
+     opts:["A salary negotiation meeting","A casual introductory interview","A written exam for candidates","The final interview round"],
      ans:"A casual introductory interview",
      hint:"'Conoscitivo' means 'for getting to know.' This first-round meeting focuses on personality and cultural fit."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"The company wants to {1}! I start Monday."},
 
     {type:"mc", q:"What is the past participle of 'assumere'?",
-     opts:["Assumuto","Assunto","Assumito","Assunato"],
+     opts:["Assumito","Assunato","Assumuto","Assunto"],
      ans:"Assunto",
      hint:"This is irregular, like 'prendere > preso.' The stem changes in the past participle form."}
   ]

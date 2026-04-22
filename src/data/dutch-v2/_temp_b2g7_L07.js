@@ -90,7 +90,7 @@ const LESSON_7 = {
      funFact:"The Netherlands exports more flowers than any other country. Aalsmeer flower auction near Amsterdam is the largest commercial building in the world by floor space."},
     {type:"mc",
      q:"Wat is een 'burgerservicenummer'?",
-     opts:["Een persoonlijk identificatienummer van de overheid","Een telefoonnummer van de gemeente","Een bankrekening voor burgers","Een nummer voor het openbaar vervoer"],
+     opts:["Een nummer voor het openbaar vervoer","Een persoonlijk identificatienummer van de overheid","Een telefoonnummer van de gemeente","Een bankrekening voor burgers"],
      ans:"Een persoonlijk identificatienummer van de overheid",
      hint:"Break it down: burger (citizen) + service + nummer (number). What does the government assign to each person?"},
     {type:"fb",
@@ -108,7 +108,7 @@ const LESSON_7 = {
     ]},
     {type:"mc",
      q:"Welke sector exporteert Nederland het meest?",
-     opts:["Landbouw en technologie","Alleen olie en gas","Kleding en textiel","Alleen kaas"],
+     opts:["Kleding en textiel","Alleen kaas","Landbouw en technologie","Alleen olie en gas"],
      ans:"Landbouw en technologie",
      hint:"The Netherlands is the world's second-largest agricultural exporter. Combined with its tech sector, what's the answer?"}
   ]

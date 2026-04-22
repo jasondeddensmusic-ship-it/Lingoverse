@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"I {1} a Shiba Inu. Its name is Koro."},
 
     {type:"mc", q:"招(まね)き猫(ねこ) is:",
-     opts:["A lucky beckoning cat figurine","A type of cat food","A cat breed","A cat cafe"],
+     opts:["A cat cafe","A lucky beckoning cat figurine","A type of cat food","A cat breed"],
      ans:"A lucky beckoning cat figurine",
      hint:"These figurines sit in shop entrances with one paw raised, b... customers and good fortune."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Please give {1} to the goldfish."},
 
     {type:"mc", q:"鶴(つる)は千年(せんねん)、亀(かめ)は万年(まんねん) means:",
-     opts:["Cranes live 1000 years, turtles 10000","Cranes and turtles are friends","Cranes fly, turtles swim","Cranes are fast, turtles are slow"],
+     opts:["Cranes fly, turtles swim","Cranes are fast, turtles are slow","Cranes live 1000 years, turtles 10000","Cranes and turtles are friends"],
      ans:"Cranes live 1000 years, turtles 10000",
      hint:"This proverb celebrates longevity. Both animals symbolize a long and healthy life in Japan."},
 

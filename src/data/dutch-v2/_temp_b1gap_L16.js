@@ -1,4 +1,4 @@
-// L16: Sports and Physical Activity — 20 B1 gap words
+// L16: Sports and Physical Activity, 20 B1 gap words
 const LESSON_16 = {
   id:"nlv2_b1gap_l16", title:"Sport en Beweging", icon:"\u{1F3C3}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Een turnster die snel en soepel over de balk beweegt is heel ___.",
-     opts:["behendig","bars","bakstenen","beduidend"],
+     opts:["beduidend","behendig","bars","bakstenen"],
      ans:"behendig",
      hint:"Which adjective describes someone who is physically agile and nimble?"},
 
@@ -138,7 +138,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"De Romeinen noemden de volken buiten hun rijk ___.",
-     opts:["barbaren","baronnen","baritonen","acrobaten"],
+     opts:["baritonen","acrobaten","barbaren","baronnen"],
      ans:"barbaren",
      hint:"Which word did the Romans use for people they considered uncivilized?"}
   ]

@@ -285,7 +285,7 @@ const UNIT_14 = {
        funFact:"'Dimettersi' is reflexive: literally 'to dismiss oneself.' In Italian employment law, resignation requires written notice ('preavviso'), usually 15 to 90 days depending on the contract. Leaving without notice can result in a financial penalty."},
 
       {type:"tip", title:"Passato Prossimo vs Imperfetto",
-       text:"Both are past tenses. The key difference is HOW you see the action.\n\nPassato prossimo — completed, specific events:\nIeri ho lavorato fino alle otto. (Yesterday I worked until eight.)\nMi hanno assunto lunedi. (They hired me on Monday.)\nUse it for: single completed events, sequences of events, reactions.\n\nImperfetto — ongoing, habitual, or descriptive:\nLavoravo in una banca per anni. (I used to work at a bank for years.)\nMentre lavoravo, ha chiamato il capo. (While I was working, the boss called.)\nUse it for: habits in the past, background descriptions, interrupted actions.\n\nThe quick test:\nCan you say 'was doing' or 'used to do'? Use imperfetto.\nDid it happen once, completely? Use passato prossimo.\n\nTogether in a story:\nImperfetto sets the scene. Passato prossimo moves the plot.",
+       text:"Both are past tenses. The key difference is HOW you see the action.\n\nPassato prossimo, completed, specific events:\nIeri ho lavorato fino alle otto. (Yesterday I worked until eight.)\nMi hanno assunto lunedi. (They hired me on Monday.)\nUse it for: single completed events, sequences of events, reactions.\n\nImperfetto, ongoing, habitual, or descriptive:\nLavoravo in una banca per anni. (I used to work at a bank for years.)\nMentre lavoravo, ha chiamato il capo. (While I was working, the boss called.)\nUse it for: habits in the past, background descriptions, interrupted actions.\n\nThe quick test:\nCan you say 'was doing' or 'used to do'? Use imperfetto.\nDid it happen once, completely? Use passato prossimo.\n\nTogether in a story:\nImperfetto sets the scene. Passato prossimo moves the plot.",
        icon:"💡",
        deepDive:{title:"The narrative engine of Italian",
         text:"Italian learners call this distinction the hardest grammar challenge after the subjunctive. The trick is to see time cinematically. The imperfetto is the camera holding on a scene: 'Era tardi, pioveva, e lavoravo ancora.' (It was late, it was raining, and I was still working.) Then the passato prossimo is a cut: 'Poi ha telefonato Marco.' (Then Marco called.) The imperfetto creates the atmosphere; the passato prossimo creates the event. Verbs of emotion and state (pensare, volere, essere, avere) often prefer the imperfetto in past contexts because they describe conditions, not events: 'Ero stanco' (I was tired) not 'Ho stato stanco.'"}},
@@ -392,7 +392,7 @@ const UNIT_14 = {
         text:"The CILS B1 and B2 writing tasks often ask you to express an opinion on a social or political topic. Strong candidates use all 7 words from this lesson. A typical prompt: 'Quali sono i vantaggi e gli svantaggi dello sviluppo tecnologico per la società?' (What are the advantages and disadvantages of technological development for society?) Notice how confrontare, l'economia, la politica, and l'istruzione all fit naturally into this essay. The examiner rewards precise vocabulary, not just grammatical correctness."}},
 
       {type:"mc", q:"What does 'confrontare' mean?",
-       opts:["To confirm","To confront","To compare","To consider"],
+       opts:["To compare","To consider","To confirm","To confront"],
        ans:"To compare",
        hint:"This -are verb is used to place two things side by side and examine differences. Think of placing them 'face to face.'"},
 
@@ -433,7 +433,7 @@ const UNIT_14 = {
        sSrc:"What is the main {1} of this plan?"},
 
       {type:"mc", q:"Which sentence uses 'lo sviluppo' correctly?",
-       opts:["Lo sviluppo è un verbo irregolare.","Lo sviluppo economico crea lavoro.","La sviluppo della città è rapida.","Un sviluppo, per favore."],
+       opts:["La sviluppo della città è rapida.","Un sviluppo, per favore.","Lo sviluppo è un verbo irregolare.","Lo sviluppo economico crea lavoro."],
        ans:"Lo sviluppo economico crea lavoro.",
        hint:"One option uses the right article AND builds a meaningful civic phrase about growth and jobs. Eliminate the grammar errors and nonsense options first."}
     ]}

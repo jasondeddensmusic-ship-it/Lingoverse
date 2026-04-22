@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 13 (Experience) — more life experiences, travel, cultural activities
+// Batch 2 expansion for Unit 13 (Experience), more life experiences, travel, cultural activities
 const BATCH2_L_1 = {
   id:"jav2_u13l_b2_1", title:"素敵(すてき)な体験(たいけん)", icon:"🎌", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Have you ever camped in the mountains?\nB: Yes, it was very fun.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
    funFact:"Camping exploded in popularity in Japan after the anime ゆるキャン (Laid-Back Camp) aired. Japanese camping culture emphasizes quality gear, beautiful scenery, and gourmet outdoor cooking. Solo camping (ソロキャンプ) has become especially trendy among adults."},
 
-  {type:"mc", q:"スノーボードをしたことがありますか means:", opts:["Do you want to snowboard?","Have you ever been snowboarding?","Can you snowboard?","Are you snowboarding now?"], ans:"Have you ever been snowboarding?",
+  {type:"mc", q:"スノーボードをしたことがありますか means:", opts:["Have you ever been snowboarding?","Can you snowboard?","Are you snowboarding now?","Do you want to snowboard?"], ans:"Have you ever been snowboarding?",
    hint:"た-form + ことがある asks about past life experience."},
 
   {type:"teach", trg:"ホームステイ", src:"homestay", pos:"noun", gender:null,
@@ -78,7 +78,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: How was the trip?\nB: It was very fun!\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
    funFact:"楽(たの)しかった is the most common response to 'how was it?' questions about experiences. The い-adjective past formation (drop い, add かった) is one of the most useful grammar patterns for sharing stories about past experiences."},
 
-  {type:"mc", q:"つまらない means:", opts:["scary","wonderful","boring","difficult"], ans:"boring",
+  {type:"mc", q:"つまらない means:", opts:["wonderful","boring","difficult","scary"], ans:"boring",
    hint:"The opposite of 面白(おもしろ)い, expressing lack of interest or satisfaction."},
 
   {type:"match", pairs:[{trg:"釣(つ)り",src:"fishing"},{trg:"キャンプ",src:"camping"},{trg:"ホームステイ",src:"homestay"},{trg:"踊(おど)る",src:"to dance"}]},

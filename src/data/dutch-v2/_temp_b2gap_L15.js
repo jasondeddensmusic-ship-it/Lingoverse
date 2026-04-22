@@ -1,4 +1,4 @@
-// L15: Sports & Leisure — 20 B2 gap words
+// L15: Sports & Leisure, 20 B2 gap words
 const LESSON_15 = {
   id:"nlv2_b2gap_l15", title:"Sport en Vrije Tijd", icon:"\u26BD", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_15 = {
      deepDive:{title:"Dutch sports culture",
       text:"The Netherlands punches above its weight in sports:\n\nFootball: third in FIFA rankings historically\nSpeed skating: dominant worldwide\nHockey (field): consistently world champions\nCycling: produces Tour de France contenders\nSwimming: Olympic medal factory\n\nEvery Dutch child does sport. 'Sportverenigingen' (sports clubs) are central to community life. Membership is cheap (50-200 euros/year) thanks to municipal subsidies.\n\nThe 'KNVB' (football), 'KNSB' (skating), and 'KNHB' (hockey) are the largest sports federations."}},
     {type:"mc", q:"'Blokken' in Dutch student slang means:",
-     opts:["to play with blocks","to cram for exams","to block a road","to exercise"],
+     opts:["to cram for exams","to block a road","to exercise","to play with blocks"],
      ans:"to cram for exams",
      hint:"The 'blokperiode' is when students study intensely before e...."},
     {type:"mc", q:"'Autovrij' means:",
@@ -132,7 +132,7 @@ const LESSON_15 = {
       {trg:"badminton", src:"badminton"}
     ]},
     {type:"mc", q:"A 'bruin cafe' is:",
-     opts:["a coffee shop","a traditional Dutch pub","a chocolate shop","a restaurant chain"],
+     opts:["a restaurant chain","a coffee shop","a traditional Dutch pub","a chocolate shop"],
      ans:"a traditional Dutch pub",
      hint:"Named after the dark wood and tobacco-stained walls of old pubs."},
     {type:"fb", s:"Het centrum is op zondag {1}.", a:["autovrij"],

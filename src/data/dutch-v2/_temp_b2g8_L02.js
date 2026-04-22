@@ -1,4 +1,4 @@
-// Lesson 2 — Youth & Education
+// Lesson 2. Youth & Education
 const LESSON_2 = {id:"nlv2_b2g8_l2", title:"Jeugd en Onderwijs", icon:"\u{1F393}", xp:20, board:true, steps:[
 {type:"intro", title:"Jeugd en Onderwijs", desc:"Vocabulary for talking about youth organizations, education systems, and young people's lives in the Netherlands and Belgium.", goals:["Learn 10 words about youth and education","Discuss school types and youth movements","Understand Belgian vs. Dutch education terms"]},
 {type:"teach", trg:"de jeugdbeweging", src:"the youth movement", pos:"noun", gender:"c", note:"COMPOUND: jeugd (youth) + beweging (movement).\nIn Belgium: Scouts, Chiro, KSA.\nIn NL: Scouting, JNM.", example:"A: Zat jij bij een jeugdbeweging?\nB: Ja, ik was bij de Scouts.\nA: Wat deed je daar allemaal?\nB: Kamperen, knutselen, spelletjes spelen.", exampleSrc:"A: Were you in a youth movement?\nB: Yes, I was in the Scouts.\nA: What did you do there?\nB: Camping, crafting, playing games.", funFact:"Belgium has one of the highest youth movement participation rates in Europe, especially in Flanders."},

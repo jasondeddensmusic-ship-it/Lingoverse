@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"画面(がめん)", src:"screen"}
     ]},
 
-    {type:"mc", q:"What is a ノートパソコン?", opts:["A laptop computer","A notebook for notes","A tablet device","A desktop computer"], ans:"A laptop computer",
+    {type:"mc", q:"What is a ノートパソコン?", opts:["A desktop computer","A laptop computer","A notebook for notes","A tablet device"], ans:"A laptop computer",
      hint:"ノート (notebook-sized) combined with パソコン (personal c...) gives you a portable c...."}
   ,{type:"match",pairs:[{trg:"イヤホン",src:"earphones"},{trg:"プリンター",src:"printer"},{trg:"電源(でんげん)",src:"power supply / power button"}]}]
 };

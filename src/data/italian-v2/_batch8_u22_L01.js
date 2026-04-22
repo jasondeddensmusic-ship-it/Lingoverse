@@ -1,4 +1,4 @@
-// Batch 8 â€” Unit 22 extra lesson. Culture: Italian Design & Architecture
+// Batch 8. Unit 22 extra lesson. Culture: Italian Design & Architecture
 const BATCH8_L1 = {id:"itv2_u22l_b8_1", title:"Design e architettura", icon:"ğŸ›ï¸", xp:15, board:true, steps:[
 {type:"intro", title:"Design e architettura",
  desc:"Learn vocabulary for Italian design, architecture, and the aesthetic traditions that shaped the world.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u22l_b8_1", title:"Design e architettura", icon:"ğŸ
 
 {type:"mc",
  q:"How many UNESCO World Heritage Sites does Italy have?",
- opts:["59 (the most in the world)","25","42","100"],
+ opts:["100","59 (the most in the world)","25","42"],
  ans:"59 (the most in the world)",
  hint:"Italy holds the w... record. Many entire city centers are protected heritage sites."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u22l_b8_1", title:"Design e architettura", icon:"ğŸ
 
 {type:"mc",
  q:"What does 'a fresco' literally mean in art?",
- opts:["On fresh (wet plaster)","In cold weather","With fresh colors","Under fresh air"],
+ opts:["With fresh colors","Under fresh air","On fresh (wet plaster)","In cold weather"],
  ans:"On fresh (wet plaster)",
  hint:"This painting technique involves applying pigment directly onto a freshly prepared surface. The paint bonds chemically as the surface dries."}
 ]};

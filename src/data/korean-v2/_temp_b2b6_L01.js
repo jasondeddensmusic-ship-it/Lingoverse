@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 1: Trade and Collections
+// Korean B2. Batch 6, Lesson 1: Trade and Collections
 // Words: 수입되다, 수입품, 수입하다, 수출하다, 수표, 수행하다, 수험생, 수화기, 수저, 수집, 수집하다, 수천, 수컷, 수필, 숙녀, 순간적, 순수, 순식간, 순진하다, 순하다
 
 const LESSON_1 = {
@@ -145,7 +145,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'순식간에'는 무슨 뜻인가요?",
-     opts:["아주 빠르게","천천히","조심스럽게","갑자기"],
+     opts:["갑자기","아주 빠르게","천천히","조심스럽게"],
      ans:"아주 빠르게",
      hint:"Think of something that happens in the time between a blink and a breath."},
 

@@ -1,4 +1,4 @@
-// Unit 4 — ¡A Comer!
+// Unit 4, ¡A Comer!
 // Food & Drink
 
 export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Food & Drink",icon:"🍽️",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -184,19 +184,19 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
     {type:"teach",trg:"querer",src:"to want",pos:"verb",gender:null,phonetic:"keh-REHR",note:"Stem-changing e to ie. Yo: quiero. Tu: quieres. El: quiere.\nNosotros: queremos (no change). Ellos: quieren.",example:"A: ¿Qué quieres hacer hoy?\nB: Quiero ir al restaurante.",exampleSrc:"A: What do you want to do today?\nB: I want to go to the restaurant.",funFact:"Querer also means 'to love' when used with people: Te quiero = I love you. Context always makes the meaning clear."},
     {type:"teach",trg:"saber",src:"to know (facts/how to)",pos:"verb",gender:null,phonetic:"sah-BEHR",note:"Irregular yo: sé. Other forms regular: sabes, sabe, sabemos, saben.\nSaber = knowing facts or how to do something.",example:"A: ¿Sabes hablar español?\nB: No, no sé. Es muy difícil.",exampleSrc:"A: Do you know how to speak Spanish?\nB: No, I don't know. It's very difficult.",funFact:"Spanish has two verbs for 'to know': saber (facts, skills, how to) and conocer (people, places). This distinction does not exist in English."},
     {type:"tip",title:"Saber vs Conocer",text:"Both mean 'to know' but are NOT interchangeable:\n\nsaber = know a fact or know how to do something:\n¿Sabes su nombre? (Do you know her name?)\n¿Sabes nadar? (Do you know how to swim?)\n\nconocer = know/be acquainted with a person or place:\n¿Conoces Madrid? (Do you know Madrid?)\nConozco a Maria. (I know Maria.)\n\nTip: if you can replace 'know' with 'know how to' or 'know that', use saber.",icon:"💡"},
-    {type:"mc",q:"¿Dónde estudias?",opts:["En la familia","En la universidad","En el restaurante","En la fruta"],ans:"En la universidad",hint:"Choose the place where people go to study at degree level."},
+    {type:"mc",q:"¿Dónde estudias?",opts:["En la universidad","En el restaurante","En la fruta","En la familia"],ans:"En la universidad",hint:"Choose the place where people go to study at degree level."},
     {type:"fb",opts:["usted","tú","él","yo"],hint:"You are addressing a professor you have never met. Use the formal form.",s:"Buenos dias, profesor. ¿Cómo está {1}?",a:"usted"},
-    {type:"mc",q:"¿Cómo se dice 'to make dinner' in Spanish?",opts:["saber la cena","querer la cena","hacer la cena","tener la cena"],ans:"hacer la cena",hint:"'To do' or 'to make' something = this irregular verb."},
+    {type:"mc",q:"¿Cómo se dice 'to make dinner' in Spanish?",opts:["querer la cena","hacer la cena","tener la cena","saber la cena"],ans:"hacer la cena",hint:"'To do' or 'to make' something = this irregular verb."},
     {type:"fb",opts:["sé","sabes","sabe","sabemos"],hint:"First-person singular of saber. Remember: this yo-form is irregular.",s:"No {1} cocinar. ¿Me enseñas?",a:"sé"},
     {type:"match",pairs:[{trg:"la familia",src:"family"},{trg:"el restaurante",src:"restaurant"},{trg:"la universidad",src:"university"},{trg:"la escuela",src:"school"},{trg:"la fruta",src:"fruit"}]},
     {type:"mc",q:"¿Qué significa 'usted'?",opts:["you (informal)","he / she","you (formal)","I"],ans:"you (formal)",hint:"This pronoun is used with strangers, elders, and in professional contexts."},
     {type:"fb",opts:["querer","hacer","saber","tener"],hint:"This verb means 'to want'. It stem-changes e to ie.",s:"¿Cuál es el infinitivo de 'quiero'?",a:"querer"},
-    {type:"mc",q:"Select the correct form: 'Ella ___ hablar inglés.'",opts:["sé","sabes","sabe","saben"],ans:"sabe",hint:"Ella is third-person singular. Saber is regular in all forms except yo."},
+    {type:"mc",q:"Select the correct form: 'Ella ___ hablar inglés.'",opts:["saben","sé","sabes","sabe"],ans:"sabe",hint:"Ella is third-person singular. Saber is regular in all forms except yo."},
     {type:"fb",opts:["hago","haces","hace","hacemos"],hint:"First-person singular of hacer. The yo form is irregular.",s:"Yo {1} la comida cada día.",a:"hago"},
-    {type:"mc",q:"Choose the correct verb: '¿___ a Carmen?' (Do you know Carmen?)",opts:["Sabes","Conoces","Tienes","Quieres"],ans:"Conoces",hint:"You are acquainted with a person, not asking about a fact. Use the verb for personal acquaintance."},
+    {type:"mc",q:"Choose the correct verb: '¿___ a Carmen?' (Do you know Carmen?)",opts:["Conoces","Tienes","Quieres","Sabes"],ans:"Conoces",hint:"You are acquainted with a person, not asking about a fact. Use the verb for personal acquaintance."},
     {type:"fb",opts:["escuela","universidad","restaurante","familia"],hint:"This is where young children go to learn. Not a university.",s:"Los niños van a la {1} por la mañana.",a:"escuela"},
     {type:"match",pairs:[{trg:"hacer",src:"to do / to make"},{trg:"querer",src:"to want"},{trg:"saber",src:"to know (facts)"}]},
-    {type:"mc",q:"¿Qué quieres comer? Complete the reply: '___ ir al restaurante.'",opts:["Sé","Hago","Quiero","Sabes"],ans:"Quiero",hint:"Expressing a personal desire uses the yo form of querer."},
+    {type:"mc",q:"¿Qué quieres comer? Complete the reply: '___ ir al restaurante.'",opts:["Hago","Quiero","Sabes","Sé"],ans:"Quiero",hint:"Expressing a personal desire uses the yo form of querer."},
     {type:"fb",opts:["fruta","familia","escuela","universidad"],hint:"A collective noun for apples, oranges, strawberries, and similar items.",s:"Como mucha {1}: manzanas, naranjas y fresas.",a:"fruta"},
     {type:"mc",q:"'Usted' uses which verb form?",opts:["yo form","tú form","él/ella form","nosotros form"],ans:"él/ella form",hint:"Even though usted means 'you', it is grammatically third-person singular."},
     {type:"fb",opts:["hacer","querer","saber","tener"],hint:"Use this verb when you know a fact or know how to do something.",s:"¿{1} hablar español?",a:"saber"}

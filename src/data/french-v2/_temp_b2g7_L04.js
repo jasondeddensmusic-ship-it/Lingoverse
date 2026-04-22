@@ -80,7 +80,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Comment decrit-on une personne qu'on ne reconnait plus ?",
-     opts:["meconnaissable","mortifere","minutieux","moisi"],
+     opts:["moisi","meconnaissable","mortifere","minutieux"],
      ans:"meconnaissable",
      hint:"The prefix 'me-' negates 'connaissable' (recognizable)."},
 
@@ -113,7 +113,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot designe un etat d'enthousiasme intense ?",
-     opts:["l'exaltation","l'indigestion","l'inhalation","l'heredite"],
+     opts:["l'inhalation","l'heredite","l'exaltation","l'indigestion"],
      ans:"l'exaltation",
      hint:"An intense feeling of excitement, sometimes bordering on fanaticism."},
 

@@ -60,7 +60,7 @@ const LESSON_13 = {
      deepDive:{title:"Why the Golden Age matters today",
       text:"The Dutch Golden Age is both a source of pride and controversy. Pride: art (Rembrandt, Vermeer), science (Huygens, Leeuwenhoek), trade, and tolerance. Controversy: the VOC traded in enslaved people, and colonial wealth funded the art and architecture.\n\nModern Dutch society is actively debating this legacy. Museums are adding context about colonialism. Street names are being reconsidered. 'Zwarte Piet' (Black Pete) is the most visible example of this cultural reckoning."}},
     {type:"mc", q:"Wat was 'de gulden'?",
-     opts:["een Nederlands schilderij","de vorige Nederlandse munt","een Nederlandse held","een type kaas"],
+     opts:["de vorige Nederlandse munt","een Nederlandse held","een type kaas","een Nederlands schilderij"],
      ans:"de vorige Nederlandse munt",
      hint:"From 'gouden' (golden). Used for over 600 years before the euro."},
     {type:"fb", s:"Nederland was ooit een {1}.", a:["grootmacht"],

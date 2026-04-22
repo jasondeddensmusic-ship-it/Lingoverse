@@ -1,4 +1,4 @@
-// Lesson 20 — Naturaleza y tradicion (Nature and Tradition)
+// Lesson 20. Naturaleza y tradicion (Nature and Tradition)
 const LESSON_20 = {id:"esv2_b2g9_l20", title:"Naturaleza y tradici\u00f3n", icon:"\u{1F33F}", xp:25, board:true, steps:[
   {type:"intro", title:"Naturaleza y tradici\u00f3n",
    desc:"Close this unit with vocabulary that connects nature, animals, food traditions, and cultural heritage. These words round out your B2 Spanish.",
@@ -69,7 +69,7 @@ const LESSON_20 = {id:"esv2_b2g9_l20", title:"Naturaleza y tradici\u00f3n", icon
    funFact:"Galicia in northwest Spain has hundreds of menhirs, rivalling Brittany as one of Europe's richest regions for megalithic monuments."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un enrejado en una casa andaluza?",
-   opts:["Un tipo de tejado","Una estructura de barras de hierro en las ventanas","Un jard\u00edn interior","Un pozo de agua"],
+   opts:["Una estructura de barras de hierro en las ventanas","Un jard\u00edn interior","Un pozo de agua","Un tipo de tejado"],
    ans:"Una estructura de barras de hierro en las ventanas",
    hint:"Reja means grille or bar. The -ado suffix means it has been fitted with these bars."},
 

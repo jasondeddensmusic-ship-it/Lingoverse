@@ -1,4 +1,4 @@
-// French V2 Unit 70 — B2 Vocabulary Batch 8
+// French V2 Unit 70. B2 Vocabulary Batch 8
 import L16 from './_temp_b2g8_L16.js';
 import L17 from './_temp_b2g8_L17.js';
 import L18 from './_temp_b2g8_L18.js';

@@ -66,7 +66,7 @@ const LESSON_5 = {id:"esv2_b2gC_l5",title:"Oficios y profesiones",icon:"🔧",xp
  exampleSrc:"A: The female factory workers asked for better conditions.\nB: The company agreed to negotiate a new agreement.",
  funFact:"In Spanish, 'obrero/obrera' carries more political weight than 'trabajador'. It evokes the labor movement."},
 
-{type:"mc",q:"¿Qué profesional diseña la disposición visual de una revista?",opts:["El maquetador","El peluquero","El paleontólogo","El panadero"],ans:"El maquetador",hint:"This person works with page layouts, arranging text and images for publications."},
+{type:"mc",q:"¿Qué profesional diseña la disposición visual de una revista?",opts:["El panadero","El maquetador","El peluquero","El paleontólogo"],ans:"El maquetador",hint:"This person works with page layouts, arranging text and images for publications."},
 
 {type:"fb",s:"El {1} descubrió fósiles de hace un millón de años.",a:["paleontólogo"],opts:["paleontólogo","ingeniero","maquetador","peletero"],hint:"A scientist who studies fossils and ancient forms of life.",sSrc:"The {1} discovered fossils from a million years ago."},
 

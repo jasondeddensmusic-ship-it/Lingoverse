@@ -54,7 +54,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"Which word means 'painting' (the artwork or activity)?",
- opts:["pintor","pintura","obra","arte"],
+ opts:["pintura","obra","arte","pintor"],
  ans:"pintura",
  hint:"The noun ending in -ura. Common pattern for activities."},
 
@@ -103,7 +103,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"What is the feminine form of 'escritor'?",
- opts:["escritorar","escritória","escritora","escrição"],
+ opts:["escrição","escritorar","escritória","escritora"],
  ans:"escritora",
  hint:"Just add -a to the masculine form."},
 
@@ -169,13 +169,13 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"What does 'herança cultural' mean?",
- opts:["financial inheritance","cultural heritage","cultural event","family secret"],
+ opts:["cultural heritage","cultural event","family secret","financial inheritance"],
  ans:"cultural heritage",
  hint:"What one generation passes to the next, in the ___ sense."},
 
 {type:"mc",
  q:"Which word means 'exhibition'?",
- opts:["festival","museu","exposição","herança"],
+ opts:["museu","exposição","herança","festival"],
  ans:"exposição",
  hint:"What art museums put on. Feminine noun."},
 
@@ -205,7 +205,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"Which three are Brazil's 'root' cultures?",
- opts:["Spanish, French, German","Indigenous, European, African","Chinese, Japanese, Korean","Italian, Portuguese, Dutch"],
+ opts:["Italian, Portuguese, Dutch","Spanish, French, German","Indigenous, European, African","Chinese, Japanese, Korean"],
  ans:"Indigenous, European, African",
  hint:"The three foundational streams of Brazilian identity."},
 
@@ -218,7 +218,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"Which word means 'heritage' or 'inheritance'?",
- opts:["identidade","cultura","herança","tradição"],
+ opts:["tradição","identidade","cultura","herança"],
  ans:"herança",
  hint:"Something passed down from ancestors. Shares root with English 'heir'."},
 
@@ -232,7 +232,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 {type:"tip", title:"Relative Pronouns: que, qual, cujo",
  text:"Relative pronouns connect a clause to the noun it describes.\n\nque = that / which / who (the most common in all registers)\nO livro que ela escreveu é famoso. (The book that she wrote is famous.)\n\no qual / a qual / os quais / as quais = which (formal, after prepositions)\nO museu sobre o qual estamos falando. (The museum about which we are talking.)\n\ncujo / cuja / cujos / cujas = whose (formal; rarely used in speech)\nA artista cujo trabalho é famoso. (The artist whose work is famous.)\n\nIn everyday Brazilian speech, que handles almost everything. O qual and cujo appear in formal writing, news, and academic contexts.",
  icon:"🔗",
- deepDive:{title:"Que vs O Qual — Register Difference",
+ deepDive:{title:"Que vs O Qual. Register Difference",
   text:"In spoken Brazilian, 'que' replaces most relative pronouns, even after prepositions. 'O livro que eu falei' (The book I talked about) is more natural than 'O livro do qual eu falei'. This creates a style gap: informal speech uses bare que, while formal writing carefully chooses o qual with the right preposition and gender agreement. For B2 writing and comprehension of formal texts, learn o qual and cujo. For conversation, que alone is sufficient."}},
 ]},
 
@@ -290,7 +290,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"What is the feminine form of 'ator'?",
- opts:["atora","atriz","atoresa","atora"],
+ opts:["atriz","atoresa","atora","atora"],
  ans:"atriz",
  hint:"Irregular feminine. Not formed with -a like most nouns."},
 
@@ -326,7 +326,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"What is special about the gender of 'personagem'?",
- opts:["Always masculine","Always feminine","Depends on character","Has no gender"],
+ opts:["Has no gender","Always masculine","Always feminine","Depends on character"],
  ans:"Always feminine",
  hint:"Greek origin. Even for male characters, use ___ article."},
 
@@ -391,7 +391,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"Which adjective describes 'of today'?",
- opts:["clássico","moderno","contemporâneo","antigo"],
+ opts:["contemporâneo","antigo","clássico","moderno"],
  ans:"contemporâneo",
  hint:"Of our current time, not modernist or classical."},
 
@@ -427,7 +427,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"Which event launched Brazilian modernism?",
- opts:["Carnaval 1900","Semana de Arte Moderna 1922","Exposição Mundial 1950","Copa 1970"],
+ opts:["Copa 1970","Carnaval 1900","Semana de Arte Moderna 1922","Exposição Mundial 1950"],
  ans:"Semana de Arte Moderna 1922",
  hint:"A week-long event in São Paulo that shocked the establishment."},
 

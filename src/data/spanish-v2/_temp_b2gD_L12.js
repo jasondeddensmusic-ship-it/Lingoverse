@@ -68,10 +68,10 @@ const LESSON_12 = {id:"esv2_b2gD_l12",title:"Comunicación y medios",icon:"\uD83
  {trg:"fisonomía",src:"physiognomy"}
 ]},
 
-{type:"mc",q:"Un palimpsesto es...",opts:["Un manuscrito con capas de texto borrado y reescrito","Un tipo de periódico antiguo","Una técnica de fotografía","Un instrumento musical medieval"],ans:"Un manuscrito con capas de texto borrado y reescrito",hint:"Medieval monks would erase old text and write over it, creating layers of hidden writing."},
+{type:"mc",q:"Un palimpsesto es...",opts:["Un instrumento musical medieval","Un manuscrito con capas de texto borrado y reescrito","Un tipo de periódico antiguo","Una técnica de fotografía"],ans:"Un manuscrito con capas de texto borrado y reescrito",hint:"Medieval monks would erase old text and write over it, creating layers of hidden writing."},
 
 {type:"fb",s:"La {1} del casco antiguo se ha conservado pese a las reformas.",a:["fisonomía"],opts:["fisonomía","oratoria","pauta","fotonovela"],hint:"The general appearance or character of a place, especially its visual identity.",sSrc:"The {1} of the old town has been preserved despite the renovations."},
 
-{type:"mc",q:"'Marcar la pauta' significa...",opts:["Establecer el estándar o liderar","Escribir un libro","Pintar un cuadro","Leer un periódico"],ans:"Establecer el estándar o liderar",hint:"An expression about setting trends or leading the way for others to follow."}
+{type:"mc",q:"'Marcar la pauta' significa...",opts:["Pintar un cuadro","Leer un periódico","Establecer el estándar o liderar","Escribir un libro"],ans:"Establecer el estándar o liderar",hint:"An expression about setting trends or leading the way for others to follow."}
 ]};
 export default LESSON_12;

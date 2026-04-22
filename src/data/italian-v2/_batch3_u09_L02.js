@@ -1,4 +1,4 @@
-// Batch 3 — Unit 09, Lesson 2: Pronto soccorso (First Aid & Emergencies)
+// Batch 3. Unit 09, Lesson 2: Pronto soccorso (First Aid & Emergencies)
 const BATCH3_U09_L2 = {
   id:"itv2_u09l_b3_2", title:"Pronto soccorso", icon:"\uD83D\uDE91", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U09_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What is Italy's medical emergency number?",
-     opts:["911","118 (or 112 for all emergencies)","999","100"],
+     opts:["118 (or 112 for all emergencies)","999","100","911"],
      ans:"118 (or 112 for all emergencies)",
      hint:"118 is specifically for medical e.... 112 is the European general emergency number. Both work across Italy."},
 
@@ -105,7 +105,7 @@ const BATCH3_U09_L2 = {
     ]},
 
     {type:"mc", q:"What color code means 'immediate danger' in Italian ER triage?",
-     opts:["Green (non-urgent)","White (minimal)","Yellow (urgent)","Red (immediate danger)"],
+     opts:["Yellow (urgent)","Red (immediate danger)","Green (non-urgent)","White (minimal)"],
      ans:"Red (immediate danger)",
      hint:"The system runs from r... (most severe) through yellow and green to white (least urgent). R... patients are seen first."},
 
@@ -116,7 +116,7 @@ const BATCH3_U09_L2 = {
      sSrc:"Put {1} on the ankle."},
 
     {type:"mc", q:"Why does 'svenire' literally mean 'to un-come'?",
-     opts:["From s- (removal) + venire (to come)","From svegliare (to wake up)","From essere (to be) + venire (to come)","From sempre (always) + venire (to come)"],
+     opts:["From essere (to be) + venire (to come)","From sempre (always) + venire (to come)","From s- (removal) + venire (to come)","From svegliare (to wake up)"],
      ans:"From s- (removal) + venire (to come)",
      hint:"The prefix s- indicates r... or reversal. Consciousness 'comes' to you, and when you faint, it 'un-comes.'"},
 
@@ -127,9 +127,9 @@ const BATCH3_U09_L2 = {
      sSrc:"I {1} down the stairs."},
 
     {type:"mc", q:"Can Italian emergency rooms turn away uninsured patients?",
-     opts:["Yes, insurance is always required first","No, they treat everyone and bill later","Only EU citizens receive any treatment","Only children are treated without insurance"],
+     opts:["Only EU citizens receive any treatment","Only children are treated without insurance","Yes, insurance is always required first","No, they treat everyone and bill later"],
      ans:"No, they treat everyone and bill later",
      hint:"Italian ERs provide care to all people regardless of insurance or nationality. Billing is handled afterward."}
-  ,{type:"match",pairs:[{trg:"svenire",src:"to faint / to pass out"},{trg:"la bruciatura",src:"the burn"},{trg:"respirare",src:"to breathe"},{trg:"cadere",src:"to fall"},{trg:"la stampella",src:"the crutch"}]},{type:"mc",q:"How do you say \"ambulance\" in Italian?",opts:["la finestra","il tavolo","l'ambulanza","la bicicletta"],ans:"l'ambulanza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"insurance\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'assicurazione"],ans:"l'assicurazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"svenire",src:"to faint / to pass out"},{trg:"la bruciatura",src:"the burn"},{trg:"respirare",src:"to breathe"},{trg:"cadere",src:"to fall"},{trg:"la stampella",src:"the crutch"}]},{type:"mc",q:"How do you say \"ambulance\" in Italian?",opts:["l'ambulanza","la bicicletta","la finestra","il tavolo"],ans:"l'ambulanza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"insurance\" in Italian?",opts:["la bicicletta","l'assicurazione","la finestra","il tavolo"],ans:"l'assicurazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U09_L2;

@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「発信(はっしん)」は今(いま)どんな意味(いみ)でも使(つか)いますか？",
-     opts:["Posting on social media","Only TV broadcasting","Only radio","Only newspapers"],
+     opts:["Only newspapers","Posting on social media","Only TV broadcasting","Only radio"],
      ans:"Posting on social media",
      hint:"This word has expanded beyond traditional broadcasting to include individual p... on modern platforms."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"I cannot agree with his argument."},
 
     {type:"mc", q:"日本(にほん)の「同人誌(どうじんし)」は著作権(ちょさくけん)の観点(かんてん)からどうですか？",
-     opts:["Exists in a legal gray zone mostly tolerated by publishers","Completely illegal","Fully protected by law","Does not exist anymore"],
+     opts:["Fully protected by law","Does not exist anymore","Exists in a legal gray zone mostly tolerated by publishers","Completely illegal"],
      ans:"Exists in a legal gray zone mostly tolerated by publishers",
      hint:"Fan-created comics based on existing works occupy an ambiguous position that the industry has largely chosen to overlook."}
   ,{type:"match",pairs:[{trg:"記事(きじ)",src:"article (news/magazine)"},{trg:"主張(しゅちょう)",src:"claim / assertion / argument"},{trg:"信頼(しんらい)",src:"trust / reliability"},{trg:"影響力(えいきょうりょく)",src:"influence / clout"},{trg:"発信(はっしん)",src:"transmission / broadcasting / posting"},{trg:"透明性(とうめいせい)",src:"transparency"}]}]

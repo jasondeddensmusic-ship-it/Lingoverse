@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 1: Fruits, Review, and Origins
+// Korean B2. Batch 5, Lesson 1: Fruits, Review, and Origins
 // Words: 복숭아, 복습, 복습하다, 볶음, 볶음밥, 본, 본격적, 본부, 본사, 본성, 본인, 본질, 볼, 볼일, 봉사, 봉사하다, 봉지, 뵈다, 뵙다, 부끄러움
 
 const LESSON_1 = {
@@ -157,7 +157,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"윗사람을 처음 만날 때 어떤 인사가 가장 적절한가?",
-     opts:["처음 뵙겠습니다","처음 봤습니다","처음 만나요","처음이에요"],
+     opts:["처음이에요","처음 뵙겠습니다","처음 봤습니다","처음 만나요"],
      ans:"처음 뵙겠습니다",
      hint:"Which greeting uses the most humble form of 'to see,' appropriate for meeting a superior?"},
 

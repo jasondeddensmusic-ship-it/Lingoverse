@@ -66,7 +66,7 @@ const LESSON_11 = {id:"esv2_b2g6_l11",title:"Cuestiones sociales",icon:"🤝",xp
  exampleSrc:"A: What a dirty trick he played on me! He left me all the work.\nB: That is not right, talk to the boss.",
  funFact:"In bullfighting, 'la faena' is the series of passes before the kill. Colloquially it means a dirty trick."},
 
-{type:"mc",q:"¿Qué es un imprevisto?",opts:["Un suceso inesperado","Un plan organizado","Una regla establecida","Un acuerdo formal"],ans:"Un suceso inesperado",hint:"Something that was not foreseen or expected."},
+{type:"mc",q:"¿Qué es un imprevisto?",opts:["Un acuerdo formal","Un suceso inesperado","Un plan organizado","Una regla establecida"],ans:"Un suceso inesperado",hint:"Something that was not foreseen or expected."},
 
 {type:"match",pairs:[
   {trg:"inquilino",src:"tenant"},

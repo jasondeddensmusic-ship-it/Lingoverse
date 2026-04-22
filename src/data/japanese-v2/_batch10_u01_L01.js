@@ -61,7 +61,7 @@ const BATCH10_L1 = {
       {trg:"いってらっしゃい", src:"reply to someone leaving"}
     ]},
 
-    {type:"mc", q:"When is 明(あ)けましておめでとうございます used?", opts:["January 1-7","Any holiday","Someone's birthday","End of December"], ans:"January 1-7",
+    {type:"mc", q:"When is 明(あ)けましておめでとうございます used?", opts:["End of December","January 1-7","Any holiday","Someone's birthday"], ans:"January 1-7",
      hint:"This is the greeting for the beginning of the new year, not for other celebrations."},
 
     {type:"fb", s:"{1}。おいしかったです。\n(Thank you for the meal. It was delicious.)", a:"ごちそうさまでした", opts:["ごちそうさまでした","いただきます","ありがとうございます","おめでとうございます"], sSrc:"Thank you for the meal. It was delicious.",

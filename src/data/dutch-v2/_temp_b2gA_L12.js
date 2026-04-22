@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 12: Emoties & Innerlijk Leven
+// B2 Gap Batch A. Lesson 12: Emoties & Innerlijk Leven
 // Theme: Emotions, mental states, expressions
 
 const LESSON_12 = {id:"nlv2_b2gA_l12", title:"Emoties & Innerlijk Leven", icon:"\u{1F9E0}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_12 = {id:"nlv2_b2gA_l12", title:"Emoties & Innerlijk Leven", icon:"
    sSrc:"The happiness experience of Dutch people scores high internationally."},
 
   {type:"mc", q:"Wat is een goed gespreksonderwerp op een feestje?",
-   opts:["a topic of conversation","a type of game","a drink recipe","a music playlist"],
+   opts:["a music playlist","a topic of conversation","a type of game","a drink recipe"],
    ans:"a topic of conversation",
    hint:"Gesprek (c...) + onderwerp (subject). What people talk about."},
 
@@ -77,7 +77,7 @@ const LESSON_12 = {id:"nlv2_b2gA_l12", title:"Emoties & Innerlijk Leven", icon:"
   ]},
 
   {type:"mc", q:"De geldlust van sommige bankiers is schokkend. Wat is 'geldlust'?",
-   opts:["greed for money","a bank fee","a salary increase","financial planning"],
+   opts:["a salary increase","financial planning","greed for money","a bank fee"],
    ans:"greed for money",
    hint:"Geld (m...) + lust (desire/craving). An excessive appetite for wealth."},
 

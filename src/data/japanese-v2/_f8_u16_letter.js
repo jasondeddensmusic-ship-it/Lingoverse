@@ -71,7 +71,7 @@ const LESSON_F8_LETTER = {
 
     {type:"mc",
      q:"You want to close a casual letter to a friend with 'let's stay in touch.' Which phrase fits best?",
-     opts:["また連絡(れんらく)してね","さようなら","おせわになりました","しつれいします"],
+     opts:["しつれいします","また連絡(れんらく)してね","さようなら","おせわになりました"],
      ans:"また連絡(れんらく)してね",
      hint:"The warm closing phrase that literally means 'please contact again' and keeps the connection open."},
 
@@ -99,7 +99,7 @@ const LESSON_F8_LETTER = {
 
     {type:"mc",
      q:"In a casual Japanese letter, ひさしぶり is used to:",
-     opts:["Say goodbye","Open the letter after not seeing someone for a while","Ask for a favor","Express thanks"],
+     opts:["Express thanks","Say goodbye","Open the letter after not seeing someone for a while","Ask for a favor"],
      ans:"Open the letter after not seeing someone for a while",
      hint:"This greeting is used when reconnecting with … you have not been in contact with recently."}
   ]

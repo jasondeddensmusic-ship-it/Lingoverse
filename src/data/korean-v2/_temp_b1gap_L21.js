@@ -177,7 +177,7 @@ const LESSON_21 = {
     // --- Quiz batch 4 ---
     {type:"mc",
      q:"'방이 너무 어두워요. 불을 켜 주세요'는 무슨 상황이에요?",
-     opts:["음식이 가득 있는 상황","가까이 오라는 상황","밖이 밝은 상황","빛이 필요한 상황"],
+     opts:["가까이 오라는 상황","밖이 밝은 상황","빛이 필요한 상황","음식이 가득 있는 상황"],
      ans:"빛이 필요한 상황",
      hint:"The room is too dim. The speaker is asking for illumination because they cannot see.",
      },

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 2: Enterprise and Function
+// Korean B2. Batch 2, Lesson 2: Enterprise and Function
 // Words: 기능, 기다, 기대다, 기대되다, 기업, 기업인, 기여, 기울다, 기울이다, 기원전, 기원, 기적, 기후, 긴급, 긴장감, 긴장되다, 기뻐하다, 기도, 기도하다, 기독교
 
 const LESSON_2 = {
@@ -113,7 +113,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'기원전'은 무엇을 뜻하나요?",
-     opts:["서기 이전의 시대","미래의 시대","현재의 시대","중세 시대"],
+     opts:["중세 시대","서기 이전의 시대","미래의 시대","현재의 시대"],
      ans:"서기 이전의 시대",
      hint:"The time period before the common era began. Think B.C. in English."},
 

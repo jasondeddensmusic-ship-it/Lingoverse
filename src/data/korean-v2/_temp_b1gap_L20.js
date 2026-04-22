@@ -40,7 +40,7 @@ const LESSON_20 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'단 한 번의 기회'에서 '단'의 역할은?",
-     opts:["'다른'이라는 뜻","'맨 처음'이라는 뜻","'오직'이라는 뜻으로 제한","'각각'이라는 뜻"],
+     opts:["'오직'이라는 뜻으로 제한","'각각'이라는 뜻","'다른'이라는 뜻","'맨 처음'이라는 뜻"],
      ans:"'오직'이라는 뜻으로 제한",
      hint:"This determiner restricts quantity to emphasize how limited something is. Think 'merely' or 'only.'"},
 
@@ -137,7 +137,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"'거의 다 끝났어요'의 뜻은?",
-     opts:["완전히 끝났어요","전혀 못 했어요","반만 했어요","아직 조금 남았어요"],
+     opts:["전혀 못 했어요","반만 했어요","아직 조금 남았어요","완전히 끝났어요"],
      ans:"아직 조금 남았어요",
      hint:"This adverb means 'almost' or 'nearly.' The task is close to done but not yet complete."},
 

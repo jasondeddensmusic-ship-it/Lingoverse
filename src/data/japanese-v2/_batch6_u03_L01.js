@@ -84,7 +84,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Please press this button.\nB: Okay, I pressed it.",
      funFact:"Doors in Japan are often labeled 押(お)す (push) and 引(ひ)く (pull). These two verbs are a natural pair. 押(お)す also means to stamp a seal (はんこを押(お)す), which is essential in Japanese business. Personal seals (はんこ) are used instead of signatures."},
 
-    {type:"mc", q:"Which counter is used for sheets of paper?", opts:["枚(まい)","本(ほん)","個(こ)","人(にん)"], ans:"枚(まい)",
+    {type:"mc", q:"Which counter is used for sheets of paper?", opts:["人(にん)","枚(まい)","本(ほん)","個(こ)"], ans:"枚(まい)",
      hint:"This counter is used for flat, thin objects like paper, plates, and shirts."},
 
     {type:"match", pairs:[
@@ -98,7 +98,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"ドアを{1}てください。\n(Please push the door.)", a:"押(お)し", opts:["押(お)し","引(ひ)い","切(き)っ","のり"], sSrc:"Please push the door.",
      hint:"The て-form of 押(お)す (to push). Drop the す, add して."},
 
-    {type:"mc", q:"物差(ものさ)し is used for:", opts:["Measuring length or drawing lines","Cutting paper","Erasing mistakes","Writing notes"], ans:"Measuring length or drawing lines",
+    {type:"mc", q:"物差(ものさ)し is used for:", opts:["Erasing mistakes","Writing notes","Measuring length or drawing lines","Cutting paper"], ans:"Measuring length or drawing lines",
      hint:"This tool helps you measure things or draw straight l...."}
   ,{type:"match",pairs:[{trg:"のり",src:"glue"},{trg:"物差(ものさ)し",src:"ruler"},{trg:"筆箱(ふでばこ)",src:"pencil case"},{trg:"一枚(いちまい)",src:"one (flat thin object)"},{trg:"引(ひ)く",src:"to draw (a line) / to pull"},{trg:"押(お)す",src:"to push / to press"}]},
   {type:"fb", s:"間違(まちが)えたので{1}で消(け)しました。", a:["消(け)しゴム"], opts:["消(け)しゴム","鉛筆(えんぴつ)","はさみ","のり"], hint:"The small rubber tool used to remove pencil marks from paper.", sSrc:"Because I made a mistake, I erased it with a {1}."}

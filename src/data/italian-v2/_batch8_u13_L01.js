@@ -1,4 +1,4 @@
-// Batch 8 — Unit 13 extra lesson. Subjunctive: Doubt & Uncertainty
+// Batch 8. Unit 13 extra lesson. Subjunctive: Doubt & Uncertainty
 const BATCH8_L1 = {id:"itv2_u13l_b8_1", title:"Dubbi e incertezze", icon:"🤔", xp:15, board:true, steps:[
 {type:"intro", title:"Dubbi e incertezze",
  desc:"Learn to express doubt, uncertainty, and possibility using the subjunctive with new trigger phrases.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u13l_b8_1", title:"Dubbi e incertezze", icon:"🤔",
 
 {type:"mc",
  q:"What does 'ammesso e non concesso' mean?",
- opts:["Even if we accept this, it does not follow that...","Admitted and agreed","Accepted and understood","Denied and rejected"],
+ opts:["Denied and rejected","Even if we accept this, it does not follow that...","Admitted and agreed","Accepted and understood"],
  ans:"Even if we accept this, it does not follow that...",
  hint:"It is a legal and rhetorical phrase. E... granting one point does not mean the conclusion follows."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u13l_b8_1", title:"Dubbi e incertezze", icon:"🤔",
 
 {type:"mc",
  q:"What is 'salvare le apparenze'?",
- opts:["Maintaining a good external image","Saving money","Helping others","Telling the truth"],
+ opts:["Helping others","Telling the truth","Maintaining a good external image","Saving money"],
  ans:"Maintaining a good external image",
  hint:"This is related to 'bella figura.' Even when things go wrong, the outward impression must be preserved."}
-,{type:"match",pairs:[{trg:"ammettere",src:"to admit / to acknowledge"},{trg:"la convinzione",src:"the belief / conviction"},{trg:"presumere",src:"to presume / to assume"}]},{type:"mc",q:"How do you say \"hypothesis\" in Italian?",opts:["l'ipotesi","la finestra","il tavolo","la bicicletta"],ans:"l'ipotesi",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appearance / semblance\" in Italian?",opts:["la finestra","l'apparenza","il tavolo","la bicicletta"],ans:"l'apparenza",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"ammettere",src:"to admit / to acknowledge"},{trg:"la convinzione",src:"the belief / conviction"},{trg:"presumere",src:"to presume / to assume"}]},{type:"mc",q:"How do you say \"hypothesis\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'ipotesi"],ans:"l'ipotesi",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appearance / semblance\" in Italian?",opts:["l'apparenza","il tavolo","la bicicletta","la finestra"],ans:"l'apparenza",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

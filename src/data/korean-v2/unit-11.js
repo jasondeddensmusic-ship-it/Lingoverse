@@ -1,4 +1,4 @@
-// Korean V2 Unit 11 — 여행 가요!
+// Korean V2 Unit 11, 여행 가요!
 // Level: B1.1
 
 const UNIT_11 =
@@ -379,7 +379,7 @@ const UNIT_11 =
 
   {type:"fb",s:"저는 법 관련 일을 해요. 저는 ___예요.\n(I do law-related work. I am a ___.) ",a:"변호사",opts:["변호사","운전사","학생","의사"],hint:"변 (argue) + 호 (protect) + 사 = the legal profession."},
 
-  {type:"mc",q:"고양이 카페 means:",opts:["A coffee shop that serves cats","A cafe themed around cats","A pet hospital","A dog park"],ans:"A cafe themed around cats",hint:"고양이 = cat. 카페 = …. Very popular in Korean cities."},
+  {type:"mc",q:"고양이 카페 means:",opts:["A dog park","A coffee shop that serves cats","A cafe themed around cats","A pet hospital"],ans:"A cafe themed around cats",hint:"고양이 = cat. 카페 = …. Very popular in Korean cities."},
 
   {type:"match",pairs:[{nl:"학생",en:"student"},{nl:"변호사",en:"lawyer"},{nl:"운전사",en:"driver"},{nl:"개",en:"dog"}]},
 
@@ -389,11 +389,11 @@ const UNIT_11 =
 
   {type:"fb",s:"주말에 친구들하고 ___를 해요. 운동을 좋아해요.\n(On weekends I play ___ with friends. I like exercise.)",a:"축구",opts:["축구","영화","음악","변호사"],hint:"축 (kick) + 구 (ball). Korea's most popular team sport."},
 
-  {type:"mc",q:"영화 = 영 + 화. 화 means:",opts:["Shadow","Picture","Screen","Camera"],ans:"Picture",hint:"화 (畫) = …/drawing. 영화 = shadow … = movie."},
+  {type:"mc",q:"영화 = 영 + 화. 화 means:",opts:["Screen","Camera","Shadow","Picture"],ans:"Picture",hint:"화 (畫) = …/drawing. 영화 = shadow … = movie."},
 
   {type:"drag_fill",s:"A: 취미가 뭐예요? B: {1} 보기를 좋아해요. 그리고 {2}도 들어요.\nA: What is your hobby? B: I like watching ___. I also listen to ___.",blanks:{"1":"영화","2":"음악"},pool:["영화","음악","축구","토끼","변호사","학생"],hint:"Think: watch something, listen to something."},
 
-  {type:"mc",q:"달 토끼 refers to:",opts:["A rabbit that lives by the sea","A rabbit in moon mythology","A type of white chocolate","A rabbit racing game"],ans:"A rabbit in moon mythology",hint:"달 = one of Korea's most poetic celestial words. What legendary creature lives there in Korean folklore?"},
+  {type:"mc",q:"달 토끼 refers to:",opts:["A rabbit in moon mythology","A type of white chocolate","A rabbit racing game","A rabbit that lives by the sea"],ans:"A rabbit in moon mythology",hint:"달 = one of Korea's most poetic celestial words. What legendary creature lives there in Korean folklore?"},
 
   {type:"fb",s:"A: 집에 동물이 있어요? B: 네, ___가 있어요. 이름이 초코예요.\n(A: Do you have animals? B: Yes, I have a ___. Its name is Choco.)",a:"개",opts:["개","고양이","토끼","물고기"],hint:"개 = dog. One syllable, pure Korean."},
 ]},

@@ -1,4 +1,4 @@
-// Unit 05 Batch 2 — Lesson 1: More Rooms & Describing a House
+// Unit 05 Batch 2. Lesson 1: More Rooms & Describing a House
 const BATCH2_U05_L1 = {
   id:"itv2_u05l_b2_1", title:"Tutta la casa", icon:"\ud83c\udfe2", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U05_L1 = {
      sSrc:"I live on the fourth {1}."},
 
     {type:"mc", q:"What is a 'palazzo' in everyday Italian?",
-     opts:["An apartment building","A royal palace","A museum","A church"],
+     opts:["A church","An apartment building","A royal palace","A museum"],
      ans:"An apartment building",
      hint:"Despite its regal origin from Rome's Palatine Hill, this word now simply means any large b... in daily speech."},
 
@@ -122,7 +122,7 @@ const BATCH2_U05_L1 = {
     ]},
 
     {type:"mc", q:"Why is 'La Scala' in Milan famous?",
-     opts:["It is a world-famous opera house","It has the longest staircase","It is a shopping center","It is a train station"],
+     opts:["It is a shopping center","It is a train station","It is a world-famous opera house","It has the longest staircase"],
      ans:"It is a world-famous opera house",
      hint:"Named after the staircase of the church it replaced. 'Scala' means staircase. Now it hosts o... and ballet."},
 
@@ -133,7 +133,7 @@ const BATCH2_U05_L1 = {
      sSrc:"How much is the {1}? Eight hundred euros per month."},
 
     {type:"mc", q:"What percentage of Italians own their home?",
-     opts:["About 70%","About 30%","About 50%","About 90%"],
+     opts:["About 30%","About 50%","About 90%","About 70%"],
      ans:"About 70%",
      hint:"One of the highest home ownership rates in Europe. Renting is common for young people in cities."}
   ,{type:"match",pairs:[{trg:"comodo",src:"comfortable / convenient"},{trg:"spazioso",src:"spacious"},{trg:"nuovo",src:"new"}]}]

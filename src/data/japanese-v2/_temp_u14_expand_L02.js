@@ -24,7 +24,7 @@ const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15
    exampleSrc:"A: Which do you like more, meat or fish?\nB: I like meat more.\nA: Is that so? That is good.\nB: Yes, it was a good experience.",
    funFact:"どちら is the polite form of どっち (which one). The pattern 'AとBとどちらが...' is the standard comparison question. For three or more options, use なにがいちばん... (what is the most...) instead. どちらも (both) is useful when you cannot choose."},
 
-  {type:"mc", q:"ふゆよりなつのほうがすき means:", opts:["I like winter more than summer","I like summer more than winter","I like both equally","I do not like either"], ans:"I like summer more than winter",
+  {type:"mc", q:"ふゆよりなつのほうがすき means:", opts:["I like summer more than winter","I like both equally","I do not like either","I like winter more than summer"], ans:"I like summer more than winter",
    hint:"The item before より is the lesser preference; のほうが marks the preferred one."},
 
   {type:"teach", trg:"いちばん", src:"number one / the most", pos:"adv", gender:null,
@@ -82,7 +82,7 @@ const LESSON_4 = {id:"jav2_u14l4", title:"すきなもの", icon:"❤️", xp:15
 
   {type:"match", pairs:[{trg:"から",src:"because"},{trg:"ので",src:"because (polite)"},{trg:"にがて",src:"not good with"},{trg:"きにいる",src:"take a liking to"}]},
 
-  {type:"mc", q:"どちらかというと means:", opts:["Definitely","If I had to choose","I do not know","I disagree"], ans:"If I had to choose",
+  {type:"mc", q:"どちらかというと means:", opts:["I disagree","Definitely","If I had to choose","I do not know"], ans:"If I had to choose",
    hint:"A hedging phrase used before stating a mild preference."},
 
   {type:"fb", s:"あめがふっている{1}、でかけたくないです。\n(Because it is raining, I do not want to go out.)", a:"ので", opts:["ので","から","のに","けど"], sSrc:"Because it is raining, I do not want to go out.",

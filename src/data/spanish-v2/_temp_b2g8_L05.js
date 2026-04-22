@@ -73,7 +73,7 @@ const LESSON_5 = {id:"esv2_b2g8_l5",title:"Salud y cuerpo humano",icon:"🏥",xp
  funFact:"'Llevar melena' means to have long hair. In the 60s-70s, men with melena were called 'melenudos'."},
 
 {type:"mc",q:"¿Qué deberías hacer si un lunar cambia de forma?",
- opts:["Ir al dermatólogo","Cubrirlo con maquillaje","Ignorarlo completamente","Hacer estiramientos"],
+ opts:["Hacer estiramientos","Ir al dermatólogo","Cubrirlo con maquillaje","Ignorarlo completamente"],
  ans:"Ir al dermatólogo",
  hint:"Changes in skin marks should be evaluated by a skin specialist."},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {id:"esv2_b2g8_l5",title:"Salud y cuerpo humano",icon:"🏥",xp
 ]},
 
 {type:"mc",q:"¿Cuál de estas palabras describe una enfermedad de los ojos?",
- opts:["Conjuntivitis","Irritabilidad","Fisonomía","Desnudez"],
+ opts:["Fisonomía","Desnudez","Conjuntivitis","Irritabilidad"],
  ans:"Conjuntivitis",
  hint:"An eye condition that causes redness and inflammation of the membrane."}
 ]};

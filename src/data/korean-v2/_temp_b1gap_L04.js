@@ -34,7 +34,7 @@ const LESSON_4 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'과학적 근거'의 뜻은?",
-     opts:["과학 과목의 과제","과학으로 증명할 수 있는 이유","과학자의 이름","과학 시험 점수"],
+     opts:["과학으로 증명할 수 있는 이유","과학자의 이름","과학 시험 점수","과학 과목의 과제"],
      ans:"과학으로 증명할 수 있는 이유",
      hint:"과학적 means scientific and 근거 means evidence/basis. Together they form a research term."},
 
@@ -80,7 +80,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"문화 교류의 목적으로 가장 맞는 것은?",
-     opts:["논문을 쓰기 위해","과제를 하기 위해","서로를 이해하기 위해","시험을 보기 위해"],
+     opts:["과제를 하기 위해","서로를 이해하기 위해","시험을 보기 위해","논문을 쓰기 위해"],
      ans:"서로를 이해하기 위해",
      hint:"Cultural exchange aims at mutual understanding between different groups."},
 
@@ -119,7 +119,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"TOPIK 시험의 네 가지 영역이 아닌 것은?",
-     opts:["읽기, 듣기, 쓰기, 말하기","듣기, 읽기, 쓰기, 말하기","말하기, 읽기, 듣기, 글쓰기","글쓰기, 번역하기, 듣기, 읽기"],
+     opts:["듣기, 읽기, 쓰기, 말하기","말하기, 읽기, 듣기, 글쓰기","글쓰기, 번역하기, 듣기, 읽기","읽기, 듣기, 쓰기, 말하기"],
      ans:"글쓰기, 번역하기, 듣기, 읽기",
      hint:"One of these lists includes 'translating' which is NOT a TOPIK section. The four skills are listening, reading, writing, and speaking."},
 
@@ -191,7 +191,7 @@ const LESSON_4 = {
     // --- Quiz batch 5 ---
     {type:"mc",
      q:"'구체적인 계획'의 반대 표현은?",
-     opts:["과학적인 계획","경제적인 계획","추상적인 계획","기초적인 계획"],
+     opts:["기초적인 계획","과학적인 계획","경제적인 계획","추상적인 계획"],
      ans:"추상적인 계획",
      hint:"The opposite of concrete/specific is abstract. Which Korean word means abstract?"},
 
@@ -204,7 +204,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"과학 실험에서 가장 중요한 단계는?",
-     opts:["글쓰기 연습하기","관찰하고 기록하기","담임 선생님 만나기","과목을 선택하기"],
+     opts:["관찰하고 기록하기","담임 선생님 만나기","과목을 선택하기","글쓰기 연습하기"],
      ans:"관찰하고 기록하기",
      hint:"In science, you must carefully watch what happens and write it down."}
   ]

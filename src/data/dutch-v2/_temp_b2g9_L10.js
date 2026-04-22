@@ -21,7 +21,7 @@ const LESSON_10 = {id:"nlv2_b2g9_l10", title:"Stad & Architectuur", icon:"\u{1F3
   {type:"mc", q:"Waarvoor is de Design Academy Eindhoven beroemd?", opts:["Medicijnen","Mode","Ontwerp en design","Muziek"], ans:"Ontwerp en design", hint:"This school consistently produces world-class creative professionals"},
   {type:"fb", s:"Trek aan de {1} om de machine te starten.", a:["hendel"], opts:["hendel","handpalm","haarlok","hoepelrok"], hint:"The mechanical handle or lever you pull to activate something", sSrc:"Pull the {1} to start the machine."},
   {type:"match", pairs:[{trg:"de haarlok", src:"lock of hair"},{trg:"de hendel", src:"lever"},{trg:"de kasplant", src:"sheltered person"},{trg:"het design", src:"design"}]},
-  {type:"mc", q:"Welk woord beschrijft het ruilen van huizen voor vakantie?", opts:["de huizenruil","de kavel","de dakakker","de kasplant"], ans:"de huizenruil", hint:"The compound combining 'houses' and 'swap'"},
+  {type:"mc", q:"Welk woord beschrijft het ruilen van huizen voor vakantie?", opts:["de kavel","de dakakker","de kasplant","de huizenruil"], ans:"de huizenruil", hint:"The compound combining 'houses' and 'swap'"},
   {type:"fb", s:"We doen dit jaar een {1} met een gezin in Spanje.", a:["huizenruil"], opts:["huizenruil","handpalm","hoepelrok","haarlok"], hint:"When two families swap homes for a vacation period", sSrc:"We're doing a {1} with a family in Spain this year."}
 ]};
 export default LESSON_10;

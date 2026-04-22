@@ -62,7 +62,7 @@ lessons:[
   text:"Chinese has a gradient of intensity:\n\n不喜欢(bù xǐhuan) = do not like\n还行(hái xíng) = it is okay\n喜欢(xǐhuan) = like\n很喜欢(hěn xǐhuan) = really like\n非常喜欢(fēicháng xǐhuan) = extremely like\n爱(ài) = love\n\nYou can also negate with 不太喜欢(bú tài xǐhuan) = do not really like. This is softer than 不喜欢 and more polite."}},
 
 {type:"mc", q:"电影(diànyǐng) literally means:",
- opts:["moving picture","electric shadow","light show","screen art"],
+ opts:["electric shadow","light show","screen art","moving picture"],
  ans:"electric shadow",
  hint:"Break this word apart: 电 relates to electricity, and 影 relates to shadows or reflections."},
 
@@ -83,7 +83,7 @@ lessons:[
  sSrc:"I {1} watching movies."},
 
 {type:"mc", q:"你(nǐ)在(zài)看(kàn)书(shū)吗(ma)？ What is being asked?",
- opts:["Are you buying a book?","Are you writing a book?","Are you reading a book?","Do you have a book?"],
+ opts:["Are you writing a book?","Are you reading a book?","Do you have a book?","Are you buying a book?"],
  ans:"Are you reading a book?",
  hint:"看 combined with 书 means engaging visually with printed text on pages."},
 
@@ -94,7 +94,7 @@ lessons:[
  sSrc:"What music do you like {1} to?"},
 
 {type:"mc", q:"Which statement expresses stronger feelings?",
- opts:["我喜欢音乐","我爱音乐","They are exactly the same","Neither expresses feelings"],
+ opts:["Neither expresses feelings","我喜欢音乐","我爱音乐","They are exactly the same"],
  ans:"我爱音乐",
  hint:"One of these verbs indicates deep passion while the other shows moderate enjoyment."}
 ]},
@@ -147,7 +147,7 @@ lessons:[
   text:"打 originally means 'to hit' or 'to strike.' It extended to any sport where your hands contact the ball, racket, or equipment.\n\nBut 打 also appears in surprising places:\n打电话(dǎ diànhuà) = make a phone call (hit the phone)\n打车(dǎ chē) = hail a taxi (flag down a car)\n打工(dǎ gōng) = work a part-time job (strike at work)\n\n打 is one of the most productive verbs in Chinese with dozens of compound meanings."}},
 
 {type:"mc", q:"Why does basketball use 打(dǎ) while soccer uses 踢(tī)?",
- opts:["打 is for team sports, 踢 is for individual sports","打 is for indoor sports, 踢 is for outdoor sports","打 is for hand sports, 踢 is for foot sports","There is no logical reason"],
+ opts:["打 is for hand sports, 踢 is for foot sports","There is no logical reason","打 is for team sports, 踢 is for individual sports","打 is for indoor sports, 踢 is for outdoor sports"],
  ans:"打 is for hand sports, 踢 is for foot sports",
  hint:"Think about which body part is primarily used in each sport."},
 
@@ -167,7 +167,7 @@ lessons:[
  sSrc:"Do you {1} every day?"},
 
 {type:"mc", q:"我们(wǒmen)去(qù)打篮球(dǎ lánqiú)吧(ba)！ What is the speaker suggesting?",
- opts:["Let us go watch basketball","Let us go buy a basketball","Let us go play basketball","Let us go to the basketball court"],
+ opts:["Let us go buy a basketball","Let us go play basketball","Let us go to the basketball court","Let us go watch basketball"],
  ans:"Let us go play basketball",
  hint:"去 means 'to go,' 打 is the hand-sport verb, and 吧 turns a statement into a suggestion."},
 
@@ -178,7 +178,7 @@ lessons:[
  sSrc:"She loves {1}, and practices every day."},
 
 {type:"mc", q:"Both characters in 游泳(yóuyǒng) contain the water radical 氵. Why?",
- opts:["It is a coincidence","Both characters relate to movement in water","The water radical means 'sport'","All sport words have the water radical"],
+ opts:["All sport words have the water radical","It is a coincidence","Both characters relate to movement in water","The water radical means 'sport'"],
  ans:"Both characters relate to movement in water",
  hint:"Chinese radicals categorize meaning. The three-dot ___ radical appears in ___ connected to ___."}
 ]},
@@ -213,7 +213,7 @@ lessons:[
   text:"Both express regular activity, but differently:\n\n每天(měi tiān) = every day (specific, daily)\n经常(jīngcháng) = often (general, frequent)\n\n我每天跑步。 I run every day. (daily habit, no exceptions)\n我经常跑步。 I often run. (frequent but not necessarily daily)\n\n每天 is more precise, 经常 is more flexible. Use 每天 for strict routines and 经常 for general habits."}},
 
 {type:"mc", q:"这(zhè)本(běn)书(shū)很(hěn)有意思(yǒu yìsi)。 What does this mean?",
- opts:["This book is expensive","This book is very long","This book is very interesting","This book has meaning"],
+ opts:["This book is very interesting","This book has meaning","This book is expensive","This book is very long"],
  ans:"This book is very interesting",
  hint:"有意思 describes something that captures your attention and is enjoyable."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"Do you {1} watch movies?"},
 
 {type:"mc", q:"我们(wǒmen)一起(yìqǐ)去(qù)打篮球(dǎ lánqiú)吧(ba)！ The speaker is:",
- opts:["Refusing to play basketball","Asking about basketball rules","Suggesting they play basketball together","Saying they played basketball yesterday"],
+ opts:["Asking about basketball rules","Suggesting they play basketball together","Saying they played basketball yesterday","Refusing to play basketball"],
  ans:"Suggesting they play basketball together",
  hint:"一起 indicates joint activity, and 吧 signals this is an invitation to do something."},
 
@@ -259,7 +259,7 @@ lessons:[
  goals:["Have a complete conversation about hobbies","Combine 喜欢/爱 with sport and entertainment verbs","Review all Unit 11 vocabulary"]},
 
 {type:"mc", q:"我(wǒ)爱(ài)听(tīng)音乐(yīnyuè)，经常(jīngcháng)听(tīng)。 What does this person do?",
- opts:["They love playing music and do it often","They love listening to music and do it often","They sometimes listen to music","They want to start listening to music"],
+ opts:["They love listening to music and do it often","They sometimes listen to music","They want to start listening to music","They love playing music and do it often"],
  ans:"They love listening to music and do it often",
  hint:"爱 expresses strong fondness, 听 means to listen, and 经常 indicates high frequency."},
 
@@ -278,7 +278,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Which sentence is correct Chinese word order?",
- opts:["我跑步经常。","经常我跑步。","我经常跑步。","跑步我经常。"],
+ opts:["经常我跑步。","我经常跑步。","跑步我经常。","我跑步经常。"],
  ans:"我经常跑步。",
  hint:"In Chinese, frequency adverbs go between the subject and the verb."},
 
@@ -295,7 +295,7 @@ lessons:[
  sSrc:"This movie is very interesting, let us go watch it {1}!"},
 
 {type:"mc", q:"打篮球(dǎ lánqiú) uses 打, and 踢足球(tī zúqiú) uses 踢. 唱歌(chàng gē) uses 唱. What pattern do these follow?",
- opts:["Each sport has a random verb","The verb describes the primary physical action","The verb indicates the difficulty level","Older sports use different verbs"],
+ opts:["Older sports use different verbs","Each sport has a random verb","The verb describes the primary physical action","The verb indicates the difficulty level"],
  ans:"The verb describes the primary physical action",
  hint:"打 = hit (hands), 踢 = kick (feet), 唱 = sing (voice). The ___ matches the body part or ___."},
 
@@ -315,7 +315,7 @@ lessons:[
  sSrc:"He {1} plays soccer, three times every week."},
 
 {type:"mc", q:"我(wǒ)喜欢(xǐhuan)游泳(yóuyǒng)，但是(dànshì)我(wǒ)不(bù)喜欢(xǐhuan)跑步(pǎobù)。 What are this person's preferences?",
- opts:["They like both swimming and running","They dislike both swimming and running","They like swimming but not running","They like running but not swimming"],
+ opts:["They like running but not swimming","They like both swimming and running","They dislike both swimming and running","They like swimming but not running"],
  ans:"They like swimming but not running",
  hint:"但是 means 'but,' signaling a contrast between two preferences."},
 
@@ -342,7 +342,7 @@ lessons:[
  note:"Attaches to a verb to show a continuous state or held posture.\nVerb + 着 = is in the state of doing.",
  example:"A: 她(tā)在(zài)看(kàn)着(zhe)你(nǐ)。\nB: 是(shì)吗(ma)？",
  exampleSrc:"A: She is looking at you (ongoing).\nB: Is that so?",
- funFact:"着 originally meant 'to wear' or 'to be attached to.' This evolved into a grammatical marker showing that an action clings to a moment — it is not finished but suspended in ongoing time."},
+ funFact:"着 originally meant 'to wear' or 'to be attached to.' This evolved into a grammatical marker showing that an action clings to a moment, it is not finished but suspended in ongoing time."},
 
 {type:"tip", title:"正在 vs 着: Action vs State",
  text:"Both 正在 and 着 describe ongoing situations, but they work differently:\n\n正在 emphasizes the action is happening NOW:\n我(wǒ)正在(zhèngzài)跑步(pǎobù)。 I am (right now) running.\n她(tā)正在(zhèngzài)唱歌(chàng gē)。 She is (right now) singing.\n\n着 marks a sustained state or posture:\n他(tā)站(zhàn)着(zhe)。 He is standing (posture).\n门(mén)开(kāi)着(zhe)。 The door is open (ongoing state).\n她(tā)看(kàn)着(zhe)我(wǒ)。 She is looking at me (continuous gaze).\n\nRule of thumb: 正在 = action in progress. 着 = state being held.",
@@ -350,9 +350,9 @@ lessons:[
   text:"Sometimes both appear together for extra emphasis:\n他(tā)正在(zhèngzài)睡觉(shuìjiào)呢(ne)。 He is sleeping right now.\n她(tā)正(zhèng)看(kàn)着(zhe)我(wǒ)呢(ne)。 She is right in the middle of watching me.\n\nThe particle 呢 at the end adds a gentle emphasis, like English 'you know' or '...isn't that so.' It makes the ongoing nature feel very immediate and conversational.\n\nAt A2 level, use 正在 for actions and 着 for postures and states. The combination comes naturally at B1."}},
 
 {type:"mc", q:"Which sentence means 'I am currently watching a movie'?",
- opts:["我看过电影。","我正在看电影。","我喜欢看电影。","我看了电影。"],
+ opts:["我正在看电影。","我喜欢看电影。","我看了电影。","我看过电影。"],
  ans:"我正在看电影。",
- hint:"One of these uses the word that pinpoints the present moment — 'right now, in progress.'"},
+ hint:"One of these uses the word that pinpoints the present moment, 'right now, in progress.'"},
 
 {type:"fb", s:"A: 你(nǐ){1}做(zuò)什么(shénme)？\nB: 我(wǒ)正在(zhèngzài)游泳(yóuyǒng)！",
  a:["正在(zhèngzài)"],
@@ -361,14 +361,14 @@ lessons:[
  sSrc:"A: What are you {1} doing?\nB: I am swimming!"},
 
 {type:"mc", q:"他(tā)站(zhàn)着(zhe)。 What does 着 add to 站 here?",
- opts:["It shows the action happened before","It turns the verb into a question","It shows a sustained posture being held","It makes the action stronger"],
+ opts:["It turns the verb into a question","It shows a sustained posture being held","It makes the action stronger","It shows the action happened before"],
  ans:"It shows a sustained posture being held",
- hint:"着 makes the verb describe a state that is continuing — not one that just started, but one the subject keeps up."},
+ hint:"着 makes the verb describe a state that is continuing, not one that just started, but one the subject keeps up."},
 
 {type:"fb", s:"门(mén)开(kāi){1}。",
  a:["着(zhe)"],
  opts:["着(zhe)","了(le)","过(guò)","正在(zhèngzài)"],
- hint:"The door is open as an ongoing state — not 'was opened' but 'remains open.' Which marker shows an ongoing state?",
+ hint:"The door is open as an ongoing state, not 'was opened' but 'remains open.' Which marker shows an ongoing state?",
  sSrc:"The door is open (ongoing state)."},
 
 {type:"tip", title:"Asking 'What Are You Doing?'",
@@ -393,7 +393,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"你正在做什么？ What is this question asking?",
- opts:["What do you like to do?","What did you just do?","What are you doing right now?","What will you do?"],
+ opts:["What will you do?","What do you like to do?","What did you just do?","What are you doing right now?"],
  ans:"What are you doing right now?",
  hint:"正在 marks the present moment. The question is about what is happening NOW, not in the past or future."},
 
@@ -407,20 +407,20 @@ lessons:[
 // ─── L6: 笑和哭 Laughter and Tears ───
 {id:"zhv2_u11l6", title:"笑和哭 Laughter and Tears", icon:"😂", xp:15, board:true, steps:[
 {type:"intro", title:"Laughter and Tears",
- desc:"Learn how to describe emotional reactions while watching or hearing things you enjoy. Master the verbs for laughing and crying — two of the most natural human responses to stories, movies, and music.",
+ desc:"Learn how to describe emotional reactions while watching or hearing things you enjoy. Master the verbs for laughing and crying, two of the most natural human responses to stories, movies, and music.",
  goals:["Use 笑 to describe laughing","Use 哭 to describe crying","Combine emotional reactions with activities from this unit"]},
 
 {type:"teach", trg:"笑(xiào)", src:"to laugh / to smile", pos:"verb", gender:null,
  note:"Fourth tone (falling). Covers both laughing and smiling.\n笑着 = smiling. 大笑 = laugh loudly. 笑话 = joke (laugh-talk).",
  example:"A: 这(zhè)个(gè)电影(diànyǐng)很(hěn)好笑(hǎoxiào)！\nB: 是(shì)的(de)，我(wǒ)看(kàn)了(le)一(yī)直(zhí)在(zài)笑(xiào)。",
  exampleSrc:"A: This movie is very funny!\nB: Yes, I kept laughing the whole time.",
- funFact:"The character 笑 shows bamboo (竹) bending over a person (夭) who is bending forward in laughter. Bamboo sways flexibly in the wind, and a laughing person sways the same way — a beautiful visual metaphor. 笑 is also one of the most common characters in Chinese internet slang."},
+ funFact:"The character 笑 shows bamboo (竹) bending over a person (夭) who is bending forward in laughter. Bamboo sways flexibly in the wind, and a laughing person sways the same way, a beautiful visual metaphor. 笑 is also one of the most common characters in Chinese internet slang."},
 
 {type:"teach", trg:"哭(kū)", src:"to cry / to weep", pos:"verb", gender:null,
  note:"First tone (high flat). Describes crying with tears.\n哭鼻子(kū bízi) = cry one's nose (informal, like 'cry your eyes out').",
  example:"A: 这(zhè)个(gè)电影(diànyǐng)让(ràng)你(nǐ)哭(kū)了(le)吗(ma)？\nB: 哭(kū)了(le)！结局(jiéjú)太(tài)感人(gǎnrén)了(le)。",
  exampleSrc:"A: Did this movie make you cry?\nB: I cried! The ending was so moving.",
- funFact:"哭 combines 口 (mouth, twice — representing wailing sounds) and 犬 (dog, thought to represent a crying sound or grief). The character visually captures the sound of someone crying out loud. In Chinese culture, crying at a moving film or story is considered a sign of genuine feeling, not weakness."},
+ funFact:"哭 combines 口 (mouth, twice, representing wailing sounds) and 犬 (dog, thought to represent a crying sound or grief). The character visually captures the sound of someone crying out loud. In Chinese culture, crying at a moving film or story is considered a sign of genuine feeling, not weakness."},
 
 {type:"tip", title:"Emotional Reactions to Entertainment",
  text:"Chinese has a rich set of expressions for reacting to media:\n\n好笑(hǎoxiào) = funny (good-laugh)\n感人(gǎnrén) = moving / touching\n有意思(yǒu yìsi) = interesting\n没意思(méi yìsi) = boring\n\nWith verbs:\n让(ràng)我(wǒ)笑(xiào) = made me laugh (lit. let me laugh)\n让(ràng)我(wǒ)哭(kū) = made me cry (lit. let me cry)\n\nThe pattern 让 + person + verb means 'cause someone to do something.' Very common for describing emotional effects.",
@@ -428,9 +428,9 @@ lessons:[
   text:"让 is one of Chinese's most versatile verbs:\n\n1. Permission: 妈妈让我去 = Mom lets me go\n2. Causative: 这个故事让我哭了 = This story made me cry\n3. Request: 请让一下 = Please move aside\n\nAt A2, learn 让 mainly in the causative sense (made someone do something) and permission sense (someone allows something). Both appear constantly in descriptions of reactions and interactions."}},
 
 {type:"mc", q:"Which sentence means 'This joke is very funny'?",
- opts:["这个笑话很感人。","这个笑话很有意思。","这个笑话很好笑。","这个笑话让我哭了。"],
+ opts:["这个笑话很好笑。","这个笑话让我哭了。","这个笑话很感人。","这个笑话很有意思。"],
  ans:"这个笑话很好笑。",
- hint:"The word 好笑 means funny — it combines 好 (good) and 笑 (laugh). A 'good laugh' thing."},
+ hint:"The word 好笑 means funny, it combines 好 (good) and 笑 (laugh). A 'good laugh' thing."},
 
 {type:"match", pairs:[
   {trg:"笑(xiào)", src:"to laugh / smile"},
@@ -446,7 +446,7 @@ lessons:[
  sSrc:"This movie made me {1}! It is so touching."},
 
 {type:"mc", q:"她(tā)正在(zhèngzài)笑(xiào)着(zhe)。 What is she doing?",
- opts:["She is crying","She is singing","She is smiling right now","She is dancing"],
+ opts:["She is singing","She is smiling right now","She is dancing","She is crying"],
  ans:"She is smiling right now",
  hint:"正在 marks an action happening now. 着 marks a sustained state. Together they show an ongoing facial expression of amusement."},
 
@@ -457,7 +457,7 @@ lessons:[
  sSrc:"This joke is very {1}, I kept laughing."},
 
 {type:"mc", q:"哭 combines which elements?",
- opts:["Eye + water","Two mouths + dog (representing crying sounds)","Heart + eye","Mouth + tear"],
+ opts:["Mouth + tear","Eye + water","Two mouths + dog (representing crying sounds)","Heart + eye"],
  ans:"Two mouths + dog (representing crying sounds)",
  hint:"The character encodes both the sound (through the two 口 components) and an ancient reference to vocal grief."},
 

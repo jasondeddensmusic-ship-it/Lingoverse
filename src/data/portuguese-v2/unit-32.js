@@ -43,7 +43,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"Which word means 'recycling'?",
- opts:["poluição","reciclagem","sustentabilidade","preservação"],
+ opts:["reciclagem","sustentabilidade","preservação","poluição"],
  ans:"reciclagem",
  hint:"The process of turning waste into reusable materials. Root looks like the English word."},
 
@@ -56,7 +56,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"What does 'preservar' mean?",
- opts:["to pollute","to throw away","to preserve","to destroy"],
+ opts:["to throw away","to preserve","to destroy","to pollute"],
  ans:"to preserve",
  hint:"To keep something safe and intact over time. Sounds like the English cognate."},
 
@@ -69,7 +69,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"What is the correct article for 'meio ambiente'?",
- opts:["a meio ambiente","o meio ambiente","um meio ambiente","as meio ambiente"],
+ opts:["as meio ambiente","a meio ambiente","o meio ambiente","um meio ambiente"],
  ans:"o meio ambiente",
  hint:"This compound noun is always masculine, despite what the final vowel might suggest."},
 
@@ -146,7 +146,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"What does 'desmatamento' mean?",
- opts:["reforestation","deforestation","recycling","preservation"],
+ opts:["deforestation","recycling","preservation","reforestation"],
  ans:"deforestation",
  hint:"'Des-' is a prefix of removal. 'Mata' means forest. Put them together."},
 
@@ -159,7 +159,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"Which word refers to a group of organisms that can reproduce together?",
- opts:["floresta","extinção","espécie","Amazônia"],
+ opts:["extinção","espécie","Amazônia","floresta"],
  ans:"espécie",
  hint:"Biological category: dogs are one, cats are another."},
 
@@ -228,7 +228,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"What does 'clima' mean?",
- opts:["earth","climate / weather","environment","forest"],
+ opts:["climate / weather","environment","forest","earth"],
  ans:"climate / weather",
  hint:"The long-term ___ pattern of a region. Sounds like the English word."},
 
@@ -241,7 +241,7 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
 
 {type:"mc",
  q:"Which of these is a renewable energy source?",
- opts:["petróleo","carvão","sol","gasolina"],
+ opts:["carvão","sol","gasolina","petróleo"],
  ans:"sol",
  hint:"Think of energy that does not run out when used. Something that shines every day."},
 

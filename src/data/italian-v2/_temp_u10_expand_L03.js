@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u10l6", title:"Fare il turista", icon:"\uD83D\uDCF8",
   ]},
 
   {type:"mc", q:"When are many Italian state museums free?",
-   opts:["First Sunday of the month","Every Monday","National holidays","Never"],
+   opts:["Never","First Sunday of the month","Every Monday","National holidays"],
    ans:"First Sunday of the month",
    hint:"'Prima domenica del mese.' This initiative makes culture accessible. Check specific museums for participation."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u10l6", title:"Fare il turista", icon:"\uD83D\uDCF8",
    sSrc:"Do you have a city {1}?"},
 
   {type:"mc", q:"What is the 'passeggiata'?",
-   opts:["An Italian tradition of evening strolling through town","A type of pasta","A museum tour","A bus route"],
+   opts:["A museum tour","A bus route","An Italian tradition of evening strolling through town","A type of pasta"],
    ans:"An Italian tradition of evening strolling through town",
    hint:"Between 5-8 PM, people walk the main street, greet neighbors, and enjoy gelato. This social custom happens in every city and village across the country."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u10l6", title:"Fare il turista", icon:"\uD83D\uDCF8",
    sSrc:"Can you {1} in here? Without flash?"},
 
   {type:"mc", q:"What are Rome's 'nasoni'?",
-   opts:["Free public drinking fountains shaped like big noses","Famous restaurants","Roman ruins","Street performers"],
+   opts:["Famous restaurants","Roman ruins","Street performers","Free public drinking fountains shaped like big noses"],
    ans:"Free public drinking fountains shaped like big noses",
    hint:"'Nasone' means b... nose. These small f... throughout Rome provide clean, f... d... water."},
 

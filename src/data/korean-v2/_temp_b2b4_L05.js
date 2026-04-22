@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 5: Stillness and Struggle
+// Korean B2. Batch 4, Lesson 5: Stillness and Struggle
 // Words: 고속버스, 고요하다, 고작, 고전, 고집, 고집하다, 고추장, 고춧가루, 고통스럽다, 고함, 곡, 곡식, 곤란하다, 곧다, 곧바로, 곧이어, 곧잘, 곧장, 골, 말없이
 
 const LESSON_5 = {
@@ -113,7 +113,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"'곤란하다'는 어떤 상황을 표현하나요?",
-     opts:["난처하고 어려운 상황","즐겁고 행복한 상황","조용하고 평화로운 상황","빠르고 긴급한 상황"],
+     opts:["빠르고 긴급한 상황","난처하고 어려운 상황","즐겁고 행복한 상황","조용하고 평화로운 상황"],
      ans:"난처하고 어려운 상황",
      hint:"The Hanja 困 means troubled and 難 means difficult. Both point to an awkward predicament."},
 

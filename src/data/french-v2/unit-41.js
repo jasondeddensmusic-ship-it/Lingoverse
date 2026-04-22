@@ -1,4 +1,4 @@
-// French V2 Unit 41 — B2 Vocabulary Expansion
+// French V2 Unit 41. B2 Vocabulary Expansion
 import L11 from './_temp_b2gap_L11.js';
 import L12 from './_temp_b2gap_L12.js';
 import L13 from './_temp_b2gap_L13.js';

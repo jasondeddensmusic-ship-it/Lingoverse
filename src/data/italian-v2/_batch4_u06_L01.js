@@ -1,4 +1,4 @@
-// Batch 4 — Unit 06, Lesson 1: Getting Around — Transport Vocabulary
+// Batch 4. Unit 06, Lesson 1: Getting Around. Transport Vocabulary
 const BATCH4_U06_L1 = {
   id:"itv2_u06l_b4_1", title:"I trasporti", icon:"\uD83D\uDE8C", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U06_L1 = {
     ]},
 
     {type:"mc", q:"Cosa devi fare con il biglietto sull'autobus?",
-     opts:["Convalidarlo nella macchinetta","Mostrarlo all'autista","Tenerlo in tasca","Darlo al controllore"],
+     opts:["Darlo al controllore","Convalidarlo nella macchinetta","Mostrarlo all'autista","Tenerlo in tasca"],
      ans:"Convalidarlo nella macchinetta",
      hint:"You must stamp or validate your ticket before riding in Italy."},
 
@@ -120,7 +120,7 @@ const BATCH4_U06_L1 = {
      sSrc:"There was a lot of {1}, that is why I am late."},
 
     {type:"mc", q:"Quale città italiana e famosa per le biciclette?",
-     opts:["Ferrara","Roma","Napoli","Palermo"],
+     opts:["Napoli","Palermo","Ferrara","Roma"],
      ans:"Ferrara",
      hint:"This flat Emilia-Romagna city has the highest bikes per capita in Italy."},
 
@@ -130,7 +130,7 @@ const BATCH4_U06_L1 = {
      sSrc:"The train is on {1}, it leaves in five minutes."},
 
     {type:"mc", q:"Cos'e la Vespa?",
-     opts:["An iconic Italian scooter made by Piaggio","A type of Italian bus","A high-speed train","A taxi service"],
+     opts:["A type of Italian bus","A high-speed train","A taxi service","An iconic Italian scooter made by Piaggio"],
      ans:"An iconic Italian scooter made by Piaggio",
      hint:"Its name means 'wasp' in I... and it was created in 1946."}
   ,{type:"match",pairs:[{trg:"la fermata",src:"the stop (bus/tram)"},{trg:"la patente",src:"the driver's license"}]}]

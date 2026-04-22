@@ -73,7 +73,7 @@ const LESSON_10 = {id:"esv2_b2g8_l10",title:"Artes y cultura",icon:"🎭",xp:15,
  funFact:"Galicia has one of Europe's densest concentrations of menhirs, some over 5,000 years old."},
 
 {type:"mc",q:"¿Qué es un 'punto de inflexión'?",
- opts:["Un momento que cambia el curso de algo","Un tipo de puntuación","Un error gramatical","Un lugar geográfico"],
+ opts:["Un lugar geográfico","Un momento que cambia el curso de algo","Un tipo de puntuación","Un error gramatical"],
  ans:"Un momento que cambia el curso de algo",
  hint:"A critical moment when the direction of events shifts. A turning point."},
 

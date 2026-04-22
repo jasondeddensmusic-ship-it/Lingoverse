@@ -1,4 +1,4 @@
-// L04: Society & Demographics — 20 B2 gap words
+// L04: Society & Demographics, 20 B2 gap words
 const LESSON_4 = {
   id:"nlv2_b2gap_l4", title:"Samenleving en Identiteit", icon:"\uD83C\uDFD8\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_4 = {
      deepDive:{title:"The Dutch 'zuilen' system",
       text:"Dutch society was historically divided into 'zuilen' (pillars): Protestant, Catholic, socialist, and liberal. Each pillar had its own schools, hospitals, newspapers, sports clubs, and political parties.\n\nThis system, called 'verzuiling', dominated Dutch life from roughly 1900-1970. 'Ontzuiling' (de-pillarization) happened in the 1960s-70s as society secularized.\n\nTraces remain: many schools and hospitals still have religious names, and some political parties (CDA, ChristenUnie, SGP) have religious roots."}},
     {type:"mc", q:"'De bevolkingssamenstelling verandert snel.' What is changing?",
-     opts:["The government structure","The population composition","The weather pattern","The transport system"],
+     opts:["The population composition","The weather pattern","The transport system","The government structure"],
      ans:"The population composition",
      hint:"'Bevolking' means p..., 'samenstelling' means c...."},
     {type:"mc", q:"What does 'autonomie' mean?",

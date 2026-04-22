@@ -1,4 +1,4 @@
-// Unit 6 — La Casa
+// Unit 6. La Casa
 // Home, Rooms & Prepositions
 
 export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home, Rooms & Prepositions",icon:"🏠",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -180,7 +180,7 @@ export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home,
         {type:"teach",trg:"encontrar",src:"to find",pos:"verb",gender:null,phonetic:"en-kon-TRAR",note:"Stem-changing verb: o becomes ue in stressed forms. Encuentro, encuentras, encuentra, encontramos, encuentran.",example:"A: ¿Encuentras las llaves?\nB: No, no las encuentro. Están debajo de la cama.",exampleSrc:"A: Do you find the keys?\nB: No, I can't find them. They are under the bed.",funFact:"The o-to-ue stem change is one of the most common patterns in Spanish, also seen in poder (puedo) and volver (vuelvo)."},
         {type:"teach",trg:"perder",src:"to lose",pos:"verb",gender:null,phonetic:"per-DER",note:"Stem-changing -er verb: e becomes ie in stressed forms. Pierdo, pierdes, pierde, perdemos, pierden.",example:"A: ¡Siempre pierdo las llaves!\nB: Pon las llaves sobre la mesa.",exampleSrc:"A: I always lose the keys!\nB: Put the keys on the table.",funFact:"The e-to-ie stem change also appears in querer (quiero) and preferir (prefiero). These three patterns cover most Spanish stem-changers."},
         {type:"tip",title:"Stem-Changing Verbs: o-ue and e-ie",text:"Some Spanish verbs change their stem vowel when stressed:\n\no becomes ue (encontrar):\nencuentro, encuentras, encuentra\nencontramos (NO change), encuentran\n\ne becomes ie (perder):\npierdo, pierdes, pierde\nperdemos (NO change), pierden\n\nThe nosotros form NEVER changes.\nThis is called a stem change, not an irregularity.",icon:"📝"},
-        {type:"mc",q:"What is the yo form of 'salir'?",opts:["salo","salemos","salgo","salío"],ans:"salgo",hint:"Salir has an irregular first person. It follows the -go pattern."},
+        {type:"mc",q:"What is the yo form of 'salir'?",opts:["salgo","salío","salo","salemos"],ans:"salgo",hint:"Salir has an irregular first person. It follows the -go pattern."},
         {type:"fb",opts:["llego","llegas","llega","llegamos"],hint:"I arrive. First person singular of llegar.",s:"¿A qué hora {1} tú a casa?",a:"llegas"},
         {type:"mc",q:"'Encuentro' comes from which verb?",opts:["entrar","encontrar","salir","perder"],ans:"encontrar",hint:"The o in the stem becomes ue when stressed."},
         {type:"fb",opts:["entrar","salir","llegar","perder"],hint:"May I come IN? The verb means to enter.",s:"¿Puedo {1}, por favor?",a:"entrar"},
@@ -190,7 +190,7 @@ export default {n:6,lang:"es",srcLang:"en",track:"v2",title:"La Casa",sub:"Home,
         {type:"mc",q:"Which verb has an irregular yo form (-go ending)?",opts:["llegar","entrar","perder","salir"],ans:"salir",hint:"Only one of these verbs has a special first-person form."},
         {type:"drag_fill",hint:"I arrive home, the door is closed, I enter.",s:"Yo {1} a casa, la puerta está {2} y {3}.",blanks:{"1":"llego","2":"cerrada","3":"entro"},pool:["llego","cerrada","entro","salgo","abierta","encuentro"]},
         {type:"fb",opts:["encuentran","encuentro","encuentras","encontramos"],hint:"They find. Third person plural of encontrar.",s:"¿{1} ellos la llave?",a:"encuentran"},
-        {type:"mc",q:"In 'nosotros perdemos', why does the vowel NOT change?",opts:["Perdemos is irregular","Nosotros forms never have stem changes","Perder is regular for nosotros only","The vowel only changes in yo"],ans:"Nosotros forms never have stem changes",hint:"Think about which syllable carries the stress in perdemos. The rule about vowel shifts only applies when that syllable is stressed."},
+        {type:"mc",q:"In 'nosotros perdemos', why does the vowel NOT change?",opts:["Nosotros forms never have stem changes","Perder is regular for nosotros only","The vowel only changes in yo","Perdemos is irregular"],ans:"Nosotros forms never have stem changes",hint:"Think about which syllable carries the stress in perdemos. The rule about vowel shifts only applies when that syllable is stressed."},
         {type:"fb",opts:["pierdo","pierde","perdemos","pierden"],hint:"I always lose the keys. First person singular of perder.",s:"Siempre {1} las llaves.",a:"pierdo"}
   ]}
 ]};

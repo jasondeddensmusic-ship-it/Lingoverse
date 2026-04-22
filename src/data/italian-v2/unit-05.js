@@ -349,7 +349,7 @@ const UNIT_05 = {
         text:"Many European languages make this distinction. In French: pouvoir (potere) vs savoir (sapere). In German: koennen has both senses, but kennen covers a related distinction. Italian keeps the split clear. The rule of thumb: if a baby could not do it and you had to practise, use sapere. If it is about circumstance or permission, use potere. Edge case: physical feats can go either way. 'So nuotare' (I know how to swim, i.e. I learned) and 'posso nuotare' (I am able to swim, i.e. conditions allow) are both correct depending on what you want to emphasize."}},
 
       {type:"mc", q:"Which verb means 'to know how to (a learned skill)'?",
-       opts:["potere","sapere","dovere","avere"],
+       opts:["sapere","dovere","avere","potere"],
        ans:"sapere",
        hint:"This verb covers skills you had to practise and learn. Think of the Latin root meaning 'to be wise.'"},
 

@@ -69,7 +69,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"明天(míngtiān)___会(huì)下雨(xiàyǔ)。 (Tomorrow it ___ will rain.)",
- opts:["可能(kěnéng)","必须(bìxū)","能(néng)","会(huì)"],
+ opts:["会(huì)","可能(kěnéng)","必须(bìxū)","能(néng)"],
  ans:"可能(kěnéng)",
  hint:"You are expressing uncertainty about the weather. Which word means 'maybe' or 'possibly'?"},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"Students {1} do homework every day."},
 
 {type:"mc", q:"你(nǐ)___先(xiān)休息(xiūxi)一下(yíxià)，别(bié)太(tài)累(lèi)了(le)。",
- opts:["应该(yīnggāi)","必须(bìxū)","可能(kěnéng)","能(néng)"],
+ opts:["可能(kěnéng)","能(néng)","应该(yīnggāi)","必须(bìxū)"],
  ans:"应该(yīnggāi)",
  hint:"This is friendly advice, not a strict command. Which modal means 'should' or 'ought to'?"}
 ]},
@@ -139,7 +139,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"快(kuài)点(diǎn)！飞机(fēijī)十(shí)点(diǎn)起飞(qǐfēi)，我们(wǒmen)___了(le)！",
- opts:["来不及(láibùjí)","来得及(láidejí)","需要(xūyào)","可能(kěnéng)"],
+ opts:["可能(kěnéng)","来不及(láibùjí)","来得及(láidejí)","需要(xūyào)"],
  ans:"来不及(láibùjí)",
  hint:"Hurry! The plane leaves at ten. Which phrase means 'there is no time' or 'we will be late'?"},
 
@@ -150,7 +150,7 @@ lessons:[
  sSrc:"Do not worry, we still {1}."},
 
 {type:"mc", q:"这(zhè)个(ge)工作(gōngzuò)___三(sān)个(gè)人(rén)一起(yìqǐ)做(zuò)。",
- opts:["需要(xūyào)","来不及(láibùjí)","可能(kěnéng)","会(huì)"],
+ opts:["可能(kěnéng)","会(huì)","需要(xūyào)","来不及(láibùjí)"],
  ans:"需要(xūyào)",
  hint:"This job ___ three people working together. Which verb means 'to need' or 'to require'?"},
 
@@ -228,7 +228,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"这(zhè)里(lǐ)太(tài)暗(àn)了(le)，我(wǒ)___。",
- opts:["看不见(kànbujiàn)","听不懂(tīngbudǒng)","做不到(zuòbudào)","说不清楚(shuōbuqīngchu)"],
+ opts:["说不清楚(shuōbuqīngchu)","看不见(kànbujiàn)","听不懂(tīngbudǒng)","做不到(zuòbudào)"],
  ans:"看不见(kànbujiàn)",
  hint:"It is too dark. Which potential complement describes being unable to see?"},
 
@@ -239,7 +239,7 @@ lessons:[
  sSrc:"This matter is very complicated, I {1}."},
 
 {type:"mc", q:"今天(jīntiān)四十(sìshí)度(dù)，我(wǒ)真(zhēn)___了(le)！",
- opts:["受不了(shòubuliǎo)","做不到(zuòbudào)","看不见(kànbujiàn)","听不懂(tīngbudǒng)"],
+ opts:["看不见(kànbujiàn)","听不懂(tīngbudǒng)","受不了(shòubuliǎo)","做不到(zuòbudào)"],
  ans:"受不了(shòubuliǎo)",
  hint:"It is 40 degrees. Which phrase means 'cannot stand it' or 'unbearable'?"},
 
@@ -250,7 +250,7 @@ lessons:[
  hint:"She speaks Chinese too fast for me to understand by ear, but I CAN understand what she writes."},
 
 {type:"mc", q:"Which pair correctly shows the positive and negative potential complement?",
- opts:["做得到(zuòdedào) / 做不到(zuòbudào)","做到得 / 做到不","得做到 / 不做到","做到(zuòdào)得(dé) / 做到(zuòdào)不(bù)"],
+ opts:["做到得 / 做到不","得做到 / 不做到","做到(zuòdào)得(dé) / 做到(zuòdào)不(bù)","做得到(zuòdedào) / 做不到(zuòbudào)"],
  ans:"做得到(zuòdedào) / 做不到(zuòbudào)",
  hint:"The 得 or 不 goes BETWEEN the verb and the result complement, not before or after."}
 ]},
@@ -278,7 +278,7 @@ lessons:[
  sSrc:"The doctor says I {1} rest more."},
 
 {type:"mc", q:"你(nǐ)说(shuō)得(de)太(tài)快(kuài)了(le)，请(qǐng)慢(màn)一点(yìdiǎn)，我(wǒ)___。",
- opts:["听不懂(tīngbudǒng)","看不见(kànbujiàn)","受不了(shòubuliǎo)","做不到(zuòbudào)"],
+ opts:["做不到(zuòbudào)","听不懂(tīngbudǒng)","看不见(kànbujiàn)","受不了(shòubuliǎo)"],
  ans:"听不懂(tīngbudǒng)",
  hint:"You are speaking too fast. The problem is with comprehending what is heard."},
 
@@ -289,7 +289,7 @@ lessons:[
  sSrc:"It is almost nine, I {1} go now!"},
 
 {type:"mc", q:"他(tā)的(de)腿(tuǐ)受伤(shòushāng)了(le)，今天(jīntiān)___跑步(pǎobù)。",
- opts:["不(bù)能(néng)","不(bù)会(huì)","不(bù)必须(bìxū)","不(bù)得(děi)"],
+ opts:["不(bù)必须(bìxū)","不(bù)得(děi)","不(bù)能(néng)","不(bù)会(huì)"],
  ans:"不(bù)能(néng)",
  hint:"His leg is injured. The circumstance prevents running. Which modal is about physical ability?"},
 
@@ -308,7 +308,7 @@ lessons:[
  sSrc:"This movie is in Chinese, can you understand it?"},
 
 {type:"mc", q:"如果(rúguǒ)你(nǐ)___，我们(wǒmen)可以(kěyǐ)换(huàn)一(yí)个(gè)计划(jìhuà)。",
- opts:["做不到(zuòbudào)","做得到(zuòdedào)","听得懂(tīngdedǒng)","来得及(láidejí)"],
+ opts:["做得到(zuòdedào)","听得懂(tīngdedǒng)","来得及(láidejí)","做不到(zuòbudào)"],
  ans:"做不到(zuòbudào)",
  hint:"If you ___, we can change the plan. The conditional implies inability."},
 
@@ -407,7 +407,7 @@ lessons:[
  sSrc:"Today is my birthday, I am very {1}!"},
 
 {type:"mc", q:"他(tā)的(de)成绩(chéngjì)这么(zhème)好(hǎo)，老师(lǎoshī)和(hé)父母(fùmǔ)都(dōu)很(hěn)___。",
- opts:["骄傲(jiāo'ào)","害怕(hàipà)","饿(è)","伤心(shāngxīn)"],
+ opts:["伤心(shāngxīn)","骄傲(jiāo'ào)","害怕(hàipà)","饿(è)"],
  ans:"骄傲(jiāo'ào)",
  hint:"His grades are very good. Teachers and parents both feel positive about him. Which word means proud?"},
 
@@ -418,7 +418,7 @@ lessons:[
  sSrc:"I worked for ten hours, I am really {1}."},
 
 {type:"mc", q:"她(tā)听到(tīngdào)这个(zhège)坏(huài)消息(xiāoxi)以后(yǐhòu)很(hěn)___，哭(kū)了(le)。",
- opts:["伤心(shāngxīn)","骄傲(jiāo'ào)","聪明(cōngming)","生气(shēngqì)"],
+ opts:["聪明(cōngming)","生气(shēngqì)","伤心(shāngxīn)","骄傲(jiāo'ào)"],
  ans:"伤心(shāngxīn)",
  hint:"She heard bad news and cried. Which word describes deep sadness or heartbreak?"},
 
@@ -437,7 +437,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"这个(zhège)孩子(háizi)___，五(wǔ)岁(suì)就(jiù)会(huì)看书(kànshū)了(le)。",
- opts:["聪明(cōngming)","骄傲(jiāo'ào)","担心(dānxīn)","害怕(hàipà)"],
+ opts:["骄傲(jiāo'ào)","担心(dānxīn)","害怕(hàipà)","聪明(cōngming)"],
  ans:"聪明(cōngming)",
  hint:"This child can already read at age five. What character trait is being described?"},
 

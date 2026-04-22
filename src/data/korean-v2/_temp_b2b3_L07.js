@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 7: Free Things and Common Ground
+// Korean B2. Batch 3, Lesson 7: Free Things and Common Ground
 // Words: 공연히, 공주, 공중, 공짜, 공통, 공통되다, 공통적, 공통점, 공포, 공항버스, 공해, 과, 과연, 과외, 과정, 관계되다, 관계없이, 관계자, 관광객, 관광버스
 
 const LESSON_7 = {
@@ -101,7 +101,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"'과연 그럴까?'라는 문장에서 '과연'의 뜻은?",
-     opts:["정말로","빨리","항상","조용히"],
+     opts:["조용히","정말로","빨리","항상"],
      ans:"정말로",
      hint:"In a question, this word expresses doubt or wonder about whether something is truly so."},
 

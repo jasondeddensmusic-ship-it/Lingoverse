@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 18 — Formal Register & Institutions
+// B2 Gap Batch B Lesson 18. Formal Register & Institutions
 const LESSON_18 = {id:"esv2_b2gB_l18",title:"Registro formal e instituciones",icon:"🏢",xp:15,board:true,steps:[
 {type:"intro",title:"Registro formal e instituciones",desc:"Learn vocabulary for navigating formal institutions, corporate structures, and official language in Spain.",goals:["Learn 12 words about formal institutions","Navigate corporate and governmental terminology","Use high-register vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_18 = {id:"esv2_b2gB_l18",title:"Registro formal e instituciones",ic
  funFact:"In formal Spanish writing, 'etc.' is always preceded by a comma and never combined with 'y'."},
 
 {type:"mc",q:"¿Qué significa 'justo a tiempo'?",
- opts:["En el momento preciso","Demasiado tarde","Con mucha anticipación","Sin prisa"],
+ opts:["Sin prisa","En el momento preciso","Demasiado tarde","Con mucha anticipación"],
  ans:"En el momento preciso",
  hint:"Think about arriving at the exact right moment, not a second too early or too late."},
 

@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 6 — Environment and Ecology
+// French B2 Gap Batch D Lesson 6. Environment and Ecology
 const LESSON_6 = {id:"frv2_b2gD_l6", title:"Environnement et écologie", icon:"🌍", xp:15, board:true, steps:[
   {type:"intro", title:"Environnement et écologie",
    desc:"Master vocabulary for discussing environmental issues, sustainability, and ecological challenges.",
@@ -73,7 +73,7 @@ const LESSON_6 = {id:"frv2_b2gD_l6", title:"Environnement et écologie", icon:"�
 
   {type:"mc",
    q:"Quel mot désigne une maladie tropicale transmise par les moustiques?",
-   opts:["Le paludisme","Le phosphate","Le grillage","Le processeur"],
+   opts:["Le processeur","Le paludisme","Le phosphate","Le grillage"],
    ans:"Le paludisme",
    hint:"This disease name comes from the Latin word for 'swamp', where the transmitting insects breed."},
 

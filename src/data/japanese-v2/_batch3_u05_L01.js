@@ -1,7 +1,7 @@
 // Unit 05 Batch3 L01. Restaurant Ordering & Taste Descriptions
 // New vocab: レストラン, メニュー, ちゅうもん, おすすめ, からい, あまい,
 // しおからい, すっぱい, にがい, いただきます, ごちそうさまでした,
-// おかわり, アレルギー — all absent from unit-05.js and _temp_u05 files
+// おかわり, アレルギー, all absent from unit-05.js and _temp_u05 files
 // (which cover Japanese cuisine dishes and taste adjectives oishii/mazui/suki/kirai).
 const BATCH3_L_1 = {
   id:"jav2_u5l_b3_1", title:"レストランで", icon:"🍽", xp:15, board:true,
@@ -80,7 +80,7 @@ const BATCH3_L_1 = {
      exampleSrc:"A: Dinner's ready.\nEveryone: Itadakimasu!",
      funFact:"Itadakimasu has no equivalent in English. It simultaneously thanks the cook, the farmers, the animals, and nature that provided the food. The gesture of pressing palms together (gasshou) accompanies it. Eating without saying itadakimasu feels rude in Japan, even when alone."},
 
-    {type:"mc", q:"いただきます is said:", opts:["When ordering food","When paying the bill","Before starting to eat","After finishing a meal"],
+    {type:"mc", q:"いただきます is said:", opts:["When paying the bill","Before starting to eat","After finishing a meal","When ordering food"],
      ans:"Before starting to eat",
      hint:"This ritual phrase expresses gratitude b... the meal begins."},
 
@@ -122,7 +122,7 @@ const BATCH3_L_1 = {
      hint:"The ritual gratitude phrase said BEFORE starting a meal.",
      sSrc:"Before eating, you say {1} out loud."},
 
-    {type:"mc", q:"ごちそうさまでした means:", opts:["Welcome to our store","Thank you for the meal (after eating)","Let's eat","Please wait"],
+    {type:"mc", q:"ごちそうさまでした means:", opts:["Please wait","Welcome to our store","Thank you for the meal (after eating)","Let's eat"],
      ans:"Thank you for the meal (after eating)",
      hint:"This is the paired phrase said A... finishing a m.... The before-m... phrase is its counterpart."},
   {type:"match",pairs:[{trg:"レストラン",src:"restaurant"},{trg:"メニュー",src:"menu"},{trg:"注文(ちゅうもん)",src:"order (at a restaurant)"},{trg:"苦(にが)い",src:"bitter"},{trg:"アレルギー",src:"allergy"}]}]

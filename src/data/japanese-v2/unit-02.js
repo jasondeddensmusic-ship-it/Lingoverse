@@ -283,7 +283,7 @@ const UNIT_02 = {
   {type:"fb", s:"お疲(つか)れさまです。メールアドレスを{1}してください。", a:"記入(きにゅう)", opts:["記入(きにゅう)","住所(じゅうしょ)","電話番号(でんわばんごう)","生年月日(せいねんがっぴ)"], sSrc:"Good work. Please fill in your email address.",
    hint:"The する-verb meaning to write into or fill out a field."},
 
-  {type:"mc", q:"Which phrase would you write at the top of a Japanese work email?", opts:["お疲(つか)れさまです","記入(きにゅう)する","生年月日(せいねんがっぴ)","電話番号(でんわばんごう)"], ans:"お疲(つか)れさまです",
+  {type:"mc", q:"Which phrase would you write at the top of a Japanese work email?", opts:["電話番号(でんわばんごう)","お疲(つか)れさまです","記入(きにゅう)する","生年月日(せいねんがっぴ)"], ans:"お疲(つか)れさまです",
    hint:"The warm workplace greeting that opens messages and emails in Japan."},
 
   {type:"match", pairs:[
@@ -293,7 +293,7 @@ const UNIT_02 = {
     {trg:"氏名(しめい)", src:"full name (formal)"}
   ]},
 
-  {type:"mc", q:"お疲(つか)れさまです is used to:", opts:["fill out a form","greet a colleague in a message","say your address","give your phone number"], ans:"greet a colleague in a message",
+  {type:"mc", q:"お疲(つか)れさまです is used to:", opts:["give your phone number","fill out a form","greet a colleague in a message","say your address"], ans:"greet a colleague in a message",
    hint:"This phrase opens workplace messages and emails. It acknowledges effort and shows group membership."},
 ]},
 
@@ -329,7 +329,7 @@ const UNIT_02 = {
     {trg:"彼女(かのじょ)", src:"she / her"}
   ]},
 
-  {type:"mc", q:"彼(かれ)は医者(いしゃ)です means:", opts:["She is a doctor","He is a doctor","I am a doctor","Is he a doctor?"], ans:"He is a doctor",
+  {type:"mc", q:"彼(かれ)は医者(いしゃ)です means:", opts:["He is a doctor","I am a doctor","Is he a doctor?","She is a doctor"], ans:"He is a doctor",
    hint:"彼(かれ) = he. 医者(いしゃ) = …. です = is."},
 
   {type:"fb", s:"{1}は学生(がくせい)です。", a:"彼女(かのじょ)", opts:["彼女(かのじょ)","彼(かれ)","私(わたし)","先生(せんせい)"], sSrc:"She is a student.",
@@ -367,13 +367,13 @@ const UNIT_02 = {
   {type:"fb", s:"彼女(かのじょ)を{1}ます。", a:"見(み)", opts:["見(み)","来(き)","聞(き)き","行(い)き"], sSrc:"I see her. (polite form)",
    hint:"The verb meaning 'to see / look at.' Drop る and the stem becomes み."},
 
-  {type:"mc", q:"聞(き)く can mean which of the following?", opts:["to eat and to drink","to listen and to ask","to see and to watch","to come and to go"], ans:"to listen and to ask",
+  {type:"mc", q:"聞(き)く can mean which of the following?", opts:["to come and to go","to eat and to drink","to listen and to ask","to see and to watch"], ans:"to listen and to ask",
    hint:"This verb covers both hearing/listening and the act of asking a question."},
 
   {type:"fb", s:"私(わたし)は先生(せんせい)に{1}きます。", a:"聞(き)", opts:["聞(き)","見(み)","来(き)","行(い)"], sSrc:"I ask the teacher. (polite form)",
    hint:"The verb meaning 'to ask / hear.' Godan group: く → き + ます."},
 
-  {type:"mc", q:"彼女(かのじょ)は来(き)ます means:", opts:["She is coming","He came","She does not come","She is listening"], ans:"She is coming",
+  {type:"mc", q:"彼女(かのじょ)は来(き)ます means:", opts:["He came","She does not come","She is listening","She is coming"], ans:"She is coming",
    hint:"彼女(かのじょ) = …. 来(き)ます = polite present of 来(く)る (to come)."},
 
   {type:"fb", s:"彼(かれ)は先生(せんせい)を{1}ます。", a:"見(み)", opts:["見(み)","聞(き)き","来(き)","行(い)き"], sSrc:"He sees the teacher. (polite form)",
@@ -386,7 +386,7 @@ const UNIT_02 = {
     {trg:"彼女(かのじょ)", src:"she / girlfriend"}
   ]},
 
-  {type:"mc", q:"Which sentence means 'She sees the teacher'?", opts:["彼女(かのじょ)は先生(せんせい)に聞(き)きます","彼(かれ)は先生(せんせい)を見(み)ます","彼女(かのじょ)は先生(せんせい)を見(み)ます","私(わたし)は先生(せんせい)に来(き)ます"], ans:"彼女(かのじょ)は先生(せんせい)を見(み)ます",
+  {type:"mc", q:"Which sentence means 'She sees the teacher'?", opts:["彼女(かのじょ)は先生(せんせい)を見(み)ます","私(わたし)は先生(せんせい)に来(き)ます","彼女(かのじょ)は先生(せんせい)に聞(き)きます","彼(かれ)は先生(せんせい)を見(み)ます"], ans:"彼女(かのじょ)は先生(せんせい)を見(み)ます",
    hint:"彼女(かのじょ) = she. 先生(せんせい)を見(み)ます = sees the teacher."},
 
   {type:"fb", s:"先生(せんせい)に{1}きます。", a:"聞(き)", opts:["聞(き)","見(み)","来(き)","行(い)"], sSrc:"I will ask the teacher. (polite form)",

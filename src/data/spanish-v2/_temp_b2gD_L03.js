@@ -68,10 +68,10 @@ const LESSON_3 = {id:"esv2_b2gD_l3",title:"Ciencia y naturaleza",icon:"\uD83E\uD
  {trg:"obesidad",src:"obesity"}
 ]},
 
-{type:"mc",q:"Los nitratos se utilizan principalmente en...",opts:["Agricultura y fertilizantes","Construcción de edificios","Fabricación de ropa","Producción de energía solar"],ans:"Agricultura y fertilizantes",hint:"These compounds provide essential nitrogen for plant growth in farming."},
+{type:"mc",q:"Los nitratos se utilizan principalmente en...",opts:["Producción de energía solar","Agricultura y fertilizantes","Construcción de edificios","Fabricación de ropa"],ans:"Agricultura y fertilizantes",hint:"These compounds provide essential nitrogen for plant growth in farming."},
 
 {type:"fb",s:"La {1} del estudio fue revisada por expertos independientes.",a:["metodología"],opts:["metodología","neumonía","aspiración","consistencia"],hint:"The systematic approach and procedures used to conduct scientific research.",sSrc:"The {1} of the study was reviewed by independent experts."},
 
-{type:"mc",q:"La aspiración puede significar...",opts:["Un deseo fuerte o el acto de respirar","Un tipo de enfermedad pulmonar","Una reacción química","Un instrumento médico"],ans:"Un deseo fuerte o el acto de respirar",hint:"This word has both a motivational meaning (goal) and a physical one (inhaling)."}
+{type:"mc",q:"La aspiración puede significar...",opts:["Una reacción química","Un instrumento médico","Un deseo fuerte o el acto de respirar","Un tipo de enfermedad pulmonar"],ans:"Un deseo fuerte o el acto de respirar",hint:"This word has both a motivational meaning (goal) and a physical one (inhaling)."}
 ]};
 export default LESSON_3;

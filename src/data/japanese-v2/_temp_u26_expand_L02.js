@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: We need to pay attention to global economic trends.\nB: Especially Asian market trends.\nA: Could you share your opinion?\nB: In my opinion, I think a bit more consideration is needed.\nA: Which points should be considered?\nB: We need to review the budget and staffing aspects once more.",
      funFact:"動向 uses 動 (move) and 向 (direction). It captures which way something is moving. Editorials track どうこう of everything: voter sentiment, economic indicators, international relations. The related word 傾向 (keiko, tendency) is more about established patterns, while どうこう implies ongoing, still-developing movement."},
 
-    {type:"mc", q:"えいきょうをあたえる means:", opts:["To receive an effect","To exert an effect on something","To ignore an effect","To predict an effect"], ans:"To exert an effect on something",
+    {type:"mc", q:"えいきょうをあたえる means:", opts:["To exert an effect on something","To ignore an effect","To predict an effect","To receive an effect"], ans:"To exert an effect on something",
      hint:"あたえる means to give, so this phrase means giving influence to s...."},
 
     {type:"teach", trg:"しゅちょう", src:"assertion / claim / argument", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_4 = {
      exampleSrc:"A: The trend of young people moving away from newspapers continues.\nB: They are shifting to digital media.\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"傾向 uses 傾 (lean/tilt) and 向 (direction). A trend is something leaning in a direction. While どうこう tracks active movement, けいこう describes an established lean. The phrase ...のけいこうがみられる (a tendency is observed) is standard editorial and academic phrasing for describing patterns."},
 
-    {type:"mc", q:"こんきょのないしゅちょう means:", opts:["A strong, well-supported argument","A popular opinion","A claim that lacks any supporting evidence","A government policy"], ans:"A claim that lacks any supporting evidence",
+    {type:"mc", q:"こんきょのないしゅちょう means:", opts:["A popular opinion","A claim that lacks any supporting evidence","A government policy","A strong, well-supported argument"], ans:"A claim that lacks any supporting evidence",
      hint:"こんきょ means the root or foundation, and ない means without."},
 
     {type:"teach", trg:"よろん", src:"public opinion", pos:"noun", gender:null,

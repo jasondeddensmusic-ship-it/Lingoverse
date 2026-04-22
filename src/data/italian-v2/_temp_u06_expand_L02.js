@@ -87,7 +87,7 @@ const LESSON_5 = {
      sSrc:"A ticket to Rome, {1} way."},
 
     {type:"mc", q:"What does 'in ritardo' mean?",
-     opts:["Late / delayed","On time","Early","Cancelled"],
+     opts:["Cancelled","Late / delayed","On time","Early"],
      ans:"Late / delayed",
      hint:"The opposite of 'in orario' (on time). Common for trains and personal appointments."},
 
@@ -106,7 +106,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"What clock system does Italy use officially?",
-     opts:["24-hour clock","12-hour with AM/PM","Both equally","Depends on the region"],
+     opts:["Both equally","Depends on the region","24-hour clock","12-hour with AM/PM"],
      ans:"24-hour clock",
      hint:"Train timetables, opening times, and appointments use this official format. You see '14:30' rather than '2:30 PM.'"},
 
@@ -117,7 +117,7 @@ const LESSON_5 = {
      sSrc:"From which {1} does the train leave?"},
 
     {type:"mc", q:"What does 'andata e ritorno' mean?",
-     opts:["Round trip","One way","First class","Express service"],
+     opts:["One way","First class","Express service","Round trip"],
      ans:"Round trip",
      hint:"Literally 'going and return.' The ticket covers both the outbound and return journey."},
 

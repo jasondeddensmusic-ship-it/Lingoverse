@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 6: Speech and Taste
+// Korean B2. Batch 4, Lesson 6: Speech and Taste
 // Words: 말투, 맘, 맘대로, 맛보다, 망설이다, 망원경, 망치다, 망하다, 맞은편, 맞이하다, 매, 매너, 매다, 매달, 매달다, 매달리다, 매번, 매스컴, 매장, 매주
 
 const LESSON_6 = {
@@ -125,7 +125,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'매달리다'의 비유적 의미는?",
-     opts:["간절히 집착하다","높이 올라가다","조용히 기다리다","빠르게 달리다"],
+     opts:["빠르게 달리다","간절히 집착하다","높이 올라가다","조용히 기다리다"],
      ans:"간절히 집착하다",
      hint:"Beyond the physical meaning of hanging, this verb figuratively means desperately holding on to something."},
 

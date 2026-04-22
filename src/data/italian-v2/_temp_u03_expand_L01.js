@@ -87,7 +87,7 @@ const LESSON_4 = {
      sSrc:"My {1} is named Paolo."},
 
     {type:"mc", q:"What does 'fidanzato' mean?",
-     opts:["Boyfriend or fiance","Husband","Brother","Friend"],
+     opts:["Friend","Boyfriend or fiance","Husband","Brother"],
      ans:"Boyfriend or fiance",
      hint:"This word covers both stages of a romantic relationship before marriage. From 'fidare' (to trust)."},
 
@@ -106,7 +106,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"How do young Italians typically say 'boyfriend'?",
-     opts:["Il ragazzo","Il fidanzato","Il marito","L'amico"],
+     opts:["Il marito","L'amico","Il ragazzo","Il fidanzato"],
      ans:"Il ragazzo",
      hint:"In casual speech, the word for 'boy' doubles as the informal term for a romantic partner."},
 
@@ -117,7 +117,7 @@ const LESSON_4 = {
      sSrc:"This is my {1}, Giulia."},
 
     {type:"mc", q:"What is 'i suoceri'?",
-     opts:["The in-laws (parents)","The grandparents","The siblings","The cousins"],
+     opts:["The grandparents","The siblings","The cousins","The in-laws (parents)"],
      ans:"The in-laws (parents)",
      hint:"The plural of 'suocero' (father-in-law). Together the pair means both p... of your spouse."},
 

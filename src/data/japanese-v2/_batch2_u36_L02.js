@@ -24,7 +24,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: First grasp the gist, then re-read.\nB: Skimming techniques are useful.\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"要旨(ようし) uses 要(よう) (essential/important) and 旨(し) (meaning/purport). In Japanese academic writing, the 要旨(ようし) (abstract) is the first thing readers see. JLPT reading comprehension tests the ability to identify the 要旨(ようし) of complex passages. The skill of separating 要旨(ようし) from supporting details is fundamental to advanced reading."},
 
-    {type:"mc", q:"読(よ)み解(と)く means:", opts:["To read quickly","To read and deeply comprehend","To read aloud","To read for pleasure"], ans:"To read and deeply comprehend",
+    {type:"mc", q:"読(よ)み解(と)く means:", opts:["To read and deeply comprehend","To read aloud","To read for pleasure","To read quickly"], ans:"To read and deeply comprehend",
      hint:"This compound verb combines reading with analytical understanding, going beyond surface comprehension."},
 
     {type:"teach", trg:"文脈(ぶんみゃく)", src:"context / flow of text / discourse", pos:"noun", gender:null,
@@ -90,7 +90,7 @@ const BATCH2_L_2 = {
      deepDive:{title:"The Road to N1",
       text:"JLPT N1 requires approximately 10,000 vocabulary items and 200+ grammar patterns.\n\nYour B2 vocabulary covers the core academic and social vocabulary tested on N1. To continue:\n\n1. Vocabulary: Add 10-20 new words daily from N1 word lists.\n2. Grammar: Study the remaining N1 patterns (approximately 80-100 beyond what you have learned).\n3. Reading: Practice with full-length N1 reading sections. Focus on speed and accuracy.\n4. Listening: Train with NHK Radio News (slower pace) then TV news (natural speed).\n\nRemember: 積(つ)み重(かさ)ね. Consistent daily effort is the path to N1 合格(ごうかく)."}},
 
-    {type:"mc", q:"The most important strategy for JLPT reading comprehension is:", opts:["Reading every word carefully from start to finish","First grasping the outline, then re-reading for details","Guessing all answers without reading","Only reading the questions, not the passages"], ans:"First grasping the outline, then re-reading for details",
+    {type:"mc", q:"The most important strategy for JLPT reading comprehension is:", opts:["Only reading the questions, not the passages","Reading every word carefully from start to finish","First grasping the outline, then re-reading for details","Guessing all answers without reading"], ans:"First grasping the outline, then re-reading for details",
      hint:"概要(がいよう)をつかむ (grasp the o...) f..., t... 再読(さいどく) (re-read) for specific answers."},
   {type:"match",pairs:[{trg:"再読(さいどく)",src:"re-reading / reading again"}]}]
 };

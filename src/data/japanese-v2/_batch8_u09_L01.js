@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"服(ふく)",src:"clothes"},{trg:"靴下(くつした)",src:"socks"},{trg:"帽子(ぼうし)",src:"hat"},{trg:"傘(かさ)",src:"umbrella"},{trg:"マフラー",src:"scarf"}],
      hint:"Match each clothing/accessory item with its English name."},
 
-    {type:"mc", q:"What does 試着(しちゃく)する mean?", opts:["To try on clothes","To buy clothes","To wash clothes","To fold clothes"], ans:"To try on clothes",
+    {type:"mc", q:"What does 試着(しちゃく)する mean?", opts:["To fold clothes","To try on clothes","To buy clothes","To wash clothes"], ans:"To try on clothes",
      hint:"You do this in a fitting room (試着室(しちゃくしつ)) at a clothing store."},
 
     {type:"fb", s:"仕事(しごと)のあと{1}ます。\n(I change clothes after work.)", a:"着(き)替(が)え", opts:["着(き)替(が)え","試着(しちゃく)し","洗(あら)い","買(か)い"], sSrc:"I change clothes after work.",
      hint:"This verb means to switch from one set of clothes to another."},
 
-    {type:"mc", q:"What is special about the Japanese word 着物(きもの)?", opts:["It originally meant any clothing, then narrowed to traditional garments","It means formal clothing only","It refers only to silk garments","It was borrowed from Chinese"], ans:"It originally meant any clothing, then narrowed to traditional garments",
+    {type:"mc", q:"What is special about the Japanese word 着物(きもの)?", opts:["It refers only to silk garments","It was borrowed from Chinese","It originally meant any clothing, then narrowed to traditional garments","It means formal clothing only"], ans:"It originally meant any clothing, then narrowed to traditional garments",
      hint:"The kanji mean 'thing to wear,' a very general meaning."}
   ,{type:"fb", s:"視力(しりょく)が悪(わる)いので{1}をかけています。",
      a:["眼鏡(めがね)"],

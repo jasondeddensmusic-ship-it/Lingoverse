@@ -60,7 +60,7 @@ const BATCH2_L_4 = {
      exampleSrc:"A: Anonymity facilitates online defamation.\nB: There are also views that real-name policies should be strengthened.\nA: What kinds of methods are there?\nB: There are several options. The most effective is practice.\nA: What specifically should we do in practice?\nB: It is important to work on it a little each day.",
      funFact:"匿名 uses 匿(とく) (hide/conceal) and 名(めい) (name). Japan's internet culture has deep roots in 匿名性(とくめいせい). Unlike Facebook (which requires real names), Japanese platforms like 2ちゃんねる and Twitter (now X) thrived on anonymity. This creates a unique tension: 匿名(とくめい) enables honest discussion but also enables cyberbullying."},
 
-    {type:"mc", q:"配信(はいしん) differs from 放送(ほうそう) in that:", opts:["配信(はいしん) is digital on-demand, 放送(ほうそう) is traditional broadcast","They are exactly the same","配信(はいしん) is radio, 放送(ほうそう) is TV","配信(はいしん) is only for music"], ans:"配信(はいしん) is digital on-demand, 放送(ほうそう) is traditional broadcast",
+    {type:"mc", q:"配信(はいしん) differs from 放送(ほうそう) in that:", opts:["配信(はいしん) is only for music","配信(はいしん) is digital on-demand, 放送(ほうそう) is traditional broadcast","They are exactly the same","配信(はいしん) is radio, 放送(ほうそう) is TV"], ans:"配信(はいしん) is digital on-demand, 放送(ほうそう) is traditional broadcast",
      hint:"One is the t... sending of content over airwaves, the other is d... distribution."},
 
     {type:"teach", trg:"誹謗中傷(ひぼうちゅうしょう)", src:"defamation / slander / libel", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"書(か)き込(こ)み",src:"online comment"},{trg:"匿名(とくめい)",src:"anonymous"},{trg:"発言(はつげん)",src:"statement"},{trg:"誹謗中傷(ひぼうちゅうしょう)",src:"defamation"}]},
 
-    {type:"mc", q:"Japan strengthened online defamation laws after:", opts:["A corporate scandal","The death of a reality TV star due to cyberbullying","A government data breach","A newspaper lawsuit"], ans:"The death of a reality TV star due to cyberbullying",
+    {type:"mc", q:"Japan strengthened online defamation laws after:", opts:["A newspaper lawsuit","A corporate scandal","The death of a reality TV star due to cyberbullying","A government data breach"], ans:"The death of a reality TV star due to cyberbullying",
      hint:"This tragic 2020 event led to legal reforms making online insults more harshly punishable."},
   {type:"match",pairs:[{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"}]}]
 };

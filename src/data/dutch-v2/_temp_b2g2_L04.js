@@ -1,4 +1,4 @@
-// L04: Society & Identity — 20 B2 gap words
+// L04: Society & Identity, 20 B2 gap words
 const LESSON_4 = {
   id:"nlv2_b2g2_l4", title:"Samenleving en Identiteit", icon:"\uD83C\uDFE0", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_4 = {
      sSrc:"The {1} of this city has changed greatly over the past twenty years."},
     {type:"mc",
      q:"Welke uitdrukking past bij de Nederlandse bescheidenheid?",
-     opts:["Doe maar gewoon, dan doe je al gek genoeg","Hoog in de boom, ver van de grond","Wie het laatst lacht, lacht het best","Oost west, thuis best"],
+     opts:["Oost west, thuis best","Doe maar gewoon, dan doe je al gek genoeg","Hoog in de boom, ver van de grond","Wie het laatst lacht, lacht het best"],
      ans:"Doe maar gewoon, dan doe je al gek genoeg",
      hint:"This famous Dutch saying discourages standing out or bragging. It encourages being normal."},
     {type:"match", pairs:[

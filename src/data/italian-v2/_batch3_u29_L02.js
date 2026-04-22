@@ -1,4 +1,4 @@
-// Batch 3 — Unit 29 Lesson 2 (Psychology: Development & Social)
+// Batch 3. Unit 29 Lesson 2 (Psychology: Development & Social)
 const BATCH3_L_2 = {
   id:"itv2_u29l_b3_2", title:"Psicologia dello sviluppo", icon:"🌱", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Chi ha sviluppato il metodo educativo basato sull'osservazione dello sviluppo del bambino?",
-     opts:["Piaget","Montessori","Freud","Vygotsky"],
+     opts:["Montessori","Freud","Vygotsky","Piaget"],
      ans:"Montessori",
      hint:"This Italian educator and physician created a worldwide educational method based on children's natural developmental stages."},
 
@@ -114,10 +114,10 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e la 'socializzazione primaria' in psicologia dello sviluppo?",
-     opts:["Il primo giorno di scuola del bambino nell'asilo nido","L'apprendimento di norme e valori che avviene in famiglia durante l'infanzia","Il processo di inserimento lavorativo dei giovani neolaureati","La prima sessione con lo psicologo clinico durante la terapia"],
+     opts:["La prima sessione con lo psicologo clinico durante la terapia","Il primo giorno di scuola del bambino nell'asilo nido","L'apprendimento di norme e valori che avviene in famiglia durante l'infanzia","Il processo di inserimento lavorativo dei giovani neolaureati"],
      ans:"L'apprendimento di norme e valori che avviene in famiglia durante l'infanzia",
      hint:"The first stage of learning social norms. It happens within the family during early childhood, before school begins."}
-  ,{type:"match",pairs:[{trg:"lo sviluppo cognitivo",src:"cognitive development"},{trg:"la socializzazione",src:"socialization"}]},{type:"mc",q:"How do you say \"adolescence\" in Italian?",opts:["l'adolescenza","la finestra","il tavolo","la bicicletta"],ans:"l'adolescenza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"identity\" in Italian?",opts:["la finestra","l'identità","il tavolo","la bicicletta"],ans:"l'identità",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emotional intelligence\" in Italian?",opts:["la finestra","il tavolo","l'intelligenza emotiva","la bicicletta"],ans:"l'intelligenza emotiva",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"introversion\" in Italian?",opts:["la finestra","il tavolo","l'introversione","la bicicletta"],ans:"l'introversione",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emulation / imitation\" in Italian?",opts:["l'emulazione","la finestra","il tavolo","la bicicletta"],ans:"l'emulazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"lo sviluppo cognitivo",src:"cognitive development"},{trg:"la socializzazione",src:"socialization"}]},{type:"mc",q:"How do you say \"adolescence\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'adolescenza"],ans:"l'adolescenza",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"identity\" in Italian?",opts:["l'identità","il tavolo","la bicicletta","la finestra"],ans:"l'identità",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emotional intelligence\" in Italian?",opts:["il tavolo","l'intelligenza emotiva","la bicicletta","la finestra"],ans:"l'intelligenza emotiva",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"introversion\" in Italian?",opts:["la finestra","il tavolo","l'introversione","la bicicletta"],ans:"l'introversione",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"emulation / imitation\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'emulazione"],ans:"l'emulazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"La {1} cognitiva continua fino all'età adulta.",a:["maturita"],opts:["maturita","socializzazione","memoria","adolescenza"],hint:"The state of full development, reached after adolescence.",sSrc:"Cognitive {1} continues into adulthood."},
 {type:"fb",s:"La {1} aiuta i bambini a sviluppare abilita sociali.",a:["socializzazione"],opts:["socializzazione","emulazione","identità","maturita"],hint:"The process of learning to interact and live within a group.",sSrc:"The {1} helps children develop social skills."}]
 };

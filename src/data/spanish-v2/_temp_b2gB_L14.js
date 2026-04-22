@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 14 — Economics & Trade
+// B2 Gap Batch B Lesson 14. Economics & Trade
 const LESSON_14 = {id:"esv2_b2gB_l14",title:"Economía y comercio",icon:"📊",xp:15,board:true,steps:[
 {type:"intro",title:"Economía y comercio",desc:"Learn vocabulary about economics, international trade, and financial markets in Spanish.",goals:["Learn 12 words about economics and trade","Discuss markets and commercial activity","Use formal financial vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_14 = {id:"esv2_b2gB_l14",title:"Economía y comercio",icon:"📊",x
  funFact:"Spain's 'educación para adultos' system allows completing secondary education at any age, free of charge."},
 
 {type:"mc",q:"¿Qué significa 'empresa matriz'?",
- opts:["La empresa principal que controla otras","Una empresa muy pequeña","Una empresa en quiebra","Una empresa recién creada"],
+ opts:["Una empresa recién creada","La empresa principal que controla otras","Una empresa muy pequeña","Una empresa en quiebra"],
  ans:"La empresa principal que controla otras",
  hint:"Think about the Latin root meaning 'mother' or 'womb', the source from which others come."},
 

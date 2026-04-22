@@ -1,4 +1,4 @@
-// L10: Health, Body & Mind — 20 B2 gap words
+// L10: Health, Body & Mind, 20 B2 gap words
 const LESSON_10 = {
   id:"nlv2_b2g4_l10", title:"Gezondheid en Welzijn", icon:"\uD83E\uDDE0", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_10 = {
      deepDive:{title:"The ge- prefix system",
       text:"The ge- prefix is one of Dutch's most productive. Besides sound nouns, it creates past participles (gelopen, gezien) and collective nouns (gebergte = mountain range, gebouw = building). For sound nouns, ge- always implies repetition or continuation: 'geblaf' is not one bark but ongoing barking. This is a key pattern for B2 learners to recognize."}},
     {type:"mc", q:"What is 'drop' in Dutch culture?",
-     opts:["a type of cheese","licorice candy","a raindrop","a music genre"],
+     opts:["licorice candy","a raindrop","a music genre","a type of cheese"],
      ans:"licorice candy",
      hint:"The Dutch eat about 2 kg per person per year. Comes in salty and sweet.",
     },
@@ -119,7 +119,7 @@ const LESSON_10 = {
      hint:"Compound: intestine + inflammation. A medical diagnosis.",
      sSrc:"The doctor diagnosed an intestinal inflammation."},
     {type:"mc", q:"Which Dutch word means 'to yawn'?",
-     opts:["geeuwen","joelen","janken","kakelen"],
+     opts:["kakelen","geeuwen","joelen","janken"],
      ans:"geeuwen",
      hint:"An onomatopoeic word imitating the sound of opening your mouth wide when tired."},
     {type:"fb", s:"Het {1} van het publiek was oorverdovend.", a:["gejoel"],
@@ -137,7 +137,7 @@ const LESSON_10 = {
      hint:"A person receiving professional services. Used in healthcare and law.",
      sSrc:"The client is waiting in the consultation room."},
     {type:"mc", q:"'Ik nam een duik in het koude water.' What is a 'duik'?",
-     opts:["a swim","a dive/plunge","a shower","a float"],
+     opts:["a float","a swim","a dive/plunge","a shower"],
      ans:"a dive/plunge",
      hint:"From the verb 'duiken'. The New Year's version involves the North Sea."},
     {type:"match", pairs:[

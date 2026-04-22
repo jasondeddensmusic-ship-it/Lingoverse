@@ -1,4 +1,4 @@
-// Unit 25 — Le Subjonctif Passé
+// Unit 25. Le Subjonctif Passé
 // Past subjunctive and advanced triggers
 
 import COVERAGE_U25 from './_coverage_u25.js';

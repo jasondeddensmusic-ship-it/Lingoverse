@@ -32,7 +32,7 @@ const LESSON_19 = {id:"esv2_b2gap_l19",title:"Acciones y cambio III",icon:"🔧"
  exampleSrc:"A: The cold turned his lips blue.\nB: He needed to warm up urgently.",
  funFact:"From azul (blue), from Arabic lazaward. Vivid and poetic, though uncommon in daily speech."},
 
-{type:"mc",q:"En España, cada persona tiene:",opts:["Un apellido","Dos apellidos","Tres apellidos","Ningún apellido"],ans:"Dos apellidos",hint:"The Spanish naming system uses both parents' surnames."},
+{type:"mc",q:"En España, cada persona tiene:",opts:["Dos apellidos","Tres apellidos","Ningún apellido","Un apellido"],ans:"Dos apellidos",hint:"The Spanish naming system uses both parents' surnames."},
 
 {type:"teach",trg:"chutar",src:"to shoot (a ball) / to kick",pos:"verb",gender:null,
  note:"Regular -ar verb. To kick a ball toward the goal.\nAlso slang: to inject drugs.",
@@ -112,13 +112,13 @@ const LESSON_19 = {id:"esv2_b2gap_l19",title:"Acciones y cambio III",icon:"🔧"
 
 {type:"fb",s:"La parcela {1} con un parque natural protegido.",a:["colinda"],opts:["colinda","compenetra","avocar","chutar"],hint:"To share a boundary or border with an adjacent area.",sSrc:"The plot {1} a protected natural park."},
 
-{type:"mc",q:"La moneda de Venezuela se llama:",opts:["El peso","El bolívar","El euro","El sol"],ans:"El bolívar",hint:"Named after South America's famous liberator."},
+{type:"mc",q:"La moneda de Venezuela se llama:",opts:["El sol","El peso","El bolívar","El euro"],ans:"El bolívar",hint:"Named after South America's famous liberator."},
 
 {type:"match",pairs:[{trg:"apellidar",src:"to surname"},{trg:"chutar",src:"to shoot (ball)"},{trg:"colindar",src:"to border"},{trg:"bruja",src:"witch"},{trg:"blogosfera",src:"blogosphere"}]},
 
 {type:"fb",s:"El delantero {1} con fuerza y marcó un golazo.",a:["chutó"],opts:["chutó","colindó","apostilló","avocó"],hint:"To kick the ball forcefully toward the goal.",sSrc:"The striker {1} powerfully and scored a great goal."},
 
-{type:"mc",q:"'Apoderarse de algo' significa:",opts:["Regalarlo","Tomarlo sin permiso","Comprarlo","Perderlo"],ans:"Tomarlo sin permiso",hint:"To seize or take over something, often without authorization."}
+{type:"mc",q:"'Apoderarse de algo' significa:",opts:["Comprarlo","Perderlo","Regalarlo","Tomarlo sin permiso"],ans:"Tomarlo sin permiso",hint:"To seize or take over something, often without authorization."}
 ]};
 
 export default LESSON_19;

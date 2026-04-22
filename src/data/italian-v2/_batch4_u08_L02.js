@@ -1,4 +1,4 @@
-// Batch 4 — Unit 08, Lesson 2: Returns, Exchanges & Shopping Problems
+// Batch 4. Unit 08, Lesson 2: Returns, Exchanges & Shopping Problems
 const BATCH4_U08_L2 = {
   id:"itv2_u08l_b4_2", title:"Cambi e resi", icon:"\uD83D\uDD04", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U08_L2 = {
     ]},
 
     {type:"mc", q:"Quanti anni dura la garanzia legale in Europa?",
-     opts:["2 anni","1 anno","6 mesi","5 anni"],
+     opts:["5 anni","2 anni","1 anno","6 mesi"],
      ans:"2 anni",
      hint:"EU consumer law sets this minimum warranty period for all products."},
 
@@ -126,7 +126,7 @@ const BATCH4_U08_L2 = {
      sSrc:"The {1} on the bag is broken, can I exchange it?"},
 
     {type:"mc", q:"Cosa significa il proverbio 'Chi si accontenta gode'?",
-     opts:["Those who accept what they have find happiness","Those who complain get better service","Rich people are always happy","Only perfect things bring joy"],
+     opts:["Rich people are always happy","Only perfect things bring joy","Those who accept what they have find happiness","Those who complain get better service"],
      ans:"Those who accept what they have find happiness",
      hint:"This proverb is about finding satisfaction without demanding perfection."},
 
@@ -136,7 +136,7 @@ const BATCH4_U08_L2 = {
      sSrc:"I would like to {1} a complaint about the service."},
 
     {type:"mc", q:"Come devi salutare quando entri in un negozio italiano?",
-     opts:["Dire 'Buongiorno!' al commesso","Entrare in silenzio","Aspettare che il commesso parli","Toccare i vestiti immediatamente"],
+     opts:["Entrare in silenzio","Aspettare che il commesso parli","Toccare i vestiti immediatamente","Dire 'Buongiorno!' al commesso"],
      ans:"Dire 'Buongiorno!' al commesso",
      hint:"Greeting the shop assistant is basic Italian etiquette when entering a store."}
   ,{type:"match",pairs:[{trg:"il difetto",src:"the defect / flaw"},{trg:"rotto",src:"broken"},{trg:"stretto",src:"tight / narrow"},{trg:"largo",src:"wide / loose / big"},{trg:"il bottone",src:"the button"},{trg:"soddisfatto",src:"satisfied / happy (with purchase)"}]},{type:"match",pairs:[{trg:"lamentarsi",src:"to complain"},{trg:"accontentarsi",src:"to be satisfied with / to settle for"},{trg:"il commesso",src:"the shop assistant"}]},

@@ -84,7 +84,7 @@ const LESSON_17 = {id:"esv2_b2g5_l17",title:"Procesos y conceptos abstractos",ic
  exampleSrc:"A: Natural resources are finite.\nB: That's why we must use them responsibly.",
  funFact:"From Latin finitus (finished). In math, 'conjunto finito' (finite set) has a countable number of elements."},
 
-{type:"mc",q:"¿Qué es un desajuste?",opts:["Una falta de correspondencia entre dos cosas","Un tipo de reparación","Una mejora gradual","Un proceso de ensamblaje"],ans:"Una falta de correspondencia entre dos cosas",hint:"When two things that should fit together or match do not align properly."},
+{type:"mc",q:"¿Qué es un desajuste?",opts:["Un proceso de ensamblaje","Una falta de correspondencia entre dos cosas","Un tipo de reparación","Una mejora gradual"],ans:"Una falta de correspondencia entre dos cosas",hint:"When two things that should fit together or match do not align properly."},
 
 {type:"fb",s:"La {1} de los cambios fue fundamental para que la gente se adaptara.",a:["gradualidad"],opts:["gradualidad","finalización","fluctuación","acreditación"],hint:"The quality of happening step by step, not all at once.",sSrc:"The {1} of the changes was fundamental for people to adapt."},
 
@@ -92,7 +92,7 @@ const LESSON_17 = {id:"esv2_b2g5_l17",title:"Procesos y conceptos abstractos",ic
 
 {type:"fb",s:"Los recursos del planeta son {1}, no podemos desperdiciarlos.",a:["finitos"],opts:["finitos","fluidos","fluctuantes","florecientes"],hint:"An adjective meaning limited, having an end, not infinite.",sSrc:"The planet's resources are {1}, we cannot waste them."},
 
-{type:"mc",q:"¿Qué es el acondicionamiento de un local?",opts:["Prepararlo y equiparlo para su uso","Cerrarlo definitivamente","Venderlo a otra empresa","Pintarlo de un color nuevo"],ans:"Prepararlo y equiparlo para su uso",hint:"The process of fitting out a space with everything needed for it to function."}
+{type:"mc",q:"¿Qué es el acondicionamiento de un local?",opts:["Venderlo a otra empresa","Pintarlo de un color nuevo","Prepararlo y equiparlo para su uso","Cerrarlo definitivamente"],ans:"Prepararlo y equiparlo para su uso",hint:"The process of fitting out a space with everything needed for it to function."}
 ]};
 
 export default LESSON_17;

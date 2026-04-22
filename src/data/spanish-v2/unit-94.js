@@ -1,4 +1,4 @@
-// Spanish V2 Unit 94 — B2 PCIC Debate & Globalization Vocabulary
+// Spanish V2 Unit 94. B2 PCIC Debate & Globalization Vocabulary
 import LESSON_12 from './_temp_esB2fin_L12.js';
 
 import COVERAGE_U94 from './_coverage_u94.js';

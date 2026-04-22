@@ -84,7 +84,7 @@ const LESSON_13 = {id:"esv2_b2g5_l13",title:"Edificios y construcción",icon:"�
  exampleSrc:"A: There is a mismatch between housing supply and demand.\nB: That's why prices keep going up.",
  funFact:"In economics, 'desajuste' is a technical term for any imbalance in markets or fiscal policy."},
 
-{type:"mc",q:"¿Qué es el gallinero en un teatro?",opts:["Las butacas más altas y baratas","El escenario principal","Los camerinos de los actores","La primera fila"],ans:"Las butacas más altas y baratas",hint:"Named after the bird enclosure because of the noise and chaos in the cheapest upper seats."},
+{type:"mc",q:"¿Qué es el gallinero en un teatro?",opts:["La primera fila","Las butacas más altas y baratas","El escenario principal","Los camerinos de los actores"],ans:"Las butacas más altas y baratas",hint:"Named after the bird enclosure because of the noise and chaos in the cheapest upper seats."},
 
 {type:"fb",s:"El auditorio tiene {1} para mil espectadores.",a:["cabida"],opts:["cabida","covacha","desajuste","desplazamiento"],hint:"The amount of space or capacity available in a venue.",sSrc:"The auditorium has {1} for a thousand spectators."},
 
@@ -92,7 +92,7 @@ const LESSON_13 = {id:"esv2_b2g5_l13",title:"Edificios y construcción",icon:"�
 
 {type:"fb",s:"El {1} al trabajo en coche me lleva cuarenta minutos.",a:["desplazamiento"],opts:["desplazamiento","desajuste","enrejado","batiente"],hint:"The act of traveling from one place to another, especially commuting.",sSrc:"The {1} to work by car takes me forty minutes."},
 
-{type:"mc",q:"¿Qué significa 'desamueblar'?",opts:["Quitar todos los muebles de un espacio","Pintar las paredes de blanco","Instalar muebles nuevos","Reparar una puerta rota"],ans:"Quitar todos los muebles de un espacio",hint:"The prefix des- reverses the action of 'amueblar' (to furnish)."}
+{type:"mc",q:"¿Qué significa 'desamueblar'?",opts:["Instalar muebles nuevos","Reparar una puerta rota","Quitar todos los muebles de un espacio","Pintar las paredes de blanco"],ans:"Quitar todos los muebles de un espacio",hint:"The prefix des- reverses the action of 'amueblar' (to furnish)."}
 ]};
 
 export default LESSON_13;

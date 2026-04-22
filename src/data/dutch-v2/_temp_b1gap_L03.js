@@ -1,4 +1,4 @@
-// L03: Work and Business — 20 B1 gap words
+// L03: Work and Business, 20 B1 gap words
 const LESSON_3 = {
   id:"nlv2_b1gap_l3", title:"Werk en Bedrijf", icon:"\u{1F4BC}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Een bedrijf dat andere bedrijven helpt met strategie en planning heet een ___.",
-     opts:["adviesbureau","advocatenkantoor","arbeidsmarkt","accountant"],
+     opts:["accountant","adviesbureau","advocatenkantoor","arbeidsmarkt"],
      ans:"adviesbureau",
      hint:"Think about a firm that gives professional counsel to other businesses."},
 
@@ -144,7 +144,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"In welke sector werkt een verpleegster?",
-     opts:["gezondheidszorg","adviesbureau","arbeidsmarkt","bedrijfsleven"],
+     opts:["arbeidsmarkt","bedrijfsleven","gezondheidszorg","adviesbureau"],
      ans:"gezondheidszorg",
      hint:"Think about which industry involves caring for sick people in hospitals."}
   ]

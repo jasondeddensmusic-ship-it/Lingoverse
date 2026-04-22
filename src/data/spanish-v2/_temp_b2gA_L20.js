@@ -14,7 +14,7 @@ const LESSON_20 = {
     {type:"teach", trg:"el progreso", src:"the progress", pos:"noun", gender:"m", note:"Forward movement toward a goal.", example:"A: ¿Hay progreso en las negociaciones?\nB: Si, estamos avanzando poco a poco.", exampleSrc:"A: Is there progress in the negotiations?\nB: Yes, we're advancing little by little.", funFact:"From Latin progressus (a going forward). Pro (forward) + gressus (step). Same root as 'aggressive' (stepping toward)."},
     {type:"mc", q:"¿Que significa 'resumen'?", opts:["A summary","A conclusion","An evaluation","An experience"], ans:"A summary", hint:"Think of 'resumir' (to summarize). A condensed version of longer content."},
     {type:"fb", s:"La {1} del estudio demuestra que se necesitan mas recursos.", a:["conclusion"], opts:["conclusion","evaluacion","experiencia","contribucion"], hint:"The final judgment drawn from a study. What comes at the end of an investigation?", sSrc:"The {1} of the study demonstrates that more resources are needed."},
-    {type:"mc", q:"¿Cual es la traduccion de 'responsibility'?", opts:["responsabilidad","posibilidad","desarrollo","progreso"], ans:"responsabilidad", hint:"Ends in -idad, the Spanish equivalent of English -ity. Think: accountable."},
+    {type:"mc", q:"¿Cual es la traduccion de 'responsibility'?", opts:["progreso","responsabilidad","posibilidad","desarrollo"], ans:"responsabilidad", hint:"Ends in -idad, the Spanish equivalent of English -ity. Think: accountable."},
     {type:"match", pairs:[{trg:"futuro",src:"future"},{trg:"experiencia",src:"experience"},{trg:"contribucion",src:"contribution"},{trg:"progreso",src:"progress"}]}
   ]
 };

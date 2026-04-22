@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: Miki-chan, let's go play!\nB: Yeah! Let's go!",
      funFact:"Chan originated as a baby's mispronunciation of san. It became its own suffix expressing affection. It works on first names (Yuki-chan), nicknames (Yuk-chan), and even objects (neko-chan, kitty). Baa-chan (grandma) and jii-chan (grandpa) are beloved family terms."},
 
-    {type:"mc", q:"Which suffix should you NEVER use on your own name?", opts:["くん","ちゃん","さん","All of them"], ans:"さん",
+    {type:"mc", q:"Which suffix should you NEVER use on your own name?", opts:["さん","All of them","くん","ちゃん"], ans:"さん",
      hint:"This polite suffix is for others only. Using it on yourself sounds arrogant."},
 
     {type:"teach", trg:"さま", src:"-sama (very respectful suffix)", pos:"part", gender:null,
@@ -81,7 +81,7 @@ const LESSON_5 = {
      exampleSrc:"A: My hobby is traveling.\nB: Where have you been?",
      funFact:"旅 (travel) + 行 (go). Japanese people are passionate travelers. Golden Week (early May) and Obon (mid-August) see massive domestic travel. The shinkansen (bullet train) was built largely to handle this travel demand."},
 
-    {type:"mc", q:"めいし means:", opts:["greeting","hobby","business card","introduction"], ans:"business card",
+    {type:"mc", q:"めいし means:", opts:["hobby","business card","introduction","greeting"], ans:"business card",
      hint:"A small c... exchanged formally in Japanese b... settings."},
 
     {type:"teach", trg:"おしごとはなんですか", src:"what is your job?", pos:"intj", gender:null,
@@ -113,10 +113,10 @@ const LESSON_5 = {
     {type:"mc", q:"こちらこそ means:", opts:["Thank you","Goodbye","Likewise / same to you","I understand"], ans:"Likewise / same to you",
      hint:"This redirects a courtesy back to the speaker, meaning 'it is I who should say that.'"},
 
-    {type:"mc", q:"Which is the correct formality order (casual to formal)?", opts:["さん → くん → さま","ちゃん → さん → さま","さま → さん → ちゃん","くん → さま → さん"], ans:"ちゃん → さん → さま",
+    {type:"mc", q:"Which is the correct formality order (casual to formal)?", opts:["さま → さん → ちゃん","くん → さま → さん","さん → くん → さま","ちゃん → さん → さま"], ans:"ちゃん → さん → さま",
      hint:"From affectionate/casual through standard polite to highest respect."},
 
-    {type:"mc", q:"しゅみはなんですか means:", opts:["What is your name?","What is your hobby?","What is your job?","Where are you from?"], ans:"What is your hobby?",
+    {type:"mc", q:"しゅみはなんですか means:", opts:["What is your hobby?","What is your job?","Where are you from?","What is your name?"], ans:"What is your hobby?",
      hint:"Shumi is the word for personal interests or pastimes."},
   ]
 };

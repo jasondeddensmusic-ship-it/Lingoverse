@@ -37,7 +37,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which word means 'therefore'?",
- opts:["entretanto","portanto","ademais","conforme"],
+ opts:["portanto","ademais","conforme","entretanto"],
  ans:"portanto",
  hint:"Introduces a logical conclusion. Think of cause and effect."},
 
@@ -50,7 +50,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Choose the formal word for 'however':",
- opts:["mas","porém","entretanto","ou"],
+ opts:["porém","entretanto","ou","mas"],
  ans:"entretanto",
  hint:"Most formal and longest option. Three syllables."},
 
@@ -63,7 +63,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which connector introduces a logical CONCLUSION?",
- opts:["entretanto","ademais","outrossim","portanto"],
+ opts:["ademais","outrossim","portanto","entretanto"],
  ans:"portanto",
  hint:"Cause leads to effect. This word bridges the two."},
 
@@ -138,7 +138,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which phrase means 'due to'?",
- opts:["mediante","em virtude de","a respeito de","no tocante a"],
+ opts:["em virtude de","a respeito de","no tocante a","mediante"],
  ans:"em virtude de",
  hint:"Introduces a cause or reason. Contains a word that sounds like the English one."},
 
@@ -164,7 +164,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"What does 'haja vista' mean?",
- opts:["however","considering","moreover","likewise"],
+ opts:["likewise","however","considering","moreover"],
  ans:"considering",
  hint:"Introduces a reason to support the previous statement."},
 
@@ -177,7 +177,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"'Doravante' sets a rule that applies:",
- opts:["in the past","right now only","from this point forward","temporarily"],
+ opts:["temporarily","in the past","right now only","from this point forward"],
  ans:"from this point forward",
  hint:"De ora + avante. It points to the future from now on."},
 
@@ -190,7 +190,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which phrase replaces 'por causa de' in formal writing?",
- opts:["mediante","doravante","em virtude de","no tocante a"],
+ opts:["em virtude de","no tocante a","mediante","doravante"],
  ans:"em virtude de",
  hint:"Introduces the cause. Contains a word for 'power' or 'force'."},
 
@@ -233,7 +233,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which phrase means 'nevertheless'?",
- opts:["deste modo","não obstante","assim sendo","haja vista"],
+ opts:["não obstante","assim sendo","haja vista","deste modo"],
  ans:"não obstante",
  hint:"Signals contrast but not blockage. Contains a negation."},
 
@@ -246,7 +246,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Choose the most formal way to say 'but':",
- opts:["mas","porém","contudo","não obstante"],
+ opts:["contudo","não obstante","mas","porém"],
  ans:"não obstante",
  hint:"Longest and most old-fashioned of the options."},
 
@@ -267,7 +267,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which register fits a WhatsApp to a friend?",
- opts:["não obstante","entretanto","porém","mas"],
+ opts:["entretanto","porém","mas","não obstante"],
  ans:"mas",
  hint:"Shortest, most everyday. Three letters."},
 
@@ -280,7 +280,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
 
 {type:"mc",
  q:"Which word summarizes a method described in the previous sentence?",
- opts:["assim sendo","não obstante","deste modo","outrossim"],
+ opts:["outrossim","assim sendo","não obstante","deste modo"],
  ans:"deste modo",
  hint:"Means 'in this way'. Points backward to what was just explained."},
 
@@ -292,7 +292,7 @@ const UNIT_33 = {n:33, lang:"pt", srcLang:"en", track:"v2", title:"Português fo
  sSrc:"The data was collected. {1}, we reached a conclusion."},
 
 {type:"tip", title:"Complex Conjunctions: embora, contudo, todavia",
- text:"Three essential concessive and adversative conjunctions for B2 writing:\n\nembora = although / even though (concessive — triggers the SUBJUNCTIVE)\nEmbora seja difícil, vale a pena tentar. (Although it is difficult, it is worth trying.)\n\ncontudo = however / yet (adversative, formal)\nO projeto foi aprovado; contudo, precisa de ajustes. (The project was approved; however, it needs adjustments.)\n\ntodavia = nevertheless / yet (adversative, literary/formal)\nO prazo é curto. Todavia, a equipe é capaz. (The deadline is short. Nevertheless, the team is capable.)\n\nCRITICAL: Embora always requires the SUBJUNCTIVE in the clause it introduces. This is non-negotiable: 'embora seja', never 'embora é'.",
+ text:"Three essential concessive and adversative conjunctions for B2 writing:\n\nembora = although / even though (concessive, triggers the SUBJUNCTIVE)\nEmbora seja difícil, vale a pena tentar. (Although it is difficult, it is worth trying.)\n\ncontudo = however / yet (adversative, formal)\nO projeto foi aprovado; contudo, precisa de ajustes. (The project was approved; however, it needs adjustments.)\n\ntodavia = nevertheless / yet (adversative, literary/formal)\nO prazo é curto. Todavia, a equipe é capaz. (The deadline is short. Nevertheless, the team is capable.)\n\nCRITICAL: Embora always requires the SUBJUNCTIVE in the clause it introduces. This is non-negotiable: 'embora seja', never 'embora é'.",
  icon:"✍️",
  deepDive:{title:"Concessive vs Adversative",
   text:"A concessive clause grants a point before making a contrast: 'Even though X is true, Y is still the case.' Embora is concessive: it introduces a subordinate clause with the subjunctive.\n\nAn adversative connector simply shows contrast between two independent clauses: 'X is true. However, Y is also true.' Contudo and todavia are adversative, like entretanto and não obstante.\n\nThe subjunctive requirement after embora is absolute. Learners who skip the subjunctive here sound like direct machine translation output. 'Embora o trabalho é difícil' sounds broken to every native speaker. Always: 'Embora o trabalho seja difícil.'"}},

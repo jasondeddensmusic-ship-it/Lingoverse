@@ -1,4 +1,4 @@
-// Batch 4 — Unit 11, Lesson 2: Common Irregular Past Participles
+// Batch 4. Unit 11, Lesson 2: Common Irregular Past Participles
 const BATCH4_U11_L2 = {
   id:"itv2_u11l_b4_2", title:"Participi irregolari", icon:"\uD83D\uDD11", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U11_L2 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'ho conosciuto Maria' al passato prossimo?",
-     opts:["I met Maria (for the first time)","I knew Maria","I recognized Maria","I called Maria"],
+     opts:["I called Maria","I met Maria (for the first time)","I knew Maria","I recognized Maria"],
      ans:"I met Maria (for the first time)",
      hint:"In the past tense, 'conoscere' shifts meaning to 'meet for the f... t....'"},
 
@@ -126,7 +126,7 @@ const BATCH4_U11_L2 = {
      sSrc:"I {1} the keys on the table, have you seen them?"},
 
     {type:"mc", q:"Perche non si dice 'ho speso il weekend'?",
-     opts:["Spendere is only for money. For time, use passare","Spendere is too formal","The past participle is wrong","Weekend is not Italian"],
+     opts:["The past participle is wrong","Weekend is not Italian","Spendere is only for money. For time, use passare","Spendere is too formal"],
      ans:"Spendere is only for money. For time, use passare",
      hint:"Italian separates spending m... from spending t... into different verbs."},
 
@@ -136,7 +136,7 @@ const BATCH4_U11_L2 = {
      sSrc:"Have you {1} what to eat tonight?"},
 
     {type:"mc", q:"Cosa significa 'detto fatto'?",
-     opts:["Said and done (accomplished instantly)","He said something","The fact was told","A famous saying"],
+     opts:["He said something","The fact was told","A famous saying","Said and done (accomplished instantly)"],
      ans:"Said and done (accomplished instantly)",
      hint:"This expression combines two past participles to mean quick accomplishment."}
   ,{type:"match",pairs:[{trg:"aprire / aperto",src:"to open / opened, open"},{trg:"chiudere / chiuso",src:"to close / closed"},{trg:"perdere / perso",src:"to lose / lost"},{trg:"spendere / speso",src:"to spend (money) / spent"},{trg:"rispondere / risposto",src:"to answer / answered"},{trg:"scegliere / scelto",src:"to choose / chosen"}]},{type:"match",pairs:[{trg:"conoscere / conosciuto",src:"to know (person) / known, met"}]}]

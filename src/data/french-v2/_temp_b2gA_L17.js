@@ -86,7 +86,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot designe le fait de devenir plus faible ou de s'aggraver ?",
-     opts:["la deterioration","la consolidation","l'emergence","la proliferation"],
+     opts:["la proliferation","la deterioration","la consolidation","l'emergence"],
      ans:"la deterioration",
      hint:"The process of becoming worse. The opposite of improvement or consolidation."},
 
@@ -113,7 +113,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot designe le renforcement ou l'affermissement de quelque chose ?",
-     opts:["la consolidation","la deterioration","la stagnation","la regression"],
+     opts:["la stagnation","la regression","la consolidation","la deterioration"],
      ans:"la consolidation",
      hint:"Making something stronger or more solid. Used in construction, finance, and politics."}
   ]

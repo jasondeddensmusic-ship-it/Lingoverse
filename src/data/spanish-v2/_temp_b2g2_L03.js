@@ -84,7 +84,7 @@ const LESSON_3 = {id:"esv2_b2g2_l3",title:"Naturaleza y medio ambiente",icon:"�
  exampleSrc:"A: The cattle industry is important in northern Spain.\nB: Asturias and Cantabria are the main livestock regions.",
  funFact:"Spain's 'vaca rubia gallega' is a prized bovine breed from Galicia, famous for its meat."},
 
-{type:"mc",q:"¿De dónde se saca el corcho?",opts:["De la corteza del alcornoque","De la cima de la montaña","De la arcilla del suelo","De las crías de animales"],ans:"De la corteza del alcornoque",hint:"Think about the outer covering of a specific type of tree."},
+{type:"mc",q:"¿De dónde se saca el corcho?",opts:["De las crías de animales","De la corteza del alcornoque","De la cima de la montaña","De la arcilla del suelo"],ans:"De la corteza del alcornoque",hint:"Think about the outer covering of a specific type of tree."},
 
 {type:"teach",trg:"el arado",src:"the plow",pos:"noun",gender:"m",
  note:"Masculine noun. A farming tool for turning soil.",
@@ -120,7 +120,7 @@ const LESSON_3 = {id:"esv2_b2g2_l3",title:"Naturaleza y medio ambiente",icon:"�
 
 {type:"match",pairs:[{trg:"brisa",src:"breeze"},{trg:"arcilla",src:"clay"},{trg:"arado",src:"plow"},{trg:"aleta",src:"fin"},{trg:"camada",src:"litter (animals)"}]},
 
-{type:"mc",q:"¿Qué es una alimaña?",opts:["Un animal dañino o plaga","Un tipo de planta tropical","Una roca volcánica","Un instrumento de labranza"],ans:"Un animal dañino o plaga",hint:"This noun describes a pest or vermin that causes damage in fields and farms."}
+{type:"mc",q:"¿Qué es una alimaña?",opts:["Una roca volcánica","Un instrumento de labranza","Un animal dañino o plaga","Un tipo de planta tropical"],ans:"Un animal dañino o plaga",hint:"This noun describes a pest or vermin that causes damage in fields and farms."}
 ]};
 
 export default LESSON_3;

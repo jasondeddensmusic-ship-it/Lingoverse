@@ -1,4 +1,4 @@
-// L11: Adjectives and Descriptions — 20 A1 gap words
+// L11: Adjectives and Descriptions, 20 A1 gap words
 const LESSON_11 = {
   id:"nlv2_a1gap_l11", title:"Bijvoeglijke Naamwoorden", icon:"\u{2B50}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"De winkel is ___. We kunnen er niet in.",
-     opts:["dicht","leeg","apart","gek"],
+     opts:["gek","dicht","leeg","apart"],
      ans:"dicht",
      hint:"Which adjective means the store is closed, not open for business?"},
 

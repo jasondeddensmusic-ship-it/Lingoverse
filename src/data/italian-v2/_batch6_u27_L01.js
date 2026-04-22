@@ -1,4 +1,4 @@
-// Batch 6 — Unit 27 extra lesson. La scienza: Medical Science & Research
+// Batch 6. Unit 27 extra lesson. La scienza: Medical Science & Research
 const BATCH6_L1 = {id:"itv2_u27l_b6_1", title:"La ricerca medica", icon:"\u{1F9EC}", xp:15, board:true, steps:[
 {type:"intro", title:"La ricerca medica",
  desc:"Learn advanced vocabulary for medical science, research methods, and scientific breakthroughs.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u27l_b6_1", title:"La ricerca medica", icon:"\u{1F9E
  {trg:"il brevetto", src:"patent"}
 ]},
 {type:"mc", q:"Chi ha proposto per primo la teoria dei germi nel 1546?",
- opts:["Girolamo Fracastoro, medico italiano","Louis Pasteur, scienziato francese","Edward Jenner, medico inglese","Robert Koch, medico tedesco"],
+ opts:["Robert Koch, medico tedesco","Girolamo Fracastoro, medico italiano","Louis Pasteur, scienziato francese","Edward Jenner, medico inglese"],
  ans:"Girolamo Fracastoro, medico italiano",
  hint:"An Italian physician who theorized about infectious particles centuries before others."},
 {type:"fb", s:"Abbiamo ottenuto il {1} per la nuova invenzione.", a:["brevetto"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u27l_b6_1", title:"La ricerca medica", icon:"\u{1F9E
  hint:"Legal protection for an invention. Originally a papal document.",
  sSrc:"We obtained the {1} for the new invention."},
 {type:"mc", q:"Cosa significa 'efficacia' in ambito scientifico?",
- opts:["The ability to produce the desired result under controlled conditions","The cost of a treatment","The speed of a reaction","The size of a sample"],
+ opts:["The speed of a reaction","The size of a sample","The ability to produce the desired result under controlled conditions","The cost of a treatment"],
  ans:"The ability to produce the desired result under controlled conditions",
  hint:"How well something works in ideal c..., distinct from real-world effectiveness."},
 {type:"fb", s:"La {1} ha cambiato le nostre abitudini quotidiane.", a:["pandemia"],
@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u27l_b6_1", title:"La ricerca medica", icon:"\u{1F9E
  {trg:"la scoperta", src:"discovery"},
  {trg:"contagioso", src:"contagious"}
 ]}
-,{type:"match",pairs:[{trg:"il campione",src:"the sample / specimen"},{trg:"la terapia genica",src:"the gene therapy"},{trg:"il protocollo",src:"the protocol"}]},{type:"mc",q:"How do you say \"efficacy / effectiveness\" in Italian?",opts:["la finestra","il tavolo","l'efficacia","la bicicletta"],ans:"l'efficacia",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il campione",src:"the sample / specimen"},{trg:"la terapia genica",src:"the gene therapy"},{trg:"il protocollo",src:"the protocol"}]},{type:"mc",q:"How do you say \"efficacy / effectiveness\" in Italian?",opts:["la bicicletta","la finestra","il tavolo","l'efficacia"],ans:"l'efficacia",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH6_L1;

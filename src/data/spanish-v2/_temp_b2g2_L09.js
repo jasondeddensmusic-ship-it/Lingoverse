@@ -90,7 +90,7 @@ const LESSON_9 = {id:"esv2_b2g2_l9",title:"Verbos de acción y cambio",icon:"�
  exampleSrc:"A: The campaign managed to capture the public's attention.\nB: The message was clear and direct.",
  funFact:"Multiple uses: 'captar fondos' (raise funds), 'captar señal' (pick up signal), 'captar una idea' (grasp)."},
 
-{type:"mc",q:"¿Qué hace alguien que arrebata algo?",opts:["Lo quita con violencia","Lo presta amablemente","Lo guarda con cuidado","Lo repara con paciencia"],ans:"Lo quita con violencia",hint:"Think about a sudden, forceful action of taking something from someone's hands."},
+{type:"mc",q:"¿Qué hace alguien que arrebata algo?",opts:["Lo repara con paciencia","Lo quita con violencia","Lo presta amablemente","Lo guarda con cuidado"],ans:"Lo quita con violencia",hint:"Think about a sudden, forceful action of taking something from someone's hands."},
 
 {type:"teach",trg:"calificar",src:"to grade / to describe as",pos:"verb",gender:null,
  note:"Regular -ar verb. To assign a grade, or to characterize something.",

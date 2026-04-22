@@ -1,4 +1,4 @@
-// Batch 3 — Unit 31 Lesson (Advanced Media: Print & Broadcast)
+// Batch 3. Unit 31 Lesson (Advanced Media: Print & Broadcast)
 const BATCH3_L_1 = {
   id:"itv2_u31l_b3_1", title:"Stampa e televisione", icon:"📺", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche il canone RAI e stato spostato sulla bolletta elettrica?",
-     opts:["Per ridurre il costo per le famiglie italiane più povere","Perche la RAI non aveva più bisogno di finanziamenti pubblici","Per combattere l'evasione: molti italiani non lo pagavano","Per finanziare la transizione al digitale della televisione"],
+     opts:["Per combattere l'evasione: molti italiani non lo pagavano","Per finanziare la transizione al digitale della televisione","Per ridurre il costo per le famiglie italiane più povere","Perche la RAI non aveva più bisogno di finanziamenti pubblici"],
      ans:"Per combattere l'evasione: molti italiani non lo pagavano",
      hint:"About 30% of Italians simply did not pay the license fee. Putting it on the electricity bill made evasion nearly impossible."},
 
@@ -108,10 +108,10 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra RAI e Mediaset nel sistema televisivo italiano?",
-     opts:["RAI e pubblica e finanziata dal canone e dalla pubblicita, Mediaset e privata e vive solo di pubblicita","RAI trasmette solo notizie e documentari, Mediaset solo film e intrattenimento","Non c'è differenza: sono entrambe aziende private in competizione","RAI opera solo online mentre Mediaset trasmette esclusivamente in televisione"],
+     opts:["Non c'è differenza: sono entrambe aziende private in competizione","RAI opera solo online mentre Mediaset trasmette esclusivamente in televisione","RAI e pubblica e finanziata dal canone e dalla pubblicita, Mediaset e privata e vive solo di pubblicita","RAI trasmette solo notizie e documentari, Mediaset solo film e intrattenimento"],
      ans:"RAI e pubblica e finanziata dal canone e dalla pubblicita, Mediaset e privata e vive solo di pubblicita",
      hint:"One is the state broadcaster funded by license fees and ads. The other is a private company that relies entirely on advertising revenue."}
-  ,{type:"match",pairs:[{trg:"il settimanale",src:"the weekly magazine"},{trg:"il servizio",src:"the report / news segment"},{trg:"la tiratura",src:"the circulation (newspapers)"},{trg:"il servizio pubblico",src:"the public broadcasting service"}]},{type:"mc",q:"How do you say \"subscription\" in Italian?",opts:["la finestra","l'abbonamento","il tavolo","la bicicletta"],ans:"l'abbonamento",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il settimanale",src:"the weekly magazine"},{trg:"il servizio",src:"the report / news segment"},{trg:"la tiratura",src:"the circulation (newspapers)"},{trg:"il servizio pubblico",src:"the public broadcasting service"}]},{type:"mc",q:"How do you say \"subscription\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'abbonamento"],ans:"l'abbonamento",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il {1} trasmette le notizie alle 20:00 ogni sera.",a:["telegiornale"],opts:["telegiornale","settimanale","palinsesto","abbonamento"],hint:"A television news programme broadcast daily.",sSrc:"The {1} broadcasts the news at 20:00 every evening."}]
 };
 export default BATCH3_L_1;

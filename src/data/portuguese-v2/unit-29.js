@@ -60,7 +60,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"Which word means 'press' as in journalism?",
- opts:["mídia","imprensa","televisão","notícia"],
+ opts:["imprensa","televisão","notícia","mídia"],
  ans:"imprensa",
  hint:"The word appears in 'freedom of the press'."},
 
@@ -96,7 +96,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"What is the difference between 'notícia' and 'reportagem'?",
- opts:["No difference","Notícia is shorter, reportagem is deeper","Reportagem is for TV only","Notícia is bad news"],
+ opts:["Notícia is bad news","No difference","Notícia is shorter, reportagem is deeper","Reportagem is for TV only"],
  ans:"Notícia is shorter, reportagem is deeper",
  hint:"One is a quick item, the other a developed feature."},
 
@@ -109,7 +109,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"'Liberdade de imprensa' means:",
- opts:["freedom of movement","freedom of the press","freedom of speech","freedom of trade"],
+ opts:["freedom of speech","freedom of trade","freedom of movement","freedom of the press"],
  ans:"freedom of the press",
  hint:"Imprensa = … / journalism as an institution."},
 
@@ -189,7 +189,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"What gender is 'internet' in Portuguese?",
- opts:["masculine","feminine","neuter","varies"],
+ opts:["feminine","neuter","varies","masculine"],
  ans:"feminine",
  hint:"Say 'a internet', not 'o internet'."},
 
@@ -225,7 +225,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"Which word is kept as English?",
- opts:["internet","rede social","entrevista","opinião"],
+ opts:["entrevista","opinião","internet","rede social"],
  ans:"internet",
  hint:"The only one of these borrowed directly without translation."},
 
@@ -340,7 +340,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
 
 {type:"mc",
  q:"Which preposition follows 'to view' in the strict written register?",
- opts:["a","em","com","por"],
+ opts:["com","por","a","em"],
  ans:"a",
  hint:"Formal written: assistir + this preposition + object. In spoken Brazilian, it is often dropped."},
 

@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)で遅(おく)れたとき、電車(でんしゃ)の会社(かいしゃ)は何(なに)を出(だ)しますか？",
-     opts:["Late certificate (遅延証明書(ちえんしょうめいしょ))","A free ticket","An apology letter","A discount coupon"],
+     opts:["A discount coupon","Late certificate (遅延証明書(ちえんしょうめいしょ))","A free ticket","An apology letter"],
      ans:"Late certificate (遅延証明書(ちえんしょうめいしょ))",
      hint:"This document proves to employers that the commuter's tardiness was caused by the train, not personal responsibility."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Won't you come to the drinking party? Sorry, today is a bit..."},
 
     {type:"mc", q:"「ドタキャン」はなんですか？",
-     opts:["Last-minute cancellation","A type of dance","A card game","A morning exercise"],
+     opts:["A card game","A morning exercise","Last-minute cancellation","A type of dance"],
      ans:"Last-minute cancellation",
      hint:"This slang word combines 'l... moment' with 'cancel' and describes something considered very rude in Japanese culture."}
   ,{type:"fb", s:"友達(ともだち)にパーティーに来(く)るよう{1}ました。",

@@ -1,4 +1,4 @@
-// Batch 7 — Unit 34 extra lesson. Le relazioni internazionali: European Union & Italy
+// Batch 7. Unit 34 extra lesson. Le relazioni internazionali: European Union & Italy
 const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", icon:"\u{1F1EA}\u{1F1FA}", xp:15, board:true, steps:[
 {type:"intro", title:"L'Italia e l'Unione Europea",
  desc:"Learn vocabulary for EU institutions, Italy's role in Europe, and the mechanics of European cooperation.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", ico
 ]},
 
 {type:"mc", q:"Quale moneta ha sostituito la lira italiana?",
- opts:["L'euro","Il marco","Il franco","La sterlina"],
+ opts:["La sterlina","L'euro","Il marco","Il franco"],
  ans:"L'euro",
  hint:"The single currency adopted by Italy in 2002."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", ico
  sSrc:"The {1} are complex with twenty-seven countries."},
 
 {type:"mc", q:"Quanti europarlamentari ha l'Italia?",
- opts:["76","96","50","100"],
+ opts:["50","100","76","96"],
  ans:"76",
  hint:"The third largest delegation in the European Parliament."},
 
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u34l_b7_1", title:"L'Italia e l'Unione Europea", ico
  {trg:"la cooperazione", src:"cooperation"},
  {trg:"il sussidio", src:"subsidy"}
 ]}
-,{type:"match",pairs:[{trg:"la Commissione Europea",src:"the European Commission"},{trg:"la moneta unica",src:"the single currency"},{trg:"il fondo europeo",src:"the European fund"},{trg:"ratificare",src:"to ratify"}]},{type:"mc",q:"How do you say \"European Union\" in Italian?",opts:["la finestra","il tavolo","l'Unione Europea","la bicicletta"],ans:"l'Unione Europea",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"la Commissione Europea",src:"the European Commission"},{trg:"la moneta unica",src:"the single currency"},{trg:"il fondo europeo",src:"the European fund"},{trg:"ratificare",src:"to ratify"}]},{type:"mc",q:"How do you say \"European Union\" in Italian?",opts:["la bicicletta","la finestra","il tavolo","l'Unione Europea"],ans:"l'Unione Europea",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

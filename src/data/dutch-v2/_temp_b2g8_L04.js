@@ -1,4 +1,4 @@
-// Lesson 4 — Work & Career
+// Lesson 4. Work & Career
 const LESSON_4 = {id:"nlv2_b2g8_l4", title:"Werk en Carriere", icon:"\u{1F4BC}", xp:20, board:true, steps:[
 {type:"intro", title:"Werk en Carriere", desc:"Professional vocabulary for the Dutch workplace. From office life to job markets, these words help you navigate career conversations at B2 level.", goals:["Learn 10 workplace and career words","Discuss office environments","Talk about job markets and employment"]},
 {type:"teach", trg:"het kantoorgebouw", src:"the office building", pos:"noun", gender:"n", note:"COMPOUND: kantoor (office) + gebouw (building).\nHet-word. Plural: kantoorgebouwen.\n'Een modern kantoorgebouw.'", example:"A: Werk je in dat grote kantoorgebouw?\nB: Ja, op de zevende verdieping.\nA: Heb je een mooi uitzicht?\nB: Ja, over de hele stad.", exampleSrc:"A: Do you work in that big office building?\nB: Yes, on the seventh floor.\nA: Do you have a nice view?\nB: Yes, across the entire city.", funFact:"The Zuidas in Amsterdam has the tallest office buildings in the Netherlands, some over 100 meters."},
@@ -14,7 +14,7 @@ const LESSON_4 = {id:"nlv2_b2g8_l4", title:"Werk en Carriere", icon:"\u{1F4BC}",
 {type:"mc", q:"Wat is een jaarsalaris?", opts:["Het salaris over een heel jaar","Het maandelijkse salaris","De vakantietoeslag","De bonus"], ans:"Het salaris over een heel jaar", hint:"A compound of year + salary"},
 {type:"fb", s:"De datum van {1} staat in je contract.", a:["indiensttreding"], opts:["indiensttreding","kantoorleven","jaarverslag","faciliteit"], hint:"The formal term for when your employment officially begins", sSrc:"The date of {1} is in your contract."},
 {type:"match", pairs:[{trg:"het kantoorgebouw", src:"office building"},{trg:"de ingenieur", src:"engineer"},{trg:"de jurist", src:"jurist"},{trg:"het jaarverslag", src:"annual report"}]},
-{type:"mc", q:"Welk woord is typisch Belgisch-Nederlands voor 'arbeidsmarkt'?", opts:["de jobmarkt","de kantoormedewerker","de faciliteit","de indiensttreding"], ans:"de jobmarkt", hint:"Belgium tends to use more English-influenced terms than the Netherlands"},
+{type:"mc", q:"Welk woord is typisch Belgisch-Nederlands voor 'arbeidsmarkt'?", opts:["de indiensttreding","de jobmarkt","de kantoormedewerker","de faciliteit"], ans:"de jobmarkt", hint:"Belgium tends to use more English-influenced terms than the Netherlands"},
 {type:"fb", s:"Welke {1} heeft dit kantoor? Een kantine en een fitnessruimte.", a:["faciliteiten"], opts:["faciliteiten","kantoorgebouwen","jaarverslagen","ingenieurs"], hint:"The services and amenities available at a workplace", sSrc:"What {1} does this office have? A canteen and a fitness room."},
 {type:"drag_fill", s:"Mijn broer is {1}. Hij bouwt {2}.", blanks:{"1":"ingenieur","2":"bruggen"}, pool:["ingenieur","bruggen","jurist","contracten"], hint:"A professional who designs and builds infrastructure."}
 ]};

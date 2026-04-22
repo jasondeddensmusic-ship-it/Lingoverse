@@ -1,4 +1,4 @@
-// Lesson 18 — Cuerpo y salud (Body and Health)
+// Lesson 18. Cuerpo y salud (Body and Health)
 const LESSON_18 = {id:"esv2_b2g9_l18", title:"Cuerpo y salud", icon:"\u{1FA7A}", xp:25, board:true, steps:[
   {type:"intro", title:"Cuerpo y salud",
    desc:"Expand your medical and body vocabulary with specialised terms. From skin layers to stretching, these words help you discuss health with precision.",
@@ -35,7 +35,7 @@ const LESSON_18 = {id:"esv2_b2g9_l18", title:"Cuerpo y salud", icon:"\u{1FA7A}",
    funFact:"In veterinary Spanish, 'excrementos' is the standard clinical term. The colloquial equivalent varies widely by region."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es la dermis?",
-   opts:["La capa exterior de la piel","La capa interior de la piel, debajo de la epidermis","Un tipo de crema para la piel","Una enfermedad de la piel"],
+   opts:["La capa interior de la piel, debajo de la epidermis","Un tipo de crema para la piel","Una enfermedad de la piel","La capa exterior de la piel"],
    ans:"La capa interior de la piel, debajo de la epidermis",
    hint:"It is the layer underneath the surface. It contains blood vessels and nerve endings."},
 

@@ -1,4 +1,4 @@
-// Unit 04 Batch 2 — Lesson 1: More Food & Drink Vocabulary
+// Unit 04 Batch 2. Lesson 1: More Food & Drink Vocabulary
 const BATCH2_U04_L1 = {
   id:"itv2_u04l_b2_1", title:"Al bancone", icon:"\ud83e\udd50", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U04_L1 = {
      sSrc:"A fresh {1} juice, please."},
 
     {type:"mc", q:"What does 'toast' mean in an Italian bar?",
-     opts:["A hot pressed ham and cheese sandwich","Toasted bread","A type of salad","A drink"],
+     opts:["A drink","A hot pressed ham and cheese sandwich","Toasted bread","A type of salad"],
      ans:"A hot pressed ham and cheese sandwich",
      hint:"The English word was borrowed but given a specific Italian meaning. For actual toasted bread, ask for 'pane tostato.'"},
 
@@ -122,7 +122,7 @@ const BATCH2_U04_L1 = {
     ]},
 
     {type:"mc", q:"Why do Italians traditionally avoid lots of ice in drinks?",
-     opts:["They believe very cold drinks are bad for digestion","Ice is expensive","They prefer hot drinks","Ice is not available"],
+     opts:["They prefer hot drinks","Ice is not available","They believe very cold drinks are bad for digestion","Ice is expensive"],
      ans:"They believe very cold drinks are bad for digestion",
      hint:"A cultural belief about temperature and the stomach. Younger generations are changing this habit."},
 
@@ -133,7 +133,7 @@ const BATCH2_U04_L1 = {
      sSrc:"Do you want more pasta? No, that's {1}."},
 
     {type:"mc", q:"What does the barista mean by 'Altro?'",
-     opts:["Anything else?","Hello?","Ready?","How are you?"],
+     opts:["Hello?","Ready?","How are you?","Anything else?"],
      ans:"Anything else?",
      hint:"After taking your order, the server asks this one-word question to check if you need more items."}
   ,{type:"match",pairs:[{trg:"la minestra",src:"the soup"},{trg:"con",src:"with"}]}]

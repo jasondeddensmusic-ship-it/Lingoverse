@@ -66,7 +66,7 @@ const LESSON_18 = {id:"esv2_b2g6_l18",title:"Ciencia e investigación",icon:"�
  exampleSrc:"A: What are you trying to insinuate with that comment?\nB: Nothing, I am just making an observation.",
  funFact:"'Insinuarse a alguien' means to flirt with or make advances toward someone."},
 
-{type:"mc",q:"¿Qué significa estar inmerso en un proyecto?",opts:["Estar profundamente involucrado","Estar aburrido","Estar confundido","Haber abandonado el proyecto"],ans:"Estar profundamente involucrado",hint:"So deeply involved that you lose track of everything else."},
+{type:"mc",q:"¿Qué significa estar inmerso en un proyecto?",opts:["Haber abandonado el proyecto","Estar profundamente involucrado","Estar aburrido","Estar confundido"],ans:"Estar profundamente involucrado",hint:"So deeply involved that you lose track of everything else."},
 
 {type:"match",pairs:[
   {trg:"homínido",src:"hominid"},

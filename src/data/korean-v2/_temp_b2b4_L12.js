@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 12: Beauty and Delay
+// Korean B2. Batch 4, Lesson 12: Beauty and Delay
 // Words: 뭘, 뭣, 미, 미끄러지다, 미끄럽다, 미니, 미루다, 미만, 미사일, 미술관, 미스, 미역, 미용실, 미움, 미워하다, 미인, 미처, 미팅, 미혼, 민간
 
 const LESSON_12 = {
@@ -119,7 +119,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"한국에서 생일에 꼭 먹는 음식은?",
-     opts:["미역국","갈비탕","된장찌개","삼계탕"],
+     opts:["삼계탕","미역국","갈비탕","된장찌개"],
      ans:"미역국",
      hint:"This seaweed soup is a must-eat birthday food in Korean tradition, also given to new mothers."},
 
