@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 44.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U44 = {
   id:"duv2_u44_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,18 +13,18 @@ const COVERAGE_U44 = {
     {type:"match",pairs:[{trg:"de coach",src:"the coach"},{trg:"de advertentiebudget",src:"the advertising budget"},{trg:"de animatieserie",src:"the animation series"},{trg:"het blijk",src:"the sign, the token"}]},
     {type:"match",pairs:[{trg:"de belijdenis",src:"the declaration of belief, the confession"},{trg:"de complimenteren",src:"to compliment"},{trg:"componeren",src:"to compose"},{trg:"beletten",src:"to prevent, to stop"}]},
     {type:"match",pairs:[{trg:"behoeden",src:"to protect, to guard"},{trg:"collectivistisch",src:"collectivist"},{trg:"de consumentenonderzoek",src:"the consumer research"}]},
-    {type:"fb",s:"{1}",a:["angstwekkend"],opts:["chemisch","caribisch","collectivistisch","angstwekkend"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"alarming, frightening"},
-    {type:"fb",s:"{1}",a:["besmetten"],opts:["aanwakkeren","de complimenteren","besmetten","braken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to infect, to contaminate"},
-    {type:"fb",s:"{1}",a:["chemisch"],opts:["collectivistisch","chemisch","angstwekkend","caribisch"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"chemical"},
-    {type:"fb",s:"{1}",a:["braken"],opts:["aanwakkeren","de complimenteren","braken","besmetten"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to vomit"},
-    {type:"fb",s:"{1}",a:["aanwakkeren"],opts:["de complimenteren","aanwakkeren","besmetten","braken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to fan, to stoke"},
-    {type:"fb",s:"{1}",a:["caribisch"],opts:["angstwekkend","chemisch","collectivistisch","caribisch"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Caribbean"},
-    {type:"fb",s:"{1}",a:["componeren"],opts:["aanwakkeren","componeren","besmetten","braken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to compose"},
-    {type:"fb",s:"{1}",a:["beletten"],opts:["beletten","besmetten","braken","aanwakkeren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to prevent, to stop"},
-    {type:"fb",s:"{1}",a:["behoeden"],opts:["besmetten","braken","aanwakkeren","behoeden"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to protect, to guard"},
-    {type:"fb",s:"{1}",a:["ambulant"],opts:["angstwekkend","chemisch","caribisch","ambulant"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"outpatient, mobile"},
-    {type:"fb",s:"{1}",a:["composteerbaar"],opts:["composteerbaar","angstwekkend","chemisch","caribisch"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"compostable"},
-    {type:"fb",s:"{1}",a:["actueel"],opts:["chemisch","caribisch","actueel","angstwekkend"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"current, topical"}
+    {type:"fb",s:"De cijfers over luchtvervuiling zijn {1}.",a:["angstwekkend"],opts:["angstwekkend","chemisch","caribisch","collectivistisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The air pollution figures are alarming."},
+    {type:"fb",s:"{1}",a:["besmetten"],opts:["de complimenteren","besmetten","braken","aanwakkeren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to infect, to contaminate"},
+    {type:"fb",s:"Dit product bevat geen {1}e toevoegingen.",a:["chemisch"],opts:["caribisch","collectivistisch","chemisch","angstwekkend"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This product contains no {1} additives."},
+    {type:"fb",s:"Hij moest de hele nacht {1}.",a:["braken"],opts:["besmetten","aanwakkeren","de complimenteren","braken"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He had {1} all night."},
+    {type:"fb",s:"{1}",a:["aanwakkeren"],opts:["aanwakkeren","besmetten","braken","de complimenteren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to fan, to stoke"},
+    {type:"fb",s:"{1}",a:["caribisch"],opts:["collectivistisch","caribisch","angstwekkend","chemisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Caribbean"},
+    {type:"fb",s:"{1}",a:["componeren"],opts:["braken","aanwakkeren","componeren","besmetten"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to compose"},
+    {type:"fb",s:"Niets kan haar {1} om te vertrekken.",a:["beletten"],opts:["besmetten","braken","aanwakkeren","beletten"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Nothing can prevent her from leaving."},
+    {type:"fb",s:"We moeten kinderen {1} voor gevaar.",a:["behoeden"],opts:["behoeden","besmetten","braken","aanwakkeren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We must protect children from danger."},
+    {type:"fb",s:"Ze krijgt {1}e behandeling.",a:["ambulant"],opts:["caribisch","ambulant","angstwekkend","chemisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She is receiving outpatient treatment."},
+    {type:"fb",s:"Is deze verpakking {1}?",a:["composteerbaar"],opts:["chemisch","caribisch","composteerbaar","angstwekkend"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this packaging {1}?"},
+    {type:"fb",s:"Dit onderwerp is heel {1}.",a:["actueel"],opts:["angstwekkend","chemisch","caribisch","actueel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This topic is very current."}
   ]
 };
 

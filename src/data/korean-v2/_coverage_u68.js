@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 68.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U68 = {
   id:"kov2_u68_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -17,17 +17,17 @@ const COVERAGE_U68 = {
     {type:"match",pairs:[{trg:"얼다",src:"to freeze"},{trg:"얼리다",src:"to freeze (something), to make frozen"},{trg:"얼마간",src:"for some time, for a while"},{trg:"얼음",src:"ice"}]},
     {type:"match",pairs:[{trg:"얼핏",src:"at a glance, briefly"},{trg:"업다",src:"to carry on one's back"},{trg:"업종",src:"type of business, industry sector"},{trg:"업체",src:"company, business entity"}]},
     {type:"match",pairs:[{trg:"엉덩이",src:"buttocks, bottom"},{trg:"엉터리",src:"nonsense, sham, fake"},{trg:"엊그제",src:"the day before yesterday, just recently"},{trg:"엎드리다",src:"to lie face down, to prostrate"},{trg:"엔진",src:"engine"},{trg:"엘리베이터",src:"elevator"}]},
-    {type:"fb",s:"{1}",a:["앉히다"],opts:["어두워지다","어려워지다","앉히다","앞두다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to seat (someone), to make sit"},
-    {type:"fb",s:"{1}",a:["알루미늄"],opts:["암시","알루미늄","알코올","암"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"aluminum"},
-    {type:"fb",s:"{1}",a:["알코올"],opts:["알루미늄","암","암시","알코올"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"alcohol"},
-    {type:"fb",s:"{1}",a:["암시"],opts:["암","암시","알루미늄","알코올"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"hint, implication, suggestion"},
-    {type:"fb",s:"{1}",a:["암컷"],opts:["알코올","암","암컷","알루미늄"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"female animal"},
-    {type:"fb",s:"{1}",a:["앞길"],opts:["알루미늄","알코올","암","앞길"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"future path, road ahead"},
-    {type:"fb",s:"{1}",a:["앞날"],opts:["알루미늄","알코올","암","앞날"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"future, days ahead"},
-    {type:"fb",s:"{1}",a:["앞두다"],opts:["어려워지다","앞두다","앉히다","어두워지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to have ahead, to be approaching"},
-    {type:"fb",s:"{1}",a:["앞뒤"],opts:["알루미늄","알코올","암","앞뒤"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"front and back; context"},
-    {type:"fb",s:"{1}",a:["앞서"],opts:["어느덧","어째서","어쩌다가","앞서"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ahead, before, previously"},
-    {type:"fb",s:"{1}",a:["앞쪽"],opts:["알코올","암","앞쪽","알루미늄"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the front part, forward direction"}
+    {type:"fb",s:"{1}",a:["앉히다"],opts:["앉히다","앞두다","어두워지다","어려워지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to seat (someone), to make sit"},
+    {type:"fb",s:"이 캔은 {1}이야?",a:["알루미늄"],opts:["암시","알루미늄","알코올","암"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this can {1}?"},
+    {type:"fb",s:"이 음료에 {1}이 들어 있나요?",a:["알코올"],opts:["암","암시","알코올","알루미늄"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Does this drink contain {1}?"},
+    {type:"fb",s:"그의 말에는 {1}가 담겨 있었어.",a:["암시"],opts:["알루미늄","알코올","암","암시"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His words contained an implication."},
+    {type:"fb",s:"이 고양이는 {1}이에요?",a:["암컷"],opts:["암컷","알루미늄","알코올","암"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this cat female?"},
+    {type:"fb",s:"{1}이 창창한 젊은이네.",a:["앞길"],opts:["암","앞길","알루미늄","알코올"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That young person has a bright future ahead."},
+    {type:"fb",s:"{1}이 걱정돼.",a:["앞날"],opts:["알코올","암","앞날","알루미늄"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I am worried about the future."},
+    {type:"fb",s:"{1}",a:["앞두다"],opts:["앉히다","어두워지다","어려워지다","앞두다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to have ahead, to be approaching"},
+    {type:"fb",s:"{1}가 안 맞는 이야기야.",a:["앞뒤"],opts:["앞뒤","알루미늄","알코올","암"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The story does not add up."},
+    {type:"fb",s:"{1} 말씀드린 것처럼 변경 사항이 있습니다.",a:["앞서"],opts:["어쩌다가","앞서","어느덧","어째서"],hint:"Type the target-language form. Meaning shown below.",sSrc:"As I mentioned previously, there are changes."},
+    {type:"fb",s:"{1}에 앉을까?",a:["앞쪽"],opts:["알코올","암","앞쪽","알루미늄"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Should we sit in the front?"}
   ]
 };
 

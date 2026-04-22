@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 54.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U54 = {
   id:"spv2_u54_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -12,15 +12,15 @@ const COVERAGE_U54 = {
     {type:"match",pairs:[{trg:"el córner",src:"the corner kick"},{trg:"el elevador",src:"the elevator / lift"},{trg:"erguir",src:"to straighten up / to stand erect"},{trg:"la cítara",src:"the zither"}]},
     {type:"match",pairs:[{trg:"desleír",src:"to dissolve / to dilute"},{trg:"descuajar",src:"to uproot / to dissolve"},{trg:"desembarazar",src:"to clear / to free from"},{trg:"enfundar",src:"to sheathe / to holster"}]},
     {type:"match",pairs:[{trg:"engominar",src:"to slick back with gel"},{trg:"ensangrentar",src:"to stain with blood"},{trg:"españolizar",src:"to Hispanicize / to make Spanish"},{trg:"explicitar",src:"to make explicit / to spell out"},{trg:"descuajar",src:"to uproot / to dissolve"}]},
-    {type:"fb",s:"{1}",a:["expresionista"],opts:["el bolillo","el brócoli","la caneca","expresionista"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"expressionist"},
-    {type:"fb",s:"{1}",a:["enmascarar"],opts:["dignar","excusar","enmascarar","espirar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to mask / to disguise"},
-    {type:"fb",s:"{1}",a:["espirar"],opts:["enmascarar","dignar","excusar","espirar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to exhale / to breathe out"},
-    {type:"fb",s:"{1}",a:["dignar"],opts:["dignar","enmascarar","espirar","excusar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to deign / to condescend"},
-    {type:"fb",s:"{1}",a:["excusar"],opts:["excusar","enmascarar","espirar","dignar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to excuse / to avoid"},
-    {type:"fb",s:"{1}",a:["deportivo"],opts:["el bolillo","el brócoli","la caneca","deportivo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"sporty / sportive"},
-    {type:"fb",s:"{1}",a:["erguir"],opts:["dignar","erguir","enmascarar","espirar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to straighten up / to stand erect"},
-    {type:"fb",s:"{1}",a:["desleír"],opts:["enmascarar","espirar","dignar","desleír"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to dissolve / to dilute"},
-    {type:"fb",s:"{1}",a:["descuajar"],opts:["dignar","descuajar","enmascarar","espirar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to uproot / to dissolve"}
+    {type:"fb",s:"Este cuadro tiene un estilo claramente {1}.",a:["expresionista"],opts:["expresionista","el bolillo","el brócoli","la caneca"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This painting has a clearly {1} style."},
+    {type:"fb",s:"{1}",a:["enmascarar"],opts:["excusar","enmascarar","espirar","dignar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to mask / to disguise"},
+    {type:"fb",s:"En yoga, debes {1} lentamente por la boca.",a:["espirar"],opts:["dignar","excusar","espirar","enmascarar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"In yoga, you should exhale slowly through your mouth."},
+    {type:"fb",s:"{1}",a:["dignar"],opts:["enmascarar","espirar","excusar","dignar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to deign / to condescend"},
+    {type:"fb",s:"{1}",a:["excusar"],opts:["excusar","enmascarar","espirar","dignar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to excuse / to avoid"},
+    {type:"fb",s:"{1}",a:["deportivo"],opts:["la caneca","deportivo","el bolillo","el brócoli"],hint:"Type the target-language form. Meaning shown below.",sSrc:"sporty / sportive"},
+    {type:"fb",s:"{1}",a:["erguir"],opts:["espirar","dignar","erguir","enmascarar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to straighten up / to stand erect"},
+    {type:"fb",s:"Hay que {1} la maicena en agua fría antes de añadirla.",a:["desleír"],opts:["enmascarar","espirar","dignar","desleír"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You must dissolve the cornstarch in cold water before adding it."},
+    {type:"fb",s:"{1}",a:["descuajar"],opts:["descuajar","enmascarar","espirar","dignar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to uproot / to dissolve"}
   ]
 };
 

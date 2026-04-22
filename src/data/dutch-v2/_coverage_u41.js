@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 41.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U41 = {
   id:"duv2_u41_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -16,18 +16,18 @@ const COVERAGE_U41 = {
     {type:"match",pairs:[{trg:"de alcoholgebruik",src:"the alcohol consumption"},{trg:"de actieveling",src:"the active person, the go-getter"},{trg:"de aai",src:"the stroke, the caress"},{trg:"bobsleeën",src:"to bobsled"}]},
     {type:"match",pairs:[{trg:"basketten",src:"to play basketball"},{trg:"het avonduur",src:"the evening hour"},{trg:"de bliksembezoek",src:"the lightning visit"},{trg:"het avonturenboek",src:"the adventure book"}]},
     {type:"match",pairs:[{trg:"het avondleven",src:"the nightlife"},{trg:"de boekenmarkt",src:"the book market"},{trg:"de boekenkist",src:"the book chest"},{trg:"de beeldentuin",src:"the sculpture garden"},{trg:"de babbel",src:"the chat, the small talk"},{trg:"de blauwtong",src:"the bluetongue (disease)"}]},
-    {type:"fb",s:"{1}",a:["benauwen"],opts:["benauwen","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to suffocate, to feel oppressed"},
-    {type:"fb",s:"{1}",a:["allicht"],opts:["allicht","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"probably, naturally"},
-    {type:"fb",s:"{1}",a:["bobsleeën"],opts:["de badmuts","de bierlucht","bobsleeën","de afwasborstel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to bobsled"},
-    {type:"fb",s:"{1}",a:["basketten"],opts:["basketten","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to play basketball"},
-    {type:"fb",s:"{1}",a:["achterwege"],opts:["de badmuts","de bierlucht","achterwege","de afwasborstel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"out, omitted (left out)"},
-    {type:"fb",s:"{1}",a:["allerhande"],opts:["de bierlucht","allerhande","de afwasborstel","de badmuts"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"all kinds of, all sorts of"},
-    {type:"fb",s:"{1}",a:["alhoewel"],opts:["de badmuts","de bierlucht","alhoewel","de afwasborstel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"although"},
-    {type:"fb",s:"{1}",a:["alsmede"],opts:["de badmuts","de bierlucht","alsmede","de afwasborstel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"as well as (formal)"},
-    {type:"fb",s:"{1}",a:["alsnog"],opts:["de afwasborstel","de badmuts","de bierlucht","alsnog"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"after all, still (eventually)"},
-    {type:"fb",s:"{1}",a:["andermaal"],opts:["andermaal","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"once again, once more (formal)"},
-    {type:"fb",s:"{1}",a:["anno"],opts:["de afwasborstel","de badmuts","de bierlucht","anno"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"in the year (of), as of"},
-    {type:"fb",s:"{1}",a:["autovrij"],opts:["de bierlucht","autovrij","de afwasborstel","de badmuts"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"car-free"}
+    {type:"fb",s:"{1}",a:["benauwen"],opts:["benauwen","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to suffocate, to feel oppressed"},
+    {type:"fb",s:"{1}",a:["allicht"],opts:["de bierlucht","allicht","de afwasborstel","de badmuts"],hint:"Type the target-language form. Meaning shown below.",sSrc:"probably, naturally"},
+    {type:"fb",s:"{1}",a:["bobsleeën"],opts:["de badmuts","de bierlucht","bobsleeën","de afwasborstel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to bobsled"},
+    {type:"fb",s:"Ga je mee {1} in het park?",a:["basketten"],opts:["de afwasborstel","de badmuts","de bierlucht","basketten"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Want {1} in the park?"},
+    {type:"fb",s:"De betaling bleef {1}.",a:["achterwege"],opts:["achterwege","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The payment failed to materialize."},
+    {type:"fb",s:"Er waren {1} kraampjes op de markt.",a:["allerhande"],opts:["de bierlucht","allerhande","de afwasborstel","de badmuts"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There were all kinds of stalls at the market."},
+    {type:"fb",s:"{1}",a:["alhoewel"],opts:["de badmuts","de bierlucht","alhoewel","de afwasborstel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"although"},
+    {type:"fb",s:"De directie {1} het management is aanwezig.",a:["alsmede"],opts:["de afwasborstel","de badmuts","de bierlucht","alsmede"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The executive team as well as management is present."},
+    {type:"fb",s:"Ze heeft {1} besloten om te komen.",a:["alsnog"],opts:["alsnog","de afwasborstel","de badmuts","de bierlucht"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She decided to come after all."},
+    {type:"fb",s:"{1}",a:["andermaal"],opts:["de bierlucht","andermaal","de afwasborstel","de badmuts"],hint:"Type the target-language form. Meaning shown below.",sSrc:"once again, once more (formal)"},
+    {type:"fb",s:"{1}",a:["anno"],opts:["de badmuts","de bierlucht","anno","de afwasborstel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"in the year (of), as of"},
+    {type:"fb",s:"Het centrum is op zondag {1}.",a:["autovrij"],opts:["de afwasborstel","de badmuts","de bierlucht","autovrij"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The center is {1} on Sundays."}
   ]
 };
 

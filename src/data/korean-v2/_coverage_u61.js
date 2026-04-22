@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 61.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U61 = {
   id:"kov2_u61_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,18 +18,18 @@ const COVERAGE_U61 = {
     {type:"match",pairs:[{trg:"병실",src:"hospital room, ward"},{trg:"병아리",src:"chick, baby chicken"},{trg:"보관",src:"storage, keeping, safekeeping"},{trg:"보내오다",src:"to send (toward the speaker), to have been sending"}]},
     {type:"match",pairs:[{trg:"보너스",src:"bonus"},{trg:"보름",src:"fifteen days, a half month; full moon"},{trg:"보리",src:"barley"},{trg:"보완하다",src:"to supplement, to complement, to improve"}]},
     {type:"match",pairs:[{trg:"보전",src:"preservation, conservation"},{trg:"보조",src:"assistance, support, auxiliary"},{trg:"보존",src:"preservation, conservation (over time)"},{trg:"보존하다",src:"to preserve, to conserve"},{trg:"보충하다",src:"to supplement, to replenish"}]},
-    {type:"fb",s:"{1}",a:["밤늦다"],opts:["밤하늘","밤늦다","밤색","밤중"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be late at night"},
-    {type:"fb",s:"{1}",a:["밤색"],opts:["밤색","밤중","밤하늘","밥그릇"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"chestnut color, brown"},
-    {type:"fb",s:"{1}",a:["밤중"],opts:["밤중","밤색","밤하늘","밥그릇"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"middle of the night"},
-    {type:"fb",s:"{1}",a:["밤하늘"],opts:["밤색","밤중","밥그릇","밤하늘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"night sky"},
-    {type:"fb",s:"{1}",a:["밥그릇"],opts:["밤색","밤중","밤하늘","밥그릇"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"rice bowl"},
-    {type:"fb",s:"{1}",a:["밥맛"],opts:["밤색","밤중","밤하늘","밥맛"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"appetite; annoyance"},
-    {type:"fb",s:"{1}",a:["밥솥"],opts:["밤하늘","밥솥","밤색","밤중"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"rice cooker"},
-    {type:"fb",s:"{1}",a:["방면"],opts:["밤중","밤하늘","방면","밤색"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"direction, area, field"},
-    {type:"fb",s:"{1}",a:["방바닥"],opts:["밤하늘","방바닥","밤색","밤중"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"room floor"},
-    {type:"fb",s:"{1}",a:["방송사"],opts:["밤색","밤중","밤하늘","방송사"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"broadcasting company"},
-    {type:"fb",s:"{1}",a:["방안"],opts:["밤중","밤하늘","방안","밤색"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"inside a room; plan, solution"},
-    {type:"fb",s:"{1}",a:["방울"],opts:["밤중","밤하늘","방울","밤색"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"drop (of liquid); bell"}
+    {type:"fb",s:"{1}",a:["밤늦다"],opts:["밤늦다","밤색","밤중","밤하늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be late at night"},
+    {type:"fb",s:"{1} 가방이 예쁘네요.",a:["밤색"],opts:["밥그릇","밤색","밤중","밤하늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That chestnut-colored bag is pretty."},
+    {type:"fb",s:"{1}에 전화하면 안 돼.",a:["밤중"],opts:["밤하늘","밥그릇","밤중","밤색"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You should not call in the {1}."},
+    {type:"fb",s:"{1}에 별이 가득해.",a:["밤하늘"],opts:["밤색","밤중","밥그릇","밤하늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} is full of stars."},
+    {type:"fb",s:"{1}이 예쁘면 밥이 더 맛있어 보여.",a:["밥그릇"],opts:["밥그릇","밤색","밤중","밤하늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Rice looks more delicious in a pretty bowl."},
+    {type:"fb",s:"{1}이 없어서 적게 먹었어.",a:["밥맛"],opts:["밤하늘","밥맛","밤색","밤중"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I ate little because I had no appetite."},
+    {type:"fb",s:"전기 {1}을 새로 샀어요.",a:["밥솥"],opts:["밤중","밤하늘","밥솥","밤색"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I bought a new electric {1}."},
+    {type:"fb",s:"서울 {1}으로 가는 버스가 있나요?",a:["방면"],opts:["밤색","밤중","밤하늘","방면"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is there a bus heading in the Seoul direction?"},
+    {type:"fb",s:"겨울에 {1}이 따뜻해서 좋아.",a:["방바닥"],opts:["방바닥","밤색","밤중","밤하늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} is warm in winter, which is nice."},
+    {type:"fb",s:"어느 {1} 뉴스를 봐요?",a:["방송사"],opts:["밤하늘","방송사","밤색","밤중"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Which {1}'s news do you watch?"},
+    {type:"fb",s:"문제 해결 {1}을 찾아야 해요.",a:["방안"],opts:["밤중","밤하늘","방안","밤색"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to find a solution."},
+    {type:"fb",s:"눈물 한 {1}이 뺨을 적셨어.",a:["방울"],opts:["밤색","밤중","밤하늘","방울"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A single teardrop moistened my cheek."}
   ]
 };
 

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 60.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U60 = {
   id:"kov2_u60_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -21,18 +21,18 @@ const COVERAGE_U60 = {
     {type:"match",pairs:[{trg:"발길",src:"one's steps, direction of walking"},{trg:"발끝",src:"tip of the toe, tiptoe"},{trg:"발달되다",src:"to be developed, to advance"},{trg:"발등",src:"top of the foot, instep"}]},
     {type:"match",pairs:[{trg:"발레",src:"ballet"},{trg:"발목",src:"ankle"},{trg:"발자국",src:"footprint"},{trg:"발전되다",src:"to be developed, to progress"}]},
     {type:"match",pairs:[{trg:"발톱",src:"toenail"},{trg:"발휘하다",src:"to demonstrate, to display (ability)"},{trg:"밝아지다",src:"to brighten, to become light"},{trg:"밝혀지다",src:"to be revealed, to come to light"}]},
-    {type:"fb",s:"{1}",a:["묵다"],opts:["문제되다","묻히다","묵다","묶이다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to stay overnight; to age (food)"},
-    {type:"fb",s:"{1}",a:["묶이다"],opts:["묻히다","묶이다","묵다","문제되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be tied up, to be bound"},
-    {type:"fb",s:"{1}",a:["문구"],opts:["문자","문구","문밖","문서"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stationery; phrase, sentence"},
-    {type:"fb",s:"{1}",a:["문밖"],opts:["문구","문서","문자","문밖"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"outside the door"},
-    {type:"fb",s:"{1}",a:["문서"],opts:["문자","문서","문구","문밖"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"document"},
-    {type:"fb",s:"{1}",a:["문자"],opts:["문서","문자","문구","문밖"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"text message; character (writing)"},
-    {type:"fb",s:"{1}",a:["문제되다"],opts:["묻히다","문제되다","묵다","묶이다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to become a problem, to be problematic"},
-    {type:"fb",s:"{1}",a:["문학적"],opts:["문구","문밖","문서","문학적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"literary (as modifier)"},
-    {type:"fb",s:"{1}",a:["문화적"],opts:["문밖","문서","문화적","문구"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"cultural (as modifier)"},
-    {type:"fb",s:"{1}",a:["묻히다"],opts:["묻히다","묵다","묶이다","문제되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be buried, to be hidden away"},
-    {type:"fb",s:"{1}",a:["물결"],opts:["문서","물결","문구","문밖"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"wave, ripple"},
-    {type:"fb",s:"{1}",a:["물기"],opts:["문서","물기","문구","문밖"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"moisture, dampness"}
+    {type:"fb",s:"{1}",a:["묵다"],opts:["묵다","묶이다","문제되다","묻히다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to stay overnight; to age (food)"},
+    {type:"fb",s:"{1}",a:["묶이다"],opts:["묻히다","묶이다","묵다","문제되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be tied up, to be bound"},
+    {type:"fb",s:"{1}점에서 공책을 샀어.",a:["문구"],opts:["문서","문자","문구","문밖"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I bought a notebook at the stationery store."},
+    {type:"fb",s:"{1}에 누가 있는 것 같아.",a:["문밖"],opts:["문구","문서","문자","문밖"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I think someone is {1}."},
+    {type:"fb",s:"중요한 {1}를 이메일로 보내 주세요.",a:["문서"],opts:["문서","문구","문밖","문자"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please send the important {1} by email."},
+    {type:"fb",s:"{1} 보냈는데 봤어?",a:["문자"],opts:["문서","문자","문구","문밖"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I sent a text, did you see it?"},
+    {type:"fb",s:"{1}",a:["문제되다"],opts:["묶이다","묻히다","문제되다","묵다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to become a problem, to be problematic"},
+    {type:"fb",s:"이 영화는 {1} 표현이 많아요.",a:["문학적"],opts:["문구","문밖","문서","문학적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This movie has many literary expressions."},
+    {type:"fb",s:"{1} 차이를 이해하는 게 중요해요.",a:["문화적"],opts:["문화적","문구","문밖","문서"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Understanding cultural differences is important."},
+    {type:"fb",s:"{1}",a:["묻히다"],opts:["문제되다","묻히다","묵다","묶이다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be buried, to be hidden away"},
+    {type:"fb",s:"호수의 {1}이 잔잔하다.",a:["물결"],opts:["문밖","문서","물결","문구"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The ripples on the lake are calm."},
+    {type:"fb",s:"머리카락의 {1}를 잘 말려야 해.",a:["물기"],opts:["문구","문밖","문서","물기"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You should dry the moisture from your hair well."}
   ]
 };
 

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 51.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U51 = {
   id:"kov2_u51_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -21,18 +21,18 @@ const COVERAGE_U51 = {
     {type:"match",pairs:[{trg:"눈부시다",src:"to be dazzling, blinding, brilliant"},{trg:"느리다",src:"to be slow"},{trg:"늘어놓다",src:"to lay out in a row, to ramble on"},{trg:"늘어서다",src:"to line up, to stand in a row"}]},
     {type:"match",pairs:[{trg:"늘어지다",src:"to stretch out, to droop, to collapse"},{trg:"늦가을",src:"late autumn"},{trg:"늦어지다",src:"to be delayed, to become late"},{trg:"다가서다",src:"to approach, to step closer"}]},
     {type:"match",pairs:[{trg:"다녀가다",src:"to visit and leave, to stop by"},{trg:"다듬다",src:"to trim, to refine, to polish"},{trg:"다름없다",src:"to be no different, to be the same as"},{trg:"다만",src:"however, only, merely"}]},
-    {type:"fb",s:"{1}",a:["나누어지다"],opts:["나뉘다","나르다","나빠지다","나누어지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be divided, to be split"},
-    {type:"fb",s:"{1}",a:["나뉘다"],opts:["나누어지다","나르다","나빠지다","나뉘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be divided, to be split"},
-    {type:"fb",s:"{1}",a:["나란히"],opts:["나누어지다","나뉘다","나르다","나란히"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"side by side, in a row"},
-    {type:"fb",s:"{1}",a:["나르다"],opts:["나누어지다","나뉘다","나빠지다","나르다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to carry, to transport"},
-    {type:"fb",s:"{1}",a:["나름"],opts:["나흘","나름","나뭇가지","나뭇잎"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"in one's own way, depending on"},
-    {type:"fb",s:"{1}",a:["나뭇가지"],opts:["나뭇잎","나흘","나뭇가지","나름"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"tree branch"},
-    {type:"fb",s:"{1}",a:["나뭇잎"],opts:["나뭇잎","나름","나뭇가지","나흘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"tree leaf"},
-    {type:"fb",s:"{1}",a:["나빠지다"],opts:["나르다","나빠지다","나누어지다","나뉘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to get worse, to deteriorate"},
-    {type:"fb",s:"{1}",a:["나아가다"],opts:["나르다","나아가다","나누어지다","나뉘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to advance, to move forward"},
-    {type:"fb",s:"{1}",a:["나아지다"],opts:["나르다","나아지다","나누어지다","나뉘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to get better, to improve"},
-    {type:"fb",s:"{1}",a:["나흘"],opts:["나뭇잎","나흘","나름","나뭇가지"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"four days"},
-    {type:"fb",s:"{1}",a:["낚시꾼"],opts:["나뭇잎","낚시꾼","나름","나뭇가지"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"angler, fisherman"}
+    {type:"fb",s:"{1}",a:["나누어지다"],opts:["나누어지다","나뉘다","나르다","나빠지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be divided, to be split"},
+    {type:"fb",s:"{1}",a:["나뉘다"],opts:["나빠지다","나뉘다","나누어지다","나르다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be divided, to be split"},
+    {type:"fb",s:"신발을 {1} 놓으세요.",a:["나란히"],opts:["나뉘다","나르다","나란히","나누어지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please place the shoes side by side."},
+    {type:"fb",s:"{1}",a:["나르다"],opts:["나누어지다","나뉘다","나빠지다","나르다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to carry, to transport"},
+    {type:"fb",s:"이 식당도 {1} 맛있어요.",a:["나름"],opts:["나름","나뭇가지","나뭇잎","나흘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This restaurant is good in its own way."},
+    {type:"fb",s:"{1}가 바람에 흔들려요.",a:["나뭇가지"],opts:["나흘","나뭇가지","나름","나뭇잎"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1}es are swaying in the wind."},
+    {type:"fb",s:"{1}이 노랗게 변했어요.",a:["나뭇잎"],opts:["나뭇가지","나흘","나뭇잎","나름"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The tree leaves have turned yellow."},
+    {type:"fb",s:"{1}",a:["나빠지다"],opts:["나누어지다","나뉘다","나르다","나빠지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to get worse, to deteriorate"},
+    {type:"fb",s:"{1}",a:["나아가다"],opts:["나아가다","나누어지다","나뉘다","나르다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to advance, to move forward"},
+    {type:"fb",s:"{1}",a:["나아지다"],opts:["나르다","나아지다","나누어지다","나뉘다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to get better, to improve"},
+    {type:"fb",s:"{1}이면 충분해요?",a:["나흘"],opts:["나뭇가지","나뭇잎","나흘","나름"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is {1} enough?"},
+    {type:"fb",s:"강가에 {1}이 많네요.",a:["낚시꾼"],opts:["나름","나뭇가지","나뭇잎","낚시꾼"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There are many anglers by the river."}
   ]
 };
 

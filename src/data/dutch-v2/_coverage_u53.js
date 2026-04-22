@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 53.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U53 = {
   id:"duv2_u53_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,18 +13,18 @@ const COVERAGE_U53 = {
     {type:"match",pairs:[{trg:"geconcentreerd",src:"concentrated, focused"},{trg:"de diepgang",src:"the depth; the profundity"},{trg:"het dialectniveau",src:"the dialect level"},{trg:"de bedrijfsverzamelgebouw",src:"the business collection building, the shared office building"}]},
     {type:"match",pairs:[{trg:"het discours",src:"the discourse"},{trg:"de contextgebonden",src:"context-dependent"},{trg:"de dynamiek",src:"the dynamics, the energy"},{trg:"de geheimhouding",src:"the secrecy, the confidentiality"}]},
     {type:"match",pairs:[{trg:"gehaakt",src:"crocheted"},{trg:"excentriek",src:"eccentric"},{trg:"de exponent",src:"the exponent, the representative"},{trg:"de denkwijze",src:"the way of thinking, the mindset"}]},
-    {type:"fb",s:"{1}",a:["feministisch"],opts:["extreem","extern","geconcentreerd","feministisch"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"feminist (adjective)"},
-    {type:"fb",s:"{1}",a:["dwepen"],opts:["de gelegenheidsonderneming","de exploitatie","dwepen","de flexibilisering"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be infatuated with, to dote on"},
-    {type:"fb",s:"{1}",a:["extreem"],opts:["feministisch","extern","geconcentreerd","extreem"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"extreme"},
-    {type:"fb",s:"{1}",a:["extern"],opts:["geconcentreerd","extern","feministisch","extreem"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"external, outside"},
-    {type:"fb",s:"{1}",a:["geconcentreerd"],opts:["extern","geconcentreerd","feministisch","extreem"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"concentrated, focused"},
-    {type:"fb",s:"{1}",a:["gehaakt"],opts:["gehaakt","feministisch","extreem","extern"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"crocheted"},
-    {type:"fb",s:"{1}",a:["excentriek"],opts:["extern","excentriek","feministisch","extreem"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"eccentric"},
-    {type:"fb",s:"{1}",a:["failliet"],opts:["feministisch","extreem","extern","failliet"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"bankrupt"},
-    {type:"fb",s:"{1}",a:["fairtrade"],opts:["feministisch","extreem","extern","fairtrade"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fair trade"},
-    {type:"fb",s:"{1}",a:["exploiteren"],opts:["de gelegenheidsonderneming","de exploitatie","exploiteren","de flexibilisering"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to operate, to run (a business)"},
-    {type:"fb",s:"{1}",a:["familiair"],opts:["extern","familiair","feministisch","extreem"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"familiar, informal (often too informal)"},
-    {type:"fb",s:"{1}",a:["existentieel"],opts:["extreem","extern","existentieel","feministisch"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"existential"}
+    {type:"fb",s:"Het boek biedt een {1} perspectief.",a:["feministisch"],opts:["feministisch","extreem","extern","geconcentreerd"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The book offers a feminist perspective."},
+    {type:"fb",s:"{1}",a:["dwepen"],opts:["de exploitatie","dwepen","de flexibilisering","de gelegenheidsonderneming"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be infatuated with, to dote on"},
+    {type:"fb",s:"Het weer is {1} dit jaar.",a:["extreem"],opts:["extern","geconcentreerd","extreem","feministisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The weather is {1} this year."},
+    {type:"fb",s:"We hebben een {1} bureau ingehuurd.",a:["extern"],opts:["feministisch","extreem","geconcentreerd","extern"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We have hired an external agency."},
+    {type:"fb",s:"Ze werkt heel {1}.",a:["geconcentreerd"],opts:["geconcentreerd","feministisch","extreem","extern"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She is working very focused."},
+    {type:"fb",s:"Deze deken is {1} door mijn oma.",a:["gehaakt"],opts:["extern","gehaakt","feministisch","extreem"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This blanket was {1} by my grandmother."},
+    {type:"fb",s:"De professor is nogal {1}.",a:["excentriek"],opts:["extreem","extern","excentriek","feministisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The professor is quite {1}."},
+    {type:"fb",s:"Het bedrijf is {1} gegaan.",a:["failliet"],opts:["feministisch","extreem","extern","failliet"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The company went {1}."},
+    {type:"fb",s:"Koop je altijd {1} producten?",a:["fairtrade"],opts:["fairtrade","feministisch","extreem","extern"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you always buy {1} products?"},
+    {type:"fb",s:"{1}",a:["exploiteren"],opts:["de exploitatie","exploiteren","de flexibilisering","de gelegenheidsonderneming"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to operate, to run (a business)"},
+    {type:"fb",s:"Hij was nogal {1} tegen de directeur.",a:["familiair"],opts:["extreem","extern","familiair","feministisch"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He was quite familiar with the director."},
+    {type:"fb",s:"{1}",a:["existentieel"],opts:["feministisch","extreem","extern","existentieel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"existential"}
   ]
 };
 

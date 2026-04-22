@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 35.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U35 = {
   id:"frv2_u35_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,17 +9,17 @@ const COVERAGE_U35 = {
     {type:"match",pairs:[{trg:"l'acheminement",src:"routing, conveyance"},{trg:"l'accroissement",src:"increase, growth"},{trg:"accru",src:"increased, heightened"},{trg:"activement",src:"actively"}]},
     {type:"match",pairs:[{trg:"au-dessous",src:"below, underneath"},{trg:"l'alignement",src:"alignment, line-up"},{trg:"aligner",src:"to align, to line up"},{trg:"l'approche",src:"approach, method"}]},
     {type:"match",pairs:[{trg:"l'antipode",src:"antipode, opposite"},{trg:"l'aqueduc",src:"aqueduct"},{trg:"l'arsenal",src:"arsenal, stockpile"}]},
-    {type:"fb",s:"{1}",a:["l'adoration"],opts:["l'affront","l'appréciation","l'accomplissement","l'adoration"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"adoration, worship"},
-    {type:"fb",s:"{1}",a:["l'affront"],opts:["l'appréciation","l'accomplissement","l'affront","l'adoration"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"insult, affront"},
-    {type:"fb",s:"{1}",a:["s'abstenir"],opts:["aligner","s'abstenir","s'acharner","amplifier"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to abstain, to refrain"},
-    {type:"fb",s:"{1}",a:["s'acharner"],opts:["aligner","s'acharner","s'abstenir","amplifier"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to persist fiercely, to be relentless"},
-    {type:"fb",s:"{1}",a:["abondamment"],opts:["s'abstenir","abondamment","l'adoration","l'affront"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"abundantly, copiously"},
-    {type:"fb",s:"{1}",a:["amplifier"],opts:["s'acharner","aligner","amplifier","s'abstenir"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to amplify, to increase"},
-    {type:"fb",s:"{1}",a:["l'appréciation"],opts:["l'adoration","l'affront","l'accomplissement","l'appréciation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"appreciation, assessment"},
-    {type:"fb",s:"{1}",a:["l'acheminement"],opts:["l'affront","l'appréciation","l'acheminement","l'adoration"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"routing, conveyance"},
-    {type:"fb",s:"{1}",a:["accru"],opts:["l'adoration","l'affront","s'abstenir","accru"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"increased, heightened"},
-    {type:"fb",s:"{1}",a:["activement"],opts:["s'abstenir","activement","l'adoration","l'affront"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"actively"},
-    {type:"fb",s:"{1}",a:["au-dessous"],opts:["l'affront","s'abstenir","au-dessous","l'adoration"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"below, underneath"}
+    {type:"fb",s:"{1}",a:["l'adoration"],opts:["l'adoration","l'affront","l'appréciation","l'accomplissement"],hint:"Type the target-language form. Meaning shown below.",sSrc:"adoration, worship"},
+    {type:"fb",s:"{1}",a:["l'affront"],opts:["l'accomplissement","l'affront","l'adoration","l'appréciation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"insult, affront"},
+    {type:"fb",s:"{1}",a:["s'abstenir"],opts:["amplifier","aligner","s'abstenir","s'acharner"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to abstain, to refrain"},
+    {type:"fb",s:"{1}",a:["s'acharner"],opts:["s'abstenir","amplifier","aligner","s'acharner"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to persist fiercely, to be relentless"},
+    {type:"fb",s:"Il a plu {1} cette nuit.",a:["abondamment"],opts:["abondamment","l'adoration","l'affront","s'abstenir"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It rained abundantly last night."},
+    {type:"fb",s:"{1}",a:["amplifier"],opts:["aligner","amplifier","s'abstenir","s'acharner"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to amplify, to increase"},
+    {type:"fb",s:"{1}",a:["l'appréciation"],opts:["l'affront","l'accomplissement","l'appréciation","l'adoration"],hint:"Type the target-language form. Meaning shown below.",sSrc:"appreciation, assessment"},
+    {type:"fb",s:"{1}",a:["l'acheminement"],opts:["l'adoration","l'affront","l'appréciation","l'acheminement"],hint:"Type the target-language form. Meaning shown below.",sSrc:"routing, conveyance"},
+    {type:"fb",s:"La sécurité est {1}e pendant les fêtes.",a:["accru"],opts:["accru","l'adoration","l'affront","s'abstenir"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Security is heightened during the holidays."},
+    {type:"fb",s:"Elle participe {1} à la vie associative.",a:["activement"],opts:["s'abstenir","activement","l'adoration","l'affront"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She {1} participates in community life."},
+    {type:"fb",s:"L'appartement {1} est vacant.",a:["au-dessous"],opts:["l'affront","s'abstenir","au-dessous","l'adoration"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The apartment below is vacant."}
   ]
 };
 

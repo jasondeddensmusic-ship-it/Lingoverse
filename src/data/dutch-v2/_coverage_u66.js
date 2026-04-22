@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 66.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U66 = {
   id:"duv2_u66_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -11,7 +11,7 @@ const COVERAGE_U66 = {
     {type:"match",pairs:[{trg:"het experiment",src:"the experiment"},{trg:"het experimenteergedrag",src:"experimental behaviour"},{trg:"de aandeelhoudersstructuur",src:"shareholder structure"},{trg:"de gezondheidsbureaucraat",src:"health bureaucrat"}]},
     {type:"match",pairs:[{trg:"de herpositioneringsproces",src:"repositioning process"},{trg:"de bachelorstructuur",src:"bachelor's programme structure"},{trg:"de informaticajunk",src:"information addict"},{trg:"de groot markt",src:"the main square, grand market"}]},
     {type:"match",pairs:[{trg:"de hobbyist",src:"the hobbyist"},{trg:"de aanreikingen",src:"provisions, things offered"},{trg:"de grootte",src:"the size, the magnitude"}]},
-    {type:"fb",s:"{1}",a:["hockeyen"],opts:["het inkomensprobleem","hockeyen","de festivalorganisator","de carrieretijgerin"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to play hockey"}
+    {type:"fb",s:"Mijn dochter wil gaan {1}.",a:["hockeyen"],opts:["hockeyen","de festivalorganisator","de carrieretijgerin","het inkomensprobleem"],hint:"Type the target-language form. Meaning shown below.",sSrc:"My daughter wants to start playing hockey."}
   ]
 };
 

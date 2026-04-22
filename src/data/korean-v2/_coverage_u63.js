@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 63.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U63 = {
   id:"kov2_u63_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -20,18 +20,18 @@ const COVERAGE_U63 = {
     {type:"match",pairs:[{trg:"살림",src:"housekeeping, household management"},{trg:"살아가다",src:"to live on, to get by"},{trg:"살아나다",src:"to come back to life, to revive"},{trg:"살아오다",src:"to have lived, to have been living"}]},
     {type:"match",pairs:[{trg:"살인",src:"murder, homicide"},{trg:"살피다",src:"to examine, to look into, to check on"},{trg:"삼국",src:"Three Kingdoms"},{trg:"삼다",src:"to make into, to take as, to regard as"}]},
     {type:"match",pairs:[{trg:"삼키다",src:"to swallow"},{trg:"상관없다",src:"to not matter, to be irrelevant"},{trg:"상당수",src:"a considerable number, a fair amount"},{trg:"상당하다",src:"to be considerable, to be substantial"},{trg:"상대성",src:"relativity"}]},
-    {type:"fb",s:"{1}",a:["비서"],opts:["비행장","비서","비타민","비행"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"secretary, assistant"},
-    {type:"fb",s:"{1}",a:["비우다"],opts:["비웃다","비추다","비치다","비우다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to empty, to vacate"},
-    {type:"fb",s:"{1}",a:["비웃다"],opts:["비추다","비치다","비웃다","비우다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to ridicule, to sneer at"},
-    {type:"fb",s:"{1}",a:["비추다"],opts:["비우다","비웃다","비치다","비추다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to shine, to illuminate, to suggest"},
-    {type:"fb",s:"{1}",a:["비치다"],opts:["비우다","비웃다","비추다","비치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be reflected, to show through"},
-    {type:"fb",s:"{1}",a:["비키다"],opts:["비우다","비웃다","비추다","비키다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to move aside, to step out of the way"},
-    {type:"fb",s:"{1}",a:["비타민"],opts:["비서","비행","비행장","비타민"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"vitamin"},
-    {type:"fb",s:"{1}",a:["비하다"],opts:["비우다","비웃다","비추다","비하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be compared to, relative to"},
-    {type:"fb",s:"{1}",a:["비행"],opts:["비행","비서","비타민","비행장"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"flight, flying"},
-    {type:"fb",s:"{1}",a:["비행장"],opts:["비서","비타민","비행","비행장"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"airfield, airport"},
-    {type:"fb",s:"{1}",a:["빌딩"],opts:["빌딩","비서","비타민","비행"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"building (tall)"},
-    {type:"fb",s:"{1}",a:["빗방울"],opts:["비행","빗방울","비서","비타민"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"raindrop"}
+    {type:"fb",s:"사장님 {1}에게 일정을 확인해 봐.",a:["비서"],opts:["비서","비타민","비행","비행장"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Check the schedule with the CEO's secretary."},
+    {type:"fb",s:"{1}",a:["비우다"],opts:["비치다","비우다","비웃다","비추다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to empty, to vacate"},
+    {type:"fb",s:"{1}",a:["비웃다"],opts:["비추다","비치다","비웃다","비우다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to ridicule, to sneer at"},
+    {type:"fb",s:"{1}",a:["비추다"],opts:["비우다","비웃다","비치다","비추다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to shine, to illuminate, to suggest"},
+    {type:"fb",s:"{1}",a:["비치다"],opts:["비치다","비우다","비웃다","비추다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be reflected, to show through"},
+    {type:"fb",s:"{1}",a:["비키다"],opts:["비추다","비키다","비우다","비웃다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to move aside, to step out of the way"},
+    {type:"fb",s:"{1} C를 많이 먹어야 감기 예방이 돼.",a:["비타민"],opts:["비행","비행장","비타민","비서"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to take a lot of {1} C to prevent colds."},
+    {type:"fb",s:"{1}",a:["비하다"],opts:["비우다","비웃다","비추다","비하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be compared to, relative to"},
+    {type:"fb",s:"{1} 시간이 얼마나 걸려?",a:["비행"],opts:["비행","비서","비타민","비행장"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How long is the flight time?"},
+    {type:"fb",s:"근처에 군용 {1}이 있어.",a:["비행장"],opts:["비행","비행장","비서","비타민"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There is a military airfield nearby."},
+    {type:"fb",s:"저 {1}이 몇 층이야?",a:["빌딩"],opts:["비타민","비행","빌딩","비서"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How many floors is that building?"},
+    {type:"fb",s:"{1}이 떨어지기 시작했어.",a:["빗방울"],opts:["비서","비타민","비행","빗방울"],hint:"Type the target-language form. Meaning shown below.",sSrc:"{1}s have started falling."}
   ]
 };
 

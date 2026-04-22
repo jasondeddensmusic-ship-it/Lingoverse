@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 33.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U33 = {
   id:"duv2_u33_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,17 +13,17 @@ const COVERAGE_U33 = {
     {type:"match",pairs:[{trg:"de kaart",src:"the card / map / ticket"},{trg:"het formulier",src:"the form (document)"},{trg:"het adres",src:"the address"},{trg:"de collega",src:"the colleague"}]},
     {type:"match",pairs:[{trg:"de bewoner",src:"the resident / inhabitant"},{trg:"de makelaar",src:"the real estate agent"},{trg:"de groep",src:"the group"},{trg:"de activiteit",src:"the activity"}]},
     {type:"match",pairs:[{trg:"de fabriek",src:"the factory"},{trg:"de afspraak",src:"the appointment / agreement"},{trg:"de heleboel",src:"a lot / a whole bunch"}]},
-    {type:"fb",s:"{1}",a:["favoriet"],opts:["dom","erg","nerveus","favoriet"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"favorite"},
-    {type:"fb",s:"{1}",a:["dom"],opts:["nerveus","dom","favoriet","erg"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stupid / dumb"},
-    {type:"fb",s:"{1}",a:["erg"],opts:["nerveus","erg","favoriet","dom"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"very / badly"},
-    {type:"fb",s:"{1}",a:["nerveus"],opts:["favoriet","dom","erg","nerveus"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"nervous"},
-    {type:"fb",s:"{1}",a:["lui"],opts:["favoriet","dom","erg","lui"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"lazy"},
-    {type:"fb",s:"{1}",a:["autorijden"],opts:["autorijden","favoriet","dom","erg"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to drive (a car)"},
-    {type:"fb",s:"{1}",a:["hardlopen"],opts:["hardlopen","favoriet","dom","erg"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to run / to jog"},
-    {type:"fb",s:"{1}",a:["langs"],opts:["dom","erg","langs","favoriet"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"along / past"},
-    {type:"fb",s:"{1}",a:["naast"],opts:["naast","favoriet","dom","erg"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"next to / beside"},
-    {type:"fb",s:"{1}",a:["dansen"],opts:["dom","erg","dansen","favoriet"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to dance"},
-    {type:"fb",s:"{1}",a:["aardig"],opts:["erg","aardig","favoriet","dom"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"nice / kind"}
+    {type:"fb",s:"Wat is je {1}e kleur?",a:["favoriet"],opts:["favoriet","dom","erg","nerveus"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What is your {1} color?"},
+    {type:"fb",s:"Dat was een {1} idee.",a:["dom"],opts:["nerveus","dom","favoriet","erg"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That was a stupid idea."},
+    {type:"fb",s:"Het was {1} warm gisteren.",a:["erg"],opts:["dom","nerveus","erg","favoriet"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It was very hot yesterday."},
+    {type:"fb",s:"Ben je {1} voor het examen?",a:["nerveus"],opts:["favoriet","dom","erg","nerveus"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are you {1} about the exam?"},
+    {type:"fb",s:"Wees niet zo {1}!",a:["lui"],opts:["lui","favoriet","dom","erg"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Don't be so {1}!"},
+    {type:"fb",s:"Kun je {1}?",a:["autorijden"],opts:["erg","autorijden","favoriet","dom"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you drive?"},
+    {type:"fb",s:"Ga je {1}?",a:["hardlopen"],opts:["dom","erg","hardlopen","favoriet"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are you going jogging?"},
+    {type:"fb",s:"Loop {1} het park.",a:["langs"],opts:["favoriet","dom","erg","langs"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Walk along the park."},
+    {type:"fb",s:"De bakker is {1} de supermarkt.",a:["naast"],opts:["naast","favoriet","dom","erg"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The bakery is next to the supermarket."},
+    {type:"fb",s:"Kun je {1}?",a:["dansen"],opts:["erg","dansen","favoriet","dom"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you dance?"},
+    {type:"fb",s:"Je buurman is heel {1}.",a:["aardig"],opts:["dom","erg","aardig","favoriet"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Your neighbor is very nice."}
   ]
 };
 

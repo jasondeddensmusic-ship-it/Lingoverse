@@ -1,28 +1,28 @@
 // Auto-generated PP64 coverage lesson for unit 28.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U28 = {
   id:"jav2_u28_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
     {type:"match",pairs:[{trg:"けっか",src:"result / outcome"},{trg:"たいこくちゅう",src:"pillar / mainstay / backbone"},{trg:"タメぐち",src:"casual/informal speech (among equals)"}]},
-    {type:"fb",s:"{1}",a:["けっか"],opts:["たいこくちゅう","タメぐち","けっか"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"result / outcome"},
-    {type:"fb",s:"{1}",a:["たいこくちゅう"],opts:["タメぐち","たいこくちゅう","けっか"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"pillar / mainstay / backbone"},
-    {type:"fb",s:"{1}",a:["タメぐち"],opts:["タメぐち","けっか","たいこくちゅう"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"casual/informal speech (among equals)"},
-    {type:"fb",s:"{1}",a:["である"],opts:["けっか","たいこくちゅう","タメぐち","である"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be (written/formal copula)"},
-    {type:"fb",s:"{1}",a:["において"],opts:["において","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"in / at (formal location/context)"},
-    {type:"fb",s:"{1}",a:["及(およ)び"],opts:["けっか","たいこくちゅう","タメぐち","及(およ)び"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"and / as well as (formal)"},
-    {type:"fb",s:"{1}",a:["述(の)べる"],opts:["述(の)べる","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to state / to describe"},
-    {type:"fb",s:"{1}",a:["論(ろん)じる"],opts:["けっか","たいこくちゅう","タメぐち","論(ろん)じる"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to discuss / to argue (academic)"},
-    {type:"fb",s:"{1}",a:["論文(ろんぶん)"],opts:["たいこくちゅう","タメぐち","論文(ろんぶん)","けっか"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"academic paper / thesis"},
-    {type:"fb",s:"{1}",a:["よね"],opts:["よね","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"(particle) right? / isn't it?"},
-    {type:"fb",s:"{1}",a:["〜っけ"],opts:["タメぐち","〜っけ","けっか","たいこくちゅう"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"(particle) was it? / remind me"},
-    {type:"fb",s:"{1}",a:["書(か)き言葉(ことば)"],opts:["けっか","たいこくちゅう","タメぐち","書(か)き言葉(ことば)"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"written language"},
-    {type:"fb",s:"{1}",a:["経営(けいえい)"],opts:["タメぐち","経営(けいえい)","けっか","たいこくちゅう"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"management / business operation"},
-    {type:"fb",s:"{1}",a:["教育(きょういく)"],opts:["たいこくちゅう","タメぐち","教育(きょういく)","けっか"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"education"},
-    {type:"fb",s:"{1}",a:["管理(かんり)"],opts:["タメぐち","管理(かんり)","けっか","たいこくちゅう"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"management / administration / control"},
-    {type:"fb",s:"{1}",a:["過去(かこ)"],opts:["けっか","たいこくちゅう","タメぐち","過去(かこ)"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the past"},
-    {type:"fb",s:"{1}",a:["印象(いんしょう)"],opts:["たいこくちゅう","タメぐち","印象(いんしょう)","けっか"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"impression"},
-    {type:"fb",s:"{1}",a:["具体的(ぐたいてき)"],opts:["具体的(ぐたいてき)","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"concrete / specific"}
+    {type:"fb",s:"ちょうさの{1}をはっぴょうします。",a:["けっか"],opts:["けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We will present the survey results."},
+    {type:"fb",s:"かのじょはかぞくの{1}です。",a:["たいこくちゅう"],opts:["タメぐち","たいこくちゅう","けっか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She is the pillar of her family."},
+    {type:"fb",s:"もう{1}でいいよ。",a:["タメぐち"],opts:["けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You can speak casually to me now."},
+    {type:"fb",s:"健康(けんこう)は最(もっと)も大切(たいせつ)な資産(しさん){1}。",a:["である"],opts:["けっか","たいこくちゅう","タメぐち","である"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Health is the most important asset."},
+    {type:"fb",s:"この研究(けんきゅう)は東京大学(とうきょうだいがく){1}行(おこな)われた。",a:["において"],opts:["において","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This research was conducted at Tokyo University."},
+    {type:"fb",s:"出席者(しゅっせきしゃ)の名前(なまえ){1}住所(じゅうしょ)を記入(きにゅう)してください。",a:["及(およ)び"],opts:["タメぐち","及(およ)び","けっか","たいこくちゅう"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please fill in the attendees' names and addresses."},
+    {type:"fb",s:"{1}",a:["述(の)べる"],opts:["たいこくちゅう","タメぐち","述(の)べる","けっか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to state / to describe"},
+    {type:"fb",s:"{1}",a:["論(ろん)じる"],opts:["けっか","たいこくちゅう","タメぐち","論(ろん)じる"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to discuss / to argue (academic)"},
+    {type:"fb",s:"{1}",a:["論文(ろんぶん)"],opts:["論文(ろんぶん)","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"academic paper / thesis"},
+    {type:"fb",s:"明日(あした)は休(やす)みだ{1}？",a:["よね"],opts:["タメぐち","よね","けっか","たいこくちゅう"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Tomorrow is a day off, right?"},
+    {type:"fb",s:"{1}",a:["〜っけ"],opts:["たいこくちゅう","タメぐち","〜っけ","けっか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"(particle) was it? / remind me"},
+    {type:"fb",s:"日本語(にほんご)は{1}と話(はな)し言葉(ことば)がかなり違(ちが)います。",a:["書(か)き言葉(ことば)"],opts:["けっか","たいこくちゅう","タメぐち","書(か)き言葉(ことば)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Written and spoken Japanese are quite different."},
+    {type:"fb",s:"会社(かいしゃ)の{1}はうまくいっていますか？",a:["経営(けいえい)"],opts:["経営(けいえい)","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is the management of the company going well?"},
+    {type:"fb",s:"日本(にほん)の{1}についてどう思(おも)いますか？",a:["教育(きょういく)"],opts:["タメぐち","教育(きょういく)","けっか","たいこくちゅう"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What do you think about {1} in Japan?"},
+    {type:"fb",s:"このプロジェクトの{1}は誰(だれ)が担当(たんとう)していますか？",a:["管理(かんり)"],opts:["たいこくちゅう","タメぐち","管理(かんり)","けっか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Who is in charge of managing this project?"},
+    {type:"fb",s:"{1}の経験(けいけん)から何(なに)を学(まな)びましたか？",a:["過去(かこ)"],opts:["けっか","たいこくちゅう","タメぐち","過去(かこ)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What have you learned from past experience?"},
+    {type:"fb",s:"あの先生(せんせい)の授業(じゅぎょう)はどんな{1}でしたか？",a:["印象(いんしょう)"],opts:["印象(いんしょう)","けっか","たいこくちゅう","タメぐち"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What {1} did you get from that teacher's class?"},
+    {type:"fb",s:"もっと{1}に説明(せつめい)していただけますか？",a:["具体的(ぐたいてき)"],opts:["タメぐち","具体的(ぐたいてき)","けっか","たいこくちゅう"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Could you explain more specifically?"}
   ]
 };
 

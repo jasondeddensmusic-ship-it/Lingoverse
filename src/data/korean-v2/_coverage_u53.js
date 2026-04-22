@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 53.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U53 = {
   id:"kov2_u53_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -20,18 +20,18 @@ const COVERAGE_U53 = {
     {type:"match",pairs:[{trg:"들다",src:"(auxiliary) to begin to, to start feeling"},{trg:"들려주다",src:"to tell, to let someone hear"},{trg:"들어주다",src:"to listen to, to grant (a request)"},{trg:"들여놓다",src:"to bring inside, to place indoors"}]},
     {type:"match",pairs:[{trg:"들이다",src:"to bring in, to put in; to expend"},{trg:"들이마시다",src:"to inhale, to breathe in deeply"},{trg:"들이켜다",src:"to gulp down, to chug"},{trg:"듯싶다",src:"it seems like, it appears that"}]},
     {type:"match",pairs:[{trg:"듯하다",src:"to seem, to appear as if"},{trg:"노랫소리",src:"singing voice, sound of a song"},{trg:"년생",src:"born in the year of"}]},
-    {type:"fb",s:"{1}",a:["도달하다"],opts:["돌려주다","도달하다","도망가다","도망치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to reach, to arrive at"},
-    {type:"fb",s:"{1}",a:["도대체"],opts:["도달하다","도둑","도리어","도대체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"on earth, what in the world"},
-    {type:"fb",s:"{1}",a:["도둑"],opts:["도둑","도마","도심","도움말"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thief, burglar"},
-    {type:"fb",s:"{1}",a:["도리어"],opts:["도달하다","도대체","도둑","도리어"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"on the contrary, rather"},
-    {type:"fb",s:"{1}",a:["도마"],opts:["도움말","도마","도둑","도심"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"cutting board"},
-    {type:"fb",s:"{1}",a:["도망가다"],opts:["도망가다","도달하다","도망치다","돌려주다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to run away, to flee"},
-    {type:"fb",s:"{1}",a:["도망치다"],opts:["도망치다","도달하다","도망가다","돌려주다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to flee in panic, to make an escape"},
-    {type:"fb",s:"{1}",a:["도심"],opts:["도움말","도심","도둑","도마"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"city center, downtown"},
-    {type:"fb",s:"{1}",a:["도움말"],opts:["도둑","도마","도심","도움말"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"help text, tooltip, help guide"},
-    {type:"fb",s:"{1}",a:["도입"],opts:["도입","도둑","도마","도심"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"introduction, adoption (of a system)"},
-    {type:"fb",s:"{1}",a:["도장"],opts:["도장","도둑","도마","도심"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stamp, seal; dojo"},
-    {type:"fb",s:"{1}",a:["도저히"],opts:["도달하다","도대체","도둑","도저히"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"(not) at all, by no means"}
+    {type:"fb",s:"{1}",a:["도달하다"],opts:["도달하다","도망가다","도망치다","돌려주다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to reach, to arrive at"},
+    {type:"fb",s:"{1} 왜 그랬어?",a:["도대체"],opts:["도리어","도대체","도달하다","도둑"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Why on earth did you do that?"},
+    {type:"fb",s:"{1}이 들었어요!",a:["도둑"],opts:["도심","도움말","도둑","도마"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A thief broke in!"},
+    {type:"fb",s:"도와주려다가 {1} 방해가 됐어요.",a:["도리어"],opts:["도달하다","도대체","도둑","도리어"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I tried to help but ended up being a hindrance."},
+    {type:"fb",s:"{1} 위에서 야채를 썰어 주세요.",a:["도마"],opts:["도마","도둑","도심","도움말"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please chop the vegetables on the {1}."},
+    {type:"fb",s:"{1}",a:["도망가다"],opts:["돌려주다","도망가다","도달하다","도망치다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to run away, to flee"},
+    {type:"fb",s:"{1}",a:["도망치다"],opts:["도망가다","돌려주다","도망치다","도달하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to flee in panic, to make an escape"},
+    {type:"fb",s:"{1}에 사무실이 있어요.",a:["도심"],opts:["도둑","도마","도움말","도심"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The office is in the city center."},
+    {type:"fb",s:"{1}을 읽어 보세요.",a:["도움말"],opts:["도움말","도둑","도마","도심"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Read the help guide."},
+    {type:"fb",s:"새로운 제도를 {1}했어요.",a:["도입"],opts:["도심","도입","도둑","도마"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They introduced a new system."},
+    {type:"fb",s:"여기에 {1}을 찍어 주세요.",a:["도장"],opts:["도마","도심","도장","도둑"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please stamp your seal here."},
+    {type:"fb",s:"{1} 이해할 수 없어요.",a:["도저히"],opts:["도달하다","도대체","도둑","도저히"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I cannot understand it at all."}
   ]
 };
 

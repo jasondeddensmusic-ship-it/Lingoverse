@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 45.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U45 = {
   id:"duv2_u45_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -12,18 +12,18 @@ const COVERAGE_U45 = {
     {type:"match",pairs:[{trg:"de astroloog",src:"the astrologer"},{trg:"de aanvangstijd",src:"the starting time"},{trg:"de compensatiemiddel",src:"the compensatory measure"},{trg:"de contributieperiode",src:"the membership period"}]},
     {type:"match",pairs:[{trg:"de basistechniek",src:"the basic technique"},{trg:"het bachelorjaar",src:"the bachelor year"},{trg:"de coordinatievaardigheid",src:"the coordination skill"},{trg:"de creativiteitsprijs",src:"the creativity prize"}]},
     {type:"match",pairs:[{trg:"de autosuggestie",src:"the autosuggestion"},{trg:"de attentieniveau",src:"the attention level"},{trg:"de blikveld",src:"the field of vision"},{trg:"de businessclass",src:"the business class"},{trg:"de cocktailparty",src:"the cocktail party"},{trg:"de concentratiekamp",src:"the concentration camp"}]},
-    {type:"fb",s:"{1}",a:["beroepen"],opts:["collaboreren","beroepen","bevoorrechten","cirkelen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to appeal (legal), to invoke"},
-    {type:"fb",s:"{1}",a:["bevoorrechten"],opts:["collaboreren","bevoorrechten","beroepen","cirkelen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to privilege, to favor"},
-    {type:"fb",s:"{1}",a:["cirkelen"],opts:["bevoorrechten","collaboreren","cirkelen","beroepen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to circle, to orbit"},
-    {type:"fb",s:"{1}",a:["collaboreren"],opts:["beroepen","bevoorrechten","cirkelen","collaboreren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to collaborate (with enemy)"},
-    {type:"fb",s:"{1}",a:["consumeren"],opts:["bevoorrechten","cirkelen","consumeren","beroepen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to consume"},
-    {type:"fb",s:"{1}",a:["afschuimen"],opts:["bevoorrechten","cirkelen","afschuimen","beroepen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to skim (off), to scour"},
-    {type:"fb",s:"{1}",a:["aangebeten"],opts:["beroepen","bevoorrechten","cirkelen","aangebeten"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to have bitten into"},
-    {type:"fb",s:"{1}",a:["aankopen"],opts:["bevoorrechten","cirkelen","aankopen","beroepen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to purchase (formal)"},
-    {type:"fb",s:"{1}",a:["antiek"],opts:["het avonturenboek","antiek","de cultuurwetenschap","het avondmaal"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"antique, ancient"},
-    {type:"fb",s:"{1}",a:["baanbrekend"],opts:["het avondmaal","het avonturenboek","baanbrekend","de cultuurwetenschap"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"groundbreaking, pioneering"},
-    {type:"fb",s:"{1}",a:["briljant"],opts:["het avonturenboek","briljant","de cultuurwetenschap","het avondmaal"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"brilliant"},
-    {type:"fb",s:"{1}",a:["buurten"],opts:["bevoorrechten","cirkelen","buurten","beroepen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to visit neighbors, to socialize locally"}
+    {type:"fb",s:"{1}",a:["beroepen"],opts:["beroepen","bevoorrechten","cirkelen","collaboreren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to appeal (legal), to invoke"},
+    {type:"fb",s:"Sommige scholen {1} rijke leerlingen.",a:["bevoorrechten"],opts:["collaboreren","bevoorrechten","beroepen","cirkelen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Some schools privilege wealthy students."},
+    {type:"fb",s:"{1}",a:["cirkelen"],opts:["bevoorrechten","collaboreren","cirkelen","beroepen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to circle, to orbit"},
+    {type:"fb",s:"{1}",a:["collaboreren"],opts:["beroepen","bevoorrechten","cirkelen","collaboreren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to collaborate (with enemy)"},
+    {type:"fb",s:"We moeten minder {1}.",a:["consumeren"],opts:["consumeren","beroepen","bevoorrechten","cirkelen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need {1} less."},
+    {type:"fb",s:"{1}",a:["afschuimen"],opts:["cirkelen","afschuimen","beroepen","bevoorrechten"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to skim (off), to scour"},
+    {type:"fb",s:"Ze is helemaal {1} door dat idee.",a:["aangebeten"],opts:["bevoorrechten","cirkelen","aangebeten","beroepen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She is completely hooked on that idea."},
+    {type:"fb",s:"{1}",a:["aankopen"],opts:["beroepen","bevoorrechten","cirkelen","aankopen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to purchase (formal)"},
+    {type:"fb",s:"Dit bureau is {1}.",a:["antiek"],opts:["antiek","de cultuurwetenschap","het avondmaal","het avonturenboek"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This desk is antique."},
+    {type:"fb",s:"Dit onderzoek is {1}.",a:["baanbrekend"],opts:["het avonturenboek","baanbrekend","de cultuurwetenschap","het avondmaal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This research is groundbreaking."},
+    {type:"fb",s:"Dat is een {1} idee!",a:["briljant"],opts:["het avondmaal","het avonturenboek","briljant","de cultuurwetenschap"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That is a {1} idea!"},
+    {type:"fb",s:"Mijn oma ging vroeger elke dag {1}.",a:["buurten"],opts:["beroepen","bevoorrechten","cirkelen","buurten"],hint:"Type the target-language form. Meaning shown below.",sSrc:"My grandmother used to visit the neighbors every day."}
   ]
 };
 

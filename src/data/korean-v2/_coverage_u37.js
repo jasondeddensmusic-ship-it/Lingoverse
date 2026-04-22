@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 37.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U37 = {
   id:"kov2_u37_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,18 +13,18 @@ const COVERAGE_U37 = {
     {type:"match",pairs:[{trg:"머무르다",src:"to stay, to remain"},{trg:"늙다",src:"to grow old, to age"},{trg:"눕다",src:"to lie down"},{trg:"돌리다",src:"to turn, to rotate something"}]},
     {type:"match",pairs:[{trg:"딴",src:"other, different"},{trg:"군",src:"Mr. (bound noun, casual)"},{trg:"가지",src:"kind, type, sort"},{trg:"멀리",src:"far away, in the distance"}]},
     {type:"match",pairs:[{trg:"마주",src:"face to face, facing each other"},{trg:"거의",src:"almost, nearly"},{trg:"따다",src:"to pick, to earn, to obtain"}]},
-    {type:"fb",s:"{1}",a:["너무나"],opts:["그리","단지","굳이","너무나"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"so very, exceedingly"},
-    {type:"fb",s:"{1}",a:["그리"],opts:["굳이","그리","너무나","단지"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"that way, so (with negation)"},
-    {type:"fb",s:"{1}",a:["단지"],opts:["굳이","단지","너무나","그리"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"merely, only"},
-    {type:"fb",s:"{1}",a:["굳이"],opts:["굳이","너무나","그리","단지"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stubbornly, going out of one's way"},
-    {type:"fb",s:"{1}",a:["과거"],opts:["그다음","과거","년대","년도"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the past"},
-    {type:"fb",s:"{1}",a:["년대"],opts:["그다음","년대","과거","년도"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"decade, era"},
-    {type:"fb",s:"{1}",a:["년도"],opts:["그다음","년도","과거","년대"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the year (specific)"},
-    {type:"fb",s:"{1}",a:["그다음"],opts:["과거","년대","년도","그다음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the next, after that"},
-    {type:"fb",s:"{1}",a:["따로"],opts:["단지","따로","너무나","그리"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"separately, apart"},
-    {type:"fb",s:"{1}",a:["또다시"],opts:["너무나","그리","단지","또다시"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"once again, yet again"},
-    {type:"fb",s:"{1}",a:["공연"],opts:["년대","년도","공연","과거"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"performance, show"},
-    {type:"fb",s:"{1}",a:["그림자"],opts:["과거","년대","년도","그림자"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"shadow"}
+    {type:"fb",s:"{1}",a:["너무나"],opts:["너무나","그리","단지","굳이"],hint:"Type the target-language form. Meaning shown below.",sSrc:"so very, exceedingly"},
+    {type:"fb",s:"{1}",a:["그리"],opts:["굳이","그리","너무나","단지"],hint:"Type the target-language form. Meaning shown below.",sSrc:"that way, so (with negation)"},
+    {type:"fb",s:"{1}",a:["단지"],opts:["그리","굳이","단지","너무나"],hint:"Type the target-language form. Meaning shown below.",sSrc:"merely, only"},
+    {type:"fb",s:"{1} 직접 갈 필요 있어요?",a:["굳이"],opts:["너무나","그리","단지","굳이"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you really need to go in person?"},
+    {type:"fb",s:"{1}에 무슨 일을 했어요?",a:["과거"],opts:["과거","년대","년도","그다음"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What did you do in {1}?"},
+    {type:"fb",s:"{1}",a:["년대"],opts:["그다음","년대","과거","년도"],hint:"Type the target-language form. Meaning shown below.",sSrc:"decade, era"},
+    {type:"fb",s:"졸업 {1}가 어떻게 돼요?",a:["년도"],opts:["년대","그다음","년도","과거"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What year did you graduate?"},
+    {type:"fb",s:"{1}",a:["그다음"],opts:["과거","년대","년도","그다음"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the next, after that"},
+    {type:"fb",s:"{1}",a:["따로"],opts:["따로","너무나","그리","단지"],hint:"Type the target-language form. Meaning shown below.",sSrc:"separately, apart"},
+    {type:"fb",s:"{1} 같은 실수를 했어요.",a:["또다시"],opts:["단지","또다시","너무나","그리"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I made the same mistake once again."},
+    {type:"fb",s:"이번 주말에 {1} 보러 갈래요?",a:["공연"],opts:["년대","년도","공연","과거"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you want to go see a performance this weekend?"},
+    {type:"fb",s:"벽에 {1}가 보여요.",a:["그림자"],opts:["과거","년대","년도","그림자"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I can see a {1} on the wall."}
   ]
 };
 

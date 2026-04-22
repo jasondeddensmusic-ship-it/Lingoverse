@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 32.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U32 = {
   id:"duv2_u32_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -15,17 +15,17 @@ const COVERAGE_U32 = {
     {type:"match",pairs:[{trg:"de doos",src:"the box"},{trg:"gratis",src:"free (of charge)"},{trg:"extra",src:"extra / additional"},{trg:"exclusief",src:"exclusive / excluding"}]},
     {type:"match",pairs:[{trg:"het appelsap",src:"the apple juice"},{trg:"de minuut",src:"the minute"},{trg:"half vijf",src:"half past four (4:30)"},{trg:"half zes",src:"half past five (5:30)"}]},
     {type:"match",pairs:[{trg:"half zeven",src:"half past six (6:30)"},{trg:"kwart over negen",src:"quarter past nine (9:15)"},{trg:"laat",src:"late"},{trg:"het deel",src:"the part / piece"},{trg:"de kalender",src:"the calendar"},{trg:"hoelang",src:"how long"}]},
-    {type:"fb",s:"{1}",a:["dood"],opts:["nat","dood","mager","dik"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"dead"},
-    {type:"fb",s:"{1}",a:["mager"],opts:["dood","dik","nat","mager"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thin / lean / skinny"},
-    {type:"fb",s:"{1}",a:["dik"],opts:["nat","dik","dood","mager"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thick / fat"},
-    {type:"fb",s:"{1}",a:["nat"],opts:["mager","dik","nat","dood"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"wet"},
-    {type:"fb",s:"{1}",a:["lang"],opts:["dood","mager","dik","lang"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"long / tall"},
-    {type:"fb",s:"{1}",a:["knap"],opts:["dood","mager","dik","knap"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"handsome / attractive / clever"},
-    {type:"fb",s:"{1}",a:["blond"],opts:["blond","dood","mager","dik"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"blonde"},
-    {type:"fb",s:"{1}",a:["kammen"],opts:["de griep","dood","kammen","het been"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to comb"},
-    {type:"fb",s:"{1}",a:["fris"],opts:["dood","mager","dik","fris"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fresh / cool"},
-    {type:"fb",s:"{1}",a:["hard"],opts:["mager","dik","hard","dood"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"hard / loud / fast"},
-    {type:"fb",s:"{1}",a:["donker"],opts:["donker","dood","mager","dik"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"dark"}
+    {type:"fb",s:"De plant is {1}.",a:["dood"],opts:["dood","mager","dik","nat"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The plant is {1}."},
+    {type:"fb",s:"Die kat is heel {1}.",a:["mager"],opts:["nat","mager","dood","dik"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That cat is very thin."},
+    {type:"fb",s:"Dat boek is heel {1}.",a:["dik"],opts:["mager","nat","dik","dood"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That book is very thick."},
+    {type:"fb",s:"Het regent! Ik ben helemaal {1}.",a:["nat"],opts:["dood","mager","dik","nat"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It's raining! I'm completely {1}."},
+    {type:"fb",s:"Wat een {1}e broek!",a:["lang"],opts:["lang","dood","mager","dik"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What long pants!"},
+    {type:"fb",s:"Die jongen is {1}!",a:["knap"],opts:["dik","knap","dood","mager"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That boy is handsome!"},
+    {type:"fb",s:"Ze heeft {1} haar.",a:["blond"],opts:["mager","dik","blond","dood"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She has {1} hair."},
+    {type:"fb",s:"{1}",a:["kammen"],opts:["het been","de griep","dood","kammen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to comb"},
+    {type:"fb",s:"Het is {1} buiten vandaag.",a:["fris"],opts:["fris","dood","mager","dik"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It's chilly outside today."},
+    {type:"fb",s:"Praat niet zo {1}!",a:["hard"],opts:["dik","hard","dood","mager"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Don't talk so loudly!"},
+    {type:"fb",s:"Het is al {1} buiten.",a:["donker"],opts:["mager","dik","donker","dood"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It's already {1} outside."}
   ]
 };
 

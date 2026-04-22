@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 62.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U62 = {
   id:"kov2_u62_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,18 +18,18 @@ const COVERAGE_U62 = {
     {type:"match",pairs:[{trg:"불확실하다",src:"to be uncertain, to be unclear"},{trg:"붐비다",src:"to be crowded, to be packed"},{trg:"붙들다",src:"to hold onto, to grab"},{trg:"붙잡다",src:"to seize, to catch, to grab hold of"}]},
     {type:"match",pairs:[{trg:"붙잡히다",src:"to be caught, to be seized"},{trg:"브랜드",src:"brand"},{trg:"블라우스",src:"blouse"},{trg:"비기다",src:"to tie, to draw (in a game)"}]},
     {type:"match",pairs:[{trg:"비다",src:"to be empty, to be vacant"},{trg:"비둘기",src:"pigeon, dove"},{trg:"비롯되다",src:"to originate from, to stem from"},{trg:"비롯하다",src:"to begin with, starting from"},{trg:"비바람",src:"rain and wind, driving rain"},{trg:"비비다",src:"to rub, to mix by rubbing"}]},
-    {type:"fb",s:"{1}",a:["복숭아"],opts:["볶음","볶음밥","본질","복숭아"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"peach"},
-    {type:"fb",s:"{1}",a:["볶음"],opts:["복숭아","볶음밥","본질","볶음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stir-fry, something stir-fried"},
-    {type:"fb",s:"{1}",a:["볶음밥"],opts:["볶음밥","복숭아","볶음","본질"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fried rice"},
-    {type:"fb",s:"{1}",a:["본질"],opts:["볶음밥","본질","복숭아","볶음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"essence, fundamental nature"},
-    {type:"fb",s:"{1}",a:["볼일"],opts:["볶음밥","볼일","복숭아","볶음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"errand, business to attend to"},
-    {type:"fb",s:"{1}",a:["뵈다"],opts:["부러워하다","뵈다","뵙다","부딪히다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to see, to meet (humble)"},
-    {type:"fb",s:"{1}",a:["뵙다"],opts:["부딪히다","부러워하다","뵙다","뵈다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to meet (very humble)"},
-    {type:"fb",s:"{1}",a:["부대"],opts:["볶음밥","부대","복숭아","볶음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"military unit, troops"},
-    {type:"fb",s:"{1}",a:["부딪히다"],opts:["뵈다","뵙다","부러워하다","부딪히다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to bump into, to collide with"},
-    {type:"fb",s:"{1}",a:["부러워하다"],opts:["뵈다","뵙다","부딪히다","부러워하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to envy, to be jealous of"},
-    {type:"fb",s:"{1}",a:["부러지다"],opts:["부딪히다","부러지다","뵈다","뵙다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to break, to snap"},
-    {type:"fb",s:"{1}",a:["부문"],opts:["볶음밥","부문","복숭아","볶음"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"sector, field, category"}
+    {type:"fb",s:"{1} 좋아해?",a:["복숭아"],opts:["복숭아","볶음","볶음밥","본질"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you like {1}es?"},
+    {type:"fb",s:"{1}",a:["볶음"],opts:["본질","볶음","복숭아","볶음밥"],hint:"Type the target-language form. Meaning shown below.",sSrc:"stir-fry, something stir-fried"},
+    {type:"fb",s:"{1}에 뭘 넣을까?",a:["볶음밥"],opts:["볶음","본질","볶음밥","복숭아"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What should we put in the {1}?"},
+    {type:"fb",s:"이 문제의 {1}이 뭐라고 생각해?",a:["본질"],opts:["복숭아","볶음","볶음밥","본질"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What do you think is the essence of this problem?"},
+    {type:"fb",s:"오늘 {1}이 있어서 먼저 갈게.",a:["볼일"],opts:["볼일","복숭아","볶음","볶음밥"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I have an errand today so I will head out first."},
+    {type:"fb",s:"{1}",a:["뵈다"],opts:["부러워하다","뵈다","뵙다","부딪히다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to see, to meet (humble)"},
+    {type:"fb",s:"{1}",a:["뵙다"],opts:["부딪히다","부러워하다","뵙다","뵈다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to meet (very humble)"},
+    {type:"fb",s:"어느 {1}에서 복무했어?",a:["부대"],opts:["복숭아","볶음","볶음밥","부대"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Which unit did you serve in?"},
+    {type:"fb",s:"{1}",a:["부딪히다"],opts:["부딪히다","뵈다","뵙다","부러워하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to bump into, to collide with"},
+    {type:"fb",s:"{1}",a:["부러워하다"],opts:["부딪히다","부러워하다","뵈다","뵙다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to envy, to be jealous of"},
+    {type:"fb",s:"{1}",a:["부러지다"],opts:["뵙다","부딪히다","부러지다","뵈다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to break, to snap"},
+    {type:"fb",s:"어떤 {1}에서 일하세요?",a:["부문"],opts:["복숭아","볶음","볶음밥","부문"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Which sector do you work in?"}
   ]
 };
 

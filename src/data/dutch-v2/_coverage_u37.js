@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 37.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U37 = {
   id:"duv2_u37_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -10,17 +10,17 @@ const COVERAGE_U37 = {
     {type:"match",pairs:[{trg:"aanspreken",src:"to address / to appeal to"},{trg:"accentueren",src:"to accentuate / to emphasize"},{trg:"de aansluiting",src:"the connection / the link"},{trg:"baten",src:"to benefit / to help"}]},
     {type:"match",pairs:[{trg:"aanmaken",src:"to create / to light (a fire)"},{trg:"het arrangement",src:"the arrangement / the package deal"},{trg:"de activatie",src:"the activation"},{trg:"het bamboe",src:"bamboo"}]},
     {type:"match",pairs:[{trg:"de bananenschil",src:"the banana peel"},{trg:"de antenne",src:"the antenna"},{trg:"de ballon",src:"the balloon"},{trg:"de aquaria",src:"aquariums (plural)"},{trg:"het amfibie",src:"the amphibian"},{trg:"afspelen",src:"to play (media) / to take place"}]},
-    {type:"fb",s:"{1}",a:["aandringen"],opts:["beheren","aangeven","aandringen","beheersen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to insist / to urge"},
-    {type:"fb",s:"{1}",a:["beheersen"],opts:["beheersen","aandringen","beheren","aangeven"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to master / to control"},
-    {type:"fb",s:"{1}",a:["beheren"],opts:["beheren","aandringen","beheersen","aangeven"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to manage / to administer"},
-    {type:"fb",s:"{1}",a:["aangeven"],opts:["beheersen","beheren","aangeven","aandringen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to indicate / to declare"},
-    {type:"fb",s:"{1}",a:["afraden"],opts:["beheersen","beheren","afraden","aandringen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to advise against"},
-    {type:"fb",s:"{1}",a:["aanwijzen"],opts:["beheersen","beheren","aanwijzen","aandringen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to point out / to appoint"},
-    {type:"fb",s:"{1}",a:["afwachten"],opts:["beheersen","beheren","afwachten","aandringen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to wait and see"},
-    {type:"fb",s:"{1}",a:["allang"],opts:["allang","de afwijking","aandringen","beheersen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"for a long time already"},
-    {type:"fb",s:"{1}",a:["alom"],opts:["alom","de afwijking","aandringen","beheersen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"everywhere / universally"},
-    {type:"fb",s:"{1}",a:["aanduiden"],opts:["aanduiden","aandringen","beheersen","beheren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to indicate / to designate"},
-    {type:"fb",s:"{1}",a:["aanspreken"],opts:["aandringen","beheersen","beheren","aanspreken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to address / to appeal to"}
+    {type:"fb",s:"{1}",a:["aandringen"],opts:["aandringen","beheersen","beheren","aangeven"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to insist / to urge"},
+    {type:"fb",s:"{1}",a:["beheersen"],opts:["aangeven","beheersen","aandringen","beheren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to master / to control"},
+    {type:"fb",s:"{1}",a:["beheren"],opts:["beheersen","aangeven","beheren","aandringen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to manage / to administer"},
+    {type:"fb",s:"Kun je je voorkeur {1}?",a:["aangeven"],opts:["aandringen","beheersen","beheren","aangeven"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you indicate your preference?"},
+    {type:"fb",s:"{1}",a:["afraden"],opts:["afraden","aandringen","beheersen","beheren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to advise against"},
+    {type:"fb",s:"Kun je de weg {1}?",a:["aanwijzen"],opts:["beheren","aanwijzen","aandringen","beheersen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you point out the way?"},
+    {type:"fb",s:"We moeten het resultaat {1}.",a:["afwachten"],opts:["beheersen","beheren","afwachten","aandringen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We must wait for the result."},
+    {type:"fb",s:"Ik weet dat {1}.",a:["allang"],opts:["de afwijking","aandringen","beheersen","allang"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I have known that for a long time."},
+    {type:"fb",s:"Hij is {1} bekend in de stad.",a:["alom"],opts:["alom","de afwijking","aandringen","beheersen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He is universally known in the city."},
+    {type:"fb",s:"{1}",a:["aanduiden"],opts:["beheren","aanduiden","aandringen","beheersen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to indicate / to designate"},
+    {type:"fb",s:"{1}",a:["aanspreken"],opts:["beheersen","beheren","aanspreken","aandringen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to address / to appeal to"}
   ]
 };
 

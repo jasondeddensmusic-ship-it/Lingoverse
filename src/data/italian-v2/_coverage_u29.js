@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 29.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U29 = {
   id:"itv2_u29_coverage_review", title:"Ripasso: copertura lessicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,23 +9,23 @@ const COVERAGE_U29 = {
     {type:"match",pairs:[{trg:"il rinforzo positivo",src:"positive reinforcement"},{trg:"la sindrome dell'impostore",src:"impostor syndrome"},{trg:"la concentrazione",src:"the concentration / focus"},{trg:"il problem-solving",src:"the problem-solving"}]},
     {type:"match",pairs:[{trg:"la frustrazione",src:"the frustration"},{trg:"la gestione delle emozioni",src:"the emotion management"},{trg:"la competenza sociale",src:"the social competence"},{trg:"la vulnerabilita",src:"the vulnerability"}]},
     {type:"match",pairs:[{trg:"la ricaduta",src:"the relapse"},{trg:"l'elaborazione del lutto",src:"the grief processing"},{trg:"lo sviluppo personale",src:"the personal development"}]},
-    {type:"fb",s:"{1}",a:["l'abitudine"],opts:["la leadership situazionale","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the habit"},
-    {type:"fb",s:"{1}",a:["sopravvalutare"],opts:["il capro espiatorio","l'effetto spettatore","sopravvalutare","l'abitudine"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to overestimate"},
-    {type:"fb",s:"{1}",a:["l'inconscio"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'inconscio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the unconscious"},
-    {type:"fb",s:"{1}",a:["l'empatia"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'empatia"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the empathy"},
-    {type:"fb",s:"{1}",a:["l'ansia"],opts:["l'ansia","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the anxiety"},
-    {type:"fb",s:"{1}",a:["l'autostima"],opts:["l'effetto spettatore","l'autostima","l'abitudine","il capro espiatorio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the self-esteem"},
-    {type:"fb",s:"{1}",a:["l'equilibrio"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'equilibrio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the balance / equilibrium"},
-    {type:"fb",s:"{1}",a:["l'attaccamento"],opts:["il capro espiatorio","l'effetto spettatore","l'attaccamento","l'abitudine"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the attachment"},
-    {type:"fb",s:"{1}",a:["l'influenza"],opts:["l'influenza","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the influence"},
-    {type:"fb",s:"{1}",a:["l'ascolto"],opts:["l'effetto spettatore","l'ascolto","l'abitudine","il capro espiatorio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the listening"},
-    {type:"fb",s:"{1}",a:["significare"],opts:["l'abitudine","sopravvalutare","il capro espiatorio","significare"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to mean / to signify"},
-    {type:"fb",s:"{1}",a:["l'emozione"],opts:["il capro espiatorio","l'effetto spettatore","l'emozione","l'abitudine"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the emotion"},
-    {type:"fb",s:"{1}",a:["commuovere"],opts:["il capro espiatorio","commuovere","l'abitudine","sopravvalutare"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to move (emotionally)"},
-    {type:"fb",s:"{1}",a:["plasmare"],opts:["plasmare","l'abitudine","sopravvalutare","il capro espiatorio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to shape (metaphorically)"},
-    {type:"fb",s:"{1}",a:["l'attaccamento"],opts:["il capro espiatorio","l'effetto spettatore","l'attaccamento","l'abitudine"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the attachment"},
-    {type:"fb",s:"{1}",a:["l'empatia"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'empatia"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the empathy"},
-    {type:"fb",s:"{1}",a:["l'inconscio"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'inconscio"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the unconscious"}
+    {type:"fb",s:"{1}",a:["l'abitudine"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","la leadership situazionale"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the habit"},
+    {type:"fb",s:"{1}",a:["sopravvalutare"],opts:["l'effetto spettatore","sopravvalutare","l'abitudine","il capro espiatorio"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to overestimate"},
+    {type:"fb",s:"Molte paure risiedono nel{1}.",a:["l'inconscio"],opts:["il capro espiatorio","l'effetto spettatore","l'inconscio","l'abitudine"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Many fears reside in {1}."},
+    {type:"fb",s:"{1}",a:["l'empatia"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'empatia"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the empathy"},
+    {type:"fb",s:"{1}",a:["l'ansia"],opts:["l'ansia","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the anxiety"},
+    {type:"fb",s:"{1}",a:["l'autostima"],opts:["l'effetto spettatore","l'autostima","l'abitudine","il capro espiatorio"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the self-esteem"},
+    {type:"fb",s:"{1}",a:["l'equilibrio"],opts:["il capro espiatorio","l'effetto spettatore","l'equilibrio","l'abitudine"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the balance / equilibrium"},
+    {type:"fb",s:"{1}",a:["l'attaccamento"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'attaccamento"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the attachment"},
+    {type:"fb",s:"{1}",a:["l'influenza"],opts:["l'influenza","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the influence"},
+    {type:"fb",s:"{1}",a:["l'ascolto"],opts:["l'effetto spettatore","l'ascolto","l'abitudine","il capro espiatorio"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the listening"},
+    {type:"fb",s:"{1}",a:["significare"],opts:["sopravvalutare","il capro espiatorio","significare","l'abitudine"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to mean / to signify"},
+    {type:"fb",s:"{1}",a:["l'emozione"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'emozione"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the emotion"},
+    {type:"fb",s:"{1}",a:["commuovere"],opts:["commuovere","l'abitudine","sopravvalutare","il capro espiatorio"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to move (emotionally)"},
+    {type:"fb",s:"{1}",a:["plasmare"],opts:["il capro espiatorio","plasmare","l'abitudine","sopravvalutare"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to shape (metaphorically)"},
+    {type:"fb",s:"{1}",a:["l'attaccamento"],opts:["il capro espiatorio","l'effetto spettatore","l'attaccamento","l'abitudine"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the attachment"},
+    {type:"fb",s:"{1}",a:["l'empatia"],opts:["l'abitudine","il capro espiatorio","l'effetto spettatore","l'empatia"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the empathy"},
+    {type:"fb",s:"{1}",a:["l'inconscio"],opts:["l'inconscio","l'abitudine","il capro espiatorio","l'effetto spettatore"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the unconscious"}
   ]
 };
 

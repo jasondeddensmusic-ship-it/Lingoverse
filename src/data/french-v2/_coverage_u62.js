@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 62.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U62 = {
   id:"frv2_u62_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -11,16 +11,16 @@ const COVERAGE_U62 = {
     {type:"match",pairs:[{trg:"le préalable",src:"the prerequisite, the precondition"},{trg:"la matrice",src:"the matrix, the template"},{trg:"la prémisse",src:"the premise"},{trg:"la rigueur",src:"the rigor, the strictness"}]},
     {type:"match",pairs:[{trg:"la réciprocité",src:"the reciprocity"},{trg:"la rétrospective",src:"the retrospective, the review"},{trg:"la quintessence",src:"the quintessence, the purest form"},{trg:"le rayonnement",src:"the influence, the radiance"}]},
     {type:"match",pairs:[{trg:"la pérennité",src:"the permanence, the durability"},{trg:"la remise en question",src:"the questioning, the re-evaluation"},{trg:"le bilan",src:"the assessment, the stock-taking"},{trg:"l'avenir",src:"the future"}]},
-    {type:"fb",s:"{1}",a:["coulisser"],opts:["coulisser","désosser","extasier","léser"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to slide (in a groove)"},
-    {type:"fb",s:"{1}",a:["désosser"],opts:["coulisser","extasier","léser","désosser"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to bone (remove bones from meat)"},
-    {type:"fb",s:"{1}",a:["extasier"],opts:["désosser","léser","extasier","coulisser"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to go into ecstasy, to be thrilled"},
-    {type:"fb",s:"{1}",a:["léser"],opts:["léser","coulisser","désosser","extasier"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to harm, to wrong (someone's rights)"},
-    {type:"fb",s:"{1}",a:["lettrer"],opts:["extasier","lettrer","coulisser","désosser"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to letter, to inscribe letters on"},
-    {type:"fb",s:"{1}",a:["bisquer"],opts:["désosser","extasier","bisquer","coulisser"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be annoyed, to fume"},
-    {type:"fb",s:"{1}",a:["s'insurger"],opts:["s'insurger","coulisser","désosser","extasier"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to rebel, to protest strongly"},
-    {type:"fb",s:"{1}",a:["récuser"],opts:["récuser","coulisser","désosser","extasier"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to challenge, to reject (a judge)"},
-    {type:"fb",s:"{1}",a:["l'organigramme"],opts:["la résignation","la hiérarchie","le dispositif","l'organigramme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the organizational chart"},
-    {type:"fb",s:"{1}",a:["l'échéance"],opts:["l'échéance","la résignation","l'organigramme","la hiérarchie"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the deadline, the due date"}
+    {type:"fb",s:"{1}",a:["coulisser"],opts:["coulisser","désosser","extasier","léser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to slide (in a groove)"},
+    {type:"fb",s:"{1}",a:["désosser"],opts:["léser","désosser","coulisser","extasier"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to bone (remove bones from meat)"},
+    {type:"fb",s:"{1}",a:["extasier"],opts:["désosser","léser","extasier","coulisser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to go into ecstasy, to be thrilled"},
+    {type:"fb",s:"{1}",a:["léser"],opts:["coulisser","désosser","extasier","léser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to harm, to wrong (someone's rights)"},
+    {type:"fb",s:"{1}",a:["lettrer"],opts:["lettrer","coulisser","désosser","extasier"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to letter, to inscribe letters on"},
+    {type:"fb",s:"Ça le fait {1} de me voir réussir.",a:["bisquer"],opts:["extasier","bisquer","coulisser","désosser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It makes him fume to see me succeed."},
+    {type:"fb",s:"{1}",a:["s'insurger"],opts:["désosser","extasier","s'insurger","coulisser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to rebel, to protest strongly"},
+    {type:"fb",s:"{1}",a:["récuser"],opts:["coulisser","désosser","extasier","récuser"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to challenge, to reject (a judge)"},
+    {type:"fb",s:"{1}",a:["l'organigramme"],opts:["l'organigramme","la résignation","la hiérarchie","le dispositif"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the organizational chart"},
+    {type:"fb",s:"{1}",a:["l'échéance"],opts:["la hiérarchie","l'échéance","la résignation","l'organigramme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the deadline, the due date"}
   ]
 };
 

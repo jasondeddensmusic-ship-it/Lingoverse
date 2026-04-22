@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 66.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U66 = {
   id:"kov2_u66_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -20,18 +20,18 @@ const COVERAGE_U66 = {
     {type:"match",pairs:[{trg:"신고하다",src:"to report (to authorities)"},{trg:"신기하다",src:"to be amazing, to be fascinating"},{trg:"신념",src:"belief, conviction"},{trg:"신랑",src:"groom, bridegroom"}]},
     {type:"match",pairs:[{trg:"신분",src:"social status, identity"},{trg:"신비",src:"mystery, mysteriousness"},{trg:"신사",src:"gentleman"},{trg:"신설",src:"newly established, new installation"}]},
     {type:"match",pairs:[{trg:"신세",src:"one's lot in life, indebtedness"},{trg:"신세대",src:"new generation"},{trg:"신속하다",src:"to be swift, to be prompt"}]},
-    {type:"fb",s:"{1}",a:["수입되다"],opts:["수입되다","숨기다","숨지다","스치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be imported"},
-    {type:"fb",s:"{1}",a:["수입품"],opts:["수입품","수표","수험생","수화기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"imported goods"},
-    {type:"fb",s:"{1}",a:["수표"],opts:["수화기","수표","수입품","수험생"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"check (bank)"},
-    {type:"fb",s:"{1}",a:["수험생"],opts:["수표","수화기","수험생","수입품"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"exam candidate, test-taker"},
-    {type:"fb",s:"{1}",a:["수화기"],opts:["수입품","수표","수험생","수화기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"telephone receiver"},
-    {type:"fb",s:"{1}",a:["수저"],opts:["수험생","수저","수입품","수표"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"spoon and chopsticks"},
-    {type:"fb",s:"{1}",a:["수천"],opts:["수험생","수천","수입품","수표"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thousands, several thousand"},
-    {type:"fb",s:"{1}",a:["수컷"],opts:["수표","수험생","수컷","수입품"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"male animal"},
-    {type:"fb",s:"{1}",a:["숙녀"],opts:["수표","수험생","숙녀","수입품"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"lady, gentlewoman"},
-    {type:"fb",s:"{1}",a:["순간적"],opts:["수표","수험생","순간적","수입품"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"momentary, instantaneous"},
-    {type:"fb",s:"{1}",a:["술자리"],opts:["수입품","수표","수험생","술자리"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"drinking gathering"},
-    {type:"fb",s:"{1}",a:["숨기다"],opts:["수입되다","숨지다","스치다","숨기다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to hide, to conceal"}
+    {type:"fb",s:"{1}",a:["수입되다"],opts:["수입되다","숨기다","숨지다","스치다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be imported"},
+    {type:"fb",s:"이 가게는 {1}만 파나 봐.",a:["수입품"],opts:["수화기","수입품","수표","수험생"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This store seems to sell only {1}."},
+    {type:"fb",s:"{1}로 결제할 수 있나요?",a:["수표"],opts:["수험생","수화기","수표","수입품"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can I pay by check?"},
+    {type:"fb",s:"{1}이라 요즘 많이 바쁘지?",a:["수험생"],opts:["수입품","수표","수화기","수험생"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You must be very busy since you are an exam candidate?"},
+    {type:"fb",s:"{1}를 들었는데 아무 소리도 안 나.",a:["수화기"],opts:["수화기","수입품","수표","수험생"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I picked up the receiver but there is no sound."},
+    {type:"fb",s:"{1} 좀 가져다줄래?",a:["수저"],opts:["수험생","수저","수입품","수표"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you bring some spoon-and-chopstick sets?"},
+    {type:"fb",s:"{1}",a:["수천"],opts:["수표","수험생","수천","수입품"],hint:"Type the target-language form. Meaning shown below.",sSrc:"thousands, several thousand"},
+    {type:"fb",s:"이 강아지는 {1}이에요?",a:["수컷"],opts:["수입품","수표","수험생","수컷"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this puppy a male?"},
+    {type:"fb",s:"저분은 정말 {1} 같아.",a:["숙녀"],opts:["숙녀","수입품","수표","수험생"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That person really seems like a lady."},
+    {type:"fb",s:"그건 {1}인 판단이었어요.",a:["순간적"],opts:["수험생","순간적","수입품","수표"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That was a momentary judgment."},
+    {type:"fb",s:"오늘 저녁에 {1}가 있어.",a:["술자리"],opts:["수표","수험생","술자리","수입품"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There is a {1} tonight."},
+    {type:"fb",s:"{1}",a:["숨기다"],opts:["수입되다","숨지다","스치다","숨기다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to hide, to conceal"}
   ]
 };
 

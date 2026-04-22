@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 69.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U69 = {
   id:"spv2_u69_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -10,9 +10,9 @@ const COVERAGE_U69 = {
     {type:"match",pairs:[{trg:"la impureza",src:"the impurity"},{trg:"la interconexión",src:"the interconnection"},{trg:"el jefe",src:"the boss / chief"},{trg:"la detonación",src:"the detonation / explosion"}]},
     {type:"match",pairs:[{trg:"la contragolpe",src:"the counterattack / backlash"},{trg:"la complementación",src:"the complementation / supplementation"},{trg:"la congregación",src:"the congregation / gathering"},{trg:"la imposibilidad",src:"the impossibility"}]},
     {type:"match",pairs:[{trg:"la lengua indígena",src:"the indigenous language"},{trg:"la mención",src:"the mention / special mention"},{trg:"el etcétera",src:"the et cetera / and so on"},{trg:"la cabeza",src:"the head (also: mind, leader)"},{trg:"la cítara",src:"the zither / cithara"},{trg:"la literatura popular",src:"the folk literature"}]},
-    {type:"fb",s:"{1}",a:["lerdo"],opts:["la evangelización","el descendimiento","el acorazado","lerdo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"slow-witted / clumsy"},
-    {type:"fb",s:"{1}",a:["incomprendido"],opts:["incomprendido","la evangelización","el descendimiento","el acorazado"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"misunderstood"},
-    {type:"fb",s:"{1}",a:["distrital"],opts:["el acorazado","distrital","la evangelización","el descendimiento"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"district-level (adj)"}
+    {type:"fb",s:"No seas {1}, la respuesta es obvia.",a:["lerdo"],opts:["lerdo","la evangelización","el descendimiento","el acorazado"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do not be slow, the answer is obvious."},
+    {type:"fb",s:"Muchos artistas se sienten {1}s en su época.",a:["incomprendido"],opts:["el acorazado","incomprendido","la evangelización","el descendimiento"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Many artists feel {1} in their time."},
+    {type:"fb",s:"Las elecciones {1}es determinan la representación local.",a:["distrital"],opts:["el descendimiento","el acorazado","distrital","la evangelización"],hint:"Type the target-language form. Meaning shown below.",sSrc:"District elections determine local representation."}
   ]
 };
 

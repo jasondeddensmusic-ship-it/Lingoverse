@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 57.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U57 = {
   id:"kov2_u57_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -22,19 +22,19 @@ const COVERAGE_U57 = {
     {type:"match",pairs:[{trg:"마중",src:"going to meet/greet someone arriving"},{trg:"마찰",src:"friction, conflict"},{trg:"마크",src:"mark, logo, symbol"},{trg:"막내",src:"youngest child, youngest member"}]},
     {type:"match",pairs:[{trg:"막상",src:"actually, when it comes down to it"},{trg:"만만하다",src:"to be easy, to be a pushover, to be manageable"},{trg:"만세",src:"hooray, long live; ten thousand years"},{trg:"만족",src:"satisfaction, contentment"}]},
     {type:"match",pairs:[{trg:"만족스럽다",src:"to be satisfactory, to be pleasing"},{trg:"만족하다",src:"to be satisfied, to be content"},{trg:"만화가",src:"cartoonist, manga/manhwa artist"},{trg:"말기",src:"terminal stage, end stage, last period"},{trg:"말다",src:"to stop doing, to cease; to roll up"},{trg:"말리다",src:"to stop someone, to dissuade; to dry"}]},
-    {type:"fb",s:"{1}",a:["등록증"],opts:["디스크","디자이너","등록증","등산로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"registration card, certificate"},
-    {type:"fb",s:"{1}",a:["등록하다"],opts:["때리다","등록하다","따라다니다","따라오다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to register, to enroll"},
-    {type:"fb",s:"{1}",a:["등산로"],opts:["디스크","디자이너","등산로","등록증"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"hiking trail, mountain path"},
-    {type:"fb",s:"{1}",a:["디스크"],opts:["등록증","등산로","디자이너","디스크"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"disk; slipped disc"},
-    {type:"fb",s:"{1}",a:["디자이너"],opts:["디스크","디자이너","등록증","등산로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"designer"},
-    {type:"fb",s:"{1}",a:["디자인"],opts:["등록증","등산로","디스크","디자인"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"design"},
-    {type:"fb",s:"{1}",a:["따라다니다"],opts:["등록하다","따라오다","때리다","따라다니다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to follow around, to tag along"},
-    {type:"fb",s:"{1}",a:["따라오다"],opts:["때리다","따라오다","등록하다","따라다니다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to follow (toward speaker), to keep up"},
-    {type:"fb",s:"{1}",a:["따로따로"],opts:["막상","따로따로","때때로","때로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"separately, individually, each on their own"},
-    {type:"fb",s:"{1}",a:["따스하다"],opts:["마땅하다","따스하다","떠들썩하다","뚱뚱하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be warm, to be cozy"},
-    {type:"fb",s:"{1}",a:["딸아이"],opts:["등록증","등산로","디스크","딸아이"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"daughter (informal/affectionate)"},
-    {type:"fb",s:"{1}",a:["땅바닥"],opts:["디스크","땅바닥","등록증","등산로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ground surface, floor (outdoor)"},
-    {type:"fb",s:"{1}",a:["땅속"],opts:["디스크","땅속","등록증","등산로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"underground, beneath the ground"}
+    {type:"fb",s:"{1}을 가져왔어?",a:["등록증"],opts:["등록증","등산로","디스크","디자이너"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you bring your registration card?"},
+    {type:"fb",s:"{1}",a:["등록하다"],opts:["때리다","등록하다","따라다니다","따라오다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to register, to enroll"},
+    {type:"fb",s:"이 {1}는 초보자에게 적합해?",a:["등산로"],opts:["디스크","디자이너","등산로","등록증"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this hiking trail suitable for beginners?"},
+    {type:"fb",s:"허리 {1}가 있어서 조심해야 해.",a:["디스크"],opts:["등록증","등산로","디자이너","디스크"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I have a slipped disc so I need to be careful."},
+    {type:"fb",s:"유명한 {1}가 이 옷을 만들었어.",a:["디자이너"],opts:["디자이너","등록증","등산로","디스크"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A famous {1} made these clothes."},
+    {type:"fb",s:"이 제품의 {1}이 마음에 들어.",a:["디자인"],opts:["디스크","디자인","등록증","등산로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I like the {1} of this product."},
+    {type:"fb",s:"{1}",a:["따라다니다"],opts:["따라오다","때리다","따라다니다","등록하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to follow around, to tag along"},
+    {type:"fb",s:"{1}",a:["따라오다"],opts:["등록하다","따라다니다","때리다","따라오다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to follow (toward speaker), to keep up"},
+    {type:"fb",s:"계산은 {1} 해 주세요.",a:["따로따로"],opts:["따로따로","때때로","때로","막상"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please ring us up separately."},
+    {type:"fb",s:"봄바람이 {1}.",a:["따스하다"],opts:["마땅하다","따스하다","떠들썩하다","뚱뚱하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The spring breeze is warm."},
+    {type:"fb",s:"{1}가 올해 초등학교에 들어갔어.",a:["딸아이"],opts:["등산로","디스크","딸아이","등록증"],hint:"Type the target-language form. Meaning shown below.",sSrc:"My daughter entered elementary school this year."},
+    {type:"fb",s:"{1}에 앉지 마, 옷 더러워져.",a:["땅바닥"],opts:["등록증","등산로","디스크","땅바닥"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do not sit on the ground, your clothes will get dirty."},
+    {type:"fb",s:"고구마는 {1}에서 자라.",a:["땅속"],opts:["땅속","등록증","등산로","디스크"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Sweet potatoes grow underground."}
   ]
 };
 

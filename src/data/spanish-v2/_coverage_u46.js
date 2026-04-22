@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 46.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U46 = {
   id:"spv2_u46_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,17 +18,17 @@ const COVERAGE_U46 = {
     {type:"match",pairs:[{trg:"el apocalipsis",src:"the apocalypse"},{trg:"la biblia",src:"the Bible"},{trg:"el acondicionamiento",src:"the conditioning / outfitting"},{trg:"la actualización",src:"the update / upgrade"}]},
     {type:"match",pairs:[{trg:"la asignación",src:"the allocation / allowance"},{trg:"el cese",src:"the cessation / dismissal"},{trg:"la clasificación",src:"the classification / rankings"},{trg:"el casting",src:"the casting (audition)"}]},
     {type:"match",pairs:[{trg:"la cabida",src:"the capacity / room"},{trg:"el córner",src:"the corner kick"},{trg:"la conveniencia",src:"the convenience / suitability"},{trg:"la competitividad",src:"the competitiveness"},{trg:"corporativo",src:"corporate"}]},
-    {type:"fb",s:"{1}",a:["adyacente"],opts:["arancelario","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"adjacent / next to"},
-    {type:"fb",s:"{1}",a:["cónico"],opts:["anglosajón","arancelario","cónico","adyacente"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"conical / cone-shaped"},
-    {type:"fb",s:"{1}",a:["anglosajón"],opts:["adyacente","cónico","arancelario","anglosajón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Anglo-Saxon"},
-    {type:"fb",s:"{1}",a:["arancelario"],opts:["arancelario","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"tariff-related"},
-    {type:"fb",s:"{1}",a:["comarcal"],opts:["anglosajón","comarcal","adyacente","cónico"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"regional / district-level"},
-    {type:"fb",s:"{1}",a:["creíble"],opts:["adyacente","cónico","anglosajón","creíble"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"credible / believable"},
-    {type:"fb",s:"{1}",a:["admirable"],opts:["cónico","anglosajón","admirable","adyacente"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"admirable / praiseworthy"},
-    {type:"fb",s:"{1}",a:["angelical"],opts:["anglosajón","angelical","adyacente","cónico"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"angelic"},
-    {type:"fb",s:"{1}",a:["apuesto"],opts:["apuesto","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"handsome / good-looking"},
-    {type:"fb",s:"{1}",a:["arbitrario"],opts:["arbitrario","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"arbitrary"},
-    {type:"fb",s:"{1}",a:["armonioso"],opts:["cónico","anglosajón","armonioso","adyacente"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"harmonious / well-balanced"}
+    {type:"fb",s:"El parque es {1} al centro comercial.",a:["adyacente"],opts:["adyacente","cónico","anglosajón","arancelario"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The park is adjacent to the shopping center."},
+    {type:"fb",s:"La torre tiene un tejado {1} muy elegante.",a:["cónico"],opts:["arancelario","cónico","adyacente","anglosajón"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The tower has a very elegant conical roof."},
+    {type:"fb",s:"{1}",a:["anglosajón"],opts:["cónico","arancelario","anglosajón","adyacente"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Anglo-Saxon"},
+    {type:"fb",s:"{1}",a:["arancelario"],opts:["adyacente","cónico","anglosajón","arancelario"],hint:"Type the target-language form. Meaning shown below.",sSrc:"tariff-related"},
+    {type:"fb",s:"La carretera {1} conecta los pueblos de la zona.",a:["comarcal"],opts:["comarcal","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The regional road connects the villages in the area."},
+    {type:"fb",s:"Su historia no era nada {1}.",a:["creíble"],opts:["anglosajón","creíble","adyacente","cónico"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His story was not at all credible."},
+    {type:"fb",s:"Su paciencia con los niños es {1}.",a:["admirable"],opts:["cónico","anglosajón","admirable","adyacente"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His patience with children is admirable."},
+    {type:"fb",s:"Tiene una voz {1} que emociona a todos.",a:["angelical"],opts:["adyacente","cónico","anglosajón","angelical"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She has an {1} voice that moves everyone."},
+    {type:"fb",s:"De joven era muy {1}.",a:["apuesto"],opts:["apuesto","adyacente","cónico","anglosajón"],hint:"Type the target-language form. Meaning shown below.",sSrc:"As a young man he was very handsome."},
+    {type:"fb",s:"{1}",a:["arbitrario"],opts:["anglosajón","arbitrario","adyacente","cónico"],hint:"Type the target-language form. Meaning shown below.",sSrc:"arbitrary"},
+    {type:"fb",s:"Los colores de la fachada son muy {1}s.",a:["armonioso"],opts:["cónico","anglosajón","armonioso","adyacente"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The colors of the facade are very harmonious."}
   ]
 };
 

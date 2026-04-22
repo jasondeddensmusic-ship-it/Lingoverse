@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 65.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U65 = {
   id:"kov2_u65_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,19 +18,19 @@ const COVERAGE_U65 = {
     {type:"match",pairs:[{trg:"수년",src:"several years"},{trg:"수단",src:"means, method, measure"},{trg:"수돗물",src:"tap water"},{trg:"수동적",src:"passive"}]},
     {type:"match",pairs:[{trg:"수리하다",src:"to repair, to fix"},{trg:"수만",src:"tens of thousands"},{trg:"수면",src:"sleep, water surface"},{trg:"수백",src:"hundreds"}]},
     {type:"match",pairs:[{trg:"수석",src:"top, chief, first place"},{trg:"수시로",src:"at any time, frequently, from time to time"},{trg:"수십",src:"tens, dozens"},{trg:"수없이",src:"countless times, innumerably"},{trg:"수염",src:"beard, mustache, whiskers"}]},
-    {type:"fb",s:"{1}",a:["세다"],opts:["소화하다","세다","소문나다","소요되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to count, to be strong"},
-    {type:"fb",s:"{1}",a:["세로"],opts:["셈","세로","세미나","세제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"vertical, lengthwise"},
-    {type:"fb",s:"{1}",a:["세미나"],opts:["세로","세제","셈","세미나"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"seminar"},
-    {type:"fb",s:"{1}",a:["세상에"],opts:["세상에","세다","세로","세미나"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"oh my, goodness (exclamation)"},
-    {type:"fb",s:"{1}",a:["세제"],opts:["셈","세제","세로","세미나"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"detergent, cleaning agent"},
-    {type:"fb",s:"{1}",a:["섹시하다"],opts:["세로","세미나","섹시하다","세다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be sexy"},
-    {type:"fb",s:"{1}",a:["소규모"],opts:["세로","세미나","세제","소규모"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"small-scale"},
-    {type:"fb",s:"{1}",a:["소나기"],opts:["세로","세미나","세제","소나기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"sudden rain shower"},
-    {type:"fb",s:"{1}",a:["소망"],opts:["소망","세로","세미나","세제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"wish, hope, aspiration"},
-    {type:"fb",s:"{1}",a:["소매"],opts:["세제","소매","세로","세미나"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"retail, sleeve"},
-    {type:"fb",s:"{1}",a:["소문나다"],opts:["소화하다","소문나다","세다","소요되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to become rumored, to be talked about"},
-    {type:"fb",s:"{1}",a:["소설가"],opts:["세로","세미나","세제","소설가"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"novelist"},
-    {type:"fb",s:"{1}",a:["소속"],opts:["소속","세로","세미나","세제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"affiliation, belonging"}
+    {type:"fb",s:"{1}",a:["세다"],opts:["세다","소문나다","소요되다","소화하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to count, to be strong"},
+    {type:"fb",s:"{1}로 놓을까, 가로로 놓을까?",a:["세로"],opts:["셈","세로","세미나","세제"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Should we place it vertically or horizontally?"},
+    {type:"fb",s:"내일 {1}에 참석할 거야?",a:["세미나"],opts:["세제","셈","세미나","세로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are you attending the {1} tomorrow?"},
+    {type:"fb",s:"{1}, 이게 진짜야?",a:["세상에"],opts:["세다","세로","세미나","세상에"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Oh my, is this real?"},
+    {type:"fb",s:"{1}가 다 떨어졌어.",a:["세제"],opts:["세제","세로","세미나","셈"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We ran out of detergent."},
+    {type:"fb",s:"그 배우가 정말 {1}.",a:["섹시하다"],opts:["세미나","섹시하다","세다","세로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That actor is really sexy."},
+    {type:"fb",s:"{1} 모임을 열까?",a:["소규모"],opts:["세미나","세제","소규모","세로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Should we hold a {1} gathering?"},
+    {type:"fb",s:"{1}가 올 것 같아.",a:["소나기"],opts:["세로","세미나","세제","소나기"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It looks like a rain shower is coming."},
+    {type:"fb",s:"새해 {1}이 뭐야?",a:["소망"],opts:["소망","세로","세미나","세제"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What is your New Year wish?"},
+    {type:"fb",s:"{1} 가격이 얼마야?",a:["소매"],opts:["세제","소매","세로","세미나"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What is the retail price?"},
+    {type:"fb",s:"{1}",a:["소문나다"],opts:["소요되다","소화하다","소문나다","세다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to become rumored, to be talked about"},
+    {type:"fb",s:"유명한 {1}가 되고 싶어.",a:["소설가"],opts:["세로","세미나","세제","소설가"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I want to become a famous {1}."},
+    {type:"fb",s:"어디에 {1}되어 있어요?",a:["소속"],opts:["소속","세로","세미나","세제"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Which organization do you belong to?"}
   ]
 };
 

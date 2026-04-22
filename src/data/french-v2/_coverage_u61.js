@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 61.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U61 = {
   id:"frv2_u61_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,16 +13,16 @@ const COVERAGE_U61 = {
     {type:"match",pairs:[{trg:"l'héliotrope",src:"the heliotrope"},{trg:"le lobby",src:"the lobby (entrance hall)"},{trg:"le graffiti",src:"the graffiti"},{trg:"la marqueterie",src:"marquetry, inlaid woodwork"}]},
     {type:"match",pairs:[{trg:"ajoutée",src:"added (in 'valeur ajoutée')"},{trg:"approfondi",src:"thorough, in-depth"},{trg:"gradé",src:"ranked, holding a rank"},{trg:"la force",src:"the force, the strength (adj: forced)"}]},
     {type:"match",pairs:[{trg:"l'adduction",src:"the supply (water), the conveyance"},{trg:"l'interconnexion",src:"the interconnection"},{trg:"le taux",src:"the rate, the level"}]},
-    {type:"fb",s:"{1}",a:["licencieux"],opts:["mafieux","attardé","licencieux","licencié"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"licentious, lewd"},
-    {type:"fb",s:"{1}",a:["licencié"],opts:["attardé","licencié","licencieux","mafieux"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"dismissed, laid off (or degree holder)"},
-    {type:"fb",s:"{1}",a:["mafieux"],opts:["licencié","attardé","mafieux","licencieux"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"mafia-related, corrupt"},
-    {type:"fb",s:"{1}",a:["attardé"],opts:["attardé","licencieux","licencié","mafieux"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"delayed, backward"},
-    {type:"fb",s:"{1}",a:["l'incrustation"],opts:["la bordure","la griffe","la cleptomanie","l'incrustation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the inlay, the overlay"},
-    {type:"fb",s:"{1}",a:["l'héliotrope"],opts:["la cleptomanie","l'héliotrope","la bordure","la griffe"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the heliotrope"},
-    {type:"fb",s:"{1}",a:["ajoutée"],opts:["licencié","mafieux","ajoutée","licencieux"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"added (in 'valeur ajoutée')"},
-    {type:"fb",s:"{1}",a:["approfondi"],opts:["mafieux","approfondi","licencieux","licencié"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thorough, in-depth"},
-    {type:"fb",s:"{1}",a:["gradé"],opts:["gradé","licencieux","licencié","mafieux"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ranked, holding a rank"},
-    {type:"fb",s:"{1}",a:["l'adduction"],opts:["la bordure","la griffe","la cleptomanie","l'adduction"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the supply (water), the conveyance"}
+    {type:"fb",s:"Ce roman du XVIIIe siècle est très {1}.",a:["licencieux"],opts:["licencieux","licencié","mafieux","attardé"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This 18th-century novel is very licentious."},
+    {type:"fb",s:"Il a été {1} après la restructuration.",a:["licencié"],opts:["attardé","licencié","licencieux","mafieux"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He was laid off after the restructuring."},
+    {type:"fb",s:"{1}",a:["mafieux"],opts:["licencié","attardé","mafieux","licencieux"],hint:"Type the target-language form. Meaning shown below.",sSrc:"mafia-related, corrupt"},
+    {type:"fb",s:"Le projet est {1} par des problèmes techniques.",a:["attardé"],opts:["licencieux","licencié","mafieux","attardé"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The project is delayed by technical problems."},
+    {type:"fb",s:"{1}",a:["l'incrustation"],opts:["l'incrustation","la bordure","la griffe","la cleptomanie"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the inlay, the overlay"},
+    {type:"fb",s:"{1}",a:["l'héliotrope"],opts:["la cleptomanie","l'héliotrope","la bordure","la griffe"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the heliotrope"},
+    {type:"fb",s:"La valeur {1} de ce service est évidente.",a:["ajoutée"],opts:["licencié","mafieux","ajoutée","licencieux"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The added value of this service is obvious."},
+    {type:"fb",s:"Une analyse {1}e est nécessaire.",a:["approfondi"],opts:["licencieux","licencié","mafieux","approfondi"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A thorough analysis is necessary."},
+    {type:"fb",s:"Le {1} a donné l'ordre d'évacuer.",a:["gradé"],opts:["gradé","licencieux","licencié","mafieux"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The officer gave the order to evacuate."},
+    {type:"fb",s:"{1}",a:["l'adduction"],opts:["la cleptomanie","l'adduction","la bordure","la griffe"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the supply (water), the conveyance"}
   ]
 };
 

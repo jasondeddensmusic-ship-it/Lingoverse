@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 48.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U48 = {
   id:"kov2_u48_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -16,18 +16,18 @@ const COVERAGE_U48 = {
     {type:"match",pairs:[{trg:"그저",src:"just; merely; simply"},{trg:"그토록",src:"so much; to that extent"},{trg:"국가적",src:"national; state-level"},{trg:"국내선",src:"domestic flight/route"}]},
     {type:"match",pairs:[{trg:"국립",src:"national; state-run; government-established"},{trg:"국민적",src:"popular (nationwide); of the people"},{trg:"국사",src:"national history"},{trg:"국어",src:"national language; Korean language"}]},
     {type:"match",pairs:[{trg:"국제선",src:"international flight/route"},{trg:"국제적",src:"international; global"},{trg:"각기",src:"each; individually; respectively"},{trg:"개개인",src:"each individual person"}]},
-    {type:"fb",s:"{1}",a:["개성"],opts:["개성","결과적","공통적","검토"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"individuality; personality; uniqueness"},
-    {type:"fb",s:"{1}",a:["근거하다"],opts:["갈다","근거하다","공통되다","관계되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be based on (evidence)"},
-    {type:"fb",s:"{1}",a:["결과적"],opts:["공통적","검토","결과적","개성"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"consequential; as a result"},
-    {type:"fb",s:"{1}",a:["공통되다"],opts:["갈다","공통되다","근거하다","관계되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be common; to be shared"},
-    {type:"fb",s:"{1}",a:["공통적"],opts:["결과적","검토","공통적","개성"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"common; shared; mutual"},
-    {type:"fb",s:"{1}",a:["관계되다"],opts:["갈다","관계되다","근거하다","공통되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be related; to be connected to"},
-    {type:"fb",s:"{1}",a:["관계없이"],opts:["깊숙이","가만","가령","관계없이"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"regardless of; irrespective of"},
-    {type:"fb",s:"{1}",a:["검토"],opts:["공통적","검토","개성","결과적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"review; examination; scrutiny"},
-    {type:"fb",s:"{1}",a:["갈다"],opts:["관계되다","갈다","근거하다","공통되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to grind; to sharpen; to replace"},
-    {type:"fb",s:"{1}",a:["깁다"],opts:["공통되다","관계되다","깁다","근거하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to scratch; to scrape"},
-    {type:"fb",s:"{1}",a:["걷다"],opts:["걷다","근거하다","공통되다","관계되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to walk"},
-    {type:"fb",s:"{1}",a:["괽히다"],opts:["공통되다","관계되다","괽히다","근거하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to bend; to bow"}
+    {type:"fb",s:"{1}이 강한 사람이네요.",a:["개성"],opts:["개성","결과적","공통적","검토"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That person has strong individuality."},
+    {type:"fb",s:"{1}",a:["근거하다"],opts:["갈다","근거하다","공통되다","관계되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be based on (evidence)"},
+    {type:"fb",s:"{1}으로 성공했어요.",a:["결과적"],opts:["공통적","검토","결과적","개성"],hint:"Type the target-language form. Meaning shown below.",sSrc:"As a result, it was successful."},
+    {type:"fb",s:"{1}",a:["공통되다"],opts:["근거하다","관계되다","갈다","공통되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be common; to be shared"},
+    {type:"fb",s:"{1}인 목표가 있어요.",a:["공통적"],opts:["공통적","개성","결과적","검토"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We have a common goal."},
+    {type:"fb",s:"{1}",a:["관계되다"],opts:["갈다","관계되다","근거하다","공통되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be related; to be connected to"},
+    {type:"fb",s:"나이에 {1} 누구나 참여할 수 있어요.",a:["관계없이"],opts:["가만","가령","관계없이","깊숙이"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Anyone can participate regardless of age."},
+    {type:"fb",s:"계획서를 {1}해 주세요.",a:["검토"],opts:["개성","결과적","공통적","검토"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please review the plan."},
+    {type:"fb",s:"{1}",a:["갈다"],opts:["갈다","근거하다","공통되다","관계되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to grind; to sharpen; to replace"},
+    {type:"fb",s:"{1}",a:["깁다"],opts:["관계되다","깁다","근거하다","공통되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to scratch; to scrape"},
+    {type:"fb",s:"{1}",a:["걷다"],opts:["공통되다","관계되다","걷다","근거하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to walk"},
+    {type:"fb",s:"{1}",a:["괽히다"],opts:["근거하다","공통되다","관계되다","괽히다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to bend; to bow"}
   ]
 };
 

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 58.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U58 = {
   id:"kov2_u58_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -19,18 +19,18 @@ const COVERAGE_U58 = {
     {type:"match",pairs:[{trg:"고속버스",src:"express bus"},{trg:"고요하다",src:"to be quiet, to be serene"},{trg:"고작",src:"at most, merely, only"},{trg:"고전",src:"classic (literature/art); a hard fight"}]},
     {type:"match",pairs:[{trg:"고집",src:"stubbornness, obstinacy"},{trg:"고집하다",src:"to insist on, to be stubborn about"},{trg:"고춧가루",src:"red pepper flakes, chili powder"},{trg:"고통스럽다",src:"to be painful, to be agonizing"}]},
     {type:"match",pairs:[{trg:"고함",src:"a shout, a yell"},{trg:"곧다",src:"to be straight, to be upright"},{trg:"곧바로",src:"right away, immediately, straight"},{trg:"곧잘",src:"fairly often, quite well"},{trg:"곧장",src:"straight ahead, directly"},{trg:"골",src:"goal (in sports)"}]},
-    {type:"fb",s:"{1}",a:["개방되다"],opts:["개방되다","개방하다","개선되다","거두다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be opened, to be liberalized"},
-    {type:"fb",s:"{1}",a:["개방하다"],opts:["개방하다","개방되다","개선되다","거두다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to open up, to liberalize"},
-    {type:"fb",s:"{1}",a:["개별"],opts:["건넌방","개별","개성","거품"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"individual, separate"},
-    {type:"fb",s:"{1}",a:["개선되다"],opts:["거두다","개선되다","개방되다","개방하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be improved, to get better"},
-    {type:"fb",s:"{1}",a:["개성"],opts:["개성","개별","거품","건넌방"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"individuality, personality"},
-    {type:"fb",s:"{1}",a:["거대하다"],opts:["게으르다","거대하다","거칠다","걱정스럽다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be enormous, to be colossal"},
-    {type:"fb",s:"{1}",a:["거두다"],opts:["개방되다","개방하다","개선되다","거두다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to harvest, to collect, to achieve"},
-    {type:"fb",s:"{1}",a:["거들다"],opts:["개방되다","개방하다","개선되다","거들다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to help, to assist, to lend a hand"},
-    {type:"fb",s:"{1}",a:["거듭"],opts:["거듭","고작","곧바로","곧잘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"repeatedly, again and again"},
-    {type:"fb",s:"{1}",a:["거칠다"],opts:["거대하다","걱정스럽다","게으르다","거칠다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be rough, to be coarse"},
-    {type:"fb",s:"{1}",a:["거품"],opts:["건넌방","거품","개별","개성"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"foam, bubbles, froth"},
-    {type:"fb",s:"{1}",a:["걱정되다"],opts:["개선되다","걱정되다","개방되다","개방하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be worried, to feel anxious"}
+    {type:"fb",s:"{1}",a:["개방되다"],opts:["개방되다","개방하다","개선되다","거두다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be opened, to be liberalized"},
+    {type:"fb",s:"{1}",a:["개방하다"],opts:["거두다","개방하다","개방되다","개선되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to open up, to liberalize"},
+    {type:"fb",s:"{1} 면담이 필요해요.",a:["개별"],opts:["거품","건넌방","개별","개성"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Individual interviews are needed."},
+    {type:"fb",s:"{1}",a:["개선되다"],opts:["개방되다","개방하다","거두다","개선되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be improved, to get better"},
+    {type:"fb",s:"그 가수는 {1}이 강해.",a:["개성"],opts:["개성","개별","거품","건넌방"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That singer has a strong personality."},
+    {type:"fb",s:"{1}",a:["거대하다"],opts:["게으르다","거대하다","거칠다","걱정스럽다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be enormous, to be colossal"},
+    {type:"fb",s:"{1}",a:["거두다"],opts:["개방하다","개선되다","거두다","개방되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to harvest, to collect, to achieve"},
+    {type:"fb",s:"{1}",a:["거들다"],opts:["개방되다","개방하다","개선되다","거들다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to help, to assist, to lend a hand"},
+    {type:"fb",s:"같은 실수를 {1}하면 안 돼요.",a:["거듭"],opts:["거듭","고작","곧바로","곧잘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You should not repeat the same mistake."},
+    {type:"fb",s:"{1}",a:["거칠다"],opts:["게으르다","거칠다","거대하다","걱정스럽다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be rough, to be coarse"},
+    {type:"fb",s:"맥주에 {1}이 너무 많아.",a:["거품"],opts:["개성","건넌방","거품","개별"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There is too much foam on the beer."},
+    {type:"fb",s:"{1}",a:["걱정되다"],opts:["개방되다","개방하다","개선되다","걱정되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be worried, to feel anxious"}
   ]
 };
 

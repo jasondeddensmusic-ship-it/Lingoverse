@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 42.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U42 = {
   id:"kov2_u42_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -16,20 +16,20 @@ const COVERAGE_U42 = {
     {type:"match",pairs:[{trg:"이마",src:"forehead"},{trg:"입술",src:"lips"},{trg:"혀",src:"tongue"},{trg:"온몸",src:"whole body, entire body"}]},
     {type:"match",pairs:[{trg:"움직이다",src:"to move, to budge"},{trg:"올라오다",src:"to come up, to rise"},{trg:"옮기다",src:"to move (something), to transfer"},{trg:"부딪치다",src:"to bump into, to collide with"}]},
     {type:"match",pairs:[{trg:"차다",src:"to kick, to be full"},{trg:"킬로그램",src:"kilogram"},{trg:"킬로미터",src:"kilometer"},{trg:"톤",src:"ton"}]},
-    {type:"fb",s:"{1}",a:["연구하다"],opts:["이용되다","연구하다","조사하다","참가하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to research, to study"},
-    {type:"fb",s:"{1}",a:["조사하다"],opts:["이용되다","조사하다","연구하다","참가하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to investigate, to survey"},
-    {type:"fb",s:"{1}",a:["프로그램"],opts:["역사가","프로그램","프로","주제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"program"},
-    {type:"fb",s:"{1}",a:["프로"],opts:["역사가","프로","프로그램","주제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"pro, professional"},
-    {type:"fb",s:"{1}",a:["주제"],opts:["역사가","주제","프로그램","프로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"topic, subject, theme"},
-    {type:"fb",s:"{1}",a:["역사가"],opts:["프로","주제","역사가","프로그램"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"historian"},
-    {type:"fb",s:"{1}",a:["역사적"],opts:["주제","역사적","프로그램","프로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"historic, historical"},
-    {type:"fb",s:"{1}",a:["예전"],opts:["주제","예전","프로그램","프로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the old days, formerly"},
-    {type:"fb",s:"{1}",a:["오래전"],opts:["프로그램","프로","주제","오래전"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"a long time ago"},
-    {type:"fb",s:"{1}",a:["오랜"],opts:["프로그램","오랜","연구하다","조사하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"long (duration), long-standing"},
-    {type:"fb",s:"{1}",a:["이날"],opts:["주제","이날","프로그램","프로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"this day, that day"},
-    {type:"fb",s:"{1}",a:["지난해"],opts:["프로그램","프로","주제","지난해"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"last year"},
-    {type:"fb",s:"{1}",a:["한동안"],opts:["한동안","프로그램","프로","주제"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"for a while, for some time"},
-    {type:"fb",s:"{1}",a:["올림픽"],opts:["프로","주제","올림픽","프로그램"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Olympics"}
+    {type:"fb",s:"{1}",a:["연구하다"],opts:["연구하다","조사하다","참가하다","이용되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to research, to study"},
+    {type:"fb",s:"{1}",a:["조사하다"],opts:["이용되다","조사하다","연구하다","참가하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to investigate, to survey"},
+    {type:"fb",s:"이 {1} 재미있어요?",a:["프로그램"],opts:["주제","역사가","프로그램","프로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this {1} fun?"},
+    {type:"fb",s:"그 선수는 진짜 {1}예요.",a:["프로"],opts:["프로그램","주제","역사가","프로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That player is a real pro."},
+    {type:"fb",s:"오늘 토론 {1}가 뭐예요?",a:["주제"],opts:["주제","프로그램","프로","역사가"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What's today's discussion topic?"},
+    {type:"fb",s:"유명한 {1}를 알아요?",a:["역사가"],opts:["주제","역사가","프로그램","프로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you know a famous {1}?"},
+    {type:"fb",s:"이곳은 {1}으로 중요한 곳이에요?",a:["역사적"],opts:["프로","주제","역사적","프로그램"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this a historically important place?"},
+    {type:"fb",s:"{1}에 여기 살았어요?",a:["예전"],opts:["프로그램","프로","주제","예전"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you live here before?"},
+    {type:"fb",s:"{1}",a:["오래전"],opts:["오래전","프로그램","프로","주제"],hint:"Type the target-language form. Meaning shown below.",sSrc:"a long time ago"},
+    {type:"fb",s:"{1} 친구를 만났어요?",a:["오랜"],opts:["프로그램","오랜","연구하다","조사하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you meet an old friend?"},
+    {type:"fb",s:"{1}은 특별한 날이에요?",a:["이날"],opts:["프로","주제","이날","프로그램"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this day special?"},
+    {type:"fb",s:"{1}에 비해 매출이 올랐어요?",a:["지난해"],opts:["프로그램","프로","주제","지난해"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did sales increase compared to {1}?"},
+    {type:"fb",s:"{1} 연락이 없었죠?",a:["한동안"],opts:["한동안","프로그램","프로","주제"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You were out of touch for a while, right?"},
+    {type:"fb",s:"한국에서 {1}이 열린 적 있어요?",a:["올림픽"],opts:["주제","올림픽","프로그램","프로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Has the {1} ever been held in Korea?"}
   ]
 };
 

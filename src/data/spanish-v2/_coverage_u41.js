@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 41.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U41 = {
   id:"spv2_u41_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,17 +13,17 @@ const COVERAGE_U41 = {
     {type:"match",pairs:[{trg:"la armónica",src:"the harmonica"},{trg:"la carreta",src:"the cart / wagon"},{trg:"la calza",src:"the stocking / wedge"},{trg:"la cajetilla",src:"the cigarette pack"}]},
     {type:"match",pairs:[{trg:"a la moda",src:"fashionably / in style"},{trg:"anteayer",src:"the day before yesterday"},{trg:"como que no",src:"as if not / yeah right"},{trg:"el antecedente",src:"the precedent / background"}]},
     {type:"match",pairs:[{trg:"el antecesor",src:"the predecessor / ancestor"},{trg:"la barbaridad",src:"the outrage / enormous amount"},{trg:"la bofetada",src:"the slap (in the face)"},{trg:"autosuficiente",src:"self-sufficient"},{trg:"confortable",src:"comfortable"}]},
-    {type:"fb",s:"{1}",a:["abaniquear"],opts:["adinerar","apostillar","abaniquear","abocar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to fan"},
-    {type:"fb",s:"{1}",a:["abocar"],opts:["abaniquear","adinerar","apostillar","abocar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to pour / to lead to"},
-    {type:"fb",s:"{1}",a:["adinerar"],opts:["abaniquear","abocar","apostillar","adinerar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to make wealthy"},
-    {type:"fb",s:"{1}",a:["apostillar"],opts:["apostillar","abaniquear","abocar","adinerar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to annotate / to add a note"},
-    {type:"fb",s:"{1}",a:["ausentar"],opts:["ausentar","abaniquear","abocar","adinerar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to leave / to absent oneself"},
-    {type:"fb",s:"{1}",a:["avezar"],opts:["abocar","adinerar","avezar","abaniquear"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to accustom / to train"},
-    {type:"fb",s:"{1}",a:["bombear"],opts:["abaniquear","abocar","adinerar","bombear"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to pump"},
-    {type:"fb",s:"{1}",a:["canonizar"],opts:["abocar","adinerar","canonizar","abaniquear"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to canonize"},
-    {type:"fb",s:"{1}",a:["civilizar"],opts:["abocar","adinerar","civilizar","abaniquear"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to civilize"},
-    {type:"fb",s:"{1}",a:["carbónico"],opts:["el bungaló","la cabecera","el arcón","carbónico"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"carbonic"},
-    {type:"fb",s:"{1}",a:["anteayer"],opts:["la cabecera","el arcón","anteayer","el bungaló"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the day before yesterday"}
+    {type:"fb",s:"{1}",a:["abaniquear"],opts:["abaniquear","abocar","adinerar","apostillar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to fan"},
+    {type:"fb",s:"{1}",a:["abocar"],opts:["apostillar","abocar","abaniquear","adinerar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to pour / to lead to"},
+    {type:"fb",s:"{1}",a:["adinerar"],opts:["abocar","apostillar","adinerar","abaniquear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to make wealthy"},
+    {type:"fb",s:"Permíteme {1} un detalle importante.",a:["apostillar"],opts:["abaniquear","abocar","adinerar","apostillar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Allow me to add a note about an important detail."},
+    {type:"fb",s:"Me voy a {1} unos minutos de la reunión.",a:["ausentar"],opts:["ausentar","abaniquear","abocar","adinerar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I am going to step out of the meeting for a few minutes."},
+    {type:"fb",s:"{1}",a:["avezar"],opts:["adinerar","avezar","abaniquear","abocar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to accustom / to train"},
+    {type:"fb",s:"Hay que {1} el agua del pozo.",a:["bombear"],opts:["abocar","adinerar","bombear","abaniquear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need {1} the water from the well."},
+    {type:"fb",s:"{1}",a:["canonizar"],opts:["abaniquear","abocar","adinerar","canonizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to canonize"},
+    {type:"fb",s:"Los romanos {1}on gran parte de Europa.",a:["civilizar"],opts:["civilizar","abaniquear","abocar","adinerar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The Romans civilized a large part of Europe."},
+    {type:"fb",s:"El agua con gas contiene ácido {1}.",a:["carbónico"],opts:["el arcón","carbónico","el bungaló","la cabecera"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Sparkling water contains {1} acid."},
+    {type:"fb",s:"{1}",a:["anteayer"],opts:["la cabecera","el arcón","anteayer","el bungaló"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the day before yesterday"}
   ]
 };
 

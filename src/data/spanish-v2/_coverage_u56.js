@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 56.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U56 = {
   id:"spv2_u56_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -10,14 +10,14 @@ const COVERAGE_U56 = {
     {type:"match",pairs:[{trg:"glaciar",src:"glacial / glacier-related"},{trg:"la directora ejecutiva",src:"the CEO / executive director (f)"},{trg:"la directora de ventas",src:"the sales director (f)"},{trg:"el director de producción",src:"the production director"}]},
     {type:"match",pairs:[{trg:"la educación física",src:"the physical education"},{trg:"la definición",src:"the definition"},{trg:"la complementación",src:"the complementing / completion"},{trg:"hacendoso",src:"hardworking / industrious (at home)"}]},
     {type:"match",pairs:[{trg:"el apuñalamiento",src:"the stabbing"},{trg:"la cuchillada",src:"the stab wound / knife slash"},{trg:"fulminar",src:"to strike down / to annihilate"},{trg:"el degenerado",src:"the degenerate (person)"},{trg:"el garrote",src:"the club / garrote (execution device)"}]},
-    {type:"fb",s:"{1}",a:["grecorromano"],opts:["fluido","glaciar","hacendoso","grecorromano"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Greco-Roman"},
-    {type:"fb",s:"{1}",a:["fluido"],opts:["fluido","grecorromano","glaciar","hacendoso"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fluid / flowing"},
-    {type:"fb",s:"{1}",a:["glaciar"],opts:["glaciar","grecorromano","fluido","hacendoso"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"glacial / glacier-related"},
-    {type:"fb",s:"{1}",a:["hacendoso"],opts:["glaciar","hacendoso","grecorromano","fluido"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"hardworking / industrious (at home)"},
-    {type:"fb",s:"{1}",a:["fulminar"],opts:["la Edad Antigua","el homínido","grecorromano","fulminar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to strike down / to annihilate"},
-    {type:"fb",s:"{1}",a:["feudal"],opts:["feudal","grecorromano","fluido","glaciar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"feudal"},
-    {type:"fb",s:"{1}",a:["fluctuante"],opts:["fluido","glaciar","fluctuante","grecorromano"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fluctuating"},
-    {type:"fb",s:"{1}",a:["fustigar"],opts:["el homínido","grecorromano","fustigar","la Edad Antigua"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to whip / to lash / to criticize harshly"}
+    {type:"fb",s:"{1}",a:["grecorromano"],opts:["grecorromano","fluido","glaciar","hacendoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Greco-Roman"},
+    {type:"fb",s:"Su español es muy {1}.",a:["fluido"],opts:["hacendoso","fluido","grecorromano","glaciar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His Spanish is very fluid."},
+    {type:"fb",s:"La era {1} transformó el paisaje de Europa.",a:["glaciar"],opts:["fluido","hacendoso","glaciar","grecorromano"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The ice age transformed the landscape of Europe."},
+    {type:"fb",s:"{1}",a:["hacendoso"],opts:["grecorromano","fluido","glaciar","hacendoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"hardworking / industrious (at home)"},
+    {type:"fb",s:"{1}",a:["fulminar"],opts:["fulminar","la Edad Antigua","el homínido","grecorromano"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to strike down / to annihilate"},
+    {type:"fb",s:"El sistema {1} dominó Europa durante siglos.",a:["feudal"],opts:["glaciar","feudal","grecorromano","fluido"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} system dominated Europe for centuries."},
+    {type:"fb",s:"Los precios del petróleo son muy {1}s.",a:["fluctuante"],opts:["fluido","glaciar","fluctuante","grecorromano"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Oil prices are very {1}."},
+    {type:"fb",s:"{1}",a:["fustigar"],opts:["la Edad Antigua","el homínido","grecorromano","fustigar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to whip / to lash / to criticize harshly"}
   ]
 };
 

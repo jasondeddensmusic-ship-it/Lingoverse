@@ -26,6 +26,10 @@ const LANGS = ['german','korean','dutch','french','spanish','italian','japanese'
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
+// --regenerate: refresh existing coverage lesson files even when the current
+// validator reports zero PP64/PP67 gaps. Used to propagate generator
+// improvements (e.g. contextual fb sentences) to already-coverage-patched units.
+const regenerate = args.includes('--regenerate');
 const onlyLangs = args.filter(a => !a.startsWith('--'));
 const targets = onlyLangs.length ? onlyLangs : LANGS;
 
@@ -49,8 +53,32 @@ async function buildViolationMap(reports) {
   for (const lang of Object.keys(reports)) {
     const pp64 = reports[lang].violations.pp64;
     const pp67 = reports[lang].violations.pp67 || [];
-    if ((!pp64 || pp64.length === 0) && pp67.length === 0) continue;
+    // If --regenerate is set, scan existing coverage files and treat every
+    // card CURRENTLY in those files as still-untested so we rebuild them.
     const untested = {};
+    if (regenerate) {
+      const units = await loadUnits(lang);
+      for (const u of units) {
+        const unitId = 'u' + String(u.n).padStart(2, '0');
+        for (const l of u.lessons || []) {
+          if (!l) continue;
+          if (!/_coverage_review$/.test(String(l.id || ''))) continue;
+          // This lesson is a prior-gen coverage file; gather its match-pair
+          // trgs as the "untested" set.
+          for (const s of (l.steps || [])) {
+            if (s && s.type === 'match' && Array.isArray(s.pairs)) {
+              for (const p of s.pairs) {
+                if (p.trg) {
+                  if (!untested[unitId]) untested[unitId] = new Set();
+                  untested[unitId].add(p.trg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    if (!regenerate && (!pp64 || pp64.length === 0) && pp67.length === 0) continue;
     for (const v of pp64 || []) {
       if (!untested[v.unit]) untested[v.unit] = new Set();
       untested[v.unit].add(v.trg);
@@ -76,7 +104,16 @@ async function buildViolationMap(reports) {
             unitTeach++;
             const trg = s.trg || s.nl;
             if (!trg) continue;
-            const rec = { trg, src: s.src || s.en || '', pos: s.pos || null };
+            // Capture `example` + `exampleSrc` so the coverage generator can
+            // produce a contextual sentence for fb steps instead of a bare
+            // `{1}` placeholder.
+            const rec = {
+              trg,
+              src: s.src || s.en || '',
+              pos: s.pos || null,
+              example: s.example || '',
+              exampleSrc: s.exampleSrc || s.exampleEn || '',
+            };
             if (targetSet.has(trg)) cards.push(rec);
             else extras.push(rec);
           }
@@ -94,6 +131,42 @@ function chunk(arr, n) {
   const out = [];
   for (let i = 0; i < arr.length; i += n) out.push(arr.slice(i, i + n));
   return out;
+}
+
+// Pull the first conversational turn out of an `example` string. Teach-card
+// examples are typically formatted `A: <turn>\nB: <turn>\n…`. We use the
+// A turn because it's usually the one that introduces the target word.
+function firstTurn(example) {
+  if (!example) return '';
+  const line = String(example).split(/\r?\n/)[0] || '';
+  return line.replace(/^[A-Z]:\s*/, '').trim();
+}
+
+// Build the contextual fb sentence: take the card's first example turn,
+// replace the trg surface form with `{1}`. If the trg doesn't appear in the
+// example verbatim, fall back to a minimal `{1}` with the English cue in
+// sSrc. The goal is pedagogical richness (learner sees a real sentence)
+// without compromising the validator checks.
+function buildContextualSentence(card) {
+  const trgTurn = firstTurn(card.example);
+  const srcTurn = firstTurn(card.exampleSrc);
+  if (trgTurn && srcTurn) {
+    // Find the trg verbatim in the target-language turn.
+    const idx = trgTurn.indexOf(card.trg);
+    if (idx >= 0) {
+      const s    = trgTurn.slice(0, idx) + '{1}' + trgTurn.slice(idx + card.trg.length);
+      // Best-effort replacement on the source side too — if the src appears
+      // verbatim, blank it too; otherwise show the full English sentence.
+      let sSrc = srcTurn;
+      if (card.src) {
+        const sidx = srcTurn.toLowerCase().indexOf(card.src.toLowerCase());
+        if (sidx >= 0) sSrc = srcTurn.slice(0, sidx) + '{1}' + srcTurn.slice(sidx + card.src.length);
+      }
+      return { s, sSrc };
+    }
+  }
+  // Fallback: minimal blank + English meaning as the cue.
+  return { s: '{1}', sSrc: card.src || '' };
 }
 
 // Escape a string for embedding in a double-quoted JS literal (using \n for
@@ -183,17 +256,20 @@ function buildLessonFile(lang, unitNumPadded, cards, extras = [], unitTeach = 0)
     const pool = sameClass.length >= 3 ? sameClass : cards.filter(x => x !== c);
     const distractors = pool.slice(0, 3).map(x => x.trg);
     const opts = [c.trg, ...distractors];
-    // Deterministic shuffle so correct answer isn't always index 0.
-    const hash = Array.from(c.trg).reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7);
-    const rotated = opts.slice(hash % opts.length).concat(opts.slice(0, hash % opts.length));
+    // Deterministic rotation so correct answer isn't always index 0. Aligns
+    // with pp8_position_fix: target index = i % opts.length.
+    const target = i % opts.length;
+    const rotated = opts.slice((opts.length - target) % opts.length).concat(opts.slice(0, (opts.length - target) % opts.length));
+    // Sentence: pull the card's first example turn if available and replace
+    // the trg with {1}. Fallback to a minimal `{1}` when no example exists.
+    const { s, sSrc } = buildContextualSentence(c);
     // Generic hint avoids leaking cognates (e.g. trg "l'habitat" / src "the
     // habitat" where the English gloss shares a surface word with the answer).
-    // sSrc already shows the source meaning to the learner — the hint adds
-    // pedagogical framing without repeating the gloss.
+    // sSrc provides the translation cue below the blank.
     stepsOut.push(
-      `{type:"fb",s:"{1}",a:[${jsStr(c.trg)}],opts:[${rotated.map(jsStr).join(',')}],` +
-      `hint:${jsStr('Type the target-language form. Check the translation below for the meaning.')},` +
-      `sSrc:${jsStr(c.src)}}`
+      `{type:"fb",s:${jsStr(s)},a:[${jsStr(c.trg)}],opts:[${rotated.map(jsStr).join(',')}],` +
+      `hint:${jsStr('Type the target-language form. Meaning shown below.')},` +
+      `sSrc:${jsStr(sSrc)}}`
     );
   }
 
@@ -217,7 +293,10 @@ export default ${varName};
 function patchUnitFile(unitFilePath, varName, filename) {
   const raw = fs.readFileSync(unitFilePath, 'utf8');
   if (raw.includes(varName)) {
-    // Already patched; skip.
+    // Already patched. In --regenerate mode that's fine: the unit file still
+    // imports the var, and we only need to overwrite the lesson file (not
+    // re-patch the unit). Signal back so the caller overwrites only the file.
+    if (regenerate) return { patched: 'already', reason: 'regenerate-file-only' };
     return { patched: false, reason: 'already-contains-var' };
   }
   const importLine = `import ${varName} from './${filename}';`;
@@ -342,16 +421,18 @@ for (const lang of targets) {
     const { body, varName, filename } = buildLessonFile(lang, numPadded, cards, extras, unitTeach);
     const lessonFile = path.join('src', 'data', `${lang}-v2`, filename);
     const patch = patchUnitFile(unitFile, varName, filename);
-    if (!patch.patched) {
+    if (!patch.patched && patch.patched !== 'already') {
       skipped.push({ lang, uid, reason: patch.reason, path: unitFile });
       continue;
     }
-    console.log(`  ${uid}: ${cards.length} untested + ${extras.length} extras, teach=${unitTeach} → ${filename}`);
+    console.log(`  ${uid}: ${cards.length} untested + ${extras.length} extras, teach=${unitTeach} → ${filename}${patch.patched === 'already' ? ' (regen)' : ''}`);
     if (apply) {
       fs.writeFileSync(lessonFile, body);
-      fs.writeFileSync(unitFile, patch.content);
+      if (patch.patched === true) {
+        fs.writeFileSync(unitFile, patch.content);
+        totalPatched++;
+      }
       totalFilesWritten++;
-      totalPatched++;
     }
   }
 }
