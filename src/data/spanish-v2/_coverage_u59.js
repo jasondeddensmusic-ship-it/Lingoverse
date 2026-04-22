@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 59.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U59 = {
   id:"spv2_u59_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -10,9 +10,9 @@ const COVERAGE_U59 = {
     {type:"match",pairs:[{trg:"la conjuntivitis",src:"conjunctivitis"},{trg:"el estiramiento",src:"the stretch / stretching"},{trg:"la absorción",src:"the absorption"},{trg:"la imposición",src:"the imposition / enforcement"}]},
     {type:"match",pairs:[{trg:"la fechoría",src:"the misdeed / wrongdoing"},{trg:"la invalidez",src:"the invalidity / disability"},{trg:"el causante",src:"the person responsible / originator"},{trg:"el hidrocarburo",src:"the hydrocarbon"}]},
     {type:"match",pairs:[{trg:"la dureza",src:"the hardness / toughness"},{trg:"la hilera",src:"the row / line"},{trg:"la inestabilidad",src:"the instability"}]},
-    {type:"fb",s:"{1}",a:["interrogar"],opts:["la directora ejecutiva","el jefe de producción","interrogar","el departamento de marketing"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to interrogate"},
-    {type:"fb",s:"{1}",a:["indagar"],opts:["el jefe de producción","indagar","el departamento de marketing","la directora ejecutiva"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to investigate / to inquire"},
-    {type:"fb",s:"{1}",a:["insular"],opts:["el jefe de producción","insular","el departamento de marketing","la directora ejecutiva"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"insular / island-related"}
+    {type:"fb",s:"La policía va a {1} al sospechoso.",a:["interrogar"],opts:["interrogar","el departamento de marketing","la directora ejecutiva","el jefe de producción"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The police are going {1} the suspect."},
+    {type:"fb",s:"El detective decidió {1} en el pasado del sospechoso.",a:["indagar"],opts:["el jefe de producción","indagar","el departamento de marketing","la directora ejecutiva"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The detective decided to investigate the suspect's past."},
+    {type:"fb",s:"El clima {1} es más suave que el continental.",a:["insular"],opts:["la directora ejecutiva","el jefe de producción","insular","el departamento de marketing"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The insular climate is milder than the continental one."}
   ]
 };
 

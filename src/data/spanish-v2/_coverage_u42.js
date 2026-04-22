@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 42.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U42 = {
   id:"spv2_u42_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -15,17 +15,17 @@ const COVERAGE_U42 = {
     {type:"match",pairs:[{trg:"el bocado",src:"the bite / morsel"},{trg:"la angélica",src:"the angelica (herb)"},{trg:"la biblia",src:"the bible"},{trg:"el bienaventurado",src:"the blessed / fortunate one"}]},
     {type:"match",pairs:[{trg:"la bolita",src:"the small ball / marble"},{trg:"la asamblea nacional",src:"the national assembly"},{trg:"la agencia de publicidad",src:"the advertising agency"},{trg:"la cola de caballo",src:"the ponytail / horsetail plant"}]},
     {type:"match",pairs:[{trg:"el color de pelo",src:"the hair color"},{trg:"el color de piel",src:"the skin color"},{trg:"la comunicación empresarial",src:"the corporate communication"},{trg:"la calza",src:"the stocking / wedge"},{trg:"la cartulina",src:"the card stock"},{trg:"la consistencia",src:"the consistency"}]},
-    {type:"fb",s:"{1}",a:["comarcal"],opts:["beneficioso","comarcal","asistencial","asociativo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"regional / district-level"},
-    {type:"fb",s:"{1}",a:["asistencial"],opts:["beneficioso","asistencial","comarcal","asociativo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"welfare / care-related"},
-    {type:"fb",s:"{1}",a:["asociativo"],opts:["beneficioso","asociativo","comarcal","asistencial"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"associative / community-based"},
-    {type:"fb",s:"{1}",a:["competer"],opts:["conminar","apoderar","competer","complacer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be the responsibility of"},
-    {type:"fb",s:"{1}",a:["complacer"],opts:["competer","conminar","apoderar","complacer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to please / to satisfy"},
-    {type:"fb",s:"{1}",a:["conminar"],opts:["conminar","competer","complacer","apoderar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to urge / to threaten with consequences"},
-    {type:"fb",s:"{1}",a:["beneficioso"],opts:["comarcal","asistencial","asociativo","beneficioso"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"beneficial"},
-    {type:"fb",s:"{1}",a:["báltico"],opts:["asociativo","báltico","comarcal","asistencial"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Baltic"},
-    {type:"fb",s:"{1}",a:["cantor"],opts:["asistencial","asociativo","cantor","comarcal"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"singing / singer (literary)"},
-    {type:"fb",s:"{1}",a:["afilador"],opts:["comarcal","asistencial","asociativo","afilador"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"knife-sharpening / sharp"},
-    {type:"fb",s:"{1}",a:["clavadista"],opts:["asociativo","clavadista","comarcal","asistencial"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"diver (from heights)"}
+    {type:"fb",s:"El hospital {1} atiende a toda la zona rural.",a:["comarcal"],opts:["comarcal","asistencial","asociativo","beneficioso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The district hospital serves the entire rural area."},
+    {type:"fb",s:"Los servicios {1}es del barrio son insuficientes.",a:["asistencial"],opts:["beneficioso","asistencial","comarcal","asociativo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The welfare services in the neighborhood are insufficient."},
+    {type:"fb",s:"El movimiento {1} es muy fuerte en este barrio.",a:["asociativo"],opts:["asistencial","beneficioso","asociativo","comarcal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The community association movement is very strong in this neighborhood."},
+    {type:"fb",s:"{1}",a:["competer"],opts:["complacer","conminar","apoderar","competer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be the responsibility of"},
+    {type:"fb",s:"{1}",a:["complacer"],opts:["complacer","competer","conminar","apoderar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to please / to satisfy"},
+    {type:"fb",s:"{1}",a:["conminar"],opts:["apoderar","conminar","competer","complacer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to urge / to threaten with consequences"},
+    {type:"fb",s:"El ejercicio es {1} para la salud mental.",a:["beneficioso"],opts:["asistencial","asociativo","beneficioso","comarcal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Exercise is {1} for mental health."},
+    {type:"fb",s:"Los países {1}s entraron en la UE en 2004.",a:["báltico"],opts:["comarcal","asistencial","asociativo","báltico"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} countries joined the EU in 2004."},
+    {type:"fb",s:"El pájaro {1} alegra las mañanas del jardín.",a:["cantor"],opts:["cantor","comarcal","asistencial","asociativo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The songbird brightens the garden mornings."},
+    {type:"fb",s:"¿Se oye la flauta del {1}?",a:["afilador"],opts:["asociativo","afilador","comarcal","asistencial"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Can you hear the knife sharpener's flute?"},
+    {type:"fb",s:"Los {1}s de Acapulco son mundialmente famosos.",a:["clavadista"],opts:["asistencial","asociativo","clavadista","comarcal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The Acapulco cliff divers are world-famous."}
   ]
 };
 

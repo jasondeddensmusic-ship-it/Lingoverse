@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 35.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U35 = {
   id:"kov2_u35_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,18 +18,18 @@ const COVERAGE_U35 = {
     {type:"match",pairs:[{trg:"내밀다",src:"to stick out, to extend"},{trg:"맞추다",src:"to match, to adjust, to assemble"},{trg:"끄다",src:"to insert, to put on, to wedge in"},{trg:"끓다",src:"to boil (intransitive)"}]},
     {type:"match",pairs:[{trg:"그램",src:"gram"},{trg:"가늘다",src:"to be thin, to be slender"},{trg:"굵다",src:"to be thick (round objects)"},{trg:"두껍다",src:"to be thick (flat objects)"}]},
     {type:"match",pairs:[{trg:"검다",src:"to be black"},{trg:"곱다",src:"to be fine, to be beautiful, to be smooth"},{trg:"가꾸다",src:"to cultivate, to tend, to care for"},{trg:"둘러보다",src:"to look around"}]},
-    {type:"fb",s:"{1}",a:["가스"],opts:["날개","가스","공기","그늘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"gas"},
-    {type:"fb",s:"{1}",a:["공기"],opts:["그늘","날개","공기","가스"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"air"},
-    {type:"fb",s:"{1}",a:["그늘"],opts:["날개","그늘","가스","공기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"shade, shadow"},
-    {type:"fb",s:"{1}",a:["날개"],opts:["그늘","날개","가스","공기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"wing"},
-    {type:"fb",s:"{1}",a:["농사"],opts:["공기","그늘","농사","가스"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"farming"},
-    {type:"fb",s:"{1}",a:["깊다"],opts:["가늘다","굵다","두껍다","깊다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be deep"},
-    {type:"fb",s:"{1}",a:["깊이"],opts:["가스","공기","그늘","깊이"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"deeply, depth"},
-    {type:"fb",s:"{1}",a:["높이"],opts:["가스","공기","그늘","높이"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"height"},
-    {type:"fb",s:"{1}",a:["가정"],opts:["가정","가스","공기","그늘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"home, household"},
-    {type:"fb",s:"{1}",a:["골목"],opts:["골목","가스","공기","그늘"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"alley"},
-    {type:"fb",s:"{1}",a:["도로"],opts:["그늘","도로","가스","공기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"road"},
-    {type:"fb",s:"{1}",a:["마을"],opts:["그늘","마을","가스","공기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"village"}
+    {type:"fb",s:"{1} 불을 끄셨어요?",a:["가스"],opts:["가스","공기","그늘","날개"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you turn off the {1}?"},
+    {type:"fb",s:"오늘 {1}가 좋네요.",a:["공기"],opts:["날개","공기","가스","그늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} is nice today."},
+    {type:"fb",s:"나무 {1} 아래에서 쉬자.",a:["그늘"],opts:["공기","날개","그늘","가스"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Let's rest under the tree shade."},
+    {type:"fb",s:"새가 {1}를 펼치고 날아갔어요.",a:["날개"],opts:["가스","공기","그늘","날개"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The bird spread its {1}s and flew away."},
+    {type:"fb",s:"할아버지가 {1}를 지으세요.",a:["농사"],opts:["농사","가스","공기","그늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"My grandfather farms."},
+    {type:"fb",s:"{1}",a:["깊다"],opts:["두껍다","깊다","가늘다","굵다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be deep"},
+    {type:"fb",s:"{1} 생각해 봐야 해요.",a:["깊이"],opts:["공기","그늘","깊이","가스"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to think about it deeply."},
+    {type:"fb",s:"이 산의 {1}가 얼마예요?",a:["높이"],opts:["가스","공기","그늘","높이"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How high is this mountain?"},
+    {type:"fb",s:"{1}에서 가장 중요한 것이 뭐예요?",a:["가정"],opts:["가정","가스","공기","그늘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What is most important in a household?"},
+    {type:"fb",s:"이 {1}에 맛집이 많아요.",a:["골목"],opts:["그늘","골목","가스","공기"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There are a lot of good restaurants in this {1}."},
+    {type:"fb",s:"이 {1}는 항상 막혀요.",a:["도로"],opts:["공기","그늘","도로","가스"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This {1} is always congested."},
+    {type:"fb",s:"이 {1}에는 사람이 몇 명이에요?",a:["마을"],opts:["가스","공기","그늘","마을"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How many people live in this {1}?"}
   ]
 };
 

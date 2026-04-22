@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 58.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U58 = {
   id:"spv2_u58_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -11,15 +11,15 @@ const COVERAGE_U58 = {
     {type:"match",pairs:[{trg:"hidrológico",src:"hydrological"},{trg:"el excremento",src:"the excrement"},{trg:"el acorazado",src:"the battleship / armored vehicle"},{trg:"destructor",src:"destructive / destroyer"}]},
     {type:"match",pairs:[{trg:"la base",src:"the base / basis / foundation"},{trg:"el apocalipsis",src:"the apocalypse"},{trg:"el carbonato",src:"the carbonate"},{trg:"como que no",src:"no way / as if not"}]},
     {type:"match",pairs:[{trg:"en casa",src:"at home"},{trg:"la cabeza",src:"the head"},{trg:"el día",src:"the day"},{trg:"cuanto",src:"how much / as much as"},{trg:"la etcétera",src:"the et cetera / and so on"}]},
-    {type:"fb",s:"{1}",a:["fragmentar"],opts:["fragmentar","el escaque","fraccionar","el descontrol"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to fragment / to break into pieces"},
-    {type:"fb",s:"{1}",a:["fraccionar"],opts:["el descontrol","fraccionar","el escaque","fragmentar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to divide into fractions / to split"},
-    {type:"fb",s:"{1}",a:["hidrológico"],opts:["fragmentar","fraccionar","hidrológico","el escaque"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"hydrological"},
-    {type:"fb",s:"{1}",a:["destructor"],opts:["destructor","el escaque","fragmentar","fraccionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"destructive / destroyer"},
-    {type:"fb",s:"{1}",a:["cuanto"],opts:["el escaque","fragmentar","fraccionar","cuanto"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"how much / as much as"},
-    {type:"fb",s:"{1}",a:["flexionar"],opts:["el escaque","fragmentar","fraccionar","flexionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to flex / to bend"},
-    {type:"fb",s:"{1}",a:["fruncir"],opts:["fruncir","el escaque","fragmentar","fraccionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to frown / to gather (fabric)"},
-    {type:"fb",s:"{1}",a:["finito"],opts:["finito","el escaque","fragmentar","fraccionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"finite / limited"},
-    {type:"fb",s:"{1}",a:["forrar"],opts:["el escaque","fragmentar","fraccionar","forrar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to line / to cover / to wrap"}
+    {type:"fb",s:"{1}",a:["fragmentar"],opts:["fragmentar","el escaque","fraccionar","el descontrol"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to fragment / to break into pieces"},
+    {type:"fb",s:"Decidieron {1} el pago en doce cuotas.",a:["fraccionar"],opts:["el descontrol","fraccionar","el escaque","fragmentar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They decided to split the payment into twelve installments."},
+    {type:"fb",s:"El plan {1} nacional gestiona los recursos de agua.",a:["hidrológico"],opts:["fragmentar","fraccionar","hidrológico","el escaque"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The national {1} plan manages water resources."},
+    {type:"fb",s:"El huracán fue enormemente {1}.",a:["destructor"],opts:["el escaque","fragmentar","fraccionar","destructor"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The hurricane was enormously destructive."},
+    {type:"fb",s:"{1}",a:["cuanto"],opts:["cuanto","el escaque","fragmentar","fraccionar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"how much / as much as"},
+    {type:"fb",s:"{1}",a:["flexionar"],opts:["fraccionar","flexionar","el escaque","fragmentar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to flex / to bend"},
+    {type:"fb",s:"{1}",a:["fruncir"],opts:["fragmentar","fraccionar","fruncir","el escaque"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to frown / to gather (fabric)"},
+    {type:"fb",s:"Los recursos naturales son {1}s.",a:["finito"],opts:["el escaque","fragmentar","fraccionar","finito"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Natural resources are finite."},
+    {type:"fb",s:"Hay que {1} los libros del colegio con plástico.",a:["forrar"],opts:["forrar","el escaque","fragmentar","fraccionar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to cover the school books with plastic."}
   ]
 };
 

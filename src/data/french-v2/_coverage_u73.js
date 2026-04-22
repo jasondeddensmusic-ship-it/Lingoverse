@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 73.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U73 = {
   id:"frv2_u73_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -10,16 +10,16 @@ const COVERAGE_U73 = {
     {type:"match",pairs:[{trg:"géométral",src:"geometric (true to scale)"},{trg:"l'eugénol",src:"eugenol"},{trg:"l'antirétroviral",src:"antiretroviral"},{trg:"le delirium",src:"delirium"}]},
     {type:"match",pairs:[{trg:"paternaliste",src:"paternalistic"},{trg:"le communiste",src:"communist"},{trg:"le particularisme",src:"particularism"},{trg:"l'affirmation",src:"assertion, claim"}]},
     {type:"match",pairs:[{trg:"la démocratisation",src:"democratization"},{trg:"le footballeur",src:"football player"},{trg:"l'interro",src:"test, quiz (school slang)"},{trg:"la micro-entreprise",src:"micro-enterprise"},{trg:"le grillage",src:"wire fence, mesh"}]},
-    {type:"fb",s:"{1}",a:["l'adolescence"],opts:["l'intériorisation","le pire","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"adolescence"},
-    {type:"fb",s:"{1}",a:["l'oral"],opts:["l'oral","l'adolescence","l'intériorisation","le pire"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"oral exam, spoken test"},
-    {type:"fb",s:"{1}",a:["l'incrustation"],opts:["l'adolescence","l'oral","l'intériorisation","l'incrustation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"inlay, encrustation"},
-    {type:"fb",s:"{1}",a:["géométral"],opts:["l'intériorisation","géométral","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"geometric (true to scale)"},
-    {type:"fb",s:"{1}",a:["l'eugénol"],opts:["l'intériorisation","l'eugénol","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"eugenol"},
-    {type:"fb",s:"{1}",a:["paternaliste"],opts:["l'intériorisation","paternaliste","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"paternalistic"},
-    {type:"fb",s:"{1}",a:["l'affirmation"],opts:["l'affirmation","l'adolescence","l'oral","l'intériorisation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"assertion, claim"},
-    {type:"fb",s:"{1}",a:["l'interro"],opts:["l'intériorisation","l'interro","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"test, quiz (school slang)"},
-    {type:"fb",s:"{1}",a:["nous-mêmes"],opts:["l'intériorisation","nous-mêmes","l'adolescence","l'oral"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ourselves"},
-    {type:"fb",s:"{1}",a:["l'ex"],opts:["l'adolescence","l'oral","l'intériorisation","l'ex"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ex (former partner)"}
+    {type:"fb",s:"{1}",a:["l'adolescence"],opts:["l'adolescence","l'oral","l'intériorisation","le pire"],hint:"Type the target-language form. Meaning shown below.",sSrc:"adolescence"},
+    {type:"fb",s:"{1}",a:["l'oral"],opts:["le pire","l'oral","l'adolescence","l'intériorisation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"oral exam, spoken test"},
+    {type:"fb",s:"{1}",a:["l'incrustation"],opts:["l'oral","l'intériorisation","l'incrustation","l'adolescence"],hint:"Type the target-language form. Meaning shown below.",sSrc:"inlay, encrustation"},
+    {type:"fb",s:"Le dessin {1} montre les dimensions exactes.",a:["géométral"],opts:["l'adolescence","l'oral","l'intériorisation","géométral"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The geometric drawing shows the exact dimensions."},
+    {type:"fb",s:"{1}",a:["l'eugénol"],opts:["l'eugénol","l'adolescence","l'oral","l'intériorisation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"eugenol"},
+    {type:"fb",s:"Cette politique {1} infantilise les citoyens.",a:["paternaliste"],opts:["l'intériorisation","paternaliste","l'adolescence","l'oral"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This {1} policy infantilizes citizens."},
+    {type:"fb",s:"{1}",a:["l'affirmation"],opts:["l'oral","l'intériorisation","l'affirmation","l'adolescence"],hint:"Type the target-language form. Meaning shown below.",sSrc:"assertion, claim"},
+    {type:"fb",s:"{1}",a:["l'interro"],opts:["l'adolescence","l'oral","l'intériorisation","l'interro"],hint:"Type the target-language form. Meaning shown below.",sSrc:"test, quiz (school slang)"},
+    {type:"fb",s:"Nous l'avons construit {1}.",a:["nous-mêmes"],opts:["nous-mêmes","l'adolescence","l'oral","l'intériorisation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We built it {1}."},
+    {type:"fb",s:"{1}",a:["l'ex"],opts:["l'intériorisation","l'ex","l'adolescence","l'oral"],hint:"Type the target-language form. Meaning shown below.",sSrc:"ex (former partner)"}
   ]
 };
 

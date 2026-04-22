@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 51.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U51 = {
   id:"duv2_u51_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -11,18 +11,18 @@ const COVERAGE_U51 = {
     {type:"match",pairs:[{trg:"de domheid",src:"the stupidity, the foolishness"},{trg:"de drijfveer",src:"the motivation, the driving force"},{trg:"fantasievol",src:"imaginative, creative"},{trg:"galant",src:"gallant, chivalrous"}]},
     {type:"match",pairs:[{trg:"de geaardheid",src:"the nature, the orientation"},{trg:"de dakakker",src:"the rooftop farm"},{trg:"het ecoplan",src:"the eco plan"},{trg:"de breuk",src:"the fracture, the break, the fraction"}]},
     {type:"match",pairs:[{trg:"de geldmiddel",src:"the funds, the financial resources"},{trg:"geldelijk",src:"financial, monetary"},{trg:"fysiologisch",src:"physiological"},{trg:"de echo",src:"the echo; the ultrasound"}]},
-    {type:"fb",s:"{1}",a:["gebrekkig"],opts:["existentieel","experimenteel","gebrekkig","exact"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"deficient, flawed, poor"},
-    {type:"fb",s:"{1}",a:["exploiteren"],opts:["de bevolkingssamenstelling","de arbeidersklasse","exploiteren","de allochtoon"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to operate, to run (a business)"},
-    {type:"fb",s:"{1}",a:["exact"],opts:["exact","gebrekkig","existentieel","experimenteel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"exact, precise"},
-    {type:"fb",s:"{1}",a:["existentieel"],opts:["exact","experimenteel","existentieel","gebrekkig"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"existential"},
-    {type:"fb",s:"{1}",a:["experimenteel"],opts:["experimenteel","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"experimental"},
-    {type:"fb",s:"{1}",a:["geconcentreerd"],opts:["existentieel","geconcentreerd","gebrekkig","exact"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"concentrated, focused"},
-    {type:"fb",s:"{1}",a:["fantasievol"],opts:["gebrekkig","exact","existentieel","fantasievol"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"imaginative, creative"},
-    {type:"fb",s:"{1}",a:["galant"],opts:["galant","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"gallant, chivalrous"},
-    {type:"fb",s:"{1}",a:["geldelijk"],opts:["exact","existentieel","geldelijk","gebrekkig"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"financial, monetary"},
-    {type:"fb",s:"{1}",a:["fysiologisch"],opts:["fysiologisch","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"physiological"},
-    {type:"fb",s:"{1}",a:["gelijktijdig"],opts:["gelijktijdig","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"simultaneous, at the same time"},
-    {type:"fb",s:"{1}",a:["gelijkwaardig"],opts:["gelijkwaardig","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"equal in value, equivalent"}
+    {type:"fb",s:"Zijn kennis van het onderwerp is {1}.",a:["gebrekkig"],opts:["gebrekkig","exact","existentieel","experimenteel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His knowledge of the subject is deficient."},
+    {type:"fb",s:"{1}",a:["exploiteren"],opts:["de arbeidersklasse","exploiteren","de allochtoon","de bevolkingssamenstelling"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to operate, to run (a business)"},
+    {type:"fb",s:"Weet je het {1}e bedrag?",a:["exact"],opts:["existentieel","experimenteel","exact","gebrekkig"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you know the exact amount?"},
+    {type:"fb",s:"{1}",a:["existentieel"],opts:["gebrekkig","exact","experimenteel","existentieel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"existential"},
+    {type:"fb",s:"Het is een {1} programma.",a:["experimenteel"],opts:["experimenteel","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It is an {1} program."},
+    {type:"fb",s:"Ik kan hier niet {1} werken.",a:["geconcentreerd"],opts:["existentieel","geconcentreerd","gebrekkig","exact"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I cannot work in a focused way here."},
+    {type:"fb",s:"Wat een {1} verhaal!",a:["fantasievol"],opts:["exact","existentieel","fantasievol","gebrekkig"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What an imaginative story!"},
+    {type:"fb",s:"Wat {1} van je om de deur open te houden.",a:["galant"],opts:["gebrekkig","exact","existentieel","galant"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How gallant of you to hold the door open."},
+    {type:"fb",s:"Er wordt {1}e steun aangeboden.",a:["geldelijk"],opts:["geldelijk","gebrekkig","exact","existentieel"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Financial support is being offered."},
+    {type:"fb",s:"De {1}e effecten van stress zijn ernstig.",a:["fysiologisch"],opts:["existentieel","fysiologisch","gebrekkig","exact"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} effects of stress are serious."},
+    {type:"fb",s:"De twee evenementen vinden {1} plaats.",a:["gelijktijdig"],opts:["exact","existentieel","gelijktijdig","gebrekkig"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The two events take place simultaneously."},
+    {type:"fb",s:"Alle medewerkers zijn {1}.",a:["gelijkwaardig"],opts:["gebrekkig","exact","existentieel","gelijkwaardig"],hint:"Type the target-language form. Meaning shown below.",sSrc:"All employees are equal in value."}
   ]
 };
 

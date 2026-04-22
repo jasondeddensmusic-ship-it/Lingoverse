@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 62.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U62 = {
   id:"duv2_u62_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -8,11 +8,11 @@ const COVERAGE_U62 = {
     {type:"match",pairs:[{trg:"hullen",src:"to wrap, to shroud, to envelop"},{trg:"het Deens",src:"Danish (language)"},{trg:"het Duits",src:"German (language)"},{trg:"dossen",src:"to dress up, to get dressed (informal)"}]},
     {type:"match",pairs:[{trg:"de blogs",src:"the blogs"},{trg:"de eyeliner",src:"the eyeliner"},{trg:"de creamer",src:"the coffee creamer"},{trg:"de detineren",src:"to detain, to hold in custody"}]},
     {type:"match",pairs:[{trg:"en zo maar door",src:"and so on, and so forth"},{trg:"de aandeelhoudersstructuur",src:"the shareholder structure"},{trg:"de contextgebonden",src:"context-dependent, context-bound"}]},
-    {type:"fb",s:"{1}",a:["handenvol"],opts:["handenvol","het Deens","het Duits","de contextgebonden"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"handfuls of, lots of"},
-    {type:"fb",s:"{1}",a:["hullen"],opts:["de godenwereld","handenvol","het establishment","hullen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to wrap, to shroud, to envelop"},
-    {type:"fb",s:"{1}",a:["dossen"],opts:["het establishment","dossen","de godenwereld","handenvol"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to dress up, to get dressed (informal)"},
-    {type:"fb",s:"{1}",a:["gemankeerd"],opts:["gemankeerd","handenvol","het Deens","het Duits"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"failed, frustrated (in one's ambitions)"},
-    {type:"fb",s:"{1}",a:["hoogtij"],opts:["de hartstichting","hoogtij","de godenwereld","het establishment"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"high tide, heyday"}
+    {type:"fb",s:"We hebben {1} werk deze week.",a:["handenvol"],opts:["handenvol","het Deens","het Duits","de contextgebonden"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We have loads of work this week."},
+    {type:"fb",s:"{1}",a:["hullen"],opts:["het establishment","hullen","de godenwereld","handenvol"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to wrap, to shroud, to envelop"},
+    {type:"fb",s:"{1}",a:["dossen"],opts:["handenvol","het establishment","dossen","de godenwereld"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to dress up, to get dressed (informal)"},
+    {type:"fb",s:"Hij is een {1} kunstenaar.",a:["gemankeerd"],opts:["handenvol","het Deens","het Duits","gemankeerd"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He is a frustrated artist."},
+    {type:"fb",s:"Het is {1} voor de techsector.",a:["hoogtij"],opts:["hoogtij","de godenwereld","het establishment","de hartstichting"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It is a heyday for the tech sector."}
   ]
 };
 

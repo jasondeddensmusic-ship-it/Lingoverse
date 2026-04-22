@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 59.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U59 = {
   id:"kov2_u59_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -19,18 +19,18 @@ const COVERAGE_U59 = {
     {type:"match",pairs:[{trg:"못되다",src:"to be mean, to be wicked"},{trg:"못생기다",src:"to be ugly, to be unattractive"},{trg:"무관심",src:"indifference, apathy"},{trg:"무관심하다",src:"to be indifferent, to be apathetic"}]},
     {type:"match",pairs:[{trg:"무궁화",src:"Rose of Sharon (Korean national flower)"},{trg:"무기",src:"weapon, arms"},{trg:"무늬",src:"pattern, design"},{trg:"무더위",src:"intense heat, sweltering heat"}]},
     {type:"match",pairs:[{trg:"무덥다",src:"to be sweltering, to be muggy"},{trg:"무려",src:"as many as, no less than"},{trg:"무리",src:"group, flock; overexertion"},{trg:"무리하다",src:"to be unreasonable, to be excessive"},{trg:"무용가",src:"dancer (professional)"},{trg:"무의미하다",src:"to be meaningless, to be pointless"}]},
-    {type:"fb",s:"{1}",a:["맘대로"],opts:["매달","매번","멍멍","맘대로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"as one pleases, at will"},
-    {type:"fb",s:"{1}",a:["맛보다"],opts:["맛보다","망치다","매다","매달다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to taste, to sample"},
-    {type:"fb",s:"{1}",a:["망원경"],opts:["매너","망원경","맘","맞은편"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"telescope"},
-    {type:"fb",s:"{1}",a:["망치다"],opts:["매다","매달다","망치다","맛보다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to ruin, to mess up"},
-    {type:"fb",s:"{1}",a:["맞은편"],opts:["매너","맞은편","맘","망원경"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the opposite side, across from"},
-    {type:"fb",s:"{1}",a:["매너"],opts:["맞은편","매너","맘","망원경"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"manners, etiquette"},
-    {type:"fb",s:"{1}",a:["매다"],opts:["매달다","매다","맛보다","망치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to tie, to fasten"},
-    {type:"fb",s:"{1}",a:["매달"],opts:["멍멍","매달","맘대로","매번"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"every month"},
-    {type:"fb",s:"{1}",a:["매달다"],opts:["맛보다","망치다","매다","매달다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to hang, to suspend"},
-    {type:"fb",s:"{1}",a:["매달리다"],opts:["매다","매달리다","맛보다","망치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to cling to, to hang from"},
-    {type:"fb",s:"{1}",a:["매번"],opts:["멍멍","매번","맘대로","매달"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"every time, each time"},
-    {type:"fb",s:"{1}",a:["매스컴"],opts:["맘","망원경","맞은편","매스컴"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"mass media, mass communication"}
+    {type:"fb",s:"네 {1} 해.",a:["맘대로"],opts:["맘대로","매달","매번","멍멍"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do as you please."},
+    {type:"fb",s:"{1}",a:["맛보다"],opts:["매달다","맛보다","망치다","매다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to taste, to sample"},
+    {type:"fb",s:"{1}으로 달을 봤어?",a:["망원경"],opts:["맞은편","매너","망원경","맘"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you look at the moon through the {1}?"},
+    {type:"fb",s:"{1}",a:["망치다"],opts:["맛보다","매다","매달다","망치다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to ruin, to mess up"},
+    {type:"fb",s:"{1}",a:["맞은편"],opts:["맞은편","맘","망원경","매너"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the opposite side, across from"},
+    {type:"fb",s:"그 사람은 {1}가 좋아.",a:["매너"],opts:["맞은편","매너","맘","망원경"],hint:"Type the target-language form. Meaning shown below.",sSrc:"That person has good manners."},
+    {type:"fb",s:"{1}",a:["매다"],opts:["망치다","매달다","매다","맛보다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to tie, to fasten"},
+    {type:"fb",s:"{1} 저축을 하고 있어?",a:["매달"],opts:["맘대로","매번","멍멍","매달"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are you saving money {1}?"},
+    {type:"fb",s:"{1}",a:["매달다"],opts:["매달다","맛보다","망치다","매다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to hang, to suspend"},
+    {type:"fb",s:"{1}",a:["매달리다"],opts:["매다","매달리다","맛보다","망치다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to cling to, to hang from"},
+    {type:"fb",s:"{1} 같은 실수를 반복하네.",a:["매번"],opts:["매달","멍멍","매번","맘대로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You repeat the same mistake every time."},
+    {type:"fb",s:"{1}에서 그 사건을 크게 다뤘어.",a:["매스컴"],opts:["맘","망원경","맞은편","매스컴"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The mass media covered that incident extensively."}
   ]
 };
 

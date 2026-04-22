@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 33.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U33 = {
   id:"spv2_u33_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -14,17 +14,17 @@ const COVERAGE_U33 = {
     {type:"match",pairs:[{trg:"acordar",src:"to agree, to remember"},{trg:"aquel",src:"that (over there)"},{trg:"allá",src:"over there (vague direction)"},{trg:"anaranjado",src:"orange (color)"}]},
     {type:"match",pairs:[{trg:"la biodiversidad",src:"biodiversity"},{trg:"biológico",src:"biological, organic"},{trg:"bohemio",src:"bohemian"},{trg:"argentino",src:"Argentine"}]},
     {type:"match",pairs:[{trg:"americano",src:"American (from the Americas)"},{trg:"andaluz",src:"Andalusian"},{trg:"aéreo",src:"aerial, air (adjective)"},{trg:"administrativo",src:"administrative"},{trg:"la asociación",src:"the association, organization"}]},
-    {type:"fb",s:"{1}",a:["autorizar"],opts:["agradecer","acostar","autorizar","animar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to authorize"},
-    {type:"fb",s:"{1}",a:["artístico"],opts:["auténtico","artístico","bilingüe","artificial"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"artistic"},
-    {type:"fb",s:"{1}",a:["animar"],opts:["autorizar","agradecer","acostar","animar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to encourage, to cheer up"},
-    {type:"fb",s:"{1}",a:["bilingüe"],opts:["artístico","artificial","auténtico","bilingüe"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"bilingual"},
-    {type:"fb",s:"{1}",a:["artificial"],opts:["artístico","bilingüe","auténtico","artificial"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"artificial"},
-    {type:"fb",s:"{1}",a:["auténtico"],opts:["artificial","auténtico","artístico","bilingüe"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"authentic, genuine"},
-    {type:"fb",s:"{1}",a:["agradecer"],opts:["acostar","agradecer","autorizar","animar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to thank, to be grateful"},
-    {type:"fb",s:"{1}",a:["así"],opts:["así","la barra","el baratillo","la bollería"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"like this, so, thus"},
-    {type:"fb",s:"{1}",a:["acostar"],opts:["acostar","autorizar","animar","agradecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to put to bed"},
-    {type:"fb",s:"{1}",a:["acostumbrar"],opts:["acostumbrar","autorizar","animar","agradecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be used to, to usually do"},
-    {type:"fb",s:"{1}",a:["anticipar"],opts:["animar","agradecer","anticipar","autorizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to anticipate, to bring forward"}
+    {type:"fb",s:"{1}",a:["autorizar"],opts:["autorizar","animar","agradecer","acostar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to authorize"},
+    {type:"fb",s:"Barcelona tiene mucho patrimonio {1}.",a:["artístico"],opts:["auténtico","artístico","bilingüe","artificial"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Barcelona has a lot of {1} heritage."},
+    {type:"fb",s:"{1}",a:["animar"],opts:["agradecer","acostar","animar","autorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to encourage, to cheer up"},
+    {type:"fb",s:"Mi hija es {1}.",a:["bilingüe"],opts:["artístico","artificial","auténtico","bilingüe"],hint:"Type the target-language form. Meaning shown below.",sSrc:"My daughter is {1}."},
+    {type:"fb",s:"Estas flores son {1}es.",a:["artificial"],opts:["artificial","artístico","bilingüe","auténtico"],hint:"Type the target-language form. Meaning shown below.",sSrc:"These flowers are {1}."},
+    {type:"fb",s:"{1}",a:["auténtico"],opts:["artificial","auténtico","artístico","bilingüe"],hint:"Type the target-language form. Meaning shown below.",sSrc:"authentic, genuine"},
+    {type:"fb",s:"{1}",a:["agradecer"],opts:["animar","acostar","agradecer","autorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to thank, to be grateful"},
+    {type:"fb",s:"Se hace {1}, mira.",a:["así"],opts:["la barra","el baratillo","la bollería","así"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You do it like this, look."},
+    {type:"fb",s:"{1}",a:["acostar"],opts:["acostar","autorizar","animar","agradecer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to put to bed"},
+    {type:"fb",s:"{1}",a:["acostumbrar"],opts:["agradecer","acostumbrar","autorizar","animar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be used to, to usually do"},
+    {type:"fb",s:"Hay que {1} la reunión.",a:["anticipar"],opts:["animar","agradecer","anticipar","autorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to bring the meeting forward."}
   ]
 };
 

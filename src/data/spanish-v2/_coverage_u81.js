@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 81.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U81 = {
   id:"spv2_u81_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,12 +9,12 @@ const COVERAGE_U81 = {
     {type:"match",pairs:[{trg:"la consideración",src:"the consideration / respect"},{trg:"el motivo",src:"the reason / motive"},{trg:"la inconveniencia",src:"the inconvenience / unsuitability"},{trg:"oficioso",src:"unofficial / officious"}]},
     {type:"match",pairs:[{trg:"el mercado común",src:"the common market"},{trg:"la dirección comercial",src:"the commercial management / sales department"},{trg:"el empleo estatal",src:"the public sector employment / government job"},{trg:"el asta",src:"the flagpole / horn (of a bull) / shaft"}]},
     {type:"match",pairs:[{trg:"el adulto",src:"the adult"},{trg:"el chato",src:"the snub-nosed person / a small glass (of wine)"},{trg:"la desnudez",src:"the nakedness / nudity / bareness"},{trg:"la muera",src:"the brine / pickling solution"},{trg:"la nobleza",src:"the nobleness / nobility of character"}]},
-    {type:"fb",s:"{1}",a:["oficioso"],opts:["el listón","el montera","oficioso","la hilera"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"unofficial / officious"},
-    {type:"fb",s:"{1}",a:["multilingüe"],opts:["la hilera","el listón","el montera","multilingüe"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"multilingual"},
-    {type:"fb",s:"{1}",a:["ordinario"],opts:["el listón","el montera","ordinario","la hilera"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ordinary / vulgar / common"},
-    {type:"fb",s:"{1}",a:["mensurable"],opts:["el montera","mensurable","la hilera","el listón"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"measurable"},
-    {type:"fb",s:"{1}",a:["burro"],opts:["la hilera","el listón","el montera","burro"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"stubborn / stupid / donkey-like"},
-    {type:"fb",s:"{1}",a:["bienaventurado"],opts:["bienaventurado","la hilera","el listón","el montera"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"blessed / fortunate"}
+    {type:"fb",s:"{1}",a:["oficioso"],opts:["oficioso","la hilera","el listón","el montera"],hint:"Type the target-language form. Meaning shown below.",sSrc:"unofficial / officious"},
+    {type:"fb",s:"España necesita más profesionales {1}s.",a:["multilingüe"],opts:["el montera","multilingüe","la hilera","el listón"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Spain needs more {1} professionals."},
+    {type:"fb",s:"Su comportamiento fue bastante {1}.",a:["ordinario"],opts:["el listón","el montera","ordinario","la hilera"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His behavior was quite vulgar."},
+    {type:"fb",s:"Los resultados deben ser {1}s y verificables.",a:["mensurable"],opts:["la hilera","el listón","el montera","mensurable"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The results must be {1} and verifiable."},
+    {type:"fb",s:"No seas {1}, escucha lo que te digo.",a:["burro"],opts:["burro","la hilera","el listón","el montera"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Don't be stubborn, listen to what I'm telling you."},
+    {type:"fb",s:"{1}",a:["bienaventurado"],opts:["el montera","bienaventurado","la hilera","el listón"],hint:"Type the target-language form. Meaning shown below.",sSrc:"blessed / fortunate"}
   ]
 };
 

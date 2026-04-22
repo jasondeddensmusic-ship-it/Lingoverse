@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 52.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U52 = {
   id:"spv2_u52_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,14 +9,14 @@ const COVERAGE_U52 = {
     {type:"match",pairs:[{trg:"la cabida",src:"the capacity / room"},{trg:"el enredo",src:"the tangle / mess / intrigue"},{trg:"expresionista",src:"expressionist"},{trg:"explosivo",src:"explosive"}]},
     {type:"match",pairs:[{trg:"la desnudez",src:"the nudity / nakedness"},{trg:"la definición",src:"the definition"},{trg:"difícil",src:"difficult / hard"},{trg:"la descentralización",src:"the decentralization"}]},
     {type:"match",pairs:[{trg:"la desviación",src:"the deviation / detour"},{trg:"la conveniencia",src:"the convenience / suitability"},{trg:"la detonación",src:"the detonation"},{trg:"la esfera",src:"the sphere / domain"},{trg:"la dispersión",src:"the dispersal / spread"},{trg:"el exponente",src:"the exponent / representative"}]},
-    {type:"fb",s:"{1}",a:["esforzar"],opts:["el escribano","esforzar","el entrevistador","el adulto"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to make an effort"},
-    {type:"fb",s:"{1}",a:["espabilar"],opts:["espabilar","el entrevistador","el adulto","el escribano"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to wake up / to get moving"},
-    {type:"fb",s:"{1}",a:["embellecer"],opts:["el entrevistador","el adulto","el escribano","embellecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to beautify / to embellish"},
-    {type:"fb",s:"{1}",a:["expresionista"],opts:["el entrevistador","el adulto","el escribano","expresionista"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"expressionist"},
-    {type:"fb",s:"{1}",a:["explosivo"],opts:["explosivo","el entrevistador","el adulto","el escribano"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"explosive"},
-    {type:"fb",s:"{1}",a:["difícil"],opts:["el escribano","difícil","el entrevistador","el adulto"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"difficult / hard"},
-    {type:"fb",s:"{1}",a:["estático"],opts:["difícil","estático","expresionista","explosivo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"static / motionless"},
-    {type:"fb",s:"{1}",a:["esquemático"],opts:["expresionista","explosivo","difícil","esquemático"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"schematic / simplified"}
+    {type:"fb",s:"Tienes que {1}te más si quieres aprobar.",a:["esforzar"],opts:["esforzar","el entrevistador","el adulto","el escribano"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You have to make more effort if you want to pass."},
+    {type:"fb",s:"{1}",a:["espabilar"],opts:["el escribano","espabilar","el entrevistador","el adulto"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to wake up / to get moving"},
+    {type:"fb",s:"Quieren {1} la plaza del pueblo.",a:["embellecer"],opts:["el adulto","el escribano","embellecer","el entrevistador"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They want to beautify the town square."},
+    {type:"fb",s:"Esta pintura tiene un estilo claramente {1}.",a:["expresionista"],opts:["el entrevistador","el adulto","el escribano","expresionista"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This painting has a clearly {1} style."},
+    {type:"fb",s:"{1}",a:["explosivo"],opts:["explosivo","el entrevistador","el adulto","el escribano"],hint:"Type the target-language form. Meaning shown below.",sSrc:"explosive"},
+    {type:"fb",s:"La situación es {1}, pero no imposible.",a:["difícil"],opts:["el escribano","difícil","el entrevistador","el adulto"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The situation is difficult, but not impossible."},
+    {type:"fb",s:"{1}",a:["estático"],opts:["explosivo","difícil","estático","expresionista"],hint:"Type the target-language form. Meaning shown below.",sSrc:"static / motionless"},
+    {type:"fb",s:"Haz un dibujo {1} del proyecto.",a:["esquemático"],opts:["expresionista","explosivo","difícil","esquemático"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Make a schematic drawing of the project."}
   ]
 };
 

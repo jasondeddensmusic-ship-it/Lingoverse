@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 41.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U41 = {
   id:"kov2_u41_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -12,18 +12,18 @@ const COVERAGE_U41 = {
     {type:"match",pairs:[{trg:"무렵",src:"around the time of, about (time)"},{trg:"번째",src:"ordinal suffix (-th, -st, -nd)"},{trg:"방향",src:"direction, way, orientation"},{trg:"부분",src:"part, portion, section"}]},
     {type:"match",pairs:[{trg:"사물",src:"things, objects, material things"},{trg:"부처",src:"Buddha, Buddhist deity"},{trg:"아버님",src:"father (honorific)"},{trg:"어머님",src:"mother (honorific)"}]},
     {type:"match",pairs:[{trg:"바보",src:"fool, dummy, idiot"},{trg:"무어",src:"what (dialectal/literary form of 뭐)"},{trg:"떼다",src:"to remove, to detach, to peel off"},{trg:"오히려",src:"rather, on the contrary, instead"},{trg:"비로소",src:"for the first time, only then, at last"},{trg:"사뭇",src:"quite, considerably, completely"}]},
-    {type:"fb",s:"{1}",a:["신체"],opts:["번째","신체","손바닥","무렵"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"body, physique"},
-    {type:"fb",s:"{1}",a:["손바닥"],opts:["무렵","번째","손바닥","신체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"palm (of the hand)"},
-    {type:"fb",s:"{1}",a:["앓다"],opts:["앓다","숙이다","내밀다","달다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be ill, to suffer from"},
-    {type:"fb",s:"{1}",a:["숙이다"],opts:["내밀다","달다","숙이다","앓다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to lower, to bow (one's head)"},
-    {type:"fb",s:"{1}",a:["약하다"],opts:["손바닥","앓다","약하다","신체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be weak, to be faint"},
-    {type:"fb",s:"{1}",a:["어리다"],opts:["신체","손바닥","앓다","어리다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be young, to be childish"},
-    {type:"fb",s:"{1}",a:["아무렇다"],opts:["아무렇다","신체","손바닥","앓다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be of any kind, however"},
-    {type:"fb",s:"{1}",a:["새로"],opts:["본래","새로","어느새","어쩌면"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"newly, anew, afresh"},
-    {type:"fb",s:"{1}",a:["어느새"],opts:["새로","어쩌면","본래","어느새"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"before one knows it, already"},
-    {type:"fb",s:"{1}",a:["어쩌면"],opts:["새로","어느새","본래","어쩌면"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"perhaps, possibly, maybe"},
-    {type:"fb",s:"{1}",a:["내밀다"],opts:["앓다","숙이다","달다","내밀다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to stick out, to extend, to thrust forward"},
-    {type:"fb",s:"{1}",a:["달다"],opts:["내밀다","달다","앓다","숙이다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to attach, to hang, to install"}
+    {type:"fb",s:"{1}검사 결과가 나왔어요?",a:["신체"],opts:["신체","손바닥","무렵","번째"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did the physical exam results come out?"},
+    {type:"fb",s:"{1}이 왜 이렇게 빨개요?",a:["손바닥"],opts:["번째","손바닥","신체","무렵"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Why is your palm so red?"},
+    {type:"fb",s:"{1}",a:["앓다"],opts:["내밀다","달다","앓다","숙이다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be ill, to suffer from"},
+    {type:"fb",s:"{1}",a:["숙이다"],opts:["앓다","내밀다","달다","숙이다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to lower, to bow (one's head)"},
+    {type:"fb",s:"{1}",a:["약하다"],opts:["약하다","신체","손바닥","앓다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be weak, to be faint"},
+    {type:"fb",s:"{1}",a:["어리다"],opts:["앓다","어리다","신체","손바닥"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be young, to be childish"},
+    {type:"fb",s:"{1}",a:["아무렇다"],opts:["손바닥","앓다","아무렇다","신체"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be of any kind, however"},
+    {type:"fb",s:"{1} 나온 메뉴 먹어 봤어요?",a:["새로"],opts:["어느새","어쩌면","본래","새로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Have you tried the newly released menu?"},
+    {type:"fb",s:"{1} 벌써 봄이네요.",a:["어느새"],opts:["어느새","새로","어쩌면","본래"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Before we knew it, it's already spring."},
+    {type:"fb",s:"{1} 그게 더 좋은 선택일 수도 있어요.",a:["어쩌면"],opts:["본래","어쩌면","새로","어느새"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Perhaps that might be the better choice."},
+    {type:"fb",s:"{1}",a:["내밀다"],opts:["숙이다","달다","내밀다","앓다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to stick out, to extend, to thrust forward"},
+    {type:"fb",s:"{1}",a:["달다"],opts:["앓다","숙이다","내밀다","달다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to attach, to hang, to install"}
   ]
 };
 

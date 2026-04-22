@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 69.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U69 = {
   id:"kov2_u69_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -20,17 +20,17 @@ const COVERAGE_U69 = {
     {type:"match",pairs:[{trg:"예비",src:"reserve, preliminary, spare"},{trg:"예상되다",src:"to be expected, to be anticipated"},{trg:"예상하다",src:"to expect, to anticipate"},{trg:"예선",src:"preliminary round, qualifiers"}]},
     {type:"match",pairs:[{trg:"예술적",src:"artistic"},{trg:"예습",src:"preview study, studying ahead"},{trg:"예식장",src:"wedding hall, ceremony venue"},{trg:"예정되다",src:"to be scheduled, to be planned"}]},
     {type:"match",pairs:[{trg:"예컨대",src:"for example, for instance"},{trg:"옛날이야기",src:"old tale, fairy tale, legend"},{trg:"오락",src:"entertainment, amusement"}]},
-    {type:"fb",s:"{1}",a:["여간"],opts:["여관","여간","여건","여겨지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"not ordinary (used with negatives)"},
-    {type:"fb",s:"{1}",a:["여건"],opts:["여름철","여건","여관","여럿"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"conditions, circumstances"},
-    {type:"fb",s:"{1}",a:["여겨지다"],opts:["연기하다","여겨지다","여쭈다","연기되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be considered, to be regarded as"},
-    {type:"fb",s:"{1}",a:["여관"],opts:["여름철","여관","여건","여럿"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"inn, budget hotel"},
-    {type:"fb",s:"{1}",a:["여럿"],opts:["여관","여름철","여럿","여건"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"several, a number of (people)"},
-    {type:"fb",s:"{1}",a:["여름철"],opts:["여건","여관","여럿","여름철"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"summertime, summer season"},
-    {type:"fb",s:"{1}",a:["여왕"],opts:["여왕","여건","여관","여럿"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"queen"},
-    {type:"fb",s:"{1}",a:["여우"],opts:["여럿","여우","여건","여관"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"fox"},
-    {type:"fb",s:"{1}",a:["여전하다"],opts:["여겨지다","여전하다","여간","여건"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be the same as before, to remain unchanged"},
-    {type:"fb",s:"{1}",a:["여쭈다"],opts:["여겨지다","연기되다","연기하다","여쭈다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to ask (humble/honorific)"},
-    {type:"fb",s:"{1}",a:["여행사"],opts:["여행사","여건","여관","여럿"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"travel agency"}
+    {type:"fb",s:"이 문제가 {1} 어려운 게 아니야.",a:["여간"],opts:["여간","여건","여겨지다","여관"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This problem is no ordinary difficulty."},
+    {type:"fb",s:"{1}이 되면 유학 가고 싶어.",a:["여건"],opts:["여름철","여건","여관","여럿"],hint:"Type the target-language form. Meaning shown below.",sSrc:"If conditions allow, I want to study abroad."},
+    {type:"fb",s:"{1}",a:["여겨지다"],opts:["연기되다","연기하다","여겨지다","여쭈다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be considered, to be regarded as"},
+    {type:"fb",s:"이 근처에 {1}이 있을까?",a:["여관"],opts:["여건","여럿","여름철","여관"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is there an inn nearby?"},
+    {type:"fb",s:"{1}이 함께 가면 더 재미있어.",a:["여럿"],opts:["여럿","여건","여관","여름철"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It is more fun if several of us go together."},
+    {type:"fb",s:"{1}에는 식중독 조심해야 해.",a:["여름철"],opts:["여럿","여름철","여건","여관"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to be careful about food poisoning in summertime."},
+    {type:"fb",s:"선덕{1}에 대해 알아?",a:["여왕"],opts:["여관","여럿","여왕","여건"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you know about {1} Seondeok?"},
+    {type:"fb",s:"{1}가 정말 영리하대.",a:["여우"],opts:["여건","여관","여럿","여우"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They say {1}es are really clever."},
+    {type:"fb",s:"{1}",a:["여전하다"],opts:["여전하다","여간","여건","여겨지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be the same as before, to remain unchanged"},
+    {type:"fb",s:"{1}",a:["여쭈다"],opts:["연기하다","여쭈다","여겨지다","연기되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to ask (humble/honorific)"},
+    {type:"fb",s:"{1}를 통해서 예약했어?",a:["여행사"],opts:["여관","여럿","여행사","여건"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you book through a {1}?"}
   ]
 };
 

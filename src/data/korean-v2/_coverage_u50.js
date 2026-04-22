@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 50.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U50 = {
   id:"kov2_u50_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,18 +18,18 @@ const COVERAGE_U50 = {
     {type:"match",pairs:[{trg:"꽂다",src:"to stick in, to insert"},{trg:"꽃씨",src:"flower seed"},{trg:"꾸다",src:"to dream; to borrow"},{trg:"꾸리다",src:"to pack, to put together"}]},
     {type:"match",pairs:[{trg:"꾸준하다",src:"to be steady, consistent, persistent"},{trg:"꾸중",src:"scolding, reprimand"},{trg:"꿈꾸다",src:"to dream of, to aspire to"},{trg:"꿈속",src:"in a dream, dreamland"}]},
     {type:"match",pairs:[{trg:"끊어지다",src:"to be cut off, to be severed"},{trg:"끊임없다",src:"to be ceaseless, unending"},{trg:"끌어당기다",src:"to pull toward, to attract"},{trg:"끝없다",src:"to be endless, boundless"},{trg:"끝없이",src:"endlessly, without end"}]},
-    {type:"fb",s:"{1}",a:["기본적"],opts:["기성세대","기호","기본적","기성"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"basic, fundamental"},
-    {type:"fb",s:"{1}",a:["기막히다"],opts:["기막히다","꾸준하다","끊임없다","끝없다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be astounding, breathtaking"},
-    {type:"fb",s:"{1}",a:["기성"],opts:["기성","기본적","기성세대","기호"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"established, existing"},
-    {type:"fb",s:"{1}",a:["기성세대"],opts:["기성세대","기본적","기성","기호"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the older generation, establishment"},
-    {type:"fb",s:"{1}",a:["기억나다"],opts:["기억나다","기억되다","기다","기대다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to come to mind, to recall"},
-    {type:"fb",s:"{1}",a:["기억되다"],opts:["기억되다","기억나다","기다","기대다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be remembered"},
-    {type:"fb",s:"{1}",a:["기호"],opts:["기성세대","기호","기본적","기성"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"preference, taste; symbol"},
-    {type:"fb",s:"{1}",a:["기능"],opts:["기능","기본적","기성","기성세대"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"function, feature"},
-    {type:"fb",s:"{1}",a:["기다"],opts:["기대다","기다","기억나다","기억되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to crawl, to creep"},
-    {type:"fb",s:"{1}",a:["기대다"],opts:["기억나다","기억되다","기다","기대다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to lean on, to rely on"},
-    {type:"fb",s:"{1}",a:["기대되다"],opts:["기다","기대되다","기억나다","기억되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be anticipated, to be expected"},
-    {type:"fb",s:"{1}",a:["기울다"],opts:["기억나다","기억되다","기다","기울다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to tilt, to lean, to decline"}
+    {type:"fb",s:"이건 {1}인 규칙이에요?",a:["기본적"],opts:["기본적","기성","기성세대","기호"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this a basic rule?"},
+    {type:"fb",s:"{1}",a:["기막히다"],opts:["끝없다","기막히다","꾸준하다","끊임없다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be astounding, breathtaking"},
+    {type:"fb",s:"{1} 제품을 쓸까요?",a:["기성"],opts:["기성세대","기호","기성","기본적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Shall we use an off-the-shelf product?"},
+    {type:"fb",s:"{1}와 젊은 세대의 차이가 크죠?",a:["기성세대"],opts:["기본적","기성","기호","기성세대"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The gap between the older and younger generations is large, right?"},
+    {type:"fb",s:"{1}",a:["기억나다"],opts:["기억나다","기억되다","기다","기대다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to come to mind, to recall"},
+    {type:"fb",s:"{1}",a:["기억되다"],opts:["기대다","기억되다","기억나다","기다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be remembered"},
+    {type:"fb",s:"커피 {1}가 어떻게 되세요?",a:["기호"],opts:["기성","기성세대","기호","기본적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What is your coffee preference?"},
+    {type:"fb",s:"이 앱에 새 {1}이 추가되었어요.",a:["기능"],opts:["기본적","기성","기성세대","기능"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A new feature was added to this app."},
+    {type:"fb",s:"{1}",a:["기다"],opts:["기다","기억나다","기억되다","기대다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to crawl, to creep"},
+    {type:"fb",s:"{1}",a:["기대다"],opts:["기다","기대다","기억나다","기억되다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to lean on, to rely on"},
+    {type:"fb",s:"{1}",a:["기대되다"],opts:["기억되다","기다","기대되다","기억나다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be anticipated, to be expected"},
+    {type:"fb",s:"{1}",a:["기울다"],opts:["기억나다","기억되다","기다","기울다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to tilt, to lean, to decline"}
   ]
 };
 

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 55.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U55 = {
   id:"kov2_u55_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -19,18 +19,18 @@ const COVERAGE_U55 = {
     {type:"match",pairs:[{trg:"구르다",src:"to roll"},{trg:"구분",src:"division, classification"},{trg:"구분되다",src:"to be classified, to be divided"},{trg:"구분하다",src:"to classify, to divide, to sort"}]},
     {type:"match",pairs:[{trg:"구석",src:"corner, nook"},{trg:"구석구석",src:"every nook and cranny"},{trg:"구속",src:"arrest, detention; constraint"},{trg:"구속되다",src:"to be arrested, to be detained"}]},
     {type:"match",pairs:[{trg:"구속하다",src:"to arrest, to detain; to constrain"},{trg:"국가적",src:"national, state-level"},{trg:"국내선",src:"domestic flight/line"},{trg:"국내외",src:"domestic and international"},{trg:"국립",src:"national, state-run"}]},
-    {type:"fb",s:"{1}",a:["골고루"],opts:["골목길","골짜기","골치","골고루"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"evenly, equally"},
-    {type:"fb",s:"{1}",a:["골목길"],opts:["골목길","골짜기","골치","골프"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"alley, narrow lane"},
-    {type:"fb",s:"{1}",a:["골짜기"],opts:["골목길","골치","골프","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"valley, gorge"},
-    {type:"fb",s:"{1}",a:["골치"],opts:["골프","골치","골목길","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"headache, trouble (figurative)"},
-    {type:"fb",s:"{1}",a:["골프"],opts:["골치","골프","골목길","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"golf"},
-    {type:"fb",s:"{1}",a:["골프장"],opts:["골짜기","골치","골프장","골목길"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"golf course"},
-    {type:"fb",s:"{1}",a:["공격"],opts:["골치","공격","골목길","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"attack, offense"},
-    {type:"fb",s:"{1}",a:["공격하다"],opts:["관리하다","공격하다","공통되다","관계되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to attack, to assault"},
-    {type:"fb",s:"{1}",a:["공공"],opts:["골치","공공","골목길","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"public, communal"},
-    {type:"fb",s:"{1}",a:["공식"],opts:["골치","공식","골목길","골짜기"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"formula; official"},
-    {type:"fb",s:"{1}",a:["공식적"],opts:["골짜기","골치","공식적","골목길"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"official, formal"},
-    {type:"fb",s:"{1}",a:["공주"],opts:["골짜기","골치","공주","골목길"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"princess"}
+    {type:"fb",s:"영양소를 {1} 섭취해야 해.",a:["골고루"],opts:["골고루","골목길","골짜기","골치"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to consume nutrients evenly."},
+    {type:"fb",s:"이 {1}에 맛집이 많아.",a:["골목길"],opts:["골프","골목길","골짜기","골치"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There are many good restaurants in this alley."},
+    {type:"fb",s:"이 {1}에 계곡물이 흐르고 있어.",a:["골짜기"],opts:["골치","골프","골짜기","골목길"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Stream water flows through this valley."},
+    {type:"fb",s:"이 문제가 정말 {1} 아파.",a:["골치"],opts:["골목길","골짜기","골프","골치"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This problem is a real headache."},
+    {type:"fb",s:"주말에 {1} 치러 갈래?",a:["골프"],opts:["골프","골목길","골짜기","골치"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you want to go play {1} this weekend?"},
+    {type:"fb",s:"이 {1}은 경치가 정말 좋다.",a:["골프장"],opts:["골치","골프장","골목길","골짜기"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This {1} has a really nice view."},
+    {type:"fb",s:"상대 팀의 {1}이 거세.",a:["공격"],opts:["골짜기","골치","공격","골목길"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The opposing team's offense is fierce."},
+    {type:"fb",s:"{1}",a:["공격하다"],opts:["공통되다","관계되다","관리하다","공격하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to attack, to assault"},
+    {type:"fb",s:"{1}장소에서는 조용히 해야 해.",a:["공공"],opts:["공공","골목길","골짜기","골치"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You should be quiet in public places."},
+    {type:"fb",s:"이것이 {1} 발표입니다.",a:["공식"],opts:["골치","공식","골목길","골짜기"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This is the official announcement."},
+    {type:"fb",s:"{1}인 자리에서는 존댓말을 써야 해.",a:["공식적"],opts:["골짜기","골치","공식적","골목길"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You should use formal speech at official events."},
+    {type:"fb",s:"이 동화에 {1}가 나와?",a:["공주"],opts:["골목길","골짜기","골치","공주"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Does a {1} appear in this fairy tale?"}
   ]
 };
 

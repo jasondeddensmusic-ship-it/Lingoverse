@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 43.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U43 = {
   id:"kov2_u43_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -17,20 +17,20 @@ const COVERAGE_U43 = {
     {type:"match",pairs:[{trg:"자라다",src:"to grow up, to be raised"},{trg:"키우다",src:"to raise, to grow, to rear"},{trg:"체육",src:"physical education, sports"},{trg:"주머니",src:"pocket"}]},
     {type:"match",pairs:[{trg:"주먹",src:"fist"},{trg:"잠들다",src:"to fall asleep"},{trg:"잠시",src:"a moment, briefly"},{trg:"점차",src:"gradually, step by step"}]},
     {type:"match",pairs:[{trg:"연결되다",src:"to be connected, to be linked"},{trg:"흘리다",src:"to spill, to shed (tears/sweat)"},{trg:"흘러나오다",src:"to flow out, to leak out"},{trg:"풀리다",src:"to be untied, to be solved, to loosen"},{trg:"펼쳐지다",src:"to unfold, to spread out, to be displayed"},{trg:"터뜨리다",src:"to burst, to pop, to explode"}]},
-    {type:"fb",s:"{1}",a:["자기"],opts:["자연스럽다","자기","자신","자체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"oneself, self (informal)"},
-    {type:"fb",s:"{1}",a:["자신"],opts:["이성","자신","자체","자유"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"oneself, self (formal)"},
-    {type:"fb",s:"{1}",a:["자체"],opts:["이성","자체","자신","자유"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"itself, the thing itself"},
-    {type:"fb",s:"{1}",a:["자연스럽다"],opts:["자연스럽다","자유롭다","이상하다","평범하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"natural, unforced"},
-    {type:"fb",s:"{1}",a:["자유"],opts:["이성","자유","자신","자체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"freedom, liberty"},
-    {type:"fb",s:"{1}",a:["자유롭다"],opts:["이상하다","평범하다","자유롭다","자연스럽다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be free, to be unrestrained"},
-    {type:"fb",s:"{1}",a:["이성"],opts:["이성","자신","자체","자유"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"reason, rationality; the opposite sex"},
-    {type:"fb",s:"{1}",a:["성격"],opts:["자유","성격","자신","자체"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"personality, character, temperament"},
-    {type:"fb",s:"{1}",a:["콤플렉스"],opts:["자체","자유","콤플렉스","자신"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"complex (insecurity)"},
-    {type:"fb",s:"{1}",a:["이상하다"],opts:["이상하다","자연스럽다","자유롭다","평범하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"strange, weird, odd"},
-    {type:"fb",s:"{1}",a:["평범하다"],opts:["자유롭다","이상하다","평범하다","자연스럽다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ordinary, average, common"},
-    {type:"fb",s:"{1}",a:["욕심"],opts:["자체","자유","욕심","자신"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"greed, desire, ambition"},
-    {type:"fb",s:"{1}",a:["잘못하다"],opts:["자라다","키우다","잘못하다","자랑하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to do wrong, to make a mistake"},
-    {type:"fb",s:"{1}",a:["틀림없다"],opts:["자연스럽다","자유롭다","이상하다","틀림없다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"certain, without doubt, unmistakable"}
+    {type:"fb",s:"{1} 생각을 말해 봐.",a:["자기"],opts:["자기","자신","자체","자연스럽다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Tell me your own thoughts."},
+    {type:"fb",s:"{1}감이 있어야 해요.",a:["자신"],opts:["이성","자신","자체","자유"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to have self-confidence."},
+    {type:"fb",s:"문제 {1}가 어렵지는 않아요.",a:["자체"],opts:["자유","이성","자체","자신"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The problem itself isn't difficult."},
+    {type:"fb",s:"{1}",a:["자연스럽다"],opts:["자유롭다","이상하다","평범하다","자연스럽다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"natural, unforced"},
+    {type:"fb",s:"{1}가 소중해요.",a:["자유"],opts:["자유","자신","자체","이성"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Freedom is precious."},
+    {type:"fb",s:"{1}",a:["자유롭다"],opts:["평범하다","자유롭다","자연스럽다","이상하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be free, to be unrestrained"},
+    {type:"fb",s:"{1}적으로 생각해 봐요.",a:["이성"],opts:["자체","자유","이성","자신"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Try to think rationally."},
+    {type:"fb",s:"{1}이 어때요?",a:["성격"],opts:["자신","자체","자유","성격"],hint:"Type the target-language form. Meaning shown below.",sSrc:"What's your personality like?"},
+    {type:"fb",s:"{1}가 있어요?",a:["콤플렉스"],opts:["콤플렉스","자신","자체","자유"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you have any insecurities?"},
+    {type:"fb",s:"{1}",a:["이상하다"],opts:["평범하다","이상하다","자연스럽다","자유롭다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"strange, weird, odd"},
+    {type:"fb",s:"{1}",a:["평범하다"],opts:["자유롭다","이상하다","평범하다","자연스럽다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"ordinary, average, common"},
+    {type:"fb",s:"{1}이 너무 많으면 안 돼요.",a:["욕심"],opts:["자신","자체","자유","욕심"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You shouldn't be too greedy."},
+    {type:"fb",s:"{1}",a:["잘못하다"],opts:["잘못하다","자랑하다","자라다","키우다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to do wrong, to make a mistake"},
+    {type:"fb",s:"{1}",a:["틀림없다"],opts:["이상하다","틀림없다","자연스럽다","자유롭다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"certain, without doubt, unmistakable"}
   ]
 };
 

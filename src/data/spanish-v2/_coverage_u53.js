@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 53.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U53 = {
   id:"spv2_u53_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,16 +13,16 @@ const COVERAGE_U53 = {
     {type:"match",pairs:[{trg:"el apocalipsis",src:"the apocalypse"},{trg:"el comunismo",src:"the communism"},{trg:"la evangelización",src:"the evangelization"},{trg:"la dinámica",src:"the dynamic / dynamics"}]},
     {type:"match",pairs:[{trg:"denostar",src:"to revile / to insult gravely"},{trg:"el escribiente",src:"the scribe / clerk"},{trg:"la eucaristía",src:"the Eucharist"},{trg:"la aprobación",src:"the approval"}]},
     {type:"match",pairs:[{trg:"el estatuto",src:"the statute / bylaws"},{trg:"el condicional",src:"the conditional (tense)"},{trg:"la expropiación",src:"the expropriation"},{trg:"el ERE",src:"the mass layoff procedure"},{trg:"el ciego",src:"the blind person"}]},
-    {type:"fb",s:"{1}",a:["encarcelar"],opts:["encumbrar","encarcelar","deshumanizar","entristecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to imprison"},
-    {type:"fb",s:"{1}",a:["deshumanizar"],opts:["deshumanizar","encarcelar","entristecer","encumbrar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to dehumanize"},
-    {type:"fb",s:"{1}",a:["entristecer"],opts:["encumbrar","entristecer","encarcelar","deshumanizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to sadden"},
-    {type:"fb",s:"{1}",a:["encumbrar"],opts:["encumbrar","encarcelar","deshumanizar","entristecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to elevate / to raise to a high position"},
-    {type:"fb",s:"{1}",a:["desperdigar"],opts:["encarcelar","deshumanizar","entristecer","desperdigar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to scatter / to spread"},
-    {type:"fb",s:"{1}",a:["emanar"],opts:["encarcelar","deshumanizar","entristecer","emanar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to emanate / to emit"},
-    {type:"fb",s:"{1}",a:["enlosar"],opts:["encarcelar","deshumanizar","entristecer","enlosar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to pave with tiles / flagstones"},
-    {type:"fb",s:"{1}",a:["engrosar"],opts:["engrosar","encarcelar","deshumanizar","entristecer"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to swell / to thicken / to increase"},
-    {type:"fb",s:"{1}",a:["denostar"],opts:["entristecer","denostar","encarcelar","deshumanizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to revile / to insult gravely"},
-    {type:"fb",s:"{1}",a:["desahuciar"],opts:["deshumanizar","entristecer","desahuciar","encarcelar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to evict"}
+    {type:"fb",s:"El juez decidió {1} al acusado sin fianza.",a:["encarcelar"],opts:["encarcelar","deshumanizar","entristecer","encumbrar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The judge decided {1} the accused without bail."},
+    {type:"fb",s:"Las redes sociales pueden {1} el debate público.",a:["deshumanizar"],opts:["encumbrar","deshumanizar","encarcelar","entristecer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Social media can dehumanize public debate."},
+    {type:"fb",s:"{1}",a:["entristecer"],opts:["deshumanizar","encumbrar","entristecer","encarcelar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to sadden"},
+    {type:"fb",s:"Las redes sociales pueden {1} a alguien de la noche a la mañana.",a:["encumbrar"],opts:["encarcelar","deshumanizar","entristecer","encumbrar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Social media can elevate someone overnight."},
+    {type:"fb",s:"{1}",a:["desperdigar"],opts:["desperdigar","encarcelar","deshumanizar","entristecer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to scatter / to spread"},
+    {type:"fb",s:"{1}",a:["emanar"],opts:["entristecer","emanar","encarcelar","deshumanizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to emanate / to emit"},
+    {type:"fb",s:"Van a {1} toda la plaza del pueblo.",a:["enlosar"],opts:["deshumanizar","entristecer","enlosar","encarcelar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They are going to pave the entire town square with tiles."},
+    {type:"fb",s:"Miles de voluntarios {1}on las filas de la organización.",a:["engrosar"],opts:["encarcelar","deshumanizar","entristecer","engrosar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Thousands of volunteers swelled the ranks of the organization."},
+    {type:"fb",s:"{1}",a:["denostar"],opts:["denostar","encarcelar","deshumanizar","entristecer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to revile / to insult gravely"},
+    {type:"fb",s:"Van a {1} a la familia del tercer piso.",a:["desahuciar"],opts:["entristecer","desahuciar","encarcelar","deshumanizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"They are going {1} the family on the third floor."}
   ]
 };
 

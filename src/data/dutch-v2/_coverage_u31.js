@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 31.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U31 = {
   id:"duv2_u31_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,17 +13,17 @@ const COVERAGE_U31 = {
     {type:"match",pairs:[{trg:"de cola",src:"the cola"},{trg:"de flat",src:"the apartment building"},{trg:"het appartement",src:"the apartment"},{trg:"boven",src:"upstairs / above"}]},
     {type:"match",pairs:[{trg:"onder",src:"under / below"},{trg:"binnen",src:"inside"},{trg:"buiten",src:"outside"},{trg:"de ochtend",src:"the morning"}]},
     {type:"match",pairs:[{trg:"de middag",src:"the afternoon"},{trg:"controleren",src:"to check / to control"},{trg:"laten",src:"to let / to leave"},{trg:"duren",src:"to last / to take (time)"},{trg:"klaar",src:"ready / finished"},{trg:"horen",src:"to hear"}]},
-    {type:"fb",s:"{1}",a:["heten"],opts:["glimlachen","lachen","noemen","heten"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be called"},
-    {type:"fb",s:"{1}",a:["goed"],opts:["gewoon","normaal","goed","echt"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"good"},
-    {type:"fb",s:"{1}",a:["echt"],opts:["goed","gewoon","normaal","echt"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"really / genuine"},
-    {type:"fb",s:"{1}",a:["glimlachen"],opts:["noemen","glimlachen","heten","lachen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to smile"},
-    {type:"fb",s:"{1}",a:["lachen"],opts:["glimlachen","noemen","lachen","heten"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to laugh"},
-    {type:"fb",s:"{1}",a:["noemen"],opts:["heten","glimlachen","lachen","noemen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to call / to name"},
-    {type:"fb",s:"{1}",a:["gewoon"],opts:["gewoon","goed","echt","normaal"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"normal / just / simply"},
-    {type:"fb",s:"{1}",a:["normaal"],opts:["goed","echt","gewoon","normaal"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"normal / usual"},
-    {type:"fb",s:"{1}",a:["mam"],opts:["de moeder","de broer","mam","de familie"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"mom"},
-    {type:"fb",s:"{1}",a:["jong"],opts:["goed","echt","gewoon","jong"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"young"},
-    {type:"fb",s:"{1}",a:["boven"],opts:["buiten","boven","onder","binnen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"upstairs / above"}
+    {type:"fb",s:"{1}",a:["heten"],opts:["heten","glimlachen","lachen","noemen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be called"},
+    {type:"fb",s:"{1}",a:["goed"],opts:["normaal","goed","echt","gewoon"],hint:"Type the target-language form. Meaning shown below.",sSrc:"good"},
+    {type:"fb",s:"Is dat {1}?",a:["echt"],opts:["gewoon","normaal","echt","goed"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is that real?"},
+    {type:"fb",s:"{1}",a:["glimlachen"],opts:["heten","lachen","noemen","glimlachen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to smile"},
+    {type:"fb",s:"{1}",a:["lachen"],opts:["lachen","heten","glimlachen","noemen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to laugh"},
+    {type:"fb",s:"{1}",a:["noemen"],opts:["lachen","noemen","heten","glimlachen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to call / to name"},
+    {type:"fb",s:"{1}",a:["gewoon"],opts:["echt","normaal","gewoon","goed"],hint:"Type the target-language form. Meaning shown below.",sSrc:"normal / just / simply"},
+    {type:"fb",s:"Is dat {1} hier?",a:["normaal"],opts:["goed","echt","gewoon","normaal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is that normal here?"},
+    {type:"fb",s:"{1}",a:["mam"],opts:["mam","de familie","de moeder","de broer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"mom"},
+    {type:"fb",s:"Je ziet er {1} uit.",a:["jong"],opts:["gewoon","jong","goed","echt"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You look {1}."},
+    {type:"fb",s:"{1}",a:["boven"],opts:["binnen","buiten","boven","onder"],hint:"Type the target-language form. Meaning shown below.",sSrc:"upstairs / above"}
   ]
 };
 

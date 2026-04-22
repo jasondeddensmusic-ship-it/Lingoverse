@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 56.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U56 = {
   id:"kov2_u56_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -20,18 +20,18 @@ const COVERAGE_U56 = {
     {type:"match",pairs:[{trg:"근본적",src:"fundamental, basic"},{trg:"글씨",src:"handwriting, letters (written)"},{trg:"긁다",src:"to scratch, to scrape"},{trg:"금고",src:"safe, vault, treasury"}]},
     {type:"match",pairs:[{trg:"금년",src:"this year"},{trg:"금세",src:"in no time, quickly, right away"},{trg:"금액",src:"amount of money, sum"},{trg:"금하다",src:"to prohibit, to restrain"}]},
     {type:"match",pairs:[{trg:"긋다",src:"to draw (a line), to underline"},{trg:"기구",src:"apparatus, device; organization"},{trg:"기타",src:"other, miscellaneous; guitar"},{trg:"내",src:"(bound noun: within, during)"}]},
-    {type:"fb",s:"{1}",a:["국민적"],opts:["국수","국민적","국사","국산"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"national (relating to the people)"},
-    {type:"fb",s:"{1}",a:["국사"],opts:["국산","국수","국사","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"national history"},
-    {type:"fb",s:"{1}",a:["국산"],opts:["국사","국수","국산","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"domestically made, domestic product"},
-    {type:"fb",s:"{1}",a:["국수"],opts:["국사","국산","국수","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"noodles"},
-    {type:"fb",s:"{1}",a:["국어"],opts:["국사","국산","국어","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Korean language (as school subject)"},
-    {type:"fb",s:"{1}",a:["국왕"],opts:["국산","국왕","국민적","국사"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"king, monarch"},
-    {type:"fb",s:"{1}",a:["국제선"],opts:["국사","국산","국제선","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"international flight/line"},
-    {type:"fb",s:"{1}",a:["국제적"],opts:["국산","국제적","국민적","국사"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"international"},
-    {type:"fb",s:"{1}",a:["국제화"],opts:["국사","국산","국제화","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"internationalization, globalization"},
-    {type:"fb",s:"{1}",a:["국회"],opts:["국사","국산","국회","국민적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"National Assembly, parliament"},
-    {type:"fb",s:"{1}",a:["군데"],opts:["국산","군데","국민적","국사"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"place (counter for locations)"},
-    {type:"fb",s:"{1}",a:["굳다"],opts:["굳다","귀찮다","귀하다","그립다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be firm, to be hard, to solidify"}
+    {type:"fb",s:"이 문제는 {1} 관심사야.",a:["국민적"],opts:["국민적","국사","국산","국수"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This issue is a matter of national interest."},
+    {type:"fb",s:"{1} 시험이 다음 주야.",a:["국사"],opts:["국수","국사","국민적","국산"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} exam is next week."},
+    {type:"fb",s:"이 차는 {1}이야 외제야?",a:["국산"],opts:["국사","국수","국산","국민적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this car domestic or imported?"},
+    {type:"fb",s:"오늘 점심에 {1} 먹을까?",a:["국수"],opts:["국민적","국사","국산","국수"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Shall we eat {1} for lunch today?"},
+    {type:"fb",s:"{1} 시간에 시를 배웠어.",a:["국어"],opts:["국어","국민적","국사","국산"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We learned poetry in Korean class."},
+    {type:"fb",s:"조선의 마지막 {1}은 누구야?",a:["국왕"],opts:["국산","국왕","국민적","국사"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Who was the last king of Joseon?"},
+    {type:"fb",s:"{1} 탑승구가 어디예요?",a:["국제선"],opts:["국사","국산","국제선","국민적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Where is the international departure gate?"},
+    {type:"fb",s:"이 회의는 {1}으로 중요해.",a:["국제적"],opts:["국민적","국사","국산","국제적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This conference is {1}ly important."},
+    {type:"fb",s:"한국 기업들의 {1}가 빠르게 진행되고 있어.",a:["국제화"],opts:["국제화","국민적","국사","국산"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The internationalization of Korean companies is progressing rapidly."},
+    {type:"fb",s:"{1}에서 새 법안을 통과시켰어.",a:["국회"],opts:["국산","국회","국민적","국사"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The National Assembly passed a new bill."},
+    {type:"fb",s:"몇 {1}를 방문했어?",a:["군데"],opts:["국사","국산","군데","국민적"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How many places did you visit?"},
+    {type:"fb",s:"{1}",a:["굳다"],opts:["귀찮다","귀하다","그립다","굳다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be firm, to be hard, to solidify"}
   ]
 };
 

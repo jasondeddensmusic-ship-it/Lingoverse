@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 59.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U59 = {
   id:"frv2_u59_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -11,16 +11,16 @@ const COVERAGE_U59 = {
     {type:"match",pairs:[{trg:"une injure",src:"an insult"},{trg:"la jointure",src:"the joint, the junction"},{trg:"laïque",src:"secular, non-religious"},{trg:"la criminologie",src:"criminology"}]},
     {type:"match",pairs:[{trg:"l'incarnation",src:"the incarnation, the embodiment"},{trg:"la longueur",src:"the length"},{trg:"légendaire",src:"legendary"},{trg:"un coffre-fort",src:"a safe, a strongbox"}]},
     {type:"match",pairs:[{trg:"le gravier",src:"the gravel"},{trg:"le grillage",src:"the wire fence, the mesh"},{trg:"un grille-pain",src:"a toaster"},{trg:"la cagoule",src:"the hood, the balaclava"},{trg:"la garderie",src:"the daycare, the nursery"},{trg:"la liqueur",src:"the liqueur"}]},
-    {type:"fb",s:"{1}",a:["s'abonner"],opts:["s'abonner","une affirmation","s'absenter","l'agressivité"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to subscribe"},
-    {type:"fb",s:"{1}",a:["s'absenter"],opts:["s'abonner","une affirmation","l'agressivité","s'absenter"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be absent, to leave temporarily"},
-    {type:"fb",s:"{1}",a:["l'agressivité"],opts:["l'accélération","l'alphabet","l'agressivité","une affirmation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the aggressiveness"},
-    {type:"fb",s:"{1}",a:["l'accélération"],opts:["l'agressivité","l'alphabet","l'accélération","une affirmation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the acceleration"},
-    {type:"fb",s:"{1}",a:["l'alphabet"],opts:["une affirmation","l'agressivité","l'accélération","l'alphabet"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the alphabet"},
-    {type:"fb",s:"{1}",a:["l'incapacité"],opts:["une affirmation","l'agressivité","l'accélération","l'incapacité"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the inability, the incapacity"},
-    {type:"fb",s:"{1}",a:["l'interaction"],opts:["l'interaction","une affirmation","l'agressivité","l'accélération"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the interaction"},
-    {type:"fb",s:"{1}",a:["laïque"],opts:["une affirmation","s'absenter","laïque","s'abonner"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"secular, non-religious"},
-    {type:"fb",s:"{1}",a:["l'incarnation"],opts:["l'incarnation","une affirmation","l'agressivité","l'accélération"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the incarnation, the embodiment"},
-    {type:"fb",s:"{1}",a:["légendaire"],opts:["s'absenter","légendaire","s'abonner","une affirmation"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"legendary"}
+    {type:"fb",s:"{1}",a:["s'abonner"],opts:["s'abonner","une affirmation","s'absenter","l'agressivité"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to subscribe"},
+    {type:"fb",s:"{1}",a:["s'absenter"],opts:["l'agressivité","s'absenter","s'abonner","une affirmation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be absent, to leave temporarily"},
+    {type:"fb",s:"{1}",a:["l'agressivité"],opts:["l'accélération","l'alphabet","l'agressivité","une affirmation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the aggressiveness"},
+    {type:"fb",s:"{1}",a:["l'accélération"],opts:["une affirmation","l'agressivité","l'alphabet","l'accélération"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the acceleration"},
+    {type:"fb",s:"{1}",a:["l'alphabet"],opts:["l'alphabet","une affirmation","l'agressivité","l'accélération"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the alphabet"},
+    {type:"fb",s:"{1}",a:["l'incapacité"],opts:["l'accélération","l'incapacité","une affirmation","l'agressivité"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the inability, the incapacity"},
+    {type:"fb",s:"{1}",a:["l'interaction"],opts:["l'agressivité","l'accélération","l'interaction","une affirmation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the interaction"},
+    {type:"fb",s:"La France est un État {1}.",a:["laïque"],opts:["s'abonner","une affirmation","s'absenter","laïque"],hint:"Type the target-language form. Meaning shown below.",sSrc:"France is a secular state."},
+    {type:"fb",s:"Elle est {1} de l'élégance.",a:["l'incarnation"],opts:["l'incarnation","une affirmation","l'agressivité","l'accélération"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She is the embodiment of elegance."},
+    {type:"fb",s:"Sa patience est {1}.",a:["légendaire"],opts:["s'absenter","légendaire","s'abonner","une affirmation"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His patience is {1}."}
   ]
 };
 

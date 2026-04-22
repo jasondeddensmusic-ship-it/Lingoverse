@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 31.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U31 = {
   id:"spv2_u31_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -14,17 +14,17 @@ const COVERAGE_U31 = {
     {type:"match",pairs:[{trg:"almorzar",src:"to have lunch"},{trg:"el aperitivo",src:"the appetizer, aperitif"},{trg:"asar",src:"to roast, to grill"},{trg:"la barbacoa",src:"the barbecue"}]},
     {type:"match",pairs:[{trg:"la autopista",src:"the highway, motorway"},{trg:"la avenida",src:"the avenue"},{trg:"el barrio",src:"the neighborhood"},{trg:"la barca",src:"the small boat"}]},
     {type:"match",pairs:[{trg:"la base",src:"the base, basis"},{trg:"la agencia",src:"the agency"},{trg:"el automóvil",src:"the automobile, car"},{trg:"el banco",src:"the bank; bench"},{trg:"la bandera",src:"the flag"}]},
-    {type:"fb",s:"{1}",a:["amable"],opts:["el artista","el autor","el atleta","amable"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"kind, friendly"},
-    {type:"fb",s:"{1}",a:["amar"],opts:["amar","besar","admirar","acompañar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to love"},
-    {type:"fb",s:"{1}",a:["besar"],opts:["admirar","acompañar","besar","amar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to kiss"},
-    {type:"fb",s:"{1}",a:["admirar"],opts:["amar","besar","acompañar","admirar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to admire"},
-    {type:"fb",s:"{1}",a:["acompañar"],opts:["besar","admirar","acompañar","amar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to accompany"},
-    {type:"fb",s:"{1}",a:["aconsejar"],opts:["amar","besar","admirar","aconsejar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to advise"},
-    {type:"fb",s:"{1}",a:["acariciar"],opts:["besar","admirar","acariciar","amar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to caress, to stroke"},
-    {type:"fb",s:"{1}",a:["apasionar"],opts:["amar","besar","admirar","apasionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be passionate about"},
-    {type:"fb",s:"{1}",a:["amueblar"],opts:["besar","admirar","amueblar","amar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to furnish"},
-    {type:"fb",s:"{1}",a:["alojar"],opts:["besar","admirar","alojar","amar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to lodge, to accommodate"},
-    {type:"fb",s:"{1}",a:["almorzar"],opts:["amar","besar","admirar","almorzar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to have lunch"}
+    {type:"fb",s:"Tu abuela es muy {1}.",a:["amable"],opts:["amable","el artista","el autor","el atleta"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Your grandmother is very kind."},
+    {type:"fb",s:"{1}",a:["amar"],opts:["acompañar","amar","besar","admirar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to love"},
+    {type:"fb",s:"{1}",a:["besar"],opts:["admirar","acompañar","besar","amar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to kiss"},
+    {type:"fb",s:"{1}",a:["admirar"],opts:["amar","besar","acompañar","admirar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to admire"},
+    {type:"fb",s:"{1}",a:["acompañar"],opts:["acompañar","amar","besar","admirar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to accompany"},
+    {type:"fb",s:"{1}",a:["aconsejar"],opts:["admirar","aconsejar","amar","besar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to advise"},
+    {type:"fb",s:"Me gusta {1} al gato.",a:["acariciar"],opts:["besar","admirar","acariciar","amar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I like to stroke the cat."},
+    {type:"fb",s:"{1}",a:["apasionar"],opts:["amar","besar","admirar","apasionar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be passionate about"},
+    {type:"fb",s:"Tenemos que {1} el piso.",a:["amueblar"],opts:["amueblar","amar","besar","admirar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We have {1} the apartment."},
+    {type:"fb",s:"{1}",a:["alojar"],opts:["admirar","alojar","amar","besar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to lodge, to accommodate"},
+    {type:"fb",s:"{1}",a:["almorzar"],opts:["besar","admirar","almorzar","amar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to have lunch"}
   ]
 };
 

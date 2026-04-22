@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 38.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U38 = {
   id:"kov2_u38_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -15,18 +15,18 @@ const COVERAGE_U38 = {
     {type:"match",pairs:[{trg:"쏟아지다",src:"to pour down, to cascade"},{trg:"뿌리다",src:"to sprinkle, to scatter"},{trg:"벗기다",src:"to peel off, to strip, to undress"},{trg:"밀다",src:"to push"}]},
     {type:"match",pairs:[{trg:"안방",src:"master bedroom, inner room"},{trg:"마루",src:"wooden floor, main hall"},{trg:"대문",src:"front gate, main gate"},{trg:"벽",src:"wall"}]},
     {type:"match",pairs:[{trg:"공간",src:"space, room"},{trg:"빨래",src:"laundry"},{trg:"먼지",src:"dust"},{trg:"바늘",src:"needle"},{trg:"가꾸다",src:"to cultivate, to tend, to groom"},{trg:"쌓이다",src:"to pile up, to accumulate"}]},
-    {type:"fb",s:"{1}",a:["가늘다"],opts:["검다","곱다","굵다","가늘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be thin, slender, fine"},
-    {type:"fb",s:"{1}",a:["검다"],opts:["굵다","검다","가늘다","곱다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be black, dark-colored"},
-    {type:"fb",s:"{1}",a:["곱다"],opts:["검다","굵다","곱다","가늘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be fine, beautiful, gentle"},
-    {type:"fb",s:"{1}",a:["굵다"],opts:["검다","곱다","굵다","가늘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be thick, coarse"},
-    {type:"fb",s:"{1}",a:["둥글다"],opts:["검다","곱다","둥글다","가늘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be round, circular"},
-    {type:"fb",s:"{1}",a:["부드럽다"],opts:["검다","곱다","부드럽다","가늘다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be soft, gentle, smooth"},
-    {type:"fb",s:"{1}",a:["깊이"],opts:["가늘다","검다","곱다","깊이"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"deeply, depth"},
-    {type:"fb",s:"{1}",a:["끓이다"],opts:["끓이다","섞다","섞이다","썰다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to boil (something)"},
-    {type:"fb",s:"{1}",a:["섞다"],opts:["끓이다","섞이다","썰다","섞다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to mix, to stir together"},
-    {type:"fb",s:"{1}",a:["섞이다"],opts:["썰다","섞이다","끓이다","섞다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be mixed, to blend"},
-    {type:"fb",s:"{1}",a:["썰다"],opts:["섞이다","썰다","끓이다","섞다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to chop, to slice"},
-    {type:"fb",s:"{1}",a:["담기다"],opts:["끓이다","섞다","섞이다","담기다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be contained, to be held in"}
+    {type:"fb",s:"{1}",a:["가늘다"],opts:["가늘다","검다","곱다","굵다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be thin, slender, fine"},
+    {type:"fb",s:"{1}",a:["검다"],opts:["굵다","검다","가늘다","곱다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be black, dark-colored"},
+    {type:"fb",s:"{1}",a:["곱다"],opts:["검다","굵다","곱다","가늘다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be fine, beautiful, gentle"},
+    {type:"fb",s:"{1}",a:["굵다"],opts:["가늘다","검다","곱다","굵다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be thick, coarse"},
+    {type:"fb",s:"{1}",a:["둥글다"],opts:["둥글다","가늘다","검다","곱다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be round, circular"},
+    {type:"fb",s:"{1}",a:["부드럽다"],opts:["곱다","부드럽다","가늘다","검다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be soft, gentle, smooth"},
+    {type:"fb",s:"이 문제를 {1} 생각해 봐요.",a:["깊이"],opts:["검다","곱다","깊이","가늘다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Think deeply about this problem."},
+    {type:"fb",s:"{1}",a:["끓이다"],opts:["섞다","섞이다","썰다","끓이다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to boil (something)"},
+    {type:"fb",s:"{1}",a:["섞다"],opts:["섞다","끓이다","섞이다","썰다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to mix, to stir together"},
+    {type:"fb",s:"{1}",a:["섞이다"],opts:["썰다","섞이다","끓이다","섞다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be mixed, to blend"},
+    {type:"fb",s:"{1}",a:["썰다"],opts:["섞다","섞이다","썰다","끓이다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to chop, to slice"},
+    {type:"fb",s:"{1}",a:["담기다"],opts:["끓이다","섞다","섞이다","담기다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be contained, to be held in"}
   ]
 };
 

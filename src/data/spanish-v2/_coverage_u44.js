@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 44.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U44 = {
   id:"spv2_u44_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,17 +18,17 @@ const COVERAGE_U44 = {
     {type:"match",pairs:[{trg:"la barbaridad",src:"the outrage / atrocity"},{trg:"la bofetada",src:"the slap (in the face)"},{trg:"la debilidad",src:"the weakness"},{trg:"degenerar",src:"to degenerate / to deteriorate"}]},
     {type:"match",pairs:[{trg:"decaer",src:"to decline / to weaken"},{trg:"la definición",src:"the definition"},{trg:"la clasificación",src:"the classification / standings"},{trg:"la asignación",src:"the allocation / assignment"}]},
     {type:"match",pairs:[{trg:"el anticipo",src:"the advance (payment) / preview"},{trg:"la actualización",src:"the update / modernization"},{trg:"cegar",src:"to blind / to dazzle"}]},
-    {type:"fb",s:"{1}",a:["calculador"],opts:["angelical","contundente","admirable","calculador"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"calculating / scheming"},
-    {type:"fb",s:"{1}",a:["angelical"],opts:["admirable","angelical","calculador","contundente"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"angelic"},
-    {type:"fb",s:"{1}",a:["contundente"],opts:["contundente","calculador","angelical","admirable"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"forceful / overwhelming"},
-    {type:"fb",s:"{1}",a:["admirable"],opts:["angelical","contundente","admirable","calculador"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"admirable"},
-    {type:"fb",s:"{1}",a:["creíble"],opts:["calculador","angelical","contundente","creíble"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"credible / believable"},
-    {type:"fb",s:"{1}",a:["acarrear"],opts:["agravar","alarmar","acarrear","acoplar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to carry / to cause (problems)"},
-    {type:"fb",s:"{1}",a:["acoplar"],opts:["alarmar","acoplar","acarrear","agravar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to couple / to fit together"},
-    {type:"fb",s:"{1}",a:["agravar"],opts:["alarmar","agravar","acarrear","acoplar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to aggravate / to worsen"},
-    {type:"fb",s:"{1}",a:["alarmar"],opts:["agravar","alarmar","acarrear","acoplar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to alarm / to worry"},
-    {type:"fb",s:"{1}",a:["apaciguar"],opts:["apaciguar","acarrear","acoplar","agravar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to pacify / to calm down"},
-    {type:"fb",s:"{1}",a:["argumentar"],opts:["acarrear","acoplar","agravar","argumentar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to argue (a point) / to reason"}
+    {type:"fb",s:"No confío en ella, es muy {1}a.",a:["calculador"],opts:["calculador","angelical","contundente","admirable"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I do not trust her, she is very calculating."},
+    {type:"fb",s:"La niña tiene una cara {1}.",a:["angelical"],opts:["admirable","angelical","calculador","contundente"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The girl has an {1} face."},
+    {type:"fb",s:"Su argumento fue {1}.",a:["contundente"],opts:["angelical","admirable","contundente","calculador"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His argument was overwhelming."},
+    {type:"fb",s:"Su dedicación al voluntariado es {1}.",a:["admirable"],opts:["calculador","angelical","contundente","admirable"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His dedication to volunteering is {1}."},
+    {type:"fb",s:"Su excusa no era muy {1}.",a:["creíble"],opts:["creíble","calculador","angelical","contundente"],hint:"Type the target-language form. Meaning shown below.",sSrc:"His excuse was not very credible."},
+    {type:"fb",s:"Esta decisión puede {1} graves problemas.",a:["acarrear"],opts:["alarmar","acarrear","acoplar","agravar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This decision could cause serious problems."},
+    {type:"fb",s:"Hay que {1} las dos piezas con cuidado.",a:["acoplar"],opts:["agravar","alarmar","acoplar","acarrear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You need to fit the two pieces together carefully."},
+    {type:"fb",s:"{1}",a:["agravar"],opts:["acarrear","acoplar","alarmar","agravar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to aggravate / to worsen"},
+    {type:"fb",s:"No quiero {1}te, pero el informe no es bueno.",a:["alarmar"],opts:["alarmar","acarrear","acoplar","agravar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I do not want to alarm you, but the report is not good."},
+    {type:"fb",s:"La madre logró {1} al niño con una canción.",a:["apaciguar"],opts:["agravar","apaciguar","acarrear","acoplar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The mother managed to calm the child with a song."},
+    {type:"fb",s:"{1}",a:["argumentar"],opts:["acoplar","agravar","argumentar","acarrear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to argue (a point) / to reason"}
   ]
 };
 

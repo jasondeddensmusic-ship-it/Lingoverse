@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 52.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U52 = {
   id:"kov2_u52_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -19,18 +19,18 @@ const COVERAGE_U52 = {
     {type:"match",pairs:[{trg:"더더욱",src:"all the more, even more so"},{trg:"더러워지다",src:"to become dirty"},{trg:"더럽다",src:"to be dirty, filthy"},{trg:"더불다",src:"to be together with, to accompany"}]},
     {type:"match",pairs:[{trg:"더욱",src:"even more, all the more"},{trg:"더욱더",src:"still more, increasingly"},{trg:"더욱이",src:"moreover, furthermore"},{trg:"덜다",src:"to reduce, to lessen, to relieve"}]},
     {type:"match",pairs:[{trg:"덧붙이다",src:"to add, to append, to supplement"},{trg:"덩어리",src:"lump, chunk, mass"},{trg:"데려가다",src:"to take (a person) somewhere"},{trg:"데려오다",src:"to bring (a person) here"}]},
-    {type:"fb",s:"{1}",a:["다소"],opts:["대체","다소","달리","대략"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"somewhat, a little, to some extent"},
-    {type:"fb",s:"{1}",a:["다양해지다"],opts:["다양해지다","다지다","다짐하다","다치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to become diverse, to diversify"},
-    {type:"fb",s:"{1}",a:["다이어트"],opts:["단맛","다이어트","다툼","단독"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"diet (weight loss)"},
-    {type:"fb",s:"{1}",a:["다정하다"],opts:["다정하다","다소","다양해지다","다이어트"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be affectionate, warm-hearted"},
-    {type:"fb",s:"{1}",a:["다지다"],opts:["다양해지다","다짐하다","다치다","다지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to strengthen, to firm up; to mince"},
-    {type:"fb",s:"{1}",a:["다짐하다"],opts:["다치다","다짐하다","다양해지다","다지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to resolve, to make a firm promise"},
-    {type:"fb",s:"{1}",a:["다치다"],opts:["다양해지다","다지다","다짐하다","다치다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to get hurt, to be injured"},
-    {type:"fb",s:"{1}",a:["다투다"],opts:["다양해지다","다지다","다짐하다","다투다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to quarrel, to fight, to argue"},
-    {type:"fb",s:"{1}",a:["다툼"],opts:["단맛","다툼","다이어트","단독"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"quarrel, dispute, conflict"},
-    {type:"fb",s:"{1}",a:["닥치다"],opts:["다지다","다짐하다","닥치다","다양해지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to approach suddenly; to shut up (slang)"},
-    {type:"fb",s:"{1}",a:["단단하다"],opts:["다이어트","단단하다","다소","다양해지다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be hard, firm, solid"},
-    {type:"fb",s:"{1}",a:["단독"],opts:["단독","다이어트","다툼","단맛"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"sole, independent, exclusive"}
+    {type:"fb",s:"이 방법은 {1} 위험해요.",a:["다소"],opts:["다소","달리","대략","대체"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This method is somewhat dangerous."},
+    {type:"fb",s:"{1}",a:["다양해지다"],opts:["다치다","다양해지다","다지다","다짐하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to become diverse, to diversify"},
+    {type:"fb",s:"{1}를 시작했어요.",a:["다이어트"],opts:["단독","단맛","다이어트","다툼"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I started a diet."},
+    {type:"fb",s:"{1}",a:["다정하다"],opts:["다소","다양해지다","다이어트","다정하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be affectionate, warm-hearted"},
+    {type:"fb",s:"{1}",a:["다지다"],opts:["다지다","다양해지다","다짐하다","다치다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to strengthen, to firm up; to mince"},
+    {type:"fb",s:"{1}",a:["다짐하다"],opts:["다치다","다짐하다","다양해지다","다지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to resolve, to make a firm promise"},
+    {type:"fb",s:"{1}",a:["다치다"],opts:["다지다","다짐하다","다치다","다양해지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to get hurt, to be injured"},
+    {type:"fb",s:"{1}",a:["다투다"],opts:["다양해지다","다지다","다짐하다","다투다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to quarrel, to fight, to argue"},
+    {type:"fb",s:"형제끼리 {1}이 잦아요.",a:["다툼"],opts:["다툼","다이어트","단독","단맛"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The siblings quarrel frequently."},
+    {type:"fb",s:"{1}",a:["닥치다"],opts:["다짐하다","닥치다","다양해지다","다지다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to approach suddenly; to shut up (slang)"},
+    {type:"fb",s:"{1}",a:["단단하다"],opts:["다양해지다","다이어트","단단하다","다소"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be hard, firm, solid"},
+    {type:"fb",s:"{1} 인터뷰를 했어요?",a:["단독"],opts:["다이어트","다툼","단맛","단독"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you do an exclusive interview?"}
   ]
 };
 

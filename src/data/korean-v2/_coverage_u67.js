@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 67.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U67 = {
   id:"kov2_u67_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -19,18 +19,18 @@ const COVERAGE_U67 = {
     {type:"match",pairs:[{trg:"아스팔트",src:"asphalt"},{trg:"아아",src:"ah, oh (exclamation)"},{trg:"아울러",src:"in addition, along with"},{trg:"아이디어",src:"idea"}]},
     {type:"match",pairs:[{trg:"악기",src:"musical instrument"},{trg:"악몽",src:"nightmare"},{trg:"악수",src:"handshake"},{trg:"안과",src:"ophthalmology, eye clinic"}]},
     {type:"match",pairs:[{trg:"안기다",src:"to be held, to snuggle into"},{trg:"안쪽",src:"inside, inner part"},{trg:"안팎",src:"inside and outside, approximately"}]},
-    {type:"fb",s:"{1}",a:["신중하다"],opts:["신중하다","심심하다","쓰다","씩씩하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be cautious, to be prudent"},
-    {type:"fb",s:"{1}",a:["신청하다"],opts:["신청하다","실리다","실수하다","실시되다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to apply, to request"},
-    {type:"fb",s:"{1}",a:["신체적"],opts:["신혼부부","실시","신체적","신호등"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"physical, bodily"},
-    {type:"fb",s:"{1}",a:["신호등"],opts:["신혼부부","실시","신호등","신체적"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"traffic light"},
-    {type:"fb",s:"{1}",a:["신혼부부"],opts:["실시","신혼부부","신체적","신호등"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"newlywed couple"},
-    {type:"fb",s:"{1}",a:["실로"],opts:["실컷","실로","실은","실제로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"truly, indeed"},
-    {type:"fb",s:"{1}",a:["실리다"],opts:["신청하다","실수하다","실시되다","실리다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be loaded, to be published"},
-    {type:"fb",s:"{1}",a:["실수하다"],opts:["실시되다","실수하다","신청하다","실리다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to make a mistake"},
-    {type:"fb",s:"{1}",a:["실시"],opts:["신혼부부","실시","신체적","신호등"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"implementation, carrying out"},
-    {type:"fb",s:"{1}",a:["실시되다"],opts:["실수하다","실시되다","신청하다","실리다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be implemented, to be carried out"},
-    {type:"fb",s:"{1}",a:["실은"],opts:["실컷","실은","실로","실제로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"actually, to tell the truth"},
-    {type:"fb",s:"{1}",a:["실제로"],opts:["실로","실은","실컷","실제로"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"actually, in reality"}
+    {type:"fb",s:"{1}",a:["신중하다"],opts:["신중하다","심심하다","쓰다","씩씩하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be cautious, to be prudent"},
+    {type:"fb",s:"{1}",a:["신청하다"],opts:["실시되다","신청하다","실리다","실수하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to apply, to request"},
+    {type:"fb",s:"{1} 건강도 중요하지만 정신 건강도 중요해.",a:["신체적"],opts:["신혼부부","실시","신체적","신호등"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Physical health is important, but mental health is too."},
+    {type:"fb",s:"{1}이 빨간불이야. 잠깐 기다려.",a:["신호등"],opts:["신체적","신혼부부","실시","신호등"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The {1} is red. Wait a moment."},
+    {type:"fb",s:"옆집에 {1}가 이사 왔대.",a:["신혼부부"],opts:["신혼부부","신체적","신호등","실시"],hint:"Type the target-language form. Meaning shown below.",sSrc:"A {1} moved in next door."},
+    {type:"fb",s:"{1} 놀라운 결과입니다.",a:["실로"],opts:["실컷","실로","실은","실제로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"It is truly a surprising result."},
+    {type:"fb",s:"{1}",a:["실리다"],opts:["실수하다","실시되다","실리다","신청하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be loaded, to be published"},
+    {type:"fb",s:"{1}",a:["실수하다"],opts:["신청하다","실리다","실시되다","실수하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to make a mistake"},
+    {type:"fb",s:"새로운 정책이 다음 달부터 {1}됩니다.",a:["실시"],opts:["실시","신체적","신호등","신혼부부"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The new policy will be implemented starting next month."},
+    {type:"fb",s:"{1}",a:["실시되다"],opts:["실수하다","실시되다","신청하다","실리다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be implemented, to be carried out"},
+    {type:"fb",s:"{1} 말 못 한 게 있어.",a:["실은"],opts:["실제로","실컷","실은","실로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Actually, there is something I have not told you."},
+    {type:"fb",s:"{1} 해 보니까 어때?",a:["실제로"],opts:["실로","실은","실컷","실제로"],hint:"Type the target-language form. Meaning shown below.",sSrc:"How was it when you actually tried it?"}
   ]
 };
 

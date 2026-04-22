@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 44.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U44 = {
   id:"frv2_u44_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,16 +9,16 @@ const COVERAGE_U44 = {
     {type:"match",pairs:[{trg:"le cubisme",src:"the cubism"},{trg:"un copeau",src:"a shaving, a chip (of wood)"},{trg:"la benediction",src:"the blessing"},{trg:"encastrer",src:"to embed, to recess"}]},
     {type:"match",pairs:[{trg:"le business",src:"the business"},{trg:"le complet",src:"the (business) suit"},{trg:"le compte-gouttes",src:"the dropper, drop by drop"},{trg:"l'adduction",src:"the supply (of water), the adduction"}]},
     {type:"match",pairs:[{trg:"denoter",src:"to denote, to indicate"},{trg:"un derive",src:"a derivative, a by-product"},{trg:"l'empatement",src:"the serif (typography), the wheelbase"},{trg:"le binocle",src:"the pince-nez, the old-fashioned glasses"}]},
-    {type:"fb",s:"{1}",a:["ducal"],opts:["le conformisme","un confrere","ducal","le confederalisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ducal, of a duke"},
-    {type:"fb",s:"{1}",a:["affectivement"],opts:["le conformisme","un confrere","affectivement","le confederalisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"emotionally, affectively"},
-    {type:"fb",s:"{1}",a:["l'amateurisme"],opts:["un confrere","l'amateurisme","le confederalisme","le conformisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the amateurism"},
-    {type:"fb",s:"{1}",a:["attarde"],opts:["attarde","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"backward, slow-witted"},
-    {type:"fb",s:"{1}",a:["derouter"],opts:["le confederalisme","le conformisme","un confrere","derouter"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to disconcert, to confuse"},
-    {type:"fb",s:"{1}",a:["encastrer"],opts:["encastrer","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to embed, to recess"},
-    {type:"fb",s:"{1}",a:["l'adduction"],opts:["le confederalisme","le conformisme","un confrere","l'adduction"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the supply (of water), the adduction"},
-    {type:"fb",s:"{1}",a:["denoter"],opts:["denoter","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to denote, to indicate"},
-    {type:"fb",s:"{1}",a:["l'empatement"],opts:["le conformisme","un confrere","l'empatement","le confederalisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the serif (typography), the wheelbase"},
-    {type:"fb",s:"{1}",a:["conformement"],opts:["conformement","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"in accordance with"}
+    {type:"fb",s:"Le palais {1} de Nancy est magnifique.",a:["ducal"],opts:["ducal","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The ducal palace of Nancy is magnificent."},
+    {type:"fb",s:"Il est {1} tres fragile en ce moment.",a:["affectivement"],opts:["un confrere","affectivement","le confederalisme","le conformisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He is emotionally very fragile right now."},
+    {type:"fb",s:"{1}",a:["l'amateurisme"],opts:["le conformisme","un confrere","l'amateurisme","le confederalisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the amateurism"},
+    {type:"fb",s:"Ce quartier est economiquement {1}.",a:["attarde"],opts:["le confederalisme","le conformisme","un confrere","attarde"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This neighborhood is economically backward."},
+    {type:"fb",s:"{1}",a:["derouter"],opts:["derouter","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to disconcert, to confuse"},
+    {type:"fb",s:"On va {1} le four dans le meuble de cuisine.",a:["encastrer"],opts:["un confrere","encastrer","le confederalisme","le conformisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We'll recess the oven into the kitchen unit."},
+    {type:"fb",s:"{1}",a:["l'adduction"],opts:["le conformisme","un confrere","l'adduction","le confederalisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the supply (of water), the adduction"},
+    {type:"fb",s:"{1}",a:["denoter"],opts:["le confederalisme","le conformisme","un confrere","denoter"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to denote, to indicate"},
+    {type:"fb",s:"{1}",a:["l'empatement"],opts:["l'empatement","le confederalisme","le conformisme","un confrere"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the serif (typography), the wheelbase"},
+    {type:"fb",s:"Ce rapport a ete redige {1} aux normes.",a:["conformement"],opts:["un confrere","conformement","le confederalisme","le conformisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This report was written {1} standards."}
   ]
 };
 

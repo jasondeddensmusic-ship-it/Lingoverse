@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 45.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U45 = {
   id:"spv2_u45_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -18,17 +18,17 @@ const COVERAGE_U45 = {
     {type:"match",pairs:[{trg:"cotejar",src:"to compare / to cross-check"},{trg:"achacar",src:"to attribute / to blame on"},{trg:"accionar",src:"to activate / to take action"},{trg:"la aspiración",src:"the aspiration / ambition"}]},
     {type:"match",pairs:[{trg:"cosificar",src:"to objectify / to treat as a thing"},{trg:"coquetear",src:"to flirt"},{trg:"apuntalar",src:"to prop up / to shore up"},{trg:"costear",src:"to fund / to cover the cost of"}]},
     {type:"match",pairs:[{trg:"abusar",src:"to abuse / to take advantage"},{trg:"dar de alta",src:"to discharge / to register"},{trg:"la agrado",src:"the pleasure / liking"}]},
-    {type:"fb",s:"{1}",a:["cooperativo"],opts:["el cabrito","el amasijo","cooperativo","el brécol"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"cooperative"},
-    {type:"fb",s:"{1}",a:["aritmético"],opts:["aritmético","el brécol","el cabrito","el amasijo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"arithmetic / arithmetical"},
-    {type:"fb",s:"{1}",a:["cronológico"],opts:["el amasijo","cronológico","el brécol","el cabrito"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"chronological"},
-    {type:"fb",s:"{1}",a:["cotejar"],opts:["cosificar","cotejar","achacar","accionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to compare / to cross-check"},
-    {type:"fb",s:"{1}",a:["achacar"],opts:["accionar","cosificar","achacar","cotejar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to attribute / to blame on"},
-    {type:"fb",s:"{1}",a:["accionar"],opts:["cosificar","accionar","cotejar","achacar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to activate / to take action"},
-    {type:"fb",s:"{1}",a:["cosificar"],opts:["cosificar","cotejar","achacar","accionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to objectify / to treat as a thing"},
-    {type:"fb",s:"{1}",a:["coquetear"],opts:["coquetear","cotejar","achacar","accionar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to flirt"},
-    {type:"fb",s:"{1}",a:["apuntalar"],opts:["cotejar","achacar","accionar","apuntalar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to prop up / to shore up"},
-    {type:"fb",s:"{1}",a:["costear"],opts:["achacar","accionar","costear","cotejar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to fund / to cover the cost of"},
-    {type:"fb",s:"{1}",a:["abusar"],opts:["accionar","abusar","cotejar","achacar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to abuse / to take advantage"}
+    {type:"fb",s:"El aprendizaje {1} mejora los resultados escolares.",a:["cooperativo"],opts:["cooperativo","el brécol","el cabrito","el amasijo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"{1} learning improves school results."},
+    {type:"fb",s:"{1}",a:["aritmético"],opts:["el amasijo","aritmético","el brécol","el cabrito"],hint:"Type the target-language form. Meaning shown below.",sSrc:"arithmetic / arithmetical"},
+    {type:"fb",s:"Ordena los acontecimientos en orden {1}.",a:["cronológico"],opts:["el cabrito","el amasijo","cronológico","el brécol"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Arrange the events in {1} order."},
+    {type:"fb",s:"Hay que {1} las firmas con el documento original.",a:["cotejar"],opts:["achacar","accionar","cosificar","cotejar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to cross-check the signatures against the original document."},
+    {type:"fb",s:"{1}",a:["achacar"],opts:["achacar","cotejar","accionar","cosificar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to attribute / to blame on"},
+    {type:"fb",s:"{1}",a:["accionar"],opts:["cosificar","accionar","cotejar","achacar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to activate / to take action"},
+    {type:"fb",s:"{1}",a:["cosificar"],opts:["achacar","accionar","cosificar","cotejar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to objectify / to treat as a thing"},
+    {type:"fb",s:"{1}",a:["coquetear"],opts:["cotejar","achacar","accionar","coquetear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to flirt"},
+    {type:"fb",s:"Hay que {1} el muro antes de que se derrumbe.",a:["apuntalar"],opts:["apuntalar","cotejar","achacar","accionar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to shore up the wall before it collapses."},
+    {type:"fb",s:"¿Quién va a {1} las obras del puente?",a:["costear"],opts:["accionar","costear","cotejar","achacar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Who is going to fund the bridge works?"},
+    {type:"fb",s:"No se puede {1} de la confianza de los demás.",a:["abusar"],opts:["achacar","accionar","abusar","cotejar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"You cannot abuse other people's trust."}
   ]
 };
 

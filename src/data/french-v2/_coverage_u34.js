@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 34.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U34 = {
   id:"frv2_u34_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
@@ -12,17 +12,17 @@ const COVERAGE_U34 = {
     {type:"match",pairs:[{trg:"l'avidement",src:"eagerly, avidly"},{trg:"l'alcoolique",src:"alcoholic"},{trg:"l'alcoolisme",src:"the alcoholism"},{trg:"l'amusant",src:"funny, entertaining"}]},
     {type:"match",pairs:[{trg:"l'automne",src:"the autumn, the fall"},{trg:"l'atmosphère",src:"the atmosphere"},{trg:"l'avis",src:"the opinion"},{trg:"l'avoine",src:"the oat"}]},
     {type:"match",pairs:[{trg:"l'astre",src:"the celestial body, the star"},{trg:"l'aiguille",src:"the needle, the clock hand"},{trg:"l'album",src:"the album"}]},
-    {type:"fb",s:"{1}",a:["l'archéologie"],opts:["l'attraction","l'allure","l'archéologie","l'athlétisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the archaeology"},
-    {type:"fb",s:"{1}",a:["l'athlétisme"],opts:["l'attraction","l'allure","l'athlétisme","l'archéologie"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"track and field, athletics"},
-    {type:"fb",s:"{1}",a:["athlétique"],opts:["antique","africain","australien","athlétique"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"athletic"},
-    {type:"fb",s:"{1}",a:["antique"],opts:["antique","athlétique","africain","australien"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"ancient, antique"},
-    {type:"fb",s:"{1}",a:["l'attraction"],opts:["l'archéologie","l'athlétisme","l'allure","l'attraction"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the attraction, the ride"},
-    {type:"fb",s:"{1}",a:["l'allure"],opts:["l'archéologie","l'athlétisme","l'attraction","l'allure"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the look, the pace"},
-    {type:"fb",s:"{1}",a:["l'agrément"],opts:["l'archéologie","l'athlétisme","l'attraction","l'agrément"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the approval, the pleasure"},
-    {type:"fb",s:"{1}",a:["assurer"],opts:["assurer","l'archéologie","l'athlétisme","athlétique"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to ensure, to insure"},
-    {type:"fb",s:"{1}",a:["l'abandon"],opts:["l'attraction","l'abandon","l'archéologie","l'athlétisme"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the abandonment"},
-    {type:"fb",s:"{1}",a:["l'attachement"],opts:["l'attachement","l'archéologie","l'athlétisme","l'attraction"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the attachment"},
-    {type:"fb",s:"{1}",a:["l'acharnement"],opts:["l'athlétisme","l'attraction","l'acharnement","l'archéologie"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the relentlessness, the determination"}
+    {type:"fb",s:"Tu étudies {1} ?",a:["l'archéologie"],opts:["l'archéologie","l'athlétisme","l'attraction","l'allure"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are you studying archaeology?"},
+    {type:"fb",s:"Tu fais de {1} ?",a:["l'athlétisme"],opts:["l'allure","l'athlétisme","l'archéologie","l'attraction"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you do track and field?"},
+    {type:"fb",s:"Il est très {1}.",a:["athlétique"],opts:["africain","australien","athlétique","antique"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He's very {1}."},
+    {type:"fb",s:"Ce vase est {1} ?",a:["antique"],opts:["athlétique","africain","australien","antique"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this vase antique?"},
+    {type:"fb",s:"{1}",a:["l'attraction"],opts:["l'attraction","l'archéologie","l'athlétisme","l'allure"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the attraction, the ride"},
+    {type:"fb",s:"Elle a de {1} !",a:["l'allure"],opts:["l'attraction","l'allure","l'archéologie","l'athlétisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She has style!"},
+    {type:"fb",s:"{1}",a:["l'agrément"],opts:["l'athlétisme","l'attraction","l'agrément","l'archéologie"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the approval, the pleasure"},
+    {type:"fb",s:"{1}",a:["assurer"],opts:["l'archéologie","l'athlétisme","athlétique","assurer"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to ensure, to insure"},
+    {type:"fb",s:"{1}",a:["l'abandon"],opts:["l'abandon","l'archéologie","l'athlétisme","l'attraction"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the abandonment"},
+    {type:"fb",s:"{1}",a:["l'attachement"],opts:["l'attraction","l'attachement","l'archéologie","l'athlétisme"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the attachment"},
+    {type:"fb",s:"{1}",a:["l'acharnement"],opts:["l'athlétisme","l'attraction","l'acharnement","l'archéologie"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the relentlessness, the determination"}
   ]
 };
 

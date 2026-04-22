@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 47.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U47 = {
   id:"duv2_u47_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -13,18 +13,18 @@ const COVERAGE_U47 = {
     {type:"match",pairs:[{trg:"daadwerkelijk",src:"actually, really"},{trg:"daartoe",src:"to that end, for that purpose"},{trg:"de afvalophaling",src:"the waste collection"},{trg:"het ecoplan",src:"the eco plan"}]},
     {type:"match",pairs:[{trg:"de dijkversterking",src:"the dike reinforcement"},{trg:"drukbevolkt",src:"densely populated"},{trg:"het bachelorjaar",src:"the bachelor year"},{trg:"debuteren",src:"to debut, to make one's debut"}]},
     {type:"match",pairs:[{trg:"het dienstverband",src:"the employment contract"},{trg:"het arbeidscontract",src:"the employment contract"},{trg:"de eindstreep",src:"the finish line"},{trg:"de curator",src:"the curator"},{trg:"de commercie",src:"the commerce, the commercial side"},{trg:"de client",src:"the client"}]},
-    {type:"fb",s:"{1}",a:["emigreren"],opts:["debuteren","emigreren","associeren","doorprikken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to emigrate"},
-    {type:"fb",s:"{1}",a:["associeren"],opts:["emigreren","doorprikken","debuteren","associeren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to associate"},
-    {type:"fb",s:"{1}",a:["eminent"],opts:["doelbewust","eminent","eigentijds","denkbaar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"eminent, distinguished"},
-    {type:"fb",s:"{1}",a:["eigentijds"],opts:["doelbewust","eigentijds","eminent","denkbaar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"contemporary, modern"},
-    {type:"fb",s:"{1}",a:["denkbaar"],opts:["eminent","eigentijds","doelbewust","denkbaar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"thinkable, conceivable"},
-    {type:"fb",s:"{1}",a:["doelbewust"],opts:["denkbaar","doelbewust","eminent","eigentijds"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"deliberate, purposeful"},
-    {type:"fb",s:"{1}",a:["doeltreffend"],opts:["eminent","eigentijds","denkbaar","doeltreffend"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"effective, efficient"},
-    {type:"fb",s:"{1}",a:["doorprikken"],opts:["debuteren","doorprikken","emigreren","associeren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to puncture, to see through"},
-    {type:"fb",s:"{1}",a:["daaropvolgend"],opts:["eminent","eigentijds","denkbaar","daaropvolgend"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"subsequent, following"},
-    {type:"fb",s:"{1}",a:["daadwerkelijk"],opts:["de allochtoon","de emigratie","emigreren","daadwerkelijk"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"actually, really"},
-    {type:"fb",s:"{1}",a:["daartoe"],opts:["de allochtoon","de emigratie","emigreren","daartoe"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to that end, for that purpose"},
-    {type:"fb",s:"{1}",a:["drukbevolkt"],opts:["eigentijds","denkbaar","drukbevolkt","eminent"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"densely populated"}
+    {type:"fb",s:"Heb je er ooit over gedacht om te {1}?",a:["emigreren"],opts:["emigreren","associeren","doorprikken","debuteren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Have you ever thought about emigrating?"},
+    {type:"fb",s:"{1}",a:["associeren"],opts:["debuteren","associeren","emigreren","doorprikken"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to associate"},
+    {type:"fb",s:"Professor De Vries is een {1} historicus.",a:["eminent"],opts:["denkbaar","doelbewust","eminent","eigentijds"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Professor De Vries is an eminent historian."},
+    {type:"fb",s:"Dit museum toont {1}e kunst.",a:["eigentijds"],opts:["eminent","denkbaar","doelbewust","eigentijds"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This museum shows contemporary art."},
+    {type:"fb",s:"Is het {1} dat ze winnen?",a:["denkbaar"],opts:["denkbaar","eminent","eigentijds","doelbewust"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is it conceivable that they win?"},
+    {type:"fb",s:"Ze handelde heel {1}.",a:["doelbewust"],opts:["denkbaar","doelbewust","eminent","eigentijds"],hint:"Type the target-language form. Meaning shown below.",sSrc:"She acted very deliberately."},
+    {type:"fb",s:"Was de campagne {1}?",a:["doeltreffend"],opts:["eigentijds","denkbaar","doeltreffend","eminent"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Was the campaign effective?"},
+    {type:"fb",s:"{1}",a:["doorprikken"],opts:["emigreren","associeren","debuteren","doorprikken"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to puncture, to see through"},
+    {type:"fb",s:"In het {1}e jaar steeg de omzet.",a:["daaropvolgend"],opts:["daaropvolgend","eminent","eigentijds","denkbaar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"In the subsequent year, revenue rose."},
+    {type:"fb",s:"Heeft hij het {1} gezegd?",a:["daadwerkelijk"],opts:["emigreren","daadwerkelijk","de allochtoon","de emigratie"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did he actually say it?"},
+    {type:"fb",s:"We moeten maatregelen nemen en het budget {1} aanpassen.",a:["daartoe"],opts:["de emigratie","emigreren","daartoe","de allochtoon"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to take measures and adjust the budget for that purpose."},
+    {type:"fb",s:"Nederland is een {1} land.",a:["drukbevolkt"],opts:["eminent","eigentijds","denkbaar","drukbevolkt"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The Netherlands is a {1} country."}
   ]
 };
 

@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 38.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U38 = {
   id:"spv2_u38_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -14,16 +14,16 @@ const COVERAGE_U38 = {
     {type:"match",pairs:[{trg:"la anorexia",src:"the anorexia"},{trg:"el adelantado",src:"the pioneer, governor (historical)"},{trg:"a media luz",src:"in dim light, in half-light"},{trg:"el acer(c)amiento",src:"the rapprochement"}]},
     {type:"match",pairs:[{trg:"la amiga",src:"the friend (female)"},{trg:"el cabezón",src:"the stubborn person, big-headed"},{trg:"la cacería",src:"the hunt"},{trg:"el almirante",src:"the admiral"}]},
     {type:"match",pairs:[{trg:"el alhaja",src:"the jewel, treasure"},{trg:"el animal doméstico",src:"the domestic animal, pet"},{trg:"el cabrero",src:"the goatherd"},{trg:"la barriguita",src:"the little belly"},{trg:"la alhambra",src:"the Alhambra (metaphorical: treasure)"}]},
-    {type:"fb",s:"{1}",a:["antártico"],opts:["el acaso","la aversión","antártico","el bálsamo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"Antarctic"},
-    {type:"fb",s:"{1}",a:["azucarar"],opts:["azucarar","agonizar","aterrorizar","aniquilar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to add sugar to, to sweeten"},
-    {type:"fb",s:"{1}",a:["agonizar"],opts:["aterrorizar","aniquilar","agonizar","azucarar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be dying, to agonize"},
-    {type:"fb",s:"{1}",a:["aterrorizar"],opts:["aterrorizar","azucarar","agonizar","aniquilar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to terrorize"},
-    {type:"fb",s:"{1}",a:["aniquilar"],opts:["azucarar","agonizar","aterrorizar","aniquilar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to annihilate, to destroy"},
-    {type:"fb",s:"{1}",a:["azorar"],opts:["azorar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to embarrass, to fluster"},
-    {type:"fb",s:"{1}",a:["adueñar"],opts:["adueñar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to take ownership, to seize"},
-    {type:"fb",s:"{1}",a:["agredir"],opts:["azucarar","agonizar","aterrorizar","agredir"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to assault, to attack"},
-    {type:"fb",s:"{1}",a:["amnistiar"],opts:["aterrorizar","amnistiar","azucarar","agonizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to grant amnesty"},
-    {type:"fb",s:"{1}",a:["atmosférico"],opts:["antártico","el bálsamo","el acaso","atmosférico"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"atmospheric"}
+    {type:"fb",s:"{1}",a:["antártico"],opts:["antártico","el bálsamo","el acaso","la aversión"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Antarctic"},
+    {type:"fb",s:"{1}",a:["azucarar"],opts:["aniquilar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to add sugar to, to sweeten"},
+    {type:"fb",s:"{1}",a:["agonizar"],opts:["aterrorizar","aniquilar","agonizar","azucarar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be dying, to agonize"},
+    {type:"fb",s:"{1}",a:["aterrorizar"],opts:["azucarar","agonizar","aniquilar","aterrorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to terrorize"},
+    {type:"fb",s:"{1}",a:["aniquilar"],opts:["aniquilar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to annihilate, to destroy"},
+    {type:"fb",s:"{1}",a:["azorar"],opts:["aterrorizar","azorar","azucarar","agonizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to embarrass, to fluster"},
+    {type:"fb",s:"{1}",a:["adueñar"],opts:["agonizar","aterrorizar","adueñar","azucarar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to take ownership, to seize"},
+    {type:"fb",s:"{1}",a:["agredir"],opts:["azucarar","agonizar","aterrorizar","agredir"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to assault, to attack"},
+    {type:"fb",s:"{1}",a:["amnistiar"],opts:["amnistiar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to grant amnesty"},
+    {type:"fb",s:"{1}",a:["atmosférico"],opts:["el acaso","atmosférico","antártico","el bálsamo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"atmospheric"}
   ]
 };
 

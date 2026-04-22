@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 44.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U44 = {
   id:"kov2_u44_coverage_review", title:"복습: 빠진 어휘 커버리지", icon:"🎯", xp:10, board:true,
   steps:[
@@ -16,18 +16,18 @@ const COVERAGE_U44 = {
     {type:"match",pairs:[{trg:"최근",src:"recently, lately"},{trg:"최대",src:"maximum, the largest"},{trg:"최선",src:"one's best, the best effort"},{trg:"최소한",src:"at least, at the minimum"}]},
     {type:"match",pairs:[{trg:"최초",src:"the first, the very first, the earliest"},{trg:"특징",src:"characteristic, feature, trait"},{trg:"유난히",src:"exceptionally, unusually, remarkably"},{trg:"진짜",src:"real, genuine, really"}]},
     {type:"match",pairs:[{trg:"직접",src:"directly, in person, personally"},{trg:"정도",src:"degree, extent, about/approximately"},{trg:"한꺼번에",src:"all at once, at the same time"}]},
-    {type:"fb",s:"{1}",a:["정보"],opts:["토론","피시","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"information"},
-    {type:"fb",s:"{1}",a:["자세히"],opts:["정보","해석","토론","자세히"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"in detail, closely, thoroughly"},
-    {type:"fb",s:"{1}",a:["해석"],opts:["해석","정보","토론","피시"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"interpretation, analysis"},
-    {type:"fb",s:"{1}",a:["토론"],opts:["피시","토론","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"debate, discussion"},
-    {type:"fb",s:"{1}",a:["피시"],opts:["토론","피시","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"PC, personal computer"},
-    {type:"fb",s:"{1}",a:["위치"],opts:["토론","위치","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"location, position"},
-    {type:"fb",s:"{1}",a:["위치하다"],opts:["정해지다","위치하다","요구하다","정하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to be located, to be situated"},
-    {type:"fb",s:"{1}",a:["주변"],opts:["토론","주변","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"surroundings, vicinity, around"},
-    {type:"fb",s:"{1}",a:["코너"],opts:["토론","코너","정보","해석"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"corner, section"},
-    {type:"fb",s:"{1}",a:["집안"],opts:["해석","토론","집안","정보"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"inside the house, family, household"},
-    {type:"fb",s:"{1}",a:["요구하다"],opts:["정해지다","요구하다","위치하다","정하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to demand, to require"},
-    {type:"fb",s:"{1}",a:["정하다"],opts:["요구하다","정해지다","정하다","위치하다"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to decide, to set, to determine"}
+    {type:"fb",s:"이 {1}가 정확해요?",a:["정보"],opts:["정보","해석","토론","피시"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this {1} accurate?"},
+    {type:"fb",s:"{1} 설명해 주세요.",a:["자세히"],opts:["토론","자세히","정보","해석"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please explain in detail."},
+    {type:"fb",s:"이 문장의 {1}이 어려워요.",a:["해석"],opts:["토론","피시","해석","정보"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The interpretation of this sentence is difficult."},
+    {type:"fb",s:"{1} 수업이 있어요?",a:["토론"],opts:["정보","해석","피시","토론"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Do you have a debate class?"},
+    {type:"fb",s:"{1}방에 갈래요?",a:["피시"],opts:["피시","정보","해석","토론"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Want to go to a PC cafe?"},
+    {type:"fb",s:"현재 {1}가 어디예요?",a:["위치"],opts:["토론","위치","정보","해석"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Where is your current location?"},
+    {type:"fb",s:"{1}",a:["위치하다"],opts:["정하다","정해지다","위치하다","요구하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be located, to be situated"},
+    {type:"fb",s:"{1}에 식당이 있어요?",a:["주변"],opts:["정보","해석","토론","주변"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Are there restaurants around here?"},
+    {type:"fb",s:"책 {1}가 어디예요?",a:["코너"],opts:["코너","정보","해석","토론"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Where is the book section?"},
+    {type:"fb",s:"{1}일을 누가 해요?",a:["집안"],opts:["토론","집안","정보","해석"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Who does the housework?"},
+    {type:"fb",s:"{1}",a:["요구하다"],opts:["정하다","정해지다","요구하다","위치하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to demand, to require"},
+    {type:"fb",s:"{1}",a:["정하다"],opts:["위치하다","요구하다","정해지다","정하다"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to decide, to set, to determine"}
   ]
 };
 

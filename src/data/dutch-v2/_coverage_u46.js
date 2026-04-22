@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 46.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U46 = {
   id:"duv2_u46_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -12,8 +12,8 @@ const COVERAGE_U46 = {
     {type:"match",pairs:[{trg:"de carpoolen",src:"the carpooling"},{trg:"het canvas",src:"the canvas"},{trg:"de amateurschrijver",src:"the amateur writer"},{trg:"de afstemmingsmogelijkheid",src:"the customization option, the alignment possibility"}]},
     {type:"match",pairs:[{trg:"de bewegingsregime",src:"the movement regime"},{trg:"de belangenverstrengeling",src:"the conflict of interest"},{trg:"de bewoording",src:"the wording, the phrasing"},{trg:"de correctheid",src:"the correctness, the propriety"}]},
     {type:"match",pairs:[{trg:"de correlatie",src:"the correlation"},{trg:"de conceptualisatie",src:"the conceptualization"},{trg:"de associatie",src:"the association (mental link)"}]},
-    {type:"fb",s:"{1}",a:["bah"],opts:["de boekenkist","de aanvangstijd","bah","de buitengerechtelijk"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"yuck, ew"},
-    {type:"fb",s:"{1}",a:["badmintonnen"],opts:["badmintonnen","de buitengerechtelijk","de boekenkist","de aanvangstijd"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to play badminton"}
+    {type:"fb",s:"{1}",a:["bah"],opts:["bah","de buitengerechtelijk","de boekenkist","de aanvangstijd"],hint:"Type the target-language form. Meaning shown below.",sSrc:"yuck, ew"},
+    {type:"fb",s:"Zullen we vanavond {1}?",a:["badmintonnen"],opts:["de aanvangstijd","badmintonnen","de buitengerechtelijk","de boekenkist"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Shall we play badminton tonight?"}
   ]
 };
 

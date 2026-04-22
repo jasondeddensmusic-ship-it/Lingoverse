@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 57.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U57 = {
   id:"duv2_u57_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
@@ -9,13 +9,13 @@ const COVERAGE_U57 = {
     {type:"match",pairs:[{trg:"grammaticaal",src:"grammatical"},{trg:"de geuzennaam",src:"a name originally meant as an insult but worn with pride"},{trg:"de gezegde",src:"the saying, the proverb"},{trg:"de goudhaantje",src:"the golden boy, the star performer"}]},
     {type:"match",pairs:[{trg:"de gulden",src:"the guilder (former Dutch currency)"},{trg:"het gezegde",src:"the saying, the expression"},{trg:"het computerforum",src:"the computer forum"},{trg:"googelen",src:"to google, to search online"}]},
     {type:"match",pairs:[{trg:"evacueren",src:"to evacuate"},{trg:"het establishment",src:"the establishment"},{trg:"de hamvraag",src:"the key question, the crux of the matter"},{trg:"het gespreksonderwerp",src:"the topic of conversation"},{trg:"de bedrogenen",src:"the deceived (people)"}]},
-    {type:"fb",s:"{1}",a:["herontdekken"],opts:["herschrijven","falen","googelen","herontdekken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to rediscover"},
-    {type:"fb",s:"{1}",a:["herschrijven"],opts:["falen","googelen","herschrijven","herontdekken"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to rewrite"},
-    {type:"fb",s:"{1}",a:["falen"],opts:["googelen","falen","herontdekken","herschrijven"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to fail"},
-    {type:"fb",s:"{1}",a:["grammaticaal"],opts:["grammaticaal","herontdekken","herschrijven","falen"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"grammatical"},
-    {type:"fb",s:"{1}",a:["googelen"],opts:["falen","googelen","herontdekken","herschrijven"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to google, to search online"},
-    {type:"fb",s:"{1}",a:["evacueren"],opts:["herontdekken","herschrijven","falen","evacueren"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to evacuate"},
-    {type:"fb",s:"{1}",a:["herleiden"],opts:["falen","herleiden","herontdekken","herschrijven"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to trace back, to reduce (math)"}
+    {type:"fb",s:"{1}",a:["herontdekken"],opts:["herontdekken","herschrijven","falen","googelen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to rediscover"},
+    {type:"fb",s:"{1}",a:["herschrijven"],opts:["googelen","herschrijven","herontdekken","falen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to rewrite"},
+    {type:"fb",s:"{1}",a:["falen"],opts:["herschrijven","googelen","falen","herontdekken"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to fail"},
+    {type:"fb",s:"Is deze zin {1} correct?",a:["grammaticaal"],opts:["herontdekken","herschrijven","falen","grammaticaal"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this sentence {1}ly correct?"},
+    {type:"fb",s:"Even {1} hoe laat het museum opengaat.",a:["googelen"],opts:["googelen","herontdekken","herschrijven","falen"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Let me google when the museum opens."},
+    {type:"fb",s:"{1}",a:["evacueren"],opts:["falen","evacueren","herontdekken","herschrijven"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to evacuate"},
+    {type:"fb",s:"Dit probleem is te {1} tot een communicatiefout.",a:["herleiden"],opts:["herschrijven","falen","herleiden","herontdekken"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This problem can be traced back to a communication error."}
   ]
 };
 

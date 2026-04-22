@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 43.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U43 = {
   id:"spv2_u43_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -16,17 +16,17 @@ const COVERAGE_U43 = {
     {type:"match",pairs:[{trg:"cítrico",src:"citrus / citric"},{trg:"cárnico",src:"meat-related"},{trg:"el acupuntor",src:"the acupuncturist"},{trg:"la conjuntivitis",src:"the conjunctivitis"}]},
     {type:"match",pairs:[{trg:"la banderilla",src:"the banderilla"},{trg:"la armónica",src:"the harmonica"},{trg:"la cítara",src:"the zither"},{trg:"el anagrama",src:"the anagram"}]},
     {type:"match",pairs:[{trg:"cronológico",src:"chronological"},{trg:"el cronómetro",src:"the stopwatch / chronometer"},{trg:"armonioso",src:"harmonious"},{trg:"la articulación",src:"the articulation / joint"},{trg:"el compacto",src:"the compact disc / compact"},{trg:"el artista",src:"the artist"}]},
-    {type:"fb",s:"{1}",a:["arrestar"],opts:["corromper","costear","contabilizar","arrestar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to arrest"},
-    {type:"fb",s:"{1}",a:["corromper"],opts:["corromper","arrestar","costear","contabilizar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to corrupt"},
-    {type:"fb",s:"{1}",a:["arbitrario"],opts:["arbitrario","defectuoso","defensivo","alcista"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"arbitrary"},
-    {type:"fb",s:"{1}",a:["defectuoso"],opts:["defensivo","alcista","defectuoso","arbitrario"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"defective / faulty"},
-    {type:"fb",s:"{1}",a:["defensivo"],opts:["defectuoso","alcista","defensivo","arbitrario"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"defensive"},
-    {type:"fb",s:"{1}",a:["alcista"],opts:["alcista","arbitrario","defectuoso","defensivo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"bullish / upward-trending"},
-    {type:"fb",s:"{1}",a:["costear"],opts:["corromper","contabilizar","costear","arrestar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to finance / to cover the cost"},
-    {type:"fb",s:"{1}",a:["costoso"],opts:["defensivo","costoso","arbitrario","defectuoso"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"costly / expensive"},
-    {type:"fb",s:"{1}",a:["contabilizar"],opts:["costear","contabilizar","arrestar","corromper"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to account for / to record"},
-    {type:"fb",s:"{1}",a:["corporativo"],opts:["defensivo","corporativo","arbitrario","defectuoso"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"corporate"},
-    {type:"fb",s:"{1}",a:["biodegradable"],opts:["defectuoso","defensivo","biodegradable","arbitrario"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"biodegradable"}
+    {type:"fb",s:"{1}",a:["arrestar"],opts:["arrestar","corromper","costear","contabilizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to arrest"},
+    {type:"fb",s:"El poder puede {1} a cualquiera.",a:["corromper"],opts:["contabilizar","corromper","arrestar","costear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Power can corrupt anyone."},
+    {type:"fb",s:"{1}",a:["arbitrario"],opts:["defensivo","alcista","arbitrario","defectuoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"arbitrary"},
+    {type:"fb",s:"El producto llegó {1}.",a:["defectuoso"],opts:["arbitrario","defensivo","alcista","defectuoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The product arrived defective."},
+    {type:"fb",s:"{1}",a:["defensivo"],opts:["defensivo","arbitrario","defectuoso","alcista"],hint:"Type the target-language form. Meaning shown below.",sSrc:"defensive"},
+    {type:"fb",s:"El mercado muestra una tendencia {1}.",a:["alcista"],opts:["defensivo","alcista","arbitrario","defectuoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The market shows a bullish trend."},
+    {type:"fb",s:"¿Quién va a {1} las reformas?",a:["costear"],opts:["corromper","contabilizar","costear","arrestar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Who is going to finance the renovations?"},
+    {type:"fb",s:"{1}",a:["costoso"],opts:["arbitrario","defectuoso","defensivo","costoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"costly / expensive"},
+    {type:"fb",s:"¿Ya {1}on todos los gastos del trimestre?",a:["contabilizar"],opts:["contabilizar","arrestar","corromper","costear"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did they already account for all the quarterly expenses?"},
+    {type:"fb",s:"{1}",a:["corporativo"],opts:["defensivo","corporativo","arbitrario","defectuoso"],hint:"Type the target-language form. Meaning shown below.",sSrc:"corporate"},
+    {type:"fb",s:"¿Esta bolsa es {1}?",a:["biodegradable"],opts:["defectuoso","defensivo","biodegradable","arbitrario"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Is this bag {1}?"}
   ]
 };
 

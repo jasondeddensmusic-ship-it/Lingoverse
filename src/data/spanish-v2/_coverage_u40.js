@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 40.
-// Source: scripts/pp64_coverage.mjs, rerun to refresh.
+// Source: scripts/pp64_coverage.mjs — rerun to refresh.
 const COVERAGE_U40 = {
   id:"spv2_u40_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
@@ -14,17 +14,17 @@ const COVERAGE_U40 = {
     {type:"match",pairs:[{trg:"la consistencia",src:"the consistency"},{trg:"colaborativo",src:"collaborative"},{trg:"colateral",src:"collateral"},{trg:"el amasijo",src:"the hodgepodge / messy mixture"}]},
     {type:"match",pairs:[{trg:"el chicle",src:"the chewing gum"},{trg:"la chocolatería",src:"the chocolate shop / cafe"},{trg:"confitar",src:"to candy / to preserve in sugar or oil"},{trg:"azucarero",src:"sugar-producing / sugar bowl"}]},
     {type:"match",pairs:[{trg:"el cabrito",src:"the baby goat / kid"},{trg:"la baba",src:"the drool / saliva"},{trg:"la brevedad",src:"the brevity"}]},
-    {type:"fb",s:"{1}",a:["agrario"],opts:["agrario","clasicista","cognitivo","colaborativo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"agrarian / agricultural"},
-    {type:"fb",s:"{1}",a:["clasicista"],opts:["colaborativo","clasicista","agrario","cognitivo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"classicist"},
-    {type:"fb",s:"{1}",a:["cognitivo"],opts:["agrario","clasicista","colaborativo","cognitivo"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"cognitive"},
-    {type:"fb",s:"{1}",a:["acopiar"],opts:["acopiar","adscribir","aglomerar","alisar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to stock up / to gather"},
-    {type:"fb",s:"{1}",a:["adscribir"],opts:["aglomerar","alisar","adscribir","acopiar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to assign / to attach"},
-    {type:"fb",s:"{1}",a:["agilidad"],opts:["la barranca","el cañizal","agilidad","la alimaña"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"the agility"},
-    {type:"fb",s:"{1}",a:["aglomerar"],opts:["alisar","aglomerar","acopiar","adscribir"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to crowd together / to agglomerate"},
-    {type:"fb",s:"{1}",a:["alisar"],opts:["acopiar","adscribir","aglomerar","alisar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to smooth / to straighten"},
-    {type:"fb",s:"{1}",a:["alternar"],opts:["alternar","acopiar","adscribir","aglomerar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to alternate / to socialize"},
-    {type:"fb",s:"{1}",a:["anexionar"],opts:["adscribir","aglomerar","anexionar","acopiar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to annex"},
-    {type:"fb",s:"{1}",a:["apenar"],opts:["apenar","acopiar","adscribir","aglomerar"],hint:"Type the target-language form. Check the translation below for the meaning.",sSrc:"to sadden / to cause sorrow"}
+    {type:"fb",s:"{1}",a:["agrario"],opts:["agrario","clasicista","cognitivo","colaborativo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"agrarian / agricultural"},
+    {type:"fb",s:"La fachada del edificio es de estilo {1}.",a:["clasicista"],opts:["colaborativo","clasicista","agrario","cognitivo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The building's facade is {1} in style."},
+    {type:"fb",s:"El desarrollo {1} del niño es excelente.",a:["cognitivo"],opts:["clasicista","colaborativo","cognitivo","agrario"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The child's {1} development is excellent."},
+    {type:"fb",s:"Hay que {1} provisiones antes del invierno.",a:["acopiar"],opts:["adscribir","aglomerar","alisar","acopiar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We need to stock up on supplies before winter."},
+    {type:"fb",s:"{1}",a:["adscribir"],opts:["adscribir","acopiar","aglomerar","alisar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to assign / to attach"},
+    {type:"fb",s:"La {1} mental es clave en el ajedrez.",a:["agilidad"],opts:["el cañizal","agilidad","la alimaña","la barranca"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Mental agility is key in chess."},
+    {type:"fb",s:"{1}",a:["aglomerar"],opts:["adscribir","alisar","aglomerar","acopiar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to crowd together / to agglomerate"},
+    {type:"fb",s:"{1}",a:["alisar"],opts:["acopiar","adscribir","aglomerar","alisar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to smooth / to straighten"},
+    {type:"fb",s:"Le gusta {1} con gente interesante.",a:["alternar"],opts:["alternar","acopiar","adscribir","aglomerar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"He likes to socialize with interesting people."},
+    {type:"fb",s:"{1}",a:["anexionar"],opts:["aglomerar","anexionar","acopiar","adscribir"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to annex"},
+    {type:"fb",s:"{1}",a:["apenar"],opts:["adscribir","aglomerar","apenar","acopiar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to sadden / to cause sorrow"}
   ]
 };
 
