@@ -358,7 +358,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 **Authoritative validator (2026-04-22):** `scripts/validate_runtime.mjs` — uses ESM dynamic import to walk the actual shipped lesson tree. Validates all 39,038 cards (was 7,128 under the text-based `validate_all.cjs`). Reports PP8/PP43/PP48/PP64/PP67 at unit+lesson+step granularity. Use this for every commit going forward.
 **Legacy validator:** `scripts/validate_all.cjs` reads files as text and does NOT follow JS imports. Kept for CI speed / spot-checks on a single file, but do not treat its "PASS" as authoritative.
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
-**Validator state (2026-04-22 — runtime):** Bulk violations surfaced after blind-spot fix. Fixed in waves (see `docs/SESSION_HANDOFF_2026-04-22.md`). Running tally: see `node scripts/validate_runtime.mjs`.
+**Validator state (2026-04-22 — runtime):** **ALL 10 languages PASS PP8/PP43/PP48/PP64/PP67 at runtime level across all 39,038 cards.** Initial sweep after blind-spot fix surfaced 6,721 violations; cleared in three PRs (#297 validator, #298 mechanical, #299 coverage). See `docs/SESSION_HANDOFF_2026-04-22b.md`.
 
 > Note: Previous CLAUDE.md totals (~32,600+) counted teach cards in batch files PLUS their imports into main unit files — essentially double-counting. The per-language numbers above reflect the actual corpus as reported by `node scripts/_runtime_count.mjs`.
 
@@ -474,7 +474,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-22.md`** — **LATEST HANDOFF.** **Critical:** validator blind spot found — `validate_all.cjs` reads files as text, doesn't follow JS imports. ~24,000 teach cards across 6 languages NEVER validated. PR #294 wired 345 orphan batch imports for Italian + Japanese (corpus jumped 14,823 → 39,038 runtime). Next session must patch validator + clear surfacing violations. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-22b.md`** — **LATEST HANDOFF.** Runtime validator shipped (PR #297), mechanical fixes cleared (PR #298), coverage generator closed all PP64+PP67 gaps (PR #299). Every PP rule the validator checks now passes across all 39,038 teach cards. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-22.md`** — Prior handoff documenting the validator blind spot discovery.
 - **`docs/SESSION_HANDOFF_2026-04-20d.md`** — Prior handoff. 38 PRs shipped (#255–#292). +648 inline teach cards. Italian accent restoration. F11 closures. Code organization planning.
 - **`docs/SESSION_HANDOFF_2026-04-20c.md`** — Earlier snapshot. 17 PRs. +538 cards.
 - **`docs/SESSION_HANDOFF_2026-04-20b.md`** — Earlier handoff. 6 PRs shipped. +173 teach cards.
