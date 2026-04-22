@@ -156,7 +156,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
   {trg:"ela saía", src:"she used to go out"}
 ]},
 
-{type:"mc", q:"'Minha avó costumava fazer bolo' means:", opts:["My grandma used to make cake","My grandma is making cake","My grandma will make cake","My grandma made cake once"], ans:"My grandma used to make cake", hint:"Costumava + infinitive = used to habitually."},
+{type:"mc", q:"'Minha avó costumava fazer bolo' means:", opts:["My grandma used to make cake","My grandma is making cake","My grandma will make cake","My grandma made cake once"], ans:"My grandma used to make cake", hint:"Costumava + infinitive = employed to habitually."},
 
 {type:"fb", s:"{1} criança, eu tinha muitos amigos.", a:["Quando"], opts:["Quando","Enquanto","Depois","Antes"], hint:"Trigger phrase for an imperfect memory. 'When I was a child' starts with this word.", sSrc:"{1} I was a child, I had many friends."},
 

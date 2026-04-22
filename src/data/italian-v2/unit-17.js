@@ -108,7 +108,7 @@ const UNIT_17 = {
       {type:"mc", q:"How is Italian 'notizia' different from English 'news'?",
        opts:["It is uncountable like English 'news'","It is always used in the plural form","It is countable: una notizia, due notizie","It only refers to negative news events"],
        ans:"It is countable: una notizia, due notizie",
-       hint:"In English, 'news' cannot be counted. In Italian you can attach a singular or plural article: 'una' (one) or 'le' (the, plural)."},
+       hint:"In English, 'news' cannot be counted. In Italian you can attach a singular or plural article: '…' (one) or 'le' (the, plural)."},
 
       {type:"fb", s:"L'{1} di oggi critica il governo.",
        a:["editoriale"],

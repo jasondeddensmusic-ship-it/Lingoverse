@@ -54,7 +54,7 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
         {type:"mc",q:"Why do we say 'el agua' instead of 'la agua'?",opts:["To avoid two 'a' sounds together","Because agua is masculine","Because all drinks use el","It's a grammar exception with no rule"],ans:"To avoid two 'a' sounds together",hint:"Spanish ___s la + a- at the start of a word."},
         {type:"fb",opts:["un","una","el","la"],hint:"Café is masculine. Use the masculine indefinite article.",s:"Quiero {1} café con leche.",a:"un"},
         {type:"match",pairs:[{trg:"el agua",src:"water"},{trg:"el café",src:"coffee"},{trg:"el té",src:"tea"},{trg:"la leche",src:"milk"},{trg:"la cerveza",src:"beer"}]},
-        {type:"mc",q:"How do you order a beer politely?",opts:["Un cerveza, por favor","Una cerveza, por favor","La cerveza, por favor","Cerveza me da"],ans:"Una cerveza, por favor",hint:"___ is feminine. Use 'una' and add 'por ___'."},
+        {type:"mc",q:"How do you order a beer politely?",opts:["Un cerveza, por favor","Una cerveza, por favor","La cerveza, por favor","Cerveza me da"],ans:"Una cerveza, por favor",hint:"___ is feminine. Use '…' and add 'por ___'."},
         {type:"fb",opts:["zumo","agua","leche","cerveza"],hint:"The orange version of this drink is a breakfast staple.",s:"¿Quieres {1} de naranja?",a:"zumo"},
         {type:"mc",q:"In Latin America, 'el zumo' is called:",opts:["la zuma","el sumo","el jugo","el zugo"],ans:"el jugo",hint:"A different word for juice used across Latin America."},
         {type:"drag_fill",hint:"Order coffee (masc) with milk, politely.",s:"Para mí, {1} café con {2}, por {3}.",blanks:{"1":"un","2":"leche","3":"favor"},pool:["un","leche","favor","una","agua","gracias"]},

@@ -121,7 +121,7 @@ lessons:[
 {type:"mc", q:"电视(diànshì) literally means:",
  opts:["electric vision","electric box","moving picture","home screen"],
  ans:"electric vision",
- hint:"电 means electric. 视 means to see or vision. Combine them literally."},
+ hint:"电 means …. 视 means to see or …. Combine them literally."},
 
 {type:"fb", s:"请(qǐng)把(bǎ)书(shū)放(fàng)在(zài){1}上(shàng)。",
  a:["桌子(zhuōzi)"],

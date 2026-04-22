@@ -101,7 +101,7 @@ const LESSON_F8_LETTER = {
      q:"In a casual Japanese letter, ひさしぶり is used to:",
      opts:["Say goodbye","Open the letter after not seeing someone for a while","Ask for a favor","Express thanks"],
      ans:"Open the letter after not seeing someone for a while",
-     hint:"This greeting is used when reconnecting with someone you have not been in contact with recently."}
+     hint:"This greeting is used when reconnecting with … you have not been in contact with recently."}
   ]
 };
 

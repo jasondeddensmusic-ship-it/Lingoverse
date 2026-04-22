@@ -32,7 +32,7 @@ const LESSON_17 = {id:"frv2_b2gD_l17", title:"Concepts abstraits", icon:"💡", 
    q:"Que signifie 'le pire est passé'?",
    opts:["Le moment le plus difficile est derrière nous","La situation va empirer","Le pire n'est pas encore arrivé","Il faut se préparer au pire"],
    ans:"Le moment le plus difficile est derrière nous",
-   hint:"'Le pire' means 'the worst'. If it 'est passé' (has passed), what does that mean for the future?"},
+   hint:"'Le pire' means 'the worst'. If it '… passé' (has passed), what does that mean for the future?"},
 
   {type:"teach", trg:"la néologie", src:"the neology / word creation", pos:"noun", gender:"f",
    note:"The creation of new words or expressions.\nA field of linguistics that studies new vocabulary.",

@@ -175,7 +175,7 @@ const UNIT_12 = {
    funFact:"と思(おも)います is one of the most useful N4 patterns. It softens statements and expresses personal opinion, making you sound more natural and polite. Politicians, news anchors, and everyday speakers all use this pattern constantly."},
 
   {type:"mc", q:"日本語(にほんご)が必要(ひつよう)です means:", opts:["Japanese is necessary","Japanese is difficult","I like Japanese","I studied Japanese"], ans:"Japanese is necessary",
-   hint:"必要 means 'necessary' or 'needed.' It follows が as the required thing."},
+   hint:"必要 means '…' or 'needed.' It follows が as the required thing."},
 
   {type:"teach", trg:"信(しん)じる", src:"to believe", pos:"verb", gender:null,
    note:"Ichidan verb. Drop る to conjugate: 信(しん)じます, 信(しん)じました.\nUsed for beliefs, trust, and faith.",

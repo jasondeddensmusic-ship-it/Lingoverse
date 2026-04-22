@@ -118,7 +118,7 @@ lessons:[
 {type:"mc", q:"机场(jīchǎng) literally means:",
  opts:["big field","flying field","airplane field","travel ground"],
  ans:"airplane field",
- hint:"机 is short for 飞机 (airplane), and 场 means a flat open area or field."},
+ hint:"机 is short for 飞机, and 场 means a flat open area or …."},
 
 {type:"match", pairs:[
   {trg:"机场(jīchǎng)", src:"airport"},
@@ -380,7 +380,7 @@ lessons:[
 {type:"mc", q:"公司(gōngsī)离(lí)我家(wǒ jiā)很远(hěn yuǎn)。 The pattern A + 离 + B + distance means:",
  opts:["A is moving toward B","B is inside A","The gap between A and B is large","A and B are the same place"],
  ans:"The gap between A and B is large",
- hint:"离 expresses the distance gap between two locations — no movement, just separation."},
+ hint:"离 expresses the distance … between two locations — no movement, just separation."},
 
 {type:"match", pairs:[
   {trg:"火车站(huǒchēzhàn)", src:"train station"},

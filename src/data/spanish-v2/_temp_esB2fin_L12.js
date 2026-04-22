@@ -131,7 +131,7 @@ const LESSON_12 = {
     {type:"mc", q:"\u00bfQu\u00e9 significa 'sintetizar un texto'?",
      opts:["Traducirlo a otro idioma","Resumir las ideas principales en poco espacio","Criticar los argumentos del autor","Rechazar las conclusiones"],
      ans:"Resumir las ideas principales en poco espacio",
-     hint:"This academic verb means to bring together the key ideas into a compact, coherent form."}
+     hint:"This academic verb means to bring together the key … into a compact, coherent form."}
   ]
 };
 export default LESSON_12;

@@ -31,7 +31,7 @@ const LESSON_1 = {
      funFact:"Dutch uses 'heten' where English uses 'to be called'. No direct English equivalent."},
 
     {type:"mc",
-     q:"Hoe heet je? Ik ___ Sophie.",
+     q:"Iemand vraagt naar je naam. Ik ___ Sophie.",
      opts:["heet","ben","heb","ga"],
      ans:"heet",
      hint:"Which verb means 'to be called' in Dutch? Think of introductions."},
@@ -134,7 +134,7 @@ const LESSON_1 = {
      funFact:"Same Latin root as English 'normal'. Borrowed via French."},
 
     {type:"fb",
-     s:"Ken je mevrouw De Vries? Ja, ik {1} haar goed.",
+     s:"Vraagt iemand over mevrouw De Vries? Ja, ik {1} haar goed.",
      a:["ken"],
      opts:["ken","weet","noem","heet"],
      hint:"Which verb is used for being familiar with a person?",

@@ -132,7 +132,7 @@ lessons:[
 {type:"mc", q:"投资(tóuzī) literally means:",
  opts:["Throwing in capital","Saving money","Earning interest","Counting coins"],
  ans:"Throwing in capital",
- hint:"投 means to throw, and 资 means capital. The metaphor captures the risk of releasing money with hopes of return."},
+ hint:"投 means to throw, and 资 means …. The metaphor captures the risk of releasing money with hopes of return."},
 
 {type:"match", pairs:[
   {trg:"投资(tóuzī)", src:"investment"},
@@ -152,7 +152,7 @@ lessons:[
 {type:"mc", q:"这个(zhège)公司(gōngsī)今年(jīnnián)的(de)利润(lìrùn)增加(zēngjiā)了(le)。 This means:",
  opts:["The company's profit increased this year","The company lost money","The company closed","The company changed strategy"],
  ans:"The company's profit increased this year",
- hint:"利润 means profit, and 增加 means to increase. The company made more money than before."},
+ hint:"利润 means …, and 增加 means to increase. The … made more money than before."},
 
 {type:"fb", s:"这个(zhège)项目(xiàngmù)的(de){1}是(shì)三百万(sānbǎiwàn)。",
  a:["预算(yùsuàn)"],

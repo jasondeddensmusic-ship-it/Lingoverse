@@ -193,7 +193,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
 {type:"mc", q:"'Adoro ler livros' means:",
  opts:["I love to write books","I love to read books","I love to watch books","I love to buy books"],
  ans:"I love to read books",
- hint:"'Ler' is the verb for reading; 'livros' is books."},
+ hint:"'Ler' is the verb for reading; 'livros' is …."},
 
 {type:"fb", s:"Todos os dias eu {1} um email para minha mãe.",
  a:["escrevo"],

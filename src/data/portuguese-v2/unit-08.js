@@ -181,7 +181,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 {type:"mc", q:"'Eu gosto de música' means:",
  opts:["I sell music","I like music","I buy music","I pay music"],
  ans:"I like music",
- hint:"This verb always comes with the preposition de, and means to like something."}
+ hint:"This verb always comes with the preposition de, and means to … something."}
 ]},
 
 {id:"ptv2_u8l3", title:"Roupas e tamanhos", icon:"👔", xp:15, board:true, steps:[

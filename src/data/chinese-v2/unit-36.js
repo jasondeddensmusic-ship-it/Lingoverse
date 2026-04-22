@@ -176,7 +176,7 @@ lessons:[
 {type:"mc", q:"信心(xìnxīn) literally means:",
  opts:["strong head","trusting heart","brave face","clear mind"],
  ans:"trusting heart",
- hint:"信 means trust or belief. 心 means heart. What lives in the heart when you believe in yourself?"},
+ hint:"信 means trust or belief. 心 means …. What lives in the … when you believe in yourself?"},
 
 {type:"fb", s:"我(wǒ)会(huì){1}学(xué)中文(Zhōngwén)，不(bú)会(huì)停(tíng)下来(xiàlái)。",
  a:["继续(jìxù)"],
@@ -235,7 +235,7 @@ lessons:[
 {type:"mc", q:"未来(wèilái) literally means:",
  opts:["tomorrow morning","next year","not yet come","already passed"],
  ans:"not yet come",
- hint:"未 means 'not yet.' 来 means 'to come.' Put them together for a poetic description of the future."},
+ hint:"未 means 'not yet.' 来 means 'to approach / arrive.' Put them together for a poetic description of the future."},
 
 {type:"fb", s:"我(wǒ)的(de){1}是(shì)能(néng)用(yòng)中文(Zhōngwén)自由(zìyóu)地(de)交流(jiāoliú)。",
  a:["梦想(mèngxiǎng)"],

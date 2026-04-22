@@ -19,7 +19,7 @@ const LESSON_19 = {id:"nlv2_b2g9_l19", title:"Uitdrukkingen & Vaste Combinaties"
   {type:"mc", q:"Wanneer gebruik je 'in dank aanvaarden'?", opts:["Als je iets weigert","Als je iets dankbaar ontvangt","Als je boos bent","Als je iets koopt"], ans:"Als je iets dankbaar ontvangt", hint:"A formal, polite way of saying you gratefully accept something"},
   {type:"fb", s:"Het gebouw stond in {1}.", a:["lichterlaaie"], opts:["lichterlaaie","twijfel","rekening","gebruik"], hint:"The old Dutch word meaning 'ablaze', only used in this one fixed expression", sSrc:"The building was {1}."},
   {type:"match", pairs:[{trg:"in het oog springen", src:"to catch the eye"},{trg:"in het werk stellen", src:"to make efforts"},{trg:"in gebruik nemen", src:"to put into use"},{trg:"in dank aanvaarden", src:"to accept gratefully"}]},
-  {type:"mc", q:"Welk woord bestaat alleen in de vaste uitdrukking 'in lichterlaaie staan'?", opts:["lichterlaaie","rekening","twijfel","omloop"], ans:"lichterlaaie", hint:"This archaic word for 'ablaze' is never used outside this specific expression"},
+  {type:"mc", q:"Welk archaïsch woord voor 'in brand' komt uitsluitend voor in één vaste Nederlandse uitdrukking, nooit daarbuiten?", opts:["lichterlaaie","rekening","twijfel","omloop"], ans:"lichterlaaie", hint:"This word pairs only with the verb 'staan' in the idiom for being engulfed in flames."},
   {type:"fb", s:"Er is {1} over: hij is de beste.", a:["geen twijfel"], opts:["geen twijfel","in acht","in rekening","in stand"], hint:"An expression meaning 'no doubt' or 'without question'", sSrc:"There is {1}: he is the best."}
 ]};
 export default LESSON_19;

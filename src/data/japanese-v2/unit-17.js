@@ -368,7 +368,7 @@ const UNIT_17 = {
    hint:"Which verb means to make a decision or to set a time? Group 2 ichidan verb."},
 
   {type:"mc", q:"社員(しゃいん) means:", opts:["company president","business trip","employee / staff member","meeting"], ans:"employee / staff member",
-   hint:"社 (company) + 員 (member). This refers to any regular member of a company's staff."},
+   hint:"社 = corporation; 員 denotes any regular-rank worker on the payroll. Put them together literally."},
 
   {type:"fb", s:"仕事(しごと)を{1}けるために、毎日(まいにち)頑張(がんば)っています。\n(I work hard every day in order to keep doing my job.)", a:"続(つづ)", opts:["続(つづ)","決(き)","始(はじ)","終(お)わ"], sSrc:"I work hard every day in order to keep {1} my job.",
    hint:"Which verb means to go on doing something without stopping? The て-form pattern [verb]+続(つづ)ける."},
@@ -381,7 +381,7 @@ const UNIT_17 = {
    hint:"This noun means a question or inquiry. Used to invite input in meetings or classrooms."},
 
   {type:"mc", q:"出張(しゅっちょう) means:", opts:["overtime work","business trip","company meeting","job interview"], ans:"business trip",
-   hint:"出 (go out) + 張 (post/extend). This is a work trip away from the main office."},
+   hint:"出 (go out) + 張 (post/extend). This is a work … away from the main office."},
 
   {type:"fb", s:"社長(しゃちょう)はただいま会議(かいぎ){1}です。\n(The president is currently in a meeting.)", a:"中(ちゅう)", opts:["中(ちゅう)","後(ご)","前(まえ)","外(そと)"], sSrc:"The president is currently in the middle of a meeting.",
    hint:"This single kanji suffix means 'in the middle of' or 'during.' Attaches to nouns to indicate an ongoing activity."},

@@ -279,6 +279,6 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
         {type:"fb",opts:["slecht","goed","lekker","mooi"],hint:"The opposite of 'goed' (good) is one single common adjective.",s:"Het weer is ___ vandaag. Er is veel regen.",a:"slecht"},
         {type:"mc",q:"Welk artikel gebruikt 'vliegveld'?",opts:["de","het","een","geen artikel"],ans:"het",hint:"Compounds inherit the article of the final component. Which article belongs to 'veld' (field)?"},
         {type:"fb",opts:["fruit","groente","vlees","brood"],hint:"Think of apples, bananas, and oranges. Collective noun, het-word.",s:"Hij koopt elke dag vers ___.",a:"fruit"},
-        {type:"mc",q:"'Hij slaapt slecht' means:",opts:["He sleeps badly","He is a bad person","He is sleeping now","He does not sleep at all"],ans:"He sleeps badly",hint:"'slapen' = to sleep. 'slecht' as an adverb = badly."}
+        {type:"mc",q:"'Hij slaapt slecht' means:",opts:["He sleeps badly","He is a bad person","He is sleeping now","He does not sleep at all"],ans:"He sleeps badly",hint:"'slapen' = to sleep. 'slecht' as an adverb = …."}
   ]}
 ]};

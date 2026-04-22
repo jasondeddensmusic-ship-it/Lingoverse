@@ -277,7 +277,7 @@ const UNIT_03 = {
   {type:"match", pairs:[{trg:"駅(えき)",src:"station"},{trg:"店(みせ)",src:"store / shop"},{trg:"部屋(へや)",src:"room"},{trg:"窓(まど)",src:"window"}]},
 
   {type:"mc", q:"あの店(みせ)は本(ほん)の店(みせ)です means:", opts:["That shop sells windows","That shop sells keys","That shop is a bookshop","That is a train station"], ans:"That shop is a bookshop",
-   hint:"本 (book) + の + 店 (shop) describes what kind of shop it is."},
+   hint:"本 (book) + の attaches it attributively to 店. The の construction names what the store sells."},
 
   {type:"fb", s:"すみません、{1}はどこですか?\n(Excuse me, where is the station?)", a:"駅(えき)", opts:["駅(えき)","店(みせ)","窓(まど)","部屋(へや)"], sSrc:"Excuse me, where is the station?",
    hint:"The place where trains stop and depart."},

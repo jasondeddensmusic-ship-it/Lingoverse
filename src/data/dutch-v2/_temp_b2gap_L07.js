@@ -109,7 +109,7 @@ const LESSON_7 = {
      text:"Dutch organizes emotions on scales:\n\nAnger: irritatie < boosheid < woede < razernij\nFear: onrust < angst < paniek < doodsangst\nJealousy: jaloezie < afgunst < wrok\nDislike: hekel < afkeer < walging\n\nCharacter adjectives:\nPositive: bedreven, dapper, wijs\nNegative: balorig, apathisch, boosaardig\nNeutral: afstandelijk, afwijkend\n\nIntensifier compounds:\nbomvol, ijskoud, piepklein, brandschoon",
      deepDive:{title:"The Dutch art of understatement",
       text:"The Dutch are masters of 'understatement'. They often use milder words than they mean:\n\n'Niet gek' = actually very good\n'Niet verkeerd' = quite impressive\n'Valt mee' = better than expected\n'Niet zo best' = actually terrible\n\nThis contrasts with emotion words: when a Dutch person says something is 'afgrijselijk' or 'boosaardig', they REALLY mean it. Strong words are reserved for genuinely strong situations."}},
-    {type:"mc", q:"Which word is stronger: 'jaloezie' or 'afgunst'?",
+    {type:"mc", q:"Which Dutch word for envy carries the stronger charge — jealousy mixed with resentment and wanting another's failure?",
      opts:["jaloezie","afgunst","They are identical","Neither is negative"],
      ans:"afgunst",
      hint:"One implies mild jealousy, the other includes resentment."},

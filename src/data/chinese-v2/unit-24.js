@@ -79,7 +79,7 @@ lessons:[
 {type:"mc", q:"小说(xiǎoshuō) literally means:",
  opts:["Small talk","Big story","written record","poetry collection"],
  ans:"Small talk",
- hint:"小 means small, and 说 means talk. Novels were originally considered 'minor tales' compared to serious poetry and history."},
+ hint:"小 means …, and 说 means …. Novels were originally considered 'minor tales' compared to serious poetry and history."},
 
 {type:"fb", s:"奶奶(nǎinai)给(gěi)孩子们(háizimen)讲(jiǎng)了(le)一个(yígè){1}。",
  a:["故事(gùshi)"],
@@ -293,7 +293,7 @@ lessons:[
 {type:"mc", q:"故事(gùshi) literally means:",
  opts:["Matters from the past","New events","Made-up tales","Famous people"],
  ans:"Matters from the past",
- hint:"故 means old or past, and 事 means matter or affair. A story is about things that happened before."},
+ hint:"故 means old or …, and 事 means matter or affair. A story is about things that happened before."},
 
 {type:"drag_fill",
  s:"这个(zhège){1}很(hěn)有(yǒu){2}力(lì)，他(tā)的(de){3}总是(zǒngshì)让(ràng)人(rén)非常(fēicháng){4}。",

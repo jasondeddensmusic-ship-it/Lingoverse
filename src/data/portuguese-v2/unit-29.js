@@ -111,7 +111,7 @@ const UNIT_29 = {n:29, lang:"pt", srcLang:"en", track:"v2", title:"Nas notícias
  q:"'Liberdade de imprensa' means:",
  opts:["freedom of movement","freedom of the press","freedom of speech","freedom of trade"],
  ans:"freedom of the press",
- hint:"Imprensa = press / journalism as an institution."},
+ hint:"Imprensa = … / journalism as an institution."},
 
 {type:"fb",
  s:"O {1} assinou a reportagem sobre corrupção.",

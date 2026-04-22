@@ -53,7 +53,7 @@ lessons:[
 {type:"mc", q:"可再生(kězàishēng) literally means:",
  opts:["able to save","can generate again","environmentally protected","important resource"],
  ans:"can generate again",
- hint:"Three characters: 可 (can) + 再 (again) + 生 (generate). Combine them literally."},
+ hint:"Three characters: 可 (can) + 再 + 生. Combine them literally."},
 
 {type:"mc", q:"过度(guòdù) is the Chinese equivalent of which English prefix?",
  opts:["un-","re-","over-","pre-"],
@@ -127,7 +127,7 @@ lessons:[
 {type:"mc", q:"碳排放 means:",
  opts:["carbon dioxide","coal usage","carbon emissions","air pressure"],
  ans:"carbon emissions",
- hint:"碳 is carbon. 排放 means 'to emit' or 'emissions.' Combine them."},
+ hint:"碳 is …. 排放 means 'to emit' or '….' Combine them."},
 
 {type:"fb", s:"保护(bǎohù){1}环境(huánjìng)是(shì)每(měi)个人(gèrén)的(de)责任(zérèn)。",
  a:["生态(shēngtài)"],

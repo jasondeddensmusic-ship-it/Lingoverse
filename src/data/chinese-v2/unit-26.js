@@ -79,7 +79,7 @@ lessons:[
 {type:"mc", q:"数据(shùjù) literally means:",
  opts:["Numerical evidence","Written notes","Personal opinions","Historical records"],
  ans:"Numerical evidence",
- hint:"数 means number, and 据 means basis or evidence. Data is factual information in measurable form."},
+ hint:"数 means number, and 据 means basis or …. Data is factual information in measurable form."},
 
 {type:"fb", s:"{1}数据(shùjù)已经(yǐjīng)证明(zhèngmíng)了(le)这个(zhège)理论(lǐlùn)。",
  a:["实验(shíyàn)"],
@@ -121,7 +121,7 @@ lessons:[
 {type:"mc", q:"效果(xiàoguǒ) uses the character 果(guǒ), which means:",
  opts:["Fruit / result","Flower","Root","Leaf"],
  ans:"Fruit / result",
- hint:"果 literally means fruit. An effect is 'the fruit of action,' what grows from what you do."},
+ hint:"果 literally means …. An effect is 'the … of action,' what grows from what you do."},
 
 {type:"match", pairs:[
   {trg:"方法(fāngfǎ)", src:"method"},
@@ -205,7 +205,7 @@ lessons:[
 {type:"mc", q:"基因(jīyīn)技术(jìshù)的(de)发展(fāzhǎn)带来(dàilái)了(le)道德(dàodé)问题(wèntí)。 This means:",
  opts:["Genetic technology's development has brought ethical issues","Gene technology is too expensive","Genetic research has stopped","Gene editing is illegal"],
  ans:"Genetic technology's development has brought ethical issues",
- hint:"道德问题 means moral/ethical issues. The sentence acknowledges that scientific progress raises ethical questions."},
+ hint:"道德问题 means moral/… …. The sentence acknowledges that scientific progress raises … questions."},
 
 {type:"fb", s:"这个(zhège)操作(cāozuò){1}很(hěn)好用(hǎoyòng)。",
  a:["系统(xìtǒng)"],
@@ -237,7 +237,7 @@ lessons:[
 {type:"mc", q:"发明(fāmíng) literally means:",
  opts:["Sending something into the light","Building a machine","Copying an idea","Teaching a class"],
  ans:"Sending something into the light",
- hint:"发 means to send out or emit, and 明 means bright or clear. An invention brings something new into visibility."},
+ hint:"发 means to send out or emit, and 明 means bright or clear. An invention brings … new into visibility."},
 
 {type:"fb", s:"我们(wǒmen)需要(xūyào)更(gèng)多(duō)的(de){1}来(lái)支持(zhīchí)这个(zhège)理论(lǐlùn)。",
  a:["数据(shùjù)"],

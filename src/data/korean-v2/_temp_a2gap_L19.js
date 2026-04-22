@@ -70,7 +70,7 @@ const LESSON_19 = {
     {type:"mc", q:"또 봐요 literally means:",
      opts:["I miss you","Take care of yourself","See again","Stay well"],
      ans:"See again",
-     hint:"또 = again. 봐요 = polite present of 보다 (to see). Put them together."},
+     hint:"또 = …. 봐요 = polite present of 보다 (to see). Put them together."},
 
     // ── Quiz 8: drag_fill — compose a short message ──
     {type:"drag_fill",

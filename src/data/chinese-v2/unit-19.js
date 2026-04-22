@@ -52,7 +52,7 @@ lessons:[
 {type:"mc", q:"手机(shǒujī) literally means:",
  opts:["electric brain","hand machine","small phone","pocket device"],
  ans:"hand machine",
- hint:"Break the compound into its two characters: 手 means hand, and 机 means machine."},
+ hint:"Break the compound into its two characters: 手 means …, and 机 means …."},
 
 {type:"match", pairs:[
   {trg:"手机(shǒujī)", src:"mobile phone"},
@@ -286,7 +286,7 @@ lessons:[
 {type:"mc", q:"短信(duǎnxìn) literally means:",
  opts:["short message","phone message","quick letter","small news"],
  ans:"short message",
- hint:"Break down the compound: 短 means short in length, and 信 means letter or message."},
+ hint:"Break down the compound: 短 means … in length, and 信 means letter or …."},
 
 {type:"fb", s:"网上(wǎngshàng)买菜(mǎicài)很(hěn){1}。",
  a:["方便(fāngbiàn)"],

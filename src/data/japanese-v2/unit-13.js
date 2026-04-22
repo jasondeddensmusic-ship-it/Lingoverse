@@ -309,7 +309,7 @@ const UNIT_13 = {
   {type:"fb", s:"映画(えいが)は3時(じ)に{1}まります。\n(The movie starts at 3 o'clock.)", a:"始(はじ)", opts:["始(はじ)","置(お)","伝(つた)","起(お)こ"], hint:"The intransitive verb meaning 'it begins on its own.' The subject is the movie, not a person.", sSrc:"The movie starts at 3 o'clock."},
 
   {type:"mc", q:"映画館(えいがかん) means:", opts:["movie theater","train station","library","art museum"], ans:"movie theater",
-   hint:"映画 = movie. The second part is a kanji meaning 'public building or hall.' Where do you watch movies?"},
+   hint:"映画 = …. The second part is a kanji meaning 'public building or hall.' Where do you watch movies?"},
 
   {type:"fb", s:"待(ま)ち合(あ)わせの{1}はどこにしますか？\n(Where shall we set the meeting place?)", a:"場所(ばしょ)", opts:["場所(ばしょ)","交通(こうつう)","時間(じかん)","映画館(えいがかん)"], hint:"The noun meaning 'place/spot/location,' used for arranging where to meet.", sSrc:"Where shall we set the meeting place?"},
 

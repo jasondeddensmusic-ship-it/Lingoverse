@@ -207,7 +207,7 @@ const UNIT_25 = {
    funFact:"訴える has a wide range of use from 'to complain to someone' all the way to 'to sue.' In the workplace, 上司(じょうし)に訴(うった)える (report to a superior) is a common conflict-escalation step. Formally filing a legal 訴(うった)え is relatively rare in Japan compared to the US, because cultural pressure strongly favors 和解(わかい) over litigation."},
 
   {type:"mc", q:"誤解(ごかい)が解(と)ける means:", opts:["A misunderstanding is cleared up","A misunderstanding is created","A misunderstanding is ignored","A misunderstanding is reported"], ans:"A misunderstanding is cleared up",
-   hint:"解(と)ける means to dissolve or come undone, so the misunderstanding comes apart."},
+   hint:"解(と)ける means to dissolve or come undone, so the … comes apart."},
 
   {type:"mc", q:"仲裁(ちゅうさい)に入(はい)る means:", opts:["To enter into a contract","To step in as a mediator","To join a discussion as an observer","To file a formal complaint"], ans:"To step in as a mediator",
    hint:"仲(ちゅう) refers to acting as the middle person between two parties in dispute."},

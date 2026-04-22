@@ -261,7 +261,7 @@ const UNIT_08 = {
    hint:"The polite opener that states your intention with the soft のですが ending."},
 
   {type:"mc", q:"変更(へんこう)する means:", opts:["to confirm","to cancel","to reschedule / change","to reserve"], ans:"to reschedule / change",
-   hint:"The verb built from 変 (change) and 更 (renew), used when moving an appointment to a new time."},
+   hint:"The verb built from 変 and 更 (renew), used when moving an appointment to a new time."},
 ]},
 
 ,BATCH2_L1
