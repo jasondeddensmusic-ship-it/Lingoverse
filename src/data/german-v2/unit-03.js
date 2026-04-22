@@ -146,7 +146,7 @@ const UNIT_3 =
 {type:"teach",trg:"möglich",src:"possible",pos:"adj",gender:null,note:"Adjective. 'Ist das möglich?' = Is that possible?",example:"A: Ist ein Hund möglich?\nB: Nein, das ist nicht möglich.",exampleSrc:"A: Is a dog possible?\nB: No, that is not possible.",funFact:"'Möglichkeit' = possibility. Hildi on pets: 'Haustiere sind nicht möglich.' End of discussion."},
 {type:"mc",q:"'Ich _____ morgen _____.' (einziehen)",opts:["ziehe...ein","einziehe","ziehe...um","räume...ein"],ans:"ziehe...ein",hint:"Moving IN, not relocating. The prefix separates in present tense."}
 ,
-{"type":"mc","q":"Was bedeutet 'möglich'?","opts":["possible","difficult","certain","forbidden"],"ans":"possible","hint":"It can be done, but is not guaranteed."}]},
+{"type":"mc","q":"Was bedeutet 'möglich'?","opts":["forbidden","possible","difficult","certain"],"ans":"possible","hint":"It can be done, but is not guaranteed."}]},
 {id:"deu_r03l5b",title:"Aufräumen, einziehen, umziehen (Teil 2)",icon:"📦",xp:15,board:true,steps:[
 {type:"intro",title:"Aufräumen, einziehen, umziehen (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"mc",q:"'Hildi _____ jeden Tag _____.' (aufräumen)",opts:["räumt...auf","putzt...auf","räumt...ein","aufräumt"],ans:"räumt...auf",hint:"Third person singular of this verb. Remember: the prefix separates to the end."},
@@ -210,8 +210,8 @@ const UNIT_3 =
 {type:"teach",trg:"das Kaninchen",src:"the rabbit",pos:"noun",gender:"n",note:"Neuter: das Kaninchen. The -chen suffix = always das.",example:"A: Das Kaninchen ist so süß!\nB: Ja, Kaninchen sind tolle Haustiere.",exampleSrc:"A: The rabbit is so cute!\nB: Yes, rabbits are great pets.",funFact:"'-chen' makes any noun neuter AND small: Hase (hare) becomes Häschen (little hare/bunny). Kaninchen was already a diminutive from Latin 'cuniculus.'"},
 {type:"tip",title:"ein vs eine vs einen (Accusative Preview)",text:"After haben, the article changes depending on gender. This is the accusative case:\n- Masculine: einen (Ich habe einen Hund.)\n- Feminine: eine (Ich habe eine Katze.)\n- Neuter: ein (Ich habe ein Kaninchen.)\n\nNotice: only masculine changes. Feminine and neuter stay the same as nominative.\nThe key thing to remember: der becomes einen after haben.",deepDive:{title:"Why does only masculine change in accusative?",text:"German has 4 grammatical cases. In the accusative case (used for direct objects, like what you 'have'), only the masculine article changes:\n\nnominative: der Hund (subject)\naccusative: Ich habe einen Hund (object)\n\nFeminine (die) and neuter (das) stay the same in accusative. Masculine (der) changes to den (definite) or einen (indefinite).\n\nYou will study all four cases systematically in Unit 4 and beyond."}},
 
-{"type":"mc","q":"Was ist 'die Katze'?","opts":["the cat","the dog","the bird","the rabbit"],"ans":"the cat","hint":"A furry pet that purrs and chases mice."},
-{"type":"mc","q":"Was ist 'der Fisch'?","opts":["the fish","the bird","the dog","the mouse"],"ans":"the fish","hint":"This animal lives in water."},
+{"type":"mc","q":"Was ist 'die Katze'?","opts":["the bird","the rabbit","the cat","the dog"],"ans":"the cat","hint":"A furry pet that purrs and chases mice."},
+{"type":"mc","q":"Was ist 'der Fisch'?","opts":["the bird","the dog","the mouse","the fish"],"ans":"the fish","hint":"This animal lives in water."},
 {"type":"fb","s":"Der {1} singt am Morgen.","a":["Vogel"],"opts":["Vogel","Fisch","Hund","Frosch"],"hint":"A creature with wings and feathers.","sSrc":"The bird sings in the morning."},
 {"type":"mc","q":"Was ist 'das Kaninchen'?","opts":["the rabbit","the hamster","the cat","the turtle"],"ans":"the rabbit","hint":"A small animal with long ears that hops."}]},
 
@@ -307,7 +307,7 @@ const UNIT_3 =
 {type:"match",pairs:[{trg:"die Ehefrau",src:"wife"},{trg:"der Ehemann",src:"husband"},{trg:"die Großeltern",src:"grandparents"},{trg:"die Leute",src:"people"},{trg:"das Baby",src:"baby"},{trg:"die Verwandte",src:"relative"}]},
 {type:"fb",s:"Das ist meine {1}. Sie wohnt auch in Berlin.",a:["Bekannte"],opts:["Bekannte","Freundin","Großeltern","Leute"],hint:"Not a close friend, just someone you know. An acquaintance.",sSrc:"This is my acquaintance. She also lives in Berlin."},
 
-{"type":"mc","q":"Was ist 'der Hausmann'?","opts":["the stay-at-home dad","the landlord","the neighbor","the builder"],"ans":"the stay-at-home dad","hint":"A man who manages the household full-time."}]},
+{"type":"mc","q":"Was ist 'der Hausmann'?","opts":["the landlord","the neighbor","the builder","the stay-at-home dad"],"ans":"the stay-at-home dad","hint":"A man who manages the household full-time."}]},
 
 {id:"deu_r03l12",title:"Zu Hause",icon:"🏡",xp:15,board:true,steps:[
 {type:"intro",title:"Zu Hause",desc:"The apartment needs work. Broken things, missing furniture, and German has a word for everything around the house.",goals:["Describe your home and surroundings","Talk about household activities","Use prepositions unter and zwischen"]},
@@ -324,7 +324,7 @@ const UNIT_3 =
 {type:"teach",trg:"öffnen",src:"to open",pos:"verb",gender:null,note:"Regular verb: ich öffne, du öffnest. Opposite: schließen.",example:"A: Können Sie das Fenster öffnen?\nB: Ja, natürlich.",exampleSrc:"A: Can you open the window?\nB: Yes, of course.",funFact:"Germans have strong opinions about fresh air: 'Lüften' (airing out) is a daily ritual. You open all windows for 5-10 minutes, even in winter. It is called Stoßlüften."},
 {type:"fb",s:"Wann {1} du morgens auf?",a:["stehst"],opts:["stehst","badest","öffnest","legst"],hint:"Which verb means 'to get up' in the morning?",sSrc:"When do you get up in the morning?"}
 ,
-{"type":"mc","q":"Was ist 'das Apartment'?","opts":["the apartment","the house","the hotel","the office"],"ans":"the apartment","hint":"A small furnished place to live in."},
+{"type":"mc","q":"Was ist 'das Apartment'?","opts":["the office","the apartment","the house","the hotel"],"ans":"the apartment","hint":"A small furnished place to live in."},
 {"type":"fb","s":"Kannst du bitte das Fenster {1}?","a":["öffnen"],"opts":["öffnen","schließen","kaufen","finden"],"hint":"The opposite of closing something.","sSrc":"Can you please open the window?"}]},
 {id:"deu_r03l12b",title:"Zu Hause (Teil 2)",icon:"🏡",xp:15,board:true,steps:[
 {type:"intro",title:"Zu Hause (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},

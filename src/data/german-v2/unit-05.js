@@ -20,7 +20,7 @@ const UNIT_5 =
 {type:"teach",trg:"trinken",src:"to drink",pos:"verb",gender:null,note:"Regular conjugation: ich trinke, du trinkst, er/sie trinkt.",example:"A: Was trinkst du?\nB: Ich trinke Kaffee.",exampleSrc:"A: What are you drinking?\nB: I am drinking coffee.",funFact:"Germans drink more coffee per capita than beer. About 162 liters of coffee per year!"},
 {type:"fb",s:"Ich {1} jeden Morgen ein Brötchen.",a:["esse"],opts:["esse","isst","essen","esst"],hint:"The vowel change only happens in du/er forms, not ich.",sSrc:"I eat a bread roll every morning."}
 ,
-{"type":"mc","q":"Was bedeutet 'schön'?","opts":["beautiful","ugly","small","old"],"ans":"beautiful","hint":"A compliment about appearance or weather."},
+{"type":"mc","q":"Was bedeutet 'schön'?","opts":["old","beautiful","ugly","small"],"ans":"beautiful","hint":"A compliment about appearance or weather."},
 {"type":"fb","s":"Mein {1} schlägt schnell.","a":["Herz"],"opts":["Herz","Kopf","Arm","Fuß"],"hint":"The organ that pumps blood through your body.","sSrc":"My heart beats fast."}]},
 {id:"deu_r05l1b",title:"Was gibt's zum Essen? (Teil 2)",icon:"🍽️",xp:15,board:true,steps:[
 {type:"intro",title:"Was gibt's zum Essen? (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
@@ -58,8 +58,8 @@ const UNIT_5 =
 {type:"teach",trg:"salzig",src:"salty",pos:"adj",gender:null,note:"From Salz (salt) + -ig. Describes food with too much or just right salt.",example:"A: Wie schmeckt die Suppe?\nB: Etwas zu salzig, aber sonst gut.",exampleSrc:"A: How does the soup taste?\nB: A bit too salty, but otherwise good.",funFact:"The -ig ending turns many nouns into adjectives: Salz to salzig, Hunger to hungrig, Durst to durstig."},
 {type:"tip",title:"Schmeckt + Taste Description",text:"Es schmeckt gut. = It tastes good.\nEs schmeckt lecker. = It tastes delicious.\nEs schmeckt zu salzig. = It tastes too salty.\n\nPattern: Es schmeckt + adjective.\n\nPersonal preference:\nIch mag Fisch. = I like fish.\nIch esse gern Fisch. = I like eating fish.\ngern with a verb = gladly = expressing liking.",deepDive:{title:"The schmecken verb",text:"Schmecken works differently from English 'taste':\n\nEs schmeckt. = It tastes good. (no adjective needed!)\nEs schmeckt mir. = I like how it tastes. (dative!)\nWie schmeckt es? = How does it taste?\n\nIf a German says 'Es schmeckt!' about your cooking, that is the highest compliment. No adjective required."}}
 ,
-{"type":"mc","q":"Was ist 'die Suppe'?","opts":["the soup","the salad","the sauce","the bread"],"ans":"the soup","hint":"A warm liquid dish often served as a starter."},
-{"type":"mc","q":"Was bedeutet 'lecker'?","opts":["delicious","salty","bitter","cold"],"ans":"delicious","hint":"What you say when food tastes really good."},
+{"type":"mc","q":"Was ist 'die Suppe'?","opts":["the bread","the soup","the salad","the sauce"],"ans":"the soup","hint":"A warm liquid dish often served as a starter."},
+{"type":"mc","q":"Was bedeutet 'lecker'?","opts":["bitter","cold","delicious","salty"],"ans":"delicious","hint":"What you say when food tastes really good."},
 {"type":"fb","s":"Die Suppe ist zu {1}.","a":["salzig"],"opts":["salzig","süß","lecker","heiß"],"hint":"Too much of a white seasoning was added.","sSrc":"The soup is too salty."}]},
 {id:"deu_r05l2b",title:"Wie schmeckt's? (Teil 2)",icon:"😋",xp:15,board:true,steps:[
 {type:"intro",title:"Wie schmeckt's? (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
@@ -102,7 +102,7 @@ const UNIT_5 =
 {type:"mc",q:"Kannst du das ___? I cannot read it!",opts:["verstehen","müssen","nett und lieb","verboten"],ans:"verstehen",hint:"The speaker cannot read something and asks if you can understand it."},
 {type:"tip",title:"Zusammengesetzte Wörter",text:"German is famous for compound words. You just stack nouns together:\n- Speisekarte (menu): Speise (food) joined with Karte (card)\n- Frühstück (breakfast): Früh (early) joined with Stück (piece)\n- Abendessen (dinner): Abend (evening) joined with Essen (food)\n- Mittagessen (lunch): Mittag (midday) joined with Essen (food)\n\nThe last word determines the gender: die Karte, so die Speisekarte.",deepDive:{title:"The longest German words",text:"German compounds can get very long. Rindfleischetikettierungsüberwachungsaufgabenübertragungsgesetz was an actual law about beef labeling. The rule is simple: take any nouns, stick them together, and the last noun gives the gender and plural form."}},
 
-{"type":"mc","q":"Was bedeutet 'böse'?","opts":["angry / evil","happy","tired","hungry"],"ans":"angry / evil","hint":"The opposite of friendly or kind."}]},
+{"type":"mc","q":"Was bedeutet 'böse'?","opts":["hungry","angry / evil","happy","tired"],"ans":"angry / evil","hint":"The opposite of friendly or kind."}]},
 
 // ─── L4: Darf ich? Soll ich? Möchtest du? ───
 {id:"deu_r05l4",title:"Darf ich? Soll ich? Möchtest du?",icon:"🎭",xp:20,board:true,steps:[

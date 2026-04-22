@@ -128,8 +128,8 @@ const UNIT_2 =
 
 {"type":"mc","q":"Was ist 'die Frage'?","opts":["the question","the answer","the problem","the idea"],"ans":"the question","hint":"The opposite of an answer."},
 {"type":"fb","s":"Das ist ein großes {1}.","a":["Problem"],"opts":["Problem","Frage","Antwort","Idee"],"hint":"Something difficult that needs solving.","sSrc":"That is a big problem."},
-{"type":"mc","q":"Was bedeutet 'schnell'?","opts":["fast","slow","heavy","light"],"ans":"fast","hint":"The opposite of langsam."},
-{"type":"mc","q":"Was bedeutet 'anfangen'?","opts":["to begin","to finish","to forget","to find"],"ans":"to begin","hint":"What you do at the start of something."}]},
+{"type":"mc","q":"Was bedeutet 'schnell'?","opts":["light","fast","slow","heavy"],"ans":"fast","hint":"The opposite of langsam."},
+{"type":"mc","q":"Was bedeutet 'anfangen'?","opts":["to forget","to find","to begin","to finish"],"ans":"to begin","hint":"What you do at the start of something."}]},
 // --- L5: Unterwegs in der Stadt (Vocab: Verbs + Adjectives) ---
 {id:"deu_r2l6",title:"Unterwegs in der Stadt",icon:"\uD83D\uDEB6",xp:15,board:true,steps:[
 {type:"intro",title:"Unterwegs in der Stadt",desc:"Verumius wanders Berlin. Every shop, every sign, every scene is a vocabulary lesson. Today: essential verbs and adjectives.",goals:["Learn 30+ everyday verbs","Master descriptive adjectives","Describe places and situations"]},
@@ -268,8 +268,8 @@ const UNIT_2 =
 {type:"teach",trg:"sofort",src:"immediately",pos:"adv",gender:null,note:"Adverb. Stronger than 'bald' (soon).",example:"A: Wann kann ich das Zimmer haben?\nB: Sofort! Es ist fertig.",exampleSrc:"A: When can I have the room?\nB: Immediately! It is ready.",funFact:"German bureaucrats love this word. 'Sofortige Maßnahmen' means immediate measures."},
 {type:"fb",s:"Das kostet {1} zwei Euro. Es ist billig!",a:["nur"],opts:["nur","nie","oft","schon"],hint:"This adverb means 'only' and limits the amount.",sSrc:"That costs only two euros. It is cheap!"}
 ,
-{"type":"mc","q":"Was bedeutet 'dann'?","opts":["then","now","never","here"],"ans":"then","hint":"A word for what comes next in time."},
-{"type":"mc","q":"Was bedeutet 'sofort'?","opts":["immediately","slowly","later","sometimes"],"ans":"immediately","hint":"Without any delay at all."}]},
+{"type":"mc","q":"Was bedeutet 'dann'?","opts":["here","then","now","never"],"ans":"then","hint":"A word for what comes next in time."},
+{"type":"mc","q":"Was bedeutet 'sofort'?","opts":["later","sometimes","immediately","slowly"],"ans":"immediately","hint":"Without any delay at all."}]},
 {id:"deu_r2l11b",title:"Kleine Wörter, große Wirkung (Teil 2)",icon:"💡",xp:15,board:true,steps:[
 {type:"intro",title:"Kleine Wörter, große Wirkung (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"vielleicht",src:"perhaps, maybe",pos:"adv",gender:null,note:"Adverb. Softens statements and suggestions.",example:"A: Gehen wir ins Museum?\nB: Ja, vielleicht am Nachmittag.",exampleSrc:"A: Shall we go to the museum?\nB: Yes, perhaps in the afternoon.",funFact:"Vielleicht literally breaks down to 'viel' (much) + 'leicht' (easy/light), meaning 'easily possible'."},
@@ -439,7 +439,7 @@ const UNIT_2 =
 {type:"teach",trg:"der Ausflug",src:"the excursion, the day trip",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Ausflüge. Aus (out) + Flug (flight).",example:"A: Machen wir einen Ausflug?\nB: Ja, wir machen einen Ausflug nach Potsdam.",exampleSrc:"A: Shall we take a day trip?\nB: Yes, we are taking a day trip to Potsdam.",funFact:"Day trips (Ausflüge) from Berlin to Potsdam, Spreewald, or Sachsenhausen are very popular."},
 {type:"mc",q:"'Der See' ist maskulin und bedeutet...",opts:["the lake","the sea","the river","the ocean"],ans:"the lake",hint:"This masculine noun refers to a body of fresh water, often surrounded by land."}
 ,
-{"type":"mc","q":"Was ist 'die Ansage'?","opts":["the announcement","the question","the ticket","the platform"],"ans":"the announcement","hint":"Information shared publicly to a group."},
+{"type":"mc","q":"Was ist 'die Ansage'?","opts":["the platform","the announcement","the question","the ticket"],"ans":"the announcement","hint":"Information shared publicly to a group."},
 {"type":"fb","s":"Bitte beachten Sie die {1}.","a":["Durchsage"],"opts":["Durchsage","Fahrkarte","Haltestelle","Ausfahrt"],"hint":"A spoken message over speakers at a station.","sSrc":"Please pay attention to the PA announcement."}]},
 {id:"deu_r2l15b",title:"Rund um die Stadt (Teil 2)",icon:"🏙️",xp:15,board:true,steps:[
 {type:"intro",title:"Rund um die Stadt (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},

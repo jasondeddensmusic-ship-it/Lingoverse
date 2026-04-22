@@ -130,9 +130,9 @@ for (const f of files) {
   // Per-lesson MC counter.
   const lessonCounter = new Map();
 
-  // Scan for MC blocks. We walk `{type:"mc"` or `{type: "mc"` openings,
-  // then find the matching `}` at depth 0 (string-aware).
-  const openRe = /\{\s*type\s*:\s*['"]mc['"]/g;
+  // Scan for MC blocks. Handle both unquoted keys (`{type:"mc"`) and
+  // quoted keys (`{"type":"mc"`). Some unit files use JSON-style syntax.
+  const openRe = /\{\s*["']?type["']?\s*:\s*['"]mc['"]/g;
   const replacements = []; // { from, to, newText }
 
   let m;
@@ -161,24 +161,22 @@ for (const f of files) {
     const endInc = i;
     const blockText = before.slice(start, endInc + 1);
 
-    // Extract opts literal.
-    const optsOpen = blockText.indexOf('opts:');
-    if (optsOpen < 0) { stepsSkipped++; continue; }
-    const optsBracket = blockText.indexOf('[', optsOpen);
-    if (optsBracket < 0) { stepsSkipped++; continue; }
+    // Extract opts literal. Handle both `opts:` and `"opts":` key forms.
+    const optsKeyRe = /["']?opts["']?\s*:\s*\[/g;
+    const optsKeyMatch = optsKeyRe.exec(blockText);
+    if (!optsKeyMatch) { stepsSkipped++; continue; }
+    const optsBracket = optsKeyMatch.index + optsKeyMatch[0].length - 1; // index of `[`
     const opts = parseOptsAt(blockText, optsBracket);
     if (!opts || opts.items.length < 2) { stepsSkipped++; continue; }
 
-    // Extract ans. Support both array and string.
-    // Try string first: ans:"x" or ans:'x'
+    // Extract ans. Support both quoted-key `"ans":"x"` and unquoted `ans:"x"`.
     let ansVal = null;
-    const ansStrRe = /\bans\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/;
+    const ansStrRe = /["']?\bans["']?\s*:\s*(['"])((?:\\.|(?!\1).)*)\1/;
     const asm = blockText.match(ansStrRe);
     if (asm) {
       ansVal = asm[2].replace(/\\"/g, '"').replace(/\\'/g, "'").replace(/\\\\/g, '\\');
     } else {
-      // Array form — take first element.
-      const ansArrRe = /\bans\s*:\s*\[\s*(['"])((?:\\.|(?!\1).)*)\1/;
+      const ansArrRe = /["']?\bans["']?\s*:\s*\[\s*(['"])((?:\\.|(?!\1).)*)\1/;
       const aam = blockText.match(ansArrRe);
       if (aam) ansVal = aam[2].replace(/\\"/g, '"').replace(/\\'/g, "'").replace(/\\\\/g, '\\');
     }

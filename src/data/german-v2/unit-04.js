@@ -47,7 +47,7 @@ const UNIT_4 =
 {type:"teach",trg:"das Fleisch",src:"the meat",pos:"noun",gender:"n",note:"Neuter noun. Uncountable. No plural form.",example:"A: Ich kaufe Fleisch.\nB: Fleisch ist gut.",exampleSrc:"A: I am buying meat.\nB: Meat is good.",funFact:"Hähnchen = little rooster (Hahn + chen). The diminutive -chen makes EVERYTHING neuter. Just like Mädchen."},
 {type:"mc",q:"Welcher Artikel ist richtig? '___ Brot ist frisch.'",opts:["Das","Der","Die","Ein"],ans:"Das",hint:"Brot is neuter. Which definite article is used for neuter nouns?"}
 ,
-{"type":"mc","q":"Was ist 'die Zwiebel'?","opts":["the onion","the potato","the carrot","the garlic"],"ans":"the onion","hint":"This vegetable makes you cry when you cut it."}]},
+{"type":"mc","q":"Was ist 'die Zwiebel'?","opts":["the garlic","the onion","the potato","the carrot"],"ans":"the onion","hint":"This vegetable makes you cry when you cut it."}]},
 {id:"deu_r4l2b",title:"Obst, Gemüse und Chaos (Teil 2)",icon:"🍎",xp:15,board:true,steps:[
 {type:"intro",title:"Obst, Gemüse und Chaos (continued)",desc:"Continue practicing the vocabulary from this topic.",goals:["Review and practice key words"]},
 {type:"teach",trg:"der Schinken",src:"the ham",pos:"noun",gender:"m",note:"Masculine noun. Plural: die Schinken (unchanged).",example:"A: Zweihundert Gramm Schinken, bitte.\nB: Hier, genau zweihundert.",exampleSrc:"A: Two hundred grams of ham, please.\nB: Here, exactly two hundred.",funFact:"Germans eat ham for breakfast. On bread. With butter. Every morning. The Brotzeit (bread-time) is sacred."},
