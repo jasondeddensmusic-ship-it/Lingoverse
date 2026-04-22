@@ -72,7 +72,7 @@ const LESSON_20 = {id:"esv2_b2g6_l20",title:"Palabras con prefijo",icon:"🔤",x
  exampleSrc:"A: The technological progress of recent years is unimaginable.\nB: What is normal today was science fiction before.",
  funFact:"Triple prefix stacking is rare but possible: in-imagin-able. Each layer adds to the word."},
 
-{type:"mc",q:"¿Qué significa insobornable?",opts:["Que no se puede sobornar ni corromper","Que se enfada fácilmente","Que no tiene solución","Que es muy generoso"],ans:"Que no se puede sobornar ni corromper",hint:"A person who cannot be bribed. Completely incorruptible."},
+{type:"mc",q:"¿Qué significa insobornable?",opts:["Que es muy generoso","Que no se puede sobornar ni corromper","Que se enfada fácilmente","Que no tiene solución"],ans:"Que no se puede sobornar ni corromper",hint:"A person who cannot be bribed. Completely incorruptible."},
 
 {type:"match",pairs:[
   {trg:"imborrable",src:"indelible"},

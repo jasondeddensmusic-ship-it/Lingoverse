@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 6: Emergency and Rain
+// Korean B2. Batch 5, Lesson 6: Emergency and Rain
 // Words: 비상, 비서, 비우다, 비웃다, 비중, 비추다, 비치다, 비키다, 비타민, 비판, 비판적, 비하다, 비행, 비행장, 빌딩, 빗, 빗물, 빗방울, 빗줄기, 빚
 
 const LESSON_6 = {

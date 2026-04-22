@@ -1,4 +1,4 @@
-// Batch 3 — Unit 31 Lesson 2 (Advanced Media: Social Media & Ethics)
+// Batch 3. Unit 31 Lesson 2 (Advanced Media: Social Media & Ethics)
 const BATCH3_L_2 = {
   id:"itv2_u31l_b3_2", title:"Social media e deontologia", icon:"⚖️", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e una 'bufala' nel linguaggio giornalistico italiano?",
-     opts:["Un articolo particolarmente lungo e approfondito","Una notizia falsa o ingannevole priva di fonti verificabili","Un tipo di intervista esclusiva a una fonte anonima","Un editoriale controverso che provoca reazioni accese"],
+     opts:["Una notizia falsa o ingannevole priva di fonti verificabili","Un tipo di intervista esclusiva a una fonte anonima","Un editoriale controverso che provoca reazioni accese","Un articolo particolarmente lungo e approfondito"],
      ans:"Una notizia falsa o ingannevole priva di fonti verificabili",
      hint:"Informal Italian slang for fake news or a hoax. The word literally means 'female buffalo' but has acquired this figurative meaning."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Cosa impone la legge italiana sul diritto di replica?",
-     opts:["Che il soggetto citato possa rispondere all'articolo con pari visibilita","Che i lettori possano commentare tutti gli articoli online","Che ogni giornalista debba citare almeno tre fonti diverse","Che i social media rimuovano i commenti offensivi in 24 ore"],
+     opts:["Che i social media rimuovano i commenti offensivi in 24 ore","Che il soggetto citato possa rispondere all'articolo con pari visibilita","Che i lettori possano commentare tutti gli articoli online","Che ogni giornalista debba citare almeno tre fonti diverse"],
      ans:"Che il soggetto citato possa rispondere all'articolo con pari visibilita",
      hint:"Anyone mentioned in a published article has the legal right to have their response published with comparable prominence."},
 
@@ -108,9 +108,9 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e la 'bolla informativa' creata dagli algoritmi?",
-     opts:["Un servizio premium che offre notizie esclusive a pagamento","L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti","Un gruppo chiuso di giornalisti che condividono informazioni riservate","La quantità massima di dati che un algoritmo può elaborare"],
+     opts:["La quantità massima di dati che un algoritmo può elaborare","Un servizio premium che offre notizie esclusive a pagamento","L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti","Un gruppo chiuso di giornalisti che condividono informazioni riservate"],
      ans:"L'effetto per cui vediamo solo contenuti coerenti con le nostre opinioni preesistenti",
      hint:"Algorithms show you content matching your existing views, creating a bubble where you never encounter different perspectives."}
-  ,{type:"match",pairs:[{trg:"il diritto di replica",src:"the right of reply"},{trg:"il trolling",src:"trolling (online harassment)"},{trg:"la diffida",src:"the cease-and-desist letter / formal warning"}]},{type:"mc",q:"How do you say \"copyright\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","il diritto d'autore"],ans:"il diritto d'autore",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"hashtag\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'hashtag"],ans:"l'hashtag",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il diritto di replica",src:"the right of reply"},{trg:"il trolling",src:"trolling (online harassment)"},{trg:"la diffida",src:"the cease-and-desist letter / formal warning"}]},{type:"mc",q:"How do you say \"copyright\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","il diritto d'autore"],ans:"il diritto d'autore",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"hashtag\" in Italian?",opts:["l'hashtag","la finestra","il tavolo","la bicicletta"],ans:"l'hashtag",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_2;

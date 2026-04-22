@@ -1,4 +1,4 @@
-// L09: Media & Communication — 20 B2 gap words
+// L09: Media & Communication, 20 B2 gap words
 const LESSON_9 = {
   id:"nlv2_b2g2_l9", title:"Media en Communicatie", icon:"\uD83D\uDCF0", xp:15, board:true,
   steps:[
@@ -131,7 +131,7 @@ const LESSON_9 = {
      sSrc:"The {1} of the contract must be carefully checked."},
     {type:"mc",
      q:"Wat betekent het achtervoegsel '-aster' in het Nederlands?",
-     opts:["Het maakt het woord negatief en verkleint","Het maakt het woord positief","Het verandert een werkwoord in een zelfstandig naamwoord","Het geeft een meervoudsvorm aan"],
+     opts:["Het geeft een meervoudsvorm aan","Het maakt het woord negatief en verkleint","Het maakt het woord positief","Het verandert een werkwoord in een zelfstandig naamwoord"],
      ans:"Het maakt het woord negatief en verkleint",
      hint:"Think of 'criticaster' versus 'criticus'. The suffix adds a pejorative, diminishing tone."},
     {type:"match", pairs:[

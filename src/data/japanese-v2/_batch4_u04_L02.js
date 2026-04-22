@@ -1,4 +1,4 @@
-// Batch 4 — Unit 04 Lesson 2: More Colors & Describing Things
+// Batch 4. Unit 04 Lesson 2: More Colors & Describing Things
 const BATCH4_L_2 = {
   id:"jav2_u04l_b4_2", title:"もっと色(いろ)", icon:"🎨", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"かわいい means:",
-     opts:["cute","cool","beautiful","scary"], ans:"cute",
+     opts:["scary","cute","cool","beautiful"], ans:"cute",
      hint:"Japan's most famous adjective, exported worldwide with kawaii culture."},
 
     {type:"fb", s:"{1}な野菜(やさい)を買(か)います。", a:"新鮮(しんせん)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"Describes food that is recently harvested and not old."},
 
     {type:"mc", q:"What is the traditional Japanese name for brown?",
-     opts:["tea-color (茶色(ちゃいろ))","earth-color","wood-color","mud-color"], ans:"tea-color (茶色(ちゃいろ))",
+     opts:["wood-color","mud-color","tea-color (茶色(ちゃいろ))","earth-color"], ans:"tea-color (茶色(ちゃいろ))",
      hint:"Named after the c... of a beloved hot beverage in Japan."},
 
     {type:"mc", q:"かっこいい is best translated as:",
-     opts:["cool / good-looking","cute","strange","scary"], ans:"cool / good-looking",
+     opts:["cute","strange","scary","cool / good-looking"], ans:"cool / good-looking",
      hint:"The masculine counterpart to kawaii, meaning stylish or admirable."}
   ,{type:"match",pairs:[{trg:"オレンジ",src:"orange (color)"},{trg:"黄色(きいろ)い",src:"yellow"},{trg:"白(しろ)",src:"white"},{trg:"黒(くろ)",src:"black"},{trg:"素敵(すてき)",src:"wonderful / lovely"},{trg:"かわいい",src:"cute / adorable"}]},{type:"match",pairs:[{trg:"かっこいい",src:"cool / good-looking"},{trg:"模様(もよう)",src:"pattern / design"}]}]
 };

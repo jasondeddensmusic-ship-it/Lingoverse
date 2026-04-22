@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What did Italy add to its Constitution in 2022?",
-     opts:["The right to free healthcare","Environmental protection","Freedom of digital expression","Animal rights"],
+     opts:["Environmental protection","Freedom of digital expression","Animal rights","The right to free healthcare"],
      ans:"Environmental protection",
      hint:"Article 9 was amended to include this. Italy was among the first countries to give the natural world this level of legal p...."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"I try to reduce my carbon {1}."},
 
     {type:"mc", q:"What principle does the carbon tax follow?",
-     opts:["Chi inquina paga (the polluter pays)","Chi risparmia guadagna (who saves, earns)","Chi lavora mangia (who works, eats)","Chi primo arriva meglio alloggia (first come, first served)"],
+     opts:["Chi risparmia guadagna (who saves, earns)","Chi lavora mangia (who works, eats)","Chi primo arriva meglio alloggia (first come, first served)","Chi inquina paga (the polluter pays)"],
      ans:"Chi inquina paga (the polluter pays)",
      hint:"This Italian expression summarizes the logic: those responsible for pollution should bear the financial cost of their emissions."}
   ]

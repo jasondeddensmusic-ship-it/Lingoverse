@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Che cos'e l'Ordine dei Giornalisti in Italia?",
-     opts:["Un sindacato dei giornalisti","Un'associazione volontaria di editori","L'organismo professionale che regola l'accesso alla professione e vigila sulla deontologia","Un premio per il miglior giornalista dell'anno"],
+     opts:["L'organismo professionale che regola l'accesso alla professione e vigila sulla deontologia","Un premio per il miglior giornalista dell'anno","Un sindacato dei giornalisti","Un'associazione volontaria di editori"],
      ans:"L'organismo professionale che regola l'accesso alla professione e vigila sulla deontologia",
      hint:"A professional body unique to Italy that controls entry to the profession through exams and enforces ethical standards. All journalists must be registered members."},
 
@@ -96,7 +96,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Perche le querele per diffamazione sono considerate un problema per la liberta di stampa in Italia?",
-     opts:["Perche i giornalisti vincono sempre","Perche le persone potenti le usano per intimidire i giornalisti e scoraggiare le inchieste","Perche i tribunali sono troppo lenti","Perche la diffamazione non esiste in altri paesi"],
+     opts:["Perche la diffamazione non esiste in altri paesi","Perche i giornalisti vincono sempre","Perche le persone potenti le usano per intimidire i giornalisti e scoraggiare le inchieste","Perche i tribunali sono troppo lenti"],
      ans:"Perche le persone potenti le usano per intimidire i giornalisti e scoraggiare le inchieste",
      hint:"Powerful individuals can use the threat of expensive lawsuits to silence critical reporting. The Italian term for this chilling effect is 'querele temerarie' (reckless lawsuits)."}
   ]

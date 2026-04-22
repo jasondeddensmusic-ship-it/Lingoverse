@@ -66,7 +66,7 @@ const LESSON_1 = {id:"esv2_b2gD_l1",title:"Negocios y comercio",icon:"\uD83D\uDC
  exampleSrc:"A: Your proposal deserves serious consideration.\nB: Thank you, I've worked hard on the details.",
  funFact:"In formal letters, 'Le ruego tenga a bien tomar en consideración' is the ultra-polite way to say 'please consider'."},
 
-{type:"mc",q:"Si necesitas un aumento de sueldo, hablas con...",opts:["Tu jefe o jefa","El conductor del autobús","Un agente inmobiliario","El mediador del barrio"],ans:"Tu jefe o jefa",hint:"The person who decides your salary in your workplace."},
+{type:"mc",q:"Si necesitas un aumento de sueldo, hablas con...",opts:["El mediador del barrio","Tu jefe o jefa","El conductor del autobús","Un agente inmobiliario"],ans:"Tu jefe o jefa",hint:"The person who decides your salary in your workplace."},
 
 {type:"match",pairs:[
  {trg:"negociador",src:"negotiator"},
@@ -78,7 +78,7 @@ const LESSON_1 = {id:"esv2_b2gD_l1",title:"Negocios y comercio",icon:"\uD83D\uDC
 
 {type:"fb",s:"El {1} ha crecido gracias a las exportaciones de aceite de oliva.",a:["comercio exterior"],opts:["comercio exterior","convenio colectivo","aumento de sueldo","agente"],hint:"The broad term for trade between countries, including imports and exports.",sSrc:"The {1} has grown thanks to olive oil exports."},
 
-{type:"mc",q:"Un coordinador se encarga de...",opts:["Organizar tareas y equipos","Conducir vehículos pesados","Negociar contratos internacionales","Resolver conflictos legales"],ans:"Organizar tareas y equipos",hint:"This role is about keeping tasks and people aligned and organized."},
+{type:"mc",q:"Un coordinador se encarga de...",opts:["Negociar contratos internacionales","Resolver conflictos legales","Organizar tareas y equipos","Conducir vehículos pesados"],ans:"Organizar tareas y equipos",hint:"This role is about keeping tasks and people aligned and organized."},
 
 {type:"fb",s:"Tras meses de negociación, firmaron el nuevo {1}.",a:["convenio colectivo"],opts:["convenio colectivo","aumento de sueldo","comercio exterior","consideración"],hint:"A formal labor agreement negotiated between worker representatives and employers.",sSrc:"After months of negotiation, they signed the new {1}."}
 ]};

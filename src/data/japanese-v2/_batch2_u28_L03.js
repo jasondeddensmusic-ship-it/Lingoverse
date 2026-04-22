@@ -66,7 +66,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: Thank you for coming despite being busy.\nB: Thank you for inviting me.\nA: How has it changed compared to before?\nB: It has improved considerably. Efficiency has increased.\nA: What was the cause of that improvement?\nB: The introduction of the new system was a big factor.",
      funFact:"ていただく adds humble nuance to てもらう (to receive the favor of). It frames the other person's action as a gift to you. This pattern is ubiquitous in formal Japanese: 読(よ)んでいただけますか (could you read it for me?), 来(き)ていただけると助(たす)かります (it would help if you could come). Mastering ていただく is a keigo milestone."},
 
-    {type:"mc", q:"拝見(はいけん)する is the humble form of:", opts:["みる (to see)","きく (to hear)","いう (to say)","する (to do)"], ans:"みる (to see)",
+    {type:"mc", q:"拝見(はいけん)する is the humble form of:", opts:["する (to do)","みる (to see)","きく (to hear)","いう (to say)"], ans:"みる (to see)",
      hint:"This humble verb literally means 'to s... with worship,' lowering your act of looking."},
 
     {type:"fb", s:"一(ひと)つお{1}してもよろしいですか？\n(May I ask you one thing?)", a:"伺(うかが)い", opts:["伺(うかが)い","聞(き)き","尋(たず)ね","質問(しつもん)"], sSrc:"May I ask you one thing?",
@@ -79,7 +79,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"もうす",src:"to say (humble)"},{trg:"いらっしゃる",src:"to be/go/come (respectful)"},{trg:"拝見(はいけん)する",src:"to see (humble)"},{trg:"伺(うかが)う",src:"to ask/visit (humble)"}]},
 
-    {type:"mc", q:"ていただく expresses:", opts:["Giving a favor to someone","Humbly receiving a favor from someone","Commanding someone to do something","Refusing a request politely"], ans:"Humbly receiving a favor from someone",
+    {type:"mc", q:"ていただく expresses:", opts:["Refusing a request politely","Giving a favor to someone","Humbly receiving a favor from someone","Commanding someone to do something"], ans:"Humbly receiving a favor from someone",
      hint:"This pattern frames the other person's action as a gift to you, showing gratitude and humility."},
   {type:"match",pairs:[{trg:"〜ていただく",src:"to have someone do ~ for me (humble keigo)"}]}]
 };

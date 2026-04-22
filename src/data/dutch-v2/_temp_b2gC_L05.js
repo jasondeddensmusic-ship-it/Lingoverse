@@ -1,4 +1,4 @@
-// L05: Koffie en Keuken — Coffee Culture and Cooking
+// L05: Koffie en Keuken. Coffee Culture and Cooking
 const LESSON_5 = {
   id:"nlv2_b2gC_l5", title:"Koffie en Keuken", icon:"\u2615", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Wat is het verschil tussen een koffiehuis en een coffeeshop in Nederland?",
-     opts:["Er is geen verschil","Een koffiehuis verkoopt koffie, een coffeeshop verkoopt cannabis","Een koffiehuis is duurder","Een coffeeshop is een modern koffiehuis"],
+     opts:["Een koffiehuis verkoopt koffie, een coffeeshop verkoopt cannabis","Een koffiehuis is duurder","Een coffeeshop is een modern koffiehuis","Er is geen verschil"],
      ans:"Een koffiehuis verkoopt koffie, een coffeeshop verkoopt cannabis",
      hint:"This is a famous Dutch distinction that confuses many tourists visiting Amsterdam."},
 
@@ -81,7 +81,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"'De kers op de taart' betekent:",
-     opts:["Het duurste dessert","Het moeilijkste recept","Het perfecte afsluitende detail","Een probleem in de keuken"],
+     opts:["Het moeilijkste recept","Het perfecte afsluitende detail","Een probleem in de keuken","Het duurste dessert"],
      ans:"Het perfecte afsluitende detail",
      hint:"Like the English expression 'the cherry on top' or 'the icing on the cake'."},
 
@@ -121,7 +121,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Een 'knuffel' kan twee dingen betekenen:",
-     opts:["Een hond en een kat","Een omhelzing en een zacht speelgoeddier","Een kussen en een deken","Een kind en een volwassene"],
+     opts:["Een kussen en een deken","Een kind en een volwassene","Een hond en een kat","Een omhelzing en een zacht speelgoeddier"],
      ans:"Een omhelzing en een zacht speelgoeddier",
      hint:"The verb 'knuffelen' means to cuddle. The noun can be the act itself or a soft toy you cuddle."}
   ]

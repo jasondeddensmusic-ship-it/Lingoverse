@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 06: Informatie & Digitaal
+// B2 Gap Batch A. Lesson 06: Informatie & Digitaal
 // Theme: Information overload, digital life
 
 const LESSON_6 = {id:"nlv2_b2gA_l6", title:"Informatie & Digitaal", icon:"\u{1F4F1}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_6 = {id:"nlv2_b2gA_l6", title:"Informatie & Digitaal", icon:"\u{1F4
    sSrc:"Our information system needs to be modernized."},
 
   {type:"mc", q:"Ik ben mijn inloggegevens vergeten. Wat zijn 'inloggegevens'?",
-   opts:["login credentials","internet settings","email addresses","software updates"],
+   opts:["software updates","login credentials","internet settings","email addresses"],
    ans:"login credentials",
    hint:"The data (gegevens) you need to log in (inloggen) to an account."},
 
@@ -77,7 +77,7 @@ const LESSON_6 = {id:"nlv2_b2gA_l6", title:"Informatie & Digitaal", icon:"\u{1F4
   ]},
 
   {type:"mc", q:"De informatiestroom binnen het bedrijf moet beter. Wat is een 'informatiestroom'?",
-   opts:["the flow of information","a type of computer","a news channel","an email system"],
+   opts:["a news channel","an email system","the flow of information","a type of computer"],
    ans:"the flow of information",
    hint:"Stroom means stream or f.... How i... moves through an organization."},
 

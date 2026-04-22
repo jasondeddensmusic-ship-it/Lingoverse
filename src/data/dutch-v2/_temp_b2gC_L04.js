@@ -1,4 +1,4 @@
-// L04: Koloniale Geschiedenis — Colonial History and Trade
+// L04: Koloniale Geschiedenis. Colonial History and Trade
 const LESSON_4 = {
   id:"nlv2_b2gC_l4", title:"Koloniale Geschiedenis", icon:"\u{1F30F}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Wat was de VOC?",
-     opts:["Een politieke partij","Een handelscompagnie","Een leger","Een universiteit"],
+     opts:["Een handelscompagnie","Een leger","Een universiteit","Een politieke partij"],
      ans:"Een handelscompagnie",
      hint:"Verenigde Oost-Indische Compagnie. A company that traded spices and goods from the East."},
 
@@ -121,7 +121,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Welk woord komt van het Latijn 'com + panis' (samen + brood)?",
-     opts:["Kompas","Kompaan","Korps","Kolonist"],
+     opts:["Korps","Kolonist","Kompas","Kompaan"],
      ans:"Kompaan",
      hint:"Someone you share bread with. Think of the English word 'companion'."}
   ]

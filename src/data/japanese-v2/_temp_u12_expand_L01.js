@@ -24,7 +24,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
    exampleSrc:"A: Can you play piano?\nB: I can play a little. I learned as a child.",
    funFact:"ひく is used for piano, guitar, violin, and all stringed/keyboard instruments. For wind instruments, use ふく (to blow). For drums, use たたく (to hit). These distinctions reflect how you physically interact with each instrument type."},
 
-  {type:"mc", q:"およげますか means:", opts:["Do you like swimming?","Can you swim?","Will you swim?","Did you swim?"], ans:"Can you swim?",
+  {type:"mc", q:"およげますか means:", opts:["Can you swim?","Will you swim?","Did you swim?","Do you like swimming?"], ans:"Can you swim?",
    hint:"The potential form + ますか asks about ability."},
 
   {type:"teach", trg:"うたえる", src:"can sing", pos:"verb", gender:null,
@@ -60,7 +60,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
    exampleSrc:"A: Can you play soccer?\nB: I can, but I am not very good.",
    funFact:"Japan's professional soccer league (J-League) started in 1993 and transformed the sport's popularity. Japan co-hosted the 2002 FIFA World Cup. サッカー comes from the English word 'soccer,' while most of the world says 'football.' The kanji term 蹴球 (kick-ball) exists but is rarely used."},
 
-  {type:"mc", q:"テニスがじょうずですね means:", opts:["You like tennis","You play tennis often","You are good at tennis","You want to play tennis"], ans:"You are good at tennis",
+  {type:"mc", q:"テニスがじょうずですね means:", opts:["You play tennis often","You are good at tennis","You want to play tennis","You like tennis"], ans:"You are good at tennis",
    hint:"じょうず is a な-adjective meaning 'skilled' or 'g... at.'"},
 
   {type:"teach", trg:"おどれる", src:"can dance", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽",
 
   {type:"match", pairs:[{trg:"じょうず",src:"skilled"},{trg:"へた",src:"unskilled"},{trg:"スキー",src:"skiing"},{trg:"サッカー",src:"soccer"}]},
 
-  {type:"mc", q:"おどれますか means:", opts:["Do you dance often?","Can you dance?","Do you like dancing?","Will you dance?"], ans:"Can you dance?",
+  {type:"mc", q:"おどれますか means:", opts:["Will you dance?","Do you dance often?","Can you dance?","Do you like dancing?"], ans:"Can you dance?",
    hint:"The potential form + ますか asks about ability."},
 
   {type:"fb", s:"カラオケでにほんのうたが{1}ますか？\n(Can you sing Japanese songs at karaoke?)", a:"うたえ", opts:["うたえ","うたい","うたって","うたう"], sSrc:"Can you sing Japanese songs at karaoke?",

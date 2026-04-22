@@ -1,4 +1,4 @@
-// Dutch V2 Unit 37 — B1 Vocabulary Expansion
+// Dutch V2 Unit 37. B1 Vocabulary Expansion
 import L11 from './_temp_b1gap_L11.js';
 import L12 from './_temp_b1gap_L12.js';
 import L13 from './_temp_b1gap_L13.js';

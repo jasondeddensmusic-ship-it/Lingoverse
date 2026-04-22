@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 10: The Body and Perception
+// Korean B2. Batch 2, Lesson 10: The Body and Perception
 // Words: 눈동자, 눈뜨다, 눈병, 눈부시다, 눈썹, 느리다, 늑대, 늘어놓다, 늘어서다, 늘어지다, 능동적, 늦가을, 늦어지다, 다가서다, 다녀가다, 다듬다, 다루다, 다름없다, 다만, 다방
 
 const LESSON_10 = {
@@ -113,7 +113,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'능동적'의 반대말은?",
-     opts:["수동적","논리적","적극적","감정적"],
+     opts:["감정적","수동적","논리적","적극적"],
      ans:"수동적",
      hint:"If 능동적 means acting on your own initiative, the opposite is being acted upon by others."},
 

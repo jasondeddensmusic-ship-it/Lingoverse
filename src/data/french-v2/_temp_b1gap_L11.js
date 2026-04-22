@@ -98,7 +98,7 @@ const LESSON_11 = {id:"frv2_b1gap_l11", title:"Pensée et croyance", icon:"\u{1F
 
 {type:"mc",
  q:"Quel adjectif signifie 'soumis au hasard, imprévisible' ?",
- opts:["aléatoire","atomique","apocalyptique","anonyme"],
+ opts:["anonyme","aléatoire","atomique","apocalyptique"],
  ans:"aléatoire",
  hint:"This word shares the same Arabic root as 'hasard.' Think of random checks or random numbers."},
 
@@ -143,7 +143,7 @@ const LESSON_11 = {id:"frv2_b1gap_l11", title:"Pensée et croyance", icon:"\u{1F
 
 {type:"mc",
  q:"Quelle science étudie les étoiles et les planètes ?",
- opts:["l'astronomie","l'astrologie","l'anatomie","l'anthropologie"],
+ opts:["l'anatomie","l'anthropologie","l'astronomie","l'astrologie"],
  ans:"l'astronomie",
  hint:"Do not confuse this with astrology. This is the real science, not predictions based on star signs."}
 

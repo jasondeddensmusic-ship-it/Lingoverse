@@ -1,4 +1,4 @@
-// Batch 7 — Unit 19 extra lesson. I sentimenti: Social Interactions & Conflict
+// Batch 7. Unit 19 extra lesson. I sentimenti: Social Interactions & Conflict
 const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F91D}", xp:15, board:true, steps:[
 {type:"intro", title:"Interazioni sociali",
  desc:"Learn vocabulary for social interactions, resolving conflicts, and expressing agreement or disagreement.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F
 ]},
 
 {type:"mc", q:"Che cosa significa 'senza rancore'?",
- opts:["No hard feelings","Without respect","Without trust","No compromise"],
+ opts:["No compromise","No hard feelings","Without respect","Without trust"],
  ans:"No hard feelings",
  hint:"Said after a conflict is resolved. It means not holding a grudge."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F
  sSrc:"I {1} you, do not disappoint me."},
 
 {type:"mc", q:"Come dicono i bambini italiani dopo un litigio?",
- opts:["Facciamo pace","Mi dispiace molto","Porto rancore","Non sono d'accordo"],
+ opts:["Porto rancore","Non sono d'accordo","Facciamo pace","Mi dispiace molto"],
  ans:"Facciamo pace",
  hint:"Two words meaning 'let us reconcile.' Taught from the playground."},
 
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u19l_b7_1", title:"Interazioni sociali", icon:"\u{1F
  {trg:"il compromesso", src:"compromise"},
  {trg:"il pettegolezzo", src:"gossip"}
 ]}
-,{type:"match",pairs:[{trg:"il consiglio",src:"the advice / council"},{trg:"il rancore",src:"resentment / grudge"}]},{type:"mc",q:"How do you say \"to agree\" in Italian?",opts:["la finestra","essere d'accordo","il tavolo","la bicicletta"],ans:"essere d'accordo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il consiglio",src:"the advice / council"},{trg:"il rancore",src:"resentment / grudge"}]},{type:"mc",q:"How do you say \"to agree\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","essere d'accordo"],ans:"essere d'accordo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

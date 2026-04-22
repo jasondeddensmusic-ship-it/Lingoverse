@@ -66,7 +66,7 @@ const LESSON_12 = {id:"esv2_b2gC_l12",title:"Ciencia medioambiental",icon:"🌿"
  exampleSrc:"A: Slide the bolt on the door before going to bed.\nB: I've already done it, don't worry.",
  funFact:"From Latin pessulus (bolt). Despite sounding like 'peste', the words have completely different origins."},
 
-{type:"mc",q:"¿Qué medio de transporte urbano se ha regulado recientemente en Madrid?",opts:["El patinete eléctrico","La cobra","El leño","El pestillo"],ans:"El patinete eléctrico",hint:"A small electric vehicle that riders stand on, which has become common on city sidewalks."},
+{type:"mc",q:"¿Qué medio de transporte urbano se ha regulado recientemente en Madrid?",opts:["El pestillo","El patinete eléctrico","La cobra","El leño"],ans:"El patinete eléctrico",hint:"A small electric vehicle that riders stand on, which has become common on city sidewalks."},
 
 {type:"fb",s:"El plan es bueno, pero tiene una {1} importante.",a:["pega"],opts:["pega","papelera","pellejo","pestillo"],hint:"A problem, drawback, or obstacle that complicates an otherwise good plan.",sSrc:"The plan is good, but it has an important {1}."},
 

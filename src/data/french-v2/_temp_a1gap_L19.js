@@ -98,7 +98,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Comment termine-t-on une lettre amicale en français ?",
-     opts:["Amicalement","Cordialement","Sincèrement","Respectueusement"],
+     opts:["Respectueusement","Amicalement","Cordialement","Sincèrement"],
      ans:"Amicalement",
      hint:"This adverb is warmer than professional 'cordialement' but less intimate than 'bisous'."},
 
@@ -143,7 +143,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel adjectif utilisez-vous pour décrire un bon moment ?",
-     opts:["agréable","agaçant","angoissant","arrogant"],
+     opts:["angoissant","arrogant","agréable","agaçant"],
      ans:"agréable",
      hint:"This adjective describes something pleasant and enjoyable to experience."},
 

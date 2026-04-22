@@ -98,7 +98,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Comment appelle-t-on une personne qui entre par effraction pour voler ?",
-     opts:["Un cambrioleur","Un contradicteur","Un criminologue","Un condamn\u00e9"],
+     opts:["Un condamn\u00e9","Un cambrioleur","Un contradicteur","Un criminologue"],
      ans:"Un cambrioleur",
      hint:"Someone who breaks into buildings to steal. The word may come from thieves' slang for 'room'."},
 
@@ -137,7 +137,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel adjectif d\u00e9crit des preuves qui pourraient nuire \u00e0 quelqu'un ?",
-     opts:["compromettant","applicable","clandestin","criminel"],
+     opts:["clandestin","criminel","compromettant","applicable"],
      ans:"compromettant",
      hint:"Evidence that could damage someone's reputation or legal standing. From 'compromettre'."},
 

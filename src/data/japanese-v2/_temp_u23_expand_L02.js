@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: At this company, the rule is to wear suits.\nB: Casual clothes are not allowed?\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"ことになっている describes rules and norms as if they exist by themselves, without attributing them to anyone. This fits Japanese social structure perfectly: rules just 'are.' にほんではいえのなかでくつをぬぐことになっている (in Japan, the rule is to remove shoes indoors). The passive, impersonal framing avoids naming who decided."},
 
-    {type:"mc", q:"にほんにいったことがある means:", opts:["I sometimes go to Japan","I have been to Japan before","I am going to Japan","Japan is a place I decided to go"], ans:"I have been to Japan before",
+    {type:"mc", q:"にほんにいったことがある means:", opts:["I have been to Japan before","I am going to Japan","Japan is a place I decided to go","I sometimes go to Japan"], ans:"I have been to Japan before",
      hint:"Past tense (た) + ことがある expresses having experienced something at some point in life."},
 
     {type:"teach", trg:"〜ということ", src:"the fact that ~ / it means that ~", pos:"part", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"しゅうかん",src:"habit/custom"},{trg:"けいけん",src:"experience"},{trg:"ルール",src:"rule"},{trg:"ということは",src:"that means"}]},
 
-    {type:"mc", q:"ということは is used to:", opts:["Quote someone directly","Draw a logical conclusion from what was said","Describe a personal habit","Express a rule"], ans:"Draw a logical conclusion from what was said",
+    {type:"mc", q:"ということは is used to:", opts:["Express a rule","Quote someone directly","Draw a logical conclusion from what was said","Describe a personal habit"], ans:"Draw a logical conclusion from what was said",
      hint:"This phrase bridges a fact to its l... implication: 'if that is the case, then...'"},
   ]
 };

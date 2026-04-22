@@ -32,7 +32,7 @@ const LESSON_2 = {id:"esv2_b2gap_l2",title:"Carácter y apariencia",icon:"🎭",
  exampleSrc:"A: He has a very pronounced aquiline profile.\nB: Yes, he looks like his grandfather.",
  funFact:"From águila (eagle). A 'nariz aguileña' is a hooked nose, like an eagle's beak."},
 
-{type:"mc",q:"Una persona que nunca cambia de opinión es:",opts:["apática","cabezona","asidua","aparatosa"],ans:"cabezona",hint:"Think of someone with a figuratively 'big head' about their views."},
+{type:"mc",q:"Una persona que nunca cambia de opinión es:",opts:["cabezona","asidua","aparatosa","apática"],ans:"cabezona",hint:"Think of someone with a figuratively 'big head' about their views."},
 
 {type:"teach",trg:"canoso",src:"grey-haired",pos:"adj",gender:null,
  note:"Adjective. Having grey or white hair.\nFeminine: canosa.",
@@ -84,7 +84,7 @@ const LESSON_2 = {id:"esv2_b2gap_l2",title:"Carácter y apariencia",icon:"🎭",
  exampleSrc:"A: Is it suitable to wear jeans to the interview?\nB: No, something more formal would be better.",
  funFact:"From Latin adaequare (to make equal to). Something adequate 'measures up' to the need."},
 
-{type:"mc",q:"Un color rosa muy fuerte y llamativo es:",opts:["blanquecino","carmesí","chillón","amarillento"],ans:"chillón",hint:"Think of a color so bright it seems to 'shriek' at you."},
+{type:"mc",q:"Un color rosa muy fuerte y llamativo es:",opts:["carmesí","chillón","amarillento","blanquecino"],ans:"chillón",hint:"Think of a color so bright it seems to 'shriek' at you."},
 
 {type:"teach",trg:"aceptable",src:"acceptable",pos:"adj",gender:null,
  note:"Adjective. Good enough to be accepted. Invariable for gender.",
@@ -124,7 +124,7 @@ const LESSON_2 = {id:"esv2_b2gap_l2",title:"Carácter y apariencia",icon:"🎭",
 
 {type:"fb",s:"El objetivo es difícil pero {1} si trabajamos juntos.",a:["alcanzable"],opts:["alcanzable","ajustable","aceptable","accesible"],hint:"Something that can be reached or achieved with effort.",sSrc:"The goal is difficult but {1} if we work together."},
 
-{type:"mc",q:"Un profesor que siempre parece enfadado tiene cara de:",opts:["cejijunto","canoso","apático","cabezón"],ans:"cejijunto",hint:"This word describes eyebrows that meet or a frowning expression."}
+{type:"mc",q:"Un profesor que siempre parece enfadado tiene cara de:",opts:["canoso","apático","cabezón","cejijunto"],ans:"cejijunto",hint:"This word describes eyebrows that meet or a frowning expression."}
 ]};
 
 export default LESSON_2;

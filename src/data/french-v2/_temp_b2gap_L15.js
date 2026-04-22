@@ -92,7 +92,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Comment appelle-t-on une modification ajoutee a un contrat existant ?",
-     opts:["un avenant","un boulet","un bonus","un complet"],
+     opts:["un complet","un avenant","un boulet","un bonus"],
      ans:"un avenant",
      hint:"A legal term for a contractual amendment. Also means 'pleasant' as an adjective."},
 
@@ -137,7 +137,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Comment dit-on 'se trouver un emploi ou une place' de facon informelle ?",
-     opts:["se caser","boulonner","allouer","approvisionner"],
+     opts:["allouer","approvisionner","se caser","boulonner"],
      ans:"se caser",
      hint:"From 'case' (box/compartment). Means to fit yourself into a spot. Also means to settle down."},
 

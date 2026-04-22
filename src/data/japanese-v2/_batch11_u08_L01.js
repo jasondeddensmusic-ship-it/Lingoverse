@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「奥(おく)」の意味(いみ)はなんですか？",
-     opts:["The back / deep inside","The front","The side","The top"],
+     opts:["The top","The back / deep inside","The front","The side"],
      ans:"The back / deep inside",
      hint:"This word describes the innermost, furthest-in part of a space. It also appears in 奥(おく)さん (another person's wife)."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Turn right just before the traffic light."},
 
     {type:"mc", q:"A と B の「間(あいだ)」はどういう意味(いみ)ですか？",
-     opts:["Between A and B","Next to A and B","Far from A and B","Behind A and B"],
+     opts:["Far from A and B","Behind A and B","Between A and B","Next to A and B"],
      ans:"Between A and B",
      hint:"This word describes the space separating two things, positioned in the middle."}
   ,{type:"match",pairs:[{trg:"周(まわ)り",src:"around / surroundings"},{trg:"間(あいだ)",src:"between (two things)"},{trg:"向(む)かい",src:"across from / opposite"},{trg:"奥(おく)",src:"the back / interior / deep inside"}]}]

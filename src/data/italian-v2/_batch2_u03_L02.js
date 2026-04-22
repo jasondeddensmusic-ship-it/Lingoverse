@@ -1,4 +1,4 @@
-// Unit 03 Batch 2 — Lesson 2: Family Activities & Daily Life Together
+// Unit 03 Batch 2. Lesson 2: Family Activities & Daily Life Together
 const BATCH2_U03_L2 = {
   id:"itv2_u03l_b2_2", title:"La vita in famiglia", icon:"\ud83c\udfe1", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U03_L2 = {
      sSrc:"The children are {1} in the garden."},
 
     {type:"mc", q:"What is the difference between 'giocare' and 'suonare'?",
-     opts:["Giocare = games/sports, suonare = instruments","They are identical","Giocare is formal","Suonare is for children only"],
+     opts:["Suonare is for children only","Giocare = games/sports, suonare = instruments","They are identical","Giocare is formal"],
      ans:"Giocare = games/sports, suonare = instruments",
      hint:"Italian splits the English verb 'play' into two separate verbs based on what you are playing."},
 
@@ -122,7 +122,7 @@ const BATCH2_U03_L2 = {
     ]},
 
     {type:"mc", q:"What is the classic Italian mother question?",
-     opts:["Hai mangiato? (Have you eaten?)","Dove vai? (Where are you going?)","Come stai? (How are you?)","Hai dormito? (Did you sleep?)"],
+     opts:["Come stai? (How are you?)","Hai dormito? (Did you sleep?)","Hai mangiato? (Have you eaten?)","Dove vai? (Where are you going?)"],
      ans:"Hai mangiato? (Have you eaten?)",
      hint:"Food is central to Italian motherly love. This question is asked regardless of the child's age."},
 
@@ -133,7 +133,7 @@ const BATCH2_U03_L2 = {
      sSrc:"Let's eat {1} tonight. The whole family!"},
 
     {type:"mc", q:"What does 'imparare' mean?",
-     opts:["To learn","To teach","To play","To read"],
+     opts:["To teach","To play","To read","To learn"],
      ans:"To learn",
      hint:"From Latin 'imparare' (to acquire). The opposite of 'dimenticare' (to forget). Think: acquiring knowledge."}
   ,{type:"match",pairs:[{trg:"guardare",src:"to watch / to look at"},{trg:"preparare",src:"to prepare"},{trg:"insegnare",src:"to teach"},{trg:"imparare",src:"to learn"},{trg:"volere bene",src:"to love (family/friends)"},{trg:"preoccuparsi",src:"to worry (reflexive)"}]},{type:"match",pairs:[{trg:"tanto",src:"so much / a lot"}]}]

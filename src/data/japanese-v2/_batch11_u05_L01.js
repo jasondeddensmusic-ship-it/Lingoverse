@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)のレストランで食(た)べ終(お)わったら、どうしますか？",
-     opts:["Go to the register to pay","Wait for the bill at the table","Leave money on the table","Leave a tip"],
+     opts:["Leave a tip","Go to the register to pay","Wait for the bill at the table","Leave money on the table"],
      ans:"Go to the register to pay",
      hint:"In Japan, the bill is not brought to your table automatically. You take action yourself when ready to p...."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Would you like more rice?"},
 
     {type:"mc", q:"「甘(あま)い」のもうひとつの意味(いみ)はなんですか？",
-     opts:["Naive or lenient","Angry","Careful","Expensive"],
+     opts:["Careful","Expensive","Naive or lenient","Angry"],
      ans:"Naive or lenient",
      hint:"Besides describing sweet food, this adjective has a figurative meaning when used about people or situations."}
   ,{type:"fb", s:"食(た)べ終(お)わりましたか？では、{1}をお願(ねが)いします。",

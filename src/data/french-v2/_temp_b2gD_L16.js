@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 16 — Work and Careers
+// French B2 Gap Batch D Lesson 16. Work and Careers
 const LESSON_16 = {id:"frv2_b2gD_l16", title:"Travail et carrières", icon:"👔", xp:15, board:true, steps:[
   {type:"intro", title:"Travail et carrières",
    desc:"Build vocabulary for discussing careers, workplace dynamics, and professional development.",
@@ -73,7 +73,7 @@ const LESSON_16 = {id:"frv2_b2gD_l16", title:"Travail et carrières", icon:"👔
 
   {type:"mc",
    q:"Quelle expression signifie 'donner son attention avec soin'?",
-   opts:["Prêter attention","Faire du business","Créer une micro-entreprise","Distribuer des flyers"],
+   opts:["Distribuer des flyers","Prêter attention","Faire du business","Créer une micro-entreprise"],
    ans:"Prêter attention",
    hint:"This expression literally means to 'lend' your a... to something, implying careful focus."},
 

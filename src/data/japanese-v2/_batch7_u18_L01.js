@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Is it {1} again today? Let us go home early."},
 
     {type:"mc", q:"人(ひと)に迷惑(めいわく)をかけない means:",
-     opts:["Do not cause trouble for others","Work harder","Be more creative","Speak louder"],
+     opts:["Speak louder","Do not cause trouble for others","Work harder","Be more creative"],
      ans:"Do not cause trouble for others",
      hint:"This principle is taught from early childhood and drives much of Japanese social behavior."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"{1}, the materials are ready. Please review them."},
 
     {type:"mc", q:"Japanese workers underuse 有給(ゆうきゅう) because:",
-     opts:["They feel guilty about burdening colleagues","The law forbids it","They do not get paid leave","Companies do not offer it"],
+     opts:["They do not get paid leave","Companies do not offer it","They feel guilty about burdening colleagues","The law forbids it"],
      ans:"They feel guilty about burdening colleagues",
      hint:"The 迷惑(めいわく) concept makes workers reluctant to take leave, though the law now mandates minimum usage."},
 

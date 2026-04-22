@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 3: Social Roles and Simplicity
+// Korean B2. Batch 3, Lesson 3: Social Roles and Simplicity
 // Words: 간부, 간섭, 간식, 간신히, 간장, 간접, 간판, 간편하다, 간호, 간혹, 갇히다, 갈등, 갈비탕, 갈아입다, 갈증, 감, 감각, 감독, 감동적, 감상
 
 const LESSON_3 = {
@@ -95,7 +95,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"'갇히다'는 어떤 상태를 뜻하나요?",
-     opts:["빠져나가지 못하는 상태","높이 올라간 상태","빠르게 움직이는 상태","편하게 쉬는 상태"],
+     opts:["편하게 쉬는 상태","빠져나가지 못하는 상태","높이 올라간 상태","빠르게 움직이는 상태"],
      ans:"빠져나가지 못하는 상태",
      hint:"Think about being locked inside a room or elevator with no way out."},
 

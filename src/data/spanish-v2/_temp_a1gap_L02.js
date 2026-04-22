@@ -1,4 +1,4 @@
-// L02: Family & Love — Relationships and affection
+// L02: Family & Love. Relationships and affection
 const LESSON_2 = {
   id:"esv2_a1gap_l2", title:"Amor y familia", icon:"\u2764\uFE0F", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"\u00bfQué artículo usa la palabra 'alma'?",
-     opts:["el alma","la alma","un alma","lo alma"],
+     opts:["lo alma","el alma","la alma","un alma"],
      ans:"el alma",
      hint:"Some feminine nouns use 'el' when they start with a stressed 'a' sound. The noun itself is still feminine."},
 

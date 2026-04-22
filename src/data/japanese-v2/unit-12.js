@@ -215,7 +215,7 @@ const UNIT_12 = {
    funFact:"覚 combines the kanji for 'claw/hand' over 'see.' It visually suggests grasping something with your mind. Its pair verb 忘(わす)れる (to forget) is the natural opposite. Language learners joke: 覚(おぼ)える as fast as you can, because 忘(わす)れる is always right behind you."},
 
   {type:"fb", s:"魚(さかな)を{1}ました。\n(I chose fish.)", a:"選(えら)び", opts:["選(えら)び","決(き)め","覚(おぼ)え","信(しん)じ"], sSrc:"I chose fish.",
-   hint:"The verb for making a selection. Godan verb — check the ます-form ending."},
+   hint:"The verb for making a selection. Godan verb, check the ます-form ending."},
 
   {type:"match", pairs:[
    {trg:"思(おも)う",src:"to think"},
@@ -224,7 +224,7 @@ const UNIT_12 = {
    {trg:"選(えら)ぶ",src:"to choose"}
   ]},
 
-  {type:"mc", q:"How do you say 'I memorized it' in Japanese?", opts:["覚(おぼ)えました","決(き)めました","選(えら)びました","信(しん)じました"], ans:"覚(おぼ)えました",
+  {type:"mc", q:"How do you say 'I memorized it' in Japanese?", opts:["選(えら)びました","信(しん)じました","覚(おぼ)えました","決(き)めました"], ans:"覚(おぼ)えました",
    hint:"The mental-state verb for storing something in memory."},
 
   {type:"fb", s:"先生(せんせい)を{1}します。\n(I hope to be a teacher.)", a:"希望(きぼう)", opts:["希望(きぼう)","必要(ひつよう)","信(しん)じ","決(き)め"], sSrc:"I hope to be a teacher.",
@@ -237,7 +237,7 @@ const UNIT_12 = {
   ]},
 
   {type:"tip", title:"Mental-State Verbs Quick Guide",
-   text:"Opinions and thoughts:\n思(おも)う: I think that... — sentence + と思(おも)います\n信(しん)じる: I believe that...\n\nDecision and choice:\n決(き)める: to decide (active choice)\n選(えら)ぶ: to choose between options\n\nMemory:\n覚(おぼ)える: to memorize / remember\n\nNeed and hope:\n必要(ひつよう)です: is necessary\n希望(きぼう)する: to hope for (formal)",
+   text:"Opinions and thoughts:\n思(おも)う: I think that..., sentence + と思(おも)います\n信(しん)じる: I believe that...\n\nDecision and choice:\n決(き)める: to decide (active choice)\n選(えら)ぶ: to choose between options\n\nMemory:\n覚(おぼ)える: to memorize / remember\n\nNeed and hope:\n必要(ひつよう)です: is necessary\n希望(きぼう)する: to hope for (formal)",
    deepDive:{title:"思う vs 信じる",
     text:"Both express internal states but with different nuances.\n\n思(おも)う = personal opinion based on reasoning or feeling:\n難(むずか)しいと思(おも)います。(I think it is difficult.)\n\n信(しん)じる = belief or trust, often without direct evidence:\n信(しん)じます。(I believe you.)\n\nIn practice, 思(おも)う is far more common in daily conversation. 信(しん)じる is used in emotional contexts: trusting a person, holding a faith, or believing something is true against doubt."}},
 

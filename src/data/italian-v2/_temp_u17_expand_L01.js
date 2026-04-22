@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"How do Italians say 'to give a like' on social media?",
-     opts:["Dare un cuore","Mettere un like","Fare un pollice","Cliccare un bene"],
+     opts:["Mettere un like","Fare un pollice","Cliccare un bene","Dare un cuore"],
      ans:"Mettere un like",
      hint:"'M...' means 'to put.' The English noun 'l...' is used directly. Some also say 'm... un mi piace.'"},
 
@@ -92,7 +92,7 @@ const LESSON_4 = {
      sSrc:"What type of {1} do you publish on social media?"},
 
     {type:"mc", q:"What is the 'Garante della Privacy' in Italy?",
-     opts:["A social media platform for private messaging","An authority that enforces data protection laws","A private security company for celebrities","A feature that hides your online profile"],
+     opts:["A feature that hides your online profile","A social media platform for private messaging","An authority that enforces data protection laws","A private security company for celebrities"],
      ans:"An authority that enforces data protection laws",
      hint:"This government body oversees compliance with EU d... p... rules and can issue fines to companies."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"I receive too many {1}. I need to turn them off."},
 
     {type:"mc", q:"Why does Italian social media use so many English words?",
-     opts:["Italian lacks words for technology concepts","English words are shorter and easier to type","Italian adapts English tech terms naturally with Italian grammar rules","The Italian government mandates English for digital terms"],
+     opts:["The Italian government mandates English for digital terms","Italian lacks words for technology concepts","English words are shorter and easier to type","Italian adapts English tech terms naturally with Italian grammar rules"],
      ans:"Italian adapts English tech terms naturally with Italian grammar rules",
      hint:"I... adds its own g...: gender ('il like,' masculine), verb forms ('postare'), and plurals. It is natural language evolution."}
   ]

@@ -92,7 +92,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Comment designe-t-on respectueusement une personne decedee ?",
-     opts:["le defunt","le desherite","le demele","le curieux"],
+     opts:["le curieux","le defunt","le desherite","le demele"],
      ans:"le defunt",
      hint:"A formal, respectful word for a dead person. From Latin 'one who has completed'."},
 
@@ -137,7 +137,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'preparer des restes de facon creative' ?",
-     opts:["accommoder","approfondir","adopter","affecter"],
+     opts:["adopter","affecter","accommoder","approfondir"],
      ans:"accommoder",
      hint:"To prepare food in a creative way, especially leftovers. Also means to adapt."},
 

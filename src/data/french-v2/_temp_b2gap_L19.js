@@ -86,7 +86,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Que signifie 'passer au crible' ?",
-     opts:["Examiner en detail","Jeter a la poubelle","Couper en morceaux","Mettre en ordre"],
+     opts:["Mettre en ordre","Examiner en detail","Jeter a la poubelle","Couper en morceaux"],
      ans:"Examiner en detail",
      hint:"A crible is a sieve or riddle. To pass something through it means to scrutinize carefully."},
 

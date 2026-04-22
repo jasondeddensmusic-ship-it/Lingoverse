@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「円高(えんだか)」は誰(だれ)にとっていいですか？",
-     opts:["Overseas travelers (imports become cheaper)","Export companies","Domestic manufacturers","Farmers"],
+     opts:["Farmers","Overseas travelers (imports become cheaper)","Export companies","Domestic manufacturers"],
      ans:"Overseas travelers (imports become cheaper)",
      hint:"When the yen is strong, Japanese money has more purchasing power abroad, making foreign travel and imported goods c...."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Prices have been rising recently. Food products especially have become expensive."},
 
     {type:"mc", q:"日本人(にほんじん)の伝統的(でんとうてき)なお金(かね)の管理(かんり)方法(ほうほう)は何(なん)ですか？",
-     opts:["家計簿(かけいぼ) (household ledger)","Stock trading","Cryptocurrency","Credit cards only"],
+     opts:["Cryptocurrency","Credit cards only","家計簿(かけいぼ) (household ledger)","Stock trading"],
      ans:"家計簿(かけいぼ) (household ledger)",
      hint:"This method of tracking every expenditure was invented in 1904 and remains popular in Japanese financial culture."}
   ,{type:"match",pairs:[{trg:"景気(けいき)",src:"economy / business conditions"},{trg:"収入(しゅうにゅう)",src:"income / revenue"},{trg:"支出(ししゅつ)",src:"expenditure / spending"},{trg:"投資(とうし)",src:"investment"},{trg:"税金(ぜいきん)",src:"tax"},{trg:"貨幣(かへい)",src:"currency"}]}]

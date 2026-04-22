@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 17 — Medicine & Wellness
+// B2 Gap Batch B Lesson 17. Medicine & Wellness
 const LESSON_17 = {id:"esv2_b2gB_l17",title:"Medicina y bienestar",icon:"💊",xp:15,board:true,steps:[
 {type:"intro",title:"Medicina y bienestar",desc:"Learn advanced medical vocabulary for discussing health conditions, treatments, and wellness in Spanish.",goals:["Learn 12 words about medicine and wellness","Discuss medical conditions and treatments","Use formal healthcare vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_17 = {id:"esv2_b2gB_l17",title:"Medicina y bienestar",icon:"💊",x
  funFact:"Spain is a major motorcycle market. The MotoGP has deep roots in Spanish culture and many Spanish champions."},
 
 {type:"mc",q:"¿Qué es un mercado de abastos?",
- opts:["Un mercado de alimentos frescos","Un centro comercial de ropa","Una tienda de electrónica","Un almacén de construcción"],
+ opts:["Un almacén de construcción","Un mercado de alimentos frescos","Un centro comercial de ropa","Una tienda de electrónica"],
  ans:"Un mercado de alimentos frescos",
  hint:"Think about a traditional market where you can buy fresh fish, meat, vegetables, and fruit."},
 

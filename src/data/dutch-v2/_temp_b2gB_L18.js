@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 18 — Sport en Vrije Tijd
+// Dutch B2 gapB Lesson 18. Sport en Vrije Tijd
 // Sports, leisure, and recreation vocabulary
 
 const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26BD}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26B
  funFact:"Dutch football clubs rely heavily on sponsors. The shirt sponsor deal is the most lucrative, with top clubs earning millions per season."},
 
 {type:"mc", q:"Korfbal is bijzonder omdat:",
- opts:["It's played on ice","Men and women play together on one team","It uses no ball","Only the Dutch play it"],
+ opts:["Men and women play together on one team","It uses no ball","Only the Dutch play it","It's played on ice"],
  ans:"Men and women play together on one team",
  hint:"One of the few t... sports with mixed-gender teams"},
 
@@ -82,7 +82,7 @@ const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26B
 ]},
 
 {type:"mc", q:"'Hink-stap-springen' beschrijft:",
- opts:["A children's game","The triple jump in athletics","A dance move","A way of walking"],
+ opts:["A way of walking","A children's game","The triple jump in athletics","A dance move"],
  ans:"The triple jump in athletics",
  hint:"Hop, step, j.... The three phases of this track and field event."},
 

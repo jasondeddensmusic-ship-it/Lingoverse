@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quanti premi Nobel per la letteratura ha vinto l'Italia?",
-     opts:["Tre","Sei","Dieci","Due"],
+     opts:["Sei","Dieci","Due","Tre"],
      ans:"Sei",
      hint:"Italy ranks fourth globally for this prize. The laureates range from classical poets to experimental playwrights, spanning over a century."},
 

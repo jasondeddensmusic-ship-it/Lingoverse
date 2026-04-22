@@ -1,4 +1,4 @@
-// Batch 8 — Unit 07 extra lesson. Restaurant: Kitchen Ingredients
+// Batch 8. Unit 07 extra lesson. Restaurant: Kitchen Ingredients
 const BATCH8_L1 = {id:"itv2_u07l_b8_1", title:"Gli ingredienti", icon:"🧄", xp:15, board:true, steps:[
 {type:"intro", title:"Gli ingredienti",
  desc:"Learn the essential kitchen ingredients that form the backbone of Italian cooking.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u07l_b8_1", title:"Gli ingredienti", icon:"🧄", xp
 
 {type:"mc",
  q:"What does 'essere come il prezzemolo' mean?",
- opts:["To be everywhere","To be green","To be Italian","To be small"],
+ opts:["To be small","To be everywhere","To be green","To be Italian"],
  ans:"To be everywhere",
  hint:"This herb appears in nearly every Italian recipe. The expression describes someone who shows up in every situation."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u07l_b8_1", title:"Gli ingredienti", icon:"🧄", xp
 
 {type:"mc",
  q:"How long can authentic Aceto Balsamico Tradizionale be aged?",
- opts:["12 to 25 years or more","1 to 2 months","6 months","3 to 5 years"],
+ opts:["6 months","3 to 5 years","12 to 25 years or more","1 to 2 months"],
  ans:"12 to 25 years or more",
  hint:"The traditional version from Modena undergoes an extremely long aging process, unlike the supermarket version."}
 ]};

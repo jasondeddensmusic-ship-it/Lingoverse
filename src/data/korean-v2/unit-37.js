@@ -1,4 +1,4 @@
-// Korean V2 Unit 37 — B1 Vocabulary Expansion: Adverbs, Time, Culture & Function Words
+// Korean V2 Unit 37. B1 Vocabulary Expansion: Adverbs, Time, Culture & Function Words
 import L16 from './_temp_b1gap_L16.js';
 import L17 from './_temp_b1gap_L17.js';
 import L18 from './_temp_b1gap_L18.js';

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 19: Change and Nicknames
+// Korean B2. Batch 4, Lesson 19: Change and Nicknames
 // Words: 변경, 변동, 변명, 변신, 변화되다, 별다르다, 별도, 별명, 별일, 병들다, 병실, 병아리, 보고하다, 보관, 보내오다, 보너스, 보름, 보리, 보살피다, 보상
 
 const LESSON_19 = {
@@ -137,7 +137,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'정월 대보름'에 한국인이 전통적으로 먹는 음식은?",
-     opts:["오곡밥과 부럼","떡국","송편","냉면"],
+     opts:["냉면","오곡밥과 부럼","떡국","송편"],
      ans:"오곡밥과 부럼",
      hint:"On this full moon festival, Koreans eat five-grain rice and crack nuts to ward off bad luck."},
 

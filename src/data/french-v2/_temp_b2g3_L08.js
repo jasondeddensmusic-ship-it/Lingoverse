@@ -86,7 +86,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel verbe signifie rendre quelque chose plus laid ?",
-     opts:["enlaidir","figer","altérer","décorer"],
+     opts:["décorer","enlaidir","figer","altérer"],
      ans:"enlaidir",
      hint:"This is the exact opposite of 'embellir' (to beautify). It contains the word 'laid' (ugly)."},
 

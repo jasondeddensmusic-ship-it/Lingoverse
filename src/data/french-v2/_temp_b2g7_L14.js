@@ -80,7 +80,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel est le nom d'un monument prehistorique en pierre ?",
-     opts:["un dolmen","un biotope","un heliotrope","un cartographe"],
+     opts:["un cartographe","un dolmen","un biotope","un heliotrope"],
      ans:"un dolmen",
      hint:"Large flat stones balanced on upright ones, built thousands of years ago."},
 
@@ -113,7 +113,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel mot designe l'environnement naturel d'une espece vivante ?",
-     opts:["un biotope","un dolmen","un heliotrope","un cartographe"],
+     opts:["un heliotrope","un cartographe","un biotope","un dolmen"],
      ans:"un biotope",
      hint:"'Bio' (life) + 'topos' (place). The physical habitat of organisms."},
 

@@ -1,4 +1,4 @@
-// L13: Home, Living & Architecture — 20 B2 gap words
+// L13: Home, Living & Architecture, 20 B2 gap words
 const LESSON_13 = {
   id:"nlv2_b2g3_l13", title:"Wonen, Bouwen en Architectuur", icon:"\uD83C\uDFE0", xp:15, board:true,
   steps:[
@@ -90,7 +90,7 @@ const LESSON_13 = {
      deepDive:{title:"Why the Dutch housing crisis is so severe",
       text:"Several factors:\n1. Population growth: the Netherlands is one of Europe's most densely populated countries\n2. Strict zoning: building in green areas is heavily restricted\n3. Low construction: housing construction lagged behind demand for years\n4. Investment: housing became an investment vehicle, driving up prices\n5. Social housing rules: strict income limits create 'scheefwoners' (people who earn too much for social housing but too little for the free market)\n\nThe average house price exceeds 400,000 euros. For many young Dutch people, buying a home feels impossible."}},
     {type:"mc", q:"Wat is een 'dakakker'?",
-     opts:["een boerderij","een tuin op het dak","een zolderkamer","een dakkapel"],
+     opts:["een tuin op het dak","een zolderkamer","een dakkapel","een boerderij"],
      ans:"een tuin op het dak",
      hint:"A compound: d... (roof) + akker (field). Urban agriculture on top of a building."},
     {type:"fb", s:"De bal ketste tegen de {1}.", a:["doelpaal"],
@@ -104,7 +104,7 @@ const LESSON_13 = {
       {trg:"binnenhuistafereel", src:"interior scene"}
     ]},
     {type:"mc", q:"Hoelang kan de wachtlijst voor sociale huur in Amsterdam zijn?",
-     opts:["2 jaar","5 jaar","10 jaar","meer dan 15 jaar"],
+     opts:["10 jaar","meer dan 15 jaar","2 jaar","5 jaar"],
      ans:"meer dan 15 jaar",
      hint:"The Dutch housing crisis is severe. Amsterdam's social housing waiting list is notoriously long."},
     {type:"fb", s:"De {1} wappert op Koningsdag.", a:["driekleur"],

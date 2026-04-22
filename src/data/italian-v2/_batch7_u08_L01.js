@@ -1,4 +1,4 @@
-// Batch 7 — Unit 08 extra lesson. Lo shopping: Jewelry & Personal Accessories
+// Batch 7. Unit 08 extra lesson. Lo shopping: Jewelry & Personal Accessories
 const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1F48D}", xp:15, board:true, steps:[
 {type:"intro", title:"Gioielli e accessori",
  desc:"Learn vocabulary for jewelry, accessories, and describing personal style.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
 ]},
 
 {type:"mc", q:"Che cosa significa 'la bella figura'?",
- opts:["Making a good impression","Having a nice body","Wearing jewelry","Being fashionable"],
+ opts:["Being fashionable","Making a good impression","Having a nice body","Wearing jewelry"],
  ans:"Making a good impression",
  hint:"A core Italian value about presenting yourself well to others."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u08l_b7_1", title:"Gioielli e accessori", icon:"\u{1
  sSrc:"What are you {1} tonight? A black dress."},
 
 {type:"mc", q:"Su quale mano si porta la fede nuziale in Italia?",
- opts:["La mano destra","La mano sinistra","Non si porta","Dipende dalla regione"],
+ opts:["Non si porta","Dipende dalla regione","La mano destra","La mano sinistra"],
  ans:"La mano destra",
  hint:"The opposite of many English-speaking countries. Right, not left."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 14: Elections and Persuasion
+// Korean B2. Batch 5, Lesson 14: Elections and Persuasion
 // Words: 선거, 선명하다, 선언하다, 선원, 선장, 선전, 선정하다, 선진, 선진국, 선풍기, 선호하다, 설거지, 설날, 설득하다, 설렁탕, 설립하다, 설명되다, 설문, 설사, 설치
 
 const LESSON_14 = {

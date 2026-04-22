@@ -1,4 +1,4 @@
-// Batch 8 — Unit 21 extra lesson. Conditional: Polite Requests & Wishes
+// Batch 8. Unit 21 extra lesson. Conditional: Polite Requests & Wishes
 const BATCH8_L1 = {id:"itv2_u21l_b8_1", title:"Desideri e cortesia", icon:"✨", xp:15, board:true, steps:[
 {type:"intro", title:"Desideri e cortesia",
  desc:"Learn to use the conditional for polite requests, wishes, and hypothetical desires.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u21l_b8_1", title:"Desideri e cortesia", icon:"✨",
 
 {type:"mc",
  q:"Where does 'desiderare' literally come from?",
- opts:["Latin for 'from the stars' (longing for something unreachable)","Latin for 'to decide'","Greek for 'to want'","French for 'to dream'"],
+ opts:["French for 'to dream'","Latin for 'from the stars' (longing for something unreachable)","Latin for 'to decide'","Greek for 'to want'"],
  ans:"Latin for 'from the stars' (longing for something unreachable)",
  hint:"'De' + 'sidus' (star). The desire is as distant and beautiful as the s... above."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u21l_b8_1", title:"Desideri e cortesia", icon:"✨",
 
 {type:"mc",
  q:"What does the proverb 'la speranza e l'ultima a morire' mean?",
- opts:["Hope is the last to die (never give up)","Hope always dies first","Death brings hope","The last hope is the best"],
+ opts:["Death brings hope","The last hope is the best","Hope is the last to die (never give up)","Hope always dies first"],
  ans:"Hope is the last to die (never give up)",
  hint:"Even when everything seems lost, hope persists. It echoes the Greek myth of Pandora's box."}
-,{type:"match",pairs:[{trg:"il sogno",src:"the dream"},{trg:"la proposta",src:"the proposal / suggestion"},{trg:"accontentarsi",src:"to settle for / to be content with"}]},{type:"mc",q:"How do you say \"aspiration / ambition\" in Italian?",opts:["l'aspirazione","la finestra","il tavolo","la bicicletta"],ans:"l'aspirazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il sogno",src:"the dream"},{trg:"la proposta",src:"the proposal / suggestion"},{trg:"accontentarsi",src:"to settle for / to be content with"}]},{type:"mc",q:"How do you say \"aspiration / ambition\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'aspirazione"],ans:"l'aspirazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

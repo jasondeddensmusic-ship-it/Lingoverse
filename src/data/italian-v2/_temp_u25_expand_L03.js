@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Che cos'e una recessione economica?",
-     opts:["Un aumento dei prezzi superiore al 10%","Due trimestri consecutivi di crescita negativa del PIL","Una crisi bancaria nazionale","Un calo della borsa superiore al 20%"],
+     opts:["Due trimestri consecutivi di crescita negativa del PIL","Una crisi bancaria nazionale","Un calo della borsa superiore al 20%","Un aumento dei prezzi superiore al 10%"],
      ans:"Due trimestri consecutivi di crescita negativa del PIL",
      hint:"Technically defined as two consecutive quarters of economic shrinkage. When the total value of goods produced goes down for six months or more."},
 
@@ -75,7 +75,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Qual e l'aliquota IVA ordinaria in Italia?",
-     opts:["Il 10%","Il 15%","Il 22%","Il 30%"],
+     opts:["Il 15%","Il 22%","Il 30%","Il 10%"],
      ans:"Il 22%",
      hint:"The standard rate for most goods and services. Lower rates apply to essentials like food and books. Italy's rate is among the higher ones in Europe."},
 
@@ -102,7 +102,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Perche l'Italia non puo piu svalutare la propria moneta per stimolare l'economia?",
-     opts:["Perche la lira e troppo forte","Perche ha adottato l'euro e la politica monetaria e gestita dalla BCE","Perche la Costituzione lo vieta","Perche la globalizzazione lo impedisce"],
+     opts:["Perche la globalizzazione lo impedisce","Perche la lira e troppo forte","Perche ha adottato l'euro e la politica monetaria e gestita dalla BCE","Perche la Costituzione lo vieta"],
      ans:"Perche ha adottato l'euro e la politica monetaria e gestita dalla BCE",
      hint:"After joining the single European currency, individual countries gave up control of their own monetary tools. A central institution now makes those decisions for all member states."}
   ]

@@ -56,7 +56,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"Which language has the personal infinitive?",
- opts:["Spanish","French","Portuguese","Italian"],
+ opts:["Portuguese","Italian","Spanish","French"],
  ans:"Portuguese",
  hint:"This feature is unique among major Romance languages."},
 
@@ -150,7 +150,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"Which triggers the personal infinitive?",
- opts:["a","em","para","com"],
+ opts:["para","com","a","em"],
  ans:"para",
  hint:"Preposition of purpose. Very common trigger."},
 
@@ -184,7 +184,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"Which sentence is correct?",
- opts:["Sem nós pedir, ele ajudou.","Sem nós pedirmos, ele ajudou.","Sem pedirmos nós, ele ajudou.","Sem pedir nós, ele ajudou."],
+ opts:["Sem pedir nós, ele ajudou.","Sem nós pedir, ele ajudou.","Sem nós pedirmos, ele ajudou.","Sem pedirmos nós, ele ajudou."],
  ans:"Sem nós pedirmos, ele ajudou.",
  hint:"Subject '___' triggers the personal infinitive with the -mos ending."},
 
@@ -243,7 +243,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"What is the personal infinitive of 'comer' for nós?",
- opts:["comer","comermos","comerem","comeres"],
+ opts:["comermos","comerem","comeres","comer"],
  ans:"comermos",
  hint:"Add -mos to the basic infinitive for 'nós'."},
 
@@ -277,13 +277,13 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"Which sentence uses the personal infinitive correctly?",
- opts:["É bom nós estudar.","É bom nós estudarmos.","É bom estudares nós.","É bom estudamos nós."],
+ opts:["É bom estudamos nós.","É bom nós estudar.","É bom nós estudarmos.","É bom estudares nós."],
  ans:"É bom nós estudarmos.",
  hint:"Subject '___' takes the -mos ending on the infinitive."},
 
 {type:"mc",
  q:"What is the main advantage of the personal infinitive over the subjunctive?",
- opts:["It is always required","It sounds older","It is often shorter and more elegant","It works only with pronouns"],
+ opts:["It works only with pronouns","It is always required","It sounds older","It is often shorter and more elegant"],
  ans:"It is often shorter and more elegant",
  hint:"Compare the two patterns and see which feels lighter."},
 
@@ -315,7 +315,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
  note:"The outcome or impact of something. Often paired with 'a causa' (cause) in B1 discussions.",
  example:"A: O efeito do trabalho em equipe é muito bom.\nB: Concordo, trabalhamos melhor juntos.",
  exampleSrc:"A: The effect of teamwork is very good.\nB: I agree, we work better together.",
- funFact:"Efeito special — a common phrase for a particularly striking or dramatic result. Borrowed from film and theater."},
+ funFact:"Efeito special, a common phrase for a particularly striking or dramatic result. Borrowed from film and theater."},
 
 {type:"teach", trg:"a causa", src:"the cause / the reason", pos:"noun", gender:"f",
  note:"The origin or reason behind something. In Portuguese, causa and razão are near-synonyms but causa emphasizes direct action.",
@@ -366,13 +366,13 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"Which noun refers to the reason something happens?",
- opts:["o efeito","o objetivo","a causa","a solução"],
+ opts:["a causa","a solução","o efeito","o objetivo"],
  ans:"a causa",
  hint:"Think of the starting point in a cause-and-effect chain."},
 
 {type:"mc",
  q:"Which verb means 'to suggest a plan or idea'?",
- opts:["aceitar","explicar","propor","querer"],
+ opts:["explicar","propor","querer","aceitar"],
  ans:"propor",
  hint:"This verb is used in meetings and formal contexts to put forward a new idea."},
 
@@ -415,13 +415,13 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 
 {type:"mc",
  q:"What is the gender of 'a consequência'?",
- opts:["masculine","feminine","neuter","it varies"],
+ opts:["it varies","masculine","feminine","neuter"],
  ans:"feminine",
  hint:"The article 'a' is a clear signal of the grammatical gender."},
 
 {type:"mc",
  q:"Which sentence correctly uses 'o efeito'?",
- opts:["O efeito de propor é a causa.","O efeito do trabalho em equipe é muito bom.","O efeito aceitar é difícil.","O efeito de a solução é o objetivo."],
+ opts:["O efeito aceitar é difícil.","O efeito de a solução é o objetivo.","O efeito de propor é a causa.","O efeito do trabalho em equipe é muito bom."],
  ans:"O efeito do trabalho em equipe é muito bom.",
  hint:"Effect follows from an action or situation. Pick the sentence where a clear situation produces an outcome."},
 

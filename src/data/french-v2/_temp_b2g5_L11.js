@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 11 — Emotions and Psychology
+// French B2 Gap Lesson 11. Emotions and Psychology
 const LESSON_11 = {id:"frv2_b2g5_l11", title:"Émotions et psychologie", icon:"🧠", xp:15, board:true, steps:[
   {type:"intro", title:"Émotions et psychologie",
    desc:"Explore vocabulary for discussing emotions, psychological states, and inner experience at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_11 = {id:"frv2_b2g5_l11", title:"Émotions et psychologie", icon:"�
    funFact:"From 'général' + '-ement'. One of the first adverbs French learners encounter."},
 
   {type:"mc", q:"Que signifie 'quelle galère!' en français familier?",
-   opts:["Quelle situation difficile!","Quel beau bateau!","Quelle bonne surprise!","Quel bon repas!"],
+   opts:["Quel bon repas!","Quelle situation difficile!","Quel beau bateau!","Quelle bonne surprise!"],
    ans:"Quelle situation difficile!",
    hint:"Originally a slave ship: now means an awful, difficult s..."},
 
@@ -105,7 +105,7 @@ const LESSON_11 = {id:"frv2_b2g5_l11", title:"Émotions et psychologie", icon:"�
   ]},
 
   {type:"mc", q:"Quel verbe signifie 'exprimer une admiration intense'?",
-   opts:["S'extasier","S'absenter","S'inscrire","S'insurger"],
+   opts:["S'inscrire","S'insurger","S'extasier","S'absenter"],
    ans:"S'extasier",
    hint:"To be filled with ecstatic wonder, often while looking at something beautiful"},
 
@@ -120,7 +120,7 @@ const LESSON_11 = {id:"frv2_b2g5_l11", title:"Émotions et psychologie", icon:"�
    hint:"The deep rumbling sound creates a slight shiver of fear"},
 
   {type:"mc", q:"L'inanité d'un débat signifie que le débat est:",
-   opts:["Complètement vide et inutile","Très animé et passionné","Bien organisé","Extrêmement long"],
+   opts:["Très animé et passionné","Bien organisé","Extrêmement long","Complètement vide et inutile"],
    ans:"Complètement vide et inutile",
    hint:"Total emptiness of meaning or purpose, going nowhere"}
 ]};

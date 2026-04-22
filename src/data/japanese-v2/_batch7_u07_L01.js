@@ -111,7 +111,7 @@ const BATCH7_L1 = {
      sSrc:"Please {1} at Shibuya. Take the Yamanote Line."},
 
     {type:"mc", q:"Japanese students clean their own schools because:",
-     opts:["It teaches responsibility and respect for shared spaces","There are not enough janitors","It is a punishment","Parents requested it"],
+     opts:["Parents requested it","It teaches responsibility and respect for shared spaces","There are not enough janitors","It is a punishment"],
      ans:"It teaches responsibility and respect for shared spaces",
      hint:"掃除(そうじ) in schools is a valued educational tradition, not a cost-saving measure."},
 
@@ -122,7 +122,7 @@ const BATCH7_L1 = {
      sSrc:"Before {1} the bath, I wash my body."},
 
     {type:"mc", q:"戻(もど)る vs 帰(かえ)る: which describes returning to the office after lunch?",
-     opts:["戻(もど)る (temporary return to a place)","帰(かえ)る (going home for the day)","出(で)かける (going out)","乗(の)り換(か)える (transferring)"],
+     opts:["出(で)かける (going out)","乗(の)り換(か)える (transferring)","戻(もど)る (temporary return to a place)","帰(かえ)る (going home for the day)"],
      ans:"戻(もど)る (temporary return to a place)",
      hint:"This verb means returning to a specific location temporarily, not going home."},
 

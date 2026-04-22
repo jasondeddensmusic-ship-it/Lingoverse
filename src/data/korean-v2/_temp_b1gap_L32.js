@@ -40,7 +40,7 @@ const LESSON_32 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'얼굴을 가리다'는 무슨 뜻이에요?",
-     opts:["얼굴을 씻다","얼굴을 숨기다","얼굴을 보다","얼굴을 만지다"],
+     opts:["얼굴을 숨기다","얼굴을 보다","얼굴을 만지다","얼굴을 씻다"],
      ans:"얼굴을 숨기다",
      hint:"This verb means to block something from view. When applied to a face, you are preventing others from seeing it."},
 
@@ -137,7 +137,7 @@ const LESSON_32 = {
 
     {type:"mc",
      q:"'눈앞이 캄캄하다'는 무슨 뜻이에요?",
-     opts:["앞이 안 보이다, 막막하다","눈을 감다","밤이 되다","잠이 오다"],
+     opts:["밤이 되다","잠이 오다","앞이 안 보이다, 막막하다","눈을 감다"],
      ans:"앞이 안 보이다, 막막하다",
      hint:"This idiom uses 'dark' and 'before one's eyes' to describe a feeling of hopelessness when you cannot see any way forward."},
 
@@ -196,7 +196,7 @@ const LESSON_32 = {
     // --- Final quiz ---
     {type:"mc",
      q:"'이 영화의 배경이 어디에요?'에서 '배경'은?",
-     opts:["주인공","결말","장소와 시대","감독"],
+     opts:["감독","주인공","결말","장소와 시대"],
      ans:"장소와 시대",
      hint:"This Sino-Korean noun combines 'back' and 'scenery.' In the context of a movie, it refers to the place and time period where the story takes place."},
 

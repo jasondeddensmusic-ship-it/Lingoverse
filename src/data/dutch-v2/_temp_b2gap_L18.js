@@ -1,4 +1,4 @@
-// L18: Housing, Living & Architecture — 20 B2 gap words
+// L18: Housing, Living & Architecture, 20 B2 gap words
 const LESSON_18 = {
   id:"nlv2_b2gap_l18", title:"Wonen en Architectuur", icon:"\uD83C\uDFE0", xp:15, board:true,
   steps:[
@@ -110,11 +110,11 @@ const LESSON_18 = {
      deepDive:{title:"The Dutch housing crisis",
       text:"The Netherlands faces a severe housing crisis ('woningcrisis'):\n\nCauses:\n- Too few new homes built for decades\n- Population growth and immigration\n- Investors buying properties\n- Strict zoning and building regulations\n\nEffects:\n- Average wait for social housing: 10+ years in Amsterdam\n- House prices doubled in 10 years\n- Young people cannot afford to buy\n- 'Scheefwonen' (living in wrong-category housing)\n\nSolutions being tried:\n'Woningbouwversnelling' (accelerated building)\n'Zelfbewoningsplicht' (must live in your own property)\n'Starterslening' (starter loan for first buyers)"}},
     {type:"mc", q:"A 'binnenhuistafereel' in Dutch art is:",
-     opts:["a landscape painting","an interior domestic scene","a self-portrait","a still life"],
+     opts:["an interior domestic scene","a self-portrait","a still life","a landscape painting"],
      ans:"an interior domestic scene",
      hint:"Vermeer and Pieter de Hooch painted everyday life inside Dutch homes."},
     {type:"mc", q:"'Bib' is the Belgian Dutch informal word for:",
-     opts:["baby","bicycle","library","beer"],
+     opts:["bicycle","library","beer","baby"],
      ans:"library",
      hint:"Short for 'bibliotheek'. In the Netherlands they say 'bieb' instead."},
     {type:"fb", s:"De {1} op het dak houdt het gebouw koel.", a:["begroeiing"],
@@ -132,7 +132,7 @@ const LESSON_18 = {
       {trg:"basiliek", src:"basilica"}
     ]},
     {type:"mc", q:"Dutch dredging companies are famous for:",
-     opts:["building bridges","world-leading dredging and land reclamation","cheese export","tulip cultivation"],
+     opts:["tulip cultivation","building bridges","world-leading dredging and land reclamation","cheese export"],
      ans:"world-leading dredging and land reclamation",
      hint:"They built artificial islands and harbors worldwide."},
     {type:"fb", s:"Alle oude contracten zijn {1}.", a:["gearchiveerd"],

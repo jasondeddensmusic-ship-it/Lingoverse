@@ -72,7 +72,7 @@ const LESSON_5 = {id:"esv2_b2g6_l5",title:"Medio ambiente",icon:"🌿",xp:15,boa
  exampleSrc:"A: It is a project of great scope.\nB: Yes, it will affect the whole region.",
  funFact:"Originally a nautical term for the width of a ship's sails. Now means 'scope' or 'magnitude'."},
 
-{type:"mc",q:"¿Qué significa fragilidad?",opts:["La cualidad de romperse fácilmente","Un tipo de fertilizante","Una fila de árboles","Una horquilla de temperaturas"],ans:"La cualidad de romperse fácilmente",hint:"Think of something fragile, delicate, easily broken."},
+{type:"mc",q:"¿Qué significa fragilidad?",opts:["Una horquilla de temperaturas","La cualidad de romperse fácilmente","Un tipo de fertilizante","Una fila de árboles"],ans:"La cualidad de romperse fácilmente",hint:"Think of something fragile, delicate, easily broken."},
 
 {type:"match",pairs:[
   {trg:"fertilizante",src:"fertilizer"},

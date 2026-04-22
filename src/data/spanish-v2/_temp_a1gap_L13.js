@@ -1,4 +1,4 @@
-// L13: Communication & Speaking — Expressing yourself
+// L13: Communication & Speaking. Expressing yourself
 const LESSON_13 = {
   id:"esv2_a1gap_l13", title:"Comunicarse", icon:"\u{1F4AC}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"\u00bfDónde está el libro? Está..., en la mesa cerca de ti.",
-     opts:["ahí","aquí","allí","acá"],
+     opts:["acá","ahí","aquí","allí"],
      ans:"ahí",
      hint:"Spanish uses three distance levels. This adverb means 'there near you', the middle distance."},
 

@@ -1,4 +1,4 @@
-// L18: Daily Life & Objects — 20 B2 gap words
+// L18: Daily Life & Objects, 20 B2 gap words
 const LESSON_18 = {
   id:"nlv2_b2g2_l18", title:"Dagelijks Leven", icon:"\uD83C\uDFE1", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const LESSON_18 = {
      sSrc:"Everyone contributes their little {1} to the project."},
     {type:"mc",
      q:"Welk Nederlands concept voor verkeersveiligheid is wereldwijd overgenomen?",
-     opts:["Het woonerf","De rotonde","Het zebrapad","De fietstunnel"],
+     opts:["De fietstunnel","Het woonerf","De rotonde","Het zebrapad"],
      ans:"Het woonerf",
      hint:"A residential area design concept from the 1960s where cars must yield to pedestrians and children playing."},
     {type:"match", pairs:[

@@ -32,7 +32,7 @@ const LESSON_18 = {id:"esv2_b2gap_l18",title:"Cualidades y juicios",icon:"⭐",x
  exampleSrc:"A: The apartment has an affordable price for the area.\nB: It is hard to find something like that in Madrid.",
  funFact:"From Latin assequi (to follow/attain). Not to be confused with 'accesible' (easy to access)."},
 
-{type:"mc",q:"Una discusión interminable sobre un tema sin importancia es:",opts:["beneficiosa","bizantina","bianual","asequible"],ans:"bizantina",hint:"Named after an empire famous for endless, pointless theological debates."},
+{type:"mc",q:"Una discusión interminable sobre un tema sin importancia es:",opts:["bizantina","bianual","asequible","beneficiosa"],ans:"bizantina",hint:"Named after an empire famous for endless, pointless theological debates."},
 
 {type:"teach",trg:"arrasador",src:"devastating / overwhelming",pos:"adj",gender:null,
  note:"Adjective. Completely destructive, or overwhelmingly powerful.\nFeminine: arrasadora.",
@@ -112,13 +112,13 @@ const LESSON_18 = {id:"esv2_b2gap_l18",title:"Cualidades y juicios",icon:"⭐",x
 
 {type:"fb",s:"La victoria fue {1}, ganaron por seis goles a cero.",a:["arrasadora"],opts:["arrasadora","asequible","bianual","aprovechable"],hint:"Completely devastating, an overwhelming triumph.",sSrc:"The victory was {1}, they won six goals to zero."},
 
-{type:"mc",q:"Un 'afilador' tradicional anuncia su llegada con:",opts:["Una campana","Una flauta","Un tambor","Una sirena"],ans:"Una flauta",hint:"This traveling craftsman uses a distinctive musical instrument."},
+{type:"mc",q:"Un 'afilador' tradicional anuncia su llegada con:",opts:["Una sirena","Una campana","Una flauta","Un tambor"],ans:"Una flauta",hint:"This traveling craftsman uses a distinctive musical instrument."},
 
 {type:"match",pairs:[{trg:"asequible",src:"affordable"},{trg:"arrasador",src:"devastating"},{trg:"bizantino",src:"pointlessly complex"},{trg:"aeronave",src:"aircraft"},{trg:"bárbaro",src:"awesome (colloquial)"}]},
 
 {type:"fb",s:"La industria {1} española tiene fábricas de Airbus.",a:["aeronáutica"],opts:["aeronáutica","aduanera","báltica","bianual"],hint:"Related to aircraft design and manufacturing.",sSrc:"The Spanish {1} industry has Airbus factories."},
 
-{type:"mc",q:"Todo lo que se puede reutilizar es:",opts:["aprovechable","aduanero","bizantino","apocalíptico"],ans:"aprovechable",hint:"Items that can still be used or salvaged rather than discarded."}
+{type:"mc",q:"Todo lo que se puede reutilizar es:",opts:["aduanero","bizantino","apocalíptico","aprovechable"],ans:"aprovechable",hint:"Items that can still be used or salvaged rather than discarded."}
 ]};
 
 export default LESSON_18;

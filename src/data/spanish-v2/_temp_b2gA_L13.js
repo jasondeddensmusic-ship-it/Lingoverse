@@ -1,4 +1,4 @@
-// Lesson 13 — Vida urbana y rural
+// Lesson 13. Vida urbana y rural
 const LESSON_13 = {id:"esv2_b2gA_l13", title:"Vida urbana y rural", icon:"🏘️", xp:15, board:true, steps:[
 {type:"intro", title:"Vida urbana y rural", desc:"Contrast urban and rural life with vocabulary for places, trades, and landscapes.", goals:["Learn 15 urban and rural vocabulary words","Describe towns and countryside","Discuss the rural-urban divide"]},
 
@@ -57,7 +57,7 @@ const LESSON_13 = {id:"esv2_b2gA_l13", title:"Vida urbana y rural", icon:"🏘�
  exampleSrc:"A: Metro line three goes to the airport.\nB: It's the fastest way to get there.",
  funFact:"'En líneas generales' (in general terms) is a very useful B2 expression."},
 
-{type:"mc", q:"¿Qué significa 'dormir como un leño'?", opts:["Dormir muy profundamente","Dormir poco","Dormir incómodamente","No poder dormir"], ans:"Dormir muy profundamente",
+{type:"mc", q:"¿Qué significa 'dormir como un leño'?", opts:["No poder dormir","Dormir muy profundamente","Dormir poco","Dormir incómodamente"], ans:"Dormir muy profundamente",
  hint:"A log is heavy and motionless. Apply that image to sleeping."},
 
 {type:"fb", s:"Visitamos un {1} del siglo XVIII en La Rioja donde todavía hacen vino.", a:["lagar"], opts:["lagar","kiosco","leño","base"],
@@ -94,7 +94,7 @@ const LESSON_13 = {id:"esv2_b2gA_l13", title:"Vida urbana y rural", icon:"🏘�
  hint:"This figurative expression means the standard or bar has been set high.",
  sSrc:"They've set the {1} very high to pass the exam."},
 
-{type:"mc", q:"¿Cuál es la diferencia entre 'fierro' y 'hierro'?", opts:["Fierro es la forma latinoamericana de hierro","Son minerales diferentes","Fierro es más moderno","Hierro es más informal"], ans:"Fierro es la forma latinoamericana de hierro",
+{type:"mc", q:"¿Cuál es la diferencia entre 'fierro' y 'hierro'?", opts:["Fierro es más moderno","Hierro es más informal","Fierro es la forma latinoamericana de hierro","Son minerales diferentes"], ans:"Fierro es la forma latinoamericana de hierro",
  hint:"Both words mean iron, but one is standard in Latin America, the other in Spain."},
 
 {type:"drag_fill", s:"El {1} trabajaba en la {2} del pueblo desde joven.", blanks:{"1":"leñador","2":"carpintería"}, pool:["leñador","carpintería","malaquita","kiosco"],

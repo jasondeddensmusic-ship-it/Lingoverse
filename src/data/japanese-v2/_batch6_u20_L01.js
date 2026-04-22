@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Can I get a reservation for today?\nB: Unfortunately we are fully booked. How about tomorrow?\nA: What was it like?\nB: It was much better than I imagined.",
      funFact:"あいにく softens disappointing news. It is the polite way to say 'unfortunately' in service contexts. あいにくの雨(あめ) (unfortunately it is raining) and あいにく留守(るす)にしております (unfortunately they are not here) are common patterns. Using あいにく shows sensitivity to the listener's feelings."},
 
-    {type:"mc", q:"申(もう)し訳(わけ)ございません is:", opts:["The deepest formal apology in service contexts","A casual sorry","A way to say thank you","A greeting"], ans:"The deepest formal apology in service contexts",
+    {type:"mc", q:"申(もう)し訳(わけ)ございません is:", opts:["A greeting","The deepest formal apology in service contexts","A casual sorry","A way to say thank you"], ans:"The deepest formal apology in service contexts",
      hint:"This phrase literally means 'there is no excuse' and is used for serious apologies."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"ただいま在庫切(ざいこぎ)れでございます。{1}。\n(We are currently out of stock. I am terribly sorry.)", a:"もうしわけございません", opts:["もうしわけございません","ありがとうございます","おめでとうございます","いってきます"], sSrc:"We are currently out of stock. I am terribly sorry.",
      hint:"The deepest formal apology used when a business cannot fulfill a request."},
 
-    {type:"mc", q:"あいにく is used to:", opts:["Deliver bad news politely","Express excitement","Make a request","Give directions"], ans:"Deliver bad news politely",
+    {type:"mc", q:"あいにく is used to:", opts:["Make a request","Give directions","Deliver bad news politely","Express excitement"], ans:"Deliver bad news politely",
      hint:"This word softens unfortunate information for the listener."}
   ,{type:"match",pairs:[{trg:"少々(しょうしょう)",src:"a little / a moment (formal)"},{trg:"お客様(きゃくさま)",src:"customer / guest (honorific)"},{trg:"申(もう)し訳(わけ)ございません",src:"I am terribly sorry (most formal apology)"},{trg:"お持(も)ちする",src:"to bring (humble form)"},{trg:"ご利用(りよう)",src:"usage / use (honorific)"},{trg:"お買(か)い物(もの)",src:"shopping (honorific)"}]}]
 };

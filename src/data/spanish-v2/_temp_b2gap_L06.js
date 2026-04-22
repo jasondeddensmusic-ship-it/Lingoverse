@@ -32,7 +32,7 @@ const LESSON_6 = {id:"esv2_b2gap_l6",title:"Naturaleza y animales",icon:"🦌",x
  exampleSrc:"A: We saw a deer in the forest at dawn.\nB: How lucky, they are very shy.",
  funFact:"Spain has Europe's largest population of red deer (ciervo rojo), hunted since prehistoric times."},
 
-{type:"mc",q:"¿Qué animal canta en verano en el Mediterráneo?",opts:["El bisonte","La cigarra","El ciervo","La cobra"],ans:"La cigarra",hint:"This insect makes a constant buzzing sound in the heat."},
+{type:"mc",q:"¿Qué animal canta en verano en el Mediterráneo?",opts:["La cigarra","El ciervo","La cobra","El bisonte"],ans:"La cigarra",hint:"This insect makes a constant buzzing sound in the heat."},
 
 {type:"teach",trg:"el can",src:"the dog (formal/literary)",pos:"noun",gender:"m",
  note:"Masculine noun. Formal or literary word for dog.\nEveryday: el perro.",
@@ -84,7 +84,7 @@ const LESSON_6 = {id:"esv2_b2gap_l6",title:"Naturaleza y animales",icon:"🦌",x
  exampleSrc:"A: The Andalusian countryside is beautiful in spring.\nB: The sunflower fields are spectacular.",
  funFact:"From Latin campania (flat land). 'La Campiña' is a specific region in Córdoba and Jaén provinces."},
 
-{type:"mc",q:"¿Dónde producen miel las abejas?",opts:["En una camada","En un caparazón","En una colmena","En una campiña"],ans:"En una colmena",hint:"A structure specifically built for bees to live and work in."},
+{type:"mc",q:"¿Dónde producen miel las abejas?",opts:["En un caparazón","En una colmena","En una campiña","En una camada"],ans:"En una colmena",hint:"A structure specifically built for bees to live and work in."},
 
 {type:"teach",trg:"la barranca",src:"the ravine / gorge",pos:"noun",gender:"f",
  note:"Feminine noun. A deep, narrow valley or gully.",
@@ -118,13 +118,13 @@ const LESSON_6 = {id:"esv2_b2gap_l6",title:"Naturaleza y animales",icon:"🦌",x
 
 {type:"fb",s:"La {1} andaluza está llena de olivos y girasoles.",a:["campiña"],opts:["campiña","barranca","colmena","camada"],hint:"Open countryside with fertile fields and crops.",sSrc:"The Andalusian {1} is full of olive trees and sunflowers."},
 
-{type:"mc",q:"¿Qué es un caparazón?",opts:["La cubierta protectora de una tortuga","Un nido de abejas","Una cría de animal","Un tipo de planta"],ans:"La cubierta protectora de una tortuga",hint:"A hard protective covering found on turtles and crabs."},
+{type:"mc",q:"¿Qué es un caparazón?",opts:["Una cría de animal","Un tipo de planta","La cubierta protectora de una tortuga","Un nido de abejas"],ans:"La cubierta protectora de una tortuga",hint:"A hard protective covering found on turtles and crabs."},
 
 {type:"match",pairs:[{trg:"bisonte",src:"bison"},{trg:"ciervo",src:"deer"},{trg:"colmena",src:"beehive"},{trg:"campiña",src:"countryside"},{trg:"champiñón",src:"mushroom"}]},
 
 {type:"fb",s:"La gata tuvo una {1} de seis gatitos preciosos.",a:["camada"],opts:["camada","colmena","campiña","barranca"],hint:"A group of baby animals born at the same time.",sSrc:"The cat had a {1} of six beautiful kittens."},
 
-{type:"mc",q:"España es el mayor productor europeo de:",opts:["brócoli","champiñones","miel","cebolletas"],ans:"miel",hint:"Spain has over 2.5 million structures where bees produce this."}
+{type:"mc",q:"España es el mayor productor europeo de:",opts:["cebolletas","brócoli","champiñones","miel"],ans:"miel",hint:"Spain has over 2.5 million structures where bees produce this."}
 ]};
 
 export default LESSON_6;

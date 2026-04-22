@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 5: Education and Development
+// Korean B2. Batch 3, Lesson 5: Education and Development
 // Words: 강북, 강사, 강수량, 강요하다, 강의, 강의하다, 강조, 강화하다, 갖가지, 갖추다, 같이하다, 갚다, 개개인, 개구리, 개국, 개나리, 개다, 개미, 개발되다, 개방
 
 const LESSON_5 = {
@@ -95,7 +95,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"'갖추다'의 뜻으로 알맞은 것은?",
-     opts:["필요한 것을 모두 준비하다","물건을 버리다","천천히 걷다","큰 소리로 말하다"],
+     opts:["큰 소리로 말하다","필요한 것을 모두 준비하다","물건을 버리다","천천히 걷다"],
      ans:"필요한 것을 모두 준비하다",
      hint:"This verb means having everything ready and in place, like equipping or preparing fully."},
 

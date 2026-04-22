@@ -1,4 +1,4 @@
-// PP63 Round 2 — A1 Vocabulary Gaps
+// PP63 Round 2. A1 Vocabulary Gaps
 // Closes flags: toilet, tas, vakantie, vlees, gras, hotel, kroeg, haast, hartelijk
 const LESSON_PP63R2_A1 = {
   id:"nlv2_pp63r2_a1", title:"Dagelijks A1", icon:"\u{1F9E7}", xp:15, board:true,
@@ -58,7 +58,7 @@ const LESSON_PP63R2_A1 = {
 
     {type:"mc",
      q:"We slapen vannacht in een ___.",
-     opts:["hotel","vakantie","gras","toilet"],
+     opts:["toilet","hotel","vakantie","gras"],
      ans:"hotel",
      hint:"Where do you sleep when traveling away from home? A building with rooms to rent overnight."},
 

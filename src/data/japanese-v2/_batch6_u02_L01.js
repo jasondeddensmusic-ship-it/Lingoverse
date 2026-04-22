@@ -72,7 +72,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"私(わたし)は会社(かいしゃ){1}です。\n(I am a company employee.)", a:"員(いん)", opts:["員(いん)","人(にん)","人(じん)","者(しゃ)"], sSrc:"I am a company employee.",
      hint:"The suffix meaning 'member' that attaches to 会社(かいしゃ) (company)."},
 
-    {type:"mc", q:"What does 働(はたら)く mean?", opts:["To work","To study","To rest","To eat"], ans:"To work",
+    {type:"mc", q:"What does 働(はたら)く mean?", opts:["To eat","To work","To study","To rest"], ans:"To work",
      hint:"This verb uses the kanji 働 which combines person and movement."},
 
     {type:"teach", trg:"主婦(しゅふ)", src:"homemaker", pos:"noun", gender:null,
@@ -95,7 +95,7 @@ const BATCH6_L1 = {
       {trg:"主婦(しゅふ)", src:"homemaker"}
     ]},
 
-    {type:"mc", q:"Which word means 'day off' or 'rest'?", opts:["休(やす)み","仕事(しごと)","店(みせ)","学生(がくせい)"], ans:"休(やす)み",
+    {type:"mc", q:"Which word means 'day off' or 'rest'?", opts:["店(みせ)","学生(がくせい)","休(やす)み","仕事(しごと)"], ans:"休(やす)み",
      hint:"This word comes from the verb 休(やす)む meaning to rest."},
 
     {type:"fb", s:"お仕事(しごと)は{1}ですか？\n(What is your job?)", a:"なん", opts:["なん","どこ","いくら","だれ"], sSrc:"What is your job?",

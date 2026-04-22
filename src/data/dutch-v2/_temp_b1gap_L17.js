@@ -1,4 +1,4 @@
-// L17: Buildings and Places — 20 B1 gap words
+// L17: Buildings and Places, 20 B1 gap words
 const LESSON_17 = {
   id:"nlv2_b1gap_l17", title:"Gebouwen en Plekken", icon:"\u{1F3D7}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Je doet al je geldzaken via internet. Je ___ online.",
-     opts:["bankiert","bakkert","adviseert","activeert"],
+     opts:["activeert","bankiert","bakkert","adviseert"],
      ans:"bankiert",
      hint:"Which verb describes managing your financial transactions via the internet?"},
 
@@ -144,7 +144,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"De leeftijd tussen 12 en 18 jaar noem je de ___.",
-     opts:["adolescentie","anticlimax","armoedegrens","afwisseling"],
+     opts:["armoedegrens","afwisseling","adolescentie","anticlimax"],
      ans:"adolescentie",
      hint:"Which term describes the developmental stage of being a teenager?"}
   ]

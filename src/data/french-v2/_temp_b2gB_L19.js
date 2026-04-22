@@ -76,7 +76,7 @@ const LESSON_19 = {
      sSrc:"He holds a {1} against his former business partner since the bankruptcy."},
 
     {type:"mc", q:"Que signifie 'sans rancune'?",
-     opts:["Pas de ressentiment","Sans raison","Sans regret","Sans esperance"],
+     opts:["Sans esperance","Pas de ressentiment","Sans raison","Sans regret"],
      ans:"Pas de ressentiment",
      hint:"This phrase is said after a disagreement to show the slate is wiped clean"},
 
@@ -93,7 +93,7 @@ const LESSON_19 = {
      sSrc:"The judge's {1} surprised the prosecution."},
 
     {type:"mc", q:"La 'complaisance' est generalement:",
-     opts:["Legerement negative","Tres positive","Neutre","Juridique"],
+     opts:["Neutre","Juridique","Legerement negative","Tres positive"],
      ans:"Legerement negative",
      hint:"In French, this quality implies weakness and excessive willingness to please"},
 
@@ -103,7 +103,7 @@ const LESSON_19 = {
      sSrc:"His moral {1} is an example for all."},
 
     {type:"mc", q:"Qu'est-ce que la 'probite'?",
-     opts:["Une honnetete absolue","Une forme de courage","Un type de punition","Une qualite physique"],
+     opts:["Une forme de courage","Un type de punition","Une qualite physique","Une honnetete absolue"],
      ans:"Une honnetete absolue",
      hint:"This formal word is stronger than mere honesty; it implies complete integrity"},
 

@@ -1,4 +1,4 @@
-// Batch 7 — Unit 15 extra lesson. La casa e l'affitto: Neighborhood & Community
+// Batch 7. Unit 15 extra lesson. La casa e l'affitto: Neighborhood & Community
 const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"Il quartiere",
  desc:"Learn vocabulary for describing neighborhoods, community life, and local services.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uF
 ]},
 
 {type:"mc", q:"Che cos'e la 'raccolta differenziata'?",
- opts:["Recycling / waste sorting","A neighborhood festival","A building meeting","A gas station"],
+ opts:["A gas station","Recycling / waste sorting","A neighborhood festival","A building meeting"],
  ans:"Recycling / waste sorting",
  hint:"Separating glass, plastic, paper, and organic w... into different bins."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u15l_b7_1", title:"Il quartiere", icon:"\u{1F3D8}\uF
  sSrc:"Let us sit on the {1} in the park."},
 
 {type:"mc", q:"Che cosa succede alle riunioni di condominio?",
- opts:["Residents discuss building matters","Children play together","People go shopping","Neighbors cook together"],
+ opts:["People go shopping","Neighbors cook together","Residents discuss building matters","Children play together"],
  ans:"Residents discuss building matters",
  hint:"A meeting for all apartment owners to d... shared expenses, rules, and issues."},
 

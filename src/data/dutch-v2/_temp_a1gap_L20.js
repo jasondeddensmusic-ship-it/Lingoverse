@@ -1,4 +1,4 @@
-// L20: Remaining Essentials — 20 A1 gap words
+// L20: Remaining Essentials, 20 A1 gap words
 const LESSON_20 = {
   id:"nlv2_a1gap_l20", title:"Overige Basiswoorden", icon:"\u{1F4CC}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"KLM is een Nederlandse ___.",
-     opts:["luchtvaartmaatschappij","busmaatschappij","bankzaak","navigatie"],
+     opts:["navigatie","luchtvaartmaatschappij","busmaatschappij","bankzaak"],
      ans:"luchtvaartmaatschappij",
      hint:"What type of company operates airplanes? A compound word with 'aviation'."},
 

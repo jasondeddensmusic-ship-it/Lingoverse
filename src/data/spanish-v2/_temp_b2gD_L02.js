@@ -68,11 +68,11 @@ const LESSON_2 = {id:"esv2_b2gD_l2",title:"Oficios y profesiones",icon:"\uD83D\u
  {trg:"papelera",src:"wastepaper basket"}
 ]},
 
-{type:"mc",q:"Un peletero trabaja con...",opts:["Pieles de animales","Papel y cartón","Madera y clavos","Pescado fresco"],ans:"Pieles de animales",hint:"This artisan's raw material comes from animal hides and furs."},
+{type:"mc",q:"Un peletero trabaja con...",opts:["Pescado fresco","Pieles de animales","Papel y cartón","Madera y clavos"],ans:"Pieles de animales",hint:"This artisan's raw material comes from animal hides and furs."},
 
 {type:"fb",s:"Compré gambas frescas en la {1} del mercado central.",a:["pescadería"],opts:["pescadería","carpintería","papelera","panadería"],hint:"A shop in the market that specializes in selling fresh seafood and fish.",sSrc:"I bought fresh prawns at the {1} in the central market."},
 
-{type:"mc",q:"Las obreras de la fábrica convocaron una...",opts:["huelga","fiesta","reunión de vecinos","excursión"],ans:"huelga",hint:"When workers collectively stop working to demand better conditions, they call a..."},
+{type:"mc",q:"Las obreras de la fábrica convocaron una...",opts:["reunión de vecinos","excursión","huelga","fiesta"],ans:"huelga",hint:"When workers collectively stop working to demand better conditions, they call a..."},
 
 {type:"fb",s:"Mi abuelo era {1} y hacía muebles de madera.",a:["carpintero"],opts:["carpintero","panadero","peluquero","peletero"],hint:"A craftsman who works with wood to build furniture, doors, and shelves.",sSrc:"My grandfather was a {1} and made wooden furniture."}
 ]};

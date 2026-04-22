@@ -1,4 +1,4 @@
-// L07: Body & Health — Physical self and wellbeing
+// L07: Body & Health. Physical self and wellbeing
 const LESSON_7 = {
   id:"esv2_a1gap_l7", title:"El cuerpo", icon:"\u{1F4AA}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"\u00bfCuál es lo contrario de 'duro'?",
-     opts:["blando","ancho","agudo","bello"],
+     opts:["bello","blando","ancho","agudo"],
      ans:"blando",
      hint:"Think about the texture of a soft pillow or fresh bread. The opposite of hard."},
 

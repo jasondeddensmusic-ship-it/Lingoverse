@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「そもそも」はどんなときに使(つか)いますか？",
-     opts:["When questioning the fundamental premise","When adding information","When agreeing","When concluding"],
+     opts:["When concluding","When questioning the fundamental premise","When adding information","When agreeing"],
      ans:"When questioning the fundamental premise",
      hint:"This word goes back to the beginning, asking 'why are we doing this in the first place?' It challenges the basic assumption."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Rather than difficult, it is interesting."},
 
     {type:"mc", q:"「いわゆる」のあとに来(く)ることばはどんなものですか？",
-     opts:["Commonly known terms or labels","Exact definitions","Personal opinions","Future plans"],
+     opts:["Personal opinions","Future plans","Commonly known terms or labels","Exact definitions"],
      ans:"Commonly known terms or labels",
      hint:"This word introduces t... that people c... use, sometimes with a hint of distance suggesting the label may be oversimplified."}
   ,{type:"match",pairs:[{trg:"また",src:"also / in addition / moreover"},{trg:"もっとも",src:"although / that said"},{trg:"いわゆる",src:"so-called / what is known as"},{trg:"そもそも",src:"in the first place / to begin with"}]}]

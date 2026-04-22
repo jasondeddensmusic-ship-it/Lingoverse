@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 12: Novelty, Production, and Living
+// Korean B2. Batch 5, Lesson 12: Novelty, Production, and Living
 // Words: 새롭다, 새소리, 새우, 새우다, 새해, 색다르다, 색연필, 생, 생기, 생명, 생물, 생방송, 생산, 생산되다, 생산력, 생산자, 생산하다, 생신, 생활비, 생활수준
 
 const LESSON_12 = {

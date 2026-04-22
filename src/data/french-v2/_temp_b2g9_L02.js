@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 2: Médias et Communication
+// French B2 Gap Batch 9. Lesson 2: Médias et Communication
 // Media and communication vocabulary
 
 const LESSON_2 = {id:"frv2_b2g9_l2", title:"Médias et Communication", icon:"📰", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_2 = {id:"frv2_b2g9_l2", title:"Médias et Communication", icon:"�
    exampleSrc:"A: Demonizing the opponent is a classic tactic.\nB: It's effective but dishonest.",
    funFact:"From diable (devil). French political discourse frequently uses this term."},
 
-  {type:"mc", q:"Un pigiste est un journaliste qui:", opts:["Dirige un journal","Travaille à plein temps","Est payé à l'article","Écrit des romans"], ans:"Est payé à l'article",
+  {type:"mc", q:"Un pigiste est un journaliste qui:", opts:["Est payé à l'article","Écrit des romans","Dirige un journal","Travaille à plein temps"], ans:"Est payé à l'article",
    hint:"The word comes from pige, meaning payment per piece written."},
 
   {type:"teach", trg:"la matérialisation", src:"materialization", pos:"noun", gender:"f",
@@ -115,7 +115,7 @@ const LESSON_2 = {id:"frv2_b2g9_l2", title:"Médias et Communication", icon:"�
    exampleSrc:"A: She defended her cause passionately.\nB: Her speech moved everyone.",
    funFact:"Famous from the daisy petal game: 'un peu, beaucoup, passionnément, pas du tout'."},
 
-  {type:"mc", q:"L'omission de porter secours en France est:", opts:["Un droit fondamental","Un acte héroïque","Un délit puni par la loi","Une tradition culturelle"], ans:"Un délit puni par la loi",
+  {type:"mc", q:"L'omission de porter secours en France est:", opts:["Un acte héroïque","Un délit puni par la loi","Une tradition culturelle","Un droit fondamental"], ans:"Un délit puni par la loi",
    hint:"In French law, failing to help someone in danger is actually a criminal offense."},
 
   {type:"fb", s:"Le journaliste travaille {1} depuis son domicile.", a:["partiellement"], opts:["partiellement","passionnément","particulièrement","patiemment"],
@@ -129,7 +129,7 @@ const LESSON_2 = {id:"frv2_b2g9_l2", title:"Médias et Communication", icon:"�
     {trg:"le mixage", src:"audio mixing"}
   ]},
 
-  {type:"mc", q:"Le mot 'confrère' implique que deux personnes:", opts:["Sont de la même famille","Travaillent dans la même profession","Habitent la même ville","Ont le même âge"], ans:"Travaillent dans la même profession",
+  {type:"mc", q:"Le mot 'confrère' implique que deux personnes:", opts:["Ont le même âge","Sont de la même famille","Travaillent dans la même profession","Habitent la même ville"], ans:"Travaillent dans la même profession",
    hint:"The prefix con- means 'with' and frère means 'brother'. Think of two doctors or two lawyers sharing a field."},
 
   {type:"fb", s:"Elle a plaidé {1} pour les droits des femmes.", a:["passionnément"], opts:["passionnément","partiellement","patiemment","poliment"],

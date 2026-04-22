@@ -67,7 +67,7 @@ const LESSON_12 = {id:"frv2_b2gC_l12", title:"Gastronomie et traditions", icon:"
 
 {type:"mc",
  q:"Dans quelle région française trouve-t-on le plus de crêperies ?",
- opts:["En Bretagne","En Provence","En Alsace","En Normandie"],
+ opts:["En Normandie","En Bretagne","En Provence","En Alsace"],
  ans:"En Bretagne",
  hint:"The homeland of crêpes and galettes. Its capital is Rennes."},
 
@@ -87,7 +87,7 @@ const LESSON_12 = {id:"frv2_b2gC_l12", title:"Gastronomie et traditions", icon:"
 
 {type:"mc",
  q:"Que peut-on acheter dans un café-tabac en plus du café ?",
- opts:["Des cigarettes, des timbres et des tickets de métro","Des vêtements","Des médicaments","Des livres scolaires"],
+ opts:["Des médicaments","Des livres scolaires","Des cigarettes, des timbres et des tickets de métro","Des vêtements"],
  ans:"Des cigarettes, des timbres et des tickets de métro",
  hint:"These establishments serve multiple purposes. Look for the red diamond sign."},
 
@@ -105,7 +105,7 @@ const LESSON_12 = {id:"frv2_b2gC_l12", title:"Gastronomie et traditions", icon:"
 
 {type:"mc",
  q:"Quel suffixe transforme 'porc' en 'porcelet' ?",
- opts:["-et (diminutif)","-ment (adverbe)","-tion (action)","-eur (agent)"],
+ opts:["-ment (adverbe)","-tion (action)","-eur (agent)","-et (diminutif)"],
  ans:"-et (diminutif)",
  hint:"This suffix makes things smaller. Like jardin > jardinet. A baby version."}
 

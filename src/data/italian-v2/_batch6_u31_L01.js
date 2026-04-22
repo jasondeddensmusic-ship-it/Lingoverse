@@ -1,4 +1,4 @@
-// Batch 6 — Unit 31 extra lesson. I media avanzati: Journalism & Press Vocabulary
+// Batch 6. Unit 31 extra lesson. I media avanzati: Journalism & Press Vocabulary
 const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}", xp:15, board:true, steps:[
 {type:"intro", title:"Il giornalismo",
  desc:"Learn advanced vocabulary for journalism, the press, and media analysis in Italian.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}"
  {trg:"la fonte", src:"source"}
 ]},
 {type:"mc", q:"Cosa garantisce l'articolo 21 della Costituzione italiana?",
- opts:["La libertà di stampa","Il diritto al voto","L'uguaglianza di genere","La libertà religiosa"],
+ opts:["La libertà religiosa","La libertà di stampa","Il diritto al voto","L'uguaglianza di genere"],
  ans:"La libertà di stampa",
  hint:"Freedom of the press. Press freedom is constitutionally protected in Italy."},
 {type:"fb", s:"Il portavoce ha {1} la notizia: era completamente falsa.", a:["smentito"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}"
  hint:"Past participle of the verb meaning 'to deny' or 'to debunk.' To officially declare something false.",
  sSrc:"The spokesperson {1} the news: it was completely false."},
 {type:"mc", q:"Cos'e la 'cronaca nera' in un giornale italiano?",
- opts:["Crime news and reports","Political commentary","Sports section","Entertainment gossip"],
+ opts:["Sports section","Entertainment gossip","Crime news and reports","Political commentary"],
  ans:"Crime news and reports",
  hint:"'Nera' (black) is the color code for c... reporting in Italian journalism."},
 {type:"fb", s:"L'{1} del direttore critica la nuova politica del governo.", a:["editoriale"],

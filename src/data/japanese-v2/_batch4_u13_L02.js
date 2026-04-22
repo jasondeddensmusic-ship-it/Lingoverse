@@ -1,4 +1,4 @@
-// Batch 4 — Unit 13 Lesson 2: Life Events & Milestones
+// Batch 4. Unit 13 Lesson 2: Life Events & Milestones
 const BATCH4_L_2 = {
   id:"jav2_u13l_b4_2", title:"人生(じんせい)のできごと", icon:"🎓", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"成人式(せいじんしき) celebrates:",
-     opts:["becoming a legal adult","graduation","marriage","new year"], ans:"becoming a legal adult",
+     opts:["new year","becoming a legal adult","graduation","marriage"], ans:"becoming a legal adult",
      hint:"A January ceremony where young people wear kimono and formal wear."},
 
     {type:"fb", s:"私(わたし)の{1}は医者(いしゃ)になることです。", a:"夢(ゆめ)",
@@ -110,11 +110,11 @@ const BATCH4_L_2 = {
      hint:"Both sleeping visions and life aspirations share this word."},
 
     {type:"mc", q:"七五三(しちごさん) is celebrated at ages:",
-     opts:["3, 5, and 7","1, 3, and 5","5, 10, and 15","any age"], ans:"3, 5, and 7",
+     opts:["5, 10, and 15","any age","3, 5, and 7","1, 3, and 5"], ans:"3, 5, and 7",
      hint:"The name itself contains the three numbers of the ages celebrated."},
 
     {type:"mc", q:"思(おも)い出(で) means:",
-     opts:["memory/remembrance","future plan","promise","dream"], ans:"memory/remembrance",
+     opts:["future plan","promise","dream","memory/remembrance"], ans:"memory/remembrance",
      hint:"Thoughts that come out when you reflect on the past."}
   ,{type:"match",pairs:[{trg:"卒業(そつぎょう)",src:"graduation"},{trg:"引(ひ)っ越(こ)し",src:"moving (house)"},{trg:"思(おも)い出(で)",src:"memory / remembrance"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"お葬式(おそうしき)",src:"funeral"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three ceremony"}]},{type:"match",pairs:[{trg:"約束(やくそく)",src:"promise / appointment"}]}]
 };

@@ -1,4 +1,4 @@
-// Unit 30 — Klaar!
+// Unit 30. Klaar!
 // NT2 Prep & C1 Preview
 
 export default {n:30,lang:"nl",srcLang:"en",track:"v2",title:"Klaar!",sub:"NT2 Prep & C1 Preview",icon:"🎓",level:"B2.2",color:"#7B5EE8",lessons:[

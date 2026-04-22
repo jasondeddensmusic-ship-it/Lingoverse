@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u9l6", title:"Pronto soccorso", icon:"\uD83D\uDE91", 
   ]},
 
   {type:"mc", q:"What does 'svenire' literally mean?",
-   opts:["To un-come (from consciousness)","To fall down","To sleep suddenly","To feel sick"],
+   opts:["To feel sick","To un-come (from consciousness)","To fall down","To sleep suddenly"],
    ans:"To un-come (from consciousness)",
    hint:"From 's-' (un-) + 'venire' (to c...). The person 'un-arrives' from awareness."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u9l6", title:"Pronto soccorso", icon:"\uD83D\uDE91", 
    sSrc:"The wound is {1} a lot."},
 
   {type:"mc", q:"What does 'puntura' mean in Italian?",
-   opts:["Both an insect sting and a medical injection","Only an insect bite","Only a needle injection","A punch"],
+   opts:["Only a needle injection","A punch","Both an insect sting and a medical injection","Only an insect bite"],
    ans:"Both an insect sting and a medical injection",
    hint:"From 'pungere' (to prick/s...). Context tells you whether it is a bug or a doctor."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u9l6", title:"Pronto soccorso", icon:"\uD83D\uDE91", 
    sSrc:"Put {1} on the ankle right away."},
 
   {type:"mc", q:"What does 'codice rosso' mean in an Italian ER?",
-   opts:["A life-threatening critical case","A minor injury","The waiting room","A blood test"],
+   opts:["A minor injury","The waiting room","A blood test","A life-threatening critical case"],
    ans:"A life-threatening critical case",
    hint:"In Italian ER triage, the color red signals maximum urgency. Patients with this code are taken in immediately."},
 

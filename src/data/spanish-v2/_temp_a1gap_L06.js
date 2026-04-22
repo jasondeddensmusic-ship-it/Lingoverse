@@ -1,4 +1,4 @@
-// L06: Nature & Animals — The natural world
+// L06: Nature & Animals. The natural world
 const LESSON_6 = {
   id:"esv2_a1gap_l6", title:"La naturaleza", icon:"\u{1F33F}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"\u00bfQué archipiélagos tiene España?",
-     opts:["Canarias y Baleares","Canarias y Azores","Baleares y Madeira","Canarias y Sicilia"],
+     opts:["Canarias y Sicilia","Canarias y Baleares","Canarias y Azores","Baleares y Madeira"],
      ans:"Canarias y Baleares",
      hint:"One is in the Atlantic Ocean near Africa, the other is in the Mediterranean Sea."},
 

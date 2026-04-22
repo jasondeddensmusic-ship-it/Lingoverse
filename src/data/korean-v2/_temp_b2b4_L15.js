@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 15: Feet and Night
+// Korean B2. Batch 4, Lesson 15: Feet and Night
 // Words: 반짝이다, 받침, 발걸음, 발길, 발끝, 발달되다, 발등, 발레, 발목, 발바닥, 발음하다, 발자국, 발전되다, 발톱, 발휘하다, 밝아지다, 밝혀내다, 밝혀지다, 밤, 밤낮
 
 const LESSON_15 = {
@@ -119,7 +119,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'발휘하다'는 무엇을 할 때 쓰나요?",
-     opts:["능력이나 실력을 보여줄 때","발을 씻을 때","발견할 때","발음할 때"],
+     opts:["발음할 때","능력이나 실력을 보여줄 때","발을 씻을 때","발견할 때"],
      ans:"능력이나 실력을 보여줄 때",
      hint:"This formal verb means to demonstrate or display one's abilities, skills, or potential."},
 

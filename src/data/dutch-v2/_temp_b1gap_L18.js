@@ -1,4 +1,4 @@
-// L18: Processes and Systems — 20 B1 gap words
+// L18: Processes and Systems, 20 B1 gap words
 const LESSON_18 = {
   id:"nlv2_b1gap_l18", title:"Processen en Systemen", icon:"\u{2699}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"De voorzitter stopte het gesprek. Hij ___ de discussie ___.",
-     opts:["kapte ... af","schermde ... af","gaf ... af","hield ... af"],
+     opts:["hield ... af","kapte ... af","schermde ... af","gaf ... af"],
      ans:"kapte ... af",
      hint:"Which verb means to abruptly end or cut short a conversation?"},
 
@@ -144,7 +144,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Een groep mensen wordt oneerlijk behandeld en krijgt minder kansen. Ze worden ___.",
-     opts:["achtergesteld","afgeschermd","afgekickt","afgelegd"],
+     opts:["afgekickt","afgelegd","achtergesteld","afgeschermd"],
      ans:"achtergesteld",
      hint:"Which past participle means being unfairly put at a disadvantage?"}
   ]

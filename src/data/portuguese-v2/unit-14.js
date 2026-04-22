@@ -46,13 +46,13 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
  exampleSrc:"A: Did you use to study a lot in college?\nB: I did, every day.\nA: So dedicated!\nB: It was worth it.",
  funFact:"Estudava is the verb of nostalgia for every Brazilian who went through university. Pair with 'aquela época' (those days)."},
 
-{type:"mc", q:"Choose the correct imperfect of falar for nós:", opts:["falava","falávamos","falavam","falamos"], ans:"falávamos", hint:"First person plural imperfect has a written accent on the stressed vowel."},
+{type:"mc", q:"Choose the correct imperfect of falar for nós:", opts:["falávamos","falavam","falamos","falava"], ans:"falávamos", hint:"First person plural imperfect has a written accent on the stressed vowel."},
 
-{type:"mc", q:"'Eu morava no Rio' means:", opts:["I used to live in Rio","I am living in Rio","I will live in Rio","I live in Rio"], ans:"I used to live in Rio", hint:"Morava is the imperfect. Signals past residence or habitual state."},
+{type:"mc", q:"'Eu morava no Rio' means:", opts:["I live in Rio","I used to live in Rio","I am living in Rio","I will live in Rio"], ans:"I used to live in Rio", hint:"Morava is the imperfect. Signals past residence or habitual state."},
 
 {type:"fb", s:"Quando era criança, eu {1} todo dia.", a:["estudava"], opts:["estudava","estudei","estudamos","estudavam"], hint:"Childhood habits call for the imperfect, not the preterite.", sSrc:"When I was a child, I {1} every day."},
 
-{type:"mc", q:"Which sentence describes a habit?", opts:["Ele estudava todo dia","Ele estudou ontem","Ele estuda agora","Ele vai estudar amanhã"], ans:"Ele estudava todo dia", hint:"___ is the imperfect, perfect for habits. ___ ___ confirms repetition."},
+{type:"mc", q:"Which sentence describes a habit?", opts:["Ele estuda agora","Ele vai estudar amanhã","Ele estudava todo dia","Ele estudou ontem"], ans:"Ele estudava todo dia", hint:"___ is the imperfect, perfect for habits. ___ ___ confirms repetition."},
 
 {type:"fb", s:"Meus pais {1} perto da escola.", a:["moravam"], opts:["moravam","morava","morávamos","moraram"], hint:"Plural third person imperfect of morar.", sSrc:"My parents {1} near the school."},
 
@@ -63,7 +63,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
   {trg:"você falava", src:"you used to speak"}
 ]},
 
-{type:"mc", q:"'Eles moravam em São Paulo' means:", opts:["They used to live in São Paulo","They live in São Paulo","They moved to São Paulo","They will live in São Paulo"], ans:"They used to live in São Paulo", hint:"Moravam is imperfect plural. Past state, ongoing in its time."},
+{type:"mc", q:"'Eles moravam em São Paulo' means:", opts:["They live in São Paulo","They moved to São Paulo","They will live in São Paulo","They used to live in São Paulo"], ans:"They used to live in São Paulo", hint:"Moravam is imperfect plural. Past state, ongoing in its time."},
 
 {type:"fb", s:"Nós {1} de cachorro quando era criança.", a:["gostávamos"], opts:["gostávamos","gostava","gostavam","gostamos"], hint:"Nós + childhood habit + -ar verb. The imperfect with the accented á.", sSrc:"We {1} dogs when we were children."},
 
@@ -139,13 +139,13 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
  exampleSrc:"A: When you were a child, what did you want to be?\nB: I wanted to be an astronaut.\nA: And now?\nB: Now I am an accountant. Life is like that.",
  funFact:"Every Brazilian conversation about childhood starts with 'quando eu era criança'. It is the golden door to nostalgia."},
 
-{type:"mc", q:"Choose the correct imperfect of comer for nós:", opts:["comia","comíamos","comiam","comemos"], ans:"comíamos", hint:"First person plural imperfect has a written accent on the í."},
+{type:"mc", q:"Choose the correct imperfect of comer for nós:", opts:["comíamos","comiam","comemos","comia"], ans:"comíamos", hint:"First person plural imperfect has a written accent on the í."},
 
-{type:"mc", q:"'Eu dormia na casa da vovó' means:", opts:["I used to sleep at grandma's house","I sleep at grandma's house","I slept at grandma's house once","I will sleep at grandma's house"], ans:"I used to sleep at grandma's house", hint:"Dormia is imperfect. Habitual or ongoing past."},
+{type:"mc", q:"'Eu dormia na casa da vovó' means:", opts:["I will sleep at grandma's house","I used to sleep at grandma's house","I sleep at grandma's house","I slept at grandma's house once"], ans:"I used to sleep at grandma's house", hint:"Dormia is imperfect. Habitual or ongoing past."},
 
 {type:"fb", s:"Quando era criança, eu {1} muito doce.", a:["comia"], opts:["comia","comi","comíamos","comiam"], hint:"Subject is eu, childhood habit, -er imperfect form.", sSrc:"When I was a child, I {1} a lot of sweets."},
 
-{type:"mc", q:"Which sentence uses the imperfect correctly?", opts:["Eles saíam todo sábado","Eles saem todo sábado","Eles saíram todo sábado","Eles vão sair todo sábado"], ans:"Eles saíam todo sábado", hint:"___ is the plural imperfect. Habitual action every Saturday."},
+{type:"mc", q:"Which sentence uses the imperfect correctly?", opts:["Eles saíram todo sábado","Eles vão sair todo sábado","Eles saíam todo sábado","Eles saem todo sábado"], ans:"Eles saíam todo sábado", hint:"___ is the plural imperfect. Habitual action every Saturday."},
 
 {type:"fb", s:"Nós {1} cedo para ir à escola.", a:["dormíamos"], opts:["dormíamos","dormia","dormiam","dormimos"], hint:"First person plural imperfect of dormir. Accent on í.", sSrc:"We {1} early to go to school."},
 
@@ -156,7 +156,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
   {trg:"ela saía", src:"she used to go out"}
 ]},
 
-{type:"mc", q:"'Minha avó costumava fazer bolo' means:", opts:["My grandma used to make cake","My grandma is making cake","My grandma will make cake","My grandma made cake once"], ans:"My grandma used to make cake", hint:"Costumava + infinitive = employed to habitually."},
+{type:"mc", q:"'Minha avó costumava fazer bolo' means:", opts:["My grandma is making cake","My grandma will make cake","My grandma made cake once","My grandma used to make cake"], ans:"My grandma used to make cake", hint:"Costumava + infinitive = employed to habitually."},
 
 {type:"fb", s:"{1} criança, eu tinha muitos amigos.", a:["Quando"], opts:["Quando","Enquanto","Depois","Antes"], hint:"Trigger phrase for an imperfect memory. 'When I was a child' starts with this word.", sSrc:"{1} I was a child, I had many friends."},
 
@@ -239,7 +239,7 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
 
 {type:"fb", s:"Quando eu {1} dez anos, a minha família se mudou.", a:["tinha"], opts:["tinha","tive","tínhamos","tinham"], hint:"Portuguese uses ter for ages. First person singular imperfect.", sSrc:"When I {1} ten years old, my family moved."},
 
-{type:"mc", q:"Which sentence mixes imperfect and preterite correctly?", opts:["Eu dormia quando o telefone tocou","Eu dormi quando o telefone tocava","Eu durmo quando o telefone toca","Eu vou dormir quando o telefone vai tocar"], ans:"Eu dormia quando o telefone tocou", hint:"Ongoing action (imperfect) + interruption (preterite). The classic pattern."},
+{type:"mc", q:"Which sentence mixes imperfect and preterite correctly?", opts:["Eu vou dormir quando o telefone vai tocar","Eu dormia quando o telefone tocou","Eu dormi quando o telefone tocava","Eu durmo quando o telefone toca"], ans:"Eu dormia quando o telefone tocou", hint:"Ongoing action (imperfect) + interruption (preterite). The classic pattern."},
 
 {type:"fb", s:"Nós {1} à escola de ônibus toda manhã.", a:["íamos"], opts:["íamos","ia","iam","fomos"], hint:"First person plural of ir in imperfect. Remember the accent.", sSrc:"We {1} to school by bus every morning."},
 
@@ -250,11 +250,11 @@ const UNIT_14 = {n:14, lang:"pt", srcLang:"en", track:"v2", title:"Quando eu era
   {trg:"ela era", src:"she was"}
 ]},
 
-{type:"mc", q:"Choose the correct verb: 'Ela _____ três irmãos quando eu a conheci.'", opts:["tinha","teve","tem","vai ter"], ans:"tinha", hint:"Past state, ongoing at the time of meeting. Imperfect, not preterite."},
+{type:"mc", q:"Choose the correct verb: 'Ela _____ três irmãos quando eu a conheci.'", opts:["tem","vai ter","tinha","teve"], ans:"tinha", hint:"Past state, ongoing at the time of meeting. Imperfect, not preterite."},
 
 {type:"fb", s:"A casa {1} grande e bonita.", a:["era"], opts:["era","foi","é","vai ser"], hint:"Description of a past scene. Ser in imperfect.", sSrc:"The house {1} big and beautiful."},
 
-{type:"mc", q:"Which uses the imperfect for description?", opts:["Fazia sol e o céu estava azul","Fez sol e o céu ficou azul","Faz sol e o céu está azul","Vai fazer sol e o céu vai estar azul"], ans:"Fazia sol e o céu estava azul", hint:"Weather and past scenes use the imperfect. ___ = was."},
+{type:"mc", q:"Which uses the imperfect for description?", opts:["Fez sol e o céu ficou azul","Faz sol e o céu está azul","Vai fazer sol e o céu vai estar azul","Fazia sol e o céu estava azul"], ans:"Fazia sol e o céu estava azul", hint:"Weather and past scenes use the imperfect. ___ = was."},
 
 {type:"teach", trg:"fazia sol", src:"it was sunny", pos:"verb", gender:null,
  note:"Weather expression in the imperfect.\nDescribes past weather scenes.",

@@ -1,4 +1,4 @@
-// Batch 7 — Unit 17 extra lesson. I media e la tecnologia: Online Shopping & E-Commerce
+// Batch 7. Unit 17 extra lesson. I media e la tecnologia: Online Shopping & E-Commerce
 const BATCH7_L1 = {id:"itv2_u17l_b7_1", title:"Lo shopping online", icon:"\u{1F4F1}", xp:15, board:true, steps:[
 {type:"intro", title:"Lo shopping online",
  desc:"Learn vocabulary for online shopping, digital payments, and e-commerce in Italian.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u17l_b7_1", title:"Lo shopping online", icon:"\u{1F4
 ]},
 
 {type:"mc", q:"Quale agenzia italiana indaga sulle truffe online?",
- opts:["La Polizia Postale","I Carabinieri","La Guardia di Finanza","I Vigili del Fuoco"],
+ opts:["I Vigili del Fuoco","La Polizia Postale","I Carabinieri","La Guardia di Finanza"],
  ans:"La Polizia Postale",
  hint:"A special police unit focused on postal services and cybercrime."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u17l_b7_1", title:"Lo shopping online", icon:"\u{1F4
  sSrc:"Do you read {1} before buying?"},
 
 {type:"mc", q:"Quanti anni di garanzia prevede la legge europea?",
- opts:["Due anni","Un anno","Sei mesi","Tre anni"],
+ opts:["Sei mesi","Tre anni","Due anni","Un anno"],
  ans:"Due anni",
  hint:"EU consumer protection mandates a minimum warranty period on all products."},
 

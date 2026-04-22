@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quale concetto diplomatico fu inventato dalle citta-stato italiane nel Quattrocento?",
-     opts:["Le sanzioni economiche","Le ambasciate permanenti con ambasciatori residenti","I trattati di pace multilaterali","Le organizzazioni internazionali"],
+     opts:["Le ambasciate permanenti con ambasciatori residenti","I trattati di pace multilaterali","Le organizzazioni internazionali","Le sanzioni economiche"],
      ans:"Le ambasciate permanenti con ambasciatori residenti",
      hint:"Before Italian city-states pioneered this, countries only sent envoys for specific missions. Milan and Venice created the modern system of permanent diplomatic missions abroad."},
 

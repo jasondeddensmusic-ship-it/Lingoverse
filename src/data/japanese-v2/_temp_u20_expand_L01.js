@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: I will transfer you to the sales department.\nB: Please do.\nA: When was it?\nB: It was last summer.",
      funFact:"おつなぎします uses the humble お + stem + する pattern for transferring calls. つなぐ means 'to connect/link.' Phone transfers are common in Japanese companies where calls go through a central receptionist before reaching the right person. This humble form shows respect to the caller."},
 
-    {type:"mc", q:"おでんわありがとうございます is used:", opts:["When ending a call","When answering a business phone call","When making a personal call","When leaving a voicemail"], ans:"When answering a business phone call",
+    {type:"mc", q:"おでんわありがとうございます is used:", opts:["When answering a business phone call","When making a personal call","When leaving a voicemail","When ending a call"], ans:"When answering a business phone call",
      hint:"This is the standard opening phrase when you pick up a b... telephone c...."},
 
     {type:"teach", trg:"あいにく", src:"unfortunately / I am sorry but", pos:"adv", gender:null,
@@ -81,7 +81,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"あいにく",src:"unfortunately"},{trg:"せきをはずす",src:"to be away from seat"},{trg:"でんごん",src:"message"},{trg:"おりかえし",src:"callback"}]},
 
-    {type:"mc", q:"When an outsider asks about your boss, you say:", opts:["しゃちょうはいらっしゃいません (honorific)","しゃちょうはおりません (humble)","しゃちょうはいません (neutral)","しゃちょうさまはおでかけです (super-honorific)"], ans:"しゃちょうはおりません (humble)",
+    {type:"mc", q:"When an outsider asks about your boss, you say:", opts:["しゃちょうさまはおでかけです (super-honorific)","しゃちょうはいらっしゃいません (honorific)","しゃちょうはおりません (humble)","しゃちょうはいません (neutral)"], ans:"しゃちょうはおりません (humble)",
      hint:"Uchi-soto rule: when speaking to outsiders, h... your own people, even your boss."},
   ]
 };

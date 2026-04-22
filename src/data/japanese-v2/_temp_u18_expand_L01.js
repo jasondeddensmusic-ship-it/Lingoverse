@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: Waking the children up every morning is tough.\nB: I understand. It is the same at our house.\nA: Where do you recommend?\nB: I recommend Kyoto.",
      funFact:"起きさせる is the daily struggle of every parent. Japanese school starts early (often 8:00-8:30), requiring children to wake up around 6:30. The phrase maiasa okisaseru no ga taihen (waking them every morning is hard) is a bonding topic among parents. Alarm clocks in Japan range from gentle to absurdly loud."},
 
-    {type:"mc", q:"こどもにほんをよませている means:", opts:["The child is reading to me","I am making the children read books","I read books for the children","The children want to read"], ans:"I am making the children read books",
+    {type:"mc", q:"こどもにほんをよませている means:", opts:["I am making the children read books","I read books for the children","The children want to read","The child is reading to me"], ans:"I am making the children read books",
      hint:"Causative + ている shows an ongoing practice. に marks who is made to do the action."},
 
     {type:"teach", trg:"ねさせる", src:"to put someone to sleep / to let sleep", pos:"verb", gender:null,
@@ -60,7 +60,7 @@ const LESSON_3 = {
      exampleSrc:"A: Is this handmade?\nB: Yes, I made it yesterday.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"手作り (tezukuri) carries strong positive connotations in Japan. Homemade gifts, chocolates (especially for Valentine's Day), and food are valued more than store-bought versions. A tezukuri bento shows love and effort. The word implies warmth, care, and personal investment."},
 
-    {type:"mc", q:"こどもにへやをかたづけさせた means:", opts:["I tidied the child's room","The child tidied up by themselves","I made the child tidy their room","The room was already tidy"], ans:"I made the child tidy their room",
+    {type:"mc", q:"こどもにへやをかたづけさせた means:", opts:["The child tidied up by themselves","I made the child tidy their room","The room was already tidy","I tidied the child's room"], ans:"I made the child tidy their room",
      hint:"Causative form: the parent caused the c... to perform the action of tidying."},
 
     {type:"tip", title:"Causative in Family Life",
@@ -75,7 +75,7 @@ const LESSON_3 = {
 
     {type:"match", pairs:[{trg:"ねさせる",src:"put to sleep"},{trg:"もたせる",src:"make carry"},{trg:"しゅうかん",src:"habit"},{trg:"てづくり",src:"handmade"}]},
 
-    {type:"mc", q:"させてあげる expresses:", opts:["Being forced to do something","Letting someone do something as a favor","Making someone angry","Asking for permission"], ans:"Letting someone do something as a favor",
+    {type:"mc", q:"させてあげる expresses:", opts:["Asking for permission","Being forced to do something","Letting someone do something as a favor","Making someone angry"], ans:"Letting someone do something as a favor",
      hint:"Causative + あげる (to give) = causing s... to do s... as a kindness to them."},
   ]
 };

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 03, Lesson 1: Extended Family & Descriptions
+// Batch 4. Unit 03, Lesson 1: Extended Family & Descriptions
 const BATCH4_U03_L1 = {
   id:"itv2_u03l_b4_1", title:"I parenti", icon:"\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U03_L1 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'simpatico' in italiano?",
-     opts:["Nice and likeable","Sympathetic","Sad","Simple"],
+     opts:["Simple","Nice and likeable","Sympathetic","Sad"],
      ans:"Nice and likeable",
      hint:"This is a false friend. It does not mean what it looks like in English."},
 
@@ -126,7 +126,7 @@ const BATCH4_U03_L1 = {
      sSrc:"Who do you {1}? You have your father's eyes!"},
 
     {type:"mc", q:"Qual e la differenza tra 'ti voglio bene' e 'ti amo'?",
-     opts:["Ti voglio bene is for family/friends; ti amo is romantic","They mean the same thing","Ti amo is informal; ti voglio bene is formal","Ti voglio bene is stronger than ti amo"],
+     opts:["Ti amo is informal; ti voglio bene is formal","Ti voglio bene is stronger than ti amo","Ti voglio bene is for family/friends; ti amo is romantic","They mean the same thing"],
      ans:"Ti voglio bene is for family/friends; ti amo is romantic",
      hint:"Italian carefully separates these two types of love in everyday speech."},
 
@@ -136,7 +136,7 @@ const BATCH4_U03_L1 = {
      sSrc:"The professor is very {1}, he does not accept mistakes."},
 
     {type:"mc", q:"Cosa significa 'nipote' in italiano?",
-     opts:["Both nephew/niece and grandson/granddaughter","Only grandson","Only nephew","Brother-in-law"],
+     opts:["Only grandson","Only nephew","Brother-in-law","Both nephew/niece and grandson/granddaughter"],
      ans:"Both nephew/niece and grandson/granddaughter",
      hint:"This Italian word is unusual because it has two quite different meanings."}
   ,{type:"match",pairs:[{trg:"il suocero",src:"the father-in-law"},{trg:"simpatico",src:"nice / likeable / fun"},{trg:"antipatico",src:"unpleasant / unlikeable"},{trg:"gentile",src:"kind / gentle / polite"},{trg:"affettuoso",src:"affectionate / loving"},{trg:"orgoglioso",src:"proud"}]},{type:"match",pairs:[{trg:"il carattere",src:"the character / personality"},{trg:"volersi bene",src:"to love each other / to care for each other"}]}]

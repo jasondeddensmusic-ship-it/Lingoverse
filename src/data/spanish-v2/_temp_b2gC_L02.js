@@ -66,7 +66,7 @@ const LESSON_2 = {id:"esv2_b2gC_l2",title:"Marketing y ventas",icon:"📊",xp:15
  exampleSrc:"A: The project guidelines are clear from the start.\nB: Good, that way we avoid misunderstandings.",
  funFact:"From Latin pacta (agreements). In media, 'pauta publicitaria' means the advertising schedule."},
 
-{type:"mc",q:"¿Cuándo entró España en el mercado común europeo?",opts:["En 1986","En 1975","En 1992","En 2002"],ans:"En 1986",hint:"Think about the year that came about a decade after Franco's dictatorship ended."},
+{type:"mc",q:"¿Cuándo entró España en el mercado común europeo?",opts:["En 2002","En 1986","En 1975","En 1992"],ans:"En 1986",hint:"Think about the year that came about a decade after Franco's dictatorship ended."},
 
 {type:"fb",s:"La {1} de trabajo que seguimos garantiza resultados fiables.",a:["metodología"],opts:["metodología","intermediación","pauta","comunicación"],hint:"A systematic approach or set of methods used to conduct research or work.",sSrc:"The work {1} we follow guarantees reliable results."},
 

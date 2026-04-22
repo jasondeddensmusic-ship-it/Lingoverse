@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 3 — Environment and Nature
+// French B2 Gap Lesson 3. Environment and Nature
 const LESSON_3 = {id:"frv2_b2g5_l3", title:"Environnement et nature", icon:"🌿", xp:15, board:true, steps:[
   {type:"intro", title:"Environnement et nature",
    desc:"Learn vocabulary for discussing environmental issues, nature, and ecological responsibility at a B2 level.",
@@ -87,7 +87,7 @@ const LESSON_3 = {id:"frv2_b2g5_l3", title:"Environnement et nature", icon:"🌿
    funFact:"From 'in-' (not) + 'suffisance' (sufficiency). Medical uses include 'insuffisance cardiaque' (heart failure)."},
 
   {type:"mc", q:"Quel animal marin a une coquille et est menacé par la pollution?",
-   opts:["Le crustacé","L'insecticide","L'iode","Le gravier"],
+   opts:["Le gravier","Le crustacé","L'insecticide","L'iode"],
    ans:"Le crustacé",
    hint:"Think of crabs, lobsters, and shrimp: shell-bearing sea creatures"},
 
@@ -105,7 +105,7 @@ const LESSON_3 = {id:"frv2_b2g5_l3", title:"Environnement et nature", icon:"🌿
   ]},
 
   {type:"mc", q:"Que signifie 'dans sa globalité'?",
-   opts:["Dans son ensemble, en considérant tout","Seulement en partie","Au niveau mondial","De manière intense"],
+   opts:["Au niveau mondial","De manière intense","Dans son ensemble, en considérant tout","Seulement en partie"],
    ans:"Dans son ensemble, en considérant tout",
    hint:"Looking at the whole picture, not just one aspect"},
 
@@ -120,7 +120,7 @@ const LESSON_3 = {id:"frv2_b2g5_l3", title:"Environnement et nature", icon:"🌿
    hint:"Breathing in smoke can lead to a serious shortage of lung function"},
 
   {type:"mc", q:"Quel produit chimique est controversé car il tue aussi les abeilles?",
-   opts:["L'insecticide","L'iode","Le gravier","Le grillage"],
+   opts:["L'iode","Le gravier","Le grillage","L'insecticide"],
    ans:"L'insecticide",
    hint:"A product designed to kill insects, but with unintended ecological consequences"}
 ]};

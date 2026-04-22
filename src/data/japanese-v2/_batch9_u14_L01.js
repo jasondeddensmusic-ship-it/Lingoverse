@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"提案(ていあん)", src:"proposal"}
     ]},
 
-    {type:"mc", q:"What is ねまわし in Japanese business culture?", opts:["Building consensus before formal meetings","Cleaning the office","Writing proposals","Arriving early to meetings"], ans:"Building consensus before formal meetings",
+    {type:"mc", q:"What is ねまわし in Japanese business culture?", opts:["Arriving early to meetings","Building consensus before formal meetings","Cleaning the office","Writing proposals"], ans:"Building consensus before formal meetings",
      hint:"This practice involves circulating ideas and gathering support informally b... the official discussion."}
   ,{type:"match",pairs:[{trg:"確(たし)かに",src:"certainly / indeed"},{trg:"つまり",src:"in other words / that is to say"},{trg:"場合(ばあい)",src:"case / situation / instance"}]}]
 };

@@ -66,7 +66,7 @@ const LESSON_15 = {id:"esv2_b2gC_l15",title:"Carácter y cualidades morales",ico
  exampleSrc:"A: My boss gave me the day off tomorrow.\nB: How lucky! Mine never does that.",
  funFact:"From French chef. In Latin America, 'jefe' is sometimes used as a friendly form of address, like 'buddy'."},
 
-{type:"mc",q:"¿Qué significa 'hacer partícipe a alguien'?",opts:["Compartir información o una experiencia con alguien","Obligar a alguien a participar","Castigar a alguien por su comportamiento","Dejar a alguien fuera del grupo"],ans:"Compartir información o una experiencia con alguien",hint:"A formal expression meaning to include someone by sharing news or experiences with them."},
+{type:"mc",q:"¿Qué significa 'hacer partícipe a alguien'?",opts:["Dejar a alguien fuera del grupo","Compartir información o una experiencia con alguien","Obligar a alguien a participar","Castigar a alguien por su comportamiento"],ans:"Compartir información o una experiencia con alguien",hint:"A formal expression meaning to include someone by sharing news or experiences with them."},
 
 {type:"fb",s:"Los {1} deben dar ejemplo a las generaciones más jóvenes.",a:["adultos"],opts:["adultos","jefes","cabezas","partícipes"],hint:"Fully grown people who have reached maturity and legal age.",sSrc:"{1} must set an example for younger generations."},
 

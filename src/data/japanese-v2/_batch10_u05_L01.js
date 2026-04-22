@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"うまみ", src:"savory taste"}
     ]},
 
-    {type:"mc", q:"Who discovered umami?", opts:["Japanese chemist Ikeda Kikunae","French chef Auguste Escoffier","Chinese philosopher Confucius","Italian scientist Galileo"], ans:"Japanese chemist Ikeda Kikunae",
+    {type:"mc", q:"Who discovered umami?", opts:["Italian scientist Galileo","Japanese chemist Ikeda Kikunae","French chef Auguste Escoffier","Chinese philosopher Confucius"], ans:"Japanese chemist Ikeda Kikunae",
      hint:"This scientist identified the savory taste in kelp stock in 1908, giving the world a new taste word."}
   ,{type:"match",pairs:[{trg:"酢(す)",src:"vinegar"},{trg:"胡椒(こしょう)",src:"pepper"},{trg:"辛(から)い",src:"spicy / hot (taste)"}]}]
 };

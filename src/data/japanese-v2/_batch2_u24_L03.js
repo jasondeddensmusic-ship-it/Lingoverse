@@ -24,7 +24,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: In the first place, why did we start this project?\nB: It started from the president's idea.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"そもそも is written 抑 in kanji but almost always in hiragana. It brings the discussion back to fundamentals, often challenging assumptions. In debates, そもそも can be powerful: it forces everyone to reconsider the starting point. Japanese philosophers and essayists use it to question conventional wisdom."},
 
-    {type:"mc", q:"ようするに signals that the speaker is about to:", opts:["Add more details","Give a specific example","Summarize the key point directly","Ask a question"], ans:"Summarize the key point directly",
+    {type:"mc", q:"ようするに signals that the speaker is about to:", opts:["Summarize the key point directly","Ask a question","Add more details","Give a specific example"], ans:"Summarize the key point directly",
      hint:"This connector compresses information to its essential meaning, sometimes bluntly."},
 
     {type:"teach", trg:"言(い)い換(か)えれば", src:"to put it another way / in other words", pos:"conj", gender:null,

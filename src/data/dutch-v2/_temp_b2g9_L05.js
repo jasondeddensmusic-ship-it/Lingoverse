@@ -20,10 +20,10 @@ const LESSON_5 = {id:"nlv2_b2g9_l5", title:"Handel & Industrie", icon:"\u{1F3ED}
   {type:"fb", s:"De VOC had {1} in heel Azie.", a:["handelsposten"], opts:["handelsposten","kantoorgebouwen","industriesteden","exportartikelen"], hint:"The places where traders were stationed to conduct business in foreign lands", sSrc:"The VOC had {1} all across Asia."},
   {type:"fb", s:"Kaas is een belangrijk {1}.", a:["exportartikel"], opts:["exportartikel","handelscontact","kantoorgebouw","kapitalisme"], hint:"A product that is sold and shipped to other countries", sSrc:"Cheese is an important {1}."},
   {type:"match", pairs:[{trg:"de commercie", src:"commerce"},{trg:"de handelspost", src:"trading post"},{trg:"de industriestad", src:"industrial city"},{trg:"de industrialisatie", src:"industrialization"}]},
-  {type:"mc", q:"Waarom is Nederland populair voor holdingbedrijven?", opts:["Het mooie weer","De gunstige belastingverdragen","De grote bevolking","Het goede eten"], ans:"De gunstige belastingverdragen", hint:"Tax advantages and business-friendly regulations attract companies"},
+  {type:"mc", q:"Waarom is Nederland populair voor holdingbedrijven?", opts:["Het goede eten","Het mooie weer","De gunstige belastingverdragen","De grote bevolking"], ans:"De gunstige belastingverdragen", hint:"Tax advantages and business-friendly regulations attract companies"},
   {type:"fb", s:"We zoeken een {1} voor ons bedrijf.", a:["investeerder"], opts:["investeerder","kantoormedewerker","handelspost","kade"], hint:"A person who puts money into a business hoping for returns", sSrc:"We're looking for an {1} for our company."},
   {type:"match", pairs:[{trg:"het exportartikel", src:"export product"},{trg:"de inkoop", src:"procurement"},{trg:"de investeerder", src:"investor"},{trg:"het kantoorgebouw", src:"office building"}]},
-  {type:"mc", q:"Welk woord beschrijft een aangebouwde waterkant in een haven?", opts:["de kade","de holding","de hectare","de commercie"], ans:"de kade", hint:"The built-up waterfront where ships dock and goods are loaded"},
+  {type:"mc", q:"Welk woord beschrijft een aangebouwde waterkant in een haven?", opts:["de holding","de hectare","de commercie","de kade"], ans:"de kade", hint:"The built-up waterfront where ships dock and goods are loaded"},
   {type:"fb", s:"Het landgoed is vijftig {1} groot.", a:["hectare"], opts:["hectare","kade","industriestad","kantoorgebouw"], hint:"A unit of land measurement equal to 10,000 square meters", sSrc:"The estate is fifty {1}."}
 ]};
 export default LESSON_5;

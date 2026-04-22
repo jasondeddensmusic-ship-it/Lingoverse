@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 11 — Arts & Creative Expression
+// B2 Gap Batch B Lesson 11. Arts & Creative Expression
 const LESSON_11 = {id:"esv2_b2gB_l11",title:"Artes y expresión creativa",icon:"🎭",xp:15,board:true,steps:[
 {type:"intro",title:"Artes y expresión creativa",desc:"Learn vocabulary about artistic expression, literary devices, and creative works in Spanish culture.",goals:["Learn 12 words about arts and creative expression","Discuss literature, music, and visual arts","Use vocabulary for artistic critique"]},
 
@@ -73,7 +73,7 @@ const LESSON_11 = {id:"esv2_b2gB_l11",title:"Artes y expresión creativa",icon:"
  funFact:"In literary criticism, 'extrañeza' is related to the Russian concept of 'defamiliarization' in art."},
 
 {type:"mc",q:"¿Qué es una coproducción?",
- opts:["Una obra realizada conjuntamente por dos o más partes","Una segunda versión de una película","Un premio de cine internacional","Un tipo de guion cinematográfico"],
+ opts:["Un tipo de guion cinematográfico","Una obra realizada conjuntamente por dos o más partes","Una segunda versión de una película","Un premio de cine internacional"],
  ans:"Una obra realizada conjuntamente por dos o más partes",
  hint:"Think about two countries or companies producing a film or show together."},
 

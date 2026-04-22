@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: I have a headache.\nB: How about taking some medicine?\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
      funFact:"たらどうですか is the polite suggestion pattern. It literally means 'if you did X, how would it be?' This indirect phrasing is very Japanese. Instead of directly telling someone to take medicine, you ask 'how about if you took medicine?' The indirectness softens the advice."},
 
-    {type:"mc", q:"ドアをあけたらねこがいた uses たら for:", opts:["A future plan","A hypothetical wish","A past discovery","A polite suggestion"], ans:"A past discovery",
+    {type:"mc", q:"ドアをあけたらねこがいた uses たら for:", opts:["A past discovery","A polite suggestion","A future plan","A hypothetical wish"], ans:"A past discovery",
      hint:"たら in p... tense describes an unexpected finding: when I did X, I discovered Y."},
 
     {type:"teach", trg:"やむ", src:"to stop (rain/snow/pain)", pos:"verb", gender:null,

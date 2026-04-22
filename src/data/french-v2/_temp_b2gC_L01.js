@@ -67,7 +67,7 @@ const LESSON_1 = {id:"frv2_b2gC_l1", title:"Citoyenneté et démocratie", icon:"
 
 {type:"mc",
  q:"Qui est le responsable d'un lycée en France ?",
- opts:["le proviseur","l'administrateur","le directeur","le professeur"],
+ opts:["le professeur","le proviseur","l'administrateur","le directeur"],
  ans:"le proviseur",
  hint:"This title is specific to French high schools and comes from Latin 'one who foresees'"},
 
@@ -87,7 +87,7 @@ const LESSON_1 = {id:"frv2_b2gC_l1", title:"Citoyenneté et démocratie", icon:"
 
 {type:"mc",
  q:"Quel mot décrit un jugement calme et mesuré ?",
- opts:["la pondération","la persévérance","l'affirmation","la désobéissance"],
+ opts:["l'affirmation","la désobéissance","la pondération","la persévérance"],
  ans:"la pondération",
  hint:"From Latin ponderare, to weigh. Think of someone who carefully weighs their words."},
 
@@ -105,7 +105,7 @@ const LESSON_1 = {id:"frv2_b2gC_l1", title:"Citoyenneté et démocratie", icon:"
 
 {type:"mc",
  q:"Quelle est la forme féminine de 'proviseur' ?",
- opts:["la proviseure","la proviseuse","la provisrice","la provisoire"],
+ opts:["la proviseuse","la provisrice","la provisoire","la proviseure"],
  ans:"la proviseure",
  hint:"Modern French feminization simply adds -e to many professional titles"},
 

@@ -1,4 +1,4 @@
-// Lesson 11 — El mundo fisico (The Physical World)
+// Lesson 11. El mundo fisico (The Physical World)
 const LESSON_11 = {id:"esv2_b2g9_l11", title:"El mundo f\u00edsico", icon:"\u{1F30D}", xp:25, board:true, steps:[
   {type:"intro", title:"El mundo f\u00edsico",
    desc:"Describe the physical world with precision. From coastlines to minerals, these terms help you discuss geography, nature, and materials.",
@@ -35,7 +35,7 @@ const LESSON_11 = {id:"esv2_b2g9_l11", title:"El mundo f\u00edsico", icon:"\u{1F
    funFact:"The word 'hilera' comes from 'hilo' (thread) because a row of objects looks like items strung on a thread."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es el litoral?",
-   opts:["Una monta\u00f1a","La zona costera","Un r\u00edo","Un desierto"],
+   opts:["La zona costera","Un r\u00edo","Un desierto","Una monta\u00f1a"],
    ans:"La zona costera",
    hint:"This word comes from Latin 'litoralis' meaning 'of the shore'. It describes the area along the sea."},
 

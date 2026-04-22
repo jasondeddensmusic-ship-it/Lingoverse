@@ -92,7 +92,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Comment appelle-t-on une personne qui s'oppose dans un debat ?",
-     opts:["un contradicteur","un abonne","un auteur","un antiheros"],
+     opts:["un antiheros","un contradicteur","un abonne","un auteur"],
      ans:"un contradicteur",
      hint:"Someone who contradicts or challenges. Think of the root 'contre' (against)."},
 
@@ -143,7 +143,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel terme designe le fait de rendre quelque chose accessible a tous ?",
-     opts:["la democratisation","la diabolisation","la division","la coexistence"],
+     opts:["la division","la coexistence","la democratisation","la diabolisation"],
      ans:"la democratisation",
      hint:"Making something available to the entire population. Think of 'demos' (the people)."},
 

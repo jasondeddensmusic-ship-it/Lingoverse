@@ -56,7 +56,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'semmai' mean in conversation?",
-     opts:["Never and absolutely not under any circumstances","If anything / if at all (softens commitments)","Always and definitely without question","Because of the following specific reason"],
+     opts:["If anything / if at all (softens commitments)","Always and definitely without question","Because of the following specific reason","Never and absolutely not under any circumstances"],
      ans:"If anything / if at all (softens commitments)",
      hint:"A casual contraction of 'se mai.' It adds flexibility: 'Semmai ci vediamo domani' leaves the door open without committing."},
 
@@ -75,7 +75,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What is the formality order of conditional conjunctions?",
-     opts:["All conjunctions are equally formal in Italian","Casomai (most formal) to qualora (least formal)","Casomai (informal) to qualora (very formal)","There is no difference in formality at all"],
+     opts:["Casomai (most formal) to qualora (least formal)","Casomai (informal) to qualora (very formal)","There is no difference in formality at all","All conjunctions are equally formal in Italian"],
      ans:"Casomai (informal) to qualora (very formal)",
      hint:"From casual speech to legal documents: c... > nel caso > nel caso che > nel caso in cui > q...."},
 
@@ -86,7 +86,7 @@ const LESSON_6 = {
      sSrc:"Yes, {1} that you come back before midnight."},
 
     {type:"mc", q:"When does 'senza che' use the infinitive instead of the subjunctive?",
-     opts:["When the sentence is very short and simple","When the main clause subject and subordinate subject are the same","When followed by a noun instead of a verb","It always uses the subjunctive without exceptions"],
+     opts:["It always uses the subjunctive without exceptions","When the sentence is very short and simple","When the main clause subject and subordinate subject are the same","When followed by a noun instead of a verb"],
      ans:"When the main clause subject and subordinate subject are the same",
      hint:"Same s...: 'E uscito senza parlare' (infinitive). Different subjects: 'E uscito senza che nessuno lo vedesse' (subjunctive)."},
 
@@ -97,7 +97,7 @@ const LESSON_6 = {
      sSrc:"{1} that it is true, what do we do?"},
 
     {type:"mc", q:"What does 'Figurati se Marco alza un dito!' express?",
-     opts:["Confidence that Marco will certainly help everyone","Sarcastic certainty that Marco will definitely not help","A polite request for Marco to assist the group","Surprise that Marco has already offered help"],
+     opts:["A polite request for Marco to assist the group","Surprise that Marco has already offered help","Confidence that Marco will certainly help everyone","Sarcastic certainty that Marco will definitely not help"],
      ans:"Sarcastic certainty that Marco will definitely not help",
      hint:"'Figurati se...' dismisses a possibility with humor. It means 'there is absolutely no way that...' Pure spoken Italian."}
   ]

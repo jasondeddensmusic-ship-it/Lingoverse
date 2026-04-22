@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: Do you live in Tokyo?\nB: No, I live in Osaka.",
      funFact:"東 (east) + 京 (capital). Tokyo literally means 'eastern capital,' named when the emperor moved from Kyoto (京都, capital city) in 1868. Tokyo has 23 special wards, each the size of a small city. Shibuya, Shinjuku, and Akihabara are world-famous districts."},
 
-    {type:"mc", q:"すんでいます uses the te-imasu form because:", opts:["It happened in the past","Living is an ongoing state","It will happen tomorrow","It is a question"], ans:"Living is an ongoing state",
+    {type:"mc", q:"すんでいます uses the te-imasu form because:", opts:["Living is an ongoing state","It will happen tomorrow","It is a question","It happened in the past"], ans:"Living is an ongoing state",
      hint:"Te-imasu marks actions that began and keep happening, not single completed events."},
 
     {type:"teach", trg:"おおさか", src:"Osaka", pos:"noun", gender:null,
@@ -104,10 +104,10 @@ const LESSON_6 = {
      hint:"The noun meaning 'study' that combines with shite imasu to express ongoing learning.",
      sSrc:"I am studying Japanese."},
 
-    {type:"mc", q:"How do you say 'I am from Kyoto'?", opts:["きょうとにすんでいます","きょうとしゅっしんです","きょうとにいきます","きょうとがすきです"], ans:"きょうとしゅっしんです",
+    {type:"mc", q:"How do you say 'I am from Kyoto'?", opts:["きょうとがすきです","きょうとにすんでいます","きょうとしゅっしんです","きょうとにいきます"], ans:"きょうとしゅっしんです",
      hint:"The pattern uses shusshin (origin) + desu, not sunde imasu (currently living)."},
 
-    {type:"mc", q:"だいがく literally means:", opts:["big building","big study","school house","exam place"], ans:"big study",
+    {type:"mc", q:"だいがく literally means:", opts:["school house","exam place","big building","big study"], ans:"big study",
      hint:"The two kanji are 大 (b...) and 学 (learning/s...)."},
   ]
 };

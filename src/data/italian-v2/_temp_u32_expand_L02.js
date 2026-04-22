@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quanti italiani emigrarono tra il 1861 e il 1985?",
-     opts:["Circa un milione","Circa cinque milioni","Oltre 29 milioni","Meno di centomila"],
+     opts:["Oltre 29 milioni","Meno di centomila","Circa un milione","Circa cinque milioni"],
      ans:"Oltre 29 milioni",
      hint:"A staggering number that exceeded the entire Italian population at the time of unification. The diaspora spread across the Americas, Australia, and northern Europe."},
 
@@ -96,7 +96,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Perche il termine 'clandestino' e considerato problematico da molti giornalisti italiani?",
-     opts:["Perche e grammaticalmente sbagliato","Perche disumanizza le persone riducendole al loro status legale","Perche non esiste nel vocabolario italiano","Perche e troppo formale"],
+     opts:["Perche e troppo formale","Perche e grammaticalmente sbagliato","Perche disumanizza le persone riducendole al loro status legale","Perche non esiste nel vocabolario italiano"],
      ans:"Perche disumanizza le persone riducendole al loro status legale",
      hint:"The word reduces a human being to their legal s.... Many journalism ethics codes now recommend alternatives that maintain the person's dignity and humanity."}
   ]

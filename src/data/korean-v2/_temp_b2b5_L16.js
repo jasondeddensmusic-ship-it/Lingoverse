@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 16: Counting, World, and Laundry
+// Korean B2. Batch 5, Lesson 16: Counting, World, and Laundry
 // Words: 세, 세계관, 세다, 세련되다, 세로, 세미나, 세상에, 세월, 세제, 세탁, 세트, 섹시하다, 센터, 셈, 소개, 소개되다, 소규모, 소극적, 소나기, 소득
 
 const LESSON_16 = {

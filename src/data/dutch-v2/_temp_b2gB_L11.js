@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 11 — Immigratie en Samenleving
+// Dutch B2 gapB Lesson 11. Immigratie en Samenleving
 // Immigration, integration, and social vocabulary
 
 const LESSON_11 = {id:"nlv2_b2gB_l11", title:"Immigratie en Samenleving", icon:"\u{1F30D}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_11 = {id:"nlv2_b2gB_l11", title:"Immigratie en Samenleving", icon:"
  funFact:"Insider trading (handel met voorkennis) is strictly prohibited in the Netherlands and monitored by the AFM (financial markets authority)."},
 
 {type:"mc", q:"Waarom wordt 'allochtoon' niet meer officieel gebruikt?",
- opts:["It was too long","It was considered stigmatizing","It was grammatically incorrect","Nobody knew the meaning"],
+ opts:["It was considered stigmatizing","It was grammatically incorrect","Nobody knew the meaning","It was too long"],
  ans:"It was considered stigmatizing",
  hint:"The term was replaced because it labeled people negatively based on their background"},
 
@@ -82,7 +82,7 @@ const LESSON_11 = {id:"nlv2_b2gB_l11", title:"Immigratie en Samenleving", icon:"
 ]},
 
 {type:"mc", q:"'Volgens een insider' betekent:",
- opts:["According to a teacher","According to someone with inside knowledge","According to the newspaper","According to the boss"],
+ opts:["According to the boss","According to a teacher","According to someone with inside knowledge","According to the newspaper"],
  ans:"According to someone with inside knowledge",
  hint:"An insider has access to non-public information"},
 

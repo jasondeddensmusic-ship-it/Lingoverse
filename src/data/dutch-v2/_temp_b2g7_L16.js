@@ -85,7 +85,7 @@ const LESSON_16 = {
      funFact:"Dutch freely stacks prefixes. Ex-hoofdredacteur is three layers: ex (former) + hoofd (chief) + redacteur (editor). The system is infinitely productive."},
     {type:"mc",
      q:"Wat is het verschil tussen een 'client' en een 'klant'?",
-     opts:["Een client ontvangt professionele diensten, een klant koopt producten","Ze betekenen hetzelfde","Een client is zakelijk, een klant is privé","Een klant is duurder dan een client"],
+     opts:["Een klant is duurder dan een client","Een client ontvangt professionele diensten, een klant koopt producten","Ze betekenen hetzelfde","Een client is zakelijk, een klant is privé"],
      ans:"Een client ontvangt professionele diensten, een klant koopt producten",
      hint:"Think about the context: lawyers, social workers, and therapists have one type. Shops and supermarkets have the other."},
     {type:"fb",
@@ -96,7 +96,7 @@ const LESSON_16 = {
      sSrc:"As a {1} you have more freedom but less security than with a permanent contract."},
     {type:"mc",
      q:"Wat doet een 'duurzaamheidscoordinator'?",
-     opts:["Zorgt dat een organisatie klimaatdoelen haalt","Coordineert het onderhoud van gebouwen","Organiseert duurzame festivals","Recyclet afval"],
+     opts:["Organiseert duurzame festivals","Recyclet afval","Zorgt dat een organisatie klimaatdoelen haalt","Coordineert het onderhoud van gebouwen"],
      ans:"Zorgt dat een organisatie klimaatdoelen haalt",
      hint:"Duurzaamheid (sustainability) + coordinator. This person's job is to ensure the organization meets its environmental goals."}
   ]

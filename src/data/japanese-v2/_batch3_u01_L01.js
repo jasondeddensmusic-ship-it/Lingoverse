@@ -1,7 +1,7 @@
 // Unit 01 Batch3 L01. Polite Phrases & Classroom Japanese
 // New vocab: どうぞ, どうも, ちょっとまって, わかりました, わかりません,
 // もういちど, ゆっくり, しつもん, こたえ, きょうは, どうぞよろしく,
-// せいかい — all absent from unit-01.js and _temp_u01 files.
+// せいかい, all absent from unit-01.js and _temp_u01 files.
 const BATCH3_L_1 = {
   id:"jav2_u1l_b3_1", title:"丁寧(ていねい)なことば", icon:"🙏", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_L_1 = {
      funFact:"正 (correct/righteous) + 解 (solve/understand). Seikai on a quiz show is accompanied by a fanfare sound. In Japanese game shows, the seikai moment is celebrated dramatically. Hearing seikai from a teacher feels genuinely rewarding."},
 
     {type:"mc", q:"Which phrase would you use to ask a teacher to repeat something?",
-     opts:["もう一度(いちど)言(い)ってください","どうぞ","わかりました","正解(せいかい)です"],
+     opts:["正解(せいかい)です","もう一度(いちど)言(い)ってください","どうぞ","わかりました"],
      ans:"もう一度(いちど)言(い)ってください",
      hint:"This phrase asks someone to say something 'one more time.'"},
 
@@ -102,7 +102,7 @@ const BATCH3_L_1 = {
      hint:"The verb meaning 'to exist / there is' used for non-living things like questions.",
      sSrc:"I have a question."},
 
-    {type:"mc", q:"どうぞ is used when:", opts:["Asking for repetition","Saying goodbye","Expressing confusion","Offering something or inviting someone to proceed"],
+    {type:"mc", q:"どうぞ is used when:", opts:["Saying goodbye","Expressing confusion","Offering something or inviting someone to proceed","Asking for repetition"],
      ans:"Offering something or inviting someone to proceed",
      hint:"This word smooths moments of handing over or giving permission."},
 
@@ -120,7 +120,7 @@ const BATCH3_L_1 = {
       {trg:"どうぞ", src:"go ahead / here you go"}
     ]},
 
-    {type:"mc", q:"正解(せいかい) means:", opts:["question","correct answer","please wait","I understand"],
+    {type:"mc", q:"正解(せいかい) means:", opts:["please wait","I understand","question","correct answer"],
      ans:"correct answer",
      hint:"A teacher says this when a student gets something right."},
   {type:"match",pairs:[{trg:"どうも",src:"thanks / hello (casual catch-all)"},{trg:"ちょっと待(ま)ってください",src:"please wait a moment"},{trg:"お願(ねが)いします",src:"I humbly request / please (requesting a person)"}]}]

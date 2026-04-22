@@ -40,7 +40,7 @@ const LESSON_34 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"결과를 마음으로 인정하는 것을 뭐라고 해요?",
-     opts:["선택하다","반대하다","받아들이다","비교하다"],
+     opts:["받아들이다","비교하다","선택하다","반대하다"],
      ans:"받아들이다",
      hint:"This compound verb combines 'receive' and 'take in.' It describes emotional or intellectual acceptance of a situation or truth."},
 
@@ -131,7 +131,7 @@ const LESSON_34 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'실패는 성공의 어머니'라는 속담의 뜻은?",
-     opts:["성공하면 실패한다","실패하면 포기해야 한다","실패를 통해 성공할 수 있다","어머니가 성공했다"],
+     opts:["실패하면 포기해야 한다","실패를 통해 성공할 수 있다","어머니가 성공했다","성공하면 실패한다"],
      ans:"실패를 통해 성공할 수 있다",
      hint:"This proverb encourages people who have failed. It says that the experience of falling short is what eventually leads to achievement."},
 

@@ -1,4 +1,4 @@
-// Batch 3 — Unit 26 Lesson 2 (Law: Constitutional Rights & Civil Law)
+// Batch 3. Unit 26 Lesson 2 (Law: Constitutional Rights & Civil Law)
 const BATCH3_L_2 = {
   id:"itv2_u26l_b3_2", title:"Diritto civile e garanzie", icon:"📋", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cosa garantisce la 'legittima' nel diritto italiano delle successioni?",
-     opts:["Che il testamento sia scritto da un notaio professionista","Che i figli e il coniuge ricevano una quota minima dell'eredita","Che tutti i beni vadano allo Stato in assenza di eredi","Che le tasse di successione non superino il 10%"],
+     opts:["Che i figli e il coniuge ricevano una quota minima dell'eredita","Che tutti i beni vadano allo Stato in assenza di eredi","Che le tasse di successione non superino il 10%","Che il testamento sia scritto da un notaio professionista"],
      ans:"Che i figli e il coniuge ricevano una quota minima dell'eredita",
      hint:"Italian law protects forced heirs. Even if a will says otherwise, certain family members are entitled to a minimum share."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche il sistema giudiziario italiano ha milioni di cause pendenti?",
-     opts:["Perche gli italiani litigano più degli altri europei","Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse","Perche non esistono metodi alternativi di risoluzione delle dispute","Perche i tribunali italiani sono chiusi durante l'estate"],
+     opts:["Perche i tribunali italiani sono chiusi durante l'estate","Perche gli italiani litigano più degli altri europei","Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse","Perche non esistono metodi alternativi di risoluzione delle dispute"],
      ans:"Per la combinazione di alta litigiosita, scarsita di giudici e procedure complesse",
      hint:"Multiple factors: many lawsuits filed, not enough judges, and complex procedures that slow everything down."}
   ,{type:"match",pairs:[{trg:"il codice civile",src:"the civil code"},{trg:"la proprieta",src:"the property / ownership"},{trg:"la presunzione di innocenza",src:"the presumption of innocence"},{trg:"la diffamazione",src:"the defamation / libel"},{trg:"il testimone",src:"the witness"}]}]

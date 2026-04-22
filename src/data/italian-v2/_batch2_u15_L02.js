@@ -74,7 +74,7 @@ const BATCH2_U15_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does the Italian color-coded parking system mean?",
-     opts:["White is expensive, blue is medium, yellow is cheap","White is free, blue is paid, yellow is reserved","White is for visitors, blue for residents, yellow for taxis","All colors indicate the same unrestricted parking"],
+     opts:["White is free, blue is paid, yellow is reserved","White is for visitors, blue for residents, yellow for taxis","All colors indicate the same unrestricted parking","White is expensive, blue is medium, yellow is cheap"],
      ans:"White is free, blue is paid, yellow is reserved",
      hint:"W... lines = f... parking. B... lines = p... (buy a ticket). Y... lines = r... for disabled, loading, or residents."},
 
@@ -93,7 +93,7 @@ const BATCH2_U15_L2 = {
     ]},
 
     {type:"mc", q:"What is 'il citofono'?",
-     opts:["A type of Italian musical instrument","The mailbox at the building entrance","An intercom system to buzz visitors in","A security camera inside apartments"],
+     opts:["The mailbox at the building entrance","An intercom system to buzz visitors in","A security camera inside apartments","A type of Italian musical instrument"],
      ans:"An intercom system to buzz visitors in",
      hint:"V... press the button, speak, and the resident unlocks the main door remotely. 'Chi e?' is the classic greeting through it."},
 
@@ -115,7 +115,7 @@ const BATCH2_U15_L2 = {
      sSrc:"Leave the package at the {1}."},
 
     {type:"mc", q:"What happens if you put the wrong waste out on the wrong day?",
-     opts:["Nothing, it is just a suggestion","The waste collectors sort it for you","You can receive a fine from the municipality","Your neighbors will resort and fix the mistake"],
+     opts:["Your neighbors will resort and fix the mistake","Nothing, it is just a suggestion","The waste collectors sort it for you","You can receive a fine from the municipality"],
      ans:"You can receive a fine from the municipality",
      hint:"Italian waste collection schedules are strictly enforced. Wrong waste on the wrong day means potential 'sanzioni' (fines)."}
   ,{type:"match",pairs:[{trg:"la zona",src:"the area / zone"},{trg:"la scatola",src:"the box / cardboard box"},{trg:"il palazzo",src:"the building / apartment block"},{trg:"il mercato rionale",src:"the local neighborhood market"},{trg:"la raccolta dei rifiuti",src:"waste collection / garbage pickup"}]}]

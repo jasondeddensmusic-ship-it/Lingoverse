@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"〜てもらう", src:"have someone do for me"}
     ]},
 
-    {type:"mc", q:"What is the casual contraction of なくてはいけません?", opts:["なくちゃ / なきゃ","ないで","なくて","なければ"], ans:"なくちゃ / なきゃ",
+    {type:"mc", q:"What is the casual contraction of なくてはいけません?", opts:["なければ","なくちゃ / なきゃ","ないで","なくて"], ans:"なくちゃ / なきゃ",
      hint:"These very common casual forms shorten the obligation pattern dramatically."}
   ,{type:"fb", s:"友達(ともだち)に荷物(にもつ)を持(も)っていただきました。これは{1}の表現(ひょうげん)です。",
     a:["〜てもらう"],

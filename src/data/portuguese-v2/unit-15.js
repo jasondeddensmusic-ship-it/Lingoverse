@@ -7,7 +7,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  text:"ir (conjugated) + infinitive = I am going to + verb\n\neu vou sair (I am going to go out)\nvocê vai trabalhar (you are going to work)\nnós vamos comer (we are going to eat)\neles vão viajar (they are going to travel)\n\nThis covers 90% of future talk in Brazil.",
  deepDive:{title:"Why Not the Formal Future?", text:"Portuguese has two futures: the ir + infinitive construction (used constantly) and the inflected future (falarei, comerei). In Brazil, the inflected future sounds formal or literary. Everyday conversation, news, social media, even business meetings use vou falar, not falarei. You will still learn the formal future in Lesson 2 because you will read it, but you will speak with ir + infinitive nearly always."}},
 
-{type:"verb_table", title:"ir (to go) — present tense, used for the near future",
+{type:"verb_table", title:"ir (to go), present tense, used for the near future",
  note:"Memorize these four forms cold. They unlock every future conversation in Brazil.",
  groups:[{label:"ir", rows:[
    {pronoun:"eu", form:"vou", src:"I am going"},
@@ -58,13 +58,13 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  exampleSrc:"A: What are you going to do tomorrow?\nB: Tomorrow I am going to work late.\nA: And after?\nB: After I am going to rest.",
  funFact:"Amanhã comes from Latin 'ad mane' (towards morning). Literally 'towards the next morning'. Poetic, as always."},
 
-{type:"mc", q:"Choose the correct near future for eu:", opts:["vai estudar","vou estudar","vamos estudar","vão estudar"], ans:"vou estudar", hint:"First person singular of ir + the infinitive."},
+{type:"mc", q:"Choose the correct near future for eu:", opts:["vou estudar","vamos estudar","vão estudar","vai estudar"], ans:"vou estudar", hint:"First person singular of ir + the infinitive."},
 
-{type:"mc", q:"'Nós vamos viajar amanhã' means:", opts:["We are going to travel tomorrow","We travel every day","We traveled yesterday","We can travel"], ans:"We are going to travel tomorrow", hint:"Vamos + infinitive + future time marker. Classic near future."},
+{type:"mc", q:"'Nós vamos viajar amanhã' means:", opts:["We can travel","We are going to travel tomorrow","We travel every day","We traveled yesterday"], ans:"We are going to travel tomorrow", hint:"Vamos + infinitive + future time marker. Classic near future."},
 
 {type:"fb", s:"Eles {1} chegar às oito da noite.", a:["vão"], opts:["vão","vai","vou","vamos"], hint:"Third person plural of ir. They + infinitive = they are going to.", sSrc:"They {1} arrive at eight at night."},
 
-{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico amanhã","Eu fui para o médico ontem","Eu vou para o médico agora","Eu ia para o médico"], ans:"Eu vou para o médico amanhã", hint:"Look for the time expression that points forward, not backward or to the present moment. Only one option refers to tomorrow."},
+{type:"mc", q:"Which sentence describes a future plan?", opts:["Eu vou para o médico agora","Eu ia para o médico","Eu vou para o médico amanhã","Eu fui para o médico ontem"], ans:"Eu vou para o médico amanhã", hint:"Look for the time expression that points forward, not backward or to the present moment. Only one option refers to tomorrow."},
 
 {type:"fb", s:"Ela {1} trabalhar no sábado.", a:["vai"], opts:["vai","vou","vamos","vão"], hint:"Ela is third person singular. Match with the ___ form.", sSrc:"She {1} work on Saturday."},
 
@@ -75,7 +75,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
   {trg:"eles vão comer", src:"they are going to eat"}
 ]},
 
-{type:"mc", q:"'Vamos ao cinema?' is:", opts:["A suggestion (Shall we go to the cinema?)","A past action","A question about yesterday","An order"], ans:"A suggestion (Shall we go to the cinema?)", hint:"Vamos + noun question mark often invites: let's do X?"},
+{type:"mc", q:"'Vamos ao cinema?' is:", opts:["A past action","A question about yesterday","An order","A suggestion (Shall we go to the cinema?)"], ans:"A suggestion (Shall we go to the cinema?)", hint:"Vamos + noun question mark often invites: let's do X?"},
 
 {type:"fb", s:"Amanhã eu {1} acordar cedo para correr.", a:["vou"], opts:["vou","vai","vamos","vão"], hint:"Eu + near future. Use the eu form of ir.", sSrc:"Tomorrow I {1} wake up early to run."},
 
@@ -159,13 +159,13 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  exampleSrc:"A: I am thinking of going back to school.\nB: And when?\nA: I miss it.\nB: Then go for it!",
  funFact:"Penso em is the softest of the three. It opens the door without walking through. The verb of daydreams."},
 
-{type:"mc", q:"Choose the correct future for eu of comer:", opts:["comeria","comerei","comerá","comeremos"], ans:"comerei", hint:"First person singular future ends in -ei with accent."},
+{type:"mc", q:"Choose the correct future for eu of comer:", opts:["comerei","comerá","comeremos","comeria"], ans:"comerei", hint:"First person singular future ends in -ei with accent."},
 
-{type:"mc", q:"'Faremos uma festa no sábado' means:", opts:["We will have a party on Saturday","We made a party on Saturday","We would have a party on Saturday","We are having a party on Saturday"], ans:"We will have a party on Saturday", hint:"Faremos is the future. No bus, no past, just will."},
+{type:"mc", q:"'Faremos uma festa no sábado' means:", opts:["We are having a party on Saturday","We will have a party on Saturday","We made a party on Saturday","We would have a party on Saturday"], ans:"We will have a party on Saturday", hint:"Faremos is the future. No bus, no past, just will."},
 
 {type:"fb", s:"Eu {1} comprar uma casa no próximo ano.", a:["pretendo"], opts:["pretendo","planejo","penso em","vou"], hint:"Strong personal intention, not necessarily with a fixed date.", sSrc:"I {1} to buy a house next year."},
 
-{type:"mc", q:"Which sentence uses the irregular future correctly?", opts:["Ele farei amanhã","Ele fará amanhã","Ele fazerá amanhã","Ele fez amanhã"], ans:"Ele fará amanhã", hint:"Fazer is irregular in the future: the -ze- drops and new endings attach directly to far-. The third person singular ends in -á."},
+{type:"mc", q:"Which sentence uses the irregular future correctly?", opts:["Ele fez amanhã","Ele farei amanhã","Ele fará amanhã","Ele fazerá amanhã"], ans:"Ele fará amanhã", hint:"Fazer is irregular in the future: the -ze- drops and new endings attach directly to far-. The third person singular ends in -á."},
 
 {type:"fb", s:"Nós {1} na conferência no mês que vem.", a:["falaremos"], opts:["falaremos","falarei","falarão","falava"], hint:"First person plural future of falar.", sSrc:"We {1} at the conference next month."},
 
@@ -176,7 +176,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
   {trg:"eu farei", src:"I will do"}
 ]},
 
-{type:"mc", q:"'Ela dirá a verdade' means:", opts:["She will tell the truth","She told the truth","She tells the truth","She would tell the truth"], ans:"She will tell the truth", hint:"Dirá is the irregular future of dizer."},
+{type:"mc", q:"'Ela dirá a verdade' means:", opts:["She told the truth","She tells the truth","She would tell the truth","She will tell the truth"], ans:"She will tell the truth", hint:"Dirá is the irregular future of dizer."},
 
 {type:"fb", s:"Eu {1} em mudar de carreira.", a:["penso"], opts:["penso","pretendo","planejo","vou"], hint:"Tentative consideration, not a concrete plan yet.", sSrc:"I {1} of changing careers."},
 
@@ -246,13 +246,13 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  exampleSrc:"A: Would it be possible to change the reservation?\nB: One moment, I will check.\nA: Thank you.\nB: Yes, it would be possible.",
  funFact:"'Seria possível...?' is the most elegant Portuguese request. Hotels, airlines, doctors all melt at these two words."},
 
-{type:"mc", q:"Choose the correct conditional of gostar for eu:", opts:["gosto","gostava","gostaria","gostarei"], ans:"gostaria", hint:"Polite 'I would like' uses the conditional ending -ia."},
+{type:"mc", q:"Choose the correct conditional of gostar for eu:", opts:["gostaria","gostarei","gosto","gostava"], ans:"gostaria", hint:"Polite 'I would like' uses the conditional ending -ia."},
 
-{type:"mc", q:"'Eu faria qualquer coisa por você' means:", opts:["I did everything for you","I do everything for you","I would do anything for you","I will do anything for you"], ans:"I would do anything for you", hint:"Faria is the conditional. '…' is the key English word."},
+{type:"mc", q:"'Eu faria qualquer coisa por você' means:", opts:["I do everything for you","I would do anything for you","I will do anything for you","I did everything for you"], ans:"I would do anything for you", hint:"Faria is the conditional. '…' is the key English word."},
 
 {type:"fb", s:"Você {1} me emprestar seu carro?", a:["poderia"], opts:["poderia","posso","pude","poderá"], hint:"Polite request with the conditional of poder.", sSrc:"{1} you lend me your car?"},
 
-{type:"mc", q:"Which is the most polite way to order coffee?", opts:["Eu quero um café","Eu gostaria de um café","Me dá um café","Café, agora"], ans:"Eu gostaria de um café", hint:"Conditional of gostar is the polite form. The others sound blunt or demanding."},
+{type:"mc", q:"Which is the most polite way to order coffee?", opts:["Café, agora","Eu quero um café","Eu gostaria de um café","Me dá um café"], ans:"Eu gostaria de um café", hint:"Conditional of gostar is the polite form. The others sound blunt or demanding."},
 
 {type:"fb", s:"Nós {1} de visitar o museu amanhã.", a:["gostaríamos"], opts:["gostaríamos","gostamos","gostaríamos","gostaram"], hint:"First person plural conditional of gostar. Accent on the í.", sSrc:"We {1} to visit the museum tomorrow."},
 
@@ -263,11 +263,11 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
   {trg:"nós viajaríamos", src:"we would travel"}
 ]},
 
-{type:"mc", q:"'No seu lugar, eu diria a verdade' means:", opts:["In your place, I would tell the truth","In your place, I told the truth","In your place, I tell the truth","In your place, I will tell the truth"], ans:"In your place, I would tell the truth", hint:"Diria = conditional. Hypothetical advice in someone else's shoes."},
+{type:"mc", q:"'No seu lugar, eu diria a verdade' means:", opts:["In your place, I told the truth","In your place, I tell the truth","In your place, I will tell the truth","In your place, I would tell the truth"], ans:"In your place, I would tell the truth", hint:"Diria = conditional. Hypothetical advice in someone else's shoes."},
 
 {type:"fb", s:"Se eu tivesse dinheiro, {1} para a Europa.", a:["viajaria"], opts:["viajaria","viajei","viajo","vou viajar"], hint:"Hypothetical condition + conditional result. Subject is eu.", sSrc:"If I had money, I {1} to Europe."},
 
-{type:"mc", q:"Which answer is in the conditional?", opts:["Ele comeu","Ele come","Ele comerá","Ele comeria"], ans:"Ele comeria", hint:"Conditional adds -ia to the full infinitive. 'Would eat' is the meaning."},
+{type:"mc", q:"Which answer is in the conditional?", opts:["Ele comeria","Ele comeu","Ele come","Ele comerá"], ans:"Ele comeria", hint:"Conditional adds -ia to the full infinitive. 'Would eat' is the meaning."},
 
 {type:"fb", s:"{1} possível falar com o gerente?", a:["Seria"], opts:["Seria","Era","Foi","É"], hint:"Polite hypothetical question: 'Would it be possible?'", sSrc:"{1} it be possible to speak with the manager?"},
 
@@ -295,7 +295,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  note:"Masculine noun despite the -a ending.\nCommon false friend: looks feminine but is not.",
  example:"A: Qual é o problema?\nB: Não tenho emprego.\nA: Isso é sério.\nB: Estou procurando.",
  exampleSrc:"A: What is the problem?\nB: I do not have a job.\nA: That is serious.\nB: I am looking.",
- funFact:"O problema is one of the most famous gender-trap nouns in Portuguese. Learners often say 'a problema' — but Brazilians will notice. The word comes from Greek 'problema', which was already neuter-masculine."},
+ funFact:"O problema is one of the most famous gender-trap nouns in Portuguese. Learners often say 'a problema', but Brazilians will notice. The word comes from Greek 'problema', which was already neuter-masculine."},
 
 {type:"teach", trg:"a sociedade", src:"society", pos:"noun", gender:"f",
  phonetic:"ah so-see-eh-DAH-djee",
@@ -316,7 +316,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  note:"Used for both history (the subject) and a story (a narrative).\nContext tells you which meaning applies.",
  example:"A: Você gosta de história?\nB: Sim, adoro a história do Brasil.\nA: É muito interessante.\nB: Concordo, tem muita história.",
  exampleSrc:"A: Do you like history?\nB: Yes, I love the history of Brazil.\nA: It is very interesting.\nB: I agree, there is a lot of history.",
- funFact:"A história do Brasil includes 500+ years of indigenous, colonial, imperial, and republican eras. Brazilians often say their country has 'muita história' — a lot of history (and a lot of stories, too)."},
+ funFact:"A história do Brasil includes 500+ years of indigenous, colonial, imperial, and republican eras. Brazilians often say their country has 'muita história', a lot of history (and a lot of stories, too)."},
 
 {type:"teach", trg:"a justiça", src:"justice", pos:"noun", gender:"f",
  phonetic:"ah zhoos-TEE-sah",
@@ -343,7 +343,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
  text:"In Portuguese, nouns ending in -dade are always feminine:\n\na liberdade (freedom)\na sociedade (society)\na cidade (city)\na realidade (reality)\n\nNouns ending in -ção and -são are also feminine:\n\na educação (education)\na solução (solution)\na decisão (decision)\n\nMasculine traps: o problema, o sistema, o tema all end in -a but are masculine. Learn them individually.",
  deepDive:{title:"Why these patterns matter", text:"Recognizing -dade and -ção as feminine saves dozens of agreement errors. When you see a new word ending in -dade, you already know it is feminine without looking it up. This is one of the most efficient pattern rules in Portuguese. The -dade ending comes from Latin -tatem (like English -ty in liberty, quality). Both English and Portuguese inherited it from the same Latin root."}},
 
-{type:"mc", q:"'O emprego' is:", opts:["the work activity","the specific job held","the office building","the salary"], ans:"the specific job held", hint:"Think of emprego as the position or post, not the activity itself."},
+{type:"mc", q:"'O emprego' is:", opts:["the specific job held","the office building","the salary","the work activity"], ans:"the specific job held", hint:"Think of emprego as the position or post, not the activity itself."},
 
 {type:"fb", s:"Não tenho {1} agora. Estou procurando.", a:["emprego"], opts:["emprego","problema","poder","história"], hint:"You look for a job, not for power. The word for a specific position you hold.", sSrc:"I do not have a {1} right now. I am looking."},
 
@@ -362,7 +362,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"fb", s:"A {1} é importante para todos.", a:["justiça"], opts:["justiça","história","liberdade","sociedade"], hint:"The concept of fairness and legal equality. Fazer ___ = to bring fairness.", sSrc:"{1} is important for everyone."},
 
-{type:"mc", q:"'A liberdade' comes from which Latin root?", opts:["-tatem (like English -ty)","liber (book)","labor (work)","libertas (balance)"], ans:"-tatem (like English -ty)", hint:"Liberty, quality, reality — all share the same ancestor ending. Portuguese kept it as -dade."},
+{type:"mc", q:"'A liberdade' comes from which Latin root?", opts:["liber (book)","labor (work)","libertas (balance)","-tatem (like English -ty)"], ans:"-tatem (like English -ty)", hint:"Liberty, quality, reality, all share the same ancestor ending. Portuguese kept it as -dade."},
 
 {type:"match", pairs:[
   {trg:"a história", src:"history / story"},
@@ -373,7 +373,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"fb", s:"O {1} é uma grande responsabilidade.", a:["poder"], opts:["poder","problema","direito","emprego"], hint:"Authority and influence. 'Power is a great responsibility.'", sSrc:"___ is a great responsibility."},
 
-{type:"mc", q:"Which of these nouns follows the -dade = feminine rule?", opts:["o problema","o direito","a liberdade","o poder"], ans:"a liberdade", hint:"Only one option ends in -dade. That ending is always feminine in Portuguese."}
+{type:"mc", q:"Which of these nouns follows the -dade = feminine rule?", opts:["a liberdade","o poder","o problema","o direito"], ans:"a liberdade", hint:"Only one option ends in -dade. That ending is always feminine in Portuguese."}
 ]}
 
 ]}; export default UNIT_15;

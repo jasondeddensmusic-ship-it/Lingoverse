@@ -98,7 +98,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel verbe veut dire 'to arrive' et aussi 'to happen' ?",
-     opts:["arriver","arrêter","attendre","attraper"],
+     opts:["attraper","arriver","arrêter","attendre"],
      ans:"arriver",
      hint:"This verb has a double meaning: reaching a destination and an event occurring."},
 
@@ -149,7 +149,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'to stop' et 'to arrest' ?",
-     opts:["arrêter","arriver","attendre","attraper"],
+     opts:["attendre","attraper","arrêter","arriver"],
      ans:"arrêter",
      hint:"This verb is used both by people pausing an action and by police taking someone into custody."},
 

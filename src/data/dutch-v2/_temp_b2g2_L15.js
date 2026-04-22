@@ -1,4 +1,4 @@
-// L15: Technology & Innovation — 20 B2 gap words
+// L15: Technology & Innovation, 20 B2 gap words
 const LESSON_15 = {
   id:"nlv2_b2g2_l15", title:"Technologie en Innovatie", icon:"\uD83D\uDCBB", xp:15, board:true,
   steps:[
@@ -121,7 +121,7 @@ const LESSON_15 = {
      sSrc:"He has an {1} of superiority that puts people off."},
     {type:"mc",
      q:"Welk Nederlands chocolademerk strijdt tegen slavernij in de cacaoketen?",
-     opts:["Tony's Chocolonely","Verkade","Droste","Ritter Sport"],
+     opts:["Ritter Sport","Tony's Chocolonely","Verkade","Droste"],
      ans:"Tony's Chocolonely",
      hint:"Started by a Dutch journalist in 2005. Their bars are deliberately divided unequally to symbolize inequality in the chocolate industry."},
     {type:"match", pairs:[

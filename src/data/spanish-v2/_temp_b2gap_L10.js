@@ -118,13 +118,13 @@ const LESSON_10 = {id:"esv2_b2gap_l10",title:"Gastronomía",icon:"🍳",xp:15,bo
 
 {type:"fb",s:"¿Vamos a tomar un {1} de vino al bar de la esquina?",a:["chato"],opts:["chato","chollo","bocado","chicle"],hint:"A small, wide glass typically used for red wine in Spanish bars.",sSrc:"Shall we go have a small {1} of wine at the corner bar?"},
 
-{type:"mc",q:"'Bagaje cultural' en español se refiere a:",opts:["Las maletas de un viaje","El conocimiento y experiencia acumulados","Un tipo de comida","Un equipaje especial"],ans:"El conocimiento y experiencia acumulados",hint:"Figurative baggage: the knowledge you carry with you through life."},
+{type:"mc",q:"'Bagaje cultural' en español se refiere a:",opts:["Un equipaje especial","Las maletas de un viaje","El conocimiento y experiencia acumulados","Un tipo de comida"],ans:"El conocimiento y experiencia acumulados",hint:"Figurative baggage: the knowledge you carry with you through life."},
 
 {type:"match",pairs:[{trg:"alioli",src:"garlic sauce"},{trg:"bocado",src:"bite / morsel"},{trg:"chollo",src:"bargain"},{trg:"azúcar",src:"sugar"},{trg:"brillo",src:"shine"}]},
 
 {type:"fb",s:"Tiene un {1} cultural impresionante tras años de viajes.",a:["bagaje"],opts:["bagaje","brillo","bocado","amasijo"],hint:"The accumulated knowledge and experience one carries through life.",sSrc:"He/she has an impressive cultural {1} after years of travel."},
 
-{type:"mc",q:"'A la mayor brevedad posible' significa:",opts:["Con mucha calma","Lo antes posible","En el futuro lejano","Con mucho detalle"],ans:"Lo antes posible",hint:"A formal expression asking for something to be done quickly."}
+{type:"mc",q:"'A la mayor brevedad posible' significa:",opts:["En el futuro lejano","Con mucho detalle","Con mucha calma","Lo antes posible"],ans:"Lo antes posible",hint:"A formal expression asking for something to be done quickly."}
 ]};
 
 export default LESSON_10;

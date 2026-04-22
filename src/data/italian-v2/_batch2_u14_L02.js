@@ -74,7 +74,7 @@ const BATCH2_U14_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'la partita IVA' represent in Italy?",
-     opts:["A type of sports competition scoring","The VAT registration number for self-employed work","A political party membership card","An immigration work permit"],
+     opts:["The VAT registration number for self-employed work","A political party membership card","An immigration work permit","A type of sports competition scoring"],
      ans:"The VAT registration number for self-employed work",
      hint:"Opening one means registering as a freelancer. It has become symbolic of s...-employment and independent professional life in Italy."},
 
@@ -104,7 +104,7 @@ const BATCH2_U14_L2 = {
      sSrc:"What {1} do you work in?"},
 
     {type:"mc", q:"What does 'TFR' stand for?",
-     opts:["Tasso Fisso di Rendimento","Trattamento di Fine Rapporto","Tempo di Ferie Residue","Tassa Forfettaria Regionale"],
+     opts:["Tassa Forfettaria Regionale","Tasso Fisso di Rendimento","Trattamento di Fine Rapporto","Tempo di Ferie Residue"],
      ans:"Trattamento di Fine Rapporto",
      hint:"This 'End of Employment Treatment' accumulates monthly and is paid out when you leave a job. A uniquely Italian institution."},
 
@@ -115,7 +115,7 @@ const BATCH2_U14_L2 = {
      sSrc:"The company has fifty {1}."},
 
     {type:"mc", q:"What is a 'colloquio di gruppo'?",
-     opts:["A private meeting with the CEO only","A group interview with multiple candidates assessed together","A team building exercise for employees","A union meeting for all workers"],
+     opts:["A team building exercise for employees","A union meeting for all workers","A private meeting with the CEO only","A group interview with multiple candidates assessed together"],
      ans:"A group interview with multiple candidates assessed together",
      hint:"'Di gruppo' means 'in a g....' Evaluators observe how c... collaborate, lead, and communicate with each other."}
   ,{type:"match",pairs:[{trg:"la partita IVA",src:"the VAT number / freelance status"},{trg:"il colloquio di gruppo",src:"the group interview"},{trg:"fare networking",src:"to network (professionally)"},{trg:"la competitivita",src:"competitiveness"},{trg:"il contratto a progetto",src:"the project-based contract"}]}]

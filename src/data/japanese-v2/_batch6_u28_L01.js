@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Study!\nB: I have heard that so many times my ears have calluses.\nA: Were there any problems?\nB: There were some issues, but we resolved them.\nA: How did you resolve them?\nB: We discussed it as a whole team and found the best method.",
      funFact:"耳(みみ)にたこができる is a humorous exaggeration. The image of calluses forming from repeated exposure to the same words is vivid. Children use it when parents nag them. It is similar to 'broken record' in English but uses the body as the site of wear. 耳(みみ) idioms: 耳(みみ)が痛(いた)い (painful to hear = harsh truth), 耳(みみ)よりな (worth hearing = good news)."},
 
-    {type:"mc", q:"足(あし)を引(ひ)っ張(ぱ)る in Japanese means:", opts:["To hold someone back or hinder them","To joke with someone","To help someone walk","To kick someone"], ans:"To hold someone back or hinder them",
+    {type:"mc", q:"足(あし)を引(ひ)っ張(ぱ)る in Japanese means:", opts:["To kick someone","To hold someone back or hinder them","To joke with someone","To help someone walk"], ans:"To hold someone back or hinder them",
      hint:"Unlike the English idiom, this Japanese expression has a negative, obstructing meaning."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"仕事(しごと)で{1}を抜(ぬ)いてはいけません。\n(You must not cut corners at work.)", a:"て", opts:["て","あし","め","くち"], sSrc:"You must not cut corners at work.",
      hint:"The body part meaning 'hand' that represents effort in this idiom."},
 
-    {type:"mc", q:"目(め)からうろこ describes:", opts:["A sudden moment of understanding","Being unable to see","Crying with happiness","Feeling sleepy"], ans:"A sudden moment of understanding",
+    {type:"mc", q:"目(め)からうろこ describes:", opts:["Crying with happiness","Feeling sleepy","A sudden moment of understanding","Being unable to see"], ans:"A sudden moment of understanding",
      hint:"This expression describes the revelation of seeing something clearly for the first time."}
   ,{type:"match",pairs:[{trg:"ことわざ",src:"proverb / saying"},{trg:"石(いし)の上(うえ)にも三年(さんねん)",src:"patience pays off (sit on a stone for 3 years)"},{trg:"目(め)からうろこ",src:"scales falling from one's eyes (a revelation)"},{trg:"耳(みみ)にたこができる",src:"to be sick of hearing something (calluses form on ears)"}]},
   {type:"fb", s:"「石(いし)の上(うえ)にも三年(さんねん)」は有名(ゆうめい)な日本語(にほんご)の{1}です。", a:["ことわざ"], opts:["ことわざ","石(いし)の上(うえ)にも三年(さんねん)","目(め)からうろこ","口(くち)が軽(かる)い"], hint:"A traditional short saying that expresses a wisdom or moral principle.", sSrc:"'Sitting on a stone for three years' is a famous Japanese {1}."}

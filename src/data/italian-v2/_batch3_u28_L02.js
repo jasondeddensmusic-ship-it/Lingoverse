@@ -1,4 +1,4 @@
-// Batch 3 — Unit 28 Lesson 2 (Literature: Publishing & Reading Culture)
+// Batch 3. Unit 28 Lesson 2 (Literature: Publishing & Reading Culture)
 const BATCH3_L_2 = {
   id:"itv2_u28l_b3_2", title:"Editoria e cultura del libro", icon:"📕", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Qual e il premio letterario più prestigioso in Italia?",
-     opts:["Il Premio Nobel","Il Premio Strega","Il Premio Pulitzer","Il Premio Goncourt"],
+     opts:["Il Premio Strega","Il Premio Pulitzer","Il Premio Goncourt","Il Premio Nobel"],
      ans:"Il Premio Strega",
      hint:"Awarded every July in Rome since 1947. Named after a famous Italian liqueur. Winning it is the pinnacle for Italian novelists."},
 
@@ -114,10 +114,10 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche il rifiuto del manoscritto de 'Il Gattopardo' e diventato leggendario?",
-     opts:["Perche l'autore ha denunciato l'editore per mancata pubblicazione","Perche i principali editori lo rifiutarono e divenne un capolavoro solo dopo la morte dell'autore","Perche l'autore lo pubblico a proprie spese e vinse il Nobel","Perche fu il primo romanzo italiano tradotto in giapponese"],
+     opts:["Perche fu il primo romanzo italiano tradotto in giapponese","Perche l'autore ha denunciato l'editore per mancata pubblicazione","Perche i principali editori lo rifiutarono e divenne un capolavoro solo dopo la morte dell'autore","Perche l'autore lo pubblico a proprie spese e vinse il Nobel"],
      ans:"Perche i principali editori lo rifiutarono e divenne un capolavoro solo dopo la morte dell'autore",
      hint:"Major publishers rejected it. Published after the author died, it became one of Italy's greatest novels. A cautionary tale for editors."}
-  ,{type:"match",pairs:[{trg:"la casa editrice",src:"the publishing house"},{trg:"il premio letterario",src:"the literary prize"},{trg:"la ristampa",src:"the reprint"},{trg:"il bestseller",src:"the bestseller"},{trg:"la libreria",src:"the bookshop"},{trg:"la prefazione",src:"the preface / foreword"}]},{type:"mc",q:"How do you say \"anthology\" in Italian?",opts:["la finestra","l'antologia","il tavolo","la bicicletta"],ans:"l'antologia",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"la casa editrice",src:"the publishing house"},{trg:"il premio letterario",src:"the literary prize"},{trg:"la ristampa",src:"the reprint"},{trg:"il bestseller",src:"the bestseller"},{trg:"la libreria",src:"the bookshop"},{trg:"la prefazione",src:"the preface / foreword"}]},{type:"mc",q:"How do you say \"anthology\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'antologia"],ans:"l'antologia",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il romanzo ha ricevuto un importante {1} letterario.",a:["premio letterario"],opts:["premio letterario","bestseller","tiratura","collana"],hint:"A prestigious award given to outstanding books or authors.",sSrc:"The novel received an important literary {1}."},
 {type:"fb",s:"Il libro e uscito in una nuova {1} per molti lettori.",a:["ristampa"],opts:["ristampa","prefazione","copertina","traduzione"],hint:"A new print run of a book that was already published.",sSrc:"The book came out in a new {1} for many readers."}]
 };

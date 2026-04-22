@@ -68,10 +68,10 @@ const LESSON_5 = {id:"esv2_b2gD_l5",title:"Cualidades abstractas",icon:"\uD83C\u
  {trg:"invalidez",src:"disability"}
 ]},
 
-{type:"mc",q:"El sufijo '-ez' forma sustantivos abstractos a partir de...",opts:["Adjetivos","Verbos","Sustantivos concretos","Preposiciones"],ans:"Adjetivos",hint:"Think: pequeño > pequeñez, viejo > vejez, estúpido > estupidez. What part of speech starts the pattern?"},
+{type:"mc",q:"El sufijo '-ez' forma sustantivos abstractos a partir de...",opts:["Preposiciones","Adjetivos","Verbos","Sustantivos concretos"],ans:"Adjetivos",hint:"Think: pequeño > pequeñez, viejo > vejez, estúpido > estupidez. What part of speech starts the pattern?"},
 
 {type:"fb",s:"Tras el accidente, le concedieron una pensión de {1}.",a:["invalidez"],opts:["invalidez","impulsividad","exageración","desnudez"],hint:"A state of being unable to work, entitling someone to a disability pension.",sSrc:"After the accident, he was granted a {1} pension."},
 
-{type:"mc",q:"La desnudez emocional en un poema significa...",opts:["Mostrar sentimientos sin filtro","Escribir sobre el cuerpo humano","No tener vocabulario suficiente","Ser superficial en la expresión"],ans:"Mostrar sentimientos sin filtro",hint:"Figurative use: emotional vulnerability, showing raw feelings without protection."}
+{type:"mc",q:"La desnudez emocional en un poema significa...",opts:["No tener vocabulario suficiente","Ser superficial en la expresión","Mostrar sentimientos sin filtro","Escribir sobre el cuerpo humano"],ans:"Mostrar sentimientos sin filtro",hint:"Figurative use: emotional vulnerability, showing raw feelings without protection."}
 ]};
 export default LESSON_5;

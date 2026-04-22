@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 1 — Society and Identity
+// French B2 Gap Lesson 1. Society and Identity
 const LESSON_1 = {id:"frv2_b2g5_l1", title:"Identité et société", icon:"🏛️", xp:15, board:true, steps:[
   {type:"intro", title:"Identité et société",
    desc:"Explore vocabulary for discussing identity, social roles, and how individuals relate to broader society at the B2 level.",
@@ -93,7 +93,7 @@ const LESSON_1 = {id:"frv2_b2g5_l1", title:"Identité et société", icon:"🏛�
    funFact:"From Latin 'investitura' (clothing). Originally meant 'robing' someone in office."},
 
   {type:"mc", q:"Que signifie 'passer inaperçu'?",
-   opts:["Ne pas être remarqué","Être très célèbre","Disparaître soudainement","Refuser d'obéir"],
+   opts:["Refuser d'obéir","Ne pas être remarqué","Être très célèbre","Disparaître soudainement"],
    ans:"Ne pas être remarqué",
    hint:"This expression describes going through unnoticed by others"},
 
@@ -111,7 +111,7 @@ const LESSON_1 = {id:"frv2_b2g5_l1", title:"Identité et société", icon:"🏛�
   ]},
 
   {type:"mc", q:"Quel adjectif décrit une personne qui croit pouvoir changer le monde?",
-   opts:["Idéaliste","Insignifiant","Incompris","Inaperçu"],
+   opts:["Incompris","Inaperçu","Idéaliste","Insignifiant"],
    ans:"Idéaliste",
    hint:"Someone who pursues ideals and believes in positive change"},
 
@@ -121,7 +121,7 @@ const LESSON_1 = {id:"frv2_b2g5_l1", title:"Identité et société", icon:"🏛�
    sSrc:"They act with complete {1}, nobody punishes them."},
 
   {type:"mc", q:"Quel mot décrit un personnage principal qui manque de qualités héroïques?",
-   opts:["Un antihéros","Un archétype","Un idéaliste","Un démocrate"],
+   opts:["Un archétype","Un idéaliste","Un démocrate","Un antihéros"],
    ans:"Un antihéros",
    hint:"The prefix means 'against' or 'opposite of' the conventional hero"},
 

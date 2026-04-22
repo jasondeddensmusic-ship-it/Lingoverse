@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"煮(に)る",src:"to simmer/stew"},{trg:"蒸(む)す",src:"to steam"},{trg:"炒(いた)める",src:"to stir-fry"},{trg:"揚(あ)げる",src:"to deep-fry"},{trg:"焼(や)く",src:"to grill/bake"}],
      hint:"Match each cooking method with its English translation."},
 
-    {type:"mc", q:"What does チンする mean?", opts:["To heat in the microwave","To boil water","To ring a bell","To chop vegetables"], ans:"To heat in the microwave",
+    {type:"mc", q:"What does チンする mean?", opts:["To chop vegetables","To heat in the microwave","To boil water","To ring a bell"], ans:"To heat in the microwave",
      hint:"This casual verb comes from the sound a kitchen appliance makes when it finishes."},
 
     {type:"fb", s:"野菜(やさい)を{1}ています。\n(I am simmering the vegetables.)", a:"煮(に)", opts:["煮(に)","蒸(む)し","炒(いた)め","揚(あ)げ"], sSrc:"I am simmering the vegetables.",
      hint:"This cooking method involves cooking food slowly in liquid over low heat."},
 
-    {type:"mc", q:"What is a まないた?", opts:["A cutting board","A rice cooker","A ladle","A microwave"], ans:"A cutting board",
+    {type:"mc", q:"What is a まないた?", opts:["A ladle","A microwave","A cutting board","A rice cooker"], ans:"A cutting board",
      hint:"Traditional Japanese versions are made from cypress wood for its antibacterial properties."}
   ,{type:"fb", s:"魚(さかな)を{1}で薄(うす)く切(き)ってお刺身(さしみ)にします。",
      a:["包丁(ほうちょう)"],

@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Che cos'e la demagogia?",
-     opts:["Un tipo di democrazia diretta","L'uso di emozioni e pregiudizi per manipolare l'opinione pubblica, promettendo soluzioni facili","Un metodo di ricerca scientifica","Una forma di giornalismo investigativo"],
+     opts:["L'uso di emozioni e pregiudizi per manipolare l'opinione pubblica, promettendo soluzioni facili","Un metodo di ricerca scientifica","Una forma di giornalismo investigativo","Un tipo di democrazia diretta"],
      ans:"L'uso di emozioni e pregiudizi per manipolare l'opinione pubblica, promettendo soluzioni facili",
      hint:"Appealing to emotions rather than reason. Offering simple answers to complex questions to gain political support."},
 
@@ -96,7 +96,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Qual e la differenza tra 'controinformazione' positiva e negativa?",
-     opts:["Non c'e differenza, e sempre negativa","La positiva sfida la propaganda con fatti verificabili, la negativa crea nuova disinformazione","La positiva viene dal governo, la negativa dai cittadini","La positiva e online, la negativa e stampata"],
+     opts:["La positiva e online, la negativa e stampata","Non c'e differenza, e sempre negativa","La positiva sfida la propaganda con fatti verificabili, la negativa crea nuova disinformazione","La positiva viene dal governo, la negativa dai cittadini"],
      ans:"La positiva sfida la propaganda con fatti verificabili, la negativa crea nuova disinformazione",
      hint:"Counter-information can be a force for truth when it presents verified facts against official spin. But it becomes harmful when it simply replaces one p... with another."}
   ]

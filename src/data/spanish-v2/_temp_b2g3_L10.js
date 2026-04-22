@@ -30,13 +30,13 @@ const LESSON_10 = {id:"esv2_b2g3_l10", title:"Economía y finanzas", icon:"💰"
 
   {type:"teach", trg:"el despegue", src:"the takeoff / launch", pos:"noun", gender:"m", note:"Literal: aircraft takeoff. Figurative: economic launch.\nEl despegue económico = the economic takeoff.", example:"A: El despegue de la economía española fue en los años sesenta.\nB: Sí, el turismo fue clave en ese crecimiento.", exampleSrc:"A: The takeoff of the Spanish economy was in the sixties.\nB: Yes, tourism was key in that growth.", funFact:"Spain's 'economic miracle' of the 1960s is called el despegue económico. Tourism transformed the country's economy."},
 
-  {type:"mc", q:"¿Qué es la domiciliación bancaria?", opts:["Pago automático desde tu cuenta","Un préstamo del banco","Una tarjeta de crédito","Un seguro de hogar"], ans:"Pago automático desde tu cuenta", hint:"Setting up your bank account to automatically pay bills each month."},
+  {type:"mc", q:"¿Qué es la domiciliación bancaria?", opts:["Un seguro de hogar","Pago automático desde tu cuenta","Un préstamo del banco","Una tarjeta de crédito"], ans:"Pago automático desde tu cuenta", hint:"Setting up your bank account to automatically pay bills each month."},
 
   {type:"match", pairs:[{trg:"devaluación", src:"devaluation"},{trg:"desembolso", src:"outlay"},{trg:"egreso", src:"expenditure"},{trg:"domiciliación", src:"direct debit"},{trg:"despegue", src:"takeoff / launch"}]},
 
   {type:"fb", s:"Necesito pedir un {1} a mi jefe porque los precios han subido mucho.", a:["aumento de sueldo"], opts:["aumento de sueldo","desembolso","egreso","despegue"], hint:"A request for more money in your regular salary payment.", sSrc:"I need to ask my boss for a {1} because prices have risen a lot."},
 
-  {type:"mc", q:"'Egresar' en Latinoamérica significa...", opts:["Graduarse de la universidad","Perder dinero en la bolsa","Emigrar a otro país","Jubilarse del trabajo"], ans:"Graduarse de la universidad", hint:"In Latin American Spanish, this verb means to finish your university studies."},
+  {type:"mc", q:"'Egresar' en Latinoamérica significa...", opts:["Emigrar a otro país","Jubilarse del trabajo","Graduarse de la universidad","Perder dinero en la bolsa"], ans:"Graduarse de la universidad", hint:"In Latin American Spanish, this verb means to finish your university studies."},
 
   {type:"fb", s:"El gobierno ha tomado medidas {1} para controlar el gasto público.", a:["drásticas"], opts:["drásticas","domiciliadas","dependientes","descontadas"], hint:"Extreme, severe measures that represent a significant change in policy.", sSrc:"The government has taken {1} measures to control public spending."}
 ]};

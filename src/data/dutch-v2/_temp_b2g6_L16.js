@@ -81,7 +81,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Wat is een 'goudhaantje'?",
-     opts:["De favoriet of de sterspeler","Een gouden sieraad","Een soort vogel","Een oud muntstuk"],
+     opts:["Een oud muntstuk","De favoriet of de sterspeler","Een gouden sieraad","Een soort vogel"],
      ans:"De favoriet of de sterspeler",
      hint:"Diminutive of 'golden rooster'. Someone who is the star performer or the boss's favorite."},
 
@@ -101,7 +101,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Wat doet de 'Hartstichting'?",
-     opts:["Geld inzamelen voor onderzoek naar hartziekten","Hartoperaties uitvoeren","Hartpatienten verplegen","Defibrillators verkopen"],
+     opts:["Hartpatienten verplegen","Defibrillators verkopen","Geld inzamelen voor onderzoek naar hartziekten","Hartoperaties uitvoeren"],
      ans:"Geld inzamelen voor onderzoek naar hartziekten",
      hint:"A 'stichting' is a foundation. Combined with 'hart' (heart), it is a charity dedicated to cardiovascular research."}
   ]

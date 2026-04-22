@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 8: Names and Honor
+// Korean B2. Batch 4, Lesson 8: Names and Honor
 // Words: 면적, 면하다, 멸치, 명단, 명령어, 명예, 명의, 명절, 명칭, 명함, 명확하다, 몇십, 모, 모금, 모기, 모레, 모범, 모색하다, 모여들다, 모조리
 
 const LESSON_8 = {
@@ -113,7 +113,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"명함을 교환할 때 한국 비즈니스 예절은?",
-     opts:["두 손으로 주고받으며 인사한다","한 손으로 가볍게 건넨다","테이블 위에 놓아둔다","이메일로 보낸다"],
+     opts:["이메일로 보낸다","두 손으로 주고받으며 인사한다","한 손으로 가볍게 건넨다","테이블 위에 놓아둔다"],
      ans:"두 손으로 주고받으며 인사한다",
      hint:"Korean business culture emphasizes respect. Think about how both hands show politeness."},
 

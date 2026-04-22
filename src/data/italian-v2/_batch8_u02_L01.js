@@ -1,4 +1,4 @@
-// Batch 8 — Unit 02 extra lesson. Numbers & Time: Schedules & Appointments
+// Batch 8. Unit 02 extra lesson. Numbers & Time: Schedules & Appointments
 const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, board:true, steps:[
 {type:"intro", title:"Gli orari",
  desc:"Learn to discuss schedules, make appointments, and talk about daily routines with precise timing.",
@@ -86,7 +86,7 @@ const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, b
 
 {type:"mc",
  q:"'Pausa pranzo' means what?",
- opts:["Lunch break","Coffee break","Morning pause","Afternoon nap"],
+ opts:["Afternoon nap","Lunch break","Coffee break","Morning pause"],
  ans:"Lunch break",
  hint:"'Pranzo' is the midday meal. Combined with 'pausa' it describes a specific work b...."},
 
@@ -99,8 +99,8 @@ const BATCH8_L1 = {id:"itv2_u02l_b8_1", title:"Gli orari", icon:"📋", xp:15, b
 
 {type:"mc",
  q:"What is special about the word 'appuntamento'?",
- opts:["It means both appointment and date","It is only used for doctors","It is always feminine","It only works with the 24-hour clock"],
+ opts:["It is always feminine","It only works with the 24-hour clock","It means both appointment and date","It is only used for doctors"],
  ans:"It means both appointment and date",
  hint:"Context determines whether you are going to the doctor or meeting someone special."}
-,{type:"match",pairs:[{trg:"puntuale",src:"punctual / on time"},{trg:"in anticipo",src:"early / ahead of time"},{trg:"quotidiano",src:"daily / everyday"}]},{type:"mc",q:"How do you say \"schedule / timetable\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'orario"],ans:"l'orario",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appointment\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'appuntamento"],ans:"l'appuntamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"puntuale",src:"punctual / on time"},{trg:"in anticipo",src:"early / ahead of time"},{trg:"quotidiano",src:"daily / everyday"}]},{type:"mc",q:"How do you say \"schedule / timetable\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'orario"],ans:"l'orario",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"appointment\" in Italian?",opts:["l'appuntamento","la finestra","il tavolo","la bicicletta"],ans:"l'appuntamento",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

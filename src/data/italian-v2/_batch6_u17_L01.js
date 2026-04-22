@@ -1,4 +1,4 @@
-// Batch 6 — Unit 17 extra lesson. I media e la tecnologia: Social Media & Digital Life
+// Batch 6. Unit 17 extra lesson. I media e la tecnologia: Social Media & Digital Life
 const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1}", xp:15, board:true, steps:[
 {type:"intro", title:"La vita digitale",
  desc:"Learn vocabulary for social media, digital communication, and online life in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1
 ]},
 
 {type:"mc", q:"Cosa fai se dimentichi la password?",
- opts:["Fai il recupero password","Elimini l'account","Scarichi l'aggiornamento","Condividi il profilo"],
+ opts:["Condividi il profilo","Fai il recupero password","Elimini l'account","Scarichi l'aggiornamento"],
  ans:"Fai il recupero password",
  hint:"The process of resetting your forgotten access code for an online account."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1
  sSrc:"Always make a {1} of your important data."},
 
 {type:"mc", q:"Cosa significa 'il collegamento internet e lento'?",
- opts:["The internet connection is slow","The website is broken","The download is complete","The notification is off"],
+ opts:["The download is complete","The notification is off","The internet connection is slow","The website is broken"],
  ans:"The internet connection is slow",
  hint:"'Collegamento' means c.... 'Lento' means s...."},
 

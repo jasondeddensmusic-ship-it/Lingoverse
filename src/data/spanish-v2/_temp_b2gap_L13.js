@@ -32,7 +32,7 @@ const LESSON_13 = {id:"esv2_b2gap_l13",title:"Conceptos abstractos I",icon:"💭
  exampleSrc:"A: The breadth of the square impresses visitors.\nB: It is one of the largest in Europe.",
  funFact:"From amplio (wide). 'Amplitud de miras' means open-mindedness, breadth of vision."},
 
-{type:"mc",q:"'Actualización' en español se refiere a:",opts:["Algo del pasado","Poner algo al día","Una acción violenta","Un error informático"],ans:"Poner algo al día",hint:"Making something current, bringing it to the present state."},
+{type:"mc",q:"'Actualización' en español se refiere a:",opts:["Poner algo al día","Una acción violenta","Un error informático","Algo del pasado"],ans:"Poner algo al día",hint:"Making something current, bringing it to the present state."},
 
 {type:"teach",trg:"la autenticidad",src:"the authenticity",pos:"noun",gender:"f",
  note:"Feminine noun. The quality of being genuine.",
@@ -118,13 +118,13 @@ const LESSON_13 = {id:"esv2_b2gap_l13",title:"Conceptos abstractos I",icon:"💭
 
 {type:"fb",s:"Su {1} en la región le da derecho a la residencia permanente.",a:["arraigo"],opts:["arraigo","atraso","cometido","conglomerado"],hint:"A deep connection to a place, having put down roots there.",sSrc:"His/her {1} in the region gives him/her the right to permanent residency."},
 
-{type:"mc",q:"Un discurso sin conexión entre las ideas carece de:",opts:["amplitud","coherencia","autenticidad","automoción"],ans:"coherencia",hint:"The logical quality of ideas sticking together clearly."},
+{type:"mc",q:"Un discurso sin conexión entre las ideas carece de:",opts:["automoción","amplitud","coherencia","autenticidad"],ans:"coherencia",hint:"The logical quality of ideas sticking together clearly."},
 
 {type:"match",pairs:[{trg:"aceptación",src:"acceptance"},{trg:"amplitud",src:"breadth"},{trg:"coherencia",src:"coherence"},{trg:"arraigo",src:"rootedness"},{trg:"cometido",src:"task / mission"}]},
 
 {type:"fb",s:"La {1} entre los dos músicos era perfecta en el escenario.",a:["compenetración"],opts:["compenetración","complementación","coherencia","autocrítica"],hint:"A deep mutual understanding between performers.",sSrc:"The {1} between the two musicians was perfect on stage."},
 
-{type:"mc",q:"'Actual' en español significa:",opts:["Real o verdadero","Presente o vigente","Pasado","Imaginario"],ans:"Presente o vigente",hint:"A famous false friend: it means 'current', not 'actual' in English."}
+{type:"mc",q:"'Actual' en español significa:",opts:["Pasado","Imaginario","Real o verdadero","Presente o vigente"],ans:"Presente o vigente",hint:"A famous false friend: it means 'current', not 'actual' in English."}
 ]};
 
 export default LESSON_13;

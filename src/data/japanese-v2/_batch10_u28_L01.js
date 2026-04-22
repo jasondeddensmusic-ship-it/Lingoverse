@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"件名(けんめい)",src:"subject line"},{trg:"本文(ほんぶん)",src:"main text"},{trg:"署名(しょめい)",src:"signature"},{trg:"添付(てんぷ)",src:"attachment"}]},
 
-    {type:"mc", q:"Which word means correction?", opts:["訂正(ていせい)","前略(まえりゃく)","本文(ほんぶん)","送信(そうしん)する"], ans:"訂正(ていせい)",
+    {type:"mc", q:"Which word means correction?", opts:["送信(そうしん)する","訂正(ていせい)","前略(まえりゃく)","本文(ほんぶん)"], ans:"訂正(ていせい)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"記述(きじゅつ)",src:"description"}]}]
 };

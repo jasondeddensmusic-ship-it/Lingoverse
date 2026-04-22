@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Recently {1} have been rising. Especially food."},
 
     {type:"mc", q:"春闘(しゅんとう) (shuntou) is:",
-     opts:["Annual spring wage negotiations","A spring festival","A sumo tournament","A cherry blossom event"],
+     opts:["A cherry blossom event","Annual spring wage negotiations","A spring festival","A sumo tournament"],
      ans:"Annual spring wage negotiations",
      hint:"Unions and companies negotiate 賃金(ちんぎん) increases every s... in this ritual."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"The Bank of Japan's {1} policy changed."},
 
     {type:"mc", q:"ふるさと納税(のうぜい) lets people:",
-     opts:["Direct tax payments to rural areas and receive local products","Avoid paying taxes entirely","Pay taxes to foreign countries","Get tax refunds automatically"],
+     opts:["Pay taxes to foreign countries","Get tax refunds automatically","Direct tax payments to rural areas and receive local products","Avoid paying taxes entirely"],
      ans:"Direct tax payments to rural areas and receive local products",
      hint:"This unique Japanese system lets taxpayers support r... communities in exchange for regional specialties."},
 

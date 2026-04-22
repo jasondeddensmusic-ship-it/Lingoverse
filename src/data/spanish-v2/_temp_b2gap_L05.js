@@ -84,7 +84,7 @@ const LESSON_5 = {id:"esv2_b2gap_l5",title:"Salud y cuerpo",icon:"🩺",xp:15,bo
  exampleSrc:"A: I get more grey hairs every day.\nB: Me too, it is age.",
  funFact:"'Echar una cana al aire' (to throw a grey hair in the air) means to let loose and have fun."},
 
-{type:"mc",q:"¿Qué parte del pez le permite nadar?",opts:["La cabeza","La cana","La aleta","La amígdala"],ans:"La aleta",hint:"This body part helps fish move through water."},
+{type:"mc",q:"¿Qué parte del pez le permite nadar?",opts:["La cana","La aleta","La amígdala","La cabeza"],ans:"La aleta",hint:"This body part helps fish move through water."},
 
 {type:"teach",trg:"el colágeno",src:"the collagen",pos:"noun",gender:"m",
  note:"Masculine noun. Protein that gives structure to skin and tissue.",
@@ -124,7 +124,7 @@ const LESSON_5 = {id:"esv2_b2gap_l5",title:"Salud y cuerpo",icon:"🩺",xp:15,bo
 
 {type:"fb",s:"Los {1} deben aplicarse protector solar en la playa.",a:["bañistas"],opts:["bañistas","cadáveres","analgésicos","autónomos"],hint:"People who swim or sunbathe at the beach.",sSrc:"The {1} should apply sunscreen at the beach."},
 
-{type:"mc",q:"¿Qué revela la autopsia?",opts:["La causa de la muerte","El tipo de sangre","La edad del paciente","El historial médico"],ans:"La causa de la muerte",hint:"This medical examination is performed on a deceased person."}
+{type:"mc",q:"¿Qué revela la autopsia?",opts:["El tipo de sangre","La edad del paciente","El historial médico","La causa de la muerte"],ans:"La causa de la muerte",hint:"This medical examination is performed on a deceased person."}
 ]};
 
 export default LESSON_5;

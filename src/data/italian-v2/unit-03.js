@@ -418,7 +418,7 @@ const UNIT_03 = {
        sSrc:"Rome is a big {1}."},
 
       {type:"mc", q:"Which sentence uses 'blu' correctly?",
-       opts:["Una camicia blu","Una camicia blua","Una camicia blui","Una camicia blue"],
+       opts:["Una camicia blue","Una camicia blu","Una camicia blua","Una camicia blui"],
        ans:"Una camicia blu",
        hint:"This color adjective is invariable. It never takes gender or number endings, unlike regular adjectives."},
 
@@ -437,7 +437,7 @@ const UNIT_03 = {
       ]},
 
       {type:"mc", q:"What does 'brutto' mean?",
-       opts:["Ugly / bad-looking","Beautiful","Small","Old"],
+       opts:["Small","Old","Ugly / bad-looking","Beautiful"],
        ans:"Ugly / bad-looking",
        hint:"Think of it as the opposite of 'bello.' If bello is beautiful, brutto is the flip side."},
 
@@ -448,7 +448,7 @@ const UNIT_03 = {
        sSrc:"A {1}, please."},
 
       {type:"mc", q:"Which color adjective is invariable (does NOT change for gender/number)?",
-       opts:["giallo","bello","viola","grande"],
+       opts:["grande","giallo","bello","viola"],
        ans:"viola",
        hint:"Look for the color borrowed from a flower name. It never takes -a, -i, or -e endings."},
 
@@ -459,7 +459,7 @@ const UNIT_03 = {
        sSrc:"Wait a {1}, please!"},
 
       {type:"mc", q:"How many are 'sei'?",
-       opts:["Four","Five","Six","Seven"],
+       opts:["Six","Seven","Four","Five"],
        ans:"Six",
        hint:"This number follows cinque (five). It comes from Latin 'sex.'"},
 

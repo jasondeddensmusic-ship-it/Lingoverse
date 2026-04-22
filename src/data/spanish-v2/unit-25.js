@@ -1,4 +1,4 @@
-// Unit 25 — Si Hubiera Sabido
+// Unit 25. Si Hubiera Sabido
 // Subjuntivo Imperfecto
 
 export default {n:25,lang:"es",srcLang:"en",track:"v2",title:"Si Hubiera Sabido",sub:"Subjuntivo Imperfecto",icon:"🌊",level:"B2.1",color:"#7B5EE8",lessons:[

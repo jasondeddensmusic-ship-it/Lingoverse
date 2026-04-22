@@ -32,13 +32,13 @@ const LESSON_5 = {id:"esv2_b2g3_l5", title:"Naturaleza y medio ambiente", icon:"
 
   {type:"teach", trg:"el autoconsumo", src:"self-consumption / self-sufficiency", pos:"noun", gender:"m", note:"Auto- (self) + consumo (consumption).\nGrowing or producing for your own use.", example:"A: Tenemos un huerto para el autoconsumo.\nB: ¿Producís suficientes verduras para todo el año?", exampleSrc:"A: We have a vegetable garden for self-consumption.\nB: Do you produce enough vegetables for the whole year?", funFact:"Autoconsumo energético (energy self-sufficiency) via solar panels has boomed in Spain since 2019's 'sun tax' was repealed."},
 
-  {type:"mc", q:"¿Qué significa 'depurar el agua'?", opts:["Purificar el agua para hacerla potable","Calentar el agua para cocinar","Congelar el agua para conservarla","Mezclar el agua con productos químicos"], ans:"Purificar el agua para hacerla potable", hint:"The process of cleaning water so it's safe to drink."},
+  {type:"mc", q:"¿Qué significa 'depurar el agua'?", opts:["Mezclar el agua con productos químicos","Purificar el agua para hacerla potable","Calentar el agua para cocinar","Congelar el agua para conservarla"], ans:"Purificar el agua para hacerla potable", hint:"The process of cleaning water so it's safe to drink."},
 
   {type:"match", pairs:[{trg:"deforestación", src:"deforestation"},{trg:"cima", src:"summit"},{trg:"barranca", src:"ravine"},{trg:"caparazón", src:"shell"},{trg:"autoconsumo", src:"self-sufficiency"}]},
 
   {type:"fb", s:"Los {1} del puente resistieron la inundación sin problemas.", a:["cimientos"], opts:["cimientos","caparazones","cortezas","depuraciones"], hint:"The solid base structures that support a building or bridge underground.", sSrc:"The {1} of the bridge withstood the flood without problems."},
 
-  {type:"mc", q:"La cigarra es famosa por...", opts:["su canto intenso en verano","su caparazón duro","su vuelo silencioso","su vida bajo el agua"], ans:"su canto intenso en verano", hint:"This insect is known for its loud, persistent buzzing sound during hot months."},
+  {type:"mc", q:"La cigarra es famosa por...", opts:["su vuelo silencioso","su vida bajo el agua","su canto intenso en verano","su caparazón duro"], ans:"su canto intenso en verano", hint:"This insect is known for its loud, persistent buzzing sound during hot months."},
 
   {type:"fb", s:"La {1} de águila imperial ya tiene el plumaje de adulto.", a:["cría"], opts:["cría","cima","cigarra","corteza"], hint:"The young offspring of an animal, in this case a bird of prey.", sSrc:"The imperial eagle {1} already has its adult plumage."}
 ]};

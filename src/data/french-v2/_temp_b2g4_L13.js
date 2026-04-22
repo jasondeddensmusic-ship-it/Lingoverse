@@ -86,7 +86,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Comment decrit-on un regard qui montre qu'on n'est pas d'accord ?",
-     opts:["desapprobateur","gracieux","flatteur","genereux"],
+     opts:["genereux","desapprobateur","gracieux","flatteur"],
      ans:"desapprobateur",
      hint:"Built from the prefix des- (un-) plus approbation (approval). A formal word for showing disapproval."},
 
@@ -119,7 +119,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Qui surveille les braconniers dans une propriete ?",
-     opts:["un garde-chasse","un condamne","un assiste","un administrateur"],
+     opts:["un assiste","un administrateur","un garde-chasse","un condamne"],
      ans:"un garde-chasse",
      hint:"A compound word: someone who guards (g...) the hunt (c...) on an estate."}
   ]

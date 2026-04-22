@@ -1,4 +1,4 @@
-// Batch 4 — Unit 07, Lesson 1: Regional Italian Dishes
+// Batch 4. Unit 07, Lesson 1: Regional Italian Dishes
 const BATCH4_U07_L1 = {
   id:"itv2_u07l_b4_1", title:"Piatti regionali", icon:"\uD83C\uDDEE\uD83C\uDDF9", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U07_L1 = {
     ]},
 
     {type:"mc", q:"Con quale pasta si serve il ragu bolognese tradizionale?",
-     opts:["Tagliatelle","Spaghetti","Penne","Fusilli"],
+     opts:["Fusilli","Tagliatelle","Spaghetti","Penne"],
      ans:"Tagliatelle",
      hint:"In Bologna, this flat egg pasta is the only correct pairing."},
 
@@ -126,7 +126,7 @@ const BATCH4_U07_L1 = {
      sSrc:"I {1} a table for tonight at eight."},
 
     {type:"mc", q:"Perche il contorno arriva separato in Italia?",
-     opts:["Italian tradition serves the main dish alone, sides are ordered separately","The kitchen forgot the vegetables","It costs extra","Only some restaurants do this"],
+     opts:["It costs extra","Only some restaurants do this","Italian tradition serves the main dish alone, sides are ordered separately","The kitchen forgot the vegetables"],
      ans:"Italian tradition serves the main dish alone, sides are ordered separately",
      hint:"The secondo comes on its own plate. S... are a separate decision."},
 
@@ -136,7 +136,7 @@ const BATCH4_U07_L1 = {
      sSrc:"This pasta is very {1}, there is a lot of chili pepper!"},
 
     {type:"mc", q:"Quanti tipi di formaggio produce l'Italia?",
-     opts:["Over 450","About 50","Around 100","Exactly 200"],
+     opts:["About 50","Around 100","Exactly 200","Over 450"],
      ans:"Over 450",
      hint:"Italy is one of the world's largest cheese producers with incredible variety."}
   ,{type:"match",pairs:[{trg:"la ricetta",src:"the recipe"},{trg:"la bruschetta",src:"the bruschetta"},{trg:"la porzione",src:"the portion / serving"},{trg:"prenotare",src:"to reserve / to book"}]}]

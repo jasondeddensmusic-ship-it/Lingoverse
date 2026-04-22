@@ -73,7 +73,7 @@ const LESSON_4 = {id:"esv2_b2g8_l4",title:"Medio ambiente y naturaleza",icon:"�
  funFact:"In the Canary Islands, melaza de caña is a traditional ingredient in local pastries and rum production."},
 
 {type:"mc",q:"¿Qué animal vive en manadas en el norte de España?",
- opts:["El lobo ibérico","El toro bravo","El flamenco","El atún rojo"],
+ opts:["El atún rojo","El lobo ibérico","El toro bravo","El flamenco"],
  ans:"El lobo ibérico",
  hint:"A predator that hunts in organized groups in the mountains of northern Spain."},
 

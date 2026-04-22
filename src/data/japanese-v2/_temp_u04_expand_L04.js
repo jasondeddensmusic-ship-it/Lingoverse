@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: I ate four pieces of cake.\nB: That's too much!",
      funFact:"Yottsu neatly avoids the shi (death) problem that plagues the number four. In the native counting system, four was always yottsu, never anything resembling shi. This is one reason why the native system survives alongside the Chinese system."},
 
-    {type:"mc", q:"When should you use the hitotsu/futatsu system?", opts:["Only for food","When you don't know the specific counter","Only in formal speech","Only for numbers above 10"], ans:"When you don't know the specific counter",
+    {type:"mc", q:"When should you use the hitotsu/futatsu system?", opts:["When you don't know the specific counter","Only in formal speech","Only for numbers above 10","Only for food"], ans:"When you don't know the specific counter",
      hint:"This native system is the safe universal backup for counting objects."},
 
     {type:"teach", trg:"いつつ", src:"five (general counter)", pos:"num", gender:null,
@@ -110,10 +110,10 @@ const LESSON_6 = {
      hint:"The counter for one cup of a beverage, with the sound change for 'one.'",
      sSrc:"One coffee, please."},
 
-    {type:"mc", q:"レストランはさんかいです means:", opts:["The restaurant has three tables","The restaurant is on the third floor","The restaurant opens at 3","Three restaurants"], ans:"The restaurant is on the third floor",
+    {type:"mc", q:"レストランはさんかいです means:", opts:["Three restaurants","The restaurant has three tables","The restaurant is on the third floor","The restaurant opens at 3"], ans:"The restaurant is on the third floor",
      hint:"Kai is the counter for floors/stories of a building."},
 
-    {type:"mc", q:"Which counter pair is irregular?", opts:["さんこ / よんこ","さんまい / よんまい","ひとり / ふたり","さんだい / よんだい"], ans:"ひとり / ふたり",
+    {type:"mc", q:"Which counter pair is irregular?", opts:["さんだい / よんだい","さんこ / よんこ","さんまい / よんまい","ひとり / ふたり"], ans:"ひとり / ふたり",
      hint:"These two use the native Japanese counting system while the rest use Sino-Japanese."},
   ]
 };

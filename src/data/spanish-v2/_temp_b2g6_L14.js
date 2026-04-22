@@ -66,7 +66,7 @@ const LESSON_14 = {id:"esv2_b2g6_l14",title:"Alimentación y agricultura",icon:"
  exampleSrc:"A: The warehouse has capacity for a thousand tons.\nB: Enough for the whole harvest this year.",
  funFact:"From the verb 'caber' (to fit). 'Dar cabida' means to make room for or accommodate."},
 
-{type:"mc",q:"¿Qué es una alberca en España?",opts:["Un depósito de agua para riego","Una piscina deportiva","Un tipo de huerto","Una herramienta agrícola"],ans:"Un depósito de agua para riego",hint:"A water container used for farm irrigation. From Arabic."},
+{type:"mc",q:"¿Qué es una alberca en España?",opts:["Una herramienta agrícola","Un depósito de agua para riego","Una piscina deportiva","Un tipo de huerto"],ans:"Un depósito de agua para riego",hint:"A water container used for farm irrigation. From Arabic."},
 
 {type:"match",pairs:[
   {trg:"brécol",src:"broccoli"},

@@ -1,4 +1,4 @@
-// L02: Family — 20 A1 gap words
+// L02: Family, 20 A1 gap words
 const LESSON_2 = {
   id:"nlv2_a1gap_l2", title:"De Familie", icon:"\u{1F46A}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Het meisje is een ___-woord. Waarom?",
-     opts:["het, want het is een verkleinwoord","de, want het is vrouwelijk","het, want het is mannelijk","de, want het eindigt op -je"],
+     opts:["de, want het eindigt op -je","het, want het is een verkleinwoord","de, want het is vrouwelijk","het, want het is mannelijk"],
      ans:"het, want het is een verkleinwoord",
      hint:"All Dutch diminutives ending in -je follow a special article rule."},
 

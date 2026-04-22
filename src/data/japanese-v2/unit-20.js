@@ -208,7 +208,7 @@ const UNIT_20 = {
    exampleSrc:"A: Today is a special day, isn't it.\nB: Yes, there is a special meeting.",
    funFact:"特別 combines 特 (special/unique) and 別 (separate/different). 特別割引(とくべつわりびき) means special discount. Airlines announce 特別サービス (special service) in Japanese. The adverb 特別(とくべつ)に is used to grant someone an exception in formal contexts."},
 
-  {type:"mc", q:"重要(じゅうよう) is which word class?", opts:["i-adjective","na-adjective","verb","adverb"], ans:"na-adjective",
+  {type:"mc", q:"重要(じゅうよう) is which word class?", opts:["na-adjective","verb","adverb","i-adjective"], ans:"na-adjective",
    hint:"You say 重要(じゅうよう)な会議(かいぎ), using the な particle to link this word to a noun."},
 
   {type:"teach", trg:"態度(たいど)", src:"attitude / manner / behavior", pos:"noun", gender:null,
@@ -264,10 +264,10 @@ const UNIT_20 = {
   {type:"fb", s:"部長(ぶちょう)にこの件(けん)を{1}します。\n(I will convey this matter to the department head. - humble)", a:"お伝(つた)え", opts:["お伝(つた)え","おっしゃい","お読(よ)み","拝見(はいけん)"], sSrc:"I will convey this matter to the department head.",
    hint:"The humble お + stem + する pattern of 伝(つた)える (to convey/tell)."},
 
-  {type:"mc", q:"Which word describes someone's facial expression?", opts:["態度(たいど)","様子(ようす)","表情(ひょうじょう)","行動(こうどう)"], ans:"表情(ひょうじょう)",
+  {type:"mc", q:"Which word describes someone's facial expression?", opts:["様子(ようす)","表情(ひょうじょう)","行動(こうどう)","態度(たいど)"], ans:"表情(ひょうじょう)",
    hint:"This word literally combines 表 (surface/express) and 情 (emotion/feeling)."},
 
-  {type:"mc", q:"その点(てん)は認(みと)めます means:", opts:["I will reform that point","I acknowledge that point","I will convey that point","I will look at that point"], ans:"I acknowledge that point",
+  {type:"mc", q:"その点(てん)は認(みと)めます means:", opts:["I will look at that point","I will reform that point","I acknowledge that point","I will convey that point"], ans:"I acknowledge that point",
    hint:"認(みと)める means to recognize or accept something as true."},
 
   {type:"match", pairs:[{trg:"重要(じゅうよう)",src:"important"},{trg:"特別(とくべつ)",src:"special"},{trg:"態度(たいど)",src:"attitude"},{trg:"様子(ようす)",src:"appearance / state"}]},
@@ -280,7 +280,7 @@ const UNIT_20 = {
   {type:"fb", s:"その問題(もんだい)は{1}だと思(おも)います。\n(I think that problem is important.)", a:"重要(じゅうよう)", opts:["重要(じゅうよう)","特別(とくべつ)","表情(ひょうじょう)","様子(ようす)"], sSrc:"I think that problem is important.",
    hint:"The na-adjective for 'important' or 'significant,' appearing constantly in news and business Japanese."},
 
-  {type:"mc", q:"改(あらた)める is best described as:", opts:["to investigate something thoroughly","to recognize someone's effort","to reform or correct for the better","to observe someone's manner"], ans:"to reform or correct for the better",
+  {type:"mc", q:"改(あらた)める is best described as:", opts:["to observe someone's manner","to investigate something thoroughly","to recognize someone's effort","to reform or correct for the better"], ans:"to reform or correct for the better",
    hint:"The kanji 改 also appears in 改札(かいさつ) (ticket gate) and 改正(かいせい) (legal revision). It signals changing something that was previously unsatisfactory."},
 
   {type:"match", pairs:[{trg:"伝(つた)える",src:"to convey / to tell"},{trg:"認(みと)める",src:"to acknowledge"},{trg:"改(あらた)める",src:"to reform / correct"},{trg:"様子(ようす)を見(み)る",src:"to wait and see"}]},

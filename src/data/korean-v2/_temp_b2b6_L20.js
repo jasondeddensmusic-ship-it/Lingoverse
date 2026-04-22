@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 20: Predictions and Old Tales
+// Korean B2. Batch 6, Lesson 20: Predictions and Old Tales
 // Words: 예고하다, 예매하다, 예방, 예방하다, 예보, 예비, 예산, 예상되다, 예상하다, 예선, 예술적, 예습, 예습하다, 예식장, 예외, 예정되다, 예측하다, 예컨대, 옛날이야기, 오락
 
 const LESSON_20 = {
@@ -137,7 +137,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"'예외 없이 모든 학생이 참석해야 한다'의 뜻은?",
-     opts:["한 명도 빠지면 안 된다","몇 명은 안 와도 된다","원하는 사람만 온다","선생님만 참석한다"],
+     opts:["선생님만 참석한다","한 명도 빠지면 안 된다","몇 명은 안 와도 된다","원하는 사람만 온다"],
      ans:"한 명도 빠지면 안 된다",
      hint:"예외 없이 means 'without exception.' Every single student must be there, no excuses."},
 

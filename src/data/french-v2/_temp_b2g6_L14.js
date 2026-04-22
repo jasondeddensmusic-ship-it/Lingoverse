@@ -80,7 +80,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Que désigne 'la marqueterie' ?",
-     opts:["Un travail décoratif en bois de différentes couleurs","Un type de peinture sur toile","Une technique de sculpture","Un style de photographie"],
+     opts:["Un style de photographie","Un travail décoratif en bois de différentes couleurs","Un type de peinture sur toile","Une technique de sculpture"],
      ans:"Un travail décoratif en bois de différentes couleurs",
      hint:"An ancient decorative craft using pieces of different colored wood fitted together."},
 
@@ -131,7 +131,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Pourquoi dit-on 'vernissage' pour l'inauguration d'une exposition ?",
-     opts:["Les artistes vernissaient leurs tableaux le jour d'avant","On servait du vernis à boire","Le sol était verni pour l'occasion","Le nom du premier galeriste était Vernis"],
+     opts:["Le sol était verni pour l'occasion","Le nom du premier galeriste était Vernis","Les artistes vernissaient leurs tableaux le jour d'avant","On servait du vernis à boire"],
      ans:"Les artistes vernissaient leurs tableaux le jour d'avant",
      hint:"The word comes from a literal practice. Think of the final protective coating on a painting."},
 

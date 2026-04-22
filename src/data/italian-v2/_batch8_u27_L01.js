@@ -1,4 +1,4 @@
-// Batch 8 â€” Unit 27 extra lesson. Science: Laboratory & Methodology
+// Batch 8. Unit 27 extra lesson. Science: Laboratory & Methodology
 const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico", icon:"ðŸ§ª", xp:15, board:true, steps:[
 {type:"intro", title:"Il metodo scientifico",
  desc:"Learn vocabulary for scientific methodology, laboratory work, and the research process.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico", icon:"ðŸ§
 
 {type:"mc",
  q:"What does 'campione' mean in non-scientific Italian?",
- opts:["Champion","Teacher","Sample only","Equipment"],
+ opts:["Equipment","Champion","Teacher","Sample only"],
  ans:"Champion",
  hint:"The same word has two very different meanings. In sports, it means the winner. In science, it means a specimen."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico", icon:"ðŸ§
 
 {type:"mc",
  q:"How many Nobel laureates has Italy produced?",
- opts:["20","5","50","100"],
+ opts:["50","100","20","5"],
  ans:"20",
  hint:"Italy has a strong scientific tradition. Volta, Marconi, Fermi, and Levi-Montalcini are among its most famous scientists."}
 ,{type:"match",pairs:[{trg:"il microscopio",src:"the microscope"},{trg:"la formula",src:"the formula"},{trg:"il procedimento",src:"the procedure / process"},{trg:"il dato",src:"the data point / datum"}]}]};

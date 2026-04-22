@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u9l5", title:"I sintomi", icon:"\uD83E\uDE7A", xp:15,
   ]},
 
   {type:"mc", q:"What is the original meaning of 'nausea'?",
-   opts:["Seasickness (from Greek 'naus' = ship)","Stomachache","Headache","Fear"],
+   opts:["Fear","Seasickness (from Greek 'naus' = ship)","Stomachache","Headache"],
    ans:"Seasickness (from Greek 'naus' = ship)",
    hint:"This word traveled from ancient seafaring vocabulary into modern medicine. Its classical root for a vessel on water also produced 'nautical' and 'nave.'"},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u9l5", title:"I sintomi", icon:"\uD83E\uDE7A", xp:15,
    sSrc:"The hand is very {1}. Put some ice on it."},
 
   {type:"mc", q:"What is the difference between 'tosse secca' and 'tosse grassa'?",
-   opts:["Secca is dry, grassa is productive (with mucus)","They are the same","Secca is worse","Grassa is a children's cough"],
+   opts:["Secca is worse","Grassa is a children's cough","Secca is dry, grassa is productive (with mucus)","They are the same"],
    ans:"Secca is dry, grassa is productive (with mucus)",
    hint:"'S...' (d...) and 'g...' (literally 'fat,' meaning p...). Each needs different treatment."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u9l5", title:"I sintomi", icon:"\uD83E\uDE7A", xp:15,
    sSrc:"My whole body {1}! It could be an allergy."},
 
   {type:"mc", q:"How are injuries classified in Italian emergency rooms?",
-   opts:["By color: white (minor), green, yellow, red (critical)","By number 1-10","By letter A-D","By animal names"],
+   opts:["By number 1-10","By letter A-D","By animal names","By color: white (minor), green, yellow, red (critical)"],
    ans:"By color: white (minor), green, yellow, red (critical)",
    hint:"'Codice bianco' is the least urgent. 'Codice rosso' is life-threatening. This is the triage system."},
 

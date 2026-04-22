@@ -106,7 +106,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"시간을 보려면 뭘 봐요?",
-     opts:["시계","거울","달력","카메라"],
+     opts:["카메라","시계","거울","달력"],
      ans:"시계",
      hint:"This device measures time and can be worn on your wrist or hung on a wall."},
 
@@ -145,7 +145,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"사진을 찍고 싶을 때 필요한 것은?",
-     opts:["카메라","라디오","텔레비전","소파"],
+     opts:["텔레비전","소파","카메라","라디오"],
      ans:"카메라",
      hint:"This loanword device captures images and is essential for Korea's selfie culture."},
 
@@ -172,7 +172,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"밥을 먹을 때 사용하는 것은?",
-     opts:["숟가락","열쇠","우산","칼"],
+     opts:["열쇠","우산","칼","숟가락"],
      ans:"숟가락",
      hint:"Koreans use this utensil specifically for eating rice and drinking soup at meals."}
   ]

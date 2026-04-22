@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 2: Drinking Culture and Victory
+// Korean B2. Batch 6, Lesson 2: Drinking Culture and Victory
 // Words: 술병, 술자리, 술잔, 숨기다, 숨지다, 스승, 스위치, 스치다, 스케이트, 스케줄, 스키장, 스튜디오, 슬쩍, 슬퍼하다, 습기, 승객, 승리, 승리하다, 승부, 승진
 
 const LESSON_2 = {
@@ -107,7 +107,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'슬쩍'의 의미와 가장 가까운 것은?",
-     opts:["몰래","빠르게","천천히","크게"],
+     opts:["크게","몰래","빠르게","천천히"],
      ans:"몰래",
      hint:"Think of doing something quietly so that nobody notices you."},
 

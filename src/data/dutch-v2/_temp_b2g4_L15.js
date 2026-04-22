@@ -1,4 +1,4 @@
-// L15: Emotions & Character — 20 B2 gap words
+// L15: Emotions & Character, 20 B2 gap words
 const LESSON_15 = {
   id:"nlv2_b2g4_l15", title:"Emoties en Karakter", icon:"\uD83D\uDE4F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_15 = {
      deepDive:{title:"Dutch emotional vocabulary",
       text:"Dutch is rich in precise emotional vocabulary. While the stereotype is that Dutch people are 'nuchter' (sober/pragmatic), the language has very specific words for emotional states. The ge- prefix creates collective emotions: gerucht (rumor-feeling), gejuich (collective cheering). The '-zucht' suffix creates cravings: eerzucht, hebzucht (greed), reislust (wanderlust). This precision allows for nuanced discussion of feelings."}},
     {type:"mc", q:"What does 'drijfveer' literally translate to?",
-     opts:["driving wheel","driving spring","driving force","driving gear"],
+     opts:["driving spring","driving force","driving gear","driving wheel"],
      ans:"driving spring",
      hint:"Compound: drijven (to drive) + veer (s..., like in a clock)."},
     {type:"fb", s:"Na de overwinning heerste {1}.", a:["euforie"],
@@ -113,7 +113,7 @@ const LESSON_15 = {
      hint:"Intense collective joy after a victory. From Greek 'euphoria'.",
      sSrc:"After the victory euphoria reigned."},
     {type:"mc", q:"Which word has a negative connotation for ambition?",
-     opts:["daadkracht","drijfveer","eerzucht","bedrijvigheid"],
+     opts:["drijfveer","eerzucht","bedrijvigheid","daadkracht"],
      ans:"eerzucht",
      hint:"Compound: eer (honor) + zucht (desire/craving). Implies excessive desire for recognition."},
     {type:"fb", s:"Ze was {1} toen ze het nieuws hoorde.", a:["extatisch"],
@@ -131,7 +131,7 @@ const LESSON_15 = {
      hint:"Loss of motivation. The prefix 'de-' reverses 'motivatie'.",
      sSrc:"There is demotivation at the office."},
     {type:"mc", q:"What does 'gehaakt' mean?",
-     opts:["hooked on something","crocheted","attached","broken"],
+     opts:["broken","hooked on something","crocheted","attached"],
      ans:"crocheted",
      hint:"Past participle of 'haken' (to crochet). Handwork with a hook."},
     {type:"match", pairs:[

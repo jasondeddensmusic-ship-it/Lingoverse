@@ -1,4 +1,4 @@
-// L04: Koffie en Koloniale Geschiedenis — Coffee and Colonial History
+// L04: Koffie en Koloniale Geschiedenis. Coffee and Colonial History
 const LESSON_4 = {
   id:"nlv2_b2gD_l04", title:"Koffie en Koloniale Geschiedenis", icon:"\u{2615}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Waarom werd Amsterdam de rijkste koopmansstad ter wereld?",
-     opts:["Door de specerijenhandel en scheepvaart","Door de landbouw","Door de textielindustrie","Door de visserij"],
+     opts:["Door de visserij","Door de specerijenhandel en scheepvaart","Door de landbouw","Door de textielindustrie"],
      ans:"Door de specerijenhandel en scheepvaart",
      hint:"Amsterdam's Golden Age wealth came from maritime trade, especially in exotic goods from Asia."},
 

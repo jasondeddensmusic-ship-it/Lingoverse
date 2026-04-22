@@ -1,4 +1,4 @@
-// Lesson 12 — Expresiones y adverbios (Expressions and Adverbs)
+// Lesson 12. Expresiones y adverbios (Expressions and Adverbs)
 const LESSON_12 = {id:"esv2_b2g9_l12", title:"Expresiones y adverbios", icon:"\u{1F4AC}", xp:25, board:true, steps:[
   {type:"intro", title:"Expresiones y adverbios",
    desc:"Master useful Spanish expressions and adverbs that add nuance to your speech. These phrases help you sound more natural and fluent.",
@@ -35,7 +35,7 @@ const LESSON_12 = {id:"esv2_b2g9_l12", title:"Expresiones y adverbios", icon:"\u
    funFact:"'Como que no' is a distinctly colloquial Spanish expression. In formal writing, you would use 'es evidente que s\u00ed'."},
 
   {type:"mc", q:"\u00bfCu\u00e1ndo usamos 'en cambio'?",
-   opts:["Para dar un ejemplo","Para introducir un contraste","Para pedir algo","Para disculparse"],
+   opts:["Para introducir un contraste","Para pedir algo","Para disculparse","Para dar un ejemplo"],
    ans:"Para introducir un contraste",
    hint:"This expression introduces something different or opposite to what was just said."},
 

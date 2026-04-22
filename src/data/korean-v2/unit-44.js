@@ -1,4 +1,4 @@
-// Korean V2 Unit 44 — B1 Final: Communication, Space, Decisions, Progress
+// Korean V2 Unit 44. B1 Final: Communication, Space, Decisions, Progress
 import L13 from './_temp_b1fin_L13.js';
 import L14 from './_temp_b1fin_L14.js';
 import L15 from './_temp_b1fin_L15.js';

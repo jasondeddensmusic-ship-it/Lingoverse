@@ -1,4 +1,4 @@
-// Batch 8 â€” Unit 12 extra lesson. Essere Past: Movement & State Changes
+// Batch 8. Unit 12 extra lesson. Essere Past: Movement & State Changes
 const BATCH8_L1 = {id:"itv2_u12l_b8_1", title:"Movimenti e cambiamenti", icon:"ðŸ”„", xp:15, board:true, steps:[
 {type:"intro", title:"Movimenti e cambiamenti",
  desc:"Learn verbs of movement and state change that use essere in the past tense.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u12l_b8_1", title:"Movimenti e cambiamenti", icon:"ð
 
 {type:"mc",
  q:"What is 'la Maturita' in Italy?",
- opts:["The high school exit exam","A university degree","A cooking competition","A wine festival"],
+ opts:["A wine festival","The high school exit exam","A university degree","A cooking competition"],
  ans:"The high school exit exam",
  hint:"From 'maturare' (to mature). Students take this at age 19 to graduate from h... s...."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u12l_b8_1", title:"Movimenti e cambiamenti", icon:"ð
 
 {type:"mc",
  q:"Both 'migliorare' and 'peggiorare' use which auxiliary in the past?",
- opts:["Essere","Avere","Both equally","Neither"],
+ opts:["Both equally","Neither","Essere","Avere"],
  ans:"Essere",
  hint:"These are state-change verbs. The subject changes state (gets better or worse), so they use the auxiliary for being."}
 ,{type:"match",pairs:[{trg:"sorgere",src:"to rise / to arise"},{trg:"emigrare",src:"to emigrate"},{trg:"evaporare",src:"to evaporate"},{trg:"maturare",src:"to ripen / to mature"},{trg:"invecchiare",src:"to age / to grow old"}]}]};

@@ -1,4 +1,4 @@
-// Unit 06 Batch 2 — Lesson 1: More City Places & Shops
+// Unit 06 Batch 2. Lesson 1: More City Places & Shops
 const BATCH2_U06_L1 = {
   id:"itv2_u06l_b2_1", title:"I negozi in città", icon:"\ud83d\udecd\ufe0f", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U06_L1 = {
      sSrc:"I am going to the {1}. Do you want fresh bread?"},
 
     {type:"mc", q:"What should you avoid bringing as a gift in Italy?",
-     opts:["Chrysanthemums (for funerals only)","Red roses","Wine","Chocolate"],
+     opts:["Chocolate","Chrysanthemums (for funerals only)","Red roses","Wine"],
      ans:"Chrysanthemums (for funerals only)",
      hint:"In Italian culture, these flowers are strictly associated with death and cemetery visits. Never give them as a celebration gift."},
 
@@ -122,7 +122,7 @@ const BATCH2_U06_L1 = {
     ]},
 
     {type:"mc", q:"What is 'il centro storico'?",
-     opts:["The historic city center","A shopping mall","A museum","A train station"],
+     opts:["A museum","A train station","The historic city center","A shopping mall"],
      ans:"The historic city center",
      hint:"Every Italian c... has one. It is where the main piazza, church, and shops are. Often pedestrian-only."},
 
@@ -133,7 +133,7 @@ const BATCH2_U06_L1 = {
      sSrc:"On what {1} do you live?"},
 
     {type:"mc", q:"What does 'chiuso per ferie' mean on a shop?",
-     opts:["Closed for holidays","Closed for lunch","Open all day","Under renovation"],
+     opts:["Closed for lunch","Open all day","Under renovation","Closed for holidays"],
      ans:"Closed for holidays",
      hint:"A common August sign in Italy when businesses shut down for summer vacation."}
   ,{type:"match",pairs:[{trg:"chiuso",src:"closed"}]}]

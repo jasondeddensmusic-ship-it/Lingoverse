@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「森林浴(しんりんよく)」はなんですか？",
-     opts:["Forest bathing (walking in forests for health)","Swimming in a forest lake","A type of Japanese bath","Planting trees for charity"],
+     opts:["Planting trees for charity","Forest bathing (walking in forests for health)","Swimming in a forest lake","A type of Japanese bath"],
      ans:"Forest bathing (walking in forests for health)",
      hint:"This Japanese h... practice involves slowly w... through f.... It has been scientifically proven to reduce stress."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Tonight is a full moon. Let's make dumplings."},
 
     {type:"mc", q:"日本(にほん)の伝統(でんとう)では、月(つき)になにが見(み)えますか？",
-     opts:["A rabbit making mochi","A man's face","A crab","A tree"],
+     opts:["A crab","A tree","A rabbit making mochi","A man's face"],
      ans:"A rabbit making mochi",
      hint:"Japanese tradition sees a different figure in the moon than Western tradition does. It involves an animal and a traditional food."}
   ,{type:"fb", s:"この{1}には鹿(しか)や狸(たぬき)がいます。散歩(さんぽ)して森林浴(しんりんよく)をしましょう。",

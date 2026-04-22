@@ -86,7 +86,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel mot designe une rancoeur profonde et durable ?",
-     opts:["la rancoeur","l'agacement","la lassitude","l'amertume"],
+     opts:["l'amertume","la rancoeur","l'agacement","la lassitude"],
      ans:"la rancoeur",
      hint:"A deep, lasting grudge. You 'garder' (keep) this feeling toward someone who wronged you."},
 
@@ -113,7 +113,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel mot decrit une fatigue profonde de l'esprit plutot que du corps ?",
-     opts:["la lassitude","l'agacement","la detonation","le ressentiment"],
+     opts:["la detonation","le ressentiment","la lassitude","l'agacement"],
      ans:"la lassitude",
      hint:"More emotional than 'fatigue'. A weariness of the spirit, a loss of enthusiasm."}
   ]

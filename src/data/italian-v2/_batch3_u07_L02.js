@@ -1,4 +1,4 @@
-// Batch 3 — Unit 07, Lesson 2: Restrizioni alimentari (Dietary Restrictions)
+// Batch 3. Unit 07, Lesson 2: Restrizioni alimentari (Dietary Restrictions)
 const BATCH3_U07_L2 = {
   id:"itv2_u07l_b3_2", title:"Restrizioni alimentari", icon:"\uD83E\uDD66", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U07_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'senza glutine' mean?",
-     opts:["With extra gluten added","Gluten-free","Low in gluten only","Contains wheat and gluten"],
+     opts:["Gluten-free","Low in gluten only","Contains wheat and gluten","With extra gluten added"],
      ans:"Gluten-free",
      hint:"'Senza' means 'without.' Italy produces excellent wheat-alternative pasta for people who cannot tolerate this protein."},
 
@@ -116,7 +116,7 @@ const BATCH3_U07_L2 = {
      sSrc:"Do you want to {1} my dessert?"},
 
     {type:"mc", q:"What is the 'coperto' at an Italian restaurant?",
-     opts:["A mandatory tip for the waiter","A fixed cover charge per person","A tax on alcoholic drinks","The cost of the dessert menu"],
+     opts:["The cost of the dessert menu","A mandatory tip for the waiter","A fixed cover charge per person","A tax on alcoholic drinks"],
      ans:"A fixed cover charge per person",
      hint:"Usually 1-3 euros, it covers bread and table setting. Always listed on the menu. Not a hidden fee."},
 
@@ -127,7 +127,7 @@ const BATCH3_U07_L2 = {
      sSrc:"A drizzle of {1}, please."},
 
     {type:"mc", q:"Which Italian region is famous for chili peppers?",
-     opts:["Toscana (Tuscany)","Calabria","Veneto","Lombardia (Lombardy)"],
+     opts:["Veneto","Lombardia (Lombardy)","Toscana (Tuscany)","Calabria"],
      ans:"Calabria",
      hint:"This southern region hosts a chili pepper festival in Diamante. Their famous 'nduja sausage gets its intense heat from local peppers."}
   ,{type:"match",pairs:[{trg:"digerire",src:"to digest"}]}]

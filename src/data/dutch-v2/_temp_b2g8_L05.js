@@ -1,4 +1,4 @@
-// Lesson 5 — Digital Life & Technology
+// Lesson 5. Digital Life & Technology
 const LESSON_5 = {id:"nlv2_b2g8_l5", title:"Digitaal Leven", icon:"\u{1F4F1}", xp:20, board:true, steps:[
 {type:"intro", title:"Digitaal Leven", desc:"Vocabulary for discussing technology, internet behavior, and the digital world in Dutch. From cybersecurity to information overload.", goals:["Learn 10 digital and technology words","Discuss internet behavior and information","Talk about digital access and security"]},
 {type:"teach", trg:"de cyberoorlog", src:"the cyberwar", pos:"noun", gender:"c", note:"COMPOUND: cyber + oorlog (war).\nDe-word. A modern security concept.\n'De dreiging van cyberoorlog.'", example:"A: Cyberoorlog is een reele dreiging.\nB: Wat bedoel je precies?\nA: Landen vallen elkaars systemen aan.\nB: Dat klinkt eng.", exampleSrc:"A: Cyberwar is a real threat.\nB: What do you mean exactly?\nA: Countries attack each other's systems.\nB: That sounds scary.", funFact:"The Netherlands has a Cyber Command within the armed forces, established in 2014 to defend against digital attacks."},
@@ -14,7 +14,7 @@ const LESSON_5 = {id:"nlv2_b2g8_l5", title:"Digitaal Leven", icon:"\u{1F4F1}", x
 {type:"mc", q:"Wat betekent 'informatieovervloed'?", opts:["Te veel informatie","Te weinig informatie","Snelle informatie","Geheime informatie"], ans:"Te veel informatie", hint:"The compound literally means a flood of information"},
 {type:"fb", s:"Ik ben mijn {1} vergeten. Ik kan niet inloggen.", a:["inloggegevens"], opts:["inloggegevens","informatiesysteem","internettoegang","internetgedrag"], hint:"Your username and password together", sSrc:"I have forgotten my {1}. I cannot log in."},
 {type:"match", pairs:[{trg:"de cyberoorlog", src:"cyberwar"},{trg:"de hype", src:"hype"},{trg:"de graffiti", src:"graffiti"},{trg:"de introductie", src:"introduction"}]},
-{type:"mc", q:"Nederland heeft een internetdekking van meer dan:", opts:["50%","75%","90%","97%"], ans:"97%", hint:"One of the highest rates in the world"},
+{type:"mc", q:"Nederland heeft een internetdekking van meer dan:", opts:["90%","97%","50%","75%"], ans:"97%", hint:"One of the highest rates in the world"},
 {type:"fb", s:"Heeft het hotel gratis {1}?", a:["internettoegang"], opts:["internettoegang","internetgedrag","informatiesysteem","inloggegevens"], hint:"The ability to connect to the internet", sSrc:"Does the hotel have free {1}?"},
 {type:"drag_fill", s:"Er is onderzoek gedaan naar het {1} van {2}.", blanks:{"1":"internetgedrag","2":"tieners"}, pool:["internetgedrag","tieners","inloggegevens","volwassenen"], hint:"Research about how young people behave online."}
 ]};

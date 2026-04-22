@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
      exampleSrc:"A: I declined the invitation to the drinking party.\nB: Your health is important, after all.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"断(ことわ)る is difficult culturally in Japan, where direct refusal can damage relationships. Japanese people often use indirect refusals: ちょっと... (well...), 考(かんが)えておきます (I will think about it). The ability to 断(ことわ)る directly is increasingly seen as healthy self-assertion, though the cultural preference for indirect communication persists."},
 
-    {type:"mc", q:"Which is the shortened causative-passive of 待(ま)つ?", opts:["待(ま)たされる","待(ま)たせる","待(ま)たせられる","待(ま)つされる"], ans:"待(ま)たされる",
+    {type:"mc", q:"Which is the shortened causative-passive of 待(ま)つ?", opts:["待(ま)つされる","待(ま)たされる","待(ま)たせる","待(ま)たせられる"], ans:"待(ま)たされる",
      hint:"Group 1 shortening drops せ: あ-row + される instead of あ-row + せられる."},
 
     {type:"teach", trg:"我慢(がまん)させられる", src:"to be made to endure / to be forced to put up with", pos:"verb", gender:null,
@@ -91,7 +91,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"毎日(まいにち)漢字(かんじ)を{1}ました。\n(I was made to memorize kanji every day.)", a:"覚(おぼ)えさせられ", opts:["覚(おぼ)えさせられ","覚(おぼ)えさせて","覚(おぼ)えられ","覚(おぼ)えて"], sSrc:"I was made to memorize kanji every day.",
      hint:"Causative-passive of 覚(おぼ)える. Group 2 full form: stem + させられる."},
 
-    {type:"mc", q:"無理(むり)やり means:", opts:["By force / against one's will","Naturally / willingly","Carefully / gently","Politely / respectfully"], ans:"By force / against one's will",
+    {type:"mc", q:"無理(むり)やり means:", opts:["Carefully / gently","Politely / respectfully","By force / against one's will","Naturally / willingly"], ans:"By force / against one's will",
      hint:"This adverb describes actions done without consent, often paired with causative-passive verbs."}
   ,{type:"match",pairs:[{trg:"やらされる",src:"to be made to do (something unwanted)"},{trg:"新入社員(しんにゅうしゃいん)",src:"new employee / new hire"},{trg:"厳(きび)しい",src:"strict / harsh / severe"},{trg:"無理(むり)やり",src:"by force / forcibly / against one's will"},{trg:"断(ことわ)る",src:"to refuse / to decline"},{trg:"我慢(がまん)させられる",src:"to be made to endure / to be forced to put up with"}]},
   {type:"fb", s:"新入社員(しんにゅうしゃいん)は好(す)きでもない雑用(ざつよう)を{1}ことが多(おお)い。", a:["やらされる"], opts:["やらされる","覚(おぼ)えさせられる","食(た)べさせられる","待(ま)たされる"], hint:"The shortened causative-passive of する, used when you are forced to do undesirable tasks.", sSrc:"New employees are often {1} chores they do not enjoy."},

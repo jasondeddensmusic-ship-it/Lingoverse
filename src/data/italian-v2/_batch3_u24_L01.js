@@ -1,4 +1,4 @@
-// Batch 3 — Unit 24, Lesson 1: Ipotesi quotidiane (Everyday Hypotheticals)
+// Batch 3. Unit 24, Lesson 1: Ipotesi quotidiane (Everyday Hypotheticals)
 const BATCH3_U24_L1 = {
   id:"itv2_u24l_b3_1", title:"Ipotesi quotidiane", icon:"\uD83D\uDCA1", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U24_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'figurati se' express?",
-     opts:["Sincere hope something will happen","Polite request for information","Sarcastic disbelief that something could happen","Formal invitation to imagine"],
+     opts:["Sarcastic disbelief that something could happen","Formal invitation to imagine","Sincere hope something will happen","Polite request for information"],
      ans:"Sarcastic disbelief that something could happen",
      hint:"'Figurati se Marco arriva in orario!' dismisses the idea as absurd. It is rhetorical sarcasm wrapped in the verb 'to imagine.'"},
 
@@ -99,7 +99,7 @@ const BATCH3_U24_L1 = {
     ]},
 
     {type:"mc", q:"Which is the most informal way to set conditions in Italian?",
-     opts:["Qualora (should)","A condizione che (on condition)","Basta che (as long as)","Purche (provided that)"],
+     opts:["A condizione che (on condition)","Basta che (as long as)","Purche (provided that)","Qualora (should)"],
      ans:"Basta che (as long as)",
      hint:"Parents use it constantly: 'B... c... torni per cena.' Despite being informal, it still triggers the subjunctive mood."},
 
@@ -110,7 +110,7 @@ const BATCH3_U24_L1 = {
      sSrc:"I will come, {1} that you invite me."},
 
     {type:"mc", q:"What is 'nel peggiore dei casi' used for?",
-     opts:["Describing a past disaster","Planning for the worst-case scenario","Complaining about current problems","Making formal legal arguments"],
+     opts:["Making formal legal arguments","Describing a past disaster","Planning for the worst-case scenario","Complaining about current problems"],
      ans:"Planning for the worst-case scenario",
      hint:"Paired with 'nel migliore dei casi' (best c...), it brackets possibilities for realistic p...."},
 
@@ -121,7 +121,7 @@ const BATCH3_U24_L1 = {
      sSrc:"I will bring a sweater, {1} it gets cold."},
 
     {type:"mc", q:"What does 'Se non ti dispiace' literally ask?",
-     opts:["If you do not pay","If you do not mind / if it does not displease you","If you are not busy","If you can come"],
+     opts:["If you are not busy","If you can come","If you do not pay","If you do not mind / if it does not displease you"],
      ans:"If you do not mind / if it does not displease you",
      hint:"A politeness formula that acknowledges the other person's comfort before making a request. Essential for smooth Italian interactions."}
   ,{type:"match",pairs:[{trg:"se non ti dispiace",src:"if you do not mind"},{trg:"se solo avessi",src:"if only I had"},{trg:"nel peggiore dei casi",src:"in the worst case"},{trg:"figurati se",src:"as if / there is no way that"}]}]

@@ -69,7 +69,7 @@ lessons:[
  sSrc:"This {1} has many kinds of animals and plants."},
 
 {type:"mc", q:"Which pair correctly shows the contrast between animals and plants in Chinese?",
- opts:["动物 = moving things, 植物 = planted things","动物 = big things, 植物 = small things","动物 = wild things, 植物 = tame things","动物 = living things, 植物 = dead things"],
+ opts:["动物 = living things, 植物 = dead things","动物 = moving things, 植物 = planted things","动物 = big things, 植物 = small things","动物 = wild things, 植物 = tame things"],
  ans:"动物 = moving things, 植物 = planted things",
  hint:"Both compounds end with 物 (thing). The first character describes the key difference: one moves, the other is rooted."},
 
@@ -136,7 +136,7 @@ lessons:[
  sSrc:"The {1} in this city is getting worse and worse."},
 
 {type:"mc", q:"污染(wūrǎn) contains the water radical because:",
- opts:["Pollution was historically linked to contaminated water","All environmental words have the water radical","It only refers to water pollution","The character was invented near a river"],
+ opts:["The character was invented near a river","Pollution was historically linked to contaminated water","All environmental words have the water radical","It only refers to water pollution"],
  ans:"Pollution was historically linked to contaminated water",
  hint:"The 氵radical in 污 connects the character to its original association with dirty or ___ ___."},
 
@@ -147,7 +147,7 @@ lessons:[
  sSrc:"The {1} in the river is very serious, the fish have all died."},
 
 {type:"mc", q:"严重(yánzhòng) literally combines which two meanings?",
- opts:["strict + heavy","big + bad","very + serious","dark + difficult"],
+ opts:["very + serious","dark + difficult","strict + heavy","big + bad"],
  ans:"strict + heavy",
  hint:"The first character means ___ or stern, and the second means ___ or weighty. Together they describe severity."}
 ]},
@@ -213,7 +213,7 @@ lessons:[
  sSrc:"We {1} protect the Earth."},
 
 {type:"mc", q:"回收(huíshōu) literally means:",
- opts:["return + collect","again + use","throw + away","clean + sort"],
+ opts:["clean + sort","return + collect","again + use","throw + away"],
  ans:"return + collect",
  hint:"The first character means 'to …' and the second means 'to ….' Together they describe gathering things back for reuse."},
 
@@ -230,7 +230,7 @@ lessons:[
  sSrc:"Do not litter {1}."},
 
 {type:"mc", q:"我们(wǒmen)不(bù)应该(yīnggāi)浪费(làngfèi)水(shuǐ)。 This means:",
- opts:["We should not waste water","We cannot drink water","We do not have water","We do not like water"],
+ opts:["We do not have water","We do not like water","We should not waste water","We cannot drink water"],
  ans:"We should not waste water",
  hint:"不应该 means '… not,' and 浪费 means 'to ….' The sentence expresses what we ought to avoid doing."},
 
@@ -286,7 +286,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"动物(dòngwù) and 植物(zhíwù) both end in 物. What does 物 mean?",
- opts:["thing","life","nature","body"],
+ opts:["nature","body","thing","life"],
  ans:"thing",
  hint:"物 is a general classifier meaning '___' or 'matter.' It forms compounds with descriptive first characters."},
 
@@ -303,7 +303,7 @@ lessons:[
  hint:"Pollution is very serious, so we should protect animals and their surroundings."},
 
 {type:"mc", q:"垃圾分类(lājī fēnlèi) means:",
- opts:["garbage sorting","garbage collection","garbage burning","garbage reduction"],
+ opts:["garbage collection","garbage burning","garbage reduction","garbage sorting"],
  ans:"garbage sorting",
  hint:"分类 means to sort into categories. Combined with 垃圾 (trash), it describes the practice of separating waste types."}
 ]}
@@ -320,13 +320,13 @@ lessons:[
  note:"Political + prefecture/mansion. The formal administrative authority of a country or region.\n政府 can refer to national, regional, or local government.",
  example:"A: 政府(zhèngfǔ)对(duì)这个(zhège)问题(wèntí)有(yǒu)什么(shénme)办法(bànfǎ)？\nB: 政府(zhèngfǔ)已经(yǐjīng)开始(kāishǐ)解决(jiějué)了(le)。",
  exampleSrc:"A: What solution does the government have for this problem?\nB: The government has already started to solve it.",
- funFact:"政 (zhèng) means 'to govern/correct' and contains 止 (stop) + 攴 (strike) — to correct by striking at the root. 府 means a grand official residence. Together: the mansion where governing happens. 政府 is used at every level from 中央政府 (central government) to 地方政府 (local government)."},
+ funFact:"政 (zhèng) means 'to govern/correct' and contains 止 (stop) + 攴 (strike), to correct by striking at the root. 府 means a grand official residence. Together: the mansion where governing happens. 政府 is used at every level from 中央政府 (central government) to 地方政府 (local government)."},
 
 {type:"teach", trg:"任务(rènwu)", src:"task / mission", pos:"noun", gender:null,
  note:"Appoint + affairs. An assigned task, duty, or mission.\nMore formal than 工作(gōngzuò). Used in professional, military, and official contexts.",
  example:"A: 你(nǐ)今天(jīntiān)有(yǒu)什么(shénme)任务(rènwu)？\nB: 我(wǒ)的(de)任务(rènwu)是(shì)把(bǎ)这件(zhèjiàn)工作(gōngzuò)做(zuò)好(hǎo)。",
  exampleSrc:"A: What is your task today?\nB: My task is to do this job well.",
- funFact:"任 means 'to appoint' or 'to entrust,' so 任务 is literally 'entrusted affairs' — something you have been officially given to do. In Chinese military and official speech, 完成任务 (complete the mission) is a fixed phrase. 'Mission Impossible' is translated as 碟中谍(Dié zhōng Dié), but game contexts often use 任务 for 'quest.'"},
+ funFact:"任 means 'to appoint' or 'to entrust,' so 任务 is literally 'entrusted affairs', something you have been officially given to do. In Chinese military and official speech, 完成任务 (complete the mission) is a fixed phrase. 'Mission Impossible' is translated as 碟中谍(Dié zhōng Dié), but game contexts often use 任务 for 'quest.'"},
 
 {type:"teach", trg:"建立(jiànlì)", src:"to establish / to set up", pos:"verb", gender:null,
  note:"Build + stand. To create something lasting: a company, relationship, or system.\nMore permanent than 建造 (to construct physically).",
@@ -338,13 +338,13 @@ lessons:[
  note:"Advance + go. A formal verb meaning to perform, conduct, or carry out an activity.\nAlways followed by a noun: 进行 + activity.",
  example:"A: 政府(zhèngfǔ)正在(zhèngzài)进行(jìnxíng)工作(gōngzuò)。\nB: 工作(gōngzuò)的(de)结果(jiéguǒ)很(hěn)重要(zhòngyào)。",
  exampleSrc:"A: The government is currently carrying out the work.\nB: The results of the work are very important.",
- funFact:"进行 is one of Chinese's most-used formal verbs. It literally means 'to advance and walk' — to push an activity forward. Unlike most verbs, 进行 cannot stand alone as a predicate. It always needs a following noun: 进行研究 (conduct research), 进行讨论 (hold a discussion), 进行比赛 (hold a competition). Think of it as 'the activity is underway.'"},
+ funFact:"进行 is one of Chinese's most-used formal verbs. It literally means 'to advance and walk', to push an activity forward. Unlike most verbs, 进行 cannot stand alone as a predicate. It always needs a following noun: 进行研究 (conduct research), 进行讨论 (hold a discussion), 进行比赛 (hold a competition). Think of it as 'the activity is underway.'"},
 
 {type:"teach", trg:"批评(pīpíng)", src:"to criticize / criticism", pos:"verb", gender:null,
  note:"Comment + assess. Both a verb (to criticize) and a noun (criticism).\n批评 is constructive-sounding; 指责 is harsher accusation.",
  example:"A: 老师(lǎoshī)批评(pīpíng)了(le)他(tā)的(de)态度(tàidu)。\nB: 他(tā)应该(yīnggāi)认真(rènzhēn)听(tīng)老师(lǎoshī)的(de)批评(pīpíng)。",
  exampleSrc:"A: The teacher criticized his attitude.\nB: He should listen carefully to the teacher's criticism.",
- funFact:"批 originally meant to strike with the hand in writing — to mark up a document. Officials would 批 papers with comments in red ink. Combined with 评 (assess/comment), 批评 became the word for formal written critique. Even today, formal criticism in workplaces and school settings is called 批评，while harsh personal attacks use stronger terms."},
+ funFact:"批 originally meant to strike with the hand in writing, to mark up a document. Officials would 批 papers with comments in red ink. Combined with 评 (assess/comment), 批评 became the word for formal written critique. Even today, formal criticism in workplaces and school settings is called 批评，while harsh personal attacks use stronger terms."},
 
 {type:"teach", trg:"评价(píngjià)", src:"to evaluate / evaluation", pos:"verb", gender:null,
  note:"Assess + value. To judge the quality or worth of something.\nMore neutral and analytical than 批评 (criticize).",
@@ -355,13 +355,13 @@ lessons:[
 {type:"tip", title:"批评 vs. 评价: Key Distinction",
  text:"Both words involve judgment, but they differ in tone:\n\n批评(pīpíng) = criticize (negative, finds fault)\n评价(píngjià) = evaluate (neutral, assesses worth)\n\nExamples:\n老师(lǎoshī)批评(pīpíng)了(le)他(tā)。 The teacher criticized him. (negative)\n\n老师(lǎoshī)评价(píngjià)了(le)他(tā)的(de)工作(gōngzuò)。 The teacher evaluated his work. (neutral)\n\n评价 can be positive or negative. 批评 is always negative.\nIn formal Chinese: 做出评价 = to make an evaluation. 受到批评 = to receive criticism.",
  deepDive:{title:"The 评 Family in Chinese",
-  text:"The character 评 (to comment/assess) forms many useful compound words:\n\n评价(píngjià) = evaluate\n批评(pīpíng) = criticize\n评论(pínglùn) = comment / review\n评分(píngfēn) = to score / to grade\n评判(píngjùn) = to judge / adjudicate\n\n评 itself means 'to discuss by words' — it contains 言 (speech radical) on the left. All these words share the idea of using words to assess something. The key difference between them lies in the second character: 价 (value), 论 (discuss), 分 (score), 判 (judge)."}},
+  text:"The character 评 (to comment/assess) forms many useful compound words:\n\n评价(píngjià) = evaluate\n批评(pīpíng) = criticize\n评论(pínglùn) = comment / review\n评分(píngfēn) = to score / to grade\n评判(píngjùn) = to judge / adjudicate\n\n评 itself means 'to discuss by words', it contains 言 (speech radical) on the left. All these words share the idea of using words to assess something. The key difference between them lies in the second character: 价 (value), 论 (discuss), 分 (score), 判 (judge)."}},
 
 {type:"teach", trg:"引起(yǐnqǐ)", src:"to cause / to trigger", pos:"verb", gender:null,
  note:"Lead + rise. To cause something to arise or happen.\nUsed for problems, reactions, or attention: 引起问题, 引起关注.",
  example:"A: 空气(kōngqì)污染(wūrǎn)引起(yǐnqǐ)了(le)很(hěn)多(duō)严重(yánzhòng)的(de)问题(wèntí)。\nB: 对(duì)，影响(yǐngxiǎng)很(hěn)大(dà)。",
  exampleSrc:"A: Air pollution has caused many serious problems.\nB: Right, the impact is very significant.",
- funFact:"引 originally depicted a bow being drawn back — pulling something toward you. In 引起, the idea is pulling something into existence: causing a reaction to arise. The phrase 引起关注 (draw attention / cause concern) is extremely common in Chinese news reporting. When a social issue 引起关注, it means the public or authorities have begun paying attention."},
+ funFact:"引 originally depicted a bow being drawn back, pulling something toward you. In 引起, the idea is pulling something into existence: causing a reaction to arise. The phrase 引起关注 (draw attention / cause concern) is extremely common in Chinese news reporting. When a social issue 引起关注, it means the public or authorities have begun paying attention."},
 
 {type:"teach", trg:"实现(shíxiàn)", src:"to realize / to achieve", pos:"verb", gender:null,
  note:"Solid/real + appear. To make something real that was previously only a goal or dream.\n实现目标 = achieve a goal. 实现梦想 = realize a dream.",
@@ -373,7 +373,7 @@ lessons:[
  note:"Bright/clear + appear. So clear that it shows itself without being pointed out.\n结果很明显 = the result is obvious. 明显的变化 = obvious change.",
  example:"A: 这里(zhèlǐ)的(de)情况(qíngkuàng)很(hěn)明显(míngxiǎn)。\nB: 对(duì)，环境(huánjìng)改变(gǎibiàn)了(le)，空气(kōngqì)也(yě)好(hǎo)多(duō)了(le)。",
  exampleSrc:"A: The situation here is very obvious.\nB: Right, the environment has changed, and the air is also much better.",
- funFact:"明 (bright) combines sun 日 and moon 月 — the two brightest things in the sky. 显 means to appear visibly. Together 明显 describes something so clear it shines like the sun and moon combined. The opposite is 不明显 (not obvious) or 隐约 (vague, barely visible). 明显 is a false friend for Japanese learners: 明显 in Chinese vs. 明らか in Japanese, similar concept but different form."},
+ funFact:"明 (bright) combines sun 日 and moon 月, the two brightest things in the sky. 显 means to appear visibly. Together 明显 describes something so clear it shines like the sun and moon combined. The opposite is 不明显 (not obvious) or 隐约 (vague, barely visible). 明显 is a false friend for Japanese learners: 明显 in Chinese vs. 明らか in Japanese, similar concept but different form."},
 
 {type:"mc", q:"政府(zhèngfǔ) refers to:",
  opts:["the formal administrative authority of a country or region","a large company or business","a school or educational institution","a military organization"],
@@ -395,9 +395,9 @@ lessons:[
  sSrc:"They are {1} a new investigation."},
 
 {type:"mc", q:"What is the key difference between 批评(pīpíng) and 评价(píngjià)?",
- opts:["批评 is always negative; 评价 is neutral and can be positive or negative","批评 is formal; 评价 is informal","批评 is for people; 评价 is for things only","They mean exactly the same thing"],
+ opts:["They mean exactly the same thing","批评 is always negative; 评价 is neutral and can be positive or negative","批评 is formal; 评价 is informal","批评 is for people; 评价 is for things only"],
  ans:"批评 is always negative; 评价 is neutral and can be positive or negative",
- hint:"One word specifically means to find fault. The other means to assign worth — which can be high or low."},
+ hint:"One word specifically means to find fault. The other means to assign worth, which can be high or low."},
 
 {type:"fb", s:"这些(zhèxiē)工厂(gōngchǎng)的(de)污染(wūrǎn){1}了(le)很(hěn)多(duō)问题(wèntí)。",
  a:["引起(yǐnqǐ)"],
@@ -406,7 +406,7 @@ lessons:[
  sSrc:"The pollution from these factories has {1} many problems."},
 
 {type:"mc", q:"实现(shíxiàn) literally combines which two ideas?",
- opts:["solid/real + appear","work + finish","want + get","try + succeed"],
+ opts:["want + get","try + succeed","solid/real + appear","work + finish"],
  ans:"solid/real + appear",
  hint:"Break the compound: 实(shí) is the first character, 现(xiàn) is the second. Think about what each character means individually, then combine them."},
 
@@ -436,7 +436,7 @@ lessons:[
  sSrc:"The government {1} new protection policies."},
 
 {type:"mc", q:"Which sentence uses 进行(jìnxíng) correctly?",
- opts:["我们进行这个任务","政府进行了研究","他进行成功了","进行我们去工作"],
+ opts:["他进行成功了","进行我们去工作","我们进行这个任务","政府进行了研究"],
  ans:"政府进行了研究",
  hint:"进行 is a formal verb that conducts or carries out an activity. It must come before a NOUN describing the activity, not before a destination or result."},
 

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 06, Lesson 2: Asking Directions & Navigation
+// Batch 4. Unit 06, Lesson 2: Asking Directions & Navigation
 const BATCH4_U06_L2 = {
   id:"itv2_u06l_b4_2", title:"Come ci arrivo?", icon:"\uD83E\uDDED", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U06_L2 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'fare ponte'?",
-     opts:["To take a day off to make a long weekend","To build a bridge","To cross a river","To walk over a bridge"],
+     opts:["To walk over a bridge","To take a day off to make a long weekend","To build a bridge","To cross a river"],
      ans:"To take a day off to make a long weekend",
      hint:"The 'bridge' connects a holiday to the w... for extra time o...."},
 
@@ -126,7 +126,7 @@ const BATCH4_U06_L2 = {
      sSrc:"{1} the square and then turn right."},
 
     {type:"mc", q:"Qual e la differenza tra 'via,' 'corso,' e 'viale'?",
-     opts:["Via is a regular street; corso is a main boulevard; viale is tree-lined","They all mean the same thing","Via is big; corso is small; viale is medium","They refer to different regions of Italy"],
+     opts:["Via is big; corso is small; viale is medium","They refer to different regions of Italy","Via is a regular street; corso is a main boulevard; viale is tree-lined","They all mean the same thing"],
      ans:"Via is a regular street; corso is a main boulevard; viale is tree-lined",
      hint:"Each word describes a different type of s... by size and character."},
 
@@ -136,9 +136,9 @@ const BATCH4_U06_L2 = {
      sSrc:"I got {1}! Where is the station?"},
 
     {type:"mc", q:"Come vanno gli italiani nel centro storico?",
-     opts:["A piedi, because historic centers are often pedestrian zones","In autobus, because walking is uncommon","In macchina, because parking is easy","In metro, because every city has one"],
+     opts:["In autobus, because walking is uncommon","In macchina, because parking is easy","In metro, because every city has one","A piedi, because historic centers are often pedestrian zones"],
      ans:"A piedi, because historic centers are often pedestrian zones",
      hint:"Italian old town c... restrict vehicle access to preserve their beauty."}
-  ,{type:"match",pairs:[{trg:"la piazza",src:"the square / plaza"},{trg:"il ponte",src:"the bridge"},{trg:"la strada",src:"the street / road"},{trg:"il marciapiede",src:"the sidewalk"},{trg:"perdersi",src:"to get lost"},{trg:"la cartina",src:"the map (small/folding)"}]},{type:"mc",q:"How do you say \"corner\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'angolo"],ans:"l'angolo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la piazza",src:"the square / plaza"},{trg:"il ponte",src:"the bridge"},{trg:"la strada",src:"the street / road"},{trg:"il marciapiede",src:"the sidewalk"},{trg:"perdersi",src:"to get lost"},{trg:"la cartina",src:"the map (small/folding)"}]},{type:"mc",q:"How do you say \"corner\" in Italian?",opts:["l'angolo","la finestra","il tavolo","la bicicletta"],ans:"l'angolo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U06_L2;

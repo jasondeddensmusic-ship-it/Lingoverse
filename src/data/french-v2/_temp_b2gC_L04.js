@@ -67,7 +67,7 @@ const LESSON_4 = {id:"frv2_b2gC_l4", title:"Médias et monde numérique", icon:"
 
 {type:"mc",
  q:"Quel composant d'un ordinateur est responsable du traitement des données ?",
- opts:["le processeur","le pseudonyme","le photomontage","le plurilinguisme"],
+ opts:["le plurilinguisme","le processeur","le pseudonyme","le photomontage"],
  ans:"le processeur",
  hint:"The central chip. From the verb 'traiter' meaning to process or handle data."},
 
@@ -87,7 +87,7 @@ const LESSON_4 = {id:"frv2_b2gC_l4", title:"Médias et monde numérique", icon:"
 
 {type:"mc",
  q:"Que promeut l'Union européenne en matière de langues ?",
- opts:["le plurilinguisme","le pseudonyme","la programmation","la diabolisation"],
+ opts:["la programmation","la diabolisation","le plurilinguisme","le pseudonyme"],
  ans:"le plurilinguisme",
  hint:"The EU encourages citizens to speak multiple languages. A core European value."},
 
@@ -105,7 +105,7 @@ const LESSON_4 = {id:"frv2_b2gC_l4", title:"Médias et monde numérique", icon:"
 
 {type:"mc",
  q:"En France, quel organisme préfère les termes techniques français aux anglicismes ?",
- opts:["L'Académie Française","La blogosphère","Le processeur","Le photomontage"],
+ opts:["La blogosphère","Le processeur","Le photomontage","L'Académie Française"],
  ans:"L'Académie Française",
  hint:"This venerable institution guards the French language since 1635."}
 

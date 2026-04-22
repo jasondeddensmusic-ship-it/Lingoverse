@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: I need to buy obligation chocolates.\nB: Who will you give them to?\nA: Do you recommend it?\nB: Yes, please try it.",
      funFact:"義理 is a uniquely Japanese social concept: the obligation to reciprocate kindness and maintain relationships. ぎりチョコ (obligation chocolate) given on Valentine's Day to male coworkers is the most visible example. Japanese social life runs on a web of ぎり obligations. Fulfilling them shows you are a reliable member of society."},
 
-    {type:"mc", q:"おかえし is:", opts:["a birthday present","a return gift for something received","a greeting card","a thank-you letter"], ans:"a return gift for something received",
+    {type:"mc", q:"おかえし is:", opts:["a return gift for something received","a greeting card","a thank-you letter","a birthday present"], ans:"a return gift for something received",
      hint:"This practice involves giving s... back in r... for a g... you r...."},
 
     {type:"teach", trg:"つつむ", src:"to wrap", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {
     {type:"fb", s:"きれいに{1}いただけますか？\n(Could you wrap it beautifully please?)", a:"つつんで", opts:["つつんで","おくって","わたして","あげて"], sSrc:"Could you wrap it beautifully please?",
      hint:"The te-form of the verb meaning 'to wrap,' combined with いただけますか for politeness."},
 
-    {type:"mc", q:"のし is:", opts:["a type of candy","a decorative paper strip on formal gifts","a greeting card","a cash envelope"], ans:"a decorative paper strip on formal gifts",
+    {type:"mc", q:"のし is:", opts:["a cash envelope","a type of candy","a decorative paper strip on formal gifts","a greeting card"], ans:"a decorative paper strip on formal gifts",
      hint:"This ornamental element indicates the purpose and occasion of a formally presented gift."},
 
     {type:"match", pairs:[{trg:"おそなえ",src:"offering/condolence gift"},{trg:"おいわい",src:"celebration"},{trg:"のし",src:"gift decoration"},{trg:"きんがく",src:"monetary amount"}]},

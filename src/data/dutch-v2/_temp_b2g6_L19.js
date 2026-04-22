@@ -81,7 +81,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Wanneer gebruik je 'in de zin van'?",
-     opts:["Om te verduidelijken wat je precies bedoelt","Om een zin te beginnen","Om een vraag te stellen","Om iemand te bedanken"],
+     opts:["Om iemand te bedanken","Om te verduidelijken wat je precies bedoelt","Om een zin te beginnen","Om een vraag te stellen"],
      ans:"Om te verduidelijken wat je precies bedoelt",
      hint:"This phrase is used when you want to specify or clarify the meaning of something you just said."},
 
@@ -101,7 +101,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Wat is het verschil tussen 'klant' en 'cliënt'?",
-     opts:["Klant is voor winkels, cliënt voor professionele diensten","Er is geen verschil","Klant is formeel, cliënt is informeel","Cliënt is alleen voor ziekenhuizen"],
+     opts:["Klant is formeel, cliënt is informeel","Cliënt is alleen voor ziekenhuizen","Klant is voor winkels, cliënt voor professionele diensten","Er is geen verschil"],
      ans:"Klant is voor winkels, cliënt voor professionele diensten",
      hint:"Dutch distinguishes between a shop customer and someone receiving professional services like legal advice."}
   ]

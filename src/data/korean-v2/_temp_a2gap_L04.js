@@ -87,7 +87,7 @@ const LESSON_4 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"오랫동안 못 본 친구에게 뭐라고 해요?",
-     opts:["그동안 잘 지냈어요?","그날 뭐 했어요?","이때 어디 갔어요?","갑자기 왜 왔어요?"],
+     opts:["갑자기 왜 왔어요?","그동안 잘 지냈어요?","그날 뭐 했어요?","이때 어디 갔어요?"],
      ans:"그동안 잘 지냈어요?",
      hint:"A warm reunion greeting asking if the other person has been doing well in the time apart."},
 
@@ -144,7 +144,7 @@ const LESSON_4 = {
     // --- Quiz block 3 ---
     {type:"mc",
      q:"7일은 얼마예요?",
-     opts:["일주일","지난달","며칠","날짜"],
+     opts:["며칠","날짜","일주일","지난달"],
      ans:"일주일",
      hint:"This compound word uses the number 'one' plus the word for a seven-day period."},
 
@@ -178,7 +178,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"한국에서의 일상을 말할 때 쓰는 단어는?",
-     opts:["생활","날짜","처음","이때"],
+     opts:["날짜","처음","이때","생활"],
      ans:"생활",
      hint:"This Sino-Korean noun describes your daily routines and way of living."}
   ]

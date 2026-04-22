@@ -1,4 +1,4 @@
-// Unit 8 — De Compras
+// Unit 8. De Compras
 // Shopping & Clothing
 
 export default {n:8,lang:"es",srcLang:"en",track:"v2",title:"De Compras",sub:"Shopping & Clothing",icon:"🛍️",level:"A1.3",color:"#7B5EE8",lessons:[

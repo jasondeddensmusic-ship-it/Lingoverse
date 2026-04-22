@@ -1,4 +1,4 @@
-// Unit 06 Batch 2 — Lesson 2: Asking for Help & Getting Around
+// Unit 06 Batch 2. Lesson 2: Asking for Help & Getting Around
 const BATCH2_U06_L2 = {
   id:"itv2_u06l_b2_2", title:"Chiedere aiuto", icon:"\u2753", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U06_L2 = {
      sSrc:"Do you {1} where the station is?"},
 
     {type:"mc", q:"What is the most useful phrase when you do not understand?",
-     opts:["Non capisco","Non parlo","Non so","Non mangio"],
+     opts:["Non mangio","Non capisco","Non parlo","Non so"],
      ans:"Non capisco",
      hint:"This phrase uses the -isc- form of 'capire.' It tells the speaker you did not follow their words."},
 
@@ -122,7 +122,7 @@ const BATCH2_U06_L2 = {
     ]},
 
     {type:"mc", q:"What does 'girare' mean besides 'to turn'?",
-     opts:["To wander, to spin, to film","Only to turn","To stop","To run"],
+     opts:["To stop","To run","To wander, to spin, to film","Only to turn"],
      ans:"To wander, to spin, to film",
      hint:"This is one of Italian's most versatile verbs. Walking around a city, the earth spinning, and making a movie all use it."},
 
@@ -133,7 +133,7 @@ const BATCH2_U06_L2 = {
      sSrc:"{1} the square and then turn right."},
 
     {type:"mc", q:"What is 'il semaforo'?",
-     opts:["The traffic light","The train station","The bus stop","The police station"],
+     opts:["The train station","The bus stop","The police station","The traffic light"],
      ans:"The traffic light",
      hint:"From Greek 'sema' (sign) + 'phoros' (carrying). A common landmark used when giving directions in Italian cities."}
   ,{type:"match",pairs:[{trg:"il problema",src:"the problem"},{trg:"cercare",src:"to look for / to search"},{trg:"la mappa",src:"the map"},{trg:"continuare",src:"to continue / to keep going"},{trg:"il semaforo",src:"the traffic light"}]},{type:"mc",q:"How do you say \"information\" in Italian?",opts:["l'informazione","la finestra","il tavolo","la bicicletta"],ans:"l'informazione",hint:"Recall the Italian vocabulary word taught in this lesson."}]

@@ -72,7 +72,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"みなさんの{1}が必要(ひつよう)です。\n(Everyone's cooperation is needed.)", a:"きょうりょく", opts:["きょうりょく","さんか","もよおし","ボランティア"], sSrc:"Everyone's cooperation is needed.",
      hint:"The noun meaning working together or collaborating for a common goal."},
 
-    {type:"mc", q:"役(やく)に立(た)つ means:", opts:["To be useful or helpful","To gather together","To support someone","To volunteer"], ans:"To be useful or helpful",
+    {type:"mc", q:"役(やく)に立(た)つ means:", opts:["To volunteer","To be useful or helpful","To gather together","To support someone"], ans:"To be useful or helpful",
      hint:"This expression literally means 'to stand in a u... role.'"},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"この経験(けいけん)はかならず{1}ちます。\n(This experience will definitely be useful.)", a:"やくにた", opts:["やくにた","さんかし","あつまり","きょうりょくし"], sSrc:"This experience will definitely be useful.",
      hint:"The verb form meaning 'to be useful,' combining やく, に, and たつ."},
 
-    {type:"mc", q:"集(あつ)まる describes:", opts:["People coming together in one place","One person leaving","Distributing items","Cleaning up"], ans:"People coming together in one place",
+    {type:"mc", q:"集(あつ)まる describes:", opts:["Distributing items","Cleaning up","People coming together in one place","One person leaving"], ans:"People coming together in one place",
      hint:"This intransitive verb describes the act of gathering."}
   ,{type:"match",pairs:[{trg:"参加(さんか)",src:"participation"},{trg:"催(もよお)し",src:"event / gathering / function"},{trg:"役(やく)に立(た)つ",src:"to be useful / to be helpful"},{trg:"集(あつ)まる",src:"to gather / to assemble (intransitive)"}]},
   {type:"fb", s:"地域(ちいき)の清掃(せいそう)イベントに{1}しました。", a:["参加(さんか)"], opts:["参加(さんか)","ボランティア","協力(きょうりょく)","つながり"], hint:"The act of joining or taking part in an activity or event.", sSrc:"I {1} in the local clean-up event."}

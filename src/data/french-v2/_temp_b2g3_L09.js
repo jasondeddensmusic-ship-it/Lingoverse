@@ -86,7 +86,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot désigne la peur de descendre dans l'échelle sociale ?",
-     opts:["le déclassement","la diabolisation","le confédéralisme","l'entrepreneuriat"],
+     opts:["l'entrepreneuriat","le déclassement","la diabolisation","le confédéralisme"],
      ans:"le déclassement",
      hint:"This noun describes the loss of social status or living standards, especially between generations."},
 

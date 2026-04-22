@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"初詣(はつもうで)", src:"first shrine visit"}
     ]},
 
-    {type:"mc", q:"What do children receive during お正月(しょうがつ)?", opts:["お年玉(としだま) (money gifts)","千歳飴(ちとせあめ) (candy)","ランドセル (backpacks)","着物(きもの) (kimono)"], ans:"お年玉(としだま) (money gifts)",
+    {type:"mc", q:"What do children receive during お正月(しょうがつ)?", opts:["着物(きもの) (kimono)","お年玉(としだま) (money gifts)","千歳飴(ちとせあめ) (candy)","ランドセル (backpacks)"], ans:"お年玉(としだま) (money gifts)",
      hint:"During New Year, adults give children special envelopes containing m...."}
   ,{type:"match",pairs:[{trg:"誕生(たんじょう)",src:"birth"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three ceremony"},{trg:"お正月(しょうがつ)",src:"New Year"}]}]
 };

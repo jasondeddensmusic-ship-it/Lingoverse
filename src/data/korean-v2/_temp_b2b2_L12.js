@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 12: Buttons and Moonlight
+// Korean B2. Batch 2, Lesson 12: Buttons and Moonlight
 // Words: 단추, 단편, 단풍, 닫히다, 달래다, 달려들다, 달리, 달리기, 달리하다, 달빛, 담, 담당, 담당자, 담요, 답, 답변, 답장, 답하다, 닷새, 당기다
 
 const LESSON_12 = {
@@ -119,7 +119,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"'담당자'는 어떤 사람을 말하나요?",
-     opts:["특정 업무를 맡은 사람","모든 일을 하는 사람","새로 입사한 사람","회사를 떠난 사람"],
+     opts:["회사를 떠난 사람","특정 업무를 맡은 사람","모든 일을 하는 사람","새로 입사한 사람"],
      ans:"특정 업무를 맡은 사람",
      hint:"The specific individual assigned to handle or be responsible for a particular task."},
 

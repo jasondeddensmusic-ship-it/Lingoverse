@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 16: Night and Kitchen
+// Korean B2. Batch 4, Lesson 16: Night and Kitchen
 // Words: 밤늦다, 밤새, 밤새다, 밤새우다, 밤색, 밤중, 밤하늘, 밥그릇, 밥맛, 밥상, 밥솥, 방면, 방바닥, 방송사, 방송하다, 방식, 방안, 방울, 방지, 방지하다
 
 const LESSON_16 = {
@@ -131,7 +131,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"'방안'이 '해결책'의 의미일 때 어떤 한자를 쓰나요?",
-     opts:["方案 (방향 + 계획)","房案 (방 + 책상)","防案 (막을 + 계획)","放案 (놓을 + 계획)"],
+     opts:["放案 (놓을 + 계획)","方案 (방향 + 계획)","房案 (방 + 책상)","防案 (막을 + 계획)"],
      ans:"方案 (방향 + 계획)",
      hint:"When meaning 'plan' or 'solution,' the first character means 'direction/method' and the second means 'plan.'"},
 

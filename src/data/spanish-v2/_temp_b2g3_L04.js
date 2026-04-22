@@ -32,13 +32,13 @@ const LESSON_4 = {id:"esv2_b2g3_l4", title:"Problemas sociales", icon:"⚖️", 
 
   {type:"teach", trg:"la consideración", src:"consideration / regard", pos:"noun", gender:"f", note:"Respect or thoughtful attention.\nTener en consideración = to take into consideration.", example:"A: Debemos tener en consideración todas las opiniones.\nB: Por supuesto, cada punto de vista importa.", exampleSrc:"A: We must take all opinions into consideration.\nB: Of course, every point of view matters.", funFact:"The phrase 'de mi consideración' opens formal letters in Spanish, similar to 'Dear Sir/Madam' in English."},
 
-  {type:"mc", q:"El desprecio es lo contrario de...", opts:["la consideración y el respeto","el desacuerdo y la disputa","la denuncia y la queja","la aprobación y la ley"], ans:"la consideración y el respeto", hint:"Contempt is the opposite of treating someone with value and respect."},
+  {type:"mc", q:"El desprecio es lo contrario de...", opts:["la aprobación y la ley","la consideración y el respeto","el desacuerdo y la disputa","la denuncia y la queja"], ans:"la consideración y el respeto", hint:"Contempt is the opposite of treating someone with value and respect."},
 
   {type:"match", pairs:[{trg:"acosar", src:"to harass"},{trg:"discriminar", src:"to discriminate"},{trg:"denuncia", src:"legal report"},{trg:"desprecio", src:"contempt"},{trg:"accesibilidad", src:"accessibility"}]},
 
   {type:"fb", s:"La {1} de esta nueva normativa protege los derechos de todos.", a:["aprobación"], opts:["aprobación","denuncia","discapacidad","conformidad"], hint:"When a law officially passes and is endorsed, this is the word for that act.", sSrc:"The {1} of this new regulation protects everyone's rights."},
 
-  {type:"mc", q:"¿Qué significa 'acoso laboral'?", opts:["Hostigamiento en el trabajo","Accidente laboral","Contrato temporal","Ascenso profesional"], ans:"Hostigamiento en el trabajo", hint:"Acoso means harassment. When it happens at work, it's called laboral."},
+  {type:"mc", q:"¿Qué significa 'acoso laboral'?", opts:["Contrato temporal","Ascenso profesional","Hostigamiento en el trabajo","Accidente laboral"], ans:"Hostigamiento en el trabajo", hint:"Acoso means harassment. When it happens at work, it's called laboral."},
 
   {type:"fb", s:"Hay un {1} entre los sindicatos y la empresa sobre los salarios.", a:["desacuerdo"], opts:["desacuerdo","desprecio","diagnóstico","desmayo"], hint:"When two sides cannot agree on something, there is a fundamental difference of opinion.", sSrc:"There is a {1} between the unions and the company about wages."}
 ]};

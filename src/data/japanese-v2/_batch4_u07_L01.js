@@ -1,4 +1,4 @@
-// Batch 4 — Unit 07 Lesson 1: Days of the Week & Months
+// Batch 4. Unit 07 Lesson 1: Days of the Week & Months
 const BATCH4_L_1 = {
   id:"jav2_u07l_b4_1", title:"曜日(ようび)と月(つき)", icon:"📅", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"How are Japanese months named?",
-     opts:["number + gatsu","poetic names","season names","animal names"], ans:"number + gatsu",
+     opts:["animal names","number + gatsu","poetic names","season names"], ans:"number + gatsu",
      hint:"January is literally 'month one,' February 'month two,' etc."},
 
     {type:"fb", s:"{1}は何月(なんがつ)ですか？", a:"誕生日(たんじょうび)",
@@ -110,11 +110,11 @@ const BATCH4_L_1 = {
      hint:"The annual celebration of the day you were born."},
 
     {type:"mc", q:"Which month is 八月(はちがつ)?",
-     opts:["August","March","October","June"], ans:"August",
+     opts:["October","June","August","March"], ans:"August",
      hint:"Eight + month, the peak of hot Japanese summer."},
 
     {type:"mc", q:"What happens in December in Japan?",
-     opts:["bonenkai (year-end parties)","cherry blossom viewing","school starts","golden week"], ans:"bonenkai (year-end parties)",
+     opts:["cherry blossom viewing","school starts","golden week","bonenkai (year-end parties)"], ans:"bonenkai (year-end parties)",
      hint:"P... to 'forget the y...' are a December tradition in Japan."}
   ,{type:"match",pairs:[{trg:"火曜日(かようび)",src:"Tuesday"},{trg:"木曜日(もくようび)",src:"Thursday"},{trg:"土曜日(どようび)",src:"Saturday"},{trg:"一月(いちがつ)",src:"January"},{trg:"八月(はちがつ)",src:"August"},{trg:"十二月(じゅうにがつ)",src:"December"}]},{type:"match",pairs:[{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]}]
 };

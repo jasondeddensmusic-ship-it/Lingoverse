@@ -1,4 +1,4 @@
-// L19: Politics, Policy & Governance — 20 B2 gap words
+// L19: Politics, Policy & Governance, 20 B2 gap words
 const LESSON_19 = {
   id:"nlv2_b2g3_l19", title:"Politiek, Beleid en Bestuur", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const LESSON_19 = {
      deepDive:{title:"Why Dutch coalitions are always complex",
       text:"The Netherlands uses proportional representation with a very low threshold (0.67% of votes = 1 seat). This means 10-15 parties enter parliament. No party has won a majority since 1891.\n\nResult: every government is a coalition of 2-4 parties. This requires extensive negotiation. The 'regeerakkoord' (coalition agreement) is a detailed document governing all policy areas.\n\nAdvantage: broad representation, forced consensus.\nDisadvantage: slow formation, diluted policies, coalition compromises.\n\nThe Dutch accept this as the price of democracy. 'Polderen' (consensus-building) is both a verb and a national identity."}},
     {type:"mc", q:"Wie leidt de coalitieonderhandelingen in Nederland?",
-     opts:["de koning","de informateur","de president","de burgemeester"],
+     opts:["de informateur","de president","de burgemeester","de koning"],
      ans:"de informateur",
      hint:"This person explores which parties could form a coalition. The title comes from 'informeren'."},
     {type:"fb", s:"De {1} aan de verkiezingen was laag.", a:["deelname"],
@@ -94,7 +94,7 @@ const LESSON_19 = {
       {trg:"taalunie", src:"Language Union"}
     ]},
     {type:"mc", q:"Hoelang duurde de langste kabinetsformatie in Nederland?",
-     opts:["99 dagen","199 dagen","299 dagen","399 dagen"],
+     opts:["199 dagen","299 dagen","399 dagen","99 dagen"],
      ans:"299 dagen",
      hint:"The record was set in 2021. Almost ten months of negotiations between political parties."},
     {type:"fb", s:"De {1} rond dit onderwerp is negatief.", a:["beeldvorming"],

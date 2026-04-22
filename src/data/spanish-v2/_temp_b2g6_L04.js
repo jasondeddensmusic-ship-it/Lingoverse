@@ -72,7 +72,7 @@ const LESSON_4 = {id:"esv2_b2g6_l4",title:"Ley y justicia",icon:"⚖️",xp:15,b
  exampleSrc:"A: The detective decided to investigate the suspect's past.\nB: He discovered several irregularities.",
  funFact:"From Latin indagare (to track, to trace). Related to 'indagación' (inquiry)."},
 
-{type:"mc",q:"¿Qué es una fechoría?",opts:["Un acto malo o delictivo","Un indicio policial","Un tipo de contrato","Una incursión militar"],ans:"Un acto malo o delictivo",hint:"A wrongdoing or misdeed. Think of something bad that someone has done."},
+{type:"mc",q:"¿Qué es una fechoría?",opts:["Una incursión militar","Un acto malo o delictivo","Un indicio policial","Un tipo de contrato"],ans:"Un acto malo o delictivo",hint:"A wrongdoing or misdeed. Think of something bad that someone has done."},
 
 {type:"match",pairs:[
   {trg:"impostor",src:"impostor"},

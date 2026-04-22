@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"毎日(まいにち)日記(にっき)を書(か)く{1}しています。\n(I make it a rule to write a diary every day.)", a:"ことに", opts:["ことに","ように","ために","はずに"], sSrc:"I make it a rule to write a diary every day.",
      hint:"The pattern for establishing a personal rule or policy: dictionary form + こと + に + している."},
 
-    {type:"mc", q:"心配(しんぱい)することはない means:", opts:["There is no need to worry","I am worried","I will worry","Worrying is important"], ans:"There is no need to worry",
+    {type:"mc", q:"心配(しんぱい)することはない means:", opts:["Worrying is important","There is no need to worry","I am worried","I will worry"], ans:"There is no need to worry",
      hint:"ことはない reassures that the action (worrying) is unnecessary."},
 
     {type:"match", pairs:[{trg:"ことになる",src:"it has been decided"},{trg:"ことにしている",src:"I make it a rule"},{trg:"ことはない",src:"no need to"},{trg:"わけだ",src:"so that is why"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"メールを送(おく)ったのでもう届(とど)いた{1}です。\n(I sent the email so it should have arrived.)", a:"はず", opts:["はず","わけ","こと","もの"], sSrc:"I sent the email so it should have arrived.",
      hint:"The word expressing confident expectation based on logical reasoning."},
 
-    {type:"mc", q:"ということだ can mean:", opts:["Both 'I heard that' and 'it means that'","Only 'I heard that'","Only 'it means that'","Neither"], ans:"Both 'I heard that' and 'it means that'",
+    {type:"mc", q:"ということだ can mean:", opts:["Only 'it means that'","Neither","Both 'I heard that' and 'it means that'","Only 'I heard that'"], ans:"Both 'I heard that' and 'it means that'",
      hint:"This versatile pattern serves as both hearsay reporting and logical clarification."}
   ,{type:"match",pairs:[{trg:"〜ということだ",src:"it means that ~ / I heard that ~ / that is to say"},{trg:"転勤(てんきん)",src:"job transfer / work relocation"},{trg:"日記(にっき)",src:"diary / journal"},{trg:"意外(いがい)",src:"unexpected / surprising / contrary to expectations"}]},
   {type:"fb", s:"来月(らいげつ)、大阪(おおさか)に{1}することになりました。", a:["転勤(てんきん)"], opts:["転勤(てんきん)","〜ことになる","〜ことにしている","〜ことはない"], hint:"A company-ordered transfer that relocates an employee to another office or city.", sSrc:"It has been decided that I will {1} to Osaka next month."}

@@ -1,4 +1,4 @@
-// Russian V2 Unit 2 — Numbers and Age (A1.1)
+// Russian V2 Unit 2. Numbers and Age (A1.1)
 const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 лет", sub:"Numbers and Age",
  icon:"🔢", level:"A1.1", color:"#7B5EE8",
  lessons:[
@@ -13,7 +13,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  note:"Used with masculine nouns.\nOne of the few numbers that changes for gender.",
  example:"A: Один рубль?\nB: Да, один рубль.",
  exampleSrc:"A: One ruble?\nB: Yes, one ruble.",
- funFact:"Russian 'one' agrees with the noun's gender: один (m), одна (f), одно (n). This is rare among languages — most treat 1 as a single form."},
+ funFact:"Russian 'one' agrees with the noun's gender: один (m), одна (f), одно (n). This is rare among languages, most treat 1 as a single form."},
 
 {type:"teach", trg:"одна", src:"one (feminine)", pos:"num", gender:null,
  note:"Used with feminine nouns.\nAgrees with the following noun.",
@@ -55,7 +55,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  text:"Russian numbers control the CASE of the following noun. This is called the 'numeric paradigm.'\n\nRules:\n1 (один/одна/одно): nominative singular (один брат, одна сестра).\n2, 3, 4: GENITIVE SINGULAR (два брата, три сестры).\n5+: GENITIVE PLURAL (пять братьев, пять сестёр).\n\nDon't worry about memorizing all the endings now. For A1, just know that 2-4 behaves differently from 5+. You'll master this in B1."},
 
 {type:"mc", q:"Which form of 'one' do you use with 'sister' (сестра)?",
- opts:["один","одна","одно","один-одна"],
+ opts:["одна","одно","один-одна","один"],
  ans:"одна",
  hint:"Сестра is feminine (ends in -а). Use the feminine form."},
 
@@ -89,7 +89,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  note:"Ends in soft sign ь (like пять).\nFollowed by genitive plural.",
  example:"A: Сколько вам лет?\nB: Мне шесть лет.",
  exampleSrc:"A: How old are you?\nB: I am six years old.",
- funFact:"Лет is the genitive plural form of 'year' used after 5 and up. The singular nominative 'год' (year) becomes 'лет' — an irregular stem change seen only with years."},
+ funFact:"Лет is the genitive plural form of 'year' used after 5 and up. The singular nominative 'год' (year) becomes 'лет', an irregular stem change seen only with years."},
 
 {type:"teach", trg:"семь", src:"seven", pos:"num", gender:null,
  note:"Soft sign ending.\nЕ reduces to 'ye' sound.",
@@ -126,12 +126,12 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  icon:"🔑"},
 
 {type:"mc", q:"Which number triggers the genitive PLURAL in the following noun?",
- opts:["один","два","три","пять"],
+ opts:["пять","один","два","три"],
  ans:"пять",
  hint:"Numbers 5 and above take genitive plural. Numbers 2-4 take genitive singular."},
 
 {type:"mc", q:"How do you say 'ten hours' (как 10 часов)?",
- opts:["десять часа","десять часы","десять часов","десять час"],
+ opts:["десять часы","десять часов","десять час","десять часа"],
  ans:"десять часов",
  hint:"Ten is 5+, so genitive plural. The gen pl of час is часов."},
 
@@ -153,7 +153,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
 {id:"ruv2_u2l3", title:"Сколько вам лет?", icon:"🎂", xp:15, board:true, steps:[
 
 {type:"intro", title:"How Old Are You?",
- desc:"Age in Russian uses a construction that means 'to me [it is] X years.' It's impersonal — like many Russian feeling/state expressions.",
+ desc:"Age in Russian uses a construction that means 'to me [it is] X years.' It's impersonal, like many Russian feeling/state expressions.",
  goals:["Ask age formally and informally","State your age with Мне/Тебе/Ему/Ей","Use лет, года, год correctly"]},
 
 {type:"teach", trg:"Сколько", src:"how much / how many", pos:"pron", gender:null,
@@ -166,7 +166,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  note:"Dative form of я (I).\nUsed for age, feelings, impersonal states.",
  example:"A: Сколько тебе лет?\nB: Мне 25 лет.",
  exampleSrc:"A: How old are you?\nB: I am 25 (years old).",
- funFact:"Russian age is impersonal: 'to-me [it is] 25 years' — not 'I am 25.' This impersonal style pervades Russian: 'to-me cold' (мне холодно), 'to-me boring' (мне скучно)."},
+ funFact:"Russian age is impersonal: 'to-me [it is] 25 years', not 'I am 25.' This impersonal style pervades Russian: 'to-me cold' (мне холодно), 'to-me boring' (мне скучно)."},
 
 {type:"teach", trg:"Тебе", src:"to you (dative, informal)", pos:"pron", gender:null,
  note:"Dative form of ты.\nFor informal age questions.",
@@ -203,12 +203,12 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  icon:"🔢"},
 
 {type:"mc", q:"Which is correct?",
- opts:["Мне двадцать пять года","Мне двадцать пять лет","Мне двадцать пять год","Мне двадцать пять"],
+ opts:["Мне двадцать пять лет","Мне двадцать пять год","Мне двадцать пять","Мне двадцать пять года"],
  ans:"Мне двадцать пять лет",
  hint:"25 ends in 5 → use the gen plural 'лет.' And don't forget the word for 'years' is not optional."},
 
 {type:"mc", q:"Which is the FORMAL way to ask someone's age?",
- opts:["Сколько тебе лет?","Сколько твои года?","Сколько вам лет?","Сколько ты старый?"],
+ opts:["Сколько твои года?","Сколько вам лет?","Сколько ты старый?","Сколько тебе лет?"],
  ans:"Сколько вам лет?",
  hint:"Formal 'you' (dative of вы). The word order and pronoun matter."},
 
@@ -232,9 +232,9 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
 ]},
 
 {type:"mc", q:"Why does Russian use 'Мне' (to me) for age instead of 'Я' (I)?",
- opts:["Grammar error in tradition","Russian uses impersonal constructions for states and feelings","To sound more formal","It's only in Moscow dialect"],
+ opts:["It's only in Moscow dialect","Grammar error in tradition","Russian uses impersonal constructions for states and feelings","To sound more formal"],
  ans:"Russian uses impersonal constructions for states and feelings",
- hint:"Think about how ___ says 'I'm cold' (мне холодно) — the pattern is consistent."}
+ hint:"Think about how ___ says 'I'm cold' (мне холодно), the pattern is consistent."}
 ,{type:"match",pairs:[{trg:"ноль",src:"zero"}]}]},
 
 {id:"ruv2_u2l_form", title:"Заполнение анкеты", icon:"📝", xp:15, board:true, steps:[
@@ -245,25 +245,25 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
 
 {type:"teach", trg:"имя", src:"first name", pos:"noun", gender:"n",
  note:"Neuter. Irregular: ends in -мя but has hidden -ен- stem in all cases.\nForm label: 'Имя:'",
- example:"A: Ваше имя?\nB: Моё имя — Анна.",
+ example:"A: Ваше имя?\nB: Моё имя, Анна.",
  exampleSrc:"A: Your first name?\nB: My name is Anna.",
  funFact:"Имя belongs to a rare group of 12 neuter -мя nouns (время, знамя, племя...). They all add -ен- in oblique cases: имя → имени. Ancient Greek and Latin had the same pattern."},
 
 {type:"teach", trg:"фамилия", src:"surname / last name", pos:"noun", gender:"f",
  note:"Feminine. Ends in -ия (soft feminine).\nForm label: 'Фамилия:'",
- example:"A: Ваша фамилия?\nB: Моя фамилия — Иванова.",
+ example:"A: Ваша фамилия?\nB: Моя фамилия, Иванова.",
  exampleSrc:"A: Your surname?\nB: My surname is Ivanova.",
  funFact:"Russian surnames change by gender: Иванов (male), Иванова (female). On forms you always write the female form for women. This system traces back to Old Slavic adjective declension."},
 
 {type:"teach", trg:"адрес", src:"address", pos:"noun", gender:"m",
  note:"Masculine. Ends in consonant.\nForm label: 'Адрес:'",
- example:"A: Ваш адрес?\nB: Мой адрес — Москва.",
+ example:"A: Ваш адрес?\nB: Мой адрес, Москва.",
  exampleSrc:"A: Your address?\nB: My address is Moscow.",
  funFact:"Borrowed from French adresse in the 18th century under Peter the Great, who modernised Russia's postal system. Before that, letters were addressed by village name and nearest church."},
 
 {type:"teach", trg:"электронная почта", src:"email (lit. electronic mail)", pos:"noun", gender:"f",
  note:"Feminine (почта = post, mail is feminine).\nAbbreviated as эл. почта or емейл in informal use.",
- example:"A: Ваша электронная почта?\nB: Моя электронная почта — здесь.",
+ example:"A: Ваша электронная почта?\nB: Моя электронная почта, здесь.",
  exampleSrc:"A: Your email address?\nB: My email is right here.",
  funFact:"Почта (post/mail) comes from the Italian posta, which itself came from Latin posita (placed). Modern Russians also just say емейл (pronounced 'ye-mail') in everyday speech."},
 
@@ -289,7 +289,7 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  text:"Russian official forms follow a standard layout. These fields appear on hotel registration, TRKI entry, bank forms, and post office slips.\n\nCOMMON FORM FIELDS:\nФамилия: surname\nИмя: first name\nОтчество: patronymic (middle name based on father's first name)\nДата рождения: date of birth (day.month.year format)\nАдрес: address\nЭлектронная почта / Эл. почта: email\nТелефон: phone\n\nREMEMBER: Russians write day first, then month, then year.\n01.03.1990 = March 1st, 1990 (NOT January 3rd)."},
 
 {type:"mc", q:"What does 'Фамилия' mean on a Russian form?",
- opts:["First name","Date of birth","Surname / last name","Email address"],
+ opts:["Surname / last name","Email address","First name","Date of birth"],
  ans:"Surname / last name",
  hint:"This word shares its root with 'family' (семья). Think of it as your inherited family identity, not your personal given identity."},
 
@@ -311,12 +311,12 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  sSrc:"Dear {1}!"},
 
 {type:"mc", q:"Which Russian word means 'to fill out' a form?",
- opts:["заполнить","написать","прочитать","открыть"],
+ opts:["прочитать","открыть","заполнить","написать"],
  ans:"заполнить",
  hint:"The за- prefix often marks completion of an action. The root means 'to fill.'"},
 
 {type:"mc", q:"How do you open a formal letter or email to a male recipient in Russian?",
- opts:["Уважаемый","Привет","Меня зовут","Пожалуйста"],
+ opts:["Привет","Меня зовут","Пожалуйста","Уважаемый"],
  ans:"Уважаемый",
  hint:"The word comes from уважать (to respect). Use the masculine form for male recipients."},
 

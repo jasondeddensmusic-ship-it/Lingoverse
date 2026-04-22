@@ -66,7 +66,7 @@ const LESSON_9 = {id:"esv2_b2gC_l9",title:"Geografía e identidad cultural",icon
  exampleSrc:"A: She put her hair up in an elegant bun for the gala.\nB: It looked perfect with the long earrings.",
  funFact:"In bullfighting, the matador's moño (coleta) is ceremonially cut when they retire."},
 
-{type:"mc",q:"¿Qué complemento suele sujetar la mantilla española?",opts:["La peineta","El moño","La pasarela","El pedernal"],ans:"La peineta",hint:"A large decorative comb placed in the hair to hold lace fabric in place."},
+{type:"mc",q:"¿Qué complemento suele sujetar la mantilla española?",opts:["El pedernal","La peineta","El moño","La pasarela"],ans:"La peineta",hint:"A large decorative comb placed in the hair to hold lace fabric in place."},
 
 {type:"fb",s:"La {1} coronó la cima del Everest sin oxígeno suplementario.",a:["montañista"],opts:["montañista","patriota","peineta","pasarela"],hint:"A person who climbs mountains as a sport or profession.",sSrc:"The {1} summited the top of Everest without supplemental oxygen."},
 

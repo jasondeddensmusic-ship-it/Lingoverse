@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"流行(はや)っている", src:"trendy"}
     ]},
 
-    {type:"mc", q:"What should you do in a Japanese fitting room before trying on clothes?", opts:["Use a face cover to protect clothes from makeup","Take a selfie","Ask for a different size","Remove all accessories"], ans:"Use a face cover to protect clothes from makeup",
+    {type:"mc", q:"What should you do in a Japanese fitting room before trying on clothes?", opts:["Remove all accessories","Use a face cover to protect clothes from makeup","Take a selfie","Ask for a different size"], ans:"Use a face cover to protect clothes from makeup",
      hint:"Staff often hand you a フェイスカバー to prevent cosmetics from transferring to garments."}
   ,{type:"fb", s:"この服(ふく)は私(わたし)に{1}ますか？",
     a:["似合(にあ)う"],

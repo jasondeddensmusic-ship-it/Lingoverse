@@ -37,7 +37,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"\uC774 \uACE8\uBAA9\uC5D0 \uC88B\uC740 \uC2DD\uB2F9\uC774 \uB9CE\uC544\uC694. '\uACE8\uBAA9'\uC740 \uBB34\uC2A8 \uB73B\uC774\uC5D0\uC694?",
-     opts:["village","factory","alley","floor"],
+     opts:["alley","floor","village","factory"],
      ans:"alley",
      hint:"A narrow street between buildings, famous for hidden restaurants in Korea."},
 
@@ -112,7 +112,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"\uB0B4 \uACCC\uC5D0 \uC788\uC5B4 \uC918. '\uACCC'\uC740 \uBB34\uC2A8 \uB73B\uC774\uC5D0\uC694?",
-     opts:["surface","hole","beyond","side, beside"],
+     opts:["beyond","side, beside","surface","hole"],
      ans:"side, beside",
      hint:"This word indicates being physically close to someone, right next to them."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 6: Journeys and Divisions
+// Korean B2. Batch 2, Lesson 6: Journeys and Divisions
 // Words: 나누어지다, 나뉘다, 나들이, 나란히, 나르다, 나름, 나물, 나뭇가지, 나뭇잎, 나비, 나빠지다, 나아가다, 나아지다, 나침반, 나흘, 낙엽, 낚시꾼, 낚싯대, 난리, 난방
 
 const LESSON_6 = {
@@ -119,7 +119,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'나흘'은 며칠을 뜻하나요?",
-     opts:["4일","3일","5일","7일"],
+     opts:["7일","4일","3일","5일"],
      ans:"4일",
      hint:"Part of the native Korean day-counting series. It comes after 사흘 (three days)."},
 

@@ -1,4 +1,4 @@
-// Batch 8 — Unit 25 extra lesson. Economy: Trade & Commerce
+// Batch 8. Unit 25 extra lesson. Economy: Trade & Commerce
 const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commerciò è scambi", icon:"🏪", xp:15, board:true, steps:[
 {type:"intro", title:"Commerciò è scambi",
  desc:"Learn vocabulary for trade, commerce, and business transactions in the Italian economy.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commerciò è scambi", icon:"🏪
 
 {type:"mc",
  q:"What does 'fallimento' mean beyond business?",
- opts:["Failure in general (for anything that goes badly)","Only bankruptcy","A legal term only","Success after difficulty"],
+ opts:["Success after difficulty","Failure in general (for anything that goes badly)","Only bankruptcy","A legal term only"],
  ans:"Failure in general (for anything that goes badly)",
  hint:"Italians use this word broadly. A bad movie, a failed dinner, a political plan can all be a 'fallimento.'"},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commerciò è scambi", icon:"🏪
 
 {type:"mc",
  q:"What is the biggest challenge to the 'Made in Italy' brand?",
- opts:["Counterfeiting (contraffazione)","Lack of quality","No export market","Too many regulations"],
+ opts:["No export market","Too many regulations","Counterfeiting (contraffazione)","Lack of quality"],
  ans:"Counterfeiting (contraffazione)",
  hint:"Fake products bearing the Italian label flood global markets. Italy fights this problem aggressively."}
 ]};

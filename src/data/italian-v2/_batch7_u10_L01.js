@@ -1,4 +1,4 @@
-// Batch 7 — Unit 10 extra lesson. I viaggi: Nature & Outdoor Activities
+// Batch 7. Unit 10 extra lesson. I viaggi: Nature & Outdoor Activities
 const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aperto", icon:"\u{1F3D5}\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"La natura e le attività all'aperto",
  desc:"Learn vocabulary for outdoor activities, landscapes, and nature during your travels in Italy.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aper
 ]},
 
 {type:"mc", q:"Che cosa sono le Cinque Terre?",
- opts:["Five cliff villages in Liguria","Five lakes in Lombardy","Five mountains in Piedmont","Five islands in Sicily"],
+ opts:["Five islands in Sicily","Five cliff villages in Liguria","Five lakes in Lombardy","Five mountains in Piedmont"],
  ans:"Five cliff villages in Liguria",
  hint:"A UNESCO site on the Mediterranean coast. Built on dramatic rocky cliffs."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aper
  sSrc:"Let us watch the {1} from the viewpoint."},
 
 {type:"mc", q:"Che cos'e un 'rifugio' in montagna?",
- opts:["A mountain hut with food and beds","A dangerous cliff","A hidden waterfall","A wild forest"],
+ opts:["A hidden waterfall","A wild forest","A mountain hut with food and beds","A dangerous cliff"],
  ans:"A mountain hut with food and beds",
  hint:"A shelter for hikers in the Alps, often with a restaurant and sleeping areas."},
 

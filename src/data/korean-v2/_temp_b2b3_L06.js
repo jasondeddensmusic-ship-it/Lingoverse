@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 6: Public Life and Performance
+// Korean B2. Batch 3, Lesson 6: Public Life and Performance
 // Words: 골고루, 골목길, 골짜기, 골치, 골프, 골프장, 곰, 공개, 공개하다, 공격, 공격하다, 공공, 공군, 공급, 공식, 공식적, 공업, 공연되다, 공연장, 공연하다
 
 const LESSON_6 = {
@@ -101,7 +101,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'공공장소'에서 해야 하는 행동은?",
-     opts:["조용히 하기","큰 소리로 노래하기","쓰레기 버리기","자리 차지하기"],
+     opts:["자리 차지하기","조용히 하기","큰 소리로 노래하기","쓰레기 버리기"],
      ans:"조용히 하기",
      hint:"Public places require you to be considerate of others around you."},
 

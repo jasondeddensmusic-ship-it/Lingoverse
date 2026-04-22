@@ -1,4 +1,4 @@
-// L02: Thinking & Reasoning — 20 B2 gap words
+// L02: Thinking & Reasoning, 20 B2 gap words
 const LESSON_2 = {
   id:"nlv2_b2g3_l2", title:"Denken en Redeneren", icon:"\uD83E\uDDE0", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_2 = {
      deepDive:{title:"Why some verbs resist '-baar'",
       text:"Not every verb accepts '-baar'. Verbs of movement rarely work: 'loopbaar' and 'rennbaar' sound wrong. Intransitive verbs also resist: you cannot say 'slaapbaar' (sleepable).\n\nThe rule: '-baar' works best with transitive verbs where the result of the action is clear. If you can say 'X kan ge-verb-d worden' (X can be verbed), then '-baar' usually works."}},
     {type:"mc", q:"Welk woord betekent 'doeltreffend'?",
-     opts:["inefficient","effective","doelloos","onzeker"],
+     opts:["effective","doelloos","onzeker","inefficient"],
      ans:"effective",
      hint:"A compound: doel (target) + treffend (hitting). Something that hits its target."},
     {type:"fb", s:"De burgemeester toonde {1} na de overstroming.", a:["daadkracht"],

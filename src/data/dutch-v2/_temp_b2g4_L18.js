@@ -1,4 +1,4 @@
-// L18: Flemish & Belgian Dutch — 20 B2 gap words
+// L18: Flemish & Belgian Dutch, 20 B2 gap words
 const LESSON_18 = {
   id:"nlv2_b2g4_l18", title:"Vlaams en Belgisch Nederlands", icon:"\uD83C\uDDE7\uD83C\uDDEA", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_18 = {
      deepDive:{title:"The Taalunie and Dutch unity",
       text:"The Nederlandse Taalunie (Dutch Language Union) is a treaty organization of the Netherlands, Belgium, and Suriname. It governs Dutch spelling and language policy. The Groene Boekje (Green Booklet) is the official spelling guide. Despite differences, Belgian and Netherlands Dutch are the same language. A B2 learner should understand both varieties."}},
     {type:"mc", q:"What is a 'flamingant'?",
-     opts:["a flamenco dancer","a Flemish nationalist","a flamingo keeper","a Belgian cook"],
+     opts:["a Flemish nationalist","a flamingo keeper","a Belgian cook","a flamenco dancer"],
      ans:"a Flemish nationalist",
      hint:"From 'Vlaams' (F...). Someone advocating F... autonomy."},
     {type:"fb", s:"In Vlaanderen zeggen ze {1}, in Nederland bieb.", a:["bib"],
@@ -126,7 +126,7 @@ const LESSON_18 = {
      hint:"Held in custody, from Latin 'detinere'. Related to 'gedetineerde' (prisoner).",
      sSrc:"The suspect is being detained for now."},
     {type:"mc", q:"Which country does NOT belong to the Nederlandse Taalunie?",
-     opts:["The Netherlands","Belgium","Suriname","Germany"],
+     opts:["Belgium","Suriname","Germany","The Netherlands"],
      ans:"Germany",
      hint:"The Language Union governs Dutch across three countries, not four."},
     {type:"match", pairs:[

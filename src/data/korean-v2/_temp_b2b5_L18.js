@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 18: Inner Feelings and Hands
+// Korean B2. Batch 5, Lesson 18: Inner Feelings and Hands
 // Words: 소재, 소중하다, 소중히, 소지품, 소질, 소포, 소프트웨어, 소형, 소홀히, 소화, 소화하다, 속마음, 속삭이다, 속상하다, 속옷, 속이다, 손길, 손녀, 손등, 손목
 
 const LESSON_18 = {

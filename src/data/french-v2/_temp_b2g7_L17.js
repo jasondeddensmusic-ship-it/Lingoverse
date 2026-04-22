@@ -80,7 +80,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot designe la revelation d'informations secretes ?",
-     opts:["la divulgation","la dissociation","la diplomatie","la classification"],
+     opts:["la classification","la divulgation","la dissociation","la diplomatie"],
      ans:"la divulgation",
      hint:"Making secret information public, disclosing what was hidden."},
 
@@ -113,7 +113,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel exercice scolaire consiste a resumer un texte en le raccourcissant ?",
-     opts:["la contraction","la classification","la coalition","la charte"],
+     opts:["la coalition","la charte","la contraction","la classification"],
      ans:"la contraction",
      hint:"Reducing a text to a fraction of its length. A key skill for French exams."},
 

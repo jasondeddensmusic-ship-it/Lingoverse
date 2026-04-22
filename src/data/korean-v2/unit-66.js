@@ -1,4 +1,4 @@
-// Korean V2 Unit 66 — B2 Vocabulary Batch 6
+// Korean V2 Unit 66. B2 Vocabulary Batch 6
 import L01 from './_temp_b2b6_L01.js';
 import L02 from './_temp_b2b6_L02.js';
 import L03 from './_temp_b2b6_L03.js';

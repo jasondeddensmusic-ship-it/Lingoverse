@@ -86,7 +86,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot designe une personne qui recoit un heritage ?",
-     opts:["un heritier","un confrere","un tuteur","un patrimoine"],
+     opts:["un patrimoine","un heritier","un confrere","un tuteur"],
      ans:"un heritier",
      hint:"Related to the verb 'heriter'. The person who receives property after someone's death."},
 
@@ -113,7 +113,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot designe l'objet a roues pour promener un bebe ?",
-     opts:["une poussette","une maisonnee","une tutelle","une fete"],
+     opts:["une tutelle","une fete","une poussette","une maisonnee"],
      ans:"une poussette",
      hint:"From the verb 'pousser' (to push). A wheeled device for transporting babies."}
   ]

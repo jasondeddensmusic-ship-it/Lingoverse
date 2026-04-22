@@ -1,4 +1,4 @@
-// Lesson 1 — El mundo empresarial (The Business World)
+// Lesson 1. El mundo empresarial (The Business World)
 const LESSON_1 = {id:"esv2_b2g9_l1", title:"El mundo empresarial", icon:"\u{1F4BC}", xp:25, board:true, steps:[
   {type:"intro", title:"El mundo empresarial",
    desc:"Explore the vocabulary of the modern workplace. From departments to leadership roles, these terms are essential for professional Spanish.",
@@ -35,7 +35,7 @@ const LESSON_1 = {id:"esv2_b2g9_l1", title:"El mundo empresarial", icon:"\u{1F4B
    funFact:"The Spanish expression 'pedir un aumento' is used much more than the formal 'solicitar un incremento salarial'."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un convenio colectivo?",
-   opts:["Un contrato individual de trabajo","Un acuerdo entre empresarios y sindicatos","Un tipo de seguro m\u00e9dico","Una ley del gobierno"],
+   opts:["Un acuerdo entre empresarios y sindicatos","Un tipo de seguro m\u00e9dico","Una ley del gobierno","Un contrato individual de trabajo"],
    ans:"Un acuerdo entre empresarios y sindicatos",
    hint:"It involves negotiation between two sides: employers and workers' representatives."},
 
@@ -103,7 +103,7 @@ const LESSON_1 = {id:"esv2_b2g9_l1", title:"El mundo empresarial", icon:"\u{1F4B
    sSrc:"Spain has a lot of {1} with France and Germany."},
 
   {type:"mc", q:"El {blank} gan\u00f3 el premio final del programa de televisi\u00f3n.",
-   opts:["coordinador","concursante","causante","conductor"],
+   opts:["conductor","coordinador","concursante","causante"],
    ans:"concursante",
    hint:"A person who takes part in a competition or game show."},
 

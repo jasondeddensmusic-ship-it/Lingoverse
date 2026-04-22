@@ -1,4 +1,4 @@
-// Batch 3 — Unit 10, Lesson 2: Visitare le città (Sightseeing)
+// Batch 3. Unit 10, Lesson 2: Visitare le città (Sightseeing)
 const BATCH3_U10_L2 = {
   id:"itv2_u10l_b3_2", title:"Visitare le città", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U10_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does throwing a coin in the Trevi Fountain supposedly guarantee?",
-     opts:["Good luck in love","A wish of any kind","Your return to Rome","Financial prosperity"],
+     opts:["Your return to Rome","Financial prosperity","Good luck in love","A wish of any kind"],
      ans:"Your return to Rome",
      hint:"Over your left shoulder, into the water. About 3,000 euros daily. The money goes to charity."},
 
@@ -99,7 +99,7 @@ const BATCH3_U10_L2 = {
     ]},
 
     {type:"mc", q:"What happens on the first Sunday of each month at Italian state museums?",
-     opts:["Museums are closed entirely","Extended hours until midnight","Free admission is offered","Only Italian citizens may enter"],
+     opts:["Extended hours until midnight","Free admission is offered","Only Italian citizens may enter","Museums are closed entirely"],
      ans:"Free admission is offered",
      hint:"'Domenica al museo' is a national initiative. It is a great opportunity to visit major sites without paying entrance fees."},
 
@@ -110,7 +110,7 @@ const BATCH3_U10_L2 = {
      sSrc:"How much is the entrance {1}?"},
 
     {type:"mc", q:"What does 'tramontare' literally mean?",
-     opts:["To rise above the clouds","To go beyond the mountain","To shine on the water","To disappear into fog"],
+     opts:["To disappear into fog","To rise above the clouds","To go beyond the mountain","To shine on the water"],
      ans:"To go beyond the mountain",
      hint:"'Tra' (b...) + 'monte' (m...). The sun sets by going b... the mountains. A beautifully poetic Italian word."},
 
@@ -121,7 +121,7 @@ const BATCH3_U10_L2 = {
      sSrc:"Shall we get a tour {1}?"},
 
     {type:"mc", q:"Why must tour guides in Italy be licensed?",
-     opts:["To collect taxes on tours","To ensure quality and historical accuracy","To limit the number of tourists","To protect hotel businesses"],
+     opts:["To limit the number of tourists","To protect hotel businesses","To collect taxes on tours","To ensure quality and historical accuracy"],
      ans:"To ensure quality and historical accuracy",
      hint:"Guides pass city-specific state exams. The profession is protected to guarantee visitors receive reliable, accurate information about Italy's rich heritage."}
   ,{type:"match",pairs:[{trg:"la torre",src:"the tower"},{trg:"la mappa",src:"the map"},{trg:"la cartolina",src:"the postcard"},{trg:"il souvenir",src:"the souvenir"},{trg:"il tramonto",src:"the sunset"}]}]

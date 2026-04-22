@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"電車(でんしゃ)が止(と)まりました。{1}、タクシーで行(い)くことにしました。\n(The train stopped. So, I decided to go by taxi.)", a:"そこで", opts:["そこで","だから","しかし","そのうえ"], sSrc:"The train stopped. So, I decided to go by taxi.",
      hint:"The connector that introduces an action taken in response to a situation."},
 
-    {type:"mc", q:"できるかぎり means:", opts:["As much as possible / to the extent one can","Definitely / absolutely","Slightly / a little","Never / not at all"], ans:"As much as possible / to the extent one can",
+    {type:"mc", q:"できるかぎり means:", opts:["Never / not at all","As much as possible / to the extent one can","Definitely / absolutely","Slightly / a little"], ans:"As much as possible / to the extent one can",
      hint:"かぎり (limit) combined with できる (can do) means 'to the limit of what is p....'"},
 
     {type:"match", pairs:[{trg:"そのため",src:"for that reason"},{trg:"そこで",src:"so (I did in response)"},{trg:"たとえ...ても",src:"even if"},{trg:"かぎり",src:"as long as / to the extent"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"気温(きおん)が上(あ)がる{1}アイスクリームの売(う)り上(あ)げが増(ふ)えます。\n(As temperature rises, ice cream sales increase.)", a:"にしたがって", opts:["にしたがって","にもかかわらず","にたいして","にとって"], sSrc:"As temperature rises, ice cream sales increase.",
      hint:"The pattern meaning 'following/in accordance with,' describing proportional change."},
 
-    {type:"mc", q:"にともなって describes:", opts:["Two things that change together (correlated)","Opposite changes","Unrelated events","Past and future"], ans:"Two things that change together (correlated)",
+    {type:"mc", q:"にともなって describes:", opts:["Unrelated events","Past and future","Two things that change together (correlated)","Opposite changes"], ans:"Two things that change together (correlated)",
      hint:"伴う means 'to accompany,' so this pattern describes changes that go hand in hand."}
   ,{type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / no matter how ~"},{trg:"〜にともなって",src:"along with / accompanying / as ~ changes"},{trg:"賢明(けんめい)",src:"wise / sensible / prudent"},{trg:"判断(はんだん)",src:"judgment / decision / assessment"},{trg:"事態(じたい)",src:"situation / state of affairs / circumstances"}]}]
 };

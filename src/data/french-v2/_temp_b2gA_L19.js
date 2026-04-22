@@ -86,7 +86,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel mot designe une hausse generale et continue des prix ?",
-     opts:["l'inflation","la croissance","le deficit","la bulle"],
+     opts:["la bulle","l'inflation","la croissance","le deficit"],
      ans:"l'inflation",
      hint:"When prices rise across the economy. Erodes purchasing power."},
 
@@ -113,7 +113,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel mot designe le retour a la normale apres une periode de difficulte ?",
-     opts:["le redressement","le deficit","la conjoncture","le patrimoine"],
+     opts:["la conjoncture","le patrimoine","le redressement","le deficit"],
      ans:"le redressement",
      hint:"A recovery or turnaround. Getting back on track after a decline."}
   ]

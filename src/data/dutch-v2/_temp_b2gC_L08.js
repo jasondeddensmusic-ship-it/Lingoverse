@@ -1,4 +1,4 @@
-// L08: Wonen en Huishouden — Housing and Domestic Life
+// L08: Wonen en Huishouden. Housing and Domestic Life
 const LESSON_8 = {
   id:"nlv2_b2gC_l8", title:"Wonen en Huishouden", icon:"\u{1F3E1}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"'IJskast' en 'koelkast' zijn:",
-     opts:["Totaal verschillende apparaten","Synoniemen voor hetzelfde apparaat","IJskast is groter dan koelkast","Koelkast is voor winkels, ijskast voor thuis"],
+     opts:["Synoniemen voor hetzelfde apparaat","IJskast is groter dan koelkast","Koelkast is voor winkels, ijskast voor thuis","Totaal verschillende apparaten"],
      ans:"Synoniemen voor hetzelfde apparaat",
      hint:"Both words describe the same appliance: one emphasises ice, the other cooling."},
 
@@ -100,7 +100,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Wie ontwierp de kubuswoningen in Rotterdam?",
-     opts:["Rem Koolhaas","Piet Blom","Gerrit Rietveld","Hendrik Berlage"],
+     opts:["Hendrik Berlage","Rem Koolhaas","Piet Blom","Gerrit Rietveld"],
      ans:"Piet Blom",
      hint:"His first name is also a common Dutch name for a man. Think of Mondriaan's first name."},
 

@@ -76,7 +76,7 @@ const LESSON_18 = {
      sSrc:"It's {1}, these temperatures have never been recorded."},
 
     {type:"mc", q:"La decolonisation de l'Algerie s'est terminee en:",
-     opts:["1962","1950","1975","1945"],
+     opts:["1945","1962","1950","1975"],
      ans:"1962",
      hint:"The Algerian War lasted eight years and ended in the early 1960s"},
 
@@ -93,7 +93,7 @@ const LESSON_18 = {
      sSrc:"The Roman {1} are remarkably well preserved in Nimes."},
 
     {type:"mc", q:"Qu'est-ce qu'une 'loge' a l'opera?",
-     opts:["Un espace prive pour les spectateurs","Les coulisses","La scene","Le vestiaire"],
+     opts:["La scene","Le vestiaire","Un espace prive pour les spectateurs","Les coulisses"],
      ans:"Un espace prive pour les spectateurs",
      hint:"This enclosed area in a theater provides private seating for privileged guests"},
 
@@ -103,7 +103,7 @@ const LESSON_18 = {
      sSrc:"The Parisian transport {1} is one of the best in the world."},
 
     {type:"mc", q:"La Chanson de Roland est:",
-     opts:["L'epopee nationale francaise","Un opera de Bizet","Une chanson populaire","Un poeme de Baudelaire"],
+     opts:["Un opera de Bizet","Une chanson populaire","Un poeme de Baudelaire","L'epopee nationale francaise"],
      ans:"L'epopee nationale francaise",
      hint:"This 11th-century narrative poem about Charlemagne's nephew is France's founding literary epic"},
 

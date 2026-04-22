@@ -1,4 +1,4 @@
-// Batch 4 — Unit 01, Lesson 2: Polite Phrases & Social Niceties
+// Batch 4. Unit 01, Lesson 2: Polite Phrases & Social Niceties
 const BATCH4_U01_L2 = {
   id:"itv2_u01l_b4_2", title:"Parole gentili", icon:"\uD83C\uDF38", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const BATCH4_U01_L2 = {
     ]},
 
     {type:"mc", q:"Cosa dici a un amico prima di un esame importante?",
-     opts:["In bocca al lupo!","Cin cin!","Buona giornata!","Complimenti!"],
+     opts:["Complimenti!","In bocca al lupo!","Cin cin!","Buona giornata!"],
      ans:"In bocca al lupo!",
      hint:"This Italian expression literally mentions a wolf and is for wishing luck."},
 
@@ -120,7 +120,7 @@ const BATCH4_U01_L2 = {
      sSrc:"A: Shall we meet tomorrow at nine?\nB: {1}, see you tomorrow!"},
 
     {type:"mc", q:"Quando alziamo i bicchieri, cosa diciamo?",
-     opts:["Cin cin!","Auguri!","Complimenti!","Figurati!"],
+     opts:["Complimenti!","Figurati!","Cin cin!","Auguri!"],
      ans:"Cin cin!",
      hint:"This sound imitates glasses clinking together during a toast."},
 
@@ -130,7 +130,7 @@ const BATCH4_U01_L2 = {
      sSrc:"{1} for the delay, there was traffic."},
 
     {type:"mc", q:"Qual e la differenza tra 'buongiorno' e 'buona giornata'?",
-     opts:["Buongiorno greets; buona giornata wishes a nice day ahead","They mean the same thing","Buona giornata is informal; buongiorno is formal","Buongiorno is for morning; buona giornata is for evening"],
+     opts:["They mean the same thing","Buona giornata is informal; buongiorno is formal","Buongiorno is for morning; buona giornata is for evening","Buongiorno greets; buona giornata wishes a nice day ahead"],
      ans:"Buongiorno greets; buona giornata wishes a nice day ahead",
      hint:"One is for arriving, the other is for parting. Think about giorno vs g...."}
   ,{type:"match",pairs:[{trg:"grazie mille",src:"thanks a lot / a thousand thanks"},{trg:"scusa",src:"sorry / excuse me (informal)"}]}]

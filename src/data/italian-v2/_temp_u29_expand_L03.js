@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Qual e la differenza tra uno psicologo e uno psicoterapeuta in Italia?",
-     opts:["Non c'e differenza","Lo psicoterapeuta ha una formazione aggiuntiva che gli permette di fare terapia","Lo psicologo puo prescrivere farmaci","Lo psicoterapeuta lavora solo in ospedale"],
+     opts:["Lo psicoterapeuta ha una formazione aggiuntiva che gli permette di fare terapia","Lo psicologo puo prescrivere farmaci","Lo psicoterapeuta lavora solo in ospedale","Non c'e differenza"],
      ans:"Lo psicoterapeuta ha una formazione aggiuntiva che gli permette di fare terapia",
      hint:"One has completed additional specialized training beyond the basic psychology degree. This extra qualification is legally required to practice therapy in Italy."},
 
@@ -96,7 +96,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Perche la mindfulness si e diffusa rapidamente in Italia?",
-     opts:["Perche e una pratica religiosa italiana","Per il suo approccio laico e basato su prove scientifiche, compatibile con la tradizione scientifica italiana","Perche e stata imposta dal governo","Perche sostituisce completamente la psicoterapia tradizionale"],
+     opts:["Perche sostituisce completamente la psicoterapia tradizionale","Perche e una pratica religiosa italiana","Per il suo approccio laico e basato su prove scientifiche, compatibile con la tradizione scientifica italiana","Perche e stata imposta dal governo"],
      ans:"Per il suo approccio laico e basato su prove scientifiche, compatibile con la tradizione scientifica italiana",
      hint:"Its secular, research-backed nature appeals to Italians who value science. It can complement rather than replace other approaches, making it accessible and non-dogmatic."}
   ]

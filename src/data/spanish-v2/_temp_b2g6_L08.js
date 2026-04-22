@@ -66,7 +66,7 @@ const LESSON_8 = {id:"esv2_b2g6_l8",title:"Arte y cultura",icon:"🎭",xp:15,boa
  exampleSrc:"A: They discovered an unpublished manuscript by Cervantes.\nB: It would be an extraordinary find.",
  funFact:"Can mean both 'unpublished' (a book) and 'unprecedented' (an event). Context determines the meaning."},
 
-{type:"mc",q:"¿Qué significa inédito?",opts:["Nunca publicado o sin precedentes","Muy antiguo","Muy popular","Bien conservado"],ans:"Nunca publicado o sin precedentes",hint:"Something that has never been published or never happened before."},
+{type:"mc",q:"¿Qué significa inédito?",opts:["Bien conservado","Nunca publicado o sin precedentes","Muy antiguo","Muy popular"],ans:"Nunca publicado o sin precedentes",hint:"Something that has never been published or never happened before."},
 
 {type:"match",pairs:[
   {trg:"artista",src:"artist"},

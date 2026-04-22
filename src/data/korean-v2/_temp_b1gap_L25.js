@@ -40,7 +40,7 @@ const LESSON_25 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'안방'이 전통 한국 집에서 특별한 이유는?",
-     opts:["가장 작은 방이라서","가장 안쪽의 주된 방이라서","손님 방이라서","부엌 옆에 있어서"],
+     opts:["가장 안쪽의 주된 방이라서","손님 방이라서","부엌 옆에 있어서","가장 작은 방이라서"],
      ans:"가장 안쪽의 주된 방이라서",
      hint:"The word combines 안 (inside) and 방 (room). It was the most private, innermost room in the house."},
 
@@ -131,7 +131,7 @@ const LESSON_25 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'미세먼지'의 '먼지'는 무슨 뜻이에요?",
-     opts:["물","바람","가루 같은 작은 입자","비"],
+     opts:["바람","가루 같은 작은 입자","비","물"],
      ans:"가루 같은 작은 입자",
      hint:"Think of the fine particles that settle on surfaces in your home. You wipe them away with a cloth."},
 
@@ -190,7 +190,7 @@ const LESSON_25 = {
 
     {type:"mc",
      q:"'책상에 서류가 쌓여 있어요'에서 '쌓이다'는 무슨 뜻이에요?",
-     opts:["직접 쌓았다는 뜻","저절로 쌓였다는 뜻","치웠다는 뜻","붙였다는 뜻"],
+     opts:["붙였다는 뜻","직접 쌓았다는 뜻","저절로 쌓였다는 뜻","치웠다는 뜻"],
      ans:"저절로 쌓였다는 뜻",
      hint:"This is the passive form of 쌓다. The documents accumulated on their own, without someone actively stacking them."}
   ]

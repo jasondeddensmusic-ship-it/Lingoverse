@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 14 — Maat en Ruimte
+// Dutch B2 gapB Lesson 14. Maat en Ruimte
 // Measurement, space, and dimension vocabulary
 
 const LESSON_14 = {id:"nlv2_b2gB_l14", title:"Maat en Ruimte", icon:"\u{1F4D0}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_14 = {id:"nlv2_b2gB_l14", title:"Maat en Ruimte", icon:"\u{1F4D0}",
  funFact:"'De kluts kwijtraken' is one of the most common Dutch expressions for losing your composure or getting confused."},
 
 {type:"mc", q:"'Kortstondig' betekent:",
- opts:["Very long","Short-lived","Repeated","Important"],
+ opts:["Short-lived","Repeated","Important","Very long"],
  ans:"Short-lived",
  hint:"Kort (s...) + stondig (from an old word for moment). Something that doesn't last."},
 
@@ -82,7 +82,7 @@ const LESSON_14 = {id:"nlv2_b2gB_l14", title:"Maat en Ruimte", icon:"\u{1F4D0}",
 ]},
 
 {type:"mc", q:"'De kluts kwijtraken' betekent:",
- opts:["To find your way","To lose your composure","To break an egg","To win a prize"],
+ opts:["To win a prize","To find your way","To lose your composure","To break an egg"],
  ans:"To lose your composure",
  hint:"To get confused or disoriented when too much happens at once"},
 

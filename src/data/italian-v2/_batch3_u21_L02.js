@@ -1,4 +1,4 @@
-// Batch 3 — Unit 21, Lesson 2: Consigli e richieste formali (Advice & Formal Requests)
+// Batch 3. Unit 21, Lesson 2: Consigli e richieste formali (Advice & Formal Requests)
 const BATCH3_U21_L2 = {
   id:"itv2_u21l_b3_2", title:"Consigli e richieste formali", icon:"\uD83C\uDFA9", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U21_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What is the most polite way to ask someone to close the door in formal Italian?",
-     opts:["Chiuda la porta!","Puoi chiudere la porta?","Le dispiacerebbe chiudere la porta?","Chiudi la porta, per favore."],
+     opts:["Le dispiacerebbe chiudere la porta?","Chiudi la porta, per favore.","Chiuda la porta!","Puoi chiudere la porta?"],
      ans:"Le dispiacerebbe chiudere la porta?",
      hint:"Literally: 'Would it displease you to close the door?' This ultra-polite form is reserved for formal situations."},
 
@@ -110,7 +110,7 @@ const BATCH3_U21_L2 = {
      sSrc:"It {1} to leave early."},
 
     {type:"mc", q:"What is the double meaning of 'raccomandazione' in Italian?",
-     opts:["Recommendation and punishment","Recommendation and personal connection/favor","Formal and informal register","Written and spoken language"],
+     opts:["Written and spoken language","Recommendation and punishment","Recommendation and personal connection/favor","Formal and informal register"],
      ans:"Recommendation and personal connection/favor",
      hint:"A r... letter is a 'lettera di raccomandazione.' But 'avere una raccomandazione' can mean having connections to pull strings. Reflects Italian networking culture."},
 
@@ -121,7 +121,7 @@ const BATCH3_U21_L2 = {
      sSrc:"I {1} to make an observation."},
 
     {type:"mc", q:"When would you use 'gradirei' instead of 'vorrei'?",
-     opts:["In casual conversation with friends","In very formal situations (business, official letters)","They are completely interchangeable","Only when ordering food at restaurants"],
+     opts:["They are completely interchangeable","Only when ordering food at restaurants","In casual conversation with friends","In very formal situations (business, official letters)"],
      ans:"In very formal situations (business, official letters)",
      hint:"'Gradirei' conveys refined politeness beyond simple 'would like.' Used in b... correspondence, f... inquiries, and upscale service contexts."}
   ,{type:"match",pairs:[{trg:"raccomanderei",src:"I would recommend"},{trg:"bisognerebbe",src:"it would be necessary / one should"},{trg:"sarebbe opportuno",src:"it would be appropriate / advisable"}]}]

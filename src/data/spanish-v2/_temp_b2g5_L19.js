@@ -84,7 +84,7 @@ const LESSON_19 = {id:"esv2_b2g5_l19",title:"Medio ambiente y sostenibilidad",ic
  exampleSrc:"A: The fruit and vegetable sector is key in Almería.\nB: It is known as 'the garden of Europe'.",
  funFact:"Almería's plastic greenhouses are visible from space. They produce most of Europe's winter vegetables."},
 
-{type:"mc",q:"¿Qué es el estrés hídrico?",opts:["Escasez de recursos de agua en una región","Contaminación del aire por fábricas","Destrucción de bosques por incendios","Aumento de temperatura global"],ans:"Escasez de recursos de agua en una región",hint:"When a region does not have enough water resources to meet its needs."},
+{type:"mc",q:"¿Qué es el estrés hídrico?",opts:["Aumento de temperatura global","Escasez de recursos de agua en una región","Contaminación del aire por fábricas","Destrucción de bosques por incendios"],ans:"Escasez de recursos de agua en una región",hint:"When a region does not have enough water resources to meet its needs."},
 
 {type:"fb",s:"Debemos reducir el uso de combustibles {1} para frenar el cambio climático.",a:["fósiles"],opts:["fósiles","fotovoltaicos","hídricos","hortofrutícolas"],hint:"Fuels formed from ancient organic matter buried underground for millions of years.",sSrc:"We must reduce the use of {1} fuels to slow down climate change."},
 
@@ -92,7 +92,7 @@ const LESSON_19 = {id:"esv2_b2g5_l19",title:"Medio ambiente y sostenibilidad",ic
 
 {type:"fb",s:"El sector {1} de Almería exporta verduras a toda Europa.",a:["hortofrutícola"],opts:["hortofrutícola","fotovoltaico","hidrológico","destructor"],hint:"An adjective describing the fruit and vegetable farming industry.",sSrc:"The {1} sector of Almería exports vegetables to all of Europe."},
 
-{type:"mc",q:"¿Qué objetivo tiene España con los combustibles fósiles?",opts:["Eliminarlos progresivamente para la generación eléctrica","Aumentar su producción nacional","Exportarlos a otros países","Sustituirlos por energía nuclear únicamente"],ans:"Eliminarlos progresivamente para la generación eléctrica",hint:"Spain has set a long-term target to stop using these for producing electricity."}
+{type:"mc",q:"¿Qué objetivo tiene España con los combustibles fósiles?",opts:["Exportarlos a otros países","Sustituirlos por energía nuclear únicamente","Eliminarlos progresivamente para la generación eléctrica","Aumentar su producción nacional"],ans:"Eliminarlos progresivamente para la generación eléctrica",hint:"Spain has set a long-term target to stop using these for producing electricity."}
 ]};
 
 export default LESSON_19;

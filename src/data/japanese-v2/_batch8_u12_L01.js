@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"数学(すうがく)",src:"mathematics"},{trg:"音楽(おんがく)",src:"music"},{trg:"美術(びじゅつ)",src:"art"},{trg:"家庭科(かていか)",src:"home economics"},{trg:"道徳(どうとく)",src:"moral education"}],
      hint:"Match each school subject with its English name."},
 
-    {type:"mc", q:"What makes Japanese 道徳(どうとく) (moral education) unique?", opts:["It is a specific graded subject focused on ethics and values","It is optional for students","It only covers religion","It is taught only in high school"], ans:"It is a specific graded subject focused on ethics and values",
+    {type:"mc", q:"What makes Japanese 道徳(どうとく) (moral education) unique?", opts:["It is taught only in high school","It is a specific graded subject focused on ethics and values","It is optional for students","It only covers religion"], ans:"It is a specific graded subject focused on ethics and values",
      hint:"This became an officially g... s... in 2018, teaching v... through stories and discussion."},
 
     {type:"fb", s:"{1}は終(お)わりましたか？まだです。\n(Have you finished your homework? Not yet.)", a:"宿題(しゅくだい)", opts:["宿題(しゅくだい)","テスト","授業(じゅぎょう)","科目(かもく)"], sSrc:"Have you finished your homework? Not yet.",
      hint:"This work is assigned by teachers to be completed at home."},
 
-    {type:"mc", q:"What is the Japanese term for entrance exams?", opts:["受験(じゅけん)","テスト","宿題(しゅくだい)","授業(じゅぎょう)"], ans:"受験(じゅけん)",
+    {type:"mc", q:"What is the Japanese term for entrance exams?", opts:["宿題(しゅくだい)","授業(じゅぎょう)","受験(じゅけん)","テスト"], ans:"受験(じゅけん)",
      hint:"These life-defining exams determine which high school or university you can attend."}
   ,{type:"match",pairs:[{trg:"理科(りか)",src:"science (general/elementary)"},{trg:"社会(しゃかい)",src:"social studies"},{trg:"体育(たいいく)",src:"physical education / PE"}]}]
 };

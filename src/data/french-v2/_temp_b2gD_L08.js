@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 8 — Arts and Expression
+// French B2 Gap Batch D Lesson 8. Arts and Expression
 const LESSON_8 = {id:"frv2_b2gD_l8", title:"Arts et expression", icon:"🎨", xp:15, board:true, steps:[
   {type:"intro", title:"Arts et expression",
    desc:"Explore vocabulary for discussing artistic movements, creative expression, and cultural criticism.",
@@ -73,7 +73,7 @@ const LESSON_8 = {id:"frv2_b2gD_l8", title:"Arts et expression", icon:"🎨", xp
 
   {type:"mc",
    q:"Qu'est-ce que la physionomie d'un quartier?",
-   opts:["Son apparence générale et son caractère","Sa population totale","Son code postal","Sa superficie en mètres carrés"],
+   opts:["Sa superficie en mètres carrés","Son apparence générale et son caractère","Sa population totale","Son code postal"],
    ans:"Son apparence générale et son caractère",
    hint:"This word originally refers to facial features but extends to the overall look and feel of a place."},
 

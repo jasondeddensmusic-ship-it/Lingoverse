@@ -87,7 +87,7 @@ const LESSON_6 = {
      sSrc:"{1} the light, please."},
 
     {type:"mc", q:"What is 'la bolletta della luce'?",
-     opts:["The electricity bill","A light bulb","A lamp","A candle"],
+     opts:["A candle","The electricity bill","A light bulb","A lamp"],
      ans:"The electricity bill",
      hint:"'La luce' means both light and e.... The 'bolletta' is the b... you pay for a utility."},
 
@@ -106,7 +106,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What is 'il cellulare' in Italian?",
-     opts:["A mobile phone","A cell (prison)","A small room","A tablet"],
+     opts:["A small room","A tablet","A mobile phone","A cell (prison)"],
      ans:"A mobile phone",
      hint:"Named after the cellular network. Italians also use the English loanword for the touchscreen handheld device. both terms are interchangeable."},
 
@@ -117,7 +117,7 @@ const LESSON_6 = {
      sSrc:"The computer is on the {1}."},
 
     {type:"mc", q:"What is unique about Italian electrical outlets?",
-     opts:["Three round pins in a line","Same as American outlets","Same as British outlets","No standard exists"],
+     opts:["Same as American outlets","Same as British outlets","No standard exists","Three round pins in a line"],
      ans:"Three round pins in a line",
      hint:"Italy has its own outlet design. International travelers need an adapter for their electronics."},
 

@@ -1,4 +1,4 @@
-// Batch 3 — Unit 09, Lesson 1: In farmacia (At the Pharmacy)
+// Batch 3. Unit 09, Lesson 1: In farmacia (At the Pharmacy)
 const BATCH3_U09_L1 = {
   id:"itv2_u09l_b3_1", title:"In farmacia", icon:"\uD83D\uDC8A", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U09_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What can Italian pharmacists do that surprises many visitors?",
-     opts:["Prescribe any medication they choose","Give injections and basic diagnoses","Perform surgery for minor conditions","Write hospital admission orders"],
+     opts:["Give injections and basic diagnoses","Perform surgery for minor conditions","Write hospital admission orders","Prescribe any medication they choose"],
      ans:"Give injections and basic diagnoses",
      hint:"They have five-year degrees and can recommend treatments, measure blood pressure, and administer shots like flu vaccines."},
 
@@ -116,7 +116,7 @@ const BATCH3_U09_L1 = {
      sSrc:"The doctor prescribed me an {1}."},
 
     {type:"mc", q:"What do the different colors of Italian prescriptions indicate?",
-     opts:["White = regular, red = urgent, green = specialist","They are all the same color in Italy","White = free, red = paid, green = export","Colors have no official meaning"],
+     opts:["White = free, red = paid, green = export","Colors have no official meaning","White = regular, red = urgent, green = specialist","They are all the same color in Italy"],
      ans:"White = regular, red = urgent, green = specialist",
      hint:"The color coding helps pharmacists process the prescription correctly and determines the level of health system coverage."},
 
@@ -127,10 +127,10 @@ const BATCH3_U09_L1 = {
      sSrc:"I need a {1} for my ankle."},
 
     {type:"mc", q:"Why do Italians measure temperature so frequently?",
-     opts:["Thermometers are given free by the government","It is a deeply ingrained cultural health habit","Italian fevers are uniquely dangerous","Doctors require daily temperature logs"],
+     opts:["Italian fevers are uniquely dangerous","Doctors require daily temperature logs","Thermometers are given free by the government","It is a deeply ingrained cultural health habit"],
      ans:"It is a deeply ingrained cultural health habit",
      hint:"Every household has a thermometer. A parent's first response to any illness is always 'Misura la febbre!' (Check your temperature!)."}
-  ,{type:"match",pairs:[{trg:"il termometro",src:"the thermometer"},{trg:"la puntura",src:"the injection / sting"},{trg:"la ricetta medica",src:"the medical prescription"},{trg:"il farmacista",src:"the pharmacist"},{trg:"la farmacia di turno",src:"the duty pharmacy (open nights/holidays)"}]},{type:"mc",q:"How do you say \"aspirin\" in Italian?",opts:["la finestra","il tavolo","l'aspirina","la bicicletta"],ans:"l'aspirina",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il termometro",src:"the thermometer"},{trg:"la puntura",src:"the injection / sting"},{trg:"la ricetta medica",src:"the medical prescription"},{trg:"il farmacista",src:"the pharmacist"},{trg:"la farmacia di turno",src:"the duty pharmacy (open nights/holidays)"}]},{type:"mc",q:"How do you say \"aspirin\" in Italian?",opts:["l'aspirina","la bicicletta","la finestra","il tavolo"],ans:"l'aspirina",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il medico mi ha dato la {1} per comprare l'antibiotico.",a:["ricetta medica"],opts:["ricetta medica","termometro","crema","cerotto"],hint:"A written authorization from a doctor needed to get certain medicines.",sSrc:"The doctor gave me the {1} to buy the antibiotic."}]
 };
 export default BATCH3_U09_L1;

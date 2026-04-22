@@ -81,7 +81,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Wat betekent 'doodbloeien' figuurlijk?",
-     opts:["Langzaam uitsterven of verdwijnen","Heel hard bloeden","Bloemen die doodgaan","Een medische noodsituatie"],
+     opts:["Een medische noodsituatie","Langzaam uitsterven of verdwijnen","Heel hard bloeden","Bloemen die doodgaan"],
      ans:"Langzaam uitsterven of verdwijnen",
      hint:"Used figuratively for organizations, villages, or traditions that are slowly dying. 'Dood' means dead."},
 
@@ -101,7 +101,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Waarom staan veel huizen in Amsterdam scheef?",
-     opts:["Door de zachte grond en bewust ontwerp","Door aardbevingen","Door slechte bouwkwaliteit","Door overstromingen"],
+     opts:["Door slechte bouwkwaliteit","Door overstromingen","Door de zachte grond en bewust ontwerp","Door aardbevingen"],
      ans:"Door de zachte grond en bewust ontwerp",
      hint:"Amsterdam is built on soft soil. Many houses were designed to lean forward for a practical reason."}
   ]

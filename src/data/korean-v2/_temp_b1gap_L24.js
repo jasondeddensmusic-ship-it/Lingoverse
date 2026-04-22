@@ -40,7 +40,7 @@ const LESSON_24 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'이 버튼을 누르세요'는 무슨 뜻이에요?",
-     opts:["이 버튼을 만지세요","이 버튼을 던지세요","이 버튼을 밟으세요","이 버튼을 눌러서 작동하세요"],
+     opts:["이 버튼을 눌러서 작동하세요","이 버튼을 만지세요","이 버튼을 던지세요","이 버튼을 밟으세요"],
      ans:"이 버튼을 눌러서 작동하세요",
      hint:"The verb means to press down on something. Think of what you do with buttons on a machine."},
 
@@ -131,7 +131,7 @@ const LESSON_24 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'비가 쏟아졌어요'는 비가 어떻게 왔어요?",
-     opts:["아주 조금 왔어요","천천히 왔어요","세게 많이 왔어요","안 왔어요"],
+     opts:["천천히 왔어요","세게 많이 왔어요","안 왔어요","아주 조금 왔어요"],
      ans:"세게 많이 왔어요",
      hint:"The verb implies something pouring down with great volume and intensity, like a cascade."},
 

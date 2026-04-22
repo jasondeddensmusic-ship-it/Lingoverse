@@ -99,7 +99,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 sientes cuando se te antoja un helado?",
-     opts:["Un deseo repentino de comerlo","Miedo al fr\u00edo","Ganas de dormir","Pena por algo"],
+     opts:["Pena por algo","Un deseo repentino de comerlo","Miedo al fr\u00edo","Ganas de dormir"],
      ans:"Un deseo repentino de comerlo",
      hint:"When something appears tempting 'before your eyes' and you suddenly want it."},
 

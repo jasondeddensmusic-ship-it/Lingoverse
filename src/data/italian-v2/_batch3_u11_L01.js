@@ -1,4 +1,4 @@
-// Batch 3 — Unit 11, Lesson 1: Piu participi irregolari (More Irregular Participles)
+// Batch 3. Unit 11, Lesson 1: Piu participi irregolari (More Irregular Participles)
 const BATCH3_U11_L1 = {
   id:"itv2_u11l_b3_1", title:"Piu participi irregolari", icon:"\uD83D\uDD04", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U11_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What is the past participle of 'mettere'?",
-     opts:["Mettuto","Mettato","Mettito","Messo"],
+     opts:["Messo","Mettuto","Mettato","Mettito"],
      ans:"Messo",
      hint:"Completely irregular. 'Dove hai m... le chiavi?' is one of the most common Italian questions."},
 
@@ -105,7 +105,7 @@ const BATCH3_U11_L1 = {
     ]},
 
     {type:"mc", q:"What does 'conoscere' in the passato prossimo specifically mean?",
-     opts:["To know well","To recognize someone","To meet for the first time","To forget"],
+     opts:["To recognize someone","To meet for the first time","To forget","To know well"],
      ans:"To meet for the first time",
      hint:"'Ho conosciuto Marco ieri' = I met Marco yesterday. In the present tense, 'conosco Marco' means I know Marco. The tense changes the meaning."},
 
@@ -116,7 +116,7 @@ const BATCH3_U11_L1 = {
      sSrc:"I {1} the train!"},
 
     {type:"mc", q:"What does 'Offro io!' mean in Italian social culture?",
-     opts:["I offer my opinion","I am paying / it is my treat","I will cook dinner","I offer my help"],
+     opts:["I offer my help","I offer my opinion","I am paying / it is my treat","I will cook dinner"],
      ans:"I am paying / it is my treat",
      hint:"Italians often compete to pay the bill. This phrase declares you are treating everyone. It is a gesture of generosity."},
 
@@ -127,7 +127,7 @@ const BATCH3_U11_L1 = {
      sSrc:"Did you turn {1} the gas before leaving?"},
 
     {type:"mc", q:"Which pattern do speso, preso, and sceso share?",
-     opts:["They all end in -ato like regular -are verbs","They all come from -endere verbs with -eso ending","They all have regular -uto endings","They all use essere as their auxiliary"],
+     opts:["They all have regular -uto endings","They all use essere as their auxiliary","They all end in -ato like regular -are verbs","They all come from -endere verbs with -eso ending"],
      ans:"They all come from -endere verbs with -eso ending",
      hint:"These three all belong to the same conjugation group. Their past participles follow an identical transformation from the infinitive stem."}
   ,{type:"match",pairs:[{trg:"speso",src:"spent (past participle)"},{trg:"rimasto",src:"stayed / remained (past participle)"},{trg:"conosciuto",src:"met / known (past participle)"},{trg:"offerto",src:"offered (past participle)"},{trg:"pianto",src:"cried / wept (past participle)"}]}]

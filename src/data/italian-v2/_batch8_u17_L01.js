@@ -1,4 +1,4 @@
-// Batch 8 — Unit 17 extra lesson. Media & Tech: Digital Life & Devices
+// Batch 8. Unit 17 extra lesson. Media & Tech: Digital Life & Devices
 const BATCH8_L1 = {id:"itv2_u17l_b8_1", title:"La vita digitale", icon:"💻", xp:15, board:true, steps:[
 {type:"intro", title:"La vita digitale",
  desc:"Learn vocabulary for computers, devices, and navigating digital life in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u17l_b8_1", title:"La vita digitale", icon:"💻", x
 
 {type:"mc",
  q:"Why might the Italian word 'file' cause confusion?",
- opts:["It sounds almost identical to 'fila' (queue)","It means something different in Italian","It is never used in Italy","It is always feminine"],
+ opts:["It is always feminine","It sounds almost identical to 'fila' (queue)","It means something different in Italian","It is never used in Italy"],
  ans:"It sounds almost identical to 'fila' (queue)",
  hint:"The English borrowing 'file' (FEE-leh) and the Italian 'f...' (q...) sound very similar."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u17l_b8_1", title:"La vita digitale", icon:"💻", x
 
 {type:"mc",
  q:"What does 'aggiornare' literally mean?",
- opts:["To bring to the current day","To make faster","To restart","To connect"],
+ opts:["To restart","To connect","To bring to the current day","To make faster"],
  ans:"To bring to the current day",
  hint:"Break it down: 'a' (to) + 'giorno' (day). Bringing something up to the present day."}
 ,{type:"match",pairs:[{trg:"il collegamento",src:"the connection / link"},{trg:"il file",src:"the file (digital)"},{trg:"il backup",src:"the backup"}]}]};

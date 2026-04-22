@@ -1,4 +1,4 @@
-// Lesson 8 — Diversidad y sociedad
+// Lesson 8. Diversidad y sociedad
 const LESSON_8 = {id:"esv2_b2gA_l8", title:"Diversidad y sociedad", icon:"🌐", xp:15, board:true, steps:[
 {type:"intro", title:"Diversidad y sociedad", desc:"Discuss multiculturalism, linguistic diversity, and social coexistence in the modern world.", goals:["Learn 15 diversity and society terms","Discuss cultural and linguistic topics","Use inclusive vocabulary naturally"]},
 
@@ -57,7 +57,7 @@ const LESSON_8 = {id:"esv2_b2gA_l8", title:"Diversidad y sociedad", icon:"🌐",
  exampleSrc:"A: Have you received this month's payslip?\nB: Yes, but there's an error in the overtime.",
  funFact:"From Latin nomina (list of names). Originally the list of people to be paid."},
 
-{type:"mc", q:"¿Qué significa 'salario neto'?", opts:["El salario después de impuestos y deducciones","El salario antes de impuestos","El salario mínimo legal","El salario del jefe"], ans:"El salario después de impuestos y deducciones",
+{type:"mc", q:"¿Qué significa 'salario neto'?", opts:["El salario del jefe","El salario después de impuestos y deducciones","El salario antes de impuestos","El salario mínimo legal"], ans:"El salario después de impuestos y deducciones",
  hint:"Think about what remains 'clean' after all deductions are removed."},
 
 {type:"fb", s:"El {1} del español incluye más de noventa mil palabras.", a:["léxico"], opts:["léxico","líder","lingüista","listado"],
@@ -94,7 +94,7 @@ const LESSON_8 = {id:"esv2_b2gA_l8", title:"Diversidad y sociedad", icon:"🌐",
  hint:"This diminutive noun describes a small, specialized community or scene.",
  sSrc:"In the {1} of Madrid fashion, everyone knows each other."},
 
-{type:"mc", q:"¿De qué idioma viene 'mitin'?", opts:["Del inglés (meeting)","Del francés","Del árabe","Del latín"], ans:"Del inglés (meeting)",
+{type:"mc", q:"¿De qué idioma viene 'mitin'?", opts:["Del árabe","Del latín","Del inglés (meeting)","Del francés"], ans:"Del inglés (meeting)",
  hint:"This political term was adapted from a common English word for a gathering."},
 
 {type:"drag_fill", s:"Un buen {1} debe promover la {2} en su equipo.", blanks:{"1":"líder","2":"multiculturalidad"}, pool:["líder","multiculturalidad","mitin","nómina"],

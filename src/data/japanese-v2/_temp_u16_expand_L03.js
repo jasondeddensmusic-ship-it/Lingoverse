@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
    exampleSrc:"A: I have decided to exercise every day.\nB: That is great! Do your best.\nA: Do you go often?\nB: I go about once a month.",
    funFact:"ことにする emphasizes YOUR decision: you chose this. Compare with ことになる (it has been decided, by circumstance): にほんにいくことにした (I decided to go to Japan) vs にほんにいくことになった (it has been decided I am going to Japan, e.g., work transfer). The difference in agency is important."},
 
-  {type:"mc", q:"かならず expresses:", opts:["Maybe","Probably","Without fail / definitely","Sometimes"], ans:"Without fail / definitely",
+  {type:"mc", q:"かならず expresses:", opts:["Without fail / definitely","Sometimes","Maybe","Probably"], ans:"Without fail / definitely",
    hint:"The strongest certainty adverb, used in serious promises and commitments."},
 
   {type:"teach", trg:"〜ことになる", src:"it has been decided that ~ (external)", pos:"part", gender:null,
@@ -60,7 +60,7 @@ const LESSON_5 = {id:"jav2_u16l5", title:"やくそくときめる", icon:"🤞"
    exampleSrc:"A: I have decided to quit smoking.\nB: That is wonderful! I am cheering you on.\nA: What was it like?\nB: It was much better than I imagined.",
    funFact:"やめる has two kanji: 辞める (resign from a position/job) and 止める (stop an action/habit). タバコをやめる (quit smoking), しごとをやめる (quit a job), and ゲームをやめる (stop playing games) are common life decisions. Once announced, social pressure helps maintain the commitment."},
 
-  {type:"mc", q:"Which pattern expresses that you personally made a choice (not that circumstances decided for you)?", opts:["ことになった","Both are the same","ことにした","Neither"], ans:"ことにした",
+  {type:"mc", q:"Which pattern expresses that you personally made a choice (not that circumstances decided for you)?", opts:["Both are the same","ことにした","Neither","ことになった"], ans:"ことにした",
    hint:"にする = you decide. になる = it becomes decided (by external factors)."},
 
   {type:"teach", trg:"おうえんする", src:"to cheer on / to support", pos:"verb", gender:null,

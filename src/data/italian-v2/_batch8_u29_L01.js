@@ -1,4 +1,4 @@
-// Batch 8 — Unit 29 extra lesson. Psychology: Cognitive Processes
+// Batch 8. Unit 29 extra lesson. Psychology: Cognitive Processes
 const BATCH8_L1 = {id:"itv2_u29l_b8_1", title:"Processi cognitivi", icon:"💡", xp:15, board:true, steps:[
 {type:"intro", title:"Processi cognitivi",
  desc:"Learn vocabulary for cognitive processes, thinking patterns, and psychological concepts.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u29l_b8_1", title:"Processi cognitivi", icon:"💡",
 
 {type:"mc",
  q:"What does 'mettersi nei panni di qualcuno' mean?",
- opts:["To put yourself in someone else's position (empathy)","To wear someone's clothes","To copy someone's style","To judge someone"],
+ opts:["To judge someone","To put yourself in someone else's position (empathy)","To wear someone's clothes","To copy someone's style"],
  ans:"To put yourself in someone else's position (empathy)",
  hint:"'Panni' means clothes. This expression means imagining y... in another's situation."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u29l_b8_1", title:"Processi cognitivi", icon:"💡",
 
 {type:"mc",
  q:"Whose face appeared on the Italian 1000-lire banknote?",
- opts:["Maria Montessori","Sigmund Freud","Galileo Galilei","Leonardo da Vinci"],
+ opts:["Galileo Galilei","Leonardo da Vinci","Maria Montessori","Sigmund Freud"],
  ans:"Maria Montessori",
  hint:"This Italian educator developed a revolutionary method based on children's natural cognitive development."}
 ]};

@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 12 (Ability) — more potential verbs, skills, talents, できる expressions
+// Batch 2 expansion for Unit 12 (Ability), more potential verbs, skills, talents, できる expressions
 const BATCH2_L_1 = {
   id:"jav2_u12l_b2_1", title:"能力(のうりょく)", icon:"🏅", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Can you speak Japanese?\nB: I can speak it so-so.",
    funFact:"まあまあ is the quintessential non-committal Japanese response. It avoids both bragging and self-deprecation. When asked about a skill, まあまあ is the safe, humble middle ground. It literally comes from まあ (well), doubled for emphasis."},
 
-  {type:"mc", q:"作(つく)れる means:", opts:["must make","can make","want to make","will make"], ans:"can make",
+  {type:"mc", q:"作(つく)れる means:", opts:["can make","want to make","will make","must make"], ans:"can make",
    hint:"The potential form expressing the ability to create or cook something."},
 
   {type:"teach", trg:"ピアノ", src:"piano", pos:"noun", gender:null,
@@ -78,7 +78,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: I gradually came to understand Japanese.\nB: That is wonderful!",
    funFact:"だんだん (step by step) uses 段(だん) (step/stage) doubled. It describes slow but steady progress. The phrase だんだんよくなる (getting better gradually) is encouraging for learners. A similar word 少(すこ)しずつ (little by little) emphasizes even smaller increments."},
 
-  {type:"mc", q:"まあまあ means:", opts:["very good","terrible","so-so","perfect"], ans:"so-so",
+  {type:"mc", q:"まあまあ means:", opts:["terrible","so-so","perfect","very good"], ans:"so-so",
    hint:"The safe, humble middle-ground response that avoids both bragging and self-criticism."},
 
   {type:"match", pairs:[{trg:"作(つく)れる",src:"can make"},{trg:"歩(ある)ける",src:"can walk"},{trg:"乗(の)れる",src:"can ride"},{trg:"まあまあ",src:"so-so"}]},

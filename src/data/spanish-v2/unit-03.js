@@ -1,4 +1,4 @@
-// Unit 3 — Números y Colores
+// Unit 3. Números y Colores
 // Numbers, Days & Colors
 
 export default {n:3,lang:"es",srcLang:"en",track:"v2",title:"Números y Colores",sub:"Numbers, Days & Colors",icon:"🎨",level:"A1.1",color:"#7B5EE8",lessons:[

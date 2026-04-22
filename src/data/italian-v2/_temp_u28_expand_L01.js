@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Come si chiama la corrente letteraria italiana che descrive la vita reale dei poveri del Sud?",
-     opts:["Il futurismo","Il verismo","Il romanticismo","L'umanesimo"],
+     opts:["Il verismo","Il romanticismo","L'umanesimo","Il futurismo"],
      ans:"Il verismo",
      hint:"From the Italian word for 'true.' This movement depicted the harsh realities of life in Sicily and southern Italy, with Giovanni Verga as its master."},
 

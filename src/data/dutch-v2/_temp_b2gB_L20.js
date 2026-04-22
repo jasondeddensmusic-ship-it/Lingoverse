@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 20 — Uitdrukkingen en Vaste Verbindingen
+// Dutch B2 gapB Lesson 20. Uitdrukkingen en Vaste Verbindingen
 // Fixed expressions, collocations, and idiomatic vocabulary
 
 const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindingen", icon:"\u{1F4A1}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
  funFact:"Dutch public libraries are evolving into 'huiskamers van de stad' (living rooms of the city), offering workspaces, events, and community gathering."},
 
 {type:"mc", q:"'Een krachtterm' is een eufemisme voor:",
- opts:["A compliment","A swear word","A greeting","A farewell"],
+ opts:["A swear word","A greeting","A farewell","A compliment"],
  ans:"A swear word",
  hint:"Kracht (force) + term. A 'forceful w...' people use when angry."},
 
@@ -82,7 +82,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
 ]},
 
 {type:"mc", q:"'De bib' wordt vooral gebruikt in:",
- opts:["The northern Netherlands","Belgium / Flanders","South Limburg","Friesland"],
+ opts:["Friesland","The northern Netherlands","Belgium / Flanders","South Limburg"],
  ans:"Belgium / Flanders",
  hint:"The informal word for library in Belgian Dutch. In Holland they say 'bieb'."},
 

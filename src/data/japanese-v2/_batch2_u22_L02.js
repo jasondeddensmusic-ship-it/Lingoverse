@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Would you like to do a project together?\nB: Please let me think about it.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"考(かんが)えさせてください buys time and often signals reluctance. If someone says this after a simple request, they likely want to refuse but need time to find a polite way. However, it can also be genuine deliberation. Context and follow-up determine which. If no follow-up comes, it was a gentle no."},
 
-    {type:"mc", q:"ちょっと難(むずか)しいです in context usually means:", opts:["It is slightly difficult but possible","Definitely no (polite indirect refusal)","Please try harder","I need more information"], ans:"Definitely no (polite indirect refusal)",
+    {type:"mc", q:"ちょっと難(むずか)しいです in context usually means:", opts:["Definitely no (polite indirect refusal)","Please try harder","I need more information","It is slightly difficult but possible"], ans:"Definitely no (polite indirect refusal)",
      hint:"This is the classic Japanese i... r.... ちょっと softens what is actually a firm no."},
 
     {type:"teach", trg:"申(もう)し訳(わけ)ないのですが", src:"I am sorry but ~ (preface before refusing)", pos:"intj", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"ていただけないでしょうか",src:"would it be possible?"},{trg:"かねます",src:"cannot do (polite firm)"},{trg:"用事(ようじ)",src:"errand/something to do"},{trg:"気(き)が進(すす)まない",src:"not feel like doing"}]},
 
-    {type:"mc", q:"せっかくですが functions as:", opts:["An enthusiastic acceptance","A gracious preface before declining","A formal greeting","A way to ask for more information"], ans:"A gracious preface before declining",
+    {type:"mc", q:"せっかくですが functions as:", opts:["A way to ask for more information","An enthusiastic acceptance","A gracious preface before declining","A formal greeting"], ans:"A gracious preface before declining",
      hint:"せっかく acknowledges the other's kind effort b... the speaker gently turns down the offer."},
   {type:"match",pairs:[{trg:"申(もう)し訳(わけ)ないのですが",src:"I am sorry but ~ (preface before refusing)"}]}]
 };

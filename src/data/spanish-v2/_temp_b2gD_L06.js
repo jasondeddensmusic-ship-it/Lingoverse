@@ -68,10 +68,10 @@ const LESSON_6 = {id:"esv2_b2gD_l6",title:"Objetos y materiales",icon:"\uD83D\uD
  {trg:"papiro",src:"papyrus"}
 ]},
 
-{type:"mc",q:"'Poner el listón alto' significa...",opts:["Establecer un estándar elevado","Colgar algo en una percha","Pegar una cinta decorativa","Cerrar una puerta con llave"],ans:"Establecer un estándar elevado",hint:"A figurative expression about setting expectations. Think of the high jump bar in athletics."},
+{type:"mc",q:"'Poner el listón alto' significa...",opts:["Cerrar una puerta con llave","Establecer un estándar elevado","Colgar algo en una percha","Pegar una cinta decorativa"],ans:"Establecer un estándar elevado",hint:"A figurative expression about setting expectations. Think of the high jump bar in athletics."},
 
 {type:"fb",s:"El pintor mezcla los colores en su {1} antes de empezar.",a:["paleta"],opts:["paleta","percha","papiro","listón"],hint:"The flat board where an artist arranges and blends paint colors.",sSrc:"The painter mixes colors on his {1} before starting."},
 
-{type:"mc",q:"Los patinetes eléctricos han causado polémica porque...",opts:["Muchos usuarios no respetan las normas","Son demasiado caros para la mayoría","Solo funcionan en días soleados","Consumen mucha electricidad"],ans:"Muchos usuarios no respetan las normas",hint:"The controversy is about safety and rule-breaking on city sidewalks and roads."}
+{type:"mc",q:"Los patinetes eléctricos han causado polémica porque...",opts:["Solo funcionan en días soleados","Consumen mucha electricidad","Muchos usuarios no respetan las normas","Son demasiado caros para la mayoría"],ans:"Muchos usuarios no respetan las normas",hint:"The controversy is about safety and rule-breaking on city sidewalks and roads."}
 ]};
 export default LESSON_6;

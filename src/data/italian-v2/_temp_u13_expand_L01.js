@@ -73,7 +73,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"Which phrase means 'I doubt that' and triggers the subjunctive?",
-     opts:["Dico che","Dubito che","So che","Vedo che"],
+     opts:["Dubito che","So che","Vedo che","Dico che"],
      ans:"Dubito che",
      hint:"This verb expresses uncertainty about something. Its Latin root means 'to waver between two options.'"},
 
@@ -114,7 +114,7 @@ const LESSON_4 = {
      sSrc:"I am {1} that you are unwell."},
 
     {type:"mc", q:"What is the difference between 'e necessario che studi' and 'devi studiare'?",
-     opts:["There is absolutely no difference at all","The first is informal, the second is formal","The first uses subjunctive, the second uses indicative","The first is past tense, the second is present tense"],
+     opts:["The first is past tense, the second is present tense","There is absolutely no difference at all","The first is informal, the second is formal","The first uses subjunctive, the second uses indicative"],
      ans:"The first uses subjunctive, the second uses indicative",
      hint:"Both mean 'you must study,' but they use different grammatical structures. The impersonal expression requires one mood, the modal verb another."}
   ]

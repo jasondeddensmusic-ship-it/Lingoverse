@@ -1,4 +1,4 @@
-// Batch 7 — Unit 04 extra lesson. Al bar: Fruits & Healthy Snacks
+// Batch 7. Unit 04 extra lesson. Al bar: Fruits & Healthy Snacks
 const BATCH7_L1 = {id:"itv2_u04l_b7_1", title:"Frutta e spuntini", icon:"\u{1F34E}", xp:15, board:true, steps:[
 {type:"intro", title:"Frutta e spuntini",
  desc:"Learn the names of common fruits and healthy snacks you can find at Italian markets and bars.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u04l_b7_1", title:"Frutta e spuntini", icon:"\u{1F34
 ]},
 
 {type:"mc", q:"Che cos'e la 'macedonia'?",
- opts:["A fruit salad","A type of pasta","An Italian wine","A peach juice"],
+ opts:["A peach juice","A fruit salad","A type of pasta","An Italian wine"],
  ans:"A fruit salad",
  hint:"A mix of different chopped fresh fruits, often served as dessert."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u04l_b7_1", title:"Frutta e spuntini", icon:"\u{1F34
  sSrc:"I need to {1} the oranges for the fruit salad."},
 
 {type:"mc", q:"Come si chiama il frutto usato per il Bellini?",
- opts:["la pesca","la fragola","il limone","l'uva"],
+ opts:["il limone","l'uva","la pesca","la fragola"],
  ans:"la pesca",
  hint:"A soft, fuzzy fruit that is mixed with Prosecco for a famous Venetian cocktail."},
 

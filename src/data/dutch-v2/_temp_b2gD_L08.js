@@ -1,4 +1,4 @@
-// L08: Immigratie en Diversiteit — Immigration and Diversity
+// L08: Immigratie en Diversiteit. Immigration and Diversity
 const LESSON_8 = {
   id:"nlv2_b2gD_l08", title:"Immigratie en Diversiteit", icon:"\u{1F30F}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Waarom wordt het woord 'allochtoon' niet meer officieel gebruikt?",
-     opts:["Het werd als stigmatiserend beschouwd","Het was grammaticaal fout","Het was te lang","Het kwam uit het Duits"],
+     opts:["Het kwam uit het Duits","Het werd als stigmatiserend beschouwd","Het was grammaticaal fout","Het was te lang"],
      ans:"Het werd als stigmatiserend beschouwd",
      hint:"The Dutch government stopped using this term in 2016 because it was seen as labelling people in a negative way."},
 

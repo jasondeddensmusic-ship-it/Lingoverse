@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Da dove viene la parola 'vaccino'?",
-     opts:["Dal nome di un medico italiano","Dalla parola 'vacca' (cow), perche si uso il vaiolo bovino","Da un termine latino per 'protezione'","Dal nome della citta dove fu inventato"],
+     opts:["Dalla parola 'vacca' (cow), perche si uso il vaiolo bovino","Da un termine latino per 'protezione'","Dal nome della citta dove fu inventato","Dal nome di un medico italiano"],
      ans:"Dalla parola 'vacca' (cow), perche si uso il vaiolo bovino",
      hint:"The first immunization used a disease from a farm animal to create protection against a deadlier human disease. The animal's name gave us the word."},
 
@@ -96,7 +96,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Perche la ricerca sulle cellule staminali embrionali e limitata in Italia?",
-     opts:["Perche non ci sono scienziati qualificati","Per l'influenza della Chiesa Cattolica sulle politiche di bioetica","Perche la tecnologia non e disponibile","Perche i pazienti non vogliono queste terapie"],
+     opts:["Perche i pazienti non vogliono queste terapie","Perche non ci sono scienziati qualificati","Per l'influenza della Chiesa Cattolica sulle politiche di bioetica","Perche la tecnologia non e disponibile"],
      ans:"Per l'influenza della Chiesa Cattolica sulle politiche di bioetica",
      hint:"Religious moral teaching has a strong influence on Italian bioethics policy. Restrictions on certain types of research reflect the Church's position on the sanctity of human embryos."}
   ]

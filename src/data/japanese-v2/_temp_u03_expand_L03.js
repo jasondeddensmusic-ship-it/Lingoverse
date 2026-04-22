@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: You have big eyes.\nB: My mother says that too.",
      funFact:"Big eyes (me ga ookii) are considered attractive in Japan, driving the popularity of circle lenses, false eyelashes, and eye makeup. The idiom 'me kara uroko' (scales from the eyes) means 'a revelation,' borrowed from a Bible story via Portuguese missionaries."},
 
-    {type:"mc", q:"あたまがいたい means:", opts:["Smart person","Headache","Hard head","Big brain"], ans:"Headache",
+    {type:"mc", q:"あたまがいたい means:", opts:["Headache","Hard head","Big brain","Smart person"], ans:"Headache",
      hint:"Atama (head) + ga itai (hurts/painful)."},
 
     {type:"teach", trg:"はな", src:"nose", pos:"noun", gender:null,
@@ -110,10 +110,10 @@ const LESSON_5 = {
      hint:"The body part associated with headaches, where you might take medicine.",
      sSrc:"I have a headache. Let's take medicine."},
 
-    {type:"mc", q:"て appears in じょうず (skillful) because:", opts:["It literally means 'upper hand'","Hands are smart","Te means 'skill'","It is a coincidence"], ans:"It literally means 'upper hand'",
+    {type:"mc", q:"て appears in じょうず (skillful) because:", opts:["Te means 'skill'","It is a coincidence","It literally means 'upper hand'","Hands are smart"], ans:"It literally means 'upper hand'",
      hint:"上 (jou, u...) + 手 (zu/te, h...) = u... h... = skillful."},
 
-    {type:"mc", q:"ゆび covers:", opts:["Only fingers","Only toes","Both fingers and toes","Wrists"], ans:"Both fingers and toes",
+    {type:"mc", q:"ゆび covers:", opts:["Wrists","Only fingers","Only toes","Both fingers and toes"], ans:"Both fingers and toes",
      hint:"Japanese uses the same word for both, specifying with te no (hand) or ashi no (foot)."},
   ]
 };

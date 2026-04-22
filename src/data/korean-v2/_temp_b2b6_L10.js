@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 10: Guidance and Safety
+// Korean B2. Batch 6, Lesson 10: Guidance and Safety
 // Words: 아스팔트, 아아, 아울러, 아유, 아이(interj), 아이디어, 아하, 악기, 악몽, 악수, 안과, 안기다, 안내, 안내하다, 안부, 안심하다, 안정, 안정되다, 안주, 안쪽, 안팎 (note: 아무런 from prev list included)
 
 const LESSON_10 = {
@@ -131,7 +131,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'술과 함께 먹는 음식'을 뭐라고 하나요?",
-     opts:["안주","간식","야식","디저트"],
+     opts:["디저트","안주","간식","야식"],
      ans:"안주",
      hint:"The specific Korean word for food eaten as accompaniment to alcoholic drinks."},
 

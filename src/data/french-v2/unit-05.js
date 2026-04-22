@@ -1,4 +1,4 @@
-// Unit 5 — La routine quotidienne
+// Unit 5. La routine quotidienne
 // Daily Routine, Time & -er Verbs
 
 import COVERAGE_U05 from './_coverage_u05.js';

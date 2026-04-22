@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"自動化(じどうか)",src:"automation"},{trg:"個人情報(こじんじょうほう)",src:"personal data"},{trg:"デジタルデバイド",src:"digital divide"},{trg:"情報(じょうほう)リテラシー",src:"information literacy"}],
      hint:"Match each technology term with its English meaning."},
 
-    {type:"mc", q:"Why is Japan relatively receptive to AI and automation?", opts:["Labor shortage from aging population makes AI adoption practical","Japan has unlimited tech workers","The government banned manual labor","AI is cheaper than in other countries"], ans:"Labor shortage from aging population makes AI adoption practical",
+    {type:"mc", q:"Why is Japan relatively receptive to AI and automation?", opts:["AI is cheaper than in other countries","Labor shortage from aging population makes AI adoption practical","Japan has unlimited tech workers","The government banned manual labor"], ans:"Labor shortage from aging population makes AI adoption practical",
      hint:"Japan's demographic challenge of 少子高齢化(しょうしこうれいか) creates a genuine need for automation."},
 
     {type:"fb", s:"高齢者(こうれいしゃ)の{1}が問題(もんだい)です。\n(The digital divide among elderly is a problem.)", a:"デジタルデバイド", opts:["デジタルデバイド","情報(じょうほう)リテラシー","人工知能(じんこうちのう)","クラウド"], sSrc:"The digital divide among elderly is a problem.",
      hint:"This loanword describes the gap between those who can and cannot use digital technology."},
 
-    {type:"mc", q:"What did Japan create in 2021 to address digital issues?", opts:["デジタル庁(ちょう) (Digital Agency)","AI police force","Robot army","Virtual government"], ans:"デジタル庁(ちょう) (Digital Agency)",
+    {type:"mc", q:"What did Japan create in 2021 to address digital issues?", opts:["Robot army","Virtual government","デジタル庁(ちょう) (Digital Agency)","AI police force"], ans:"デジタル庁(ちょう) (Digital Agency)",
      hint:"This new ministry-level body was created in 2021 to lead Japan's transformation into a digitalized society."}
   ,{type:"match",pairs:[{trg:"アルゴリズム",src:"algorithm"},{trg:"倫理的問題(りんりてきもんだい)",src:"ethical issue / ethical problem"},{trg:"ディープフェイク",src:"deepfake"},{trg:"ブロックチェーン",src:"blockchain"},{trg:"送信(そうしん)する",src:"to transmit / to send (data/information)"},{trg:"クラウド",src:"cloud (computing)"}]},{type:"match",pairs:[{trg:"サステナビリティ",src:"sustainability"}]}]
 };

@@ -30,7 +30,7 @@ const LESSON_7 = {id:"esv2_b2g3_l7", title:"Política y gobierno", icon:"🏛️
 
   {type:"teach", trg:"dogmático", src:"dogmatic", pos:"adj", gender:null, note:"Rigid in beliefs, unwilling to consider other views.\nPuede ser muy dogmático = he can be very dogmatic.", example:"A: Su postura es demasiado dogmática.\nB: No acepta ninguna opinión diferente a la suya.", exampleSrc:"A: His stance is too dogmatic.\nB: He doesn't accept any opinion different from his own.", funFact:"Dogmático can describe political, religious, or even everyday rigidity. It always implies closed-mindedness."},
 
-  {type:"mc", q:"La demagogia consiste en...", opts:["usar emociones en vez de argumentos racionales","respetar todas las opiniones","descentralizar el poder","escribir decretos oficiales"], ans:"usar emociones en vez de argumentos racionales", hint:"This political tactic manipulates feelings rather than presenting logical reasoning."},
+  {type:"mc", q:"La demagogia consiste en...", opts:["escribir decretos oficiales","usar emociones en vez de argumentos racionales","respetar todas las opiniones","descentralizar el poder"], ans:"usar emociones en vez de argumentos racionales", hint:"This political tactic manipulates feelings rather than presenting logical reasoning."},
 
   {type:"teach", trg:"dimitir", src:"to resign (from office)", pos:"verb", gender:null, note:"To step down from a political or professional position.\nDimisión = resignation.", example:"A: El ministro ha decidido dimitir.\nB: Era de esperar después del escándalo.", exampleSrc:"A: The minister has decided to resign.\nB: It was to be expected after the scandal.", funFact:"Dimitir is intransitive in Spanish: you dimitir (resign), you don't dimitir un puesto. The position drops the person."},
 
@@ -38,7 +38,7 @@ const LESSON_7 = {id:"esv2_b2g3_l7", title:"Política y gobierno", icon:"🏛️
 
   {type:"fb", s:"El presidente del partido ha decidido {1} tras perder las elecciones.", a:["dimitir"], opts:["dimitir","decretar","descentralizar","discriminar"], hint:"To voluntarily step down from a position of power after a defeat.", sSrc:"The party president has decided to {1} after losing the elections."},
 
-  {type:"mc", q:"¿Qué término describe a un líder militar autoritario en Latinoamérica?", opts:["El caudillo","El demócrata","El congregante","El comunista"], ans:"El caudillo", hint:"This historically loaded term describes a charismatic strongman with personal power."},
+  {type:"mc", q:"¿Qué término describe a un líder militar autoritario en Latinoamérica?", opts:["El congregante","El comunista","El caudillo","El demócrata"], ans:"El caudillo", hint:"This historically loaded term describes a charismatic strongman with personal power."},
 
   {type:"fb", s:"No seas tan {1}; hay que escuchar otros puntos de vista.", a:["dogmático"], opts:["dogmático","demócrata","descentralizado","comunista"], hint:"Someone who is rigid in their beliefs and refuses to consider alternatives.", sSrc:"Don't be so {1}; you have to listen to other points of view."}
 ]};

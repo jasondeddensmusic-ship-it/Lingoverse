@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 10 — Politics and Governance
+// French B2 Gap Lesson 10. Politics and Governance
 const LESSON_10 = {id:"frv2_b2g5_l10", title:"Politique et gouvernance", icon:"🏛️", xp:15, board:true, steps:[
   {type:"intro", title:"Politique et gouvernance",
    desc:"Build vocabulary for discussing political systems, governance, and civic engagement at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_10 = {id:"frv2_b2g5_l10", title:"Politique et gouvernance", icon:"�
    funFact:"From 'immense' + '-ment'. French adverbs typically add '-ment' to the feminine adjective form."},
 
   {type:"mc", q:"Quel verbe signifie 'organiser par ordre d'importance'?",
-   opts:["Hiérarchiser","Démontrer","Inspecter","Communiquer"],
+   opts:["Communiquer","Hiérarchiser","Démontrer","Inspecter"],
    ans:"Hiérarchiser",
    hint:"To rank things in a hierarchy from most to least important"},
 
@@ -105,7 +105,7 @@ const LESSON_10 = {id:"frv2_b2g5_l10", title:"Politique et gouvernance", icon:"�
   ]},
 
   {type:"mc", q:"Le conflit générationnel concerne:",
-   opts:["Les différences entre tranches d'âge","Les disputes entre pays","Les problèmes techniques","Les questions environnementales"],
+   opts:["Les problèmes techniques","Les questions environnementales","Les différences entre tranches d'âge","Les disputes entre pays"],
    ans:"Les différences entre tranches d'âge",
    hint:"A conflict that arises between different age groups and their values"},
 
@@ -120,7 +120,7 @@ const LESSON_10 = {id:"frv2_b2g5_l10", title:"Politique et gouvernance", icon:"�
    hint:"Hostile behavior in political discourse replaces reasoned points with insults"},
 
   {type:"mc", q:"Quel adverbe signifie 'de façon contraire à ce qu'on attendait'?",
-   opts:["Ironiquement","Immensément","Généralement","Individuellement"],
+   opts:["Immensément","Généralement","Individuellement","Ironiquement"],
    ans:"Ironiquement",
    hint:"When the outcome is the opposite of what was expected"}
 ]};

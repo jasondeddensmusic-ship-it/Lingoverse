@@ -92,7 +92,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Comment s'appelle le cote du lit ou l'on pose son livre ?",
-     opts:["le chevet","le chevron","le cordon","le barillet"],
+     opts:["le barillet","le chevet","le chevron","le cordon"],
      ans:"le chevet",
      hint:"'Livre de c...' means your bedside book, your all-time favorite."},
 
@@ -143,7 +143,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'rendre plus mince' ?",
-     opts:["amincir","assourdir","chuter","doper"],
+     opts:["chuter","doper","amincir","assourdir"],
      ans:"amincir",
      hint:"Built from the adjective 'mince' (thin). Often used about clothing that flatters the figure."},
 

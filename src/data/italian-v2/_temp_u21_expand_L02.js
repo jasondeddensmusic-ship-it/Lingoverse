@@ -56,7 +56,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What is the irregular conditional stem of 'andare'?",
-     opts:["and-","andar-","andr-","ander-"],
+     opts:["andr-","ander-","and-","andar-"],
      ans:"andr-",
      hint:"Shared with the future tense (andro, andrai, andra). All six conditional forms use this stem: andrei, andresti, andrebbe..."},
 
@@ -97,7 +97,7 @@ const LESSON_5 = {
      sSrc:"I {1} not know what to say."},
 
     {type:"mc", q:"Why does 'tenere' have a doubled-r in the conditional?",
-     opts:["It is a spelling error that became standard over time","All -ere verbs double the final consonant in the conditional","It preserves the irregular future stem terr-","It distinguishes it from the present tense form"],
+     opts:["It distinguishes it from the present tense form","It is a spelling error that became standard over time","All -ere verbs double the final consonant in the conditional","It preserves the irregular future stem terr-"],
      ans:"It preserves the irregular future stem terr-",
      hint:"Like the f... (terro, terrai), the conditional shares the same doubled-r s.... F... and conditional always share stems."}
   ]

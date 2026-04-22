@@ -1,4 +1,4 @@
-// Batch 6 — Unit 24 extra lesson. Il periodo ipotetico: Regret & Missed Opportunities
+// Batch 6. Unit 24 extra lesson. Il periodo ipotetico: Regret & Missed Opportunities
 const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", icon:"\u{1F614}", xp:15, board:true, steps:[
 {type:"intro", title:"Rimpianti e occasioni mancate",
  desc:"Learn to express regret, missed opportunities, and counterfactual situations using advanced if-clauses.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
 ]},
 
 {type:"mc", q:"Cosa significa 'ormai'?",
- opts:["By now, at this point (too late)","Maybe","Always","Sometimes"],
+ opts:["Sometimes","By now, at this point (too late)","Maybe","Always"],
  ans:"By now, at this point (too late)",
  hint:"An adverb expressing that the moment has passed and cannot be changed."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u24l_b6_1", title:"Rimpianti e occasioni mancate", i
  sSrc:"{1} I had listened to my mother's advice!"},
 
 {type:"mc", q:"Cosa significa 'riscattarsi'?",
- opts:["to redeem oneself after a failure","to give up completely","to regret deeply","to forget the past"],
+ opts:["to regret deeply","to forget the past","to redeem oneself after a failure","to give up completely"],
  ans:"to redeem oneself after a failure",
  hint:"To make amends, to prove yourself a... a mistake. Originally meant 'to ransom.'"},
 

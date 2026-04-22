@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「どんどん」と「だんだん」はどう違(ちが)いますか？",
-     opts:["どんどん is rapid change, だんだん is gradual change","They are the same","どんどん is positive, だんだん is negative","どんどん is for sounds, だんだん is for feelings"],
+     opts:["どんどん is for sounds, だんだん is for feelings","どんどん is rapid change, だんだん is gradual change","They are the same","どんどん is positive, だんだん is negative"],
      ans:"どんどん is rapid change, だんだん is gradual change",
      hint:"Think drumming (r..., energetic) vs stepping down stairs (slow, incremental). Both describe c... but at different speeds."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"The baby is sleeping. Please walk quietly."},
 
     {type:"mc", q:"「ぐっすり」はなにと使(つか)いますか？",
-     opts:["Only with sleeping","With any action","With eating","With studying"],
+     opts:["With eating","With studying","Only with sleeping","With any action"],
      ans:"Only with sleeping",
      hint:"This onomatopoeic adverb is exclusively paired with one specific daily activity related to rest."}
   ,{type:"match",pairs:[{trg:"ゆっくり",src:"slowly / at a leisurely pace"},{trg:"ぴったり",src:"exactly / perfectly fitting"},{trg:"ぐっすり",src:"soundly (sleeping)"},{trg:"じっと",src:"still / motionlessly / intently"}]}]

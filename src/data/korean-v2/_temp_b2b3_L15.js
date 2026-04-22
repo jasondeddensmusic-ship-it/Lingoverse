@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 15: Gold, Prohibition, and Speed
+// Korean B2. Batch 3, Lesson 15: Gold, Prohibition, and Speed
 // Words: 긁다, 금, 금고, 금년, 금메달, 금세, 금액, 금지되다, 금지하다, 금하다, 급격히, 급속히, 급증하다, 급히, 긋다, 기, 기관, 기구, 기타, 내
 
 const LESSON_15 = {
@@ -107,7 +107,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'급증하다'와 반대 의미의 표현은?",
-     opts:["급감하다","급히","급격히","급속히"],
+     opts:["급속히","급감하다","급히","급격히"],
      ans:"급감하다",
      hint:"If surging means a sharp increase, the opposite describes a sharp decrease."},
 

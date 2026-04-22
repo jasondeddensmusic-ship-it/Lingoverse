@@ -93,7 +93,7 @@ const LESSON_3 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"선생님께 사과할 때 어떻게 말해요?",
-     opts:["죄송합니다","미안해","고마워","실례"],
+     opts:["실례","죄송합니다","미안해","고마워"],
      ans:"죄송합니다",
      hint:"When apologizing to someone of higher status, use the more formal version."},
 
@@ -151,7 +151,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"친구 집에 갈 때 '와 주세요'라고 하는 것은?",
-     opts:["초대하다","약속하다","걱정하다","인사하다"],
+     opts:["걱정하다","인사하다","초대하다","약속하다"],
      ans:"초대하다",
      hint:"When you ask someone to come to your place for an event, this is what you do."},
 
@@ -171,7 +171,7 @@ const LESSON_3 = {
     // --- Final quiz block ---
     {type:"mc",
      q:"결혼할 때 하는 행사는?",
-     opts:["결혼식","초대","약속","인사"],
+     opts:["초대","약속","인사","결혼식"],
      ans:"결혼식",
      hint:"This compound noun combines 'marriage' with the suffix for 'ceremony.'"},
 

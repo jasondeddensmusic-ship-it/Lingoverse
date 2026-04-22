@@ -32,13 +32,13 @@ const LESSON_18 = {id:"esv2_b2g3_l18", title:"Personas y roles sociales", icon:"
 
   {type:"teach", trg:"el denominador", src:"the denominator", pos:"noun", gender:"m", note:"The bottom number in a fraction.\nDenominador común = common denominator (also figurative).", example:"A: ¿Cuál es el denominador común de todos estos problemas?\nB: La falta de comunicación, sin duda.", exampleSrc:"A: What is the common denominator of all these problems?\nB: Lack of communication, without a doubt.", funFact:"Denominador común has jumped from maths into everyday speech. It means the shared factor underlying different situations."},
 
-  {type:"mc", q:"¿Qué significa 'antecesor en el puesto'?", opts:["La persona que tenía el trabajo antes que tú","Tu jefe actual","Tu compañero de oficina","La persona que te contrató"], ans:"La persona que tenía el trabajo antes que tú", hint:"Ante- means 'before'. This person came before you in the same position."},
+  {type:"mc", q:"¿Qué significa 'antecesor en el puesto'?", opts:["La persona que te contrató","La persona que tenía el trabajo antes que tú","Tu jefe actual","Tu compañero de oficina"], ans:"La persona que tenía el trabajo antes que tú", hint:"Ante- means 'before'. This person came before you in the same position."},
 
   {type:"match", pairs:[{trg:"compatriota", src:"fellow citizen"},{trg:"creyente", src:"believer"},{trg:"ateo", src:"atheist"},{trg:"antecesor", src:"predecessor"},{trg:"denominador", src:"denominator"}]},
 
   {type:"fb", s:"Encontré a una {1} en el avión y charlamos todo el vuelo.", a:["compatriota"], opts:["compatriota","artista","creyente","católica"], hint:"Someone from the same country as you, encountered abroad.", sSrc:"I met a {1} on the plane and we chatted the whole flight."},
 
-  {type:"mc", q:"'Denominador común' en sentido figurado significa...", opts:["El factor que todos los problemas comparten","El número más grande","La solución perfecta","El primer paso de un proceso"], ans:"El factor que todos los problemas comparten", hint:"Borrowed from mathematics, it describes the shared element underlying multiple situations."},
+  {type:"mc", q:"'Denominador común' en sentido figurado significa...", opts:["La solución perfecta","El primer paso de un proceso","El factor que todos los problemas comparten","El número más grande"], ans:"El factor que todos los problemas comparten", hint:"Borrowed from mathematics, it describes the shared element underlying multiple situations."},
 
   {type:"fb", s:"Mi {1} en la empresa dejó instrucciones muy claras.", a:["antecesor"], opts:["antecesor","causante","agente","adulto"], hint:"The person who held your position before you did.", sSrc:"My {1} at the company left very clear instructions."}
 ]};

@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 15 — Character & Personality
+// B2 Gap Batch B Lesson 15. Character & Personality
 const LESSON_15 = {id:"esv2_b2gB_l15",title:"Carácter y personalidad",icon:"🎭",xp:15,board:true,steps:[
 {type:"intro",title:"Carácter y personalidad",desc:"Learn advanced vocabulary for describing character traits, personality, and human behavior in Spanish.",goals:["Learn 12 words about character and personality","Describe people's qualities and flaws","Use nuanced adjectives and nouns"]},
 
@@ -73,7 +73,7 @@ const LESSON_15 = {id:"esv2_b2gB_l15",title:"Carácter y personalidad",icon:"�
  funFact:"The Spanish saying 'nobleza obliga' (nobility obliges) means high status brings responsibility."},
 
 {type:"mc",q:"¿Qué significa 'muermo' en lenguaje coloquial?",
- opts:["Algo o alguien muy aburrido","Una persona muy alta","Un plato de cocina","Un tipo de música"],
+ opts:["Un tipo de música","Algo o alguien muy aburrido","Una persona muy alta","Un plato de cocina"],
  ans:"Algo o alguien muy aburrido",
  hint:"Think about what you might call a movie that puts you to sleep within minutes."},
 

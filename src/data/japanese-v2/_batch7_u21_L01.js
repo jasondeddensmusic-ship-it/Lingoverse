@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"{1} development is important for the future."},
 
     {type:"mc", q:"過労死(かろうし) means:",
-     opts:["Death from overwork","Retirement age","Sick leave","Job transfer"],
+     opts:["Job transfer","Death from overwork","Retirement age","Sick leave"],
      ans:"Death from overwork",
      hint:"A legally recognized cause of d... unique to Japan, leading to labor reform laws."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"I went to {1} after the disaster."},
 
     {type:"mc", q:"公共(こうきょう)の場(ば)での電話(でんわ)は:",
-     opts:["Considered rude on Japanese trains","Perfectly normal everywhere","Only banned in hospitals","Allowed at any volume"],
+     opts:["Only banned in hospitals","Allowed at any volume","Considered rude on Japanese trains","Perfectly normal everywhere"],
      ans:"Considered rude on Japanese trains",
      hint:"J... public manners strictly prohibit phone calls on t... as a form of 迷惑(めいわく)."},
 

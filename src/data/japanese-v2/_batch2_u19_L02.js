@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Even if you try hard from now, it is difficult.\nB: But you won't know unless you try.\nA: I am also interested.\nB: Then, how about doing it together next time?",
      funFact:"としても is the concessive counterpart of としたら. While としたら sets up a hypothetical to explore, としても acknowledges it and then dismisses its impact: 'even if that were so, the result would still be X.' It is the grammar of realistic assessment and managing expectations."},
 
-    {type:"mc", q:"熱(ねつ)があるようなら休(やす)んでください means:", opts:["You definitely have a fever, rest now","If it looks like you have a fever, please rest","Please take your temperature","You should not rest even with a fever"], ans:"If it looks like you have a fever, please rest",
+    {type:"mc", q:"熱(ねつ)があるようなら休(やす)んでください means:", opts:["If it looks like you have a fever, please rest","Please take your temperature","You should not rest even with a fever","You definitely have a fever, rest now"], ans:"If it looks like you have a fever, please rest",
      hint:"ようなら creates a conditional based on how things appear, making the advice tentative and caring."},
 
     {type:"teach", trg:"熱(ねつ)", src:"fever / heat", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"たとえ...ても",src:"even if (strongest)"},{trg:"熱(ねつ)",src:"fever"},{trg:"実際(じっさい)に",src:"in reality"},{trg:"諦(あきら)める",src:"to give up"}]},
 
-    {type:"mc", q:"としたら vs としても: what is the difference?", opts:["They mean the same thing","としたら explores a hypothetical; としても dismisses its impact","としたら is past; としても is present","としたら is formal; としても is casual"], ans:"としたら explores a hypothetical; としても dismisses its impact",
+    {type:"mc", q:"としたら vs としても: what is the difference?", opts:["としたら is formal; としても is casual","They mean the same thing","としたら explores a hypothetical; としても dismisses its impact","としたら is past; としても is present"], ans:"としたら explores a hypothetical; としても dismisses its impact",
      hint:"One sets up 'what if?' for discussion. The other says 'even if that were so, it would not matter.'"},
   {type:"match",pairs:[{trg:"たとえ〜ても",src:"even if ~ / no matter how much ~"},{trg:"理論(りろん)",src:"theory"}]},
   {type:"fb", s:"昨日(きのう)は{1}があったので学校(がっこう)を休(やす)みました。", a:["熱(ねつ)"], opts:["熱(ねつ)","雨(あめ)","約束(やくそく)","仕事(しごと)"], hint:"The physical symptom of a high body temperature during illness.", sSrc:"I took the day off school yesterday because I had a {1}."}

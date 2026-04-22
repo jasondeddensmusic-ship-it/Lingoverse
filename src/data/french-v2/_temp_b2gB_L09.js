@@ -76,7 +76,7 @@ const LESSON_9 = {
      sSrc:"He went {1} with his dream despite the difficulties."},
 
     {type:"mc", q:"'En marge de la conference' signifie:",
-     opts:["A cote de l'evenement principal","Pendant la conference","Avant la conference","Contre la conference"],
+     opts:["Contre la conference","A cote de l'evenement principal","Pendant la conference","Avant la conference"],
      ans:"A cote de l'evenement principal",
      hint:"En marge means on the edge or sidelines of something"},
 
@@ -93,7 +93,7 @@ const LESSON_9 = {
      sSrc:"{1}, the funds will go to medical research."},
 
     {type:"mc", q:"'Pour peu que' est suivi de quel mode?",
-     opts:["Le subjonctif","L'indicatif","Le conditionnel","L'infinitif"],
+     opts:["Le conditionnel","L'infinitif","Le subjonctif","L'indicatif"],
      ans:"Le subjonctif",
      hint:"This conjunction expresses a condition that is not yet realized"},
 
@@ -103,7 +103,7 @@ const LESSON_9 = {
      sSrc:"He emigrated {1} finding a better life."},
 
     {type:"mc", q:"Quelle est l'abreviation de 'c'est-a-dire'?",
-     opts:["c.-a-d.","c.a.d","cad","c-a-d"],
+     opts:["c.a.d","cad","c-a-d","c.-a-d."],
      ans:"c.-a-d.",
      hint:"French abbreviations typically use periods after each shortened element"},
 

@@ -1,4 +1,4 @@
-// L06: Digital World & Technology — 20 B2 gap words
+// L06: Digital World & Technology, 20 B2 gap words
 const LESSON_6 = {
   id:"nlv2_b2g4_l6", title:"Digitale Wereld", icon:"\uD83D\uDCBB", xp:15, board:true,
   steps:[

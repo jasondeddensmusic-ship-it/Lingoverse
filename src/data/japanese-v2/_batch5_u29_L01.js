@@ -63,7 +63,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"株式(かぶしき){1}が大幅(おおはば)に下(さ)がりました。\n(The stock market dropped significantly.)", a:"市場(しじょう)", opts:["市場(しじょう)","会社(かいしゃ)","銀行(ぎんこう)","経済(けいざい)"], sSrc:"The stock market dropped significantly.",
      hint:"The word for 'market' (economic sense), combined with 株式(かぶしき) for the securities market."},
 
-    {type:"mc", q:"市場(しじょう) and 市場(いちば) use the same kanji but:", opts:["市場(しじょう) is abstract markets, 市場(いちば) is physical marketplaces","They mean the same thing","市場(しじょう) is formal, 市場(いちば) is slang","One is old, one is new"], ans:"市場(しじょう) is abstract markets, 市場(いちば) is physical marketplaces",
+    {type:"mc", q:"市場(しじょう) and 市場(いちば) use the same kanji but:", opts:["One is old, one is new","市場(しじょう) is abstract markets, 市場(いちば) is physical marketplaces","They mean the same thing","市場(しじょう) is formal, 市場(いちば) is slang"], ans:"市場(しじょう) is abstract markets, 市場(いちば) is physical marketplaces",
      hint:"The same kanji 市場 has two readings for two different concepts."},
 
     {type:"match", pairs:[{trg:"株式(かぶしき)",src:"stock/shares"},{trg:"為替(かわせ)",src:"foreign exchange"},{trg:"輸入(ゆにゅう)",src:"import"},{trg:"輸出(ゆしゅつ)",src:"export"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"日本(にほん)はエネルギー資源(しげん)の多(おお)くを{1}に頼(たよ)っています。\n(Japan depends on imports for most energy resources.)", a:"輸入(ゆにゅう)", opts:["輸入(ゆにゅう)","輸出(ゆしゅつ)","生産(せいさん)","開発(かいはつ)"], sSrc:"Japan depends on imports for most energy resources.",
      hint:"The word meaning bringing goods INTO the country from abroad."},
 
-    {type:"mc", q:"Japan's households traditionally preferred:", opts:["Savings (貯金(ちょきん)) over investment (投資(とうし))","Investment over savings","Real estate only","Gold only"], ans:"Savings (貯金(ちょきん)) over investment (投資(とうし))",
+    {type:"mc", q:"Japan's households traditionally preferred:", opts:["Real estate only","Gold only","Savings (貯金(ちょきん)) over investment (投資(とうし))","Investment over savings"], ans:"Savings (貯金(ちょきん)) over investment (投資(とうし))",
      hint:"Risk-averse Japanese culture historically favored safe bank deposits."}
   ,{type:"match",pairs:[{trg:"物価(ぶっか)",src:"prices / commodity prices / cost of living"},{trg:"金利(きんり)",src:"interest rate"}]}]
 };

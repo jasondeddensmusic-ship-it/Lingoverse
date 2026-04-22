@@ -92,7 +92,7 @@ const LESSON_13 = {id:"frv2_b1gap_l13", title:"La maison et l'habitat", icon:"\u
 
 {type:"mc",
  q:"Quel mot désigne ce qu'on met sur un hameçon pour attraper un poisson ?",
- opts:["l'appât","l'attribut","l'attaquant","l'alerte"],
+ opts:["l'alerte","l'appât","l'attribut","l'attaquant"],
  ans:"l'appât",
  hint:"This masculine noun is what fishermen use to lure fish. Figuratively, it's the lure of profit."},
 
@@ -143,7 +143,7 @@ const LESSON_13 = {id:"frv2_b1gap_l13", title:"La maison et l'habitat", icon:"\u
 
 {type:"mc",
  q:"Quel adjectif décrit des coins de meuble qui ne sont pas anguleux ?",
- opts:["arrondis","accidentels","apparentés","anormaux"],
+ opts:["apparentés","anormaux","arrondis","accidentels"],
  ans:"arrondis",
  hint:"This adjective describes edges that have been made smoother. Think of safe furniture for children."}
 

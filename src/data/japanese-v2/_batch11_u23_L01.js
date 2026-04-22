@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「せい」の接尾辞(せつびじ)(suffix)でどんなことばが作(つく)れますか？",
-     opts:["Abstract nouns like 重要性(じゅうようせい) (importance)","Verb forms","Adjective forms","Place names"],
+     opts:["Place names","Abstract nouns like 重要性(じゅうようせい) (importance)","Verb forms","Adjective forms"],
      ans:"Abstract nouns like 重要性(じゅうようせい) (importance)",
      hint:"This productive suffix turns adjective stems and other words into a... concept n.... Think: possible + (nature) = possibility."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"What is your purpose for going to Japan?"},
 
     {type:"mc", q:"「空気(くうき)を読(よ)む」はなんのことですか？",
-     opts:["Reading the social atmosphere/situation","Literally reading the air quality","A breathing exercise","A weather forecasting method"],
+     opts:["A breathing exercise","A weather forecasting method","Reading the social atmosphere/situation","Literally reading the air quality"],
      ans:"Reading the social atmosphere/situation",
      hint:"This famous Japanese concept involves sensing unspoken interpersonal dynamics. It is essentially perceiving the 状況(じょうきょう)."}
   ,{type:"match",pairs:[{trg:"関係(かんけい)",src:"relationship / connection"},{trg:"事実(じじつ)",src:"fact / truth"},{trg:"方法(ほうほう)",src:"method / way"},{trg:"状況(じょうきょう)",src:"situation / circumstances"},{trg:"価値(かち)",src:"value / worth"},{trg:"傾向(けいこう)",src:"tendency / trend"}]}]

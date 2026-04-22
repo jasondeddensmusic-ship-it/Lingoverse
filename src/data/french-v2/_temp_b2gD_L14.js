@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 14 — Nature and Animals
+// French B2 Gap Batch D Lesson 14. Nature and Animals
 const LESSON_14 = {id:"frv2_b2gD_l14", title:"Nature et animaux", icon:"🦅", xp:15, board:true, steps:[
   {type:"intro", title:"Nature et animaux",
    desc:"Expand your vocabulary for discussing wildlife, natural phenomena, and the animal kingdom.",
@@ -73,7 +73,7 @@ const LESSON_14 = {id:"frv2_b2gD_l14", title:"Nature et animaux", icon:"🦅", x
 
   {type:"mc",
    q:"Que signifie 'les précipitations' dans un bulletin météo?",
-   opts:["La pluie, la neige ou la grêle qui tombe","La vitesse du vent","La pression atmosphérique","La température maximale"],
+   opts:["La température maximale","La pluie, la neige ou la grêle qui tombe","La vitesse du vent","La pression atmosphérique"],
    ans:"La pluie, la neige ou la grêle qui tombe",
    hint:"In weather context, this plural noun describes all forms of moisture falling from the sky."},
 

@@ -1,4 +1,4 @@
-// L10: Digitale Wereld — Digital Life and Technology
+// L10: Digitale Wereld. Digital Life and Technology
 const LESSON_10 = {
   id:"nlv2_b2gC_l10", title:"Digitale Wereld", icon:"\u{1F4BB}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'Informatieverschaffing' betekent:",
-     opts:["Informatie verzamelen","Informatie verstrekken aan anderen","Informatie verwijderen","Informatie vertalen"],
+     opts:["Informatie verstrekken aan anderen","Informatie verwijderen","Informatie vertalen","Informatie verzamelen"],
      ans:"Informatie verstrekken aan anderen",
      hint:"'Verschaffen' means to provide or supply. It is about giving information to people."},
 

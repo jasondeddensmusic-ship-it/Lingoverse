@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 05: Kantoor & Werk
+// B2 Gap Batch A. Lesson 05: Kantoor & Werk
 // Theme: Office life, careers, workplace
 
 const LESSON_5 = {id:"nlv2_b2gA_l5", title:"Kantoor & Werk", icon:"\u{1F3E2}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_5 = {id:"nlv2_b2gA_l5", title:"Kantoor & Werk", icon:"\u{1F3E2}", x
    sSrc:"Our new office building is in the city centre."},
 
   {type:"mc", q:"De jobmarkt is heel krap. Wat betekent dat?",
-   opts:["there are more jobs than job seekers","there are no jobs available","salaries are very low","companies are closing"],
+   opts:["companies are closing","there are more jobs than job seekers","there are no jobs available","salaries are very low"],
    ans:"there are more jobs than job seekers",
    hint:"A tight (krap) j... market means demand for workers exceeds supply."},
 
@@ -77,7 +77,7 @@ const LESSON_5 = {id:"nlv2_b2gA_l5", title:"Kantoor & Werk", icon:"\u{1F3E2}", x
   ]},
 
   {type:"mc", q:"Uw indiensttreding is op 1 maart. Wat is 'indiensttreding'?",
-   opts:["the start of your employment","your resignation date","a job interview","your retirement date"],
+   opts:["a job interview","your retirement date","the start of your employment","your resignation date"],
    ans:"the start of your employment",
    hint:"In + dienst (service) + treding (entering). The moment you formally begin working."},
 

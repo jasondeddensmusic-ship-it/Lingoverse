@@ -92,7 +92,7 @@ const LESSON_14 = {id:"frv2_b1gap_l14", title:"Terroir et gastronomie", icon:"\u
 
 {type:"mc",
  q:"Comment dit-on qu'un conflit a été résolu sans tribunal ?",
- opts:["à l'amiable","à l'abattage","à l'alinéa","à l'assemblée"],
+ opts:["à l'assemblée","à l'amiable","à l'abattage","à l'alinéa"],
  ans:"à l'amiable",
  hint:"This expression means 'amicably' or 'out of court.' It avoids the slow legal system."},
 
@@ -137,7 +137,7 @@ const LESSON_14 = {id:"frv2_b1gap_l14", title:"Terroir et gastronomie", icon:"\u
 
 {type:"mc",
  q:"Quel mot français couvre à la fois une célébration de naissance et une célébration de mariage, là où l'anglais utilise deux mots distincts ?",
- opts:["anniversaire","annales","assemblée","adoption"],
+ opts:["assemblée","adoption","anniversaire","annales"],
  ans:"anniversaire",
  hint:"One word covers both birthdays and wedding anniversaries in French. Context tells you which."}
 

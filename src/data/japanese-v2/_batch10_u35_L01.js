@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"プライバシー保護(ほご)",src:"privacy protection"},{trg:"データ保護(ほご)",src:"data protection"},{trg:"監視(かんし)",src:"surveillance"},{trg:"自己決定権(じこけっていけん)",src:"self-determination"}]},
 
-    {type:"mc", q:"Which word means compliance?", opts:["コンプライアンス","デジタルデバイド","データ保護(ほご)","情報格差(じょうほうかくさ)"], ans:"コンプライアンス",
+    {type:"mc", q:"Which word means compliance?", opts:["情報格差(じょうほうかくさ)","コンプライアンス","デジタルデバイド","データ保護(ほご)"], ans:"コンプライアンス",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"フェイクニュース",src:"fake news"}]}]
 };

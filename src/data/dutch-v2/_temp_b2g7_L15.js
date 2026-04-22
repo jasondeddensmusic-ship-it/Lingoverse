@@ -90,7 +90,7 @@ const LESSON_15 = {
      funFact:"Dutch football clubs depend heavily on sponsors. The 'hoofdsponsor' gets their logo on the team shirt. Sponsorship deals can make or break a club."},
     {type:"mc",
      q:"Wat is een 'nieuwjaarsduik'?",
-     opts:["Een traditie waarbij mensen op 1 januari in koud water zwemmen","Een duik van een hoge toren","Een type nieuwjaarswens","Een sportieve wedstrijd"],
+     opts:["Een sportieve wedstrijd","Een traditie waarbij mensen op 1 januari in koud water zwemmen","Een duik van een hoge toren","Een type nieuwjaarswens"],
      ans:"Een traditie waarbij mensen op 1 januari in koud water zwemmen",
      hint:"'Nieuwjaar' (New Year) + 'duik' (dive). What Dutch tradition happens at the beach on January 1st?"},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_15 = {
      sSrc:"{1} languages like Dutch, German, and English have the same origin."},
     {type:"mc",
      q:"Welke regio in Nederland is het meest traditioneel katholiek?",
-     opts:["Het zuiden (Brabant en Limburg)","Het noorden (Friesland)","Het westen (de Randstad)","Het oosten (Overijssel)"],
+     opts:["Het westen (de Randstad)","Het oosten (Overijssel)","Het zuiden (Brabant en Limburg)","Het noorden (Friesland)"],
      ans:"Het zuiden (Brabant en Limburg)",
      hint:"Heiligenverering is still popular in this part of the Netherlands. Think of the provinces below the major rivers."}
   ]

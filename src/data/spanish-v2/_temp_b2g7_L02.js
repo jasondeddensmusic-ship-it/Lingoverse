@@ -13,7 +13,7 @@ const LESSON_2 = {id:"esv2_b2g7_l2",title:"Liderazgo empresarial",icon:"👔",xp
 {type:"teach",trg:"dar de alta",src:"to register / to sign up",pos:"verb",gender:null,note:"To officially register someone in a system. Opposite: dar de baja.",example:"A: ¿Ya te han dado de alta en la Seguridad Social?\nB: Sí, la empresa me dio de alta ayer.",exampleSrc:"A: Have they registered you in Social Security yet?\nB: Yes, the company registered me yesterday.",funFact:"In medical contexts, 'dar de alta' means to discharge a patient from hospital. Completely different situation."},
 {type:"mc",q:"¿Quién ocupa el puesto más alto en una empresa?",opts:["La directora ejecutiva","El coordinador","El jefe de equipo","El manifestante"],ans:"La directora ejecutiva",hint:"This role is the highest in the corporate hierarchy, equivalent to CEO."},
 {type:"fb",s:"El {1} colectivo garantiza los derechos de los trabajadores.",a:["convenio"],opts:["convenio","aumento","mandato","líder"],hint:"This is a formal agreement between unions and employers.",sSrc:"The collective {1} guarantees workers' rights."},
-{type:"mc",q:"Si pides un 'aumento de sueldo', quieres:",opts:["Ganar más dinero","Trabajar menos horas","Cambiar de departamento","Dejar tu trabajo"],ans:"Ganar más dinero",hint:"Think about what 'aumento' (increase) and 'sueldo' (salary) mean together."},
+{type:"mc",q:"Si pides un 'aumento de sueldo', quieres:",opts:["Dejar tu trabajo","Ganar más dinero","Trabajar menos horas","Cambiar de departamento"],ans:"Ganar más dinero",hint:"Think about what 'aumento' (increase) and 'sueldo' (salary) mean together."},
 {type:"fb",s:"La empresa me {1} de alta en la Seguridad Social el primer día.",a:["dio"],opts:["dio","pidió","quitó","buscó"],hint:"The verb 'dar' is used in this set phrase meaning to register officially.",sSrc:"The company {1} me in Social Security on the first day."},
 {type:"match",pairs:[
   {trg:"el líder",src:"the leader"},
@@ -22,7 +22,7 @@ const LESSON_2 = {id:"esv2_b2g7_l2",title:"Liderazgo empresarial",icon:"👔",xp
   {trg:"el convenio colectivo",src:"the collective agreement"},
   {trg:"dar de alta",src:"to register officially"}
 ]},
-{type:"mc",q:"Amancio Ortega es un ejemplo de:",opts:["Un magnate empresarial","Un coordinador deportivo","Un manifestante político","Un director de cine"],ans:"Un magnate empresarial",hint:"This word describes extremely wealthy and powerful business people."},
+{type:"mc",q:"Amancio Ortega es un ejemplo de:",opts:["Un manifestante político","Un director de cine","Un magnate empresarial","Un coordinador deportivo"],ans:"Un magnate empresarial",hint:"This word describes extremely wealthy and powerful business people."},
 {type:"fb",s:"María es la {1} del proyecto. Organiza todas las reuniones.",a:["coordinadora"],opts:["coordinadora","magnate","manifestante","legislación"],hint:"This person brings order by organizing people and activities.",sSrc:"María is the project {1}. She organizes all the meetings."}
 ]};
 export default LESSON_2;

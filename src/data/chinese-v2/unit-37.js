@@ -45,12 +45,12 @@ lessons:[
  funFact:"我来介绍一下 (let me introduce) is the standard polite opener when bringing two people together. The 一下 softens it, making the formality feel lighter and more natural."},
 
 {type:"mc", q:"朋友(péngyou) literally contains two characters that both mean:",
- opts:["work","same","home","friend"],
+ opts:["friend","work","same","home"],
  ans:"friend",
  hint:"The word doubles the same concept. Both characters carry the same meaning as the word itself."},
 
 {type:"mc", q:"To say 'my neighbor,' you use:",
- opts:["朋友(péngyou)","同事(tóngshì)","邻居(línjū)","老师(lǎoshī)"],
+ opts:["同事(tóngshì)","邻居(línjū)","老师(lǎoshī)","朋友(péngyou)"],
  ans:"邻居(línjū)",
  hint:"This word combines 'neighboring' + 'reside.' People who dwell next to you."},
 
@@ -117,7 +117,7 @@ lessons:[
  funFact:"打 appears in many verbs involving tools or devices: 打字 (to type, hit characters), 打伞 (to use umbrella), 打的 (to take a taxi). It originally meant 'strike' but has become a generic action marker."},
 
 {type:"mc", q:"聊天(liáotiān) literally means to chat so much you talk about:",
- opts:["work","food","the sky","family"],
+ opts:["the sky","family","work","food"],
  ans:"the sky",
  hint:"The second character is 天. This character refers to the vast thing above us all."},
 
@@ -172,7 +172,7 @@ lessons:[
  funFact:"热情 is a complimentary word. Calling someone 热情 means they go out of their way to welcome you. Its opposite, 冷淡 (cold), suggests someone cool or distant."},
 
 {type:"mc", q:"关心(guānxīn) connects which organ of the body to meaning?",
- opts:["head","stomach","heart","hand"],
+ opts:["heart","hand","head","stomach"],
  ans:"heart",
  hint:"The second character 心 refers to a vital internal organ that Chinese culture links to emotions."},
 

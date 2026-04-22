@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u7l6", title:"Allergie e dieta", icon:"\u26A0\uFE0F",
   ]},
 
   {type:"mc", q:"Why is Italy considered good for celiacs?",
-   opts:["Restaurants must offer gluten-free options by law","Italians do not eat wheat","Gluten does not exist in Italian food","Pasta is naturally gluten-free"],
+   opts:["Pasta is naturally gluten-free","Restaurants must offer gluten-free options by law","Italians do not eat wheat","Gluten does not exist in Italian food"],
    ans:"Restaurants must offer gluten-free options by law",
    hint:"Italian l... and the Celiac Association work together. Look for the crossed wheat stalk symbol."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u7l6", title:"Allergie e dieta", icon:"\u26A0\uFE0F",
    sSrc:"Does this dish {1} eggs?"},
 
   {type:"mc", q:"What does 'intollerante al lattosio' mean?",
-   opts:["Lactose intolerant","Allergic to milk","Dislikes dairy","Cannot eat cheese"],
+   opts:["Dislikes dairy","Cannot eat cheese","Lactose intolerant","Allergic to milk"],
    ans:"Lactose intolerant",
    hint:"An intolerance is different from an allergy. This is specifically about the sugar found in milk products."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u7l6", title:"Allergie e dieta", icon:"\u26A0\uFE0F",
    sSrc:"What are the {1}?"},
 
   {type:"mc", q:"What is the difference between 'vegetariano' and 'vegano'?",
-   opts:["Vegetarians eat dairy and eggs, vegans eat no animal products","They are the same","Vegans eat fish","Vegetarians eat no plants"],
+   opts:["They are the same","Vegans eat fish","Vegetarians eat no plants","Vegetarians eat dairy and eggs, vegans eat no animal products"],
    ans:"Vegetarians eat dairy and eggs, vegans eat no animal products",
    hint:"One avoids flesh foods only. The other goes further: nothing sourced from any living being is permitted, including cheese, honey, or wool."},
 

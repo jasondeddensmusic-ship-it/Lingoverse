@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 15: Strictness and Bodies
+// Korean B2. Batch 6, Lesson 15: Strictness and Bodies
 // Words: 얼리다, 얼마간, 얼음, 얼핏, 엄격하다, 엄숙하다, 엄청나다, 업다, 업종, 업체, 엇갈리다, 엉덩이, 엉망, 엉터리, 엊그제, 엎드리다, 엔(bound_noun), 엔진, 엘리베이터, 여(noun)
 
 const LESSON_15 = {
@@ -131,7 +131,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"'발표가 엉망이었다'는 무슨 뜻인가요?",
-     opts:["발표가 매우 안 좋았다","발표가 취소되었다","발표가 길었다","발표가 재미있었다"],
+     opts:["발표가 재미있었다","발표가 매우 안 좋았다","발표가 취소되었다","발표가 길었다"],
      ans:"발표가 매우 안 좋았다",
      hint:"엉망 describes a state of total mess or failure. If a presentation was 엉망, it went badly."},
 

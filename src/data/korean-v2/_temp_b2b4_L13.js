@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 13: Folk and Belief
+// Korean B2. Batch 4, Lesson 13: Folk and Belief
 // Words: 민속, 민주, 민주주의, 민주화, 믿어지다, 밀리다, 밀접하다, 밉다, 밑바닥, 바, 바가지, 바구니, 바깥쪽, 바닷물, 바람직하다, 바로잡다, 바싹, 바이러스, 바이올린, 바치다
 
 const LESSON_13 = {
@@ -119,7 +119,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'바가지를 쓰다'는 무슨 뜻인가요?",
-     opts:["물건을 비싸게 사다","바가지로 물을 떠다","모자를 쓰다","선물을 받다"],
+     opts:["선물을 받다","물건을 비싸게 사다","바가지로 물을 떠다","모자를 쓰다"],
      ans:"물건을 비싸게 사다",
      hint:"This idiom involving a gourd bowl means being overcharged or ripped off when buying something."},
 

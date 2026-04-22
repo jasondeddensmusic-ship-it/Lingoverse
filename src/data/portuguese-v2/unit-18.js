@@ -49,7 +49,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which reflexive pronoun covers 'ele', 'ela', and 'você'?",
- opts:["me","te","se","nos"],
+ opts:["se","nos","me","te"],
  ans:"se",
  hint:"One pronoun covers all third-person subjects."},
 
@@ -62,7 +62,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which reflexive pronoun matches 'nós'?",
- opts:["me","se","nos","vos"],
+ opts:["se","nos","vos","me"],
  ans:"nos",
  hint:"First person plural. Same form as the object pronoun."},
 
@@ -95,7 +95,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which sentence uses the reflexive correctly?",
- opts:["Eu se levanto cedo.","Eu me levanto cedo.","Eu te levanto cedo.","Eu nos levanto cedo."],
+ opts:["Eu te levanto cedo.","Eu nos levanto cedo.","Eu se levanto cedo.","Eu me levanto cedo."],
  ans:"Eu me levanto cedo.",
  hint:"Match the pronoun to the subject 'eu'."}
 ]},
@@ -163,13 +163,13 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"What does 'eu me visto' mean?",
- opts:["I wash myself","I get dressed","I get up","I sit down"],
+ opts:["I get dressed","I get up","I sit down","I wash myself"],
  ans:"I get dressed",
  hint:"Vestir is the core verb. Reflexive means the subject dresses itself."},
 
 {type:"mc",
  q:"Choose the correct verb: 'A que horas você ___ para a cama?'",
- opts:["se levanta","se senta","se deita","se veste"],
+ opts:["se senta","se deita","se veste","se levanta"],
  ans:"se deita",
  hint:"The question is about going to bed. Which reflexive matches?"},
 
@@ -197,7 +197,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which verb means 'to forget'?",
- opts:["lembrar-se","esquecer-se","sentar-se","vestir-se"],
+ opts:["vestir-se","lembrar-se","esquecer-se","sentar-se"],
  ans:"esquecer-se",
  hint:"Opposite of remembering."}
 ]},
@@ -250,7 +250,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which is the correct BR placement?",
- opts:["Chama-se João.","Se chama João.","Ele chama-se João.","Ele se chama João."],
+ opts:["Ele se chama João.","Chama-se João.","Se chama João.","Ele chama-se João."],
  ans:"Ele se chama João.",
  hint:"Brazilian prefers subject + reflexive + verb."},
 
@@ -276,7 +276,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which sentence means 'I fell in love with the city'?",
- opts:["Eu me apaixonei pela cidade.","Eu amei a cidade.","Eu me mudei pela cidade.","Eu me senti pela cidade."],
+ opts:["Eu me mudei pela cidade.","Eu me senti pela cidade.","Eu me apaixonei pela cidade.","Eu amei a cidade."],
  ans:"Eu me apaixonei pela cidade.",
  hint:"Reflexive + 'por' + object. '___' = por + a."},
 
@@ -304,7 +304,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"mc",
  q:"Which verb means 'to move to a new home'?",
- opts:["mudar-se","chamar-se","sentir-se","divertir-se"],
+ opts:["chamar-se","sentir-se","divertir-se","mudar-se"],
  ans:"mudar-se",
  hint:"Reflexive verb about changing residence."},
 

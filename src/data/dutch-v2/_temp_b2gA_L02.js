@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 02: Gezondheid & Welzijn
+// B2 Gap Batch A. Lesson 02: Gezondheid & Welzijn
 // Theme: Health systems, complaints, campaigns
 
 const LESSON_2 = {id:"nlv2_b2gA_l2", title:"Gezondheid & Welzijn", icon:"\u{1F3E5}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_2 = {id:"nlv2_b2gA_l2", title:"Gezondheid & Welzijn", icon:"\u{1F3E
    sSrc:"The doctor says I have an infection and need antibiotics."},
 
   {type:"mc", q:"Mijn moeder moet elke dag insuline spuiten. Wat is 'insuline'?",
-   opts:["a hormone that regulates blood sugar","an antibiotic","a type of vaccine","a painkiller"],
+   opts:["a painkiller","a hormone that regulates blood sugar","an antibiotic","a type of vaccine"],
    ans:"a hormone that regulates blood sugar",
    hint:"Essential for people with diabetes. Produced by the pancreas."},
 
@@ -77,7 +77,7 @@ const LESSON_2 = {id:"nlv2_b2gA_l2", title:"Gezondheid & Welzijn", icon:"\u{1F3E
   ]},
 
   {type:"mc", q:"Er is een tekort aan personeel in de hulpverleningssector. Wat is dat?",
-   opts:["the aid services sector","the healthcare sector","the education sector","the technology sector"],
+   opts:["the education sector","the technology sector","the aid services sector","the healthcare sector"],
    ans:"the aid services sector",
    hint:"Hulpverlening (a... provision) + s.... Think social work and emergency s...."},
 

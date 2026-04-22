@@ -106,7 +106,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"\uC8FC\uB9D0\uC5D0 \uB18D\uCD0C\uC5D0 \uAC00\uC11C \uC26C\uC5C8\uC5B4\uC694. '\uB18D\uCD0C'\uC740 \uBB34\uC2A8 \uB73B\uC774\uC5D0\uC694?",
-     opts:["factory","neighborhood","rural area","city center"],
+     opts:["neighborhood","rural area","city center","factory"],
      ans:"rural area",
      hint:"The Hanja combines 'farming' and 'village' to describe where agriculture happens."},
 
@@ -161,7 +161,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"\uC774 \uAC15\uC740 \uC815\uB9D0 \uAE4A\uC5B4\uC694. '\uAE4A\uB2E4'\uB294 \uBB34\uC2A8 \uB73B\uC774\uC5D0\uC694?",
-     opts:["to be wide","to be deep","to be tall","to be long"],
+     opts:["to be long","to be wide","to be deep","to be tall"],
      ans:"to be deep",
      hint:"Think about the opposite of shallow. This word describes rivers, oceans, or thoughts."},
 

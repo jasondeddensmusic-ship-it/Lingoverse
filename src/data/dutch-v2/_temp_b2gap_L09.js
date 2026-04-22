@@ -1,4 +1,4 @@
-// L09: Arts, Culture & Heritage — 20 B2 gap words
+// L09: Arts, Culture & Heritage, 20 B2 gap words
 const LESSON_9 = {
   id:"nlv2_b2gap_l9", title:"Kunst en Erfgoed", icon:"\uD83C\uDFA8", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_9 = {
      deepDive:{title:"Dutch cultural institutions",
       text:"Key Dutch cultural institutions:\n\n'Het Rijksmuseum' = national art museum (Rembrandt, Vermeer)\n'Het Van Gogh Museum' = largest Van Gogh collection\n'Het Mauritshuis' = home of Girl with a Pearl Earring\n'De Koninklijke Bibliotheek' = national library\n'Het Concertgebouw' = world-famous concert hall\n\nBelgian highlights:\n'Het KMSKA' = Royal Museum of Fine Arts Antwerp\n'De Koninklijke Musea' = Royal Museums of Brussels\n\nThe Netherlands and Belgium spend more on culture per capita than most European countries."}},
     {type:"mc", q:"What is the difference between 'ambachtelijk' and 'ambtelijk'?",
-     opts:["They mean the same thing","Ambachtelijk = artisanal, ambtelijk = bureaucratic","Ambachtelijk = old, ambtelijk = new","Ambachtelijk = Belgian, ambtelijk = Dutch"],
+     opts:["Ambachtelijk = artisanal, ambtelijk = bureaucratic","Ambachtelijk = old, ambtelijk = new","Ambachtelijk = Belgian, ambtelijk = Dutch","They mean the same thing"],
      ans:"Ambachtelijk = artisanal, ambtelijk = bureaucratic",
      hint:"One letter difference: a... (craft) vs a... (office)."},
     {type:"mc", q:"'Een blijk van waardering' means:",
@@ -132,7 +132,7 @@ const LESSON_9 = {
       {trg:"beeldentuin", src:"sculpture garden"}
     ]},
     {type:"mc", q:"'De Deventer Boekenmarkt' is famous for being:",
-     opts:["the oldest in the world","the largest book market in Europe","the most expensive","the smallest"],
+     opts:["the smallest","the oldest in the world","the largest book market in Europe","the most expensive"],
      ans:"the largest book market in Europe",
      hint:"Over 800 stalls of second-hand books in one Dutch city."},
     {type:"fb", s:"Het was maar een {1}.", a:["bagatel"],

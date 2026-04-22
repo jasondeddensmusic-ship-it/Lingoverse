@@ -1,4 +1,4 @@
-// Russian V2 Unit 1 — Greetings and Self-Introduction (A1.1)
+// Russian V2 Unit 1. Greetings and Self-Introduction (A1.1)
 const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!", sub:"First Words in Russian",
  icon:"👋", level:"A1.1", color:"#7B5EE8",
  lessons:[
@@ -55,7 +55,7 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
  text:"Russian is very sensitive to formality.\n\nINFORMAL (Привет / Пока):\nClose friends, family, children, peers your age.\n\nFORMAL (Здравствуйте / До свидания):\nStrangers, elders, service staff, anyone older than you at work.\n\nWhen in doubt, use formal. Russians will not be offended if you are too formal. They will be offended if you are too casual too fast."},
 
 {type:"mc", q:"Which greeting is appropriate for a business meeting with a stranger?",
- opts:["Привет","Пока","Здравствуйте","До свидания"],
+ opts:["Здравствуйте","До свидания","Привет","Пока"],
  ans:"Здравствуйте",
  hint:"You need the FORMAL greeting, not a goodbye. One word starts a conversation."},
 
@@ -84,7 +84,7 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 ]},
 
 {type:"mc", q:"What do До свидания and Пока have in common?",
- opts:["Both are morning greetings","Both are farewells","Both are informal","Both are questions"],
+ opts:["Both are questions","Both are morning greetings","Both are farewells","Both are informal"],
  ans:"Both are farewells",
  hint:"Think about WHEN in a conversation you would use each. One is formal, one is casual."}
 ]},
@@ -147,12 +147,12 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
  text:"Russian uses a unique sentence structure for names.\n\nSTRUCTURE: [Accusative pronoun] + зовут + [name]\n\nМеня зовут Лена. My name is Lena.\nТебя зовут Иван. Your name is Ivan.\nЕго зовут Саша. His name is Sasha.\nЕё зовут Маша. Her name is Masha.\n\nThe verb зовут means 'they call.' It is an IMPERSONAL construction with no subject. Don't translate literally. Just memorize the pattern."},
 
 {type:"mc", q:"How do you introduce yourself as 'Maria' in Russian?",
- opts:["Я Мария","Меня зовут Мария","Мой имя Мария","Это Мария"],
+ opts:["Меня зовут Мария","Мой имя Мария","Это Мария","Я Мария"],
  ans:"Меня зовут Мария",
  hint:"The most natural phrase uses 'me they-call' plus the name. Я Мария is possible but less common."},
 
 {type:"mc", q:"Which is the FORMAL way to ask someone's name?",
- opts:["Как тебя зовут?","Меня зовут?","Как вас зовут?","Я зовут?"],
+ opts:["Меня зовут?","Как вас зовут?","Я зовут?","Как тебя зовут?"],
  ans:"Как вас зовут?",
  hint:"The formal/plural 'you' pronoun appears in the question."},
 
@@ -213,12 +213,12 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
  funFact:"The standard response when someone tells you their name. You can also say Рад (m) or Рада (f) вас видеть (glad to see you)."},
 
 {type:"mc", q:"Someone says 'Спасибо.' What's the natural response?",
- opts:["Спасибо","Пожалуйста","Извините","До свидания"],
+ opts:["Пожалуйста","Извините","До свидания","Спасибо"],
  ans:"Пожалуйста",
  hint:"One word means both 'please' AND 'you're welcome' in Russian."},
 
 {type:"mc", q:"You need to get a stranger's attention on the street. What do you say?",
- opts:["Привет","Пока","Извините","Да"],
+ opts:["Пока","Извините","Да","Привет"],
  ans:"Извините",
  hint:"The formal 'excuse me/sorry' phrase. It doubles as 'excuse me' to start a polite interruption."},
 
@@ -242,7 +242,7 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
 ]},
 
 {type:"mc", q:"Why is Пожалуйста special?",
- opts:["It means 'goodbye'","It does the work of both 'please' AND 'you're welcome'","It's only used with children","It's the same as Спасибо"],
+ opts:["It's the same as Спасибо","It means 'goodbye'","It does the work of both 'please' AND 'you're welcome'","It's only used with children"],
  ans:"It does the work of both 'please' AND 'you're welcome'",
  hint:"This one word covers two English polite phrases."}
 ,

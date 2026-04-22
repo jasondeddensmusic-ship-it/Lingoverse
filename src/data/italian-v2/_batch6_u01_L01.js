@@ -1,4 +1,4 @@
-// Batch 6 — Unit 01 extra lesson. Greetings & Basics: At the Post Office & Police
+// Batch 6. Unit 01 extra lesson. Greetings & Basics: At the Post Office & Police
 const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F4EE}", xp:15, board:true, steps:[
 {type:"intro", title:"All'ufficio postale",
  desc:"Learn essential words for the post office, asking for directions, and basic polite requests in everyday situations.",
@@ -99,7 +99,7 @@ const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F
  sSrc:"I need to {1} this form with my details."},
 
 {type:"mc", q:"Cosa usi per spedire una lettera?",
- opts:["una busta e un francobollo","una bilancia e una coda","un modulo e una ricevuta","una cartolina e uno sportello"],
+ opts:["una cartolina e uno sportello","una busta e un francobollo","una bilancia e una coda","un modulo e una ricevuta"],
  ans:"una busta e un francobollo",
  hint:"You need something to put the letter in and something to stick on it."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F
  sSrc:"Put the package on the {1} to find out the weight."},
 
 {type:"mc", q:"Qual e il significato di 'aspettare'?",
- opts:["to wait","to send","to sign","to fill out"],
+ opts:["to sign","to fill out","to wait","to send"],
  ans:"to wait",
  hint:"What you do when the line at the post office is long."},
 

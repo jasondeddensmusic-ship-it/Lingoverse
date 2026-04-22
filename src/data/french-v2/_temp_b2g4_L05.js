@@ -86,7 +86,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Comment appelle-t-on un lieu sur et paisible ?",
-     opts:["un havre","un hangar","un depotoir","un fournil"],
+     opts:["un fournil","un havre","un hangar","un depotoir"],
      ans:"un havre",
      hint:"This word gave its name to a major French port city and is related to English 'harbor'."},
 
@@ -113,7 +113,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"D'ou vient le mot 'goudron' ?",
-     opts:["De l'arabe","Du latin","Du grec","Du germanique"],
+     opts:["Du grec","Du germanique","De l'arabe","Du latin"],
      ans:"De l'arabe",
      hint:"Many French words for materials and trade goods were borrowed during medieval contact with the Arab world."}
   ]

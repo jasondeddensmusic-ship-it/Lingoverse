@@ -1,4 +1,4 @@
-// Batch 3 — Unit 29 Lesson (Psychology: Clinical & Disorders)
+// Batch 3. Unit 29 Lesson (Psychology: Clinical & Disorders)
 const BATCH3_L_1 = {
   id:"itv2_u29l_b3_1", title:"Psicologia clinica", icon:"🩺", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra uno psicologo e uno psichiatra in Italia?",
-     opts:["Non c'è nessuna differenza pratica tra le due figure","Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato"],
+     opts:["Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no","Lo psicologo lavora solo con i bambini, lo psichiatra con gli adulti","Lo psichiatra lavora solo in ospedale, lo psicologo solo in studio privato","Non c'è nessuna differenza pratica tra le due figure"],
      ans:"Lo psichiatra e un medico che può prescrivere farmaci, lo psicologo no",
      hint:"One has a medical degree and can prescribe medication. The other works through talk therapy and assessment."},
 
@@ -114,9 +114,9 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche i servizi per le dipendenze (SerD) sono importanti nel sistema sanitario italiano?",
-     opts:["Perche forniscono trattamento gratuito per le tossicodipendenze e altre dipendenze","Perche sono gli unici centri autorizzati a vendere farmaci","Perche sostituiscono gli ospedali nelle zone rurali","Perche offrono diagnosi e ricovero per tutte le malattie mentali"],
+     opts:["Perche sostituiscono gli ospedali nelle zone rurali","Perche offrono diagnosi e ricovero per tutte le malattie mentali","Perche forniscono trattamento gratuito per le tossicodipendenze e altre dipendenze","Perche sono gli unici centri autorizzati a vendere farmaci"],
      ans:"Perche forniscono trattamento gratuito per le tossicodipendenze e altre dipendenze",
      hint:"These public health centers offer free counseling, medication, and rehabilitation for substance addiction and other dependencies."}
-  ,{type:"match",pairs:[{trg:"il disturbo",src:"the disorder"},{trg:"il questionario",src:"the questionnaire"},{trg:"il narcisismo",src:"narcissism"},{trg:"il campione",src:"the sample (research)"}]},{type:"mc",q:"How do you say \"collective unconscious\" in Italian?",opts:["la finestra","l'inconscio collettivo","il tavolo","la bicicletta"],ans:"l'inconscio collettivo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il disturbo",src:"the disorder"},{trg:"il questionario",src:"the questionnaire"},{trg:"il narcisismo",src:"narcissism"},{trg:"il campione",src:"the sample (research)"}]},{type:"mc",q:"How do you say \"collective unconscious\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'inconscio collettivo"],ans:"l'inconscio collettivo",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

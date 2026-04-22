@@ -1,4 +1,4 @@
-// Korean V2 Unit 35 — B1 Vocabulary Expansion: Nature, Spaces & Movement
+// Korean V2 Unit 35. B1 Vocabulary Expansion: Nature, Spaces & Movement
 import L06 from './_temp_b1gap_L06.js';
 import L07 from './_temp_b1gap_L07.js';
 import L08 from './_temp_b1gap_L08.js';

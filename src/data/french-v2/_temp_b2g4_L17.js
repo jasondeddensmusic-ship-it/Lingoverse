@@ -86,7 +86,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"D'ou vient le mot francais 'flirter' ?",
-     opts:["De l'anglais, qui l'avait emprunte au vieux francais","De l'allemand","De l'italien","De l'espagnol"],
+     opts:["De l'espagnol","De l'anglais, qui l'avait emprunte au vieux francais","De l'allemand","De l'italien"],
      ans:"De l'anglais, qui l'avait emprunte au vieux francais",
      hint:"A circular borrowing. Old French 'fleureter' became English 'flirt', which French borrowed back."},
 
@@ -113,7 +113,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Comment decrit-on familierement une personne insupportable ?",
-     opts:["imbuvable","gracieux","genereux","flatteur"],
+     opts:["genereux","flatteur","imbuvable","gracieux"],
      ans:"imbuvable",
      hint:"Literally means undrinkable. Used colloquially for a person who is impossible to tolerate."}
   ]

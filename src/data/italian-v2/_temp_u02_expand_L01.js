@@ -99,7 +99,7 @@ const LESSON_3 = {
      sSrc:"It is half past {1}."},
 
     {type:"mc", q:"What is the gender of 'mezzanotte'?",
-     opts:["Feminine","Masculine","Neutral","It varies"],
+     opts:["It varies","Feminine","Masculine","Neutral"],
      ans:"Feminine",
      hint:"Compound nouns take the gender of their last element. 'Notte' is f..., so the compound is too."},
 
@@ -118,7 +118,7 @@ const LESSON_3 = {
     ]},
 
     {type:"mc", q:"How do you say 'quarter to eight'?",
-     opts:["Le otto meno un quarto","Le otto e un quarto","Le sette e un quarto","Le otto meno mezza"],
+     opts:["Le sette e un quarto","Le otto meno mezza","Le otto meno un quarto","Le otto e un quarto"],
      ans:"Le otto meno un quarto",
      hint:"Subtract from the next hour. 'M...' means minus. A quarter of an hour before eight."},
 
@@ -129,7 +129,7 @@ const LESSON_3 = {
      sSrc:"I wake up {1} in the morning, at six."},
 
     {type:"mc", q:"What does 'il Mezzogiorno' mean when capitalized?",
-     opts:["Southern Italy","Noon exactly","Midday meal","A city"],
+     opts:["Noon exactly","Midday meal","A city","Southern Italy"],
      ans:"Southern Italy",
      hint:"Capitalized, this word becomes a geographic term. It refers to the part of I... facing the sun at its peak."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 8: Kitchen and Temperature
+// Korean B2. Batch 2, Lesson 8: Kitchen and Temperature
 // Words: 냄비, 냇물, 냉동, 냉방, 넉, 넉넉하다, 널리, 넓어지다, 넘겨주다, 넘기다, 넘어뜨리다, 넘어오다, 넘어지다, 김, 녹다, 녹색, 녹음, 녹음하다, 녹이다, 녹차
 
 const LESSON_8 = {
@@ -119,7 +119,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"'넘어지다'와 '넘어뜨리다'의 차이는?",
-     opts:["스스로 넘어지다 vs 남을 넘어뜨리다","둘 다 같은 뜻이다","빨리 넘어지다 vs 천천히 넘어지다","앞으로 넘어지다 vs 뒤로 넘어지다"],
+     opts:["앞으로 넘어지다 vs 뒤로 넘어지다","스스로 넘어지다 vs 남을 넘어뜨리다","둘 다 같은 뜻이다","빨리 넘어지다 vs 천천히 넘어지다"],
      ans:"스스로 넘어지다 vs 남을 넘어뜨리다",
      hint:"One is falling by yourself (intransitive), the other is causing someone else to fall (transitive)."},
 

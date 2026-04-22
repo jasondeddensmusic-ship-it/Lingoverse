@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 12 — History and Heritage
+// French B2 Gap Batch D Lesson 12. History and Heritage
 const LESSON_12 = {id:"frv2_b2gD_l12", title:"Histoire et patrimoine", icon:"🏰", xp:15, board:true, steps:[
   {type:"intro", title:"Histoire et patrimoine",
    desc:"Build vocabulary for discussing historical events, cultural heritage, and the past in French.",
@@ -73,7 +73,7 @@ const LESSON_12 = {id:"frv2_b2gD_l12", title:"Histoire et patrimoine", icon:"�
 
   {type:"mc",
    q:"Qu'est-ce qu'un obus?",
-   opts:["Un projectile tiré par un canon","Un mur de fortification","Un type de bouclier","Un casque militaire"],
+   opts:["Un casque militaire","Un projectile tiré par un canon","Un mur de fortification","Un type de bouclier"],
    ans:"Un projectile tiré par un canon",
    hint:"This military term refers to what heavy weapons fire. Many are still found in French soil from WWI."},
 

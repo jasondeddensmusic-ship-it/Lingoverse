@@ -1,4 +1,4 @@
-// Lesson 14 — Sports & Leisure
+// Lesson 14. Sports & Leisure
 const LESSON_14 = {id:"nlv2_b2g8_l14", title:"Sport en Vrije Tijd", icon:"\u{26BD}", xp:20, board:true, steps:[
 {type:"intro", title:"Sport en Vrije Tijd", desc:"Sports and leisure vocabulary for discussing physical activities, hobbies, and Dutch sporting culture at B2 level.", goals:["Learn 10 sports and leisure words","Discuss sporting events and hobbies","Understand Dutch sporting culture"]},
 {type:"teach", trg:"joggen", src:"to jog", pos:"verb", gender:null, note:"From English. PP: gejogd.\n'Elke ochtend joggen' = to jog every morning.\nAlso: 'hardlopen' (more Dutch).", example:"A: Ga je vaak joggen?\nB: Ja, drie keer per week.\nA: Waar loop je het liefst?\nB: In het Vondelpark, dat is het mooist.", exampleSrc:"A: Do you jog often?\nB: Yes, three times a week.\nA: Where do you prefer to run?\nB: In the Vondelpark, that is the nicest.", funFact:"'Hardlopen' is the more typically Dutch word, but 'joggen' is widely used. The Netherlands has over 2 million recreational runners."},
@@ -14,7 +14,7 @@ const LESSON_14 = {id:"nlv2_b2g8_l14", title:"Sport en Vrije Tijd", icon:"\u{26B
 {type:"mc", q:"Wat is kaatsen?", opts:["Een Friese balsport","Een kaartspel","Een type zwemmen","Een danssoort"], ans:"Een Friese balsport", hint:"A traditional sport from Friesland played with a leather ball"},
 {type:"fb", s:"Ze willen die oude bomen {1} voor een nieuwe weg.", a:["kappen"], opts:["kappen","kampen","kantelen","kaatsen"], hint:"To chop down trees", sSrc:"They want to {1} those old trees for a new road."},
 {type:"match", pairs:[{trg:"joggen", src:"to jog"},{trg:"kampen", src:"to struggle"},{trg:"kantelen", src:"to tilt"},{trg:"kapen", src:"to hijack"}]},
-{type:"mc", q:"Wat betekent 'Kap ermee!' in spreektaal?", opts:["Stop ermee!","Knip het af!","Ga weg!","Doe het opnieuw!"], ans:"Stop ermee!", hint:"An informal way to tell someone to s... doing something"},
+{type:"mc", q:"Wat betekent 'Kap ermee!' in spreektaal?", opts:["Doe het opnieuw!","Stop ermee!","Knip het af!","Ga weg!"], ans:"Stop ermee!", hint:"An informal way to tell someone to s... doing something"},
 {type:"fb", s:"Wie is de {1} op het festival vanavond?", a:["hoofdact"], opts:["hoofdact","hobbyclub","jukebox","hoofdwond"], hint:"The main performer at a concert or festival", sSrc:"Who is the {1} at the festival tonight?"},
 {type:"drag_fill", s:"We {1} met veel problemen: {2} en hoge kosten.", blanks:{"1":"kampen","2":"personeelstekort"}, pool:["kampen","personeelstekort","joggen","overvloed"], hint:"Struggling with staff shortage and expenses."}
 ]};

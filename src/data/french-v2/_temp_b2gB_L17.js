@@ -76,7 +76,7 @@ const LESSON_17 = {
      sSrc:"You need to {1} this thesis with solid evidence."},
 
     {type:"mc", q:"'Un tour de passe-passe' est:",
-     opts:["Une manoeuvre trompeuse","Un voyage rapide","Un exploit sportif","Un exercice physique"],
+     opts:["Un exercice physique","Une manoeuvre trompeuse","Un voyage rapide","Un exploit sportif"],
      ans:"Une manoeuvre trompeuse",
      hint:"The expression comes from magic shows and implies deceptive trickery"},
 
@@ -93,7 +93,7 @@ const LESSON_17 = {
      sSrc:"I {1} that your point of view is valid."},
 
     {type:"mc", q:"Que signifie 'apporter des nuances'?",
-     opts:["Rendre une analyse plus precise","Ajouter des couleurs","Simplifier un probleme","Ignorer les details"],
+     opts:["Simplifier un probleme","Ignorer les details","Rendre une analyse plus precise","Ajouter des couleurs"],
      ans:"Rendre une analyse plus precise",
      hint:"Nuance means subtle differences, so adding them makes analysis more refined"},
 
@@ -103,7 +103,7 @@ const LESSON_17 = {
      sSrc:"The study completely {1} the previous conclusions."},
 
     {type:"mc", q:"Le {1} des jeunes electeurs se traduit par l'abstention.",
-     opts:["desillusionment","contrario","nuance","defi"],
+     opts:["contrario","nuance","defi","desillusionment"],
      ans:"desillusionment",
      hint:"The loss of ideals and hopes about the political system"},
 

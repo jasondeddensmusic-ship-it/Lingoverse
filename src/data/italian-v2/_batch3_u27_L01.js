@@ -1,4 +1,4 @@
-// Batch 3 — Unit 27 Lesson (Science: Lab & Chemistry)
+// Batch 3. Unit 27 Lesson (Science: Lab & Chemistry)
 const BATCH3_L_1 = {
   id:"itv2_u27l_b3_1", title:"Il laboratorio e la chimica", icon:"⚗️", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Chi fu il primo scienziato a usare sistematicamente il microscopio per la ricerca biologica?",
-     opts:["Galileo Galilei","Marcello Malpighi","Leonardo da Vinci","Lazzaro Spallanzani"],
+     opts:["Marcello Malpighi","Leonardo da Vinci","Lazzaro Spallanzani","Galileo Galilei"],
      ans:"Marcello Malpighi",
      hint:"This Bolognese scientist discovered capillaries in the 1660s, completing our understanding of blood circulation."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche è importante controllare tutte le variabili di un esperimento?",
-     opts:["Per rendere l'esperimento più lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare più reagenti possibili nel processo","Per pubblicare il lavoro su una rivista internazionale"],
+     opts:["Per pubblicare il lavoro su una rivista internazionale","Per rendere l'esperimento più lungo e dettagliato","Per garantire che i risultati siano affidabili e replicabili","Per usare più reagenti possibili nel processo"],
      ans:"Per garantire che i risultati siano affidabili e replicabili",
      hint:"If uncontrolled factors interfere, you cannot be sure what caused the result. Reliability and reproducibility depend on this."}
   ,{type:"match",pairs:[{trg:"la sostanza",src:"the substance"},{trg:"la formula",src:"the formula"},{trg:"il campione",src:"the sample / specimen"},{trg:"la variabile",src:"the variable"},{trg:"il fenomeno",src:"the phenomenon"},{trg:"la precisione",src:"the precision / accuracy"}]},

@@ -80,7 +80,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quelle langue germanique est parlée dans le nord de la France ?",
-     opts:["le flamand","le finnois","le gaélique","l'islandais"],
+     opts:["l'islandais","le flamand","le finnois","le gaélique"],
      ans:"le flamand",
      hint:"A dialect closely related to Dutch, spoken in the Dunkirk region and Belgium."},
 
@@ -131,7 +131,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel terme familier décrit une personne complètement dépassée ?",
-     opts:["un diplodocus","un jockey","un binocle","un crustacé"],
+     opts:["un binocle","un crustacé","un diplodocus","un jockey"],
      ans:"un diplodocus",
      hint:"A dinosaur name used as slang. Think of someone hopelessly stuck in the past."},
 

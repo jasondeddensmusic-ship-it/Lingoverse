@@ -1,4 +1,4 @@
-// L08: Feelings & Personality — Emotions and character
+// L08: Feelings & Personality. Emotions and character
 const LESSON_8 = {
   id:"esv2_a1gap_l8", title:"Cómo me siento", icon:"\u{1F60A}", xp:15, board:true,
   steps:[
@@ -111,7 +111,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"\u00bfQué significa 'prestar atención'?",
-     opts:["to pay attention","to lend money","to frighten","to be bored"],
+     opts:["to be bored","to pay attention","to lend money","to frighten"],
      ans:"to pay attention",
      hint:"The verb 'prestar' here means 'to give' and the noun means 'focus'. Together: to give your focus."},
 

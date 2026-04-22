@@ -1,4 +1,4 @@
-// L07: Huishouden en Wonen — Domestic Life and Housing
+// L07: Huishouden en Wonen. Domestic Life and Housing
 const LESSON_7 = {
   id:"nlv2_b2gD_l07", title:"Huishouden en Wonen", icon:"\u{1F3E0}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Wat betekent 'de kluts kwijt zijn'?",
-     opts:["In de war zijn, niet meer weten wat te doen","Verdwaald zijn in een stad","Je sleutels kwijt zijn","Moe zijn na het werk"],
+     opts:["Moe zijn na het werk","In de war zijn, niet meer weten wat te doen","Verdwaald zijn in een stad","Je sleutels kwijt zijn"],
      ans:"In de war zijn, niet meer weten wat te doen",
      hint:"This expression means to be confused or flustered. The word 'kluts' only exists in this fixed phrase."},
 

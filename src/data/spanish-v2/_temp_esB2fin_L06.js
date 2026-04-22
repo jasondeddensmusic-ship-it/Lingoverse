@@ -49,7 +49,7 @@ const LESSON_6 = {
      funFact:"From Latin 'testis' (witness). Romans needed three witnesses (testes) for valid legal transactions."},
 
     {type:"mc", q:"¿Quién dicta la sentencia en un juicio?",
-     opts:["El abogado","El testigo","El juez","El acusado"],
+     opts:["El juez","El acusado","El abogado","El testigo"],
      ans:"El juez",
      hint:"This official presides over the court and makes the final legal decision."},
 
@@ -136,7 +136,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"¿Qué es una 'denuncia'?",
-     opts:["Una sentencia del juez","Un informe formal presentado a la policía","Un recurso ante el tribunal","Un contrato legal"],
+     opts:["Un contrato legal","Una sentencia del juez","Un informe formal presentado a la policía","Un recurso ante el tribunal"],
      ans:"Un informe formal presentado a la policía",
      hint:"This is the official report you file with authorities when a crime has been committed."},
 
@@ -153,7 +153,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"¿Qué significa 'interponer un recurso'?",
-     opts:["Denunciar un delito","Pedir a un tribunal superior que revise una decisión","Declararse culpable","Contratar a un abogado"],
+     opts:["Declararse culpable","Contratar a un abogado","Denunciar un delito","Pedir a un tribunal superior que revise una decisión"],
      ans:"Pedir a un tribunal superior que revise una decisión",
      hint:"This legal action asks a higher court to reconsider a previous ruling."},
 

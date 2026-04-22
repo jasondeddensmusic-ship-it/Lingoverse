@@ -74,7 +74,7 @@ const BATCH2_U16_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'avere fegato' mean in Italian slang?",
-     opts:["To have a liver disease","To be very hungry","To have courage or guts","To be in excellent health"],
+     opts:["To have courage or guts","To be in excellent health","To have a liver disease","To be very hungry"],
      ans:"To have courage or guts",
      hint:"The Romans considered the liver the seat of bravery. This idiomatic expression means 'to have nerve' or 'to be bold.'"},
 
@@ -104,7 +104,7 @@ const BATCH2_U16_L1 = {
      sSrc:"I need to strengthen the {1} system."},
 
     {type:"mc", q:"Why is 'pressione bassa' taken seriously in Italy?",
-     opts:["Because it causes severe heart attacks in all cases","Because Italian doctors consider it a genuine medical condition","Because it is legally required to treat it immediately","Because it affects the brain more than other organs"],
+     opts:["Because it affects the brain more than other organs","Because it causes severe heart attacks in all cases","Because Italian doctors consider it a genuine medical condition","Because it is legally required to treat it immediately"],
      ans:"Because Italian doctors consider it a genuine medical condition",
      hint:"Unlike in some countries, low blood pressure is treated with lifestyle changes, coffee, and dietary salt adjustments in Italy."},
 
@@ -115,7 +115,7 @@ const BATCH2_U16_L1 = {
      sSrc:"The {1} is a bit high. I need to eat better."},
 
     {type:"mc", q:"What do you need from a GP to see a specialist in Italy's public system?",
-     opts:["A private insurance card","An impegnativa (referral)","A signed letter from a family member","A direct appointment without any referral"],
+     opts:["A signed letter from a family member","A direct appointment without any referral","A private insurance card","An impegnativa (referral)"],
      ans:"An impegnativa (referral)",
      hint:"The 'medico di base' writes this document to authorize a specialist visit. Without it, you pay the full private rate."}
   ,{type:"match",pairs:[{trg:"la circolazione",src:"the circulation (blood)"},{trg:"il reflusso",src:"acid reflux / heartburn"},{trg:"la visita di controllo",src:"the check-up / follow-up visit"}]}]

@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"俳句(はいく)",src:"haiku"},{trg:"短歌(たんか)",src:"tanka"},{trg:"物語(ものがたり)",src:"tale or story"},{trg:"作家(さっか)",src:"author"}]},
 
-    {type:"mc", q:"Which word means literary style?", opts:["文体(ぶんたい)","批評(ひひょう)","短歌(たんか)","比喩(ひゆ)"], ans:"文体(ぶんたい)",
+    {type:"mc", q:"Which word means literary style?", opts:["比喩(ひゆ)","文体(ぶんたい)","批評(ひひょう)","短歌(たんか)"], ans:"文体(ぶんたい)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"著作権(ちょさくけん)",src:"copyright"}]}]
 };

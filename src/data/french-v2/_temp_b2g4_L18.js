@@ -86,7 +86,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel adjectif signifie 'etudie en profondeur' ?",
-     opts:["approfondie","differencie","adopte","grotesque"],
+     opts:["grotesque","approfondie","differencie","adopte"],
      ans:"approfondie",
      hint:"From 'approfondir' meaning to deepen. Used for thorough analysis or in-depth study."},
 
@@ -113,7 +113,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"En francais suisse, comment dit-on soixante-dix ?",
-     opts:["septante","soixante-dix","huitante","octante"],
+     opts:["huitante","octante","septante","soixante-dix"],
      ans:"septante",
      hint:"Geneva uses a simpler number system than France. This word replaces the complex 'sixty-ten'."}
   ]

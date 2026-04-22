@@ -1,4 +1,4 @@
-// Batch 7 — Unit 02 extra lesson. Numbers, Days & Time: Ordinal Numbers & Measurements
+// Batch 7. Unit 02 extra lesson. Numbers, Days & Time: Ordinal Numbers & Measurements
 const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"\u{1F4CF}", xp:15, board:true, steps:[
 {type:"intro", title:"Misure e numeri ordinali",
  desc:"Learn ordinal numbers, basic measurements, and how to express dimensions and quantities in Italian.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
 ]},
 
 {type:"mc", q:"In Italia, come si esprime l'altezza?",
- opts:["In metri e centimetri","In piedi e pollici","In chilometri","In litri"],
+ opts:["In litri","In metri e centimetri","In piedi e pollici","In chilometri"],
  ans:"In metri e centimetri",
  hint:"Italy uses the metric system. Height uses the base unit of length."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u02l_b7_1", title:"Misure e numeri ordinali", icon:"
  sSrc:"One {1} of milk, please."},
 
 {type:"mc", q:"Che cosa significa 'la metà della pizza'?",
- opts:["half of the pizza","the price of the pizza","the size of the pizza","double the pizza"],
+ opts:["the size of the pizza","double the pizza","half of the pizza","the price of the pizza"],
  ans:"half of the pizza",
  hint:"When you divide something into two equal parts, each part is this."},
 

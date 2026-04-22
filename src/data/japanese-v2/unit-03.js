@@ -266,18 +266,18 @@ const UNIT_03 = {
    deepDive:{title:"Where vs whether",
     text:"どこですか (where is it?) assumes the thing exists.\nありますか (is there?) questions existence.\n\nIn A1 Japanese, は + どこ and が + あります are the two patterns you need most."}},
 
-  {type:"mc", q:"駅(えき) means:", opts:["room","station","newspaper","window"], ans:"station",
+  {type:"mc", q:"駅(えき) means:", opts:["station","newspaper","window","room"], ans:"station",
    hint:"This is where you catch trains and subways in Japan."},
 
-  {type:"mc", q:"部屋(へや) means:", opts:["store","window","room","station"], ans:"room",
+  {type:"mc", q:"部屋(へや) means:", opts:["window","room","station","store"], ans:"room",
    hint:"Any enclosed space inside a building, including a bedroom or classroom."},
 
-  {type:"mc", q:"Which word means 'newspaper'?", opts:["窓(まど)","新聞(しんぶん)","店(みせ)","駅(えき)"], ans:"新聞(しんぶん)",
+  {type:"mc", q:"Which word means 'newspaper'?", opts:["駅(えき)","窓(まど)","新聞(しんぶん)","店(みせ)"], ans:"新聞(しんぶん)",
    hint:"A compound of 'new' and 'hear/news.' Print media you read daily."},
 
   {type:"match", pairs:[{trg:"駅(えき)",src:"station"},{trg:"店(みせ)",src:"store / shop"},{trg:"部屋(へや)",src:"room"},{trg:"窓(まど)",src:"window"}]},
 
-  {type:"mc", q:"あの店(みせ)は本(ほん)の店(みせ)です means:", opts:["That shop sells windows","That shop sells keys","That shop is a bookshop","That is a train station"], ans:"That shop is a bookshop",
+  {type:"mc", q:"あの店(みせ)は本(ほん)の店(みせ)です means:", opts:["That is a train station","That shop sells windows","That shop sells keys","That shop is a bookshop"], ans:"That shop is a bookshop",
    hint:"本 (book) + の attaches it attributively to 店. The の construction names what the store sells."},
 
   {type:"fb", s:"すみません、{1}はどこですか?\n(Excuse me, where is the station?)", a:"駅(えき)", opts:["駅(えき)","店(みせ)","窓(まど)","部屋(へや)"], sSrc:"Excuse me, where is the station?",
@@ -288,7 +288,7 @@ const UNIT_03 = {
 
   {type:"match", pairs:[{trg:"新聞(しんぶん)",src:"newspaper"},{trg:"窓(まど)",src:"window"},{trg:"駅(えき)",src:"station"},{trg:"部屋(へや)",src:"room"}]},
 
-  {type:"mc", q:"窓口(まどぐち) is derived from:", opts:["newspaper + floor","window + opening","station + exit","room + key"], ans:"window + opening",
+  {type:"mc", q:"窓口(まどぐち) is derived from:", opts:["window + opening","station + exit","room + key","newspaper + floor"], ans:"window + opening",
    hint:"The second character means the same thing as a mouth-shaped gap in a wall. Together the compound describes a service counter."},
 ]},
 

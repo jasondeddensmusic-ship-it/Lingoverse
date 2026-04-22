@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 6 — Work and Entrepreneurship
+// French B2 Gap Lesson 6. Work and Entrepreneurship
 const LESSON_6 = {id:"frv2_b2g5_l6", title:"Travail et entrepreneuriat", icon:"💼", xp:15, board:true, steps:[
   {type:"intro", title:"Travail et entrepreneuriat",
    desc:"Learn vocabulary for discussing professional life, business creation, and workplace dynamics at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_6 = {id:"frv2_b2g5_l6", title:"Travail et entrepreneuriat", icon:"�
    funFact:"From 'in-' (not) + 'capacité' (capacity). Legal 'incapacité' means inability to exercise rights."},
 
   {type:"mc", q:"Quel mot désigne un pair dans la même profession?",
-   opts:["Un confrère","Un contradicteur","Un forçat","Un abonné"],
+   opts:["Un abonné","Un confrère","Un contradicteur","Un forçat"],
    ans:"Un confrère",
    hint:"A fellow professional, more formal than 'collègue'"},
 
@@ -105,7 +105,7 @@ const LESSON_6 = {id:"frv2_b2g5_l6", title:"Travail et entrepreneuriat", icon:"�
   ]},
 
   {type:"mc", q:"Que signifie 'travailler comme un forçat'?",
-   opts:["Travailler énormément","Travailler en prison","Travailler avec plaisir","Travailler en équipe"],
+   opts:["Travailler avec plaisir","Travailler en équipe","Travailler énormément","Travailler en prison"],
    ans:"Travailler énormément",
    hint:"The figurative meaning compares excessive work to forced labor"},
 
@@ -120,7 +120,7 @@ const LESSON_6 = {id:"frv2_b2g5_l6", title:"Travail et entrepreneuriat", icon:"�
    hint:"The person managing the organization left due to strategic disagreements"},
 
   {type:"mc", q:"Quel mot désigne une personne inscrite à un service régulier?",
-   opts:["Un abonné","Un commercial","Un décorateur","Un confrère"],
+   opts:["Un commercial","Un décorateur","Un confrère","Un abonné"],
    ans:"Un abonné",
    hint:"Someone who pays for ongoing access to a magazine, streaming service, or channel"}
 ]};

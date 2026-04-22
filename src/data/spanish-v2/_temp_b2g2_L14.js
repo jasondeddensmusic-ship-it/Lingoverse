@@ -90,7 +90,7 @@ const LESSON_14 = {id:"esv2_b2g2_l14",title:"Ciencia y conocimiento",icon:"🔬"
  exampleSrc:"A: Put an asterisk next to the new words.\nB: That way we will know which ones to review later.",
  funFact:"From Greek asteriskos (little star). In Spanish texting, asterisks are used to correct typos."},
 
-{type:"mc",q:"¿Qué es la autoevaluación?",opts:["Evaluarse a uno mismo","Evaluar a los demás","Un tipo de examen oficial","Una calificación final"],ans:"Evaluarse a uno mismo",hint:"Think about the process where you assess your own strengths and weaknesses."},
+{type:"mc",q:"¿Qué es la autoevaluación?",opts:["Una calificación final","Evaluarse a uno mismo","Evaluar a los demás","Un tipo de examen oficial"],ans:"Evaluarse a uno mismo",hint:"Think about the process where you assess your own strengths and weaknesses."},
 
 {type:"teach",trg:"la abstracción",src:"the abstraction",pos:"noun",gender:"f",
  note:"Feminine noun. The process of thinking about concepts rather than concrete things.",

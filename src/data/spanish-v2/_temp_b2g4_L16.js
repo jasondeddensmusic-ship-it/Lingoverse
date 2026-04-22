@@ -84,7 +84,7 @@ const LESSON_16 = {id:"esv2_b2g4_l16",title:"Hogar y alimentación",icon:"🍲",
  exampleSrc:"A: I prefer to sweeten my coffee with honey instead of sugar.\nB: Honey gives it a special flavor.",
  funFact:"'Endulzar la píldora' (to sugar the pill) means to make bad news easier to accept."},
 
-{type:"mc",q:"El 'amoníaco' se usa comúnmente para:",opts:["Limpiar superficies del hogar","Cocinar pescado","Regar las plantas","Decorar paredes"],ans:"Limpiar superficies del hogar",hint:"Think about a strong chemical commonly found under kitchen sinks for cleaning."},
+{type:"mc",q:"El 'amoníaco' se usa comúnmente para:",opts:["Decorar paredes","Limpiar superficies del hogar","Cocinar pescado","Regar las plantas"],ans:"Limpiar superficies del hogar",hint:"Think about a strong chemical commonly found under kitchen sinks for cleaning."},
 
 {type:"fb",s:"Prefiero {1} el té con miel en vez de azúcar.",a:["endulzar"],opts:["endulzar","enlosar","enmascarar","enmarcar"],hint:"To add sweetness to a drink or food.",sSrc:"I prefer to {1} the tea with honey instead of sugar."},
 

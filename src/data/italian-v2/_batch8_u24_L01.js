@@ -1,4 +1,4 @@
-// Batch 8 — Unit 24 extra lesson. If-Clauses: Regrets & Missed Opportunities
+// Batch 8. Unit 24 extra lesson. If-Clauses: Regrets & Missed Opportunities
 const BATCH8_L1 = {id:"itv2_u24l_b8_1", title:"Rimpianti e occasioni", icon:"⏳", xp:15, board:true, steps:[
 {type:"intro", title:"Rimpianti e occasioni",
  desc:"Learn to express regrets, missed opportunities, and unrealized possibilities using conditional structures.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u24l_b8_1", title:"Rimpianti e occasioni", icon:"⏳
 
 {type:"mc",
  q:"What does 'l'occasione fa l'uomo ladro' mean?",
- opts:["Opportunity makes the thief (temptation can corrupt anyone)","Thieves create opportunities","Crime never pays","Always lock your doors"],
+ opts:["Always lock your doors","Opportunity makes the thief (temptation can corrupt anyone)","Thieves create opportunities","Crime never pays"],
  ans:"Opportunity makes the thief (temptation can corrupt anyone)",
  hint:"This proverb says that even honest people can be tempted when the right circumstances arise."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u24l_b8_1", title:"Rimpianti e occasioni", icon:"⏳
 
 {type:"mc",
  q:"What word gives us 'trivial' through the concept of a three-road crossroads?",
- opts:["Trivio","Bivio","Quadrivio","Via"],
+ opts:["Quadrivio","Via","Trivio","Bivio"],
  ans:"Trivio",
  hint:"Three roads meeting at a point. Common things discussed there by passersby became 'trivial' (ordinary)."}
 ,{type:"match",pairs:[{trg:"il destino",src:"the destiny / fate"},{trg:"la conseguenza",src:"the consequence"},{trg:"il rimorso",src:"the remorse"}]},{type:"mc",q:"How do you say \"opportunity / occasion\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'occasione"],ans:"l'occasione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};

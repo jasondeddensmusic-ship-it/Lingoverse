@@ -98,7 +98,7 @@ const LESSON_9 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"'잘했어요!'는 어떤 뜻이에요?",
-     opts:["미안하다는 말","인사하는 말","질문하는 말","칭찬하는 말"],
+     opts:["질문하는 말","칭찬하는 말","미안하다는 말","인사하는 말"],
      ans:"칭찬하는 말",
      hint:"Teachers and parents say this when someone performs well. It expresses praise and encouragement."},
 
@@ -151,7 +151,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'한국어'와 '한국말'의 차이는 뭐예요?",
-     opts:["같은 뜻이에요","한국어는 격식, 한국말은 일상","한국어는 글, 한국말은 한자","한국말은 일본어에요"],
+     opts:["한국말은 일본어에요","같은 뜻이에요","한국어는 격식, 한국말은 일상","한국어는 글, 한국말은 한자"],
      ans:"한국어는 격식, 한국말은 일상",
      hint:"One uses the Sino-Korean suffix 어 (formal), the other uses the native Korean word 말 (casual speech)."}
   ]

@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Your Japanese is fluent.\nB: Not yet. I will try harder.",
      funFact:"ぺらぺら mimics the sound of pages flipping rapidly, applied to speech flowing smoothly. It is one of the highest compliments for a language learner. 日本人(にほんじん) is also ぺらぺら when speaking fast. The humble response まだまだ (not yet, far from it) is the expected reply to such a compliment."},
 
-    {type:"mc", q:"すっきりする describes:", opts:["Feeling refreshed and clear","Being irritated","Spacing out","Being embarrassed"], ans:"Feeling refreshed and clear",
+    {type:"mc", q:"すっきりする describes:", opts:["Being embarrassed","Feeling refreshed and clear","Being irritated","Spacing out"], ans:"Feeling refreshed and clear",
      hint:"This f... comes after a shower, solving a problem, or cleaning up."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"日本語(にほんご)が{1}ですね。\n(Your Japanese is fluent.)", a:"ぺらぺら", opts:["ぺらぺら","ぼんやり","すっきり","どきどき"], sSrc:"Your Japanese is fluent.",
      hint:"This onomatopoeia describes smooth, rapid speech ability."},
 
-    {type:"mc", q:"ぼんやりする means:", opts:["To be absent-minded or space out","To be excited","To be irritated","To feel refreshed"], ans:"To be absent-minded or space out",
+    {type:"mc", q:"ぼんやりする means:", opts:["To be irritated","To feel refreshed","To be absent-minded or space out","To be excited"], ans:"To be absent-minded or space out",
      hint:"This word describes a foggy, unfocused mental state."}
   ,{type:"match",pairs:[{trg:"寂(さび)しい",src:"lonely / lonesome"},{trg:"恥(は)ずかしい",src:"embarrassed / ashamed"},{trg:"すっきりする",src:"to feel refreshed / to feel clear"},{trg:"ぼんやりする",src:"to be absent-minded / to space out"},{trg:"いらいらする",src:"to be irritated / to be agitated"}]},
   {type:"fb", s:"プレゼントをもらってとても{1}です。", a:["嬉(うれ)しい"], opts:["嬉(うれ)しい","悲(かな)しい","寂(さび)しい","恥(は)ずかしい"], hint:"The adjective describing the feeling of joy or delight when something good happens.", sSrc:"I am very {1} to have received a present."}

@@ -1,4 +1,4 @@
-// L17: Pronouns and Social Phrases — 20 A1 gap words
+// L17: Pronouns and Social Phrases, 20 A1 gap words
 const LESSON_17 = {
   id:"nlv2_a1gap_l17", title:"Voornaamwoorden en Sociale Zinnen", icon:"\u{1F4AC}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"___ is welkom op het feest!",
-     opts:["Iedereen","Niemand","Niets","Alles"],
+     opts:["Alles","Iedereen","Niemand","Niets"],
      ans:"Iedereen",
      hint:"Which pronoun means 'everyone'? The opposite of 'nobody'."},
 

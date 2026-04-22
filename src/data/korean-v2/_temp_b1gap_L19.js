@@ -40,7 +40,7 @@ const LESSON_19 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'손이 떨려요'에서 '떨리다'가 쓰인 이유는?",
-     opts:["손을 일부러 흔드니까","손이 저절로 떨리니까","손이 아프니까","손을 씻고 있으니까"],
+     opts:["손이 저절로 떨리니까","손이 아프니까","손을 씻고 있으니까","손을 일부러 흔드니까"],
      ans:"손이 저절로 떨리니까",
      hint:"This is the passive form. The shaking happens involuntarily, not by the speaker's choice."},
 
@@ -131,7 +131,7 @@ const LESSON_19 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'서울에서 부산까지 5시간 걸려요'에서 '걸리다'의 뜻은?",
-     opts:["잡히다","감기에 걸리다","시간이 소요되다","전화가 오다"],
+     opts:["감기에 걸리다","시간이 소요되다","전화가 오다","잡히다"],
      ans:"시간이 소요되다",
      hint:"In this sentence about travel duration, the verb refers to how much time is needed."},
 
@@ -183,7 +183,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'간단하다'와 '단순하다'의 차이는?",
-     opts:["같은 뜻이에요","간단은 '쉽다', 단순은 '복잡하지 않다(때로 부정적)'","간단은 부정적, 단순은 긍정적","간단은 명사, 단순은 동사"],
+     opts:["간단은 명사, 단순은 동사","같은 뜻이에요","간단은 '쉽다', 단순은 '복잡하지 않다(때로 부정적)'","간단은 부정적, 단순은 긍정적"],
      ans:"간단은 '쉽다', 단순은 '복잡하지 않다(때로 부정적)'",
      hint:"One word is always positive (easy/straightforward), the other can imply being too basic."}
   ]

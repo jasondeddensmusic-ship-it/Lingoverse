@@ -98,7 +98,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel adjectif décrit une personne qui a peur avant un examen ?",
-     opts:["angoissé","arrogant","amusant","admirable"],
+     opts:["admirable","angoissé","arrogant","amusant"],
      ans:"angoissé",
      hint:"This word describes a feeling of deep worry or distress about something upcoming."},
 
@@ -149,7 +149,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel adjectif change de sens selon sa position ?",
-     opts:["ancien","adorable","arrogant","absolu"],
+     opts:["arrogant","absolu","ancien","adorable"],
      ans:"ancien",
      hint:"This adjective has two different meanings depending on whether it comes before or after the noun it modifies."},
 

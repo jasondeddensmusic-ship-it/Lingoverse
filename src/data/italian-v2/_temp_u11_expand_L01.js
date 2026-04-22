@@ -87,7 +87,7 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
   ]},
 
   {type:"mc", q:"What does 'Cosa e successo?' mean?",
-   opts:["What happened?","What succeeded?","What is next?","What is the plan?"],
+   opts:["What is the plan?","What happened?","What succeeded?","What is next?"],
    ans:"What happened?",
    hint:"'Succedere' means to happen (not to succeed). Uses essere. Essential question for any situation."},
 
@@ -98,7 +98,7 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
    sSrc:"How much did you {1}?"},
 
   {type:"mc", q:"Why does 'rimanere' use essere in the past tense?",
-   opts:["It describes a state, not an action","It is regular","It is about money","It ends in -ere"],
+   opts:["It is about money","It ends in -ere","It describes a state, not an action","It is regular"],
    ans:"It describes a state, not an action",
    hint:"Staying in a place is a s... of being, not a transitive a.... Like movement verbs, s... verbs use essere."},
 
@@ -109,7 +109,7 @@ const LESSON_4 = {id:"itv2_u11l4", title:"Altri participi irregolari", icon:"\uD
    sSrc:"Did you {1} to the email?"},
 
   {type:"mc", q:"What is the difference between 'perso' and 'perduto'?",
-   opts:["Perso is everyday, perduto is literary/formal","They are different verbs","Perso is wrong","Perduto is informal"],
+   opts:["They are different verbs","Perso is wrong","Perduto is informal","Perso is everyday, perduto is literary/formal"],
    ans:"Perso is everyday, perduto is literary/formal",
    hint:"Both are past participles of 'perdere.' One is spoken Italian, the other appears in book titles and poetry."},
 

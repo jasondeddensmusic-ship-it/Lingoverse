@@ -92,7 +92,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Qui a invente le mot 'altruisme' ?",
-     opts:["Auguste Comte","Jean-Paul Sartre","Rene Descartes","Michel Foucault"],
+     opts:["Michel Foucault","Auguste Comte","Jean-Paul Sartre","Rene Descartes"],
      ans:"Auguste Comte",
      hint:"A French philosopher from the 1830s who also founded positivism."},
 
@@ -137,7 +137,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel philosophe francais a ecrit 'Le Mythe de Sisyphe' ?",
-     opts:["Camus","Sartre","Descartes","Voltaire"],
+     opts:["Descartes","Voltaire","Camus","Sartre"],
      ans:"Camus",
      hint:"The Nobel Prize-winning author who explored the philosophy of the absurd."},
 

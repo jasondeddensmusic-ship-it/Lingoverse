@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"遅(おく)れる", src:"to be late"}
     ]},
 
-    {type:"mc", q:"What does a Japanese train station issue when trains are delayed?", opts:["遅延証明書(ちえんしょうめいしょ) (delay certificate)","お詫(わ)びの手紙(てがみ) (apology letter)","割引券(わりびきけん) (discount ticket)","領収書(りょうしゅうしょ) (receipt)"], ans:"遅延証明書(ちえんしょうめいしょ) (delay certificate)",
+    {type:"mc", q:"What does a Japanese train station issue when trains are delayed?", opts:["領収書(りょうしゅうしょ) (receipt)","遅延証明書(ちえんしょうめいしょ) (delay certificate)","お詫(わ)びの手紙(てがみ) (apology letter)","割引券(わりびきけん) (discount ticket)"], ans:"遅延証明書(ちえんしょうめいしょ) (delay certificate)",
      hint:"Passengers use this document to prove to employers that the d... was not their fault."}
   ,{type:"fb", s:"すみません、10分(じゅっぷん){1}てしまいました。",
     a:["遅(おく)れる"],

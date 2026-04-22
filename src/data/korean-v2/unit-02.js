@@ -1,4 +1,4 @@
-// Korean V2 Unit 2 — 저는 학생이에요
+// Korean V2 Unit 2, 저는 학생이에요
 // Level: A1.1
 
 const UNIT_2 =
@@ -115,7 +115,7 @@ const UNIT_2 =
 ]},
 
 
-// ═══ L2c: 을/를 — The Object Marker ═══
+// ═══ L2c: 을/를. The Object Marker ═══
 {id:"kou2l2c",title:"을/를: Object Marker",icon:"🎯",xp:25,board:true,steps:[
  {type:"intro",title:"What the Verb Acts On",desc:"을/를\n→ object marker\n\nMarks WHAT the verb acts on.",goals:["Use 을/를 (object particle)","Choose 을 vs 를 based on final letter","See the full particle trio (은/는, 이/가, 을/를)","Parse Korean sentences into topic + object + verb"]},
  // ── Teach: 을/를 ──
@@ -301,7 +301,7 @@ const UNIT_2 =
   {type:"drag_fill",s:"A: 선생님이 어디에 있어요? B: {1}. 저도 {2}.",blanks:{"1":"몰라요","2":"몰라요"},pool:["알아요","몰라요","맞아요","정말요"],hint:"A asks where the teacher is. B has no idea. Neither does C."},
   {type:"mc",q:"진짜요? compared to 정말요? is:",opts:["More formal","More casual/emphatic","Less common","Completely different meaning"],ans:"More casual/emphatic",hint:"진짜 = real/true, often used with stronger feeling"},
   {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Only I understand (feeling)","Both I know and I understand","I want to know something"],ans:"Both I know and I understand",hint:"알아요 is used for both in daily conversation"},
-  {type:"mc",q:"'To know' in Korean (dictionary form) is:",opts:["알다","몰라요","맞아요","배우다"],ans:"알다",hint:"The ㄹ-irregular verb for knowing a person, fact, or information."},
+  {type:"mc",q:"'To know' in Korean (dictionary form) is:",opts:["몰라요","맞아요","배우다","알다"],ans:"알다",hint:"The ㄹ-irregular verb for knowing a person, fact, or information."},
 ]},
 
 // ═══ L9b: Question Words ═══
@@ -309,27 +309,27 @@ const UNIT_2 =
   {type:"intro",title:"Korean Question Words",desc:"누구 = who\n왜 = why\n어떻게 = how\n뭐 = what\n\nYou already know 어디 (where).\nNow: the full question set.",goals:["Use 누구 (who) in sentences","Ask 왜 (why)","Ask 어떻게 (how)","Formalize 뭐 (what) as a question word"]},
   {type:"tip",title:"Korean Question Words",text:"Korean questions keep the SAME word order as statements.\nJust swap the unknown part for a question word:\n\n선생님이 있어요. → 누가 있어요?\nThe teacher is here. → Who is here?\n\nNo word-order flip needed. Korean questions are simple.",deepDive:{title:"Question Word Positions",text:"Korean question words sit WHERE the answer would go:\n\n학교에 있어요 → 어디에 있어요?\n(school) → (where?)\n\n선생님이 있어요 → 누가 있어요?\n(teacher) → (who?)\n\nThis is the opposite of English, which moves the question word to the front."}},
   {type:"teach",kind:"word",nl:"친구",en:"friend",pos:"noun",gender:null,phonetic:"chin-gu",funFact:"Sino-Korean: 親 (close/kin) + 舊 (old acquaintance). A close, long-known companion.",example:"A: 이 사람은 누구예요? B: 제 친구예요.",exampleEn:"A: Who is this person? B: They are my friend.",note:"SINO-KOREAN: 친(close/親) + 구(old acquaintance/舊).\n'Close old-acquaintance' = friend.\n친구를 만나요 = I meet a friend.",deepDive:{title:"친구 in Korean Culture",text:"친구 is used only for people born in the same year.\nFor older friends: 형, 오빠, 누나, 언니.\nFor younger friends: 후배 (junior).\n\n친한 친구 = close friend.\n오래된 친구 = old friend (known for a long time)."}},
-  {type:"mc",q:"친구 means:",opts:["family member","friend","teacher","neighbor"],ans:"friend",hint:"From hanja: 親(close) + 舊(old acquaintance). Used only with people your own age."},
+  {type:"mc",q:"친구 means:",opts:["friend","teacher","neighbor","family member"],ans:"friend",hint:"From hanja: 親(close) + 舊(old acquaintance). Used only with people your own age."},
   {type:"teach",kind:"word",nl:"누구",en:"who",pos:"pron",gender:null,funFact:"As subject: 누가 (누구 + 이/가 → 누가).",phonetic:"nu-gu",example:"A: 이 사람은 누구예요? B: 제 친구예요.",exampleEn:"A: Who is this person? B: It's my friend.",note:"누구: who.\n누구예요?: 'Who is it?'\n\nAs subject: 누가 (누구 + 이/가 → 누가).\n누가 있어요?: 'Who is here?'"},
   {type:"teach",kind:"word",nl:"뭐",en:"what",pos:"pron",gender:null,funFact:"Formal form: 무엇 (mu-eot).",phonetic:"mwo",example:"A: 뭐 먹어요? B: 밥 먹어요.",exampleEn:"A: What are you eating? B: I'm eating rice.",note:"뭐: what (casual/spoken).\n뭐예요?: 'What is it?'\n\nFormal form: 무엇 (mu-eot).\nDaily speech: always 뭐."},
   {type:"teach",kind:"word",nl:"왜",en:"why",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"wae",example:"A: 왜 한국어를 배워요? B: 한국 음악이 좋아요.",exampleEn:"A: Why do you learn Korean? B: I like Korean music.",note:"왜: why.\n왜요?: 'Why?' (polite, standalone).\n\n왜 sits at the START of the clause."},
   {type:"teach",kind:"word",nl:"어떻게",en:"how",pos:"noun",gender:null,funFact:"Same root as 어떤 (what kind of), next card.",phonetic:"eo-tteo-ke",example:"A: 어떻게 가요? B: 버스로 가요.",exampleEn:"A: How do you get there? B: By bus.",note:"어떻게: how.\n어떻게 해요?: 'How do you do it?'\n\nSame root as 어떤 (what kind of), next card."},
   {type:"teach",kind:"word",nl:"어떤",en:"what kind of / which",pos:"noun",gender:null,funFact:"Both translate as 'what kind of' but differ:.",phonetic:"eo-tteon",example:"A: 어떤 음악 좋아해요? B: 한국 음악이요.",exampleEn:"A: What kind of music do you like? B: Korean music.",note:"어떤: what kind of / which.\nSame root as 어떻게 (how).\n\n어떤 음악? = what kind of music?\n어떤 사람? = what kind of person?",deepDive:{title:"어떤 vs 무슨",text:"Both translate as 'what kind of' but differ:\n\n무슨 요일이에요? = What day is it? (fixed set)\n어떤 음악 좋아해요? = What kind of music? (open choice)\n\n무슨: selecting from a known/limited set.\n어떤: asking about characteristics or preferences.\n\n무슨 색? = What color? (from a set)\n어떤 색? = What kind of color? (describe it)"}},
   {type:"teach",kind:"word",nl:"언제",en:"when",pos:"noun",gender:null,funFact:"Full question word set:.",phonetic:"eon-je",example:"A: 언제 와요? B: 내일 와요.",exampleEn:"A: When are you coming? B: Tomorrow.",note:"언제: when.\n언제요?: 'When?' (polite, standalone).\n\nFull question word set:\n어디, 누구, 뭐, 왜, 어떻게, 어떤, 언제."},
-  {type:"mc",q:"이 사람은 누구예요? This question asks:",opts:["Who is this person?","Where is this person?","What is this person doing?","When is this person coming?"],ans:"Who is this person?",hint:"누구 = who"},
-  {type:"mc",q:"왜 한국어를 배워요? means:",opts:["How do you learn Korean?","Why do you learn Korean?","What do you learn?","When do you learn Korean?"],ans:"Why do you learn Korean?",hint:"왜 = reason query"},
-  {type:"mc",q:"어떻게 가요? means:",opts:["Where do you go?","Why do you go?","How do you get there?","When do you go?"],ans:"How do you get there?",hint:"어떻게 = how"},
-  {type:"mc",q:"'Who is here?' uses which form?",opts:["누구 있어요?","누구는 있어요?","누구를 있어요?","누가 있어요?"],ans:"누가 있어요?",hint:"The question asks who is present. The subject marker changes the question word."},
+  {type:"mc",q:"이 사람은 누구예요? This question asks:",opts:["When is this person coming?","Who is this person?","Where is this person?","What is this person doing?"],ans:"Who is this person?",hint:"누구 = who"},
+  {type:"mc",q:"왜 한국어를 배워요? means:",opts:["When do you learn Korean?","How do you learn Korean?","Why do you learn Korean?","What do you learn?"],ans:"Why do you learn Korean?",hint:"왜 = reason query"},
+  {type:"mc",q:"어떻게 가요? means:",opts:["When do you go?","Where do you go?","Why do you go?","How do you get there?"],ans:"How do you get there?",hint:"어떻게 = how"},
+  {type:"mc",q:"'Who is here?' uses which form?",opts:["누가 있어요?","누구 있어요?","누구는 있어요?","누구를 있어요?"],ans:"누가 있어요?",hint:"The question asks who is present. The subject marker changes the question word."},
   {type:"fb",s:"___가 학교에 있어요?\n(Who is at school?)",a:"누",opts:["누","왜","뭐","어디"],hint:"'Who' as subject: 누구 → 누가"},
   {type:"fb",s:"___ 집에 있어요?\n(Why are you at home?)",a:"왜",opts:["왜","뭐","누구","어떻게"],hint:"Asking for a reason"},
   {type:"fb",s:"___ 먹어요?\n(What are you eating?)",a:"뭐",opts:["뭐","왜","누구","언제"],hint:"Asking what someone is eating"},
   {type:"fb",s:"한국어를 ___ 배워요?\n(How do you study Korean?)",a:"어떻게",opts:["어떻게","어디","왜","뭐"],hint:"Asking about the method"},
-  {type:"mc",q:"어떤 음악 좋아해요? means:",opts:["What kind of music do you like?","How is the music?","Where is the music?","When do you listen to music?"],ans:"What kind of music do you like?",hint:"어떤 = what type / sort of. Asking about preferences."},
+  {type:"mc",q:"어떤 음악 좋아해요? means:",opts:["When do you listen to music?","What kind of music do you like?","How is the music?","Where is the music?"],ans:"What kind of music do you like?",hint:"어떤 = what type / sort of. Asking about preferences."},
   {type:"fb",s:"___ 영화 좋아해요?\n(What kind of movie do you like?)",a:"어떤",opts:["어떤","어떻게","무슨","뭐"],hint:"Asking about kind/type preference. Same root as 어떻게."},
   {type:"match",pairs:[{nl:"누구",en:"who"},{nl:"왜",en:"why"},{nl:"어떻게",en:"how"},{nl:"어떤",en:"what kind of"}]},
   {type:"match",pairs:[{nl:"뭐",en:"what"},{nl:"어디",en:"where"},{nl:"언제",en:"when"},{nl:"누구예요?",en:"Who is it?"}]},
-  {type:"mc",q:"Korean questions compared to English:",opts:["Move the question word to the front","Keep the same word order","Flip subject and verb","Always add 요 at the start"],ans:"Keep the same word order",hint:"Korean replaces the unknown item with the interrogative directly in its original slot, without rearranging the sentence."},
-  {type:"mc",q:"뭐 vs 무엇:",opts:["뭐 is formal, 무엇 is casual","They are unrelated words","뭐 is casual/spoken, 무엇 is formal","뭐 is old Korean, 무엇 is modern"],ans:"뭐 is casual/spoken, 무엇 is formal",hint:"Daily speech uses 뭐"},
+  {type:"mc",q:"Korean questions compared to English:",opts:["Always add 요 at the start","Move the question word to the front","Keep the same word order","Flip subject and verb"],ans:"Keep the same word order",hint:"Korean replaces the unknown item with the interrogative directly in its original slot, without rearranging the sentence."},
+  {type:"mc",q:"뭐 vs 무엇:",opts:["뭐 is old Korean, 무엇 is modern","뭐 is formal, 무엇 is casual","They are unrelated words","뭐 is casual/spoken, 무엇 is formal"],ans:"뭐 is casual/spoken, 무엇 is formal",hint:"Daily speech uses 뭐"},
   {type:"drag_fill",s:"A: {1} 사람은 {2}예요? B: 제 선생님이에요.",blanks:{"1":"이","2":"누구"},pool:["이","그","누구","뭐","왜"],hint:"A: Who is this person? B: It's my teacher."},
   {type:"drag_fill",s:"A: {1} 한국어를 배워요? B: 한국 음악이 좋아요. A: {2} 배워요? B: 학교에서 배워요.",blanks:{"1":"왜","2":"어떻게"},pool:["왜","어떻게","뭐","어디","누구"],hint:"A asks WHY (reason), then HOW (method)."},
   {type:"fb",s:"이 사람은 제 ___예요.\n(This person is my friend.)",a:"친구",opts:["친구","선생님","가족","이름"],hint:"Sino-Korean: 親(close) + 舊(old acquaintance). Used only for people your own age."},
@@ -370,7 +370,7 @@ const UNIT_2 =
    funFact:"Korea uses two age systems: international age (from birth) and Korean age (born as age 1, everyone adds a year on New Year's Day). Official forms now use international age."},
 
   {type:"teach",trg:"쓰다",src:"to write / to fill in",pos:"verb",gender:null,
-   note:"쓰다 = to write (also 'to use' in a second sense, taught later).\n쓰다 → 써요 (ㅡ-drop irregular: ㅡ drops, bright ㅏ wins) — actually ㅡ drops before -어요 → 써요.",
+   note:"쓰다 = to write (also 'to use' in a second sense, taught later).\n쓰다 → 써요 (ㅡ-drop irregular: ㅡ drops, bright ㅏ wins), actually ㅡ drops before -어요 → 써요.",
    example:"A: 이름을 여기에 써요.\nB: 네, 알아요.",
    exampleSrc:"A: Write your name here.\nB: Yes, I know.",
    funFact:"쓰다 is a 으-irregular verb: the ㅡ stem vowel drops entirely before the -어요 ending, giving 써요 (not 쓰어요). This same rule applies to 크다 (big) → 커요."},
@@ -379,11 +379,11 @@ const UNIT_2 =
    note:"Literally 'please keep up the effort'. Used as a polite closing when leaving a shop, office, or official counter.\nOnly said TO the person who is CONTINUING to work, not to someone who is also leaving.",
    example:"A: 감사합니다!\nB: 수고하세요!",
    exampleSrc:"A: Thank you!\nB: Goodbye (keep up the good work)!",
-   funFact:"Saying 수고하세요 to your boss is awkward — it implies they are working hard below you. Use 수고하십니다 upward, or simply bow and say 먼저 가겠습니다 (I will leave first)."},
+   funFact:"Saying 수고하세요 to your boss is awkward, it implies they are working hard below you. Use 수고하십니다 upward, or simply bow and say 먼저 가겠습니다 (I will leave first)."},
 
   {type:"tip",title:"Korean Form Fields at a Glance",text:"The five fields on almost every Korean form:\n\n이름: name\n주소: address\n전화번호: phone number\n이메일: email\n생년월일: date of birth\n\nDate format is always year-month-day:\n1995년 8월 12일",deepDive:{title:"Official Document Order",text:"Year-month-day order (년/월/일) comes from Sino-Korean tradition.\nIt runs from largest to smallest unit.\n\nSame logic as the address system: country, city, district, street, number.\n\nThis 'largest to smallest' principle appears throughout Korean: family name before given name, year before month before day."}},
 
-  {type:"mc",q:"Which form field asks for where you live?",opts:["이름","주소","생년월일","이메일"],ans:"주소",hint:"주 (reside) + 소 (place): the residential location field."},
+  {type:"mc",q:"Which form field asks for where you live?",opts:["주소","생년월일","이메일","이름"],ans:"주소",hint:"주 (reside) + 소 (place): the residential location field."},
 
   {type:"mc",q:"전화번호 literally means:",opts:["email address","phone number","date of birth","postal code"],ans:"phone number",hint:"전화 = telephone, 번호 = numeric identifier."},
 

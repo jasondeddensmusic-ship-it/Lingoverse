@@ -84,7 +84,7 @@ const LESSON_18 = {id:"esv2_b2g5_l18",title:"Objetos y herramientas",icon:"🔧"
  exampleSrc:"A: The acupuncturist helped me with my back pain.\nB: Really? I've never tried it.",
  funFact:"Acupuncture has grown significantly in Spain since the 1990s, though it remains complementary medicine."},
 
-{type:"mc",q:"¿Qué es el encaje de bolillos?",opts:["Una artesanía de hacer encaje con pequeños husos","Un tipo de bordado a máquina","Una técnica de teñir telas","Un juego de mesa tradicional"],ans:"Una artesanía de hacer encaje con pequeños husos",hint:"A traditional craft using small wooden tools to create delicate lace patterns."},
+{type:"mc",q:"¿Qué es el encaje de bolillos?",opts:["Un juego de mesa tradicional","Una artesanía de hacer encaje con pequeños husos","Un tipo de bordado a máquina","Una técnica de teñir telas"],ans:"Una artesanía de hacer encaje con pequeños husos",hint:"A traditional craft using small wooden tools to create delicate lace patterns."},
 
 {type:"fb",s:"{1} un avión para transportar la mercancía urgente.",a:["Fletaron"],opts:["Fletaron","Forraron","Fruncieron","Forjaron"],hint:"To charter or hire a vehicle specifically for transporting goods.",sSrc:"They {1} a plane to transport the urgent merchandise."},
 
@@ -92,7 +92,7 @@ const LESSON_18 = {id:"esv2_b2g5_l18",title:"Objetos y herramientas",icon:"🔧"
 
 {type:"fb",s:"Hay que {1} los libros con plástico para protegerlos.",a:["forrar"],opts:["forrar","fletar","fruncir","forjar"],hint:"To cover or wrap something with a protective layer.",sSrc:"We need to {1} the books with plastic to protect them."},
 
-{type:"mc",q:"¿Qué significa 'forrarse' en lenguaje coloquial?",opts:["Hacerse muy rico","Ponerse un abrigo","Estudiar mucho","Enfadarse bastante"],ans:"Hacerse muy rico",hint:"The reflexive form of 'forrar' has a colloquial meaning about making a lot of money."}
+{type:"mc",q:"¿Qué significa 'forrarse' en lenguaje coloquial?",opts:["Estudiar mucho","Enfadarse bastante","Hacerse muy rico","Ponerse un abrigo"],ans:"Hacerse muy rico",hint:"The reflexive form of 'forrar' has a colloquial meaning about making a lot of money."}
 ]};
 
 export default LESSON_18;

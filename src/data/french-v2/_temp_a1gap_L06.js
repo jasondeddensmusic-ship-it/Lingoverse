@@ -98,7 +98,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Comment demande-t-on la note au restaurant ?",
-     opts:["L'addition, s'il vous plaît","L'aliment, s'il vous plaît","L'apéritif, s'il vous plaît","L'assiette, s'il vous plaît"],
+     opts:["L'assiette, s'il vous plaît","L'addition, s'il vous plaît","L'aliment, s'il vous plaît","L'apéritif, s'il vous plaît"],
      ans:"L'addition, s'il vous plaît",
      hint:"This feminine noun has a mathematical meaning but also refers to the restaurant bill."},
 
@@ -143,7 +143,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot décrit quelque chose lié à la nourriture ?",
-     opts:["alimentaire","allumette","aspirine","achat"],
+     opts:["aspirine","achat","alimentaire","allumette"],
      ans:"alimentaire",
      hint:"This adjective comes from 'aliment' (food) and describes anything related to food or nutrition."},
 

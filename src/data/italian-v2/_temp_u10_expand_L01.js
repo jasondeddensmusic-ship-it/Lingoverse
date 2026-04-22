@@ -87,7 +87,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
   ]},
 
   {type:"mc", q:"What does the 'canale verde' at customs mean?",
-   opts:["Nothing to declare","Something to declare","EU citizens only","Exit"],
+   opts:["Exit","Nothing to declare","Something to declare","EU citizens only"],
    ans:"Nothing to declare",
    hint:"Green = go through freely. Red = you have goods to d.... This system is standard in EU airports."},
 
@@ -98,7 +98,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
    sSrc:"What time does the flight {1}?"},
 
   {type:"mc", q:"What does 'atterrare' literally mean?",
-   opts:["To go to earth","To go up","To fly away","To stop"],
+   opts:["To fly away","To stop","To go to earth","To go up"],
    ans:"To go to earth",
    hint:"From 'a-' (to) + 'terra' (e...). The plane returns to the ground."},
 
@@ -109,7 +109,7 @@ const LESSON_4 = {id:"itv2_u10l4", title:"All'aeroporto", icon:"\u2708\uFE0F", x
    sSrc:"Where is baggage {1}?"},
 
   {type:"mc", q:"What happens at 'il controllo di sicurezza'?",
-   opts:["Your bags are scanned and you pass through a detector","You buy tickets","You check in","You collect luggage"],
+   opts:["You buy tickets","You check in","You collect luggage","Your bags are scanned and you pass through a detector"],
    ans:"Your bags are scanned and you pass through a detector",
    hint:"This is the security screening area. Liquids must be in small containers in a clear bag."},
 

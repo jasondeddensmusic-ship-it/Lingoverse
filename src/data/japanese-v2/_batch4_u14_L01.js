@@ -1,4 +1,4 @@
-// Batch 4 — Unit 14 Lesson 1: Expressing Opinions & Reasons
+// Batch 4. Unit 14 Lesson 1: Expressing Opinions & Reasons
 const BATCH4_L_1 = {
   id:"jav2_u14l_b4_1", title:"理由(りゆう)と説明(せつめい)", icon:"💡", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"実(じつ)は is used to:",
-     opts:["reveal hidden information","give an example","summarize","disagree"], ans:"reveal hidden information",
+     opts:["disagree","reveal hidden information","give an example","summarize"], ans:"reveal hidden information",
      hint:"A conversation opener that says 'the truth is...'"},
 
     {type:"fb", s:"{1}を教(おし)えてください。", a:"理由(りゆう)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"The formal word for the 'why' behind something."},
 
     {type:"mc", q:"つまり means:",
-     opts:["in other words","for example","however","because"], ans:"in other words",
+     opts:["however","because","in other words","for example"], ans:"in other words",
      hint:"Rephrases or summarizes what was just said more concisely."},
 
     {type:"mc", q:"Which adverb expresses the highest certainty?",
-     opts:["必(かなら)ず","多分(たぶん)","もしかして","たいてい"], ans:"必(かなら)ず",
+     opts:["多分(たぶん)","もしかして","たいてい","必(かなら)ず"], ans:"必(かなら)ず",
      hint:"An absolute guarantee with no room for doubt."}
   ,{type:"match",pairs:[{trg:"意味(いみ)",src:"meaning / sense"},{trg:"説明(せつめい)する",src:"to explain"},{trg:"例(たと)えば",src:"for example"},{trg:"結局(けっきょく)",src:"in the end / after all"},{trg:"つまり",src:"in other words / that is to say"},{trg:"もちろん",src:"of course / naturally"}]},{type:"match",pairs:[{trg:"実(じつ)は",src:"actually / to tell the truth"}]}]
 };

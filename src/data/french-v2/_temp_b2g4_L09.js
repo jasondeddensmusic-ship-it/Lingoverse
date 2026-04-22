@@ -86,7 +86,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot évoque une libération soudaine et violente d'une force longtemps retenue ?",
-     opts:["une detonation","une extremite","un explosif","un dechainement"],
+     opts:["un explosif","un dechainement","une detonation","une extremite"],
      ans:"un dechainement",
      hint:"Literally means 'un-chaining'. Something that was held back is suddenly released."},
 
@@ -113,7 +113,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Que signifie 'frontal' dans le contexte d'un conflit ?",
-     opts:["Direct et sans detour","Lache et indirect","Diplomatique","Discret"],
+     opts:["Diplomatique","Discret","Direct et sans detour","Lache et indirect"],
      ans:"Direct et sans detour",
      hint:"From 'front' meaning forehead. A frontal approach is face-to-face, head-on."}
   ]

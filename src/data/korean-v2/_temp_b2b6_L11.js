@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 11: Looking Ahead
+// Korean B2. Batch 6, Lesson 11: Looking Ahead
 // Words: 앉히다, 알루미늄, 알아내다, 알아보다, 알아주다, 알코올, 암, 암시, 암컷, 압력, 앞길, 앞날, 앞두다, 앞뒤, 앞문, 앞바다, 앞서, 앞세우다, 앞장서다, 앞쪽
 
 const LESSON_11 = {
@@ -125,7 +125,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'앞뒤가 안 맞는다'는 무슨 뜻인가요?",
-     opts:["이야기가 논리적이지 않다","앞과 뒤가 바뀌었다","길을 잃었다","순서가 틀렸다"],
+     opts:["순서가 틀렸다","이야기가 논리적이지 않다","앞과 뒤가 바뀌었다","길을 잃었다"],
      ans:"이야기가 논리적이지 않다",
      hint:"When the front and back of a story do not match, it means the logic is inconsistent."},
 

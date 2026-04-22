@@ -1,4 +1,4 @@
-// Batch 3 — Unit 11, Lesson 2: Raccontare il passato (Narrating the Past)
+// Batch 3. Unit 11, Lesson 2: Raccontare il passato (Narrating the Past)
 const BATCH3_U11_L2 = {
   id:"itv2_u11l_b3_2", title:"Raccontare il passato", icon:"\uD83D\uDCD6", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U11_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What is the basic Italian storytelling sequence?",
-     opts:["Poi, infine, prima","Prima, poi, infine","Infine, prima, poi","Dopo, mentre, poi"],
+     opts:["Prima, poi, infine","Infine, prima, poi","Dopo, mentre, poi","Poi, infine, prima"],
      ans:"Prima, poi, infine",
      hint:"First, then, finally. This three-part structure organizes any story clearly. Italian listeners expect this logical progression."},
 
@@ -116,7 +116,7 @@ const BATCH3_U11_L2 = {
      sSrc:"I {1} a fantastic restaurant."},
 
     {type:"mc", q:"What does 'raccontami!' express in Italian conversation?",
-     opts:["Count the money for me","Tell me the story (eager request for news)","Read me a document","Remind me about the facts"],
+     opts:["Remind me about the facts","Count the money for me","Tell me the story (eager request for news)","Read me a document"],
      ans:"Tell me the story (eager request for news)",
      hint:"'Raccontare' means to narrate. Adding '-mi' (to me) makes it a direct, e... r... for the latest n... or gossip."},
 
@@ -127,7 +127,7 @@ const BATCH3_U11_L2 = {
      sSrc:"I {1} the mistake too late."},
 
     {type:"mc", q:"What tense does 'mentre' typically trigger in the background clause?",
-     opts:["The passato prossimo (completed action)","The future tense (upcoming action)","The imperfect (ongoing background action)","The conditional (hypothetical action)"],
+     opts:["The conditional (hypothetical action)","The passato prossimo (completed action)","The future tense (upcoming action)","The imperfect (ongoing background action)"],
      ans:"The imperfect (ongoing background action)",
      hint:"'Mentre dormivo, ha suonato il telefono.' The b... a... uses the o... tense, while the foreground event uses the completed tense."}
   ,{type:"match",pairs:[{trg:"raccogliere",src:"to pick up / to collect"},{trg:"scoprire",src:"to discover / to find out"},{trg:"raccontare",src:"to tell / to narrate"},{trg:"accorgersi",src:"to realize / to notice"},{trg:"rendersi conto",src:"to realize / to become aware"}]},

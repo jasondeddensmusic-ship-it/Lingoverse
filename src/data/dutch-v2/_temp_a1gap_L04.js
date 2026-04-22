@@ -1,4 +1,4 @@
-// L04: Home and Rooms — 20 A1 gap words
+// L04: Home and Rooms, 20 A1 gap words
 const LESSON_4 = {
   id:"nlv2_a1gap_l4", title:"Huis en Kamers", icon:"\u{1F3E0}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Het appartement heeft een mooi ___.",
-     opts:["balkon","keuken","badkamer","deur"],
+     opts:["deur","balkon","keuken","badkamer"],
      ans:"balkon",
      hint:"Which word is neuter (het) and refers to an outdoor space on a building?"},
 

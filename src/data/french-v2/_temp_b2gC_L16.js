@@ -67,7 +67,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
 
 {type:"mc",
  q:"Que doit-on mettre en bas de chaque page d'un document légal ?",
- opts:["son paraphe","sa signature complète","son adresse","la date"],
+ opts:["la date","son paraphe","sa signature complète","son adresse"],
  ans:"son paraphe",
  hint:"Your initials, not your full signature. Required on each page of legal documents."},
 
@@ -87,7 +87,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
 
 {type:"mc",
  q:"Que signifie 'être en porte-à-faux' ?",
- opts:["Être dans une position inconfortable et contradictoire","Être en bonne santé","Être très riche","Être en vacances"],
+ opts:["Être très riche","Être en vacances","Être dans une position inconfortable et contradictoire","Être en bonne santé"],
  ans:"Être dans une position inconfortable et contradictoire",
  hint:"Like a cantilevered structure that could topple. An unstable, awkward situation."},
 
@@ -105,7 +105,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
 
 {type:"mc",
  q:"Chez quels auteurs trouve-t-on souvent le mot 'portefaix' ?",
- opts:["Balzac et Zola","Voltaire et Rousseau","Camus et Sartre","Flaubert et Proust"],
+ opts:["Voltaire et Rousseau","Camus et Sartre","Flaubert et Proust","Balzac et Zola"],
  ans:"Balzac et Zola",
  hint:"19th-century realist authors who wrote about working-class life and hard labor."}
 

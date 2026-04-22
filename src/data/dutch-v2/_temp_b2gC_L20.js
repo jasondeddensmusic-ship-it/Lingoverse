@@ -1,4 +1,4 @@
-// L20: Samenleving en Debat — Society and Debate
+// L20: Samenleving en Debat. Society and Debate
 const LESSON_20 = {
   id:"nlv2_b2gC_l20", title:"Samenleving en Debat", icon:"\u{1F5E3}\uFE0F", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Het woord 'apartheid' komt uit het:",
-     opts:["Engels","Frans","Afrikaans (afgeleid van Nederlands)","Duits"],
+     opts:["Afrikaans (afgeleid van Nederlands)","Duits","Engels","Frans"],
      ans:"Afrikaans (afgeleid van Nederlands)",
      hint:"The language of South Africa that descends from Dutch. 'Apart' + '-heid'."},
 
@@ -75,7 +75,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"In Nederland worden per jaar ongeveer hoeveel fietsen gestolen?",
-     opts:["50.000","100.000","500.000","1.000.000"],
+     opts:["100.000","500.000","1.000.000","50.000"],
      ans:"500.000",
      hint:"Half a million. With 23 million bikes in the country, theft is a massive problem."},
 
@@ -95,7 +95,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"De 'Kijkwijzer' is het Nederlandse systeem voor:",
-     opts:["Boekrecensies","Filmclassificatie en leeftijdswaarschuwingen","Televisiereclame","Radiozenders"],
+     opts:["Radiozenders","Boekrecensies","Filmclassificatie en leeftijdswaarschuwingen","Televisiereclame"],
      ans:"Filmclassificatie en leeftijdswaarschuwingen",
      hint:"The Dutch system that uses icons to warn about content like violence, fear, and language."},
 
@@ -115,7 +115,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Nederlandse 'snackbars' zijn beroemd om:",
-     opts:["Sushi en ramen","Frikandellen, kroketten en bitterballen","Pizza en pasta","Hamburgers en hotdogs"],
+     opts:["Pizza en pasta","Hamburgers en hotdogs","Sushi en ramen","Frikandellen, kroketten en bitterballen"],
      ans:"Frikandellen, kroketten en bitterballen",
      hint:"Uniquely Dutch deep-fried snacks. FEBO's 'automatiek' vending wall is an icon of this culture."}
   ]

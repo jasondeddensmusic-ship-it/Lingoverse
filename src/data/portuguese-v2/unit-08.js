@@ -59,7 +59,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"I want to {1} a gift for my mother."},
 
 {type:"mc", q:"How do you ask 'How much does it cost?' in Portuguese?",
- opts:["Quanto é hoje?","Quanto custa?","Qual dinheiro?","Quem custa?"],
+ opts:["Quanto custa?","Qual dinheiro?","Quem custa?","Quanto é hoje?"],
  ans:"Quanto custa?",
  hint:"Use '___' for 'how much' plus the verb meaning 'to cost'."},
 
@@ -82,7 +82,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 ]},
 
 {type:"mc", q:"What is the plural of 'real'?",
- opts:["reales","reais","realis","reals"],
+ opts:["reals","reales","reais","realis"],
  ans:"reais",
  hint:"Portuguese words ending in -al typically pluralize by dropping the l and adding -is."},
 
@@ -93,7 +93,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"This book {1} twenty reais."},
 
 {type:"mc", q:"Which word means 'the price'?",
- opts:["o dinheiro","o preço","a loja","o real"],
+ opts:["a loja","o real","o dinheiro","o preço"],
  ans:"o preço",
  hint:"It is a masculine noun related to English 'precious'."}
 ]},
@@ -145,7 +145,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
   text:"Gostar (to like) is mild and standard. Adorar (to love, enjoy a lot) is stronger and upbeat: 'Adoro chocolate!' Amar (to love) is the strongest, usually reserved for people, pets, or deep passions. Saying 'Amo chocolate' is over the top but common and fine."}},
 
 {type:"mc", q:"Which is correct?",
- opts:["Eu gosto café","Eu gosto de café","Eu gostar café","Eu gosto o café"],
+ opts:["Eu gosto de café","Eu gostar café","Eu gosto o café","Eu gosto café"],
  ans:"Eu gosto de café",
  hint:"This verb always requires a specific preposition between it and its object."},
 
@@ -168,7 +168,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 ]},
 
 {type:"mc", q:"What is the difference between 'loja' and 'mercado'?",
- opts:["No difference","Loja is a shop, mercado is a market","Loja is free, mercado costs money","Mercado is online only"],
+ opts:["Mercado is online only","No difference","Loja is a shop, mercado is a market","Loja is free, mercado costs money"],
  ans:"Loja is a shop, mercado is a market",
  hint:"One is typically a storefront; the other a larger traditional ___ with stalls."},
 
@@ -179,7 +179,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"How do you want to {1}: in cash or by card?"},
 
 {type:"mc", q:"'Eu gosto de música' means:",
- opts:["I sell music","I like music","I buy music","I pay music"],
+ opts:["I buy music","I pay music","I sell music","I like music"],
  ans:"I like music",
  hint:"This verb always comes with the preposition de, and means to … something."}
 ]},
@@ -243,7 +243,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"What {1} do you wear? Forty?"},
 
 {type:"mc", q:"What does 'sapato' mean?",
- opts:["shirt","pants","shoe","hat"],
+ opts:["shoe","hat","shirt","pants"],
  ans:"shoe",
  hint:"You wear this on your foot."},
 
@@ -266,7 +266,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
 ]},
 
 {type:"mc", q:"'Gosto desta camisa' means:",
- opts:["I buy this shirt","I like this shirt","I sell this shirt","I pay for this shirt"],
+ opts:["I pay for this shirt","I buy this shirt","I like this shirt","I sell this shirt"],
  ans:"I like this shirt",
  hint:"The verb here expresses preference, not buying or paying."},
 
@@ -277,7 +277,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"I bought a new {1} at the store yesterday."},
 
 {type:"mc", q:"Which store would sell you 'sapatos'?",
- opts:["bakery","shoe store","butcher","bookstore"],
+ opts:["butcher","bookstore","bakery","shoe store"],
  ans:"shoe store",
  hint:"This noun refers to footwear."}
 ,
@@ -345,7 +345,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"Do you accept {1} payment?"},
 
 {type:"mc", q:"What does 'o troco' mean?",
- opts:["the total","the discount","the change","the receipt"],
+ opts:["the change","the receipt","the total","the discount"],
  ans:"the change",
  hint:"After paying with a large bill, you get this back from the seller."},
 
@@ -356,7 +356,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  sSrc:"What is the {1}? Twenty or thirty reais?"},
 
 {type:"mc", q:"Which question asks for a discount?",
- opts:["Onde é o caixa?","Aceita cartão?","Tem desconto?","Qual é o total?"],
+ opts:["Aceita cartão?","Tem desconto?","Qual é o total?","Onde é o caixa?"],
  ans:"Tem desconto?",
  hint:"This is the key phrase shoppers use at markets to negotiate a lower price."},
 

@@ -60,7 +60,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: The exercise of collective self-defense has become possible.\nB: There are various opinions about the change in constitutional interpretation.\nA: That is an unexpected result.\nB: Yes, I was surprised too. We are investigating the cause.\nA: When do you think you will know the cause?\nB: The analysis results are expected to come out by the end of this week.",
      funFact:"集団的自衛権 was reinterpreted by the Abe government in 2014, allowing Japan to defend allies under attack even if Japan itself is not directly attacked. This was the most significant change to Japan's security posture since 1947. The decision was highly controversial, with massive protests arguing it violated Article 9's spirit."},
 
-    {type:"mc", q:"政冷経熱(せいれいけいねつ) describes Japan-China relations with:", opts:["Cold politics and hot economics coexisting","Complete diplomatic isolation","Perfect harmony in all areas","Military alliance"], ans:"Cold politics and hot economics coexisting",
+    {type:"mc", q:"政冷経熱(せいれいけいねつ) describes Japan-China relations with:", opts:["Military alliance","Cold politics and hot economics coexisting","Complete diplomatic isolation","Perfect harmony in all areas"], ans:"Cold politics and hot economics coexisting",
      hint:"This phrase captures how political friction can coexist with strong trade relationships."},
 
     {type:"fb", s:"日本(にほん)の{1}はアジアやアフリカの開発(かいはつ)に貢献(こうけん)しています。\n(Japan's foreign aid program contributes to development in Asia and Africa.)", a:"ODA", opts:["ODA","GDP","PKO","SDF"], sSrc:"Japan's foreign aid program contributes to development in Asia and Africa.",
@@ -73,7 +73,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"ODA",src:"development assistance"},{trg:"日中関係(にっちゅうかんけい)",src:"Japan-China relations"},{trg:"集団的自衛権(しゅうだんてきじえいけん)",src:"collective self-defense"},{trg:"経済圏(けいざいけん)",src:"economic zone"}]},
 
-    {type:"mc", q:"Japan's ODA focuses especially on:", opts:["Military equipment","Infrastructure development and technical training","Direct cash payments","Agricultural subsidies"], ans:"Infrastructure development and technical training",
+    {type:"mc", q:"Japan's ODA focuses especially on:", opts:["Agricultural subsidies","Military equipment","Infrastructure development and technical training","Direct cash payments"], ans:"Infrastructure development and technical training",
      hint:"Japan's aid philosophy emphasizes teaching self-reliance through building systems and t... people."},
   ]
 };

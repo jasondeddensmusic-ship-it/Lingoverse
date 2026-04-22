@@ -86,7 +86,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot designe la prediction sur l'evolution d'une maladie ?",
-     opts:["le pronostic","le diagnostic","le symptome","l'ordonnance"],
+     opts:["l'ordonnance","le pronostic","le diagnostic","le symptome"],
      ans:"le pronostic",
      hint:"Not the identification of the disease, but the prediction about its future course."},
 
@@ -113,7 +113,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot designe la periode de repos apres une maladie ou une operation ?",
-     opts:["la convalescence","la reeducation","la posologie","l'inhalation"],
+     opts:["la posologie","l'inhalation","la convalescence","la reeducation"],
      ans:"la convalescence",
      hint:"The recovery period when you are healing. Not active therapy, but rest and recuperation."}
   ]

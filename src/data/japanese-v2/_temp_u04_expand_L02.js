@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: What size is this shirt?\nB: It is size M.",
      funFact:"Japanese clothing sizes run significantly smaller than Western sizes. A Japanese L is often a Western M. 'Free size' (furii saizu) means one-size-fits-all but usually fits Japanese body proportions. LL (double L) replaces XL in Japan."},
 
-    {type:"mc", q:"いらっしゃいませ requires you to:", opts:["Say konnichiwa back","Say arigatou","Bow deeply","No response needed"], ans:"No response needed",
+    {type:"mc", q:"いらっしゃいませ requires you to:", opts:["No response needed","Say konnichiwa back","Say arigatou","Bow deeply"], ans:"No response needed",
      hint:"This is a one-way greeting from staff. Customers just acknowledge with a nod or nothing."},
 
     {type:"teach", trg:"ほかのいろ", src:"another color / other colors", pos:"noun", gender:null,
@@ -110,10 +110,10 @@ const LESSON_4 = {
      hint:"The payment method using a plastic credit or debit card.",
      sSrc:"By card, please."},
 
-    {type:"mc", q:"At a Japanese register, you should:", opts:["Hand money directly to the cashier","Place money on the small tray","Drop coins on the counter","Hold money up to show"], ans:"Place money on the small tray",
+    {type:"mc", q:"At a Japanese register, you should:", opts:["Hold money up to show","Hand money directly to the cashier","Place money on the small tray","Drop coins on the counter"], ans:"Place money on the small tray",
      hint:"A s... t... (kanetsubo) sits on the counter for hygienic m... exchange."},
 
-    {type:"mc", q:"サイズ in Japan compared to Western sizes:", opts:["Run larger","Run smaller","Are the same","Vary by brand only"], ans:"Run smaller",
+    {type:"mc", q:"サイズ in Japan compared to Western sizes:", opts:["Are the same","Vary by brand only","Run larger","Run smaller"], ans:"Run smaller",
      hint:"A Japanese L often corresponds to a Western M."},
   ]
 };

@@ -1,4 +1,4 @@
-// L09: Everyday Actions — Essential verbs for daily life
+// L09: Everyday Actions. Essential verbs for daily life
 const LESSON_9 = {
   id:"esv2_a1gap_l9", title:"Acciones del día", icon:"\u{1F3C3}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"\u00bfCuál es lo contrario de 'acercar'?",
-     opts:["alejar","acabar","añadir","aceptar"],
+     opts:["aceptar","alejar","acabar","añadir"],
      ans:"alejar",
      hint:"One verb means 'to bring closer' (from cerca/near), the other means 'to move away' (from lejos/far)."},
 

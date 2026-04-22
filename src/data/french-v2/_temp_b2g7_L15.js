@@ -80,7 +80,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'aller jusqu'a la fin sans abandonner' ?",
-     opts:["jusqu'au bout","malgre moi","la-dedans","dans l'absolu"],
+     opts:["dans l'absolu","jusqu'au bout","malgre moi","la-dedans"],
      ans:"jusqu'au bout",
      hint:"A rallying cry meaning total commitment and refusal to quit. Used in French sport and politics."},
 
@@ -113,7 +113,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quelle expression utilise-t-on dans une dissertation pour demander 'a quel degre' ?",
-     opts:["dans quelle mesure","de haut en bas","dans l'absolu","en marge de"],
+     opts:["dans l'absolu","en marge de","dans quelle mesure","de haut en bas"],
      ans:"dans quelle mesure",
      hint:"A formal question about degree or extent, common in academic writing."},
 

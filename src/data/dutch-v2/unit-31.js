@@ -1,4 +1,4 @@
-// Dutch V2 Unit 31 — A1 Vocabulary Expansion: Basics, Family, Food, Home, Daily Life
+// Dutch V2 Unit 31. A1 Vocabulary Expansion: Basics, Family, Food, Home, Daily Life
 import L01 from './_temp_a1gap_L01.js';
 import L02 from './_temp_a1gap_L02.js';
 import L03 from './_temp_a1gap_L03.js';

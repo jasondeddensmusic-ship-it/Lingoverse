@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 18 — Travel and Exploration
+// French B2 Gap Lesson 18. Travel and Exploration
 const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"🧭", xp:15, board:true, steps:[
   {type:"intro", title:"Voyages et exploration",
    desc:"Learn vocabulary for discussing travel, geography, and cultural discovery at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"�
    funFact:"From Old French 'iteu' (such/likewise). Charming and playful, used more in speech than writing."},
 
   {type:"mc", q:"La communauté algérienne en France est liée à quel fait historique?",
-   opts:["La colonisation française de l'Algérie","Le commerce des épices","Les Croisades","La Révolution française"],
+   opts:["La Révolution française","La colonisation française de l'Algérie","Le commerce des épices","Les Croisades"],
    ans:"La colonisation française de l'Algérie",
    hint:"Algeria was under French rule from 1830 to 1962, creating deep historical ties"},
 
@@ -105,7 +105,7 @@ const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"�
   ]},
 
   {type:"mc", q:"Que peut-on faire 'de chez soi' grâce à la technologie?",
-   opts:["Visiter des musées virtuellement","Nager dans l'océan","Goûter la cuisine locale","Sentir l'air marin"],
+   opts:["Goûter la cuisine locale","Sentir l'air marin","Visiter des musées virtuellement","Nager dans l'océan"],
    ans:"Visiter des musées virtuellement",
    hint:"Technology allows experiences from home that previously required travel"},
 
@@ -120,7 +120,7 @@ const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"�
    hint:"Theoretically yes, but in reality the means are lacking"},
 
   {type:"mc", q:"Que signifie 'itou' en français?",
-   opts:["Également, pareillement","Jamais","Toujours","Autrement"],
+   opts:["Jamais","Toujours","Autrement","Également, pareillement"],
    ans:"Également, pareillement",
    hint:"An old-fashioned, playful way to say 'me too' or 'likewise'"}
 ]};

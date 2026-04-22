@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: Do you have a reservation?\nB: Yes, I have a reservation under Yamada at 7.\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"予約 culture is strong in Japan. Popular restaurants, hair salons, and doctors all require reservations. Walk-ins (飛(と)び込(こ)み, tobikomi) are sometimes impossible. Online reservation systems (ネット予約) have modernized the process. Cancelling a reservation last-minute is considered very rude."},
 
-    {type:"mc", q:"かしこまりました is equivalent to:", opts:["I do not understand","I am sorry","Certainly, understood (very polite)","Please wait"], ans:"Certainly, understood (very polite)",
+    {type:"mc", q:"かしこまりました is equivalent to:", opts:["Certainly, understood (very polite)","Please wait","I do not understand","I am sorry"], ans:"Certainly, understood (very polite)",
      hint:"This is the highest level of acknowledgment, used by service staff to show utmost respect."},
 
     {type:"teach", trg:"満席(まんせき)", src:"fully booked / no vacancies / sold out (seats)", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"満席(まんせき)",src:"fully booked"},{trg:"おもてなし",src:"hospitality"},{trg:"ございます",src:"there is (very polite)"},{trg:"恐(おそ)れ入(い)りますが",src:"sorry to trouble you, but"}]},
 
-    {type:"mc", q:"おもてなし is best described as:", opts:["A type of food","Japanese hospitality and selfless service","A greeting phrase","A business title"], ans:"Japanese hospitality and selfless service",
+    {type:"mc", q:"おもてなし is best described as:", opts:["A business title","A type of food","Japanese hospitality and selfless service","A greeting phrase"], ans:"Japanese hospitality and selfless service",
      hint:"This cultural concept became world-famous during Japan's Olympic bid and represents anticipatory, heartfelt s...."},
   {type:"match",pairs:[{trg:"お荷物(にもつ)をお預(あず)かりします",src:"let me take your luggage (humble service)"}]}]
 };

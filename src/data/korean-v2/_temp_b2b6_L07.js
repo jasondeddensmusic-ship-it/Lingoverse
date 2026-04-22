@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 7: Reality and Practice
+// Korean B2. Batch 6, Lesson 7: Reality and Practice
 // Words: 실제로, 실질적, 실천, 실천하다, 실체, 실컷, 실태, 실패, 실험, 실현, 실현되다, 실현하다, 싫어지다, 심각해지다, 심리적, 심부름, 심사, 심심하다, 심정, 심판
 
 const LESSON_7 = {
@@ -143,7 +143,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"스포츠 경기에서 규칙을 판단하는 사람은?",
-     opts:["심판","심사","실장","실험"],
+     opts:["실험","심판","심사","실장"],
      ans:"심판",
      hint:"The person on the field who makes calls about fouls and goals in sports."},
 

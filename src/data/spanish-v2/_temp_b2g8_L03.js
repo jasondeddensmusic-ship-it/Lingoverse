@@ -73,7 +73,7 @@ const LESSON_3 = {id:"esv2_b2g8_l3",title:"Leyes y legislación",icon:"⚖️",x
  funFact:"In Spain, there is no constitutional limit on how many terms a prime minister can serve."},
 
 {type:"mc",q:"Si alguien entra por primera vez en el mundo de los negocios, eso es una...",
- opts:["incursión","imposición","legislación","invalidez"],
+ opts:["invalidez","incursión","imposición","legislación"],
  ans:"incursión",
  hint:"A first attempt at something new, like entering an unfamiliar territory."},
 
@@ -103,7 +103,7 @@ const LESSON_3 = {id:"esv2_b2g8_l3",title:"Leyes y legislación",icon:"⚖️",x
 ]},
 
 {type:"mc",q:"¿Qué cualidad debe tener un juez por encima de todo?",
- opts:["Imparcialidad","Imposición","Incursión","Invalidez"],
+ opts:["Incursión","Invalidez","Imparcialidad","Imposición"],
  ans:"Imparcialidad",
  hint:"A judge must be fair, neutral, and unbiased. What is the noun for that quality?"}
 ]};

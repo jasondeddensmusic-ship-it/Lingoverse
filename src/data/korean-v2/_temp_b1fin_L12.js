@@ -149,7 +149,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"음악을 듣고 싶을 때 라디오를 어떻게 해요?",
-     opts:["젓다","흔들다","틀다","펴다"],
+     opts:["흔들다","틀다","펴다","젓다"],
      ans:"틀다",
      hint:"This verb means to turn on a device by twisting a knob or pressing a switch."}
   ]

@@ -86,7 +86,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel verbe signifie critiquer injustement pour nuire à la réputation de quelqu'un ?",
-     opts:["dénigrer","déambuler","décortiquer","déconnecter"],
+     opts:["déconnecter","dénigrer","déambuler","décortiquer"],
      ans:"dénigrer",
      hint:"From Latin 'to blacken'. This verb describes unfair criticism aimed at damaging someone's standing."},
 

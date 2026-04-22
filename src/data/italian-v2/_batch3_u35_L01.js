@@ -1,4 +1,4 @@
-// Batch 3 — Unit 35 Lesson (Innovation: Digital Transformation & AI Ethics)
+// Batch 3. Unit 35 Lesson (Innovation: Digital Transformation & AI Ethics)
 const BATCH3_L_1 = {
   id:"itv2_u35l_b3_1", title:"Trasformazione digitale e etica dell'IA", icon:"🧠", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e il 'bias algoritmico'?",
-     opts:["Un errore tecnico che rende i computer più lenti del previsto","La discriminazione sistematica presente nei sistemi di intelligenza artificiale","Un virus informatico che colpisce i social media e le piattaforme digitali","Una preferenza personale dell'utente che influenza i risultati di ricerca"],
+     opts:["La discriminazione sistematica presente nei sistemi di intelligenza artificiale","Un virus informatico che colpisce i social media e le piattaforme digitali","Una preferenza personale dell'utente che influenza i risultati di ricerca","Un errore tecnico che rende i computer più lenti del previsto"],
      ans:"La discriminazione sistematica presente nei sistemi di intelligenza artificiale",
      hint:"When algorithms systematically discriminate because their training data reflects existing societal biases and inequalities."},
 
@@ -111,7 +111,7 @@ const BATCH3_L_1 = {
      opts:["Per vietare l'uso dell'IA nelle chiese cattoliche di tutto il mondo","Per promuovere la vendita di prodotti tecnologici benedetti dal Papa","Per riflettere la posizione unica dell'Italia dove innovazione tecnologica e tradizione morale si incontrano","Per richiedere che tutti i robot vengano battezzati prima dell'uso"],
      ans:"Per riflettere la posizione unica dell'Italia dove innovazione tecnologica e tradizione morale si incontrano",
      hint:"Italy sits at a unique crossroads: cutting-edge technology meets centuries of moral philosophy. The Vatican's involvement reflects this distinctive cultural context."}
-  ,{type:"match",pairs:[{trg:"il bias algoritmico",src:"algorithmic bias"},{trg:"la trasparenza",src:"transparency"},{trg:"la robotica",src:"robotics"}]},{type:"mc",q:"How do you say \"Internet of Things\" in Italian?",opts:["l'internet delle cose","la finestra","il tavolo","la bicicletta"],ans:"l'internet delle cose",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"planned obsolescence\" in Italian?",opts:["la finestra","il tavolo","l'obsolescenza programmata","la bicicletta"],ans:"l'obsolescenza programmata",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il bias algoritmico",src:"algorithmic bias"},{trg:"la trasparenza",src:"transparency"},{trg:"la robotica",src:"robotics"}]},{type:"mc",q:"How do you say \"Internet of Things\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'internet delle cose"],ans:"l'internet delle cose",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"planned obsolescence\" in Italian?",opts:["l'obsolescenza programmata","la bicicletta","la finestra","il tavolo"],ans:"l'obsolescenza programmata",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"La {1} garantisce operazioni sicure sui siti web.",a:["crittografia"],opts:["crittografia","blockchain","robotica","trasparenza"],hint:"The encoding of data so only authorized parties can read it.",sSrc:"The {1} ensures secure operations on websites."},
 {type:"fb",s:"Il {1} presente nei social media può influenzare le decisioni.",a:["bias algoritmico"],opts:["bias algoritmico","deepfake","internet delle cose","sovranita digitale"],hint:"Systematic errors in AI decisions caused by flawed training data.",sSrc:"The {1} present in social media can influence decisions."}]
 };

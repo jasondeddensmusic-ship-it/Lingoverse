@@ -80,7 +80,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot décrit l'abandon de l'école par des enfants ?",
-     opts:["la déscolarisation","la laïcisation","la néologie","l'incrustation"],
+     opts:["l'incrustation","la déscolarisation","la laïcisation","la néologie"],
      ans:"la déscolarisation",
      hint:"'Dé-' means removal, 'scolarisation' means schooling. Children leaving the education system."},
 
@@ -119,7 +119,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Qui gère une galerie d'art ?",
-     opts:["un galeriste","un mécène","un footballeur","un négociant"],
+     opts:["un footballeur","un négociant","un galeriste","un mécène"],
      ans:"un galeriste",
      hint:"The person who runs an art gallery and exhibits artists. Think of 'galerie' + '-iste'."},
 

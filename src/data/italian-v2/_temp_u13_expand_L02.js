@@ -74,7 +74,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What is the subjunctive of 'stare' for 'che tu'?",
-     opts:["stai","sta","stia","stato"],
+     opts:["stia","stato","stai","sta"],
      ans:"stia",
      hint:"This completely irregular form looks nothing like the indicative 'stai.' All singular forms are identical in the subjunctive."},
 
@@ -93,7 +93,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"Which pattern do 'tenere,' 'venire,' and 'rimanere' share in the subjunctive?",
-     opts:["They all add -sc- before the ending","They all double the final consonant","They all insert a -g- in the stem","They all drop the first syllable entirely"],
+     opts:["They all double the final consonant","They all insert a -g- in the stem","They all drop the first syllable entirely","They all add -sc- before the ending"],
      ans:"They all insert a -g- in the stem",
      hint:"Tenga, venga, rimanga: notice that each irregular s... gains an extra consonant. Noi/voi forms return to the regular s...."},
 
@@ -104,7 +104,7 @@ const LESSON_5 = {
      sSrc:"It is important that you {1} carefully."},
 
     {type:"mc", q:"What is the subjunctive of 'volere' for 'che io'?",
-     opts:["voglio","voglia","vogli","volga"],
+     opts:["volga","voglio","voglia","vogli"],
      ans:"voglia",
      hint:"The stem changes to 'vogli-' with the soft 'gl' sound. All singular subjunctive forms share this same form."},
 
@@ -115,7 +115,7 @@ const LESSON_5 = {
      sSrc:"I believe he {1} home tonight."},
 
     {type:"mc", q:"What do 'proporre,' 'supporre,' and 'opporre' have in common in the subjunctive?",
-     opts:["They are all regular -are verbs with standard endings","They all use the stem ending in -pong- plus subjunctive endings","They all have the same meaning in Italian","They are only used in written Italian, never in speech"],
+     opts:["They all have the same meaning in Italian","They are only used in written Italian, never in speech","They are all regular -are verbs with standard endings","They all use the stem ending in -pong- plus subjunctive endings"],
      ans:"They all use the stem ending in -pong- plus subjunctive endings",
      hint:"Proponga, supponga, opponga: all -porre compounds add '-ng-' to the s... in the s...."}
   ]

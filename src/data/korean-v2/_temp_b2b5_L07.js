@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 7: Light, Escape, and Love
+// Korean B2. Batch 5, Lesson 7: Light, Escape, and Love
 // Words: 빛깔, 빛나다, 빠뜨리다, 빠져나가다, 빠져나오다, 빨다, 빼놓다, 빼앗기다, 빼앗다, 뺏다, 뺨, 뻔하다, 뽑히다, 뿌리치다, 사과하다, 사기, 사나이, 사냥, 사들이다, 사랑스럽다
 
 const LESSON_7 = {

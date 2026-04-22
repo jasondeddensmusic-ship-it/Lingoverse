@@ -1,4 +1,4 @@
-// Korean V2 Unit 42 — B1 Final: Research, Time, Arts, Nature, Commerce
+// Korean V2 Unit 42. B1 Final: Research, Time, Arts, Nature, Commerce
 import L01 from './_temp_b1fin_L01.js';
 import L02 from './_temp_b1fin_L02.js';
 import L03 from './_temp_b1fin_L03.js';

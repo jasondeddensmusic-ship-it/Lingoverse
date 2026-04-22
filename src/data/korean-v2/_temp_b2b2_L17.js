@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 17: Creativity and Uniqueness
+// Korean B2. Batch 2, Lesson 17: Creativity and Uniqueness
 // Words: 독창적, 독특하다, 독하다, 돌려주다, 돌멩이, 돌아다니다, 동, 동그라미, 동그랗다, 동부, 동서, 동서남북, 동아리, 동양, 동양인, 동의, 동의하다, 동일하다, 동작, 동전
 
 const LESSON_17 = {
@@ -119,7 +119,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'동아리'는 어디에서 주로 활동하나요?",
-     opts:["학교나 대학교","병원","법원","군대"],
+     opts:["군대","학교나 대학교","병원","법원"],
      ans:"학교나 대학교",
      hint:"A group of people with shared interests, primarily active in educational institutions."},
 

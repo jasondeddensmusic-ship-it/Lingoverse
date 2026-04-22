@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 9: Dialect, Industry, and Survival
+// Korean B2. Batch 5, Lesson 9: Dialect, Industry, and Survival
 // Words: 사정, 사진기, 사촌, 사춘기, 사투리, 사표, 사회생활, 사회자, 사회주의, 사회학, 사흘, 산길, 산부인과, 산속, 산업, 살림, 살아가다, 살아나다, 살아남다, 살아오다
 
 const LESSON_9 = {

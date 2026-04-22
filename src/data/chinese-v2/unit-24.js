@@ -77,7 +77,7 @@ lessons:[
  sSrc:"The {1} of this novel is a very famous Chinese writer."},
 
 {type:"mc", q:"小说(xiǎoshuō) literally means:",
- opts:["Small talk","Big story","written record","poetry collection"],
+ opts:["poetry collection","Small talk","Big story","written record"],
  ans:"Small talk",
  hint:"小 means …, and 说 means …. Novels were originally considered 'minor tales' compared to serious poetry and history."},
 
@@ -157,7 +157,7 @@ lessons:[
  sSrc:"I like going to art galleries to {1} Chinese paintings."},
 
 {type:"mc", q:"美(měi) originally combined the characters for:",
- opts:["Sheep and big","Sun and moon","Heart and eye","Mountain and water"],
+ opts:["Mountain and water","Sheep and big","Sun and moon","Heart and eye"],
  ans:"Sheep and big",
  hint:"In ancient China, a large, healthy ___ represented abundance and was considered an ideal of beauty."},
 
@@ -218,7 +218,7 @@ lessons:[
  sSrc:"Art is one way of {1} emotions."},
 
 {type:"mc", q:"想象(xiǎngxiàng) contains 象(xiàng). Why does an 'elephant' appear in the word for 'imagination'?",
- opts:["Elephants became a metaphor for things that take form or shape","Elephants are very imaginative animals","The character was chosen at random","Elephants appear in many Chinese stories"],
+ opts:["Elephants appear in many Chinese stories","Elephants became a metaphor for things that take form or shape","Elephants are very imaginative animals","The character was chosen at random"],
  ans:"Elephants became a metaphor for things that take form or shape",
  hint:"As the largest visible animal in ancient China, the elephant ___ associated with ___, image, and appearance."},
 
@@ -235,7 +235,7 @@ lessons:[
  sSrc:"This TV drama made many people very {1}."},
 
 {type:"mc", q:"Chinese culture values 含蓄(hánxù) in artistic expression. This means:",
- opts:["Indirect and suggestive rather than direct","Loud and colorful","Simple and plain","Fast and energetic"],
+ opts:["Simple and plain","Fast and energetic","Indirect and suggestive rather than direct","Loud and colorful"],
  ans:"Indirect and suggestive rather than direct",
  hint:"This aesthetic principle prefers suggestion over statement. A painting that leaves space for the viewer is considered more elegant."}
 ]},
@@ -266,7 +266,7 @@ lessons:[
  sSrc:"She is the {1} of this book."},
 
 {type:"mc", q:"创作(chuàngzuò) differs from 制作(zhìzuò) because:",
- opts:["创作 implies original artistic inspiration","创作 means mechanical production","They are exactly the same","创作 is only for music"],
+ opts:["创作 is only for music","创作 implies original artistic inspiration","创作 means mechanical production","They are exactly the same"],
  ans:"创作 implies original artistic inspiration",
  hint:"创 means to initiate or begin something new. This word is about ___ creation, not manufacturing."},
 
@@ -291,7 +291,7 @@ lessons:[
  sSrc:"He uses music to {1} his emotions."},
 
 {type:"mc", q:"故事(gùshi) literally means:",
- opts:["Matters from the past","New events","Made-up tales","Famous people"],
+ opts:["Made-up tales","Famous people","Matters from the past","New events"],
  ans:"Matters from the past",
  hint:"故 means old or …, and 事 means matter or affair. A story is about things that happened before."},
 
@@ -302,7 +302,7 @@ lessons:[
  hint:"This author has rich imagination. His stories always make people very moved."},
 
 {type:"mc", q:"昨天(zuótiān)的(de)表演(biǎoyǎn)非常(fēicháng)精彩(jīngcǎi)。 What was wonderful?",
- opts:["Yesterday's performance","Yesterday's meal","Yesterday's weather","Yesterday's news"],
+ opts:["Yesterday's meal","Yesterday's weather","Yesterday's news","Yesterday's performance"],
  ans:"Yesterday's performance",
  hint:"表演 means a live show or ___. 精彩 means wonderful or spectacular. The sentence praises a show."}
 ]}
@@ -394,7 +394,7 @@ lessons:[
  sSrc:"My teacher has always {1} me to study hard."},
 
 {type:"mc", q:"积极(jījí) and 消极(xiāojí) are antonyms. What does 消极 describe?",
- opts:["A draining, passive attitude","An energetic, proactive attitude","A careful, detailed attitude","A friendly, warm attitude"],
+ opts:["A friendly, warm attitude","A draining, passive attitude","An energetic, proactive attitude","A careful, detailed attitude"],
  ans:"A draining, passive attitude",
  hint:"消 means to vanish or fade. This word describes energy that drains away rather than builds up."},
 
@@ -424,7 +424,7 @@ lessons:[
  sSrc:"Do you think the {1} of success is high?"},
 
 {type:"mc", q:"完整(wánzhěng) differs from 完(wán) because:",
- opts:["完整 means fully intact with nothing missing; 完 means simply finished","They are identical in meaning","完整 is informal; 完 is formal","完 means complete; 完整 means started"],
+ opts:["完整 is informal; 完 is formal","完 means complete; 完整 means started","完整 means fully intact with nothing missing; 完 means simply finished","They are identical in meaning"],
  ans:"完整 means fully intact with nothing missing; 完 means simply finished",
  hint:"The key is the character 整, which adds structural wholeness. Think about a report: it can be submitted yet still lack data. Which answer captures that extra requirement?"},
 

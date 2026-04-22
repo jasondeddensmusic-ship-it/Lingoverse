@@ -1,4 +1,4 @@
-// Batch 4 — Unit 02 Lesson 2: Hobbies & Interests
+// Batch 4. Unit 02 Lesson 2: Hobbies & Interests
 const BATCH4_L_2 = {
   id:"jav2_u02l_b4_2", title:"趣味(しゅみ)", icon:"🎨", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const BATCH4_L_2 = {
      hint:"The formal word for reading books as a pastime."},
 
     {type:"mc", q:"カラオケ is made from which two words?",
-     opts:["empty + orchestra","song + room","voice + box","music + play"], ans:"empty + orchestra",
+     opts:["music + play","empty + orchestra","song + room","voice + box"], ans:"empty + orchestra",
      hint:"Kara means e..., oke is short for o...."},
 
     {type:"match", pairs:[
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"A compliment meaning skilled or good at something."},
 
     {type:"mc", q:"What is the opposite of 上手(じょうず)?",
-     opts:["下手(へた)","好(す)き","嫌(きら)い","丈夫(じょうぶ)"], ans:"下手(へた)",
+     opts:["嫌(きら)い","丈夫(じょうぶ)","下手(へた)","好(す)き"], ans:"下手(へた)",
      hint:"Means unskilled, poor at something, the opposite of skilled."},
 
     {type:"mc", q:"写真(しゃしん) means:",
-     opts:["photograph","painting","drawing","film"], ans:"photograph",
+     opts:["painting","drawing","film","photograph"], ans:"photograph",
      hint:"Literally 'copy truth,' capturing reality in an image."}
   ,{type:"match",pairs:[{trg:"趣味(しゅみ)",src:"hobby / interest"},{trg:"旅行(りょこう)",src:"travel / trip"},{trg:"運動(うんどう)",src:"exercise / sports"},{trg:"音楽(おんがく)",src:"music"},{trg:"ゲーム",src:"game / video game"},{trg:"カラオケ",src:"karaoke"}]},{type:"match",pairs:[{trg:"写真(しゃしん)",src:"photograph / photo"}]}]
 };

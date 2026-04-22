@@ -84,7 +84,7 @@ const LESSON_3 = {id:"esv2_b2g5_l3",title:"Cuerpo y salud",icon:"🏥",xp:15,boa
  exampleSrc:"A: The scan shows fetal development is normal.\nB: What a relief. Everything is going well then.",
  funFact:"'Posición fetal' is used both medically and colloquially to describe curling up in a ball."},
 
-{type:"mc",q:"¿Qué significa 'estreñimiento'?",opts:["Dificultad para ir al baño","Un resfriado común","Dolor de cabeza intenso","Inflamación de los ojos"],ans:"Dificultad para ir al baño",hint:"Not to be confused with 'constipado', which means having a cold in Spanish."},
+{type:"mc",q:"¿Qué significa 'estreñimiento'?",opts:["Inflamación de los ojos","Dificultad para ir al baño","Un resfriado común","Dolor de cabeza intenso"],ans:"Dificultad para ir al baño",hint:"Not to be confused with 'constipado', which means having a cold in Spanish."},
 
 {type:"fb",s:"Las {1} regulan el crecimiento y el metabolismo.",a:["hormonas"],opts:["hormonas","hernias","dermis","cadáveres"],hint:"Chemical messengers produced by glands that control body processes.",sSrc:"The {1} regulate growth and metabolism."},
 
@@ -92,7 +92,7 @@ const LESSON_3 = {id:"esv2_b2g5_l3",title:"Cuerpo y salud",icon:"🏥",xp:15,boa
 
 {type:"fb",s:"Las personas con {1} necesitan edificios accesibles.",a:["discapacidad"],opts:["discapacidad","conjuntivitis","flacidez","hernia"],hint:"A condition that limits a person's physical or mental abilities.",sSrc:"People with {1} need accessible buildings."},
 
-{type:"mc",q:"¿Dónde actúa la dermis?",opts:["En la capa profunda de la piel","En los huesos","En el cerebro","En los músculos"],ans:"En la capa profunda de la piel",hint:"It is one of the layers of skin, located beneath the outer surface layer."}
+{type:"mc",q:"¿Dónde actúa la dermis?",opts:["En el cerebro","En los músculos","En la capa profunda de la piel","En los huesos"],ans:"En la capa profunda de la piel",hint:"It is one of the layers of skin, located beneath the outer surface layer."}
 ]};
 
 export default LESSON_3;

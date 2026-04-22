@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"I am {1} at sports, but good at music."},
 
     {type:"mc", q:"水泳(すいえい) is mandatory in Japanese schools because:",
-     opts:["To prevent drowning deaths after a 1955 ferry disaster","To train Olympic swimmers","Because all schools have pools","To cool down in summer"],
+     opts:["To cool down in summer","To prevent drowning deaths after a 1955 ferry disaster","To train Olympic swimmers","Because all schools have pools"],
      ans:"To prevent drowning deaths after a 1955 ferry disaster",
      hint:"A tragic event led to a national policy ensuring every child can swim."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Let us take a {1} together. Say cheese!"},
 
     {type:"mc", q:"カラオケ literally means:",
-     opts:["Empty orchestra","Singing machine","Music box","Song room"],
+     opts:["Music box","Song room","Empty orchestra","Singing machine"],
      ans:"Empty orchestra",
      hint:"The word combines からっぽ (e...) and オーケストラ (o...). Music without singers."},
 

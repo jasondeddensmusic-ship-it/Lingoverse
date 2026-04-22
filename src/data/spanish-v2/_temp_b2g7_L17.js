@@ -13,7 +13,7 @@ const LESSON_17 = {id:"esv2_b2g7_l17",title:"Influencia y poder",icon:"👑",xp:
 {type:"teach",trg:"la incursión",src:"the incursion / foray",pos:"noun",gender:"f",note:"An invasion or a first attempt at entering a new area.",example:"A: Su primera incursión en la política fue desastrosa.\nB: La empresa hizo una incursión en el mercado asiático.",exampleSrc:"A: His first foray into politics was disastrous.\nB: The company made an incursion into the Asian market.",funFact:"Originally a military term (a sudden attack), now mostly used figuratively: 'incursión en la música', 'incursión en el cine'."},
 {type:"mc",q:"'Dejar impronta' significa:",opts:["Dejar una influencia duradera","Irse de un lugar","Destruir algo","Olvidar algo"],ans:"Dejar una influencia duradera",hint:"An 'impronta' is a permanent mark or influence that endures."},
 {type:"fb",s:"La {1} de la empresa requiere estudiar los mercados internacionales.",a:["internacionalización"],opts:["internacionalización","incursión","congregación","imposición"],hint:"This long noun means the process of expanding to other countries.",sSrc:"The {1} of the company requires studying international markets."},
-{type:"mc",q:"¿Cuál es un 'indicador' económico clave?",opts:["La tasa de desempleo","El color de los billetes","El nombre del presidente","El tamaño del país"],ans:"La tasa de desempleo",hint:"An indicador shows the health or condition of something measurable."},
+{type:"mc",q:"¿Cuál es un 'indicador' económico clave?",opts:["El tamaño del país","La tasa de desempleo","El color de los billetes","El nombre del presidente"],ans:"La tasa de desempleo",hint:"An indicador shows the health or condition of something measurable."},
 {type:"fb",s:"Su primera {1} en el mundo del cine fue una película independiente.",a:["incursión"],opts:["incursión","impronta","internacionalización","imposición"],hint:"This word means a first attempt or foray into a new area.",sSrc:"His first {1} into the world of cinema was an independent film."},
 {type:"match",pairs:[
   {trg:"el magnate",src:"the tycoon"},
@@ -22,7 +22,7 @@ const LESSON_17 = {id:"esv2_b2g7_l17",title:"Influencia y poder",icon:"👑",xp:
   {trg:"la incursión",src:"the incursion / foray"},
   {trg:"masivo",src:"massive / mass"}
 ]},
-{type:"mc",q:"ICEX ayuda a las empresas españolas a:",opts:["Expandirse a mercados internacionales","Contratar empleados","Reducir impuestos","Cerrar negocios"],ans:"Expandirse a mercados internacionales",hint:"This Spanish institute supports the internationalization of companies."},
+{type:"mc",q:"ICEX ayuda a las empresas españolas a:",opts:["Reducir impuestos","Cerrar negocios","Expandirse a mercados internacionales","Contratar empleados"],ans:"Expandirse a mercados internacionales",hint:"This Spanish institute supports the internationalization of companies."},
 {type:"fb",s:"Los {1} económicos de este mes son bastante positivos.",a:["indicadores"],opts:["indicadores","mandatarios","magnates","convenios"],hint:"These are metrics or signs that show economic trends.",sSrc:"The economic {1} this month are quite positive."}
 ]};
 export default LESSON_17;

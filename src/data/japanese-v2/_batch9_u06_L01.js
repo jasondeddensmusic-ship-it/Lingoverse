@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"孫(まご)", src:"grandchild"}
     ]},
 
-    {type:"mc", q:"What does 義理(ぎり)の母(はは) mean?", opts:["Mother-in-law","Grandmother","Stepmother","Aunt"], ans:"Mother-in-law",
+    {type:"mc", q:"What does 義理(ぎり)の母(はは) mean?", opts:["Aunt","Mother-in-law","Grandmother","Stepmother"], ans:"Mother-in-law",
      hint:"義理(ぎり) means 'obligation/duty' and is the prefix used for relationships through marriage."}
   ,{type:"match",pairs:[{trg:"親戚(しんせき)",src:"relatives"},{trg:"姪(めい)",src:"niece"},{trg:"甥(おい)",src:"nephew"},{trg:"義理(ぎり)",src:"in-law (prefix)"}]}]
 };

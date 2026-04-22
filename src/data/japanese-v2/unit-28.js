@@ -156,7 +156,7 @@ const UNIT_28 = {
    exampleSrc:"A: What do you think about education in Japan?\nB: I think the foundational academic ability is high.\nA: How does it compare to overseas?\nB: It is said there is room for improvement in terms of creativity.",
    funFact:"教育 is one of the most discussed topics in Japanese society. Japan's 教育ママ (education mom) culture, 受験戦争(じゅけんせんそう) (examination war), and 塾(じゅく) (cram school) industry all revolve around this word. The government 文部科学省(もんぶかがくしょう) (Ministry of Education) sets the national curriculum, which is known for rigor."},
 
-  {type:"mc", q:"経営(けいえい)する means:", opts:["to educate","to manage a business","to administer a law","to study abroad"], ans:"to manage a business",
+  {type:"mc", q:"経営(けいえい)する means:", opts:["to manage a business","to administer a law","to study abroad","to educate"], ans:"to manage a business",
    hint:"This word combines kanji for 'to pass through' and 'to operate', referring to running an organization."},
 
   {type:"teach", trg:"管理(かんり)", src:"management / administration / control", pos:"noun", gender:null,
@@ -178,7 +178,7 @@ const UNIT_28 = {
    note:"Kanji: 印象. 印 (seal/stamp) + 象 (image/phenomenon).\n第一印象(だいいちいんしょう) = first impression. 印象的(いんしょうてき) = impressive.",
    example:"A: あの先生(せんせい)の授業(じゅぎょう)はどんな印象(いんしょう)でしたか？\nB: とても熱心(ねっしん)で分(わ)かりやすかったです。\nA: 学生(がくせい)たちの反応(はんのう)はどうでしたか？\nB: 皆(みな)、積極的(せっきょくてき)に参加(さんか)していました。",
    exampleSrc:"A: What impression did you get from that teacher's class?\nB: It was very enthusiastic and easy to understand.\nA: How did the students react?\nB: Everyone was participating actively.",
-   funFact:"印象 literally means 'stamp image' — the mark something leaves in your mind, like a seal pressed into wax. 第一印象(だいいちいんしょう) (first impression) is a major concern in Japanese job-hunting culture. Companies teach 就活生(しゅうかつせい) (job-hunting students) how to walk, bow, and speak precisely to control their 第一印象."},
+   funFact:"印象 literally means 'stamp image', the mark something leaves in your mind, like a seal pressed into wax. 第一印象(だいいちいんしょう) (first impression) is a major concern in Japanese job-hunting culture. Companies teach 就活生(しゅうかつせい) (job-hunting students) how to walk, bow, and speak precisely to control their 第一印象."},
 
   {type:"fb", s:"彼女(かのじょ)の第一{1}はとても良(よ)かった。\n(Her first impression was very good.)", a:"印象(いんしょう)", opts:["印象(いんしょう)","管理(かんり)","経営(けいえい)","過去(かこ)"], sSrc:"Her first impression was very good.",
    hint:"The noun meaning the mark or image something leaves in someone's mind."},
@@ -198,7 +198,7 @@ const UNIT_28 = {
   {type:"fb", s:"{1}な例(れい)を挙(あ)げてください。\n(Please give a concrete example.)", a:"具体的(ぐたいてき)", opts:["具体的(ぐたいてき)","一般(いっぱん)","過去(かこ)","印象的(いんしょうてき)"], sSrc:"Please give a concrete example.",
    hint:"The na-adjective meaning specific or concrete, the opposite of abstract."},
 
-  {type:"mc", q:"一般(いっぱん)的(てき)に言(い)えば means:", opts:["Specifically speaking","Generally speaking","Concretely speaking","In the past"], ans:"Generally speaking",
+  {type:"mc", q:"一般(いっぱん)的(てき)に言(い)えば means:", opts:["In the past","Specifically speaking","Generally speaking","Concretely speaking"], ans:"Generally speaking",
    hint:"This phrase introduces a broad claim. 一般 relates to what is common or broadly applicable."},
 
   {type:"match", pairs:[{trg:"経営(けいえい)",src:"business management"},{trg:"教育(きょういく)",src:"education"},{trg:"管理(かんり)",src:"administration"},{trg:"過去(かこ)",src:"the past"}]},
@@ -209,7 +209,7 @@ const UNIT_28 = {
    hint:"The noun for running and operating a business at the strategic level."},
 ]},
 
-// ═══ L4: N2 Formal Vocabulary — Time, Society, and Action ═══
+// ═══ L4: N2 Formal Vocabulary. Time, Society, and Action ═══
 {id:"jav2_u28l_n2_formal", title:"N2 Formal Vocabulary", icon:"🗂️", xp:20, board:true, steps:[
   {type:"intro", title:"N2 Formal Vocabulary: Time, Society, and Action",
    desc:"Eight high-frequency N2 words spanning time reference, social context, and formal verbs. These appear in JLPT N2 reading passages, newspaper articles, and business correspondence. Mastering them unlocks a large cluster of written and spoken formal register.",
@@ -231,7 +231,7 @@ const UNIT_28 = {
    note:"Excludes something from a scope. X以外(いがい) = everything except X. 彼(かれ)以外(いがい) = anyone but him.",
    example:"A: 月曜日(げつようび)以外(いがい)はいつでも大丈夫(だいじょうぶ)ですか？\nB: はい、火曜日(かようび)から金曜日(きんようび)であれば問題(もんだい)ありません。\nA: 場所(ばしょ)はこちらのオフィス以外(いがい)でも構(かま)いませんか？\nB: もちろんです。ご希望(きぼう)の場所(ばしょ)でも対応(たいおう)できます。",
    exampleSrc:"A: Is any day except Monday fine with you?\nB: Yes, Tuesday through Friday presents no problem.\nA: Would a location other than this office be acceptable as well?\nB: Of course. We can accommodate your preferred location.",
-   funFact:"以外 is one of the most versatile exclusion words in Japanese. It contrasts with を除(のぞ)いて (excluding, more formal) and ほか (other). In everyday speech, 以外 covers almost all exclusion needs: 日本語(にほんご)以外(いがい)の言語(げんご) (languages other than Japanese). In JLPT N2 grammar, 以外に (in addition to / aside from) appears as a separate usage that means the opposite — so context matters."},
+   funFact:"以外 is one of the most versatile exclusion words in Japanese. It contrasts with を除(のぞ)いて (excluding, more formal) and ほか (other). In everyday speech, 以外 covers almost all exclusion needs: 日本語(にほんご)以外(いがい)の言語(げんご) (languages other than Japanese). In JLPT N2 grammar, 以外に (in addition to / aside from) appears as a separate usage that means the opposite, so context matters."},
 
   {type:"mc", q:"以前(いぜん) refers to:", opts:["a point in time before a reference","a point in time after a reference","an exception or exclusion","something from a different place"],
    ans:"a point in time before a reference",

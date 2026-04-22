@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「なに」が「なん」になるのはどの場合(ばあい)ですか？",
-     opts:["Before た, だ, な row sounds","Before を and が","Before は and も","Always in questions"],
+     opts:["Always in questions","Before た, だ, な row sounds","Before を and が","Before は and も"],
      ans:"Before た, だ, な row sounds",
      hint:"Think about なんですか and なんじ. The sound that follows determines the reading."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"What kind of music do you like?"},
 
     {type:"mc", q:"二(ふた)つのものから選(えら)ぶとき、どのことばを使(つか)いますか？",
-     opts:["どちら","どれ","どこ","どの"],
+     opts:["どこ","どの","どちら","どれ"],
      ans:"どちら",
      hint:"This word is specifically for choosing between two options. For three or more, you would use a different question word."}
   ,{type:"match",pairs:[{trg:"だれ",src:"who"},{trg:"いくつ",src:"how many / how old"}]}]

@@ -68,10 +68,10 @@ const LESSON_11 = {id:"esv2_b2gD_l11",title:"Naturaleza y geografía",icon:"\uD8
  {trg:"pelotón",src:"platoon / peloton"}
 ]},
 
-{type:"mc",q:"'Dormir como un leño' significa...",opts:["Dormir muy profundamente","Dormir en el suelo","Dormir poco tiempo","Dormir al aire libre"],ans:"Dormir muy profundamente",hint:"An idiom comparing deep, unmoving sleep to something heavy and wooden."},
+{type:"mc",q:"'Dormir como un leño' significa...",opts:["Dormir al aire libre","Dormir muy profundamente","Dormir en el suelo","Dormir poco tiempo"],ans:"Dormir muy profundamente",hint:"An idiom comparing deep, unmoving sleep to something heavy and wooden."},
 
 {type:"fb",s:"Es una {1} que la tecnología nos conecte y a la vez nos aísle.",a:["paradoja"],opts:["paradoja","ondulación","peste","malaquita"],hint:"A statement that seems contradictory but reveals a deeper truth about the situation.",sSrc:"It's a {1} that technology connects us and at the same time isolates us."},
 
-{type:"mc",q:"La malaquita es...",opts:["Un mineral verde usado en joyería","Una planta medicinal","Un tipo de arcilla roja","Un metal precioso"],ans:"Un mineral verde usado en joyería",hint:"A distinctive banded green stone made of copper carbonate, used decoratively since antiquity."}
+{type:"mc",q:"La malaquita es...",opts:["Un tipo de arcilla roja","Un metal precioso","Un mineral verde usado en joyería","Una planta medicinal"],ans:"Un mineral verde usado en joyería",hint:"A distinctive banded green stone made of copper carbonate, used decoratively since antiquity."}
 ]};
 export default LESSON_11;

@@ -69,7 +69,7 @@ lessons:[
  sSrc:"What {1} do you have?"},
 
 {type:"mc", q:"健康(jiànkāng)的(de)饮食(yǐnshí)很(hěn)重要(zhòngyào)。 What does this mean?",
- opts:["A healthy diet is very important","Exercise is very healthy","Nutrition is not important","Symptoms are very serious"],
+ opts:["Symptoms are very serious","A healthy diet is very important","Exercise is very healthy","Nutrition is not important"],
  ans:"A healthy diet is very important",
  hint:"健康 modifies 饮食 as an adjective here. 重要 means '___.'"},
 
@@ -148,7 +148,7 @@ lessons:[
  sSrc:"You should go to the hospital for a {1}."},
 
 {type:"mc", q:"养生(yǎngshēng) literally means:",
- opts:["Nourish life","Strong body","Eat medicine","Prevent disease"],
+ opts:["Prevent disease","Nourish life","Strong body","Eat medicine"],
  ans:"Nourish life",
  hint:"养 means 'to … or raise' and 生 means '….' Combine the two characters."},
 
@@ -159,7 +159,7 @@ lessons:[
  sSrc:"Work {1} is very high, I need to rest."},
 
 {type:"mc", q:"心理(xīnlǐ)健康(jiànkāng)和(hé)身体(shēntǐ)健康(jiànkāng)一样(yíyàng)重要(zhòngyào)。 What is being said?",
- opts:["Mental health and physical health are equally important","Mental health is more important than physical health","The doctor treats both mind and body","Prevention is better than cure"],
+ opts:["The doctor treats both mind and body","Prevention is better than cure","Mental health and physical health are equally important","Mental health is more important than physical health"],
  ans:"Mental health and physical health are equally important",
  hint:"一样重要 means '___ ___.' Two types of 健康 are being compared."}
 ]},
@@ -213,7 +213,7 @@ lessons:[
  sSrc:"{1} nutrition is very important for health."},
 
 {type:"mc", q:"适当(shìdàng)的(de)锻炼(duànliàn)有(yǒu)助于(zhùyú)健康(jiànkāng)。 What is the advice?",
- opts:["Moderate exercise helps with health","Too much exercise is harmful","You should stop exercising","Diet is more important than exercise"],
+ opts:["Diet is more important than exercise","Moderate exercise helps with health","Too much exercise is harmful","You should stop exercising"],
  ans:"Moderate exercise helps with health",
  hint:"适当 means 'appropriate/___' and 有助于 means '___ with.' What kind of ___ is being recommended?"},
 
@@ -230,7 +230,7 @@ lessons:[
  hint:"To prevent illness, you need a balanced diet and moderate exercise."},
 
 {type:"mc", q:"Which combination best completes the health advice: '要(yào)注意(zhùyì) _____ 和(hé) _____ 健康(jiànkāng)'?",
- opts:["身体(shēntǐ)...心理(xīnlǐ)","减肥(jiǎnféi)...体重(tǐzhòng)","锻炼(duànliàn)...饮食(yǐnshí)","症状(zhèngzhuàng)...治疗(zhìliáo)"],
+ opts:["锻炼(duànliàn)...饮食(yǐnshí)","症状(zhèngzhuàng)...治疗(zhìliáo)","身体(shēntǐ)...心理(xīnlǐ)","减肥(jiǎnféi)...体重(tǐzhòng)"],
  ans:"身体(shēntǐ)...心理(xīnlǐ)",
  hint:"The advice is about paying attention to two types of health: physical and mental."},
 

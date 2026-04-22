@@ -1,4 +1,4 @@
-// Lesson 8 — Sociedad y convivencia (Society and Coexistence)
+// Lesson 8. Sociedad y convivencia (Society and Coexistence)
 const LESSON_8 = {id:"esv2_b2g9_l8", title:"Sociedad y convivencia", icon:"\u{1F91D}", xp:25, board:true, steps:[
   {type:"intro", title:"Sociedad y convivencia",
    desc:"Discuss social issues, family dynamics, and community life. These terms help you navigate conversations about how people live together.",
@@ -35,7 +35,7 @@ const LESSON_8 = {id:"esv2_b2g9_l8", title:"Sociedad y convivencia", icon:"\u{1F
    funFact:"Spanish speakers often use 'sin exageraci\u00f3n' before a statement to emphasise they are being truthful."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es el machismo?",
-   opts:["Un tipo de comida","La creencia en la superioridad del hombre","Un deporte tradicional","Un estilo de m\u00fasica"],
+   opts:["La creencia en la superioridad del hombre","Un deporte tradicional","Un estilo de m\u00fasica","Un tipo de comida"],
    ans:"La creencia en la superioridad del hombre",
    hint:"From 'macho' (male). It describes an ideology based on male dominance."},
 
@@ -87,7 +87,7 @@ const LESSON_8 = {id:"esv2_b2g9_l8", title:"Sociedad y convivencia", icon:"\u{1F
   ]},
 
   {type:"mc", q:"\u00bfCu\u00e1l es el equivalente masculino de 'madrastra'?",
-   opts:["Madrastro","Padrastro","Padrino","Abuelo"],
+   opts:["Abuelo","Madrastro","Padrastro","Padrino"],
    ans:"Padrastro",
    hint:"The -astro/-astra suffix marks step-relatives. For the father figure, it is padr-."},
 

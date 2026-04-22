@@ -113,7 +113,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'전체'의 반대 개념은?",
-     opts:["절반","일부","이하","이외"],
+     opts:["일부","이하","이외","절반"],
      ans:"일부",
      hint:"The opposite of 'the whole' is just a portion or some of it."},
 

@@ -38,7 +38,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"안개가 아주 두꺼울 때 어떻게 표현해요?",
-     opts:["좁다","짙다","차갑다","착하다"],
+     opts:["짙다","차갑다","착하다","좁다"],
      ans:"짙다",
      hint:"This adjective describes density or depth, used for fog, color, and fragrance."},
 

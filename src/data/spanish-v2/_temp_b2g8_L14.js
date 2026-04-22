@@ -73,7 +73,7 @@ const LESSON_14 = {id:"esv2_b2g8_l14",title:"Política y gobernanza",icon:"🏛�
  funFact:"'En cambio' is a key connector in formal Spanish writing and debate. It signals a contrast."},
 
 {type:"mc",q:"¿Qué significa 'en cambio' en una frase?",
- opts:["Introduce un contraste con lo anterior","Indica acuerdo total","Señala el final del argumento","Pide un favor"],
+ opts:["Pide un favor","Introduce un contraste con lo anterior","Indica acuerdo total","Señala el final del argumento"],
  ans:"Introduce un contraste con lo anterior",
  hint:"A linking phrase that shows the opposite side of an argument. Think 'however'."},
 

@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"報道(ほうどう)",src:"news reporting"},{trg:"社説(しゃせつ)",src:"editorial"},{trg:"記事(きじ)",src:"article"},{trg:"速報(そくほう)",src:"breaking news"},{trg:"解説(かいせつ)",src:"commentary"}],
      hint:"Match each media term with its English meaning."},
 
-    {type:"mc", q:"What is Japan's 記者(きしゃ)クラブ system?", opts:["A press club giving member journalists exclusive government access","A journalism school","A newspaper delivery service","A TV rating system"], ans:"A press club giving member journalists exclusive government access",
+    {type:"mc", q:"What is Japan's 記者(きしゃ)クラブ system?", opts:["A TV rating system","A press club giving member journalists exclusive government access","A journalism school","A newspaper delivery service"], ans:"A press club giving member journalists exclusive government access",
      hint:"This unique Japanese system is both praised for organized a... and criticized for limiting independent reporting."},
 
     {type:"fb", s:"{1}だけ読(よ)んで内容(ないよう)を判断(はんだん)しないでください。\n(Please do not judge content by headlines alone.)", a:"見出(みだ)し", opts:["見出(みだ)し","記事(きじ)","社説(しゃせつ)","速報(そくほう)"], sSrc:"Please do not judge content by headlines alone.",
      hint:"This is the large text at the top of a news article."},
 
-    {type:"mc", q:"What does マスコミ stand for?", opts:["Mass communication (abbreviated)","Master of commerce","Massive community","Marketing commission"], ans:"Mass communication (abbreviated)",
+    {type:"mc", q:"What does マスコミ stand for?", opts:["Massive community","Marketing commission","Mass communication (abbreviated)","Master of commerce"], ans:"Mass communication (abbreviated)",
      hint:"This abbreviation covers newspapers, TV, radio, and other large-scale media."}
   ,{type:"match",pairs:[{trg:"取(と)り上(あ)げる",src:"to cover / to feature / to pick up (a topic)"},{trg:"世論(よろん)",src:"public opinion"},{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"},{trg:"時事(じじ)",src:"current affairs / current events"},{trg:"マスコミ",src:"mass media / mass communication"},{trg:"情報源(じょうほうげん)",src:"information source"}]}]
 };

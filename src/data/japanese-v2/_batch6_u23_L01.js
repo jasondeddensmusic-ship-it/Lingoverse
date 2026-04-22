@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Have you decided yet?\nB: Yes, I have decided on this one.\nA: Do you recommend it?\nB: Yes, please try it.",
      funFact:"決(き)める/決(き)まる is another transitive/intransitive pair. ルールが決(き)まった (the rule was decided). ルールを決(き)めた (someone decided the rule). In Japanese, 決(き)め台詞(ぜりふ) (signature phrase/catchphrase) is a pop culture term. Every anime hero has a 決(き)め台詞(ぜりふ) that they say at climactic moments."},
 
-    {type:"mc", q:"原因(げんいん) and 結果(けっか) together describe:", opts:["Cause and effect","Problem and solution","Question and answer","Beginning and end"], ans:"Cause and effect",
+    {type:"mc", q:"原因(げんいん) and 結果(けっか) together describe:", opts:["Beginning and end","Cause and effect","Problem and solution","Question and answer"], ans:"Cause and effect",
      hint:"These two words form the fundamental logical pair in analysis."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"もう少(すこ)し{1}させてください。\n(Please let me think about it a little more.)", a:"かんがえ", opts:["かんがえ","きめ","いい","おもい"], sSrc:"Please let me think about it a little more.",
      hint:"The causative form stem of the verb meaning to think or consider."},
 
-    {type:"mc", q:"事実(じじつ) means:", opts:["Fact or truth","Opinion","Guess","Feeling"], ans:"Fact or truth",
+    {type:"mc", q:"事実(じじつ) means:", opts:["Guess","Feeling","Fact or truth","Opinion"], ans:"Fact or truth",
      hint:"This word describes verified reality, not speculation."}
   ,{type:"match",pairs:[{trg:"原因(げんいん)",src:"cause / origin (of a problem)"},{trg:"事実(じじつ)",src:"fact / truth / reality"},{trg:"意見(いけん)",src:"opinion / view"},{trg:"大切(たいせつ)",src:"important / precious / valuable"},{trg:"考(かんが)える",src:"to think / to consider"},{trg:"決(き)める",src:"to decide / to determine"}]},
   {type:"fb", s:"火事(かじ)の{1}を調(しら)べています。", a:["原因(げんいん)"], opts:["原因(げんいん)","結果(けっか)","影響(えいきょう)","理由(りゆう)"], hint:"The factor that directly causes an event or problem to occur.", sSrc:"We are investigating the {1} of the fire."},

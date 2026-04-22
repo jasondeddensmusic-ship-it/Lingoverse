@@ -60,7 +60,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: I have come to be able to speak Japanese.\nB: Amazing! Since when have you been studying?\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"ようになる captures organic, gradual change. Unlike the sudden decision of ことにする, ようになる implies a process over time. It is perfect for describing language learning progress, growing abilities, and lifestyle changes. This pattern is one of the most satisfying to use because it celebrates achievement through natural growth."},
 
-    {type:"mc", q:"疲(つか)れていても休(やす)むわけにはいかない means:", opts:["Even if tired, I cannot rest due to obligation","I am too tired to rest","I want to rest because I am tired","Being tired is not a reason to rest"], ans:"Even if tired, I cannot rest due to obligation",
+    {type:"mc", q:"疲(つか)れていても休(やす)むわけにはいかない means:", opts:["Being tired is not a reason to rest","Even if tired, I cannot rest due to obligation","I am too tired to rest","I want to rest because I am tired"], ans:"Even if tired, I cannot rest due to obligation",
      hint:"わけにはいかない expresses inability caused by duty or social expectations, not physical limits."},
 
     {type:"teach", trg:"見習(みなら)う", src:"to follow someone's example / to learn from", pos:"verb", gender:null,
@@ -80,7 +80,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"ところ",src:"timing marker (about to/middle/just)"},{trg:"わけ",src:"reason/meaning"},{trg:"はず",src:"should be/expected"},{trg:"つもり",src:"intend to"}]},
 
-    {type:"mc", q:"彼(かれ)はもう着(つ)いているはずです means:", opts:["He should have arrived by now","He intended to arrive","He is about to arrive","He has no way of arriving"], ans:"He should have arrived by now",
+    {type:"mc", q:"彼(かれ)はもう着(つ)いているはずです means:", opts:["He is about to arrive","He has no way of arriving","He should have arrived by now","He intended to arrive"], ans:"He should have arrived by now",
      hint:"はず expresses a logical expectation based on known facts."},
 
     {type:"match", pairs:[{trg:"締(し)め切(き)り",src:"deadline"},{trg:"見習(みなら)う",src:"learn from example"},{trg:"真面目(まじめ)",src:"diligent/serious"},{trg:"わけにはいかない",src:"cannot do (moral reason)"}]},

@@ -76,7 +76,7 @@ const LESSON_2 = {
      sSrc:"{1} is transmitted by mosquitoes."},
 
     {type:"mc", q:"Que signifie 'gricer des dents'?",
-     opts:["Frotter les dents les unes contre les autres","Sourire largement","Manger vite","Se brosser les dents"],
+     opts:["Se brosser les dents","Frotter les dents les unes contre les autres","Sourire largement","Manger vite"],
      ans:"Frotter les dents les unes contre les autres",
      hint:"This involuntary action often happens during sleep and causes jaw pain"},
 
@@ -93,7 +93,7 @@ const LESSON_2 = {
      sSrc:"His work {1} has lasted for three months."},
 
     {type:"mc", q:"Comment dit-on 'malaria' en francais medical?",
-     opts:["le paludisme","la mutilation","la paralysie","l'indigestion"],
+     opts:["la paralysie","l'indigestion","le paludisme","la mutilation"],
      ans:"le paludisme",
      hint:"The French medical term comes from the Latin word for swamp"},
 
@@ -103,7 +103,7 @@ const LESSON_2 = {
      sSrc:"The {1} of this medication was demonstrated by the study."},
 
     {type:"mc", q:"'Une malformation congenitale' signifie:",
-     opts:["Un defaut present depuis la naissance","Une blessure recente","Une infection grave","Un traitement experimental"],
+     opts:["Une blessure recente","Une infection grave","Un traitement experimental","Un defaut present depuis la naissance"],
      ans:"Un defaut present depuis la naissance",
      hint:"Congenital means something you are born with, and mal means bad"},
 

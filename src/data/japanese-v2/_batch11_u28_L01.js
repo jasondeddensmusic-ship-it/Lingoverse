@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本語(にほんご)の「曖昧(あいまい)さ」はどうとらえられていますか？",
-     opts:["Both as harmony-preserving virtue and miscommunication risk","Only negative","Only positive","Not discussed at all"],
+     opts:["Not discussed at all","Both as harmony-preserving virtue and miscommunication risk","Only negative","Only positive"],
      ans:"Both as harmony-preserving virtue and miscommunication risk",
      hint:"Researchers debate whether Japanese ambiguity is good (avoiding confrontation) or bad (causing misunderstandings)."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"'Suki' and 'Aishiteru' have different nuances."},
 
     {type:"mc", q:"「やすい」の接尾辞(せつびじ)はどんな意味(いみ)ですか？",
-     opts:["Easy to do","Cheap","Fast","Important"],
+     opts:["Fast","Important","Easy to do","Cheap"],
      ans:"Easy to do",
      hint:"When attached to verb stems, this suffix creates adjectives describing how effortlessly an action can be done."}
   ,{type:"match",pairs:[{trg:"である",src:"is / to be (written style)"},{trg:"くだけた",src:"casual / informal (style)"},{trg:"文末(ぶんまつ)",src:"sentence ending"},{trg:"形式(けいしき)",src:"form / format / formality"},{trg:"分(わ)かりやすい",src:"easy to understand / clear"}]}]

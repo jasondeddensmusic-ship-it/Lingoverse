@@ -257,7 +257,7 @@ const UNIT_08 = {
   {type:"fb", s:"空(あ)いている{1}はありますか?\n(What times are available?)", a:"時間(じかん)", opts:["時間(じかん)","予約(よやく)","名前(なまえ)","場所(ばしょ)"], sSrc:"What times are available?",
    hint:"The word for 'time' that you ask about when booking."},
 
-  {type:"mc", q:"Which phrase opens a polite phone appointment request?", opts:["予約(よやく)したいのですが","予約(よやく)はいいです","予約(よやく)ありがとう","予約(よやく)じゃない"], ans:"予約(よやく)したいのですが",
+  {type:"mc", q:"Which phrase opens a polite phone appointment request?", opts:["予約(よやく)じゃない","予約(よやく)したいのですが","予約(よやく)はいいです","予約(よやく)ありがとう"], ans:"予約(よやく)したいのですが",
    hint:"The polite opener that states your intention with the soft のですが ending."},
 
   {type:"mc", q:"変更(へんこう)する means:", opts:["to confirm","to cancel","to reschedule / change","to reserve"], ans:"to reschedule / change",

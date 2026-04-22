@@ -69,7 +69,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"先生(せんせい)に丁寧(ていねい)にお教(おし)えて{1}ました。\n(The teacher kindly taught me. [humble])", a:"いただき", opts:["いただき","もらい","くれ","あげ"], sSrc:"The teacher kindly taught me (and I humbly received that).",
      hint:"The humble form of the favor-receiving verb, in its masu-stem form."},
 
-    {type:"mc", q:"かしこまりました is the formal version of:", opts:["わかりました (understood)","すみません (sorry)","ありがとう (thank you)","おねがいします (please)"], ans:"わかりました (understood)",
+    {type:"mc", q:"かしこまりました is the formal version of:", opts:["おねがいします (please)","わかりました (understood)","すみません (sorry)","ありがとう (thank you)"], ans:"わかりました (understood)",
      hint:"This very formal acknowledgment is standard in service industries and premium business."},
 
     {type:"match", pairs:[{trg:"てさしあげる",src:"do for someone (humble)"},{trg:"ていただく",src:"receive favor (humble)"},{trg:"てくださる",src:"do for me (honorific)"},{trg:"ていただけますか",src:"could you kindly...?"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"この書類(しょるい)にサインして{1}ますか？\n(Could you kindly sign this document?)", a:"いただけ", opts:["いただけ","もらえ","くれ","あげ"], sSrc:"Could you kindly sign this document?",
      hint:"The potential form of the humble favor-receiving verb, used for formal requests."},
 
-    {type:"mc", q:"恩(おん) describes:", opts:["A moral debt of gratitude that should be repaid","A religious ritual","A type of music","A financial debt"], ans:"A moral debt of gratitude that should be repaid",
+    {type:"mc", q:"恩(おん) describes:", opts:["A type of music","A financial debt","A moral debt of gratitude that should be repaid","A religious ritual"], ans:"A moral debt of gratitude that should be repaid",
      hint:"This deep concept drives Japanese social reciprocity and sense of obligation."}
   ,{type:"match",pairs:[{trg:"恵(めぐ)まれる",src:"to be blessed with / to be fortunate to have"},{trg:"かしこまりました",src:"certainly / understood (formal acknowledgment)"},{trg:"お礼(れい)",src:"thanks / gratitude / expression of thanks"},{trg:"光栄(こうえい)",src:"honor / privilege"},{trg:"恩(おん)",src:"debt of gratitude / favor owed / grace"}]},
   {type:"fb", s:"自然(しぜん)豊(ゆた)かな環境(かんきょう)に{1}て育(そだ)ちました。", a:["恵(めぐ)まれる"], opts:["恵(めぐ)まれる","〜てさしあげる","〜ていただく","〜てくださる"], hint:"The passive verb for being fortunate enough to have or receive something wonderful.", sSrc:"I grew up {1} with a nature-rich environment."}

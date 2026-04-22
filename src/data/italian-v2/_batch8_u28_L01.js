@@ -1,4 +1,4 @@
-// Batch 8 — Unit 28 extra lesson. Literature: Narrative Techniques & Genres
+// Batch 8. Unit 28 extra lesson. Literature: Narrative Techniques & Genres
 const BATCH8_L1 = {id:"itv2_u28l_b8_1", title:"Generi e tecniche", icon:"📖", xp:15, board:true, steps:[
 {type:"intro", title:"Generi e tecniche",
  desc:"Learn vocabulary for literary genres, narrative techniques, and discussing books in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u28l_b8_1", title:"Generi e tecniche", icon:"📖", 
 
 {type:"mc",
  q:"Who invented the sonnet?",
- opts:["Italian poets, perfected by Petrarch","Shakespeare","Homer","Dante"],
+ opts:["Dante","Italian poets, perfected by Petrarch","Shakespeare","Homer"],
  ans:"Italian poets, perfected by Petrarch",
  hint:"The 14-line form was born in Italy and refined in the 1300s. It later traveled to England where it was adapted."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u28l_b8_1", title:"Generi e tecniche", icon:"📖", 
 
 {type:"mc",
  q:"What did Pirandello's narrators often do?",
- opts:["Were unreliable, making readers doubt reality","Always told the truth","Spoke directly to the audience","Used only present tense"],
+ opts:["Spoke directly to the audience","Used only present tense","Were unreliable, making readers doubt reality","Always told the truth"],
  ans:"Were unreliable, making readers doubt reality",
  hint:"Pirandello questioned the nature of truth and identity. His narrators cannot always be trusted."}
 ,{type:"match",pairs:[{trg:"il capitolo",src:"the chapter"},{trg:"il narratore",src:"the narrator"},{trg:"la suspense",src:"the suspense"},{trg:"la poesia",src:"the poetry / poem"},{trg:"il lettore",src:"the reader"}]}]};

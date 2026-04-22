@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)のタクシーのドアはどうなりますか？",
-     opts:["Opens and closes automatically","The passenger must open it","There is no door","It slides open manually"],
+     opts:["It slides open manually","Opens and closes automatically","The passenger must open it","There is no door"],
      ans:"Opens and closes automatically",
      hint:"The driver controls the door from inside. Passengers should not try to open or close it themselves."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"I go to school by bicycle. It takes 10 minutes."},
 
     {type:"mc", q:"「ママチャリ」はなんですか？",
-     opts:["A Japanese city bicycle with a basket","A motorcycle","A train pass for mothers","A special bus seat"],
+     opts:["A train pass for mothers","A special bus seat","A Japanese city bicycle with a basket","A motorcycle"],
      ans:"A Japanese city bicycle with a basket",
      hint:"This iconic J... b... type is associated with daily shopping trips and school commutes."}
   ,{type:"match",pairs:[{trg:"電車(でんしゃ)",src:"train"},{trg:"バス",src:"bus"},{trg:"地下鉄(ちかてつ)",src:"subway / metro"},{trg:"タクシー",src:"taxi"},{trg:"飛行機(ひこうき)",src:"airplane"},{trg:"停留所(ていりゅうじょ)",src:"bus stop / stopping place"}]}]

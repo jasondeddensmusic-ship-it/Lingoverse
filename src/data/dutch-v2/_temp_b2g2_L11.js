@@ -1,4 +1,4 @@
-// L11: Culture & Heritage — 20 B2 gap words
+// L11: Culture & Heritage, 20 B2 gap words
 const LESSON_11 = {
   id:"nlv2_b2g2_l11", title:"Cultuur en Erfgoed", icon:"\uD83C\uDFAD", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_11 = {
      sSrc:"Norms about politeness are strongly {1}."},
     {type:"mc",
      q:"Welk woord is typisch Belgisch Nederlands?",
-     opts:["Babbel","Praatje","Kletsen","Ouwehoeren"],
+     opts:["Ouwehoeren","Babbel","Praatje","Kletsen"],
      ans:"Babbel",
      hint:"This informal word for a chat is much more common south of the border than in the Netherlands."},
     {type:"match", pairs:[

@@ -1,4 +1,4 @@
-// Korean V2 Unit 16 — 뭐라고 했어요?
+// Korean V2 Unit 16, 뭐라고 했어요?
 // Level: B1.2
 
 const UNIT_16 =

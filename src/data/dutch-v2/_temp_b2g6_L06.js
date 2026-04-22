@@ -81,7 +81,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Wat is een 'honorarium'?",
-     opts:["Een vergoeding voor professionele diensten","Een eervolle onderscheiding","Een diploma met lof","Een ere-doctoraat"],
+     opts:["Een ere-doctoraat","Een vergoeding voor professionele diensten","Een eervolle onderscheiding","Een diploma met lof"],
      ans:"Een vergoeding voor professionele diensten",
      hint:"From Latin 'honorarium'. It is the payment a professional receives for their work."},
 
@@ -101,7 +101,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Wat staat er op een 'examenrooster'?",
-     opts:["De data en tijden van tentamens","De namen van alle studenten","De beoordelingen van docenten","De prijzen van studieboeken"],
+     opts:["De beoordelingen van docenten","De prijzen van studieboeken","De data en tijden van tentamens","De namen van alle studenten"],
      ans:"De data en tijden van tentamens",
      hint:"A 'rooster' is a schedule or grid. Combined with 'examen', it shows when tests happen."}
   ]

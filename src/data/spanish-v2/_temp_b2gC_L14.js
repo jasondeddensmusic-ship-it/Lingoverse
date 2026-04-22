@@ -66,7 +66,7 @@ const LESSON_14 = {id:"esv2_b2gC_l14",title:"Psicología y comportamiento",icon:
  exampleSrc:"A: In medieval literature, the sinner seeks redemption.\nB: It's a universal theme in all cultures.",
  funFact:"'De pecado' means sinfully good in colloquial Spanish: 'un chocolate de pecado' (a sinfully good chocolate)."},
 
-{type:"mc",q:"¿Qué verbo significa continuar a pesar de las dificultades?",opts:["Perseverar","Pervertir","Perturbar","Persuadir"],ans:"Perseverar",hint:"This verb means to keep going firmly through hardship, from Latin roots meaning 'strictly through'."},
+{type:"mc",q:"¿Qué verbo significa continuar a pesar de las dificultades?",opts:["Persuadir","Perseverar","Pervertir","Perturbar"],ans:"Perseverar",hint:"This verb means to keep going firmly through hardship, from Latin roots meaning 'strictly through'."},
 
 {type:"fb",s:"Las noticias falsas pueden {1} la opinión pública.",a:["pervertir"],opts:["pervertir","persuadir","perseverar","persistir"],hint:"To distort or corrupt something, turning it away from its original or correct form.",sSrc:"Fake news can {1} public opinion."},
 

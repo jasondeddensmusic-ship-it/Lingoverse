@@ -77,7 +77,7 @@ lessons:[
  sSrc:"My {1} is at home."},
 
 {type:"mc", q:"\u59B9\u59B9(m\u00E8imei) refers to which family member?",
- opts:["older brother","older sister","younger brother","younger sister"],
+ opts:["younger sister","older brother","older sister","younger brother"],
  ans:"younger sister",
  hint:"This word contains the \u5973 radical and refers to a female sibling born after you."},
 
@@ -160,7 +160,7 @@ lessons:[
  sSrc:"I have one older brother {1} one younger sister."},
 
 {type:"mc", q:"\u5979(t\u0101)\u6CA1(m\u00E9i)\u6709(y\u01D2u)\u5F1F\u5F1F(d\u00ECdi)\u3002 What does this mean?",
- opts:["She has a younger brother","She does not have a younger brother","She is a younger brother","She wants a younger brother"],
+ opts:["She does not have a younger brother","She is a younger brother","She wants a younger brother","She has a younger brother"],
  ans:"She does not have a younger brother",
  hint:"\u6CA1\u6709 is the negation of 'to have.' The sentence denies possession of something."},
 
@@ -179,7 +179,7 @@ lessons:[
  sSrc:"He does not have a daughter."},
 
 {type:"mc", q:"\u6211(w\u01D2)\u7684(de)\u5BB6(ji\u0101)\u6709(y\u01D2u)\u4E94(w\u01D4)\u4E2A(g\u00E8)\u4EBA(r\u00E9n)\u3002 How many people are in the speaker's family?",
- opts:["three","four","five","six"],
+ opts:["four","five","six","three"],
  ans:"five",
  hint:"Look at the number before \u4E2A\u4EBA. That number tells you the family size."},
 
@@ -237,7 +237,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u90A3(n\u00E0)\u4E2A(g\u00E8)\u4EBA(r\u00E9n)\u662F(sh\u00EC)\u8C01(sh\u00E9i)? What does this sentence ask?",
- opts:["What does that person have?","How old is that person?","Who is that person?","Where is that person?"],
+ opts:["Who is that person?","Where is that person?","What does that person have?","How old is that person?"],
  ans:"Who is that person?",
  hint:"The question word \u8C01 asks about identity. The sentence wants to know WHO someone is."},
 
@@ -248,7 +248,7 @@ lessons:[
  sSrc:"That {1} is my older sister."},
 
 {type:"mc", q:"How many people are in this family? \u6211(w\u01D2)\u7684(de)\u5BB6(ji\u0101)\u6709(y\u01D2u)\u7238\u7238(b\u00E0ba)\u3001\u5988\u5988(m\u0101ma)\u3001\u54E5\u54E5(g\u0113ge)\u548C(h\u00E9)\u6211(w\u01D2)\u3002",
- opts:["five","three","six","four"],
+ opts:["six","four","five","three"],
  ans:"four",
  hint:"Count each person mentioned: Dad, Mom, older brother, and the speaker. Add them up."},
 
@@ -341,12 +341,12 @@ lessons:[
  sSrc:"My family has four {1}."},
 
 {type:"mc", q:"\u8FD9(zh\u00E8)\u662F(sh\u00EC)\u6211(w\u01D2)\u7684(de)\u5BB6(ji\u0101)\u3002 What does \u7684(de) do here?",
- opts:["It negates the sentence","It connects two sentences","It shows possession: my","It asks a question"],
+ opts:["It asks a question","It negates the sentence","It connects two sentences","It shows possession: my"],
  ans:"It shows possession: my",
  hint:"\u7684 links the pronoun \u6211 to \u5BB6, showing that the family belongs to the speaker."}
 ]},
 
-// ═══ L5: Family Conversations — HSK 1 Essentials ═══
+// ═══ L5: Family Conversations. HSK 1 Essentials ═══
 {id:"zhv2_u3l5", title:"Who? Pets? Essential Words", icon:"🐾", xp:15, board:true, steps:[
 {type:"intro", title:"Who? Pets? Essential Words",
  desc:"Learn five essential HSK 1 words: the question word 'who,' the negative 'don't have,' plus the Chinese words for dog, cat, and the Chinese language itself.",
@@ -356,13 +356,13 @@ lessons:[
  note:"Question word meaning 'who' or 'whose.'\nStays in the same position as the answer.",
  example:"A: 那(nà)个(gè)人(rén)是(shì)谁(shuí)？\nB: 那(nà)是(shì)我(wǒ)的(de)妈妈(māma)。",
  exampleSrc:"A: Who is that person?\nB: That is my mom.",
- funFact:"谁 can also be pronounced shéi — both tones are correct. You will hear both in natural speech. The shéi pronunciation is more common in northern China."},
+ funFact:"谁 can also be pronounced shéi, both tones are correct. You will hear both in natural speech. The shéi pronunciation is more common in northern China."},
 
 {type:"teach", trg:"没有(méiyǒu)", src:"to not have / there is no", pos:"verb", gender:null,
  note:"The complete negative form of 有 (to have).\n没有 = do not have. 没 alone also appears before 有 in sentences.",
  example:"A: 你(nǐ)有(yǒu)弟弟(dìdi)吗(ma)？\nB: 没有(méiyǒu)，我(wǒ)没有(méiyǒu)弟弟(dìdi)。",
  exampleSrc:"A: Do you have a younger brother?\nB: No, I do not have a younger brother.",
- funFact:"没有 is often used as a one-word answer to yes/no questions with 有: 'Do you have a car?' '没有.' It works like English 'nope' — short, complete, and conversational."},
+ funFact:"没有 is often used as a one-word answer to yes/no questions with 有: 'Do you have a car?' '没有.' It works like English 'nope', short, complete, and conversational."},
 
 {type:"teach", trg:"狗(gǒu)", src:"dog", pos:"noun", gender:null,
  note:"Third tone (dipping). The most common pet in China.\nThe dog radical 犬 appears in many animal characters.",
@@ -371,7 +371,7 @@ lessons:[
  funFact:"The year of the Dog (狗年) in the Chinese zodiac comes every twelve years. People born in Dog years are said to be loyal, honest, and hardworking. The dog has been a close companion in China for thousands of years."},
 
 {type:"teach", trg:"猫(māo)", src:"cat", pos:"noun", gender:null,
- note:"First tone (high flat). Cats are beloved pets in China.\n猫 sounds somewhat like a meow — it may be onomatopoeic.",
+ note:"First tone (high flat). Cats are beloved pets in China.\n猫 sounds somewhat like a meow, it may be onomatopoeic.",
  example:"A: 你(nǐ)喜欢(xǐhuan)狗(gǒu)还是(háishi)猫(māo)？\nB: 我(wǒ)喜欢(xǐhuan)猫(māo)！",
  exampleSrc:"A: Do you prefer dogs or cats?\nB: I like cats!",
  funFact:"The Chinese internet has a famous saying: 吸猫 (xī māo), literally 'cat sniffing,' meaning the joy of being around cats. Chinese social media is full of cat content, just like everywhere else in the world."},
@@ -383,7 +383,7 @@ lessons:[
  funFact:"汉语 is named after the Han dynasty (206 BCE–220 CE), which unified China and spread Chinese culture. The Han people make up about 92% of China's population today, making 汉语 the world's most-spoken first language."},
 
 {type:"mc", q:"你家有没有狗(gǒu)？ What is this question asking?",
- opts:["Do you have a cat?","Does your family have a dog?","Where is your dog?","How many dogs do you have?"],
+ opts:["Does your family have a dog?","Where is your dog?","How many dogs do you have?","Do you have a cat?"],
  ans:"Does your family have a dog?",
  hint:"家 is the word for household members. 有没有 is a yes/no pattern. Check which animal appears."},
 
@@ -398,39 +398,39 @@ lessons:[
 {type:"fb", s:"那(nà)个(gè)人(rén)是(shì){1}？",
  a:["谁(shuí)"],
  opts:["谁(shuí)","什么(shénme)","哪(nǎ)","这(zhè)"],
- hint:"Which question word asks about a person's identity — 'who' rather than 'what' or 'which'?",
+ hint:"Which question word asks about a person's identity, 'who' rather than 'what' or 'which'?",
  sSrc:"Who is that person?"},
 
 {type:"mc", q:"没有(méiyǒu) is the negative form of which verb?",
- opts:["是(shì)","不(bù)","有(yǒu)","好(hǎo)"],
+ opts:["不(bù)","有(yǒu)","好(hǎo)","是(shì)"],
  ans:"有(yǒu)",
  hint:"This verb means 'to have.' Its special negative is 没有, not 不有."},
 
 {type:"fb", s:"A: 你(nǐ)有(yǒu)猫(māo)吗(ma)？\nB: {1}，我(wǒ)没(méi)有(yǒu)猫(māo)。",
  a:["没有(méiyǒu)"],
  opts:["没有(méiyǒu)","不是(búshì)","有(yǒu)","好(hǎo)"],
- hint:"This is a negative answer to 'do you have.' The verb 有 takes a special short negation word — not the general 不.",
+ hint:"This is a negative answer to 'do you have.' The verb 有 takes a special short negation word, not the general 不.",
  sSrc:"A: Do you have a cat?\nB: {1}, I do not have a cat."},
 
 {type:"mc", q:"汉语(Hànyǔ) is named after which Chinese dynasty?",
- opts:["Tang dynasty","Qin dynasty","Ming dynasty","Han dynasty"],
+ opts:["Qin dynasty","Ming dynasty","Han dynasty","Tang dynasty"],
  ans:"Han dynasty",
  hint:"The 汉 in 汉语 names the ruling group whose period (206 BCE–220 CE) unified the country."}
 ]},
 
-// ═══ L5b: Siblings and Parents — Hierarchy Focus ═══
+// ═══ L5b: Siblings and Parents. Hierarchy Focus ═══
 {id:"zhv2_u3l_sib", title:"兄弟姐妹(xiōngdì jiěmèi)", icon:"👨‍👩‍👧‍👦", xp:15, board:true, steps:[
 {type:"intro", title:"Siblings and Parents",
- desc:"Master the Chinese words for siblings and parents. Chinese distinguishes older vs younger siblings — a key cultural concept rooted in Confucian family hierarchy.",
+ desc:"Master the Chinese words for siblings and parents. Chinese distinguishes older vs younger siblings, a key cultural concept rooted in Confucian family hierarchy.",
  goals:["Master older/younger sibling distinction","Review parent vocabulary","Describe your family members"]},
 
 {type:"tip", title:"Chinese Family Hierarchy",
  text:"Chinese family vocabulary encodes birth order by design.\n\n哥哥(gēge) = older brother\n弟弟(dìdi) = younger brother\n姐姐(jiějie) = older sister\n妹妹(mèimei) = younger sister\n\nThere is no single word for 'brother' or 'sister.' You must always specify older or younger. This reflects Confucian values: the older sibling holds authority and responsibility; the younger sibling shows respect.\n\nParents reinforce this structure:\n爸爸(bàba) = dad\n妈妈(māma) = mom\n\nIn Chinese families, addressing relatives by their exact hierarchical title (not just their name) is a mark of respect.",
  deepDive:{title:"Birth order in Chinese culture",
-  text:"The four sibling words reveal how deeply birth order shapes Chinese social life.\n\nOlder siblings (哥/姐) are expected to set an example and look after younger ones. Younger siblings (弟/妹) show deference in speech and at the dinner table.\n\nThe formal written compounds 兄弟(xiōngdì, brothers) and 姐妹(jiěmèi, sisters) always list the older sibling character first. Order matters in the language because it mirrors real family structure.\n\nFormal titles matter too: calling an older person 哥哥 or 姐姐 even outside the family — as a store clerk or coworker — is a compliment that signals friendly respect."}},
+  text:"The four sibling words reveal how deeply birth order shapes Chinese social life.\n\nOlder siblings (哥/姐) are expected to set an example and look after younger ones. Younger siblings (弟/妹) show deference in speech and at the dinner table.\n\nThe formal written compounds 兄弟(xiōngdì, brothers) and 姐妹(jiěmèi, sisters) always list the older sibling character first. Order matters in the language because it mirrors real family structure.\n\nFormal titles matter too: calling an older person 哥哥 or 姐姐 even outside the family, as a store clerk or coworker, is a compliment that signals friendly respect."}},
 
 {type:"mc", q:"Chinese has no single word for 'brother.' Which two words together cover the concept?",
- opts:["哥哥(gēge) and 姐姐(jiějie)","哥哥(gēge) and 弟弟(dìdi)","妹妹(mèimei) and 弟弟(dìdi)","爸爸(bàba) and 妈妈(māma)"],
+ opts:["哥哥(gēge) and 弟弟(dìdi)","妹妹(mèimei) and 弟弟(dìdi)","爸爸(bàba) and 妈妈(māma)","哥哥(gēge) and 姐姐(jiějie)"],
  ans:"哥哥(gēge) and 弟弟(dìdi)",
  hint:"Chinese has two male-sibling words, one per birth-order position. Neither is for a female family member."},
 
@@ -449,7 +449,7 @@ lessons:[
  sSrc:"I have one {1} and one younger sister."},
 
 {type:"mc", q:"你(nǐ)有(yǒu)姐姐(jiějie)吗(ma)？ What is the question asking?",
- opts:["Do you have a younger sister?","Do you have a younger brother?","Do you have an older sister?","Do you have an older brother?"],
+ opts:["Do you have a younger brother?","Do you have an older sister?","Do you have an older brother?","Do you have a younger sister?"],
  ans:"Do you have an older sister?",
  hint:"The character 姐 encodes birth position and gender. The 女 radical points to which sex. Check which answer option matches both clues."},
 
@@ -460,7 +460,7 @@ lessons:[
  sSrc:"Dad and {1} are both at home."},
 
 {type:"mc", q:"Why does Chinese distinguish older vs younger siblings in its vocabulary?",
- opts:["To match grammatical gender like European languages","Because Confucian values tie birth order to family authority and responsibility","To make learning easier for beginners","Because older and younger sound completely different in pronunciation"],
+ opts:["Because older and younger sound completely different in pronunciation","To match grammatical gender like European languages","Because Confucian values tie birth order to family authority and responsibility","To make learning easier for beginners"],
  ans:"Because Confucian values tie birth order to family authority and responsibility",
  hint:"The tip describes a Chinese philosophical tradition. The correct option names a specific teaching about society and the role each person plays within it."},
 
@@ -479,12 +479,12 @@ lessons:[
 ]},
 
 {type:"mc", q:"兄弟(xiōngdì) means brothers in formal Chinese. Which character always comes first, and why?",
- opts:["弟 comes first — younger siblings are more important","兄 comes first — the older sibling is listed first, reflecting hierarchy","The order is random in formal Chinese","兄弟 refers to sisters, not brothers"],
- ans:"兄 comes first — the older sibling is listed first, reflecting hierarchy",
+ opts:["The order is random in formal Chinese","兄弟 refers to sisters, not brothers","弟 comes first, younger siblings are more important","兄 comes first, the older sibling is listed first, reflecting hierarchy"],
+ ans:"兄 comes first, the older sibling is listed first, reflecting hierarchy",
  hint:"The deep dive explains which character in 兄弟 leads the compound. Notice that Chinese social structure influenced the written sequence of these two characters."}
 ]},
 
-// ═══ L6: Spouses and Children — HSK 2 Family ═══
+// ═══ L6: Spouses and Children. HSK 2 Family ═══
 {id:"zhv2_u3l6", title:"妻子丈夫孩子 Spouses and Children", icon:"👨‍👩‍👧", xp:15, board:true, steps:[
 {type:"intro", title:"Spouses and Children",
  desc:"Expand your family vocabulary to talk about spouses and children. Learn three essential HSK 2 family words and two adjectives for describing people.",
@@ -494,13 +494,13 @@ lessons:[
  note:"Formal word for wife. 妻 is the base, 子 is a common noun suffix.\nMore informal: 老婆(lǎopo).",
  example:"A: 你(nǐ)妻子(qīzi)叫(jiào)什么(shénme)名字(míngzi)？\nB: 我(wǒ)妻子(qīzi)叫(jiào)李(Lǐ)梅(Méi)。",
  exampleSrc:"A: What is your wife's name?\nB: My wife's name is Li Mei.",
- funFact:"妻 is an ancient character showing a woman with a decorative hairpin being led by a hand — a reference to traditional wedding ceremonies. The modern meaning is simply 'wife,' and the character has appeared in Chinese texts for over 3,000 years."},
+ funFact:"妻 is an ancient character showing a woman with a decorative hairpin being led by a hand, a reference to traditional wedding ceremonies. The modern meaning is simply 'wife,' and the character has appeared in Chinese texts for over 3,000 years."},
 
 {type:"teach", trg:"丈夫(zhàngfu)", src:"husband", pos:"noun", gender:null,
  note:"Formal word for husband. The second syllable is neutral tone.\nMore informal: 老公(lǎogōng).",
  example:"A: 她(tā)丈夫(zhàngfu)在(zài)哪(nǎ)里(lǐ)工作(gōngzuò)？\nB: 她(tā)丈夫(zhàngfu)在(zài)学校(xuéxiào)工作(gōngzuò)。",
  exampleSrc:"A: Where does her husband work?\nB: Her husband works at a school.",
- funFact:"丈 is an old unit of length, about 3.3 metres — the height of a tall, impressive man. Historically, a 丈夫 was literally a 'man of stature.' The meaning shifted to 'husband,' but the idea of a capable, upstanding man remains embedded in the word."},
+ funFact:"丈 is an old unit of length, about 3.3 metres, the height of a tall, impressive man. Historically, a 丈夫 was literally a 'man of stature.' The meaning shifted to 'husband,' but the idea of a capable, upstanding man remains embedded in the word."},
 
 {type:"teach", trg:"孩子(háizi)", src:"child / children", pos:"noun", gender:null,
  note:"The most common word for child. Used for boys or girls.\n子 is a neutral noun suffix. Plural implied by context.",
@@ -512,7 +512,7 @@ lessons:[
  note:"可 (can/worthy of) + 爱 (love). Literally: worthy of love.\nUsed for children, animals, and things that are sweet or charming.",
  example:"A: 你(nǐ)的(de)孩子(háizi)真(zhēn)可爱(kě'ài)！\nB: 谢谢(xièxie)，他(tā)很(hěn)活泼(huópo)。",
  exampleSrc:"A: Your child is really cute!\nB: Thank you, he is very lively.",
- funFact:"可爱 is one of the most widely used Chinese adjectives on social media. Short-video platforms are full of 可爱 videos of children, animals, and even food. The word jumped into East Asian pop culture globally — the Japanese word for cute, 可愛い (kawaii), uses the exact same characters."},
+ funFact:"可爱 is one of the most widely used Chinese adjectives on social media. Short-video platforms are full of 可爱 videos of children, animals, and even food. The word jumped into East Asian pop culture globally, the Japanese word for cute, 可愛い (kawaii), uses the exact same characters."},
 
 {type:"teach", trg:"年轻(niánqīng)", src:"young", pos:"adj", gender:null,
  note:"年 (year) + 轻 (light/mild). Literally: light in years.\nThe opposite of 老 (old, already taught in Unit 10).",
@@ -521,7 +521,7 @@ lessons:[
  funFact:"轻 means 'light' in the sense of weight. To be young is to carry few years lightly. Chinese often uses physical weight metaphors for life stages: 年轻 (light years = young), while the burden of age grows heavier. A beautiful metaphor built into the word itself."},
 
 {type:"mc", q:"Which word is the formal term for 'wife'?",
- opts:["孩子(háizi)","丈夫(zhàngfu)","妻子(qīzi)","年轻(niánqīng)"],
+ opts:["妻子(qīzi)","年轻(niánqīng)","孩子(háizi)","丈夫(zhàngfu)"],
  ans:"妻子(qīzi)",
  hint:"This word refers to a female spouse. Think of the two characters: one is the base form for wife, the other is a common noun suffix."},
 
@@ -540,18 +540,18 @@ lessons:[
  sSrc:"Do you have {1}?"},
 
 {type:"mc", q:"你的孩子(háizi)真(zhēn)可爱(kě'ài)！ What is the speaker saying?",
- opts:["Your child is very young","Your child is very smart","Your child is really cute","Your child is very busy"],
+ opts:["Your child is very smart","Your child is really cute","Your child is very busy","Your child is very young"],
  ans:"Your child is really cute",
  hint:"可爱 combines 可 (worthy of) and 爱 (love). It describes something sweet and charming."},
 
 {type:"fb", s:"她(tā)很(hěn){1}，只有(zhǐyǒu)二十五(èrshíwǔ)岁(suì)。",
  a:["年轻(niánqīng)"],
  opts:["年轻(niánqīng)","可爱(kě'ài)","忙(máng)","好(hǎo)"],
- hint:"Which adjective describes someone who has few years — the opposite of 老 (old)?",
+ hint:"Which adjective describes someone who has few years, the opposite of 老 (old)?",
  sSrc:"She is very {1}, only twenty-five years old."},
 
 {type:"mc", q:"丈夫(zhàngfu) literally means:",
- opts:["a kind man","a man of stature (from an old unit of height)","a working man","a family man"],
+ opts:["a family man","a kind man","a man of stature (from an old unit of height)","a working man"],
  ans:"a man of stature (from an old unit of height)",
  hint:"丈 is an old measurement … for a tall person's …. The etymology reflects the idea of a capable, upstanding figure."},
 

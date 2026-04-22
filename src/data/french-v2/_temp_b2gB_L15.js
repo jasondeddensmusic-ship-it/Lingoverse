@@ -76,7 +76,7 @@ const LESSON_15 = {
      sSrc:"The {1} of the show was the final concert."},
 
     {type:"mc", q:"'Etre en porte-a-faux' signifie:",
-     opts:["Etre dans une situation inconfortable","Etre en equilibre parfait","Etre en retard","Etre au sommet"],
+     opts:["Etre au sommet","Etre dans une situation inconfortable","Etre en equilibre parfait","Etre en retard"],
      ans:"Etre dans une situation inconfortable",
      hint:"Like a structure extending beyond its support, you are in an unstable position"},
 
@@ -93,7 +93,7 @@ const LESSON_15 = {
      sSrc:"The government made a {1} in the face of protests."},
 
     {type:"mc", q:"Qu'est-ce qu'une 'mutuelle' en France?",
-     opts:["Une assurance sante complementaire","Une banque cooperative","Un syndicat","Une association sportive"],
+     opts:["Un syndicat","Une association sportive","Une assurance sante complementaire","Une banque cooperative"],
      ans:"Une assurance sante complementaire",
      hint:"This supplementary insurance covers what the national health system does not"},
 
@@ -103,7 +103,7 @@ const LESSON_15 = {
      sSrc:"This policy is total {1}, it makes the problem worse."},
 
     {type:"mc", q:"'Chercher des poux a quelqu'un' signifie:",
-     opts:["Chercher la dispute","Aider quelqu'un","Faire des compliments","Ignorer quelqu'un"],
+     opts:["Aider quelqu'un","Faire des compliments","Ignorer quelqu'un","Chercher la dispute"],
      ans:"Chercher la dispute",
      hint:"Looking for lice on someone is a metaphor for nitpicking and provoking conflict"},
 

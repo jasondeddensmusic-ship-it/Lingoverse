@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"ベランダ", src:"balcony"}
     ]},
 
-    {type:"mc", q:"What is 押(お)し入(い)れ primarily used for?", opts:["Storing futon during the day","Hanging clothes","Keeping food","Storing books"], ans:"Storing futon during the day",
+    {type:"mc", q:"What is 押(お)し入(い)れ primarily used for?", opts:["Storing books","Storing futon during the day","Hanging clothes","Keeping food"], ans:"Storing futon during the day",
      hint:"These deep closets with sliding doors transform sleeping spaces into living areas."}
   ,{type:"match",pairs:[{trg:"廊下(ろうか)",src:"hallway / corridor"},{trg:"浴室(よくしつ)",src:"bathroom (bathing room)"},{trg:"軒下(のきした)",src:"under the eaves"},{trg:"階段(かいだん)",src:"stairs / staircase"}]}]
 };

@@ -38,7 +38,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Come si chiama la quota di profitto distribuita agli azionisti?",
-     opts:["Il rendimento","Il dividendo","L'obbligazione","Il portafoglio"],
+     opts:["Il dividendo","L'obbligazione","Il portafoglio","Il rendimento"],
      ans:"Il dividendo",
      hint:"The portion of company profits paid out to those who own shares. Typically distributed once a year in Italy."},
 
@@ -102,7 +102,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Perche lo 'spread' BTP-Bund e diventato una parola comune in Italia?",
-     opts:["Perche e un tipo di formaggio italiano","Perche indica la differenza tra tassi italiani e tedeschi e misura la fiducia nell'economia","Perche e un programma televisivo popolare","Perche e il nome di un fondo pensione"],
+     opts:["Perche e il nome di un fondo pensione","Perche e un tipo di formaggio italiano","Perche indica la differenza tra tassi italiani e tedeschi e misura la fiducia nell'economia","Perche e un programma televisivo popolare"],
      ans:"Perche indica la differenza tra tassi italiani e tedeschi e misura la fiducia nell'economia",
      hint:"The gap between Italian and German government bond yields became a key indicator during the 2011 debt crisis. A wider gap signals lower confidence in Italy's economy."}
   ]

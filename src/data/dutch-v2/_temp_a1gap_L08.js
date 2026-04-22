@@ -1,4 +1,4 @@
-// L08: Weather and Nature — 20 A1 gap words
+// L08: Weather and Nature, 20 A1 gap words
 const LESSON_8 = {
   id:"nlv2_a1gap_l8", title:"Weer en Natuur", icon:"\u{1F327}\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"De haven van ___ is de grootste van Europa.",
-     opts:["Rotterdam","Amsterdam","Den Haag","Utrecht"],
+     opts:["Utrecht","Rotterdam","Amsterdam","Den Haag"],
      ans:"Rotterdam",
      hint:"Which Dutch city is famous for having Europe's largest port?"},
 

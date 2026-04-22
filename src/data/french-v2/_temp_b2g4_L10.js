@@ -86,7 +86,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'en theorie, sans contraintes pratiques' ?",
-     opts:["dans l'absolu","en marge de","en guise de","de tout ceci"],
+     opts:["de tout ceci","dans l'absolu","en marge de","en guise de"],
      ans:"dans l'absolu",
      hint:"A philosophical French expression that separates the ideal from the practical reality."},
 
@@ -113,7 +113,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Que signifie 'a sa guise' ?",
-     opts:["Comme il lui plait","Avec prudence","Avec difficulte","Sans hesitation"],
+     opts:["Avec difficulte","Sans hesitation","Comme il lui plait","Avec prudence"],
      ans:"Comme il lui plait",
      hint:"'Guise' is an archaic word meaning manner. This expression means doing things in one's own way."}
   ]

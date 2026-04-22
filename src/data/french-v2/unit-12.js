@@ -1,4 +1,4 @@
-// Unit 12 — PC vs imparfait
+// Unit 12. PC vs imparfait
 // The Critical Distinction
 
 import COVERAGE_U12 from './_coverage_u12.js';

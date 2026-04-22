@@ -93,7 +93,7 @@ const LESSON_4 = {
      sSrc:"I would like to {1} a table for two."},
 
     {type:"mc", q:"What is 'il coperto' on an Italian bill?",
-     opts:["A per-person cover charge for bread and table","The tip","The service charge","Tax"],
+     opts:["Tax","A per-person cover charge for bread and table","The tip","The service charge"],
      ans:"A per-person cover charge for bread and table",
      hint:"Unique to Italy, this small flat fee appears on every bill. It pays for your place setting and a basket of something baked. It is not a tip."},
 
@@ -112,7 +112,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"Is tipping expected in Italy?",
-     opts:["No, but it is appreciated","Yes, 20% minimum","Yes, always 15%","Tipping is rude"],
+     opts:["Yes, always 15%","Tipping is rude","No, but it is appreciated","Yes, 20% minimum"],
      ans:"No, but it is appreciated",
      hint:"Italian waiters earn a living wage. Rounding up or leaving a few euros is generous but not required."},
 
@@ -123,7 +123,7 @@ const LESSON_4 = {
      sSrc:"I would like an iced {1}."},
 
     {type:"mc", q:"How should you get a waiter's attention in Italy?",
-     opts:["Eye contact and 'scusi'","Snap your fingers","Wave your hand","Shout 'cameriere!'"],
+     opts:["Snap your fingers","Wave your hand","Shout 'cameriere!'","Eye contact and 'scusi'"],
      ans:"Eye contact and 'scusi'",
      hint:"Italian dining etiquette values subtlety. A gentle 'excuse me' with e... c... is proper."},
 

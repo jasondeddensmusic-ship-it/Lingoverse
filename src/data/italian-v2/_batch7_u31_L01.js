@@ -1,4 +1,4 @@
-// Batch 7 — Unit 31 extra lesson. I media avanzati: Fake News & Media Literacy
+// Batch 7. Unit 31 extra lesson. I media avanzati: Fake News & Media Literacy
 const BATCH7_L1 = {id:"itv2_u31l_b7_1", title:"Le notizie false e l'alfabetizzazione mediatica", icon:"\u{1F4F0}", xp:15, board:true, steps:[
 {type:"intro", title:"Le notizie false e l'alfabetizzazione mediatica",
  desc:"Learn vocabulary for discussing fake news, media literacy, and critical thinking about information.",
@@ -94,7 +94,7 @@ const BATCH7_L1 = {id:"itv2_u31l_b7_1", title:"Le notizie false e l'alfabetizzaz
 ]},
 
 {type:"mc", q:"Da dove viene la parola 'algoritmo'?",
- opts:["Dal nome del matematico Al-Khwarizmi","Dal greco 'algoris'","Dal latino 'algorithmus'","Dall'italiano 'algor'"],
+ opts:["Dall'italiano 'algor'","Dal nome del matematico Al-Khwarizmi","Dal greco 'algoris'","Dal latino 'algorithmus'"],
  ans:"Dal nome del matematico Al-Khwarizmi",
  hint:"A 9th-century Persian mathematician whose name was Latinized through Italian translations."},
 
@@ -104,7 +104,7 @@ const BATCH7_L1 = {id:"itv2_u31l_b7_1", title:"Le notizie false e l'alfabetizzaz
  sSrc:"We live in an information {1}."},
 
 {type:"mc", q:"Quando l'Italia ha adottato il FOIA?",
- opts:["2016","2000","1948","2020"],
+ opts:["1948","2020","2016","2000"],
  ans:"2016",
  hint:"The Freedom of Information Act. Relatively recent in Italian history."},
 

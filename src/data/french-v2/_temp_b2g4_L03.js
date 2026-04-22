@@ -86,7 +86,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot designe une erreur sociale embarrassante ?",
-     opts:["une gaffe","un gag","une gazette","une griffe"],
+     opts:["une griffe","une gaffe","un gag","une gazette"],
      ans:"une gaffe",
      hint:"This word was borrowed into English. It originally also referred to a type of boat hook."},
 
@@ -113,7 +113,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Que signifie 'humoristique' ?",
-     opts:["Qui est drole, comique","Qui est triste","Qui est serieux","Qui est ennuyeux"],
+     opts:["Qui est serieux","Qui est ennuyeux","Qui est drole, comique","Qui est triste"],
      ans:"Qui est drole, comique",
      hint:"Related to 'humour'. Describes something intentionally funny or comedic."}
   ]

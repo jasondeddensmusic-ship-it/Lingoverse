@@ -13,7 +13,7 @@ const LESSON_15 = {id:"esv2_b2g7_l15",title:"Rasgos negativos y conducta",icon:"
 {type:"teach",trg:"la indisciplina",src:"the indiscipline",pos:"noun",gender:"f",note:"Lack of discipline. Recycled from Lesson 13.",example:"A: La indisciplina del jugador le costó una sanción.\nB: No se tolera la indisciplina en el ejército.",exampleSrc:"A: The player's indiscipline cost him a sanction.\nB: Indiscipline is not tolerated in the army.",funFact:"In Spanish football, 'acta de indisciplina' is the official report filed when a player breaks team rules."},
 {type:"mc",q:"Si algo es 'maloliente', significa que:",opts:["Huele muy mal","Es muy bonito","Es muy caro","Está muy lejos"],ans:"Huele muy mal",hint:"'M...' (bad) + 'oliente' (smelling). The compound is transparent."},
 {type:"fb",s:"La falta de sueño causa {1} y mal humor.",a:["irritabilidad"],opts:["irritabilidad","irrealidad","individualidad","imparcialidad"],hint:"This noun describes the tendency to become easily annoyed.",sSrc:"Lack of sleep causes {1} and bad mood."},
-{type:"mc",q:"Para criticar a alguien de forma profesional, es mejor decir:",opts:["'Muestra cierta incompetencia'","'Es un completo inútil'","'No sabe hacer nada'","'Es el peor del equipo'"],ans:"'Muestra cierta incompetencia'",hint:"Using abstract nouns instead of direct insults sounds more diplomatic."},
+{type:"mc",q:"Para criticar a alguien de forma profesional, es mejor decir:",opts:["'Es el peor del equipo'","'Muestra cierta incompetencia'","'Es un completo inútil'","'No sabe hacer nada'"],ans:"'Muestra cierta incompetencia'",hint:"Using abstract nouns instead of direct insults sounds more diplomatic."},
 {type:"fb",s:"Tras el accidente, todo tenía una sensación de {1}.",a:["irrealidad"],opts:["irrealidad","irritabilidad","impulsividad","indisciplina"],hint:"This noun describes the feeling that something seems dreamlike or not real.",sSrc:"After the accident, everything had a feeling of {1}."},
 {type:"match",pairs:[
   {trg:"maloliente",src:"foul-smelling"},
@@ -22,7 +22,7 @@ const LESSON_15 = {id:"esv2_b2g7_l15",title:"Rasgos negativos y conducta",icon:"
   {trg:"inconveniente",src:"inconvenient / drawback"},
   {trg:"la indisciplina",src:"the indiscipline"}
 ]},
-{type:"mc",q:"'Poner inconvenientes' significa:",opts:["Plantear objeciones o problemas","Hacer un favor","Estar de acuerdo","Celebrar algo"],ans:"Plantear objeciones o problemas",hint:"When someone 'pone inconvenientes', they are raising objections."},
+{type:"mc",q:"'Poner inconvenientes' significa:",opts:["Estar de acuerdo","Celebrar algo","Plantear objeciones o problemas","Hacer un favor"],ans:"Plantear objeciones o problemas",hint:"When someone 'pone inconvenientes', they are raising objections."},
 {type:"fb",s:"Los políticos a veces recurren a la {1} para ganar votos.",a:["exageración"],opts:["exageración","incompetencia","indisciplina","irrealidad"],hint:"This word means making something seem bigger or more dramatic than it is.",sSrc:"Politicians sometimes resort to {1} to win votes."}
 ]};
 export default LESSON_15;

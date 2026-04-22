@@ -1,4 +1,4 @@
-// L05: Education & Career — 20 B2 gap words
+// L05: Education & Career, 20 B2 gap words
 const LESSON_5 = {
   id:"nlv2_b2g3_l5", title:"Onderwijs en Carriere", icon:"\uD83C\uDF93", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_5 = {
      deepDive:{title:"The doctorandus: a dying title",
       text:"Before the Bologna reform (2002), Dutch universities awarded 'doctorandus' (drs.) degrees. This was between a master and a PhD. Many older Dutch professionals still use 'drs.' before their name.\n\nThe title literally means 'one who should become a doctor (PhD)'. It was unique to the Netherlands and created confusion abroad. The switch to bachelor/master was meant to improve international recognition."}},
     {type:"mc", q:"Wat is een 'vast dienstverband'?",
-     opts:["een tijdelijk contract","een permanent contract","een stageplek","een bijbaan"],
+     opts:["een permanent contract","een stageplek","een bijbaan","een tijdelijk contract"],
      ans:"een permanent contract",
      hint:"'Vast' means fixed or p.... A 'dienstverband' is an employment relationship."},
     {type:"fb", s:"Ze {1} als schrijfster op haar twintigste.", a:["debuteerde"],

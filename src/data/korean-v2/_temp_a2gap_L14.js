@@ -55,7 +55,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"한국에서 '파란불'은 신호등의 무슨 색이에요?",
-     opts:["파란색","초록색","빨간색","노란색"],
+     opts:["초록색","빨간색","노란색","파란색"],
      ans:"초록색",
      hint:"Korean traditionally used one word for both blue and green, so the 'blue light' is actually this color."},
 
@@ -146,7 +146,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'이 식당은 비빔밥으로 ___해요.'",
-     opts:["유명","따뜻","조용","복잡"],
+     opts:["조용","복잡","유명","따뜻"],
      ans:"유명",
      hint:"This restaurant has a reputation. The Sino-Korean adjective literally means 'to have a name.'"},
 
@@ -188,7 +188,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'이 가방이 무거워요'에서 '무겁다'의 뜻은?",
-     opts:["to be light","to be heavy","to be big","to be small"],
+     opts:["to be big","to be small","to be light","to be heavy"],
      ans:"to be heavy",
      hint:"This ㅂ-irregular adjective describes something that has a lot of physical weight."},
 

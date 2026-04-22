@@ -63,13 +63,13 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Select the masculine singular accusative clitic:",
- opts:["a","o","os","as"],
+ opts:["o","os","as","a"],
  ans:"o",
  hint:"Masculine singular nouns are replaced by the matching definite article used as a clitic."},
 
 {type:"mc",
  q:"Choose the correct pronoun: 'Eu ___ amo muito, mãe.'",
- opts:["o","a","te","os"],
+ opts:["a","te","os","o"],
  ans:"te",
  hint:"You are speaking directly to your mother. Which pronoun addresses the listener informally?"},
 
@@ -158,13 +158,13 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Which pronoun fills the gap: 'Eu ___ dei um conselho aos meus irmãos.'",
- opts:["lhe","lhes","os","as"],
+ opts:["lhes","os","as","lhe"],
  ans:"lhes",
  hint:"The action goes TO your brothers. Two people, indirect object."},
 
 {type:"mc",
  q:"Choose the indirect object pronoun for 'ao senhor':",
- opts:["o","a","lhe","te"],
+ opts:["a","lhe","te","o"],
  ans:"lhe",
  hint:"Formal singular, receiving the action indirectly."},
 
@@ -191,7 +191,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"In 'Eu lhe entreguei a carta', what does 'lhe' replace?",
- opts:["a ele / a ela","a carta","eu","entreguei"],
+ opts:["eu","entreguei","a ele / a ela","a carta"],
  ans:"a ele / a ela",
  hint:"Who receives the letter? That is the indirect object."}
 ]},
@@ -238,7 +238,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Which is the standard Brazilian placement?",
- opts:["Ela viu-me.","Ela me viu.","Ela viu eu.","Me ela viu."],
+ opts:["Ela me viu.","Ela viu eu.","Me ela viu.","Ela viu-me."],
  ans:"Ela me viu.",
  hint:"BR puts the pronoun before the verb, after the subject."},
 
@@ -264,7 +264,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Which BR sentence means 'I know them (the women)'?",
- opts:["Eu os conheço.","Eu as conheço.","Eu lhes conheço.","Eu te conheço."],
+ opts:["Eu te conheço.","Eu os conheço.","Eu as conheço.","Eu lhes conheço."],
  ans:"Eu as conheço.",
  hint:"All-feminine plural group. Match the gender and number."},
 
@@ -277,7 +277,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"In Brazilian Portuguese, where does the pronoun 'me' usually go?",
- opts:["After the verb with a hyphen","Before the verb","At the end of the sentence","Between two verbs"],
+ opts:["At the end of the sentence","Between two verbs","After the verb with a hyphen","Before the verb"],
  ans:"Before the verb",
  hint:"BR prefers pre-___ position. PT prefers post-___."}
 ]},
@@ -324,7 +324,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Which sentence is natural Brazilian Portuguese?",
- opts:["Ele mo deu.","Ele me deu o livro.","Ele o mo deu.","Ele deu-mo."],
+ opts:["Ele me deu o livro.","Ele o mo deu.","Ele deu-mo.","Ele mo deu."],
  ans:"Ele me deu o livro.",
  hint:"BR avoids the contracted forms. Keep one pronoun and name the object."},
 
@@ -350,7 +350,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Which is the most natural Brazilian way to say 'I told him the secret'?",
- opts:["Eu lho contei.","Eu lhe contei.","Eu contei-lho.","Eu disse ele."],
+ opts:["Eu disse ele.","Eu lho contei.","Eu lhe contei.","Eu contei-lho."],
  ans:"Eu lhe contei.",
  hint:"Keep '___' for the indirect object, drop the direct object because context is clear."},
 
@@ -363,7 +363,7 @@ const UNIT_17 = {n:17, lang:"pt", srcLang:"en", track:"v2", title:"Me, te, o, a.
 
 {type:"mc",
  q:"Brazilians generally handle two pronouns by:",
- opts:["Using the contracted form (mo, ta)","Keeping one pronoun and naming the other object","Dropping both pronouns","Using only 'lhe'"],
+ opts:["Dropping both pronouns","Using only 'lhe'","Using the contracted form (mo, ta)","Keeping one pronoun and naming the other object"],
  ans:"Keeping one pronoun and naming the other object",
  hint:"Simpler sounds warmer in Brazilian speech."}
 ]}

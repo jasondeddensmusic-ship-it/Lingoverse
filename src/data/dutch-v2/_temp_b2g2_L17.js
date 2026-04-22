@@ -1,4 +1,4 @@
-// L17: Politics & Debate — 20 B2 gap words
+// L17: Politics & Debate, 20 B2 gap words
 const LESSON_17 = {
   id:"nlv2_b2g2_l17", title:"Politiek en Debat", icon:"\uD83D\uDDE3\uFE0F", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_17 = {
      sSrc:"The {1} of policy remains guaranteed by the civil service."},
     {type:"mc",
      q:"Wat betekent 'correlatie is geen causaliteit'?",
-     opts:["Een verband bewijst niet dat het een het ander veroorzaakt","Alle verbanden zijn toevallig","Statistiek is onbetrouwbaar","Onderzoek is niet nodig"],
+     opts:["Onderzoek is niet nodig","Een verband bewijst niet dat het een het ander veroorzaakt","Alle verbanden zijn toevallig","Statistiek is onbetrouwbaar"],
      ans:"Een verband bewijst niet dat het een het ander veroorzaakt",
      hint:"Just because two things happen together does not mean one causes the other. A fundamental statistical principle."},
     {type:"match", pairs:[

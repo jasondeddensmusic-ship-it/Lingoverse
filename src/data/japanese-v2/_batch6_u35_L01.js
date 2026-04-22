@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Does this device connect to Wi-Fi?\nB: Yes, setup is required.\nA: What did you learn from that experience?\nB: I learned how important advance preparation is.\nA: What kind of preparation should be done specifically?\nB: First, gather information, then it is important to develop a plan.",
      funFact:"繋(つな)がる (to be connected) has become a defining word of the digital age. IoT (モノのインターネット) means everything 繋(つな)がる. Social media 繋(つな)がり (connections) complement real-world relationships. The pandemic showed that digital 繋(つな)がり can sustain communities. Japan aims for Society 5.0 where everything is seamlessly 繋(つな)がる."},
 
-    {type:"mc", q:"仮想現実(かそうげんじつ) is:", opts:["Virtual reality (VR)","Augmented reality","Actual reality","Simulated training"], ans:"Virtual reality (VR)",
+    {type:"mc", q:"仮想現実(かそうげんじつ) is:", opts:["Simulated training","Virtual reality (VR)","Augmented reality","Actual reality"], ans:"Virtual reality (VR)",
      hint:"This term combines 'v...' and 'r...' for computer-generated environments."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"インターネットに{1}りますか？\n(Does it connect to the internet?)", a:"つなが", opts:["つなが","つくり","つづき","つかい"], sSrc:"Does it connect to the internet?",
      hint:"The verb meaning to be connected or linked to something."},
 
-    {type:"mc", q:"Japan faces an 'innovation dilemma' because:", opts:["It excels at incremental improvement but struggles with disruptive innovation","It has too many robots","It lacks internet access","Its population is too young"], ans:"It excels at incremental improvement but struggles with disruptive innovation",
+    {type:"mc", q:"Japan faces an 'innovation dilemma' because:", opts:["It lacks internet access","Its population is too young","It excels at incremental improvement but struggles with disruptive innovation","It has too many robots"], ans:"It excels at incremental improvement but struggles with disruptive innovation",
      hint:"Japan's strength in kaizen (i...) does not always translate to radical new ideas."}
   ,{type:"match",pairs:[{trg:"ビッグデータ",src:"big data"},{trg:"ロボット",src:"robot"},{trg:"セキュリティ",src:"security (cyber/digital)"},{trg:"仮想(かそう)",src:"virtual"},{trg:"繋(つな)がる",src:"to connect / to be linked"}]},
   {type:"fb", s:"製造業(せいぞうぎょう)では{1}が多(おお)くの作業(さぎょう)を自動化(じどうか)しています。", a:["ロボット"], opts:["ロボット","人工知能(じんこうちのう)","ビッグデータ","プライバシー"], hint:"A machine that performs tasks automatically, common on factory production lines.", sSrc:"In manufacturing, {1} automate many tasks."}

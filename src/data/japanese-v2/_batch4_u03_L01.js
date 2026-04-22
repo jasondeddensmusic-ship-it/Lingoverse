@@ -1,4 +1,4 @@
-// Batch 4 — Unit 03 Lesson 1: Furniture & Household Items
+// Batch 4. Unit 03 Lesson 1: Furniture & Household Items
 const BATCH4_L_1 = {
   id:"jav2_u03l_b4_1", title:"家具(かぐ)", icon:"🛋️", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"エアコン is short for:",
-     opts:["air conditioner","air control","electric fan","heater"], ans:"air conditioner",
+     opts:["heater","air conditioner","air control","electric fan"], ans:"air conditioner",
      hint:"A shortened katakana loanword for cooling/heating a room."},
 
     {type:"fb", s:"日曜日(にちようび)に部屋(へや)を{1}します。", a:"掃除(そうじ)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"The act of sweeping, wiping, and tidying up."},
 
     {type:"mc", q:"Traditional Japanese sleeping uses:",
-     opts:["布団(ふとん)","ベッド","ソファー","椅子(いす)"], ans:"布団(ふとん)",
+     opts:["ソファー","椅子(いす)","布団(ふとん)","ベッド"], ans:"布団(ふとん)",
      hint:"A foldable bedding placed on tatami floors at night."},
 
     {type:"mc", q:"What does 電気(でんき) mean?",
-     opts:["electricity / light","gas","water","heat"], ans:"electricity / light",
+     opts:["gas","water","heat","electricity / light"], ans:"electricity / light",
      hint:"Both the energy source and the lamp in your room."}
   ,{type:"match",pairs:[{trg:"テーブル",src:"table"},{trg:"扉(とびら)",src:"door"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"},{trg:"洗濯機(せんたくき)",src:"washing machine"},{trg:"電気(でんき)",src:"electricity / light"},{trg:"エアコン",src:"air conditioner"}]},{type:"match",pairs:[{trg:"カーテン",src:"curtain"}]}]
 };

@@ -69,7 +69,7 @@ lessons:[
  sSrc:"He studied hard for three years. {1}, he passed the exam."},
 
 {type:"mc", q:"尽管(jǐnguǎn)困难(kùnnan)很(hěn)多(duō)，他们(tāmen)还是(háishi)成功(chénggōng)了(le)。 What is the relationship?",
- opts:["Concession: despite difficulties, they succeeded","Cause: difficulties caused success","Addition: difficulties and success","Summary: in short, they succeeded"],
+ opts:["Summary: in short, they succeeded","Concession: despite difficulties, they succeeded","Cause: difficulties caused success","Addition: difficulties and success"],
  ans:"Concession: despite difficulties, they succeeded",
  hint:"尽管 introduces a ___. It acknowledges one thing but then states a contrasting outcome."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"This plan sounds good. {1}, it is difficult to implement."},
 
 {type:"mc", q:"In a formal essay conclusion, which word would you use to begin the summary?",
- opts:["总之(zǒngzhī)","此外(cǐwài)","因此(yīncǐ)","然而(ránér)"],
+ opts:["因此(yīncǐ)","然而(ránér)","总之(zǒngzhī)","此外(cǐwài)"],
  ans:"总之(zǒngzhī)",
  hint:"This word means 'in short' or 'in conclusion' and is used to wrap up a discussion."}
 ]},
@@ -141,7 +141,7 @@ lessons:[
  sSrc:"{1} the survey results, most people support this plan."},
 
 {type:"mc", q:"{1}天气(tiānqì)原因(yuányīn)，航班(hángbān)延误(yánwù)了(le)。 Which word fills the blank?",
- opts:["由于(yóuyú)","关于(guānyú)","根据(gēnjù)","以及(yǐjí)"],
+ opts:["以及(yǐjí)","由于(yóuyú)","关于(guānyú)","根据(gēnjù)"],
  ans:"由于(yóuyú)",
  hint:"The sentence gives a reason for the delay. Which formal preposition means 'because of'?"},
 
@@ -219,7 +219,7 @@ lessons:[
  sSrc:"HSK, {1} the Chinese Proficiency Test, is a Chinese exam."},
 
 {type:"mc", q:"学(xué)而(ér)不(bù)思(sī)则(zé)罔(wǎng)。 What is the structure?",
- opts:["Study and/but not think, then futile","Study or think, then succeed","Not study, not think, then wise","Think and study, then forget"],
+ opts:["Think and study, then forget","Study and/but not think, then futile","Study or think, then succeed","Not study, not think, then wise"],
  ans:"Study and/but not think, then futile",
  hint:"而 connects '___' with 'not ___,' and 则 shows the consequence of this combination."},
 
@@ -236,7 +236,7 @@ lessons:[
  hint:"The sentence cites a survey as its basis and links two things with 'as well as.'"},
 
 {type:"mc", q:"Which pair correctly shows the spoken/written register difference?",
- opts:["Spoken 因为 > Written 由于","Spoken 由于 > Written 因为","Spoken 根据 > Written 关于","Spoken 然而 > Written 但是"],
+ opts:["Spoken 根据 > Written 关于","Spoken 然而 > Written 但是","Spoken 因为 > Written 由于","Spoken 由于 > Written 因为"],
  ans:"Spoken 因为 > Written 由于",
  hint:"Both mean 'because,' but one is used in casual conversation and the other in formal documents and news."},
 
@@ -258,7 +258,7 @@ lessons:[
  note:"Compound: 冲 (rush/surge) + 突 (sudden/break).\nUsed for personal, social, or military conflicts.",
  example:"A: 有(yǒu)冲突(chōngtū)吗(ma)？\nB: 有(yǒu)一(yí)个(gè)小(xiǎo)冲突(chōngtū)。",
  exampleSrc:"A: Is there a conflict?\nB: There is a small conflict.",
- funFact:"冲突 literally means 'rushing-sudden' — the image of two forces colliding. Chinese business culture values harmony (和谐), so 'avoid conflicts' (避免冲突) is a core professional phrase."},
+ funFact:"冲突 literally means 'rushing-sudden', the image of two forces colliding. Chinese business culture values harmony (和谐), so 'avoid conflicts' (避免冲突) is a core professional phrase."},
 {type:"teach", trg:"误会(wùhuì)", src:"misunderstanding", pos:"noun", gender:null,
  phonetic:"wùhuì",
  note:"Compound: 误 (mistake/error) + 会 (meet/understand).\nAlso a verb: 误会 (to misunderstand).",
@@ -288,7 +288,7 @@ lessons:[
  note:"Compound: 和 (harmony) + 解 (resolve).\nBoth verb and noun.\n达成和解 = to reach reconciliation.",
  example:"A: 他们(tāmen)和解(héjiě)了(le)吗(ma)？\nB: 是(shì)，他们(tāmen)已经(yǐjīng)和解(héjiě)了(le)。",
  exampleSrc:"A: Have they reconciled?\nB: Yes, they have already reconciled.",
- funFact:"和解 combines 和 (harmony — one of the most valued Chinese cultural concepts) with 解 (resolve). Legal and diplomatic Chinese uses 和解 for formal settlements."},
+ funFact:"和解 combines 和 (harmony, one of the most valued Chinese cultural concepts) with 解 (resolve). Legal and diplomatic Chinese uses 和解 for formal settlements."},
 {type:"teach", trg:"同意(tóngyì)", src:"to agree / agreement", pos:"verb", gender:null,
  phonetic:"tóngyì",
  note:"Compound: 同 (same) + 意 (meaning/intention).\nVerb and noun.\n同意的 = agreed.",
@@ -296,7 +296,7 @@ lessons:[
  exampleSrc:"A: Do you agree?\nB: I agree.",
  funFact:"同意 literally means 'same intention.' Chinese agreement requires alignment of intent, not just passive acceptance. This shapes how Chinese business deals are sealed."},
 {type:"tip", title:"Diplomatic Register: Chinese Dispute Resolution",
- text:"B2 Chinese dispute resolution follows a pattern:\n\n1. Name it: 是(shì)误会(wùhuì) — it's a misunderstanding\n2. Apologize: 我(wǒ)道歉(dàoqiàn) — I apologize\n3. Compromise: 我们(wǒmen)妥协(tuǒxié) — we compromise\n4. Reconcile: 我们(wǒmen)和解(héjiě) — we reconcile\n\nHSK 4+ writing expects this vocabulary.",
+ text:"B2 Chinese dispute resolution follows a pattern:\n\n1. Name it: 是(shì)误会(wùhuì), it's a misunderstanding\n2. Apologize: 我(wǒ)道歉(dàoqiàn). I apologize\n3. Compromise: 我们(wǒmen)妥协(tuǒxié), we compromise\n4. Reconcile: 我们(wǒmen)和解(héjiě), we reconcile\n\nHSK 4+ writing expects this vocabulary.",
  deepDive:{title:"和 (harmony) in Chinese dispute resolution",
   text:"和 appears in 和解 (reconcile), 和平 (peace), 和谐 (harmony), 和好 (make up). This single character underpins the entire Chinese approach to conflict: restoration of harmony is the goal, not winning."}},
 {type:"mc", q:"哪(nǎ)个(gè)词(cí)意思(yìsi)是(shì) 'conflict'?",
@@ -308,13 +308,13 @@ lessons:[
  ans:"原谅(yuánliàng)",
  hint:"Compound: pardon + understand. 'Please forgive' = 请原谅."},
 {type:"fb", s:"是(shì)一(yí)个(gè){1}吗(ma)？", a:"误会(wùhuì)", opts:["误会(wùhuì)","冲突(chōngtū)","妥协(tuǒxié)","和解(héjiě)"],
- hint:"Noun for 'mistake-meeting' — a failure to understand each other.", sSrc:"Is it a {1}?"},
+ hint:"Noun for 'mistake-meeting', a failure to understand each other.", sSrc:"Is it a {1}?"},
 {type:"fb", s:"我(wǒ){1}你(nǐ)。", a:"原谅(yuánliàng)", opts:["原谅(yuánliàng)","道歉(dàoqiàn)","同意(tóngyì)","妥协(tuǒxié)"],
  hint:"Verb meaning 'to forgive' (someone).", sSrc:"I {1} you."},
 {type:"fb", s:"他们(tāmen){1}了(le)。", a:"和解(héjiě)", opts:["和解(héjiě)","妥协(tuǒxié)","冲突(chōngtū)","误会(wùhuì)"],
- hint:"Verb: harmony + resolve — the endpoint of dispute resolution.", sSrc:"They have {1}."},
+ hint:"Verb: harmony + resolve, the endpoint of dispute resolution.", sSrc:"They have {1}."},
 {type:"fb", s:"你(nǐ){1}吗(ma)？", a:"同意(tóngyì)", opts:["同意(tóngyì)","道歉(dàoqiàn)","原谅(yuánliàng)","和解(héjiě)"],
- hint:"Verb: same + intention — to agree.", sSrc:"Do you {1}?"},
+ hint:"Verb: same + intention, to agree.", sSrc:"Do you {1}?"},
 {type:"match", pairs:[
   {trg:"冲突(chōngtū)", src:"conflict"},
   {trg:"误会(wùhuì)", src:"misunderstanding"},

@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"This student's grades are {1}. Perfect scores only."},
 
     {type:"mc", q:"別(べつ)に is often used by:",
-     opts:["Teenagers deflecting questions","Business executives in meetings","Teachers praising students","Doctors diagnosing patients"],
+     opts:["Doctors diagnosing patients","Teenagers deflecting questions","Business executives in meetings","Teachers praising students"],
      ans:"Teenagers deflecting questions",
      hint:"This word is the quintessential dismissive response meaning 'nothing special' or 'whatever.'"},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"These two really {1} each other. Are they siblings?"},
 
     {type:"mc", q:"足(た)るを知(し)る teaches:",
-     opts:["Contentment with what you have","Striving for more","Comparing with others","Working harder"],
+     opts:["Comparing with others","Working harder","Contentment with what you have","Striving for more"],
      ans:"Contentment with what you have",
      hint:"This philosophical concept from Lao Tzu, embraced in Japanese culture, is about knowing when enough is enough."},
 

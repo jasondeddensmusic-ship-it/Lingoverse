@@ -1,4 +1,4 @@
-// L10: Numbers and Time — 20 A1 gap words
+// L10: Numbers and Time, 20 A1 gap words
 const LESSON_10 = {
   id:"nlv2_a1gap_l10", title:"Tijd en Getallen", icon:"\u{1F552}", xp:15, board:true,
   steps:[
@@ -102,7 +102,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"'Half vijf' is hetzelfde als ___.",
-     opts:["4:30","5:30","5:00","4:00"],
+     opts:["4:00","4:30","5:30","5:00"],
      ans:"4:30",
      hint:"Remember: 'half' in Dutch refers to the hour COMING, not the hour passed."},
 

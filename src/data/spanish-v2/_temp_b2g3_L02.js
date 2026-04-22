@@ -42,7 +42,7 @@ const LESSON_2 = {id:"esv2_b2g3_l2", title:"Negocios y comercio", icon:"📊", x
 
   {type:"match", pairs:[{trg:"comercio exterior", src:"foreign trade"},{trg:"contratación", src:"hiring"},{trg:"distribuidor", src:"distributor"},{trg:"desempeño", src:"job performance"},{trg:"dotación", src:"allocation / staffing"}]},
 
-  {type:"mc", q:"'La contratación de personal se ha paralizado.' ¿Qué significa?", opts:["Han dejado de contratar empleados","Han subido los sueldos","Han abierto nuevas oficinas","Han firmado un convenio"], ans:"Han dejado de contratar empleados", hint:"Paralizar means to freeze or stop. The hiring process has been halted."},
+  {type:"mc", q:"'La contratación de personal se ha paralizado.' ¿Qué significa?", opts:["Han abierto nuevas oficinas","Han firmado un convenio","Han dejado de contratar empleados","Han subido los sueldos"], ans:"Han dejado de contratar empleados", hint:"Paralizar means to freeze or stop. The hiring process has been halted."},
 
   {type:"fb", s:"La {1} entre España y Francia ha dado muy buenos resultados.", a:["coproducción"], opts:["coproducción","competitividad","contratación","conveniencia"], hint:"When two countries produce something together, like a film.", sSrc:"The {1} between Spain and France has given very good results."}
 ]};

@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: Japan has interesting culture. For example, tea ceremony and flower arranging.\nB: I am interested too.\nA: What was the best part?\nB: The food was the most delicious.",
      funFact:"例えば uses 例 (example/precedent). It is the standard way to introduce examples in both speech and writing. Japanese communication values concrete examples: making a general statement without a たとえば feels incomplete. In essays, たとえば paragraphs are expected to follow every major claim."},
 
-    {type:"mc", q:"The correct ordering sequence is:", opts:["つぎに, まず, さいごに","さいごに, まず, つぎに","まず, つぎに, さいごに","つぎに, さいごに, まず"], ans:"まず, つぎに, さいごに",
+    {type:"mc", q:"The correct ordering sequence is:", opts:["まず, つぎに, さいごに","つぎに, さいごに, まず","つぎに, まず, さいごに","さいごに, まず, つぎに"], ans:"まず, つぎに, さいごに",
      hint:"Think of the logical order: first, next, and finally."},
 
     {type:"teach", trg:"とくに", src:"especially / particularly / in particular", pos:"adv", gender:null,
@@ -66,7 +66,7 @@ const LESSON_5 = {
      exampleSrc:"A: Finally, I will present the summary.\nB: Please go ahead.\nA: I am also interested.\nB: Then, how about doing it together next time?",
      funFact:"まとめ comes from まとめる (to gather/compile). Japanese presentations always include a まとめ slide. Blog posts end with まとめ sections. The word reflects Japanese communication preference for neat closure: everything gathered together at the end. Video creators use まとめ動画 (summary videos) and news sites have まとめ記事 (roundup articles)."},
 
-    {type:"mc", q:"ようするに is used to:", opts:["Add an example","Introduce the first point","Cut to the core of an argument","Express surprise"], ans:"Cut to the core of an argument",
+    {type:"mc", q:"ようするに is used to:", opts:["Introduce the first point","Cut to the core of an argument","Express surprise","Add an example"], ans:"Cut to the core of an argument",
      hint:"This connector strips away details and delivers the essential point."},
 
     {type:"match", pairs:[{trg:"まず",src:"first"},{trg:"つぎに",src:"next"},{trg:"さいごに",src:"finally"},{trg:"たとえば",src:"for example"}]},
@@ -76,7 +76,7 @@ const LESSON_5 = {
     {type:"fb", s:"{1}でわたしのはっぴょうをおわります。\n(With that, I conclude my presentation.)", a:"いじょう", opts:["いじょう","まとめ","さいごに","ようするに"], sSrc:"With that, I conclude my presentation.",
      hint:"The word meaning 'the above' that professionally signals the end of a report."},
 
-    {type:"mc", q:"いっぽう is different from しかし because:", opts:["They mean the same thing","いっぽう presents a parallel view, しかし contradicts","いっぽう is casual, しかし is formal","いっぽう is only for spoken Japanese"], ans:"いっぽう presents a parallel view, しかし contradicts",
+    {type:"mc", q:"いっぽう is different from しかし because:", opts:["いっぽう is only for spoken Japanese","They mean the same thing","いっぽう presents a parallel view, しかし contradicts","いっぽう is casual, しかし is formal"], ans:"いっぽう presents a parallel view, しかし contradicts",
      hint:"One shows two sides existing simultaneously; the other signals direct opposition."},
 
     {type:"match", pairs:[{trg:"まとめ",src:"summary"},{trg:"いじょう",src:"that is all"},{trg:"とくに",src:"especially"},{trg:"たとえば",src:"for example"}]},

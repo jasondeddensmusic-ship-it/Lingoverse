@@ -1,4 +1,4 @@
-// L06: Education & Academia — 20 B2 gap words
+// L06: Education & Academia, 20 B2 gap words
 const LESSON_6 = {
   id:"nlv2_b2gap_l6", title:"Onderwijs en Academie", icon:"\uD83C\uDF93", xp:15, board:true,
   steps:[
@@ -114,7 +114,7 @@ const LESSON_6 = {
      ans:"bijvoeglijk naamwoord",
      hint:"Literally: the name-word that adds something to another word."},
     {type:"mc", q:"Which word means 'superstition'?",
-     opts:["bijgeloof","biografie","begaafdheid","basiskennis"],
+     opts:["basiskennis","bijgeloof","biografie","begaafdheid"],
      ans:"bijgeloof",
      hint:"Compound of 'bij' (false/secondary) and 'geloof' (belief)."},
     {type:"fb", s:"Ze studeert {1} aan de universiteit.", a:["antropologie"],
@@ -132,7 +132,7 @@ const LESSON_6 = {
       {trg:"begaafdheid", src:"giftedness"}
     ]},
     {type:"mc", q:"'Astronomie' and 'astrologie' differ because:",
-     opts:["They are the same thing","Astronomy is science, astrology is belief","Astrology is older","Astronomy studies the moon only"],
+     opts:["Astronomy studies the moon only","They are the same thing","Astronomy is science, astrology is belief","Astrology is older"],
      ans:"Astronomy is science, astrology is belief",
      hint:"One follows scientific method, the other interprets star positions."},
     {type:"fb", s:"De {1} heeft tien jaar aan het boek gewerkt.", a:["biograaf"],

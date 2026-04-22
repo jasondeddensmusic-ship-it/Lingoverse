@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"裁判官(さいばんかん)",src:"judge"},{trg:"弁護士(べんごし)",src:"lawyer"},{trg:"被告人(ひこくにん)",src:"defendant"},{trg:"判決(はんけつ)",src:"verdict"}]},
 
-    {type:"mc", q:"Which word means constitution?", opts:["憲法(けんぽう)","証拠(しょうこ)","弁護士(べんごし)","無罪(むざい)"], ans:"憲法(けんぽう)",
+    {type:"mc", q:"Which word means constitution?", opts:["無罪(むざい)","憲法(けんぽう)","証拠(しょうこ)","弁護士(べんごし)"], ans:"憲法(けんぽう)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"有罪(ゆうざい)",src:"guilty"}]}]
 };

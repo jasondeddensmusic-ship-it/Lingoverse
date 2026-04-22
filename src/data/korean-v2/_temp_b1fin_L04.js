@@ -119,7 +119,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"한국 요리에서 가장 기본이 되는 재료는?",
-     opts:["오징어","콩","참기름","치즈"],
+     opts:["콩","참기름","치즈","오징어"],
      ans:"콩",
      hint:"This ingredient is the base for doenjang, ganjang, and tofu, all essentials."},
 

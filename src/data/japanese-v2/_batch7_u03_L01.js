@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"Japanese traffic signals are '{1}.' Not green."},
 
     {type:"mc", q:"おにぎりの typical shape is:",
-     opts:["三角(さんかく) (triangle)","丸(まる) (circle)","四角(しかく) (square)","星(ほし) (star)"],
+     opts:["星(ほし) (star)","三角(さんかく) (triangle)","丸(まる) (circle)","四角(しかく) (square)"],
      ans:"三角(さんかく) (triangle)",
      hint:"The classic Japanese rice ball is shaped like a mountain, with three corners."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"This cookie is in the shape of a {1}."},
 
     {type:"mc", q:"茶色(ちゃいろ) literally means:",
-     opts:["Tea color","Earth color","Wood color","Leaf color"],
+     opts:["Wood color","Leaf color","Tea color","Earth color"],
      ans:"Tea color",
      hint:"The first part of this word is the Japanese word for a common hot beverage."},
 

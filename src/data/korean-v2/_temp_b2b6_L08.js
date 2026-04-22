@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 8: Intensity and Waste
+// Korean B2. Batch 6, Lesson 8: Intensity and Waste
 // Words: 심해지다, 싱싱하다, 싶어지다, 싸구려, 싹, 싼값, 쌍, 쌍둥이, 썩, 썰렁하다, 쓰다(adj), 쓰다듬다, 쓰러지다, 쓰레기통, 쓰이다, 쓴맛, 쓸다, 쓸데없다, 쓸데없이, 쓸쓸하다
 
 const LESSON_8 = {
@@ -113,7 +113,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"'이 재료는 요리에 자주 쓰인다'에서 '쓰인다'의 뜻은?",
-     opts:["사용된다","써진다","쓸모없다","쓰러진다"],
+     opts:["쓰러진다","사용된다","써진다","쓸모없다"],
      ans:"사용된다",
      hint:"The passive form of the verb meaning 'to use.' What happens to ingredients in cooking?"},
 

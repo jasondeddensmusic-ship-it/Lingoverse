@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: The roads are congested today. For that reason, I might be late.\nB: Please come safely.\nA: When was it?\nB: It was last summer.",
      funFact:"そのため sits in the middle of the formality scale: above だから but below したがって. It is the go-to connector for polite explanations. Business emails use it constantly: 本日は体調不良のため (due to feeling unwell today)... The ため (for the sake of/because of) component also appears in ために (in order to)."},
 
-    {type:"mc", q:"そこで emphasizes:", opts:["The reason behind something","The action taken in response to a situation","An unexpected contrast","Additional information"], ans:"The action taken in response to a situation",
+    {type:"mc", q:"そこで emphasizes:", opts:["The action taken in response to a situation","An unexpected contrast","Additional information","The reason behind something"], ans:"The action taken in response to a situation",
      hint:"This connector marks the moment when a s... prompted a decision or a...."},
 
     {type:"teach", trg:"うりあげ", src:"sales / revenue", pos:"noun", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {
     {type:"fb", s:"きょうはどうろがこんでいます。{1}、おくれるかもしれません。\n(The roads are congested today. For that reason, I might be late.)", a:"そのため", opts:["そのため","そこで","それに","つまり"], sSrc:"The roads are congested today. For that reason, I might be late.",
      hint:"The polite formal connector expressing cause and effect, more neutral than したがって."},
 
-    {type:"mc", q:"だけでなく means:", opts:["Not only","Only if","Nothing but","Even though"], ans:"Not only",
+    {type:"mc", q:"だけでなく means:", opts:["Nothing but","Even though","Not only","Only if"], ans:"Not only",
      hint:"This pattern expands an argument by saying X is not the only thing; Y is also true."},
 
     {type:"match", pairs:[{trg:"だけでなく",src:"not only"},{trg:"じょうきょう",src:"situation"},{trg:"はんだん",src:"judgment"},{trg:"そこで",src:"and so"}]},

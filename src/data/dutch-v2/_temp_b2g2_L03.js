@@ -1,4 +1,4 @@
-// L03: Business & Commerce — 20 B2 gap words
+// L03: Business & Commerce, 20 B2 gap words
 const LESSON_3 = {
   id:"nlv2_b2g2_l3", title:"Zakenleven en Handel", icon:"\uD83D\uDCBC", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_3 = {
      sSrc:"The {1} meeting takes place in March."},
     {type:"mc",
      q:"Welk woord gebruiken Nederlanders NIET voor een zakelijke bijeenkomst?",
-     opts:["Compagnie","Conferentie","Congres","Vergadering"],
+     opts:["Vergadering","Compagnie","Conferentie","Congres"],
      ans:"Compagnie",
      hint:"Three of these words mean a type of meeting or gathering. One is a historical term for a trading company."},
     {type:"match", pairs:[

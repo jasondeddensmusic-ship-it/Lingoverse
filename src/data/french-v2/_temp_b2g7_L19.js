@@ -80,7 +80,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel meuble a tiroirs a ete invente en France vers 1700 ?",
-     opts:["la commode","l'applique","le chevron","le barillet"],
+     opts:["le barillet","la commode","l'applique","le chevron"],
      ans:"la commode",
      hint:"Its name literally means 'convenient'. A piece of furniture with drawers."},
 
@@ -113,7 +113,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel mot designe une division profonde entre groupes sociaux ?",
-     opts:["un clivage","un contour","un chevron","un boitier"],
+     opts:["un chevron","un boitier","un clivage","un contour"],
      ans:"un clivage",
      hint:"A deep split, like the one between left and right in politics."},
 

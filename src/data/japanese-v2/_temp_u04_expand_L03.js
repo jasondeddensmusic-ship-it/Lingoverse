@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: Do you have purple clothes?\nB: Yes, we have some here.",
      funFact:"Purple was the most prestigious color in ancient Japan, reserved for the highest court rank. Murasaki Shikibu, author of The Tale of Genji (the world's first novel), took her pen name from this noble color. Purple dye was extremely rare and expensive."},
 
-    {type:"mc", q:"ちゃいろ literally means:", opts:["Brown color","Earth color","Tea color","Tree color"], ans:"Tea color",
+    {type:"mc", q:"ちゃいろ literally means:", opts:["Tea color","Tree color","Brown color","Earth color"], ans:"Tea color",
      hint:"The first part refers to Japan's most iconic beverage."},
 
     {type:"teach", trg:"オレンジ", src:"orange (color)", pos:"noun", gender:null,
@@ -81,7 +81,7 @@ const LESSON_5 = {
      exampleSrc:"A: What a lovely dress.\nB: Thank you. I bought it yesterday.",
      funFact:"Suteki is an all-purpose compliment. Suteki na ie (lovely house), suteki na hito (wonderful person), suteki na aidea (great idea). It is warm and sincere. Women use it more frequently than men, but it is appropriate for anyone."},
 
-    {type:"mc", q:"かわいい originally meant:", opts:["Cute","Strong","Pitiable/fragile","Colorful"], ans:"Pitiable/fragile",
+    {type:"mc", q:"かわいい originally meant:", opts:["Strong","Pitiable/fragile","Colorful","Cute"], ans:"Pitiable/fragile",
      hint:"The meaning shifted dramatically over centuries to its current positive sense."},
 
     {type:"match", pairs:[
@@ -107,7 +107,7 @@ const LESSON_5 = {
     {type:"mc", q:"Which color was reserved for royalty in ancient Japan?", opts:["あか","きんいろ","むらさき","しろ"], ans:"むらさき",
      hint:"The author of the world's first novel took her name from this noble color."},
 
-    {type:"mc", q:"ぎんいろ appears in ぎんざ (Ginza) because:", opts:["Silver mines were there","A silver coin mint was there","Silver temples stood there","Silver fish were sold there"], ans:"A silver coin mint was there",
+    {type:"mc", q:"ぎんいろ appears in ぎんざ (Ginza) because:", opts:["Silver temples stood there","Silver fish were sold there","Silver mines were there","A silver coin mint was there"], ans:"A silver coin mint was there",
      hint:"In the 1600s, the Tokugawa shogunate ran a precious-metal production facility in this Tokyo district."},
   ]
 };

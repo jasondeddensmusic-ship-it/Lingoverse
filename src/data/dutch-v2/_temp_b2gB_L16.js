@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 16 — Kunst en Cultuur
+// Dutch B2 gapB Lesson 16. Kunst en Cultuur
 // Art, culture, and creative vocabulary
 
 const LESSON_16 = {id:"nlv2_b2gB_l16", title:"Kunst en Cultuur", icon:"\u{1F3A8}", xp:25, board:true, steps:[
@@ -82,7 +82,7 @@ const LESSON_16 = {id:"nlv2_b2gB_l16", title:"Kunst en Cultuur", icon:"\u{1F3A8}
 ]},
 
 {type:"mc", q:"'Een handkus' is:",
- opts:["A high five","A formal hand kiss greeting","A handshake","A wave"],
+ opts:["A wave","A high five","A formal hand kiss greeting","A handshake"],
  ans:"A formal hand kiss greeting",
  hint:"An old-fashioned, aristocratic g... gesture"},
 

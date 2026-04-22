@@ -84,7 +84,7 @@ const LESSON_20 = {id:"esv2_b2g4_l20",title:"Verbos y acciones avanzadas",icon:"
  exampleSrc:"A: The data demonstrates an increase in inequality.\nB: It is urgent to take political measures.",
  funFact:"In Spanish, 'evidenciar' can also mean to embarrass: 'No me evidencies delante de todos'."},
 
-{type:"mc",q:"'Dar de alta' a un paciente significa:",opts:["Permitirle salir del hospital","Ingresarlo en el hospital","Operarlo de urgencia","Transferirlo a otro centro"],ans:"Permitirle salir del hospital",hint:"Think about the moment when a doctor tells a patient they can go home."},
+{type:"mc",q:"'Dar de alta' a un paciente significa:",opts:["Transferirlo a otro centro","Permitirle salir del hospital","Ingresarlo en el hospital","Operarlo de urgencia"],ans:"Permitirle salir del hospital",hint:"Think about the moment when a doctor tells a patient they can go home."},
 
 {type:"teach",trg:"descuajar",src:"to uproot / to dissolve",pos:"verb",gender:null,
  note:"Regular -ar verb. To pull out by the roots.\nCommon with storms and trees.",

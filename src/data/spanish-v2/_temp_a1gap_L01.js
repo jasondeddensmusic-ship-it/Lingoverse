@@ -1,4 +1,4 @@
-// L01: People & Greetings — Core people vocabulary
+// L01: People & Greetings. Core people vocabulary
 const LESSON_1 = {
   id:"esv2_a1gap_l1", title:"La gente", icon:"\u{1F44B}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"\u00bfCuál es la forma femenina de 'actor'?",
-     opts:["la actriz","la actora","la actora","la actriz"],
+     opts:["la actriz","la actriz","la actora","la actora"],
      ans:"la actriz",
      hint:"Spanish uses an irregular Latin suffix for this feminine form, not the usual -a ending."},
 
@@ -144,7 +144,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"\u00bfQué significa 'amable'?",
-     opts:["kind","strong","tall","fast"],
+     opts:["tall","fast","kind","strong"],
      ans:"kind",
      hint:"Think of the Latin root 'amare' (to love). This adjective describes someone lovable and friendly."},
   ]

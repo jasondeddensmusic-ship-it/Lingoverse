@@ -1,4 +1,4 @@
-// Spanish V2 Unit 42 — B2 Vocabulary Expansion
+// Spanish V2 Unit 42. B2 Vocabulary Expansion
 import L16 from './_temp_b2gap_L16.js';
 import L17 from './_temp_b2gap_L17.js';
 import L18 from './_temp_b2gap_L18.js';

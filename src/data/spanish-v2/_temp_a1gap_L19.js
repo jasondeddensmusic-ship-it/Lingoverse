@@ -1,4 +1,4 @@
-// L19: Cooking & Food Culture — Spanish culinary traditions
+// L19: Cooking & Food Culture. Spanish culinary traditions
 const LESSON_19 = {
   id:"esv2_a1gap_l19", title:"Cocina española", icon:"\u{1F372}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"\u00bfQué significa '\u00bfTe apetece un café?'",
-     opts:["Do you fancy a coffee?","Do you make coffee?","Do you have coffee?","Do you sell coffee?"],
+     opts:["Do you sell coffee?","Do you fancy a coffee?","Do you make coffee?","Do you have coffee?"],
      ans:"Do you fancy a coffee?",
      hint:"This verb expresses a desire or craving for something. Very common when offering food or drinks."},
 

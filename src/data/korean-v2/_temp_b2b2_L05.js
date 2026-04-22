@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 5: Nature and Dreams
+// Korean B2. Batch 2, Lesson 5: Nature and Dreams
 // Words: 꽃씨, 꽃잎, 꾸다, 꾸리다, 꾸준하다, 꾸중, 꿀, 꿈꾸다, 꿈속, 끈, 끊어지다, 끊임없다, 끊임없이, 끌리다, 끌어당기다, 끝없다, 끝없이, 끼, 끼어들다, 끼우다
 
 const LESSON_5 = {
@@ -113,7 +113,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"'끊임없이'의 반대말은?",
-     opts:["가끔","끊임없이","꾸준히","빠르게"],
+     opts:["빠르게","가끔","끊임없이","꾸준히"],
      ans:"가끔",
      hint:"The opposite of 'ceaselessly' or 'without pause.' Think of something that happens only sometimes."},
 

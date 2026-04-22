@@ -79,7 +79,7 @@ const BATCH2_U13_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'purche' mean?",
-     opts:["Because of that specific reason","Provided that or as long as","After doing something specific","Despite everything that happens"],
+     opts:["Provided that or as long as","After doing something specific","Despite everything that happens","Because of that specific reason"],
      ans:"Provided that or as long as",
      hint:"This conjunction sets a condition. The action is allowed only if the requirement after 'purche' is fulfilled."},
 
@@ -109,7 +109,7 @@ const BATCH2_U13_L1 = {
      sSrc:"{1} you go, I will follow you."},
 
     {type:"mc", q:"What does 'che io sappia' express in conversation?",
-     opts:["Complete certainty about a fact","Limited knowledge with possible uncertainty","A strong command to the listener","A question about what is known"],
+     opts:["A question about what is known","Complete certainty about a fact","Limited knowledge with possible uncertainty","A strong command to the listener"],
      ans:"Limited knowledge with possible uncertainty",
      hint:"This fixed phrase means 'as far as I know.' It allows you to give information while signaling that you might be wrong."},
 
@@ -120,9 +120,9 @@ const BATCH2_U13_L1 = {
      sSrc:"He left {1} anyone seeing him."},
 
     {type:"mc", q:"Why does 'nel caso che' require the subjunctive?",
-     opts:["Because 'caso' is an irregular noun form","Because it describes a completed past action","Because the event is only possible, not certain","Because it is always used in questions only"],
+     opts:["Because it is always used in questions only","Because 'caso' is an irregular noun form","Because it describes a completed past action","Because the event is only possible, not certain"],
      ans:"Because the event is only possible, not certain",
      hint:"'In case' prepares for something that may or may not occur. Uncertainty about the future triggers the subjunctive mood."}
-  ,{type:"match",pairs:[{trg:"magari",src:"I wish / if only / maybe"},{trg:"che io sappia",src:"as far as I know"},{trg:"comunque sia",src:"however it may be / in any case"},{trg:"come se",src:"as if / as though"},{trg:"Dio voglia che",src:"God willing that / may God grant"}]},{type:"mc",q:"How do you say \"in case / in the event that\" in Italian?",opts:["la finestra","nel caso che","il tavolo","la bicicletta"],ans:"nel caso che",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"magari",src:"I wish / if only / maybe"},{trg:"che io sappia",src:"as far as I know"},{trg:"comunque sia",src:"however it may be / in any case"},{trg:"come se",src:"as if / as though"},{trg:"Dio voglia che",src:"God willing that / may God grant"}]},{type:"mc",q:"How do you say \"in case / in the event that\" in Italian?",opts:["nel caso che","il tavolo","la bicicletta","la finestra"],ans:"nel caso che",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U13_L1;

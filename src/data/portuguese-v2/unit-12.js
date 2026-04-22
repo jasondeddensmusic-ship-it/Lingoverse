@@ -47,7 +47,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
   text:"There is a subtle difference:\n\nVou de trem. (I go by train.) General mode.\nVou no trem das dez. (I go on the ten o'clock train.) Specific train.\n\n'De' is general and abstract. 'No/na' is specific and concrete. Both are correct, used in different situations."}},
 
 {type:"mc", q:"Which word means 'the airplane'?",
- opts:["o trem","o avião","o carro","o ônibus"],
+ opts:["o avião","o carro","o ônibus","o trem"],
  ans:"o avião",
  hint:"It flies through the air, ends in -ão."},
 
@@ -70,7 +70,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
 ]},
 
 {type:"mc", q:"'Fazer uma viagem' means:",
- opts:["to buy a ticket","to take a trip","to miss the train","to drive a car"],
+ opts:["to drive a car","to buy a ticket","to take a trip","to miss the train"],
  ans:"to take a trip",
  hint:"The verb 'fazer' combined with the noun 'viagem' means exactly this."},
 
@@ -81,7 +81,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"In São Paulo, many people use the {1} to avoid traffic."},
 
 {type:"mc", q:"Which transport word has the same form in singular and plural?",
- opts:["carro","avião","ônibus","trem"],
+ opts:["trem","carro","avião","ônibus"],
  ans:"ônibus",
  hint:"It already ends in -s, so no plural ending is added."}
 ]},
@@ -139,12 +139,12 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"I'm going to stay at a {1} near Copacabana beach."},
 
 {type:"mc", q:"Where do you catch a plane?",
- opts:["na estação","no aeroporto","no hotel","no escritório"],
+ opts:["no aeroporto","no hotel","no escritório","na estação"],
  ans:"no aeroporto",
  hint:"The place for air travel, combining 'air' and 'port' in one word."},
 
 {type:"mc", q:"Which word means 'suitcase'?",
- opts:["a mala","a passagem","a estação","o hotel"],
+ opts:["o hotel","a mala","a passagem","a estação"],
  ans:"a mala",
  hint:"Feminine noun; what you pack clothes into for a trip."},
 
@@ -173,7 +173,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"The train leaves the central {1} at eight in the morning."},
 
 {type:"mc", q:"Which sentence means 'I have a reservation at the hotel'?",
- opts:["Tenho uma mala no hotel","Tenho uma reserva no hotel","Tenho uma passagem no hotel","Tenho uma estação no hotel"],
+ opts:["Tenho uma passagem no hotel","Tenho uma estação no hotel","Tenho uma mala no hotel","Tenho uma reserva no hotel"],
  ans:"Tenho uma reserva no hotel",
  hint:"The word '___' covers bookings for rooms or tables."}
 ]},
@@ -231,7 +231,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
   text:"A simple way to sequence events:\n\nPrimeiro vamos ao aeroporto.\nDepois pegamos o avião.\nFinalmente chegamos ao Rio.\n\n(First we go to the airport. Then we take the plane. Finally we arrive in Rio.) These three words turn a list of actions into a clear itinerary."}},
 
 {type:"mc", q:"Which verb means 'to arrive'?",
- opts:["partir","chegar","reservar","viajar"],
+ opts:["chegar","reservar","viajar","partir"],
  ans:"chegar",
  hint:"The opposite of leaving."},
 
@@ -265,7 +265,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"{1} we go to the hotel and afterwards to the beach."},
 
 {type:"mc", q:"Which is faster, in Brazilian travel?",
- opts:["O carro é mais rápido que o avião","O ônibus é mais rápido que o avião","O avião é mais rápido que o ônibus","O metrô é mais rápido que o avião"],
+ opts:["O metrô é mais rápido que o avião","O carro é mais rápido que o avião","O ônibus é mais rápido que o avião","O avião é mais rápido que o ônibus"],
  ans:"O avião é mais rápido que o ônibus",
  hint:"Air travel beats road travel for speed over long distances."},
 
@@ -276,7 +276,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"We {1} to Brazil every year."},
 
 {type:"mc", q:"What does 'depois' mean?",
- opts:["before","afterwards","never","always"],
+ opts:["afterwards","never","always","before"],
  ans:"afterwards",
  hint:"A sequencing word pointing to what comes later."}
 ,
@@ -338,7 +338,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
   text:"Use as closings:\n\nUm beijo: close friends and family, all genders in Brazil.\nUm abraço: broad use, safe between men who prefer not to use 'beijo'.\nSaudades: when you genuinely miss the person, often in a final line before the closing.\n\nExample order: 'Saudades de você. Um beijo, Ana.' (Missing you. A kiss, Ana.)"}},
 
 {type:"mc", q:"Which phrase opens an informal Brazilian letter most naturally?",
- opts:["Prezado Senhor,","Oi, Ana!","Boa tarde,","Muito obrigado"],
+ opts:["Oi, Ana!","Boa tarde,","Muito obrigado","Prezado Senhor,"],
  ans:"Oi, Ana!",
  hint:"Use the same greeting you would in a text message to a friend."},
 
@@ -366,7 +366,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"Have a good trip to Rio! {1}!\nThank you, see you soon!"},
 
 {type:"mc", q:"'Muitas saudades de você!' means:",
- opts:["See you soon!","I miss you so much!","Nice to meet you!","Thank you for writing!"],
+ opts:["Thank you for writing!","See you soon!","I miss you so much!","Nice to meet you!"],
  ans:"I miss you so much!",
  hint:"This word expresses a deep Portuguese longing for someone absent."},
 
@@ -377,12 +377,12 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  sSrc:"I will write more later. {1}, Ana."},
 
 {type:"mc", q:"Which phrase means 'See you soon' at the end of a message?",
- opts:["Saudades","Até logo","Um beijo","Espero que esteja bem."],
+ opts:["Um beijo","Espero que esteja bem.","Saudades","Até logo"],
  ans:"Até logo",
  hint:"A farewell that implies you will meet again soon."},
 
 {type:"mc", q:"'Espero que esteja bem.' is a Portuguese phrase meaning:",
- opts:["I miss you very much.","I hope you are well.","See you soon.","A hug from me."],
+ opts:["I hope you are well.","See you soon.","A hug from me.","I miss you very much."],
  ans:"I hope you are well.",
  hint:"A warm wish placed at the start of the message body."},
 
@@ -403,7 +403,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  note:"Nose. Masculine noun. Plural: os narizes.",
  example:"A: O nariz está frio!\nB: Faz muito frio hoje.\nA: Sim, vou comprar um casaco.",
  exampleSrc:"A: My nose is cold!\nB: It is very cold today.\nA: Yes, I am going to buy a coat.",
- funFact:"In Brazilian Portuguese, 'dar de nariz' (to nose-dive) describes a bad fall — borrowed directly from the image of landing face-first."},
+ funFact:"In Brazilian Portuguese, 'dar de nariz' (to nose-dive) describes a bad fall, borrowed directly from the image of landing face-first."},
 
 {type:"teach", trg:"as orelhas", src:"the ears", pos:"noun", gender:"f",
  note:"Ears. Feminine plural noun. Singular: a orelha. Different from 'o ouvido' (the inner ear, sense of hearing).",
@@ -421,7 +421,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  note:"Arm. Masculine noun. Plural: os braços. Not to be confused with 'o abraço' (a hug), which literally means 'an arm-wrap'.",
  example:"A: O braço está doendo.\nB: Você se machucou?\nA: Sim, no trabalho.\nB: Vai ao médico.",
  exampleSrc:"A: My arm is hurting.\nB: Did you hurt yourself?\nA: Yes, at work.\nB: Go to the doctor.",
- funFact:"'Dar o braço' (to give the arm) means to link arms when walking — a common gesture between friends and couples in Brazil."},
+ funFact:"'Dar o braço' (to give the arm) means to link arms when walking, a common gesture between friends and couples in Brazil."},
 
 {type:"teach", trg:"o estômago", src:"the stomach", pos:"noun", gender:"m",
  note:"Stomach. Masculine noun. In everyday speech Brazilians also say 'a barriga' (the belly).",
@@ -436,9 +436,9 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  funFact:"'De coração' (from the heart) is a common phrase in Brazil for expressing sincere feelings, as in 'Obrigado de coração' (Thank you from the heart)."},
 
 {type:"tip", title:"Body-part pain with DOER",
- text:"Portuguese uses 'doer' (to hurt) like an impersonal verb — similar to how English uses 'my ... hurts':\n\nO braço está doendo. (My arm is hurting.)\nO estômago dói. (My stomach hurts.)\nAs orelhas doem no frio. (Ears hurt in the cold.)\n\n'Estar doendo' (progressive) = ongoing pain. 'Doer / dói' (simple) = general or habitual pain. Both are natural.",
+ text:"Portuguese uses 'doer' (to hurt) like an impersonal verb, similar to how English uses 'my ... hurts':\n\nO braço está doendo. (My arm is hurting.)\nO estômago dói. (My stomach hurts.)\nAs orelhas doem no frio. (Ears hurt in the cold.)\n\n'Estar doendo' (progressive) = ongoing pain. 'Doer / dói' (simple) = general or habitual pain. Both are natural.",
  deepDive:{title:"Orelha vs Ouvido",
-  text:"Two words for 'ear':\n\nA orelha: the outer, visible ear. What you can see and touch.\nO ouvido: the inner ear, or the sense of hearing.\n\nPractical examples:\nEle tem as orelhas grandes. (He has big ears — physical description.)\nEle tem bom ouvido musical. (He has a good musical ear — sense/ability.) Never swap them."}},
+  text:"Two words for 'ear':\n\nA orelha: the outer, visible ear. What you can see and touch.\nO ouvido: the inner ear, or the sense of hearing.\n\nPractical examples:\nEle tem as orelhas grandes. (He has big ears, physical description.)\nEle tem bom ouvido musical. (He has a good musical ear, sense/ability.) Never swap them."}},
 
 {type:"teach", trg:"a camiseta", src:"the t-shirt", pos:"noun", gender:"f",
  note:"T-shirt. Feminine noun. The most common casual top in Brazil, worn year-round in warm climates.",
@@ -465,7 +465,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  funFact:"'Usar' is the everyday Brazilian verb for wearing clothes. 'Vestir' exists too but is more formal or reflexive ('vestir-se' = to get dressed)."},
 
 {type:"mc", q:"Which word is the outer visible ear?",
- opts:["o nariz","a orelha","o ouvido","o coração"],
+ opts:["a orelha","o ouvido","o coração","o nariz"],
  ans:"a orelha",
  hint:"The physical structure you can see on the side of someone's head."},
 
@@ -480,11 +480,11 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  ans:"She wears a t-shirt",
  hint:"In the context of clothing, 'usar' always means to wear."},
 
-{type:"fb", s:"O {1} está doendo — comi muito hoje.",
+{type:"fb", s:"O {1} está doendo, comi muito hoje.",
  a:["estômago"],
  opts:["estômago","coração","nariz","braço"],
  hint:"The digestive organ that hurts when you overeat.",
- sSrc:"My {1} is hurting — I ate too much today."},
+ sSrc:"My {1} is hurting. I ate too much today."},
 
 {type:"match", pairs:[
  {trg:"o nariz", src:"the nose"},
@@ -504,11 +504,11 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  ans:"o coração",
  hint:"This organ is universally linked to emotion and sincere feeling."},
 
-{type:"fb", s:"O {1} de Ana é muito bonito — ela cortou ontem.",
+{type:"fb", s:"O {1} de Ana é muito bonito, ela cortou ontem.",
  a:["cabelo"],
  opts:["cabelo","nariz","casaco","braço"],
  hint:"What grows on the top of your head.",
- sSrc:"Ana's {1} is very nice — she cut it yesterday."},
+ sSrc:"Ana's {1} is very nice, she cut it yesterday."},
 
 {type:"match", pairs:[
  {trg:"a camiseta", src:"the t-shirt"},

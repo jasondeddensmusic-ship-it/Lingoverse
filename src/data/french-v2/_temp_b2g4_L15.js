@@ -86,7 +86,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quel etablissement combine un cafe et un bureau de tabac ?",
-     opts:["un cafe-tabac","un cafe-concert","un amuse-gueule","un cigarillo"],
+     opts:["un cigarillo","un cafe-tabac","un cafe-concert","un amuse-gueule"],
      ans:"un cafe-tabac",
      hint:"Marked by a red diamond sign. They also sell stamps, lottery tickets, and phone cards."},
 
@@ -113,7 +113,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"Quelle sauce est faite avec du beurre, des oeufs et de l'estragon ?",
-     opts:["la bearnaise","la cagoule","la gabelle","la griffe"],
+     opts:["la gabelle","la griffe","la bearnaise","la cagoule"],
      ans:"la bearnaise",
      hint:"Named after a region in southwest France where King Henri IV was born."}
   ]

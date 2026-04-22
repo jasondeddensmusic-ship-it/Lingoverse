@@ -66,7 +66,7 @@ const LESSON_15 = {id:"esv2_b2g6_l15",title:"Industria y fabricación",icon:"�
  exampleSrc:"A: It was a very intelligent move by the company.\nB: They managed to get ahead of the competition.",
  funFact:"'Mala jugada' means a dirty trick. 'Buena jugada' means a clever move. Very common in business."},
 
-{type:"mc",q:"¿Qué es un joyero?",opts:["Un artesano que hace joyas o una caja para guardarlas","Un tipo de metal precioso","Un almacén de lujo","Un diseñador de moda"],ans:"Un artesano que hace joyas o una caja para guardarlas",hint:"Can mean both the person who works with jewelry and the box that holds it."},
+{type:"mc",q:"¿Qué es un joyero?",opts:["Un diseñador de moda","Un artesano que hace joyas o una caja para guardarlas","Un tipo de metal precioso","Un almacén de lujo"],ans:"Un artesano que hace joyas o una caja para guardarlas",hint:"Can mean both the person who works with jewelry and the box that holds it."},
 
 {type:"match",pairs:[
   {trg:"desplazamiento",src:"commute / displacement"},

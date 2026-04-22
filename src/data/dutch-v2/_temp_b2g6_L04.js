@@ -81,7 +81,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Wat is 'immaterieel cultureel erfgoed'?",
-     opts:["Niet-tastbare tradities en gebruiken","Oude gebouwen en monumenten","Schilderijen in musea","Archeologische vondsten"],
+     opts:["Archeologische vondsten","Niet-tastbare tradities en gebruiken","Oude gebouwen en monumenten","Schilderijen in musea"],
      ans:"Niet-tastbare tradities en gebruiken",
      hint:"Immaterieel means non-physical. Think of traditions, music, and customs rather than objects."},
 
@@ -101,7 +101,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Wat is de betekenis van 'ietwat'?",
-     opts:["Een beetje, enigszins","Helemaal niet","Heel erg veel","Precies juist"],
+     opts:["Heel erg veel","Precies juist","Een beetje, enigszins","Helemaal niet"],
      ans:"Een beetje, enigszins",
      hint:"A formal word combining 'iet' (something) and 'wat' (what). It softens a statement."}
   ]

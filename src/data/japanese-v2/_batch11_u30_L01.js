@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)のエッセイの構造(こうぞう)「起承転結(きしょうてんけつ)」は結論(けつろん)をどこに置(お)きますか？",
-     opts:["At the end","At the beginning","In the middle","There is no conclusion"],
+     opts:["There is no conclusion","At the end","At the beginning","In the middle"],
      ans:"At the end",
      hint:"Traditional Japanese essay structure builds up through introduction, development, turn, and then reaches the conclusion last."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"The essence of the problem is lack of communication."},
 
     {type:"mc", q:"「的(てき)」の接尾辞(せつびじ)はどんな役割(やくわり)ですか？",
-     opts:["Turns nouns into adjectives","Turns verbs into nouns","Makes words plural","Creates past tense"],
+     opts:["Makes words plural","Creates past tense","Turns nouns into adjectives","Turns verbs into nouns"],
      ans:"Turns nouns into adjectives",
      hint:"This suffix transforms abstract concepts into descriptive modifiers: 論理(ろんり) > 論理的(ろんりてき) (logical), 科学(かがく) > 科学的(かがくてき) (scientific)."}
   ,{type:"match",pairs:[{trg:"思考(しこう)",src:"thinking / thought process"},{trg:"論理(ろんり)",src:"logic / reasoning"},{trg:"矛盾(むじゅん)",src:"contradiction"},{trg:"哲学(てつがく)",src:"philosophy"},{trg:"価値観(かちかん)",src:"values / value system"}]}]

@@ -66,7 +66,7 @@ const LESSON_4 = {id:"esv2_b2gC_l4",title:"Comercio internacional",icon:"🌍",x
  exampleSrc:"A: The president's speech received a three-minute ovation.\nB: It was a very emotional moment for everyone.",
  funFact:"In ancient Rome, an ovatio was a lesser triumph. In Spanish, it always means enthusiastic applause."},
 
-{type:"mc",q:"¿Qué es una interconexión?",opts:["El estado de estar conectados entre sí","Una reunión de empresarios","Un tipo de exageración","Una ambición personal"],ans:"El estado de estar conectados entre sí",hint:"Think about networks or systems that are linked together."},
+{type:"mc",q:"¿Qué es una interconexión?",opts:["Una ambición personal","El estado de estar conectados entre sí","Una reunión de empresarios","Un tipo de exageración"],ans:"El estado de estar conectados entre sí",hint:"Think about networks or systems that are linked together."},
 
 {type:"fb",s:"Su mayor {1} es llegar a ser directora de la empresa.",a:["aspiración"],opts:["aspiración","exageración","ovación","congregación"],hint:"A deep personal ambition or hope for the future.",sSrc:"Her greatest {1} is to become the company's director."},
 

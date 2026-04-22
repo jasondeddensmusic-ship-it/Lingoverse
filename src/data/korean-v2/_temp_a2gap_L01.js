@@ -93,7 +93,7 @@ const LESSON_1 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"아침에 일어나서 얼굴을 씻는 것은?",
-     opts:["세수","목욕","샤워","빨래"],
+     opts:["빨래","세수","목욕","샤워"],
      ans:"세수",
      hint:"This word originally meant 'wash hands' in Chinese characters but now refers to the face."},
 
@@ -145,7 +145,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'위험'의 뜻은 무엇이에요?",
-     opts:["danger","health","strength","bath"],
+     opts:["strength","bath","danger","health"],
      ans:"danger",
      hint:"You see this word on warning signs near construction sites and steep cliffs."},
 
@@ -165,7 +165,7 @@ const LESSON_1 = {
     // --- Final quiz block ---
     {type:"mc",
      q:"스트레스를 받을 때 어떻게 해요?",
-     opts:["운동해요","담배를 많이 사요","세탁기를 써요","거울을 봐요"],
+     opts:["담배를 많이 사요","세탁기를 써요","거울을 봐요","운동해요"],
      ans:"운동해요",
      hint:"Think about a healthy way to release tension and feel better physically."},
 

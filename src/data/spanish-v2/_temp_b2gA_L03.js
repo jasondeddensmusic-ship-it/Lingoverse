@@ -1,4 +1,4 @@
-// Lesson 3 — Medio ambiente y clima
+// Lesson 3. Medio ambiente y clima
 const LESSON_3 = {id:"esv2_b2gA_l3", title:"Medio ambiente y clima", icon:"🌍", xp:15, board:true, steps:[
 {type:"intro", title:"Medio ambiente y clima", desc:"Discuss environmental issues, climate change, and sustainability with precise B2 vocabulary.", goals:["Learn 15 environmental terms","Debate climate and sustainability topics","Use formal register for ecological discussions"]},
 
@@ -57,7 +57,7 @@ const LESSON_3 = {id:"esv2_b2gA_l3", title:"Medio ambiente y clima", icon:"🌍"
  exampleSrc:"A: The satellite image is very sharp.\nB: You can perfectly see the changes in the glacier.",
  funFact:"From Latin nitidus (shining, bright). Related to English 'neat'."},
 
-{type:"mc", q:"¿Qué diferencia hay entre 'normativa' y 'norma'?", opts:["La normativa es un conjunto de normas, la norma es una sola regla","Son sinónimos exactos","La norma es más amplia que la normativa","La normativa es menos formal"], ans:"La normativa es un conjunto de normas, la norma es una sola regla",
+{type:"mc", q:"¿Qué diferencia hay entre 'normativa' y 'norma'?", opts:["La normativa es menos formal","La normativa es un conjunto de normas, la norma es una sola regla","Son sinónimos exactos","La norma es más amplia que la normativa"], ans:"La normativa es un conjunto de normas, la norma es una sola regla",
  hint:"Think about the relationship between a single rule and a whole body of rules."},
 
 {type:"fb", s:"Los bosques {1} el ecosistema con oxígeno y humedad.", a:["nutren"], opts:["nutren","absorben","normalizan","definen"],
@@ -94,7 +94,7 @@ const LESSON_3 = {id:"esv2_b2gA_l3", title:"Medio ambiente y clima", icon:"🌍"
  hint:"This adjective relates to weather forecasting and atmospheric science.",
  sSrc:"The {1} report predicts record temperatures this summer."},
 
-{type:"mc", q:"¿Qué significa 'nítido'?", opts:["Muy claro y definido","Muy pequeño","Muy ruidoso","Muy lento"], ans:"Muy claro y definido",
+{type:"mc", q:"¿Qué significa 'nítido'?", opts:["Muy ruidoso","Muy lento","Muy claro y definido","Muy pequeño"], ans:"Muy claro y definido",
  hint:"Think about a sharp, crystal-clear image with no blur."},
 
 {type:"drag_fill", s:"El {1} de reducción de emisiones es un {2} complejo.", blanks:{"1":"mecanismo","2":"proceso"}, pool:["mecanismo","proceso","nevado","nitrato"],

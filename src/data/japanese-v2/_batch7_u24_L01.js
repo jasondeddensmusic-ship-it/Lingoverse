@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"It was raining. {1}, many people came."},
 
     {type:"mc", q:"かならずしも is always used with:",
-     opts:["A negative verb form","A positive verb form","An adjective","A noun"],
+     opts:["A noun","A negative verb form","A positive verb form","An adjective"],
      ans:"A negative verb form",
      hint:"This word means 'not necessarily' and must pair with a n... to express the nuance."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"I thought about it a lot, but {1} stayed in Japan."},
 
     {type:"mc", q:"とはいえ makes the speaker sound:",
-     opts:["Fair-minded and balanced","Aggressive and confrontational","Unsure and confused","Emotional and biased"],
+     opts:["Unsure and confused","Emotional and biased","Fair-minded and balanced","Aggressive and confrontational"],
      ans:"Fair-minded and balanced",
      hint:"This connector acknowledges one truth while presenting another, showing nuanced thinking."},
 

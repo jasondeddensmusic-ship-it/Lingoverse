@@ -59,12 +59,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  sSrc:"It is very {1}! I don't need a jacket."},
 
 {type:"mc", q:"How do you say 'It is hot' in Brazilian Portuguese?",
- opts:["É quente","Está quente","Tem quente","Faz quente"],
+ opts:["Está quente","Tem quente","Faz quente","É quente"],
  ans:"Está quente",
  hint:"Use the temporary state verb for current weather conditions."},
 
 {type:"mc", q:"What does 'nublado' mean?",
- opts:["sunny","rainy","cloudy","windy"],
+ opts:["rainy","cloudy","windy","sunny"],
  ans:"cloudy",
  hint:"The root comes from the word for cloud."},
 
@@ -82,7 +82,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 ]},
 
 {type:"mc", q:"A friend says 'Está frio'. What do they mean?",
- opts:["It is raining","It is cold","It is sunny","It is windy"],
+ opts:["It is windy","It is raining","It is cold","It is sunny"],
  ans:"It is cold",
  hint:"The adjective is the opposite of quente."},
 
@@ -152,12 +152,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  sSrc:"It is going to {1} today. Take an umbrella."},
 
 {type:"mc", q:"Which is correct for 'It is raining'?",
- opts:["Eu chovo","Está chovendo","É chuva","Tem chovendo"],
+ opts:["Está chovendo","É chuva","Tem chovendo","Eu chovo"],
  ans:"Está chovendo",
  hint:"Use the progressive form of the impersonal weather verb."},
 
 {type:"mc", q:"What does 'o vento' mean?",
- opts:["the rain","the snow","the wind","the cloud"],
+ opts:["the snow","the wind","the cloud","the rain"],
  ans:"the wind",
  hint:"This word is related to English 'ventilation'."},
 
@@ -175,7 +175,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 ]},
 
 {type:"mc", q:"What is the difference between 'tempo' and 'clima'?",
- opts:["No difference","Tempo is now, clima is long-term","Clima is now, tempo is long-term","Both mean time only"],
+ opts:["Both mean time only","No difference","Tempo is now, clima is long-term","Clima is now, tempo is long-term"],
  ans:"Tempo is now, clima is long-term",
  hint:"One describes today's conditions, the other the general pattern of a place."},
 
@@ -186,7 +186,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  sSrc:"It is going to {1} tomorrow. Take an umbrella."},
 
 {type:"mc", q:"Which sentence is correct?",
- opts:["Eu chovo hoje","Ela chove","Está chovendo muito","Chovemos aqui"],
+ opts:["Chovemos aqui","Eu chovo hoje","Ela chove","Está chovendo muito"],
  ans:"Está chovendo muito",
  hint:"Weather verbs only exist in the third person singular."}
 ]},
@@ -238,12 +238,12 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  sSrc:"I like {1} because the flowers bloom in September."},
 
 {type:"mc", q:"When is summer in Brazil?",
- opts:["June to August","March to May","December to February","September to November"],
+ opts:["December to February","September to November","June to August","March to May"],
  ans:"December to February",
  hint:"Brazil is in the Southern Hemisphere, opposite to Europe and North America."},
 
 {type:"mc", q:"Which season is feminine?",
- opts:["verão","inverno","outono","primavera"],
+ opts:["outono","primavera","verão","inverno"],
  ans:"primavera",
  hint:"It ends in a and uses 'a' as its article."},
 
@@ -261,7 +261,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
 ]},
 
 {type:"mc", q:"How do you say 'in spring'?",
- opts:["no primavera","na primavera","em primavera","a primavera"],
+ opts:["a primavera","no primavera","na primavera","em primavera"],
  ans:"na primavera",
  hint:"This season is feminine, so use the feminine contraction of em with a."},
 
@@ -272,7 +272,7 @@ const UNIT_07 = {n:7, lang:"pt", srcLang:"en", track:"v2", title:"Como está o t
  sSrc:"In {1} it is cold and in summer it is hot."},
 
 {type:"mc", q:"What does 'estação' mean?",
- opts:["weather","climate","season","storm"],
+ opts:["storm","weather","climate","season"],
  ans:"season",
  hint:"This word refers to a period of the year, not the current conditions."}
 ,

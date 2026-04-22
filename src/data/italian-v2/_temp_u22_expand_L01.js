@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'Carnevale' literally mean?",
-     opts:["Dance of the masks","Farewell to meat (marking the start of Lent)","King of festivals","Feast of colors"],
+     opts:["Farewell to meat (marking the start of Lent)","King of festivals","Feast of colors","Dance of the masks"],
      ans:"Farewell to meat (marking the start of Lent)",
      hint:"From Latin 'carnem levare.' The festivities precede the fasting period. Venice's version dates back to the 11th century."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"The {1} goes through the historic center."},
 
     {type:"mc", q:"What do 'tradizione' and 'tradimento' have in common?",
-     opts:["Nothing at all, they are completely unrelated words","Both come from Latin 'tradere' (to hand over)","Both relate to food and cooking traditions","Both describe religious ceremonies"],
+     opts:["Both relate to food and cooking traditions","Both describe religious ceremonies","Nothing at all, they are completely unrelated words","Both come from Latin 'tradere' (to hand over)"],
      ans:"Both come from Latin 'tradere' (to hand over)",
      hint:"T... is what is handed down through generations. The other is handing someone over to the enemy. Same root, opposite meanings."}
   ]

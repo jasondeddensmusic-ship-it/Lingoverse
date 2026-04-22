@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Come si chiama il trasferimento di denaro da un conto bancario a un altro?",
-     opts:["Un mutuo","Un bonifico","Un prestito","Un dividendo"],
+     opts:["Un bonifico","Un prestito","Un dividendo","Un mutuo"],
      ans:"Un bonifico",
      hint:"An electronic money transfer between bank accounts. You need the recipient's IBAN code to complete one."},
 
@@ -102,7 +102,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Che differenza c'e tra un mutuo e un prestito?",
-     opts:["Non c'e differenza, sono la stessa cosa","Il mutuo e garantito da un immobile, il prestito di solito no","Il prestito dura piu a lungo del mutuo","Il mutuo non ha interessi"],
+     opts:["Il mutuo non ha interessi","Non c'e differenza, sono la stessa cosa","Il mutuo e garantito da un immobile, il prestito di solito no","Il prestito dura piu a lungo del mutuo"],
      ans:"Il mutuo e garantito da un immobile, il prestito di solito no",
      hint:"One is secured against property (a house or apartment), which the bank can claim if you default. The other is typically unsecured."}
   ]

@@ -1,4 +1,4 @@
-// L14: Urban Life & Infrastructure — 20 B2 gap words
+// L14: Urban Life & Infrastructure, 20 B2 gap words
 const LESSON_14 = {
   id:"nlv2_b2g4_l14", title:"Stad en Infrastructuur", icon:"\uD83C\uDFD9\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_14 = {
      deepDive:{title:"Why the Dutch cycle",
       text:"Dutch cycling culture is not about health or environment, though those are benefits. The flat landscape, short distances, and excellent infrastructure make cycling simply the fastest and cheapest option. Children cycle to school from age 4. Business people cycle in suits. The prime minister cycles to parliament. Cycling is deeply egalitarian: everyone does it, regardless of income or status."}},
     {type:"mc", q:"What is a 'fietsambtenaar'?",
-     opts:["a bicycle mechanic","a police officer on a bicycle","a government official for cycling policy","a cycling instructor"],
+     opts:["a government official for cycling policy","a cycling instructor","a bicycle mechanic","a police officer on a bicycle"],
      ans:"a government official for cycling policy",
      hint:"Compound: fiets (bicycle) + ambtenaar (civil servant). Plans c... infrastructure."},
     {type:"fb", s:"De gracht dreigt dicht te {1}.", a:["slibben"],
@@ -113,7 +113,7 @@ const LESSON_14 = {
      hint:"To become clogged with sediment. Amsterdam's canals need regular dredging.",
      sSrc:"The canal is in danger of silting up."},
     {type:"mc", q:"'Het gesprek had veel diepgang.' What does 'diepgang' mean here?",
-     opts:["speed","length","depth/profundity","volume"],
+     opts:["length","depth/profundity","volume","speed"],
      ans:"depth/profundity",
      hint:"From 'diep' (deep) + 'gang' (course). Used figuratively for intellectual d...."},
     {type:"fb", s:"De {1} van het bedrijf is in gevaar.", a:["continuïteit"],
@@ -131,7 +131,7 @@ const LESSON_14 = {
      hint:"A full day's work. Compound: dag (day) + taak (task).",
      sSrc:"Maintaining the house is a full day's work."},
     {type:"mc", q:"What does 'contextgebonden' mean?",
-     opts:["without context","context-dependent","contextual error","bound by contract"],
+     opts:["bound by contract","without context","context-dependent","contextual error"],
      ans:"context-dependent",
      hint:"Compound: c... + gebonden (bound). The meaning depends on the situation."},
     {type:"match", pairs:[

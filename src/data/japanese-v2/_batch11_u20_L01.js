@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"名刺(めいし)交換(こうかん)のとき、どうしますか？",
-     opts:["Present and receive with both hands","Throw it across the table","Write notes on it immediately","Put it in your pocket right away"],
+     opts:["Put it in your pocket right away","Present and receive with both hands","Throw it across the table","Write notes on it immediately"],
      ans:"Present and receive with both hands",
      hint:"This ritual has strict etiquette about how cards are physically handled. Respect for the card equals respect for the person."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Did you report to the president?"},
 
     {type:"mc", q:"日本(にほん)の「働(はたら)き方(かた)改革(かいかく)」は何(なに)をめざしていますか？",
-     opts:["Reducing overtime and improving work-life balance","Increasing production hours","Eliminating remote work","Raising retirement age"],
+     opts:["Eliminating remote work","Raising retirement age","Reducing overtime and improving work-life balance","Increasing production hours"],
      ans:"Reducing overtime and improving work-life balance",
      hint:"This Japanese policy movement aims to tackle excessive 残業(ざんぎょう) culture and create healthier employment conditions."}
   ,{type:"match",pairs:[{trg:"お先(さき)に失礼(しつれい)します",src:"excuse me for leaving before you"},{trg:"お世話(せわ)になっております",src:"I am in your care (business)"},{trg:"経験(けいけん)",src:"experience"},{trg:"責任(せきにん)",src:"responsibility"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"名刺(めいし)",src:"business card"}]}]

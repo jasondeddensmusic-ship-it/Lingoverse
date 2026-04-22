@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: The train stopped.\nB: It cannot be helped. Let us take a taxi.\nA: Do you go often?\nB: I go about once a month.",
      funFact:"しかたない (also しょうがない) is one of the most culturally revealing Japanese expressions. It reflects a philosophy of accepting what cannot be changed. After earthquakes, typhoons, and daily inconveniences, Japanese people say shikata nai. It is not defeatism but pragmatic acceptance, a core part of the gaman (endurance) mindset."},
 
-    {type:"mc", q:"こどもにおもちゃをこわされた means:", opts:["I broke the child's toy","The child broke a toy","I had my toy broken by the child","The toy was already broken"], ans:"I had my toy broken by the child",
+    {type:"mc", q:"こどもにおもちゃをこわされた means:", opts:["I had my toy broken by the child","The toy was already broken","I broke the child's toy","The child broke a toy"], ans:"I had my toy broken by the child",
      hint:"Adversity passive: the speaker is the victim. に marks who did it, を marks what was affected."},
 
     {type:"teach", trg:"すわられる", src:"to have one's seat sat in", pos:"verb", gender:null,

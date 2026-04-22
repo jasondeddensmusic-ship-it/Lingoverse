@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 4: Inequality and Misfortune
+// Korean B2. Batch 5, Lesson 4: Inequality and Misfortune
 // Words: 분필, 불가피하다, 불과, 불과하다, 불구하다, 불꽃, 불러일으키다, 불리하다, 불법, 불쌍하다, 불어오다, 불완전하다, 불이익, 불편, 불평, 불평등하다, 불필요하다, 불행, 불행하다, 불확실하다
 
 const LESSON_4 = {

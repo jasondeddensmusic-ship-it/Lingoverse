@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: I brought a lost item to the police box.\nB: Thank you. We will search for the owner.",
      funFact:"届(とど)ける covers both physical delivery and official reporting. 被害届(ひがいとどけ) (damage report), 転入届(てんにゅうとどけ) (move-in notification), and 婚姻届(こんいんとどけ) (marriage registration) all use 届(とど)け. Japan's civic responsibility culture means people routinely 届(とど)ける lost items."},
 
-    {type:"mc", q:"救急車(きゅうきゅうしゃ) is:", opts:["An ambulance","A police car","A fire truck","A taxi"], ans:"An ambulance",
+    {type:"mc", q:"救急車(きゅうきゅうしゃ) is:", opts:["A taxi","An ambulance","A police car","A fire truck"], ans:"An ambulance",
      hint:"This emergency vehicle carries sick or injured people to the hospital."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"{1}！車(くるま)が来(き)ます！\n(Watch out! A car is coming!)", a:"危(あぶ)ない", opts:["危(あぶ)ない","熱(あつ)い","痛(いた)い","怖(こわ)い"], sSrc:"Watch out! A car is coming!",
      hint:"This word serves as both an adjective (dangerous) and a warning shout."},
 
-    {type:"mc", q:"届(とど)ける can mean:", opts:["Both to deliver and to report","Only to deliver","Only to report","To steal"], ans:"Both to deliver and to report",
+    {type:"mc", q:"届(とど)ける can mean:", opts:["Only to report","To steal","Both to deliver and to report","Only to deliver"], ans:"Both to deliver and to report",
      hint:"This versatile verb covers physical delivery and official notification."}
   ,{type:"match",pairs:[{trg:"事件(じけん)",src:"incident / case / crime"},{trg:"無(な)くす",src:"to lose (an item)"},{trg:"倒(たお)れる",src:"to collapse / to fall down"},{trg:"救急車(きゅうきゅうしゃ)",src:"ambulance"},{trg:"捕(つか)まえる",src:"to catch / to capture"},{trg:"届(とど)ける",src:"to deliver / to report / to notify"}]},
   {type:"fb", s:"駅(えき)で誰(だれ)かが私(わたし)の財布(さいふ)を{1}ました。", a:["盗(ぬす)む"], opts:["盗(ぬす)む","無(な)くす","壊(こわ)れる","倒(たお)れる"], hint:"The verb for taking something that belongs to someone else without permission.", sSrc:"Someone {1} my wallet at the station."}

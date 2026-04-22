@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 15: Intentie & Actie
+// B2 Gap Batch A. Lesson 15: Intentie & Actie
 // Theme: Intentions, plans, actions
 
 const LESSON_15 = {id:"nlv2_b2gA_l15", title:"Intentie & Actie", icon:"\u{1F3AF}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_15 = {id:"nlv2_b2gA_l15", title:"Intentie & Actie", icon:"\u{1F3AF}
    sSrc:"The effort of the volunteers was amazing."},
 
   {type:"mc", q:"Het festival heeft een internationale inslag. Wat is 'inslag'?",
-   opts:["character, approach","impact crater","entrance fee","ticket price"],
+   opts:["ticket price","character, approach","impact crater","entrance fee"],
    ans:"character, approach",
    hint:"The nature or c... of something. What kind of 'flavour' it has."},
 
@@ -77,7 +77,7 @@ const LESSON_15 = {id:"nlv2_b2gA_l15", title:"Intentie & Actie", icon:"\u{1F3AF}
   ]},
 
   {type:"mc", q:"Het volgende item gaat over de woningmarkt. Wat is een 'item'?",
-   opts:["a specific segment in a programme","a shopping product","a news headline","a commercial break"],
+   opts:["a news headline","a commercial break","a specific segment in a programme","a shopping product"],
    ans:"a specific segment in a programme",
    hint:"From English. A distinct part of a broadcast, meeting agenda, or list."},
 

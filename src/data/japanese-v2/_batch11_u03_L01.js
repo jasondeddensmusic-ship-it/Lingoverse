@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「茶色(ちゃいろ)」の茶(ちゃ)はなんですか？",
-     opts:["Tea","Chocolate","Wood","Earth"],
+     opts:["Earth","Tea","Chocolate","Wood"],
      ans:"Tea",
      hint:"This color is literally named after a Japanese beverage. Think about what 茶(ちゃ) means."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Please give me the green T-shirt."},
 
     {type:"mc", q:"むかし、日本(にほん)でもっとも高貴(こうき)な人(ひと)の色(いろ)はなんでしたか？",
-     opts:["Purple","Gold","Red","White"],
+     opts:["Red","White","Purple","Gold"],
      ans:"Purple",
      hint:"This color was reserved for the highest-ranking nobles in ancient Japan. Think about which color had the most prestige."}
   ,{type:"match",pairs:[{trg:"色(いろ)",src:"color"},{trg:"青(あお)い",src:"blue / green"},{trg:"ピンク",src:"pink"},{trg:"紫(むらさき)",src:"purple"},{trg:"オレンジ",src:"orange (color)"}]}]

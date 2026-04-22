@@ -1,4 +1,4 @@
-// Russian V2 Unit 16 — Introduction to Cases (B1.2)
+// Russian V2 Unit 16. Introduction to Cases (B1.2)
 const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи", sub:"Cases: The Big Picture",
  icon:"🎯", level:"B1.2", color:"#7B5EE8",
  lessons:[
@@ -6,26 +6,26 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {id:"ruv2_u16l1", title:"Six Cases", icon:"🎯", xp:15, board:true, steps:[
 
 {type:"intro", title:"Russian's 6 Cases",
- desc:"Russian marks nouns with 6 cases — each showing grammatical role. Case endings replace word order in English. This unit introduces all 6 with core questions and examples.",
+ desc:"Russian marks nouns with 6 cases, each showing grammatical role. Case endings replace word order in English. This unit introduces all 6 with core questions and examples.",
  goals:["Know all 6 case names","Know each case's core function","Recognize case patterns in texts"]},
 
 {type:"teach", trg:"именительный", src:"nominative (subject)", pos:"noun", gender:"m",
  note:"Case for subjects. Question: кто? что?\nThe dictionary form of nouns.",
  example:"A: Кто это?\nB: Это Анна.",
  exampleSrc:"A: Who is this?\nB: This is Anna.",
- funFact:"Nominative (именительный) literally 'naming case' — because it NAMES things. All dictionary forms are nominative. This is your baseline case."},
+ funFact:"Nominative (именительный) literally 'naming case', because it NAMES things. All dictionary forms are nominative. This is your baseline case."},
 
 {type:"teach", trg:"винительный", src:"accusative (direct object)", pos:"noun", gender:"m",
  note:"Case for direct objects. Question: кого? что?\nFeminine -а → -у, masculine inanimate = nominative.",
  example:"A: Я вижу Анну.\nB: Здорово!",
  exampleSrc:"A: I see Anna. (accusative)\nB: Great!",
- funFact:"Accusative (винительный) shares root with вина (blame/guilt) — the 'blamed/accused' case. It's the thing the action is done TO."},
+ funFact:"Accusative (винительный) shares root with вина (blame/guilt), the 'blamed/accused' case. It's the thing the action is done TO."},
 
 {type:"teach", trg:"родительный", src:"genitive (of/from)", pos:"noun", gender:"m",
  note:"Case of possession, absence, quantity. Question: кого? чего?\nFeminine -а → -ы, masculine → -а.",
  example:"A: Это книга Анны.\nB: Да, её.",
  exampleSrc:"A: This is Anna's book.\nB: Yes, hers.",
- funFact:"Genitive (родительный) means 'birthing case' — the source/origin. Used for 'from' (из России — from Russia) and 'of' (книга Анны — book of Anna)."},
+ funFact:"Genitive (родительный) means 'birthing case', the source/origin. Used for 'from' (из России, from Russia) and 'of' (книга Анны, book of Anna)."},
 
 {type:"teach", trg:"дательный", src:"dative (to/for)", pos:"noun", gender:"m",
  note:"Case for indirect objects. Question: кому? чему?\nFeminine -а → -е, masculine → -у.",
@@ -50,16 +50,16 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  icon:"🎯"},
 
 {type:"mc", q:"Which case is the subject of a sentence?",
- opts:["Genitive","Nominative","Accusative","Dative"],
+ opts:["Nominative","Accusative","Dative","Genitive"],
  ans:"Nominative",
- hint:"The 'naming' case — what you find in the dictionary."},
+ hint:"The 'naming' case, what you find in the dictionary."},
 
-{type:"mc", q:"'I talk ABOUT my friend' — which case does друг take?",
- opts:["Nominative","Genitive","Dative","Prepositional"],
+{type:"mc", q:"'I talk ABOUT my friend', which case does друг take?",
+ opts:["Dative","Prepositional","Nominative","Genitive"],
  ans:"Prepositional",
  hint:"'About' = О + ___ case. The ___ only appears after prepositions."},
 
-{type:"fb", s:"Анна — это {1} падеж.",
+{type:"fb", s:"Анна, это {1} падеж.",
  a:["именительный"],
  opts:["именительный","родительный","дательный","творительный"],
  hint:"'Анна' without any preposition, as the subject = which case?",
@@ -78,7 +78,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {id:"ruv2_u16l2", title:"Case Endings (Feminine)", icon:"♀", xp:15, board:true, steps:[
 
 {type:"intro", title:"Feminine Noun Endings",
- desc:"Start with feminine nouns — mostly end in -а. Each case changes the ending. Book = книга.",
+ desc:"Start with feminine nouns, mostly end in -а. Each case changes the ending. Book = книга.",
  goals:["Learn feminine case endings","Apply to common words","Recognize case in texts"]},
 
 {type:"teach", trg:"книга", src:"book (NOM)", pos:"noun", gender:"f",
@@ -112,29 +112,29 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  funFact:"Instrumental -ой often appears in means/tools: рукой (by hand), карандашом (with pencil). Also used with 'с' (with) preposition."},
 
 {type:"tip", title:"Feminine Case Summary",
- text:"FEMININE NOUN ENDING IN -А (КНИГА):\n\nCase       | Ending | Example\n-----------|--------|--------\nNom        | -а     | книга\nAcc        | -у     | книгу\nGen        | -ы/-и  | книги\nDat        | -е     | книге\nIns        | -ой    | книгой\nPrep       | -е     | книге\n\nONLY 5 DISTINCT FORMS (Dat and Prep are the same!).\n\nFor practice, say книга in all cases:\nЭто КНИГА. (This is a book.)\nЯ читаю КНИГУ. (I read a book.)\nВ комнате нет КНИГИ. (In the room is no book.)\nЯ дал КНИГЕ обложку. (I gave the book a cover.)\nЯ пишу КНИГОЙ. (I write with a book — unusual but grammatically valid.)\nЯ думаю о КНИГЕ. (I think about the book.)",
+ text:"FEMININE NOUN ENDING IN -А (КНИГА):\n\nCase       | Ending | Example\n-----------|--------|--------\nNom        | -а     | книга\nAcc        | -у     | книгу\nGen        | -ы/-и  | книги\nDat        | -е     | книге\nIns        | -ой    | книгой\nPrep       | -е     | книге\n\nONLY 5 DISTINCT FORMS (Dat and Prep are the same!).\n\nFor practice, say книга in all cases:\nЭто КНИГА. (This is a book.)\nЯ читаю КНИГУ. (I read a book.)\nВ комнате нет КНИГИ. (In the room is no book.)\nЯ дал КНИГЕ обложку. (I gave the book a cover.)\nЯ пишу КНИГОЙ. (I write with a book, unusual but grammatically valid.)\nЯ думаю о КНИГЕ. (I think about the book.)",
  icon:"♀"},
 
-{type:"mc", q:"'I read a book' — what ending for книга?",
- opts:["-а (NOM)","-у (ACC)","-ы (GEN)","-ой (INS)"],
+{type:"mc", q:"'I read a book', what ending for книга?",
+ opts:["-у (ACC)","-ы (GEN)","-ой (INS)","-а (NOM)"],
  ans:"-у (ACC)",
  hint:"Direct object = accusative. Feminine -а → -у."},
 
-{type:"mc", q:"'I don't have a book' — what case?",
- opts:["Nominative","Accusative","Genitive","Dative"],
+{type:"mc", q:"'I don't have a book', what case?",
+ opts:["Accusative","Genitive","Dative","Nominative"],
  ans:"Genitive",
  hint:"Absence/lacking = ___. 'Нет книги' (not книга, not книгу)."},
 
 {type:"fb", s:"Я читаю интересную {1}.",
  a:["книгу"],
  opts:["книгу","книга","книги","книге"],
- hint:"Direct object of читать — accusative ending.",
+ hint:"Direct object of читать, accusative ending.",
  sSrc:"I am reading an interesting book."},
 
 {type:"fb", s:"У меня нет этой {1}.",
  a:["книги"],
  opts:["книги","книга","книгу","книге"],
- hint:"After 'нет' (not/no) — genitive case.",
+ hint:"After 'нет' (not/no), genitive case.",
  sSrc:"I don't have this book."},
 
 {type:"match", pairs:[
@@ -162,7 +162,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  note:"Negative possession.\nУ + gen + нет + GENITIVE (not nominative!).",
  example:"A: У тебя есть книга?\nB: Нет, у меня нет книги.",
  exampleSrc:"A: Do you have a book?\nB: No, I don't have a book.",
- funFact:"Switch from 'есть книга' (nom) to 'нет книги' (gen). Russian genitive of negation — the absent thing is in genitive. This catches learners."},
+ funFact:"Switch from 'есть книга' (nom) to 'нет книги' (gen). Russian genitive of negation, the absent thing is in genitive. This catches learners."},
 
 {type:"teach", trg:"в школе", src:"at school (PREP)", pos:"phrase", gender:null,
  note:"В + prepositional case.\nШкола → школе.",
@@ -197,15 +197,15 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
 {type:"tip", title:"Preposition + Case Chart",
  text:"KEY PREPOSITIONS AND THEIR CASES:\n\nGENITIVE:\n• из (from): из России, из книги.\n• от (from a person): от друга.\n• для (for): для мамы.\n• без (without): без сахара.\n• у (at someone's place, 'have'): у меня.\n\nDATIVE:\n• к (toward): к другу.\n• по (along, on): по улице.\n\nACCUSATIVE:\n• в (into): в школу (motion).\n• на (onto): на стол.\n• через (through/in time): через час.\n\nINSTRUMENTAL:\n• с (with): с мамой.\n• над (over), под (under): над столом.\n• за (behind): за домом.\n\nPREPOSITIONAL:\n• в (in): в школе (location).\n• на (on): на столе.\n• о (about): о маме.\n• при (at, in the presence of): при мне.\n\nMEMORIZE THE CASE EACH PREPOSITION TAKES. This unlocks most Russian.",
  deepDive:{title:"Why Russian Has Cases",
-  text:"English traded case endings for word order. Russian kept cases and gained word order freedom. Russian can say 'книгу Анна читает' or 'читает книгу Анна' or 'Анна книгу читает' — meaning is preserved by the case endings. This flexibility allows emphasis shifts through word reordering without grammar change."}},
+  text:"English traded case endings for word order. Russian kept cases and gained word order freedom. Russian can say 'книгу Анна читает' or 'читает книгу Анна' or 'Анна книгу читает', meaning is preserved by the case endings. This flexibility allows emphasis shifts through word reordering without grammar change."}},
 
-{type:"mc", q:"'Я иду К ___' — what case?",
- opts:["Nominative","Accusative","Dative","Prepositional"],
+{type:"mc", q:"'Я иду К ___', what case?",
+ opts:["Dative","Prepositional","Nominative","Accusative"],
  ans:"Dative",
  hint:"К always takes ___. К + person's ___ form."},
 
 {type:"mc", q:"Which preposition takes the instrumental?",
- opts:["в","к","с","из"],
+ opts:["к","с","из","в"],
  ans:"с",
  hint:"'С' (with) + instrumental. С мамой, с сахаром, с книгой."},
 
@@ -258,19 +258,19 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  note:"Feminine noun.\nЭкономика страны = the country's economy. Рыночная экономика = market economy.",
  example:"A: Как наша экономика?\nB: Она нормальная.",
  exampleSrc:"A: How is our economy?\nB: It's okay.",
- funFact:"From Greek oikonomia (household management). The same root is in 'ecology' (oikos = house). Russian экономить means 'to save/economize' — directly from the same stem."},
+ funFact:"From Greek oikonomia (household management). The same root is in 'ecology' (oikos = house). Russian экономить means 'to save/economize', directly from the same stem."},
 
 {type:"teach", trg:"образование", src:"education", pos:"noun", gender:"n",
  note:"Neuter noun (-ание ending = always neuter).\nВысшее образование = higher education. Среднее образование = secondary education.",
  example:"A: Образование важно для общества.\nB: Согласен.",
  exampleSrc:"A: Education is important for society.\nB: I agree.",
- funFact:"From образовать (to form/shape). Literally 'formation' — the same root as образ (image/form). Russian school types: школа (secondary), университет (university)."},
+ funFact:"From образовать (to form/shape). Literally 'formation', the same root as образ (image/form). Russian school types: школа (secondary), университет (university)."},
 
 {type:"teach", trg:"развитие", src:"development", pos:"noun", gender:"n",
  note:"Neuter noun (-ие ending = neuter).\nЭкономическое развитие = economic development. Развитие ребёнка = child development.",
- example:"A: Развитие — это хорошо.\nB: Да, очень.",
+ example:"A: Развитие, это хорошо.\nB: Да, очень.",
  exampleSrc:"A: Development is good.\nB: Yes, very much.",
- funFact:"From развивать (to develop/unfold). The root вить means 'to wind/coil' — development as an unrolling or expansion. Развитие страны is a common phrase in political speeches."},
+ funFact:"From развивать (to develop/unfold). The root вить means 'to wind/coil', development as an unrolling or expansion. Развитие страны is a common phrase in political speeches."},
 
 {type:"teach", trg:"решение", src:"solution / decision", pos:"noun", gender:"n",
  note:"Neuter noun (-ение ending = neuter).\nПринять решение = to make a decision. Найти решение = to find a solution.",
@@ -283,7 +283,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  icon:"📐"},
 
 {type:"mc", q:"Which word means 'to propose / suggest' (imperfective)?",
- opts:["объяснять","предлагать","развитие","решение"],
+ opts:["предлагать","развитие","решение","объяснять"],
  ans:"предлагать",
  hint:"The imperfective verb 'to put something forward for consideration.'"},
 
@@ -338,7 +338,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  note:"Neuter. Оказать влияние = to exert influence.\nВлиять на + ACC = to influence.",
  example:"A: Какое влияние у этой книги?\nB: Большое влияние.",
  exampleSrc:"A: What influence does this book have?\nB: Great influence.",
- funFact:"Влияние shares its root with 'вливать' (to pour in) — literally 'pouring' of one thing into another."},
+ funFact:"Влияние shares its root with 'вливать' (to pour in), literally 'pouring' of one thing into another."},
 {type:"teach", trg:"точка зрения", src:"point of view / perspective", pos:"noun", gender:"f",
  phonetic:"tochka zreniya",
  note:"Feminine phrase: точка (point) + зрения (of vision).\nС моей точки зрения = from my perspective.",
@@ -347,22 +347,22 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  funFact:"Russian argumentative essays always open with a 'точка зрения' in the introduction. A direct calque of 'point of view.'"},
 {type:"teach", trg:"однако", src:"however", pos:"conj", gender:null,
  phonetic:"odnako",
- note:"Formal connector — more academic than но.\nUsed at sentence start or in the middle.",
+ note:"Formal connector, more academic than но.\nUsed at sentence start or in the middle.",
  example:"A: План хороший. Однако, это очень дорого.\nB: Мы согласны.",
  exampleSrc:"A: The plan is good. However, it is very expensive.\nB: We agree.",
- funFact:"Formal academic and journalistic Russian prefers 'однако' over 'но' — the latter is conversational while the former belongs in written argument."},
+ funFact:"Formal academic and journalistic Russian prefers 'однако' over 'но', the latter is conversational while the former belongs in written argument."},
 {type:"teach", trg:"следовательно", src:"therefore / consequently", pos:"adv", gender:null,
  phonetic:"sledovatel'no",
  note:"Formal adverb introducing a logical conclusion.\nSynonyms: поэтому (more casual), значит (conversational).",
  example:"A: Мы хотим помочь. Следовательно, мы работаем.\nB: Правильно.",
  exampleSrc:"A: We want to help. Therefore, we work.\nB: Correct.",
- funFact:"Следовательно comes from 'следовать' (to follow) — 'it follows that.' Standard marker of valid inference in Russian logic and law."},
+ funFact:"Следовательно comes from 'следовать' (to follow), 'it follows that.' Standard marker of valid inference in Russian logic and law."},
 {type:"teach", trg:"важный", src:"important", pos:"adj", gender:"m",
  phonetic:"vazhnyy",
  note:"Masculine. Feminine: важная. Plural: важные.\nCore descriptive adjective.",
  example:"A: Это важный вопрос?\nB: Да, очень важный.",
  exampleSrc:"A: Is this an important question?\nB: Yes, very important.",
- funFact:"Важный shares its root with вес (weight) — important things have 'weight' in Russian thinking."},
+ funFact:"Важный shares its root with вес (weight), important things have 'weight' in Russian thinking."},
 {type:"teach", trg:"серьёзный", src:"serious", pos:"adj", gender:"m",
  phonetic:"ser'yoznyy",
  note:"Masculine. Feminine: серьёзная. Plural: серьёзные.\nBoth for people and situations.",
@@ -370,9 +370,9 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  exampleSrc:"A: Is this a serious question?\nB: Yes, very serious.",
  funFact:"Серьёзный entered Russian via French 'sérieux' in the 18th century. Core B1 vocabulary for everyday speech about character and important matters."},
 {type:"tip", title:"Academic Russian: Formal Connectors",
- text:"B1 academic Russian uses formal connectors:\n\nоднако — however (vs spoken 'но')\nследовательно — therefore (vs spoken 'поэтому')\nнесмотря на — despite\n\nTRKI B1 writing rewards this register.",
+ text:"B1 academic Russian uses formal connectors:\n\nоднако, however (vs spoken 'но')\nследовательно, therefore (vs spoken 'поэтому')\nнесмотря на, despite\n\nTRKI B1 writing rewards this register.",
  deepDive:{title:"Гипотеза and доказательство pair",
-  text:"Russian academic argument pattern: 'Моя гипотеза — X. Доказательство показывает Y.' (My hypothesis is X. The evidence shows Y.)"}},
+  text:"Russian academic argument pattern: 'Моя гипотеза. X. Доказательство показывает Y.' (My hypothesis is X. The evidence shows Y.)"}},
 {type:"mc", q:"Какое слово означает 'hypothesis'?",
  opts:["гипотеза","доказательство","влияние","точка зрения"],
  ans:"гипотеза",
@@ -382,7 +382,7 @@ const UNIT_16 = {n:16, lang:"ru", srcLang:"en", track:"v2", title:"Падежи"
  ans:"однако",
  hint:"Formal writing choice; literally means 'one-like.'"},
 {type:"fb", s:"Моя {1} простая.", a:"гипотеза", opts:["гипотеза","точка","проблема","работа"],
- hint:"Feminine noun — your starting proposition.", sSrc:"My {1} is simple."},
+ hint:"Feminine noun, your starting proposition.", sSrc:"My {1} is simple."},
 {type:"fb", s:"План хороший. {1}, это дорого.", a:"однако", opts:["однако","но","поэтому","значит"],
  hint:"Formal connector meaning 'however.'", sSrc:"The plan is good. {1}, it is expensive."},
 {type:"fb", s:"Это {1} вопрос.", a:"серьёзный", opts:["серьёзный","простой","новый","быстрый"],

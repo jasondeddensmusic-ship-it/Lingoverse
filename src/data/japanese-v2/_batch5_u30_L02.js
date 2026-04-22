@@ -63,7 +63,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"桜(さくら)の花(はな)を見(み)ると、{1}を感(かん)じます。\n(When I see cherry blossoms, I feel the pathos of things.)", a:"もののあわれ", opts:["もののあわれ","わびさび","いき","ま"], sSrc:"When I see cherry blossoms, I feel the pathos of things.",
      hint:"The aesthetic concept of bittersweet beauty in impermanence, associated with Heian literature."},
 
-    {type:"mc", q:"ま in Japanese aesthetics refers to:", opts:["Meaningful negative space, silence, and intervals","Bright decoration","Complex patterns","Loud sounds"], ans:"Meaningful negative space, silence, and intervals",
+    {type:"mc", q:"ま in Japanese aesthetics refers to:", opts:["Loud sounds","Meaningful negative space, silence, and intervals","Bright decoration","Complex patterns"], ans:"Meaningful negative space, silence, and intervals",
      hint:"This concept values the empty s... between things as much as the things themselves."},
 
     {type:"match", pairs:[{trg:"わびさび",src:"beauty in imperfection"},{trg:"もののあわれ",src:"pathos of impermanence"},{trg:"粋(いき)",src:"chic refinement"},{trg:"無常(むじょう)",src:"impermanence (Buddhist)"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"日本文化(にほんぶんか)では{1}が重(おも)んじられています。\n(Harmony is valued in Japanese culture.)", a:"調和(ちょうわ)", opts:["調和(ちょうわ)","対立(たいりつ)","競争(きょうそう)","分離(ぶんり)"], sSrc:"Harmony is valued in Japanese culture.",
      hint:"The concept of balance and accord, using kanji for 'tune' and 'peace/Japan.'"},
 
-    {type:"mc", q:"Prince Shotoku's constitution begins with:", opts:["Harmony is to be valued","Justice is supreme","The emperor is god","War is inevitable"], ans:"Harmony is to be valued",
+    {type:"mc", q:"Prince Shotoku's constitution begins with:", opts:["The emperor is god","War is inevitable","Harmony is to be valued","Justice is supreme"], ans:"Harmony is to be valued",
      hint:"The first article emphasizes the core Japanese value of わ (h.../peace)."}
   ,{type:"match",pairs:[{trg:"間(ま)",src:"negative space / pause / interval"},{trg:"美意識(びいしき)",src:"aesthetic sense / sense of beauty"},{trg:"余白(よはく)",src:"blank space / margin / negative space (in art)"}]}]
 };

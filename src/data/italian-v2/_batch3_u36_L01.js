@@ -1,4 +1,4 @@
-// Batch 3 — Unit 36 Lesson (Comprehensive Review: Exam Strategies & Advanced Writing)
+// Batch 3. Unit 36 Lesson (Comprehensive Review: Exam Strategies & Advanced Writing)
 const BATCH3_L_1 = {
   id:"itv2_u36l_b3_1", title:"Strategie d'esame", icon:"📋", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e la 'scaletta' nella scrittura accademica italiana?",
-     opts:["Un tipo di grafico usato per visualizzare i dati statistici","Una scheda di valutazione usata dagli esaminatori per assegnare i punteggi","Un piano strutturato dei contenuti del saggio prima della stesura","Una lista di parole chiave da memorizzare per l'esame orale"],
+     opts:["Un piano strutturato dei contenuti del saggio prima della stesura","Una lista di parole chiave da memorizzare per l'esame orale","Un tipo di grafico usato per visualizzare i dati statistici","Una scheda di valutazione usata dagli esaminatori per assegnare i punteggi"],
      ans:"Un piano strutturato dei contenuti del saggio prima della stesura",
      hint:"A structured plan prepared before writing. Like climbing a ladder (scala) step by step toward your conclusion."},
 
@@ -99,7 +99,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Quale connettivo introduce l'ultimo punto importante di un'argomentazione?",
-     opts:["Pertanto","In primo luogo","Non da ultimo","D'altra parte"],
+     opts:["In primo luogo","Non da ultimo","D'altra parte","Pertanto"],
      ans:"Non da ultimo",
      hint:"Used to introduce the final point while emphasizing it is not the least important. A rhetorical crescendo device."},
 
@@ -120,7 +120,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che livello linguistico deve raggiungere un candidato CILS B2 secondo il QCER?",
-     opts:["Utente base: può comprendere frasi semplici e di uso quotidiano","Utente indipendente: può interagire con parlanti nativi senza sforzo e argomentare su temi complessi","Utente avanzato: può tradurre testi letterari e tenere conferenze accademiche","Madrelingua: nessuna differenza con un parlante nativo in qualsiasi contesto"],
+     opts:["Madrelingua: nessuna differenza con un parlante nativo in qualsiasi contesto","Utente base: può comprendere frasi semplici e di uso quotidiano","Utente indipendente: può interagire con parlanti nativi senza sforzo e argomentare su temi complessi","Utente avanzato: può tradurre testi letterari e tenere conferenze accademiche"],
      ans:"Utente indipendente: può interagire con parlanti nativi senza sforzo e argomentare su temi complessi",
      hint:"B2 is the 'independent user' level. You can handle complex topics, argue positions, and interact fluently with native speakers."}
   ,{type:"match",pairs:[{trg:"il paragrafo",src:"the paragraph"},{trg:"il lessico specifico",src:"specialized vocabulary"},{trg:"in conclusione",src:"in conclusion"},{trg:"a tal proposito",src:"in this regard / on this matter"},{trg:"il quesito",src:"the question / item (on a test)"},{trg:"la competenza linguistica",src:"linguistic competence"}]}]

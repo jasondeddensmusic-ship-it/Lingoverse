@@ -1,4 +1,4 @@
-// Korean V2 B1 Gap Lesson 12 — Thought, Memory, and Perception
+// Korean V2 B1 Gap Lesson 12. Thought, Memory, and Perception
 // 20 teach cards + interleaved quizzes. Max 30 steps.
 
 const LESSON_12 = {
@@ -36,7 +36,7 @@ const LESSON_12 = {
     // ── Quiz batch 1 ──
     {type:"mc",
      q:"갑자기 좋은 아이디어가 ___.",
-     opts:["떠올렸어요","떠올랐어요","머릿속이에요","마음속이에요"],
+     opts:["떠올랐어요","머릿속이에요","마음속이에요","떠올렸어요"],
      ans:"떠올랐어요",
      hint:"A good idea suddenly surfaced on its own. Which intransitive verb describes this?"},
 
@@ -96,7 +96,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"유리컵이 바닥에 떨어져서 ___.",
-     opts:["깼어요","닮았어요","고려했어요","깨졌어요"],
+     opts:["고려했어요","깨졌어요","깼어요","닮았어요"],
      ans:"깨졌어요",
      hint:"The glass cup fell and shattered. Which passive verb means to be broken?"},
 
@@ -194,7 +194,7 @@ const LESSON_12 = {
     // ── Final quiz batch ──
     {type:"mc",
      q:"처음 가는 곳은 ___어요.",
-     opts:["낯설","귀여워","건져","고려해"],
+     opts:["건져","고려해","낯설","귀여워"],
      ans:"낯설",
      hint:"A place you visit for the first time feels strange or unfamiliar. Which adjective describes this?"},
 
@@ -207,7 +207,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"고개를 끄덕이면 무슨 뜻이에요?",
-     opts:["반대한다는 뜻이에요","동의한다는 뜻이에요","모른다는 뜻이에요","화가 났다는 뜻이에요"],
+     opts:["모른다는 뜻이에요","화가 났다는 뜻이에요","반대한다는 뜻이에요","동의한다는 뜻이에요"],
      ans:"동의한다는 뜻이에요",
      hint:"Nodding your head is a universal gesture. What does it communicate in Korean culture?"}
   ]

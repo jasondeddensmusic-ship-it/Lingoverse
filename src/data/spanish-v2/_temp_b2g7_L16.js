@@ -13,7 +13,7 @@ const LESSON_16 = {id:"esv2_b2g7_l16",title:"Economía y comercio",icon:"📈",x
 {type:"teach",trg:"logístico",src:"logistical",pos:"adj",gender:null,note:"Relating to logistics. Recycled from Lesson 6.",example:"A: Los problemas logísticos retrasaron la entrega.\nB: Necesitamos una solución logística urgente.",exampleSrc:"A: The logistical problems delayed the delivery.\nB: We need an urgent logistical solution.",funFact:"Spain's main logístico hub is the 'corredor del Henares' (Madrid-Guadalajara), where Amazon and DHL have massive warehouses."},
 {type:"mc",q:"El PIB mide:",opts:["El valor total de bienes y servicios producidos","El número de empleados","La cantidad de dinero en circulación","Los votos en las elecciones"],ans:"El valor total de bienes y servicios producidos",hint:"This three-letter abbreviation stands for Producto Interior Bruto."},
 {type:"fb",s:"Los datos {1} de este trimestre muestran crecimiento.",a:["macroeconómicos"],opts:["macroeconómicos","logísticos","idiomáticos","legislativos"],hint:"This adjective relates to the economy as a whole, including GDP and inflation.",sSrc:"The {1} data for this quarter shows growth."},
-{type:"mc",q:"En auditoría, la 'materialidad' determina:",opts:["Qué errores son lo suficientemente grandes para investigar","El color de los informes","La fecha de las reuniones","El número de empleados"],ans:"Qué errores son lo suficientemente grandes para investigar",hint:"Materiality is a threshold that divides significant from insignificant errors."},
+{type:"mc",q:"En auditoría, la 'materialidad' determina:",opts:["El número de empleados","Qué errores son lo suficientemente grandes para investigar","El color de los informes","La fecha de las reuniones"],ans:"Qué errores son lo suficientemente grandes para investigar",hint:"Materiality is a threshold that divides significant from insignificant errors."},
 {type:"fb",s:"Las negociaciones del {1} colectivo duraron varios meses.",a:["convenio"],opts:["convenio","comercio","margen","aumento"],hint:"This is a formal labor agreement between unions and employers.",sSrc:"The collective {1} negotiations lasted several months."},
 {type:"match",pairs:[
   {trg:"macroeconómico",src:"macroeconomic"},
@@ -22,7 +22,7 @@ const LESSON_16 = {id:"esv2_b2g7_l16",title:"Economía y comercio",icon:"📈",x
   {trg:"la imposición",src:"the tax levy"},
   {trg:"el aumento de sueldo",src:"the pay raise"}
 ]},
-{type:"mc",q:"España tiene tres tipos de IVA. ¿Cuál es el tipo general?",opts:["21%","10%","4%","15%"],ans:"21%",hint:"The standard rate applies to most goods and services in Spain."},
+{type:"mc",q:"España tiene tres tipos de IVA. ¿Cuál es el tipo general?",opts:["4%","15%","21%","10%"],ans:"21%",hint:"The standard rate applies to most goods and services in Spain."},
 {type:"fb",s:"Los problemas {1} retrasaron la entrega de las mercancías.",a:["logísticos"],opts:["logísticos","macroeconómicos","legislativos","materialistas"],hint:"This adjective relates to the management and transport of goods.",sSrc:"The {1} problems delayed the delivery of goods."}
 ]};
 export default LESSON_16;

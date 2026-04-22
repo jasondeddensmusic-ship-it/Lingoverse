@@ -1,4 +1,4 @@
-// Unit 28 — Literatuur & Uitdrukkingen
+// Unit 28. Literatuur & Uitdrukkingen
 // Figurative Language, Proverbs & Idioms
 
 export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdrukkingen",sub:"Figurative Language, Proverbs & Idioms",icon:"📚",level:"B2.2",color:"#7B5EE8",lessons:[

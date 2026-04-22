@@ -92,7 +92,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel est le plus ancien film comique de l'histoire du cinema ?",
-     opts:["L'arroseur arrose","Le voyage dans la lune","Metropolis","Les temps modernes"],
+     opts:["Les temps modernes","L'arroseur arrose","Le voyage dans la lune","Metropolis"],
      ans:"L'arroseur arrose",
      hint:"A Lumiere brothers film from 1895 involving a gardener and a prankster."},
 
@@ -137,7 +137,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"D'ou vient le mot 'cheptel' ?",
-     opts:["du latin 'capitale' (tete de betail)","du grec 'cheptos' (troupeau)","du germanique 'schaf' (mouton)","du celte 'cept' (enclos)"],
+     opts:["du germanique 'schaf' (mouton)","du celte 'cept' (enclos)","du latin 'capitale' (tete de betail)","du grec 'cheptos' (troupeau)"],
      ans:"du latin 'capitale' (tete de betail)",
      hint:"The same L... root that gave us the English word 'capital'. Head of cattle."},
 

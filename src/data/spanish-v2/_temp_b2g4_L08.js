@@ -78,13 +78,13 @@ const LESSON_8 = {id:"esv2_b2g4_l8",title:"Cultura y espiritualidad",icon:"🎭"
  exampleSrc:"A: The situation is difficult, but not impossible.\nB: With effort, we will get through.",
  funFact:"'Hacerse el difícil' means to play hard to get. A very common Spanish expression."},
 
-{type:"mc",q:"¿Qué es la contemplación?",opts:["Pensamiento profundo y reflexivo","Un tipo de danza","Una competición deportiva","Una técnica de cocina"],ans:"Pensamiento profundo y reflexivo",hint:"Think about spending time in deep, quiet thought and reflection."},
+{type:"mc",q:"¿Qué es la contemplación?",opts:["Una técnica de cocina","Pensamiento profundo y reflexivo","Un tipo de danza","Una competición deportiva"],ans:"Pensamiento profundo y reflexivo",hint:"Think about spending time in deep, quiet thought and reflection."},
 
 {type:"fb",s:"La {1} de este material lo hace ideal para la construcción.",a:["dureza"],opts:["dureza","desnudez","definición","devoción"],hint:"The quality of being hard, resistant, and tough.",sSrc:"The {1} of this material makes it ideal for construction."},
 
 {type:"match",pairs:[{trg:"espiritualidad",src:"spirituality"},{trg:"encierro",src:"bull run"},{trg:"contemplación",src:"contemplation"},{trg:"esplendor",src:"splendor"},{trg:"dogma",src:"dogma"}]},
 
-{type:"mc",q:"Una imagen de 'alta definición' tiene:",opts:["Mucha nitidez y detalle","Muchos colores","Poco brillo","Gran tamaño"],ans:"Mucha nitidez y detalle",hint:"Think about the clarity and sharpness of a high-quality screen."},
+{type:"mc",q:"Una imagen de 'alta definición' tiene:",opts:["Poco brillo","Gran tamaño","Mucha nitidez y detalle","Muchos colores"],ans:"Mucha nitidez y detalle",hint:"Think about the clarity and sharpness of a high-quality screen."},
 
 {type:"fb",s:"El artista tenía un estilo {1}, con formas muy simplificadas.",a:["esquemático"],opts:["esquemático","expresionista","explosivo","estático"],hint:"Reduced to simplified outlines and basic shapes, like a diagram.",sSrc:"The artist had a {1} style, with very simplified forms."}
 ]};

@@ -84,7 +84,7 @@ const LESSON_14 = {id:"esv2_b2g5_l14",title:"Agricultura y vida rural",icon:"�
  exampleSrc:"A: The baby was drooling over the new toy.\nB: It's normal when their teeth are coming in.",
  funFact:"'Se le cae la baba' (their drool is falling) means to be completely smitten or in awe of something."},
 
-{type:"mc",q:"¿De qué idioma viene la palabra 'alberca'?",opts:["Del árabe","Del latín","Del francés","Del inglés"],ans:"Del árabe",hint:"Many Spanish words about water and agriculture came from the language spoken during the Moorish period."},
+{type:"mc",q:"¿De qué idioma viene la palabra 'alberca'?",opts:["Del inglés","Del árabe","Del latín","Del francés"],ans:"Del árabe",hint:"Many Spanish words about water and agriculture came from the language spoken during the Moorish period."},
 
 {type:"fb",s:"La industria del aceite de oliva es {1} en Jaén.",a:["floreciente"],opts:["floreciente","hotelero","hexagonal","feudal"],hint:"An adjective meaning thriving, growing successfully, like a blooming flower.",sSrc:"The olive oil industry is {1} in Jaén."},
 
@@ -92,7 +92,7 @@ const LESSON_14 = {id:"esv2_b2g5_l14",title:"Agricultura y vida rural",icon:"�
 
 {type:"fb",s:"La {1} almacena el agua para regar los campos en verano.",a:["alberca"],opts:["alberca","carreta","horquilla","alimaña"],hint:"A water storage tank for irrigation, from the Arabic word for pool.",sSrc:"The {1} stores water to irrigate the fields in summer."},
 
-{type:"mc",q:"¿Qué significa 'se le cae la baba'?",opts:["Estar encantado o admirado por algo","Estar muy enfadado","Tener mucha hambre","Sentirse triste"],ans:"Estar encantado o admirado por algo",hint:"Think about someone so impressed or in love that they literally drool."}
+{type:"mc",q:"¿Qué significa 'se le cae la baba'?",opts:["Tener mucha hambre","Sentirse triste","Estar encantado o admirado por algo","Estar muy enfadado"],ans:"Estar encantado o admirado por algo",hint:"Think about someone so impressed or in love that they literally drool."}
 ]};
 
 export default LESSON_14;

@@ -60,7 +60,7 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"mc",
  q:"Which word means 'gym'?",
- opts:["saúde","academia","exercício","peso"],
+ opts:["academia","exercício","peso","saúde"],
  ans:"academia",
  hint:"Where you go to work out. Also means academic institution."},
 
@@ -96,7 +96,7 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"mc",
  q:"Which verb pairs with 'peso'?",
- opts:["perder peso","levar peso","pegar peso","virar peso"],
+ opts:["pegar peso","virar peso","perder peso","levar peso"],
  ans:"perder peso",
  hint:"Think about what you do to weight when dieting."},
 
@@ -109,7 +109,7 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"mc",
  q:"Which word is the scientific discipline of food and health?",
- opts:["alimentação","dieta","nutrição","academia"],
+ opts:["academia","alimentação","dieta","nutrição"],
  ans:"nutrição",
  hint:"The academic field. A university studies it."},
 
@@ -304,7 +304,7 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"mc",
  q:"How is the word for 'wellbeing' written?",
- opts:["bemestar","bem estar","bem-estar","bem'estar"],
+ opts:["bem-estar","bem'estar","bemestar","bem estar"],
  ans:"bem-estar",
  hint:"Compound noun kept together by a hyphen in modern Portuguese."},
 
@@ -340,7 +340,7 @@ const UNIT_28 = {n:28, lang:"pt", srcLang:"en", track:"v2", title:"Saúde e bem-
 
 {type:"mc",
  q:"What does 'ter boa energia' mean informally?",
- opts:["to have electricity","to have good vibes","to exercise a lot","to sleep well"],
+ opts:["to sleep well","to have electricity","to have good vibes","to exercise a lot"],
  ans:"to have good vibes",
  hint:"Brazilian speakers use this spiritually, not literally."},
 

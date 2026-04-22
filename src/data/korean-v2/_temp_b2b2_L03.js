@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 3: Streets and Changes
+// Korean B2. Batch 2, Lesson 3: Streets and Changes
 // Words: 길가, 길거리, 길어지다, 깊숙이, 까다, 까만색, 까먹다, 까치, 깔끔하다, 깔다, 깔리다, 깜빡, 깡패, 네거리, 낱말, 남, 남매, 남부, 남북, 날카롭다
 
 const LESSON_3 = {
@@ -113,7 +113,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"'깜빡 잊었다'는 어떤 뜻인가요?",
-     opts:["잠깐 까먹었다","일부러 안 했다","천천히 생각했다","오래 고민했다"],
+     opts:["오래 고민했다","잠깐 까먹었다","일부러 안 했다","천천히 생각했다"],
      ans:"잠깐 까먹었다",
      hint:"A momentary lapse in memory, like blinking and the thought was gone."},
 

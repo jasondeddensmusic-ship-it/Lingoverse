@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: Do you eat soba on New Year's Eve?\nB: Yes, I eat year-crossing soba.",
      funFact:"Eating soba on New Year's Eve (toshikoshi soba) symbolizes cutting ties with the old year, since soba noodles break easily. The long noodles also represent longevity. This tradition dates back to the Edo period and is practiced by over 50% of Japanese households."},
 
-    {type:"mc", q:"Which dish is eaten on New Year's Eve for good luck?", opts:["ラーメン","うどん","そば","すし"], ans:"そば",
+    {type:"mc", q:"Which dish is eaten on New Year's Eve for good luck?", opts:["そば","すし","ラーメン","うどん"], ans:"そば",
      hint:"These thin buckwheat noodles symbolize cutting ties with the old year."},
 
     {type:"teach", trg:"てんぷら", src:"tempura (battered fried food)", pos:"noun", gender:null,
@@ -113,7 +113,7 @@ const LESSON_3 = {
     {type:"mc", q:"てんぷら has origins in:", opts:["China","Korea","Portugal","India"], ans:"Portugal",
      hint:"Missionaries brought this frying technique to Japan in the 1500s."},
 
-    {type:"mc", q:"としこしそば is eaten on:", opts:["New Year's Day","Valentine's Day","New Year's Eve","Christmas"], ans:"New Year's Eve",
+    {type:"mc", q:"としこしそば is eaten on:", opts:["Christmas","New Year's Day","Valentine's Day","New Year's Eve"], ans:"New Year's Eve",
      hint:"This tradition symbolizes cutting ties with the departing y...."},
   ]
 };

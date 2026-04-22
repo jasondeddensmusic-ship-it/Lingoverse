@@ -67,7 +67,7 @@ const LESSON_6 = {id:"frv2_b2gC_l6", title:"Sciences et recherche", icon:"\u{1F5
 
 {type:"mc",
  q:"Que peut signifier 'la précipitation' en météorologie ?",
- opts:["La pluie ou la neige","Un tremblement de terre","Le vent violent","La chaleur extrême"],
+ opts:["La chaleur extrême","La pluie ou la neige","Un tremblement de terre","Le vent violent"],
  ans:"La pluie ou la neige",
  hint:"This word has a double meaning. In weather reports, it refers to water falling from the sky."},
 
@@ -87,7 +87,7 @@ const LESSON_6 = {id:"frv2_b2gC_l6", title:"Sciences et recherche", icon:"\u{1F5
 
 {type:"mc",
  q:"Quel animal est le principal prédateur réintroduit dans les montagnes françaises ?",
- opts:["le loup","le renard","l'aigle","l'ours"],
+ opts:["l'aigle","l'ours","le loup","le renard"],
  ans:"le loup",
  hint:"This canine predator's return to France sparked debates between shepherds and ecologists."},
 
@@ -105,7 +105,7 @@ const LESSON_6 = {id:"frv2_b2gC_l6", title:"Sciences et recherche", icon:"\u{1F5
 
 {type:"mc",
  q:"Quel adjectif décrit quelqu'un qui occupe une place importante et visible ?",
- opts:["proéminent","prédominant","précipité","prédisposé"],
+ opts:["prédominant","précipité","prédisposé","proéminent"],
  ans:"proéminent",
  hint:"From Latin 'to project forward.' Someone who stands out, physically or figuratively."}
 

@@ -80,7 +80,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot décrit une augmentation soudaine et forte des prix ?",
-     opts:["la flambée","la détonation","la dépouille","le dépotoir"],
+     opts:["le dépotoir","la flambée","la détonation","la dépouille"],
      ans:"la flambée",
      hint:"Think of flames shooting up suddenly. This word applies to prices, violence, or epidemics."},
 
@@ -131,7 +131,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot désigne les restes mortels d'une personne ?",
-     opts:["la dépouille","la détonation","le dépotoir","le dérivé"],
+     opts:["le dépotoir","le dérivé","la dépouille","la détonation"],
      ans:"la dépouille",
      hint:"A formal term for a deceased person's body, often used in news reports and obituaries."},
 

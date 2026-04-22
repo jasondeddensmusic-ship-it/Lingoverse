@@ -85,7 +85,7 @@ const LESSON_17 = {
      funFact:"The Netherlands has a dedicated military cyber unit (Defensie Cyber Commando). Dutch intelligence services are considered among the best in Europe for cyber operations."},
     {type:"mc",
      q:"Waarom is een 'fietsambtenaar' typisch Nederlands?",
-     opts:["Omdat geen ander land een ambtenaar voor fietsbeleid heeft","Omdat Nederlanders niet van fietsen houden","Omdat het een oude traditie is","Omdat het een vrijwilligersfunctie is"],
+     opts:["Omdat het een vrijwilligersfunctie is","Omdat geen ander land een ambtenaar voor fietsbeleid heeft","Omdat Nederlanders niet van fietsen houden","Omdat het een oude traditie is"],
      ans:"Omdat geen ander land een ambtenaar voor fietsbeleid heeft",
      hint:"The Netherlands is the only country that dedicates government officials specifically to cycling policy and infrastructure."},
     {type:"fb",
@@ -96,7 +96,7 @@ const LESSON_17 = {
      sSrc:"The threat of {1} increases every year due to digitalization."},
     {type:"mc",
      q:"Wat is een 'hobbyschrijver'?",
-     opts:["Iemand die schrijft als hobby, niet als beroep","Een professionele auteur","Een journalist","Een blogger"],
+     opts:["Een journalist","Een blogger","Iemand die schrijft als hobby, niet als beroep","Een professionele auteur"],
      ans:"Iemand die schrijft als hobby, niet als beroep",
      hint:"H... + schrijver (writer). This person writes for pleasure, not for a living."}
   ]

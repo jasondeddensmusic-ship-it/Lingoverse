@@ -73,7 +73,7 @@ const LESSON_16 = {id:"esv2_b2g8_l16",title:"Vivienda e inmuebles",icon:"🏠",x
  funFact:"The leñador is a classic figure in Spanish fairy tales, just like the woodcutter in English ones."},
 
 {type:"mc",q:"¿Qué es un loft?",
- opts:["Un espacio abierto, a menudo una nave industrial convertida en vivienda","Un tipo de tejado","Un garaje subterráneo","Un jardín en la azotea"],
+ opts:["Un jardín en la azotea","Un espacio abierto, a menudo una nave industrial convertida en vivienda","Un tipo de tejado","Un garaje subterráneo"],
  ans:"Un espacio abierto, a menudo una nave industrial convertida en vivienda",
  hint:"An English borrowing for a large, open-plan converted living space. Think urban and modern."},
 

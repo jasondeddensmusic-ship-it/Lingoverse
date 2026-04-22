@@ -95,7 +95,7 @@ const LESSON_9 = {
      funFact:"'Op jaarbasis' is standard Dutch business language. Salaries, costs, and statistics are commonly expressed this way. Monthly figures can be misleading."},
     {type:"mc",
      q:"Wat is het verschil tussen 'grootte' en 'grootheid'?",
-     opts:["Grootte is fysieke afmeting, grootheid is abstracte grootsheid","Ze betekenen precies hetzelfde","Grootte is voor mensen, grootheid voor dingen","Grootheid is fysieke afmeting, grootte is abstract"],
+     opts:["Grootheid is fysieke afmeting, grootte is abstract","Grootte is fysieke afmeting, grootheid is abstracte grootsheid","Ze betekenen precies hetzelfde","Grootte is voor mensen, grootheid voor dingen"],
      ans:"Grootte is fysieke afmeting, grootheid is abstracte grootsheid",
      hint:"One describes physical size (how big), the other describes abstract greatness (how important). Which is which?"},
     {type:"fb",
@@ -113,7 +113,7 @@ const LESSON_9 = {
     ]},
     {type:"mc",
      q:"Wat is een typisch Nederlands gespreksonderwerp?",
-     opts:["Het weer","Salaris","Religie","Politiek"],
+     opts:["Religie","Politiek","Het weer","Salaris"],
      ans:"Het weer",
      hint:"The Dutch are famous for talking about this safe topic. It changes so often in the Netherlands that there's always something to say."}
   ]

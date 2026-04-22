@@ -73,7 +73,7 @@ const LESSON_8 = {id:"esv2_b2g8_l8",title:"Sociedad y poder",icon:"👑",xp:15,b
  funFact:"'Imperante' comes from the Latin verb imperare (to command). Emperor (emperador) shares the same root."},
 
 {type:"mc",q:"¿Qué significa 'imperante' cuando describimos una tendencia?",
- opts:["Dominante o prevaleciente en ese momento","Antigua y olvidada","Extranjera e importada","Pequeña e insignificante"],
+ opts:["Pequeña e insignificante","Dominante o prevaleciente en ese momento","Antigua y olvidada","Extranjera e importada"],
  ans:"Dominante o prevaleciente en ese momento",
  hint:"From 'imperar' (to prevail, to rule). What is currently in command?"},
 

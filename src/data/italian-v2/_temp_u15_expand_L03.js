@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'la perdita d'acqua'?",
-     opts:["A water shortage in the area","A water leak in the plumbing","Water damage from a flood","A loss of water pressure"],
+     opts:["A water leak in the plumbing","Water damage from a flood","A loss of water pressure","A water shortage in the area"],
      ans:"A water leak in the plumbing",
      hint:"'Perdita' means 'loss.' W... is literally being lost through a crack or broken pipe."},
 
@@ -92,7 +92,7 @@ const LESSON_6 = {
      sSrc:"The sink {1} is clogged."},
 
     {type:"mc", q:"What is the difference between 'manutenzione ordinaria' and 'straordinaria'?",
-     opts:["Ordinary is indoor, extraordinary is outdoor","Ordinary is the tenant's cost, extraordinary is the landlord's","Ordinary is monthly, extraordinary is yearly","Ordinary is for new buildings, extraordinary for old"],
+     opts:["Ordinary is for new buildings, extraordinary for old","Ordinary is indoor, extraordinary is outdoor","Ordinary is the tenant's cost, extraordinary is the landlord's","Ordinary is monthly, extraordinary is yearly"],
      ans:"Ordinary is the tenant's cost, extraordinary is the landlord's",
      hint:"Changing a light bulb = o... (t...). Replacing the boiler = e... (l...). The distinction matters."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"There is {1} in the bathroom. I need to air it out more."},
 
     {type:"mc", q:"Why is 'rubinetto' called that?",
-     opts:["It was invented by a man named Rubinetto","It comes from 'rubino' (ruby), after the old valve shape","It comes from 'rubare' (to steal), because faucets waste water","It is borrowed from the French word 'robinet'"],
+     opts:["It comes from 'rubare' (to steal), because faucets waste water","It is borrowed from the French word 'robinet'","It was invented by a man named Rubinetto","It comes from 'rubino' (ruby), after the old valve shape"],
      ans:"It comes from 'rubino' (ruby), after the old valve shape",
      hint:"A diminutive of 'r....' O... v... handles had a gemstone-like appearance that inspired the name."}
   ]

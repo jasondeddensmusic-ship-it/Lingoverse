@@ -90,7 +90,7 @@ const LESSON_12 = {
      funFact:"'Ingeval' is more literary than spoken. In everyday Dutch, people say 'voor het geval dat' or simply 'als'. You'll find 'ingeval' in legal texts and contracts."},
     {type:"mc",
      q:"Wat betekent 'jezelf goedverkopen'?",
-     opts:["Jezelf onderwaarderen","Jezelf goed presenteren","Iets met winst verkopen","Een goede deal sluiten"],
+     opts:["Een goede deal sluiten","Jezelf onderwaarderen","Jezelf goed presenteren","Iets met winst verkopen"],
      ans:"Jezelf onderwaarderen",
      hint:"Despite 'goed' meaning good, this expression is negative. It means selling yourself for too low a price."},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_12 = {
      sSrc:"The agreement must be {1} by both parties."},
     {type:"mc",
      q:"Welk werkwoord gebruik je als een bedrijf langzaam ten onder gaat?",
-     opts:["doodbloeden","goedverkopen","inblazen","handtekenen"],
+     opts:["inblazen","handtekenen","doodbloeden","goedverkopen"],
      ans:"doodbloeden",
      hint:"This figurative verb describes a slow decline, like a wound that won't stop bleeding. Dood (dead) + bloeden (to bleed)."}
   ]

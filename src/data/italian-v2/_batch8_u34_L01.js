@@ -1,4 +1,4 @@
-// Batch 8 ‚Äî Unit 34 extra lesson. International Relations: Diplomacy & Treaties
+// Batch 8. Unit 34 extra lesson. International Relations: Diplomacy & Treaties
 const BATCH8_L1 = {id:"itv2_u34l_b8_1", title:"Diplomazia e trattati", icon:"ü§ù", xp:15, board:true, steps:[
 {type:"intro", title:"Diplomazia e trattati",
  desc:"Learn vocabulary for diplomacy, international treaties, and Italy's role in global affairs.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u34l_b8_1", title:"Diplomazia e trattati", icon:"ü§
 
 {type:"mc",
  q:"What unusual dual meaning does 'sanzione' have?",
- opts:["Both punishment AND official approval","Both war AND peace","Both trade AND embargo","Both alliance AND rivalry"],
+ opts:["Both alliance AND rivalry","Both punishment AND official approval","Both war AND peace","Both trade AND embargo"],
  ans:"Both punishment AND official approval",
  hint:"'Sanzionare' can mean to impose penalties or to officially approve a law. Context determines meaning."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u34l_b8_1", title:"Diplomazia e trattati", icon:"ü§
 
 {type:"mc",
  q:"How does Italy promote its culture through embassies?",
- opts:["Through Settimana della Cucina Italiana (Italian Cuisine Week)","Through military parades","Through sports events","Through fashion shows only"],
+ opts:["Through sports events","Through fashion shows only","Through Settimana della Cucina Italiana (Italian Cuisine Week)","Through military parades"],
  ans:"Through Settimana della Cucina Italiana (Italian Cuisine Week)",
  hint:"Embassies worldwide celebrate the country's food culture through an annual November event. Gastronomy as diplomacy is a uniquely national tradition."}
 ]};

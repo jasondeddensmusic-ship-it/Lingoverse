@@ -80,7 +80,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Que signifie 'la diabolisation' ?",
-     opts:["Présenter quelqu'un comme diabolique","Admirer excessivement quelqu'un","Ignorer complètement quelqu'un","Ridiculiser publiquement quelqu'un"],
+     opts:["Ridiculiser publiquement quelqu'un","Présenter quelqu'un comme diabolique","Admirer excessivement quelqu'un","Ignorer complètement quelqu'un"],
      ans:"Présenter quelqu'un comme diabolique",
      hint:"From 'diable' (devil). A political tactic of portraying the opponent as evil."},
 
@@ -131,7 +131,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel adjectif décrit quelque chose de drôlement excentrique ?",
-     opts:["loufoque","macabre","lugubre","lancinant"],
+     opts:["lugubre","lancinant","loufoque","macabre"],
      ans:"loufoque",
      hint:"French slang with an affectionate tone, meaning amusingly crazy or eccentric."},
 

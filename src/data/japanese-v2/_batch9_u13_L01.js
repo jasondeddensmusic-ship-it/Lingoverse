@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"思(おも)い出(で)", src:"memory"}
     ]},
 
-    {type:"mc", q:"What makes りょかん different from regular hotels?", opts:["Tatami rooms, onsen, and kaiseki cuisine","Cheaper prices","Western-style beds","24-hour room service"], ans:"Tatami rooms, onsen, and kaiseki cuisine",
+    {type:"mc", q:"What makes りょかん different from regular hotels?", opts:["24-hour room service","Tatami rooms, onsen, and kaiseki cuisine","Cheaper prices","Western-style beds"], ans:"Tatami rooms, onsen, and kaiseki cuisine",
      hint:"These traditional inns offer an immersive Japanese cultural experience with specific features."}
   ,{type:"match",pairs:[{trg:"民宿(みんしゅく)",src:"guesthouse / homestay lodging"},{trg:"名所(めいしょ)",src:"famous place / tourist spot"},{trg:"予約(よやく)",src:"reservation / booking"}]}]
 };

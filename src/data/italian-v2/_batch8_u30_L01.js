@@ -1,4 +1,4 @@
-// Batch 8 ‚Äî Unit 30 extra lesson. Advanced Subjunctive: Concessive & Adversative
+// Batch 8. Unit 30 extra lesson. Advanced Subjunctive: Concessive & Adversative
 const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚öñÔ∏è", xp:15, board:true, steps:[
 {type:"intro", title:"Concessione e contrasto",
  desc:"Learn vocabulary for expressing concession, contrast, and unexpected outcomes in advanced Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚
 
 {type:"mc",
  q:"What does the Italian word 'Ni' express?",
- opts:["A blend of yes and no (neither committing)","An emphatic yes","A strong no","A question"],
+ opts:["A question","A blend of yes and no (neither committing)","An emphatic yes","A strong no"],
  ans:"A blend of yes and no (neither committing)",
  hint:"Italians combined 'no' and 'si' into a single word that perfectly expresses ambivalence."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"‚
 
 {type:"mc",
  q:"What does 'l'eccezione conferma la regola' mean?",
- opts:["The exception proves the rule","Exceptions destroy rules","Rules have no exceptions","Exceptions are more important than rules"],
+ opts:["Rules have no exceptions","Exceptions are more important than rules","The exception proves the rule","Exceptions destroy rules"],
  ans:"The exception proves the rule",
  hint:"This common expression argues that the existence of exceptions actually validates the general principle they deviate from."}
 ,{type:"match",pairs:[{trg:"la controparte",src:"the counterpart / opposing party"}]}]};

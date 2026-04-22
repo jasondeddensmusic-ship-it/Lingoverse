@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 7 — Justice and Law
+// French B2 Gap Lesson 7. Justice and Law
 const LESSON_7 = {id:"frv2_b2g5_l7", title:"Justice et droit", icon:"⚖️", xp:15, board:true, steps:[
   {type:"intro", title:"Justice et droit",
    desc:"Build vocabulary for discussing legal matters, justice, and ethical questions at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_7 = {id:"frv2_b2g5_l7", title:"Justice et droit", icon:"⚖️", xp
    funFact:"Past participle of 's'inscrire' (to register). 'Inscription' (registration) is the noun form."},
 
   {type:"mc", q:"Quel adjectif signifie 'que l'on ne peut pas contester'?",
-   opts:["Indiscutable","Infondé","Injurieux","Infâme"],
+   opts:["Infâme","Indiscutable","Infondé","Injurieux"],
    ans:"Indiscutable",
    hint:"Something so clear and obvious that no one can argue against it"},
 
@@ -105,7 +105,7 @@ const LESSON_7 = {id:"frv2_b2g5_l7", title:"Justice et droit", icon:"⚖️", xp
   ]},
 
   {type:"mc", q:"Que signifie 'à l'issue de'?",
-   opts:["A la fin de","Au début de","Au milieu de","A côté de"],
+   opts:["Au milieu de","A côté de","A la fin de","Au début de"],
    ans:"A la fin de",
    hint:"This prepositional phrase indicates the conclusion or end of a process"},
 
@@ -120,7 +120,7 @@ const LESSON_7 = {id:"frv2_b2g5_l7", title:"Justice et droit", icon:"⚖️", xp
    hint:"Insulting remarks online are penalized under French law"},
 
   {type:"mc", q:"Quel mot désigne une personne officiellement enregistrée?",
-   opts:["Un inscrit","Un insurgé","Un inspecteur","Un incognito"],
+   opts:["Un insurgé","Un inspecteur","Un incognito","Un inscrit"],
    ans:"Un inscrit",
    hint:"Someone who has formally registered, for voting, school, or membership"}
 ]};

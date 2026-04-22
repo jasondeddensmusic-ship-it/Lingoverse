@@ -1,4 +1,4 @@
-// Korean V2 Unit 52 — B2 Vocabulary Batch 2
+// Korean V2 Unit 52. B2 Vocabulary Batch 2
 import L11 from './_temp_b2b2_L11.js';
 import L12 from './_temp_b2b2_L12.js';
 import L13 from './_temp_b2b2_L13.js';

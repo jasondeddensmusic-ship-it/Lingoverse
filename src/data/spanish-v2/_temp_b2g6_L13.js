@@ -66,7 +66,7 @@ const LESSON_13 = {id:"esv2_b2g6_l13",title:"Historia y patrimonio",icon:"🏰",
  exampleSrc:"A: Van der Weyden's Descent from the Cross is in the Prado.\nB: It is one of the most impressive works in the museum.",
  funFact:"The Prado Museum's Descendimiento (1435) is considered one of the masterpieces of Flemish painting."},
 
-{type:"mc",q:"¿Qué es un arcabuz?",opts:["Un arma de fuego antigua","Un tipo de barco","Una herramienta agrícola","Un instrumento musical"],ans:"Un arma de fuego antigua",hint:"An early firearm used by the Spanish conquistadors."},
+{type:"mc",q:"¿Qué es un arcabuz?",opts:["Un instrumento musical","Un arma de fuego antigua","Un tipo de barco","Una herramienta agrícola"],ans:"Un arma de fuego antigua",hint:"An early firearm used by the Spanish conquistadors."},
 
 {type:"match",pairs:[
   {trg:"edad antigua",src:"ancient age"},

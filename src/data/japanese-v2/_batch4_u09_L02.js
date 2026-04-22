@@ -1,4 +1,4 @@
-// Batch 4 — Unit 09 Lesson 2: Online Shopping & Delivery
+// Batch 4. Unit 09 Lesson 2: Online Shopping & Delivery
 const BATCH4_L_2 = {
   id:"jav2_u09l_b4_2", title:"ネットショッピング", icon:"📦", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What is 代引(だいび)き?",
-     opts:["cash on delivery","free shipping","express delivery","gift wrapping"], ans:"cash on delivery",
+     opts:["gift wrapping","cash on delivery","free shipping","express delivery"], ans:"cash on delivery",
      hint:"A payment method where you pay the driver when the package arrives."},
 
     {type:"fb", s:"レビューを{1}から買(か)います。", a:"読(よ)んで",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The action of looking at written text to gather information."},
 
     {type:"mc", q:"Japanese clothing sizes compared to Western:",
-     opts:["run smaller","run larger","are the same","use numbers only"], ans:"run smaller",
+     opts:["are the same","use numbers only","run smaller","run larger"], ans:"run smaller",
      hint:"A Japanese L is roughly equivalent to a Western M."},
 
     {type:"mc", q:"What does カートに入(い)れる mean?",
-     opts:["add to shopping cart","remove from cart","buy now","save for later"], ans:"add to shopping cart",
+     opts:["remove from cart","buy now","save for later","add to shopping cart"], ans:"add to shopping cart",
      hint:"Placing an item in your virtual basket before checkout."}
   ,{type:"match",pairs:[{trg:"注文(ちゅうもん)する",src:"to order (online)"},{trg:"配達(はいたつ)",src:"delivery"},{trg:"荷物(にもつ)",src:"luggage / package"},{trg:"品物(しなもの)",src:"product / goods / item"},{trg:"サイズ",src:"size"},{trg:"レビュー",src:"review (product)"}]},{type:"match",pairs:[{trg:"カート",src:"shopping cart (online)"},{trg:"お届(とど)け先(さき)",src:"delivery address"},{trg:"代引(だいび)き",src:"cash on delivery (COD)"}]},
   {type:"fb", s:"荷物(にもつ)の{1}は明日(あした)の午前中(ごぜんちゅう)に来(く)る予定(よてい)です。", a:["配達(はいたつ)"], opts:["配達(はいたつ)","送料(そうりょう)","注文(ちゅうもん)する","品物(しなもの)"], hint:"The act of bringing ordered goods to your address.", sSrc:"The {1} of the package is scheduled to arrive before noon tomorrow."}

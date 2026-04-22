@@ -98,7 +98,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel mot signifie 'none' ou 'not any' ?",
-     opts:["aucun","autre","aux","autour"],
+     opts:["autour","aucun","autre","aux"],
      ans:"aucun",
      hint:"This negative word emphasizes the complete absence of something. Stronger than 'pas de'."},
 
@@ -143,7 +143,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Que signifie 'au bout de la rue' ?",
-     opts:["at the end of the street","in the middle of the street","above the street","around the street"],
+     opts:["above the street","around the street","at the end of the street","in the middle of the street"],
      ans:"at the end of the street",
      hint:"'Le bout' means the tip or e.... This phrase points to the farthest point of a s...."},
 

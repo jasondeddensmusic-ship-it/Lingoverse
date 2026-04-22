@@ -71,7 +71,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"私(わたくし)は田中(たなか)と{1}します。\n(My name is Tanaka. [humble])", a:"申(もう)", opts:["申(もう)","おっしゃい","言(い)い","言(い)わ"], sSrc:"My name is Tanaka (humble self-introduction).",
      hint:"The humble verb for 'to say' in its masu-stem form."},
 
-    {type:"mc", q:"お荷物(にもつ)をお持(も)ちしましょうか uses:", opts:["Humble language (I will carry for you)","Honorific language (you will carry)","Casual language","No keigo"], ans:"Humble language (I will carry for you)",
+    {type:"mc", q:"お荷物(にもつ)をお持(も)ちしましょうか uses:", opts:["No keigo","Humble language (I will carry for you)","Honorific language (you will carry)","Casual language"], ans:"Humble language (I will carry for you)",
      hint:"The お + stem + する pattern humbles the speaker's own action of carrying."},
 
     {type:"match", pairs:[{trg:"参(まい)る",src:"to go/come (humble)"},{trg:"いただく",src:"to receive/eat (humble)"},{trg:"拝見(はいけん)する",src:"to look/see (humble)"},{trg:"伺(うかが)う",src:"to visit/ask (humble)"}]},
@@ -79,7 +79,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"資料(しりょう)を{1}してもよろしいですか？\n(May I look at the materials? [humble])", a:"拝見(はいけん)", opts:["拝見(はいけん)","ご覧(らん)","見物(けんぶつ)","見(み)せて"], sSrc:"May I look at the materials? (humble)",
      hint:"The humble する-verb for 'to see/look at,' combining 拝(はい) (worship) and 見(けん) (see)."},
 
-    {type:"mc", q:"お目(め)にかかる is humble for:", opts:["会(あ)う (to meet)","見(み)る (to see)","買(か)う (to buy)","かかる (to cost)"], ans:"会(あ)う (to meet)",
+    {type:"mc", q:"お目(め)にかかる is humble for:", opts:["買(か)う (to buy)","かかる (to cost)","会(あ)う (to meet)","見(み)る (to see)"], ans:"会(あ)う (to meet)",
      hint:"This phrase literally means 'to come before your eyes,' humbling oneself before the other person."}
   ,{type:"match",pairs:[{trg:"お目(め)にかかる",src:"to meet (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お口(くち)に合(あ)う",src:"to suit one's taste (polite set phrase)"},{trg:"いたす",src:"to do (humble)"}]},
   {type:"fb", s:"私(わたし)は田中(たなか)と{1}します。", a:["申(もう)す"], opts:["申(もう)す","参(まい)る","いただく","拝見(はいけん)する"], hint:"The humble verb used when giving your own name or saying something in formal situations.", sSrc:"I am called Tanaka. (humble)"}

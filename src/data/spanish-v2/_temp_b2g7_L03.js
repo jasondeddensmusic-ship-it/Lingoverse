@@ -13,7 +13,7 @@ const LESSON_3 = {id:"esv2_b2g7_l3",title:"Inestabilidad y problemas sociales",i
 {type:"teach",trg:"el indicio",src:"the clue / indication / sign",pos:"noun",gender:"m",note:"A piece of evidence or a hint that suggests something.",example:"A: ¿Hay indicios de fraude?\nB: Sí, los indicios apuntan a irregularidades graves.",exampleSrc:"A: Are there signs of fraud?\nB: Yes, the clues point to serious irregularities.",funFact:"In criminal law, 'indicios' (circumstantial evidence) is weaker than 'pruebas' (direct evidence)."},
 {type:"mc",q:"Si una empresa 'incumple' un contrato, significa que:",opts:["No respeta lo acordado","Firma un nuevo acuerdo","Mejora las condiciones","Celebra un éxito"],ans:"No respeta lo acordado",hint:"The prefix 'in-' negates the verb 'cumplir' (to fulfill)."},
 {type:"fb",s:"La {1} económica ha provocado muchas protestas ciudadanas.",a:["inestabilidad"],opts:["inestabilidad","incompetencia","infelicidad","imposición"],hint:"This noun means lack of stability, often used for economies.",sSrc:"The economic {1} has caused many citizen protests."},
-{type:"mc",q:"Una persona 'maleducada' es alguien que:",opts:["Tiene malos modales","Estudia mucho","Es muy inteligente","Trabaja demasiado"],ans:"Tiene malos modales",hint:"Think about what 'mal' (badly) + 'educado' (raised) literally means."},
+{type:"mc",q:"Una persona 'maleducada' es alguien que:",opts:["Trabaja demasiado","Tiene malos modales","Estudia mucho","Es muy inteligente"],ans:"Tiene malos modales",hint:"Think about what 'mal' (badly) + 'educado' (raised) literally means."},
 {type:"fb",s:"Los {1} del crimen fueron encontrados por la policía.",a:["indicios"],opts:["indicios","maltratos","mandatos","convenios"],hint:"These are pieces of evidence or clues found at a crime scene.",sSrc:"The {1} of the crime were found by the police."},
 {type:"match",pairs:[
   {trg:"la inestabilidad",src:"the instability"},
@@ -22,7 +22,7 @@ const LESSON_3 = {id:"esv2_b2g7_l3",title:"Inestabilidad y problemas sociales",i
   {trg:"incumplir",src:"to fail to comply"},
   {trg:"el indicio",src:"the clue / indication"}
 ]},
-{type:"mc",q:"'La incompetencia del director es evidente.' Esto significa que el director:",opts:["No sabe hacer su trabajo","Es muy trabajador","Tiene mucha experiencia","Acaba de llegar"],ans:"No sabe hacer su trabajo",hint:"Incompetencia describes a lack of ability or skill."},
+{type:"mc",q:"'La incompetencia del director es evidente.' Esto significa que el director:",opts:["Tiene mucha experiencia","Acaba de llegar","No sabe hacer su trabajo","Es muy trabajador"],ans:"No sabe hacer su trabajo",hint:"Incompetencia describes a lack of ability or skill."},
 {type:"fb",s:"Sus {1} incluían sobornos y fraude electoral.",a:["fechorías"],opts:["fechorías","indicios","maltratos","mandatos"],hint:"This old-fashioned word means criminal acts or misdeeds.",sSrc:"His {1} included bribery and electoral fraud."}
 ]};
 export default LESSON_3;

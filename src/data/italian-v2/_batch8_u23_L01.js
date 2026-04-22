@@ -1,4 +1,4 @@
-// Batch 8 — Unit 23 extra lesson. Politics: Italian Political System
+// Batch 8. Unit 23 extra lesson. Politics: Italian Political System
 const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳️", xp:15, board:true, steps:[
 {type:"intro", title:"Il sistema politico",
  desc:"Learn vocabulary for the Italian political system, institutions, and civic participation.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳�
 
 {type:"mc",
  q:"What are 'fasce di garanzia' during Italian strikes?",
- opts:["Guaranteed service windows when transport must run","Extra strike hours","Compensation payments","Alternative transport options"],
+ opts:["Alternative transport options","Guaranteed service windows when transport must run","Extra strike hours","Compensation payments"],
  ans:"Guaranteed service windows when transport must run",
  hint:"By law, certain hours m... have s... even during strikes. Morning and evening commute times are protected."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u23l_b8_1", title:"Il sistema politico", icon:"🗳�
 
 {type:"mc",
  q:"What happened in the 1946 Italian referendum?",
- opts:["Italians voted to become a republic, abolishing the monarchy","Italy joined the EU","Women gained the right to vote","The constitution was written"],
+ opts:["Women gained the right to vote","The constitution was written","Italians voted to become a republic, abolishing the monarchy","Italy joined the EU"],
  ans:"Italians voted to become a republic, abolishing the monarchy",
  hint:"This was the most important referendum in Italian history. The old form of government lost by about 54% to 46%, creating the current state."}
 ,{type:"match",pairs:[{trg:"il parlamento",src:"the parliament"},{trg:"la scheda elettorale",src:"the ballot"},{trg:"la manifestazione",src:"the demonstration / protest"},{trg:"il dibattito",src:"the debate"},{trg:"il bilancio",src:"the budget / balance sheet"}]}]};

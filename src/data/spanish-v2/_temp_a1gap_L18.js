@@ -1,4 +1,4 @@
-// L18: Society & Identity — Who we are together
+// L18: Society & Identity. Who we are together
 const LESSON_18 = {
   id:"esv2_a1gap_l18", title:"La sociedad", icon:"\u{1F30D}", xp:15, board:true,
   steps:[
@@ -111,7 +111,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"\u00bfQué palabra azteca usamos en español para la fruta verde con hueso grande?",
-     opts:["aguacate","chocolate","tomate","aceituna"],
+     opts:["aceituna","aguacate","chocolate","tomate"],
      ans:"aguacate",
      hint:"This fruit, used to make guacamole, gets its Spanish name from the Nahuatl language of the Aztecs."},
 

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 12 Lesson 1: Health & Doctor Visits
+// Batch 4. Unit 12 Lesson 1: Health & Doctor Visits
 const BATCH4_L_1 = {
   id:"jav2_u12l_b4_1", title:"健康(けんこう)", icon:"🩺", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"What does 体調(たいちょう)が悪(わる)い mean?",
-     opts:["I am not feeling well","I am very sick","I have a cold","I am injured"], ans:"I am not feeling well",
+     opts:["I am injured","I am not feeling well","I am very sick","I have a cold"], ans:"I am not feeling well",
      hint:"A polite, general way to say your physical condition is off."},
 
     {type:"fb", s:"{1}を持(も)っていますか？", a:"保険証(ほけんしょう)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"The card required at every medical visit in Japan."},
 
     {type:"mc", q:"花粉症 affects about what percentage of Japanese?",
-     opts:["40%","5%","80%","15%"], ans:"40%",
+     opts:["80%","15%","40%","5%"], ans:"40%",
      hint:"Pollen allergies are a massive health issue in Japan each spring."},
 
     {type:"mc", q:"What does 怪我(けが) mean?",
-     opts:["injury/wound","illness","fever","allergy"], ans:"injury/wound",
+     opts:["illness","fever","allergy","injury/wound"], ans:"injury/wound",
      hint:"Physical damage to the body from accidents or sports."}
   ,{type:"match",pairs:[{trg:"病気(びょうき)",src:"illness / sickness"},{trg:"風邪(かぜ)",src:"cold (illness)"},{trg:"咳(せき)",src:"cough"},{trg:"喉(のど)が痛(いた)い",src:"to have a sore throat"},{trg:"怪我(けが)",src:"injury / wound"},{trg:"体調(たいちょう)",src:"physical condition"}]},{type:"match",pairs:[{trg:"アレルギー",src:"allergy"},{trg:"診察(しんさつ)",src:"medical examination / consultation"}]}]
 };

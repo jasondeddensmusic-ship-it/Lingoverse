@@ -84,7 +84,7 @@ const LESSON_7 = {id:"esv2_b2g5_l7",title:"Gobierno e instituciones",icon:"🏛�
  exampleSrc:"A: The landowners controlled enormous stretches of land.\nB: They had great political and economic power.",
  funFact:"In colonial Latin America, hacendados formed the ruling elite that shaped society for centuries."},
 
-{type:"mc",q:"¿Qué es un gabinete de ministros?",opts:["El grupo de ministros del gobierno","Una oficina de correos","Un museo nacional","Una sala de reuniones"],ans:"El grupo de ministros del gobierno",hint:"The president or prime minister selects these people to lead government departments."},
+{type:"mc",q:"¿Qué es un gabinete de ministros?",opts:["Una sala de reuniones","El grupo de ministros del gobierno","Una oficina de correos","Un museo nacional"],ans:"El grupo de ministros del gobierno",hint:"The president or prime minister selects these people to lead government departments."},
 
 {type:"fb",s:"El {1} de la organización estableció sus principios hace veinte años.",a:["fundador"],opts:["fundador","guerrero","agresor","conductor"],hint:"The person who originally created or established an organization.",sSrc:"The {1} of the organization established its principles twenty years ago."},
 
@@ -92,7 +92,7 @@ const LESSON_7 = {id:"esv2_b2g5_l7",title:"Gobierno e instituciones",icon:"🏛�
 
 {type:"fb",s:"La policía identificó al {1} del delito gracias a las cámaras.",a:["causante"],opts:["causante","fundador","guerrero","entrevistador"],hint:"The person who caused or is responsible for something happening.",sSrc:"The police identified the {1} of the crime thanks to the cameras."},
 
-{type:"mc",q:"¿Qué era un hacendado?",opts:["El dueño de una gran propiedad rural","Un guerrero medieval","Un sacerdote colonial","Un escribano del rey"],ans:"El dueño de una gran propiedad rural",hint:"Think about a wealthy person who owned a large farm or estate."}
+{type:"mc",q:"¿Qué era un hacendado?",opts:["Un sacerdote colonial","Un escribano del rey","El dueño de una gran propiedad rural","Un guerrero medieval"],ans:"El dueño de una gran propiedad rural",hint:"Think about a wealthy person who owned a large farm or estate."}
 ]};
 
 export default LESSON_7;

@@ -86,7 +86,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot designe un document officiel autorisant le passage ?",
-     opts:["un laissez-passer","une pancarte","un parachute","un pilier"],
+     opts:["un pilier","un laissez-passer","une pancarte","un parachute"],
      ans:"un laissez-passer",
      hint:"Literally means 'let pass'. A compound from two verb forms."},
 
@@ -113,7 +113,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot designe une cloture en fils metalliques ?",
-     opts:["le grillage","le pilier","le parachute","le laissez-passer"],
+     opts:["le parachute","le laissez-passer","le grillage","le pilier"],
      ans:"le grillage",
      hint:"Wire mesh for fences. From the word 'grille' meaning grid or grate."}
   ]

@@ -1,4 +1,4 @@
-// Batch 7 — Unit 09 extra lesson. Il corpo e la salute: Exercise & Fitness
+// Batch 7. Unit 09 extra lesson. Il corpo e la salute: Exercise & Fitness
 const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3CB}\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"L'esercizio fisico",
  desc:"Learn vocabulary for exercise, fitness routines, and describing physical activities.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
 ]},
 
 {type:"mc", q:"Quale parola italiana cambia genere al plurale?",
- opts:["il ginocchio (le ginocchia)","il muscolo (i muscoli)","la spalla (le spalle)","il polso (i polsi)"],
+ opts:["il polso (i polsi)","il ginocchio (le ginocchia)","il muscolo (i muscoli)","la spalla (le spalle)"],
  ans:"il ginocchio (le ginocchia)",
  hint:"This body part is masculine singular but becomes feminine plural. Ends in -a."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
  sSrc:"I am breathless after the stairs!"},
 
 {type:"mc", q:"Che cosa significa 'essere in forma'?",
- opts:["to be fit / in shape","to be sick","to be tired","to be hungry"],
+ opts:["to be tired","to be hungry","to be fit / in shape","to be sick"],
  ans:"to be fit / in shape",
  hint:"When your body is healthy and strong from regular exercise."},
 
@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u09l_b7_1", title:"L'esercizio fisico", icon:"\u{1F3
  {trg:"la salute", src:"health"},
  {trg:"sudare", src:"to sweat"}
 ]}
-,{type:"match",pairs:[{trg:"la corsa",src:"the run / running"},{trg:"in forma",src:"in shape / fit"}]},{type:"mc",q:"How do you say \"exercise\" in Italian?",opts:["l'esercizio","la finestra","il tavolo","la bicicletta"],ans:"l'esercizio",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"la corsa",src:"the run / running"},{trg:"in forma",src:"in shape / fit"}]},{type:"mc",q:"How do you say \"exercise\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'esercizio"],ans:"l'esercizio",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

@@ -1,4 +1,4 @@
-// L15: Description & Qualities — Describing the world around you
+// L15: Description & Qualities. Describing the world around you
 const LESSON_15 = {
   id:"esv2_a1gap_l15", title:"Describir el mundo", icon:"\u{1F308}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_15 = {
 
     {type:"mc",
      q:"\u00bfDónde se hacen trámites administrativos en un pueblo?",
-     opts:["En el ayuntamiento","En la bodega","En el bar","En la biblioteca"],
+     opts:["En la biblioteca","En el ayuntamiento","En la bodega","En el bar"],
      ans:"En el ayuntamiento",
      hint:"This is the building in the main square where the local government works."},
 

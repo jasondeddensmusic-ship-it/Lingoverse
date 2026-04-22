@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 13: Confidence and Time
+// Korean B2. Batch 2, Lesson 13: Confidence and Time
 // Words: 당당하다, 당분간, 당시, 당하다, 대가, 대강, 대개, 대규모, 대기, 대기하다, 대낮, 대다, 대다수, 대도시, 대략, 대량, 대로, 대륙, 대비, 대비하다
 
 const LESSON_13 = {
@@ -119,7 +119,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'대규모'의 반대말에 가장 가까운 것은?",
-     opts:["소규모","대량","대다수","대강"],
+     opts:["대강","소규모","대량","대다수"],
      ans:"소규모",
      hint:"If 대규모 means large-scale, its opposite uses 소 (small) instead of 대 (big)."},
 

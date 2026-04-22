@@ -56,7 +56,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What is considered Italy's national novel?",
-     opts:["La Divina Commedia by Dante","I Promessi Sposi by Manzoni","Il Principe by Machiavelli","Pinocchio by Collodi"],
+     opts:["I Promessi Sposi by Manzoni","Il Principe by Machiavelli","Pinocchio by Collodi","La Divina Commedia by Dante"],
      ans:"I Promessi Sposi by Manzoni",
      hint:"Published in 1827, it helped standardize modern Italian. Every Italian student reads it in school, though opinions on its entertainment value vary."},
 
@@ -86,7 +86,7 @@ const LESSON_6 = {
      sSrc:"The {1} was enthusiastic. They applauded for ten minutes."},
 
     {type:"mc", q:"What is the Premio Strega?",
-     opts:["An award for the best Italian film","Italy's most prestigious literary prize","A cooking competition in Rome","A music award at Sanremo"],
+     opts:["A music award at Sanremo","An award for the best Italian film","Italy's most prestigious literary prize","A cooking competition in Rome"],
      ans:"Italy's most prestigious literary prize",
      hint:"Founded in 1947 and named after a liqueur brand. Announced every July, winning guarantees bestseller status."},
 
@@ -97,7 +97,7 @@ const LESSON_6 = {
      sSrc:"The actor went up on the {1}."},
 
     {type:"mc", q:"How many Italians have won the Nobel Prize in Literature?",
-     opts:["Two writers total","Four writers total","Six writers total","None so far"],
+     opts:["None so far","Two writers total","Four writers total","Six writers total"],
      ans:"Six writers total",
      hint:"Carducci, Deledda, Pirandello, Quasimodo, Montale, and Fo. A remarkable count for a single national literature."}
   ]

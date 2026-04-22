@@ -1,4 +1,4 @@
-// Spanish V2 Unit 72 — B2 Vocabulary Batch 9
+// Spanish V2 Unit 72. B2 Vocabulary Batch 9
 import L06 from './_temp_b2g9_L06.js';
 import L07 from './_temp_b2g9_L07.js';
 import L08 from './_temp_b2g9_L08.js';

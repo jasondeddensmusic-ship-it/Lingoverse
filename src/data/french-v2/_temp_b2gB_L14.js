@@ -76,7 +76,7 @@ const LESSON_14 = {
      sSrc:"The eagle {1} above the mountains."},
 
     {type:"mc", q:"Qu'est-ce qu'un plantigrade?",
-     opts:["Un animal qui marche sur la plante des pieds","Un animal qui vit dans les plantes","Un herbivore","Un animal a sang froid"],
+     opts:["Un animal a sang froid","Un animal qui marche sur la plante des pieds","Un animal qui vit dans les plantes","Un herbivore"],
      ans:"Un animal qui marche sur la plante des pieds",
      hint:"Planti refers to the sole of the foot, grade means walking"},
 
@@ -93,7 +93,7 @@ const LESSON_14 = {
      sSrc:"Please {1} each page of the contract."},
 
     {type:"mc", q:"En argot, 'planer' signifie:",
-     opts:["Etre dans un etat second","Voler rapidement","Etudier serieusement","Travailler dur"],
+     opts:["Etudier serieusement","Travailler dur","Etre dans un etat second","Voler rapidement"],
      ans:"Etre dans un etat second",
      hint:"The slang meaning extends the image of floating disconnected from reality"},
 
@@ -103,7 +103,7 @@ const LESSON_14 = {
      sSrc:"It was a {1}, they had no chance of escaping."},
 
     {type:"mc", q:"Le TGV francais a atteint quel record de vitesse?",
-     opts:["574 km/h","320 km/h","450 km/h","700 km/h"],
+     opts:["320 km/h","450 km/h","700 km/h","574 km/h"],
      ans:"574 km/h",
      hint:"The record speed far exceeds the regular commercial service speed"},
 

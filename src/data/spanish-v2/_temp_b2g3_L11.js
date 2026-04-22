@@ -30,13 +30,13 @@ const LESSON_11 = {id:"esv2_b2g3_l11", title:"Comunicación y medios", icon:"�
 
   {type:"teach", trg:"la disputa", src:"the dispute / argument", pos:"noun", gender:"f", note:"A formal disagreement or conflict.\nDisputa legal = legal dispute.", example:"A: La disputa entre los vecinos lleva meses.\nB: Deberían ir a mediación.", exampleSrc:"A: The dispute between the neighbours has been going on for months.\nB: They should go to mediation.", funFact:"From Latin disputare (to discuss, to argue). In medieval universities, a disputa was a formal academic debate."},
 
-  {type:"mc", q:"'Sin contemplaciones' significa...", opts:["Sin piedad ni miramientos","Con mucha paciencia","En silencio total","Con mucho respeto"], ans:"Sin piedad ni miramientos", hint:"This idiomatic expression means acting ruthlessly, without hesitation or mercy."},
+  {type:"mc", q:"'Sin contemplaciones' significa...", opts:["Con mucho respeto","Sin piedad ni miramientos","Con mucha paciencia","En silencio total"], ans:"Sin piedad ni miramientos", hint:"This idiomatic expression means acting ruthlessly, without hesitation or mercy."},
 
   {type:"match", pairs:[{trg:"difusión", src:"dissemination"},{trg:"diapositiva", src:"slide"},{trg:"correspondencia", src:"mail"},{trg:"concienciación", src:"awareness-raising"},{trg:"disputa", src:"dispute"}]},
 
   {type:"fb", s:"La presentación tiene demasiadas {1}, hay que reducirlas.", a:["diapositivas"], opts:["diapositivas","disputas","correspondencias","difusiones"], hint:"Individual pages within a slideshow that display information visually.", sSrc:"The presentation has too many {1}, we need to reduce them."},
 
-  {type:"mc", q:"¿Qué es un diario digital?", opts:["Un periódico que se lee en internet","Un cuaderno personal electrónico","Una emisora de radio online","Un canal de televisión por cable"], ans:"Un periódico que se lee en internet", hint:"A daily newspaper (diario) that exists in digital format online."},
+  {type:"mc", q:"¿Qué es un diario digital?", opts:["Una emisora de radio online","Un canal de televisión por cable","Un periódico que se lee en internet","Un cuaderno personal electrónico"], ans:"Un periódico que se lee en internet", hint:"A daily newspaper (diario) that exists in digital format online."},
 
   {type:"fb", s:"La campaña de {1} sobre la salud mental ha tenido mucho impacto.", a:["concienciación"], opts:["concienciación","contemplación","comunicación","correspondencia"], hint:"An effort to make the public more aware of an important social topic.", sSrc:"The {1} campaign about mental health has had a big impact."}
 ]};

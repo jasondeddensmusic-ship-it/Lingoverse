@@ -80,7 +80,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Que signifie 'la galère' dans le langage courant ?",
-     opts:["Une situation très difficile","Un bateau ancien","Une fête réussie","Un repas copieux"],
+     opts:["Un repas copieux","Une situation très difficile","Un bateau ancien","Une fête réussie"],
      ans:"Une situation très difficile",
      hint:"Originally a slave ship. Now colloquially used for any painful, frustrating s...."},
 
@@ -131,7 +131,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot désigne le strict respect d'une doctrine religieuse ?",
-     opts:["l'intégrisme","le fédéralisme","l'idéalisation","la globalité"],
+     opts:["l'idéalisation","la globalité","l'intégrisme","le fédéralisme"],
      ans:"l'intégrisme",
      hint:"Originally about Catholic traditionalists, now used for any rigid religious or ideological doctrine."},
 

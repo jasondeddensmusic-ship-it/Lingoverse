@@ -105,7 +105,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 palabra describe algo incre\u00edble y sorprendente?",
-     opts:["asombroso","amistoso","angustioso","altivo"],
+     opts:["altivo","asombroso","amistoso","angustioso"],
      ans:"asombroso",
      hint:"This adjective originally meant 'to be cast into shadow', now means amazing."},
 

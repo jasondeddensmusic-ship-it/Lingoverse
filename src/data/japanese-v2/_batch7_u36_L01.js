@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"I said something unnecessary. {1}."},
 
     {type:"mc", q:"一期一会(いちごいちえ) originated from:",
-     opts:["Tea ceremony philosophy","Samurai code","Cooking tradition","Temple rituals"],
+     opts:["Temple rituals","Tea ceremony philosophy","Samurai code","Cooking tradition"],
      ans:"Tea ceremony philosophy",
      hint:"This concept comes from a traditional Japanese practice where each gathering is unique and unrepeatable."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"A little every day. {1}."},
 
     {type:"mc", q:"人間万事塞翁(にんげんばんじさいおう)が馬(うま) teaches:",
-     opts:["Good and bad fortune are unpredictable and cyclical","Horses are lucky","Old men are wise","Fortune always smiles"],
+     opts:["Old men are wise","Fortune always smiles","Good and bad fortune are unpredictable and cyclical","Horses are lucky"],
      ans:"Good and bad fortune are unpredictable and cyclical",
      hint:"The parable of Sai's horse shows luck and disaster endlessly reversing, teaching humility about fate."},
 

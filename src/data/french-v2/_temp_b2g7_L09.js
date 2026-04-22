@@ -80,7 +80,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot designe un riche protecteur des arts ?",
-     opts:["un mecene","un mecreant","un mentor","un mandataire"],
+     opts:["un mandataire","un mecene","un mecreant","un mentor"],
      ans:"un mecene",
      hint:"Named after the Roman Maecenas, patron of Virgil and Horace."},
 
@@ -113,7 +113,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'devenir mou' ou 'perdre sa determination' ?",
-     opts:["mollir","muer","menager","malmener"],
+     opts:["menager","malmener","mollir","muer"],
      ans:"mollir",
      hint:"From 'mou' (soft). To become weaker, like wind dying down."},
 

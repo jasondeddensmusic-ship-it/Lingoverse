@@ -1,4 +1,4 @@
-// Batch 4 — Unit 04, Lesson 2: Paying & Tipping at the Bar
+// Batch 4. Unit 04, Lesson 2: Paying & Tipping at the Bar
 const BATCH4_U04_L2 = {
   id:"itv2_u04l_b4_2", title:"Il conto", icon:"\uD83D\uDCB6", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U04_L2 = {
     ]},
 
     {type:"mc", q:"Perche in Italia i prezzi al banco e al tavolo sono diversi?",
-     opts:["Table service costs more than counter service","Counter coffee is lower quality","They charge per minute at the table","Foreigners pay more at the table"],
+     opts:["Foreigners pay more at the table","Table service costs more than counter service","Counter coffee is lower quality","They charge per minute at the table"],
      ans:"Table service costs more than counter service",
      hint:"Standing at the c... is the quick, cheaper option in Italian bars."},
 
@@ -126,7 +126,7 @@ const BATCH4_U04_L2 = {
      sSrc:"Today I'll {1} the coffee! You are my guest."},
 
     {type:"mc", q:"Cos'e lo 'scontrino fiscale'?",
-     opts:["A legally required tax receipt","A restaurant menu","A discount coupon","A parking ticket"],
+     opts:["A discount coupon","A parking ticket","A legally required tax receipt","A restaurant menu"],
      ans:"A legally required tax receipt",
      hint:"Italian law requires businesses to issue this and customers to keep it."},
 
@@ -136,7 +136,7 @@ const BATCH4_U04_L2 = {
      sSrc:"This restaurant is very {1}, but the food is excellent."},
 
     {type:"mc", q:"Qual e un modo gentile per dire 'cheap' in italiano?",
-     opts:["Economico","Caro","Gratis","A buon mercato"],
+     opts:["Caro","Gratis","A buon mercato","Economico"],
      ans:"Economico",
      hint:"This word implies good value without suggesting low quality."}
   ,{type:"match",pairs:[{trg:"il resto",src:"the change"},{trg:"la carta di credito",src:"the credit card"},{trg:"i contanti",src:"cash"},{trg:"costare",src:"to cost"},{trg:"il prezzo",src:"the price"},{trg:"offrire",src:"to treat / to offer (to pay for someone)"}]}]

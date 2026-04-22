@@ -86,7 +86,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Ou doit-on aller pour obtenir un titre de sejour en France ?",
-     opts:["a la prefecture","au tribunal","a la mairie","au conservatoire"],
+     opts:["au conservatoire","a la prefecture","au tribunal","a la mairie"],
      ans:"a la prefecture",
      hint:"The regional administrative headquarters. Known for long queues and paperwork."},
 
@@ -113,7 +113,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Quel lieu historique servait de salle de spectacle avec cafe ?",
-     opts:["le cafe-concert","la creperie","le conservatoire","le cabinet"],
+     opts:["le conservatoire","le cabinet","le cafe-concert","la creperie"],
      ans:"le cafe-concert",
      hint:"A 19th century entertainment venue. Where French popular song (chanson) was born."}
   ]

@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)の伝統芸能(でんとうげいのう)を三(みっ)つ挙(あ)げてください。",
-     opts:["Noh, Kabuki, Bunraku","Karate, Judo, Kendo","Sushi, Ramen, Tempura","Haiku, Tanka, Renga"],
+     opts:["Haiku, Tanka, Renga","Noh, Kabuki, Bunraku","Karate, Judo, Kendo","Sushi, Ramen, Tempura"],
      ans:"Noh, Kabuki, Bunraku",
      hint:"These three traditional performing arts are all UNESCO Intangible Cultural Heritage. They involve theater, not poetry or food."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"The nature descriptions in this novel are beautiful."},
 
     {type:"mc", q:"「人間国宝(にんげんこくほう)」は何(なん)ですか？",
-     opts:["Master artists designated as Living National Treasures","Famous politicians","Olympic athletes","University professors"],
+     opts:["Olympic athletes","University professors","Master artists designated as Living National Treasures","Famous politicians"],
      ans:"Master artists designated as Living National Treasures",
      hint:"This designation recognizes individuals who preserve important traditional artistic techniques at the highest level."}
   ,{type:"match",pairs:[{trg:"表現力(ひょうげんりょく)",src:"expressive power / expressiveness"},{trg:"伝統芸能(でんとうげいのう)",src:"traditional performing arts"},{trg:"描(えが)く",src:"to depict / to draw / to portray"},{trg:"想像力(そうぞうりょく)",src:"imagination / creative power"},{trg:"芸術家(げいじゅつか)",src:"artist"}]}]

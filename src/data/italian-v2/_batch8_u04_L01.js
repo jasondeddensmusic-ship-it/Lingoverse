@@ -1,4 +1,4 @@
-// Batch 8 ‚Äî Unit 04 extra lesson. Bar/Cafe: Pastries & Italian Breakfast
+// Batch 8. Unit 04 extra lesson. Bar/Cafe: Pastries & Italian Breakfast
 const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ü•ê", xp:15, board:true, steps:[
 {type:"intro", title:"La colazione italiana",
  desc:"Discover the world of Italian breakfast. Learn the vocabulary for pastries, spreads, and morning drinks.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ü•
 
 {type:"mc",
  q:"What does 'amaro' mean when ordering coffee?",
- opts:["Without sugar (bitter)","Extra sweet","With milk","Very hot"],
+ opts:["Very hot","Without sugar (bitter)","Extra sweet","With milk"],
  ans:"Without sugar (bitter)",
  hint:"It literally means 'b....' Italians who like unsweetened coffee use this word."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ü•
 
 {type:"mc",
  q:"What should you show the barista after paying at the cassa?",
- opts:["Lo scontrino (the receipt)","La carta (the card)","Il menu","Il cornetto"],
+ opts:["Il menu","Il cornetto","Lo scontrino (the receipt)","La carta (the card)"],
  ans:"Lo scontrino (the receipt)",
  hint:"In many Italian bars, you pay first at the register and receive a small paper proof of payment."}
 ,{type:"match",pairs:[{trg:"inzuppare",src:"to dunk / to dip"},{trg:"il bancone",src:"the counter (bar counter)"}]}]};

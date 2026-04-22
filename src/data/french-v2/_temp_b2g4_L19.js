@@ -86,7 +86,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Qui a invente le cinematographe ?",
-     opts:["Les freres Lumiere","Les freres Grimm","Les freres Wright","Les freres Montgolfier"],
+     opts:["Les freres Montgolfier","Les freres Lumiere","Les freres Grimm","Les freres Wright"],
      ans:"Les freres Lumiere",
      hint:"They were from Lyon and held their first screening in December 1895 in Paris."},
 
@@ -113,7 +113,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel adjectif decrit une personne souffrant d'une maladie ?",
-     opts:["atteint","attarde","agressif","approfondi"],
+     opts:["agressif","approfondi","atteint","attarde"],
      ans:"atteint",
      hint:"Past participle of 'atteindre'. In slang, it can also mean someone is crazy."}
   ]

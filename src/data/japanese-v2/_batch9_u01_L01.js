@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"おつかれさまです", src:"good work"}
     ]},
 
-    {type:"mc", q:"What does おつかれさまです express?", opts:["Acknowledgment of shared effort","An apology for being late","A greeting for the morning","Congratulations on success"], ans:"Acknowledgment of shared effort",
+    {type:"mc", q:"What does おつかれさまです express?", opts:["Congratulations on success","Acknowledgment of shared effort","An apology for being late","A greeting for the morning"], ans:"Acknowledgment of shared effort",
      hint:"This is the most common workplace phrase, used when colleagues finish tasks or leave for the day."},
 
     {type:"fb", s:"いらっしゃい！どうぞ。\n{1}。\n(Welcome! Please come in. Excuse me for intruding.)", a:"おじゃまします", opts:["おじゃまします","失礼(しつれい)します","お待(ま)たせしました","気(き)をつけて"], sSrc:"Welcome! Please come in.\nExcuse me for intruding.",

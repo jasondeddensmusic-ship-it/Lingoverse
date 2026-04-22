@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 16: Adjectifs Avancés
+// French B2 Gap Batch 9. Lesson 16: Adjectifs Avancés
 // Advanced adjectives for nuanced description
 
 const LESSON_16 = {id:"frv2_b2g9_l16", title:"Adjectifs Avancés", icon:"🎯", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_16 = {id:"frv2_b2g9_l16", title:"Adjectifs Avancés", icon:"🎯", 
    exampleSrc:"A: This is not an ordinary event.\nB: It's something extraordinary.",
    funFact:"Banal originally meant 'communal' (the banal mill everyone had to use). It shifted to 'ordinary'."},
 
-  {type:"mc", q:"'En piteux état' signifie:", opts:["En excellent état","En très mauvais état","En état normal","En construction"], ans:"En très mauvais état",
+  {type:"mc", q:"'En piteux état' signifie:", opts:["En très mauvais état","En état normal","En construction","En excellent état"], ans:"En très mauvais état",
    hint:"Piteux comes from pitié (pity). Something so bad it inspires pity."},
 
   {type:"teach", trg:"pharaonique", src:"pharaonic, megalomaniac", pos:"adj", gender:null,
@@ -117,7 +117,7 @@ const LESSON_16 = {id:"frv2_b2g9_l16", title:"Adjectifs Avancés", icon:"🎯", 
     {trg:"banal", src:"commonplace"}
   ]},
 
-  {type:"mc", q:"Originel et original sont:", opts:["Des synonymes parfaits","Originel = des origines, original = créatif","Le même mot avec deux orthographes","Des antonymes"], ans:"Originel = des origines, original = créatif",
+  {type:"mc", q:"Originel et original sont:", opts:["Des antonymes","Des synonymes parfaits","Originel = des origines, original = créatif","Le même mot avec deux orthographes"], ans:"Originel = des origines, original = créatif",
    hint:"O... relates to origins and beginnings. O... relates to creativity and uniqueness."},
 
   {type:"fb", s:"Le versement {1} met fin à la dette.", a:["libératoire"], opts:["libératoire","patrimonial","physiologique","phosphorescent"],

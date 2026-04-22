@@ -1,4 +1,4 @@
-// Batch 4 — Unit 15 Lesson 1: At the Station & On the Train
+// Batch 4. Unit 15 Lesson 1: At the Station & On the Train
 const BATCH4_L_1 = {
   id:"jav2_u15l_b4_1", title:"駅(えき)と電車(でんしゃ)", icon:"🚃", xp:15, board:true,
   steps:[
@@ -101,7 +101,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"Train types from slowest to fastest:",
-     opts:["local, rapid, express, limited express","express, rapid, local, limited","limited, express, rapid, local","rapid, local, express, limited"], ans:"local, rapid, express, limited express",
+     opts:["rapid, local, express, limited","local, rapid, express, limited express","express, rapid, local, limited","limited, express, rapid, local"], ans:"local, rapid, express, limited express",
      hint:"各駅停車, 快速, 急行, 特急 in speed order."},
 
     {type:"fb", s:"{1}に一時間(いちじかん)かかります。", a:"通勤(つうきん)",
@@ -110,11 +110,11 @@ const BATCH4_L_1 = {
      hint:"The daily journey from home to your workplace."},
 
     {type:"mc", q:"What is a 遅延証明書?",
-     opts:["a delay certificate from the railway","a ticket refund","a schedule change notice","a lost item report"], ans:"a delay certificate from the railway",
+     opts:["a schedule change notice","a lost item report","a delay certificate from the railway","a ticket refund"], ans:"a delay certificate from the railway",
      hint:"Given to passengers so they can prove to employers why they were late."},
 
     {type:"mc", q:"運転見合(うんてんみあ)わせ means:",
-     opts:["suspension of train service","delay","schedule change","extra train"], ans:"suspension of train service",
+     opts:["delay","schedule change","extra train","suspension of train service"], ans:"suspension of train service",
      hint:"When trains completely stop running on a line."}
   ,{type:"match",pairs:[{trg:"快速(かいそく)",src:"rapid train"},{trg:"急行(きゅうこう)",src:"express train"},{trg:"時刻表(じこくひょう)",src:"timetable / schedule"},{trg:"運転見合(うんてんみあ)わせ",src:"suspension of service"},{trg:"終電(しゅうでん)",src:"last train"},{trg:"線路(せんろ)",src:"railway track / rail line"}]},{type:"match",pairs:[{trg:"手数料(てすうりょう)",src:"handling fee / service charge"}]}]
 };

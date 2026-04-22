@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: May I consult with my supervisor?\nB: Of course, please consult anytime.\nA: What was it like?\nB: It was much better than I imagined.",
      funFact:"相談 combines 相 (mutual) and 談 (talk). Japanese workplaces run on ほうれんそう (報連相): ほうこく (report), れんらく (contact), and そうだん (consult). This trio is drilled into every new employee. Failing to そうだん before making decisions is one of the fastest ways to damage workplace trust."},
 
-    {type:"mc", q:"ていただけませんか is:", opts:["a casual request form","the most polite standard request form","a way to refuse a request","an apology expression"], ans:"the most polite standard request form",
+    {type:"mc", q:"ていただけませんか is:", opts:["the most polite standard request form","a way to refuse a request","an apology expression","a casual request form"], ans:"the most polite standard request form",
      hint:"This negative question f... with いただく creates maximum politeness for asking favors."},
 
     {type:"teach", trg:"たのむ", src:"to request / to ask a favor / to order (food)", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_5 = {
     {type:"fb", s:"{1}をおかけしてすみません。\n(I am sorry for causing you trouble.)", a:"めいわく", opts:["めいわく","きもち","おれい","おかえし"], sSrc:"I am sorry for causing you trouble.",
      hint:"The word for nuisance or bother, used in one of Japan's most common apology patterns."},
 
-    {type:"mc", q:"きをつかう means:", opts:["to be careful","to be considerate of others","to be annoyed","to pay money"], ans:"to be considerate of others",
+    {type:"mc", q:"きをつかう means:", opts:["to pay money","to be careful","to be considerate of others","to be annoyed"], ans:"to be considerate of others",
      hint:"Literally 'using your spirit,' this describes the mental effort of being thoughtful."},
 
     {type:"match", pairs:[{trg:"めいわく",src:"trouble/bother"},{trg:"きをつかう",src:"to be considerate"},{trg:"ひきうける",src:"to undertake"},{trg:"そうだんする",src:"to consult"}]},

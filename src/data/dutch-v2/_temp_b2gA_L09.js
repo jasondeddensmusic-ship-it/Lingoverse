@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 09: Financien & Administratie
+// B2 Gap Batch A. Lesson 09: Financien & Administratie
 // Theme: Finance, costs, accounting
 
 const LESSON_9 = {id:"nlv2_b2gA_l9", title:"Financien & Administratie", icon:"\u{1F4B0}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_9 = {id:"nlv2_b2gA_l9", title:"Financien & Administratie", icon:"\u
    sSrc:"If you don't pay on time, collection costs are added."},
 
   {type:"mc", q:"Wat is uw burgerservicenummer? Wat is het 'burgerservicenummer'?",
-   opts:["the Dutch citizen service number, like a social security number","a phone number for government services","a bank account number","a postal code"],
+   opts:["a postal code","the Dutch citizen service number, like a social security number","a phone number for government services","a bank account number"],
    ans:"the Dutch citizen service number, like a social security number",
    hint:"Burger (c...) + s... + nummer. A unique ID n... for every D... resident."},
 
@@ -77,7 +77,7 @@ const LESSON_9 = {id:"nlv2_b2gA_l9", title:"Financien & Administratie", icon:"\u
   ]},
 
   {type:"mc", q:"U heeft recht op inzage in uw dossier. Wat is 'inzage'?",
-   opts:["the right to view or inspect documents","a type of insurance","a medical procedure","a court hearing"],
+   opts:["a medical procedure","a court hearing","the right to view or inspect documents","a type of insurance"],
    ans:"the right to view or inspect documents",
    hint:"From inzien (to look into). The formal r... to examine records or files."},
 

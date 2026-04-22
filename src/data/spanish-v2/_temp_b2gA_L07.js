@@ -1,4 +1,4 @@
-// Lesson 7 — Épocas históricas
+// Lesson 7. Épocas históricas
 const LESSON_7 = {id:"esv2_b2gA_l7", title:"Épocas históricas", icon:"🏛️", xp:15, board:true, steps:[
 {type:"intro", title:"Épocas históricas", desc:"Learn vocabulary for discussing historical periods, ages, and archaeological discoveries.", goals:["Learn 15 history and archaeology terms","Discuss historical periods in Spanish","Use formal register for historical topics"]},
 
@@ -57,7 +57,7 @@ const LESSON_7 = {id:"esv2_b2gA_l7", title:"Épocas históricas", icon:"🏛️"
  exampleSrc:"A: The soldiers formed a perfect row.\nB: Military discipline demanded absolute order.",
  funFact:"From hilo (thread). Picture items strung along a thread, one after another."},
 
-{type:"mc", q:"¿Qué significa 'neolítico'?", opts:["Relativo a la Nueva Edad de Piedra","Un tipo de roca muy antigua","Una forma de arte prehistórico","Un material de construcción"], ans:"Relativo a la Nueva Edad de Piedra",
+{type:"mc", q:"¿Qué significa 'neolítico'?", opts:["Un material de construcción","Relativo a la Nueva Edad de Piedra","Un tipo de roca muy antigua","Una forma de arte prehistórico"], ans:"Relativo a la Nueva Edad de Piedra",
  hint:"The prefix 'neo-' means new, and '-lítico' relates to stone (Greek lithos)."},
 
 {type:"fb", s:"Los pueblos {1} empezaron a cultivar la tierra y criar animales.", a:["neolíticos"], opts:["neolíticos","contemporáneos","antiguos","medievales"],
@@ -94,7 +94,7 @@ const LESSON_7 = {id:"esv2_b2gA_l7", title:"Épocas históricas", icon:"🏛️"
  hint:"This noun means a flagpole. At half height, it signals mourning.",
  sSrc:"The flag was at half {1} as a sign of mourning."},
 
-{type:"mc", q:"¿De qué idioma viene la palabra 'nuca'?", opts:["Del árabe","Del latín","Del griego","Del francés"], ans:"Del árabe",
+{type:"mc", q:"¿De qué idioma viene la palabra 'nuca'?", opts:["Del griego","Del francés","Del árabe","Del latín"], ans:"Del árabe",
  hint:"Many Spanish body-related words come from the language of the Moors."},
 
 {type:"drag_fill", s:"En la {1} se usaban herramientas de {2}.", blanks:{"1":"Edad de Hierro","2":"metal"}, pool:["Edad de Hierro","metal","piedra","arcabuz"],

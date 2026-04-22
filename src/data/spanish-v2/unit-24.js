@@ -1,4 +1,4 @@
-// Unit 24 — El Mundo Laboral
+// Unit 24. El Mundo Laboral
 // Work Culture & Formal Register
 
 export default {n:24,lang:"es",srcLang:"en",track:"v2",title:"El Mundo Laboral",sub:"Work Culture & Formal Register",icon:"💼",level:"B1.4",color:"#7B5EE8",lessons:[
@@ -232,9 +232,9 @@ export default {n:24,lang:"es",srcLang:"en",track:"v2",title:"El Mundo Laboral",
     {type:"tip",title:"Formal Register at the Ventanilla",text:"When speaking to officials at government offices, use usted (formal you):\n\nInformal: ¿Puedes ayudarme?\nFormal: ¿Podría ayudarme? (Could you help me?)\n\nKey polite phrases:\nNecesito renovar mi NIE. (I need to renew my NIE.)\n¿Qué documentos necesito? (What documents do I need?)\nMe gustaría pedir una cita. (I would like to book an appointment.)\n\nSpain uses the usted form consistently in any official or institutional context.",deepDive:"The subjunctive often appears in formal requests: 'Quisiera que me ayudara' (I would like you to help me). Using it signals you are comfortable with formal Spanish. At B1 level, the conditional alone (Podría, Quisiera) already sounds polished.",icon:"🏛️"},
     {type:"mc",q:"¿Cómo se llama en español el papel oficial que necesitas para hacer un trámite?",opts:["el documento","el correo electrónico","el proyecto","la reunión"],ans:"el documento",hint:"The general word for any official paper you carry to an office."},
     {type:"mc",q:"A foreigner living in Spain needs ___ to open a bank account.",opts:["el DNI","el NIE","el formulario","la ventanilla"],ans:"el NIE",hint:"This is the identification number specifically for non-Spanish residents."},
-    {type:"mc",q:"¿Qué hace el empleado en la ventanilla?",opts:["Rellena un formulario","Atiende al público","Renueva el pasaporte","Pide una cita"],ans:"Atiende al público",hint:"A person working at the counter is there to serve the people waiting in the queue."},
+    {type:"mc",q:"¿Qué hace el empleado en la ventanilla?",opts:["Pide una cita","Rellena un formulario","Atiende al público","Renueva el pasaporte"],ans:"Atiende al público",hint:"A person working at the counter is there to serve the people waiting in the queue."},
     {type:"fb",opts:["renovar","rellenar","pedir","traer"],hint:"The verb meaning to make a document valid again for a new period.",s:"Mi pasaporte caduca pronto. Tengo que {1}lo.",a:"renovar"},
-    {type:"mc",q:"¿Qué es un 'trámite'?",opts:["An identity document","A step in an official procedure","A type of form","A service window"],ans:"A step in an official procedure",hint:"The word describes the individual steps you must complete within a larger administrative process."},
+    {type:"mc",q:"¿Qué es un 'trámite'?",opts:["A type of form","A service window","An identity document","A step in an official procedure"],ans:"A step in an official procedure",hint:"The word describes the individual steps you must complete within a larger administrative process."},
     {type:"fb",opts:["formulario","documento","NIE","trámite"],hint:"The paper you fill in with your personal details when making an official request.",s:"Para pedir el NIE, primero hay que rellenar un {1}.",a:"formulario"},
     {type:"match",pairs:[{trg:"el NIE",src:"foreigner ID number"},{trg:"el DNI",src:"national ID card"},{trg:"el formulario",src:"the form"},{trg:"la ventanilla",src:"the service window"},{trg:"renovar",src:"to renew"},{trg:"el trámite",src:"an administrative step / procedure"}]}
   ]}

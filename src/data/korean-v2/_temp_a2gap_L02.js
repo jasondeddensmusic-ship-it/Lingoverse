@@ -93,7 +93,7 @@ const LESSON_2 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"식당에서 음식을 주문하는 사람은?",
-     opts:["손님","주인","아기","부인"],
+     opts:["부인","손님","주인","아기"],
      ans:"손님",
      hint:"This word contains an honorific suffix and means both 'guest' and 'customer.'"},
 
@@ -145,7 +145,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"누군가를 소개할 때 높여서 '이 사람' 대신 뭐라고 해요?",
-     opts:["이분","그분","댁","여러분"],
+     opts:["댁","여러분","이분","그분"],
      ans:"이분",
      hint:"Replace the neutral 사람 with the honorific counter for people when they are nearby."},
 
@@ -165,7 +165,7 @@ const LESSON_2 = {
     // --- Final quiz block ---
     {type:"mc",
      q:"한국 사람들이 자기 나라를 부르는 말은?",
-     opts:["우리나라","고향","댁","나라"],
+     opts:["고향","댁","나라","우리나라"],
      ans:"우리나라",
      hint:"This phrase uses the collective 'we/our' instead of a formal country name."},
 

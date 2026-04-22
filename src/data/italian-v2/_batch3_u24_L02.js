@@ -1,4 +1,4 @@
-// Batch 3 — Unit 24, Lesson 2: Proverbi e modi di dire (Proverbs & Idioms with Conditionals)
+// Batch 3. Unit 24, Lesson 2: Proverbi e modi di dire (Proverbs & Idioms with Conditionals)
 const BATCH3_U24_L2 = {
   id:"itv2_u24l_b3_2", title:"Proverbi e modi di dire", icon:"\uD83D\uDCDD", xp:15, board:true,
   steps:[
@@ -80,7 +80,7 @@ const BATCH3_U24_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'chi vivrà vedrà' express?",
-     opts:["Urgency to act immediately","Patience: time will reveal the outcome","Fear of the unknown future","A specific promise to return"],
+     opts:["Patience: time will reveal the outcome","Fear of the unknown future","A specific promise to return","Urgency to act immediately"],
      ans:"Patience: time will reveal the outcome",
      hint:"Literally 'who will live, will see.' Italian philosophical p.... Trust t... to r... truth rather than making premature judgments."},
 
@@ -110,7 +110,7 @@ const BATCH3_U24_L2 = {
      sSrc:"We {1} take the bus."},
 
     {type:"mc", q:"What does 'semmai' do in Italian conversation?",
-     opts:["It strongly agrees with the speaker","It gently redirects or corrects a statement","It expresses anger and disagreement","It asks for more information"],
+     opts:["It asks for more information","It strongly agrees with the speaker","It gently redirects or corrects a statement","It expresses anger and disagreement"],
      ans:"It gently redirects or corrects a statement",
      hint:"'If anything, the truth is the opposite.' Italian conversation values indirect correction. This elegant word achieves that perfectly."},
 
@@ -121,7 +121,7 @@ const BATCH3_U24_L2 = {
      sSrc:"{1} it rains. What do we do?"},
 
     {type:"mc", q:"What does 'farei meglio a partire presto' mean?",
-     opts:["I absolutely must leave early","I had better leave early (self-advice)","I refuse to leave early","I will definitely leave early"],
+     opts:["I refuse to leave early","I will definitely leave early","I absolutely must leave early","I had better leave early (self-advice)"],
      ans:"I had better leave early (self-advice)",
      hint:"Softer than 'devo partire.' The conditional of 'fare' + 'meglio a' creates gentle s...-a... rather than obligation."}
   ,{type:"match",pairs:[{trg:"se Dio vuole",src:"God willing / hopefully"},{trg:"a pensarci bene",src:"come to think of it / on reflection"},{trg:"per quanto ne so",src:"as far as I know"}]},{type:"mc",q:"How do you say \"if not now, when?\" in Italian?",opts:["se non ora, quando?","la finestra","il tavolo","la bicicletta"],ans:"se non ora, quando?",hint:"Recall the Italian vocabulary word taught in this lesson."}]

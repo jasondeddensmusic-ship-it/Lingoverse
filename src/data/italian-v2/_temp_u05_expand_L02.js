@@ -85,7 +85,7 @@ const LESSON_5 = {
      sSrc:"The cat is {1} the table."},
 
     {type:"mc", q:"What is the difference between 'su' and 'sopra'?",
-     opts:["Su = touching, sopra = not touching","They are identical","Su = above, sopra = on","Sopra is informal"],
+     opts:["Sopra is informal","Su = touching, sopra = not touching","They are identical","Su = above, sopra = on"],
      ans:"Su = touching, sopra = not touching",
      hint:"The cat ON the table (t...) uses 'su.' The lamp ABOVE the table (hanging, not t...) uses 's....'"},
 
@@ -104,7 +104,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"Why are 'tra' and 'fra' interchangeable?",
-     opts:["Italians choose whichever sounds better with surrounding words","Fra is formal","Tra is old Italian","They have slightly different meanings"],
+     opts:["Tra is old Italian","They have slightly different meanings","Italians choose whichever sounds better with surrounding words","Fra is formal"],
      ans:"Italians choose whichever sounds better with surrounding words",
      hint:"These two forms exist for phonetic variety. 'Tra tre' s... bad, so use 'fra tre.' 'Fra fratelli' s... bad, so use 'tra fratelli.'"},
 
@@ -115,7 +115,7 @@ const LESSON_5 = {
      sSrc:"The children are {1}, in the garden."},
 
     {type:"mc", q:"What does 'dentro' mean?",
-     opts:["Inside","Outside","Above","Between"],
+     opts:["Outside","Above","Between","Inside"],
      ans:"Inside",
      hint:"The opposite of 'fuori.' From Latin 'de intro' (from within). Think of 'interior.'"},
 

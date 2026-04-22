@@ -73,7 +73,7 @@ const LESSON_6 = {id:"esv2_b2g8_l6",title:"Industria y fabricación",icon:"🏭"
  funFact:"'Mejora' is everyday, 'mejoramiento' is technical/formal. Both come from mejorar (to improve)."},
 
 {type:"mc",q:"Si un precio puede estar entre 50 y 100 euros, ¿cómo se llama ese rango?",
- opts:["Horquilla de precios","Mecanismo de precios","Autoservicio de precios","Hilera de precios"],
+ opts:["Hilera de precios","Horquilla de precios","Mecanismo de precios","Autoservicio de precios"],
  ans:"Horquilla de precios",
  hint:"A word that literally means hairpin or fork, used in business for a range of values."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {id:"esv2_b2g8_l6",title:"Industria y fabricación",icon:"🏭"
 ]},
 
 {type:"mc",q:"¿Qué sufijo español crea sustantivos que significan 'contenedor de algo'?",
- opts:["-ero (llavero, monedero)","-ción (finalización)","-miento (mejoramiento)","-ura (dureza)"],
+ opts:["-miento (mejoramiento)","-ura (dureza)","-ero (llavero, monedero)","-ción (finalización)"],
  ans:"-ero (llavero, monedero)",
  hint:"Think about llave > l..., moneda > m.... What ending do they share?"}
 ]};

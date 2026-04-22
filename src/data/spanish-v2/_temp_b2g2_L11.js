@@ -90,7 +90,7 @@ const LESSON_11 = {id:"esv2_b2g2_l11",title:"Cocina y alimentos",icon:"🍳",xp:
  exampleSrc:"A: This chocolate shop has been open since 1895.\nB: Their hot chocolate with churros is legendary.",
  funFact:"San Ginés in Madrid is Spain's most famous chocolatería, open since 1894."},
 
-{type:"mc",q:"¿Qué es un champiñón?",opts:["Un tipo de seta comestible","Una especia aromática","Un trozo de pan","Un utensilio de cocina"],ans:"Un tipo de seta comestible",hint:"Think about the common white button mushroom used on pizza and in many dishes."},
+{type:"mc",q:"¿Qué es un champiñón?",opts:["Un utensilio de cocina","Un tipo de seta comestible","Una especia aromática","Un trozo de pan"],ans:"Un tipo de seta comestible",hint:"Think about the common white button mushroom used on pizza and in many dishes."},
 
 {type:"teach",trg:"el amoníaco",src:"the ammonia",pos:"noun",gender:"m",
  note:"Masculine noun. A pungent chemical used in cleaning products.",

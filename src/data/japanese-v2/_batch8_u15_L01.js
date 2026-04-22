@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"交差点(こうさてん)",src:"intersection"},{trg:"信号(しんごう)",src:"traffic light"},{trg:"改札口(かいさつぐち)",src:"ticket gate"},{trg:"乗(の)り場(ば)",src:"boarding area"},{trg:"地下鉄(ちかてつ)",src:"subway"}],
      hint:"Match each navigation term with its English meaning."},
 
-    {type:"mc", q:"What is 歩行者天国(ほこうしゃてんごく)?", opts:["A car-free pedestrian zone on weekends","A religious festival","A type of crosswalk","An underground passage"], ans:"A car-free pedestrian zone on weekends",
+    {type:"mc", q:"What is 歩行者天国(ほこうしゃてんごく)?", opts:["An underground passage","A car-free pedestrian zone on weekends","A religious festival","A type of crosswalk"], ans:"A car-free pedestrian zone on weekends",
      hint:"The name literally means 'p... paradise' or 'p... heaven.'"},
 
     {type:"fb", s:"{1}で待(ま)っています。\n(I am waiting at the ticket gate.)", a:"改札口(かいさつぐち)", opts:["改札口(かいさつぐち)","乗(の)り場(ば)","交差点(こうさてん)","駅近(えきちか)"], sSrc:"I am waiting at the ticket gate.",
      hint:"This is where you tap your IC card or insert your ticket to enter a station."},
 
-    {type:"mc", q:"What is special about Japanese 地下街(ちかがい)?", opts:["Elaborate underground shopping networks beneath stations","Museums built underground","Parking structures under buildings","Secret tunnels from World War II"], ans:"Elaborate underground shopping networks beneath stations",
+    {type:"mc", q:"What is special about Japanese 地下街(ちかがい)?", opts:["Parking structures under buildings","Secret tunnels from World War II","Elaborate underground shopping networks beneath stations","Museums built underground"], ans:"Elaborate underground shopping networks beneath stations",
      hint:"You can walk for kilometers u..., staying dry in rain and connected to s...."}
   ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / sign / mark"},{trg:"踏切(ふみきり)",src:"railroad crossing"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"},{trg:"駅近(えきちか)",src:"near the station / station area"},{trg:"地下街(ちかがい)",src:"underground shopping area"},{trg:"地図(ちず)",src:"map"}]},{type:"match",pairs:[{trg:"歩行者天国(ほこうしゃてんごく)",src:"pedestrian paradise (car-free zone)"}]}]
 };

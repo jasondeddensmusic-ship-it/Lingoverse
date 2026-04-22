@@ -1,4 +1,4 @@
-// Batch 6 — Unit 20 extra lesson. L'istruzione: School Life & Academic Vocabulary
+// Batch 6. Unit 20 extra lesson. L'istruzione: School Life & Academic Vocabulary
 const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3EB}", xp:15, board:true, steps:[
 {type:"intro", title:"La vita scolastica",
  desc:"Learn vocabulary for the Italian school system, academic life, and student experiences.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
 ]},
 
 {type:"mc", q:"Cosa succede se uno studente viene 'bocciato'?",
- opts:["Must repeat the entire year","Gets a warning","Takes extra classes","Changes schools"],
+ opts:["Changes schools","Must repeat the entire year","Gets a warning","Takes extra classes"],
  ans:"Must repeat the entire year",
  hint:"The opposite of being promoted. The student stays in the same grade."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u20l_b6_1", title:"La vita scolastica", icon:"\u{1F3
  sSrc:"I won a {1} to study at university."},
 
 {type:"mc", q:"Cos'e la 'maturita' nel sistema scolastico italiano?",
- opts:["The final high school exam at age 18","A university entrance exam","A middle school test","A scholarship competition"],
+ opts:["A middle school test","A scholarship competition","The final high school exam at age 18","A university entrance exam"],
  ans:"The final high school exam at age 18",
  hint:"The crucial e... that every Italian student must pass to graduate from h... s...."},
 

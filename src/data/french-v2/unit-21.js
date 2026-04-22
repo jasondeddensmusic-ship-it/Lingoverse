@@ -1,4 +1,4 @@
-// Unit 21 — Le Gérondif
+// Unit 21. Le Gérondif
 // Gerund and present participle
 
 import COVERAGE_U21 from './_coverage_u21.js';

@@ -1,4 +1,4 @@
-// L01: Kunst en Cultuur — Art and Culture
+// L01: Kunst en Cultuur. Art and Culture
 const LESSON_1 = {
   id:"nlv2_b2gD_l01", title:"Kunst en Cultuur", icon:"\u{1F3A8}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Welk woord beschrijft iets dat niet natuurlijk is, maar door mensen gemaakt?",
-     opts:["kunstmatig","kunsthistorisch","kundig","kostbaar"],
+     opts:["kostbaar","kunstmatig","kunsthistorisch","kundig"],
      ans:"kunstmatig",
      hint:"This adjective uses 'kunst' in the sense of 'crafted by humans'. Think of how 'artificial' relates to 'art'."},
 

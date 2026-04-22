@@ -80,7 +80,7 @@ lessons:[
  sSrc:"The exam {1} came out, I did very well."},
 
 {type:"mc", q:"天气(tiānqì)对(duì)我(wǒ)的(de)计划(jìhuà)有(yǒu)很(hěn)大(dà)的(de)___。",
- opts:["影响(yǐngxiǎng)","原因(yuányīn)","结果(jiéguǒ)","因为(yīnwèi)"],
+ opts:["因为(yīnwèi)","影响(yǐngxiǎng)","原因(yuányīn)","结果(jiéguǒ)"],
  ans:"影响(yǐngxiǎng)",
  hint:"The weather has a big ___ on my plans. Which word means 'influence' or 'effect'?"}
 ]},
@@ -146,7 +146,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"___你(nǐ)每天(měitiān)复习(fùxí)，就(jiù)能(néng)记住(jìzhù)。",
- opts:["只要(zhǐyào)","不但(búdàn)","所以(suǒyǐ)","而且(érqiě)"],
+ opts:["而且(érqiě)","只要(zhǐyào)","不但(búdàn)","所以(suǒyǐ)"],
  ans:"只要(zhǐyào)",
  hint:"This connector sets a minimum condition: 'you only need to do this one thing' for the result."},
 
@@ -157,7 +157,7 @@ lessons:[
  sSrc:"This place is not only beautiful, {1} very quiet."},
 
 {type:"mc", q:"Which sentence correctly uses 如果...就?",
- opts:["如果(rúguǒ)你(nǐ)来(lái)，我(wǒ)就(jiù)很(hěn)高兴(gāoxìng)。","就(jiù)你(nǐ)来(lái)，如果(rúguǒ)我(wǒ)高兴(gāoxìng)。","我(wǒ)如果(rúguǒ)就(jiù)来(lái)你(nǐ)高兴(gāoxìng)。","因为(yīnwèi)你(nǐ)来(lái)，而且(érqiě)我(wǒ)高兴(gāoxìng)。"],
+ opts:["我(wǒ)如果(rúguǒ)就(jiù)来(lái)你(nǐ)高兴(gāoxìng)。","因为(yīnwèi)你(nǐ)来(lái)，而且(érqiě)我(wǒ)高兴(gāoxìng)。","如果(rúguǒ)你(nǐ)来(lái)，我(wǒ)就(jiù)很(hěn)高兴(gāoxìng)。","就(jiù)你(nǐ)来(lái)，如果(rúguǒ)我(wǒ)高兴(gāoxìng)。"],
  ans:"如果(rúguǒ)你(nǐ)来(lái)，我(wǒ)就(jiù)很(hěn)高兴(gāoxìng)。",
  hint:"The condition goes after 如果, then a comma, then 就 introduces the result."},
 
@@ -223,7 +223,7 @@ lessons:[
  funFact:"关系 (guanxi) is a cornerstone of Chinese social culture. Your 'guanxi network' (personal connections) can determine job opportunities, business deals, and social standing. It is studied in business schools worldwide."},
 
 {type:"mc", q:"除了(chúle)小王(Xiǎo Wáng)以外(yǐwài)，大家(dàjiā)都(dōu)来(lái)了(le)。 What does this mean?",
- opts:["Everyone came, including Xiao Wang","Everyone came except Xiao Wang","Only Xiao Wang came","Nobody came besides Xiao Wang"],
+ opts:["Everyone came except Xiao Wang","Only Xiao Wang came","Nobody came besides Xiao Wang","Everyone came, including Xiao Wang"],
  ans:"Everyone came except Xiao Wang",
  hint:"When 除了...以外 is followed by 都, it creates an exclusion. ___ did something, but one person did not."},
 
@@ -242,7 +242,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我们(wǒmen)需要(xūyào)想(xiǎng)一(yí)个(gè)___来(lái)解决(jiějué)这(zhè)个(ge)问题(wèntí)。",
- opts:["办法(bànfǎ)","结果(jiéguǒ)","原因(yuányīn)","情况(qíngkuàng)"],
+ opts:["情况(qíngkuàng)","办法(bànfǎ)","结果(jiéguǒ)","原因(yuányīn)"],
  ans:"办法(bànfǎ)",
  hint:"We need to think of a ___ to solve this problem. Which word means 'method' or 'solution'?"},
 
@@ -253,7 +253,7 @@ lessons:[
  sSrc:"He is very hardworking, {1} his grades are very good."},
 
 {type:"mc", q:"现在(xiànzài)的(de)___怎么样(zěnmeyàng)了(le)？",
- opts:["情况(qíngkuàng)","办法(bànfǎ)","关系(guānxi)","导致(dǎozhì)"],
+ opts:["关系(guānxi)","导致(dǎozhì)","情况(qíngkuàng)","办法(bànfǎ)"],
  ans:"情况(qíngkuàng)",
  hint:"You are asking 'How is the current ___?' Which noun describes the state of affairs?"},
 
@@ -270,7 +270,7 @@ lessons:[
  hint:"The weather was bad (cause), so the activity was canceled (effect). Use the cause-effect pair."},
 
 {type:"mc", q:"Which word carries a negative tone and is used for unwanted consequences?",
- opts:["导致(dǎozhì)","解决(jiějué)","办法(bànfǎ)","关系(guānxi)"],
+ opts:["解决(jiějué)","办法(bànfǎ)","关系(guānxi)","导致(dǎozhì)"],
  ans:"导致(dǎozhì)",
  hint:"This verb means 'to cause' or 'to lead to' and usually introduces bad results."}
 ]}
@@ -331,7 +331,7 @@ lessons:[
   text:"Just as 为了/因为 are contrasted in connectors, 目的 and 原因 form a parallel noun pair:\n\n原因(yuányīn) = reason (why something happened)\n目的(mùdì) = purpose (what you are trying to achieve)\n\n你(nǐ)的(de)原因(yuányīn)是(shì)什么(shénme)？\nWhat is your reason? (Why did it happen?)\n\n你(nǐ)的(de)目的(mùdì)是(shì)什么(shénme)？\nWhat is your goal? (What are you aiming for?)\n\nUsing the right word shows precision in formal writing and the HSK 3 exam."}},
 
 {type:"mc", q:"我(wǒ)___参加(cānjiā)了(le)考试(kǎoshì)，但(dàn)结果(jiéguǒ)不(bù)好(hǎo)。",
- opts:["发现(fāxiàn)","表示(biǎoshì)","终于(zhōngyú)","为了(wèile)"],
+ opts:["终于(zhōngyú)","为了(wèile)","发现(fāxiàn)","表示(biǎoshì)"],
  ans:"终于(zhōngyú)",
  hint:"I ___ took the exam (finally, after waiting). Which word expresses relief after a long wait?"},
 
@@ -352,7 +352,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"图书馆(túshūguǎn)就(jiù)在(zài)公园(gōngyuán)___，走路(zǒulù)五(wǔ)分钟(fēnzhōng)。",
- opts:["附近(fùjìn)","目的(mùdì)","生活(shēnghuó)","情况(qíngkuàng)"],
+ opts:["情况(qíngkuàng)","附近(fùjìn)","目的(mùdì)","生活(shēnghuó)"],
  ans:"附近(fùjìn)",
  hint:"The library is ___ the park, five minutes on foot. Which word describes a close location?"},
 
@@ -363,7 +363,7 @@ lessons:[
  sSrc:"I discovered a good {1} that can solve this problem."},
 
 {type:"mc", q:"你(nǐ)学习(xuéxí)汉语(Hànyǔ)的(de)___是(shì)什么(shénme)？",
- opts:["目的(mùdì)","附近(fùjìn)","生活(shēnghuó)","参加(cānjiā)"],
+ opts:["生活(shēnghuó)","参加(cānjiā)","目的(mùdì)","附近(fùjìn)"],
  ans:"目的(mùdì)",
  hint:"What is your ___ for learning Chinese? Which noun means 'purpose' or 'goal'?"},
 
@@ -376,7 +376,7 @@ lessons:[
 
 ,
 
-// ─── L5: HSK 3/4 Abstract Words — Attitudes and Change ───
+// ─── L5: HSK 3/4 Abstract Words. Attitudes and Change ───
 {id:"zhv2_u16l_hsk3_4_abstract", title:"态度与变化(tàidu yǔ biànhuà) Attitudes and Change", icon:"🔄", xp:20, board:true, steps:[
 {type:"intro", title:"Attitudes and Change",
  desc:"Learn 9 essential HSK 3/4 words for expressing attitudes, decisions, and change. These high-frequency words appear in everyday conversation, formal writing, and the HSK 3 and 4 exams.",
@@ -453,7 +453,7 @@ lessons:[
  sSrc:"I {1} this result, so I am very satisfied."},
 
 {type:"mc", q:"问题(wèntí)___了(le)，情况(qíngkuàng)越(yuè)来(lái)越(yuè)复杂(fùzá)。",
- opts:["增加(zēngjiā)","减少","接受(jiēshòu)","相同(xiāngtóng)"],
+ opts:["相同(xiāngtóng)","增加(zēngjiā)","减少","接受(jiēshòu)"],
  ans:"增加(zēngjiā)",
  hint:"The problems ___, the situation gets more and more complex. Which verb means 'to increase'?"},
 
@@ -472,7 +472,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"他(tā)对(duì)工作(gōngzuò)的(de)___很(hěn)认真(rènzhēn)，所以(suǒyǐ)大家(dàjiā)都(dōu)很(hěn)满意(mǎnyì)。",
- opts:["态度(tàidu)","条件(tiáojiàn)","原因(yuányīn)","结果(jiéguǒ)"],
+ opts:["原因(yuányīn)","结果(jiéguǒ)","态度(tàidu)","条件(tiáojiàn)"],
  ans:"态度(tàidu)",
  hint:"His ___ toward work is very serious. Which noun means 'attitude' or 'manner'?"},
 
@@ -483,7 +483,7 @@ lessons:[
  sSrc:"I need to understand all the {1} before deciding."},
 
 {type:"mc", q:"这(zhè)两(liǎng)个(ge)办法(bànfǎ)的(de)___原因(yuányīn)是(shì)什么(shénme)？",
- opts:["主要(zhǔyào)","相同(xiāngtóng)","不同(bùtóng)","态度(tàidu)"],
+ opts:["相同(xiāngtóng)","不同(bùtóng)","态度(tàidu)","主要(zhǔyào)"],
  ans:"主要(zhǔyào)",
  hint:"What is the ___ reason for these two methods? Which adjective means 'main' or 'primary'?"},
 

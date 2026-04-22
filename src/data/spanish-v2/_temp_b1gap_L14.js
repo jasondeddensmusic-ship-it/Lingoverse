@@ -105,7 +105,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 palabra describe los complicados tr\u00e1mites administrativos?",
-     opts:["burocracia","brujer\u00eda","barbarie","bendici\u00f3n"],
+     opts:["bendici\u00f3n","burocracia","brujer\u00eda","barbarie"],
      ans:"burocracia",
      hint:"Complex administrative procedures involving lots of paperwork and official stamps."},
 

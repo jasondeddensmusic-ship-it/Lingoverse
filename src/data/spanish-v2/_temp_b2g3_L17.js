@@ -32,13 +32,13 @@ const LESSON_17 = {id:"esv2_b2g3_l17", title:"Sustantivos abstractos: estados", 
 
   {type:"teach", trg:"la dureza", src:"hardness / toughness", pos:"noun", gender:"f", note:"From duro (hard). Physical hardness or emotional toughness.\nLa dureza del diamante = the hardness of diamond.", example:"A: La dureza de la negociación sorprendió a todos.\nB: Ninguna de las partes quería ceder.", exampleSrc:"A: The toughness of the negotiation surprised everyone.\nB: Neither side wanted to give in.", funFact:"The -eza suffix creates feminine abstract nouns from short adjectives: bello > belleza, triste > tristeza, duro > dureza."},
 
-  {type:"mc", q:"¿Qué significa que algo es 'efímero'?", opts:["Que dura muy poco tiempo","Que es muy caro","Que es de gran calidad","Que es antiguo"], ans:"Que dura muy poco tiempo", hint:"From Greek 'lasting a day'. Something beautiful but fleeting, like cherry blossoms."},
+  {type:"mc", q:"¿Qué significa que algo es 'efímero'?", opts:["Que es antiguo","Que dura muy poco tiempo","Que es muy caro","Que es de gran calidad"], ans:"Que dura muy poco tiempo", hint:"From Greek 'lasting a day'. Something beautiful but fleeting, like cherry blossoms."},
 
   {type:"match", pairs:[{trg:"autenticidad", src:"authenticity"},{trg:"barbaridad", src:"outrageous thing"},{trg:"bagaje", src:"background"},{trg:"efímero", src:"ephemeral"},{trg:"custodia", src:"custody"}]},
 
   {type:"fb", s:"El auditorio tiene {1} para quinientas personas.", a:["cabida"], opts:["cabida","custodia","dureza","dinámica"], hint:"The capacity or room available to accommodate a number of people.", sSrc:"The auditorium has {1} for five hundred people."},
 
-  {type:"mc", q:"'Bagaje cultural' se refiere a...", opts:["El conjunto de conocimientos y experiencias acumulados","Las maletas en un aeropuerto","Los libros de una biblioteca","Los monumentos de un país"], ans:"El conjunto de conocimientos y experiencias acumulados", hint:"This word almost never means physical luggage in Spanish. It refers to accumulated knowledge and experience."},
+  {type:"mc", q:"'Bagaje cultural' se refiere a...", opts:["Los libros de una biblioteca","Los monumentos de un país","El conjunto de conocimientos y experiencias acumulados","Las maletas en un aeropuerto"], ans:"El conjunto de conocimientos y experiencias acumulados", hint:"This word almost never means physical luggage in Spanish. It refers to accumulated knowledge and experience."},
 
   {type:"fb", s:"La fama es {1}, puede desaparecer de un día para otro.", a:["efímera"], opts:["efímera","dinámica","auténtica","dura"], hint:"Fleeting and short-lived, lasting only a brief time before fading away.", sSrc:"Fame is {1}, it can disappear from one day to the next."}
 ]};

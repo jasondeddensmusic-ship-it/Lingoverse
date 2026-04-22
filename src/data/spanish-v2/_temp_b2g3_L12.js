@@ -32,13 +32,13 @@ const LESSON_12 = {id:"esv2_b2g3_l12", title:"Decisión y determinación", icon:
 
   {type:"teach", trg:"el dinamismo", src:"dynamism / energy", pos:"noun", gender:"m", note:"Active energy and vitality.\nUna ciudad con mucho dinamismo = a very dynamic city.", example:"A: El dinamismo de Barcelona es contagioso.\nB: Siempre hay algo interesante que hacer.", exampleSrc:"A: The dynamism of Barcelona is contagious.\nB: There's always something interesting to do.", funFact:"From Greek dynamis (power). Dynamic, dynasty, and dynamite all share this root of power and energy."},
 
-  {type:"mc", q:"'Descontrol' describe una situación de...", opts:["caos y falta de orden","mucha organización","tranquilidad absoluta","aburrimiento total"], ans:"caos y falta de orden", hint:"The prefix des- negates control. What happens when control is removed?"},
+  {type:"mc", q:"'Descontrol' describe una situación de...", opts:["aburrimiento total","caos y falta de orden","mucha organización","tranquilidad absoluta"], ans:"caos y falta de orden", hint:"The prefix des- negates control. What happens when control is removed?"},
 
   {type:"match", pairs:[{trg:"determinación", src:"determination"},{trg:"dilema", src:"dilemma"},{trg:"coincidencia", src:"coincidence"},{trg:"despropósito", src:"absurdity"},{trg:"dinamismo", src:"dynamism"}]},
 
   {type:"fb", s:"La {1} de su carácter le ha permitido superar todos los obstáculos.", a:["determinación"], opts:["determinación","coincidencia","detonación","dispersión"], hint:"The firm inner resolve that drives someone to overcome all obstacles.", sSrc:"The {1} of her character has allowed her to overcome all obstacles."},
 
-  {type:"mc", q:"¿Qué puede significar 'desinterés' en sentido positivo?", opts:["Actuar sin buscar beneficio propio","No prestar atención a nada","Ser perezoso en el trabajo","Rechazar toda opinión"], ans:"Actuar sin buscar beneficio propio", hint:"In its positive sense, this word describes selfless behaviour without expecting personal gain."},
+  {type:"mc", q:"¿Qué puede significar 'desinterés' en sentido positivo?", opts:["Ser perezoso en el trabajo","Rechazar toda opinión","Actuar sin buscar beneficio propio","No prestar atención a nada"], ans:"Actuar sin buscar beneficio propio", hint:"In its positive sense, this word describes selfless behaviour without expecting personal gain."},
 
   {type:"fb", s:"Esa decisión fue un {1} total, no tenía ningún sentido.", a:["despropósito"], opts:["despropósito","convencimiento","dinamismo","devenir"], hint:"Something completely absurd and pointless that serves no logical purpose.", sSrc:"That decision was a total {1}, it made no sense at all."}
 ]};

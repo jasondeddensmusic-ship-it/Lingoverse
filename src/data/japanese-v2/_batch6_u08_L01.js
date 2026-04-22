@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Please stamp your seal here.\nB: Okay, is this spot correct?",
      funFact:"はんこ (判子(はんこ)) culture is unique to East Asia. In Japan, your registered seal (実印(じついん)) has legal power equal to a signature. Banks, real estate, and contracts require はんこ. Each seal is unique, carved from wood, stone, or horn. Cheap ones are available at 100-yen shops."},
 
-    {type:"mc", q:"預(あず)ける means:", opts:["To deposit or entrust","To withdraw","To send","To stamp"], ans:"To deposit or entrust",
+    {type:"mc", q:"預(あず)ける means:", opts:["To stamp","To deposit or entrust","To withdraw","To send"], ans:"To deposit or entrust",
      hint:"This verb describes putting money into an account or leaving something in someone's care."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"80円(えん)の{1}を2枚(にまい)ください。\n(Two 80-yen stamps, please.)", a:"切手(きって)", opts:["切手(きって)","はがき","封筒(ふうとう)","切符(きっぷ)"], sSrc:"Two 80-yen stamps, please.",
      hint:"The word for postage stamps, used on letters and parcels."},
 
-    {type:"mc", q:"A 通帳(つうちょう) is:", opts:["A physical bankbook that records transactions","A credit card","A train ticket","An ID card"], ans:"A physical bankbook that records transactions",
+    {type:"mc", q:"A 通帳(つうちょう) is:", opts:["A train ticket","An ID card","A physical bankbook that records transactions","A credit card"], ans:"A physical bankbook that records transactions",
      hint:"This item is inserted into ATMs to print your banking r...."}
   ,{type:"match",pairs:[{trg:"送(おく)る",src:"to send"},{trg:"受(う)け取(と)る",src:"to receive / to accept"},{trg:"預(あず)ける",src:"to deposit / to entrust"},{trg:"下(お)ろす",src:"to withdraw (money) / to take down"},{trg:"窓口(まどぐち)",src:"service window / counter"},{trg:"通帳(つうちょう)",src:"bankbook / passbook"}]},
   {type:"fb", s:"海外(かいがい)に荷物(にもつ)を送(おく)るために{1}へ行(い)きました。", a:["郵便局(ゆうびんきょく)"], opts:["郵便局(ゆうびんきょく)","銀行(ぎんこう)","切手(きって)","受(う)け取(と)る"], hint:"The government facility where you send packages, letters, and buy stamps.", sSrc:"I went to the {1} to send a package overseas."}

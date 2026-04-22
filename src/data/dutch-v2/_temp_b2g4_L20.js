@@ -1,4 +1,4 @@
-// L20: History, Heritage & Legacy — 20 B2 gap words
+// L20: History, Heritage & Legacy, 20 B2 gap words
 const LESSON_20 = {
   id:"nlv2_b2g4_l20", title:"Geschiedenis en Erfgoed", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_20 = {
      deepDive:{title:"Why vocabulary is history",
       text:"At B2 level, vocabulary becomes a window into culture and history. 'Polder' is not just reclaimed land but a democratic model. 'Gedogen' is not just tolerance but a Dutch philosophical stance. 'Gezelligheid' is not just coziness but the core of Dutch social life. Understanding these words at their deepest level means understanding the Netherlands itself."}},
     {type:"mc", q:"What is the 'Camera Obscura' famous for in Dutch culture?",
-     opts:["a painting by Rembrandt","a classic Dutch novel","a photography invention","a museum in Amsterdam"],
+     opts:["a classic Dutch novel","a photography invention","a museum in Amsterdam","a painting by Rembrandt"],
      ans:"a classic Dutch novel",
      hint:"Written by Hildebrand (Nicolaas Beets) in 1839. Every D... student reads it."},
     {type:"fb", s:"Het {1} van de heilige werd gevonden.", a:["gebeente"],
@@ -136,7 +136,7 @@ const LESSON_20 = {
      hint:"A distrustful, negative way of viewing everything. From Greek 'kynismos'.",
      sSrc:"With some cynicism he views the world."},
     {type:"mc", q:"Which word describes the Dutch Golden Age's key quality?",
-     opts:["demotivatie","dynamiek","domheid","dichtslibben"],
+     opts:["dichtslibben","demotivatie","dynamiek","domheid"],
      ans:"dynamiek",
      hint:"Energy, movement, vitality. Trade, art, and science all flourished."},
     {type:"match", pairs:[

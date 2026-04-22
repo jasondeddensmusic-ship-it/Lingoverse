@@ -86,7 +86,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel mot designe l'utilisation excessive et inutile de ressources ?",
-     opts:["le gaspillage","le tri","le reboisement","l'erosion"],
+     opts:["l'erosion","le gaspillage","le tri","le reboisement"],
      ans:"le gaspillage",
      hint:"Careless waste. France was the first to ban supermarkets from throwing away unsold food."},
 
@@ -113,7 +113,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel terme designe les reserves d'eau souterraines ?",
-     opts:["la nappe phreatique","la biodiversite","l'erosion","le reboisement"],
+     opts:["l'erosion","le reboisement","la nappe phreatique","la biodiversite"],
      ans:"la nappe phreatique",
      hint:"Underground water reserves. 'N...' means layer. Weather reports monitor their levels."}
   ]

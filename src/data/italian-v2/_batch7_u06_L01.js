@@ -1,4 +1,4 @@
-// Batch 7 — Unit 06 extra lesson. In città: Sports & Leisure Activities
+// Batch 7. Unit 06 extra lesson. In città: Sports & Leisure Activities
 const BATCH7_L1 = {id:"itv2_u06l_b7_1", title:"Sport e tempo libero", icon:"\u26BD", xp:15, board:true, steps:[
 {type:"intro", title:"Sport e tempo libero",
  desc:"Learn vocabulary for popular sports and leisure activities in Italy.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u06l_b7_1", title:"Sport e tempo libero", icon:"\u26
 ]},
 
 {type:"mc", q:"Che cos'e il Giro d'Italia?",
- opts:["A famous cycling race","A running marathon","A swimming competition","A football tournament"],
+ opts:["A football tournament","A famous cycling race","A running marathon","A swimming competition"],
  ans:"A famous cycling race",
  hint:"One of c...'s three Grand Tours, held each May across Italy. Think bicycles."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u06l_b7_1", title:"Sport e tempo libero", icon:"\u26
  sSrc:"Which {1} do you support?"},
 
 {type:"mc", q:"Che cosa significa 'tifoso'?",
- opts:["A sports fan","A coach","A referee","A player"],
+ opts:["A referee","A player","A sports fan","A coach"],
  ans:"A sports fan",
  hint:"From 'tifo' (fever). Someone who passionately supports a team."},
 

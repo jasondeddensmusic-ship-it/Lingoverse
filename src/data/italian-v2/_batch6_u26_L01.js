@@ -1,4 +1,4 @@
-// Batch 6 — Unit 26 extra lesson. Il diritto: Civil Rights & Constitution
+// Batch 6. Unit 26 extra lesson. Il diritto: Civil Rights & Constitution
 const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC}", xp:15, board:true, steps:[
 {type:"intro", title:"I diritti civili",
  desc:"Learn advanced legal vocabulary relating to civil rights, constitutional principles, and civic participation.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
 ]},
 
 {type:"mc", q:"Cos'e un 'referendum abrogativo'?",
- opts:["A popular vote to repeal an existing law","A vote to approve a new law","A local election","A constitutional amendment"],
+ opts:["A constitutional amendment","A popular vote to repeal an existing law","A vote to approve a new law","A local election"],
  ans:"A popular vote to repeal an existing law",
  hint:"A uniquely Italian democratic tool requiring 500,000 signatures to trigger."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
  sSrc:"They filed an {1} against the court verdict."},
 
 {type:"mc", q:"Cosa dice il primo articolo della Costituzione italiana?",
- opts:["L'Italia e una Repubblica democratica fondata sul lavoro","L'Italia e una monarchia costituzionale","L'Italia e uno Stato federale","L'Italia e una democrazia presidenziale"],
+ opts:["L'Italia e uno Stato federale","L'Italia e una democrazia presidenziale","L'Italia e una Repubblica democratica fondata sul lavoro","L'Italia e una monarchia costituzionale"],
  ans:"L'Italia e una Repubblica democratica fondata sul lavoro",
  hint:"It declares Italy a democratic republic founded on work (labor)."},
 

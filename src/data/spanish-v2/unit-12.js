@@ -1,4 +1,4 @@
-// Unit 12 — Cuéntame
+// Unit 12. Cuéntame
 // Indefinido vs Imperfecto
 
 export default {n:12,lang:"es",srcLang:"en",track:"v2",title:"Cuéntame",sub:"Indefinido vs Imperfecto",icon:"📚",level:"A2.2",color:"#7B5EE8",lessons:[
@@ -258,11 +258,11 @@ export default {n:12,lang:"es",srcLang:"en",track:"v2",title:"Cuéntame",sub:"In
     {type:"teach",trg:"sucio",src:"dirty",pos:"adj",gender:null,note:"Sucio (m) / sucia (f). Opposite of limpio/limpia.",example:"A: El garaje está muy sucio.\nB: Sí, hay que limpiarlo este fin de semana.",exampleSrc:"A: The garage is very dirty.\nB: Yes, we need to clean it this weekend.",funFact:"From Latin 'sucidus' (dirty, unwashed). Use estar + sucio/limpio because these describe a temporary state, not a permanent quality."},
     {type:"teach",trg:"cerrado",src:"closed",pos:"adj",gender:null,note:"Cerrado (m) / cerrada (f). Opposite of abierto/a. From cerrar (to close).",example:"A: ¿Está abierta la puerta?\nB: No, está cerrada.",exampleSrc:"A: Is the door open?\nB: No, it's closed.",funFact:"From 'cerrar' (to close), which comes from Latin 'serare' (to bolt). The opposite 'abierto' comes from the irregular participle of 'abrir' (to open)."},
     {type:"tip",title:"Estar with descriptions of state",text:"Use ESTAR (not ser) when describing the temporary state of a room or object:\n\n  La cocina está limpia. (The kitchen is clean.)\n  El garaje está sucio. (The garage is dirty.)\n  La puerta está cerrada. (The door is closed.)\n\nThe adjective agrees with the noun it describes:\n  El comedor está limpio. (m)\n  La estantería está limpia. (f)\n  Los espejos están sucios. (m pl)\n\nThis is different from permanent qualities (ser): La mesa es grande."},
-    {type:"mc",q:"Which room is used specifically for eating meals?",opts:["el garaje","el comedor","el espejo","la estantería"],ans:"el comedor",hint:"Think about the verb 'comer' and what room name comes from it."},
-    {type:"mc",q:"You want to check your appearance before leaving home. Which object do you use?",opts:["la lámpara","la maleta","el espejo","la estantería"],ans:"el espejo",hint:"This object reflects your image back to you."},
+    {type:"mc",q:"Which room is used specifically for eating meals?",opts:["el comedor","el espejo","la estantería","el garaje"],ans:"el comedor",hint:"Think about the verb 'comer' and what room name comes from it."},
+    {type:"mc",q:"You want to check your appearance before leaving home. Which object do you use?",opts:["la maleta","el espejo","la estantería","la lámpara"],ans:"el espejo",hint:"This object reflects your image back to you."},
     {type:"fb",opts:["cerrada","abierta","limpia","sucia"],hint:"The door is locked, not open. Think of the opposite of abierta.",s:"La puerta está {1}. Necesitas la llave para entrar.",a:"cerrada"},
     {type:"fb",opts:["garaje","comedor","baño","dormitorio"],hint:"You park the car in this room attached to or near the house.",s:"El coche está en el {1}.",a:"garaje"},
-    {type:"fb",opts:["limpia","sucia","cerrada","grande"],hint:"The kitchen is dirty — it needs cleaning. Which adjective applies?",s:"La cocina está muy {1}. Hay platos por todas partes.",a:"sucia"},
+    {type:"fb",opts:["limpia","sucia","cerrada","grande"],hint:"The kitchen is dirty, it needs cleaning. Which adjective applies?",s:"La cocina está muy {1}. Hay platos por todas partes.",a:"sucia"},
     {type:"match",pairs:[
       {trg:"el comedor",src:"dining room"},
       {trg:"el garaje",src:"garage"},
@@ -271,10 +271,10 @@ export default {n:12,lang:"es",srcLang:"en",track:"v2",title:"Cuéntame",sub:"In
       {trg:"el espejo",src:"mirror"}
     ]},
     {type:"fb",opts:["maleta","teléfono","lámpara","espejo"],hint:"You pack this with clothes before traveling.",s:"Tengo que hacer la {1} antes de salir.",a:"maleta"},
-    {type:"mc",q:"\"El comedor está ___.\" Which adjective means it has been tidied and washed?",opts:["sucio","cerrado","grande","limpio"],ans:"limpio",hint:"This adjective is the opposite of sucio."},
-    {type:"mc",q:"Where would you put books and display objects at home?",opts:["el espejo","la maleta","la estantería","el teléfono"],ans:"la estantería",hint:"This furniture piece has multiple shelves for storing things."},
+    {type:"mc",q:"\"El comedor está ___.\" Which adjective means it has been tidied and washed?",opts:["cerrado","grande","limpio","sucio"],ans:"limpio",hint:"This adjective is the opposite of sucio."},
+    {type:"mc",q:"Where would you put books and display objects at home?",opts:["el teléfono","el espejo","la maleta","la estantería"],ans:"la estantería",hint:"This furniture piece has multiple shelves for storing things."},
     {type:"fb",opts:["teléfono","comedor","garaje","espejo"],hint:"You use this to call people and talk from a distance.",s:"¿Dónde está el {1}? Quiero llamar a mi madre.",a:"teléfono"},
-    {type:"drag_fill",hint:"The garage is dirty and the dining room is clean — use the right adjective for each.",s:"El {1} está sucio y el comedor está {2}.",blanks:{"1":"garaje","2":"limpio"},pool:["garaje","limpio","espejo","sucio"]},
+    {type:"drag_fill",hint:"The garage is dirty and the dining room is clean, use the right adjective for each.",s:"El {1} está sucio y el comedor está {2}.",blanks:{"1":"garaje","2":"limpio"},pool:["garaje","limpio","espejo","sucio"]},
     {type:"match",pairs:[
       {trg:"la maleta",src:"suitcase"},
       {trg:"el teléfono",src:"telephone"},

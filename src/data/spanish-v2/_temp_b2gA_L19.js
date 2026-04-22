@@ -1,4 +1,4 @@
-// Lesson 19 — Tradiciones y costumbres
+// Lesson 19. Tradiciones y costumbres
 const LESSON_19 = {id:"esv2_b2gA_l19", title:"Tradiciones y costumbres", icon:"🎭", xp:15, board:true, steps:[
 {type:"intro", title:"Tradiciones y costumbres", desc:"Explore vocabulary for discussing traditions, folklore, and cultural practices in Spain.", goals:["Learn 15 tradition and culture words","Discuss customs and ceremonies","Use cultural vocabulary precisely"]},
 
@@ -57,7 +57,7 @@ const LESSON_19 = {id:"esv2_b2gA_l19", title:"Tradiciones y costumbres", icon:"�
  exampleSrc:"A: The fitting out of the premises cost more than expected.\nB: But now it's perfect for opening the shop.",
  funFact:"'Aire acondicionado' (air conditioning) is derived from this same root."},
 
-{type:"mc", q:"¿Cuál es la diferencia entre 'el cólera' y 'la cólera'?", opts:["El cólera = la enfermedad; la cólera = la ira","Son sinónimos","El cólera es más grave","La cólera es la forma antigua"], ans:"El cólera = la enfermedad; la cólera = la ira",
+{type:"mc", q:"¿Cuál es la diferencia entre 'el cólera' y 'la cólera'?", opts:["La cólera es la forma antigua","El cólera = la enfermedad; la cólera = la ira","Son sinónimos","El cólera es más grave"], ans:"El cólera = la enfermedad; la cólera = la ira",
  hint:"The gender of the article changes the entire meaning. Disease vs. emotion."},
 
 {type:"fb", s:"El flamenco tiene profundas raíces en la cultura {1}.", a:["gitana"], opts:["gitana","normanda","nórdica","nipona"],
@@ -94,7 +94,7 @@ const LESSON_19 = {id:"esv2_b2gA_l19", title:"Tradiciones y costumbres", icon:"�
  hint:"This noun means the process of fitting out or adapting a space for use.",
  sSrc:"The {1} of the gym included new equipment and showers."},
 
-{type:"mc", q:"¿Quién fue Simón Bolívar?", opts:["El libertador de varios países sudamericanos","Un rey español del siglo XVIII","Un famoso pintor venezolano","Un explorador portugués"], ans:"El libertador de varios países sudamericanos",
+{type:"mc", q:"¿Quién fue Simón Bolívar?", opts:["Un famoso pintor venezolano","Un explorador portugués","El libertador de varios países sudamericanos","Un rey español del siglo XVIII"], ans:"El libertador de varios países sudamericanos",
  hint:"The Venezuelan currency is named after this iconic independence hero."},
 
 {type:"drag_fill", s:"El {1} de Fuenteovejuna es un villano del teatro de {2}.", blanks:{"1":"comendador","2":"Lope de Vega"}, pool:["comendador","Lope de Vega","Cervantes","chanquete"],

@@ -92,7 +92,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Comment appelle-t-on la transformation d'un quartier pauvre par l'arrivee de residents aises ?",
-     opts:["la gentrification","la segregation","l'integration","l'exode"],
+     opts:["l'exode","la gentrification","la segregation","l'integration"],
      ans:"la gentrification",
      hint:"When wealthier people move into a poorer area, raising rents and changing its character."},
 
@@ -137,7 +137,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quelle loi francaise de 1905 definit la laicite ?",
-     opts:["la separation des Eglises et de l'Etat","la Declaration des droits de l'homme","le Code civil","la loi Veil"],
+     opts:["le Code civil","la loi Veil","la separation des Eglises et de l'Etat","la Declaration des droits de l'homme"],
      ans:"la separation des Eglises et de l'Etat",
      hint:"The law that separated church and state. A cornerstone of the French Republic."},
 

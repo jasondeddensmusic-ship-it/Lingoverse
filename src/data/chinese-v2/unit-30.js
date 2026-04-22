@@ -82,7 +82,7 @@ lessons:[
  sSrc:"Confucius's {1} influenced all of East Asia."},
 
 {type:"mc", q:"儒家(Rújiā)思想(sīxiǎng)强调(qiángdiào) 仁(rén)、义(yì)、礼(lǐ)。 What values are these?",
- opts:["Benevolence, righteousness, ritual propriety","Wealth, power, fame","Nature, balance, spontaneity","Compassion, meditation, detachment"],
+ opts:["Compassion, meditation, detachment","Benevolence, righteousness, ritual propriety","Wealth, power, fame","Nature, balance, spontaneity"],
  ans:"Benevolence, righteousness, ritual propriety",
  hint:"These are the three core Confucian virtues that focus on human relationships and moral conduct."},
 
@@ -169,7 +169,7 @@ lessons:[
  sSrc:"What you said makes a lot of {1}."},
 
 {type:"mc", q:"和谐(héxié)的(de)社会(shèhuì)需要(xūyào)每(měi)个(gè)人(rén)的(de)努力(nǔlì)。 What is the message?",
- opts:["A harmonious society needs everyone's effort","Contradictions are unavoidable","Fate determines everything","Philosophy is for scholars only"],
+ opts:["Philosophy is for scholars only","A harmonious society needs everyone's effort","Contradictions are unavoidable","Fate determines everything"],
  ans:"A harmonious society needs everyone's effort",
  hint:"和谐 means '___' and 需要 means '___.' What kind of ___ is being discussed?"},
 
@@ -180,7 +180,7 @@ lessons:[
  sSrc:"We should look at issues {1}."},
 
 {type:"mc", q:"修养(xiūyǎng) refers to:",
- opts:["Personal cultivation through learning and moral effort","Physical exercise and diet","Political power and authority","Scientific knowledge and technology"],
+ opts:["Political power and authority","Scientific knowledge and technology","Personal cultivation through learning and moral effort","Physical exercise and diet"],
  ans:"Personal cultivation through learning and moral effort",
  hint:"修 means 'to cultivate' and 养 means 'to nourish.' This is about refining oneself as a person."},
 
@@ -252,7 +252,7 @@ lessons:[
  hint:"Break down the characters: 难 means 'difficult' and 忘 means 'to forget.'"},
 
 {type:"mc", q:"写(xiě)作(zuò)能(néng)帮助(bāngzhù)你(nǐ)表达(biǎodá)复杂(fùzá)的(de)___。 Which word completes the sentence?",
- opts:["情感(qínggǎn)","价值观(jiàzhíguān)","意义(yìyì)","塑造(sùzào)"],
+ opts:["塑造(sùzào)","情感(qínggǎn)","价值观(jiàzhíguān)","意义(yìyì)"],
  ans:"情感(qínggǎn)",
  hint:"The sentence means 'Writing can help you express complex ___.' Which word refers to emotions or sentiments in an elevated register?"},
 
@@ -284,7 +284,7 @@ lessons:[
  sSrc:"His story {1} me deeply."},
 
 {type:"mc", q:"价值观(jiàzhíguān) extends which word taught in Lesson 1 of this unit?",
- opts:["价值(jiàzhí)","哲学(zhéxué)","道(dào)","智慧(zhìhuì)"],
+ opts:["道(dào)","智慧(zhìhuì)","价值(jiàzhí)","哲学(zhéxué)"],
  ans:"价值(jiàzhí)",
  hint:"The suffix 观(guān) meaning 'outlook' is added to a word meaning 'value' that you already learned."}
 ]}

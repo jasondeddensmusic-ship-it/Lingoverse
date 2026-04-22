@@ -68,7 +68,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"mc",
  q:"Which word means 'experiment' in scientific context?",
- opts:["ciência","experiência","teoria","descoberta"],
+ opts:["experiência","teoria","descoberta","ciência"],
  ans:"experiência",
  hint:"Same Portuguese word also means 'experience' in everyday life."},
 
@@ -104,7 +104,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"mc",
  q:"Which noun has the same form for masculine and feminine?",
- opts:["descoberta","cientista","teoria","ciência"],
+ opts:["ciência","descoberta","cientista","teoria"],
  ans:"cientista",
  hint:"Only the article changes. The noun stays identical."}
 ]},
@@ -183,7 +183,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"mc",
  q:"Which word is always plural in Portuguese?",
- opts:["software","rede","dados","algoritmo"],
+ opts:["dados","algoritmo","software","rede"],
  ans:"dados",
  hint:"The singular means 'die' (dice), not data."},
 
@@ -284,7 +284,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"mc",
  q:"Which of these is masculine?",
- opts:["casa","máquina","programa","ciência"],
+ opts:["programa","ciência","casa","máquina"],
  ans:"programa",
  hint:"Greek-origin noun ending in -ma. Exception to the rule."},
 
@@ -334,7 +334,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
 
 {type:"mc",
  q:"Which preposition pattern is correct?",
- opts:["o futuro do trabalho","o futuro de o trabalho","o futuro para trabalho","o futuro em trabalho"],
+ opts:["o futuro para trabalho","o futuro em trabalho","o futuro do trabalho","o futuro de o trabalho"],
  ans:"o futuro do trabalho",
  hint:"Remember 'de + o' contracts to 'do' in Portuguese."},
 
@@ -345,7 +345,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  hint:"First blank: creating something new. Second blank: applied science tools."},
 
 {type:"tip", title:"Present Perfect: Tenho feito (Ongoing Habit)",
- text:"Portuguese has a present perfect (tenho + past participle) but it means something different from English.\n\nIn Brazilian Portuguese, 'tenho feito' expresses a repeated or ongoing action from the past up to now:\n\nTenho trabalhado muito. (I have been working a lot lately.)\nEla tem estudado todo dia. (She has been studying every day.)\nNão tenho dormido bem. (I have not been sleeping well.)\n\nThis is NOT the English 'I have done it once'. Use the preterite (fiz, comi, fui) for a single completed event.\nThis IS closer to 'I have been doing' — an ongoing pattern reaching the present.\n\nParticiple formation: -AR > -ado, -ER/-IR > -ido.\nfalar > falado, comer > comido, dormir > dormido.",
+ text:"Portuguese has a present perfect (tenho + past participle) but it means something different from English.\n\nIn Brazilian Portuguese, 'tenho feito' expresses a repeated or ongoing action from the past up to now:\n\nTenho trabalhado muito. (I have been working a lot lately.)\nEla tem estudado todo dia. (She has been studying every day.)\nNão tenho dormido bem. (I have not been sleeping well.)\n\nThis is NOT the English 'I have done it once'. Use the preterite (fiz, comi, fui) for a single completed event.\nThis IS closer to 'I have been doing', an ongoing pattern reaching the present.\n\nParticiple formation: -AR > -ado, -ER/-IR > -ido.\nfalar > falado, comer > comido, dormir > dormido.",
  icon:"⏰",
  deepDive:{title:"European Portuguese Difference",
   text:"In European Portuguese, the present perfect ('tenho feito') can express a single event: 'Tenho lido este livro' can mean 'I have read this book'. In Brazilian Portuguese, that same sentence means 'I have been reading this book (repeatedly/currently)'. For a single completed action, Brazilians always use the preterite: 'Li este livro.' This BR/PT split surprises learners who study both varieties."}},
@@ -389,7 +389,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  exampleSrc:"A: What is the solution?\nB: The solution is simple.",
  funFact:"Solução comes from Latin 'solutio' (the act of loosening). In Brazilian problem-solving culture, 'buscar soluções' (to seek solutions) is seen as a proactive virtue."},
 {type:"tip",title:"Diplomatic Register in Brazilian Portuguese",
- text:"B2 dispute language requires tact:\n\n'Foi um mal-entendido' — It was a misunderstanding (neutral)\n'Peço desculpa' — I apologize (formal)\n'Me desculpa' — Sorry (casual)\n\nAvoid 'culpa' (blame) unless confrontation is intended. Brazilian conflict resolution prefers 'chegar a um acordo' over assigning fault.",
+ text:"B2 dispute language requires tact:\n\n'Foi um mal-entendido'. It was a misunderstanding (neutral)\n'Peço desculpa'. I apologize (formal)\n'Me desculpa'. Sorry (casual)\n\nAvoid 'culpa' (blame) unless confrontation is intended. Brazilian conflict resolution prefers 'chegar a um acordo' over assigning fault.",
  deepDive:{title:"Acordo culture",
   text:"Brazilian business and law favor 'acordos' over litigation. 'Fazer as pazes' (to make peace) is the endgame of any interpersonal 'conflito.' This reflects a cultural preference for preserved relationships over won arguments."}},
 {type:"mc",q:"Qual palavra significa 'conflict'?",

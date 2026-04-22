@@ -46,7 +46,7 @@ const LESSON_6 = {
     // --- Quiz block 1 ---
     {type:"mc",
      q:"'식사하셨어요?'는 무슨 뜻이에요?",
-     opts:["이름을 물어보는 말","밥을 먹었느냐는 인사","날씨를 물어보는 말","어디 가느냐는 말"],
+     opts:["밥을 먹었느냐는 인사","날씨를 물어보는 말","어디 가느냐는 말","이름을 물어보는 말"],
      ans:"밥을 먹었느냐는 인사",
      hint:"This phrase uses the formal word for dining and is a common Korean greeting."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"삼겹살은 무슨 고기예요?",
-     opts:["쇠고기","닭고기","돼지고기","생선"],
+     opts:["닭고기","돼지고기","생선","쇠고기"],
      ans:"돼지고기",
      hint:"This BBQ favorite comes from the belly of a farm animal that says 'oink.'"},
 
@@ -137,7 +137,7 @@ const LESSON_6 = {
     // --- Quiz block 3 ---
     {type:"mc",
      q:"물고기와 생선의 차이는 뭐예요?",
-     opts:["물고기는 먹는 것, 생선은 살아 있는 것","같은 뜻이에요","생선은 큰 것, 물고기는 작은 것","생선은 먹는 것, 물고기는 살아 있는 것"],
+     opts:["같은 뜻이에요","생선은 큰 것, 물고기는 작은 것","생선은 먹는 것, 물고기는 살아 있는 것","물고기는 먹는 것, 생선은 살아 있는 것"],
      ans:"생선은 먹는 것, 물고기는 살아 있는 것",
      hint:"One word is for the dinner plate, the other swims freely in rivers and oceans."},
 

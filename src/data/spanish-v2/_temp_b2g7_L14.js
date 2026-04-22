@@ -13,7 +13,7 @@ const LESSON_14 = {id:"esv2_b2g7_l14",title:"Departamentos de empresa",icon:"�
 {type:"teach",trg:"el empleo estatal",src:"the state/government employment",pos:"noun",gender:"m",note:"Jobs in the public sector, funded by the government.",example:"A: El empleo estatal ofrece estabilidad laboral.\nB: Muchos jóvenes buscan empleo estatal por la seguridad.",exampleSrc:"A: Government employment offers job stability.\nB: Many young people seek government jobs for security.",funFact:"'Oposiciones' (competitive civil service exams) are how most empleo estatal is filled in Spain. Preparation can take years."},
 {type:"mc",q:"¿Qué departamento se encarga de preparar a los empleados?",opts:["El departamento de formación","El departamento de marketing","El departamento de contabilidad","El departamento de ventas"],ans:"El departamento de formación",hint:"This department organizes training courses for staff development."},
 {type:"fb",s:"El {1} exterior ha crecido un cinco por ciento este año.",a:["comercio"],opts:["comercio","departamento","empleo","curso"],hint:"This compound noun refers to trade between countries.",sSrc:"Foreign {1} has grown by five percent this year."},
-{type:"mc",q:"En España, para ser 'ingeniero' necesitas:",opts:["Un título universitario oficial","Solo experiencia laboral","Un certificado online","Nada especial"],ans:"Un título universitario oficial",hint:"In Spain, this is a protected professional title with strict requirements."},
+{type:"mc",q:"En España, para ser 'ingeniero' necesitas:",opts:["Nada especial","Un título universitario oficial","Solo experiencia laboral","Un certificado online"],ans:"Un título universitario oficial",hint:"In Spain, this is a protected professional title with strict requirements."},
 {type:"fb",s:"Envía la factura al departamento de {1} para que la registren.",a:["contabilidad"],opts:["contabilidad","formación","marketing","sistemas"],hint:"This department manages the company's finances and budgets.",sSrc:"Send the invoice to the {1} department so they can register it."},
 {type:"match",pairs:[
   {trg:"el departamento de marketing",src:"the marketing department"},
@@ -22,7 +22,7 @@ const LESSON_14 = {id:"esv2_b2g7_l14",title:"Departamentos de empresa",icon:"�
   {trg:"el empleo estatal",src:"the government employment"},
   {trg:"el casting",src:"the casting / audition"}
 ]},
-{type:"mc",q:"Las 'oposiciones' en España son:",opts:["Exámenes para acceder al empleo público","Partidos de fútbol","Fiestas regionales","Elecciones políticas"],ans:"Exámenes para acceder al empleo público",hint:"These competitive exams determine who gets government jobs."},
+{type:"mc",q:"Las 'oposiciones' en España son:",opts:["Fiestas regionales","Elecciones políticas","Exámenes para acceder al empleo público","Partidos de fútbol"],ans:"Exámenes para acceder al empleo público",hint:"These competitive exams determine who gets government jobs."},
 {type:"fb",s:"La {1} empresarial mejoró cuando empezaron a enviar boletines internos.",a:["comunicación"],opts:["comunicación","contabilidad","formación","legislación"],hint:"This compound noun refers to how a company communicates internally and externally.",sSrc:"Corporate {1} improved when they started sending internal newsletters."}
 ]};
 export default LESSON_14;

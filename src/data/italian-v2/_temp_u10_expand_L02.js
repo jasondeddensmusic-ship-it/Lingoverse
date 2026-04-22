@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
   ]},
 
   {type:"mc", q:"What is the best approach for hotel complaints in Italy?",
-   opts:["Be polite: start with 'Mi scusi' or 'Vorrei segnalare'","Shout loudly","Write an angry email","Refuse to pay"],
+   opts:["Refuse to pay","Be polite: start with 'Mi scusi' or 'Vorrei segnalare'","Shout loudly","Write an angry email"],
    ans:"Be polite: start with 'Mi scusi' or 'Vorrei segnalare'",
    hint:"Italian hospitality culture rewards courtesy. Opening with a respectful phrase rather than an aggressive demand gets much faster results from staff."},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
    sSrc:"The air conditioning does not {1}."},
 
   {type:"mc", q:"How do Italians pronounce 'Wi-Fi'?",
-   opts:["Wee-fee","Why-fye","Wih-fih","Double-you eye"],
+   opts:["Wih-fih","Double-you eye","Wee-fee","Why-fye"],
    ans:"Wee-fee",
    hint:"Italian pronunciation rules make the 'i' sound like 'ee.' Both vowels follow Italian phonetics."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u10l5", title:"Problemi in albergo", icon:"\uD83D\uDE
    sSrc:"Is it possible to {1} rooms?"},
 
   {type:"mc", q:"Why might older Italian buildings have limited heating?",
-   opts:["Italian law regulates heating periods by date","Heating is too expensive","Italians prefer cold","Buildings have no boilers"],
+   opts:["Heating is too expensive","Italians prefer cold","Buildings have no boilers","Italian law regulates heating periods by date"],
    ans:"Italian law regulates heating periods by date",
    hint:"In Italy, building warmth systems are only permitted to run from mid-October to mid-April by national statute. A cold snap outside this window is simply uncomfortable."},
 

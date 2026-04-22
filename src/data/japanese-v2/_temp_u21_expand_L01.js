@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: What kind of magazines do you read?\nB: I like travel magazines.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"雑誌 literally means 'miscellaneous records.' Japan's magazine culture is enormous, with specialized publications for nearly every hobby and interest. Convenience stores dedicate entire walls to magazines. Weekly manga magazines like Shonen Jump sell millions of copies."},
 
-    {type:"mc", q:"ほうどう means:", opts:["newspaper","news coverage/reporting","magazine","advertisement"], ans:"news coverage/reporting",
+    {type:"mc", q:"ほうどう means:", opts:["news coverage/reporting","magazine","advertisement","newspaper"], ans:"news coverage/reporting",
      hint:"This word refers to the professional act of journalism and broadcasting stories."},
 
     {type:"teach", trg:"はんたい", src:"opposition / opposite / against", pos:"noun", gender:null,
@@ -72,7 +72,7 @@ const LESSON_3 = {
      exampleSrc:"A: I gathered information on the internet.\nB: Is it trustworthy information?\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
      funFact:"情報 originally meant military intelligence. Today it is the standard word for 'information' in all contexts. じょうほうしゃかい (information society) and IT (じょうほうぎじゅつ) use this word. The kanji 情 (feeling/situation) + 報 (report) suggest that information carries both facts and context."},
 
-    {type:"mc", q:"はんたい is the opposite of:", opts:["ほうどう","ちょうさ","さんせい","じょうほう"], ans:"さんせい",
+    {type:"mc", q:"はんたい is the opposite of:", opts:["ちょうさ","さんせい","じょうほう","ほうどう"], ans:"さんせい",
      hint:"One means opposition; its natural pair means agreement or approval."},
 
     {type:"match", pairs:[{trg:"ほうどう",src:"news coverage"},{trg:"きじ",src:"article"},{trg:"しんぶん",src:"newspaper"},{trg:"ざっし",src:"magazine"}]},
@@ -82,7 +82,7 @@ const LESSON_3 = {
     {type:"fb", s:"せいふがあたらしいたいさくを{1}しました。\n(The government announced new countermeasures.)", a:"はっぴょう", opts:["はっぴょう","ちょうさ","ほうどう","はんたい"], sSrc:"The government announced new countermeasures.",
      hint:"The word for making an official public statement or presenting results."},
 
-    {type:"mc", q:"えいきょう means:", opts:["investigation","influence/impact","announcement","agreement"], ans:"influence/impact",
+    {type:"mc", q:"えいきょう means:", opts:["agreement","investigation","influence/impact","announcement"], ans:"influence/impact",
      hint:"The kanji combine 'shadow' and 'echo,' describing how something ripples outward."},
 
     {type:"match", pairs:[{trg:"えいきょう",src:"influence"},{trg:"じょうほう",src:"information"},{trg:"ちょうさ",src:"survey/research"},{trg:"ほうどう",src:"reporting"}]},

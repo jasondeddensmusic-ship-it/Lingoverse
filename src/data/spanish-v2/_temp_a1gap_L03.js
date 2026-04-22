@@ -1,4 +1,4 @@
-// L03: Home & Housing — Where you live
+// L03: Home & Housing. Where you live
 const LESSON_3 = {
   id:"esv2_a1gap_l3", title:"Mi casa", icon:"\u{1F3E0}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"\u00bfQué palabra viene del árabe?",
-     opts:["alquiler","balcón","bloque","apartamento"],
+     opts:["apartamento","alquiler","balcón","bloque"],
      ans:"alquiler",
      hint:"Words starting with 'al-' in Spanish very often have Arabic origins from the Moorish period."},
 

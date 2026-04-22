@@ -1,4 +1,4 @@
-// L10: Crime, Law & Safety — 20 B2 gap words
+// L10: Crime, Law & Safety, 20 B2 gap words
 const LESSON_10 = {
   id:"nlv2_b2g3_l10", title:"Criminaliteit, Recht en Veiligheid", icon:"\u2696\uFE0F", xp:15, board:true,
   steps:[
@@ -95,7 +95,7 @@ const LESSON_10 = {
      deepDive:{title:"The Dutch tolerance policy",
       text:"The 'gedoogbeleid' (tolerance policy) is uniquely Dutch. Something can be illegal but officially tolerated. The most famous example is cannabis: selling it in coffeeshops is illegal under the Opium Law, but the government has decided not to prosecute.\n\nThis pragmatic approach extends to other areas: euthanasia was tolerated before being legalized, and prostitution was regulated rather than banned. The Dutch philosophy: if you cannot prevent something, regulate it to minimize harm."}},
     {type:"mc", q:"Wat is een 'buitengerechtelijke schikking'?",
-     opts:["een rechtszaak","een schikking buiten de rechtbank","een strafproces","een hoger beroep"],
+     opts:["een schikking buiten de rechtbank","een strafproces","een hoger beroep","een rechtszaak"],
      ans:"een schikking buiten de rechtbank",
      hint:"The prefix 'b...-' means outside. 'Gerechtelijk' relates to the court."},
     {type:"fb", s:"De politie heeft {1} gelegd op zijn bezittingen.", a:["beslag"],
@@ -109,7 +109,7 @@ const LESSON_10 = {
       {trg:"dodencijfer", src:"death toll"}
     ]},
     {type:"mc", q:"Wat is het BSN?",
-     opts:["een postcode","een telefoonnummer","een burgerservicenummer","een bankrekeningnummer"],
+     opts:["een telefoonnummer","een burgerservicenummer","een bankrekeningnummer","een postcode"],
      ans:"een burgerservicenummer",
      hint:"Nine digits found on your Dutch identity card. Used for tax, healthcare, and government services."},
     {type:"fb", s:"Het was pure {1} om dat te doen.", a:["domheid"],

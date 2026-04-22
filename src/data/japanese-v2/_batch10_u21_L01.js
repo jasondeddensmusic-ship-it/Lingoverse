@@ -55,7 +55,7 @@ const BATCH10_L1 = {
       {trg:"移民(いみん)", src:"immigration"},
       {trg:"多文化共生(たぶんかきょうせい)", src:"multicultural coexistence"}
     ]},
-    {type:"mc", q:"What is Japan's biggest demographic challenge?", opts:["Simultaneous population aging and declining births","Too much immigration","Overpopulation","Youth unemployment"], ans:"Simultaneous population aging and declining births",
+    {type:"mc", q:"What is Japan's biggest demographic challenge?", opts:["Youth unemployment","Simultaneous population aging and declining births","Too much immigration","Overpopulation"], ans:"Simultaneous population aging and declining births",
      hint:"少子高齢化(しょうしこうれいか) (d... b... + a...) is the combined crisis facing Japan."}
   ,{type:"match",pairs:[{trg:"都会(とかい)",src:"city / urban area"},{trg:"地域活性化(ちいきかっせいか)",src:"regional revitalization"},{trg:"勤務(きんむ)形態(けいたい)",src:"work style / employment type"}]}]
 };

@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'SSN' stand for in Italy?",
-     opts:["Sistema Sanitario Nazionale","Servizio Sanitario Nazionale","Societa Sanitaria Nazionale","Struttura Sanitaria Nazionale"],
+     opts:["Servizio Sanitario Nazionale","Societa Sanitaria Nazionale","Struttura Sanitaria Nazionale","Sistema Sanitario Nazionale"],
      ans:"Servizio Sanitario Nazionale",
      hint:"Italy's universal public healthcare 'service.' It covers all legal residents and was founded in 1978."},
 
@@ -81,7 +81,7 @@ const LESSON_6 = {
     ]},
 
     {type:"mc", q:"What is the biggest complaint about Italian public healthcare?",
-     opts:["Doctors are poorly trained","Medications are too expensive","Long waiting lists for specialist appointments","Hospitals lack basic equipment"],
+     opts:["Medications are too expensive","Long waiting lists for specialist appointments","Hospitals lack basic equipment","Doctors are poorly trained"],
      ans:"Long waiting lists for specialist appointments",
      hint:"S... a... can take months. Many Italians pay privately to skip the queue."},
 
@@ -92,7 +92,7 @@ const LESSON_6 = {
      sSrc:"I have the {1} for diabetes. Visits are free."},
 
     {type:"mc", q:"What is the 'codice fiscale' used for?",
-     opts:["Only for filing tax returns once a year","Nearly every transaction: banking, leases, healthcare, and phones","Only for accessing emergency healthcare services","Only for international travel documents"],
+     opts:["Only for international travel documents","Only for filing tax returns once a year","Nearly every transaction: banking, leases, healthcare, and phones","Only for accessing emergency healthcare services"],
      ans:"Nearly every transaction: banking, leases, healthcare, and phones",
      hint:"This 16-character code is essential for daily life in Italy. Foreigners receive one upon registering with authorities."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"The waiting {1} is three months for the specialist."},
 
     {type:"mc", q:"Who is the 'medico di base'?",
-     opts:["The hospital chief of medicine","Your assigned general practitioner","The emergency room doctor","The pharmacy advisor"],
+     opts:["The emergency room doctor","The pharmacy advisor","The hospital chief of medicine","Your assigned general practitioner"],
      ans:"Your assigned general practitioner",
      hint:"Every Italian citizen chooses one from a local list. This doctor provides free consultations and referrals."}
   ]

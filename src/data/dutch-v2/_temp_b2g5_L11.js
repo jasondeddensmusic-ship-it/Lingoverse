@@ -60,7 +60,7 @@ const LESSON_11 = {
      deepDive:{title:"'Her-' vs 'opnieuw'",
       text:"'Her-' and 'opnieuw' (again/anew) overlap but are not identical.\n\n'Herschrijven' = to rewrite (implies revision, improvement)\n'Opnieuw schrijven' = to write again (could be identical copy)\n\n'Her-' implies transformation or improvement. 'Opnieuw' is neutral repetition. In formal writing, 'her-' is preferred. In speech, 'opnieuw' is more common.\n\nSome 'her-' verbs have no 'opnieuw' equivalent: 'herleiden' (trace back) cannot be replaced by 'opnieuw leiden'."}},
     {type:"mc", q:"Wat betekent 'herontdekken'?",
-     opts:["ontdekken voor de eerste keer","opnieuw ontdekken","vergeten","verbergen"],
+     opts:["opnieuw ontdekken","vergeten","verbergen","ontdekken voor de eerste keer"],
      ans:"opnieuw ontdekken",
      hint:"The 'her-' prefix means 're-' or 'again'. Combined with 'o...' (discover)."},
     {type:"fb", s:"De auteur heeft het hele boek {1}.", a:["herschreven"],

@@ -72,13 +72,13 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  hint:"After quero que, use the present subjunctive of saber. This verb does not follow the regular pattern.",
  sSrc:"I want him to {1} the truth."},
 
-{type:"mc", q:"Choose the correct subjunctive of falar for eu:", opts:["falo","fala","fale","falei"], ans:"fale", hint:"Subjunctive flips the final vowel. -ar verb eu form."},
+{type:"mc", q:"Choose the correct subjunctive of falar for eu:", opts:["fale","falei","falo","fala"], ans:"fale", hint:"Subjunctive flips the final vowel. -ar verb eu form."},
 
-{type:"mc", q:"'Quero que você coma tudo' means:", opts:["I want you to eat everything","I want to eat everything","I eat everything","I will eat everything"], ans:"I want you to eat everything", hint:"Quero que triggers the subjunctive. Coma is the flipped form."},
+{type:"mc", q:"'Quero que você coma tudo' means:", opts:["I will eat everything","I want you to eat everything","I want to eat everything","I eat everything"], ans:"I want you to eat everything", hint:"Quero que triggers the subjunctive. Coma is the flipped form."},
 
 {type:"fb", s:"Espero que você {1} cedo amanhã.", a:["venha"], opts:["venha","vem","veio","virá"], hint:"Subjunctive after espero que. Use irregular form of vir.", sSrc:"I hope you {1} early tomorrow."},
 
-{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo","Quero que ela falará comigo"], ans:"Quero que ela fale comigo", hint:"Querer introduces a wish about another person. The verb in the second clause must take the subjunctive form."},
+{type:"mc", q:"Which sentence uses the subjunctive correctly?", opts:["Quero que ela falará comigo","Quero que ela fala comigo","Quero que ela fale comigo","Quero que ela falou comigo"], ans:"Quero que ela fale comigo", hint:"Querer introduces a wish about another person. The verb in the second clause must take the subjunctive form."},
 
 {type:"fb", s:"Espero que nós {1} a tempo.", a:["cheguemos"], opts:["cheguemos","chegamos","chegaremos","chegávamos"], hint:"Subjunctive of chegar for nós. Watch the spelling: c > qu before e.", sSrc:"I hope we {1} on time."},
 
@@ -89,7 +89,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
   {trg:"que eles sejam", src:"that they be"}
 ]},
 
-{type:"mc", q:"Which is the subjunctive of ser for eu?", opts:["seja","sou","era","fui"], ans:"seja", hint:"Ser has a unique irregular subjunctive. Four letters, starts with s."},
+{type:"mc", q:"Which is the subjunctive of ser for eu?", opts:["sou","era","fui","seja"], ans:"seja", hint:"Ser has a unique irregular subjunctive. Four letters, starts with s."},
 
 {type:"fb", s:"Espero que ele {1} feliz.", a:["seja"], opts:["seja","é","era","será"], hint:"Feelings + que + subjunctive. Ser is irregular.", sSrc:"I hope he {1} happy."},
 
@@ -185,13 +185,13 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I want you to go to the doctor.\nB: I am scheduling it now.\nA: Good!\nB: It is nothing serious, but better to check.",
  funFact:"Vá is short but loaded. It appears in warnings ('Vá com calma!') and wishes alike. Keep the accent or it becomes the noun va (nothing)."},
 
-{type:"mc", q:"Choose the correct subjunctive for: 'Quero que ele _____'", opts:["vai","vá","foi","ia"], ans:"vá", hint:"Quero que triggers the subjunctive. Ir has an irregular short form."},
+{type:"mc", q:"Choose the correct subjunctive for: 'Quero que ele _____'", opts:["vá","foi","ia","vai"], ans:"vá", hint:"Quero que triggers the subjunctive. Ir has an irregular short form."},
 
-{type:"mc", q:"'Duvido que ela venha' means:", opts:["I doubt she is coming","She doubts I am coming","I know she is coming","She is coming for sure"], ans:"I doubt she is coming", hint:"Duvidar que + subjunctive. Uncertainty about another subject."},
+{type:"mc", q:"'Duvido que ela venha' means:", opts:["She is coming for sure","I doubt she is coming","She doubts I am coming","I know she is coming"], ans:"I doubt she is coming", hint:"Duvidar que + subjunctive. Uncertainty about another subject."},
 
 {type:"fb", s:"Espero que você {1} bem.", a:["esteja"], opts:["esteja","está","esteve","estará"], hint:"Esperar que + estar in subjunctive.", sSrc:"I hope you {1} well."},
 
-{type:"mc", q:"Which sentence correctly uses the subjunctive?", opts:["Quero que você estuda mais","Quero que você estude mais","Quero que você estudou mais","Quero que você estudará mais"], ans:"Quero que você estude mais", hint:"___rer ___ triggers the subjunctive. Flip -ar to -e."},
+{type:"mc", q:"Which sentence correctly uses the subjunctive?", opts:["Quero que você estudará mais","Quero que você estuda mais","Quero que você estude mais","Quero que você estudou mais"], ans:"Quero que você estude mais", hint:"___rer ___ triggers the subjunctive. Flip -ar to -e."},
 
 {type:"fb", s:"É importante que nós {1} cedo.", a:["cheguemos"], opts:["cheguemos","chegamos","chegaremos","chegávamos"], hint:"Impersonal trigger + subjunctive. First person plural of chegar. Spelling: c > qu before e.", sSrc:"It is important that we {1} early."},
 
@@ -202,11 +202,11 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
   {trg:"é importante que", src:"it is important that"}
 ]},
 
-{type:"mc", q:"'Talvez chova amanhã' means:", opts:["Maybe it will rain tomorrow","It rained yesterday","It is raining now","It always rains"], ans:"Maybe it will rain tomorrow", hint:"Talvez + subjunctive. Chova is the subjunctive of chover."},
+{type:"mc", q:"'Talvez chova amanhã' means:", opts:["It rained yesterday","It is raining now","It always rains","Maybe it will rain tomorrow"], ans:"Maybe it will rain tomorrow", hint:"Talvez + subjunctive. Chova is the subjunctive of chover."},
 
 {type:"fb", s:"Peço que vocês {1} em silêncio durante a prova.", a:["fiquem"], opts:["fiquem","ficam","ficaram","ficarão"], hint:"Peço que + subjunctive. Third person plural of ficar.", sSrc:"I ask that you all {1} silent during the exam."},
 
-{type:"mc", q:"When do you use the subjunctive?", opts:["When both verbs have the same subject","When two subjects are different and the trigger verb is emotion/doubt/wish","Only in questions","Only in the past"], ans:"When two subjects are different and the trigger verb is emotion/doubt/wish", hint:"___ ___ + ___ ___ is the core rule."},
+{type:"mc", q:"When do you use the subjunctive?", opts:["When two subjects are different and the trigger verb is emotion/doubt/wish","Only in questions","Only in the past","When both verbs have the same subject"], ans:"When two subjects are different and the trigger verb is emotion/doubt/wish", hint:"___ ___ + ___ ___ is the core rule."},
 
 {type:"fb", s:"É preciso que ele {1} a verdade.", a:["diga"], opts:["diga","diz","disse","dirá"], hint:"Impersonal trigger + subjunctive. Dizer has an irregular subjunctive.", sSrc:"It is necessary that he {1} the truth."},
 
@@ -216,7 +216,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  exampleSrc:"A: I want you to tell me the truth.\nB: Okay.\nA: I am ready.\nB: Then let's go.",
  funFact:"Diga appears in headlines: 'Diga sim' (Say yes), 'Diga não' (Say no). Imperative and subjunctive share the form."},
 
-{type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["Talvez expresses uncertainty","Ele is singular","Certo is an adjective","It is a question"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
+{type:"mc", q:"'Talvez ele esteja certo' uses the subjunctive because:", opts:["It is a question","Talvez expresses uncertainty","Ele is singular","Certo is an adjective"], ans:"Talvez expresses uncertainty", hint:"___ is a trigger for the subjunctive. ___ demands it."}
 ,
 
 {type:"fb",
@@ -248,7 +248,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  note:"Regular -ar verb. Compare two things using 'comparar com' (compare with).",
  example:"A: Posso comparar os dois?\nB: Claro, comparar é muito bom.",
  exampleSrc:"A: Can I compare the two?\nB: Of course, comparing is very good.",
- funFact:"From Latin 'comparare'. The prefix com- means 'together', and parare means 'to prepare' — putting things side by side to evaluate them."},
+ funFact:"From Latin 'comparare'. The prefix com- means 'together', and parare means 'to prepare', putting things side by side to evaluate them."},
 
 {type:"teach", trg:"a política", src:"politics / policy", pos:"noun", gender:"f",
  note:"Covers both 'politics' as a field and 'policy' as a decision. Context determines which.",
@@ -272,7 +272,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
  note:"Opposite of 'a desvantagem'. Often used in 'ter vantagem' (to have an advantage).",
  example:"A: Qual é a vantagem do plano?\nB: A vantagem é que é mais barato.",
  exampleSrc:"A: What is the advantage of the plan?\nB: The advantage is that it is cheaper.",
- funFact:"From Old French 'avantage', which entered Portuguese via 'avante' (forward). The prefix 'des-' simply reverses the meaning — a very productive pattern in Portuguese."},
+ funFact:"From Old French 'avantage', which entered Portuguese via 'avante' (forward). The prefix 'des-' simply reverses the meaning, a very productive pattern in Portuguese."},
 
 {type:"teach", trg:"a desvantagem", src:"disadvantage / drawback", pos:"noun", gender:"f",
  note:"Built from 'des-' (negation) + 'vantagem'. One of Portuguese's most productive prefix patterns.",
@@ -298,9 +298,9 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"mc",
  q:"Which word means 'politics' or 'policy' in Portuguese?",
- opts:["a política","a educação","a solução","o progresso"],
+ opts:["o progresso","a política","a educação","a solução"],
  ans:"a política",
- hint:"Think of the English word 'political' — the Portuguese cognate keeps the same root."},
+ hint:"Think of the English word 'political', the Portuguese cognate keeps the same root."},
 
 {type:"fb",
  s:"A {1} no Brasil melhorou muito nos últimos anos.",
@@ -318,7 +318,7 @@ const UNIT_16 = {n:16, lang:"pt", srcLang:"en", track:"v2", title:"Espero que...
 
 {type:"mc",
  q:"A: Qual é a desvantagem desse plano?\nB: A desvantagem principal é o tempo que leva.",
- opts:["The main disadvantage is the time it takes","The plan has no disadvantages","The advantage is the time saved","The plan takes no time"],
+ opts:["The advantage is the time saved","The plan takes no time","The main disadvantage is the time it takes","The plan has no disadvantages"],
  ans:"The main disadvantage is the time it takes",
  hint:"'Desvantagem' is the negative counterpart of 'vantagem'. Read what follows 'é'."},
 

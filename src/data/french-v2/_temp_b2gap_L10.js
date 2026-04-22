@@ -143,7 +143,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'recouvrir un sol de carreaux' ?",
-     opts:["carreler","astiquer","dess\u00e9cher","brosser"],
+     opts:["brosser","carreler","astiquer","dess\u00e9cher"],
      ans:"carreler",
      hint:"Related to 'carreau' (tile/square). Think of bathroom or kitchen floor work."},
 

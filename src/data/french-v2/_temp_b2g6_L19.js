@@ -80,7 +80,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Que signifie 'à la rigueur' ?",
-     opts:["Si c'est vraiment nécessaire","Avec sévérité","Sans hésitation","De manière approximative"],
+     opts:["De manière approximative","Si c'est vraiment nécessaire","Avec sévérité","Sans hésitation"],
      ans:"Si c'est vraiment nécessaire",
      hint:"A hedging expression. Literally 'at the rigor', meaning if you absolutely must."},
 
@@ -131,7 +131,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel mot français désigne l'art de persuader par le discours ?",
-     opts:["la rhétorique","la polémique","la synthèse","la concertation"],
+     opts:["la synthèse","la concertation","la rhétorique","la polémique"],
      ans:"la rhétorique",
      hint:"From Greek, meaning the art of persuasive speech. A classical discipline still valued in France."},
 

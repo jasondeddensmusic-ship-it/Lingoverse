@@ -24,7 +24,7 @@ const LESSON_5 = {
      exampleSrc:"A: The goal is zero emissions by 2050.\nB: Can it be achieved in about thirty years?\nA: Were there any problems?\nB: There were some issues, but we resolved them.\nA: How did you resolve them?\nB: We discussed it as a whole team and found the best method.",
      funFact:"目標 uses 目 (eye) and 標 (mark/sign). A goal is literally a mark you keep your eye on. Japan's 2050 carbon neutrality もくひょう was announced in 2020. Breaking large goals into smaller milestones uses ちゅうかんもくひょう (intermediate targets). The related word たっせい (achievement) pairs with もくひょう: もくひょうをたっせいする (to achieve a goal)."},
 
-    {type:"mc", q:"きせいかんわ means:", opts:["Tightening regulations","Relaxing rules and restrictions","Creating new laws","Enforcing penalties"], ans:"Relaxing rules and restrictions",
+    {type:"mc", q:"きせいかんわ means:", opts:["Relaxing rules and restrictions","Creating new laws","Enforcing penalties","Tightening regulations"], ans:"Relaxing rules and restrictions",
      hint:"かんわ means easing or r..., so combined with きせい it means loosening controls."},
 
     {type:"teach", trg:"たっせい", src:"achievement / accomplishment", pos:"noun", gender:null,
@@ -54,7 +54,7 @@ const LESSON_5 = {
      exampleSrc:"A: Japanese technology can contribute to environmental protection.\nB: Especially energy-saving technology.\nA: Is there any progress on that matter?\nB: Yes, it is progressing smoothly.\nA: When is it expected to be completed?\nB: It is scheduled to be completed by the beginning of next month.",
      funFact:"貢献 uses 貢 (tribute) and 献 (offer/dedicate). Contributing is offering tribute. Japanese companies emphasize しゃかいこうけん (social contribution) in their CSR reports. The word carries prestige: saying こうけんしている implies meaningful, positive impact. The phrase ちいきこうけん (community contribution) is also common."},
 
-    {type:"mc", q:"ふかけつ literally breaks down as:", opts:["Cannot be lacked (absolutely essential)","Not possible to add","Cannot be changed","Not allowed to continue"], ans:"Cannot be lacked (absolutely essential)",
+    {type:"mc", q:"ふかけつ literally breaks down as:", opts:["Not allowed to continue","Cannot be lacked (absolutely essential)","Not possible to add","Cannot be changed"], ans:"Cannot be lacked (absolutely essential)",
      hint:"不 (not) + 可 (possible) + 欠 (lack) creates a triple-character statement of necessity."},
 
     {type:"teach", trg:"しょうエネ", src:"energy conservation / energy saving", pos:"noun", gender:null,

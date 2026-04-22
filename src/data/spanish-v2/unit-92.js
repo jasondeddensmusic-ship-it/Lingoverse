@@ -1,4 +1,4 @@
-// Spanish V2 Unit 92 — B2 Final: Society, Culture & Psychology
+// Spanish V2 Unit 92. B2 Final: Society, Culture & Psychology
 import LESSON_6 from './_temp_esB2fin_L06.js';
 import LESSON_7 from './_temp_esB2fin_L07.js';
 import LESSON_8 from './_temp_esB2fin_L08.js';

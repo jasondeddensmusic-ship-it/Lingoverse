@@ -40,7 +40,7 @@ const LESSON_28 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"한국이 반도체를 다른 나라에 파는 것을 뭐라고 해요?",
-     opts:["수입","수출","무역","세금"],
+     opts:["수출","무역","세금","수입"],
      ans:"수출",
      hint:"This word specifically means sending goods OUT of the country to sell abroad. The hanja includes 'exit.'"},
 
@@ -92,7 +92,7 @@ const LESSON_28 = {
 
     {type:"mc",
      q:"'이 기술이 의료에 사용돼요'에서 '사용되다'는?",
-     opts:["사용을 시작하다","사용을 멈추다","다른 사람에 의해 쓰이다","사용할 수 없다"],
+     opts:["사용을 멈추다","다른 사람에 의해 쓰이다","사용할 수 없다","사용을 시작하다"],
      ans:"다른 사람에 의해 쓰이다",
      hint:"This is the passive form of 'to use.' Something is being utilized by someone else."},
 
@@ -137,7 +137,7 @@ const LESSON_28 = {
 
     {type:"mc",
      q:"'돈을 벌다'에서 '벌다'의 뜻은?",
-     opts:["돈을 쓰다","돈을 빌리다","돈을 받다","일해서 돈을 얻다"],
+     opts:["돈을 빌리다","돈을 받다","일해서 돈을 얻다","돈을 쓰다"],
      ans:"일해서 돈을 얻다",
      hint:"This native Korean verb means to gain money through working. You receive wages for your labor."},
 
@@ -182,7 +182,7 @@ const LESSON_28 = {
 
     {type:"mc",
      q:"'시간이 부족하다'의 뜻은?",
-     opts:["시간이 남다","시간이 충분하다","시간이 모자라다","시간이 길다"],
+     opts:["시간이 길다","시간이 남다","시간이 충분하다","시간이 모자라다"],
      ans:"시간이 모자라다",
      hint:"This adjective means there is not enough of something. The time available falls short of what is needed."},
 

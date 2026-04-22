@@ -80,7 +80,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot designe un modele ou un patron a suivre ?",
-     opts:["la matrice","la maisonnee","la liqueur","la marquise"],
+     opts:["la marquise","la matrice","la maisonnee","la liqueur"],
      ans:"la matrice",
      hint:"In math, it's a grid of numbers. In printing, it's a mold for type."},
 
@@ -113,7 +113,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel adverbe insiste sur l'impossibilite physique de realiser quelque chose ?",
-     opts:["materiellement","magistralement","momentanement","malgre"],
+     opts:["momentanement","malgre","materiellement","magistralement"],
      ans:"materiellement",
      hint:"Stresses that something cannot physically be done, not just difficult."},
 

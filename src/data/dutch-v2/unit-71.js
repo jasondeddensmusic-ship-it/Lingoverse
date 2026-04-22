@@ -1,4 +1,4 @@
-// Dutch V2 Unit 71 — B2 Vocabulary Batch 9
+// Dutch V2 Unit 71. B2 Vocabulary Batch 9
 import L01 from './_temp_b2g9_L01.js';
 import L02 from './_temp_b2g9_L02.js';
 import L03 from './_temp_b2g9_L03.js';

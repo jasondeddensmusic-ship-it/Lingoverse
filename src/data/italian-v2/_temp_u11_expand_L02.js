@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
   ]},
 
   {type:"mc", q:"What does 'C'era una volta' mean?",
-   opts:["Once upon a time","There was a turn","It was one way","Once it was good"],
+   opts:["Once it was good","Once upon a time","There was a turn","It was one way"],
    ans:"Once upon a time",
    hint:"This is how Italian fairy tales begin. 'Volta' means t.../occurrence, not a physical turn."},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
    sSrc:"{1} the train arrived! Two hours late!"},
 
   {type:"mc", q:"What does 'all'improvviso' add to a story?",
-   opts:["Dramatic surprise and suspense","A conclusion","A gentle transition","Humor"],
+   opts:["A gentle transition","Humor","Dramatic surprise and suspense","A conclusion"],
    ans:"Dramatic surprise and suspense",
    hint:"Something unexpected is about to happen. This phrase signals a sudden twist in the narrative."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u11l5", title:"Le espressioni di tempo", icon:"\u231A
    sSrc:"When did you see him? The day before {1}."},
 
   {type:"mc", q:"What is the difference between 'intanto' and 'nel frattempo'?",
-   opts:["Intanto is more colloquial, nel frattempo more formal","They have different meanings","Intanto is past only","Nel frattempo is future only"],
+   opts:["They have different meanings","Intanto is past only","Nel frattempo is future only","Intanto is more colloquial, nel frattempo more formal"],
    ans:"Intanto is more colloquial, nel frattempo more formal",
    hint:"Both mean 'meanwhile.' One is everyday speech, the other fits better in writing or f... narration."},
 

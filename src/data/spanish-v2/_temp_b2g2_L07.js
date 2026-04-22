@@ -90,7 +90,7 @@ const LESSON_7 = {id:"esv2_b2g2_l7",title:"El hogar y los objetos",icon:"🏠",x
  exampleSrc:"A: The landlord raised the rent by ten percent.\nB: That is an excessive increase in a single year.",
  funFact:"Also an adjective: 'comida casera' (home cooking). Both meanings from 'casa' (house)."},
 
-{type:"mc",q:"¿De qué idioma viene la palabra alberca?",opts:["Del árabe","Del latín","Del francés","Del náhuatl"],ans:"Del árabe",hint:"Think about the Arabic influence on Spanish vocabulary, especially water-related words."},
+{type:"mc",q:"¿De qué idioma viene la palabra alberca?",opts:["Del náhuatl","Del árabe","Del latín","Del francés"],ans:"Del árabe",hint:"Think about the Arabic influence on Spanish vocabulary, especially water-related words."},
 
 {type:"teach",trg:"el barrendero",src:"the street sweeper",pos:"noun",gender:"m",
  note:"Masculine noun. Feminine: la barrendera.\nPerson who sweeps and cleans streets.",
@@ -120,7 +120,7 @@ const LESSON_7 = {id:"esv2_b2g2_l7",title:"El hogar y los objetos",icon:"🏠",x
 
 {type:"match",pairs:[{trg:"baúl",src:"trunk"},{trg:"cuenco",src:"bowl"},{trg:"choza",src:"hut"},{trg:"bazar",src:"variety store"},{trg:"chicle",src:"chewing gum"}]},
 
-{type:"mc",q:"¿Qué hace un barrendero?",opts:["Limpia y barre las calles","Construye muebles de madera","Recoge la basura de las casas","Repara las puertas rotas"],ans:"Limpia y barre las calles",hint:"Think about the person whose job is to sweep public streets clean."}
+{type:"mc",q:"¿Qué hace un barrendero?",opts:["Recoge la basura de las casas","Repara las puertas rotas","Limpia y barre las calles","Construye muebles de madera"],ans:"Limpia y barre las calles",hint:"Think about the person whose job is to sweep public streets clean."}
 ]};
 
 export default LESSON_7;

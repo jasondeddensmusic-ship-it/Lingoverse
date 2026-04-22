@@ -90,7 +90,7 @@ const LESSON_12 = {id:"esv2_b2g2_l12",title:"Trabajo y profesiones",icon:"👷",
  exampleSrc:"A: The verse singer was singing in the town square.\nB: People stopped to listen to him.",
  funFact:"From 'copla' (verse/song). The copla is a uniquely Spanish music genre, popularized in the 1940s."},
 
-{type:"mc",q:"¿Qué hace un agente inmobiliario?",opts:["Ayuda a comprar o alquilar propiedades","Conduce un autobús público","Juega al ajedrez profesionalmente","Canta coplas en la plaza"],ans:"Ayuda a comprar o alquilar propiedades",hint:"Think about the professional who helps you find and buy or rent a house or apartment."},
+{type:"mc",q:"¿Qué hace un agente inmobiliario?",opts:["Canta coplas en la plaza","Ayuda a comprar o alquilar propiedades","Conduce un autobús público","Juega al ajedrez profesionalmente"],ans:"Ayuda a comprar o alquilar propiedades",hint:"Think about the professional who helps you find and buy or rent a house or apartment."},
 
 {type:"teach",trg:"el barman",src:"the bartender",pos:"noun",gender:"m",
  note:"Masculine noun. Feminine: la barman.\nA person who serves drinks at a bar.",

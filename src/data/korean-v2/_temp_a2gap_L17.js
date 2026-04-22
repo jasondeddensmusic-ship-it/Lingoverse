@@ -110,7 +110,7 @@ const LESSON_17 = {
     // Quiz block 3: words 9-12
     {type:"mc",
      q:"오래간만에 친구를 ___.",
-     opts:["쉬었어요","했어요","만났어요","봤어요"],
+     opts:["했어요","만났어요","봤어요","쉬었어요"],
      ans:"만났어요",
      hint:"After a long time apart, what do you do when you see a friend?"},
 
@@ -167,7 +167,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"옛날 옛적에 작은 마을이 ___.",
-     opts:["버렸어요","있었어요","쉬었어요","만났어요"],
+     opts:["만났어요","버렸어요","있었어요","쉬었어요"],
      ans:"있었어요",
      hint:"Fairy tales begin by saying a place or thing existed long ago."},
 

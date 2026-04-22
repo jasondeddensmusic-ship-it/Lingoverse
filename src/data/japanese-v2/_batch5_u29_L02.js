@@ -63,7 +63,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"最近(さいきん){1}する人(ひと)が増(ふ)えています。\n(More people are changing jobs recently.)", a:"転職(てんしょく)", opts:["転職(てんしょく)","就職(しゅうしょく)","退職(たいしょく)","休職(きゅうしょく)"], sSrc:"More people are changing jobs recently.",
      hint:"The word for switching from one job to another, not first employment or retirement."},
 
-    {type:"mc", q:"はたらきかたかいかく aims to:", opts:["Improve working conditions (overtime caps, paid leave, flexibility)","Increase working hours","Reduce wages","Eliminate all regulations"], ans:"Improve working conditions (overtime caps, paid leave, flexibility)",
+    {type:"mc", q:"はたらきかたかいかく aims to:", opts:["Eliminate all regulations","Improve working conditions (overtime caps, paid leave, flexibility)","Increase working hours","Reduce wages"], ans:"Improve working conditions (overtime caps, paid leave, flexibility)",
      hint:"This government initiative addresses overwork and promotes better work-life balance."},
 
     {type:"match", pairs:[{trg:"雇用(こよう)",src:"employment"},{trg:"賃金(ちんぎん)",src:"wages"},{trg:"転職(てんしょく)",src:"job change"},{trg:"育休(いくきゅう)",src:"parental leave"}]},
@@ -71,7 +71,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"高齢化(こうれいか)にともなって{1}が深刻(しんこく)になっています。\n(Labor shortages are becoming serious alongside aging.)", a:"労働力不足(ろうどうりょくぶそく)", opts:["労働力不足(ろうどうりょくぶそく)","人口増加(じんこうぞうか)","経済成長(けいざいせいちょう)","賃金上昇(ちんぎんじょうしょう)"], sSrc:"Labor shortages are becoming serious alongside aging.",
      hint:"The compound for 'insufficient workforce,' combining labor force with shortage."},
 
-    {type:"mc", q:"しゅうしんこよう describes:", opts:["Working at the same company from graduation to retirement","Freelance work","Government employment","Working multiple jobs"], ans:"Working at the same company from graduation to retirement",
+    {type:"mc", q:"しゅうしんこよう describes:", opts:["Government employment","Working multiple jobs","Working at the same company from graduation to retirement","Freelance work"], ans:"Working at the same company from graduation to retirement",
      hint:"しゅうしん (whole life/lifetime) + こよう (employment) = the traditional Japanese career model."}
   ,{type:"match",pairs:[{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work style reform"},{trg:"福利厚生(ふくりこうせい)",src:"employee benefits / welfare benefits"},{trg:"外国人労働者(がいこくじんろうどうしゃ)",src:"foreign worker"}]}]
 };

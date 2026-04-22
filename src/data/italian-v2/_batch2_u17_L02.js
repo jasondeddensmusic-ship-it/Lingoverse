@@ -74,7 +74,7 @@ const BATCH2_U17_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What was 'Carosello' in Italian TV history?",
-     opts:["A famous Italian drama series from the 1980s","A legendary evening commercial program from 1957-1977","A political debate show that ran for decades","A children's cartoon that aired every morning"],
+     opts:["A legendary evening commercial program from 1957-1977","A political debate show that ran for decades","A children's cartoon that aired every morning","A famous Italian drama series from the 1980s"],
      ans:"A legendary evening commercial program from 1957-1977",
      hint:"Ads were presented as mini-shows with comedy and music. Italian children were told to go to bed after it ended at 8:50 PM."},
 
@@ -104,7 +104,7 @@ const BATCH2_U17_L2 = {
      sSrc:"Who is the {1} of the program?"},
 
     {type:"mc", q:"What is 'il palinsesto' in Italian TV?",
-     opts:["A type of satellite dish antenna","The programming schedule for a channel","A TV ratings measurement system","A rerun of old classic programs"],
+     opts:["A rerun of old classic programs","A type of satellite dish antenna","The programming schedule for a channel","A TV ratings measurement system"],
      ans:"The programming schedule for a channel",
      hint:"From Greek 'palimpsestos' (scraped and reused). In modern Italian, it is the full lineup of shows for a TV network."},
 
@@ -115,9 +115,9 @@ const BATCH2_U17_L2 = {
      sSrc:"There is too much {1} on television."},
 
     {type:"mc", q:"Which Italian reality show is based on 'Big Brother'?",
-     opts:["L'Isola dei Famosi","Temptation Island","Grande Fratello","Sanremo"],
+     opts:["Sanremo","L'Isola dei Famosi","Temptation Island","Grande Fratello"],
      ans:"Grande Fratello",
      hint:"'G...' means 'big' and 'F...' means 'brother.' This show draws millions of Italian viewers every season."}
-  ,{type:"match",pairs:[{trg:"il programma",src:"the program / TV show"},{trg:"il telecomando",src:"the remote control"},{trg:"il radioascoltatore",src:"the radio listener"},{trg:"il documentario",src:"the documentary"},{trg:"il reality show",src:"the reality show"}]},{type:"mc",q:"How do you say \"broadcaster / station\" in Italian?",opts:["la finestra","il tavolo","l'emittente","la bicicletta"],ans:"l'emittente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il programma",src:"the program / TV show"},{trg:"il telecomando",src:"the remote control"},{trg:"il radioascoltatore",src:"the radio listener"},{trg:"il documentario",src:"the documentary"},{trg:"il reality show",src:"the reality show"}]},{type:"mc",q:"How do you say \"broadcaster / station\" in Italian?",opts:["l'emittente","la bicicletta","la finestra","il tavolo"],ans:"l'emittente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U17_L2;

@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 19: Monde et Diversité
+// French B2 Gap Batch 9. Lesson 19: Monde et Diversité
 // Global diversity and cultural vocabulary
 
 const LESSON_19 = {id:"frv2_b2g9_l19", title:"Monde et Diversité", icon:"🌍", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_19 = {id:"frv2_b2g9_l19", title:"Monde et Diversité", icon:"🌍",
    exampleSrc:"A: Discrimination in hiring is illegal.\nB: But it remains difficult to prove.",
    funFact:"Testing (sending identical CVs with different names) proved discrimination exists in France."},
 
-  {type:"mc", q:"Le Maghreb comprend:", opts:["L'Égypte, la Libye, le Soudan","Le Maroc, l'Algérie, la Tunisie","Le Sénégal, le Mali, le Niger","La Syrie, le Liban, la Jordanie"], ans:"Le Maroc, l'Algérie, la Tunisie",
+  {type:"mc", q:"Le Maghreb comprend:", opts:["Le Maroc, l'Algérie, la Tunisie","Le Sénégal, le Mali, le Niger","La Syrie, le Liban, la Jordanie","L'Égypte, la Libye, le Soudan"], ans:"Le Maroc, l'Algérie, la Tunisie",
    hint:"The three main countries of northwest Africa. Maghreb means 'the West' in Arabic."},
 
   {type:"teach", trg:"l'antijeune", src:"anti-youth", pos:"adj", gender:null,

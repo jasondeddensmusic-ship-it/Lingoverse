@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 03 — Media en Informatie
+// Dutch B2 gapB Lesson 03. Media en Informatie
 // Information overload, digital media, and news vocabulary
 
 const LESSON_3 = {id:"nlv2_b2gB_l3", title:"Media en Informatie", icon:"\u{1F4F0}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_3 = {id:"nlv2_b2gB_l3", title:"Media en Informatie", icon:"\u{1F4F0
  funFact:"Dutch customer service is famously direct. Don't expect American-style friendliness, but do expect honest, efficient help."},
 
 {type:"mc", q:"'De krantenkop' is:",
- opts:["A newspaper delivery person","A newspaper headline","The front page","The editor"],
+ opts:["A newspaper headline","The front page","The editor","A newspaper delivery person"],
  ans:"A newspaper headline",
  hint:"Kop means head. The 'head' of a news article is its title."},
 
@@ -82,7 +82,7 @@ const LESSON_3 = {id:"nlv2_b2gB_l3", title:"Media en Informatie", icon:"\u{1F4F0
 ]},
 
 {type:"mc", q:"Welk woord past? 'De ... kan beter, de burger weet te weinig.'",
- opts:["informatiestress","informatieverschaffing","kijkdichtheid","klantenservice"],
+ opts:["klantenservice","informatiestress","informatieverschaffing","kijkdichtheid"],
  ans:"informatieverschaffing",
  hint:"The act of providing or supplying information to the public"},
 

@@ -1,4 +1,4 @@
-// L02: Work & Employment — 20 B2 gap words
+// L02: Work & Employment, 20 B2 gap words
 const LESSON_2 = {
   id:"nlv2_b2g4_l2", title:"Werk en Dienstverband", icon:"\uD83D\uDCBC", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_2 = {
      deepDive:{title:"The Dutch labor market",
       text:"The Dutch labor market is unique in Europe. Part-time work is normalized (the Netherlands is the world leader). The 'polder model' means employers, unions, and government negotiate together. Key terms: CAO (collective labor agreement), OR (works council), UWV (employee insurance agency). Understanding these terms is essential for working in the Netherlands."}},
     {type:"mc", q:"What does 'exploiteren' mean in Dutch?",
-     opts:["to exploit unfairly","to export goods","to operate a business","to explore new markets"],
+     opts:["to operate a business","to explore new markets","to exploit unfairly","to export goods"],
      ans:"to operate a business",
      hint:"A false friend with English. Think of running or managing."},
     {type:"fb", s:"Het bedrijf is {1} verklaard.", a:["failliet"],

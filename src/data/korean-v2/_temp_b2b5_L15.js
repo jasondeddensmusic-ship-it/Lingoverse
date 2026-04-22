@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 15: Installation, Religion, and Growth
+// Korean B2. Batch 5, Lesson 15: Installation, Religion, and Growth
 // Words: 설치되다, 설치하다, 섭섭하다, 섭씨, 성, 성경, 성공적, 성당, 성립되다, 성립하다, 성명, 성별, 성숙하다, 성실하다, 성인, 성장, 성질, 성함
 
 const LESSON_15 = {

@@ -1,4 +1,4 @@
-// Korean V2 Unit 6 — 어디 가요?
+// Korean V2 Unit 6, 어디 가요?
 // Level: A1.2
 
 const UNIT_6 =
@@ -186,7 +186,7 @@ const UNIT_6 =
   {type:"match",pairs:[{nl:"더워요",en:"it's hot"},{nl:"추워요",en:"it's cold"},{nl:"맑아요",en:"it's clear/sunny"},{nl:"비가 와요",en:"it's raining"}]},
   {type:"drag_fill",s:"오늘 날씨가 {1}. {2}가 {3}.",blanks:{"1":"흐려요","2":"비","3":"와요"},pool:["더워요","흐려요","비","눈","와요","있어요"],hint:"It's cloudy today. It's raining."},
   {type:"mc",q:"눈이 와요 means:",opts:["It's sunny","It's raining","It's snowing","The sky is clear"],ans:"It's snowing",hint:"눈: snow. 눈이 오다 = snow comes = it snows. Same pattern as 비가 와요."},
-  {type:"mc",q:"하늘색 = 하늘 + 색. 색 means:",opts:["Sky","Clear","Cloud","Color"],ans:"Color",hint:"하늘 = sky. 색 (色) is the general visual-hue morpheme — pair it with a noun to name the shade."},
+  {type:"mc",q:"하늘색 = 하늘 + 색. 색 means:",opts:["Sky","Clear","Cloud","Color"],ans:"Color",hint:"하늘 = sky. 색 (色) is the general visual-hue morpheme, pair it with a noun to name the shade."},
 
   {type:"teach",kind:"grammar",nl:"마다",en:"every / each",pos:"part",gender:null,funFact:"Means \"every.\" 매일마다 is redundant. Just 매일 or 날마다.",phonetic:"ma-da",example:"A: 자주 운동해요? B: 네, 날마다 운동해요.",exampleEn:"A: Do you exercise often? B: Yes, I exercise every day.",note:"마다: every / each.\n\n날마다: every day (= 매일).",deepDive:{title:"마다",text:"주마다: every week.\n사람마다: every person / each person.\n\n매일 vs 날마다: same meaning.\n매 (每: every) is Sino-Korean.\n마다 is pure Korean particle."}},
   {type:"teach",kind:"word",nl:"아주",en:"very / extremely",pos:"noun",gender:null,funFact:"From hanja: 兒 (child) + 主 (master/main).",phonetic:"a-ju",example:"A: 이 음식이 맛있어요? B: 네, 아주 맛있어요!",exampleEn:"A: Is this food tasty? B: Yes, it's very tasty!",note:"아주: very, extremely.\n\n아주 좋아요: very good.",deepDive:{title:"Using 아주",text:"아주 맛있어요: very delicious.\n\n아주 vs 너무 vs 정말:\n아주: very (neutral emphasis)\n너무: too much (can be positive or negative)\n정말: really (emphasis on truth)"}},
@@ -227,7 +227,7 @@ const UNIT_6 =
 ]},
 
 // ═══════════════════════════════════════════════════
-// LESSON: More Clothing (kou6l6c) — Unit 6, A1.2
+// LESSON: More Clothing (kou6l6c). Unit 6, A1.2
 // Teaches: 바지, 티셔츠, 청바지, 반바지, 부츠, 벨트/허리띠, 넥타이, 정장
 // ═══════════════════════════════════════════════════
 {id:"kou6l6c",title:"옷 더 배우기 (More Clothing)",icon:"👗",xp:20,board:true,steps:[
@@ -255,7 +255,7 @@ const UNIT_6 =
 ]},
 
 // ═══════════════════════════════════════════════════
-// LESSON: Cardinal Directions (kou6l6d) — Unit 6, A1.2
+// LESSON: Cardinal Directions (kou6l6d). Unit 6, A1.2
 // Teaches: 동, 서, 남, 북, 동쪽/서쪽/남쪽/북쪽, compound place names
 // ═══════════════════════════════════════════════════
 {id:"kou6l6d",title:"방향: 동서남북 (Cardinal Directions)",icon:"🧭",xp:20,board:true,steps:[
@@ -433,10 +433,10 @@ const UNIT_6 =
 
   {type:"teach",trg:"차",src:"tea",pos:"noun",gender:null,
    phonetic:"cha",
-   note:"차: tea.\n차를 마시다 = to drink tea.\nAlso means 'car' — context always makes it clear.",
+   note:"차: tea.\n차를 마시다 = to drink tea.\nAlso means 'car', context always makes it clear.",
    example:"A: 뭐 마실 거예요?\nB: 차 한 잔 주세요.",
    exampleSrc:"A: What would you like to drink?\nB: One cup of tea, please.",
-   funFact:"차 entered Korean from Chinese 茶 (chá). Korea has a long tea culture — 녹차 (green tea) is served free in many traditional restaurants, just like water."},
+   funFact:"차 entered Korean from Chinese 茶 (chá). Korea has a long tea culture, 녹차 (green tea) is served free in many traditional restaurants, just like water."},
 
   {type:"teach",trg:"시간",src:"time / hour",pos:"noun",gender:null,
    phonetic:"si-gan",
@@ -450,14 +450,14 @@ const UNIT_6 =
    note:"자다: to sleep.\n자요 = sleeps (polite).\n잘 자요 = sleep well (casual goodnight).",
    example:"A: 몇 시에 자요?\nB: 보통 열한 시에 자요.",
    exampleSrc:"A: What time do you sleep?\nB: I usually sleep at eleven.",
-   funFact:"잘 자요 (sleep well) is how Koreans say goodnight casually. The more formal version is 안녕히 주무세요 — using the honorific verb 주무시다 (to sleep, honorific)."},
+   funFact:"잘 자요 (sleep well) is how Koreans say goodnight casually. The more formal version is 안녕히 주무세요, using the honorific verb 주무시다 (to sleep, honorific)."},
 
   {type:"teach",trg:"가족",src:"family",pos:"noun",gender:null,
    phonetic:"ga-jok",
    note:"가족: family (as a group).\n우리 가족 = my family.\n가족이 있어요 = I have a family.",
    example:"A: 가족이 몇 명이에요?\nB: 네 명이에요. 부모님하고 여동생이 있어요.",
    exampleSrc:"A: How many people are in your family?\nB: Four. I have my parents and a younger sister.",
-   funFact:"Koreans often say 우리 가족 (our family) even when referring to their own family alone. 우리 (our/we) replaces 내 (my) for family, home, and close things — a reflection of the collective culture."},
+   funFact:"Koreans often say 우리 가족 (our family) even when referring to their own family alone. 우리 (our/we) replaces 내 (my) for family, home, and close things, a reflection of the collective culture."},
 
   {type:"teach",trg:"피곤하다",src:"to be tired",pos:"adj",gender:null,
    phonetic:"pi-gon-ha-da",
@@ -471,14 +471,14 @@ const UNIT_6 =
    note:"항상: always.\nSynonyms: 늘 (always, native Korean), 언제나 (always, any time).\n항상 vs 자주: always vs often.",
    example:"A: 아침에 항상 차를 마셔요?\nB: 네, 항상 마셔요. 습관이에요.",
    exampleSrc:"A: Do you always drink tea in the morning?\nB: Yes, always. It's a habit.",
-   funFact:"항상 comes from Sino-Korean 恒常: 항 (恒, permanent) + 상 (常, ordinary/constant). Together they mean perpetually constant — always without exception."},
+   funFact:"항상 comes from Sino-Korean 恒常: 항 (恒, permanent) + 상 (常, ordinary/constant). Together they mean perpetually constant, always without exception."},
 
   {type:"teach",trg:"일찍",src:"early",pos:"adv",gender:null,
    phonetic:"il-jjik",
    note:"일찍: early.\n일찍 자요 = I sleep early.\nOpposite: 늦게 (late).",
    example:"A: 오늘 일찍 왔어요!\nB: 네, 오늘은 일찍 일어났어요.",
    exampleSrc:"A: You came early today!\nB: Yes, I woke up early today.",
-   funFact:"일찍 is a pure native Korean adverb with no hanja root. It always describes timing — you can't say 일찍 빠르다 (quickly fast). For speed, Koreans use 빨리. 일찍 is only about time of day."},
+   funFact:"일찍 is a pure native Korean adverb with no hanja root. It always describes timing, you can't say 일찍 빠르다 (quickly fast). For speed, Koreans use 빨리. 일찍 is only about time of day."},
 
   {type:"teach",trg:"늦게",src:"late",pos:"adv",gender:null,
    phonetic:"neut-ge",
@@ -494,13 +494,13 @@ const UNIT_6 =
    exampleSrc:"A: How's the weather today?\nB: It's clear! There are no clouds.",
    funFact:"맑다 is a native Korean word. It describes weather, water, and even a person's eyes or voice: 목소리가 맑다 (a clear voice). A 맑은 하늘 (clear sky) is the classic weather expression in Korean weather forecasts."},
 
-  {type:"tip",title:"자다 vs 주무시다: Sleep Verbs",text:"Korean has two verbs for sleeping depending on who you're talking about:\n\n자다 = to sleep (plain)\n주무시다 = to sleep (honorific — for elders/respected people)\n\nYou say:\n부모님이 주무세요. (Parents are sleeping.)\n저는 자요. (I'm sleeping.)\n\nGoodnight:\n잘 자요! = Goodnight (casual — to a friend)\n안녕히 주무세요! = Goodnight (polite — to parents/elders)",deepDive:{title:"The -시- Honorific",text:"주무시다 is the honorific form of 자다. The honorific marker -시- transforms many common verbs:\n자다 → 주무시다 (sleep)\n먹다 → 드시다 (eat)\n있다 → 계시다 (exist/be)\n\nUse them whenever speaking ABOUT or TO someone older or of higher status."}},
+  {type:"tip",title:"자다 vs 주무시다: Sleep Verbs",text:"Korean has two verbs for sleeping depending on who you're talking about:\n\n자다 = to sleep (plain)\n주무시다 = to sleep (honorific, for elders/respected people)\n\nYou say:\n부모님이 주무세요. (Parents are sleeping.)\n저는 자요. (I'm sleeping.)\n\nGoodnight:\n잘 자요! = Goodnight (casual, to a friend)\n안녕히 주무세요! = Goodnight (polite, to parents/elders)",deepDive:{title:"The -시- Honorific",text:"주무시다 is the honorific form of 자다. The honorific marker -시- transforms many common verbs:\n자다 → 주무시다 (sleep)\n먹다 → 드시다 (eat)\n있다 → 계시다 (exist/be)\n\nUse them whenever speaking ABOUT or TO someone older or of higher status."}},
 
-  {type:"mc",q:"차 means:",opts:["car only","coffee","tea (drink)","hot water"],ans:"tea (drink)",hint:"차 can mean … or car — here we focus on the …. 차를 마시다 = … …."},
-  {type:"mc",q:"시간 있어요? means:",opts:["What time is it?","How many hours?","Do you have time?","How long is it?"],ans:"Do you have time?",hint:"시간 = temporal reference. 있어요 = have. Together: Do you have temporal reference?"},
-  {type:"mc",q:"항상 means:",opts:["sometimes","often","never","always"],ans:"always",hint:"항상 = … (every time, without exception). 자주 = often."},
-  {type:"mc",q:"맑아요 describes:",opts:["cloudy weather","rainy weather","clear sunny weather","cold weather"],ans:"clear sunny weather",hint:"맑다 conjugates to 맑아요. 구름이 없고 하늘이 파래요 — blue sky, no clouds. Pick the option that fits."},
-  {type:"mc",q:"일찍 is the opposite of:",opts:["항상","빨리","늦게","자주"],ans:"늦게",hint:"일찍 (early) and 늦게 (late) are a pair: arrive early vs arrive late."},
+  {type:"mc",q:"차 means:",opts:["tea (drink)","hot water","car only","coffee"],ans:"tea (drink)",hint:"차 can mean … or car, here we focus on the …. 차를 마시다 = … …."},
+  {type:"mc",q:"시간 있어요? means:",opts:["How many hours?","Do you have time?","How long is it?","What time is it?"],ans:"Do you have time?",hint:"시간 = temporal reference. 있어요 = have. Together: Do you have temporal reference?"},
+  {type:"mc",q:"항상 means:",opts:["often","never","always","sometimes"],ans:"always",hint:"항상 = … (every time, without exception). 자주 = often."},
+  {type:"mc",q:"맑아요 describes:",opts:["cold weather","cloudy weather","rainy weather","clear sunny weather"],ans:"clear sunny weather",hint:"맑다 conjugates to 맑아요. 구름이 없고 하늘이 파래요, blue sky, no clouds. Pick the option that fits."},
+  {type:"mc",q:"일찍 is the opposite of:",opts:["늦게","자주","항상","빨리"],ans:"늦게",hint:"일찍 (early) and 늦게 (late) are a pair: arrive early vs arrive late."},
 
   {type:"fb",s:"저는 보통 열 시에 ___요.\n(I usually sleep at 10.)",a:"자",opts:["자","보","가","와"],hint:"Which verb means to sleep? Remove 다 and add 아/어요."},
   {type:"fb",s:"오늘 날씨가 ___ 어요.\n(Today's weather is clear.)",a:"맑",opts:["맑","춥","더","비"],hint:"Clear/sunny weather. Stem + 아요 (bright vowel)."},

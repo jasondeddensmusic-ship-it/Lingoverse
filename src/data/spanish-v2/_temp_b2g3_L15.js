@@ -32,13 +32,13 @@ const LESSON_15 = {id:"esv2_b2g3_l15", title:"Verbos: exceso y despilfarro", ico
 
   {type:"teach", trg:"duradero", src:"lasting / durable", pos:"adj", gender:null, note:"From durar (to last). Something that endures over time.\nPaz duradera = lasting peace.", example:"A: Queremos construir una relación comercial duradera.\nB: Nosotros también valoramos la estabilidad.", exampleSrc:"A: We want to build a lasting business relationship.\nB: We also value stability.", funFact:"The -ero suffix for adjectives often means 'tending to': durar > duradero (tending to last), perecedero (tending to perish)."},
 
-  {type:"mc", q:"¿Qué es el 'desfase horario'?", opts:["El jet lag, desajuste entre el cuerpo y la zona horaria","Un reloj que va mal","Una diferencia de opinión","Un error en el calendario"], ans:"El jet lag, desajuste entre el cuerpo y la zona horaria", hint:"When your body's internal clock doesn't match the time zone you're in after a long flight."},
+  {type:"mc", q:"¿Qué es el 'desfase horario'?", opts:["Un error en el calendario","El jet lag, desajuste entre el cuerpo y la zona horaria","Un reloj que va mal","Una diferencia de opinión"], ans:"El jet lag, desajuste entre el cuerpo y la zona horaria", hint:"When your body's internal clock doesn't match the time zone you're in after a long flight."},
 
   {type:"match", pairs:[{trg:"despilfarrar", src:"to squander"},{trg:"desfase", src:"gap / disconnect"},{trg:"desconcierto", src:"bewilderment"},{trg:"descort��s", src:"rude"},{trg:"duradero", src:"lasting"}]},
 
   {type:"fb", s:"Su comentario fue bastante {1}, debería disculparse.", a:["descortés"], opts:["descortés","duradero","desfavorable","despilfarrador"], hint:"Lacking basic politeness and manners. Courtly behaviour removed.", sSrc:"His comment was quite {1}, he should apologize."},
 
-  {type:"mc", q:"'Descolocar' en sentido figurado significa...", opts:["Sorprender y confundir a alguien","Mudarse de casa","Colocar algo en orden","Pintar de otro color"], ans:"Sorprender y confundir a alguien", hint:"To take someone out of their expected position, mentally throwing them off balance."},
+  {type:"mc", q:"'Descolocar' en sentido figurado significa...", opts:["Colocar algo en orden","Pintar de otro color","Sorprender y confundir a alguien","Mudarse de casa"], ans:"Sorprender y confundir a alguien", hint:"To take someone out of their expected position, mentally throwing them off balance."},
 
   {type:"fb", s:"Hay un {1} entre lo que se enseña en la universidad y lo que pide el mercado laboral.", a:["desfase"], opts:["desfase","desajuste","desconcierto","descontrol"], hint:"A disconnect or gap between two things that should be aligned.", sSrc:"There is a {1} between what is taught at university and what the job market demands."}
 ]};

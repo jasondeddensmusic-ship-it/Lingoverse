@@ -24,7 +24,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
    exampleSrc:"A: Let us make plans for tomorrow.\nB: Good idea. What shall we do?\nA: Do you go often?\nB: I go about once a month.",
    funFact:"ましょう is the polite volitional, expressing 'let us do' or 'I will do.' It is enthusiastic and proactive. The casual equivalent is よう/おう: いこう (let us go), たべよう (let us eat). ましょうか (shall I/shall we?) adds a question, useful for offering help."},
 
-  {type:"mc", q:"いっしょにえいがをみませんか means:", opts:["I do not want to see a movie","Do you not like movies?","Would you like to watch a movie together?","I saw a movie alone"], ans:"Would you like to watch a movie together?",
+  {type:"mc", q:"いっしょにえいがをみませんか means:", opts:["Would you like to watch a movie together?","I saw a movie alone","I do not want to see a movie","Do you not like movies?"], ans:"Would you like to watch a movie together?",
    hint:"ませんか is a polite invitation pattern, not a simple negative question."},
 
   {type:"teach", trg:"あく", src:"to be free / to be available (time)", pos:"verb", gender:null,
@@ -60,7 +60,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
    exampleSrc:"A: Are you free tomorrow?\nB: Sorry, tomorrow is not possible. Next time, okay?\nA: What was it like?\nB: It was much better than I imagined.",
    funFact:"またこんど is the friendly 'let us do it another time.' It signals that the decline is about timing, not about the person or activity. In casual speech, またね (see you again) and またこんどね (next time, okay?) maintain warmth. In business, またのきかいに (on another occasion) is the formal version."},
 
-  {type:"mc", q:"ぜひ when responding to an invitation means:", opts:["Maybe later","No thank you","Absolutely / I would love to","I am not sure"], ans:"Absolutely / I would love to",
+  {type:"mc", q:"ぜひ when responding to an invitation means:", opts:["No thank you","Absolutely / I would love to","I am not sure","Maybe later"], ans:"Absolutely / I would love to",
    hint:"This adverb expresses enthusiastic acceptance."},
 
   {type:"teach", trg:"たのしみにしている", src:"looking forward to", pos:"verb", gender:null,
@@ -82,7 +82,7 @@ const LESSON_3 = {id:"jav2_u16l3", title:"やくそくとさそい", icon:"📅"
 
   {type:"match", pairs:[{trg:"つごう",src:"convenience"},{trg:"ざんねんですが",src:"unfortunately"},{trg:"またこんど",src:"next time"},{trg:"たのしみにしている",src:"looking forward to"}]},
 
-  {type:"mc", q:"ざんねんですが is used to:", opts:["Accept enthusiastically","Politely decline","Ask a question","Express surprise"], ans:"Politely decline",
+  {type:"mc", q:"ざんねんですが is used to:", opts:["Express surprise","Accept enthusiastically","Politely decline","Ask a question"], ans:"Politely decline",
    hint:"This phrase expresses regret before giving a reason for declining."},
 
   {type:"fb", s:"らいしゅうの パーティーを{1}にしています。\n(I am looking forward to next week's party.)", a:"たのしみ", opts:["たのしみ","たのしい","たのしく","たのしむ"], sSrc:"I am looking forward to next week's party.",

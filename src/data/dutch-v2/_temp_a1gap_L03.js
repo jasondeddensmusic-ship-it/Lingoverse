@@ -1,4 +1,4 @@
-// L03: Food and Drink — 20 A1 gap words
+// L03: Food and Drink, 20 A1 gap words
 const LESSON_3 = {
   id:"nlv2_a1gap_l3", title:"Eten en Drinken", icon:"\u{1F35E}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Wat eet je op een boterham?",
-     opts:["kaas","soep","fruit","groente"],
+     opts:["groente","kaas","soep","fruit"],
      ans:"kaas",
      hint:"Think about the classic Dutch lunch. What goes on a slice of bread?"},
 

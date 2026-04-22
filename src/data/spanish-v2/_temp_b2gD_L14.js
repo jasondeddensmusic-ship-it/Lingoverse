@@ -68,10 +68,10 @@ const LESSON_14 = {id:"esv2_b2gD_l14",title:"Emociones y psicología",icon:"\uD8
  {trg:"cólera",src:"cholera / anger"}
 ]},
 
-{type:"mc",q:"El tráfico en hora punta es descrito como un...",opts:["infierno","paraíso","parpadeo","parto"],ans:"infierno",hint:"A place or situation of extreme suffering, chaos, and frustration."},
+{type:"mc",q:"El tráfico en hora punta es descrito como un...",opts:["parto","infierno","paraíso","parpadeo"],ans:"infierno",hint:"A place or situation of extreme suffering, chaos, and frustration."},
 
 {type:"fb",s:"El {1} fue largo pero todo salió bien para la madre y el bebé.",a:["parto"],opts:["parto","infierno","parpadeo","cólera"],hint:"The medical process of giving birth to a baby.",sSrc:"The {1} was long but everything went well for the mother and baby."},
 
-{type:"mc",q:"'El amor en los tiempos del cólera' juega con...",opts:["El doble significado: enfermedad y furia","La historia de un médico","Un brote de gripe","La vida de un farmacéutico"],ans:"El doble significado: enfermedad y furia",hint:"García Márquez used a word that means both a disease and intense passion/anger."}
+{type:"mc",q:"'El amor en los tiempos del cólera' juega con...",opts:["Un brote de gripe","La vida de un farmacéutico","El doble significado: enfermedad y furia","La historia de un médico"],ans:"El doble significado: enfermedad y furia",hint:"García Márquez used a word that means both a disease and intense passion/anger."}
 ]};
 export default LESSON_14;

@@ -24,7 +24,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    exampleSrc:"A: What kind of cooking can you do?\nB: I can do a little Japanese cooking. Curry is my specialty.",
    funFact:"Japanese curry (カレー) is not Indian-style but a uniquely Japanese comfort food. It is the most popular home-cooked dish in Japan, made with curry roux blocks. Asking どんなりょうりができますか is a common getting-to-know-you question in Japan."},
 
-  {type:"mc", q:"うんてんができますか means:", opts:["Do you have a car?","Can you drive?","Do you like driving?","Did you drive?"], ans:"Can you drive?",
+  {type:"mc", q:"うんてんができますか means:", opts:["Can you drive?","Do you like driving?","Did you drive?","Do you have a car?"], ans:"Can you drive?",
    hint:"うんてん (driving) + ができますか asks about the ability to d...."},
 
   {type:"teach", trg:"やくせる", src:"can translate", pos:"verb", gender:null,
@@ -60,7 +60,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
    exampleSrc:"A: Can you carry this luggage alone?\nB: It is a bit heavy, but I can carry it.",
    funFact:"はこぶ uses the kanji 運ぶ, the same 運 in うんてん (driving) and うんどう (exercise/movement). It covers carrying, transporting, and moving things. Delivery services (たくはいびん) literally 'carry to your home' and are incredibly efficient in Japan."},
 
-  {type:"mc", q:"パソコンがなおせますか means:", opts:["Can you use the computer?","Can you buy a computer?","Can you fix the computer?","Do you have a computer?"], ans:"Can you fix the computer?",
+  {type:"mc", q:"パソコンがなおせますか means:", opts:["Can you buy a computer?","Can you fix the computer?","Do you have a computer?","Can you use the computer?"], ans:"Can you fix the computer?",
    hint:"なおせる is the potential form of なおす (to f.../repair)."},
 
   {type:"teach", trg:"ペラペラ", src:"fluent / fluently", pos:"adv", gender:null,
@@ -76,7 +76,7 @@ const LESSON_4 = {id:"jav2_u12l4", title:"しごとのスキル", icon:"💼", x
 
   {type:"match", pairs:[{trg:"つたえられる",src:"can convey"},{trg:"はこべる",src:"can carry"},{trg:"かいわ",src:"conversation"},{trg:"ペラペラ",src:"fluent"}]},
 
-  {type:"mc", q:"つたえられる is the potential form of:", opts:["つたわる","つたえる","つたう","つたえない"], ans:"つたえる",
+  {type:"mc", q:"つたえられる is the potential form of:", opts:["つたえない","つたわる","つたえる","つたう"], ans:"つたえる",
    hint:"Group 2 verbs form the potential by dropping る and adding られる."},
 
   {type:"fb", s:"このにもつをひとりで{1}ますか？\n(Can you carry this luggage alone?)", a:"はこべ", opts:["はこべ","はこび","はこんで","はこぶ"], sSrc:"Can you carry this luggage alone?",

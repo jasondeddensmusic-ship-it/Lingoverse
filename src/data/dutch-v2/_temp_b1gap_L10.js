@@ -1,4 +1,4 @@
-// L10: Emotions and Character — 20 B1 gap words
+// L10: Emotions and Character, 20 B1 gap words
 const LESSON_10 = {
   id:"nlv2_b1gap_l10", title:"Emoties en Karakter", icon:"\u{1F60A}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Je hebt iets online gekocht maar je wilt het terugsturen. Je hebt veertien dagen ___.",
-     opts:["bedenktijd","bedenking","aanmerking","affectie"],
+     opts:["affectie","bedenktijd","bedenking","aanmerking"],
      ans:"bedenktijd",
      hint:"Think about the legal period that allows you to reconsider a purchase."},
 
@@ -144,7 +144,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"De man was niet vriendelijk. Hij was ___ en onbeleefd.",
-     opts:["bars","banaal","absurd","akkoord"],
+     opts:["absurd","akkoord","bars","banaal"],
      ans:"bars",
      hint:"Which adjective describes someone who is gruff and unfriendly in manner?"},
 

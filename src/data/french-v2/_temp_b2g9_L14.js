@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 14: Politique et Débat
+// French B2 Gap Batch 9. Lesson 14: Politique et Débat
 // Politics and debate vocabulary
 
 const LESSON_14 = {id:"frv2_b2g9_l14", title:"Politique et Débat", icon:"🗳️", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_14 = {id:"frv2_b2g9_l14", title:"Politique et Débat", icon:"🗳�
    exampleSrc:"A: The democratization of the internet changed the world.\nB: Access to information is universal.",
    funFact:"French uses démocratisation broadly: of culture, education, technology, not just governance."},
 
-  {type:"mc", q:"La diabolisation consiste à:", opts:["Analyser les arguments adverses","Présenter l'adversaire comme diabolique","Proposer un compromis","Respecter l'opinion contraire"], ans:"Présenter l'adversaire comme diabolique",
+  {type:"mc", q:"La diabolisation consiste à:", opts:["Présenter l'adversaire comme diabolique","Proposer un compromis","Respecter l'opinion contraire","Analyser les arguments adverses"], ans:"Présenter l'adversaire comme diabolique",
    hint:"From diable (devil). Making your opponent appear evil rather than simply wrong."},
 
   {type:"teach", trg:"la laïcité", src:"secularism", pos:"noun", gender:"f",
@@ -111,7 +111,7 @@ const LESSON_14 = {id:"frv2_b2g9_l14", title:"Politique et Débat", icon:"🗳�
     {trg:"la laïcité", src:"secularism"}
   ]},
 
-  {type:"mc", q:"Le particularisme régional défend:", opts:["Les intérêts universels","Les identités et traditions locales","La centralisation de l'État","L'uniformité nationale"], ans:"Les identités et traditions locales",
+  {type:"mc", q:"Le particularisme régional défend:", opts:["L'uniformité nationale","Les intérêts universels","Les identités et traditions locales","La centralisation de l'État"], ans:"Les identités et traditions locales",
    hint:"Particulier means specific. Defending what makes a region unique."},
 
   {type:"fb", s:"Zola était un grand {1} engagé.", a:["pamphlétaire"], opts:["pamphlétaire","communiste","modéré","scrutin"],

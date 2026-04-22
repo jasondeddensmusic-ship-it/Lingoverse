@@ -62,7 +62,7 @@ lessons:[
   text:"Bargaining (讨价还价) is common at street markets, small shops, and tourist areas. However, prices are fixed at supermarkets, malls, and chain stores.\n\nA typical bargaining exchange:\nCustomer: 多少钱？ (How much?)\nSeller: 一百块。 (100 yuan.)\nCustomer: 太贵了！便宜一点儿吧。 (Too expensive! A bit cheaper.)\nSeller: 八十块。 (80 yuan.)\n\nKnowing these phrases gives you real power in Chinese markets."}},
 
 {type:"mc", q:"这(zhè)个(ge)多少(duōshǎo)钱(qián)？ What is this question asking?",
- opts:["Where is this?","How much is this?","What is this?","Who sells this?"],
+ opts:["How much is this?","What is this?","Who sells this?","Where is this?"],
  ans:"How much is this?",
  hint:"多少 asks 'how ___/many' and 钱 means 'money.' Together they form a price question."},
 
@@ -81,7 +81,7 @@ lessons:[
  sSrc:"How much is this? ({1} money?)"},
 
 {type:"mc", q:"买(mǎi) and 卖(mài) differ only in:",
- opts:["Their tone","Their meaning is the same","Their radical","Their stroke count"],
+ opts:["Their stroke count","Their tone","Their meaning is the same","Their radical"],
  ans:"Their tone",
  hint:"One is third ___ and one is fourth ___. This tiny difference changes buying into selling."},
 
@@ -92,7 +92,7 @@ lessons:[
  sSrc:"This is too {1}!"},
 
 {type:"mc", q:"Which is the correct way to say '15 yuan' in spoken Chinese?",
- opts:["十五(shíwǔ)块(kuài)","十五(shíwǔ)钱(qián)","一五(yīwǔ)块(kuài)","十五(shíwǔ)个(ge)"],
+ opts:["一五(yīwǔ)块(kuài)","十五(shíwǔ)个(ge)","十五(shíwǔ)块(kuài)","十五(shíwǔ)钱(qián)"],
  ans:"十五(shíwǔ)块(kuài)",
  hint:"The number comes first, followed by the spoken word for the yuan currency unit."},
 
@@ -169,7 +169,7 @@ lessons:[
  sSrc:"Are you buying this one {1} that one?"},
 
 {type:"mc", q:"他(tā)已经(yǐjīng)买(mǎi)了(le)。 What does 已经 tell us?",
- opts:["He wants to buy","He will buy later","He has already bought","He cannot buy"],
+ opts:["He will buy later","He has already bought","He cannot buy","He wants to buy"],
  ans:"He has already bought",
  hint:"This adverb signals that an action is completed, finished, done."},
 
@@ -180,7 +180,7 @@ lessons:[
  sSrc:"{1} how much?"},
 
 {type:"mc", q:"你(nǐ)可以(kěyǐ)坐(zuò)公交(gōngjiāo)___地铁(dìtiě)。 Which word fills the blank?",
- opts:["还是(háishi)","或者(huòzhě)","和(hé)","但是(dànshì)"],
+ opts:["但是(dànshì)","还是(háishi)","或者(huòzhě)","和(hé)"],
  ans:"或者(huòzhě)",
  hint:"This is a statement offering two possibilities, not a question forcing a choice."},
 
@@ -198,7 +198,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"太(tài)好(hǎo)了(le)！ What does 太 express here?",
- opts:["Negative excess","Positive emphasis (so good!)","A question","Past tense"],
+ opts:["A question","Past tense","Negative excess","Positive emphasis (so good!)"],
  ans:"Positive emphasis (so good!)",
  hint:"太 can mean 'too much' negatively OR 'so/wonderfully' positively, depending on the adjective."}
 ]},
@@ -262,7 +262,7 @@ lessons:[
  sSrc:"I want to buy one {1} piece of clothing."},
 
 {type:"mc", q:"这(zhè)条(tiáo)太(tài)贵(guì)了(le)，有(yǒu)没有(méiyǒu)便宜(piányi)的(de)？\nWhat is the shopper asking?",
- opts:["Is this long enough?","Do you have a cheaper one?","Can I try this on?","Where is the fitting room?"],
+ opts:["Where is the fitting room?","Is this long enough?","Do you have a cheaper one?","Can I try this on?"],
  ans:"Do you have a cheaper one?",
  hint:"太贵了 means 'too expensive,' and 便宜的 means 'a cheap one.' What does the shopper want?"},
 
@@ -280,7 +280,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"A customer says: 一共(yīgòng)多少(duōshǎo)钱(qián)？ The seller says: 三十五(sānshíwǔ)块(kuài)。\nThe customer pays 五十(wǔshí)块(kuài)。 How much change?",
- opts:["十(shí)块(kuài)","十五(shíwǔ)块(kuài)","二十(èrshí)块(kuài)","五(wǔ)块(kuài)"],
+ opts:["二十(èrshí)块(kuài)","五(wǔ)块(kuài)","十(shí)块(kuài)","十五(shíwǔ)块(kuài)"],
  ans:"十五(shíwǔ)块(kuài)",
  hint:"Subtract the total price from the amount paid: 50 minus 35 equals the change."},
 
@@ -308,12 +308,12 @@ lessons:[
  funFact:"快乐 is built from 快(kuài, fast/quick) and 乐(lè, joy). Happiness arrives quickly and joy flows freely. The same 乐 appears in 音乐(yīnyuè, music) and 快乐 is the standard phrase in 生日快乐(shēngrì kuàilè, happy birthday)."},
 
 {type:"mc", q:"Which sentence uses 宾馆(bīnguǎn) correctly?",
- opts:["我(wǒ)在(zài)宾馆(bīnguǎn)买(mǎi)衣服(yīfu)。","我(wǒ)住(zhù)在(zài)宾馆(bīnguǎn)里(lǐ)。","宾馆(bīnguǎn)里(lǐ)有(yǒu)很(hěn)多(duō)钱(qián)。","我(wǒ)的(de)宾馆(bīnguǎn)很(hěn)冷(lěng)。"],
+ opts:["我(wǒ)住(zhù)在(zài)宾馆(bīnguǎn)里(lǐ)。","宾馆(bīnguǎn)里(lǐ)有(yǒu)很(hěn)多(duō)钱(qián)。","我(wǒ)的(de)宾馆(bīnguǎn)很(hěn)冷(lěng)。","我(wǒ)在(zài)宾馆(bīnguǎn)买(mǎi)衣服(yīfu)。"],
  ans:"我(wǒ)住(zhù)在(zài)宾馆(bīnguǎn)里(lǐ)。",
  hint:"A hotel is a place to stay overnight. Which sentence describes someone staying in a hotel?"},
 
 {type:"mc", q:"What does 快乐(kuàilè) mean?",
- opts:["hungry","tired","happy / joyful","cold"],
+ opts:["tired","happy / joyful","cold","hungry"],
  ans:"happy / joyful",
  hint:"快乐 is a positive emotion word. It appears in birthday greetings and expressions of joy."},
 
@@ -348,12 +348,12 @@ lessons:[
  sSrc:"Please {1} me where the hotel is."},
 
 {type:"mc", q:"颜色(yánsè) means:",
- opts:["music","color","sound","hotel"],
+ opts:["hotel","music","color","sound"],
  ans:"color",
  hint:"颜色 is the word used when asking 'what … is it?' or describing the hue of an object."},
 
 {type:"mc", q:"Which sentence uses 告诉(gàosu) correctly?",
- opts:["我(wǒ)告诉(gàosu)你(nǐ)的(de)颜色(yánsè)。","他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。","告诉(gàosu)很(hěn)贵(guì)。","我(wǒ)告诉(gàosu)颜色(yánsè)是(shì)蓝色(lánsè)。"],
+ opts:["告诉(gàosu)很(hěn)贵(guì)。","我(wǒ)告诉(gàosu)颜色(yánsè)是(shì)蓝色(lánsè)。","我(wǒ)告诉(gàosu)你(nǐ)的(de)颜色(yánsè)。","他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。"],
  ans:"他(tā)告诉(gàosu)我(wǒ)宾馆(bīnguǎn)在(zài)右边(yòubiān)。",
  hint:"告诉 needs a person after it. Which sentence has: 告诉 + person + information?"},
 
@@ -372,7 +372,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"A friend asks: 你(nǐ)今天(jīntiān)感觉(gǎnjué)怎么样(zěnmeyàng)？ You feel great. Which reply fits?",
- opts:["我(wǒ)的(de)声音(shēngyīn)很(hěn)大(dà)。","我(wǒ)很(hěn)快乐(kuàilè)，买(mǎi)到(dào)了(le)好东西(hǎo dōngxi)。","宾馆(bīnguǎn)很(hěn)贵(guì)。","颜色(yánsè)很(hěn)好看(hǎokàn)。"],
+ opts:["我(wǒ)很(hěn)快乐(kuàilè)，买(mǎi)到(dào)了(le)好东西(hǎo dōngxi)。","宾馆(bīnguǎn)很(hěn)贵(guì)。","颜色(yánsè)很(hěn)好看(hǎokàn)。","我(wǒ)的(de)声音(shēngyīn)很(hěn)大(dà)。"],
  ans:"我(wǒ)很(hěn)快乐(kuàilè)，买(mǎi)到(dào)了(le)好东西(hǎo dōngxi)。",
  hint:"The question asks how you feel today. Which reply expresses happiness and gives a reason?"}
 

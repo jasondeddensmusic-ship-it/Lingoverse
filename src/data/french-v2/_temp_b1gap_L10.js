@@ -92,7 +92,7 @@ const LESSON_10 = {id:"frv2_b1gap_l10", title:"Expressions et connecteurs", icon
 
 {type:"mc",
  q:"Quelle expression signifie 'exactement' dans une question ?",
- opts:["au juste","au large","au gré de","au hasard"],
+ opts:["au hasard","au juste","au large","au gré de"],
  ans:"au juste",
  hint:"This expression is almost always used in questions, pushing for a precise answer."},
 
@@ -143,7 +143,7 @@ const LESSON_10 = {id:"frv2_b1gap_l10", title:"Expressions et connecteurs", icon
 
 {type:"mc",
  q:"Quelle expression signifie 'le plus rapidement possible' ?",
- opts:["au plus vite","au juste","au large","au bout du compte"],
+ opts:["au large","au bout du compte","au plus vite","au juste"],
  ans:"au plus vite",
  hint:"Used in emails when you need an urgent response. Think of the French ASAP equivalent."}
 

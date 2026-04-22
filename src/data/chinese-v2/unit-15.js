@@ -51,7 +51,7 @@ lessons:[
  funFact:"担心 paints a vivid picture: 担 (carry a heavy load on a pole) + 心 (heart). Worry literally 'weighs on the heart.' The English expression 'heavy-hearted' captures the same metaphor."},
 
 {type:"mc", q:"我(wǒ)觉得(juéde)很(hěn)好(hǎo)。 What is the speaker doing?",
- opts:["Asking a question","Giving a command","Sharing a personal opinion","Making a formal statement"],
+ opts:["Sharing a personal opinion","Making a formal statement","Asking a question","Giving a command"],
  ans:"Sharing a personal opinion",
  hint:"觉得 introduces a casual, ___ view. The speaker feels something is good."},
 
@@ -81,7 +81,7 @@ lessons:[
  sSrc:"Do not {1}, the exam is not difficult."},
 
 {type:"mc", q:"他(tā)生气(shēngqì)了(le)。 What happened?",
- opts:["He became happy","He became angry","He became worried","He became sad"],
+ opts:["He became sad","He became happy","He became angry","He became worried"],
  ans:"He became angry",
  hint:"生气 means to produce negative energy. 了 shows the state change just occurred."},
 
@@ -129,7 +129,7 @@ lessons:[
  funFact:"失望 literally means 'lose hope.' 望 originally meant 'to gaze into the distance,' as when watching for someone's return. When hope is lost, you stop watching. The image is someone turning away from the horizon."},
 
 {type:"mc", q:"我(wǒ)很(hěn)难过(nánguò)。 How does the speaker feel?",
- opts:["Angry","Happy","Sad","Nervous"],
+ opts:["Sad","Nervous","Angry","Happy"],
  ans:"Sad",
  hint:"难过 describes emotional pain that is 'hard to get through,' meaning sadness or being upset."},
 
@@ -148,7 +148,7 @@ lessons:[
  sSrc:"Before exams I am always very {1}."},
 
 {type:"mc", q:"她(tā)对(duì)结果(jiéguǒ)很(hěn)满意(mǎnyì)。 How does she feel about the result?",
- opts:["Disappointed","Nervous","Satisfied","Angry"],
+ opts:["Nervous","Satisfied","Angry","Disappointed"],
  ans:"Satisfied",
  hint:"满意 means 'full of meaning/intent,' which translates to being content or pleased."},
 
@@ -207,7 +207,7 @@ lessons:[
  funFact:"理解 and 懂 both mean 'understand,' but at different levels. 懂 is basic comprehension: 你懂吗 (Do you get it?). 理解 is deeper: understanding someone's feelings, motivations, or a complex concept. It implies empathy and effort."},
 
 {type:"mc", q:"你(nǐ)同意(tóngyì)还是(háishi)反对(fǎnduì)？ What is being asked?",
- opts:["Do you like it or not?","Do you agree or oppose?","Are you happy or sad?","Do you hope or fear?"],
+ opts:["Do you agree or oppose?","Are you happy or sad?","Do you hope or fear?","Do you like it or not?"],
  ans:"Do you agree or oppose?",
  hint:"同意 means '___' and 反对 means '___.' The question asks you to pick a side."},
 
@@ -237,7 +237,7 @@ lessons:[
  sSrc:"I do not {1}, I feel this way is not good."},
 
 {type:"mc", q:"What is the difference between 理解 and 懂?",
- opts:["They are exactly the same","理解 is deeper, 懂 is basic comprehension","懂 is more formal","理解 means 'to forget'"],
+ opts:["理解 means 'to forget'","They are exactly the same","理解 is deeper, 懂 is basic comprehension","懂 is more formal"],
  ans:"理解 is deeper, 懂 is basic comprehension",
  hint:"One implies ___ 'getting it,' while the other implies empathy and intellectual depth."},
 
@@ -263,7 +263,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"虽然(suīrán)我(wǒ)紧张(jǐnzhāng)，但是(dànshì)我(wǒ)不(bù)害怕(hàipà)。 What is the speaker saying?",
- opts:["They are both nervous and afraid","They are nervous but not afraid","They are not nervous but afraid","They are neither nervous nor afraid"],
+ opts:["They are nervous but not afraid","They are not nervous but afraid","They are neither nervous nor afraid","They are both nervous and afraid"],
  ans:"They are nervous but not afraid",
  hint:"虽然 acknowledges nervousness. 但是 introduces the contrast: no fear. Two separate emotions."},
 
@@ -293,7 +293,7 @@ lessons:[
  sSrc:"Do you {1} what I mean?"},
 
 {type:"mc", q:"我(wǒ)反对(fǎnduì)！ How strong is this statement?",
- opts:["Mild disagreement","Strong opposition","Casual indifference","Polite suggestion"],
+ opts:["Polite suggestion","Mild disagreement","Strong opposition","Casual indifference"],
  ans:"Strong opposition",
  hint:"反对 means 'to oppose,' which is much stronger than simply saying 不同意 (disagree)."},
 
@@ -312,7 +312,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)觉得(juéde)他(tā)说(shuō)得(de)对(duì)，我(wǒ)同意(tóngyì)。 What two things does the speaker express?",
- opts:["Worry and fear","An opinion and agreement","Hope and disappointment","Anger and regret"],
+ opts:["Hope and disappointment","Anger and regret","Worry and fear","An opinion and agreement"],
  ans:"An opinion and agreement",
  hint:"觉得 shares a personal view, and 同意 confirms alignment with what was said."},
 
@@ -323,7 +323,7 @@ lessons:[
  sSrc:"I am very {1}, because he did not come."},
 
 {type:"mc", q:"别(bié)担心(dānxīn)，我(wǒ)相信(xiāngxìn)一切(yíqiè)都(dōu)会(huì)好(hǎo)的(de)。 What is the speaker doing?",
- opts:["Expressing worry","Offering reassurance and confidence","Disagreeing with someone","Expressing disappointment"],
+ opts:["Offering reassurance and confidence","Disagreeing with someone","Expressing disappointment","Expressing worry"],
  ans:"Offering reassurance and confidence",
  hint:"别担心 tells someone not to worry. 相信 expresses belief that things will be fine."},
 

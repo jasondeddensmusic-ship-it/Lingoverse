@@ -80,7 +80,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"여름에 한국 사람들이 좋아하는 과일은?",
-     opts:["포도","오렌지","바나나","수박"],
+     opts:["바나나","수박","포도","오렌지"],
      ans:"수박",
      hint:"This large green fruit with red flesh is the ultimate refresher in hot Korean summers."},
 
@@ -125,7 +125,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"한국 피자의 특별한 점은 뭐예요?",
-     opts:["아주 작아요","토핑이 다양해요","치즈가 없어요","이탈리아와 같아요"],
+     opts:["이탈리아와 같아요","아주 작아요","토핑이 다양해요","치즈가 없어요"],
      ans:"토핑이 다양해요",
      hint:"Korean versions of this Italian dish are known for creative and unexpected toppings."},
 

@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: How are you?\nB: Thankfully, I am well.\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"おかげさまで is one of the most culturally significant phrases in Japanese. Even when answering 'how are you,' Japanese people say おかげさまで (thanks to you/the world/fate, I am well). It attributes your wellbeing to others' support. This reflexive gratitude is deeply embedded in Japanese communication."},
 
-    {type:"mc", q:"恩返(おんがえ)し means:", opts:["Receiving a gift","Repaying a debt of gratitude","Refusing a favor","Giving a gift"], ans:"Repaying a debt of gratitude",
+    {type:"mc", q:"恩返(おんがえ)し means:", opts:["Repaying a debt of gratitude","Refusing a favor","Giving a gift","Receiving a gift"], ans:"Repaying a debt of gratitude",
      hint:"恩(おん) (g... d...) + 返(かえ)し (return) = completing the cycle of kindness by giving back."},
 
     {type:"teach", trg:"すまない", src:"I feel bad / I am sorry / I am indebted", pos:"adj", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"すまない",src:"I feel bad/indebted"},{trg:"お返(かえ)しに",src:"in return"},{trg:"申(もう)し訳(わけ)ない",src:"I have no excuse"},{trg:"義理(ぎり)チョコ",src:"obligation chocolate"}]},
 
-    {type:"mc", q:"おかげさまで元気(げんき)です is notable because:", opts:["It is rude","It attributes your wellbeing to others, showing reflexive gratitude","It means you are sick","It is only used at funerals"], ans:"It attributes your wellbeing to others, showing reflexive gratitude",
+    {type:"mc", q:"おかげさまで元気(げんき)です is notable because:", opts:["It is only used at funerals","It is rude","It attributes your wellbeing to others, showing reflexive gratitude","It means you are sick"], ans:"It attributes your wellbeing to others, showing reflexive gratitude",
      hint:"Even answering 'how are you,' Japanese speakers thank the world/o... for their w...."},
   {type:"match",pairs:[{trg:"気(き)を使(つか)う",src:"to be considerate / to use social care"}]}]
 };

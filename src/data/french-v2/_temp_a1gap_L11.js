@@ -98,7 +98,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Comment dit-on 'it's about' en français avec 'agir' ?",
-     opts:["il s'agit de","il agit de","il s'adapte","il s'admire"],
+     opts:["il s'admire","il s'agit de","il agit de","il s'adapte"],
      ans:"il s'agit de",
      hint:"This reflexive expression uses 'agir' and is one of the most common French phrases."},
 
@@ -143,7 +143,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'Assister à un concert' veut dire...",
-     opts:["to attend a concert","to assist at a concert","to sing at a concert","to organize a concert"],
+     opts:["to sing at a concert","to organize a concert","to attend a concert","to assist at a concert"],
      ans:"to attend a concert",
      hint:"This is a famous false friend. The French verb does not mean 'to help'."},
 

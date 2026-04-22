@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Qual e la differenza tra una similitudine e una metafora?",
-     opts:["Sono la stessa cosa","La similitudine usa 'come' per confrontare, la metafora no","La metafora e piu lunga della similitudine","La similitudine si usa solo in poesia"],
+     opts:["La similitudine usa 'come' per confrontare, la metafora no","La metafora e piu lunga della similitudine","La similitudine si usa solo in poesia","Sono la stessa cosa"],
      ans:"La similitudine usa 'come' per confrontare, la metafora no",
      hint:"One figure of speech makes a comparison using 'like' or 'as.' The other states directly that something IS something else, without a comparing word."},
 
@@ -96,7 +96,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Che cos'e l'opera aperta secondo Umberto Eco?",
-     opts:["Un libro con il finale aperto","Un'opera che invita interpretazioni infinite da parte del lettore","Un testo non finito dall'autore","Un romanzo scritto a piu mani"],
+     opts:["Un romanzo scritto a piu mani","Un libro con il finale aperto","Un'opera che invita interpretazioni infinite da parte del lettore","Un testo non finito dall'autore"],
      ans:"Un'opera che invita interpretazioni infinite da parte del lettore",
      hint:"Eco's theory argues that great literature does not impose a single fixed meaning. Instead, it remains open to multiple readings and reinterpretations."}
   ]

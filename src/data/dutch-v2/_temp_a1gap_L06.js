@@ -1,4 +1,4 @@
-// L06: Body and Health — 20 A1 gap words
+// L06: Body and Health, 20 A1 gap words
 const LESSON_6 = {
   id:"nlv2_a1gap_l6", title:"Lichaam en Gezondheid", icon:"\u{1F9D1}\u200D\u2695\uFE0F", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'Ik heb ___' betekent 'I am thirsty' in het Nederlands.",
-     opts:["dorst","honger","hulp","last"],
+     opts:["last","dorst","honger","hulp"],
      ans:"dorst",
      hint:"Dutch uses 'to have' plus a noun for physical feelings. Which noun means thirst?"},
 

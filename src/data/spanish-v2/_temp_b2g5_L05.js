@@ -90,7 +90,7 @@ const LESSON_5 = {id:"esv2_b2g5_l5",title:"Fuerza y carácter",icon:"💪",xp:15
  exampleSrc:"A: The traffic today was awful.\nB: It took me two hours to get home.",
  funFact:"In everyday Spanish, 'horroroso' is often used hyperbolically for anything mildly unpleasant."},
 
-{type:"mc",q:"¿Qué significa 'humillar'?",opts:["Hacer que alguien se sienta avergonzado","Ser modesto y humilde","Cocinar a fuego lento","Fortalecer el carácter"],ans:"Hacer que alguien se sienta avergonzado",hint:"To make someone feel small, ashamed, or worthless."},
+{type:"mc",q:"¿Qué significa 'humillar'?",opts:["Fortalecer el carácter","Hacer que alguien se sienta avergonzado","Ser modesto y humilde","Cocinar a fuego lento"],ans:"Hacer que alguien se sienta avergonzado",hint:"To make someone feel small, ashamed, or worthless."},
 
 {type:"fb",s:"La {1} de la vida en la montaña forjó su carácter.",a:["dureza"],opts:["dureza","fragilidad","humildad","falsedad"],hint:"The quality of being tough or harsh, from the adjective 'duro'.",sSrc:"The {1} of life in the mountains forged his character."},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"esv2_b2g5_l5",title:"Fuerza y carácter",icon:"💪",xp:15
 
 {type:"fb",s:"No seas {1}, habla con más educación.",a:["grosero"],opts:["grosero","heroico","hambriento","horroroso"],hint:"A word meaning rude or lacking good manners.",sSrc:"Don't be {1}, speak more politely."},
 
-{type:"mc",q:"¿Qué expresa 'estar harto'?",opts:["Estar muy cansado de algo","Tener mucha hambre","Sentirse heroico","Ser muy grosero"],ans:"Estar muy cansado de algo",hint:"Think about being completely fed up, tired, or sick of something."}
+{type:"mc",q:"¿Qué expresa 'estar harto'?",opts:["Sentirse heroico","Ser muy grosero","Estar muy cansado de algo","Tener mucha hambre"],ans:"Estar muy cansado de algo",hint:"Think about being completely fed up, tired, or sick of something."}
 ]};
 
 export default LESSON_5;

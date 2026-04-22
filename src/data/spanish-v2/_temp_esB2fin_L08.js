@@ -49,7 +49,7 @@ const LESSON_8 = {
      funFact:"From Gaius Maecenas, a Roman statesman who supported Virgil and Horace. His name became the word itself."},
 
     {type:"mc", q:"¿Qué es un 'mecenas' en el mundo del arte?",
-     opts:["Un tipo de pintura","Un museo famoso","Una persona que financia a artistas","Un movimiento artístico"],
+     opts:["Una persona que financia a artistas","Un movimiento artístico","Un tipo de pintura","Un museo famoso"],
      ans:"Una persona que financia a artistas",
      hint:"This term comes from a Roman statesman who famously supported poets and artists."},
 
@@ -130,7 +130,7 @@ const LESSON_8 = {
     ]},
 
     {type:"mc", q:"¿Quién selecciona y organiza las obras de una exposición?",
-     opts:["El mecenas","El comisario","El escultor","El grabador"],
+     opts:["El grabador","El mecenas","El comisario","El escultor"],
      ans:"El comisario",
      hint:"This person curates the exhibition, choosing which works to display and how to arrange them."},
 
@@ -147,7 +147,7 @@ const LESSON_8 = {
     ]},
 
     {type:"mc", q:"¿Qué técnica usaba Goya en sus series de estampas?",
-     opts:["La escultura","El grabado","La restauración","El retrato al óleo"],
+     opts:["La restauración","El retrato al óleo","La escultura","El grabado"],
      ans:"El grabado",
      hint:"This technique involves carving an image into a surface to create printed copies."}
   ]

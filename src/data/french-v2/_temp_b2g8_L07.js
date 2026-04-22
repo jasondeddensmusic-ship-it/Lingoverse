@@ -80,7 +80,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot décrit un léger tremblement ou une vibration ?",
-     opts:["un frémissement","un châssis","un ocre","une jointure"],
+     opts:["une jointure","un frémissement","un châssis","un ocre"],
      ans:"un frémissement",
      hint:"Think of water just below boiling, barely moving. A very slight trembling or quiver."},
 
@@ -119,7 +119,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel Français a fondé les Jeux Olympiques modernes ?",
-     opts:["Pierre de Coubertin","Victor Hugo","Napoléon","Jules Verne"],
+     opts:["Napoléon","Jules Verne","Pierre de Coubertin","Victor Hugo"],
      ans:"Pierre de Coubertin",
      hint:"He coined the term 'olympisme' in 1894 and revived the ancient Greek tradition."},
 

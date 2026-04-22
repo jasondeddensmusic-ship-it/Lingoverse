@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"太陽光(たいようこう)",src:"solar power"},{trg:"風力(ふうりょく)",src:"wind power"},{trg:"原子力(げんしりょく)",src:"nuclear power"}]},
 
-    {type:"mc", q:"Which word means sustainable?", opts:["持続可能(じぞくかのう)","省エネ(しょうエネ)","太陽光(たいようこう)","排出(はいしゅつ)"], ans:"持続可能(じぞくかのう)",
+    {type:"mc", q:"Which word means sustainable?", opts:["排出(はいしゅつ)","持続可能(じぞくかのう)","省エネ(しょうエネ)","太陽光(たいようこう)"], ans:"持続可能(じぞくかのう)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"エコ",src:"eco-friendly"}]}]
 };

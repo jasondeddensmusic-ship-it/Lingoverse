@@ -86,7 +86,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot decrit un regard qui evite le contact ?",
-     opts:["fuyant","hargneux","grivois","hideux"],
+     opts:["hideux","fuyant","hargneux","grivois"],
      ans:"fuyant",
      hint:"From the verb 'fuir' meaning to flee. Also a term in perspective art for the vanishing point."},
 
@@ -113,7 +113,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Que signifie 'foncierement' ?",
-     opts:["Profondement, dans sa nature","Rapidement","Partiellement","Superficiellement"],
+     opts:["Partiellement","Superficiellement","Profondement, dans sa nature","Rapidement"],
      ans:"Profondement, dans sa nature",
      hint:"From 'foncier' meaning foundational. Describes something at the deepest core level."}
   ]

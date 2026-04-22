@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"元気(げんき)", src:"energetic"}
     ]},
 
-    {type:"mc", q:"Which verb is used for wearing glasses in Japanese?", opts:["かける","着(き)る","はく","かぶる"], ans:"かける",
+    {type:"mc", q:"Which verb is used for wearing glasses in Japanese?", opts:["かぶる","かける","着(き)る","はく"], ans:"かける",
      hint:"Japanese uses different verbs for different body parts. For items on the face, you use this verb meaning 'to hang.'"}
   ,{type:"match",pairs:[{trg:"背(せ)が高(たか)い",src:"tall (person)"},{trg:"眼鏡(めがね)をかけている",src:"wears glasses"},{trg:"髪(かみ)が長(なが)い",src:"has long hair"}]}]
 };

@@ -1,4 +1,4 @@
-// Lesson 8 — Culture & Religion
+// Lesson 8. Culture & Religion
 const LESSON_8 = {id:"nlv2_b2g8_l8", title:"Cultuur en Geloof", icon:"\u{1F54C}", xp:20, board:true, steps:[
 {type:"intro", title:"Cultuur en Geloof", desc:"Discuss religion, cultural identity, and belief systems in Dutch. These topics appear frequently in opinion articles and integration debates.", goals:["Learn 10 culture and religion words","Discuss faith and cultural experiences","Understand Dutch society's relationship with religion"]},
 {type:"teach", trg:"het jodendom", src:"the Judaism", pos:"noun", gender:"n", note:"Het-word. From 'jood' (Jew) + -dom suffix.\nThe -dom suffix = English -dom.\n'Het orthodox jodendom.'", example:"A: Weet je veel over het jodendom?\nB: Een beetje. Het is een oude religie.\nA: De synagoge hier is prachtig.\nB: Ja, die moet je een keer bezoeken.", exampleSrc:"A: Do you know much about Judaism?\nB: A little. It is an ancient religion.\nA: The synagogue here is beautiful.\nB: Yes, you should visit it sometime.", funFact:"Amsterdam was once called 'Mokum' (from Hebrew 'makom', meaning 'place'), reflecting its historically large Jewish community."},
@@ -14,7 +14,7 @@ const LESSON_8 = {id:"nlv2_b2g8_l8", title:"Cultuur en Geloof", icon:"\u{1F54C}"
 {type:"mc", q:"Welk woord betekent 'fellow believer'?", opts:["de geloofsgenoot","de geloofsbeleving","de heilige","het jodendom"], ans:"de geloofsgenoot", hint:"A compound of faith + companion"},
 {type:"fb", s:"Dat was pure {1}! Niets was gepland.", a:["improvisatie"], opts:["improvisatie","interpretatie","finale","glorie"], hint:"Doing something spontaneously without preparation", sSrc:"That was pure {1}! Nothing was planned."},
 {type:"match", pairs:[{trg:"het jodendom", src:"Judaism"},{trg:"de glorie", src:"glory"},{trg:"het idool", src:"idol"},{trg:"het fragment", src:"fragment"}]},
-{type:"mc", q:"Hoeveel WK-finales heeft Nederland bereikt zonder te winnen?", opts:["Een","Twee","Drie","Vier"], ans:"Drie", hint:"1974, 1978, and 2010"},
+{type:"mc", q:"Hoeveel WK-finales heeft Nederland bereikt zonder te winnen?", opts:["Twee","Drie","Vier","Een"], ans:"Drie", hint:"1974, 1978, and 2010"},
 {type:"fb", s:"Mijn {1} is anders dan die van jou.", a:["interpretatie"], opts:["interpretatie","improvisatie","finale","geloofsbeleving"], hint:"How you understand or explain a text or situation", sSrc:"My {1} is different from yours."},
 {type:"drag_fill", s:"De Gouden Eeuw was een tijd van {1}. Handel en {2} bloeiden.", blanks:{"1":"glorie","2":"kunst"}, pool:["glorie","kunst","finale","improvisatie"], hint:"A period of greatness when trade and art flourished."}
 ]};

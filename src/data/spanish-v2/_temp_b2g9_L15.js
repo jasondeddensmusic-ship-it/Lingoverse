@@ -1,4 +1,4 @@
-// Lesson 15 — Historia y epocas (History and Eras)
+// Lesson 15. Historia y epocas (History and Eras)
 const LESSON_15 = {id:"esv2_b2g9_l15", title:"Historia y \u00e9pocas", icon:"\u{1F3DB}\uFE0F", xp:25, board:true, steps:[
   {type:"intro", title:"Historia y \u00e9pocas",
    desc:"Navigate conversations about history with vocabulary for eras, periods, and historical events. Essential for understanding culture and current affairs.",
@@ -69,7 +69,7 @@ const LESSON_15 = {id:"esv2_b2g9_l15", title:"Historia y \u00e9pocas", icon:"\u{
    funFact:"In Latin America, 'mejoramiento' is common, while in Spain 'mejora' is preferred for the same concept."},
 
   {type:"mc", q:"\u00bfQu\u00e9 metal caracteriza a la edad de bronce?",
-   opts:["El hierro","El oro","El bronce","El cobre"],
+   opts:["El bronce","El cobre","El hierro","El oro"],
    ans:"El bronce",
    hint:"The age is named after this metal, an alloy of copper and tin."},
 
@@ -87,7 +87,7 @@ const LESSON_15 = {id:"esv2_b2g9_l15", title:"Historia y \u00e9pocas", icon:"\u{
   ]},
 
   {type:"mc", q:"\u00bfCu\u00e1l es el orden cronol\u00f3gico correcto?",
-   opts:["Piedra, Hierro, Bronce","Bronce, Piedra, Hierro","Piedra, Bronce, Hierro","Hierro, Bronce, Piedra"],
+   opts:["Bronce, Piedra, Hierro","Piedra, Bronce, Hierro","Hierro, Bronce, Piedra","Piedra, Hierro, Bronce"],
    ans:"Piedra, Bronce, Hierro",
    hint:"Humans first used stone, then learned to mix metals (bronze), then mastered a harder metal."},
 

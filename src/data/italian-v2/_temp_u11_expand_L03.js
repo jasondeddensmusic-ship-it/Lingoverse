@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\u
   ]},
 
   {type:"mc", q:"How do Italians typically structure stories?",
-   opts:["Build complications, add lucky turns, resolve at the end","Just list facts","Start with the conclusion","Avoid details"],
+   opts:["Avoid details","Build complications, add lucky turns, resolve at the end","Just list facts","Start with the conclusion"],
    ans:"Build complications, add lucky turns, resolve at the end",
    hint:"Purtroppo... per fortuna... alla fine... This dramatic structure makes stories engaging and is very Italian."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\u
    sSrc:"{1} the museum was closed."},
 
   {type:"mc", q:"What does 'alla fine' signal in a story?",
-   opts:["The conclusion or outcome","The beginning","A sudden twist","A question"],
+   opts:["A sudden twist","A question","The conclusion or outcome","The beginning"],
    ans:"The conclusion or outcome",
    hint:"'Alla fine tutto e andato bene.' This expression wraps up the narrative and tells you how things turned out."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u11l6", title:"Raccontare una storia", icon:"\uD83D\u
    sSrc:"The vacation was {1}! The weather was perfect."},
 
   {type:"mc", q:"What is the literal meaning of 'raccontare'?",
-   opts:["To recount (count again)","To sing again","To read again","To remember"],
+   opts:["To sing again","To read again","To remember","To recount (count again)"],
    ans:"To recount (count again)",
    hint:"'Ri-' is a prefix meaning repetition, combined with a verb meaning to enumerate. Stories were originally events tallied one by one."},
 

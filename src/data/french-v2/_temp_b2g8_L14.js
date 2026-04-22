@@ -80,7 +80,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel mot désigne les travailleurs d'un secteur de manière collective ?",
-     opts:["la main-d'oeuvre","l'indicateur","le confrère","l'administrateur"],
+     opts:["l'administrateur","la main-d'oeuvre","l'indicateur","le confrère"],
      ans:"la main-d'oeuvre",
      hint:"Literally 'hand of work'. The collective labor force or the cost of hiring workers."},
 
@@ -119,7 +119,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Comment dit-on 'quitter temporairement un lieu' avec un verbe réfléchi ?",
-     opts:["s'absenter","s'obstiner","se ménager","se décorer"],
+     opts:["se ménager","se décorer","s'absenter","s'obstiner"],
      ans:"s'absenter",
      hint:"Always used with 'se'. To leave for a short period and come back."},
 

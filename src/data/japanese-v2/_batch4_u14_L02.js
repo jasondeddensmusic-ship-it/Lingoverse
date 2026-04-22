@@ -1,4 +1,4 @@
-// Batch 4 — Unit 14 Lesson 2: Comparison & Contrast
+// Batch 4. Unit 14 Lesson 2: Comparison & Contrast
 const BATCH4_L_2 = {
   id:"jav2_u14l_b4_2", title:"比較(ひかく)", icon:"⚖️", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"まあまあ expresses:",
-     opts:["a moderate/so-so evaluation","excellence","disappointment","anger"], ans:"a moderate/so-so evaluation",
+     opts:["anger","a moderate/so-so evaluation","excellence","disappointment"], ans:"a moderate/so-so evaluation",
      hint:"Neither great nor terrible, the quintessential non-committal response."},
 
     {type:"fb", s:"{1}わかりません。", a:"全然(ぜんぜん)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"Complete negation, not even a tiny bit of understanding."},
 
     {type:"mc", q:"結構(けっこう) has two meanings. One is 'quite.' The other is:",
-     opts:["no thank you","very much","excuse me","I agree"], ans:"no thank you",
+     opts:["excuse me","I agree","no thank you","very much"], ans:"no thank you",
      hint:"Used to politely decline an offer or say 'that's enough.'"},
 
     {type:"mc", q:"むしろ means:",
-     opts:["rather / on the contrary","for example","in the end","of course"], ans:"rather / on the contrary",
+     opts:["for example","in the end","of course","rather / on the contrary"], ans:"rather / on the contrary",
      hint:"Corrects or contrasts with what was just said or expected."}
   ,{type:"match",pairs:[{trg:"特(とく)に",src:"especially / particularly"},{trg:"まあまあ",src:"so-so / not bad"},{trg:"結構(けっこう)",src:"quite / fairly / enough"},{trg:"少(すこ)し",src:"a little / a bit"},{trg:"かなり",src:"quite / considerably"},{trg:"むしろ",src:"rather / instead"}]}]
 };

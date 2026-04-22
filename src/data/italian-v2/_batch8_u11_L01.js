@@ -1,4 +1,4 @@
-// Batch 8 — Unit 11 extra lesson. Past Tense: Irregular Past Participles
+// Batch 8. Unit 11 extra lesson. Past Tense: Irregular Past Participles
 const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀", xp:15, board:true, steps:[
 {type:"intro", title:"Participi irregolari",
  desc:"Master the most common irregular past participles used in everyday Italian conversation.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀
 
 {type:"mc",
  q:"Which verb means 'to discover' and is built from 'coprire'?",
- opts:["Scoprire","Raccogliere","Nascondere","Dipingere"],
+ opts:["Dipingere","Scoprire","Raccogliere","Nascondere"],
  ans:"Scoprire",
  hint:"The prefix s- reverses the meaning. To cover becomes to un-cover."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀
 
 {type:"mc",
  q:"What does 'raccolta differenziata' mean?",
- opts:["Separated waste collection (recycling)","Flower picking","Art collection","Selective memory"],
+ opts:["Art collection","Selective memory","Separated waste collection (recycling)","Flower picking"],
  ans:"Separated waste collection (recycling)",
  hint:"'Raccogliere' means to collect. Italy's r... system requires sorting w... into different bins."}
 ,{type:"match",pairs:[{trg:"accadere",src:"to happen / to occur"},{trg:"scomparire",src:"to disappear / to vanish"},{trg:"rimanere",src:"to remain / to stay"},{trg:"spegnere",src:"to turn off / to extinguish"},{trg:"piangere",src:"to cry / to weep"}]}]};

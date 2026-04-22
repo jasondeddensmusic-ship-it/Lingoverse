@@ -1,4 +1,4 @@
-// Batch 3 — Unit 34 Lesson (International Relations: International Organizations)
+// Batch 3. Unit 34 Lesson (International Relations: International Organizations)
 const BATCH3_L_1 = {
   id:"itv2_u34l_b3_1", title:"Organizzazioni internazionali", icon:"🏢", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche l'Italia fu inizialmente esclusa dalle Nazioni Unite?",
-     opts:["Perche non aveva un sistema democratico riconosciuto","Perche era stata una potenza dell'Asse nella Seconda Guerra Mondiale","Perche non pagava i contributi finanziari richiesti","Perche la sua Costituzione non prevedeva la partecipazione a organizzazioni internazionali"],
+     opts:["Perche era stata una potenza dell'Asse nella Seconda Guerra Mondiale","Perche non pagava i contributi finanziari richiesti","Perche la sua Costituzione non prevedeva la partecipazione a organizzazioni internazionali","Perche non aveva un sistema democratico riconosciuto"],
      ans:"Perche era stata una potenza dell'Asse nella Seconda Guerra Mondiale",
      hint:"Former enemy nations were not immediately admitted. Italy had to wait ten years after the UN's founding before joining in 1955."},
 
@@ -108,10 +108,10 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Quale giurista italiano del XVI secolo e considerato un fondatore del diritto internazionale?",
-     opts:["Beccaria","Gentili","Machiavelli","Gramsci"],
+     opts:["Gramsci","Beccaria","Gentili","Machiavelli"],
      ans:"Gentili",
      hint:"This jurist wrote foundational texts on the laws of war before Grotius. He taught at Oxford and influenced British legal tradition."}
-  ,{type:"match",pairs:[{trg:"il Consiglio di Sicurezza",src:"the Security Council"},{trg:"la missione di pace",src:"the peace mission"},{trg:"la cooperazione allo sviluppo",src:"development cooperation"}]},{type:"mc",q:"How do you say \"humanitarian aid\" in Italian?",opts:["la finestra","il tavolo","l'aiuto umanitario","la bicicletta"],ans:"l'aiuto umanitario",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il Consiglio di Sicurezza",src:"the Security Council"},{trg:"la missione di pace",src:"the peace mission"},{trg:"la cooperazione allo sviluppo",src:"development cooperation"}]},{type:"mc",q:"How do you say \"humanitarian aid\" in Italian?",opts:["la bicicletta","la finestra","il tavolo","l'aiuto umanitario"],ans:"l'aiuto umanitario",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"La {1} garantisce la difesa collettiva tra i suoi membri.",a:["la NATO"],opts:["la NATO","il G7","la missione di pace","il disarmo"],hint:"The main global body founded in 1945 to maintain international peace.",sSrc:"The {1} is the only organization with a mandate for peacekeeping."}]
 };
 export default BATCH3_L_1;

@@ -24,7 +24,7 @@ const BATCH2_L_3 = {
      exampleSrc:"A: What is the source of this data?\nB: It is statistics from the Ministry of Internal Affairs.\nA: Is there any progress on that matter?\nB: Yes, it is progressing smoothly.\nA: When is it expected to be completed?\nB: It is scheduled to be completed by the beginning of next month.",
      funFact:"出典 uses 出(しゅつ) (come out) and 典(てん) (canon/classic). A source is where information 'comes out from.' In Japanese academic culture, citing 出典(しゅってん) is mandatory. Plagiarism is taken seriously, and university students learn proper citation formats. News credibility also depends on identifiable 出典(しゅってん) for claims and statistics."},
 
-    {type:"mc", q:"偏向(へんこう)報道(ほうどう) means:", opts:["Breaking news","Biased reporting","Live broadcast","Editorial column"], ans:"Biased reporting",
+    {type:"mc", q:"偏向(へんこう)報道(ほうどう) means:", opts:["Biased reporting","Live broadcast","Editorial column","Breaking news"], ans:"Biased reporting",
      hint:"The compound combines the word for 'bias/leaning' with the word for 'r....'"},
 
     {type:"teach", trg:"客観的(きゃっかんてき)", src:"objective", pos:"adj", gender:null,
@@ -79,7 +79,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"客観的(きゃっかんてき)",src:"objective"},{trg:"一方的(いっぽうてき)",src:"one-sided"},{trg:"事実(じじつ)",src:"fact"},{trg:"区別(くべつ)",src:"distinction"}]},
 
-    {type:"mc", q:"Which practice is most fundamental to media literacy?", opts:["Believing the first source you find","Checking multiple sources to verify information","Only reading one trusted newspaper","Ignoring all news entirely"], ans:"Checking multiple sources to verify information",
+    {type:"mc", q:"Which practice is most fundamental to media literacy?", opts:["Ignoring all news entirely","Believing the first source you find","Checking multiple sources to verify information","Only reading one trusted newspaper"], ans:"Checking multiple sources to verify information",
      hint:"出典(しゅってん)を確認(かくにん)する (verifying s...) is the foundational skill of critical media consumption."},
   {type:"match",pairs:[{trg:"統計(とうけい)",src:"statistics"}]}]
 };

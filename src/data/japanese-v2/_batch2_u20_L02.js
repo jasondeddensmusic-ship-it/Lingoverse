@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Our president will come, so please wait. (correct: humble for own boss)\nB: Certainly.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"The uchi-soto (内外) rule trips up even native speakers. When a client calls, you must say 社長(しゃちょう)はいまおりません (humble) not いらっしゃいません (honorific) about your own boss. Your boss is in your group (内(うち)), so you humble their actions when talking to outsiders (外(そと))."},
 
-    {type:"mc", q:"Which is the correct keigo for 'the president said'?", opts:["社長(しゃちょう)がおっしゃられた","社長(しゃちょう)がおっしゃった","社長(しゃちょう)が言(い)った","社長(しゃちょう)がもうした"], ans:"社長(しゃちょう)がおっしゃった",
+    {type:"mc", q:"Which is the correct keigo for 'the president said'?", opts:["社長(しゃちょう)がおっしゃった","社長(しゃちょう)が言(い)った","社長(しゃちょう)がもうした","社長(しゃちょう)がおっしゃられた"], ans:"社長(しゃちょう)がおっしゃった",
      hint:"おっしゃる is already honorific. Adding られる creates a double honorific error."},
 
     {type:"teach", trg:"させていただきすぎ", src:"overusing させていただく", pos:"noun", gender:null,
@@ -75,11 +75,11 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"かしこまりました",src:"certainly (service)"},{trg:"でよろしいでしょうか",src:"would that be alright?"},{trg:"よろしかったでしょうか",src:"[INCORRECT] was that ok?"},{trg:"おもてなし",src:"hospitality"}]},
 
-    {type:"mc", q:"こちらコーヒーになります is incorrect because:", opts:["Coffee is too informal for keigo","'Becomes' implies transformation, not identification","You should not serve coffee","The word order is wrong"], ans:"'Becomes' implies transformation, not identification",
+    {type:"mc", q:"こちらコーヒーになります is incorrect because:", opts:["The word order is wrong","Coffee is too informal for keigo","'Becomes' implies transformation, not identification","You should not serve coffee"], ans:"'Becomes' implies transformation, not identification",
      hint:"になります means 'will become.' The item is not becoming coffee; it already IS coffee. Use でございます."},
   {type:"match",pairs:[{trg:"おっしゃられる",src:"[INCORRECT] double honorific of 'to say'"},{trg:"〜れる敬語(けいご)",src:"passive-honorific (common but lower-register)"}]},
   {type:"fb", s:"「おっしゃられる」は{1}の典型的(てんけいてき)な例(れい)です。", a:["二重敬語(にじゅうけいご)"], opts:["二重敬語(にじゅうけいご)","内外(うちそと)の間違(まちが)い","させていただきすぎ","〜れる敬語(けいご)"], hint:"The grammatical error of stacking two honorific forms on the same verb.", sSrc:"'Ossharareru' is a classic example of {1}."},
-  {type:"mc", q:"Which of these is the passive-honorific pattern?", opts:["〜れる敬語(けいご)","二重敬語(にじゅうけいご)","させていただきすぎ","バイト敬語(けいご)"], ans:"〜れる敬語(けいご)", hint:"The pattern where passive form (帰(かえ)られる, 読(よ)まれる) is used as an honorific. Acceptable but lower-register."}
+  {type:"mc", q:"Which of these is the passive-honorific pattern?", opts:["二重敬語(にじゅうけいご)","させていただきすぎ","バイト敬語(けいご)","〜れる敬語(けいご)"], ans:"〜れる敬語(けいご)", hint:"The pattern where passive form (帰(かえ)られる, 読(よ)まれる) is used as an honorific. Acceptable but lower-register."}
 ]
 };
 export default BATCH2_L_2;

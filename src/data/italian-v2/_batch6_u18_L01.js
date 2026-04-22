@@ -1,4 +1,4 @@
-// Batch 6 — Unit 18 extra lesson. L'ambiente: Natural Disasters & Climate
+// Batch 6. Unit 18 extra lesson. L'ambiente: Natural Disasters & Climate
 const BATCH6_L1 = {id:"itv2_u18l_b6_1", title:"Disastri naturali e clima", icon:"\u{1F30A}", xp:15, board:true, steps:[
 {type:"intro", title:"Disastri naturali e clima",
  desc:"Learn vocabulary for natural disasters, extreme weather, and climate phenomena in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u18l_b6_1", title:"Disastri naturali e clima", icon:
 ]},
 
 {type:"mc", q:"Cosa significa 'un colpo di fulmine' in senso figurato?",
- opts:["Love at first sight","A sudden storm","An electric shock","A loud noise"],
+ opts:["A loud noise","Love at first sight","A sudden storm","An electric shock"],
  ans:"Love at first sight",
  hint:"A lightning strike to the heart. The Italian expression for instant romantic attraction."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u18l_b6_1", title:"Disastri naturali e clima", icon:
  sSrc:"The weather {1} predict rain for the weekend."},
 
 {type:"mc", q:"Quale organizzazione coordina i soccorsi durante i disastri naturali in Italia?",
- opts:["La Protezione Civile","I Carabinieri","La Guardia di Finanza","Il Comune"],
+ opts:["La Guardia di Finanza","Il Comune","La Protezione Civile","I Carabinieri"],
  ans:"La Protezione Civile",
  hint:"The national civil protection agency that mobilizes volunteers and resources."},
 

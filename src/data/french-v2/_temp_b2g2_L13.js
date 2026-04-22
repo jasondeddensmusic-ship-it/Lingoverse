@@ -92,7 +92,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel geste consiste a embrasser la main d'une femme en signe de respect ?",
-     opts:["le baisemain","le chichi","le delirium","l'accrochage"],
+     opts:["l'accrochage","le baisemain","le chichi","le delirium"],
      ans:"le baisemain",
      hint:"A traditional gesture of gallantry. Think 'baiser' (to kiss) + 'main' (hand)."},
 
@@ -137,7 +137,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Que signifie 'sans chichi' ?",
-     opts:["sans pretention","sans argent","sans raison","sans fin"],
+     opts:["sans raison","sans fin","sans pretention","sans argent"],
      ans:"sans pretention",
      hint:"Without unnecessary fuss or affectation. Keeping things simple and real."},
 

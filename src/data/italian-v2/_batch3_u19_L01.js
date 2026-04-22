@@ -1,4 +1,4 @@
-// Batch 3 — Unit 19, Lesson 1: Stati psicologici (Psychological States)
+// Batch 3. Unit 19, Lesson 1: Stati psicologici (Psychological States)
 const BATCH3_U19_L1 = {
   id:"itv2_u19l_b3_1", title:"Stati psicologici", icon:"\uD83E\uDDE0", xp:15, board:true,
   steps:[
@@ -86,7 +86,7 @@ const BATCH3_U19_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What is the difference between 'rimorso' and 'rimpianto'?",
-     opts:["They mean exactly the same thing","Rimorso = guilt for wrongdoing, rimpianto = regret for missed opportunities","Rimorso is formal, rimpianto is informal","Rimorso is about others, rimpianto is about yourself"],
+     opts:["Rimorso = guilt for wrongdoing, rimpianto = regret for missed opportunities","Rimorso is formal, rimpianto is informal","Rimorso is about others, rimpianto is about yourself","They mean exactly the same thing"],
      ans:"Rimorso = guilt for wrongdoing, rimpianto = regret for missed opportunities",
      hint:"One 'bites back' (g...). The other 'laments again' (wishing you had done something). Both are deep emotional states."},
 
@@ -116,7 +116,7 @@ const BATCH3_U19_L1 = {
      sSrc:"What a {1} this sunset is!"},
 
     {type:"mc", q:"How does Italian distinguish positive solitude from negative loneliness?",
-     opts:["There is no distinction in Italian","'Stare da soli' is chosen, 'sentirsi soli' is unwanted","Only 'solitudine' exists as a negative word","Italians never discuss loneliness"],
+     opts:["Italians never discuss loneliness","There is no distinction in Italian","'Stare da soli' is chosen, 'sentirsi soli' is unwanted","Only 'solitudine' exists as a negative word"],
      ans:"'Stare da soli' is chosen, 'sentirsi soli' is unwanted",
      hint:"One is healthy time alone for reflection. The other is painful isolation. The verb choice reveals the emotional quality."},
 
@@ -127,7 +127,7 @@ const BATCH3_U19_L1 = {
      sSrc:"I am {1} by work."},
 
     {type:"mc", q:"What does the Italian proverb 'L'orgoglio precede la caduta' mean?",
-     opts:["Pride comes before the fall","Pride makes you stronger","Pride is always positive","Proud people never fail"],
+     opts:["Pride makes you stronger","Pride is always positive","Proud people never fail","Pride comes before the fall"],
      ans:"Pride comes before the fall",
      hint:"Excessive p... leads to downfall. Italian wisdom warns against 'troppo orgoglio' while valuing healthy p... in achievements."}
   ,{type:"match",pairs:[{trg:"la gratitudine",src:"the gratitude"},{trg:"la serenita",src:"the serenity / peace of mind"}]},

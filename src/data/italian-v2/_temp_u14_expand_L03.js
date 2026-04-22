@@ -62,7 +62,7 @@ const LESSON_6 = {
 
     // Quiz steps
     {type:"mc", q:"What is the standard formal opening for an Italian business email?",
-     opts:["Caro","Ciao","Gentile","Buongiorno caro"],
+     opts:["Gentile","Buongiorno caro","Caro","Ciao"],
      ans:"Gentile",
      hint:"This word means 'kind' or 'gentle.' 'G... Signor Rossi' is the standard professional opening."},
 
@@ -92,7 +92,7 @@ const LESSON_6 = {
      sSrc:"{1} you will find my CV."},
 
     {type:"mc", q:"What makes 'La prego di' so formal?",
-     opts:["It uses the future tense to be polite","It literally means 'I pray you to,' showing maximum deference","It is only used in legal documents, never in email","It addresses the reader by their first name"],
+     opts:["It addresses the reader by their first name","It uses the future tense to be polite","It literally means 'I pray you to,' showing maximum deference","It is only used in legal documents, never in email"],
      ans:"It literally means 'I pray you to,' showing maximum deference",
      hint:"'Pregare' m... 'to p...' or 'to beg.' This formula transforms a request into a humble entreaty."},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"Could you send me a {1} for the project?"},
 
     {type:"mc", q:"What is 'la fatturazione elettronica'?",
-     opts:["An optional email billing system","Italy's mandatory electronic invoice system since 2019","A type of bank transfer method","An online tax payment portal"],
+     opts:["A type of bank transfer method","An online tax payment portal","An optional email billing system","Italy's mandatory electronic invoice system since 2019"],
      ans:"Italy's mandatory electronic invoice system since 2019",
      hint:"This s... goes through the 'Sistema di Interscambio' (SdI). It was revolutionary in reducing tax evasion."}
   ]

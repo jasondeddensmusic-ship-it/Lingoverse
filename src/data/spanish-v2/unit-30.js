@@ -1,4 +1,4 @@
-// Unit 30 — Hacia el Futuro
+// Unit 30. Hacia el Futuro
 // DELE B2 Prep & C1 Preview
 
 export default {n:30,lang:"es",srcLang:"en",track:"v2",title:"Hacia el Futuro",sub:"DELE B2 Prep & C1 Preview",icon:"🎯",level:"B2.2",color:"#7B5EE8",lessons:[

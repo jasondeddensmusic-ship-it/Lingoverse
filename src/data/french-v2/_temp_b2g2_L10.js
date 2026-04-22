@@ -92,7 +92,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Que signifie 'sans encombre' ?",
-     opts:["sans difficulte","sans argent","sans aide","sans raison"],
+     opts:["sans raison","sans difficulte","sans argent","sans aide"],
      ans:"sans difficulte",
      hint:"A common expression meaning everything went smoothly, with no obstacles."},
 
@@ -137,7 +137,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'separer en elements plus simples' ?",
-     opts:["decomposer","demonter","denaturer","deconnecter"],
+     opts:["denaturer","deconnecter","decomposer","demonter"],
      ans:"decomposer",
      hint:"To break down into component parts. Think of 'com-' (together) being reversed by 'de-'."},
 

@@ -1,4 +1,4 @@
-// Lesson 10 — Literatura y creación
+// Lesson 10. Literatura y creación
 const LESSON_10 = {id:"esv2_b2gA_l10", title:"Literatura y creación", icon:"📚", xp:15, board:true, steps:[
 {type:"intro", title:"Literatura y creación", desc:"Explore vocabulary for discussing literature, literary devices, and creative expression.", goals:["Learn 15 literary and creative terms","Discuss books and writing with precision","Use artistic vocabulary confidently"]},
 
@@ -57,7 +57,7 @@ const LESSON_10 = {id:"esv2_b2gA_l10", title:"Literatura y creación", icon:"�
  exampleSrc:"A: They lived in a wretched cabin without running water.\nB: The conditions were inhumane.",
  funFact:"Very literary register. Used in novels and formal writing more than daily speech."},
 
-{type:"mc", q:"¿Qué significa 'modélico'?", opts:["Que sirve como ejemplo perfecto","Que es muy moderno","Que trabaja como modelo","Que es modificable"], ans:"Que sirve como ejemplo perfecto",
+{type:"mc", q:"¿Qué significa 'modélico'?", opts:["Que es modificable","Que sirve como ejemplo perfecto","Que es muy moderno","Que trabaja como modelo"], ans:"Que sirve como ejemplo perfecto",
  hint:"Think about someone whose behavior is so good it could be a model for others."},
 
 {type:"fb", s:"El {1} del crimen nunca fue esclarecido por la policía.", a:["motivo"], opts:["motivo","nicho","fetiche","náufrago"],
@@ -94,7 +94,7 @@ const LESSON_10 = {id:"esv2_b2gA_l10", title:"Literatura y creación", icon:"�
  hint:"This noun refers to the state of being unclothed, common in classical art.",
  sSrc:"{1} in Renaissance art was a symbol of purity."},
 
-{type:"mc", q:"¿Qué significa 'dormirse en los laureles'?", opts:["Volverse complaciente y dejar de esforzarse","Dormir muy bien","Ganar un premio importante","Cocinar con hojas de laurel"], ans:"Volverse complaciente y dejar de esforzarse",
+{type:"mc", q:"¿Qué significa 'dormirse en los laureles'?", opts:["Ganar un premio importante","Cocinar con hojas de laurel","Volverse complaciente y dejar de esforzarse","Dormir muy bien"], ans:"Volverse complaciente y dejar de esforzarse",
  hint:"After winning victory (the laurel wreath), one might stop trying hard."},
 
 {type:"drag_fill", s:"Su novela era una {1} sobre la vida {2} de los campesinos.", blanks:{"1":"metáfora","2":"mísera"}, pool:["metáfora","mísera","modélica","popular"],

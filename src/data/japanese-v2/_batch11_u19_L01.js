@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「ところで」はいつ使(つか)いますか？",
-     opts:["When changing the conversation topic","When agreeing with someone","When giving an example","When summarizing"],
+     opts:["When summarizing","When changing the conversation topic","When agreeing with someone","When giving an example"],
      ans:"When changing the conversation topic",
      hint:"This word serves as a smooth transition signal, letting the listener know you are shifting to a different subject."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Japan is a country with many earthquakes. For that reason, countermeasures are advanced."},
 
     {type:"mc", q:"「一方(いっぽう)で」はどんなときに使(つか)いますか？",
-     opts:["When presenting a balanced contrast","When agreeing strongly","When giving examples","When ending a conversation"],
+     opts:["When giving examples","When ending a conversation","When presenting a balanced contrast","When agreeing strongly"],
      ans:"When presenting a balanced contrast",
      hint:"This connector shows both sides of an issue without taking a position. A is true, and B is also true."}
   ,{type:"match",pairs:[{trg:"だから",src:"therefore / so"},{trg:"しかし",src:"however / but"},{trg:"それに",src:"moreover / besides"},{trg:"一方(いっぽう)で",src:"on the other hand"}]}]

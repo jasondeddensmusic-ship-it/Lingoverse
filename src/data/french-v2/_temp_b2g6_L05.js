@@ -80,7 +80,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Que désigne 'une garderie' ?",
-     opts:["Un lieu où on garde les enfants","Un magasin de jardinage","Une prison pour mineurs","Un refuge pour animaux"],
+     opts:["Un refuge pour animaux","Un lieu où on garde les enfants","Un magasin de jardinage","Une prison pour mineurs"],
      ans:"Un lieu où on garde les enfants",
      hint:"A supervised facility for toddlers and young children while parents are at work. Also available after school hours."},
 
@@ -131,7 +131,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel adjectif décrit une douleur persistante et pulsante ?",
-     opts:["lancinant","lugubre","agrandi","légitime"],
+     opts:["agrandi","légitime","lancinant","lugubre"],
      ans:"lancinant",
      hint:"From Latin 'to tear'. Describes pain that throbs in sharp, rhythmic waves."},
 

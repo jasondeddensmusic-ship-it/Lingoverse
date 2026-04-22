@@ -1,4 +1,4 @@
-// Korean V2 Unit 63 — B2 Vocabulary Batch 5
+// Korean V2 Unit 63. B2 Vocabulary Batch 5
 import L06 from './_temp_b2b5_L06.js';
 import L07 from './_temp_b2b5_L07.js';
 import L08 from './_temp_b2b5_L08.js';

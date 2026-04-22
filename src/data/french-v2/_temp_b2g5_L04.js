@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 4 — Health and Well-being
+// French B2 Gap Lesson 4. Health and Well-being
 const LESSON_4 = {id:"frv2_b2g5_l4", title:"Santé et bien-être", icon:"🏥", xp:15, board:true, steps:[
   {type:"intro", title:"Santé et bien-être",
    desc:"Develop vocabulary for health topics, medical conditions, and well-being discussions at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_4 = {id:"frv2_b2g5_l4", title:"Santé et bien-être", icon:"🏥", 
    funFact:"From 'in-' (not) + 'fatigable' (tirable). The root 'fatiguer' means 'to tire'."},
 
   {type:"mc", q:"Quel adjectif décrit une maladie qui peut se transmettre?",
-   opts:["Infectieuse","Indolore","Intestinale","Infatigable"],
+   opts:["Infatigable","Infectieuse","Indolore","Intestinale"],
    ans:"Infectieuse",
    hint:"A disease that spreads from person to person through contact"},
 
@@ -105,7 +105,7 @@ const LESSON_4 = {id:"frv2_b2g5_l4", title:"Santé et bien-être", icon:"🏥", 
   ]},
 
   {type:"mc", q:"Que signifie 'une indigestion de films'?",
-   opts:["Avoir regardé trop de films","Un film sur la nourriture","Un problème d'estomac au cinéma","Un genre de comédie"],
+   opts:["Un problème d'estomac au cinéma","Un genre de comédie","Avoir regardé trop de films","Un film sur la nourriture"],
    ans:"Avoir regardé trop de films",
    hint:"The figurative meaning: an excess or overdose of something"},
 
@@ -120,7 +120,7 @@ const LESSON_4 = {id:"frv2_b2g5_l4", title:"Santé et bien-être", icon:"🏥", 
    hint:"Extremely cruel acts recorded through the accounts of those who suffered"},
 
   {type:"mc", q:"Conduire sans ceinture de sécurité est:",
-   opts:["Imprudent","Infatigable","Indolore","Intestinal"],
+   opts:["Infatigable","Indolore","Intestinal","Imprudent"],
    ans:"Imprudent",
    hint:"Lacking caution, taking unnecessary risks with safety"}
 ]};

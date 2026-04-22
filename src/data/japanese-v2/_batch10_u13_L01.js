@@ -67,7 +67,7 @@ const BATCH10_L1 = {
       {trg:"ほっとする", src:"relieved"}
     ]},
 
-    {type:"mc", q:"What makes 悔(くや)しい different from just 'sad'?", opts:["It specifically describes frustration from defeat when you could have done better","It is a polite word for sadness","It means extremely sad","It describes physical pain"], ans:"It specifically describes frustration from defeat when you could have done better",
+    {type:"mc", q:"What makes 悔(くや)しい different from just 'sad'?", opts:["It describes physical pain","It specifically describes frustration from defeat when you could have done better","It is a polite word for sadness","It means extremely sad"], ans:"It specifically describes frustration from defeat when you could have done better",
      hint:"This emotion is considered positive because it drives self-improvement."},
     {type:"fb", s:"試合(しあい)に負(ま)けてしまって{1}です。次(つぎ)こそは頑張(がんば)ります。",
      a:["悔(くや)しい"],

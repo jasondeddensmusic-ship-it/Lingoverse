@@ -73,7 +73,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"訴訟(そしょう)",src:"lawsuit"},{trg:"和解(わかい)",src:"settlement"},{trg:"保証(ほしょう)",src:"guarantee"},{trg:"賃貸(ちんたい)",src:"rental/lease"}]},
 
-    {type:"mc", q:"賃貸(ちんたい)契約(けいやく) in Japan often requires:", opts:["敷金(しききん) and 礼金(れいきん) (deposit and key money)","Only a monthly rent payment","No contract at all","Government approval"], ans:"敷金(しききん) and 礼金(れいきん) (deposit and key money)",
+    {type:"mc", q:"賃貸(ちんたい)契約(けいやく) in Japan often requires:", opts:["No contract at all","Government approval","敷金(しききん) and 礼金(れいきん) (deposit and key money)","Only a monthly rent payment"], ans:"敷金(しききん) and 礼金(れいきん) (deposit and key money)",
      hint:"Japanese rental culture has unique upfront costs beyond the monthly rent."},
   ]
 };

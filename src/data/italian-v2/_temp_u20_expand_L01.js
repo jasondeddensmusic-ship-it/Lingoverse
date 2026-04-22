@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'fuori sede' mean for Italian students?",
-     opts:["A student who studies abroad","A student who dropped out of university","A student living away from their home city","A student studying part-time only"],
+     opts:["A student living away from their home city","A student studying part-time only","A student who studies abroad","A student who dropped out of university"],
      ans:"A student living away from their home city",
      hint:"Students from the South often move to Northern cities for university. Shared apartments are the standard housing arrangement."},
 
@@ -81,7 +81,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"What is the Italian university grading scale?",
-     opts:["1 to 10, with 6 as a pass","A through F, with C as a pass","0 to 100, with 60 as a pass","18 to 30, with 18 as a pass"],
+     opts:["0 to 100, with 60 as a pass","18 to 30, with 18 as a pass","1 to 10, with 6 as a pass","A through F, with C as a pass"],
      ans:"18 to 30, with 18 as a pass",
      hint:"A perfect score is 30 e lode (with honors). A 'media del 27' is considered good."},
 
@@ -92,7 +92,7 @@ const LESSON_4 = {
      sSrc:"I have to {1} the exam in September."},
 
     {type:"mc", q:"What does 'aula magna' mean?",
-     opts:["A small study room","The great hall (for ceremonies)","An outdoor lecture space","A digital classroom"],
+     opts:["A digital classroom","A small study room","The great hall (for ceremonies)","An outdoor lecture space"],
      ans:"The great hall (for ceremonies)",
      hint:"'Magna' means 'g....' Many Italian universities have historic grand halls where Galileo and other scholars once taught."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"Shall we eat at the {1} today?"},
 
     {type:"mc", q:"What is the original meaning of 'seminario'?",
-     opts:["A final exam hall","A sports facility","A seed bed (nursery for ideas)","A prayer room"],
+     opts:["A prayer room","A final exam hall","A sports facility","A seed bed (nursery for ideas)"],
      ans:"A seed bed (nursery for ideas)",
      hint:"From Latin 'seminarium.' A place where i... are planted and cultivated. Also means Catholic seminary in religious contexts."}
   ]

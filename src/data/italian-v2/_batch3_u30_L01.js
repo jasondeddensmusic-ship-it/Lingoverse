@@ -1,4 +1,4 @@
-// Batch 3 — Unit 30 Lesson (Advanced Subjunctive: Rare Triggers & Literary Uses)
+// Batch 3. Unit 30 Lesson (Advanced Subjunctive: Rare Triggers & Literary Uses)
 const BATCH3_L_1 = {
   id:"itv2_u30l_b3_1", title:"Costruzioni rare del congiuntivo", icon:"📜", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Quale parola richiede SEMPRE il congiuntivo?",
-     opts:["Quando","Perche","Chiunque","Mentre"],
+     opts:["Chiunque","Mentre","Quando","Perche"],
      ans:"Chiunque",
      hint:"This indefinite pronoun always triggers the subjunctive because it refers to an unknown, unidentified person."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche 'senza che' richiede il congiuntivo?",
-     opts:["Perche 'senza' e una parola negativa che richiede il congiuntivo","Perche l'azione nella subordinata non è avvenuta e resta ipotetica","Perche tutte le congiunzioni italiane richiedono il congiuntivo","Perche 'senza che' introduce una causa, non una conseguenza"],
+     opts:["Perche 'senza che' introduce una causa, non una conseguenza","Perche 'senza' e una parola negativa che richiede il congiuntivo","Perche l'azione nella subordinata non è avvenuta e resta ipotetica","Perche tutte le congiunzioni italiane richiedono il congiuntivo"],
      ans:"Perche l'azione nella subordinata non è avvenuta e resta ipotetica",
      hint:"The action described did not take place. This n...-occurrence creates the uncertainty that the subjunctive mood is designed to express."}
   ,{type:"match",pairs:[{trg:"comunque",src:"however / in any case"},{trg:"per quanto",src:"however much / no matter how"},{trg:"supposto che",src:"supposing that"},{trg:"nel caso che",src:"in case / in the event that"},{trg:"malgrado",src:"despite / in spite of"},{trg:"per quanto ne sappia",src:"as far as I know"}]}]

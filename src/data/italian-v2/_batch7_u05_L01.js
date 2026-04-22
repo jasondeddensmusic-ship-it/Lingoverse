@@ -1,4 +1,4 @@
-// Batch 7 — Unit 05 extra lesson. A casa: Tools & DIY
+// Batch 7. Unit 05 extra lesson. A casa: Tools & DIY
 const BATCH7_L1 = {id:"itv2_u05l_b7_1", title:"Attrezzi e fai-da-te", icon:"\u{1F527}", xp:15, board:true, steps:[
 {type:"intro", title:"Attrezzi e fai-da-te",
  desc:"Learn vocabulary for common tools, DIY projects, and basic home repairs.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u05l_b7_1", title:"Attrezzi e fai-da-te", icon:"\u{1
 ]},
 
 {type:"mc", q:"Che cosa significa 'aggiustare'?",
- opts:["to fix / to repair","to break","to measure","to assemble"],
+ opts:["to assemble","to fix / to repair","to break","to measure"],
  ans:"to fix / to repair",
  hint:"To make something work again. Comes from 'giusto' (right/correct)."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u05l_b7_1", title:"Attrezzi e fai-da-te", icon:"\u{1
  sSrc:"I need to {1} the wall before buying the bookshelf."},
 
 {type:"mc", q:"Quando NON si può usare il trapano in un palazzo italiano?",
- opts:["Durante l'ora di pranzo e dopo le 9 di sera","Solo la domenica","Mai, e sempre permesso","Solo il lunedì"],
+ opts:["Mai, e sempre permesso","Solo il lunedì","Durante l'ora di pranzo e dopo le 9 di sera","Solo la domenica"],
  ans:"Durante l'ora di pranzo e dopo le 9 di sera",
  hint:"Quiet hours in Italian apartments protect lunch and evening rest."},
 

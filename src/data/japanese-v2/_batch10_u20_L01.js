@@ -55,7 +55,7 @@ const BATCH10_L1 = {
       {trg:"なさる", src:"to do (hon.)"},
       {trg:"下(くだ)さる", src:"to give (hon.)"}
     ]},
-    {type:"mc", q:"What does お目(め)にかかる literally mean?", opts:["To hang upon your eyes","To see your face","To bow at your feet","To hear your voice"], ans:"To hang upon your eyes",
+    {type:"mc", q:"What does お目(め)にかかる literally mean?", opts:["To hear your voice","To hang upon your eyes","To see your face","To bow at your feet"], ans:"To hang upon your eyes",
      hint:"This humble verb for 'to meet' puts the speaker in the listener's field of vision."}
   ,{type:"fb", s:"こちらの資料(しりょう)を{1}ください。",
     a:["ご覧(らん)になる"],

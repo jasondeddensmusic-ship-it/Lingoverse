@@ -1,4 +1,4 @@
-// Batch 6 — Unit 09 extra lesson. Il corpo e la salute: At the Pharmacy & Doctor
+// Batch 6. Unit 09 extra lesson. Il corpo e la salute: At the Pharmacy & Doctor
 const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:"\u{1F48A}", xp:15, board:true, steps:[
 {type:"intro", title:"In farmacia e dal dottore",
  desc:"Learn essential vocabulary for visiting the pharmacy and doctor in Italy, describing symptoms, and understanding prescriptions.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:
 ]},
 
 {type:"mc", q:"Chi e il 'medico di base'?",
- opts:["Your assigned family doctor","A hospital surgeon","A pharmacist","An emergency doctor"],
+ opts:["An emergency doctor","Your assigned family doctor","A hospital surgeon","A pharmacist"],
  ans:"Your assigned family doctor",
  hint:"The general practitioner every Italian resident is a... for free."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u09l_b6_1", title:"In farmacia e dal dottore", icon:
  sSrc:"How long does it take to {1} from the flu?"},
 
 {type:"mc", q:"Quali sono i sintomi tipici del raffreddore?",
- opts:["Tosse, naso chiuso e stanchezza","Allergia e puntura","Ferita e cerotto","Visita medica e ricetta"],
+ opts:["Ferita e cerotto","Visita medica e ricetta","Tosse, naso chiuso e stanchezza","Allergia e puntura"],
  ans:"Tosse, naso chiuso e stanchezza",
  hint:"Common cold symptoms: cough, stuffy nose, and tiredness."},
 

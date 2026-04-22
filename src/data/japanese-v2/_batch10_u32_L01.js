@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"ストレス",src:"stress"},{trg:"うつ病(びょう)",src:"depression"},{trg:"不安症(ふあんしょう)",src:"anxiety disorder"},{trg:"カウンセリング",src:"counseling"}]},
 
-    {type:"mc", q:"Which word means welfare?", opts:["福祉(ふくし)","セルフケア","うつ病(びょう)","マインドフルネス"], ans:"福祉(ふくし)",
+    {type:"mc", q:"Which word means welfare?", opts:["マインドフルネス","福祉(ふくし)","セルフケア","うつ病(びょう)"], ans:"福祉(ふくし)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"心理士(しんりし)",src:"psychologist"}]}]
 };

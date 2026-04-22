@@ -81,7 +81,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Wat betekent 'hoogachten'?",
-     opts:["Iemand zeer respecteren en waarderen","Iets hoog optillen","Van grote hoogte naar beneden kijken","Heel hard nadenken"],
+     opts:["Heel hard nadenken","Iemand zeer respecteren en waarderen","Iets hoog optillen","Van grote hoogte naar beneden kijken"],
      ans:"Iemand zeer respecteren en waarderen",
      hint:"Compound of 'hoog' (high) and 'achten' (to esteem). A very formal way to express respect."},
 
@@ -101,7 +101,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Wie is de 'hoofdact' op een festival?",
-     opts:["De belangrijkste artiest die optreedt","De eerste band die speelt","De geluidsinstallatietechnicus","De festivaldirecteur"],
+     opts:["De geluidsinstallatietechnicus","De festivaldirecteur","De belangrijkste artiest die optreedt","De eerste band die speelt"],
      ans:"De belangrijkste artiest die optreedt",
      hint:"'Hoofd' means main and 'act' means performance. The star attraction of the event."}
   ]

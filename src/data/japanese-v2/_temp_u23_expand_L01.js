@@ -24,7 +24,7 @@ const LESSON_3 = {
      exampleSrc:"A: I realized I had lost my wallet on the train.\nB: That is terrible. Did you go to the police?\nA: Do you want to go again?\nB: Yes, I definitely want to go.",
      funFact:"気づく uses 気 (spirit/awareness) and 付く (attach). The moment of realization is like awareness 'attaching' to you. With の, it marks what you noticed: さいふをなくしたのに気づいた (noticed the loss). きづく is one of the most useful B1 verbs, bridging the gap between not knowing and becoming aware."},
 
-    {type:"mc", q:"こどもがあそんでいるのをみた uses の because:", opts:["It is a set expression","の is always used before みる","You are directly witnessing a sensory event","の is more casual than こと"], ans:"You are directly witnessing a sensory event",
+    {type:"mc", q:"こどもがあそんでいるのをみた uses の because:", opts:["You are directly witnessing a sensory event","の is more casual than こと","It is a set expression","の is always used before みる"], ans:"You are directly witnessing a sensory event",
      hint:"Perception verbs require the concrete nominalizer because the e... is real and observed."},
 
     {type:"teach", trg:"〜ことがだいじ", src:"it is important to ~", pos:"part", gender:null,
@@ -66,7 +66,7 @@ const LESSON_3 = {
      exampleSrc:"A: Have you gotten used to Japanese food?\nB: Yes, I am used to it now. I can use chopsticks well too.\nA: What was the best part?\nB: The food was the most delicious.",
      funFact:"慣れる uses 慣 (accustom), which contains 心 (heart) and 貫 (pierce through). Getting accustomed means your heart becomes pierced by repetition until it feels natural. なれる is essential for life in Japan: foreigners are constantly asked なれましたか (have you gotten used to it?) about food, trains, work culture, and seasons."},
 
-    {type:"mc", q:"Which pattern REQUIRES の (not こと)?", opts:["のがすき","のがへた","のをみる","のがにがて"], ans:"のをみる",
+    {type:"mc", q:"Which pattern REQUIRES の (not こと)?", opts:["のがへた","のをみる","のがにがて","のがすき"], ans:"のをみる",
      hint:"Perception verbs (seeing, hearing, noticing) always need the concrete nominalizer."},
 
     {type:"match", pairs:[{trg:"のをみる",src:"to see someone doing"},{trg:"のをきく",src:"to hear someone doing"},{trg:"のにきづく",src:"to notice/realize"},{trg:"ことがだいじ",src:"it is important to"}]},
@@ -76,7 +76,7 @@ const LESSON_3 = {
     {type:"fb", s:"まいにちれんしゅうする{1}がだいじです。\n(It is important to practice every day.)", a:"こと", opts:["こと","の","もの","ところ"], sSrc:"It is important to practice every day.",
      hint:"The abstract nominalizer used when stating a general truth or principle."},
 
-    {type:"mc", q:"にがて differs from へた because:", opts:["にがて is more formal","にがて means you find it uncomfortable, へた means you lack skill","They mean exactly the same thing","にがて is only for sports"], ans:"にがて means you find it uncomfortable, へた means you lack skill",
+    {type:"mc", q:"にがて differs from へた because:", opts:["にがて is only for sports","にがて is more formal","にがて means you find it uncomfortable, へた means you lack skill","They mean exactly the same thing"], ans:"にがて means you find it uncomfortable, へた means you lack skill",
      hint:"One is about discomfort with a task, the other is about ability level."},
 
     {type:"match", pairs:[{trg:"なれる",src:"to get used to"},{trg:"きづく",src:"to notice"},{trg:"にがて",src:"weak point"},{trg:"たのしみ",src:"anticipation"}]},

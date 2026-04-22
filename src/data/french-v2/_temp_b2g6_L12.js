@@ -80,7 +80,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Que signifie 'à sa guise' ?",
-     opts:["Comme il veut","Avec prudence","Sans réfléchir","Sous la contrainte"],
+     opts:["Sous la contrainte","Comme il veut","Avec prudence","Sans réfléchir"],
      ans:"Comme il veut",
      hint:"An expression using 'guise' (way/fashion). It means doing things your own way."},
 
@@ -131,7 +131,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"D'où vient le mot 'jérémiade' ?",
-     opts:["Du prophète Jérémie","Du prénom Jérémy","D'un mot latin pour pleurer","D'un philosophe grec"],
+     opts:["D'un mot latin pour pleurer","D'un philosophe grec","Du prophète Jérémie","Du prénom Jérémy"],
      ans:"Du prophète Jérémie",
      hint:"A biblical figure known for his sorrowful laments gave this word its meaning."},
 

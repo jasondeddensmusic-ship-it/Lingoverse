@@ -1,4 +1,4 @@
-// Lesson 2 — La oficina moderna (The Modern Office)
+// Lesson 2. La oficina moderna (The Modern Office)
 const LESSON_2 = {id:"esv2_b2g9_l2", title:"La oficina moderna", icon:"\u{1F3E2}", xp:25, board:true, steps:[
   {type:"intro", title:"La oficina moderna",
    desc:"Navigate the modern workplace with vocabulary for departments, roles, and daily office life. Essential for any professional environment.",
@@ -69,7 +69,7 @@ const LESSON_2 = {id:"esv2_b2g9_l2", title:"La oficina moderna", icon:"\u{1F3E2}
    funFact:"Agile methodology, known as 'metodolog\u00eda \u00e1gil' in Spanish, has become the standard in Spanish tech companies."},
 
   {type:"mc", q:"\u00bfQu\u00e9 significa 'dar de alta'?",
-   opts:["Despedir a un empleado","Registrar oficialmente a alguien","Dar un ascenso","Firmar un contrato"],
+   opts:["Registrar oficialmente a alguien","Dar un ascenso","Firmar un contrato","Despedir a un empleado"],
    ans:"Registrar oficialmente a alguien",
    hint:"This expression is used when someone is officially signed up for a system or service."},
 

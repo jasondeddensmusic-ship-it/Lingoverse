@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 15: Vie Professionnelle
+// French B2 Gap Batch 9. Lesson 15: Vie Professionnelle
 // Professional life vocabulary
 
 const LESSON_15 = {id:"frv2_b2g9_l15", title:"Vie Professionnelle", icon:"👔", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_15 = {id:"frv2_b2g9_l15", title:"Vie Professionnelle", icon:"👔",
    exampleSrc:"A: We have a math test tomorrow.\nB: I haven't studied yet!",
    funFact:"Interro is clipped from interrogation. French students clip many words: prof, bac, fac, resto."},
 
-  {type:"mc", q:"La différence entre confrère et collègue est:", opts:["Aucune différence","Confrère implique la même profession, collègue le même lieu","Collègue est plus formel","Confrère est péjoratif"], ans:"Confrère implique la même profession, collègue le même lieu",
+  {type:"mc", q:"La différence entre confrère et collègue est:", opts:["Confrère implique la même profession, collègue le même lieu","Collègue est plus formel","Confrère est péjoratif","Aucune différence"], ans:"Confrère implique la même profession, collègue le même lieu",
    hint:"A c... shares your p.... A colleague shares your workplace."},
 
   {type:"teach", trg:"la micro-entreprise", src:"micro-enterprise", pos:"noun", gender:"f",
@@ -111,7 +111,7 @@ const LESSON_15 = {id:"frv2_b2g9_l15", title:"Vie Professionnelle", icon:"👔",
     {trg:"le PDG", src:"CEO"}
   ]},
 
-  {type:"mc", q:"Le statut de micro-entreprise en France est:", opts:["Réservé aux grandes entreprises","Un statut simplifié pour les indépendants","Obligatoire pour tous les commerces","Un statut pour les fonctionnaires"], ans:"Un statut simplifié pour les indépendants",
+  {type:"mc", q:"Le statut de micro-entreprise en France est:", opts:["Un statut pour les fonctionnaires","Réservé aux grandes entreprises","Un statut simplifié pour les indépendants","Obligatoire pour tous les commerces"], ans:"Un statut simplifié pour les indépendants",
    hint:"Micro means small. A simplified status for one-person businesses."},
 
   {type:"fb", s:"Ma {1} rembourse 80% des frais dentaires.", a:["mutualiste"], opts:["mutualiste","micro-entreprise","administratrice","consommatrice"],

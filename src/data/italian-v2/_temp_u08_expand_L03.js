@@ -87,7 +87,7 @@ const LESSON_6 = {id:"itv2_u8l6", title:"Taglie e misure", icon:"\uD83D\uDCCF", 
   ]},
 
   {type:"mc", q:"Which Italian city is the historic center of silk production?",
-   opts:["Como","Milan","Rome","Florence"],
+   opts:["Florence","Como","Milan","Rome"],
    ans:"Como",
    hint:"This lakeside city in northern Italy has produced over 80% of Europe's silk since the 15th century."},
 
@@ -98,7 +98,7 @@ const LESSON_6 = {id:"itv2_u8l6", title:"Taglie e misure", icon:"\uD83D\uDCCF", 
    sSrc:"Is this tie {1}?"},
 
   {type:"mc", q:"What does 'aderente' mean for clothing?",
-   opts:["Tight-fitting / form-fitting","Loose","Oversized","Casual"],
+   opts:["Oversized","Casual","Tight-fitting / form-fitting","Loose"],
    ans:"Tight-fitting / form-fitting",
    hint:"From 'aderire' (to cling). The fabric follows the shape of your body closely."},
 
@@ -109,7 +109,7 @@ const LESSON_6 = {id:"itv2_u8l6", title:"Taglie e misure", icon:"\uD83D\uDCCF", 
    sSrc:"What {1} do you wear? Forty-two?"},
 
   {type:"mc", q:"What does 'taglia unica' mean?",
-   opts:["One size fits all","Unique design","Small size","Custom made"],
+   opts:["Unique design","Small size","Custom made","One size fits all"],
    ans:"One size fits all",
    hint:"'Unica' means single/unique. The item comes in only one s... designed for most people."},
 

@@ -1,4 +1,4 @@
-// Lesson 15 — Bienestar y modo de vida
+// Lesson 15. Bienestar y modo de vida
 const LESSON_15 = {id:"esv2_b2gA_l15", title:"Bienestar y modo de vida", icon:"🧘", xp:15, board:true, steps:[
 {type:"intro", title:"Bienestar y modo de vida", desc:"Discuss wellness, lifestyle choices, and personal care with nuanced B2 vocabulary.", goals:["Learn 15 wellness and lifestyle words","Discuss health and well-being topics","Express lifestyle preferences precisely"]},
 
@@ -57,7 +57,7 @@ const LESSON_15 = {id:"esv2_b2gA_l15", title:"Bienestar y modo de vida", icon:"�
  exampleSrc:"A: In villages you can still see donkeys in the countryside.\nB: They are very tough and hardworking animals.",
  funFact:"'Burro' as insult means stubborn or dim. But 'trabajar como un burro' is a compliment."},
 
-{type:"mc", q:"¿Qué es una 'cola de caballo' como peinado?", opts:["Pelo recogido y sujeto en la parte trasera de la cabeza","Una trenza lateral","Un recogido alto con horquillas","El pelo suelto sobre los hombros"], ans:"Pelo recogido y sujeto en la parte trasera de la cabeza",
+{type:"mc", q:"¿Qué es una 'cola de caballo' como peinado?", opts:["El pelo suelto sobre los hombros","Pelo recogido y sujeto en la parte trasera de la cabeza","Una trenza lateral","Un recogido alto con horquillas"], ans:"Pelo recogido y sujeto en la parte trasera de la cabeza",
  hint:"Picture a horse's tail hanging from the back of the head."},
 
 {type:"fb", s:"El {1} es un animal muy resistente y trabajador.", a:["burro"], opts:["burro","adulto","bolillo","mostacho"],
@@ -94,7 +94,7 @@ const LESSON_15 = {id:"esv2_b2gA_l15", title:"Bienestar y modo de vida", icon:"�
  hint:"These are individual grey or white hairs that appear with age.",
  sSrc:"I've already got many {1} at my temples."},
 
-{type:"mc", q:"¿Qué significa 'echar una cana al aire'?", opts:["Darse un capricho o aventura ocasional","Teñirse el pelo","Salir al aire libre","Peinarse de forma diferente"], ans:"Darse un capricho o aventura ocasional",
+{type:"mc", q:"¿Qué significa 'echar una cana al aire'?", opts:["Salir al aire libre","Peinarse de forma diferente","Darse un capricho o aventura ocasional","Teñirse el pelo"], ans:"Darse un capricho o aventura ocasional",
  hint:"The phrase uses a grey hair as a metaphor for a brief escape from routine."},
 
 {type:"drag_fill", s:"Se recogió el pelo en una {1} y se puso la gorra de {2}.", blanks:{"1":"cola de caballo","2":"deporte"}, pool:["cola de caballo","deporte","montera","calza"],

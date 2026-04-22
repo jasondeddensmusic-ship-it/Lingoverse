@@ -40,7 +40,7 @@ const LESSON_39 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"한국에서 비의 양을 재는 단위는?",
-     opts:["센티미터","그램","밀리미터","킬로그램"],
+     opts:["밀리미터","킬로그램","센티미터","그램"],
      ans:"밀리미터",
      hint:"Rainfall is measured in a very small unit of length, not weight. Think about the metric unit that is 1/1000 of a meter."},
 
@@ -183,7 +183,7 @@ const LESSON_39 = {
 
     {type:"mc",
      q:"'별일 없으시죠?'는 어떤 상황에서 쓰나요?",
-     opts:["우주에 대해 이야기할 때","안부를 물을 때","별자리를 볼 때","문제가 있을 때"],
+     opts:["문제가 있을 때","우주에 대해 이야기할 때","안부를 물을 때","별자리를 볼 때"],
      ans:"안부를 물을 때",
      hint:"In this greeting, 별 means 'particular/special' (not 'star'). It is a way of casually checking in on someone."},
 

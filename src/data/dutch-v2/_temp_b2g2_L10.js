@@ -1,4 +1,4 @@
-// L10: Policy & Governance — 20 B2 gap words
+// L10: Policy & Governance, 20 B2 gap words
 const LESSON_10 = {
   id:"nlv2_b2g2_l10", title:"Beleid en Bestuur", icon:"\uD83C\uDFDB\uFE0F", xp:15, board:true,
   steps:[
@@ -115,7 +115,7 @@ const LESSON_10 = {
      sSrc:"I {1} some hesitation from the committee about this proposal."},
     {type:"mc",
      q:"Wat is het verschil tussen 'beklemtonen' en 'benadrukken'?",
-     opts:["Beklemtonen is Belgisch, benadrukken is Nederlands","Beklemtonen is formeler","Benadrukken is alleen voor muziek","Er is geen verschil in betekenis, alleen in regio"],
+     opts:["Er is geen verschil in betekenis, alleen in regio","Beklemtonen is Belgisch, benadrukken is Nederlands","Beklemtonen is formeler","Benadrukken is alleen voor muziek"],
      ans:"Er is geen verschil in betekenis, alleen in regio",
      hint:"Both words mean exactly the same thing. The difference is which country prefers which word."},
     {type:"fb",
@@ -126,7 +126,7 @@ const LESSON_10 = {
      sSrc:"The case has been taken {1} by the judge."},
     {type:"mc",
      q:"Welk werkwoord wordt ALTIJD in negatieve context gebruikt?",
-     opts:["Berokkenen","Beogen","Belichten","Beklemtonen"],
+     opts:["Beklemtonen","Berokkenen","Beogen","Belichten"],
      ans:"Berokkenen",
      hint:"You can only use this verb with negative things like damage, harm, or suffering. Never with positive outcomes."},
     {type:"match", pairs:[

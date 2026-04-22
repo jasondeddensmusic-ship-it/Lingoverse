@@ -13,7 +13,7 @@ const LESSON_12 = {id:"esv2_b2g7_l12",title:"Verbos de acción y consecuencia",i
 {type:"teach",trg:"dar de alta",src:"to register / to discharge",pos:"verb",gender:null,note:"Recycled from Lesson 2. To officially sign someone in (or out of hospital).",example:"A: El médico le dio de alta esta mañana.\nB: La empresa debe darte de alta antes de empezar a trabajar.",exampleSrc:"A: The doctor discharged him this morning.\nB: The company must register you before you start working.",funFact:"'Darse de alta' as reflexive means to sign yourself up. 'Darse de baja' is to unsubscribe or take sick leave."},
 {type:"mc",q:"Los sindicatos 'instan' al gobierno a negociar. Esto significa que:",opts:["Presionan al gobierno para que negocie","Ayudan al gobierno con la economía","Apoyan las decisiones del gobierno","Ignoran al gobierno"],ans:"Presionan al gobierno para que negocie",hint:"To 'instar' means to urgently press or urge someone to do something."},
 {type:"fb",s:"Todos los días hay que {1} con problemas inesperados en el trabajo.",a:["lidiar"],opts:["lidiar","labrar","legislar","lamentar"],hint:"This verb means to deal with or struggle against difficulties.",sSrc:"Every day you have to {1} with unexpected problems at work."},
-{type:"mc",q:"'Se labró un futuro brillante' significa que:",opts:["Construyó su futuro con esfuerzo","Encontró un tesoro","Tuvo mucha suerte","Alguien le ayudó siempre"],ans:"Construyó su futuro con esfuerzo",hint:"'Labrar' originally means to work the land. Metaphorically, it means to build through hard work."},
+{type:"mc",q:"'Se labró un futuro brillante' significa que:",opts:["Alguien le ayudó siempre","Construyó su futuro con esfuerzo","Encontró un tesoro","Tuvo mucha suerte"],ans:"Construyó su futuro con esfuerzo",hint:"'Labrar' originally means to work the land. Metaphorically, it means to build through hard work."},
 {type:"fb",s:"El juez {1} al testigo a declarar toda la verdad.",a:["instó"],opts:["instó","labró","lamentó","infiltró"],hint:"This formal verb means to urge or press someone strongly.",sSrc:"The judge {1} the witness to declare the whole truth."},
 {type:"match",pairs:[
   {trg:"instar",src:"to urge / to press"},
@@ -22,7 +22,7 @@ const LESSON_12 = {id:"esv2_b2g7_l12",title:"Verbos de acción y consecuencia",i
   {trg:"incumplir",src:"to breach"},
   {trg:"dar de alta",src:"to register / to discharge"}
 ]},
-{type:"mc",q:"¿Cuál de estos verbos es el más formal para expresar arrepentimiento?",opts:["Lamentar","Sentir","Decir","Pensar"],ans:"Lamentar",hint:"This verb is used in official correspondence and formal apologies."},
+{type:"mc",q:"¿Cuál de estos verbos es el más formal para expresar arrepentimiento?",opts:["Decir","Pensar","Lamentar","Sentir"],ans:"Lamentar",hint:"This verb is used in official correspondence and formal apologies."},
 {type:"fb",s:"Los agricultores {1} la tierra cada primavera para preparar la siembra.",a:["labran"],opts:["labran","lamentan","legislan","infiltran"],hint:"This verb means to plow or work the land.",sSrc:"The farmers {1} the land every spring to prepare for sowing."}
 ]};
 export default LESSON_12;

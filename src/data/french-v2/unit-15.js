@@ -1,4 +1,4 @@
-// Unit 15 — Comparatifs et superlatifs
+// Unit 15. Comparatifs et superlatifs
 // Comparing & Ranking
 
 import COVERAGE_U15 from './_coverage_u15.js';
@@ -249,11 +249,11 @@ export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et sup
      exampleSrc:"A: I admit that this question is difficult.\nB: Yes, one must be honest.",
      funFact:"Passer aux aveux means to make a full confession. De l'aveu de tous means 'by everyone's admission,' a useful formal phrase."},
     {type:"tip",title:"Verbes de débat: register and pairing",text:"These seven verbs form the backbone of B1/B2 argumentation:\n\n. proposer: opens the debate (I suggest...)\n. refuser: closes an option (I reject...)\n. conseiller: guides the listener (I advise...)\n. critiquer: challenges a view (I criticize...)\n. défendre: supports a view (I defend...)\n. illustrer: adds evidence (to illustrate...)\n. avouer: concedes a point (I admit...)\n\nIn formal writing, pair them: 'Je défends cette idée, mais j'avoue que les critiques ont du mérite.'"},
-    {type:"mc",q:"Which verb means 'to argue in favour of an idea'?",opts:["critiquer","refuser","défendre","conseiller"],ans:"défendre",hint:"This verb covers both physical protection and intellectual support for a position."},
+    {type:"mc",q:"Which verb means 'to argue in favour of an idea'?",opts:["défendre","conseiller","critiquer","refuser"],ans:"défendre",hint:"This verb covers both physical protection and intellectual support for a position."},
     {type:"mc",q:"'Je te ___ de préparer tes arguments à l'avance.' (advise)",opts:["propose","conseille","critique","défends"],ans:"conseille",hint:"This verb means to give advice. Its noun form names an elected local official."},
     {type:"fb",opts:["proposer","refuser","illustrer","critiquer"],hint:"He used a specific case to show the point. Which verb = to give a concrete example?",s:"Il a voulu {1} son argument avec un exemple.",a:["illustrer"]},
     {type:"fb",opts:["critiquer","avouer","défendre","proposer"],hint:"I admit that the problem is complex. Which verb = to concede/admit a difficult truth?",s:"J'{1} que le problème est complexe.",a:["avoue"]},
-    {type:"mc",q:"To say 'I suggest that we start again', use:",opts:["Je refuse qu'on recommence","Je propose qu'on recommence","J'avoue qu'on recommence","Je critique qu'on recommence"],ans:"Je propose qu'on recommence",hint:"This verb puts forward a new idea or plan."},
+    {type:"mc",q:"To say 'I suggest that we start again', use:",opts:["Je critique qu'on recommence","Je refuse qu'on recommence","Je propose qu'on recommence","J'avoue qu'on recommence"],ans:"Je propose qu'on recommence",hint:"This verb puts forward a new idea or plan."},
     {type:"fb",opts:["refuser","critiquer","avouer","illustrer"],hint:"She strongly rejects the proposal. Which verb = to say no / to decline?",s:"Elle a décidé de {1} la proposition.",a:["refuser"]},
     {type:"match",pairs:[{trg:"proposer",src:"to suggest / propose"},{trg:"défendre",src:"to defend / argue for"},{trg:"illustrer",src:"to illustrate / exemplify"},{trg:"avouer",src:"to admit / confess"},{trg:"critiquer",src:"to criticize"}]}
   ]}

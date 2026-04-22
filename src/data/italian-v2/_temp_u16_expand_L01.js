@@ -62,7 +62,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"What is 'l'impegnativa' in Italian healthcare?",
-     opts:["The hospital admission form","A medical referral from your GP to a specialist","The medical insurance card","A prescription for medication"],
+     opts:["A medical referral from your GP to a specialist","The medical insurance card","A prescription for medication","The hospital admission form"],
      ans:"A medical referral from your GP to a specialist",
      hint:"Your 'medico di base' writes this document so you can book a s... appointment at the public rate."},
 
@@ -92,7 +92,7 @@ const LESSON_4 = {
      sSrc:"The visit costs only the {1}, about thirty-six euros."},
 
     {type:"mc", q:"Why is dental care mostly private in Italy?",
-     opts:["Dentists are not recognized as medical professionals","The public system only covers basic extractions and emergencies","Dental schools do not exist in Italy","Italian law prohibits public dental clinics"],
+     opts:["Italian law prohibits public dental clinics","Dentists are not recognized as medical professionals","The public system only covers basic extractions and emergencies","Dental schools do not exist in Italy"],
      ans:"The public system only covers basic extractions and emergencies",
      hint:"Routine cleanings and most dental work must be paid for privately, costing 80-150 euros or more."},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"I booked a medical {1} for Monday."},
 
     {type:"mc", q:"What happens if you see a specialist without an 'impegnativa'?",
-     opts:["The appointment is cancelled immediately","You receive the same public healthcare rate","You must pay the full private price","The specialist reports you to the authorities"],
+     opts:["The specialist reports you to the authorities","The appointment is cancelled immediately","You receive the same public healthcare rate","You must pay the full private price"],
      ans:"You must pay the full private price",
      hint:"The referral unlocks the reduced public rate. Without it, you go 'privatamente' and p... much more."}
   ]

@@ -86,7 +86,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'depuis tres longtemps' de facon familiere ?",
-     opts:["depuis belle lurette","du premier coup","dans son ensemble","assur\u00e9ment"],
+     opts:["assur\u00e9ment","depuis belle lurette","du premier coup","dans son ensemble"],
      ans:"depuis belle lurette",
      hint:"'L...' comes from 'heurette' (little hour). Used ironically for very long periods."},
 

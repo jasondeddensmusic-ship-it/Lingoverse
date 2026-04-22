@@ -32,13 +32,13 @@ const LESSON_6 = {id:"esv2_b2g3_l6", title:"Emociones y carácter", icon:"💫",
 
   {type:"teach", trg:"desolador", src:"devastating / desolate", pos:"adj", gender:null, note:"Describes something that causes extreme sadness or emptiness.\nUn paisaje desolador = a desolate landscape.", example:"A: Las noticias del terremoto son desoladoras.\nB: Es terrible, hay miles de personas sin hogar.", exampleSrc:"A: The earthquake news is devastating.\nB: It's terrible, thousands of people are homeless.", funFact:"From Latin desolare (to leave alone). The word carries a sense of profound emptiness, not just sadness."},
 
-  {type:"mc", q:"'Tener debilidad por el chocolate' significa...", opts:["Que te encanta el chocolate","Que el chocolate te hace daño","Que eres alérgico al chocolate","Que no te gusta el chocolate"], ans:"Que te encanta el chocolate", hint:"Having a 'weakness' for something means you love it and find it hard to resist."},
+  {type:"mc", q:"'Tener debilidad por el chocolate' significa...", opts:["Que no te gusta el chocolate","Que te encanta el chocolate","Que el chocolate te hace daño","Que eres alérgico al chocolate"], ans:"Que te encanta el chocolate", hint:"Having a 'weakness' for something means you love it and find it hard to resist."},
 
   {type:"match", pairs:[{trg:"audacia", src:"boldness"},{trg:"desasosiego", src:"restlessness"},{trg:"dicha", src:"bliss"},{trg:"egoísmo", src:"selfishness"},{trg:"delicadeza", src:"gentleness"}]},
 
   {type:"fb", s:"La {1} que siente por su familia es evidente en todo lo que hace.", a:["devoción"], opts:["devoción","confusión","dureza","desnudez"], hint:"A deep sense of commitment and loving dedication toward family.", sSrc:"The {1} she feels for her family is evident in everything she does."},
 
-  {type:"mc", q:"¿Cuál es un sinónimo literario de 'felicidad'?", opts:["La dicha","La dureza","El agrado","El egoísmo"], ans:"La dicha", hint:"This poetic word for happiness has roots in Latin fate and destiny."},
+  {type:"mc", q:"¿Cuál es un sinónimo literario de 'felicidad'?", opts:["El agrado","El egoísmo","La dicha","La dureza"], ans:"La dicha", hint:"This poetic word for happiness has roots in Latin fate and destiny."},
 
   {type:"fb", s:"El panorama después del incendio era completamente {1}.", a:["desolador"], opts:["desolador","delicado","audaz","dichoso"], hint:"Describes a scene of profound emptiness and devastation after a disaster.", sSrc:"The panorama after the fire was completely {1}."}
 ]};

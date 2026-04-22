@@ -1,4 +1,4 @@
-// L07: Clothing and Appearance — 20 A1 gap words
+// L07: Clothing and Appearance, 20 A1 gap words
 const LESSON_7 = {
   id:"nlv2_a1gap_l7", title:"Kleding en Uiterlijk", icon:"\u{1F45A}", xp:15, board:true,
   steps:[
@@ -111,7 +111,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Welk woord betekent 'rug/carpet' en NIET 'kleding'?",
-     opts:["kleed","jas","broek","bloes"],
+     opts:["bloes","kleed","jas","broek"],
      ans:"kleed",
      hint:"Careful with this false friend. It looks like 'clothing' but means something for the floor."},
 

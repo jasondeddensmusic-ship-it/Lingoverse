@@ -1,4 +1,4 @@
-// Batch 7 — Unit 35 extra lesson. L'innovazione: Digital Transformation & Smart Cities
+// Batch 7. Unit 35 extra lesson. L'innovazione: Digital Transformation & Smart Cities
 const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon:"\u{1F4BB}", xp:15, board:true, steps:[
 {type:"intro", title:"La trasformazione digitale",
  desc:"Learn vocabulary for digital transformation, smart city concepts, and Italy's tech innovation landscape.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
 ]},
 
 {type:"mc", q:"Che cos'e il PNRR italiano?",
- opts:["A national recovery and resilience plan","A cybersecurity agency","A digital platform","A smart city project"],
+ opts:["A smart city project","A national recovery and resilience plan","A cybersecurity agency","A digital platform"],
  ans:"A national recovery and resilience plan",
  hint:"Italy's p... allocating billions to modernization, including digital transformation."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u35l_b7_1", title:"La trasformazione digitale", icon
  sSrc:"Digital {1} is changing every sector."},
 
 {type:"mc", q:"Per cosa viene usata la blockchain nel 'Made in Italy'?",
- opts:["Per la tracciabilita dei prodotti","Per il pagamento online","Per la cybersicurezza","Per l'intelligenza artificiale"],
+ opts:["Per la cybersicurezza","Per l'intelligenza artificiale","Per la tracciabilita dei prodotti","Per il pagamento online"],
  ans:"Per la tracciabilita dei prodotti",
  hint:"Tracking products from origin to consumer to fight counterfeiting."},
 

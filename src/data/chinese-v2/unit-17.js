@@ -69,7 +69,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Which sentence correctly uses 把?",
- opts:["我(wǒ)把(bǎ)窗户(chuānghu)打开(dǎkāi)了(le)。","我(wǒ)打开(dǎkāi)把(bǎ)窗户(chuānghu)了(le)。","把(bǎ)我(wǒ)窗户(chuānghu)打开(dǎkāi)了(le)。","我(wǒ)窗户(chuānghu)打开(dǎkāi)把(bǎ)了(le)。"],
+ opts:["我(wǒ)窗户(chuānghu)打开(dǎkāi)把(bǎ)了(le)。","我(wǒ)把(bǎ)窗户(chuānghu)打开(dǎkāi)了(le)。","我(wǒ)打开(dǎkāi)把(bǎ)窗户(chuānghu)了(le)。","把(bǎ)我(wǒ)窗户(chuānghu)打开(dǎkāi)了(le)。"],
  ans:"我(wǒ)把(bǎ)窗户(chuānghu)打开(dǎkāi)了(le)。",
  hint:"The correct order is: Subject + 把 + Object + Verb + Result."},
 
@@ -80,7 +80,7 @@ lessons:[
  sSrc:"Please take that book and give it to me."},
 
 {type:"mc", q:"我(wǒ)把(bǎ)灯(dēng)___了(le)。 (I turned off the light.)",
- opts:["关(guān)","打开(dǎkāi)","放(fàng)","拿(ná)"],
+ opts:["放(fàng)","拿(ná)","关(guān)","打开(dǎkāi)"],
  ans:"关(guān)",
  hint:"Which verb means 'to close' or 'to turn off' and is the opposite of 打开?"}
 ]},
@@ -146,7 +146,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)想(xiǎng)把(bǎ)美元(měiyuán)___成(chéng)欧元(ōuyuán)。",
- opts:["换(huàn)","借(jiè)","送(sòng)","修(xiū)"],
+ opts:["修(xiū)","换(huàn)","借(jiè)","送(sòng)"],
  ans:"换(huàn)",
  hint:"Which verb means 'to exchange' one thing for another?"},
 
@@ -157,7 +157,7 @@ lessons:[
  sSrc:"This gift was given to me by mom."},
 
 {type:"mc", q:"杯子(bēizi)被(bèi)打(dǎ)破(pò)了(le)。 What happened?",
- opts:["The cup was broken","The cup was repaired","The cup was given away","The cup was exchanged"],
+ opts:["The cup was given away","The cup was exchanged","The cup was broken","The cup was repaired"],
  ans:"The cup was broken",
  hint:"被 marks the passive. 打破 means 'hit-___.' What happened to the ___?"},
 
@@ -229,7 +229,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"我(wǒ)不(bù)小心(xiǎoxīn)把(bǎ)钥匙(yàoshi)弄(nòng)___了(le)。",
- opts:["丢(diū)","干净(gānjìng)","整齐(zhěngqí)","破(pò)"],
+ opts:["破(pò)","丢(diū)","干净(gānjìng)","整齐(zhěngqí)"],
  ans:"丢(diū)",
  hint:"You accidentally did something to your keys, and now you cannot find them. Which result means 'lost'?"},
 
@@ -240,7 +240,7 @@ lessons:[
  sSrc:"Please tidy up your room."},
 
 {type:"mc", q:"她(tā)把(bǎ)衣服(yīfu)弄(nòng)脏(zāng)了(le)。 What happened?",
- opts:["She got her clothes dirty","She washed her clothes","She lost her clothes","She repaired her clothes"],
+ opts:["She lost her clothes","She repaired her clothes","She got her clothes dirty","She washed her clothes"],
  ans:"She got her clothes dirty",
  hint:"弄 is the casual all-purpose verb. 脏 means '___.' What did ___ do to the ___?"},
 
@@ -251,7 +251,7 @@ lessons:[
  hint:"He accidentally lost his phone. Use the disposal marker and the casual verb for 'lost.'"},
 
 {type:"mc", q:"被(bèi) is more commonly associated with:",
- opts:["Unfortunate or negative events","Happy celebrations","Polite requests","Future plans"],
+ opts:["Happy celebrations","Polite requests","Future plans","Unfortunate or negative events"],
  ans:"Unfortunate or negative events",
  hint:"Historically this passive marker carried a sense of being subjected to something. What kind of ___?"},
 

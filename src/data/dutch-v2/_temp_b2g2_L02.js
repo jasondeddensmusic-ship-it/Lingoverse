@@ -1,4 +1,4 @@
-// L02: Law & Justice — 20 B2 gap words
+// L02: Law & Justice, 20 B2 gap words
 const LESSON_2 = {
   id:"nlv2_b2g2_l2", title:"Recht en Rechtvaardigheid", icon:"\u2696\uFE0F", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_2 = {
      sSrc:"Everything must be carried out {1} the safety regulations."},
     {type:"mc",
      q:"Wanneer viert Nederland de afschaffing van de slavernij?",
-     opts:["Op 1 juli, Keti Koti","Op 5 mei, Bevrijdingsdag","Op 27 april, Koningsdag","Op 4 mei, Dodenherdenking"],
+     opts:["Op 4 mei, Dodenherdenking","Op 1 juli, Keti Koti","Op 5 mei, Bevrijdingsdag","Op 27 april, Koningsdag"],
      ans:"Op 1 juli, Keti Koti",
      hint:"The name comes from Sranantongo and means 'broken chains'. Think about a summer celebration."},
     {type:"match", pairs:[

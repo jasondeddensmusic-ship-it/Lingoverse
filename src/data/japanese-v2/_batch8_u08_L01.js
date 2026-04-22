@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"郵便局(ゆうびんきょく)",src:"post office"},{trg:"図書館(としょかん)",src:"library"},{trg:"警察署(けいさつしょ)",src:"police station"},{trg:"公園(こうえん)",src:"park"},{trg:"神社(じんじゃ)",src:"Shinto shrine"}],
      hint:"Match each public facility with its English name."},
 
-    {type:"mc", q:"What is the polite Japanese word for restroom?", opts:["おてあらい","トイレ","ばしょ","入(い)り口(ぐち)"], ans:"おてあらい",
+    {type:"mc", q:"What is the polite Japanese word for restroom?", opts:["入(い)り口(ぐち)","おてあらい","トイレ","ばしょ"], ans:"おてあらい",
      hint:"This word literally means 'hand washing' and is the most polite option."},
 
     {type:"fb", s:"子(こ)どもは{1}で遊(あそ)んでいます。\n(The children are playing at the community center.)", a:"児童館(じどうかん)", opts:["児童館(じどうかん)","体育館(たいいくかん)","公園(こうえん)","図書館(としょかん)"], sSrc:"The children are playing at the community center.",
      hint:"This free public facility provides after-school activities for children."},
 
-    {type:"mc", q:"What document do you need to own a car in Japan?", opts:["車庫(しゃこ)証明(しょうめい) (proof of parking space)","運転(うんてん)免許(めんきょ) only","パスポート","在留(ざいりゅう)カード"], ans:"車庫(しゃこ)証明(しょうめい) (proof of parking space)",
+    {type:"mc", q:"What document do you need to own a car in Japan?", opts:["パスポート","在留(ざいりゅう)カード","車庫(しゃこ)証明(しょうめい) (proof of parking space)","運転(うんてん)免許(めんきょ) only"], ans:"車庫(しゃこ)証明(しょうめい) (proof of parking space)",
      hint:"Japanese cities require p... that you have a dedicated spot to park your vehicle."}
   ,{type:"match",pairs:[{trg:"役所(やくしょ)",src:"municipal office / city hall"},{trg:"体育館(たいいくかん)",src:"gymnasium / sports hall"},{trg:"消防署(しょうぼうしょ)",src:"fire station"},{trg:"駐車場(ちゅうしゃじょう)",src:"parking lot"},{trg:"大使館(たいしかん)",src:"embassy"}]}]
 };

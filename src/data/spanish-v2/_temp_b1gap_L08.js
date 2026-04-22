@@ -99,7 +99,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 haces si no est\u00e1s de acuerdo con una sentencia judicial?",
-     opts:["apelar","abogar","asignar","asesorar"],
+     opts:["asesorar","apelar","abogar","asignar"],
      ans:"apelar",
      hint:"A legal process where you formally request a higher court to review the decision."},
 

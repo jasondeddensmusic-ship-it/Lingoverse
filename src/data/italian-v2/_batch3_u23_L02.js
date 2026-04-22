@@ -1,4 +1,4 @@
-// Batch 3 — Unit 23, Lesson 2: I media digitali (Digital Media)
+// Batch 3. Unit 23, Lesson 2: I media digitali (Digital Media)
 const BATCH3_U23_L2 = {
   id:"itv2_u23l_b3_2", title:"I media digitali", icon:"\uD83D\uDCF1", xp:15, board:true,
   steps:[
@@ -74,7 +74,7 @@ const BATCH3_U23_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'i social' mean in everyday Italian?",
-     opts:["Social workers","Social events","Social media platforms","Social studies"],
+     opts:["Social media platforms","Social studies","Social workers","Social events"],
      ans:"Social media platforms",
      hint:"The abbreviated form of 's... m...' or 's... network.' Italians have adopted this English-origin term as standard."},
 
@@ -104,7 +104,7 @@ const BATCH3_U23_L2 = {
      sSrc:"Did you {1} the article on Facebook?"},
 
     {type:"mc", q:"What is distinctive about La Gazzetta dello Sport?",
-     opts:["It is Italy's oldest newspaper","It is printed on pink paper","It only covers politics","It is published weekly"],
+     opts:["It is published weekly","It is Italy's oldest newspaper","It is printed on pink paper","It only covers politics"],
      ans:"It is printed on pink paper",
      hint:"Italy's sports daily is immediately recognizable by its distinctive p... newsprint. It is one of the most-read newspapers in Italy."},
 
@@ -115,7 +115,7 @@ const BATCH3_U23_L2 = {
      sSrc:"Social media {1} public opinion."},
 
     {type:"mc", q:"Why did Italy take early action regarding ChatGPT?",
-     opts:["To promote a rival Italian AI","The Italian Data Protection Authority raised privacy concerns","Italian law prohibits all AI technology","It was too popular with students"],
+     opts:["Italian law prohibits all AI technology","It was too popular with students","To promote a rival Italian AI","The Italian Data Protection Authority raised privacy concerns"],
      ans:"The Italian Data Protection Authority raised privacy concerns",
      hint:"The 'Garante per la P...' actively enforces GDPR rules. Italy was among the first countries to investigate AI services over personal d... p...."}
   ,{type:"match",pairs:[{trg:"i social",src:"social media"},{trg:"la fake news",src:"the fake news / misinformation"},{trg:"la propaganda",src:"the propaganda"},{trg:"il comunicato stampa",src:"the press release"},{trg:"influenzare",src:"to influence"}]}]

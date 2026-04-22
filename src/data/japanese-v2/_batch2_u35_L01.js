@@ -73,7 +73,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"偏(かたよ)り",src:"bias/imbalance"},{trg:"規制(きせい)",src:"regulation"},{trg:"自律型(じりつがた)",src:"autonomous"},{trg:"データ主権(しゅけん)",src:"data sovereignty"}]},
 
-    {type:"mc", q:"The main concern about 自律型(じりつがた)AI is:", opts:["It costs too much","Loss of human oversight and control","It is too slow","It uses too much electricity"], ans:"Loss of human oversight and control",
+    {type:"mc", q:"The main concern about 自律型(じりつがた)AI is:", opts:["It uses too much electricity","It costs too much","Loss of human oversight and control","It is too slow"], ans:"Loss of human oversight and control",
      hint:"Autonomous systems that operate without h... supervision raise fundamental ethical questions."},
   {type:"match",pairs:[{trg:"主権者(しゅけんしゃ)",src:"sovereign / stakeholder / person in charge"}]}]
 };

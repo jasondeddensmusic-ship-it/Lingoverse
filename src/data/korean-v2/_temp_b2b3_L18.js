@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 18: Jumping, Tearing, and Leisure
+// Korean B2. Batch 3, Lesson 18: Jumping, Tearing, and Leisure
 // Words: 뛰어넘다, 뛰어놀다, 뛰어다니다, 뛰어오다, 뛰어오르다, 뜯다, 뜰, 뜻대로, 뜻밖, 뜻하다, 띄다, 띄우다, 라운드, 라이벌, 라이터, 라인, 라켓, 레몬, 레스토랑, 레이저
 
 const LESSON_18 = {
@@ -107,7 +107,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"'눈에 띄다'는 무슨 뜻인가?",
-     opts:["쉽게 눈에 들어오다","눈이 아프다","눈을 감다","눈물이 나다"],
+     opts:["눈물이 나다","쉽게 눈에 들어오다","눈이 아프다","눈을 감다"],
      ans:"쉽게 눈에 들어오다",
      hint:"This expression describes something that easily catches your attention or stands out visually."},
 

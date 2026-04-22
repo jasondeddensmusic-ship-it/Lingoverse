@@ -1,4 +1,4 @@
-// L08: Health & Wellbeing — 20 B2 gap words
+// L08: Health & Wellbeing, 20 B2 gap words
 const LESSON_8 = {
   id:"nlv2_b2g3_l8", title:"Gezondheid en Welzijn", icon:"\uD83C\uDFE5", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_8 = {
      deepDive:{title:"Dutch compound families",
       text:"Dutch builds rich semantic families through compounding. The 'eet-' family parallels:\n\nslaap- (sleep): slaapkamer, slaaptekort, slaappil, slaapritme\nwerk- (work): werkvloer, werkdruk, werkplezier, werkgever\nreis- (travel): reisdoel, reisgenoot, reistijd, reisverzekering\n\nOnce you recognize these families, new compounds become instantly understandable. This is why Dutch has fewer 'new' words to learn than it seems: you already know the building blocks."}},
     {type:"mc", q:"Waar staat Nederland bekend om qua snoep?",
-     opts:["chocolade","drop","kauwgom","koekjes"],
+     opts:["drop","kauwgom","koekjes","chocolade"],
      ans:"drop",
      hint:"A candy made from licorice root, often salty. The Dutch eat about 2 kg per person per year."},
     {type:"fb", s:"Sociale media geven je een {1}.", a:["dopaminestoot"],

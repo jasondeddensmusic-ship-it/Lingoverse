@@ -1,4 +1,4 @@
-// Batch 7 — Unit 25 extra lesson. L'economia: Startups & Entrepreneurship
+// Batch 7. Unit 25 extra lesson. L'economia: Startups & Entrepreneurship
 const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", icon:"\u{1F680}", xp:15, board:true, steps:[
 {type:"intro", title:"Le startup e l'imprenditoria",
  desc:"Learn advanced vocabulary for startups, innovation ecosystems, and the entrepreneurial mindset.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", ic
 ]},
 
 {type:"mc", q:"Che cosa significa 'quota rosa'?",
- opts:["Gender quota for female representation","Market share","A type of investment","A startup metric"],
+ opts:["A startup metric","Gender quota for female representation","Market share","A type of investment"],
  ans:"Gender quota for female representation",
  hint:"Italian policy mandating f... presence on corporate boards and political lists."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u25l_b7_1", title:"Le startup e l'imprenditoria", ic
  sSrc:"The profit {1} is only five percent."},
 
 {type:"mc", q:"Quale città e il centro dell'ecosistema startup italiano?",
- opts:["Milano","Roma","Napoli","Firenze"],
+ opts:["Napoli","Firenze","Milano","Roma"],
  ans:"Milano",
  hint:"Italy's financial and business capital in the north."},
 

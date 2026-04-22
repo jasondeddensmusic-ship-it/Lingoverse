@@ -1,4 +1,4 @@
-// L01: Kunst en Cultuur — Art World Vocabulary
+// L01: Kunst en Cultuur. Art World Vocabulary
 const LESSON_1 = {
   id:"nlv2_b2gC_l1", title:"Kunst en Cultuur", icon:"\u{1F3A8}", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Wat is een kunstkenner?",
-     opts:["Iemand die kunst verkoopt","Iemand die veel van kunst weet","Iemand die kunst steelt","Iemand die kunst maakt"],
+     opts:["Iemand die veel van kunst weet","Iemand die kunst steelt","Iemand die kunst maakt","Iemand die kunst verkoopt"],
      ans:"Iemand die veel van kunst weet",
      hint:"The word 'kenner' comes from 'kennen' (to know). Someone who knows art well."},
 
@@ -101,7 +101,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Waar studeert iemand beeldende kunst?",
-     opts:["Op de kunstacademie","Bij de kunsthandelaar","In het kunstmuseum","Bij de kunstvervalser"],
+     opts:["In het kunstmuseum","Bij de kunstvervalser","Op de kunstacademie","Bij de kunsthandelaar"],
      ans:"Op de kunstacademie",
      hint:"An educational institution where artists learn their craft professionally."},
 
@@ -121,7 +121,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'De kunstwetenschap omvat ook theorie.' Wat betekent 'omvatten'?",
-     opts:["Uitsluiten","Bevatten, inhouden","Verkopen","Vervalsen"],
+     opts:["Verkopen","Vervalsen","Uitsluiten","Bevatten, inhouden"],
      ans:"Bevatten, inhouden",
      hint:"To include or encompass. The subject covers more than just history."}
   ]

@@ -80,7 +80,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'examiner avec un soin extreme' ?",
-     opts:["passer au crible","passer au debarras","passer au couchant","passer au monticule"],
+     opts:["passer au monticule","passer au crible","passer au debarras","passer au couchant"],
      ans:"passer au crible",
      hint:"Using a sieve to sort: keeping the good, discarding the rest."},
 
@@ -113,7 +113,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"Quel mot désigne à la fois une crête de montagne étroite et un petit os dans la chair d'un poisson ?",
-     opts:["une arete","une cicatrice","un crible","un monticule"],
+     opts:["un crible","un monticule","une arete","une cicatrice"],
      ans:"une arete",
      hint:"A sharp edge. In geography it's a mountain ridge, in food it's a fish bone."},
 

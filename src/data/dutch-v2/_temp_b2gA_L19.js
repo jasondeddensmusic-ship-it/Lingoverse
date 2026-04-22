@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 19: Uiterlijk & Lichaam
+// B2 Gap Batch A. Lesson 19: Uiterlijk & Lichaam
 // Theme: Appearance, body, physical descriptions
 
 const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9D1}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9
    sSrc:"A lock of hair fell in front of her eyes."},
 
   {type:"mc", q:"Je moet je kinderen niet als kasplanten opvoeden. Wat is een 'kasplant'?",
-   opts:["an overprotected person, like a greenhouse plant","a wild child","a talented child","a plant in a window box"],
+   opts:["a plant in a window box","an overprotected person, like a greenhouse plant","a wild child","a talented child"],
    ans:"an overprotected person, like a greenhouse plant",
    hint:"Kas (g...) + p.... Someone who is too sheltered to handle the real world."},
 
@@ -77,7 +77,7 @@ const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9
   ]},
 
   {type:"mc", q:"Wie zijn de kanshebbers voor de verkiezing? Wat is een 'kanshebber'?",
-   opts:["someone with a good chance of winning","someone who lost","a voter","a campaign manager"],
+   opts:["a voter","a campaign manager","someone with a good chance of winning","someone who lost"],
    ans:"someone with a good chance of winning",
    hint:"Kans (c...) + hebber (haver). A person who has a real shot at success."},
 

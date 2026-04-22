@@ -1,4 +1,4 @@
-// Korean B2 — Batch 6, Lesson 18: Passion and Fruit
+// Korean B2. Batch 6, Lesson 18: Passion and Fruit
 // Words: 연예인, 연인, 연장, 연주, 연출, 연출하다, 연하다, 연합, 연휴, 열기, 열매, 열정, 열중하다, 열흘, 엷다, 염려, 염려하다, 엽서, 엿보다, (note: filling with 연상하다 from prev gap)
 
 const LESSON_18 = {
@@ -137,7 +137,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"'노력의 열매'는 무슨 뜻인가요?",
-     opts:["노력한 결과","과일을 키우는 것","나무를 심는 것","운동을 하는 것"],
+     opts:["운동을 하는 것","노력한 결과","과일을 키우는 것","나무를 심는 것"],
      ans:"노력한 결과",
      hint:"열매 (fruit) is used metaphorically here. What do you harvest from hard work?"},
 

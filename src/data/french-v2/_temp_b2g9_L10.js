@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 10: Culture et Arts
+// French B2 Gap Batch 9. Lesson 10: Culture et Arts
 // Culture and arts vocabulary
 
 const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:
    exampleSrc:"A: Shall we meet at the corner cafe-tabac?\nB: Okay, around six o'clock.",
    funFact:"The red diamond-shaped sign of the tabac is iconic in France. They also sell lottery tickets."},
 
-  {type:"mc", q:"Un peplum est:", opts:["Un vêtement romain","Un film d'aventure dans l'Antiquité","Un plat méditerranéen","Un style de musique"], ans:"Un film d'aventure dans l'Antiquité",
+  {type:"mc", q:"Un peplum est:", opts:["Un film d'aventure dans l'Antiquité","Un plat méditerranéen","Un style de musique","Un vêtement romain"], ans:"Un film d'aventure dans l'Antiquité",
    hint:"Think gladiators and togas. Cinematic epics set in ancient Greece or Rome."},
 
   {type:"teach", trg:"la crêperie", src:"creperie", pos:"noun", gender:"f",
@@ -103,7 +103,7 @@ const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:
    exampleSrc:"A: French phonetics poses challenges for foreigners.\nB: The nasal vowels are unique.",
    funFact:"French has 36 phonemes. The four nasal vowels are among the hardest for learners."},
 
-  {type:"mc", q:"'Du jamais-vu' signifie:", opts:["Quelque chose d'oublié","Quelque chose de familier","Quelque chose de sans précédent","Quelque chose de prévu"], ans:"Quelque chose de sans précédent",
+  {type:"mc", q:"'Du jamais-vu' signifie:", opts:["Quelque chose de familier","Quelque chose de sans précédent","Quelque chose de prévu","Quelque chose d'oublié"], ans:"Quelque chose de sans précédent",
    hint:"Jamais = never, vu = seen. Something that has never been seen before."},
 
   {type:"fb", s:"La {1} bretonne sert des galettes et des crêpes.", a:["crêperie"], opts:["crêperie","paroisse","néologie","phonétique"],

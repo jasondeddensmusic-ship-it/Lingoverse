@@ -1,4 +1,4 @@
-// L16: Nature & Weather — 20 B2 gap words
+// L16: Nature & Weather, 20 B2 gap words
 const LESSON_16 = {
   id:"nlv2_b2g2_l16", title:"Natuur en Weer", icon:"\uD83C\uDF27\uFE0F", xp:15, board:true,
   steps:[
@@ -121,7 +121,7 @@ const LESSON_16 = {
      sSrc:"The Dutch {1} is having a hard time because of the nitrogen policy."},
     {type:"mc",
      q:"Wat is een 'broedplaats' in culturele context?",
-     opts:["Een goedkope werkruimte voor kunstenaars","Een dierentuin voor vogels","Een school voor kinderen","Een fabriek voor kunstproducten"],
+     opts:["Een fabriek voor kunstproducten","Een goedkope werkruimte voor kunstenaars","Een dierentuin voor vogels","Een school voor kinderen"],
      ans:"Een goedkope werkruimte voor kunstenaars",
      hint:"Amsterdam uses this bird-breeding term figuratively for affordable spaces where creative talent can develop."},
     {type:"match", pairs:[

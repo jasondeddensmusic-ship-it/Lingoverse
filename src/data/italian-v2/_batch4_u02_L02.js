@@ -1,4 +1,4 @@
-// Batch 4 — Unit 02, Lesson 2: Time Expressions & Daily Routine
+// Batch 4. Unit 02, Lesson 2: Time Expressions & Daily Routine
 const BATCH4_U02_L2 = {
   id:"itv2_u02l_b4_2", title:"La routine quotidiana", icon:"\u23F0", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U02_L2 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'fare tardi'?",
-     opts:["To be late or stay out late","To do something fast","To arrive early","To skip a meal"],
+     opts:["To skip a meal","To be late or stay out late","To do something fast","To arrive early"],
      ans:"To be late or stay out late",
      hint:"'Tardi' means l..., and 'fare' means to do or make."},
 
@@ -126,7 +126,7 @@ const BATCH4_U02_L2 = {
      sSrc:"I drink coffee {1}, I can't live without it!"},
 
     {type:"mc", q:"Qual e il pasto principale nella tradizione italiana?",
-     opts:["Il pranzo","La cena","La colazione","La merenda"],
+     opts:["La colazione","La merenda","Il pranzo","La cena"],
      ans:"Il pranzo",
      hint:"Traditionally this midday meal, not the evening one, is the biggest."},
 
@@ -136,7 +136,7 @@ const BATCH4_U02_L2 = {
      sSrc:"I set the {1} at six to go to work."},
 
     {type:"mc", q:"Cosa significa 'qualche volta'?",
-     opts:["Sometimes","Never","Always","Every day"],
+     opts:["Never","Always","Every day","Sometimes"],
      ans:"Sometimes",
      hint:"It sits between 'spesso' (often) and 'raramente' (rarely) in frequency."}
   ,{type:"match",pairs:[{trg:"il pomeriggio",src:"the afternoon"},{trg:"presto",src:"early / soon"},{trg:"spesso",src:"often"},{trg:"qualche volta",src:"sometimes"}]}]

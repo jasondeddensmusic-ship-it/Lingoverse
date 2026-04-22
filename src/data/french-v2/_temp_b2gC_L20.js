@@ -67,7 +67,7 @@ const LESSON_20 = {id:"frv2_b2gC_l20", title:"Communication et rhétorique", ico
 
 {type:"mc",
  q:"Que se passe-t-il 'en marge' d'un sommet politique ?",
- opts:["Des réunions informelles parallèles","L'événement principal","Les discours officiels","Les votes"],
+ opts:["Les votes","Des réunions informelles parallèles","L'événement principal","Les discours officiels"],
  ans:"Des réunions informelles parallèles",
  hint:"On the sidelines. Separate from the main event, but happening alongside it."},
 
@@ -87,7 +87,7 @@ const LESSON_20 = {id:"frv2_b2gC_l20", title:"Communication et rhétorique", ico
 
 {type:"mc",
  q:"Que signifie 'il pleut des cordes' ?",
- opts:["Il pleut très fort","Il fait du vent","Il y a un orage de grêle","Le temps est nuageux"],
+ opts:["Il y a un orage de grêle","Le temps est nuageux","Il pleut très fort","Il fait du vent"],
  ans:"Il pleut très fort",
  hint:"A French idiom. You cannot translate it word for word. Cordes means ropes."},
 
@@ -105,7 +105,7 @@ const LESSON_20 = {id:"frv2_b2gC_l20", title:"Communication et rhétorique", ico
 
 {type:"mc",
  q:"Quel est le registre de 'par suite de' comparé à 'à cause de' ?",
- opts:["Plus formel et écrit","Plus familier","Identique","Plus oral"],
+ opts:["Plus familier","Identique","Plus oral","Plus formel et écrit"],
  ans:"Plus formel et écrit",
  hint:"Used in official texts and news. The everyday equivalent is 'à cause de.'"},
 

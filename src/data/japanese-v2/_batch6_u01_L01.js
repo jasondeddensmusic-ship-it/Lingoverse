@@ -72,7 +72,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"コーヒーを{1}。\n(Coffee, please.)", a:"お願(ねが)いします", opts:["お願(ねが)いします","ごめんなさい","ありがとう","すみません"], sSrc:"Coffee, please.",
      hint:"This is the standard polite way to make a request or place an order."},
 
-    {type:"mc", q:"When leaving work before your colleagues, you say:", opts:["お先(さき)に失礼(しつれい)します","おはようございます","いただきます","おやすみなさい"], ans:"お先(さき)に失礼(しつれい)します",
+    {type:"mc", q:"When leaving work before your colleagues, you say:", opts:["おやすみなさい","お先(さき)に失礼(しつれい)します","おはようございます","いただきます"], ans:"お先(さき)に失礼(しつれい)します",
      hint:"This phrase apologizes for going ahead of the group."},
 
     {type:"teach", trg:"行(い)ってきます", src:"I am heading out (and will return)", pos:"intj", gender:null,
@@ -93,7 +93,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Dinner is ready.\nB: Thank you for the food! It looks delicious!",
      funFact:"いただきます expresses gratitude to the cook, the farmers, and even the plants and animals that became the meal. It is not a religious prayer but a cultural expression of appreciation. After eating, you say ごちそうさまでした (it was a feast)."},
 
-    {type:"mc", q:"What do you say when entering someone's home?", opts:["お邪魔(じゃま)します","いただきます","ただいま","おやすみなさい"], ans:"お邪魔(じゃま)します",
+    {type:"mc", q:"What do you say when entering someone's home?", opts:["ただいま","おやすみなさい","お邪魔(じゃま)します","いただきます"], ans:"お邪魔(じゃま)します",
      hint:"This phrase humbly acknowledges that you are entering someone's private space."},
 
     {type:"fb", s:"{1}！おかえりなさい。\n(I am home! / Welcome back.)", a:"ただいま", opts:["ただいま","行(い)ってきます","お邪魔(じゃま)します","失礼(しつれい)します"], sSrc:"I am home! / Welcome back.",
@@ -107,7 +107,7 @@ const BATCH6_L1 = {
       {trg:"ただいま", src:"I am home"}
     ]},
 
-    {type:"mc", q:"お待(ま)たせしました is typically said by:", opts:["A server bringing your order","A customer receiving food","A friend saying goodbye","A student greeting a teacher"], ans:"A server bringing your order",
+    {type:"mc", q:"お待(ま)たせしました is typically said by:", opts:["A customer receiving food","A friend saying goodbye","A student greeting a teacher","A server bringing your order"], ans:"A server bringing your order",
      hint:"This humble phrase is used by the person who made someone wait."}
   ,{type:"match",pairs:[{trg:"どうぞ",src:"please (offering) / go ahead"},{trg:"どういたしまして",src:"you are welcome"},{trg:"大丈夫(だいじょうぶ)",src:"okay / all right / fine"},{trg:"お疲(つか)れさまです",src:"thank you for your hard work"},{trg:"お待(ま)たせしました",src:"sorry to have kept you waiting"},{trg:"行(い)ってきます",src:"I am heading out (and will return)"}]}]
 };

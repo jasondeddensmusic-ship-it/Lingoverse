@@ -24,7 +24,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Many people feel hesitation about receiving counseling.\nB: We need an environment where people can consult more easily.\nA: What do you mean specifically?\nB: I mean we need to change our approach depending on the situation.\nA: I see. That is certainly true.\nB: Yes, I think flexible response is important.",
      funFact:"カウンセリング adoption in Japan has been slower than in Western countries due to cultural factors: the value of 我慢(がまん) (endurance), reluctance to share personal problems, and the perception that seeking help is weak. School カウンセラー have been deployed since 1995, and workplace Employee Assistance Programs (EAP) are growing."},
 
-    {type:"mc", q:"心(こころ)の風邪(かぜ) was used in Japan to:", opts:["Describe a physical illness","Destigmatize depression by comparing it to a common cold","Promote physical exercise","Name a new medication"], ans:"Destigmatize depression by comparing it to a common cold",
+    {type:"mc", q:"心(こころ)の風邪(かぜ) was used in Japan to:", opts:["Destigmatize depression by comparing it to a common cold","Promote physical exercise","Name a new medication","Describe a physical illness"], ans:"Destigmatize depression by comparing it to a common cold",
      hint:"This metaphor frames d... as ordinary and treatable, reducing the stigma of mental illness."},
 
     {type:"teach", trg:"ストレス", src:"stress", pos:"noun", gender:null,
@@ -73,7 +73,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"引(ひ)きこもり",src:"social withdrawal"},{trg:"自殺(じさつ)",src:"suicide"},{trg:"福祉(ふくし)",src:"welfare"},{trg:"精神的(せいしんてき)健康(けんこう)",src:"mental health"}]},
 
-    {type:"mc", q:"The 八十五十問題(はちじゅうごじゅうもんだい) describes:", opts:["80-year-old parents caring for 50-year-old hikikomori children","A math problem","A population growth target","Hospital capacity issues"], ans:"80-year-old parents caring for 50-year-old hikikomori children",
+    {type:"mc", q:"The 八十五十問題(はちじゅうごじゅうもんだい) describes:", opts:["A population growth target","Hospital capacity issues","80-year-old parents caring for 50-year-old hikikomori children","A math problem"], ans:"80-year-old parents caring for 50-year-old hikikomori children",
      hint:"The numbers 80 and 50 refer to the ages of parent and child in this social phenomenon."},
   ]
 };

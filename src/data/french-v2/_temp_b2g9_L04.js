@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 4: Vie Quotidienne Avancée
+// French B2 Gap Batch 9. Lesson 4: Vie Quotidienne Avancée
 // Advanced daily life vocabulary
 
 const LESSON_4 = {id:"frv2_b2g9_l4", title:"Vie Quotidienne Avancée", icon:"🏠", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_4 = {id:"frv2_b2g9_l4", title:"Vie Quotidienne Avancée", icon:"�
    exampleSrc:"A: His rudeness shocked everyone.\nB: You don't talk like that in company.",
    funFact:"Grossier originally meant 'thick, coarse' (from gros). The meaning shifted to 'rude'."},
 
-  {type:"mc", q:"Un amuse-gueule est:", opts:["Un plat principal","Un dessert","Un petit en-cas servi avant le repas","Un jeu de société"], ans:"Un petit en-cas servi avant le repas",
+  {type:"mc", q:"Un amuse-gueule est:", opts:["Un petit en-cas servi avant le repas","Un jeu de société","Un plat principal","Un dessert"], ans:"Un petit en-cas servi avant le repas",
    hint:"It 'amuses' the mouth before the main meal. Small bites with drinks."},
 
   {type:"teach", trg:"le penchant", src:"inclination, tendency", pos:"noun", gender:"m",
@@ -123,7 +123,7 @@ const LESSON_4 = {id:"frv2_b2g9_l4", title:"Vie Quotidienne Avancée", icon:"�
     {trg:"le binocle", src:"pince-nez"}
   ]},
 
-  {type:"mc", q:"La voiture est en piteux état signifie:", opts:["La voiture est neuve","La voiture est en mauvais état","La voiture est rapide","La voiture est chère"], ans:"La voiture est en mauvais état",
+  {type:"mc", q:"La voiture est en piteux état signifie:", opts:["La voiture est chère","La voiture est neuve","La voiture est en mauvais état","La voiture est rapide"], ans:"La voiture est en mauvais état",
    hint:"Piteux comes from the word for pity. In a pitiable, sorry condition."},
 
   {type:"fb", s:"Sa {1} a choqué ses collègues.", a:["grossièreté"], opts:["grossièreté","petitesse","maisonnée","niaiserie"],

@@ -80,7 +80,7 @@ const LESSON_19 = {
     ]},
     {type:"mc",
      q:"Wat betekent het suffix '-itis' in 'bestselleritis'?",
-     opts:["Een humoristische overdrijving, alsof het een ziekte is","Een officieel medisch achtervoegsel","Een Frans leenwoord voor passie","Een verkleinwoord"],
+     opts:["Een verkleinwoord","Een humoristische overdrijving, alsof het een ziekte is","Een officieel medisch achtervoegsel","Een Frans leenwoord voor passie"],
      ans:"Een humoristische overdrijving, alsof het een ziekte is",
      hint:"In medical Dutch, '-itis' means inflammation (ontsteking). Used humorously, it implies an unhealthy obsession."},
     {type:"fb",
@@ -91,7 +91,7 @@ const LESSON_19 = {
      sSrc:"The {1} on the roof is a good example of innovative urban design."},
     {type:"mc",
      q:"Wat is een 'gelegenheidsonderneming'?",
-     opts:["Een tijdelijk bedrijf voor een specifiek doel","Een groot internationaal concern","Een overheidsinstelling","Een permanente winkel"],
+     opts:["Een overheidsinstelling","Een permanente winkel","Een tijdelijk bedrijf voor een specifiek doel","Een groot internationaal concern"],
      ans:"Een tijdelijk bedrijf voor een specifiek doel",
      hint:"Gelegenheid (opportunity/occasion) + onderneming (enterprise). Created for a specific, temporary purpose."}
   ]

@@ -87,7 +87,7 @@ const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:1
   ]},
 
   {type:"mc", q:"What does 'farmaco da banco' mean?",
-   opts:["Over-the-counter medicine","Prescription medicine","Expired medicine","Generic medicine"],
+   opts:["Generic medicine","Over-the-counter medicine","Prescription medicine","Expired medicine"],
    ans:"Over-the-counter medicine",
    hint:"'Da banco' means from the c.... You can buy it without a doctor's prescription."},
 
@@ -98,7 +98,7 @@ const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:1
    sSrc:"Do you have something for the cough? A {1}, please."},
 
   {type:"mc", q:"What is Italy's color-coded prescription system?",
-   opts:["White for regular, red for subsidized prescriptions","Green for strong, blue for mild","There is no color system","Yellow for adults, pink for children"],
+   opts:["There is no color system","Yellow for adults, pink for children","White for regular, red for subsidized prescriptions","Green for strong, blue for mild"],
    ans:"White for regular, red for subsidized prescriptions",
    hint:"'Ricetta bianca' is standard. 'Ricetta rossa' means the national health service covers part of the cost."},
 
@@ -109,7 +109,7 @@ const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:1
    sSrc:"Do not exceed the recommended {1}."},
 
   {type:"mc", q:"What is Tachipirina in Italy?",
-   opts:["A popular brand of paracetamol (like Tylenol)","An antibiotic","A cough syrup","A vitamin supplement"],
+   opts:["An antibiotic","A cough syrup","A vitamin supplement","A popular brand of paracetamol (like Tylenol)"],
    ans:"A popular brand of paracetamol (like Tylenol)",
    hint:"Italy's most common over-the-counter fever reducer. In pharmacies you can ask for it by the commercial name or by the generic active ingredient name."},
 

@@ -60,7 +60,7 @@ const BATCH2_L_4 = {
      exampleSrc:"A: The satoyama environment is a model of human-nature coexistence.\nB: It is attracting attention from around the world.\nA: What kind of impact was there?\nB: It had a big impact on society as a whole.\nA: A good impact or a bad impact?\nB: Both. There are both merits and demerits.",
      funFact:"里山 is a uniquely Japanese concept describing the managed landscape between villages and wild mountains. For centuries, Japanese communities maintained 里山(さとやま) through rice paddies, managed forests, and irrigation ponds. This created rich biodiversity. The concept gained international attention at COP10 in Nagoya as a model for sustainable land use."},
 
-    {type:"mc", q:"汚染(おせん) means:", opts:["Pollution/contamination","Conservation","Recycling","Sustainability"], ans:"Pollution/contamination",
+    {type:"mc", q:"汚染(おせん) means:", opts:["Sustainability","Pollution/contamination","Conservation","Recycling"], ans:"Pollution/contamination",
      hint:"The word combining 'dirty' and 'stain,' describing the harmful degradation of environment."},
 
     {type:"teach", trg:"共生(きょうせい)", src:"coexistence / symbiosis", pos:"noun", gender:null,
@@ -79,7 +79,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"汚染(おせん)",src:"pollution"},{trg:"排水(はいすい)",src:"wastewater"},{trg:"里山(さとやま)",src:"satoyama (rural landscape)"},{trg:"共生(きょうせい)",src:"coexistence"}]},
 
-    {type:"mc", q:"里山(さとやま) is valued internationally as:", opts:["A model of sustainable human-nature coexistence","A type of Japanese garden","A farming technique","A nature reserve with no human activity"], ans:"A model of sustainable human-nature coexistence",
+    {type:"mc", q:"里山(さとやま) is valued internationally as:", opts:["A farming technique","A nature reserve with no human activity","A model of sustainable human-nature coexistence","A type of Japanese garden"], ans:"A model of sustainable human-nature coexistence",
      hint:"This landscape shows how humans and n... can thrive together through managed use."},
   ]
 };

@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"In che anno le donne italiane hanno votato per la prima volta?",
-     opts:["1918","1946","1960","1975"],
+     opts:["1946","1960","1975","1918"],
      ans:"1946",
      hint:"The same year Italy became a republic through a historic referendum. Women's first vote coincided with the end of the monarchy."},
 
@@ -102,7 +102,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quante firme servono in Italia per proporre una legge di iniziativa popolare?",
-     opts:["Diecimila","Cinquantamila","Centomila","Un milione"],
+     opts:["Un milione","Diecimila","Cinquantamila","Centomila"],
      ans:"Cinquantamila",
      hint:"A five-digit number in the tens of thousands. This is the constitutional threshold for citizens to submit a legislative proposal directly to Parliament."}
   ]

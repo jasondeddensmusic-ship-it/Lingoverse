@@ -85,7 +85,7 @@ const LESSON_18 = {
      funFact:"Dutch youth health policy takes a pragmatic view of 'experimenteergedrag'. Rather than zero tolerance, the focus is on harm reduction and open conversation."},
     {type:"mc",
      q:"Wat is een 'genotsmiddel'?",
-     opts:["Een stof die genot geeft, zoals koffie, alcohol of tabak","Een medicijn tegen pijn","Een type voedingssupplement","Een cosmetisch product"],
+     opts:["Een cosmetisch product","Een stof die genot geeft, zoals koffie, alcohol of tabak","Een medicijn tegen pijn","Een type voedingssupplement"],
      ans:"Een stof die genot geeft, zoals koffie, alcohol of tabak",
      hint:"G... (pleasure) + middel (substance/agent). This neutral term covers everything from coffee to tobacco."},
     {type:"fb",
@@ -96,7 +96,7 @@ const LESSON_18 = {
      sSrc:"'Lekker' is a typical {1} that Dutch people use constantly."},
     {type:"mc",
      q:"Waarom zijn de Deltawerken wereldberoemd?",
-     opts:["Ze beschermen Nederland tegen overstromingen","Ze produceren elektriciteit","Ze zijn de oudste bruggen van Europa","Ze verbinden Nederland met Belgie"],
+     opts:["Ze zijn de oudste bruggen van Europa","Ze verbinden Nederland met Belgie","Ze beschermen Nederland tegen overstromingen","Ze produceren elektriciteit"],
      ans:"Ze beschermen Nederland tegen overstromingen",
      hint:"The Delta Works are a massive water management system. They were built after a catastrophic flood in 1953."}
   ]

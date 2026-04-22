@@ -84,7 +84,7 @@ const LESSON_13 = {id:"esv2_b2g4_l13",title:"Naturaleza y medio ambiente",icon:"
  exampleSrc:"A: Boxwood hedges are very popular in formal gardens.\nB: They require regular pruning.",
  funFact:"The Royal Palace gardens in Madrid feature elaborate boj hedges sculpted into geometric patterns."},
 
-{type:"mc",q:"Las cigarras son conocidas por:",opts:["El sonido fuerte que producen en verano","Sus colores brillantes","Su capacidad de volar muy alto","Su picadura venenosa"],ans:"El sonido fuerte que producen en verano",hint:"Think about the characteristic noise these insects make during hot months."},
+{type:"mc",q:"Las cigarras son conocidas por:",opts:["Su picadura venenosa","El sonido fuerte que producen en verano","Sus colores brillantes","Su capacidad de volar muy alto"],ans:"El sonido fuerte que producen en verano",hint:"Think about the characteristic noise these insects make during hot months."},
 
 {type:"teach",trg:"engrosar",src:"to swell / to thicken / to increase",pos:"verb",gender:null,
  note:"Stem-changing verb (o>ue): engrueso.\nFigurative: engrosar las filas (to swell the ranks).",

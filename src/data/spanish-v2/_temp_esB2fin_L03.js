@@ -49,7 +49,7 @@ const LESSON_3 = {
      funFact:"From 're-' (again) + 'ciclo' (cycle). Literally means to put materials through the cycle again."},
 
     {type:"mc", q:"¿Qué mide la 'huella ecológica'?",
-     opts:["El tamaño de un bosque","La demanda humana sobre los ecosistemas","La temperatura del planeta","El número de especies"],
+     opts:["La demanda humana sobre los ecosistemas","La temperatura del planeta","El número de especies","El tamaño de un bosque"],
      ans:"La demanda humana sobre los ecosistemas",
      hint:"This metric measures how much of Earth's resources an individual or population consumes."},
 
@@ -130,7 +130,7 @@ const LESSON_3 = {
     ]},
 
     {type:"mc", q:"¿Qué significa 'agotar los recursos naturales'?",
-     opts:["Descubrir nuevos recursos","Usar los recursos completamente hasta acabarlos","Reciclar los recursos","Proteger los recursos"],
+     opts:["Proteger los recursos","Descubrir nuevos recursos","Usar los recursos completamente hasta acabarlos","Reciclar los recursos"],
      ans:"Usar los recursos completamente hasta acabarlos",
      hint:"This verb means to drain or use up something until nothing remains."},
 
@@ -147,7 +147,7 @@ const LESSON_3 = {
     ]},
 
     {type:"mc", q:"¿Cuál es la principal causa de la deforestación?",
-     opts:["El reciclaje","La agricultura y la ganadería","La energía renovable","La biodiversidad"],
+     opts:["La energía renovable","La biodiversidad","El reciclaje","La agricultura y la ganadería"],
      ans:"La agricultura y la ganadería",
      hint:"Forests are cleared primarily to make room for growing crops and raising livestock."}
   ]

@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 08 — Industry & Labor
+// B2 Gap Batch B Lesson 08. Industry & Labor
 const LESSON_8 = {id:"esv2_b2gB_l8",title:"Industria y trabajo",icon:"🏭",xp:15,board:true,steps:[
 {type:"intro",title:"Industria y trabajo",desc:"Learn vocabulary about industry, labor, and the working world in Spain.",goals:["Learn 12 words about industry and labor","Discuss workplace roles and conditions","Use formal employment vocabulary"]},
 
@@ -73,7 +73,7 @@ const LESSON_8 = {id:"esv2_b2gB_l8",title:"Industria y trabajo",icon:"🏭",xp:1
  funFact:"From Latin obsolescere (to fall into disuse). The noun form 'obsolescencia' is also very common."},
 
 {type:"mc",q:"¿Qué significa 'dar de alta' a un trabajador?",
- opts:["Registrarlo en el sistema de empleo","Despedirlo de la empresa","Darle un ascenso","Enviarle a otra oficina"],
+ opts:["Enviarle a otra oficina","Registrarlo en el sistema de empleo","Despedirlo de la empresa","Darle un ascenso"],
  ans:"Registrarlo en el sistema de empleo",
  hint:"Think about the process of officially adding someone to the payroll or insurance system."},
 

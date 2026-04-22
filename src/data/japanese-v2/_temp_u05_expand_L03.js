@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: Let's boil the vegetables.\nB: About how many minutes should we boil them?",
      funFact:"Niru covers both boiling and simmering. Nimono (simmered dish) is a fundamental category of Japanese cooking. Nikujaga (meat and potato stew) is called 'the taste of mom' (ofukuro no aji) and is the quintessential home-cooked nimono."},
 
-    {type:"mc", q:"つくる can mean:", opts:["Only to cook","Only to build","To make anything","To destroy"], ans:"To make anything",
+    {type:"mc", q:"つくる can mean:", opts:["To make anything","To destroy","Only to cook","Only to build"], ans:"To make anything",
      hint:"This versatile verb covers cooking, building, creating, and producing."},
 
     {type:"teach", trg:"やく", src:"to grill / to bake / to fry", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const LESSON_5 = {
      exampleSrc:"A: This knife cuts well.\nB: It is Japanese-made.",
      funFact:"包 (wrap) + 丁 (counter/just right). Japanese knives (wa-bocho) are single-beveled, giving extreme precision. Sakai city near Osaka has made knives for 600 years. Professional chefs worldwide seek Japanese knives. Some cost over 100,000 yen."},
 
-    {type:"mc", q:"やく covers all EXCEPT:", opts:["Grilling","Baking","Deep-frying","Pan-frying"], ans:"Deep-frying",
+    {type:"mc", q:"やく covers all EXCEPT:", opts:["Baking","Deep-frying","Pan-frying","Grilling"], ans:"Deep-frying",
      hint:"D...-f... has its own specific verb: ageru."},
 
     {type:"match", pairs:[
@@ -107,7 +107,7 @@ const LESSON_5 = {
     {type:"mc", q:"はし (chopsticks) etiquette forbids:", opts:["Using them for soup","Putting them on a rest","Sticking them upright in rice","Eating noodles with them"], ans:"Sticking them upright in rice",
      hint:"This action mirrors a Buddhist funeral ritual and is deeply taboo."},
 
-    {type:"mc", q:"なべ means both:", opts:["Pot and plate","Pot and hot pot dish","Knife and fork","Pan and spoon"], ans:"Pot and hot pot dish",
+    {type:"mc", q:"なべ means both:", opts:["Knife and fork","Pan and spoon","Pot and plate","Pot and hot pot dish"], ans:"Pot and hot pot dish",
      hint:"The cooking vessel AND the communal winter meal share this name."},
   ]
 };

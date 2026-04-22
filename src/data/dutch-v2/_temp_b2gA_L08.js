@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 08: Identiteit & Samenleving
+// B2 Gap Batch A. Lesson 08: Identiteit & Samenleving
 // Theme: Identity, immigration, diversity
 
 const LESSON_8 = {id:"nlv2_b2gA_l8", title:"Identiteit & Samenleving", icon:"\u{1F30D}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_8 = {id:"nlv2_b2gA_l8", title:"Identiteit & Samenleving", icon:"\u{
    sSrc:"Individualism is strong in Dutch culture."},
 
   {type:"mc", q:"Mag ik uw identiteitskaart zien? Wat is een 'identiteitskaart'?",
-   opts:["an official identity document","a business card","a library card","a credit card"],
+   opts:["a credit card","an official identity document","a business card","a library card"],
    ans:"an official identity document",
    hint:"Identiteit (i...) + kaart (card). An o... d... proving who you are."},
 
@@ -77,7 +77,7 @@ const LESSON_8 = {id:"nlv2_b2gA_l8", title:"Identiteit & Samenleving", icon:"\u{
   ]},
 
   {type:"mc", q:"De individualisering van de samenleving heeft grote gevolgen. Wat is 'individualisering'?",
-   opts:["the process of society becoming more individualistic","a type of insurance","a form of government","a management strategy"],
+   opts:["a form of government","a management strategy","the process of society becoming more individualistic","a type of insurance"],
    ans:"the process of society becoming more individualistic",
    hint:"The -isering suffix marks an ongoing societal p.... Individual + isering."},
 

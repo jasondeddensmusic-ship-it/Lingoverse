@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: I lost and it was frustrating.\nB: Let us do our best next time.\nA: Was it difficult?\nB: It was difficult at first, but I got used to it.",
      funFact:"悔しい describes the specific frustration of an unfair outcome or a loss you should have won. Athletes say it after defeats. Students say it after failing exams. It is different from simple anger; it contains a drive to try again. Kuyashii tears (kuyashi namida) are a powerful image in Japanese sports culture."},
 
-    {type:"mc", q:"カラオケでうたわされた means:", opts:["I sang willingly at karaoke","I was made to sing at karaoke","I made others sing at karaoke","I enjoy singing at karaoke"], ans:"I was made to sing at karaoke",
+    {type:"mc", q:"カラオケでうたわされた means:", opts:["I was made to sing at karaoke","I made others sing at karaoke","I enjoy singing at karaoke","I sang willingly at karaoke"], ans:"I was made to sing at karaoke",
      hint:"The short causative-passive always implies the speaker was forced to do the action."},
 
     {type:"teach", trg:"おぼえさせられる", src:"to be made to memorize", pos:"verb", gender:null,
@@ -75,7 +75,7 @@ const LESSON_5 = {
 
     {type:"match", pairs:[{trg:"おぼえさせられる",src:"be made to memorize"},{trg:"そうじさせられる",src:"be made to clean"},{trg:"くやしい",src:"frustrating"},{trg:"ぶかつ",src:"club activities"}]},
 
-    {type:"mc", q:"Which is the correct short causative-passive of かく (to write)?", opts:["かかせられる","かかされる","かかれる","かかせる"], ans:"かかされる",
+    {type:"mc", q:"Which is the correct short causative-passive of かく (to write)?", opts:["かかせる","かかせられる","かかされる","かかれる"], ans:"かかされる",
      hint:"Group 1 short form: あ-row + される. The full form would be かかせられる."},
   ]
 };

@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Cherry blossoms evoke {1}. Beautiful yet fleeting."},
 
     {type:"mc", q:"四字熟語(よじじゅくご) are:",
-     opts:["Four-character Chinese-origin idioms","Four-line poems","Four-word sentences","Four-part stories"],
+     opts:["Four-part stories","Four-character Chinese-origin idioms","Four-line poems","Four-word sentences"],
      ans:"Four-character Chinese-origin idioms",
      hint:"These compact expressions pack a complex idea into a precise number of kanji characters from classical sources."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"Who is your favorite {1}? I like Murakami Haruki."},
 
     {type:"mc", q:"大和言葉(やまとことば) compared to 漢語(かんご) sound:",
-     opts:["Softer and more emotional","Harder and more formal","Identical","Louder"],
+     opts:["Identical","Louder","Softer and more emotional","Harder and more formal"],
      ans:"Softer and more emotional",
      hint:"Native Japanese words have a gentler resonance than Chinese-origin formal vocabulary."},
 

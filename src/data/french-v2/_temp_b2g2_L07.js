@@ -92,7 +92,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'critiquer injustement quelqu'un' ?",
-     opts:["denigrer","deposseeder","demotiver","decentraliser"],
+     opts:["decentraliser","denigrer","deposseeder","demotiver"],
      ans:"denigrer",
      hint:"To unfairly speak badly of someone. From Latin meaning 'to blacken'."},
 
@@ -137,7 +137,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot designe le fait d'avoir perdu ses illusions ?",
-     opts:["desabuse","depite","debonnaire","antagoniste"],
+     opts:["debonnaire","antagoniste","desabuse","depite"],
      ans:"desabuse",
      hint:"Having lost your illusions about something. Think 'de-' (away) + 'abuse' (deceived)."},
 

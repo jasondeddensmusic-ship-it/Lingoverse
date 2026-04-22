@@ -90,7 +90,7 @@ const LESSON_18 = {id:"esv2_b2g2_l18",title:"Propiedades y materiales",icon:"�
  exampleSrc:"A: Adapting the premises to regulations cost thousands of euros.\nB: But it was mandatory to obtain the license.",
  funFact:"From 'adecuar' (to adapt). 'Adecuado' (suitable/appropriate) is the everyday adjective form."},
 
-{type:"mc",q:"¿Qué era un arcabuz?",opts:["Un arma de fuego antigua del siglo XVI","Un tipo de armadura medieval","Un barco de guerra","Un instrumento musical"],ans:"Un arma de fuego antigua del siglo XVI",hint:"Think about the early firearms that Spanish soldiers used during the age of exploration."},
+{type:"mc",q:"¿Qué era un arcabuz?",opts:["Un instrumento musical","Un arma de fuego antigua del siglo XVI","Un tipo de armadura medieval","Un barco de guerra"],ans:"Un arma de fuego antigua del siglo XVI",hint:"Think about the early firearms that Spanish soldiers used during the age of exploration."},
 
 {type:"teach",trg:"el autoconsumo",src:"the self-consumption / self-sufficiency",pos:"noun",gender:"m",
  note:"Masculine noun. Producing and consuming your own resources.",

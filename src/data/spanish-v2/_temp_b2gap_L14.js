@@ -32,7 +32,7 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
  exampleSrc:"A: Sparkling water contains carbonic acid.\nB: That is why it has that slightly sour taste.",
  funFact:"'Anhídrido carbónico' is the technical name for CO2 in Spanish chemistry."},
 
-{type:"mc",q:"Las latas de refresco están hechas de:",opts:["acetato","aluminio","carbonato","amoníaco"],ans:"aluminio",hint:"A lightweight silver metal that is easily recyclable."},
+{type:"mc",q:"Las latas de refresco están hechas de:",opts:["aluminio","carbonato","amoníaco","acetato"],ans:"aluminio",hint:"A lightweight silver metal that is easily recyclable."},
 
 {type:"teach",trg:"el abono",src:"the fertilizer / subscription",pos:"noun",gender:"m",
  note:"Masculine noun. Two meanings: plant fertilizer, or a subscription/pass.",
@@ -118,13 +118,13 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
 
 {type:"fb",s:"El {1} del autobús tuvo reflejos increíbles.",a:["conductor"],opts:["conductor","colador","compacto","acondicionamiento"],hint:"The person behind the wheel of a vehicle.",sSrc:"The bus {1} had incredible reflexes."},
 
-{type:"mc",q:"'Levantar el acta' de una reunión significa:",opts:["Destruir los documentos","Documentar lo que se discutió","Cancelar la reunión","Invitar a más personas"],ans:"Documentar lo que se discutió",hint:"Creating an official written record of what was discussed."},
+{type:"mc",q:"'Levantar el acta' de una reunión significa:",opts:["Invitar a más personas","Destruir los documentos","Documentar lo que se discutió","Cancelar la reunión"],ans:"Documentar lo que se discutió",hint:"Creating an official written record of what was discussed."},
 
 {type:"match",pairs:[{trg:"aluminio",src:"aluminum"},{trg:"abono",src:"fertilizer"},{trg:"colador",src:"strainer"},{trg:"camioneta",src:"van"},{trg:"acta",src:"minutes / record"}]},
 
 {type:"fb",s:"Todavía guardo mis {1} de música de los años noventa.",a:["compactos"],opts:["compactos","coladores","abonos","carbonatos"],hint:"Round discs that stored music before digital downloads.",sSrc:"I still keep my music {1} from the nineties."},
 
-{type:"mc",q:"'Abono' puede significar fertilizante Y TAMBIÉN:",opts:["Una herramienta","Un abono de temporada (pase)","Un tipo de metal","Una planta"],ans:"Un abono de temporada (pase)",hint:"Think about something you buy to access an entire season of events."}
+{type:"mc",q:"'Abono' puede significar fertilizante Y TAMBIÉN:",opts:["Un tipo de metal","Una planta","Una herramienta","Un abono de temporada (pase)"],ans:"Un abono de temporada (pase)",hint:"Think about something you buy to access an entire season of events."}
 ]};
 
 export default LESSON_14;

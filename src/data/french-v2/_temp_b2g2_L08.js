@@ -92,7 +92,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel motif decoratif en forme de V est present sur le logo Citroen ?",
-     opts:["le chevron","le crochet","l'armoiries","le chassis"],
+     opts:["le chassis","le chevron","le crochet","l'armoiries"],
      ans:"le chevron",
      hint:"A V-shaped pattern, also common in Parisian parquet floors."},
 
@@ -137,7 +137,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Que signifie 'encastrer' ?",
-     opts:["integrer dans une surface","peindre un mur","demolir un batiment","eclairer une piece"],
+     opts:["demolir un batiment","eclairer une piece","integrer dans une surface","peindre un mur"],
      ans:"integrer dans une surface",
      hint:"To fit something flush into a wall or s.... Think of built-in appliances."},
 

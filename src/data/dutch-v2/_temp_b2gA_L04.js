@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 04: Handel & Economie
+// B2 Gap Batch A. Lesson 04: Handel & Economie
 // Theme: Trade, commerce, investment
 
 const LESSON_4 = {id:"nlv2_b2gA_l4", title:"Handel & Economie", icon:"\u{1F4B9}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_4 = {id:"nlv2_b2gA_l4", title:"Handel & Economie", icon:"\u{1F4B9}"
    sSrc:"Cheese has been an important export product of the Netherlands for centuries."},
 
   {type:"mc", q:"De VOC had handelsposten over de hele wereld. Wat is een 'handelspost'?",
-   opts:["a trading post","a post office","a military base","a customs office"],
+   opts:["a customs office","a trading post","a post office","a military base"],
    ans:"a trading post",
    hint:"Handel (trade) + p... (station/outpost). A place for conducting business abroad."},
 
@@ -77,7 +77,7 @@ const LESSON_4 = {id:"nlv2_b2gA_l4", title:"Handel & Economie", icon:"\u{1F4B9}"
   ]},
 
   {type:"mc", q:"Het kapitalisme heeft voor- en nadelen. Wat is 'het kapitalisme'?",
-   opts:["an economic system based on private ownership and profit","a political party","a type of government","a trade agreement"],
+   opts:["a type of government","a trade agreement","an economic system based on private ownership and profit","a political party"],
    ans:"an economic system based on private ownership and profit",
    hint:"An -isme word describing the e... s... most Western countries use."},
 

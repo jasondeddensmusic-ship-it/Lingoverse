@@ -116,7 +116,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"좀 ___ 주세요! 혼자 못 해요.",
-     opts:["싸워","잃어","잠자","도와"],
+     opts:["잃어","잠자","도와","싸워"],
      ans:"도와",
      hint:"You need someone's assistance because you cannot do it alone."},
 
@@ -167,13 +167,13 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"강아지를 ___ 있어요.",
-     opts:["지우고","그리고","안고","치고"],
+     opts:["안고","치고","지우고","그리고"],
      ans:"그리고",
      hint:"Which verb means creating a picture or image with a pencil?"},
 
     {type:"mc",
      q:"피아노를 잘 ___?",
-     opts:["불어요","그려요","쳐요","춰요"],
+     opts:["쳐요","춰요","불어요","그려요"],
      ans:"쳐요",
      hint:"Korean uses a 'striking' verb for keyboard instruments."}
   ]

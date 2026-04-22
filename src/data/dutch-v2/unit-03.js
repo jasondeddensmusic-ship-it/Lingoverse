@@ -1,4 +1,4 @@
-// Unit 3 — Numbers & Time
+// Unit 3. Numbers & Time
 // Counting, Clock & Days
 
 import COVERAGE_U03 from './_coverage_u03.js';
@@ -277,10 +277,10 @@ export default {n:3,lang:"nl",srcLang:"en",track:"v2",title:"Numbers & Time",sub
         {type:"teach",trg:"het idee",src:"the idea",pos:"noun",gender:"n",phonetic:"hut ee-DAY",note:"Het-word. Stress on second syllable: ee-DAY.\nPlural: ideeën (note the trema: new syllable starts).\n'Goed idee!' = Good idea!",example:"A: Zullen we naar de markt gaan?\nB: Goed idee!\nA: We gaan samen.",exampleSrc:"A: Shall we go to the market?\nB: Good idea!\nA: We'll go together.",funFact:"Cognate with English 'idea', French 'idee', German 'Idee'. All from Greek 'idea' (form, appearance)."},
         {type:"teach",trg:"plannen maken",src:"to make plans",pos:"verb",gender:null,phonetic:"PLAN-nun MAH-kun",note:"'Plannen maken' = to make plans.\n'Ik maak plannen' = I'm making plans.\n'Maak je plannen?' = Are you making plans?",example:"A: Ik maak plannen voor het weekend.\nB: O, dat klinkt leuk!\nA: Ja, ik heb een goed idee.",exampleSrc:"A: I'm making plans for the weekend.\nB: Oh, that sounds fun!\nA: Yes, I have a good idea.",funFact:"Dutch compounds are transparent once you learn the parts."},
         {type:"tip",title:"📐 Leeftijd vs Oud",text:"Two ways to talk about age:\n\nHoe oud ben je? = How old are you?\nIk ben dertig jaar oud. = I am thirty years old.\n\nWat is je leeftijd? = What is your age?\nMijn leeftijd is dertig. = My age is thirty.\n\nIn conversation, 'hoe oud' is much more natural.\n'Leeftijd' is more formal or when referring to age as a concept:\n'Op mijn leeftijd...' = At my age...\n'Minimumleeftijd' = minimum age."},
-        {type:"mc",q:"'Wat een leeftijd!' is said about someone who is:",opts:["very fast","very young","very old","very kind"],ans:"very old",hint:"Leeftijd = age. Commenting on a notable age."},
-        {type:"mc",q:"Which article do both 'idee' and 'plan' take in Dutch?",opts:["de","geen","een","het"],ans:"het",hint:"Neither follows the -de pattern. Both are neuter nouns."},
+        {type:"mc",q:"'Wat een leeftijd!' is said about someone who is:",opts:["very old","very kind","very fast","very young"],ans:"very old",hint:"Leeftijd = age. Commenting on a notable age."},
+        {type:"mc",q:"Which article do both 'idee' and 'plan' take in Dutch?",opts:["een","het","de","geen"],ans:"het",hint:"Neither follows the -de pattern. Both are neuter nouns."},
         {type:"fb",opts:["plan","idee","leeftijd","keuze"],hint:"'Goed ___!' when someone suggests something smart",s:"Fietsen naar de markt? Goed ___!",a:"idee"},
-        {type:"mc",q:"'Plannen maken' means:",opts:["to cancel plans","to make plans","to miss plans","to discuss plans"],ans:"to make plans",hint:"Maken = to create"},
+        {type:"mc",q:"'Plannen maken' means:",opts:["to discuss plans","to cancel plans","to make plans","to miss plans"],ans:"to make plans",hint:"Maken = to create"},
         {type:"match",pairs:[{trg:"de leeftijd",src:"the age"},{trg:"het plan",src:"the plan"},{trg:"het idee",src:"the idea"},{trg:"plannen maken",src:"to make plans"}]},
         {type:"fb",opts:["leeftijd","plan","idee","keuze"],hint:"Asking about age: 'Wat is je ___?'",s:"Op mijn ___ ga ik niet meer hardlopen.",a:"leeftijd"}
   ]}

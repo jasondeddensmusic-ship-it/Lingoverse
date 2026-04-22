@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「知(し)っている」の否定形(ひていけい)はなんですか？",
-     opts:["知(し)りません","知(し)っていません","知(し)らないです","知(し)っていないです"],
+     opts:["知(し)っていないです","知(し)りません","知(し)っていません","知(し)らないです"],
      ans:"知(し)りません",
      hint:"This verb has an unusual negative pattern. The negative form does not follow the expected ている conjugation."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"I have a feeling it will rain."},
 
     {type:"mc", q:"「覚(おぼ)える」と「思(おも)い出(だ)す」はどう違(ちが)いますか？",
-     opts:["覚(おぼ)える is storing memories, 思(おも)い出(だ)す is retrieving them","They are the same","覚(おぼ)える is formal, 思(おも)い出(だ)す is casual","覚(おぼ)える is for names, 思(おも)い出(だ)す is for events"],
+     opts:["覚(おぼ)える is formal, 思(おも)い出(だ)す is casual","覚(おぼ)える is for names, 思(おも)い出(だ)す is for events","覚(おぼ)える is storing memories, 思(おも)い出(だ)す is retrieving them","They are the same"],
      ans:"覚(おぼ)える is storing memories, 思(おも)い出(だ)す is retrieving them",
      hint:"Think of memory as having two directions: putting information in and pulling information out."}
   ,{type:"fb", s:"間違(まちが)いに{1}ましたか？すぐ直(なお)してください。",

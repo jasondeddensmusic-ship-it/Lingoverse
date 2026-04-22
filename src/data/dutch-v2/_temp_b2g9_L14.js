@@ -17,10 +17,10 @@ const LESSON_14 = {id:"nlv2_b2g9_l14", title:"Gedrag & Verslaving", icon:"\u{1F9
   {type:"fb", s:"Het opvangcentrum helpt {1}.", a:["drugsgebruikers"], opts:["drugsgebruikers","gokkers","bedrogenen","insiders"], hint:"People who use drugs and need medical care and guidance", sSrc:"The shelter helps {1}."},
   {type:"fb", s:"De {1} eisen schadevergoeding.", a:["bedrogenen"], opts:["bedrogenen","geloofsgenoten","beleidsmensen","insiders"], hint:"People who have been deceived or betrayed in a fraud case", sSrc:"The {1} are demanding compensation."},
   {type:"match", pairs:[{trg:"het experimenteergedrag", src:"experimental behavior"},{trg:"de gokker", src:"gambler"},{trg:"de drugsgebruiker", src:"drug user"},{trg:"de gokverslaafde", src:"gambling addict"}]},
-  {type:"mc", q:"Wat is een 'klokkenluider' in het Nederlands?", opts:["Een muzikant","Een whistleblower","Een politieagent","Een journalist"], ans:"Een whistleblower", hint:"Literally a 'bell-ringer', someone who alerts the public to wrongdoing"},
+  {type:"mc", q:"Wat is een 'klokkenluider' in het Nederlands?", opts:["Een journalist","Een muzikant","Een whistleblower","Een politieagent"], ans:"Een whistleblower", hint:"Literally a 'bell-ringer', someone who alerts the public to wrongdoing"},
   {type:"fb", s:"Het programma heeft een culturele {1}.", a:["inslag"], opts:["inslag","insider","interimbasis","bestselleritis"], hint:"The character, slant, or orientation of something", sSrc:"The program has a cultural {1}."},
   {type:"match", pairs:[{trg:"de beleidsmens", src:"policy person"},{trg:"de bestselleritis", src:"bestseller fever"},{trg:"de inslag", src:"slant/character"},{trg:"de interimbasis", src:"interim basis"}]},
-  {type:"mc", q:"Wat betekent de '-genoot' in 'geloofsgenoot'?", opts:["Vijand","Medestander of metgezel","Leraar","Kind"], ans:"Medestander of metgezel", hint:"The suffix means 'companion' or 'fellow', as in lotgenoot (fellow sufferer)"},
+  {type:"mc", q:"Wat betekent de '-genoot' in 'geloofsgenoot'?", opts:["Leraar","Kind","Vijand","Medestander of metgezel"], ans:"Medestander of metgezel", hint:"The suffix means 'companion' or 'fellow', as in lotgenoot (fellow sufferer)"},
   {type:"fb", s:"Ik werk op {1}.", a:["interimbasis"], opts:["interimbasis","bestselleritis","beleidsmens","inslag"], hint:"A temporary or interim arrangement for employment", sSrc:"I work on an {1}."}
 ]};
 export default LESSON_14;

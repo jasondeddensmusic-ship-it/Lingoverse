@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"{1}, Japanese is difficult."},
 
     {type:"mc", q:"例(たと)えば is used to:",
-     opts:["Introduce a specific example","Express disagreement","Summarize a point","Change the topic"],
+     opts:["Change the topic","Introduce a specific example","Express disagreement","Summarize a point"],
      ans:"Introduce a specific example",
      hint:"This word means 'for e...' and helps move from general statements to concrete illustrations."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"In {1} of rain, let us do it indoors."},
 
     {type:"mc", q:"要(よう)するに is used when you want to:",
-     opts:["Get to the essential point quickly","Change the subject","Express surprise","Ask permission"],
+     opts:["Express surprise","Ask permission","Get to the essential point quickly","Change the subject"],
      ans:"Get to the essential point quickly",
      hint:"This phrase means 'in short' and signals you want a concise summary."},
 

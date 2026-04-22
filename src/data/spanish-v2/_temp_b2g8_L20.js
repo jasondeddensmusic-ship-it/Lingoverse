@@ -79,7 +79,7 @@ const LESSON_20 = {id:"esv2_b2g8_l20",title:"Economía y comercio",icon:"📊",x
  funFact:"In business Spanish, 'listado' implies a structured, formal document. 'Lista' is more everyday and casual."},
 
 {type:"mc",q:"¿Cuál es la función de un mediador?",
- opts:["Ayudar a resolver conflictos entre dos partes","Vender productos en un mercado","Medir terrenos y propiedades","Escribir informes mensuales"],
+ opts:["Escribir informes mensuales","Ayudar a resolver conflictos entre dos partes","Vender productos en un mercado","Medir terrenos y propiedades"],
  ans:"Ayudar a resolver conflictos entre dos partes",
  hint:"This person intervenes between two sides in a dispute to help them reach agreement."},
 
@@ -114,7 +114,7 @@ const LESSON_20 = {id:"esv2_b2g8_l20",title:"Economía y comercio",icon:"📊",x
  sSrc:"The {1} rent payment is made on the first day of each month."},
 
 {type:"mc",q:"¿De dónde son famosos los mejillones en España?",
- opts:["De Galicia","De Andalucía","De Madrid","De Canarias"],
+ opts:["De Madrid","De Canarias","De Galicia","De Andalucía"],
  ans:"De Galicia",
  hint:"This northwestern region of Spain is renowned for its seafood, especially shellfish from floating rafts."}
 ]};

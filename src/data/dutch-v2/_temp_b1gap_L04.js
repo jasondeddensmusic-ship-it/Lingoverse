@@ -1,4 +1,4 @@
-// L04: Health and Body — 20 B1 gap words
+// L04: Health and Body, 20 B1 gap words
 const LESSON_4 = {
   id:"nlv2_b1gap_l4", title:"Gezondheid en Lichaam", icon:"\u{1FA7A}", xp:15, board:true,
   steps:[
@@ -93,7 +93,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Een patiënt heeft plotseling hevige pijn. De situatie is ___.",
-     opts:["acuut","abstract","ambitieus","algemeen"],
+     opts:["algemeen","acuut","abstract","ambitieus"],
      ans:"acuut",
      hint:"Which adjective describes something sudden and requiring immediate action?"},
 
@@ -144,7 +144,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Waar woont een heel oud persoon die niet meer alleen kan wonen?",
-     opts:["een bejaardentehuis","een advocatenkantoor","een adviesbureau","een ambulance"],
+     opts:["een adviesbureau","een ambulance","een bejaardentehuis","een advocatenkantoor"],
      ans:"een bejaardentehuis",
      hint:"Think about the residential facility designed for very old people needing care."}
   ]

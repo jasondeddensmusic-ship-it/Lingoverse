@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 10 (Weather) — more weather terms, temperature, natural phenomena
+// Batch 2 expansion for Unit 10 (Weather), more weather terms, temperature, natural phenomena
 const BATCH2_L_1 = {
   id:"jav2_u10l_b2_1", title:"自然(しぜん)と天気(てんき)", icon:"🌊", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: A typhoon is coming. Please be careful.\nB: Yes, I will close the windows.",
    funFact:"Japan faces 5-10 typhoons per year, mostly between August and October. 台風(たいふう) comes from the same root as English 'typhoon' and Chinese 'tai feng.' Typhoon warnings are taken very seriously: trains stop, schools close, and people stock up on supplies. Japan's infrastructure is built to withstand them."},
 
-  {type:"mc", q:"蒸(む)し暑(あつ)い means:", opts:["dry and cold","hot and humid","cool and breezy","warm and sunny"], ans:"hot and humid",
+  {type:"mc", q:"蒸(む)し暑(あつ)い means:", opts:["hot and humid","cool and breezy","warm and sunny","dry and cold"], ans:"hot and humid",
    hint:"This compound adjective combines 'steamy' with 'h...,' describing Japan's s... climate."},
 
   {type:"teach", trg:"地震(じしん)", src:"earthquake", pos:"noun", gender:null,
@@ -78,7 +78,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: What is today's maximum temperature?\nB: It is 35 degrees.",
    funFact:"Weather reports use specific temperature terms: 最高気温(さいこうきおん) (maximum temperature), 最低気温(さいていきおん) (minimum temperature), 平均気温(へいきんきおん) (average temperature). 猛暑日(もうしょび) is an official term for days exceeding 35 degrees, increasingly common due to climate change."},
 
-  {type:"mc", q:"台風(たいふう) means:", opts:["earthquake","flood","typhoon","volcano"], ans:"typhoon",
+  {type:"mc", q:"台風(たいふう) means:", opts:["flood","typhoon","volcano","earthquake"], ans:"typhoon",
    hint:"The powerful tropical storm that hits Japan from August through October."},
 
   {type:"match", pairs:[{trg:"蒸(む)し暑(あつ)い",src:"muggy"},{trg:"梅雨(つゆ)",src:"rainy season"},{trg:"台風(たいふう)",src:"typhoon"},{trg:"地震(じしん)",src:"earthquake"}]},
@@ -88,7 +88,7 @@ const BATCH2_L_1 = {
   {type:"fb", s:"{1}が来(き)ます。気(き)をつけてください。\n(A typhoon is coming. Be careful.)", a:"台風(たいふう)", opts:["台風(たいふう)","地震(じしん)","雪(ゆき)","虹(にじ)"], sSrc:"A typhoon is coming. Be careful.",
    hint:"The powerful tropical storm that brings strong wind and rain."},
 
-  {type:"mc", q:"梅雨(つゆ) is:", opts:["a type of food","the rainy season","a temperature reading","a wind pattern"], ans:"the rainy season",
+  {type:"mc", q:"梅雨(つゆ) is:", opts:["a wind pattern","a type of food","the rainy season","a temperature reading"], ans:"the rainy season",
    hint:"This weather phenomenon occurs from mid-June, coinciding with plum ripening."},
 
   {type:"fb", s:"明日(あした)雨(あめ)が{1}と思(おも)います。\n(I think it will rain tomorrow.)", a:"降(ふ)る", opts:["降(ふ)る","晴(は)れる","曇(くも)る","吹(ふ)く"], sSrc:"I think it will rain tomorrow.",

@@ -81,7 +81,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Wat is 'glamping'?",
-     opts:["Luxe kamperen met comfort","Een soort glamoureuze kleding","Een sportieve activiteit","Een festival voor jongeren"],
+     opts:["Een festival voor jongeren","Luxe kamperen met comfort","Een soort glamoureuze kleding","Een sportieve activiteit"],
      ans:"Luxe kamperen met comfort",
      hint:"A blend of 'glamorous' and 'camping'. Think of staying outdoors but with luxury amenities."},
 
@@ -101,7 +101,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Welke Nederlandse wetenschapper maakte helium vloeibaar?",
-     opts:["Heike Kamerlingh Onnes","Christiaan Huygens","Antonie van Leeuwenhoek","Johannes van der Waals"],
+     opts:["Antonie van Leeuwenhoek","Johannes van der Waals","Heike Kamerlingh Onnes","Christiaan Huygens"],
      ans:"Heike Kamerlingh Onnes",
      hint:"This Leiden University physicist won the Nobel Prize for his work with extremely cold temperatures."}
   ]

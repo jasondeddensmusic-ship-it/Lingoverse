@@ -1,4 +1,4 @@
-// Lesson 7 — Obstaculos y limites (Obstacles and Limits)
+// Lesson 7. Obstaculos y limites (Obstacles and Limits)
 const LESSON_7 = {id:"esv2_b2g9_l7", title:"Obst\u00e1culos y l\u00edmites", icon:"\u{1F6A7}", xp:25, board:true, steps:[
   {type:"intro", title:"Obst\u00e1culos y l\u00edmites",
    desc:"Express impossibility, instability, and limitation. These abstract nouns are crucial for nuanced discussion of problems and challenges.",
@@ -35,7 +35,7 @@ const LESSON_7 = {id:"esv2_b2g9_l7", title:"Obst\u00e1culos y l\u00edmites", ico
    funFact:"'Irritaci\u00f3n' in medical Spanish almost always refers to physical inflammation, while 'irritabilidad' is the emotional trait."},
 
   {type:"mc", q:"\u00bfQu\u00e9 prefijo se usa antes de palabras que empiezan con 'r'?",
-   opts:["in-","im-","ir-","il-"],
+   opts:["ir-","il-","in-","im-"],
    ans:"ir-",
    hint:"Irreal, irreversible, irresponsable. The prefix adapts to the first consonant."},
 

@@ -73,7 +73,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"反転(はんてん)",src:"plot twist"},{trg:"文体(ぶんたい)",src:"writing style"},{trg:"解釈(かいしゃく)",src:"interpretation"},{trg:"影響力(えいきょうりょく)",src:"influence"}]},
 
-    {type:"mc", q:"ライトノベル is important to Japanese culture because:", opts:["It is the oldest literary form","It drives the anime industry and young adult reading","It is only read by academics","It replaced all other novel forms"], ans:"It drives the anime industry and young adult reading",
+    {type:"mc", q:"ライトノベル is important to Japanese culture because:", opts:["It replaced all other novel forms","It is the oldest literary form","It drives the anime industry and young adult reading","It is only read by academics"], ans:"It drives the anime industry and young adult reading",
      hint:"These illustrated novels are hugely popular with y... readers and are frequently adapted into a...."},
   ]
 };

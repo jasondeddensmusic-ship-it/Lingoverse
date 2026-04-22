@@ -1,4 +1,4 @@
-// Batch 6 — Unit 19 extra lesson. I sentimenti: Character Traits & Personality
+// Batch 6. Unit 19 extra lesson. I sentimenti: Character Traits & Personality
 const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", icon:"\u{1F3AD}", xp:15, board:true, steps:[
 {type:"intro", title:"Il carattere e la personalita",
  desc:"Learn adjectives to describe personality traits, character, and temperament in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
 ]},
 
 {type:"mc", q:"'Sensibile' in italiano NON significa...",
- opts:["sensible (English)","sensitive","emotionally responsive","easily moved"],
+ opts:["easily moved","sensible (English)","sensitive","emotionally responsive"],
  ans:"sensible (English)",
  hint:"A famous false friend. The E... 's...' is 'sensato' in Italian."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
  sSrc:"Laura is very {1}, you can always count on her."},
 
 {type:"mc", q:"Cosa significa 'fare il furbo'?",
- opts:["to try to be too clever or sneaky","to be brave","to be lazy","to be humble"],
+ opts:["to be lazy","to be humble","to try to be too clever or sneaky","to be brave"],
  ans:"to try to be too clever or sneaky",
  hint:"Usually negative: attempting to outsmart others in a dishonest way."},
 

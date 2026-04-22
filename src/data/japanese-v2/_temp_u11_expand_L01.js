@@ -24,7 +24,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
    exampleSrc:"A: When I get home, I change clothes and then do homework.\nB: How diligent.",
    funFact:"きがえる combines 着 (wear) and 替える (replace). Japanese schools require changing into indoor shoes (うわばき) and sometimes gym clothes. Many companies also have uniform changes. The concept of changing for different activities is deeply cultural."},
 
-  {type:"mc", q:"おきて、シャワーをあびて、あさごはんをたべます describes:", opts:["Three separate days","A sequence of morning actions","Three different people","Three choices"], ans:"A sequence of morning actions",
+  {type:"mc", q:"おきて、シャワーをあびて、あさごはんをたべます describes:", opts:["A sequence of morning actions","Three different people","Three choices","Three separate days"], ans:"A sequence of morning actions",
    hint:"て-form chains connect a... in the order they happen."},
 
   {type:"teach", trg:"〜てから", src:"after doing ~, then...", pos:"part", gender:null,
@@ -54,7 +54,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
    exampleSrc:"A: I cook dinner and then eat.\nB: What will you make?",
    funFact:"つくる covers making, building, creating, and cooking. The kanji 作る shows a person (亻) working with tools. Japanese cuisine values the art of making food: てづくり (handmade) is a premium quality marker for bento, sweets, and gifts."},
 
-  {type:"mc", q:"しゅくだいをしてからあそびにいく means:", opts:["Play instead of homework","Play before homework","Play after doing homework","Play and do homework together"], ans:"Play after doing homework",
+  {type:"mc", q:"しゅくだいをしてからあそびにいく means:", opts:["Play before homework","Play after doing homework","Play and do homework together","Play instead of homework"], ans:"Play after doing homework",
    hint:"てから emphasizes completing the first action before starting the second."},
 
   {type:"teach", trg:"ねて", src:"sleep (て-form)", pos:"verb", gender:null,
@@ -76,7 +76,7 @@ const LESSON_3 = {id:"jav2_u11l3", title:"アクションをつなげよう", ic
 
   {type:"match", pairs:[{trg:"かえって",src:"return (て)"},{trg:"つくって",src:"make (て)"},{trg:"ねて",src:"sleep (て)"},{trg:"あそんで",src:"play (て)"}]},
 
-  {type:"mc", q:"Which sentence correctly uses てから?", opts:["ねるてからおきます","ねてからおきます","ねたてからおきます","ねますてからおきます"], ans:"ねてからおきます",
+  {type:"mc", q:"Which sentence correctly uses てから?", opts:["ねますてからおきます","ねるてからおきます","ねてからおきます","ねたてからおきます"], ans:"ねてからおきます",
    hint:"てから attaches directly after the て-form. No extra endings needed."},
 
   {type:"fb", s:"ともだちと{1}、いえにかえります。\n(I hang out with friends and go home.)", a:"あそんで", opts:["あそんで","あそびて","あそって","あそぶて"], sSrc:"I hang out with friends and go home.",

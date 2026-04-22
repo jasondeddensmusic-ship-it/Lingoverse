@@ -1,4 +1,4 @@
-// Batch 3 — Unit 21, Lesson 1: Desideri e rimpianti (Wishes & Regrets)
+// Batch 3. Unit 21, Lesson 1: Desideri e rimpianti (Wishes & Regrets)
 const BATCH3_U21_L1 = {
   id:"itv2_u21l_b3_1", title:"Desideri e rimpianti", icon:"\uD83C\uDF1F", xp:15, board:true,
   steps:[
@@ -74,7 +74,7 @@ const BATCH3_U21_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What makes 'direi che...' more diplomatic than 'penso che...'?",
-     opts:["It is louder and more assertive","The conditional softens the statement into a gentle opinion","It is grammatically incorrect but accepted","It is only used by politicians"],
+     opts:["The conditional softens the statement into a gentle opinion","It is grammatically incorrect but accepted","It is only used by politicians","It is louder and more assertive"],
      ans:"The conditional softens the statement into a gentle opinion",
      hint:"The c... mood transforms direct statements into tactful suggestions. 'I would say' feels less confrontational than 'I think.'"},
 
@@ -104,7 +104,7 @@ const BATCH3_U21_L1 = {
      sSrc:"I {1} anything to go back to Italy."},
 
     {type:"mc", q:"Why is 'vivrei' irregular?",
-     opts:["The stem changes from viver- to vivr-","It uses a completely different word","It does not actually change at all","It adds an extra syllable"],
+     opts:["It does not actually change at all","It adds an extra syllable","The stem changes from viver- to vivr-","It uses a completely different word"],
      ans:"The stem changes from viver- to vivr-",
      hint:"The infinitive 'vivere' contracts to 'v...-' before adding conditional endings. This parallels the future tense pattern (vivro, vivrai, vivra)."},
 
@@ -115,7 +115,7 @@ const BATCH3_U21_L1 = {
      sSrc:"I {1} say yes."},
 
     {type:"mc", q:"What is 'Berrei volentieri' a polite way to do?",
-     opts:["Refuse a drink firmly","Accept a drink invitation gracefully","Order aggressively at a bar","Complain about the drink quality"],
+     opts:["Order aggressively at a bar","Complain about the drink quality","Refuse a drink firmly","Accept a drink invitation gracefully"],
      ans:"Accept a drink invitation gracefully",
      hint:"'Volentieri' (gladly) combined with the conditional creates a playful, polite acceptance. Less direct than 'vorrei bere.' Very natural Italian."}
   ,{type:"match",pairs:[{trg:"viaggerei",src:"I would travel"},{trg:"terrei",src:"I would keep / I would hold"},{trg:"saprei",src:"I would know (how to)"},{trg:"starei",src:"I would stay / I would be"}]}]

@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Let us check the {1} of this information."},
 
     {type:"mc", q:"Japanese social media users mostly:",
-     opts:["Use anonymous accounts without real names","Post with real names and photos","Only follow celebrities","Do not use social media"],
+     opts:["Do not use social media","Use anonymous accounts without real names","Post with real names and photos","Only follow celebrities"],
      ans:"Use anonymous accounts without real names",
      hint:"Japanese 投稿(とうこう) culture strongly values anonymity, unlike many Western social media platforms."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"This image is protected by {1}."},
 
     {type:"mc", q:"影響(えいきょう) literally means:",
-     opts:["Shadow and echo","Light and sound","Sun and moon","Wind and rain"],
+     opts:["Sun and moon","Wind and rain","Shadow and echo","Light and sound"],
      ans:"Shadow and echo",
      hint:"The kanji combine 影(かげ) (s...) and 響(ひびき) (e.../resound), suggesting influence that ripples outward."},
 

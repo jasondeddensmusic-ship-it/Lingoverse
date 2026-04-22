@@ -33,7 +33,7 @@ const LESSON_18 = {
     // Quiz block 1: first 4 words
     {type:"mc",
      q:"___ 사람이 다 왔어요.",
-     opts:["다른","모든","이런","여러"],
+     opts:["모든","이런","여러","다른"],
      ans:"모든",
      hint:"Which word means 'all' or 'every' when placed before a noun?"},
 
@@ -189,7 +189,7 @@ const LESSON_18 = {
     // Quiz block 5: units + cumulative
     {type:"mc",
      q:"할인이 삼십 ___예요.",
-     opts:["달러","미터","퍼센트","센티미터"],
+     opts:["센티미터","달러","미터","퍼센트"],
      ans:"퍼센트",
      hint:"Which unit expresses a proportion out of one hundred?"},
 

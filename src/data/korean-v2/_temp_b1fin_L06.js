@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"'온몸'에서 '온'의 의미는?",
-     opts:["따뜻한","전부","힘센","아픈"],
+     opts:["전부","힘센","아픈","따뜻한"],
      ans:"전부",
      hint:"The prefix 온 here means 'all' or 'entire,' not 'warm.'"},
 
@@ -143,7 +143,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"인구가 점점 적어지는 것을 뭐라고 해요?",
-     opts:["줄다","줄기","쥐다","크기"],
+     opts:["크기","줄다","줄기","쥐다"],
      ans:"줄다",
      hint:"This intransitive verb means something becomes less or shrinks over time."}
   ]

@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 7 — Daily Life and Objects
+// French B2 Gap Batch D Lesson 7. Daily Life and Objects
 const LESSON_7 = {id:"frv2_b2gD_l7", title:"Vie quotidienne et objets", icon:"🏠", xp:15, board:true, steps:[
   {type:"intro", title:"Vie quotidienne et objets",
    desc:"Learn vocabulary for everyday objects, household items, and daily routines that come up in real French life.",
@@ -73,7 +73,7 @@ const LESSON_7 = {id:"frv2_b2gD_l7", title:"Vie quotidienne et objets", icon:"�
 
   {type:"mc",
    q:"Que signifie 'en guise de remerciement'?",
-   opts:["Comme façon de remercier","Pour punir quelqu'un","Sans aucune raison","En échange d'un service"],
+   opts:["En échange d'un service","Comme façon de remercier","Pour punir quelqu'un","Sans aucune raison"],
    ans:"Comme façon de remercier",
    hint:"'En guise de' means 'by way of' or 'as a form of'. Think about what follows this expression."},
 

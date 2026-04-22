@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: Under these conditions, it is difficult.\nB: Under what conditions would it be possible?\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"条件 uses 条 (article/clause) and 件 (matter). The verb のむ (swallow) paired with じょうけん is vivid: you swallow the conditions whole, accepting them even if they are hard to digest. The opposite, じょうけんをつける (to attach conditions), means adding requirements before agreeing."},
 
-    {type:"mc", q:"じょうけんをのむ means:", opts:["To reject terms outright","To accept terms even if unfavorable","To propose new terms","To discuss terms casually"], ans:"To accept terms even if unfavorable",
+    {type:"mc", q:"じょうけんをのむ means:", opts:["To accept terms even if unfavorable","To propose new terms","To discuss terms casually","To reject terms outright"], ans:"To accept terms even if unfavorable",
      hint:"のむ literally means to swallow, implying you take in the conditions whole."},
 
     {type:"teach", trg:"だきょう", src:"compromise", pos:"noun", gender:null,
@@ -65,7 +65,7 @@ const LESSON_4 = {
      exampleSrc:"A: Regarding your proposal, we will consider it positively.\nB: Thank you. We look forward to your reply.\nA: Could you share your opinion?\nB: In my opinion, I think a bit more consideration is needed.\nA: Which points should be considered?\nB: We need to review the budget and staffing aspects once more.",
      funFact:"前向き literally means 'facing forward.' When added before けんとう, it signals genuine interest rather than a polite brush-off. まえむきにけんとう is significantly more positive than plain けんとう. Skilled negotiators listen carefully for the presence or absence of まえむき as a key signal."},
 
-    {type:"mc", q:"When a Japanese business partner says けんとうさせていただきます, the most likely real meaning is:", opts:["They are enthusiastic about the idea","They need time to get excited","They have already accepted","They will probably decline"], ans:"They will probably decline",
+    {type:"mc", q:"When a Japanese business partner says けんとうさせていただきます, the most likely real meaning is:", opts:["They have already accepted","They will probably decline","They are enthusiastic about the idea","They need time to get excited"], ans:"They will probably decline",
      hint:"Without まえむき (positive) attached, this phrase is often a gentle way to signal no."},
 
     {type:"fb", s:"このてんについては{1}ことができます。\n(We can concede on this point.)", a:"ゆずる", opts:["ゆずる","けんとう","だきょう","こうしょう"], sSrc:"We can concede on this point.",

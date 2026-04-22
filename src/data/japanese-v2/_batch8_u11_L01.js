@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"干(ほ)す",src:"to hang out to dry"},{trg:"畳(たた)む",src:"to fold"},{trg:"片付(かたづ)ける",src:"to tidy up"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"掃(は)く",src:"to sweep"}],
      hint:"Match each household chore verb with its English meaning."},
 
-    {type:"mc", q:"What is the transitivity pair for 零(こぼ)す (to spill something)?", opts:["零(こぼ)れる (it spills on its own)","零(こぼ)した (past tense)","零(こぼ)さない (not spill)","零(こぼ)したい (want to spill)"], ans:"零(こぼ)れる (it spills on its own)",
+    {type:"mc", q:"What is the transitivity pair for 零(こぼ)す (to spill something)?", opts:["零(こぼ)したい (want to spill)","零(こぼ)れる (it spills on its own)","零(こぼ)した (past tense)","零(こぼ)さない (not spill)"], ans:"零(こぼ)れる (it spills on its own)",
      hint:"Japanese verbs often have transitive/intransitive pairs with different endings."},
 
     {type:"fb", s:"靴(くつ)を{1}てからでかけましょう。\n(Let us polish our shoes before going out.)", a:"磨(みが)い", opts:["磨(みが)い","洗(あら)っ","拭(ふ)い","掃(は)い"], sSrc:"Let us polish our shoes before going out.",
      hint:"This verb means to polish, brush, or scrub something to make it shine."},
 
-    {type:"mc", q:"Why do Japanese school students do 雑巾(ぞうきん)がけ?", opts:["To clean floors on hands and knees, building character","To practice calligraphy on the floor","To play a traditional game","To exercise during breaks"], ans:"To clean floors on hands and knees, building character",
+    {type:"mc", q:"Why do Japanese school students do 雑巾(ぞうきん)がけ?", opts:["To play a traditional game","To exercise during breaks","To clean floors on hands and knees, building character","To practice calligraphy on the floor"], ans:"To clean floors on hands and knees, building character",
      hint:"This traditional cleaning method is part of students cleaning their own classrooms."}
   ,{type:"fb", s:"洗濯(せんたく)が終(お)わったら、シャツをハンガーに掛(か)けて{1}ください。",
      a:["干(ほ)す"],

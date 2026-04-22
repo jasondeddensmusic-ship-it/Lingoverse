@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"My future {1} is to become a doctor."},
 
     {type:"mc", q:"七転(ななころ)び八起(やお)き means:",
-     opts:["Fall seven times, rise eight (resilience)","Seven days of rest","Lucky number seven","Seven failures end success"],
+     opts:["Seven failures end success","Fall seven times, rise eight (resilience)","Seven days of rest","Lucky number seven"],
      ans:"Fall seven times, rise eight (resilience)",
      hint:"This proverb values getting back up after 失敗(しっぱい) (failure), one more time than you fell."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"The project {1}. Congratulations!"},
 
     {type:"mc", q:"Japan's birthrate is declining because of:",
-     opts:["Long work hours and childcare shortages","Government restrictions","Preference for large families","Religious reasons"],
+     opts:["Preference for large families","Religious reasons","Long work hours and childcare shortages","Government restrictions"],
      ans:"Long work hours and childcare shortages",
      hint:"Structural issues in w... culture and social support systems contribute to low 出産(しゅっさん) rates."},
 

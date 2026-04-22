@@ -73,7 +73,7 @@ const LESSON_13 = {id:"esv2_b2g8_l13",title:"Psicología y conducta",icon:"🧠"
  funFact:"'Hacer la vida un infierno' (to make life hell) is a very common expression in everyday Spanish."},
 
 {type:"mc",q:"¿Qué son las 'fechorías' de un niño travieso?",
- opts:["Sus travesuras y malas acciones","Sus buenas notas","Sus amigos del colegio","Sus juguetes favoritos"],
+ opts:["Sus juguetes favoritos","Sus travesuras y malas acciones","Sus buenas notas","Sus amigos del colegio"],
  ans:"Sus travesuras y malas acciones",
  hint:"Naughty actions or misdeeds, especially by children. Think mischief."},
 

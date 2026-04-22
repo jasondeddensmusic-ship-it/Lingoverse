@@ -98,7 +98,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Comment s'appelle le parlement français ?",
-     opts:["l'Assemblée nationale","l'Académie française","l'Administration","l'Association"],
+     opts:["l'Association","l'Assemblée nationale","l'Académie française","l'Administration"],
      ans:"l'Assemblée nationale",
      hint:"This institution is the lower house of the French parliament, where laws are debated and voted."},
 
@@ -143,7 +143,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel mot décrit une personne qui apprend seule, sans professeur ?",
-     opts:["autodidacte","anthropologue","architecte","artiste"],
+     opts:["architecte","artiste","autodidacte","anthropologue"],
      ans:"autodidacte",
      hint:"This noun describes someone who acquires knowledge and skills without formal education."},
 

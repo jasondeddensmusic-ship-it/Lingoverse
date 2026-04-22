@@ -67,7 +67,7 @@ const LESSON_2 = {id:"frv2_b2gC_l2", title:"Santé et médecine", icon:"\u{1FA7A
 
 {type:"mc",
  q:"Que signifie 'une pénurie de médecins' ?",
- opts:["Un manque grave de médecins","Un excès de médecins","Une grève de médecins","Un congrès de médecins"],
+ opts:["Un congrès de médecins","Un manque grave de médecins","Un excès de médecins","Une grève de médecins"],
  ans:"Un manque grave de médecins",
  hint:"Think of severe scarcity. When there are far too few of something essential."},
 
@@ -87,7 +87,7 @@ const LESSON_2 = {id:"frv2_b2gC_l2", title:"Santé et médecine", icon:"\u{1FA7A
 
 {type:"mc",
  q:"Quel mot décrit une anomalie physique présente dès la naissance ?",
- opts:["une malformation","une indigestion","une pénurie","une incapacité"],
+ opts:["une pénurie","une incapacité","une malformation","une indigestion"],
  ans:"une malformation",
  hint:"The prefix mal- means 'bad' and formation means 'forming.' Something formed incorrectly."},
 
@@ -105,7 +105,7 @@ const LESSON_2 = {id:"frv2_b2gC_l2", title:"Santé et médecine", icon:"\u{1FA7A
 
 {type:"mc",
  q:"Quel est le remède traditionnel français contre le rhume mentionné ?",
- opts:["L'inhalation d'eucalyptus","Le pédiatre","L'insuffisance","La mutilation"],
+ opts:["Le pédiatre","L'insuffisance","La mutilation","L'inhalation d'eucalyptus"],
  ans:"L'inhalation d'eucalyptus",
  hint:"Breathing in steam with a specific plant extract. A classic home remedy."},
 

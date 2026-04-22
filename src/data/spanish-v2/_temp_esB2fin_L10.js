@@ -49,7 +49,7 @@ const LESSON_10 = {
      funFact:"From Greek 'therapeia' (healing/service). 'Therapon' was an attendant or healer in ancient Greece."},
 
     {type:"mc", q:"¿Qué es la 'resiliencia'?",
-     opts:["Un tipo de terapia","La capacidad de recuperarse de las dificultades","Un trastorno mental","Una emoción negativa"],
+     opts:["La capacidad de recuperarse de las dificultades","Un trastorno mental","Una emoción negativa","Un tipo de terapia"],
      ans:"La capacidad de recuperarse de las dificultades",
      hint:"This quality allows people to bounce back after facing adversity or hardship."},
 
@@ -136,7 +136,7 @@ const LESSON_10 = {
     ]},
 
     {type:"mc", q:"¿Qué estudia la 'teoría del apego'?",
-     opts:["Las técnicas de relajación","Cómo creamos vínculos emocionales","Los tipos de estrés","Las fases del duelo"],
+     opts:["Las fases del duelo","Las técnicas de relajación","Cómo creamos vínculos emocionales","Los tipos de estrés"],
      ans:"Cómo creamos vínculos emocionales",
      hint:"This theory, developed by Bowlby, examines the emotional bonds we form, especially in childhood."},
 
@@ -153,7 +153,7 @@ const LESSON_10 = {
     ]},
 
     {type:"mc", q:"¿Qué es 'la autocompasión'?",
-     opts:["Sentir lástima por los demás","Ser amable y comprensivo con uno mismo","Un trastorno psicológico","La falta de empatía"],
+     opts:["Un trastorno psicológico","La falta de empatía","Sentir lástima por los demás","Ser amable y comprensivo con uno mismo"],
      ans:"Ser amable y comprensivo con uno mismo",
      hint:"This practice involves treating yourself with the same kindness you would show a friend."}
   ]

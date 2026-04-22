@@ -65,7 +65,7 @@ const LESSON_4 = {
 
     // Quiz steps
     {type:"mc", q:"Which type uses 'se piove'?",
-     opts:["Type 2 (hypothetical and unlikely situation)","Type 1 (real and possible situation)","Type 3 (impossible past condition)","Both Type 1 and Type 2 interchangeably"],
+     opts:["Type 1 (real and possible situation)","Type 3 (impossible past condition)","Both Type 1 and Type 2 interchangeably","Type 2 (hypothetical and unlikely situation)"],
      ans:"Type 1 (real and possible situation)",
      hint:"Present indicative after 'se' signals a r... possibility. T... 2 would use the imperfect subjunctive: 'se piovesse.'"},
 
@@ -84,7 +84,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"Why are the io and tu forms identical in the imperfect subjunctive?",
-     opts:["It is a common spelling error that persists","Italian grammar simplified these forms over time","They evolved from the same Latin forms","Only in irregular verbs are they identical"],
+     opts:["Italian grammar simplified these forms over time","They evolved from the same Latin forms","Only in irregular verbs are they identical","It is a common spelling error that persists"],
      ans:"They evolved from the same Latin forms",
      hint:"Se io parlassi, se tu parlassi. Context or pronouns clarify the subject. This is true for all verbs in this tense."},
 
@@ -106,7 +106,7 @@ const LESSON_4 = {
      sSrc:"If I {1} Italian better, I could work here."},
 
     {type:"mc", q:"What endings do -are verbs use in the imperfect subjunctive?",
-     opts:["-essi, -essi, -esse, -essimo, -este, -essero","-assi, -assi, -asse, -assimo, -aste, -assero","-issi, -issi, -isse, -issimo, -iste, -issero","-ossi, -ossi, -osse, -ossimo, -oste, -ossero"],
+     opts:["-issi, -issi, -isse, -issimo, -iste, -issero","-ossi, -ossi, -osse, -ossimo, -oste, -ossero","-essi, -essi, -esse, -essimo, -este, -essero","-assi, -assi, -asse, -assimo, -aste, -assero"],
      ans:"-assi, -assi, -asse, -assimo, -aste, -assero",
      hint:"The characteristic -a vowel appears throughout. -Ere verbs use -essi and -ire verbs use -issi. Each conjugation has its own vowel."}
   ]

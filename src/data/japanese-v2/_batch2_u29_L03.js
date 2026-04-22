@@ -73,7 +73,7 @@ const BATCH2_L_3 = {
 
     {type:"match", pairs:[{trg:"利息(りそく)",src:"interest (earned)"},{trg:"負債(ふさい)",src:"debt"},{trg:"税金(ぜいきん)",src:"tax"},{trg:"資産(しさん)",src:"assets"}]},
 
-    {type:"mc", q:"Japan's household savings are notable for:", opts:["Being among the largest in the world","Being among the smallest in the world","Being entirely in stocks","Being entirely in real estate"], ans:"Being among the largest in the world",
+    {type:"mc", q:"Japan's household savings are notable for:", opts:["Being entirely in stocks","Being entirely in real estate","Being among the largest in the world","Being among the smallest in the world"], ans:"Being among the largest in the world",
      hint:"Japanese households hold over 2,000 trillion yen, much of it in bank deposits."},
   ]
 };

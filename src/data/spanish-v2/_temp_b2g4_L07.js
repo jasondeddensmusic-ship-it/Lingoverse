@@ -72,7 +72,7 @@ const LESSON_7 = {id:"esv2_b2g4_l7",title:"Casa y vida cotidiana",icon:"🏠",xp
  exampleSrc:"A: The foundations of the house are damaged.\nB: We need an engineer to evaluate them.",
  funFact:"Figuratively, 'sentar los cimientos' means to lay the groundwork for something."},
 
-{type:"mc",q:"¿Para qué sirve un exprimidor?",opts:["Para hacer zumo de frutas","Para lavar platos","Para guardar alimentos","Para calentar comida"],ans:"Para hacer zumo de frutas",hint:"Think about the kitchen device you use to squeeze oranges."},
+{type:"mc",q:"¿Para qué sirve un exprimidor?",opts:["Para calentar comida","Para hacer zumo de frutas","Para lavar platos","Para guardar alimentos"],ans:"Para hacer zumo de frutas",hint:"Think about the kitchen device you use to squeeze oranges."},
 
 {type:"teach",trg:"el enredo",src:"the tangle / mess / intrigue",pos:"noun",gender:"m",
  note:"Masculine noun. A confusing situation or tangled mess.\nVerb: enredar.",
@@ -84,7 +84,7 @@ const LESSON_7 = {id:"esv2_b2g4_l7",title:"Casa y vida cotidiana",icon:"🏠",xp
 
 {type:"match",pairs:[{trg:"desván",src:"attic"},{trg:"ensaladera",src:"salad bowl"},{trg:"exprimidor",src:"juicer"},{trg:"escurridor",src:"colander"},{trg:"cabecera",src:"headboard"}]},
 
-{type:"mc",q:"¿Qué significa 'dar cabida a'?",opts:["Tener espacio para algo o alguien","Cerrar una puerta","Romper una ventana","Pintar una pared"],ans:"Tener espacio para algo o alguien",hint:"Think about making room or space for something or someone."},
+{type:"mc",q:"¿Qué significa 'dar cabida a'?",opts:["Romper una ventana","Pintar una pared","Tener espacio para algo o alguien","Cerrar una puerta"],ans:"Tener espacio para algo o alguien",hint:"Think about making room or space for something or someone."},
 
 {type:"fb",s:"El {1} de la estantería me llevó dos horas.",a:["ensamblaje"],opts:["ensamblaje","estampido","enredo","cimiento"],hint:"The process of putting furniture parts together.",sSrc:"The {1} of the bookshelf took me two hours."}
 ]};

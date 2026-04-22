@@ -1,4 +1,4 @@
-// Lesson 9 — Housing & Living
+// Lesson 9. Housing & Living
 const LESSON_9 = {id:"nlv2_b2g8_l9", title:"Wonen en Huisvesting", icon:"\u{1F3E0}", xp:20, board:true, steps:[
 {type:"intro", title:"Wonen en Huisvesting", desc:"Housing vocabulary for discussing the Dutch housing crisis, living arrangements, and domestic life. Essential for understanding one of the biggest topics in Dutch society.", goals:["Learn 10 housing and living words","Discuss the Dutch housing situation","Understand domestic vocabulary"]},
 {type:"teach", trg:"de huizenruil", src:"the house swap", pos:"noun", gender:"c", note:"COMPOUND: huizen (houses) + ruil (swap).\nDe-word. 'Een huizenruil voor vakantie.'\nAlso: 'woningruil' within social housing.", example:"A: Heb je weleens een huizenruil gedaan?\nB: Ja, voor vakantie in Frankrijk.\nA: Hoe was dat?\nB: Geweldig! Veel goedkoper dan een hotel.", exampleSrc:"A: Have you ever done a house swap?\nB: Yes, for a holiday in France.\nA: How was it?\nB: Great! Much cheaper than a hotel.", funFact:"House swapping is popular among Dutch families. Websites like HomeExchange have thousands of Dutch members."},

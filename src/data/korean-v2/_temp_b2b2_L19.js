@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 19: Surroundings and Position
+// Korean B2. Batch 2, Lesson 19: Surroundings and Position
 // Words: 두르다, 두리번거리다, 두부, 두세, 두어, 둘러싸다, 둘러싸이다, 둥지, 뒤늦다, 뒤따르다, 뒤지다, 뒤쪽, 뒤편, 뒷골목, 뒷모습, 뒷문, 뒷산, 드디어, 드러나다, 드물다
 
 const LESSON_19 = {
@@ -119,7 +119,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'뒷골목'에서 찾을 수 있는 것은?",
-     opts:["숨겨진 맛집","고속도로","공항","대형 마트"],
+     opts:["대형 마트","숨겨진 맛집","고속도로","공항"],
      ans:"숨겨진 맛집",
      hint:"Back alleys in Korean cities are famous for hiding small, authentic, delicious restaurants."},
 

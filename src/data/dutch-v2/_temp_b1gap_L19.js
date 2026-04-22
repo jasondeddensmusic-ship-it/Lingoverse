@@ -1,4 +1,4 @@
-// L19: People and Relationships — 20 B1 gap words
+// L19: People and Relationships, 20 B1 gap words
 const LESSON_19 = {
   id:"nlv2_b1gap_l19", title:"Mensen en Relaties", icon:"\u{1F465}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Twee vriendinnen praten gezellig over koetjes en kalfjes. Ze ___.",
-     opts:["babbelen","bakenen","baseren","beheren"],
+     opts:["beheren","babbelen","bakenen","baseren"],
      ans:"babbelen",
      hint:"Which informal verb means to have a cozy, casual chat?"},
 
@@ -138,7 +138,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Op welke leeftijd word je in Nederland volwassen en mag je stemmen?",
-     opts:["achttien","achttienhonderd","achthonderd","achtduizend"],
+     opts:["achthonderd","achtduizend","achttien","achttienhonderd"],
      ans:"achttien",
      hint:"Think about the age at which Dutch citizens gain full legal rights."}
   ]

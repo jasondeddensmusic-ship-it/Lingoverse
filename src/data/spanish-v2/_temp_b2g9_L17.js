@@ -1,4 +1,4 @@
-// Lesson 17 — Procesos y cambios (Processes and Changes)
+// Lesson 17. Procesos y cambios (Processes and Changes)
 const LESSON_17 = {id:"esv2_b2g9_l17", title:"Procesos y cambios", icon:"\u{1F504}", xp:25, board:true, steps:[
   {type:"intro", title:"Procesos y cambios",
    desc:"Discuss processes, transformations, and changes with formal vocabulary. These nouns describe how things evolve, interact, and complement each other.",
@@ -69,7 +69,7 @@ const LESSON_17 = {id:"esv2_b2g9_l17", title:"Procesos y cambios", icon:"\u{1F50
    funFact:"The INE (Instituto Nacional de Estad\u00edstica) publishes Spain's key economic and social indicators regularly."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es una contraprestaci\u00f3n?",
-   opts:["Un regalo sin condiciones","Lo que se da a cambio de un servicio recibido","Un tipo de multa","Una promesa verbal"],
+   opts:["Lo que se da a cambio de un servicio recibido","Un tipo de multa","Una promesa verbal","Un regalo sin condiciones"],
    ans:"Lo que se da a cambio de un servicio recibido",
    hint:"Contra means in return. Prestaci\u00f3n means service or benefit. Together: something given in exchange."},
 

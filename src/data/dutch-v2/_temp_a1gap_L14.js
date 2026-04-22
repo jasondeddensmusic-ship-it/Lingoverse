@@ -1,4 +1,4 @@
-// L14: Hobbies and Free Time — 20 A1 gap words
+// L14: Hobbies and Free Time, 20 A1 gap words
 const LESSON_14 = {
   id:"nlv2_a1gap_l14", title:"Hobby's en Vrije Tijd", icon:"\u{1F3B5}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"De Nederlanders zijn de grootste ___ van Europa.",
-     opts:["kampeerders","dansers","muzikanten","filmmakers"],
+     opts:["filmmakers","kampeerders","dansers","muzikanten"],
      ans:"kampeerders",
      hint:"Which hobby involves sleeping in tents or caravans? The Dutch love this activity."},
 

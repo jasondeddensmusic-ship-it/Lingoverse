@@ -1,4 +1,4 @@
-// L19: Bedrijfsleven — Corporate and Business Life
+// L19: Bedrijfsleven. Corporate and Business Life
 const LESSON_19 = {
   id:"nlv2_b2gC_l19", title:"Bedrijfsleven", icon:"\u{1F4BC}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"'Zzp'er' staat voor:",
-     opts:["Zeer zuinig persoon","Zelfstandige zonder personeel","Zakelijke zakenpartner","Zorgzame ziekenhuisprofessional"],
+     opts:["Zelfstandige zonder personeel","Zakelijke zakenpartner","Zorgzame ziekenhuisprofessional","Zeer zuinig persoon"],
      ans:"Zelfstandige zonder personeel",
      hint:"A self-employed person without staff. The Dutch term for a freelancer or solo entrepreneur."},
 
@@ -75,7 +75,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Welke munt had Nederland voor de euro?",
-     opts:["De franc","De mark","De gulden","De kroon"],
+     opts:["De mark","De gulden","De kroon","De franc"],
      ans:"De gulden",
      hint:"This Dutch currency was used for over 400 years. Its name means 'golden'."},
 
@@ -95,7 +95,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Het verschil tussen 'cliënt' en 'klant' is:",
-     opts:["Er is geen verschil","Cliënt is voor juridische/sociale diensten, klant voor winkels","Klant is formeler","Cliënt is informeler"],
+     opts:["Cliënt is informeler","Er is geen verschil","Cliënt is voor juridische/sociale diensten, klant voor winkels","Klant is formeler"],
      ans:"Cliënt is voor juridische/sociale diensten, klant voor winkels",
      hint:"A lawyer has clients, a shop has customers. Different professional contexts."},
 

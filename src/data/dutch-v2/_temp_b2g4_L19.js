@@ -1,4 +1,4 @@
-// L19: Advanced Adjectives & Verbs — 20 B2 gap words
+// L19: Advanced Adjectives & Verbs, 20 B2 gap words
 const LESSON_19 = {
   id:"nlv2_b2g4_l19", title:"Gevorderde Bijvoeglijke Naamwoorden en Werkwoorden", icon:"\uD83D\uDCD6", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_19 = {
      deepDive:{title:"Why patterns matter at B2",
       text:"B2 is where pattern recognition becomes your superpower. Instead of memorizing each word individually, you start seeing building blocks: 'dicht-' (closed/full), 'gebruiks-' (usage), '-vol' (full of), '-gebonden' (bound to). Once you know these affixes, you can understand thousands of compound adjectives you have never seen before. This is the key to reading Dutch newspapers fluently."}},
     {type:"mc", q:"What does 'opgedost' mean?",
-     opts:["undressed","dressed up","exhausted","confused"],
+     opts:["dressed up","exhausted","confused","undressed"],
      ans:"dressed up",
      hint:"From the informal verb 'dossen'. With the prefix 'op-', it means d... fancily."},
     {type:"fb", s:"Het kanaal is {1}.", a:["dichtgestort"],

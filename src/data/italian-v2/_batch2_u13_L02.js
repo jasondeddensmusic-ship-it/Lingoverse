@@ -74,7 +74,7 @@ const BATCH2_U13_L2 = {
 
     // Quiz steps
     {type:"mc", q:"What is the subjunctive of 'piacere' in 'Spero che ti ___'?",
-     opts:["piace","piaccia","piacere","piaciuto"],
+     opts:["piaccia","piacere","piaciuto","piace"],
      ans:"piaccia",
      hint:"This irregular form follows 'che.' In the subjunctive, 'piacere' changes its stem. The same form works for io, tu, and lui/lei."},
 
@@ -93,7 +93,7 @@ const BATCH2_U13_L2 = {
     ]},
 
     {type:"mc", q:"What does 'non è detto che' mean?",
-     opts:["It is absolutely forbidden to say that","Nobody has ever said that aloud before","It is not certain or guaranteed that","The words have not been written down yet"],
+     opts:["Nobody has ever said that aloud before","It is not certain or guaranteed that","The words have not been written down yet","It is absolutely forbidden to say that"],
      ans:"It is not certain or guaranteed that",
      hint:"Literally 'it is not said that.' It challenges certainty and pushes back on assumptions. Always followed by the subjunctive."},
 
@@ -104,7 +104,7 @@ const BATCH2_U13_L2 = {
      sSrc:"I don't think it {1} the trouble."},
 
     {type:"mc", q:"Which trigger expresses a tentative assumption, not a firm opinion?",
-     opts:["So che (I know that)","Suppongo che (I suppose that)","Dico che (I say that)","Vedo che (I see that)"],
+     opts:["Vedo che (I see that)","So che (I know that)","Suppongo che (I suppose that)","Dico che (I say that)"],
      ans:"Suppongo che (I suppose that)",
      hint:"'Supporre' means to place an idea underneath as a hypothesis. It is more tentative than 'pensare' (to think)."},
 
@@ -115,7 +115,7 @@ const BATCH2_U13_L2 = {
      sSrc:"It is better that you {1} to the doctor."},
 
     {type:"mc", q:"What does 'ammesso che' introduce?",
-     opts:["A conclusion based on proven facts","A hypothesis accepted for the sake of argument","A past event that is now completed","A direct quote from another person"],
+     opts:["A past event that is now completed","A direct quote from another person","A conclusion based on proven facts","A hypothesis accepted for the sake of argument"],
      ans:"A hypothesis accepted for the sake of argument",
      hint:"From 'ammettere' (to admit). The speaker grants a point hypothetically, without fully accepting it as fact."}
   ,{type:"match",pairs:[{trg:"non penso che",src:"I don't think that"},{trg:"pare che",src:"it seems that / apparently"},{trg:"e meglio che",src:"it is better that"},{trg:"non è detto che",src:"it is not certain that / that doesn't mean"},{trg:"ammesso che",src:"assuming that / granted that"}]}]

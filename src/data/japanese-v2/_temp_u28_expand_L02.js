@@ -24,7 +24,7 @@ const LESSON_4 = {
      exampleSrc:"A: It was a landscape as if from a dream.\nB: It must have been truly beautiful.\nA: Please tell me more about that.\nB: For example, looking at recent cases, the changes are dramatic.\nA: Is that so? How should we handle it?\nB: Let's first grasp the current situation, then make a plan.",
      funFact:"あたかも heightens the vividness of a comparison. While よう by itself means 'like,' あたかも...ようだ means 'just exactly as if.' It appears in literary descriptions, travel writing, and poetic prose. The kanji 恰 (fitting/just right) suggests a perfect match between the comparison and reality."},
 
-    {type:"mc", q:"ごとく is the literary equivalent of:", opts:["から (because)","ので (since)","よう or みたい (like/as if)","けど (but)"], ans:"よう or みたい (like/as if)",
+    {type:"mc", q:"ごとく is the literary equivalent of:", opts:["よう or みたい (like/as if)","けど (but)","から (because)","ので (since)"], ans:"よう or みたい (like/as if)",
      hint:"This classical form creates elevated comparisons in the same way よう does casually."},
 
     {type:"teach", trg:"えがく", src:"to depict / to portray / to draw", pos:"verb", gender:null,

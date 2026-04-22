@@ -86,7 +86,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"Quel adjectif décrit un rythme sauvage et plein d'énergie ?",
-     opts:["endiablé","déplacé","engoncé","déchu"],
+     opts:["déchu","endiablé","déplacé","engoncé"],
      ans:"endiablé",
      hint:"This word comes from 'diable' (devil). It describes something with devilishly wild energy."},
 

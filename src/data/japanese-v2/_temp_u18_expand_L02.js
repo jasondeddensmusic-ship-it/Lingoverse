@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: When is the report due?\nB: Next Monday.\nA: What did you eat?\nB: I ate the local specialty.",
      funFact:"報告書 is one of the most common business documents. Japanese office culture values written reports for everything: meeting summaries, project progress, trip reports. The word combines 報 (report), 告 (inform), and 書 (write/document). Learning to write houkokusho is a key skill for new employees."},
 
-    {type:"mc", q:"ぶちょうにしりょうをしらべさせられた means:", opts:["I researched for the director","The director researched the materials","I was made to research materials by the director","I asked the director to research"], ans:"I was made to research materials by the director",
+    {type:"mc", q:"ぶちょうにしりょうをしらべさせられた means:", opts:["I was made to research materials by the director","I asked the director to research","I researched for the director","The director researched the materials"], ans:"I was made to research materials by the director",
      hint:"Causative-passive: the speaker was forced by the d... (に marks the authority figure)."},
 
     {type:"teach", trg:"ていしゅつさせる", src:"to make someone submit (a document)", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"そうだんさせる",src:"let consult"},{trg:"ほうこくしょ",src:"report"},{trg:"ぶちょう",src:"department head"},{trg:"きゅうじつ",src:"holiday"}]},
 
-    {type:"mc", q:"きゅうにかいしゃにこさせられた means:", opts:["I suddenly went to the office","I was suddenly made to come to the office","I made someone come to my company","I decided to visit the office"], ans:"I was suddenly made to come to the office",
+    {type:"mc", q:"きゅうにかいしゃにこさせられた means:", opts:["I decided to visit the office","I suddenly went to the office","I was suddenly made to come to the office","I made someone come to my company"], ans:"I was suddenly made to come to the office",
      hint:"Causative-passive of くる (irregular: こさせられる). The speaker had no choice but to c...."},
   ]
 };

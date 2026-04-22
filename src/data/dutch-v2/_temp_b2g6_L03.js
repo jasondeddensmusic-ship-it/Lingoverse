@@ -81,7 +81,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Hoe noem je iemand die doet alsof hij iets is wat hij niet is?",
-     opts:["Een hypocriet","Een idealist","Een imitator","Een improvisator"],
+     opts:["Een improvisator","Een hypocriet","Een idealist","Een imitator"],
      ans:"Een hypocriet",
      hint:"From Greek 'hypokrites', originally meaning an actor or pretender on stage."},
 
@@ -101,7 +101,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Wat is een 'hype'?",
-     opts:["Een tijdelijke rage of trend","Een soort muziekinstrument","Een sportprestatie","Een technische fout"],
+     opts:["Een sportprestatie","Een technische fout","Een tijdelijke rage of trend","Een soort muziekinstrument"],
      ans:"Een tijdelijke rage of trend",
      hint:"This English loanword describes something that everyone is excited about, but usually does not last long."}
   ]

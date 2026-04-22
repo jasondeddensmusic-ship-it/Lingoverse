@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 11: Geschiedenis & Macht
+// B2 Gap Batch A. Lesson 11: Geschiedenis & Macht
 // Theme: History, power, empire
 
 const LESSON_11 = {id:"nlv2_b2gA_l11", title:"Geschiedenis & Macht", icon:"\u{1F451}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_11 = {id:"nlv2_b2gA_l11", title:"Geschiedenis & Macht", icon:"\u{1F
    sSrc:"The Netherlands was a great power in the seventeenth century."},
 
   {type:"mc", q:"De historicus presenteerde zijn nieuwe boek. Wat is een 'historicus'?",
-   opts:["someone who studies and writes about history","a history teacher","a museum guide","a politician"],
+   opts:["a politician","someone who studies and writes about history","a history teacher","a museum guide"],
    ans:"someone who studies and writes about history",
    hint:"From Latin. The academic who researches and publishes a... the past."},
 
@@ -77,7 +77,7 @@ const LESSON_11 = {id:"nlv2_b2gA_l11", title:"Geschiedenis & Macht", icon:"\u{1F
   ]},
 
   {type:"mc", q:"De Gouden Eeuw was de periode van Hollandse glorie. Wat is 'glorie'?",
-   opts:["glory, grandeur","poverty","war","trade"],
+   opts:["war","trade","glory, grandeur","poverty"],
    ans:"glory, grandeur",
    hint:"From Latin 'gloria'. The fame and splendour of a great achievement."},
 

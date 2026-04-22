@@ -98,7 +98,7 @@ const LESSON_8 = {id:"frv2_b1gap_l8", title:"Traits de caractère", icon:"\u{1F3
 
 {type:"mc",
  q:"Quel adjectif signifie 'qui a des sentiments contradictoires' ?",
- opts:["ambivalent","ambigu","affectif","approfondi"],
+ opts:["approfondi","ambivalent","ambigu","affectif"],
  ans:"ambivalent",
  hint:"From Latin meaning 'strong in both directions.' Having mixed feelings pulled two ways."},
 
@@ -143,7 +143,7 @@ const LESSON_8 = {id:"frv2_b1gap_l8", title:"Traits de caractère", icon:"\u{1F3
 
 {type:"mc",
  q:"Quel verbe signifie changer quelque chose en pire ?",
- opts:["altérer","assimiler","approfondir","affecter"],
+ opts:["approfondir","affecter","altérer","assimiler"],
  ans:"altérer",
  hint:"Unlike the English 'alter,' this French verb always implies degradation. The heat did this to the wine."}
 

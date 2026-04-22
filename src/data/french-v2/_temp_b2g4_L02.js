@@ -86,7 +86,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot designe une extreme cruaute ou un acte horrible ?",
-     opts:["une atrocite","une coexistence","une democratisation","une ascendance"],
+     opts:["une ascendance","une atrocite","une coexistence","une democratisation"],
      ans:"une atrocite",
      hint:"From Latin 'atrox' meaning fierce. Related to the English word 'atrocious'."},
 
@@ -119,7 +119,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Que signifie 'generationnel' ?",
-     opts:["Relatif a une generation","Relatif a la genetique","Relatif au genre","Relatif a la geographie"],
+     opts:["Relatif au genre","Relatif a la geographie","Relatif a une generation","Relatif a la genetique"],
      ans:"Relatif a une generation",
      hint:"Built on 'g...' with the suffix -el, describing something that concerns a specific age group."}
   ]

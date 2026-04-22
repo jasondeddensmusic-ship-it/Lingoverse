@@ -92,7 +92,7 @@ const LESSON_6 = {id:"frv2_b1gap_l6", title:"Le monde naturel", icon:"\u{1F41D}"
 
 {type:"mc",
  q:"Quel verbe signifie 'rendre plus tranchant' ?",
- opts:["aiguiser","ancrer","accentuer","amorcer"],
+ opts:["amorcer","aiguiser","ancrer","accentuer"],
  ans:"aiguiser",
  hint:"You do this to a knife that no longer cuts. Also used figuratively for curiosity."},
 
@@ -137,7 +137,7 @@ const LESSON_6 = {id:"frv2_b1gap_l6", title:"Le monde naturel", icon:"\u{1F41D}"
 
 {type:"mc",
  q:"Quel adjectif signifie 'tranchant' ou 'qui a un son haut' ?",
- opts:["aigu","ailé","acide","ancré"],
+ opts:["acide","ancré","aigu","ailé"],
  ans:"aigu",
  hint:"The French accent mark named after this word points upward. Think sharp pain or high pitch."}
 

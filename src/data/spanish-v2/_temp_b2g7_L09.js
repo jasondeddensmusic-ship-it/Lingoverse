@@ -13,7 +13,7 @@ const LESSON_9 = {id:"esv2_b2g7_l9",title:"Geografía y paisaje",icon:"🗺️",
 {type:"teach",trg:"el asta",src:"the flagpole / horn / antler",pos:"noun",gender:"f",note:"A pole for a flag, or an animal's horn. Feminine despite 'el'.",example:"A: La bandera ondea en el asta.\nB: Los ciervos tienen grandes astas.",exampleSrc:"A: The flag flies on the flagpole.\nB: The deer have large antlers.",funFact:"Uses 'el' (not 'la') because it starts with stressed 'a', but it is grammatically feminine: 'las astas', 'el asta rota'."},
 {type:"mc",q:"España tiene miles de kilómetros de:",opts:["Litoral","Infierno","Manuscrito","Legislación"],ans:"Litoral",hint:"This word means the strip of land along the coast."},
 {type:"fb",s:"Un {1} de nieve cubría todo el paisaje de la montaña.",a:["manto"],opts:["manto","litoral","laurel","lunar"],hint:"This word means a covering layer, like a blanket over the landscape.",sSrc:"A {1} of snow covered the entire mountain landscape."},
-{type:"mc",q:"'Dormirse en los laureles' significa:",opts:["Dejar de esforzarse después del éxito","Cocinar con hojas de laurel","Dormir bajo un árbol","Ganar una competición"],ans:"Dejar de esforzarse después del éxito",hint:"Laurel wreaths were given to victors. Resting on them means stopping effort."},
+{type:"mc",q:"'Dormirse en los laureles' significa:",opts:["Ganar una competición","Dejar de esforzarse después del éxito","Cocinar con hojas de laurel","Dormir bajo un árbol"],ans:"Dejar de esforzarse después del éxito",hint:"Laurel wreaths were given to victors. Resting on them means stopping effort."},
 {type:"fb",s:"Vimos una {1} de ciervos cruzando el valle al amanecer.",a:["manada"],opts:["manada","base","cabeza","asta"],hint:"This word describes a group of animals moving together.",sSrc:"We saw a {1} of deer crossing the valley at dawn."},
 {type:"match",pairs:[
   {trg:"el litoral",src:"the coastline"},
@@ -22,7 +22,7 @@ const LESSON_9 = {id:"esv2_b2g7_l9",title:"Geografía y paisaje",icon:"🗺️",
   {trg:"el infierno",src:"the hell / inferno"},
   {trg:"el laurel",src:"the laurel / bay leaf"}
 ]},
-{type:"mc",q:"'El asta' usa el artículo 'el' pero es:",opts:["Femenino (empieza con a tónica)","Masculino","Neutro","Plural"],ans:"Femenino (empieza con a tónica)",hint:"Like 'el agua' and 'el águila', feminine nouns starting with stressed 'a' use 'el'."},
+{type:"mc",q:"'El asta' usa el artículo 'el' pero es:",opts:["Neutro","Plural","Femenino (empieza con a tónica)","Masculino"],ans:"Femenino (empieza con a tónica)",hint:"Like 'el agua' and 'el águila', feminine nouns starting with stressed 'a' use 'el'."},
 {type:"fb",s:"La {1} de la montaña estaba cubierta de un espeso bosque.",a:["base"],opts:["base","cabeza","asta","manada"],hint:"This word means the bottom or foundation of something.",sSrc:"The {1} of the mountain was covered with a thick forest."}
 ]};
 export default LESSON_9;

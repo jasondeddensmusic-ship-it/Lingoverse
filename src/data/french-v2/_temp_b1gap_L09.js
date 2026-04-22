@@ -92,7 +92,7 @@ const LESSON_9 = {id:"frv2_b1gap_l9", title:"Le monde du travail", icon:"\u{1F4B
 
 {type:"mc",
  q:"Quel mot décrit l'habitude d'être souvent absent au travail ?",
- opts:["l'absentéisme","l'accompagnement","l'affichage","l'audit"],
+ opts:["l'audit","l'absentéisme","l'accompagnement","l'affichage"],
  ans:"l'absentéisme",
  hint:"This noun describes chronic absence from work or school. It costs companies a lot of money."},
 
@@ -143,7 +143,7 @@ const LESSON_9 = {id:"frv2_b1gap_l9", title:"Le monde du travail", icon:"\u{1F4B
 
 {type:"mc",
  q:"Quel verbe signifie 'raccourcir' ou 'rendre plus bref' ?",
- opts:["abréger","assembler","abattre","affecter"],
+ opts:["abattre","affecter","abréger","assembler"],
  ans:"abréger",
  hint:"'Pour...' this verb means 'to cut a long story short.' Think of making a speech shorter."}
 

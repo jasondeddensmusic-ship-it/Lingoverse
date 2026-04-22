@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 4: Emotions and Intensity
+// Korean B2. Batch 3, Lesson 4: Emotions and Intensity
 // Words: 감상하다, 감소, 감소되다, 감수성, 감싸다, 감옥, 감자, 감정적, 감추다, 감히, 갑, 갑작스럽다, 값싸다, 강남, 강당, 강도, 강력하다, 강력히, 강렬하다, 강변
 
 const LESSON_4 = {
@@ -101,7 +101,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"'감히'는 주로 어떤 맥락에서 쓰이나요?",
-     opts:["대담하거나 무례한 행동을 비판할 때","음식을 맛있게 먹을 때","조용히 쉴 때","친구와 즐겁게 놀 때"],
+     opts:["친구와 즐겁게 놀 때","대담하거나 무례한 행동을 비판할 때","음식을 맛있게 먹을 때","조용히 쉴 때"],
      ans:"대담하거나 무례한 행동을 비판할 때",
      hint:"This adverb expresses shock at someone's audacity or boldness."},
 

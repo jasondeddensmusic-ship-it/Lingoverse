@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)の自動販売機(じどうはんばいき)は何台(なんだい)くらいありますか？",
-     opts:["Over 5 million","About 1 million","About 100,000","About 500,000"],
+     opts:["About 500,000","Over 5 million","About 1 million","About 100,000"],
      ans:"Over 5 million",
      hint:"Japan has one of the highest densities of vending machines in the world, selling an incredible variety of products."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Let's be careful not to be deceived by fake news."},
 
     {type:"mc", q:"日本(にほん)のSNS文化(ぶんか)の特徴(とくちょう)は何(なん)ですか？",
-     opts:["Anonymity is more valued than in Western social media","Real names are always required","Video content only","No social media use"],
+     opts:["Video content only","No social media use","Anonymity is more valued than in Western social media","Real names are always required"],
      ans:"Anonymity is more valued than in Western social media",
      hint:"Japan's online culture places high value on this aspect, which is why Twitter/X has such a large Japanese user base."}
   ,{type:"fb", s:"毎日(まいにち)スマホで{1}の便利(べんり)なものをダウンロードしています。",

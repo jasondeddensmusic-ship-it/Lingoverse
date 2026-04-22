@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 05 — Koloniaal Verleden
+// Dutch B2 gapB Lesson 05. Koloniaal Verleden
 // Colonial history and heritage vocabulary
 
 const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
  funFact:"The Dutch fought bloody wars over the Banda Islands (modern Indonesia) to monopolize the nutmeg and clove trade."},
 
 {type:"mc", q:"'De VOC' was:",
- opts:["A Dutch airline","The Dutch East India Company","A type of ship","A colonial governor"],
+ opts:["The Dutch East India Company","A type of ship","A colonial governor","A Dutch airline"],
  ans:"The Dutch East India Company",
  hint:"The famous trading c... that started D... colonialism in Asia"},
 
@@ -65,7 +65,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
  sSrc:"The {1} began in the seventeenth century with the VOC."},
 
 {type:"mc", q:"'De kruidnagel' is:",
- opts:["A type of ship","A trading route","A spice shaped like a nail","A colonial weapon"],
+ opts:["A trading route","A spice shaped like a nail","A colonial weapon","A type of ship"],
  ans:"A spice shaped like a nail",
  hint:"Kruid (s...) + nagel (n...). One of the precious spices from the East."},
 
@@ -82,7 +82,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
 ]},
 
 {type:"mc", q:"'Java-koffie' dankt zijn naam aan:",
- opts:["A Dutch merchant named Java","The Indonesian island where Dutch plantations were","A type of coffee bean","The Java programming language"],
+ opts:["The Java programming language","A Dutch merchant named Java","The Indonesian island where Dutch plantations were","A type of coffee bean"],
  ans:"The Indonesian island where Dutch plantations were",
  hint:"The D... grew coffee on this famous I... i..."},
 

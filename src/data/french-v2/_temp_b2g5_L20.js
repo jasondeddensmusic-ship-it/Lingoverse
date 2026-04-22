@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 20 — Debate and Persuasion
+// French B2 Gap Lesson 20. Debate and Persuasion
 const LESSON_20 = {id:"frv2_b2g5_l20", title:"Débat et persuasion", icon:"🎤", xp:15, board:true, steps:[
   {type:"intro", title:"Débat et persuasion",
    desc:"Master vocabulary for argumentation, debate techniques, and persuasive communication at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_20 = {id:"frv2_b2g5_l20", title:"Débat et persuasion", icon:"🎤"
    funFact:"'Mettre en cause' (to implicate) and 'remettre en cause' (to question) are both very frequent."},
 
   {type:"mc", q:"Quel adjectif signifie 'trop grand pour être exprimé en mots'?",
-   opts:["Ineffable","Indiscutable","Irrésistible","Inexplicable"],
+   opts:["Inexplicable","Ineffable","Indiscutable","Irrésistible"],
    ans:"Ineffable",
    hint:"Beyond the power of words to express, more intense than merely 'indescribable'"},
 
@@ -105,7 +105,7 @@ const LESSON_20 = {id:"frv2_b2g5_l20", title:"Débat et persuasion", icon:"🎤"
   ]},
 
   {type:"mc", q:"Que signifie 'force est de constater'?",
-   opts:["On est obligé de reconnaître","On refuse d'admettre","On espère changer","On ignore volontairement"],
+   opts:["On espère changer","On ignore volontairement","On est obligé de reconnaître","On refuse d'admettre"],
    ans:"On est obligé de reconnaître",
    hint:"A formal construction meaning the facts compel us to acknowledge something"},
 
@@ -120,7 +120,7 @@ const LESSON_20 = {id:"frv2_b2g5_l20", title:"Débat et persuasion", icon:"🎤"
    hint:"The results are being challenged and the way the thesis is worded needs improvement"},
 
   {type:"mc", q:"Comment les Français expriment-ils leur désapprobation dans un spectacle?",
-   opts:["En sifflant","En applaudissant","En criant bravo","En frappant sur les tables"],
+   opts:["En applaudissant","En criant bravo","En frappant sur les tables","En sifflant"],
    ans:"En sifflant",
    hint:"Unlike some cultures, French audiences use this sharp sound to show displeasure"}
 ]};

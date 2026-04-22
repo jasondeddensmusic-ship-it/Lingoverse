@@ -32,7 +32,7 @@ const LESSON_15 = {id:"esv2_b2gap_l15",title:"Tiempo y manera",icon:"⏳",xp:15,
  exampleSrc:"A: The day before yesterday it rained non-stop.\nB: Yes, it was a horrible day to go out.",
  funFact:"Ante- (before) + ayer (yesterday). Some regions also use 'antes de ayer' as two words."},
 
-{type:"mc",q:"Si alguien hace algo 'adrede', lo hace:",opts:["Por accidente","A propósito","Con miedo","Sin pensar"],ans:"A propósito",hint:"The opposite of accidentally, with clear intention."},
+{type:"mc",q:"Si alguien hace algo 'adrede', lo hace:",opts:["A propósito","Con miedo","Sin pensar","Por accidente"],ans:"A propósito",hint:"The opposite of accidentally, with clear intention."},
 
 {type:"teach",trg:"como que no",src:"as if not / yeah right",pos:"adv",gender:null,
  note:"Colloquial expression. Expresses disbelief or sarcasm.",
@@ -118,13 +118,13 @@ const LESSON_15 = {id:"esv2_b2gap_l15",title:"Tiempo y manera",icon:"⏳",xp:15,
 
 {type:"fb",s:"El {1} navideño dura desde noviembre hasta enero.",a:["ajetreo"],opts:["ajetreo","bandazo","abandono","bautismo"],hint:"The frantic rushing and busy activity of a hectic period.",sSrc:"The Christmas {1} lasts from November to January."},
 
-{type:"mc",q:"'Bautismo de fuego' significa:",opts:["Una ceremonia religiosa","La primera experiencia difícil","Un incendio","Un viaje largo"],ans:"La primera experiencia difícil",hint:"Being thrown into a tough situation for the very first time."},
+{type:"mc",q:"'Bautismo de fuego' significa:",opts:["Un viaje largo","Una ceremonia religiosa","La primera experiencia difícil","Un incendio"],ans:"La primera experiencia difícil",hint:"Being thrown into a tough situation for the very first time."},
 
 {type:"match",pairs:[{trg:"adrede",src:"on purpose"},{trg:"antaño",src:"long ago"},{trg:"celeridad",src:"swiftness"},{trg:"ajetreo",src:"hustle and bustle"},{trg:"cachaza",src:"sluggishness"}]},
 
 {type:"fb",s:"{1}, estas tierras eran fértiles y estaban llenas de vida.",a:["Antaño"],opts:["Antaño","Anteayer","Adrede","A la moda"],hint:"A literary word meaning 'in the past' or 'long ago'.",sSrc:"{1}, these lands were fertile and full of life."},
 
-{type:"mc",q:"El gobierno cambia de política fiscal constantemente. Da muchos:",opts:["bandazos","ajetreos","bautismos","abandonos"],ans:"bandazos",hint:"Sudden swerves or changes in direction, like a lurching vehicle."}
+{type:"mc",q:"El gobierno cambia de política fiscal constantemente. Da muchos:",opts:["ajetreos","bautismos","abandonos","bandazos"],ans:"bandazos",hint:"Sudden swerves or changes in direction, like a lurching vehicle."}
 ]};
 
 export default LESSON_15;

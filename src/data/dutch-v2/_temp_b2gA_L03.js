@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 03: Jeugd & Opvoeding
+// B2 Gap Batch A. Lesson 03: Jeugd & Opvoeding
 // Theme: Youth, education, upbringing
 
 const LESSON_3 = {id:"nlv2_b2gA_l3", title:"Jeugd & Opvoeding", icon:"\u{1F9D2}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_3 = {id:"nlv2_b2gA_l3", title:"Jeugd & Opvoeding", icon:"\u{1F9D2}"
    sSrc:"My daughter goes to homework tutoring twice a week."},
 
   {type:"mc", q:"De jeugdrechter kijkt naar de achtergrond van de dader. Wat is een 'jeugdrechter'?",
-   opts:["a juvenile court judge","a youth worker","a school principal","a social worker"],
+   opts:["a social worker","a juvenile court judge","a youth worker","a school principal"],
    ans:"a juvenile court judge",
    hint:"A rechter (j...) who specializes in cases involving young people (jeugd)."},
 
@@ -77,7 +77,7 @@ const LESSON_3 = {id:"nlv2_b2gA_l3", title:"Jeugd & Opvoeding", icon:"\u{1F9D2}"
   ]},
 
   {type:"mc", q:"In welk land zijn internaten veel gewoner dan in Nederland?",
-   opts:["Belgie","Duitsland","Frankrijk","Engeland"],
+   opts:["Frankrijk","Engeland","Belgie","Duitsland"],
    ans:"Belgie",
    hint:"The other Dutch-speaking country, just south of the Netherlands."},
 

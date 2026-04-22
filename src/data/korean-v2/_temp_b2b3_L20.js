@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 20: Korean Food, Satisfaction, and Speech
+// Korean B2. Batch 3, Lesson 20: Korean Food, Satisfaction, and Speech
 // Words: 마음씨, 마이크, 마주치다, 마중, 마찰, 마크, 막걸리, 막내, 막상, 만두, 만만하다, 만세, 만점, 만족, 만족스럽다, 만족하다, 만화가, 말기, 말다, 말리다, 말씀드리다
 
 const LESSON_20 = {
@@ -113,7 +113,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"'만만하게 보지 마'의 의미는?",
-     opts:["나를 무시하거나 과소평가하지 마라","나를 자주 봐 달라","나를 도와달라","나를 기억해 달라"],
+     opts:["나를 기억해 달라","나를 무시하거나 과소평가하지 마라","나를 자주 봐 달라","나를 도와달라"],
      ans:"나를 무시하거나 과소평가하지 마라",
      hint:"This is a warning not to treat someone as if they are easy to deal with or unimportant."},
 

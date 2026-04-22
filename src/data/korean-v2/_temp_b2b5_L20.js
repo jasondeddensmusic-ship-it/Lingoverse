@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 20: Effort, Capital, and Demand
+// Korean B2. Batch 5, Lesson 20: Effort, Capital, and Demand
 // Words: 쇼, 수고, 수고하다, 수년, 수단, 수도, 수도권, 수도꼭지, 수돗물, 수동적, 수리하다, 수만, 수면, 수명, 수백, 수석, 수시로, 수십, 수없이, 수염, 수요
 
 const LESSON_20 = {

@@ -66,7 +66,7 @@ const LESSON_19 = {id:"esv2_b2gC_l19",title:"Deporte y actividad física",icon:"
  exampleSrc:"A: In Spain there is a lot of variety in skin color.\nB: The cultural mixing throughout history explains it.",
  funFact:"Spanish avoids 'raza' (race) in daily speech. 'Tono de piel' or 'color de piel' are the neutral terms used."},
 
-{type:"mc",q:"¿De dónde es la palmera más famosa de Europa?",opts:["De Elche","De Madrid","De Barcelona","De Sevilla"],ans:"De Elche",hint:"A city in southeastern Spain that has the continent's largest palm grove with over 200,000 trees."},
+{type:"mc",q:"¿De dónde es la palmera más famosa de Europa?",opts:["De Sevilla","De Elche","De Madrid","De Barcelona"],ans:"De Elche",hint:"A city in southeastern Spain that has the continent's largest palm grove with over 200,000 trees."},
 
 {type:"fb",s:"La humedad ha {1} en las paredes y hay que impermeabilizar.",a:["penetrado"],opts:["penetrado","patrullado","palmado","mediado"],hint:"A verb meaning to pass into or through something, used here about moisture entering walls.",sSrc:"Moisture has {1} the walls and we need to waterproof."},
 

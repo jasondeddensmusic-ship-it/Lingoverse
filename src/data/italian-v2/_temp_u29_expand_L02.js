@@ -38,7 +38,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Qual e il primo pilastro dell'intelligenza emotiva?",
-     opts:["La motivazione","L'autoconsapevolezza","L'empatia","L'autoregolazione"],
+     opts:["L'autoconsapevolezza","L'empatia","L'autoregolazione","La motivazione"],
      ans:"L'autoconsapevolezza",
      hint:"Before you can manage your emotions or understand others, you must first know your own feelings, strengths, and limitations."},
 
@@ -96,7 +96,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Perche la 'gestione delle emozioni' in Italia non significa reprimerle?",
-     opts:["Perche la legge vieta di reprimere le emozioni","Perche la cultura italiana valorizza l'espressione emotiva e cerca di canalizzarla, non di soffocarla","Perche gli italiani non provano emozioni forti","Perche la psicologia italiana non crede nella regolazione"],
+     opts:["Perche la psicologia italiana non crede nella regolazione","Perche la legge vieta di reprimere le emozioni","Perche la cultura italiana valorizza l'espressione emotiva e cerca di canalizzarla, non di soffocarla","Perche gli italiani non provano emozioni forti"],
      ans:"Perche la cultura italiana valorizza l'espressione emotiva e cerca di canalizzarla, non di soffocarla",
      hint:"Italian culture values openly expressing feelings. The goal is constructive channeling rather than suppression, which would be seen as unhealthy and inauthentic."}
   ]

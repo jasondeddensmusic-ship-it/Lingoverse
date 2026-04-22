@@ -1,4 +1,4 @@
-// Batch 3 — Unit 35 Lesson 2 (Innovation: Green Tech & Future Economy)
+// Batch 3. Unit 35 Lesson 2 (Innovation: Green Tech & Future Economy)
 const BATCH3_L_2 = {
   id:"itv2_u35l_b3_2", title:"Tecnologia verde e nuova economia", icon:"🌱", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Che cos'e l'idrogeno verde?",
-     opts:["Un tipo di gas naturale estratto dal sottosuolo marino","Idrogeno prodotto usando energia rinnovabile invece di combustibili fossili","Un colorante ecologico usato nell'industria tessile","Un nuovo tipo di carburante derivato dalle alghe marine"],
+     opts:["Idrogeno prodotto usando energia rinnovabile invece di combustibili fossili","Un colorante ecologico usato nell'industria tessile","Un nuovo tipo di carburante derivato dalle alghe marine","Un tipo di gas naturale estratto dal sottosuolo marino"],
      ans:"Idrogeno prodotto usando energia rinnovabile invece di combustibili fossili",
      hint:"Produced through electrolysis powered by renewable energy like solar or wind. 'Green' because no fossil fuels are used in the process."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"Perche il Superbonus 110% e stato sia un successo che un problema per l'Italia?",
-     opts:["Ha stimolato migliaia di ristrutturazioni ma e costato oltre 100 miliardi allo Stato","Ha funzionato solo nelle regioni del nord Italia e non nel sud","Ha migliorato solo gli edifici pubblici e non le case private","Ha richiesto troppo tempo per essere approvato dal parlamento"],
+     opts:["Ha richiesto troppo tempo per essere approvato dal parlamento","Ha stimolato migliaia di ristrutturazioni ma e costato oltre 100 miliardi allo Stato","Ha funzionato solo nelle regioni del nord Italia e non nel sud","Ha migliorato solo gli edifici pubblici e non le case private"],
      ans:"Ha stimolato migliaia di ristrutturazioni ma e costato oltre 100 miliardi allo Stato",
      hint:"It was a success in renovating buildings but the cost to public finances was staggering, creating a dilemma between environmental goals and fiscal responsibility."},
 
@@ -108,7 +108,7 @@ const BATCH3_L_2 = {
 
     {type:"mc",
      q:"In quale settore i produttori italiani sono pionieri nell'uso dell'agricoltura di precisione?",
-     opts:["La produzione di riso nella Pianura Padana","La viticoltura e la produzione di vino di qualità","L'allevamento di bufale per la mozzarella campana","La coltivazione di agrumi in Sicilia e Calabria"],
+     opts:["La coltivazione di agrumi in Sicilia e Calabria","La produzione di riso nella Pianura Padana","La viticoltura e la produzione di vino di qualità","L'allevamento di bufale per la mozzarella campana"],
      ans:"La viticoltura e la produzione di vino di qualità",
      hint:"Sensors monitor grape ripeness, soil, and microclimate. This technology helps produce wines of consistent excellence while reducing environmental impact."}
   ,{type:"match",pairs:[{trg:"la mobilita sostenibile",src:"sustainable mobility"},{trg:"il superbonus",src:"the superbonus (building incentive)"},{trg:"la startup green",src:"the green startup"},{trg:"il brevetto verde",src:"the green patent"}]},{type:"mc",q:"How do you say \"knowledge economy\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'economia della conoscenza"],ans:"l'economia della conoscenza",hint:"Recall the Italian vocabulary word taught in this lesson."},

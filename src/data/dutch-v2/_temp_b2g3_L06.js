@@ -1,4 +1,4 @@
-// L06: Technology & Digital World — 20 B2 gap words
+// L06: Technology & Digital World, 20 B2 gap words
 const LESSON_6 = {
   id:"nlv2_b2g3_l6", title:"Technologie en de Digitale Wereld", icon:"\uD83D\uDCBB", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_6 = {
      deepDive:{title:"Why some loans get 'de' and others 'het'",
       text:"English has no grammatical gender, so when Dutch borrows a word, article assignment seems random. Some patterns exist:\n\nMost English nouns become de-words (about 75%).\nWords ending in '-ment' often become het-words: het management, het entertainment.\nWords perceived as concrete objects tend to get 'de': de computer, de laptop.\nAbstract or collective nouns sometimes get 'het': het internet, het design.\n\nBut many are simply unpredictable. 'De game' or 'het game'? Both exist. Usage varies by region and generation."}},
     {type:"mc", q:"Wat is de Nederlandse term voor een medische ultrasound?",
-     opts:["een scan","een echo","een foto","een rontgen"],
+     opts:["een echo","een foto","een rontgen","een scan"],
      ans:"een echo",
      hint:"Named after the Greek nymph. Pregnant women commonly use this word for ultrasound appointments."},
     {type:"fb", s:"{1} neemt elk jaar toe.", a:["Cybercriminaliteit"],
@@ -114,7 +114,7 @@ const LESSON_6 = {
       {trg:"cookies", src:"cookies (digital)"}
     ]},
     {type:"mc", q:"Welk bedrijf was de eerste beursgenoteerde onderneming ter wereld?",
-     opts:["Shell","Philips","De VOC","Unilever"],
+     opts:["Philips","De VOC","Unilever","Shell"],
      ans:"De VOC",
      hint:"The 'Verenigde Oost-Indische Compagnie', founded in 1602 in the Netherlands."},
     {type:"fb", s:"Hoe ziet je {1} eruit?", a:["dagindeling"],

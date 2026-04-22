@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: This problem concerns everyone.\nB: Yes. We should all think about it.\nA: That is an excellent result.\nB: Thank you. It is thanks to the effort of the whole team.\nA: What are the future goals?\nB: To further improve quality.",
      funFact:"関(かかわ)る is the formal verb for involvement. にかかわらず (regardless of) is a JLPT N2 grammar point: 天気(てんき)にかかわらず (regardless of weather). 命(いのち)に関(かかわ)る (life-threatening) shows high-stakes involvement. The kanji 関 (gate/barrier) suggests connections that act as barriers or gateways."},
 
-    {type:"mc", q:"目立(めだ)つ means:", opts:["To stand out or be noticeable","To disappear","To be quiet","To copy others"], ans:"To stand out or be noticeable",
+    {type:"mc", q:"目立(めだ)つ means:", opts:["To copy others","To stand out or be noticeable","To disappear","To be quiet"], ans:"To stand out or be noticeable",
      hint:"This verb literally means 'eyes s... up' and describes being conspicuous."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"自分(じぶん)の過(あやま)ちを{1}ことが大切(たいせつ)です。\n(It is important to acknowledge your own mistakes.)", a:"みとめる", opts:["みとめる","おさえる","めだつ","やとう"], sSrc:"It is important to acknowledge your own mistakes.",
      hint:"The verb meaning to recognize, acknowledge, or accept something as true."},
 
-    {type:"mc", q:"勤(つと)める can mean all of the following EXCEPT:", opts:["To steal","To work at a company","To serve as a role","To strive/make effort"], ans:"To steal",
+    {type:"mc", q:"勤(つと)める can mean all of the following EXCEPT:", opts:["To serve as a role","To strive/make effort","To steal","To work at a company"], ans:"To steal",
      hint:"This verb has three kanji forms covering employment, serving, and effort."}
   ,{type:"match",pairs:[{trg:"伴(ともな)う",src:"to accompany / to entail / to involve"},{trg:"訴(うった)える",src:"to appeal / to sue / to complain"},{trg:"幅(はば)",src:"width / range / scope"},{trg:"目立(めだ)つ",src:"to stand out / to be noticeable / to be conspicuous"},{trg:"雇(やと)う",src:"to employ / to hire"},{trg:"勤(つと)める",src:"to work (at) / to serve / to strive"}]},
   {type:"fb", s:"会社(かいしゃ)は新(あたら)しい働(はたら)き方(かた)を正式(せいしき)に{1}ました。", a:["認(みと)める"], opts:["認(みと)める","取(と)り組(く)む","伴(ともな)う","異(こと)なる"], hint:"The verb for formally approving or acknowledging something as valid.", sSrc:"The company formally {1} the new way of working."},

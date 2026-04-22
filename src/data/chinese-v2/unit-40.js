@@ -51,12 +51,12 @@ lessons:[
  funFact:"The character 右 originated as a pictograph of a right hand holding a mouth. Some scholars think it evoked the idea of the dominant hand (what most people use to eat). 左 similarly shows a left hand holding a work tool."},
 
 {type:"mc", q:"一直(yìzhí) has two meanings. Which two?",
- opts:["quickly and slowly","straight and continuously","high and low","before and after"],
+ opts:["straight and continuously","high and low","before and after","quickly and slowly"],
  ans:"straight and continuously",
  hint:"One meaning is physical (line), one is temporal (time). Think of 'keep going' in two senses."},
 
 {type:"mc", q:"In 往前走, 往 functions as a:",
- opts:["verb","adjective","preposition","noun"],
+ opts:["adjective","preposition","noun","verb"],
  ans:"preposition",
  hint:"It connects the movement (走) to the direction (前). Grammatically it is a relationship word."},
 
@@ -124,7 +124,7 @@ lessons:[
  funFact:"完成 is the formal verb for finishing a task, project, or goal. In casual speech, 做完 (zuòwán, 'do until done') is more common. 完成 is better for larger, more intentional accomplishments."},
 
 {type:"mc", q:"最后(zuìhòu) literally means:",
- opts:["most early","most after","first time","last chance"],
+ opts:["most after","first time","last chance","most early"],
  ans:"most after",
  hint:"最 means most, 后 means after. Combine them literally."},
 
@@ -193,12 +193,12 @@ lessons:[
  funFact:"请(qǐng)注意(zhùyì) is a standard opener for announcements at airports, train stations, and offices. It politely alerts the audience that important information follows, like English 'please note' or 'attention, please.'"},
 
 {type:"mc", q:"Which verb means to physically press a button?",
- opts:["操作(cāozuò)","按(àn)","检查(jiǎnchá)","完成(wánchéng)"],
+ opts:["按(àn)","检查(jiǎnchá)","完成(wánchéng)","操作(cāozuò)"],
  ans:"按(àn)",
  hint:"Single character verb. The image is pressing down with the hand."},
 
 {type:"mc", q:"仔细(zǐxì) suggests being careful about:",
- opts:["safety","speed","fine details","social rules"],
+ opts:["speed","fine details","social rules","safety"],
  ans:"fine details",
  hint:"The second character 细 means '___' or 'slender.' Think of precision work, not physical danger."},
 

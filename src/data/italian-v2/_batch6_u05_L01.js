@@ -1,4 +1,4 @@
-// Batch 6 — Unit 05 extra lesson. A casa: Household Chores & Maintenance
+// Batch 6. Unit 05 extra lesson. A casa: Household Chores & Maintenance
 const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u{1F9F9}", xp:15, board:true, steps:[
 {type:"intro", title:"Le faccende domestiche",
  desc:"Learn vocabulary for household chores, cleaning, and basic home maintenance.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u
 ]},
 
 {type:"mc", q:"Come si chiama la macchina che aspira la polvere?",
- opts:["l'aspirapolvere","la lavatrice","il detersivo","lo stendino"],
+ opts:["lo stendino","l'aspirapolvere","la lavatrice","il detersivo"],
  ans:"l'aspirapolvere",
  hint:"A compound word: it sucks (aspira) dust (polvere)."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u
  sSrc:"Can you {1} these old newspapers? They are no longer needed."},
 
 {type:"mc", q:"Cosa metti nell'acqua per lavare i piatti?",
- opts:["il detersivo","la polvere","il secchio","la scopa"],
+ opts:["il secchio","la scopa","il detersivo","la polvere"],
  ans:"il detersivo",
  hint:"A cleaning product that removes grease and dirt from dishes."},
 

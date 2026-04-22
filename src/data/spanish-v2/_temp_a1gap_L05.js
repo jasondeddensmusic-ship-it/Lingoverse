@@ -1,4 +1,4 @@
-// L05: City & Transport — Getting around town
+// L05: City & Transport. Getting around town
 const LESSON_5 = {
   id:"esv2_a1gap_l5", title:"Por la ciudad", icon:"\u{1F68C}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"¿Qué término coloquial se usa para la forma abreviada de ese vehículo de dos ruedas?",
-     opts:["bici","bicla","bica","bice"],
+     opts:["bice","bici","bicla","bica"],
      ans:"bici",
      hint:"Spanish often shortens long words. This is a simple two-syllable abbreviation."},
 

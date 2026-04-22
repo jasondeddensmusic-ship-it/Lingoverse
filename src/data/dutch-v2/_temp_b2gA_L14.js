@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 14: Religie & Traditie
+// B2 Gap Batch A. Lesson 14: Religie & Traditie
 // Theme: Religion, tradition, cultural heritage
 
 const LESSON_14 = {id:"nlv2_b2gA_l14", title:"Religie & Traditie", icon:"\u{26EA}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_14 = {id:"nlv2_b2gA_l14", title:"Religie & Traditie", icon:"\u{26EA
    sSrc:"Saint Nicholas is the most well-known saint in the Netherlands."},
 
   {type:"mc", q:"Het katholicisme is de grootste religie in het zuiden. Wat is 'katholicisme'?",
-   opts:["Catholicism","capitalism","communism","colonialism"],
+   opts:["colonialism","Catholicism","capitalism","communism"],
    ans:"Catholicism",
    hint:"An -isme word for the Roman Catholic faith. Het-word."},
 
@@ -77,7 +77,7 @@ const LESSON_14 = {id:"nlv2_b2gA_l14", title:"Religie & Traditie", icon:"\u{26EA
   ]},
 
   {type:"mc", q:"Hij is een echte kenner van Nederlandse kunst. Wat is een 'kenner'?",
-   opts:["a connoisseur, someone with deep expertise","a collector","a salesperson","a critic"],
+   opts:["a salesperson","a critic","a connoisseur, someone with deep expertise","a collector"],
    ans:"a connoisseur, someone with deep expertise",
    hint:"From kennen (to know). S... who knows a subject inside and out."},
 

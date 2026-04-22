@@ -86,7 +86,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'prouver qu'un argument est faux' ?",
-     opts:["refuter","nuancer","etayer","convaincre"],
+     opts:["convaincre","refuter","nuancer","etayer"],
      ans:"refuter",
      hint:"From Latin 'refutare' meaning to repel. Used especially in academic debate."},
 
@@ -119,7 +119,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quelle qualite designe le fait de ne jamais abandonner malgre les difficultes ?",
-     opts:["la perseverance","la ponderation","l'objectivite","la concession"],
+     opts:["l'objectivite","la concession","la perseverance","la ponderation"],
      ans:"la perseverance",
      hint:"A virtue taught from primary school. Related to the verb 'perseverer', to persist."}
   ]

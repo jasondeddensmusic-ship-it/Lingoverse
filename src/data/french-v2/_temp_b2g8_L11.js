@@ -80,7 +80,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quel mot désigne l'ensemble des travailleurs dans un secteur ?",
-     opts:["la main-d'oeuvre","la détonation","la norme","la guise"],
+     opts:["la guise","la main-d'oeuvre","la détonation","la norme"],
      ans:"la main-d'oeuvre",
      hint:"Literally 'hand of work'. The collective workforce or the cost of hiring labor."},
 
@@ -119,7 +119,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Quelle sauce française accompagne traditionnellement le steak ?",
-     opts:["la béarnaise","la crème","la mâchoire","la martingale"],
+     opts:["la mâchoire","la martingale","la béarnaise","la crème"],
      ans:"la béarnaise",
      hint:"Named after a region in southwest France. Made with egg yolks and tarragon."},
 

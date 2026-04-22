@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 17: Recht & Bestuur
+// B2 Gap Batch A. Lesson 17: Recht & Bestuur
 // Theme: Law, governance, civil rights
 
 const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}",
    sSrc:"The Netherlands is in the final of the European Championship!"},
 
   {type:"mc", q:"Dat was een kanjer van een vis! Wat betekent 'kanjer'?",
-   opts:["something impressively big","something very small","something expensive","something old"],
+   opts:["something old","something impressively big","something very small","something expensive"],
    ans:"something impressively big",
    hint:"Informal Dutch for a whopper, s... i... large or good."},
 
@@ -77,7 +77,7 @@ const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}",
   ]},
 
   {type:"mc", q:"Denk je dat dit product een hype is? Wat is een 'hype'?",
-   opts:["excessive excitement about something temporary","a price increase","a marketing strategy","a product review"],
+   opts:["a marketing strategy","a product review","excessive excitement about something temporary","a price increase"],
    ans:"excessive excitement about something temporary",
    hint:"From English. When everyone is crazy a... s..., but it might not last."},
 

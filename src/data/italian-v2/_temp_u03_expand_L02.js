@@ -87,7 +87,7 @@ const LESSON_5 = {
      sSrc:"I have {1} hair and green eyes."},
 
     {type:"mc", q:"What is the difference between 'castano' and 'marrone'?",
-     opts:["Castano is for hair/eyes, marrone for objects","They are identical","Castano is lighter","Marrone is for hair"],
+     opts:["Marrone is for hair","Castano is for hair/eyes, marrone for objects","They are identical","Castano is lighter"],
      ans:"Castano is for hair/eyes, marrone for objects",
      hint:"Italian has specific brown words. One is for people's features, the other for things like shoes or furniture."},
 
@@ -106,7 +106,7 @@ const LESSON_5 = {
     ]},
 
     {type:"mc", q:"Which color adjective is invariable (never changes form)?",
-     opts:["Marrone","Rosso","Bianco","Nero"],
+     opts:["Bianco","Nero","Marrone","Rosso"],
      ans:"Marrone",
      hint:"Some adjectives borrowed from nouns freeze in one form. This brown word comes from a type of chestnut."},
 
@@ -117,7 +117,7 @@ const LESSON_5 = {
      sSrc:"She has green {1}."},
 
     {type:"mc", q:"Where does 'azzurro' come from?",
-     opts:["Arabic (lapis lazuli stone)","Latin","Germanic","French"],
+     opts:["Latin","Germanic","French","Arabic (lapis lazuli stone)"],
      ans:"Arabic (lapis lazuli stone)",
      hint:"This light blue word entered Italian through an A... borrowing, naming the mineral ground into blue pigment for Renaissance paintings."},
 

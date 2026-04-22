@@ -18,7 +18,7 @@ const LESSON_1 = {id:"esv2_b2g3_l1", title:"El mundo profesional", icon:"💼", 
 
   {type:"teach", trg:"directivo", src:"managerial / executive", pos:"adj", gender:null, note:"Adjective form. Un puesto directivo = a managerial position.\nAlso used as a noun: el directivo.", example:"A: ¿Es un cargo directivo?\nB: Sí, tendrás un equipo de quince personas.", exampleSrc:"A: Is it a managerial position?\nB: Yes, you'll have a team of fifteen people.", funFact:"Spain uses directivo for both the person and the adjective. The RAE accepts both uses."},
 
-  {type:"mc", q:"¿Quién organiza los equipos y proyectos en una empresa?", opts:["El administrador","El coordinador","El conductor","El diseñador"], ans:"El coordinador", hint:"This role is specifically about arranging teams and organizing collaboration."},
+  {type:"mc", q:"¿Quién organiza los equipos y proyectos en una empresa?", opts:["El coordinador","El conductor","El diseñador","El administrador"], ans:"El coordinador", hint:"This role is specifically about arranging teams and organizing collaboration."},
 
   {type:"teach", trg:"el carpintero", src:"the carpenter", pos:"noun", gender:"m", note:"Male form. Female: la carpintera.\nWorks with wood to build furniture or structures.", example:"A: Necesito un carpintero para la estantería.\nB: Conozco a uno muy bueno en el barrio.", exampleSrc:"A: I need a carpenter for the bookshelf.\nB: I know a very good one in the neighbourhood.", funFact:"From Latin carpentarius (carriage maker). Carpintería (workshop) is still a common sight in Spanish towns."},
 
@@ -34,7 +34,7 @@ const LESSON_1 = {id:"esv2_b2g3_l1", title:"El mundo profesional", icon:"💼", 
 
   {type:"teach", trg:"el concursante", src:"the contestant", pos:"noun", gender:"m", note:"Male or female: el/la concursante.\nFrom concurso (contest, competition).", example:"A: La concursante de Sevilla ganó el primer premio.\nB: ¡Se lo merecía, fue brillante!", exampleSrc:"A: The contestant from Seville won first prize.\nB: She deserved it, she was brilliant!", funFact:"Concurso can mean both a competition and a public tender for contracts. Context decides."},
 
-  {type:"mc", q:"Un aspirante es alguien que...", opts:["aspira a conseguir un puesto","administra un edificio","diseña logotipos","conduce un autobús"], ans:"aspira a conseguir un puesto", hint:"The word shares its root with 'aspire' in English."},
+  {type:"mc", q:"Un aspirante es alguien que...", opts:["conduce un autobús","aspira a conseguir un puesto","administra un edificio","diseña logotipos"], ans:"aspira a conseguir un puesto", hint:"The word shares its root with 'aspire' in English."},
 
   {type:"teach", trg:"el basurero", src:"the waste collector / rubbish bin", pos:"noun", gender:"m", note:"Double meaning: the person who collects rubbish, or the bin itself.\nFrom basura (rubbish).", example:"A: ¿A qué hora pasa el basurero?\nB: A las ocho de la noche, como siempre.", exampleSrc:"A: What time does the waste collector come?\nB: At eight in the evening, as always.", funFact:"In some Latin American countries, basurero means the rubbish dump itself. In Spain, vertedero is more common for that."},
 
@@ -42,11 +42,11 @@ const LESSON_1 = {id:"esv2_b2g3_l1", title:"El mundo profesional", icon:"💼", 
 
   {type:"fb", s:"La {1} del club de fútbol ha decidido contratar un nuevo entrenador.", a:["directiva"], opts:["directiva","carpintería","aspirante","conductor"], hint:"The governing board of an organization makes high-level decisions.", sSrc:"The {1} of the football club has decided to hire a new coach."},
 
-  {type:"mc", q:"¿Qué significa 'carpintería'?", opts:["Un taller donde se trabaja la madera","Una tienda de zapatos","Una oficina de abogados","Un restaurante familiar"], ans:"Un taller donde se trabaja la madera", hint:"The -ería suffix marks a trade or its shop. Think about what a carpintero does."},
+  {type:"mc", q:"¿Qué significa 'carpintería'?", opts:["Una oficina de abogados","Un restaurante familiar","Un taller donde se trabaja la madera","Una tienda de zapatos"], ans:"Un taller donde se trabaja la madera", hint:"The -ería suffix marks a trade or its shop. Think about what a carpintero does."},
 
   {type:"fb", s:"Hay diez {1} para la plaza de coordinador.", a:["aspirantes"], opts:["aspirantes","carpinteros","conductores","caseros"], hint:"People who are applying and hoping to get a position.", sSrc:"There are ten {1} for the coordinator position."},
 
-  {type:"mc", q:"¿Cuál de estas palabras tiene dos significados muy diferentes?", opts:["El casero: propietario y comida hecha en casa","El carpintero: trabajador y herramienta","El barrendero: empleado y escoba","El aspirante: candidato y aspiradora"], ans:"El casero: propietario y comida hecha en casa", hint:"One word can describe both a property owner and a style of cooking."}
+  {type:"mc", q:"¿Cuál de estas palabras tiene dos significados muy diferentes?", opts:["El carpintero: trabajador y herramienta","El barrendero: empleado y escoba","El aspirante: candidato y aspiradora","El casero: propietario y comida hecha en casa"], ans:"El casero: propietario y comida hecha en casa", hint:"One word can describe both a property owner and a style of cooking."}
 ]};
 
 export default LESSON_1;

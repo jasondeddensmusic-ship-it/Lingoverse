@@ -98,7 +98,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Que signifie 'Attention !' en français ?",
-     opts:["Watch out!","Good job!","Hello!","Goodbye!"],
+     opts:["Goodbye!","Watch out!","Good job!","Hello!"],
      ans:"Watch out!",
      hint:"This word is used as a warning to be careful about something dangerous or important."},
 
@@ -143,7 +143,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel mot signifie 'absolutely' en français ?",
-     opts:["absolument","actuellement","agréablement","amicalement"],
+     opts:["agréablement","amicalement","absolument","actuellement"],
      ans:"absolument",
      hint:"This adverb is used to express total agreement, derived from 'absolu'."},
 

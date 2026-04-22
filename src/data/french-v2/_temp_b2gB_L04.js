@@ -76,7 +76,7 @@ const LESSON_4 = {
      sSrc:"The {1} of the high school suspended three students."},
 
     {type:"mc", q:"Quelle est la réalisation orale de l'adjectif 'prompt' en français standard ?",
-     opts:["pron","prompt","promt","prom"],
+     opts:["prom","pron","prompt","promt"],
      ans:"pron",
      hint:"The final letters -pt are silent: both the p and the t disappear when spoken aloud."},
 
@@ -93,7 +93,7 @@ const LESSON_4 = {
      sSrc:"My {1} presented the same conclusions as me."},
 
     {type:"mc", q:"Que signifie 'programmation culturelle'?",
-     opts:["Le calendrier des evenements artistiques","L'ecriture de code informatique","La formation des professeurs","La planification financiere"],
+     opts:["La formation des professeurs","La planification financiere","Le calendrier des evenements artistiques","L'ecriture de code informatique"],
      ans:"Le calendrier des evenements artistiques",
      hint:"Culturelle narrows the meaning to arts and events, not computers"},
 
@@ -103,7 +103,7 @@ const LESSON_4 = {
      sSrc:"This region is {1} thanks to tourism."},
 
     {type:"mc", q:"Qui dirige un lycee en France?",
-     opts:["Un proviseur","Un directeur","Un doyen","Un recteur"],
+     opts:["Un directeur","Un doyen","Un recteur","Un proviseur"],
      ans:"Un proviseur",
      hint:"Each school level has its own title; this one is specific to high school"},
 

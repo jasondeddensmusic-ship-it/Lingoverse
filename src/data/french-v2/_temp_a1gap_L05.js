@@ -98,7 +98,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot signifie 'the tree' en français ?",
-     opts:["l'arbre","l'abri","l'allée","l'arche"],
+     opts:["l'arche","l'arbre","l'abri","l'allée"],
      ans:"l'arbre",
      hint:"This masculine noun refers to a large plant with a trunk, branches, and leaves."},
 
@@ -143,7 +143,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot décrit un petit hôtel à la campagne ?",
-     opts:["l'auberge","l'agence","l'atelier","l'arche"],
+     opts:["l'atelier","l'arche","l'auberge","l'agence"],
      ans:"l'auberge",
      hint:"This feminine noun refers to a cozy rural accommodation, often with a restaurant."},
 

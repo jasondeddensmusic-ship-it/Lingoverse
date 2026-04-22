@@ -1,4 +1,4 @@
-// Korean V2 Unit 32 — A2 Vocabulary Expansion: Food, School & Shopping
+// Korean V2 Unit 32. A2 Vocabulary Expansion: Food, School & Shopping
 // New unit for TOPIK A-level gap coverage (lessons 7-12)
 // srcLang: English
 

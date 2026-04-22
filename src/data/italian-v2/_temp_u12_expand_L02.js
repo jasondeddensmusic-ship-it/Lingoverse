@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u12l5", title:"Racconti di viaggio", icon:"\uD83C\uDF
   ]},
 
   {type:"mc", q:"How is duration expressed with 'rimanere'?",
-   opts:["Without a preposition: 'siamo rimasti tre giorni'","With 'per': 'siamo rimasti per tre giorni'","With 'da': 'siamo rimasti da tre giorni'","With 'di': 'siamo rimasti di tre giorni'"],
+   opts:["With 'di': 'siamo rimasti di tre giorni'","Without a preposition: 'siamo rimasti tre giorni'","With 'per': 'siamo rimasti per tre giorni'","With 'da': 'siamo rimasti da tre giorni'"],
    ans:"Without a preposition: 'siamo rimasti tre giorni'",
    hint:"No 'for' needed in Italian. Just the verb + the time: 't... g...,' 'una settimana,' 'due notti.'"},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u12l5", title:"Racconti di viaggio", icon:"\uD83C\uDF
    sSrc:"I got {1} in the old town!"},
 
   {type:"mc", q:"When does 'passare' use essere vs. avere?",
-   opts:["Essere for movement (passed through), avere for time (spent)","Always essere","Always avere","It does not matter"],
+   opts:["Always avere","It does not matter","Essere for movement (passed through), avere for time (spent)","Always essere"],
    ans:"Essere for movement (passed through), avere for time (spent)",
    hint:"'Sono passato da Roma' (m...) vs. 'Ho passato una bella giornata' (spending t...). The meaning changes."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u12l5", title:"Racconti di viaggio", icon:"\uD83C\uDF
    sSrc:"We {1} for lunch at a farm restaurant."},
 
   {type:"mc", q:"What is an 'agriturismo'?",
-   opts:["A farm restaurant or farm stay serving homegrown food","A travel agency","A city hotel","A highway rest stop"],
+   opts:["A travel agency","A city hotel","A highway rest stop","A farm restaurant or farm stay serving homegrown food"],
    ans:"A farm restaurant or farm stay serving homegrown food",
    hint:"'Agri-' (f...) + 'turismo' (tourism). Rural Italian dining at its best, using ingredients grown on-site."},
 

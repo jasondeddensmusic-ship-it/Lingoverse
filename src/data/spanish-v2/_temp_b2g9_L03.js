@@ -1,4 +1,4 @@
-// Lesson 3 — Mercados y dinero (Markets and Money)
+// Lesson 3. Mercados y dinero (Markets and Money)
 const LESSON_3 = {id:"esv2_b2g9_l3", title:"Mercados y dinero", icon:"\u{1F4B0}", xp:25, board:true, steps:[
   {type:"intro", title:"Mercados y dinero",
    desc:"Dive into the language of markets, trade, and finance. From retail to international commerce, these words power economic conversation.",
@@ -35,7 +35,7 @@ const LESSON_3 = {id:"esv2_b2g9_l3", title:"Mercados y dinero", icon:"\u{1F4B0}"
    funFact:"Spain's CNMC (National Markets and Competition Commission) was created in 2013 to prevent monopolistic practices."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es un monopolio?",
-   opts:["Un mercado con muchos vendedores","Un acuerdo entre dos empresas","El control total de un mercado por una sola empresa","Un tipo de impuesto"],
+   opts:["El control total de un mercado por una sola empresa","Un tipo de impuesto","Un mercado con muchos vendedores","Un acuerdo entre dos empresas"],
    ans:"El control total de un mercado por una sola empresa",
    hint:"Mono- means one or single. Think about a market where just one seller dominates with no rivals."},
 

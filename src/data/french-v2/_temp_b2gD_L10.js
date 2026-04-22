@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 10 — Social Issues
+// French B2 Gap Batch D Lesson 10. Social Issues
 const LESSON_10 = {id:"frv2_b2gD_l10", title:"Questions sociales", icon:"🤝", xp:15, board:true, steps:[
   {type:"intro", title:"Questions sociales",
    desc:"Develop vocabulary for discussing social problems, inequality, and community challenges in French.",
@@ -73,7 +73,7 @@ const LESSON_10 = {id:"frv2_b2gD_l10", title:"Questions sociales", icon:"🤝", 
 
   {type:"mc",
    q:"Que signifie 'sans encombre'?",
-   opts:["Sans problème ni difficulté","Avec beaucoup d'obstacles","En courant très vite","Sans aucune aide extérieure"],
+   opts:["Sans aucune aide extérieure","Sans problème ni difficulté","Avec beaucoup d'obstacles","En courant très vite"],
    ans:"Sans problème ni difficulté",
    hint:"This fixed expression uses an old word for 'obstacle' preceded by 's...' (without)."},
 

@@ -87,7 +87,7 @@ const LESSON_5 = {id:"itv2_u7l5", title:"Piatti regionali", icon:"\uD83C\uDDEE\u
   ]},
 
   {type:"mc", q:"How is 'bruschetta' correctly pronounced?",
-   opts:["Bru-SKET-ta","Bru-SHET-ta","BROO-shetta","Bru-CHETTA"],
+   opts:["Bru-CHETTA","Bru-SKET-ta","Bru-SHET-ta","BROO-shetta"],
    ans:"Bru-SKET-ta",
    hint:"The Italian 'ch' always makes a 'k' sound, never a 'sh' sound. This is a common error for English speakers."},
 
@@ -98,7 +98,7 @@ const LESSON_5 = {id:"itv2_u7l5", title:"Piatti regionali", icon:"\uD83C\uDDEE\u
    sSrc:"The buffalo {1} is very fresh!"},
 
   {type:"mc", q:"Which region is famous for pesto?",
-   opts:["Liguria (Genoa)","Lombardia (Milan)","Sicilia","Toscana"],
+   opts:["Sicilia","Toscana","Liguria (Genoa)","Lombardia (Milan)"],
    ans:"Liguria (Genoa)",
    hint:"This coastal northwest region provides the basil and olive oil. Traditional preparation uses a marble mortar."},
 
@@ -109,7 +109,7 @@ const LESSON_5 = {id:"itv2_u7l5", title:"Piatti regionali", icon:"\uD83C\uDDEE\u
    sSrc:"I would like to try something {1}."},
 
   {type:"mc", q:"Where do the most expensive truffles come from?",
-   opts:["Alba, Piedmont","Rome","Naples","Florence"],
+   opts:["Rome","Naples","Florence","Alba, Piedmont"],
    ans:"Alba, Piedmont",
    hint:"White truffles from this P... town can cost thousands of euros per kilo. Found by trained dogs."},
 

@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"一期一会(いちごいちえ)",src:"once-in-a-lifetime encounter"},{trg:"試行錯誤(しこうさくご)",src:"trial and error"},{trg:"前人未踏(ぜんじんみとう)",src:"unprecedented"},{trg:"十人十色(じゅうにんといろ)",src:"everyone is different"},{trg:"一石二鳥(いっせきにちょう)",src:"two birds one stone"}],
      hint:"Match each four-character compound with its English meaning."},
 
-    {type:"mc", q:"What does 臥薪嘗胆(がしんしょうたん) describe?", opts:["Enduring deliberate hardship to achieve a long-term goal","A quick and easy solution","Giving up after failure","A comfortable life without struggle"], ans:"Enduring deliberate hardship to achieve a long-term goal",
+    {type:"mc", q:"What does 臥薪嘗胆(がしんしょうたん) describe?", opts:["A comfortable life without struggle","Enduring deliberate hardship to achieve a long-term goal","A quick and easy solution","Giving up after failure"], ans:"Enduring deliberate hardship to achieve a long-term goal",
      hint:"The Chinese king slept on firewood and tasted gall to maintain his motivation."},
 
     {type:"fb", s:"日本語(にほんご)は{1}には上達(じょうたつ)しません。\n(You cannot master Japanese overnight.)", a:"一朝一夕(いちじょういっせき)", opts:["一朝一夕(いちじょういっせき)","一期一会(いちごいちえ)","一石二鳥(いっせきにちょう)","心機一転(しんきいってん)"], sSrc:"You cannot master Japanese overnight.",
      hint:"This compound literally means 'one morning, one evening' and is used with negative forms."},
 
-    {type:"mc", q:"Where does 一期一会(いちごいちえ) come from?", opts:["Tea ceremony philosophy","Martial arts tradition","Buddhist scripture","Modern business theory"], ans:"Tea ceremony philosophy",
+    {type:"mc", q:"Where does 一期一会(いちごいちえ) come from?", opts:["Buddhist scripture","Modern business theory","Tea ceremony philosophy","Martial arts tradition"], ans:"Tea ceremony philosophy",
      hint:"The great t... master Sen no Rikyu taught this principle of treasuring each gathering."}
   ,{type:"match",pairs:[{trg:"心機一転(しんきいってん)",src:"turning over a new leaf / fresh start"},{trg:"四捨五入(ししゃごにゅう)",src:"rounding off / rounding (numbers)"},{trg:"他力本願(たりきほんがん)",src:"relying on others / depending on external help"},{trg:"臥薪嘗胆(がしんしょうたん)",src:"enduring hardship to achieve a goal"},{trg:"融通無碍(ゆうずうむげ)",src:"flexibility / adaptability / versatility"},{trg:"真心一点(しんしんいってん)の",src:"with single-minded devotion"}]}]
 };

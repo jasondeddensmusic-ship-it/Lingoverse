@@ -1,4 +1,4 @@
-// L07: Home and Daily Life — 20 B1 gap words
+// L07: Home and Daily Life, 20 B1 gap words
 const LESSON_7 = {
   id:"nlv2_b1gap_l7", title:"Huis en Dagelijks Leven", icon:"\u{1F3E0}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Het is 35 graden buiten. Wat zet je aan om het huis koel te maken?",
-     opts:["de airconditioning","de alarmbel","de avondklok","de app"],
+     opts:["de app","de airconditioning","de alarmbel","de avondklok"],
      ans:"de airconditioning",
      hint:"Think about the device that cools the air inside a room."},
 

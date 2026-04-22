@@ -79,7 +79,7 @@ const LESSON_1 = {id:"esv2_b2g8_l1",title:"La empresa moderna",icon:"🏢",xp:15
  funFact:"In Spain, 'dar de alta' is essential for employment, healthcare, and utilities. No alta, no services."},
 
 {type:"mc",q:"¿Qué significa 'dar de alta' a un empleado?",
- opts:["Registrarlo oficialmente en el sistema","Despedirlo del trabajo","Ascenderlo de puesto","Enviarlo a formación"],
+ opts:["Enviarlo a formación","Registrarlo oficialmente en el sistema","Despedirlo del trabajo","Ascenderlo de puesto"],
  ans:"Registrarlo oficialmente en el sistema",
  hint:"Think about the process of officially entering someone into a registry or system."},
 
@@ -109,7 +109,7 @@ const LESSON_1 = {id:"esv2_b2g8_l1",title:"La empresa moderna",icon:"🏢",xp:15
 ]},
 
 {type:"mc",q:"¿A qué se dedica el jefe de producción?",
- opts:["Supervisa los procesos de fabricación","Gestiona las campañas publicitarias","Forma a los empleados nuevos","Negocia con los sindicatos"],
+ opts:["Forma a los empleados nuevos","Negocia con los sindicatos","Supervisa los procesos de fabricación","Gestiona las campañas publicitarias"],
  ans:"Supervisa los procesos de fabricación",
  hint:"Production relates to manufacturing and making things. What does this manager oversee?"},
 

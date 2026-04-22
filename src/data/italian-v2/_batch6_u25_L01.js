@@ -1,4 +1,4 @@
-// Batch 6 — Unit 25 extra lesson. L'economia: International Trade & Commerce
+// Batch 6. Unit 25 extra lesson. L'economia: International Trade & Commerce
 const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", icon:"\u{1F30D}", xp:15, board:true, steps:[
 {type:"intro", title:"Il commercio internazionale",
  desc:"Learn advanced vocabulary for international trade, commerce, and global economic concepts.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
 ]},
 
 {type:"mc", q:"Cosa significa 'patrimonio UNESCO'?",
- opts:["UNESCO World Heritage","UNESCO financial report","UNESCO trade agreement","UNESCO market listing"],
+ opts:["UNESCO market listing","UNESCO World Heritage","UNESCO financial report","UNESCO trade agreement"],
  ans:"UNESCO World Heritage",
  hint:"Italy has the most of these sites in the w.... 'Patrimonio' means both assets and h...."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u25l_b6_1", title:"Il commercio internazionale", ico
  sSrc:"We need to {1} a better price with the supplier."},
 
 {type:"mc", q:"Qual e la principale borsa valori italiana?",
- opts:["Borsa Italiana a Milano","Borsa di Roma","Borsa di Napoli","Borsa di Torino"],
+ opts:["Borsa di Napoli","Borsa di Torino","Borsa Italiana a Milano","Borsa di Roma"],
  ans:"Borsa Italiana a Milano",
  hint:"Located in the financial capital of Italy, now part of the Euronext group."},
 

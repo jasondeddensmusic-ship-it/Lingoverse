@@ -80,7 +80,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Comment appelle-t-on quelqu'un qui envoie des lettres anonymes accusatrices ?",
-     opts:["un corbeau","un battant","un dissident","un consul"],
+     opts:["un consul","un corbeau","un battant","un dissident"],
      ans:"un corbeau",
      hint:"Named after the black bird. Someone who sends poison-pen letters."},
 
@@ -113,7 +113,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel mot d'origine allemande designe une decision imposee sans consultation ?",
-     opts:["un diktat","un dissident","un cordon","un copeau"],
+     opts:["un cordon","un copeau","un diktat","un dissident"],
      ans:"un diktat",
      hint:"From German. Originally associated with the Treaty of Versailles."},
 

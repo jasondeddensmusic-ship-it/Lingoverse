@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"ビッグデータ",src:"big data"},{trg:"サイバーセキュリティ",src:"cybersecurity"},{trg:"デジタル化(か)",src:"digitalization"}]},
 
-    {type:"mc", q:"Which word means algorithm?", opts:["アルゴリズム","自動化(じどうか)","ビッグデータ","ロボティクス"], ans:"アルゴリズム",
+    {type:"mc", q:"Which word means algorithm?", opts:["ロボティクス","アルゴリズム","自動化(じどうか)","ビッグデータ"], ans:"アルゴリズム",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"クラウド",src:"cloud computing"}]}]
 };

@@ -80,7 +80,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Que fait un boucher quand il 'désosse' un poulet ?",
-     opts:["Il enlève les os","Il le fait cuire","Il le coupe en tranches","Il le pèse"],
+     opts:["Il le pèse","Il enlève les os","Il le fait cuire","Il le coupe en tranches"],
      ans:"Il enlève les os",
      hint:"The prefix 'dé-' means removal, and 'os' means bone. A butcher's specific skill."},
 
@@ -125,7 +125,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Que fait un avocat quand il 'récuse' un juge ?",
-     opts:["Il demande son remplacement pour partialité","Il le félicite","Il accepte sa décision","Il le consulte en privé"],
+     opts:["Il accepte sa décision","Il le consulte en privé","Il demande son remplacement pour partialité","Il le félicite"],
      ans:"Il demande son remplacement pour partialité",
      hint:"A formal legal action. The prefix 're-' + 'cusare' (to refuse). Challenging impartiality."},
 

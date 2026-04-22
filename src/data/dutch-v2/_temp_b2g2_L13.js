@@ -1,4 +1,4 @@
-// L13: Verbs of Influence — 20 B2 gap words
+// L13: Verbs of Influence, 20 B2 gap words
 const LESSON_13 = {
   id:"nlv2_b2g2_l13", title:"Werkwoorden van Invloed", icon:"\uD83D\uDD17", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_13 = {
      sSrc:"The museum has {1} a rare painting."},
     {type:"mc",
      q:"Wie was Michiel de Ruyter?",
-     opts:["De beroemdste admiraal van Nederland","Een bekende schilder uit de Gouden Eeuw","De eerste president van Nederland","Een beroemde ontdekkingsreiziger"],
+     opts:["Een beroemde ontdekkingsreiziger","De beroemdste admiraal van Nederland","Een bekende schilder uit de Gouden Eeuw","De eerste president van Nederland"],
      ans:"De beroemdste admiraal van Nederland",
      hint:"He lived in the 17th century and was famous for his naval victories, including a daring raid up the Thames."},
     {type:"match", pairs:[

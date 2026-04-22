@@ -1,4 +1,4 @@
-// Unit 3 — Minha Família
+// Unit 3. Minha Família
 // Family Members
 
 const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",sub:"Family Members",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -11,14 +11,14 @@ const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",su
     {type:"teach",trg:"filho",src:"son",pos:"noun",gender:"m",note:"Masculine. Ending -o marks masculine. Article: o filho.",example:"A: Você tem filho?\nB: Sim, eu tenho um filho.",exampleSrc:"A: Do you have a son?\nB: Yes, I have one son.",funFact:"Filho comes from Latin filius. Spanish hijo, Italian figlio, and French fils share the same root."},
     {type:"teach",trg:"filha",src:"daughter",pos:"noun",gender:"f",note:"Feminine. Ending -a marks feminine. Article: a filha.",example:"A: Você tem filha?\nB: Sim, eu tenho uma filha.",exampleSrc:"A: Do you have a daughter?\nB: Yes, I have one daughter.",funFact:"The only difference between filho and filha is the final vowel. Masculine -o, feminine -a."},
     {type:"tip",title:"Masculine plural covers mixed groups",text:"Os pais means 'parents' (mother AND father), not just fathers.\nOs filhos means 'children' (sons AND daughters), not just sons.\n\nMixed groups default to masculine in Portuguese.",icon:"💡"},
-    {type:"mc",q:"Which word means 'mother'?",opts:["pai","mãe","filha","família"],ans:"mãe",hint:"Short word with a nasal ão-like ending."},
+    {type:"mc",q:"Which word means 'mother'?",opts:["mãe","filha","família","pai"],ans:"mãe",hint:"Short word with a nasal ão-like ending."},
     {type:"mc",q:"'Os pais' in Portuguese means:",opts:["the fathers only","the parents","the sons","the families"],ans:"the parents",hint:"Masculine plural covers mixed groups."},
     {type:"fb",opts:["pai","mãe","filho","filha"],hint:"Masculine noun for a male child.",s:"Eu tenho um {1}.",sSrc:"I have a son.",a:"filho"},
     {type:"fb",opts:["pai","mãe","filho","filha"],hint:"Feminine noun for a female child.",s:"Eu tenho uma {1}.",sSrc:"I have a daughter.",a:"filha"},
     {type:"match",pairs:[{trg:"família",src:"family"},{trg:"pai",src:"father"},{trg:"mãe",src:"mother"},{trg:"pais",src:"parents"},{trg:"filho",src:"son"},{trg:"filha",src:"daughter"}]},
-    {type:"mc",q:"Which ending marks a feminine noun here?",opts:["-o","-a","-s","-e"],ans:"-a",hint:"Compare filho (male) and filha (female)."},
+    {type:"mc",q:"Which ending marks a feminine noun here?",opts:["-e","-o","-a","-s"],ans:"-a",hint:"Compare filho (male) and filha (female)."},
     {type:"fb",opts:["família","pai","mãe","filho"],hint:"The general feminine word for the whole group of relatives.",s:"A minha {1} é grande.",sSrc:"My family is big.",a:"família"},
-    {type:"mc",q:"You want to say 'my parents'. You use:",opts:["os pais","a pai","o pai","as mães"],ans:"os pais",hint:"Masculine plural article plus the plural noun."}
+    {type:"mc",q:"You want to say 'my parents'. You use:",opts:["a pai","o pai","as mães","os pais"],ans:"os pais",hint:"Masculine plural article plus the plural noun."}
   ]},
   {id:"ptv2_u3l2",title:"Irmãos e avós",icon:"👴",xp:15,board:true,steps:[
     {type:"intro",title:"Siblings and grandparents",desc:"Expand your family vocabulary with siblings, grandparents, and extended relatives.",goals:["Name brothers, sisters, grandparents","Spot the accent on avó vs avô","Use irmão and irmã correctly"]},
@@ -29,14 +29,14 @@ const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",su
     {type:"teach",trg:"tio",src:"uncle",pos:"noun",gender:"m",note:"Masculine. Ending -o. Article: o tio.",example:"A: Quem é ele?\nB: Ele é o meu tio.",exampleSrc:"A: Who is he?\nB: He is my uncle.",funFact:"In Brazil, tio and tia are also used informally to address older non-relatives, like a friendly 'sir' or 'ma'am'."},
     {type:"teach",trg:"tia",src:"aunt",pos:"noun",gender:"f",note:"Feminine. Ending -a. Article: a tia.",example:"A: Quem é ela?\nB: Ela é a minha tia.",exampleSrc:"A: Who is she?\nB: She is my aunt.",funFact:"A child in Brazil might call their mother's close friend 'tia' as a sign of warmth and respect."},
     {type:"tip",title:"Accents that change meaning",text:"Avô (circumflex ô) = grandfather. Closed vowel.\nAvó (acute ó) = grandmother. Open vowel.\n\nOne little accent flips the gender. Pronunciation matters.",icon:"💡"},
-    {type:"mc",q:"Which word means 'sister'?",opts:["irmão","irmã","tio","tia"],ans:"irmã",hint:"Feminine nasal ending with ã."},
+    {type:"mc",q:"Which word means 'sister'?",opts:["irmã","tio","tia","irmão"],ans:"irmã",hint:"Feminine nasal ending with ã."},
     {type:"mc",q:"The difference between avô and avó is:",opts:["nothing","the accent changes meaning","only the length","spelling mistake"],ans:"the accent changes meaning",hint:"One ___, big ___ change."},
     {type:"fb",opts:["tio","tia","avô","avó"],hint:"Feminine word for your mother's or father's sister.",s:"A minha {1} é engraçada.",sSrc:"My aunt is funny.",a:"tia"},
     {type:"fb",opts:["irmão","irmã","tio","tia"],hint:"Masculine word for a brother.",s:"O meu {1} tem dez anos.",sSrc:"My brother is ten years old.",a:"irmão"},
     {type:"match",pairs:[{trg:"irmão",src:"brother"},{trg:"irmã",src:"sister"},{trg:"avô",src:"grandfather"},{trg:"avó",src:"grandmother"},{trg:"tio",src:"uncle"},{trg:"tia",src:"aunt"}]},
-    {type:"mc",q:"Which word refers to your mother's father?",opts:["avô","avó","tio","pai"],ans:"avô",hint:"Masculine grandparent with closed circumflex."},
+    {type:"mc",q:"Which word refers to your mother's father?",opts:["tio","pai","avô","avó"],ans:"avô",hint:"Masculine grandparent with closed circumflex."},
     {type:"fb",opts:["avô","avó","mãe","tia"],hint:"Feminine word for a grandmother. Open acute accent.",s:"A minha {1} tem oito filhos.",sSrc:"My grandmother has eight children.",a:"avó"},
-    {type:"mc",q:"'Os tios' can mean:",opts:["only uncles","only aunts","uncle and aunt together","grandparents"],ans:"uncle and aunt together",hint:"Masculine plural covers a mixed group."}
+    {type:"mc",q:"'Os tios' can mean:",opts:["grandparents","only uncles","only aunts","uncle and aunt together"],ans:"uncle and aunt together",hint:"Masculine plural covers a mixed group."}
   ]},
   {id:"ptv2_u3l3",title:"Marido e esposa",icon:"💍",xp:15,board:true,steps:[
     {type:"intro",title:"Husband and wife",desc:"Learn spouse vocabulary and the articles o/a that come before every noun.",goals:["Use marido and esposa","Understand the o/a article system","Match article to noun gender"]},
@@ -45,14 +45,14 @@ const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",su
     {type:"teach",trg:"o",src:"the (m)",pos:"part",gender:"m",note:"Definite article for masculine singular nouns. Always before the noun.",example:"A: Onde está o pai?\nB: O pai está em casa.",exampleSrc:"A: Where is the father?\nB: The father is at home.",funFact:"Portuguese uses articles much more than English. Even names often get one: 'o João' (the João) in casual speech."},
     {type:"teach",trg:"a",src:"the (f)",pos:"part",gender:"f",note:"Definite article for feminine singular nouns. Always before the noun.",example:"A: Onde está a mãe?\nB: A mãe está no trabalho.",exampleSrc:"A: Where is the mother?\nB: The mother is at work.",funFact:"Every Portuguese noun is masculine or feminine, and its article must match. This is called gender agreement."},
     {type:"tip",title:"Articles o and a",text:"Every noun needs an article:\no pai (masculine)\na mãe (feminine)\no marido (masculine)\na esposa (feminine)\n\nPlurals: os (masculine), as (feminine).",icon:"💡"},
-    {type:"mc",q:"Pick the article that fits 'pai':",opts:["a","o","os","as"],ans:"o",hint:"Pai (father) is masculine singular. The masculine singular article is a single vowel."},
+    {type:"mc",q:"Pick the article that fits 'pai':",opts:["o","os","as","a"],ans:"o",hint:"Pai (father) is masculine singular. The masculine singular article is a single vowel."},
     {type:"mc",q:"Pick the definite form for 'mãe':",opts:["o","a","os","as"],ans:"a",hint:"Mãe (mother) is feminine singular. The feminine singular article is a single vowel."},
     {type:"fb",opts:["o","a","os","as"],hint:"Masculine singular article.",s:"{1} marido está em casa.",sSrc:"The husband is at home.",a:"O"},
     {type:"fb",opts:["o","a","os","as"],hint:"Feminine singular article.",s:"{1} esposa está feliz.",sSrc:"The wife is happy.",a:"A"},
-    {type:"mc",q:"'Esposa' is:",opts:["masculine","feminine","either","plural"],ans:"feminine",hint:"The -a ending is a ___ marker."},
+    {type:"mc",q:"'Esposa' is:",opts:["plural","masculine","feminine","either"],ans:"feminine",hint:"The -a ending is a ___ marker."},
     {type:"match",pairs:[{trg:"marido",src:"husband"},{trg:"esposa",src:"wife"},{trg:"o",src:"the (m)"},{trg:"a",src:"the (f)"}]},
     {type:"fb",opts:["marido","esposa","pai","mãe"],hint:"Masculine spouse word.",s:"O meu {1} tem trinta anos.",sSrc:"My husband is thirty years old.",a:"marido"},
-    {type:"mc",q:"Which pair is correct?",opts:["a pai","o mãe","a esposa","o filha"],ans:"a esposa",hint:"Feminine noun needs feminine article."}
+    {type:"mc",q:"Which pair is correct?",opts:["o filha","a pai","o mãe","a esposa"],ans:"a esposa",hint:"Feminine noun needs feminine article."}
   ]},
   {id:"ptv2_u3l4",title:"Meu e seu",icon:"✋",xp:15,board:true,steps:[
     {type:"intro",title:"My and your",desc:"Possessives agree with the thing owned, not the owner. Learn meu/minha and seu/sua.",goals:["Use meu and minha correctly","Use seu and sua correctly","Match possessive to noun gender"]},
@@ -61,16 +61,16 @@ const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",su
     {type:"teach",trg:"seu",src:"your (m)",pos:"pron",gender:"m",note:"Used before a masculine singular noun. Brazilian 'your' when paired with você.",example:"A: O seu irmão está bem?\nB: Sim, ele está bem.",exampleSrc:"A: Is your brother well?\nB: Yes, he is well.",funFact:"Seu can also mean 'his' or 'her' in context. When context is unclear, Brazilians use 'dele' (his) or 'dela' (her) instead."},
     {type:"teach",trg:"sua",src:"your (f)",pos:"pron",gender:"f",note:"Used before a feminine singular noun. Matches feminine gender.",example:"A: A sua mãe está em casa?\nB: Sim, ela está.",exampleSrc:"A: Is your mother at home?\nB: Yes, she is.",funFact:"Sua matches the thing owned. 'Sua casa' works whether you are talking to a man or woman, because casa is feminine."},
     {type:"tip",title:"Possessives agree with the noun",text:"meu / minha = my (masc / fem)\nseu / sua = your (masc / fem)\n\nThe ending matches the THING, not the OWNER.\nA woman says 'meu marido'. A man says 'minha esposa'.",icon:"💡"},
-    {type:"mc",q:"Which form matches 'pai' (father)?",opts:["minha","meu","sua","minhas"],ans:"meu",hint:"Pai is masculine, so the possessive must be masculine too."},
+    {type:"mc",q:"Which form matches 'pai' (father)?",opts:["meu","sua","minhas","minha"],ans:"meu",hint:"Pai is masculine, so the possessive must be masculine too."},
     {type:"mc",q:"Which form matches 'mãe' (mother)?",opts:["meu","minha","seu","meus"],ans:"minha",hint:"Mãe is feminine, so the possessive must match."},
     {type:"fb",opts:["meu","minha","seu","sua"],hint:"Possessive for 'my' before a feminine noun like irmã.",s:"A {1} irmã tem oito anos.",sSrc:"My sister is eight years old.",a:"minha"},
     {type:"fb",opts:["meu","minha","seu","sua"],hint:"Possessive for 'your' before a masculine noun like marido.",s:"O {1} marido é brasileiro?",sSrc:"Is your husband Brazilian?",a:"seu"},
-    {type:"mc",q:"A man says 'minha esposa' because:",opts:["the speaker is male","esposa is feminine","it is random","esposa means man"],ans:"esposa is feminine",hint:"The possessive matches the thing owned, not the owner."},
+    {type:"mc",q:"A man says 'minha esposa' because:",opts:["esposa means man","the speaker is male","esposa is feminine","it is random"],ans:"esposa is feminine",hint:"The possessive matches the thing owned, not the owner."},
     {type:"fb",opts:["meu","minha","seu","sua"],hint:"Masculine possessive for 'my' before avô.",s:"O {1} avô tem sete filhos.",sSrc:"My grandfather has seven children.",a:"meu"},
     {type:"match",pairs:[{trg:"meu",src:"my (m)"},{trg:"minha",src:"my (f)"},{trg:"seu",src:"your (m)"},{trg:"sua",src:"your (f)"}]},
-    {type:"mc",q:"Which phrase is correct?",opts:["meu mãe","minha pai","meu marido","sua tio"],ans:"meu marido",hint:"Match gender: ___ is masculine, so use ___."},
+    {type:"mc",q:"Which phrase is correct?",opts:["sua tio","meu mãe","minha pai","meu marido"],ans:"meu marido",hint:"Match gender: ___ is masculine, so use ___."},
     {type:"fb",opts:["meu","minha","seu","sua"],hint:"Feminine possessive for 'your' before tia.",s:"A {1} tia é simpática?",sSrc:"Is your aunt nice?",a:"sua"},
-    {type:"mc",q:"Possessive in Portuguese agrees with:",opts:["the owner","the thing owned","the listener","always masculine"],ans:"the thing owned",hint:"Look at whether the noun is masculine or feminine."}
+    {type:"mc",q:"Possessive in Portuguese agrees with:",opts:["the thing owned","the listener","always masculine","the owner"],ans:"the thing owned",hint:"Look at whether the noun is masculine or feminine."}
   ]}
   ,{id:"ptv2_u3l_verb",title:"Verbos essenciais",icon:"💬",xp:15,board:true,steps:[
     {type:"intro",title:"Essential Everyday Verbs",desc:"Learn 7 essential Brazilian Portuguese verbs you will use every day: want, know, drink, sleep, live, eat, speak. These are the core of A1 communication.",goals:["Master 7 core A1 verbs","Use querer, saber, and conseguir","Talk about daily habits"]},
@@ -82,11 +82,11 @@ const UNIT_03 = {n:3,lang:"pt",srcLang:"en",track:"v2",title:"Minha Família",su
     {type:"teach",trg:"comer",src:"to eat",pos:"verb",gender:null,note:"Regular -er verb. Key forms: eu como, você come, nós comemos.",example:"A: O que você come?\nB: Eu como arroz.",exampleSrc:"A: What do you eat?\nB: I eat rice.",funFact:"Comida (food) shares its root with comer. The suffix -ida turns the verb into the noun, just like bebida from beber."},
     {type:"teach",trg:"falar",src:"to speak",pos:"verb",gender:null,note:"Regular -ar verb. Key forms: eu falo, você fala, nós falamos. One of the most used verbs.",example:"A: Você fala português?\nB: Sim, eu falo um pouco.",exampleSrc:"A: Do you speak Portuguese?\nB: Yes, I speak a little.",funFact:"Fala is also an exclamation Brazilians use to answer the phone or greet a friend informally, meaning 'hey' or 'speak up'."},
     {type:"tip",title:"Three verb families",text:"-ar verbs: moro, mora, moramos (morar)\n-er verbs: como, come, comemos (comer)\n-ir verbs: durmo, dorme, dormimos (dormir)\n\nThe stem changes before the ending. The eu form sometimes shifts its vowel.",icon:"💡"},
-    {type:"mc",q:"'Eu quero água' means:",opts:["I drink water","I know water","I want water","I eat water"],ans:"I want water",hint:"Quero is the eu form of querer."},
+    {type:"mc",q:"'Eu quero água' means:",opts:["I want water","I eat water","I drink water","I know water"],ans:"I want water",hint:"Quero is the eu form of querer."},
     {type:"mc",q:"Which verb means 'to know facts'?",opts:["morar","saber","beber","dormir"],ans:"saber",hint:"This verb is used for knowing facts or skills, not knowing a person."},
     {type:"fb",opts:["quero","sei","bebo","falo"],s:"Eu {1} café todo dia.",sSrc:"I drink coffee every day.",a:"bebo",hint:"Use the eu form of the -er verb for drinking."},
     {type:"fb",opts:["moro","como","durmo","falo"],s:"Eu {1} arroz e feijão.",sSrc:"I eat rice and beans.",a:"como",hint:"Use the eu form of comer. The vowel is plain o."},
-    {type:"mc",q:"Which sentence uses morar correctly?",opts:["Eu moro comer","Eu moro em Brasília","Eu moro dormir","Eu moro saber"],ans:"Eu moro em Brasília",hint:"Morar needs a location after it. Use em + city."},
+    {type:"mc",q:"Which sentence uses morar correctly?",opts:["Eu moro saber","Eu moro comer","Eu moro em Brasília","Eu moro dormir"],ans:"Eu moro em Brasília",hint:"Morar needs a location after it. Use em + city."},
     {type:"fb",opts:["falo","durmo","moro","quero"],s:"Você {1} inglês?",sSrc:"Do you speak English?",a:"falo",hint:"Use the eu form of the verb for speaking. Remember the -ar pattern."},
     {type:"match",pairs:[{trg:"querer",src:"to want"},{trg:"saber",src:"to know (facts)"},{trg:"beber",src:"to drink"},{trg:"dormir",src:"to sleep"},{trg:"morar",src:"to live (reside)"},{trg:"comer",src:"to eat"},{trg:"falar",src:"to speak"}]},
     {type:"fb",opts:["durmo","moro","como","sei"],s:"Eu não {1} bem. Estou cansado.",sSrc:"I do not sleep well. I am tired.",a:"durmo",hint:"Use the eu form of dormir. The vowel shifts from o to u in the eu form."}

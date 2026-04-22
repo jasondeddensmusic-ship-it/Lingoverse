@@ -1,4 +1,4 @@
-// Korean V2 Unit 27 — 속담과 사자성어
+// Korean V2 Unit 27, 속담과 사자성어
 // Level: B2.2
 
 const UNIT_27 =
@@ -241,7 +241,7 @@ const UNIT_27 =
 {type:"intro",title:"U27 종합 평가",desc:"Full assessment of proverbs, 사자성어, body-part idioms, and grammar patterns from this unit.",goals:["Demonstrate proverb knowledge","Apply 사자성어 correctly","Use futility/determination patterns","Recall body-part idioms"]},
 {type:"mc",q:"원숭이도 나무에서 떨어진다.\nClosest meaning:",opts:["Even experts make mistakes","Monkeys should be careful","Trees are dangerous","Practice makes perfect"],ans:"Even experts make mistakes",hint:"The expert at trees (monkey) still falls."},
 {type:"drag_fill",s:"{1}석{2}조. 하나로 둘을 얻다.\n(One stone two birds.)",blanks:{"1":"일","2":"이"},pool:["일","이","사","삼","백","천"],hint:"One. Two."},
-{type:"mc",q:"밥은커녕 물도 못 마셨어요.\n은/는커녕 structure:",opts:["[Big thing denied], even [small thing] failed","Chose one over the other","Both happened successfully","Neither was available"],ans:"[Big thing denied], even [small thing] failed",hint:"커녕 erases the higher expectation first. Then 도 shows that the lower bar was not cleared either."},
+{type:"mc",q:"밥은커녕 물도 못 마셨어요.\n은/는커녕 structure:",opts:["Neither was available","[Big thing denied], even [small thing] failed","Chose one over the other","Both happened successfully"],ans:"[Big thing denied], even [small thing] failed",hint:"커녕 erases the higher expectation first. Then 도 shows that the lower bar was not cleared either."},
 {type:"drag_fill",s:"설명해 {1} 이해 못 해요. 하지만 포기하지 않고 밤을 새{2}라도 끝낼 거예요.\n(Useless to explain. But even if I stay up all night, I'll finish.)",blanks:{"1":"봤자","2":"서"},pool:["봤자","서","봤어","기","봤는데","도"],hint:"Futile try. Even-if-means."},
 {type:"mc",q:"귀가 얇다, 입이 가볍다, 손이 크다.\n순서대로 뜻은?",opts:["Thin, Light, Big","Good hearing, Fast talker, Strong","Gullible, Loose-tongued, Generous","Quiet, Chatty, Rich"],ans:"Gullible, Loose-tongued, Generous",hint:"Three body-part adjective idioms in order: thin 귀, light 입, big 손. What does each imply about personality?"},
 {type:"match",pairs:[{nl:"전화위복",en:"Disaster became blessing"},{nl:"-아/어 봤자",en:"Even if you try, useless"},{nl:"-아/어서라도",en:"Even if it means doing"},{nl:"유비무환",en:"Preparedness prevents disaster"}]},

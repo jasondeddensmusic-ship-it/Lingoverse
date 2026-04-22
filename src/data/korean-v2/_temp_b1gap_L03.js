@@ -34,7 +34,7 @@ const LESSON_3 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'계약서'에서 '-서'의 뜻은?",
-     opts:["사람","장소","문서, 서류","시간"],
+     opts:["문서, 서류","시간","사람","장소"],
      ans:"문서, 서류",
      hint:"The suffix -서 turns a concept into a written document. Think: contract + document."},
 
@@ -191,7 +191,7 @@ const LESSON_3 = {
     // --- Quiz batch 5 ---
     {type:"mc",
      q:"'관련'의 반대 의미에 가장 가까운 것은?",
-     opts:["관리","무관","광고","경영"],
+     opts:["광고","경영","관리","무관"],
      ans:"무관",
      hint:"The prefix 무- means 'without.' Without relation means unrelated."},
 
@@ -204,7 +204,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"한국 회사에서 '과장'의 위치는?",
-     opts:["최고 경영자","신입 사원","회사 대표","중간 관리자"],
+     opts:["중간 관리자","최고 경영자","신입 사원","회사 대표"],
      ans:"중간 관리자",
      hint:"This title is above staff level but below department head in the corporate hierarchy."}
   ]

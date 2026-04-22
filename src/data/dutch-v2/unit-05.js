@@ -1,4 +1,4 @@
-// Unit 5 — Mijn Familie & Thuis
+// Unit 5. Mijn Familie & Thuis
 // Reflexives, Adjectives & Home
 
 export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thuis",sub:"Reflexives, Adjectives & Home",icon:"👨‍👩‍👧‍👦",level:"A1.2",color:"#7B5EE8",lessons:[
@@ -272,12 +272,12 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
         {type:"tip",title:"goed, slecht en lekker - Three Key Evaluators",text:"Dutch has three main ways to evaluate things:\n\ngoed = good (general positive)\nlekker = tasty / nice / pleasant (sensory positive)\nslecht = bad (general negative)\n\nAll three are A1 essentials. Watch how they combine:\ngoed slapen = sleep well\nlekker slapen = sleep comfortably (informal)\nslecht slapen = sleep badly\n\ngoed eten = eat well / good food\nlekker eten = tasty eating / delicious meal\nslecht eten = bad food\n\nNote: 'lekker' cannot replace 'goed' everywhere.\n'Lekker' is sensory and informal. 'Goed' is neutral and factual.\nA test result is 'goed', not 'lekker' (unless you're joking).",deepDive:"The adjective 'slecht' follows the regular -e rule:\nEen slechte dag (de-word dag, indefinite article: -e).\nDe slechte dag (definite, de-word: -e).\nEen slecht resultaat (het-word, indefinite article: NO -e).\nHet slechte resultaat (definite, het-word: -e).\nThis is the same pattern as all other adjectives in Dutch."},
         {type:"mc",q:"Welk woord betekent 'to sleep'?",opts:["slapen","lopen","sporten","werken"],ans:"slapen",hint:"Think of the English cognate. It starts with an 'sl-' sound."},
         {type:"fb",opts:["slaap","slapen","slaapt","slapen"],hint:"First person singular present: ik ___",s:"Ik ___ elke nacht acht uur.",a:"slaap"},
-        {type:"mc",q:"'Het vliegveld' is letterlijk:",opts:["een vliegend veld","een luchthaven","een veld waar vliegtuigen landen","een haven voor schepen"],ans:"een veld waar vliegtuigen landen",hint:"Split the compound: 'vliegen' = to fly. What do flying machines do on open ground?"},
+        {type:"mc",q:"'Het vliegveld' is letterlijk:",opts:["een luchthaven","een veld waar vliegtuigen landen","een haven voor schepen","een vliegend veld"],ans:"een veld waar vliegtuigen landen",hint:"Split the compound: 'vliegen' = to fly. What do flying machines do on open ground?"},
         {type:"fb",opts:["groente","fruit","vlees","brood"],hint:"The Dutch word for vegetables is a feminine collective noun starting with 'gr-'",s:"Ik eet elke dag veel ___.",a:"groente"},
         {type:"match",pairs:[{trg:"slapen",src:"to sleep"},{trg:"het vliegveld",src:"the airport"},{trg:"het vlees",src:"the meat"},{trg:"slecht",src:"bad"},{trg:"de groente",src:"the vegetable(s)"},{trg:"het fruit",src:"the fruit"}]},
-        {type:"mc",q:"'Ik eet geen vlees' betekent:",opts:["I eat no meat","I like meat","I want meat","I have no vegetables"],ans:"I eat no meat",hint:"'geen' negates the noun. Which option expresses absence of the food?"},
+        {type:"mc",q:"'Ik eet geen vlees' betekent:",opts:["I want meat","I have no vegetables","I eat no meat","I like meat"],ans:"I eat no meat",hint:"'geen' negates the noun. Which option expresses absence of the food?"},
         {type:"fb",opts:["slecht","goed","lekker","mooi"],hint:"The opposite of 'goed' (good) is one single common adjective.",s:"Het weer is ___ vandaag. Er is veel regen.",a:"slecht"},
-        {type:"mc",q:"Welk artikel gebruikt 'vliegveld'?",opts:["de","het","een","geen artikel"],ans:"het",hint:"Compounds inherit the article of the final component. Which article belongs to 'veld' (field)?"},
+        {type:"mc",q:"Welk artikel gebruikt 'vliegveld'?",opts:["een","geen artikel","de","het"],ans:"het",hint:"Compounds inherit the article of the final component. Which article belongs to 'veld' (field)?"},
         {type:"fb",opts:["fruit","groente","vlees","brood"],hint:"Think of apples, bananas, and oranges. Collective noun, het-word.",s:"Hij koopt elke dag vers ___.",a:"fruit"},
         {type:"mc",q:"'Hij slaapt slecht' means:",opts:["He sleeps badly","He is a bad person","He is sleeping now","He does not sleep at all"],ans:"He sleeps badly",hint:"'slapen' = to sleep. 'slecht' as an adverb = …."}
   ]}

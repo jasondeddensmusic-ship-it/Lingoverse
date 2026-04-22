@@ -73,7 +73,7 @@ const LESSON_7 = {id:"esv2_b2g8_l7",title:"Cualidades y carácter",icon:"💎",x
  funFact:"Don Quixote's famous advice: 'Llaneza, Sancho, que toda afectación es mala.' Simplicity is best."},
 
 {type:"mc",q:"¿Qué significa 'llaneza' al describir a una persona?",
- opts:["Ser sencillo y directo al hablar","Ser muy inteligente","Tener mucho dinero","Ser físicamente fuerte"],
+ opts:["Ser físicamente fuerte","Ser sencillo y directo al hablar","Ser muy inteligente","Tener mucho dinero"],
  ans:"Ser sencillo y directo al hablar",
  hint:"From 'llano' meaning plain or flat. Applied to speech, it means simple and unpretentious."},
 
@@ -103,7 +103,7 @@ const LESSON_7 = {id:"esv2_b2g8_l7",title:"Cualidades y carácter",icon:"💎",x
 ]},
 
 {type:"mc",q:"¿Qué sufijo español convierte adjetivos en sustantivos abstractos como maldad, bondad, crueldad?",
- opts:["-dad","-eza","-ción","-miento"],
+ opts:["-ción","-miento","-dad","-eza"],
  ans:"-dad",
  hint:"This three-letter suffix turns adjectives into abstract feminine nouns. Malo, cruel, bueno all use it."}
 ]};

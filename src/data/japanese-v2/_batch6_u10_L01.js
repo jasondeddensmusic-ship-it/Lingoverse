@@ -84,7 +84,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Let us pick up trash in the park.\nB: Good idea. Let us clean it up.",
      funFact:"拾(ひろ)う is an important word in Japanese environmental consciousness. Community clean-ups (ゴミ拾(ひろ)い) are common events. The word also means 'to find/pick up a taxi' (タクシーを拾(ひろ)う). 命(いのち)を拾(ひろ)う (to pick up one's life) means to have a narrow escape."},
 
-    {type:"mc", q:"The pair 深(ふか)い / 浅(あさ)い means:", opts:["Deep / shallow","Wide / narrow","High / low","Long / short"], ans:"Deep / shallow",
+    {type:"mc", q:"The pair 深(ふか)い / 浅(あさ)い means:", opts:["Long / short","Deep / shallow","Wide / narrow","High / low"], ans:"Deep / shallow",
      hint:"These adjectives describe depth, like water in a river or pool."},
 
     {type:"match", pairs:[
@@ -98,7 +98,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"この公園(こうえん)は{1}ですね。\n(This park is spacious, isn't it?)", a:"広(ひろ)い", opts:["広(ひろ)い","狭(せま)い","深(ふか)い","高(たか)い"], sSrc:"This park is spacious, isn't it?",
      hint:"The i-adjective meaning wide, spacious, or broad."},
 
-    {type:"mc", q:"狭(せま)い describes:", opts:["Something narrow or cramped","Something wide or spacious","Something deep","Something tall"], ans:"Something narrow or cramped",
+    {type:"mc", q:"狭(せま)い describes:", opts:["Something deep","Something tall","Something narrow or cramped","Something wide or spacious"], ans:"Something narrow or cramped",
      hint:"This adjective is the opposite of 広(ひろ)い."}
   ,{type:"match",pairs:[{trg:"自然(しぜん)",src:"nature"},{trg:"浅(あさ)い",src:"shallow"},{trg:"狭(せま)い",src:"narrow / cramped"},{trg:"投(な)げる",src:"to throw"},{trg:"拾(ひろ)う",src:"to pick up"}]}]
 };

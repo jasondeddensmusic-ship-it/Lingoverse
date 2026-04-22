@@ -86,7 +86,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel adjectif signifie 'qui inspire la pitie ou le mepris' ?",
-     opts:["pitoyable","insuffisant","malhonnete","perspicace"],
+     opts:["perspicace","pitoyable","insuffisant","malhonnete"],
      ans:"pitoyable",
      hint:"From the noun 'pitie'. Can express sympathy or contempt depending on context."},
 
@@ -113,7 +113,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel nom designe un manque grave de moyens ou de ressources ?",
-     opts:["l'insuffisance","l'incapacite","la petitesse","l'outrage"],
+     opts:["la petitesse","l'outrage","l'insuffisance","l'incapacite"],
      ans:"l'insuffisance",
      hint:"Built from 'insuffisant'. Also used in medicine for organ failure."}
   ]

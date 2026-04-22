@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 13: Sciences et Technologie
+// French B2 Gap Batch 9. Lesson 13: Sciences et Technologie
 // Science and technology vocabulary
 
 const LESSON_13 = {id:"frv2_b2g9_l13", title:"Sciences et Technologie", icon:"🔬", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_13 = {id:"frv2_b2g9_l13", title:"Sciences et Technologie", icon:"�
    exampleSrc:"A: Eugenol is used as a dental antiseptic.\nB: It's the characteristic smell of the dentist.",
    funFact:"Named after Eugenia caryophyllata, the scientific name for the clove tree."},
 
-  {type:"mc", q:"La chronobiologie étudie:", opts:["L'histoire des êtres vivants","Les rythmes biologiques liés au temps","La chronologie des fossiles","Les maladies chroniques"], ans:"Les rythmes biologiques liés au temps",
+  {type:"mc", q:"La chronobiologie étudie:", opts:["Les rythmes biologiques liés au temps","La chronologie des fossiles","Les maladies chroniques","L'histoire des êtres vivants"], ans:"Les rythmes biologiques liés au temps",
    hint:"Chrono means time, biologie means the study of life. Biological time rhythms."},
 
   {type:"teach", trg:"le photomontage", src:"photomontage", pos:"noun", gender:"m",
@@ -111,7 +111,7 @@ const LESSON_13 = {id:"frv2_b2g9_l13", title:"Sciences et Technologie", icon:"�
     {trg:"le décimètre", src:"decimeter"}
   ]},
 
-  {type:"mc", q:"La cleptomanie est:", opts:["La peur des espaces clos","Le besoin compulsif de voler","La peur des araignées","L'amour excessif de l'argent"], ans:"Le besoin compulsif de voler",
+  {type:"mc", q:"La cleptomanie est:", opts:["L'amour excessif de l'argent","La peur des espaces clos","Le besoin compulsif de voler","La peur des araignées"], ans:"Le besoin compulsif de voler",
    hint:"Klepto comes from Greek for 'steal'. Mania means compulsion."},
 
   {type:"fb", s:"Le {1} du film a pris six semaines.", a:["mixage"], opts:["mixage","montage","laboratoire","décimètre"],

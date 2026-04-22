@@ -98,7 +98,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot d\u00e9signe un mot anglais utilis\u00e9 en fran\u00e7ais ?",
-     opts:["Un anglicisme","Un communiqu\u00e9","Une archive","Une coalition"],
+     opts:["Une coalition","Un anglicisme","Un communiqu\u00e9","Une archive"],
      ans:"Un anglicisme",
      hint:"The Acad\u00e9mie fran\u00e7aise tries to replace these with French alternatives."},
 
@@ -143,7 +143,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Que signifie 'conform\u00e9ment \u00e0 la loi' ?",
-     opts:["En accord avec la loi","Contre la loi","Malgr\u00e9 la loi","Sans rapport avec la loi"],
+     opts:["Malgr\u00e9 la loi","Sans rapport avec la loi","En accord avec la loi","Contre la loi"],
      ans:"En accord avec la loi",
      hint:"An adverb meaning in keeping with, following the rules. From 'conforme'."}
   ]

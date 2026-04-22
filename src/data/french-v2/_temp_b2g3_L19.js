@@ -86,7 +86,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'choisir quelque chose et le poursuivre avec détermination' ?",
-     opts:["jeter son dévolu sur","jurer comme un charretier","faire semblant","se contreficher"],
+     opts:["se contreficher","jeter son dévolu sur","jurer comme un charretier","faire semblant"],
      ans:"jeter son dévolu sur",
      hint:"This expression originally came from Church law about claiming a position. Now it means setting your sights on something."},
 

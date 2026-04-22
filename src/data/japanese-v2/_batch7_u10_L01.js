@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"In spring, let us go {1}. The cherry blossoms are beautiful."},
 
     {type:"mc", q:"お正月(おしょうがつ)に children receive:",
-     opts:["お年玉(おとしだま) (money in envelopes)","おせち (special food)","浴衣(ゆかた) (summer kimono)","花火(はなび) (fireworks)"],
+     opts:["花火(はなび) (fireworks)","お年玉(おとしだま) (money in envelopes)","おせち (special food)","浴衣(ゆかた) (summer kimono)"],
      ans:"お年玉(おとしだま) (money in envelopes)",
      hint:"Relatives give children these special monetary gifts in decorated e... during New Year."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Let us wear a {1} to the summer festival."},
 
     {type:"mc", q:"花火(はなび) literally means:",
-     opts:["Fire flowers","Sky lights","Star bursts","Thunder booms"],
+     opts:["Star bursts","Thunder booms","Fire flowers","Sky lights"],
      ans:"Fire flowers",
      hint:"The kanji combine 花(はな) (flower) and 火(び) (f...). F... made of f...."},
 

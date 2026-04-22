@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 17: Peanuts, Time, and Hitting
+// Korean B2. Batch 3, Lesson 17: Peanuts, Time, and Hitting
 // Words: 땅콩, 때, 때때로, 때로, 때리다, 땜, 떠나가다, 떠나오다, 떠들썩하다, 떡국, 떼, 똑똑하다, 뚜껑, 뚫다, 뚱뚱하다, 뛰놀다, 뛰어가다, 뛰어나가다, 뛰어나오다, 뛰어내리다
 
 const LESSON_17 = {
@@ -107,7 +107,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'뚜껑이 열리다'라는 표현의 실제 뜻은?",
-     opts:["화가 나다","기쁘다","슬프다","졸리다"],
+     opts:["졸리다","화가 나다","기쁘다","슬프다"],
      ans:"화가 나다",
      hint:"This idiom uses the image of a pot lid blowing off to describe an emotional reaction."},
 

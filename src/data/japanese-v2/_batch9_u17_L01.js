@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"届(とど)ける", src:"to report/deliver"}
     ]},
 
-    {type:"mc", q:"What is おれおれさぎ?", opts:["A phone scam targeting elderly people","A type of theft","A traffic violation","A cybercrime"], ans:"A phone scam targeting elderly people",
+    {type:"mc", q:"What is おれおれさぎ?", opts:["A cybercrime","A phone scam targeting elderly people","A type of theft","A traffic violation"], ans:"A phone scam targeting elderly people",
      hint:"Scammers call pretending to be relatives, saying 'it's me, it's me' to trick victims."}
   ,{type:"fb", s:"交番(こうばん)に行(い)って事件(じけん)を{1}ました。",
     a:["届(とど)ける"],

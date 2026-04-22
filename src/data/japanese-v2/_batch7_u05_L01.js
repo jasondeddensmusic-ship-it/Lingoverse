@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"Please {1} the vegetables with a knife."},
 
     {type:"mc", q:"蒸(む)す means:",
-     opts:["To steam","To boil","To grill","To fry"],
+     opts:["To fry","To steam","To boil","To grill"],
      ans:"To steam",
      hint:"This cooking method uses hot water vapor. 茶碗蒸(ちゃわんむ)し is a famous dish made this way."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"Please {1} the egg well."},
 
     {type:"mc", q:"Japanese chopstick etiquette forbids:",
-     opts:["Sticking chopsticks upright in rice","Using chopsticks to eat sushi","Resting chopsticks on a plate","Holding chopsticks in the right hand"],
+     opts:["Resting chopsticks on a plate","Holding chopsticks in the right hand","Sticking chopsticks upright in rice","Using chopsticks to eat sushi"],
      ans:"Sticking chopsticks upright in rice",
      hint:"This action resembles a ritual performed at funerals and is considered very bad manners."},
 

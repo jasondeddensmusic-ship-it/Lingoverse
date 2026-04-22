@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 09 (Shopping) — prices, sizes, colors, materials
+// Batch 2 expansion for Unit 09 (Shopping), prices, sizes, colors, materials
 const BATCH2_L_1 = {
   id:"jav2_u09l_b2_1", title:"サイズと色(いろ)", icon:"🎨", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Please show me the black bag.\nB: This bag?",
    funFact:"Black represents formality and elegance in modern Japan. Business suits are black. School uniforms are often black. 黒帯(くろおび) (black belt) in martial arts represents mastery. In traditional culture, black was associated with mystery and the unknown."},
 
-  {type:"mc", q:"青(あお)い historically covers:", opts:["only blue","blue and green","only green","red and blue"], ans:"blue and green",
+  {type:"mc", q:"青(あお)い historically covers:", opts:["blue and green","only green","red and blue","only blue"], ans:"blue and green",
    hint:"This color word traditionally described both sky and plant colors."},
 
   {type:"teach", trg:"黄色(きいろ)い", src:"yellow", pos:"adj", gender:null,
@@ -88,7 +88,7 @@ const BATCH2_L_1 = {
   {type:"fb", s:"もう少(すこ)し{1}のはありますか？\n(Do you have something a bit smaller?)", a:"小(ちい)さい", opts:["小(ちい)さい","大(おお)きい","長(なが)い","安(やす)い"], sSrc:"Do you have something a bit smaller?",
    hint:"The い-adjective meaning small or little, opposite of 大(おお)きい."},
 
-  {type:"mc", q:"黄色(きいろ)い means:", opts:["green","yellow","orange","purple"], ans:"yellow",
+  {type:"mc", q:"黄色(きいろ)い means:", opts:["purple","green","yellow","orange"], ans:"yellow",
    hint:"The color associated with caution signs and school zones in Japan."},
 
   {type:"fb", s:"これは{1}ですか？\n(Is this cotton?)", a:"綿(めん)", opts:["綿(めん)","絹(きぬ)","革(かわ)","紙(かみ)"], sSrc:"Is this cotton?",

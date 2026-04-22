@@ -1,4 +1,4 @@
-// Batch 3 — Unit 26 Lesson (Law: Criminal Types & Procedure)
+// Batch 3. Unit 26 Lesson (Law: Criminal Types & Procedure)
 const BATCH3_L_1 = {
   id:"itv2_u26l_b3_1", title:"Reati e procedura penale", icon:"🔐", xp:15, board:true,
   steps:[
@@ -38,7 +38,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Qual e la differenza tra furto e rapina in diritto italiano?",
-     opts:["La rapina riguarda solo oggetti di valore superiore a mille euro","Il furto coinvolge violenza o minaccia, la rapina no","La rapina implica violenza o minaccia, il furto no","Non c'è differenza legale tra i due reati"],
+     opts:["La rapina implica violenza o minaccia, il furto no","Non c'è differenza legale tra i due reati","La rapina riguarda solo oggetti di valore superiore a mille euro","Il furto coinvolge violenza o minaccia, la rapina no"],
      ans:"La rapina implica violenza o minaccia, il furto no",
      hint:"One involves taking property without confrontation, the other uses force or threats against the victim."},
 
@@ -87,7 +87,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Che cos'e il patteggiamento nel sistema giudiziario italiano?",
-     opts:["Un accordo per una pena ridotta in cambio di un processo abbreviato","Un tipo di appello alla Corte Suprema","La confisca dei beni del condannato","Un'udienza preliminare obbligatoria"],
+     opts:["Un'udienza preliminare obbligatoria","Un accordo per una pena ridotta in cambio di un processo abbreviato","Un tipo di appello alla Corte Suprema","La confisca dei beni del condannato"],
      ans:"Un accordo per una pena ridotta in cambio di un processo abbreviato",
      hint:"A deal where the defendant accepts a lighter sentence without going through a full trial. It speeds up the judicial process."},
 
@@ -114,7 +114,7 @@ const BATCH3_L_1 = {
 
     {type:"mc",
      q:"Perche la prescrizione e un problema grave nel sistema giudiziario italiano?",
-     opts:["Perche molti reati scadono prima che il processo finisca, a causa della lentezza dei tribunali","Perche impedisce ai giudici di pronunciare sentenze severe","Perche obbliga tutti gli imputati a patteggiare la pena","Perche si applica solo ai reati commessi all'estero"],
+     opts:["Perche obbliga tutti gli imputati a patteggiare la pena","Perche si applica solo ai reati commessi all'estero","Perche molti reati scadono prima che il processo finisca, a causa della lentezza dei tribunali","Perche impedisce ai giudici di pronunciare sentenze severe"],
      ans:"Perche molti reati scadono prima che il processo finisca, a causa della lentezza dei tribunali",
      hint:"Slow courts plus fixed time limits mean some criminals escape justice. The crime expires before the verdict can be reached."}
   ,{type:"match",pairs:[{trg:"il patteggiamento",src:"the plea bargain"},{trg:"la perizia",src:"the expert assessment / forensic report"},{trg:"la cauzione",src:"the bail"},{trg:"la recidiva",src:"the recidivism / repeat offense"}]},{type:"mc",q:"How do you say \"hearing / court session\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'udienza"],ans:"l'udienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]

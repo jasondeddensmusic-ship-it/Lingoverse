@@ -86,7 +86,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'sans problème' ou 'sans difficulté' ?",
-     opts:["sans encombre","sans bénédiction","sans factotum","sans concordance"],
+     opts:["sans concordance","sans encombre","sans bénédiction","sans factotum"],
      ans:"sans encombre",
      hint:"This set phrase uses a word meaning hindrance or obstacle, negated by 's...' (without)."},
 

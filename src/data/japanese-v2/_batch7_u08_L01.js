@@ -105,7 +105,7 @@ const BATCH7_L1 = {
      sSrc:"Moving paperwork is done at the {1}."},
 
     {type:"mc", q:"神社(じんじゃ) and お寺(てら): which one has a torii gate?",
-     opts:["神社(じんじゃ) (Shinto shrine)","お寺(てら) (Buddhist temple)","Both have torii gates","Neither has torii gates"],
+     opts:["Neither has torii gates","神社(じんじゃ) (Shinto shrine)","お寺(てら) (Buddhist temple)","Both have torii gates"],
      ans:"神社(じんじゃ) (Shinto shrine)",
      hint:"The red gate that marks the boundary between the ordinary and sacred world belongs to this type of religious site."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {
      sSrc:"The {1} is free on Sundays."},
 
     {type:"mc", q:"交番(こうばん) is:",
-     opts:["A small neighborhood police station","A large central police headquarters","A type of convenience store","A train station ticket office"],
+     opts:["A type of convenience store","A train station ticket office","A small neighborhood police station","A large central police headquarters"],
      ans:"A small neighborhood police station",
      hint:"These s... local stations are staffed by officers who know the area and help with directions and lost items."},
 

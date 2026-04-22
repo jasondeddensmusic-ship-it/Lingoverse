@@ -30,7 +30,7 @@ const LESSON_4 = {
      exampleSrc:"A: Which pen do you want?\nB: I want that red pen over there.",
      funFact:"Dono completes the full set: kono (this), sono (that), ano (that far), dono (which). This four-part pattern repeats across dozens of Japanese words: koko/soko/asoko/doko (here/there/over there/where)."},
 
-    {type:"mc", q:"この is different from これ because:", opts:["Kono is more polite","Kono must be followed by a noun","Kono is past tense","Kono is for questions"], ans:"Kono must be followed by a noun",
+    {type:"mc", q:"この is different from これ because:", opts:["Kono must be followed by a noun","Kono is past tense","Kono is for questions","Kono is more polite"], ans:"Kono must be followed by a noun",
      hint:"One demonstrative works independently; the other always attaches before a second word to modify it."},
 
     {type:"teach", trg:"うえ", src:"on top / above", pos:"noun", gender:null,
@@ -110,10 +110,10 @@ const LESSON_4 = {
      hint:"The demonstrative used before a noun to mean 'that person over there.'",
      sSrc:"Who is that person (over there)?"},
 
-    {type:"mc", q:"Which set completes the ko-so-a-do pattern?", opts:["kono/sono/ano/dono","kore/soko/are/doko","kono/sore/ano/dore","koko/sono/ano/dono"], ans:"kono/sono/ano/dono",
+    {type:"mc", q:"Which set completes the ko-so-a-do pattern?", opts:["kono/sore/ano/dore","koko/sono/ano/dono","kono/sono/ano/dono","kore/soko/are/doko"], ans:"kono/sono/ano/dono",
      hint:"All four must use the same form: the noun-modifying adjectival form."},
 
-    {type:"mc", q:"えきのまえに means:", opts:["Inside the station","Behind the station","In front of the station","Next to the station"], ans:"In front of the station",
+    {type:"mc", q:"えきのまえに means:", opts:["Next to the station","Inside the station","Behind the station","In front of the station"], ans:"In front of the station",
      hint:"Mae covers both 'in f... of' (space) and 'before' (time)."},
   ]
 };

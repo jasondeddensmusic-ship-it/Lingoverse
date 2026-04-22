@@ -1,4 +1,4 @@
-// Batch 8 â€” Unit 05 extra lesson. Home: Household Chores & Routines
+// Batch 8. Unit 05 extra lesson. Home: Household Chores & Routines
 const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"ðŸ§¹", xp:15, board:true, steps:[
 {type:"intro", title:"Le faccende domestiche",
  desc:"Learn vocabulary for household chores, cleaning, and maintaining a home in Italian.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"ðŸ
 
 {type:"mc",
  q:"What does 'essere uno straccio' mean figuratively?",
- opts:["To feel exhausted","To be very clean","To work hard","To mop the floor"],
+ opts:["To mop the floor","To feel exhausted","To be very clean","To work hard"],
  ans:"To feel exhausted",
  hint:"A 'straccio' is a rag. Imagine how a used rag looks after cleaning all day."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"ðŸ
 
 {type:"mc",
  q:"What does 'fare la polvere' mean?",
- opts:["To dust","To make powder","To sweep","To vacuum"],
+ opts:["To sweep","To vacuum","To dust","To make powder"],
  ans:"To dust",
  hint:"'Polvere' means dust. 'Fare la polvere' is the act of removing dust from surfaces."}
 ,{type:"match",pairs:[{trg:"la polvere",src:"the dust"},{trg:"il secchio",src:"the bucket"},{trg:"lo straccio",src:"the rag / mop cloth"}]}]};

@@ -66,7 +66,7 @@ const LESSON_17 = {id:"esv2_b2g6_l17",title:"Personalidad y carácter",icon:"�
  exampleSrc:"A: I feel powerless in this situation.\nB: I understand your frustration, but something can surely be done.",
  funFact:"Also has a medical meaning. In general use, it means being unable to change a situation."},
 
-{type:"mc",q:"¿Qué significa influenciable?",opts:["Fácilmente influido por los demás","Que tiene mucha influencia","Que es muy inteligente","Que no cambia de opinión"],ans:"Fácilmente influido por los demás",hint:"Someone who is easily swayed or persuaded by others."},
+{type:"mc",q:"¿Qué significa influenciable?",opts:["Que no cambia de opinión","Fácilmente influido por los demás","Que tiene mucha influencia","Que es muy inteligente"],ans:"Fácilmente influido por los demás",hint:"Someone who is easily swayed or persuaded by others."},
 
 {type:"match",pairs:[
   {trg:"ingenioso",src:"ingenious / witty"},

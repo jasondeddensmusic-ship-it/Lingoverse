@@ -14,7 +14,7 @@ const BATCH10_L1 = {
     {type:"mc", q:"What does お互(たが)いさま express?", opts:["That help is mutual and thanks are unnecessary","That someone is superior","That a debt must be repaid","That an apology is needed"], ans:"That help is mutual and thanks are unnecessary", hint:"This phrase dismisses t... by framing assistance as a two-way street."},
     {type:"fb", s:"人(ひと)に{1}をかけない。\n(Do not cause trouble for others.)", a:"迷惑(めいわく)", opts:["迷惑(めいわく)","恩(おん)","義理(ぎり)","気遣(きづか)い"], sSrc:"Do not cause trouble for others.", hint:"This core Japanese parenting principle teaches children to avoid being a burden to others."},
     {type:"match", pairs:[{trg:"恩(おん)",src:"debt of gratitude"},{trg:"義理(ぎり)",src:"duty/obligation"},{trg:"思(おも)いやり",src:"compassion"},{trg:"遠慮(えんりょ)",src:"reserve/restraint"}]},
-    {type:"mc", q:"What is 遠慮(えんりょ) at a meal?", opts:["Politely declining food you actually want","Genuinely not being hungry","Dietary restriction","Being rude to the host"], ans:"Politely declining food you actually want", hint:"This social behavior involves holding back out of politeness, requiring the host to insist."}
+    {type:"mc", q:"What is 遠慮(えんりょ) at a meal?", opts:["Being rude to the host","Politely declining food you actually want","Genuinely not being hungry","Dietary restriction"], ans:"Politely declining food you actually want", hint:"This social behavior involves holding back out of politeness, requiring the host to insist."}
   ,{type:"match",pairs:[{trg:"お互(たが)いさま",src:"we are even / mutual favor"},{trg:"助(たす)け合(あ)い",src:"mutual help / helping each other"},{trg:"気遣(きづか)い",src:"consideration / thoughtfulness"}]}]
 };
 export default BATCH10_L1;

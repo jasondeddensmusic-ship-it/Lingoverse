@@ -1,4 +1,4 @@
-// L05: Daily Routine — 20 A1 gap words
+// L05: Daily Routine, 20 A1 gap words
 const LESSON_5 = {
   id:"nlv2_a1gap_l5", title:"De Dagelijkse Routine", icon:"\u{1F305}", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Ik ___ elke ochtend koffie.",
-     opts:["maak","leg","controleer","gebruik"],
+     opts:["gebruik","maak","leg","controleer"],
      ans:"maak",
      hint:"Which verb means 'to make'? Think about preparing a drink."},
 

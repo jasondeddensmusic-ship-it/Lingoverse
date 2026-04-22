@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 9: Gathering and Body
+// Korean B2. Batch 4, Lesson 9: Gathering and Body
 // Words: 모집, 모집하다, 모처럼, 모퉁이, 목걸이, 목록, 목숨, 목욕탕, 몰려들다, 몰려오다, 몸매, 몸무게, 몸살, 몸속, 몸짓, 몸통, 못되다, 못생기다, 못지않다, 묘사
 
 const LESSON_9 = {
@@ -119,7 +119,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"'몸살'은 어떤 상태를 말하나요?",
-     opts:["과로나 감기 전에 오는 전신 통증","운동 후 근육통","머리가 아픈 것","배가 아픈 것"],
+     opts:["배가 아픈 것","과로나 감기 전에 오는 전신 통증","운동 후 근육통","머리가 아픈 것"],
      ans:"과로나 감기 전에 오는 전신 통증",
      hint:"This uniquely Korean concept describes all-over body aches from overwork or an oncoming cold."},
 

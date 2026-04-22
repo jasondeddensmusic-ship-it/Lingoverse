@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"日本(にほん)に住(す)んでから刺身(さしみ)が{1}ようになりました。\n(Since living in Japan, I came to be able to eat sashimi.)", a:"食(た)べられる", opts:["食(た)べられる","食(た)べる","食(た)べた","食(た)べて"], sSrc:"Since living in Japan, I came to be able to eat sashimi.",
      hint:"The potential form of 食(た)べる before ようになる (came to be able to)."},
 
-    {type:"mc", q:"ようにする vs. ようになる:", opts:["する = conscious effort, なる = natural/gradual change","Both mean the same thing","する = past, なる = future","する = formal, なる = casual"], ans:"する = conscious effort, なる = natural/gradual change",
+    {type:"mc", q:"ようにする vs. ようになる:", opts:["する = formal, なる = casual","する = conscious effort, なる = natural/gradual change","Both mean the same thing","する = past, なる = future"], ans:"する = conscious effort, なる = natural/gradual change",
      hint:"One is something you deliberately try to do; the other happens gradually over time."},
 
     {type:"match", pairs:[{trg:"たことがある",src:"have experienced"},{trg:"ことができる",src:"can do (formal)"},{trg:"ようにする",src:"make effort to"},{trg:"ようになる",src:"come to be able to"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"健康(けんこう)のために毎日(まいにち)運動(うんどう)する{1}しています。\n(I make an effort to exercise every day for health.)", a:"ようにして", opts:["ようにして","ことにして","ためにして","ほうにして"], sSrc:"I make an effort to exercise every day for health.",
      hint:"The pattern meaning 'making a conscious effort to,' using よう + に + する."},
 
-    {type:"mc", q:"三日坊主(みっかぼうず) describes:", opts:["Someone who cannot stick with new habits","A Buddhist monk","Someone who works three days a week","A three-day holiday"], ans:"Someone who cannot stick with new habits",
+    {type:"mc", q:"三日坊主(みっかぼうず) describes:", opts:["Someone who works three days a week","A three-day holiday","Someone who cannot stick with new habits","A Buddhist monk"], ans:"Someone who cannot stick with new habits",
      hint:"This idiom literally means 'three-day monk,' implying s... gives up a n... practice after only three days."}
   ,{type:"match",pairs:[{trg:"習慣(しゅうかん)",src:"habit / custom / practice"},{trg:"身(み)につける",src:"to acquire (a skill) / to learn / to master"},{trg:"一度(いちど)",src:"once / one time"},{trg:"とうとう",src:"finally / at last / in the end"}]}]
 };

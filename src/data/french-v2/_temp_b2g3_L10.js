@@ -86,7 +86,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"Quel verbe signifie changer la nature de quelque chose, le rendre méconnaissable ?",
-     opts:["dénaturer","enrayer","accélérer","coexister"],
+     opts:["coexister","dénaturer","enrayer","accélérer"],
      ans:"dénaturer",
      hint:"This verb means to alter something so it loses its original nature or character."},
 

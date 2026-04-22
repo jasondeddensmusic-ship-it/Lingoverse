@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 13 — Economy and Commerce
+// French B2 Gap Lesson 13. Economy and Commerce
 const LESSON_13 = {id:"frv2_b2g5_l13", title:"Économie et commerce", icon:"📊", xp:15, board:true, steps:[
   {type:"intro", title:"Économie et commerce",
    desc:"Learn vocabulary for discussing economic trends, business, and consumer culture at the B2 level.",
@@ -87,7 +87,7 @@ const LESSON_13 = {id:"frv2_b2g5_l13", title:"Économie et commerce", icon:"📊
    funFact:"From 'joindre' (to join). 'Les jointures' also means knuckles (finger joints) in anatomy."},
 
   {type:"mc", q:"Quel mot désigne une personne qui achète et utilise des produits?",
-   opts:["Le consommateur","Le commercial","Le contradicteur","Le curieux"],
+   opts:["Le curieux","Le consommateur","Le commercial","Le contradicteur"],
    ans:"Le consommateur",
    hint:"The person at the end of the economic chain who buys and uses goods"},
 
@@ -105,7 +105,7 @@ const LESSON_13 = {id:"frv2_b2g5_l13", title:"Économie et commerce", icon:"📊
   ]},
 
   {type:"mc", q:"Que signifie 'en guise de remerciement'?",
-   opts:["Comme forme de remerciement","Sans remerciement","Malgré le remerciement","Avant le remerciement"],
+   opts:["Malgré le remerciement","Avant le remerciement","Comme forme de remerciement","Sans remerciement"],
    ans:"Comme forme de remerciement",
    hint:"'En guise de' means 'by way of' or 'as a form of'"},
 
@@ -120,7 +120,7 @@ const LESSON_13 = {id:"frv2_b2g5_l13", title:"Économie et commerce", icon:"📊
    hint:"An explosion sound was heard and news comes in very slowly, drop by drop"},
 
   {type:"mc", q:"Que sont 'les jointures' en anatomie?",
-   opts:["Les articulations des doigts","Les muscles du bras","Les os du dos","Les dents de sagesse"],
+   opts:["Les muscles du bras","Les os du dos","Les dents de sagesse","Les articulations des doigts"],
    ans:"Les articulations des doigts",
    hint:"The points where finger bones meet, also called knuckles"}
 ]};

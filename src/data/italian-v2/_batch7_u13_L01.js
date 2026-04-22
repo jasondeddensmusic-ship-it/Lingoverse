@@ -1,4 +1,4 @@
-// Batch 7 — Unit 13 extra lesson. Il congiuntivo: Hopes, Doubts & Wishes
+// Batch 7. Unit 13 extra lesson. Il congiuntivo: Hopes, Doubts & Wishes
 const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD}", xp:15, board:true, steps:[
 {type:"intro", title:"Speranze e dubbi",
  desc:"Express hopes, doubts, and wishes using subjunctive triggers and related vocabulary.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD
 ]},
 
 {type:"mc", q:"Quale congiunzione richiede SEMPRE il congiuntivo?",
- opts:["prima che","dopo che","perché","quando"],
+ opts:["quando","prima che","dopo che","perché"],
  ans:"prima che",
  hint:"It expresses something that has not happened yet. 'Before' + subjunctive."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u13l_b7_1", title:"Speranze e dubbi", icon:"\u{1F4AD
  sSrc:"{1} it rains, I am going out anyway."},
 
 {type:"mc", q:"Che cosa significa 'a patto che'?",
- opts:["on condition that","because","before","without"],
+ opts:["before","without","on condition that","because"],
  ans:"on condition that",
  hint:"An agreement: I will do X if you do Y. Requires subjunctive."},
 

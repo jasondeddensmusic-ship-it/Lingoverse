@@ -13,7 +13,7 @@ const LESSON_19 = {id:"esv2_b2g7_l19",title:"Identidad y pertenencia",icon:"🪞
 {type:"teach",trg:"materialista",src:"materialistic",pos:"adj",gender:null,note:"Focused on possessions. Recycled from Lesson 11.",example:"A: ¿Es la sociedad actual demasiado materialista?\nB: No quiero parecer materialista, pero valoro la estabilidad.",exampleSrc:"A: Is today's society too materialistic?\nB: I don't want to seem materialistic, but I value stability.",funFact:"The tension between materialism and traditional values is a common DELE B2 essay topic."},
 {type:"mc",q:"¿Cuántas lenguas indígenas se hablan aproximadamente en México?",opts:["Más de sesenta","Solo una","Diez","Dos"],ans:"Más de sesenta",hint:"Mexico has extraordinary linguistic diversity with dozens of indigenous languages."},
 {type:"fb",s:"El español tiene miles de palabras de origen árabe en su {1}.",a:["léxico"],opts:["léxico","litoral","manuscrito","listón"],hint:"This word means the complete vocabulary or word stock of a language.",sSrc:"Spanish has thousands of words of Arabic origin in its {1}."},
-{type:"mc",q:"El euskera es una lengua especial porque:",opts:["No tiene relación conocida con ninguna otra lengua","Es idéntica al castellano","Solo se habla en Madrid","Es una lengua eslava"],ans:"No tiene relación conocida con ninguna otra lengua",hint:"Basque is a linguistic mystery, unrelated to any other known language family."},
+{type:"mc",q:"El euskera es una lengua especial porque:",opts:["Es una lengua eslava","No tiene relación conocida con ninguna otra lengua","Es idéntica al castellano","Solo se habla en Madrid"],ans:"No tiene relación conocida con ninguna otra lengua",hint:"Basque is a linguistic mystery, unrelated to any other known language family."},
 {type:"fb",s:"La comunidad {1} es la segunda más grande del mundo.",a:["hispanófona"],opts:["hispanófona","eslava","indígena","materialista"],hint:"This adjective means Spanish-speaking, applied to people or countries.",sSrc:"The {1} community is the second largest in the world."},
 {type:"match",pairs:[
   {trg:"hispanófono",src:"Spanish-speaking"},
@@ -22,7 +22,7 @@ const LESSON_19 = {id:"esv2_b2g7_l19",title:"Identidad y pertenencia",icon:"🪞
   {trg:"la fisonomía",src:"the physiognomy"},
   {trg:"el lingüista",src:"the linguist"}
 ]},
-{type:"mc",q:"Antonio de Nebrija es famoso por:",opts:["Escribir la primera gramática del español","Descubrir América","Pintar la Alhambra","Fundar Barcelona"],ans:"Escribir la primera gramática del español",hint:"This linguist published his groundbreaking grammar in 1492."},
+{type:"mc",q:"Antonio de Nebrija es famoso por:",opts:["Pintar la Alhambra","Fundar Barcelona","Escribir la primera gramática del español","Descubrir América"],ans:"Escribir la primera gramática del español",hint:"This linguist published his groundbreaking grammar in 1492."},
 {type:"fb",s:"La {1} de la ciudad ha cambiado mucho en los últimos veinte años.",a:["fisonomía"],opts:["fisonomía","individualidad","materialidad","finalización"],hint:"This word describes the general appearance or face of a place.",sSrc:"The {1} of the city has changed a lot in the last twenty years."}
 ]};
 export default LESSON_19;

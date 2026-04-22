@@ -60,7 +60,7 @@ const LESSON_2 = {
      deepDive:{title:"The linking -s-",
       text:"Many Dutch compounds insert an -s- between the parts: handel-s-bedrijf, handel-s-waar, handel-s-post. This is called the 'tussen-s' (linking s). It does not mean possession. It is a phonological connector that makes the compound easier to pronounce.\n\nRules for when to use -s- are complex and partly arbitrary. Words ending in -heid, -ling, -schap, -tion almost always get -s-: gezondheid-s-zorg, bevolking-s-groei, wetenschap-s-man. With other words, you mostly learn it by exposure."}},
     {type:"mc", q:"Wat is een 'handelspost'?",
-     opts:["een postkantoor","een handelsstation in het buitenland","een soort postpakket","een handtekening"],
+     opts:["een handelsstation in het buitenland","een soort postpakket","een handtekening","een postkantoor"],
      ans:"een handelsstation in het buitenland",
      hint:"Think of colonial-era Dutch outposts in Asia where goods were traded."},
     {type:"fb", s:"Bloemen zijn een belangrijk {1} van Nederland.", a:["exportartikel"],
@@ -74,7 +74,7 @@ const LESSON_2 = {
       {trg:"exploitatie", src:"operation"}
     ]},
     {type:"mc", q:"'De exploitatie van het zwembad kost veel geld.' What does 'exploitatie' mean here?",
-     opts:["the exploitation","the destruction","the operation","the construction"],
+     opts:["the destruction","the operation","the construction","the exploitation"],
      ans:"the operation",
      hint:"In Dutch, this word neutrally means running or managing a business or facility."},
     {type:"fb", s:"Het hotel heeft uitstekende {1}.", a:["faciliteiten"],

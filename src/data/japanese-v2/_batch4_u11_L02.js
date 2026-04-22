@@ -1,4 +1,4 @@
-// Batch 4 — Unit 11 Lesson 2: Emotions & Feelings
+// Batch 4. Unit 11 Lesson 2: Emotions & Feelings
 const BATCH4_L_2 = {
   id:"jav2_u11l_b4_2", title:"気持(きも)ち", icon:"😊", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"悔(くや)しい is best described as:",
-     opts:["frustration mixed with determination","pure sadness","calm acceptance","wild joy"], ans:"frustration mixed with determination",
+     opts:["wild joy","frustration mixed with determination","pure sadness","calm acceptance"], ans:"frustration mixed with determination",
      hint:"The feeling athletes have after losing, vowing to come back stronger."},
 
     {type:"fb", s:"この歌(うた)は{1}ですね。", a:"懐(なつ)かしい",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"A warm, bittersweet connection to happy memories of the past."},
 
     {type:"mc", q:"What is the opposite of 心配(しんぱい)?",
-     opts:["安心(あんしん)","がっかり","イライラ","ドキドキ"], ans:"安心(あんしん)",
+     opts:["イライラ","ドキドキ","安心(あんしん)","がっかり"], ans:"安心(あんしん)",
      hint:"Peaceful heart, the feeling of relief after worry dissolves."},
 
     {type:"mc", q:"恥(はず)かしい means:",
-     opts:["embarrassed/ashamed","proud","angry","confused"], ans:"embarrassed/ashamed",
+     opts:["proud","angry","confused","embarrassed/ashamed"], ans:"embarrassed/ashamed",
      hint:"The emotion at the core of Japan's social behavior system."}
   ,{type:"match",pairs:[{trg:"気持(きも)ち",src:"feeling / mood"},{trg:"嬉(うれ)しい",src:"happy / glad"},{trg:"悲(かな)しい",src:"sad"},{trg:"寂(さび)しい",src:"lonely"},{trg:"悔(くや)しい",src:"frustrated / vexing / mortifying"},{trg:"恥(はず)かしい",src:"embarrassed / ashamed"}]},{type:"match",pairs:[{trg:"怖(こわ)い",src:"scary / afraid"}]}]
 };

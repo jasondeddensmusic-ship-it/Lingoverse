@@ -1,4 +1,4 @@
-// L16: Onderwijs en Examens — Education and Examinations
+// L16: Onderwijs en Examens. Education and Examinations
 const LESSON_16 = {
   id:"nlv2_b2gC_l16", title:"Onderwijs en Examens", icon:"\u{1F393}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"In Nederland is het laagste voldoende cijfer:",
-     opts:["4.0","5.0","5.5","6.0"],
+     opts:["5.5","6.0","4.0","5.0"],
      ans:"5.5",
      hint:"The Dutch grading system runs from 1-10. The minimum pass is just above halfway."},
 
@@ -75,7 +75,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Het Nederlandse middelbaar onderwijs kent 'profielen'. Hoeveel zijn er?",
-     opts:["Twee","Drie","Vier","Zes"],
+     opts:["Drie","Vier","Zes","Twee"],
      ans:"Vier",
      hint:"Students choose between nature/tech, nature/health, economy/society, or culture/society."},
 

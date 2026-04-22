@@ -1,4 +1,4 @@
-// Unit 2 — Quantos anos você tem?
+// Unit 2. Quantos anos você tem?
 // Numbers and Age
 
 const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você tem?",sub:"Numbers and Age",icon:"🔢",level:"A1.1",color:"#7B5EE8",lessons:[
@@ -12,14 +12,14 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"teach",trg:"cinco",src:"five",pos:"num",gender:null,note:"One form for both genders. Pronounced 'SEEN-koo'.",example:"A: Quantos anos?\nB: Cinco anos.",exampleSrc:"A: How many years?\nB: Five years.",funFact:"Brazilian Portuguese pronounces final -o as 'oo', so cinco sounds like 'SEEN-koo'."},
     {type:"tip",title:"Numbers with gender",text:"Only um and dois change for gender:\num / uma (one)\ndois / duas (two)\n\nThree and up stay the same for both genders.",icon:"💡"},
     {type:"fb",opts:["três","quatro","cinco","zero"],hint:"One more than dois in the counting sequence.",s:"Eu tenho {1} cafés no copo.",sSrc:"I have three coffees in the cup.",a:"três"},
-    {type:"mc",q:"Which number in Portuguese is 'three'?",opts:["dois","três","quatro","cinco"],ans:"três",hint:"Think of the English cognate starting with th-."},
-    {type:"mc",q:"Which number has BOTH a masculine and feminine form?",opts:["três","quatro","cinco","dois"],ans:"dois",hint:"Only one and two change ending by gender."},
+    {type:"mc",q:"Which number in Portuguese is 'three'?",opts:["três","quatro","cinco","dois"],ans:"três",hint:"Think of the English cognate starting with th-."},
+    {type:"mc",q:"Which number has BOTH a masculine and feminine form?",opts:["cinco","dois","três","quatro"],ans:"dois",hint:"Only one and two change ending by gender."},
     {type:"fb",opts:["zero","um","dois","três"],hint:"The first counting number after zero.",s:"Eu tenho {1} café.",sSrc:"I have one coffee.",a:"um"},
     {type:"fb",opts:["dois","três","quatro","cinco"],hint:"Comes right before cinco in the counting sequence.",s:"Eu tenho {1} cafés.",sSrc:"I have four coffees.",a:"quatro"},
     {type:"match",pairs:[{trg:"zero",src:"0"},{trg:"um",src:"1"},{trg:"dois",src:"2"},{trg:"três",src:"3"},{trg:"quatro",src:"4"},{trg:"cinco",src:"5"}]},
-    {type:"mc",q:"How do you say the number 0 in Portuguese?",opts:["um","zero","dois","cinco"],ans:"zero",hint:"The word is identical to English, borrowed from Arabic via Italian."},
+    {type:"mc",q:"How do you say the number 0 in Portuguese?",opts:["cinco","um","zero","dois"],ans:"zero",hint:"The word is identical to English, borrowed from Arabic via Italian."},
     {type:"fb",opts:["cinco","três","dois","um"],hint:"The number right after quatro.",s:"Temos {1} cafés.",sSrc:"We have five coffees.",a:"cinco"},
-    {type:"mc",q:"Dois mais um equals:",opts:["dois","três","quatro","cinco"],ans:"três",hint:"Add 2 plus 1."}
+    {type:"mc",q:"Dois mais um equals:",opts:["quatro","cinco","dois","três"],ans:"três",hint:"Add 2 plus 1."}
   ]},
   {id:"ptv2_u2l2",title:"Numbers 6 to 10",icon:"🔟",xp:15,board:true,steps:[
     {type:"intro",title:"Counting to ten",desc:"Finish your first counting set. By the end, you can count to ten and do basic math.",goals:["Count from six to ten","Recognize each number written","Answer simple how-many questions"]},
@@ -31,13 +31,13 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"teach",trg:"número",src:"number",pos:"noun",gender:"m",note:"Masculine noun. The word for any number in general.",example:"A: Qual é o seu número?\nB: Meu número é cinco.",exampleSrc:"A: What is your number?\nB: My number is five.",funFact:"The accent on the é in número marks the stressed syllable: NOO-meh-roo."},
     {type:"teach",trg:"mais",src:"plus / more",pos:"adv",gender:null,note:"Used in math (plus) and in comparisons (more). Pronounced 'mice'.",example:"A: Dois mais três?\nB: Cinco.",exampleSrc:"A: Two plus three?\nB: Five.",funFact:"Mais also means 'more' in comparisons: Eu quero mais café means I want more coffee."},
     {type:"fb",opts:["seis","sete","oito","nove"],hint:"Half a dúzia. Often used on the phone instead of três.",s:"Quero {1} cafés, por favor.",sSrc:"I want six coffees, please.",a:"seis"},
-    {type:"mc",q:"Which number means 'seven'?",opts:["seis","oito","sete","nove"],ans:"sete",hint:"Think seven: s_t_."},
+    {type:"mc",q:"Which number means 'seven'?",opts:["sete","nove","seis","oito"],ans:"sete",hint:"Think seven: s_t_."},
     {type:"mc",q:"Which number means 'ten'?",opts:["nove","dez","doze","sete"],ans:"dez",hint:"The shortest of the higher numbers here."},
     {type:"fb",opts:["seis","sete","oito","nove"],hint:"One more than sete.",s:"Eu tenho {1} cafés.",sSrc:"I have eight coffees.",a:"oito"},
     {type:"fb",opts:["mais","menos","e","ou"],hint:"Used for addition in math.",s:"Dois {1} três é cinco.",sSrc:"Two plus three is five.",a:"mais"},
     {type:"match",pairs:[{trg:"seis",src:"6"},{trg:"sete",src:"7"},{trg:"oito",src:"8"},{trg:"nove",src:"9"},{trg:"dez",src:"10"}]},
-    {type:"mc",q:"Quatro mais cinco equals:",opts:["oito","nove","dez","sete"],ans:"nove",hint:"Do the addition: 4 plus 5."},
-    {type:"mc",q:"Which word means 'number' itself?",opts:["ano","idade","número","mais"],ans:"número",hint:"General word for any number. Noun with accent on first syllable."},
+    {type:"mc",q:"Quatro mais cinco equals:",opts:["sete","oito","nove","dez"],ans:"nove",hint:"Do the addition: 4 plus 5."},
+    {type:"mc",q:"Which word means 'number' itself?",opts:["mais","ano","idade","número"],ans:"número",hint:"General word for any number. Noun with accent on first syllable."},
     {type:"fb",opts:["dez","nove","seis","sete"],hint:"The largest single-digit number.",s:"Eu conto até {1}.",sSrc:"I count to ten.",a:"dez"}
   ]},
   {id:"ptv2_u2l3",title:"Asking age",icon:"🎂",xp:15,board:true,steps:[
@@ -49,15 +49,15 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"teach",trg:"quantos",src:"how many (m)",pos:"pron",gender:"m",note:"Masculine plural form. Used before masculine nouns like anos.",example:"A: Quantos anos você tem?\nB: Eu tenho oito anos.",exampleSrc:"A: How many years do you have?\nB: I have eight years.",funFact:"Literally 'how many years', but Portuguese treats this as 'how old'. Never ask age with ser."},
     {type:"teach",trg:"quantas",src:"how many (f)",pos:"pron",gender:"f",note:"Feminine plural form. Used before feminine nouns.",example:"A: Quantas?\nB: Cinco.",exampleSrc:"A: How many?\nB: Five.",funFact:"The ending changes with the gender of the thing being counted: quantos for masculine, quantas for feminine."},
     {type:"tip",title:"Age uses TER, not SER",text:"Portuguese says 'I have 10 years', not 'I am 10'.\nEu tenho dez anos means I am ten years old.\nEle tem oito anos means He is eight years old.\n\nNEVER say 'Eu sou dez'. That is wrong.",icon:"💡"},
-    {type:"mc",q:"Which verb does Portuguese use for age?",opts:["ser","estar","ter","ir"],ans:"ter",hint:"You have years, not are years."},
+    {type:"mc",q:"Which verb does Portuguese use for age?",opts:["ter","ir","ser","estar"],ans:"ter",hint:"You have years, not are years."},
     {type:"mc",q:"'I am ten years old' in Portuguese is:",opts:["Eu sou dez.","Eu tenho dez anos.","Eu estou dez anos.","Eu dez anos."],ans:"Eu tenho dez anos.",hint:"Use the verb for 'have' plus the word for years."},
     {type:"fb",opts:["tenho","sou","estou","é"],hint:"First-person form of ter, used for age.",s:"Eu {1} oito anos.",sSrc:"I am eight years old.",a:"tenho"},
     {type:"fb",opts:["quantos","quantas","qual","quanto"],hint:"Masculine plural form before anos.",s:"{1} anos você tem?",sSrc:"How old are you?",a:"Quantos"},
-    {type:"mc",q:"Quantas is used before a noun that is:",opts:["masculine","feminine","singular","plural"],ans:"feminine",hint:"The -a ending is a gender marker."},
+    {type:"mc",q:"Quantas is used before a noun that is:",opts:["plural","masculine","feminine","singular"],ans:"feminine",hint:"The -a ending is a gender marker."},
     {type:"fb",opts:["ano","anos","idade","idades"],hint:"Plural of the word for year, used with numbers above one.",s:"Ele tem dez {1}.",sSrc:"He is ten years old.",a:"anos"},
     {type:"match",pairs:[{trg:"ter",src:"to have"},{trg:"tenho",src:"I have"},{trg:"ano",src:"year"},{trg:"idade",src:"age"},{trg:"quantos",src:"how many (m)"},{trg:"quantas",src:"how many (f)"}]},
-    {type:"mc",q:"Which sentence asks 'How old is she?' correctly?",opts:["Ela é quantos anos?","Quantos anos ela tem?","Ela está anos?","Quantos ela anos?"],ans:"Quantos anos ela tem?",hint:"Use ___ plus ___ plus a form of ter."},
-    {type:"mc",q:"'Minha idade' means:",opts:["my year","my age","my number","my name"],ans:"my age",hint:"Idade is the feminine noun for the concept of … itself."}
+    {type:"mc",q:"Which sentence asks 'How old is she?' correctly?",opts:["Ela está anos?","Quantos ela anos?","Ela é quantos anos?","Quantos anos ela tem?"],ans:"Quantos anos ela tem?",hint:"Use ___ plus ___ plus a form of ter."},
+    {type:"mc",q:"'Minha idade' means:",opts:["my age","my number","my name","my year"],ans:"my age",hint:"Idade is the feminine noun for the concept of … itself."}
   ]}
   ,{id:"ptv2_u2l_form",title:"Preencher um formulário",icon:"📝",xp:15,board:true,steps:[
     {type:"intro",title:"Filling Out Forms",desc:"Learn to read and fill out basic forms in Brazilian Portuguese: name, address, phone, email. Essential for hotel check-in, CAPLE exams, and official documents.",goals:["Read basic form fields","Fill in personal details","Write a simple formal message greeting"]},
@@ -69,13 +69,13 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"teach",trg:"a data de nascimento",src:"the date of birth",pos:"noun",gender:"f",note:"Feminine noun phrase. Standard field on all Brazilian official forms.",example:"A: Qual é a sua data de nascimento?\nB: A minha data de nascimento é dois de um.",exampleSrc:"A: What is your date of birth?\nB: My date of birth is the second of the first.",funFact:"Brazilians write dates in day/month/year order: 15/08/1990. Never month/day/year."},
     {type:"teach",trg:"preencher",src:"to fill out / to fill in",pos:"verb",gender:null,note:"Used for filling in forms, blanks, or fields. The standard instruction on any Brazilian form.",example:"A: Você tem que preencher.\nB: Sim, eu também tenho que preencher.",exampleSrc:"A: You have to fill it out.\nB: Yes, I also have to fill it out.",funFact:"Preencher combines pre- (before) and encher (to fill). You fill the blanks before they can be processed."},
     {type:"teach",trg:"Prezado Senhor / Prezada Senhora",src:"Dear Sir / Dear Madam",pos:"intj",gender:null,note:"Formal greeting used to open written messages and emails. Prezado is masculine, Prezada is feminine.",example:"A: Prezado Senhor João,\nB: Prezada Senhora Ana,",exampleSrc:"A: Dear Sir João,\nB: Dear Madam Ana,",funFact:"Prezado comes from prezar (to esteem/value). You literally say Esteemed Sir. European Portuguese often uses Exmo. Senhor instead."},
-    {type:"tip",title:"Form fields you will see everywhere",text:"Brazilian forms always have these standard fields:\nnome (first name)\nsobrenome (surname)\nendereço (address)\ntelefone (phone)\ne-mail (email)\ndata de nascimento (date of birth)\n\nPreencha (fill in) is the printed instruction above blank lines.",icon:"📝",deepDive:{title:"Brazilian vs European Portuguese: formal salutations",text:"In Brazil, formal emails and letters open with Prezado(a) Senhor(a) or simply Prezado(a) followed by the person's name.\n\nIn Portugal, the standard is Exmo. Senhor or Exma. Senhora (Excelentíssimo/a — Most Excellent). This sounds archaic to Brazilians, who find it overly stiff.\n\nFor neutral written Portuguese that works in both countries, use Prezado(a) followed by the full name or title."}},
-    {type:"mc",q:"Which field asks for your family name?",opts:["nome","sobrenome","endereço","telefone"],ans:"sobrenome",hint:"Think: what comes after the first name on a form?"},
-    {type:"mc",q:"'Preencher' means:",opts:["to read","to sign","to fill out","to count"],ans:"to fill out",hint:"This is the instruction printed above blank lines on forms."},
+    {type:"tip",title:"Form fields you will see everywhere",text:"Brazilian forms always have these standard fields:\nnome (first name)\nsobrenome (surname)\nendereço (address)\ntelefone (phone)\ne-mail (email)\ndata de nascimento (date of birth)\n\nPreencha (fill in) is the printed instruction above blank lines.",icon:"📝",deepDive:{title:"Brazilian vs European Portuguese: formal salutations",text:"In Brazil, formal emails and letters open with Prezado(a) Senhor(a) or simply Prezado(a) followed by the person's name.\n\nIn Portugal, the standard is Exmo. Senhor or Exma. Senhora (Excelentíssimo/a. Most Excellent). This sounds archaic to Brazilians, who find it overly stiff.\n\nFor neutral written Portuguese that works in both countries, use Prezado(a) followed by the full name or title."}},
+    {type:"mc",q:"Which field asks for your family name?",opts:["sobrenome","endereço","telefone","nome"],ans:"sobrenome",hint:"Think: what comes after the first name on a form?"},
+    {type:"mc",q:"'Preencher' means:",opts:["to sign","to fill out","to count","to read"],ans:"to fill out",hint:"This is the instruction printed above blank lines on forms."},
     {type:"fb",opts:["nome","sobrenome","telefone","e-mail"],hint:"The field for your given (first) name.",s:"Por favor, escreva o seu {1} aqui.",sSrc:"Please write your first name here.",a:"nome"},
     {type:"fb",opts:["endereço","sobrenome","nome","e-mail"],hint:"Where you live: street, number, city.",s:"Qual é o seu {1}?",sSrc:"What is your address?",a:"endereço"},
     {type:"mc",q:"'A data de nascimento' asks for:",opts:["your phone number","your address","your date of birth","your email"],ans:"your date of birth",hint:"Data means something on a calendar. Nascimento relates to being born."},
-    {type:"mc",q:"To open a formal email in Brazil, you write:",opts:["Oi Senhor","Bom dia Senhor","Prezado Senhor","Olá Senhor"],ans:"Prezado Senhor",hint:"The formal written opening, meaning Esteemed Sir."},
+    {type:"mc",q:"To open a formal email in Brazil, you write:",opts:["Olá Senhor","Oi Senhor","Bom dia Senhor","Prezado Senhor"],ans:"Prezado Senhor",hint:"The formal written opening, meaning Esteemed Sir."},
     {type:"fb",opts:["preencher","escrever","ter","ser"],hint:"This verb means to fill in or fill out a form.",s:"Você pode {1} o formulário?",sSrc:"Can you fill out the form?",a:"preencher"},
     {type:"fb",opts:["telefone","e-mail","endereço","sobrenome"],hint:"The field where you write your phone number.",s:"Qual é o seu {1}?",sSrc:"What is your phone number?",a:"telefone"},
     {type:"match",pairs:[{trg:"o nome",src:"first name"},{trg:"o sobrenome",src:"surname"},{trg:"o endereço",src:"address"},{trg:"o telefone",src:"phone"},{trg:"o e-mail",src:"email"},{trg:"a data de nascimento",src:"date of birth"},{trg:"preencher",src:"to fill out"}]}

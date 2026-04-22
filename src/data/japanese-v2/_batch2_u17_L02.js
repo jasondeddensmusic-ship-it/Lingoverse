@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: I complained to the restaurant.\nB: What was the problem?\nA: That is a nice memory.\nB: Yes, I will never forget it.",
      funFact:"苦情 combines 苦 (suffering) and 情 (emotion/circumstances). Filing complaints is culturally complex in Japan. Direct confrontation is avoided; instead, people often write formal complaints or speak to managers. Consumer complaint centers (消費者センター) handle disputes that individuals cannot resolve alone."},
 
-    {type:"mc", q:"メールを送(おく)ったのに無視(むし)された means:", opts:["I ignored the email","I sent an email but was ignored","I received an email","My email was successful"], ans:"I sent an email but was ignored",
+    {type:"mc", q:"メールを送(おく)ったのに無視(むし)された means:", opts:["I sent an email but was ignored","I received an email","My email was successful","I ignored the email"], ans:"I sent an email but was ignored",
      hint:"のに expresses frustration. The passive 無視(むし)された shows the speaker was the one i...."},
 
     {type:"teach", trg:"約束(やくそく)を破(やぶ)られる", src:"to have a promise broken", pos:"verb", gender:null,
@@ -81,7 +81,7 @@ const BATCH2_L_2 = {
 
     {type:"match", pairs:[{trg:"約束(やくそく)を破(やぶ)られる",src:"to have a promise broken"},{trg:"間違(まちが)えられる",src:"to have mistaken"},{trg:"邪魔(じゃま)される",src:"to be disturbed"},{trg:"断(ことわ)られる",src:"to be refused"}]},
 
-    {type:"mc", q:"邪魔(じゃま)される means:", opts:["to disturb someone","to be disturbed/interrupted","to invite someone","to be welcomed"], ans:"to be disturbed/interrupted",
+    {type:"mc", q:"邪魔(じゃま)される means:", opts:["to be welcomed","to disturb someone","to be disturbed/interrupted","to invite someone"], ans:"to be disturbed/interrupted",
      hint:"The passive of 邪魔(じゃま)する (to disturb). The speaker is on the receiving end of the disturbance."},
   {type:"match",pairs:[{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]},
   {type:"fb", s:"お客様(きゃくさま)から{1}が届(とど)きました。", a:["苦情(くじょう)"], opts:["苦情(くじょう)","約束(やくそく)","嘘(うそ)","感謝(かんしゃ)"], hint:"A formal expression of dissatisfaction from a customer.", sSrc:"A {1} arrived from a customer."}

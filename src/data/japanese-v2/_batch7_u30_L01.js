@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"Let us think about the {1} of the problem. Not just the surface."},
 
     {type:"mc", q:"Japanese academic writing places the 結論(けつろん):",
-     opts:["At the end (bottom-up structure)","At the beginning (top-down)","In the middle","Nowhere specific"],
+     opts:["Nowhere specific","At the end (bottom-up structure)","At the beginning (top-down)","In the middle"],
      ans:"At the end (bottom-up structure)",
      hint:"Following the 起承転結(きしょうてんけつ) pattern, the final part arrives only after development and a turn."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"That is a {1} opinion. Data is also needed."},
 
     {type:"mc", q:"Japanese thinking tends to be:",
-     opts:["相対的(そうたいてき) (relative/contextual)","絶対的(ぜったいてき) (absolute)","Neither","Both equally"],
+     opts:["Neither","Both equally","相対的(そうたいてき) (relative/contextual)","絶対的(ぜったいてき) (absolute)"],
      ans:"相対的(そうたいてき) (relative/contextual)",
      hint:"'It depends on the situation' is a very Japanese response to moral and practical questions."},
 

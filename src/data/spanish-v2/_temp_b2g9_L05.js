@@ -1,4 +1,4 @@
-// Lesson 5 — Profesiones y oficios (Professions and Trades)
+// Lesson 5. Profesiones y oficios (Professions and Trades)
 const LESSON_5 = {id:"esv2_b2g9_l5", title:"Profesiones y oficios", icon:"\u{1F527}", xp:25, board:true, steps:[
   {type:"intro", title:"Profesiones y oficios",
    desc:"Expand your professional vocabulary with trades, crafts, and specialist roles. From woodworkers to linguists, every job has its word.",
@@ -35,7 +35,7 @@ const LESSON_5 = {id:"esv2_b2g9_l5", title:"Profesiones y oficios", icon:"\u{1F5
    funFact:"Spanish law defines an 'adulto' as someone aged 18 or over, the same age at which you can vote and drive."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es una carpinter\u00eda?",
-   opts:["Una tienda de ropa","Un taller donde se trabaja la madera","Una oficina de correos","Un sal\u00f3n de belleza"],
+   opts:["Un taller donde se trabaja la madera","Una oficina de correos","Un sal\u00f3n de belleza","Una tienda de ropa"],
    ans:"Un taller donde se trabaja la madera",
    hint:"A carpenter works with wood. The -er\u00eda suffix often indicates a workshop or shop."},
 

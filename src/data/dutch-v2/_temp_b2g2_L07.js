@@ -1,4 +1,4 @@
-// L07: Education & Academia — 20 B2 gap words
+// L07: Education & Academia, 20 B2 gap words
 const LESSON_7 = {
   id:"nlv2_b2g2_l7", title:"Onderwijs en Wetenschap", icon:"\uD83C\uDF93", xp:15, board:true,
   steps:[
@@ -126,7 +126,7 @@ const LESSON_7 = {
      sSrc:"The {1} lasts eight weeks and then the exams follow."},
     {type:"mc",
      q:"Hoe noemen Nederlanders de exacte wetenschappen?",
-     opts:["Betawetenschappen","Alfawetenschappen","Gammawetenschappen","Deltawetenschappen"],
+     opts:["Deltawetenschappen","Betawetenschappen","Alfawetenschappen","Gammawetenschappen"],
      ans:"Betawetenschappen",
      hint:"Dutch uses Greek letters to categorize knowledge areas. This one is the second letter."},
     {type:"match", pairs:[

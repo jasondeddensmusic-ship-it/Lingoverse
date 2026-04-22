@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: This pillow is nice and soft.\nB: Yes. You can sleep soundly.",
      funFact:"柔(やわ)らかい extends to personality: 柔(やわ)らかい表現(ひょうげん) (gentle expression), 柔(やわ)らかい態度(たいど) (flexible attitude). Japanese martial art 柔道(じゅうどう) uses the same 柔 kanji, meaning 'the gentle way.' The philosophy: softness overcomes hardness."},
 
-    {type:"mc", q:"分別(ぶんべつ) in trash context means:", opts:["Sorting trash into categories","Throwing everything away together","Recycling only plastic","Burning all trash"], ans:"Sorting trash into categories",
+    {type:"mc", q:"分別(ぶんべつ) in trash context means:", opts:["Burning all trash","Sorting trash into categories","Throwing everything away together","Recycling only plastic"], ans:"Sorting trash into categories",
      hint:"Japanese garbage must be separated into specific types before disposal."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"歯(は)を{1}てからねてください。\n(Please brush your teeth before sleeping.)", a:"磨(みが)い", opts:["磨(みが)い","洗(あら)っ","拭(ふ)い","掃(は)い"], sSrc:"Please brush your teeth before sleeping.",
      hint:"The て-form of the verb meaning to brush or polish."},
 
-    {type:"mc", q:"The pair 硬(かた)い / 柔(やわ)らかい means:", opts:["Hard / soft","Hot / cold","Deep / shallow","Wide / narrow"], ans:"Hard / soft",
+    {type:"mc", q:"The pair 硬(かた)い / 柔(やわ)らかい means:", opts:["Deep / shallow","Wide / narrow","Hard / soft","Hot / cold"], ans:"Hard / soft",
      hint:"These opposite adjectives describe texture and firmness."}
   ,{type:"match",pairs:[{trg:"掃(は)く",src:"to sweep"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"磨(みが)く",src:"to polish / to brush (teeth)"},{trg:"硬(かた)い",src:"hard / stiff / firm"},{trg:"柔(やわ)らかい",src:"soft / tender / gentle"}]},
   {type:"fb", s:"毎週(まいしゅう)土曜日(どようび)に部屋(へや)の{1}をします。", a:["掃除(そうじ)"], opts:["掃除(そうじ)","洗(あら)う","畳(たた)む","干(ほ)す"], hint:"The household chore of tidying and cleaning a room.", sSrc:"Every Saturday I do {1} of my room."},

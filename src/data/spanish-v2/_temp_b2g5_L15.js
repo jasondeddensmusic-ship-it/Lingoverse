@@ -84,7 +84,7 @@ const LESSON_15 = {id:"esv2_b2g5_l15",title:"Política e ideología",icon:"🗳�
  exampleSrc:"A: Madrid is very noisy. Barcelona, on the other hand, has quiet neighborhoods.\nB: It depends on the area, of course.",
  funFact:"'En cambio' is less formal than 'sin embargo' and less strong than 'por el contrario'."},
 
-{type:"mc",q:"¿Qué significa 'hacer hincapié'?",opts:["Poner énfasis en algo","Dar un paso hacia atrás","Cambiar de opinión","Aprobar una ley"],ans:"Poner énfasis en algo",hint:"To plant your feet firmly and stress a point, literally 'to drive in the foot'."},
+{type:"mc",q:"¿Qué significa 'hacer hincapié'?",opts:["Aprobar una ley","Poner énfasis en algo","Dar un paso hacia atrás","Cambiar de opinión"],ans:"Poner énfasis en algo",hint:"To plant your feet firmly and stress a point, literally 'to drive in the foot'."},
 
 {type:"fb",s:"{1} septiembre, las clases empiezan a las nueve.",a:["A partir de"],opts:["A partir de","En cambio","A la moda","Sin embargo"],hint:"A formal phrase meaning 'starting from' a certain point in time.",sSrc:"{1} September, classes start at nine."},
 
@@ -92,7 +92,7 @@ const LESSON_15 = {id:"esv2_b2g5_l15",title:"Política e ideología",icon:"🗳�
 
 {type:"fb",s:"La {1} del estadio animó al equipo durante todo el partido.",a:["hinchada"],opts:["hinchada","aprobación","evangelización","expropiación"],hint:"The collective fans or supporters of a sports team.",sSrc:"The stadium {1} cheered the team throughout the match."},
 
-{type:"mc",q:"¿Qué introduce 'en cambio'?",opts:["Un contraste con lo anterior","Una consecuencia lógica","Una lista de ejemplos","Una conclusión final"],ans:"Un contraste con lo anterior",hint:"This phrase signals that what follows is different from or contrasts with what was just said."}
+{type:"mc",q:"¿Qué introduce 'en cambio'?",opts:["Una lista de ejemplos","Una conclusión final","Un contraste con lo anterior","Una consecuencia lógica"],ans:"Un contraste con lo anterior",hint:"This phrase signals that what follows is different from or contrasts with what was just said."}
 ]};
 
 export default LESSON_15;

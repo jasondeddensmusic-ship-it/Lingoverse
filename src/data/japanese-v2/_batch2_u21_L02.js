@@ -30,7 +30,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: The effects of global warming are appearing.\nB: Temperatures are rising every year.\nA: What was the best part?\nB: The food was the most delicious.",
      funFact:"温暖化 is a top environmental concern in Japan. The country faces increasing typhoon intensity, extreme heat waves (猛暑(もうしょ), mousho), and flooding. Japan committed to carbon neutrality by 2050 (カーボンニュートラル). The 化(か) suffix marks it as a process: warming-ification, the ongoing act of becoming warmer."},
 
-    {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) refers to:", opts:["Working harder","Japan's work style reform initiative","Retirement policy","Immigration reform"], ans:"Japan's work style reform initiative",
+    {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) refers to:", opts:["Japan's work style reform initiative","Retirement policy","Immigration reform","Working harder"], ans:"Japan's work style reform initiative",
      hint:"This government i... aims to reduce overtime, promote flexibility, and improve w...-life balance."},
 
     {type:"teach", trg:"男女(だんじょ)平等(びょうどう)", src:"gender equality", pos:"noun", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_2 = {
      exampleSrc:"A: Excellent human resources are needed.\nB: It takes time to develop them.\nA: I am also interested.\nB: Then, how about doing it together next time?",
      funFact:"人材 literally means 'person-material,' viewing people as valuable resources. Some companies write it as 人財(じんざい) (person-treasure) to emphasize employee value. Japan's chronic labor shortage (人材(じんざい)不足(ぶそく), jinzai busoku) drives many policy discussions, from immigration to automation to educational reform."},
 
-    {type:"mc", q:"課題(かだい) differs from 問題(もんだい) because:", opts:["They mean exactly the same thing","課題(かだい) is more negative","課題(かだい) focuses on what needs to be addressed (constructive); 問題(もんだい) focuses on what is wrong","課題(かだい) is informal; 問題(もんだい) is formal"], ans:"課題(かだい) focuses on what needs to be addressed (constructive); 問題(もんだい) focuses on what is wrong",
+    {type:"mc", q:"課題(かだい) differs from 問題(もんだい) because:", opts:["課題(かだい) is more negative","課題(かだい) focuses on what needs to be addressed (constructive); 問題(もんだい) focuses on what is wrong","課題(かだい) is informal; 問題(もんだい) is formal","They mean exactly the same thing"], ans:"課題(かだい) focuses on what needs to be addressed (constructive); 問題(もんだい) focuses on what is wrong",
      hint:"One word is about problems, the other about challenges to tackle. Business Japanese prefers the c... one."},
 
     {type:"tip", title:"Current Event Discussion Vocabulary",

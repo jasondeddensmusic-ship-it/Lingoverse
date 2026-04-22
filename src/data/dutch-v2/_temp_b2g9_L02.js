@@ -20,10 +20,10 @@ const LESSON_2 = {id:"nlv2_b2g9_l2", title:"Jeugd & Onderwijs", icon:"\u{1F393}"
   {type:"fb", s:"Mijn zoon heeft {1} nodig voor wiskunde.", a:["huiswerkbegeleiding"], opts:["huiswerkbegeleiding","jeugdpsychiatrie","jeugdbeweging","inspiratiebron"], hint:"Support or guidance specifically for school assignments at home", sSrc:"My son needs {1} for mathematics."},
   {type:"fb", s:"Heb je het {1} al gezien? Mijn eerste examen is maandag.", a:["examenrooster"], opts:["examenrooster","inschrijvingsformulier","bachelorjaar","internaat"], hint:"The timetable that shows when each test takes place", sSrc:"Have you seen the {1} yet? My first exam is Monday."},
   {type:"match", pairs:[{trg:"de jeugdbeweging", src:"youth organization"},{trg:"de jeugdcriminaliteit", src:"juvenile crime"},{trg:"de jeugdrechter", src:"juvenile judge"},{trg:"het jeugdkamp", src:"youth camp"}]},
-  {type:"mc", q:"Welk lidwoord hoort bij 'internaat'?", opts:["de","het","een","dit"], ans:"het", hint:"Same article as 'het jeugdkamp' and 'het bachelorjaar'"},
+  {type:"mc", q:"Welk lidwoord hoort bij 'internaat'?", opts:["dit","de","het","een"], ans:"het", hint:"Same article as 'het jeugdkamp' and 'het bachelorjaar'"},
   {type:"fb", s:"Heb je het {1} al ingevuld?", a:["inschrijvingsformulier"], opts:["inschrijvingsformulier","examenrooster","bachelorjaar","jeugdkamp"], hint:"The document you fill in to register for a school or course", sSrc:"Have you filled in the {1} yet?"},
   {type:"match", pairs:[{trg:"het bachelorjaar", src:"bachelor year"},{trg:"de hobbyclub", src:"hobby club"},{trg:"de inspiratiebron", src:"source of inspiration"},{trg:"de jongerentrend", src:"youth trend"}]},
-  {type:"mc", q:"Welk woord beschrijft waar je ideeen vandaan komen?", opts:["de jongerentrend","de inspiratiebron","de hobbyclub","het examenrooster"], ans:"de inspiratiebron", hint:"A compound with 'bron' (source/spring) in it"},
+  {type:"mc", q:"Welk woord beschrijft waar je ideeen vandaan komen?", opts:["de hobbyclub","het examenrooster","de jongerentrend","de inspiratiebron"], ans:"de inspiratiebron", hint:"A compound with 'bron' (source/spring) in it"},
   {type:"fb", s:"Vintage kleding is een populaire {1}.", a:["jongerentrend"], opts:["jongerentrend","inspiratiebron","jeugdbeweging","hobbyclub"], hint:"A fashion or cultural phenomenon popular among young people", sSrc:"Vintage clothing is a popular {1}."}
 ]};
 export default LESSON_2;

@@ -92,7 +92,7 @@ const LESSON_12 = {id:"frv2_b1gap_l12", title:"Mouvements et gestes", icon:"\u{1
 
 {type:"mc",
  q:"Quel verbe réflexif signifie 's'endormir légèrement' ?",
- opts:["s'assoupir","s'affairer","s'adonner","s'attarder"],
+ opts:["s'attarder","s'assoupir","s'affairer","s'adonner"],
  ans:"s'assoupir",
  hint:"This verb describes a gentle drifting into light sleep. Think of a baby falling asleep in your arms."},
 
@@ -137,7 +137,7 @@ const LESSON_12 = {id:"frv2_b1gap_l12", title:"Mouvements et gestes", icon:"\u{1
 
 {type:"mc",
  q:"Quel verbe signifie 's'occuper activement de quelque chose' ?",
- opts:["s'affairer","s'assoupir","s'attarder","s'accouder"],
+ opts:["s'attarder","s'accouder","s'affairer","s'assoupir"],
  ans:"s'affairer",
  hint:"This verb implies productive busyness. Think of someone bustling around the kitchen."}
 

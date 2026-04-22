@@ -76,7 +76,7 @@ const LESSON_8 = {
      sSrc:"French {1} is difficult for English speakers."},
 
     {type:"mc", q:"Que fait un 'physionomiste' dans une boite de nuit?",
-     opts:["Il reconnait les visages","Il joue de la musique","Il sert les boissons","Il nettoie la salle"],
+     opts:["Il nettoie la salle","Il reconnait les visages","Il joue de la musique","Il sert les boissons"],
      ans:"Il reconnait les visages",
      hint:"The job title comes from the word for facial features and appearance"},
 
@@ -93,7 +93,7 @@ const LESSON_8 = {
      sSrc:"This {1} topic caused a national debate."},
 
     {type:"mc", q:"Le {1} regional s'oppose souvent a la centralisation.",
-     opts:["particularisme","pleonasme","photomontage","precepte"],
+     opts:["photomontage","precepte","particularisme","pleonasme"],
      ans:"particularisme",
      hint:"The attachment of a region to its own special cultural identity and interests"},
 
@@ -103,7 +103,7 @@ const LESSON_8 = {
      sSrc:"'Monter en haut' is a classic {1}."},
 
     {type:"mc", q:"L'expressionnisme est un mouvement surtout:",
-     opts:["Allemand","Francais","Espagnol","Italien"],
+     opts:["Francais","Espagnol","Italien","Allemand"],
      ans:"Allemand",
      hint:"Think of die Brucke and der Blaue Reiter, two founding groups of this movement"},
 

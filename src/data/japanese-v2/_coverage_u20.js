@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 20.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs, rerun to refresh.
 const COVERAGE_U20 = {
   id:"jav2_u20_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[

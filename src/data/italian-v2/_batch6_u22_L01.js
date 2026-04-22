@@ -1,4 +1,4 @@
-// Batch 6 — Unit 22 extra lesson. La cultura italiana: Italian Proverbs & Sayings
+// Batch 6. Unit 22 extra lesson. La cultura italiana: Italian Proverbs & Sayings
 const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\u{1F4AC}", xp:15, board:true, steps:[
 {type:"intro", title:"Proverbi e modi di dire",
  desc:"Learn classic Italian proverbs, idiomatic expressions, and their cultural context.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
 ]},
 
 {type:"mc", q:"Quale proverbio dice di non giudicare dalle apparenze?",
- opts:["L'abito non fa il monaco","Chi cerca trova","Volere e potere","Chi va piano va lontano"],
+ opts:["Chi va piano va lontano","L'abito non fa il monaco","Chi cerca trova","Volere e potere"],
  ans:"L'abito non fa il monaco",
  hint:"About monks and their clothing. Do not judge by what someone wears."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u22l_b6_1", title:"Proverbi e modi di dire", icon:"\
  sSrc:"Every missed {1} is lost. Seize the opportunity!"},
 
 {type:"mc", q:"Cosa rispondi se qualcuno ti dice 'In bocca al lupo!'?",
- opts:["Crepi il lupo!","Grazie!","Anche a te!","Buona fortuna!"],
+ opts:["Anche a te!","Buona fortuna!","Crepi il lupo!","Grazie!"],
  ans:"Crepi il lupo!",
  hint:"The traditional Italian response. Literally: 'May the wolf die!'"},
 

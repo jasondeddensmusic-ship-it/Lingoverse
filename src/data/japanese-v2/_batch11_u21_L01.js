@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"確率(かくりつ)の高(たか)い順(じゅん)に並(なら)べてください: たぶん、きっと、もしかしたら",
-     opts:["きっと > たぶん > もしかしたら","たぶん > きっと > もしかしたら","もしかしたら > たぶん > きっと","きっと > もしかしたら > たぶん"],
+     opts:["きっと > もしかしたら > たぶん","きっと > たぶん > もしかしたら","たぶん > きっと > もしかしたら","もしかしたら > たぶん > きっと"],
      ans:"きっと > たぶん > もしかしたら",
      hint:"Order from most certain to least certain. きっと is about 90%, たぶん is about 70%, and the third is about 40%."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"There are many worries, but let's just try anyway."},
 
     {type:"mc", q:"「べつに」はどんなニュアンスがありますか？",
-     opts:["Can sound dismissive, like 'whatever'","Always polite and formal","Only used in business","Expresses strong agreement"],
+     opts:["Only used in business","Expresses strong agreement","Can sound dismissive, like 'whatever'","Always polite and formal"],
      ans:"Can sound dismissive, like 'whatever'",
      hint:"This word, especially among younger speakers, has become associated with a particular tone of indifference or concealed feelings."}
   ,{type:"match",pairs:[{trg:"意見(いけん)",src:"opinion"},{trg:"理由(りゆう)",src:"reason"},{trg:"ぜったい",src:"absolutely / definitely"},{trg:"べつに",src:"not particularly / not really"}]}]

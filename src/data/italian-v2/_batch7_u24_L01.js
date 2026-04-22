@@ -1,4 +1,4 @@
-// Batch 7 — Unit 24 extra lesson. Il periodo ipotetico: Complex Conditions & Alternatives
+// Batch 7. Unit 24 extra lesson. Il periodo ipotetico: Complex Conditions & Alternatives
 const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"\u{1F500}", xp:15, board:true, steps:[
 {type:"intro", title:"Condizioni e alternative",
  desc:"Master complex conditional expressions, alternative scenarios, and nuanced hypothetical language.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
 ]},
 
 {type:"mc", q:"Chi disse 'Eppur si muove'?",
- opts:["Galileo Galilei","Leonardo da Vinci","Dante Alighieri","Niccolo Machiavelli"],
+ opts:["Niccolo Machiavelli","Galileo Galilei","Leonardo da Vinci","Dante Alighieri"],
  ans:"Galileo Galilei",
  hint:"The famous astronomer, after being forced to deny that the Earth moves around the Sun."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
  sSrc:"{1} it be necessary, call me."},
 
 {type:"mc", q:"Quale congiunzione introduce una condizione con il congiuntivo e contiene 'non'?",
- opts:["a meno che non","purche","nel caso in cui","qualora"],
+ opts:["nel caso in cui","qualora","a meno che non","purche"],
  ans:"a meno che non",
  hint:"Meaning 'unless.' The 'n...' is pleonastic (not actually negative)."},
 

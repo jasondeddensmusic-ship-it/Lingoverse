@@ -90,7 +90,7 @@ const LESSON_4 = {id:"esv2_b2g2_l4",title:"Salud y bienestar",icon:"🏥",xp:15,
  exampleSrc:"A: This yogurt is very creamy.\nB: It is one of those with added cream.",
  funFact:"Spanish 'crema catalana' is the famously cremoso dessert that predates French creme brulee."},
 
-{type:"mc",q:"¿Dónde vas si necesitas ver a tu médico de cabecera?",opts:["Al ambulatorio","A la farmacia","Al quirófano","A la residencia"],ans:"Al ambulatorio",hint:"The local health center where you see your regular doctor for non-emergencies."},
+{type:"mc",q:"¿Dónde vas si necesitas ver a tu médico de cabecera?",opts:["A la residencia","Al ambulatorio","A la farmacia","Al quirófano"],ans:"Al ambulatorio",hint:"The local health center where you see your regular doctor for non-emergencies."},
 
 {type:"teach",trg:"cítrico",src:"citrus / citric",pos:"adj",gender:null,
  note:"Adjective. Relating to citrus fruits.\nFeminine: cítrica.",

@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: Studying abroad triggered my interest in Japan.\nB: What a wonderful catalyst.\nA: What was it like?\nB: It was much better than I imagined.",
      funFact:"をきっかけに creates a narrative link between an event and its consequence. It is standard in personal essays, interview answers, and autobiographical writing. The pattern suggests that one moment changed the trajectory of something, making it a powerful storytelling device."},
 
-    {type:"mc", q:"はじめに is used to:", opts:["End an essay","Open an essay or presentation","Express disagreement","Ask a question"], ans:"Open an essay or presentation",
+    {type:"mc", q:"はじめに is used to:", opts:["Open an essay or presentation","Express disagreement","Ask a question","End an essay"], ans:"Open an essay or presentation",
      hint:"This formal connector signals the beginning of a structured piece of writing or speaking."},
 
     {type:"teach", trg:"労働力(ろうどうりょく)", src:"labor force / workforce", pos:"noun", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: I will present the results of this research.\nB: It is getting attention.\nA: When was it?\nB: It was last summer.",
      funFact:"研究 literally means 'polish and investigate.' Japanese academia is renowned for meticulous research. The word appears in university names (研究所(けんきゅうじょ), research institute), academic papers, and news about scientific discoveries. Japan has won numerous Nobel Prizes, reflecting its strong 研究(けんきゅう) tradition."},
 
-    {type:"mc", q:"高齢化(こうれいか)にともなって医療費(いりょうひ)が増(ふ)えている means:", opts:["Aging is caused by medical costs","Medical costs decrease with aging","Along with aging, medical costs are increasing","Aging stopped medical cost increases"], ans:"Along with aging, medical costs are increasing",
+    {type:"mc", q:"高齢化(こうれいか)にともなって医療費(いりょうひ)が増(ふ)えている means:", opts:["Medical costs decrease with aging","Along with aging, medical costs are increasing","Aging stopped medical cost increases","Aging is caused by medical costs"], ans:"Along with aging, medical costs are increasing",
      hint:"にともなって links two parallel changes: as one occurs, the other occurs alongside it."},
 
     {type:"tip", title:"Essay Structure Connectors",

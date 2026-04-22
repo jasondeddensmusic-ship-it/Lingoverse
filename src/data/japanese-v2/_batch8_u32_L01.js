@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"メンタルヘルス",src:"mental health"},{trg:"カウンセリング",src:"counseling"},{trg:"バーンアウト",src:"burnout"},{trg:"不眠(ふみん)",src:"insomnia"},{trg:"レジリエンス",src:"resilience"}],
      hint:"Match each wellness term with its English meaning."},
 
-    {type:"mc", q:"What is ironic about マインドフルネス in Japan?", opts:["Japan re-imported its own Buddhist meditation tradition from the West","It was invented in Japan recently","Japanese people never practiced meditation","It is banned in schools"], ans:"Japan re-imported its own Buddhist meditation tradition from the West",
+    {type:"mc", q:"What is ironic about マインドフルネス in Japan?", opts:["It is banned in schools","Japan re-imported its own Buddhist meditation tradition from the West","It was invented in Japan recently","Japanese people never practiced meditation"], ans:"Japan re-imported its own Buddhist meditation tradition from the West",
      hint:"B... 瞑想(めいそう) was exported, secularized abroad, and returned as a loanword."},
 
     {type:"fb", s:"被災者(ひさいしゃ)の{1}が必要(ひつよう)です。\n(Psychological care for disaster victims is needed.)", a:"こころのケア", opts:["こころのケア","メンタルヘルス","カウンセリング","療法(りょうほう)"], sSrc:"Psychological care for disaster victims is needed.",
      hint:"This native-loanword hybrid specifically refers to emotional support."},
 
-    {type:"mc", q:"What does 自己肯定感(じここうていかん) mean?", opts:["Self-esteem / self-affirmation","Self-discipline","Self-study","Self-employment"], ans:"Self-esteem / self-affirmation",
+    {type:"mc", q:"What does 自己肯定感(じここうていかん) mean?", opts:["Self-study","Self-employment","Self-esteem / self-affirmation","Self-discipline"], ans:"Self-esteem / self-affirmation",
      hint:"International surveys show Japanese youth score lower on this measure than peers."}
   ,{type:"match",pairs:[{trg:"マインドフルネス",src:"mindfulness"},{trg:"療法(りょうほう)",src:"therapy / treatment method"},{trg:"自己肯定感(じここうていかん)",src:"self-esteem / self-affirmation"},{trg:"予防(よぼう)",src:"prevention"},{trg:"ウェルビーイング",src:"well-being"}]}]
 };

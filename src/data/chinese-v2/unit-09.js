@@ -51,7 +51,7 @@ lessons:[
  funFact:"Many body part characters share the 月 radical, which originally depicted a piece of flesh (肉). 脚 (foot), 脸 (face), 脑 (brain), 肚 (stomach) all have it. When you see 月 on the left of a character, think 'body part.'"},
 
 {type:"mc", q:"你(nǐ)身体(shēntǐ)好(hǎo)吗(ma)？ is asking about your:",
- opts:["Name","Age","Health","Family"],
+ opts:["Health","Family","Name","Age"],
  ans:"Health",
  hint:"身体 means both 'body' and '___.' This question is about your physical well-being."},
 
@@ -70,7 +70,7 @@ lessons:[
  sSrc:"Please wash your {1}."},
 
 {type:"mc", q:"Which radical (月) appears in many body part characters?",
- opts:["The fire radical","The water radical","The flesh/body radical","The sun radical"],
+ opts:["The water radical","The flesh/body radical","The sun radical","The fire radical"],
  ans:"The flesh/body radical",
  hint:"This ___ originally depicted meat or ___. It appears on the left side of characters like 脚, 脸, and 脑."},
 
@@ -141,7 +141,7 @@ lessons:[
   text:"At a Chinese hospital or clinic, you will typically be asked:\n\n你哪儿不舒服？ Where do you feel unwell?\n你怎么了？ What is wrong?\n发烧吗？ Do you have a fever?\n\nChinese hospitals work differently from Western ones. You usually go directly to a specialist department rather than a general practitioner. Many people also visit traditional Chinese medicine doctors (中医) for herbs and acupuncture alongside Western medicine."}},
 
 {type:"mc", q:"我(wǒ)不(bù)舒服(shūfu)。 What is this person saying?",
- opts:["I am very happy","I do not feel well","I am hungry","I am busy"],
+ opts:["I do not feel well","I am hungry","I am busy","I am very happy"],
  ans:"I do not feel well",
  hint:"舒服 means comfortable or feeling ___. Adding 不 before it negates the feeling."},
 
@@ -160,7 +160,7 @@ lessons:[
  sSrc:"I caught a {1}, my head hurts."},
 
 {type:"mc", q:"头(tóu)疼(téng) means:",
- opts:["Headache","Stomachache","Sore throat","Backache"],
+ opts:["Backache","Headache","Stomachache","Sore throat"],
  ans:"Headache",
  hint:"头 is the word for 'head' and 疼 means 'hurts.' Put them together."},
 
@@ -225,7 +225,7 @@ lessons:[
   text:"Traditional Chinese health philosophy emphasizes balance and prevention. Key concepts:\n\n多休息 (rest more) is the most common health advice.\n多喝水 (drink more water) is prescribed for almost everything.\n不要熬夜 (do not stay up late) reflects the belief that sleep patterns directly affect health.\n\nChinese medicine also connects emotions to organs: anger harms the liver, worry harms the spleen, sadness harms the lungs. This holistic view treats body and mind as one system."}},
 
 {type:"mc", q:"你(nǐ)累(lèi)不(bu)累(lèi)？ is asking:",
- opts:["Are you hungry?","Are you tired?","Are you sick?","Are you busy?"],
+ opts:["Are you tired?","Are you sick?","Are you busy?","Are you hungry?"],
  ans:"Are you tired?",
  hint:"累 describes a feeling of exhaustion. The A-not-A pattern asks a yes/no question."},
 
@@ -243,7 +243,7 @@ lessons:[
  sSrc:"I am very tired, I want to {1}."},
 
 {type:"mc", q:"他(tā)每天(měitiān)七(qī)点(diǎn)起床(qǐchuáng)。 What does he do at 7?",
- opts:["He eats breakfast","He goes to school","He gets out of bed","He goes to sleep"],
+ opts:["He goes to school","He gets out of bed","He goes to sleep","He eats breakfast"],
  ans:"He gets out of bed",
  hint:"起 means 'to rise' and 床 means '___.' Rising from ___ is the first action of the day."},
 
@@ -254,7 +254,7 @@ lessons:[
  sSrc:"Yesterday I did not {1} until twelve."},
 
 {type:"mc", q:"休(xiū) in 休息(xiūxi) shows a person next to a tree. This represents:",
- opts:["Working hard","Resting under shade","Climbing a tree","Cutting wood"],
+ opts:["Cutting wood","Working hard","Resting under shade","Climbing a tree"],
  ans:"Resting under shade",
  hint:"The character combines the person radical with the tree radical. Picture a farmer on a hot day."},
 
@@ -266,7 +266,7 @@ lessons:[
 
 // ── Unit 9 Review Quiz ──
 {type:"mc", q:"A: 你(nǐ)哪儿(nǎr)不(bù)舒服(shūfu)？\nB: 头(tóu)疼(téng)，也(yě)发烧(fāshāo)了(le)。\nWhat symptoms does B have?",
- opts:["Headache and fever","Stomachache and cough","Sore throat and cold","Back pain and fatigue"],
+ opts:["Stomachache and cough","Sore throat and cold","Back pain and fatigue","Headache and fever"],
  ans:"Headache and fever",
  hint:"头疼 is head + pain, and 发烧 is emit + burn. Combine the two symptoms."},
 
@@ -296,7 +296,7 @@ lessons:[
  sSrc:"I {1} at six every day."}
 ]},
 
-// ─── L4: Useful Daily Words — HSK 1 Essentials ───
+// ─── L4: Useful Daily Words. HSK 1 Essentials ───
 {id:"zhv2_u9l4", title:"一些和看见 Some and Noticing", icon:"👀", xp:15, board:true, steps:[
 {type:"intro", title:"一些和看见 Some and Noticing",
  desc:"Complete your HSK 1 foundation with three essential words: 一些 (some), 看见 (to see/notice), and 呢 (sentence particle for ongoing situations).",
@@ -306,7 +306,7 @@ lessons:[
  note:"一 (one) + 些 (some). Indicates a small, unspecified quantity.\n一些人 = some people. 一些水果 = some fruit.",
  example:"A: 你(nǐ)想(xiǎng)喝(hē)一些(yīxiē)水(shuǐ)吗(ma)？\nB: 好(hǎo)的(de)，来(lái)一些(yīxiē)！",
  exampleSrc:"A: Would you like some water?\nB: Sure, bring some!",
- funFact:"些 is one of the few Chinese characters with no obvious pictographic origin — it evolved from a more complex character over centuries. Paired with 一, it became the natural way to say 'some.' Its simplicity makes it endlessly useful."},
+ funFact:"些 is one of the few Chinese characters with no obvious pictographic origin, it evolved from a more complex character over centuries. Paired with 一, it became the natural way to say 'some.' Its simplicity makes it endlessly useful."},
 
 {type:"teach", trg:"看见(kànjiàn)", src:"to see / to notice / to catch sight of", pos:"verb", gender:null,
  note:"看 (to look) + 见 (to perceive/encounter). Together: to actually see something.\n看 = to look. 看见 = to successfully see.",
@@ -321,7 +321,7 @@ lessons:[
  funFact:"呢 is one of Chinese's most conversational particles. 你呢？ is the quickest way to ask 'what about you?' after answering a question. It is polite, brief, and shows engagement. Every Chinese speaker uses 呢 many times per day without thinking about it."},
 
 {type:"mc", q:"一些(yīxiē) means:",
- opts:["one thing","all of it","some / a few","too many"],
+ opts:["some / a few","too many","one thing","all of it"],
  ans:"some / a few",
  hint:"一 means 'one/a' and 些 means 'some.' Together they express an unspecified small quantity."},
 
@@ -338,7 +338,7 @@ lessons:[
  sSrc:"A: Did you {1} my book?\nB: No, I did not see it."},
 
 {type:"mc", q:"你呢？ How is this question most naturally translated?",
- opts:["Where are you?","Are you okay?","And you? / What about you?","When are you?"],
+ opts:["Are you okay?","And you? / What about you?","When are you?","Where are you?"],
  ans:"And you? / What about you?",
  hint:"呢 at the end turns a topic into an open question directed back at the listener. It is the Chinese equivalent of 'and yourself?'"},
 
@@ -349,7 +349,7 @@ lessons:[
  sSrc:"I want to eat {1} fruit."}
 ]},
 
-// ─── L5: Making Appointments — F14 ───
+// ─── L5: Making Appointments. F14 ───
 {id:"zhv2_u9l_apt", title:"预约(yùyuē)", icon:"📅", xp:15, board:true, steps:[
 {type:"intro", title:"预约(yùyuē)",
  desc:"Learn to make, confirm, and reschedule appointments in Mandarin. Essential for clinics, dentists, and restaurants. Tested on HSK 3.",
@@ -403,17 +403,17 @@ lessons:[
   text:"Chinese appointment culture has three key features:\n\nHospitals require pre-booking. Walk-in visits to specialists are almost impossible at major hospitals. The WeChat app and hospital apps are the primary booking channels.\n\nRestaurant reservations are called 预订 (yùdìng) rather than 预约. However, 预约 works for both contexts and is broadly understood.\n\nCancelling without notice is considered very impolite. A quick message or call to say 我想取消预约 is greatly appreciated. Chinese social norms strongly favour giving advance notice."}},
 
 {type:"mc", q:"你好，我想预约医生。 What is the speaker trying to do?",
- opts:["Cancel a booking","Ask about prices","Make a doctor appointment","Confirm a time"],
+ opts:["Make a doctor appointment","Confirm a time","Cancel a booking","Ask about prices"],
  ans:"Make a doctor appointment",
  hint:"我想预约 means 'I would like to book.' The speaker follows it with a person, not a time or cancellation word."},
 
 {type:"mc", q:"You call the clinic and want to start your booking request politely. Which phrase do you open with?",
- opts:["我想预约(wǒ xiǎng yùyuē)...","取消预约(qǔxiāo yùyuē)","改时间(gǎi shíjiān)","有空(yǒu kòng)吗(ma)？"],
+ opts:["有空(yǒu kòng)吗(ma)？","我想预约(wǒ xiǎng yùyuē)...","取消预约(qǔxiāo yùyuē)","改时间(gǎi shíjiān)"],
  ans:"我想预约(wǒ xiǎng yùyuē)...",
  hint:"This is the standard opening for any booking call. It starts with 我想 (I would like) followed by the booking verb."},
 
 {type:"mc", q:"You want to ask a receptionist when works best. Which phrase is most natural?",
- opts:["什么时候方便(shénme shíhou fāngbiàn)？","已经(yǐjīng)取消(qǔxiāo)了(le)。","明天(míngtiān)下午(xiàwǔ)有空(yǒu kòng)。","确认(quèrèn)一下(yīxià)。"],
+ opts:["明天(míngtiān)下午(xiàwǔ)有空(yǒu kòng)。","确认(quèrèn)一下(yīxià)。","什么时候方便(shénme shíhou fāngbiàn)？","已经(yǐjīng)取消(qǔxiāo)了(le)。"],
  ans:"什么时候方便(shénme shíhou fāngbiàn)？",
  hint:"This phrase politely asks about timing and suitability. It uses 什么时候 for 'when' and a word meaning 'easy or suitable.'"},
 
@@ -432,7 +432,7 @@ lessons:[
  sSrc:"I would like to {1} my appointment."},
 
 {type:"mc", q:"A: 你明天下午有空吗？\nB: 没有空。\nWhat does B mean?",
- opts:["B is free tomorrow afternoon","B has no free time tomorrow afternoon","B wants to reschedule","B will confirm later"],
+ opts:["B wants to reschedule","B will confirm later","B is free tomorrow afternoon","B has no free time tomorrow afternoon"],
  ans:"B has no free time tomorrow afternoon",
  hint:"有空 uses 有 (to have) and 空 (empty gap). Adding 没有 in front negates it. What does B say about their schedule?"},
 
@@ -443,7 +443,7 @@ lessons:[
  sSrc:"I would like to {1} the time, can tomorrow work?"},
 
 {type:"mc", q:"什么时候方便？ is asking:",
- opts:["What time is it now?","When is convenient for you?","How long does it take?","Where is the appointment?"],
+ opts:["When is convenient for you?","How long does it take?","Where is the appointment?","What time is it now?"],
  ans:"When is convenient for you?",
  hint:"什么时候 asks about timing. 方便 comes from 方 (direction) + 便 (easy). Together the phrase politely asks about the other person's schedule."},
 

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 14: Diplomacy and Representation
+// Korean B2. Batch 2, Lesson 14: Diplomacy and Representation
 // Words: 대사, 대상자, 대신하다, 대여섯, 대응, 대응하다, 대입, 대접, 대접하다, 대중교통, 대중적, 대처하다, 대체, 대체로, 대출, 대충, 대표하다, 대학교수, 대학원, 대합실
 
 const LESSON_14 = {
@@ -119,7 +119,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'대출'이 사용되는 곳 두 가지는?",
-     opts:["은행과 도서관","병원과 학교","식당과 카페","공원과 극장"],
+     opts:["공원과 극장","은행과 도서관","병원과 학교","식당과 카페"],
      ans:"은행과 도서관",
      hint:"You can borrow money from one place and borrow books from another. Both use this word."},
 

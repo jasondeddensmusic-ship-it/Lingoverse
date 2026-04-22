@@ -80,7 +80,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Comment decrit-on une peinture qui n'utilise qu'une seule couleur ?",
-     opts:["monochrome","multicolore","monosyllabique","momentane"],
+     opts:["momentane","monochrome","multicolore","monosyllabique"],
      ans:"monochrome",
      hint:"'Mono' means one, and 'chrome' relates to color. One-color art."},
 
@@ -113,7 +113,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot decrit quelqu'un qui repond toujours par un seul mot ?",
-     opts:["monosyllabique","monochrome","monotone","momentane"],
+     opts:["monotone","momentane","monosyllabique","monochrome"],
      ans:"monosyllabique",
      hint:"Using only words with one syllable, giving very brief responses."},
 

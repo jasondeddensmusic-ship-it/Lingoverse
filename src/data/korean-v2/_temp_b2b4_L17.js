@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 17: Interference and Sports
+// Korean B2. Batch 4, Lesson 17: Interference and Sports
 // Words: 방해, 방해하다, 배구, 배꼽, 배다, 배드민턴, 배우자, 배추, 배추김치, 배치, 백색, 백성, 백인, 뱀, 뱃사람, 뱉다, 버려지다, 버섯, 버터, 버튼
 
 const LESSON_17 = {
@@ -143,7 +143,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'버려지다'의 반대 의미를 가진 표현은?",
-     opts:["주워지다, 거두어지다","던져지다","깨뜨려지다","잃어버리다"],
+     opts:["잃어버리다","주워지다, 거두어지다","던져지다","깨뜨려지다"],
      ans:"주워지다, 거두어지다",
      hint:"If being thrown away is one direction, being picked up or taken in is the opposite."},
 

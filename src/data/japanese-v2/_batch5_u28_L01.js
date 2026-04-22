@@ -69,7 +69,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"成功(せいこう)の秘訣(ひけつ)は努力(どりょく)に{1}ない。\n(The secret of success is nothing other than effort.)", a:"ほかなら", opts:["ほかなら","すぎ","かぎら","ちがい"], sSrc:"The secret of success is nothing other than effort.",
      hint:"The pattern meaning 'is nothing other than,' emphasizing that X is precisely and only Y."},
 
-    {type:"mc", q:"にすぎない minimizes by saying:", opts:["Something is merely X and nothing more","Something is very important","Something is the best option","Something is impossible"], ans:"Something is merely X and nothing more",
+    {type:"mc", q:"にすぎない minimizes by saying:", opts:["Something is impossible","Something is merely X and nothing more","Something is very important","Something is the best option"], ans:"Something is merely X and nothing more",
      hint:"This pattern uses 過(す)ぎない (does not exceed) to downplay s...'s significance."},
 
     {type:"match", pairs:[{trg:"ものである",src:"it is the nature of"},{trg:"にほかならない",src:"nothing other than"},{trg:"にすぎない",src:"merely / nothing more than"},{trg:"からこそ",src:"precisely because"}]},
@@ -77,7 +77,7 @@ const BATCH5_L_1 = {
     {type:"fb", s:"日本語(にほんご)が難(むずか)しい{1}、やりがいがあるのです。\n(Precisely because Japanese is difficult, it is rewarding.)", a:"からこそ", opts:["からこそ","から","ので","けど"], sSrc:"Precisely because Japanese is difficult, it is rewarding.",
      hint:"The emphasized causal pattern meaning 'precisely because,' using こそ for emphasis."},
 
-    {type:"mc", q:"いかなる is the literary equivalent of:", opts:["どんな (what kind of / any)","いつ (when)","どこ (where)","なぜ (why)"], ans:"どんな (what kind of / any)",
+    {type:"mc", q:"いかなる is the literary equivalent of:", opts:["どこ (where)","なぜ (why)","どんな (what kind of / any)","いつ (when)"], ans:"どんな (what kind of / any)",
      hint:"This classical adjective replaces the everyday question word for 'what k... of' in formal writing."}
   ,{type:"match",pairs:[{trg:"いかなる",src:"what kind of / any / whatever"},{trg:"〜ものの",src:"although / even though (literary)"},{trg:"わずか",src:"merely / only / a tiny amount"},{trg:"強靭(きょうじん)",src:"strong / tough / robust / tenacious"},{trg:"達成感(たっせいかん)",src:"sense of achievement / feeling of accomplishment"}]},
   {type:"fb", s:"{1}困難(こんなん)があっても、諦(あきら)めないことが大切(たいせつ)です。", a:["いかなる"], opts:["いかなる","〜にほかならない","〜からこそ","わずか"], hint:"A literary adjective meaning 'whatever kind of' or 'any', used in formal writing.", sSrc:"No matter what {1} difficulties arise, it is important not to give up."}

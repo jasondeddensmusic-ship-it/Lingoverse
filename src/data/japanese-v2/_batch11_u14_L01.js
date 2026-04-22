@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"「もったいない」はどんな意味(いみ)ですか？",
-     opts:["Too good to waste, respect for resources","Very expensive","Not useful","Old and broken"],
+     opts:["Old and broken","Too good to waste, respect for resources","Very expensive","Not useful"],
      ans:"Too good to waste, respect for resources",
      hint:"This word expresses both the regret of wasting something and gratitude for the resource itself. A uniquely Japanese concept."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"When I hear this song, I feel nostalgic."},
 
     {type:"mc", q:"日本語(にほんご)の「おのまとぺ」でドキドキはなんの音(おと)ですか？",
-     opts:["Heart pounding (excitement/nervousness)","Knocking on a door","Rain falling","Clock ticking"],
+     opts:["Rain falling","Clock ticking","Heart pounding (excitement/nervousness)","Knocking on a door"],
      ans:"Heart pounding (excitement/nervousness)",
      hint:"This doubled sound-word describes the physical sensation of your h... beating fast, from e... or nerves."}
   ,{type:"match",pairs:[{trg:"怖(こわ)い",src:"scary / afraid"},{trg:"悔(くや)しい",src:"frustrated / vexing"},{trg:"心配(しんぱい)",src:"worry / concern"},{trg:"びっくり",src:"surprised / startled"},{trg:"もったいない",src:"what a waste / too good to waste"}]}]

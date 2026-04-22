@@ -90,7 +90,7 @@ const LESSON_8 = {id:"esv2_b2g2_l8",title:"Conceptos abstractos",icon:"💭",xp:
  exampleSrc:"A: The amount of the compensation exceeds one thousand euros.\nB: It is fair, given the damages suffered.",
  funFact:"More formal than 'cantidad'. Used almost exclusively in legal and financial documents."},
 
-{type:"mc",q:"¿Qué significa 'a la mayor brevedad posible'?",opts:["Lo antes posible","Con mucha calma","De forma breve","Sin ninguna prisa"],ans:"Lo antes posible",hint:"A formal business expression asking for something to be done quickly."},
+{type:"mc",q:"¿Qué significa 'a la mayor brevedad posible'?",opts:["Sin ninguna prisa","Lo antes posible","Con mucha calma","De forma breve"],ans:"Lo antes posible",hint:"A formal business expression asking for something to be done quickly."},
 
 {type:"teach",trg:"la autenticidad",src:"the authenticity",pos:"noun",gender:"f",
  note:"Feminine noun. The quality of being genuine and real.",

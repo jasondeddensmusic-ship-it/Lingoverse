@@ -41,7 +41,7 @@ const LESSON_12 = {
     // ── Quiz block 1 ──
     {type:"mc",
      q:"한국에서 가장 큰 전통 시장은?",
-     opts:["경복궁","경주","남대문시장","서울역"],
+     opts:["남대문시장","서울역","경복궁","경주"],
      ans:"남대문시장",
      hint:"This landmark combines a famous gate name with the Korean word for market."},
 
@@ -90,7 +90,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"설악산은 무엇으로 유명해요?",
-     opts:["해산물","전통 시장","등산과 단풍","공항"],
+     opts:["전통 시장","등산과 단풍","공항","해산물"],
      ans:"등산과 단풍",
      hint:"This mountain is known for its natural beauty and outdoor activities in autumn."},
 
@@ -161,7 +161,7 @@ const LESSON_12 = {
     // ── Quiz block 4 ──
     {type:"mc",
      q:"'잘 다녀오세요'는 언제 사용해요?",
-     opts:["누군가 잠을 잘 때","누군가 외출할 때","누군가 음식을 먹을 때","누군가 전화를 할 때"],
+     opts:["누군가 전화를 할 때","누군가 잠을 잘 때","누군가 외출할 때","누군가 음식을 먹을 때"],
      ans:"누군가 외출할 때",
      hint:"This phrase is a farewell wishing someone a safe round trip when they go out."},
 

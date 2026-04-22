@@ -1,4 +1,4 @@
-// Unit 23 — Sin Embargo
+// Unit 23. Sin Embargo
 // Advanced Connectors
 
 export default {n:23,lang:"es",srcLang:"en",track:"v2",title:"Sin Embargo",sub:"Advanced Connectors",icon:"🔀",level:"B1.4",color:"#7B5EE8",lessons:[
@@ -213,7 +213,7 @@ export default {n:23,lang:"es",srcLang:"en",track:"v2",title:"Sin Embargo",sub:"
      note:"Feminine noun.\nDouble meaning: academic field OR self-discipline.\nUniversidades organizan las disciplinas.",
      example:"A: ¿Qué disciplina estudias?\nB: Estudio la historia.",
      exampleSrc:"A: What discipline do you study?\nB: I study history.",
-     funFact:"Disciplina means both 'academic field' and 'self-control.' Spanish universities divide curriculum into 'disciplinas' — a direct echo of medieval monastic discipline in learning."},
+     funFact:"Disciplina means both 'academic field' and 'self-control.' Spanish universities divide curriculum into 'disciplinas', a direct echo of medieval monastic discipline in learning."},
     {type:"teach",trg:"el fenómeno",src:"the phenomenon",pos:"noun",gender:"m",phonetic:"feh-NOH-meh-noh",
      note:"Masculine noun. Plural: los fenómenos.\nEntered Spanish via Greek 'phainomenon.'\nAcademic + everyday (for amazing things).",
      example:"A: Es un fenómeno interesante.\nB: Sí, muy interesante.",
@@ -228,7 +228,7 @@ export default {n:23,lang:"es",srcLang:"en",track:"v2",title:"Sin Embargo",sub:"
      note:"Feminine noun.\ntendencia a + infinitive = tendency to.\nUsed for patterns in data, fashion, behavior.",
      example:"A: ¿Cuál es la tendencia?\nB: La tendencia es positiva.",
      exampleSrc:"A: What is the trend?\nB: The trend is positive.",
-     funFact:"Tendencia shares its Latin root with English 'tendency.' Spanish media and academic writing use 'tendencia al alza/a la baja' for 'upward/downward trend' — fixed phrases in economic reporting."},
+     funFact:"Tendencia shares its Latin root with English 'tendency.' Spanish media and academic writing use 'tendencia al alza/a la baja' for 'upward/downward trend', fixed phrases in economic reporting."},
     {type:"teach",trg:"la dimensión",src:"the dimension",pos:"noun",gender:"f",phonetic:"dee-men-see-OHN",
      note:"Feminine noun. Words ending in -ión are feminine.\nPhysical and abstract dimensions.\nuna dimensión nueva = a new dimension.",
      example:"A: Es una dimensión nueva.\nB: Muy interesante.",
@@ -250,11 +250,11 @@ export default {n:23,lang:"es",srcLang:"en",track:"v2",title:"Sin Embargo",sub:"
      exampleSrc:"A: The circumstances are difficult.\nB: It is true.",
      funFact:"Circunstancia shares its Latin root ('circum' + 'stare' = standing around) with English 'circumstance.' Spanish legal and administrative Spanish uses 'dadas las circunstancias' (given the circumstances) constantly."},
     {type:"tip",title:"Academic Framing Nouns",
-     text:"B2 academic Spanish uses abstract framing nouns constantly:\n\nel contexto — the situation around something\nel ámbito — the area/field\nla dimensión — an aspect or scale\nel factor — a causal element\nla tendencia — a pattern over time\n\nDELE B2 writing rewards using these precisely.",
+     text:"B2 academic Spanish uses abstract framing nouns constantly:\n\nel contexto, the situation around something\nel ámbito, the area/field\nla dimensión, an aspect or scale\nel factor, a causal element\nla tendencia, a pattern over time\n\nDELE B2 writing rewards using these precisely.",
      deepDive:{title:"el concepto vs la idea",
-      text:"el concepto — formal, abstract, often academic\nla idea — everyday, personal, casual\n\nIn essays: 'el concepto de libertad' (the concept of freedom). In conversation: 'tengo una idea' (I have an idea). Academic writing prefers 'concepto.'"}},
+      text:"el concepto, formal, abstract, often academic\nla idea, everyday, personal, casual\n\nIn essays: 'el concepto de libertad' (the concept of freedom). In conversation: 'tengo una idea' (I have an idea). Academic writing prefers 'concepto.'"}},
     {type:"mc",q:"¿Qué palabra significa 'scope' o 'field'?",
-     opts:["la industria","el ámbito","la dimensión","el factor"],
+     opts:["el ámbito","la dimensión","el factor","la industria"],
      ans:"el ámbito",
      hint:"Masculine noun from Latin 'ambitus' (going around). Academic register."},
     {type:"mc",q:"¿Qué palabra significa 'phenomenon'?",

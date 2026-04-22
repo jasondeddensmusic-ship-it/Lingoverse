@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 19 — Wonen en Bouwen
+// Dutch B2 gapB Lesson 19. Wonen en Bouwen
 // Housing, architecture, and construction vocabulary
 
 const LESSON_19 = {id:"nlv2_b2gB_l19", title:"Wonen en Bouwen", icon:"\u{1F3E0}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_19 = {id:"nlv2_b2gB_l19", title:"Wonen en Bouwen", icon:"\u{1F3E0}"
  funFact:"The Netherlands deliberately positions itself as a 'kenniseconomie' (knowledge economy), investing heavily in education and research."},
 
 {type:"mc", q:"'De kubuswoningen' staan in:",
- opts:["Amsterdam","Den Haag","Rotterdam","Utrecht"],
+ opts:["Rotterdam","Utrecht","Amsterdam","Den Haag"],
  ans:"Rotterdam",
  hint:"The city known for innovative architecture, designed by Piet Blom"},
 
@@ -82,7 +82,7 @@ const LESSON_19 = {id:"nlv2_b2gB_l19", title:"Wonen en Bouwen", icon:"\u{1F3E0}"
 ]},
 
 {type:"mc", q:"'Kennisintensief' beschrijft een sector die:",
- opts:["Uses a lot of water","Relies heavily on expertise","Employs many people","Is very profitable"],
+ opts:["Is very profitable","Uses a lot of water","Relies heavily on expertise","Employs many people"],
  ans:"Relies heavily on expertise",
  hint:"Kennis (knowledge) + intensief. Where brainpower is the main resource."},
 

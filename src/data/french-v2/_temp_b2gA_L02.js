@@ -86,7 +86,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot designe la duree pendant laquelle un elu exerce ses fonctions ?",
-     opts:["le mandat","le scrutin","le decret","l'amendement"],
+     opts:["l'amendement","le mandat","le scrutin","le decret"],
      ans:"le mandat",
      hint:"The fixed term during which an elected official holds power. In France the presidential term lasts five years."},
 
@@ -113,7 +113,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel terme designe le refus delibere d'obeir a une autorite ?",
-     opts:["la desobeissance","la souverainete","le suffrage","la reforme"],
+     opts:["le suffrage","la reforme","la desobeissance","la souverainete"],
      ans:"la desobeissance",
      hint:"Often paired with 'civile'. A form of protest through non-compliance."}
   ]

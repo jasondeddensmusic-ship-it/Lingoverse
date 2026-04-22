@@ -80,7 +80,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot decrit une augmentation de prix ou de penalite ?",
-     opts:["la majoration","l'insuffisance","la desobeissance","le manifeste"],
+     opts:["le manifeste","la majoration","l'insuffisance","la desobeissance"],
      ans:"la majoration",
      hint:"This is the surcharge you pay when a bill is overdue."},
 
@@ -119,7 +119,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel est le contraire de l'honnetete ?",
-     opts:["la malhonnetete","la majoration","l'incapacite","la desobeissance"],
+     opts:["l'incapacite","la desobeissance","la malhonnetete","la majoration"],
      ans:"la malhonnetete",
      hint:"Add the prefix 'mal-' to the word for honesty."},
 

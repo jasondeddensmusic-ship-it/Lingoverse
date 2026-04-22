@@ -81,7 +81,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Welke taalfamilie hoort Nederlands bij?",
-     opts:["De Germaanse taalfamilie","De Romaanse taalfamilie","De Slavische taalfamilie","De Keltische taalfamilie"],
+     opts:["De Keltische taalfamilie","De Germaanse taalfamilie","De Romaanse taalfamilie","De Slavische taalfamilie"],
      ans:"De Germaanse taalfamilie",
      hint:"Dutch shares its family with German, English, and Scandinavian languages. Named after the ancient Germanic tribes."},
 
@@ -101,7 +101,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Wat betekent 'zich opdossen'?",
-     opts:["Zich mooi aankleden voor een gelegenheid","Zich verstoppen","Zich wassen","Zich uitkleden"],
+     opts:["Zich wassen","Zich uitkleden","Zich mooi aankleden voor een gelegenheid","Zich verstoppen"],
      ans:"Zich mooi aankleden voor een gelegenheid",
      hint:"An informal verb about putting on fancy clothes. Adding 'op-' intensifies the meaning."}
   ]

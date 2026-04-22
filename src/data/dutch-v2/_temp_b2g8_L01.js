@@ -1,4 +1,4 @@
-// Lesson 1 — Society & Demographics
+// Lesson 1. Society & Demographics
 const LESSON_1 = {id:"nlv2_b2g8_l1", title:"Samenleving en Demografie", icon:"\u{1F3D8}", xp:20, board:true, steps:[
 {type:"intro", title:"Samenleving en Demografie", desc:"Discuss population composition, social groups, and demographic trends in advanced Dutch. These words appear frequently in news articles and policy documents.", goals:["Learn 10 words about society and demographics","Discuss population trends","Understand compound nouns about social groups"]},
 {type:"teach", trg:"de bevolkingssamenstelling", src:"the population composition", pos:"noun", gender:"c", note:"COMPOUND: bevolking (population) + samenstelling (composition).\nUsed in policy, census reports, and news.", example:"A: De bevolkingssamenstelling is veranderd.\nB: Hoe bedoel je precies?\nA: Er wonen nu meer ouderen dan jongeren.\nB: Dat heeft gevolgen voor de zorg.", exampleSrc:"A: The population composition has changed.\nB: What do you mean exactly?\nA: There are now more elderly than young people.\nB: That has consequences for healthcare.", funFact:"Dutch loves stacking nouns. This 25-letter compound is perfectly normal in news articles."},
@@ -16,7 +16,7 @@ const LESSON_1 = {id:"nlv2_b2g8_l1", title:"Samenleving en Demografie", icon:"\u
 {type:"match", pairs:[{trg:"de grootte", src:"the size"},{trg:"de grootheid", src:"the greatness"},{trg:"de fractie", src:"the faction"},{trg:"de immigrante", src:"the immigrant (f)"}]},
 {type:"mc", q:"Welk woord wordt NIET meer gebruikt voor mensen met een migratieachtergrond?", opts:["de immigrante","de allochtoon","de bevolking","de burger"], ans:"de allochtoon", hint:"The CBS stopped using this term officially in 2016"},
 {type:"fb", s:"Eindhoven was vroeger een echte {1}.", a:["industriestad"], opts:["industriestad","industrialisatie","grootheid","grootte"], hint:"A compound meaning a city built around factories", sSrc:"Eindhoven used to be a real {1}."},
-{type:"mc", q:"'De fractie van D66' betekent:", opts:["De partijgroep in het parlement","Een wiskundig getal","De grootte van de partij","Het partijkantoor"], ans:"De partijgroep in het parlement", hint:"In politics, this word means the group of MPs from one party"},
+{type:"mc", q:"'De fractie van D66' betekent:", opts:["De grootte van de partij","Het partijkantoor","De partijgroep in het parlement","Een wiskundig getal"], ans:"De partijgroep in het parlement", hint:"In politics, this word means the group of MPs from one party"},
 {type:"drag_fill", s:"De {1} veranderde Nederland. Veel mensen trokken naar de {2}.", blanks:{"1":"industrialisatie","2":"steden"}, pool:["industrialisatie","steden","fractie","grootte"], hint:"The process that caused mass migration to cities in the 19th century."}
 ]};
 export default LESSON_1;

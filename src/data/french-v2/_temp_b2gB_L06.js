@@ -76,7 +76,7 @@ const LESSON_6 = {
      sSrc:"The {1} no longer works, we need to buy a new one."},
 
     {type:"mc", q:"'En guise de conclusion' signifie:",
-     opts:["En tant que conclusion","Sans conclusion","Avant la conclusion","Apres la conclusion"],
+     opts:["Apres la conclusion","En tant que conclusion","Sans conclusion","Avant la conclusion"],
      ans:"En tant que conclusion",
      hint:"En guise de means 'by way of' or 'as a substitute for'"},
 
@@ -93,7 +93,7 @@ const LESSON_6 = {
      sSrc:"His {1} hurt everyone at the meeting."},
 
     {type:"mc", q:"Quel est le pluriel de 'coffre-fort'?",
-     opts:["des coffres-forts","des coffre-forts","des coffres-fort","des coffre-fort"],
+     opts:["des coffres-fort","des coffre-fort","des coffres-forts","des coffre-forts"],
      ans:"des coffres-forts",
      hint:"In this compound noun, both parts take the plural mark"},
 
@@ -103,7 +103,7 @@ const LESSON_6 = {
      sSrc:"He has a {1} for classical music."},
 
     {type:"mc", q:"'Petitesse d'esprit' signifie:",
-     opts:["Etroitesse de vues","Grande intelligence","Taille physique","Jeune age"],
+     opts:["Grande intelligence","Taille physique","Jeune age","Etroitesse de vues"],
      ans:"Etroitesse de vues",
      hint:"This expression combines smallness with mind, suggesting limited thinking"},
 

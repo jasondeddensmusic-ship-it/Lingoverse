@@ -1,4 +1,4 @@
-// Korean V2 Unit 31 — A2 Vocabulary Expansion: Body, Family & Emotions
+// Korean V2 Unit 31. A2 Vocabulary Expansion: Body, Family & Emotions
 // New unit for TOPIK A-level gap coverage (lessons 1-6)
 // srcLang: English
 

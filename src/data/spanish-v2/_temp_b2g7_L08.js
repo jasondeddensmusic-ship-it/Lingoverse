@@ -13,7 +13,7 @@ const LESSON_8 = {id:"esv2_b2g7_l8",title:"Documentos y textos",icon:"📄",xp:1
 {type:"teach",trg:"el conductor",src:"the driver / presenter (TV)",pos:"noun",gender:"m",note:"A person who drives, or who hosts a TV/radio program.",example:"A: El conductor del programa es muy gracioso.\nB: Sí, es el mejor conductor de la televisión.",exampleSrc:"A: The TV presenter is very funny.\nB: Yes, he is the best presenter on television.",funFact:"In Latin America, 'conductor' commonly means TV host. In Spain, 'presentador' is more common for TV, while 'conductor' means driver."},
 {type:"mc",q:"Si encontramos un 'manuscrito medieval', es un texto que fue:",opts:["Escrito a mano hace siglos","Impreso ayer","Publicado en internet","Grabado en vídeo"],ans:"Escrito a mano hace siglos",hint:"'Manu' means hand and 'scriptum' means written. Medieval tells you when."},
 {type:"fb",s:"Las expresiones {1} son las más difíciles de aprender en otro idioma.",a:["idiomáticas"],opts:["idiomáticas","limitadas","itinerantes","masivas"],hint:"This adjective describes expressions that are natural and unique to a language.",sSrc:"The {1} expressions are the hardest to learn in another language."},
-{type:"mc",q:"En España, un 'conductor' es normalmente:",opts:["La persona que conduce un vehículo","El presentador de televisión","Un escritor famoso","Un músico profesional"],ans:"La persona que conduce un vehículo",hint:"In Peninsular Spanish, this word primarily refers to someone behind the wheel."},
+{type:"mc",q:"En España, un 'conductor' es normalmente:",opts:["Un músico profesional","La persona que conduce un vehículo","El presentador de televisión","Un escritor famoso"],ans:"La persona que conduce un vehículo",hint:"In Peninsular Spanish, this word primarily refers to someone behind the wheel."},
 {type:"fb",s:"Encontraron un {1} del siglo XV en la biblioteca de la catedral.",a:["manuscrito"],opts:["manuscrito","mapamundi","listón","manual"],hint:"This is an old handwritten document, often of great historical value.",sSrc:"They found a 15th-century {1} in the cathedral library."},
 {type:"match",pairs:[
   {trg:"el manuscrito",src:"the manuscript"},
@@ -22,7 +22,7 @@ const LESSON_8 = {id:"esv2_b2g7_l8",title:"Documentos y textos",icon:"📄",xp:1
   {trg:"idiomático",src:"idiomatic"},
   {trg:"el concursante",src:"the contestant"}
 ]},
-{type:"mc",q:"'Poner el listón alto' significa:",opts:["Establecer un estándar exigente","Decorar con cintas","Hacer ejercicio físico","Bajar las expectativas"],ans:"Establecer un estándar exigente",hint:"Think of the high jump bar. Setting it high means demanding excellence."},
+{type:"mc",q:"'Poner el listón alto' significa:",opts:["Hacer ejercicio físico","Bajar las expectativas","Establecer un estándar exigente","Decorar con cintas"],ans:"Establecer un estándar exigente",hint:"Think of the high jump bar. Setting it high means demanding excellence."},
 {type:"fb",s:"La {1} popular incluye cuentos, romances y coplas tradicionales.",a:["literatura"],opts:["literatura","ilustración","legislación","logística"],hint:"This word refers to the body of written and oral creative works.",sSrc:"Popular {1} includes tales, ballads, and traditional verses."}
 ]};
 export default LESSON_8;

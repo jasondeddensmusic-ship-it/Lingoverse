@@ -73,7 +73,7 @@ const LESSON_15 = {id:"esv2_b2g8_l15",title:"Literatura y lengua",icon:"📚",xp
  funFact:"El Quijote has been translated into more languages than any other book except the Bible."},
 
 {type:"mc",q:"¿De qué idioma viene la palabra 'laúd'?",
- opts:["Del árabe","Del latín","Del griego","Del francés"],
+ opts:["Del francés","Del árabe","Del latín","Del griego"],
  ans:"Del árabe",
  hint:"This instrument came to Europe through Al-Andalus. Its name comes from 'al-ud' meaning 'the wood'."},
 

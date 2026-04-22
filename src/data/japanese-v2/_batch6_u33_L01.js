@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Do you empathize with this protagonist?\nB: Yes, I have had similar experiences so I empathize.\nA: Please tell me about future prospects.\nB: I think internationalization will progress further going forward.\nA: What measures are needed for that?\nB: Improving language skills and cross-cultural understanding are essential.",
      funFact:"共感(きょうかん) combines 共 (together) and 感 (feel). In modern Japan, 共感(きょうかん) is the most sought quality in social media content. いいね (likes) represent 共感(きょうかん). Literature that generates 共感(きょうかん) connects readers to characters. The word also applies to music, art, and social movements that 'resonate' with people."},
 
-    {type:"mc", q:"感動(かんどう) describes:", opts:["Being deeply moved emotionally","Being confused","Being angry","Being bored"], ans:"Being deeply moved emotionally",
+    {type:"mc", q:"感動(かんどう) describes:", opts:["Being bored","Being deeply moved emotionally","Being confused","Being angry"], ans:"Being deeply moved emotionally",
      hint:"This word describes the powerful emotional impact of art, kindness, or beauty."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"子供(こども)の{1}力(りょく)は素晴(すば)らしいですね。\n(Children's imagination is wonderful.)", a:"そうぞう", opts:["そうぞう","ひょうげん","かんどう","きょうかん"], sSrc:"Children's imagination is wonderful.",
      hint:"The word for the mental ability to picture or create new things."},
 
-    {type:"mc", q:"描(えが)く in literary context means:", opts:["To depict or portray through writing","To physically draw a picture","To erase something","To read aloud"], ans:"To depict or portray through writing",
+    {type:"mc", q:"描(えが)く in literary context means:", opts:["To erase something","To read aloud","To depict or portray through writing","To physically draw a picture"], ans:"To depict or portray through writing",
      hint:"In literature, this verb describes how an author represents subjects in w...."}
   ,{type:"match",pairs:[{trg:"描(えが)く",src:"to depict / to portray / to draw"},{trg:"背景(はいけい)",src:"background / setting / context"},{trg:"テーマ",src:"theme / subject"},{trg:"共感(きょうかん)",src:"empathy / sympathy / resonance"}]},
   {type:"fb", s:"この小説(しょうせつ)の{1}は若(わか)い侍(さむらい)です。", a:["主人公(しゅじんこう)"], opts:["主人公(しゅじんこう)","物語(ものがたり)","作品(さくひん)","背景(はいけい)"], hint:"The central character around whom the story revolves.", sSrc:"The {1} of this novel is a young samurai."}

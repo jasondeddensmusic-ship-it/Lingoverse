@@ -32,7 +32,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"'예전'과 비슷한 의미의 단어는?",
-     opts:["오늘날","옛","현대","이후"],
+     opts:["옛","현대","이후","오늘날"],
      ans:"옛",
      hint:"Both words refer to something from the past. One is a determiner placed before nouns."},
 

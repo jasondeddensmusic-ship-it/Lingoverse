@@ -1,4 +1,4 @@
-// Batch 7 — Unit 01 extra lesson. Greetings & Basics: Weather Small Talk
+// Batch 7. Unit 01 extra lesson. Greetings & Basics: Weather Small Talk
 const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"Che tempo fa?",
  desc:"Learn how to talk about the weather, a universal conversation starter in Italian.",
@@ -106,7 +106,7 @@ const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0
 ]},
 
 {type:"mc", q:"Che cosa sono le 'previsioni del tempo'?",
- opts:["the weather forecast","the temperature","the thunderstorm","the seasons"],
+ opts:["the seasons","the weather forecast","the temperature","the thunderstorm"],
  ans:"the weather forecast",
  hint:"What you check on TV or your phone to know tomorrow's w...."},
 
@@ -116,7 +116,7 @@ const BATCH7_L1 = {id:"itv2_u01l_b7_1", title:"Che tempo fa?", icon:"\u2601\uFE0
  sSrc:"There is a lot of {1} this morning, you cannot see anything."},
 
 {type:"mc", q:"Quale regione italiana e famosa per la nebbia?",
- opts:["La Pianura Padana","La Sicilia","La Sardegna","La Calabria"],
+ opts:["La Sardegna","La Calabria","La Pianura Padana","La Sicilia"],
  ans:"La Pianura Padana",
  hint:"The large flat valley in northern Italy where Milan and Bologna are located."},
 

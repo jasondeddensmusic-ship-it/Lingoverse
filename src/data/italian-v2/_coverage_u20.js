@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 20.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs, rerun to refresh.
 const COVERAGE_U20 = {
   id:"itv2_u20_coverage_review", title:"Ripasso: copertura lessicale", icon:"🎯", xp:10, board:true,
   steps:[

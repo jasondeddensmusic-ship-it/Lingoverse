@@ -1,4 +1,4 @@
-// Batch 4 — Unit 04 Lesson 1: Sizes, Shapes & Materials
+// Batch 4. Unit 04 Lesson 1: Sizes, Shapes & Materials
 const BATCH4_L_1 = {
   id:"jav2_u04l_b4_1", title:"形(かたち)と材料(ざいりょう)", icon:"🔷", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_1 = {
     ]},
 
     {type:"mc", q:"ガラス comes from which language?",
-     opts:["Dutch","English","Portuguese","German"], ans:"Dutch",
+     opts:["German","Dutch","English","Portuguese"], ans:"Dutch",
      hint:"The European nation that traded with Japan from Dejima island."},
 
     {type:"fb", s:"このテーブルは{1}でできています。", a:"木(き)",
@@ -116,11 +116,11 @@ const BATCH4_L_1 = {
      hint:"The natural material that comes from trees."},
 
     {type:"mc", q:"What is the opposite of 大(おお)きい?",
-     opts:["小(ちい)さい","長(なが)い","重(おも)い","太(ふと)い"], ans:"小(ちい)さい",
+     opts:["重(おも)い","太(ふと)い","小(ちい)さい","長(なが)い"], ans:"小(ちい)さい",
      hint:"Describes something that is small or little in size."},
 
     {type:"mc", q:"四角(しかく)い means:",
-     opts:["square","round","triangle","oval"], ans:"square",
+     opts:["round","triangle","oval","square"], ans:"square",
      hint:"A shape with four equal corners and straight sides."}
   ,{type:"match",pairs:[{trg:"大(おお)きい",src:"big / large"},{trg:"丸(まる)い",src:"round / circular"},{trg:"四角(しかく)い",src:"square / rectangular"},{trg:"革(かわ)",src:"leather"},{trg:"ガラス",src:"glass (material)"},{trg:"プラスチック",src:"plastic"}]}]
 };

@@ -1,4 +1,4 @@
-// Batch 6 — Unit 21 extra lesson. Il condizionale: Polite Requests & Hypothetical Wishes
+// Batch 6. Unit 21 extra lesson. Il condizionale: Polite Requests & Hypothetical Wishes
 const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{2728}", xp:15, board:true, steps:[
 {type:"intro", title:"Cortesia e desideri",
  desc:"Master the conditional mood for polite requests, hypothetical wishes, and giving advice in Italian.",
@@ -106,7 +106,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
 ]},
 
 {type:"mc", q:"Cosa significa 'Chi si accontenta gode'?",
- opts:["Those who are content enjoy life","Those who try hard succeed","Those who wait are rewarded","Those who dare win"],
+ opts:["Those who dare win","Those who are content enjoy life","Those who try hard succeed","Those who wait are rewarded"],
  ans:"Those who are content enjoy life",
  hint:"An Italian proverb about finding happiness in what you have."},
 
@@ -116,7 +116,7 @@ const BATCH6_L1 = {id:"itv2_u21l_b6_1", title:"Cortesia e desideri", icon:"\u{27
  sSrc:"I could not {1} that vacation, it is too expensive."},
 
 {type:"mc", q:"Cosa significa 'l'arte di arrangiarsi'?",
- opts:["The art of managing with what you have","The art of cooking","The art of negotiation","The art of organization"],
+ opts:["The art of negotiation","The art of organization","The art of managing with what you have","The art of cooking"],
  ans:"The art of managing with what you have",
  hint:"A cultural Italian skill: improvising and getting by with limited resources."},
 

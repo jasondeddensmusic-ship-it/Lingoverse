@@ -1,4 +1,4 @@
-// L11: Feesten en Tradities — Festivals and Traditions
+// L11: Feesten en Tradities. Festivals and Traditions
 const LESSON_11 = {
   id:"nlv2_b2gC_l11", title:"Feesten en Tradities", icon:"\u{1F389}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Wanneer vieren Nederlanders Koningsdag?",
-     opts:["1 januari","14 februari","27 april","25 december"],
+     opts:["27 april","25 december","1 januari","14 februari"],
      ans:"27 april",
      hint:"The birthday of King Willem-Alexander. The whole country turns orange on this spring day."},
 
@@ -95,7 +95,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"'Kroost' is een:",
-     opts:["Formeel woord voor werknemers","Grappig, warm woord voor je kinderen","Scheldwoord","Naam voor een huisdier"],
+     opts:["Naam voor een huisdier","Formeel woord voor werknemers","Grappig, warm woord voor je kinderen","Scheldwoord"],
      ans:"Grappig, warm woord voor je kinderen",
      hint:"It is affectionate and slightly humorous. Used when talking about a lively group of kids."},
 

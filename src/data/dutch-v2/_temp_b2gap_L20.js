@@ -1,4 +1,4 @@
-// L20: Formal Dutch & Expressions — 20 B2 gap words
+// L20: Formal Dutch & Expressions, 20 B2 gap words
 const LESSON_20 = {
   id:"nlv2_b2gap_l20", title:"Formeel Nederlands en Uitdrukkingen", icon:"\uD83C\uDFF7\uFE0F", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_20 = {
      deepDive:{title:"Register in Dutch writing",
       text:"Dutch formal writing follows clear conventions:\n\n1. Opening: 'Geachte' for unknown, 'Beste' for known contacts\n2. Body: full sentences, no abbreviations, 'u' not 'je'\n3. Closing: 'Met vriendelijke groet' (standard) or 'Hoogachtend' (very formal)\n\nCommon formal phrases:\n'Naar aanleiding van' = with reference to\n'In afwachting van' = awaiting\n'Te uwer informatie' = for your information\n'Desgewenst' = if desired\n'Onverwijld' = immediately/without delay\n\nThe trend is toward simpler language, but these phrases persist in legal, government, and corporate communication."}},
     {type:"mc", q:"'Bij voorbaat dank' is used:",
-     opts:["to express disappointment","to thank someone in advance","to say goodbye casually","to apologize"],
+     opts:["to thank someone in advance","to say goodbye casually","to apologize","to express disappointment"],
      ans:"to thank someone in advance",
      hint:"THE standard polite closing in Dutch business emails."},
     {type:"mc", q:"'Aan de kaak stellen' literally refers to:",
@@ -132,7 +132,7 @@ const LESSON_20 = {
       {trg:"bij hoog en bij laag", src:"emphatically"}
     ]},
     {type:"mc", q:"Adding '-itis' to a Dutch word creates:",
-     opts:["a medical diagnosis","a humorous criticism of obsession","a compliment","a command"],
+     opts:["a command","a medical diagnosis","a humorous criticism of obsession","a compliment"],
      ans:"a humorous criticism of obsession",
      hint:"'Vergaderitis' = too many meetings. 'Bestselleritis' = only chasing bestsellers."},
     {type:"fb", s:"We moeten deze kans {1}.", a:["benutten"],

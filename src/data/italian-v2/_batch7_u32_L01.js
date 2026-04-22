@@ -1,4 +1,4 @@
-// Batch 7 — Unit 32 extra lesson. La globalizzazione: Cultural Identity & Heritage
+// Batch 7. Unit 32 extra lesson. La globalizzazione: Cultural Identity & Heritage
 const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{1F30D}", xp:15, board:true, steps:[
 {type:"intro", title:"L'identità culturale",
  desc:"Learn vocabulary for discussing cultural identity, heritage preservation, and the tension between tradition and modernity.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{
 ]},
 
 {type:"mc", q:"Che cos'e il movimento Slow Food?",
- opts:["A reaction to globalization, promoting local food","A diet program","A cooking school","A restaurant chain"],
+ opts:["A restaurant chain","A reaction to globalization, promoting local food","A diet program","A cooking school"],
  ans:"A reaction to globalization, promoting local food",
  hint:"Founded in Italy in 1986, in response to a fast-f... restaurant opening in Rome."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{
  sSrc:"We must {1} our traditions."},
 
 {type:"mc", q:"Che cosa significa 'campanilismo'?",
- opts:["Strong loyalty to one's hometown","Love for church bells","Italian nationalism","Globalization"],
+ opts:["Italian nationalism","Globalization","Strong loyalty to one's hometown","Love for church bells"],
  ans:"Strong loyalty to one's hometown",
  hint:"From 'campanile' (bell tower). Each town rallying around its own tower."},
 

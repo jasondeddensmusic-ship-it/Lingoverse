@@ -1,4 +1,4 @@
-// L17: Gebouwen en Architectuur — Buildings and Architecture
+// L17: Gebouwen en Architectuur. Buildings and Architecture
 const LESSON_17 = {
   id:"nlv2_b2gC_l17", title:"Gebouwen en Architectuur", icon:"\u{1F3D7}\uFE0F", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'Bedrijfsverzamelgebouw' bestaat uit drie delen. Welke?",
-     opts:["Bedrijf + ver + zamelgebouw","Bedrijfs + verzamel + gebouw","Be + drijfsverzamel + gebouw","Bedrijfsverza + mel + gebouw"],
+     opts:["Bedrijfs + verzamel + gebouw","Be + drijfsverzamel + gebouw","Bedrijfsverza + mel + gebouw","Bedrijf + ver + zamelgebouw"],
      ans:"Bedrijfs + verzamel + gebouw",
      hint:"Business + collection + building. A building that collects multiple businesses in one place."},
 
@@ -95,7 +95,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'Hersenen' is in het Nederlands:",
-     opts:["Altijd enkelvoud","Altijd meervoud","Beide vormen bestaan","Alleen formeel gebruikt"],
+     opts:["Alleen formeel gebruikt","Altijd enkelvoud","Altijd meervoud","Beide vormen bestaan"],
      ans:"Altijd meervoud",
      hint:"Like 'trousers' in English, you always say 'de hersenen', never 'een hersen'."},
 

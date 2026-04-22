@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 17: Noms Composés
+// French B2 Gap Batch 9. Lesson 17: Noms Composés
 // Compound nouns and hyphenated words
 
 const LESSON_17 = {id:"frv2_b2g9_l17", title:"Noms Composés", icon:"🔗", xp:15, board:true, steps:[
@@ -65,7 +65,7 @@ const LESSON_17 = {id:"frv2_b2g9_l17", title:"Noms Composés", icon:"🔗", xp:1
    deepDive:{title:"Why So Complicated?",
     text:"Each compound reflects its internal grammar. In grille-pain, the verb 'griller' never takes a plural. In coffres-forts, both parts are independent words that can be pluralized. The rules follow logic, but you need to know the structure of each compound to apply them correctly. When in doubt, check a dictionary."}},
 
-  {type:"mc", q:"Le pluriel de grille-pain est:", opts:["Des grilles-pains","Des grille-pains","Des grille-pain","Des grilles-pain"], ans:"Des grille-pain",
+  {type:"mc", q:"Le pluriel de grille-pain est:", opts:["Des grille-pain","Des grilles-pain","Des grilles-pains","Des grille-pains"], ans:"Des grille-pain",
    hint:"Verb + noun compounds are invariable. Neither part changes in the plural."},
 
   {type:"teach", trg:"l'amuse-gueule", src:"appetizer snack", pos:"noun", gender:"m",
@@ -110,7 +110,7 @@ const LESSON_17 = {id:"frv2_b2g9_l17", title:"Noms Composés", icon:"🔗", xp:1
     {trg:"le compte-gouttes", src:"dropper"}
   ]},
 
-  {type:"mc", q:"Pourquoi dit-on 'des gardes-chasse' et non 'des garde-chasse'?", opts:["Parce que c'est un verbe","Parce que garde désigne une personne","Parce que chasse est féminin","Parce que c'est une exception"], ans:"Parce que garde désigne une personne",
+  {type:"mc", q:"Pourquoi dit-on 'des gardes-chasse' et non 'des garde-chasse'?", opts:["Parce que c'est une exception","Parce que c'est un verbe","Parce que garde désigne une personne","Parce que chasse est féminin"], ans:"Parce que garde désigne une personne",
    hint:"When g... means a person (not the action of guarding), it takes the plural."},
 
   {type:"fb", s:"Sans {1}, vous ne pouvez pas entrer dans la zone.", a:["laissez-passer"], opts:["laissez-passer","guet-apens","pied-de-biche","passe-passe"],

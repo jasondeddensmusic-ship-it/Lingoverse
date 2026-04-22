@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"カラオケは日本語(にほんご)でなんの意味(いみ)ですか？",
-     opts:["Empty orchestra","Song machine","Voice box","Music room"],
+     opts:["Music room","Empty orchestra","Song machine","Voice box"],
      ans:"Empty orchestra",
      hint:"This globally famous word combines から (e...) with オケ (short for o...)."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"May I take a photo?"},
 
     {type:"mc", q:"日本料理(にほんりょうり)は何年(なんねん)にユネスコに登録(とうろく)されましたか？",
-     opts:["2013","2020","2005","2018"],
+     opts:["2005","2018","2013","2020"],
      ans:"2013",
      hint:"Japanese cuisine was recognized by UNESCO as an Intangible Cultural Heritage in the early 2010s."}
   ,{type:"match",pairs:[{trg:"運動(うんどう)",src:"exercise / sports"},{trg:"映画(えいが)",src:"movie / film"},{trg:"音楽(おんがく)",src:"music"},{trg:"ゲーム",src:"game / video game"},{trg:"旅行(りょこう)",src:"travel / trip"}]}]

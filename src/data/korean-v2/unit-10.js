@@ -1,4 +1,4 @@
-// Korean V2 Unit 10 — 한국 생활
+// Korean V2 Unit 10, 한국 생활
 // Level: A2.2
 
 const UNIT_10 =
@@ -163,7 +163,7 @@ const UNIT_10 =
   {type:"teach",kind:"word",nl:"전세",en:"lump sum deposit rental",pos:"noun",gender:null,funFact:"From hanja: 戰 (war/battle) + 世 (world/generation).",phonetic:"jeon-se",example:"A: 집이 전세예요, 월세예요? B: 전세로 살아요. A: 보증금이 많이 들었어요? B: 네, 많이 들었어요. 하지만 매달 돈 안 내요.",exampleEn:"A: Is your place jeonse or monthly rent? B: I live on a jeonse lease. A: Was the deposit a lot? B: Yes, it was a lot. But I don't pay anything monthly.",note:"전세: lump sum deposit (unique Korean rental system).\nYou deposit a large sum, pay no monthly rent."},
   {type:"teach",kind:"word",nl:"월세",en:"monthly rent",pos:"noun",gender:null,funFact:"Sino-Korean compound: 월 (month) + 세 (tax/payment)",phonetic:"wol-se",example:"A: 월세가 얼마예요? B: 오십만 원이에요.",exampleEn:"A: How much is the monthly rent? B: 500,000 won.",note:"월세: monthly rent.\nCOMPOUND: 월 (month) + 세 (tax/payment).\n전세 (deposit) ↔ 월세 (monthly rent)."},
   {type:"tip",title:"🏠 Korean Rental System",text:"전세 (jeonse):\n• Deposit: ₩100,000,000–500,000,000+ (huge!)\n• Monthly rent: ₩0 (none)\n• Landlord invests your deposit, earns interest",deepDive:{title:"전세 vs 월세: How Korean Renting Works",text:"• You get ALL your money back when you leave\n• Disappearing as interest rates change\n\n\n월세 (wolse):\n• Deposit: ₩5,000,000–30,000,000 (smaller)\n• Monthly rent: ₩500,000–1,500,000\n• More like Western renting\n• Becoming more common\n\n보증금: security deposit.\n계약: contract.\n집주인: landlord (집 + 주인: house + owner).\n부동산: real estate agency.\n\n부동산에 가다 = go to the real estate agency\n(How you find an apartment in Korea)"}},
-  {type:"mc",q:"전세 is unique because:",opts:["Monthly payments, small deposit","Government subsidized housing","Large deposit, no monthly rent","Rent paid yearly in advance"],ans:"Large deposit, no monthly rent",hint:"전세: one massive upfront payment, then zero ongoing rent. Landlord invests your sum, returns it when you leave."},
+  {type:"mc",q:"전세 is unique because:",opts:["Large deposit, no monthly rent","Rent paid yearly in advance","Monthly payments, small deposit","Government subsidized housing"],ans:"Large deposit, no monthly rent",hint:"전세: one massive upfront payment, then zero ongoing rent. Landlord invests your sum, returns it when you leave."},
   {type:"fb",s:"___에서 소포를 보냈어요.\n(I sent a package at the post office.)",a:"우체국",opts:["우체국","은행","세탁소","편의점"],hint:"... = post office."},
   {type:"fb",s:"전세가 비싸서 ___로 살아요.\n(Jeonse is expensive so I live with monthly rent.)",a:"월세",opts:["월세","전세","보증금","계약"],hint:"월 (month) + 세 (payment). The alternative to 전세 when you can't afford the big upfront sum."},
   {type:"match",pairs:[{nl:"은행",en:"bank"},{nl:"우체국",en:"post office"},{nl:"세탁소",en:"dry cleaners"},{nl:"전세",en:"lump sum deposit rental"}]},
@@ -172,7 +172,7 @@ const UNIT_10 =
 
   // ── -한테서: from a person ──
   {type:"teach",kind:"grammar",nl:"-한테서",en:"from (a person)",pos:"part",gender:null,funFact:"Means \"to (a person).\" Casual form. Formal version is 에게.",example:"A: 누구한테서 전화가 왔어요? B: 친구한테서 전화를 받았어요. A: 무슨 일이었어요? B: 내일 같이 밥 먹자고 했어요.",exampleEn:"A: Who called you? B: I received a call from a friend. A: What was it about? B: They said let's eat together tomorrow.",note:"-한테: to a person.\n-한테서: FROM a person.\n\n한테 = direction TO.\n한테서 = source FROM.\n\nFormal version: -에게서.",deepDive:{title:"-한테 vs -한테서",text:"엄마한테 전화해요.\n→ I call (to) mom.\n\n엄마한테서 전화가 왔어요.\n→ A call came FROM mom.\n\n한테 = destination (to a person)\n한테서 = source (from a person)\n\nAlso: -에게 (formal to), -에게서 (formal from)."}},
-  {type:"mc",q:"한테 vs 한테서:",opts:["Same meaning, interchangeable","한테서 is more polite","한테=formal, 한테서=casual","한테=to a person, 한테서=from a person"],ans:"한테=to a person, 한테서=from a person",hint:"서 adds the FROM direction. Like 에서 for places."},
+  {type:"mc",q:"한테 vs 한테서:",opts:["한테서 is more polite","한테=formal, 한테서=casual","한테=to a person, 한테서=from a person","Same meaning, interchangeable"],ans:"한테=to a person, 한테서=from a person",hint:"서 adds the FROM direction. Like 에서 for places."},
   {type:"fb",s:"선생님___서 이메일을 받았어요.\n(Received email FROM the teacher.)",a:"한테",opts:["한테","에게","에","한"],hint:"From a person: ...한테서"},
   {type:"fb",s:"동생___선물을 줬어요.\n(Gave a present TO younger sibling.)",a:"한테",opts:["한테","한테서","에서","에게서"],hint:"TO a person: ...한테"},
 
@@ -183,12 +183,12 @@ const UNIT_10 =
   {type:"teach",kind:"word",nl:"대답",en:"answer / reply",pos:"noun",gender:null,funFact:"From hanja: 對 (face) + 答 (answer). Face and answer = reply.",phonetic:"dae-dap",example:"대답해 주세요.",exampleEn:"Please answer.",note:"대답: answer / reply.\nCOMPOUND: 대 (respond) + 답 (answer)."},
   {type:"teach",kind:"word",nl:"벌써",en:"already (time flew)",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"beol-sseo",example:"A: 지금 몇 시예요? B: 벌써 12시예요! A: 정말요? 시간이 빨라요. B: 점심 먹으러 가요.",exampleEn:"A: What time is it now? B: It's already 12 o'clock! A: Really? Time is fast. B: Let's go eat lunch.",note:"벌써: already  -  surprise that time passed fast.\n벌써 arrived? = Already?! (surprised)"},
   {type:"teach",kind:"word",nl:"이미",en:"already (completed)",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"i-mi",example:"A: 같이 점심 먹을까요? B: 저는 이미 먹었어요. A: 아, 그래요? 뭐 먹었어요? B: 김밥 먹었어요.",exampleEn:"A: Shall we eat lunch together? B: I already ate. A: Oh, really? What did you eat? B: I ate kimbap.",note:"이미: already  -  something is done, factual.\n이미 = completed fact. 벌써 expresses surprise that time passed fast."},
-  {type:"mc",q:"You want to ask the teacher something. You raise your hand and say:",opts:["대답이 있어요","문제가 있어요","질문이 있어요","감사합니다"],ans:"질문이 있어요",hint:"Express that you have a question. Use the existential verb with the noun."},
+  {type:"mc",q:"You want to ask the teacher something. You raise your hand and say:",opts:["감사합니다","대답이 있어요","문제가 있어요","질문이 있어요"],ans:"질문이 있어요",hint:"Express that you have a question. Use the existential verb with the noun."},
 
 // ── Weight / Mass adjectives ──
 {type:"teach",kind:"word",nl:"가볍다",en:"to be light (weight)",pos:"verb",gender:null,phonetic:"ga-byeop-da",funFact:"ㅂ-irregular. 가볍다 → 가벼워요. The ㅂ changes to 워 before vowel endings.",example:"A: 이 가방이 가볍다고 했어요? B: 네, 정말 가볍다! 들어 보세요.",exampleEn:"A: Did you say this bag is light? B: Yes, it's really light! Try lifting it.",note:"가볍다: light (in weight).\nOpposite of 무겁다 (heavy).\nㅂ-irregular: 가볍다 → 가벼워요.",deepDive:{title:"가볍다 vs 무겁다",text:"가볍다 → 가벼워요: light in weight.\n무겁다 → 무거워요: heavy.\n\n이 짐이 가벼워요 = This luggage is light.\n배낭이 너무 무거워요 = The backpack is too heavy.\n\nBonus idiom: 입이 가볍다 = has a loose tongue (doesn't keep secrets)."}},
 {type:"teach",kind:"word",nl:"무겁다",en:"to be heavy (weight)",pos:"verb",gender:null,phonetic:"mu-geop-da",funFact:"ㅂ-irregular, same pattern as 가볍다. The ㅂ changes to 워 before vowel endings.",example:"A: 짐이 무거워요? B: 네, 너무 무거워요. 도와 주세요!",exampleEn:"A: Is your luggage heavy? B: Yes, it's so heavy. Please help!",note:"무겁다: heavy.\n무겁다 → 무거워요.\n가볍다 (light) ↔ 무겁다 (heavy).",deepDive:{title:"ㅂ-Irregular: 무겁다",text:"무겁 + 어요 → ㅂ becomes 우 → 무거워요.\n\nSame pattern:\n가볍다 → 가벼워요\n무겁다 → 무거워요\n춥다 → 추워요\n덥다 → 더워요"}},
-{type:"mc",q:"가볍다 means:",opts:["to be heavy","to be light","to be fast","to be slow"],ans:"to be light",hint:"Opposite of 무겁다 (heavy). Used for physical weight."},
+{type:"mc",q:"가볍다 means:",opts:["to be light","to be fast","to be slow","to be heavy"],ans:"to be light",hint:"Opposite of 무겁다 (heavy). Used for physical weight."},
 
 // ── Clothing + 아직 ──
 {type:"teach",kind:"word",nl:"옷",en:"clothes / clothing",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"ot",example:"A: 어제 뭐 했어요? B: 새 옷을 샀어요. A: 어디에서 샀어요? B: 명동에서 샀어요. 예뻐요!",exampleEn:"A: What did you do yesterday? B: I bought new clothes. A: Where did you buy them? B: I bought them in Myeongdong. They're pretty!",note:"옷: clothes (general).\n옷을 입다 = to wear clothes.\n옷을 벗다 = to take off clothes."},
@@ -230,9 +230,9 @@ const UNIT_10 =
   {type:"teach",kind:"phrase",nl:"들어가다 → 들어가요",en:"to enter / to go in",pos:"verb",gender:null,funFact:"Korean verbs don't change for person or number. \"I go\" and \"they go\" use the same verb form.",phonetic:"deu-reo-ga-da",example:"A: 늦었어요. 이제 집에 들어가요. B: 벌써요? A: 네, 내일 일찍 일어나야 해요. B: 그래요, 잘 자요!",exampleEn:"A: It's late. I'm going inside now. B: Already? A: Yes, I have to wake up early tomorrow. B: Okay, sleep well!",note:"들어가다: to enter.\n들어 (into) + 가다 (to go). Literally go-in.\n나가다 (go out) ↔ 들어가다 (go in)."},
   {type:"mc",q:"수업이 끝났어요 means:",opts:["Class started","Class ended","Class is fun","Class is boring"],ans:"Class ended",hint:"끝나다 = to end. 끝났어요 = … (past)."},
   {type:"mc",q:"나가다 = 나 + 가다. 나 means:",opts:["I/me","House","Out","Go"],ans:"Out",hint:"나 = out. 나가다 = go out. 나오다 = come out."},
-  {type:"mc",q:"이 가방이 가볍다의 반대말은?",opts:["무겁다","빠르다","느리다","크다"],ans:"무겁다",hint:"가볍다 = light (weight). Its direct opposite describes something that is heavy."},
+  {type:"mc",q:"이 가방이 가볍다의 반대말은?",opts:["빠르다","느리다","크다","무겁다"],ans:"무겁다",hint:"가볍다 = light (weight). Its direct opposite describes something that is heavy."},
   {type:"mc",q:"짐이 너무 ___. 도와 주세요! (The luggage is too ___. Please help!)",opts:["무겁다","가볍다","빠르다","높다"],ans:"무겁다",hint:"ㅂ-irregular: 무겁다 conjugates to 무거워요. Used for physical heaviness."},
-  {type:"mc",q:"이 가방이 정말 ___. 들기 쉬워요. (This bag is really ___. Easy to carry.)",opts:["가볍다","무겁다","크다","작다"],ans:"가볍다",hint:"ㅂ-irregular: 가볍다 conjugates to 가벼워요. Opposite of 무겁다."},
+  {type:"mc",q:"이 가방이 정말 ___. 들기 쉬워요. (This bag is really ___. Easy to carry.)",opts:["작다","가볍다","무겁다","크다"],ans:"가볍다",hint:"ㅂ-irregular: 가볍다 conjugates to 가벼워요. Opposite of 무겁다."},
 ]},
 
 // ═══ L8: -는 것 Nominalization Preview ═══
@@ -362,7 +362,7 @@ const UNIT_10 =
   {type:"drag_fill",s:"카페에서 {1}를 연결하고 {2}로 {3}을 보내요. 그리고 네이버에서 맛집을 {4}해요.",blanks:{"1":"와이파이","2":"이메일","3":"사진","4":"검색"},pool:["와이파이","이메일","사진","검색","메시지","앱","비밀번호","충전기"],hint:"At the cafe I connect wifi and send photos by email. Then I search for restaurants on Naver."},
 {type:"match",pairs:[{trg:"일하다",src:"to work"},{trg:"자다 → 잤어요",src:"to sleep → slept"},{trg:"욕실",src:"bathroom (bathing)"},{trg:"신발을 벗다",src:"to take off shoes"},{trg:"온돌",src:"underfloor heating"},{trg:"의자",src:"chair"}]},{type:"match",pairs:[{trg:"침대",src:"bed"},{trg:"이에요/예요 → 이야/야",src:"am/is → am/is (casual)"},{trg:"후라이드",src:"fried (plain) chicken"},{trg:"벌써",src:"already (time flew)"},{trg:"이미",src:"already (completed)"},{trg:"천둥",src:"thunder"},{trg:"치킨",src:"Korean fried chicken"},{trg:"양념치킨",src:"seasoned fried chicken"},{trg:"들어가다 → 들어가요",src:"to enter / to go in"},{trg:"꽃",src:"flower"},{trg:"사진",src:"photo"}]}]},
 
-// ═══ L11: 생각과 마음 — Thinking & Mental State Verbs ═══
+// ═══ L11: 생각과 마음. Thinking & Mental State Verbs ═══
 {id:"kou10l11",title:"생각과 마음",icon:"🧠",xp:20,board:true,steps:[
   {type:"intro",title:"Thinking & Mental State Verbs",desc:"Seven core verbs for expressing thoughts, feelings, and knowledge in Korean. Essential for TOPIK I.",goals:["Learn 7 A2 mental-state and cognitive verbs","Conjugate 알다 and 모르다 with ㄹ-irregular","Use 좋아하다, 생각하다, and 잊다 in natural sentences","Express arrival, departure, and knowing in daily conversation"]},
 
@@ -378,7 +378,7 @@ const UNIT_10 =
    exampleSrc:"A: Do you like Korean food?\nB: Yes, I especially like kimchi stew.\nA: I like bibimbap.\nB: Both are delicious!",
    funFact:"좋아하다 vs 좋다: 음식이 좋아요 (the food is good) vs 음식을 좋아해요 (I like the food). The second form uses the object particle 을/를 and expresses active preference."},
 
-  {type:"mc",q:"생각하다 means:",opts:["to know","to think","to forget","to like"],ans:"to think",hint:"생각 = thought. 생각하다 = to do a thought."},
+  {type:"mc",q:"생각하다 means:",opts:["to think","to forget","to like","to know"],ans:"to think",hint:"생각 = thought. 생각하다 = to do a thought."},
 
   {type:"teach",trg:"알다",src:"to know",pos:"verb",gender:null,
    note:"알다 is an irregular ㄹ verb.\n알아요 (polite present). 알았어요 (past).\nWith -ㅂ니다: 압니다 (the ㄹ drops before ㅂ).",
@@ -392,9 +392,9 @@ const UNIT_10 =
    exampleSrc:"A: Where does this bus go?\nB: I don't know. It's my first time too.\nA: That's okay. Let's check together.\nB: Yes, let's look it up with the app.",
    funFact:"모르다 is the negative counterpart to 알다. They are not just antonyms but have different irregular patterns: 알다 → 알아요, 모르다 → 몰라요. The ㄹ doubles in 모르다."},
 
-  {type:"mc",q:"알다 → polite present form:",opts:["알어요","알해요","알아요","알었어요"],ans:"알아요",hint:"Vowel stem ending in ㄹ: drop ㄹ and add 아요? No — keep it. 알 + 아요 = 알아요."},
+  {type:"mc",q:"알다 → polite present form:",opts:["알해요","알아요","알었어요","알어요"],ans:"알아요",hint:"Vowel stem ending in ㄹ: drop ㄹ and add 아요? No, keep it. 알 + 아요 = 알아요."},
 
-  {type:"mc",q:"모르다 → polite present form:",opts:["모르어요","모르해요","모르아요","몰라요"],ans:"몰라요",hint:"모르다 is irregular. ㄹ doubles: 몰 + 라요 = 몰라요."},
+  {type:"mc",q:"모르다 → polite present form:",opts:["모르해요","모르아요","몰라요","모르어요"],ans:"몰라요",hint:"모르다 is irregular. ㄹ doubles: 몰 + 라요 = 몰라요."},
 
   {type:"teach",trg:"잊다",src:"to forget",pos:"verb",gender:null,
    note:"잊다 is a regular verb.\n잊어요 (polite present). 잊었어요 (past).\nOften pairs with -어버리다 for emphasis: 잊어버렸어요 (I completely forgot).",
@@ -414,17 +414,17 @@ const UNIT_10 =
    exampleSrc:"A: What time do you depart?\nB: We leave at 9.\nA: Where do we meet?\nB: Let's meet in front of the subway station.",
    funFact:"출발 (出發): 出 = exit + 發 = emit/send off. The same 出 appears in 출근 (go to work) and 출구 (exit). Korean learners can decode many new Sino-Korean words once they recognize these hanja patterns."},
 
-  {type:"mc",q:"도착하다 means:",opts:["to depart","to enter","to arrive","to leave work"],ans:"to arrive",hint:"도착: 到 = …, 着 = land. Reaching a destination."},
+  {type:"mc",q:"도착하다 means:",opts:["to leave work","to depart","to enter","to arrive"],ans:"to arrive",hint:"도착: 到 = …, 着 = land. Reaching a destination."},
 
-  {type:"mc",q:"출발하다 is the opposite of:",opts:["알다","잊다","도착하다","생각하다"],ans:"도착하다",hint:"One means to set off from a place. The other means to reach a place."},
+  {type:"mc",q:"출발하다 is the opposite of:",opts:["도착하다","생각하다","알다","잊다"],ans:"도착하다",hint:"One means to set off from a place. The other means to reach a place."},
 
   {type:"fb",s:"지금 어디예요? 거의 ___해요.\n(Where are you now? I've almost arrived.)",a:"도착",opts:["도착","출발","생각","잊"],hint:"The verb for reaching your destination. 도착 + 했어요/해요."},
 
   {type:"fb",s:"몇 시에 ___해요? 9시에 ___해요.\n(What time do you leave? I leave at 9.)",a:"출발",opts:["출발","도착","알","모르"],hint:"The verb for setting off from a starting point."},
 
-  {type:"mc",q:"Which sentence is correct?",opts:["저는 한국 음식을 좋아해요","저는 한국 음식이 좋아해요","저는 한국 음식을 좋다해요","저는 한국 음식이 좋아요"],ans:"저는 한국 음식을 좋아해요",hint:"좋아하다 takes the object particle 을/를. 좋다 takes the subject particle 이/가."},
+  {type:"mc",q:"Which sentence is correct?",opts:["저는 한국 음식이 좋아요","저는 한국 음식을 좋아해요","저는 한국 음식이 좋아해요","저는 한국 음식을 좋다해요"],ans:"저는 한국 음식을 좋아해요",hint:"좋아하다 takes the object particle 을/를. 좋다 takes the subject particle 이/가."},
 
-  {type:"mc",q:"숙제를 잊었어요 means:",opts:["I finished the homework","I forgot the homework","I submitted the homework","I know the homework"],ans:"I forgot the homework",hint:"잊다 = to forget. 잊었어요 = … (past polite)."},
+  {type:"mc",q:"숙제를 잊었어요 means:",opts:["I know the homework","I finished the homework","I forgot the homework","I submitted the homework"],ans:"I forgot the homework",hint:"잊다 = to forget. 잊었어요 = … (past polite)."},
 
   {type:"fb",s:"이 단어 ___ 요? 아니요, ___라요.\n(Do you know this word? No, I don't know.)",a:"알아",opts:["알아","몰라","알었어","잊어"],hint:"알다 present: 알아요. You're asking if someone knows."},
 

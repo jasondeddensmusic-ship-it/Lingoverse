@@ -62,7 +62,7 @@ const LESSON_5 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'chilometro zero' mean for food?",
-     opts:["The food has zero calories","The food traveled zero kilometers, it is locally sourced","The food costs zero euros","The food has zero additives"],
+     opts:["The food traveled zero kilometers, it is locally sourced","The food costs zero euros","The food has zero additives","The food has zero calories"],
      ans:"The food traveled zero kilometers, it is locally sourced",
      hint:"Farm to table with no transport. Fresher produce, lower carbon footprint, and support for local farmers."},
 
@@ -92,7 +92,7 @@ const LESSON_5 = {
      sSrc:"In this shop they sell everything {1}. Bring your own containers."},
 
     {type:"mc", q:"What are the 'tre R' of Italian sustainability?",
-     opts:["Riscaldare, Raffreddare, Riposare","Ridurre, Riutilizzare, Riciclare","Ricercare, Rinnovare, Ricostruire","Rispondere, Reagire, Risolvere"],
+     opts:["Rispondere, Reagire, Risolvere","Riscaldare, Raffreddare, Riposare","Ridurre, Riutilizzare, Riciclare","Ricercare, Rinnovare, Ricostruire"],
      ans:"Ridurre, Riutilizzare, Riciclare",
      hint:"Reduce, Reuse, Recycle. These three verbs summarize the sustainable lifestyle approach in order of priority."},
 
@@ -103,7 +103,7 @@ const LESSON_5 = {
      sSrc:"Use a reusable water {1} instead of a plastic bottle."},
 
     {type:"mc", q:"Why do many Italians still prefer bottled water?",
-     opts:["Tap water is unsafe in most Italian cities","They believe bottled water tastes better despite safe tap water","Bottled water is always free in Italian restaurants","Italian law requires bottled water for drinking"],
+     opts:["Bottled water is always free in Italian restaurants","Italian law requires bottled water for drinking","Tap water is unsafe in most Italian cities","They believe bottled water tastes better despite safe tap water"],
      ans:"They believe bottled water tastes better despite safe tap water",
      hint:"Italian t... w... is s... everywhere, but cultural preference for 'acqua minerale' persists. Public filtered w... fountains are reducing bottle use."}
   ]

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 09, Lesson 2: At the Doctor's Office
+// Batch 4. Unit 09, Lesson 2: At the Doctor's Office
 const BATCH4_U09_L2 = {
   id:"itv2_u09l_b4_2", title:"Dal medico", icon:"\uD83E\uDE7A", xp:15, board:true,
   steps:[
@@ -116,7 +116,7 @@ const BATCH4_U09_L2 = {
     ]},
 
     {type:"mc", q:"Cosa significa 'medico di base' in Italia?",
-     opts:["General practitioner / family doctor","Hospital surgeon","Emergency doctor","Pharmacist"],
+     opts:["Pharmacist","General practitioner / family doctor","Hospital surgeon","Emergency doctor"],
      ans:"General practitioner / family doctor",
      hint:"This is your primary healthcare provider who knows you for years."},
 
@@ -126,7 +126,7 @@ const BATCH4_U09_L2 = {
      sSrc:"{1} deeply, please."},
 
     {type:"mc", q:"Cosa sono 'le terme' nella sanita italiana?",
-     opts:["Thermal spas prescribed by doctors for treatment","Emergency rooms","Blood test labs","Pharmacies"],
+     opts:["Blood test labs","Pharmacies","Thermal spas prescribed by doctors for treatment","Emergency rooms"],
      ans:"Thermal spas prescribed by doctors for treatment",
      hint:"Italian d... can prescribe spa treatments covered by insurance."},
 
@@ -136,7 +136,7 @@ const BATCH4_U09_L2 = {
      sSrc:"It is not {1}, rest for a few days."},
 
     {type:"mc", q:"Perche gli italiani discutono le analisi del sangue?",
-     opts:["Discussing blood test results with family and friends is culturally normal","Blood tests are public information","Doctors require it","It is a legal obligation"],
+     opts:["Blood tests are public information","Doctors require it","It is a legal obligation","Discussing blood test results with family and friends is culturally normal"],
      ans:"Discussing blood test results with family and friends is culturally normal",
      hint:"Health is a communal concern in Italian culture, not a private matter."}
   ,{type:"match",pairs:[{trg:"la pressione",src:"blood pressure / pressure"},{trg:"la visita",src:"the examination / visit"},{trg:"la schiena",src:"the back (body)"},{trg:"respirare",src:"to breathe"}]}]

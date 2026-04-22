@@ -93,13 +93,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"したがって",src:"therefore"},{trg:"更(さら)に",src:"furthermore"},{trg:"むしろ",src:"rather"},{trg:"結局(けっきょく)",src:"in the end"},{trg:"そもそも",src:"in the first place"}],
      hint:"Match each formal connector with its English meaning."},
 
-    {type:"mc", q:"What does にもかかわらず express?", opts:["Despite / in spite of","Because of","In addition to","As a result of"], ans:"Despite / in spite of",
+    {type:"mc", q:"What does にもかかわらず express?", opts:["As a result of","Despite / in spite of","Because of","In addition to"], ans:"Despite / in spite of",
      hint:"This very formal expression emphasizes a contradiction between expectation and reality."},
 
     {type:"fb", s:"{1}、なぜこの問題(もんだい)が起(お)きたのですか？\n(In the first place, why did this problem occur?)", a:"そもそも", opts:["そもそも","したがって","更(さら)に","つまり"], sSrc:"In the first place, why did this problem occur?",
      hint:"This word questions the fundamental premise and takes the discussion back to basics."},
 
-    {type:"mc", q:"Which is the most formal way to say 'in other words'?", opts:["すなわち","つまり","ようするに","結局(けっきょく)"], ans:"すなわち",
+    {type:"mc", q:"Which is the most formal way to say 'in other words'?", opts:["ようするに","結局(けっきょく)","すなわち","つまり"], ans:"すなわち",
      hint:"This connector is primarily used in academic papers and very formal writing."}
   ,{type:"match",pairs:[{trg:"にもかかわらず",src:"despite / in spite of / nevertheless"},{trg:"例(たと)えば",src:"for example / for instance"},{trg:"もっとも",src:"however / although / that said"},{trg:"いずれにしても",src:"in any case / either way / regardless"}]}]
 };

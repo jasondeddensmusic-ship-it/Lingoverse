@@ -87,7 +87,7 @@ const LESSON_4 = {
 
     {type:"match", pairs:[{trg:"おそれいります",src:"sorry to trouble you"},{trg:"てんぷ",src:"attachment"},{trg:"ほんじつちゅう",src:"within today"},{trg:"よろしくおねがいいたします",src:"closing greeting (humble)"}]},
 
-    {type:"mc", q:"For emails to external contacts, you open with:", opts:["おつかれさまです","おせわになっております","よろしくおねがいいたします","しつれいいたします"], ans:"おせわになっております",
+    {type:"mc", q:"For emails to external contacts, you open with:", opts:["しつれいいたします","おつかれさまです","おせわになっております","よろしくおねがいいたします"], ans:"おせわになっております",
      hint:"おつかれさまです is for internal colleagues. External contacts get the relationship-acknowledgment greeting."},
   ]
 };

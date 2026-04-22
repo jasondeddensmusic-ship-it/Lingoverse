@@ -1,4 +1,4 @@
-// Spanish V2 Unit 78 — B2 Vocabulary Batch 10
+// Spanish V2 Unit 78. B2 Vocabulary Batch 10
 import L16 from './_temp_b2gA_L16.js';
 import L17 from './_temp_b2gA_L17.js';
 import L18 from './_temp_b2gA_L18.js';

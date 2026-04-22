@@ -40,7 +40,7 @@ const LESSON_40 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'아버님'은 '아버지'와 어떻게 다른가요?",
-     opts:["더 친근한 표현","같은 뜻","더 높임말","더 어린이 표현"],
+     opts:["더 높임말","더 어린이 표현","더 친근한 표현","같은 뜻"],
      ans:"더 높임말",
      hint:"The suffix 님 is added to elevate the level of respect. Think about how 선생 becomes 선생님."},
 
@@ -131,7 +131,7 @@ const LESSON_40 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'오히려 더 좋았어요'에서 '오히려'의 역할은?",
-     opts:["강조","비교","반대되는 결과를 나타냄","시간의 흐름을 나타냄"],
+     opts:["비교","반대되는 결과를 나타냄","시간의 흐름을 나타냄","강조"],
      ans:"반대되는 결과를 나타냄",
      hint:"This adverb signals that the result was the opposite of what was expected. Think 'contrary to expectations.'"},
 
@@ -183,7 +183,7 @@ const LESSON_40 = {
 
     {type:"mc",
      q:"'사뭇 다르다'에서 '사뭇'은 어떤 느낌이에요?",
-     opts:["일상적이고 가벼운","문학적이고 격식 있는","화가 난","슬픈"],
+     opts:["슬픈","일상적이고 가벼운","문학적이고 격식 있는","화가 난"],
      ans:"문학적이고 격식 있는",
      hint:"This adverb has an elegant, slightly old-fashioned quality. It appears more in writing and refined speech than casual conversation."},
 

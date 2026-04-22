@@ -1,4 +1,4 @@
-// Unit 30 — Objectif DELF B2
+// Unit 30. Objectif DELF B2
 // Exam prep, comprehensive review, and C1 preview
 
 import COVERAGE_U30 from './_coverage_u30.js';

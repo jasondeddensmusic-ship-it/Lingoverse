@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"ずっと", src:"the whole time"}
     ]},
 
-    {type:"mc", q:"What is the difference between 三時(さんじ) and 三時間(さんじかん)?", opts:["三時(さんじ) is 3 o'clock, 三時間(さんじかん) is 3 hours","They mean the same thing","三時(さんじ) is formal, 三時間(さんじかん) is casual","三時(さんじ) is morning, 三時間(さんじかん) is afternoon"], ans:"三時(さんじ) is 3 o'clock, 三時間(さんじかん) is 3 hours",
+    {type:"mc", q:"What is the difference between 三時(さんじ) and 三時間(さんじかん)?", opts:["三時(さんじ) is morning, 三時間(さんじかん) is afternoon","三時(さんじ) is 3 o'clock, 三時間(さんじかん) is 3 hours","They mean the same thing","三時(さんじ) is formal, 三時間(さんじかん) is casual"], ans:"三時(さんじ) is 3 o'clock, 三時間(さんじかん) is 3 hours",
      hint:"The suffix 間(かん) turns a time point into a duration."}
   ,{type:"match",pairs:[{trg:"しばらく",src:"for a while / for some time"},{trg:"〜間(かん)",src:"duration counter (for hours/weeks/months)"}]}]
 };

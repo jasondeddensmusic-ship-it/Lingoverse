@@ -1,4 +1,4 @@
-// Korean B2 — Batch 4, Lesson 1: Opening and Improving
+// Korean B2. Batch 4, Lesson 1: Opening and Improving
 // Words: 개방되다, 개방하다, 개별, 개선되다, 개선하다, 개성, 객관적, 거꾸로, 거대하다, 거두다, 거들다, 거듭, 거부하다, 거액, 거절하다, 거짓, 거치다, 거칠다, 거품, 걱정되다
 
 const LESSON_1 = {
@@ -95,7 +95,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'거대하다'는 어떤 의미인가요?",
-     opts:["매우 큰","매우 작은","매우 빠른","매우 오래된"],
+     opts:["매우 오래된","매우 큰","매우 작은","매우 빠른"],
      ans:"매우 큰",
      hint:"The Hanja 巨 means giant and 大 means big. Both characters point to impressive size."},
 
@@ -156,7 +156,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"'거치다'는 어떤 의미인가요?",
-     opts:["과정을 통과하다","거짓말하다","거절하다","거꾸로 가다"],
+     opts:["거절하다","거꾸로 가다","과정을 통과하다","거짓말하다"],
      ans:"과정을 통과하다",
      hint:"This verb describes moving through stages or stopping at a place along the way."},
 

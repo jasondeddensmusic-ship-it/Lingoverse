@@ -72,7 +72,7 @@ const LESSON_2 = {id:"esv2_b2g6_l2",title:"Medios y comunicación",icon:"📡",x
  exampleSrc:"A: My sister works as a freelance illustrator.\nB: For what type of publications?",
  funFact:"Spain has a strong tradition of comic illustration, especially in Barcelona's underground scene."},
 
-{type:"mc",q:"¿Qué es una coproducción?",opts:["Un proyecto realizado entre varios productores","Un periódico local","Una entrevista en televisión","Un tipo de publicidad"],ans:"Un proyecto realizado entre varios productores",hint:"The prefix 'co-' means together. Multiple parties producing something jointly."},
+{type:"mc",q:"¿Qué es una coproducción?",opts:["Un tipo de publicidad","Un proyecto realizado entre varios productores","Un periódico local","Una entrevista en televisión"],ans:"Un proyecto realizado entre varios productores",hint:"The prefix 'co-' means together. Multiple parties producing something jointly."},
 
 {type:"match",pairs:[
   {trg:"diario digital",src:"online newspaper"},

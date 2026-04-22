@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: This plan has many advantages. But the risks are also high.\nB: That is true.\nA: So let us consider it a bit more.\nB: I agree.",
      funFact:"だが is the written cousin of しかし. It appears in novels, newspaper editorials, and formal essays. In fiction, characters who speak with だが sound serious and authoritative. Narrators love だが for dramatic pivots: 'Everything seemed peaceful. だが, a shadow was approaching.' It adds literary weight to contrast."},
 
-    {type:"mc", q:"Which is the MOST formal contrast connector?", opts:["でも","しかし","しかしながら","けど"], ans:"しかしながら",
+    {type:"mc", q:"Which is the MOST formal contrast connector?", opts:["しかしながら","けど","でも","しかし"], ans:"しかしながら",
      hint:"This very formal form adds ながら (while/even though) to the standard formal contrast word."},
 
     {type:"teach", trg:"かいふく", src:"recovery / restoration", pos:"noun", gender:null,
@@ -76,7 +76,7 @@ const LESSON_3 = {
     {type:"fb", s:"にほんごをべんきょうしている{1}、まだうまくはなせません。\n(Although I am studying Japanese, I still cannot speak well.)", a:"ものの", opts:["ものの","けれど","しかし","だが"], sSrc:"Although I am studying Japanese, I still cannot speak well.",
      hint:"The literary clause-internal connector meaning 'although' or 'despite the fact that.'"},
 
-    {type:"mc", q:"けれども, けれど, and けど are:", opts:["Three different meanings","The same word at different formality levels","Only used in writing","Only used in questions"], ans:"The same word at different formality levels",
+    {type:"mc", q:"けれども, けれど, and けど are:", opts:["Only used in questions","Three different meanings","The same word at different formality levels","Only used in writing"], ans:"The same word at different formality levels",
      hint:"They form a scale from formal to casual, with speakers choosing based on the situation."},
 
     {type:"match", pairs:[{trg:"つづける",src:"to continue"},{trg:"かいふく",src:"recovery"},{trg:"しかし",src:"however"},{trg:"ものの",src:"although"}]},

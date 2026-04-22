@@ -1,4 +1,4 @@
-// Korean V2 Unit 45 — B1 Final: Health, Quantity, Daily Life, Final Words
+// Korean V2 Unit 45. B1 Final: Health, Quantity, Daily Life, Final Words
 import L18 from './_temp_b1fin_L18.js';
 import L19 from './_temp_b1fin_L19.js';
 import L20 from './_temp_b1fin_L20.js';

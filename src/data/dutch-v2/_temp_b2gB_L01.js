@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 01 — Klimaat en Duurzaamheid
+// Dutch B2 gapB Lesson 01. Klimaat en Duurzaamheid
 // Climate, sustainability, and environmental vocabulary
 
 const LESSON_1 = {id:"nlv2_b2gB_l1", title:"Klimaat en Duurzaamheid", icon:"\u{1F30D}", xp:25, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_1 = {id:"nlv2_b2gB_l1", title:"Klimaat en Duurzaamheid", icon:"\u{1
   text:"After the devastating 1953 flood that killed 1,836 people, the Netherlands built the Delta Works: one of the largest flood protection systems in the world.\n\nThe Maeslantkering near Rotterdam is a storm surge barrier that can close automatically when sea levels rise above 3 meters. It is one of the largest moving structures on Earth.\n\nThis engineering heritage gives the Dutch a unique perspective on climate adaptation: they don't just talk about prevention, they build solutions."}},
 
 {type:"mc", q:"Wat betekent 'de klimaatverandering'?",
- opts:["The weather forecast","Climate change","A climate expert","The seasons"],
+ opts:["Climate change","A climate expert","The seasons","The weather forecast"],
  ans:"Climate change",
  hint:"Compound: klimaat + verandering. What is changing globally?"},
 
@@ -70,7 +70,7 @@ const LESSON_1 = {id:"nlv2_b2gB_l1", title:"Klimaat en Duurzaamheid", icon:"\u{1
  sSrc:"The {1} warns about drought this year."},
 
 {type:"mc", q:"'De kringloop' kan twee dingen betekenen. Welke?",
- opts:["A cycle and a thrift store","A bicycle and a lake","A ring and a loop","A newspaper and a website"],
+ opts:["A newspaper and a website","A cycle and a thrift store","A bicycle and a lake","A ring and a loop"],
  ans:"A cycle and a thrift store",
  hint:"Think natural processes AND second-hand shopping"},
 
@@ -87,7 +87,7 @@ const LESSON_1 = {id:"nlv2_b2gB_l1", title:"Klimaat en Duurzaamheid", icon:"\u{1
 ]},
 
 {type:"mc", q:"Welk woord past? 'Er is een ... gaande in het denken over klimaat.'",
- opts:["kentering","kringloop","ecoplan","klimaatsceptici"],
+ opts:["ecoplan","klimaatsceptici","kentering","kringloop"],
  ans:"kentering",
  hint:"A nautical term meaning the tide is turning, used for societal shifts"},
 

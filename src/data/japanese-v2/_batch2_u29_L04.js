@@ -79,7 +79,7 @@ const BATCH2_L_4 = {
 
     {type:"match", pairs:[{trg:"終身(しゅうしん)雇用(こよう)",src:"lifetime employment"},{trg:"非正規(ひせいき)",src:"non-regular"},{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work style reform"},{trg:"福利厚生(ふくりこうせい)",src:"employee benefits"}]},
 
-    {type:"mc", q:"過労死(かろうし) means:", opts:["Career change","Death from overwork","Retirement age","Minimum wage"], ans:"Death from overwork",
+    {type:"mc", q:"過労死(かろうし) means:", opts:["Minimum wage","Career change","Death from overwork","Retirement age"], ans:"Death from overwork",
      hint:"This Japanese term shocked the world and became a driving force behind labor reform laws."},
   {type:"match",pairs:[{trg:"給料(きゅうりょう)",src:"salary / pay"}]}]
 };

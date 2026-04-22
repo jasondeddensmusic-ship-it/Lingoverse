@@ -1,4 +1,4 @@
-// L08: Education and Learning — 20 B1 gap words
+// L08: Education and Learning, 20 B1 gap words
 const LESSON_8 = {
   id:"nlv2_b1gap_l8", title:"Onderwijs en Leren", icon:"\u{1F393}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Je wilt je inschrijven voor een cursus. Wat moet je invullen?",
-     opts:["een aanmeldingsformulier","een afkorting","een alinea","een adviesbureau"],
+     opts:["een adviesbureau","een aanmeldingsformulier","een afkorting","een alinea"],
      ans:"een aanmeldingsformulier",
      hint:"Think about the paper or online document you complete to sign up for something."},
 
@@ -144,7 +144,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Een student heeft slechte cijfers en moet extra werken om bij te komen. Hij heeft een ___.",
-     opts:["achterstand","achtergrond","afleiding","attitude"],
+     opts:["afleiding","attitude","achterstand","achtergrond"],
      ans:"achterstand",
      hint:"Think about being behind where you should be academically."}
   ]

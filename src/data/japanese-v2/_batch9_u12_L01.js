@@ -67,7 +67,7 @@ const BATCH9_L1 = {
       {trg:"身(み)に付(つ)ける", src:"to acquire a skill"}
     ]},
 
-    {type:"mc", q:"Which verb is used specifically for playing piano or guitar?", opts:["弾(ひ)く","叩(たた)く","吹(ふ)く","歌(うた)う"], ans:"弾(ひ)く",
+    {type:"mc", q:"Which verb is used specifically for playing piano or guitar?", opts:["歌(うた)う","弾(ひ)く","叩(たた)く","吹(ふ)く"], ans:"弾(ひ)く",
      hint:"This verb is for string and keyboard instruments. Drums and wind instruments use different verbs."}
   ,{type:"fb", s:"田中(たなか)さんは日本語(にほんご)が{1}ですね。本当(ほんとう)に流暢(りゅうちょう)です。",
     a:["上手(じょうず)"],

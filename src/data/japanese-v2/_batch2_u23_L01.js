@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: If you make effort, you will surely succeed.\nB: I believe that and will do my best.\nA: What did you eat?\nB: I ate the local specialty.",
      funFact:"努力 is one of Japan's most valued concepts. Japanese culture emphasizes effort over innate talent: 努力(どりょく)する人(ひと) (a person who makes effort) is more admired than a natural genius. The phrase 努力(どりょく)は裏切(うらぎ)らない (doryoku wa uragiranai, effort does not betray) is a beloved motivational saying."},
 
-    {type:"mc", q:"責任(せきにん)を取(と)る in Japanese corporate culture often means:", opts:["Getting a promotion","Taking responsibility, often by resigning","Avoiding blame","Starting a new project"], ans:"Taking responsibility, often by resigning",
+    {type:"mc", q:"責任(せきにん)を取(と)る in Japanese corporate culture often means:", opts:["Taking responsibility, often by resigning","Avoiding blame","Starting a new project","Getting a promotion"], ans:"Taking responsibility, often by resigning",
      hint:"In Japanese business, accepting r... for failure o... requires leaving your position."},
 
     {type:"teach", trg:"経験(けいけん)", src:"experience", pos:"noun", gender:null,
@@ -66,7 +66,7 @@ const BATCH2_L_1 = {
      exampleSrc:"A: I achieved my goal!\nB: Congratulations! It is the result of effort.\nA: That is nice.\nB: Yes, it was very fun.",
      funFact:"達成 combines 達(たつ) (reach/achieve) and 成(なり) (complete/become). Goal achievement (目標達成(もくひょうたっせい)) is celebrated in Japanese organizations with ceremonies and recognition. The phrase 達成感(たっせいかん) (tasseikan, sense of achievement) describes the deeply satisfying feeling of completing something difficult."},
 
-    {type:"mc", q:"目的(もくてき) means:", opts:["Problem","Method","Purpose/objective","Result"], ans:"Purpose/objective",
+    {type:"mc", q:"目的(もくてき) means:", opts:["Method","Purpose/objective","Result","Problem"], ans:"Purpose/objective",
      hint:"This word combines '目(め)' (eye) and '的(てき)' (target), meaning what you are aiming at or why you are doing something."},
 
     {type:"tip", title:"Abstract Nouns for Discussion",
@@ -81,7 +81,7 @@ const BATCH2_L_1 = {
 
     {type:"match", pairs:[{trg:"経験(けいけん)",src:"experience"},{trg:"目的(もくてき)",src:"purpose"},{trg:"価値(かち)",src:"value/worth"},{trg:"影響(えいきょう)",src:"influence"}]},
 
-    {type:"mc", q:"努力(どりょく)は裏切(うらぎ)らない is a popular saying meaning:", opts:["Effort is useless","Effort does not betray (hard work always pays off)","Effort is betrayal","Only talent matters"], ans:"Effort does not betray (hard work always pays off)",
+    {type:"mc", q:"努力(どりょく)は裏切(うらぎ)らない is a popular saying meaning:", opts:["Only talent matters","Effort is useless","Effort does not betray (hard work always pays off)","Effort is betrayal"], ans:"Effort does not betray (hard work always pays off)",
      hint:"This beloved motivational phrase reflects Japan's cultural emphasis on e... over natural talent."},
   ]
 };

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 3, Lesson 14: Overcoming and Origins
+// Korean B2. Batch 3, Lesson 14: Overcoming and Origins
 // Words: 그전, 그제서야, 그제야, 그토록, 그해, 극, 극복, 극복하다, 극작가, 극히, 근거하다, 근교, 근래, 근로, 근본, 근본적, 근원, 근육, 글쎄요, 글씨
 
 const LESSON_14 = {
@@ -119,7 +119,7 @@ const LESSON_14 = {
 
     {type:"mc",
      q:"'근본'과 의미가 가장 비슷한 것은?",
-     opts:["뿌리","결과","표면","끝"],
+     opts:["끝","뿌리","결과","표면"],
      ans:"뿌리",
      hint:"This word describes the deepest foundation, like the roots of a tree that support everything above."},
 

@@ -1,4 +1,4 @@
-// Korean V2 B1 Gap Lesson 15 — Tools, Preparation, and Repair
+// Korean V2 B1 Gap Lesson 15. Tools, Preparation, and Repair
 // 20 teach cards + interleaved quizzes. Max 30 steps.
 
 const LESSON_15 = {
@@ -36,7 +36,7 @@ const LESSON_15 = {
     // ── Quiz batch 1 ──
     {type:"mc",
      q:"행사 장소가 이미 ___.",
-     opts:["마련했어요","만들어졌어요","꾸몄어요","마련됐어요"],
+     opts:["마련됐어요","마련했어요","만들어졌어요","꾸몄어요"],
      ans:"마련됐어요",
      hint:"The event venue has already been arranged. Which passive form means 'was prepared'?"},
 

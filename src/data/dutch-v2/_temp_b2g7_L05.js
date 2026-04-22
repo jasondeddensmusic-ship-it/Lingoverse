@@ -100,7 +100,7 @@ const LESSON_5 = {
      funFact:"Dutch uses both 'intens' and 'intensief'. 'Intens' describes feelings and experiences, 'intensief' describes processes and programmes. Subtle but real."},
     {type:"mc",
      q:"Wat betekent 'ter inzage liggen'?",
-     opts:["Beschikbaar zijn om te bekijken","Klaar zijn om te verkopen","Op het punt staan te verdwijnen","Beschikbaar zijn om te lenen"],
+     opts:["Beschikbaar zijn om te lenen","Beschikbaar zijn om te bekijken","Klaar zijn om te verkopen","Op het punt staan te verdwijnen"],
      ans:"Beschikbaar zijn om te bekijken",
      hint:"'Inzage' comes from 'in' + 'zien' (to see). 'Ter inzage' means available for what kind of access?"},
     {type:"fb",
@@ -118,7 +118,7 @@ const LESSON_5 = {
     ]},
     {type:"mc",
      q:"Welk woord past? 'Het was een ... week met veel emoties.'",
-     opts:["intense","intellectuele","innovatieve","inactieve"],
+     opts:["innovatieve","inactieve","intense","intellectuele"],
      ans:"intense",
      hint:"Which adjective describes something full of strong feelings and experiences? From Latin 'intensus'."}
   ]

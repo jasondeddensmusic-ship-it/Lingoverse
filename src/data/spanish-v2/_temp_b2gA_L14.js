@@ -1,4 +1,4 @@
-// Lesson 14 — Filosofía y ética
+// Lesson 14. Filosofía y ética
 const LESSON_14 = {id:"esv2_b2gA_l14", title:"Filosofía y ética", icon:"⚖️", xp:15, board:true, steps:[
 {type:"intro", title:"Filosofía y ética", desc:"Engage with vocabulary for discussing philosophical ideas, ethics, and moral reasoning.", goals:["Learn 15 philosophy and ethics terms","Discuss abstract moral concepts","Use intellectual vocabulary with precision"]},
 
@@ -57,7 +57,7 @@ const LESSON_14 = {id:"esv2_b2gA_l14", title:"Filosofía y ética", icon:"⚖️
  exampleSrc:"A: I use mnemonic techniques to memorize vocabulary.\nB: What technique works best for you?\nA: Associating words with mental images.",
  funFact:"The ancient Greeks invented elaborate mnemonic systems. The 'memory palace' is the most famous."},
 
-{type:"mc", q:"¿Qué es la 'llaneza'?", opts:["Sencillez y naturalidad al hablar o actuar","Un tipo de terreno plano","Una forma de cocinar","Una prenda de vestir"], ans:"Sencillez y naturalidad al hablar o actuar",
+{type:"mc", q:"¿Qué es la 'llaneza'?", opts:["Una prenda de vestir","Sencillez y naturalidad al hablar o actuar","Un tipo de terreno plano","Una forma de cocinar"], ans:"Sencillez y naturalidad al hablar o actuar",
  hint:"From 'llano' (plain, flat). Applied to character, it means unpretentious simplicity."},
 
 {type:"fb", s:"Las técnicas de {1} ayudan a recordar listas largas.", a:["mnemotecnia"], opts:["mnemotecnia","evangelización","llaneza","filosofía"],
@@ -94,7 +94,7 @@ const LESSON_14 = {id:"esv2_b2gA_l14", title:"Filosofía y ética", icon:"⚖️
  hint:"This chess term is used figuratively to mean putting something in jeopardy.",
  sSrc:"The political situation has put the government's stability in {1}."},
 
-{type:"mc", q:"¿De qué idioma viene la palabra 'jaque'?", opts:["Del árabe, a través del persa","Del latín","Del francés","Del inglés"], ans:"Del árabe, a través del persa",
+{type:"mc", q:"¿De qué idioma viene la palabra 'jaque'?", opts:["Del francés","Del inglés","Del árabe, a través del persa","Del latín"], ans:"Del árabe, a través del persa",
  hint:"Chess terminology in Spanish came through Arabic during the Moorish period."},
 
 {type:"drag_fill", s:"La {1} del agua es necesaria para eliminar las {2}.", blanks:{"1":"purificación","2":"impurezas"}, pool:["purificación","impurezas","llaneza","mnemotecnia"],

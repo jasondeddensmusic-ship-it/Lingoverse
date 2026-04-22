@@ -76,7 +76,7 @@ const LESSON_12 = {
      sSrc:"My {1} experienced both world wars."},
 
     {type:"mc", q:"En France, le primaire correspond a quels ages?",
-     opts:["6 a 11 ans","3 a 6 ans","11 a 15 ans","15 a 18 ans"],
+     opts:["15 a 18 ans","6 a 11 ans","3 a 6 ans","11 a 15 ans"],
      ans:"6 a 11 ans",
      hint:"This level comes after maternelle and before college"},
 
@@ -93,7 +93,7 @@ const LESSON_12 = {
      sSrc:"We built it {1}, without help."},
 
     {type:"mc", q:"Qu'est-ce que 'la cohabitation' en politique francaise?",
-     opts:["Un president et un premier ministre de partis differents","Deux partis qui fusionnent","Un gouvernement de coalition","Des elections simultanees"],
+     opts:["Un gouvernement de coalition","Des elections simultanees","Un president et un premier ministre de partis differents","Deux partis qui fusionnent"],
      ans:"Un president et un premier ministre de partis differents",
      hint:"This uniquely French political situation occurs when executive power is shared"},
 
@@ -103,7 +103,7 @@ const LESSON_12 = {
      sSrc:"The baccalaureat {1} lasts twenty minutes."},
 
     {type:"mc", q:"Le mot 'assiste' est souvent utilise de maniere:",
-     opts:["Pejorative","Positive","Neutre","Scientifique"],
+     opts:["Positive","Neutre","Scientifique","Pejorative"],
      ans:"Pejorative",
      hint:"This term for welfare recipients often carries a negative connotation in political debate"},
 

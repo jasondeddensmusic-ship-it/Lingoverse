@@ -13,7 +13,7 @@ const LESSON_1 = {id:"esv2_b2g7_l1",title:"Legislar y gobernar",icon:"📜",xp:1
 {type:"teach",trg:"la imparcialidad",src:"the impartiality",pos:"noun",gender:"f",note:"Being fair and not favoring one side. Essential in legal contexts.",example:"A: Un juez debe actuar con imparcialidad.\nB: La imparcialidad es fundamental para la justicia.",exampleSrc:"A: A judge must act with impartiality.\nB: Impartiality is fundamental for justice.",funFact:"From 'im-' (not) + 'parcial' (biased). The prefix 'im-' negates the root, just like in English."},
 {type:"mc",q:"¿Qué rama del gobierno crea las leyes?",opts:["El poder legislativo","El poder ejecutivo","El poder judicial","El poder militar"],ans:"El poder legislativo",hint:"This branch is specifically about making and passing laws."},
 {type:"fb",s:"Las Cortes Generales son las encargadas de {1} en España.",a:["legislar"],opts:["legislar","gobernar","juzgar","ejecutar"],hint:"This verb specifically means to create laws.",sSrc:"The Cortes Generales are responsible for {1} in Spain."},
-{type:"mc",q:"¿Cuánto dura el mandato del presidente del Gobierno en España?",opts:["Cuatro años","Cinco años","Seis años","Dos años"],ans:"Cuatro años",hint:"It matches the standard European parliamentary cycle."},
+{type:"mc",q:"¿Cuánto dura el mandato del presidente del Gobierno en España?",opts:["Dos años","Cuatro años","Cinco años","Seis años"],ans:"Cuatro años",hint:"It matches the standard European parliamentary cycle."},
 {type:"fb",s:"Un juez debe actuar con total {1} ante cualquier caso.",a:["imparcialidad"],opts:["imparcialidad","imposición","legitimidad","legislación"],hint:"This noun means fairness and not taking sides.",sSrc:"A judge must act with total {1} in any case."},
 {type:"match",pairs:[
   {trg:"la legislación",src:"the legislation"},
@@ -22,8 +22,8 @@ const LESSON_1 = {id:"esv2_b2g7_l1",title:"Legislar y gobernar",icon:"📜",xp:1
   {trg:"el manifestante",src:"the protester"},
   {trg:"la imparcialidad",src:"the impartiality"}
 ]},
-{type:"mc",q:"Miles de manifestantes se reunieron en la plaza. ¿Qué hacían?",opts:["Protestar por sus derechos","Celebrar una fiesta","Comprar en el mercado","Esperar el autobús"],ans:"Protestar por sus derechos",hint:"Manifestantes gather publicly to express collective demands."},
+{type:"mc",q:"Miles de manifestantes se reunieron en la plaza. ¿Qué hacían?",opts:["Comprar en el mercado","Esperar el autobús","Protestar por sus derechos","Celebrar una fiesta"],ans:"Protestar por sus derechos",hint:"Manifestantes gather publicly to express collective demands."},
 {type:"fb",s:"La {1} de este gobierno depende del apoyo popular.",a:["legitimidad"],opts:["legitimidad","legislación","imposición","imparcialidad"],hint:"This noun describes whether a government is accepted as rightful.",sSrc:"The {1} of this government depends on popular support."},
-{type:"mc",q:"Una 'imposición fiscal' es:",opts:["Un tipo de carga tributaria","Un regalo del gobierno","Una elección democrática","Una protesta ciudadana"],ans:"Un tipo de carga tributaria",hint:"Think of taxes and obligations placed on citizens."}
+{type:"mc",q:"Una 'imposición fiscal' es:",opts:["Un regalo del gobierno","Una elección democrática","Una protesta ciudadana","Un tipo de carga tributaria"],ans:"Un tipo de carga tributaria",hint:"Think of taxes and obligations placed on citizens."}
 ]};
 export default LESSON_1;

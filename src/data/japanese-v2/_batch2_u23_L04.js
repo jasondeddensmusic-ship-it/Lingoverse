@@ -66,7 +66,7 @@ const BATCH2_L_4 = {
      exampleSrc:"A: Every time I hear this song, I remember the past.\nB: It is a song full of memories.\nA: What was the best part?\nB: The food was the most delicious.",
      funFact:"たび (度) means 'time/occasion.' As a formal noun, it creates a recurring pattern: action X happens every time condition Y occurs. It is more literary than 毎回(まいかい) (every time) and often carries emotional weight. この町(まち)を訪(おとず)れるたびに (every time I visit this town) suggests a meaningful repeated connection."},
 
-    {type:"mc", q:"寝不足(ねぶそく)のせいで頭(あたま)が痛(いた)い uses せい because:", opts:["The result is negative (headache caused by poor sleep)","The speaker is grateful for sleep","The result is positive","The speaker is uncertain about the cause"], ans:"The result is negative (headache caused by poor sleep)",
+    {type:"mc", q:"寝不足(ねぶそく)のせいで頭(あたま)が痛(いた)い uses せい because:", opts:["The speaker is uncertain about the cause","The result is negative (headache caused by poor sleep)","The speaker is grateful for sleep","The result is positive"], ans:"The result is negative (headache caused by poor sleep)",
      hint:"せい attributes blame for bad outcomes, unlike おかげ which gives credit for good ones."},
 
     {type:"teach", trg:"思(おも)い出(で)", src:"memory / memories / recollection", pos:"noun", gender:null,

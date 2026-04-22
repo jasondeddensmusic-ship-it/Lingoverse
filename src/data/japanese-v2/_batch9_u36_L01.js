@@ -62,7 +62,7 @@ const BATCH9_L1 = {
 
     {type:"match", pairs:[{trg:"革新(かくしん)",src:"innovation"},{trg:"スタートアップ",src:"startup"},{trg:"地方創生(ちほうそうせい)",src:"regional creation"},{trg:"働(はたら)き方改革(かたかいかく)",src:"work style reform"}]},
 
-    {type:"mc", q:"Which word means vision of the future?", opts:["未来像(みらいぞう)","子育(こそだ)て支援(しえん)","スタートアップ","インバウンド"], ans:"未来像(みらいぞう)",
+    {type:"mc", q:"Which word means vision of the future?", opts:["インバウンド","未来像(みらいぞう)","子育(こそだ)て支援(しえん)","スタートアップ"], ans:"未来像(みらいぞう)",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"ソサエティ",src:"Society 5.0"}]}]
 };

@@ -67,7 +67,7 @@ const LESSON_3 = {id:"frv2_b2gC_l3", title:"Psychologie et comportement", icon:"
 
 {type:"mc",
  q:"Que signifie 'la grossièreté' ?",
- opts:["Un comportement impoli ou vulgaire","Un excès de gentillesse","Une grande peur","Un manque de courage"],
+ opts:["Un manque de courage","Un comportement impoli ou vulgaire","Un excès de gentillesse","Une grande peur"],
  ans:"Un comportement impoli ou vulgaire",
  hint:"From grossier. The opposite of politesse. Think of coarse, rude behavior."},
 
@@ -87,7 +87,7 @@ const LESSON_3 = {id:"frv2_b2gC_l3", title:"Psychologie et comportement", icon:"
 
 {type:"mc",
  q:"Quelle méthode pédagogique est basée sur l'autonomie de l'enfant ?",
- opts:["la pédagogie Montessori","la pédagogie classique","la pédagogie militaire","la pédagogie passive"],
+ opts:["la pédagogie militaire","la pédagogie passive","la pédagogie Montessori","la pédagogie classique"],
  ans:"la pédagogie Montessori",
  hint:"Named after an Italian educator. This approach lets children learn at their own pace."},
 
@@ -105,7 +105,7 @@ const LESSON_3 = {id:"frv2_b2gC_l3", title:"Psychologie et comportement", icon:"
 
 {type:"mc",
  q:"Quel suffixe français forme des noms de traits de caractère comme 'petitesse' ?",
- opts:["-esse","-tion","-ment","-eur"],
+ opts:["-tion","-ment","-eur","-esse"],
  ans:"-esse",
  hint:"A five-letter suffix that creates abstract feminine nouns from adjectives describing qualities and states of mind."}
 

@@ -1,4 +1,4 @@
-// Lesson 1 — Medios de comunicación
+// Lesson 1. Medios de comunicación
 const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰", xp:15, board:true, steps:[
 {type:"intro", title:"Medios de comunicación", desc:"Master vocabulary for discussing media, journalism, and the press in the digital age.", goals:["Learn 15 media and journalism words","Discuss news sources and reliability","Use formal register for media topics"]},
 
@@ -69,7 +69,7 @@ const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰
  exampleSrc:"A: Is there censorship in the press in your country?\nB: Not officially, but there are pressures.",
  funFact:"Spain abolished press censorship in 1978 with the new Constitution after Franco."},
 
-{type:"mc", q:"¿Qué hace un periodista de investigación?", opts:["Investiga y publica historias ocultas","Lee las noticias en televisión","Escribe novelas de ficción","Vende periódicos en la calle"], ans:"Investiga y publica historias ocultas",
+{type:"mc", q:"¿Qué hace un periodista de investigación?", opts:["Vende periódicos en la calle","Investiga y publica historias ocultas","Lee las noticias en televisión","Escribe novelas de ficción"], ans:"Investiga y publica historias ocultas",
  hint:"This type of journalist goes beyond daily reporting to uncover hidden facts and expose wrongdoing."},
 
 {type:"fb", s:"Las agencias de prensa {1} las noticias a todos los medios.", a:["difunden"], opts:["difunden","censuran","redactan","titulan"],
@@ -100,7 +100,7 @@ const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰
  hint:"This word refers to the number of people watching a show.",
  sSrc:"The {1} of the nine o'clock show has dropped by twenty percent."},
 
-{type:"mc", q:"¿Qué es 'la prensa amarilla'?", opts:["La prensa sensacionalista","Un periódico impreso en papel amarillo","Una revista de moda","Un tipo de papel reciclado"], ans:"La prensa sensacionalista",
+{type:"mc", q:"¿Qué es 'la prensa amarilla'?", opts:["Una revista de moda","Un tipo de papel reciclado","La prensa sensacionalista","Un periódico impreso en papel amarillo"], ans:"La prensa sensacionalista",
  hint:"This colorful expression refers to tabloids that exaggerate for effect."},
 
 {type:"teach", trg:"la imparcialidad", src:"impartiality", pos:"noun", gender:"f",
@@ -119,7 +119,7 @@ const LESSON_1 = {id:"esv2_b2gA_l1", title:"Medios de comunicación", icon:"📰
  hint:"This verb means to verify facts by checking multiple sources.",
  sSrc:"It is essential to {1} the information before publishing it."},
 
-{type:"mc", q:"¿Cuál es un principio fundamental del periodismo?", opts:["La imparcialidad","El sensacionalismo","La censura","La exageración"], ans:"La imparcialidad",
+{type:"mc", q:"¿Cuál es un principio fundamental del periodismo?", opts:["El sensacionalismo","La censura","La exageración","La imparcialidad"], ans:"La imparcialidad",
  hint:"Good journalism requires fairness and an absence of bias."},
 
 {type:"drag_fill", s:"El {1} publicó un {2} sobre la crisis migratoria.", blanks:{"1":"corresponsal","2":"reportaje"}, pool:["corresponsal","reportaje","censura","titular"],

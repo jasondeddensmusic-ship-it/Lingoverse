@@ -1,4 +1,4 @@
-// L01: Shopping and Deals — 20 B1 gap words
+// L01: Shopping and Deals, 20 B1 gap words
 const LESSON_1 = {
   id:"nlv2_b1gap_l1", title:"Koopjes en Aanbiedingen", icon:"\u{1F6D2}", xp:15, board:true,
   steps:[
@@ -87,7 +87,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Je wilt de trein elke dag nemen. Wat heb je nodig?",
-     opts:["een abonnement","een afslag","een aanbieding","een accijns"],
+     opts:["een accijns","een abonnement","een afslag","een aanbieding"],
      ans:"een abonnement",
      hint:"Think about what regular travelers buy to save money on repeated trips."},
 
@@ -138,7 +138,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Je krijgt een brief omdat je een rekening niet hebt betaald. Wat is dit?",
-     opts:["een aanmaning","een aanbieding","een aankoop","een abonnement"],
+     opts:["een aankoop","een abonnement","een aanmaning","een aanbieding"],
      ans:"een aanmaning",
      hint:"Think about the formal notice you receive when a bill is overdue."},
 

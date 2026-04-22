@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 08 (Places) — more buildings, asking directions, position words
+// Batch 2 expansion for Unit 08 (Places), more buildings, asking directions, position words
 const BATCH2_L_1 = {
   id:"jav2_u08l_b2_1", title:"町(まち)の中(なか)", icon:"🏙️", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: Is there a pharmacy nearby?\nB: Yes, it is next to that convenience store.",
    funFact:"薬局(やっきょく) handles prescriptions, while ドラッグストア (drug store) chains like Matsumoto Kiyoshi sell over-the-counter medicine, cosmetics, and snacks. Drug stores are extremely popular tourist destinations for their unique Japanese health and beauty products."},
 
-  {type:"mc", q:"図書館(としょかん) means:", opts:["bookshop","library","museum","school"], ans:"library",
+  {type:"mc", q:"図書館(としょかん) means:", opts:["library","museum","school","bookshop"], ans:"library",
    hint:"The 'picture-book-building' where you borrow books and study quietly."},
 
   {type:"teach", trg:"レストラン", src:"restaurant", pos:"noun", gender:null,
@@ -84,7 +84,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: There is a taxi stand at the south exit.\nB: Thank you.",
    funFact:"南 depicts a plant growing inside a shelter, suggesting warmth and growth associated with the south. Southern Japan (九州(きゅうしゅう), 沖縄(おきなわ)) is warmer and more tropical. 南(みなみ) appears in many place names: 南区(みなみく) (South Ward) exists in most major cities."},
 
-  {type:"mc", q:"道(みち) means:", opts:["bridge","river","road","mountain"], ans:"road",
+  {type:"mc", q:"道(みち) means:", opts:["river","road","mountain","bridge"], ans:"road",
    hint:"The word for a path or street, also meaning 'the way' in philosophical contexts."},
 
   {type:"match", pairs:[{trg:"図書館(としょかん)",src:"library"},{trg:"博物館(はくぶつかん)",src:"museum"},{trg:"薬局(やっきょく)",src:"pharmacy"},{trg:"レストラン",src:"restaurant"}]},

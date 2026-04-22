@@ -1,4 +1,4 @@
-// French V2 Unit 46 — B2 Vocabulary Batch 2
+// French V2 Unit 46. B2 Vocabulary Batch 2
 import L16 from './_temp_b2g2_L16.js';
 import L17 from './_temp_b2g2_L17.js';
 import L18 from './_temp_b2g2_L18.js';

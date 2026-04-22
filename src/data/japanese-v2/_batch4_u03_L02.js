@@ -1,4 +1,4 @@
-// Batch 4 — Unit 03 Lesson 2: Stationery & Everyday Objects
+// Batch 4. Unit 03 Lesson 2: Stationery & Everyday Objects
 const BATCH4_L_2 = {
   id:"jav2_u03l_b4_2", title:"文房具(ぶんぼうぐ)", icon:"✏️", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What does 辞書(じしょ) mean?",
-     opts:["dictionary","textbook","novel","newspaper"], ans:"dictionary",
+     opts:["newspaper","dictionary","textbook","novel"], ans:"dictionary",
      hint:"A book or app where you look up words and their meanings."},
 
     {type:"fb", s:"わからないことばを{1}で調(しら)べます。", a:"辞書(じしょ)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The reference tool specifically for finding word meanings."},
 
     {type:"mc", q:"切手(きって) means:",
-     opts:["postage stamp","envelope","letter","postcard"], ans:"postage stamp",
+     opts:["letter","postcard","postage stamp","envelope"], ans:"postage stamp",
      hint:"The small adhesive piece you stick on mail for delivery."},
 
     {type:"mc", q:"What does 調(しら)べる mean?",
-     opts:["to look up","to write","to read","to forget"], ans:"to look up",
+     opts:["to write","to read","to forget","to look up"], ans:"to look up",
      hint:"To investigate or research something you do not know."}
   ,{type:"match",pairs:[{trg:"ボールペン",src:"ballpoint pen"},{trg:"のり",src:"glue"},{trg:"物差(ものさ)し",src:"ruler"},{trg:"封筒(ふうとう)",src:"envelope"},{trg:"切手(きって)",src:"postage stamp"},{trg:"ハンカチ",src:"handkerchief"}]},{type:"match",pairs:[{trg:"手帳(てちょう)",src:"planner / pocket diary"},{trg:"調(しら)べる",src:"to look up / investigate"}]}]
 };

@@ -1,4 +1,4 @@
-// Batch 4 — Unit 08 Lesson 2: Position Words & Prepositions
+// Batch 4. Unit 08 Lesson 2: Position Words & Prepositions
 const BATCH4_L_2 = {
   id:"jav2_u08l_b4_2", title:"位置(いち)と方向(ほうこう)", icon:"🧭", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"まっすぐ means:",
-     opts:["straight ahead","turn left","turn right","go back"], ans:"straight ahead",
+     opts:["go back","straight ahead","turn left","turn right"], ans:"straight ahead",
      hint:"The direction where you do not turn at all."},
 
     {type:"fb", s:"{1}を右(みぎ)に曲(ま)がってください。", a:"突(つ)き当(あ)たり",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The point where a road ends and you cannot go further."},
 
     {type:"mc", q:"What is the difference between 隅(すみ) and 角(かど)?",
-     opts:["sumi is inside corner, kado is outside corner","they are the same","sumi is bigger","kado is indoors only"], ans:"sumi is inside corner, kado is outside corner",
+     opts:["sumi is bigger","kado is indoors only","sumi is inside corner, kado is outside corner","they are the same"], ans:"sumi is inside corner, kado is outside corner",
      hint:"One is concave (i... a room), the other convex (street intersection)."},
 
     {type:"mc", q:"こちらへどうぞ means:",
-     opts:["this way please","that way please","go straight","turn around"], ans:"this way please",
+     opts:["that way please","go straight","turn around","this way please"], ans:"this way please",
      hint:"A polite invitation to follow someone in this direction."}
   ,{type:"match",pairs:[{trg:"隣(となり)",src:"next to / beside"},{trg:"近(ちか)く",src:"nearby / in the vicinity"},{trg:"周(まわ)り",src:"around / surroundings"},{trg:"手前(てまえ)",src:"this side of / in front of (closer)"},{trg:"端(はし)",src:"edge / end / bridge"},{trg:"こちら",src:"this way / this direction (polite)"}]},{type:"match",pairs:[{trg:"まっすぐ",src:"straight ahead"},{trg:"角(かど)",src:"(outside) corner / street corner"}]}]
 };

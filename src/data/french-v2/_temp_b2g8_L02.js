@@ -80,7 +80,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Comment dit-on 'voir le problème dans son ensemble' ?",
-     opts:["dans sa globalité","dans sa norme","dans sa division","dans sa maisonnée"],
+     opts:["dans sa maisonnée","dans sa globalité","dans sa norme","dans sa division"],
      ans:"dans sa globalité",
      hint:"The word means the complete scope or entirety. Not about standards or splitting."},
 
@@ -119,7 +119,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot désigne quelqu'un qui reçoit des aides sociales ?",
-     opts:["un assisté","un modéré","un natif","un communiste"],
+     opts:["un natif","un communiste","un assisté","un modéré"],
      ans:"un assisté",
      hint:"From 'assister' meaning to assist. Often used in debates about social welfare."},
 

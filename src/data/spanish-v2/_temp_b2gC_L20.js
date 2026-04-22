@@ -66,7 +66,7 @@ const LESSON_20 = {id:"esv2_b2gC_l20",title:"Conceptos abstractos",icon:"📜",x
  exampleSrc:"A: Passivity in the face of injustice is also a form of injustice.\nB: We must act when we see something wrong.",
  funFact:"In Spanish grammar, 'pasividad' relates to the passive voice. In ethics, it describes moral inaction."},
 
-{type:"mc",q:"¿De qué idioma viene la palabra 'laúd'?",opts:["Del árabe","Del griego","Del latín","Del italiano"],ans:"Del árabe",hint:"This instrument's name comes from al-ud, a word in the language of the Moors who ruled Spain."},
+{type:"mc",q:"¿De qué idioma viene la palabra 'laúd'?",opts:["Del italiano","Del árabe","Del griego","Del latín"],ans:"Del árabe",hint:"This instrument's name comes from al-ud, a word in the language of the Moors who ruled Spain."},
 
 {type:"fb",s:"Siempre va vestida {1}, con las últimas tendencias.",a:["a la moda"],opts:["a la moda","a la vez","a partir de","a pesar de"],hint:"A phrase meaning fashionably, following current trends in clothing and style.",sSrc:"She always dresses {1}, with the latest trends."},
 

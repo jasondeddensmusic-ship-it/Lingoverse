@@ -1,4 +1,4 @@
-// Batch 6 — Unit 32 extra lesson. La globalizzazione: Migration & Identity
+// Batch 6. Unit 32 extra lesson. La globalizzazione: Migration & Identity
 const BATCH6_L1 = {id:"itv2_u32l_b6_1", title:"Migrazione e identità", icon:"\u{1F30F}", xp:15, board:true, steps:[
 {type:"intro", title:"Migrazione e identità",
  desc:"Learn advanced vocabulary for discussing migration, cultural identity, and integration in a globalized world.",
@@ -88,7 +88,7 @@ const BATCH6_L1 = {id:"itv2_u32l_b6_1", title:"Migrazione e identità", icon:"\u
  {trg:"la diaspora", src:"diaspora"}
 ]},
 {type:"mc", q:"Cos'e il 'permesso di soggiorno'?",
- opts:["A residence permit for non-EU citizens","A travel document","A work contract","A health insurance card"],
+ opts:["A health insurance card","A residence permit for non-EU citizens","A travel document","A work contract"],
  ans:"A residence permit for non-EU citizens",
  hint:"The essential document that allows foreigners to legally reside in Italy."},
 {type:"fb", s:"L'Italia deve {1} chi fugge dalla guerra e dalla persecuzione.", a:["accogliere"],
@@ -96,7 +96,7 @@ const BATCH6_L1 = {id:"itv2_u32l_b6_1", title:"Migrazione e identità", icon:"\u
  hint:"The verb meaning 'to welcome' or 'to take in.' A core Italian hospitality value.",
  sSrc:"Italy must {1} those fleeing from war and persecution."},
 {type:"mc", q:"Cosa significa 'sradicamento'?",
- opts:["Being torn from one's roots and homeland","Moving to a new house","Starting a new job","Traveling abroad"],
+ opts:["Starting a new job","Traveling abroad","Being torn from one's roots and homeland","Moving to a new house"],
  ans:"Being torn from one's roots and homeland",
  hint:"Literally 'un-rooting.' The painful experience of displacement from home."},
 {type:"fb", s:"La {1} tra culture diverse arricchisce la società.", a:["convivenza"],

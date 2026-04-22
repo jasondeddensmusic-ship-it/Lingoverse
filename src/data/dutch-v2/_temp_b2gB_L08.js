@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 08 — Kleding en Stijl
+// Dutch B2 gapB Lesson 08. Kleding en Stijl
 // Clothing, fashion, and textile vocabulary
 
 const LESSON_8 = {id:"nlv2_b2gB_l8", title:"Kleding en Stijl", icon:"\u{1F457}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_8 = {id:"nlv2_b2gB_l8", title:"Kleding en Stijl", icon:"\u{1F457}",
  funFact:"The Dutch value 'kernachtig' communication. Long-winded speeches are poorly received. Get to the point is the cultural motto."},
 
 {type:"mc", q:"'De kledij' is:",
- opts:["A clothing store","Attire (formal word)","A fashion designer","A textile factory"],
+ opts:["Attire (formal word)","A fashion designer","A textile factory","A clothing store"],
  ans:"Attire (formal word)",
  hint:"A more f... or literary w... for clothing, used especially in Belgian Dutch"},
 
@@ -82,7 +82,7 @@ const LESSON_8 = {id:"nlv2_b2gB_l8", title:"Kleding en Stijl", icon:"\u{1F457}",
 ]},
 
 {type:"mc", q:"'Kernachtig' betekent:",
- opts:["Nuclear","Concise and to the point","Loud","Colorful"],
+ opts:["Colorful","Nuclear","Concise and to the point","Loud"],
  ans:"Concise and to the point",
  hint:"From 'kern' (core). Getting to the core of the matter without extra words."},
 

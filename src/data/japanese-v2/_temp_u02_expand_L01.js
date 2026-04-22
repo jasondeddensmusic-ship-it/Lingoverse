@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: What is your dream?\nB: I want to become a chef.",
      funFact:"Like many food-related words, kokku came from Dutch traders. Japan now has the most Michelin-starred restaurants in the world, surpassing even France. Tokyo alone has more than Paris."},
 
-    {type:"mc", q:"かんごし means:", opts:["police officer","nurse","cook","teacher"], ans:"nurse",
+    {type:"mc", q:"かんごし means:", opts:["nurse","cook","teacher","police officer"], ans:"nurse",
      hint:"The person who watches over and protects patients at a hospital."},
 
     {type:"teach", trg:"うんてんし", src:"driver", pos:"noun", gender:null,
@@ -104,10 +104,10 @@ const LESSON_3 = {
      hint:"The general word for a business organization or corporation.",
      sSrc:"I work at an IT company."},
 
-    {type:"mc", q:"Which job title came from Dutch?", opts:["プログラマー","コック","エンジニア","シェフ"], ans:"コック",
+    {type:"mc", q:"Which job title came from Dutch?", opts:["シェフ","プログラマー","コック","エンジニア"], ans:"コック",
      hint:"This cooking-related word arrived with Dutch traders during the Edo period."},
 
-    {type:"mc", q:"びようし works at:", opts:["A hospital","A school","A beauty salon","A police station"], ans:"A beauty salon",
+    {type:"mc", q:"びようし works at:", opts:["A police station","A hospital","A school","A beauty salon"], ans:"A beauty salon",
      hint:"The kanji contains 'b...' and 'appearance.'"},
   ]
 };

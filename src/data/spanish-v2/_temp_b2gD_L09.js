@@ -68,10 +68,10 @@ const LESSON_9 = {id:"esv2_b2gD_l9",title:"Arquitectura y lugares",icon:"\uD83C\
  {trg:"paredón",src:"thick wall"}
 ]},
 
-{type:"mc",q:"'Poner pegas' significa...",opts:["Encontrar problemas o defectos","Construir un muro","Organizar una fiesta","Decorar una casa"],ans:"Encontrar problemas o defectos",hint:"An expression about finding fault or highlighting drawbacks. Related to 'la pega' (snag)."},
+{type:"mc",q:"'Poner pegas' significa...",opts:["Decorar una casa","Encontrar problemas o defectos","Construir un muro","Organizar una fiesta"],ans:"Encontrar problemas o defectos",hint:"An expression about finding fault or highlighting drawbacks. Related to 'la pega' (snag)."},
 
 {type:"fb",s:"Una {1} de árboles bordeaba la entrada al jardín.",a:["hilera"],opts:["hilera","pasarela","pega","base"],hint:"A straight line of objects arranged in order, like trees lining a path.",sSrc:"A {1} of trees lined the entrance to the garden."},
 
-{type:"mc",q:"¿Qué es una pasarela en el mundo de la moda?",opts:["La plataforma donde desfilan los modelos","Una tienda de ropa exclusiva","Un tipo de tela muy fina","Un complemento para el pelo"],ans:"La plataforma donde desfilan los modelos",hint:"The elevated walkway in fashion shows where models display clothing collections."}
+{type:"mc",q:"¿Qué es una pasarela en el mundo de la moda?",opts:["Un tipo de tela muy fina","Un complemento para el pelo","La plataforma donde desfilan los modelos","Una tienda de ropa exclusiva"],ans:"La plataforma donde desfilan los modelos",hint:"The elevated walkway in fashion shows where models display clothing collections."}
 ]};
 export default LESSON_9;

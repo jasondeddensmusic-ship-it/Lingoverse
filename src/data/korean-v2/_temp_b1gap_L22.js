@@ -40,7 +40,7 @@ const LESSON_22 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'된장찌개를 끓이고 있어요'에서 왜 '끓이다'를 써요?",
-     opts:["찌개가 스스로 끓으니까","사람이 찌개를 만드니까","찌개가 이미 끓었으니까","끓다가 더 정중하니까"],
+     opts:["사람이 찌개를 만드니까","찌개가 이미 끓었으니까","끓다가 더 정중하니까","찌개가 스스로 끓으니까"],
      ans:"사람이 찌개를 만드니까",
      hint:"Consider the difference between intransitive and causative. Someone is actively making the stew."},
 
@@ -131,7 +131,7 @@ const LESSON_22 = {
     // --- Quiz batch 3 ---
     {type:"mc",
      q:"'고춧가루'는 무엇을 뜻해요?",
-     opts:["고추로 만든 가루","마늘로 만든 가루","밀로 만든 가루","쌀로 만든 가루"],
+     opts:["쌀로 만든 가루","고추로 만든 가루","마늘로 만든 가루","밀로 만든 가루"],
      ans:"고추로 만든 가루",
      hint:"Break the compound apart: 고추 is the chili pepper, and 가루 means powder. Combine them."},
 
@@ -190,7 +190,7 @@ const LESSON_22 = {
 
     {type:"mc",
      q:"'달걀'과 같은 뜻의 한자어는?",
-     opts:["소주","계란","밀가루","식용유"],
+     opts:["식용유","소주","계란","밀가루"],
      ans:"계란",
      hint:"A Sino-Korean word using the characters for chicken and egg. Both words mean the same thing.",
      }

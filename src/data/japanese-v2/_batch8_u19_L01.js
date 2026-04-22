@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"かもしれない",src:"might/perhaps"},{trg:"はずがない",src:"there is no way"},{trg:"ばかり",src:"only/nothing but"},{trg:"わけにはいかない",src:"cannot possibly"},{trg:"ようにする",src:"try to/make sure to"}],
      hint:"Match each grammar expression with its English meaning."},
 
-    {type:"mc", q:"What does 猿(さる)も木(き)から落(お)ちる mean?", opts:["Even experts make mistakes","Monkeys are bad at climbing","Do not climb trees","Trees are dangerous for monkeys"], ans:"Even experts make mistakes",
+    {type:"mc", q:"What does 猿(さる)も木(き)から落(お)ちる mean?", opts:["Trees are dangerous for monkeys","Even experts make mistakes","Monkeys are bad at climbing","Do not climb trees"], ans:"Even experts make mistakes",
      hint:"The monkey, a master tree-climber, falling illustrates that no one is perfect."},
 
     {type:"fb", s:"雨(あめ)が降(ふ)る{1}。傘(かさ)を持(も)っていこう。\n(It might rain. Let us bring an umbrella.)", a:"かもしれない", opts:["かもしれない","はずがない","わけがない","にちがいない"], sSrc:"It might rain. Let us bring an umbrella.",
      hint:"This phrase expresses uncertainty and possibility."},
 
-    {type:"mc", q:"What is the most casual way to say 'must'?", opts:["なきゃ / なくちゃ","なければなりません","ないといけない","しなさい"], ans:"なきゃ / なくちゃ",
+    {type:"mc", q:"What is the most casual way to say 'must'?", opts:["ないといけない","しなさい","なきゃ / なくちゃ","なければなりません"], ans:"なきゃ / なくちゃ",
      hint:"This is the shortened form used between close friends in everyday speech."}
   ,{type:"fb", s:"試験(しけん)に合格(ごうかく)するためには毎日(まいにち)勉強(べんきょう)し{1}です。",
      a:["なければならない"],

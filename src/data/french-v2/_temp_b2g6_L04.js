@@ -80,7 +80,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Que représente 'la laïcité' en France ?",
-     opts:["La séparation de l'État et de la religion","La liberté de la presse","Le droit de vote universel","L'éducation gratuite"],
+     opts:["L'éducation gratuite","La séparation de l'État et de la religion","La liberté de la presse","Le droit de vote universel"],
      ans:"La séparation de l'État et de la religion",
      hint:"A foundational French value about keeping religious and state affairs separate."},
 
@@ -131,7 +131,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Que fait-on quand on 'localise' quelque chose ?",
-     opts:["On trouve sa position exacte","On le déplace","On le détruit","On le mesure"],
+     opts:["On le détruit","On le mesure","On trouve sa position exacte","On le déplace"],
      ans:"On trouve sa position exacte",
      hint:"Think of GPS technology. This verb means finding where something is."},
 

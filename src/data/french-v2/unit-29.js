@@ -1,4 +1,4 @@
-// Unit 29 — Proverbes, Expressions et Littérature
+// Unit 29. Proverbes, Expressions et Littérature
 // Figurative language and literary French
 
 export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Expressions et Littérature",sub:"Figurative language and literary French",icon:"📚",level:"B2.5",color:"#7B5EE8",lessons:[

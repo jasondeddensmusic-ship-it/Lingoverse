@@ -1,4 +1,4 @@
-// Unit 29 — Refranes y Modismos
+// Unit 29. Refranes y Modismos
 // Proverbs, Idioms & Figurative Language
 
 export default {n:29,lang:"es",srcLang:"en",track:"v2",title:"Refranes y Modismos",sub:"Proverbs, Idioms & Figurative Language",icon:"🎭",level:"B2.2",color:"#7B5EE8",lessons:[
@@ -223,9 +223,9 @@ export default {n:29,lang:"es",srcLang:"en",track:"v2",title:"Refranes y Modismo
     {type:"mc",q:"Two sides in a dispute both give up something to reach an agreement. This is:",opts:["un malentendido","un compromiso","un conflicto sin resolver","una disculpa falsa"],ans:"un compromiso",hint:"When both parties give a little and gain a little, they reach this type of agreement."},
     {type:"fb",opts:["disculparme","perdonarme","mediarme","resolverme"],hint:"The reflexive verb for offering an apology, first person singular.",s:"Quiero {1} por lo que dije ayer.",a:"disculparme"},
     {type:"fb",opts:["malentendido","conflicto","compromiso","acuerdo"],hint:"This noun describes a situation arising from something being wrongly understood.",s:"Todo empezó por un simple {1} sobre el horario.",a:"malentendido"},
-    {type:"mc",q:"Your friend says 'No lo hice a propósito, fue un malentendido.' You want to restore the relationship. You say:",opts:["Te perdono, no te preocupes.","Debes mediar mejor.","El compromiso no existe.","El conflicto es tuyo."],ans:"Te perdono, no te preocupes.",hint:"After an apology is offered, restoring the relationship requires this verb."},
+    {type:"mc",q:"Your friend says 'No lo hice a propósito, fue un malentendido.' You want to restore the relationship. You say:",opts:["El compromiso no existe.","El conflicto es tuyo.","Te perdono, no te preocupes.","Debes mediar mejor."],ans:"Te perdono, no te preocupes.",hint:"After an apology is offered, restoring the relationship requires this verb."},
     {type:"drag_fill",hint:"The mediator helped both sides reach an agreement.",s:"El mediador ayudó a {1} el {2} y llegar a un compromiso.",blanks:{"1":"resolver","2":"conflicto"},pool:["resolver","conflicto","perdonar","malentendido"]},
     {type:"fb",opts:["resolver","mediar","perdonar","disculparse"],hint:"This verb means to find a solution and bring a problem to a satisfactory end.",s:"El director quiere {1} el conflicto antes del viernes.",a:"resolver"},
-    {type:"mc",q:"Which sequence represents the healthiest conflict resolution path?",opts:["disculparse, perdonar, llegar a un compromiso","mediar, ignorar el conflicto, resolver","conflicto, malentendido, más conflicto","perdonar sin disculparse, mediar solo"],ans:"disculparse, perdonar, llegar a un compromiso",hint:"Healthy resolution starts with an apology, then forgiveness, then a mutual agreement."}
+    {type:"mc",q:"Which sequence represents the healthiest conflict resolution path?",opts:["mediar, ignorar el conflicto, resolver","conflicto, malentendido, más conflicto","perdonar sin disculparse, mediar solo","disculparse, perdonar, llegar a un compromiso"],ans:"disculparse, perdonar, llegar a un compromiso",hint:"Healthy resolution starts with an apology, then forgiveness, then a mutual agreement."}
   ]}
 ]};

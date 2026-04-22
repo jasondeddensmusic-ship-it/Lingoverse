@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: I want slightly shorter trousers.\nB: How about these?",
      funFact:"短(みじか)い describes both physical length and time: 短(みじか)い命(いのち) (a short life) is a poetic phrase. In fashion, Japanese street style boldly mixes 長(なが)い and 短(みじか)い. Harajuku fashion often features unexpected length combinations."},
 
-    {type:"mc", q:"似合(にあ)う describes:", opts:["Something that suits or looks good on you","Something that is too big","Something that is expensive","Something that is the wrong color"], ans:"Something that suits or looks good on you",
+    {type:"mc", q:"似合(にあ)う describes:", opts:["Something that is the wrong color","Something that suits or looks good on you","Something that is too big","Something that is expensive"], ans:"Something that suits or looks good on you",
      hint:"This verb means a g... match between a person and what they wear."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"もう少(すこ)し大(おお)きい{1}はありますか？\n(Do you have a slightly bigger size?)", a:"サイズ", opts:["サイズ","色(いろ)","形(かたち)","値段(ねだん)"], sSrc:"Do you have a slightly bigger size?",
      hint:"The katakana loanword for how big or small something is."},
 
-    {type:"mc", q:"What must you do before entering a Japanese home?", opts:["Take off your shoes (靴(くつ)を脱(ぬ)ぐ)","Bow three times","Say a prayer","Wash your hands"], ans:"Take off your shoes (靴(くつ)を脱(ぬ)ぐ)",
+    {type:"mc", q:"What must you do before entering a Japanese home?", opts:["Say a prayer","Wash your hands","Take off your shoes (靴(くつ)を脱(ぬ)ぐ)","Bow three times"], ans:"Take off your shoes (靴(くつ)を脱(ぬ)ぐ)",
      hint:"Japanese homes require removing footwear at the genkan (entryway)."}
   ,{type:"match",pairs:[{trg:"シャツ",src:"shirt"},{trg:"ズボン",src:"trousers / pants"},{trg:"着(き)てみる",src:"to try wearing"},{trg:"長(なが)い",src:"long"},{trg:"短(みじか)い",src:"short (length)"}]},
   {type:"fb", s:"日本(にほん)の家(いえ)では玄関(げんかん)で{1}を脱(ぬ)ぎます。", a:["靴(くつ)"], opts:["靴(くつ)","シャツ","ズボン","服(ふく)"], hint:"The footwear removed at the entrance of a Japanese home.", sSrc:"In Japanese homes, you take off your {1} at the entrance."}

@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 18: Return and Reflection
+// Korean B2. Batch 2, Lesson 18: Return and Reflection
 // Words: 동창, 동포, 동행, 동화책, 되돌리다, 되돌아가다, 되돌아보다, 되돌아오다, 되살리다, 되찾다, 되풀이되다, 되풀이하다, 된장, 된장찌개, 두께, 두뇌, 두드러지다, 두려움, 두려워하다, 두렵다
 
 const LESSON_18 = {
@@ -113,7 +113,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"'되찾다'의 뜻으로 맞는 것은?",
-     opts:["잃었던 것을 다시 찾다","처음으로 찾다","남에게 주다","버리고 가다"],
+     opts:["버리고 가다","잃었던 것을 다시 찾다","처음으로 찾다","남에게 주다"],
      ans:"잃었던 것을 다시 찾다",
      hint:"To find again what was previously lost. The 되- prefix means 'back/again.'"},
 

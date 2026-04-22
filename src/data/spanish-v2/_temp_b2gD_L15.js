@@ -68,10 +68,10 @@ const LESSON_15 = {id:"esv2_b2gD_l15",title:"Ley y gobierno",icon:"\u2696\uFE0F"
  {trg:"mercado común",src:"common market"}
 ]},
 
-{type:"mc",q:"'Dar de alta' en un hospital significa...",opts:["Permitir que el paciente se vaya a casa","Ingresar al paciente","Operar al paciente","Recetar medicamentos"],ans:"Permitir que el paciente se vaya a casa",hint:"When a doctor decides a patient is well enough to leave the hospital."},
+{type:"mc",q:"'Dar de alta' en un hospital significa...",opts:["Recetar medicamentos","Permitir que el paciente se vaya a casa","Ingresar al paciente","Operar al paciente"],ans:"Permitir que el paciente se vaya a casa",hint:"When a doctor decides a patient is well enough to leave the hospital."},
 
 {type:"fb",s:"El primer punto del {1} es la aprobación del presupuesto anual.",a:["orden del día"],opts:["orden del día","empleo estatal","banco mundial","mercado común"],hint:"The formal list of topics to be discussed at a meeting.",sSrc:"The first item on the {1} is the approval of the annual budget."},
 
-{type:"mc",q:"España entró en el Mercado Común Europeo en...",opts:["1986","1975","1992","2002"],ans:"1986",hint:"The year Spain joined the European economic community, over a decade after Franco's death."}
+{type:"mc",q:"España entró en el Mercado Común Europeo en...",opts:["1992","2002","1986","1975"],ans:"1986",hint:"The year Spain joined the European economic community, over a decade after Franco's death."}
 ]};
 export default LESSON_15;

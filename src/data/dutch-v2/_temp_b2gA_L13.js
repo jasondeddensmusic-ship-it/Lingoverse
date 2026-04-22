@@ -1,4 +1,4 @@
-// B2 Gap Batch A — Lesson 13: Technologie & Innovatie
+// B2 Gap Batch A. Lesson 13: Technologie & Innovatie
 // Theme: Technology, engineering, digital age
 
 const LESSON_13 = {id:"nlv2_b2gA_l13", title:"Technologie & Innovatie", icon:"\u{1F4BB}", xp:40, board:true, steps:[
@@ -58,7 +58,7 @@ const LESSON_13 = {id:"nlv2_b2gA_l13", title:"Technologie & Innovatie", icon:"\u
    sSrc:"The dynamics of the tech sector are enormous."},
 
   {type:"mc", q:"We zoeken een ervaren informaticus. Wat is een 'informaticus'?",
-   opts:["a computer scientist","an information desk worker","a librarian","a journalist"],
+   opts:["a journalist","a computer scientist","an information desk worker","a librarian"],
    ans:"a computer scientist",
    hint:"From informatica (c... science). Someone who works with computers professionally."},
 
@@ -77,7 +77,7 @@ const LESSON_13 = {id:"nlv2_b2gA_l13", title:"Technologie & Innovatie", icon:"\u
   ]},
 
   {type:"mc", q:"Helium wordt gebruikt voor ballonnen en MRI-scanners. Wat is 'helium'?",
-   opts:["a chemical element, a light gas","a type of fuel","a metal alloy","a medical instrument"],
+   opts:["a metal alloy","a medical instrument","a chemical element, a light gas","a type of fuel"],
    ans:"a chemical element, a light gas",
    hint:"Named after the Greek sun god Helios. The g... that makes balloons float."},
 

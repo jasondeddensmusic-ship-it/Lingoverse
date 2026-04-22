@@ -104,7 +104,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Comment appelle-t-on une personne qui ne renonce jamais ?",
-     opts:["Un battant","Un cancre","Un abruti","Un chapardeur"],
+     opts:["Un chapardeur","Un battant","Un cancre","Un abruti"],
      ans:"Un battant",
      hint:"From 'battre' (to fight). A go-getter who keeps pushing through obstacles."},
 
@@ -143,7 +143,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot d\u00e9signe l'audace ou le toupet de quelqu'un ?",
-     opts:["Le culot","Le cancre","L'attirail","L'aspirant"],
+     opts:["L'attirail","L'aspirant","Le culot","Le cancre"],
      ans:"Le culot",
      hint:"Slang for bold impudence. Originally meant the bottom of a bottle."}
   ]

@@ -32,7 +32,7 @@ const LESSON_17 = {id:"esv2_b2gap_l17",title:"Cuestiones sociales",icon:"📢",x
  exampleSrc:"A: The district hospital serves the entire rural area.\nB: It is the closest one for five villages.",
  funFact:"A 'comarca' is an administrative unit between a municipality and a province. Unique to Spain."},
 
-{type:"mc",q:"'Tirar por la borda' significa:",opts:["Pescar en el mar","Desperdiciar algo valioso","Navegar con cuidado","Construir un barco"],ans:"Desperdiciar algo valioso",hint:"Figuratively throwing something valuable overboard, wasting it."},
+{type:"mc",q:"'Tirar por la borda' significa:",opts:["Desperdiciar algo valioso","Navegar con cuidado","Construir un barco","Pescar en el mar"],ans:"Desperdiciar algo valioso",hint:"Figuratively throwing something valuable overboard, wasting it."},
 
 {type:"teach",trg:"asistencial",src:"welfare / care-related",pos:"adj",gender:null,
  note:"Adjective. Related to social assistance or healthcare.",
@@ -112,13 +112,13 @@ const LESSON_17 = {id:"esv2_b2gap_l17",title:"Cuestiones sociales",icon:"📢",x
 
 {type:"fb",s:"Los datos de la investigación deben ser {1} por otros expertos.",a:["comprobables"],opts:["comprobables","asistenciales","asociativos","comarcales"],hint:"Able to be verified or checked by other researchers.",sSrc:"The research data must be {1} by other experts."},
 
-{type:"mc",q:"'Nos complace anunciar' es una frase:",opts:["Muy informal","Muy formal","De uso deportivo","Coloquial"],ans:"Muy formal",hint:"This is how official announcements begin in Spanish."},
+{type:"mc",q:"'Nos complace anunciar' es una frase:",opts:["Coloquial","Muy informal","Muy formal","De uso deportivo"],ans:"Muy formal",hint:"This is how official announcements begin in Spanish."},
 
 {type:"match",pairs:[{trg:"cinismo",src:"cynicism"},{trg:"afluencia",src:"influx"},{trg:"alumnado",src:"student body"},{trg:"colista",src:"last-place team"},{trg:"adefesio",src:"eyesore"}]},
 
 {type:"fb",s:"El {1} de la liga logró una victoria histórica.",a:["colista"],opts:["colista","colegiado","cinismo","alumnado"],hint:"The team at the very bottom of the league standings.",sSrc:"The {1} of the league achieved a historic victory."},
 
-{type:"mc",q:"'Servicios asistenciales' se refieren a:",opts:["Tiendas de lujo","Servicios de atención social y sanitaria","Restaurantes","Escuelas privadas"],ans:"Servicios de atención social y sanitaria",hint:"Welfare and healthcare services for the community."}
+{type:"mc",q:"'Servicios asistenciales' se refieren a:",opts:["Restaurantes","Escuelas privadas","Tiendas de lujo","Servicios de atención social y sanitaria"],ans:"Servicios de atención social y sanitaria",hint:"Welfare and healthcare services for the community."}
 ]};
 
 export default LESSON_17;

@@ -277,7 +277,7 @@ const UNIT_15 = {
        text:"Relative pronouns connect two sentences about the same thing or person.\n\nche = who, that, which (subject or direct object):\nL'appartamento che ho affittato. (The apartment that I rented.)\nLa persona che parla. (The person who is speaking.)\nChe never changes form.\n\ncui = whom, which (used AFTER a preposition):\nL'agenzia con cui lavoro. (The agency I work with.)\nLa citta in cui vivo. (The city where I live.)\nIl motivo per cui mi sono trasferito. (The reason why I moved.)\n\ncui for possession (article + cui = whose):\nL'amico il cui appartamento e grande. (The friend whose apartment is big.)\n\nFormal alternative: il/la quale (which/who, agrees in gender and number):\nLa persona con la quale lavoro. (same as con cui, more formal)",
        icon:"💡",
        deepDive:{title:"Che vs. cui: the key rule",
-        text:"The distinction is simple once you see the logic. Che covers subject and direct object functions — no preposition involved. Cui covers all other functions — always preceded by a preposition (di, a, da, in, con, su, per, tra). If you can replace the pronoun with 'him/her/it' directly, use che. If the pronoun needs a preposition ('with it,' 'in which,' 'for whom'), use cui. Colloquial Italian sometimes drops the preposition before cui: 'il motivo cui mi sono trasferito' (the reason I moved) instead of 'per cui.' Both are understood."}},
+        text:"The distinction is simple once you see the logic. Che covers subject and direct object functions, no preposition involved. Cui covers all other functions, always preceded by a preposition (di, a, da, in, con, su, per, tra). If you can replace the pronoun with 'him/her/it' directly, use che. If the pronoun needs a preposition ('with it,' 'in which,' 'for whom'), use cui. Colloquial Italian sometimes drops the preposition before cui: 'il motivo cui mi sono trasferito' (the reason I moved) instead of 'per cui.' Both are understood."}},
 
       // Quiz steps
       {type:"mc", q:"What does 'trasferirsi' mean?",
@@ -380,7 +380,7 @@ const UNIT_15 = {
         text:"Italy's administrative complexity reflects its history. The unified Italian state is relatively young (1861), and different regions brought different legal traditions. Post-war Italy added layers of welfare-state paperwork. The result is a system with high procedural formality but also regional variation. Reforms since the 1990s have moved many services online. The SPID (Sistema Pubblico di Identita Digitale) is a unified digital identity now required for most government portals. Getting your SPID is itself a rite of passage for residents."}},
 
       {type:"mc", q:"Where do you go to officially register your address in Italy?",
-       opts:["La questura","L'anagrafe","Il tribunale","La biblioteca"],
+       opts:["L'anagrafe","Il tribunale","La biblioteca","La questura"],
        ans:"L'anagrafe",
        hint:"This office handles births, deaths, marriages, and address registration. Every Italian town has one.",
        answerSrc:"The civil registry office"},
@@ -430,7 +430,7 @@ const UNIT_15 = {
        sSrc:"I have to {1} for an hour at the counter without an appointment."},
 
       {type:"mc", q:"What does 'prendere la residenza' mean in Italy?",
-       opts:["Applying for Italian citizenship","Picking up a parcel at the post office","Registering your address with the civil registry","Taking out a mortgage on a property"],
+       opts:["Picking up a parcel at the post office","Registering your address with the civil registry","Taking out a mortgage on a property","Applying for Italian citizenship"],
        ans:"Registering your address with the civil registry",
        hint:"The anagrafe is where Italian residents file their location. This phrase describes the act of doing that filing."}
     ]}
@@ -500,7 +500,7 @@ const UNIT_15 = {
         text:"'Necessario' appears most often in impersonal constructions: 'e necessario + infinitive' and 'e necessario che + subjunctive.' The infinitive form is simpler and more common in B1 speech: 'E necessario studiare' (It is necessary to study). The subjunctive form is more formal: 'E necessario che tu studi' (It is necessary that you study). At B1, mastering the infinitive construction is the priority. The subjunctive version is B1/B2 territory and appears later."}},
 
       {type:"mc", q:"What does 'il significato' mean?",
-       opts:["The signal","The meaning","The sign","The signature"],
+       opts:["The meaning","The sign","The signature","The signal"],
        ans:"The meaning",
        hint:"Related to 'significare' (to mean). You ask 'Qual e il significato?' when you want to know what something means."},
 
@@ -511,7 +511,7 @@ const UNIT_15 = {
        sSrc:"It is {1} to study every day to learn well."},
 
       {type:"mc", q:"Which sentence uses 'principale' correctly?",
-       opts:["Il problema e principale difficile.","Il problema principali e la mancanza di fondi.","Il problema principale e la mancanza di fondi.","Il principale problema e la mancanza di fondi principale."],
+       opts:["Il problema principali e la mancanza di fondi.","Il problema principale e la mancanza di fondi.","Il principale problema e la mancanza di fondi principale.","Il problema e principale difficile."],
        ans:"Il problema principale e la mancanza di fondi.",
        hint:"This adjective follows the noun and does not change for gender. Look for the sentence where it appears in singular form, correctly placed after the noun."},
 
@@ -566,12 +566,12 @@ const UNIT_15 = {
       ]},
 
       {type:"mc", q:"Which verb is most appropriate when journalists research and uncover hidden facts?",
-       opts:["sperimentare","esaminare","investigare","spiegare"],
+       opts:["spiegare","sperimentare","esaminare","investigare"],
        ans:"investigare",
        hint:"This verb comes from Latin 'vestigium' (footprint). Think of following a trail of evidence."},
 
       {type:"mc", q:"What is the gender of 'la sostenibilità'?",
-       opts:["Masculine","Feminine","Neuter","It depends on context"],
+       opts:["Feminine","Neuter","It depends on context","Masculine"],
        ans:"Feminine",
        hint:"The article 'la' is a strong clue. Look at the ending of the noun: all Italian abstract nouns ending in -ta belong to the same grammatical category."},
 

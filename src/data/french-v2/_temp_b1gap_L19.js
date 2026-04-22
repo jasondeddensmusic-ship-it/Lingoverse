@@ -92,7 +92,7 @@ const LESSON_19 = {id:"frv2_b1gap_l19", title:"Amour et relations", icon:"\u{276
 
 {type:"mc",
  q:"Quel mot désigne à la fois un anneau de mariage et un accord politique ?",
- opts:["une alliance","une affection","une attirance","une amitié"],
+ opts:["une amitié","une alliance","une affection","une attirance"],
  ans:"une alliance",
  hint:"This word covers both a wedding ring and a military/political pact. Marriage is one form of this."},
 
@@ -143,7 +143,7 @@ const LESSON_19 = {id:"frv2_b1gap_l19", title:"Amour et relations", icon:"\u{276
 
 {type:"mc",
  q:"Quel nom composé désigne l'estime de soi qui peut être blessée ?",
- opts:["l'amour-propre","l'amour-fou","l'amour-passion","l'amour-libre"],
+ opts:["l'amour-passion","l'amour-libre","l'amour-propre","l'amour-fou"],
  ans:"l'amour-propre",
  hint:"Rousseau contrasted this with healthy self-love. It's about pride and how others see you."}
 

@@ -1,4 +1,4 @@
-// Korean V2 Unit 41 — B1 Vocabulary Expansion: Health, Adverbs, Compound Verbs, Measures & Expressions
+// Korean V2 Unit 41. B1 Vocabulary Expansion: Health, Adverbs, Compound Verbs, Measures & Expressions
 import L36 from './_temp_b1gap_L36.js';
 import L37 from './_temp_b1gap_L37.js';
 import L38 from './_temp_b1gap_L38.js';

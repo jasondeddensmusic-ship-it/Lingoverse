@@ -84,7 +84,7 @@ const LESSON_8 = {id:"esv2_b2gap_l8",title:"Acciones y cambio I",icon:"🔄",xp:
  exampleSrc:"A: The news distressed the entire family.\nB: Fortunately, everything was resolved well.",
  funFact:"From Latin angustia (narrowness). Anguish feels like the world closing in on you."},
 
-{type:"mc",q:"'Alardear de algo' significa:",opts:["Presumir de ello","Preocuparse por ello","Esconderlo","Regalarlo"],ans:"Presumir de ello",hint:"Showing off or bragging about a possession or achievement."},
+{type:"mc",q:"'Alardear de algo' significa:",opts:["Regalarlo","Presumir de ello","Preocuparse por ello","Esconderlo"],ans:"Presumir de ello",hint:"Showing off or bragging about a possession or achievement."},
 
 {type:"teach",trg:"apenar",src:"to sadden / to cause sorrow",pos:"verb",gender:null,
  note:"Regular -ar verb. To make someone feel sad.\nReflexive: apenarse.",
@@ -118,13 +118,13 @@ const LESSON_8 = {id:"esv2_b2gap_l8",title:"Acciones y cambio I",icon:"🔄",xp:
 
 {type:"fb",s:"Se {1} por la ventana y vio que llovía a cántaros.",a:["asomó"],opts:["asomó","angustió","apenó","atormentó"],hint:"To peek or lean out from a window to look outside.",sSrc:"He/she {1} out of the window and saw it was pouring."},
 
-{type:"mc",q:"¿Qué significa 'asimilar una noticia'?",opts:["Rechazarla","Procesarla y aceptarla","Difundirla","Inventarla"],ans:"Procesarla y aceptarla",hint:"To take in the information and come to terms with it."},
+{type:"mc",q:"¿Qué significa 'asimilar una noticia'?",opts:["Inventarla","Rechazarla","Procesarla y aceptarla","Difundirla"],ans:"Procesarla y aceptarla",hint:"To take in the information and come to terms with it."},
 
 {type:"match",pairs:[{trg:"acontecer",src:"to happen"},{trg:"alardear",src:"to boast"},{trg:"angustiar",src:"to distress"},{trg:"asomar",src:"to peep out"},{trg:"afinar",src:"to tune"}]},
 
 {type:"fb",s:"Siempre {1} de sus logros deportivos.",a:["alardea"],opts:["alardea","afina","asimila","acontece"],hint:"To brag or show off about something you are proud of.",sSrc:"He always {1} about his sporting achievements."},
 
-{type:"mc",q:"'Afinar la guitarra' significa:",opts:["Romperla","Ajustar las cuerdas para que suene bien","Comprar una nueva","Tocar una canción"],ans:"Ajustar las cuerdas para que suene bien",hint:"Making the instrument sound correct by adjusting its tuning."}
+{type:"mc",q:"'Afinar la guitarra' significa:",opts:["Comprar una nueva","Tocar una canción","Romperla","Ajustar las cuerdas para que suene bien"],ans:"Ajustar las cuerdas para que suene bien",hint:"Making the instrument sound correct by adjusting its tuning."}
 ]};
 
 export default LESSON_8;

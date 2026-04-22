@@ -92,7 +92,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel mot designe un petit groupe d'arbres dans un parc ?",
-     opts:["un bosquet","un contour","un crustace","une accumulation"],
+     opts:["une accumulation","un bosquet","un contour","un crustace"],
      ans:"un bosquet",
      hint:"A small cluster of trees, often found in formal gardens like Versailles."},
 
@@ -143,7 +143,7 @@ const LESSON_2 = {
 
     {type:"mc",
      q:"Quel adjectif decrit ce qui se rapporte aux aeroports ?",
-     opts:["aeroportuaire","aeronautique","atmospherique","budgetaire"],
+     opts:["atmospherique","budgetaire","aeroportuaire","aeronautique"],
      ans:"aeroportuaire",
      hint:"Relating specifically to airports, not aviation in general. Think of 'aeroport'."},
 

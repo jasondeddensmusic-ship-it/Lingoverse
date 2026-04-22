@@ -1,4 +1,4 @@
-// Batch 4 — Unit 06 Lesson 2: Clothing & Getting Dressed
+// Batch 4. Unit 06 Lesson 2: Clothing & Getting Dressed
 const BATCH4_L_2 = {
   id:"jav2_u06l_b4_2", title:"服(ふく)", icon:"👔", xp:15, board:true,
   steps:[
@@ -107,7 +107,7 @@ const BATCH4_L_2 = {
     ]},
 
     {type:"mc", q:"What does 脱(ぬ)ぐ mean?",
-     opts:["to take off (clothes)","to wear","to buy","to wash"], ans:"to take off (clothes)",
+     opts:["to wash","to take off (clothes)","to wear","to buy"], ans:"to take off (clothes)",
      hint:"The opposite action of putting c... on your body."},
 
     {type:"fb", s:"{1}を脱(ぬ)いでください。", a:"靴(くつ)",
@@ -116,11 +116,11 @@ const BATCH4_L_2 = {
      hint:"The footwear you must remove when entering a Japanese home."},
 
     {type:"mc", q:"似合(にあ)う means:",
-     opts:["to suit / look good on","to buy","to try on","to sew"], ans:"to suit / look good on",
+     opts:["to try on","to sew","to suit / look good on","to buy"], ans:"to suit / look good on",
      hint:"A compliment meaning the clothing matches the person well."},
 
     {type:"mc", q:"ズボン comes from which language?",
-     opts:["French","English","German","Dutch"], ans:"French",
+     opts:["English","German","Dutch","French"], ans:"French",
      hint:"Borrowed from a word that originally meant petticoat."}
   ,{type:"match",pairs:[{trg:"服(ふく)",src:"clothes / clothing"},{trg:"スカート",src:"skirt"},{trg:"靴下(くつした)",src:"socks"},{trg:"帽子(ぼうし)",src:"hat / cap"},{trg:"ネクタイ",src:"necktie"},{trg:"脱(ぬ)ぐ",src:"to take off (clothing)"}]},{type:"match",pairs:[{trg:"似合(にあ)う",src:"to suit / to look good on"}]},
   {type:"fb", s:"今日(きょう)は寒(さむ)いので厚(あつ)いコートを{1}ます。", a:["着(き)る"], opts:["着(き)る","履(は)く","被(かぶ)る","脱(ぬ)ぐ"], hint:"The verb for putting on garments worn on the upper body or full body.", sSrc:"Since it is cold today, I will {1} a thick coat."}

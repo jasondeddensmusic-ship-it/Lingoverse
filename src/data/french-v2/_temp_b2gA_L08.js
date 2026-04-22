@@ -86,7 +86,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quelle expression signifie 'en theorie, sans tenir compte du contexte' ?",
-     opts:["dans l'absolu","la-dessus","par moments","non moins"],
+     opts:["non moins","dans l'absolu","la-dessus","par moments"],
      ans:"dans l'absolu",
      hint:"A phrase for abstract, theoretical discussion. Contrasts with 'en pratique'."},
 
@@ -113,7 +113,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quelle locution conjonctive à trois mots exige le subjonctif et exprime une condition minimale ?",
-     opts:["pour peu que","pour le coup","pour de bon","pour le reste"],
+     opts:["pour de bon","pour le reste","pour peu que","pour le coup"],
      ans:"pour peu que",
      hint:"A conjunction followed by the subjunctive. Means 'if only' or 'provided that'."}
   ]

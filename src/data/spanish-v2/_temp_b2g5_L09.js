@@ -84,7 +84,7 @@ const LESSON_9 = {id:"esv2_b2g5_l9",title:"Vida profesional",icon:"👔",xp:15,b
  exampleSrc:"A: This product does not meet the quality standards.\nB: The manufacturing process needs to be improved.",
  funFact:"From English 'standard'. The RAE accepted 'estándar' with the accent, adapting it to Spanish spelling rules."},
 
-{type:"mc",q:"¿Qué es la especialización?",opts:["Convertirse en experto en un campo concreto","Cambiar de trabajo frecuentemente","Trabajar en varios departamentos","Dirigir una empresa grande"],ans:"Convertirse en experto en un campo concreto",hint:"The process of focusing deeply on one particular area of knowledge or skill."},
+{type:"mc",q:"¿Qué es la especialización?",opts:["Dirigir una empresa grande","Convertirse en experto en un campo concreto","Cambiar de trabajo frecuentemente","Trabajar en varios departamentos"],ans:"Convertirse en experto en un campo concreto",hint:"The process of focusing deeply on one particular area of knowledge or skill."},
 
 {type:"fb",s:"La {1} del espacio al nuevo uso requirió una reforma completa.",a:["adecuación"],opts:["adecuación","definición","complementación","especialización"],hint:"The process of making something suitable or appropriate for a purpose.",sSrc:"The {1} of the space to its new use required a complete renovation."},
 
@@ -92,7 +92,7 @@ const LESSON_9 = {id:"esv2_b2g5_l9",title:"Vida profesional",icon:"👔",xp:15,b
 
 {type:"fb",s:"Mi abuela era muy {1} y siempre tenía la casa impecable.",a:["hacendosa"],opts:["hacendosa","ejecutiva","fluctuante","glaciar"],hint:"An adjective meaning diligent and hardworking, especially with household tasks.",sSrc:"My grandmother was very {1} and always kept the house spotless."},
 
-{type:"mc",q:"¿Qué es el condicional en español?",opts:["Un tiempo verbal para hipótesis y deseos","Un tipo de contrato laboral","Una especialización universitaria","Un estándar de calidad"],ans:"Un tiempo verbal para hipótesis y deseos",hint:"The verb tense you use with 'would' in English, like 'I would go' or 'I would like'."}
+{type:"mc",q:"¿Qué es el condicional en español?",opts:["Una especialización universitaria","Un estándar de calidad","Un tiempo verbal para hipótesis y deseos","Un tipo de contrato laboral"],ans:"Un tiempo verbal para hipótesis y deseos",hint:"The verb tense you use with 'would' in English, like 'I would go' or 'I would like'."}
 ]};
 
 export default LESSON_9;

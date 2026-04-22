@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"会社員(かいしゃいん)",src:"company employee"},{trg:"教師(きょうし)",src:"teacher"},{trg:"看護師(かんごし)",src:"nurse"},{trg:"公務員(こうむいん)",src:"civil servant"},{trg:"自営業(じえいぎょう)",src:"self-employed"}],
      hint:"Match each occupation with its English translation."},
 
-    {type:"mc", q:"Which phrase asks about someone's hobbies?", opts:["趣味(しゅみ)はなんですか","職業(しょくぎょう)はなんですか","おなまえは","どこに住(す)んでいますか"], ans:"趣味(しゅみ)はなんですか",
+    {type:"mc", q:"Which phrase asks about someone's hobbies?", opts:["どこに住(す)んでいますか","趣味(しゅみ)はなんですか","職業(しょくぎょう)はなんですか","おなまえは"], ans:"趣味(しゅみ)はなんですか",
      hint:"趣味(しゅみ) is the Japanese word for hobby or interest."},
 
     {type:"fb", s:"どこに{1}か？\n(Where do you live?)", a:"住(す)んでいます", opts:["住(す)んでいます","結婚(けっこん)しています","しています","います"], sSrc:"Where do you live?",
      hint:"This phrase uses the verb 住(す)む (to live) in the ongoing-state form."},
 
-    {type:"mc", q:"What is the gender-neutral term for nurse in Japanese?", opts:["看護師(かんごし)","教師(きょうし)","会社員(かいしゃいん)","公務員(こうむいん)"], ans:"看護師(かんごし)",
+    {type:"mc", q:"What is the gender-neutral term for nurse in Japanese?", opts:["会社員(かいしゃいん)","公務員(こうむいん)","看護師(かんごし)","教師(きょうし)"], ans:"看護師(かんごし)",
      hint:"Japan changed this term in 2002 to remove the female-specific connotation."}
   ,{type:"match",pairs:[{trg:"エンジニア",src:"engineer"},{trg:"主婦(しゅふ)",src:"homemaker / housewife"},{trg:"結婚(けっこん)している",src:"to be married"},{trg:"住(す)んでいる",src:"to live (somewhere) / to reside"}]}]
 };

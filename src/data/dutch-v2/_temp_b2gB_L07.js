@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 07 — Kerk en Geloof
+// Dutch B2 gapB Lesson 07. Kerk en Geloof
 // Church, religion, and spiritual vocabulary
 
 const LESSON_7 = {id:"nlv2_b2gB_l7", title:"Kerk en Geloof", icon:"\u{26EA}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_7 = {id:"nlv2_b2gB_l7", title:"Kerk en Geloof", icon:"\u{26EA}", xp
  funFact:"The Netherlands was one of the first countries to require a civic integration exam (inburgeringsexamen) for immigrants, starting in 2007."},
 
 {type:"mc", q:"'Kerkelijk' betekent:",
- opts:["Beautiful","Church-related","Ancient","Musical"],
+ opts:["Church-related","Ancient","Musical","Beautiful"],
  ans:"Church-related",
  hint:"The adjective form of 'kerk' (c...). Describes anything connected to the c...."},
 
@@ -82,7 +82,7 @@ const LESSON_7 = {id:"nlv2_b2gB_l7", title:"Kerk en Geloof", icon:"\u{26EA}", xp
 ]},
 
 {type:"mc", q:"'Verzuiling' divided Dutch society into:",
- opts:["Rich and poor","Religious and political pillars","North and south","Urban and rural"],
+ opts:["Urban and rural","Rich and poor","Religious and political pillars","North and south"],
  ans:"Religious and political pillars",
  hint:"Protestant, Catholic, socialist, and liberal each had their own institutions"},
 

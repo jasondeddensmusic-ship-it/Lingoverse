@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: What changed with work style reform?\nB: The overtime hour limits became stricter.\nA: That is interesting.\nB: Yes, I think it is a characteristic unique to Japan.\nA: I wonder how it is overseas?\nB: It differs by country, but there are also common aspects.",
      funFact:"働(はたら)き方(かた)改革(かいかく) (Work Style Reform) became law in 2019, the biggest labor reform in decades. It caps overtime, mandates paid leave usage, and promotes equal pay for equal work. テレワーク (telework) and フレックスタイム (flextime) became more common after COVID-19, permanently changing Japanese 働(はたら)き方(かた)."},
 
-    {type:"mc", q:"転職(てんしょく) means:", opts:["Changing jobs / career change","Getting promoted","Retiring","Taking a day off"], ans:"Changing jobs / career change",
+    {type:"mc", q:"転職(てんしょく) means:", opts:["Taking a day off","Changing jobs / career change","Getting promoted","Retiring"], ans:"Changing jobs / career change",
      hint:"This word describes moving from one company or c... to another."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"{1}を考(かんが)えています。新(あたら)しい環境(かんきょう)で挑戦(ちょうせん)したいです。\n(I am considering changing jobs. I want to challenge myself in a new environment.)", a:"てんしょく", opts:["てんしょく","しつぎょう","ていねん","いくきゅう"], sSrc:"I am considering changing jobs. I want to challenge myself in a new environment.",
      hint:"The word for voluntarily moving to a new company or career."},
 
-    {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) is:", opts:["Government reform of work culture and practices","A new type of job","A salary increase program","A retirement plan"], ans:"Government reform of work culture and practices",
+    {type:"mc", q:"働(はたら)き方(かた)改革(かいかく) is:", opts:["A salary increase program","A retirement plan","Government reform of work culture and practices","A new type of job"], ans:"Government reform of work culture and practices",
      hint:"This 2019 law changed overtime limits and working conditions in Japan."}
   ,{type:"match",pairs:[{trg:"定年退職(ていねんたいしょく)",src:"mandatory retirement"},{trg:"人材(じんざい)",src:"human resources / talented personnel"},{trg:"働(はたら)き方(かた)",src:"work style / way of working"}]},
   {type:"fb", s:"今週(こんしゅう)は毎日(まいにち){1}が続(つづ)いています。", a:["残業(ざんぎょう)"], opts:["残業(ざんぎょう)","雇用(こよう)","失業(しつぎょう)","転職(てんしょく)"], hint:"Work performed beyond the regular end-of-shift time, often compensated extra.", sSrc:"Overtime has continued every day this week."}

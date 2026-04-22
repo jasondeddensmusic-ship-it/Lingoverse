@@ -72,7 +72,7 @@ const LESSON_10 = {id:"esv2_b2g4_l10",title:"Tecnolog铆a e innovaci贸n",icon:"馃
  exampleSrc:"A: Is it feasible to implement this technology in a month?\nB: It would be very tight, but not impossible.",
  funFact:"In project management, 'estudio de factibilidad' (feasibility study) precedes every major project."},
 
-{type:"mc",q:"Una p谩gina web 'est谩tica' es aquella que:",opts:["No cambia sin intervenci贸n humana","Se actualiza constantemente","Tiene muchas animaciones","No funciona correctamente"],ans:"No cambia sin intervenci贸n humana",hint:"Think about a webpage whose content stays the same until someone manually edits it."},
+{type:"mc",q:"Una p谩gina web 'est谩tica' es aquella que:",opts:["No funciona correctamente","No cambia sin intervenci贸n humana","Se actualiza constantemente","Tiene muchas animaciones"],ans:"No cambia sin intervenci贸n humana",hint:"Think about a webpage whose content stays the same until someone manually edits it."},
 
 {type:"teach",trg:"el enfoque",src:"the focus / approach",pos:"noun",gender:"m",
  note:"Masculine noun. A way of looking at or handling something.\nVerb: enfocar.",
@@ -84,7 +84,7 @@ const LESSON_10 = {id:"esv2_b2g4_l10",title:"Tecnolog铆a e innovaci贸n",icon:"馃
 
 {type:"match",pairs:[{trg:"etiquetar",src:"to label / tag"},{trg:"expandir",src:"to expand"},{trg:"est谩tico",src:"static"},{trg:"enfoque",src:"focus"},{trg:"factible",src:"feasible"}]},
 
-{type:"mc",q:"'Etiquetar' en redes sociales significa:",opts:["Marcar a alguien en una publicaci贸n","Bloquear a un usuario","Borrar un comentario","Publicar una foto"],ans:"Marcar a alguien en una publicaci贸n",hint:"Think about the action of tagging a friend in a social media post."},
+{type:"mc",q:"'Etiquetar' en redes sociales significa:",opts:["Borrar un comentario","Publicar una foto","Marcar a alguien en una publicaci贸n","Bloquear a un usuario"],ans:"Marcar a alguien en una publicaci贸n",hint:"Think about the action of tagging a friend in a social media post."},
 
 {type:"fb",s:"La {1} de los datos es esencial para entrenar la inteligencia artificial.",a:["etiquetado"],opts:["etiquetado","ensamblaje","exponente","dispersi贸n"],hint:"The process of categorizing and tagging data with labels.",sSrc:"The {1} of data is essential for training artificial intelligence."}
 ]};

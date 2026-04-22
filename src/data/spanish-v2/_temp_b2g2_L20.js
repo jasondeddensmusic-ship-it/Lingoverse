@@ -90,7 +90,7 @@ const LESSON_20 = {id:"esv2_b2g2_l20",title:"Vocabulario avanzado variado",icon:
  exampleSrc:"A: His credibility as a journalist is in question.\nB: He published unverified information.",
  funFact:"'Perder credibilidad' (to lose credibility) is one of the most damaging things in Spanish media."},
 
-{type:"mc",q:"¿Qué significa 'dar bandazos'?",opts:["Cambiar de dirección bruscamente y sin rumbo","Conducir con mucho cuidado","Tomar decisiones con calma","Avanzar en línea recta"],ans:"Cambiar de dirección bruscamente y sin rumbo",hint:"Think about a ship or vehicle swaying violently from side to side without control."},
+{type:"mc",q:"¿Qué significa 'dar bandazos'?",opts:["Avanzar en línea recta","Cambiar de dirección bruscamente y sin rumbo","Conducir con mucho cuidado","Tomar decisiones con calma"],ans:"Cambiar de dirección bruscamente y sin rumbo",hint:"Think about a ship or vehicle swaying violently from side to side without control."},
 
 {type:"teach",trg:"el acoso",src:"the harassment",pos:"noun",gender:"m",
  note:"Masculine noun. Persistent unwanted behavior that intimidates.",

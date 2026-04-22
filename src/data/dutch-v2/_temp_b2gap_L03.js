@@ -1,4 +1,4 @@
-// L03: Work & Employment — 20 B2 gap words
+// L03: Work & Employment, 20 B2 gap words
 const LESSON_3 = {
   id:"nlv2_b2gap_l3", title:"Werk en Arbeid", icon:"\uD83D\uDCBC", xp:15, board:true,
   steps:[
@@ -110,11 +110,11 @@ const LESSON_3 = {
      deepDive:{title:"The linking 's' in Dutch compounds",
       text:"Dutch compounds often insert an 's' between parts. This is called the 'tussenklank' (linking sound). It evolved from the old genitive case.\n\nWith -s: bedrijfsbelang, arbeidsuur, beroepsgroep\nWithout -s: arbeidsplaats uses it but 'werkplaats' does not\n\nThere is no simple rule. The -s often appears after words ending in -heid, -ing, -schap, -ment, -teit. But there are many exceptions.\n\nBelgian Dutch sometimes uses different linking sounds than Dutch Dutch. 'Arbeidsongeschikt' (NL) vs 'arbeidsonbekwaam' (BE)."}},
     {type:"mc", q:"'Er is een tekort aan arbeidskrachten.' What does this mean?",
-     opts:["There is a surplus of workers","There is a shortage of workers","Workers are on strike","Workers are being relocated"],
+     opts:["There is a shortage of workers","Workers are on strike","Workers are being relocated","There is a surplus of workers"],
      ans:"There is a shortage of workers",
      hint:"'Tekort' means s.... 'Arbeidskracht' means worker or labor force."},
     {type:"mc", q:"Which word means 'unable to work' due to disability?",
-     opts:["arbeidsongeschikt","arbeidsovereenkomst","arbeidsduur","arbeidsplaats"],
+     opts:["arbeidsplaats","arbeidsongeschikt","arbeidsovereenkomst","arbeidsduur"],
      ans:"arbeidsongeschikt",
      hint:"The word 'ongeschikt' means unsuitable or unable."},
     {type:"fb", s:"We moeten nieuw personeel {1}.", a:["aanwerven"],
@@ -132,7 +132,7 @@ const LESSON_3 = {
       {trg:"arbeidsovereenkomst", src:"employment contract"}
     ]},
     {type:"mc", q:"'Beroepshalve' means:",
-     opts:["half professionally","by profession","as a hobby","reluctantly"],
+     opts:["reluctantly","half professionally","by profession","as a hobby"],
      ans:"by profession",
      hint:"The suffix '-halve' means 'for the sake of' or 'by reason of'."},
     {type:"fb", s:"Hoe kan ik {1} aan het project?", a:["bijdragen"],
@@ -146,7 +146,7 @@ const LESSON_3 = {
       {trg:"bedrijfsbelang", src:"business interest"}
     ]},
     {type:"mc", q:"What does 'bijverdienen' mean?",
-     opts:["to earn a promotion","to earn on the side","to earn respect","to earn a degree"],
+     opts:["to earn respect","to earn a degree","to earn a promotion","to earn on the side"],
      ans:"to earn on the side",
      hint:"'Bij' means alongside or extra. 'Verdienen' means to e...."},
     {type:"fb", s:"De les vangt {1} om kwart over negen.", a:["aan"],

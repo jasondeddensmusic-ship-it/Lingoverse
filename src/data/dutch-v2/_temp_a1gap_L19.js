@@ -1,4 +1,4 @@
-// L19: Common Adverbs and Expressions — 20 A1 gap words
+// L19: Common Adverbs and Expressions, 20 A1 gap words
 const LESSON_19 = {
   id:"nlv2_a1gap_l19", title:"Bijwoorden en Uitdrukkingen", icon:"\u{1F4A1}", xp:15, board:true,
   steps:[
@@ -99,7 +99,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Ga je vaak sporten? Nee, ___.",
-     opts:["af en toe","meteen","helemaal","nu"],
+     opts:["nu","af en toe","meteen","helemaal"],
      ans:"af en toe",
      hint:"Which expression means 'now and then' or 'occasionally'?"},
 

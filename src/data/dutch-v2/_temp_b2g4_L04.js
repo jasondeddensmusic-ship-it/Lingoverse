@@ -1,4 +1,4 @@
-// L04: Character & Inner Qualities — 20 B2 gap words
+// L04: Character & Inner Qualities, 20 B2 gap words
 const LESSON_4 = {
   id:"nlv2_b2g4_l4", title:"Karakter en Innerlijke Kwaliteiten", icon:"\uD83D\uDC8E", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_4 = {
      deepDive:{title:"Positive vs negative suffixes",
       text:"The suffix choice reveals Dutch attitudes. '-zucht' (craving) always implies excess: eerzucht (too much ambition), hebzucht (greed), heerszucht (lust for power). '-kracht' (power) is always positive: daadkracht, draagkracht, slagkracht. '-heid' is neutral and simply describes a state. Knowing this helps you understand not just the meaning but the judgment embedded in the word."}},
     {type:"mc", q:"What does 'drijfveer' literally mean?",
-     opts:["driving wheel","driving spring","driving wind","driving horse"],
+     opts:["driving spring","driving wind","driving horse","driving wheel"],
      ans:"driving spring",
      hint:"Compound: drijf (drive) + veer (s..., like a clock s...)."},
     {type:"fb", s:"De {1} onder het personeel is zorgwekkend.", a:["demotivatie"],
@@ -113,7 +113,7 @@ const LESSON_4 = {
      hint:"The state of being unmotivated, the opposite of motivation.",
      sSrc:"The demotivation among staff is worrying."},
     {type:"mc", q:"Which word has a slightly negative connotation of excessive ambition?",
-     opts:["daadkracht","eenvoud","eerzucht","gastvrijheid"],
+     opts:["eenvoud","eerzucht","gastvrijheid","daadkracht"],
      ans:"eerzucht",
      hint:"Compound with 'zucht' (craving). Craving for honor."},
     {type:"fb", s:"De gelijkenis is {1}.", a:["frappant"],
@@ -131,7 +131,7 @@ const LESSON_4 = {
      hint:"From Latin 'burning'. Always paired with negative nouns.",
      sSrc:"This is a flagrant violation of the rules."},
     {type:"mc", q:"What does 'gastvrijheid' literally translate to?",
-     opts:["guest freedom","guest friendship","guest house","guest gift"],
+     opts:["guest house","guest gift","guest freedom","guest friendship"],
      ans:"guest freedom",
      hint:"Compound: gast (g...) + vrijheid (f...)."},
     {type:"match", pairs:[

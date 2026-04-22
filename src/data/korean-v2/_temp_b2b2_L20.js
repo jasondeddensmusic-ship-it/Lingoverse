@@ -1,4 +1,4 @@
-// Korean B2 — Batch 2, Lesson 20: Listening and Seeming
+// Korean B2. Batch 2, Lesson 20: Listening and Seeming
 // Words: 들다(aux), 들려주다, 들어주다, 들여놓다, 들이다, 들이마시다, 들이켜다, 듯, 듯싶다, 듯하다, 등등, 노동, 노랫소리, 노선, 년생, 넘어오다(dup->replace 기둥), 기둥, 기기, 김(steam dup->replace 냇물 dup -> 꽃씨 dup -> 꼽히다), 꼽히다
 
 // Corrected word list for L20 using remaining unassigned words:
@@ -123,7 +123,7 @@ const LESSON_20 = {
 
     {type:"mc",
      q:"'듯하다'는 어떤 의미를 표현하나요?",
-     opts:["~인 것 같다","~하고 싶다","~해야 한다","~할 수 있다"],
+     opts:["~할 수 있다","~인 것 같다","~하고 싶다","~해야 한다"],
      ans:"~인 것 같다",
      hint:"A literary way to express that something appears or seems to be a certain way."},
 

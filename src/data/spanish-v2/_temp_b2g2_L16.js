@@ -90,7 +90,7 @@ const LESSON_16 = {id:"esv2_b2g2_l16",title:"Geografía y descripción",icon:"�
  exampleSrc:"A: He has an impressive cultural background.\nB: He has traveled and read extensively.",
  funFact:"The figurative sense (experience, knowledge) is far more common than the literal (luggage) in Spain."},
 
-{type:"mc",q:"¿Qué significa críptico?",opts:["Difícil de entender, con significado oculto","Muy fácil de leer","Largo y aburrido","Escrito en otro idioma"],ans:"Difícil de entender, con significado oculto",hint:"Think about a message whose meaning is hidden or deliberately obscure."},
+{type:"mc",q:"¿Qué significa críptico?",opts:["Escrito en otro idioma","Difícil de entender, con significado oculto","Muy fácil de leer","Largo y aburrido"],ans:"Difícil de entender, con significado oculto",hint:"Think about a message whose meaning is hidden or deliberately obscure."},
 
 {type:"teach",trg:"la crin",src:"the mane (of a horse)",pos:"noun",gender:"f",
  note:"Feminine noun. The long hair on a horse's neck.",

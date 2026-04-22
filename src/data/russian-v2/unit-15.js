@@ -1,4 +1,4 @@
-// Russian V2 Unit 15 — Future Tense (B1.1)
+// Russian V2 Unit 15. Future Tense (B1.1)
 const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будущее время", sub:"Future Tense",
  icon:"🔮", level:"B1.1", color:"#7B5EE8",
  lessons:[
@@ -31,7 +31,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"1st person plural future.\n'Что мы будем делать?' = What will we do?",
  example:"A: Что будем делать вечером?\nB: Будем гулять.",
  exampleSrc:"A: What will we do in the evening?\nB: We'll go for a walk.",
- funFact:"'Что будем делать?' is Russia's 'what should we do?' — a frequent planning phrase. Dostoevsky's 'Что делать?' (What to do?) novel made the question iconic."},
+ funFact:"'Что будем делать?' is Russia's 'what should we do?', a frequent planning phrase. Dostoevsky's 'Что делать?' (What to do?) novel made the question iconic."},
 
 {type:"teach", trg:"будете", src:"you will be (pl/formal)", pos:"verb", gender:null,
  note:"2nd person plural/formal future.\nFor вы address.",
@@ -55,15 +55,15 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Perfective future of написать.\nOne-time writing action.",
  example:"A: Напишешь мне?\nB: Конечно, вечером.",
  exampleSrc:"A: Will you write to me?\nB: Sure, in the evening.",
- funFact:"'Напишу вечером' — specific completed future event. Versus 'буду писать весь вечер' (will be writing all evening = imperfective future)."},
+ funFact:"'Напишу вечером', specific completed future event. Versus 'буду писать весь вечер' (will be writing all evening = imperfective future)."},
 
 {type:"tip", title:"The Two Russian Futures",
- text:"Russian futures are BUILT DIFFERENTLY for each aspect:\n\nIMPERFECTIVE FUTURE (extended/habitual):\nбуду/будешь/будет/будем/будете/будут + INFINITIVE (imperfective).\nЯ буду читать. (I will be reading.)\nОн будет работать. (He will be working.)\n\nPERFECTIVE FUTURE (completed action):\nConjugate like present, but from PERFECTIVE infinitive.\nЯ прочитаю. (I will read [completely].)\nОн напишет. (He will write [and finish].)\n\nCOMPARE:\nЗавтра я буду читать. (I'll be reading tomorrow — duration.)\nЗавтра я прочитаю книгу. (I'll read the book tomorrow — complete it.)\n\nKEY RULE: перf verb conjugated = future. Imperf verb conjugated = present.\nделаю = I'm doing (now).\nсделаю = I will do.\n\nRussian grammar is elegant: aspect + tense do more work together than English.",
+ text:"Russian futures are BUILT DIFFERENTLY for each aspect:\n\nIMPERFECTIVE FUTURE (extended/habitual):\nбуду/будешь/будет/будем/будете/будут + INFINITIVE (imperfective).\nЯ буду читать. (I will be reading.)\nОн будет работать. (He will be working.)\n\nPERFECTIVE FUTURE (completed action):\nConjugate like present, but from PERFECTIVE infinitive.\nЯ прочитаю. (I will read [completely].)\nОн напишет. (He will write [and finish].)\n\nCOMPARE:\nЗавтра я буду читать. (I'll be reading tomorrow, duration.)\nЗавтра я прочитаю книгу. (I'll read the book tomorrow, complete it.)\n\nKEY RULE: перf verb conjugated = future. Imperf verb conjugated = present.\nделаю = I'm doing (now).\nсделаю = I will do.\n\nRussian grammar is elegant: aspect + tense do more work together than English.",
  deepDive:{title:"Why Russian Future Is Different",
   text:"Russian lost much of its Old Slavic tense system but preserved the aspect distinction. The perfective 'conjugates forward' (present form = future meaning) because it was historically perfect tense. The imperfective uses буду + infinitive like many European languages. This split makes Russian future unique among Slavic languages."}},
 
 {type:"mc", q:"'I will be reading' in Russian:",
- opts:["Я читаю","Я буду читать","Я прочитаю","Я читал"],
+ opts:["Я буду читать","Я прочитаю","Я читал","Я читаю"],
  ans:"Я буду читать",
  hint:"Extended future reading = imperfective future = буду + infinitive."},
 
@@ -75,7 +75,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
 {type:"fb", s:"A: Что {1} делать в субботу?\nB: Буду отдыхать.",
  a:["будешь"],
  opts:["будешь","будете","буду","будет"],
- hint:"Informal question to one person (ты) — 2nd person singular.",
+ hint:"Informal question to one person (ты), 2nd person singular.",
  sSrc:"A: What will you do Saturday?\nB: I'll be resting."},
 
 {type:"fb", s:"A: Ты {1} мне, когда приедешь?\nB: Обязательно, из аэропорта.",
@@ -115,7 +115,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Irregular! я хочу, ты хочешь, он хочет, мы хотим, вы хотите, они хотят.\nStem changes between хоч- and хот-.",
  example:"A: Что ты хочешь?\nB: Хочу поехать в Италию.",
  exampleSrc:"A: What do you want?\nB: I want to go to Italy.",
- funFact:"Хотеть is among most irregular Russian verbs. Stem mutation across persons is unique. Russian children notice and sometimes 'correct' to regular forms — hyperforming."},
+ funFact:"Хотеть is among most irregular Russian verbs. Stem mutation across persons is unique. Russian children notice and sometimes 'correct' to regular forms, hyperforming."},
 
 {type:"teach", trg:"намерение", src:"intention", pos:"noun", gender:"n",
  note:"Neuter noun. Formal register.\n'С намерением' = with intention.",
@@ -127,7 +127,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Reflexive verb. Я надеюсь, ты надеешься.\nНадеюсь, что = I hope that.",
  example:"A: Надеюсь, завтра будет хорошая погода.\nB: Я тоже надеюсь.",
  exampleSrc:"A: I hope the weather's good tomorrow.\nB: I hope so too.",
- funFact:"Надеяться + на + accusative = to rely on. Надеюсь на тебя (I rely on you). Reflexive -ся makes it 'inner action' — hope inside oneself."},
+ funFact:"Надеяться + на + accusative = to rely on. Надеюсь на тебя (I rely on you). Reflexive -ся makes it 'inner action', hope inside oneself."},
 
 {type:"teach", trg:"цель", src:"goal", pos:"noun", gender:"f",
  note:"Feminine, ends in -ь.\nПоставить цель = to set a goal.",
@@ -139,7 +139,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Feminine. Ends in -а.\nБольшая мечта = big dream.",
  example:"A: Какая у тебя мечта?\nB: Много путешествовать.",
  exampleSrc:"A: What's your dream?\nB: To travel a lot.",
- funFact:"Мечта is distinct from сон (dream while sleeping). Мечта = aspiration. Russians talk easily about мечты — it's not considered childish like English 'dream' can be."},
+ funFact:"Мечта is distinct from сон (dream while sleeping). Мечта = aspiration. Russians talk easily about мечты, it's not considered childish like English 'dream' can be."},
 
 {type:"teach", trg:"решить", src:"to decide (perfective)", pos:"verb", gender:null,
  note:"Perfective. Pair: решать.\nПомощник for fixing decisions.",
@@ -148,23 +148,23 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  funFact:"Решить has two meanings: to decide AND to solve (a problem). Same verb, context clarifies. 'Решить задачу' = solve a problem; 'решить ехать' = decide to go."},
 
 {type:"tip", title:"Expressing Future Plans",
- text:"Russian has a spectrum of plan-expressing verbs:\n\nFORMAL/BUREAUCRATIC:\nЯ планирую работать. (I plan to work.) — organized/scheduled.\n\nCASUAL INTENTION:\nЯ собираюсь работать. (I'm going to work.) — firm intent.\nЯ хочу работать. (I want to work.) — desire.\n\nDECISIONAL:\nЯ решил работать. (I decided to work.) — decision made.\n\nHOPEFUL:\nЯ надеюсь работать. (I hope to work.) — expectation.\n\nFIXED FUTURE:\nЯ буду работать. (I will be working.) — definite future.\nЯ поработаю. (I'll work [for a while].) — short future.\n\nPRACTICE COMBINING:\nЯ планирую поехать летом в отпуск.\nОн собирается купить новый компьютер.\nМы хотим посетить Петербург.\n\nBy combining plan verbs with main verbs (infinitives), you get sophisticated Russian expression.",
+ text:"Russian has a spectrum of plan-expressing verbs:\n\nFORMAL/BUREAUCRATIC:\nЯ планирую работать. (I plan to work.), organized/scheduled.\n\nCASUAL INTENTION:\nЯ собираюсь работать. (I'm going to work.), firm intent.\nЯ хочу работать. (I want to work.), desire.\n\nDECISIONAL:\nЯ решил работать. (I decided to work.), decision made.\n\nHOPEFUL:\nЯ надеюсь работать. (I hope to work.), expectation.\n\nFIXED FUTURE:\nЯ буду работать. (I will be working.), definite future.\nЯ поработаю. (I'll work [for a while].), short future.\n\nPRACTICE COMBINING:\nЯ планирую поехать летом в отпуск.\nОн собирается купить новый компьютер.\nМы хотим посетить Петербург.\n\nBy combining plan verbs with main verbs (infinitives), you get sophisticated Russian expression.",
  icon:"📅"},
 
 {type:"mc", q:"Which expresses 'I'm going to' with casual certainty?",
- opts:["Я планирую","Я собираюсь","Я хочу","Я надеюсь"],
+ opts:["Я собираюсь","Я хочу","Я надеюсь","Я планирую"],
  ans:"Я собираюсь",
  hint:"Собираться = intend to do, firm casual plan. Планирую is more formal."},
 
 {type:"mc", q:"Which noun means 'goal'?",
- opts:["мечта","намерение","цель","план"],
+ opts:["намерение","цель","план","мечта"],
  ans:"цель",
  hint:"Feminine, ends in -ь. Shares root with 'целый' (whole)."},
 
 {type:"fb", s:"A: Какая у тебя {1} на год?\nB: Выучить русский.",
  a:["цель"],
  opts:["цель","мечта","надежда","намерение"],
- hint:"A yearly objective — specific, measurable. Which of these?",
+ hint:"A yearly objective, specific, measurable. Which of these?",
  sSrc:"A: What's your goal for the year?\nB: Learn Russian."},
 
 {type:"fb", s:"A: {1}, что экзамен не будет трудным.\nB: Я тоже.",
@@ -192,7 +192,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Conditional particle.\nPlaces: usually after subject or past verb.",
  example:"A: Я бы пошёл туда.\nB: Да, я тоже.",
  exampleSrc:"A: I would go there.\nB: Yes, me too.",
- funFact:"Бы is the shortest Russian particle. Its placement changes subtle meaning but rules are flexible. 'Я бы пошёл,' 'Я пошёл бы,' 'Пошёл бы я' — all acceptable."},
+ funFact:"Бы is the shortest Russian particle. Its placement changes subtle meaning but rules are flexible. 'Я бы пошёл,' 'Я пошёл бы,' 'Пошёл бы я', all acceptable."},
 
 {type:"teach", trg:"хотел бы", src:"would like (m)", pos:"phrase", gender:null,
  note:"Politer than 'хочу.'\nFeminine: хотела бы. Plural: хотели бы.",
@@ -222,7 +222,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Пошёл (perfective past of идти) + бы.\nFor 'would go on foot.'",
  example:"A: Пошёл бы погулять.\nB: Отличная идея!",
  exampleSrc:"A: I'd go for a walk.\nB: Great idea!",
- funFact:"'Пошёл бы' can be slightly passive-aggressive: 'Да пошёл бы ты...' (go...) — used as a polite rejection/dismissal. Context matters."},
+ funFact:"'Пошёл бы' can be slightly passive-aggressive: 'Да пошёл бы ты...' (go...), used as a polite rejection/dismissal. Context matters."},
 
 {type:"teach", trg:"купил бы", src:"would buy (m)", pos:"phrase", gender:null,
  note:"Conditional purchase hypothesis.\nFeminine: купила бы.",
@@ -234,15 +234,15 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Impersonal adverb.\n'Жаль, что...' = it's a pity that...",
  example:"A: Жаль, что ты не был там.\nB: Да, жаль.",
  exampleSrc:"A: Pity you weren't there.\nB: Yes, a pity.",
- funFact:"'Жаль' is essentially a universal regret word. Can express pity, regret, disappointment. Russians use it more often than English uses 'pity' — it's conversational, not formal."},
+ funFact:"'Жаль' is essentially a universal regret word. Can express pity, regret, disappointment. Russians use it more often than English uses 'pity', it's conversational, not formal."},
 
 {type:"tip", title:"Russian Conditional Formation",
- text:"FORMULA: PAST TENSE VERB + БЫ\n\nHow to form conditional 'would X':\n1. Take the past tense of the verb.\n2. Add the particle бы.\n\nEXAMPLES:\nЯ сделал бы. = I would do.\nЯ сделала бы. = I would do. (feminine)\nОн помог бы. = He would help.\nМы пошли бы. = We would go.\n\nTHE POLITE REQUEST PATTERN:\nTы мог бы + infinitive? = Could you [do X]?\nТы мог бы помочь? (Could you help?)\nВы могли бы сказать? (Could you tell me?)\n\nTHE HYPOTHETICAL PATTERN:\nЕсли бы + past + ..., past + бы + ...\nЕсли бы я знал, я бы сказал.\n(If I had known, I would have said.)\n\nTHE WISH PATTERN:\nЯ хотел(а) бы + infinitive = I would like to...\nЯ хотел бы поехать в Париж.\n\nConditional mood is simple in Russian — just one particle.",
+ text:"FORMULA: PAST TENSE VERB + БЫ\n\nHow to form conditional 'would X':\n1. Take the past tense of the verb.\n2. Add the particle бы.\n\nEXAMPLES:\nЯ сделал бы. = I would do.\nЯ сделала бы. = I would do. (feminine)\nОн помог бы. = He would help.\nМы пошли бы. = We would go.\n\nTHE POLITE REQUEST PATTERN:\nTы мог бы + infinitive? = Could you [do X]?\nТы мог бы помочь? (Could you help?)\nВы могли бы сказать? (Could you tell me?)\n\nTHE HYPOTHETICAL PATTERN:\nЕсли бы + past + ..., past + бы + ...\nЕсли бы я знал, я бы сказал.\n(If I had known, I would have said.)\n\nTHE WISH PATTERN:\nЯ хотел(а) бы + infinitive = I would like to...\nЯ хотел бы поехать в Париж.\n\nConditional mood is simple in Russian, just one particle.",
  deepDive:{title:"Why Russian Conditional Is Simple",
-  text:"Russian lost most subjunctive markers through history. The particle бы (from the old aorist of быть) attached itself to past tense forms. Result: Russian conditional is simpler than French, German, Spanish conditionals. You don't conjugate a separate mood — just past + бы."}},
+  text:"Russian lost most subjunctive markers through history. The particle бы (from the old aorist of быть) attached itself to past tense forms. Result: Russian conditional is simpler than French, German, Spanish conditionals. You don't conjugate a separate mood, just past + бы."}},
 
-{type:"mc", q:"'I would like tea' — the polite way:",
- opts:["Я хочу чай","Я хотела бы чай","Я буду чай","Я бы пил чай"],
+{type:"mc", q:"'I would like tea', the polite way:",
+ opts:["Я хотела бы чай","Я буду чай","Я бы пил чай","Я хочу чай"],
  ans:"Я хотела бы чай",
  hint:"Conditional 'хотела бы' (feminine) or 'хотел бы' (masculine) is the standard polite request."},
 
@@ -260,7 +260,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
 {type:"fb", s:"A: {1} бы ты помочь мне с переводом?\nB: Конечно, давай.",
  a:["Мог"],
  opts:["Мог","Могу","Будешь","Могла бы"],
- hint:"Polite request — 'could you' = masculine conditional. Speaker addressing a friend.",
+ hint:"Polite request, 'could you' = masculine conditional. Speaker addressing a friend.",
  sSrc:"A: Could you help me with the translation?\nB: Sure, let's do it."},
 
 {type:"match", pairs:[
@@ -288,7 +288,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Official paper: passport, certificate, contract, etc.\nMasculine noun.",
  example:"A: Вам нужен документ?\nB: Да, возьмите мой документ.",
  exampleSrc:"A: Do you need a document?\nB: Yes, take my document.",
- funFact:"Russians carry their 'документы' everywhere — being stopped without ID is a real possibility, and the police can request it at any time."},
+ funFact:"Russians carry their 'документы' everywhere, being stopped without ID is a real possibility, and the police can request it at any time."},
 
 {type:"teach", trg:"паспорт", src:"passport", pos:"noun", gender:"m",
  note:"The Russian internal passport (паспорт гражданина РФ) is required for domestic travel, banking, and most official procedures.\nMasculine noun.",
@@ -321,8 +321,8 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  funFact:"The справка is the lifeblood of Russian administration. To enroll in school, open a bank account, or apply for benefits, you will almost certainly need at least one."},
 
 {type:"tip", title:"МФЦ: Russia's One-Stop Government Office",
- text:"МФЦ (Многофункциональный центр) is the modern solution to Russian bureaucracy. Instead of visiting five separate offices, you go to one МФЦ to get your прописка, renew documents, and request any справка.\n\nKey phrases:\n- 'Возьмите талон' — Take a ticket (queue number).\n- 'Подойдите к окошку' — Approach the window.\n- 'Заполните бланк' — Fill in the form.",
- deepDive:"Before МФЦ existed, getting a single government document could mean queuing at multiple offices across the city. МФЦ centres opened in 2011 and now serve all major Russian cities. If you live in Russia, find your nearest МФЦ first — it will save hours."},
+ text:"МФЦ (Многофункциональный центр) is the modern solution to Russian bureaucracy. Instead of visiting five separate offices, you go to one МФЦ to get your прописка, renew documents, and request any справка.\n\nKey phrases:\n- 'Возьмите талон'. Take a ticket (queue number).\n- 'Подойдите к окошку'. Approach the window.\n- 'Заполните бланк'. Fill in the form.",
+ deepDive:"Before МФЦ existed, getting a single government document could mean queuing at multiple offices across the city. МФЦ centres opened in 2011 and now serve all major Russian cities. If you live in Russia, find your nearest МФЦ first, it will save hours."},
 
 {type:"fb", s:"A: Мне нужна {1} в Россию на три месяца.\nB: Хорошо, я помогу вам.",
  a:["виза"],
@@ -331,19 +331,19 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  sSrc:"A: I need a visa to Russia for three months.\nB: OK, I will help you."},
 
 {type:"mc", q:"What does 'прописка' mean in Russian administrative life?",
- opts:["A type of visa","Residence registration","A bank certificate","A post office form"],
+ opts:["Residence registration","A bank certificate","A post office form","A type of visa"],
  ans:"Residence registration",
  hint:"This is the system that ties you officially to an address in Russia."},
 
 {type:"mc", q:"You need to renew your visa before it expires. Which verb do you use?",
- opts:["заполнить","написать","продлить","взять"],
+ opts:["написать","продлить","взять","заполнить"],
  ans:"продлить",
  hint:"This perfective verb means to extend a deadline or document beyond its current end date."},
 
 {type:"fb", s:"A: Мне нужна {1} с работы для банка.\nB: Хорошо, я дам вам её завтра.",
  a:["справка"],
  opts:["справка","виза","прописка","почта"],
- hint:"An official document confirming employment or income — common for bank applications.",
+ hint:"An official document confirming employment or income, common for bank applications.",
  sSrc:"A: I need an official certificate from work for the bank.\nB: OK, I will give it to you tomorrow."},
 
 {type:"fb", s:"A: Где мой {1}? Мне нужно показать его на почте.\nB: Вот он, в сумке.",
@@ -372,19 +372,19 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Imperfective. Pair: обсудить (perfective).\nОбсуждать + accusative: обсуждать вопрос.",
  example:"A: Что вы обсуждаете?\nB: Мы обсуждаем новый план.",
  exampleSrc:"A: What are you discussing?\nB: We are discussing the new plan.",
- funFact:"Обсуждать comes from the root суд (court/judgement). To discuss something is literally to 'judge it around' — fitting for civic debate."},
+ funFact:"Обсуждать comes from the root суд (court/judgement). To discuss something is literally to 'judge it around', fitting for civic debate."},
 
 {type:"teach", trg:"поддерживать", src:"to support (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Pair: поддержать.\nПоддерживать человека/вопрос = to support a person/cause.",
  example:"A: Ты поддерживаешь этот вопрос?\nB: Да, я полностью поддерживаю.",
  exampleSrc:"A: Do you support this issue?\nB: Yes, I fully support it.",
- funFact:"Поддерживать literally means 'to hold from below.' The под- prefix (under) carries a physical sense of propping up — you support someone by standing under them."},
+ funFact:"Поддерживать literally means 'to hold from below.' The под- prefix (under) carries a physical sense of propping up, you support someone by standing under them."},
 
 {type:"teach", trg:"отклонять", src:"to reject / decline (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Pair: отклонить.\nОтклонять предложение = to reject a proposal.",
  example:"A: Почему вы отклоняете наш план?\nB: Он очень большой.",
  exampleSrc:"A: Why are you rejecting our plan?\nB: It is very big.",
- funFact:"Отклонять comes from клонить (to incline/bend). To reject = to bend away. Related to поклон (bow) — you lean away from what you decline."},
+ funFact:"Отклонять comes from клонить (to incline/bend). To reject = to bend away. Related to поклон (bow), you lean away from what you decline."},
 
 {type:"teach", trg:"убеждать", src:"to convince / persuade (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Pair: убедить.\nУбеждать + accusative: убеждать человека.",
@@ -396,7 +396,7 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Imperfective. Pair: решить (taught in this unit).\nBoth meanings: решать задачу (solve), решать вопрос (decide).",
  example:"A: Кто решает этот вопрос?\nB: Мы решаем вместе.",
  exampleSrc:"A: Who is deciding this question?\nB: We decide together.",
- funFact:"Решать and решить share the same double meaning: decide AND solve. Russians see a decision and a solution as the same mental act — you 'decide' a maths problem and 'solve' a life choice."},
+ funFact:"Решать and решить share the same double meaning: decide AND solve. Russians see a decision and a solution as the same mental act, you 'decide' a maths problem and 'solve' a life choice."},
 
 {type:"teach", trg:"создавать", src:"to create (imperfective)", pos:"verb", gender:null,
  note:"Imperfective. Pair: создать.\nСоздавать + accusative: создавать новый проект.",
@@ -408,19 +408,19 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  note:"Both meanings: free from constraint AND available (свободное время = free time).\nShort forms: свободен (m), свободна (f).",
  example:"A: Ты свободен завтра?\nB: Да, я свободен весь день.",
  exampleSrc:"A: Are you free tomorrow?\nB: Yes, I'm free all day.",
- funFact:"Свободный comes from свобода (freedom). Both share Proto-Slavic *svoboda meaning 'one's own people' — you are free when you are among your own."},
+ funFact:"Свободный comes from свобода (freedom). Both share Proto-Slavic *svoboda meaning 'one's own people', you are free when you are among your own."},
 
 {type:"teach", trg:"равный", src:"equal / even", pos:"adj", gender:null,
  note:"Used in равные права (equal rights).\nShort forms: равен (m), равна (f).",
  example:"A: Мы хотим быть равны.\nB: Да, это большой вопрос.",
  exampleSrc:"A: We want to be equal.\nB: Yes, that is a big question.",
- funFact:"Равный shares its root with ровный (smooth, level) and равнина (plain, flatland). Equality is flatness — no peaks of privilege, no valleys of oppression."},
+ funFact:"Равный shares its root with ровный (smooth, level) and равнина (plain, flatland). Equality is flatness, no peaks of privilege, no valleys of oppression."},
 
 {type:"teach", trg:"сильный", src:"strong / powerful", pos:"adj", gender:null,
  note:"Used for people, arguments, feelings, teams.\nShort forms: силён (m), сильна (f).",
  example:"A: Он очень сильный человек.\nB: Да, он всегда поддерживает этот вопрос.",
  exampleSrc:"A: He is a very strong person.\nB: Yes, he always supports this cause.",
- funFact:"Сильный comes from сила (strength/force). Russia's national image is closely tied to сила — from bogatyr folklore heroes to Soviet-era propaganda posters showing strong people building the future."},
+ funFact:"Сильный comes from сила (strength/force). Russia's national image is closely tied to сила, from bogatyr folklore heroes to Soviet-era propaganda posters showing strong people building the future."},
 
 {type:"teach", trg:"слабый", src:"weak / feeble", pos:"adj", gender:null,
  note:"Opposite of сильный. Also used for weak arguments, signals, tea.\nShort forms: слаб (m), слаба (f).",
@@ -429,48 +429,48 @@ const UNIT_15 = {n:15, lang:"ru", srcLang:"en", track:"v2", title:"Будуще�
  funFact:"Слабый has a wider range than English 'weak.' Слабый чай means weak tea, слабый сигнал means poor signal. You can be слабый at a subject: он слаб в математике (he is weak in maths)."},
 
 {type:"tip", title:"Civic Verbs in Action",
- text:"These four verbs form the backbone of discussion in Russian:\n\nОБСУЖДАТЬ — discuss (neutral, collaborative).\nОни долго обсуждали вопрос. (They discussed the question for a long time.)\n\nПОДДЕРЖИВАТЬ — support (take someone's side).\nОн всегда поддерживает хорошие идеи. (He always supports good ideas.)\n\nОТКЛОНЯТЬ — reject (push back formally).\nКомитет отклонял каждое предложение. (The committee rejected every proposal.)\n\nУБЕЖДАТЬ — persuade (change someone's mind).\nОна умеет убеждать людей. (She knows how to convince people.)\n\nAll four are imperfective — they describe ongoing or habitual actions.\nUse the perfective partners (обсудить, поддержать, отклонить, убедить) for completed single actions.",
+ text:"These four verbs form the backbone of discussion in Russian:\n\nОБСУЖДАТЬ, discuss (neutral, collaborative).\nОни долго обсуждали вопрос. (They discussed the question for a long time.)\n\nПОДДЕРЖИВАТЬ, support (take someone's side).\nОн всегда поддерживает хорошие идеи. (He always supports good ideas.)\n\nОТКЛОНЯТЬ, reject (push back formally).\nКомитет отклонял каждое предложение. (The committee rejected every proposal.)\n\nУБЕЖДАТЬ, persuade (change someone's mind).\nОна умеет убеждать людей. (She knows how to convince people.)\n\nAll four are imperfective, they describe ongoing or habitual actions.\nUse the perfective partners (обсудить, поддержать, отклонить, убедить) for completed single actions.",
  deepDive:{title:"Aspect Pairs at B1",
   text:"Every imperfective verb above has a perfective partner. When you want 'we discussed it and reached a conclusion,' switch to perfective: мы обсудили вопрос (we discussed and settled the question). Imperfective = process in progress. Perfective = process completed with a result."}},
 
 {type:"mc", q:"'To support an idea' uses which verb?",
- opts:["обсуждать","отклонять","поддерживать","убеждать"],
+ opts:["поддерживать","убеждать","обсуждать","отклонять"],
  ans:"поддерживать",
- hint:"This verb literally means 'to hold from below' — you prop up what you back."},
+ hint:"This verb literally means 'to hold from below', you prop up what you back."},
 
 {type:"mc", q:"Which adjective means 'equal'?",
- opts:["сильный","свободный","слабый","равный"],
+ opts:["слабый","равный","сильный","свободный"],
  ans:"равный",
  hint:"Shares a root with ровный (level/smooth). Equality is flatness."},
 
 {type:"fb", s:"A: Они долго {1} этот вопрос.\nB: Да, но наконец нашли ответ.",
  a:["обсуждали"],
  opts:["обсуждали","поддерживали","отклоняли","убеждали"],
- hint:"Extended process of talking something through together — imperfective past plural.",
+ hint:"Extended process of talking something through together, imperfective past plural.",
  sSrc:"A: They discussed this question for a long time.\nB: Yes, but finally found an answer."},
 
 {type:"fb", s:"A: Почему комитет {1} наш план?\nB: Он сказал, что план слишком большой.",
  a:["отклонил"],
  opts:["отклонил","обсудил","поддержал","решал"],
- hint:"They pushed it away — the completed, perfective act of rejection.",
+ hint:"They pushed it away, the completed, perfective act of rejection.",
  sSrc:"A: Why did the committee reject our plan?\nB: It said the plan is too big."},
 
 {type:"fb", s:"A: Она очень {1} человек: говорит ясно и все слушают.\nB: Да, она умеет убеждать.",
  a:["сильный"],
  opts:["сильный","слабый","равный","свободный"],
- hint:"Powerful presence, commanding speech — this adjective fits.",
+ hint:"Powerful presence, commanding speech, this adjective fits.",
  sSrc:"A: She is a very strong person: she speaks clearly and everyone listens.\nB: Yes, she knows how to convince people."},
 
 {type:"fb", s:"A: Что они {1} сегодня на встрече?\nB: Новый план для работы.",
  a:["создают"],
  opts:["создают","решают","обсуждают","отклоняют"],
- hint:"They are making something new — the imperfective present of the creation verb.",
+ hint:"They are making something new, the imperfective present of the creation verb.",
  sSrc:"A: What are they creating today at the meeting?\nB: A new plan for work."},
 
-{type:"mc", q:"'To create a new plan' — which verb?",
+{type:"mc", q:"'To create a new plan', which verb?",
  opts:["обсуждать","решать","создавать","отклонять"],
  ans:"создавать",
- hint:"Comes from Church Slavic for 'building together.' Art, projects, ideas — this verb makes them."},
+ hint:"Comes from Church Slavic for 'building together.' Art, projects, ideas, this verb makes them."},
 
 {type:"match", pairs:[
   {trg:"обсуждать", src:"to discuss"},

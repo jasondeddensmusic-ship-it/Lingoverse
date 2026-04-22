@@ -78,7 +78,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Do you get nervous before a match?\nB: Yes, my heart always pounds.",
      funFact:"どきどき is a gitaigo (sound-symbolic word) mimicking a heartbeat. Japanese is extraordinarily rich in these: わくわく (excited anticipation), はらはら (anxious suspense), いきいき (full of life). These words add emotional texture that single adjectives cannot achieve."},
 
-    {type:"mc", q:"The opposite of 負(ま)ける (to lose) is:", opts:["勝(か)つ (to win)","走(はし)る (to run)","投(な)げる (to throw)","覚(おぼ)える (to remember)"], ans:"勝(か)つ (to win)",
+    {type:"mc", q:"The opposite of 負(ま)ける (to lose) is:", opts:["覚(おぼ)える (to remember)","勝(か)つ (to win)","走(はし)る (to run)","投(な)げる (to throw)"], ans:"勝(か)つ (to win)",
      hint:"This verb describes achieving victory in a competition."},
 
     {type:"match", pairs:[
@@ -92,7 +92,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"試合(しあい)の前(まえ)は{1}します。\n(My heart pounds before a match.)", a:"どきどき", opts:["どきどき","わくわく","いらいら","ぼんやり"], sSrc:"My heart pounds before a match.",
      hint:"This onomatopoeia mimics the sound of a pounding heart."},
 
-    {type:"mc", q:"釣(つ)り means:", opts:["Fishing","Swimming","Running","Collecting"], ans:"Fishing",
+    {type:"mc", q:"釣(つ)り means:", opts:["Running","Collecting","Fishing","Swimming"], ans:"Fishing",
      hint:"This hobby involves catching something from water using a rod."}
   ,{type:"match",pairs:[{trg:"釣(つ)る",src:"to fish / to angle"},{trg:"絵(え)を描(か)く",src:"to draw a picture"},{trg:"集(あつ)める",src:"to collect / to gather"},{trg:"負(ま)ける",src:"to lose (a game)"}]},
   {type:"fb", s:"バスに乗(の)り遅(おく)れないように全力(ぜんりょく)で{1}ました。", a:["走(はし)る"], opts:["走(はし)る","蹴(け)る","泳(およ)ぐ","投(な)げる"], hint:"The verb for moving on foot at speed.", sSrc:"I {1} at full speed so as not to miss the bus."}

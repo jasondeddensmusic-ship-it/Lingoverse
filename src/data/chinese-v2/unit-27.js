@@ -70,7 +70,7 @@ lessons:[
  sSrc:"China is one of the world's largest {1} nations."},
 
 {type:"mc", q:"我们(wǒmen)下周(xiàzhōu)签(qiān)合同(hétong)。 What will happen next week?",
- opts:["A contract will be signed","A meeting will be canceled","A trade deal will fail","A market will open"],
+ opts:["A market will open","A contract will be signed","A meeting will be canceled","A trade deal will fail"],
  ans:"A contract will be signed",
  hint:"签 means to sign, and 合同 means ___. Both parties will formalize their agreement next week."},
 
@@ -150,7 +150,7 @@ lessons:[
  sSrc:"The {1} in this market is very intense."},
 
 {type:"mc", q:"这个(zhège)公司(gōngsī)今年(jīnnián)的(de)利润(lìrùn)增加(zēngjiā)了(le)。 This means:",
- opts:["The company's profit increased this year","The company lost money","The company closed","The company changed strategy"],
+ opts:["The company changed strategy","The company's profit increased this year","The company lost money","The company closed"],
  ans:"The company's profit increased this year",
  hint:"利润 means …, and 增加 means to increase. The … made more money than before."},
 
@@ -216,7 +216,7 @@ lessons:[
  sSrc:"This {1} is very creative."},
 
 {type:"mc", q:"管理(guǎnlǐ) uses 管(guǎn), which originally meant:",
- opts:["A bamboo pipe for channeling water","A wooden stick","A stone tablet","A metal sword"],
+ opts:["A metal sword","A bamboo pipe for channeling water","A wooden stick","A stone tablet"],
  ans:"A bamboo pipe for channeling water",
  hint:"管 depicted a ___ that directs ___ flow. Management similarly channels and directs resources."},
 
@@ -233,7 +233,7 @@ lessons:[
  sSrc:"Huawei is a well-known Chinese {1}."},
 
 {type:"mc", q:"好(hǎo)的(de)管理(guǎnlǐ)对(duì)公司(gōngsī)很(hěn)重要(zhòngyào)。 Why?",
- opts:["Without good management, no strategy will work","Management is the only thing that matters","Management replaces competition","Management eliminates costs"],
+ opts:["Management replaces competition","Management eliminates costs","Without good management, no strategy will work","Management is the only thing that matters"],
  ans:"Without good management, no strategy will work",
  hint:"Even the best ___ needs organized execution. ___ channels resources toward goals."}
 ]},
@@ -264,7 +264,7 @@ lessons:[
  sSrc:"We need a new {1} to enter this market."},
 
 {type:"mc", q:"降低(jiàngdī)成本(chéngběn)和(hé)提高(tígāo)利润(lìrùn) are related because:",
- opts:["Reducing costs can increase profit","They are the same thing","They always move in the same direction","They are unrelated"],
+ opts:["They are unrelated","Reducing costs can increase profit","They are the same thing","They always move in the same direction"],
  ans:"Reducing costs can increase profit",
  hint:"When you spend less (成本), you keep more (利润). These are two key levers of business performance."},
 
@@ -289,7 +289,7 @@ lessons:[
  sSrc:"Both sides will sign the {1} next week."},
 
 {type:"mc", q:"经营(jīngyíng) has a military origin because 营(yíng) originally meant:",
- opts:["A military encampment","A musical instrument","A farm","A river"],
+ opts:["A farm","A river","A military encampment","A musical instrument"],
  ans:"A military encampment",
  hint:"营 originally described an army camp. Running a business requires the same discipline and organization."},
 
@@ -300,7 +300,7 @@ lessons:[
  hint:"The company made a new strategy, increased investment, created many ads, and as a result profit grew by 30%."},
 
 {type:"mc", q:"中国(Zhōngguó)市场(shìchǎng)有(yǒu)十四亿(shísìyì)消费者(xiāofèizhě)。 Why does this matter?",
- opts:["The enormous size makes it attractive for business","The number is decreasing","All consumers buy the same things","The market is fully saturated"],
+ opts:["The number is decreasing","All consumers buy the same things","The market is fully saturated","The enormous size makes it attractive for business"],
  ans:"The enormous size makes it attractive for business",
  hint:"1.4 billion consumers represents an ___ potential customer base. Scale is the key advantage."}
 ]}
@@ -376,7 +376,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"改革开放 is described as the most consequential Chinese 政策(zhèngcè) of the modern era because:",
- opts:["It transformed China from a closed economy into the world's second largest","It established the central government","It created the national currency","It introduced information technology"],
+ opts:["It introduced information technology","It transformed China from a closed economy into the world's second largest","It established the central government","It created the national currency"],
  ans:"It transformed China from a closed economy into the world's second largest",
  hint:"1978: 改革开放 began. The policy opened the country to global markets and drove decades of rapid development. No other policy had comparable impact."},
 
@@ -387,7 +387,7 @@ lessons:[
  sSrc:"The government decided to formulate a new {1} to promote economic development."},
 
 {type:"mc", q:"信息(xìnxī) contains 息(xī), which depicts:",
- opts:["The heart at rest, suggesting receiving news calmly","A running person","A flame","A stack of books"],
+ opts:["A flame","A stack of books","The heart at rest, suggesting receiving news calmly","A running person"],
  ans:"The heart at rest, suggesting receiving news calmly",
  hint:"息 shows the organ of feeling in a still, quiet state. This posture connects to the idea of quietly taking in what reaches you."},
 
@@ -404,7 +404,7 @@ lessons:[
  sSrc:"The government is currently {1} market reform."},
 
 {type:"mc", q:"当地(dāngdì) is most accurately translated as:",
- opts:["local / of the locality","national","foreign","regional capital"],
+ opts:["national","foreign","regional capital","local / of the locality"],
  ans:"local / of the locality",
  hint:"当 means 'that very' and 地 means place. It refers to the specific ___ in question, not a broader area."},
 

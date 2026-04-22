@@ -86,7 +86,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel verbe signifie rendre quelqu'un ivre, au sens propre ou figuré ?",
-     opts:["enivrer","démotiver","exalter","dépiter"],
+     opts:["dépiter","enivrer","démotiver","exalter"],
      ans:"enivrer",
      hint:"This verb comes from 'ivre' (drunk). Baudelaire used it as the title of a famous prose poem."},
 
@@ -125,7 +125,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel adjectif décrit quelqu'un de doux et patient, jamais en colère ?",
-     opts:["débonnaire","farouche","désabusé","dépité"],
+     opts:["désabusé","dépité","débonnaire","farouche"],
      ans:"débonnaire",
      hint:"Louis I, son of Charlemagne, was given this nickname. It meant 'of good lineage' in Old French."}
   ]

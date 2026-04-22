@@ -1,4 +1,4 @@
-// Unit 15 — Opleiding & Toekomst
+// Unit 15. Opleiding & Toekomst
 // Infinitive Constructions & Verb Clusters
 
 export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekomst",sub:"Infinitive Constructions & Verb Clusters",icon:"🎓",level:"B1.1",color:"#7B5EE8",lessons:[

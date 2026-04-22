@@ -1,4 +1,4 @@
-// L06: Handel en Koopmanschap — Trade and Commerce
+// L06: Handel en Koopmanschap. Trade and Commerce
 const LESSON_6 = {
   id:"nlv2_b2gD_l06", title:"Handel en Koopmanschap", icon:"\u{1F4B0}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Wat is een 'gelegenheidsonderneming'?",
-     opts:["Een tijdelijk bedrijf voor een specifieke kans","Een restaurant voor feesten","Een groot internationaal bedrijf","Een overheidsinstelling"],
+     opts:["Een overheidsinstelling","Een tijdelijk bedrijf voor een specifieke kans","Een restaurant voor feesten","Een groot internationaal bedrijf"],
      ans:"Een tijdelijk bedrijf voor een specifieke kans",
      hint:"A business created specifically for an occasion or opportunity. It is temporary and purpose-built."},
 

@@ -1,4 +1,4 @@
-// L14: Business & Industry — 20 B2 gap words
+// L14: Business & Industry, 20 B2 gap words
 const LESSON_14 = {
   id:"nlv2_b2gap_l14", title:"Bedrijf en Industrie", icon:"\uD83C\uDFED", xp:15, board:true,
   steps:[
@@ -105,7 +105,7 @@ const LESSON_14 = {
      deepDive:{title:"The Dutch economy",
       text:"Key facts about the Dutch economy:\n\nGDP per capita: among the highest in Europe\nMain sectors: trade, logistics, agriculture, tech, finance\nPort of Rotterdam: largest in Europe\nSchiphol Airport: fourth-busiest in Europe\n\nFamous Dutch companies:\nShell, Unilever, Philips, ASML, ING, Heineken\n\nASML (in Veldhoven) makes the machines that make computer chips. It is the most valuable company in Europe and essential to global technology."}},
     {type:"mc", q:"What is the difference between 'afzet' and 'omzet'?",
-     opts:["They are identical","Afzet = volume sold, omzet = revenue","Afzet = profit, omzet = loss","Afzet = Belgian, omzet = Dutch"],
+     opts:["Afzet = volume sold, omzet = revenue","Afzet = profit, omzet = loss","Afzet = Belgian, omzet = Dutch","They are identical"],
      ans:"Afzet = volume sold, omzet = revenue",
      hint:"One counts units, the other counts money."},
     {type:"mc", q:"'Anno 2026' implies:",
@@ -127,7 +127,7 @@ const LESSON_14 = {
       {trg:"airline", src:"airline"}
     ]},
     {type:"mc", q:"'Bestselleritis' uses the suffix '-itis' to mean:",
-     opts:["a medical inflammation","an unhealthy obsession (humorous)","a type of bestseller","a publishing award"],
+     opts:["a publishing award","a medical inflammation","an unhealthy obsession (humorous)","a type of bestseller"],
      ans:"an unhealthy obsession (humorous)",
      hint:"Dutch adds '-itis' humorously to criticize excessive focus on something."},
     {type:"fb", s:"Hij heeft een {1} van belangrijkheid.", a:["air"],

@@ -80,7 +80,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Que signifie 's'absenter' ?",
-     opts:["Quitter un lieu temporairement","Refuser une invitation","Oublier un rendez-vous","Annuler un abonnement"],
+     opts:["Annuler un abonnement","Quitter un lieu temporairement","Refuser une invitation","Oublier un rendez-vous"],
      ans:"Quitter un lieu temporairement",
      hint:"A reflexive verb for leaving a place briefly, often used in professional settings."},
 
@@ -137,7 +137,7 @@ const LESSON_1 = {
 
     {type:"mc",
      q:"Quel mot désigne le modèle originel ou l'exemple parfait ?",
-     opts:["l'archétype","l'avènement","l'atrocité","l'abonné"],
+     opts:["l'atrocité","l'abonné","l'archétype","l'avènement"],
      ans:"l'archétype",
      hint:"From Greek, meaning the original pattern. Think Jung's psychology concepts."},
 

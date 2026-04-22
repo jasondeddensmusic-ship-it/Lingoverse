@@ -1,4 +1,4 @@
-// Batch 8 — Unit 35 extra lesson. Innovation: Space & Frontiers
+// Batch 8. Unit 35 extra lesson. Innovation: Space & Frontiers
 const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"🛰️", xp:15, board:true, steps:[
 {type:"intro", title:"Lo spazio e le frontiere",
  desc:"Learn vocabulary for space exploration, cutting-edge technology, and the frontiers of innovation.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"
 
 {type:"mc",
  q:"Where is Italy's top robotics research lab located?",
- opts:["IIT in Genova","CERN in Geneva","MIT in Boston","NASA in Houston"],
+ opts:["NASA in Houston","IIT in Genova","CERN in Geneva","MIT in Boston"],
  ans:"IIT in Genova",
  hint:"The Istituto Italiano di Tecnologia is one of Europe's leading centers for robotics and artificial intelligence."},
 
@@ -93,7 +93,7 @@ const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"
 
 {type:"mc",
  q:"Who was Fibonacci and why is he important?",
- opts:["An Italian mathematician who transmitted Arabic mathematical knowledge to Europe","An Italian astronaut","A rocket engineer","A computer scientist"],
+ opts:["A rocket engineer","A computer scientist","An Italian mathematician who transmitted Arabic mathematical knowledge to Europe","An Italian astronaut"],
  ans:"An Italian mathematician who transmitted Arabic mathematical knowledge to Europe",
  hint:"His 'Liber Abaci' introduced the numeral system used worldwide today. The famous sequence named after him appears everywhere in nature."}
 ,{type:"match",pairs:[{trg:"la robotica",src:"the robotics"}]}]};

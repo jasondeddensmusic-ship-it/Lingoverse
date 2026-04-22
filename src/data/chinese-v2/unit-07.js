@@ -76,7 +76,7 @@ lessons:[
  sSrc:"How is the {1} today?"},
 
 {type:"mc", q:"Which word describes weather that is the OPPOSITE of 热(rè)?",
- opts:["冷(lěng)","大(dà)","好(hǎo)","下雨(xià yǔ)"],
+ opts:["下雨(xià yǔ)","冷(lěng)","大(dà)","好(hǎo)"],
  ans:"冷(lěng)",
  hint:"If 热 means hot, think about what temperature word is its direct opposite."},
 
@@ -160,7 +160,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"Which season is described as 很(hěn)热(rè)也(yě)下雨(xià yǔ)?",
- opts:["春天(chūntiān)","夏天(xiàtiān)","秋天(qiūtiān)","冬天(dōngtiān)"],
+ opts:["夏天(xiàtiān)","秋天(qiūtiān)","冬天(dōngtiān)","春天(chūntiān)"],
  ans:"夏天(xiàtiān)",
  hint:"This season is very hot AND has rain. Think about which time of year is the hottest."},
 
@@ -182,7 +182,7 @@ lessons:[
  sSrc:"Autumn is very {1}, not cold and not hot."},
 
 {type:"mc", q:"冬天(dōngtiān)很(hěn)冷(lěng)。 Which season is this?",
- opts:["Spring","Summer","Autumn","Winter"],
+ opts:["Summer","Autumn","Winter","Spring"],
  ans:"Winter",
  hint:"冬 is the season associated with cold weather and snow."},
 
@@ -270,7 +270,7 @@ lessons:[
  sSrc:"Today is cold, tomorrow is {1} cold."},
 
 {type:"mc", q:"秋天(qiūtiān)比(bǐ)夏天(xiàtiān)凉快(liángkuai)。 Who is cooler?",
- opts:["Autumn is cooler","Summer is cooler","They are equally cool","Neither is cool"],
+ opts:["Summer is cooler","They are equally cool","Neither is cool","Autumn is cooler"],
  ans:"Autumn is cooler",
  hint:"In A 比 B + adj, the thing BEFORE 比 has more of the quality described."},
 
@@ -347,7 +347,7 @@ lessons:[
   text:"Chinese uses different words for old depending on what is old:\n\n旧(jiù) = old/worn (for objects)\n这(zhè)本(běn)书(shū)很(hěn)旧(jiù)。 This book is very old.\n\n老(lǎo) = old/elderly (for people, relationships, long-established things)\n他(tā)很(hěn)老(lǎo)了(le)。 He is very old.\n老朋友(lǎo péngyou) = old friend (long friendship, not age)\n\nUsing 旧 for a person sounds like you are calling them worn-out. Always use 老 for people."}},
 
 {type:"mc", q:"Which sentence uses colors correctly to describe a clear sky?",
- opts:["天(tiān)很(hěn)旧(jiù)。","天(tiān)很(hěn)蓝(lán)。","天(tiān)很(hěn)男(nán)。","天(tiān)很(hěn)洗(xǐ)。"],
+ opts:["天(tiān)很(hěn)蓝(lán)。","天(tiān)很(hěn)男(nán)。","天(tiān)很(hěn)洗(xǐ)。","天(tiān)很(hěn)旧(jiù)。"],
  ans:"天(tiān)很(hěn)蓝(lán)。",
  hint:"Which of the four words is a color that describes the sky on a clear day?"},
 
@@ -377,7 +377,7 @@ lessons:[
  sSrc:"That {1} person is my older brother."},
 
 {type:"mc", q:"你(nǐ)喜欢(xǐhuan)玩(wán)吗(ma)？ What is this question asking?",
- opts:["Do you like to wash?","Do you like to play?","Do you like black?","Do you like old things?"],
+ opts:["Do you like old things?","Do you like to wash?","Do you like to play?","Do you like black?"],
  ans:"Do you like to play?",
  hint:"玩 is the key verb here. Think about what activity people do for fun and leisure."},
 
@@ -388,7 +388,7 @@ lessons:[
  sSrc:"Today is very hot, I want to go and {1}."},
 
 {type:"mc", q:"Which word describes a used, worn-out umbrella but NOT an elderly grandparent?",
- opts:["旧(jiù)","老(lǎo)","男(nán)","白(bái)"],
+ opts:["老(lǎo)","男(nán)","白(bái)","旧(jiù)"],
  ans:"旧(jiù)",
  hint:"One word applies to objects showing wear, while 老 is used for people. Which one is for worn objects only?"},
 

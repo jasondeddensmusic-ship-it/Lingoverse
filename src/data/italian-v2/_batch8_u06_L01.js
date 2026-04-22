@@ -1,4 +1,4 @@
-// Batch 8 — Unit 06 extra lesson. City: Public Services & Civic Life
+// Batch 8. Unit 06 extra lesson. City: Public Services & Civic Life
 const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤", xp:15, board:true, steps:[
 {type:"intro", title:"I servizi pubblici",
  desc:"Learn vocabulary for public services, civic buildings, and everyday errands in an Italian city.",
@@ -80,7 +80,7 @@ const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤",
 
 {type:"mc",
  q:"What is a 'marca da bollo'?",
- opts:["A revenue stamp for official forms","A postage stamp for letters","A parking ticket","A bus pass"],
+ opts:["A bus pass","A revenue stamp for official forms","A postage stamp for letters","A parking ticket"],
  ans:"A revenue stamp for official forms",
  hint:"You buy it at a tabaccheria. Without it on certain documents, the form is not valid."},
 
@@ -93,8 +93,8 @@ const BATCH8_L1 = {id:"itv2_u06l_b8_1", title:"I servizi pubblici", icon:"🏤",
 
 {type:"mc",
  q:"What does ZTL stand for in Italian cities?",
- opts:["Zona Traffico Limitato","Zona Turismo Locale","Zona Taxi Libero","Zona Trasporto Luglio"],
+ opts:["Zona Taxi Libero","Zona Trasporto Luglio","Zona Traffico Limitato","Zona Turismo Locale"],
  ans:"Zona Traffico Limitato",
  hint:"It is a restricted traffic zone in historic city centers. Many tourists get fines for driving into it."}
-,{type:"match",pairs:[{trg:"il documento",src:"the document / ID"},{trg:"la questura",src:"the police headquarters"},{trg:"lo sportello",src:"the counter / window (service)"}]},{type:"mc",q:"How do you say \"post office\" in Italian?",opts:["l'ufficio postale","la finestra","il tavolo","la bicicletta"],ans:"l'ufficio postale",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il documento",src:"the document / ID"},{trg:"la questura",src:"the police headquarters"},{trg:"lo sportello",src:"the counter / window (service)"}]},{type:"mc",q:"How do you say \"post office\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'ufficio postale"],ans:"l'ufficio postale",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

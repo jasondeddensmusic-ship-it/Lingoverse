@@ -98,7 +98,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Que signifie 'feu d'artifice' ?",
-     opts:["fireworks","artificial fire","campfire","wildfire"],
+     opts:["wildfire","fireworks","artificial fire","campfire"],
      ans:"fireworks",
      hint:"This compound expression combines 'fire' with a word meaning cleverness or craft."},
 
@@ -143,7 +143,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"Que veut dire 'avoir de l'allure' ?",
-     opts:["to have style","to walk fast","to be old","to act well"],
+     opts:["to be old","to act well","to have style","to walk fast"],
      ans:"to have style",
      hint:"This expression compliments someone's elegant appearance and stylish presence."},
 

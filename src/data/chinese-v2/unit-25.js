@@ -70,7 +70,7 @@ lessons:[
  sSrc:"Protecting the environment is everyone's {1}."},
 
 {type:"mc", q:"每个(měigè)人(rén)都(dōu)应该(yīnggāi)被(bèi)平等(píngděng)对待(duìdài)。 This means:",
- opts:["Everyone should be treated equally","Everyone should get the same salary","Everyone should have the same job","Everyone should look the same"],
+ opts:["Everyone should look the same","Everyone should be treated equally","Everyone should get the same salary","Everyone should have the same job"],
  ans:"Everyone should be treated equally",
  hint:"平等 means equal, and 对待 means to treat. The sentence advocates for equal treatment regardless of differences."},
 
@@ -136,7 +136,7 @@ lessons:[
  sSrc:"Every citizen should obey the {1}."},
 
 {type:"mc", q:"改革(gǎigé) literally means:",
- opts:["Changing by stripping away the old","Adding new rules","Keeping tradition","Going backwards"],
+ opts:["Going backwards","Changing by stripping away the old","Adding new rules","Keeping tradition"],
  ans:"Changing by stripping away the old",
  hint:"改 means to change, and 革 originally depicted … an animal hide. Reform removes what no longer works."},
 
@@ -216,7 +216,7 @@ lessons:[
  sSrc:"We should oppose any form of {1}."},
 
 {type:"mc", q:"民主(mínzhǔ) literally means:",
- opts:["The people are masters","Government power","Free elections","Equal rights"],
+ opts:["Equal rights","The people are masters","Government power","Free elections"],
  ans:"The people are masters",
  hint:"民 means …, and 主 means master or host. The word captures the idea that the … govern themselves."},
 
@@ -259,7 +259,7 @@ lessons:[
  sSrc:"Everyone has the {1} to receive education."},
 
 {type:"mc", q:"道德(dàodé) and 法律(fǎlǜ) differ because:",
- opts:["Morality relies on self-awareness, law is enforced externally","They are the same thing","Morality is stronger than law","Law came before morality"],
+ opts:["Law came before morality","Morality relies on self-awareness, law is enforced externally","They are the same thing","Morality is stronger than law"],
  ans:"Morality relies on self-awareness, law is enforced externally",
  hint:"道德 depends on personal conscience. 法律 has formal enforcement mechanisms."},
 
@@ -284,7 +284,7 @@ lessons:[
  sSrc:"Even when opinions differ, we should mutually {1} each other."},
 
 {type:"mc", q:"歧视(qíshì) literally means:",
- opts:["Looking at someone as divergent/different","Hitting someone","Ignoring someone","Praising someone"],
+ opts:["Ignoring someone","Praising someone","Looking at someone as divergent/different","Hitting someone"],
  ans:"Looking at someone as divergent/different",
  hint:"歧 means to diverge from the norm, and 视 means to look at. Discrimination is seeing … as 'other.'"},
 
@@ -295,7 +295,7 @@ lessons:[
  hint:"Every citizen has rights and also has obligations. Everyone should be equal before the law."},
 
 {type:"mc", q:"自由(zìyóu) in Chinese discourse is often discussed alongside:",
- opts:["责任(zérèn) responsibility","金钱(jīnqián) money","旅行(lǚxíng) travel","食物(shíwù) food"],
+ opts:["金钱(jīnqián) money","旅行(lǚxíng) travel","食物(shíwù) food","责任(zérèn) responsibility"],
  ans:"责任(zérèn) responsibility",
  hint:"In Chinese thought, freedom and duty are inseparable. One cannot exist meaningfully without the other."}
 ]}

@@ -86,7 +86,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quelle figure de style oppose deux idees contraires pour creer un effet ?",
-     opts:["l'antithese","la metaphore","l'ellipse","la digression"],
+     opts:["la digression","l'antithese","la metaphore","l'ellipse"],
      ans:"l'antithese",
      hint:"Victor Hugo's favorite device. Placing opposites side by side for dramatic contrast."},
 
@@ -113,7 +113,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Quel mot designe la qualite de s'exprimer avec peu de mots ?",
-     opts:["la concision","la digression","la physionomie","la phonetique"],
+     opts:["la physionomie","la phonetique","la concision","la digression"],
      ans:"la concision",
      hint:"Expressing much in few words. Pascal apologized for writing a long letter because he lacked time to shorten it."}
   ]

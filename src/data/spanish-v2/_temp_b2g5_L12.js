@@ -84,7 +84,7 @@ const LESSON_12 = {id:"esv2_b2g5_l12",title:"Comunicación y medios",icon:"📡"
  exampleSrc:"A: Who devised this work plan?\nB: The agency's creative team.",
  funFact:"From Latin idea. 'Idear' implies more creativity than 'planificar' (to plan)."},
 
-{type:"mc",q:"¿Qué es un galicismo?",opts:["Una palabra tomada del francés","Un dialecto de Galicia","Un gráfico de datos","Un tipo de medio digital"],ans:"Una palabra tomada del francés",hint:"A linguistic term for a word borrowed from a specific Romance language spoken in France."},
+{type:"mc",q:"¿Qué es un galicismo?",opts:["Un tipo de medio digital","Una palabra tomada del francés","Un dialecto de Galicia","Un gráfico de datos"],ans:"Una palabra tomada del francés",hint:"A linguistic term for a word borrowed from a specific Romance language spoken in France."},
 
 {type:"fb",s:"La {1} del proyecto está prevista para el mes de septiembre.",a:["finalización"],opts:["finalización","constatación","dinámica","ideología"],hint:"The act of completing or finishing something according to plan.",sSrc:"The {1} of the project is planned for September."},
 
@@ -92,7 +92,7 @@ const LESSON_12 = {id:"esv2_b2g5_l12",title:"Comunicación y medios",icon:"📡"
 
 {type:"fb",s:"El equipo creativo {1} una nueva estrategia de marketing.",a:["ideó"],opts:["ideó","etiquetó","constató","finalizó"],hint:"To think up or devise something creative, from the noun 'idea'.",sSrc:"The creative team {1} a new marketing strategy."},
 
-{type:"mc",q:"¿Qué diferencia hay entre 'computadora' y 'ordenador'?",opts:["'Computadora' es un americanismo, 'ordenador' se usa en España","Son sinónimos exactos en toda España","'Ordenador' solo se usa en Cataluña","'Computadora' es más formal"],ans:"'Computadora' es un americanismo, 'ordenador' se usa en España",hint:"One word is the Latin American term, the other is preferred in Peninsular Spanish."}
+{type:"mc",q:"¿Qué diferencia hay entre 'computadora' y 'ordenador'?",opts:["'Ordenador' solo se usa en Cataluña","'Computadora' es más formal","'Computadora' es un americanismo, 'ordenador' se usa en España","Son sinónimos exactos en toda España"],ans:"'Computadora' es un americanismo, 'ordenador' se usa en España",hint:"One word is the Latin American term, the other is preferred in Peninsular Spanish."}
 ]};
 
 export default LESSON_12;

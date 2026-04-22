@@ -100,7 +100,7 @@ const LESSON_3 = {
      funFact:"The Dutch are unusually open about salaries compared to many cultures. Discussing your 'jaarsalaris' at a dinner party is less taboo than in the UK or US."},
     {type:"mc",
      q:"Welk woord betekent 'jaarlijks rapport van een bedrijf'?",
-     opts:["jaarverslag","jaarsalaris","jaargetij","jaarbasis"],
+     opts:["jaarbasis","jaarverslag","jaarsalaris","jaargetij"],
      ans:"jaarverslag",
      hint:"Combine 'jaar' (year) with 'verslag' (report). What do companies publish every year?"},
     {type:"fb",
@@ -118,7 +118,7 @@ const LESSON_3 = {
     ]},
     {type:"mc",
      q:"Wat betekent 'incasseren' in figuurlijke zin?",
-     opts:["Een klap opvangen","Geld uitgeven","Een contract tekenen","Een bedrijf starten"],
+     opts:["Een contract tekenen","Een bedrijf starten","Een klap opvangen","Geld uitgeven"],
      ans:"Een klap opvangen",
      hint:"Beyond collecting money, this verb is used figuratively for absorbing or enduring something negative."}
   ]

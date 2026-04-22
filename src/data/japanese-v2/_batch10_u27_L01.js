@@ -62,7 +62,7 @@ const BATCH10_L1 = {
 
     {type:"match", pairs:[{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"},{trg:"森林(しんりん)",src:"forest"},{trg:"汚染(おせん)",src:"pollution"}]},
 
-    {type:"mc", q:"Which word means carbon?", opts:["カーボン","リサイクル","絶滅危惧種(ぜつめつきぐしゅ)","砂漠化(さばくか)"], ans:"カーボン",
+    {type:"mc", q:"Which word means carbon?", opts:["砂漠化(さばくか)","カーボン","リサイクル","絶滅危惧種(ぜつめつきぐしゅ)"], ans:"カーボン",
      hint:"This term is essential vocabulary for this topic."}
   ,{type:"match",pairs:[{trg:"地球温暖化(ちきゅうおんだんか)",src:"global warming"}]}]
 };

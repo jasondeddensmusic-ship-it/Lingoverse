@@ -1,4 +1,4 @@
-// French V2 Unit 34 — A1 Vocabulary Expansion
+// French V2 Unit 34. A1 Vocabulary Expansion
 import L16 from './_temp_a1gap_L16.js';
 import L17 from './_temp_a1gap_L17.js';
 import L18 from './_temp_a1gap_L18.js';

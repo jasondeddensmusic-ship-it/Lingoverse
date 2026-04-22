@@ -98,7 +98,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Comment appelle-t-on les symboles h\u00e9raldiques d'une famille ou d'une ville ?",
-     opts:["Les armoiries","Les boiseries","Les chevrons","Les ar\u00eates"],
+     opts:["Les ar\u00eates","Les armoiries","Les boiseries","Les chevrons"],
      ans:"Les armoiries",
      hint:"From 'armes' (weapons). Every French city has them, dating back to medieval times."},
 
@@ -143,7 +143,7 @@ const LESSON_8 = {
 
     {type:"mc",
      q:"Quel mot d\u00e9signe une \u00eele en forme d'anneau form\u00e9e par du corail ?",
-     opts:["Un atoll","Un chevron","Un ch\u00e2ssis","Un crochet"],
+     opts:["Un ch\u00e2ssis","Un crochet","Un atoll","Un chevron"],
      ans:"Un atoll",
      hint:"A ring-shaped coral island, common in the Pacific. France has many in Polynesia."}
   ]

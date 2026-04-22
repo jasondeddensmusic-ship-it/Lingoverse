@@ -92,7 +92,7 @@ const BATCH11_L1 = {
     ]},
 
     {type:"mc", q:"日本(にほん)で子供(こども)に一番(いちばん)よく教(おし)える道徳(どうとく)はなんですか？",
-     opts:["Don't cause trouble for others (迷惑(めいわく)をかけるな)","Always win","Study hard every day","Eat everything on your plate"],
+     opts:["Eat everything on your plate","Don't cause trouble for others (迷惑(めいわく)をかけるな)","Always win","Study hard every day"],
      ans:"Don't cause trouble for others (迷惑(めいわく)をかけるな)",
      hint:"This fundamental moral lesson shapes much of Japanese social behavior, from quiet train rides to tidy public spaces."},
 
@@ -103,7 +103,7 @@ const BATCH11_L1 = {
      sSrc:"Thank you for always helping me. It's mutual."},
 
     {type:"mc", q:"「気(き)を使(つか)う」人(ひと)はどんな人(ひと)ですか？",
-     opts:["Someone who anticipates others' needs","Someone who is selfish","Someone who is quiet","Someone who is strong"],
+     opts:["Someone who is quiet","Someone who is strong","Someone who anticipates others' needs","Someone who is selfish"],
      ans:"Someone who anticipates others' needs",
      hint:"This describes a person who is socially attentive and considerate, proactively caring for those around them."}
   ,{type:"fb", s:"いつも応援(おうえん)してくれて、{1}しています。本当(ほんとう)にありがとう。",

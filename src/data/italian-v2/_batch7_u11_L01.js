@@ -1,4 +1,4 @@
-// Batch 7 — Unit 11 extra lesson. Il passato: Childhood Memories
+// Batch 7. Unit 11 extra lesson. Il passato: Childhood Memories
 const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9F8}", xp:15, board:true, steps:[
 {type:"intro", title:"Ricordi d'infanzia",
  desc:"Talk about childhood memories using the past tense. Learn vocabulary for toys, games, and school memories.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9
 ]},
 
 {type:"mc", q:"Che cos'e la merenda in Italia?",
- opts:["An afternoon snack around 4 PM","A type of pasta","A school exam","A birthday party"],
+ opts:["A birthday party","An afternoon snack around 4 PM","A type of pasta","A school exam"],
  ans:"An afternoon snack around 4 PM",
  hint:"Between lunch and dinner. Pane e Nutella is the most iconic version."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9
  sSrc:"The {1} is too heavy, you have too many books!"},
 
 {type:"mc", q:"Chi ha scritto 'Pinocchio'?",
- opts:["Carlo Collodi","Gianni Rodari","Dante Alighieri","Italo Calvino"],
+ opts:["Dante Alighieri","Italo Calvino","Carlo Collodi","Gianni Rodari"],
  ans:"Carlo Collodi",
  hint:"An Italian author from the 19th century. His wooden puppet became world-famous."},
 

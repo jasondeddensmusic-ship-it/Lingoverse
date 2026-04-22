@@ -72,7 +72,7 @@ const BATCH6_L1 = {
      exampleSrc:"A: Let us secure furniture in preparation for earthquakes.\nB: I bought earthquake-proofing mats.\nA: Were there any problems?\nB: There were some issues, but we resolved them.\nA: How did you resolve them?\nB: We discussed it as a whole team and found the best method.",
      funFact:"備(そな)えあれば憂(うれ)いなし (if you prepare, there is no worry) is a famous Japanese proverb. 備(そな)える culture drives Japan's disaster readiness: earthquake kits, emergency water, flashlights, and portable radios. The word combines 備 (prepare) with the concept of having supplies ready before disaster strikes."},
 
-    {type:"mc", q:"防災(ぼうさい)グッズ are:", opts:["Emergency supplies and equipment","Office supplies","Cooking tools","Sports equipment"], ans:"Emergency supplies and equipment",
+    {type:"mc", q:"防災(ぼうさい)グッズ are:", opts:["Sports equipment","Emergency supplies and equipment","Office supplies","Cooking tools"], ans:"Emergency supplies and equipment",
      hint:"防災(ぼうさい) means disaster prevention, and グッズ means goods/s...."},
 
     {type:"match", pairs:[
@@ -86,7 +86,7 @@ const BATCH6_L1 = {
     {type:"fb", s:"地震(じしん)に{1}て家具(かぐ)を固定(こてい)しましょう。\n(Let us secure furniture in preparation for earthquakes.)", a:"そなえ", opts:["そなえ","なれ","あきらめ","そうだんし"], sSrc:"Let us secure furniture in preparation for earthquakes.",
      hint:"The て-form of the verb meaning to prepare for something in advance."},
 
-    {type:"mc", q:"復興(ふっこう) describes:", opts:["Rebuilding and recovery after disaster","Preventing disasters","Predicting earthquakes","Evacuating to safety"], ans:"Rebuilding and recovery after disaster",
+    {type:"mc", q:"復興(ふっこう) describes:", opts:["Predicting earthquakes","Evacuating to safety","Rebuilding and recovery after disaster","Preventing disasters"], ans:"Rebuilding and recovery after disaster",
      hint:"This word refers to the long-term process of reconstruction."}
   ,{type:"match",pairs:[{trg:"災害(さいがい)",src:"disaster / calamity"},{trg:"警報(けいほう)",src:"warning / alert"},{trg:"緊急(きんきゅう)",src:"emergency / urgent"},{trg:"復興(ふっこう)",src:"reconstruction / recovery"},{trg:"備(そな)える",src:"to prepare (for) / to equip"}]},
   {type:"fb", s:"昨夜(さくや)、大(おお)きな{1}がありました。", a:["地震(じしん)"], opts:["地震(じしん)","台風(たいふう)","避難(ひなん)","警報(けいほう)"], hint:"The natural phenomenon caused by tectonic plate movement under the ground.", sSrc:"There was a large {1} last night."}

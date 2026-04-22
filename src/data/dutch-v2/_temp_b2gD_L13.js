@@ -1,4 +1,4 @@
-// L13: Lichaam en Gezondheid — Body and Health
+// L13: Lichaam en Gezondheid. Body and Health
 const LESSON_13 = {
   id:"nlv2_b2gD_l13", title:"Lichaam en Gezondheid", icon:"\u{1FA7A}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Wat is de 'kers op de taart' als uitdrukking?",
-     opts:["Het mooiste afsluitende detail","Het moeilijkste deel","Het begin van iets","Een recept"],
+     opts:["Een recept","Het mooiste afsluitende detail","Het moeilijkste deel","Het begin van iets"],
      ans:"Het mooiste afsluitende detail",
      hint:"This expression uses a fruit-on-dessert image to describe the perfect finishing touch that makes something complete."},
 

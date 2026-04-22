@@ -1,4 +1,4 @@
-// Batch 2 expansion for Unit 06 (Family) — more family vocab, counting, describing family
+// Batch 2 expansion for Unit 06 (Family), more family vocab, counting, describing family
 const BATCH2_L_1 = {
   id:"jav2_u06l_b2_1", title:"家族(かぞく)を紹介(しょうかい)する", icon:"👨‍👩‍👦", xp:15, board:true,
   steps:[
@@ -30,7 +30,7 @@ const BATCH2_L_1 = {
    exampleSrc:"A: How old is your grandchild?\nB: This year she turns three.",
    funFact:"孫 shows a child (子) connected to a thread (糸), representing the continuation of the family line. In Japanese culture, grandchildren are doted upon. The phrase mago ga kawaii (grandchild is cute) is practically universal among Japanese grandparents."},
 
-  {type:"mc", q:"おじさん (with short i) means:", opts:["grandfather","uncle","father","older brother"], ans:"uncle",
+  {type:"mc", q:"おじさん (with short i) means:", opts:["uncle","father","older brother","grandfather"], ans:"uncle",
    hint:"Be careful with vowel length. Short i = u..., long ii = grandfather."},
 
   {type:"teach", trg:"夫(おっと)", src:"husband (my own, humble)", pos:"noun", gender:null,
@@ -94,10 +94,10 @@ const BATCH2_L_1 = {
   {type:"fb", s:"子供(こども)は{1}います。\n(I have two children.)", a:"二人(ふたり)", opts:["二人(ふたり)","二人(ににん)","二(ふた)つ","二匹(にひき)"], sSrc:"I have two children.",
    hint:"The people counter for two, using the native Japanese number system."},
 
-  {type:"mc", q:"にぎやか describes:", opts:["a quiet place","a lively atmosphere","a cold feeling","a sad mood"], ans:"a lively atmosphere",
+  {type:"mc", q:"にぎやか describes:", opts:["a sad mood","a quiet place","a lively atmosphere","a cold feeling"], ans:"a lively atmosphere",
    hint:"This positive adjective describes a cheerful, bustling environment."},
 
-  {type:"mc", q:"息子(むすこ) means:", opts:["my daughter","someone's son","my son","someone's daughter"], ans:"my son",
+  {type:"mc", q:"息子(むすこ) means:", opts:["someone's daughter","my daughter","someone's son","my son"], ans:"my son",
    hint:"The humble form for YOUR own male child."},
 
   {type:"fb", s:"{1}は何人(なんにん)いますか？\n(How many cousins do you have?)", a:"いとこ", opts:["いとこ","兄弟(きょうだい)","子供(こども)","孫(まご)"], sSrc:"How many cousins do you have?",

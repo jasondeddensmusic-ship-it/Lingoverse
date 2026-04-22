@@ -1,4 +1,4 @@
-// Batch 3 — Unit 22, Lesson 1: Cucina regionale e sport (Regional Cuisine & Sports)
+// Batch 3. Unit 22, Lesson 1: Cucina regionale e sport (Regional Cuisine & Sports)
 const BATCH3_U22_L1 = {
   id:"itv2_u22l_b3_1", title:"Cucina regionale e sport", icon:"\u26BD", xp:15, board:true,
   steps:[
@@ -74,7 +74,7 @@ const BATCH3_U22_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What does 'sagra' refer to in Italian culture?",
-     opts:["A sacred religious ceremony","A local food festival celebrating a specific product","A formal dinner at a restaurant","A cooking competition on television"],
+     opts:["A local food festival celebrating a specific product","A formal dinner at a restaurant","A cooking competition on television","A sacred religious ceremony"],
      ans:"A local food festival celebrating a specific product",
      hint:"Thousands happen yearly across Italy: truffle, wine, porchetta, fish. Community events with f... stalls, music, and dancing."},
 
@@ -104,7 +104,7 @@ const BATCH3_U22_L1 = {
      sSrc:"Italian {1} is famous worldwide."},
 
     {type:"mc", q:"What is special about the Palio di Siena?",
-     opts:["It is a modern Formula 1 car race","It is a bareback horse race between city districts","It is a football tournament","It is a cooking competition"],
+     opts:["It is a cooking competition","It is a modern Formula 1 car race","It is a bareback horse race between city districts","It is a football tournament"],
      ans:"It is a bareback horse race between city districts",
      hint:"Seventeen 'contrade' compete twice yearly around Piazza del Campo. The tradition dates back centuries and rivalry is lifelong."},
 
@@ -115,7 +115,7 @@ const BATCH3_U22_L1 = {
      sSrc:"Every region has its own {1}."},
 
     {type:"mc", q:"Why is switching football teams considered 'treason' in Italy?",
-     opts:["It is actually perfectly normal","Fandom is inherited and lifelong, a core identity","A law prohibits changing teams","Teams charge switching fees"],
+     opts:["A law prohibits changing teams","Teams charge switching fees","It is actually perfectly normal","Fandom is inherited and lifelong, a core identity"],
      ans:"Fandom is inherited and lifelong, a core identity",
      hint:"Children inherit their father's team. 'Tifo' (f...) is compared to a fever. Your team is part of who you are, not a casual preference."}
   ,{type:"match",pairs:[{trg:"il piatto tipico",src:"the typical dish"},{trg:"la sagra",src:"the local food festival"},{trg:"il patrimonio culturale",src:"the cultural heritage"},{trg:"la tradizione",src:"the tradition"}]}]

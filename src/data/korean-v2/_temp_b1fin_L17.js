@@ -38,7 +38,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"'최선을 다하다'의 의미는?",
-     opts:["가장 빨리 하다","가장 노력하다","가장 많이 하다","가장 먼저 하다"],
+     opts:["가장 노력하다","가장 많이 하다","가장 먼저 하다","가장 빨리 하다"],
      ans:"가장 노력하다",
      hint:"This phrase means putting in the greatest possible effort, doing your absolute best."},
 

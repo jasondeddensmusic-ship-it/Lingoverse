@@ -231,10 +231,10 @@ const UNIT_13 = {
 
 {type:"tip", title:"N3 Vocabulary in Context", text:"These 7 words appear frequently on the JLPT N3 exam and in everyday B1-level Japanese:\n- 喜(よろこ)ぶ / 記録(きろく) / 現在(げんざい) are neutral-to-formal.\n- 困難(こんなん) is used in formal speech and writing.\n- 一生懸命(いっしょうけんめい) is universal, spoken and written.\n- 建(た)てる / 理解(りかい) appear in practical and academic contexts.", deepDive:"One key pattern: many N3 nouns become verbs by adding する. 記録(きろく)する (to record), 理解(りかい)する (to understand), 努力(どりょく)する (to make an effort). Mastering this する-verb pattern is essential for JLPT N3 and B1 fluency."},
 
-{type:"mc", q:"喜(よろこ)ぶ means:", opts:["to apologize","to be troubled","to rejoice / be pleased","to refuse"], ans:"to rejoice / be pleased",
+{type:"mc", q:"喜(よろこ)ぶ means:", opts:["to rejoice / be pleased","to refuse","to apologize","to be troubled"], ans:"to rejoice / be pleased",
  hint:"This is a positive emotion verb. Think of celebration and good news."},
 
-{type:"mc", q:"一生懸命(いっしょうけんめい) means:", opts:["a little bit","sometimes","by oneself","with all one's might"], ans:"with all one's might",
+{type:"mc", q:"一生懸命(いっしょうけんめい) means:", opts:["by oneself","with all one's might","a little bit","sometimes"], ans:"with all one's might",
  hint:"This expression describes giving maximum effort, originally from samurai culture."},
 
 {type:"fb", s:"旅行(りょこう)の{1}をつけています。\n(I keep a record of my travels.)", a:"記録(きろく)", opts:["記録(きろく)","現在(げんざい)","理解(りかい)","経験(けいけん)"], sSrc:"I keep a record of my travels.",
@@ -271,13 +271,13 @@ const UNIT_13 = {
    funFact:"起こす and 起きる share the root 起 (rise/get up). Japanese often pairs intransitive and transitive verb forms this way: 始(はじ)まる (it begins) / 始(はじ)める (to begin it); 終(お)わる (it ends) / 終(お)える (to end it). Spotting these pairs accelerates vocabulary growth."},
 
   {type:"teach", trg:"始(はじ)まる", src:"to begin / to start (intransitive)", pos:"verb", gender:null,
-   note:"Godan verb. Subject is the thing that starts (no agent needed).\nCompare: 始(はじ)める (transitive, someone starts something) — taught in Unit 11.",
+   note:"Godan verb. Subject is the thing that starts (no agent needed).\nCompare: 始(はじ)める (transitive, someone starts something), taught in Unit 11.",
    example:"A: 映画(えいが)は何時(なんじ)に始(はじ)まりますか？\nB: 三時(さんじ)に始(はじ)まります。",
    exampleSrc:"A: What time does the movie begin?\nB: It starts at three o'clock.",
    funFact:"始まる marks the event as the subject: 授業(じゅぎょう)が始(はじ)まる (class begins). When YOU start something, use 始める: 授業(じゅぎょう)を始(はじ)める (to start class). Getting this pair right is a key N4 accuracy marker."},
 
   {type:"tip", title:"Transitive vs. Intransitive Verb Pairs",
-   text:"Japanese pairs many verbs: one intransitive (thing acts on its own) and one transitive (person causes it).\n\nIntransitive (subject changes):\n起(お)きる — I wake up\n始(はじ)まる — it begins\n\nTransitive (person causes change):\n起(お)こす — (I) wake (you) up\n始(はじ)める — (I) begin (something)\n\nKey test: can you ask 'who caused it?' If yes, use the transitive form.",
+   text:"Japanese pairs many verbs: one intransitive (thing acts on its own) and one transitive (person causes it).\n\nIntransitive (subject changes):\n起(お)きる. I wake up\n始(はじ)まる, it begins\n\nTransitive (person causes change):\n起(お)こす, (I) wake (you) up\n始(はじ)める, (I) begin (something)\n\nKey test: can you ask 'who caused it?' If yes, use the transitive form.",
    deepDive:{title:"Spotting the pairs",
     text:"Look at the verb endings. A rough pattern:\n-る (intransitive) pairs with -す (transitive):\n起(お)きる / 起(お)こす, 出(で)る / 出(だ)す\n\n-まる (intransitive) pairs with -める (transitive):\n始(はじ)まる / 始(はじ)める, 決(き)まる / 決(き)める\n\nThis is not a rule without exceptions, but knowing it helps you guess correctly ~70% of the time at N4 level."}},
 
@@ -302,20 +302,20 @@ const UNIT_13 = {
   {type:"mc", q:"田中(たなか)さんに会議(かいぎ)の時間(じかん)を___てください。 (Please pass on the meeting time to Mr. Tanaka.)", opts:["伝(つた)え","置(お)き","起(お)こし","始(はじ)め"], ans:"伝(つた)え",
    hint:"The verb meaning 'to convey a message to someone,' used with the に recipient particle."},
 
-  {type:"mc", q:"Which verb means 'to put something down in a spot' (godan, transitive)?", opts:["置(お)く","起(お)きる","伝(つた)える","始(はじ)まる"], ans:"置(お)く",
+  {type:"mc", q:"Which verb means 'to put something down in a spot' (godan, transitive)?", opts:["始(はじ)まる","置(お)く","起(お)きる","伝(つた)える"], ans:"置(お)く",
    hint:"Think of setting an object deliberately somewhere. Godan. Pairs with おいてあります (it has been placed there)."},
 
   {type:"fb", s:"朝(あさ)6時(じ)に起(お)こして{1}か？\n(Could you wake me up at 6 in the morning?)", a:"もらえます", opts:["もらえます","います","きます","あります"], hint:"The polite request form: 'could you do X for me' uses てもらえますか with the te-form of the main verb.", sSrc:"Could you wake me up at 6 in the morning?"},
 
   {type:"fb", s:"映画(えいが)は3時(じ)に{1}まります。\n(The movie starts at 3 o'clock.)", a:"始(はじ)", opts:["始(はじ)","置(お)","伝(つた)","起(お)こ"], hint:"The intransitive verb meaning 'it begins on its own.' The subject is the movie, not a person.", sSrc:"The movie starts at 3 o'clock."},
 
-  {type:"mc", q:"映画館(えいがかん) means:", opts:["movie theater","train station","library","art museum"], ans:"movie theater",
+  {type:"mc", q:"映画館(えいがかん) means:", opts:["library","art museum","movie theater","train station"], ans:"movie theater",
    hint:"映画 = …. The second part is a kanji meaning 'public building or hall.' Where do you watch movies?"},
 
   {type:"fb", s:"待(ま)ち合(あ)わせの{1}はどこにしますか？\n(Where shall we set the meeting place?)", a:"場所(ばしょ)", opts:["場所(ばしょ)","交通(こうつう)","時間(じかん)","映画館(えいがかん)"], hint:"The noun meaning 'place/spot/location,' used for arranging where to meet.", sSrc:"Where shall we set the meeting place?"},
 
-  {type:"mc", q:"この地域(ちいき)の交通(こうつう)はとても便利(べんり)です。 What does 交通 mean here?", opts:["transportation","communication","weather","population"], ans:"transportation",
-   hint:"交通 refers to the movement of people and vehicles — trains, buses, roads. Not to be confused with 通信(つうしん) (communication)."},
+  {type:"mc", q:"この地域(ちいき)の交通(こうつう)はとても便利(べんり)です。 What does 交通 mean here?", opts:["communication","weather","population","transportation"], ans:"transportation",
+   hint:"交通 refers to the movement of people and vehicles, trains, buses, roads. Not to be confused with 通信(つうしん) (communication)."},
 
   {type:"fb", s:"鍵(かぎ)をテーブルの上(うえ)に{1}いてください。\n(Please place the key on top of the table.)", a:"置(お)", opts:["置(お)","伝(つた)","起(お)こ","始(はじ)"], hint:"The godan verb meaning 'to place/put something somewhere.' The object is the key.", sSrc:"Please place the key on top of the table."},
 
@@ -342,7 +342,7 @@ const UNIT_13 = {
    note:"General word for a sound or noise. 音楽(おんがく) = music (sound + enjoy).\nDifferent from 声(こえ) which is a voice.",
    example:"A: 外(そと)から大(おお)きな音(おと)が聞(き)こえます。\nB: 何(なに)の音(おと)ですか？\nA: 音楽(おんがく)の音(おと)だと思(おも)います。\nB: そうですね。お祭(まつ)りかもしれません。",
    exampleSrc:"A: I can hear a loud sound from outside.\nB: What kind of sound is it?\nA: I think it is the sound of music.\nB: Yes, it might be a festival.",
-   funFact:"音 appears in many compound words: 音楽(おんがく) (music), 音声(おんせい) (voice/audio), 発音(はつおん) (pronunciation), 騒音(そうおん) (noise/din). The kanji itself shows a standing figure making a sound — 立(たつ) + 日 gives the sense of something standing and resonating."},
+   funFact:"音 appears in many compound words: 音楽(おんがく) (music), 音声(おんせい) (voice/audio), 発音(はつおん) (pronunciation), 騒音(そうおん) (noise/din). The kanji itself shows a standing figure making a sound, 立(たつ) + 日 gives the sense of something standing and resonating."},
 
   {type:"teach", trg:"会話(かいわ)", src:"conversation / dialogue", pos:"noun", gender:null,
    phonetic:"kaiwa",
@@ -385,7 +385,7 @@ const UNIT_13 = {
   {type:"tip", title:"入口 and 出口: Compound nouns with 口",
    text:"口(くち) alone means 'mouth.' As a suffix, it means 'opening' or 'gate.'\n\n入口(いりぐち) = entrance (entering + opening)\n出口(でぐち) = exit (exiting + opening)\n改札口(かいさつぐち) = ticket gate\n窓口(まどぐち) = service counter\n北口(きたぐち) = north exit\n\nSpotting 口 at the end of a compound tells you it is a physical opening or access point.",
    deepDive:{title:"Reading stations and buildings",
-    text:"In Japan, every 駅(えき) (station) posts 入口 and 出口 signs. Large stations split into multiple named 口. Learning this pattern means you can read exit signs, shop entrances, and office buildings — essential practical reading at N4 level.\n\nThe pair to learn: 入口 (going in) / 出口 (going out). They share 口 and are always displayed together."}},
+    text:"In Japan, every 駅(えき) (station) posts 入口 and 出口 signs. Large stations split into multiple named 口. Learning this pattern means you can read exit signs, shop entrances, and office buildings, essential practical reading at N4 level.\n\nThe pair to learn: 入口 (going in) / 出口 (going out). They share 口 and are always displayed together."}},
 
   {type:"teach", trg:"生活(せいかつ)", src:"life / daily life / lifestyle", pos:"noun", gender:null,
    phonetic:"seikatsu",
@@ -406,7 +406,7 @@ const UNIT_13 = {
    note:"世界中(せかいじゅう) = throughout the world / around the world.\n世界記録(せかいきろく) = world record.",
    example:"A: 世界(せかい)にはたくさんの言語(げんご)がありますね。\nB: はい、七千(ななせん)以上(いじょう)の言語(げんご)があると言(い)われています。",
    exampleSrc:"A: There are many languages in the world, aren't there.\nB: Yes, it is said that there are over seven thousand languages.",
-   funFact:"世界 combines 世 (world/generation) and 界 (boundary/world). The phrase 世界中(せかいじゅう)で (throughout the world) appears in news and travel writing. 世界遺産(せかいいさん) = World Heritage Site — Japan has 25, the 3rd most in Asia."},
+   funFact:"世界 combines 世 (world/generation) and 界 (boundary/world). The phrase 世界中(せかいじゅう)で (throughout the world) appears in news and travel writing. 世界遺産(せかいいさん) = World Heritage Site. Japan has 25, the 3rd most in Asia."},
 
   {type:"mc", q:"今度(こんど) most naturally means in the sentence 今度(こんど)また行(い)きましょう:", opts:["a long time ago","next time / again soon","every day","last time"], ans:"next time / again soon",
    hint:"今度 pairs 今 (now) with 度 (occurrence/counter). With また it conveys doing something once more in the near future."},
@@ -417,7 +417,7 @@ const UNIT_13 = {
   {type:"fb", s:"日本(にほん)での{1}に慣(な)れましたか？\n(Have you gotten used to daily life in Japan?)", a:"生活(せいかつ)", opts:["生活(せいかつ)","時代(じだい)","会話(かいわ)","言語(げんご)"], sSrc:"Have you gotten used to daily life in Japan?",
    hint:"The noun meaning 'daily life / lifestyle,' often used with する to mean 'to live.'"},
 
-  {type:"mc", q:"世界(せかい)にはたくさんの言語(げんご)がある。 What do both words mean?", opts:["world; language","history; dialect","era; alphabet","culture; grammar"], ans:"world; language",
+  {type:"mc", q:"世界(せかい)にはたくさんの言語(げんご)がある。 What do both words mean?", opts:["era; alphabet","culture; grammar","world; language","history; dialect"], ans:"world; language",
    hint:"世界 uses 世 (generation) and 界 (boundary). 言語 uses 言 (words) and 語 (speak). Both appear on the N4 word list."},
 
   {type:"fb", s:"かばんにほんを{1}てください。\n(Please put the book in the bag.)", a:"入(い)れ", opts:["入(い)れ","出(だ)し","置(お)き","伝(つた)え"], sSrc:"Please put the book in the bag.",

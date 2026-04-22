@@ -92,7 +92,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot decrit la perte de motivation chez les employes ?",
-     opts:["la demotivation","la defaillance","la dietetique","l'asymetrie"],
+     opts:["l'asymetrie","la demotivation","la defaillance","la dietetique"],
      ans:"la demotivation",
      hint:"The loss of enthusiasm or drive. Think of the prefix 'de-' removing 'motivation'."},
 
@@ -143,7 +143,7 @@ const LESSON_4 = {
 
     {type:"mc",
      q:"Quel mot designe un message urgent d'une agence de presse ?",
-     opts:["une depeche","une detonation","une denaturation","une defaillance"],
+     opts:["une denaturation","une defaillance","une depeche","une detonation"],
      ans:"une depeche",
      hint:"An urgent news report or telegram. The AFP sends these every day."},
 

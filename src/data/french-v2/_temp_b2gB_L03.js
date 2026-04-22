@@ -76,7 +76,7 @@ const LESSON_3 = {
      sSrc:"The {1} of higher education enabled access for all."},
 
     {type:"mc", q:"Que signifie 'faire preuve de ponderation'?",
-     opts:["Montrer de la retenue","Faire un calcul","Prendre du poids","Etre indecis"],
+     opts:["Etre indecis","Montrer de la retenue","Faire un calcul","Prendre du poids"],
      ans:"Montrer de la retenue",
      hint:"This expression describes calm, measured behavior in difficult situations"},
 
@@ -93,7 +93,7 @@ const LESSON_3 = {
      sSrc:"The report's {1} must be followed."},
 
     {type:"mc", q:"Le PCF signifie:",
-     opts:["Parti communiste francais","Parti conservateur francais","Parti centriste federal","Parti citoyen fondateur"],
+     opts:["Parti centriste federal","Parti citoyen fondateur","Parti communiste francais","Parti conservateur francais"],
      ans:"Parti communiste francais",
      hint:"This political party was very influential in post-war France"},
 
@@ -103,7 +103,7 @@ const LESSON_3 = {
      sSrc:"Self-{1} is essential for succeeding in politics."},
 
     {type:"mc", q:"'Sans preambule' signifie:",
-     opts:["Sans introduction","Sans permission","Sans raison","Sans conclusion"],
+     opts:["Sans permission","Sans raison","Sans conclusion","Sans introduction"],
      ans:"Sans introduction",
      hint:"A preamble comes at the beginning of something, so without it means..."},
 

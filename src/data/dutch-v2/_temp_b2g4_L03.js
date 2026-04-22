@@ -1,4 +1,4 @@
-// L03: Thinking & Defining — 20 B2 gap words
+// L03: Thinking & Defining, 20 B2 gap words
 const LESSON_3 = {
   id:"nlv2_b2g4_l3", title:"Denken en Definiëren", icon:"\uD83E\uDDE0", xp:15, board:true,
   steps:[
@@ -108,7 +108,7 @@ const LESSON_3 = {
      hint:"The energy and interaction patterns within a group.",
      sSrc:"The dynamics in the team have changed."},
     {type:"mc", q:"Which word means 'humanities' in Dutch?",
-     opts:["de geesteswetenschap","de denktank","de denkwijze","de diepgang"],
+     opts:["de diepgang","de geesteswetenschap","de denktank","de denkwijze"],
      ans:"de geesteswetenschap",
      hint:"Literally 'science of the spirit/mind'. The academic disciplines."},
     {type:"fb", s:"Dat staat {1} in het contract.", a:["expliciet"],
@@ -126,7 +126,7 @@ const LESSON_3 = {
      hint:"Intellectual depth or profundity, what a shallow talk lacks.",
      sSrc:"The conversation lacked depth."},
     {type:"mc", q:"'Geconcentreerd' can mean both 'focused' and:",
-     opts:["confused","concentrated (liquid)","exhausted","organized"],
+     opts:["organized","confused","concentrated (liquid)","exhausted"],
      ans:"concentrated (liquid)",
      hint:"Think of orange juice that has had water removed."},
     {type:"match", pairs:[

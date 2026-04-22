@@ -100,7 +100,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"How do Italians ask 'how old are you?'",
-     opts:["Quanti anni hai?","Quanto sei vecchio?","Che eta hai?","Come sei grande?"],
+     opts:["Come sei grande?","Quanti anni hai?","Quanto sei vecchio?","Che eta hai?"],
      ans:"Quanti anni hai?",
      hint:"Italians 'have' years, not 'are' years. The question literally asks 'how many years do you have?'"},
 
@@ -111,7 +111,7 @@ const LESSON_4 = {
      sSrc:"Today is the {1} of April."},
 
     {type:"mc", q:"Which season is feminine in Italian?",
-     opts:["La primavera and l'estate","L'autunno and l'inverno","All of them","None of them"],
+     opts:["All of them","None of them","La primavera and l'estate","L'autunno and l'inverno"],
      ans:"La primavera and l'estate",
      hint:"Two seasons are feminine, two are masculine. Check the articles: 'la' signals feminine."},
 
@@ -122,7 +122,7 @@ const LESSON_4 = {
      sSrc:"How many {1} does a year have?"},
 
     {type:"mc", q:"What is special about 'Ferragosto'?",
-     opts:["August 15th national holiday","A spring festival","New Year's Eve","A season name"],
+     opts:["A spring festival","New Year's Eve","A season name","August 15th national holiday"],
      ans:"August 15th national holiday",
      hint:"This mid-summer date empties Italian cities as nearly everyone goes on vacation. Named after a Roman emperor."},
 

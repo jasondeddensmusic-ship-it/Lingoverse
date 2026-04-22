@@ -1,4 +1,4 @@
-// Lesson 6 — Law & Justice
+// Lesson 6. Law & Justice
 const LESSON_6 = {id:"nlv2_b2g8_l6", title:"Recht en Justitie", icon:"\u{2696}", xp:20, board:true, steps:[
 {type:"intro", title:"Recht en Justitie", desc:"Legal and judicial vocabulary for understanding Dutch news, court proceedings, and crime reporting. Essential for reading broadsheet newspapers.", goals:["Learn 10 law and justice words","Discuss criminal behavior and justice","Understand Dutch legal terminology"]},
 {type:"teach", trg:"de inbraak", src:"the burglary", pos:"noun", gender:"c", note:"De-word. Plural: inbraken.\n'Een inbraak plegen' = to commit a burglary.\nFrom 'inbreken' (to break in).", example:"A: Er was een inbraak in onze straat.\nB: Dat is schrikken! Is er veel gestolen?\nA: Ja, sieraden en een laptop.\nB: Hebben ze de dader gevonden?", exampleSrc:"A: There was a burglary in our street.\nB: That is alarming! Was a lot stolen?\nA: Yes, jewelry and a laptop.\nB: Have they found the perpetrator?", funFact:"The Netherlands has seen a significant decrease in burglaries since 2012, partly due to better locks and surveillance."},

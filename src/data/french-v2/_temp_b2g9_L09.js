@@ -1,4 +1,4 @@
-// French B2 Gap Batch 9 — Lesson 9: Verbes Avancés I
+// French B2 Gap Batch 9. Lesson 9: Verbes Avancés I
 // Advanced verbs: actions and processes
 
 const LESSON_9 = {id:"frv2_b2g9_l9", title:"Verbes Avancés I", icon:"🔧", xp:15, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_9 = {id:"frv2_b2g9_l9", title:"Verbes Avancés I", icon:"🔧", xp:
    exampleSrc:"A: They had dressed him up in a ridiculous costume.\nB: He couldn't refuse at the carnival.",
    funFact:"From Old French afubler (to put on a cloak). The negative meaning developed over centuries."},
 
-  {type:"mc", q:"'S'obstiner' a une connotation:", opts:["Positive: persévérer avec courage","Négative: insister malgré la raison","Neutre: continuer normalement","Positive: être déterminé"], ans:"Négative: insister malgré la raison",
+  {type:"mc", q:"'S'obstiner' a une connotation:", opts:["Négative: insister malgré la raison","Neutre: continuer normalement","Positive: être déterminé","Positive: persévérer avec courage"], ans:"Négative: insister malgré la raison",
    hint:"Unlike persévérer which is positive, this verb implies irrational stubbornness."},
 
   {type:"teach", trg:"dépeigner", src:"to mess up someone's hair", pos:"verb", gender:null,
@@ -111,7 +111,7 @@ const LESSON_9 = {id:"frv2_b2g9_l9", title:"Verbes Avancés I", icon:"🔧", xp:
     {trg:"accoler", src:"to place side by side"}
   ]},
 
-  {type:"mc", q:"En argot étudiant, 'cuber' signifie:", opts:["Calculer des volumes","Redoubler la deuxième année de prépa","Jouer aux dés","Construire un cube"], ans:"Redoubler la deuxième année de prépa",
+  {type:"mc", q:"En argot étudiant, 'cuber' signifie:", opts:["Construire un cube","Calculer des volumes","Redoubler la deuxième année de prépa","Jouer aux dés"], ans:"Redoubler la deuxième année de prépa",
    hint:"Carré = second year of prep school. Cube = doing it again. Math metaphor."},
 
   {type:"fb", s:"Le vent l'a complètement {1}.", a:["dépeigné"], opts:["dépeigné","narcotisé","mansardé","accolé"],

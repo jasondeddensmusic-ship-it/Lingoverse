@@ -1,4 +1,4 @@
-// L12: Vrije Tijd en Hobby's — Leisure and Hobbies
+// L12: Vrije Tijd en Hobby's. Leisure and Hobbies
 const LESSON_12 = {
   id:"nlv2_b2gD_l12", title:"Vrije Tijd en Hobby's", icon:"\u{1F3AF}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Wat is een 'kapsalon'?",
-     opts:["Een gerecht met kebab, friet, kaas en salade","Een kapper","Een sporthal","Een cafe"],
+     opts:["Een cafe","Een gerecht met kebab, friet, kaas en salade","Een kapper","Een sporthal"],
      ans:"Een gerecht met kebab, friet, kaas en salade",
      hint:"This Rotterdam invention shares its name with a hair salon. It's a popular street food dish combining several layers."},
 

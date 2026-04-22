@@ -83,7 +83,7 @@ lessons:[
  sSrc:"China has five thousand years of {1}."},
 
 {type:"mc", q:"古代(gǔdài) and 现代(xiàndài) are opposites. What divides them?",
- opts:["The character 代 means 'era'; 古 means 'old' and 现 means 'present'","They use different tones","One is a verb and one is a noun","They refer to the same time period"],
+ opts:["They refer to the same time period","The character 代 means 'era'; 古 means 'old' and 现 means 'present'","They use different tones","One is a verb and one is a noun"],
  ans:"The character 代 means 'era'; 古 means 'old' and 现 means 'present'",
  hint:"Both words share 代 (___/gen___tion). The first ___ tells you WHICH ___."},
 
@@ -171,7 +171,7 @@ lessons:[
  sSrc:"The Great Wall is an important cultural {1}."},
 
 {type:"mc", q:"改革(gǎigé) and 革命(gémìng) both contain 革. How do they differ?",
- opts:["改革 is gradual change within a system; 革命 is fundamental overthrow","They mean exactly the same thing","改革 is violent and 革命 is peaceful","改革 applies only to economics"],
+ opts:["改革 applies only to economics","改革 is gradual change within a system; 革命 is fundamental overthrow","They mean exactly the same thing","改革 is violent and 革命 is peaceful"],
  ans:"改革 is gradual change within a system; 革命 is fundamental overthrow",
  hint:"改 means 'correct/adjust' while 命 means 'mandate/fate.' One corrects ___ the ___, the other changes it entirely."},
 

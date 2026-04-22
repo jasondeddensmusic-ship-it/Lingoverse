@@ -80,7 +80,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Waarom is de Nederlandse werkcultuur bijzonder?",
-     opts:["Bedrijven zijn relatief niet-hiërarchisch","Werknemers dragen altijd een pak","Iedereen werkt meer dan 50 uur per week","De baas wordt altijd met 'u' aangesproken"],
+     opts:["De baas wordt altijd met 'u' aangesproken","Bedrijven zijn relatief niet-hiërarchisch","Werknemers dragen altijd een pak","Iedereen werkt meer dan 50 uur per week"],
      ans:"Bedrijven zijn relatief niet-hiërarchisch",
      hint:"Think about the Dutch preference for flat organizational structures and first-name basis with bosses."},
 
@@ -100,7 +100,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Wat is een 'holding'?",
-     opts:["Een bedrijf dat andere bedrijven bezit","Een sportteam","Een type verzekering","Een soort contract"],
+     opts:["Een type verzekering","Een soort contract","Een bedrijf dat andere bedrijven bezit","Een sportteam"],
      ans:"Een bedrijf dat andere bedrijven bezit",
      hint:"This English loanword describes a parent company that controls subsidiary companies."}
   ]

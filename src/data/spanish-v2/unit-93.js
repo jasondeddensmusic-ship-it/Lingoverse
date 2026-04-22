@@ -1,4 +1,4 @@
-// Spanish V2 Unit 93 — B2 PCIC Civic Vocabulary
+// Spanish V2 Unit 93. B2 PCIC Civic Vocabulary
 import LESSON_11 from './_temp_esB2fin_L11.js';
 
 import COVERAGE_U93 from './_coverage_u93.js';

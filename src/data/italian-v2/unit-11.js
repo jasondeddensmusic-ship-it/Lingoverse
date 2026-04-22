@@ -365,7 +365,7 @@ const UNIT_11 = {
        deepDive:"At A2 level, use 'pensare che' and 'credere che' with indicative for everyday speech. The subjunctive (penso che sia...) is a B1 feature. At this stage, focus on the vocabulary and structure: decide + di + infinitive is immediately usable and very common."},
 
       {type:"mc", q:"Which Italian word means 'to believe'?",
-       opts:["pensare","credere","decidere","spiegare"],
+       opts:["credere","decidere","spiegare","pensare"],
        ans:"credere",
        hint:"This verb shares a root with English 'credit' and 'credible.'"},
 
@@ -387,7 +387,7 @@ const UNIT_11 = {
        sSrc:"I feel very {1} today."},
 
       {type:"mc", q:"What gender is 'la malattia'?",
-       opts:["masculine","feminine","neuter","it changes with context"],
+       opts:["it changes with context","masculine","feminine","neuter"],
        ans:"feminine",
        hint:"Look at the article used with this noun. Italian articles always signal the gender."},
 

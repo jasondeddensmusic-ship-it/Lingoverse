@@ -49,7 +49,7 @@ const LESSON_9 = {
      funFact:"From Latin 'suffragium' (voting tablet). The suffragette movement fought for women's right to vote."},
 
     {type:"mc", q:"¿Qué es una 'coalición' en política?",
-     opts:["Un tipo de elección","Una alianza entre partidos para gobernar","Un referéndum popular","Una protesta ciudadana"],
+     opts:["Una alianza entre partidos para gobernar","Un referéndum popular","Una protesta ciudadana","Un tipo de elección"],
      ans:"Una alianza entre partidos para gobernar",
      hint:"This is formed when no single party has enough seats to govern, so multiple parties join forces."},
 
@@ -130,7 +130,7 @@ const LESSON_9 = {
     ]},
 
     {type:"mc", q:"¿Qué significa una tasa de abstención alta?",
-     opts:["Que muchos votaron","Que muchos eligieron no votar","Que hubo fraude electoral","Que ganó la coalición"],
+     opts:["Que ganó la coalición","Que muchos votaron","Que muchos eligieron no votar","Que hubo fraude electoral"],
      ans:"Que muchos eligieron no votar",
      hint:"This rate measures the percentage of eligible voters who chose to stay away from the polls."},
 
@@ -147,7 +147,7 @@ const LESSON_9 = {
     ]},
 
     {type:"mc", q:"¿Qué documento publica un partido político con sus objetivos antes de las elecciones?",
-     opts:["Un referéndum","Un manifiesto","Una reforma","Una sentencia"],
+     opts:["Una reforma","Una sentencia","Un referéndum","Un manifiesto"],
      ans:"Un manifiesto",
      hint:"This public declaration outlines the party's goals, values, and policy proposals."}
   ]

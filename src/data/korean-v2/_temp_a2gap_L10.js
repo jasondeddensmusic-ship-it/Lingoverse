@@ -40,7 +40,7 @@ const LESSON_10 = {
     // --- Quiz block 1 ---
     {type:"mc",
      q:"'백화점'은 어떤 곳이에요?",
-     opts:["작은 과일 가게","책을 파는 곳","큰 가게, 여러 가지를 파는 곳","음식을 파는 시장"],
+     opts:["큰 가게, 여러 가지를 파는 곳","음식을 파는 시장","작은 과일 가게","책을 파는 곳"],
      ans:"큰 가게, 여러 가지를 파는 곳",
      hint:"The hanja literally means 'hundred goods store,' selling many different types of products."},
 
@@ -92,7 +92,7 @@ const LESSON_10 = {
     // --- Quiz block 2 ---
     {type:"mc",
      q:"'구경하러 왔어요'는 무슨 뜻이에요?",
-     opts:["보러 왔어요","사러 왔어요","먹으러 왔어요","공부하러 왔어요"],
+     opts:["공부하러 왔어요","보러 왔어요","사러 왔어요","먹으러 왔어요"],
      ans:"보러 왔어요",
      hint:"This means you came just to browse and look around, not to make a purchase."},
 
@@ -131,7 +131,7 @@ const LESSON_10 = {
     // --- Quiz block 3 ---
     {type:"mc",
      q:"'양복'에서 '양'은 무슨 뜻이에요?",
-     opts:["동양, 동쪽","서양, 서쪽","한국","좋은"],
+     opts:["좋은","동양, 동쪽","서양, 서쪽","한국"],
      ans:"서양, 서쪽",
      hint:"This hanja character refers to the Western world or the ocean. Think of where suits originated."},
 
@@ -179,7 +179,7 @@ const LESSON_10 = {
 
     {type:"mc",
      q:"일상에서 '사용하다' 대신 뭐라고 해요?",
-     opts:["먹다","보다","쓰다","하다"],
+     opts:["하다","먹다","보다","쓰다"],
      ans:"쓰다",
      hint:"In casual daily speech, Koreans use a shorter native word that also means 'to write.'"}
   ]

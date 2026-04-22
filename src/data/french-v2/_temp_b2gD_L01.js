@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 1 — Justice and Law
+// French B2 Gap Batch D Lesson 1. Justice and Law
 const LESSON_1 = {id:"frv2_b2gD_l1", title:"Justice et droit", icon:"⚖️", xp:15, board:true, steps:[
   {type:"intro", title:"Justice et droit",
    desc:"Build vocabulary for discussing the legal system, crime, and justice in French.",
@@ -73,7 +73,7 @@ const LESSON_1 = {id:"frv2_b2gD_l1", title:"Justice et droit", icon:"⚖️", xp
 
   {type:"mc",
    q:"Que signifie 'être en proie à la panique'?",
-   opts:["Être submergé par la panique","Chasser quelqu'un en panique","Fuir un prédateur","Provoquer la panique chez les autres"],
+   opts:["Provoquer la panique chez les autres","Être submergé par la panique","Chasser quelqu'un en panique","Fuir un prédateur"],
    ans:"Être submergé par la panique",
    hint:"The expression means to be seized or overwhelmed by something negative."},
 
@@ -94,7 +94,7 @@ const LESSON_1 = {id:"frv2_b2gD_l1", title:"Justice et droit", icon:"⚖️", xp
 
   {type:"mc",
    q:"Quel mot décrit un collègue dans la même profession, surtout chez les avocats?",
-   opts:["un confrère","un pourvoyeur","un prévenu","un prédateur"],
+   opts:["un prévenu","un prédateur","un confrère","un pourvoyeur"],
    ans:"un confrère",
    hint:"This word literally means 'fellow brother' and is used among professionals like lawyers and doctors."}
 ]};

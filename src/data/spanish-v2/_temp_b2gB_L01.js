@@ -1,4 +1,4 @@
-// B2 Gap Batch B Lesson 01 — Business & Negotiation
+// B2 Gap Batch B Lesson 01. Business & Negotiation
 const LESSON_1 = {id:"esv2_b2gB_l1",title:"Negocios y negociaciones",icon:"🤝",xp:15,board:true,steps:[
 {type:"intro",title:"Negocios y negociaciones",desc:"Master the language of business negotiations, corporate roles, and professional agreements in Spanish.",goals:["Learn 12 words related to business and negotiation","Discuss corporate structures and deals","Use formal register in professional contexts"]},
 
@@ -73,7 +73,7 @@ const LESSON_1 = {id:"esv2_b2gB_l1",title:"Negocios y negociaciones",icon:"🤝"
  funFact:"Spain requires mediation attempts before certain types of lawsuits can proceed."},
 
 {type:"mc",q:"¿Qué aparece en una nómina?",
- opts:["El salario y las deducciones del trabajador","Los productos de una tienda","Las notas de un estudiante","Los horarios de los trenes"],
+ opts:["Los horarios de los trenes","El salario y las deducciones del trabajador","Los productos de una tienda","Las notas de un estudiante"],
  ans:"El salario y las deducciones del trabajador",
  hint:"Think about what a worker receives at the end of each month showing their earnings."},
 
@@ -97,7 +97,7 @@ const LESSON_1 = {id:"esv2_b2gB_l1",title:"Negocios y negociaciones",icon:"🤝"
  sSrc:"The project {1} organized all the team meetings."},
 
 {type:"mc",q:"¿Cuál es la función de un mediador?",
- opts:["Ayudar a resolver conflictos de forma neutral","Dirigir una empresa","Vender productos financieros","Escribir contratos legales"],
+ opts:["Vender productos financieros","Escribir contratos legales","Ayudar a resolver conflictos de forma neutral","Dirigir una empresa"],
  ans:"Ayudar a resolver conflictos de forma neutral",
  hint:"This person does not take sides. They help two parties find common ground."},
 

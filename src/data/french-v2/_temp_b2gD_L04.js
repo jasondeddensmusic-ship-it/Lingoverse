@@ -1,4 +1,4 @@
-// French B2 Gap Batch D Lesson 4 — Psychology and Emotions
+// French B2 Gap Batch D Lesson 4. Psychology and Emotions
 const LESSON_4 = {id:"frv2_b2gD_l4", title:"Psychologie et émotions", icon:"🧠", xp:15, board:true, steps:[
   {type:"intro", title:"Psychologie et émotions",
    desc:"Develop vocabulary for discussing psychological states, emotional intelligence, and mental processes.",
@@ -73,7 +73,7 @@ const LESSON_4 = {id:"frv2_b2gD_l4", title:"Psychologie et émotions", icon:"�
 
   {type:"mc",
    q:"Quel mot décrit un comportement hostile ou violent?",
-   opts:["L'agressivité","La petitesse","Le penchant","La grossièreté"],
+   opts:["La grossièreté","L'agressivité","La petitesse","Le penchant"],
    ans:"L'agressivité",
    hint:"This word specifically describes forceful, hostile behavior that can be physical or verbal."},
 

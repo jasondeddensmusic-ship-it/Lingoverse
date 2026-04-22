@@ -1,4 +1,4 @@
-// Spanish V2 Unit 57 — B2 Vocabulary Batch 5
+// Spanish V2 Unit 57. B2 Vocabulary Batch 5
 import L11 from './_temp_b2g5_L11.js';
 import L12 from './_temp_b2g5_L12.js';
 import L13 from './_temp_b2g5_L13.js';

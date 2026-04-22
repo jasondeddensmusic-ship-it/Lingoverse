@@ -90,7 +90,7 @@ const LESSON_13 = {
      funFact:"Privacy-conscious Dutch people are increasingly aware of IP addresses. The GDPR (AVG in Dutch) classifies IP addresses as personal data."},
     {type:"mc",
      q:"Wat is een 'beleidsmens'?",
-     opts:["Iemand die denkt in regels en procedures","Een politicus","Een ambtenaar die beleid uitvoert","Een consultant"],
+     opts:["Een consultant","Iemand die denkt in regels en procedures","Een politicus","Een ambtenaar die beleid uitvoert"],
      ans:"Iemand die denkt in regels en procedures",
      hint:"Beleid (policy) + mens (person). This describes someone's personality or working style, not their job title."},
     {type:"fb",
@@ -101,7 +101,7 @@ const LESSON_13 = {
      sSrc:"There are three {1} that we need to discuss in the meeting."},
     {type:"mc",
      q:"Is een 'intentieverklaring' juridisch bindend?",
-     opts:["Nee, het is een niet-bindende verklaring van intentie","Ja, het is een geldig contract","Alleen als beide partijen tekenen","Dat hangt af van het bedrag"],
+     opts:["Alleen als beide partijen tekenen","Dat hangt af van het bedrag","Nee, het is een niet-bindende verklaring van intentie","Ja, het is een geldig contract"],
      ans:"Nee, het is een niet-bindende verklaring van intentie",
      hint:"Despite being a formal document, this declaration only expresses intent. It is not the same as a contract."}
   ]

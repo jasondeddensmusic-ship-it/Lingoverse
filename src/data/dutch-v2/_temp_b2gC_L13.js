@@ -1,4 +1,4 @@
-// L13: Recht en Politiek — Law and Politics
+// L13: Recht en Politiek. Law and Politics
 const LESSON_13 = {
   id:"nlv2_b2gC_l13", title:"Recht en Politiek", icon:"\u2696\uFE0F", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"'De aangeklaagde' is de persoon die:",
-     opts:["Iemand aanklaagt","Beschuldigd wordt van een misdrijf","De rechter is","Getuigt in de rechtszaal"],
+     opts:["Beschuldigd wordt van een misdrijf","De rechter is","Getuigt in de rechtszaal","Iemand aanklaagt"],
      ans:"Beschuldigd wordt van een misdrijf",
      hint:"The 'aan-ge-klaagd-e' is the one who has been accused. The passive form of 'aanklagen'."},
 
@@ -95,7 +95,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Welk politiek systeem heeft Nederland?",
-     opts:["Tweepartijenstelsel","Proportionele vertegenwoordiging met veel partijen","Presidentieel systeem","Eenpartijstaat"],
+     opts:["Eenpartijstaat","Tweepartijenstelsel","Proportionele vertegenwoordiging met veel partijen","Presidentieel systeem"],
      ans:"Proportionele vertegenwoordiging met veel partijen",
      hint:"Many parties, coalition governments, and lots of compromise. Very different from the UK or US."},
 

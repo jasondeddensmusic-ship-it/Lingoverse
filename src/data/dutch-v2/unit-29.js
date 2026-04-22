@@ -1,4 +1,4 @@
-// Unit 29 — Debat & Argumentatie
+// Unit 29. Debat & Argumentatie
 // Counter-arguments, Concession & Persuasion
 
 export default {n:29,lang:"nl",srcLang:"en",track:"v2",title:"Debat & Argumentatie",sub:"Counter-arguments, Concession & Persuasion",icon:"⚖️",level:"B2.2",color:"#7B5EE8",lessons:[

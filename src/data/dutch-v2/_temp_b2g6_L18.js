@@ -81,7 +81,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Wat is een 'event' in het Nederlands?",
-     opts:["Een georganiseerd evenement","Een sportprestatie","Een televisieshow","Een ramp"],
+     opts:["Een ramp","Een georganiseerd evenement","Een sportprestatie","Een televisieshow"],
      ans:"Een georganiseerd evenement",
      hint:"An English loanword widely used in Dutch business. A planned occasion with guests and a program."},
 
@@ -101,7 +101,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"Wat is de boete voor hondenstront niet opruimen?",
-     opts:["Ongeveer 150 euro","5 euro","1000 euro","Er is geen boete"],
+     opts:["1000 euro","Er is geen boete","Ongeveer 150 euro","5 euro"],
      ans:"Ongeveer 150 euro",
      hint:"Dutch municipalities take this seriously. Special enforcement officers patrol the streets."}
   ]

@@ -66,7 +66,7 @@ const LESSON_13 = {id:"esv2_b2gC_l13",title:"Moda y estilo personal",icon:"👗"
  exampleSrc:"A: The royal pages collect children's letters before Epiphany.\nB: It's one of the most beautiful traditions of Spanish Christmas.",
  funFact:"In Spain, the Paje Real visits shopping centers before January 6th so children can give their wish lists."},
 
-{type:"mc",q:"¿Qué prenda lanza el torero al público?",opts:["La montera","La calza","La perilla","La patilla"],ans:"La montera",hint:"The distinctive black hat that the matador wears during a bullfight."},
+{type:"mc",q:"¿Qué prenda lanza el torero al público?",opts:["La patilla","La montera","La calza","La perilla"],ans:"La montera",hint:"The distinctive black hat that the matador wears during a bullfight."},
 
 {type:"fb",s:"Se recortó la {1} para tener un aspecto más profesional.",a:["perilla"],opts:["perilla","patilla","montera","paleta"],hint:"A small pointed beard grown only on the chin, shaped like a small pear.",sSrc:"He trimmed his {1} to have a more professional look."},
 

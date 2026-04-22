@@ -80,7 +80,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Que signifie 'prendre ombrage' ?",
-     opts:["Se vexer, se sentir offensé","Prendre de l'ombre","Faire de l'ombre","Donner de l'ombre"],
+     opts:["Donner de l'ombre","Se vexer, se sentir offensé","Prendre de l'ombre","Faire de l'ombre"],
      ans:"Se vexer, se sentir offensé",
      hint:"'Ombrage' means shade. Taking someone's shade means feeling overshadowed or offended."},
 
@@ -119,7 +119,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Quel mot décrit la peur de perdre son statut social ?",
-     opts:["le déclassement","le déchaînement","la diabolisation","la lèse-majesté"],
+     opts:["la diabolisation","la lèse-majesté","le déclassement","le déchaînement"],
      ans:"le déclassement",
      hint:"'Dé-' means removal, 'classe' means class. Losing your place in the social hierarchy."},
 

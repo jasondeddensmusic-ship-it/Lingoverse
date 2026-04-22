@@ -93,7 +93,7 @@ const BATCH7_L1 = {
      sSrc:"To share my {1}, I am a bit anxious."},
 
     {type:"mc", q:"本音(ほんね) vs 建前(たてまえ) is:",
-     opts:["Real feelings vs social facade","Good vs bad","Past vs present","East vs west"],
+     opts:["East vs west","Real feelings vs social facade","Good vs bad","Past vs present"],
      ans:"Real feelings vs social facade",
      hint:"This fundamental duality of Japanese communication is not hypocrisy but s... navigation."},
 
@@ -104,7 +104,7 @@ const BATCH7_L1 = {
      sSrc:"Let us value our own {1}."},
 
     {type:"mc", q:"道徳(どうとく) became mandatory in Japanese schools in:",
-     opts:["2018","1990","2000","1950"],
+     opts:["2000","1950","2018","1990"],
      ans:"2018",
      hint:"Ethics classes were upgraded from 'activities' to a formal subject with textbooks and grading."},
 

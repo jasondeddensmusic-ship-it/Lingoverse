@@ -86,7 +86,7 @@ const LESSON_5 = {
 
     {type:"mc",
      q:"Quel mot désigne un modèle original ou un exemple parfait d'un type ?",
-     opts:["un archétype","un antihéros","un expatrié","un administrateur"],
+     opts:["un administrateur","un archétype","un antihéros","un expatrié"],
      ans:"un archétype",
      hint:"This Greek-origin word means the original pattern or model. Jung made it famous in psychology."},
 

@@ -76,7 +76,7 @@ const LESSON_7 = {
      sSrc:"She cherishes this book like the {1} of her eyes."},
 
     {type:"mc", q:"'Proferer' est generalement suivi de:",
-     opts:["Menaces ou insultes","Compliments","Questions","Remerciements"],
+     opts:["Remerciements","Menaces ou insultes","Compliments","Questions"],
      ans:"Menaces ou insultes",
      hint:"This verb is almost exclusively used with negative or threatening words"},
 
@@ -93,7 +93,7 @@ const LESSON_7 = {
      sSrc:"{1} to this detail, it is very important."},
 
     {type:"mc", q:"Que signifie 'proeminent' en francais?",
-     opts:["Qui depasse physiquement","Qui est celebre","Qui est riche","Qui est intelligent"],
+     opts:["Qui est riche","Qui est intelligent","Qui depasse physiquement","Qui est celebre"],
      ans:"Qui depasse physiquement",
      hint:"Unlike English 'prominent', the French word refers to something that physically sticks out"},
 
@@ -103,7 +103,7 @@ const LESSON_7 = {
      sSrc:"His genetics {1} him to heart disease."},
 
     {type:"mc", q:"Quel ecrivain francais celebre a utilise un pseudonyme?",
-     opts:["Moliere","Victor Hugo","Emile Zola","Gustave Flaubert"],
+     opts:["Victor Hugo","Emile Zola","Gustave Flaubert","Moliere"],
      ans:"Moliere",
      hint:"His real name was Jean-Baptiste Poquelin"},
 

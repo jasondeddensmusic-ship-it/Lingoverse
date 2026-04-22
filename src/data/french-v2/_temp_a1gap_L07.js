@@ -98,7 +98,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot signifie 'dawn' en français ?",
-     opts:["l'aube","l'astre","l'automne","l'altitude"],
+     opts:["l'altitude","l'aube","l'astre","l'automne"],
      ans:"l'aube",
      hint:"This feminine noun describes the earliest moment of daylight, just before the sun rises."},
 
@@ -143,7 +143,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel adjectif décrit quelque chose en rapport avec l'eau ?",
-     opts:["aquatique","alpin","agricole","anonyme"],
+     opts:["agricole","anonyme","aquatique","alpin"],
      ans:"aquatique",
      hint:"This adjective describes activities, animals, or environments connected to water."},
 

@@ -92,7 +92,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel mot designe un long voyage a travers plusieurs pays ?",
-     opts:["un periple","un sejour","une escale","un demi-tour"],
+     opts:["un demi-tour","un periple","un sejour","une escale"],
      ans:"un periple",
      hint:"A long, eventful journey visiting many places. Originally a Greek sailing term."},
 
@@ -137,7 +137,7 @@ const LESSON_17 = {
 
     {type:"mc",
      q:"Quel sentier de randonnee corse est considere comme le plus difficile d'Europe ?",
-     opts:["le GR20","le GR10","le chemin de Saint-Jacques","le tour du Mont-Blanc"],
+     opts:["le chemin de Saint-Jacques","le tour du Mont-Blanc","le GR20","le GR10"],
      ans:"le GR20",
      hint:"A famous Corsican hiking trail known for its extreme difficulty."},
 

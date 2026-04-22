@@ -1,4 +1,4 @@
-// Unit 4 — À table!
+// Unit 4. À table!
 // Food, Drink & Articles
 
 export default {n:4,lang:"fr",srcLang:"en",track:"v2",title:"À table!",sub:"Food, Drink & Articles",icon:"🍽️",level:"A1.2",color:"#7B5EE8",lessons:[

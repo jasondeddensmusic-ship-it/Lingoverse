@@ -40,7 +40,7 @@ const LESSON_30 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"KBS, MBC, SBS는 어떤 곳이에요?",
-     opts:["학교","병원","방송국","공장"],
+     opts:["방송국","공장","학교","병원"],
      ans:"방송국",
      hint:"These are Korea's three major TV and radio organizations. Compound: release + send + bureau."},
 
@@ -137,7 +137,7 @@ const LESSON_30 = {
 
     {type:"mc",
      q:"'경찰이 범인을 밝혔다'에서 '밝히다'는?",
-     opts:["숨기다","어둡게 하다","물어보다","드러내다"],
+     opts:["어둡게 하다","물어보다","드러내다","숨기다"],
      ans:"드러내다",
      hint:"This causative verb comes from 'bright.' It means to bring something out of darkness into clarity."},
 
@@ -189,7 +189,7 @@ const LESSON_30 = {
 
     {type:"mc",
      q:"'한류'는 한국의 무엇이 세계로 퍼지는 것이에요?",
-     opts:["경제","기술","문화","농업"],
+     opts:["농업","경제","기술","문화"],
      ans:"문화",
      hint:"The Korean Wave spreads K-pop, K-drama, and K-food. This word means the customs and arts of a society."}
   ]

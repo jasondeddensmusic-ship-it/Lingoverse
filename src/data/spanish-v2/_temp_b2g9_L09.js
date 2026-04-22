@@ -1,4 +1,4 @@
-// Lesson 9 — Arte y literatura (Art and Literature)
+// Lesson 9. Arte y literatura (Art and Literature)
 const LESSON_9 = {id:"esv2_b2g9_l9", title:"Arte y literatura", icon:"\u{1F3A8}", xp:25, board:true, steps:[
   {type:"intro", title:"Arte y literatura",
    desc:"Discuss art, literature, and figurative language. From metaphors to manuscripts, these terms unlock deeper cultural conversations.",
@@ -35,7 +35,7 @@ const LESSON_9 = {id:"esv2_b2g9_l9", title:"Arte y literatura", icon:"\u{1F3A8}"
    funFact:"The word entered European languages through Portuguese sailors who encountered West African carved figures used in spiritual practices."},
 
   {type:"mc", q:"\u00bfQu\u00e9 es una metonimia?",
-   opts:["Una comparaci\u00f3n directa entre dos cosas","Usar algo para representar otra cosa relacionada","Una exageraci\u00f3n ret\u00f3rica","Una repetici\u00f3n de sonidos"],
+   opts:["Usar algo para representar otra cosa relacionada","Una exageraci\u00f3n ret\u00f3rica","Una repetici\u00f3n de sonidos","Una comparaci\u00f3n directa entre dos cosas"],
    ans:"Usar algo para representar otra cosa relacionada",
    hint:"In 'the Crown decided', the Crown stands for the monarch. The name of one thing substitutes for another."},
 
@@ -87,7 +87,7 @@ const LESSON_9 = {id:"esv2_b2g9_l9", title:"Arte y literatura", icon:"\u{1F3A8}"
   ]},
 
   {type:"mc", q:"\u00bfQu\u00e9 era un idilio originalmente en la literatura griega?",
-   opts:["Un poema \u00e9pico largo","Un poema corto sobre la vida rural","Una obra de teatro c\u00f3mica","Un discurso pol\u00edtico"],
+   opts:["Un discurso pol\u00edtico","Un poema \u00e9pico largo","Un poema corto sobre la vida rural","Una obra de teatro c\u00f3mica"],
    ans:"Un poema corto sobre la vida rural",
    hint:"The word comes from Greek 'eidyllion' (small picture), describing idealised pastoral scenes."},
 

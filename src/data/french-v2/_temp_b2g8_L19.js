@@ -31,7 +31,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'persister avec entêtement malgré les obstacles' ?",
-     opts:["obscurcir","s'obstiner","obstruer","observer"],
+     opts:["s'obstiner","obstruer","observer","obscurcir"],
      ans:"s'obstiner",
      hint:"Always reflexive. Can be seen as positive persistence or negative stubbornness."},
 
@@ -80,7 +80,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel nom désigne un signe ou une donnée qui révèle une tendance ?",
-     opts:["une interaction","une identification","un indicateur","une intensification"],
+     opts:["une identification","un indicateur","une intensification","une interaction"],
      ans:"un indicateur",
      hint:"Something that shows or points to a trend. Used in economics, transport, and police work."},
 
@@ -119,7 +119,7 @@ const LESSON_19 = {
 
     {type:"mc",
      q:"Quel mot désigne un riche soutien financier des arts et de la culture ?",
-     opts:["un modéré","un indicateur","un intermède","un mécène"],
+     opts:["un indicateur","un intermède","un mécène","un modéré"],
      ans:"un mécène",
      hint:"Named after a Roman who supported poets. In France, this role comes with tax advantages."},
 

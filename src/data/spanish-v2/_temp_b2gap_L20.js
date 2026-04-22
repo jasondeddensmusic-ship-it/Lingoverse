@@ -32,7 +32,7 @@ const LESSON_20 = {id:"esv2_b2gap_l20",title:"Conceptos abstractos II",icon:"�
  exampleSrc:"A: She put her hair in a ponytail to go to the gym.\nB: It is the most practical hairstyle for sports.",
  funFact:"Also a medicinal herb (Equisetum) used in Spanish herbal medicine for its mineral content."},
 
-{type:"mc",q:"En 'Fuenteovejuna' de Lope de Vega, el villano es:",opts:["el bedel","el comendador","el albañil","el becario"],ans:"el comendador",hint:"A military order rank, a tyrannical figure in this classic play."},
+{type:"mc",q:"En 'Fuenteovejuna' de Lope de Vega, el villano es:",opts:["el comendador","el albañil","el becario","el bedel"],ans:"el comendador",hint:"A military order rank, a tyrannical figure in this classic play."},
 
 {type:"teach",trg:"el color de pelo",src:"the hair color",pos:"noun",gender:"m",
  note:"Masculine compound noun. The color of someone's hair.",
@@ -90,7 +90,7 @@ const LESSON_20 = {id:"esv2_b2gap_l20",title:"Conceptos abstractos II",icon:"�
  exampleSrc:"A: The barbarians invaded the Roman Empire.\nB: The Visigoths settled in Hispania.",
  funFact:"The Visigoths ruled Spain for 300 years (5th-8th century). Their influence shaped Spanish law."},
 
-{type:"mc",q:"'Cociente intelectual' es el equivalente español de:",opts:["SAT","GPA","IQ","PhD"],ans:"IQ",hint:"A numerical measure of intelligence, using the Spanish abbreviation CI."},
+{type:"mc",q:"'Cociente intelectual' es el equivalente español de:",opts:["GPA","IQ","PhD","SAT"],ans:"IQ",hint:"A numerical measure of intelligence, using the Spanish abbreviation CI."},
 
 {type:"teach",trg:"la bamba",src:"the bamba (dance/shoe)",pos:"noun",gender:"f",
  note:"Feminine noun. A type of traditional dance or a canvas shoe.",
@@ -118,13 +118,13 @@ const LESSON_20 = {id:"esv2_b2gap_l20",title:"Conceptos abstractos II",icon:"�
 
 {type:"fb",s:"Los {1} invadieron el Imperio romano en el siglo quinto.",a:["bárbaros"],opts:["bárbaros","bedeles","bidets","comendadores"],hint:"Uncivilized peoples who overran the Roman Empire.",sSrc:"The {1} invaded the Roman Empire in the fifth century."},
 
-{type:"mc",q:"En España, ¿qué es muy común tener en el baño?",opts:["Una bañera de hidromasaje","Un bidet","Una sauna","Una piscina"],ans:"Un bidet",hint:"A bathroom fixture for personal hygiene, standard in Spanish homes."},
+{type:"mc",q:"En España, ¿qué es muy común tener en el baño?",opts:["Una piscina","Una bañera de hidromasaje","Un bidet","Una sauna"],ans:"Un bidet",hint:"A bathroom fixture for personal hygiene, standard in Spanish homes."},
 
 {type:"match",pairs:[{trg:"acta",src:"minutes / record"},{trg:"cociente",src:"quotient"},{trg:"calzón",src:"breeches"},{trg:"bamba",src:"dance / shoe"},{trg:"bárbaro",src:"barbarian"}]},
 
 {type:"fb",s:"La {1} de identidad causó un malentendido cómico.",a:["confusión"],opts:["confusión","consistencia","comunicación","calza"],hint:"A mix-up where people were mistaken for someone else.",sSrc:"The {1} of identity caused a comic misunderstanding."},
 
-{type:"mc",q:"'Levantar acta' significa:",opts:["Leer un documento antiguo","Registrar oficialmente lo discutido","Destruir documentos","Copiar un libro"],ans:"Registrar oficialmente lo discutido",hint:"Creating an official written record of proceedings."}
+{type:"mc",q:"'Levantar acta' significa:",opts:["Destruir documentos","Copiar un libro","Leer un documento antiguo","Registrar oficialmente lo discutido"],ans:"Registrar oficialmente lo discutido",hint:"Creating an official written record of proceedings."}
 ]};
 
 export default LESSON_20;

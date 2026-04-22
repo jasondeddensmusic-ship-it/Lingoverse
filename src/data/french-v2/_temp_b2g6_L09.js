@@ -80,7 +80,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Quel mot désigne un produit chimique qui tue les insectes ?",
-     opts:["un insecticide","un explosif","une inhalation","une hémorragie"],
+     opts:["une hémorragie","un insecticide","un explosif","une inhalation"],
      ans:"un insecticide",
      hint:"A compound: 'insecte' + '-cide' (to kill). Think of agricultural chemicals."},
 
@@ -131,7 +131,7 @@ const LESSON_9 = {
 
     {type:"mc",
      q:"Que signifie 'longiligne' ?",
-     opts:["Grand et mince","Court et trapu","Musclé et fort","Petit et rond"],
+     opts:["Musclé et fort","Petit et rond","Grand et mince","Court et trapu"],
      ans:"Grand et mince",
      hint:"From Latin for 'long line'. Describes a tall, slender body type, common in fashion."},
 

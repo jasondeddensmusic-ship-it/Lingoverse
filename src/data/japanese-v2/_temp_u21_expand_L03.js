@@ -30,7 +30,7 @@ const LESSON_5 = {
      exampleSrc:"A: We should debate this issue more.\nB: Indeed, we should hear various opinions.\nA: Shall we go together?\nB: That sounds good. Let's go.",
      funFact:"議論 combines two strong discussion kanji: 議 (deliberate) and 論 (argue/theory). Japanese culture values consensus (合意, goui) over debate, so ぎろん can feel confrontational. In practice, real decisions are often made through nemawashi (根回し, behind-the-scenes consensus building) before the formal ぎろん."},
 
-    {type:"mc", q:"しじりつ means:", opts:["crime rate","interest rate","support/approval rate","survey rate"], ans:"support/approval rate",
+    {type:"mc", q:"しじりつ means:", opts:["support/approval rate","survey rate","crime rate","interest rate"], ans:"support/approval rate",
      hint:"Combine the word for s.../a... with りつ (r...) to get a political polling term."},
 
     {type:"teach", trg:"せいさく", src:"policy / measure", pos:"noun", gender:null,

@@ -99,7 +99,7 @@ const BATCH7_L1 = {
      sSrc:"I passed the exam and felt {1}."},
 
     {type:"mc", q:"仕方(しかた)がない reflects:",
-     opts:["Acceptance of what cannot be changed","Giving up easily","Not caring about problems","Laziness"],
+     opts:["Laziness","Acceptance of what cannot be changed","Giving up easily","Not caring about problems"],
      ans:"Acceptance of what cannot be changed",
      hint:"This concept combines resilience with grace. It is active a..., not passive defeat."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {
      sSrc:"This song makes me feel {1}. It reminds me of childhood."},
 
     {type:"mc", q:"もったいない became internationally famous through:",
-     opts:["Kenyan Nobel laureate Wangari Maathai","A Japanese TV show","An anime character","A food company"],
+     opts:["An anime character","A food company","Kenyan Nobel laureate Wangari Maathai","A Japanese TV show"],
      ans:"Kenyan Nobel laureate Wangari Maathai",
      hint:"She adopted this Japanese word as an environmental slogan, bringing it to global attention."},
 

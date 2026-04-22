@@ -1,4 +1,4 @@
-// Unit 05 Batch 2 — Lesson 2: More Household Objects & Actions at Home
+// Unit 05 Batch 2. Lesson 2: More Household Objects & Actions at Home
 const BATCH2_U05_L2 = {
   id:"itv2_u05l_b2_2", title:"Oggetti di casa", icon:"\ud83d\udecf\ufe0f", xp:15, board:true,
   steps:[
@@ -103,7 +103,7 @@ const BATCH2_U05_L2 = {
      sSrc:"Can you {1} the window? It is hot!"},
 
     {type:"mc", q:"What does 'chiuso' mean on an Italian shop door?",
-     opts:["Closed","Open","Sale","Welcome"],
+     opts:["Welcome","Closed","Open","Sale"],
      ans:"Closed",
      hint:"Past participle of 'chiudere.' You see this sign during lunch breaks and on rest days."},
 
@@ -122,7 +122,7 @@ const BATCH2_U05_L2 = {
     ]},
 
     {type:"mc", q:"What does 'portare' also mean besides 'to bring'?",
-     opts:["To wear","To eat","To sleep","To read"],
+     opts:["To sleep","To read","To wear","To eat"],
      ans:"To wear",
      hint:"You 'carry' clothes on your body. 'Porto gli occhiali' means 'I w... glasses.' Same verb, different context."},
 
@@ -133,9 +133,9 @@ const BATCH2_U05_L2 = {
      sSrc:"What are you {1} for? I cannot find the phone!"},
 
     {type:"mc", q:"What is an 'orologio' in Italian?",
-     opts:["A clock or watch","A mirror","A painting","A lamp"],
+     opts:["A mirror","A painting","A lamp","A clock or watch"],
      ans:"A clock or watch",
      hint:"From Greek 'horologion' (time-teller). Italian uses one word for wall clocks and wristwatches alike."}
-  ,{type:"match",pairs:[{trg:"la chiave",src:"the key"},{trg:"la borsa",src:"the bag / purse"},{trg:"il cuscino",src:"the pillow / cushion"},{trg:"la coperta",src:"the blanket"},{trg:"il rubinetto",src:"the faucet / tap"},{trg:"prendere",src:"to take / to get"}]},{type:"match",pairs:[{trg:"portare",src:"to bring / to carry"},{trg:"rotto",src:"broken"}]},{type:"mc",q:"How do you say \"clock / watch\" in Italian?",opts:["la finestra","l'orologio","il tavolo","la bicicletta"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la chiave",src:"the key"},{trg:"la borsa",src:"the bag / purse"},{trg:"il cuscino",src:"the pillow / cushion"},{trg:"la coperta",src:"the blanket"},{trg:"il rubinetto",src:"the faucet / tap"},{trg:"prendere",src:"to take / to get"}]},{type:"match",pairs:[{trg:"portare",src:"to bring / to carry"},{trg:"rotto",src:"broken"}]},{type:"mc",q:"How do you say \"clock / watch\" in Italian?",opts:["l'orologio","il tavolo","la bicicletta","la finestra"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U05_L2;

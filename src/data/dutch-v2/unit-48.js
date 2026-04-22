@@ -1,4 +1,4 @@
-// Dutch V2 Unit 48 — B2 Vocabulary Batch 3
+// Dutch V2 Unit 48. B2 Vocabulary Batch 3
 import L06 from './_temp_b2g3_L06.js';
 import L07 from './_temp_b2g3_L07.js';
 import L08 from './_temp_b2g3_L08.js';

@@ -86,7 +86,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel verbe signifie ouvrir quelque chose légèrement, pas complètement ?",
-     opts:["entrouvrir","entrevoir","entremêler","enrayer"],
+     opts:["enrayer","entrouvrir","entrevoir","entremêler"],
      ans:"entrouvrir",
      hint:"The prefix 'entre-' means partially. Combined with 'ouvrir' (to open), it means to open just a crack."},
 

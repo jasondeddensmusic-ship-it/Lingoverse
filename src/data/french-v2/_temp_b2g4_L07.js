@@ -86,7 +86,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Quel mot designe la peur de perdre son statut social ?",
-     opts:["le declassement","le federalisme","l'entrepreneuriat","l'avenement"],
+     opts:["l'avenement","le declassement","le federalisme","l'entrepreneuriat"],
      ans:"le declassement",
      hint:"The prefix 'de-' indicates removal, and 'classe' refers to social class or rank."},
 
@@ -113,7 +113,7 @@ const LESSON_7 = {
 
     {type:"mc",
      q:"Comment prononce-t-on le mot 'gageure' ?",
-     opts:["ga-jur","ga-geur","ga-jeure","gaj-ur"],
+     opts:["ga-jeure","gaj-ur","ga-jur","ga-geur"],
      ans:"ga-jur",
      hint:"This is one of French's trickiest pronunciations. The 'eu' sounds like 'u', not like in 'beurre'."}
   ]

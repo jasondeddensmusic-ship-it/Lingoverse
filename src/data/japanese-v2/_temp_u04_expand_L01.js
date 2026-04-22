@@ -30,7 +30,7 @@ const LESSON_3 = {
      exampleSrc:"A: The weather is bad.\nB: Yeah, it's raining.",
      funFact:"Warui as an apology (warui, warui = my bad) is casual male speech. The kanji 悪 appears in akuma (devil = evil demon) and akui (malice = evil intention). Despite this, warui in daily speech is usually mild: bad weather, bad results, my mistake."},
 
-    {type:"mc", q:"ふるい should NOT be used for:", opts:["An old book","An old building","An old person","An old car"], ans:"An old person",
+    {type:"mc", q:"ふるい should NOT be used for:", opts:["An old person","An old car","An old book","An old building"], ans:"An old person",
      hint:"This adjective is only for things, not for describing elderly people."},
 
     {type:"teach", trg:"ながい", src:"long", pos:"adj", gender:null,
@@ -87,7 +87,7 @@ const LESSON_3 = {
      exampleSrc:"A: Family is important, right?\nB: Yes, the most important.",
      funFact:"大 (big) + 切 (cut/important). Taisetsu implies something you must protect carefully. Taisetsu na hito (precious person) is a tender way to describe loved ones. It carries more emotional weight than juuyou (important, more factual/dry)."},
 
-    {type:"mc", q:"きれい is tricky because:", opts:["It is a na-adjective despite ending in い","It means both good and bad","It is always negative","It changes meaning with tone"], ans:"It is a na-adjective despite ending in い",
+    {type:"mc", q:"きれい is tricky because:", opts:["It changes meaning with tone","It is a na-adjective despite ending in い","It means both good and bad","It is always negative"], ans:"It is a na-adjective despite ending in い",
      hint:"Kirei defies expectations. The い spelling looks familiar but the word follows a different grammar class."},
 
     {type:"tip", title:"I-Adjective vs Na-Adjective",
@@ -118,7 +118,7 @@ const LESSON_3 = {
     {type:"mc", q:"Which is a na-adjective?", opts:["たかい","おおきい","べんり","あたらしい"], ans:"べんり",
      hint:"Three of these end in い as true i-adjectives. One needs な before nouns."},
 
-    {type:"mc", q:"いい changes to よ- in conjugation. Which is correct for 'was good'?", opts:["いかった","いいだった","よかった","よいかった"], ans:"よかった",
+    {type:"mc", q:"いい changes to よ- in conjugation. Which is correct for 'was good'?", opts:["よいかった","いかった","いいだった","よかった"], ans:"よかった",
      hint:"The old form yoi surfaces in past tense and negative forms."},
   ]
 };

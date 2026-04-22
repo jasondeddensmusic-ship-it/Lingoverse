@@ -44,7 +44,7 @@ lessons:[
   text:"\u5E97 (di\u00E0n, store/shop) appears in dozens of place names:\n\n\u5546\u5E97 = commerce store (general shop)\n\u996D\u5E97 = food store (restaurant/hotel)\n\u4E66\u5E97 = book store (bookshop)\n\u836F\u5E97 = medicine store (pharmacy)\n\u9152\u5E97 = wine store (hotel)\n\u5496\u5561\u5E97 = coffee store (cafe)\n\u82B1\u5E97 = flower store (florist)\n\nKnowing \u5E97 unlocks this entire family of words. You will encounter many of these at A2 level."}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o) literally means:",
- opts:["big building","reading place","children house","study building"],
+ opts:["study building","big building","reading place","children house"],
  ans:"study building",
  hint:"学 refers to formal learning; 校 names an institution devoted to it. Their compound is where you go for both."},
 
@@ -62,7 +62,7 @@ lessons:[
  sSrc:"I am going to the {1} to buy things."},
 
 {type:"mc", q:"\u4ED6(t\u0101)\u53BB(q\u00F9)\u533B\u9662(y\u012Byu\u00E0n)\u4E86(le)\u3002 Where did he go?",
- opts:["hospital","school","shop","restaurant"],
+ opts:["restaurant","hospital","school","shop"],
  ans:"hospital",
  hint:"\u533B means 'medical' and \u9662 means 'institution.' This is where you go when you are sick."},
 
@@ -132,7 +132,7 @@ lessons:[
   text:"English puts position words before the reference: 'in front OF the school.' Chinese puts them after: '\u5B66\u6821\u524D\u9762' (school front-face).\n\nThis is one of the biggest differences between English and Chinese word order for locations. The reference point comes first, then the position.\n\n\u5546\u5E97 + \u524D\u9762 = in front of the shop\n\u5B66\u6821 + \u540E\u9762 = behind the school\n\u533B\u9662 + \u65C1\u8FB9 = beside the hospital\n\nAlways: PLACE + POSITION."}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u5728(z\u00E0i)\u54EA\u513F(n\u01CEr)\uFF1F What is this asking?",
- opts:["When is school?","How is the school?","Where is the school?","What school?"],
+ opts:["Where is the school?","What school?","When is school?","How is the school?"],
  ans:"Where is the school?",
  hint:"\u54EA\u513F is the question word for '___' and \u5728 asks about location."},
 
@@ -151,7 +151,7 @@ lessons:[
  sSrc:"The hospital is {1} the school."},
 
 {type:"mc", q:"\u996D\u5E97(f\u00E0ndi\u00E0n)\u5728(z\u00E0i)\u5546\u5E97(sh\u0101ngdi\u00E0n)\u65C1\u8FB9(p\u00E1ngbi\u0101n)\u3002 Where is the restaurant?",
- opts:["In front of the shop","Behind the shop","Inside the shop","Next to the shop"],
+ opts:["Inside the shop","Next to the shop","In front of the shop","Behind the shop"],
  ans:"Next to the shop",
  hint:"\u65C1\u8FB9 means 'beside' or '___ to.' The restaurant is alongside the ___."},
 
@@ -162,7 +162,7 @@ lessons:[
  sSrc:"The shop is {1}, not far."},
 
 {type:"mc", q:"In Chinese, position words come:",
- opts:["Before the reference place","At the start of the sentence","Position does not matter","After the reference place"],
+ opts:["At the start of the sentence","Position does not matter","After the reference place","Before the reference place"],
  ans:"After the reference place",
  hint:"Chinese says '\u5B66\u6821\u524D\u9762' (school front-face), not 'front-face school.'"},
 
@@ -286,7 +286,7 @@ lessons:[
   text:"Here is a natural exchange combining everything from this unit:\n\nA: \u8BF7\u95EE\uFF0C\u533B\u9662\u5728\u54EA\u513F\uFF1F (Excuse me, where is the hospital?)\nB: \u5728\u5B66\u6821\u540E\u9762\u3002 (Behind the school.)\nA: \u8FDC\u5417\uFF1F (Is it far?)\nB: \u4E0D\u8FDC\uFF0C\u8D70\u8DEF\u4E94\u5206\u949F\u3002 (Not far, a five-minute walk.)\nA: \u600E\u4E48\u53BB\uFF1F (How do I get there?)\nB: \u4E00\u76F4\u8D70\uFF0C\u5B66\u6821\u540E\u9762\u5C31\u662F\u3002 (Go straight, it is right behind the school.)\n\nYou now have all the vocabulary needed for this conversation!"}},
 
 {type:"mc", q:"\u5B66\u6821(xu\u00E9xi\u00E0o)\u8FDC(yu\u01CEn)\u5417(ma)\uFF1F What is this asking?",
- opts:["Where is the school?","Is the school far?","Is the school big?","When does school start?"],
+ opts:["Is the school far?","Is the school big?","When does school start?","Where is the school?"],
  ans:"Is the school far?",
  hint:"\u8FDC means 'far' and \u5417 makes it a yes/no question about distance."},
 
@@ -335,7 +335,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"\u6211(w\u01D2)\u5750(zu\u00F2)\u8F66(ch\u0113)\u5230(d\u00E0o)\u4E86(le)\u5B66\u6821(xu\u00E9xi\u00E0o)\u3002 What happened?",
- opts:["I walked to school","I am waiting for a car to school","I took a car and arrived at school","I cannot get to school"],
+ opts:["I cannot get to school","I walked to school","I am waiting for a car to school","I took a car and arrived at school"],
  ans:"I took a car and arrived at school",
  hint:"\u5750\u8F66 = take a ___. \u5230\u4E86 = ___. The action is complete."},
 
@@ -346,7 +346,7 @@ lessons:[
  sSrc:"The shop is {1} the restaurant."},
 
 {type:"mc", q:"\u4F60(n\u01D0)\u53BB(q\u00F9)\u54EA\u513F(n\u01CEr)\uFF1F \u6211(w\u01D2)\u53BB(q\u00F9)\u996D\u5E97(f\u00E0ndi\u00E0n)\u3002 What is happening?",
- opts:["Someone is asking the time","Someone is ordering food","Someone is at the hospital","Someone is asking directions and gets an answer"],
+ opts:["Someone is asking directions and gets an answer","Someone is asking the time","Someone is ordering food","Someone is at the hospital"],
  ans:"Someone is asking directions and gets an answer",
  hint:"\u53BB\u54EA\u513F means 'going where' and the ___ names a specific place."},
 
@@ -359,7 +359,7 @@ lessons:[
 ]}
 ]},
 
-// ═══ L5: People and Places — HSK 1 Essentials ═══
+// ═══ L5: People and Places. HSK 1 Essentials ═══
 {id:"zhv2_u6l5", title:"中国和北京 China and Beijing", icon:"🏙️", xp:15, board:true, steps:[
 {type:"intro", title:"中国和北京 China and Beijing",
  desc:"Learn six essential HSK 1 words: China, Beijing, where you live, two polite titles, and how to ask for a doctor. These words are fundamental to basic conversation in Chinese.",
@@ -396,13 +396,13 @@ lessons:[
  funFact:"先生 originally meant 'teacher' or 'elder.' Confucius is called 孔子先生 (Master Kong). In modern usage, it is a formal title for men, like 'mister.' In Taiwan and among older generations, 先生 also means husband. In mainland China, 老公(lǎogōng) is more common for husband."},
 
 {type:"teach", trg:"小姐(xiǎojiě)", src:"Miss / young lady", pos:"noun", gender:null,
- note:"小 (small/little) + 姐 (older sister). Originally: little sister.\nPolite address for young women. Usage has shifted — see funFact.",
+ note:"小 (small/little) + 姐 (older sister). Originally: little sister.\nPolite address for young women. Usage has shifted, see funFact.",
  example:"A: 这位(zhè wèi)是(shì)李(Lǐ)小姐(xiǎojiě)。\nB: 你好(nǐhǎo)，李(Lǐ)小姐(xiǎojiě)！",
  exampleSrc:"A: This is Miss Li.\nB: Hello, Miss Li!",
  funFact:"小姐 was the standard polite term for women until the 1990s, when it acquired associations with service workers and sometimes inappropriate connotations in mainland China. Today, 女士 (nǚshì, Ms./lady) is preferred in formal contexts. 小姐 is still widely used in Taiwan and appears on HSK 1."},
 
 {type:"mc", q:"中国(Zhōngguó) literally means:",
- opts:["Eastern Country","Great Nation","Middle Kingdom","Ancient Land"],
+ opts:["Middle Kingdom","Ancient Land","Eastern Country","Great Nation"],
  ans:"Middle Kingdom",
  hint:"中 means '…' and 国 means 'country.' The name reflects China's historical view of itself."},
 
@@ -417,7 +417,7 @@ lessons:[
 {type:"fb", s:"你(nǐ){1}在(zài)哪儿(nǎr)？",
  a:["住(zhù)"],
  opts:["住(zhù)","去(qù)","来(lái)","是(shì)"],
- hint:"Which verb asks about someone's permanent residence — where they live?",
+ hint:"Which verb asks about someone's permanent residence, where they live?",
  sSrc:"Where do you live?"},
 
 {type:"mc", q:"How do you say 'I want to see a doctor'?",
@@ -497,7 +497,7 @@ lessons:[
   text:"公(gōng) marks something as shared or public:\n\n公园 = public garden (park)\n公司 = public/shared company\n公共汽车 = public bus\n公寓 = apartment building (public dwelling)\n公里 = kilometer (public measure)\n公民 = citizen (public person)\n\nWhenever you see 公 + place or thing, it signals something available to everyone. This reflects a Confucian value: certain resources and spaces belong to the community, not individuals."}},
 
 {type:"mc", q:"超市(chāoshì) literally means:",
- opts:["small market","food store","super market","night market"],
+ opts:["super market","night market","small market","food store"],
  ans:"super market",
  hint:"超 means 'exceed' or '…' and 市 means '….' Put them together."},
 
@@ -515,7 +515,7 @@ lessons:[
  sSrc:"I go to the {1} to read."},
 
 {type:"mc", q:"医生(yīshēng)在(zài)医院(yīyuàn)里面(lǐmiàn)。 Where is the doctor?",
- opts:["outside the hospital","next to the hospital","inside the hospital","behind the hospital"],
+ opts:["next to the hospital","inside the hospital","behind the hospital","outside the hospital"],
  ans:"inside the hospital",
  hint:"里面 means the interior of something. The opposite of 外面."},
 

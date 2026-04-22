@@ -1,4 +1,4 @@
-// L18: Fietsen en Mobiliteit — Cycling and Mobility
+// L18: Fietsen en Mobiliteit. Cycling and Mobility
 const LESSON_18 = {
   id:"nlv2_b2gC_l18", title:"Fietsen en Mobiliteit", icon:"\u{1F6B2}", xp:15, board:true,
   steps:[
@@ -32,7 +32,7 @@ const LESSON_18 = {
 
     {type:"mc",
      q:"De Maeslantkering is:",
-     opts:["Een fietspad","Een stormvloedkering die Rotterdam beschermt","Een brug over de Maas","Een windmolenpark"],
+     opts:["Een stormvloedkering die Rotterdam beschermt","Een brug over de Maas","Een windmolenpark","Een fietspad"],
      ans:"Een stormvloedkering die Rotterdam beschermt",
      hint:"'Kering' means barrier. This massive structure stops storm surges from flooding the city."},
 

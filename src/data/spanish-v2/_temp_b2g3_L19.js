@@ -32,13 +32,13 @@ const LESSON_19 = {id:"esv2_b2g3_l19", title:"España cultural", icon:"🎭", xp
 
   {type:"teach", trg:"el ciego", src:"the blind person", pos:"noun", gender:"m", note:"Male form. Female: la ciega.\nAlso adjective: estar ciego = to be blind.", example:"A: La ONCE ayuda a las personas ciegas en España.\nB: Su labor social es admirable.", exampleSrc:"A: The ONCE helps blind people in Spain.\nB: Their social work is admirable.", funFact:"ONCE (Organización Nacional de Ciegos Españoles) runs Spain's famous daily lottery. Its street vendors are a national institution."},
 
-  {type:"mc", q:"¿Qué es un dolmen?", opts:["Un monumento megalítico de piedra prehistórico","Un tipo de baile tradicional","Un instrumento musical antiguo","Un plato típico del norte de España"], ans:"Un monumento megalítico de piedra prehistórico", hint:"These ancient stone structures were built thousands of years ago as tombs or monuments."},
+  {type:"mc", q:"¿Qué es un dolmen?", opts:["Un plato típico del norte de España","Un monumento megalítico de piedra prehistórico","Un tipo de baile tradicional","Un instrumento musical antiguo"], ans:"Un monumento megalítico de piedra prehistórico", hint:"These ancient stone structures were built thousands of years ago as tombs or monuments."},
 
   {type:"match", pairs:[{trg:"banderilla", src:"bullfighting dart / tapa skewer"},{trg:"duende", src:"artistic spirit"},{trg:"chocolatería", src:"chocolate cafe"},{trg:"bautismo", src:"baptism"},{trg:"dolmen", src:"ancient stone monument"}]},
 
   {type:"fb", s:"Después del teatro fuimos a una {1} a tomar churros.", a:["chocolatería"], opts:["chocolatería","carpintería","armónica","décima"], hint:"A cafe specializing in hot chocolate, a Spanish tradition.", sSrc:"After the theatre we went to a {1} to have churros."},
 
-  {type:"mc", q:"'Bautismo de fuego' se usa para describir...", opts:["La primera experiencia intensa en algo nuevo","Un ritual religioso con agua bendita","Un incendio forestal","Una ceremonia militar"], ans:"La primera experiencia intensa en algo nuevo", hint:"A figurative expression for your first challenging experience in a new role or situation."},
+  {type:"mc", q:"'Bautismo de fuego' se usa para describir...", opts:["Un incendio forestal","Una ceremonia militar","La primera experiencia intensa en algo nuevo","Un ritual religioso con agua bendita"], ans:"La primera experiencia intensa en algo nuevo", hint:"A figurative expression for your first challenging experience in a new role or situation."},
 
   {type:"fb", s:"La derrota fue una {1} de realidad para el equipo.", a:["bofetada"], opts:["bofetada","banderilla","décima","década"], hint:"A figurative slap that forces you to face reality and wake up.", sSrc:"The defeat was a reality {1} for the team."}
 ]};

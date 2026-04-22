@@ -79,7 +79,7 @@ const LESSON_13 = {
      sSrc:"To debate, you need to {analizar} the data and then {defender} your opinion."},
 
     {type:"mc", q:"\u00bfCu\u00e1l es el opuesto de 'analizar'?",
-     opts:["Criticar","Rechazar","Sintetizar","Proponer"],
+     opts:["Sintetizar","Proponer","Criticar","Rechazar"],
      ans:"Sintetizar",
      hint:"This verb means to combine separate elements into a coherent whole. The reverse of breaking things down."},
 

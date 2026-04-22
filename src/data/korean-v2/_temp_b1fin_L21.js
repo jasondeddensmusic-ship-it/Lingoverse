@@ -38,7 +38,7 @@ const LESSON_21 = {
 
     {type:"mc",
      q:"줄을 서서 기다릴 때 '내 ___가 됐다'라고 해요.",
-     opts:["조건","종류","차례","조각"],
+     opts:["차례","조각","조건","종류"],
      ans:"차례",
      hint:"This word means your turn or position in a sequence."},
 
@@ -107,7 +107,7 @@ const LESSON_21 = {
 
     {type:"mc",
      q:"'그런 ___은 하지 마세요!'에서 부정적인 행동을 나타내는 단어는?",
-     opts:["짓","일","것","차례"],
+     opts:["차례","짓","일","것"],
      ans:"짓",
      hint:"This native Korean noun implies a negative deed or undesirable behavior."}
   ]

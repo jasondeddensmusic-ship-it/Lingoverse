@@ -38,7 +38,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Qual e la differenza tra multiculturalismo e interculturalita?",
-     opts:["Sono la stessa cosa","Il multiculturalismo e coesistenza passiva, l'interculturalita e dialogo attivo tra culture","L'interculturalita esclude le culture minoritarie","Il multiculturalismo e piu avanzato dell'interculturalita"],
+     opts:["Il multiculturalismo e coesistenza passiva, l'interculturalita e dialogo attivo tra culture","L'interculturalita esclude le culture minoritarie","Il multiculturalismo e piu avanzato dell'interculturalita","Sono la stessa cosa"],
      ans:"Il multiculturalismo e coesistenza passiva, l'interculturalita e dialogo attivo tra culture",
      hint:"One describes cultures living alongside each other without necessarily interacting. The other involves genuine exchange, dialogue, and mutual enrichment between different cultures."},
 
@@ -102,7 +102,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"Perche la cultura italiana stessa e un esempio di meticciato culturale?",
-     opts:["Perche l'Italia non ha una cultura propria","Perche nei secoli ha assorbito influenze greche, romane, arabe, normanne, spagnole e austriache","Perche l'Italia ha sempre rifiutato le influenze esterne","Perche il meticciato e un concetto moderno"],
+     opts:["Perche il meticciato e un concetto moderno","Perche l'Italia non ha una cultura propria","Perche nei secoli ha assorbito influenze greche, romane, arabe, normanne, spagnole e austriache","Perche l'Italia ha sempre rifiutato le influenze esterne"],
      ans:"Perche nei secoli ha assorbito influenze greche, romane, arabe, normanne, spagnole e austriache",
      hint:"Italian culture was shaped by centuries of contact with many civilizations. What we call 'Italian' is itself a rich blend of diverse influences from across the Mediterranean and beyond."}
   ]

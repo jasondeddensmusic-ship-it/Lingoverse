@@ -92,7 +92,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Comment appelle-t-on l'etude scientifique du crime ?",
-     opts:["la criminologie","la cruaute","la cassation","la desobeissance"],
+     opts:["la desobeissance","la criminologie","la cruaute","la cassation"],
      ans:"la criminologie",
      hint:"The academic discipline that studies crime, its causes, and criminal behavior."},
 
@@ -143,7 +143,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel verbe signifie 'se presenter devant un tribunal' ?",
-     opts:["comparaitre","deposseeder","dissocier","accuser"],
+     opts:["dissocier","accuser","comparaitre","deposseeder"],
      ans:"comparaitre",
      hint:"To present yourself before a judge. Think of 'paraitre' (to appear) with a prefix."},
 

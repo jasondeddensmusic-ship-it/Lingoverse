@@ -66,7 +66,7 @@ const LESSON_6 = {id:"esv2_b2gC_l6",title:"Ley y orden público",icon:"⚖️",x
  exampleSrc:"A: His partner's perfidy cost him the company.\nB: He should never have trusted someone like that.",
  funFact:"The famous aria 'La donna e mobile' is about perfidia. In international law, perfidy is a war crime."},
 
-{type:"mc",q:"¿Qué es la paridad en el contexto político?",opts:["La igualdad de representación entre hombres y mujeres","Un tipo de ley penal","La organización de un tribunal","El presupuesto del estado"],ans:"La igualdad de representación entre hombres y mujeres",hint:"This concept requires equal numbers of men and women in political lists."},
+{type:"mc",q:"¿Qué es la paridad en el contexto político?",opts:["El presupuesto del estado","La igualdad de representación entre hombres y mujeres","Un tipo de ley penal","La organización de un tribunal"],ans:"La igualdad de representación entre hombres y mujeres",hint:"This concept requires equal numbers of men and women in political lists."},
 
 {type:"fb",s:"Su {1} es tan buena que convence a cualquier audiencia.",a:["oratoria"],opts:["oratoria","perfidia","paradoja","paridad"],hint:"The art and skill of delivering persuasive public speeches.",sSrc:"Her {1} is so good that she convinces any audience."},
 

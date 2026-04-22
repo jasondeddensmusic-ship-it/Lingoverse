@@ -1,4 +1,4 @@
-// Batch 7 — Unit 26 extra lesson. Il diritto: Criminal Law & Due Process
+// Batch 7. Unit 26 extra lesson. Il diritto: Criminal Law & Due Process
 const BATCH7_L1 = {id:"itv2_u26l_b7_1", title:"Il diritto penale", icon:"\u2696\uFE0F", xp:15, board:true, steps:[
 {type:"intro", title:"Il diritto penale",
  desc:"Learn advanced legal vocabulary for criminal law, court proceedings, and the justice system.",
@@ -100,7 +100,7 @@ const BATCH7_L1 = {id:"itv2_u26l_b7_1", title:"Il diritto penale", icon:"\u2696\
 ]},
 
 {type:"mc", q:"Quando ha abolito la pena di morte l'Italia?",
- opts:["1889","1948","1960","2000"],
+ opts:["2000","1889","1948","1960"],
  ans:"1889",
  hint:"One of the first countries in the world to abolish it. In the 19th century."},
 
@@ -110,7 +110,7 @@ const BATCH7_L1 = {id:"itv2_u26l_b7_1", title:"Il diritto penale", icon:"\u2696\
  sSrc:"The crime has expired under the statute of {1}."},
 
 {type:"mc", q:"Chi conduce le indagini preliminari in Italia?",
- opts:["Il pubblico ministero","Il giudice","L'avvocato difensore","Il testimone"],
+ opts:["L'avvocato difensore","Il testimone","Il pubblico ministero","Il giudice"],
  ans:"Il pubblico ministero",
  hint:"The prosecutor. A magistrate who is independent from the government."},
 

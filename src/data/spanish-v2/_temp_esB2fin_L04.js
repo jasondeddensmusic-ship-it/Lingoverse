@@ -43,7 +43,7 @@ const LESSON_4 = {
      funFact:"From Latin 'beneficium' (good deed). In business, it shifted to mean financial gain specifically."},
 
     {type:"mc", q:"¿Qué es 'la bolsa' en el contexto financiero?",
-     opts:["Una tienda","Un banco","El mercado donde se negocian acciones","Un presupuesto"],
+     opts:["El mercado donde se negocian acciones","Un presupuesto","Una tienda","Un banco"],
      ans:"El mercado donde se negocian acciones",
      hint:"This is the financial market where company shares are bought and sold."},
 
@@ -130,7 +130,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"¿Qué es una 'subvención'?",
-     opts:["Un préstamo bancario","Una ayuda económica del gobierno","Un tipo de impuesto","Una inversión privada"],
+     opts:["Una inversión privada","Un préstamo bancario","Una ayuda económica del gobierno","Un tipo de impuesto"],
      ans:"Una ayuda económica del gobierno",
      hint:"The government provides this financial support to help industries or initiatives."},
 
@@ -147,7 +147,7 @@ const LESSON_4 = {
     ]},
 
     {type:"mc", q:"¿Qué significa que un negocio es 'rentable'?",
-     opts:["Que tiene muchas deudas","Que genera beneficios económicos","Que está en bolsa","Que exporta productos"],
+     opts:["Que está en bolsa","Que exporta productos","Que tiene muchas deudas","Que genera beneficios económicos"],
      ans:"Que genera beneficios económicos",
      hint:"This adjective means the business produces enough income to justify its costs."}
   ]

@@ -80,7 +80,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Quel mot signifie 'qui n'est pas prévu, surprenant' ?",
-     opts:["inattendu","indicateur","insuffisant","inscrit"],
+     opts:["inscrit","inattendu","indicateur","insuffisant"],
      ans:"inattendu",
      hint:"The prefix 'in-' means 'not', and the root relates to waiting or expecting."},
 
@@ -131,7 +131,7 @@ const LESSON_3 = {
 
     {type:"mc",
      q:"Attention faux ami : que signifie 'une issue' en français ?",
-     opts:["Un résultat ou une sortie","Un problème","Un numéro de magazine","Une question"],
+     opts:["Un numéro de magazine","Une question","Un résultat ou une sortie","Un problème"],
      ans:"Un résultat ou une sortie",
      hint:"This is a false friend. In French it means outcome or exit, not a problem."},
 

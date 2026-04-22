@@ -153,7 +153,7 @@ const UNIT_11 = {
    exampleSrc:"A: Who is that person?\nB: The one standing in front of the station? That is Yamada.",
    funFact:"立(た)っている shows the 'result state' use of ている: the person stood up (action) and is now standing (result). Many verbs work this way: 住(す)んでいる (is living/resides), 知(し)っている (knows), 持(も)っている (has/possesses)."},
 
-  {type:"mc", q:"写真(しゃしん)を撮(と)ってもいいですか means:", opts:["I am taking a photo","May I take a photo?","Please take a photo","I took a photo"], ans:"May I take a photo?",
+  {type:"mc", q:"写真(しゃしん)を撮(と)ってもいいですか means:", opts:["May I take a photo?","Please take a photo","I took a photo","I am taking a photo"], ans:"May I take a photo?",
    hint:"The てもいいですか pattern is used to ask for permission."},
 
   {type:"match", pairs:[{trg:"食(た)べてください",src:"please eat"},{trg:"食(た)べています",src:"is eating"},{trg:"食(た)べてもいいです��",src:"may I eat?"},{trg:"飲(の)んでください",src:"please drink"}]},
@@ -163,7 +163,7 @@ const UNIT_11 = {
 
   {type:"match", pairs:[{trg:"読(よ)んでいます",src:"is reading"},{trg:"見(み)ています",src:"is watching"},{trg:"立(た)っています",src:"is standing"},{trg:"座(すわ)ってください",src:"please sit"}]},
 
-  {type:"mc", q:"テレビを見(み)ています means:", opts:["Please watch TV","I watched TV","I am watching TV","May I watch TV?"], ans:"I am watching TV",
+  {type:"mc", q:"テレビを見(み)ています means:", opts:["I watched TV","I am watching TV","May I watch TV?","Please watch TV"], ans:"I am watching TV",
    hint:"The ています pattern describes an action happening right now."},
 
   {type:"tip", title:"Three Uses of て-form",

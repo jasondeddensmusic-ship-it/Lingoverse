@@ -83,7 +83,7 @@ const BATCH5_L_2 = {
      exampleSrc:"A: This technology is attracting attention from around the world.\nB: Is it a technology originating from Japan?\nA: Really? That is amazing.\nB: Thank you. I worked hard.",
      funFact:"注目(ちゅうもく)される is media language for trending topics. 注 means 'pour' and 目 means 'eye,' so 注目(ちゅうもく) literally means 'pouring eyes onto something.' The passive される shows that attention comes from many people. News anchors say 注目(ちゅうもく)されている when introducing a trending story."},
 
-    {type:"mc", q:"信(しん)じられないほどきれい means:", opts:["Unbelievably beautiful","I believe it is beautiful","It was not beautiful","Beautifully believable"], ans:"Unbelievably beautiful",
+    {type:"mc", q:"信(しん)じられないほどきれい means:", opts:["Beautifully believable","Unbelievably beautiful","I believe it is beautiful","It was not beautiful"], ans:"Unbelievably beautiful",
      hint:"The negative potential-passive of 信(しん)じる means 'cannot be believed.' Combined with ほど (to the extent that)."},
 
     {type:"match", pairs:[{trg:"思(おも)われる",src:"it is thought"},{trg:"期待(きたい)される",src:"it is expected"},{trg:"評価(ひょうか)される",src:"it is evaluated"},{trg:"注目(ちゅうもく)される",src:"it is attracting attention"}]},
@@ -91,7 +91,7 @@ const BATCH5_L_2 = {
     {type:"fb", s:"原因(げんいん)はいくつか{1}ます。\n(Several causes are conceivable.)", a:"考(かんが)えられ", opts:["考(かんが)えられ","考(かんが)えて","考(かんが)え","考(かんが)えさせ"], sSrc:"Several causes are conceivable.",
      hint:"The passive-spontaneous form of 考(かんが)える (to consider/think). Group 2 passive: stem + られる."},
 
-    {type:"mc", q:"批評家(ひひょうか)から高(たか)く評価(ひょうか)されている means:", opts:["It is highly rated by critics","Critics are being evaluated","Critics gave a low rating","Someone evaluated the critics"], ans:"It is highly rated by critics",
+    {type:"mc", q:"批評家(ひひょうか)から高(たか)く評価(ひょうか)されている means:", opts:["Critics gave a low rating","Someone evaluated the critics","It is highly rated by critics","Critics are being evaluated"], ans:"It is highly rated by critics",
      hint:"批評家(ひひょうか) (c...) + から (by) + 高(たか)く (h...) + 評価(ひょうか)されている (is being evaluated/r...)."}
   ,{type:"match",pairs:[{trg:"認(みと)められる",src:"to be recognized / to be acknowledged"},{trg:"信(しん)じられる",src:"to be believed / it is believable / I cannot believe it"},{trg:"疑(うたが)われる",src:"to be suspected / to be doubted"},{trg:"望(のぞ)まれる",src:"to be desired / to be wished for"},{trg:"明(あき)らかにされる",src:"to be made clear / to be revealed"},{trg:"才能(さいのう)",src:"talent / ability / gift"}]},
   {type:"fb", s:"長年(ながねん)の努力(どりょく)がついに上司(じょうし)に{1}ました。", a:["認(みと)められる"], opts:["認(みと)められる","疑(うたが)われる","信(しん)じられる","思(おも)われる"], hint:"The passive verb for having one's efforts or value acknowledged by others.", sSrc:"My years of effort were finally {1} by my supervisor."},

@@ -1,4 +1,4 @@
-// Batch 6 — Unit 11 extra lesson. Il passato: Common Irregular Past Participles
+// Batch 6. Unit 11 extra lesson. Il passato: Common Irregular Past Participles
 const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari", icon:"\u{1F4DA}", xp:15, board:true, steps:[
 {type:"intro", title:"Participi irregolari",
  desc:"Master the most common irregular past participles in Italian and practice using them in everyday sentences.",
@@ -112,7 +112,7 @@ const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari", icon:"\u{1
 ]},
 
 {type:"mc", q:"Cosa significa 'stringere la mano'?",
- opts:["to shake hands","to clap hands","to wave","to hold tight"],
+ opts:["to hold tight","to shake hands","to clap hands","to wave"],
  ans:"to shake hands",
  hint:"The standard Italian expression for a handshake greeting."},
 
@@ -122,7 +122,7 @@ const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari", icon:"\u{1
  sSrc:"We {1} the game three to zero!"},
 
 {type:"mc", q:"Quale verbo ha il participio passato 'pianto'?",
- opts:["piangere","piantare","piangare","piantere"],
+ opts:["piangare","piantere","piangere","piantare"],
  ans:"piangere",
  hint:"The verb that means 'to cry' or 'to weep.' An irregular -ere verb."},
 

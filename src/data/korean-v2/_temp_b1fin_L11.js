@@ -113,7 +113,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"건물에 들어가는 곳을 뭐라고 해요?",
-     opts:["출구","입구","주택","주변"],
+     opts:["입구","주택","주변","출구"],
      ans:"입구",
      hint:"This word means the opening or doorway where you enter a place."},
 

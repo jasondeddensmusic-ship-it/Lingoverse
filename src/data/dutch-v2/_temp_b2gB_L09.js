@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 09 — Verborgen Werkwoorden
+// Dutch B2 gapB Lesson 09. Verborgen Werkwoorden
 // Less common but useful verbs from the gap list
 
 const LESSON_9 = {id:"nlv2_b2gB_l9", title:"Verborgen Werkwoorden", icon:"\u{1F4AC}", xp:25, board:true, steps:[
@@ -55,7 +55,7 @@ const LESSON_9 = {id:"nlv2_b2gB_l9", title:"Verborgen Werkwoorden", icon:"\u{1F4
  funFact:"'Klef' is the perfect Dutch word for when something is uncomfortably sticky, whether it is the weather, bread, or a sappy movie."},
 
 {type:"mc", q:"'Knagen' verschilt van 'knabbelen' doordat het:",
- opts:["Softer and gentler","Stronger and also used figuratively","Only for animals","A synonym for eating"],
+ opts:["Stronger and also used figuratively","Only for animals","A synonym for eating","Softer and gentler"],
  ans:"Stronger and also used figuratively",
  hint:"A dog gnaws a bone, a worry gnaws at your conscience"},
 
@@ -65,7 +65,7 @@ const LESSON_9 = {id:"nlv2_b2gB_l9", title:"Verborgen Werkwoorden", icon:"\u{1F4
  sSrc:"Those two have been {1} all day."},
 
 {type:"mc", q:"'De klus klaren' betekent:",
- opts:["To start a job","To quit a job","To get the job done","To find a job"],
+ opts:["To quit a job","To get the job done","To find a job","To start a job"],
  ans:"To get the job done",
  hint:"Klaren means to handle or manage. When the j... is d..., you've 'cleared' it."},
 

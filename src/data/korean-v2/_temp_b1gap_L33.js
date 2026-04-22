@@ -40,7 +40,7 @@ const LESSON_33 = {
     // --- Quiz batch 1 ---
     {type:"mc",
      q:"'아이의 두뇌 ___에 좋은 음식'에서 자연적 성장을 나타내는 말은?",
-     opts:["발전","발달","변화","발생"],
+     opts:["발달","변화","발생","발전"],
      ans:"발달",
      hint:"This word emphasizes organic, natural growth and maturation. It shares a root character with 발전 but focuses on biological or cognitive growth."},
 
@@ -196,7 +196,7 @@ const LESSON_33 = {
     // --- Final quiz ---
     {type:"mc",
      q:"'이 결정이 모든 사람에게 영향을 ___'에서 빈칸에 알맞은 말은?",
-     opts:["세워요","발전해요","미쳐요","심어요"],
+     opts:["심어요","세워요","발전해요","미쳐요"],
      ans:"미쳐요",
      hint:"This verb means 'to reach' or 'to extend to.' Combined with 영향 (influence), it describes the effect something has on others."},
 

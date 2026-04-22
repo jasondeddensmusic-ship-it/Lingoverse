@@ -1,4 +1,4 @@
-// L09: Language & Dialects — 20 B2 gap words
+// L09: Language & Dialects, 20 B2 gap words
 const LESSON_9 = {
   id:"nlv2_b2g3_l9", title:"Taal en Dialecten", icon:"\uD83D\uDDE3\uFE0F", xp:15, board:true,
   steps:[
@@ -100,7 +100,7 @@ const LESSON_9 = {
      deepDive:{title:"Why Dutch lost its cases",
       text:"Old Dutch (before 1200) had four full cases like German. By the 1600s, the system was collapsing. Written Dutch tried to preserve cases, but spoken Dutch simplified.\n\nThe causes: unstressed syllables weakened, case endings merged, and word order became fixed enough to convey meaning without cases. German kept its cases because southern dialects were more conservative.\n\nToday, only pronouns show case traces: hij/hem (he/him), zij/haar (she/her), wij/ons (we/us). Everything else uses word order and prepositions."}},
     {type:"mc", q:"Welk teken gebruikt het Nederlands voor decimalen?",
-     opts:["een punt","een komma","een dubbele punt","een schuine streep"],
+     opts:["een komma","een dubbele punt","een schuine streep","een punt"],
      ans:"een komma",
      hint:"Where English writes 3.14, Dutch writes it differently. Think of European number formatting."},
     {type:"fb", s:"Welke {1} gebruik je bij je baas?", a:["aanspreekvorm"],
@@ -114,7 +114,7 @@ const LESSON_9 = {
       {trg:"dialectgebied", src:"dialect area"}
     ]},
     {type:"mc", q:"'Des te beter' is een uitdrukking. Wat betekent 'des'?",
-     opts:["zonder","met","des te = hoe meer","een naam"],
+     opts:["met","des te = hoe meer","een naam","zonder"],
      ans:"des te = hoe meer",
      hint:"An archaic genitive article. In this fixed expression it means 'all the (more)'."},
     {type:"fb", s:"Is het waar? {1}. Er zit een kern van waarheid in.", a:["Deels"],

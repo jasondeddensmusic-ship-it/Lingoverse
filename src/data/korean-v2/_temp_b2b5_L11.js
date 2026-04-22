@@ -1,4 +1,4 @@
-// Korean B2 — Batch 5, Lesson 11: Symbols, Commerce, and Freshness
+// Korean B2. Batch 5, Lesson 11: Symbols, Commerce, and Freshness
 // Words: 상대적, 상대편, 상류, 상반기, 상상력, 상식, 상업, 상인, 상자, 상점, 상징적, 상징하다, 상추, 상쾌하다, 상태, 상표, 상황, 새기다, 새다, 새로이
 
 const LESSON_11 = {

@@ -1,4 +1,4 @@
-// French B2 Gap Lesson 12 — Urban Life
+// French B2 Gap Lesson 12. Urban Life
 const LESSON_12 = {id:"frv2_b2g5_l12", title:"Vie urbaine", icon:"🏙️", xp:15, board:true, steps:[
   {type:"intro", title:"Vie urbaine",
    desc:"Build vocabulary for discussing city life, housing, infrastructure, and urban challenges at B2 level.",
@@ -87,7 +87,7 @@ const LESSON_12 = {id:"frv2_b2g5_l12", title:"Vie urbaine", icon:"🏙️", xp:1
    funFact:"'Arrière' (behind/back) + 'grand-parent'. Add another 'arrière-' for great-great: 'arrière-arrière-grand-parent'."},
 
   {type:"mc", q:"Quel idiome signifie 'avoir un langage très grossier'?",
-   opts:["Jurer comme un charretier","Porter un binocle","Ouvrir un coffre-fort","Poser un guéridon"],
+   opts:["Poser un guéridon","Jurer comme un charretier","Porter un binocle","Ouvrir un coffre-fort"],
    ans:"Jurer comme un charretier",
    hint:"Carter drivers were famous for their extremely crude vocabulary"},
 
@@ -105,7 +105,7 @@ const LESSON_12 = {id:"frv2_b2g5_l12", title:"Vie urbaine", icon:"🏙️", xp:1
   ]},
 
   {type:"mc", q:"Qu'est-ce qu'un guéridon?",
-   opts:["Une petite table ronde sur un pied","Un type de lampe","Un outil de jardinage","Un instrument de musique"],
+   opts:["Un outil de jardinage","Un instrument de musique","Une petite table ronde sur un pied","Un type de lampe"],
    ans:"Une petite table ronde sur un pied",
    hint:"A classic piece of French furniture with a single central leg"},
 
@@ -120,7 +120,7 @@ const LESSON_12 = {id:"frv2_b2g5_l12", title:"Vie urbaine", icon:"🏙️", xp:1
    hint:"The trip went smoothly and we arrived at a place where nobody had been living"},
 
   {type:"mc", q:"Pourquoi le coupe-papier est-il devenu un objet décoratif?",
-   opts:["Parce que les courriels ont remplacé les lettres","Parce qu'il est trop dangereux","Parce qu'il coûte trop cher","Parce qu'il est difficile à trouver"],
+   opts:["Parce qu'il est trop dangereux","Parce qu'il coûte trop cher","Parce qu'il est difficile à trouver","Parce que les courriels ont remplacé les lettres"],
    ans:"Parce que les courriels ont remplacé les lettres",
    hint:"With digital communication replacing physical mail, the tool lost its primary purpose"}
 ]};

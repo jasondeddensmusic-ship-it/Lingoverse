@@ -1,4 +1,4 @@
-// Dutch B2 gapB Lesson 10 — Samenstellingen en Structuren
+// Dutch B2 gapB Lesson 10. Samenstellingen en Structuren
 // Dutch compound words and organizational structures
 
 const LESSON_10 = {id:"nlv2_b2gB_l10", title:"Samenstellingen en Structuren", icon:"\u{1F3D7}", xp:25, board:true, steps:[
@@ -60,7 +60,7 @@ const LESSON_10 = {id:"nlv2_b2gB_l10", title:"Samenstellingen en Structuren", ic
   text:"Dutch can create infinitely long compounds. Some real examples from official documents:\n\n'Kinderopvangtoeslagaffaire' (childcare benefit scandal)\n'Arbeidsongeschiktheidsverzekering' (disability insurance)\n'Ziekenhuiskwaliteitsindicator' (hospital quality indicator)\n\nThe trick is reading from RIGHT to LEFT:\nZiekenhuis + kwaliteits + indicator\n= hospital quality indicator\n\nNative speakers process these automatically. For learners, always start from the right."}},
 
 {type:"mc", q:"'Het knelpunt' is:",
- opts:["A strong point","A bottleneck or problem","A meeting point","A turning point"],
+ opts:["A bottleneck or problem","A meeting point","A turning point","A strong point"],
  ans:"A bottleneck or problem",
  hint:"Knel (squeeze) + punt (point). Where things get stuck."},
 
@@ -87,7 +87,7 @@ const LESSON_10 = {id:"nlv2_b2gB_l10", title:"Samenstellingen en Structuren", ic
 ]},
 
 {type:"mc", q:"'Een krachtmeting' is:",
- opts:["A gym workout","A trial of strength or showdown","A measurement tool","A physics experiment"],
+ opts:["A physics experiment","A gym workout","A trial of strength or showdown","A measurement tool"],
  ans:"A trial of strength or showdown",
  hint:"Kracht (s...) + meting (measurement). Used for decisive confrontations."},
 

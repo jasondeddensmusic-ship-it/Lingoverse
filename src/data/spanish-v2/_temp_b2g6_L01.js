@@ -66,7 +66,7 @@ const LESSON_1 = {id:"esv2_b2g6_l1",title:"El mundo empresarial",icon:"💼",xp:
  exampleSrc:"A: My sister got a public sector job.\nB: Great! The civil service exams are very tough.",
  funFact:"In Spain, 'oposiciones' are competitive exams for public jobs, and millions prepare for them each year."},
 
-{type:"mc",q:"¿Qué es un convenio colectivo?",opts:["Un acuerdo laboral entre sindicatos y empresas","Un contrato de alquiler","Un examen de oposiciones","Un tipo de comercio"],ans:"Un acuerdo laboral entre sindicatos y empresas",hint:"Think about unions and employers negotiating working conditions together."},
+{type:"mc",q:"¿Qué es un convenio colectivo?",opts:["Un tipo de comercio","Un acuerdo laboral entre sindicatos y empresas","Un contrato de alquiler","Un examen de oposiciones"],ans:"Un acuerdo laboral entre sindicatos y empresas",hint:"Think about unions and employers negotiating working conditions together."},
 
 {type:"teach",trg:"la contraprestación",src:"the consideration / compensation",pos:"noun",gender:"f",
  note:"Feminine noun. Something given in return.\nContra (against) + prestación (benefit).",
@@ -96,7 +96,7 @@ const LESSON_1 = {id:"esv2_b2g6_l1",title:"El mundo empresarial",icon:"💼",xp:
   {trg:"incentivo",src:"incentive"}
 ]},
 
-{type:"mc",q:"¿Qué necesitas aprobar en España para conseguir un empleo estatal?",opts:["Las oposiciones","El convenio colectivo","El comercio exterior","La contraprestación"],ans:"Las oposiciones",hint:"Competitive exams that are very challenging for public sector positions."},
+{type:"mc",q:"¿Qué necesitas aprobar en España para conseguir un empleo estatal?",opts:["El comercio exterior","La contraprestación","Las oposiciones","El convenio colectivo"],ans:"Las oposiciones",hint:"Competitive exams that are very challenging for public sector positions."},
 
 {type:"fb",s:"La {1} ofrece formación gratuita como parte del acuerdo.",a:["contraprestación"],opts:["contraprestación","agencia de publicidad","directora ejecutiva","coordinadora"],hint:"Something given in return as part of a deal or contract.",sSrc:"The {1} offers free training as part of the agreement."}
 ]};

@@ -49,7 +49,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"Which word means 'immigration'?",
- opts:["migração","imigração","urbanização","globalização"],
+ opts:["imigração","urbanização","globalização","migração"],
  ans:"imigração",
  hint:"People moving INTO a country. Starts with 'i'."},
 
@@ -75,7 +75,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"What does 'urbanização' describe?",
- opts:["people moving abroad","growth of cities","farming expansion","beach tourism"],
+ opts:["beach tourism","people moving abroad","growth of cities","farming expansion"],
  ans:"growth of cities",
  hint:"Brazil went from 30% to 85% urban in the 20th century."},
 
@@ -88,7 +88,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"Which word best describes the complex urban communities in Rio?",
- opts:["urbanização","globalização","favela","classe média"],
+ opts:["classe média","urbanização","globalização","favela"],
  ans:"favela",
  hint:"Informal settlements with strong community and culture."},
 
@@ -144,7 +144,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"What does 'jeitinho' mean?",
- opts:["a big party","a workaround","a lot","a little food"],
+ opts:["a workaround","a lot","a little food","a big party"],
  ans:"a workaround",
  hint:"A creative, informal solution. Literally 'little way'."},
 
@@ -157,7 +157,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"Which cultural concept is considered untranslatable?",
- opts:["futebol","carnaval","saudade","jeitinho"],
+ opts:["carnaval","saudade","jeitinho","futebol"],
  ans:"saudade",
  hint:"A bittersweet feeling of missing something. Unique to Portuguese."},
 
@@ -183,7 +183,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"Which word means 'diversity'?",
- opts:["identidade","saudade","diversidade","jeitinho"],
+ opts:["jeitinho","identidade","saudade","diversidade"],
  ans:"diversidade",
  hint:"Having many different kinds. Brazil prides itself on this."},
 
@@ -196,9 +196,9 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 ]},
 
 {type:"tip", title:"Diminutives: -inho and -zinho",
- text:"Diminutives are one of the most distinctive features of Brazilian Portuguese. They add -inho (masculine) or -inha (feminine) to soften, endear, or truly shrink something.\n\nBase word > diminutive:\ncafé > cafezinho (small coffee, also the classic Brazilian espresso)\ncasa > casinha (little house)\npão > pãozinho (small bread roll)\njeito > jeitinho (the Brazilian workaround — the diminutive itself is cultural)\nagora > agora + inho = agorinha (right now, immediately)\n\nSpelling rule: if the word ends in a vowel, just add -inho/-inha. If it ends in a consonant, insert a linking syllable: café > cafezinho (not cafeinho).\n\nDiminutives do NOT always mean small. They also express affection, politeness, or softening.\nUm minutinho! (Just one minute!) = a polite request for patience, not a measurement.",
+ text:"Diminutives are one of the most distinctive features of Brazilian Portuguese. They add -inho (masculine) or -inha (feminine) to soften, endear, or truly shrink something.\n\nBase word > diminutive:\ncafé > cafezinho (small coffee, also the classic Brazilian espresso)\ncasa > casinha (little house)\npão > pãozinho (small bread roll)\njeito > jeitinho (the Brazilian workaround, the diminutive itself is cultural)\nagora > agora + inho = agorinha (right now, immediately)\n\nSpelling rule: if the word ends in a vowel, just add -inho/-inha. If it ends in a consonant, insert a linking syllable: café > cafezinho (not cafeinho).\n\nDiminutives do NOT always mean small. They also express affection, politeness, or softening.\nUm minutinho! (Just one minute!) = a polite request for patience, not a measurement.",
  icon:"💛",
- deepDive:{title:"Affective Use — The Most Brazilian Feature",
+ deepDive:{title:"Affective Use. The Most Brazilian Feature",
   text:"Brazilians use diminutives so naturally that linguists call it a 'produtivo afetivo' (affective productivity) feature. Almost any noun or adjective can take -inho/-inha. A customer may say 'Me dá um cafezinho' even at a business meeting. A grandmother addresses everyone with '-inho'. A vendor says 'Espera um momentinho' to soften the wait. Even adverbs get it: 'calminho' (real calm), 'devagarzinho' (very slowly, with care). Learning to hear and use diminutives is one of the clearest signals that a learner has truly internalized Brazilian Portuguese."}},
 ]},
 
@@ -232,7 +232,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"What does 'PIB' stand for?",
- opts:["inflation rate","GDP","unemployment","interest rate"],
+ opts:["GDP","unemployment","interest rate","inflation rate"],
  ans:"GDP",
  hint:"The total value of goods and services produced in a country."},
 
@@ -245,7 +245,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"Which word relates to creating new technology and ideas?",
- opts:["desigualdade","imigração","inovação","saudade"],
+ opts:["imigração","inovação","saudade","desigualdade"],
  ans:"inovação",
  hint:"Creating something new. Related to the English cognate."},
 
@@ -279,7 +279,7 @@ const UNIT_35 = {n:35, lang:"pt", srcLang:"en", track:"v2", title:"Brasil modern
 
 {type:"mc",
  q:"What does 'PIB' stand for in Portuguese?",
- opts:["Programa de Investimento Brasileiro","Produto Interno Bruto","Plano de Infraestrutura Básica","Partido Industrial Brasileiro"],
+ opts:["Plano de Infraestrutura Básica","Partido Industrial Brasileiro","Programa de Investimento Brasileiro","Produto Interno Bruto"],
  ans:"Produto Interno Bruto",
  hint:"The total value of goods and services produced in a country. Starts with P-I-B."},
 

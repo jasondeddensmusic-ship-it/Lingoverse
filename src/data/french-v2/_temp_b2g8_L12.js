@@ -80,7 +80,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Quel mot désigne un train qui s'arrête à toutes les gares ?",
-     opts:["un omnibus","un cinématographe","un narcotique","un décimètre"],
+     opts:["un décimètre","un omnibus","un cinématographe","un narcotique"],
      ans:"un omnibus",
      hint:"From Latin meaning 'for all'. This train serves every village and small station."},
 
@@ -119,7 +119,7 @@ const LESSON_12 = {
 
     {type:"mc",
      q:"Le mot 'bus' est un raccourci de quel mot latin ?",
-     opts:["omnibus","autobus","minibus","trolleybus"],
+     opts:["minibus","trolleybus","omnibus","autobus"],
      ans:"omnibus",
      hint:"This Latin word means 'for all'. The short form dropped the first syllables."},
 

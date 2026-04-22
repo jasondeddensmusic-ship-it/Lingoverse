@@ -80,7 +80,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel mot designe le fait de vivre ensemble en paix ?",
-     opts:["la coexistence","la concordance","la conciliation","la descendance"],
+     opts:["la descendance","la coexistence","la concordance","la conciliation"],
      ans:"la coexistence",
      hint:"'Co-' (together) + 'existence' (living). Different groups sharing space peacefully."},
 
@@ -113,7 +113,7 @@ const LESSON_13 = {
 
     {type:"mc",
      q:"Quel mot designe l'accord entre differents temoignages ?",
-     opts:["la concordance","la conciliation","la coexistence","la descendance"],
+     opts:["la coexistence","la descendance","la concordance","la conciliation"],
      ans:"la concordance",
      hint:"When multiple accounts agree with each other, showing consistency."},
 

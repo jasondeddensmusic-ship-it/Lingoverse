@@ -90,7 +90,7 @@ const LESSON_6 = {id:"esv2_b2g2_l6",title:"Carácter y personalidad",icon:"🎭"
  exampleSrc:"A: The exam results were disappointing.\nB: We expected much better grades.",
  funFact:"False friend alert: 'decepcionar' means to disappoint, NOT to deceive (which is 'engañar')."},
 
-{type:"mc",q:"¿Qué significa ser calculador?",opts:["Planear fríamente para beneficio propio","Ser muy bueno en matemáticas","Tener mucha audacia","Actuar de forma alocada"],ans:"Planear fríamente para beneficio propio",hint:"Think about someone who coldly schemes every move for personal advantage."},
+{type:"mc",q:"¿Qué significa ser calculador?",opts:["Actuar de forma alocada","Planear fríamente para beneficio propio","Ser muy bueno en matemáticas","Tener mucha audacia"],ans:"Planear fríamente para beneficio propio",hint:"Think about someone who coldly schemes every move for personal advantage."},
 
 {type:"teach",trg:"borde",src:"rude / unfriendly (colloquial)",pos:"adj",gender:null,
  note:"Adjective. Unfriendly and abrupt (informal Spanish). Same form m/f.",
@@ -120,7 +120,7 @@ const LESSON_6 = {id:"esv2_b2g2_l6",title:"Carácter y personalidad",icon:"🎭"
 
 {type:"match",pairs:[{trg:"astuto",src:"astute"},{trg:"bondadoso",src:"kind-hearted"},{trg:"agobiante",src:"overwhelming"},{trg:"apuesto",src:"handsome"},{trg:"cínico",src:"cynical"}]},
 
-{type:"mc",q:"¿Qué palabra describe a alguien que es tacaño con el dinero?",opts:["Avariento","Alocado","Arrogante","Borde"],ans:"Avariento",hint:"Think about someone excessively attached to their money who never treats others."}
+{type:"mc",q:"¿Qué palabra describe a alguien que es tacaño con el dinero?",opts:["Arrogante","Borde","Avariento","Alocado"],ans:"Avariento",hint:"Think about someone excessively attached to their money who never treats others."}
 ]};
 
 export default LESSON_6;

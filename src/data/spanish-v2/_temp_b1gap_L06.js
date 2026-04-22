@@ -105,7 +105,7 @@ const LESSON_6 = {
 
     {type:"mc",
      q:"\u00bfQu\u00e9 significa 'argumento' cuando hablamos de una pel\u00edcula?",
-     opts:["La historia o trama","Una discusi\u00f3n","Un documento legal","Una nota musical"],
+     opts:["Una nota musical","La historia o trama","Una discusi\u00f3n","Un documento legal"],
      ans:"La historia o trama",
      hint:"In Spanish, this word primarily refers to the storyline of a movie, book, or play. Not a dispute."},
 

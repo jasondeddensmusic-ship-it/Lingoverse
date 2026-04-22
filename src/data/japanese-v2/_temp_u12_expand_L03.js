@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u12l5", title:"できない・できるようにな�
    exampleSrc:"A: Have you become able to speak Japanese?\nB: I have become able to speak a little.",
    funFact:"ようになる is one of the most motivating grammar patterns in Japanese. It describes the journey from inability to ability. にほんごがわかるようになった (I came to understand Japanese) celebrates gradual progress. Language teachers love hearing students use this pattern."},
 
-  {type:"mc", q:"はなせるようになりました means:", opts:["I forgot how to speak","I want to speak","I became able to speak","I stopped speaking"], ans:"I became able to speak",
+  {type:"mc", q:"はなせるようになりました means:", opts:["I became able to speak","I stopped speaking","I forgot how to speak","I want to speak"], ans:"I became able to speak",
    hint:"Potential form + ようになる = gradually achieved the ability."},
 
   {type:"teach", trg:"よめるようになった", src:"became able to read", pos:"verb", gender:null,

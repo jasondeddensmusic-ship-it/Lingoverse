@@ -99,7 +99,7 @@ const LESSON_16 = {
 
     {type:"mc",
      q:"\u00bfC\u00f3mo se llama un lugar peque\u00f1o y protegido en la costa?",
-     opts:["una cala","una brecha","una brasa","una amenaza"],
+     opts:["una amenaza","una cala","una brecha","una brasa"],
      ans:"una cala",
      hint:"A small sheltered inlet along the Mediterranean coast, popular with swimmers and sunbathers."},
 

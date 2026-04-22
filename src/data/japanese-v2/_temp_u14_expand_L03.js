@@ -24,7 +24,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
    exampleSrc:"A: I must write the report by tomorrow.\nB: That is tough. Do your best.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
    funFact:"なければならない literally means 'if one does not do it, it will not do.' This triple-negative construction (na-kereba nara-nai) confuses learners but is standard Japanese. The casual form なきゃ (from なければ) is extremely common: いかなきゃ (gotta go), たべなきゃ (gotta eat)."},
 
-  {type:"mc", q:"べんきょうしたのに、だめだった expresses:", opts:["I studied and passed","I did not study","I studied a lot but it went badly (frustrating)","I will study"], ans:"I studied a lot but it went badly (frustrating)",
+  {type:"mc", q:"べんきょうしたのに、だめだった expresses:", opts:["I studied a lot but it went badly (frustrating)","I will study","I studied and passed","I did not study"], ans:"I studied a lot but it went badly (frustrating)",
    hint:"のに adds frustration or disappointment about an unexpected result."},
 
   {type:"teach", trg:"〜べき", src:"should ~ / ought to ~", pos:"part", gender:null,
@@ -60,7 +60,7 @@ const LESSON_5 = {id:"jav2_u14l5", title:"つよいいけん", icon:"🗣️", x
    exampleSrc:"A: What do you think is the most important thing?\nB: I think health is the most important.\nA: That is exciting.\nB: Yes, I am already excited.",
    funFact:"大切 combines 大 (big) and 切 (cut/important). Despite the kanji for 'cut,' it means 'precious' or 'important.' たいせつなひと (important person) is used for loved ones. The phrase たいせつにする (to cherish/take care of) is a heartfelt expression."},
 
-  {type:"mc", q:"もちろん means:", opts:["maybe","I doubt it","of course","I do not know"], ans:"of course",
+  {type:"mc", q:"もちろん means:", opts:["I doubt it","of course","I do not know","maybe"], ans:"of course",
    hint:"Expresses absolute certainty, meaning 'there is no need to discuss it.'"},
 
   {type:"teach", trg:"とくに", src:"especially / particularly", pos:"adv", gender:null,

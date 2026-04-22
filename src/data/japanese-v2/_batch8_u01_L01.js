@@ -87,13 +87,13 @@ const BATCH8_L1 = {
     {type:"match", pairs:[{trg:"ただいま",src:"I am home"},{trg:"おかえりなさい",src:"Welcome back"},{trg:"もしもし",src:"Hello (phone)"},{trg:"おだいじに",src:"Take care / Get well soon"},{trg:"おめでとう",src:"Congratulations"}],
      hint:"Match each Japanese greeting with its English meaning."},
 
-    {type:"mc", q:"What is the polite reply when someone says ありがとう and you want to say 'thanks to you'?", opts:["おかげさまで","おだいじに","おめでとう","ただいま"], ans:"おかげさまで",
+    {type:"mc", q:"What is the polite reply when someone says ありがとう and you want to say 'thanks to you'?", opts:["ただいま","おかげさまで","おだいじに","おめでとう"], ans:"おかげさまで",
      hint:"This phrase humbly credits your good fortune to the other person's benevolence."},
 
     {type:"fb", s:"誕生日(たんじょうび){1}！\n(Happy birthday!)", a:"おめでとう", opts:["おめでとう","おだいじに","ありがとう","ごめんなさい"], sSrc:"Happy birthday!",
      hint:"This word means congratulations and is used for celebrations."},
 
-    {type:"mc", q:"When would you say ごぶさたしております?", opts:["When contacting someone after a long silence","When answering the phone","When arriving at work","When leaving home"], ans:"When contacting someone after a long silence",
+    {type:"mc", q:"When would you say ごぶさたしております?", opts:["When arriving at work","When leaving home","When contacting someone after a long silence","When answering the phone"], ans:"When contacting someone after a long silence",
      hint:"This formal phrase apologizes for the gap in communication."}
   ,{type:"fb", s:"仕事(しごと)から帰(かえ)ってきた父(ちち)に「{1}」と声(こえ)をかけました。",
      a:["おかえりなさい"],

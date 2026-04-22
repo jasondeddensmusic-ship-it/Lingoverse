@@ -1,4 +1,4 @@
-// L16: Processes & Procedures — 20 B2 gap words
+// L16: Processes & Procedures, 20 B2 gap words
 const LESSON_16 = {
   id:"nlv2_b2gap_l16", title:"Processen en Procedures", icon:"\u2699\uFE0F", xp:15, board:true,
   steps:[
@@ -110,7 +110,7 @@ const LESSON_16 = {
      deepDive:{title:"The be- prefix in Dutch",
       text:"The inseparable prefix 'be-' transforms intransitive verbs into transitive ones:\n\nzaaien (to sow) > bezaaien (to sow over/scatter)\ntegelen (to tile) > betegelen (to tile something)\nmesten (to manure) > bemesten (to fertilize)\nmannen (to man) > bemannen (to staff)\n\nThe 'be-' makes the verb act ON an object. Without 'be-', the verb is more general. With 'be-', it targets something specific.\n\nThis pattern is productive: you can often predict meaning by knowing the base verb plus 'be-'."}},
     {type:"mc", q:"'Het project is afgeblazen.' What happened?",
-     opts:["The project was launched","The project was called off","The project was expanded","The project was celebrated"],
+     opts:["The project was called off","The project was expanded","The project was celebrated","The project was launched"],
      ans:"The project was called off",
      hint:"'Afblazen' literally means to blow o..., like extinguishing a candle."},
     {type:"mc", q:"'Zich beroepen op' means:",
@@ -132,7 +132,7 @@ const LESSON_16 = {
       {trg:"afhaken", src:"to drop out"}
     ]},
     {type:"mc", q:"'Berokkenen' is ONLY used for:",
-     opts:["positive things","negative things","neutral descriptions","weather"],
+     opts:["weather","positive things","negative things","neutral descriptions"],
      ans:"negative things",
      hint:"You can 'schade berokkenen' (cause damage) but not 'vreugde berokkenen'."},
     {type:"fb", s:"Het veld was {1} met bloemen.", a:["bezaaid"],

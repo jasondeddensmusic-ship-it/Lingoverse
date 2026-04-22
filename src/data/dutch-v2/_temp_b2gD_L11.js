@@ -1,4 +1,4 @@
-// L11: Informatie en Digitaal — Information and Digital
+// L11: Informatie en Digitaal. Information and Digital
 const LESSON_11 = {
   id:"nlv2_b2gD_l11", title:"Informatie en Digitaal", icon:"\u{1F4BB}", xp:15, board:true,
   steps:[
@@ -83,7 +83,7 @@ const LESSON_11 = {
 
     {type:"mc",
      q:"Wat betekent 'een hele kluif'?",
-     opts:["Een moeilijke taak die veel tijd kost","Een groot diner","Een hondenspeeltje","Een korte pauze"],
+     opts:["Een korte pauze","Een moeilijke taak die veel tijd kost","Een groot diner","Een hondenspeeltje"],
      ans:"Een moeilijke taak die veel tijd kost",
      hint:"This idiom compares a challenging task to a bone that takes a long time to gnaw on."},
 

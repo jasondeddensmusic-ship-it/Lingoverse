@@ -1,4 +1,4 @@
-// Batch 4 — Unit 01, Lesson 1: Feelings & Reactions in Greetings
+// Batch 4. Unit 01, Lesson 1: Feelings & Reactions in Greetings
 const BATCH4_U01_L1 = {
   id:"itv2_u01l_b4_1", title:"Come ti senti?", icon:"\uD83D\uDE0A", xp:15, board:true,
   steps:[
@@ -97,7 +97,7 @@ const BATCH4_U01_L1 = {
      hint:"Think of the feeling you have after a long day of work."},
 
     {type:"mc", q:"Cosa significa 'meno male'?",
-     opts:["Thank goodness","Too bad","Unfortunately","Not really"],
+     opts:["Not really","Thank goodness","Too bad","Unfortunately"],
      ans:"Thank goodness",
      hint:"This expression literally means 'less bad' and shows relief."},
 
@@ -119,7 +119,7 @@ const BATCH4_U01_L1 = {
     ]},
 
     {type:"mc", q:"Qualcuno dice 'Grazie mille!' Come rispondi in modo informale?",
-     opts:["Figurati!","Purtroppo!","Davvero?","Meno male!"],
+     opts:["Davvero?","Meno male!","Figurati!","Purtroppo!"],
      ans:"Figurati!",
      hint:"This casual response means something like 'don't mention it' or 'no worries.'"},
 
@@ -129,7 +129,7 @@ const BATCH4_U01_L1 = {
      sSrc:"A: Do you want a vacation in the Caribbean?\nB: {1}! That would be a dream!"},
 
     {type:"mc", q:"Cosa dici quando incontri qualcuno per la prima volta?",
-     opts:["Piacere!","Figurati!","Meno male!","Che bello!"],
+     opts:["Figurati!","Meno male!","Che bello!","Piacere!"],
      ans:"Piacere!",
      hint:"This word means 'pleasure' and is standard when meeting someone new."}
   ,{type:"match",pairs:[{trg:"benissimo",src:"very well / great"},{trg:"per fortuna",src:"fortunately / luckily"}]}]

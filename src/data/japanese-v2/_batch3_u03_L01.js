@@ -1,6 +1,6 @@
 // Unit 03 Batch3 L01. Location & Daily Objects
 // New vocab: どこ, うえ, した, なか, となり, ちかく, あります, います,
-// さいふ, スマホ, じしょ, でんち, はこ — all absent from unit-03.js
+// さいふ, スマホ, じしょ, でんち, はこ, all absent from unit-03.js
 // and _temp_u03 files (which cover classroom objects and technology items).
 const BATCH3_L_1 = {
   id:"jav2_u3l_b3_1", title:"どこにありますか", icon:"📍", xp:15, board:true,
@@ -28,7 +28,7 @@ const BATCH3_L_1 = {
      funFact:"Imasu vs arimasu is one of the first major grammar points Japanese learners face. Robots and cars use arimasu (they do not move themselves). Goldfish use imasu (they are alive). This draws a line between what is inherently alive and what just sits there."},
 
     {type:"mc", q:"Which verb would you use for 'there is a book'?",
-     opts:["います","です","あります","します"],
+     opts:["あります","します","います","です"],
      ans:"あります",
      hint:"Books are non-living objects. Use the existence verb for inanimate things."},
 
@@ -81,7 +81,7 @@ const BATCH3_L_1 = {
      funFact:"Sumaaho (smartphone, abbreviated sumafo or sumaho) replaced keitai as the dominant mobile device term after 2010. Japan is famous for high smartphone penetration. Unique to Japan: electronic payment via IC cards (Suica, Pasmo) on the same smartphone."},
 
     {type:"mc", q:"Which sentence means 'The wallet is inside the bag'?",
-     opts:["財布(さいふ)はかばんの下(した)にあります","財布(さいふ)はかばんのとなりにあります","財布(さいふ)はかばんの中(なか)にあります","財布(さいふ)はかばんの上(うえ)にあります"],
+     opts:["財布(さいふ)はかばんのとなりにあります","財布(さいふ)はかばんの中(なか)にあります","財布(さいふ)はかばんの上(うえ)にあります","財布(さいふ)はかばんの下(した)にあります"],
      ans:"財布(さいふ)はかばんの中(なか)にあります",
      hint:"Inside = naka. The wallet is in the position within the bag."},
 
@@ -117,7 +117,7 @@ const BATCH3_L_1 = {
      hint:"The position phrase meaning 'next to the bag.'",
      sSrc:"Is the smartphone next to the bag?"},
 
-    {type:"mc", q:"います is used for:", opts:["Books and pens","Boxes and wallets","Tables and chairs","Cats and people"],
+    {type:"mc", q:"います is used for:", opts:["Boxes and wallets","Tables and chairs","Cats and people","Books and pens"],
      ans:"Cats and people",
      hint:"This existence verb is only for things that are alive and move on their own."},
   {type:"match",pairs:[{trg:"スマホ",src:"smartphone"},{trg:"辞書(じしょ)",src:"dictionary"},{trg:"箱(はこ)",src:"box"}]},

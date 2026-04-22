@@ -1,4 +1,4 @@
-// Korean V2 Unit 40 — B1 Vocabulary Expansion: Emotions, Perception, Change, Opinions & Society
+// Korean V2 Unit 40. B1 Vocabulary Expansion: Emotions, Perception, Change, Opinions & Society
 import L31 from './_temp_b1gap_L31.js';
 import L32 from './_temp_b1gap_L32.js';
 import L33 from './_temp_b1gap_L33.js';
