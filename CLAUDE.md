@@ -474,7 +474,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-20d.md`** — **LATEST HANDOFF.** 38 PRs shipped (#255–#292). +648 teach cards → 14,823 total. Italian accent restoration complete (805 fixes). F11 Resolve Disputes closed for PT+ZH. PP64 lemma-match gaps closed DE+KO. Code organization planning notes included. Next-session priorities ranked. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-22.md`** — **LATEST HANDOFF.** **Critical:** validator blind spot found — `validate_all.cjs` reads files as text, doesn't follow JS imports. ~24,000 teach cards across 6 languages NEVER validated. PR #294 wired 345 orphan batch imports for Italian + Japanese (corpus jumped 14,823 → 39,038 runtime). Next session must patch validator + clear surfacing violations. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-20d.md`** — Prior handoff. 38 PRs shipped (#255–#292). +648 inline teach cards. Italian accent restoration. F11 closures. Code organization planning.
 - **`docs/SESSION_HANDOFF_2026-04-20c.md`** — Earlier snapshot. 17 PRs. +538 cards.
 - **`docs/SESSION_HANDOFF_2026-04-20b.md`** — Earlier handoff. 6 PRs shipped. +173 teach cards.
 - **`docs/SESSION_HANDOFF_2026-04-20.md`** — Earlier handoff. 41 PRs shipped (#213–#253). +538 teach cards. 7 PP58 function closures.
