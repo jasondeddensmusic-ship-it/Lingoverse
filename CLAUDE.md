@@ -474,7 +474,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-22b.md`** — **LATEST HANDOFF.** Runtime validator shipped (PR #297), mechanical fixes cleared (PR #298), coverage generator closed all PP64+PP67 gaps (PR #299). Every PP rule the validator checks now passes across all 39,038 teach cards. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-23.md`** — **LATEST HANDOFF.** Runtime validator extended with PP22c + 2 PP8 variants (PR #301). Coverage lessons refreshed with contextual fb sentences (PR #302). 2,107 new violations cleared this session. 217 residual (PP8 length/position content-level). Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-22b.md`** — Prior handoff. Runtime validator shipped (PR #297), PP8/PP43/PP48 cleared (PR #298), PP64/PP67 coverage (PR #299).
 - **`docs/SESSION_HANDOFF_2026-04-22.md`** — Prior handoff documenting the validator blind spot discovery.
 - **`docs/SESSION_HANDOFF_2026-04-20d.md`** — Prior handoff. 38 PRs shipped (#255–#292). +648 inline teach cards. Italian accent restoration. F11 closures. Code organization planning.
 - **`docs/SESSION_HANDOFF_2026-04-20c.md`** — Earlier snapshot. 17 PRs. +538 cards.
