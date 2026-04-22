@@ -355,12 +355,12 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 | Russian | v2 | 36 | 737 | 50 entries | **VALIDATED.** Cyrillic, 6 cases, aspect pairs, TRKI framework. All 36 units complete. PP8/PP48/PP63/PP67 all clean. Grammar: 50 real entries (A1-B2, TRKI-aligned). |
 
 **Grand total: 39,038 teach cards across 10 languages (runtime count via `scripts/_runtime_count.mjs` — what users actually see in the app). Build passes.**
-**Note on counting:** `scripts/validate_all.cjs` reads files as text and does NOT follow JS imports, so it undercounts languages whose unit files import batch/temp content (Korean, Dutch, French, Spanish, Italian, Japanese). Use `node scripts/_runtime_count.mjs` for the true production corpus size.
-**All 10 languages PASS PP8/PP43/PP48/PP63/PP64/PP66/PP67 (via validate_all.cjs). Italian has 1 non-critical PP64 flag (0.024%).**
+**Authoritative validator (2026-04-22):** `scripts/validate_runtime.mjs` — uses ESM dynamic import to walk the actual shipped lesson tree. Validates all 39,038 cards (was 7,128 under the text-based `validate_all.cjs`). Reports PP8/PP43/PP48/PP64/PP67 at unit+lesson+step granularity. Use this for every commit going forward.
+**Legacy validator:** `scripts/validate_all.cjs` reads files as text and does NOT follow JS imports. Kept for CI speed / spot-checks on a single file, but do not treat its "PASS" as authoritative.
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
-**Validator state (2026-04-20): All 10 languages PASS PP8, PP43, PP48, PP63, PP64, PP67.**
+**Validator state (2026-04-22 — runtime):** Bulk violations surfaced after blind-spot fix. Fixed in waves (see `docs/SESSION_HANDOFF_2026-04-22.md`). Running tally: see `node scripts/validate_runtime.mjs`.
 
-> Note: Previous CLAUDE.md totals (~32,600+) counted teach cards in batch files PLUS their imports into main unit files — essentially double-counting. The per-language numbers above reflect the actual corpus as reported by `node scripts/validate_all.cjs <lang-dir>`.
+> Note: Previous CLAUDE.md totals (~32,600+) counted teach cards in batch files PLUS their imports into main unit files — essentially double-counting. The per-language numbers above reflect the actual corpus as reported by `node scripts/_runtime_count.mjs`.
 
 ### Build History (compact)
 
