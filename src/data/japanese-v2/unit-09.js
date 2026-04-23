@@ -209,9 +209,7 @@ const UNIT_09 = {
 
   {type:"mc", q:"一緒(いっしょ)に means:", opts:["separately","together","later","quickly"], ans:"together",
    hint:"This adverb combines the kanji for 'one' and 'thread,' meaning bound as one."},
-{type:"match",pairs:[{trg:"もう少(すこ)し",src:"a little more"},{trg:"もう少(すこ)し安(やす)く",src:"a little cheaper (please)"},{trg:"一緒(いっしょ)に",src:"together"}]}]},
-
-,BATCH2_L1
+{type:"match",pairs:[{trg:"もう少(すこ)し",src:"a little more"},{trg:"もう少(すこ)し安(やす)く",src:"a little cheaper (please)"},{trg:"一緒(いっしょ)に",src:"together"}]}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

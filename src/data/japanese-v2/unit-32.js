@@ -191,9 +191,7 @@ const UNIT_32 = {
 
   {type:"fb", s:"ウイルスの{1}を防(ふせ)ぐためにマスクをつけましょう。", a:"感染(かんせん)", opts:["感染(かんせん)","治療(ちりょう)","免疫(めんえき)","遺伝子(いでんし)"], sSrc:"Let's wear masks to prevent virus infection.",
    hint:"The noun describing how a pathogen spreads from one person to another."},
-{type:"match",pairs:[{trg:"医学(いがく)",src:"medical science / medicine (as a field)"},{trg:"倫理(りんり)",src:"ethics"}]}]},
-
-,BATCH2_L01
+{type:"match",pairs:[{trg:"医学(いがく)",src:"medical science / medicine (as a field)"},{trg:"倫理(りんり)",src:"ethics"}]}]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

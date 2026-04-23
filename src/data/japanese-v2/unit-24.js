@@ -132,9 +132,7 @@ const UNIT_24 = {
    hint:"The connector that rephrases or summarizes the preceding information into a bottom line."},
 
   {type:"match", pairs:[{trg:"見直(みなお)し",src:"review"},{trg:"値段(ねだん)",src:"price"},{trg:"医療(いりょう)",src:"medical care"},{trg:"高齢化(こうれいか)",src:"aging population"}]},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

@@ -176,9 +176,7 @@ const UNIT_14 = {
    text:"From most to least certain:\n絶対(ぜったい) (absolutely): 絶対行(ぜったいい)く。(I am absolutely going.)\nきっと (surely, ~90%): きっと大丈夫(だいじょうぶ)。(Surely it is fine.)\n多分(たぶん) (probably, ~70%): 多分(たぶん)雨(あめ)だ。(Probably rain.)\nでしょう/だろう (likely): 雨(あめ)でしょう。(It will likely rain.)\nかもしれない (might, ~40%): 雨(あめ)かもしれない。(It might rain.)",
    deepDive:{title:"Combining certainty markers",
     text:"You can combine adverbs with sentence-end patterns for nuance:\n多分(たぶん)雨(あめ)でしょう。(It will probably rain.) -- mid certainty\nきっと大丈夫(だいじょうぶ)でしょう。(It will surely be fine.) -- high certainty\n多分(たぶん)行(い)けるかもしれない。(Maybe I can probably go.) -- low certainty\n\nAvoid doubling the same level: 絶対(ぜったい)でしょう sounds contradictory. If you are absolutely sure, use 絶対(ぜったい) with a plain statement."}},
-]},
-
-,BATCH2_L1
+]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

@@ -37,7 +37,7 @@ Teach: 88 | Tested: 88 | Untested: 0 | Coverage: 100.0%
 Teach: 101 | Tested: 101 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 12 ===
-Teach: 165 | Tested: 165 | Untested: 0 | Coverage: 100.0%
+Teach: 172 | Tested: 172 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 13 ===
 Teach: 162 | Tested: 162 | Untested: 0 | Coverage: 100.0%
@@ -49,7 +49,7 @@ Teach: 170 | Tested: 170 | Untested: 0 | Coverage: 100.0%
 Teach: 160 | Tested: 160 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 16 ===
-Teach: 171 | Tested: 171 | Untested: 0 | Coverage: 100.0%
+Teach: 178 | Tested: 178 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 17 ===
 Teach: 168 | Tested: 168 | Untested: 0 | Coverage: 100.0%
@@ -61,7 +61,7 @@ Teach: 131 | Tested: 131 | Untested: 0 | Coverage: 100.0%
 Teach: 117 | Tested: 117 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 20 ===
-Teach: 147 | Tested: 147 | Untested: 0 | Coverage: 100.0%
+Teach: 156 | Tested: 156 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 21 ===
 Teach: 124 | Tested: 123 | Untested: 1 | Coverage: 99.2%
@@ -83,7 +83,7 @@ Teach: 159 | Tested: 159 | Untested: 0 | Coverage: 100.0%
 Teach: 153 | Tested: 153 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 27 ===
-Teach: 161 | Tested: 161 | Untested: 0 | Coverage: 100.0%
+Teach: 168 | Tested: 168 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 28 ===
 Teach: 160 | Tested: 160 | Untested: 0 | Coverage: 100.0%
@@ -92,7 +92,7 @@ Teach: 160 | Tested: 160 | Untested: 0 | Coverage: 100.0%
 Teach: 161 | Tested: 161 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 30 ===
-Teach: 159 | Tested: 159 | Untested: 0 | Coverage: 100.0%
+Teach: 167 | Tested: 167 | Untested: 0 | Coverage: 100.0%
 
 === UNIT 31 ===
 Teach: 148 | Tested: 148 | Untested: 0 | Coverage: 100.0%
@@ -111,4 +111,4 @@ Teach: 147 | Tested: 147 | Untested: 0 | Coverage: 100.0%
 Teach: 109 | Tested: 109 | Untested: 0 | Coverage: 100.0%
 
 ────────────────────────────────────────────────────────────
-GRAND TOTAL: 5012 teach | 5007 tested | 5 untested | 99.9% coverage
+GRAND TOTAL: 5050 teach | 5045 tested | 5 untested | 99.9% coverage

@@ -189,9 +189,7 @@ const UNIT_20 = {
    hint:"You need the humble replacement for する. The honorific equivalent is なさる; the humble equivalent lowers your own actions.",
    sSrc:"The humble equivalent of する is {1}."},
 
-{type:"match",pairs:[{trg:"ご覧(らん)になる",src:"to look / to see (honorific)"},{trg:"お休(やす)みになる",src:"to rest / to sleep (honorific)"},{trg:"〜お + stem + になる",src:"honorific verb pattern"},{trg:"なさる",src:"to do (honorific)"},{trg:"くださる",src:"to give (honorific, to me/us)"},{trg:"いただく",src:"to receive / to eat (humble)"}]},{type:"match",pairs:[{trg:"申(もう)す",src:"to say / to be called (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お待(ま)ちする",src:"to wait (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]},
-
-,{id:"jav2_u20l_n3_expand", title:"重要(じゅうよう)な表現(ひょうげん)", icon:"💡", xp:20, board:true, steps:[
+{type:"match",pairs:[{trg:"ご覧(らん)になる",src:"to look / to see (honorific)"},{trg:"お休(やす)みになる",src:"to rest / to sleep (honorific)"},{trg:"〜お + stem + になる",src:"honorific verb pattern"},{trg:"なさる",src:"to do (honorific)"},{trg:"くださる",src:"to give (honorific, to me/us)"},{trg:"いただく",src:"to receive / to eat (humble)"}]},{type:"match",pairs:[{trg:"申(もう)す",src:"to say / to be called (humble)"},{trg:"〜お + stem + する",src:"humble verb pattern"},{trg:"お待(ま)ちする",src:"to wait (humble)"},{trg:"拝見(はいけん)する",src:"to look / to see (humble)"}]}]},{id:"jav2_u20l_n3_expand", title:"重要(じゅうよう)な表現(ひょうげん)", icon:"💡", xp:20, board:true, steps:[
   {type:"intro", title:"Key N3 Expressions for Polite Communication",
    desc:"Build the abstract vocabulary that gives your keigo depth and precision. Describing someone's attitude, conveying important information, or acknowledging a situation: these words appear constantly in business Japanese and everyday B1 conversation.",
    goals:["Use important/special (重要・特別) as na-adjectives","Describe attitude, manner, and behavior (態度・様子・行動)","Use 伝(つた)える and 認(みと)める in keigo contexts","Describe facial expressions (表情)"]},

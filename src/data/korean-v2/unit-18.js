@@ -257,8 +257,6 @@ const UNIT_18 =
 {type:"drag_fill",s:"한국 음식을 배우{1} 위해서 요리 학원에 {2} 있어요.\n(I am attending a cooking academy in order to learn Korean food.)",blanks:{"1":"기","2":"다니고"},pool:["기","다니고","는","다녀서","게","다니면"],hint:"-기 위해서 (purpose) + -고 있다 (progressive)."},
 {type:"match",pairs:[{trg:"요리하다",src:"to cook"},{trg:"굽다",src:"to grill, to roast"},{trg:"볶다",src:"to stir-fry"},{trg:"시키다",src:"to order (food/delivery)"},{trg:"레시피",src:"recipe"},{trg:"남다",src:"to remain, to be left over"}]},{type:"match",pairs:[{trg:"주문하다",src:"to order (at a restaurant)"},{trg:"맵다",src:"to be spicy"},{trg:"싱겁다",src:"to be bland"},{trg:"젓가락",src:"chopsticks"}]}]},
 
-,
-
 // ── L10: TOPIK II 추상 개념 (24 steps) ──
 {id:"kov2_u18l_topik2_abstract",title:"TOPIK II 추상 개념",icon:"💡",xp:28,board:true,steps:[
 {type:"intro",title:"Abstract Concepts for TOPIK II",desc:"Move beyond concrete nouns.\n\nAt B1 you discuss society, goals, and problems.\nThese words unlock civic and academic topics.",goals:["Learn 9 TOPIK II abstract nouns and verbs","Use abstract vocab in real B1 sentences","Practice with fb and drag_fill production","Combine with -기 위해서 and -는 것"]},

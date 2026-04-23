@@ -290,9 +290,7 @@ const UNIT_03 = {
 
   {type:"mc", q:"窓口(まどぐち) is derived from:", opts:["window + opening","station + exit","room + key","newspaper + floor"], ans:"window + opening",
    hint:"The second character means the same thing as a mouth-shaped gap in a wall. Together the compound describes a service counter."},
-]},
-
-,BATCH3_L1
+]},BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

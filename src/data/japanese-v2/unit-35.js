@@ -182,9 +182,7 @@ const UNIT_35 = {
 
   {type:"mc", q:"特異点(とくいてん) refers to:", opts:["the technological singularity","a government policy goal","a type of AI program","a data privacy law"], ans:"the technological singularity",
    hint:"The kanji compound for 'special anomalous point,' also expressed as the loanword シンギュラリティ."},
-]},
-
-,BATCH2_L01
+]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

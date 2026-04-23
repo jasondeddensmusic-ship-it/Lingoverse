@@ -178,9 +178,7 @@ const UNIT_15 = {
     text:"ながら implies the second verb is the main action:\nテレビを見(み)ながら食(た)べる = Eat while watching TV (eating is main)\n食(た)べながらテレビを見(み)る = Watch TV while eating (watching is main)\n\nながら can sometimes express contrast, similar to 'although':\n知(し)っていながら言(い)わない = Although knowing, not say it.\nThis usage is more advanced and literary, but good to recognize."}},
 {type:"match",pairs:[{trg:"信号(しんごう)",src:"traffic light"}]},
   {type:"fb", s:"次(つぎ)の{1}で止(と)まってください。\n(Please stop at the next traffic light.)", a:"信号(しんごう)", opts:["信号(しんごう)","切符(きっぷ)","右(みぎ)","左(ひだり)"], sSrc:"Please stop at the next traffic light.",
-   hint:"The device on a pole that shows red, yellow, and green."}]},
-
-,BATCH2_L1
+   hint:"The device on a pole that shows red, yellow, and green."}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

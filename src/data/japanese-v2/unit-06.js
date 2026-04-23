@@ -205,9 +205,7 @@ const UNIT_06 = {
 
   {type:"mc", q:"おじいさん means:", opts:["grandfather","uncle","father","older brother"], ans:"grandfather",
    hint:"The honorific form with a long vowel, for someone's elderly male relative."},
-{type:"match",pairs:[{trg:"お兄(にい)さん",src:"older brother (someone else's)"}]}]},
-
-,BATCH2_L1
+{type:"match",pairs:[{trg:"お兄(にい)さん",src:"older brother (someone else's)"}]}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

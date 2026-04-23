@@ -69,7 +69,7 @@ lessons:[
 ]},
 
 {type:"mc", q:"这(zhè)件(jiàn)事(shì)的(de)___是(shì)什么(shénme)？ (What is the ___ of this matter?)",
- opts:["结果(jiéguǒ)","因为(yīnwèi)","所以(suǒyǐ)","影响(yǐngxiǎng)"],
+ opts:["结果(jiéguǒ)","原因(yuányīn)","所以(suǒyǐ)","影响(yǐngxiǎng)"],
  ans:"原因(yuányīn)",
  hint:"You are asking about the underlying cause. Which noun means 'reason' or 'cause'?"},
 

@@ -262,9 +262,7 @@ const UNIT_08 = {
 
   {type:"mc", q:"変更(へんこう)する means:", opts:["to confirm","to cancel","to reschedule / change","to reserve"], ans:"to reschedule / change",
    hint:"The verb built from 変 and 更 (renew), used when moving an appointment to a new time."},
-]},
-
-,BATCH2_L1
+]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

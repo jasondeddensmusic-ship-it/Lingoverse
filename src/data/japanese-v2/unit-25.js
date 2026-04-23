@@ -226,7 +226,7 @@ const UNIT_25 = {
 ]},
 
 // ═══ N3 Abstract Verbs & Attitude Adjectives ═══
-,{id:"jav2_u25l_n3_abstract_verbs", title:"N3 Verbs: Conviction & Prevention", icon:"🔷", xp:20, board:true, steps:[
+{id:"jav2_u25l_n3_abstract_verbs", title:"N3 Verbs: Conviction & Prevention", icon:"🔷", xp:20, board:true, steps:[
   {type:"intro", title:"N3 Verbs: Conviction and Prevention",
    desc:"This lesson covers N3 verbs expressing belief, doubt, hope, and prevention, plus key attitude adjectives. These words appear frequently in JLPT N3 reading and listening and are essential for B1 communication.",
    goals:["Use 願う, 疑う, 防ぐ in context","Apply 完全, 真剣, 熱心, 積極的 as descriptors","Recognize 成長 as a standalone noun"]},

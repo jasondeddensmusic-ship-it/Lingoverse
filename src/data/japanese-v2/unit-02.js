@@ -295,9 +295,7 @@ const UNIT_02 = {
 
   {type:"mc", q:"お疲(つか)れさまです is used to:", opts:["give your phone number","fill out a form","greet a colleague in a message","say your address"], ans:"greet a colleague in a message",
    hint:"This phrase opens workplace messages and emails. It acknowledges effort and shows group membership."},
-]},
-
-,{id:"jav2_u2l_essential_n5", title:"私(わたし)・彼(かれ)・動詞(どうし)", icon:"\u{1F465}", xp:15, board:true, steps:[
+]},{id:"jav2_u2l_essential_n5", title:"私(わたし)・彼(かれ)・動詞(どうし)", icon:"\u{1F465}", xp:15, board:true, steps:[
   {type:"intro", title:"Essential N5 Pronouns and Verbs",
    desc:"Learn the three core Japanese personal pronouns and three essential N5 verbs. These words appear in almost every Japanese conversation.",
    goals:["Use 私(わたし), 彼(かれ), 彼女(かのじょ) correctly in sentences","Conjugate 来(く)る, 見(み)る, 聞(き)く in polite present form","Build sentences combining pronouns with these verbs"]},

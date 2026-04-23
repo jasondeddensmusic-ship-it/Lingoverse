@@ -243,9 +243,7 @@ const UNIT_04 = {
    text:"Point and say:\nこれをください。= This one, please.\n\nAsk the price:\nいくらですか? = How much?\n\nState quantity:\n三個(さんこ)ください。= Three, please. (small items)\n二枚(にまい)ください。= Two, please. (flat items)\n一本(いっぽん)ください。= One, please. (long items)",
    deepDive:{title:"Real shopping in Japan",
     text:"At a convenience store (konbini), the cashier will say the total and you pay. No need for complex conversation.\n\nAt markets and department stores, you might hear:\nいらっしゃいませ! (Welcome!)\nおいくらですか? (How much? with polite お)\nまた おこしください (Please come again)\n\nJapan is still largely a cash society, though cashless payment is growing fast."}},
-{type:"match",pairs:[{trg:"五千(ごせん)",src:"five thousand (5,000)"}]}]},
-
-,BATCH3_L1
+{type:"match",pairs:[{trg:"五千(ごせん)",src:"five thousand (5,000)"}]}]},BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

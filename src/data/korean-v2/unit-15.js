@@ -270,7 +270,7 @@ const UNIT_15 =
 {type:"match",pairs:[{nl:"좋아하게 됐어요",en:"came to like (natural change)"},{nl:"좋아져요",en:"becomes good (state change)"},{nl:"좋아해 줘요",en:"likes for someone (benefactive)"},{nl:"좋아하고 싶어해요",en:"wants to like (3rd person)"}]},
 {type:"fb",s:"날씨가 추워{1} 있어서 따뜻하게 입으세요.\n(The weather is getting cold, so please dress warmly.)",a:["지고"],opts:["지고","져서","지면","져도"],hint:"-아/어지다 (become) + -고 있다 (progressive) + -게 (adverb: warmly)."},
 {type:"mc",q:"동생이 외로워하고 있었는데 친구를 만나서 기뻐했어요.\n(My sibling was lonely but met a friend and was happy.)",opts:["-게 되다 + -는데 + -아/어서 + 1st person emotion","-고 있다 + -지만 + -때문에 + 1st person emotion","-아/어지다 + -거든요 + -니까 + 3rd person emotion","-고 있었다 + -는데 + -아/어서 + 3rd person emotion"],ans:"-고 있었다 + -는데 + -아/어서 + 3rd person emotion",hint:"Four layers: ongoing past state + background contrast + causal connector + observed feeling form."},
-{type:"match",pairs:[{trg:"영어",src:"English (language)"},{trg:"외롭다",src:"to be lonely"}]}]},,
+{type:"match",pairs:[{trg:"영어",src:"English (language)"},{trg:"외롭다",src:"to be lonely"}]}]},
 
 // ── L10: 직장 생활 어휘 (Career & Workplace Vocabulary) ──
 {id:"kov2_u15l_b1_career_comm",title:"직장 생활 어휘",icon:"💼",xp:26,board:true,steps:[

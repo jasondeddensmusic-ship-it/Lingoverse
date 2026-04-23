@@ -254,7 +254,7 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"mc", q:"Which is the most polite way to order coffee?", opts:["Café, agora","Eu quero um café","Eu gostaria de um café","Me dá um café"], ans:"Eu gostaria de um café", hint:"Conditional of gostar is the polite form. The others sound blunt or demanding."},
 
-{type:"fb", s:"Nós {1} de visitar o museu amanhã.", a:["gostaríamos"], opts:["gostaríamos","gostamos","gostaríamos","gostaram"], hint:"First person plural conditional of gostar. Accent on the í.", sSrc:"We {1} to visit the museum tomorrow."},
+{type:"fb", s:"Nós {1} de visitar o museu amanhã.", a:["gostaríamos"], opts:["gostaríamos","gostamos","gostaria","gostaram"], hint:"First person plural conditional of gostar. Accent on the í.", sSrc:"We {1} to visit the museum tomorrow."},
 
 {type:"match", pairs:[
   {trg:"eu gostaria", src:"I would like"},
