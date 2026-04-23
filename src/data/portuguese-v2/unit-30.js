@@ -290,7 +290,7 @@ const UNIT_30 = {n:30, lang:"pt", srcLang:"en", track:"v2", title:"Arte e cultur
 
 {type:"mc",
  q:"What is the feminine form of 'ator'?",
- opts:["atriz","atoresa","atora","atora"],
+ opts:["atriz","atoresa","atora","atores"],
  ans:"atriz",
  hint:"Irregular feminine. Not formed with -a like most nouns."},
 

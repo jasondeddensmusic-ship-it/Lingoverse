@@ -148,7 +148,7 @@ const UNIT_18 = {
    deepDive:{title:"Why the Short Form Exists",
     text:"The full causative-passive for Group 1 verbs creates tongue-twisting strings: 待(ま)たせられる (7 syllables). The short form 待(ま)たされる (5 syllables) is much easier to say.\n\nThe short form merges the causative せ into the passive され, creating あされる. This only works for Group 1 verbs. Group 2 verbs must use the full させられる.\n\nIn writing, both forms are acceptable. In speech, using the long form for Group 1 verbs sounds unnatural and overly formal."}},
 
-  {type:"fb", s:"2時間(じかん)も{1}ました。\n(I was made to wait for two whole hours.)", a:"待(ま)たされ", opts:["待(ま)たされ","待(ま)たせて","待(ま)って","待(ま)たされ"], sSrc:"I was made to wait for two whole hours.",
+  {type:"fb", s:"2時間(じかん)も{1}ました。\n(I was made to wait for two whole hours.)", a:"待(ま)たされ", opts:["待(ま)たされ","待(ま)たせて","待(ま)って","待(ま)つ"], sSrc:"I was made to wait for two whole hours.",
    hint:"Short causative-passive of 待(ま)つ. Group 1 shortcut: あ-row + される."},
 
   {type:"teach", trg:"やらされる", src:"to be made to do (short form)", pos:"verb", gender:null,

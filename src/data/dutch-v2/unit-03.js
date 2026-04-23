@@ -260,7 +260,7 @@ export default {n:3,lang:"nl",srcLang:"en",track:"v2",title:"Numbers & Time",sub
         {type:"mc",q:"Which word order is correct?",opts:["Ik werk altijd.","Ik altijd werk.","Werk altijd ik.","Altijd ik werk."],ans:"Ik werk altijd.",hint:"Adverb after verb in normal word order"},
         {type:"drag_fill",hint:"On Monday... In winter...",s:"Op {1} werk ik. In {2} is het koud.",blanks:{"1":"maandag","2":"de winter"},pool:["maandag","de winter","altijd","uur"]},
         {type:"mc",q:"'Zij ___ in Amsterdam.' (She works in Amsterdam.)",opts:["werk","werkt","werken","werkst"],ans:"werkt",hint:"zij = stam + t"},
-        {type:"fb",opts:["leren","leert","leer","leert"],hint:"Wij = full infinitive form",s:"Wij ___ Nederlands. (We learn Dutch.)",a:"leren"},
+        {type:"fb",opts:["leren","leert","leer","leerde"],hint:"Wij = full infinitive form",s:"Wij ___ Nederlands. (We learn Dutch.)",a:"leren"},
         {type:"mc",q:"In a question, 'jij werkt' becomes:",opts:["Werkt jij?","Werken jij?","Werk jij?","Jij werk?"],ans:"Werk jij?",hint:"Inversion causes the -t to disappear from the verb form"},
         {type:"match",pairs:[{trg:"vaak",src:"often"},{trg:"zelden",src:"rarely"},{trg:"meestal",src:"usually"},{trg:"soms",src:"sometimes"}]},
         {type:"mc",q:"'Soms werk ik op zaterdag.' The verb is in position:",opts:["1","4","3","2"],ans:"2",hint:"V2 rule: verb always second"},

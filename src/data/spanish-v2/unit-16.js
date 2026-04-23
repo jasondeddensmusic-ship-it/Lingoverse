@@ -50,7 +50,7 @@ export default {n:16,lang:"es",srcLang:"en",track:"v2",title:"Si Pudiera...",sub
         {type:"drag_fill",hint:"I would sing (cantar, yo) and you would dance (bailar, tú).",s:"Yo {1} y tú {2} en un mundo perfecto.",blanks:{"1":"cantaría","2":"bailarías"},pool:["cantaría","bailarías","cantarías","bailaría"]},
         {type:"match",pairs:[{trg:"-ía",src:"yo / él/ella"},{trg:"-ías",src:"tú"},{trg:"-íamos",src:"nosotros"},{trg:"-ían",src:"ellos/ustedes"}]},
         {type:"mc",q:"Which form is shared between yo and él/ella in the conditional?",opts:["-ían","-ías","-íamos","-ía"],ans:"-ía",hint:"First person and third person singular look identical in the conditional."},
-        {type:"fb",opts:["Hablarías","Hablaría","Hablarán","Hablarías"],hint:"Would you speak? Informal you, conditional tense.",s:"¿{1} español en tu trabajo?",a:"Hablarías"}
+        {type:"fb",opts:["Hablarías","Hablaría","Hablarán","Hablarían"],hint:"Would you speak? Informal you, conditional tense.",s:"¿{1} español en tu trabajo?",a:"Hablarías"}
   ]},
   {id:"esp16l3",title:"Tendría, haría",icon:"⚡",xp:15,board:true,steps:[
         {type:"intro",title:"Tendría, haría",desc:"The conditional uses the SAME irregular stems as the future tense. If you know tendré, you know tendría!",goals:["Apply irregular future stems to conditional endings","Conjugate tener, hacer, decir, poder, poner, saber, salir, venir, querer","See the pattern: same stem, different endings"]},

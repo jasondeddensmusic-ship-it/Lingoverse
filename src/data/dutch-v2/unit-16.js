@@ -41,7 +41,7 @@ export default {n:16,lang:"nl",srcLang:"en",track:"v2",title:"Het Wordt Gedaan",
         {type:"fb",opts:["wordt","werd","is","heeft"],hint:"The food IS BEING made (present passive)",s:"Het eten ___ gemaakt.",a:"wordt"},
         {type:"mc",q:"Active: 'De kok maakt het eten.' → Passive:",opts:["Het eten werd gemaakt.","Het eten wordt gemaakt.","De kok wordt gemaakt.","Het eten is gemaakt."],ans:"Het eten wordt gemaakt.",hint:"Object → subject + ___ + PP"},
         {type:"drag_fill",hint:"The book is read BY many people.",s:"Het boek {1} gelezen {2} veel mensen.",blanks:{"1":"wordt","2":"door"},pool:["wordt","door","werd","van"]},
-        {type:"fb",opts:["worden","werd","zijn","worden"],hint:"Plural passive: de regels ___ gevolgd",s:"De regels ___ gevolgd. (present passive)",a:"worden"},
+        {type:"fb",opts:["worden","werd","zijn","waren"],hint:"Plural passive: de regels ___ gevolgd",s:"De regels ___ gevolgd. (present passive)",a:"worden"},
         {type:"mc",q:"When is 'door + agent' used?",opts:["Always required","Only in questions","Only when you want to specify WHO","Only in past tense"],ans:"Only when you want to specify WHO",hint:"Optional! Often omitted."},
         {type:"match",pairs:[
           {trg:"De brief wordt geschreven.",src:"The letter is being written."},
