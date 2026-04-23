@@ -106,8 +106,8 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
             ]
           }
         ],label:"Present and Past Conditional"},
-        {type:"mc",q:"'Hij had moeten werken' means:",opts:["He should have worked","He must work now","He has to work","He will have to work"],ans:"He should have worked",hint:"Had + moeten = past obligation"},
-        {type:"mc",q:"'Zij zou kunnen komen' means:",opts:["She must come","She could/would be able to come","She has come","She came yesterday"],ans:"She could/would be able to come",hint:"Zou + kunnen = conditional ability"},
+        {type:"mc",q:"'Hij had moeten werken' means:",opts:["He should have worked","He must work right now","He has to work always","He will have to work"],ans:"He should have worked",hint:"Had + moeten = past obligation"},
+        {type:"mc",q:"'Zij zou kunnen komen' means:",opts:["She must come immediately","She could/would be able to come","She has already come here","She came yesterday afternoon"],ans:"She could/would be able to come",hint:"Zou + kunnen = conditional ability"},
         {type:"fb",opts:["had","heeft","zou","is"],hint:"Past obligation: the auxiliary that pairs with 'moeten' to express what should have happened",s:"Hij _____ moeten werken, maar hij bleef thuis.",a:"had"},
         {type:"fb",opts:["had","is","zou","moet"],hint:"Past unrealized ability: which auxiliary combines with 'kunnen' here?",s:"Zij _____ eerder kunnen vertrekken.",a:"had"},
         {type:"mc",q:"In 'omdat hij had moeten werken', the verbs are at the:",opts:["Beginning","Middle","End","They're spread out"],ans:"End",hint:"In subordinate clauses, verbs go where?"},
@@ -118,8 +118,8 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
         {type:"match",pairs:[{trg:"zou moeten werken",src:"should work"},{trg:"had moeten werken",src:"should have worked"},{trg:"zou kunnen komen",src:"could come"},{trg:"had kunnen komen",src:"could have come"}]},
         {type:"mc",q:"'Hij zou zijn gekomen als hij had gekund.' What happened?",opts:["He came","He didn't come","He's coming now","He will come"],ans:"He didn't come",hint:"Zou zijn gekomen = would have ___ (but ___'t)"},
         {type:"fb",opts:["hadden","hebben","zouden","zijn"],hint:"Wij _____ het eerder moeten bespreken (plural past)",s:"Wij _____ het eerder moeten bespreken.",a:"hadden"},
-        {type:"mc",q:"In '...omdat hij had moeten bellen', how many verbs cluster at the end?",opts:["One","Two","Three","Four"],ans:"Three",hint:"had + moeten + bellen = 3 verbs"},
-        {type:"mc",q:"'Zij zou het hebben kunnen doen' expresses:",opts:["She must do it now","She did it yesterday","She will do it tomorrow","She could have done it (but didn't)"],ans:"She could have done it (but didn't)",hint:"Zou + hebben + kunnen = unrealized past ability"},
+        {type:"mc",q:"In '...omdat hij had moeten bellen', how many verbs cluster at the end?",opts:["One option","Two options","Three","Four options"],ans:"Three",hint:"had + moeten + bellen = 3 verbs"},
+        {type:"mc",q:"'Zij zou het hebben kunnen doen' expresses:",opts:["She must do it right now always","She did it yesterday morning","She will do it tomorrow afternoon","She could have done it (but didn't)"],ans:"She could have done it (but didn't)",hint:"Zou + hebben + kunnen = unrealized past ability"},
         {type:"drag_fill",hint:"...that she could have written the report",s:"Ik denk dat zij het verslag {1} {2} {3}.",blanks:{"1":"had","2":"kunnen","3":"schrijven"},pool:["had","kunnen","schrijven","moeten"]}
   ]},
   {id:"v2u25l5",title:"Notuleren & Presenteren",icon:"📝",xp:30,board:true,steps:[

@@ -36,7 +36,7 @@ const LESSON_20 = {
      funFact:"Aboutir comes from 'bout' (end). The about-issement is reaching the end successfully. French distinguishes this from mere conclusion."},
 
     {type:"mc", q:"Que signifie 'esprit de synthese'?",
-     opts:["Capacite a resumer l'essentiel","Esprit critique","Esprit de competition","Capacite a memoriser"],
+     opts:["Capacite a resumer l'essentiel","Esprit critique et analytique","Esprit de competition malsain","Capacite a memoriser passivement"],
      ans:"Capacite a resumer l'essentiel",
      hint:"This prized French skill involves extracting the core message from complex information"},
 
@@ -90,7 +90,7 @@ const LESSON_20 = {
      sSrc:"Let's do a {1} of our progress this semester."},
 
     {type:"mc", q:"'Au compte-gouttes' signifie:",
-     opts:["En tres petites quantites","Rapidement","Par telephone","En comptant"],
+     opts:["En tres petites quantites","Rapidement et efficacement","Par telephone portable","En comptant mot par mot"],
      ans:"En tres petites quantites",
      hint:"From Lesson 15, this expression uses the image of a dropper dispensing liquid"},
 

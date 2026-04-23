@@ -30,7 +30,7 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    exampleSrc:"A: Deepening these concepts will come later.\nB: For now, the basics are enough.",
    funFact:"Cours d'approfondissement means an advanced course that goes deeper than the introductory level."},
 
-  {type:"mc", q:"Un pamphlet en français est:", opts:["Un texte critique et polémique","Une brochure publicitaire","Un roman court","Un guide de voyage"], ans:"Un texte critique et polémique",
+  {type:"mc", q:"Un pamphlet en français est:", opts:["Un texte critique et polémique","Une brochure publicitaire destinée au grand public","Un roman court et léger","Un guide de voyage illustré"], ans:"Un texte critique et polémique",
    hint:"Unlike English pamphlet (informational), French pamphlet means a sharp attack."},
 
   {type:"fb", s:"La {1} de l'adversaire est une tactique malhonnête.", a:["diabolisation"], opts:["diabolisation","consolidation","récapitulation","synthèse"],
@@ -65,7 +65,7 @@ const LESSON_20 = {id:"frv2_b2g9_l20", title:"Synthèse et Révision", icon:"�
    hint:"The French principle of separation of church and state.",
    sSrc:"{1} is a fundamental principle of the Republic."},
 
-  {type:"mc", q:"Un confrère partage avec vous:", opts:["La même profession","Le même quartier","Le même bureau","La même famille"], ans:"La même profession",
+  {type:"mc", q:"Un confrère partage avec vous:", opts:["La même profession","Le même quartier résidentiel","Le même bureau d'entreprise","La même famille élargie"], ans:"La même profession",
    hint:"The prefix con- means 'with' and frère means 'brother'. Think of two doctors or two lawyers sharing a field."},
 
   {type:"match", pairs:[
