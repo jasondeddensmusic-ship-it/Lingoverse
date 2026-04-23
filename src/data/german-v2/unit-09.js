@@ -252,6 +252,7 @@ const UNIT_9 =
 {"type":"fb","s":"Kannst du mir zehn Euro {1}?","a":["leihen"],"opts":["leihen","kaufen","geben","zahlen"],"hint":"Letting someone use your money temporarily.","sSrc":"Can you lend me ten euros?"}]},
 
 {id:"deu_r9l11",title:"Vereinsprüfung",icon:"✅",xp:25,board:true,steps:[
+{type:"intro",title:"Vereinsprüfung",desc:"A consolidation test for Unit 9 content: subordinate conjunctions (dass, ob, weil, wenn), reported speech patterns, and common Vereinsleben (club life) vocabulary.",goals:["Test your mastery of dass vs ob","Apply subordinate conjunctions with correct verb-final word order","Use reported speech patterns in context"]},
 {type:"mc",q:"Ich freue mich, ___ das Konzert heute Abend stattfindet.",opts:["dass","weil","denn","ob"],ans:"dass",hint:"You know for certain it's happening."},
 {type:"mc",q:"Er fragt sich, ___ das Training heute ausfällt.",opts:["aber","ob","dass","weil"],ans:"ob",hint:"He's uncertain and wants to find out."},
 {type:"fb",s:"Sie {1} sich jeden Samstag im Park zum Joggen.",a:"treffen",opts:["treffen","freuen","ärgern","unterhalten"],hint:"They come together at a location.",sSrc:"They meet up every Saturday in the park for jogging."},
