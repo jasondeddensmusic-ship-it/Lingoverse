@@ -117,7 +117,7 @@ const BATCH3_L_1 = {
      opts:["Pirandello","Calvino","Svevo","Moravia"],
      ans:"Svevo",
      hint:"This author from Trieste, a friend of James Joyce, explored consciousness through innovative narrative techniques in his most famous novel."}
-  ,{type:"match",pairs:[{trg:"la critica",src:"the criticism / critical analysis"},{trg:"la similitudine",src:"the simile"},{trg:"il flashback",src:"the flashback"},{trg:"la suspense",src:"the suspense"},{trg:"il monologo interiore",src:"the interior monologue"}]},{type:"mc",q:"How do you say \"antagonist\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'antagonista"],ans:"l'antagonista",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"la critica",src:"the criticism / critical analysis"},{trg:"la similitudine",src:"the simile"},{trg:"il flashback",src:"the flashback"},{trg:"la suspense",src:"the suspense"},{trg:"il monologo interiore",src:"the interior monologue"}]},{type:"mc",q:"How do you say \"antagonist\" in Italian?",opts:["la critica","l'ironia","la similitudine","l'antagonista"],ans:"l'antagonista",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il romanzo usa un {1} per rivelare eventi del passato.",a:["flashback"],opts:["flashback","climax","monologo interiore","punto di vista"],hint:"A narrative device that interrupts the story to show an earlier event.",sSrc:"The novel uses a {1} to reveal past events."},
 {type:"fb",s:"La {1} usa immagini per spiegare un concetto.",a:["similitudine"],opts:["similitudine","ironia","allegoria","suspense"],hint:"A figure of speech that compares two things directly.",sSrc:"A {1} uses images to explain a concept."}]
 };

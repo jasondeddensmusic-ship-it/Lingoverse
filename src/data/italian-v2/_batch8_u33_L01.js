@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u33l_b8_1", title:"Etica e morale", icon:"🤔", xp:
  opts:["In tax regulations","Nowhere","In the first articles of the Constitution","Only in criminal law"],
  ans:"In the first articles of the Constitution",
  hint:"The post-war founders placed human dignity at the very foundation of the Republic, remembering the horrors of fascism."}
-,{type:"match",pairs:[{trg:"la virtu",src:"the virtue"},{trg:"il principio",src:"the principle"}]},{type:"mc",q:"How do you say \"ethics\" in Italian?",opts:["il tavolo","la bicicletta","la finestra","l'etica"],ans:"l'etica",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"la virtu",src:"the virtue"},{trg:"il principio",src:"the principle"}]},{type:"mc",q:"How do you say \"ethics\" in Italian?",opts:["la coscienza","la virtu","il bene comune","l'etica"],ans:"l'etica",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

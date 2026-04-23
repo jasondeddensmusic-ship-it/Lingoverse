@@ -92,7 +92,7 @@ const BATCH4_U08_L1 = {
 
     // Quiz steps
     {type:"mc", q:"Quale città e il centro mondiale degli occhiali?",
-     opts:["L'industria italiana (Luxottica) domina","La Svizzera","La Francia","La Germania"],
+     opts:["L'industria italiana (Luxottica) domina","La Svizzera con i suoi orologi di lusso","La Francia con le grandi case di moda","La Germania con precisione industriale"],
      ans:"L'industria italiana (Luxottica) domina",
      hint:"This Italian company owns Ray-Ban and produces glasses for major luxury brands."},
 
@@ -120,7 +120,7 @@ const BATCH4_U08_L1 = {
      sSrc:"Can I {1} this jacket? Where is the fitting room?"},
 
     {type:"mc", q:"Dove si produce la seta in Italia?",
-     opts:["Napoli, in the south","Roma, in Lazio","Como, in northern Italy","Firenze, in Tuscany"],
+     opts:["Napoli, in the south of Italy","Roma, the capital in Lazio","Como, in northern Italy","Firenze, cuore della Toscana"],
      ans:"Como, in northern Italy",
      hint:"This lakeside city has been the center of silk production since the 1400s."},
 
@@ -130,9 +130,9 @@ const BATCH4_U08_L1 = {
      sSrc:"What {1} do you wear? We have 38, 40 and 42."},
 
     {type:"mc", q:"Cosa significa 'colpo d'aria' nella cultura italiana?",
-     opts:["A fashion trend","A type of fabric","A summer breeze","A feared cold draft that Italians protect against with scarves"],
+     opts:["A fashion trend popular among young Milanese professionals","A type of fabric used for elegant winter coats","A summer breeze that cools the coastal Mediterranean cities","A feared cold draft that Italians protect against with scarves"],
      ans:"A feared cold draft that Italians protect against with scarves",
      hint:"Italian mothers are especially concerned about this invisible health threat."}
-  ,{type:"match",pairs:[{trg:"la borsa",src:"the bag / purse"},{trg:"la cintura",src:"the belt"},{trg:"gli occhiali",src:"glasses / eyeglasses"}]},{type:"mc",q:"How do you say \"ring\" in Italian?",opts:["l'anello","la bicicletta","la finestra","il tavolo"],ans:"l'anello",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"watch / clock\" in Italian?",opts:["la finestra","l'orologio","il tavolo","la bicicletta"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la borsa",src:"the bag / purse"},{trg:"la cintura",src:"the belt"},{trg:"gli occhiali",src:"glasses / eyeglasses"}]},{type:"mc",q:"How do you say \"ring\" in Italian?",opts:["l'anello","la pelle","la seta","il cotone"],ans:"l'anello",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"watch / clock\" in Italian?",opts:["la pelle","l'orologio","la seta","il cotone"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U08_L1;

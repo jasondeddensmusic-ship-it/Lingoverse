@@ -162,14 +162,14 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
   {id:"esp1l8",title:"¡Conversación!",icon:"💬",xp:20,board:true,steps:[
         {type:"intro",title:"¡Conversación!",desc:"Put everything from Unit 1 together in real conversations.",goals:["Complete a full greeting conversation","Introduce yourself naturally","Use all Unit 1 vocabulary"]},
         {type:"tip",title:"Your first conversation",text:"A complete Spanish meeting follows this pattern:\n1. Greeting (Hola, Buenos días)\n2. How are you? (¿Cómo estás?)\n3. Introductions (Me llamo...)\n4. Where from? (Soy de...)\n5. Farewell (Hasta luego)",icon:"🗣️"},
-        {type:"mc",q:"Morning meeting. First you say:",opts:["¡Buenos días!","Adiós","Me llamo...","Lo siento"],ans:"¡Buenos días!",hint:"Always start with a time-appropriate greeting."},
+        {type:"mc",q:"Morning meeting. First you say:",opts:["¡Buenos días!","Adiós, hasta luego","Me llamo...","Lo siento mucho"],ans:"¡Buenos días!",hint:"Always start with a time-appropriate greeting."},
         {type:"fb",opts:["llamo","llamas","llama","llamamos"],hint:"First person: I call myself.",s:"¡Hola! Me {1} Roberto.",a:"llamo"},
-        {type:"mc",q:"Someone says 'Mucho gusto'. You reply:",opts:["De nada","Igualmente","Lo siento","Adiós"],ans:"Igualmente",hint:"Return the pleasure of meeting someone."},
+        {type:"mc",q:"Someone says 'Mucho gusto'. You reply:",opts:["De nada, gracias","Igualmente","Lo siento","Adiós pronto"],ans:"Igualmente",hint:"Return the pleasure of meeting someone."},
         {type:"fb",opts:["de","en","a","por"],hint:"Preposition of origin.",s:"Soy {1} Colombia.",a:"de"},
-        {type:"mc",q:"A professor says 'Soy la profesora Martínez'. You respond:",opts:["¡Hola, tú!","¿Qué tal, amiga?","Encantado/a de conocerla","Chao"],ans:"Encantado/a de conocerla",hint:"A professor warrants a formal, respectful response."},
+        {type:"mc",q:"A professor says 'Soy la profesora Martínez'. You respond:",opts:["¡Hola, qué tal estás?","¿Qué tal, amiga?","Encantado/a de conocerla","Chao, nos vemos luego"],ans:"Encantado/a de conocerla",hint:"A professor warrants a formal, respectful response."},
         {type:"match",pairs:[{trg:"¡Hola!",src:"Hello!"},{trg:"¿Cómo estás?",src:"How are you?"},{trg:"Me llamo...",src:"My name is..."},{trg:"Soy de...",src:"I am from..."},{trg:"¡Hasta luego!",src:"See you later!"}]},
         {type:"fb",opts:["está","estás","estoy","están"],hint:"Formal 'you' requires the third person form.",s:"¿Cómo {1} usted?",a:"está"},
-        {type:"mc",q:"The shopkeeper says 'Que le vaya bien'. This is:",opts:["A greeting","An insult","A question","A farewell wish"],ans:"A farewell wish",hint:"The shopkeeper is ___ing you well as you leave."},
+        {type:"mc",q:"The shopkeeper says 'Que le vaya bien'. This is:",opts:["A greeting for the morning","An insult for strangers","A question about health","A farewell wish"],ans:"A farewell wish",hint:"The shopkeeper is ___ing you well as you leave."},
         {type:"drag_fill",hint:"Complete self-introduction: greeting + name + origin.",s:"{1}, me {2} Ana. Soy {3} España.",blanks:{"1":"Hola","2":"llamo","3":"de"},pool:["Hola","llamo","de","Adiós","llamas","en"]},
         {type:"mc",q:"It is 8 PM. You greet someone with:",opts:["Buenas noches","Buenas tardes","Buenos días","Buenas mañanas"],ans:"Buenas noches",hint:"8 PM is after sunset in most places."},
         {type:"fb",opts:["inglesa","inglés","española","francesa"],hint:"A woman from the English capital.",s:"Ella es {1}. De Londres.",a:"inglesa"},
@@ -177,6 +177,6 @@ export default {n:1,lang:"es",srcLang:"en",track:"v2",title:"¡Hola!",sub:"Greet
         {type:"mc",q:"Correct order for a first meeting?",opts:["Name, goodbye, greeting","Farewell, greeting, name","Greeting, name, farewell","Name, greeting, name"],ans:"Greeting, name, farewell",hint:"You always start with a ___ before anything else."},
         {type:"drag_fill",hint:"Formal morning greeting to a woman.",s:"¡{1} días, {2}! ¿Cómo {3}?",blanks:{"1":"Buenos","2":"señora","3":"está"},pool:["Buenos","señora","está","Buenas","señor","estás"]},
         {type:"match",pairs:[{trg:"Yo soy",src:"I am"},{trg:"Tú eres",src:"You are"},{trg:"Él es",src:"He is"},{trg:"Ella es",src:"She is"}]},
-        {type:"mc",q:"'Soy médica' tells you she is:",opts:["A nurse","A student","A male doctor","A female doctor"],ans:"A female doctor",hint:"The -a ending on the profession indicates feminine."}
+        {type:"mc",q:"'Soy médica' tells you she is:",opts:["A nurse at the hospital","A student","A male doctor","A female doctor"],ans:"A female doctor",hint:"The -a ending on the profession indicates feminine."}
   ,{type:"match",pairs:[{trg:"Hasta pronto",src:"See you soon"},{trg:"Encantado / Encantada",src:"Delighted to meet you"},{trg:"Él / Ella",src:"He / She"}]}]}
 ]};

@@ -117,6 +117,6 @@ const BATCH3_L_1 = {
      opts:["Perche obbliga tutti gli imputati a patteggiare la pena","Perche si applica solo ai reati commessi all'estero","Perche molti reati scadono prima che il processo finisca, a causa della lentezza dei tribunali","Perche impedisce ai giudici di pronunciare sentenze severe"],
      ans:"Perche molti reati scadono prima che il processo finisca, a causa della lentezza dei tribunali",
      hint:"Slow courts plus fixed time limits mean some criminals escape justice. The crime expires before the verdict can be reached."}
-  ,{type:"match",pairs:[{trg:"il patteggiamento",src:"the plea bargain"},{trg:"la perizia",src:"the expert assessment / forensic report"},{trg:"la cauzione",src:"the bail"},{trg:"la recidiva",src:"the recidivism / repeat offense"}]},{type:"mc",q:"How do you say \"hearing / court session\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'udienza"],ans:"l'udienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il patteggiamento",src:"the plea bargain"},{trg:"la perizia",src:"the expert assessment / forensic report"},{trg:"la cauzione",src:"the bail"},{trg:"la recidiva",src:"the recidivism / repeat offense"}]},{type:"mc",q:"How do you say \"hearing / court session\" in Italian?",opts:["l'omicidio","la rapina","la corruzione","l'udienza"],ans:"l'udienza",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_L_1;

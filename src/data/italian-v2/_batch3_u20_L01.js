@@ -80,7 +80,7 @@ const BATCH3_U20_L1 = {
 
     // Quiz steps
     {type:"mc", q:"What makes the Italian 'interrogazione' unique?",
-     opts:["Students answer questions orally in front of the class","It only happens at the end of the year","It is graded by other students","It is always a written test"],
+     opts:["Students answer questions orally in front of the class","It only happens at the very end of the academic year","Students are graded collaboratively by their own classmates","It is always written and never involves any speaking"],
      ans:"Students answer questions orally in front of the class",
      hint:"Called to the f..., questioned by the teacher while classmates watch. It tests knowledge, expression, and poise under pressure."},
 
@@ -99,7 +99,7 @@ const BATCH3_U20_L1 = {
     ]},
 
     {type:"mc", q:"What does 'ottenere la cattedra' mean for an Italian teacher?",
-     opts:["Getting a new desk","Receiving a permanent teaching position","Being promoted to principal","Retiring from teaching"],
+     opts:["Getting a comfortable new classroom desk","Receiving a permanent teaching position","Being promoted to school principal eventually","Retiring from teaching with full benefits"],
      ans:"Receiving a permanent teaching position",
      hint:"After years on substitute waiting lists, this 'posto fisso' provides job security. The word originally means the teacher's chair/seat."},
 
@@ -124,7 +124,7 @@ const BATCH3_U20_L1 = {
      opts:["It was added recently due to budget cuts","Only private schools teach it","It is required by the EU","Italy considers it essential to education"],
      ans:"Italy considers it essential to education",
      hint:"Three years of mandatory philosophical study from ancient Greece to modern thought. I... values critical thinking as a core educational goal, not an optional extra."}
-  ,{type:"match",pairs:[{trg:"ripetere",src:"to repeat / to review"},{trg:"il registro",src:"the register / gradebook"},{trg:"la cattedra",src:"the teaching position / teacher's desk"}]},{type:"mc",q:"How do you say \"art history\" in Italian?",opts:["la storia dell'arte","la finestra","il tavolo","la bicicletta"],ans:"la storia dell'arte",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"oral exam / questioning\" in Italian?",opts:["la bicicletta","l'interrogazione","la finestra","il tavolo"],ans:"l'interrogazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"ripetere",src:"to repeat / to review"},{trg:"il registro",src:"the register / gradebook"},{trg:"la cattedra",src:"the teaching position / teacher's desk"}]},{type:"mc",q:"How do you say \"art history\" in Italian?",opts:["la storia dell'arte","la filosofia","la letteratura","il compito"],ans:"la storia dell'arte",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"oral exam / questioning\" in Italian?",opts:["la filosofia","l'interrogazione","la storia dell'arte","la letteratura"],ans:"l'interrogazione",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Il professore ha consegnato la {1} ai genitori.",a:["pagella"],opts:["pagella","cattedra","mensa","gita scolastica"],hint:"A school document showing grades given to students at the end of term.",sSrc:"The teacher handed the {1} to the parents."}]
 };
 export default BATCH3_U20_L1;

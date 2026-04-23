@@ -248,11 +248,11 @@ const UNIT_15 = {n:15, lang:"pt", srcLang:"en", track:"v2", title:"Vou fazer..."
 
 {type:"mc", q:"Choose the correct conditional of gostar for eu:", opts:["gostaria","gostarei","gosto","gostava"], ans:"gostaria", hint:"Polite 'I would like' uses the conditional ending -ia."},
 
-{type:"mc", q:"'Eu faria qualquer coisa por você' means:", opts:["I do everything for you","I would do anything for you","I will do anything for you","I did everything for you"], ans:"I would do anything for you", hint:"Faria is the conditional. '…' is the key English word."},
+{type:"mc", q:"'Eu faria qualquer coisa por você' means:", opts:["I do everything to help you","I would do anything for you","I will do anything for you","I did everything for you"], ans:"I would do anything for you", hint:"Faria is the conditional. '…' is the key English word."},
 
 {type:"fb", s:"Você {1} me emprestar seu carro?", a:["poderia"], opts:["poderia","posso","pude","poderá"], hint:"Polite request with the conditional of poder.", sSrc:"{1} you lend me your car?"},
 
-{type:"mc", q:"Which is the most polite way to order coffee?", opts:["Café, agora","Eu quero um café","Eu gostaria de um café","Me dá um café"], ans:"Eu gostaria de um café", hint:"Conditional of gostar is the polite form. The others sound blunt or demanding."},
+{type:"mc", q:"Which is the most polite way to order coffee?", opts:["Café, agora, por favor","Eu quero um café rápido","Eu gostaria de um café","Me dá um café, agora!"], ans:"Eu gostaria de um café", hint:"Conditional of gostar is the polite form. The others sound blunt or demanding."},
 
 {type:"fb", s:"Nós {1} de visitar o museu amanhã.", a:["gostaríamos"], opts:["gostaríamos","gostamos","gostaria","gostaram"], hint:"First person plural conditional of gostar. Accent on the í.", sSrc:"We {1} to visit the museum tomorrow."},
 

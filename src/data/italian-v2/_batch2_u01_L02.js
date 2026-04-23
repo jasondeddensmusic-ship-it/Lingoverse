@@ -136,6 +136,6 @@ const BATCH2_U01_L2 = {
      opts:["Scusa","Scusi","Mi scusi","Scusate"],
      ans:"Scusate",
      hint:"Italian distinguishes singular/plural and formal/informal. The plural form ends in -ate."}
-  ,{type:"match",pairs:[{trg:"niente",src:"nothing / no problem"},{trg:"mi dica",src:"tell me / how can I help"},{trg:"posso",src:"can I / may I"},{trg:"con piacere",src:"with pleasure / gladly"},{trg:"devo andare",src:"I have to go"}]},{type:"mc",q:"How do you say \"absolutely / without doubt\" in Italian?",opts:["senz'altro","il tavolo","la bicicletta","la finestra"],ans:"senz'altro",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"niente",src:"nothing / no problem"},{trg:"mi dica",src:"tell me / how can I help"},{trg:"posso",src:"can I / may I"},{trg:"con piacere",src:"with pleasure / gladly"},{trg:"devo andare",src:"I have to go"}]},{type:"mc",q:"How do you say \"absolutely / without doubt\" in Italian?",opts:["senz'altro","per cortesia","per piacere","certo"],ans:"senz'altro",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U01_L2;

@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u24l_b8_1", title:"Rimpianti e occasioni", icon:"⏳
  opts:["Quadrivio","Via","Trivio","Bivio"],
  ans:"Trivio",
  hint:"Three roads meeting at a point. Common things discussed there by passersby became 'trivial' (ordinary)."}
-,{type:"match",pairs:[{trg:"il destino",src:"the destiny / fate"},{trg:"la conseguenza",src:"the consequence"},{trg:"il rimorso",src:"the remorse"}]},{type:"mc",q:"How do you say \"opportunity / occasion\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'occasione"],ans:"l'occasione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"match",pairs:[{trg:"il destino",src:"the destiny / fate"},{trg:"la conseguenza",src:"the consequence"},{trg:"il rimorso",src:"the remorse"}]},{type:"mc",q:"How do you say \"opportunity / occasion\" in Italian?",opts:["pentirsi","sprecare","il destino","l'occasione"],ans:"l'occasione",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

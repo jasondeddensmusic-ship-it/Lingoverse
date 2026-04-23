@@ -319,7 +319,7 @@ const UNIT_10 = {
        opts:["Italy does not actually use it","It is a specific national law","Only some airports use it","To avoid AM/PM confusion in official schedules"],
        ans:"To avoid AM/PM confusion in official schedules",
        hint:"14:30 is clear and unambiguous. In everyday speech, Italians use both 12-hour and 24-hour time."}
-    ,{type:"mc",q:"How do you say \"to arrive\" in Italian?",opts:["arrivare","la finestra","il tavolo","la bicicletta"],ans:"arrivare",hint:"Recall the Italian vocabulary word taught in this lesson."}]},
+    ,{type:"mc",q:"How do you say \"to arrive\" in Italian?",opts:["arrivare","l'aeroporto","il volo","il binario"],ans:"arrivare",hint:"Recall the Italian vocabulary word taught in this lesson."}]},
     EXP_10_L1, EXP_10_L2, EXP_10_L3,
     {id:"itv2_u10l_lett", title:"Una lettera informale", icon:"\u2709\uFE0F", xp:15, board:true, steps:[
       {type:"intro", title:"Writing Short Informal Letters",

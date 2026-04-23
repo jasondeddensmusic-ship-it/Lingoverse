@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u19l_b8_1", title:"Emozioni complesse", icon:"🎭",
  opts:["A musical instrument","A cooking technique","A type of window shutter","A type of gemstone"],
  ans:"A type of window shutter",
  hint:"The slatted shutters let you peek outside without being seen, like a jealous person spying."}
-,{type:"mc",q:"How do you say \"enthusiasm\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","l'entusiasmo"],ans:"l'entusiasmo",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"embarrassment\" in Italian?",opts:["l'imbarazzo","la bicicletta","la finestra","il tavolo"],ans:"l'imbarazzo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"mc",q:"How do you say \"enthusiasm\" in Italian?",opts:["la nostalgia","la gratitudine","la solitudine","l'entusiasmo"],ans:"l'entusiasmo",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"embarrassment\" in Italian?",opts:["l'imbarazzo","la nostalgia","la gratitudine","la solitudine"],ans:"l'imbarazzo",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH8_L1;

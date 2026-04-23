@@ -118,6 +118,6 @@ const BATCH2_U17_L2 = {
      opts:["Sanremo","L'Isola dei Famosi","Temptation Island","Grande Fratello"],
      ans:"Grande Fratello",
      hint:"'G...' means 'big' and 'F...' means 'brother.' This show draws millions of Italian viewers every season."}
-  ,{type:"match",pairs:[{trg:"il programma",src:"the program / TV show"},{trg:"il telecomando",src:"the remote control"},{trg:"il radioascoltatore",src:"the radio listener"},{trg:"il documentario",src:"the documentary"},{trg:"il reality show",src:"the reality show"}]},{type:"mc",q:"How do you say \"broadcaster / station\" in Italian?",opts:["l'emittente","la bicicletta","la finestra","il tavolo"],ans:"l'emittente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il programma",src:"the program / TV show"},{trg:"il telecomando",src:"the remote control"},{trg:"il radioascoltatore",src:"the radio listener"},{trg:"il documentario",src:"the documentary"},{trg:"il reality show",src:"the reality show"}]},{type:"mc",q:"How do you say \"broadcaster / station\" in Italian?",opts:["l'emittente","il canale","il programma","la trasmissione"],ans:"l'emittente",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U17_L2;
