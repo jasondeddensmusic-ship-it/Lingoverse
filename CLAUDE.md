@@ -474,7 +474,8 @@ Re-verify at any time: `node scripts/check_v1_salvage_smart.cjs` (reads V1 from 
 - **`docs/vision/VISUAL_AUDIO_LAYER.md`** — Art, audio, navigation, Verumius design.
 
 ### Tier 2: Active reference
-- **`docs/SESSION_HANDOFF_2026-04-23d.md`** — **LATEST HANDOFF.** All 4 audit layers at zero (runtime PP-rule + structural + MC quality + new teach-content). Shipped 4 PRs (#317-#320): Korean examples, Japanese PP67 polish, queue hygiene, Spanish funFacts. Remaining work: dialogue scaling + Korean phonetic backfill. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-23e.md`** — **LATEST HANDOFF.** 14 PRs shipped (#317-#330). Milestone: **Japanese boring funFact audit now 0 (was 192, 100% cleared)**. All 5 audit layers green. New: `scripts/audit_boring_funfacts.mjs` surfaces reused filler. Read this FIRST.
+- **`docs/SESSION_HANDOFF_2026-04-23d.md`** — Earlier handoff. 4 PRs (#317-#320). Added `audit_teach_content.mjs`.
 - **`docs/SESSION_HANDOFF_2026-04-23c.md`** — Milestone: runtime PP-rule validator reports zero violations across all 10 languages and 39,038 teach cards. PRs #301-#315.
 - **`docs/SESSION_HANDOFF_2026-04-23b.md`** — Extended autonomous sweep, 11 PRs (#301–#311). New validators added.
 - **`docs/SESSION_HANDOFF_2026-04-23.md`** — Early-morning snapshot. Superseded by …23c.
