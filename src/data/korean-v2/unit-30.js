@@ -18,7 +18,7 @@ const UNIT_30 =
 
 {type:"mc",q:"전화를 받는 사이에 커피가 식었어요.\n받는 사이에는?",opts:["전화를 받은 후에 (After receiving)","전화를 받기 전에 (Before receiving)","전화를 받고 있는 동안 (While receiving)","전화를 받으려고 (In order to receive)"],ans:"전화를 받고 있는 동안 (While receiving)",hint:"사이에 = during that interval."},
 {type:"drag_fill",s:"회의에 {1} 사이에 중요한 이메일이 왔어요. 방심하면 기회를 놓치{2} 수가 있어요.",blanks:{"1":"참석한","2":"는"},pool:["참석한","는","참석하는","ㄹ","참석할","은"],hint:"Past modifier + gap. Present warning form."},
-{type:"mc",q:"잠깐 쉬는 사이에 비가 오기 시작했어요.\n포함된 문법은?",opts:["-는 사이에 + -지만","-는 사이에 + 때문에","-는 수가 있다 + 반면에","-는 사이에 + -기 시작하다 "],ans:"-는 사이에 + -기 시작하다 ",hint:"Gap pattern + begin-to-do. Two layers."},
+{type:"mc",q:"잠깐 쉬는 사이에 비가 오기 시작했어요.\n포함된 문법은?",opts:["-는 사이에 + -지만","-는 사이에 + 때문에","-는 수가 있다 + 반면에","-는 사이에 + -기 시작하다"],ans:"-는 사이에 + -기 시작하다",hint:"Gap pattern + begin-to-do. Two layers."},
 {type:"drag_fill",s:"아이가 {1} 사이에 많이 컸어요. 방심{2}면 사고가 나{3} 수가 있습니다. 한국어는 어렵{4} 반면에 재미있어요.",blanks:{"1":"자는","2":"하","3":"는","4":"는"},pool:["자는","하","는","는","잔","한","ㄹ","은"],hint:"Sleep-modifier + gap. Conditional. Warning. Contrast."},
 {type:"mc",q:"부장님이 자리를 비운 사이에 직원들이 편하게 이야기했어요.\n자리를 비우다 means:",opts:["잠시 자리를 떠나다 (Step away briefly)","자리를 청소하다 (Clean the seat)","출근하다 (Arrive at work)","완전히 떠나다 (Leave permanently)"],ans:"잠시 자리를 떠나다 (Step away briefly)",hint:"비우다 = to empty. 자리를 비우다 = leave temporarily."},
 {type:"drag_fill",s:"서울에서 부산{1}지 KTX로 두 시간밖에 안 걸리{2} 반면에 버스는 다섯 시간이나 걸려요.",blanks:{"1":"까","2":"는"},pool:["까","는","에","은","로","ㄴ"],hint:"Endpoint particle . Present contrast modifier."},
@@ -78,7 +78,7 @@ const UNIT_30 =
 {type:"drag_fill",s:"비가 오{1}라도 등산 갈 거예요. 우산{2}커녕 모자도 없지만 괜찮아요. 등산{3} 힘들{4} 반면에 건강에 좋아요.",blanks:{"1":"더","2":"은","3":"은","4":"는"},pool:["더","은","은","는","어","이","이","ㄴ"],hint:"Four patterns: strong concession, dramatic denial, topic marking, and structured comparison."},
 {type:"mc",q:"치열함에도 불구하고 취업에 성공했다. Register는?",opts:["반말 (Casual)","해요체 (Polite informal)","문어체 (Written formal)","합쇼체 (Polite formal spoken)"],ans:"문어체 (Written formal)",hint:"ㅁ nominalizer + 에도 불구하고 + -다 ending. Which of the four registers uses all three?"},
 {type:"drag_fill",s:"한국어가 어렵{1} 반면에 보람이 있어요. 어렵{2}지라도 포기하{3} 않을 거예요.",blanks:{"1":"는","2":"울","3":"지"},pool:["는","울","지","은","은","고"],hint:"Present-contrast. Formal-concession. Negation."},
-{type:"match",pairs:[{nl:"-지만 ",en:"But (simple, neutral)"},{nl:"-는 반면에 ",en:"On the other hand (structured)"},{nl:"-더라도 ",en:"Even if (stronger)"},{nl:"-(으)ㄴ/는들 ",en:"Even if (literary)"}]},
+{type:"match",pairs:[{nl:"-지만",en:"But (simple, neutral)"},{nl:"-는 반면에",en:"On the other hand (structured)"},{nl:"-더라도",en:"Even if (stronger)"},{nl:"-(으)ㄴ/는들",en:"Even if (literary)"}]},
 {type:"mc",q:"밥은커녕 물도 못 마셨어요. 힘들었지만 포기 안 했어요. 대조 패턴 수는?",opts:["0개","1개: 지만만","3개","2개: 은커녕 + 지만"],ans:"2개: 은커녕 + 지만",hint:"Let-alone + but = two contrast patterns."},
 ]},
 // --- L4: 격식 복습 (Register Review) ---

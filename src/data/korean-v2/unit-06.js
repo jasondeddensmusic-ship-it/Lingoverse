@@ -125,7 +125,7 @@ const UNIT_6 =
 
 // ═══ L5: -아/어요 Preview ═══
 {id:"kou6l5",title:"★ Verb Review: Contractions + Irregular Seeds",icon:"🔧",xp:25,board:true,steps:[
-  {type:"intro",title:"The Full Engine  -  Contractions and What's Coming",desc:"Contraction patterns and a preview of irregular verbs.",goals:["Master all contraction patterns","See every verb class you've used in A1 systematically","Plant seeds for the 5 irregular families","Preview the past tense structure "]},
+  {type:"intro",title:"The Full Engine  -  Contractions and What's Coming",desc:"Contraction patterns and a preview of irregular verbs.",goals:["Master all contraction patterns","See every verb class you've used in A1 systematically","Plant seeds for the 5 irregular families","Preview the past tense structure"]},
 
   {type:"tip",title:"📋 The Complete Contraction Map",text:"When a vowel stem meets -아/어요, contractions happen:\n\nㅏ + 아 → ㅏ (merge)\n가다 → 가요 (go)\n\nㅗ + 아 → ㅘ\n오다 → 와요 (come)\n\nㅜ + 어 → ㅝ\n배우다 → 배워요 (learn)",deepDive:{title:"All Contractions",text:"ㅣ + 어 → ㅕ\n마시다 → 마셔요 (drink)\n\nㅡ drops entirely\n쓰다 → 써요 (write)\n\n하다 → always 해요 (special)\n\nNO CONTRACTION (consonant-ending stems):\n먹다 → 먹어요 (eat)\n있다 → 있어요 (have/exist)\n읽다 → 읽어요 (read)"}},
 
