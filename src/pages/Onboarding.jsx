@@ -6,11 +6,18 @@ import CountryFlag from '../components/CountryFlag.jsx';
 
 const PlacementQuiz = React.lazy(() => import('./PlacementQuiz.jsx'));
 
-function Onboarding({ onComplete }) {
+function Onboarding({ onComplete, onSourceLangChange }) {
   // steps: "source" | "target" | "placement-choice" | "placement-quiz"
   const [step, setStep] = useState("source");
   const [baseSel, setBaseSel] = useState("en");
   const [targetSel, setTargetSel] = useState(null);
+
+  // Keep parent's RTL direction in sync with live source-language selection,
+  // so the placement screens don't render under a stale dir="rtl" from a
+  // previous Arabic session. Lives on parent via setBaseLang.
+  useEffect(() => {
+    if (onSourceLangChange && baseSel) onSourceLangChange(baseSel);
+  }, [baseSel, onSourceLangChange]);
 
   // Ctrl+S → proceed through the wizard
   useEffect(() => {

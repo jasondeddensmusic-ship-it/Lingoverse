@@ -637,7 +637,7 @@ export default function App(){
       })()}
       {/* ── Main routing ── */}
       <React.Suspense fallback={<Loading/>}>
-      {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
+      {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard} onSourceLangChange={setBaseLang}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
         <>
           <NavBar/>
           <div className="main anim" key={page}>
@@ -651,8 +651,8 @@ export default function App(){
             {page==="grammar"&&<GrammarPage lang={lang} baseLang={baseLang}/>}
             {page==="idioms"&&<IdiomsPage lang={lang} baseLang={baseLang}/>}
             {page==="cefr-reference"&&<CefrReferencePage lang={lang} baseLang={baseLang} user={user}/>}
-            {page==="settings"&&<SettingsPage lang={lang} baseLang={baseLang} darkMode={darkMode} setDarkMode={setDarkMode} cloudMode={cloudMode} setCloudMode={setCloudMode} user={user} setUser={setUser} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
-            {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang} setPage={setPage}/>}
+            {page==="settings"&&<SettingsPage lang={lang} baseLang={baseLang} darkMode={darkMode} setDarkMode={setDarkMode} cloudMode={cloudMode} setCloudMode={setCloudMode} user={user} setUser={setUser} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");setBaseLang("en");setLang(LANGUAGES[0].code);try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang}/>}
+            {page==="profile"&&<Profile user={user} lang={lang} baseLang={baseLang} flags={flags} setFlags={setFlags} onLogout={async()=>{setAuthed(false);setProfile(null);setOb(false);setPage("home");setBaseLang("en");setLang(LANGUAGES[0].code);try{await window.storage?.delete("lingoverse:state");}catch(e){}}} setLang={setLang} setPage={setPage}/>}
           </div>
           <BottomNav/>
         </>

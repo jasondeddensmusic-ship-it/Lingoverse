@@ -225,6 +225,12 @@ export default function PlacementQuiz({ onComplete, lang = 'es' }) {
           Question {totalAsked + 1}{inReinforcement ? ` · reinforcing at ${currentLevel}` : ''}
         </div>
 
+        {currentQuestion.stem && (
+          <div style={S.stemBubble}>
+            <div style={S.stem}>{currentQuestion.stem}</div>
+            {currentQuestion.stemSrc && <div style={S.stemSrc}>{currentQuestion.stemSrc}</div>}
+          </div>
+        )}
         <h2 style={S.question}>{currentQuestion.q}</h2>
 
         <div style={S.options}>
@@ -295,18 +301,41 @@ const S = {
     minHeight: '100vh',
     padding: '48px 24px',
     background: 'linear-gradient(135deg, var(--bg), var(--blue-pale))',
-    fontFamily: 'Nunito, system-ui, sans-serif',
+    fontFamily: "'Nunito', system-ui, sans-serif",
     color: 'var(--gray-800)'
   },
   panel: {
     maxWidth: 560,
     margin: '0 auto',
-    padding: '32px 28px 24px',
-    background: 'rgba(255,255,255,0.72)',
-    backdropFilter: 'blur(20px)',
-    border: '1px solid rgba(255,255,255,0.8)',
-    borderRadius: 'var(--radius-lg)',
-    boxShadow: 'var(--shadow-lg)'
+    padding: '32px 28px 26px',
+    background: 'linear-gradient(180deg, rgba(255,255,255,0.88) 0%, rgba(250,248,255,0.82) 100%)',
+    backdropFilter: 'blur(24px)',
+    WebkitBackdropFilter: 'blur(24px)',
+    border: '1.5px solid rgba(255,255,255,0.9)',
+    borderRadius: 24,
+    boxShadow: '0 20px 60px -10px rgba(123,94,232,0.18), 0 8px 24px -6px rgba(123,94,232,0.12), inset 0 1px 0 rgba(255,255,255,0.7)'
+  },
+  stemBubble: {
+    background: 'linear-gradient(180deg, rgba(250,245,255,0.9) 0%, rgba(240,232,255,0.7) 100%)',
+    border: '1.5px solid rgba(123,94,232,0.18)',
+    borderRadius: 18,
+    padding: '18px 20px',
+    marginBottom: 18,
+    boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.8), 0 2px 12px rgba(123,94,232,0.08)'
+  },
+  stem: {
+    fontSize: 22,
+    fontWeight: 700,
+    lineHeight: 1.45,
+    color: '#1a1530',
+    fontFamily: "'Quicksand', 'Nunito', system-ui, sans-serif"
+  },
+  stemSrc: {
+    marginTop: 6,
+    fontSize: 13,
+    fontStyle: 'italic',
+    color: 'var(--gray-500)',
+    lineHeight: 1.4
   },
   header: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 },
   badge: {
@@ -344,37 +373,39 @@ const S = {
   },
   questionCount: { fontSize: 13, color: 'var(--gray-500)', marginBottom: 20 },
   question: {
-    fontFamily: 'Quicksand, Nunito, system-ui, sans-serif',
-    fontSize: 22,
+    fontFamily: "'Quicksand', 'Nunito', system-ui, sans-serif",
+    fontSize: 17,
     fontWeight: 700,
-    lineHeight: 1.35,
-    margin: '0 0 24px',
+    lineHeight: 1.4,
+    margin: '0 0 20px',
     color: 'var(--gray-800)'
   },
-  options: { display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 24 },
+  options: { display: 'flex', flexDirection: 'column', gap: 10, marginBottom: 22 },
   optionBtn: {
     padding: '14px 18px',
-    borderRadius: 'var(--radius)',
+    borderRadius: 16,
     border: '2px solid',
     fontFamily: 'inherit',
-    fontSize: 16,
-    fontWeight: 500,
+    fontSize: 15,
+    fontWeight: 600,
     textAlign: 'left',
     cursor: 'pointer',
-    transition: 'all 0.18s ease'
+    transition: 'all 0.18s ease',
+    boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.6), 0 1px 3px rgba(123,94,232,0.04)'
   },
   primaryBtn: {
     width: '100%',
-    padding: '14px 18px',
-    borderRadius: 'var(--radius)',
+    padding: '15px 18px',
+    borderRadius: 18,
     border: 'none',
-    background: 'linear-gradient(135deg, var(--blue), var(--blue-dark))',
+    background: 'linear-gradient(180deg, #C0AEF8 0%, #9A7EEE 45%, #7B5EE8 70%, #5840B8 100%)',
     color: 'white',
     fontFamily: 'inherit',
     fontSize: 16,
-    fontWeight: 700,
+    fontWeight: 800,
+    letterSpacing: '0.02em',
     cursor: 'pointer',
-    boxShadow: 'var(--shadow-blue)'
+    boxShadow: '0 6px 20px rgba(123,94,232,0.35), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -2px 0 rgba(0,0,0,0.12)'
   },
   meta: { fontSize: 12, color: 'var(--gray-400)', marginTop: 12, textAlign: 'center' },
   h1: {
