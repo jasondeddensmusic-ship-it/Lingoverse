@@ -102,7 +102,7 @@ const BATCH3_U07_L2 = {
       {trg:"vegano", src:"vegan"},
       {trg:"senza glutine", src:"gluten-free"},
       {trg:"biologico", src:"organic"}
-    ]},
+    ,{trg:"digerire",src:"to digest"}]},
 
     {type:"mc", q:"Why can lactose-intolerant people often eat Parmigiano Reggiano?",
      opts:["It is made from goat milk only","The aging process eliminates virtually all lactose","It contains added digestive enzymes","It is not real cheese"],
@@ -130,6 +130,6 @@ const BATCH3_U07_L2 = {
      opts:["Veneto","Lombardia (Lombardy)","Toscana (Tuscany)","Calabria"],
      ans:"Calabria",
      hint:"This southern region hosts a chili pepper festival in Diamante. Their famous 'nduja sausage gets its intense heat from local peppers."}
-  ,{type:"match",pairs:[{trg:"digerire",src:"to digest"}]}]
+  ]
 };
 export default BATCH3_U07_L2;

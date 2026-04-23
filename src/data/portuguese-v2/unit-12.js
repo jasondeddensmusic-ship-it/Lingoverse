@@ -251,7 +251,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  {trg:"chegar", src:"to arrive"},
  {trg:"primeiro", src:"first"},
  {trg:"depois", src:"afterwards"}
-]},
+,{trg:"a viagem", src:"the trip"}]},
 
 {type:"mc", q:"'Reservei um hotel em Salvador' means:",
  opts:["I visited a hotel in Salvador","I sold a hotel in Salvador","I booked a hotel in Salvador","I own a hotel in Salvador"],
@@ -279,11 +279,7 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  opts:["afterwards","never","always","before"],
  ans:"afterwards",
  hint:"A sequencing word pointing to what comes later."}
-,
-
-{type:"match", pairs:[
-  {trg:"a viagem", src:"the trip"}
-]}]},
+]},
 
 {id:"ptv2_u12l4", title:"Uma carta informal", icon:"✉️", xp:15, board:true, steps:[
 {type:"intro", title:"Writing Short Informal Letters",

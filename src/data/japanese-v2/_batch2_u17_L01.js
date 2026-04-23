@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Reading NHK News",
       text:"NHK News Web (NHK NEWS WEB) is the best resource for learning Japanese through news. Articles use standard passive constructions:\n\n発表(はっぴょう)された (was announced)\n決定(けってい)された (was decided)\n確認(かくにん)された (was confirmed)\n\nThese passive constructions make Japanese news readable once you know the pattern: [topic] が [passive verb]. The vocabulary is specialized but repetitive, making it easier to learn over time."}},
 
-    {type:"match", pairs:[{trg:"逮捕(たいほ)される",src:"to be arrested"},{trg:"救助(きゅうじょ)される",src:"to be rescued"},{trg:"廃止(はいし)される",src:"to be abolished"},{trg:"改正(かいせい)される",src:"to be revised"}]},
+    {type:"match", pairs:[{trg:"逮捕(たいほ)される",src:"to be arrested"},{trg:"救助(きゅうじょ)される",src:"to be rescued"},{trg:"廃止(はいし)される",src:"to be abolished"},{trg:"改正(かいせい)される",src:"to be revised"},{trg:"遭難(そうなん)する",src:"to be in distress / to be shipwrecked"}]},
 
     {type:"fb", s:"新(あたら)しい大臣(だいじん)が{1}ました。\n(A new minister was appointed.)", a:"任命(にんめい)され", opts:["任命(にんめい)され","任命(にんめい)して","任命(にんめい)し","任命(にんめい)する"], sSrc:"A new minister was appointed.",
      hint:"The passive of 任命(にんめい)する (to appoint). する-verb passive: される."},
@@ -83,7 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"遭難(そうなん)する means:", opts:["to travel","to succeed","to be in distress","to celebrate"], ans:"to be in distress",
      hint:"This word describes a life-threatening situation, usually on a mountain or at sea."},
-  {type:"match",pairs:[{trg:"遭難(そうなん)する",src:"to be in distress / to be shipwrecked"}]},
   {type:"fb", s:"警察(けいさつ)は{1}を尋問(じんもん)しました。", a:["容疑者(ようぎしゃ)"], opts:["容疑者(ようぎしゃ)","犯人(はんにん)","証人(しょうにん)","弁護士(べんごし)"], hint:"A person under investigation but not yet convicted.", sSrc:"The police questioned the {1}."}
 ]
 };

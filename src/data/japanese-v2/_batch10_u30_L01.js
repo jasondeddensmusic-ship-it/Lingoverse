@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(to function is important.)", a:"機能(きのう)する", opts:["機能(きのう)する","客観的(きゃっかんてき)","主観的(しゅかんてき)","推論(すいろん)"], sSrc:"to function is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"推論(すいろん)",src:"reasoning"},{trg:"仮説(かせつ)",src:"hypothesis"},{trg:"証明(しょうめい)",src:"proof"},{trg:"前提(ぜんてい)",src:"premise"}]},
+    {type:"match", pairs:[{trg:"推論(すいろん)",src:"reasoning"},{trg:"仮説(かせつ)",src:"hypothesis"},{trg:"証明(しょうめい)",src:"proof"},{trg:"前提(ぜんてい)",src:"premise"},{trg:"主観的(しゅかんてき)",src:"subjective"}]},
 
     {type:"mc", q:"Which word means tendency?", opts:["客観的(きゃっかんてき)","傾向(けいこう)","機能(きのう)する","仮説(かせつ)"], ans:"傾向(けいこう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"主観的(しゅかんてき)",src:"subjective"}]}]
+  ]
 };
 export default BATCH10_L1;

@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(moderator is important.)", a:"司会(しかい)", opts:["司会(しかい)","発言(はつげん)する","要約(ようやく)","議題(ぎだい)"], sSrc:"moderator is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"議題(ぎだい)",src:"agenda item"},{trg:"議事録(ぎじろく)",src:"meeting minutes"},{trg:"結論(けつろん)",src:"conclusion"},{trg:"合意(ごうい)",src:"agreement"}]},
+    {type:"match", pairs:[{trg:"議題(ぎだい)",src:"agenda item"},{trg:"議事録(ぎじろく)",src:"meeting minutes"},{trg:"結論(けつろん)",src:"conclusion"},{trg:"合意(ごうい)",src:"agreement"},{trg:"要約(ようやく)",src:"summary"}]},
 
     {type:"mc", q:"Which word means interpreter?", opts:["発言(はつげん)する","通訳(つうやく)","司会(しかい)","議事録(ぎじろく)"], ans:"通訳(つうやく)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"要約(ようやく)",src:"summary"}]}]
+  ]
 };
 export default BATCH10_L1;

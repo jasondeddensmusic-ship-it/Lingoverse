@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(digital divide is important.)", a:"デジタルデバイド", opts:["デジタルデバイド","情報格差(じょうほうかくさ)","フェイクニュース","プライバシー保護(ほご)"], sSrc:"digital divide is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"プライバシー保護(ほご)",src:"privacy protection"},{trg:"データ保護(ほご)",src:"data protection"},{trg:"監視(かんし)",src:"surveillance"},{trg:"自己決定権(じこけっていけん)",src:"self-determination"}]},
+    {type:"match", pairs:[{trg:"プライバシー保護(ほご)",src:"privacy protection"},{trg:"データ保護(ほご)",src:"data protection"},{trg:"監視(かんし)",src:"surveillance"},{trg:"自己決定権(じこけっていけん)",src:"self-determination"},{trg:"フェイクニュース",src:"fake news"}]},
 
     {type:"mc", q:"Which word means compliance?", opts:["情報格差(じょうほうかくさ)","コンプライアンス","デジタルデバイド","データ保護(ほご)"], ans:"コンプライアンス",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"フェイクニュース",src:"fake news"}]}]
+  ]
 };
 export default BATCH10_L1;

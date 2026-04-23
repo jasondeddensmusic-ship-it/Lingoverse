@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Japanese Essay Structure: 序論・本論・結論",
       text:"Formal Japanese essays follow three parts:\n\n序論(じょろん) (introduction): state the topic and your position.\nはじめに, きっかけ, について are used here.\n\n本論(ほんろん) (main argument): present evidence and reasoning.\nにくわえて, にともなって, 言(い)い換(か)えれば, いっぽうで are used here.\n\n結論(けつろん) (conclusion): summarize and restate.\n結論(けつろん)として, 以上(いじょう)のことから, ようするに are used here.\n\nJLPT N2 and N1 essay sections test your ability to use these connectors appropriately. Practicing this structure is the fastest path to writing improvement."}},
 
-    {type:"match", pairs:[{trg:"はじめに",src:"first of all"},{trg:"言(い)い換(か)えれば",src:"in other words"},{trg:"きっかけ",src:"trigger/catalyst"},{trg:"結論(けつろん)",src:"conclusion"}]},
+    {type:"match", pairs:[{trg:"はじめに",src:"first of all"},{trg:"言(い)い換(か)えれば",src:"in other words"},{trg:"きっかけ",src:"trigger/catalyst"},{trg:"結論(けつろん)",src:"conclusion"},{trg:"研究(けんきゅう)",src:"research / study / investigation"}]},
 
     {type:"fb", s:"残業(ざんぎょう){1}、週末(しゅうまつ)出勤(しゅっきん)もあります。\n(In addition to overtime, there is also weekend work.)", a:"にくわえて", opts:["にくわえて","にともなって","について","にたいして"], sSrc:"In addition to overtime, there is also weekend work.",
      hint:"The formal connector meaning 'in addition to,' using the verb 加える (to add)."},
@@ -83,7 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"結論(けつろん)として signals:", opts:["The beginning of an essay","A change of topic","The conclusion of an argument","A question"], ans:"The conclusion of an argument",
      hint:"This phrase wraps up a logical a..., drawing everything together into a final statement."},
-  {type:"match",pairs:[{trg:"研究(けんきゅう)",src:"research / study / investigation"}]},
   {type:"fb", s:"高齢化(こうれいか)が進(すす)むと{1}が不足(ふそく)します。", a:["労働力(ろうどうりょく)"], opts:["労働力(ろうどうりょく)","きっかけ","はじめに","言(い)い換(か)えれば"], hint:"The total pool of people available to work in an economy.", sSrc:"As the population ages, {1} will fall short."}
 ]
 };

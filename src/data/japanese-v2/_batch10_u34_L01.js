@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(climate change is important.)", a:"気候変動(きこうへんどう)", opts:["気候変動(きこうへんどう)","問題解決(もんだいかいけつ)","貿易協定(ぼうえききょうてい)","援助(えんじょ)"], sSrc:"climate change is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"援助(えんじょ)",src:"foreign aid"},{trg:"開発(かいはつ)",src:"development"},{trg:"貧困(ひんこん)",src:"poverty"},{trg:"難民(なんみん)",src:"refugee"}]},
+    {type:"match", pairs:[{trg:"援助(えんじょ)",src:"foreign aid"},{trg:"開発(かいはつ)",src:"development"},{trg:"貧困(ひんこん)",src:"poverty"},{trg:"難民(なんみん)",src:"refugee"},{trg:"貿易協定(ぼうえききょうてい)",src:"trade agreement"}]},
 
     {type:"mc", q:"Which word means Japanese diplomacy?", opts:["問題解決(もんだいかいけつ)","日本外交(にほんがいこう)","気候変動(きこうへんどう)","開発(かいはつ)"], ans:"日本外交(にほんがいこう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"貿易協定(ぼうえききょうてい)",src:"trade agreement"}]}]
+  ]
 };
 export default BATCH10_L1;

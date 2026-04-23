@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Why Japanese Service Is Different",
       text:"Japanese service keigo creates a unique customer experience:\n\n1. No tipping: service excellence is the baseline, not extra.\n2. Everyone uses keigo: convenience store clerks to luxury hotels.\n3. Phrases are memorized and standardized across industries.\n4. Voice quality changes: pitch rises, pace slows.\n5. Body language accompanies words: bowing, gesturing with open palms.\n\nForeign visitors often note that Japanese service feels almost ceremonial. This is intentional: おもてなし treats every customer interaction as a small ceremony of respect."}},
 
-    {type:"match", pairs:[{trg:"かしこまりました",src:"certainly (understood)"},{trg:"ご案内(あんない)いたします",src:"let me guide you"},{trg:"申(もう)し訳(わけ)ございませんが",src:"terribly sorry, but"},{trg:"予約(よやく)",src:"reservation"}]},
+    {type:"match", pairs:[{trg:"かしこまりました",src:"certainly (understood)"},{trg:"ご案内(あんない)いたします",src:"let me guide you"},{trg:"申(もう)し訳(わけ)ございませんが",src:"terribly sorry, but"},{trg:"予約(よやく)",src:"reservation"},{trg:"お荷物(にもつ)をお預(あず)かりします",src:"let me take your luggage (humble service)"}]},
 
     {type:"fb", s:"何(なに)かご質問(しつもん)は{1}か？\n(Do you have any questions?)", a:"ございます", opts:["ございます","あります","います","できます"], sSrc:"Do you have any questions?",
      hint:"The ultra-polite form of あります used in formal service contexts."},
@@ -82,7 +82,6 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"満席(まんせき)",src:"fully booked"},{trg:"おもてなし",src:"hospitality"},{trg:"ございます",src:"there is (very polite)"},{trg:"恐(おそ)れ入(い)りますが",src:"sorry to trouble you, but"}]},
 
     {type:"mc", q:"おもてなし is best described as:", opts:["A business title","A type of food","Japanese hospitality and selfless service","A greeting phrase"], ans:"Japanese hospitality and selfless service",
-     hint:"This cultural concept became world-famous during Japan's Olympic bid and represents anticipatory, heartfelt s...."},
-  {type:"match",pairs:[{trg:"お荷物(にもつ)をお預(あず)かりします",src:"let me take your luggage (humble service)"}]}]
+     hint:"This cultural concept became world-famous during Japan's Olympic bid and represents anticipatory, heartfelt s...."}]
 };
 export default BATCH2_L_1;

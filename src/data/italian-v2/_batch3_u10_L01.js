@@ -102,7 +102,7 @@ const BATCH3_U10_L1 = {
       {trg:"lo sciopero", src:"the strike"},
       {trg:"la multa", src:"the fine"},
       {trg:"il modulo", src:"the form"}
-    ]},
+    ,{trg:"il consolato",src:"the consulate"}]},
 
     {type:"mc", q:"What are 'fasce di garanzia' during Italian strikes?",
      opts:["Guaranteed discounts on ticket prices","Guaranteed service windows when transport runs","Insurance coverage for stranded passengers","Special taxis provided by the government"],
@@ -130,6 +130,6 @@ const BATCH3_U10_L1 = {
      opts:["The nearest train station","Your hotel reception only","The local hospital","Your country's embassy or consulate"],
      ans:"Your country's embassy or consulate",
      hint:"They issue emergency travel documents. Embassies are in Rome; consulates exist in major cities like Milan and Florence. Keep a photocopy separate."}
-  ,{type:"match",pairs:[{trg:"smarrire",src:"to lose / to misplace"},{trg:"la denuncia",src:"the police report / complaint"},{trg:"il reclamo",src:"the complaint / claim"},{trg:"cancellare",src:"to cancel"},{trg:"il guasto",src:"the breakdown / malfunction"},{trg:"il sostituto",src:"the replacement / substitute"}]},{type:"match",pairs:[{trg:"il consolato",src:"the consulate"}]},{type:"mc",q:"How do you say \"embassy\" in Italian?",opts:["l'ambasciata","il tavolo","la bicicletta","la finestra"],ans:"l'ambasciata",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"smarrire",src:"to lose / to misplace"},{trg:"la denuncia",src:"the police report / complaint"},{trg:"il reclamo",src:"the complaint / claim"},{trg:"cancellare",src:"to cancel"},{trg:"il guasto",src:"the breakdown / malfunction"},{trg:"il sostituto",src:"the replacement / substitute"}]},{type:"mc",q:"How do you say \"embassy\" in Italian?",opts:["l'ambasciata","il tavolo","la bicicletta","la finestra"],ans:"l'ambasciata",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH3_U10_L1;

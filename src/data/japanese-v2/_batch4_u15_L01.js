@@ -98,7 +98,7 @@ const BATCH4_L_1 = {
       {trg:"指定席(していせき)", src:"reserved seat"},
       {trg:"優先席(ゆうせんせき)", src:"priority seat"},
       {trg:"切符売(きっぷう)り場(ば)", src:"ticket counter"}
-    ]},
+    ,{trg:"手数料(てすうりょう)",src:"handling fee / service charge"}]},
 
     {type:"mc", q:"Train types from slowest to fastest:",
      opts:["rapid, local, express, limited","local, rapid, express, limited express","express, rapid, local, limited","limited, express, rapid, local"], ans:"local, rapid, express, limited express",
@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"運転見合(うんてんみあ)わせ means:",
      opts:["delay","schedule change","extra train","suspension of train service"], ans:"suspension of train service",
      hint:"When trains completely stop running on a line."}
-  ,{type:"match",pairs:[{trg:"快速(かいそく)",src:"rapid train"},{trg:"急行(きゅうこう)",src:"express train"},{trg:"時刻表(じこくひょう)",src:"timetable / schedule"},{trg:"運転見合(うんてんみあ)わせ",src:"suspension of service"},{trg:"終電(しゅうでん)",src:"last train"},{trg:"線路(せんろ)",src:"railway track / rail line"}]},{type:"match",pairs:[{trg:"手数料(てすうりょう)",src:"handling fee / service charge"}]}]
+  ,{type:"match",pairs:[{trg:"快速(かいそく)",src:"rapid train"},{trg:"急行(きゅうこう)",src:"express train"},{trg:"時刻表(じこくひょう)",src:"timetable / schedule"},{trg:"運転見合(うんてんみあ)わせ",src:"suspension of service"},{trg:"終電(しゅうでん)",src:"last train"},{trg:"線路(せんろ)",src:"railway track / rail line"}]}]
 };
 export default BATCH4_L_1;

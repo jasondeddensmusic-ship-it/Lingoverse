@@ -108,7 +108,7 @@ const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F
  {trg:"il pacco", src:"package"},
  {trg:"la ricevuta", src:"receipt"},
  {trg:"lo sportello", src:"counter"}
-]},
+,{trg:"aspettare",src:"to wait (for)"}]},
 
 {type:"fb", s:"Metti il pacco sulla {1} per sapere il peso.", a:["bilancia"],
  opts:["bilancia","coda","busta","cartolina"],
@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u01l_b6_1", title:"All'ufficio postale", icon:"\u{1F
  {trg:"firmare", src:"to sign"},
  {trg:"compilare", src:"to fill out"}
 ]}
-,{type:"match",pairs:[{trg:"aspettare",src:"to wait (for)"}]}]};
+]};
 export default BATCH6_L1;

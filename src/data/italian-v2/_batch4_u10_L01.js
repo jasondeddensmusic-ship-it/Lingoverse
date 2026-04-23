@@ -113,7 +113,7 @@ const BATCH4_U10_L1 = {
       {trg:"il piano", src:"floor"},
       {trg:"la vista", src:"view"},
       {trg:"il lenzuolo", src:"sheet"}
-    ]},
+    ,{trg:"la camera",src:"the room (hotel)"}]},
 
     {type:"mc", q:"Perche i bagni italiani hanno sempre un bidet?",
      opts:["It is a recent trend","It is legally required in Italian homes","Hotels choose to install them","Only luxury hotels have them"],
@@ -139,6 +139,6 @@ const BATCH4_U10_L1 = {
      opts:["It stays the same: i lenzuoli","It adds -i: i lenzuoli","There is no plural form","It changes gender: il lenzuolo becomes le lenzuola"],
      ans:"It changes gender: il lenzuolo becomes le lenzuola",
      hint:"This is one of Italian's rare g...-switching plurals."}
-  ,{type:"match",pairs:[{trg:"la camera",src:"the room (hotel)"}]}]
+  ]
 };
 export default BATCH4_U10_L1;

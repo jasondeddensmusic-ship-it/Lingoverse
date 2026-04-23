@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: Sunday is pedestrian paradise.\nB: So we can walk on the road.\nA: When was it?\nB: It was last summer.",
      funFact:"歩行者天国(ほこうしゃてんごく) turns major shopping streets car-free on weekends. 秋葉原(あきはばら) and 銀座(ぎんざ) in Tokyo are famous for this. The term literally means 'pedestrian heaven.' Street performers, food vendors, and casual strollers fill the roads. It started in the 1970s as a response to air pollution."},
 
-    {type:"match", pairs:[{trg:"交差点(こうさてん)",src:"intersection"},{trg:"信号(しんごう)",src:"traffic light"},{trg:"改札口(かいさつぐち)",src:"ticket gate"},{trg:"乗(の)り場(ば)",src:"boarding area"},{trg:"地下鉄(ちかてつ)",src:"subway"}],
+    {type:"match", pairs:[{trg:"交差点(こうさてん)",src:"intersection"},{trg:"信号(しんごう)",src:"traffic light"},{trg:"改札口(かいさつぐち)",src:"ticket gate"},{trg:"乗(の)り場(ば)",src:"boarding area"},{trg:"地下鉄(ちかてつ)",src:"subway"},{trg:"歩行者天国(ほこうしゃてんごく)",src:"pedestrian paradise (car-free zone)"}],
      hint:"Match each navigation term with its English meaning."},
 
     {type:"mc", q:"What is 歩行者天国(ほこうしゃてんごく)?", opts:["An underground passage","A car-free pedestrian zone on weekends","A religious festival","A type of crosswalk"], ans:"A car-free pedestrian zone on weekends",
@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is special about Japanese 地下街(ちかがい)?", opts:["Parking structures under buildings","Secret tunnels from World War II","Elaborate underground shopping networks beneath stations","Museums built underground"], ans:"Elaborate underground shopping networks beneath stations",
      hint:"You can walk for kilometers u..., staying dry in rain and connected to s...."}
-  ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / sign / mark"},{trg:"踏切(ふみきり)",src:"railroad crossing"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"},{trg:"駅近(えきちか)",src:"near the station / station area"},{trg:"地下街(ちかがい)",src:"underground shopping area"},{trg:"地図(ちず)",src:"map"}]},{type:"match",pairs:[{trg:"歩行者天国(ほこうしゃてんごく)",src:"pedestrian paradise (car-free zone)"}]}]
+  ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / sign / mark"},{trg:"踏切(ふみきり)",src:"railroad crossing"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"},{trg:"駅近(えきちか)",src:"near the station / station area"},{trg:"地下街(ちかがい)",src:"underground shopping area"},{trg:"地図(ちず)",src:"map"}]}]
 };
 export default BATCH8_L1;

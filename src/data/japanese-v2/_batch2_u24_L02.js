@@ -74,7 +74,7 @@ const BATCH2_L_2 = {
      deepDive:{title:"Building Persuasive Arguments in Japanese",
       text:"A persuasive Japanese argument follows this pattern:\n\n1. State your topic: にかんして (regarding X)\n2. Present evidence: ことから (from the fact that)\n3. Add support: にくわえて (in addition)\n4. Cite basis: にもとづいて (based on data)\n5. Give examples: をはじめ (starting with)\n6. Draw conclusion: 以上(いじょう)のことから (from the above)\n\nThe key principle: let evidence lead to the conclusion, not the other way around. Japanese argumentation values building toward a conclusion through accumulated evidence rather than stating a thesis and defending it, though both styles exist."}},
 
-    {type:"match", pairs:[{trg:"ことから",src:"from the fact that"},{trg:"にもとづいて",src:"based on"},{trg:"すなわち",src:"namely"},{trg:"にかんして",src:"regarding (formal)"}]},
+    {type:"match", pairs:[{trg:"ことから",src:"from the fact that"},{trg:"にもとづいて",src:"based on"},{trg:"すなわち",src:"namely"},{trg:"にかんして",src:"regarding (formal)"},{trg:"耐震(たいしん)",src:"earthquake resistance / seismic resistance"}]},
 
     {type:"fb", s:"{1}のことから、改革(かいかく)が必要(ひつよう)だと考(かんが)えます。\n(From the above, I believe reform is necessary.)", a:"以上(いじょう)", opts:["以上(いじょう)","つまり","はじめ","すなわち"], sSrc:"From the above, I believe reform is necessary.",
      hint:"The word meaning 'the above' that opens the conclusion of a structured essay or presentation."},
@@ -83,7 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"をふまえて differs from にもとづいて because:", opts:["をふまえて is for negatives only","They are identical","をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation","をふまえて is casual; にもとづいて is formal"], ans:"をふまえて implies actively building upon past knowledge; にもとづいて simply states a foundation",
      hint:"踏(ふ)まえて (step u...) is more dynamic than 基(もと)づいて (be based on). One a... builds; the other s... references."},
-  {type:"match",pairs:[{trg:"耐震(たいしん)",src:"earthquake resistance / seismic resistance"}]},
   {type:"fb", s:"この建物(たてもの)は最新(さいしん)の{1}設計(せっけい)で建(た)てられています。", a:["耐震(たいしん)"], opts:["耐震(たいしん)","すなわち","〜にもとづいて","〜ことから"], hint:"The engineering property that allows a building to withstand seismic shaking.", sSrc:"This building was constructed with the latest {1} design."}
 ]
 };

@@ -98,7 +98,7 @@ const BATCH4_L_1 = {
       {trg:"水曜日(すいようび)", src:"Wednesday"},
       {trg:"金曜日(きんようび)", src:"Friday"},
       {trg:"日曜日(にちようび)", src:"Sunday"}
-    ]},
+    ,{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]},
 
     {type:"mc", q:"How are Japanese months named?",
      opts:["animal names","number + gatsu","poetic names","season names"], ans:"number + gatsu",
@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What happens in December in Japan?",
      opts:["cherry blossom viewing","school starts","golden week","bonenkai (year-end parties)"], ans:"bonenkai (year-end parties)",
      hint:"P... to 'forget the y...' are a December tradition in Japan."}
-  ,{type:"match",pairs:[{trg:"火曜日(かようび)",src:"Tuesday"},{trg:"木曜日(もくようび)",src:"Thursday"},{trg:"土曜日(どようび)",src:"Saturday"},{trg:"一月(いちがつ)",src:"January"},{trg:"八月(はちがつ)",src:"August"},{trg:"十二月(じゅうにがつ)",src:"December"}]},{type:"match",pairs:[{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]}]
+  ,{type:"match",pairs:[{trg:"火曜日(かようび)",src:"Tuesday"},{trg:"木曜日(もくようび)",src:"Thursday"},{trg:"土曜日(どようび)",src:"Saturday"},{trg:"一月(いちがつ)",src:"January"},{trg:"八月(はちがつ)",src:"August"},{trg:"十二月(じゅうにがつ)",src:"December"}]}]
 };
 export default BATCH4_L_1;

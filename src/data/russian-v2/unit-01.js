@@ -167,7 +167,7 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
   {trg:"Ты", src:"you (informal)"},
   {trg:"Он", src:"he"},
   {trg:"Она", src:"she"}
-]}
+,{trg:"Вы", src:"you (formal or plural)"}]}
 ]},
 
 {id:"ruv2_u1l3", title:"Спасибо и Пожалуйста", icon:"🙏", xp:15, board:true, steps:[
@@ -245,11 +245,7 @@ const UNIT_01 = {n:1, lang:"ru", srcLang:"en", track:"v2", title:"Привет!"
  opts:["It's the same as Спасибо","It means 'goodbye'","It does the work of both 'please' AND 'you're welcome'","It's only used with children"],
  ans:"It does the work of both 'please' AND 'you're welcome'",
  hint:"This one word covers two English polite phrases."}
-,
-
-{type:"match", pairs:[
-  {trg:"Вы", src:"you (formal or plural)"}
-]}]}
+]}
 
 ]};
 export default UNIT_01;

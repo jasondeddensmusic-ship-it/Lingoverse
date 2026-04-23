@@ -160,14 +160,12 @@ const UNIT_24 = {n:24, lang:"ru", srcLang:"en", track:"v2", title:"Глагол�
   {trg:"уйти", src:"to leave"},
   {trg:"выйти", src:"to exit"},
   {trg:"войти", src:"to enter"}
-]}
+,{trg:"летать",src:"to fly (habitual)"}]}
 ,{type:"fb", s:"Извините, можно {1}?",
  a:["войти"],
  opts:["войти","выйти","уйти","прийти"],
  hint:"Asking permission to enter a room or space.",
- sSrc:"Excuse me, may I come in?"},
-
-{type:"match",pairs:[{trg:"летать",src:"to fly (habitual)"}]}]}
+ sSrc:"Excuse me, may I come in?"}]}
 
 ]};
 export default UNIT_24;

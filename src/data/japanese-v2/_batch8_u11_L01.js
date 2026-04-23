@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: I swept the entrance with a broom.\nB: It became clean.",
      funFact:"Traditional Japanese 箒(ほうき) are made from 箒草(ほうきぐさ) (broom grass) and are works of craft. Fancy 箒(ほうき) from Kyoto can cost thousands of yen. In Harry Potter, magical brooms are called 箒(ほうき) too. The witch-on-a-broomstick image translates perfectly."},
 
-    {type:"match", pairs:[{trg:"干(ほ)す",src:"to hang out to dry"},{trg:"畳(たた)む",src:"to fold"},{trg:"片付(かたづ)ける",src:"to tidy up"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"掃(は)く",src:"to sweep"}],
+    {type:"match", pairs:[{trg:"干(ほ)す",src:"to hang out to dry"},{trg:"畳(たた)む",src:"to fold"},{trg:"片付(かたづ)ける",src:"to tidy up"},{trg:"拭(ふ)く",src:"to wipe"},{trg:"掃(は)く",src:"to sweep"},{trg:"箒(ほうき)",src:"broom"}],
      hint:"Match each household chore verb with its English meaning."},
 
     {type:"mc", q:"What is the transitivity pair for 零(こぼ)す (to spill something)?", opts:["零(こぼ)したい (want to spill)","零(こぼ)れる (it spills on its own)","零(こぼ)した (past tense)","零(こぼ)さない (not spill)"], ans:"零(こぼ)れる (it spills on its own)",
@@ -105,6 +105,6 @@ const BATCH8_L1 = {
      opts:["片付(かたづ)ける","干(ほ)す","磨(みが)く","絞(しぼ)る"],
      hint:"The room is messy and you want to get it organized. This verb means 'to tidy up' or 'to put things away.'",
      sSrc:"Since the room is messy, let us {1}. It will feel refreshing."}
-  ,{type:"match",pairs:[{trg:"零(こぼ)す",src:"to spill"},{trg:"濡(ぬ)らす",src:"to wet / to moisten / to dampen"},{trg:"磨(みが)く",src:"to polish / to brush / to scrub"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"混(ま)ぜる",src:"to mix / to stir / to blend"},{trg:"絞(しぼ)る",src:"to wring / to squeeze / to tighten"}]},{type:"match",pairs:[{trg:"箒(ほうき)",src:"broom"}]}]
+  ,{type:"match",pairs:[{trg:"零(こぼ)す",src:"to spill"},{trg:"濡(ぬ)らす",src:"to wet / to moisten / to dampen"},{trg:"磨(みが)く",src:"to polish / to brush / to scrub"},{trg:"乾(かわ)かす",src:"to dry (something)"},{trg:"混(ま)ぜる",src:"to mix / to stir / to blend"},{trg:"絞(しぼ)る",src:"to wring / to squeeze / to tighten"}]}]
 };
 export default BATCH8_L1;

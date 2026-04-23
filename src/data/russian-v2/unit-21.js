@@ -77,7 +77,7 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
   {trg:"с сахаром", src:"with sugar (additive)"},
   {trg:"учителем", src:"as a teacher (profession)"},
   {trg:"утром", src:"in the morning"}
-]}
+,{trg:"учителями",src:"with teachers (pl INS)"}]}
 ]},
 
 {id:"ruv2_u21l2", title:"Instrumental Endings", icon:"📝", xp:15, board:true, steps:[
@@ -155,7 +155,7 @@ const UNIT_21 = {n:21, lang:"ru", srcLang:"en", track:"v2", title:"Творит�
   {trg:"матерью", src:"with mother"},
   {trg:"мной", src:"with me"}
 ]}
-,{type:"match",pairs:[{trg:"учителями",src:"with teachers (pl INS)"}]}]}
+]}
 
 ]};
 export default UNIT_21;

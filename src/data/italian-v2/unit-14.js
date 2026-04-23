@@ -308,7 +308,7 @@ const UNIT_14 = {
         {trg:"la carriera", src:"the career"},
         {trg:"lo stage", src:"the internship"},
         {trg:"il curriculum", src:"the CV / resume"}
-      ]},
+      ,{trg:"dimettersi",src:"to resign"}]},
 
       {type:"mc", q:"What does 'fare carriera' mean?",
        opts:["To change jobs","To advance professionally","To work overtime","To take a break"],
@@ -336,7 +336,7 @@ const UNIT_14 = {
        opts:["Il contratto","Il lavoro","Il progetto","Lo stage"],
        ans:"Lo stage",
        hint:"This word is borrowed from French and pronounced 'stazh.' The formal Italian alternative is 'tirocinio.'"}
-    ,{type:"match",pairs:[{trg:"dimettersi",src:"to resign"}]}]},
+    ]},
 
     {id:"itv2_u14l_civ", title:"Concetti sociali", icon:"🏛️", xp:15, board:true, steps:[
       {type:"intro", title:"B1 Civic Vocabulary",

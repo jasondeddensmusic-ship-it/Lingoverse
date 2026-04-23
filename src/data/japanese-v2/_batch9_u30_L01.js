@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(existence is important.)", a:"存在(そんざい)", opts:["存在(そんざい)","本質(ほんしつ)","観念(かんねん)","倫理(りんり)"], sSrc:"existence is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"倫理(りんり)",src:"ethics"},{trg:"道徳(どうとく)",src:"morality"},{trg:"善悪(ぜんあく)",src:"good and evil"},{trg:"真理(しんり)",src:"truth"}]},
+    {type:"match", pairs:[{trg:"倫理(りんり)",src:"ethics"},{trg:"道徳(どうとく)",src:"morality"},{trg:"善悪(ぜんあく)",src:"good and evil"},{trg:"真理(しんり)",src:"truth"},{trg:"観念(かんねん)",src:"concept"}]},
 
     {type:"mc", q:"Which word means perception?", opts:["本質(ほんしつ)","知覚(ちかく)","存在(そんざい)","道徳(どうとく)"], ans:"知覚(ちかく)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"観念(かんねん)",src:"concept"}]}]
+  ]
 };
 export default BATCH9_L1;

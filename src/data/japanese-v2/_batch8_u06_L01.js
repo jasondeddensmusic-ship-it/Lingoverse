@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: When is your wedding anniversary?\nB: June 28th.",
      funFact:"記念日(きねんび) culture in Japan includes personal milestones and national days. いい夫婦(ふうふ)の日(ひ) (Good Couple Day) on November 22 is popular for weddings. Japanese companies mark their 創立(そうりつ)記念日(きねんび) (founding anniversary). The country has numerous national 記念日(きねんび)."},
 
-    {type:"match", pairs:[{trg:"誕生日(たんじょうび)",src:"birthday"},{trg:"結婚式(けっこんしき)",src:"wedding ceremony"},{trg:"卒業式(そつぎょうしき)",src:"graduation ceremony"},{trg:"お盆(ぼん)",src:"Obon festival"},{trg:"お正月(しょうがつ)",src:"New Year"}],
+    {type:"match", pairs:[{trg:"誕生日(たんじょうび)",src:"birthday"},{trg:"結婚式(けっこんしき)",src:"wedding ceremony"},{trg:"卒業式(そつぎょうしき)",src:"graduation ceremony"},{trg:"お盆(ぼん)",src:"Obon festival"},{trg:"お正月(しょうがつ)",src:"New Year"},{trg:"記念日(きねんび)",src:"anniversary / memorial day"}],
      hint:"Match each life event or holiday with its English meaning."},
 
     {type:"mc", q:"What is お年玉(としだま)?", opts:["Condolence money","New Year money given to children","A birthday gift","A wedding present"], ans:"New Year money given to children",
@@ -100,6 +100,6 @@ const BATCH8_L1 = {
      opts:["記念日(きねんび)","誕生日(たんじょうび)","成人式(せいじんしき)","お正月(しょうがつ)"],
      hint:"It has been exactly ten years since you got married. Today is a meaningful day to commemorate. This noun means 'anniversary.'",
      sSrc:"It has been ten years since we got married today. It is an important {1}."}
-  ,{type:"match",pairs:[{trg:"お宮参(みやまい)り",src:"first shrine visit (for newborns)"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three festival"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"入学式(にゅうがくしき)",src:"entrance ceremony (school)"},{trg:"お葬式(そうしき)",src:"funeral"},{trg:"お年玉(としだま)",src:"New Year money gift (for children)"}]},{type:"match",pairs:[{trg:"記念日(きねんび)",src:"anniversary / memorial day"}]}]
+  ,{type:"match",pairs:[{trg:"お宮参(みやまい)り",src:"first shrine visit (for newborns)"},{trg:"七五三(しちごさん)",src:"Seven-Five-Three festival"},{trg:"成人式(せいじんしき)",src:"coming-of-age ceremony"},{trg:"入学式(にゅうがくしき)",src:"entrance ceremony (school)"},{trg:"お葬式(そうしき)",src:"funeral"},{trg:"お年玉(としだま)",src:"New Year money gift (for children)"}]}]
 };
 export default BATCH8_L1;

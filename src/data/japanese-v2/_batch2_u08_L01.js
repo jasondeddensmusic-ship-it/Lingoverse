@@ -87,7 +87,7 @@ const BATCH2_L_1 = {
   {type:"mc", q:"道(みち) means:", opts:["river","road","mountain","bridge"], ans:"road",
    hint:"The word for a path or street, also meaning 'the way' in philosophical contexts."},
 
-  {type:"match", pairs:[{trg:"図書館(としょかん)",src:"library"},{trg:"博物館(はくぶつかん)",src:"museum"},{trg:"薬局(やっきょく)",src:"pharmacy"},{trg:"レストラン",src:"restaurant"}]},
+  {type:"match", pairs:[{trg:"図書館(としょかん)",src:"library"},{trg:"博物館(はくぶつかん)",src:"museum"},{trg:"薬局(やっきょく)",src:"pharmacy"},{trg:"レストラン",src:"restaurant"},{trg:"南(みなみ)",src:"south"}]},
 
   {type:"match", pairs:[{trg:"道(みち)",src:"road"},{trg:"橋(はし)",src:"bridge"},{trg:"川(かわ)",src:"river"},{trg:"北(きた)",src:"north"}]},
 
@@ -98,6 +98,5 @@ const BATCH2_L_1 = {
    hint:"北(きた) (n...) + 口(ぐち) (e.../entrance)."},
 
   {type:"fb", s:"{1}を飲(の)みましたか？\n(Did you take your medicine?)", a:"薬(くすり)", opts:["薬(くすり)","水(みず)","果物(くだもの)","ご飯(はん)"], sSrc:"Did you take your medicine?",
-   hint:"The general word for medication, bought at a yakkyoku."},
-{type:"match",pairs:[{trg:"南(みなみ)",src:"south"}]}]};
+   hint:"The general word for medication, bought at a yakkyoku."}]};
 export default BATCH2_L_1;

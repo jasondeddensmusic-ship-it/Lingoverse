@@ -195,7 +195,7 @@ const UNIT_02 = {
   {type:"mc", q:"イギリスからです means:", opts:["I am British","I speak English","I am from England","I like England"], ans:"I am from England",
    hint:"Place + kara + desu = 'I am from (place).'"},
 
-  {type:"match", pairs:[{trg:"日本(にほん)",src:"Japan"},{trg:"アメリカ",src:"America"},{trg:"イギリス",src:"England"},{trg:"フランス",src:"France"}]},
+  {type:"match", pairs:[{trg:"日本(にほん)",src:"Japan"},{trg:"アメリカ",src:"America"},{trg:"イギリス",src:"England"},{trg:"フランス",src:"France"},{trg:"仕事(しごと)",src:"job / work"}]},
 
   {type:"fb", s:"アメリカ{1}です。", a:"から", opts:["から","じん","ご","は"], sSrc:"I am from America.",
    hint:"The particle meaning 'from' that indicates origin."},
@@ -211,8 +211,7 @@ const UNIT_02 = {
     text:"Japanese-origin country names use kanji/hiragana:\n日本(にほん), 中国(ちゅうごく)\n\nForeign country names use katakana:\nアメリカ, イギリス, フランス\n\nBut the suffixes (じん, ご, から) are always hiragana."}},
 
   {type:"mc", q:"Which is NOT a real suffix pattern?", opts:["日本(にほん)を","日本語(にほんご)","日本(にほん)から","日本人(にほんじん)"], ans:"日本(にほん)を",
-   hint:"を is an object particle, not used for country identity patterns."},
-{type:"match",pairs:[{trg:"仕事(しごと)",src:"job / work"}]}]},
+   hint:"を is an object particle, not used for country identity patterns."}]},
 
 // ═══ F15: フォーム記入(きにゅう) (Filling Out Forms) ═══
 {id:"jpv2_u2l_form", title:"フォーム記入(きにゅう)", icon:"📝", xp:15, board:true, steps:[

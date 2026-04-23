@@ -207,12 +207,12 @@ export default {n:25,lang:"es",srcLang:"en",track:"v2",title:"Si Hubiera Sabido"
           {trg:"Ojalá hablara",src:"I wish I spoke"},
           {trg:"Como si hablara",src:"As if I spoke"},
           {trg:"Para que hablara",src:"So that I spoke"}
-        ]},
+        ,{trg:"estudiara",src:"I studied / I would study (subj.)"}]},
         {type:"mc",q:"Your friend says: 'Si no fuera por mi familia, estaría perdido.' He feels:",opts:["Angry at his family","Grateful for his family","Indifferent about his family","Sad about losing his family"],ans:"Grateful for his family",hint:"By imagining life without them, he highlights how important they are."},
         {type:"drag_fill",hint:"If I lived in Spain, I would eat tapas every day.",s:"Si {1} en España, {2} tapas todos los días.",blanks:{"1":"viviera","2":"comería"},pool:["viviera","comería","vivo","como","viviendo"]},
         {type:"fb",opts:["notara","notó","notaría","nota"],hint:"He left without anyone noticing. Sin que + imperfect subjunctive.",s:"Salió sin que nadie lo {1}.",a:"notara"},
         {type:"mc",q:"Which is a correct past counterfactual?",opts:["Si tuviera dinero, viajé","Si tengo dinero, viajo","Si hubiera tenido dinero, habría viajado","Si tendría dinero, viajaría"],ans:"Si hubiera tenido dinero, habría viajado",hint:"Past counterfactuals: si + pluperfect subjunctive + conditional perfect."},
         {type:"drag_fill",hint:"I wish there were more people like you in the world.",s:"Ojalá {1} más personas {2} tú en el mundo.",blanks:{"1":"hubiera","2":"como"},pool:["hubiera","como","hay","así","habría"]},
         {type:"mc",q:"You want to express that learning Spanish is hard but you wish it were easier. You say:",opts:["Ojalá es más fácil","Ojalá sea más fácil","Ojalá será más fácil","Ojalá fuera más fácil"],ans:"Ojalá fuera más fácil",hint:"You know it is not easy and it will not change. Use imperfect subjunctive for this unlikely wish."}
-  ,{type:"match",pairs:[{trg:"estudiara",src:"I studied / I would study (subj.)"}]}]}
+  ]}
 ]};

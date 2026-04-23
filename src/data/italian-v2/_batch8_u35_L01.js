@@ -69,7 +69,7 @@ const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"
   {trg:"il prototipo", src:"the prototype"},
   {trg:"l'algoritmo", src:"the algorithm"},
   {trg:"la frontiera", src:"the frontier"}
-]},
+,{trg:"la robotica",src:"the robotics"}]},
 
 {type:"fb",
  s:"Il {1} del razzo Vega e previsto per domani mattina.",
@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u35l_b8_1", title:"Lo spazio e le frontiere", icon:"
  opts:["A rocket engineer","A computer scientist","An Italian mathematician who transmitted Arabic mathematical knowledge to Europe","An Italian astronaut"],
  ans:"An Italian mathematician who transmitted Arabic mathematical knowledge to Europe",
  hint:"His 'Liber Abaci' introduced the numeral system used worldwide today. The famous sequence named after him appears everywhere in nature."}
-,{type:"match",pairs:[{trg:"la robotica",src:"the robotics"}]}]};
+]};
 export default BATCH8_L1;

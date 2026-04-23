@@ -90,17 +90,13 @@ const UNIT_36 = {n:36, lang:"ru", srcLang:"en", track:"v2", title:"Свобод�
   {trg:"достижение", src:"achievement"},
   {trg:"цель", src:"goal"},
   {trg:"поздравляю", src:"congratulations"}
-]},
+,{trg:"продолжать", src:"to continue"}]},
 
 {type:"mc", q:"What's the best Russian learning strategy from this unit?",
  opts:["Translate everything to English","Memorize 40,000 words","Read, watch, listen, speak, write regularly","Only study grammar"],
  ans:"Read, watch, listen, speak, write regularly",
  hint:"Balance of all skills. Context is key."}
-,
-
-{type:"match", pairs:[
-  {trg:"продолжать", src:"to continue"}
-]}]}
+]}
 
 ]};
 export default UNIT_36;

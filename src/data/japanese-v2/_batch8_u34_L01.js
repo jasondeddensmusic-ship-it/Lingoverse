@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: Regional tensions are heightening.\nB: I hope for a diplomatic resolution.\nA: What do you think about this issue?\nB: It is a complex issue, but I think there are solutions.\nA: What kind of solutions are you thinking of?\nB: The first step is to set up a discussion forum for all stakeholders.",
      funFact:"緊張(きんちょう) in international relations often appears in Japanese news about East Asian geopolitics: 中国(ちゅうごく)との緊張(きんちょう), 朝鮮半島(かんとうはんとう)の緊張(きんちょう) (Korean Peninsula tension). Japan's geographic position between great powers makes 緊張(きんちょう) management a constant foreign policy challenge."},
 
-    {type:"match", pairs:[{trg:"外交(がいこう)",src:"diplomacy"},{trg:"制裁(せいさい)",src:"sanctions"},{trg:"難民(なんみん)",src:"refugee"},{trg:"同盟(どうめい)",src:"alliance"},{trg:"軍縮(ぐんしゅく)",src:"disarmament"}],
+    {type:"match", pairs:[{trg:"外交(がいこう)",src:"diplomacy"},{trg:"制裁(せいさい)",src:"sanctions"},{trg:"難民(なんみん)",src:"refugee"},{trg:"同盟(どうめい)",src:"alliance"},{trg:"軍縮(ぐんしゅく)",src:"disarmament"},{trg:"緊張(きんちょう)",src:"tension / strain"}],
      hint:"Match each international relations term with its English meaning."},
 
     {type:"mc", q:"Why is Japan's 難民(なんみん) recognition rate criticized?", opts:["There are no applications","It is extremely low at about 1-2% of applications","It is too high","The process is too fast"], ans:"It is extremely low at about 1-2% of applications",
@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What limits Japan's PKO military activities abroad?", opts:["International treaties","Budget limitations","Constitutional constraints from Article 9","Lack of military equipment"], ans:"Constitutional constraints from Article 9",
      hint:"Japan's pacifist constitution restricts the use of force in international operations."}
-  ,{type:"match",pairs:[{trg:"首脳(しゅのう)",src:"head of state / leader / chief"},{trg:"調停(ちょうてい)",src:"mediation / arbitration / adjustment"},{trg:"多国間協定(たこくかんきょうてい)",src:"multilateral agreement"},{trg:"相互理解(そうごりかい)",src:"mutual understanding"},{trg:"人道的援助(じんどうてきえんじょ)",src:"humanitarian aid"},{trg:"平和維持(へいわいじ)",src:"peacekeeping"}]},{type:"match",pairs:[{trg:"緊張(きんちょう)",src:"tension / strain"}]}]
+  ,{type:"match",pairs:[{trg:"首脳(しゅのう)",src:"head of state / leader / chief"},{trg:"調停(ちょうてい)",src:"mediation / arbitration / adjustment"},{trg:"多国間協定(たこくかんきょうてい)",src:"multilateral agreement"},{trg:"相互理解(そうごりかい)",src:"mutual understanding"},{trg:"人道的援助(じんどうてきえんじょ)",src:"humanitarian aid"},{trg:"平和維持(へいわいじ)",src:"peacekeeping"}]}]
 };
 export default BATCH8_L1;

@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(self-care is important.)", a:"セルフケア", opts:["セルフケア","マインドフルネス","心理士(しんりし)","ストレス"], sSrc:"self-care is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"ストレス",src:"stress"},{trg:"うつ病(びょう)",src:"depression"},{trg:"不安症(ふあんしょう)",src:"anxiety disorder"},{trg:"カウンセリング",src:"counseling"}]},
+    {type:"match", pairs:[{trg:"ストレス",src:"stress"},{trg:"うつ病(びょう)",src:"depression"},{trg:"不安症(ふあんしょう)",src:"anxiety disorder"},{trg:"カウンセリング",src:"counseling"},{trg:"心理士(しんりし)",src:"psychologist"}]},
 
     {type:"mc", q:"Which word means welfare?", opts:["マインドフルネス","福祉(ふくし)","セルフケア","うつ病(びょう)"], ans:"福祉(ふくし)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"心理士(しんりし)",src:"psychologist"}]}]
+  ]
 };
 export default BATCH10_L1;

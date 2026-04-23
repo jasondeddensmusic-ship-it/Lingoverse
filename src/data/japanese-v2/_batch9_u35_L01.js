@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(automation is important.)", a:"自動化(じどうか)", opts:["自動化(じどうか)","ロボティクス","クラウド","人工知能(じんこうちのう)"], sSrc:"automation is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"ビッグデータ",src:"big data"},{trg:"サイバーセキュリティ",src:"cybersecurity"},{trg:"デジタル化(か)",src:"digitalization"}]},
+    {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"ビッグデータ",src:"big data"},{trg:"サイバーセキュリティ",src:"cybersecurity"},{trg:"デジタル化(か)",src:"digitalization"},{trg:"クラウド",src:"cloud computing"}]},
 
     {type:"mc", q:"Which word means algorithm?", opts:["ロボティクス","アルゴリズム","自動化(じどうか)","ビッグデータ"], ans:"アルゴリズム",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"クラウド",src:"cloud computing"}]}]
+  ]
 };
 export default BATCH9_L1;

@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(to contribute is important.)", a:"貢献(こうけん)する", opts:["貢献(こうけん)する","期待(きたい)","課題(かだい)","達成感(たっせいかん)"], sSrc:"to contribute is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"達成感(たっせいかん)",src:"sense of achievement"},{trg:"振(ふ)り返(かえ)り",src:"reflection or review"},{trg:"応用(おうよう)する",src:"to apply"},{trg:"発展(はってん)する",src:"to develop"}]},
+    {type:"match", pairs:[{trg:"達成感(たっせいかん)",src:"sense of achievement"},{trg:"振(ふ)り返(かえ)り",src:"reflection or review"},{trg:"応用(おうよう)する",src:"to apply"},{trg:"発展(はってん)する",src:"to develop"},{trg:"課題(かだい)",src:"challenge or task"}]},
 
     {type:"mc", q:"Which word means outlook or prospect?", opts:["期待(きたい)","展望(てんぼう)","貢献(こうけん)する","振(ふ)り返(かえ)り"], ans:"展望(てんぼう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"課題(かだい)",src:"challenge or task"}]}]
+  ]
 };
 export default BATCH10_L1;

@@ -72,7 +72,7 @@ const BATCH2_L_3 = {
     {type:"fb", s:"彼(かれ)は多国籍(たこくせき)です。{1}、二(ふた)つの国(くに)の国籍(こくせき)を持(も)っています。\n(He has multiple nationalities. In other words, he holds citizenship in two countries.)", a:"言(い)い換(か)えれば", opts:["言(い)い換(か)えれば","たとえば","さらに","ぎゃくに"], sSrc:"He has multiple nationalities. In other words, he holds citizenship in two countries.",
      hint:"The rephrasing connector that says the same thing in different words."},
 
-    {type:"match", pairs:[{trg:"たとえば",src:"for example"},{trg:"ようするに",src:"in short"},{trg:"そもそも",src:"in the first place"},{trg:"さらに",src:"furthermore"}]},
+    {type:"match", pairs:[{trg:"たとえば",src:"for example"},{trg:"ようするに",src:"in short"},{trg:"そもそも",src:"in the first place"},{trg:"さらに",src:"furthermore"},{trg:"発想(はっそう)",src:"idea / concept / way of thinking"}]},
 
     {type:"teach", trg:"にもかかわらず", src:"despite / nevertheless", pos:"conj", gender:null,
      note:"Very formal concessive. Attaches to nouns, verbs, adjectives.\n努力(どりょく)にもかかわらず = despite effort.",
@@ -86,7 +86,6 @@ const BATCH2_L_3 = {
     {type:"match", pairs:[{trg:"言(い)い換(か)えれば",src:"in other words"},{trg:"ぎゃくに",src:"conversely"},{trg:"自信(じしん)",src:"confidence"},{trg:"不安(ふあん)",src:"anxiety"}]},
 
     {type:"mc", q:"Which connector would you use to add supporting examples?", opts:["ようするに","さらに","たとえば","ぎゃくに"], ans:"たとえば",
-     hint:"This connector introduces concrete instances that illustrate or support a general statement."},
-  {type:"match",pairs:[{trg:"発想(はっそう)",src:"idea / concept / way of thinking"}]}]
+     hint:"This connector introduces concrete instances that illustrate or support a general statement."}]
 };
 export default BATCH2_L_3;

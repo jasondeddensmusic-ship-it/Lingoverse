@@ -215,7 +215,7 @@ const UNIT_04 = {
         {trg:"lo zucchero", src:"the sugar"},
         {trg:"il latte", src:"the milk"},
         {trg:"il te", src:"the tea"}
-      ]},
+      ,{trg:"per favore",src:"please"}]},
 
       {type:"mc", q:"What happens if you order 'un latte' in Italy?",
        opts:["You get a cappuccino instead","You get the coffee-milk blend you expected","You get a glass of plain milk","The waiter does not understand you"],
@@ -232,7 +232,7 @@ const UNIT_04 = {
        opts:["At a set time","After the main course","Automatically after dessert","Only when you ask for it"],
        ans:"Only when you ask for it",
        hint:"Italian dining culture considers it rude to rush customers. You must take the initiative."}
-    ,{type:"match",pairs:[{trg:"per favore",src:"please"}]}]},
+    ]},
     EXP_04_L1, EXP_04_L2, EXP_04_L3,
 
     {id:"itv2_u4l_jobs_animals_sports", title:"Professioni, animali e sport", icon:"\u26bd", xp:15, board:true, steps:[

@@ -90,7 +90,7 @@ const BATCH7_L1 = {
       {trg:"株式(かぶしき)", src:"stocks"},
       {trg:"貿易(ぼうえき)", src:"trade"},
       {trg:"税金(ぜいきん)", src:"tax"}
-    ]},
+    ,{trg:"フリーランス",src:"freelancer"}]},
 
     {type:"fb", s:"最近(さいきん){1}が上(あ)がっていますね。特(とく)に食品(しょくひん)が。",
      a:["物価(ぶっか)"],
@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["スタートアップ","フリーランス","貿易(ぼうえき)","金融(きんゆう)"],
      hint:"New innovative companies are growing in Japan, especially in Shibuya.",
      sSrc:"{1} are increasing in Japan too. Shibuya is the center."}
-  ,{type:"match",pairs:[{trg:"フリーランス",src:"freelancer"}]}]
+  ]
 };
 export default BATCH7_L1;

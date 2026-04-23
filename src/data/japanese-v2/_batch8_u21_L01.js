@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: Are you using welfare services?\nB: Yes, I am receiving care services.\nA: That must have been tough.\nB: Yes, but it was a good learning experience.",
      funFact:"Japan's 福祉(ふくし) system includes 介護(かいご)保険(ほけん) (long-term care insurance), 障害者(しょうがいしゃ)福祉(ふくし) (disability welfare), and 児童(じどう)福祉(ふくし) (child welfare). The 介護(かいご)保険(ほけん) system, started in 2000, is used by millions of elderly. 福祉(ふくし) spending represents a growing portion of Japan's national budget."},
 
-    {type:"match", pairs:[{trg:"高齢化(こうれいか)",src:"aging society"},{trg:"少子化(しょうしか)",src:"declining birthrate"},{trg:"過労死(かろうし)",src:"death from overwork"},{trg:"引(ひ)きこもり",src:"social withdrawal"},{trg:"いじめ",src:"bullying"}],
+    {type:"match", pairs:[{trg:"高齢化(こうれいか)",src:"aging society"},{trg:"少子化(しょうしか)",src:"declining birthrate"},{trg:"過労死(かろうし)",src:"death from overwork"},{trg:"引(ひ)きこもり",src:"social withdrawal"},{trg:"いじめ",src:"bullying"},{trg:"福祉(ふくし)",src:"welfare / social services"}],
      hint:"Match each social issue term with its English meaning."},
 
     {type:"mc", q:"What is the 過労死(かろうし)ライン?", opts:["The legal work week","80 hours of monthly overtime as the danger threshold","The minimum wage","The retirement age"], ans:"80 hours of monthly overtime as the danger threshold",
@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What does 共生(きょうせい)社会(しゃかい) aim for?", opts:["A society with strict rules","A society without technology","A society where people of all backgrounds coexist harmoniously","A society focused only on economic growth"], ans:"A society where people of all backgrounds coexist harmoniously",
      hint:"This policy vision promotes inclusion of diverse p..., abilities, and cultures."}
-  ,{type:"match",pairs:[{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work-style reform"},{trg:"格差(かくさ)",src:"gap / disparity / inequality"},{trg:"ジェンダー",src:"gender"},{trg:"多様(たよう)",src:"diversity"},{trg:"ボランティア",src:"volunteer / volunteering"},{trg:"共生(きょうせい)社会(しゃかい)",src:"inclusive society / society of coexistence"}]},{type:"match",pairs:[{trg:"福祉(ふくし)",src:"welfare / social services"}]}]
+  ,{type:"match",pairs:[{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work-style reform"},{trg:"格差(かくさ)",src:"gap / disparity / inequality"},{trg:"ジェンダー",src:"gender"},{trg:"多様(たよう)",src:"diversity"},{trg:"ボランティア",src:"volunteer / volunteering"},{trg:"共生(きょうせい)社会(しゃかい)",src:"inclusive society / society of coexistence"}]}]
 };
 export default BATCH8_L1;

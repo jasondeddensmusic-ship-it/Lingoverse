@@ -167,7 +167,7 @@ const UNIT_17 = {
   {type:"mc", q:"財布(さいふ)を盗(ぬす)まれた means:", opts:["I stole a wallet","I had my wallet stolen","Someone found my wallet","I lost my wallet"], ans:"I had my wallet stolen",
    hint:"The passive of 盗(ぬす)む (steal) with 財布(さいふ)を shows the item was taken from the speaker."},
 
-  {type:"match", pairs:[{trg:"雨(あめ)に降(ふ)られる",src:"to get rained on"},{trg:"泣(な)かれる",src:"to have someone cry on you"},{trg:"騒(さわ)がれる",src:"to be disturbed by noise"},{trg:"盗(ぬす)まれる",src:"to have something stolen"}]},
+  {type:"match", pairs:[{trg:"雨(あめ)に降(ふ)られる",src:"to get rained on"},{trg:"泣(な)かれる",src:"to have someone cry on you"},{trg:"騒(さわ)がれる",src:"to be disturbed by noise"},{trg:"盗(ぬす)まれる",src:"to have something stolen"},{trg:"〜れる・〜られる",src:"passive suffix (is done / was done)"}]},
 
   {type:"fb", s:"発音(はつおん)を{1}て恥(は)ずかしかったです。\n(I was laughed at for my pronunciation and was embarrassed.)", a:"笑(わら)われ", opts:["笑(わら)われ","笑(わら)って","笑(わら)い","笑(わら)った"], sSrc:"I was laughed at for my pronunciation and was embarrassed.",
    hint:"The passive て-form of 笑(わら)う (to laugh). Group 1 passive: 笑(わら)う → 笑(わら)われる."},
@@ -187,9 +187,7 @@ const UNIT_17 = {
    a:["盗(ぬす)まれる"],
    opts:["盗(ぬす)まれる","盗(ぬす)む","踏(ふ)まれる","笑(わら)われる"],
    hint:"If your wallet is taken by a thief, you should go to the police right away. This passive verb means 'to have something stolen.'",
-   sSrc:"If you are {1}, please go to the police immediately."},
-
-{type:"match",pairs:[{trg:"〜れる・〜られる",src:"passive suffix (is done / was done)"}]}]},
+   sSrc:"If you are {1}, please go to the police immediately."}]},
 
 // ═══ L3: 連体修飾 (Relative Clauses) ═══
 {id:"jav2_u17l_rentai", title:"連体修飾(れんたいしゅうしょく)", icon:"🔗", xp:15, board:true, steps:[

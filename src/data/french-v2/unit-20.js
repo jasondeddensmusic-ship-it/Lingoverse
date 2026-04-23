@@ -226,10 +226,9 @@ export default {n:20,lang:"fr",srcLang:"en",track:"v2",title:"Voix Passive & Dis
         {type:"fb",opts:["loyer","prêt","impôt","contrat"],hint:"The monthly amount you pay to live in a rented place.",s:"Je paie un {1} de 900 euros par mois pour mon appartement.",a:["loyer"]},
         {type:"fb",opts:["prêt","impôt","reçu","loyer"],hint:"Money borrowed from a bank that you pay back over time.",s:"Elle a demandé un {1} à la banque pour acheter une voiture.",a:["prêt"]},
         {type:"mc",q:"What does 'les économies' mean?",opts:["the interest","the taxes","the savings","the receipts"],ans:"the savings",hint:"Money put aside for the future, not spent immediately."},
-        {type:"match",pairs:[{trg:"l'impôt",src:"the tax"},{trg:"la banque",src:"the bank"},{trg:"la loi",src:"the law"},{trg:"le reçu",src:"the receipt"},{trg:"l'assurance",src:"the insurance"}]},
+        {type:"match",pairs:[{trg:"l'impôt",src:"the tax"},{trg:"la banque",src:"the bank"},{trg:"la loi",src:"the law"},{trg:"le reçu",src:"the receipt"},{trg:"l'assurance",src:"the insurance"},{trg:"les intérêts",src:"the interest (financial)"}]},
         {type:"fb",opts:["impôts","intérêts","économies","amendes"],hint:"Annual payment to the government based on your income.",s:"Tu as fait ta déclaration d'{1} cette année ?",a:["impôts"]},
         {type:"drag_fill",hint:"After signing the agreement, you got proof of payment from the financial institution.",s:"J'ai signé le {1} et j'ai reçu le {2} de la {3}.",blanks:{"1":"contrat","2":"reçu","3":"banque"},pool:["contrat","reçu","banque","amende"]},
-        {type:"mc",q:"How do you say 'to save money' in French?",opts:["recevoir une amende","payer des impôts","signer un contrat","faire des économies"],ans:"faire des économies",hint:"An expression using the plural of the word for savings."},
-        {type:"match",pairs:[{trg:"les intérêts",src:"the interest (financial)"}]}
+        {type:"mc",q:"How do you say 'to save money' in French?",opts:["recevoir une amende","payer des impôts","signer un contrat","faire des économies"],ans:"faire des économies",hint:"An expression using the plural of the word for savings."}
   ]}
 ]};

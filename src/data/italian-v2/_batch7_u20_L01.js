@@ -97,7 +97,7 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  {trg:"la tesi", src:"thesis"},
  {trg:"la borsa di studio", src:"scholarship"},
  {trg:"bocciare", src:"to fail"}
-]},
+,{trg:"iscriversi",src:"to enroll / to register"}]},
 
 {type:"mc", q:"Quanti punti servono come minimo per passare un esame universitario?",
  opts:["15","18","10","25"],
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u20l_b7_1", title:"La vita universitaria", icon:"\u{
  {trg:"la dispensa", src:"course notes"},
  {trg:"la mensa", src:"cafeteria"}
 ]}
-,{type:"match",pairs:[{trg:"iscriversi",src:"to enroll / to register"}]},{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","la sessione d'esami"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
+,{type:"mc",q:"How do you say \"exam period\" in Italian?",opts:["la finestra","il tavolo","la bicicletta","la sessione d'esami"],ans:"la sessione d'esami",hint:"Recall the Italian vocabulary word taught in this lesson."}]};
 export default BATCH7_L1;

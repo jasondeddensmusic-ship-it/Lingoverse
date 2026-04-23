@@ -107,7 +107,7 @@ const BATCH4_U04_L1 = {
       {trg:"il biscotto", src:"cookie"},
       {trg:"la panna", src:"cream"},
       {trg:"la nocciola", src:"hazelnut"}
-    ]},
+    ,{trg:"squisito",src:"delicious / exquisite"}]},
 
     {type:"mc", q:"Qual e la capitale italiana del cioccolato?",
      opts:["Firenze","Torino","Roma","Napoli"],
@@ -133,6 +133,6 @@ const BATCH4_U04_L1 = {
      opts:["Sweet bread","Little bite","Round cake","Twice-cooked"],
      ans:"Twice-cooked",
      hint:"The prefix 'bis-' means t..., and 'cotto' means c...."}
-  ,{type:"match",pairs:[{trg:"il tiramisu",src:"the tiramisu"},{trg:"il cioccolato",src:"the chocolate"},{trg:"dolce",src:"sweet / dessert"},{trg:"amaro",src:"bitter"},{trg:"la fragola",src:"the strawberry"},{trg:"la pasticceria",src:"the pastry shop / bakery"}]},{type:"match",pairs:[{trg:"squisito",src:"delicious / exquisite"}]}]
+  ,{type:"match",pairs:[{trg:"il tiramisu",src:"the tiramisu"},{trg:"il cioccolato",src:"the chocolate"},{trg:"dolce",src:"sweet / dessert"},{trg:"amaro",src:"bitter"},{trg:"la fragola",src:"the strawberry"},{trg:"la pasticceria",src:"the pastry shop / bakery"}]}]
 };
 export default BATCH4_U04_L1;

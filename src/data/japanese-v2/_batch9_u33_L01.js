@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(criticism is important.)", a:"批評(ひひょう)", opts:["批評(ひひょう)","比喩(ひゆ)","著作権(ちょさくけん)","俳句(はいく)"], sSrc:"criticism is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"俳句(はいく)",src:"haiku"},{trg:"短歌(たんか)",src:"tanka"},{trg:"物語(ものがたり)",src:"tale or story"},{trg:"作家(さっか)",src:"author"}]},
+    {type:"match", pairs:[{trg:"俳句(はいく)",src:"haiku"},{trg:"短歌(たんか)",src:"tanka"},{trg:"物語(ものがたり)",src:"tale or story"},{trg:"作家(さっか)",src:"author"},{trg:"著作権(ちょさくけん)",src:"copyright"}]},
 
     {type:"mc", q:"Which word means literary style?", opts:["比喩(ひゆ)","文体(ぶんたい)","批評(ひひょう)","短歌(たんか)"], ans:"文体(ぶんたい)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"著作権(ちょさくけん)",src:"copyright"}]}]
+  ]
 };
 export default BATCH9_L1;

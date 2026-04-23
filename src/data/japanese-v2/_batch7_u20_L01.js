@@ -90,7 +90,7 @@ const BATCH7_L1 = {
       {trg:"手土産(てみやげ)", src:"gift when visiting"},
       {trg:"礼儀(れいぎ)", src:"manners"},
       {trg:"お詫(わ)び", src:"formal apology"}
-    ]},
+    ,{trg:"挨拶(あいさつ)回(まわ)り",src:"greeting rounds / courtesy visits"}]},
 
     {type:"fb", s:"いつも{1}になっております。",
      a:["お世話(おせわ)"],
@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["謙虚(けんきょ)","傲慢(ごうまん)","ふさわしい","珍(めずら)しい"],
      hint:"Even after success, a humble attitude is important. This na-adjective means 'modest.'",
      sSrc:"Even with success, a {1} attitude is important."}
-  ,{type:"match",pairs:[{trg:"挨拶(あいさつ)回(まわ)り",src:"greeting rounds / courtesy visits"}]}]
+  ]
 };
 export default BATCH7_L1;

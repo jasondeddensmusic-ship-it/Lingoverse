@@ -97,7 +97,7 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aper
  {trg:"il fiume", src:"river"},
  {trg:"la collina", src:"hill"},
  {trg:"l'isola", src:"island"}
-]},
+,{trg:"la cascata",src:"the waterfall"}]},
 
 {type:"mc", q:"Che cosa sono le Cinque Terre?",
  opts:["Five islands in Sicily","Five cliff villages in Liguria","Five lakes in Lombardy","Five mountains in Piedmont"],
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u10l_b7_1", title:"La natura e le attività all'aper
  {trg:"la scogliera", src:"cliff"},
  {trg:"il campeggio", src:"camping"}
 ]}
-,{type:"match",pairs:[{trg:"la cascata",src:"the waterfall"}]}]};
+]};
 export default BATCH7_L1;

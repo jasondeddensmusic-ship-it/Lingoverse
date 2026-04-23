@@ -72,7 +72,7 @@ const BATCH2_L_4 = {
     {type:"fb", s:"非正規(ひせいき)雇用者(こようしゃ)の{1}が全体(ぜんたい)の約(やく)四十(よんじゅう)パーセントです。\n(Non-regular workers make up about 40% of the total.)", a:"割合(わりあい)", opts:["割合(わりあい)","数(かず)","賃金(ちんぎん)","給料(きゅうりょう)"], sSrc:"Non-regular workers make up about 40% of the total.",
      hint:"The noun meaning 'proportion' or 'percentage,' a numerical share of the whole."},
 
-    {type:"match", pairs:[{trg:"雇用(こよう)",src:"employment"},{trg:"賃金(ちんぎん)",src:"wages"},{trg:"残業(ざんぎょう)",src:"overtime"},{trg:"転職(てんしょく)",src:"job change"}]},
+    {type:"match", pairs:[{trg:"雇用(こよう)",src:"employment"},{trg:"賃金(ちんぎん)",src:"wages"},{trg:"残業(ざんぎょう)",src:"overtime"},{trg:"転職(てんしょく)",src:"job change"},{trg:"給料(きゅうりょう)",src:"salary / pay"}]},
 
     {type:"fb", s:"この会社(かいしゃ)の{1}は充実(じゅうじつ)しています。\n(This company's employee benefits are comprehensive.)", a:"福利厚生(ふくりこうせい)", opts:["福利厚生(ふくりこうせい)","給料(きゅうりょう)","残業(ざんぎょう)","雇用(こよう)"], sSrc:"This company's employee benefits are comprehensive.",
      hint:"The four-kanji compound for the non-salary benefits a company provides to employees."},
@@ -80,7 +80,6 @@ const BATCH2_L_4 = {
     {type:"match", pairs:[{trg:"終身(しゅうしん)雇用(こよう)",src:"lifetime employment"},{trg:"非正規(ひせいき)",src:"non-regular"},{trg:"働(はたら)き方(かた)改革(かいかく)",src:"work style reform"},{trg:"福利厚生(ふくりこうせい)",src:"employee benefits"}]},
 
     {type:"mc", q:"過労死(かろうし) means:", opts:["Minimum wage","Career change","Death from overwork","Retirement age"], ans:"Death from overwork",
-     hint:"This Japanese term shocked the world and became a driving force behind labor reform laws."},
-  {type:"match",pairs:[{trg:"給料(きゅうりょう)",src:"salary / pay"}]}]
+     hint:"This Japanese term shocked the world and became a driving force behind labor reform laws."}]
 };
 export default BATCH2_L_4;

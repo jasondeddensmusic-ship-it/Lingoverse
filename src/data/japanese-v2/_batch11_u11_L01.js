@@ -89,7 +89,7 @@ const BATCH11_L1 = {
       {trg:"忘(わす)れる", src:"to forget"},
       {trg:"休(やす)む", src:"to rest"},
       {trg:"戻(もど)る", src:"to return"}
-    ]},
+    ,{trg:"使(つか)う",src:"to use"}]},
 
     {type:"mc", q:"「戻(もど)る」と「帰(かえ)る」はどう違(ちが)いますか？",
      opts:["戻(もど)る is for things, 帰(かえ)る is for people","戻(もど)る is temporary return, 帰(かえ)る is going home","They mean the same thing","戻(もど)る is polite, 帰(かえ)る is casual"],
@@ -116,6 +116,6 @@ const BATCH11_L1 = {
     opts:["出(で)かける","戻(もど)る","休(やす)む","着替(きが)える"],
     hint:"You are going somewhere tomorrow with a friend. This verb means 'to go out' or 'to head out.'",
     sSrc:"Where will you {1} tomorrow? I am going to see a movie with a friend."}
-  ,{type:"match",pairs:[{trg:"洗(あら)う",src:"to wash"},{trg:"着替(きが)える",src:"to change clothes"},{trg:"掃除(そうじ)する",src:"to clean"},{trg:"洗濯(せんたく)する",src:"to do laundry"},{trg:"片付(かたづ)ける",src:"to tidy up / organize"},{trg:"出(で)かける",src:"to go out"}]},{type:"match",pairs:[{trg:"使(つか)う",src:"to use"}]}]
+  ,{type:"match",pairs:[{trg:"洗(あら)う",src:"to wash"},{trg:"着替(きが)える",src:"to change clothes"},{trg:"掃除(そうじ)する",src:"to clean"},{trg:"洗濯(せんたく)する",src:"to do laundry"},{trg:"片付(かたづ)ける",src:"to tidy up / organize"},{trg:"出(で)かける",src:"to go out"}]}]
 };
 export default BATCH11_L1;

@@ -74,7 +74,7 @@ const BATCH2_L_2 = {
      deepDive:{title:"Emotional Responsibility in Japanese",
       text:"Japanese culture emphasizes emotional responsibility. If you make someone cry, worry, or get angry, you bear responsibility for their emotional state.\n\nThe causative makes this explicit: I CAUSED their emotion.\n泣(な)かせた = I made them cry (my fault).\n心配(しんぱい)させた = I caused their worry (my responsibility).\n\nThis differs from English, where you might say 'they cried' without implying responsibility. In Japanese, using the causative acknowledges your role in causing the emotion, which is the first step toward apology and repair."}},
 
-    {type:"match", pairs:[{trg:"笑(わら)わせる",src:"make laugh"},{trg:"泣(な)かせる",src:"make cry"},{trg:"心配(しんぱい)させる",src:"make worry"},{trg:"驚(おどろ)かせる",src:"surprise"}]},
+    {type:"match", pairs:[{trg:"笑(わら)わせる",src:"make laugh"},{trg:"泣(な)かせる",src:"make cry"},{trg:"心配(しんぱい)させる",src:"make worry"},{trg:"驚(おどろ)かせる",src:"surprise"},{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]},
 
     {type:"fb", s:"お母(かあ)さんを{1}たいです。\n(I want to make my mother happy.)", a:"喜(よろこ)ばせ", opts:["喜(よろこ)ばせ","喜(よろこ)んで","喜(よろこ)び","喜(よろこ)ばれ"], sSrc:"I want to make my mother happy.",
      hint:"The causative of 喜(よろこ)ぶ (to be pleased). Group 1: あ-row + せる."},
@@ -83,7 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"泣(な)かせる vs 泣(な)かれる: what is the difference?", opts:["泣(な)かせる is past; 泣(な)かれる is present","They mean the same thing","泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)","泣(な)かせる is polite; 泣(な)かれる is casual"], ans:"泣(な)かせる = make cry (causative); 泣(な)かれる = be bothered by crying (adversity passive)",
      hint:"One form is c... (you cause the action); the other is a... p... (you suffer from the action)."},
-  {type:"match",pairs:[{trg:"泣(な)きそう",src:"about to cry / on the verge of tears"}]},
   {type:"fb", s:"映画(えいが)のラストシーンが観客(かんきゃく)を{1}ました。", a:["泣(な)かせる"], opts:["泣(な)かせる","笑(わら)わせる","驚(おどろ)かせる","困(こま)らせる"], hint:"The causative verb for provoking tears in someone.", sSrc:"The final scene of the film {1} the audience."}
 ]
 };

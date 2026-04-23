@@ -163,7 +163,7 @@ const UNIT_16 = {
   {type:"mc", q:"頑張(がんば)って means:", opts:["good luck","do your best","thank you","I am sorry"], ans:"do your best",
    hint:"The most common encouragement phrase in Japanese, said before challenges."},
 
-  {type:"match", pairs:[{trg:"ために",src:"in order to"},{trg:"夢(ゆめ)",src:"dream"},{trg:"将来(しょうらい)",src:"future"},{trg:"になる",src:"to become"}]},
+  {type:"match", pairs:[{trg:"ために",src:"in order to"},{trg:"夢(ゆめ)",src:"dream"},{trg:"将来(しょうらい)",src:"future"},{trg:"になる",src:"to become"},{trg:"必要(ひつよう)",src:"necessary / needed"}]},
 
   {type:"match", pairs:[{trg:"頑張(がんば)る",src:"do one's best"},{trg:"練習(れんしゅう)する",src:"to practice"},{trg:"試験(しけん)",src:"exam"},{trg:"卒業(そつぎょう)する",src:"to graduate"}]},
 
@@ -176,8 +176,7 @@ const UNIT_16 = {
   {type:"tip", title:"Talking About Your Future",
    text:"Intention: dictionary form + つもり\n日本(にほん)に行(い)くつもりです。(I intend to go to Japan.)\n\nPlan: 予定(よてい) + がある / dictionary form + 予定(よてい)です\n明日(あした)予定(よてい)があります。(I have plans tomorrow.)\n\nDesire: verb stem + たい / noun + がほしい\n行(い)きたいです。(I want to go.)\n車(くるま)がほしい。(I want a car.)\n\nPurpose: dictionary form + ために\n勉強(べんきょう)するために図書館(としょかん)に行(い)く。(I go to the library in order to study.)",
    deepDive:{title:"つもり vs 予定(よてい) vs たい",
-    text:"These three overlap but have different nuances:\n\nつもり = personal intention. You have decided.\n予定(よてい) = concrete plan/schedule. Often involves others or dates.\nたい = desire/wish. You want to, but may not have decided.\n\nExample: 日本(にほん)に行(い)きたい (I want to go to Japan) shows desire.\n日本(にほん)に行(い)くつもり (I intend to go to Japan) shows decision.\n日本(にほん)に行(い)く予定(よてい) (I have plans to go to Japan) shows scheduling.\n\nUsing the right one shows your level of commitment and makes your Japanese more precise."}},
-{type:"match",pairs:[{trg:"必要(ひつよう)",src:"necessary / needed"}]}]},BATCH2_L1
+    text:"These three overlap but have different nuances:\n\nつもり = personal intention. You have decided.\n予定(よてい) = concrete plan/schedule. Often involves others or dates.\nたい = desire/wish. You want to, but may not have decided.\n\nExample: 日本(にほん)に行(い)きたい (I want to go to Japan) shows desire.\n日本(にほん)に行(い)くつもり (I intend to go to Japan) shows decision.\n日本(にほん)に行(い)く予定(よてい) (I have plans to go to Japan) shows scheduling.\n\nUsing the right one shows your level of commitment and makes your Japanese more precise."}}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

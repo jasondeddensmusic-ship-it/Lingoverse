@@ -4,7 +4,6 @@ const COVERAGE_U12 = {
   id:"jav2_u12_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"おどれる",src:"can dance"}]},
     {type:"fb",s:"{1}",a:["おどれる"],opts:["おどれる"],hint:"Type the target-language form. Meaning shown below.",sSrc:"can dance"},
     {type:"fb",s:"{1}",a:["できる"],opts:["おどれる","できる"],hint:"Type the target-language form. Meaning shown below.",sSrc:"can do / to be possible"},
     {type:"fb",s:"{1}",a:["食(た)べられる"],opts:["食(た)べられる","おどれる"],hint:"Type the target-language form. Meaning shown below.",sSrc:"can eat"},

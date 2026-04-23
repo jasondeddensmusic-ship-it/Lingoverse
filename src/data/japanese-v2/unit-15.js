@@ -162,7 +162,7 @@ const UNIT_15 = {
   {type:"mc", q:"音楽(おんがく)を聞(き)きながら勉強(べんきょう)する means:", opts:["Study then listen to music","Study while listening to music","Study before listening to music","Study instead of listening to music"], ans:"Study while listening to music",
    hint:"ながら connects two actions happening at the same time."},
 
-  {type:"match", pairs:[{trg:"前(まえ)に",src:"before"},{trg:"後(あと)で",src:"after"},{trg:"ながら",src:"while"},{trg:"歩(ある)く",src:"to walk"}]},
+  {type:"match", pairs:[{trg:"前(まえ)に",src:"before"},{trg:"後(あと)で",src:"after"},{trg:"ながら",src:"while"},{trg:"歩(ある)く",src:"to walk"},{trg:"信号(しんごう)",src:"traffic light"}]},
 
   {type:"match", pairs:[{trg:"歯(は)を磨(みが)く",src:"brush teeth"},{trg:"シャワーを浴(あ)びる",src:"take a shower"},{trg:"出(で)かける",src:"go out"},{trg:"着(つ)く",src:"to arrive"}]},
 
@@ -176,7 +176,6 @@ const UNIT_15 = {
    text:"Before: dictionary form + 前(まえ)に\n寝(ね)る前(まえ)に (before sleeping)\n食(た)べる前(まえ)に (before eating)\n\nAfter: た-form + 後(あと)で\n寝(ね)た後(あと)で (after sleeping)\n食(た)べた後(あと)で (after eating)\n\nWhile: verb stem + ながら\n食(た)べながら (while eating)\n歩(ある)きながら (while walking)\n\nThe main action goes at the end of the sentence.",
    deepDive:{title:"ながら nuance",
     text:"ながら implies the second verb is the main action:\nテレビを見(み)ながら食(た)べる = Eat while watching TV (eating is main)\n食(た)べながらテレビを見(み)る = Watch TV while eating (watching is main)\n\nながら can sometimes express contrast, similar to 'although':\n知(し)っていながら言(い)わない = Although knowing, not say it.\nThis usage is more advanced and literary, but good to recognize."}},
-{type:"match",pairs:[{trg:"信号(しんごう)",src:"traffic light"}]},
   {type:"fb", s:"次(つぎ)の{1}で止(と)まってください。\n(Please stop at the next traffic light.)", a:"信号(しんごう)", opts:["信号(しんごう)","切符(きっぷ)","右(みぎ)","左(ひだり)"], sSrc:"Please stop at the next traffic light.",
    hint:"The device on a pole that shows red, yellow, and green."}]},BATCH2_L1
 ,BATCH4_L01

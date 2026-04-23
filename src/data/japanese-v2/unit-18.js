@@ -166,7 +166,7 @@ const UNIT_18 = {
   {type:"mc", q:"飲(の)まされた means:", opts:["I drank by choice","I was made to drink","I let someone drink","Someone drank for me"], ans:"I was made to drink",
    hint:"The short causative-passive form always implies being forced to do the action."},
 
-  {type:"match", pairs:[{trg:"食(た)べさせられる",src:"be made to eat"},{trg:"待(ま)たされる",src:"be made to wait"},{trg:"飲(の)まされる",src:"be made to drink"},{trg:"買(か)わされる",src:"be made to buy"}]},
+  {type:"match", pairs:[{trg:"食(た)べさせられる",src:"be made to eat"},{trg:"待(ま)たされる",src:"be made to wait"},{trg:"飲(の)まされる",src:"be made to drink"},{trg:"買(か)わされる",src:"be made to buy"},{trg:"待(ま)つ",src:"to wait"}]},
 
   {type:"fb", s:"つまらない仕事(しごと)を{1}います。\n(I am being made to do boring work.)", a:"やらされて", opts:["やらされて","やって","やらせて","やられて"], sSrc:"I am being made to do boring work.",
    hint:"The short causative-passive て-form of やる (to do). Expresses being forced."},
@@ -186,9 +186,7 @@ const UNIT_18 = {
    a:["残業(ざんぎょう)"],
    opts:["残業(ざんぎょう)","休憩(きゅうけい)","仕事(しごと)","勤務(きんむ)"],
    hint:"You stayed at work beyond normal hours again and are exhausted. This noun refers to extra hours worked past the scheduled end of the workday.",
-   sSrc:"There was {1} again today and I am tired. I want to go home soon."},
-
-{type:"match",pairs:[{trg:"待(ま)つ",src:"to wait"}]}]},EXP_L3,EXP_L4,EXP_L5
+   sSrc:"There was {1} again today and I am tired. I want to go home soon."}]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01

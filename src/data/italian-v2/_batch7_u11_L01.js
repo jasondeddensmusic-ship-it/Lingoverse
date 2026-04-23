@@ -97,7 +97,7 @@ const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9
  {trg:"la bambola", src:"doll"},
  {trg:"l'altalena", src:"swing"},
  {trg:"lo scivolo", src:"slide"}
-]},
+,{trg:"la vacanza estiva",src:"summer holiday"}]},
 
 {type:"mc", q:"Che cos'e la merenda in Italia?",
  opts:["A birthday party","An afternoon snack around 4 PM","A type of pasta","A school exam"],
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u11l_b7_1", title:"Ricordi d'infanzia", icon:"\u{1F9
  {trg:"il ricordo", src:"memory"},
  {trg:"la merenda", src:"snack"}
 ]}
-,{type:"match",pairs:[{trg:"la vacanza estiva",src:"summer holiday"}]}]};
+]};
 export default BATCH7_L1;

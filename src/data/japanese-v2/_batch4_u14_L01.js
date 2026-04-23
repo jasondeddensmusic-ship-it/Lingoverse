@@ -104,7 +104,7 @@ const BATCH4_L_1 = {
       {trg:"反対(はんたい)", src:"oppose"},
       {trg:"多分(たぶん)", src:"probably"},
       {trg:"絶対(ぜったい)", src:"absolutely"}
-    ]},
+    ,{trg:"実(じつ)は",src:"actually / to tell the truth"}]},
 
     {type:"mc", q:"実(じつ)は is used to:",
      opts:["disagree","reveal hidden information","give an example","summarize"], ans:"reveal hidden information",
@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"Which adverb expresses the highest certainty?",
      opts:["多分(たぶん)","もしかして","たいてい","必(かなら)ず"], ans:"必(かなら)ず",
      hint:"An absolute guarantee with no room for doubt."}
-  ,{type:"match",pairs:[{trg:"意味(いみ)",src:"meaning / sense"},{trg:"説明(せつめい)する",src:"to explain"},{trg:"例(たと)えば",src:"for example"},{trg:"結局(けっきょく)",src:"in the end / after all"},{trg:"つまり",src:"in other words / that is to say"},{trg:"もちろん",src:"of course / naturally"}]},{type:"match",pairs:[{trg:"実(じつ)は",src:"actually / to tell the truth"}]}]
+  ,{type:"match",pairs:[{trg:"意味(いみ)",src:"meaning / sense"},{trg:"説明(せつめい)する",src:"to explain"},{trg:"例(たと)えば",src:"for example"},{trg:"結局(けっきょく)",src:"in the end / after all"},{trg:"つまり",src:"in other words / that is to say"},{trg:"もちろん",src:"of course / naturally"}]}]
 };
 export default BATCH4_L_1;

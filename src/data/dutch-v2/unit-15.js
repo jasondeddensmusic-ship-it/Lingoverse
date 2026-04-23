@@ -154,7 +154,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"drag_fill",hint:"Lifelong learning is important. I take a Dutch course.",s:"{1} leren is belangrijk. Ik volg een {2} Nederlands.",blanks:{"1":"Levenslang","2":"cursus"},pool:["Levenslang","cursus","Basisschool","diploma"]},
         {type:"mc",q:"HBO is more practical, WO is more theoretical. HBO stands for:",opts:["Hoofd Bureau Onderwijs","Hoog Basis Onderwijs","Heel Belangrijk Onderwijs","Hoger Beroepsonderwijs"],ans:"Hoger Beroepsonderwijs",hint:"Higher professional/vocational education"},
         {type:"fb",opts:["belangrijk","moeilijk","leuk","groot"],hint:"The difference is IMPORTANT",s:"Het verschil tussen HBO en WO is ___. (important)",a:"belangrijk"},
-        {type:"match",pairs:[{trg:"een cursus volgen",src:"to take a course"},{trg:"bijscholing",src:"further training"},{trg:"het opleidingsbudget",src:"training budget"},{trg:"levenslang leren",src:"lifelong learning"}]},
+        {type:"match",pairs:[{trg:"een cursus volgen",src:"to take a course"},{trg:"bijscholing",src:"further training"},{trg:"het opleidingsbudget",src:"training budget"},{trg:"levenslang leren",src:"lifelong learning"},{trg:"slagen",src:"to pass (an exam) / succeed"}]},
         {type:"drag_fill",hint:"Both offer a bachelor and a master degree.",s:"Beide geven een {1} en een {2}.",blanks:{"1":"bachelor","2":"master"},pool:["bachelor","master","diploma","cursus"]},
         {type:"mc",q:"'Een cursus volgen' means:",opts:["To take/follow a course","To drop a course","To teach a course","To fail a course"],ans:"To take/follow a course",hint:"Volgen = to f..., here: to t..."},
         {type:"fb",opts:["Levenslang","Bijscholing","Basisschool","Cursus"],hint:"LIFELONG learning",s:"___ leren is belangrijk in Nederland. (lifelong)",a:"Levenslang"},
@@ -179,5 +179,5 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
         {type:"tr",mk:"v2u15_in_order_to_learn",dir:"produce"},
         {type:"tr",mk:"v2u15_trying_to_understand",dir:"produce"},
         {type:"tr",mk:"v2u15_lets_go",dir:"produce"}
-  ,{type:"match",pairs:[{trg:"slagen",src:"to pass (an exam) / succeed"}]},{type:"mc",q:"Which Dutch phrase expresses 'must be made'?",opts:["moet worden gemaakt","is worden gemaakt","moet gemaakt worden","heeft worden gemaakt"],ans:"moet worden gemaakt",hint:"Modal + passive auxiliary + past participle"}]}
+  ,{type:"mc",q:"Which Dutch phrase expresses 'must be made'?",opts:["moet worden gemaakt","is worden gemaakt","moet gemaakt worden","heeft worden gemaakt"],ans:"moet worden gemaakt",hint:"Modal + passive auxiliary + past participle"}]}
 ]};

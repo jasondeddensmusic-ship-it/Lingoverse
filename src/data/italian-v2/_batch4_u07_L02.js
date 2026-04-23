@@ -113,7 +113,7 @@ const BATCH4_U07_L2 = {
       {trg:"allergico", src:"allergic"},
       {trg:"intollerante", src:"intolerant"},
       {trg:"biologico", src:"organic"}
-    ]},
+    ,{trg:"digerire",src:"to digest"}]},
 
     {type:"mc", q:"Perche l'Italia ha molte opzioni senza glutine?",
      opts:["Restaurants are required to remove gluten","Italy screens all children for celiac disease","Gluten-free is a trend","Italian wheat has no gluten"],
@@ -139,6 +139,6 @@ const BATCH4_U07_L2 = {
      opts:["A very strong coffee","A coffee-flavored cake","A coffee substitute","A digestif liqueur after coffee"],
      ans:"A digestif liqueur after coffee",
      hint:"Literally 'c... killer,' this drink aids digestion a... a heavy meal."}
-  ,{type:"match",pairs:[{trg:"il glutine",src:"gluten"},{trg:"il lattosio",src:"lactose"},{trg:"le arachidi",src:"peanuts"},{trg:"il grano",src:"wheat / grain"},{trg:"contenere",src:"to contain"},{trg:"fresco",src:"fresh"}]},{type:"match",pairs:[{trg:"digerire",src:"to digest"}]},{type:"mc",q:"How do you say \"allergy\" in Italian?",opts:["l'allergia","la finestra","il tavolo","la bicicletta"],ans:"l'allergia",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il glutine",src:"gluten"},{trg:"il lattosio",src:"lactose"},{trg:"le arachidi",src:"peanuts"},{trg:"il grano",src:"wheat / grain"},{trg:"contenere",src:"to contain"},{trg:"fresco",src:"fresh"}]},{type:"mc",q:"How do you say \"allergy\" in Italian?",opts:["l'allergia","la finestra","il tavolo","la bicicletta"],ans:"l'allergia",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH4_U07_L2;

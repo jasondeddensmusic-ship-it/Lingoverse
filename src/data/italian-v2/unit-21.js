@@ -299,7 +299,7 @@ const UNIT_21 = {
         {trg:"dovresti", src:"you should"},
         {trg:"consiglierei", src:"I would recommend"},
         {trg:"sarebbe meglio", src:"it would be better"}
-      ]},
+      ,{trg:"desidererei",src:"I would wish / I would desire"}]},
 
       {type:"mc", q:"What does the conditional mean in Italian journalism?",
        opts:["A polite request from the journalist","Unconfirmed or allegedly true information","A hypothetical future event","The journalist's personal wish"],
@@ -327,7 +327,7 @@ const UNIT_21 = {
        opts:["Bisogna + an infinitive verb form","Secondo me + an indicative verb form","Penso che + a subjunctive verb form","Al posto tuo + conditional verb"],
        ans:"Al posto tuo + conditional verb",
        hint:"'If I were in your situation...' introduces advice diplomatically. The structure uses a position expression followed by a hypothetical mood."}
-    ,{type:"match",pairs:[{trg:"desidererei",src:"I would wish / I would desire"}]}]}
+    ]}
   ,
   BATCH8_L1,
   BATCH7_L1,

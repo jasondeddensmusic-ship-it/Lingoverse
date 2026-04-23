@@ -103,7 +103,7 @@ const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{
  {trg:"il cavallo", src:"horse"},
  {trg:"la mucca", src:"cow"},
  {trg:"la pecora", src:"sheep"}
-]},
+,{trg:"la zampa",src:"the paw"}]},
 
 {type:"mc", q:"Che cos'e il Palio di Siena?",
  opts:["A sheep market","A horse race","A dog show","A cat festival"],
@@ -131,5 +131,5 @@ const BATCH7_L1 = {id:"itv2_u03l_b7_1", title:"Gli animali domestici", icon:"\u{
  {trg:"la gallina", src:"hen"},
  {trg:"il coniglio", src:"rabbit"}
 ]}
-,{type:"match",pairs:[{trg:"la zampa",src:"the paw"}]}]};
+]};
 export default BATCH7_L1;

@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(economic recovery is important.)", a:"景気後退(けいきこうたい)", opts:["景気後退(けいきこうたい)","不況(ふきょう)","GDP","インフレ"], sSrc:"economic recovery is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"インフレ",src:"inflation"},{trg:"デフレ",src:"deflation"},{trg:"円高(えんだか)",src:"strong yen"},{trg:"円安(えんやす)",src:"weak yen"}]},
+    {type:"match", pairs:[{trg:"インフレ",src:"inflation"},{trg:"デフレ",src:"deflation"},{trg:"円高(えんだか)",src:"strong yen"},{trg:"円安(えんやす)",src:"weak yen"},{trg:"GDP",src:"gross domestic product"}]},
 
     {type:"mc", q:"Which word means employment rate?", opts:["不況(ふきょう)","雇用率(こようりつ)","景気後退(けいきこうたい)","デフレ"], ans:"雇用率(こようりつ)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"GDP",src:"gross domestic product"}]}]
+  ]
 };
 export default BATCH9_L1;

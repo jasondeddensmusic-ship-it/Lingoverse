@@ -299,7 +299,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  {trg:"faço", src:"I do"},
  {trg:"trabalham", src:"they work"},
  {trg:"fazemos", src:"we do"}
-]},
+,{trg:"trabalhar", src:"to work"}]},
 
 {type:"mc", q:"Which answer correctly responds to 'O que você faz?'",
  opts:["Tenho professor","Estou professor","Faço professor","Sou professor"],
@@ -311,11 +311,7 @@ const UNIT_10 = {n:10, lang:"pt", srcLang:"en", track:"v2", title:"Que trabalho 
  opts:["trabalham","trabalhamos","trabalho","faz"],
  hint:"Third-person plural of trabalhar with 'eles'.",
  sSrc:"They {1} at a technology company."}
-,
-
-{type:"match", pairs:[
-  {trg:"trabalhar", src:"to work"}
-]}]},
+]},
 
 {id:"ptv2_u10l4_a2v", title:"Verbos A2 essenciais", icon:"📝", xp:15, board:true, steps:[
 {type:"intro", title:"Essential A2 Verbs",

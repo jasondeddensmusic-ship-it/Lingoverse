@@ -78,8 +78,8 @@ const UNIT_34 = {n:34, lang:"ru", srcLang:"en", track:"v2", title:"Геогра�
   {trg:"Петербург", src:"Petersburg"},
   {trg:"Сибирь", src:"Siberia"},
   {trg:"Урал", src:"Urals"}
+,{trg:"граница",src:"border"}]}
 ]}
-,{type:"match",pairs:[{trg:"граница",src:"border"}]}]}
 
 ]};
 export default UNIT_34;

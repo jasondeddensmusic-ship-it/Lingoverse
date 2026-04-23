@@ -206,7 +206,7 @@ const UNIT_05 = {
   {type:"fb", s:"水(みず)を{1}ます。\n(I drink water.)", a:"飲(の)み", opts:["飲(の)み","食(た)べ","好(す)き","嫌(きら)い"], sSrc:"I drink water.",
    hint:"The polite stem of the verb meaning 'to drink.'"},
 
-  {type:"match", pairs:[{trg:"おいしい",src:"delicious"},{trg:"まずい",src:"bad-tasting"},{trg:"好(す)き",src:"like"},{trg:"嫌(きら)い",src:"dislike"}]},
+  {type:"match", pairs:[{trg:"おいしい",src:"delicious"},{trg:"まずい",src:"bad-tasting"},{trg:"好(す)き",src:"like"},{trg:"嫌(きら)い",src:"dislike"},{trg:"ジュース",src:"juice"}]},
 
   {type:"match", pairs:[{trg:"食(た)べる",src:"to eat"},{trg:"飲(の)む",src:"to drink"},{trg:"お腹(なか)が空(す)いた",src:"I am hungry"},{trg:"喉(のど)が渇(かわ)いた",src:"I am thirsty"}]},
 
@@ -214,8 +214,7 @@ const UNIT_05 = {
    hint:"Nomu (the consuming-liquid verb) + mono (thing) = ?"},
 
   {type:"fb", s:"{1}が空(す)いた!\n(I am hungry!)", a:"お腹(なか)", opts:["お腹(なか)","喉(のど)","頭(あたま)","手(て)"], sSrc:"I am hungry!",
-   hint:"The body part that empties when you need to eat."},
-{type:"match",pairs:[{trg:"ジュース",src:"juice"}]}]},BATCH3_L1
+   hint:"The body part that empties when you need to eat."}]},BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

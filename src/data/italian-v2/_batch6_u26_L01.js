@@ -103,7 +103,7 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
  {trg:"abrogare", src:"to repeal"},
  {trg:"ratificare", src:"to ratify"},
  {trg:"il decreto", src:"decree"}
-]},
+,{trg:"la giurisprudenza",src:"the jurisprudence / case law"}]},
 
 {type:"mc", q:"Cos'e un 'referendum abrogativo'?",
  opts:["A constitutional amendment","A popular vote to repeal an existing law","A vote to approve a new law","A local election"],
@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u26l_b6_1", title:"I diritti civili", icon:"\u{1F4DC
  {trg:"l'immunita", src:"immunity"},
  {trg:"la normativa", src:"regulation"}
 ]}
-,{type:"match",pairs:[{trg:"la giurisprudenza",src:"the jurisprudence / case law"}]}]};
+]};
 export default BATCH6_L1;

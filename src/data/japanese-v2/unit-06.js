@@ -190,7 +190,7 @@ const UNIT_06 = {
   {type:"fb", s:"兄弟(きょうだい)が{1}か?\n(Do you have siblings?)", a:"います", opts:["います","あります","です","ます"], sSrc:"Do you have siblings?",
    hint:"The existence verb for living things like people."},
 
-  {type:"match", pairs:[{trg:"一人(ひとり)",src:"one person"},{trg:"二人(ふたり)",src:"two people"},{trg:"三人(さんにん)",src:"three people"},{trg:"四人(よにん)",src:"four people"}]},
+  {type:"match", pairs:[{trg:"一人(ひとり)",src:"one person"},{trg:"二人(ふたり)",src:"two people"},{trg:"三人(さんにん)",src:"three people"},{trg:"四人(よにん)",src:"four people"},{trg:"お兄(にい)さん",src:"older brother (someone else's)"}]},
 
   {type:"match", pairs:[{trg:"家族(かぞく)",src:"family"},{trg:"兄弟(きょうだい)",src:"siblings"},{trg:"おじいさん",src:"grandfather"},{trg:"おばあさん",src:"grandmother"}]},
 
@@ -204,8 +204,7 @@ const UNIT_06 = {
    hint:"The word with long aa vowel, using the honorific o- prefix."},
 
   {type:"mc", q:"おじいさん means:", opts:["grandfather","uncle","father","older brother"], ans:"grandfather",
-   hint:"The honorific form with a long vowel, for someone's elderly male relative."},
-{type:"match",pairs:[{trg:"お兄(にい)さん",src:"older brother (someone else's)"}]}]},BATCH2_L1
+   hint:"The honorific form with a long vowel, for someone's elderly male relative."}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

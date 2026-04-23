@@ -86,7 +86,7 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  {trg:"il vizio", src:"vice"},
  {trg:"l'onesta", src:"honesty"},
  {trg:"la dignita", src:"dignity"}
-]},
+,{trg:"condannare",src:"to condemn / to sentence"}]},
 {type:"mc", q:"Cosa dice l'articolo 2 della Costituzione italiana sulla solidarieta?",
  opts:["It was added recently","It is a fundamental duty of every citizen","It is optional","It applies only to the state"],
  ans:"It is a fundamental duty of every citizen",
@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u33l_b6_1", title:"L'etica e la morale", icon:"\u{26
  {trg:"la solidarieta", src:"solidarity"},
  {trg:"il compromesso", src:"compromise"}
 ]}
-,{type:"match",pairs:[{trg:"condannare",src:"to condemn / to sentence"}]}]};
+]};
 export default BATCH6_L1;

@@ -84,7 +84,7 @@ const BATCH7_L1 = {
       {trg:"自由(じゆう)", src:"freedom"},
       {trg:"平等(びょうどう)", src:"equality"},
       {trg:"個性(こせい)", src:"individuality"}
-    ]},
+    ,{trg:"創造力(そうぞうりょく)",src:"creativity / imagination"}]},
 
     {type:"fb", s:"{1}を言(い)うと、少(すこ)し不安(ふあん)です。",
      a:["本音(ほんね)"],
@@ -121,6 +121,6 @@ const BATCH7_L1 = {
      opts:["知恵(ちえ)","空気(くうき)","本音(ほんね)","責任(せきにん)"],
      hint:"Let us all think hard together. This noun means 'wisdom' gained through experience.",
      sSrc:"Let us all squeeze out our {1}. Good ideas might emerge."}
-  ,{type:"match",pairs:[{trg:"創造力(そうぞうりょく)",src:"creativity / imagination"}]}]
+  ]
 };
 export default BATCH7_L1;

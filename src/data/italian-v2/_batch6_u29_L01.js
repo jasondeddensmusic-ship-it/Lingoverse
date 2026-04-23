@@ -86,7 +86,7 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
  {trg:"la percezione", src:"perception"},
  {trg:"il ragionamento", src:"reasoning"},
  {trg:"l'empatia", src:"empathy"}
-]},
+,{trg:"la convinzione",src:"the conviction / belief"}]},
 {type:"mc", q:"Perche la malattia 'influenza' si chiama così?",
  opts:["Named after a famous patient","Medieval belief that epidemics were caused by stellar influence","Named after an Italian doctor","From a Latin word for sneezing"],
  ans:"Medieval belief that epidemics were caused by stellar influence",
@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
  {trg:"la nostalgia", src:"nostalgia"},
  {trg:"il paradosso", src:"paradox"}
 ]}
-,{type:"match",pairs:[{trg:"la convinzione",src:"the conviction / belief"}]}]};
+]};
 export default BATCH6_L1;

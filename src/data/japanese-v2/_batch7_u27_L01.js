@@ -90,7 +90,7 @@ const BATCH7_L1 = {
       {trg:"生態系(せいたいけい)", src:"ecosystem"},
       {trg:"汚染(おせん)", src:"pollution"},
       {trg:"保全(ほぜん)", src:"conservation"}
-    ]},
+    ,{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]},
 
     {type:"fb", s:"日本(にほん)は{1}が少(すく)ない国(くに)です。だからリサイクルが大事(だいじ)です。",
      a:["資源(しげん)"],
@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["処理(しょり)","保全(ほぜん)","排出(はいしゅつ)","汚染(おせん)"],
      hint:"Processing and disposing of plastic waste remains a challenge. This noun means 'processing.'",
      sSrc:"Plastic waste {1} is a challenge."}
-  ,{type:"match",pairs:[{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]}]
+  ]
 };
 export default BATCH7_L1;

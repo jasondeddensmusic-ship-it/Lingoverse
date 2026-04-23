@@ -157,7 +157,7 @@ export default {n:17,lang:"nl",srcLang:"en",track:"v2",title:"Een Nieuw Huis",su
         {type:"tip",title:"Documenten Aanvragen: Practical Guide",text:"You ALWAYS need an appointment ('afspraak') at the gemeente.\nMake it via the gemeente website using your DigiD.\n\nWhen renewing a passport ('paspoort vernieuwen'):\n1. Make an appointment online\n2. Bring your old (verlopen) passport\n3. Bring a recent photo\n4. Pay at the balie\n5. Collect it after 5 working days\n\nUseful phrases at de balie:\n'Ik wil een afspraak maken.' = I'd like to make an appointment.\n'Mijn paspoort is verlopen.' = My passport has expired.\n'Is dit formulier geldig?' = Is this form valid?\n'Wat moet ik meenemen?' = What do I need to bring?",deepDive:"DigiD uses a 6-digit SMS code (sms-check) or the DigiD app. You need a valid DigiD for: tax returns (belastingaangifte), government benefits (toeslagen), health insurance portal (mijn zorgverzekering), and passport applications. Renew your DigiD every 3 years at mijn.digid.nl."},
         {type:"mc",q:"You need to apply for a DigiD. Which verb do you use?",opts:["aanvragen","invullen","vernieuwen","verlopen"],ans:"aanvragen",hint:"To apply FOR something: ___ + vragen"},
         {type:"fb",opts:["verlopen","geldig","aanvragen","vernieuwen"],hint:"This document is no longer valid: it has ...",s:"Mijn paspoort is ___.",a:"verlopen"},
-        {type:"match",pairs:[{trg:"aanvragen",src:"to apply for"},{trg:"verlopen",src:"to expire"},{trg:"geldig",src:"valid"},{trg:"vernieuwen",src:"to renew"}]},
+        {type:"match",pairs:[{trg:"aanvragen",src:"to apply for"},{trg:"verlopen",src:"to expire"},{trg:"geldig",src:"valid"},{trg:"vernieuwen",src:"to renew"},{trg:"de wijk",src:"the district / neighbourhood"}]},
         {type:"fb",opts:["balie","gemeente","afspraak","formulier"],hint:"Collect your documents AT THE COUNTER",s:"U kunt het afhalen aan de ___.",a:"balie"},
         {type:"drag_fill",hint:"My passport has expired. I need to renew it.",s:"Mijn paspoort is {1}. Ik moet het {2}.",blanks:{"1":"verlopen","2":"vernieuwen"},pool:["verlopen","vernieuwen","aanvragen","geldig"]},
         {type:"fb",opts:["geldig","verlopen","nodig","aangevraagd"],hint:"A VALID passport can still be used",s:"Is uw paspoort nog ___?",a:"geldig"},
@@ -184,5 +184,5 @@ export default {n:17,lang:"nl",srcLang:"en",track:"v2",title:"Een Nieuw Huis",su
         {type:"tr",mk:"v2u17_house_i_live_in",dir:"produce"},
         {type:"tr",mk:"v2u17_colleague_i_work_with",dir:"produce"},
         {type:"tr",mk:"v2u17_we_are_moving",dir:"produce"}
-  ,{type:"match",pairs:[{trg:"de wijk",src:"the district / neighbourhood"}]}]}
+  ]}
 ]};

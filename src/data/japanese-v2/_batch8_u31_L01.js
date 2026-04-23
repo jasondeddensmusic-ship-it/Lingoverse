@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: Using this image would be copyright infringement.\nB: We need to get permission.\nA: Please tell me about future prospects.\nB: I think internationalization will progress further going forward.\nA: What measures are needed for that?\nB: Improving language skills and cross-cultural understanding are essential.",
      funFact:"Japan takes 著作権(ちょさくけん) very seriously, especially for manga and anime. Illegal scanning and uploading (海賊版(かいぞくばん), piracy) has prompted strict enforcement. 著作権法(ちょさくけんほう) was updated to criminalize downloading pirated content. Japan's Cool Japan strategy depends on protecting creative 著作権(ちょさくけん) globally."},
 
-    {type:"match", pairs:[{trg:"権利(けんり)",src:"right"},{trg:"義務(ぎむ)",src:"obligation"},{trg:"裁判(さいばん)",src:"trial"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"訴訟(そしょう)",src:"lawsuit"}],
+    {type:"match", pairs:[{trg:"権利(けんり)",src:"right"},{trg:"義務(ぎむ)",src:"obligation"},{trg:"裁判(さいばん)",src:"trial"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"訴訟(そしょう)",src:"lawsuit"},{trg:"著作権(ちょさくけん)",src:"copyright / intellectual property right"}],
      hint:"Match each legal term with its English meaning."},
 
     {type:"mc", q:"What is special about Japan's conviction rate?", opts:["It varies widely by region","It exceeds 99%","It is about 50%","It is the lowest in Asia"], ans:"It exceeds 99%",
@@ -100,6 +100,6 @@ const BATCH8_L1 = {
     opts:["弁護士(べんごし)","裁判官(さいばんかん)","証人(しょうにん)","被告(ひこく)"],
     hint:"Before signing a contract, you should consult this legal professional who represents clients in court.",
     sSrc:"Please consult a {1} before signing the contract."}
-  ,{type:"match",pairs:[{trg:"弁護士(べんごし)",src:"lawyer / attorney"},{trg:"条約(じょうやく)",src:"treaty / convention"},{trg:"憲法(けんぽう)",src:"constitution"},{trg:"控訴(こうそ)",src:"appeal (legal) / prosecution"},{trg:"賠償(ばいしょう)",src:"compensation / reparation / damages"},{trg:"禁固(きんこ)",src:"prison / imprisonment"}]},{type:"match",pairs:[{trg:"著作権(ちょさくけん)",src:"copyright / intellectual property right"}]}]
+  ,{type:"match",pairs:[{trg:"弁護士(べんごし)",src:"lawyer / attorney"},{trg:"条約(じょうやく)",src:"treaty / convention"},{trg:"憲法(けんぽう)",src:"constitution"},{trg:"控訴(こうそ)",src:"appeal (legal) / prosecution"},{trg:"賠償(ばいしょう)",src:"compensation / reparation / damages"},{trg:"禁固(きんこ)",src:"prison / imprisonment"}]}]
 };
 export default BATCH8_L1;

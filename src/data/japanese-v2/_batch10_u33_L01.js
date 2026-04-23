@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(flower arrangement is important.)", a:"生(い)け花(ばな)", opts:["生(い)け花(ばな)","茶道(さどう)","浮世絵(うきよえ)","歌舞伎(かぶき)"], sSrc:"flower arrangement is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"歌舞伎(かぶき)",src:"kabuki theater"},{trg:"能(のう)",src:"noh theater"},{trg:"落語(らくご)",src:"comic storytelling"},{trg:"書道(しょどう)",src:"calligraphy"}]},
+    {type:"match", pairs:[{trg:"歌舞伎(かぶき)",src:"kabuki theater"},{trg:"能(のう)",src:"noh theater"},{trg:"落語(らくご)",src:"comic storytelling"},{trg:"書道(しょどう)",src:"calligraphy"},{trg:"浮世絵(うきよえ)",src:"ukiyo-e prints"}]},
 
     {type:"mc", q:"Which word means living national treasure?", opts:["茶道(さどう)","人間国宝(にんげんこくほう)","生(い)け花(ばな)","能(のう)"], ans:"人間国宝(にんげんこくほう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"浮世絵(うきよえ)",src:"ukiyo-e prints"}]}]
+  ]
 };
 export default BATCH10_L1;

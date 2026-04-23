@@ -90,7 +90,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: You gladly accepted my request.\nB: I am happy if I can be of use.\nA: That is an unexpected result.\nB: Yes, I was surprised too. We are investigating the cause.\nA: When do you think you will know the cause?\nB: The analysis results are expected to come out by the end of this week.",
      funFact:"快(こころよ)く (willingly) describes willing, cheerful acceptance. It is the positive counterpart to しぶしぶ (reluctantly). 快(こころよ)く協力(きょうりょく)してくれた (cooperated willingly) expresses deep gratitude. In formal thank-you speeches, 快(こころよ)くご協力(きょうりょく)いただき (your willing cooperation) is a standard phrase."},
 
-    {type:"match", pairs:[{trg:"おそれながら",src:"with all due respect"},{trg:"さしつかえなければ",src:"if you do not mind"},{trg:"かならずしも",src:"not necessarily"},{trg:"あくまでも",src:"strictly/to the end"},{trg:"まさに",src:"precisely/exactly"}],
+    {type:"match", pairs:[{trg:"おそれながら",src:"with all due respect"},{trg:"さしつかえなければ",src:"if you do not mind"},{trg:"かならずしも",src:"not necessarily"},{trg:"あくまでも",src:"strictly/to the end"},{trg:"まさに",src:"precisely/exactly"},{trg:"快(こころよ)く",src:"willingly / gladly / with pleasure"}],
      hint:"Match each advanced expression with its English meaning."},
 
     {type:"mc", q:"What does 〜かねる express in business Japanese?", opts:["A formal invitation","A polite way to refuse or say 'unable to'","An enthusiastic agreement","A casual greeting"], ans:"A polite way to refuse or say 'unable to'",
@@ -101,6 +101,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is the most common essay debate structure in Japanese?", opts:["もちろん...だから (of course...therefore)","ところで...でも (by the way...but)","確(たし)かに...しかし (certainly...however)","まず...そして (first...then)"], ans:"確(たし)かに...しかし (certainly...however)",
      hint:"Conceding before countering shows intellectual honesty and is valued in academic writing."}
-  ,{type:"match",pairs:[{trg:"言(い)わば",src:"so to speak / as it were"},{trg:"に限(かぎ)らず",src:"not limited to / not just"},{trg:"改(あらた)めて",src:"once again / anew / formally"},{trg:"ともかくとして",src:"setting that aside / regardless of"},{trg:"一見(いっけん)",src:"at first glance / seemingly / apparently"},{trg:"〜かねる",src:"to be unable to / to find it difficult to"}]},{type:"match",pairs:[{trg:"快(こころよ)く",src:"willingly / gladly / with pleasure"}]}]
+  ,{type:"match",pairs:[{trg:"言(い)わば",src:"so to speak / as it were"},{trg:"に限(かぎ)らず",src:"not limited to / not just"},{trg:"改(あらた)めて",src:"once again / anew / formally"},{trg:"ともかくとして",src:"setting that aside / regardless of"},{trg:"一見(いっけん)",src:"at first glance / seemingly / apparently"},{trg:"〜かねる",src:"to be unable to / to find it difficult to"}]}]
 };
 export default BATCH8_L1;

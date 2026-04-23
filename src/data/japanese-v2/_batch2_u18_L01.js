@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Permission Culture in Japan",
       text:"Japanese permission culture is hierarchical:\n\n1. Family: parents allow (saseru) children to do things\n2. School: teachers allow (saseru) students\n3. Work: bosses allow (saseru) employees\n\nThe direction is always top-down. Requesting permission flows upward using humble forms:\n休(やす)ませていただけますか (may I take the day off? ultra-polite)\n\nGranting permission flows downward:\nいいですよ、休(やす)んでください (sure, take the day off).\n\nThis hierarchy is reflected in the grammar: させてもらう (I receive permission from above) vs. させてあげる (I grant permission below)."}},
 
-    {type:"match", pairs:[{trg:"させてもらう",src:"receive permission to do"},{trg:"させてくれる",src:"someone lets me (gratitude)"},{trg:"辞(や)めさせる",src:"make quit / fire"},{trg:"使(つか)わせる",src:"let/make use"}]},
+    {type:"match", pairs:[{trg:"させてもらう",src:"receive permission to do"},{trg:"させてくれる",src:"someone lets me (gratitude)"},{trg:"辞(や)めさせる",src:"make quit / fire"},{trg:"使(つか)わせる",src:"let/make use"},{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]},
 
     {type:"fb", s:"娘(むすめ)をピアノ教室(きょうしつ)に{1}います。\n(I am sending my daughter to piano lessons.)", a:"通(かよ)わせて", opts:["通(かよ)わせて","通(かよ)って","通(かよ)い","通(かよ)われて"], sSrc:"I am sending my daughter to piano lessons.",
      hint:"The causative て-form of 通(かよ)う (to commute). Group 1: あ-row + せる."},
@@ -83,7 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"辞(や)めさせる means:", opts:["to want to quit","to quit by oneself","to make someone quit / to fire","to ask to quit"], ans:"to make someone quit / to fire",
      hint:"The causative of 辞(や)める. The subject forces or causes s... else to q...."},
-  {type:"match",pairs:[{trg:"通(かよ)わせる",src:"to make someone commute / to send someone (to school)"}]},
   {type:"fb", s:"社長(しゃちょう)は問題(もんだい)のある社員(しゃいん)を{1}ことにしました。", a:["辞(や)めさせる"], opts:["辞(や)めさせる","遊(あそ)ばせる","使(つか)わせる","通(かよ)わせる"], hint:"The causative verb meaning to compel someone to quit their position.", sSrc:"The company president decided to {1} the problematic employee."}
 ]
 };

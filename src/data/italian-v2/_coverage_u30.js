@@ -4,7 +4,6 @@ const COVERAGE_U30 = {
   id:"itv2_u30_coverage_review", title:"Ripasso: copertura lessicale", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"Ripasso: copertura lessicale",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"l'ambiguita",src:"the ambiguity"}]},
     {type:"fb",s:"{1}",a:["l'ambiguita"],opts:["l'ambiguita"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the ambiguity"},
     {type:"fb",s:"{1}",a:["benche"],opts:["l'ambiguita","benche"],hint:"Type the target-language form. Meaning shown below.",sSrc:"although / even though"},
     {type:"fb",s:"{1}",a:["nonostante"],opts:["nonostante","l'ambiguita"],hint:"Type the target-language form. Meaning shown below.",sSrc:"despite / in spite of"},

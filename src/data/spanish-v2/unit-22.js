@@ -190,7 +190,7 @@ export default {n:22,lang:"es",srcLang:"en",track:"v2",title:"Estoy Haciendo",su
           {trg:"Llevo una hora leyendo",src:"I have been reading for an hour"},
           {trg:"Estaba leyendo",src:"I was reading"},
           {trg:"Leo todos los días",src:"I read every day (simple)"}
-        ]},
+        ,{trg:"Vivo en Madrid",src:"I live in Madrid"}]},
         {type:"fb",opts:["sigue","está","lleva","estaba"],hint:"She continues / keeps studying. The action has not stopped.",s:"Ella {1} estudiando medicina. Le quedan dos años.",a:"sigue"},
         {type:"mc",q:"You want to say 'I have been living here for ten years.' Which construction?",opts:["Llevo diez años viviendo aquí","Estoy viviendo aquí diez años","Sigo viviendo aquí diez años","Vivo aquí diez años"],ans:"Llevo diez años viviendo aquí",hint:"Duration of an ongoing action requires llevar + time + gerundio."},
         {type:"drag_fill",hint:"Two simultaneous past background actions, both in imperfect progressive.",s:"Mientras Ana {1} hablando por teléfono, Pedro {2} preparando la cena.",blanks:{"1":"estaba","2":"estaba"},pool:["estaba","estaba","está","estuvo"]},
@@ -201,7 +201,7 @@ export default {n:22,lang:"es",srcLang:"en",track:"v2",title:"Estoy Haciendo",su
         {type:"fb",opts:["durmiendo","dormiendo","dormando","durmando"],hint:"The irregular gerundio of dormir changes o to u.",s:"¡No hagas ruido! El bebé está {1}.",a:"durmiendo"},
         {type:"mc",q:"You are at a restaurant that is very slow. You tell the waiter: 'Llevamos cuarenta minutos...'",opts:["comiendo","saliendo","pagando","esperando"],ans:"esperando",hint:"You have been doing this for 40 minutes because the service is slow."},
         {type:"mc",q:"Which three constructions use the gerundio?",opts:["estar, seguir, llevar","ser, haber, tener","ir, venir, salir","poder, deber, querer"],ans:"estar, seguir, llevar",hint:"All three of these verbs combine with the -ando/-iendo form."}
-  ,{type:"match",pairs:[{trg:"Vivo en Madrid",src:"I live in Madrid"}]}]},
+  ]},
   {id:"esv2_u22l_b2_academic",title:"Pensar y argumentar",icon:"🎓",xp:25,board:true,steps:[
     {type:"intro",title:"Pensar y argumentar",desc:"Academic Spanish requires a precise vocabulary for critical thinking: verbs that describe intellectual operations, nouns for concepts and reasoning, and adjectives that evaluate quality of thought.",goals:["Use justificar, fundamentar, and enfatizar in academic contexts","Name key concepts: la perspectiva, la hipótesis, la teoría, el impacto","Apply riguroso and complejo to evaluate arguments","Build B2-level analytical sentences"]},
     {type:"teach",trg:"justificar",src:"to justify / to give reasons for",pos:"verb",gender:null,note:"Justificar = to provide reasons that support a claim or decision. Transitive: justificar algo.",example:"A: ¿Por qué tomaste esa decisión?\nB: Déjame justificar mi postura con datos concretos.\nA: ¿Tienes pruebas suficientes?\nB: Sí. Los resultados justifican el cambio de estrategia.",exampleSrc:"A: Why did you make that decision?\nB: Let me justify my position with concrete data.\nA: Do you have enough evidence?\nB: Yes. The results justify the change in strategy.",funFact:"From Latin iustificare (to make just). English 'justify' and Spanish 'justificar' are direct cognates, same Latin root, same meaning."},

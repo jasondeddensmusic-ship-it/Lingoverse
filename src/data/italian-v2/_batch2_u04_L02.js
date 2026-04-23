@@ -119,7 +119,7 @@ const BATCH2_U04_L2 = {
       {trg:"i soldi", src:"money"},
       {trg:"il resto", src:"the change"},
       {trg:"contanti", src:"cash"}
-    ]},
+    ,{trg:"abbastanza",src:"enough / quite"}]},
 
     {type:"mc", q:"What does 'dolce o salato?' ask?",
      opts:["Big or small?","Here or there?","Sweet or savory?","Hot or cold?"],
@@ -136,6 +136,6 @@ const BATCH2_U04_L2 = {
      opts:["A type of coffee","A dessert","A salad","A bitter digestive liqueur"],
      ans:"A bitter digestive liqueur",
      hint:"Drunk after meals to aid digestion. Famous brands include Fernet-Branca and Averna. Intentionally b...."}
-  ,{type:"match",pairs:[{trg:"la carta",src:"the card (credit/debit)"},{trg:"preferire",src:"to prefer"},{trg:"delizioso",src:"delicious"},{trg:"dolce",src:"sweet (taste)"},{trg:"amaro",src:"bitter"},{trg:"salato",src:"salty / savory"}]},{type:"match",pairs:[{trg:"abbastanza",src:"enough / quite"}]}]
+  ,{type:"match",pairs:[{trg:"la carta",src:"the card (credit/debit)"},{trg:"preferire",src:"to prefer"},{trg:"delizioso",src:"delicious"},{trg:"dolce",src:"sweet (taste)"},{trg:"amaro",src:"bitter"},{trg:"salato",src:"salty / savory"}]}]
 };
 export default BATCH2_U04_L2;

@@ -217,7 +217,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"fb",opts:["had","heb","hebben","zou hebben"],hint:"Unreal condition: which tense in the als-clause?",s:"Als ik meer tijd ___, zou ik een boek schrijven.",a:"had"},
         {type:"drag_fill",hint:"In my opinion... Firstly...",s:"{1} mijn mening moet het onderwijs beter. {2} eerste zijn de klassen te groot.",blanks:{"1":"Naar","2":"Ten"},pool:["Naar","Ten","Volgens","Tot"]},
         {type:"mc",q:"'Ik ben van mening dat' is followed by:",opts:["An infinitive","A main clause with V2","A subordinate clause (verb final)","A question"],ans:"A subordinate clause (verb final)",hint:"'dat' introduces a ___ ___"},
-        {type:"match",pairs:[{trg:"de aanhef",src:"the salutation"},{trg:"de afsluiting",src:"the closing"},{trg:"het betoog",src:"the argumentative essay"},{trg:"de stelling",src:"the thesis"}]},
+        {type:"match",pairs:[{trg:"de aanhef",src:"the salutation"},{trg:"de afsluiting",src:"the closing"},{trg:"het betoog",src:"the argumentative essay"},{trg:"de stelling",src:"the thesis"},{trg:"desbetreffend",src:"in question / relevant / pertaining to that"}]},
         {type:"fb",opts:["zou","zal","wil","kan"],hint:"Conditional auxiliary: which form expresses 'would' for ik?",s:"Ik ___ het op prijs stellen als u snel reageert.",a:"zou"},
         {type:"mc",q:"Dutch directness means:",opts:["Always being rude","Never softening requests","Avoiding formal language","Stating your point clearly in the first paragraph"],ans:"Stating your point clearly in the first paragraph",hint:"Main message up front, clear and direct"},
         {type:"drag_fill",hint:"If you fill in the form (real), you get a confirmation.",s:"Als je het formulier {1}, {2} je een bevestiging.",blanks:{"1":"invult","2":"krijg"},pool:["invult","krijg","invulde","zou"]},
@@ -234,5 +234,5 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis.","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense ___-clause + ___ + infinitive"},
         {type:"drag_fill",hint:"Dear Mrs. De Vries, with regard to the vacancy...",s:"{1} mevrouw De Vries, met {2} tot de vacature schrijf ik u.",blanks:{"1":"Geachte","2":"betrekking"},pool:["Geachte","betrekking","Beste","aanleiding"]},
         {type:"mc",q:"'Tot slot' in an essay means:",opts:["In the beginning","In addition","Finally / to conclude","On the other hand"],ans:"Finally / to conclude",hint:"Tot slot wraps up the argument"}
-  ,{type:"match",pairs:[{trg:"desbetreffend",src:"in question / relevant / pertaining to that"}]}]}
+  ]}
 ]};

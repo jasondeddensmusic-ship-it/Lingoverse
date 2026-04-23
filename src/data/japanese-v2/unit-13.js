@@ -162,7 +162,7 @@ const UNIT_13 = {
   {type:"mc", q:"飛行機(ひこうき) means:", opts:["bus","airplane","bicycle","boat"], ans:"airplane",
    hint:"A compound meaning 'fly-go-machine' with the kanji for flight."},
 
-  {type:"match", pairs:[{trg:"お寺(てら)",src:"temple"},{trg:"神社(じんじゃ)",src:"shrine"},{trg:"温泉(おんせん)",src:"hot spring"},{trg:"お祭(まつ)り",src:"festival"}]},
+  {type:"match", pairs:[{trg:"お寺(てら)",src:"temple"},{trg:"神社(じんじゃ)",src:"shrine"},{trg:"温泉(おんせん)",src:"hot spring"},{trg:"お祭(まつ)り",src:"festival"},{trg:"乗(の)り物(もの)",src:"vehicle / transportation"}]},
 
   {type:"match", pairs:[{trg:"電車(でんしゃ)",src:"train"},{trg:"飛行機(ひこうき)",src:"airplane"},{trg:"写真(しゃしん)",src:"photo"},{trg:"何度(なんど)も",src:"many times"}]},
 
@@ -170,8 +170,7 @@ const UNIT_13 = {
    hint:"The counter-based word meaning 'how many times' that with も means 'many times.'"},
 
   {type:"mc", q:"温泉(おんせん)に入(はい)ったことがない means:", opts:["I bathed in a hot spring","I want a hot spring","I have never bathed in a hot spring","I like hot springs"], ans:"I have never bathed in a hot spring",
-   hint:"た-form + ことがない = have n... done the action before."},
-{type:"match",pairs:[{trg:"乗(の)り物(もの)",src:"vehicle / transportation"}]}]},BATCH2_L1
+   hint:"た-form + ことがない = have n... done the action before."}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

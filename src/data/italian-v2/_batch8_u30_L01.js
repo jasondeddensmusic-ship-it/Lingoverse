@@ -69,7 +69,7 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"â
   {trg:"la sfumatura", src:"the nuance"},
   {trg:"la polemica", src:"the controversy"},
   {trg:"l'eccezione", src:"the exception"}
-]},
+,{trg:"la controparte",src:"the counterpart / opposing party"}]},
 
 {type:"fb",
  s:"C'e una {1} nel tuo ragionamento: dici una cosa e fai il contrario.",
@@ -96,5 +96,5 @@ const BATCH8_L1 = {id:"itv2_u30l_b8_1", title:"Concessione e contrasto", icon:"â
  opts:["Rules have no exceptions","Exceptions are more important than rules","The exception proves the rule","Exceptions destroy rules"],
  ans:"The exception proves the rule",
  hint:"This common expression argues that the existence of exceptions actually validates the general principle they deviate from."}
-,{type:"match",pairs:[{trg:"la controparte",src:"the counterpart / opposing party"}]}]};
+]};
 export default BATCH8_L1;

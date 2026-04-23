@@ -72,7 +72,7 @@ const BATCH2_L_3 = {
     {type:"fb", s:"事実(じじつ)と{1}を区別(くべつ)することが大切(たいせつ)です。\n(It is important to distinguish facts from opinions.)", a:"意見(いけん)", opts:["意見(いけん)","事件(じけん)","統計(とうけい)","出典(しゅってん)"], sSrc:"It is important to distinguish facts from opinions.",
      hint:"The noun meaning a personal view or judgment, contrasted with verifiable facts."},
 
-    {type:"match", pairs:[{trg:"偏向(へんこう)",src:"bias"},{trg:"信頼性(しんらいせい)",src:"reliability"},{trg:"出典(しゅってん)",src:"source/citation"},{trg:"世論(せろん)",src:"public opinion"}]},
+    {type:"match", pairs:[{trg:"偏向(へんこう)",src:"bias"},{trg:"信頼性(しんらいせい)",src:"reliability"},{trg:"出典(しゅってん)",src:"source/citation"},{trg:"世論(せろん)",src:"public opinion"},{trg:"統計(とうけい)",src:"statistics"}]},
 
     {type:"fb", s:"一方的(いっぽうてき)な{1}だけで判断(はんだん)しないでください。\n(Please do not judge based on one-sided information alone.)", a:"情報(じょうほう)", opts:["情報(じょうほう)","意見(いけん)","統計(とうけい)","事実(じじつ)"], sSrc:"Please do not judge based on one-sided information alone.",
      hint:"The general noun for knowledge or data received about something."},
@@ -80,7 +80,6 @@ const BATCH2_L_3 = {
     {type:"match", pairs:[{trg:"客観的(きゃっかんてき)",src:"objective"},{trg:"一方的(いっぽうてき)",src:"one-sided"},{trg:"事実(じじつ)",src:"fact"},{trg:"区別(くべつ)",src:"distinction"}]},
 
     {type:"mc", q:"Which practice is most fundamental to media literacy?", opts:["Ignoring all news entirely","Believing the first source you find","Checking multiple sources to verify information","Only reading one trusted newspaper"], ans:"Checking multiple sources to verify information",
-     hint:"出典(しゅってん)を確認(かくにん)する (verifying s...) is the foundational skill of critical media consumption."},
-  {type:"match",pairs:[{trg:"統計(とうけい)",src:"statistics"}]}]
+     hint:"出典(しゅってん)を確認(かくにん)する (verifying s...) is the foundational skill of critical media consumption."}]
 };
 export default BATCH2_L_3;

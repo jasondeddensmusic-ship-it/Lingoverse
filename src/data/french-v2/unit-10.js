@@ -159,7 +159,7 @@ export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé
         {type:"intro",title:"Unit 10 Review",desc:"Review passé composé with être: movement verbs, agreement, reflexives, and the avoir/être choice. You now have the complete French past tense system.",goals:["Review all être verb forms","Test agreement rules","Master avoir vs être choice"]},
         {type:"mc",q:"DR MRS VANDERTRAMP verbs use:",opts:["Être","Avoir","Both","Neither"],ans:"Être",hint:"This mnemonic lists all the movement/state change verbs."},
         {type:"fb",opts:["allée","allé","allés","allées"],hint:"She went. Feminine singular: -ée.",s:"Elle est {1} à Paris. (to go, fem.)",a:"allée"},
-        {type:"match",pairs:[{trg:"je suis allé(e)",src:"I went"},{trg:"il est parti",src:"he left"},{trg:"elle est arrivée",src:"she arrived"},{trg:"nous sommes restés",src:"we stayed"}]},
+        {type:"match",pairs:[{trg:"je suis allé(e)",src:"I went"},{trg:"il est parti",src:"he left"},{trg:"elle est arrivée",src:"she arrived"},{trg:"nous sommes restés",src:"we stayed"},{trg:"tomber",src:"to fall (past: tombé)"}]},
         {type:"mc",q:"With être, the participle agrees with:",opts:["The object","The subject","The helper verb","Nothing"],ans:"The subject",hint:"Like an adjective, it matches gender and number of who performs the action."},
         {type:"fb",opts:["sont","ont","sommes","êtes"],hint:"They got up. Reflexive verb: which helper?",s:"Ils se {1} levés à sept heures.",a:"sont"},
         {type:"mc",q:"'J'ai mangé et je suis sorti.' Why different helpers?",opts:["It's a mistake","First verb=avoir, second=être always","Manger=avoir, sortir=être","Random choice"],ans:"Manger=avoir, sortir=être",hint:"Each verb has its own fixed helper. Movement = ___, rest = ___."},
@@ -174,5 +174,5 @@ export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé
         {type:"fb",opts:["réveillés","réveillé","réveillée","réveillées"],hint:"The children woke up. Masculine plural: -és.",s:"Les enfants se sont {1} à six heures. (to wake up, masc. pl.)",a:"réveillés"},
         {type:"mc",q:"You now know passé composé with avoir AND être. What percentage of verbs use avoir?",opts:["About 10%","About 50%","About 90%","All of them"],ans:"About 90%",hint:"Être verbs are a small, memorizable group. The vast majority use the other helper."},
         {type:"fb",opts:["fait","faire","fais","faite"],hint:"I did my homework. Irregular participle of faire.",s:"Hier, j'ai {1} mes devoirs et je suis sorti. (to do)",a:"fait"}
-  ,{type:"match",pairs:[{trg:"tomber",src:"to fall (past: tombé)"}]}]}
+  ]}
 , COVERAGE_U10]};
