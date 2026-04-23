@@ -133,7 +133,7 @@ const BATCH4_U10_L2 = {
      opts:["A modern tour bus company","An Italian TV show","A Renaissance art style","A journey through Italy taken by European aristocrats for education"],
      ans:"A journey through Italy taken by European aristocrats for education",
      hint:"18th-century English nobles traveled this Italian route as part of their e...."}
-  ,{type:"match",pairs:[{trg:"il monumento",src:"the monument"},{trg:"la guida turistica",src:"the tour guide / guidebook"},{trg:"la fotografia",src:"the photograph / photography"},{trg:"il souvenir",src:"the souvenir"},{trg:"godersi",src:"to enjoy (oneself)"},{trg:"scoprire",src:"to discover / to find out"}]},{type:"mc",q:"How do you say \"itinerary / route\" in Italian?",opts:["l'itinerario","il tavolo","la bicicletta","la finestra"],ans:"l'itinerario",hint:"Recall the Italian vocabulary word taught in this lesson."},
+  ,{type:"match",pairs:[{trg:"il monumento",src:"the monument"},{trg:"la guida turistica",src:"the tour guide / guidebook"},{trg:"la fotografia",src:"the photograph / photography"},{trg:"il souvenir",src:"the souvenir"},{trg:"godersi",src:"to enjoy (oneself)"},{trg:"scoprire",src:"to discover / to find out"}]},{type:"mc",q:"How do you say \"itinerary / route\" in Italian?",opts:["l'itinerario","la vacanza","il monumento","la mostra"],ans:"l'itinerario",hint:"Recall the Italian vocabulary word taught in this lesson."},
 {type:"fb",s:"Abbiamo comprato una {1} come ricordo del viaggio.",a:["cartolina"],opts:["cartolina","fotografia","souvenir","guida turistica"],hint:"A printed card with a picture, sent to family or kept as a memento.",sSrc:"We bought a {1} as a memory of the trip."}]
 };
 export default BATCH4_U10_L2;

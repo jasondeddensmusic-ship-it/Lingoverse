@@ -123,6 +123,6 @@ const BATCH2_U13_L1 = {
      opts:["Because it is always used in questions only","Because 'caso' is an irregular noun form","Because it describes a completed past action","Because the event is only possible, not certain"],
      ans:"Because the event is only possible, not certain",
      hint:"'In case' prepares for something that may or may not occur. Uncertainty about the future triggers the subjunctive mood."}
-  ,{type:"match",pairs:[{trg:"magari",src:"I wish / if only / maybe"},{trg:"che io sappia",src:"as far as I know"},{trg:"comunque sia",src:"however it may be / in any case"},{trg:"come se",src:"as if / as though"},{trg:"Dio voglia che",src:"God willing that / may God grant"}]},{type:"mc",q:"How do you say \"in case / in the event that\" in Italian?",opts:["nel caso che","il tavolo","la bicicletta","la finestra"],ans:"nel caso che",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"magari",src:"I wish / if only / maybe"},{trg:"che io sappia",src:"as far as I know"},{trg:"comunque sia",src:"however it may be / in any case"},{trg:"come se",src:"as if / as though"},{trg:"Dio voglia che",src:"God willing that / may God grant"}]},{type:"mc",q:"How do you say \"in case / in the event that\" in Italian?",opts:["nel caso che","purche","sebbene","magari"],ans:"nel caso che",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U13_L1;

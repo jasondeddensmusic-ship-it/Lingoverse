@@ -136,6 +136,6 @@ const BATCH2_U05_L2 = {
      opts:["A mirror","A painting","A lamp","A clock or watch"],
      ans:"A clock or watch",
      hint:"From Greek 'horologion' (time-teller). Italian uses one word for wall clocks and wristwatches alike."}
-  ,{type:"match",pairs:[{trg:"la chiave",src:"the key"},{trg:"la borsa",src:"the bag / purse"},{trg:"il cuscino",src:"the pillow / cushion"},{trg:"la coperta",src:"the blanket"},{trg:"il rubinetto",src:"the faucet / tap"},{trg:"prendere",src:"to take / to get"}]},{type:"match",pairs:[{trg:"portare",src:"to bring / to carry"},{trg:"rotto",src:"broken"}]},{type:"mc",q:"How do you say \"clock / watch\" in Italian?",opts:["l'orologio","il tavolo","la bicicletta","la finestra"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"la chiave",src:"the key"},{trg:"la borsa",src:"the bag / purse"},{trg:"il cuscino",src:"the pillow / cushion"},{trg:"la coperta",src:"the blanket"},{trg:"il rubinetto",src:"the faucet / tap"},{trg:"prendere",src:"to take / to get"}]},{type:"match",pairs:[{trg:"portare",src:"to bring / to carry"},{trg:"rotto",src:"broken"}]},{type:"mc",q:"How do you say \"clock / watch\" in Italian?",opts:["l'orologio","la chiave","la borsa","il cuscino"],ans:"l'orologio",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U05_L2;

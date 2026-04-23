@@ -122,7 +122,7 @@ const UNIT_32 = {
    exampleSrc:"A: Clinical trials for a new drug have started.\nB: How many patients are participating?\nA: Is there a good method?\nB: I have one suggestion. How about proceeding step by step?\nA: What do you mean by step by step?\nB: It means trying it on a small scale first, then gradually expanding.",
    funFact:"臨床 uses 臨 (face/approach) and 床 (bed/floor). 'Facing the bedside' captures the essence of clinical medicine: working directly with patients. Japan's 臨床試験(りんしょうしけん) (clinical trial) system has become more standardized since joining the International Council for Harmonisation of Technical Requirements for Pharmaceuticals."},
 
-  {type:"mc", q:"実験室(じっけんしつ) means:", opts:["laboratory","classroom","hospital","pharmacy"], ans:"laboratory",
+  {type:"mc", q:"実験室(じっけんしつ) means:", opts:["laboratory","classroom","examination room","pharmacy"], ans:"laboratory",
    hint:"室(しつ) means 'room,' combined with the word for experiment."},
 
   {type:"teach", trg:"仮説(かせつ)", src:"hypothesis", pos:"noun", gender:null,

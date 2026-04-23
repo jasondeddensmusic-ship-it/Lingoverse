@@ -118,6 +118,6 @@ const BATCH2_U17_L1 = {
      opts:["An ancient Italian language form","A type of Italian hand gesture","A dialect spoken in southern Italy","The mix of Italian and English in modern Italian speech"],
      ans:"The mix of Italian and English in modern Italian speech",
      hint:"I... creators often blend the two languages, especially in tech and digital contexts. It is a characteristic of m... communication."}
-  ,{type:"match",pairs:[{trg:"il commercio elettronico",src:"e-commerce / online shopping"},{trg:"il backup",src:"the backup (data)"},{trg:"lo smartphone",src:"the smartphone"},{trg:"il tutorial",src:"the tutorial"}]},{type:"mc",q:"How do you say \"artificial intelligence\" in Italian?",opts:["l'intelligenza artificiale","la bicicletta","la finestra","il tavolo"],ans:"l'intelligenza artificiale",hint:"Recall the Italian vocabulary word taught in this lesson."}]
+  ,{type:"match",pairs:[{trg:"il commercio elettronico",src:"e-commerce / online shopping"},{trg:"il backup",src:"the backup (data)"},{trg:"lo smartphone",src:"the smartphone"},{trg:"il tutorial",src:"the tutorial"}]},{type:"mc",q:"How do you say \"artificial intelligence\" in Italian?",opts:["l'intelligenza artificiale","il commercio elettronico","il pagamento digitale","il cloud"],ans:"l'intelligenza artificiale",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U17_L1;
