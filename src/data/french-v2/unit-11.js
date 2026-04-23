@@ -98,7 +98,7 @@ export default {n:11,lang:"fr",srcLang:"en",track:"v2",title:"L'imparfait",sub:"
         {type:"mc",q:"Which uses imparfait correctly?",opts:["C'est magnifique","Ça sera magnifique","C'a été magnifique","C'était magnifique"],ans:"C'était magnifique",hint:"For past descriptions/evaluations, use the imparfait of être."},
         {type:"fb",opts:["étions","sommes","avons été","serons"],hint:"We were very happy to see you. Nous + être imparfait.",s:"Nous {1} très contents de vous voir.",a:"étions"},
         {type:"mc",q:"'Les rues étaient vides' means:",opts:["The streets were empty","The streets are empty","The streets will be empty","Empty the streets"],ans:"The streets were empty",hint:"Étaient = imparfait of être, ils/elles form. Past description."},
-        {type:"fb",opts:["étiez","étiez","êtes","avez été"],hint:"Where were you in 2015? Vous + être imparfait.",s:"Vous {1} où en 2015?",a:"étiez"},
+        {type:"fb",opts:["étiez","étais","êtes","avez été"],hint:"Where were you in 2015? Vous + être imparfait.",s:"Vous {1} où en 2015?",a:"étiez"},
         {type:"mc",q:"'J'avais 5 ans et je m'appelais Coco.' This describes:",opts:["Current facts","Past states and identities","Future plans","Commands"],ans:"Past states and identities",hint:"Age and name in the ___ = imparfait. ___, not events."},
         {type:"fb",opts:["étaient","sont","ont été","étais"],hint:"They were tired. Ils + être imparfait.",s:"Ils {1} fatigués après le voyage.",a:"étaient"}
   ]},

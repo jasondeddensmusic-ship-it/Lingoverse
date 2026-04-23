@@ -18,7 +18,7 @@ export default {n:20,lang:"es",srcLang:"en",track:"v2",title:"Antes de Eso",sub:
         {type:"teach",trg:"roto",src:"broken",pos:"noun",gender:null,phonetic:"RROH-toh",note:"Irregular participle of romper.",example:"A: ¿Que ha pasado con el vaso?\nB: Se ha roto, lo siento mucho.\nA: No te preocupes, tengo mas.\nB: Ten cuidado con los trozos.",exampleSrc:"A: What happened with the glass?\nB: It broke, I'm very sorry.\nA: Don't worry, I have more.\nB: Be careful with the pieces.",funFact:"Spanish nouns are either masculine or feminine. The ending usually gives it away."},
         {type:"mc",q:"What is the past participle of 'hablar'?",opts:["hablado","hablido","habledo","habludo"],ans:"hablado",hint:"Regular -ar verbs drop the ending and add -ado."},
         {type:"mc",q:"Which is the correct irregular participle of 'hacer'?",opts:["hacido","hecho","hacedo","hacado"],ans:"hecho",hint:"This common irregular form doesn't follow the regular pattern at all."},
-        {type:"fb",opts:["escrito","escribido","escribado","escribido"],hint:"This verb has an irregular participle ending in -ito.",s:"El participio de 'escribir' es {1}.",a:["escrito"]},
+        {type:"fb",opts:["escrito","escribido","escribado","escrituo"],hint:"This verb has an irregular participle ending in -ito.",s:"El participio de 'escribir' es {1}.",a:["escrito"]},
         {type:"fb",opts:["visto","veido","vido","verido"],hint:"The participle of ver is completely irregular.",s:"¿Has {1} la nueva pelicula de terror?",a:["visto"]},
         {type:"match",pairs:[
           {trg:"hecho",src:"done (hacer)"},

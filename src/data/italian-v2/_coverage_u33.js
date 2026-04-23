@@ -11,7 +11,7 @@ const COVERAGE_U33 = {
     {type:"fb",s:"{1}",a:["l'argomento"],opts:["l'ideale","l'argomento","l'ipotesi","l'esistenza"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the argument / topic"},
     {type:"fb",s:"{1}",a:["l'esistenza"],opts:["l'argomento","l'ideale","l'esistenza","l'ipotesi"],hint:"Type the target-language form. Meaning shown below.",sSrc:"existence"},
     {type:"fb",s:"{1}",a:["l'ideale"],opts:["l'ipotesi","l'argomento","l'esistenza","l'ideale"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the ideal"},
-    {type:"fb",s:"{1}",a:["l'ipotesi"],opts:["l'ipotesi","l'ipotesi","l'argomento","l'esistenza"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the hypothesis"},
+    {type:"fb",s:"{1}",a:["l'ipotesi"],opts:["l'ipotesi","l'indizio","l'argomento","l'esistenza"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the hypothesis"},
     {type:"fb",s:"Dobbiamo {1} le opinioni diverse.",a:["tollerare"],opts:["l'esistenza","tollerare","l'ipotesi","l'argomento"],hint:"Type the target-language form. Meaning shown below.",sSrc:"We must tolerate different opinions."},
     {type:"fb",s:"{1}",a:["l'utopia"],opts:["l'argomento","l'esistenza","l'utopia","l'ipotesi"],hint:"Type the target-language form. Meaning shown below.",sSrc:"utopia"},
     {type:"fb",s:"{1}",a:["l'etica"],opts:["l'ipotesi","l'argomento","l'esistenza","l'etica"],hint:"Type the target-language form. Meaning shown below.",sSrc:"ethics / moral philosophy"},

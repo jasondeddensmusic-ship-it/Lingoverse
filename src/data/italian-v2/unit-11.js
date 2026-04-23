@@ -370,7 +370,7 @@ const UNIT_11 = {
        hint:"This verb shares a root with English 'credit' and 'credible.'"},
 
       {type:"mc", q:"What is the past participle of 'decidere'?",
-       opts:["deciduto","deciso","decidito","decidito"],
+       opts:["deciduto","deciso","decidito","decidato"],
        ans:"deciso",
        hint:"This verb has an irregular past participle. Think of the English word 'decision' for a clue to the Italian form."},
 

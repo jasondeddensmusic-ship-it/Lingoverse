@@ -326,7 +326,7 @@ const UNIT_15 =
 {type:"mc",q:"Wir sitzen im ___ Teil des Zuges, in Wagen 1.",opts:["oberen","vorderen","hinteren","äußeren"],ans:"vorderen",hint:"This adjective means at the front. From the adverb vorn."},
 {type:"fb",s:"Von {1} sieht das Gebäude klein aus, aber innen ist es riesig.",a:["außen"],opts:["außen","innen","oben","unten"],hint:"The opposite of innen. Describes the exterior appearance.",sSrc:"From the outside the building looks small, but inside it is enormous."},
 {type:"mc",q:"Können Sie ___ einparken? Das ist Pflicht bei der Fahrprüfung.",opts:["aufwärts","abwärts","rückwärts","vorwärts"],ans:"rückwärts",hint:"The direction adverb meaning in reverse, going backward."},
-{type:"fb",s:"Bitte im {1} bezahlen. 25 Euro.",a:"Voraus",opts:["Voraus","Voraus","Rückwärts","Abwärts"],hint:"An adverb meaning ahead or in advance. 'Im ___ bezahlen' is a common phrase.",sSrc:"Please pay in advance. 25 euros."}
+{type:"fb",s:"Bitte im {1} bezahlen. 25 Euro.",a:"Voraus",opts:["Voraus","Hinten","Rückwärts","Abwärts"],hint:"An adverb meaning ahead or in advance. 'Im ___ bezahlen' is a common phrase.",sSrc:"Please pay in advance. 25 euros."}
 ]},
 
 // ─── Lesson: Verben und Varianten ───

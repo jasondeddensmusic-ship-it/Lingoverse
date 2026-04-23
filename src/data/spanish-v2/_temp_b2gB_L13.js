@@ -184,7 +184,7 @@ const LESSON_13 = {id:"esv2_b2gB_l13",title:"Argumentación y debate",icon:"💬
 
 {type:"fb",s:"Los resultados de la investigación deben ser {1} para tener validez.",
 
- a:["mensurables"],opts:["mensurables","oficiosos","ordinarios","oficiosos"],
+ a:["mensurables"],opts:["mensurables","oficiosos","ordinarios","opcionales"],
 
  hint:"Able to be quantified or measured with precision, a key requirement in research.",
 

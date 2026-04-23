@@ -137,7 +137,7 @@ const UNIT_20 = {n:20, lang:"pt", srcLang:"en", track:"v2", title:"Para nós faz
 {type:"fb",
  s:"Comprei flores para ela {1} no dia especial.",
  a:["sorrir"],
- opts:["sorrir","sorrirmos","sorrirem","sorrirem"],
+ opts:["sorrir","sorrirmos","sorrirem","sorrires"],
  hint:"Different subject (ela) after para. Simple infinitive works when subject = pronoun.",
  sSrc:"I bought flowers for her to {1} on the special day."},
 

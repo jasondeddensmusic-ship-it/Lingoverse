@@ -285,7 +285,7 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"mc",q:"'Twee broodjes kaas en drie biertjes.'  -  how many items total?",opts:["2","3","6","5"],ans:"5",hint:"2 rolls + 3 beers"},
         {type:"fb",opts:["kost","kosten","kostt","koste"],hint:"How much does THAT cost? (singular)",s:"Hoeveel ___ dat?",a:"kost"},
         {type:"drag_fill",hint:"He WANTS to drink beer. She MAY NOT smoke.",s:"Hij {1} altijd bier drinken. Zij {2} niet roken hier.",blanks:{"1":"wil","2":"mag"},pool:["wil","mag","moet","kan"]},
-        {type:"mc",q:"The plural of 'appel' is:",opts:["appels","appelen","appelen","äppel"],ans:"appels",hint:"-el ending → -s plural"},
+        {type:"mc",q:"The plural of 'appel' is:",opts:["appels","appelen","appele","äppel"],ans:"appels",hint:"-el ending → -s plural"},
         {type:"fb",opts:["Drie","Dertien","Dertig","Driehonderd"],hint:"Three euros fifty",s:"___ euro vijftig, alsjeblieft. (= €3.50)",a:"Drie"},
         {type:"mc",q:"At a borrel, 'Proost!' means:",opts:["Please","Cheers!","Thank you","Goodbye"],ans:"Cheers!",hint:"Raise your glass!"},
         {type:"match",pairs:[{trg:"goedkoop",src:"cheap"},{trg:"duur",src:"expensive"},{trg:"de rekening",src:"the bill"},{trg:"de markt",src:"the market"}]},
