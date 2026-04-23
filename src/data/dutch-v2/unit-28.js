@@ -75,7 +75,7 @@ export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdr
         {type:"mc",q:"Which idiom is typically Dutch (direct communication)?",opts:["Op het puntje van je tong","Onder de knie krijgen","Ergens de vinger op leggen","Met de deur in huis vallen"],ans:"Met de deur in huis vallen",hint:"Getting straight to the point = very ___"},
         {type:"mc",q:"The idiom 'met de deur in huis vallen' reflects:",opts:["Dutch directness","Dutch politeness","Dutch caution","Dutch humor"],ans:"Dutch directness",hint:"Getting straight to the point = very ___"},
         {type:"fb",opts:["puntje","einde","begin","midden"],hint:"Op het ___ van mijn tong: almost remembering",s:"Hoe heet die film ook alweer? Het ligt op het _____ van mijn tong.",a:"puntje"},
-        {type:"mc",q:"'Iets onder de knie krijgen' originated from:",opts:["Cooking (stirring the pot)","Horse riding (controlling with knees)","Swimming (staying above water)","Knitting (looping the thread)"],ans:"Horse riding (controlling with knees)",hint:"Getting something under the knee = mastering (___)"}
+        {type:"mc",q:"'Iets onder de knie krijgen' originated from:",opts:["Cooking (stirring the pot) (in most cases)","Horse riding (controlling with knees)","Swimming (staying above water)","Knitting (looping the thread)"],ans:"Horse riding (controlling with knees)",hint:"Getting something under the knee = mastering (___)"}
   ]},
   {id:"v2u28l4",title:"Idiomen II",icon:"🍎",xp:20,board:true,steps:[
         {type:"intro",title:"Idiomen II",desc:"Dutch idioms using food, nature, and everyday objects. 'Door de zure appel heen bijten', 'van een mug een olifant maken', and more colorful expressions.",goals:["door de zure appel heen bijten","van een mug een olifant maken","met de noorderzon vertrekken","Nature and food idioms"]},
@@ -174,7 +174,7 @@ export default {n:28,lang:"nl",srcLang:"en",track:"v2",title:"Literatuur & Uitdr
           {trg:"met de noorderzon",src:"to vanish"},
           {trg:"door de vingers zien",src:"to turn a blind eye"}
         ]},
-        {type:"mc",q:"A metaphor is different from a simile because:",opts:["It uses 'als'","It's always negative","It has no comparison word like 'als/zoals'","It's only in poetry"],ans:"It has no comparison word like 'als/zoals'",hint:"Metaphor: direct. Simile: with connector."},
+        {type:"mc",q:"A metaphor is different from a simile because:",opts:["It uses 'als' (in most cases) (in most cases)","It's always negative (in most cases)","It has no comparison word like 'als/zoals'","It's only in poetry (in most cases)"],ans:"It has no comparison word like 'als/zoals'",hint:"Metaphor: direct. Simile: with connector."},
         {type:"fb",opts:["understatement","overdrijving","metafoor","vergelijking"],hint:"Understating for rhetorical effect",s:"'Niet slecht' als compliment is een _____.",a:"understatement"},
         {type:"mc",q:"'Wie de schoen past, trekke hem aan' is best translated as:",opts:["Try new shoes before buying","Walking is good exercise","Shoes are expensive in the Netherlands","If the shoe fits, wear it"],ans:"If the shoe fits, wear it",hint:"A proverb about accepting criticism that applies to you"},
         {type:"fb",opts:["ontknoping","spanning","recensie","metafoor"],hint:"Ont + knoping: how the plot resolves",s:"De _____ van het verhaal is verrassend. Ik had het niet verwacht.",a:"ontknoping"},

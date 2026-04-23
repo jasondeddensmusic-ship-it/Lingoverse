@@ -151,7 +151,7 @@ const UNIT_10 =
   {type:"teach",kind:"word",nl:"후라이드",en:"fried (plain) chicken",pos:"noun",gender:null,funFact:"Loanword from English \"fried plain chicken.\" Korean adapted it using Hangul phonetics.",phonetic:"hu-ra-i-deu",example:"A: 양념하고 후라이드 중에 뭐가 좋아요? B: 후라이드가 더 바삭해요. A: 저도 후라이드 좋아해요. B: 그러면 후라이드로 시켜요.",exampleEn:"A: Between seasoned and fried, which do you prefer? B: The fried chicken is crispier. A: I like fried too. B: Then let's order fried.",note:"후라이드: fried (plain) chicken.\nKonglish from English 'fried'.\nCrispy, no sauce."},
   {type:"teach",kind:"word",nl:"반반",en:"half and half",pos:"noun",gender:null,funFact:"From hanja: 半 (half) + 半 (half).",phonetic:"ban-ban",example:"A: 양념으로 할까요, 후라이드로 할까요? B: 반반으로 주세요. A: 반반이 뭐예요? B: 양념 반, 후라이드 반이에요.",exampleEn:"A: Shall we get seasoned or fried? B: Give us half and half, please. A: What is half-half? B: It's half seasoned, half fried.",note:"반반: half and half.\n반 (半: half) + 반 (半: half).\nHalf 양념 + half 후라이드."},
   {type:"fb",s:"양념치킨 아니면 후라이드? ___로 할까요?\n(Seasoned or fried? Shall we go half-half?)",a:"반반",opts:["반반","전부","양념","후라이드"],hint:"반 (half) + 반 (half). Get both types in one order."},
-  {type:"mc",q:"배달앱으로 주문할게요 means:",opts:["I'll cook with the delivery app","I'll pay through the app","I'll deliver the food","I'll order through the delivery app"],ans:"I'll order through the delivery app",hint:"주문하다 = to …."},
+  {type:"mc",q:"배달앱으로 주문할게요 means:",opts:["I'll cook with the delivery app","I'll pay through the app","I'll deliver the food (in most cases)","I'll order through the delivery app"],ans:"I'll order through the delivery app",hint:"주문하다 = to …."},
 ]},
 
 // ═══ L6: 생활 Korean ═══
