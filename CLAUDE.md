@@ -318,6 +318,7 @@ Replaces "native-speaker review" as a bottleneck. The owner speaks 8+ languages 
 6. **H6.** Agents MUST NOT spawn sub-agents recursively. Only the main session spawns agents.
 7. **H7.** Parallel agents MUST NOT edit the same file. The main session maintains a file-lock manifest for the duration of a batch — an agent attempting to edit a locked file aborts.
 8. **H8.** Before starting an autonomous loop, regenerate the queue: `node scripts/generate_queue.cjs`. This scans validator output, PP63/PP67 audits, and polish-matrix gaps to produce a fresh, prioritized queue.
+9. **H9. NO SESSION HANDOFFS.** Do NOT write `docs/SESSION_HANDOFF_*.md` files at the end of a session, between priorities, or to summarize progress. Ever — unless the owner explicitly asks for one. The queue (`docs/AUTONOMOUS_QUEUE.md`), git log, merged PR titles, and the Validator State section of this file are the source of truth. Writing a handoff doc pauses autonomous execution to produce a status report nobody asked for, burns context, and adds low-value PR noise. Existing `docs/SESSION_HANDOFF_*.md` files remain as archive; do not retroactively delete, but do not add new ones. If you catch yourself about to write `SESSION_HANDOFF_<date>.md`: stop, update the queue if needed, then proceed to the next queue item.
 
 ---
 
