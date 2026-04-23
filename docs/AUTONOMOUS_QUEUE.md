@@ -118,7 +118,8 @@ _None currently._
 ### ~~VERB-TABLES-CLICKABLE~~ — DONE 2026-04-19 (unmerged on sad-cohen-32e111, commit 2d5c69a)
 - `verb_table` forms now use `universalHl()`. POS colors + tap-to-see active.
 
-### IDIOMS-PAGE-SEARCH — 45 entries with no filter/search. Still open.
+### ~~IDIOMS-PAGE-SEARCH~~ — DONE (predates 2026-04-19)
+- Search input + level filter chips implemented in `src/pages/IdiomsPage.jsx:13-35,93-117`.
 
 ### ~~GERMAN-FOUNDATIONS-CONTENT~~ — DONE (was never actually "coming soon")
 - Full content has existed in `src/data/foundations.js` since 2026-04-08 (alphabet, pronunciation, vowels, consonants, umlauts, articles, gate quiz). CLAUDE.md had a stale entry. Corrected 2026-04-19.
@@ -136,9 +137,9 @@ _None currently._
 - **description:** Audit French (90 units), Spanish (92 units), Korean (69 units) against concept-driven PP56 standard. May require reshaping unit boundaries.
 - **acceptance:** PP56 audit report for each language; concept-driven justification or reshaping plan for each.
 
-### JAPANESE-PP67-POLISH — unit-15 and unit-22 have 1 production quiz where 2 is preferred
-- **description:** Add one more `fb` or `drag_fill` step per unit targeting existing taught vocabulary.
-- **acceptance:** `validate_all.cjs japanese-v2` reports 0 under-production units with no soft flags.
+### ~~JAPANESE-PP67-POLISH~~ — DONE 2026-04-23 (PR #318)
+- Added fb production steps to `jav2_u15l_b9_1`, `jav2_u15l_b10_1`, `jav2_u22l_b9_1`, `jav2_u22l_b10_1`.
+- Every Japanese lesson in units 15/22 now has ≥2 production quizzes.
 
 ### SUPABASE-BACKEND — Wire auth/progress/SRS data to Supabase
 - **STOPS-ON:** owner green-light on Supabase plan + project URL + anon key. See `docs/` backend recommendation doc (commit 8710737).
