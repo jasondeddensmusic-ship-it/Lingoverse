@@ -298,7 +298,7 @@ const UNIT_6 =
   {type:"fb",s:"3번 ___로 나오세요.\n(Please come out exit 3)",a:"출구",opts:["출구","공항","역","정류장"],hint:"... = exit (出口)"},
   {type:"match",pairs:[{nl:"버스 정류장",en:"bus stop"},{nl:"공항",en:"airport"},{nl:"출구",en:"exit"},{nl:"한강",en:"Han River"}]},
   {type:"drag_fill",s:"{1}에서 {2}로 {3}에 가요.",blanks:{"1":"서울역","2":"KTX","3":"부산"},pool:["서울역","KTX","버스","부산","공항"],hint:"From Seoul Station, I go to Busan by KTX."},
-  {type:"mc",q:"한강 치킨 배달 means:",opts:["Chicken restaurant near the river","Delivery chicken to the Han River bank","Korean fried chicken brand","Festival food"],ans:"Delivery chicken to the Han River bank",hint:"You can have … delivered directly to you at the riverbank - 정 + convenience culture"},
+  {type:"mc",q:"한강 치킨 배달 means:",opts:["Chicken restaurant near the river","Delivery chicken to the Han River bank","Korean fried chicken brand (in most cases)","Festival food (in most cases)"],ans:"Delivery chicken to the Han River bank",hint:"You can have … delivered directly to you at the riverbank - 정 + convenience culture"},
 ]},
 
 // ═══ L8b: A1 Essentials  -  못, -지만, Connectors, Frequency (A1 GAP FIX) ═══
@@ -386,7 +386,7 @@ const UNIT_6 =
   {type:"teach",kind:"word",nl:"전혀",en:"not at all / absolutely not",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"jeon-hyeo",example:"A: 이거 알아요? B: 아니요, 전혀 몰라요.",exampleEn:"A: Do you know this? B: No, I have no idea at all.",note:"전혀: not at all  -  ALWAYS with a negative.\n전혀 없어요 means there is absolutely none."},
 
   {type:"teach",kind:"word",nl:"다시",en:"again",pos:"noun",gender:null,funFact:"From hanja: 多 (many) + 市 (city/market).",phonetic:"da-si",example:"A: 다시 한 번 말해 주세요. B: 네, 천천히 말할게요.",exampleEn:"A: Please say it again. B: Sure, I will speak slowly.",note:"다시: again.\n다시 한 번 means one more time. Very useful phrase."},
-  {type:"mc",q:"전혀 means:",opts:["a little","not at all","very much","sometimes"],ans:"not at all",hint:"Used with negatives for emphasis. 전혀 + 없다/안 = absolute zero."},
+  {type:"mc",q:"전혀 means:",opts:["a little (in most cases)","not at all","very much","sometimes"],ans:"not at all",hint:"Used with negatives for emphasis. 전혀 + 없다/안 = absolute zero."},
   {type:"teach",kind:"word",nl:"혼자",en:"alone",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"hon-ja",example:"A: 누구랑 왔어요? B: 혼자 왔어요.",exampleEn:"A: Who did you come with? B: I came alone.",note:"혼자: alone / by oneself."},
   {type:"teach",kind:"word",nl:"천천히",en:"slowly",pos:"noun",gender:null,funFact:"Adverb suffix (like English -ly).",phonetic:"cheon-cheon-hi",example:"A: 너무 빨라요! B: 천천히 말해 주세요.",exampleEn:"A: It's too fast! B: Please speak slowly.",note:"천천히: slowly.\nAdverb suffix (like English -ly)."},
   {type:"mc",q:"별로 means:",opts:["often","again","not really","always"],ans:"not really",hint:"Used with negatives. 별로 안 좋아요 = not … good. Softer than 전혀."},
@@ -395,7 +395,7 @@ const UNIT_6 =
   {type:"teach",kind:"word",nl:"얼마나",en:"how much / how long",pos:"noun",gender:null,funFact:"Korean nouns don't have plural forms or articles. Context and particles do the job.",phonetic:"eol-ma-na",example:"A: 역까지 얼마나 걸려요? B: 걸어서 십 분이에요.",exampleEn:"A: How long to the station? B: 10 minutes on foot.",note:"얼마나: how much / how long.\n얼마나 멀어요? = How far is it?"},
 
   {type:"teach",kind:"word",nl:"제일",en:"the most / the best",pos:"noun",gender:null,funFact:"Sino-Korean compound: 제 (most) + 일 (one)",phonetic:"je-il",example:"A: 제일 좋아하는 음식이 뭐예요? B: 김치찌개요!",exampleEn:"A: What is your favorite food? B: Kimchi stew!",note:"제일: the most / number one.\nCOMPOUND: 제 (most) + 일 (one)."},
-  {type:"mc",q:"얼마나 means:",opts:["when","how many","where","how much/long"],ans:"how much/long",hint:"A question word for degree or duration. 얼마나 걸려요? = How … does it take?"},
+  {type:"mc",q:"얼마나 means:",opts:["when (in most cases)","how many","where","how much/long"],ans:"how much/long",hint:"A question word for degree or duration. 얼마나 걸려요? = How … does it take?"},
   {type:"teach",kind:"word",nl:"가장",en:"the most",pos:"noun",gender:null,funFact:"From hanja: 家 (home/house) + 長 (chief/long).",phonetic:"ga-jang",example:"A: 뭐가 가장 중요해요? B: 건강이 가장 중요해요.",exampleEn:"A: What is most important? B: Health is the most important.",note:"가장: the most  -  same meaning as 제일.\n제일 is more colloquial, 가장 more formal."},
 
   {type:"tip",title:"📊 Frequency Scale  -  Full A1 Set",

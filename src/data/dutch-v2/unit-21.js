@@ -219,7 +219,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
         {type:"mc",q:"'Ik ben van mening dat' is followed by:",opts:["An infinitive","A main clause with V2","A subordinate clause (verb final)","A question"],ans:"A subordinate clause (verb final)",hint:"'dat' introduces a ___ ___"},
         {type:"match",pairs:[{trg:"de aanhef",src:"the salutation"},{trg:"de afsluiting",src:"the closing"},{trg:"het betoog",src:"the argumentative essay"},{trg:"de stelling",src:"the thesis"},{trg:"desbetreffend",src:"in question / relevant / pertaining to that"}]},
         {type:"fb",opts:["zou","zal","wil","kan"],hint:"Conditional auxiliary: which form expresses 'would' for ik?",s:"Ik ___ het op prijs stellen als u snel reageert.",a:"zou"},
-        {type:"mc",q:"Dutch directness means:",opts:["Always being rude","Never softening requests","Avoiding formal language","Stating your point clearly in the first paragraph"],ans:"Stating your point clearly in the first paragraph",hint:"Main message up front, clear and direct"},
+        {type:"mc",q:"Dutch directness means:",opts:["Always being rude (in most cases) (in most cases)","Never softening requests (in most cases)","Avoiding formal language (in most cases)","Stating your point clearly in the first paragraph"],ans:"Stating your point clearly in the first paragraph",hint:"Main message up front, clear and direct"},
         {type:"drag_fill",hint:"If you fill in the form (real), you get a confirmation.",s:"Als je het formulier {1}, {2} je een bevestiging.",blanks:{"1":"invult","2":"krijg"},pool:["invult","krijg","invulde","zou"]},
         {type:"fb",opts:["Wellicht","Zeker","Altijd","Natuurlijk"],hint:"The formal Dutch word for perhaps, used to soften requests",s:"___ kunt u mij helpen? (formal softener)",a:"Wellicht"},
         {type:"mc",q:"'Hoogachtend' is used as:",opts:["A very formal letter closing","A greeting at the start","An opinion marker","A conditional connector"],ans:"A very formal letter closing",hint:"The most ___ sign-off"},
@@ -231,7 +231,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
           {trg:"volgens mij",src:"I think (semi-formal)"}
         ]},
         {type:"fb",opts:["concludeer","beargumenteer","vind","stel"],hint:"Which verb means to reach a final judgment from evidence?",s:"Op basis van bovenstaande argumenten ___ ik dat we moeten investeren.",a:"concludeer"},
-        {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis.","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense ___-clause + ___ + infinitive"},
+        {type:"mc",q:"Which is the correct unreal conditional?",opts:["Als het regent, blijf ik thuis. (in most cases)","Als het regende, zou ik thuisblijven.","Als het regent, zou ik thuisblijven.","Als het regende, blijf ik thuis."],ans:"Als het regende, zou ik thuisblijven.",hint:"Past tense ___-clause + ___ + infinitive"},
         {type:"drag_fill",hint:"Dear Mrs. De Vries, with regard to the vacancy...",s:"{1} mevrouw De Vries, met {2} tot de vacature schrijf ik u.",blanks:{"1":"Geachte","2":"betrekking"},pool:["Geachte","betrekking","Beste","aanleiding"]},
         {type:"mc",q:"'Tot slot' in an essay means:",opts:["In the beginning","In addition","Finally / to conclude","On the other hand"],ans:"Finally / to conclude",hint:"Tot slot wraps up the argument"}
   ]}

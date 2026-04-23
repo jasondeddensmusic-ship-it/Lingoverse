@@ -93,7 +93,7 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
           {trg:"Si c'était possible...",src:"If it were possible..."},
           {trg:"...je changerais le monde",src:"...I'd change the world"}
         ]},
-        {type:"mc",q:"'Tu voudrais aller où en vacances?' asks about:",opts:["A dream destination you wish for","Your current physical location","Past vacations you already took","A future booking confirmed"],ans:"Dream destination",hint:"Where would you like to go? = asking about wishes."},
+        {type:"mc",q:"'Tu voudrais aller où en vacances?' asks about:",opts:["A dream destination you wish for","Your current physical location","Past vacations you already took","A future booking confirmed"],ans:"A dream destination you wish for",hint:"Where would you like to go? = asking about wishes."},
         {type:"fb",opts:["serait","est","était","sera"],hint:"Life would be simpler without cars. Hypothetical statement.",s:"La vie {1} plus simple sans les voitures. (être, conditional)",a:"serait"},
         {type:"mc",q:"'J'adorerais apprendre à danser!' The -erais ending tells you:",opts:["Past tense","Conditional","Present tense","Future tense"],ans:"Conditional",hint:"Infinitive stem + -erais = 'would'. Which tense uses that?"},
         {type:"fb",opts:["ferais","fais","faisais","feras"],hint:"What would you do with superpowers? Imaginary scenario.",s:"Qu'est-ce que tu {1} si tu avais des superpouvoirs? (faire)",a:"ferais"},
