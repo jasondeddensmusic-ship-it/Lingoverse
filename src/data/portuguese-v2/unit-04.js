@@ -209,7 +209,7 @@ const UNIT_04 = {
           deepDive: "Brazilian servers are friendly and relaxed. A simple Eu quero um café, por favor is perfect. You can also add obrigado or obrigada after your order for extra warmth."},
 
         {type: "mc", q: "O que você quer beber?",
-          opts: ["arroz", "pão", "suco", "carne"], ans: "suco",
+          opts: ["suco", "arroz", "pão", "carne"], ans: "suco",
           hint: "The question asks about drinking."},
 
         {type: "fb", s: "A: O que você quer comer? B: Eu quero {1} com feijão.", a: "arroz",
@@ -218,7 +218,7 @@ const UNIT_04 = {
           hint: "The classic partner of feijão."},
 
         {type: "mc", q: "Which sentence orders water politely?",
-          opts: ["Água!", "Eu água.", "Água, por favor.", "Querer água."], ans: "Água, por favor.",
+          opts: ["Água!", "Água, por favor.", "Eu água.", "Querer água."], ans: "Água, por favor.",
           hint: "Include the polite phrase at the end."},
 
         {type: "fb", s: "A fruta está {1}.", a: "deliciosa",
@@ -227,7 +227,7 @@ const UNIT_04 = {
           hint: "Fruta is feminine, so the adjective must match."},
 
         {type: "mc", q: "Select the definite article that matches masculine singular gender:",
-          opts: ["a", "o", "um", "uma"], ans: "o",
+          opts: ["a", "um", "o", "uma"], ans: "o",
           hint: "Masculine singular nouns use the shorter definite article. Pão (bread) is masculine."},
 
         {type: "tr", mk: "Eu quero água, por favor.", dir: "trg2src"},
@@ -241,7 +241,7 @@ const UNIT_04 = {
           hint: "The eu form of querer."},
 
         {type: "mc", q: "Which answer is polite and correct?",
-          opts: ["Carne.", "Eu carne.", "Uma carne, por favor.", "Querer carne."], ans: "Uma carne, por favor.",
+          opts: ["Carne.", "Eu carne.", "Querer carne.", "Uma carne, por favor."], ans: "Uma carne, por favor.",
           hint: "Include article and politeness."},
 
         {type: "tr", mk: "A comida está deliciosa!", dir: "trg2src"},

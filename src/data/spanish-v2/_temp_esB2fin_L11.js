@@ -19,7 +19,7 @@ const LESSON_11 = {
      funFact:"From Greek 'politike' (civic affairs). Aristotle called humans 'political animals' because we naturally form societies."},
 
     {type:"mc", q:"\u00bfQu\u00e9 significa 'la pol\u00edtica'?",
-     opts:["Un tipo de comida","Las normas c\u00edvicas y el gobierno","Una forma de arte","Un sistema educativo"],
+     opts:["Las normas c\u00edvicas y el gobierno","Un tipo de comida","Una forma de arte","Un sistema educativo"],
      ans:"Las normas c\u00edvicas y el gobierno",
      hint:"This word covers both the practice of governing and specific government measures."},
 
@@ -91,7 +91,7 @@ const LESSON_11 = {
      funFact:"From Greek 'demokratia': 'demos' (people) + 'kratos' (power). Ancient Athens had direct democracy where citizens voted on laws themselves."},
 
     {type:"mc", q:"\u00bfQu\u00e9 es la democracia?",
-     opts:["Un sistema donde los ciudadanos eligen a sus representantes","Un tipo de econom\u00eda","Un conjunto de leyes escritas","Un sistema donde el rey gobierna solo"],
+     opts:["Un tipo de econom\u00eda","Un conjunto de leyes escritas","Un sistema donde los ciudadanos eligen a sus representantes","Un sistema donde el rey gobierna solo"],
      ans:"Un sistema donde los ciudadanos eligen a sus representantes",
      hint:"In this political system, the power ultimately comes from the people through voting."},
 
@@ -123,7 +123,7 @@ const LESSON_11 = {
     ]},
 
     {type:"mc", q:"\u00bfCu\u00e1l es el opuesto de 'la igualdad'?",
-     opts:["La justicia","La desigualdad","La libertad","La democracia"],
+     opts:["La justicia","La libertad","La democracia","La desigualdad"],
      ans:"La desigualdad",
      hint:"This word describes a state where people do not have the same rights or opportunities."},
 
