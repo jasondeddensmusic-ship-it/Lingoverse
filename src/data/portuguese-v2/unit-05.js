@@ -180,7 +180,7 @@ const UNIT_05 = {
           hint: "Opposite of late."},
 
         {type: "match", title: "Match parts of day",
-          pairs: [{trg: "manhã", src: "morning"}, {trg: "tarde", src: "afternoon"}, {trg: "noite", src: "night"}, {trg: "cedo", src: "early"}]},
+          pairs: [{trg: "manhã", src: "morning"}, {trg: "tarde", src: "afternoon"}, {trg: "noite", src: "night"}, {trg: "cedo", src: "early"},{trg:"quanto", src:"how much"}]},
 
         {type: "mc", q: "De ____ eu como pão e café.",
           opts: ["noite", "tarde", "manhã", "hora"], ans: "manhã",
@@ -249,10 +249,7 @@ const UNIT_05 = {
         {type: "fb", s: "Ele {1} bebe suco à tarde.", a: "sempre",
           sSrc: "He always drinks juice in the afternoon.",
           opts: ["sempre", "nunca", "cedo", "hoje"],
-          hint: "Every afternoon, without fail."},
-{type:"match", pairs:[
-  {trg:"quanto", src:"how much"}
-]}
+          hint: "Every afternoon, without fail."}
       ]
     },
     {

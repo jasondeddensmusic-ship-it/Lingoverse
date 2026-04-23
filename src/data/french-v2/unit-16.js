@@ -218,6 +218,6 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
         {type:"mc",q:"What is the formal French word for email?",opts:["le message","le courriel","l'e-mail","le texto"],ans:"le courriel",hint:"This French word is preferred in formal contexts over the English borrowing."},
         {type:"fb",opts:["télécharger","chercher","changer","envoyer"],hint:"This verb means to get a file or app from the internet onto a device.",s:"Je dois {1} cette application sur mon téléphone.",a:["télécharger"]},
         {type:"fb",opts:["écran","internet","application","message"],hint:"This is the visual display part of a computer.",s:"L'{1} de mon ordinateur est très grand.",a:["écran"]},
-        {type:"match",pairs:[{trg:"l'ordinateur",src:"the computer"},{trg:"le portable",src:"the cell phone"},{trg:"le chargeur",src:"the charger"},{trg:"le wifi",src:"the wifi"},{trg:"la photo",src:"the photo"}]}
-  ,{type:"match",pairs:[{trg:"chercher",src:"to search"}]}]}
+        {type:"match",pairs:[{trg:"l'ordinateur",src:"the computer"},{trg:"le portable",src:"the cell phone"},{trg:"le chargeur",src:"the charger"},{trg:"le wifi",src:"the wifi"},{trg:"la photo",src:"the photo"},{trg:"chercher",src:"to search"}]}
+  ]}
 , COVERAGE_U16]};

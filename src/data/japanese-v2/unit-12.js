@@ -141,7 +141,7 @@ const UNIT_12 = {
   {type:"mc", q:"まだです means:", opts:["already done","not yet","I can do it","I cannot"], ans:"not yet",
    hint:"A short, polite answer to 'have you done X y...?' questions."},
 
-  {type:"match", pairs:[{trg:"もう",src:"already"},{trg:"まだ",src:"not yet / still"},{trg:"もう一度(いちど)",src:"one more time"},{trg:"まだです",src:"not yet (short)"}]},
+  {type:"match", pairs:[{trg:"もう",src:"already"},{trg:"まだ",src:"not yet / still"},{trg:"もう一度(いちど)",src:"one more time"},{trg:"まだです",src:"not yet (short)"},{trg:"行(い)ける",src:"can go"}]},
 
   {type:"fb", s:"{1}一度(いちど)お願(ねが)いします。\n(One more time, please.)", a:"もう", opts:["もう","まだ","また","いつも"], sSrc:"One more time, please.",
    hint:"The word meaning 'more/another' when combined with counters."},
@@ -154,8 +154,7 @@ const UNIT_12 = {
   {type:"tip", title:"もう vs まだ Quick Guide",
    text:"もう + past tense = already did\nもう食(た)べました。(I already ate.)\n\nまだ + negative = not yet\nまだ食(た)べていません。(I have not eaten yet.)\n\nまだ + positive = still doing\nまだ食(た)べています。(I am still eating.)\n\nShort answers:\nもう? > はい、もう[past]。/ いいえ、まだです。",
    deepDive:{title:"もう in questions",
-    text:"When もう appears in a question, it often implies expectation:\nもうできましたか? (Are you done already? / Have you finished yet?)\nもうわかりましたか? (Do you understand now? / Have you figured it out?)\n\nThe speaker expects or hopes the answer is yes. If you want a neutral question without expectation, do not use もう."}},
-{type:"match",pairs:[{trg:"行(い)ける",src:"can go"}]}]},
+    text:"When もう appears in a question, it often implies expectation:\nもうできましたか? (Are you done already? / Have you finished yet?)\nもうわかりましたか? (Do you understand now? / Have you figured it out?)\n\nThe speaker expects or hopes the answer is yes. If you want a neutral question without expectation, do not use もう."}}]},
 
 // ═══ L3: 心(こころ)の動詞(どうし) (Mental-State Verbs) ═══
 {id:"jav2_u12l3", title:"心(こころ)の動詞(どうし)", icon:"\u{1F9E0}", xp:15, board:true, steps:[

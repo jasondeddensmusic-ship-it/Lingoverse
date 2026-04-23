@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Japan's Demographic Timeline",
       text:"Key demographic milestones:\n\n2008: Population peaked at ~128 million.\n2020: Population dropped below 126 million.\n2023: Birth rate hit record low (~758,000 births).\n2050: Projected to fall below 100 million.\n2100: Could drop to ~60 million without change.\n\nThe government has declared the situation a 'national crisis' (国難(こくなん), kokunan). Measures include: free preschool education, expanded parental leave, housing subsidies for families, and encouraging remote work in rural areas. Whether these will reverse the trend remains Japan's defining question."}},
 
-    {type:"match", pairs:[{trg:"人口(じんこう)",src:"population"},{trg:"少子化(しょうしか)",src:"declining birthrate"},{trg:"過疎化(かそか)",src:"depopulation"},{trg:"原因(げんいん)",src:"cause"}]},
+    {type:"match", pairs:[{trg:"人口(じんこう)",src:"population"},{trg:"少子化(しょうしか)",src:"declining birthrate"},{trg:"過疎化(かそか)",src:"depopulation"},{trg:"原因(げんいん)",src:"cause"},{trg:"地域(ちいき)",src:"region / area / community"}]},
 
     {type:"fb", s:"田舎(いなか)の{1}が深刻(しんこく)です。\n(Rural depopulation is severe.)", a:"過疎化(かそか)", opts:["過疎化(かそか)","高齢化(こうれいか)","少子化(しょうしか)","人口(じんこう)"], sSrc:"Rural depopulation is severe.",
      hint:"The word for areas losing population, combining 'excess' + 'sparse' + '-ification.'"},
@@ -82,7 +82,6 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"減(へ)る",src:"to decrease"},{trg:"増(ふ)える",src:"to increase"},{trg:"移民(いみん)",src:"immigration"},{trg:"深刻(しんこく)",src:"serious/severe"}]},
 
     {type:"mc", q:"減(へ)る vs 減(へ)らす: what is the difference?", opts:["減(へ)る is past; 減(へ)らす is present","They mean the same thing","減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)","減(へ)る is formal; 減(へ)らす is casual"], ans:"減(へ)る = decrease naturally (intransitive); 減(へ)らす = reduce deliberately (transitive)",
-     hint:"One describes something happening by itself. The other describes a deliberate act by an agent. Same kanji, different ending."},
-  {type:"match",pairs:[{trg:"地域(ちいき)",src:"region / area / community"}]}]
+     hint:"One describes something happening by itself. The other describes a deliberate act by an agent. Same kanji, different ending."}]
 };
 export default BATCH2_L_1;

@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(recycling is important.)", a:"リサイクル", opts:["リサイクル","砂漠化(さばくか)","地球温暖化(ちきゅうおんだんか)","生態系(せいたいけい)"], sSrc:"recycling is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"},{trg:"森林(しんりん)",src:"forest"},{trg:"汚染(おせん)",src:"pollution"}]},
+    {type:"match", pairs:[{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"},{trg:"森林(しんりん)",src:"forest"},{trg:"汚染(おせん)",src:"pollution"},{trg:"地球温暖化(ちきゅうおんだんか)",src:"global warming"}]},
 
     {type:"mc", q:"Which word means carbon?", opts:["砂漠化(さばくか)","カーボン","リサイクル","絶滅危惧種(ぜつめつきぐしゅ)"], ans:"カーボン",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"地球温暖化(ちきゅうおんだんか)",src:"global warming"}]}]
+  ]
 };
 export default BATCH10_L1;

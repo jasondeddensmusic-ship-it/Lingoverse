@@ -241,7 +241,7 @@ const UNIT_22 = {
        example:"A: Hai visto i film del festival di Venezia?\nB: Si, quest'anno c'erano film incredibili.\nA: Come hai saputo?\nB: Me l'ha detto un amico ieri sera.",
        exampleSrc:"A: Did you see the films from the Venice festival?\nB: Yes, this year there were incredible films.\nA: How did you find out?\nB: A friend told me last night.",
        funFact:"The Venice Film Festival (Mostra del Cinema di Venezia), founded in 1932, is the oldest film festival in the world, predating Cannes by seven years. Its top prize, the Leone d'Oro (Golden Lion), is one of cinema's most coveted awards."},
-{type:"match",pairs:[{trg:"l'attore",src:"the actor"},{trg:"la colonna sonora",src:"the soundtrack / film score"},{trg:"il cortometraggio",src:"the short film"},{trg:"il festival",src:"the festival"}]},
+{type:"match",pairs:[{trg:"l'attore",src:"the actor"},{trg:"la colonna sonora",src:"the soundtrack / film score"},{trg:"il cortometraggio",src:"the short film"},{trg:"il festival",src:"the festival"},{trg:"girare",src:"to shoot (a film) / to turn"}]},
 
       {type:"teach", trg:"girare", src:"to shoot (a film) / to turn", pos:"verb", gender:null,
        note:"Regular -are verb. 'Girare un film' = to shoot a film.\nAlso: 'girare a destra' = to turn right.",
@@ -301,7 +301,7 @@ const UNIT_22 = {
        opts:["A neorealist movie genre","A prestigious film festival award","A type of Italian cinema ticket","Rome's famous film studios"],
        ans:"Rome's famous film studios",
        hint:"Built in 1937 on the outskirts of the capital, it has hosted productions by Fellini, Zeffirelli, and many others. Often called 'the Hollywood on the Tiber.'"}
-    ,{type:"match",pairs:[{trg:"girare",src:"to shoot (a film) / to turn"}]}]},
+    ]},
 
     {id:"itv2_u22l_b2_academic", title:"Linguaggio Accademico B2", icon:"🎓", xp:20, board:true, steps:[
       {type:"intro", title:"Academic Discourse B2", desc:"Ten B2 academic terms for debate, justification, and impact.", goals:["Use dibattere and giustificare in debate","Describe impact with l'impatto","Use nondimeno and altresì as connectors"]},

@@ -119,7 +119,7 @@ const BATCH2_U03_L2 = {
       {trg:"dormire", src:"to sleep"},
       {trg:"giocare", src:"to play"},
       {trg:"aiutare", src:"to help"}
-    ]},
+    ,{trg:"tanto",src:"so much / a lot"}]},
 
     {type:"mc", q:"What is the classic Italian mother question?",
      opts:["Come stai? (How are you?)","Hai dormito? (Did you sleep?)","Hai mangiato? (Have you eaten?)","Dove vai? (Where are you going?)"],
@@ -136,6 +136,6 @@ const BATCH2_U03_L2 = {
      opts:["To teach","To play","To read","To learn"],
      ans:"To learn",
      hint:"From Latin 'imparare' (to acquire). The opposite of 'dimenticare' (to forget). Think: acquiring knowledge."}
-  ,{type:"match",pairs:[{trg:"guardare",src:"to watch / to look at"},{trg:"preparare",src:"to prepare"},{trg:"insegnare",src:"to teach"},{trg:"imparare",src:"to learn"},{trg:"volere bene",src:"to love (family/friends)"},{trg:"preoccuparsi",src:"to worry (reflexive)"}]},{type:"match",pairs:[{trg:"tanto",src:"so much / a lot"}]}]
+  ,{type:"match",pairs:[{trg:"guardare",src:"to watch / to look at"},{trg:"preparare",src:"to prepare"},{trg:"insegnare",src:"to teach"},{trg:"imparare",src:"to learn"},{trg:"volere bene",src:"to love (family/friends)"},{trg:"preoccuparsi",src:"to worry (reflexive)"}]}]
 };
 export default BATCH2_U03_L2;

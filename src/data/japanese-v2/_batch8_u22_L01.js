@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: This is a small thing, but please accept it.\nB: Thank you. I will accept it.\nA: How long did it take?\nB: About two hours.",
      funFact:"つまらないものですが is classic Japanese modesty. You call your own gift つまらない (boring/trivial) to show humility. Younger generations increasingly find this phrase outdated and prefer おくちにあうかわかりませんが (I am not sure if it suits your taste). The cultural shift reflects changing attitudes toward false modesty."},
 
-    {type:"match", pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"お返(かえ)し",src:"return gift"},{trg:"手土産(てみやげ)",src:"visiting gift"},{trg:"おすそ分(わ)け",src:"sharing a portion"}],
+    {type:"match", pairs:[{trg:"お中元(ちゅうげん)",src:"mid-year gift"},{trg:"お歳暮(せいぼ)",src:"year-end gift"},{trg:"お返(かえ)し",src:"return gift"},{trg:"手土産(てみやげ)",src:"visiting gift"},{trg:"おすそ分(わ)け",src:"sharing a portion"},{trg:"つまらないものですが",src:"this is a small/trivial thing, but..."}],
      hint:"Match each gift type with its English description."},
 
     {type:"mc", q:"Why is the number 4 avoided in Japanese gifts?", opts:["It breaks easily into pieces","It sounds like the word for death (し)","It is considered unlucky in astrology","It represents loneliness"], ans:"It sounds like the word for death (し)",
@@ -100,6 +100,6 @@ const BATCH8_L1 = {
     opts:["記念品(きねんひん)","贈(おく)り物(もの)","おすそ分(わ)け","お返(かえ)し"],
     hint:"You received something at a wedding as a keepsake. This noun refers to a commemorative item or memento.",
     sSrc:"I received a {1} as a wedding favour."}
-  ,{type:"match",pairs:[{trg:"贈(おく)り物(もの)",src:"gift / present"},{trg:"のし",src:"decorative gift wrapping paper"},{trg:"包(つつ)む",src:"to wrap"},{trg:"気持(きも)ちを込(こ)める",src:"to put one's feelings into"},{trg:"お礼(れい)を言(い)う",src:"to express gratitude / to say thank you"},{trg:"記念品(きねんひん)",src:"commemorative item / souvenir / memento"}]},{type:"match",pairs:[{trg:"つまらないものですが",src:"this is a small/trivial thing, but..."}]}]
+  ,{type:"match",pairs:[{trg:"贈(おく)り物(もの)",src:"gift / present"},{trg:"のし",src:"decorative gift wrapping paper"},{trg:"包(つつ)む",src:"to wrap"},{trg:"気持(きも)ちを込(こ)める",src:"to put one's feelings into"},{trg:"お礼(れい)を言(い)う",src:"to express gratitude / to say thank you"},{trg:"記念品(きねんひん)",src:"commemorative item / souvenir / memento"}]}]
 };
 export default BATCH8_L1;

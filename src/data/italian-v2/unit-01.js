@@ -228,7 +228,7 @@ const UNIT_01 = {
        example:"A: Cosa studi?\nB: Studio medicina all'universita.",
        exampleSrc:"A: What do you study?\nB: I study medicine at the university.",
        funFact:"Lo studio as a noun has multiple meanings: a study room, a professional office (studio medico = doctor's office), or an artist's studio. All from Latin 'studium' (eagerness)."},
-{type:"match",pairs:[{trg:"parlo",src:"I speak"},{trg:"un po'",src:"a little / a bit"},{trg:"lavoro",src:"I work / job"},{trg:"studio",src:"I study"}]},
+{type:"match",pairs:[{trg:"parlo",src:"I speak"},{trg:"un po'",src:"a little / a bit"},{trg:"lavoro",src:"I work / job"},{trg:"studio",src:"I study"},{trg:"per favore",src:"please"}]},
 
       {type:"tip", title:"Subject Pronouns",
        text:"Italian subject pronouns are usually optional because verb endings already show who is doing the action.\n\nSingular:\nio - I (often dropped)\ntu - you (informal)\nlui - he\nlei - she\nLei - you (formal, always capitalized)\n\nPlural:\nnoi - we\nvoi - you all\nloro - they\n\nWhen to use the pronoun:\n- For emphasis: Io non lo so, ma TU si! (I don't know, but YOU do!)\n- After conjunctions: anche lui (he too), solo lei (only she)\n- Formal Lei is always capitalized in writing.",
@@ -270,8 +270,7 @@ const UNIT_01 = {
        opts:["very much","a lot","a little","nothing"],
        ans:"a little",
        hint:"This is a shortened form of 'poco.' The apostrophe marks the dropped letters."},
-    {type:"mc",q:"Which expression means 'a little' in Italian?",opts:["un molto","un tutto","un niente","un po'"],ans:"un po'",hint:"This shortened form of 'poco' is used constantly. The apostrophe marks the dropped letters."},
-    {type:"match",pairs:[{trg:"per favore",src:"please"}]}]},
+    {type:"mc",q:"Which expression means 'a little' in Italian?",opts:["un molto","un tutto","un niente","un po'"],ans:"un po'",hint:"This shortened form of 'poco' is used constantly. The apostrophe marks the dropped letters."}]},
     EXP_L1, EXP_L2, EXP_L3,
   
   BATCH8_L1,

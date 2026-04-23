@@ -297,7 +297,7 @@ const UNIT_17 = {
         {trg:"la password", src:"the password"},
         {trg:"condividere", src:"to share"},
         {trg:"postare", src:"to post"}
-      ]},
+      ,{trg:"cercare su internet",src:"to search online"}]},
 
       {type:"mc", q:"What is 'googlare' in Italian?",
        opts:["A type of pasta dish","An Italianized action word meaning to Google / search online","A popular computer brand name","A well-known Italian search engine"],
@@ -325,7 +325,7 @@ const UNIT_17 = {
        opts:["Because it ends in a consonant sound","Because all English loanwords are feminine","Because passwords are always kept secret","Because 'parola' (word) is feminine"],
        ans:"Because 'parola' (word) is feminine",
        hint:"Italian assigns gender to English loans based on the nearest native equivalent. An access code takes its grammatical gender from whichever Italian noun it most resembles."}
-    ,{type:"match",pairs:[{trg:"cercare su internet",src:"to search online"}]}]}
+    ]}
   ,
   BATCH8_L1,
   BATCH7_L1,

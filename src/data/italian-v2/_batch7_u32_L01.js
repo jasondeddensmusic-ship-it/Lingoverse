@@ -97,7 +97,7 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{
  {trg:"lo stereotipo", src:"stereotype"},
  {trg:"il campanilismo", src:"local patriotism"},
  {trg:"la nostalgia", src:"nostalgia"}
-]},
+,{trg:"la tradizione",src:"tradition"}]},
 
 {type:"mc", q:"Che cos'e il movimento Slow Food?",
  opts:["A restaurant chain","A reaction to globalization, promoting local food","A diet program","A cooking school"],
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u32l_b7_1", title:"L'identità culturale", icon:"\u{
  {trg:"l'integrazione", src:"integration"},
  {trg:"la globalizzazione", src:"globalization"}
 ]}
-,{type:"match",pairs:[{trg:"la tradizione",src:"tradition"}]},{type:"fb",s:"La globalizzazione minaccia {1} dei piccoli comuni.",a:["il dialetto"],opts:["il dialetto","la nostalgia","il campanilismo","la diversita"],hint:"A regional variety of a language, spoken locally and distinct from the national standard.",sSrc:"Globalization threatens the {1} of small towns."}]};
+,{type:"fb",s:"La globalizzazione minaccia {1} dei piccoli comuni.",a:["il dialetto"],opts:["il dialetto","la nostalgia","il campanilismo","la diversita"],hint:"A regional variety of a language, spoken locally and distinct from the national standard.",sSrc:"Globalization threatens the {1} of small towns."}]};
 export default BATCH7_L1;

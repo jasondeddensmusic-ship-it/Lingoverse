@@ -4,7 +4,6 @@ const COVERAGE_U29 = {
   id:"jav2_u29_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"こんらん",src:"confusion / disruption / chaos"}]},
     {type:"fb",s:"きゅうげきなえんやすでしじょうが{1}しています。",a:["こんらん"],opts:["こんらん"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Markets are in turmoil due to rapid yen depreciation."},
     {type:"fb",s:"日本(にほん)の{1}は回復(かいふく)しつつあります。",a:["経済(けいざい)"],opts:["こんらん","経済(けいざい)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Japan's economy is in the process of recovering."},
     {type:"fb",s:"最近(さいきん){1}がいいですね。",a:["景気(けいき)"],opts:["景気(けいき)","こんらん"],hint:"Type the target-language form. Meaning shown below.",sSrc:"The economy has been good recently."},

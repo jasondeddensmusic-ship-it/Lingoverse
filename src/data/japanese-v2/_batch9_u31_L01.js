@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(evidence is important.)", a:"証拠(しょうこ)", opts:["証拠(しょうこ)","無罪(むざい)","有罪(ゆうざい)","裁判官(さいばんかん)"], sSrc:"evidence is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"裁判官(さいばんかん)",src:"judge"},{trg:"弁護士(べんごし)",src:"lawyer"},{trg:"被告人(ひこくにん)",src:"defendant"},{trg:"判決(はんけつ)",src:"verdict"}]},
+    {type:"match", pairs:[{trg:"裁判官(さいばんかん)",src:"judge"},{trg:"弁護士(べんごし)",src:"lawyer"},{trg:"被告人(ひこくにん)",src:"defendant"},{trg:"判決(はんけつ)",src:"verdict"},{trg:"有罪(ゆうざい)",src:"guilty"}]},
 
     {type:"mc", q:"Which word means constitution?", opts:["無罪(むざい)","憲法(けんぽう)","証拠(しょうこ)","弁護士(べんごし)"], ans:"憲法(けんぽう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"有罪(ゆうざい)",src:"guilty"}]}]
+  ]
 };
 export default BATCH9_L1;

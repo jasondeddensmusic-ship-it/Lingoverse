@@ -86,14 +86,14 @@ const BATCH5_L_2 = {
      exampleSrc:"A: I protested against unfair working conditions.\nB: Workers' rights should be protected.\nA: What was it like?\nB: It was much better than I imagined.",
      funFact:"不当(ふとう) uses 不(ふ) (not) and 当(とう) (appropriate). Japanese labor law protects against 不当(ふとう)解雇(かいこ) (unfair dismissal) and 不当(ふとう)労働(ろうどう)行為(こうい) (unfair labor practices). The word appears frequently in legal and news contexts. Understanding 不当(ふとう) is important for grasping Japanese discussions about justice and fairness."},
 
-    {type:"match", pairs:[{trg:"禁止(きんし)",src:"prohibition"},{trg:"許可(きょか)",src:"permission"},{trg:"命令(めいれい)",src:"order/command"},{trg:"異議(いぎ)",src:"objection"}]},
+    {type:"match", pairs:[{trg:"禁止(きんし)",src:"prohibition"},{trg:"許可(きょか)",src:"permission"},{trg:"命令(めいれい)",src:"order/command"},{trg:"異議(いぎ)",src:"objection"},{trg:"不当(ふとう)",src:"unfair / unjust / improper"}]},
 
     {type:"fb", s:"上司(じょうし)の{1}をもらってから出張(しゅっちょう)の手配(てはい)をしてください。\n(Please arrange the trip after getting your boss's approval.)", a:"許可(きょか)", opts:["許可(きょか)","禁止(きんし)","命令(めいれい)","異議(いぎ)"], sSrc:"Please arrange the trip after getting your boss's approval.",
      hint:"The noun meaning permission or approval, needed before taking action."},
 
     {type:"mc", q:"なさい is best described as:", opts:["An extremely rude order","A question form","A gentle command (softer than imperative)","A polite request"], ans:"A gentle command (softer than imperative)",
      hint:"This form is used by parents to children and teachers to students. Commanding but not harsh."}
-  ,{type:"match",pairs:[{trg:"させてください",src:"please let me do / please allow me"},{trg:"させていただく",src:"to be allowed to do (humble)"},{trg:"〜てはいけない",src:"must not / it is forbidden to"},{trg:"従(したが)う",src:"to obey / to follow / to comply"},{trg:"〜なさい",src:"do ~ (gentle command)"},{trg:"許(ゆる)す",src:"to permit / to forgive / to allow"}]},{type:"match",pairs:[{trg:"不当(ふとう)",src:"unfair / unjust / improper"}]},
+  ,{type:"match",pairs:[{trg:"させてください",src:"please let me do / please allow me"},{trg:"させていただく",src:"to be allowed to do (humble)"},{trg:"〜てはいけない",src:"must not / it is forbidden to"},{trg:"従(したが)う",src:"to obey / to follow / to comply"},{trg:"〜なさい",src:"do ~ (gentle command)"},{trg:"許(ゆる)す",src:"to permit / to forgive / to allow"}]},
   {type:"fb", s:"この区域(くいき)ではスマホの使用(しよう)が{1}されています。", a:["禁止(きんし)"], opts:["禁止(きんし)","命令(めいれい)","させてください","させていただく"], hint:"An official ban or prohibition on a particular action.", sSrc:"The use of smartphones is {1} in this area."}
 ]
 };

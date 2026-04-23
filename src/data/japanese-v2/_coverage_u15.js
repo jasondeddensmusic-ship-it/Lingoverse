@@ -4,7 +4,6 @@ const COVERAGE_U15 = {
   id:"jav2_u15_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"〜ていただけますか",src:"could you please ~ ? (very polite)"}]},
     {type:"fb",s:"{1}",a:["〜ていただけますか"],opts:["〜ていただけますか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"could you please ~ ? (very polite)"},
     {type:"fb",s:"次(つぎ)の角(かど)を{1}に曲(ま)がってください。",a:["右(みぎ)"],opts:["〜ていただけますか","右(みぎ)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please turn {1} at the next corner."},
     {type:"fb",s:"{1}",a:["左(ひだり)"],opts:["左(ひだり)","〜ていただけますか"],hint:"Type the target-language form. Meaning shown below.",sSrc:"left"},

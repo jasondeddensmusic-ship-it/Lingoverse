@@ -96,7 +96,7 @@ const BATCH7_L1 = {
       {trg:"片道(かたみち)", src:"one way"},
       {trg:"近道(ちかみち)", src:"shortcut"},
       {trg:"交差点(こうさてん)", src:"intersection"}
-    ]},
+    ,{trg:"時刻表(じこくひょう)",src:"timetable / schedule"}]},
 
     {type:"fb", s:"3番(ばん){1}から電車(でんしゃ)が出(で)ます。",
      a:["乗(の)り場(ば)"],
@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["運転免許(うんてんめんきょ)","時刻表(じこくひょう)","乗(の)り場(ば)","交差点(こうさてん)"],
      hint:"Japanese driving licenses are famously expensive and difficult to obtain. Driving school costs 200,000+ yen.",
      sSrc:"Japanese {1} is difficult to get."}
-  ,{type:"match",pairs:[{trg:"時刻表(じこくひょう)",src:"timetable / schedule"}]}]
+  ]
 };
 export default BATCH7_L1;

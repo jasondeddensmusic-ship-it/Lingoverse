@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: We published a sustainability report.\nB: It builds trust with investors.\nA: Were there any problems?\nB: There were some issues, but we resolved them.\nA: How did you resolve them?\nB: We discussed it as a whole team and found the best method.",
      funFact:"サステナビリティ and 持続可能性(じぞくかのうせい) coexist in Japanese business. サステナビリティ tends to appear in corporate communications (more global/trendy), while 持続可能性(じぞくかのうせい) appears in government documents (more formal/native). ESG (環境(かんきょう)・社会(しゃかい)・ガバナンス) reporting is increasingly mandatory for listed companies."},
 
-    {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"自動化(じどうか)",src:"automation"},{trg:"個人情報(こじんじょうほう)",src:"personal data"},{trg:"デジタルデバイド",src:"digital divide"},{trg:"情報(じょうほう)リテラシー",src:"information literacy"}],
+    {type:"match", pairs:[{trg:"人工知能(じんこうちのう)",src:"artificial intelligence"},{trg:"自動化(じどうか)",src:"automation"},{trg:"個人情報(こじんじょうほう)",src:"personal data"},{trg:"デジタルデバイド",src:"digital divide"},{trg:"情報(じょうほう)リテラシー",src:"information literacy"},{trg:"サステナビリティ",src:"sustainability"}],
      hint:"Match each technology term with its English meaning."},
 
     {type:"mc", q:"Why is Japan relatively receptive to AI and automation?", opts:["AI is cheaper than in other countries","Labor shortage from aging population makes AI adoption practical","Japan has unlimited tech workers","The government banned manual labor"], ans:"Labor shortage from aging population makes AI adoption practical",
@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What did Japan create in 2021 to address digital issues?", opts:["Robot army","Virtual government","デジタル庁(ちょう) (Digital Agency)","AI police force"], ans:"デジタル庁(ちょう) (Digital Agency)",
      hint:"This new ministry-level body was created in 2021 to lead Japan's transformation into a digitalized society."}
-  ,{type:"match",pairs:[{trg:"アルゴリズム",src:"algorithm"},{trg:"倫理的問題(りんりてきもんだい)",src:"ethical issue / ethical problem"},{trg:"ディープフェイク",src:"deepfake"},{trg:"ブロックチェーン",src:"blockchain"},{trg:"送信(そうしん)する",src:"to transmit / to send (data/information)"},{trg:"クラウド",src:"cloud (computing)"}]},{type:"match",pairs:[{trg:"サステナビリティ",src:"sustainability"}]}]
+  ,{type:"match",pairs:[{trg:"アルゴリズム",src:"algorithm"},{trg:"倫理的問題(りんりてきもんだい)",src:"ethical issue / ethical problem"},{trg:"ディープフェイク",src:"deepfake"},{trg:"ブロックチェーン",src:"blockchain"},{trg:"送信(そうしん)する",src:"to transmit / to send (data/information)"},{trg:"クラウド",src:"cloud (computing)"}]}]
 };
 export default BATCH8_L1;

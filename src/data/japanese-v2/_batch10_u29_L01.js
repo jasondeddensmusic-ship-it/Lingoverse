@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(supply is important.)", a:"供給(きょうきゅう)", opts:["供給(きょうきゅう)","需要(じゅよう)","市場価格(しじょうかかく)","輸出(ゆしゅつ)"], sSrc:"supply is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"輸出(ゆしゅつ)",src:"export"},{trg:"輸入(ゆにゅう)",src:"import"},{trg:"貿易(ぼうえき)",src:"trade"},{trg:"関税(かんぜい)",src:"tariff"}]},
+    {type:"match", pairs:[{trg:"輸出(ゆしゅつ)",src:"export"},{trg:"輸入(ゆにゅう)",src:"import"},{trg:"貿易(ぼうえき)",src:"trade"},{trg:"関税(かんぜい)",src:"tariff"},{trg:"市場価格(しじょうかかく)",src:"market price"}]},
 
     {type:"mc", q:"Which word means direct investment?", opts:["需要(じゅよう)","直接投資(ちょくせつとうし)","供給(きょうきゅう)","輸入(ゆにゅう)"], ans:"直接投資(ちょくせつとうし)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"市場価格(しじょうかかく)",src:"market price"}]}]
+  ]
 };
 export default BATCH10_L1;

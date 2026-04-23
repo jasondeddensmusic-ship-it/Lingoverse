@@ -90,7 +90,7 @@ const BATCH7_L1 = {
       {trg:"さらに", src:"furthermore"},
       {trg:"けっきょく", src:"in the end"},
       {trg:"すなわち", src:"namely"}
-    ]},
+    ,{trg:"そのうえ",src:"on top of that / besides"}]},
 
     {type:"fb", s:"雨(あめ)が降(ふ)っていた。{1}、多(おお)くの人(ひと)が来(き)た。",
      a:["それにもかかわらず"],
@@ -127,6 +127,6 @@ const BATCH7_L1 = {
      opts:["かならずしも","けっきょく","そもそも","さらに"],
      hint:"Expensive things are not ALWAYS good. This adverb means 'not necessarily.'",
      sSrc:"Expensive things are {1} good."}
-  ,{type:"match",pairs:[{trg:"そのうえ",src:"on top of that / besides"}]}]
+  ]
 };
 export default BATCH7_L1;

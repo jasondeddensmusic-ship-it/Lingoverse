@@ -167,7 +167,7 @@ const UNIT_34 = {
   {type:"mc", q:"交渉(こうしょう) means:", opts:["confrontation","negotiation","announcement","declaration"], ans:"negotiation",
    hint:"The process of discussing terms between parties to reach an agreement."},
 
-  {type:"match", pairs:[{trg:"核兵器(かくへいき)",src:"nuclear weapons"},{trg:"難民(なんみん)",src:"refugee"},{trg:"気候変動(きこうへんどう)",src:"climate change"},{trg:"貿易(ぼうえき)",src:"trade"}]},
+  {type:"match", pairs:[{trg:"核兵器(かくへいき)",src:"nuclear weapons"},{trg:"難民(なんみん)",src:"refugee"},{trg:"気候変動(きこうへんどう)",src:"climate change"},{trg:"貿易(ぼうえき)",src:"trade"},{trg:"条約(じょうやく)",src:"treaty / convention"}]},
 
   {type:"fb", s:"貿易交渉(ぼうえきこうしょう)は何回(なんかい)も続(つづ)いています。\n(Trade negotiations have continued for many rounds.)", a:"交渉(こうしょう)", opts:["交渉(こうしょう)","協力(きょうりょく)","紛争(ふんそう)","援助(えんじょ)"], sSrc:"Trade negotiations have continued for many rounds.",
    hint:"The noun meaning 'negotiation,' the process of discussing and bargaining."},
@@ -184,8 +184,7 @@ const UNIT_34 = {
    hint:"The common noun for a nation or country."},
 
   {type:"mc", q:"開催(かいさい)する means:", opts:["to hold/host an event","to attend an event","to cancel an event","to broadcast an event"], ans:"to hold/host an event",
-   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."},
-{type:"match",pairs:[{trg:"条約(じょうやく)",src:"treaty / convention"}]}]},BATCH2_L01
+   hint:"The verb combining 'open' and 'sponsor,' used when a city or country organizes a major international e...."}]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

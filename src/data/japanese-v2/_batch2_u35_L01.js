@@ -66,7 +66,7 @@ const BATCH2_L_1 = {
     {type:"fb", s:"AIに対(たい)する{1}のあるべき姿(すがた)が議論(ぎろん)されています。\n(What AI regulation should look like is being debated.)", a:"規制(きせい)", opts:["規制(きせい)","開発(かいはつ)","活用(かつよう)","研究(けんきゅう)"], sSrc:"What AI regulation should look like is being debated.",
      hint:"The noun meaning 'regulation' or 'control,' the rules governing how something operates."},
 
-    {type:"match", pairs:[{trg:"透明性(とうめいせい)",src:"transparency"},{trg:"説明可能(せつめいかのう)",src:"explainable"},{trg:"機械学習(きかいがくしゅう)",src:"machine learning"},{trg:"バイアス",src:"bias"}]},
+    {type:"match", pairs:[{trg:"透明性(とうめいせい)",src:"transparency"},{trg:"説明可能(せつめいかのう)",src:"explainable"},{trg:"機械学習(きかいがくしゅう)",src:"machine learning"},{trg:"バイアス",src:"bias"},{trg:"主権者(しゅけんしゃ)",src:"sovereign / stakeholder / person in charge"}]},
 
     {type:"fb", s:"個人(こじん)が自分(じぶん)のデータの{1}を持(も)つべきです。\n(Individuals should have sovereignty over their own data.)", a:"主権(しゅけん)", opts:["主権(しゅけん)","プライバシー","セキュリティー","バイアス"], sSrc:"Individuals should have sovereignty over their own data.",
      hint:"The noun meaning 'sovereignty' or 'control,' the supreme authority over something."},
@@ -74,7 +74,6 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"偏(かたよ)り",src:"bias/imbalance"},{trg:"規制(きせい)",src:"regulation"},{trg:"自律型(じりつがた)",src:"autonomous"},{trg:"データ主権(しゅけん)",src:"data sovereignty"}]},
 
     {type:"mc", q:"The main concern about 自律型(じりつがた)AI is:", opts:["It uses too much electricity","It costs too much","Loss of human oversight and control","It is too slow"], ans:"Loss of human oversight and control",
-     hint:"Autonomous systems that operate without h... supervision raise fundamental ethical questions."},
-  {type:"match",pairs:[{trg:"主権者(しゅけんしゃ)",src:"sovereign / stakeholder / person in charge"}]}]
+     hint:"Autonomous systems that operate without h... supervision raise fundamental ethical questions."}]
 };
 export default BATCH2_L_1;

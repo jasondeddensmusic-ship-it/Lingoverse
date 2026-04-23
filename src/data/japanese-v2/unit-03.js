@@ -203,7 +203,7 @@ const UNIT_03 = {
    exampleSrc:"A: Ten people?\nB: No, eight people.",
    funFact:"The kanji 十 is a cross shape, representing completeness. Japanese math is beautifully systematic: 11 is juu-ichi (ten-one), 20 is ni-juu (two-tens), 23 is ni-juu-san (two-tens-three)."},
 
-  {type:"match", pairs:[{trg:"一(いち)",src:"one"},{trg:"二(に)",src:"two"},{trg:"三(さん)",src:"three"},{trg:"四(よん)",src:"four"},{trg:"五(ご)",src:"five"}]},
+  {type:"match", pairs:[{trg:"一(いち)",src:"one"},{trg:"二(に)",src:"two"},{trg:"三(さん)",src:"three"},{trg:"四(よん)",src:"four"},{trg:"五(ご)",src:"five"},{trg:"誰(だれ)",src:"who"}]},
 
   {type:"match", pairs:[{trg:"六(ろく)",src:"six"},{trg:"七(なな)",src:"seven"},{trg:"八(はち)",src:"eight"},{trg:"九(きゅう)",src:"nine"},{trg:"十(じゅう)",src:"ten"}]},
 
@@ -222,8 +222,7 @@ const UNIT_03 = {
     text:"Four (し/shi) sounds like 死 (death).\nNine (く/ku) sounds like 苦 (suffering).\n\nHotels, hospitals, and apartments often skip floors 4, 9, 13, and 42.\n42 = shi-ni = 'to die.'\n\nMany people use yon (not shi) and kyuu (not ku) to avoid these sounds."}},
 
   {type:"mc", q:"十二(じゅうに) means:", opts:["12","100","2","20"], ans:"12",
-   hint:"Juu (ten) + ni (two) = twelve."},
-{type:"match",pairs:[{trg:"誰(だれ)",src:"who"}]}]},
+   hint:"Juu (ten) + ni (two) = twelve."}]},
 
 // ═══ L7: 場所(ばしょ)と場所(ばしょ) (Places & Everyday Spaces) ═══
 {id:"jav2_u3l7", title:"場所(ばしょ)とまわり", icon:"\u{1F3E2}", xp:15, board:true, steps:[

@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(childcare support is important.)", a:"子育(こそだ)て支援(しえん)", opts:["子育(こそだ)て支援(しえん)","インバウンド","ソサエティ","革新(かくしん)"], sSrc:"childcare support is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"革新(かくしん)",src:"innovation"},{trg:"スタートアップ",src:"startup"},{trg:"地方創生(ちほうそうせい)",src:"regional creation"},{trg:"働(はたら)き方改革(かたかいかく)",src:"work style reform"}]},
+    {type:"match", pairs:[{trg:"革新(かくしん)",src:"innovation"},{trg:"スタートアップ",src:"startup"},{trg:"地方創生(ちほうそうせい)",src:"regional creation"},{trg:"働(はたら)き方改革(かたかいかく)",src:"work style reform"},{trg:"ソサエティ",src:"Society 5.0"}]},
 
     {type:"mc", q:"Which word means vision of the future?", opts:["インバウンド","未来像(みらいぞう)","子育(こそだ)て支援(しえん)","スタートアップ"], ans:"未来像(みらいぞう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"ソサエティ",src:"Society 5.0"}]}]
+  ]
 };
 export default BATCH9_L1;

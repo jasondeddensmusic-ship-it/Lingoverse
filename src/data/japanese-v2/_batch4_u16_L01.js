@@ -98,7 +98,7 @@ const BATCH4_L_1 = {
       {trg:"同僚(どうりょう)", src:"colleague"},
       {trg:"出張(しゅっちょう)", src:"business trip"},
       {trg:"転勤(てんきん)", src:"job transfer"}
-    ]},
+    ,{trg:"アルバイト",src:"part-time job"}]},
 
     {type:"mc", q:"アルバイト comes from which language?",
      opts:["Dutch","German","English","French"], ans:"German",
@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"定時(ていじ) means:",
      opts:["overtime","holiday","meeting time","regular work hours / quitting time"], ans:"regular work hours / quitting time",
      hint:"The official scheduled t... when the workday ends."}
-  ,{type:"match",pairs:[{trg:"会社員(かいしゃいん)",src:"company employee"},{trg:"給料(きゅうりょう)",src:"salary / pay"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"会議(かいぎ)",src:"meeting"},{trg:"休憩(きゅうけい)",src:"break / rest period"},{trg:"定時(ていじ)",src:"regular hours / quitting time"}]},{type:"match",pairs:[{trg:"アルバイト",src:"part-time job"}]}]
+  ,{type:"match",pairs:[{trg:"会社員(かいしゃいん)",src:"company employee"},{trg:"給料(きゅうりょう)",src:"salary / pay"},{trg:"残業(ざんぎょう)",src:"overtime work"},{trg:"会議(かいぎ)",src:"meeting"},{trg:"休憩(きゅうけい)",src:"break / rest period"},{trg:"定時(ていじ)",src:"regular hours / quitting time"}]}]
 };
 export default BATCH4_L_1;

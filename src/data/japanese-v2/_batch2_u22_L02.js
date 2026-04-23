@@ -74,7 +74,7 @@ const BATCH2_L_2 = {
      deepDive:{title:"Why Japanese Avoids Direct Refusal",
       text:"Direct refusal in Japanese is rare because:\n\n1. Face preservation: saying no embarrasses both parties.\n2. Relationship maintenance: refusal can damage trust.\n3. Ambiguity value: leaving room allows future flexibility.\n4. Cultural norm: indirectness shows sophistication.\n\nForeign business people sometimes miss Japanese refusals because they expect the word いいえ (no). Instead, listen for: ちょっと, 難(むずか)しい, 考(かんが)えさせてください, and 申(もう)し訳(わけ)ないのですが. If you hear these, the answer is no."}},
 
-    {type:"match", pairs:[{trg:"お願(ねが)いがあるんですが",src:"I have a favor to ask"},{trg:"ちょっと難(むずか)しいです",src:"that is difficult (= no)"},{trg:"考(かんが)えさせてください",src:"let me think about it"},{trg:"せっかくですが",src:"I appreciate the offer, but"}]},
+    {type:"match", pairs:[{trg:"お願(ねが)いがあるんですが",src:"I have a favor to ask"},{trg:"ちょっと難(むずか)しいです",src:"that is difficult (= no)"},{trg:"考(かんが)えさせてください",src:"let me think about it"},{trg:"せっかくですが",src:"I appreciate the offer, but"},{trg:"申(もう)し訳(わけ)ないのですが",src:"I am sorry but ~ (preface before refusing)"}]},
 
     {type:"fb", s:"申(もう)し訳(わけ)ございませんが、受(う)け入(い)れいたし{1}。\n(I am terribly sorry, but we cannot accept.)", a:"かねます", opts:["かねます","ません","できません","しません"], sSrc:"I am terribly sorry, but we cannot accept.",
      hint:"The polite firm-refusal suffix that attaches to the masu-stem. Implies 'I wish I could but cannot.'"},
@@ -82,7 +82,6 @@ const BATCH2_L_2 = {
     {type:"match", pairs:[{trg:"ていただけないでしょうか",src:"would it be possible?"},{trg:"かねます",src:"cannot do (polite firm)"},{trg:"用事(ようじ)",src:"errand/something to do"},{trg:"気(き)が進(すす)まない",src:"not feel like doing"}]},
 
     {type:"mc", q:"せっかくですが functions as:", opts:["A way to ask for more information","An enthusiastic acceptance","A gracious preface before declining","A formal greeting"], ans:"A gracious preface before declining",
-     hint:"せっかく acknowledges the other's kind effort b... the speaker gently turns down the offer."},
-  {type:"match",pairs:[{trg:"申(もう)し訳(わけ)ないのですが",src:"I am sorry but ~ (preface before refusing)"}]}]
+     hint:"せっかく acknowledges the other's kind effort b... the speaker gently turns down the offer."}]
 };
 export default BATCH2_L_2;

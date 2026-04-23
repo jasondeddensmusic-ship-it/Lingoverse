@@ -4,7 +4,6 @@ const COVERAGE_U25 = {
   id:"jav2_u25_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"むずかしい",src:"difficult (often = polite refusal)"}]},
     {type:"fb",s:"{1}",a:["むずかしい"],opts:["むずかしい"],hint:"Type the target-language form. Meaning shown below.",sSrc:"difficult (often = polite refusal)"},
     {type:"fb",s:"午前(ごぜん)十時(じゅうじ)から{1}があります。",a:["会議(かいぎ)"],opts:["むずかしい","会議(かいぎ)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There is a meeting from 10 AM."},
     {type:"fb",s:"会議(かいぎ)の{1}をメールで送(おく)りました。",a:["資料(しりょう)"],opts:["資料(しりょう)","むずかしい"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I sent the meeting materials by email."},

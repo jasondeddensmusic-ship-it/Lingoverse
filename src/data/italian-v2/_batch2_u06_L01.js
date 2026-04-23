@@ -119,7 +119,7 @@ const BATCH2_U06_L1 = {
       {trg:"la gelateria", src:"the ice cream shop"},
       {trg:"la tabaccheria", src:"the tobacco shop"},
       {trg:"l'edicola", src:"the newsstand"}
-    ]},
+    ,{trg:"chiuso",src:"closed"}]},
 
     {type:"mc", q:"What is 'il centro storico'?",
      opts:["A museum","A train station","The historic city center","A shopping mall"],
@@ -136,6 +136,6 @@ const BATCH2_U06_L1 = {
      opts:["Closed for lunch","Open all day","Under renovation","Closed for holidays"],
      ans:"Closed for holidays",
      hint:"A common August sign in Italy when businesses shut down for summer vacation."}
-  ,{type:"match",pairs:[{trg:"chiuso",src:"closed"}]}]
+  ]
 };
 export default BATCH2_U06_L1;

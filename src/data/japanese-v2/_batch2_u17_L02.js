@@ -74,7 +74,7 @@ const BATCH2_L_2 = {
      deepDive:{title:"When to Complain in Japan",
       text:"Complaining in Japanese requires skill:\n\n1. Avoid direct accusations. Use passive voice.\n2. Frame as inconvenience, not blame: 困(こま)りました (I was troubled).\n3. Use ちょっと (a little) to soften: ちょっと困(こま)っています.\n4. If formally complaining to a business, use polite passive: 間違(まちが)えられたようですが (it seems my order was mistaken).\n\nThe pattern のに (despite) + passive is the standard complaint formula:\n約束(やくそく)したのに破(やぶ)られた = despite promising, the promise was broken on me."}},
 
-    {type:"match", pairs:[{trg:"無視(むし)される",src:"to be ignored"},{trg:"騙(だま)される",src:"to be tricked"},{trg:"嘘(うそ)をつかれる",src:"to be lied to"},{trg:"苦情(くじょう)",src:"complaint"}]},
+    {type:"match", pairs:[{trg:"無視(むし)される",src:"to be ignored"},{trg:"騙(だま)される",src:"to be tricked"},{trg:"嘘(うそ)をつかれる",src:"to be lied to"},{trg:"苦情(くじょう)",src:"complaint"},{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]},
 
     {type:"fb", s:"お願(ねが)いを{1}てしまいました。\n(My request was refused.)", a:"断(ことわ)られ", opts:["断(ことわ)られ","断(ことわ)って","断(ことわ)り","断(ことわ)る"], sSrc:"My request was refused.",
      hint:"The passive of 断(ことわ)る (to refuse). Group 1 passive: あ-row + れる."},
@@ -83,7 +83,6 @@ const BATCH2_L_2 = {
 
     {type:"mc", q:"邪魔(じゃま)される means:", opts:["to be welcomed","to disturb someone","to be disturbed/interrupted","to invite someone"], ans:"to be disturbed/interrupted",
      hint:"The passive of 邪魔(じゃま)する (to disturb). The speaker is on the receiving end of the disturbance."},
-  {type:"match",pairs:[{trg:"悪質(あくしつ)",src:"malicious / vicious / nasty"}]},
   {type:"fb", s:"お客様(きゃくさま)から{1}が届(とど)きました。", a:["苦情(くじょう)"], opts:["苦情(くじょう)","約束(やくそく)","嘘(うそ)","感謝(かんしゃ)"], hint:"A formal expression of dissatisfaction from a customer.", sSrc:"A {1} arrived from a customer."}
 ]
 };

@@ -97,7 +97,7 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  {trg:"tuttavia", src:"however"},
  {trg:"benché", src:"although"},
  {trg:"affinché", src:"so that"}
-]},
+,{trg:"occorre che",src:"it is necessary that"}]},
 
 {type:"mc", q:"In un saggio accademico, quale parola per 'therefore' e più appropriata?",
  opts:["allora","pertanto","quindi","percio"],
@@ -125,5 +125,5 @@ const BATCH7_L1 = {id:"itv2_u30l_b7_1", title:"Il registro formale", icon:"\u{1F
  {trg:"laddove", src:"whereas"},
  {trg:"in quanto", src:"since / as"}
 ]}
-,{type:"match",pairs:[{trg:"occorre che",src:"it is necessary that"}]},{type:"fb",s:"{1} tutti contribuiscano al progetto.",a:["occorre che"],opts:["occorre che","pare che","in quanto","pertanto"],hint:"A formal expression meaning it is necessary or required that something happen.",sSrc:"{1} everyone contributes to the project."}]};
+,{type:"fb",s:"{1} tutti contribuiscano al progetto.",a:["occorre che"],opts:["occorre che","pare che","in quanto","pertanto"],hint:"A formal expression meaning it is necessary or required that something happen.",sSrc:"{1} everyone contributes to the project."}]};
 export default BATCH7_L1;

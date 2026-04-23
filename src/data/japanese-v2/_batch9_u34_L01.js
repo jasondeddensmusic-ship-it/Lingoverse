@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(cooperation is important.)", a:"協力(きょうりょく)", opts:["協力(きょうりょく)","緊張(きんちょう)","制裁(せいさい)","外交官(がいこうかん)"], sSrc:"cooperation is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"外交官(がいこうかん)",src:"diplomat"},{trg:"条約(じょうやく)",src:"treaty"},{trg:"国連(こくれん)",src:"United Nations"},{trg:"多国間(たこくかん)",src:"multilateral"}]},
+    {type:"match", pairs:[{trg:"外交官(がいこうかん)",src:"diplomat"},{trg:"条約(じょうやく)",src:"treaty"},{trg:"国連(こくれん)",src:"United Nations"},{trg:"多国間(たこくかん)",src:"multilateral"},{trg:"制裁(せいさい)",src:"sanctions"}]},
 
     {type:"mc", q:"Which word means conflict?", opts:["緊張(きんちょう)","紛争(ふんそう)","協力(きょうりょく)","条約(じょうやく)"], ans:"紛争(ふんそう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"制裁(せいさい)",src:"sanctions"}]}]
+  ]
 };
 export default BATCH9_L1;

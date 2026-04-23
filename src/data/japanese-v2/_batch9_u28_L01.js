@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(or either is important.)", a:"ないし", opts:["ないし","ゆえに","とはいえ","である"], sSrc:"or either is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"である",src:"to be (written style)"},{trg:"けだし",src:"surely"},{trg:"おそらく",src:"probably"},{trg:"あるいは",src:"or perhaps"}]},
+    {type:"match", pairs:[{trg:"である",src:"to be (written style)"},{trg:"けだし",src:"surely"},{trg:"おそらく",src:"probably"},{trg:"あるいは",src:"or perhaps"},{trg:"とはいえ",src:"that said"}]},
 
     {type:"mc", q:"Which word means so-called?", opts:["ゆえに","いわゆる","ないし","けだし"], ans:"いわゆる",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"とはいえ",src:"that said"}]}]
+  ]
 };
 export default BATCH9_L1;

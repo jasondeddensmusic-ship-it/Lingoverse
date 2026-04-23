@@ -75,7 +75,7 @@ const BATCH2_L_1 = {
   {type:"mc", q:"エアコンを付(つ)けてください means:", opts:["Please turn off the AC","Please turn on the AC","Please clean the AC","Please buy an AC"], ans:"Please turn on the AC",
    hint:"付(つ)ける means to t... on or activate an appliance."},
 
-  {type:"match", pairs:[{trg:"持(も)って",src:"hold (て)"},{trg:"開(あ)けて",src:"open (て)"},{trg:"閉(し)めて",src:"close (て)"},{trg:"付(つ)けて",src:"turn on (て)"}]},
+  {type:"match", pairs:[{trg:"持(も)って",src:"hold (て)"},{trg:"開(あ)けて",src:"open (て)"},{trg:"閉(し)めて",src:"close (て)"},{trg:"付(つ)けて",src:"turn on (て)"},{trg:"入(はい)って",src:"enter (て-form)"}]},
 
   {type:"match", pairs:[{trg:"消(け)して",src:"turn off (て)"},{trg:"教(おし)えて",src:"teach (て)"},{trg:"取(と)って",src:"take (て)"},{trg:"見(み)せて",src:"show (て)"}]},
 
@@ -86,6 +86,5 @@ const BATCH2_L_1 = {
    hint:"見(み)せて is the て-form of the verb meaning 'to s...' something to someone."},
 
   {type:"fb", s:"この言葉(ことば)を{1}ください。\n(Please memorize this word.)", a:"覚(おぼ)えて", opts:["覚(おぼ)えて","教(おし)えて","見(み)せて","取(と)って"], sSrc:"Please memorize this word.",
-   hint:"The て-form of the Group 2 verb meaning 'to memorize' or 'learn by heart.'"},
-{type:"match",pairs:[{trg:"入(はい)って",src:"enter (て-form)"}]}]};
+   hint:"The て-form of the Group 2 verb meaning 'to memorize' or 'learn by heart.'"}]};
 export default BATCH2_L_1;

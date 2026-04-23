@@ -263,7 +263,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  {trg:"camisa", src:"shirt"},
  {trg:"calça", src:"pants"},
  {trg:"sapato", src:"shoe"}
-]},
+,{trg:"o mercado", src:"the market"}]},
 
 {type:"mc", q:"'Gosto desta camisa' means:",
  opts:["I pay for this shirt","I buy this shirt","I like this shirt","I sell this shirt"],
@@ -280,11 +280,7 @@ const UNIT_08 = {n:8, lang:"pt", srcLang:"en", track:"v2", title:"Quanto custa?"
  opts:["butcher","bookstore","bakery","shoe store"],
  ans:"shoe store",
  hint:"This noun refers to footwear."}
-,
-
-{type:"match", pairs:[
-  {trg:"o mercado", src:"the market"}
-]}]},
+]},
 
 {id:"ptv2_u8l_money", title:"Fazendo compras", icon:"💰", xp:15, board:true, steps:[
 {type:"intro", title:"Making Purchases and Handling Money",

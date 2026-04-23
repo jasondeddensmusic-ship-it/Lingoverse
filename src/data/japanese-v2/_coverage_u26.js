@@ -4,7 +4,6 @@ const COVERAGE_U26 = {
   id:"jav2_u26_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"たんきてき",src:"short-term"}]},
     {type:"fb",s:"{1}なこうかはあるでしょう。",a:["たんきてき"],opts:["たんきてき"],hint:"Type the target-language form. Meaning shown below.",sSrc:"There will likely be a {1} effect."},
     {type:"fb",s:"この事件(じけん)についての{1}を見(み)ましたか？",a:["報道(ほうどう)"],opts:["たんきてき","報道(ほうどう)"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Did you see the reporting on this incident?"},
     {type:"fb",s:"面白(おもしろ)い{1}を見(み)つけました。",a:["記事(きじ)"],opts:["記事(きじ)","たんきてき"],hint:"Type the target-language form. Meaning shown below.",sSrc:"I found an interesting article."},

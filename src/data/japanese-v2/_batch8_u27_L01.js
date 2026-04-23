@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: We are working on natural environment conservation.\nB: What specifically are you doing?\nA: Is there anything else to be careful about?\nB: Yes, meeting deadlines is the most important thing.\nA: What do you do if you cannot meet the deadline?\nB: Consult your supervisor early and ask for an adjustment.",
      funFact:"保全(ほぜん) and 保護(ほご) are related but distinct: 保全(ほぜん) means maintaining the current state, 保護(ほご) means actively protecting from threats. Japanese environmental law uses both precisely. 環境(かんきょう)保全(ほぜん)法(ほう) (Environmental Conservation Law) and 自然(しぜん)公園(こうえん)法(ほう) (Natural Parks Law) form the legal framework."},
 
-    {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"省(しょう)エネ",src:"energy conservation"},{trg:"排出(はいしゅつ)",src:"emission"},{trg:"保全(ほぜん)",src:"conservation"}],
+    {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"持続可能(じぞくかのう)",src:"sustainable"},{trg:"省(しょう)エネ",src:"energy conservation"},{trg:"排出(はいしゅつ)",src:"emission"},{trg:"保全(ほぜん)",src:"conservation"},{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}],
      hint:"Match each environmental term with its English meaning."},
 
     {type:"mc", q:"Why is 省(しょう)エネ culture so strong in Japan?", opts:["Japan produces all its own energy","Japan imports over 90% of its energy resources","Japan has too much energy","It is only a trend since 2020"], ans:"Japan imports over 90% of its energy resources",
@@ -95,6 +95,6 @@ const BATCH8_L1 = {
 
     {type:"mc", q:"What is Japan's carbon neutrality target year?", opts:["2040","2060","2050","2030"], ans:"2050",
      hint:"Japan pledged to achieve net-zero greenhouse gas emissions by this year."}
-  ,{type:"match",pairs:[{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"原子力(げんしりょく)",src:"nuclear power / atomic energy"},{trg:"温室効果(おんしつこうか)ガス",src:"greenhouse gas"},{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"資源(しげん)",src:"resources / natural resources"},{trg:"開発(かいはつ)",src:"development"}]},{type:"match",pairs:[{trg:"絶滅危惧種(ぜつめつきぐしゅ)",src:"endangered species"}]}]
+  ,{type:"match",pairs:[{trg:"太陽光(たいようこう)",src:"solar power / sunlight"},{trg:"原子力(げんしりょく)",src:"nuclear power / atomic energy"},{trg:"温室効果(おんしつこうか)ガス",src:"greenhouse gas"},{trg:"生態系(せいたいけい)",src:"ecosystem"},{trg:"資源(しげん)",src:"resources / natural resources"},{trg:"開発(かいはつ)",src:"development"}]}]
 };
 export default BATCH8_L1;

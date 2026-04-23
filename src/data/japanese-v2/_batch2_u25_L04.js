@@ -72,7 +72,7 @@ const BATCH2_L_4 = {
     {type:"fb", s:"今日(きょう)は{1}で打(う)ち合(あ)わせがあります。\n(I have a meeting at a client's office today.)", a:"客先(きゃくさき)", opts:["客先(きゃくさき)","会社(かいしゃ)","本社(ほんしゃ)","事務所(じむしょ)"], sSrc:"I have a meeting at a client's office today.",
      hint:"The compound noun for a client's location that you visit for business."},
 
-    {type:"match", pairs:[{trg:"名刺(めいし)",src:"business card"},{trg:"自己紹介(じこしょうかい)",src:"self-introduction"},{trg:"営業(えいぎょう)",src:"sales"},{trg:"打(う)ち合(あ)わせ",src:"coordination meeting"}]},
+    {type:"match", pairs:[{trg:"名刺(めいし)",src:"business card"},{trg:"自己紹介(じこしょうかい)",src:"self-introduction"},{trg:"営業(えいぎょう)",src:"sales"},{trg:"打(う)ち合(あ)わせ",src:"coordination meeting"},{trg:"スライド",src:"slide (presentation)"}]},
 
     {type:"fb", s:"売上(うりあげ)が前年(ぜんねん){1}に二十(にじゅう)パーセント増加(ぞうか)しました。\n(Sales increased 20% compared to the previous year.)", a:"比(ひ)", opts:["比(ひ)","から","より","まで"], sSrc:"Sales increased 20% compared to the previous year.",
      hint:"The suffix meaning 'ratio' or 'comparison,' attached after the time period being compared against."},
@@ -80,7 +80,6 @@ const BATCH2_L_4 = {
     {type:"match", pairs:[{trg:"売上(うりあげ)",src:"sales/revenue"},{trg:"目標(もくひょう)",src:"target/goal"},{trg:"客先(きゃくさき)",src:"client (visited)"},{trg:"前年比(ぜんねんひ)",src:"year-on-year"}]},
 
     {type:"mc", q:"自己紹介(じこしょうかい) in Japanese business typically includes:", opts:["Your salary information","Only your name","Your company name, department, then personal name","Your personal hobbies first"], ans:"Your company name, department, then personal name",
-     hint:"In Japanese business culture, your organizational affiliation comes before your individual identity."},
-  {type:"match",pairs:[{trg:"スライド",src:"slide (presentation)"}]}]
+     hint:"In Japanese business culture, your organizational affiliation comes before your individual identity."}]
 };
 export default BATCH2_L_4;

@@ -113,7 +113,7 @@ const BATCH4_U05_L1 = {
       {trg:"il letto", src:"bed"},
       {trg:"l'armadio", src:"wardrobe"},
       {trg:"il tavolo", src:"table"}
-    ]},
+    ,{trg:"la coperta",src:"the blanket"}]},
 
     {type:"mc", q:"Qual e la differenza tra 'tavolo' e 'tavola'?",
      opts:["Tavola is bigger than tavolo","Tavolo is the furniture; tavola is the table set for a meal","They mean the same thing","Tavolo is formal; tavola is informal"],
@@ -139,6 +139,6 @@ const BATCH4_U05_L1 = {
      opts:["Latin","Greek","German","Arabic"],
      ans:"Arabic",
      hint:"This word entered Italian through centuries of Mediterranean trade."}
-  ,{type:"match",pairs:[{trg:"la coperta",src:"the blanket"}]}]
+  ]
 };
 export default BATCH4_U05_L1;

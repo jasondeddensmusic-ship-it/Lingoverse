@@ -165,7 +165,7 @@ const UNIT_22 = {
   {type:"mc", q:"兄(あに)が宿題(しゅくだい)を手伝(てつだ)ってくれた means:", opts:["I helped my brother with homework","My brother kindly helped me with homework","My brother wants to help","I asked my brother for help"], ans:"My brother kindly helped me with homework",
    hint:"てくれる shows that someone did something for the speaker. It emphasizes their kindness."},
 
-  {type:"match", pairs:[{trg:"てあげる",src:"do for someone"},{trg:"てもらう",src:"have someone do"},{trg:"てくれる",src:"someone does for me"},{trg:"ていただく",src:"have someone do (polite)"}]},
+  {type:"match", pairs:[{trg:"てあげる",src:"do for someone"},{trg:"てもらう",src:"have someone do"},{trg:"てくれる",src:"someone does for me"},{trg:"ていただく",src:"have someone do (polite)"},{trg:"〜ていただく",src:"to have someone do ~ (humble/polite)"}]},
 
   {type:"fb", s:"道(みち)を{1}いただけますか？\n(Could you kindly tell me the way?)", a:"教(おし)えて", opts:["教(おし)えて","教(おし)え","教(おし)える","教(おし)えた"], sSrc:"Could you kindly tell me the way?",
    hint:"The て-form of the verb meaning 'to teach/tell.' Combined with いただけますか for a polite request."},
@@ -174,7 +174,6 @@ const UNIT_22 = {
 
   {type:"mc", q:"ていただけますか is used to:", opts:["thank someone for a past favor","describe someone's habitual action","make a very polite request","refuse an offer politely"], ans:"make a very polite request",
    hint:"This is the formal potential question form of ていただく, used to ask someone to do a favor."},
-{type:"match",pairs:[{trg:"〜ていただく",src:"to have someone do ~ (humble/polite)"}]},
   {type:"fb", s:"お誕生日(たんじょうび)に友達(ともだち)から{1}をもらいました。\n(I received a present from my friend for my birthday.)", a:"プレゼント", opts:["プレゼント","お土産(みやげ)","切符(きっぷ)","手紙(てがみ)"], sSrc:"I received a present from my friend for my birthday.",
    hint:"The katakana loanword for a gift you give on special occasions."}]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01

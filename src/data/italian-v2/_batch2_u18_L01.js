@@ -90,7 +90,7 @@ const BATCH2_U18_L1 = {
       {trg:"l'alluvione", src:"the flood"},
       {trg:"l'incendio boschivo", src:"the wildfire"},
       {trg:"lo smog", src:"smog / air pollution"}
-    ]},
+    ,{trg:"la zona rossa",src:"the red zone (danger area)"}]},
 
     {type:"mc", q:"What is 'il dissesto idrogeologico'?",
      opts:["A method for purifying water supply","Italy's chronic vulnerability to floods and landslides","A geological survey of underground water sources","A new technology for preventing soil erosion"],
@@ -118,6 +118,6 @@ const BATCH2_U18_L1 = {
      opts:["About 25%","About 50%","About 75%","About 91%"],
      ans:"About 91%",
      hint:"Nearly all Italian towns face some degree of flood or landslide risk. Prevention investment is a national priority."}
-  ,{type:"match",pairs:[{trg:"la zona rossa",src:"the red zone (danger area)"}]}]
+  ]
 };
 export default BATCH2_U18_L1;

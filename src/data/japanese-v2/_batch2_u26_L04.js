@@ -72,7 +72,7 @@ const BATCH2_L_4 = {
     {type:"fb", s:"ネット上(じょう)の{1}は法律(ほうりつ)で罰(ばっ)せられます。\n(Online defamation is punishable by law.)", a:"誹謗中傷(ひぼうちゅうしょう)", opts:["誹謗中傷(ひぼうちゅうしょう)","炎上(えんじょう)","書(か)き込(こ)み","発言(はつげん)"], sSrc:"Online defamation is punishable by law.",
      hint:"The legal term for harmful speech that damages someone's reputation."},
 
-    {type:"match", pairs:[{trg:"放送(ほうそう)",src:"broadcast"},{trg:"配信(はいしん)",src:"streaming"},{trg:"視聴率(しちょうりつ)",src:"viewer rating"},{trg:"炎上(えんじょう)",src:"online firestorm"}]},
+    {type:"match", pairs:[{trg:"放送(ほうそう)",src:"broadcast"},{trg:"配信(はいしん)",src:"streaming"},{trg:"視聴率(しちょうりつ)",src:"viewer rating"},{trg:"炎上(えんじょう)",src:"online firestorm"},{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"}]},
 
     {type:"fb", s:"このドラマの{1}は二十(にじゅう)パーセントを超(こ)えました。\n(This drama's viewer rating exceeded 20%.)", a:"視聴率(しちょうりつ)", opts:["視聴率(しちょうりつ)","番組(ばんぐみ)","放送(ほうそう)","配信(はいしん)"], sSrc:"This drama's viewer rating exceeded 20%.",
      hint:"The noun for the numerical measure of how many people watch a program."},
@@ -80,7 +80,6 @@ const BATCH2_L_4 = {
     {type:"match", pairs:[{trg:"書(か)き込(こ)み",src:"online comment"},{trg:"匿名(とくめい)",src:"anonymous"},{trg:"発言(はつげん)",src:"statement"},{trg:"誹謗中傷(ひぼうちゅうしょう)",src:"defamation"}]},
 
     {type:"mc", q:"Japan strengthened online defamation laws after:", opts:["A newspaper lawsuit","A corporate scandal","The death of a reality TV star due to cyberbullying","A government data breach"], ans:"The death of a reality TV star due to cyberbullying",
-     hint:"This tragic 2020 event led to legal reforms making online insults more harshly punishable."},
-  {type:"match",pairs:[{trg:"番組(ばんぐみ)",src:"program / show (TV/radio)"}]}]
+     hint:"This tragic 2020 event led to legal reforms making online insults more harshly punishable."}]
 };
 export default BATCH2_L_4;

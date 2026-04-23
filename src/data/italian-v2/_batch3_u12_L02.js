@@ -96,7 +96,7 @@ const BATCH3_U12_L2 = {
       {trg:"morire", src:"to die"},
       {trg:"crescere", src:"to grow up"},
       {trg:"succedere", src:"to happen"}
-    ]},
+    ,{trg:"mancare",src:"to be missing / to miss (someone)"}]},
 
     {type:"mc", q:"How do you say 'I missed you' in Italian (to a female)?",
      opts:["Ti ho mancata","Mi sei mancata","Ho mancato te","Ti mancavo"],
@@ -124,6 +124,6 @@ const BATCH3_U12_L2 = {
      opts:["Help!","Please!","Beautiful!","Enough! / Stop!"],
      ans:"Enough! / Stop!",
      hint:"One of Italian's most powerful single words. Parents, teachers, and anyone who has had e... uses this constantly."}
-  ,{type:"match",pairs:[{trg:"piacere",src:"to be pleasing / to like"},{trg:"bastare",src:"to be enough / to suffice"},{trg:"sembrare",src:"to seem / to appear"},{trg:"durare",src:"to last"},{trg:"costare",src:"to cost"},{trg:"dispiacere",src:"to be sorry / to displease"}]},{type:"match",pairs:[{trg:"mancare",src:"to be missing / to miss (someone)"}]}]
+  ,{type:"match",pairs:[{trg:"piacere",src:"to be pleasing / to like"},{trg:"bastare",src:"to be enough / to suffice"},{trg:"sembrare",src:"to seem / to appear"},{trg:"durare",src:"to last"},{trg:"costare",src:"to cost"},{trg:"dispiacere",src:"to be sorry / to displease"}]}]
 };
 export default BATCH3_U12_L2;

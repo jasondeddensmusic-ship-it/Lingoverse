@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: I try to exercise every day.\nB: That is admirable.\nA: Where do you recommend?\nB: I recommend Kyoto.",
      funFact:"ようにする expresses ongoing deliberate effort toward a habit. It differs from ようになる (to reach the point of being able to): 日本語(にほんご)が話(はな)せるようになった (I became able to speak Japanese). する = deliberate effort, なる = natural result. Both are essential B1 patterns."},
 
-    {type:"match", pairs:[{trg:"かもしれない",src:"might/perhaps"},{trg:"はずがない",src:"there is no way"},{trg:"ばかり",src:"only/nothing but"},{trg:"わけにはいかない",src:"cannot possibly"},{trg:"ようにする",src:"try to/make sure to"}],
+    {type:"match", pairs:[{trg:"かもしれない",src:"might/perhaps"},{trg:"はずがない",src:"there is no way"},{trg:"ばかり",src:"only/nothing but"},{trg:"わけにはいかない",src:"cannot possibly"},{trg:"ようにする",src:"try to/make sure to"},{trg:"猿(さる)も木(き)から落(お)ちる",src:"even monkeys fall from trees"}],
      hint:"Match each grammar expression with its English meaning."},
 
     {type:"mc", q:"What does 猿(さる)も木(き)から落(お)ちる mean?", opts:["Trees are dangerous for monkeys","Even experts make mistakes","Monkeys are bad at climbing","Do not climb trees"], ans:"Even experts make mistakes",
@@ -100,6 +100,6 @@ const BATCH8_L1 = {
      opts:["なければならない","てもいい","ないとだめ","かもしれない"],
      hint:"In order to pass the exam, you have a formal obligation to study every day. This grammar pattern expresses 'must' or 'have to' in a formal register.",
      sSrc:"To pass the exam, you {1} study every day."}
-  ,{type:"match",pairs:[{trg:"塵(ちり)も積(つ)もれば山(やま)となる",src:"even dust, if piled up, becomes a mountain"},{trg:"なければならない",src:"must / have to (formal obligation)"},{trg:"すればするほど",src:"the more you do, the more..."},{trg:"喉元(のどもと)過(す)ぎれば熱(あつ)さを忘(わす)れる",src:"once past the throat, one forgets the heat"},{trg:"てもいい",src:"it is okay to / may / is allowed"},{trg:"ないとだめ",src:"must / have to (casual)"}]},{type:"match",pairs:[{trg:"猿(さる)も木(き)から落(お)ちる",src:"even monkeys fall from trees"}]}]
+  ,{type:"match",pairs:[{trg:"塵(ちり)も積(つ)もれば山(やま)となる",src:"even dust, if piled up, becomes a mountain"},{trg:"なければならない",src:"must / have to (formal obligation)"},{trg:"すればするほど",src:"the more you do, the more..."},{trg:"喉元(のどもと)過(す)ぎれば熱(あつ)さを忘(わす)れる",src:"once past the throat, one forgets the heat"},{trg:"てもいい",src:"it is okay to / may / is allowed"},{trg:"ないとだめ",src:"must / have to (casual)"}]}]
 };
 export default BATCH8_L1;

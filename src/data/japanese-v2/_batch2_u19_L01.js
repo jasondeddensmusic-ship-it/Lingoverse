@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"The Japanese Philosophy of Regret",
       text:"Japanese has rich vocabulary for regret because reflection on past actions is valued:\n\n後悔(こうかい) (koukai) = regret about actions\n反省(はんせい) (hansei) = self-reflection and self-criticism\n残念(ざんねん) (zannen) = regrettable/unfortunate\n\nThe grammar supports this: ばよかった and たらよかったのに provide precise ways to articulate what should have been different. However, the proverb 後悔先(こうかいさき)に立(た)たず (regret comes too late) teaches that dwelling on the past is futile. The Japanese ideal is: reflect, learn, and move forward."}},
 
-    {type:"match", pairs:[{trg:"ばよかった",src:"should have done"},{trg:"なければよかった",src:"should not have done"},{trg:"たらよかったのに",src:"if only (emotional wish)"},{trg:"もしも",src:"if (strong hypothetical)"}]},
+    {type:"match", pairs:[{trg:"ばよかった",src:"should have done"},{trg:"なければよかった",src:"should not have done"},{trg:"たらよかったのに",src:"if only (emotional wish)"},{trg:"もしも",src:"if (strong hypothetical)"},{trg:"世界(せかい)旅行(りょこう)",src:"world travel / trip around the world"}]},
 
     {type:"fb", s:"もしも宝(たから)くじに{1}ら、世界(せかい)旅行(りょこう)に行(い)きたいです。\n(If I won the lottery, I would want to travel the world.)", a:"当(あ)たった", opts:["当(あ)たった","当(あ)たる","当(あ)たって","当(あ)たれば"], sSrc:"If I won the lottery, I would want to travel the world.",
      hint:"The たら conditional is formed from the past tense + ら. 当(あ)たる past = 当(あ)たった."},
@@ -83,7 +83,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"練習(れんしゅう)しないかぎり上手(じょうず)になりません means:", opts:["You practiced and improved","If you practice, you will improve","Unless you practice, you will not improve","Practicing is not necessary"], ans:"Unless you practice, you will not improve",
      hint:"ないかぎり sets a hard boundary: the result ONLY changes if the condition is met."},
-  {type:"match",pairs:[{trg:"世界(せかい)旅行(りょこう)",src:"world travel / trip around the world"}]},
   {type:"fb", s:"もし{1}に当(あ)たったら、世界(せかい)旅行(りょこう)をするのに。", a:["宝(たから)くじ"], opts:["宝(たから)くじ","もしも","〜ばよかった","お金(かね)"], hint:"A game of chance where you buy a ticket hoping for a large prize.", sSrc:"If I won the {1}, I would travel the world."}
 ]
 };

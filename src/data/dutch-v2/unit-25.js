@@ -198,7 +198,7 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
         {type:"mc",q:"You email a new client. You open with:",opts:["Hoi!","Geachte heer/mevrouw,","Hey, hoe gaat het?","Beste vriend,"],ans:"Geachte heer/mevrouw,",hint:"New client = formal"},
         {type:"mc",q:"'Hij had moeten bellen' means:",opts:["He has to call","He is calling","He should have called","He will call"],ans:"He should have called",hint:"Had + moeten = past obligation unfulfilled"},
         {type:"fb",opts:["aanleiding","afwachting","aandacht","aanvraag"],hint:"Following/regarding your email",s:"Naar _____ van uw mail stuur ik u hierbij het verslag.",a:"aanleiding"},
-        {type:"match",pairs:[{trg:"de vergadering",src:"the meeting"},{trg:"het beleid",src:"the policy"},{trg:"de begroting",src:"the budget plan"},{trg:"het draagvlak",src:"the support base"}]},
+        {type:"match",pairs:[{trg:"de vergadering",src:"the meeting"},{trg:"het beleid",src:"the policy"},{trg:"de begroting",src:"the budget plan"},{trg:"het draagvlak",src:"the support base"},{trg:"ter kennisgeving",src:"for information / noted"}]},
         {type:"mc",q:"The poldermodel emphasizes:",opts:["Top-down authority","Speed over agreement","Individual performance","Consensus and buy-in"],ans:"Consensus and buy-in",hint:"Everyone's voice matters"},
         {type:"fb",opts:["Zou","Kun","Wil","Mag"],hint:"_____ u zo vriendelijk willen zijn om...",s:"_____ u zo vriendelijk willen zijn om het document te ondertekenen?",a:"Zou"},
         {type:"mc",q:"'Platte organisatie' means a company with:",opts:["Few hierarchy levels","Many management layers","Only managers","No employees"],ans:"Few hierarchy levels",hint:"Think of a flat structure: ___ layers between top and bottom"},
@@ -211,7 +211,7 @@ export default {n:25,lang:"nl",srcLang:"en",track:"v2",title:"Op de Werkvloer",s
         {type:"mc",q:"Dutch business emails are generally:",opts:["Long and very polite","Written in English","Full of pleasantries","Short and direct"],ans:"Short and direct",hint:"Dutch ___ness in writing"},
         {type:"mc",q:"...omdat hij het rapport had _____ schrijven.",opts:["moeten","moest","moet","gemoed"],ans:"moeten",hint:"...because he should have written (verb cluster at end)"},
         {type:"mc",q:"'Ik zie dat anders' is a softer way to say:",opts:["I agree completely","I disagree","I don't understand","I need more time"],ans:"I disagree",hint:"I see it DIFFERENTLY"}
-  ,{type:"match",pairs:[{trg:"ter kennisgeving",src:"for information / noted"}]}]},
+  ]},
 
   {id:"nlv2_u25l_b2_academic",title:"Academisch Denken B2",icon:"🎓",xp:20,board:true,steps:[
     {type:"intro",title:"Academic B2 Dutch",desc:"Eight B2 academic terms for perspective, structure, and argument.",goals:["Use het perspectief and de aanname in arguments","Describe thoroughness with grondig","Use formal connectors daarentegen and bovendien"]},

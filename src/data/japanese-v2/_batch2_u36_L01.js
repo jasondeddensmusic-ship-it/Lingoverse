@@ -72,7 +72,7 @@ const BATCH2_L_1 = {
     {type:"fb", s:"社会(しゃかい)は大(おお)きく変(か)わり{1}あります。\n(Society is in the process of greatly changing.)", a:"つつ", opts:["つつ","ながら","ている","すぎ"], sSrc:"Society is in the process of greatly changing.",
      hint:"The formal progressive pattern emphasizing ongoing gradual change."},
 
-    {type:"match", pairs:[{trg:"にほかならない",src:"nothing but / none other than"},{trg:"をもって",src:"with this / by means of"},{trg:"を問(と)わず",src:"regardless of"},{trg:"ものの",src:"although (literary)"}]},
+    {type:"match", pairs:[{trg:"にほかならない",src:"nothing but / none other than"},{trg:"をもって",src:"with this / by means of"},{trg:"を問(と)わず",src:"regardless of"},{trg:"ものの",src:"although (literary)"},{trg:"腑(ふ)に落(お)ちない",src:"to not be convinced / to not make sense"}]},
 
     {type:"fb", s:"これは仮説(かせつ)に{1}。\n(This is merely a hypothesis.)", a:"すぎません", opts:["すぎません","ほかなりません","もとづいて","とわず"], sSrc:"This is merely a hypothesis.",
      hint:"The minimizing pattern that says something 'does not exceed' a certain level."},
@@ -81,7 +81,6 @@ const BATCH2_L_1 = {
 
     {type:"mc", q:"からといって...とは限(かぎ)らない means:", opts:["X and Y are the same","Neither X nor Y is true","Just because X does not necessarily mean Y","Because of X, Y definitely follows"], ans:"Just because X does not necessarily mean Y",
      hint:"This combined pattern warns against assuming a conclusion from a premise."},
-  {type:"match",pairs:[{trg:"腑(ふ)に落(お)ちない",src:"to not be convinced / to not make sense"}]},
   {type:"fb", s:"彼(かれ)の説明(せつめい)を聞(き)いても、どうも{1}。", a:["腑(ふ)に落(お)ちない"], opts:["腑(ふ)に落(お)ちない","〜をもって","〜を問(と)わず","〜ものの"], hint:"An idiomatic expression meaning the explanation does not make sense or convince you.", sSrc:"Even after hearing his explanation, something {1}."}
 ]
 };

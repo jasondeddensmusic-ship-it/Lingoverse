@@ -245,7 +245,7 @@ const UNIT_11 = {
        example:"A: Hai fatto colazione stamattina?\nB: Si, ho mangiato un cornetto.",
        exampleSrc:"A: Did you have breakfast this morning?\nB: Yes, I ate a cornetto.",
        funFact:"Italian creates time contractions by combining 'questa/o' with the time word: stamattina (questa mattina), stasera (questa sera), stanotte (questa notte). These contractions are used far more than the full forms in everyday speech."},
-{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"l'anno scorso",src:"last year"},{trg:"fa",src:"ago"},{trg:"stamattina",src:"this morning"}]},
+{type:"match",pairs:[{trg:"la settimana scorsa",src:"last week"},{trg:"l'anno scorso",src:"last year"},{trg:"fa",src:"ago"},{trg:"stamattina",src:"this morning"},{trg:"avete dormito",src:"you (plural) slept"}]},
 
       {type:"teach", trg:"gia", src:"already", pos:"adv", gender:null,
        note:"Placed between avere and the participle. 'Ho gia mangiato' = I have already eaten.\nFrom Latin 'iam' (already, now).",
@@ -311,7 +311,7 @@ const UNIT_11 = {
        opts:["Every year","Next year","This year","Last year"],
        ans:"Last year",
        hint:"'Scorso' comes from 'scorrere' (to flow, pass by). Think of the calendar page that already slipped away."}
-    ,{type:"match",pairs:[{trg:"avete dormito",src:"you (plural) slept"}]}]},
+    ]},
     EXP_11_L1, EXP_11_L2, EXP_11_L3,
     {id:"itv2_u11l_a2v", title:"Verbi A2 mentali", icon:"\uD83D\uDCDD", xp:15, board:true, steps:[
       {type:"intro", title:"Essential A2 Mental Verbs",

@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(information source is important.)", a:"情報源(じょうほうげん)", opts:["情報源(じょうほうげん)","拡散(かくさん)","検証(けんしょう)する","デマ"], sSrc:"information source is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"デマ",src:"misinformation"},{trg:"ファクトチェック",src:"fact-checking"},{trg:"バイアス",src:"bias"},{trg:"信憑性(しんぴょうせい)",src:"credibility"}]},
+    {type:"match", pairs:[{trg:"デマ",src:"misinformation"},{trg:"ファクトチェック",src:"fact-checking"},{trg:"バイアス",src:"bias"},{trg:"信憑性(しんぴょうせい)",src:"credibility"},{trg:"検証(けんしょう)する",src:"to verify"}]},
 
     {type:"mc", q:"Which word means media literacy?", opts:["拡散(かくさん)","メディアリテラシー","情報源(じょうほうげん)","ファクトチェック"], ans:"メディアリテラシー",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"検証(けんしょう)する",src:"to verify"}]}]
+  ]
 };
 export default BATCH10_L1;

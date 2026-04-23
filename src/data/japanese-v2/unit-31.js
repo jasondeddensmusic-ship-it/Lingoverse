@@ -164,7 +164,7 @@ const UNIT_31 = {
   {type:"mc", q:"起訴(きそ)する means:", opts:["to defend","to prosecute","to acquit","to appeal"], ans:"to prosecute",
    hint:"This verb describes the act of formally bringing criminal charges against someone in court."},
 
-  {type:"match", pairs:[{trg:"有罪(ゆうざい)",src:"guilty"},{trg:"無罪(むざい)",src:"not guilty"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"判決(はんけつ)",src:"verdict"}]},
+  {type:"match", pairs:[{trg:"有罪(ゆうざい)",src:"guilty"},{trg:"無罪(むざい)",src:"not guilty"},{trg:"証拠(しょうこ)",src:"evidence"},{trg:"判決(はんけつ)",src:"verdict"},{trg:"被告人(ひこくにん)",src:"defendant / the accused"}]},
 
   {type:"fb", s:"裁判所(さいばんしょ)が{1}を下(くだ)しました。\n(The court handed down its verdict.)", a:"判決(はんけつ)", opts:["判決(はんけつ)","証拠(しょうこ)","起訴(きそ)","条約(じょうやく)"], sSrc:"The court handed down its verdict.",
    hint:"The noun meaning 'verdict' or 'judgment,' the final decision in a court case."},
@@ -178,8 +178,7 @@ const UNIT_31 = {
    hint:"The compound of two kanji both relating to penalties, including death by hanging and imprisonment."},
 
   {type:"mc", q:"国際条約(こくさいじょうやく) means:", opts:["international treaty","international law","international trade","international court"], ans:"international treaty",
-   hint:"条約(じょうやく) is the word for a formal agreement between nations, requiring Diet ratification."},
-{type:"match",pairs:[{trg:"被告人(ひこくにん)",src:"defendant / the accused"}]}]},BATCH2_L01
+   hint:"条約(じょうやく) is the word for a formal agreement between nations, requiring Diet ratification."}]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

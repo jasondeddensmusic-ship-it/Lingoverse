@@ -102,7 +102,7 @@ const BATCH7_L1 = {
       {trg:"戻(もど)る", src:"to return"},
       {trg:"休(やす)む", src:"to rest"},
       {trg:"寝(ね)る", src:"to go to bed"}
-    ]},
+    ,{trg:"歯(は)を磨(みが)く",src:"to brush teeth"}]},
 
     {type:"fb", s:"渋谷(しぶや)で{1}てください。山手線(やまのてせん)に乗(の)ります。",
      a:["乗(の)り換(か)え"],
@@ -139,6 +139,6 @@ const BATCH7_L1 = {
      opts:["眠(ねむ)い","寒(さむ)い","暑(あつ)い","痛(いた)い"],
      hint:"You did not sleep much last night, so today you feel drowsy. This i-adjective means 'sleepy.'",
      sSrc:"I did not sleep much last night, so today I am {1}."}
-  ,{type:"match",pairs:[{trg:"歯(は)を磨(みが)く",src:"to brush teeth"}]}]
+  ]
 };
 export default BATCH7_L1;

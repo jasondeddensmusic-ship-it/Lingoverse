@@ -90,7 +90,7 @@ const BATCH7_L1 = {
       {trg:"思(おも)いやり", src:"consideration"},
       {trg:"恩返(おんがえ)し", src:"returning a favor"},
       {trg:"お互(たが)い様(さま)", src:"mutual obligation"}
-    ]},
+    ,{trg:"付(つ)き合(あ)い",src:"association / social relationship / dating"}]},
 
     {type:"fb", s:"困(こま)ったときは私(わたし)に{1}ください。",
      a:["頼(たよ)って"],
@@ -132,6 +132,6 @@ const BATCH7_L1 = {
      opts:["恩返(おんがえ)し","仲直(なかなお)り","絆(きずな)","思(おも)いやり"],
      hint:"You treated someone to a meal to thank them for their help. This noun refers to repaying a kindness or returning a favor.",
      sSrc:"As {1} to A-san, I treated them to a meal to thank them for their help."}
-  ,{type:"match",pairs:[{trg:"付(つ)き合(あ)い",src:"association / social relationship / dating"}]}]
+  ]
 };
 export default BATCH7_L1;

@@ -134,7 +134,6 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"drag_fill",hint:"Identity + residence",s:"Hij {1} leraar en hij {2} in Brussel.",blanks:{"1":"is","2":"woont"},pool:["woont","komt","heeft","is"]},
         {type:"mc",q:"Zij ___ dokter.",opts:["heeft","woont","spreekt","is"],ans:"is",hint:"Profession = identity"},
         {type:"tr",mk:"u2_where_live",dir:"comprehend"},
-        {type:"match",mks:["phrase_my_name_is","phrase_i_come_from","phrase_i_live_in","phrase_i_speak"]},
         {type:"tip",title:"🙋 You can now introduce yourself completely",text:"Name: Ik heet...\nOrigin: Ik kom uit...\nLanguage: Ik spreek...\nHome: Ik woon in...\nAge: Ik ben ... jaar.\nProfession: Ik ben...\n\nThat's six questions answered with five verbs. You've come a long way since 'Hallo'!"}
   ]},
   {id:"v2u2l6",title:"More de & het Nouns",icon:"📝",xp:15,board:true,steps:[
@@ -154,9 +153,7 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"mc",q:"What article goes with 'kind'?",opts:["het","de","een","geen"],ans:"het",hint:"Think about the teach card. Child = ?"},
         {type:"mc",q:"What does 'de vrouw' mean?",opts:["the man","the woman","the child","the city"],ans:"the woman",hint:"'Vrouw' sounds a bit like..."},
         {type:"fb",opts:["Het","De","Een","Geen"],hint:"What article did you learn with 'huis'?",s:"___ huis is groot.",a:"Het"},
-        {type:"fb",opts:["De","Het","Een","Dit"],hint:"What article did you learn with 'man'?",s:"___ man spreekt Nederlands.",a:"De"},
-        {type:"match",mks:["noun_man","noun_child","noun_language","noun_house"]},
-        {type:"match",mks:["noun_woman","noun_city","noun_country","noun_school"]}
+        {type:"fb",opts:["De","Het","Een","Dit"],hint:"What article did you learn with 'man'?",s:"___ man spreekt Nederlands.",a:"De"}
   ]},
   {id:"v2u2l7",title:"Er is... Er zijn...",icon:"📍",xp:15,board:true,steps:[
         {type:"intro",title:"Er is... Er zijn...",desc:"How do you say 'there is' and 'there are' in Dutch? Two tiny words change everything.",goals:["Use er is for singular things","Use er zijn for plural things","Negate with er is geen and er zijn geen"]},
@@ -175,7 +172,6 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         {type:"mc",q:"How do you say 'There is no house'?",opts:["Het is geen huis","Er zijn geen huis","Er is geen huis","Er heeft geen huis"],ans:"Er is geen huis",hint:"One house = singular, negate with ___"},
         {type:"fb",opts:["zijn","is","heeft","komt"],hint:"Two women + one man = plural total",s:"Er ___ twee vrouwen en een man.",a:"zijn"},
         {type:"drag_fill",hint:"One school (singular), three houses (plural)",s:"Er {1} een school en er {2} drie huizen.",blanks:{"1":"is","2":"zijn"},pool:["is","zijn","heeft","ben"]},
-        {type:"match",mks:["phrase_there_is","phrase_there_are","phrase_there_is_no","phrase_there_are_no"]},
         {type:"tr",mk:"u2_there_are_two_children",dir:"produce"},
         {type:"tr",mk:"u2_no_school_in_city",dir:"comprehend"}
   ]},

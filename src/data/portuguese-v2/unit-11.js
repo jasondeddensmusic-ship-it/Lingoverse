@@ -251,7 +251,7 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  {trg:"correr", src:"to run"},
  {trg:"nadar", src:"to swim"},
  {trg:"jogar", src:"to play (sport)"}
-]},
+,{trg:"assistir", src:"to watch"}]},
 
 {type:"mc", q:"Which sentence means 'She swims in the sea'?",
  opts:["Ela caminha no mar","Ela corre no mar","Ela nada no mar","Ela joga no mar"],
@@ -279,10 +279,6 @@ const UNIT_11 = {n:11, lang:"pt", srcLang:"en", track:"v2", title:"O que você g
  opts:["tocar","correr","ler","jogar"],
  ans:"tocar",
  hint:"Instruments require the touch/play verb, not the sports verb."}
-,
-
-{type:"match", pairs:[
-  {trg:"assistir", src:"to watch"}
-]}]}
+]}
 
 ]}; export default UNIT_11;

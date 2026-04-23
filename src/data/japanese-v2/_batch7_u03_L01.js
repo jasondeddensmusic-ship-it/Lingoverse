@@ -96,7 +96,7 @@ const BATCH7_L1 = {
       {trg:"黄色(きいろ)い", src:"yellow"},
       {trg:"茶色(ちゃいろ)い", src:"brown"},
       {trg:"紫(むらさき)", src:"purple"}
-    ]},
+    ,{trg:"緑(みどり)",src:"green"}]},
 
     {type:"fb", s:"日本(にほん)の信号(しんごう)は「{1}」です。緑(みどり)ではありません。",
      a:["青(あお)"],
@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["虹(にじ)","星(ほし)","雲(くも)","風(かぜ)"],
      hint:"After rain, this colorful arc appears in the sky. Japanese tradition says it has seven colors.",
      sSrc:"After the rain, a {1} appeared."}
-  ,{type:"match",pairs:[{trg:"緑(みどり)",src:"green"}]}]
+  ]
 };
 export default BATCH7_L1;

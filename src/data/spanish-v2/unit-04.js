@@ -155,7 +155,7 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
         {type:"intro",title:"¿Qué Comemos?",desc:"Put it all together: order meals, describe food, and express preferences.",goals:["Order a complete meal","Combine food vocabulary with opinions","Use gustar, querer, estar naturally"]},
         {type:"mc",q:"How do you say 'I'm thirsty'?",opts:["Tengo sed","Estoy sed","Soy sed","Tengo sedo"],ans:"Tengo sed",hint:"Spanish uses 'to have thirst', not 'to be thirsty'."},
         {type:"drag_fill",hint:"Fresas is plural (gustan). Limón is singular (gusta).",s:"Me {1} las fresas pero no me {2} el limón.",blanks:{"1":"gustan","2":"gusta"},pool:["gustan","gusta","gusto","gustas"]},
-        {type:"match",pairs:[{trg:"el desayuno",src:"breakfast"},{trg:"la carne",src:"meat"},{trg:"el pescado",src:"fish"},{trg:"la cuenta",src:"bill"},{trg:"la ensalada",src:"salad"}]},
+        {type:"match",pairs:[{trg:"el desayuno",src:"breakfast"},{trg:"la carne",src:"meat"},{trg:"el pescado",src:"fish"},{trg:"la cuenta",src:"bill"},{trg:"la ensalada",src:"salad"},{trg:"la verdura",src:"the vegetable"}]},
         {type:"mc",q:"You want to order the fish. What do you say?",opts:["Yo quiere el pescado","Para mí, el pescado, por favor","Me pongo el pescado","El pescado me gusta pedir"],ans:"Para mí, el pescado, por favor",hint:"'___ mí' + the item is the polite way to order."},
         {type:"drag_fill",hint:"Name the first course and the second course.",s:"De {1}, la sopa. De {2}, el pollo con arroz.",blanks:{"1":"primero","2":"segundo"},pool:["primero","segundo","postre","carta"]},
         {type:"drag_fill",hint:"Ask the waiter to bring the bill politely.",s:"¿Nos {1} la {2}, por {3}?",blanks:{"1":"trae","2":"cuenta","3":"favor"},pool:["trae","cuenta","favor","pone","carta","gracias"]},
@@ -169,8 +169,7 @@ export default {n:4,lang:"es",srcLang:"en",track:"v2",title:"¡A Comer!",sub:"Fo
         {type:"mc",q:"Which expression uses 'tener' in Spanish but 'to be' in English?",opts:["Tengo un libro (I have a book)","Tengo hambre (I'm hungry)","Tengo que estudiar (I have to study)","Tengo pan (I have bread)"],ans:"Tengo hambre (I'm hungry)",hint:"In Spanish you 'have hunger', in English you 'are ___'."},
         {type:"drag_fill",hint:"Order a two-course meal: salad starter, meat main.",s:"De {1}, una {2} mixta. De {3}, {4} con patatas.",blanks:{"1":"primero","2":"ensalada","3":"segundo","4":"carne"},pool:["primero","ensalada","segundo","carne","postre","sopa"]},
         {type:"mc",q:"A friend says '¡Está riquísima!' about the paella. This means:",opts:["She's very rich","It's extremely expensive","It's absolutely delicious","It's very spicy"],ans:"It's absolutely delicious",hint:"Riquísima is the superlative of rico. Applied to food it shifts from 'rich' to a taste compliment."},
-        {type:"fb",opts:["pone","trae","quiero","gusta"],hint:"A polite way to order in Spain, meaning 'can you give me'.",s:"¿Me {1} un café, por favor?",a:"pone"},
-        {type:"match",pairs:[{trg:"la verdura",src:"the vegetable"}]}
+        {type:"fb",opts:["pone","trae","quiero","gusta"],hint:"A polite way to order in Spain, meaning 'can you give me'.",s:"¿Me {1} un café, por favor?",a:"pone"}
   ]},
   {id:"esv2_u4l_essential",title:"Vocabulario Esencial A1",icon:"📚",xp:20,board:true,steps:[
     {type:"intro",title:"Vocabulario Esencial A1",desc:"Consolidate core A1 vocabulary: everyday places, formal address, family, fruit, and three high-frequency irregular verbs.",goals:["Name places: school, university, restaurant","Distinguish tú (informal) from usted (formal)","Use hacer, querer, and saber correctly","Talk about family and fruit"]},

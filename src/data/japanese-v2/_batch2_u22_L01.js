@@ -74,7 +74,7 @@ const BATCH2_L_1 = {
      deepDive:{title:"Why Understanding On and Giri Matters",
       text:"On (恩) and giri (義理) are invisible social currencies:\n\n恩(おん) is accumulated through significant kindness: a teacher who changes your life, parents who sacrifice for you, a mentor who guides your career.\n\n義理(ぎり) is the ongoing obligation to maintain social relationships: seasonal gifts, attending weddings, helping colleagues.\n\nForeign learners who understand this system navigate Japanese society far more effectively. When someone does something unexpectedly kind, recognizing it as creating 恩(おん) and responding appropriately builds deep trust and lasting relationships."}},
 
-    {type:"match", pairs:[{trg:"恩(おん)",src:"gratitude debt"},{trg:"恩返(おんがえ)し",src:"repaying a favor"},{trg:"遠慮(えんりょ)する",src:"to hold back"},{trg:"おかげさまで",src:"thanks to you"}]},
+    {type:"match", pairs:[{trg:"恩(おん)",src:"gratitude debt"},{trg:"恩返(おんがえ)し",src:"repaying a favor"},{trg:"遠慮(えんりょ)する",src:"to hold back"},{trg:"おかげさまで",src:"thanks to you"},{trg:"気(き)を使(つか)う",src:"to be considerate / to use social care"}]},
 
     {type:"fb", s:"お待(ま)たせして{1}ございません。\n(I am terribly sorry for keeping you waiting.)", a:"申(もう)し訳(わけ)", opts:["申(もう)し訳(わけ)","すみません","ごめん","失礼(しつれい)"], sSrc:"I am terribly sorry for keeping you waiting.",
      hint:"The deep apology phrase meaning 'I have no excuse.' 申(もう)し (saying) + 訳(わけ) (reason) + ない."},
@@ -82,7 +82,6 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"すまない",src:"I feel bad/indebted"},{trg:"お返(かえ)しに",src:"in return"},{trg:"申(もう)し訳(わけ)ない",src:"I have no excuse"},{trg:"義理(ぎり)チョコ",src:"obligation chocolate"}]},
 
     {type:"mc", q:"おかげさまで元気(げんき)です is notable because:", opts:["It is only used at funerals","It is rude","It attributes your wellbeing to others, showing reflexive gratitude","It means you are sick"], ans:"It attributes your wellbeing to others, showing reflexive gratitude",
-     hint:"Even answering 'how are you,' Japanese speakers thank the world/o... for their w...."},
-  {type:"match",pairs:[{trg:"気(き)を使(つか)う",src:"to be considerate / to use social care"}]}]
+     hint:"Even answering 'how are you,' Japanese speakers thank the world/o... for their w...."}]
 };
 export default BATCH2_L_1;

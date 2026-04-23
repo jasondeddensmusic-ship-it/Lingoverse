@@ -292,10 +292,6 @@ const UNIT_32 = {n:32, lang:"pt", srcLang:"en", track:"v2", title:"Meio ambiente
  {trg:"energia renovável", src:"renewable energy"},
  {trg:"preservar", src:"to preserve"},
  {trg:"proteger", src:"to protect"}
-]},
-
-{type:"match", pairs:[
-  {trg:"desmatamento", src:"deforestation"}
-]}]}
+,{trg:"desmatamento", src:"deforestation"}]}]}
 
 ]}; export default UNIT_32;

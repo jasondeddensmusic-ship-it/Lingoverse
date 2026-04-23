@@ -72,7 +72,7 @@ const BATCH2_L_1 = {
     {type:"fb", s:"偏見(へんけん)をなくすためには{1}が重要(じゅうよう)です。\n(Education is important for eliminating prejudice.)", a:"教育(きょういく)", opts:["教育(きょういく)","経験(けいけん)","直感(ちょっかん)","信念(しんねん)"], sSrc:"Education is important for eliminating prejudice.",
      hint:"The noun for the systematic process of teaching and learning."},
 
-    {type:"match", pairs:[{trg:"思想(しそう)",src:"thought/ideology"},{trg:"理性(りせい)",src:"reason/rationality"},{trg:"信念(しんねん)",src:"belief/conviction"},{trg:"現象(げんしょう)",src:"phenomenon"}]},
+    {type:"match", pairs:[{trg:"思想(しそう)",src:"thought/ideology"},{trg:"理性(りせい)",src:"reason/rationality"},{trg:"信念(しんねん)",src:"belief/conviction"},{trg:"現象(げんしょう)",src:"phenomenon"},{trg:"観念(かんねん)",src:"notion / idea / mental concept"}]},
 
     {type:"fb", s:"無意識(むいしき)の{1}は誰(だれ)にでもあります。\n(Everyone has unconscious biases.)", a:"偏見(へんけん)", opts:["偏見(へんけん)","信念(しんねん)","観念(かんねん)","理性(りせい)"], sSrc:"Everyone has unconscious biases.",
      hint:"The noun meaning 'prejudice' or 'bias,' leaning sight that distorts judgment."},
@@ -80,7 +80,6 @@ const BATCH2_L_1 = {
     {type:"match", pairs:[{trg:"善悪(ぜんあく)",src:"good and evil"},{trg:"直感(ちょっかん)",src:"intuition"},{trg:"偏見(へんけん)",src:"prejudice"},{trg:"無意識(むいしき)",src:"unconscious"}]},
 
     {type:"mc", q:"現象(げんしょう) means:", opts:["Belief system","Scientific law","Phenomenon","Hypothesis"], ans:"Phenomenon",
-     hint:"The word for an observable event or occurrence, used in both science and philosophy."},
-  {type:"match",pairs:[{trg:"観念(かんねん)",src:"notion / idea / mental concept"}]}]
+     hint:"The word for an observable event or occurrence, used in both science and philosophy."}]
 };
 export default BATCH2_L_1;

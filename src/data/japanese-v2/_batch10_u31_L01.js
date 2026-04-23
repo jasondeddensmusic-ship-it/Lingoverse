@@ -60,10 +60,10 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(privacy is important.)", a:"プライバシー", opts:["プライバシー","平等(びょうどう)","差別(さべつ)","人権(じんけん)"], sSrc:"privacy is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"人権(じんけん)",src:"human rights"},{trg:"市民権(しみんけん)",src:"civil rights"},{trg:"選挙権(せんきょけん)",src:"right to vote"},{trg:"言論(げんろん)の自由(じゆう)",src:"freedom of speech"}]},
+    {type:"match", pairs:[{trg:"人権(じんけん)",src:"human rights"},{trg:"市民権(しみんけん)",src:"civil rights"},{trg:"選挙権(せんきょけん)",src:"right to vote"},{trg:"言論(げんろん)の自由(じゆう)",src:"freedom of speech"},{trg:"差別(さべつ)",src:"discrimination"}]},
 
     {type:"mc", q:"Which word means law?", opts:["平等(びょうどう)","法律(ほうりつ)","プライバシー","市民権(しみんけん)"], ans:"法律(ほうりつ)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"差別(さべつ)",src:"discrimination"}]}]
+  ]
 };
 export default BATCH10_L1;

@@ -96,7 +96,7 @@ const BATCH7_L1 = {
       {trg:"問題(もんだい)", src:"problem"},
       {trg:"解決(かいけつ)", src:"solution"},
       {trg:"結果(けっか)", src:"result"}
-    ]},
+    ,{trg:"例(たと)えば",src:"for example"}]},
 
     {type:"fb", s:"{1}、日本語(にほんご)は難(むずか)しいですね。",
      a:["やはり"],
@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["解決(かいけつ)","原因(げんいん)","結果(けっか)","賛成(さんせい)"],
      hint:"Let us think of a way to solve this problem. This noun means 'solution' or 'resolution.'",
      sSrc:"Let us think of a {1} method for this problem."}
-  ,{type:"match",pairs:[{trg:"例(たと)えば",src:"for example"}]}]
+  ]
 };
 export default BATCH7_L1;

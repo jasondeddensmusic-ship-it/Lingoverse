@@ -4,7 +4,6 @@ const COVERAGE_U11 = {
   id:"jav2_u11_coverage_review", title:"復習: 語彙カバレッジ", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"復習: 語彙カバレッジ",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"おちてしまった",src:"ended up falling / dropped"}]},
     {type:"fb",s:"{1}",a:["おちてしまった"],opts:["おちてしまった"],hint:"Type the target-language form. Meaning shown below.",sSrc:"ended up falling / dropped"},
     {type:"fb",s:"野菜(やさい)を{1}ください。",a:["食(た)べて"],opts:["おちてしまった","食(た)べて"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please eat your vegetables."},
     {type:"fb",s:"水(みず)を{1}くだ���い。",a:["飲(の)んで"],opts:["飲(の)んで","おちてしまった"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Please drink some water."},

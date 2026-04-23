@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(energy saving is important.)", a:"省エネ(しょうエネ)", opts:["省エネ(しょうエネ)","排出(はいしゅつ)","エコ","再生可能(さいせいかのう)"], sSrc:"energy saving is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"太陽光(たいようこう)",src:"solar power"},{trg:"風力(ふうりょく)",src:"wind power"},{trg:"原子力(げんしりょく)",src:"nuclear power"}]},
+    {type:"match", pairs:[{trg:"再生可能(さいせいかのう)",src:"renewable"},{trg:"太陽光(たいようこう)",src:"solar power"},{trg:"風力(ふうりょく)",src:"wind power"},{trg:"原子力(げんしりょく)",src:"nuclear power"},{trg:"エコ",src:"eco-friendly"}]},
 
     {type:"mc", q:"Which word means sustainable?", opts:["排出(はいしゅつ)","持続可能(じぞくかのう)","省エネ(しょうエネ)","太陽光(たいようこう)"], ans:"持続可能(じぞくかのう)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"エコ",src:"eco-friendly"}]}]
+  ]
 };
 export default BATCH9_L1;

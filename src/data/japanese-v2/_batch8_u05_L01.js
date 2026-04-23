@@ -84,7 +84,7 @@ const BATCH8_L1 = {
      exampleSrc:"A: I am deep-frying tonkatsu.\nB: It smells great!",
      funFact:"揚(あ)げ物(もの) (deep-fried foods) are a major part of Japanese cuisine: てんぷら、とんかつ、からあげ、コロッケ. Despite the oil, these are considered everyday foods. Supermarket 揚(あ)げ物(もの) sections (お総菜(そうざい)) are popular for busy families buying ready-made dinner sides."},
 
-    {type:"match", pairs:[{trg:"煮(に)る",src:"to simmer/stew"},{trg:"蒸(む)す",src:"to steam"},{trg:"炒(いた)める",src:"to stir-fry"},{trg:"揚(あ)げる",src:"to deep-fry"},{trg:"焼(や)く",src:"to grill/bake"}],
+    {type:"match", pairs:[{trg:"煮(に)る",src:"to simmer/stew"},{trg:"蒸(む)す",src:"to steam"},{trg:"炒(いた)める",src:"to stir-fry"},{trg:"揚(あ)げる",src:"to deep-fry"},{trg:"焼(や)く",src:"to grill/bake"},{trg:"電子(でんし)レンジ",src:"microwave oven"}],
      hint:"Match each cooking method with its English translation."},
 
     {type:"mc", q:"What does チンする mean?", opts:["To chop vegetables","To heat in the microwave","To boil water","To ring a bell"], ans:"To heat in the microwave",
@@ -100,6 +100,6 @@ const BATCH8_L1 = {
      opts:["包丁(ほうちょう)","おたま","まないた","鍋(なべ)"],
      hint:"You use this sharp kitchen tool to slice fish thinly for sashimi. It is the classic Japanese kitchen knife.",
      sSrc:"I slice the fish thinly with a {1} and make sashimi."}
-  ,{type:"match",pairs:[{trg:"台所(だいどころ)",src:"kitchen"},{trg:"鍋(なべ)",src:"pot / pan / hot pot"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まないた",src:"cutting board"},{trg:"おたま",src:"ladle"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"}]},{type:"match",pairs:[{trg:"電子(でんし)レンジ",src:"microwave oven"}]}]
+  ,{type:"match",pairs:[{trg:"台所(だいどころ)",src:"kitchen"},{trg:"鍋(なべ)",src:"pot / pan / hot pot"},{trg:"包丁(ほうちょう)",src:"kitchen knife"},{trg:"まないた",src:"cutting board"},{trg:"おたま",src:"ladle"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"}]}]
 };
 export default BATCH8_L1;

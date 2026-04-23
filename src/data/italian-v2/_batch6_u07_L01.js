@@ -103,7 +103,7 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
  {trg:"la pentola", src:"pot"},
  {trg:"il mestolo", src:"ladle"},
  {trg:"il tagliere", src:"cutting board"}
-]},
+,{trg:"il grembiule",src:"the apron"}]},
 
 {type:"mc", q:"Cosa devi fare prima di buttare la pasta nell'acqua?",
  opts:["Scolare la pentola","Aspettare che l'acqua bolla","Tritare la cipolla","Mescolare il sugo"],
@@ -131,5 +131,5 @@ const BATCH6_L1 = {id:"itv2_u07l_b6_1", title:"In cucina", icon:"\u{1F373}", xp:
  {trg:"mescolare", src:"to stir"},
  {trg:"scolare", src:"to drain"}
 ]}
-,{type:"match",pairs:[{trg:"il grembiule",src:"the apron"}]}]};
+]};
 export default BATCH6_L1;

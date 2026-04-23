@@ -252,9 +252,18 @@ function buildLessonFile(lang, unitNumPadded, cards, extras = [], unitTeach = 0)
     const c = fbCandidates[i];
     usedFb.add(c.trg);
     // Distractors: prefer cards of the same POS for cleaner discrimination.
-    const sameClass = cards.filter(x => x !== c && x.pos === c.pos);
-    const pool = sameClass.length >= 3 ? sameClass : cards.filter(x => x !== c);
-    const distractors = pool.slice(0, 3).map(x => x.trg);
+    // Filter by trg value (not object identity) to avoid duplicates when the
+    // same trg appears in both the untested list and the pool extras.
+    const sameClass = cards.filter(x => x.trg !== c.trg && x.pos === c.pos);
+    const pool = sameClass.length >= 3 ? sameClass : cards.filter(x => x.trg !== c.trg);
+    const seenOpt = new Set([c.trg]);
+    const distractors = [];
+    for (const x of pool) {
+      if (seenOpt.has(x.trg)) continue;
+      distractors.push(x.trg);
+      seenOpt.add(x.trg);
+      if (distractors.length >= 3) break;
+    }
     const opts = [c.trg, ...distractors];
     // Deterministic rotation so correct answer isn't always index 0. Aligns
     // with pp8_position_fix: target index = i % opts.length.

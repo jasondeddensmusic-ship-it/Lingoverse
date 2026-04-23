@@ -104,7 +104,7 @@ const BATCH4_L_1 = {
       {trg:"机(つくえ)", src:"desk"},
       {trg:"棚(たな)", src:"shelf"},
       {trg:"鏡(かがみ)", src:"mirror"}
-    ]},
+    ,{trg:"カーテン",src:"curtain"}]},
 
     {type:"mc", q:"エアコン is short for:",
      opts:["heater","air conditioner","air control","electric fan"], ans:"air conditioner",
@@ -122,6 +122,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 電気(でんき) mean?",
      opts:["gas","water","heat","electricity / light"], ans:"electricity / light",
      hint:"Both the energy source and the lamp in your room."}
-  ,{type:"match",pairs:[{trg:"テーブル",src:"table"},{trg:"扉(とびら)",src:"door"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"},{trg:"洗濯機(せんたくき)",src:"washing machine"},{trg:"電気(でんき)",src:"electricity / light"},{trg:"エアコン",src:"air conditioner"}]},{type:"match",pairs:[{trg:"カーテン",src:"curtain"}]}]
+  ,{type:"match",pairs:[{trg:"テーブル",src:"table"},{trg:"扉(とびら)",src:"door"},{trg:"冷蔵庫(れいぞうこ)",src:"refrigerator"},{trg:"洗濯機(せんたくき)",src:"washing machine"},{trg:"電気(でんき)",src:"electricity / light"},{trg:"エアコン",src:"air conditioner"}]}]
 };
 export default BATCH4_L_1;

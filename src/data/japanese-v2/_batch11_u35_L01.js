@@ -89,7 +89,7 @@ const BATCH11_L1 = {
       {trg:"セキュリティ", src:"digital security"},
       {trg:"プライバシー", src:"privacy"},
       {trg:"自動化(じどうか)", src:"automation"}
-    ]},
+    ,{trg:"フェイク",src:"fake (as in fake news)"}]},
 
     {type:"mc", q:"日本(にほん)の自動販売機(じどうはんばいき)は何台(なんだい)くらいありますか？",
      opts:["About 500,000","Over 5 million","About 1 million","About 100,000"],
@@ -116,6 +116,6 @@ const BATCH11_L1 = {
     opts:["プライバシー","セキュリティ","データ","フェイク"],
     hint:"We should learn how to protect our personal information. This loanword from English means 'privacy.'",
     sSrc:"Let's learn how to protect {1} for our personal information."}
-  ,{type:"match",pairs:[{trg:"データ",src:"data"},{trg:"クラウド",src:"cloud (computing)"},{trg:"アプリ",src:"application (software)"},{trg:"検索(けんさく)",src:"search (web/database)"},{trg:"投稿(とうこう)",src:"posting (online)"},{trg:"コンテンツ",src:"content (digital/media)"}]},{type:"match",pairs:[{trg:"フェイク",src:"fake (as in fake news)"}]}]
+  ,{type:"match",pairs:[{trg:"データ",src:"data"},{trg:"クラウド",src:"cloud (computing)"},{trg:"アプリ",src:"application (software)"},{trg:"検索(けんさく)",src:"search (web/database)"},{trg:"投稿(とうこう)",src:"posting (online)"},{trg:"コンテンツ",src:"content (digital/media)"}]}]
 };
 export default BATCH11_L1;

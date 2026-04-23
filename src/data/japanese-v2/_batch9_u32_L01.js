@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(hospital discharge is important.)", a:"退院(たいいん)", opts:["退院(たいいん)","健康診断(けんこうしんだん)","予防(よぼう)","診察(しんさつ)"], sSrc:"hospital discharge is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"診察(しんさつ)",src:"medical examination"},{trg:"手術(しゅじゅつ)",src:"surgery"},{trg:"処方箋(しょほうせん)",src:"prescription"},{trg:"入院(にゅういん)",src:"hospitalization"}]},
+    {type:"match", pairs:[{trg:"診察(しんさつ)",src:"medical examination"},{trg:"手術(しゅじゅつ)",src:"surgery"},{trg:"処方箋(しょほうせん)",src:"prescription"},{trg:"入院(にゅういん)",src:"hospitalization"},{trg:"予防(よぼう)",src:"prevention"}]},
 
     {type:"mc", q:"Which word means immunity?", opts:["健康診断(けんこうしんだん)","免疫(めんえき)","退院(たいいん)","手術(しゅじゅつ)"], ans:"免疫(めんえき)",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"予防(よぼう)",src:"prevention"}]}]
+  ]
 };
 export default BATCH9_L1;

@@ -217,7 +217,7 @@ const UNIT_04 = {
   {type:"fb", s:"この 時計(とけい)は {1}円(えん) です。\n(This watch is 10,000 yen.)", a:"一万(いちまん)", opts:["一万(いちまん)","十(じゅう)","百(ひゃく)","千(せん)"], sSrc:"This watch is 10,000 yen.",
    hint:"The unit for ten thousand in Japanese."},
 
-  {type:"match", pairs:[{trg:"百(ひゃく)",src:"100"},{trg:"千(せん)",src:"1,000"},{trg:"万(まん)",src:"10,000"},{trg:"三百(さんびゃく)",src:"300"}]},
+  {type:"match", pairs:[{trg:"百(ひゃく)",src:"100"},{trg:"千(せん)",src:"1,000"},{trg:"万(まん)",src:"10,000"},{trg:"三百(さんびゃく)",src:"300"},{trg:"五千(ごせん)",src:"five thousand (5,000)"}]},
 
   {type:"match", pairs:[{trg:"個(こ)",src:"counter: small objects"},{trg:"枚(まい)",src:"counter: flat objects"},{trg:"本(ほん)",src:"counter: long objects"},{trg:"ください",src:"please (give me)"}]},
 
@@ -242,8 +242,7 @@ const UNIT_04 = {
   {type:"tip", title:"Shopping Survival Kit",
    text:"Point and say:\nこれをください。= This one, please.\n\nAsk the price:\nいくらですか? = How much?\n\nState quantity:\n三個(さんこ)ください。= Three, please. (small items)\n二枚(にまい)ください。= Two, please. (flat items)\n一本(いっぽん)ください。= One, please. (long items)",
    deepDive:{title:"Real shopping in Japan",
-    text:"At a convenience store (konbini), the cashier will say the total and you pay. No need for complex conversation.\n\nAt markets and department stores, you might hear:\nいらっしゃいませ! (Welcome!)\nおいくらですか? (How much? with polite お)\nまた おこしください (Please come again)\n\nJapan is still largely a cash society, though cashless payment is growing fast."}},
-{type:"match",pairs:[{trg:"五千(ごせん)",src:"five thousand (5,000)"}]}]},BATCH3_L1
+    text:"At a convenience store (konbini), the cashier will say the total and you pay. No need for complex conversation.\n\nAt markets and department stores, you might hear:\nいらっしゃいませ! (Welcome!)\nおいくらですか? (How much? with polite お)\nまた おこしください (Please come again)\n\nJapan is still largely a cash society, though cashless payment is growing fast."}}]},BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

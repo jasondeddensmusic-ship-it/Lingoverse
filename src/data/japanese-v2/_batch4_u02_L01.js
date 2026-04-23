@@ -108,7 +108,7 @@ const BATCH4_L_1 = {
       {trg:"韓国(かんこく)", src:"South Korea"},
       {trg:"イギリス", src:"England/UK"},
       {trg:"ブラジル", src:"Brazil"}
-    ]},
+    ,{trg:"役(やく)に立(た)つ",src:"to be useful / helpful"}]},
 
     {type:"mc", q:"What does 留学生(りゅうがくせい) mean?",
      opts:["tourist","businessman","exchange student","teacher"], ans:"exchange student",
@@ -122,7 +122,7 @@ const BATCH4_L_1 = {
     {type:"mc", q:"Which country name comes from Portuguese?",
      opts:["ドイツ","中国(ちゅうごく)","韓国(かんこく)","イギリス"], ans:"イギリス",
      hint:"Portugal was the first European nation to reach Japan."}
-  ,{type:"match",pairs:[{trg:"オーストラリア",src:"Australia"},{trg:"インド",src:"India"},{trg:"日本人(にほんじん)",src:"Japanese person"},{trg:"日本語(にほんご)",src:"Japanese language"},{trg:"外国人(がいこくじん)",src:"foreigner"},{trg:"留学生(りゅうがくせい)",src:"exchange student / foreign student"}]},{type:"match",pairs:[{trg:"役(やく)に立(た)つ",src:"to be useful / helpful"}]},
+  ,{type:"match",pairs:[{trg:"オーストラリア",src:"Australia"},{trg:"インド",src:"India"},{trg:"日本人(にほんじん)",src:"Japanese person"},{trg:"日本語(にほんご)",src:"Japanese language"},{trg:"外国人(がいこくじん)",src:"foreigner"},{trg:"留学生(りゅうがくせい)",src:"exchange student / foreign student"}]},
   {type:"fb", s:"{1}はソウルが首都(しゅと)です。", a:["韓国(かんこく)"], opts:["韓国(かんこく)","中国(ちゅうごく)","フランス","ドイツ"], hint:"The East Asian nation whose capital is Seoul, south of the peninsula's border.", sSrc:"{1}'s capital is Seoul."}
 ]
 };

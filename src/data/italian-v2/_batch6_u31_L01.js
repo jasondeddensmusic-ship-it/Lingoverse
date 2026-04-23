@@ -86,7 +86,7 @@ const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}"
  {trg:"l'inchiesta", src:"investigation"},
  {trg:"il titolo", src:"headline"},
  {trg:"la fonte", src:"source"}
-]},
+,{trg:"smentire",src:"to deny / to debunk"}]},
 {type:"mc", q:"Cosa garantisce l'articolo 21 della Costituzione italiana?",
  opts:["La libertà religiosa","La libertà di stampa","Il diritto al voto","L'uguaglianza di genere"],
  ans:"La libertà di stampa",
@@ -109,5 +109,5 @@ const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}"
  {trg:"la diffamazione", src:"defamation"},
  {trg:"l'imparzialita", src:"impartiality"}
 ]}
-,{type:"match",pairs:[{trg:"smentire",src:"to deny / to debunk"}]}]};
+]};
 export default BATCH6_L1;

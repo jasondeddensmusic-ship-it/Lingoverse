@@ -96,7 +96,7 @@ const BATCH7_L1 = {
       {trg:"郵便局(ゆうびんきょく)", src:"post office"},
       {trg:"警察署(けいさつしょ)", src:"police station"},
       {trg:"空港(くうこう)", src:"airport"}
-    ]},
+    ,{trg:"消防署(しょうぼうしょ)",src:"fire station"}]},
 
     {type:"fb", s:"引越(ひっこし)の手続(てつづ)きは{1}でします。",
      a:["役所(やくしょ)"],
@@ -133,6 +133,6 @@ const BATCH7_L1 = {
      opts:["動物園(どうぶつえん)","公園(こうえん)","博物館(はくぶつかん)","神社(じんじゃ)"],
      hint:"This facility keeps animals for public viewing. Ueno's is Tokyo's oldest and most famous.",
      sSrc:"There are pandas at Ueno {1}."}
-  ,{type:"match",pairs:[{trg:"消防署(しょうぼうしょ)",src:"fire station"}]}]
+  ]
 };
 export default BATCH7_L1;

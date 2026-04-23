@@ -72,7 +72,7 @@ const BATCH2_L_3 = {
     {type:"fb", s:"一(ひと)つお{1}してもよろしいですか？\n(May I ask you one thing?)", a:"伺(うかが)い", opts:["伺(うかが)い","聞(き)き","尋(たず)ね","質問(しつもん)"], sSrc:"May I ask you one thing?",
      hint:"The humble keigo verb replacing 'to ask,' showing deference to the listener."},
 
-    {type:"match", pairs:[{trg:"尊敬語(そんけいご)",src:"respectful language"},{trg:"謙譲語(けんじょうご)",src:"humble language"},{trg:"丁寧語(ていねいご)",src:"polite language"},{trg:"おっしゃる",src:"to say (respectful)"}]},
+    {type:"match", pairs:[{trg:"尊敬語(そんけいご)",src:"respectful language"},{trg:"謙譲語(けんじょうご)",src:"humble language"},{trg:"丁寧語(ていねいご)",src:"polite language"},{trg:"おっしゃる",src:"to say (respectful)"},{trg:"〜ていただく",src:"to have someone do ~ for me (humble keigo)"}]},
 
     {type:"fb", s:"わたくしは田中(たなか)と{1}します。\n(My name is Tanaka. [humble])", a:"もう", opts:["もう","いい","おっしゃい","はなし"], sSrc:"My name is Tanaka (humble form).",
      hint:"The humble verb for 'to say,' used when introducing yourself formally."},
@@ -80,7 +80,6 @@ const BATCH2_L_3 = {
     {type:"match", pairs:[{trg:"もうす",src:"to say (humble)"},{trg:"いらっしゃる",src:"to be/go/come (respectful)"},{trg:"拝見(はいけん)する",src:"to see (humble)"},{trg:"伺(うかが)う",src:"to ask/visit (humble)"}]},
 
     {type:"mc", q:"ていただく expresses:", opts:["Refusing a request politely","Giving a favor to someone","Humbly receiving a favor from someone","Commanding someone to do something"], ans:"Humbly receiving a favor from someone",
-     hint:"This pattern frames the other person's action as a gift to you, showing gratitude and humility."},
-  {type:"match",pairs:[{trg:"〜ていただく",src:"to have someone do ~ for me (humble keigo)"}]}]
+     hint:"This pattern frames the other person's action as a gift to you, showing gratitude and humility."}]
 };
 export default BATCH2_L_3;

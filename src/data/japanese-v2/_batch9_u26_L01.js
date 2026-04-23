@@ -60,10 +60,10 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は重要(じゅうよう)です。\n(survey is important.)", a:"アンケート", opts:["アンケート","電波(でんぱ)","特集(とくしゅう)","特派(とくは)"], sSrc:"survey is important.",
      hint:"Think about which word matches the English translation."},
 
-    {type:"match", pairs:[{trg:"特派(とくは)",src:"scoop"},{trg:"社説(しゃせつ)",src:"editorial"},{trg:"コメンテーター",src:"commentator"},{trg:"世論(せろん)",src:"public opinion"}]},
+    {type:"match", pairs:[{trg:"特派(とくは)",src:"scoop"},{trg:"社説(しゃせつ)",src:"editorial"},{trg:"コメンテーター",src:"commentator"},{trg:"世論(せろん)",src:"public opinion"},{trg:"特集(とくしゅう)",src:"special feature"}]},
 
     {type:"mc", q:"Which word means headline?", opts:["電波(でんぱ)","見出(みだ)し","アンケート","社説(しゃせつ)"], ans:"見出(みだ)し",
      hint:"This term is essential vocabulary for this topic."}
-  ,{type:"match",pairs:[{trg:"特集(とくしゅう)",src:"special feature"}]}]
+  ]
 };
 export default BATCH9_L1;

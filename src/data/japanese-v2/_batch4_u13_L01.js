@@ -98,7 +98,7 @@ const BATCH4_L_1 = {
       {trg:"旅館(りょかん)", src:"Japanese inn"},
       {trg:"お土産(おみやげ)", src:"souvenir"},
       {trg:"パスポート", src:"passport"}
-    ]},
+    ,{trg:"観光(かんこう)",src:"sightseeing / tourism"}]},
 
     {type:"mc", q:"What is special about the Japanese passport?",
      opts:["lasts forever","world's most powerful for visa-free travel","unique design","free to obtain"], ans:"world's most powerful for visa-free travel",
@@ -116,6 +116,6 @@ const BATCH4_L_1 = {
     {type:"mc", q:"What does 改札(かいさつ) mean?",
      opts:["ticket office","waiting room","exit","ticket gate"], ans:"ticket gate",
      hint:"The turnstile where you tap your IC card to enter the station."}
-  ,{type:"match",pairs:[{trg:"乗(の)り換(か)え",src:"transfer (trains/buses)"},{trg:"改札(かいさつ)",src:"ticket gate / turnstile"},{trg:"ホーム",src:"platform (train station)"},{trg:"定期券(ていきけん)",src:"commuter pass"},{trg:"入国(にゅうこく)",src:"entry into a country / immigration"},{trg:"手荷物(てにもつ)",src:"hand luggage / carry-on"}]},{type:"match",pairs:[{trg:"観光(かんこう)",src:"sightseeing / tourism"}]}]
+  ,{type:"match",pairs:[{trg:"乗(の)り換(か)え",src:"transfer (trains/buses)"},{trg:"改札(かいさつ)",src:"ticket gate / turnstile"},{trg:"ホーム",src:"platform (train station)"},{trg:"定期券(ていきけん)",src:"commuter pass"},{trg:"入国(にゅうこく)",src:"entry into a country / immigration"},{trg:"手荷物(てにもつ)",src:"hand luggage / carry-on"}]}]
 };
 export default BATCH4_L_1;

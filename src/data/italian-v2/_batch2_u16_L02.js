@@ -90,7 +90,7 @@ const BATCH2_U16_L2 = {
       {trg:"l'ecografia", src:"the ultrasound"},
       {trg:"lo screening", src:"screening"},
       {trg:"l'integratore", src:"the supplement"}
-    ]},
+    ,{trg:"la dieta",src:"the diet"}]},
 
     {type:"mc", q:"What are 'cure termali' in Italy?",
      opts:["Emergency medical procedures at hospitals","Thermal spa treatments for health","Dental care procedures at clinics","Online digital health consultations"],
@@ -118,6 +118,6 @@ const BATCH2_U16_L2 = {
      opts:["Heavy exercise right before bed","Watching exciting television programs","Strong coffee late at night","Chamomile tea and natural remedies"],
      ans:"Chamomile tea and natural remedies",
      hint:"'Camomilla,' herbal teas, and melatonin are tried first. Sleeping pills require a prescription and are a last resort."}
-  ,{type:"match",pairs:[{trg:"la dieta",src:"the diet"}]}]
+  ]
 };
 export default BATCH2_U16_L2;

@@ -78,7 +78,7 @@ const BATCH2_L_2 = {
     {type:"fb", s:"JLPTに合格(ごうかく)するためには{1}的(てき)な勉強(べんきょう)が必要(ひつよう)です。\n(Planned study is needed to pass the JLPT.)", a:"計画(けいかく)", opts:["計画(けいかく)","慎重(しんちょう)","概要(がいよう)","要旨(ようし)"], sSrc:"Planned study is needed to pass the JLPT.",
      hint:"The noun meaning 'plan' or 'planning,' a systematic approach to achieving a goal."},
 
-    {type:"match", pairs:[{trg:"合格(ごうかく)",src:"passing (exam)"},{trg:"読(よ)み解(と)く",src:"read and comprehend deeply"},{trg:"要旨(ようし)",src:"gist/main points"},{trg:"文脈(ぶんみゃく)",src:"context"}]},
+    {type:"match", pairs:[{trg:"合格(ごうかく)",src:"passing (exam)"},{trg:"読(よ)み解(と)く",src:"read and comprehend deeply"},{trg:"要旨(ようし)",src:"gist/main points"},{trg:"文脈(ぶんみゃく)",src:"context"},{trg:"再読(さいどく)",src:"re-reading / reading again"}]},
 
     {type:"fb", s:"日本語(にほんご)の上達(じょうたつ)は毎日(まいにち)の{1}です。\n(Japanese language improvement is daily accumulation.)", a:"積(つ)み重(かさ)ね", opts:["積(つ)み重(かさ)ね","勉強(べんきょう)","試験(しけん)","計画(けいかく)"], sSrc:"Japanese language improvement is daily accumulation.",
      hint:"The noun for building something up layer by layer over time."},
@@ -91,7 +91,6 @@ const BATCH2_L_2 = {
       text:"JLPT N1 requires approximately 10,000 vocabulary items and 200+ grammar patterns.\n\nYour B2 vocabulary covers the core academic and social vocabulary tested on N1. To continue:\n\n1. Vocabulary: Add 10-20 new words daily from N1 word lists.\n2. Grammar: Study the remaining N1 patterns (approximately 80-100 beyond what you have learned).\n3. Reading: Practice with full-length N1 reading sections. Focus on speed and accuracy.\n4. Listening: Train with NHK Radio News (slower pace) then TV news (natural speed).\n\nRemember: 積(つ)み重(かさ)ね. Consistent daily effort is the path to N1 合格(ごうかく)."}},
 
     {type:"mc", q:"The most important strategy for JLPT reading comprehension is:", opts:["Only reading the questions, not the passages","Reading every word carefully from start to finish","First grasping the outline, then re-reading for details","Guessing all answers without reading"], ans:"First grasping the outline, then re-reading for details",
-     hint:"概要(がいよう)をつかむ (grasp the o...) f..., t... 再読(さいどく) (re-read) for specific answers."},
-  {type:"match",pairs:[{trg:"再読(さいどく)",src:"re-reading / reading again"}]}]
+     hint:"概要(がいよう)をつかむ (grasp the o...) f..., t... 再読(さいどく) (re-read) for specific answers."}]
 };
 export default BATCH2_L_2;
