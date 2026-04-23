@@ -307,7 +307,7 @@ const UNIT_6 =
   {type:"intro",title:"The Final A1 Toolkit",desc:"못 / -지만\n→ can't / but\n\nFour connectors and frequency adverbs.",goals:["Distinguish 안 (won't) vs 못 (can't)","Use -지만 for contrast","Connect sentences with 그래서/그런데/그러면/아니면","Use frequency adverbs naturally"]},
 
   // ── 못 ──
-  {type:"teach",kind:"word",nl:"못",en:"can't (inability)",phonetic:"mot",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"못",en:"can't (inability)",pos:"adv",gender:null,phonetic:"mot",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
    example:"A: 수영해요? B: 아니요, 수영을 못해요.",exampleEn:"A: Do you swim? B: No, I can't swim.",
    note:"못 goes before the verb.\n\n못 가요\n→ can't go\n\n못 먹어요\n→ can't eat\n\n못 자요\n→ can't sleep"},
 
@@ -316,7 +316,7 @@ const UNIT_6 =
    text:"수영하다 = 수영 (swimming) + 하다 (to do)\n(to swim = swimming + to do)\n\nWith 하다 verbs, 못 splits the compound:\n\n수영을 못해요\n→ (I) can't swim\n\n운전을 못해요\n→ (I) can't drive\n\n한국어를 못해요\n→ (I) can't speak Korean\n\nWith plain verbs, 못 just goes before:\n\n못 가요\n→ can't go\n\n못 먹어요\n→ can't eat"},
 
   // ── 안 vs 못 ──
-  {type:"teach",kind:"phrase",nl:"안 vs 못",en:"won't (choice) vs can't (inability)",phonetic:"an / mot",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
+  {type:"teach",kind:"phrase",nl:"안 vs 못",en:"won't (choice) vs can't (inability)",pos:"part",gender:null,phonetic:"an / mot",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
    example:"A: 오늘 안 가요? B: 아니요, 가고 싶지만 못 가요.",exampleEn:"A: You're not going today? B: No, I want to go but I can't go.",
    note:"안 = I choose not to.\n못 = I am not able to.\n\nUsing the wrong one changes what you're saying."},
 
@@ -328,12 +328,12 @@ const UNIT_6 =
   {type:"fb",s:"저는 운전을 ___해요.\n(I can't drive  -  not capable)",a:"못",opts:["못","안","별로","전혀"],hint:"Inability = 못"},
 
   // ── -지 못하다 ──
-  {type:"teach",kind:"grammar",nl:"-지 못하다",en:"cannot (formal long form)",phonetic:"-ji mot-ha-da",funFact:"Korean has two negation systems: pre-verb 안 and post-verb -지 않다. Both are used daily.",
+  {type:"teach",kind:"grammar",nl:"-지 못하다",en:"cannot (formal long form)",pos:"part",gender:null,phonetic:"-ji mot-ha-da",funFact:"Korean has two negation systems: pre-verb 안 and post-verb -지 않다. Both are used daily.",
    example:"A: 운전해요? B: 아니요, 운전하지 못해요.",exampleEn:"A: Do you drive? B: No, I cannot drive.",
    note:"COMPOUND: -지 (verb connector) + 못하다 (cannot do).\nLiterally: 'verb-and-cannot'\n\n수영을 못해요 = 수영하지 못해요\n→ Both mean: can't swim\n→ -지 못하다 is slightly more formal",deepDive:{title:"못 vs -지 못하다",text:"못 가요 = can't go (short, spoken).\n가지 못해요 = cannot go (long, written/formal).\n\nBoth express inability. Choose by register:\nCasual speech: 못 + verb.\nFormal/written: verb + -지 못하다."}},
 
   // ── -지만 ──
-  {type:"teach",kind:"word",nl:"-지만",en:"but / however",phonetic:"-ji-man",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"-지만",en:"but / however",pos:"conj",gender:null,phonetic:"-ji-man",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
    example:"A: 한국어가 어려워요? B: 어렵지만 재미있어요.",exampleEn:"A: Is Korean difficult? B: It's difficult, but interesting.",
    note:"COMPOUND: stem + 지만 (but/however).\n\n어렵다 → 어렵지만\n→ (to be) difficult → but difficult\n\n가다 → 가지만\n→ to go → but going\n\n비싸다 → 비싸지만\n→ (to be) expensive → but expensive"},
 
@@ -344,23 +344,23 @@ const UNIT_6 =
   {type:"fb",s:"한국어는 어렵___ 재미있어요.\n(Korean is difficult ___ interesting.)",a:"지만",opts:["지만","고","서","는데"],hint:"-... attaches to the first verb stem"},
 
   // ── 그래서 ──
-  {type:"teach",kind:"word",nl:"그래서",en:"so / therefore",phonetic:"geu-rae-seo",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"그래서",en:"so / therefore",pos:"conj",gender:null,phonetic:"geu-rae-seo",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
    example:"A: 왜 집에 있어요? B: 피곤해요. 그래서 쉬어요.",exampleEn:"A: Why are you at home? B: I'm tired. So I'm resting.",
    note:"Connects two sentences: reason → result.\n그래서 starts the SECOND sentence.\n\n배가 고파요. 그래서 밥을 먹었어요.\n→ I'm hungry. So I ate."},
 
   // ── 그런데 ──
-  {type:"teach",kind:"phrase",nl:"그런데 / 근데",en:"but / by the way",phonetic:"geu-reon-de / geun-de",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
+  {type:"teach",kind:"phrase",nl:"그런데 / 근데",en:"but / by the way",pos:"conj",gender:null,phonetic:"geu-reon-de / geun-de",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
    example:"A: 이 식당 어때요? B: 맛있어요. 그런데 비싸요.",exampleEn:"A: How is this restaurant? B: It's delicious. But it's expensive.",
    note:"Two uses:\n\n1. Contrast:\n맛있어요. 그런데 비싸요.\n→ It's delicious. But it's expensive.\n\n2. Topic shift:\n그런데, 오늘 뭐 했어요?\n→ By the way, what did you do today?\n\n근데 = casual spoken form"},
 
   // ── 그러면 ──
-  {type:"teach",kind:"phrase",nl:"그러면 / 그럼",en:"then / in that case",phonetic:"geu-reo-myeon / geu-reom",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
+  {type:"teach",kind:"phrase",nl:"그러면 / 그럼",en:"then / in that case",pos:"conj",gender:null,phonetic:"geu-reo-myeon / geu-reom",funFact:"Set phrases are the fastest way to sound natural. Koreans use fixed expressions constantly.",
    example:"A: 시간 있어요? B: 네! A: 그럼, 같이 가요!",exampleEn:"A: Do you have time? B: Yes! A: Then let's go together!",
    note:"그럼요!\n→ Of course! (very common polite reply)\n\n그럼 = casual spoken form of 그러면"},
   {type:"mc",q:"그런데 means:",opts:["so","because","then","but"],ans:"but",hint:"A connector that introduces contrast or changes topic."},
 
   // ── 아니면 ──
-  {type:"teach",kind:"word",nl:"아니면",en:"or / otherwise",phonetic:"a-ni-myeon",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"아니면",en:"or / otherwise",pos:"conj",gender:null,phonetic:"a-ni-myeon",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
    example:"A: 커피 아니면 차? B: 커피 주세요.",exampleEn:"A: Coffee or tea? B: Coffee, please.",
    note:"COMPOUND: 아니다 (not be) + (으)면 (if-condition).\nLiterally: 'if it is not (that)'\n\n커피 아니면 차\n→ coffee or tea\n\n여기 아니면 거기\n→ here or there"},
 
