@@ -1,6 +1,6 @@
 // Central registry for placement quiz question banks.
 // Each language exports QUESTIONS_BY_LEVEL and LEVEL_ORDER.
-// Languages without a question bank return null — the onboarding
+// Languages without a question bank return null. The onboarding
 // flow skips the placement step and routes directly to A1.1.
 
 import { QUESTIONS_BY_LEVEL as de_Q, LEVEL_ORDER as de_L } from './de.js';
