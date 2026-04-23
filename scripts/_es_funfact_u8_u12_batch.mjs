@@ -84,7 +84,7 @@ for (const file of fs.readdirSync(LANG_ROOT)) {
   let count = 0;
   for (const [trg, newFact] of Object.entries(FACTS)) {
     const escTrg = trg.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const re = new RegExp(`(trg:"${escTrg}"[\\s\\S]*?funFact:")${GENERIC.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(")`, 'g');
+    const re = new RegExp(`(\\{type:"teach",trg:"${escTrg}"[\\s\\S]*?funFact:")${GENERIC.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(")`, 'g');
     if (!re.test(text)) continue;
     re.lastIndex = 0;
     text = text.replace(re, (_, pre, post) => { count++; return pre + newFact + post; });
