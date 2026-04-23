@@ -1,5 +1,5 @@
 // Auto-generated PP64 coverage lesson for unit 40.
-// Source: scripts/pp64_coverage.mjs — rerun to refresh.
+// Source: scripts/pp64_coverage.mjs; rerun to refresh.
 const COVERAGE_U40 = {
   id:"spv2_u40_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
