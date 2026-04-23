@@ -60,6 +60,9 @@ const BATCH10_L1 = {
     {type:"fb", s:"{1}で待(ま)ち合(あ)わせしましょう。\n(Let's meet in front of the station.)", a:"駅前(えきまえ)", opts:["駅前(えきまえ)","交差点(こうさてん)","突(つ)き当(あ)たり","横断歩道(おうだんほどう)"], sSrc:"Let's meet in front of the station.",
      hint:"This default meeting spot is the commercial center of most Japanese towns."},
 
+    {type:"fb", s:"次(つぎ)の{1}を右(みぎ)に曲(ま)がってください。\n(Turn right at the next intersection.)", a:"交差点(こうさてん)", opts:["交差点(こうさてん)","近道(ちかみち)","目印(めじるし)","駅前(えきまえ)"], sSrc:"Turn right at the next intersection.",
+     hint:"Where two roads meet, usually with a traffic light. Famous example: Shibuya Scramble."},
+
     {type:"match", pairs:[
       {trg:"交差点(こうさてん)", src:"intersection"},
       {trg:"突(つ)き当(あ)たり", src:"dead end"},

@@ -54,6 +54,9 @@ const BATCH9_L1 = {
     {type:"fb", s:"{1}は何時(なんじ)ですか？十二時(じゅうにじ)過(す)ぎです。\n(What time is the last train? Past midnight.)", a:"終電(しゅうでん)", opts:["終電(しゅうでん)","始発(しはつ)","新幹線(しんかんせん)","地下鉄(ちかてつ)"], sSrc:"What time is the last train? Past midnight.",
      hint:"Missing this means an expensive taxi ride or waiting until 5 AM for the first train."},
 
+    {type:"fb", s:"東京(とうきょう)から大阪(おおさか)まで{1}で行(い)きます。\n(I will go from Tokyo to Osaka by bullet train.)", a:"新幹線(しんかんせん)", opts:["新幹線(しんかんせん)","地下鉄(ちかてつ)","定期券(ていきけん)","ホーム"], sSrc:"I will go from Tokyo to Osaka by bullet train.",
+     hint:"Japan's high-speed rail, launched in 1964. Tokyo-Osaka in about 2.5 hours."},
+
     {type:"match", pairs:[
       {trg:"改札口(かいさつぐち)", src:"ticket gate"},
       {trg:"ホーム", src:"platform"},
