@@ -69,7 +69,7 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"match",pairs:[{trg:"trois",src:"three"},{trg:"sept",src:"seven"},{trg:"cinq",src:"five"},{trg:"huit",src:"eight"}]},
         {type:"mc",q:"Before a vowel, 'six' is pronounced:",opts:["SEES","SEE","SEEZ","SEEKZ"],ans:"SEEZ",hint:"Liaison: the silent X wakes up as a Z before vowels."},
         {type:"fb",opts:["cinq","six","trois","deux"],hint:"4 + ? = 9. Which number completes the equation?",s:"Quatre plus {1} font neuf.",a:"cinq"},
-        {type:"mc",q:"In the spelling of seven in French (S-E-?-T), which hidden letter is written but not spoken?",opts:["The first (S)","The second (E)","The last (T)","The third (P)"],ans:"The third (P)",hint:"Of the four letters in the word, the one in the middle of the consonants is mute."},,
+        {type:"mc",q:"In the spelling of seven in French (S-E-?-T), which hidden letter is written but not spoken?",opts:["The first (S)","The second (E)","The last (T)","The third (P)"],ans:"The third (P)",hint:"Of the four letters in the word, the one in the middle of the consonants is mute."},
         {type:"mc",q:"'Un' becomes 'une' when counting:",opts:["Before feminine nouns","Always","Before vowels","Never"],ans:"Before feminine nouns",hint:"Gender agreement: un frère, une soeur."},
         {type:"fb",opts:["sept","six","huit","cinq"],hint:"10 minus 3 equals this number.",s:"Dix moins trois font {1}.",a:"sept"},
         {type:"mc",q:"The French R in 'quatre' is produced:",opts:["With the tongue tip","At the back of the throat","With the lips","Between the teeth"],ans:"At the back of the throat",hint:"The uvular R is a distinctive French sound."}

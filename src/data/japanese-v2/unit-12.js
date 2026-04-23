@@ -241,9 +241,7 @@ const UNIT_12 = {
    deepDive:{title:"思う vs 信じる",
     text:"Both express internal states but with different nuances.\n\n思(おも)う = personal opinion based on reasoning or feeling:\n難(むずか)しいと思(おも)います。(I think it is difficult.)\n\n信(しん)じる = belief or trust, often without direct evidence:\n信(しん)じます。(I believe you.)\n\nIn practice, 思(おも)う is far more common in daily conversation. 信(しん)じる is used in emotional contexts: trusting a person, holding a faith, or believing something is true against doubt."}},
 
-]},
-
-,BATCH2_L1
+]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

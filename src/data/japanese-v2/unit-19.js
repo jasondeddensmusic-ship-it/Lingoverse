@@ -188,9 +188,7 @@ const UNIT_19 = {
    opts:["探(さが)す","決(き)める","借(か)りる","引(ひ)っ越(こ)す"],
    hint:"You are on the hunt for a good apartment but cannot find one. This verb means 'to search' or 'to look for' something.",
    sSrc:"I am {1} a good apartment but cannot find one easily."},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01

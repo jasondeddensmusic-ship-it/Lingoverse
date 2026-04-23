@@ -170,9 +170,7 @@ const UNIT_23 = {
 
   {type:"mc", q:"ことにする vs ことになる: what is the difference?", opts:["Both mean the same thing","ことにする is past, ことになる is future","ことにする is a personal decision, ことになる is decided externally","ことにする is casual, ことになる is formal"], ans:"ことにする is a personal decision, ことになる is decided externally",
    hint:"One pattern has the speaker making the d..., the other frames it as something that happened."},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

@@ -134,9 +134,7 @@ const UNIT_27 = {
    hint:"The formal noun meaning a pressing duty that demands immediate action."},
 
   {type:"match", pairs:[{trg:"生活(せいかつ)スタイル",src:"lifestyle"},{trg:"べき",src:"should"},{trg:"地球温暖化(ちきゅうおんだんか)",src:"global warming"},{trg:"環境保護(かんきょうほご)",src:"environmental protection"}]},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

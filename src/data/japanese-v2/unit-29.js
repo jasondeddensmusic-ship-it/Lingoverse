@@ -145,9 +145,7 @@ const UNIT_29 = {
    hint:"The compound noun for a self-moving vehicle, Japan's most famous export product."},
 
   {type:"match", pairs:[{trg:"石油(せきゆ)",src:"petroleum"},{trg:"企業(きぎょう)",src:"enterprise"},{trg:"不動産(ふどうさん)",src:"real estate"},{trg:"物価(ぶっか)",src:"prices (general)"}]},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

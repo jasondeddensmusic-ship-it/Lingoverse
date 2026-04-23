@@ -298,7 +298,7 @@ const UNIT_17 = {
 ]},
 
 // ═══ L4: N4 Career & Work Vocabulary ═══
-,{id:"jav2_u17l_n4_career", title:"仕事(しごと)と職場(しょくば)", icon:"💼", xp:15, board:true, steps:[
+{id:"jav2_u17l_n4_career", title:"仕事(しごと)と職場(しょくば)", icon:"💼", xp:15, board:true, steps:[
   {type:"intro", title:"仕事(しごと)と職場(しょくば)",
    desc:"Build essential N4 workplace vocabulary. Japanese work culture has its own rich vocabulary for meetings, roles, and daily professional actions. These words appear constantly in JLPT N4 reading passages and real office settings.",
    goals:["Name key workplace roles: employee, company president","Describe professional situations: meeting, overtime, business trip","Use action verbs: decide, continue","Ask and answer questions using N4 communication vocabulary"]},

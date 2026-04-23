@@ -293,9 +293,7 @@ const UNIT_30 = {
 
   {type:"mc", q:"道徳(どうとく) refers to:", opts:["morality and ethics","formal logic","the legal system","abstract art"], ans:"morality and ethics",
    hint:"The word combining 'way/path' and 'virtue,' also the name of a school subject in Japan."},
-{type:"match",pairs:[{trg:"概念(がいねん)",src:"concept / notion"},{trg:"論理(ろんり)",src:"logic / reasoning"},{trg:"真理(しんり)",src:"truth / psychological truth"},{trg:"抽象的(ちゅうしょうてき)",src:"abstract"}]}]},
-
-,BATCH2_L01
+{type:"match",pairs:[{trg:"概念(がいねん)",src:"concept / notion"},{trg:"論理(ろんり)",src:"logic / reasoning"},{trg:"真理(しんり)",src:"truth / psychological truth"},{trg:"抽象的(ちゅうしょうてき)",src:"abstract"}]}]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

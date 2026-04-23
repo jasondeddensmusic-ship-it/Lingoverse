@@ -333,8 +333,6 @@ const UNIT_8 =
   {type:"match",pairs:[{trg:"예약",src:"appointment / reservation"},{trg:"확인하다",src:"to confirm"},{trg:"취소하다",src:"to cancel"},{trg:"변경하다",src:"to change / reschedule"}]},
 ]},
 
-,
-
 // ═══ L11: TOPIK I Core Verbs + Descriptive Verbs ═══
 {id:"kov2_u8l_topik1_essential",title:"사다, 싫어하다, 크다, 작다...",icon:"📚",xp:20,board:true,steps:[
   {type:"intro",title:"Core TOPIK I Words",desc:"Ten essential words every TOPIK I learner must know: action verbs, emotional verbs, and descriptive verbs (Korean adjectives). All are on official TOPIK I vocabulary lists.",goals:["Learn 사다 (buy) and 싫어하다 (dislike)","Learn descriptive verbs 크다, 작다, 바쁘다, 나쁘다, 길다, 짧다, 적다, 무섭다","Understand that Korean adjectives conjugate like verbs","Practice using them in natural sentences"]},

@@ -215,9 +215,7 @@ const UNIT_05 = {
 
   {type:"fb", s:"{1}が空(す)いた!\n(I am hungry!)", a:"お腹(なか)", opts:["お腹(なか)","喉(のど)","頭(あたま)","手(て)"], sSrc:"I am hungry!",
    hint:"The body part that empties when you need to eat."},
-{type:"match",pairs:[{trg:"ジュース",src:"juice"}]}]},
-
-,BATCH3_L1
+{type:"match",pairs:[{trg:"ジュース",src:"juice"}]}]},BATCH3_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1

@@ -293,9 +293,7 @@ const UNIT_28 = {
 
   {type:"fb", s:"{1}の若者(わかもの)はどのような課題(かだい)に直面(ちょくめん)していますか？\n(What challenges are young people in modern times facing?)", a:"現代(げんだい)", opts:["現代(げんだい)","以前(いぜん)","社会的(しゃかいてき)","以外(いがい)"], sSrc:"What challenges are young people in modern times facing?",
    hint:"The noun meaning the present era or contemporary period, contrasted with ancient or medieval times."},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

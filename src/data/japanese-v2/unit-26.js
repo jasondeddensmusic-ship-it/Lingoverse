@@ -136,9 +136,7 @@ const UNIT_26 = {
    hint:"The compound noun for a formal event where officials answer journalists' questions."},
 
   {type:"match", pairs:[{trg:"記者会見(きしゃかいけん)",src:"press conference"},{trg:"賛成(さんせい)",src:"agreement"},{trg:"事件(じけん)",src:"incident"},{trg:"政策(せいさく)",src:"policy"}]},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L03
 ,BATCH2_L04
 ,BATCH5_L01

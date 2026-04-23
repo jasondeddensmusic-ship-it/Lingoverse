@@ -428,7 +428,7 @@ const UNIT_6 =
 {type:"match",pairs:[{trg:"기다리다",src:"to wait"},{trg:"찾다",src:"to find / to look for"},{trg:"(이)랑",src:"and / with (casual)"},{trg:"유턴",src:"U-turn"},{trg:"아래 / 밑",src:"below / under"},{trg:"뒤",src:"behind / back"}]},{type:"match",pairs:[{trg:"과거 시제 미리보기",src:"Adding the past tense car"},{trg:"앉다 → 앉아요",src:"to sit → sits"},{trg:"날씨",src:"weather"},{trg:"마다",src:"every / each"},{trg:"아주",src:"very / extremely"},{trg:"바람",src:"wind"}]},{type:"match",pairs:[{trg:"바다",src:"sea / ocean"},{trg:"재킷",src:"jacket"},{trg:"스웨터",src:"sweater"},{trg:"가방",src:"bag"},{trg:"T-money 카드",src:"T-money card"},{trg:"보통",src:"usually"}]},{type:"match",pairs:[{trg:"다시",src:"again"},{trg:"혼자",src:"alone"},{trg:"A1 Complete: Grammar Summary",src:"Everything covered through U6"}]}]},
 
 // ═══ Daily Routines: 하루 일과 ═══
-,{id:"kov2_u9l_a1_essentials",title:"하루 일과",icon:"☀️",xp:22,board:true,steps:[
+{id:"kov2_u9l_a1_essentials",title:"하루 일과",icon:"☀️",xp:22,board:true,steps:[
   {type:"intro",title:"Daily Life Essentials",desc:"Nine core words for talking about your day: drinks, time, sleep, family, and feelings.",goals:["Learn 차, 시간, 자다, 일찍, 늦게","Learn 가족, 피곤하다, 항상, 맑다","Describe a daily routine in Korean","Produce target-language forms in fill-in-blank quizzes"]},
 
   {type:"teach",trg:"차",src:"tea",pos:"noun",gender:null,

@@ -186,9 +186,7 @@ const UNIT_21 = {
 
   {type:"mc", q:"解決(かいけつ)する means:", opts:["to discuss","to complain","to solve/resolve","to investigate"], ans:"to solve/resolve",
    hint:"The kanji mean 'untie' and 'decide,' describing the process of resolving a problem."},
-]},
-
-,EXP_L3,EXP_L4,EXP_L5
+]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01

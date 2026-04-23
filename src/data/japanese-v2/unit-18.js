@@ -188,9 +188,7 @@ const UNIT_18 = {
    hint:"You stayed at work beyond normal hours again and are exhausted. This noun refers to extra hours worked past the scheduled end of the workday.",
    sSrc:"There was {1} again today and I am tired. I want to go home soon."},
 
-{type:"match",pairs:[{trg:"待(ま)つ",src:"to wait"}]}]},
-
-,EXP_L3,EXP_L4,EXP_L5
+{type:"match",pairs:[{trg:"待(ま)つ",src:"to wait"}]}]},EXP_L3,EXP_L4,EXP_L5
 ,BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01

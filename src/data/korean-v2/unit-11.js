@@ -303,8 +303,6 @@ const UNIT_11 =
 {type:"match",pairs:[{nl:"KTX로 2시간 걸려요",en:"Takes 2 hours by KTX"},{nl:"비행기로 1시간 걸려요",en:"Takes 1 hour by plane"},{nl:"버스로 4시간 걸려요",en:"Takes 4 hours by bus"},{nl:"지하철로 30분 걸려요",en:"Takes 30 minutes by subway"}]},
 {type:"match",pairs:[{trg:"-로/-으로 (교통수단)",src:"by (transport method)"},{trg:"렌터카",src:"rental car"},{trg:"-(으)ㄴ 후에",src:"after doing"},{trg:"1박 2일",src:"1 night 2 days"},{trg:"ㅎ 불규칙",src:"ㅎ-irregular pattern"},{trg:"빨갛다",src:"to be red"}]},{type:"match",pairs:[{trg:"까맣다",src:"to be black"},{trg:"파랗다",src:"to be blue"}]}]},
 
-,
-
 // ═══ L11: 직업, 동물, 취미 (Jobs, Animals, Hobbies) ═══
 {id:"kov2_u11l_jobs_animals_hobbies",title:"직업, 동물, 취미",icon:"🎯",xp:22,board:true,steps:[
   {type:"intro",title:"Jobs, Animals, and Hobbies",desc:"Vocabulary for three essential everyday topics: what people do for work, common animals, and popular leisure activities.",goals:["Learn 3 core profession words","Learn 3 common animal names","Learn 3 popular hobby words","Practice with production quizzes"]},

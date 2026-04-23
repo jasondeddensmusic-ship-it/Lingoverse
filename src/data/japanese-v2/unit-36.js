@@ -193,9 +193,7 @@ const UNIT_36 = {
    text:"Congratulations on reaching the end of B2. You now have vocabulary across six major domains:\n\n1. 哲学(てつがく): 存在(そんざい), 概念(がいねん), 論理(ろんり), 本質(ほんしつ), 価値(かち)\n2. 法律(ほうりつ): 憲法(けんぽう), 裁判(さいばん), 権利(けんり), 義務(ぎむ), 判決(はんけつ)\n3. 医学(いがく): 診察(しんさつ), 治療(ちりょう), 手術(しゅじゅつ), 免疫(めんえき), 遺伝子(いでんし)\n4. 文学(ぶんがく): 作家(さっか), 小説(しょうせつ), 詩(し), 比喩(ひゆ), 無常(むじょう)\n5. 国際関係(こくさいかんけい): 外交(がいこう), 紛争(ふんそう), 交渉(こうしょう), 条約(じょうやく)\n6. 情報社会(じょうほうしゃかい): 人工知能(じんこうちのう), プライバシー, サイバー攻撃(こうげき)\n\nPlus formal connectors: 即(すなわ)ち, 一方(いっぽう), 従(したが)って, にも拘(かか)わらず",
    deepDive:{title:"Path to JLPT N1",
     text:"B2 completion positions you well for JLPT N1 preparation. Key areas to continue developing:\n\nReading: Practice long-form texts (newspaper editorials, academic abstracts, literary criticism). Focus on understanding the author's 主張(しゅちょう) (main argument) and logical structure.\n\nListening: Watch NHK news, academic lectures, and panel discussions. Train your ear for formal register and technical vocabulary.\n\nVocabulary: Continue expanding domain-specific vocabulary. JLPT N1 tests approximately 10,000 words. The B2 domains you have studied are heavily represented.\n\nGrammar: Master the formal patterns covered here (にもかかわらず, 基(もと)づく, 必(かなら)ずしも...ない) plus additional N1 grammar like ものの, にほかならない, をもって.\n\nThe key at this level is quantity of input. Read widely, listen daily, and review vocabulary systematically."}},
-]},
-
-,BATCH2_L01
+]},BATCH2_L01
 ,BATCH2_L02
 ,BATCH5_L01
 ,BATCH5_L02

@@ -141,8 +141,7 @@ const UNIT_01 = {
        opts:["おはようございます","こんにちは","こんばんは","さようなら"],
        hint:"This polite morning greeting is used until about 10 AM, and in the entertainment industry it is used at any hour when starting a shift.",
        sSrc:"When you arrive at work in the morning, you say '{1}' to your colleagues."},
-    ]},
-,BATCH11_L1
+    ]},BATCH11_L1
 ,
   BATCH10_L1,
   BATCH9_L1,

@@ -171,9 +171,7 @@ const UNIT_13 = {
 
   {type:"mc", q:"温泉(おんせん)に入(はい)ったことがない means:", opts:["I bathed in a hot spring","I want a hot spring","I have never bathed in a hot spring","I like hot springs"], ans:"I have never bathed in a hot spring",
    hint:"た-form + ことがない = have n... done the action before."},
-{type:"match",pairs:[{trg:"乗(の)り物(もの)",src:"vehicle / transportation"}]}]},
-
-,BATCH2_L1
+{type:"match",pairs:[{trg:"乗(の)り物(もの)",src:"vehicle / transportation"}]}]},BATCH2_L1
 ,BATCH4_L01
 ,BATCH4_L02
 ,BATCH6_L1
