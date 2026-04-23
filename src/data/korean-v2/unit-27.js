@@ -129,7 +129,7 @@ const UNIT_27 =
 {type:"drag_fill",s:"은/는 = {1}. 도 = {2}. 만 = {3}.\n커녕 = {4}.\n(Topic. Even. Only. Let-alone.)",blanks:{"1":"topic","2":"even/also","3":"only","4":"let alone"},pool:["topic","even/also","only","let alone","subject","and","but","because"],hint:"Think about which particles mark the topic, add emphasis, and limit scope in this pattern."},
 
 {type:"drag_fill",s:"쉬{1}커녕 더 바빠졌{2}요. 이해{3}커녕 관심{4} 없어요.\n(Far from resting, got busier. Far from understanding, no interest.)",blanks:{"1":"기는","2":"어","3":"는","4":"도"},pool:["기는","어","는","도","는","았","은","을"],hint:"Verb nominalized + topic before 커녕. Past tense polite. Noun + topic before 커녕. Inclusive marker."},
-{type:"mc",q:"칭찬은커녕 비판만 받았어요.\n만 here means?\n(Far from praise, only received criticism.)",opts:["만 = even","만 = also","만 = only ","만 = but"],ans:"만 = only ",hint:"만 = only. One of the first particles."},
+{type:"mc",q:"칭찬은커녕 비판만 받았어요.\n만 here means?\n(Far from praise, only received criticism.)",opts:["만 = even","만 = also","만 = only","만 = but"],ans:"만 = only",hint:"만 = only. One of the first particles."},
 ]},
 // --- L6: -(으)나 마나 vs -(으)ㄴ/는들 (No Use & Even If) ---
 {id:"kou27l6",title:"나 마나 vs 는들",icon:"🔄",xp:20,board:true,steps:[
@@ -173,7 +173,7 @@ const UNIT_27 =
 {type:"drag_fill",s:"돈이 없어{1} 봤자 해결 안 돼. 일해{2}라도 벌어야 해.\n(Complaining about no money is useless. Even if it means working, must earn.)",blanks:{"1":"도","2":"서"},pool:["도","서","봤","기","는","면"],hint:"Even-so. Even-if-means."},
 {type:"mc",q:"밤을 새워서라도 끝낼 거예요.\n이 문장의 태도는?",opts:["후회 (Regret)","포기 (Giving up)","무관심 (Indifference)","강한 의지와 결심 (Strong will and determination)"],ans:"강한 의지와 결심 (Strong will and determination)",hint:"The speaker is willing to resort to an extreme method to achieve their goal."},
 
-{type:"mc",q:"울어 봤자 소용없어요.\nparticle 어 + 봐야:\n(Even if you cry, useless.)",opts:["울다 → 울어 + 봤자 ","advanced connector","basic greeting expression","not a standard pattern"],ans:"울다 → 울어 + 봤자 ",hint:"Start from the dictionary form of the cry verb, apply the -아/어 stem rule (dark/bright), then attach 봤자."},
+{type:"mc",q:"울어 봤자 소용없어요.\nparticle 어 + 봐야:\n(Even if you cry, useless.)",opts:["울다 → 울어 + 봤자","advanced connector","basic greeting expression","not a standard pattern"],ans:"울다 → 울어 + 봤자",hint:"Start from the dictionary form of the cry verb, apply the -아/어 stem rule (dark/bright), then attach 봤자."},
 {type:"drag_fill",s:"빌려{1}라도 사{2} 싶어요. 걸어{1}라도 가{2} 합니다.\n(Want to buy even if I have to borrow. Must go even if I have to walk.)",blanks:{"1":"서","2":"고"},pool:["서","고","서","야","도","고","도","지"],hint:"Even-if-by. Want-to. Even-if-by. Must."},
 {type:"mc",q:"봤자 = futility, 서라도 = determination.\nHow do these patterns relate?\n(Even-if-try vs Even-if-I-must.)",opts:["Both are basic","Both use -아/어 conjugation as base, extended to concession","Both are intermediate","No basic roots"],ans:"Both use -아/어 conjugation as base, extended to concession",hint:"Both patterns begin from the standard -아/어 conjugated stem. The same foundational rule unites two opposite emotional stances."},
 
