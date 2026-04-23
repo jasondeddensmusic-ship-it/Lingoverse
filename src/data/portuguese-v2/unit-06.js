@@ -238,7 +238,7 @@ const UNIT_06 = {
           funFact: "From Latin longe. Brazilians say longe pra caramba for really far."},
 
         {type: "mc", q: "Which word means 'left'?",
-          opts: ["direita", "esquerda", "perto", "longe"], ans: "esquerda",
+          opts: ["esquerda", "direita", "perto", "longe"], ans: "esquerda",
           hint: "The opposite of right."},
 
         {type: "mc", q: "Which word means 'near'?",
@@ -259,7 +259,7 @@ const UNIT_06 = {
           pairs: [{trg: "esquerda", src: "left"}, {trg: "direita", src: "right"}, {trg: "perto", src: "near"}, {trg: "longe", src: "far"}]},
 
         {type: "mc", q: "A loja é ____, bem aqui. (nearby)",
-          opts: ["longe", "perto", "ali", "lá"], ans: "perto",
+          opts: ["longe", "ali", "perto", "lá"], ans: "perto",
           hint: "Very close to where you are."},
 
         {type: "tip", title: "Giving directions",
@@ -272,7 +272,7 @@ const UNIT_06 = {
           hint: "Opposite of far, with de."},
 
         {type: "mc", q: "Eu vou à ____, não à direita.",
-          opts: ["perto", "longe", "esquerda", "casa"], ans: "esquerda",
+          opts: ["perto", "longe", "casa", "esquerda"], ans: "esquerda",
           hint: "Opposite direction to right."},
 
         {type: "tr", mk: "O restaurante é perto, à direita.", dir: "trg2src"},
@@ -283,7 +283,7 @@ const UNIT_06 = {
           hint: "Distant, not nearby."},
 
         {type: "mc", q: "Você vai à esquerda ou à ____?",
-          opts: ["perto", "direita", "longe", "casa"], ans: "direita",
+          opts: ["direita", "perto", "longe", "casa"], ans: "direita",
           hint: "The option opposite to esquerda."}
       ]
     },
