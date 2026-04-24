@@ -292,7 +292,7 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
  funFact:"Надеюсь comes from the verb надеяться (to hope). The phrase pattern у тебя всё хорошо uses the dative у + pronoun to express possession of a state, a core Russian construction."},
 
 {type:"tip", title:"Informal vs Formal Letter Openings",
- text:"INFORMAL (to friends, family, classmates):\nПривет, [name]!. Hi, [name]!\nКак ты?. How are you?\nНадеюсь, у тебя всё хорошо. I hope all is well with you.\n\nFORMAL (to teachers, bosses, strangers):\nУважаемый/Уважаемая [name]. Dear [name] (m/f)\nС уважением. With respect\n\nFor WhatsApp and Telegram, informal forms are standard even with semi-acquaintances.",
+ text:"INFORMAL (to friends, family, classmates):\nПривет, [name]! Hi, [name]!\nКак ты? How are you?\nНадеюсь, у тебя всё хорошо. I hope all is well with you.\n\nFORMAL (to teachers, bosses, strangers):\nУважаемый/Уважаемая [name]. Dear [name] (m/f)\nС уважением. With respect\n\nFor WhatsApp and Telegram, informal forms are standard even with semi-acquaintances.",
  deepDive:"The informal register in Russian letters maps to тыкание (using ты). The formal register uses вы. Once you switch to ты with someone, informal letter openings are expected. Switching back to вы in writing would seem cold or ironic."},
 
 {type:"teach", trg:"До скорого", src:"See you soon / Until soon", pos:"intj", gender:null,
