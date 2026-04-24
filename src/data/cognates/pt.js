@@ -74,7 +74,7 @@ export const PORTUGUESE_COGNATES = [
   { pt:"típico", en:"typical", type:"true" },
 
   // FALSE FRIENDS (essential for EN learners)
-  { pt:"puxar", en:"to pull", type:"false", note:"NOT 'to push'. Push = empurrar. Classic false friend — signs on doors!" },
+  { pt:"puxar", en:"to pull", type:"false", note:"NOT 'to push'. Push = empurrar. Classic false friend: signs on doors!" },
   { pt:"sensível", en:"sensitive", type:"false", note:"NOT 'sensible'. Sensible = sensato." },
   { pt:"parentes", en:"relatives", type:"false", note:"NOT 'parents'. Parents = pais." },
   { pt:"livraria", en:"bookstore", type:"false", note:"NOT 'library'. Library = biblioteca." },
