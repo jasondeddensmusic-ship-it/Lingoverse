@@ -21,8 +21,8 @@ const LESSON_26 = {
 
     {type:"teach", trg:"들", src:"field, plain, open area", pos:"noun", gender:null,
      note:"Native Korean. Open, flat land, usually grassy. Not cultivated like 밭.",
-     example:"A: 들에 꽃이 많이 피었어요.\nB: 봄이라 예쁘죠?\nA: 사진 찍으러 가요!",
-     exampleSrc:"A: Many flowers have bloomed in the field.\nB: It's spring, so they're pretty, right?\nA: Let's go take photos!",
+     example:"A: 들에 꽃이 많이 피었어요.\nB: 봄이라 예쁘죠?\nA: 같이 구경 가요!",
+     exampleSrc:"A: Many flowers have bloomed in the field.\nB: It's spring, so they're pretty, right?\nA: Let's go see them together!",
      funFact:"들 creates the word 들판 (open field/plain) and 벌판 (wide plain). 들꽃 (wildflower, literally 'field flower') is a beloved Korean poetic image symbolizing humble beauty."},
 
     {type:"teach", trg:"모래", src:"sand", pos:"noun", gender:null,

@@ -78,8 +78,8 @@ const LESSON_23 = {
 
     {type:"teach", trg:"달아나다", src:"to flee, to run away", pos:"verb", gender:null,
      note:"달다 (run) + 나다 (exit). Escaping from danger or trouble.",
-     example:"A: 도둑이 달아났어요!\nB: 어느 쪽으로요?\nA: 골목 쪽으로 달아났어요.",
-     exampleSrc:"A: The thief fled!\nB: Which direction?\nA: He ran away toward the alley.",
+     example:"A: 도둑이 달아났어요!\nB: 어디로 갔어요?\nA: 골목 쪽으로 달아났어요.",
+     exampleSrc:"A: The thief fled!\nB: Where did he go?\nA: He ran away toward the alley.",
      funFact:"달아나다 implies urgency and fear. It is stronger than just 도망가다 (to run away). In Korean detective dramas, 범인이 달아났다 (the suspect has fled) signals high tension."},
 
     // --- Quiz batch 2 ---

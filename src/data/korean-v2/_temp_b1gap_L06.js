@@ -50,8 +50,8 @@ const LESSON_6 = {
 
     {type:"teach", trg:"\uB3CC", src:"stone, rock", pos:"noun", gender:null,
      note:"Native Korean. One of the basic nature words used since ancient times.",
-     example:"A: \uC774 \uB3CC\uC774 \uC815\uB9D0 \uBB34\uAC81\uB2E4.\nB: \uC870\uC2EC\uD574, \uBC1C\uC5D0 \uB5A8\uC5B4\uB728\uB9AC\uBA74 \uD070\uC77C \uB098.",
-     exampleSrc:"A: This rock is really heavy.\nB: Be careful, if you drop it on your foot it'll be a big problem.",
+     example:"A: \uC774 \uB3CC\uC774 \uC815\uB9D0 \uBB34\uAC81\uB2E4.\nB: \uC870\uC2EC\uD574, \uBC1C\uC5D0 \uB193\uC73C\uBA74 \uC544\uD30C.",
+     exampleSrc:"A: This rock is really heavy.\nB: Be careful, if it lands on your foot it'll hurt.",
      funFact:"Stone culture is deep in Korea: stone walls (\uB3CC\uB2F4), stone towers (\uB3CC\uD0D1), and the famous stone grandfather statues (\uB3CC\uD558\uB974\uBC29) of Jeju Island."},
 
     {type:"teach", trg:"\uB545", src:"land, ground", pos:"noun", gender:null,

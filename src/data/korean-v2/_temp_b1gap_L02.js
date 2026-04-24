@@ -138,8 +138,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"명령", src:"order, command", pos:"noun", gender:null,
      note:"Formal/authoritative. Used with 하다 (to command) or 을 내리다 (to issue).",
-     example:"A: 누가 이 명령을 내렸어요?\nB: 대통령이 명령했어요.\nA: 명령에 따라야 해요.",
-     exampleSrc:"A: Who issued this order?\nB: The president gave the order.\nA: We must follow the order.",
+     example:"A: 누가 이 명령을 내렸어요?\nB: 대통령이 명령했어요.\nA: 모두 명령대로 해요.",
+     exampleSrc:"A: Who issued this order?\nB: The president gave the order.\nA: Everyone does according to the order.",
      funFact:"From hanja: 命 (life/fate/order) + 令 (command/decree). The same 命 appears in 생명 (life) and 운명 (fate). Both hanja characters independently mean 'command.'"},
 
     {type:"teach", trg:"노동자", src:"worker, laborer", pos:"noun", gender:null,

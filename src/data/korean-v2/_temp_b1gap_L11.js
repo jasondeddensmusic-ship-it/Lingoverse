@@ -62,7 +62,7 @@ const LESSON_11 = {
 
     {type:"teach", trg:"거짓말", src:"lie, falsehood", pos:"noun", gender:null,
      note:"거짓 (false) + 말 (words).\n거짓말하다 = to tell a lie.",
-     example:"A: 정말이에요? 거짓말 아니에요?\nB: 거짓말 아니에요! 진짜예요.\nA: 믿기 어려운데요.\nB: 사진 보여줄까요?",
+     example:"A: 정말이에요? 거짓말 아니에요?\nB: 거짓말 아니에요! 진짜예요.\nA: 믿기 힘들어요.\nB: 사진 보여줄까요?",
      exampleSrc:"A: Is it true? It's not a lie?\nB: It's not a lie! It's real.\nA: It's hard to believe.\nB: Shall I show you a photo?",
      funFact:"The children's game where you guess lies is called 거짓말 탐지기 (lie detector)."},
 

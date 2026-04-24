@@ -162,7 +162,7 @@ const LESSON_32 = {
 
     {type:"teach", trg:"살", src:"flesh, skin, body fat", pos:"noun", gender:null,
      note:"Native Korean. 살이 찌다 = to gain weight.\n살이 빠지다 = to lose weight.",
-     example:"A: 요즘 살이 많이 쪘어요.\nB: 운동을 좀 해야 할 것 같아요.\nA: 내일부터 시작할게요.",
+     example:"A: 요즘 살이 많아졌어요.\nB: 운동을 좀 해야 할 것 같아요.\nA: 내일부터 시작할게요.",
      exampleSrc:"A: I've gained a lot of weight lately.\nB: I think I need to exercise.\nA: I'll start tomorrow.",
      funFact:"살 is one of the most common body-related nouns. 살이 찌다/빠지다 (gain/lose weight) is extremely frequent in conversation. 닭살 (chicken skin, i.e. goosebumps) is used when something gives you the creeps."},
 

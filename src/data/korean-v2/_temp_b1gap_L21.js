@@ -27,8 +27,8 @@ const LESSON_21 = {
 
     {type:"teach", trg:"굵다", src:"to be thick, coarse", pos:"adj", gender:null,
      note:"For thick lines, threads, voices. Opposite of 가늘다 (thin).",
-     example:"A: 이 펜은 선이 너무 굵어요.\nB: 가는 펜으로 바꿀까요?\nA: 네, 가는 게 좋겠어요.",
-     exampleSrc:"A: This pen draws too thick a line.\nB: Shall I switch to a thin pen?\nA: Yes, a thin one would be better.",
+     example:"A: 이 선이 너무 굵어요.\nB: 가는 것으로 바꿀까요?\nA: 네, 가는 게 좋겠어요.",
+     exampleSrc:"A: This line is too thick.\nB: Shall I switch to a thin one?\nA: Yes, a thin one would be better.",
      funFact:"굵은 목소리 (thick/deep voice) is a compliment for men. 굵은 글씨 (bold text) uses the same word. The character 굵 carries a sense of solidity and weight."},
 
     {type:"teach", trg:"둥글다", src:"to be round, circular", pos:"adj", gender:null,

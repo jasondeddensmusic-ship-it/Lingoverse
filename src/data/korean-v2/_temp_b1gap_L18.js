@@ -21,8 +21,8 @@ const LESSON_18 = {
 
     {type:"teach", trg:"드라마", src:"drama, TV series", pos:"noun", gender:null,
      note:"Loanword from English. In Korean, almost always means 'TV drama series.'",
-     example:"A: 요즘 무슨 드라마 봐요?\nB: 새로 나온 로맨스 드라마 봐요.\nA: 재미있어요?",
-     exampleSrc:"A: What drama are you watching these days?\nB: I'm watching a new romance drama.\nA: Is it good?",
+     example:"A: 요즘 무슨 드라마 봐요?\nB: 새로 나온 드라마 봐요.\nA: 재미있어요?",
+     exampleSrc:"A: What drama are you watching these days?\nB: I'm watching a new drama.\nA: Is it good?",
      funFact:"Korean dramas (K-dramas) are a massive cultural export. The 'Hallyu wave' spread Korean TV across Asia and then globally. 드라마 is now a global word."},
 
     {type:"teach", trg:"그룹", src:"group", pos:"noun", gender:null,
