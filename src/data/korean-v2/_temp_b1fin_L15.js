@@ -51,8 +51,8 @@ const LESSON_15 = {
 
     {type:"teach", trg:"허용하다", src:"to permit, to allow", pos:"verb", gender:null,
      note:"Sino-Korean (許容). 허 (許) = permit, 용 (容) = accept.",
-     example:"A: 여기서 사진 촬영이 허용돼요?\nB: 아니요, 촬영은 허용되지 않아요.",
-     exampleSrc:"A: Is photography permitted here?\nB: No, photography is not allowed.",
+     example:"A: 여기서 사진을 허용해요?\nB: 아니요, 사진은 안 돼요.",
+     exampleSrc:"A: Do they permit photos here?\nB: No, photos are not allowed.",
      funFact:"허용 is the formal word for permission. Signs say 허용 or 금지 (prohibited). Less formal alternatives: 괜찮다, 해도 되다."},
 
     {type:"teach", trg:"참다", src:"to endure, to hold back, to bear", pos:"verb", gender:null,
@@ -113,8 +113,8 @@ const LESSON_15 = {
 
     {type:"teach", trg:"찌르다", src:"to stab, to poke, to sting", pos:"verb", gender:null,
      note:"Native Korean verb. Sharp physical contact.",
-     example:"A: 가시에 손가락을 찔렸어요.\nB: 소독부터 하세요.",
-     exampleSrc:"A: I pricked my finger on a thorn.\nB: Disinfect it first.",
+     example:"A: 손가락에 뭐가 찌르는 것 같아요.\nB: 소독부터 하세요.",
+     exampleSrc:"A: Something seems to be pricking my finger.\nB: Disinfect it first.",
      funFact:"찌르다 is also figurative: 양심을 찌르다 (to prick one's conscience), 급소를 찌르다 (to hit a weak point). Sharp words can 찌르다 too."},
 
     {type:"teach", trg:"줍다", src:"to pick up (from the ground)", pos:"verb", gender:null,
@@ -131,8 +131,8 @@ const LESSON_15 = {
 
     {type:"teach", trg:"쳐다보다", src:"to stare at, to gaze at, to look up at", pos:"verb", gender:null,
      note:"Compound: 쳐다 (looking up/at) + 보다 (see). Sustained looking.",
-     example:"A: 왜 그렇게 쳐다봐요?\nB: 아, 죄송해요. 멍하니 쳐다봤어요.",
-     exampleSrc:"A: Why are you staring like that?\nB: Oh, sorry. I was staring blankly.",
+     example:"A: 왜 자꾸 쳐다보세요?\nB: 아, 죄송해요. 생각하고 있었어요.",
+     exampleSrc:"A: Why do you keep staring?\nB: Oh, sorry. I was thinking.",
      funFact:"쳐다보다 can be rude if prolonged. In Korea, sustained eye contact with strangers is uncommon. Being told 왜 쳐다봐 (why are you staring) is confrontational."},
 
     {type:"teach", trg:"향하다", src:"to head toward, to face, to be directed at", pos:"verb", gender:null,

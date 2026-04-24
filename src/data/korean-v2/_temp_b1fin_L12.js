@@ -143,8 +143,8 @@ const LESSON_12 = {
 
     {type:"teach", trg:"터뜨리다", src:"to burst, to pop, to explode", pos:"verb", gender:null,
      note:"Causative: making something burst. From 터지다 (to burst).",
-     example:"A: 풍선을 터뜨려도 돼요?\nB: 네, 터뜨려 봐요!",
-     exampleSrc:"A: Can I pop the balloon?\nB: Yes, go ahead and pop it!",
+     example:"A: 풍선을 터뜨리고 싶어요?\nB: 네, 같이 해요!",
+     exampleSrc:"A: Do you want to pop the balloon?\nB: Yes, let's do it together!",
      funFact:"터뜨리다 is also used for emotions: 웃음을 터뜨리다 (burst into laughter), 울음을 터뜨리다 (burst into tears). Emotions 'explode' outward."},
 
     {type:"mc",

@@ -119,8 +119,8 @@ const LESSON_11 = {
 
     {type:"teach", trg:"주머니", src:"pocket", pos:"noun", gender:null,
      note:"Native Korean noun. The pocket of clothing.",
-     example:"A: 열쇠가 주머니에 있어요?\nB: 잠깐만요, 주머니를 확인할게요.",
-     exampleSrc:"A: Are the keys in your pocket?\nB: Wait, I'll check my pocket.",
+     example:"A: 열쇠가 주머니에 있어요?\nB: 잠깐만요, 주머니를 볼게요.",
+     exampleSrc:"A: Are the keys in your pocket?\nB: Wait, I'll look in my pocket.",
      funFact:"주머니 사정 (pocket situation) is a colloquial way to say 'financial situation.' It is a casual, slightly humorous way to talk about money."},
 
     {type:"teach", trg:"주먹", src:"fist", pos:"noun", gender:null,

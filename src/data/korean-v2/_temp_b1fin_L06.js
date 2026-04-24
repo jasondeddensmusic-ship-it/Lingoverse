@@ -20,8 +20,8 @@ const LESSON_6 = {
 
     {type:"teach", trg:"혀", src:"tongue", pos:"noun", gender:null,
      note:"Native Korean noun. Both the body part and figuratively 'speech.'",
-     example:"A: 뜨거운 거 먹고 혀를 데었어요.\nB: 조심하세요! 얼음 대 봐요.",
-     exampleSrc:"A: I burned my tongue eating something hot.\nB: Be careful! Try putting ice on it.",
+     example:"A: 뜨거운 거 먹고 혀가 아파요.\nB: 조심하세요! 얼음 대 봐요.",
+     exampleSrc:"A: I ate something hot and my tongue hurts.\nB: Be careful! Try putting ice on it.",
      funFact:"The idiom 혀를 내두르다 (to stick out one's tongue) means to be amazed or shocked. It is used when something is unbelievably impressive."},
 
     {type:"teach", trg:"온몸", src:"whole body, entire body", pos:"noun", gender:null,
@@ -62,8 +62,8 @@ const LESSON_6 = {
 
     {type:"teach", trg:"부딪치다", src:"to bump into, to collide with", pos:"verb", gender:null,
      note:"Native Korean verb. Physical collision or figurative confrontation.",
-     example:"A: 문에 머리를 부딪쳤어요.\nB: 괜찮아요? 혹시 어지러워요?",
-     exampleSrc:"A: I bumped my head on the door.\nB: Are you okay? Are you dizzy?",
+     example:"A: 문에 머리를 부딪쳤어요.\nB: 괜찮아요? 아파요?",
+     exampleSrc:"A: I bumped my head on the door.\nB: Are you okay? Does it hurt?",
      funFact:"부딪치다 works figuratively too: 현실에 부딪치다 (to face reality), 벽에 부딪치다 (to hit a wall = face obstacles)."},
 
     {type:"teach", trg:"차다", src:"to kick, to be full", pos:"verb", gender:null,
@@ -87,8 +87,8 @@ const LESSON_6 = {
 
     {type:"teach", trg:"줄기", src:"stem, stalk, trunk", pos:"noun", gender:null,
      note:"Native Korean noun. The main structural part of a plant.",
-     example:"A: 이 나무 줄기가 아주 두꺼워요.\nB: 네, 오래된 나무예요.",
-     exampleSrc:"A: This tree trunk is very thick.\nB: Yes, it's an old tree.",
+     example:"A: 이 나무 줄기가 아주 커요.\nB: 네, 오래된 나무예요.",
+     exampleSrc:"A: This tree trunk is very big.\nB: Yes, it's an old tree.",
      funFact:"줄기 extends to figurative use: 눈물 줄기 (stream of tears), 빗줄기 (streams of rain). It implies a flowing line."},
 
     {type:"teach", trg:"줄", src:"line, string, row", pos:"noun", gender:null,

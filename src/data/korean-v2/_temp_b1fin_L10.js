@@ -99,8 +99,8 @@ const LESSON_10 = {
 
     {type:"teach", trg:"커다랗다", src:"very large, huge, enormous", pos:"adj", gender:null,
      note:"Emphatic form of 크다. Much bigger than just 'big.'",
-     example:"A: 커다란 나무가 있네요!\nB: 네, 100년 된 커다란 나무예요.",
-     exampleSrc:"A: There's a huge tree!\nB: Yes, it's a 100-year-old enormous tree.",
+     example:"A: 이 나무가 커다랗네요!\nB: 네, 100년 됐어요.",
+     exampleSrc:"A: This tree is enormous!\nB: Yes, it's 100 years old.",
      funFact:"커다랗다 is the intensified form of 크다. Korean has several such patterns: 새빨갛다 (very red), 시커멓다 (very dark). They add emotional emphasis."},
 
     {type:"teach", trg:"조그맣다", src:"very small, tiny, little", pos:"adj", gender:null,
