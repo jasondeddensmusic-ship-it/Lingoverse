@@ -37,19 +37,19 @@ const BATCH10_L1 = {
      funFact:"司(つかさど)る (to preside) + 会(かい) (meeting). On Japanese TV talk shows and wedding receptions, the 司会(しかい) is a celebrity-like role. Being asked to 司会(しかい) a colleague's wedding is a mark of deep trust."},
 
     {type:"teach", trg:"発言(はつげん)する", src:"to speak up", pos:"verb", gender:null,
-     note:"JLPT N2/N1 level vocabulary.\nUsed in formal and academic contexts.",
+     note:"発(はつ) to emit + 言(げん) speech.\nFormal 'to speak up' in meetings or public forums.",
      example:"A: 発言(はつげん)することについて考(かんが)えましょう。\nB: 大事(だいじ)なテーマですね。\nA: その点(てん)について、もう少(すこ)し説明(せつめい)していただけますか？\nB: もちろんです。重要(じゅうよう)なのは準備(じゅんび)と計画(けいかく)です。\nA: 準備(じゅんび)にはどのくらい時間(じかん)がかかりますか？\nB: 通常(つうじょう)、一週間(いっしゅうかん)から二週間(にしゅうかん)程度(ていど)です。",
      exampleSrc:"A: Let us think about to speak up.\nB: It is an important theme.\nA: Could you explain that point a bit more?\nB: Of course. What is important is preparation and planning.\nA: How long does preparation take?\nB: Usually about one to two weeks.",
      funFact:"発(はっ) (to emit) + 言(げん) (speech). 失言(しつげん) (verbal slip) by a senior figure can end a political career in Japan. The high stakes of 発言(はつげん) explain the pre-meeting 根回(ねまわ)し (informal groundwork) culture."},
 
     {type:"teach", trg:"要約(ようやく)", src:"summary", pos:"noun", gender:null,
-     note:"JLPT N2/N1 level vocabulary.\nUsed in formal and academic contexts.",
+     note:"要(よう) essential + 約(やく) to condense.\nA concise summary of key points.",
      example:"A: 要約(ようやく)について考(かんが)えましょう。\nB: 大事(だいじ)なテーマですね。\nA: それは素晴(すば)らしい結果(けっか)ですね。\nB: ありがとうございます。チーム全員(ぜんいん)の努力(どりょく)のおかげです。\nA: 今後(こんご)の目標(もくひょう)は何(なん)ですか？\nB: さらに品質(ひんしつ)を向上(こうじょう)させることです。",
      exampleSrc:"A: Let us think about summary.\nB: It is an important theme.\nA: That is an excellent result.\nB: Thank you. It is thanks to the effort of the whole team.\nA: What are the future goals?\nB: To further improve quality.",
      funFact:"要(よう) (essential) + 約(やく) (to condense). University entrance exams famously test 要約(ようやく) skill: students must compress a 500-word passage into 100 characters without losing nuance. It is considered a fundamental academic skill."},
 
     {type:"teach", trg:"通訳(つうやく)", src:"interpreter", pos:"noun", gender:null,
-     note:"JLPT N2/N1 level vocabulary.\nUsed in formal and academic contexts.",
+     note:"通(つう) to pass through + 訳(やく) translation.\nA person who translates speech live between languages.",
      example:"A: 通訳(つうやく)について考(かんが)えましょう。\nB: 大事(だいじ)なテーマですね。\nA: 他(ほか)に何(なに)か気(き)をつけることはありますか？\nB: はい、期限(きげん)を守(まも)ることが一番(いちばん)大切(たいせつ)です。\nA: 期限(きげん)に間(ま)に合(あ)わない場合(ばあい)はどうしますか？\nB: 早(はや)めに上司(じょうし)に相談(そうだん)して、調整(ちょうせい)をお願(ねが)いします。",
      exampleSrc:"A: Let us think about interpreter.\nB: It is an important theme.\nA: Is there anything else to be careful about?\nB: Yes, meeting deadlines is the most important thing.\nA: What do you do if you cannot meet the deadline?\nB: Consult your supervisor early and ask for an adjustment.",
      funFact:"通(つう)ずる (to pass through) + 訳(やく) (translation): the translator is the path between two languages. 同時通訳(どうじつうやく) (simultaneous interpretation) at international summits in Japan is considered one of the most demanding linguistic jobs."},
