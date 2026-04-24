@@ -87,8 +87,8 @@ const LESSON_18 = {
 
     {type:"teach", trg:"de hond", src:"the dog", pos:"noun", gender:"c",
      note:"Common gender (de). Plural: honden.",
-     example:"A: Heb je een hond?\nB: Ja, een labrador.",
-     exampleSrc:"A: Do you have a dog?\nB: Yes, a labrador.",
+     example:"A: Heb je een hond?\nB: Ja, ik heb een hond.",
+     exampleSrc:"A: Do you have a dog?\nB: Yes, I have a dog.",
      funFact:"Cognate with English 'hound'. The Dutch love dogs: many dog-friendly cafes."},
 
     {type:"teach", trg:"de kat", src:"the cat", pos:"noun", gender:"c",
