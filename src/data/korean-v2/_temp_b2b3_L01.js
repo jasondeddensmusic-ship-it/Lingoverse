@@ -16,8 +16,8 @@ const LESSON_1 = {
 
     {type:"teach", trg:"가까워지다", src:"to become close, to draw near", pos:"verb", gender:null,
      note:"가깝다 (close) + 워지다 (become).\nA gradual process of closing distance.",
-     example:"A: 요즘 민수랑 많이 가까워졌네.\nB: 같은 프로젝트를 하면서 친해졌어.",
-     exampleSrc:"A: You have gotten really close with Minsu lately.\nB: We became friends while working on the same project.",
+     example:"A: 요즘 민수랑 많이 가까워졌네.\nB: 같이 일하면서 가까워졌어.",
+     exampleSrc:"A: You have gotten really close with Minsu lately.\nB: We got close while working together.",
      funFact:"Korean has many -워지다 verbs showing gradual change: 더워지다 (get hot), 추워지다 (get cold)."},
 
     {type:"teach", trg:"가난", src:"poverty", pos:"noun", gender:null,

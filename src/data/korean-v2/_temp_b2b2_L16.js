@@ -40,8 +40,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"도마", src:"cutting board", pos:"noun", gender:null,
      note:"Native Korean. A flat board for cutting\nfood in the kitchen.",
-     example:"A: 도마 위에서 야채를 썰어 주세요.\nB: 나무 도마 쓸까요, 플라스틱 쓸까요?",
-     exampleSrc:"A: Please chop the vegetables on the cutting board.\nB: Should I use a wooden or plastic board?",
+     example:"A: 도마 위에서 야채를 썰어 주세요.\nB: 나무 도마 쓸까요?",
+     exampleSrc:"A: Please chop the vegetables on the cutting board.\nB: Should I use a wooden board?",
      funFact:"도마 위에 오르다 (get on the cutting board) means to become the subject of criticism or gossip."},
 
     {type:"mc",
@@ -52,7 +52,7 @@ const LESSON_16 = {
 
     {type:"teach", trg:"도망", src:"escape, flight, running away", pos:"noun", gender:null,
      note:"Sino-Korean. 逃 (escape) + 亡 (flee).\nThe act of running away from danger.",
-     example:"A: 도망을 치려고 했지만 실패했어요.\nB: 결국 잡혔군요.",
+     example:"A: 도망을 가려고 했지만 실패했어요.\nB: 결국 잡혔군요.",
      exampleSrc:"A: They tried to escape but failed.\nB: So they were caught in the end.",
      funFact:"도망 rarely stands alone. 도망가다, 도망치다, 도망을 치다 are the common forms. Always involves fleeing."},
 

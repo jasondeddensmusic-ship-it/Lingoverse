@@ -53,8 +53,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"\uAD34\uB85C\uC6C0", src:"suffering; anguish", pos:"noun", gender:null,
      note:"Pure Korean: from the adjective 괴롭다 + noun suffix -음.",
-     example:"A: \uC2E4\uC5C5\uC758 \uAD34\uB85C\uC6C0\uC744 \uC774\uACA8 \uB0C8\uC5B4\uC694.\nB: \uC815\uB9D0 \uD798\uB4E4\uC5C8\uACA0\uC5B4\uC694.\nA: \uAD34\uB85C\uC6C0\uC774 \uCEF4\uC5B4\uC694.\nB: \uC774\uC81C \uB354 \uAC15\uD574\uC84C\uC8E0.",
-     exampleSrc:"A: I overcame the anguish of unemployment.\nB: That must have been really hard.\nA: The suffering was great.\nB: You have become stronger now.",
+     example:"A: \uC2E4\uC5C5\uC758 \uAD34\uB85C\uC6C0\uC744 \uC774\uACA8 \uB0C8\uC5B4\uC694.\nB: \uC815\uB9D0 \uD798\uB4E4\uC5C8\uACA0\uC5B4\uC694.\nA: \uAD34\uB85C\uC6C0\uC740 \uB9CE\uC558\uC5B4\uC694.\nB: \uC774\uC81C \uB354 \uAC15\uD574\uC84C\uC8E0.",
+     exampleSrc:"A: I overcame the anguish of unemployment.\nB: That must have been really hard.\nA: There was a lot of suffering.\nB: You have become stronger now.",
      funFact:"Korean literature often explores 괴로움 as a philosophical concept, particularly in modern poetry about societal pressures."},
 
     {type:"teach", trg:"\uAD34\uB85C\uC6CC\uD558\uB2E4", src:"to suffer; to agonize", pos:"verb", gender:null,

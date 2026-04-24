@@ -76,8 +76,8 @@ const LESSON_17 = {
 
     {type:"teach", trg:"백색", src:"white (color, formal)", pos:"noun", gender:null,
      note:"Sino-Korean. 白 (white) + 色 (color).\nThe formal term for white.",
-     example:"A: 백색 페인트로 벽을 칠했어요.\nB: 방이 훨씬 밝아졌네요.",
-     exampleSrc:"A: I painted the wall with white paint.\nB: The room looks much brighter.",
+     example:"A: 백색 색으로 벽을 칠했어요.\nB: 방이 훨씬 밝아졌네요.",
+     exampleSrc:"A: I painted the wall in white color.\nB: The room looks much brighter.",
      funFact:"백색 is formal. Casual Korean uses 하얀색 or 흰색. 백의민족 (white-clothed people) is a historic name for Koreans."},
 
     {type:"fb",
