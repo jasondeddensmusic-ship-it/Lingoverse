@@ -362,6 +362,7 @@ verb #2E7D32, adj #E65100, adv #00695C, pron #7B1FA2, noun #1565C0, prep #37474F
 **Legacy validator:** `scripts/validate_all.cjs` reads files as text and does NOT follow JS imports. Kept for CI speed / spot-checks on a single file, but do not treat its "PASS" as authoritative.
 **Grammar modules: 521 real entries across 10 languages (Chinese 53, Portuguese 50, Italian 51, Japanese 54, German 58, French 52, Spanish 53, Korean 47, Dutch 36, Russian 50). Zero placeholder modules remaining.**
 **Validator state (2026-04-22 — runtime):** **ALL 10 languages PASS PP8/PP43/PP48/PP64/PP67 at runtime level across all 39,038 cards.** Initial sweep after blind-spot fix surfaced 6,721 violations; cleared in three PRs (#297 validator, #298 mechanical, #299 coverage). See `docs/SESSION_HANDOFF_2026-04-22b.md`.
+**Validator state (2026-04-24 — PP63 batch-file cleanup):** **ALL 10 languages PASS `scripts/pp63_audit.cjs <lang>-v2 --include-batch` with 0 violations.** Dutch batch files cleared 190 → 0 (PRs #497–#507). Korean batch files cleared 54 → 0 (PRs #508–#512). All other languages stayed at 0. PP63/PP64/PP67/PP8/PP43/PP48 runtime audit: 0 across all 39,038 cards.
 
 > Note: Previous CLAUDE.md totals (~32,600+) counted teach cards in batch files PLUS their imports into main unit files — essentially double-counting. The per-language numbers above reflect the actual corpus as reported by `node scripts/_runtime_count.mjs`.
 
