@@ -1,10 +1,12 @@
 # Session Handoff — 2026-04-24 (explicit owner request)
 
 > **Rule H9 exception.** Owner explicitly requested this handoff at context budget 96%. Read this file first, then pick up autonomous work per Rule H10 (resume prior task, don't re-plan).
+>
+> **Update (late 2026-04-24).** Continued work after the initial handoff. Shipped PRs #372–#383. **Spanish boring funFact audit is now 0** (from 246 at handoff time, from 1,206 at the cycle start). Korean cleanup started: 451 → 435. Handoff updated below.
 
 ---
 
-## What shipped this session (53 PRs: #317–#371)
+## What shipped this session (62 PRs: #317–#383)
 
 ### Infrastructure / rules
 - **Rule H10 added to CLAUDE.md**: "Interrupts are stacked, not replacements." Agents must pop back to paused task after resolving an interrupt.
@@ -21,9 +23,16 @@
 ### Japanese cleanup (earlier session, see SESSION_HANDOFF_2026-04-23e.md)
 - Boring funFacts: 192 → 0 (100% cleared).
 
-### Spanish cleanup (this session)
-- Boring funFacts: 1,206 → 246 (–960, **80% cleared**). Tracked by `scripts/audit_boring_funfacts.mjs spanish`.
+### Spanish cleanup (this session — now COMPLETE)
+- Boring funFacts: 1,206 → **0** (100% cleared). Tracked by `scripts/audit_boring_funfacts.mjs spanish`.
+- All four filler variants fully zeroed: m/f generic (89), masculine -o (89), verbs-encode (58), feminine -a (10).
 - Methodology: one batch script per unit-range, regex replace generic filler with word-specific etymology/grammar/cultural content, scrub em-dashes, validate, commit, PR, merge.
+
+### Korean cleanup (started, 16/451 cards done)
+- PR #383 establishes the Korean batch pattern: uses `nl:` instead of `trg:` (Korean v2 uses legacy nl/en field names).
+- Scrubber script added: `scripts/_scrub_emdash_korean.mjs`.
+- 54 legacy em-dashes scrubbed from Korean corpus as a side-effect.
+- Remaining Korean variants (per `scripts/audit_boring_funfacts.mjs korean`): particles (148→132 after PR #383), no-plurals (88), same-verb-form (53), polite-informal (39), set-phrases (34), +9 smaller variants.
 
 ---
 
@@ -36,19 +45,10 @@
 | MC quality | `node scripts/audit_mc_quality.mjs` | 0 |
 | Teach content | `node scripts/audit_teach_content.mjs` | 0 |
 | Placement questions | `node scripts/audit_placement_questions.mjs` | 0 |
-| **Spanish boring funFacts** | `node scripts/audit_boring_funfacts.mjs spanish` | 246 |
-
----
-
-## Remaining Spanish boring-funFact work (246 cards)
-
-Distribution by variant:
-- **"Spanish nouns are either masculine or feminine" (89 cards)** — u4(6), u8(13), u9(19), u19(4), u20(12), u21(3), u24(5), u27(3), u28(7), u30(2), plus smaller u1/u5/u6/u7
-- **"Masculine noun. Spanish words ending in -o are usually masculine" (89 cards)** — remaining u11, u12, u14, u15, u19, u20, u21, u24, u27, u30
-- **"Spanish verbs encode the subject in their ending" (58 cards)** — u13 (10), u14 (9), u16 (11), u19-22 (13), u24-30 (15)
-- **"Feminine noun. Spanish words ending in -a are usually feminine" (10 cards)** — u4 residual
-
-The batch-script regex fix (see Rule H10 commit) makes all future runs safe. Follow the established pattern.
+| **Spanish boring funFacts** | `node scripts/audit_boring_funfacts.mjs spanish` | **0 ✅** |
+| Korean boring funFacts | `node scripts/audit_boring_funfacts.mjs korean` | 435 |
+| Dutch boring funFacts | `node scripts/audit_boring_funfacts.mjs dutch` | 789 |
+| French boring funFacts | `node scripts/audit_boring_funfacts.mjs french` | 995 |
 
 ---
 
@@ -173,13 +173,42 @@ Apply the same methodology per language. Each etymology/grammar fact must be spe
 
 ## Next-agent action plan (auto-execute)
 
-1. Pick up from **Spanish masc/fem generic variant (89 cards)** — biggest remaining single Spanish variant.
-2. Start with u8 (13 cards) + u9 (19 cards) batches. List with: `node -e "...filter by BORING prefix..."`
-3. Write facts covering the grammatical/etymological theme of each unit (u8 = shopping/clothing, u9 = preterite morphology).
-4. Apply via batch script + scrub + validate + commit + PR + merge + CI watch.
-5. Continue working down the variant's unit list. Target: Spanish total → 0.
-6. Then tackle "Masculine -o" (89 cards) and "Spanish verbs encode subject" (58 cards) remainders.
-7. Then move to Korean boring funFacts (451 cards), then Dutch (789), then French (995).
+**Spanish is done.** Start on Korean. Sample batch is PR #383.
+
+1. Korean corpus uses `nl:`/`en:` field names (legacy format). Your regex must anchor on `{type:"teach"` followed by `(?:kind:"...",)?nl:"X"` — see `scripts/_ko_funfact_u1_u3_particles_batch.mjs` for the proven shape.
+2. Biggest Korean variants by count:
+   - `"Korean particles attach after nouns to mark their role. No equivalent in English."` — 132 remaining (was 148)
+   - `"Korean nouns don't have plural forms or articles..."` — 88
+   - `"Korean verbs don't change for person or number..."` — 53
+   - `"The polite informal ending..."` — 39
+   - `"Set phrases are the fastest way to sound natural..."` — 34
+   - +9 smaller variants
+3. Write Korean-specific facts: etymology (hanja components), honorific register, regional dialect notes, Sino-Korean vs native Korean word distinctions, particle phonology rules.
+4. Use `scripts/_scrub_emdash_korean.mjs --apply` after each batch to catch PP22c violations.
+5. Continue through Korean → 0, then tackle Dutch (789) and French (995) similarly.
+
+### Proven workflow per batch
+
+```bash
+# 1. List targets
+node -e "<filter korean-v2/*.js files for variant>"
+
+# 2. Write batch script (see _ko_funfact_u1_u3_particles_batch.mjs)
+
+# 3. Apply + scrub + validate + build
+node scripts/_ko_funfact_<scope>_batch.mjs --apply
+node scripts/_scrub_emdash_korean.mjs --apply
+npm run build
+node scripts/validate_runtime.mjs      # must stay 0
+
+# 4. Commit + PR + merge + watch CI
+git add src/data/korean-v2/ scripts/_ko_funfact_<scope>_batch.mjs
+git commit -m "content(ko): N real funFacts <scope>"
+git push
+gh pr create --title "..." --body "..."
+gh pr merge <number> --squash --admin
+# conflict resolution (if needed, same as Spanish): see Python one-liner below
+```
 
 ---
 
