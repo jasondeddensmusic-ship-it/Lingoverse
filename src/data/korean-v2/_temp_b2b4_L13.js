@@ -18,13 +18,13 @@ const LESSON_13 = {
      note:"Sino-Korean. 民 (people) + 主 (master).\nRule by the people.",
      example:"A: 민주 사회에서는 모든 시민이 중요해요.\nB: 투표권이 그 증거죠.",
      exampleSrc:"A: In a democratic society, every citizen matters.\nB: The right to vote is proof of that.",
-     funFact:"From Hanja ��主. Korea's democracy was hard-won through the 1987 민주화 운동 (democratization movement)."},
+     funFact:"From Hanja 民主. Korea's democracy was hard-won through the 1987 민주화 운동 (democratization movement)."},
 
     {type:"teach", trg:"민주주의", src:"democracy (as ideology)", pos:"noun", gender:null,
      note:"Sino-Korean. 民主 (democracy) + 主義 (ideology).\nThe political system of democracy.",
      example:"A: 민주주의의 핵심은 뭐라고 생각해요?\nB: 국민의 자유와 권리를 보장하는 거요.",
      exampleSrc:"A: What do you think is the core of democracy?\nB: Guaranteeing the freedom and rights of the people.",
-     funFact:"The -주의 suffix marks ideologies: 자본주��� (capitalism), 사회주의 (socialism), 공산주��� (communism)."},
+     funFact:"The -주의 suffix marks ideologies: 자본주의 (capitalism), 사회주의 (socialism), 공산주의 (communism)."},
 
     {type:"teach", trg:"민주화", src:"democratization", pos:"noun", gender:null,
      note:"민주 (democracy) + 화 (化, transformation).\nThe process of becoming democratic.",
@@ -34,9 +34,9 @@ const LESSON_13 = {
 
     {type:"teach", trg:"믿어지다", src:"to be believable, to seem credible", pos:"verb", gender:null,
      note:"믿다 (believe) + 어지다 (become).\nSomething becomes believable or hard to believe.",
-     example:"A: 이 소식이 믿어지�� 않아요.\nB: 저도 처음에 놀랐어요.",
+     example:"A: 이 소식이 믿어지지 않아요.\nB: 저도 처음에 놀랐어요.",
      exampleSrc:"A: I cannot believe this news.\nB: I was surprised at first too.",
-     funFact:"Almost always used in negative form: ���어지지 않다 (unbelievable). Positive use is rare."},
+     funFact:"Almost always used in negative form: 믿어지지 않다 (unbelievable). Positive use is rare."},
 
     {type:"mc",
      q:"'-주의'가 붙으면 어떤 의미가 되나요?",
@@ -48,11 +48,11 @@ const LESSON_13 = {
      note:"밀다 (push) + 리다 (passive).\nBeing pushed or work accumulating.",
      example:"A: 일이 밀려서 야근해야 해요.\nB: 도와줄까요?",
      exampleSrc:"A: Work has piled up so I have to work overtime.\nB: Shall I help you?",
-     funFact:"���리다 is the passive of ��다 (to push). Very common: 일이 밀리��� (work piles up), 밀린 잠 (sleep debt)."},
+     funFact:"밀리다 is the passive of 밀다 (to push). Very common: 일이 밀린다 (work piles up), 밀린 잠 (sleep debt)."},
 
     {type:"teach", trg:"밀접하다", src:"to be closely related, to be intimate", pos:"adj", gender:null,
      note:"Sino-Korean. 密 (close) + 接 (contact) + 하다.\nVery closely connected.",
-     example:"A: 경제와 교육은 밀접한 관계가 있���요.\nB: 교육이 경제 성장의 기반이죠.",
+     example:"A: 경제와 교육은 밀접한 관계가 있어요.\nB: 교육이 경제 성장의 기반이죠.",
      exampleSrc:"A: Economy and education are closely related.\nB: Education is the foundation of economic growth.",
      funFact:"From Hanja 密接. Very formal. Used in academic writing: 밀접한 관련 (close relation), 밀접한 연관 (close connection)."},
 
@@ -77,7 +77,7 @@ const LESSON_13 = {
     {type:"fb",
      s:"한국의 {1} 과정에서 많은 시민이 희생되었다.",
      a:["민주화"],
-     opts:["민주화","민속","민주주의","��간"],
+     opts:["민주화","민속","민주주의","민간"],
      hint:"This noun describes the process of becoming democratic, a pivotal chapter in Korean history.",
      sSrc:"Many citizens sacrificed during Korea's {1} process."},
 
@@ -115,7 +115,7 @@ const LESSON_13 = {
      note:"바로 (straight) + 잡다 (grasp).\nTo fix something that was wrong.",
      example:"A: 잘못된 정보를 바로잡아야 해요.\nB: 빨리 수정 공지를 올립시다.",
      exampleSrc:"A: We need to correct the wrong information.\nB: Let us post a correction notice quickly.",
-     funFact:"Used for abstract corrections too: 자세를 바���잡다 (correct posture), 풍속을 바로잡다 (reform customs)."},
+     funFact:"Used for abstract corrections too: 자세를 바로잡다 (correct posture), 풍속을 바로잡다 (reform customs)."},
 
     {type:"mc",
      q:"'바가지를 쓰다'는 무슨 뜻인가요?",
@@ -145,7 +145,7 @@ const LESSON_13 = {
      note:"Native Korean verb.\nTo give up something precious for a cause.",
      example:"A: 평생을 연구에 바쳤어요.\nB: 정말 존경스러운 분이에요.",
      exampleSrc:"A: They devoted their whole life to research.\nB: They are truly an admirable person.",
-     funFact:"바치다 implies sacrifice: 목숨을 바치다 (give one's life), 노력�� 바치다 (devote effort). Very solemn."},
+     funFact:"바치다 implies sacrifice: 목숨을 바치다 (give one's life), 노력을 바치다 (devote effort). Very solemn."},
 
     {type:"fb",
      s:"잘못된 관행을 {1}아야 합니다.",

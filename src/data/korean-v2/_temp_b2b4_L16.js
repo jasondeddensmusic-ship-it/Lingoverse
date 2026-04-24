@@ -100,7 +100,7 @@ const LESSON_16 = {
      funFact:"Korea's 온돌 (underfloor heating) makes 방바닥 warm. Koreans sit, eat, and sleep on the floor traditionally."},
 
     {type:"teach", trg:"방송사", src:"broadcasting company", pos:"noun", gender:null,
-     note:"Sino-Korean. ���送 (broadcast) + 社 (company).\nA TV or radio broadcasting organization.",
+     note:"Sino-Korean. 放送 (broadcast) + 社 (company).\nA TV or radio broadcasting organization.",
      example:"A: 어느 방송사 뉴스를 봐요?\nB: KBS를 주로 봐요.",
      exampleSrc:"A: Which broadcasting company's news do you watch?\nB: I mainly watch KBS.",
      funFact:"Korea's big 3 방송사: KBS, MBC, SBS. They dominate Korean television and are known globally for K-dramas."},

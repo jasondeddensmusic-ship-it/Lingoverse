@@ -10,7 +10,7 @@ const LESSON_18 = {
 
     {type:"teach", trg:"버티다", src:"to endure, to hold out, to withstand", pos:"verb", gender:null,
      note:"Native Korean verb.\nTo resist giving in despite difficulty.",
-     example:"A: 힘들어�� 끝까지 버텨야 해.\nB: 알아, 포기 안 할 거야.",
+     example:"A: 힘들어도 끝까지 버텨야 해.\nB: 알아, 포기 안 할 거야.",
      exampleSrc:"A: Even if it is hard, you have to hold out to the end.\nB: I know, I will not give up.",
      funFact:"버티다 implies stubbornly enduring. 참다 (to bear) is about controlling feelings, 버티다 is about not yielding."},
 
@@ -70,7 +70,7 @@ const LESSON_18 = {
 
     {type:"teach", trg:"범위", src:"scope, range, extent", pos:"noun", gender:null,
      note:"Sino-Korean. 範 (model) + 圍 (surround).\nThe boundaries of something.",
-     example:"A: 시험 범위가 ��디까지예요?\nB: 1과부터 5과까지예요.",
+     example:"A: 시험 범위가 어디까지예요?\nB: 1과부터 5과까지예요.",
      exampleSrc:"A: What is the scope of the exam?\nB: From chapter 1 to chapter 5.",
      funFact:"From Hanja 範圍. Students' most asked question: 시험 범위 (exam scope). Also: 활동 범위 (range of activity)."},
 
