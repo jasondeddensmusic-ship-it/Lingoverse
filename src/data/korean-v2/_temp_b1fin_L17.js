@@ -99,8 +99,8 @@ const LESSON_17 = {
 
     {type:"teach", trg:"우선", src:"first of all, for now, priority", pos:"adv", gender:null,
      note:"Sino-Korean (優先). Establishing what comes first.",
-     example:"A: 우선 뭘 해야 해요?\nB: 우선 계획을 세워야 해요.",
-     exampleSrc:"A: What should we do first?\nB: First, we need to make a plan.",
+     example:"A: 우선 뭘 해야 해요?\nB: 우선 계획이 필요해요.",
+     exampleSrc:"A: What should we do first?\nB: First, we need a plan.",
      funFact:"우선순위 (priority order) combines 우선 + 순위 (ranking). Korean companies obsess over 우선순위 in project management."},
 
     {type:"match", pairs:[

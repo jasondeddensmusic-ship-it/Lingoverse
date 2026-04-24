@@ -137,14 +137,14 @@ const LESSON_5 = {
 
     {type:"teach", trg:"확대하다", src:"to expand, to enlarge", pos:"verb", gender:null,
      note:"Active form. The subject deliberately expands something.",
-     example:"A: 사업을 확대할 계획이에요?\nB: 네, 내년에 해외로 확대할 거예요.",
-     exampleSrc:"A: Do you plan to expand the business?\nB: Yes, we'll expand overseas next year.",
+     example:"A: 사업을 확대하고 싶어요?\nB: 네, 내년에 해외로 가고 싶어요.",
+     exampleSrc:"A: Do you want to expand the business?\nB: Yes, I want to go overseas next year.",
      funFact:"확대 and 축소 (reduction) are opposites frequently paired in Korean business and news language."},
 
     {type:"teach", trg:"포함하다", src:"to include, to contain", pos:"verb", gender:null,
      note:"Sino-Korean (包含). 포 (包) = wrap, 함 (含) = contain.",
-     example:"A: 가격에 세금이 포함돼요?\nB: 네, 세금이 포함된 가격이에요.",
-     exampleSrc:"A: Is tax included in the price?\nB: Yes, it's a price that includes tax.",
+     example:"A: 가격에 세금이 포함돼요?\nB: 네, 세금도 같이 있어요.",
+     exampleSrc:"A: Is tax included in the price?\nB: Yes, tax is also together with it.",
      funFact:"세금 포함 (tax included) and 세금 별도 (tax separate) are crucial phrases when shopping or dining in Korea."},
 
     {type:"mc",
