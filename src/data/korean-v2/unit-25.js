@@ -4,7 +4,7 @@
 const UNIT_25 =
 {n:25,lang:"ko",srcLang:"en",track:"v2",title:"원인과 결과",sub:"Cause & Effect Discrimination",icon:"🔗",level:"B2.1",color:"#E87B5E",lessons:[
 
-// ── L1: 왜 그랬을까? (Why?. Review) ──
+// ── L1: 왜 그랬을까? (Why? Review) ──
 {id:"kou25l1",title:"왜 그랬을까?",icon:"❓",xp:20,board:true,steps:[
 {type:"intro",title:"Why? .  The Because Spectrum",desc:"왜 그랬을까?\n→ You already know several 'because' patterns.\nThis unit adds MORE and teaches you to CHOOSE.\n\nKorean has 15+ ways to say 'because.'\nEach carries a different ATTITUDE toward the cause.",goals:["Review known cause patterns","Understand that Korean 'because' carries attitude","Prepare for the full discrimination chart"]},
 {type:"tip",title:"What You Already Know",text:"Cause patterns you have learned:\n\n-아/어서: neutral cause (no commands after)\n 비가 와서 못 갔어요.\n\n-(으)니까: logical reason (commands OK)\n 비가 오니까 우산 가져가.\n\n-기 때문에: strong direct cause\n 비 때문에 행사가 취소됐어요.\n\nFormal patterns:\n-(으)므로: written formal cause\n-(으)로 인해: news formal cause\n-기에: literary cause\n\nThis unit adds 6 MORE spoken cause patterns.",deepDive:"Why does Korean need so many?\n\nEach pattern encodes the speaker's ATTITUDE:\n\n- Blame the cause? → 탓에\n- Thank the cause? → 덕분에\n- Surprised by cause? → 바람에\n- Explaining to listener? → 거든요\n- Discovered the cause? → 길래\n- Busy and couldn't? → 느라고\n- Chaos caused it? → 통에\n- Maybe this was the cause? → 그런지\n\nEnglish uses 'because' for ALL of these.\nKorean speakers choose based on FEELING."},
