@@ -56,8 +56,8 @@ const LESSON_19 = {
 
     {type:"teach", trg:"de batist", src:"the batiste (fabric)", pos:"noun", gender:"n",
      note:"Neuter gender (het). A fine, lightweight fabric.",
-     example:"A: Deze blouse is van batist.\nB: Heel zacht en licht materiaal.",
-     exampleSrc:"A: This blouse is made of batiste.\nB: Very soft and light material.",
+     example:"A: Dit is van batist.\nB: Heel zacht en licht materiaal.",
+     exampleSrc:"A: This is made of batiste.\nB: Very soft and light material.",
      funFact:"Named after Jean-Baptiste Chambray, a French weaver. Used for fine shirts and handkerchiefs."},
 
     {type:"teach", trg:"babbelen", src:"to chat / to chatter", pos:"verb", gender:null,
