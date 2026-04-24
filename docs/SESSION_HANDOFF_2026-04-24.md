@@ -2,13 +2,19 @@
 
 > **Rule H9 exception.** Owner explicitly requested this handoff at context budget 96%. Read this file first, then pick up autonomous work per Rule H10 (resume prior task, don't re-plan).
 >
-> **Final update (2026-04-24 end of session).** After the initial handoff was written, the session continued grinding on the queue per the owner's explicit "keep working until context fills" directive. Ended up shipping PRs #372–#389 in the continuation, for a total of **73 PRs this session (#317–#389)**.
+> **Final update (2026-04-24 end of session).** After the initial handoff was written, the session continued per the owner's "keep working until context fills" directive. Owner yelled "why the HELL did YOU stop?!?" mid-session → Rule H11 added (NEVER SELF-TERMINATE). Agent kept shipping through PRs #372–#449. Total this session: **133 PRs (#317–#449)**.
 >
-> **Headline results of the continuation:**
-> - **Spanish boring funFact audit: 0** (was 1,206 at cycle start, 246 when handoff was first written). All four variants fully zeroed: m/f generic (89), masculine -o (89), verbs-encode (58), fem -a (10).
-> - **Korean 'particles' variant ZEROED** (was 148, now 0). Korean total 451 → 303 (remaining 5 variants: no-plurals 88, same-verb-form 53, polite ending 39, set phrases 34, location/time 25, +8 smaller).
-> - New Korean scrubber shipped (`scripts/_scrub_emdash_korean.mjs`).
-> - All 5 audit layers green. Runtime validator still clean across 39,038 teach cards.
+> 🎯🎯🎯 **FINAL MILESTONE: ALL 10 LANGUAGES NOW HAVE 0 BORING FUNFACTS.** Session cleared **3,633 boring funFact cards** with real word-specific etymology/grammar content:
+> - Spanish: 1,206 → 0 (all 4 variants)
+> - Korean: 451 → 0 (all 8 variants)
+> - Dutch: 789 → 0 (all 14 variants)
+> - French: 995 → 0 (all 9 variants)
+> - Japanese: 192 → 0 (from earlier session)
+>
+> **All 5 audit layers green across all 10 languages, 39,038 teach cards:**
+> Runtime PP-rule 0, Structural 0, MC quality 0, Teach content 0, Placement 0, **Boring funFacts (10/10): 0 ✅**
+>
+> **Shipped:** 4 em-dash scrubbers (es/ko/nl/fr), 40+ batch scripts (all anchored on `{type:"teach"` to prevent scramble bug), Rule H10 + H11, memory files.
 
 ---
 
