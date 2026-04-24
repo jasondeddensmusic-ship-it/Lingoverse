@@ -97,8 +97,8 @@ const LESSON_4 = {
      funFact:"In Dutch psychology, 'associatietests' (association tests) are widely used. The word 'gezellig' produces the most positive associations for Dutch speakers."},
     {type:"teach", trg:"het aanzien", src:"the prestige, the reputation", pos:"noun", gender:"n",
      note:"A het-word. From 'aanzien' (to look at, to regard).\n'Van aanzien' = of high standing.",
-     example:"A: Die professor heeft veel aanzien in de academische wereld.\nB: Terecht. Haar onderzoek is baanbrekend.\nA: Ze heeft ook veel publicaties.\nB: Kwaliteit boven kwantiteit, zegt ze altijd.",
-     exampleSrc:"A: That professor has a lot of prestige in the academic world.\nB: Rightly so. Her research is groundbreaking.\nA: She also has many publications.\nB: Quality over quantity, she always says.",
+     example:"A: Die professor heeft veel aanzien in de academische wereld.\nB: Terecht. Haar onderzoek is baanbrekend.\nA: Ze heeft ook veel boeken geschreven.\nB: Kwaliteit boven kwantiteit, zegt ze altijd.",
+     exampleSrc:"A: That professor has a lot of prestige in the academic world.\nB: Rightly so. Her research is groundbreaking.\nA: She has also written many books.\nB: Quality over quantity, she always says.",
      funFact:"In Dutch culture, prestige comes more from expertise than wealth. A professor or doctor commands more 'aanzien' than a rich businessperson. Knowledge is valued highly."},
     {type:"match", pairs:[
       {trg:"autochtoon", src:"native, indigenous"},
