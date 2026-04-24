@@ -2,11 +2,17 @@
 
 > **Rule H9 exception.** Owner explicitly requested this handoff at context budget 96%. Read this file first, then pick up autonomous work per Rule H10 (resume prior task, don't re-plan).
 >
-> **Update (late 2026-04-24).** Continued work after the initial handoff. Shipped PRs #372–#383. **Spanish boring funFact audit is now 0** (from 246 at handoff time, from 1,206 at the cycle start). Korean cleanup started: 451 → 435. Handoff updated below.
+> **Final update (2026-04-24 end of session).** After the initial handoff was written, the session continued grinding on the queue per the owner's explicit "keep working until context fills" directive. Ended up shipping PRs #372–#389 in the continuation, for a total of **73 PRs this session (#317–#389)**.
+>
+> **Headline results of the continuation:**
+> - **Spanish boring funFact audit: 0** (was 1,206 at cycle start, 246 when handoff was first written). All four variants fully zeroed: m/f generic (89), masculine -o (89), verbs-encode (58), fem -a (10).
+> - **Korean 'particles' variant ZEROED** (was 148, now 0). Korean total 451 → 303 (remaining 5 variants: no-plurals 88, same-verb-form 53, polite ending 39, set phrases 34, location/time 25, +8 smaller).
+> - New Korean scrubber shipped (`scripts/_scrub_emdash_korean.mjs`).
+> - All 5 audit layers green. Runtime validator still clean across 39,038 teach cards.
 
 ---
 
-## What shipped this session (62 PRs: #317–#383)
+## What shipped this session (73 PRs: #317–#389)
 
 ### Infrastructure / rules
 - **Rule H10 added to CLAUDE.md**: "Interrupts are stacked, not replacements." Agents must pop back to paused task after resolving an interrupt.
@@ -28,11 +34,12 @@
 - All four filler variants fully zeroed: m/f generic (89), masculine -o (89), verbs-encode (58), feminine -a (10).
 - Methodology: one batch script per unit-range, regex replace generic filler with word-specific etymology/grammar/cultural content, scrub em-dashes, validate, commit, PR, merge.
 
-### Korean cleanup (started, 16/451 cards done)
-- PR #383 establishes the Korean batch pattern: uses `nl:` instead of `trg:` (Korean v2 uses legacy nl/en field names).
-- Scrubber script added: `scripts/_scrub_emdash_korean.mjs`.
+### Korean cleanup (progressing, 148/451 cards done)
+- 5 PRs (#383, #385, #386, #387, #388, #389): particles variant fully cleared (all 148 cards across u1-u30).
+- PRs established nl:/en: format pattern (not Spanish trg:/src:). Regex must anchor with `{type:"teach",(?:kind:"[^"]*",)?nl:"X"` prefix (scramble-bug-safe).
+- Scrubber script added: `scripts/_scrub_emdash_korean.mjs` (idempotent, mirrors Spanish).
 - 54 legacy em-dashes scrubbed from Korean corpus as a side-effect.
-- Remaining Korean variants (per `scripts/audit_boring_funfacts.mjs korean`): particles (148→132 after PR #383), no-plurals (88), same-verb-form (53), polite-informal (39), set-phrases (34), +9 smaller variants.
+- Remaining Korean variants (per `scripts/audit_boring_funfacts.mjs korean`): no-plurals (88), same-verb-form (53), polite ending (39), set phrases (34), location/time (25), +8 smaller variants. Total 303 remaining.
 
 ---
 
@@ -46,7 +53,7 @@
 | Teach content | `node scripts/audit_teach_content.mjs` | 0 |
 | Placement questions | `node scripts/audit_placement_questions.mjs` | 0 |
 | **Spanish boring funFacts** | `node scripts/audit_boring_funfacts.mjs spanish` | **0 ✅** |
-| Korean boring funFacts | `node scripts/audit_boring_funfacts.mjs korean` | 435 |
+| Korean boring funFacts | `node scripts/audit_boring_funfacts.mjs korean` | 303 |
 | Dutch boring funFacts | `node scripts/audit_boring_funfacts.mjs dutch` | 789 |
 | French boring funFacts | `node scripts/audit_boring_funfacts.mjs french` | 995 |
 
@@ -173,19 +180,20 @@ Apply the same methodology per language. Each etymology/grammar fact must be spe
 
 ## Next-agent action plan (auto-execute)
 
-**Spanish is done.** Start on Korean. Sample batch is PR #383.
+**Spanish done. Korean 'particles' variant done.** Continue down the Korean queue.
 
-1. Korean corpus uses `nl:`/`en:` field names (legacy format). Your regex must anchor on `{type:"teach"` followed by `(?:kind:"...",)?nl:"X"` — see `scripts/_ko_funfact_u1_u3_particles_batch.mjs` for the proven shape.
-2. Biggest Korean variants by count:
-   - `"Korean particles attach after nouns to mark their role. No equivalent in English."` — 132 remaining (was 148)
-   - `"Korean nouns don't have plural forms or articles..."` — 88
+1. Biggest remaining Korean variants by count (use `node scripts/audit_boring_funfacts.mjs korean` to re-verify):
+   - `"Korean nouns don't have plural forms or articles. Context and particles do the job."` — 88
    - `"Korean verbs don't change for person or number..."` — 53
-   - `"The polite informal ending..."` — 39
+   - `"The polite informal ending. Used in ~80% of daily Korean conversation..."` — 39
    - `"Set phrases are the fastest way to sound natural..."` — 34
-   - +9 smaller variants
-3. Write Korean-specific facts: etymology (hanja components), honorific register, regional dialect notes, Sino-Korean vs native Korean word distinctions, particle phonology rules.
+   - `"Marks location or time. One particle, two jobs. Context tells you which."` — 25
+   - +8 smaller variants
+2. Korean corpus uses `nl:`/`en:` field names (legacy format, not Spanish trg:/src:). Regex must anchor on `{type:"teach",(?:kind:"[^"]*",)?nl:"X"` — see `scripts/_ko_funfact_u26_u30_particles_batch.mjs` for the proven shape (most recent).
+3. Write Korean-specific facts: etymology (hanja 漢字 components), honorific register, Sino-Korean 한자 vs native Korean 순우리말 distinction, particle phonology (consonant/vowel rules), regional dialect notes.
 4. Use `scripts/_scrub_emdash_korean.mjs --apply` after each batch to catch PP22c violations.
 5. Continue through Korean → 0, then tackle Dutch (789) and French (995) similarly.
+6. For Dutch and French, check their format first (trg/src vs nl/en) and create a parallel scrubber script if needed.
 
 ### Proven workflow per batch
 
