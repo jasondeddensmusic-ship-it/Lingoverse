@@ -118,7 +118,7 @@ const UNIT_11 = {n:11, lang:"ru", srcLang:"en", track:"v2", title:"Хобби", 
  funFact:"Слушать vs слышать: активное vs пассивное listening. Слушать = deliberate listening (to music). Слышать = hearing (ambient). Russian distinguishes."},
 
 {type:"teach", trg:"играть", src:"to play", pos:"verb", gender:null,
- note:"Imperfective. Два pattern: играть в (sports), играть на (instruments).\n",
+ note:"Imperfective. Два pattern: играть в (sports), играть на (instruments).",
  example:"A: Ты играешь в футбол?\nB: Да, я играю в футбол.",
  exampleSrc:"A: Do you play football?\nB: Yes, I play football.",
  funFact:"Sports use 'в': играть в футбол, в теннис, в шахматы. Musical instruments use 'на': играть на гитаре, на пианино. Consistent distinction across Russian."},
