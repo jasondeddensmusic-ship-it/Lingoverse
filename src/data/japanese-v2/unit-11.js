@@ -46,8 +46,8 @@ const UNIT_11 = {
 
   {type:"teach", trg:"待(ま)って", src:"wait (て-form)", pos:"verb", gender:null,
    note:"Group 1 (u-verb): つ ending changes to って.\n待(ま)つ becomes 待(ま)って. Same for う and る (Group 1) endings.",
-   example:"A: ちょっと待(ま)ってください。\nB: はい、待(ま)ちます。",
-   exampleSrc:"A: Please wait a moment.\nB: Yes, I will wait.",
+   example:"A: ちょっと待(ま)ってください。\nB: はい、大丈夫(だいじょうぶ)です。",
+   exampleSrc:"A: Please wait a moment.\nB: Yes, that's fine.",
    funFact:"Chotto matte kudasai (please wait a moment) is one of the most useful phrases in Japan. The つ/う/る group all become って with a double consonant. This gemination (double consonant) is a signature sound of Japanese."},
 
   {type:"mc", q:"What is the て-form of 食(た)べる?", opts:["食(た)べて","食(た)べって","食(た)べんで","食(た)べいて"], ans:"食(た)べて",
