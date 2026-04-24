@@ -273,7 +273,11 @@ export default {n:4,lang:"nl",srcLang:"en",track:"v2",title:"Eten & Drinken",sub
         {type:"tr",mk:"u4_cheese_cheap_market",dir:"produce"}
   ]},
   {id:"v2u4l8",title:"Borrel! - Unit 4 Review",icon:"🍻",xp:20,board:true,steps:[
+<<<<<<< HEAD
         {type:"intro",title:"Borrel! Unit 4 Review",desc:"It's Friday afternoon. Time for the vrijdagmiddagborrel. the most Dutch social ritual there is. This review pulls together everything from Unit 4: ordering, modals, possessives, plurals, diminutives, and prices. All set at a borrel.",goals:["All 4 modal verbs in context","Possessives in social settings","Order food and drinks fluently","Dutch borrel culture"]},
+=======
+        {type:"intro",title:"Borrel!. Unit 4 Review",desc:"It's Friday afternoon. Time for the vrijdagmiddagborrel. the most Dutch social ritual there is. This review pulls together everything from Unit 4: ordering, modals, possessives, plurals, diminutives, and prices. All set at a borrel.",goals:["All 4 modal verbs in context","Possessives in social settings","Order food and drinks fluently","Dutch borrel culture"]},
+>>>>>>> origin/main
         {type:"tip",title:"🇳🇱 De Borrel: Dutch Social Glue",text:"A borrel is an informal drinks gathering.\n\nThe vrijmibo (vrijdagmiddagborrel) = Friday afternoon drinks.\nThis is where Dutch colleagues become friends.\n\nWhat's at a borrel:\n• biertjes (beers. always diminutive, always casual)\n• wijn (wine)\n• bitterballen (deep-fried meat ragout balls. THE borrel snack)\n• kaasblokjes (little cheese cubes)\n• nootjes (nuts. another diminutive!)\n\nThe word 'borrel' itself means 'a drink' (informal).\n'Een borrel doen' = to have drinks.\n'Borrelen' = to socialise over drinks.\n\nProost! = Cheers! (always look people in the eye)"},
         {type:"mc",q:"'Ik wil graag een biertje.'. this sentence uses:",opts:["a modal + a diminutive","a possessive + a plural","an imperative","a question word"],ans:"a modal + a diminutive",hint:"willen + biertje"},
         {type:"fb",opts:["Mag","Kan","Wil","Moet"],hint:"Asking PERMISSION to sit",s:"___ ik hier zitten?",a:"Mag"},

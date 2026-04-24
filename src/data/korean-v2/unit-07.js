@@ -102,7 +102,11 @@ const UNIT_7 =
   {type:"teach",kind:"word",nl:"같이",en:"together",pos:"noun",gender:null,funFact:"Together. Native Korean adverb. Contrasts with 혼자 (alone). Also functions as 'like' in comparison: 어린이같이 (like a child). Context disambiguates.",example:"A: 내일 영화 볼 거예요. B: 저도 가고 싶어요! A: 그러면 같이 가요! B: 좋아요, 같이 가요!",exampleEn:"A: I'm going to watch a movie tomorrow. B: I want to go too! A: Then let's go together! B: Great, let's go together!",note:"같이: together.\n\n친구하고 같이: together with a friend.",deepDive:{title:"Using 같이",text:"하고 = and/with.\n\n같이 가요! = Let's go together!\n같이 먹어요! = Let's eat together!"}},
   {type:"teach",kind:"grammar",nl:"그래서",en:"so/therefore",pos:"part",gender:null,funFact:"Yesterday (reinforced u10-13 context). Native Korean. Always pairs with past tense in Korean. Time adverb that triggers preterite morphology.",example:"A: 어제 왜 일찍 잤어요? B: 찜질방에서 많이 걸었어요. 그래서 피곤했어요. A: 아, 그래서 일찍 잤어요? B: 네, 아홉 시에 잤어요.",exampleEn:"A: Why did you go to sleep early yesterday? B: I walked a lot at the jjimjilbang. So I was tired. A: Ah, so you slept early? B: Yes, I slept at nine.",note:"그래서: so, therefore.\nYou learned this connector earlier.",deepDive:{title:"그래서",text:"Now use it to chain past events:\n찜질방에 갔어요. 그래서 피곤했어요.\n= I went to a jjimjilbang. So I was tired.\n\n피곤하다: to be tired. 피곤했어요: was tired.\n자다: to sleep. 잤어요: slept (자+았어요)."}},
   {type:"mc",q:"같이 means:",opts:["it was fun","together","so","alone"],ans:"together",hint:"친구하고 ___ 갔어요 = I went ___ with a friend."},
+<<<<<<< HEAD
   {type:"mc",q:"어제 뭐 했어요? Best answer:",opts:["내일 학교에 가요","오늘 공부해요","친구를 만났어요","커피를 마셔요"],ans:"친구를 만났어요",hint:"The question asks about yesterday. answer must be past tense."},
+=======
+  {type:"mc",q:"어제 뭐 했어요?. Best answer:",opts:["내일 학교에 가요","오늘 공부해요","친구를 만났어요","커피를 마셔요"],ans:"친구를 만났어요",hint:"The question asks about yesterday. answer must be past tense."},
+>>>>>>> origin/main
   {type:"mc",q:"찜질방 = 찜질 + 방. 방 means:",opts:["Bath","Steam","Hot","Room"],ans:"Room",hint:"노래방, 피시방, 찜질방 share a suffix. What does 방 represent?"},
   {type:"mc",q:"재미있었어요 is the past tense of:",opts:["재미있다","재미없다","재미하다","재미만 있다"],ans:"재미있다",hint:"... → 재미있었어요 (있다: dark → 었어요)"},
   {type:"mc",q:"자다 (to sleep). past tense:",opts:["자었어요","잤어요","잘았어요","자해요"],ans:"잤어요",hint:"자: bright ㅏ"},
