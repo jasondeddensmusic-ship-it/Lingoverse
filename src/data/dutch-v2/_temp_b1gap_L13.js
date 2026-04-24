@@ -50,8 +50,8 @@ const LESSON_13 = {
 
     {type:"teach", trg:"de aanleiding", src:"the cause / the reason", pos:"noun", gender:"c",
      note:"Common gender (de). The immediate trigger for something.",
-     example:"A: Wat was de aanleiding voor het protest?\nB: De nieuwe belastingwet.",
-     exampleSrc:"A: What was the reason for the protest?\nB: The new tax law.",
+     example:"A: Wat was de aanleiding?\nB: De nieuwe belastingwet.",
+     exampleSrc:"A: What was the reason?\nB: The new tax law.",
      funFact:"Aan + leiding (leading). The thing that 'leads to' an event. More specific than 'reden' (reason)."},
 
     {type:"teach", trg:"het aangetekend", src:"registered (mail)", pos:"adj", gender:null,
