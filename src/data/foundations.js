@@ -1673,7 +1673,7 @@ export const FOUNDATIONS_BY_LANG = {
             {label:"P (H+゜)",color:"#E85D75",cells:[{ch:"",rom:""},{ch:"ぱ",rom:"pa"},{ch:"ぴ",rom:"pi"},{ch:"ぷ",rom:"pu"},{ch:"ぺ",rom:"pe"},{ch:"ぽ",rom:"po"}]},
           ]}},
       ]},
-    {id:"ja_combo",title:"Combo Sounds",icon:"き���",desc:"Small ゃゅょ merge with i-column characters",
+    {id:"ja_combo",title:"Combo Sounds",icon:"きゃ",desc:"Small ゃゅょ merge with i-column characters",
       items:[
         {fk:"fk_combo_grid",title:"Combination syllable chart",audio_id:null,
           desc:"Attach small ゃ(ya), ゅ(yu), ょ(yo) to i-column characters. SIZE MATTERS: きや = ki-ya (2), きゃ = kya (1).",
