@@ -38,8 +38,8 @@ const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}",
 
   {type:"teach", trg:"de hype", src:"hype, craze", pos:"noun", gender:"c",
    note:"From English. Excessive publicity or excitement about something.\nOften used critically in Dutch.",
-   example:"A: Denk je dat dit product een hype is?\nB: Ja, over een jaar praat niemand er meer over.\nA: Niet elke hype verdwijnt. Sommige worden blijvend.\nB: Dat is waar, maar de meeste zijn tijdelijk.",
-   exampleSrc:"A: Do you think this product is a hype?\nB: Yes, in a year nobody will be talking about it anymore.\nA: Not every hype disappears. Some become permanent.\nB: That's true, but most are temporary.",
+   example:"A: Denk je dat dit product een hype is?\nB: Ja, over een jaar praat niemand er meer over.\nA: Niet elke hype verdwijnt. Sommige worden blijvend.\nB: Dat is waar, maar de meeste gaan snel voorbij.",
+   exampleSrc:"A: Do you think this product is a hype?\nB: Yes, in a year nobody will be talking about it anymore.\nA: Not every hype disappears. Some become permanent.\nB: That's true, but most pass quickly.",
    funFact:"Dutch people love debating whether something is a hype or a real trend. The word is used much more frequently in Dutch than in English, often with a critical undertone suggesting something is overblown."},
 
   {type:"tip", title:"Borrowed Words in B2 Dutch",

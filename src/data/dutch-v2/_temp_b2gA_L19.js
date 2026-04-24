@@ -8,8 +8,8 @@ const LESSON_19 = {id:"nlv2_b2gA_l19", title:"Uiterlijk & Lichaam", icon:"\u{1F9
 
   {type:"teach", trg:"de haarlok", src:"lock of hair", pos:"noun", gender:"c",
    note:"Compound: haar (hair) + lok (curl/lock).\nA single curl or strand of hair.",
-   example:"A: Een haarlok viel voor haar ogen.\nB: Ze veegde hem achter haar oor.\nA: In de negentiende eeuw bewaarden mensen haarlokken als aandenken.\nB: Dat klinkt romantisch.",
-   exampleSrc:"A: A lock of hair fell in front of her eyes.\nB: She brushed it behind her ear.\nA: In the nineteenth century, people kept locks of hair as keepsakes.\nB: That sounds romantic.",
+   example:"A: Een haarlok viel voor haar ogen.\nB: Ze deed hem achter haar oor.\nA: In de negentiende eeuw bewaarden mensen haarlokken als aandenken.\nB: Dat klinkt romantisch.",
+   exampleSrc:"A: A lock of hair fell in front of her eyes.\nB: She put it behind her ear.\nA: In the nineteenth century, people kept locks of hair as keepsakes.\nB: That sounds romantic.",
    funFact:"Keeping a haarlok as a memento was common practice in the Netherlands until the early 20th century. The Rijksmuseum has haarlokken from famous Dutch figures including William of Orange."},
 
   {type:"teach", trg:"de handpalm", src:"palm of the hand", pos:"noun", gender:"c",

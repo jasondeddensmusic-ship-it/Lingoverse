@@ -8,8 +8,8 @@ const LESSON_19 = {id:"nlv2_b2gB_l19", title:"Wonen en Bouwen", icon:"\u{1F3E0}"
 
 {type:"teach", trg:"de kubuswoning", src:"cube house", pos:"noun", gender:"c",
  note:"Kubus (cube) + woning (dwelling).\nThe famous tilted houses in Rotterdam.",
- example:"A: De kubuswoningen zijn een toeristische attractie.\nB: Wonen er ook echt mensen?\nA: Ja, maar het is niet makkelijk meubileren.\nB: Alles staat scheef!",
- exampleSrc:"A: The cube houses are a tourist attraction.\nB: Do people actually live there?\nA: Yes, but it's not easy to furnish.\nB: Everything is tilted!",
+ example:"A: De kubuswoningen zijn een toeristische attractie.\nB: Wonen er ook echt mensen?\nA: Ja, maar het is niet makkelijk meubileren.\nB: Alles staat een beetje raar.",
+ exampleSrc:"A: The cube houses are a tourist attraction.\nB: Do people actually live there?\nA: Yes, but it's not easy to furnish.\nB: Everything is a bit strange.",
  funFact:"The Rotterdam cube houses each sit on a tall hexagonal pylon and are tilted at 54.7 degrees. Inside, rooms have diagonal walls and angular ceilings."},
 
 {type:"teach", trg:"de huizenruil", src:"house swap", pos:"noun", gender:"c",

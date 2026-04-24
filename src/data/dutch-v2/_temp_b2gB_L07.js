@@ -44,8 +44,8 @@ const LESSON_7 = {id:"nlv2_b2gB_l7", title:"Kerk en Geloof", icon:"\u{26EA}", xp
 
 {type:"teach", trg:"het kiesrecht", src:"suffrage / right to vote", pos:"noun", gender:"n",
  note:"Kies (choose/elect) + recht (right).\n'Algemeen kiesrecht' = universal suffrage.",
- example:"A: Wanneer kregen vrouwen kiesrecht?\nB: In 1919, actief stemrecht.\nA: Dat is eigenlijk nog niet zo lang geleden.\nB: Nee, en het was een zware strijd.",
- exampleSrc:"A: When did women get the right to vote?\nB: In 1919, active voting rights.\nA: That's actually not that long ago.\nB: No, and it was a tough fight.",
+ example:"A: Wanneer kregen vrouwen kiesrecht?\nB: In 1919, actief stemrecht.\nA: Dat is eigenlijk nog niet zo lang geleden.\nB: Nee, en het was heel moeilijk.",
+ exampleSrc:"A: When did women get the right to vote?\nB: In 1919, active voting rights.\nA: That's actually not that long ago.\nB: No, and it was very difficult.",
  funFact:"Aletta Jacobs was the first Dutch woman to complete a university degree (1871) and a key leader in the Dutch women's suffrage movement."},
 
 {type:"teach", trg:"het inburgeringsbeleid", src:"civic integration policy", pos:"noun", gender:"n",

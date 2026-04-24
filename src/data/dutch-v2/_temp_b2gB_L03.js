@@ -8,8 +8,8 @@ const LESSON_3 = {id:"nlv2_b2gB_l3", title:"Media en Informatie", icon:"\u{1F4F0
 
 {type:"teach", trg:"de informatieverschaffing", src:"provision of information", pos:"noun", gender:"c",
  note:"Informatie + verschaffing (providing).\n'Verschaffen' = to provide, to supply.",
- example:"A: De informatieverschaffing kan beter.\nB: Hoe bedoel je?\nA: De burger weet niet wat er speelt.\nB: Meer transparantie is nodig.",
- exampleSrc:"A: The provision of information could be better.\nB: What do you mean?\nA: Citizens don't know what's going on.\nB: More transparency is needed.",
+ example:"A: De informatieverschaffing kan beter.\nB: Hoe bedoel je?\nA: De burger weet niet wat er speelt.\nB: Meer openheid is nodig.",
+ exampleSrc:"A: The provision of information could be better.\nB: What do you mean?\nA: Citizens don't know what's going on.\nB: More openness is needed.",
  funFact:"The Dutch government has a dedicated information law (Wet open overheid) requiring public institutions to proactively share information."},
 
 {type:"teach", trg:"de informatiestress", src:"information stress", pos:"noun", gender:"c",
