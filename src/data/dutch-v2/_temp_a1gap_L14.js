@@ -92,7 +92,7 @@ const LESSON_14 = {
      funFact:"The Dutch own more caravans per capita than any other nation. A true obsession."},
 
     {type:"teach", trg:"het interview", src:"the interview", pos:"noun", gender:"n",
-     note:"Neuter noun (het). International word.",
+     note:"Neuter (het). Loanword from English.\nA formal conversation for a job or media story.",
      example:"A: Ik heb morgen een interview.\nB: Voor welke baan?",
      exampleSrc:"A: I have an interview tomorrow.\nB: For which job?",
      funFact:"From English/French. Used for both job interviews and media interviews."},

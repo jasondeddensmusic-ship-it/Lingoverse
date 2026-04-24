@@ -13,7 +13,7 @@ const LESSON_20 = {
      funFact:"Named after Hamburg, Germany. Now a universal word in every language."},
 
     {type:"teach", trg:"het hotdog", src:"the hot dog", pos:"noun", gender:"n",
-     note:"Neuter noun (het). International word.",
+     note:"Neuter (het). Loanword from English.\nA sausage in a long bread roll.",
      example:"A: Een hotdog, alsjeblieft.\nB: Met mosterd of ketchup?",
      exampleSrc:"A: A hot dog, please.\nB: With mustard or ketchup?",
      funFact:"International word. Dutch street food includes hotdogs alongside frikandellen."},
