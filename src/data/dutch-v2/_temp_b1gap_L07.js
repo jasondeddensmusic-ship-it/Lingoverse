@@ -38,8 +38,8 @@ const LESSON_7 = {
 
     {type:"teach", trg:"de badhanddoek", src:"the bath towel", pos:"noun", gender:"c",
      note:"Common gender (de). Bad (bath) + handdoek (towel).",
-     example:"A: Waar liggen de schone badhanddoeken?\nB: In de linnenkast.",
-     exampleSrc:"A: Where are the clean bath towels?\nB: In the linen closet.",
+     example:"A: Waar liggen de badhanddoeken?\nB: In de linnenkast.",
+     exampleSrc:"A: Where are the bath towels?\nB: In the linen closet.",
      funFact:"'Handdoek' literally means 'hand cloth'. A 'badhanddoek' is the large version for after bathing."},
 
     {type:"teach", trg:"de batterij", src:"the battery", pos:"noun", gender:"c",
@@ -93,8 +93,8 @@ const LESSON_7 = {
 
     {type:"teach", trg:"de app", src:"the app", pos:"noun", gender:"c",
      note:"Common gender (de). Short for application.",
-     example:"A: Heb je de nieuwe app gedownload?\nB: Welke bedoel je?",
-     exampleSrc:"A: Did you download the new app?\nB: Which one do you mean?",
+     example:"A: Heb je de nieuwe app?\nB: Welke bedoel je?",
+     exampleSrc:"A: Do you have the new app?\nB: Which one do you mean?",
      funFact:"The Dutch love apps. The NS app (train) and Buienradar app (rain radar) are on almost every phone."},
 
     {type:"mc",
