@@ -81,8 +81,8 @@ const LESSON_10 = {
 
     {type:"teach", trg:"de aanmerking", src:"the comment / the consideration", pos:"noun", gender:"c",
      note:"Common gender (de). 'In aanmerking komen' = to be eligible.",
-     example:"A: Kom ik in aanmerking voor de beurs?\nB: Ja, als je voldoet aan de voorwaarden.",
-     exampleSrc:"A: Am I eligible for the scholarship?\nB: Yes, if you meet the conditions.",
+     example:"A: Kom ik in aanmerking voor de beurs?\nB: Ja, dat kan.",
+     exampleSrc:"A: Am I eligible for the scholarship?\nB: Yes, that is possible.",
      funFact:"'In aanmerking komen voor' is an essential phrase in Dutch bureaucracy. You will see it everywhere."},
 
     {type:"teach", trg:"aanvaarden", src:"to accept / to take on", pos:"verb", gender:null,
