@@ -43,7 +43,7 @@ const BATCH4_L_1 = {
      funFact:"Until 2002, Japanese schools had classes on Saturday mornings (半ドン handong, half-day). The shift to a five-day school week was controversial. Some private schools still hold Saturday classes."},
 
     {type:"teach", trg:"日曜日(にちようび)", src:"Sunday", pos:"noun", gender:null,
-     note:"Sun + day-of-week + day.",
+     note:"Sunday. Compound: 日 (sun) + 曜 (day-of-week) + 日 (day). All Japanese weekdays end in 曜日.",
      example:"日曜日(にちようび)はゆっくり休(やす)みます。",
      exampleSrc:"I rest and relax on Sunday.",
      funFact:"Sunday is Sun Day in both languages. Japanese calendars traditionally start the week on Sunday (日), not Monday. The weekend is called 週末 (shuumatsu, week-end), identical in concept to English."},
@@ -79,7 +79,7 @@ const BATCH4_L_1 = {
      funFact:"Before the Meiji era, Japanese people did not celebrate individual birthdays. Everyone turned a year older on New Year's Day (数え年 kazoe-doshi). Individual birthday celebrations were adopted from Western culture in the 20th century."},
 
     {type:"teach", trg:"記念日(きねんび)", src:"anniversary / memorial day", pos:"noun", gender:null,
-     note:"Record + thought + day.",
+     note:"Anniversary / memorial day. Compound: 記 (record) + 念 (thought) + 日 (day). Literally remembrance day.",
      example:"結婚(けっこん)記念日(きねんび)は六月(ろくがつ)です。",
      exampleSrc:"Our wedding anniversary is in June.",
      funFact:"Japan has many unique memorial days: Pocky Day (11/11, sticks look like 1s), Good Teeth Day (11/8, ii ha), and even Meat Day (every 29th, ni-ku sounds like meat). Japanese love wordplay-based holidays."},

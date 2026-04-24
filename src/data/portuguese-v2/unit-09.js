@@ -6,7 +6,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  goals:["Learn 6 core body parts","Use definite articles correctly","Talk about where something hurts"]},
 
 {type:"teach", trg:"o corpo", src:"the body", pos:"noun", gender:"m",
- note:"Body. Masculine noun.",
+ note:"Body. Masculine noun from Latin 'corpus.' Plural: os corpos. Cognate with English corpus, corpse.",
  example:"A: Como está o seu corpo hoje?\nB: Bem, obrigado.\nA: E os exercícios?\nB: Faço todos os dias.",
  exampleSrc:"A: How is your body today?\nB: Well, thank you.\nA: And exercise?\nB: I do it every day.",
  funFact:"From Latin 'corpus'. Same root as English 'corporate' and 'corpse'."},
@@ -18,13 +18,13 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  funFact:"'Perder a cabeça' (to lose your head) means to lose control, just like in English."},
 
 {type:"teach", trg:"o olho", src:"the eye", pos:"noun", gender:"m",
- note:"Eye. Plural: os olhos.",
+ note:"Eye. Masculine noun from Latin 'oculus.' Plural: os olhos. Body parts take the definite article.",
  example:"A: Seus olhos são lindos.\nB: Obrigada!\nA: Os olhos são parte do corpo?\nB: Sim, são parte da cabeça.",
  exampleSrc:"A: Your eyes are beautiful.\nB: Thank you!\nA: Are the eyes part of the body?\nB: Yes, they are part of the head.",
  funFact:"The expression 'custar os olhos da cara' (to cost the eyes of your face) means extremely expensive."},
 
 {type:"teach", trg:"a boca", src:"the mouth", pos:"noun", gender:"f",
- note:"Mouth. Feminine noun.",
+ note:"Mouth. Feminine noun from Latin 'bucca' (cheek/mouth). 'De boca em boca' = by word of mouth.",
  example:"A: Abra a boca, por favor.\nB: Assim?\nA: Sim, bem aberta.\nB: Dói aqui.",
  exampleSrc:"A: Open your mouth, please.\nB: Like this?\nA: Yes, nice and wide.\nB: It hurts here.",
  funFact:"'Boca' in slang also means 'entrance' of a neighborhood or subway station. 'Na boca do metrô'."},
@@ -385,7 +385,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  goals:["Name 5 rooms of a home","Learn 5 pieces of furniture","Use limpo and sujo to describe condition"]},
 
 {type:"teach", trg:"a cozinha", src:"the kitchen", pos:"noun", gender:"f",
- note:"Kitchen. Feminine noun.",
+ note:"Kitchen. Feminine noun from 'cozinhar' (to cook). Also means 'cuisine' in a broader culinary sense.",
  example:"A: A cozinha é grande?\nB: Sim, é grande.\nA: Tem mesa na cozinha?\nB: Tem, tem mesa e cadeira.",
  exampleSrc:"A: Is the kitchen big?\nB: Yes, it is big.\nA: Is there a table in the kitchen?\nB: Yes, there is a table and chair.",
  funFact:"From 'coquere' (Latin for to cook). The word 'cook' and 'kitchen' share the same ancient root."},
@@ -415,7 +415,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  funFact:"From Latin 'porta' (gate, door). Same root as 'Portugal' itself: 'Portus Cale' (the port-gate of Cale)."},
 
 {type:"teach", trg:"a cama", src:"the bed", pos:"noun", gender:"f",
- note:"Bed. Feminine noun.",
+ note:"Bed. Feminine noun from Latin 'camba' (bed/couch). 'Ir para a cama' = go to bed.",
  example:"A: A cama é grande?\nB: Não, é pequena.\nA: O quarto tem cama?\nB: Tem, e tem janela.",
  exampleSrc:"A: Is the bed big?\nB: No, it is small.\nA: Does the bedroom have a bed?\nB: Yes, and it has a window.",
  funFact:"Same word in Spanish, same Latin origin. 'Fazer a cama' (to make the bed) is the Brazilian expression for tidying up."},
@@ -427,7 +427,7 @@ const UNIT_09 = {n:9, lang:"pt", srcLang:"en", track:"v2", title:"Não me sinto 
  funFact:"'Mesa' also gave English 'mesa' (the flat-topped hill). Both come from Latin for flat surface."},
 
 {type:"teach", trg:"a cadeira", src:"the chair", pos:"noun", gender:"f",
- note:"Chair. Feminine noun.",
+ note:"Chair. Feminine noun from Latin 'cathedra' (seat). Shares root with English cathedral (bishop's seat).",
  example:"A: Tem cadeira na cozinha?\nB: Tem, tem três cadeiras.\nA: E mesa?\nB: Tem mesa também.",
  exampleSrc:"A: Is there a chair in the kitchen?\nB: Yes, there are three chairs.\nA: And a table?\nB: There is a table too.",
  funFact:"From Latin 'cathedra' (a seat of authority). Same root as English 'cathedral', the bishop's seat. Your chair is royalty."},
