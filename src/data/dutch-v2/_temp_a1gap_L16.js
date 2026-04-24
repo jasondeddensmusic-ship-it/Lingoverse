@@ -56,8 +56,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"huilen", src:"to cry", pos:"verb", gender:null,
      note:"Regular. Ik huil, jij huilt.",
-     example:"A: Waarom huil je?\nB: De film was zo triest!",
-     exampleSrc:"A: Why are you crying?\nB: The movie was so sad!",
+     example:"A: Waarom huil je?\nB: Ik ben verdrietig.",
+     exampleSrc:"A: Why are you crying?\nB: I am sad.",
      funFact:"Also used for howling wind: 'De wind huilt'. Expressive word."},
 
     {type:"teach", trg:"gooien", src:"to throw", pos:"verb", gender:null,
