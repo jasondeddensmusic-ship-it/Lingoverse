@@ -102,7 +102,7 @@ const LESSON_12 = {
      funFact:"Dutch etiquette is unique. Birthday parties involve going around the room to congratulate every person. The greeting 'drie zoenen' (three kisses on the cheek) is standard in some regions."},
     {type:"teach", trg:"het enthousiasme", src:"the enthusiasm", pos:"noun", gender:"n",
      note:"A het-word. From Greek 'enthousiasmos'.\n'Vol enthousiasme' = full of enthusiasm.",
-     example:"A: Haar enthousiasme werkt aanstekelijk.\nB: Iedereen wordt er vrolijk van.\nA: Ze straalt energie uit.\nB: Dat is een talent op zich.",
+     example:"A: Haar enthousiasme werkt aanstekelijk.\nB: Iedereen wordt er blij van.\nA: Ze straalt energie uit.\nB: Dat is een talent op zich.",
      exampleSrc:"A: Her enthusiasm is contagious.\nB: Everyone becomes happy from it.\nA: She radiates energy.\nB: That is a talent in itself.",
      funFact:"'Enthousiasme' comes from Greek 'entheos' (possessed by a god). The Dutch value enthusiasm but also modesty. Too much 'enthousiasme' can be seen as 'overdreven' (exaggerated)."},
     {type:"tip", title:"Dutch Social Issue Vocabulary",
