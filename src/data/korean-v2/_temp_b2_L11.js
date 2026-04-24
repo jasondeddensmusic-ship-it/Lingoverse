@@ -108,8 +108,8 @@ const LESSON_11 = {
 
     {type:"teach", trg:"\uACF5\uD1B5\uC810", src:"common point; similarity", pos:"noun", gender:null,
      note:"Sino-Korean: commonality (共通) + point (點).",
-     example:"A: \uB450 \uC0AC\uB78C\uC758 \uACF5\uD1B5\uC810\uC774 \uBB50\uC608\uC694?\nB: \uB458 \uB2E4 \uC74C\uC545\uC744 \uC88B\uC544\uD574\uC694.\nA: \uACF5\uD1B5\uC810\uC774 \uB9CE\uC73C\uBA74 \uCE5C\uD574\uC838\uC694.\nB: \uB9DE\uC544\uC694, \uACF5\uD1B5\uC810\uC774 \uC6B0\uC815\uC758 \uAE30\uCD08\uC8E0.",
-     exampleSrc:"A: What are the common points between the two?\nB: They both like music.\nA: Having many common points brings closeness.\nB: That is right, common points are the basis of friendship.",
+     example:"A: \uB450 \uC0AC\uB78C\uC758 \uACF5\uD1B5\uC810\uC774 \uBB50\uC608\uC694?\nB: \uB458 \uB2E4 \uC74C\uC545\uC744 \uC88B\uC544\uD574\uC694.\nA: \uACF5\uD1B5\uC810\uC774 \uB9CE\uC73C\uBA74 \uC88B\uC544\uC694.\nB: \uB9DE\uC544\uC694, \uACF5\uD1B5\uC810\uC774 \uC6B0\uC815\uC758 \uAE30\uCD08\uC8E0.",
+     exampleSrc:"A: What are the common points between the two?\nB: They both like music.\nA: Having many common points is good.\nB: That is right, common points are the basis of friendship.",
      funFact:"공통점 and 차이점 (differences) are the standard essay pair for comparison. TOPIK writing prompts love asking about these."},
 
     {type:"teach", trg:"\uAD00\uACC4\uB418\uB2E4", src:"to be related; to be connected to", pos:"verb", gender:null,

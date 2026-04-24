@@ -131,8 +131,8 @@ const LESSON_11 = {
 
     {type:"teach", trg:"물질", src:"matter, substance, material", pos:"noun", gender:null,
      note:"Sino-Korean. 物 (thing) + 質 (quality/substance).\nPhysical matter or chemical substance.",
-     example:"A: 이 물질은 인체에 해로워요.\nB: 취급할 때 장갑을 끼세요.",
-     exampleSrc:"A: This substance is harmful to the body.\nB: Wear gloves when handling it.",
+     example:"A: 이 물질은 인체에 해로워요.\nB: 만질 때 장갑을 끼세요.",
+     exampleSrc:"A: This substance is harmful to the body.\nB: Wear gloves when touching it.",
      funFact:"From Hanja 物質. 유해 물질 (harmful substance), 영양 물질 (nutrients), 화학 물질 (chemical substance)."},
 
     {type:"teach", trg:"물질적", src:"material, materialistic (as modifier)", pos:"noun", gender:null,

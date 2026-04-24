@@ -22,7 +22,7 @@ const LESSON_3 = {
 
     {type:"teach", trg:"부친", src:"father (formal)", pos:"noun", gender:null,
      note:"Sino-Korean. 父 (father) + 親 (parent).\nFormal term for one's father.",
-     example:"A: 부친께서는 건강하시죠?\nB: 네, 감사합니다. 잘 계십니다.",
+     example:"A: 부친께서는 건강하시죠?\nB: 네, 감사합니다. 잘 지내세요.",
      exampleSrc:"A: Is your father in good health?\nB: Yes, thank you. He is doing well.",
      funFact:"Korean has many words for 'father' at different formality levels: 아빠 (casual), 아버지 (standard), 부친 (formal/written)."},
 

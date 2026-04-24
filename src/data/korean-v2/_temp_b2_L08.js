@@ -71,8 +71,8 @@ const LESSON_8 = {
 
     {type:"teach", trg:"\uAD50\uC721\uC790", src:"educator; education professional", pos:"noun", gender:null,
      note:"Sino-Korean: education (教育) + person (者).",
-     example:"A: \uD6CC\uB96D\uD55C \uAD50\uC721\uC790\uAC00 \uB418\uACE0 \uC2F6\uC5B4\uC694.\nB: \uAD50\uC721\uC5D0 \uB300\uD55C \uC5F4\uC815\uC774 \uB290\uAEF4\uC838\uC694.\nA: \uAD50\uC721\uC790\uB294 \uC0AC\uD68C\uC5D0 \uD070 \uC601\uD5A5\uC744 \uBBCC\uCE58\uC8E0.\nB: \uB9DE\uC544\uC694, \uC874\uACBD\uBC1B\uB294 \uC9C1\uC5C5\uC774\uC5D0\uC694.",
-     exampleSrc:"A: I want to become an excellent educator.\nB: I can feel your passion for education.\nA: Educators have a great impact on society.\nB: That is right, it is a respected profession.",
+     example:"A: \uD6CC\uB96D\uD55C \uAD50\uC721\uC790\uAC00 \uB418\uACE0 \uC2F6\uC5B4\uC694.\nB: \uAD50\uC721\uC5D0 \uB300\uD55C \uC5F4\uC815\uC774 \uB290\uAEF4\uC838\uC694.\nA: \uAD50\uC721\uC790\uB294 \uC0AC\uD68C\uC5D0 \uC911\uC694\uD574\uC694.\nB: \uB9DE\uC544\uC694, \uC874\uACBD\uBC1B\uB294 \uC9C1\uC5C5\uC774\uC5D0\uC694.",
+     exampleSrc:"A: I want to become an excellent educator.\nB: I can feel your passion for education.\nA: Educators are important for society.\nB: That is right, it is a respected profession.",
      funFact:"교육자 implies a broader role than 교사 (teacher). An 교육자 shapes educational philosophy and policy, not just classroom teaching."},
 
     {type:"fb",

@@ -64,8 +64,8 @@ const LESSON_15 = {
 
     {type:"teach", trg:"발목", src:"ankle", pos:"noun", gender:null,
      note:"발 (foot) + 목 (neck/joint).\nThe joint connecting foot to leg.",
-     example:"A: 운동하다가 발목을 삐었어.\nB: 얼음으로 찜질해야 해.",
-     exampleSrc:"A: I sprained my ankle while exercising.\nB: You should ice it.",
+     example:"A: 운동하다가 발목을 다쳤어.\nB: 얼음을 대야 해.",
+     exampleSrc:"A: I hurt my ankle while exercising.\nB: You should put ice on it.",
      funFact:"발목을 잡다 (to grab someone's ankle) idiomatically means to hold someone back or hinder them."},
 
     {type:"teach", trg:"발바닥", src:"sole of the foot", pos:"noun", gender:null,
@@ -137,7 +137,7 @@ const LESSON_15 = {
 
     {type:"teach", trg:"밤", src:"night; chestnut", pos:"noun", gender:null,
      note:"Native Korean word with two meanings.\n밤 (night) and 밤 (chestnut).",
-     example:"A: 밤에 산책하는 걸 ��아해.\nB: 시원하고 조용해서 좋지.",
+     example:"A: 밤에 산책하는 걸 좋아해.\nB: 시원하고 조용해서 좋지.",
      exampleSrc:"A: I like taking walks at night.\nB: It is nice because it is cool and quiet.",
      funFact:"밤 as chestnut: 군밤 (roasted chestnuts) is a beloved Korean winter street snack, sold from carts."},
 

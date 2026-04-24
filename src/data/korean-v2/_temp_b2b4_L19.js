@@ -76,7 +76,7 @@ const LESSON_19 = {
 
     {type:"teach", trg:"병실", src:"hospital room, ward", pos:"noun", gender:null,
      note:"Sino-Korean. 病 (illness) + 室 (room).\nA room in a hospital for patients.",
-     example:"A: 할머니가 3층 병실에 계셔요.\nB: 면회 시간이 언제예요?",
+     example:"A: 할머니가 3층 병실에 있어요.\nB: 면회 시간이 언제예요?",
      exampleSrc:"A: Grandmother is in a room on the 3rd floor.\nB: When are visiting hours?",
      funFact:"From Hanja 病室. 1인실 (single room), 2인실 (double room), 다인실 (multi-bed ward) are common hospital room types."},
 

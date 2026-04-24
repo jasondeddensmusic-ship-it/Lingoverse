@@ -119,8 +119,8 @@ const LESSON_7 = {
 
     {type:"teach", trg:"메우다", src:"to fill in, to patch up", pos:"verb", gender:null,
      note:"Native Korean verb.\nTo fill a gap or hole.",
-     example:"A: 벽에 난 구멍을 메워야 해.\nB: 시멘트로 메우면 되겠다.",
-     exampleSrc:"A: We need to fill the hole in the wall.\nB: We can fill it with cement.",
+     example:"A: 벽에 난 구멍을 메워야 해.\nB: 시멘트로 메우자.",
+     exampleSrc:"A: We need to fill the hole in the wall.\nB: Let's fill it with cement.",
      funFact:"Used figuratively too: 부족한 부분을 메우다 (fill in the lacking parts), 공백을 메우다 (fill a gap)."},
 
     {type:"mc",

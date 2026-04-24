@@ -76,8 +76,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"밥솥", src:"rice cooker", pos:"noun", gender:null,
      note:"밥 (rice) + 솥 (pot/kettle).\nA pot or device for cooking rice.",
-     example:"A: 전기 밥솥을 새로 샀어요.\nB: 어떤 브랜드요?",
-     exampleSrc:"A: I bought a new electric rice cooker.\nB: What brand?",
+     example:"A: 전기 밥솥을 새로 샀어요.\nB: 어떤 회사요?",
+     exampleSrc:"A: I bought a new electric rice cooker.\nB: What company?",
      funFact:"Korean 전기 밥솥 (electric rice cookers) are advanced tech products. Premium models cost hundreds of dollars."},
 
     {type:"fb",
@@ -113,8 +113,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"방식", src:"method, way, format", pos:"noun", gender:null,
      note:"Sino-Korean. 方 (direction) + 式 (form).\nA way of doing something.",
-     example:"A: 새로운 방식으로 해 봅시다.\nB: 좋아요, ���존 방식은 효과가 없었으니까요.",
-     exampleSrc:"A: Let us try a new method.\nB: Good, since the existing method was not effective.",
+     example:"A: 새로운 방식으로 해 봅시다.\nB: 좋아요, 다른 방식이 필요해요.",
+     exampleSrc:"A: Let us try a new method.\nB: Good, we need a different method.",
      funFact:"From Hanja 方式. 생활 방식 (lifestyle), 결제 방식 (payment method), 교육 방식 (teaching method)."},
 
     {type:"teach", trg:"방안", src:"inside a room; plan, solution", pos:"noun", gender:null,
