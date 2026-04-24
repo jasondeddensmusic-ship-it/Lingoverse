@@ -202,13 +202,13 @@ const UNIT_6 =
 {id:"kou6l6b",title:"옷 (Clothing)",icon:"👔",xp:20,board:true,steps:[
   {type:"intro",title:"Korean Clothing Vocabulary",desc:"셔츠, 모자, 양말, 가방...\n\nKorean uses DIFFERENT verbs for wearing different items!\n입다: clothes\n신다: shoes/socks\n쓰다: hats\n끼다: gloves/rings",goals:["Learn 15+ clothing items","Use the correct 'wear' verb for each","Describe what people are wearing"]},
   {type:"tip",title:"Five 'Wear' Verbs",text:"입다: clothes on torso (shirts, pants, dresses)\n신다: footwear (shoes, socks, boots)\n쓰다: headwear (hats, caps, glasses)\n끼다: hand items (gloves, rings)\n하다: accessories (ties, scarves, earrings)\n\nThis lesson teaches clothing items AND which verb goes with each.",deepDive:{title:"Why Five Verbs?",text:"Korean cares about WHERE on the body:\nTorso = 입다\nFeet = 신다\nHead = 쓰다\nHands = 끼다\nAccessories = 하다\n\nEnglish just says 'wear' for everything."}},
-  {type:"teach",kind:"word",nl:"셔츠",en:"shirt",pos:"noun",gender:null,funFact:"Use 입다 (torso verb).",phonetic:"syeo-cheu",example:"A: 오늘 뭐 입어요? B: 하얀 셔츠를 입어요.",exampleEn:"A: What are you wearing today? B: I'm wearing a white shirt.",note:"셔츠: shirt (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"셔츠",en:"shirt",pos:"noun",gender:null,funFact:"Shirt. English loanword. Worn on torso, so use 입다 (the torso verb). Korean has specific wearing verbs per body zone: 입다 (torso), 쓰다 (head), 신다 (feet), 하다 (accessories).",phonetic:"syeo-cheu",example:"A: 오늘 뭐 입어요? B: 하얀 셔츠를 입어요.",exampleEn:"A: What are you wearing today? B: I'm wearing a white shirt.",note:"셔츠: shirt (from English).\nUse 입다 (torso verb)."},
   {type:"teach",kind:"word",nl:"모자",en:"hat / cap",pos:"noun",gender:null,funFact:"Use 쓰다 (head verb).",phonetic:"mo-ja",example:"A: 밖에 해가 강해요. B: 모자를 쓰세요!",exampleEn:"A: The sun is strong outside. B: Wear a hat!",note:"모자: hat/cap.\nUse 쓰다 (head verb).\n\n쓰다 has THREE meanings:\n1. to write\n2. to use\n3. to wear (on head)"},
   {type:"teach",kind:"word",nl:"양말",en:"socks",pos:"noun",gender:null,funFact:"From hanja: 洋 (ocean) + 末 (end).",phonetic:"yang-mal",example:"A: 양말을 신었어요? B: 네, 하얀 양말을 신었어요.",exampleEn:"A: Did you put on socks? B: Yes, I put on white socks.",note:"양말: socks.\nUse 신다 (feet verb)."},
-  {type:"teach",kind:"word",nl:"코트",en:"coat",pos:"noun",gender:null,funFact:"Use 입다 (torso verb).",phonetic:"ko-teu",example:"A: 밖에 추워요. B: 코트를 입으세요.",exampleEn:"A: It's cold outside. B: Put on a coat.",note:"코트: coat (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"코트",en:"coat",pos:"noun",gender:null,funFact:"Coat. English loanword. Torso-wearing, uses 입다. Korean winter fashion vocabulary is heavily English: 코트, 패딩 (padded jacket), 머플러 (scarf).",phonetic:"ko-teu",example:"A: 밖에 추워요. B: 코트를 입으세요.",exampleEn:"A: It's cold outside. B: Put on a coat.",note:"코트: coat (from English).\nUse 입다 (torso verb)."},
   {type:"mc",q:"모자를 ___요.\n(I wear a hat.)",opts:["써","쓸","입어","신어"],ans:"써",hint:"Hat goes on your head. Head verb = 쓰다 → 써요"},
-  {type:"teach",kind:"word",nl:"재킷",en:"jacket",pos:"noun",gender:null,funFact:"Use 입다 (torso verb).",phonetic:"jae-kit",example:"A: 재킷 색깔이 예뻐요! B: 감사합니다. 새 재킷이에요.",exampleEn:"A: Your jacket color is pretty! B: Thank you. It's a new jacket.",note:"재킷: jacket (from English).\nUse 입다 (torso verb)."},
-  {type:"teach",kind:"word",nl:"스웨터",en:"sweater",pos:"noun",gender:null,funFact:"Use 입다 (torso verb).",phonetic:"seu-we-teo",example:"A: 오늘 좀 쌀쌀해요. B: 스웨터를 입으세요.",exampleEn:"A: It's a bit chilly today. B: Wear a sweater.",note:"스웨터: sweater (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"재킷",en:"jacket",pos:"noun",gender:null,funFact:"Jacket. English loanword. Torso-wearing (input), uses 입다. Related: 자켓 (alt spelling), 카디건 (cardigan).",phonetic:"jae-kit",example:"A: 재킷 색깔이 예뻐요! B: 감사합니다. 새 재킷이에요.",exampleEn:"A: Your jacket color is pretty! B: Thank you. It's a new jacket.",note:"재킷: jacket (from English).\nUse 입다 (torso verb)."},
+  {type:"teach",kind:"word",nl:"스웨터",en:"sweater",pos:"noun",gender:null,funFact:"Sweater. English loanword. Uses 입다. Fashion loanwords common for Western-style garments; native Korean terms more common for traditional (한복, 저고리).",phonetic:"seu-we-teo",example:"A: 오늘 좀 쌀쌀해요. B: 스웨터를 입으세요.",exampleEn:"A: It's a bit chilly today. B: Wear a sweater.",note:"스웨터: sweater (from English).\nUse 입다 (torso verb)."},
   {type:"teach",kind:"word",nl:"원피스",en:"dress",pos:"noun",gender:null,funFact:"Loanword from English \"dress.\" Korean adapted it using Hangul phonetics.",phonetic:"won-pi-seu",example:"A: 원피스를 입었어요? B: 네, 파란 원피스예요.",exampleEn:"A: Are you wearing a dress? B: Yes, it's a blue dress.",note:"원피스: dress (from English 'one-piece').\nUse 입다 (torso verb)."},
   {type:"mc",q:"양말을 ___요.\n(I put on socks.)",opts:["입어","신어","써","끼"],ans:"신어",hint:"Put on footwear using the verb specifically for items worn on the feet."},
   {type:"teach",kind:"word",nl:"목도리",en:"scarf / muffler",pos:"noun",gender:null,funFact:"Use 하다 (accessory verb).",phonetic:"mok-do-ri",example:"A: 목도리를 해요? B: 네, 겨울에 항상 해요.",exampleEn:"A: Do you wear a scarf? B: Yes, I always wear one in winter.",note:"목도리: scarf/muffler.\n목(neck) + 도리(wrap).\nUse 하다 (accessory verb)."},
@@ -234,7 +234,7 @@ const UNIT_6 =
   {type:"intro",title:"Expanding Your Wardrobe Vocabulary",desc:"바지, 티셔츠, 청바지...\n\nMore clothing items, including Konglish words and native Korean words.",goals:["Learn 8 more clothing items","Spot Konglish (English loan) words","Use the correct wear verbs from the previous lesson","Describe outfits"]},
   {type:"tip",title:"Konglish vs Native Korean Clothing Words",text:"Many Korean clothing words come from English:\n\n티셔츠 (T-shirt) from 'T-shirt'\n부츠 (boots) from 'boots'\n벨트 (belt) from 'belt'\n\nBut key items are native Korean:\n바지: pants (pure Korean)\n청바지: jeans (청 blue + 바지 pants)\n정장: formal suit (Sino-Korean)\n\nKonglish words use Korean pronunciation rules.",deepDive:{title:"How Konglish Works",text:"English sounds are adapted to Korean syllable rules:\n\nboot → 부츠 (bu-cheu)\nbelt → 벨트 (bel-teu)\nT-shirt → 티셔츠 (ti-syeo-cheu)\n\nKorean syllables always end in a consonant or vowel.\nNo consonant clusters like 'lts' in 'belts'.\nSo extra vowels are added: 벨트 (bel-teu)."}},
   {type:"teach",kind:"word",nl:"바지",en:"pants / trousers",pos:"noun",gender:null,funFact:"Use 입다 (torso/body verb).",phonetic:"ba-ji",example:"A: 오늘 뭐 입어요? B: 검은 바지를 입어요.",exampleEn:"A: What are you wearing today? B: I'm wearing black pants.",note:"바지: pants (pure Korean).\nUse 입다 (torso/body verb).\n검은 바지 = black pants."},
-  {type:"teach",kind:"word",nl:"티셔츠",en:"T-shirt",pos:"noun",gender:null,funFact:"Use 입다 (torso verb).",phonetic:"ti-syeo-cheu",example:"A: 여름에 뭐 입어요? B: 보통 티셔츠를 입어요.",exampleEn:"A: What do you wear in summer? B: I usually wear T-shirts.",note:"티셔츠: T-shirt (Konglish).\nUse 입다 (torso verb).\n하얀 티셔츠 = white T-shirt."},
+  {type:"teach",kind:"word",nl:"티셔츠",en:"T-shirt",pos:"noun",gender:null,funFact:"T-shirt. English loanword. The T is written in hangul as 티. Casual attire. Uses 입다 (torso verb).",phonetic:"ti-syeo-cheu",example:"A: 여름에 뭐 입어요? B: 보통 티셔츠를 입어요.",exampleEn:"A: What do you wear in summer? B: I usually wear T-shirts.",note:"티셔츠: T-shirt (Konglish).\nUse 입다 (torso verb).\n하얀 티셔츠 = white T-shirt."},
   {type:"teach",kind:"word",nl:"청바지",en:"jeans",pos:"noun",gender:null,funFact:"Sino-Korean compound: 청(blue) + 바지(pants)",phonetic:"cheong-ba-ji",example:"A: 청바지를 자주 입어요? B: 네, 매일 입어요!",exampleEn:"A: Do you wear jeans often? B: Yes, I wear them every day!",note:"청바지: jeans.\nCOMPOUND: 청(blue) + 바지(pants).\nBlue pants = jeans."},
   {type:"mc",q:"청바지 = 청 + 바지. 청 means:",opts:["blue","cloth","long","cotton"],ans:"blue",hint:"청 is a Sino-Korean character meaning …/green. … + pants = jeans."},
   {type:"teach",kind:"word",nl:"반바지",en:"shorts",pos:"noun",gender:null,funFact:"Sino-Korean compound: 반(half) + 바지(pants)",phonetic:"ban-ba-ji",example:"A: 여름에 반바지를 입어요? B: 네, 더울 때 반바지를 입어요.",exampleEn:"A: Do you wear shorts in summer? B: Yes, I wear shorts when it's hot.",note:"반바지: shorts.\nCOMPOUND: 반(half) + 바지(pants).\nHalf-pants = shorts."},
@@ -307,7 +307,7 @@ const UNIT_6 =
   {type:"intro",title:"The Final A1 Toolkit",desc:"못 / -지만\n→ can't / but\n\nFour connectors and frequency adverbs.",goals:["Distinguish 안 (won't) vs 못 (can't)","Use -지만 for contrast","Connect sentences with 그래서/그런데/그러면/아니면","Use frequency adverbs naturally"]},
 
   // ── 못 ──
-  {type:"teach",kind:"word",nl:"못",en:"can't (inability)",pos:"adv",gender:null,phonetic:"mot",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"못",en:"can't (inability)",pos:"adv",gender:null,phonetic:"mot",funFact:"'Can't' (inability). Pre-verb adverb. 못 가요 (can't go). Grammaticalizes inability vs 안 (choice). Same distinction as Romance-language 'pouvoir' vs modal rejection.",
    example:"A: 수영해요? B: 아니요, 수영을 못해요.",exampleEn:"A: Do you swim? B: No, I can't swim.",
    note:"못 goes before the verb.\n\n못 가요\n→ can't go\n\n못 먹어요\n→ can't eat\n\n못 자요\n→ can't sleep"},
 
@@ -328,12 +328,12 @@ const UNIT_6 =
   {type:"fb",s:"저는 운전을 ___해요.\n(I can't drive  -  not capable)",a:"못",opts:["못","안","별로","전혀"],hint:"Inability = 못"},
 
   // ── -지 못하다 ──
-  {type:"teach",kind:"grammar",nl:"-지 못하다",en:"cannot (formal long form)",pos:"part",gender:null,phonetic:"-ji mot-ha-da",funFact:"Korean has two negation systems: pre-verb 안 and post-verb -지 않다. Both are used daily.",
+  {type:"teach",kind:"grammar",nl:"-지 못하다",en:"cannot (formal long form)",pos:"part",gender:null,phonetic:"-ji mot-ha-da",funFact:"'Cannot' (formal long form). Inability negation, longer form. 가지 못해요 (cannot go). Vs short 못 가요. The long form is more formal and written-oriented.",
    example:"A: 운전해요? B: 아니요, 운전하지 못해요.",exampleEn:"A: Do you drive? B: No, I cannot drive.",
    note:"COMPOUND: -지 (verb connector) + 못하다 (cannot do).\nLiterally: 'verb-and-cannot'\n\n수영을 못해요 = 수영하지 못해요\n→ Both mean: can't swim\n→ -지 못하다 is slightly more formal",deepDive:{title:"못 vs -지 못하다",text:"못 가요 = can't go (short, spoken).\n가지 못해요 = cannot go (long, written/formal).\n\nBoth express inability. Choose by register:\nCasual speech: 못 + verb.\nFormal/written: verb + -지 못하다."}},
 
   // ── -지만 ──
-  {type:"teach",kind:"word",nl:"-지만",en:"but / however",pos:"conj",gender:null,phonetic:"-ji-man",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"-지만",en:"but / however",pos:"conj",gender:null,phonetic:"-ji-man",funFact:"'But / however.' Contrast ending attached to verb stem. 바쁘지만 가요 (I'm busy but I'll go). Soft-contrast within the same sentence.",
    example:"A: 한국어가 어려워요? B: 어렵지만 재미있어요.",exampleEn:"A: Is Korean difficult? B: It's difficult, but interesting.",
    note:"COMPOUND: stem + 지만 (but/however).\n\n어렵다 → 어렵지만\n→ (to be) difficult → but difficult\n\n가다 → 가지만\n→ to go → but going\n\n비싸다 → 비싸지만\n→ (to be) expensive → but expensive"},
 
@@ -344,7 +344,7 @@ const UNIT_6 =
   {type:"fb",s:"한국어는 어렵___ 재미있어요.\n(Korean is difficult ___ interesting.)",a:"지만",opts:["지만","고","서","는데"],hint:"-... attaches to the first verb stem"},
 
   // ── 그래서 ──
-  {type:"teach",kind:"word",nl:"그래서",en:"so / therefore",pos:"conj",gender:null,phonetic:"geu-rae-seo",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"그래서",en:"so / therefore",pos:"conj",gender:null,phonetic:"geu-rae-seo",funFact:"'So / therefore.' Sentence-initial connector. 비가 왔어요. 그래서 집에 있었어요 (It rained. So I stayed home). Result-marker at the start of the consequent clause.",
    example:"A: 왜 집에 있어요? B: 피곤해요. 그래서 쉬어요.",exampleEn:"A: Why are you at home? B: I'm tired. So I'm resting.",
    note:"Connects two sentences: reason → result.\n그래서 starts the SECOND sentence.\n\n배가 고파요. 그래서 밥을 먹었어요.\n→ I'm hungry. So I ate."},
 
@@ -360,7 +360,7 @@ const UNIT_6 =
   {type:"mc",q:"그런데 means:",opts:["so","because","then","but"],ans:"but",hint:"A connector that introduces contrast or changes topic."},
 
   // ── 아니면 ──
-  {type:"teach",kind:"word",nl:"아니면",en:"or / otherwise",pos:"conj",gender:null,phonetic:"a-ni-myeon",funFact:"Used frequently in everyday Korean conversation. Practice it in context for natural recall.",
+  {type:"teach",kind:"word",nl:"아니면",en:"or / otherwise",pos:"conj",gender:null,phonetic:"a-ni-myeon",funFact:"'Or / otherwise.' Connector for alternatives. 커피, 아니면 차 (coffee, or tea). Also: 'if not, then.' Essential for giving options.",
    example:"A: 커피 아니면 차? B: 커피 주세요.",exampleEn:"A: Coffee or tea? B: Coffee, please.",
    note:"COMPOUND: 아니다 (not be) + (으)면 (if-condition).\nLiterally: 'if it is not (that)'\n\n커피 아니면 차\n→ coffee or tea\n\n여기 아니면 거기\n→ here or there"},
 
