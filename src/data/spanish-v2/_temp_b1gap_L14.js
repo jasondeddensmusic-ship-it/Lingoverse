@@ -12,7 +12,7 @@ const LESSON_14 = {
      exampleSrc:"A: The Aztec culture was very advanced.\nB: Yes, they had a very precise calendar.",
      funFact:"From Nahuatl 'aztecatl' (person from Aztlan). The Aztecs called themselves 'Mexica', which gave Mexico its name."},
 
-    {type:"teach", trg:"aborigen", src:"aboriginal, indigenous", pos:"noun", gender:null,
+    {type:"teach", trg:"aborigen", src:"aboriginal, indigenous", pos:"adj", gender:null,
      note:"Noun/adjective. Common gender: el/la aborigen.\nOriginal inhabitants of a land.",
      example:"A: Los abor\u00edgenes australianos tienen una cultura milenaria.\nB: Es fascinante.",
      exampleSrc:"A: The Australian aborigines have an ancient culture.\nB: It is fascinating.",
