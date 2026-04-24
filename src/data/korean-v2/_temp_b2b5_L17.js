@@ -79,11 +79,11 @@ const LESSON_17 = {
      note:"Sino-Korean. 小兒 (child) + 科 (department).\nMedical department for children.",
      example:"A: 아이가 아프면 소아과에 가야 해.\nB: 근처에 좋은 소아과 있어?",
      exampleSrc:"A: When a child is sick, you should go to pediatrics.\nB: Is there a good pediatric clinic nearby?",
-     funFact:"Korea's declining birth rate has led to many 소아�� clinics closing, a sign of the demographic crisis."},
+     funFact:"Korea's declining birth rate has led to many 소아과 clinics closing, a sign of the demographic crisis."},
 
     {type:"teach", trg:"소요되다", src:"to be required (time/cost)", pos:"verb", gender:null,
      note:"Sino-Korean. 所要 (requirement) + 되다.\nTime or resources being needed.",
-     example:"A: 서울에서 부산까지 몇 시간 소요돼?\nB: KTX로 약 2시간 30분 소��돼.",
+     example:"A: 서울에서 부산까지 몇 시간 소요돼?\nB: KTX로 약 2시간 30분 소요돼.",
      exampleSrc:"A: How many hours does it take from Seoul to Busan?\nB: It takes about 2 hours 30 minutes by KTX.",
      funFact:"소요 시간 (required time) and 소요 비용 (required cost) are formal phrases common in official guides."},
 

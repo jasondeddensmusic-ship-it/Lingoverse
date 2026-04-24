@@ -71,7 +71,7 @@ const LESSON_15 = {
 
     {type:"teach", trg:"성립하다", src:"to be established, to hold true", pos:"verb", gender:null,
      note:"성립 + 하다.\nActive form: something holding true or being valid.",
-     example:"A: 이 이론�� 성립하려면 증거가 필요해.\nB: 실험을 더 해 봐야겠다.",
+     example:"A: 이 이론이 성립하려면 증거가 필요해.\nB: 실험을 더 해 봐야겠다.",
      exampleSrc:"A: For this theory to hold, we need evidence.\nB: We should do more experiments.",
      funFact:"In math: 등식이 성립하다 (an equation holds true). In law: 범죄가 성립하다 (a crime is constituted)."},
 

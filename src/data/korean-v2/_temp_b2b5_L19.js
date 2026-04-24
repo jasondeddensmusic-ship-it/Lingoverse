@@ -71,7 +71,7 @@ const LESSON_19 = {
 
     {type:"teach", trg:"손질", src:"trimming, grooming, preparation", pos:"noun", gender:null,
      note:"손 (hand) + 질 (action).\nThe act of preparing or grooming with hands.",
-     example:"A: 생선 손질을 잘 ��야 맛있어.\nB: 비늘부터 제거하자.",
+     example:"A: 생선 손질을 잘 해야 맛있어.\nB: 비늘부터 제거하자.",
      exampleSrc:"A: Fish needs to be prepared well to taste good.\nB: Let's start by removing the scales.",
      funFact:"손질 is used for food prep (생선 손질), plant care (정원 손질), and grooming (머리 손질)."},
 
@@ -119,7 +119,7 @@ const LESSON_19 = {
 
     {type:"teach", trg:"송아지", src:"calf (young cow)", pos:"noun", gender:null,
      note:"Native Korean word.\nA baby cow.",
-     example:"A: 송아지가 태어났��!\nB: 건강한 거야?",
+     example:"A: 송아지가 태어났어!\nB: 건강한 거야?",
      exampleSrc:"A: A calf was born!\nB: Is it healthy?",
      funFact:"Korean proverb: 송아지 엉덩이에 쥐 (a mouse on a calf's rear) means something tiny and insignificant."},
 
@@ -142,7 +142,7 @@ const LESSON_19 = {
      funFact:"쇠 appears in many compounds: 쇠고기 (beef, literally 'iron meat'), 쇠사슬 (iron chain), 쇠퇴 (decline)."},
 
     {type:"fb",
-     s:"추석 때 가��과 함께 {1}을 만들었다.",
+     s:"추석 때 가족과 함께 {1}을 만들었다.",
      a:["송편"],
      opts:["송편","솜사탕","소시지","설렁탕"],
      hint:"Which traditional rice cake is made during Chuseok, steamed on pine needles in a half-moon shape?",

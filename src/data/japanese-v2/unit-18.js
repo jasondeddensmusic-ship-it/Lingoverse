@@ -124,7 +124,7 @@ const UNIT_18 = {
 
   {type:"teach", trg:"飲(の)まされる", src:"to be made to drink (short form)", pos:"verb", gender:null,
    note:"Short causative-passive of 飲(の)む. Group 1: 飲(の)む → 飲(の)まされる.\nOften describes being pressured to drink alcohol.",
-   example:"A: 飲(の)み会(かい)でたくさん飲(の)まされました。\nB: 大丈夫(だいじ��うぶ)ですか？\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
+   example:"A: 飲(の)み会(かい)でたくさん飲(の)まされました。\nB: 大丈夫(だいじょうぶ)ですか？\nA: 何(なに)が一番(いちばん)良(よ)かったですか？\nB: 食(た)べ物(もの)が一番(いちばん)おいしかったです。",
    exampleSrc:"A: I was made to drink a lot at the drinking party.\nB: Are you okay?\nA: What was the best part?\nB: The food was the most delicious.",
    funFact:"飲まされる is a culturally loaded word. Japanese nomikai (drinking parties) have a strong social pressure to drink. Superiors pouring drinks for juniors creates an obligation to accept. The causative-passive perfectly captures this 'I had no choice but to drink' feeling."},
 

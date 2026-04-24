@@ -34,7 +34,7 @@ const LESSON_15 = {id:"esv2_b2g3_l15", title:"Verbos: exceso y despilfarro", ico
 
   {type:"mc", q:"¿Qué es el 'desfase horario'?", opts:["Un error en el calendario","El jet lag, desajuste entre el cuerpo y la zona horaria","Un reloj que va mal","Una diferencia de opinión"], ans:"El jet lag, desajuste entre el cuerpo y la zona horaria", hint:"When your body's internal clock doesn't match the time zone you're in after a long flight."},
 
-  {type:"match", pairs:[{trg:"despilfarrar", src:"to squander"},{trg:"desfase", src:"gap / disconnect"},{trg:"desconcierto", src:"bewilderment"},{trg:"descort��s", src:"rude"},{trg:"duradero", src:"lasting"}]},
+  {type:"match", pairs:[{trg:"despilfarrar", src:"to squander"},{trg:"desfase", src:"gap / disconnect"},{trg:"desconcierto", src:"bewilderment"},{trg:"descortés", src:"rude"},{trg:"duradero", src:"lasting"}]},
 
   {type:"fb", s:"Su comentario fue bastante {1}, debería disculparse.", a:["descortés"], opts:["descortés","duradero","desfavorable","despilfarrador"], hint:"Lacking basic politeness and manners. Courtly behaviour removed.", sSrc:"His comment was quite {1}, he should apologize."},
 

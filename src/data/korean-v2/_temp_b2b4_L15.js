@@ -76,7 +76,7 @@ const LESSON_15 = {
 
     {type:"teach", trg:"발음하다", src:"to pronounce", pos:"verb", gender:null,
      note:"Sino-Korean. 發 (emit) + 音 (sound) + 하다.\nTo produce speech sounds.",
-     example:"A: 이 단어를 어떻��� 발음해요?\nB: 천천히 따라 해 보세요.",
+     example:"A: 이 단어를 어떻게 발음해요?\nB: 천천히 따라 해 보세요.",
      exampleSrc:"A: How do you pronounce this word?\nB: Try repeating it slowly.",
      funFact:"From Hanja 發音. 발음 is a constant concern for Korean learners. Korean pronunciation rules (음운 규칙) are complex."},
 

@@ -24,7 +24,7 @@ export const FUNCTION_WORDS_KO = [
   { word: "을", lemma: "을/를", en: "object marker", pos: "particle_obj", tags: ["after_consonant"] },
   { word: "를", lemma: "을/를", en: "object marker", pos: "particle_obj", tags: ["after_vowel"] },
 
-  // ═════════════════════════════════════════════════════��═════════════
+  // ══════════════════════════════════════════════════════════════════
   // PARTICLES — Possessive
   // ═══════════════════════════════════════════════════════════════════
   { word: "의", lemma: "의", en: "possessive marker ('s/of)", pos: "particle_poss", tags: [] },
