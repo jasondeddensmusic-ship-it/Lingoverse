@@ -33,7 +33,7 @@ const UNIT_05 = {
           note: "Adverb for the present moment.",
           example: "A: Você quer comer agora?\nB: Sim, eu quero comer agora.",
           exampleSrc: "A: Do you want to eat now?\nB: Yes, I want to eat now.",
-          funFact: "From Latin hac hora (at this hour)."},
+          funFact: "Now. From Latin 'hac hora' (at this hour). Spanish 'ahora' shares the origin. Contrast: antes (before), depois (after)."},
 
         {type: "mc", q: "Which word means 'today'?",
           opts: ["ontem", "amanhã", "agora", "hoje"], ans: "hoje",
