@@ -6,14 +6,14 @@ const LESSON_19 = {
      desc:"Learn to write short informal letters and casual KakaoTalk messages in Korean. Essential for texting friends and casual email.",
      goals:["Open a letter or message casually","Use common body phrases like 'I miss you' and 'long time no see'","Close with an appropriate farewell"]},
 
-    // ── Teach 1: 또 봐요 (NEW – not taught before) ──
+    // ── Teach 1: 또 봐요 (NEW; not taught before) ──
     {type:"teach", trg:"또 봐요", src:"see you again (casual-polite)", pos:"intj", gender:null,
      note:"Casual-polite goodbye. Literally: 'see again.'\n또 = again. 봐요 = polite present of 보다.\nCasual form: 또 봐.",
      example:"A: 벌써 가요?\nB: 네, 이제 가야 해요. 또 봐요!",
      exampleSrc:"A: You're leaving already?\nB: Yes, I have to go now. See you!",
      funFact:"Koreans often use 또 봐요 at the end of messages and letters. The full form is 또 만나요 (let's meet again), but 또 봐요 is more natural in casual speech and texting."},
 
-    // ── Teach 2: 잘 있어요 (NEW – not taught before) ──
+    // ── Teach 2: 잘 있어요 (NEW; not taught before) ──
     {type:"teach", trg:"잘 있어요", src:"take care, stay well (casual-polite)", pos:"intj", gender:null,
      note:"Farewell phrase. Literally: 'be well.'\n잘 = well. 있어요 = polite form of 있다.\nCasual form: 잘 있어.",
      example:"A: 건강 잘 챙겨요!\nB: 고마워요. 언니도 잘 있어요!",
