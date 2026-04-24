@@ -97,8 +97,8 @@ const LESSON_2 = {
      funFact:"In Dutch, 'collaboratie' almost exclusively refers to wartime cooperation with an enemy. For positive teamwork, Dutch uses 'samenwerking'. Never mix them up."},
     {type:"teach", trg:"burgerlijk", src:"civil, bourgeois", pos:"adj", gender:null,
      note:"From 'burger' (citizen). Double meaning:\n1. Legal: 'burgerlijk recht' = civil law.\n2. Social: conventional, middle-class.",
-     example:"A: Ze trouwden voor de burgerlijke stand.\nB: Geen kerkelijk huwelijk?\nA: Nee, ze zijn niet gelovig.\nB: In Nederland is dat heel normaal.",
-     exampleSrc:"A: They married at the civil registry.\nB: No church wedding?\nA: No, they are not religious.\nB: In the Netherlands that is very normal.",
+     example:"A: Ze trouwden voor de burgerlijke stand.\nB: Geen kerkelijk huwelijk?\nA: Nee, ze hielden het klein.\nB: In Nederland is dat heel normaal.",
+     exampleSrc:"A: They married at the civil registry.\nB: No church wedding?\nA: No, they kept it small.\nB: In the Netherlands that is very normal.",
      funFact:"The 'burgerlijke stand' (civil registry) has existed in the Netherlands since 1811, introduced by Napoleon. All births, marriages, and deaths must be registered there."},
     {type:"match", pairs:[
       {trg:"celstraf", src:"prison sentence"},
