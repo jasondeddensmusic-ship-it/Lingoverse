@@ -973,11 +973,11 @@ export const FOUNDATIONS_BY_LANG = {
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㄴ+",color:"#2ECDAB",cells:[{ch:"나",rom:"na"},{ch:"너",rom:"neo"},{ch:"노",rom:"no"},{ch:"누",rom:"nu"},{ch:"느",rom:"neu"},{ch:"니",rom:"ni"}]},
         ]}},
-      {fk:"fk_syllabary",title:"ㅁ (m)",desc:"A square shape. Combined with 6 core vowels: 마 머 모 무 므 미. Watch out: ㅁ (square) and ㅇ (circle) are both 'boxy'  -  look at the corners.",
+      {fk:"fk_syllabary",title:"ㅁ (m)",desc:"A square shape. Combined with 6 core vowels: 마 머 모 무 므 미. Watch out: ㅁ (square) and ㅇ (circle) are both 'boxy'. look at the corners.",
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㅁ+",color:"#F5A623",cells:[{ch:"마",rom:"ma"},{ch:"머",rom:"meo"},{ch:"모",rom:"mo"},{ch:"무",rom:"mu"},{ch:"므",rom:"meu"},{ch:"미",rom:"mi"}]},
         ]}},
-      {fk:"fk_syllabary",title:"ㅅ (s)",desc:"A hat/tent shape. Combined with 6 core vowels: 사 서 소 수 스 시. Note: 시 sounds closer to 'shi' than 'si'  -  learn the Korean sound, not the romanization.",
+      {fk:"fk_syllabary",title:"ㅅ (s)",desc:"A hat/tent shape. Combined with 6 core vowels: 사 서 소 수 스 시. Note: 시 sounds closer to 'shi' than 'si'. learn the Korean sound, not the romanization.",
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㅅ+",color:"#E85D75",cells:[{ch:"사",rom:"sa"},{ch:"서",rom:"seo"},{ch:"소",rom:"so"},{ch:"수",rom:"su"},{ch:"스",rom:"seu"},{ch:"시",rom:"si"}]},
         ]}},
@@ -991,15 +991,15 @@ export const FOUNDATIONS_BY_LANG = {
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㄷ+",color:"#4A8FE7",cells:[{ch:"다",rom:"da"},{ch:"더",rom:"deo"},{ch:"도",rom:"do"},{ch:"두",rom:"du"},{ch:"드",rom:"deu"},{ch:"디",rom:"di"}]},
         ]}},
-      {fk:"fk_syllabary",title:"ㅂ (b/p)",desc:"Combined with 6 core vowels: 바 버 보 부 브 비. Watch out: ㅂ vs ㅁ  -  both look 'boxy' but ㅂ has vertical lines extending down.",
+      {fk:"fk_syllabary",title:"ㅂ (b/p)",desc:"Combined with 6 core vowels: 바 버 보 부 브 비. Watch out: ㅂ vs ㅁ. both look 'boxy' but ㅂ has vertical lines extending down.",
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㅂ+",color:"#2ECDAB",cells:[{ch:"바",rom:"ba"},{ch:"버",rom:"beo"},{ch:"보",rom:"bo"},{ch:"부",rom:"bu"},{ch:"브",rom:"beu"},{ch:"비",rom:"bi"}]},
         ]}},
-      {fk:"fk_syllabary",title:"ㅈ (j)",desc:"Combined with 6 core vowels: 자 저 조 주 즈 지. Watch out: ㅈ vs ㅅ  -  ㅈ has an extra horizontal stroke on top of the ㅅ shape.",
+      {fk:"fk_syllabary",title:"ㅈ (j)",desc:"Combined with 6 core vowels: 자 저 조 주 즈 지. Watch out: ㅈ vs ㅅ. ㅈ has an extra horizontal stroke on top of the ㅅ shape.",
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㅈ+",color:"#F5A623",cells:[{ch:"자",rom:"ja"},{ch:"저",rom:"jeo"},{ch:"조",rom:"jo"},{ch:"주",rom:"ju"},{ch:"즈",rom:"jeu"},{ch:"지",rom:"ji"}]},
         ]}},
-      {fk:"fk_syllabary",title:"ㅎ (h)",desc:"Combined with 6 core vowels: 하 허 호 후 흐 히. ㅎ is distinctive  -  aim for one clean syllable, don't over-aspirate.",
+      {fk:"fk_syllabary",title:"ㅎ (h)",desc:"Combined with 6 core vowels: 하 허 호 후 흐 히. ㅎ is distinctive. aim for one clean syllable, don't over-aspirate.",
         grid:{cols:6,headers:["a","eo","o","u","eu","i"],rows:[
           {label:"ㅎ+",color:"#E85D75",cells:[{ch:"하",rom:"ha"},{ch:"허",rom:"heo"},{ch:"호",rom:"ho"},{ch:"후",rom:"hu"},{ch:"흐",rom:"heu"},{ch:"히",rom:"hi"}]},
         ]}},
@@ -1174,7 +1174,7 @@ export const FOUNDATIONS_BY_LANG = {
     // TIPS — Consolidated from phases (Manifesto P12: tips in one place)
     // ══════════════════════════════════════════════════════════════════
     {id:"ko_tips",title:"⚠️ Common Mistakes & Tips",icon:"💡",desc:"Collected pitfalls from each learning phase — reference when stuck",items:[
-      {fk:"fk_syllabary",title:"Blocks ≠ single letters",desc:"Each block is ASSEMBLED from parts. □ = one syllable, □□ = two syllables (not two letters). Don't treat 한 as one symbol  -  it's ㅎ + ㅏ + ㄴ.",
+      {fk:"fk_syllabary",title:"Blocks ≠ single letters",desc:"Each block is ASSEMBLED from parts. □ = one syllable, □□ = two syllables (not two letters). Don't treat 한 as one symbol. it's ㅎ + ㅏ + ㄴ.",
         grid:{cols:3,headers:["✗ Wrong","✓ Right","Why"],rows:[
           {label:"Reading",color:"#E85D75",cells:[{ch:"한 = 1 symbol",rom:"picture-reading"},{ch:"한 = ㅎ+ㅏ+ㄴ",rom:"decode parts"},{ch:"Blocks have slots",rom:"always decompose"}]},
           {label:"Boundary",color:"#F5A623",cells:[{ch:"한글 = 1 unit",rom:"blending across"},{ch:"한 + 글 = 2 blocks",rom:"each □ = 1 syllable"},{ch:"Square = boundary",rom:"never blend"}]},
@@ -2980,7 +2980,7 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"Dots in Arabic letters are:",opts:["Optional decoration","Part of the letter identity","Only for beginners","Added later"],ans:"Part of the letter identity"},
         ]},
         {id:"ar_fp_s1_l4",title:"The 6 Breakers",icon:"✂️",xp:20,steps:[
-          {type:"intro",title:"Six letters that break the chain",desc:"Most Arabic letters connect on both sides. But 6 letters (called breakers) ONLY connect to the letter before them  -  never to the letter after. The next letter has to restart.",goals:["Know there are 6 breaker letters","Understand they only connect backwards"]},
+          {type:"intro",title:"Six letters that break the chain",desc:"Most Arabic letters connect on both sides. But 6 letters (called breakers) ONLY connect to the letter before them. never to the letter after. The next letter has to restart.",goals:["Know there are 6 breaker letters","Understand they only connect backwards"]},
           {type:"mc",q:"Most Arabic letters connect on:",opts:["Only the right","Only the left","Both sides","Neither side"],ans:"Both sides"},
           {type:"mc",q:"How many 'breaker' letters exist in Arabic?",opts:["2","4","6","10"],ans:"6"},
           {type:"mc",q:"A breaker letter connects to:",opts:["Both neighbors","Only the letter before it","Only the letter after it","No letters at all"],ans:"Only the letter before it"},
@@ -2990,7 +2990,7 @@ export const FK_PLAYTHROUGH = {
     // ════════════════ STAGE 2: First Letters ════════════════
     {id:"ar_fp_s2",title:"Stage 2: First Letters",desc:"Learn your first Arabic letters — one at a time, sound first.",icon:"ب",lessons:[
         {id:"ar_fp_s2_l1",title:"The Teeth Family",icon:"ب",xp:15,steps:[
-          {type:"intro",title:"Three shapes, one base",desc:"These three letters all look the same  -  only the dots are different. Learn the sound each one makes.",goals:["Learn the sounds ba, ta, tha","Tell them apart by their dots"]},
+          {type:"intro",title:"Three shapes, one base",desc:"These three letters all look the same. only the dots are different. Learn the sound each one makes.",goals:["Learn the sounds ba, ta, tha","Tell them apart by their dots"]},
           {type:"teach",kind:"letter",nl:"ب",en:"ba",phonetic:"ba",example:"Like 'b' in 'boy'",exampleEn:"1 dot below the teeth shape",note:"This is one of the most common Arabic letters.",forms:[{pos:"Isolated",glyph:"ب"},{pos:"Initial",glyph:"بـ"},{pos:"Medial",glyph:"ـبـ"},{pos:"Final",glyph:"ـب"}]},
           {type:"teach",kind:"letter",nl:"ت",en:"ta",phonetic:"ta",example:"Like 't' in 'tea'",exampleEn:"2 dots above the teeth shape",note:"Same shape as ba, but with 2 dots above.",forms:[{pos:"Isolated",glyph:"ت"},{pos:"Initial",glyph:"تـ"},{pos:"Medial",glyph:"ـتـ"},{pos:"Final",glyph:"ـت"}]},
           {type:"teach",kind:"letter",nl:"ث",en:"tha",phonetic:"tha",example:"Like 'th' in 'think'",exampleEn:"3 dots above the teeth shape",note:"Same shape again, but with 3 dots above.",forms:[{pos:"Isolated",glyph:"ث"},{pos:"Initial",glyph:"ثـ"},{pos:"Medial",glyph:"ـثـ"},{pos:"Final",glyph:"ـث"}]},
@@ -3000,25 +3000,25 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"These three letters all share:",opts:["The same base shape","The same dots","The same sound","Nothing"],ans:"The same base shape"},
         ]},
         {id:"ar_fp_s2_l2",title:"Three New Shapes",icon:"ن",xp:15,steps:[
-          {type:"intro",title:"A bowl, a tail, and a tall line",desc:"These three letters each have a unique shape. One of them is special  -  it breaks the chain.",goals:["Learn the sounds nun, ya, alif","Know that alif is a breaker"]},
-          {type:"teach",kind:"letter",nl:"ن",en:"nun",phonetic:"n",example:"Like 'n' in 'noon'",exampleEn:"Bowl shape with 1 dot above",note:"Don't confuse with ba  -  nun's dot is ABOVE a bowl, ba's dot is BELOW a teeth shape.",forms:[{pos:"Isolated",glyph:"ن"},{pos:"Initial",glyph:"نـ"},{pos:"Medial",glyph:"ـنـ"},{pos:"Final",glyph:"ـن"}]},
+          {type:"intro",title:"A bowl, a tail, and a tall line",desc:"These three letters each have a unique shape. One of them is special. it breaks the chain.",goals:["Learn the sounds nun, ya, alif","Know that alif is a breaker"]},
+          {type:"teach",kind:"letter",nl:"ن",en:"nun",phonetic:"n",example:"Like 'n' in 'noon'",exampleEn:"Bowl shape with 1 dot above",note:"Don't confuse with ba. nun's dot is ABOVE a bowl, ba's dot is BELOW a teeth shape.",forms:[{pos:"Isolated",glyph:"ن"},{pos:"Initial",glyph:"نـ"},{pos:"Medial",glyph:"ـنـ"},{pos:"Final",glyph:"ـن"}]},
           {type:"teach",kind:"letter",nl:"ي",en:"ya",phonetic:"y",example:"Like 'y' in 'yes'",exampleEn:"2 dots below",note:"Also used as the long 'ee' vowel sound.",forms:[{pos:"Isolated",glyph:"ي"},{pos:"Initial",glyph:"يـ"},{pos:"Medial",glyph:"ـيـ"},{pos:"Final",glyph:"ـي"}]},
-          {type:"teach",kind:"letter",nl:"ا",en:"alif",phonetic:"aa / glottal stop",example:"A tall vertical line",exampleEn:"No dots  -  this is a BREAKER letter",note:"Alif never connects forward. It is one of the 6 breaker letters.",forms:[{pos:"Isolated",glyph:"ا"},{pos:"Final",glyph:"ـا"}],formNote:"Only 2 forms  -  breakers never connect to the next letter."},
+          {type:"teach",kind:"letter",nl:"ا",en:"alif",phonetic:"aa / glottal stop",example:"A tall vertical line",exampleEn:"No dots. this is a BREAKER letter",note:"Alif never connects forward. It is one of the 6 breaker letters.",forms:[{pos:"Isolated",glyph:"ا"},{pos:"Final",glyph:"ـا"}],formNote:"Only 2 forms. breakers never connect to the next letter."},
           {type:"mc",q:"What sound does this letter make?  ن",opts:["n","b","y","m"],ans:"n"},
           {type:"mc",q:"What sound does this letter make?  ي",opts:["n","w","y","l"],ans:"y"},
           {type:"mc",q:"This letter is a breaker:  ا",opts:["True","False"],ans:"True"},
           {type:"mc",q:"How many forms does alif have?",opts:["2","3","4","1"],ans:"2"},
         ]},
         {id:"ar_fp_s2_l3",title:"Lam",icon:"ل",xp:15,steps:[
-          {type:"intro",title:"The most common connector",desc:"Lam appears in almost every Arabic sentence. It is part of the word for 'the'  -  the most frequent word in Arabic.",goals:["Learn the sound lam","See all 4 forms","Know it appears in 'the'"]},
-          {type:"teach",kind:"letter",nl:"ل",en:"lam",phonetic:"l",example:"Like 'l' in 'lamp'",exampleEn:"Tall curved stroke  -  connects both sides",note:"Part of ال (al = 'the'). You will see this letter everywhere.",forms:[{pos:"Isolated",glyph:"ل"},{pos:"Initial",glyph:"لـ"},{pos:"Medial",glyph:"ـلـ"},{pos:"Final",glyph:"ـل"}]},
+          {type:"intro",title:"The most common connector",desc:"Lam appears in almost every Arabic sentence. It is part of the word for 'the'. the most frequent word in Arabic.",goals:["Learn the sound lam","See all 4 forms","Know it appears in 'the'"]},
+          {type:"teach",kind:"letter",nl:"ل",en:"lam",phonetic:"l",example:"Like 'l' in 'lamp'",exampleEn:"Tall curved stroke. connects both sides",note:"Part of ال (al = 'the'). You will see this letter everywhere.",forms:[{pos:"Isolated",glyph:"ل"},{pos:"Initial",glyph:"لـ"},{pos:"Medial",glyph:"ـلـ"},{pos:"Final",glyph:"ـل"}]},
           {type:"mc",q:"What sound does this letter make?  ل",opts:["l","m","n","r"],ans:"l"},
           {type:"mc",q:"This letter connects on:",opts:["Both sides","Only the right","Only the left","Neither side"],ans:"Both sides"},
           {type:"mc",q:"Which common Arabic word contains lam?",opts:["ال (the)","في (in)","من (from)","لا (no)"],ans:"ال (the)"},
         ]},
         {id:"ar_fp_s2_l4",title:"Mim",icon:"م",xp:15,steps:[
           {type:"intro",title:"The round loop",desc:"Mim is a small round shape. Like lam, it connects on both sides and appears very frequently.",goals:["Learn the sound mim","See all 4 forms","Distinguish mim from nun"]},
-          {type:"teach",kind:"letter",nl:"م",en:"mim",phonetic:"m",example:"Like 'm' in 'moon'",exampleEn:"Small round loop  -  connects both sides",note:"Don't confuse with nun. Mim has no dots. Nun has 1 dot above.",forms:[{pos:"Isolated",glyph:"م"},{pos:"Initial",glyph:"مـ"},{pos:"Medial",glyph:"ـمـ"},{pos:"Final",glyph:"ـم"}]},
+          {type:"teach",kind:"letter",nl:"م",en:"mim",phonetic:"m",example:"Like 'm' in 'moon'",exampleEn:"Small round loop. connects both sides",note:"Don't confuse with nun. Mim has no dots. Nun has 1 dot above.",forms:[{pos:"Isolated",glyph:"م"},{pos:"Initial",glyph:"مـ"},{pos:"Medial",glyph:"ـمـ"},{pos:"Final",glyph:"ـم"}]},
           {type:"mc",q:"What sound does this letter make?  م",opts:["m","n","l","b"],ans:"m"},
           {type:"mc",q:"How is mim different from nun?",opts:["Mim has no dots","Mim has 1 dot","Mim has 2 dots","They are identical"],ans:"Mim has no dots"},
           {type:"mc",q:"This letter connects on:",opts:["Both sides","Only the right","Only the left","Neither side"],ans:"Both sides"},
@@ -3027,10 +3027,10 @@ export const FK_PLAYTHROUGH = {
     // ════════════════ STAGE 3: More Letters ════════════════
     {id:"ar_fp_s3",title:"Stage 3: More Letters",desc:"Learn the remaining Arabic letters — breakers, families, and unique sounds.",icon:"د",lessons:[
         {id:"ar_fp_s3_l1",title:"The 6 Breakers",icon:"د",xp:20,steps:[
-          {type:"intro",title:"Letters that break the chain",desc:"You already know alif and waw are breakers. Here are the other four. All 6 breakers only connect to the letter before them  -  never forward.",goals:["Meet all 6 breakers","Learn dal, dhal, ra, zay, waw","Know breakers only have 2 forms"]},
-          {type:"teach",kind:"letter",nl:"د",en:"dal",phonetic:"d",example:"Like 'd' in 'door'",exampleEn:"Small angular hook  -  no dots",note:"Breaker: only connects to the letter before it. 2 forms only.",forms:[{pos:"Isolated",glyph:"د"},{pos:"Final",glyph:"ـد"}],formNote:"Breakers only have isolated and final forms."},
+          {type:"intro",title:"Letters that break the chain",desc:"You already know alif and waw are breakers. Here are the other four. All 6 breakers only connect to the letter before them. never forward.",goals:["Meet all 6 breakers","Learn dal, dhal, ra, zay, waw","Know breakers only have 2 forms"]},
+          {type:"teach",kind:"letter",nl:"د",en:"dal",phonetic:"d",example:"Like 'd' in 'door'",exampleEn:"Small angular hook. no dots",note:"Breaker: only connects to the letter before it. 2 forms only.",forms:[{pos:"Isolated",glyph:"د"},{pos:"Final",glyph:"ـد"}],formNote:"Breakers only have isolated and final forms."},
           {type:"teach",kind:"letter",nl:"ذ",en:"dhal",phonetic:"dh",example:"Like 'th' in 'this'",exampleEn:"Same hook as dal + 1 dot above",note:"Same shape as dal, but with a dot above. Also a breaker.",forms:[{pos:"Isolated",glyph:"ذ"},{pos:"Final",glyph:"ـذ"}]},
-          {type:"teach",kind:"letter",nl:"ر",en:"ra",phonetic:"r",example:"Rolled 'r' sound",exampleEn:"Small downward swoop  -  no dots",note:"Breaker. Different shape from dal  -  ra swoops down smoothly.",forms:[{pos:"Isolated",glyph:"ر"},{pos:"Final",glyph:"ـر"}]},
+          {type:"teach",kind:"letter",nl:"ر",en:"ra",phonetic:"r",example:"Rolled 'r' sound",exampleEn:"Small downward swoop. no dots",note:"Breaker. Different shape from dal. ra swoops down smoothly.",forms:[{pos:"Isolated",glyph:"ر"},{pos:"Final",glyph:"ـر"}]},
           {type:"teach",kind:"letter",nl:"ز",en:"zay",phonetic:"z",example:"Like 'z' in 'zoo'",exampleEn:"Same swoop as ra + 1 dot above",note:"Same shape as ra, but with a dot above. Also a breaker.",forms:[{pos:"Isolated",glyph:"ز"},{pos:"Final",glyph:"ـز"}]},
           {type:"teach",kind:"letter",nl:"و",en:"waw",phonetic:"w / oo",example:"Like 'w' in 'wow' or long 'oo'",exampleEn:"Round hook shape",note:"Breaker. Also doubles as the long vowel 'oo'.",forms:[{pos:"Isolated",glyph:"و"},{pos:"Final",glyph:"ـو"}]},
           {type:"mc",q:"What sound does this letter make?  د",opts:["d","r","z","dh"],ans:"d"},
@@ -3042,7 +3042,7 @@ export const FK_PLAYTHROUGH = {
         ]},
         {id:"ar_fp_s3_l2",title:"Sin, Shin, and Kaf",icon:"س",xp:15,steps:[
           {type:"intro",title:"Teeth rows and a new connector",desc:"Sin and shin look like a row of 3 small teeth. Kaf is a new shape that connects on both sides.",goals:["Learn sin, shin, kaf","Tell sin and shin apart by dots"]},
-          {type:"teach",kind:"letter",nl:"س",en:"sin",phonetic:"s",example:"Like 's' in 'sun'",exampleEn:"3 small teeth in a row  -  no dots",note:"Looks like a zigzag or 3 small bumps.",forms:[{pos:"Isolated",glyph:"س"},{pos:"Initial",glyph:"سـ"},{pos:"Medial",glyph:"ـسـ"},{pos:"Final",glyph:"ـس"}]},
+          {type:"teach",kind:"letter",nl:"س",en:"sin",phonetic:"s",example:"Like 's' in 'sun'",exampleEn:"3 small teeth in a row. no dots",note:"Looks like a zigzag or 3 small bumps.",forms:[{pos:"Isolated",glyph:"س"},{pos:"Initial",glyph:"سـ"},{pos:"Medial",glyph:"ـسـ"},{pos:"Final",glyph:"ـس"}]},
           {type:"teach",kind:"letter",nl:"ش",en:"shin",phonetic:"sh",example:"Like 'sh' in 'ship'",exampleEn:"Same 3 teeth + 3 dots above",note:"Same base as sin but with 3 dots above.",forms:[{pos:"Isolated",glyph:"ش"},{pos:"Initial",glyph:"شـ"},{pos:"Medial",glyph:"ـشـ"},{pos:"Final",glyph:"ـش"}]},
           {type:"teach",kind:"letter",nl:"ك",en:"kaf",phonetic:"k",example:"Like 'k' in 'kite'",exampleEn:"Connects both sides",note:"A tall letter with a small stroke inside.",forms:[{pos:"Isolated",glyph:"ك"},{pos:"Initial",glyph:"كـ"},{pos:"Medial",glyph:"ـكـ"},{pos:"Final",glyph:"ـك"}]},
           {type:"mc",q:"What sound does this letter make?  س",opts:["s","sh","z","th"],ans:"s"},
@@ -3051,9 +3051,9 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"Sin and shin share the same base shape. How do you tell them apart?",opts:["Shin has 3 dots above","Sin has dots","They look identical","Different base shape"],ans:"Shin has 3 dots above"},
         ]},
         {id:"ar_fp_s3_l3",title:"The Bowl Family",icon:"ج",xp:15,steps:[
-          {type:"intro",title:"Three letters, one bowl shape",desc:"Jim, breathy ha, and kha all share a bowl shape. Only the dots differ  -  just like the teeth family.",goals:["Learn jim, ha, kha","Tell them apart by dot placement"]},
+          {type:"intro",title:"Three letters, one bowl shape",desc:"Jim, breathy ha, and kha all share a bowl shape. Only the dots differ. just like the teeth family.",goals:["Learn jim, ha, kha","Tell them apart by dot placement"]},
           {type:"teach",kind:"letter",nl:"ج",en:"jim",phonetic:"j",example:"Like 'j' in 'jump'",exampleEn:"Bowl shape + 1 dot below",note:"The dot is BELOW the bowl.",forms:[{pos:"Isolated",glyph:"ج"},{pos:"Initial",glyph:"جـ"},{pos:"Medial",glyph:"ـجـ"},{pos:"Final",glyph:"ـج"}]},
-          {type:"teach",kind:"letter",nl:"ح",en:"breathy ha",phonetic:"breathy h",example:"A breathy 'h' from the throat  -  no English equivalent",exampleEn:"Bowl shape  -  NO dots",note:"The only bowl-family letter with no dots at all.",forms:[{pos:"Isolated",glyph:"ح"},{pos:"Initial",glyph:"حـ"},{pos:"Medial",glyph:"ـحـ"},{pos:"Final",glyph:"ـح"}]},
+          {type:"teach",kind:"letter",nl:"ح",en:"breathy ha",phonetic:"breathy h",example:"A breathy 'h' from the throat. no English equivalent",exampleEn:"Bowl shape. NO dots",note:"The only bowl-family letter with no dots at all.",forms:[{pos:"Isolated",glyph:"ح"},{pos:"Initial",glyph:"حـ"},{pos:"Medial",glyph:"ـحـ"},{pos:"Final",glyph:"ـح"}]},
           {type:"teach",kind:"letter",nl:"خ",en:"kha",phonetic:"kh",example:"Like the 'ch' in Scottish 'loch'",exampleEn:"Bowl shape + 1 dot above",note:"Same bowl as breathy ha, but with a dot ABOVE.",forms:[{pos:"Isolated",glyph:"خ"},{pos:"Initial",glyph:"خـ"},{pos:"Medial",glyph:"ـخـ"},{pos:"Final",glyph:"ـخ"}]},
           {type:"mc",q:"What sound does this letter make?  ج",opts:["j","breathy h","kh","g"],ans:"j"},
           {type:"mc",q:"What sound does this letter make?  ح",opts:["j","breathy h","kh","regular h"],ans:"breathy h"},
@@ -3061,9 +3061,9 @@ export const FK_PLAYTHROUGH = {
         ]},
         {id:"ar_fp_s3_l4",title:"The Heavy Letters",icon:"ص",xp:20,steps:[
           {type:"intro",title:"Four emphatic sounds unique to Arabic",desc:"These letters have heavier, deeper sounds than their light counterparts. Two pairs: flat base and tall loop.",goals:["Learn sad, dad, heavy ta, heavy dha","Know these are the emphatic letters"]},
-          {type:"teach",kind:"letter",nl:"ص",en:"to be sad",phonetic:"heavy s",example:"A heavier, deeper 's' sound",exampleEn:"Heavy flat base  -  no dots",note:"The heavy version of sin.",forms:[{pos:"Isolated",glyph:"ص"},{pos:"Initial",glyph:"صـ"},{pos:"Medial",glyph:"ـصـ"},{pos:"Final",glyph:"ـص"}]},
+          {type:"teach",kind:"letter",nl:"ص",en:"to be sad",phonetic:"heavy s",example:"A heavier, deeper 's' sound",exampleEn:"Heavy flat base. no dots",note:"The heavy version of sin.",forms:[{pos:"Isolated",glyph:"ص"},{pos:"Initial",glyph:"صـ"},{pos:"Medial",glyph:"ـصـ"},{pos:"Final",glyph:"ـص"}]},
           {type:"teach",kind:"letter",nl:"ض",en:"dad",phonetic:"heavy d",example:"A heavier, deeper 'd' sound",exampleEn:"Same flat base + 1 dot above",note:"Arabic is sometimes called 'the language of dad' because this sound is unique to it.",forms:[{pos:"Isolated",glyph:"ض"},{pos:"Initial",glyph:"ضـ"},{pos:"Medial",glyph:"ـضـ"},{pos:"Final",glyph:"ـض"}]},
-          {type:"teach",kind:"letter",nl:"ط",en:"heavy ta",phonetic:"heavy t",example:"A heavier, deeper 't' sound",exampleEn:"Tall loop shape  -  no dots",note:"The heavy version of regular ta.",forms:[{pos:"Isolated",glyph:"ط"},{pos:"Initial",glyph:"طـ"},{pos:"Medial",glyph:"ـطـ"},{pos:"Final",glyph:"ـط"}]},
+          {type:"teach",kind:"letter",nl:"ط",en:"heavy ta",phonetic:"heavy t",example:"A heavier, deeper 't' sound",exampleEn:"Tall loop shape. no dots",note:"The heavy version of regular ta.",forms:[{pos:"Isolated",glyph:"ط"},{pos:"Initial",glyph:"طـ"},{pos:"Medial",glyph:"ـطـ"},{pos:"Final",glyph:"ـط"}]},
           {type:"teach",kind:"letter",nl:"ظ",en:"heavy dha",phonetic:"heavy dh",example:"A heavier, deeper 'th' sound",exampleEn:"Same tall loop + 1 dot above",note:"The heavy version of dhal.",forms:[{pos:"Isolated",glyph:"ظ"},{pos:"Initial",glyph:"ظـ"},{pos:"Medial",glyph:"ـظـ"},{pos:"Final",glyph:"ـظ"}]},
           {type:"mc",q:"What sound does this letter make?  ص",opts:["heavy s","heavy d","heavy t","heavy dh"],ans:"heavy s"},
           {type:"mc",q:"What sound does this letter make?  ض",opts:["heavy s","heavy d","heavy t","heavy dh"],ans:"heavy d"},
@@ -3072,17 +3072,17 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"Which letter is unique to Arabic?",opts:["sad","dad","heavy ta","heavy dha"],ans:"dad"},
         ]},
         {id:"ar_fp_s3_l5",title:"Ha, Ayn, and Ghayn",icon:"ع",xp:15,steps:[
-          {type:"intro",title:"The shape-shifter and the throat letters",desc:"Ha changes shape dramatically. Ayn and ghayn are throat sounds  -  ayn has no English equivalent.",goals:["Learn ha, ayn, ghayn","Know ayn is a throat squeeze"]},
+          {type:"intro",title:"The shape-shifter and the throat letters",desc:"Ha changes shape dramatically. Ayn and ghayn are throat sounds. ayn has no English equivalent.",goals:["Learn ha, ayn, ghayn","Know ayn is a throat squeeze"]},
           {type:"teach",kind:"letter",nl:"ه",en:"ha",phonetic:"h",example:"Like 'h' in 'hat'",exampleEn:"Changes shape a lot in different positions",note:"Not the same as breathy ha. This is a regular 'h' but its shape changes a lot.",forms:[{pos:"Isolated",glyph:"ه"},{pos:"Initial",glyph:"هـ"},{pos:"Medial",glyph:"ـهـ"},{pos:"Final",glyph:"ـه"}]},
-          {type:"teach",kind:"letter",nl:"ع",en:"ayn",phonetic:"throat squeeze",example:"A squeezed throat sound  -  no English equivalent",exampleEn:"Open loop shape  -  no dots",note:"One of the most important Arabic sounds. Made by tightening the throat.",forms:[{pos:"Isolated",glyph:"ع"},{pos:"Initial",glyph:"عـ"},{pos:"Medial",glyph:"ـعـ"},{pos:"Final",glyph:"ـع"}]},
-          {type:"teach",kind:"letter",nl:"غ",en:"ghayn",phonetic:"gh",example:"Like gargling  -  a guttural 'g'",exampleEn:"Same loop as ayn + 1 dot above",note:"Same shape as ayn but with a dot above.",forms:[{pos:"Isolated",glyph:"غ"},{pos:"Initial",glyph:"غـ"},{pos:"Medial",glyph:"ـغـ"},{pos:"Final",glyph:"ـغ"}]},
+          {type:"teach",kind:"letter",nl:"ع",en:"ayn",phonetic:"throat squeeze",example:"A squeezed throat sound. no English equivalent",exampleEn:"Open loop shape. no dots",note:"One of the most important Arabic sounds. Made by tightening the throat.",forms:[{pos:"Isolated",glyph:"ع"},{pos:"Initial",glyph:"عـ"},{pos:"Medial",glyph:"ـعـ"},{pos:"Final",glyph:"ـع"}]},
+          {type:"teach",kind:"letter",nl:"غ",en:"ghayn",phonetic:"gh",example:"Like gargling. a guttural 'g'",exampleEn:"Same loop as ayn + 1 dot above",note:"Same shape as ayn but with a dot above.",forms:[{pos:"Isolated",glyph:"غ"},{pos:"Initial",glyph:"غـ"},{pos:"Medial",glyph:"ـغـ"},{pos:"Final",glyph:"ـغ"}]},
           {type:"mc",q:"What sound does this letter make?  ه",opts:["h","breathy h","kh","ayn"],ans:"h"},
           {type:"mc",q:"What sound does this letter make?  ع",opts:["gh","h","throat squeeze","kh"],ans:"throat squeeze"},
           {type:"mc",q:"What sound does this letter make?  غ",opts:["gh","throat squeeze","h","kh"],ans:"gh"},
           {type:"mc",q:"Ayn and ghayn share the same shape. How do you tell them apart?",opts:["Ghayn has 1 dot above","Ayn has 1 dot","Different shapes","Ghayn is bigger"],ans:"Ghayn has 1 dot above"},
         ]},
         {id:"ar_fp_s3_l6",title:"Fa and Qaf",icon:"ف",xp:15,steps:[
-          {type:"intro",title:"The cup pair  -  last two letters!",desc:"Fa and qaf both have a cup shape. Fa has 1 dot, qaf has 2. These are the last two letters!",goals:["Learn fa and qaf","Complete all 28 letters"]},
+          {type:"intro",title:"The cup pair. last two letters!",desc:"Fa and qaf both have a cup shape. Fa has 1 dot, qaf has 2. These are the last two letters!",goals:["Learn fa and qaf","Complete all 28 letters"]},
           {type:"teach",kind:"letter",nl:"ف",en:"fa",phonetic:"f",example:"Like 'f' in 'fish'",exampleEn:"Cup shape + 1 dot above",note:"A familiar sound with a simple shape.",forms:[{pos:"Isolated",glyph:"ف"},{pos:"Initial",glyph:"فـ"},{pos:"Medial",glyph:"ـفـ"},{pos:"Final",glyph:"ـف"}]},
           {type:"teach",kind:"letter",nl:"ق",en:"qaf",phonetic:"deep q",example:"A deep 'k' sound from the back of the throat",exampleEn:"Cup shape + 2 dots above",note:"Deeper than kaf. Made further back in the throat.",forms:[{pos:"Isolated",glyph:"ق"},{pos:"Initial",glyph:"قـ"},{pos:"Medial",glyph:"ـقـ"},{pos:"Final",glyph:"ـق"}]},
           {type:"mc",q:"What sound does this letter make?  ف",opts:["f","q","k","v"],ans:"f"},
@@ -3104,11 +3104,11 @@ export const FK_PLAYTHROUGH = {
           {type:"mc",q:"The short vowel mark for the 'u' sound is placed:",opts:["Below the letter","To the left","Above the letter","Inside the letter"],ans:"Above the letter"},
         ]},
         {id:"ar_fp_s4_l2",title:"Sukun & Shadda",icon:"ْ",xp:15,steps:[
-          {type:"intro",title:"Silence and doubling",desc:"Sukun (a small circle above) means NO vowel after this consonant. Shadda (a small w-shape above) means the consonant is DOUBLED  -  say it twice.",goals:["Know sukun = no vowel","Know shadda = double the consonant"]},
+          {type:"intro",title:"Silence and doubling",desc:"Sukun (a small circle above) means NO vowel after this consonant. Shadda (a small w-shape above) means the consonant is DOUBLED. say it twice.",goals:["Know sukun = no vowel","Know shadda = double the consonant"]},
           {type:"mc",q:"A small circle above a letter means:",opts:["Long vowel","No vowel after it","The letter is doubled","The letter is silent"],ans:"No vowel after it"},
           {type:"mc",q:"A small w-shape (shadda) above a letter means:",opts:["The letter is silent","Skip this letter","Say this consonant twice","It is a question mark"],ans:"Say this consonant twice"},
-          {type:"mc",q:"If you see sukun on ب, it means:",opts:["Say 'ba'","Say 'b'  -  no vowel","Say 'bu'","Skip the letter"],ans:"Say 'b'  -  no vowel"},
-          {type:"mc",q:"If you see shadda on ت, it means:",opts:["Silent t","Say 't' once","Say 'tt'  -  double the t","Say 'ta'"],ans:"Say 'tt'  -  double the t"},
+          {type:"mc",q:"If you see sukun on ب, it means:",opts:["Say 'ba'","Say 'b'. no vowel","Say 'bu'","Skip the letter"],ans:"Say 'b'. no vowel"},
+          {type:"mc",q:"If you see shadda on ت, it means:",opts:["Silent t","Say 't' once","Say 'tt'. double the t","Say 'ta'"],ans:"Say 'tt'. double the t"},
         ]},
         {id:"ar_fp_s4_l3",title:"Tanwin & Long Vowels",icon:"ً",xp:15,steps:[
           {type:"intro",title:"The -n endings and long vowels",desc:"Tanwin adds an 'n' sound to a vowel ending: -an, -un, -in. Long vowels use letters (ا for aa, و for oo, ي for ee) instead of marks.",goals:["Know tanwin = add n","Know long vowels use letters"]},
