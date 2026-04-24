@@ -111,8 +111,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"de arbeidsmigratie", src:"the labor migration", pos:"noun", gender:"c",
      note:"Common gender (de). Movement of workers across borders.",
-     example:"A: Arbeidsmigratie is een actueel onderwerp.\nB: Vooral uit Oost-Europa.",
-     exampleSrc:"A: Labor migration is a current topic.\nB: Especially from Eastern Europe.",
+     example:"A: Arbeidsmigratie is een groot onderwerp.\nB: Vooral uit Oost-Europa.",
+     exampleSrc:"A: Labor migration is a big topic.\nB: Especially from Eastern Europe.",
      funFact:"A major political topic in the Netherlands. Many workers come from Poland, Romania, and Bulgaria."},
 
     {type:"teach", trg:"de arbeidsongeschiktheid", src:"the disability (work)", pos:"noun", gender:"c",
