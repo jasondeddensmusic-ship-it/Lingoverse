@@ -38,8 +38,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"de kinderrechter", src:"the juvenile court judge", pos:"noun", gender:"c",
      note:"Common gender (de). Kinder (children's) + rechter (judge).\nA judge specialising in youth cases.",
-     example:"A: De kinderrechter heeft een beslissing genomen.\nB: Wat gebeurt er met het kind?\nA: Het komt onder toezicht te staan.\nB: Van Bureau Jeugdzorg?",
-     exampleSrc:"A: The juvenile judge has made a decision.\nB: What happens to the child?\nA: It will be placed under supervision.\nB: From Youth Care Services?",
+     example:"A: De kinderrechter heeft een beslissing genomen.\nB: Wat gebeurt er met het kind?\nA: Het krijgt hulp en begeleiding.\nB: Van Bureau Jeugdzorg?",
+     exampleSrc:"A: The juvenile judge has made a decision.\nB: What happens to the child?\nA: It will get help and guidance.\nB: From Youth Care Services?",
      funFact:"Dutch juvenile law focuses on rehabilitation over punishment. Children under 12 cannot be prosecuted. Ages 12-17 fall under special youth criminal law."},
 
     {type:"teach", trg:"de kindervriend", src:"the children's friend / child lover", pos:"noun", gender:"c",

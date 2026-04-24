@@ -14,8 +14,8 @@ const LESSON_4 = {
 
     {type:"teach", trg:"de koffieplantage", src:"the coffee plantation", pos:"noun", gender:"c",
      note:"Common gender (de). Koffie (coffee) + plantage (plantation).\nHistorically linked to Dutch colonial trade.",
-     example:"A: De VOC had koffieplantages in Indonesie.\nB: Dat was een donker hoofdstuk.\nA: De arbeiders werden uitgebuit.\nB: Het is belangrijk om dat te erkennen.",
-     exampleSrc:"A: The VOC had coffee plantations in Indonesia.\nB: That was a dark chapter.\nA: The workers were exploited.\nB: It's important to acknowledge that.",
+     example:"A: De VOC had koffieplantages in Indonesie.\nB: Dat was een donker hoofdstuk.\nA: De arbeiders werkten heel zwaar voor weinig.\nB: Het is belangrijk om dat te erkennen.",
+     exampleSrc:"A: The VOC had coffee plantations in Indonesia.\nB: That was a dark chapter.\nA: The workers worked very hard for little.\nB: It's important to acknowledge that.",
      funFact:"The Dutch East India Company (VOC) introduced coffee cultivation to Java around 1700. 'Java' became synonymous with coffee in English because of this."},
 
     {type:"teach", trg:"het kolonialisme", src:"colonialism", pos:"noun", gender:"n",
@@ -50,8 +50,8 @@ const LESSON_4 = {
 
     {type:"teach", trg:"de koopmansstad", src:"the merchant city / trading city", pos:"noun", gender:"c",
      note:"Common gender (de). Koopman (merchant) + stad (city).\n'Amsterdam was de grootste koopmansstad' = Amsterdam was the greatest trading city.",
-     example:"A: Amsterdam was ooit de rijkste koopmansstad ter wereld.\nB: Door de specerijenhandel?\nA: Ja, en de scheepvaart.\nB: De grachten zijn gebouwd met dat geld.",
-     exampleSrc:"A: Amsterdam was once the richest trading city in the world.\nB: Because of the spice trade?\nA: Yes, and the shipping industry.\nB: The canals were built with that money.",
+     example:"A: Amsterdam was ooit een grote koopmansstad ter wereld.\nB: Door de specerijenhandel?\nA: Ja, en de scheepvaart.\nB: De grachten zijn gebouwd met dat geld.",
+     exampleSrc:"A: Amsterdam was once a great trading city in the world.\nB: Because of the spice trade?\nA: Yes, and the shipping industry.\nB: The canals were built with that money.",
      funFact:"Amsterdam's famous canal ring ('grachtengordel') was financed by Golden Age trade profits. It's now a UNESCO World Heritage Site."},
 
     {type:"fb",

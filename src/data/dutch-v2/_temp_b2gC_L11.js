@@ -20,8 +20,8 @@ const LESSON_11 = {
 
     {type:"teach", trg:"de klokslag", src:"the stroke of the clock / on the dot", pos:"noun", gender:"c",
      note:"Common gender (de). Klok (clock) + slag (stroke/beat).\n'Om klokslag twaalf' = at the stroke of twelve.",
-     example:"A: We beginnen om klokslag negen uur.\nB: Op de seconde?\nA: Ja, geen minuut te laat.\nB: Typisch Nederlands, altijd op tijd.",
-     exampleSrc:"A: We start at nine o'clock on the dot.\nB: To the second?\nA: Yes, not a minute late.\nB: Typically Dutch, always on time.",
+     example:"A: We beginnen om klokslag negen uur.\nB: Precies op tijd?\nA: Ja, geen minuut te laat.\nB: Typisch Nederlands, altijd op tijd.",
+     exampleSrc:"A: We start at nine o'clock on the dot.\nB: Exactly on time?\nA: Yes, not a minute late.\nB: Typically Dutch, always on time.",
      funFact:"Dutch punctuality is legendary. Being even five minutes late to a meeting is considered rude. 'Op tijd' means 'on time' and it is sacred."},
 
     {type:"teach", trg:"de handkus", src:"the hand kiss", pos:"noun", gender:"c",

@@ -44,8 +44,8 @@ const LESSON_10 = {
 
     {type:"teach", trg:"de klokslag", src:"the stroke of the clock / on the dot", pos:"noun", gender:"c",
      note:"Common gender (de). Klok (clock) + slag (stroke/beat).\n'Op de klokslag van twaalf' = on the stroke of twelve.",
-     example:"A: Op de klokslag van middernacht begon het vuurwerk.\nB: Wat een spektakel!\nA: Het hele dorp stond buiten.\nB: Oud en Nieuw is altijd speciaal.",
-     exampleSrc:"A: On the stroke of midnight the fireworks began.\nB: What a spectacle!\nA: The whole village was outside.\nB: New Year's is always special.",
+     example:"A: Op de klokslag van middernacht begon het vuurwerk.\nB: Wat een prachtig moment!\nA: Het hele dorp stond buiten.\nB: Oud en Nieuw is altijd speciaal.",
+     exampleSrc:"A: On the stroke of midnight the fireworks began.\nB: What a beautiful moment!\nA: The whole village was outside.\nB: New Year's is always special.",
      funFact:"Dutch punctuality is legendary. 'Op de klokslag' literally means 'on the stroke of the clock'. Being late to an appointment is considered disrespectful."},
 
     {type:"teach", trg:"de koortsaanval", src:"the fever attack / bout of fever", pos:"noun", gender:"c",
