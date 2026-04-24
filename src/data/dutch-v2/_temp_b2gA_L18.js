@@ -20,8 +20,8 @@ const LESSON_18 = {id:"nlv2_b2gA_l18", title:"Verbanden & Structuur", icon:"\u{1
 
   {type:"teach", trg:"de gokverslaafde", src:"gambling addict", pos:"noun", gender:"c",
    note:"Compound: gok (gamble) + verslaafde (addict).\nSomeone addicted to gambling.",
-   example:"A: De gokverslaafde verloor alles: zijn huis, zijn baan, zijn familie.\nB: Dat is een tragisch verhaal.\nA: Gokverslaving is een erkende ziekte in Nederland.\nB: Er is hulp beschikbaar via verslavingszorg.",
-   exampleSrc:"A: The gambling addict lost everything: his house, his job, his family.\nB: That's a tragic story.\nA: Gambling addiction is a recognized illness in the Netherlands.\nB: Help is available through addiction care.",
+   example:"A: De gokverslaafde verloor alles: zijn huis, zijn baan, zijn familie.\nB: Dat is een heel triest verhaal.\nA: Gokverslaving is een erkende ziekte in Nederland.\nB: Er is hulp beschikbaar via verslavingszorg.",
+   exampleSrc:"A: The gambling addict lost everything: his house, his job, his family.\nB: That's a very sad story.\nA: Gambling addiction is a recognized illness in the Netherlands.\nB: Help is available through addiction care.",
    funFact:"The Netherlands has about 80,000 gokverslaafden according to estimates. Since the legalization of online gambling in 2021, the number has been rising. The government regulates via the Kansspelautoriteit."},
 
   {type:"teach", trg:"de gokautomaat", src:"slot machine, gambling machine", pos:"noun", gender:"c",

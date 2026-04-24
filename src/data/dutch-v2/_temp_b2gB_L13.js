@@ -8,8 +8,8 @@ const LESSON_13 = {id:"nlv2_b2gB_l13", title:"Dieren en Natuur", icon:"\u{1F426}
 
 {type:"teach", trg:"de krokodil", src:"crocodile", pos:"noun", gender:"c",
  note:"Same origin as English. Not native to the Netherlands.\n'Krokodillentranen' = crocodile tears.",
- example:"A: Heb je de krokodil in de dierentuin gezien?\nB: Ja, indrukwekkend beest.\nA: Hij lag helemaal stil.\nB: Maar hij kan razendsnel bewegen.",
- exampleSrc:"A: Did you see the crocodile at the zoo?\nB: Yes, impressive animal.\nA: It was completely still.\nB: But it can move incredibly fast.",
+ example:"A: Heb je de krokodil in de dierentuin gezien?\nB: Ja, indrukwekkend om te zien.\nA: Hij lag helemaal stil.\nB: Maar hij kan razendsnel bewegen.",
+ exampleSrc:"A: Did you see the crocodile at the zoo?\nB: Yes, impressive to see.\nA: It was completely still.\nB: But it can move incredibly fast.",
  funFact:"The expression 'krokodillentranen huilen' (to cry crocodile tears) means to show fake sadness, same as in English."},
 
 {type:"teach", trg:"het kuiken", src:"chick / baby bird", pos:"noun", gender:"n",
@@ -26,8 +26,8 @@ const LESSON_13 = {id:"nlv2_b2gB_l13", title:"Dieren en Natuur", icon:"\u{1F426}
 
 {type:"teach", trg:"de klarinet", src:"clarinet", pos:"noun", gender:"c",
  note:"A woodwind instrument.\n'De klarinettist' = the clarinet player.",
- example:"A: Speel je nog klarinet?\nB: Ja, elke week repetitie bij het orkest.\nA: Leuk! Welk stuk spelen jullie nu?\nB: Mozart, een concert voor klarinet.",
- exampleSrc:"A: Do you still play clarinet?\nB: Yes, rehearsal every week with the orchestra.\nA: Nice! What piece are you playing now?\nB: Mozart, a concerto for clarinet.",
+ example:"A: Speel je nog klarinet?\nB: Ja, elke week oefenen bij het orkest.\nA: Leuk! Welk stuk spelen jullie nu?\nB: Mozart, een concert voor klarinet.",
+ exampleSrc:"A: Do you still play clarinet?\nB: Yes, practicing every week with the orchestra.\nA: Nice! What piece are you playing now?\nB: Mozart, a concerto for clarinet.",
  funFact:"The Netherlands has an exceptionally rich wind band tradition. Nearly every town has a 'harmonie' or 'fanfare' band."},
 
 {type:"teach", trg:"de klokslag", src:"stroke of the clock / on the dot", pos:"noun", gender:"c",

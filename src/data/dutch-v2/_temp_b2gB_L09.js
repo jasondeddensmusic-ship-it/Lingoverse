@@ -50,8 +50,8 @@ const LESSON_9 = {id:"nlv2_b2gB_l9", title:"Verborgen Werkwoorden", icon:"\u{1F4
 
 {type:"teach", trg:"klef", src:"clammy / clingy / sticky (informal)", pos:"adj", gender:null,
  note:"Describes both physical stickiness and overly clingy behavior.\n'Klef weer' = muggy weather.",
- example:"A: Het is klef weer vandaag.\nB: Ja, ik plak aan alles.\nA: Die film was ook een beetje klef.\nB: Te romantisch, vond je?",
- exampleSrc:"A: It's muggy weather today.\nB: Yes, I'm sticking to everything.\nA: That movie was also a bit corny.\nB: Too romantic, you think?",
+ example:"A: Het is klef weer vandaag.\nB: Ja, alles voelt nat aan.\nA: Die film was ook een beetje klef.\nB: Te romantisch, vond je?",
+ exampleSrc:"A: It's muggy weather today.\nB: Yes, everything feels wet.\nA: That movie was also a bit corny.\nB: Too romantic, you think?",
  funFact:"'Klef' is the perfect Dutch word for when something is uncomfortably sticky, whether it is the weather, bread, or a sappy movie."},
 
 {type:"mc", q:"'Knagen' verschilt van 'knabbelen' doordat het:",

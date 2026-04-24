@@ -8,8 +8,8 @@ const LESSON_15 = {id:"nlv2_b2gB_l15", title:"Handel en Ondernemen", icon:"\u{1F
 
 {type:"teach", trg:"de koopmansstad", src:"merchant city / trading city", pos:"noun", gender:"c",
  note:"Koopmans (merchant's) + stad.\nCities built on trade. Amsterdam is THE koopmansstad.",
- example:"A: Amsterdam is van oorsprong een koopmansstad.\nB: Ja, de handel zit in het DNA.\nA: De grachten zijn gebouwd voor het transport.\nB: Alles draaide om de koopman.",
- exampleSrc:"A: Amsterdam is originally a merchant city.\nB: Yes, trade is in its DNA.\nA: The canals were built for transport.\nB: Everything revolved around the merchant.",
+ example:"A: Amsterdam is van oorsprong een koopmansstad.\nB: Ja, de handel zit in het DNA.\nA: De grachten waren belangrijk voor de handel.\nB: Alles draaide om de koopman.",
+ exampleSrc:"A: Amsterdam is originally a merchant city.\nB: Yes, trade is in its DNA.\nA: The canals were important for trade.\nB: Everything revolved around the merchant.",
  funFact:"Amsterdam's canal ring was designed in the 1600s as a logistics network for merchants, with warehouses built into the canal houses."},
 
 {type:"teach", trg:"de koopmansmoraal", src:"merchant morality / trader ethics", pos:"noun", gender:"c",
