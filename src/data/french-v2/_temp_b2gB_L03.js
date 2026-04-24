@@ -11,7 +11,7 @@ const LESSON_3 = {
      exampleSrc:"A: The democratization of internet access has changed society.\nB: Everyone can get information now.",
      funFact:"France's Fifth Republic was founded in 1958 by de Gaulle. The country has had five different republican constitutions."},
 
-    {type:"teach", trg:"communiste", src:"communist", pos:"noun", gender:null,
+    {type:"teach", trg:"communiste", src:"communist", pos:"adj", gender:null,
      note:"Noun and adjective. Un/une communiste.\nLe Parti communiste francais (PCF) was a major political force until the 1980s.",
      example:"A: Son grand-pere etait communiste.\nB: A cette epoque, le parti etait tres puissant.",
      exampleSrc:"A: His grandfather was a communist.\nB: At that time, the party was very powerful.",
