@@ -74,8 +74,8 @@ const LESSON_5 = {
 
     {type:"teach", trg:"de holding", src:"the holding company", pos:"noun", gender:"c",
      note:"English loanword. A company that owns other companies.\nVery common in Dutch business.",
-     example:"A: De holding bezit vijf dochterondernemingen.\nB: In welke sectoren?\nA: Technologie, vastgoed en media.\nB: Dat is een divers portfolio.",
-     exampleSrc:"A: The holding company owns five subsidiaries.\nB: In which sectors?\nA: Technology, real estate, and media.\nB: That is a diverse portfolio.",
+     example:"A: De holding bezit vijf dochterondernemingen.\nB: In welke sectoren?\nA: Technologie, vastgoed en media.\nB: Dat is goed verspreid.",
+     exampleSrc:"A: The holding company owns five subsidiaries.\nB: In which sectors?\nA: Technology, real estate, and media.\nB: That is well spread out.",
      funFact:"The Netherlands is a popular country for holding companies due to favorable tax treaties. Many multinationals have Dutch holding structures."},
 
     {type:"mc",

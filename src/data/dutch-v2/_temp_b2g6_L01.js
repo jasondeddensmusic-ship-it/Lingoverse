@@ -50,8 +50,8 @@ const LESSON_1 = {
 
     {type:"teach", trg:"de hoeksteen", src:"the cornerstone", pos:"noun", gender:"c",
      note:"Compound: hoek (corner) + steen (stone).\nOften used figuratively: the foundation of something.",
-     example:"A: Het gezin is de hoeksteen van de samenleving.\nB: Dat is een bekende uitdrukking.\nA: Maar wat betekent het precies?\nB: Dat het gezin de basis vormt.",
-     exampleSrc:"A: The family is the cornerstone of society.\nB: That is a well-known expression.\nA: But what does it mean exactly?\nB: That the family forms the foundation.",
+     example:"A: Het gezin is de hoeksteen van de samenleving.\nB: Dat is een bekende uitdrukking.\nA: Maar wat betekent het precies?\nB: Dat het gezin de basis is.",
+     exampleSrc:"A: The family is the cornerstone of society.\nB: That is a well-known expression.\nA: But what does it mean exactly?\nB: That the family is the foundation.",
      funFact:"The phrase 'hoeksteen van de samenleving' was a core principle of Dutch Christian democratic politics for decades."},
 
     {type:"teach", trg:"de helikopter", src:"the helicopter", pos:"noun", gender:"c",

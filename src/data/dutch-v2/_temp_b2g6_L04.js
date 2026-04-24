@@ -50,8 +50,8 @@ const LESSON_4 = {
 
     {type:"teach", trg:"immaterieel", src:"immaterial, intangible", pos:"adj", gender:null,
      note:"Im- (not) + materieel (material).\nUsed for non-physical heritage or values.",
-     example:"A: Sinterklaas is immaterieel cultureel erfgoed.\nB: Wat betekent dat precies?\nA: Het is een traditie, geen tastbaar object.\nB: Zoals muziek en verhalen.",
-     exampleSrc:"A: Sinterklaas is intangible cultural heritage.\nB: What does that mean exactly?\nA: It is a tradition, not a tangible object.\nB: Like music and stories.",
+     example:"A: Sinterklaas is immaterieel cultureel erfgoed.\nB: Wat betekent dat precies?\nA: Het is een traditie, geen echt object.\nB: Zoals muziek en verhalen.",
+     exampleSrc:"A: Sinterklaas is intangible cultural heritage.\nB: What does that mean exactly?\nA: It is a tradition, not a real object.\nB: Like music and stories.",
      funFact:"UNESCO maintains a list of intangible cultural heritage. Dutch mill networks and the craft of Delft Blue pottery are on it."},
 
     {type:"teach", trg:"ietwat", src:"somewhat, slightly", pos:"adv", gender:null,

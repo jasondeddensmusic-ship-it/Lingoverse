@@ -69,8 +69,8 @@ const LESSON_2 = {
 
     {type:"teach", trg:"de handpalm", src:"the palm (of the hand)", pos:"noun", gender:"c",
      note:"Compound: hand + palm.\nThe flat inner surface of your hand.",
-     example:"A: Hij had een blaar op zijn handpalm.\nB: Van het roeien?\nA: Ja, drie uur lang zonder handschoenen.\nB: Dat klinkt pijnlijk.",
-     exampleSrc:"A: He had a blister on his palm.\nB: From rowing?\nA: Yes, three hours without gloves.\nB: That sounds painful.",
+     example:"A: Hij had pijn in zijn handpalm.\nB: Van het roeien?\nA: Ja, drie uur lang zonder handschoenen.\nB: Dat klinkt pijnlijk.",
+     exampleSrc:"A: He had pain in his palm.\nB: From rowing?\nA: Yes, three hours without gloves.\nB: That sounds painful.",
      funFact:"The Dutch expression 'als je handpalm' (flat as your palm) describes something completely flat, fitting for the Netherlands itself."},
 
     {type:"teach", trg:"huldigen", src:"to pay tribute to, to honor", pos:"verb", gender:null,

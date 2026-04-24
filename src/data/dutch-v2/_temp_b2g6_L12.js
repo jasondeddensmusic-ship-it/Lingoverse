@@ -26,8 +26,8 @@ const LESSON_12 = {
 
     {type:"teach", trg:"golven", src:"to wave, to undulate", pos:"verb", gender:null,
      note:"From 'golf' (wave). To move in waves.\nUsed for water, hair, and emotions.",
-     example:"A: De zee golfde zachtjes in het maanlicht.\nB: Wat een romantisch beeld.\nA: Het was heel vredig.\nB: Ik wil ook naar het strand.",
-     exampleSrc:"A: The sea was gently undulating in the moonlight.\nB: What a romantic image.\nA: It was very peaceful.\nB: I also want to go to the beach.",
+     example:"A: De zee golfde zachtjes in het maanlicht.\nB: Wat een romantisch beeld.\nA: Het was heel mooi.\nB: Ik wil ook naar het strand.",
+     exampleSrc:"A: The sea was gently undulating in the moonlight.\nB: What a romantic image.\nA: It was very beautiful.\nB: I also want to go to the beach.",
      funFact:"The Dutch have over 450 kilometers of coastline. The relationship with waves is deeply cultural, from surfing at Scheveningen to flood protection."},
 
     {type:"teach", trg:"het gezichtspatroon", src:"the facial pattern", pos:"noun", gender:"n",
@@ -56,8 +56,8 @@ const LESSON_12 = {
 
     {type:"teach", trg:"hellen", src:"to slope, to tilt, to lean", pos:"verb", gender:null,
      note:"Related to 'helling' (slope).\nTo incline or lean in a direction.",
-     example:"A: De vloer helt een beetje naar links.\nB: Dat is typisch voor oude huizen.\nA: In Amsterdam staan veel scheve huizen.\nB: Door de zachte grond.",
-     exampleSrc:"A: The floor slopes a bit to the left.\nB: That is typical for old houses.\nA: In Amsterdam many houses lean.\nB: Because of the soft ground.",
+     example:"A: De vloer kan een beetje naar links hellen.\nB: Dat is typisch voor oude huizen.\nA: In Amsterdam zie je dat vaak.\nB: Door de zachte grond.",
+     exampleSrc:"A: The floor can slope a bit to the left.\nB: That is typical for old houses.\nA: In Amsterdam you see that often.\nB: Because of the soft ground.",
      funFact:"Amsterdam's leaning houses are not accidents. Many were built to tilt forward so goods could be hoisted up without hitting the facade."},
 
     {type:"fb",

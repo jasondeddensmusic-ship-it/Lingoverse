@@ -8,8 +8,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"het geluksonderzoek", src:"the happiness research", pos:"noun", gender:"n",
      note:"Compound: geluk (happiness) + onderzoek (research).\nAcademic study of what makes people happy.",
-     example:"A: Volgens geluksonderzoek zijn Nederlanders heel gelukkig.\nB: Waarom?\nA: Goede gezondheidszorg en veel vrijheid.\nB: En ook de balans tussen werk en privé.",
-     exampleSrc:"A: According to happiness research, Dutch people are very happy.\nB: Why?\nA: Good healthcare and a lot of freedom.\nB: And also the balance between work and private life.",
+     example:"A: Volgens geluksonderzoek zijn Nederlanders heel gelukkig.\nB: Waarom?\nA: Goede gezondheidszorg en veel vrijheid.\nB: En ook de balans tussen werk en thuis.",
+     exampleSrc:"A: According to happiness research, Dutch people are very happy.\nB: Why?\nA: Good healthcare and a lot of freedom.\nB: And also the balance between work and home.",
      funFact:"The World Happiness Report consistently places the Netherlands in the top 5. Dutch children are the happiest in the world according to UNICEF."},
 
     {type:"teach", trg:"het geluksverschil", src:"the happiness gap, the difference in happiness", pos:"noun", gender:"n",

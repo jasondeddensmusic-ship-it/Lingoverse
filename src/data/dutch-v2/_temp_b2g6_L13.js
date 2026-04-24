@@ -32,8 +32,8 @@ const LESSON_13 = {
 
     {type:"teach", trg:"het genotmiddel", src:"the stimulant, the intoxicant", pos:"noun", gender:"n",
      note:"Compound: genot (pleasure) + middel (substance, means).\nCovers alcohol, tobacco, drugs, caffeine.",
-     example:"A: Koffie is technisch gezien een genotmiddel.\nB: Net als alcohol en tabak?\nA: Ja, alles wat plezier of stimulatie geeft.\nB: De Nederlanders drinken veel koffie.",
-     exampleSrc:"A: Coffee is technically a stimulant.\nB: Just like alcohol and tobacco?\nA: Yes, everything that gives pleasure or stimulation.\nB: The Dutch drink a lot of coffee.",
+     example:"A: Koffie is technisch gezien een genotmiddel.\nB: Net als alcohol en tabak?\nA: Ja, alles wat plezier of energie geeft.\nB: De Nederlanders drinken veel koffie.",
+     exampleSrc:"A: Coffee is technically a stimulant.\nB: Just like alcohol and tobacco?\nA: Yes, everything that gives pleasure or energy.\nB: The Dutch drink a lot of coffee.",
      funFact:"The Dutch are among the top coffee drinkers in the world, averaging about 8.5 kg of coffee per person per year."},
 
     {type:"mc",
