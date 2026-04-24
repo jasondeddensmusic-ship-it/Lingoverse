@@ -175,7 +175,7 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
  desc:"B1 learners need vocabulary for discussing the natural world, health, and global issues. These words appear in TRKI B1 reading and speaking tasks.",
  goals:["Name key environmental concepts in Russian","Discuss health and resources","Use imperfective verbs for ongoing actions"]},
 
-{type:"teach", trg:"окружающая среда", src:"the natural environment", pos:"noun", gender:null,
+{type:"teach", trg:"окружающая среда", src:"the natural environment", pos:"noun", gender:"f",
  note:"Literally: 'surrounding environment.'\nСреда = environment (not Wednesday).\nUsed in formal and ecological contexts.",
  example:"A: Почему окружающая среда важна для нас?\nB: Потому что мы живём в ней.",
  exampleSrc:"A: Why is the natural environment important for us?\nB: Because we live in it.",
@@ -193,7 +193,7 @@ const UNIT_17 = {n:17, lang:"ru", srcLang:"en", track:"v2", title:"Предло�
  exampleSrc:"A: How is your health?\nB: Good, I think.",
  funFact:"Russians say 'Будьте здоровы!' (Be healthy!) when someone sneezes. The same phrase closes many toasts. Health talk is very natural in everyday Russian conversation."},
 
-{type:"teach", trg:"изменение климата", src:"climate change", pos:"noun", gender:null,
+{type:"teach", trg:"изменение климата", src:"climate change", pos:"noun", gender:"n",
  note:"Noun phrase. Изменение = change (noun), климат = climate.\nHigh-frequency in B1 texts and news.",
  example:"A: Ты знаешь слово изменение климата?\nB: Да, знаю.",
  exampleSrc:"A: Do you know the phrase climate change?\nB: Yes, I do.",

@@ -9,7 +9,7 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
  desc:"Media vocabulary: newspapers, television, internet, social networks. Russia has both traditional press and active social media culture.",
  goals:["Name media types","Discuss news topics","Express opinions on media"]},
 
-{type:"teach", trg:"новости", src:"news", pos:"noun", gender:null,
+{type:"teach", trg:"новости", src:"news", pos:"noun", gender:"pl",
  note:"Plural only (noun).\nSingular 'новость' = a piece of news.",
  example:"A: Смотришь новости?\nB: Каждый вечер.",
  exampleSrc:"A: Do you watch the news?\nB: Every evening.",
@@ -33,7 +33,7 @@ const UNIT_29 = {n:29, lang:"ru", srcLang:"en", track:"v2", title:"СМИ и н�
  exampleSrc:"A: Are you searching the internet?\nB: Yes, on Yandex.",
  funFact:"В интернете (on the internet, prep case), standard phrase. Russian treats internet as location. 'В интернете' vs English 'on the internet.'"},
 
-{type:"teach", trg:"социальные сети", src:"social networks", pos:"noun", gender:null,
+{type:"teach", trg:"социальные сети", src:"social networks", pos:"noun", gender:"pl",
  note:"Feminine plural.\nOften abbreviated: соцсети.",
  example:"A: Ты в соцсетях?\nB: Только во ВКонтакте.",
  exampleSrc:"A: Are you on social networks?\nB: Only on VKontakte.",

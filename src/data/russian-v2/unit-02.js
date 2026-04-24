@@ -180,13 +180,13 @@ const UNIT_02 = {n:2, lang:"ru", srcLang:"en", track:"v2", title:"Мне 25 ле
  exampleSrc:"A: How old are you? (formal)\nB: I'm 45.",
  funFact:"The standard polite age question. Even doctors, flight attendants, and service staff use this with you. The answer starts with Мне, not Я."},
 
-{type:"teach", trg:"лет", src:"years (after 5+, 0)", pos:"noun", gender:null,
+{type:"teach", trg:"лет", src:"years (after 5+, 0)", pos:"noun", gender:"pl",
  note:"Genitive plural of год.\nUsed with 0 and with numbers ending 5-9, or 10-20.",
  example:"A: Сколько вам лет?\nB: Мне двадцать лет.",
  exampleSrc:"A: How old are you?\nB: I'm twenty years old.",
  funFact:"Лет is actually from a different root (лето = summer). Early Russians said 'I have seen X summers' rather than 'years.' The word survived for counting years."},
 
-{type:"teach", trg:"года", src:"years (after 2, 3, 4)", pos:"noun", gender:null,
+{type:"teach", trg:"года", src:"years (after 2, 3, 4)", pos:"noun", gender:"m",
  note:"Genitive singular of год.\nUsed after numbers ending in 2, 3, 4 (but NOT 12, 13, 14).",
  example:"A: Сколько тебе лет?\nB: Мне два года.",
  exampleSrc:"A: How old are you?\nB: I am two years old.",
