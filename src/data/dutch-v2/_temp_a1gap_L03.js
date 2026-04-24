@@ -117,14 +117,14 @@ const LESSON_3 = {
 
     {type:"teach", trg:"het bier", src:"the beer", pos:"noun", gender:"n",
      note:"Neuter noun (het). Heineken is the most famous Dutch beer brand.",
-     example:"A: Wil je een biertje?\nB: Ja, lekker! Een pilsje graag.",
-     exampleSrc:"A: Do you want a beer?\nB: Yes, nice! A pilsner please.",
+     example:"A: Wil je een biertje?\nB: Ja, lekker! Een biertje graag.",
+     exampleSrc:"A: Do you want a beer?\nB: Yes, nice! A beer please.",
      funFact:"Heineken, Amstel, Grolsch are all Dutch. The Netherlands is a beer country."},
 
     {type:"teach", trg:"de cola", src:"the cola", pos:"noun", gender:"c",
      note:"Common gender (de). Same international word.",
-     example:"A: Wil je cola of sap?\nB: Cola graag.",
-     exampleSrc:"A: Do you want cola or juice?\nB: Cola please.",
+     example:"A: Wil je cola?\nB: Ja, cola graag.",
+     exampleSrc:"A: Do you want cola?\nB: Yes, cola please.",
      funFact:"International word. The Dutch pronounce it 'koh-lah'."},
 
     {type:"teach", trg:"de frisdrank", src:"the soft drink", pos:"noun", gender:"c",
