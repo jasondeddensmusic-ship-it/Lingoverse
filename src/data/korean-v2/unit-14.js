@@ -350,7 +350,7 @@ const UNIT_14 =
  note:"Sino-Korean: 관(official/官) + 공(public/公) + 서(office/署).\n관공서 includes city halls, district offices, immigration bureaus.",
  example:"A: 관공서가 어디에 있어요?\nB: 지하철역 근처에 있어요.",
  exampleSrc:"A: Where is the government office?\nB: It is near the subway station.",
- funFact:"In Korea, 관공서 hours are typically 9am–6pm, weekdays only. Many services are now on minwon24.go.kr (24-hour online portal)."},
+ funFact:"In Korea, 관공서 hours are typically 9am,6pm, weekdays only. Many services are now on minwon24.go.kr (24-hour online portal)."},
 {type:"teach",trg:"주민등록증",src:"resident registration card",pos:"noun",gender:null,
  note:"ID card issued to Korean citizens at age 17.\n주민(resident/住民) + 등록(registration/登錄) + 증(card/證).",
  example:"A: 주민등록증 가져오셨어요?\nB: 네, 여기 있어요.",
