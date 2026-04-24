@@ -254,3 +254,42 @@ PP8: 0 | PP43: 0 | PP48: 0 | PP64: 0 | PP67: 0 | PP63: 0
 - F10 Make purchases A1 for Portuguese (isolated, small)
 
 **Writing process:** All content written by parallel Sonnet agents (Rule B7 max 4), each self-validating PP8/PP63/PP64/PP67 and correctly substituting duplicates (PP24). Main session reviewed aggregate outputs, reverted 1 duplicate-heavy lesson (ZH unit-04), ran npm run build after each batch, pushed, watched CI to green. Total agents dispatched this session: **~40** (F14+F15+F17+F8+F22+F21+F11 batches plus PT/RU/ZH/ES/FR PP55 closures).
+
+---
+
+## Done this session (2026-04-24 extended run)
+
+**133+ PRs shipped (#317-#460).** Owner directive: "keep working until context fills." After mid-session stop, Rule H11 codified (NEVER SELF-TERMINATE).
+
+**🎯 BORING FUNFACT AUDIT ZEROED across all 10 languages (3,633 cards cleared):**
+- Spanish: 1,206 → 0 (all 4 variants)
+- Korean: 451 → 0 (all 8 variants)
+- Dutch: 789 → 0 (all 14 variants)
+- French: 995 → 0 (all 9 variants)
+- Japanese: 192 → 0 (earlier session)
+
+**Scramble residue cleanup:** Systematic cross-trg scramble detection audit (`_audit_scramble_residue.mjs`). 14+ residue cards fixed across Korean, Dutch, French.
+
+**Cross-trg duplicate audit:** All 10 languages at 0 cross-trg duplicates (count ≥ 3). Only legitimate reinforcement duplicates remain.
+
+**Rules shipped:**
+- H10 — Interrupts are stacked, not replacements
+- H11 — NEVER SELF-TERMINATE (forbids "session wrap," etc.)
+
+**Placement test fixes (PRs #317-#341):**
+- RTL persistence after logout (App.jsx + Onboarding live sync)
+- Stem schema split `{ stem, stemSrc, q }`
+- Design-spine redesign of PlacementQuiz.jsx
+- 11 placement banks em-dash scrubbed
+
+**Scramble bug diagnosed and fixed:** Unsafe regex `trg:"X"` matched match-pair entries. All batch scripts now use `{type:"teach",trg:"X"` anchor. Scramble bug cleanup propagated to Korean (via `nl:`) and subsequent residue fixes.
+
+**Tools shipped:**
+- `scripts/_scrub_emdash_{korean,dutch,french}.mjs` (Spanish scrubber pre-existing)
+- `scripts/audit_placement_questions.mjs`
+- `scripts/_audit_scramble_residue.mjs`
+- `scripts/_audit_duplicates_3plus.mjs`
+- 40+ per-language funFact batch scripts preserved as templates
+
+**Final audit state (all 10 langs, 39,038 teach cards):**
+Runtime PP-rule: 0 | Structural: 0 | MC quality: 0 | Teach content: 0 | Placement: 0 | **Boring funFacts: 0** ✅ | **Cross-trg duplicates: 0** ✅
