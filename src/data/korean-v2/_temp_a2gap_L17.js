@@ -46,8 +46,8 @@ const LESSON_17 = {
 
     {type:"teach", trg:"비디오", src:"video", pos:"noun", gender:null,
      note:"Loanword from English.\n비디오를 보다 = to watch a video.",
-     example:"A: 유튜브 비디오를 봤어요?\nB: 네, 정말 재미있었어요!",
-     exampleSrc:"A: Did you watch the YouTube video?\nB: Yes, it was really fun!",
+     example:"A: 그 비디오를 봤어요?\nB: 네, 정말 재미있었어요!",
+     exampleSrc:"A: Did you watch that video?\nB: Yes, it was really fun!",
      funFact:"In the 1990s, 비디오 meant VHS tapes. Korean 비디오 가게 (video stores) were everywhere. Now it means any video content. The word survived the format change perfectly."},
 
     {type:"teach", trg:"그림", src:"picture, painting", pos:"noun", gender:null,
@@ -135,8 +135,8 @@ const LESSON_17 = {
 
     {type:"teach", trg:"쓰레기", src:"trash, garbage", pos:"noun", gender:null,
      note:"Pure Korean word.\n쓰레기를 버리다 = to throw away trash.",
-     example:"A: 쓰레기 좀 버려 주세요.\nB: 어디에 버려요?",
-     exampleSrc:"A: Please throw away the trash.\nB: Where should I throw it?",
+     example:"A: 쓰레기가 많아요.\nB: 치울까요?",
+     exampleSrc:"A: There's a lot of trash.\nB: Should I clean it up?",
      funFact:"Korea has one of the world's strictest recycling systems. You must buy special 종량제 봉투 (volume-rate trash bags) and separate recyclables into 5+ categories. Fines apply for violations."},
 
     {type:"teach", trg:"휴지", src:"tissue, toilet paper", pos:"noun", gender:null,

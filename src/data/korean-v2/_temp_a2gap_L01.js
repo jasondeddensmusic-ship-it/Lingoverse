@@ -158,8 +158,8 @@ const LESSON_1 = {
 
     {type:"teach", trg:"담배", src:"cigarette", pos:"noun", gender:null,
      note:"Tobacco or cigarettes. Used in health and lifestyle contexts.",
-     example:"A: 담배 피우세요?\nB: 아니요, 작년에 끊었어요.",
-     exampleSrc:"A: Do you smoke?\nB: No, I quit last year.",
+     example:"A: 담배 있어요?\nB: 아니요, 저는 안 해요.",
+     exampleSrc:"A: Do you have cigarettes?\nB: No, I don't use them.",
      funFact:"From Portuguese/Spanish 'tabaco' via Japanese. Korea has strict smoking bans in public places. 금연 (no smoking) signs use Hanja: 禁 (forbid) + 煙 (smoke)."},
 
     // --- Final quiz block ---
