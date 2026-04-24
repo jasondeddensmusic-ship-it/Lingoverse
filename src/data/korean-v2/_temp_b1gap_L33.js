@@ -105,8 +105,8 @@ const LESSON_33 = {
 
     {type:"teach", trg:"생겨나다", src:"to come into being, to arise", pos:"verb", gender:null,
      note:"Compound verb. 생기다 (to form) + 나다 (to come out).\nSomething new appears or is born.",
-     example:"A: 새로운 문화가 생겨나고 있어요.\nB: 어떤 문화요?\nA: 온라인 커뮤니티 문화요.",
-     exampleSrc:"A: New cultures are coming into being.\nB: What kind of cultures?\nA: Online community cultures.",
+     example:"A: 새로운 문화가 생겨나고 있어요.\nB: 어떤 문화요?\nA: 온라인에서 생기는 문화요.",
+     exampleSrc:"A: New cultures are coming into being.\nB: What kind of cultures?\nA: Cultures that arise online.",
      funFact:"생겨나다 emphasizes the process of emergence more than 생기다 alone. The 나다 (come out) adds dynamism. Things 생겨나다 naturally and organically, like new trends, problems, or ideas."},
 
     {type:"teach", trg:"상하다", src:"to go bad, to spoil, to be hurt", pos:"verb", gender:null,

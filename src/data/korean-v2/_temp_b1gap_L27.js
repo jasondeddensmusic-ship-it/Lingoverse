@@ -33,8 +33,8 @@ const LESSON_27 = {
 
     {type:"teach", trg:"시내", src:"downtown, city center", pos:"noun", gender:null,
      note:"Sino-Korean: 市 (city) + 內 (inside). The central commercial area of a city.",
-     example:"A: 시내에 나가서 쇼핑할까요?\nB: 좋아요, 버스로 갈까요?\nA: 네, 20분이면 돼요.",
-     exampleSrc:"A: Shall we go downtown and shop?\nB: Sure, shall we take the bus?\nA: Yes, it only takes 20 minutes.",
+     example:"A: 시내에 같이 가요?\nB: 좋아요, 버스로 갈까요?\nA: 네, 20분이면 돼요.",
+     exampleSrc:"A: Shall we go downtown together?\nB: Sure, shall we take the bus?\nA: Yes, it only takes 20 minutes.",
      funFact:"시내버스 (city bus) is the standard urban bus. 시내 vs. 시외: 시내 is inside the city, 시외 (市外) is outside it. The 시외버스 (intercity bus) connects cities across Korea."},
 
     // --- Quiz batch 1 ---

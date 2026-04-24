@@ -11,8 +11,8 @@ const LESSON_12 = {
     // ── Teach 1-4: Memory verbs ──
     {type:"teach", trg:"떠오르다", src:"to come to mind, to surface", pos:"verb", gender:null,
      note:"떠 (float) + 오르다 (rise).\nIntransitive: the thought rises on its own.",
-     example:"A: 갑자기 좋은 생각이 떠올랐어요.\nB: 어떤 생각이요?\nA: 여행 갈 때 찍은 사진이 떠올랐어요.\nB: 좋은 추억이네요.",
-     exampleSrc:"A: A good thought suddenly came to mind.\nB: What thought?\nA: A photo I took while traveling came to mind.\nB: That's a nice memory.",
+     example:"A: 갑자기 좋은 생각이 떠오르네요.\nB: 어떤 생각이요?\nA: 여행 갈 때 찍은 사진이요.\nB: 좋은 추억이네요.",
+     exampleSrc:"A: A good thought suddenly comes to mind.\nB: What thought?\nA: A photo I took while traveling.\nB: That's a nice memory.",
      funFact:"Korean distinguishes between memories that come to you (떠오르다) and memories you actively recall (떠올리다)."},
 
     {type:"teach", trg:"떠올리다", src:"to recall, to bring to mind", pos:"verb", gender:null,
@@ -80,7 +80,7 @@ const LESSON_12 = {
 
     {type:"teach", trg:"혼란스럽다", src:"to be confused, chaotic", pos:"adj", gender:null,
      note:"Sino-Korean. 혼란 (confusion, 混亂) + -스럽다 (having the quality of).\nDescribes a muddled state of mind.",
-     example:"A: 머릿속이 혼란스러워요.\nB: 왜 그래요?\nA: 생각이 너무 많아서요.\nB: 잠시 쉬세요. 괜찮아질 거예요.",
+     example:"A: 머릿속이 혼란스럽네요.\nB: 왜 그래요?\nA: 생각이 너무 많아서요.\nB: 잠시 쉬세요. 괜찮아질 거예요.",
      exampleSrc:"A: My mind is confused.\nB: Why is that?\nA: Because I have too many thoughts.\nB: Take a break. You'll be okay.",
      funFact:"The -스럽다 suffix turns nouns into adjectives: 사랑 (love) becomes 사랑스럽다 (lovable), 자연 (nature) becomes 자연스럽다 (natural). It means 'having the quality of.'"},
 

@@ -78,8 +78,8 @@ const LESSON_16 = {
 
     {type:"teach", trg:"단순히", src:"simply, merely", pos:"adv", gender:null,
      note:"Adverb form of 단순하다. Used to downplay complexity.",
-     example:"A: 왜 그렇게 했어요?\nB: 단순히 호기심 때문이에요.\nA: 아, 다른 이유는 없었군요.",
-     exampleSrc:"A: Why did you do that?\nB: Simply out of curiosity.\nA: Ah, there was no other reason.",
+     example:"A: 왜 그렇게 했어요?\nB: 단순히 궁금해서요.\nA: 아, 다른 이유는 없었어요?",
+     exampleSrc:"A: Why did you do that?\nB: Simply because I was curious.\nA: Ah, there was no other reason?",
      funFact:"From hanja 單 (single) + 純 (pure). The idea of 'single and pure' evolved into 'simple' and then the adverb 'simply.'"},
 
     // --- Quiz batch 2 ---
@@ -144,8 +144,8 @@ const LESSON_16 = {
     // --- Teach 16-20 ---
     {type:"teach", trg:"깨끗이", src:"cleanly, neatly", pos:"adv", gender:null,
      note:"Adverb form of 깨끗하다 (to be clean). -이 suffix creates the adverb.",
-     example:"A: 방을 깨끗이 치웠어요?\nB: 네, 깨끗이 청소했어요.\nA: 잘했어요!",
-     exampleSrc:"A: Did you clean the room neatly?\nB: Yes, I cleaned it spotlessly.\nA: Well done!",
+     example:"A: 방을 깨끗이 했어요?\nB: 네, 깨끗이 청소했어요.\nA: 잘했어요!",
+     exampleSrc:"A: Did you make the room clean?\nB: Yes, I cleaned it spotlessly.\nA: Well done!",
      funFact:"Many Korean adjectives become adverbs with -이 or -히. 깨끗하다 uses -이 because the stem ends in a consonant cluster. Compare: 조용히 (quietly)."},
 
     {type:"teach", trg:"똑같이", src:"identically, in the same way", pos:"adv", gender:null,

@@ -118,8 +118,8 @@ const LESSON_24 = {
 
     {type:"teach", trg:"뿌리다", src:"to sprinkle, to scatter", pos:"verb", gender:null,
      note:"Scattering small particles. 소금을 뿌리다 (to sprinkle salt).",
-     example:"A: 고기 위에 소금을 뿌려 주세요.\nB: 많이 뿌릴까요?\nA: 조금만 뿌리세요.",
-     exampleSrc:"A: Please sprinkle salt over the meat.\nB: Should I sprinkle a lot?\nA: Just a little.",
+     example:"A: 고기 위에 소금을 뿌려 주세요.\nB: 얼마나 뿌려요?\nA: 조금만 뿌리세요.",
+     exampleSrc:"A: Please sprinkle salt over the meat.\nB: How much?\nA: Just a little.",
      funFact:"뿌리 means 'root' (of a plant), but 뿌리다 (to sprinkle) is a different word. 씨를 뿌리다 (to sow seeds) connects both: scattering seeds that take root. A beautiful overlap in Korean vocabulary."},
 
     {type:"teach", trg:"벗기다", src:"to peel off, to strip, to undress", pos:"verb", gender:null,

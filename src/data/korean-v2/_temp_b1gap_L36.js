@@ -100,8 +100,8 @@ const LESSON_36 = {
     // --- Teach 11-15 ---
     {type:"teach", trg:"식품", src:"food product, foodstuff", pos:"noun", gender:null,
      note:"Sino-Korean (食品). Formal/commercial. 건강식품 = health food. 가공식품 = processed food.",
-     example:"A: 유기농 식품을 주로 사요?\nB: 네, 건강에 좋으니까요.",
-     exampleSrc:"A: Do you mainly buy organic food products?\nB: Yes, because they're good for health.",
+     example:"A: 어떤 식품을 주로 사요?\nB: 건강에 좋은 것만 사요.",
+     exampleSrc:"A: What food products do you mainly buy?\nB: I only buy what is good for health.",
      funFact:"From hanja 食 (eat) + 品 (goods). Korean distinguishes 음식 (prepared food/dishes), 식품 (food products/groceries), and 식료품 (food supplies). Each has its context."},
 
     {type:"teach", trg:"버릇", src:"habit (often bad), mannerism", pos:"noun", gender:null,

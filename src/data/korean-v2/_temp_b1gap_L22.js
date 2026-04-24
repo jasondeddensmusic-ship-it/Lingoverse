@@ -54,8 +54,8 @@ const LESSON_22 = {
     // --- Teach 6-10 ---
     {type:"teach", trg:"담그다", src:"to soak, to immerse, to pickle", pos:"verb", gender:null,
      note:"Submerging in liquid. 김치를 담그다 (to make kimchi by pickling).",
-     example:"A: 올해 김치를 담갔어요?\nB: 네, 지난주에 담갔어요.\nA: 맛있게 됐으면 좋겠어요.",
-     exampleSrc:"A: Did you make kimchi this year?\nB: Yes, I pickled it last week.\nA: I hope it turned out delicious.",
+     example:"A: 올해 김치를 담갔어요?\nB: 네, 지난주에 담갔어요.\nA: 맛있으면 좋겠어요.",
+     exampleSrc:"A: Did you make kimchi this year?\nB: Yes, I pickled it last week.\nA: I hope it's delicious.",
      funFact:"김치를 담그다 is a cornerstone of Korean culture. 김장 (winter kimchi-making) is a UNESCO Intangible Cultural Heritage event where families gather to pickle hundreds of cabbages together."},
 
     {type:"teach", trg:"담다", src:"to put in, to serve (food)", pos:"verb", gender:null,

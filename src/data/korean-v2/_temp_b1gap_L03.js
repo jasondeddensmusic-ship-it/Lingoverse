@@ -144,8 +144,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"경기", src:"economy; game/match", pos:"noun", gender:null,
      note:"Two unrelated meanings: economic conditions OR a sports game.",
-     example:"A: 요즘 경기가 안 좋아요.\nB: 네, 경기 침체가 심해요.\nA: 경기가 빨리 회복되면 좋겠어요.",
-     exampleSrc:"A: The economy isn't good these days.\nB: Yes, the economic recession is severe.\nA: I hope the economy recovers quickly.",
+     example:"A: 요즘 경기가 안 좋아요.\nB: 네, 경기 침체가 심해요.\nA: 경기가 빨리 좋아지면 좋겠어요.",
+     exampleSrc:"A: The economy isn't good these days.\nB: Yes, the economic recession is severe.\nA: I hope the economy gets better quickly.",
      funFact:"Two different hanja: economy 景氣 (scene + spirit) vs. sports 競技 (compete + skill). Written identically in hangul but completely different origins. Context is everything."},
 
     // --- Quiz batch 4 ---

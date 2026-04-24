@@ -106,8 +106,8 @@ const LESSON_40 = {
 
     {type:"teach", trg:"떼다", src:"to remove, to detach, to peel off", pos:"verb", gender:null,
      note:"Native Korean. 스티커를 떼다 = remove a sticker. 눈을 떼다 = take one's eyes off.",
-     example:"A: 이 스티커 좀 떼 주세요.\nB: 잘 안 떨어지네요. 세게 당길게요.",
-     exampleSrc:"A: Please remove this sticker.\nB: It won't come off easily. I'll pull harder.",
+     example:"A: 이것 좀 떼 주세요.\nB: 잘 안 떨어지네요. 세게 당길게요.",
+     exampleSrc:"A: Please remove this.\nB: It won't come off easily. I'll pull harder.",
      funFact:"떼다 has vivid figurative uses: 눈을 떼지 못하다 (can't take one's eyes off), 떼를 쓰다 (to throw a tantrum, literally 'to write/use a 떼'), 뗄 수 없는 관계 (inseparable relationship)."},
 
     {type:"teach", trg:"아예", src:"at all, from the start, completely", pos:"adv", gender:null,
@@ -169,8 +169,8 @@ const LESSON_40 = {
 
     {type:"teach", trg:"양심", src:"conscience, moral sense", pos:"noun", gender:null,
      note:"Sino-Korean (良心). 양심적이다 = to be conscientious. 양심에 찔리다 = conscience pricks.",
-     example:"A: 양심에 안 찔려요?\nB: 솔직히 좀 찔려요.",
-     exampleSrc:"A: Doesn't your conscience bother you?\nB: Honestly, it does a little.",
+     example:"A: 양심에 괜찮아요?\nB: 솔직히 좀 신경 쓰여요.",
+     exampleSrc:"A: Is your conscience fine?\nB: Honestly, it bothers me a little.",
      funFact:"From hanja 良 (good) + 心 (heart). 양심적 병역 거부 (conscientious objection to military service) became legal in Korea in 2018 after decades of debate. 양심 is a word with real social weight."},
 
     // --- Quiz batch 4 ---
