@@ -167,7 +167,7 @@ const LESSON_20 = {
      exampleSrc:"A: The project was a failure.\nB: Too bad. What went wrong?",
      funFact:"Mis- (wrongly) + lukken (to succeed). Dutch builds failure from 'wrongly succeeding.' The adjective is 'mislukt' (failed)."},
 
-    {type:"teach", trg:"België", src:"Belgium", pos:"noun", gender:null,
+    {type:"teach", trg:"België", src:"Belgium", pos:"noun", gender:"n",
      note:"Proper noun. Country name, no article.\nBelgian = Belgisch (adj), een Belg (noun).",
      example:"A: Ga je naar België op vakantie?\nB: Ja, naar Brugge en Gent.",
      exampleSrc:"A: Are you going to Belgium on holiday?\nB: Yes, to Bruges and Ghent.",
