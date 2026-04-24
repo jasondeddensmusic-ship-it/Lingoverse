@@ -21,8 +21,8 @@ const LESSON_9 = {
 
     {type:"teach", trg:"볼펜", src:"ballpoint pen", pos:"noun", gender:null,
      note:"Compound: 볼 (ball, from English) + 펜 (pen, from English).",
-     example:"A: 볼펜 빌려줄 수 있어요?\nB: 네, 파란색이에요.",
-     exampleSrc:"A: Can you lend me a ballpoint pen?\nB: Yes, it's a blue one.",
+     example:"A: 볼펜 있어요?\nB: 네, 파란색이에요.",
+     exampleSrc:"A: Do you have a pen?\nB: Yes, it's a blue one.",
      funFact:"A hybrid loanword combining English 'ball' and 'pen.' Korean also uses 연필 (pencil, native word)."},
 
     {type:"teach", trg:"종이", src:"paper", pos:"noun", gender:null,

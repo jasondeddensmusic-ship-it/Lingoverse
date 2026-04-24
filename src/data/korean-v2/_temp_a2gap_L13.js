@@ -97,8 +97,8 @@ const LESSON_13 = {
     // ── Teach 9: 올라가다 ──
     {type:"teach", trg:"올라가다", src:"to go up, to ascend", pos:"verb", gender:null,
      note:"오르다 (to rise) + 아 + 가다 (to go).\nGoing upward, away from the speaker.",
-     example:"A: 엘리베이터로 올라갈까요?\nB: 아니요, 계단으로 올라가요.",
-     exampleSrc:"A: Shall we go up by elevator?\nB: No, let's go up by the stairs.",
+     example:"A: 엘리베이터로 올라갈까요?\nB: 아니요, 걸어서 올라가요.",
+     exampleSrc:"A: Shall we go up by elevator?\nB: No, let's walk up.",
      funFact:"올라가다 vs 올라오다: if you are at the bottom and someone climbs up away from you, it is 올라가다. If they climb up toward you at the top, it is 올라오다."},
 
     // ── Teach 10: 내려가다 ──

@@ -130,8 +130,8 @@ const LESSON_8 = {
 
     {type:"teach", trg:"단어", src:"word; vocabulary", pos:"noun", gender:null,
      note:"From hanja 單 (single) + 語 (word). An individual word.",
-     example:"A: 오늘 단어 몇 개 외웠어요?\nB: 20개 외웠어요.",
-     exampleSrc:"A: How many words did you memorize today?\nB: I memorized 20.",
+     example:"A: 오늘 단어 몇 개 배웠어요?\nB: 20개 배웠어요.",
+     exampleSrc:"A: How many words did you learn today?\nB: I learned 20.",
      funFact:"외우다 (to memorize) is the verb Korean students use most with 단어. Vocabulary memorization is central to studying."},
 
     {type:"teach", trg:"발음", src:"pronunciation", pos:"noun", gender:null,
