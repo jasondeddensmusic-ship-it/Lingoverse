@@ -63,13 +63,13 @@ const LESSON_6 = {
      hint:"The footwear item you must remove before entering a Japanese home.",
      sSrc:"When entering a house, you take off your shoes."},
 
-    {type:"teach", trg:"めがね", src:"glasses (review)", pos:"noun", gender:null,
+    {type:"teach", trg:"めがね", src:"glasses", pos:"noun", gender:null,
      note:"Review from L1. From Portuguese 'megane.' Sunglasses: サングラス.\nKanji: 眼鏡.",
      example:"A: あたらしいめがねですか？\nB: はい、きのうかいました。",
      exampleSrc:"A: Are those new glasses?\nB: Yes, I bought them yesterday.",
      funFact:"Japan has one of the highest rates of nearsightedness in the world, especially among young people. Over 50% of Japanese teenagers need vision correction. Glasses shops are everywhere, with Jins and Zoff offering affordable designer frames."},
 
-    {type:"teach", trg:"かばん", src:"bag (review)", pos:"noun", gender:null,
+    {type:"teach", trg:"かばん", src:"bag", pos:"noun", gender:null,
      note:"Review from L1. General word for any bag. Specific: リュック (backpack), ハンドバッグ (handbag).",
      example:"A: そのかばんはすてきですね。\nB: ありがとうございます。プレゼントです。",
      exampleSrc:"A: That bag is lovely.\nB: Thank you. It was a present.",

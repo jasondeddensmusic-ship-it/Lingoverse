@@ -45,7 +45,7 @@ const LESSON_6 = {
      exampleSrc:"A: It's a nice town.\nB: Yes, it's quiet and beautiful.",
      funFact:"Machi can mean a small town or a neighborhood within a city. Many Tokyo neighborhoods have -machi or -cho in their names. The kanji 町 originally showed rice paddies and fields, reflecting Japan's agricultural roots."},
 
-    {type:"teach", trg:"すき", src:"like / fond of (review)", pos:"adj", gender:null,
+    {type:"teach", trg:"すき", src:"like / fond of", pos:"adj", gender:null,
      note:"Review from Unit 5. Na-adjective with が particle.\nUsed to describe interests and preferences.",
      example:"A: すきなスポーツはなんですか？\nB: サッカーがすきです。",
      exampleSrc:"A: What sports do you like?\nB: I like soccer.",
