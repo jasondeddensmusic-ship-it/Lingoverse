@@ -73,8 +73,8 @@ const LESSON_12 = {
      funFact:"'Goedkoop' (cheap) contains 'goed' (good) + 'koop' (purchase). The idea that cheapness equals quality is deeply Dutch, though 'goedverkopen' is negative."},
     {type:"teach", trg:"handtekenen", src:"to sign (a document)", pos:"verb", gender:null,
      note:"Inseparable verb. Hand + tekenen (to draw/sign).\n'Handtekening' = signature.",
-     example:"A: Wilt u hier handtekenen?\nB: Met een blauwe of zwarte pen?\nA: Maakt niet uit. Hier op de stippellijn.\nB: Klaar. Is er nog een kopie voor mij?",
-     exampleSrc:"A: Would you sign here?\nB: With a blue or black pen?\nA: Doesn't matter. Here on the dotted line.\nB: Done. Is there a copy for me?",
+     example:"A: Wilt u hier handtekenen?\nB: Met een blauwe of zwarte pen?\nA: Maakt niet uit. Hier onderaan.\nB: Klaar. Is er nog een kopie voor mij?",
+     exampleSrc:"A: Would you sign here?\nB: With a blue or black pen?\nA: Doesn't matter. Here at the bottom.\nB: Done. Is there a copy for me?",
      funFact:"Dutch 'handtekening' literally means 'hand drawing'. In the digital age, 'digitale handtekening' (digital signature) has legal validity in the Netherlands."},
     {type:"match", pairs:[
       {trg:"interpelleren", src:"to formally question"},
