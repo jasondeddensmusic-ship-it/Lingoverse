@@ -98,7 +98,7 @@ const LESSON_8 = {
      funFact:"International word. Short for 'fotografie' (photography)."},
 
     {type:"teach", trg:"het internet", src:"the internet", pos:"noun", gender:"n",
-     note:"Neuter noun (het). International word.",
+     note:"Neuter (het). Loanword from English.\nThe global network of computers.",
      example:"A: Heb je internet thuis?\nB: Ja, glasvezel!",
      exampleSrc:"A: Do you have internet at home?\nB: Yes, fiber optic!",
      funFact:"The Netherlands has one of the fastest internet speeds in Europe."},
