@@ -31,7 +31,7 @@ const BATCH4_L_2 = {
      funFact:"Japanese rulers often show centimeters on one side and the traditional Japanese unit 'sun' on the other. One sun equals about 3.03 cm. The shaku-sun system predates metric adoption."},
 
     {type:"teach", trg:"封筒(ふうとう)", src:"envelope", pos:"noun", gender:null,
-     note:"Kanji: 封筒. Seal + tube.",
+     note:"Envelope. Compound: 封 (seal) + 筒 (tube/cylinder). Office and post-office vocabulary.",
      example:"手紙(てがみ)を封筒(ふうとう)に入(い)れます。",
      exampleSrc:"I put the letter in an envelope.",
      funFact:"Japanese envelope etiquette is complex. Money gifts (御祝儀(おしゅうぎ)) go in special decorated envelopes. White envelopes for congratulations, black for funerals. The folding direction matters too."},

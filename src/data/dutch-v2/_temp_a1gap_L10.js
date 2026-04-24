@@ -77,7 +77,7 @@ const LESSON_10 = {
      sSrc:"It is {1}. That means 8:30."},
 
     {type:"teach", trg:"half zes", src:"half past five (5:30)", pos:"num", gender:null,
-     note:"Half before six = 5:30.",
+     note:"Dutch half-hour format: 'half zes' = half TO six = 5:30 (NOT 6:30!). Literally halfway to six.",
      example:"A: We eten om half zes.\nB: Dat is normaal in Nederland.",
      exampleSrc:"A: We eat at half past five.\nB: That is normal in the Netherlands.",
      funFact:"Dutch dinner is famously early. Half zes (5:30) is peak dinnertime."},

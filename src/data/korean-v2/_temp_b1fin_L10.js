@@ -61,7 +61,7 @@ const LESSON_10 = {
      funFact:"특별 시 (特別市) is Seoul's official title: Special Metropolitan City. It distinguishes Seoul from all other Korean cities."},
 
     {type:"teach", trg:"특별히", src:"especially, particularly, specially", pos:"adv", gender:null,
-     note:"Adverb form of 특별하다.",
+     note:"Adverb: especially / particularly. From adjective 특별하다 (special) + adverb suffix -히.",
      example:"A: 특별히 좋아하는 음식이 있어요?\nB: 특별히 좋아하는 건 김치찌개예요.",
      exampleSrc:"A: Is there any food you particularly like?\nB: What I particularly like is kimchi stew.",
      funFact:"특별히 is often used with negatives too: 특별히 할 일 없어요 (nothing particular to do). It modulates expectations up or down."},

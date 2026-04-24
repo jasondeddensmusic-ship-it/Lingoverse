@@ -387,7 +387,7 @@ const UNIT_6 =
 
   {type:"teach",kind:"word",nl:"다시",en:"again",pos:"noun",gender:null,funFact:"From hanja: 多 (many) + 市 (city/market).",phonetic:"da-si",example:"A: 다시 한 번 말해 주세요. B: 네, 천천히 말할게요.",exampleEn:"A: Please say it again. B: Sure, I will speak slowly.",note:"다시: again.\n다시 한 번 means one more time. Very useful phrase."},
   {type:"mc",q:"전혀 means:",opts:["a little (in most cases)","not at all","very much","sometimes"],ans:"not at all",hint:"Used with negatives for emphasis. 전혀 + 없다/안 = absolute zero."},
-  {type:"teach",kind:"word",nl:"혼자",en:"alone",pos:"noun",gender:null,funFact:"Alone. Native Korean adverb. 혼자 가요 (I go alone). Contrast with 같이 (together). Cultural importance: collectivism means solo activities often noted.",phonetic:"hon-ja",example:"A: 누구랑 왔어요? B: 혼자 왔어요.",exampleEn:"A: Who did you come with? B: I came alone.",note:"혼자: alone / by oneself."},
+  {type:"teach",kind:"word",nl:"혼자",en:"alone",pos:"noun",gender:null,funFact:"Alone. Native Korean adverb. 혼자 가요 (I go alone). Contrast with 같이 (together). Cultural importance: collectivism means solo activities often noted.",phonetic:"hon-ja",example:"A: 누구랑 왔어요? B: 혼자 왔어요.",exampleEn:"A: Who did you come with? B: I came alone.",note:"Adverb: alone / by oneself. '혼자 살아요' (I live alone). Contrast: 같이 (together)."},
   {type:"teach",kind:"word",nl:"천천히",en:"slowly",pos:"noun",gender:null,funFact:"Adverb suffix (like English -ly).",phonetic:"cheon-cheon-hi",example:"A: 너무 빨라요! B: 천천히 말해 주세요.",exampleEn:"A: It's too fast! B: Please speak slowly.",note:"천천히: slowly.\nAdverb suffix (like English -ly)."},
   {type:"mc",q:"별로 means:",opts:["often","again","not really","always"],ans:"not really",hint:"Used with negatives. 별로 안 좋아요 = not … good. Softer than 전혀."},
 

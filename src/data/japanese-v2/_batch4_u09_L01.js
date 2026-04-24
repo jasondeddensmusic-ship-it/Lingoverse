@@ -43,7 +43,7 @@ const BATCH4_L_1 = {
      funFact:"Japanese bakeries serve uniquely Japanese breads: メロンパン (melon bread), あんパン (red bean bread), カレーパン (curry bread). These are Japanese inventions that blend Western baking with Japanese flavors."},
 
     {type:"teach", trg:"花屋(はなや)", src:"flower shop / florist", pos:"noun", gender:null,
-     note:"Flower + shop.",
+     note:"Flower shop / florist. Pattern: noun + 屋 (shop). Examples: 本屋 (bookshop), パン屋 (bakery).",
      example:"花屋(はなや)できれいなバラを買(か)いました。",
      exampleSrc:"I bought beautiful roses at the flower shop.",
      funFact:"Flower shops in Japan do brisk business because flowers are given for many occasions: hospital visits, funerals, temple offerings, and home decoration. The art of flower arrangement (生け花 ikebana) keeps fresh flowers in demand."},

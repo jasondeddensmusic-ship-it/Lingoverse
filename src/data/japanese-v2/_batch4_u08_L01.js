@@ -31,7 +31,7 @@ const BATCH4_L_1 = {
      funFact:"銀行 literally means 'silver going.' In the Meiji era, Japan modeled its banking system after European banks that dealt in silver. Many Japanese bank ATMs close at night and on weekends, charging fees for after-hours use."},
 
     {type:"teach", trg:"図書館(としょかん)", src:"library", pos:"noun", gender:null,
-     note:"Diagram + book + hall.",
+     note:"Library. Compound: 図 (diagram/map) + 書 (book) + 館 (hall/building). All -館 words are public buildings.",
      example:"図書館(としょかん)で本(ほん)を借(か)ります。",
      exampleSrc:"I borrow books at the library.",
      funFact:"Japanese public libraries are beautifully maintained and silent. They often have manga sections and comfortable reading areas. Some modern libraries, like Tsutaya Library in Takeo, combine bookstores with library spaces."},
