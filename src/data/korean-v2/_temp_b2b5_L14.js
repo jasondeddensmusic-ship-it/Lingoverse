@@ -16,8 +16,8 @@ const LESSON_14 = {
 
     {type:"teach", trg:"선명하다", src:"to be vivid, to be clear", pos:"adj", gender:null,
      note:"Sino-Korean. 鮮 (fresh) + 明 (bright).\nClearly visible or sharply defined.",
-     example:"A: 이 사진은 색이 정말 선명하다.\nB: 새 카메라로 찍었거든.",
-     exampleSrc:"A: The colors in this photo are really vivid.\nB: I took it with a new camera.",
+     example:"A: 이 사진은 색이 정말 선명하다.\nB: 새 카메라로 찍은 거야.",
+     exampleSrc:"A: The colors in this photo are really vivid.\nB: It was taken with a new camera.",
      funFact:"선명한 화질 (vivid image quality) is a key selling point for Korean TV brands like Samsung and LG."},
 
     {type:"teach", trg:"선언하다", src:"to declare, to proclaim", pos:"verb", gender:null,
