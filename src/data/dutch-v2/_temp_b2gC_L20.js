@@ -20,8 +20,8 @@ const LESSON_20 = {
 
     {type:"teach", trg:"de jongedame", src:"the young lady", pos:"noun", gender:"c",
      note:"Common gender (de). Jong (young) + dame (lady).\nSlightly old-fashioned, can sound patronising.",
-     example:"A: Die jongedame heeft een indrukwekkende toespraak gehouden.\nB: Hoe oud is ze?\nA: Pas achttien.\nB: Op die leeftijd al zo welbespraakt!",
-     exampleSrc:"A: That young lady gave an impressive speech.\nB: How old is she?\nA: Only eighteen.\nB: Already so articulate at that age!",
+     example:"A: Die jongedame heeft een indrukwekkende toespraak gehouden.\nB: Hoe oud is ze?\nA: Pas achttien.\nB: Op die leeftijd al zo goed!",
+     exampleSrc:"A: That young lady gave an impressive speech.\nB: How old is she?\nA: Only eighteen.\nB: Already so good at that age!",
      funFact:"'Jongedame' can sound condescending depending on context. Young Dutch women often prefer simply being addressed by name."},
 
     {type:"teach", trg:"de godenwereld", src:"the world of the gods / mythology", pos:"noun", gender:"c",

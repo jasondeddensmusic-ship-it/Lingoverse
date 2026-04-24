@@ -69,8 +69,8 @@ const LESSON_17 = {
 
     {type:"teach", trg:"de dodecaeder", src:"the dodecahedron", pos:"noun", gender:"c",
      note:"Common gender (de). From Greek: dodeka (twelve) + hedra (face).\nA 12-sided geometric solid.",
-     example:"A: Weet je wat een dodecaeder is?\nB: Een figuur met twaalf vlakken?\nA: Precies! Elk vlak is een regelmatige vijfhoek.\nB: Dat klinkt als een ingewikkelde puzzel.",
-     exampleSrc:"A: Do you know what a dodecahedron is?\nB: A shape with twelve faces?\nA: Exactly! Each face is a regular pentagon.\nB: That sounds like a complicated puzzle.",
+     example:"A: Weet je wat een dodecaeder is?\nB: Een figuur met twaalf vlakken?\nA: Precies! Elk vlak is een regelmatige vijfhoek.\nB: Dat is best ingewikkeld.",
+     exampleSrc:"A: Do you know what a dodecahedron is?\nB: A shape with twelve faces?\nA: Exactly! Each face is a regular pentagon.\nB: That is quite complicated.",
      funFact:"The dodecahedron was one of Plato's five perfect solids. Ancient Greeks associated it with the universe. Mysterious Roman dodecahedrons have been found in the Netherlands."},
 
     {type:"mc",

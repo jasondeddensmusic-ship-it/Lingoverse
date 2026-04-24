@@ -14,8 +14,8 @@ const LESSON_14 = {
 
     {type:"teach", trg:"het konijnenpoot", src:"the rabbit's foot", pos:"noun", gender:"c",
      note:"Common gender (de konijnenpoot). Konijn (rabbit) + poot (paw/foot).\n'Een geluksbrenger' = a lucky charm.",
-     example:"A: Heb je een konijnenpoot als geluksbrenger?\nB: Nee, dat vind ik zielig voor het konijn.\nA: Het is maar bijgeloof.\nB: Toch, ik heb liever een klavertjevier.",
-     exampleSrc:"A: Do you have a rabbit's foot as a lucky charm?\nB: No, I feel sorry for the rabbit.\nA: It's just superstition.\nB: Still, I prefer a four-leaf clover.",
+     example:"A: Heb je een konijnenpoot als geluksbrenger?\nB: Nee, dat is niet aardig voor het konijn.\nA: Het is maar bijgeloof.\nB: Toch, ik heb liever een klavertjevier.",
+     exampleSrc:"A: Do you have a rabbit's foot as a lucky charm?\nB: No, that's not nice for the rabbit.\nA: It's just superstition.\nB: Still, I prefer a four-leaf clover.",
      funFact:"Lucky charms are less common in the rationalistic Netherlands than in many countries. The Dutch tend to rely on 'nuchterheid' (level-headedness)."},
 
     {type:"teach", trg:"de koekoek", src:"the cuckoo", pos:"noun", gender:"c",
@@ -38,8 +38,8 @@ const LESSON_14 = {
 
     {type:"teach", trg:"de drop", src:"liquorice (Dutch candy)", pos:"noun", gender:"c",
      note:"Common gender (de). Also 'het dropje' (diminutive).\nThe Netherlands eats more liquorice than any other country.",
-     example:"A: Wil je een dropje?\nB: Nee, dank je! Ik vind drop vies.\nA: Echt? Ik ben er gek op!\nB: Het smaakt naar medicijn.",
-     exampleSrc:"A: Do you want a liquorice?\nB: No thanks! I think liquorice is disgusting.\nA: Really? I'm crazy about it!\nB: It tastes like medicine.",
+     example:"A: Wil je een dropje?\nB: Nee, dank je! Ik vind drop vies.\nA: Echt? Ik ben er gek op!\nB: Het doet me aan medicijn denken.",
+     exampleSrc:"A: Do you want a liquorice?\nB: No thanks! I think liquorice is disgusting.\nA: Really? I'm crazy about it!\nB: It reminds me of medicine.",
      funFact:"The Dutch consume about 2 kilograms of liquorice per person per year. 'Dubbel zoute drop' (double salt liquorice) horrifies most foreigners."},
 
     {type:"teach", trg:"de gum", src:"the eraser", pos:"noun", gender:"c",

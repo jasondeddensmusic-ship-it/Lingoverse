@@ -69,8 +69,8 @@ const LESSON_4 = {
 
     {type:"teach", trg:"de kompaan", src:"the companion / accomplice", pos:"noun", gender:"c",
      note:"Common gender (de). From French 'compagnon'.\nCan be positive (buddy) or negative (accomplice).",
-     example:"A: De dief had een kompaan.\nB: Wie was dat dan?\nA: Zijn buurman, bleek later.\nB: Ze zijn allebei opgepakt.",
-     exampleSrc:"A: The thief had an accomplice.\nB: Who was that then?\nA: His neighbour, it turned out later.\nB: They were both arrested.",
+     example:"A: De dief had een kompaan.\nB: Wie was dat dan?\nA: Zijn buurman, hoorde ik later.\nB: Ze zijn allebei opgepakt.",
+     exampleSrc:"A: The thief had an accomplice.\nB: Who was that then?\nA: His neighbour, I heard later.\nB: They were both arrested.",
      funFact:"'Kompaan' shares its root with English 'companion' and 'company'. Originally: someone you share bread with (Latin 'com + panis')."},
 
     {type:"teach", trg:"het korps", src:"the corps / police force", pos:"noun", gender:"n",
