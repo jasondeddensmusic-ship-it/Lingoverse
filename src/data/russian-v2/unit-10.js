@@ -117,7 +117,7 @@ const UNIT_10 = {n:10, lang:"ru", srcLang:"en", track:"v2", title:"Работа"
  exampleSrc:"A: Who is your boss?\nB: Ivan Petrovich.",
  funFact:"Начальник from 'начальствовать' (to be in command). More formal alternatives: директор, руководитель, шеф (informal French loan)."},
 
-{type:"teach", trg:"коллега", src:"colleague", pos:"noun", gender:null,
+{type:"teach", trg:"коллега", src:"colleague", pos:"noun", gender:"c",
  note:"'Common gender', same for male and female.\nBehaves grammatically as masculine.",
  example:"A: Это твой коллега?\nB: Да, мы работаем вместе.",
  exampleSrc:"A: Is this your colleague?\nB: Yes, we work together.",

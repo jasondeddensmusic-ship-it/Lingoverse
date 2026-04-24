@@ -9,7 +9,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
  desc:"Money vocabulary for everyday shopping. Learn рубль (ruble) variations, price-asking, and paying patterns.",
  goals:["Name Russian currency","Ask prices","Use numbers + рубль correctly"]},
 
-{type:"teach", trg:"деньги", src:"money", pos:"noun", gender:null,
+{type:"teach", trg:"деньги", src:"money", pos:"noun", gender:"pl",
  note:"PLURAL only. No singular form.\nStress on first: DYEN-gi.",
  example:"A: У тебя есть деньги?\nB: Да, немного.",
  exampleSrc:"A: Do you have money?\nB: Yes, a little.",
@@ -206,7 +206,7 @@ const UNIT_08 = {n:8, lang:"ru", srcLang:"en", track:"v2", title:"В магаз�
  exampleSrc:"A: Is this your shirt?\nB: Yes, my shirt.",
  funFact:"Russian clothing vocab often uses -ка endings: рубашка, юбка, футболка. These came from diminutive forms that replaced older, longer words."},
 
-{type:"teach", trg:"брюки", src:"pants / trousers", pos:"noun", gender:null,
+{type:"teach", trg:"брюки", src:"pants / trousers", pos:"noun", gender:"pl",
  note:"PLURAL only, like 'pants' in English.\nGenitive plural: брюк.",
  example:"A: Новые брюки?\nB: Да, купил вчера.",
  exampleSrc:"A: New pants?\nB: Yes, bought them yesterday.",
