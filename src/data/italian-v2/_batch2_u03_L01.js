@@ -42,7 +42,7 @@ const BATCH2_U03_L1 = {
      exampleSrc:"A: Do you have a newborn?\nB: Yes, she is two months old.",
      funFact:"'Neo' means 'new' (from Greek) and 'nato' means 'born' (from Latin 'natus'). The word is perfectly transparent: newly born. English 'neonatal' uses exactly the same roots from the medical field."},
 
-    {type:"teach", trg:"l'adolescente", src:"the teenager", pos:"noun", gender:null,
+    {type:"teach", trg:"l'adolescente", src:"the teenager", pos:"noun", gender:"c",
      note:"Same form for masculine and feminine. Uses l' before vowel.\nFrom Latin 'adolescere' (to grow up).",
      example:"A: Hai figli adolescenti?\nB: Si, mia figlia ha quindici anni.",
      exampleSrc:"A: Do you have teenage children?\nB: Yes, my daughter is fifteen years old.",
