@@ -21,7 +21,7 @@ const LESSON_14 = {
      note:"Masculine noun. A plant that turns toward the sun, or a purple stone.",
      example:"A: L'heliotrope embaume le jardin.\nB: Son parfum est enivrant.",
      exampleSrc:"A: The heliotrope fills the garden with fragrance.\nB: Its perfume is intoxicating.",
-     funFact:"From Greek 'helios' (sun) + 'tropos' (turn). The plant literally follows the sun across the sky."},
+     funFact:"Greek-rooted botany term preserved in English 'heliotropism' (plants tracking the sun). French uses the same spelling."},
 
     {type:"teach", trg:"la cryptographie", src:"cryptography", pos:"noun", gender:"f",
      note:"Feminine noun. The science of encoding and decoding secret messages.",
