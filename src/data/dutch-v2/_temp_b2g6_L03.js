@@ -32,8 +32,8 @@ const LESSON_3 = {
 
     {type:"teach", trg:"improviseren", src:"to improvise", pos:"verb", gender:null,
      note:"Verb form. Used for making do with what you have.\nVery Dutch: 'gewoon improviseren' (just improvise).",
-     example:"A: We hebben geen recept. Moeten we improviseren?\nB: Natuurlijk! Kijk wat er in de koelkast staat.\nA: Er is kaas, ei en brood.\nB: Dan maken we een tosti.",
-     exampleSrc:"A: We do not have a recipe. Should we improvise?\nB: Of course! Look what is in the fridge.\nA: There is cheese, egg, and bread.\nB: Then we will make a toasted sandwich.",
+     example:"A: We hebben geen recept. Moeten we improviseren?\nB: Natuurlijk! Kijk wat er in de koelkast staat.\nA: Er is kaas, ei en brood.\nB: Dan maken we er iets lekkers van.",
+     exampleSrc:"A: We do not have a recipe. Should we improvise?\nB: Of course! Look what is in the fridge.\nA: There is cheese, egg, and bread.\nB: Then we will make something tasty from it.",
      funFact:"The Dutch are known for practical improvisation. The expression 'doe maar gewoon' (just act normal) extends to creative problem-solving."},
 
     {type:"mc",

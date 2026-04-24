@@ -32,8 +32,8 @@ const LESSON_18 = {
 
     {type:"teach", trg:"de eyeliner", src:"the eyeliner", pos:"noun", gender:"c",
      note:"English loanword. Cosmetic for lining the eyes.\nFully adopted into Dutch beauty vocabulary.",
-     example:"A: Welke eyeliner gebruik jij?\nB: Een waterproof zwarte.\nA: Die van mij loopt altijd uit.\nB: Probeer een gelvariant, die blijft beter zitten.",
-     exampleSrc:"A: Which eyeliner do you use?\nB: A waterproof black one.\nA: Mine always smudges.\nB: Try a gel version, it stays on better.",
+     example:"A: Welke eyeliner gebruik jij?\nB: Een waterproof zwarte.\nA: Die van mij loopt altijd uit.\nB: Probeer een ander merk, dat blijft beter zitten.",
+     exampleSrc:"A: Which eyeliner do you use?\nB: A waterproof black one.\nA: Mine always smudges.\nB: Try a different brand, it stays on better.",
      funFact:"The Dutch beauty industry is growing fast. Rituals, a Dutch cosmetics brand, has become a global luxury skincare company."},
 
     {type:"mc",

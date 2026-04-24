@@ -8,7 +8,7 @@ const LESSON_9 = {
 
     {type:"teach", trg:"het hindoeïsme", src:"Hinduism", pos:"noun", gender:"n",
      note:"Het-word. Note the trema on the i.\nThe Netherlands has a significant Hindu community.",
-     example:"A: Het hindoeïsme is een van de oudste religies.\nB: Hoeveel hindoes wonen er in Nederland?\nA: Ongeveer tweehonderdduizend.\nB: Vooral in Den Haag en Amsterdam.",
+     example:"A: Het hindoeïsme is een van de oudste godsdiensten.\nB: Hoeveel hindoes wonen er in Nederland?\nA: Ongeveer tweehonderdduizend.\nB: Vooral in Den Haag en Amsterdam.",
      exampleSrc:"A: Hinduism is one of the oldest religions.\nB: How many Hindus live in the Netherlands?\nA: About two hundred thousand.\nB: Mainly in The Hague and Amsterdam.",
      funFact:"The Dutch Hindu community is largely Surinamese-Hindustani. They celebrate Holi and Divali with large public festivals."},
 
@@ -56,8 +56,8 @@ const LESSON_9 = {
 
     {type:"teach", trg:"gewagen", src:"to mention, to speak of (literary)", pos:"verb", gender:null,
      note:"An archaic, literary verb meaning to mention.\nFound in formal texts and fixed expressions.",
-     example:"A: De kroniek gewaakt van een grote vloed.\nB: In welk jaar?\nA: In 1421, de Sint-Elisabethsvloed.\nB: Een van de ergste rampen in de Nederlandse geschiedenis.",
-     exampleSrc:"A: The chronicle speaks of a great flood.\nB: In which year?\nA: In 1421, the St. Elizabeth's flood.\nB: One of the worst disasters in Dutch history.",
+     example:"A: Het boek gewaagt van een grote vloed.\nB: In welk jaar?\nA: In 1421, de Sint-Elisabethsvloed.\nB: Een van de ergste rampen in de Nederlandse geschiedenis.",
+     exampleSrc:"A: The book speaks of a great flood.\nB: In which year?\nA: In 1421, the St. Elizabeth's flood.\nB: One of the worst disasters in Dutch history.",
      funFact:"'Gewagen' survives mainly in the expression 'ergens van gewagen' and in historical texts. Modern Dutch prefers 'vermelden' or 'noemen'."},
 
     {type:"fb",
