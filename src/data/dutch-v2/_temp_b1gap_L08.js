@@ -38,8 +38,8 @@ const LESSON_8 = {
 
     {type:"teach", trg:"begeleiden", src:"to guide / to supervise", pos:"verb", gender:null,
      note:"Inseparable verb. Ik begeleid, jij begeleidt.",
-     example:"A: Wie begeleidt de stagiair?\nB: Dat doe ik deze week.",
-     exampleSrc:"A: Who is supervising the intern?\nB: I am doing that this week.",
+     example:"A: Wie begeleidt de nieuwe student?\nB: Dat doe ik deze week.",
+     exampleSrc:"A: Who is supervising the new student?\nB: I am doing that this week.",
      funFact:"Be- prefix + geleiden (to lead). Very common in Dutch education: teachers 'begeleiden' students."},
 
     {type:"teach", trg:"de begeleider", src:"the supervisor / the mentor", pos:"noun", gender:"c",
