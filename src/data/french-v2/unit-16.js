@@ -41,7 +41,7 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
         {type:"match",pairs:[{trg:"je verrais",src:"I would see"},{trg:"je saurais",src:"I would know"},{trg:"je viendrais",src:"I would come"},{trg:"je devrais",src:"I should"}]},
         {type:"mc",q:"'Vous ___ nous dire la vérité.' (devoir, advice)",opts:["Devriez","Devrez","Devez","Deviez"],ans:"Devriez",hint:"You should tell us the truth. Advice = conditional."},
         {type:"fb",opts:["aurait","a","avait","aura"],hint:"We would have time if we left earlier. Aur- + -ait.",s:"On {1} du temps si on partait plus tôt. (avoir, conditional)",a:"aurait"},
-        {type:"mc",q:"Je devrais = I should. Je devrai = ___.",opts:["I should","I will have to","I had to","I used to have to"],ans:"I will have to",hint:"Devrai (future) = will have to. Devrais (conditional) = should."},
+        {type:"mc",q:"Je devrais = I should. Je devrai = ___.",opts:["I should","I will have to","I had to","I used to have to"],ans:"I will have to",hint:"Devrai (one s, future tense) marks obligation; devrais (two s's, conditional) marks advice."},
         {type:"fb",opts:["devrais","dois","devais","devras"],hint:"You should be careful. Advice with conditional.",s:"Tu {1} faire attention. (devoir, conditional: advice)",a:"devrais"}
   ]},
   {id:"fre16l3",title:"Si + imparfait",icon:"🌈",xp:15,board:true,steps:[

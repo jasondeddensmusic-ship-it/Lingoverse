@@ -210,7 +210,7 @@ export default {n:2,lang:"nl",srcLang:"en",track:"v2",title:"Who Am I?",sub:"Kom
         },text:"A: Hallo! Hoe heet je?\nB: Ik heet Sophie. En jij?\n\nA: Ik heet Marco. Aangenaam!\nB: Aangenaam! Waar kom je vandaan?\n\nA: Ik kom uit Duitsland. En jij?\nB: Ik kom uit België. Ik woon in Brussel.\n\nA: Spreek je ook Frans?\nB: Ja, ik spreek Frans en Nederlands."},
         {type:"fb",opts:["heet","ben","kom","spreek"],hint:"Asking someone's name",s:"Hallo! Hoe ___ je?",a:"heet"},
         {type:"fb",opts:["jij","je","u","zij"],hint:"Asking the question back informally",s:"Ik heet Sophie. En ___?",a:"jij"},
-        {type:"mc",q:"What does 'Waar kom je vandaan?' mean?",opts:["Where do you come from?","What do you speak?","Where do you live?","Who are you?"],ans:"Where do you come from?",hint:"'Vandaan' = from (origin)"},
+        {type:"mc",q:"What does 'Waar kom je vandaan?' mean?",opts:["Where do you come from?","What do you speak?","Where do you live?","Who are you?"],ans:"Where do you come from?",hint:"'Vandaan' marks origin (the place you came out of). Pairs with 'komen'."},
         {type:"fb",opts:["België","Duitsland","Frankrijk","Nederland"],hint:"Sophie lives in Brussels, so she's from...",s:"Ik kom uit ___. Ik woon in Brussel.",a:["België"]},
         {type:"fb",opts:["Spreek","Woon","Kom","Heet"],hint:"Asking about a language",s:"___ je ook Frans?",a:"Spreek"},
         {type:"mc",q:"Sophie speaks:",opts:["Only French","French and Dutch","Only Dutch","German and Dutch"],ans:"French and Dutch",hint:"What is the stam of 'spreken' for ik-form?"},

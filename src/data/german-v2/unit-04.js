@@ -307,7 +307,7 @@ const UNIT_4 =
 {type:"fb",s:"Wie sagt man 'the vending machine / ATM' auf Deutsch? {1}",a:["der Automat"],opts:["der Automat","meist","die Million","zweihundert"],hint:"From Greek meaning 'self-moving.' A machine that operates without a human operator.",sSrc:"How do you say 'the vending machine / ATM' in German?"},
 {type:"mc",q:"Was bedeutet 'verkaufen'?",opts:["one hundred (100)","the percent","to sell","seventy (70)"],ans:"to sell",hint:"'Ver-' prefix + 'kaufen' (to buy) = the opposite transaction. A shop does this."},
 {type:"fb",s:"Ich möchte {1}, bitte.",a:["zahlen"],opts:["der Kilometer","der Schuh","zahlen","der Automat"],hint:"The verb for handing over money. Related to 'die Zahl' (the number).",sSrc:"I would like to pay, please."},
-{type:"mc",q:"Was bedeutet 'meist'?",opts:["the centimeter","the bag / pocket","the euro","mostly / most"],ans:"mostly / most",hint:"Superlative adverb from 'mehr' (more). 'Meistens' = most of the time. 'Am meisten' = the most."}
+{type:"mc",q:"Was bedeutet 'meist'?",opts:["the centimeter","the bag / pocket","the euro","mostly / most"],ans:"mostly / most",hint:"Superlative adverb from 'mehr'. Forms: 'meistens' (frequency) and 'am meisten' (degree)."}
 ,{type:"match",pairs:[{trg:"das Obst",src:"the fruit (collective)"},{trg:"ihn",src:"him, it (masculine accusative)"},{trg:"kalt",src:"cold"}]}]}
 ]};
 

@@ -90,7 +90,7 @@ const UNIT_3 =
   {type:"teach",kind:"grammar",nl:"-만",en:"only / just",pos:"part",gender:null,funFact:"'Only / just.' Particle attaching to any noun. 커피만 주세요 (just coffee please). Simple limiter; one of Korean's most productive particles.",phonetic:"-man",example:"A: 몇 개 드릴까요? B: 하나만 주세요.",exampleEn:"A: How many shall I give you? B: Just one, please.",note:"-만: only / just.\nAttaches directly to a noun.\n\n커피만 마셔요.\n→ I only drink coffee.\n물만 주세요.\n→ Just water, please.",deepDive:{title:"-만 Replaces Other Particles",text:"-만 replaces 은/는/이/가/을/를:\n\n커피를 마셔요 → 커피만 마셔요\n(coffee) → (only coffee)\n\n학생이 있어요 → 학생만 있어요\n(students are here) → (only students)\n\nLike 도, -만 replaces, never stacks."}},
   {type:"mc",q:"하나만 주세요 means:",opts:["Give me one more","I have only one","Just one, please","One is not enough"],ans:"Just one, please",hint:"-만 = only/just"},
   {type:"fb",s:"커피___ 마셔요.\n(I drink ONLY coffee.)",a:"만",opts:["만","도","를","은"],hint:"'Only' particle: replaces 를"},
-  {type:"mc",q:"물만 주세요. What is being requested?",opts:["More water","No water","Hot water","Only water"],ans:"Only water",hint:"-만 = only/just"},
+  {type:"mc",q:"물만 주세요. What is being requested?",opts:["More water","No water","Hot water","Only water"],ans:"Only water",hint:"The -만 particle restricts a noun to the exclusion of everything else."},
 
   // ── Animals with 마리 counter ──
   {type:"teach",kind:"word",nl:"고양이",en:"cat",pos:"noun",gender:null,funFact:"Cat. Counted with 마리. 고양이 한 마리 (one cat). Also appears in 길고양이 (stray cat = street-cat).",phonetic:"go-yang-i",example:"A: 고양이가 있어요? B: 네, 한 마리가 있어요.",exampleEn:"A: Is there a cat? B: Yes, there is one.",note:"고양이: cat.\nCounted with 마리 (animal counter).\n한 마리, 두 마리, 세 마리..."},
