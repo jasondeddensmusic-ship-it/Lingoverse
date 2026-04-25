@@ -47,7 +47,7 @@ const LESSON_18 = {
      exampleSrc:"A: We have seats in a box at the Opera.\nB: How lucky! It's the best view.",
      funFact:"The Opera Garnier's loges were the social network of 19th-century Paris. Who sat where told you everything about power and status."},
 
-    {type:"teach", trg:"la vestige", src:"the vestige, the remains", pos:"noun", gender:"m",
+    {type:"teach", trg:"le vestige", src:"the vestige, the remains", pos:"noun", gender:"m",
      note:"Masculine noun. A trace or remnant of something that once existed.\nLes vestiges romains = Roman remains. Usually plural.",
      example:"A: Les vestiges de l'amphitheatre sont bien conserves.\nB: On peut encore imaginer les spectacles de l'epoque.",
      exampleSrc:"A: The remains of the amphitheater are well preserved.\nB: You can still imagine the shows of that era.",

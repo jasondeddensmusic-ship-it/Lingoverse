@@ -84,7 +84,7 @@ const LESSON_11 = {
      exampleSrc:"A: There are no more ashtrays in restaurants.\nB: Of course, smoking indoors is banned.",
      funFact:"France banned indoor smoking in 2008. Before that, cendriers were on every restaurant table."},
 
-    {type:"teach", trg:"le cagoule", src:"the hood, the balaclava", pos:"noun", gender:"f",
+    {type:"teach", trg:"la cagoule", src:"the hood, the balaclava", pos:"noun", gender:"f",
      note:"Feminine noun. A hooded garment covering the face. Also a rain hood.",
      example:"A: Les manifestants portaient des cagoules.\nB: Ils ne voulaient pas etre identifies.",
      exampleSrc:"A: The protesters were wearing balaclavas.\nB: They didn't want to be identified.",

@@ -72,7 +72,7 @@ const LESSON_11 = {
      exampleSrc:"A: His green loden coat is perfect for autumn.\nB: It's a fabric that lasts for years.",
      funFact:"Originally from the Tyrol region. In France, a 'loden' became associated with the intellectual bourgeoisie of the Left Bank."},
 
-    {type:"teach", trg:"la garde-chasse", src:"a gamekeeper", pos:"noun", gender:"m",
+    {type:"teach", trg:"le garde-chasse", src:"a gamekeeper", pos:"noun", gender:"m",
      note:"Masculine noun despite feminine article in compound.\nA person who protects wildlife on an estate.",
      example:"A: Le garde-chasse surveille les braconniers.\nB: Il connait chaque sentier de la foret.",
      exampleSrc:"A: The gamekeeper watches for poachers.\nB: He knows every path in the forest.",

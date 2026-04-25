@@ -29,7 +29,7 @@ const LESSON_14 = {
      exampleSrc:"A: The parachute opened just in time.\nB: The parachutist landed safe and sound.",
      funFact:"The word parachute was coined in French by Lenormand in 1783. He made the first recorded parachute jump from a tower in Montpellier."},
 
-    {type:"teach", trg:"la paraphe", src:"the initial, the flourish", pos:"noun", gender:"m",
+    {type:"teach", trg:"le paraphe", src:"the initial, the flourish", pos:"noun", gender:"m",
      note:"Masculine noun. An abbreviated signature or decorative flourish.\nParapher un document = to initial a document.",
      example:"A: Veuillez apposer votre paraphe en bas de chaque page.\nB: C'est necessaire pour valider le contrat.",
      exampleSrc:"A: Please put your initials at the bottom of each page.\nB: It's necessary to validate the contract.",

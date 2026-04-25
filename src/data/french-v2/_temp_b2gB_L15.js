@@ -59,7 +59,7 @@ const LESSON_15 = {
      exampleSrc:"A: The government made a U-turn on this reform.\nB: Popular pressure was too strong.",
      funFact:"'Demi-tour!' is a military command. In politics, a government 'demi-tour' is always embarrassing and heavily covered by media."},
 
-    {type:"teach", trg:"la non-sens", src:"nonsense", pos:"noun", gender:"m",
+    {type:"teach", trg:"le non-sens", src:"nonsense", pos:"noun", gender:"m",
      note:"Masculine noun. Something absurd or meaningless.\nC'est un non-sens = it's nonsensical. Borrowed from English.",
      example:"A: Cette decision est un non-sens economique.\nB: Elle va couter bien plus qu'elle ne rapportera.",
      exampleSrc:"A: This decision is economic nonsense.\nB: It will cost far more than it will bring in.",

@@ -72,7 +72,7 @@ const LESSON_9 = {
      exampleSrc:"A: This scoundrel has no scruples.\nB: He'd do anything for money.",
      funFact:"From 'mes-' (mis-) + 'creant' (believing). In medieval French, it meant infidel. Now it's a playful insult."},
 
-    {type:"teach", trg:"la desillusionnement", src:"disillusionment", pos:"noun", gender:"m",
+    {type:"teach", trg:"le désillusionnement", src:"disillusionment", pos:"noun", gender:"m",
      note:"Masculine noun. Loss of illusions or naive beliefs.",
      example:"A: Le desillusionnement des jeunes face a la politique est reel.\nB: Ils se sentent ignores.",
      exampleSrc:"A: Young people's disillusionment with politics is real.\nB: They feel ignored.",
@@ -90,7 +90,7 @@ const LESSON_9 = {
      exampleSrc:"A: This book is a miscellany of essays and poems.\nB: I love this variety.",
      funFact:"In academic French, 'Melanges' is a festschrift: a collection of essays honoring a scholar, a cherished tradition."},
 
-    {type:"teach", trg:"la dechainement", src:"an unleashing, an outburst", pos:"noun", gender:"m",
+    {type:"teach", trg:"le dechainement", src:"an unleashing, an outburst", pos:"noun", gender:"m",
      note:"Masculine noun. A violent release of force or emotion.",
      example:"A: Le dechainement de violence a surpris tout le monde.\nB: Personne ne l'avait vu venir.",
      exampleSrc:"A: The unleashing of violence surprised everyone.\nB: No one saw it coming.",

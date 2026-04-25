@@ -11,7 +11,7 @@ const LESSON_14 = {
      exampleSrc:"A: Malaria still kills thousands of people.\nB: Prevention through mosquito nets is essential.",
      funFact:"From Latin 'palus' meaning swamp. The disease was linked to swampy areas before mosquitoes were identified."},
 
-    {type:"teach", trg:"le decimeche", src:"the decimeter", pos:"noun", gender:"m",
+    {type:"teach", trg:"le décimètre", src:"the decimeter", pos:"noun", gender:"m",
      note:"Masculine noun. One tenth of a meter (10 centimeters).\nRarely used in daily life.",
      example:"A: La neige est tombee sur un decimetre.\nB: C'est beaucoup pour cette region.",
      exampleSrc:"A: Snow fell to a depth of one decimeter.\nB: That's a lot for this region.",

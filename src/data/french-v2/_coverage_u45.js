@@ -5,7 +5,7 @@ const COVERAGE_U45 = {
   steps:[
     {type:"intro",title:"Révision : couverture lexicale",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
     {type:"match",pairs:[{trg:"les chartes",src:"the charters"},{trg:"l'arete",src:"the fishbone, the ridge"},{trg:"les cabinets",src:"the offices, the toilet (old)"},{trg:"le cinquantieme",src:"the fiftieth"}]},
-    {type:"match",pairs:[{trg:"le cendrier",src:"the ashtray"},{trg:"le cagoule",src:"the hood, the balaclava"},{trg:"barbele",src:"barbed (wire)"},{trg:"le boulet",src:"the cannonball, the burden"}]},
+    {type:"match",pairs:[{trg:"le cendrier",src:"the ashtray"},{trg:"la cagoule",src:"the hood, the balaclava"},{trg:"barbele",src:"barbed (wire)"},{trg:"le boulet",src:"the cannonball, the burden"}]},
     {type:"match",pairs:[{trg:"l'embout",src:"the tip, the nozzle"},{trg:"decouvert",src:"uncovered, exposed"},{trg:"le cannelloni",src:"the cannelloni"},{trg:"le cigarillo",src:"the cigarillo"}]},
     {type:"match",pairs:[{trg:"le begaiement",src:"the stuttering, the stammering"},{trg:"begayer",src:"to stutter, to stammer"},{trg:"le debonnaire",src:"good-natured person"},{trg:"un assiste",src:"a welfare dependent"}]},
     {type:"match",pairs:[{trg:"l'algerien",src:"Algerian"},{trg:"le confrere",src:"the colleague (professional)"},{trg:"le dixieme",src:"the tenth, a tenth part"},{trg:"le compatriote",src:"the compatriot"}]},

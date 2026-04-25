@@ -40,7 +40,7 @@ const LESSON_17 = {id:"frv2_b2gD_l17", title:"Concepts abstraits", icon:"💡", 
    exampleSrc:"A: Neology is very active in French.\nB: With anglicisms and technology?\nA: Yes, and also words invented on social media.\nB: Language constantly evolves.",
    funFact:"The Academie Francaise actively creates French alternatives to English tech words: 'courriel' for email, 'mot-dièse' for hashtag."},
 
-  {type:"teach", trg:"la désillusionnement", src:"the disillusionment", pos:"noun", gender:"m",
+  {type:"teach", trg:"le désillusionnement", src:"the disillusionment", pos:"noun", gender:"m",
    note:"The loss of illusions or false beliefs.\nA key concept in political and social commentary.",
    example:"A: Le désillusionnement des jeunes face à la politique est inquiétant.\nB: Ils ne votent plus?\nA: De moins en moins.\nB: Il faut leur redonner confiance dans le système.",
    exampleSrc:"A: Young people's disillusionment with politics is worrying.\nB: They no longer vote?\nA: Less and less.\nB: We need to restore their confidence in the system.",

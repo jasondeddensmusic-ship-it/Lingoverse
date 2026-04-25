@@ -23,7 +23,7 @@ const LESSON_13 = {
      exampleSrc:"A: The detonation made the windows shake.\nB: It was probably fireworks.",
      funFact:"'Detoner' (to detonate) and 'detonner' (to clash, to be out of tune) are different words. The double n matters."},
 
-    {type:"teach", trg:"le desillusionne", src:"the disillusioned person", pos:"noun", gender:"m",
+    {type:"teach", trg:"le désillusionné", src:"the disillusioned person", pos:"noun", gender:"m",
      note:"Can be noun or adjective. Someone who has lost their illusions.\nFeminine: desillusionnee.",
      example:"A: Les electeurs desillusionne ne votent plus.\nB: Il faut restaurer leur confiance.",
      exampleSrc:"A: Disillusioned voters no longer vote.\nB: We need to restore their trust.",

@@ -35,7 +35,7 @@ const LESSON_17 = {id:"frv2_b2gC_l17", title:"Vie urbaine et architecture", icon
  exampleSrc:"A: The materialization of this project took three years.\nB: From idea to building, the road was long.",
  funFact:"In French traffic, matérialisation au sol means road markings. Lines, arrows, and zebra crossings."},
 
-{type:"teach", trg:"la grille-pain", src:"toaster", pos:"noun", gender:"m",
+{type:"teach", trg:"le grille-pain", src:"toaster", pos:"noun", gender:"m",
  note:"Masculine noun. A device for toasting bread.\nCompound: grille (grills) + pain (bread).",
  example:"A: Le grille-pain est en panne. On fait comment pour le petit-déjeuner ?\nB: On peut faire griller le pain au four.",
  exampleSrc:"A: The toaster is broken. How do we manage breakfast?\nB: We can toast the bread in the oven.",
@@ -47,7 +47,7 @@ const LESSON_17 = {id:"frv2_b2gC_l17", title:"Vie urbaine et architecture", icon
  exampleSrc:"A: Pass me the letter opener for this letter.\nB: Here, be careful, it is still a bit sharp.",
  funFact:"Before email, the coupe-papier was on every French desk. Now it is mostly a decorative object."},
 
-{type:"teach", trg:"la pied-à-terre", src:"pied-a-terre, small city apartment", pos:"noun", gender:"m",
+{type:"teach", trg:"le pied-à-terre", src:"pied-a-terre, small city apartment", pos:"noun", gender:"m",
  note:"Masculine noun. A small apartment kept for occasional use.\nLiterally: foot on ground.",
  example:"A: Ils ont un pied-à-terre à Paris pour leurs voyages d'affaires.\nB: C'est plus pratique qu'un hôtel à chaque fois.",
  exampleSrc:"A: They have a pied-a-terre in Paris for their business trips.\nB: It is more practical than a hotel every time.",

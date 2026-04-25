@@ -115,7 +115,7 @@ const LESSON_13 = {
      exampleSrc:"A: Shall we go to the creperie tonight?\nB: Good idea, I love savory crepes.",
      funFact:"Brittany is the home of crepes. 'Galette' is the savory buckwheat crepe, 'crêpe' the sweet one."},
 
-    {type:"teach", trg:"le béarnaise", src:"Bearnaise (sauce)", pos:"noun", gender:"f",
+    {type:"teach", trg:"la béarnaise", src:"Bearnaise (sauce)", pos:"noun", gender:"f",
      note:"Feminine noun. A rich butter and tarragon sauce from southwestern France.",
      example:"A: Un steak avec de la béarnaise, s'il vous plaît.\nB: Excellent choix !",
      exampleSrc:"A: A steak with Bearnaise sauce, please.\nB: Excellent choice!",
