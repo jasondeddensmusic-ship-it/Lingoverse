@@ -100,7 +100,7 @@ const LESSON_18 = {
      example:"A: De begroeiing op het dak houdt het gebouw koel.\nB: Een groen dak?\nA: Ja, met sedum en gras.\nB: Dat is goed voor de biodiversiteit.",
      exampleSrc:"A: The vegetation on the roof keeps the building cool.\nB: A green roof?\nA: Yes, with sedum and grass.\nB: That is good for biodiversity.",
      funFact:"'Groene daken' (green roofs) are increasingly popular and sometimes mandatory in Dutch cities. They absorb rainwater, insulate buildings, and create urban habitats."},
-    {type:"teach", trg:"de bedreigen", src:"to threaten", pos:"verb", gender:null,
+    {type:"teach", trg:"de bedreigen", src:"to threaten", pos:"noun", gender:null,
      note:"Inseparable verb. 'Bedreigd worden' = to be threatened.\n'Met uitsterven bedreigd' = threatened with extinction.",
      example:"A: De soort wordt met uitsterven bedreigd.\nB: Hoeveel zijn er nog?\nA: Minder dan honderd in het wild.\nB: Dat is kritiek. Er moet actie komen.",
      exampleSrc:"A: The species is threatened with extinction.\nB: How many are left?\nA: Fewer than a hundred in the wild.\nB: That is critical. Action is needed.",

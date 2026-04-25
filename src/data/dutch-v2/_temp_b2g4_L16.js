@@ -70,7 +70,7 @@ const LESSON_16 = {
      example:"A: Mijn dagindeling is erg druk.\nB: Wat doe je allemaal?\nA: Werk, sport, koken, en studie.\nB: Je hebt een goede planning nodig.",
      exampleSrc:"A: My daily schedule is very busy.\nB: What do you do?\nA: Work, sports, cooking, and study.\nB: You need good planning.",
      funFact:"Dutch people are known for their 'agenda' culture. Everything is scheduled, even social visits. Spontaneously dropping by is considered rude. 'Dagindeling' reflects this organized mindset."},
-    {type:"teach", trg:"de doodsbloeden", src:"to bleed to death (figuratively: to slowly die)", pos:"verb", gender:null,
+    {type:"teach", trg:"de doodsbloeden", src:"to bleed to death (figuratively: to slowly die)", pos:"noun", gender:null,
      note:"Separable verb: dood + bloeden.\nOften used figuratively for institutions dying slowly.",
      example:"A: Het dorp bloedt langzaam dood.\nB: Wat is er aan de hand?\nA: Alle winkels en scholen sluiten.\nB: Jongeren vertrekken naar de stad.",
      exampleSrc:"A: The village is slowly bleeding to death.\nB: What is happening?\nA: All shops and schools are closing.\nB: Young people are leaving for the city.",

@@ -54,7 +54,7 @@ const LESSON_16 = {
      exampleSrc:"A: We found a beautiful and quiet cove.\nB: With crystal clear water?",
      funFact:"Possibly from Arabic 'qal'a' (fortress) or pre-Roman origin. Mallorca and the Costa Brava are famous for their hidden calas with turquoise water."},
 
-    {type:"teach", trg:"el acaso", src:"perhaps, by chance", pos:"adv", gender:null,
+    {type:"teach", trg:"el acaso", src:"perhaps, by chance", pos:"noun", gender:null,
      note:"Adverb. Formal for 'quiz\u00e1s' or 'tal vez'.\nSi acaso = if anything, just in case.",
      example:"A: Acaso llueva esta tarde.\nB: Mejor llevamos paraguas.",
      exampleSrc:"A: Perhaps it will rain this afternoon.\nB: Better take an umbrella.",

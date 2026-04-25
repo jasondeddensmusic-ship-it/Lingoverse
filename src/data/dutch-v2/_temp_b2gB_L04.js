@@ -48,7 +48,7 @@ const LESSON_4 = {id:"nlv2_b2gB_l4", title:"Kinderen en Gezin", icon:"\u{1F476}"
  exampleSrc:"A: How's the brood doing?\nB: Busy, busy, busy. Three kids is a lot.\nA: But you wouldn't want to miss it.\nB: Absolutely not, it's wonderful.",
  funFact:"'Kroost' sounds warm and humorous. Parents often use it self-deprecatingly: 'Ik moet het kroost ophalen' (I need to pick up the brood)."},
 
-{type:"teach", trg:"de knutselen", src:"to do arts and crafts", pos:"verb", gender:null,
+{type:"teach", trg:"de knutselen", src:"to do arts and crafts", pos:"noun", gender:null,
  note:"Core Dutch childhood activity.\n'Knutselwerk' = craft project. 'Knutselspullen' = craft supplies.",
  example:"A: De kinderen willen knutselen.\nB: Goed idee. Wat hebben we nodig?\nA: Papier, lijm en een schaar.\nB: Ik pak het wel even.",
  exampleSrc:"A: The children want to do arts and crafts.\nB: Good idea. What do we need?\nA: Paper, glue and scissors.\nB: I'll get it.",

@@ -70,7 +70,7 @@ const LESSON_6 = {
      example:"A: De biograaf heeft tien jaar aan het boek gewerkt.\nB: Dat is lang.\nA: Hij wilde elk detail correct hebben.\nB: Die toewijding verdient respect.",
      exampleSrc:"A: The biographer worked on the book for ten years.\nB: That is long.\nA: He wanted every detail to be correct.\nB: That dedication deserves respect.",
      funFact:"Dutch biographers have written famous works about Rembrandt, Van Gogh, and the royal family. Geert Mak's Amsterdam biography is world-renowned."},
-    {type:"teach", trg:"de archiveren", src:"to archive", pos:"verb", gender:null,
+    {type:"teach", trg:"de archiveren", src:"to archive", pos:"noun", gender:null,
      note:"Inseparable verb. From 'archief' (archive).\n'Documenten archiveren' = to archive documents.",
      example:"A: Kun je deze dossiers archiveren?\nB: Digitaal of op papier?\nA: Beide. We hebben een back-up nodig.\nB: Ik doe het vanmiddag.",
      exampleSrc:"A: Can you archive these files?\nB: Digitally or on paper?\nA: Both. We need a backup.\nB: I will do it this afternoon.",

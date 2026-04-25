@@ -83,7 +83,7 @@ const LESSON_12 = {
       {trg:"herzien", src:"to revise"},
       {trg:"doodbloeien", src:"to bleed to death (fig.)"}
     ]},
-    {type:"teach", trg:"de ingeval", src:"in case", pos:"conj", gender:null,
+    {type:"teach", trg:"de ingeval", src:"in case", pos:"noun", gender:null,
      note:"Conjunction. In + geval (case).\nFormal alternative to 'als' or 'voor het geval dat'.",
      example:"A: Neem een paraplu mee, ingeval het gaat regenen.\nB: Het ziet er anders zonnig uit.\nA: In Nederland weet je het nooit.\nB: Dat is waar. Ik neem hem mee.",
      exampleSrc:"A: Take an umbrella, in case it rains.\nB: It looks sunny though.\nA: In the Netherlands you never know.\nB: That's true. I'll take it.",

@@ -66,7 +66,7 @@ const LESSON_10 = {
      hint:"An Italian borrowing meaning approximately or roughly. Used for estimates.",
      sSrc:"{1}, it costs about two thousand euros."},
 
-    {type:"teach", trg:"de tout ceci", src:"of all this", pos:"adv", gender:null,
+    {type:"teach", trg:"de tout ceci", src:"of all this", pos:"noun", gender:null,
      note:"Adverbial phrase. Refers to everything that has been discussed.",
      example:"A: Que pensez-vous de tout ceci ?\nB: C'est un sujet complexe qui merite reflexion.",
      exampleSrc:"A: What do you think of all this?\nB: It's a complex subject that deserves reflection.",

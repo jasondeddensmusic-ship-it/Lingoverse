@@ -11,7 +11,7 @@ const LESSON_13 = {
      exampleSrc:"A: A shiver of pleasure ran through her.\nB: The music had deeply moved her.",
      funFact:"In cooking, 'à frémissement' describes water just before boiling, barely trembling."},
 
-    {type:"teach", trg:"le cultissime", src:"the iconic (cult classic)", pos:"adj", gender:null,
+    {type:"teach", trg:"le cultissime", src:"the iconic (cult classic)", pos:"noun", gender:null,
      note:"Adjective used as noun. A superlative of 'culte' meaning ultra-iconic.\nInformal register.",
      example:"A: Ce film est devenu cultissime.\nB: Tout le monde peut citer les répliques.",
      exampleSrc:"A: This film has become iconic.\nB: Everyone can quote the lines.",
