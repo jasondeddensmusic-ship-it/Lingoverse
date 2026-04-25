@@ -31,7 +31,7 @@ const BATCH2_L_1 = {
    funFact:"孫 shows a child (子) connected to a thread (糸), representing the continuation of the family line. In Japanese culture, grandchildren are doted upon. The phrase mago ga kawaii (grandchild is cute) is practically universal among Japanese grandparents."},
 
   {type:"mc", q:"おじさん (with short i) means:", opts:["uncle","father","older brother","grandfather"], ans:"uncle",
-   hint:"Be careful with vowel length. Short i = u..., long ii = grandfather."},
+   hint:"Vowel length distinguishes generations. Short i = parent's brother. Long ii = grandfather."},
 
   {type:"teach", trg:"夫(おっと)", src:"husband (my own, humble)", pos:"noun", gender:null,
    note:"Humble form for YOUR husband. ごしゅじん is the honorific for someone else's.\nKanji: 夫(おっと).",

@@ -267,7 +267,7 @@ const UNIT_12 = {
       {type:"mc", q:"A woman says she went to the cinema. Which is correct?",
        opts:["Sono andata al cinema","Sono andato al cinema","Ho andata al cinema","Ha andato al cinema"],
        ans:"Sono andata al cinema",
-       hint:"Female speaker = -a ending. Movement verb = essere (not avere). First person = s...."},
+       hint:"Female speaker requires -a participle. Andare uses essere as auxiliary, conjugated for io."},
 
       {type:"fb", s:"Marco e Luca sono {1} a scuola.",
        a:["andati"],
