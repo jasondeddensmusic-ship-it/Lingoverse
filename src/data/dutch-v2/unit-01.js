@@ -133,10 +133,10 @@ export default {n:1,lang:"nl",srcLang:"en",track:"v2",title:"First Contact",sub:
         {type:"tip",title:"🔁 Quick Review: Zijn + Hebben",text:"ZIJN (to be): ben, bent, is, zijn\nHEBBEN (to have): heb, hebt, heeft, hebben\n\n• Ik ben student. = I am a student.\n• Ik heb een kat. = I have a cat.\n• Ben jij blij? = Are you happy?\n• Hij is groot. = He is tall."},
         {type:"mc",q:"'Ik heb een boek' means:",opts:["I have a book","I am a book","I want a book","I see a book"],ans:"I have a book",hint:"Hebben is the possession verb. Cognate with the English equivalent."},
         {type:"mc",q:"In a question, 'jij hebt' becomes:",opts:["Hebt jij?","Heb jij?","Heeft jij?","Hebben jij?"],ans:"Heb jij?",hint:"Inversion causes the -t to disappear from the verb form"},
-        {type:"mc",q:"'Wij hebben honger' means:",opts:["We are home","We have a dog","We are hungry","We have money"],ans:"We are hungry",hint:"Dutch says 'have hunger' not 'are h...'"},
+        {type:"mc",q:"'Wij hebben honger' means:",opts:["We are home","We have a dog","We are hungry","We have money"],ans:"We are hungry",hint:"Dutch uses hebben + honger where English uses a state-of-being construction."},
         {type:"fb",opts:["heeft","hebt","heb","hebben"],hint:"hij/zij uses which form?",s:"Hij ___ een kat.",a:"heeft"},
-        {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Dag dag","Tot ziens"],ans:"Tot ziens",hint:"From Lesson 1"},
-        {type:"mc",q:"'Waar is het station?', 'waar' means:",opts:["where","who","what","when"],ans:"where",hint:"From Lesson 3"},
+        {type:"mc",q:"How do you say 'goodbye' formally?",opts:["Doei","Hallo","Dag dag","Tot ziens"],ans:"Tot ziens",hint:"Two-word phrase that literally means 'until seeing'. Used in formal farewells."},
+        {type:"mc",q:"'Waar is het station?', 'waar' means:",opts:["where","who","what","when"],ans:"where",hint:"Question word asking about a physical location."},
         {type:"match",pairs:[{trg:"ik heb",src:"I have"},{trg:"wij hebben",src:"we have"},{trg:"hij heeft",src:"he has"},{trg:"jij hebt",src:"you have"}]}
   ]},
   {id:"v2u1l6",title:"Ja, Nee & Alsjeblieft",icon:"🙏",xp:20,board:true,steps:[
