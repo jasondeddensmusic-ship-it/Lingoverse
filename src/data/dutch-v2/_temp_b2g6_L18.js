@@ -67,7 +67,7 @@ const LESSON_18 = {
      hint:"A very common Dutch street complaint. Dog excrement left behind by irresponsible owners.",
      sSrc:"Watch where you walk, there is {1} on the sidewalk."},
 
-    {type:"teach", trg:"de detineren", src:"to detain, to hold in custody", pos:"verb", gender:null,
+    {type:"teach", trg:"de detineren", src:"to detain, to hold in custody", pos:"noun", gender:null,
      note:"From Latin 'detinere' (to hold back).\nFormal legal term for keeping someone in custody.",
      example:"A: De verdachte wordt gedetineerd in de gevangenis.\nB: Voor hoe lang?\nA: Tot het proces begint.\nB: Dat kan maanden duren.",
      exampleSrc:"A: The suspect is being detained in prison.\nB: For how long?\nA: Until the trial begins.\nB: That can take months.",

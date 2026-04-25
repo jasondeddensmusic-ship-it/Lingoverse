@@ -66,7 +66,7 @@ const LESSON_17 = {
      hint:"Before anything else, first of all. From Latin meaning 'walking before'.",
      sSrc:"You need to get a permit {1} before starting the construction work."},
 
-    {type:"teach", trg:"de c\u00f4t\u00e9", src:"aside, to one side", pos:"adv", gender:null,
+    {type:"teach", trg:"de c\u00f4t\u00e9", src:"aside, to one side", pos:"noun", gender:null,
      note:"Adverbial expression. To the side, or saved/put aside.",
      example:"A: J'ai mis un peu d'argent de cote.\nB: C'est sage, on ne sait jamais.",
      exampleSrc:"A: I've put a little money aside.\nB: That's wise, you never know.",
@@ -90,7 +90,7 @@ const LESSON_17 = {
      ans:"depuis belle lurette",
      hint:"The expression contains a diminutive noun from 'heurette' (little hour), used ironically for very long stretches."},
 
-    {type:"teach", trg:"de haut en bas", src:"from top to bottom", pos:"adv", gender:null,
+    {type:"teach", trg:"de haut en bas", src:"from top to bottom", pos:"noun", gender:null,
      note:"Adverbial expression. Thoroughly, or looking someone up and down.",
      example:"A: Elle m'a regarde de haut en bas.\nB: Quelle impolitesse !",
      exampleSrc:"A: She looked me up and down.\nB: How rude!",

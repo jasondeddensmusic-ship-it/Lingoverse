@@ -54,7 +54,7 @@ const LESSON_13 = {
      exampleSrc:"A: What was the reason?\nB: The new tax law.",
      funFact:"Aan + leiding (leading). The thing that 'leads to' an event. More specific than 'reden' (reason)."},
 
-    {type:"teach", trg:"het aangetekend", src:"registered (mail)", pos:"adj", gender:null,
+    {type:"teach", trg:"het aangetekend", src:"registered (mail)", pos:"noun", gender:null,
      note:"Adjective. Mail that requires signature on delivery.",
      example:"A: Ik moet een aangetekende brief versturen.\nB: Dat kan bij het postkantoor.",
      exampleSrc:"A: I need to send a registered letter.\nB: You can do that at the post office.",

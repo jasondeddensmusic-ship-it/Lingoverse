@@ -22,7 +22,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
    exampleSrc:"A: A coffee with cream, please.\nB: With a croissant?\nA: Yes, the classic breakfast.\nB: On the terrace, it's even better.",
    funFact:"Compound: 'café' + 'crème'. Often shortened to just 'un crème' in casual speech at the counter."},
 
-  {type:"teach", trg:"la crème", src:"the cream (adj: cream-colored)", pos:"adj", gender:null,
+  {type:"teach", trg:"la crème", src:"the cream (adj: cream-colored)", pos:"noun", gender:null,
    note:"As adjective: cream-colored, off-white.\nInvariant: does not change in plural or gender.",
    example:"A: J'adore cette robe crème.\nB: La couleur est très élégante.\nA: Elle va avec tout.\nB: C'est un classique qui ne se démode jamais.",
    exampleSrc:"A: I love this cream-colored dress.\nB: The color is very elegant.\nA: It goes with everything.\nB: It's a classic that never goes out of style.",
@@ -46,7 +46,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
    exampleSrc:"A: Concert cafes were very popular in the nineteenth century.\nB: It's the ancestor of the cabaret.\nA: People sang and danced there.\nB: Edith Piaf started in similar venues.",
    funFact:"Compound: 'café' + 'concert'. These venues launched many famous French chanson singers."},
 
-  {type:"teach", trg:"le frappé", src:"the iced / chilled (drink)", pos:"adj", gender:null,
+  {type:"teach", trg:"le frappé", src:"the iced / chilled (drink)", pos:"noun", gender:null,
    note:"Chilled or iced. Used for cold drinks.\nFeminine: frappée. Also a noun: 'un café frappé'.",
    example:"A: Un café frappé, s'il vous plaît.\nB: Avec de la glace pilée?\nA: Oui, il fait trop chaud aujourd'hui.\nB: Un bon choix pour l'été.",
    exampleSrc:"A: An iced coffee, please.\nB: With crushed ice?\nA: Yes, it's too hot today.\nB: A good choice for summer.",

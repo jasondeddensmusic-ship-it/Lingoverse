@@ -25,7 +25,7 @@ const LESSON_17 = {
      example:"A: Werk je in loondienst of als zzp'er?\nB: In vast dienstverband.\nA: Met pensioenopbouw?\nB: Ja, dat was voor mij belangrijk.",
      exampleSrc:"A: Do you work as an employee or as a freelancer?\nB: In permanent employment.\nA: With pension accrual?\nB: Yes, that was important to me.",
      funFact:"The Dutch employment system has three types: vast dienstverband (permanent), tijdelijk dienstverband (temporary), and zzp (self-employed). The zzp model has grown enormously."},
-    {type:"teach", trg:"de fascistisch", src:"fascist (adjective)", pos:"adj", gender:null,
+    {type:"teach", trg:"de fascistisch", src:"fascist (adjective)", pos:"noun", gender:null,
      note:"From Italian 'fascismo'.\n'Fascistisch regime' = fascist regime.\nUsed historically and politically.",
      example:"A: Het fascistisch regime onderdrukte de persvrijheid.\nB: Dat is een kenmerk van fascisme.\nA: Persvrijheid is de basis van democratie.\nB: Daarom moeten we die bewaken.",
      exampleSrc:"A: The fascist regime suppressed press freedom.\nB: That is a characteristic of fascism.\nA: Press freedom is the foundation of democracy.\nB: That is why we must guard it.",

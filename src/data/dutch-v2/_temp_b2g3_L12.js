@@ -70,7 +70,7 @@ const LESSON_12 = {
      example:"A: Mijn vader is doctorandus in de economie.\nB: Is dat hetzelfde als een master?\nA: Ongeveer. Het oude systeem voor de Bologna-hervorming.\nB: Ah, de titel uit de oude tijd.",
      exampleSrc:"A: My father has a doctorandus in economics.\nB: Is that the same as a master's?\nA: Approximately. The old system before the Bologna reform.\nB: Ah, the title from the old days.",
      funFact:"The 'drs.' title is uniquely Dutch. It literally means 'one who should become a doctor (PhD)'. Many older professionals still use it. The Bologna Process (2002) replaced it with BSc/MSc."},
-    {type:"teach", trg:"de dichtslibben", src:"to silt up, to become clogged", pos:"verb", gender:null,
+    {type:"teach", trg:"de dichtslibben", src:"to silt up, to become clogged", pos:"noun", gender:null,
      note:"Separable verb. Dicht + slibben (to silt).\nLiteral (waterways) and figurative (systems).",
      example:"A: De grachten dreigen dicht te slibben.\nB: Moeten ze gebaggerd worden?\nA: Ja, dat gebeurt elke paar jaar.\nB: Anders wordt het water te ondiep.",
      exampleSrc:"A: The canals risk silting up.\nB: Do they need to be dredged?\nA: Yes, that happens every few years.\nB: Otherwise the water becomes too shallow.",

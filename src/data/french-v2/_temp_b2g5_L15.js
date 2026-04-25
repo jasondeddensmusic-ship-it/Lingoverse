@@ -22,7 +22,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
    exampleSrc:"A: This football player is the best of his generation.\nB: He scores extraordinary goals.\nA: His technique is incomparable.\nB: He inspires millions of young people.",
    funFact:"From 'football' (borrowed from English) + '-eur'. France won the World Cup in 1998 and 2018."},
 
-  {type:"teach", trg:"le démonter", src:"to disassemble / to take apart", pos:"verb", gender:null,
+  {type:"teach", trg:"le démonter", src:"to disassemble / to take apart", pos:"noun", gender:null,
    note:"To take something apart into pieces.\nAlso figurative: 'démonter un argument' (to demolish an argument).",
    example:"A: Il faut démonter cette machine pour la réparer.\nB: Tu as les bons outils?\nA: Oui, j'ai tout ce qu'il faut.\nB: Fais attention à noter l'ordre des pièces.",
    exampleSrc:"A: We need to disassemble this machine to repair it.\nB: Do you have the right tools?\nA: Yes, I have everything I need.\nB: Be careful to note the order of the parts.",
@@ -52,7 +52,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
    exampleSrc:"A: Inhale deeply through the nose.\nB: For how many seconds?\nA: Five seconds, then exhale slowly.\nB: This breathing exercise calms stress.",
    funFact:"From Latin 'inhalare'. In French, 'un inhalateur' is the device used for asthma treatment."},
 
-  {type:"teach", trg:"le hérisser", src:"to bristle / to stand on end", pos:"verb", gender:null,
+  {type:"teach", trg:"le hérisser", src:"to bristle / to stand on end", pos:"noun", gender:null,
    note:"Hair or fur standing up from cold, fear, or irritation.\nReflexive: 'se hérisser' = to bristle with anger.",
    example:"A: Ses commentaires me hérissent.\nB: Il sait exactement comment t'énerver.\nA: Mon chat se hérisse quand il a peur.\nB: C'est un réflexe de protection.",
    exampleSrc:"A: His comments make me bristle.\nB: He knows exactly how to annoy you.\nA: My cat bristles when it's scared.\nB: It's a protective reflex.",
@@ -74,7 +74,7 @@ const LESSON_15 = {id:"frv2_b2g5_l15", title:"Science et recherche", icon:"🔬"
    exampleSrc:"A: This cheese is produced industrially.\nB: It doesn't taste the same as artisanal.\nA: It's cheaper though.\nB: Price isn't everything.",
    funFact:"From 'industriel' + '-ment'. French culture often values artisanal over industrial production."},
 
-  {type:"teach", trg:"le jeûner", src:"to fast", pos:"verb", gender:null,
+  {type:"teach", trg:"le jeûner", src:"to fast", pos:"noun", gender:null,
    note:"To abstain from food, for health or religion.\nThe noun is 'le jeûne' (the fast).",
    example:"A: Certaines personnes jeûnent pour leur santé.\nB: Le jeûne intermittent est à la mode.\nA: C'est recommandé par les médecins?\nB: Ça dépend, il faut demander conseil.",
    exampleSrc:"A: Some people fast for their health.\nB: Intermittent fasting is trendy.\nA: Is it recommended by doctors?\nB: It depends, you should seek advice.",

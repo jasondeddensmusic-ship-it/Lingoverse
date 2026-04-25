@@ -52,7 +52,7 @@ const LESSON_16 = {id:"frv2_b2g5_l16", title:"Droits humains et éthique", icon:
    exampleSrc:"A: Dropping out of school mainly affects disadvantaged backgrounds.\nB: The causes are multiple: poverty, violence, boredom.\nA: School must adapt to everyone.\nB: Catch-up programs exist.",
    funFact:"From 'dé-' (un-) + 'scolarisation' (schooling). A major policy challenge in France and worldwide."},
 
-  {type:"teach", trg:"la désaffection", src:"the disaffection / loss of interest", pos:"verb", gender:null,
+  {type:"teach", trg:"la désaffection", src:"the disaffection / loss of interest", pos:"noun", gender:null,
    note:"Loss of interest or attachment. Also: taking a building out of use.\nUsed for politics and institutions.",
    example:"A: La désaffection pour la politique inquiète les démocrates.\nB: Les jeunes ne votent plus?\nA: De moins en moins aux élections locales.\nB: Il faut renouveler l'offre politique.",
    exampleSrc:"A: The disaffection toward politics worries democrats.\nB: Young people no longer vote?\nA: Less and less in local elections.\nB: The political offering needs to be renewed.",

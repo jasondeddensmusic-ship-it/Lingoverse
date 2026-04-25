@@ -103,7 +103,7 @@ const LESSON_17 = {
      ans:"bankiert",
      hint:"Which verb describes managing your financial transactions via the internet?"},
 
-    {type:"teach", trg:"de amoreel", src:"amoral", pos:"adj", gender:null,
+    {type:"teach", trg:"de amoreel", src:"amoral", pos:"noun", gender:null,
      note:"Adjective. Without moral sense, not immoral but non-moral.",
      example:"A: Zijn gedrag was amoreel.\nB: Hij dacht niet na over goed of fout.",
      exampleSrc:"A: His behavior was amoral.\nB: He did not think about right or wrong.",

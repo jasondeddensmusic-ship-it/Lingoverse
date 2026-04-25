@@ -59,7 +59,7 @@ const LESSON_15 = {
      exampleSrc:"A: Outside of office hours, he's unreachable.\nB: It's his right to disconnect.",
      funFact:"'En dehors de ca' means 'apart from that'. Very common in everyday French conversation."},
 
-    {type:"teach", trg:"de cote", src:"aside, to the side", pos:"adv", gender:null,
+    {type:"teach", trg:"de cote", src:"aside, to the side", pos:"noun", gender:null,
      note:"Adverbial phrase. To one side, or saved (money).",
      example:"A: J'ai mis un peu d'argent de cote pour les vacances.\nB: Sage decision !",
      exampleSrc:"A: I put some money aside for the holidays.\nB: Wise decision!",
@@ -72,7 +72,7 @@ const LESSON_15 = {
      hint:"Being physically there with witnesses. A legal requirement for certain documents.",
      sSrc:"The contract must be signed {1} of two witnesses."},
 
-    {type:"teach", trg:"de bon sens", src:"sensible, common-sense", pos:"adv", gender:null,
+    {type:"teach", trg:"de bon sens", src:"sensible, common-sense", pos:"noun", gender:null,
      note:"Adverbial phrase. In accordance with common sense.",
      example:"A: C'est une decision de bon sens.\nB: Tout le monde devrait etre d'accord.",
      exampleSrc:"A: It's a common-sense decision.\nB: Everyone should agree.",

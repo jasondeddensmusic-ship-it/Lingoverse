@@ -6,7 +6,7 @@ const LESSON_5 = {
      desc:"Learn how Italians practice sustainability in daily life: zero-waste shopping, organic food, sustainable fashion, and the culture of repairing rather than replacing.",
      goals:["Discuss sustainable lifestyle choices in Italian","Understand Italian recycling culture","Talk about organic and local food"]},
 
-    {type:"teach", trg:"il biologico", src:"organic (food/farming)", pos:"adj", gender:"m",
+    {type:"teach", trg:"il biologico", src:"organic (food/farming)", pos:"noun", gender:"m",
      note:"Masculine adjective. 'Cibo biologico' = organic food.\nAbbreviated: 'bio.' 'Prodotto bio' = organic product.",
      example:"A: Compri cibo biologico?\nB: Si, soprattutto frutta e verdura bio.",
      exampleSrc:"A: Do you buy organic food?\nB: Yes, especially organic fruit and vegetables.",

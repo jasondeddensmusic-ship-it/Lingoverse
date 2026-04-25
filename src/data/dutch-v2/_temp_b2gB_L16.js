@@ -36,7 +36,7 @@ const LESSON_16 = {id:"nlv2_b2gB_l16", title:"Kunst en Cultuur", icon:"\u{1F3A8}
  exampleSrc:"A: The cheering in the stadium was deafening.\nB: Who had scored?\nA: Our striker, in the last minute!\nB: No wonder everyone went crazy.",
  funFact:"Dutch football fans are famous for their 'oranjegekte' (orange madness), turning entire cities orange during international tournaments."},
 
-{type:"teach", trg:"de keltisch", src:"Celtic", pos:"adj", gender:null,
+{type:"teach", trg:"de keltisch", src:"Celtic", pos:"noun", gender:null,
  note:"Relating to Celtic culture and peoples.\n'De Kelten' = the Celts.",
  example:"A: Er is Keltische invloed in Zuid-Limburg.\nB: Echt? Ik dacht dat dat alleen in Ierland was.\nA: Nee, de Kelten leefden ook hier.\nB: Dat wist ik niet, fascinerend.",
  exampleSrc:"A: There's Celtic influence in South Limburg.\nB: Really? I thought that was only in Ireland.\nA: No, the Celts lived here too.\nB: I didn't know that, fascinating.",

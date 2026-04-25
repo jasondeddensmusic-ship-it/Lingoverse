@@ -16,7 +16,7 @@ const LESSON_4 = {
      exampleSrc:"A: I am looking for someone who knows how to program in Python.\nB: I know a girl who could help you.",
      funFact:"This is one of the clearest subjunctive triggers in Italian. Job ads use it constantly: 'Si cerca candidato che abbia esperienza...' The subjunctive tells you the ideal candidate has not been found yet, which is the whole point of advertising."},
 
-    {type:"teach", trg:"il piu bello che abbia mai", src:"the most beautiful I have ever (subjunctive)", pos:"verb", gender:null,
+    {type:"teach", trg:"il piu bello che abbia mai", src:"the most beautiful I have ever (subjunctive)", pos:"noun", gender:null,
      note:"Superlative + 'che' + congiuntivo passato.\nExpresses a personal, subjective judgment.\n'Il piu ... che + congiuntivo' is standard.",
      example:"A: E il libro piu interessante che abbia mai letto.\nB: Davvero? Devo leggerlo anch'io.",
      exampleSrc:"A: It is the most interesting book I have ever read.\nB: Really? I must read it too.",

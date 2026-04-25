@@ -30,7 +30,7 @@ const LESSON_6 = {
      exampleSrc:"A: With reference to your email of April 5...\nB: I am writing regarding the job offer.",
      funFact:"Italian formal emails love these reference phrases. They establish context before the main message. 'In riferimento a,' 'in merito a,' 'con riferimento a,' 'relativamente a' are all interchangeable. They signal professionalism and make the email's purpose immediately clear."},
 
-    {type:"teach", trg:"La prego di", src:"I kindly ask you to (formal)", pos:"verb", gender:null,
+    {type:"teach", trg:"La prego di", src:"I kindly ask you to (formal)", pos:"noun", gender:null,
      note:"Extremely polite request formula. 'Pregare' = to pray/beg.\n'La' refers to 'Lei' (formal you).",
      example:"A: La prego di inviarmi il documento.\nB: La prego di confermare la ricezione.",
      exampleSrc:"A: I kindly ask you to send me the document.\nB: I kindly ask you to confirm receipt.",

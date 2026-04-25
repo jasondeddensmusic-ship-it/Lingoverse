@@ -310,13 +310,13 @@ const UNIT_12 = {n:12, lang:"pt", srcLang:"en", track:"v2", title:"Vamos viajar!
  exampleSrc:"A: See you soon, Ana!\nB: See you soon! Bye bye.",
  funFact:"'Até' means 'until'. You can swap 'logo' for 'amanhã' (tomorrow), 'breve' (soon), or 'mais tarde' (later) to be more specific."},
 
-{type:"teach", trg:"Um beijo", src:"a kiss", pos:"intj", gender:"m",
+{type:"teach", trg:"Um beijo", src:"a kiss", pos:"noun", gender:"m",
  note:"Affectionate letter closing. Brazilians use this freely between friends, regardless of gender.",
  example:"A: Escrevo mais depois. Um beijo!\nB: Um beijo para você também!",
  exampleSrc:"A: I will write more later. A kiss!\nB: A kiss for you too!",
  funFact:"In Brazil, one air-kiss on the cheek is the standard greeting between friends. 'Um beijo' in a message mirrors this physical warmth."},
 
-{type:"teach", trg:"Um abraço", src:"a hug", pos:"intj", gender:"m",
+{type:"teach", trg:"Um abraço", src:"a hug", pos:"noun", gender:"m",
  note:"Warm but slightly less intimate closing than 'Um beijo'. Common between male friends and colleagues.",
  example:"A: Boa viagem! Um abraço, João.\nB: Obrigado! Um abraço para você.",
  exampleSrc:"A: Have a good trip! A hug, João.\nB: Thank you! A hug for you too.",

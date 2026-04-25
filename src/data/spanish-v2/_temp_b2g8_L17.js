@@ -77,7 +77,7 @@ const LESSON_17 = {id:"esv2_b2g8_l17",title:"Deporte y competición",icon:"⚽",
  ans:"Del árabe",
  hint:"Chess terminology in Spanish came through Arabic-speaking cultures in medieval Al-Andalus."},
 
-{type:"teach",trg:"el liguero",src:"the league-related (adj) / garter",pos:"adj",gender:null,
+{type:"teach",trg:"el liguero",src:"the league-related (adj) / garter",pos:"noun",gender:null,
  note:"Adjective (also noun). Related to a sports league.\nPartido liguero = league match.",
  example:"A: El calendario liguero es muy apretado este año.\nB: Juegan dos partidos por semana durante dos meses.",
  exampleSrc:"A: The league calendar is very tight this year.\nB: They play two matches per week for two months.",
