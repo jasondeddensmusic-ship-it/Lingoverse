@@ -129,7 +129,7 @@ const BATCH3_U08_L2 = {
     {type:"mc", q:"What is the difference between 'caro' and 'economico'?",
      opts:["They mean the same thing","Caro = small, economico = large","Caro = new, economico = used","Caro = expensive, economico = inexpensive"],
      ans:"Caro = expensive, economico = inexpensive",
-     hint:"They are opposites on the price scale. 'C...' also means 'dear' (beloved). 'E...' is a false friend meaning cheap, not 'economic.'"}
+     hint:"These two adjectives are opposites on the price scale. The first also means 'dear' in the affectionate sense; the second is a false friend (means affordable, not 'economic')."}
   ,{type:"match",pairs:[{trg:"conveniente",src:"affordable / good value"},{trg:"la busta",src:"the bag / envelope"},{trg:"la fattura",src:"the invoice / formal receipt"},{trg:"incartare",src:"to wrap (a package)"}]}]
 };
 export default BATCH3_U08_L2;

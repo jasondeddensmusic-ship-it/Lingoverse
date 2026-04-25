@@ -101,7 +101,7 @@ const LESSON_5 = {
      q:"\u00bfQu\u00e9 es una bocacalle?",
      opts:["La entrada a una calle lateral","Un restaurante de comida r\u00e1pida","Un tipo de pan","Una parada de autob\u00fas"],
      ans:"La entrada a una calle lateral",
-     hint:"A compound word: 'boca' (mouth) + 'c...' (street). Where one street opens into another."},
+     hint:"Compound: boca (mouth/opening) + the noun for an urban thoroughfare. The 'mouth' of one road into another."},
 
     {type:"teach", trg:"el cabo", src:"the cape, end, corporal", pos:"noun", gender:"m",
      note:"Masculine noun. Multiple meanings.\nAl cabo de = at the end of. Cabo de Gata = famous cape.",
