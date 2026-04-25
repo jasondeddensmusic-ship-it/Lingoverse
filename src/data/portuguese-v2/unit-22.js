@@ -74,7 +74,7 @@ const UNIT_22 = {
             text:"Brazilian Portuguese often prefers the reflexive se construction to express impersonal or passive meaning:\n\nVende-se a casa. (The house is for sale. / One sells the house.)\nFala-se português aqui. (Portuguese is spoken here.)\nAluga-se apartamento. (Apartment for rent.)\n\nThis se-passiva is extremely common in real estate ads, shop signs, and notices. It is considered less formal than the ser + past participle passive, and more natural in everyday written Brazilian."}},
 {type:"match", pairs:[
   {trg:"escuta!", src:"listen! (tu)"},
-  {trg:"não deixe!", src:"don"},
+  {trg:"não deixe!", src:"don't let! / don't allow!"},
   {trg:"calma!", src:"stay calm! / easy!"},
   {trg:"faz favor", src:"please (soft form)"},
   {trg:"meu amor", src:"my love / dear"}
