@@ -60,7 +60,7 @@ const LESSON_16 = {
      example:"A: We hebben een duurzaamheidscoordinator aangesteld.\nB: Wat doet die precies?\nA: Het energieverbruik monitoren en verminderen.\nB: Goed. Daar hebben we iemand voor nodig.",
      exampleSrc:"A: We have appointed a sustainability coordinator.\nB: What does that person do exactly?\nA: Monitor and reduce energy consumption.\nB: Good. We need someone for that.",
      funFact:"One of the longer Dutch compound nouns: duurzaamheid (sustainability) + s + coordinator. Such job titles are increasingly common in Dutch organizations as sustainability becomes mandatory."},
-    {type:"teach", trg:"het decimaal", src:"the decimal", pos:"noun", gender:"c",
+    {type:"teach", trg:"de decimaal", src:"the decimal", pos:"noun", gender:"c",
      note:"A de-word. From Latin 'decimalis'.\nDutch uses comma for decimals: 3,14.",
      example:"A: Rond af op twee decimalen.\nB: Dus 3,14?\nA: Precies.\nB: In Nederland gebruiken we een komma, niet een punt.",
      exampleSrc:"A: Round to two decimal places.\nB: So 3.14?\nA: Exactly.\nB: In the Netherlands we use a comma, not a period.",

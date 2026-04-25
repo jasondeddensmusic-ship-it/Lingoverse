@@ -10,7 +10,7 @@ const LESSON_18 = {
      example:"A: Een dodecaeder heeft twaalf vlakken.\nB: Zijn dat allemaal vijfhoeken?\nA: Ja, regelmatige vijfhoeken.\nB: Dat is een prachtige geometrische vorm.",
      exampleSrc:"A: A dodecahedron has twelve faces.\nB: Are those all pentagons?\nA: Yes, regular pentagons.\nB: That is a beautiful geometric shape.",
      funFact:"Roman dodecahedra have been found in the Netherlands (Maastricht, among others). These mysterious Bronze Age objects still puzzle archaeologists today."},
-    {type:"teach", trg:"het dakakker", src:"rooftop farm", pos:"noun", gender:"c",
+    {type:"teach", trg:"de dakakker", src:"rooftop farm", pos:"noun", gender:"c",
      note:"De-word. Dak (roof) + akker (field).\nUrban farming on rooftops. Growing trend.",
      example:"A: Er is een dakakker op het kantoorgebouw.\nB: Wat verbouwen ze?\nA: Groenten en kruiden voor het restaurant beneden.\nB: Duurzaam en lokaal. Goed idee.",
      exampleSrc:"A: There is a rooftop farm on the office building.\nB: What do they grow?\nA: Vegetables and herbs for the restaurant downstairs.\nB: Sustainable and local. Good idea.",
@@ -73,7 +73,7 @@ const LESSON_18 = {
      funFact:"Dutch scientists have won 22 Nobel Prizes, a remarkable number for a small country. Van der Waals, Lorentz, and Debye are among the most famous Dutch laureates."},
     {type:"match", pairs:[
       {trg:"de dodecaeder", src:"dodecahedron"},
-      {trg:"het dakakker", src:"rooftop farm"},
+      {trg:"de dakakker", src:"rooftop farm"},
       {trg:"de innovatie", src:"innovation"},
       {trg:"het genotsmiddel", src:"stimulant"},
       {trg:"de gpsapparatuur", src:"GPS equipment"}

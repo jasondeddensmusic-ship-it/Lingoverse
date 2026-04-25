@@ -18,7 +18,7 @@ const LESSON_13 = {
      exampleSrc:"A: The municipality has insufficient funds.\nB: For which project?\nA: The new swimming pool.\nB: Maybe they can apply for a subsidy.",
      funFact:"Dutch municipalities depend heavily on national government funding. The 'gemeentefonds' (municipality fund) distributes billions annually."},
 
-    {type:"teach", trg:"de geldlust", src:"the greed for money, the money lust", pos:"noun", gender:"c",
+    {type:"teach", trg:"de geldlust", src:"the greed for money, the money lust", pos:"noun", gender:"n",
      note:"Compound: geld (money) + lust (desire, craving).\nA negative word for excessive desire for wealth.",
      example:"A: Zijn geldlust kent geen grenzen.\nB: Hij wil altijd meer.\nA: Geld maakt niet gelukkig.\nB: Maar armoede ook niet.",
      exampleSrc:"A: His greed for money knows no bounds.\nB: He always wants more.\nA: Money does not make you happy.\nB: But poverty does not either.",

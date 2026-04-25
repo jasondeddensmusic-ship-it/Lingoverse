@@ -18,7 +18,7 @@ const LESSON_12 = {
      exampleSrc:"A: Have you ever played korfball?\nB: No, how does it work?\nA: It's a bit like basketball, but mixed gender.\nB: That sounds fun, mixed teams!",
      funFact:"Korfball was invented in Amsterdam in 1902 by Nico Broekhuysen. It is one of the few sports where men and women play together on the same team. The Netherlands dominates internationally."},
 
-    {type:"teach", trg:"de jukebox", src:"the jukebox", pos:"noun", gender:"c",
+    {type:"teach", trg:"de jukebox", src:"the jukebox", pos:"noun", gender:"n",
      note:"Common gender (de). From English.\n'Een munt in de jukebox gooien' = to put a coin in the jukebox.",
      example:"A: Staat er een jukebox in dit cafe?\nB: Ja, achteraan bij de bar.\nA: Geweldig, ik wil iets van de Beatles draaien.\nB: Klassiek!",
      exampleSrc:"A: Is there a jukebox in this cafe?\nB: Yes, at the back by the bar.\nA: Great, I want to play something by the Beatles.\nB: Classic!",
