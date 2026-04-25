@@ -36,11 +36,7 @@ const LESSON_14 = {
      ans:"Ongeveer 2 kilo",
      hint:"The Dutch are the world's biggest consumers of this candy per capita. The amount is measured in kilograms, not grams."},
 
-<<<<<<< HEAD
     {type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"n",
-=======
-    {type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"c",
->>>>>>> origin/main
      note:"Common gender (de). Named after Les Baux, France where it was discovered.\nThe raw material for aluminium.",
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in tropische landen.\nB: Suriname was ooit een grote producent.",
      exampleSrc:"A: Bauxite is the raw material for aluminium.\nB: Where is it mined?\nA: Mainly in tropical countries.\nB: Suriname was once a major producer.",

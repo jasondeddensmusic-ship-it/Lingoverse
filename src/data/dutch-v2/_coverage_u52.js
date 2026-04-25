@@ -6,11 +6,7 @@ const COVERAGE_U52 = {
     {type:"intro",title:"Herhaling: Dekkingscheck",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
     {type:"match",pairs:[{trg:"de cyberoorlog",src:"the cyberwar"},{trg:"de expert",src:"the expert"},{trg:"de eyeliner",src:"the eyeliner"},{trg:"de finale",src:"the final (competition)"}]},
     {type:"match",pairs:[{trg:"het bachelorjaar",src:"the bachelor year"},{trg:"het examenrooster",src:"the exam schedule"},{trg:"filosofisch",src:"philosophical"},{trg:"facultair",src:"pertaining to a faculty/department"}]},
-<<<<<<< HEAD
     {type:"match",pairs:[{trg:"de deblokkering",src:"the unblocking, the release"},{trg:"de decimaal",src:"the decimal"},{trg:"departementaal",src:"departmental"},{trg:"het documentatiemateriaal",src:"the documentation material"}]},
-=======
-    {type:"match",pairs:[{trg:"de deblokkering",src:"the unblocking, the release"},{trg:"het decimaal",src:"the decimal"},{trg:"departementaal",src:"departmental"},{trg:"het documentatiemateriaal",src:"the documentation material"}]},
->>>>>>> origin/main
     {type:"match",pairs:[{trg:"de festivalganger",src:"the festival-goer"},{trg:"de festivalorganisator",src:"the festival organizer"},{trg:"folkloristisch",src:"folkloristic, pertaining to folklore"},{trg:"de flamencodanseres",src:"the flamenco dancer (female)"}]},
     {type:"match",pairs:[{trg:"de antraciet",src:"the anthracite"},{trg:"experimenteel",src:"experimental"},{trg:"de franc",src:"the franc (currency)"},{trg:"de gave",src:"the gift, the talent"}]},
     {type:"match",pairs:[{trg:"figureren",src:"to figure, to appear (in art/film)"},{trg:"felblauw",src:"bright blue, vivid blue"},{trg:"de commercie",src:"the commerce, the commercial sector"},{trg:"de emancipatiezaken",src:"the emancipation affairs"}]},

@@ -6,11 +6,7 @@ const LESSON_18 = {id:"nlv2_b2gB_l18", title:"Sport en Vrije Tijd", icon:"\u{26B
  desc:"The Dutch love their sports, from football to ice skating to korfbal. Learn the vocabulary for discussing recreation, athletics, and the unique Dutch sports culture.",
  goals:["8 sports and leisure nouns","Discuss Dutch sports culture","Navigate recreation vocabulary"]},
 
-<<<<<<< HEAD
 {type:"teach", trg:"het korfbal", src:"korfball", pos:"noun", gender:"n",
-=======
-{type:"teach", trg:"het korfbal", src:"korfball", pos:"noun", gender:"c",
->>>>>>> origin/main
  note:"A Dutch team sport, similar to basketball.\nPlayed by mixed-gender teams.",
  example:"A: Heb je weleens korfbal gespeeld?\nB: Nee, wat is dat precies?\nA: Een beetje zoals basketbal, maar gemengd.\nB: Dat klinkt leuk, ik wil het proberen.",
  exampleSrc:"A: Have you ever played korfball?\nB: No, what is it exactly?\nA: A bit like basketball, but mixed gender.\nB: That sounds fun, I want to try it.",

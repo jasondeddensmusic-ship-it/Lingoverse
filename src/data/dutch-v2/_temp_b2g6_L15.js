@@ -42,11 +42,7 @@ const LESSON_15 = {
      ans:"Een Nederlandse handelsmaatschappij",
      hint:"The Dutch East India Company, established in 1602. It was the world's first multinational corporation."},
 
-<<<<<<< HEAD
     {type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"n",
-=======
-    {type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"c",
->>>>>>> origin/main
      note:"From the French village Les Baux.\nThe ore from which aluminum is extracted.",
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in Australie en Guinee.\nB: Het is een belangrijke exportproduct.",
      exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in Australia and Guinea.\nB: It is an important export product.",
