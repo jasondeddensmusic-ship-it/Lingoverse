@@ -38,7 +38,7 @@ export default {n:10,lang:"fr",srcLang:"en",track:"v2",title:"Le passé composé
         {type:"mc",q:"DR MRS VANDERTRAMP verbs all share:",opts:["They use être in passé composé","The same conjugation","They are regular","They describe food"],ans:"They use être in passé composé",hint:"This mnemonic groups verbs by their helper verb choice."},
         {type:"fb",opts:["venue","venu","venus","venir"],hint:"She came. Feminine singular: add -e to the participle.",s:"Elle est {1} hier soir. (to come)",a:"venue"},
         {type:"match",pairs:[{trg:"sortir -> sorti",src:"to go out"},{trg:"entrer -> entré",src:"to enter"},{trg:"monter -> monté",src:"to go up"},{trg:"descendre -> descendu",src:"to go down"}]},
-        {type:"mc",q:"'Je suis né à Paris' means:",opts:["I went to Paris","I was born in Paris","I live in Paris","I came from Paris"],ans:"I was born in Paris",hint:"Né = b.... One of the être verbs in the mnemonic."},
+        {type:"mc",q:"'Je suis né à Paris' means:",opts:["I went to Paris","I was born in Paris","I live in Paris","I came from Paris"],ans:"I was born in Paris",hint:"Né is the past participle of naître. One of the DR/MRS VANDERTRAMP être verbs."},
         {type:"fb",opts:["tombé","tombée","tomber","tombés"],hint:"He fell. Masculine singular: standard -er participle.",s:"Il est {1} dans l'escalier! (to fall)",a:"tombé"},
         {type:"mc",q:"The opposite pairs are: monter/descendre, entrer/sortir, and:",opts:["Naître/mourir","Aller/venir","All of these","Arriver/partir"],ans:"All of these",hint:"Many être verbs come in opposite pairs of movement."},
         {type:"fb",opts:["montés","monté","montée","montées"],hint:"We went up. Nous (masc. plural): add -s.",s:"Nous sommes {1} à l'hôtel. (to go up, masc. pl.)",a:"montés"},
