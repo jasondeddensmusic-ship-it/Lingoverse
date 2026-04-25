@@ -8,10 +8,17 @@ const COVERAGE_U54 = {
     {type:"match",pairs:[{trg:"de doodsbloeden",src:"to bleed to death (figuratively: to slowly die)"},{trg:"doorsleuren",src:"to drag through, to push through forcefully"},{trg:"de beleidsmens",src:"the policy person"},{trg:"het dienstverband",src:"the employment relationship"}]},
     {type:"match",pairs:[{trg:"de fascistisch",src:"fascist (adjective)"},{trg:"het gebod",src:"the commandment, the directive"},{trg:"de cliënt",src:"the client"},{trg:"het apartheidsregime",src:"the apartheid regime"}]},
     {type:"match",pairs:[{trg:"associëren",src:"to associate"},{trg:"het avondmaal",src:"the Last Supper; the evening meal (archaic)"},{trg:"de exploitatie",src:"the operation, the running (of a business)"},{trg:"de examencommissie",src:"the examination board"}]},
+<<<<<<< HEAD
     {type:"match",pairs:[{trg:"de gallicismen",src:"the gallicisms (French-influenced words)"},{trg:"het dvd",src:"the DVD"},{trg:"de denkwijs",src:"the way of thinking (variant of denkwijze)"},{trg:"de designthermoskan",src:"the designer thermos"}]},
     {type:"match",pairs:[{trg:"de detineren",src:"to detain, to hold in custody"},{trg:"de deltaexpositie",src:"the delta exhibition"},{trg:"de divisiestructuur",src:"the division structure"},{trg:"het computerforum",src:"the computer forum"}]},
     {type:"match",pairs:[{trg:"de beelden",src:"to depict, to portray; statues/images"},{trg:"de eist",src:"the demand, the requirement"},{trg:"de doorsleuren",src:"to drag through forcefully"},{trg:"de dossen",src:"to dress up (informal)"}]},
     {type:"match",pairs:[{trg:"de drukgebruiker",src:"the drug user"},{trg:"het drugsopvangcentrum",src:"the drug reception center"},{trg:"de boekenkist",src:"the book chest, the book box"},{trg:"de darts",src:"darts (the sport)"}]},
+=======
+    {type:"match",pairs:[{trg:"de gallicismen",src:"the gallicisms (French-influenced words)"},{trg:"het dvd",src:"the DVD"},{trg:"de denkwijs",src:"the way of thinking (variant of denkwijze)"},{trg:"het designthermoskan",src:"the designer thermos"}]},
+    {type:"match",pairs:[{trg:"de detineren",src:"to detain, to hold in custody"},{trg:"het deltaexpositie",src:"the delta exhibition"},{trg:"de divisiestructuur",src:"the division structure"},{trg:"het computerforum",src:"the computer forum"}]},
+    {type:"match",pairs:[{trg:"de beelden",src:"to depict, to portray; statues/images"},{trg:"de eist",src:"the demand, the requirement"},{trg:"de doorsleuren",src:"to drag through forcefully"},{trg:"de dossen",src:"to dress up (informal)"}]},
+    {type:"match",pairs:[{trg:"het drukgebruiker",src:"the drug user"},{trg:"het drugsopvangcentrum",src:"the drug reception center"},{trg:"de boekenkist",src:"the book chest, the book box"},{trg:"de darts",src:"darts (the sport)"}]},
+>>>>>>> origin/main
     {type:"match",pairs:[{trg:"de fietsstad",src:"the cycling city"},{trg:"de franc",src:"the franc (currency)"},{trg:"de electro",src:"electronic music"},{trg:"de arisch",src:"Aryan (historical term)"}]},
     {type:"match",pairs:[{trg:"het geboortehuis",src:"the birth house"},{trg:"de continuïteit",src:"the continuity"},{trg:"de formuleering",src:"the phrasing, the wording"},{trg:"het enthousiasme",src:"the enthusiasm"}]},
     {type:"fb",s:"{1}",a:["doorsleuren"],opts:["doorsleuren","de doodsbloeden","associëren","de detineren"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to drag through, to push through forcefully"},
