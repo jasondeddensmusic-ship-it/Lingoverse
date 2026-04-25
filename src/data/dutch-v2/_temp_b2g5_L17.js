@@ -76,7 +76,7 @@ const LESSON_17 = {
     {type:"mc", q:"In modern Dutch, 'gift' means donation. What does it mean in German?",
      opts:["luck","poison","money","gift"],
      ans:"poison",
-     hint:"A classic false friend. Dutch kept the 'present' meaning, German kept 'p...'."},
+     hint:"A classic false friend. The two languages diverged in opposite directions: Dutch kept the friendly meaning, German took a darker turn."},
     {type:"fb", s:"Het {1} is enorm dit jaar.", a:["festivalterrein"],
      opts:["festivalterrein","feestmaand","friettent","festivalorganisator"],
      hint:"The grounds where a music festival takes place. A het-word compound.",

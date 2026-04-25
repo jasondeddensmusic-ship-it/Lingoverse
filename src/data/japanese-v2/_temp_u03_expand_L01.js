@@ -31,7 +31,7 @@ const LESSON_3 = {
      funFact:"The word gomu comes from Dutch 'gom' (gum/rubber). MONO erasers by Tombow are considered the best in the world and are exported to over 70 countries. Japanese children collect cute novelty erasers shaped like food and animals."},
 
     {type:"mc", q:"えんぴつ literally means:", opts:["lead brush","wood pen","sharp point","writing stick"], ans:"lead brush",
-     hint:"The kanji combine 'l...' (the graphite material) and 'writing b....'"},
+     hint:"鉛筆: the kanji 鉛 names the graphite-related metal, 筆 names the traditional calligraphy writing implement."},
 
     {type:"teach", trg:"つくえ", src:"desk", pos:"noun", gender:null,
      note:"A desk for studying or working. Dining tables use テーブル (teeburu).\nKanji: 机.",
@@ -82,7 +82,7 @@ const LESSON_3 = {
      funFact:"Pasokon is a uniquely Japanese abbreviation. English speakers say PC, but Japanese created their own shortening. Japanese people also say sumaho (smartphone), paato (part-time job), and konbini (convenience store). Abbreviating loanwords is an art form."},
 
     {type:"mc", q:"でんわ literally means:", opts:["far voice","electric talk","wire sound","signal box"], ans:"electric talk",
-     hint:"The kanji combine 'e...' and 't.../conversation.'"},
+     hint:"電話: 電 names the energy form (powering lightning bolts), 話 names the act of speaking."},
 
     {type:"teach", trg:"かみ", src:"paper", pos:"noun", gender:null,
      note:"One of the most common materials. Homophone: 髪 (kami, hair) and 神 (kami, god).\nKanji: 紙.",

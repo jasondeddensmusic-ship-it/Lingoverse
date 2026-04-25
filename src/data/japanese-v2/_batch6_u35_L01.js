@@ -73,7 +73,7 @@ const BATCH6_L1 = {
      funFact:"繋(つな)がる (to be connected) has become a defining word of the digital age. IoT (モノのインターネット) means everything 繋(つな)がる. Social media 繋(つな)がり (connections) complement real-world relationships. The pandemic showed that digital 繋(つな)がり can sustain communities. Japan aims for Society 5.0 where everything is seamlessly 繋(つな)がる."},
 
     {type:"mc", q:"仮想現実(かそうげんじつ) is:", opts:["Simulated training","Virtual reality (VR)","Augmented reality","Actual reality"], ans:"Virtual reality (VR)",
-     hint:"This term combines 'v...' and 'r...' for computer-generated environments."},
+     hint:"仮想 (provisional/imagined) + 現実 (actuality). The exact translation matches the famous three-letter tech acronym."},
 
     {type:"match", pairs:[
       {trg:"人工知能(じんこうちのう)", src:"artificial intelligence"},

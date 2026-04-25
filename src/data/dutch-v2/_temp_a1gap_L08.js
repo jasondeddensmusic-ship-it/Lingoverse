@@ -40,7 +40,7 @@ const LESSON_8 = {
      q:"Nederland betekent letterlijk ___.",
      opts:["laag land","mooi land","groot land","oud land"],
      ans:"laag land",
-     hint:"Think about 'neder' (low) plus 'l...'. What does the country name mean?"},
+     hint:"Compound of two parts: an adjective describing elevation + the noun for territory."},
 
     {type:"teach", trg:"het noorden", src:"the north", pos:"noun", gender:"n",
      note:"Neuter noun (het). One of four compass directions.",

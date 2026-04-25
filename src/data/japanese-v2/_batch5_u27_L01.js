@@ -31,7 +31,7 @@ const BATCH5_L_1 = {
      funFact:"ざるを得(え)ない is a classical Japanese negative (ざる) + を得(え)ない (cannot obtain). It expresses reluctant necessity: 'I would prefer not to, but circumstances force me.' It is more formal and literary than しかたがない. Academic and political writing uses it for situations where action is compelled by facts: 事実(じじつ)を認(みと)めざるを得(え)ない (we must acknowledge the facts)."},
 
     {type:"mc", q:"再生可能(さいせいかのう)エネルギー includes:", opts:["Solar, wind, and other renewable sources","Only nuclear power","Only fossil fuels","Only hydroelectric power"], ans:"Solar, wind, and other renewable sources",
-     hint:"再生可能(さいせいかのう) means 'r...' or 'able to be regenerated.'"},
+     hint:"再生可能 literally means 'able to be regenerated', encompassing multiple replenishable energy types, not a single source."},
 
     {type:"teach", trg:"持続可能(じぞくかのう)", src:"sustainable / sustainability", pos:"adj", gender:null,
      note:"な-adjective. Kanji: 持続可能(じぞくかのう). SDGs = 持続可能(じぞくかのう)開発(かいはつ)目標(もくひょう).\n持続可能(じぞくかのう)な社会(しゃかい) = sustainable society.",
