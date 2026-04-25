@@ -300,7 +300,7 @@ const UNIT_2 =
   {type:"match",pairs:[{nl:"알아요",en:"I know"},{nl:"몰라요",en:"I don't know"},{nl:"맞아요",en:"That's right"},{nl:"정말요?",en:"Really?"}]},
   {type:"drag_fill",s:"A: 선생님이 어디에 있어요? B: {1}. 저도 {2}.",blanks:{"1":"몰라요","2":"몰라요"},pool:["알아요","몰라요","맞아요","정말요"],hint:"A asks where the teacher is. B has no idea. Neither does C."},
   {type:"mc",q:"진짜요? compared to 정말요? is:",opts:["More formal","More casual/emphatic","Less common","Completely different meaning"],ans:"More casual/emphatic",hint:"진짜 = real/true, often used with stronger feeling"},
-  {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Only I understand (feeling)","Both I know and I understand","I want to know something"],ans:"Both I know and I understand",hint:"알아요 is used for both in daily conversation"},
+  {type:"mc",q:"알아요 covers which English meanings?",opts:["Only I know (knowledge)","Only I understand (feeling)","Both I know and I understand","I want to know something"],ans:"Both I know and I understand",hint:"In Korean daily speech, 알아요 spans the cognitive ranges that English splits into two verbs."},
   {type:"mc",q:"'To know' in Korean (dictionary form) is:",opts:["몰라요","맞아요","배우다","알다"],ans:"알다",hint:"The ㄹ-irregular verb for knowing a person, fact, or information."},
 ]},
 
