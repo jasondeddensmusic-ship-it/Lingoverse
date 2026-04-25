@@ -39,7 +39,7 @@ const LESSON_13 = {
      q:"Comment appelle-t-on une petite bouchee servie avant le repas ?",
      opts:["un amuse-gueule","une bearnaise","un cafe-creme","un chausson"],
      ans:"un amuse-gueule",
-     hint:"A small savory bite to 'a...' your mouth before the main meal."},
+     hint:"A small savory bite served before the main meal. The compound name pairs a verb with the slang for the mouth."},
 
     {type:"teach", trg:"le cannelloni", src:"the cannelloni", pos:"noun", gender:"m",
      note:"Masculine noun. Italian rolled pasta tubes filled with meat or cheese.",

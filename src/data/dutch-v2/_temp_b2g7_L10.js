@@ -92,7 +92,7 @@ const LESSON_10 = {
      q:"Wat betekent 'jatten' in informeel Nederlands?",
      opts:["Slapen","Stelen","Rennen","Liegen"],
      ans:"Stelen",
-     hint:"This is a very informal, slang verb. In formal Dutch you would say 's...'. What does a thief do?"},
+     hint:"Slang verb for criminal taking, not for sleeping, running, or lying."},
     {type:"fb",
      s:"De politie werd {1} nadat de buren verdachte geluiden hoorden.",
      a:["ingeschakeld"],

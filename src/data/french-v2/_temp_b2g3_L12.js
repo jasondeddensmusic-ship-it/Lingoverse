@@ -88,7 +88,7 @@ const LESSON_12 = {
      q:"Quelle expression signifie 'sans problème' ou 'sans difficulté' ?",
      opts:["sans concordance","sans encombre","sans bénédiction","sans factotum"],
      ans:"sans encombre",
-     hint:"This set phrase uses a word meaning hindrance or obstacle, negated by 's...' (without)."},
+     hint:"All four options share the same negation frame. The differing noun in the right answer means 'obstacle/hindrance'."},
 
     {type:"teach", trg:"un amateurisme", src:"amateurism", pos:"noun", gender:"m",
      note:"Masculine noun. Lack of professionalism or competence.",

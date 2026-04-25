@@ -44,7 +44,7 @@ const LESSON_1 = {
      q:"Wat betekent 'internetten'?",
      opts:["Op internet surfen","Een netwerk aanleggen","Iets intern bespreken","Een net uitwerpen"],
      ans:"Op internet surfen",
-     hint:"This verb is formed directly from the English word 'i...'. What do you do on the i...?"},
+     hint:"Verbed loanword: take the noun and add Dutch -en suffix. The action describes web browsing, not network setup or fishing."},
     {type:"teach", trg:"het informatiesysteem", src:"information system", pos:"noun", gender:"n",
      note:"Het-word. Informatie + systeem.\nUsed in IT, government, and healthcare.",
      example:"A: Het informatiesysteem is weer uitgevallen.\nB: Dat is de derde keer deze maand.\nA: We moeten echt upgraden.\nB: De directie wil er pas volgend jaar budget voor vrijmaken.",
