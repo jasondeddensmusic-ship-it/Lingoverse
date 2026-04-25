@@ -120,7 +120,7 @@ const LESSON_3 = {
     {type:"mc", q:"How do you say 'quarter to eight'?",
      opts:["Le sette e un quarto","Le otto meno mezza","Le otto meno un quarto","Le otto e un quarto"],
      ans:"Le otto meno un quarto",
-     hint:"Subtract from the next hour. 'M...' means minus. A quarter of an hour before eight."},
+     hint:"Italian time subtracts from the upcoming hour using a preposition meaning minus, paired with the 15-minute fraction (not the half)."},
 
     {type:"fb", s:"Mi sveglio {1} la mattina, alle sei.",
      a:["presto"],

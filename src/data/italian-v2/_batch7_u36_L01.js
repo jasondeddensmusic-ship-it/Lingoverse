@@ -108,7 +108,7 @@ const BATCH7_L1 = {id:"itv2_u36l_b7_1", title:"Strategie per l'esame CILS B2", i
 {type:"mc", q:"Quale espressione formale per 'in my opinion' usa la parola 'avviso'?",
  opts:["credo che","a mio avviso","secondo me","per me"],
  ans:"a mio avviso",
- hint:"The most formal of the options. Uses 'a...' (opinion/notice)."},
+ hint:"The most formal of the options. The question itself names the noun the answer must contain."},
 
 {type:"fb", s:"Non si può {1} che la situazione sia difficile.", a:["negare"],
  opts:["negare","dire","pensare","credere"],

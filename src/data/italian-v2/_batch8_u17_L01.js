@@ -82,7 +82,7 @@ const BATCH8_L1 = {id:"itv2_u17l_b8_1", title:"La vita digitale", icon:"💻", x
  q:"Why might the Italian word 'file' cause confusion?",
  opts:["It is always feminine","It sounds almost identical to 'fila' (queue)","It means something different in Italian","It is never used in Italy"],
  ans:"It sounds almost identical to 'fila' (queue)",
- hint:"The English borrowing 'file' (FEE-leh) and the Italian 'f...' (q...) sound very similar."},
+ hint:"The English borrowing (pronounced FEE-leh in Italian) clashes phonetically with a native Italian noun for a line of waiting people."},
 
 {type:"fb",
  s:"Hai la {1} USB con la presentazione?",

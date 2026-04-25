@@ -98,7 +98,7 @@ const BATCH6_L1 = {id:"itv2_u30l_b6_1", title:"Sfumature del congiuntivo", icon:
 {type:"mc", q:"Quale congiunzione ha un significato 'contrattuale'?",
  opts:["senza che (without)","come se (as if)","a patto che (on condition that)","benché (although)"],
  ans:"a patto che (on condition that)",
- hint:"Contains 'p...' (pact/agreement). Sets a binding c...."},
+ hint:"The conjunction is built around a noun that names a binding agreement (the same root as the English cognate for treaty/agreement)."},
 {type:"fb", s:"{1} potessi viaggiare di più! Sarebbe bellissimo.", a:["Magari"],
  opts:["Magari","Benche","Senza","Come"],
  hint:"An exclamation meaning 'if only!' Expresses a strong wish.",

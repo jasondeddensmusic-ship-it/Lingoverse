@@ -82,7 +82,7 @@ const LESSON_4 = {
     {type:"mc", q:"When should you use 'potrebbe' instead of 'potresti'?",
      opts:["When writing text messages casually","When addressing strangers, officials, or elders (Lei)","When speaking very quickly in informal settings","When speaking to friends and family"],
      ans:"When addressing strangers, officials, or elders (Lei)",
-     hint:"'Potrebbe' matches the formal 'L...' pronoun. 'Potresti' matches the informal 'tu.' Start formal with unknown people."},
+     hint:"Potrebbe matches the formal third-person pronoun (capitalized when polite); potresti matches the informal tu. Default formal with unknown people."},
 
     {type:"fb", s:"{1} un tavolo per due, per favore.",
      a:["Vorremmo"],
