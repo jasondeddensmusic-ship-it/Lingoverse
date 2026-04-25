@@ -75,7 +75,7 @@ const LESSON_11 = {
      example:"A: We bivakkeerden in het bos.\nB: In een tent?\nA: Nee, onder de sterren.\nB: Dat klinkt avontuurlijk.",
      exampleSrc:"A: We camped in the forest.\nB: In a tent?\nA: No, under the stars.\nB: That sounds adventurous.",
      funFact:"'Bivakkeren' in Dutch also means squatting or sleeping rough. 'Daklozen bivakkeren in portieken' (homeless people camp in doorways) is an unfortunately common news phrase."},
-    {type:"teach", trg:"de boerenbedrijf", src:"the farm (business)", pos:"noun", gender:"n",
+    {type:"teach", trg:"het boerenbedrijf", src:"the farm (business)", pos:"noun", gender:"n",
      note:"A het-word (bedrijf is het). Compound: boeren + bedrijf.\n'Een biologisch boerenbedrijf' = an organic farm.",
      example:"A: Het boerenbedrijf is al drie generaties in de familie.\nB: Wat produceren ze?\nA: Melk en kaas. Ambachtelijk.\nB: Echte Hollandse kaas?",
      exampleSrc:"A: The farm has been in the family for three generations.\nB: What do they produce?\nA: Milk and cheese. Artisanal.\nB: Real Dutch cheese?",

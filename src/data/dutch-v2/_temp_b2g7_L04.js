@@ -30,7 +30,7 @@ const LESSON_4 = {
      example:"A: De bevolkingssamenstelling is enorm veranderd.\nB: In welk opzicht?\nA: Veel meer diversiteit dan dertig jaar geleden.\nB: Dat geldt voor heel West-Europa.",
      exampleSrc:"A: The population composition has changed enormously.\nB: In what respect?\nA: Much more diversity than thirty years ago.\nB: That applies to all of Western Europe.",
      funFact:"The Netherlands went from 95% ethnically Dutch in 1970 to roughly 75% in 2025. Amsterdam is one of the most diverse cities in the world."},
-    {type:"teach", trg:"de individualisme", src:"individualism", pos:"noun", gender:"n",
+    {type:"teach", trg:"het individualisme", src:"individualism", pos:"noun", gender:"n",
      note:"Het-word. From Latin 'individualis'.\nCentral to Dutch culture. 'Doe maar gewoon.'",
      example:"A: Het individualisme in Nederland is sterk.\nB: Dat klopt. Iedereen doet zijn eigen ding.\nA: Maar is dat altijd positief?\nB: Nee, het kan ook eenzaamheid veroorzaken.",
      exampleSrc:"A: Individualism in the Netherlands is strong.\nB: That's true. Everyone does their own thing.\nA: But is that always positive?\nB: No, it can also cause loneliness.",
@@ -88,7 +88,7 @@ const LESSON_4 = {
       {trg:"de geloofsbeleving", src:"religious experience"},
       {trg:"de geloofsgenoot", src:"fellow believer"}
     ]},
-    {type:"teach", trg:"de groepsverband", src:"group context, in a group", pos:"noun", gender:"n",
+    {type:"teach", trg:"het groepsverband", src:"group context, in a group", pos:"noun", gender:"n",
      note:"Het-word. Groep (group) + s + verband (connection/context).\n'In groepsverband' = as a group.",
      example:"A: Werken jullie liever in groepsverband of alleen?\nB: In groepsverband. Ik heb anderen nodig om te brainstormen.\nA: Ik werk juist het best alleen.\nB: Typisch. Nederlanders zijn verdeeld daarover.",
      exampleSrc:"A: Do you prefer working in a group or alone?\nB: In a group. I need others to brainstorm.\nA: I actually work best alone.\nB: Typical. The Dutch are divided on that.",

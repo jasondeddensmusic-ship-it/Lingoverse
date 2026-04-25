@@ -20,7 +20,7 @@ const LESSON_13 = {
      example:"A: Ken je het gezegde 'wie het kleine niet eert, is het grote niet weerd'?\nB: Ja! Mijn oma zei dat altijd.\nA: Het klopt nog steeds.\nB: Wijsheid die niet veroudert.",
      exampleSrc:"A: Do you know the saying 'who does not honor the small, does not deserve the great'?\nB: Yes! My grandmother always said that.\nA: It still holds true.\nB: Wisdom that does not age.",
      funFact:"Dutch is rich in proverbs. 'Gezegden en spreekwoorden' (sayings and proverbs) are collected in books. The most famous collection is by Jacob Cats (17th century), still quoted today."},
-    {type:"teach", trg:"de goudhaantje", src:"the golden boy, the star performer", pos:"noun", gender:"n",
+    {type:"teach", trg:"het goudhaantje", src:"the golden boy, the star performer", pos:"noun", gender:"n",
      note:"A het-word (goudhaantje). Compound: goud (gold) + haantje (little rooster).\nAlso: a tiny bird species (goldcrest).",
      example:"A: Hij is het goudhaantje van het team.\nB: Iedereen houdt van hem.\nA: Ja, maar dat kan ook jaloezie opwekken.\nB: Dat is de keerzijde van succes.",
      exampleSrc:"A: He is the golden boy of the team.\nB: Everyone loves him.\nA: Yes, but that can also provoke jealousy.\nB: That is the downside of success.",

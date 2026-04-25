@@ -24,7 +24,7 @@ const LESSON_12 = {
      exampleSrc:"A: Poverty of opportunity mainly affects children.\nB: In which areas?\nA: Mainly in the big cities.\nB: Education can help break the cycle.",
      funFact:"'Kansarmoede' is a specifically Flemish/Dutch concept: poverty not just of money, but of chances and opportunities. It is used in social policy."},
 
-    {type:"teach", trg:"de bauxiet", src:"bauxite", pos:"noun", gender:"n",
+    {type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"n",
      note:"Neuter (het bauxiet). The ore from which aluminium is made.\nNamed after Les Baux, France.",
      example:"A: Bauxiet wordt gebruikt om aluminium te maken.\nB: Waar komt het vandaan?\nA: Vooral uit tropische landen.\nB: Het is een belangrijke grondstof.",
      exampleSrc:"A: Bauxite is used to make aluminium.\nB: Where does it come from?\nA: Mainly from tropical countries.\nB: It is an important raw material.",

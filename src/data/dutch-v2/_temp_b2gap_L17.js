@@ -90,7 +90,7 @@ const LESSON_17 = {
      example:"A: Boekenwetenschap is een niche-studierichting.\nB: Wat leer je daar?\nA: De geschiedenis van het gedrukte woord.\nB: Fascinerend voor boekenliefhebbers.",
      exampleSrc:"A: Book science is a niche field of study.\nB: What do you learn there?\nA: The history of the printed word.\nB: Fascinating for book lovers.",
      funFact:"The University of Amsterdam and Leiden University offer 'boekenwetenschap'. The Netherlands' printing history (Elsevier, Brill) makes it a natural home for this field."},
-    {type:"teach", trg:"de boekenvak", src:"the book trade/industry", pos:"noun", gender:"n",
+    {type:"teach", trg:"het boekenvak", src:"the book trade/industry", pos:"noun", gender:"n",
      note:"A het-word (vak is het). Compound: boeken + vak.\n'Werken in het boekenvak' = to work in publishing.",
      example:"A: Ze werkt al twintig jaar in het boekenvak.\nB: Bij een uitgeverij?\nA: Ja, als redacteur.\nB: Dat klinkt als een droomban.",
      exampleSrc:"A: She has been working in the book trade for twenty years.\nB: At a publishing house?\nA: Yes, as an editor.\nB: That sounds like a dream job.",

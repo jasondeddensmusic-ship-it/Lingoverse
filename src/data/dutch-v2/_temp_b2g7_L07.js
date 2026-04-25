@@ -83,7 +83,7 @@ const LESSON_7 = {
       {trg:"de identiteitskaart", src:"identity card"},
       {trg:"het burgerservicenummer", src:"citizen service number"}
     ]},
-    {type:"teach", trg:"de exportartikel", src:"export article, export product", pos:"noun", gender:"n",
+    {type:"teach", trg:"het exportartikel", src:"export article, export product", pos:"noun", gender:"n",
      note:"Het-word. Export + artikel (product).\nGoods that a country sells abroad.",
      example:"A: Kaas is een belangrijk exportartikel voor Nederland.\nB: En bloemen?\nA: Absoluut. De bloemensector is miljarden waard.\nB: Typisch Nederlands: kaas, bloemen en technologie.",
      exampleSrc:"A: Cheese is an important export product for the Netherlands.\nB: And flowers?\nA: Absolutely. The flower sector is worth billions.\nB: Typically Dutch: cheese, flowers, and technology.",
@@ -104,7 +104,7 @@ const LESSON_7 = {
       {trg:"de hectare", src:"hectare"},
       {trg:"intern", src:"internal"},
       {trg:"indirect", src:"indirect"},
-      {trg:"de exportartikel", src:"export product"}
+      {trg:"het exportartikel", src:"export product"}
     ]},
     {type:"mc",
      q:"Welke sector exporteert Nederland het meest?",

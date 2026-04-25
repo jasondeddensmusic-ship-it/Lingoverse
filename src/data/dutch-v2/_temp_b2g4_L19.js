@@ -65,7 +65,7 @@ const LESSON_19 = {
      example:"A: De hulpverlening voor drugsgebruikers is goed in Nederland.\nB: Met gebruiksruimten en programma's?\nA: Ja, pragmatisch beleid.\nB: Dat vermindert de schade.",
      exampleSrc:"A: The assistance for drug users is good in the Netherlands.\nB: With consumption rooms and programs?\nA: Yes, pragmatic policy.\nB: That reduces the harm.",
      funFact:"Dutch drug policy follows 'harm reduction' (schadebeperking). The Netherlands has supervised injection facilities, needle exchange programs, and heroin-assisted treatment for severe addicts."},
-    {type:"teach", trg:"de drugsopvangcentrum", src:"the drug reception center", pos:"noun", gender:"n",
+    {type:"teach", trg:"het drugsopvangcentrum", src:"the drug reception center", pos:"noun", gender:"n",
      note:"A het-word. Compound: drugs + opvang + centrum.\nA facility for people with drug problems.",
      example:"A: Het drugsopvangcentrum biedt onderdak en begeleiding.\nB: Hoeveel bedden zijn er?\nA: Vijftig, maar er is een wachtlijst.\nB: De vraag is groter dan het aanbod.",
      exampleSrc:"A: The drug reception center offers shelter and guidance.\nB: How many beds are there?\nA: Fifty, but there is a waiting list.\nB: Demand exceeds supply.",

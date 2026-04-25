@@ -50,7 +50,7 @@ const LESSON_18 = {
      example:"A: 'Leuk' is een typisch huis-tuin-en-keukenwoord.\nB: Wat bedoel je?\nA: Het is zo alledaags dat het niets meer zegt.\nB: Klopt, je kunt het overal voor gebruiken.",
      exampleSrc:"A: 'Nice' is a typical everyday word.\nB: What do you mean?\nA: It is so commonplace that it says nothing anymore.\nB: True, you can use it for everything.",
      funFact:"'Huis-tuin-en-keuken' is a beloved Dutch expression meaning ordinary, run-of-the-mill. It adds a charming domestic image to the idea of 'nothing special'."},
-    {type:"teach", trg:"de havenontwerp", src:"harbour design", pos:"noun", gender:"n",
+    {type:"teach", trg:"het havenontwerp", src:"harbour design", pos:"noun", gender:"n",
      note:"Het-word. Haven (harbour) + ontwerp (design).\nDutch engineering specialty.",
      example:"A: Nederlands havenontwerp is wereldberoemd.\nB: Door Rotterdam?\nA: Ja, en door de expertise van Nederlandse ingenieurs.\nB: Ze ontwerpen havens over de hele wereld.",
      exampleSrc:"A: Dutch harbour design is world famous.\nB: Because of Rotterdam?\nA: Yes, and because of the expertise of Dutch engineers.\nB: They design harbours all over the world.",

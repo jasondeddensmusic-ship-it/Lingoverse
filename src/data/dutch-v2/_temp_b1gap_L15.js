@@ -60,8 +60,8 @@ const LESSON_15 = {
      exampleSrc:"A: The country is on the edge of an abyss.\nB: The economic situation is serious.",
      funFact:"Af (off) + grond (ground). Where the ground falls away. Often used metaphorically in Dutch."},
 
-    {type:"teach", trg:"de aquaria", src:"aquariums (plural)", pos:"noun", gender:"n",
-     note:"Plural of 'aquarium'. Neuter gender.",
+    {type:"teach", trg:"de aquaria", src:"aquariums (plural)", pos:"noun", gender:"pl",
+     note:"Plural of 'het aquarium'. Plural always takes 'de'.",
      example:"A: Er zijn mooie aquaria in de dierentuin.\nB: Ja, met tropische vissen!",
      exampleSrc:"A: There are beautiful aquariums in the zoo.\nB: Yes, with tropical fish!",
      funFact:"Rotterdam's Oceanium and Amsterdam's ARTIS zoo have impressive aquariums."},

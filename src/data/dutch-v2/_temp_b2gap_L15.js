@@ -40,7 +40,7 @@ const LESSON_15 = {
      example:"A: Ik sport meestal in de avonduren.\nB: Na het werk?\nA: Ja, om zeven uur naar de sportschool.\nB: Dat is een goed ritme.",
      exampleSrc:"A: I usually exercise in the evening hours.\nB: After work?\nA: Yes, to the gym at seven.\nB: That is a good routine.",
      funFact:"'De avonduren' is a formal way to say 'in the evening'. Dutch time descriptions: ochtend (morning), middag (afternoon), avond (evening), nacht (night)."},
-    {type:"teach", trg:"de bliksembezoek", src:"the lightning visit", pos:"noun", gender:"n",
+    {type:"teach", trg:"het bliksembezoek", src:"the lightning visit", pos:"noun", gender:"n",
      note:"A het-word (bezoek is het). Compound: bliksem + bezoek.\nA very short, typically surprise visit.",
      example:"A: Ze bracht een bliksembezoek aan Amsterdam.\nB: Hoelang was ze?\nA: Een middag. Lunch en een museum.\nB: Kort maar krachtig.",
      exampleSrc:"A: She paid a lightning visit to Amsterdam.\nB: How long was she?\nA: An afternoon. Lunch and a museum.\nB: Short but powerful.",

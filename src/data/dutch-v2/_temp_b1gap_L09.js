@@ -91,7 +91,7 @@ const LESSON_9 = {
      exampleSrc:"A: At what age do you get the state pension?\nB: From age sixty-seven.",
      funFact:"AOW stands for 'Algemene Ouderdomswet' (General Old Age Law). Everyone in the Netherlands gets it at 67."},
 
-    {type:"teach", trg:"de aspect", src:"the aspect", pos:"noun", gender:"n",
+    {type:"teach", trg:"het aspect", src:"the aspect", pos:"noun", gender:"n",
      note:"Neuter gender (het). A particular part or feature of something.",
      example:"A: Dat is een belangrijk aspect van het debat.\nB: Ja, we moeten er goed over nadenken.",
      exampleSrc:"A: That is an important aspect of the debate.\nB: Yes, we need to think about it carefully.",

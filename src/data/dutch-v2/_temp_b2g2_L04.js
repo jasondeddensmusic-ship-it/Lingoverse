@@ -20,7 +20,7 @@ const LESSON_4 = {
      example:"A: De bevolkingssamenstelling is enorm veranderd.\nB: In welk opzicht?\nA: Veel meer diversiteit dan vijftig jaar geleden.\nB: Dat is in heel Europa zo.",
      exampleSrc:"A: The population composition has changed enormously.\nB: In what way?\nA: Much more diversity than fifty years ago.\nB: That is the case throughout Europe.",
      funFact:"The Netherlands has about 17.8 million people. Amsterdam alone has residents from over 180 nationalities, making it one of the most diverse cities in the world."},
-    {type:"teach", trg:"de buurthuis", src:"the community center", pos:"noun", gender:"n",
+    {type:"teach", trg:"het buurthuis", src:"the community center", pos:"noun", gender:"n",
      note:"A het-word. Compound: buurt (neighborhood) + huis (house).\nCenter for local community activities.",
      example:"A: Er is een taalcursus in het buurthuis.\nB: Welke taal?\nA: Nederlands voor beginners.\nB: Dat is handig voor nieuwkomers.",
      exampleSrc:"A: There is a language course at the community center.\nB: Which language?\nA: Dutch for beginners.\nB: That is useful for newcomers.",

@@ -61,7 +61,7 @@ const LESSON_13 = {
      opts:["intentieverklaring","incassomachtiging","informatiejunk","interimbasis"],
      hint:"A formal document expressing the intention to proceed with a deal. Intentie + verklaring (declaration).",
      sSrc:"After signing the {1} we will draft the final contract."},
-    {type:"teach", trg:"de aandachtspunt", src:"point of attention, issue", pos:"noun", gender:"n",
+    {type:"teach", trg:"het aandachtspunt", src:"point of attention, issue", pos:"noun", gender:"n",
      note:"Het-word. Aandacht (attention) + s + punt (point).\nUsed in meetings and reports for flagged issues.",
      example:"A: Er zijn drie aandachtspunten voor deze vergadering.\nB: Welke?\nA: Budget, planning en personeelstekort.\nB: Laten we met het budget beginnen.",
      exampleSrc:"A: There are three points of attention for this meeting.\nB: Which ones?\nA: Budget, planning, and staff shortage.\nB: Let's start with the budget.",

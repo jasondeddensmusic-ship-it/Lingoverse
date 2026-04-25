@@ -85,7 +85,7 @@ const LESSON_17 = {
      example:"A: De politieke competitie wordt scherper.\nB: Door de verkiezingen?\nA: Ja, elke partij vecht om zetels.\nB: De peilingen veranderen dagelijks.",
      exampleSrc:"A: The political competition is getting sharper.\nB: Because of the elections?\nA: Yes, every party is fighting for seats.\nB: The polls change daily.",
      funFact:"Dutch elections often have 15+ parties competing for 150 seats. The 'politieke competitie' is fierce. Coalition negotiations after elections can take months, a uniquely Dutch political marathon."},
-    {type:"teach", trg:"de concentratieverlies", src:"the loss of concentration", pos:"noun", gender:"n",
+    {type:"teach", trg:"het concentratieverlies", src:"the loss of concentration", pos:"noun", gender:"n",
      note:"A het-word. Compound: concentratie + verlies.\nCommon in education and workplace discussions.",
      example:"A: Door de lange vergadering was er concentratieverlies.\nB: Na twee uur is dat normaal.\nA: We moeten vaker pauze nemen.\nB: Goed idee, elke 45 minuten.",
      exampleSrc:"A: Due to the long meeting there was loss of concentration.\nB: After two hours that is normal.\nA: We need to take breaks more often.\nB: Good idea, every 45 minutes.",

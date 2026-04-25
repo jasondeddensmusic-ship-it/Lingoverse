@@ -54,7 +54,7 @@ const LESSON_16 = {
      exampleSrc:"A: Ajax is three points behind.\nB: They need to win the next match.",
      funFact:"Achter + liggen (to lie). Sports commentary uses this constantly during league competitions."},
 
-    {type:"teach", trg:"de avonturenbos", src:"the adventure forest", pos:"noun", gender:"n",
+    {type:"teach", trg:"het avonturenbos", src:"the adventure forest", pos:"noun", gender:"n",
      note:"Neuter gender (het). An outdoor activity park in a forest.",
      example:"A: Laten we naar het avonturenbos gaan!\nB: Leuk! Met klimmen en tokkelen?",
      exampleSrc:"A: Let's go to the adventure forest!\nB: Fun! With climbing and zip-lining?",

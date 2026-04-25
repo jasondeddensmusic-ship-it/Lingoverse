@@ -6,7 +6,7 @@ const LESSON_20 = {
      desc:"The Netherlands is a society of debate and dialogue. Master the vocabulary of social issues, public discourse, and the Dutch art of speaking your mind.",
      goals:["Master 10 society and debate terms","Discuss Dutch social issues confidently","Navigate public discourse vocabulary"]},
 
-    {type:"teach", trg:"de apartheidsregime", src:"the apartheid regime", pos:"noun", gender:"n",
+    {type:"teach", trg:"het apartheidsregime", src:"the apartheid regime", pos:"noun", gender:"n",
      note:"Neuter (het apartheidsregime). Apartheid + regime.\n'Apartheid' itself comes from Afrikaans (which comes from Dutch).",
      example:"A: Het apartheidsregime in Zuid-Afrika duurde tientallen jaren.\nB: Tot 1994, met de verkiezing van Mandela.\nA: Nederland had ook banden met dat regime.\nB: Ja, dat is een moeilijk hoofdstuk.",
      exampleSrc:"A: The apartheid regime in South Africa lasted decades.\nB: Until 1994, with the election of Mandela.\nA: The Netherlands also had ties with that regime.\nB: Yes, that is a difficult chapter.",
@@ -42,7 +42,7 @@ const LESSON_20 = {
      exampleSrc:"A: I'm a hobby writer.\nB: What do you write?\nA: Short stories, mainly science fiction.\nB: Have you published anything yet?",
      funFact:"The Netherlands has a thriving amateur writing scene. 'Schrijversgroepen' (writing groups) meet in libraries and community centres nationwide."},
 
-    {type:"teach", trg:"de fastfoodrestaurant", src:"the fast food restaurant", pos:"noun", gender:"n",
+    {type:"teach", trg:"het fastfoodrestaurant", src:"the fast food restaurant", pos:"noun", gender:"n",
      note:"Neuter (het fastfoodrestaurant). Fastfood + restaurant.\n'De snackbar' is the Dutch alternative.",
      example:"A: Zullen we naar een fastfoodrestaurant gaan?\nB: Ik heb liever een snackbar.\nA: Wat is het verschil?\nB: Een snackbar is Nederlandser!",
      exampleSrc:"A: Shall we go to a fast food restaurant?\nB: I prefer a snack bar.\nA: What's the difference?\nB: A snack bar is more Dutch!",

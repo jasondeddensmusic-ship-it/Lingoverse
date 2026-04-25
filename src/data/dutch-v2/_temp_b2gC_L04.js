@@ -36,7 +36,7 @@ const LESSON_4 = {
      ans:"Een handelscompagnie",
      hint:"Verenigde Oost-Indische Compagnie. A company that traded spices and goods from the East."},
 
-    {type:"teach", trg:"de kompas", src:"the compass", pos:"noun", gender:"n",
+    {type:"teach", trg:"het kompas", src:"the compass", pos:"noun", gender:"n",
      note:"Neuter (het kompas). Essential for navigation.\n'Het morele kompas' = moral compass (figurative).",
      example:"A: Zonder kompas verdwaal je op zee.\nB: Tegenwoordig gebruiken we GPS.\nA: Maar een kompas heeft geen batterij nodig.\nB: Goed punt, ik neem er altijd een mee.",
      exampleSrc:"A: Without a compass you get lost at sea.\nB: Nowadays we use GPS.\nA: But a compass doesn't need a battery.\nB: Good point, I always bring one along.",

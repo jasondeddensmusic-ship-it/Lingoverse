@@ -42,7 +42,7 @@ const LESSON_15 = {
      exampleSrc:"A: He used quite a few expletives.\nB: Was he angry?\nA: Very, he had lost his job.\nB: That's understandable, but still inappropriate.",
      funFact:"Dutch swear words are uniquely disease-based. Words like 'tyfus', 'tering' (tuberculosis), and 'kolere' (cholera) are used as expletives. This is unusual among world languages."},
 
-    {type:"teach", trg:"de aandachtspunt", src:"the point of attention / focus area", pos:"noun", gender:"n",
+    {type:"teach", trg:"het aandachtspunt", src:"the point of attention / focus area", pos:"noun", gender:"n",
      note:"Neuter (het). Aandacht (attention) + punt (point).\nCommon in meetings and reports.",
      example:"A: Dit is een belangrijk aandachtspunt.\nB: Waarom?\nA: De klanttevredenheid daalt al drie maanden.\nB: Laten we dat bovenaan de agenda zetten.",
      exampleSrc:"A: This is an important point of attention.\nB: Why?\nA: Customer satisfaction has been declining for three months.\nB: Let's put that at the top of the agenda.",
@@ -67,7 +67,7 @@ const LESSON_15 = {
      exampleSrc:"A: The client isn't satisfied with the result.\nB: What's going wrong?\nA: The project is behind schedule.\nB: We need to offer a solution.",
      funFact:"The Dutch trema (two dots over a vowel) prevents two adjacent vowels from being read as a single sound. 'Client' would be read as one syllable, but 'cliënt' clearly has two."},
 
-    {type:"teach", trg:"de examenrooster", src:"the exam timetable / exam schedule", pos:"noun", gender:"n",
+    {type:"teach", trg:"het examenrooster", src:"the exam timetable / exam schedule", pos:"noun", gender:"n",
      note:"Neuter (het). Examen (exam) + rooster (timetable/grid).\n'Het examenrooster bekijken' = to check the exam timetable.",
      example:"A: Heb je het examenrooster al gezien?\nB: Ja, drie examens in een week.\nA: Dat wordt zwaar!\nB: Ik begin nu al met studeren.",
      exampleSrc:"A: Have you seen the exam timetable yet?\nB: Yes, three exams in one week.\nA: That'll be tough!\nB: I'm starting to study already.",

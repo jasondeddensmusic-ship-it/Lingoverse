@@ -67,7 +67,7 @@ const LESSON_3 = {
      exampleSrc:"A: There is a turning point in climate policy.\nB: Finally, after all those years.\nA: Companies are now investing in sustainability.\nB: Consumer pressure helps.",
      funFact:"'Kentering' originally referred to the moment a ship capsizes or the tide turns. The nautical origin reflects the Netherlands' seafaring history."},
 
-    {type:"teach", trg:"de knelpunt", src:"the bottleneck / problem area", pos:"noun", gender:"n",
+    {type:"teach", trg:"het knelpunt", src:"the bottleneck / problem area", pos:"noun", gender:"n",
      note:"Neuter (het). Knel (pinch/squeeze) + punt (point).\n'Knelpunten aanpakken' = to tackle bottlenecks.",
      example:"A: Wat zijn de knelpunten in het klimaatplan?\nB: Te weinig budget en te weinig personeel.\nA: Dat zijn bekende problemen.\nB: We moeten prioriteiten stellen.",
      exampleSrc:"A: What are the bottlenecks in the climate plan?\nB: Too little budget and too few staff.\nA: Those are familiar problems.\nB: We need to set priorities.",
