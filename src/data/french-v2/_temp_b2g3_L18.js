@@ -35,7 +35,7 @@ const LESSON_18 = {
      ans:"en marge de",
      hint:"This phrase literally means 'in the margin of'. Think of things happening alongside but not inside the main event."},
 
-    {type:"teach", trg:"de côté", src:"aside, on the side", pos:"noun", gender:null,
+    {type:"teach", trg:"de côté", src:"aside, on the side", pos:"adv", gender:null,
      note:"Adverbial phrase. Set apart or saved for later.",
      example:"A: J'ai mis de l'argent de côté pour les vacances.\nB: C'est prudent de prévoir.",
      exampleSrc:"A: I put money aside for the vacation.\nB: It's wise to plan ahead.",
@@ -66,7 +66,7 @@ const LESSON_18 = {
      hint:"This phrase means in theory or without considering practical constraints.",
      sSrc:"{1}, this strategy could work, but the conditions are not met."},
 
-    {type:"teach", trg:"de toute", src:"in any case, regardless", pos:"noun", gender:null,
+    {type:"teach", trg:"de toute", src:"in any case, regardless", pos:"adv", gender:null,
      note:"Short form of 'de toute facon' or 'de toute maniere'. Very common in speech.",
      example:"A: De toute façon, c'est trop tard pour changer.\nB: Tu as raison, avançons.",
      exampleSrc:"A: In any case, it's too late to change.\nB: You're right, let's move on.",

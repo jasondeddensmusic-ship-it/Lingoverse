@@ -90,7 +90,7 @@ const LESSON_17 = {
      ans:"depuis belle lurette",
      hint:"The expression contains a diminutive noun from 'heurette' (little hour), used ironically for very long stretches."},
 
-    {type:"teach", trg:"de haut en bas", src:"from top to bottom", pos:"noun", gender:null,
+    {type:"teach", trg:"de haut en bas", src:"from top to bottom", pos:"adv", gender:null,
      note:"Adverbial expression. Thoroughly, or looking someone up and down.",
      example:"A: Elle m'a regarde de haut en bas.\nB: Quelle impolitesse !",
      exampleSrc:"A: She looked me up and down.\nB: How rude!",
