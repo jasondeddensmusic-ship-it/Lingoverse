@@ -68,7 +68,7 @@ export default {n:4,lang:"fr",srcLang:"en",track:"v2",title:"À table!",sub:"Foo
         {type:"mc",q:"'J'aime le poisson.' This means:",opts:["I want some fish now","The fish is here","I am eating fish","I like fish in general"],ans:"I like fish in general",hint:"Le + noun in g... statements = definite article."},
         {type:"fb",opts:["dîner","déjeuner","petit déjeuner","goûter"],hint:"The evening meal, typically 7:30-9 PM.",s:"Qu'est-ce qu'on mange pour le {1}? De la soupe.",a:"dîner"},
         {type:"mc",q:"In French restaurants, free water is called:",opts:["Une carafe d'eau","De l'eau plate","De l'eau gazeuse","Un verre d'eau"],ans:"Une carafe d'eau",hint:"A ___ of water: free tap water at any restaurant."},
-        {type:"mc",q:"French 'entrée' means:",opts:["Main course (like American English)","Starter/appetizer","Dessert","Exit"],ans:"Starter/appetizer",hint:"False friend! French entrée = s..., not main course."},
+        {type:"mc",q:"French 'entrée' means:",opts:["Main course (like American English)","Starter/appetizer","Dessert","Exit"],ans:"Starter/appetizer",hint:"False friend! In France, the entrée is what you eat first, before the main course."},
         {type:"fb",opts:["du","le","un","de la"],hint:"Some fish: partitive for a masculine uncountable noun.",s:"Tu manges {1} poisson? (some fish)",a:"du"}
   ]},
   {id:"fre4l4",title:"Les boissons",icon:"🥤",xp:15,board:true,steps:[
@@ -134,7 +134,7 @@ export default {n:4,lang:"fr",srcLang:"en",track:"v2",title:"À table!",sub:"Foo
         {type:"match",pairs:[{trg:"l'entrée",src:"the starter"},{trg:"le plat",src:"the main course"},{trg:"le dessert",src:"the dessert"},{trg:"l'addition",src:"the check/bill"}]},
         {type:"mc",q:"Tipping in France is:",opts:["Required at 20%","Only for excellent service","Considered rude","Included in the price (service compris)"],ans:"Included in the price (service compris)",hint:"___ is ___ by law. Extra tips are nice but optional."},
         {type:"fb",opts:["délicieux","mauvais","froid","cher"],hint:"Delicious! A positive food reaction.",s:"C'est {1}! Le poisson est excellent.",a:"délicieux"},
-        {type:"mc",q:"'Entrée' in French means:",opts:["Starter/appetizer","Main course","Entrance fee","Side dish"],ans:"Starter/appetizer",hint:"False friend with American English. French entrée = s...."},
+        {type:"mc",q:"'Entrée' in French means:",opts:["Starter/appetizer","Main course","Entrance fee","Side dish"],ans:"Starter/appetizer",hint:"False friend with American English. In France, entrée is the first course of the meal."},
         {type:"mc",q:"After the meal, you say:",opts:["Bonjour!","L'addition, s'il vous plaît","Je voudrais commander","Comme entrée..."],ans:"L'addition, s'il vous plaît",hint:"The check please: the standard end-of-meal request."},
         {type:"fb",opts:["deux","un","trois","quatre"],hint:"A table for two: the number of diners.",s:"Une table pour {1}, s'il vous plaît. (two people)",a:"deux"},
         {type:"mc",q:"The correct order of a French meal is:",opts:["Plat, entrée, dessert","Dessert, plat, entrée","Entrée, plat, dessert","Entrée, dessert, plat"],ans:"Entrée, plat, dessert",hint:"Starter first, main course second, sweet at the end."},

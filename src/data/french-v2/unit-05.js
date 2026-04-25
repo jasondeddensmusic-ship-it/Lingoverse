@@ -47,7 +47,7 @@ export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidie
         {type:"fb",opts:["heure","heures","temps","fois"],hint:"What time is it? The singular form in the question.",s:"Quelle {1} est-il? Il est neuf heures.",a:"heure"},
         {type:"mc",q:"'Il est une heure' uses singular 'heure' because:",opts:["One is singular","It is informal","Heure is always singular","It is morning"],ans:"One is singular",hint:"Une heure (1 o'clock) is ___. All others are plural."},
         {type:"fb",opts:["matin","soir","midi","nuit"],hint:"Eight o'clock in the morning.",s:"Il est huit heures du {1}. (8 AM)",a:"matin"},
-        {type:"mc",q:"'Trop tard' means:",opts:["Very early","Too late","A little late","On time"],ans:"Too late",hint:"Trop = t... much. Tard = l.... Combined meaning?"},
+        {type:"mc",q:"'Trop tard' means:",opts:["Very early","Too late","A little late","On time"],ans:"Too late",hint:"Trop is an excess intensifier (more than enough); tard sits opposite to tôt."},
         {type:"fb",opts:["cinq","six","sept","quatre"],hint:"The number five in French.",s:"Il est {1} heures vingt. (5:20)",a:"cinq"}
   ]},
   {id:"fre5l3",title:"Les verbes réfléchis",icon:"🪞",xp:15,board:true,steps:[
@@ -136,10 +136,10 @@ export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidie
         {type:"match",pairs:[{trg:"Je parle",src:"I speak"},{trg:"Je ne parle pas",src:"I do not speak"},{trg:"J'aime",src:"I like"},{trg:"Je n'aime pas",src:"I do not like"}]},
         {type:"mc",q:"In spoken French, 'ne' is often:",opts:["Emphasized","Replaced by pas","Doubled","Dropped"],ans:"Dropped",hint:"Spoken: je parle pas. Written: je ne parle pas."},
         {type:"fb",opts:["de","du","le","un"],hint:"After ne...pas, partitive becomes just de.",s:"Il n'y a pas {1} pain. (no bread)",a:"de"},
-        {type:"mc",q:"'Ce n'est pas bon' means:",opts:["It is not good","It is very good","It is not bad","It is okay"],ans:"It is not good",hint:"Ce n'est pas = it is not. Bon = g...."},
+        {type:"mc",q:"'Ce n'est pas bon' means:",opts:["It is not good","It is very good","It is not bad","It is okay"],ans:"It is not good",hint:"Ce n'est pas negates. Bon is the positive quality being denied."},
         {type:"fb",opts:["n'","ne","ni","non"],hint:"Before a vowel (habite), ne becomes n'.",s:"Elle {1} habite pas à Paris.",a:"n'"},
         {type:"mc",q:"Which negative sentence is correct?",opts:["Je pas parle","Je ne parle pas","Je ne pas parle","Pas je ne parle"],ans:"Je ne parle pas",hint:"Remember the two-part frame: the first piece goes before the verb, the second after."},
-        {type:"mc",q:"'Il n'y a pas de pommes' means:",opts:["There are some apples","There are the apples","There are no apples","Apples are not here"],ans:"There are no apples",hint:"Il n'y a pas de = t... are no / t... aren't any."},
+        {type:"mc",q:"'Il n'y a pas de pommes' means:",opts:["There are some apples","There are the apples","There are no apples","Apples are not here"],ans:"There are no apples",hint:"Negation of il y a. The phrase declares non-existence of the noun that follows."},
         {type:"fb",opts:["n'","ne","ni","pas"],hint:"Before a vowel, ne becomes the elided form.",s:"Elle {1} aime pas le café.",a:"n'"}
   ]},
   {id:"fre5l7",title:"Ma semaine typique",icon:"📋",xp:15,board:true,steps:[
@@ -161,7 +161,7 @@ export default {n:5,lang:"fr",srcLang:"en",track:"v2",title:"La routine quotidie
         {type:"mc",q:"'Faire les courses' means:",opts:["Do grocery shopping","Run a race","Take a course","Go to school"],ans:"Do grocery shopping",hint:"Les courses = errands/groceries. Essential s...."},
         {type:"fb",opts:["tard","tôt","vite","bien"],hint:"On Sundays I get up ___. Sleeping in!",s:"Je me lève {1} le dimanche. (late)",a:"tard"},
         {type:"mc",q:"In 'Je mange souvent au restaurant', souvent goes:",opts:["Before je","After mange","Before mange","At the end"],ans:"After mange",hint:"Frequency adverbs follow the verb directly."},
-        {type:"mc",q:"'Tous les matins' means:",opts:["This morning","All morning","Every morning","Some mornings"],ans:"Every morning",hint:"Tous les = e.../all. Matins = mornings."},
+        {type:"mc",q:"'Tous les matins' means:",opts:["This morning","All morning","Every morning","Some mornings"],ans:"Every morning",hint:"Tous les + plural noun expresses recurrence. Each instance, not just one."},
         {type:"fb",opts:["Tous","Tout","Toute","Toutes"],hint:"Every day: ___ les jours. Masculine plural.",s:"{1} les jours, je me réveille à sept heures.",a:"Tous"},
         {type:"mc",q:"'Faire la grasse matinée' means:",opts:["To cook breakfast","To skip breakfast","To do morning exercises","To sleep in"],ans:"To sleep in",hint:"Grasse matinée = a 'fat morning'. A lazy morning in bed."}
   ]},
