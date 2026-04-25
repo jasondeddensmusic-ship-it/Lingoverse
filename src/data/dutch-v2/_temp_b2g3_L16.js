@@ -50,7 +50,7 @@ const LESSON_16 = {
      example:"A: Ik heb een doorslaapprobleem.\nB: Word je vaak wakker?\nA: Ja, om drie uur. Dan kan ik niet meer slapen.\nB: Misschien helpt mediteren voor het slapengaan.",
      exampleSrc:"A: I have a sleep maintenance problem.\nB: Do you wake up often?\nA: Yes, at three o'clock. Then I cannot fall asleep again.\nB: Maybe meditating before bedtime helps.",
      funFact:"COMPOUND: door-slaap (sleep-through) + probleem. Dutch distinguishes 'inslaapproblemen' (falling asleep problems) from 'doorslaapproblemen' (staying asleep problems). Both are common."},
-    {type:"teach", trg:"de dateren", src:"to date (from a period)", pos:"noun", gender:null,
+    {type:"teach", trg:"dateren", src:"to date (from a period)", pos:"verb", gender:null,
      note:"Inseparable verb. 'Dateren uit' = to date from.\n'Gedateerd' = dated, outdated.",
      example:"A: Deze kaart dateert uit de achttiende eeuw.\nB: Is hij nog accuraat?\nA: Grotendeels. De kustlijn is veranderd.\nB: Logisch, na driehonderd jaar.",
      exampleSrc:"A: This map dates from the eighteenth century.\nB: Is it still accurate?\nA: Mostly. The coastline has changed.\nB: Logical, after three hundred years.",

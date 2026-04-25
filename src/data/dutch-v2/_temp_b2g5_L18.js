@@ -20,7 +20,7 @@ const LESSON_18 = {
      example:"A: De minister van emancipatiezaken wil meer diversiteit.\nB: Op welk gebied?\nA: In de top van het bedrijfsleven.\nB: Dat is al jaren een discussiepunt.",
      exampleSrc:"A: The minister of emancipation affairs wants more diversity.\nB: In which area?\nA: In the top of the business world.\nB: That has been a topic of debate for years.",
      funFact:"The Netherlands has a minister specifically responsible for 'emancipatie' (emancipation). This covers gender equality, LGBTQ+ rights, and anti-discrimination. The portfolio name itself signals Dutch progressivism."},
-    {type:"teach", trg:"de dichtslibben", src:"to silt up, to clog up", pos:"noun", gender:null,
+    {type:"teach", trg:"dichtslibben", src:"to silt up, to clog up", pos:"verb", gender:null,
      note:"Separable verb. Dicht (closed/clogged) + slibben (to silt).\nUsed for waterways and traffic.",
      example:"A: De wegen slibben dicht tijdens de spits.\nB: Dat is elke dag hetzelfde.\nA: Meer mensen moeten de trein nemen.\nB: Of thuiswerken.",
      exampleSrc:"A: The roads are clogging up during rush hour.\nB: That is the same every day.\nA: More people should take the train.\nB: Or work from home.",

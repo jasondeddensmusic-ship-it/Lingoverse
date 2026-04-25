@@ -85,7 +85,7 @@ const LESSON_20 = {
      exampleSrc:"A: That artist duo is very funny.\nB: Yes, they complement each other perfectly.",
      funFact:"The Netherlands has many famous comedy duos. 'Duo' is borrowed from Italian."},
 
-    {type:"teach", trg:"de arriveren", src:"to arrive", pos:"noun", gender:null,
+    {type:"teach", trg:"arriveren", src:"to arrive", pos:"verb", gender:null,
      note:"Inseparable verb. Ik arriveer, jij arriveert.",
      example:"A: Het vliegtuig arriveert om drie uur.\nB: Laten we op tijd naar Schiphol gaan.",
      exampleSrc:"A: The plane arrives at three o'clock.\nB: Let's go to Schiphol on time.",

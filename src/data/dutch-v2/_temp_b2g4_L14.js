@@ -40,7 +40,7 @@ const LESSON_14 = {
      example:"A: Ze werkt heel geconcentreerd.\nB: Stoor haar dan niet.\nA: Ik wacht wel tot ze klaar is.\nB: Goed idee, ze heeft een deadline.",
      exampleSrc:"A: She is working very focused.\nB: Do not disturb her then.\nA: I will wait until she is done.\nB: Good idea, she has a deadline.",
      funFact:"'Geconcentreerd' works for both mental focus and physical concentration. 'Geconcentreerd sinaasappelsap' is concentrated orange juice. Context determines the meaning."},
-    {type:"teach", trg:"de dichtslibben", src:"to silt up, to become clogged", pos:"noun", gender:null,
+    {type:"teach", trg:"dichtslibben", src:"to silt up, to become clogged", pos:"verb", gender:null,
      note:"Separable verb: dicht + slibben.\n'De haven slibt dicht' = the harbor silts up.",
      example:"A: De gracht dreigt dicht te slibben.\nB: Moet die uitgebaggerd worden?\nA: Ja, elk jaar opnieuw.\nB: Het onderhoud van grachten is duur.",
      exampleSrc:"A: The canal is in danger of silting up.\nB: Does it need to be dredged?\nA: Yes, every year again.\nB: Canal maintenance is expensive.",
