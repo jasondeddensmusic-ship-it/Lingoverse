@@ -75,7 +75,7 @@ const LESSON_12 = {
      example:"A: Waar is mijn telefoon? Oh, in mijn borstzak.\nB: Pas op dat hij er niet uit valt.\nA: Ja, dat is me al eens gebeurd.\nB: Een beschermhoesje helpt.",
      exampleSrc:"A: Where is my phone? Oh, in my breast pocket.\nB: Be careful it does not fall out.\nA: Yes, that has happened to me before.\nB: A protective case helps.",
      funFact:"The 'borstzak' is traditionally where Dutch men kept their 'portemonnee' (wallet) or a fountain pen. Today, it holds phones and business cards. A pocket square is called a 'pochet'."},
-    {type:"teach", trg:"de chagrijnig", src:"grumpy, grouchy", pos:"adj", gender:null,
+    {type:"teach", trg:"de chagrijnig", src:"grumpy, grouchy", pos:"noun", gender:null,
      note:"From French 'chagrin' (grief).\n'Een chagrijnig humeur' = a grumpy mood.",
      example:"A: Waarom kijk je zo chagrijnig?\nB: Ik heb slecht geslapen.\nA: Dan heb je meer koffie nodig.\nB: Ja, dat denk ik ook.",
      exampleSrc:"A: Why do you look so grumpy?\nB: I slept badly.\nA: Then you need more coffee.\nB: Yes, I think so too.",

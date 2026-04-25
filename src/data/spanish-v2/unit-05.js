@@ -216,7 +216,7 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
           title:"Doler = Gustar pattern",
           text:"Me duele = it hurts me (one thing)\nMe duelen = they hurt me (multiple)\n\nExactly like gustar:\nMe gusta = I like (one thing)\nMe gustan = I like (plural)"
         },text:"Spanish says 'it hurts TO ME', not 'I hurt':\nMe duele la cabeza. = My head hurts.\nMe duele el estomago. = My stomach hurts.\nMe duelen los pies. = My feet hurt.\n\nSingular: duele. Plural: duelen.\nSame pattern as gustar!"},
-        {type:"teach",trg:"la nariz",src:"nose",pos:"intj",gender:null,phonetic:"la na-REES",note:"La nariz = nose. Feminine.\nResfriado = cold (illness).",example:"A: Me duele la nariz.\nB: Tienes un resfriado.",exampleSrc:"A: My nose hurts.\nB: You have a cold.",funFact:"Irregular plural: 'las narices.' Fun idiom: 'estar hasta las narices' = to be fed up (literally 'to be up to the noses'). One of many body-part expressions Spanish loves."},
+        {type:"teach",trg:"la nariz",src:"nose",pos:"noun",gender:null,phonetic:"la na-REES",note:"La nariz = nose. Feminine.\nResfriado = cold (illness).",example:"A: Me duele la nariz.\nB: Tienes un resfriado.",exampleSrc:"A: My nose hurts.\nB: You have a cold.",funFact:"Irregular plural: 'las narices.' Fun idiom: 'estar hasta las narices' = to be fed up (literally 'to be up to the noses'). One of many body-part expressions Spanish loves."},
         {type:"teach",trg:"el estomago",src:"stomach",pos:"noun",gender:"m",phonetic:"el es-TO-ma-go",note:"El estomago = stomach. Masculine.\nDemasiado = too much.",example:"A: Me duele el estomago.\nB: Comiste demasiado.",exampleSrc:"A: My stomach hurts.\nB: You ate too much.",funFact:"Cognate with English 'stomach'. Spanish and English share many Latin-derived words."},
         {type:"teach",trg:"el cuello",src:"neck",pos:"noun",gender:"m",phonetic:"el KWEH-yo",note:"El cuello = neck. Masculine.",example:"A: Me duele el cuello.\nB: Dormiste mal.",exampleSrc:"A: My neck hurts.\nB: You slept badly.",funFact:"Neck. From Latin 'collum.' Same root as English 'collar' and 'collateral.' 'El cuello' also means a shirt collar; dual meaning through metonymy."},
         {type:"teach",trg:"el hombro",src:"shoulder",pos:"noun",gender:"m",phonetic:"el OM-bro",note:"El hombro = shoulder. Masculine.\nDerecho = right, izquierdo = left.",example:"A: Me duele el hombro derecho.\nB: No lleves la mochila tan pesada.",exampleSrc:"A: My right shoulder hurts.\nB: Don't carry such a heavy backpack.",funFact:"Shoulder. From Latin 'umerus' (shoulder). English 'humerus' (the upper arm bone) shares the root. Spanish dropped the u."},
@@ -279,7 +279,7 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
      example:"A: ¿Tienes un amigo en la clase?\nB: Sí, tengo una amiga. Se llama Lucía.",
      exampleSrc:"A: Do you have a friend in the class?\nB: Yes, I have a friend (female). Her name is Lucía.",
      funFact:"From Latin amicus (friend), related to amare (to love). English 'amicable' comes from the same root."},
-    {type:"teach",trg:"de nada",src:"you're welcome",pos:"intj",gender:null,
+    {type:"teach",trg:"de nada",src:"you're welcome",pos:"noun",gender:null,
      phonetic:"deh NAH-dah",
      note:"De nada = you're welcome (literally 'of nothing' / 'it's nothing').\nUsed after someone says gracias.\nAlternative: no hay de qué (more formal).",
      example:"A: Gracias por tu ayuda.\nB: De nada. Es un placer.",

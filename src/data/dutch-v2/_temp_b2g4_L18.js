@@ -65,7 +65,7 @@ const LESSON_18 = {
      example:"A: Dat is een mooie designthermoskan.\nB: Dank je, het was een cadeau.\nA: Houdt hij de koffie warm?\nB: Uren lang, en hij lekt niet.",
      exampleSrc:"A: That is a beautiful designer thermos.\nB: Thank you, it was a gift.\nA: Does it keep the coffee warm?\nB: For hours, and it does not leak.",
      funFact:"Dutch design culture extends to everyday objects. Brands like Royal VKB and Mepal make designer household items. The Dutch believe even a 'thermoskan' should be beautiful."},
-    {type:"teach", trg:"de detineren", src:"to detain, to hold in custody", pos:"verb", gender:null,
+    {type:"teach", trg:"de detineren", src:"to detain, to hold in custody", pos:"noun", gender:null,
      note:"From Latin 'detinere'. Regular verb.\n'Gedetineerde' = detainee/prisoner.",
      example:"A: De verdachte wordt voorlopig gedetineerd.\nB: In welke gevangenis?\nA: In Scheveningen.\nB: Is er al een datum voor de rechtszaak?",
      exampleSrc:"A: The suspect is being detained for now.\nB: In which prison?\nA: In Scheveningen.\nB: Is there already a date for the trial?",

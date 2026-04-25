@@ -72,7 +72,7 @@ const LESSON_20 = {
      exampleSrc:"A: You should not denigrate the work of others.\nB: Constructive criticism is more useful.",
      funFact:"From Latin 'denigrare' meaning to blacken. French law treats 'denigrement commercial' (unfairly disparaging a competitor) as a legal offense."},
 
-    {type:"teach", trg:"le déplacé", src:"inappropriate", pos:"adj", gender:null,
+    {type:"teach", trg:"le déplacé", src:"inappropriate", pos:"noun", gender:null,
      note:"Adjective. Already introduced in lesson 14. Socially inappropriate behavior.",
      example:"A: Ses blagues sont souvent déplacées.\nB: Il manque de tact.",
      exampleSrc:"A: His jokes are often inappropriate.\nB: He lacks tact.",

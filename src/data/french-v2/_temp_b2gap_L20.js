@@ -121,7 +121,7 @@ const LESSON_20 = {
      hint:"Portraying someone as evil. From 'diable' (devil). Common in political commentary.",
      sSrc:"The {1} of the political opponent is a common tactic."},
 
-    {type:"teach", trg:"la cinquantieme", src:"the fiftieth", pos:"adj", gender:null,
+    {type:"teach", trg:"la cinquantieme", src:"the fiftieth", pos:"noun", gender:null,
      note:"Ordinal adjective. The 50th in a sequence.",
      example:"A: C'est la cinquantieme edition du festival.\nB: Un demi-siecle de culture !",
      exampleSrc:"A: It's the fiftieth edition of the festival.\nB: Half a century of culture!",

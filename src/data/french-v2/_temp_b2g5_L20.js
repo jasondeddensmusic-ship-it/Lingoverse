@@ -68,7 +68,7 @@ const LESSON_20 = {id:"frv2_b2g5_l20", title:"Débat et persuasion", icon:"🎤"
    hint:"The clear expression of the audience's disagreement and objection",
    sSrc:"The audience's {1} was obvious: boos drowned out the speech."},
 
-  {type:"teach", trg:"la force", src:"the force / strength (adj: forced)", pos:"adj", gender:null,
+  {type:"teach", trg:"la force", src:"the force / strength (adj: forced)", pos:"noun", gender:null,
    note:"As adjective: forced, compelled. 'C'est forcé' = it's inevitable.\n'Force est de constater' = one must acknowledge.",
    example:"A: Force est de constater que le débat n'a rien résolu.\nB: Les positions restent les mêmes.\nA: Il faudra trouver un compromis.\nB: Sans compromis, pas de progrès.",
    exampleSrc:"A: One must acknowledge that the debate resolved nothing.\nB: Positions remain the same.\nA: A compromise will have to be found.\nB: Without compromise, no progress.",

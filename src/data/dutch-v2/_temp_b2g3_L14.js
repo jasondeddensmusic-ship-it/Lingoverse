@@ -65,7 +65,7 @@ const LESSON_14 = {
      example:"A: We hebben veel documentatiemateriaal verzameld.\nB: Is alles gedigitaliseerd?\nA: Het meeste. Sommige archieven zijn nog op papier.\nB: Dat moet ook nog worden gescand.",
      exampleSrc:"A: We have collected a lot of documentation material.\nB: Is everything digitized?\nA: Most of it. Some archives are still on paper.\nB: That also needs to be scanned.",
      funFact:"COMPOUND: documentatie + materiaal. The Netherlands has extensive national archives. The 'Nationaal Archief' in The Hague preserves documents from 1200 to the present."},
-    {type:"teach", trg:"het erotisch", src:"erotic", pos:"adj", gender:null,
+    {type:"teach", trg:"het erotisch", src:"erotic", pos:"noun", gender:null,
      note:"From Greek 'erotikos'.\nUsed in art criticism, literature, and film.",
      example:"A: De tentoonstelling bevat erotische kunst.\nB: Uit welke periode?\nA: Van de Renaissance tot nu.\nB: Dat is een breed overzicht.",
      exampleSrc:"A: The exhibition contains erotic art.\nB: From which period?\nA: From the Renaissance to now.\nB: That is a broad overview.",

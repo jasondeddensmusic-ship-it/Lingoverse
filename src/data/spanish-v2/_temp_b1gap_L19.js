@@ -24,7 +24,7 @@ const LESSON_19 = {
      exampleSrc:"A: Self-assessment is important for growth.\nB: Yes, you need to know your strengths.",
      funFact:"A transparent compound: 'auto-' (self) + 'valoraci\u00f3n' (valuation). Spanish freely creates 'auto-' compounds: autocr\u00edtica, autoestima, autoevaluaci\u00f3n."},
 
-    {type:"teach", trg:"el b\u00edblico", src:"biblical", pos:"adj", gender:null,
+    {type:"teach", trg:"el b\u00edblico", src:"biblical", pos:"noun", gender:null,
      note:"Adjective. B\u00edblico/b\u00edblica. Related to the Bible.\nDe proporciones b\u00edblicas = of biblical proportions.",
      example:"A: La inundaci\u00f3n fue de proporciones b\u00edblicas.\nB: Nunca hab\u00edamos visto tanta agua.",
      exampleSrc:"A: The flood was of biblical proportions.\nB: We had never seen so much water.",

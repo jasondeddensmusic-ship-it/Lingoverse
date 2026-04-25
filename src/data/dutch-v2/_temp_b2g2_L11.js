@@ -65,7 +65,7 @@ const LESSON_11 = {
      example:"A: Dit bureau is antiek.\nB: Uit welke periode?\nA: Achttiende eeuw, denk ik.\nB: Dan is het veel waard.",
      exampleSrc:"A: This desk is antique.\nB: From which period?\nA: Eighteenth century, I think.\nB: Then it is worth a lot.",
      funFact:"The Netherlands has a thriving antique trade. 'Antiekwinkels' (antique shops) cluster in towns like Middelburg, Deventer, and Breda. The 'Kunst en Antiekbeurs' in Maastricht is world-famous."},
-    {type:"teach", trg:"de ceremonieel", src:"the ceremonial", pos:"adj", gender:null,
+    {type:"teach", trg:"de ceremonieel", src:"the ceremonial", pos:"noun", gender:null,
      note:"From Latin 'caerimonialis'. Formal and ritualistic.\n'Ceremonieel bezoek' = ceremonial visit.",
      example:"A: De opening was heel ceremonieel.\nB: Met veel woorden en een lint doorknippen?\nA: Ja, en de burgemeester was er ook.\nB: Dat hoort bij de traditie.",
      exampleSrc:"A: The opening was very ceremonial.\nB: With many words and a ribbon cutting?\nA: Yes, and the mayor was there too.\nB: That is part of the tradition.",

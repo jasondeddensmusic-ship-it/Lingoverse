@@ -23,7 +23,7 @@ const LESSON_15 = {
      exampleSrc:"A: I had a jamais-vu moment in front of my own house.\nB: It's a strange neurological phenomenon.",
      funFact:"Like 'deja vu', 'jamais vu' is a French psychological term used worldwide. It's rarer and more disorienting than deja vu."},
 
-    {type:"teach", trg:"la la-dessus", src:"on that, about that", pos:"adv", gender:null,
+    {type:"teach", trg:"la la-dessus", src:"on that, about that", pos:"noun", gender:null,
      note:"Adverb. On that topic or surface. Used to change subject.\n'La-dessus, il est parti' = With that, he left.",
      example:"A: La-dessus, je suis d'accord avec toi.\nB: Tant mieux, passons au point suivant.",
      exampleSrc:"A: On that, I agree with you.\nB: Good, let's move to the next point.",
@@ -84,7 +84,7 @@ const LESSON_15 = {
      ans:"jusqu'au bout",
      hint:"A rallying cry meaning total commitment and refusal to quit. Used in French sport and politics."},
 
-    {type:"teach", trg:"de haut en bas", src:"from top to bottom, disdainfully", pos:"adv", gender:null,
+    {type:"teach", trg:"de haut en bas", src:"from top to bottom, disdainfully", pos:"noun", gender:null,
      note:"Adverbial phrase. Literally top to bottom.\nFiguratively: looking down on someone.",
      example:"A: Elle m'a regarde de haut en bas.\nB: Quelle arrogance !",
      exampleSrc:"A: She looked me up and down.\nB: What arrogance!",

@@ -84,7 +84,7 @@ const LESSON_11 = {
      ans:"un coupe-papier",
      hint:"A blade that 'cuts paper'. A desk tool from the pre-email era."},
 
-    {type:"teach", trg:"la cinquantieme", src:"the fiftieth", pos:"adj", gender:null,
+    {type:"teach", trg:"la cinquantieme", src:"the fiftieth", pos:"noun", gender:null,
      note:"Ordinal adjective. The number fifty in order.\nAlso noun: un/une cinquantieme.",
      example:"A: C'est le cinquantieme anniversaire du festival.\nB: Un demi-siecle de musique !",
      exampleSrc:"A: It's the fiftieth anniversary of the festival.\nB: Half a century of music!",
