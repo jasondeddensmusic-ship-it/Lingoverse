@@ -84,7 +84,7 @@ const LESSON_15 = {
      ans:"jusqu'au bout",
      hint:"A rallying cry meaning total commitment and refusal to quit. Used in French sport and politics."},
 
-    {type:"teach", trg:"de haut en bas", src:"from top to bottom, disdainfully", pos:"noun", gender:null,
+    {type:"teach", trg:"de haut en bas", src:"from top to bottom, disdainfully", pos:"adv", gender:null,
      note:"Adverbial phrase. Literally top to bottom.\nFiguratively: looking down on someone.",
      example:"A: Elle m'a regarde de haut en bas.\nB: Quelle arrogance !",
      exampleSrc:"A: She looked me up and down.\nB: What arrogance!",

@@ -279,7 +279,7 @@ export default {n:5,lang:"es",srcLang:"en",track:"v2",title:"Mi Día",sub:"Daily
      example:"A: ¿Tienes un amigo en la clase?\nB: Sí, tengo una amiga. Se llama Lucía.",
      exampleSrc:"A: Do you have a friend in the class?\nB: Yes, I have a friend (female). Her name is Lucía.",
      funFact:"From Latin amicus (friend), related to amare (to love). English 'amicable' comes from the same root."},
-    {type:"teach",trg:"de nada",src:"you're welcome",pos:"noun",gender:null,
+    {type:"teach",trg:"de nada",src:"you're welcome",pos:"intj",gender:null,
      phonetic:"deh NAH-dah",
      note:"De nada = you're welcome (literally 'of nothing' / 'it's nothing').\nUsed after someone says gracias.\nAlternative: no hay de qué (more formal).",
      example:"A: Gracias por tu ayuda.\nB: De nada. Es un placer.",
