@@ -80,7 +80,7 @@ const LESSON_14 = {
      example:"A: Het discours over migratie is verhit.\nB: Aan beide kanten.\nA: We moeten rustig blijven debatteren.\nB: Dat is makkelijker gezegd dan gedaan.",
      exampleSrc:"A: The discourse on migration is heated.\nB: On both sides.\nA: We must continue to debate calmly.\nB: That is easier said than done.",
      funFact:"'Discours' is used in academic and media Dutch. It implies a structured, ongoing public debate. More formal than 'discussie' (discussion) or 'debat' (debate)."},
-    {type:"teach", trg:"de contextgebonden", src:"context-dependent", pos:"noun", gender:null,
+    {type:"teach", trg:"de contextgebonden", src:"context-dependent", pos:"noun", gender:"c",
      note:"Compound: context + gebonden (bound).\n'Contextgebonden betekenis' = context-dependent meaning.",
      example:"A: De betekenis van dat woord is contextgebonden.\nB: Kun je een voorbeeld geven?\nA: 'Bank' kan een zitbank of een geldbank zijn.\nB: Inderdaad, de context bepaalt de betekenis.",
      exampleSrc:"A: The meaning of that word is context-dependent.\nB: Can you give an example?\nA: 'Bank' can be a bench or a financial bank.\nB: Indeed, the context determines the meaning.",

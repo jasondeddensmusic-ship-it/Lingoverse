@@ -11,7 +11,7 @@ const LESSON_17 = {
      exampleSrc:"A: The enlarged photo reveals invisible details.\nB: You can even see the inscriptions.",
      funFact:"'Agrandir' means to enlarge. In photography, 'un agrandissement' is an enlargement. 'Agrandir la maison' means to extend the house."},
 
-    {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:null,
+    {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:"m",
      note:"Ordinal adjective. The number fifty in rank order.",
      example:"A: C'est le cinquantième anniversaire du festival.\nB: Une édition spéciale est prévue.",
      exampleSrc:"A: It's the fiftieth anniversary of the festival.\nB: A special edition is planned.",
@@ -35,7 +35,7 @@ const LESSON_17 = {
      ans:"cinquantième",
      hint:"French ordinals add '-ieme' to the cardinal number. This is the ordinal form of fifty."},
 
-    {type:"teach", trg:"le dépeigner", src:"to dishevel, to mess up hair", pos:"noun", gender:null,
+    {type:"teach", trg:"le dépeigner", src:"to dishevel, to mess up hair", pos:"noun", gender:"m",
      note:"Verb. To undo someone's combed hair. Figuratively: to ruffle.",
      example:"A: Le vent m'a complètement dépeigné.\nB: Tu as un peigne dans ton sac ?",
      exampleSrc:"A: The wind completely messed up my hair.\nB: Do you have a comb in your bag?",
@@ -102,7 +102,7 @@ const LESSON_17 = {
      exampleSrc:"A: The price difference is appreciable.\nB: We save almost twenty percent.",
      funFact:"In French, 'appreciable' can mean both 'significant' and 'pleasant/enjoyable'. Context determines which: a 'geste appreciable' is a kind gesture."},
 
-    {type:"teach", trg:"le contreficher", src:"to not care at all", pos:"noun", gender:null,
+    {type:"teach", trg:"le contreficher", src:"to not care at all", pos:"noun", gender:"m",
      note:"Reflexive verb. To not give a care about something. Informal but not vulgar.",
      example:"A: Il s'en contrefiche de ce que les gens pensent.\nB: C'est un esprit libre.",
      exampleSrc:"A: He couldn't care less about what people think.\nB: He's a free spirit.",

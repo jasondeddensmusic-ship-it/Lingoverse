@@ -52,7 +52,7 @@ const LESSON_19 = {id:"esv2_b2gap_l19",title:"Acciones y cambio III",icon:"🔧"
  exampleSrc:"A: The musicians are perfectly in sync.\nB: It seems like they read each other's minds.",
  funFact:"Con- + penetrar (to penetrate). To penetrate each other's thoughts, achieving perfect harmony."},
 
-{type:"teach",trg:"el accidentar",src:"to cause an accident (to)",pos:"noun",gender:null,
+{type:"teach",trg:"el accidentar",src:"to cause an accident (to)",pos:"noun",gender:"m",
  note:"Regular -ar verb. To have an accident.\nReflexive: accidentarse.",
  example:"A: Se accidentó en la autopista por la lluvia.\nB: Por suerte, solo fue un golpe leve.",
  exampleSrc:"A: He had an accident on the highway because of the rain.\nB: Luckily, it was just a minor bump.",

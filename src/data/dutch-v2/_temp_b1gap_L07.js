@@ -121,7 +121,7 @@ const LESSON_7 = {
      exampleSrc:"A: What does this painting depict?\nB: A Dutch landscape with windmills.",
      funFact:"'Beeld' means image or statue. The Rijksmuseum 'beeldt af' centuries of Dutch art history."},
 
-    {type:"teach", trg:"het bebouwd", src:"built-up (area)", pos:"noun", gender:null,
+    {type:"teach", trg:"het bebouwd", src:"built-up (area)", pos:"noun", gender:"n",
      note:"Adjective. Describes an area with many buildings.",
      example:"A: Dit is een bebouwd gebied.\nB: Ja, er staan overal huizen.",
      exampleSrc:"A: This is a built-up area.\nB: Yes, there are houses everywhere.",

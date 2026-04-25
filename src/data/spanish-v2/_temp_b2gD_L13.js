@@ -14,7 +14,7 @@ const LESSON_13 = {id:"esv2_b2gD_l13",title:"Conectores y discurso",icon:"\uD83D
  exampleSrc:"A: Starting from September, classes begin at eight.\nB: Then we'll have to get up earlier.",
  funFact:"'A partir de' is preferred over 'desde' when emphasizing the beginning of a new situation or rule."},
 
-{type:"teach",trg:"el cual",src:"which / whom (formal relative)",pos:"noun",gender:null,
+{type:"teach",trg:"el cual",src:"which / whom (formal relative)",pos:"noun",gender:"m",
  note:"Relative pronoun. Formal alternative to 'que'.\nForms: el cual, la cual, los cuales, las cuales.",
  example:"A: El proyecto, el cual fue aprobado ayer, empezará en mayo.\nB: Es una gran noticia para todo el departamento.",
  exampleSrc:"A: The project, which was approved yesterday, will begin in May.\nB: It's great news for the whole department.",

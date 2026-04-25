@@ -24,7 +24,7 @@ const LESSON_20 = {
      exampleSrc:"A: Amsterdam has an enormous attraction.\nB: Yes, millions of tourists per year.",
      funFact:"Aantrekking (attraction) + kracht (force). In physics: gravity. In daily life: charm and appeal."},
 
-    {type:"teach", trg:"de allerbelangrijkst", src:"the most important of all", pos:"noun", gender:null,
+    {type:"teach", trg:"de allerbelangrijkst", src:"the most important of all", pos:"noun", gender:"c",
      note:"Superlative adjective. Aller- prefix intensifies.",
      example:"A: Het allerbelangrijkste is je gezondheid.\nB: Daar heb je gelijk in.",
      exampleSrc:"A: The most important thing of all is your health.\nB: You are right about that.",
@@ -36,19 +36,19 @@ const LESSON_20 = {
      ans:"breekt aan",
      hint:"Which separable verb means a new period or era is beginning?"},
 
-    {type:"teach", trg:"de alleraardigst", src:"the nicest / very kind", pos:"noun", gender:null,
+    {type:"teach", trg:"de alleraardigst", src:"the nicest / very kind", pos:"noun", gender:"c",
      note:"Superlative adjective. Extremely nice or kind.",
      example:"A: Ze is de alleraardigste collega.\nB: Iedereen mag haar.",
      exampleSrc:"A: She is the nicest colleague of all.\nB: Everyone likes her.",
      funFact:"Aller + aardigst (nicest). Dutch uses 'aller-' for absolute superlatives. Very warm and appreciative."},
 
-    {type:"teach", trg:"de allerhoogst", src:"the very highest", pos:"noun", gender:null,
+    {type:"teach", trg:"de allerhoogst", src:"the very highest", pos:"noun", gender:"c",
      note:"Superlative adjective. The absolute maximum.",
      example:"A: Dit is van het allerhoogste belang.\nB: Ik begrijp de urgentie.",
      exampleSrc:"A: This is of the very highest importance.\nB: I understand the urgency.",
      funFact:"Used in both formal and informal Dutch. 'Allerhoogste' adds dramatic emphasis to the superlative."},
 
-    {type:"teach", trg:"de allerminst", src:"the very least / not at all", pos:"noun", gender:null,
+    {type:"teach", trg:"de allerminst", src:"the very least / not at all", pos:"noun", gender:"c",
      note:"Superlative adjective. The absolute minimum.",
      example:"A: Ik ben niet in het allerminst onder de indruk.\nB: Je bent moeilijk te imponeren.",
      exampleSrc:"A: I am not in the least impressed.\nB: You are hard to impress.",
@@ -97,19 +97,19 @@ const LESSON_20 = {
      ans:"aangifte doen",
      hint:"What is the formal action of reporting a crime to the authorities?"},
 
-    {type:"teach", trg:"de anarchistisch", src:"anarchistic", pos:"noun", gender:null,
+    {type:"teach", trg:"de anarchistisch", src:"anarchistic", pos:"noun", gender:"c",
      note:"Adjective. Related to anarchism or lawlessness.",
      example:"A: De protesten werden anarchistisch.\nB: De politie moest ingrijpen.",
      exampleSrc:"A: The protests became anarchistic.\nB: The police had to intervene.",
      funFact:"From Greek 'anarchos' (without a ruler). Amsterdam had a famous anarchist squatter movement in the 1980s."},
 
-    {type:"teach", trg:"de afijn", src:"anyway / anyhow", pos:"noun", gender:null,
+    {type:"teach", trg:"de afijn", src:"anyway / anyhow", pos:"noun", gender:"c",
      note:"Interjection. Used to wrap up or change topic.",
      example:"A: Afijn, het maakt niet uit.\nB: Oké, laten we verder gaan.",
      exampleSrc:"A: Anyway, it doesn't matter.\nB: Okay, let's move on.",
      funFact:"Very common conversational filler. Signals 'let's move on'. More informal than 'enfin'."},
 
-    {type:"teach", trg:"de aangekleed", src:"dressed (up)", pos:"noun", gender:null,
+    {type:"teach", trg:"de aangekleed", src:"dressed (up)", pos:"noun", gender:"c",
      note:"Past participle used as adjective. Wearing clothes.",
      example:"A: Je bent mooi aangekleed vandaag.\nB: Dank je, ik heb een sollicitatie.",
      exampleSrc:"A: You are nicely dressed today.\nB: Thanks, I have a job interview.",
@@ -121,7 +121,7 @@ const LESSON_20 = {
      exampleSrc:"A: He has a good antenna for humor.\nB: Yes, he senses exactly what is funny.",
      funFact:"Figuratively: 'een antenne hebben voor' means having a feel for something. Very expressive Dutch."},
 
-    {type:"teach", trg:"de afgeladen", src:"packed / jam-packed", pos:"noun", gender:null,
+    {type:"teach", trg:"de afgeladen", src:"packed / jam-packed", pos:"noun", gender:"c",
      note:"Past participle used as adjective. Extremely full.",
      example:"A: De trein was afgeladen vol.\nB: Ik kon niet eens zitten.",
      exampleSrc:"A: The train was jam-packed.\nB: I couldn't even sit down.",

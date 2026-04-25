@@ -20,7 +20,7 @@ const LESSON_16 = {
      example:"A: Mijn elfjarig neefje speelt al muziek.\nB: Al goed?\nA: Verrassend goed. Hij speelt Bach.\nB: Op die leeftijd? Dat is bijzonder.",
      exampleSrc:"A: My eleven-year-old nephew already plays music.\nB: Well?\nA: Surprisingly well. He plays Bach.\nB: At that age? That is special.",
      funFact:"Dutch creates age adjectives by combining number + 'jarig': vierjarig (four-year-old), tienjarig (ten-year-old), honderdjarig (hundred-year-old). No hyphen needed."},
-    {type:"teach", trg:"de dag in dag uit", src:"day in day out", pos:"noun", gender:null,
+    {type:"teach", trg:"de dag in dag uit", src:"day in day out", pos:"noun", gender:"c",
      note:"Fixed expression. From 'dag in, dag uit'.\nMeans every single day without exception.",
      example:"A: Ze werkt dag in dag uit aan haar onderzoek.\nB: Neemt ze nooit vrij?\nA: Zelden. Ze is heel gedreven.\nB: Dat is bewonderenswaardig maar ook zorgwekkend.",
      exampleSrc:"A: She works day in day out on her research.\nB: Does she never take a day off?\nA: Rarely. She is very driven.\nB: That is admirable but also worrying.",

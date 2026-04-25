@@ -48,7 +48,7 @@ const LESSON_11 = {id:"frv2_b2g9_l11", title:"Famille et Relations", icon:"👨�
    exampleSrc:"A: My ex lives in the same neighborhood.\nB: It's sometimes awkward to run into him.",
    funFact:"Ex is used identically in French and English. It works for both masculine and feminine."},
 
-  {type:"teach", trg:"la nôtre", src:"ours", pos:"noun", gender:null,
+  {type:"teach", trg:"la nôtre", src:"ours", pos:"noun", gender:"f",
    note:"Possessive pronoun. La nôtre (f), le nôtre (m), les nôtres (pl).\nNote the circumflex on ô.",
    example:"A: Leur maison est grande, mais la nôtre est plus chaleureuse.\nB: Je suis d'accord, j'adore notre maison.",
    exampleSrc:"A: Their house is big, but ours is warmer.\nB: I agree, I love our house.",

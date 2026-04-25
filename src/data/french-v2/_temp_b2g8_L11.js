@@ -11,7 +11,7 @@ const LESSON_11 = {
      exampleSrc:"A: Confederalism gives more power to regions.\nB: That's the Swiss model.",
      funFact:"Switzerland is the most famous confederalist state. France, by contrast, is extremely centralized."},
 
-    {type:"teach", trg:"le libératoire", src:"liberating (legally binding)", pos:"noun", gender:null,
+    {type:"teach", trg:"le libératoire", src:"liberating (legally binding)", pos:"noun", gender:"m",
      note:"Adjective. Having the effect of freeing from an obligation.\nLegal and financial term.",
      example:"A: Ce paiement a un effet libératoire.\nB: Votre dette est donc effacée.",
      exampleSrc:"A: This payment has a liberating effect.\nB: Your debt is therefore erased.",

@@ -55,7 +55,7 @@ const LESSON_17 = {
      example:"A: Bewaar alle correspondentie met de gemeente.\nB: Waarom?\nA: Voor het geval er problemen komen.\nB: Goed punt, ik bewaar alles.",
      exampleSrc:"A: Keep all correspondence with the municipality.\nB: Why?\nA: In case problems come up.\nB: Good point, I will keep everything.",
      funFact:"Dutch government correspondence is subject to the 'Wet open overheid' (Open Government Act). Citizens can request access to government correspondence. Transparency is a Dutch democratic value."},
-    {type:"teach", trg:"de collectivistisch", src:"collectivist", pos:"noun", gender:null,
+    {type:"teach", trg:"de collectivistisch", src:"collectivist", pos:"noun", gender:"c",
      note:"From 'collectivisme'. Used in political and cultural debate.\n'Collectivistisch denken' = collectivist thinking.",
      example:"A: De Nederlandse zorg is collectivistisch.\nB: Hoe bedoel je?\nA: Iedereen betaalt mee via belastingen.\nB: Solidariteit is de basis.",
      exampleSrc:"A: Dutch healthcare is collectivist.\nB: What do you mean?\nA: Everyone contributes through taxes.\nB: Solidarity is the basis.",

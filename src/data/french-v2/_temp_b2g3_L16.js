@@ -72,7 +72,7 @@ const LESSON_16 = {
      exampleSrc:"A: She is affected by a rare disease.\nB: Doctors are looking for a treatment.",
      funFact:"'Porter atteinte a' means to harm or violate. 'Atteinte a la vie privee' is invasion of privacy. A very productive legal term."},
 
-    {type:"teach", trg:"le différencié", src:"differentiated", pos:"noun", gender:null,
+    {type:"teach", trg:"le différencié", src:"differentiated", pos:"noun", gender:"m",
      note:"Adjective. Distinguished or made distinct from others. Feminine: differenciee.",
      example:"A: L'enseignement différencié s'adapte à chaque élève.\nB: C'est plus efficace que le cours magistral.",
      exampleSrc:"A: Differentiated teaching adapts to each student.\nB: It's more effective than lecturing.",

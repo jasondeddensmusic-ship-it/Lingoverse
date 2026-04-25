@@ -18,7 +18,7 @@ const LESSON_4 = {
      exampleSrc:"A: Could you point me to the way to the Cathedral?\nB: Of course, go straight and then left.",
      funFact:"'Potrebbe' is the formal polite request. Use it with strangers, officials, and anyone you address as 'Lei.' 'Potrebbe dirmi...' (Could you tell me...) is the standard opener for asking directions, information, or help in any Italian city. It is the verbal key that unlocks Italian courtesy."},
 
-    {type:"teach", trg:"le dispiacerebbe", src:"would you mind (formal)", pos:"noun", gender:null,
+    {type:"teach", trg:"le dispiacerebbe", src:"would you mind (formal)", pos:"noun", gender:"f",
      note:"Conditional of 'dispiacere' with 'Le' (formal). Very polite.\n'Le dispiacerebbe...?' = Would you mind...?",
      example:"A: Le dispiacerebbe abbassare la voce?\nB: Oh, mi scusi! Non me ne ero accorto.",
      exampleSrc:"A: Would you mind lowering your voice?\nB: Oh, excuse me! I had not noticed.",

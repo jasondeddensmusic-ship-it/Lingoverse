@@ -30,7 +30,7 @@ const LESSON_17 = {
      example:"A: De aangeklaagde ontkent alle beschuldigingen.\nB: Heeft hij een advocaat?\nA: Ja, een bekende strafpleiter.\nB: Dan wordt het een interessante rechtszaak.",
      exampleSrc:"A: The accused denies all charges.\nB: Does he have a lawyer?\nA: Yes, a well-known criminal defense attorney.\nB: Then it will be an interesting trial.",
      funFact:"'De aangeklaagde' is the legal term for the accused in Dutch courts. Different from 'de verdachte' (the suspect), who has not yet been formally charged."},
-    {type:"teach", trg:"de bezint", src:"to think carefully, to reflect", pos:"noun", gender:null,
+    {type:"teach", trg:"de bezint", src:"to think carefully, to reflect", pos:"noun", gender:"c",
      note:"Third person of 'bezinnen' (to reflect).\n'Bezint eer ge begint' = look before you leap.",
      example:"A: Bezint eer ge begint, zei mijn oma altijd.\nB: Een wijs spreekwoord.\nA: Ik had beter moeten nadenken.\nB: Leer ervan voor de volgende keer.",
      exampleSrc:"A: Look before you leap, my grandmother always said.\nB: A wise proverb.\nA: I should have thought more carefully.\nB: Learn from it for next time.",
