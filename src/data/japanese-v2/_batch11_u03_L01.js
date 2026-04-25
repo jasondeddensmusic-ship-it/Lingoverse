@@ -42,7 +42,7 @@ const BATCH11_L1 = {
      exampleSrc:"A: Yellow flowers are blooming.\nB: They are sunflowers!",
      funFact:"Yellow (黄色(きいろ)) was historically the color of nobility in Japan, similar to its status in China. 黄色(きいろ)い声(こえ) (yellow voice) means a shrill, excited voice, typically of women or children at concerts. It is not negative but descriptive."},
 
-    {type:"teach", trg:"緑(みどり)", src:"green", pos:"noun", gender:null,
+    {type:"teach", trg:"緑(みどり)", src:"green", pos:"adj", gender:null,
      note:"Noun-type color. Use with の: 緑(みどり)の + noun.\n緑(みどり)の日(ひ) = Greenery Day (national holiday).",
      example:"A: 緑(みどり)のTシャツをください。\nB: この色(いろ)ですか？",
      exampleSrc:"A: Please give me the green T-shirt.\nB: This color?",
@@ -54,13 +54,13 @@ const BATCH11_L1 = {
      exampleSrc:"A: I want brown shoes.\nB: Would leather be good?",
      funFact:"Brown is literally 'tea color' in Japanese, named after the color of green tea when brewed. Many Japanese colors are named after things: ねずみ色(いろ) (mouse color = gray), 桜色(さくらいろ) (cherry blossom color = pink), 空色(そらいろ) (sky color = light blue)."},
 
-    {type:"teach", trg:"ピンク", src:"pink", pos:"noun", gender:null,
+    {type:"teach", trg:"ピンク", src:"pink", pos:"adj", gender:null,
      note:"Loanword from English. Use with の: ピンクの + noun.\nNative alternative: 桃色(ももいろ) (peach color).",
      example:"A: ピンクのかさをもっていますか？\nB: はい、あります。",
      exampleSrc:"A: Do you have a pink umbrella?\nB: Yes, I do.",
      funFact:"Many modern color words in Japanese are English loanwords: ピンク, オレンジ, ベージュ, グレー. The native Japanese word for pink is 桃色(ももいろ) (peach color), but ピンク has become far more common in everyday speech."},
 
-    {type:"teach", trg:"紫(むらさき)", src:"purple", pos:"noun", gender:null,
+    {type:"teach", trg:"紫(むらさき)", src:"purple", pos:"adj", gender:null,
      note:"Noun-type color. Use with の: 紫(むらさき)の + noun.\nHistorically, the most prestigious color.",
      example:"A: 紫(むらさき)の風船(ふうせん)がきれいですね。\nB: 誕生日(たんじょうび)パーティーの飾(かざ)りです。",
      exampleSrc:"A: The purple balloons are pretty.\nB: They are decorations for the birthday party.",
