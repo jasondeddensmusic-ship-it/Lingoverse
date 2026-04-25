@@ -197,7 +197,7 @@ const UNIT_11 = {
       {type:"mc", q:"Why is 'letto' (read) potentially confusing?",
        opts:["It is regular","It sounds like 'latte'","It is spelled the same as 'letto' (bed)","It has no past tense"],
        ans:"It is spelled the same as 'letto' (bed)",
-       hint:"Two identical-looking words from different Latin origins. Context tells you if it means 'read' or 'b....'"},
+       hint:"Two homographs converged from different Latin origins. The context disambiguates the verb-participle from the furniture-noun."},
 
       {type:"fb", s:"Hai {1} la finestra?",
        a:["aperto"],
@@ -299,7 +299,7 @@ const UNIT_11 = {
       {type:"mc", q:"How do you say 'I have never seen' in Italian?",
        opts:["Non ho visto mai","Ho mai visto","Non ho mai visto","Mai ho non visto"],
        ans:"Non ho mai visto",
-       hint:"Italian uses double negatives. 'N...' before the verb, 'm...' between helper and participle."},
+       hint:"Italian double-negative word order: pre-verb negator first, then auxiliary, then the indefinite-time adverb, then the participle."},
 
       {type:"fb", s:"Non ho {1} finito i compiti.",
        a:["ancora"],

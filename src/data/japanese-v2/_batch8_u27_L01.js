@@ -37,7 +37,7 @@ const BATCH8_L1 = {
      funFact:"Japan's 省(しょう)エネ culture is world-leading. クールビズ (Cool Biz) campaign encourages 28-degree AC settings and no neckties in summer. 省(しょう)エネ法(ほう) (Energy Conservation Law) sets efficiency standards. After Fukushima, 節電(せつでん) (electricity saving) became a national effort with planned blackout schedules."},
 
     {type:"mc", q:"What does 再生可能(さいせいかのう)エネルギー mean?", opts:["Renewable energy","Nuclear energy","Fossil fuel energy","Chemical energy"], ans:"Renewable energy",
-     hint:"This term combines 're-birth possible' with 'e...' for sources that naturally replenish."},
+     hint:"再生可能 means 'able to be regenerated'. The descriptor refers to sources that naturally replenish, not depleting fossil or fissile materials."},
 
     {type:"teach", trg:"排出(はいしゅつ)", src:"emission / discharge", pos:"noun", gender:null,
      note:"Kanji: 排出. 排出(はいしゅつ)量(りょう) = emission volume.\nCO2排出(はいしゅつ) = CO2 emissions.",

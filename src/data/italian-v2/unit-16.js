@@ -318,7 +318,7 @@ const UNIT_16 = {
       {type:"mc", q:"What do Italians say to wish someone a speedy recovery?",
        opts:["Buona fortuna!","Buon appetito!","Buon viaggio!","Buona guarigione!"],
        ans:"Buona guarigione!",
-       hint:"'G...' means 'recovery' or 'healing.' This wish follows the Italian pattern of 'Buon/B... + noun.'"}
+       hint:"All four phrases follow the Buon(a) + noun template. The noun specific to medical convalescence is the answer here."}
     ,{type:"match",pairs:[{trg:"la ferita",src:"the wound / injury"},{trg:"curare",src:"to treat / to cure"}]}]}
   ,
   BATCH8_L1,

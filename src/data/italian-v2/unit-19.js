@@ -113,7 +113,7 @@ const UNIT_19 = {
       {type:"mc", q:"What does 'gioia mia' mean as a term of endearment?",
        opts:["My anger","My sadness","My fear","My joy / my treasure"],
        ans:"My joy / my treasure",
-       hint:"This word means both 'j...' and 'jewel/t...' in affectionate speech. Common in southern Italy."}
+       hint:"Gioia is a positive emotion noun, the opposite end of the affective spectrum from the other options. Doubles as an affectionate term meaning a precious thing."}
     ]},
 
     {id:"itv2_u19l2", title:"Le relazioni", icon:"💑", xp:15, board:true, steps:[

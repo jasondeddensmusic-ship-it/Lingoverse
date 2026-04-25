@@ -67,7 +67,7 @@ const BATCH6_L1 = {
      hint:"The word meaning working together with other countries toward shared goals."},
 
     {type:"mc", q:"難民(なんみん) describes:", opts:["Students abroad","People forced to flee their country due to conflict or persecution","Tourists","Business travelers"], ans:"People forced to flee their country due to conflict or persecution",
-     hint:"This word combines 'difficulty' and 'p...' to describe displaced populations."},
+     hint:"難 (difficulty/hardship) + 民 (the populace) describes displaced populations seeking safety from war or political danger."},
 
     {type:"match", pairs:[
       {trg:"外交(がいこう)", src:"diplomacy"},

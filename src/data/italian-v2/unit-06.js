@@ -210,7 +210,7 @@ const UNIT_06 = {
       {type:"mc", q:"What does 'la strada' mean?",
        opts:["The store","The station","The square","The street / road"],
        ans:"The street / road",
-       hint:"From Latin 'strata' (paved r...). English 's...' shares the same ancient root."}
+       hint:"From Latin 'strata' (a layer or paved surface). The same root reaches English via Old Norse via Anglo-Saxon."}
     ]},
 
     {id:"itv2_u6l3", title:"I mezzi di trasporto", icon:"\ud83d\ude8c", xp:15, board:true, steps:[

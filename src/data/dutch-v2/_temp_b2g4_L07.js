@@ -112,7 +112,7 @@ const LESSON_7 = {
     {type:"mc", q:"What does 'het examenrooster' mean?",
      opts:["the exam schedule","the exam board","the exam result","the exam room"],
      ans:"the exam schedule",
-     hint:"'Rooster' means both 'grid' and 's...'. It is the timetable for exams."},
+     hint:"Rooster covers both the gridded structure and the time-organized list. Here it refers to the timetable."},
     {type:"fb", s:"De {1} beslist over vrijstellingen.", a:["examencommissie"],
      opts:["examencommissie","examenperiode","excursie","examenresultaat"],
      hint:"The board that governs exam rules and exemptions at a university.",

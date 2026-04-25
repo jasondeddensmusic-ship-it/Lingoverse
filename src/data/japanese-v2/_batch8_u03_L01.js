@@ -94,7 +94,7 @@ const BATCH8_L1 = {
      hint:"This reference book helps you find the meanings of words."},
 
     {type:"mc", q:"What does コピー機(き) mean?", opts:["Computer","Calculator","Copy machine","Coffee maker"], ans:"Copy machine",
-     hint:"This compound word joins the loanword for 'c...' with the Japanese word for 'm....'"}
+     hint:"コピー is a katakana loanword. 機 (き) is the Japanese kanji for a piece of operational equipment."}
   ,{type:"match",pairs:[{trg:"ものさし",src:"ruler"},{trg:"黒板(こくばん)",src:"blackboard / chalkboard"},{trg:"棚(たな)に",src:"on the shelf"},{trg:"コピー機(き)",src:"copy machine / photocopier"},{trg:"ファイル",src:"file / folder / binder"}]}]
 };
 export default BATCH8_L1;

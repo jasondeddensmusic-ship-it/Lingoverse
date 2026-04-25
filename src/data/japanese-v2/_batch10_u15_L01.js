@@ -71,7 +71,7 @@ const BATCH10_L1 = {
     ]},
 
     {type:"mc", q:"What does 歩行者天国(ほこうしゃてんごく) literally mean?", opts:["Sunday market","Pedestrian heaven","Walking zone","Car-free road"], ans:"Pedestrian heaven",
-     hint:"This poetic Japanese term for car-free zones combines 'p...' with 'h.../paradise.'"}
+     hint:"歩行者 = walker, 天国 = paradise/celestial realm. Translate the kanji literally rather than functionally."}
   ,{type:"match",pairs:[{trg:"目印(めじるし)",src:"landmark / marker"},{trg:"一方通行(いっぽうつうこう)",src:"one-way street"},{trg:"横断歩道(おうだんほどう)",src:"pedestrian crossing / crosswalk"}]}]
 };
 export default BATCH10_L1;

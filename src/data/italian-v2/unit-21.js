@@ -225,7 +225,7 @@ const UNIT_21 = {
       {type:"mc", q:"Why do the future and conditional share irregular stems?",
        opts:["Italian grammar always links two tenses together","It is simply a coincidence in Italian","They were created at the same time by grammarians","Both evolved from the Latin infinitive plus forms of 'avere'"],
        ans:"Both evolved from the Latin infinitive plus forms of 'avere'",
-       hint:"The future used 'habeo' (I have) and the conditional used 'habebam' (I had). Same i... base, different 'a...' form."}
+       hint:"Romance languages glued an existing auxiliary onto the verb stem. Future tense used the present-tense form, conditional used the imperfect form."}
     ]},
 
     {id:"itv2_u21l3", title:"Usi del condizionale", icon:"💬", xp:15, board:true, steps:[

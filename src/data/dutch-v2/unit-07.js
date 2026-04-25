@@ -117,7 +117,7 @@ export default {n:7,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Dag",sub:"Perf
         {type:"mc",q:"'Morgen' can mean:",opts:["only tomorrow","both tomorrow and morning","only morning","yesterday"],ans:"both tomorrow and morning",hint:"Context tells you which!"},
         {type:"drag_fill",hint:"This morning I drank coffee. Tomorrow I'll go to the market.",s:"{1} heb ik koffie gedronken. {2} ga ik naar de markt.",blanks:{"1":"Vanochtend","2":"Morgen"},pool:["Vanochtend","Morgen","Geleden","Nu"]},
         {type:"fb",opts:["Vorige","Deze","Morgen","Volgende"],hint:"LAST week",s:"___ week heb ik pannenkoeken gemaakt.",a:"Vorige"},
-        {type:"mc",q:"'Twee weken geleden' means:",opts:["in two weeks","two weeks later","two weeks ago","during two weeks"],ans:"two weeks ago",hint:"The Dutch word meaning 'a...' follows the time expression"},
+        {type:"mc",q:"'Twee weken geleden' means:",opts:["in two weeks","two weeks later","two weeks ago","during two weeks"],ans:"two weeks ago",hint:"Geleden positions the time expression in the past, not the future."},
         {type:"fb",opts:["Deze week","Morgen","Gisteren","Geleden"],hint:"The current seven-day period: a time expression using the present demonstrative",s:"___ heb ik veel geleerd.",a:"Deze week"},
         {type:"tr",mk:"u7_worked_yesterday",dir:"produce"},
         {type:"tr",mk:"u7_what_did_weekend",dir:"produce"}

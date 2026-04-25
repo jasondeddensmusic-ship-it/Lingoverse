@@ -108,7 +108,7 @@ const UNIT_20 = {
       {type:"mc", q:"How do Italians say 'to take an exam'?",
        opts:["Avere un esame","Prendere un esame","Fare un esame","Dare un esame"],
        ans:"Dare un esame",
-       hint:"Italian uses 'd...' (to give), not 'prendere' (to take). You 'give' an exam, the opposite of the English expression."}
+       hint:"Italian uses the verb meaning 'to give', the opposite of the English expression. Students offer up their performance to the examiner."}
     ]},
 
     {id:"itv2_u20l2", title:"L'universita", icon:"🏛️", xp:15, board:true, steps:[
