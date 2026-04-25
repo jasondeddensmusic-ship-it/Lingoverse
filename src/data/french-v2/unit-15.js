@@ -185,7 +185,7 @@ export default {n:15,lang:"fr",srcLang:"en",track:"v2",title:"Comparatifs et sup
         {type:"mc",q:"'Comme ci, comme ça' is used when something is:",opts:["Excellent","Neither good nor bad","Terrible","The best"],ans:"Neither good nor bad",hint:"So-so. A neutral response about quality."},
         {type:"drag_fill",hint:"As good as. Adjective equality, not the quantity word.",s:"Ce restaurant est {1} bon {2} l'autre. (as good as)",blanks:{"1":"aussi","2":"que"},pool:["aussi","autant","que","de"]},
         {type:"mc",q:"You've mastered French comparisons! The trickiest part is:",opts:["Plus/moins","Superlative placement","Meilleur vs mieux","All of the above"],ans:"Meilleur vs mieux",hint:"Adjective vs adverb is the most common source of errors."},
-        {type:"drag_fill",hint:"The most ___tiful day of my life! BAGS = before noun.",s:"C'est le {1} jour {2} ma vie! (most beautiful, of)",blanks:{"1":"plusbeau","2":"de"},pool:["plus beau","plus belle","de","dans"]},
+        {type:"drag_fill",hint:"The most ___tiful day of my life! BAGS = before noun.",s:"C'est le {1} jour {2} ma vie! (most beautiful, of)",blanks:{"1":"plus beau","2":"de"},pool:["plus beau","plus belle","de","dans"]},
         {type:"mc",q:"Final: 'La Tour Eiffel est ___ monument ___ de Paris.'",opts:["Les plus célèbres","La plus célèbre","Le moins célèbre","Le plus célèbre"],ans:"Le plus célèbre",hint:"Monument = masculine. The most famous monument in Paris."}
   ]},
   {id:"fre15l8b",title:"Les Transports",icon:"🚆",xp:15,board:true,steps:[
