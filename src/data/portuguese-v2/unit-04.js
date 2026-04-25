@@ -140,7 +140,7 @@ const UNIT_04 = {
     {
       id: "ptv2_u4l3", title: "Wanting and Ordering", icon: "🙋", xp: 15, board: true,
       steps: [
-        {type: "intro", title: "Querer: to want", desc: "Learn to order food politely using querer.", goals: ["Conjugate querer", "Order with por favor", "Use pedir"]},
+        {type: "intro", title: "Querer: to want", desc: "Learn to order food politely using querer.", goals: ["Conjugate querer in present", "Order politely with por favor", "Use pedir for requests"]},
 
         {type: "teach", trg: "querer", src: "to want", pos: "verb", gender: null,
           note: "Irregular verb. The most common way to order or ask for things.",

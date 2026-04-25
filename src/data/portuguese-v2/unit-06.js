@@ -9,7 +9,7 @@ const UNIT_06 = {
     {
       id: "ptv2_u6l1", title: "Here and There", icon: "📍", xp: 15, board: true,
       steps: [
-        {type: "intro", title: "Locations", desc: "Learn to ask where, and say here and there.", goals: ["Ask onde", "Point out locations", "Use aqui, ali, lá"]},
+        {type: "intro", title: "Locations", desc: "Learn to ask where, and say here and there.", goals: ["Ask 'onde' questions", "Point out locations", "Use aqui, ali, lá deictics"]},
 
         {type: "teach", trg: "onde", src: "where", pos: "pron", gender: null,
           note: "Question word for location. Pronounced OHN-gee.",
