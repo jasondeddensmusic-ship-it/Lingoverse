@@ -42,7 +42,7 @@ const UNIT_14 =
 {type:"fb",s:"Kannst du bitte die Unterlagen {1}?",a:["ordnen"],opts:["ordnen","innen","begrüßen","aufmerksam"],hint:"From Ordnung (order). A verb meaning to sort or arrange systematically.",sSrc:"Can you please organize the documents?"},
 {type:"mc",q:"Was bedeutet 'gemeinsam'?",opts:["the company, the operation","together, jointly, shared","the collaboration, the teamwork","the conference"],ans:"together, jointly, shared",hint:"From Gemein- (communal/mutual) + -sam. Doing something as a group, not alone."},
 {type:"fb",s:"Dein Schreibtisch ist sehr {1}!",a:["ordentlich"],opts:["die Besprechung","die Kantine","der Betrieb","ordentlich"],hint:"From Ordnung (order) + -lich. An adjective for someone who keeps things neat.",sSrc:"Your desk is very tidy!"},
-{type:"mc",q:"Was bedeutet 'miteinander'?",opts:["attentive, observant","together, jointly, shared","with each other, together","the company, the operation"],ans:"with each other, together",hint:"Mit (with) + ein + ander. Three parts fused into one word."}
+{type:"mc",q:"Was bedeutet 'miteinander'?",opts:["attentive, observant","together, jointly, shared","with each other, together","the company, the operation"],ans:"with each other, together",hint:"Three German parts fused into one word: comitative preposition + ein + ander. Reciprocal sense, not collective."}
 ]},
 
 // ─── Lesson 2: Das Büro ───
