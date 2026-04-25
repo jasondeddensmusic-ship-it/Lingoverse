@@ -112,7 +112,7 @@ export default {n:24,lang:"nl",srcLang:"en",track:"v2",title:"Academisch Nederla
           {trg:"de te trekken conclusie",src:"te-construction (conclusion to draw)"}
         ]},
         {type:"fb",opts:["bekend","bewezen","aangetoond","verondersteld"],hint:"Which adjective means 'well-known' or 'familiar'?",s:"Het is algemeen ___ dat slaap essentieel is.",a:"bekend"},
-        {type:"mc",q:"'Hetgeen eerdere studies ook al aantoonden' means:",opts:["Which nobody expected","Which was never proven","What the hypothesis predicted","Which earlier studies also demonstrated"],ans:"Which earlier studies also demonstrated",hint:"Hetgeen = w.... Aantonen = to demonstrate."},
+        {type:"mc",q:"'Hetgeen eerdere studies ook al aantoonden' means:",opts:["Which nobody expected","Which was never proven","What the hypothesis predicted","Which earlier studies also demonstrated"],ans:"Which earlier studies also demonstrated",hint:"Hetgeen is the formal relative pronoun. Aantonen builds an argument with evidence."},
         {type:"drag_fill",hint:"Used method (past PP). Expected outcome (te-construction).",s:"De {1} methode was effectief. De {2} uitkomst werd bevestigd.",blanks:{"1":"gebruikte","2":"te verwachten"},pool:["gebruikte","te verwachten","geschreven","groeiende"]},
         {type:"fb",opts:["lagere","hogere","betere","grotere"],hint:"Comparative of laag: slaaptekort leidt tot ___ cijfers",s:"Minder slaap leidt tot ___ cijfers.",a:"lagere"},
         {type:"mc",q:"The abstract recommends:",opts:["Later lecture times and sleep education","Earlier lecture times","More homework","Mandatory naps"],ans:"Later lecture times and sleep education",hint:"___e collegetijden en voorlichting"},

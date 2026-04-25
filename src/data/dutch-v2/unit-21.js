@@ -151,7 +151,7 @@ export default {n:21,lang:"nl",srcLang:"en",track:"v2",title:"Formeel Schrijven"
           {trg:"Ik zou het op prijs stellen als",src:"I would appreciate it if"},
           {trg:"Met vriendelijke groet",src:"Kind regards"}
         ]},
-        {type:"mc",q:"In a formal letter, 'als bijlage vindt u mijn cv' means:",opts:["As a conclusion you find my cv","As a request you have my cv","As an attachment you will find my cv","As an argument you see my cv"],ans:"As an attachment you will find my cv",hint:"Bijlage = a.../enclosure"},
+        {type:"mc",q:"In a formal letter, 'als bijlage vindt u mijn cv' means:",opts:["As a conclusion you find my cv","As a request you have my cv","As an attachment you will find my cv","As an argument you see my cv"],ans:"As an attachment you will find my cv",hint:"Bijlage is the formal Dutch word for an enclosed document accompanying a letter or email."},
         {type:"fb",opts:["vindt","vinden","vond","gevonden"],hint:"U-form of the verb for discovering or locating something",s:"Als bijlage ___ u mijn cv en motivatiebrief.",a:"vindt"},
         {type:"drag_fill",hint:"I would appreciate it if you respond quickly.",s:"Ik {1} het op prijs stellen als u {2} reageert.",blanks:{"1":"zou","2":"snel"},pool:["zou","snel","zal","graag"]},
         {type:"mc",q:"'De desbetreffende functie' in a letter refers to:",opts:["Any function","The most important function","A new function","The function mentioned earlier in the letter"],ans:"The function mentioned earlier in the letter",hint:"Desbetreffend = the one in question"},
