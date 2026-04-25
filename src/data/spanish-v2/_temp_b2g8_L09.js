@@ -29,7 +29,7 @@ const LESSON_9 = {id:"esv2_b2g8_l9",title:"Educación y academia",icon:"🎓",xp
 {type:"mc",q:"¿Qué es un curso abierto?",
  opts:["Un curso sin requisitos previos abierto a todos","Un curso solo para profesores","Un curso muy difícil","Un curso de puertas abiertas"],
  ans:"Un curso sin requisitos previos abierto a todos",
- hint:"'A...' means open. What kind of course is accessible to anyone?"},
+ hint:"The adjective here describes the enrollment policy (no prerequisites), not the doors of the building or the difficulty level."},
 
 {type:"teach",trg:"el léxico",src:"the lexicon / vocabulary",pos:"noun",gender:"m",
  note:"Masculine noun. The total set of words in a language or a person's vocabulary.\nFrom Greek lexikos.",

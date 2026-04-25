@@ -91,7 +91,7 @@ const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto (II)", icon:"\u{270
 {type:"mc", q:"Come si dice 'boarding pass' in italiano?",
  opts:["la carta d'imbarco","il controllo passaporti","il ritiro bagagli","il volo"],
  ans:"la carta d'imbarco",
- hint:"The document you show to board the plane. Contains 'i...' (boarding)."},
+ hint:"The document you show to board the plane. Not the passport check, baggage claim, or the flight itself."},
 
 {type:"fb", s:"L'aereo {1} alle otto di mattina da Roma.", a:["decolla"],
  opts:["decolla","atterra","allaccia","ritira"],

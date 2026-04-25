@@ -40,7 +40,7 @@ const BATCH3_L_1 = {
      q:"Qual e la differenza tra una similitudine e una metafora?",
      opts:["La similitudine usa 'come' per il confronto, la metafora no","La metafora e sempre più lunga e complessa della similitudine","La similitudine si usa solo in poesia, la metafora solo in prosa","Non c'è nessuna differenza tecnica tra i due concetti"],
      ans:"La similitudine usa 'come' per il confronto, la metafora no",
-     hint:"One makes the comparison explicit with 'c...' (like/as). The other states the comparison directly without the linking word."},
+     hint:"One uses an explicit comparison particle (like/as) while the other states the equivalence directly without a linking word."},
 
     {type:"teach", trg:"l'antagonista", src:"the antagonist", pos:"noun", gender:"m",
      note:"Masculine/feminine noun. The character who opposes the protagonist.\n'Forza antagonista' = opposing force.",

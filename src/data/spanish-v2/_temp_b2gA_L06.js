@@ -33,7 +33,7 @@ const LESSON_6 = {id:"esv2_b2gA_l6", title:"Tecnología e innovación", icon:"�
  funFact:"As adjective: 'trabajo manual' (manual labor). Spanish loves words with double lives."},
 
 {type:"mc", q:"¿Qué es la 'interconexión de dispositivos'?", opts:["La conexión mutua entre aparatos electrónicos","Un tipo de cable especial","Una red social","Un programa informático"], ans:"La conexión mutua entre aparatos electrónicos",
- hint:"The prefix 'inter-' means between, and 'c...' means connection."},
+ hint:"The 'inter-' prefix marks reciprocity. The base noun describes the link itself, not a cable, social network, or program."},
 
 {type:"fb", s:"El {1} de empleados incluye más de quinientos nombres.", a:["listado"], opts:["listado","logo","manual","numérico"],
  hint:"This formal noun means a formatted list or inventory of items.",
