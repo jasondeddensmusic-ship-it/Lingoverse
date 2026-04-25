@@ -23,7 +23,7 @@ const LESSON_12 = {id:"frv2_b2gC_l12", title:"Gastronomie et traditions", icon:"
  exampleSrc:"A: Roast suckling pig is a specialty of this region.\nB: It is a traditional dish for big celebrations.",
  funFact:"The -et/-ette suffix creates diminutives in French: porc>porcelet, jardin>jardinet, maison>maisonnette."},
 
-{type:"teach", trg:"les crêperies", src:"creperies", pos:"noun", gender:"f",
+{type:"teach", trg:"les crêperies", src:"creperies", pos:"noun", gender:"pl",
  note:"Feminine noun (plural). Restaurants specializing in crêpes.\nEssentially Breton restaurants.",
  example:"A: Il y a beaucoup de crêperies à Rennes.\nB: Normal, c'est la capitale de la Bretagne.",
  exampleSrc:"A: There are many creperies in Rennes.\nB: Of course, it is the capital of Brittany.",

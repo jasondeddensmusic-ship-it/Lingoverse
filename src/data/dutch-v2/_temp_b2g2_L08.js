@@ -40,7 +40,7 @@ const LESSON_8 = {
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gevonden?\nA: Vooral in tropische gebieden.\nB: Suriname was ooit een grote producent.",
      exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it found?\nA: Mainly in tropical areas.\nB: Suriname was once a major producer.",
      funFact:"Suriname, a former Dutch colony, was one of the world's largest bauxite producers. The Surinamese bauxite industry was vital to the Dutch economy until Suriname's independence in 1975."},
-    {type:"teach", trg:"de afvalophaling", src:"the waste collection", pos:"noun", gender:"n",
+    {type:"teach", trg:"de afvalophaling", src:"the waste collection", pos:"noun", gender:"c",
      note:"A de-word. Compound: afval (waste) + ophaling (collection).\nBelgian Dutch. Netherlands: 'afvalinzameling'.",
      example:"A: De afvalophaling is vandaag.\nB: Welke container moet buiten?\nA: De groene, voor papier.\nB: Oh ja, dan zet ik die even buiten.",
      exampleSrc:"A: The waste collection is today.\nB: Which container goes outside?\nA: The green one, for paper.\nB: Oh right, I will put it outside then.",

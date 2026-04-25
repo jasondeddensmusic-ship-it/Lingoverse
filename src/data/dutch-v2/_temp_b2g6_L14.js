@@ -30,7 +30,7 @@ const LESSON_14 = {
      exampleSrc:"A: There are three points of attention for the project.\nB: Which ones?\nA: Budget, planning, and communication.\nB: Let us start with the budget.",
      funFact:"Dutch meetings are structured around 'aandachtspunten' and 'actiepunten' (action points). The poldermodel demands that every concern is addressed."},
 
-    {type:"teach", trg:"de continuïteit", src:"the continuity", pos:"noun", gender:"n",
+    {type:"teach", trg:"de continuïteit", src:"the continuity", pos:"noun", gender:"c",
      note:"From Latin 'continuitas'. Note the trema on the i.\nMaintaining something without interruption.",
      example:"A: De continuïteit van het bedrijf staat op het spel.\nB: Waarom?\nA: De directeur is plotseling vertrokken.\nB: Er moet snel een opvolger komen.",
      exampleSrc:"A: The continuity of the company is at stake.\nB: Why?\nA: The director has suddenly left.\nB: A successor must come quickly.",

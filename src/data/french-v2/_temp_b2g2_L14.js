@@ -17,7 +17,7 @@ const LESSON_14 = {
      exampleSrc:"A: My adopted son is from Vietnam.\nB: He arrived at the age of two.",
      funFact:"France has one of Europe's highest international adoption rates. The process takes about 2-4 years."},
 
-    {type:"teach", trg:"les appartenances", src:"the belongings, the affiliations", pos:"noun", gender:"f",
+    {type:"teach", trg:"les appartenances", src:"the belongings, the affiliations", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Group memberships or the things one belongs to.",
      example:"A: Nos appartenances culturelles nous definissent.\nB: Mais elles ne doivent pas nous limiter.",
      exampleSrc:"A: Our cultural affiliations define us.\nB: But they shouldn't limit us.",
@@ -47,7 +47,7 @@ const LESSON_14 = {
      exampleSrc:"A: The deceased leaves behind three children.\nB: Our thoughts go to his family.",
      funFact:"From Latin 'defunctus' (one who has completed). A formal, respectful way to refer to the dead."},
 
-    {type:"teach", trg:"les demeles", src:"the disputes, the troubles", pos:"noun", gender:"m",
+    {type:"teach", trg:"les demeles", src:"the disputes, the troubles", pos:"noun", gender:"pl",
      note:"Masculine plural noun. Conflicts or legal troubles with someone.",
      example:"A: Il a eu des demeles avec la justice.\nB: Son avocat s'en occupe.",
      exampleSrc:"A: He's had run-ins with the law.\nB: His lawyer is handling it.",

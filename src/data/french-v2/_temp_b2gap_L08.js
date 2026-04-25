@@ -59,7 +59,7 @@ const LESSON_8 = {
      exampleSrc:"A: Hang your coat on the hook.\nB: Okay, thanks.",
      funFact:"'Crochet' entered English for the needlework craft. In French boxing, 'un crochet' is a hook punch."},
 
-    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"f",
+    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"pl",
      note:"Feminine noun. Always plural. Heraldic symbols of a family, city, or institution.",
      example:"A: Les armoiries de la ville sont tr\u00e8s anciennes.\nB: Elles datent du Moyen \u00c2ge.",
      exampleSrc:"A: The city's coat of arms is very old.\nB: It dates from the Middle Ages.",

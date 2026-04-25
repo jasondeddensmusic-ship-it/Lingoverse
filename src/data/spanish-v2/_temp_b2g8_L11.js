@@ -60,7 +60,7 @@ const LESSON_11 = {id:"esv2_b2g8_l11",title:"Historia y arqueología",icon:"🏺
  exampleSrc:"A: Spanish soldiers used arquebuses in the sixteenth century.\nB: They were a decisive weapon in European wars.",
  funFact:"The Spanish tercios combined pikemen and arcabuceros, dominating European battlefields for over a century."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / antler / spear shaft",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / antler / spear shaft",pos:"noun",gender:"m",
  note:"Feminine noun (but uses 'el' for phonetics). A pole, horn, or shaft.\nA media asta = at half-mast.",
  example:"A: La bandera ondea a media asta en señal de duelo.\nB: ¿Qué ha ocurrido? No me he enterado.",
  exampleSrc:"A: The flag is flying at half-mast as a sign of mourning.\nB: What happened? I have not heard.",

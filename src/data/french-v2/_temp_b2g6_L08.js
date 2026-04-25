@@ -109,7 +109,7 @@ const LESSON_8 = {
      hint:"Considering the complete picture, the whole thing taken as one entity.",
      sSrc:"We must analyze this file in its {1}."},
 
-    {type:"teach", trg:"les fêtes", src:"the holidays, the celebrations", pos:"noun", gender:"f",
+    {type:"teach", trg:"les fêtes", src:"the holidays, the celebrations", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Holidays, festivities, or celebration periods.",
      example:"A: Qu'est-ce que tu fais pendant les fêtes ?\nB: On va chez ma grand-mère en Provence.",
      exampleSrc:"A: What are you doing during the holidays?\nB: We're going to my grandmother's in Provence.",

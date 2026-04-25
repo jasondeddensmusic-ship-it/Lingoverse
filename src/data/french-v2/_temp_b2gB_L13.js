@@ -35,7 +35,7 @@ const LESSON_13 = {
      exampleSrc:"A: Gourmets value Burgundy wines highly.\nB: It's one of the most renowned wine regions.",
      funFact:"'Prise de tabac' (pinch of snuff) was the original meaning. The figurative sense of valuing something appeared later."},
 
-    {type:"teach", trg:"les fetes", src:"the celebrations, the holidays", pos:"noun", gender:"f",
+    {type:"teach", trg:"les fetes", src:"the celebrations, the holidays", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Celebrations, holidays, festivals.\nLes fetes de fin d'annee = year-end holidays. Joyeuses fetes!",
      example:"A: Les fetes de Noel durent une semaine en France.\nB: C'est le moment prefere de toute la famille.",
      exampleSrc:"A: Christmas celebrations last a week in France.\nB: It's the whole family's favorite time.",

@@ -5,7 +5,7 @@ const LESSON_15 = {
      desc:"Learn vocabulary for discussing urban life, city planning, and community spaces in French.",
      goals:["Learn 10 urban life and community terms","Discuss city planning","Describe neighborhoods"]},
 
-    {type:"teach", trg:"les cabinets", src:"the offices, the toilet (euphemism)", pos:"noun", gender:"m",
+    {type:"teach", trg:"les cabinets", src:"the offices, the toilet (euphemism)", pos:"noun", gender:"pl",
      note:"Masculine plural noun. Professional offices (cabinet medical), or a polite word for toilet.\nUn cabinet = a single office. Les cabinets = restrooms.",
      example:"A: Ou sont les cabinets, s'il vous plait?\nB: Au fond du couloir a gauche.",
      exampleSrc:"A: Where are the restrooms, please?\nB: At the end of the corridor on the left.",

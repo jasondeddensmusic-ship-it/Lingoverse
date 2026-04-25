@@ -64,7 +64,7 @@ const LESSON_19 = {id:"esv2_b2gA_l19", title:"Tradiciones y costumbres", icon:"�
  hint:"This community's musical traditions are at the heart of flamenco.",
  sSrc:"Flamenco has deep roots in {1} culture."},
 
-{type:"teach", trg:"el hada madrina", src:"the fairy godmother", pos:"noun", gender:"f",
+{type:"teach", trg:"el hada madrina", src:"the fairy godmother", pos:"noun", gender:"m",
  note:"Uses 'el' despite being feminine (stressed a-).\nMadrina = godmother.",
  example:"A: El hada madrina de Cenicienta convirtió la calabaza en carroza.\nB: Es uno de los personajes más queridos de los cuentos.",
  exampleSrc:"A: Cinderella's fairy godmother turned the pumpkin into a carriage.\nB: She's one of the most beloved characters in fairy tales.",

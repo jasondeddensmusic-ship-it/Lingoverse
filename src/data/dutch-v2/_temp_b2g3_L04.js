@@ -80,7 +80,7 @@ const LESSON_4 = {
      example:"A: Vroeger verwarmden we het huis met antraciet.\nB: Dat is toch een soort steenkool?\nA: Ja, de schoonste vorm. Bijna geen rook.\nB: Nu gebruiken we gas. Of warmtepompen.",
      exampleSrc:"A: We used to heat the house with anthracite.\nB: That is a type of coal, right?\nA: Yes, the cleanest form. Almost no smoke.\nB: Now we use gas. Or heat pumps.",
      funFact:"As a color, 'antraciet' (anthracite grey) is hugely popular in Dutch interior design. Kitchen counters, floor tiles, and car colors are often described as 'antraciet'."},
-    {type:"teach", trg:"de breuk", src:"the fracture, the break", pos:"noun", gender:"n",
+    {type:"teach", trg:"de breuk", src:"the fracture, the break", pos:"noun", gender:"c",
      note:"A de-word. From 'breken' (to break).\nLiteral (bone) and figurative (relationship, math fraction).",
      example:"A: Er is een breuk in het team ontstaan.\nB: Wat is er gebeurd?\nA: Twee groepen zijn het totaal oneens.\nB: Dat moet snel worden opgelost.",
      exampleSrc:"A: A fracture has occurred in the team.\nB: What happened?\nA: Two groups totally disagree.\nB: That needs to be resolved quickly.",

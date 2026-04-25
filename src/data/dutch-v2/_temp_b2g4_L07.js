@@ -85,7 +85,7 @@ const LESSON_7 = {
      example:"A: De deblokkering van het account duurt drie dagen.\nB: Dat is lang.\nA: Het is een veiligheidsmaatregel.\nB: Begrijpelijk, maar vervelend.",
      exampleSrc:"A: The unblocking of the account takes three days.\nB: That is long.\nA: It is a security measure.\nB: Understandable, but annoying.",
      funFact:"'Deblokkeren' is used for bank accounts, online access, and even psychological blocks. The prefix 'de-' reverses the action, just like in English 'de-block'."},
-    {type:"teach", trg:"de decimaal", src:"the decimal", pos:"noun", gender:"n",
+    {type:"teach", trg:"de decimaal", src:"the decimal", pos:"noun", gender:"c",
      note:"A het-word. From Latin 'decimalis'.\n'Decimale komma' = decimal comma (not point in Dutch).",
      example:"A: Rond het af op twee decimalen.\nB: Dus 3,14?\nA: Precies. Meer decimalen zijn niet nodig.\nB: Goed, dan lever ik het zo in.",
      exampleSrc:"A: Round it to two decimals.\nB: So 3.14?\nA: Exactly. More decimals are not necessary.\nB: Good, then I will submit it like this.",

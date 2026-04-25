@@ -48,7 +48,7 @@ const LESSON_11 = {
      exampleSrc:"A: Do you play korfball?\nB: Yes, since primary school.\nA: Is it a mixed sport?\nB: Yes, men and women play together!",
      funFact:"Korfball was invented by Dutch teacher Nico Broekhuysen in 1902. It is the only team sport where men and women always play together."},
 
-    {type:"teach", trg:"de hobbyclub", src:"the hobby club", pos:"noun", gender:"n",
+    {type:"teach", trg:"de hobbyclub", src:"the hobby club", pos:"noun", gender:"c",
      note:"Common gender (de). Hobby + club.\nThe Dutch love organised group activities.",
      example:"A: Ik zit in een hobbyclub voor fotografie.\nB: Hoe vaak komen jullie samen?\nA: Elke dinsdagavond.\nB: Leuk, mag ik een keer meekomen?",
      exampleSrc:"A: I'm in a hobby club for photography.\nB: How often do you meet?\nA: Every Tuesday evening.\nB: Nice, can I come along sometime?",

@@ -78,7 +78,7 @@ const LESSON_5 = {
      exampleSrc:"A: Cultural heritage must be protected.\nB: It's everyone's responsibility.",
      funFact:"'Les Journees du Patrimoine' each September open historic buildings to the public. Hugely popular in France."},
 
-    {type:"teach", trg:"les grandeurs", src:"the grandeurs, the magnitudes", pos:"noun", gender:"f",
+    {type:"teach", trg:"les grandeurs", src:"the grandeurs, the magnitudes", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Greatness, or delusions of grandeur.\n'Folie des grandeurs' = megalomania.",
      example:"A: Il souffre de la folie des grandeurs.\nB: Ses projets sont completement irrealistes.",
      exampleSrc:"A: He suffers from delusions of grandeur.\nB: His projects are completely unrealistic.",
