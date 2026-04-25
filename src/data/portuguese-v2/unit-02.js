@@ -52,7 +52,7 @@ const UNIT_02 = {n:2,lang:"pt",srcLang:"en",track:"v2",title:"Quantos anos você
     {type:"mc",q:"Which verb does Portuguese use for age?",opts:["ter","ir","ser","estar"],ans:"ter",hint:"You have years, not are years."},
     {type:"mc",q:"'I am ten years old' in Portuguese is:",opts:["Eu sou dez.","Eu tenho dez anos.","Eu estou dez anos.","Eu dez anos."],ans:"Eu tenho dez anos.",hint:"Use the verb for 'have' plus the word for years."},
     {type:"fb",opts:["tenho","sou","estou","é"],hint:"First-person form of ter, used for age.",s:"Eu {1} oito anos.",sSrc:"I am eight years old.",a:"tenho"},
-    {type:"fb",opts:["quantos","quantas","qual","quanto"],hint:"Masculine plural form before anos.",s:"{1} anos você tem?",sSrc:"How old are you?",a:"Quantos"},
+    {type:"fb",opts:["Quantos","Quantas","Qual","Quanto"],hint:"Masculine plural form before anos.",s:"{1} anos você tem?",sSrc:"How old are you?",a:"Quantos"},
     {type:"mc",q:"Quantas is used before a noun that is:",opts:["plural","masculine","feminine","singular"],ans:"feminine",hint:"The -a ending is a gender marker."},
     {type:"fb",opts:["ano","anos","idade","idades"],hint:"Plural of the word for year, used with numbers above one.",s:"Ele tem dez {1}.",sSrc:"He is ten years old.",a:"anos"},
     {type:"match",pairs:[{trg:"ter",src:"to have"},{trg:"tenho",src:"I have"},{trg:"ano",src:"year"},{trg:"idade",src:"age"},{trg:"quantos",src:"how many (m)"},{trg:"quantas",src:"how many (f)"}]},

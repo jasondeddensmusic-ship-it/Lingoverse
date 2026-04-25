@@ -19,7 +19,7 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"match",pairs:[{trg:"olá",src:"hello (anytime)"},{trg:"oi",src:"hi (informal)"},{trg:"bom dia",src:"good morning"},{trg:"boa tarde",src:"good afternoon"},{trg:"boa noite",src:"good night"}]},
     {type:"mc",q:"At 9 PM, arriving at a restaurant, you say:",opts:["Boa tarde","Bom dia","Bom noite","Boa noite"],ans:"Boa noite",hint:"9 PM is well after sunset."},
     {type:"mc",q:"Which greeting is the most casual among Brazilian friends?",opts:["Oi","Boa noite","Bom dia","Boa tarde"],ans:"Oi",hint:"Short, warm, informal. The Brazilian default."},
-    {type:"fb",opts:["olá","oi","boa","bom"],hint:"Two-letter casual greeting used among friends.",s:"{1}! Tudo bem?",sSrc:"Hi! All good?",a:"Oi"}
+    {type:"fb",opts:["Olá","Oi","Boa","Bom"],hint:"Two-letter casual greeting used among friends.",s:"{1}! Tudo bem?",sSrc:"Hi! All good?",a:"Oi"}
   ]},
   {id:"ptv2_u1l2",title:"Eu, você, ele, ela",icon:"👥",xp:15,board:true,steps:[
     {type:"intro",title:"Personal Pronouns",desc:"Learn the basic personal pronouns you will use in almost every sentence.",goals:["Use eu for I","Use você as Brazilian default for you","Tell he and she apart"]},
@@ -31,11 +31,11 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"mc",q:"To say 'I' in Portuguese, you use:",opts:["eu","ele","ela","você"],ans:"eu",hint:"The Portuguese first-person pronoun, pronounced 'ey-oo'."},
     {type:"mc",q:"In Brazil, the most common way to say 'you' is:",opts:["ele","você","ela","tu"],ans:"você",hint:"The Brazilian default, works in most settings."},
     {type:"mc",q:"Pointing at a man, you say:",opts:["eu","você","ele","ela"],ans:"ele",hint:"Masculine third-person pronoun."},
-    {type:"fb",opts:["eu","ele","ela","você"],hint:"Pronoun for a woman or girl.",s:"{1} é professora.",sSrc:"She is a teacher.",a:"Ela"},
-    {type:"fb",opts:["eu","você","ele","ela"],hint:"First-person singular pronoun.",s:"{1} falo português.",sSrc:"I speak Portuguese.",a:"Eu"},
+    {type:"fb",opts:["Eu","Ele","Ela","Você"],hint:"Pronoun for a woman or girl.",s:"{1} é professora.",sSrc:"She is a teacher.",a:"Ela"},
+    {type:"fb",opts:["Eu","Você","Ele","Ela"],hint:"First-person singular pronoun.",s:"{1} falo português.",sSrc:"I speak Portuguese.",a:"Eu"},
     {type:"match",pairs:[{trg:"eu",src:"I"},{trg:"você",src:"you"},{trg:"ele",src:"he"},{trg:"ela",src:"she"}]},
     {type:"mc",q:"What tiny change turns 'he' into 'she' in Portuguese?",opts:["Add -s to the end","Nothing","Add s","Change -e to -a"],ans:"Change -e to -a",hint:"Compare ele and ela side by side. The first three letters are identical. Only the final letter differs."},
-    {type:"fb",opts:["eu","ela","ele","você"],hint:"You are asking the person in front of you directly.",s:"{1} fala inglês?",sSrc:"Do you speak English?",a:"Você"},
+    {type:"fb",opts:["Eu","Ela","Ele","Você"],hint:"You are asking the person in front of you directly.",s:"{1} fala inglês?",sSrc:"Do you speak English?",a:"Você"},
     {type:"mc",q:"Which pronoun is capitalized in English but not in Portuguese?",opts:["eu","você","ele","ela"],ans:"eu",hint:"In English this word is always uppercase. In Portuguese, only at sentence start."}
   ]},
   {id:"ptv2_u1l3",title:"Ser e estar",icon:"⚖️",xp:15,board:true,steps:[
@@ -68,14 +68,14 @@ const UNIT_01 = {n:1,lang:"pt",srcLang:"en",track:"v2",title:"Olá! Como vai?",s
     {type:"mc",q:"To say your name in Portuguese, you say:",opts:["Me chamo...","Eu sou chamar...","Você chama...","Ele chama..."],ans:"Me chamo...",hint:"Literally means 'I call myself'."},
     {type:"mc",q:"A woman saying 'thank you' says:",opts:["obrigado","obrigada","obrigados","obrigadas"],ans:"obrigada",hint:"The ending must match the speaker's gender. Feminine ending is -a."},
     {type:"mc",q:"A man saying 'thank you' says:",opts:["obrigados","obrigada","obrigado","obrigadas"],ans:"obrigado",hint:"Masculine ending is -o."},
-    {type:"fb",opts:["sim","não","oi","olá"],hint:"The simple affirmative answer.",s:"{1}, eu falo português.",sSrc:"Yes, I speak Portuguese.",a:"Sim"},
-    {type:"fb",opts:["sim","não","oi","obrigado"],hint:"Negation word. Use this to give a negative reply.",s:"{1}, eu falo inglês, mas nunca estudei francês.",sSrc:"No, I speak English, but I never studied French.",a:"Não"},
+    {type:"fb",opts:["Sim","Não","Oi","Olá"],hint:"The simple affirmative answer.",s:"{1}, eu falo português.",sSrc:"Yes, I speak Portuguese.",a:"Sim"},
+    {type:"fb",opts:["Sim","Não","Oi","Obrigado"],hint:"Negation word. Use this to give a negative reply.",s:"{1}, eu falo inglês, mas nunca estudei francês.",sSrc:"No, I speak English, but I never studied French.",a:"Não"},
     {type:"fb",opts:["chamo","chama","chamar","chamamos"],hint:"First-person form of chamar, used for your own name.",s:"Eu me {1} Maria.",sSrc:"My name is Maria.",a:"chamo"},
     {type:"match",pairs:[{trg:"me chamo",src:"my name is"},{trg:"sim",src:"yes"},{trg:"não",src:"no"},{trg:"obrigado",src:"thank you (m)"},{trg:"obrigada",src:"thank you (f)"}]},
     {type:"mc",q:"Tchau is Portuguese for:",opts:["thanks","hello","good morning","bye"],ans:"bye",hint:"A short, casual farewell borrowed from Italian ciao."},
     {type:"teach",trg:"tchau",src:"bye",pos:"intj",gender:null,note:"Casual goodbye. Borrowed from Italian ciao. Very common in Brazil.",example:"A: Tchau, Maria!\nB: Tchau!",exampleSrc:"A: Bye, Maria!\nB: Bye!",funFact:"Brazilians often double it: 'Tchau tchau!' adds warmth and friendliness."},
     {type:"teach",trg:"até logo",src:"see you later",pos:"intj",gender:null,note:"Literally 'until soon'. Used when you expect to see the person again.",example:"A: Até logo, João!\nB: Até logo! Tchau!",exampleSrc:"A: See you later, João!\nB: See you later! Bye!",funFact:"Até means 'until'. You can combine it with other words: até amanhã (see you tomorrow), até breve (see you soon)."},
-    {type:"fb",opts:["tchau","olá","sim","obrigado"],hint:"Informal farewell, borrowed from Italian.",s:"{1}! Até amanhã!",sSrc:"Bye! See you tomorrow!",a:"Tchau"}
+    {type:"fb",opts:["Tchau","Olá","Sim","Obrigado"],hint:"Informal farewell, borrowed from Italian.",s:"{1}! Até amanhã!",sSrc:"Bye! See you tomorrow!",a:"Tchau"}
   ,
 
 {type:"match", pairs:[
