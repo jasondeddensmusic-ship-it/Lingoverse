@@ -62,7 +62,7 @@ const BATCH8_L1 = {id:"itv2_u25l_b8_1", title:"Commerciò è scambi", icon:"🏪
  q:"What is 'filiera corta'?",
  opts:["A short supply chain (buying directly from producers)","A type of pasta","A small business","A market regulation"],
  ans:"A short supply chain (buying directly from producers)",
- hint:"'Filiera' = s... c..., 'corta' = s.... Direct from farm to table, cutting out middlemen."},
+ hint:"Filiera is the production-and-distribution sequence. Corta is the adjective for not-long. Direct from farm to table, cutting out middlemen."},
 
 {type:"match", pairs:[
   {trg:"l'imprenditore", src:"the entrepreneur"},

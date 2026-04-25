@@ -116,7 +116,7 @@ const LESSON_7 = {
     {type:"mc", q:"'Boosaardig' literally means:",
      opts:["deeply sad","angry-natured","kind-hearted","badly made"],
      ans:"angry-natured",
-     hint:"'Boos' = a..., 'aardig' here = n... (not nice)."},
+     hint:"Compound: boos (the negative emotion adjective) + -aardig (suffix indicating a disposition or character trait)."},
     {type:"fb", s:"Die grap is zo {1}.", a:["afgezaagd"],
      opts:["afgezaagd","afstandelijk","afgunstig","afgrijselijk"],
      hint:"An adjective meaning hackneyed, overused, like a branch sawed too many times.",

@@ -124,7 +124,7 @@ const UNIT_15 = {
    funFact:"ながら requires the verb stem (remove ます from the polite form): 食(た)べ+ながら, 飲(の)み+ながら, 歩(ある)き+ながら. The main action comes at the end of the sentence, and the ながら action is secondary. Walking while talking: 話(はな)しながら歩(ある)く."},
 
   {type:"mc", q:"寝(ね)る前(まえ)に means:", opts:["before sleeping","while sleeping","after sleeping","I want to sleep"], ans:"before sleeping",
-   hint:"Dictionary form + 前(まえ)に = b... performing the action."},
+   hint:"前(まえ)に means 'in front of' temporally. One event happens prior to another, not simultaneously or afterward."},
 
   {type:"teach", trg:"歯(は)を磨(みが)く", src:"to brush teeth", pos:"verb", gender:null,
    note:"歯(は) (teeth) + を + 磨(みが)く (to polish/brush). A daily routine verb.\nKanji: 歯を磨く.",

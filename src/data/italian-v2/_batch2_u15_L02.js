@@ -76,7 +76,7 @@ const BATCH2_U15_L2 = {
     {type:"mc", q:"What does the Italian color-coded parking system mean?",
      opts:["White is free, blue is paid, yellow is reserved","White is for visitors, blue for residents, yellow for taxis","All colors indicate the same unrestricted parking","White is expensive, blue is medium, yellow is cheap"],
      ans:"White is free, blue is paid, yellow is reserved",
-     hint:"W... lines = f... parking. B... lines = p... (buy a ticket). Y... lines = r... for disabled, loading, or residents."},
+     hint:"Three-tier system: one color costs nothing, one needs a ticket, one is set aside for specific drivers (residents, disabled, deliveries)."},
 
     {type:"fb", s:"In che {1} abiti?",
      a:["quartiere"],

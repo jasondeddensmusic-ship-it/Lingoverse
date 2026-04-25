@@ -94,7 +94,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is the difference between 'manutenzione ordinaria' and 'straordinaria'?",
      opts:["Ordinary is for new buildings, extraordinary for old","Ordinary is indoor, extraordinary is outdoor","Ordinary is the tenant's cost, extraordinary is the landlord's","Ordinary is monthly, extraordinary is yearly"],
      ans:"Ordinary is the tenant's cost, extraordinary is the landlord's",
-     hint:"Changing a light bulb = o... (t...). Replacing the boiler = e... (l...). The distinction matters."},
+     hint:"Italian rental law splits costs by scale: small recurring repairs vs major capital work. Different parties pay each."},
 
     {type:"fb", s:"C'e {1} in bagno. Devo arieggiare di piu.",
      a:["muffa"],

@@ -111,7 +111,7 @@ const LESSON_5 = {
      sSrc:"I have a headache. Let's take medicine."},
 
     {type:"mc", q:"て appears in じょうず (skillful) because:", opts:["Te means 'skill'","It is a coincidence","It literally means 'upper hand'","Hands are smart"], ans:"It literally means 'upper hand'",
-     hint:"上 (jou, u...) + 手 (zu/te, h...) = u... h... = skillful."},
+     hint:"上 (the kanji for above/superior) + 手 (the kanji for the body part). Read together as a compound."},
 
     {type:"mc", q:"ゆび covers:", opts:["Wrists","Only fingers","Only toes","Both fingers and toes"], ans:"Both fingers and toes",
      hint:"Japanese uses the same word for both, specifying with te no (hand) or ashi no (foot)."},
