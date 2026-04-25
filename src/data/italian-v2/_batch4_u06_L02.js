@@ -100,7 +100,7 @@ const BATCH4_U06_L2 = {
     {type:"mc", q:"Come si dice 'turn left' in italiano?",
      opts:["Gira a sinistra","Gira a destra","Vai dritto","Vai vicino"],
      ans:"Gira a sinistra",
-     hint:"'S...' is the direction, and 'g...' is the command to turn."},
+     hint:"Two-word command: directional verb (rotate) + side word (the opposite of destra)."},
 
     {type:"fb", s:"La farmacia e molto {1}, solo due minuti a piedi.",
      a:["vicina"], opts:["vicina","lontana","destra","sinistra"],

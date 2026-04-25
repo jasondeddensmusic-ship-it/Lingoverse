@@ -101,7 +101,7 @@ const BATCH3_U12_L2 = {
     {type:"mc", q:"How do you say 'I missed you' in Italian (to a female)?",
      opts:["Ti ho mancata","Mi sei mancata","Ho mancato te","Ti mancavo"],
      ans:"Mi sei mancata",
-     hint:"'Mancare' works backwards. YOU are the subject who was 'missing to me.' 'S...' (you are) + 'm...' (feminine agreement) because the subject is the woman who was missed."},
+     hint:"'Mancare' works backwards: 'YOU were missing to me'. Combine the dative reflexive with the auxiliary essere conjugated for tu, then add a feminine past participle."},
 
     {type:"fb", s:"Quanto e {1} la cena?",
      a:["costata"],
