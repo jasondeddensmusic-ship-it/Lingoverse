@@ -46,7 +46,7 @@ const LESSON_7 = {
      sSrc:"One glass of orange {1}, please."},
 
     // --- Teach block 2: Fruits ---
-    {type:"teach", trg:"오렌지", src:"orange", pos:"noun", gender:null,
+    {type:"teach", trg:"오렌지", src:"orange", pos:"adj", gender:null,
      note:"Loanword from English 'orange.' Refers to the fruit.",
      example:"A: 오렌지 좋아해요?\nB: 네, 달고 맛있어요.",
      exampleSrc:"A: Do you like oranges?\nB: Yes, they're sweet and delicious.",
