@@ -60,7 +60,7 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"mc",q:"'Il n'y a pas d'étagère' uses d' because:",opts:["Étagère is feminine","It is a question","It is plural","Étagère starts with a vowel"],ans:"Étagère starts with a vowel",hint:"De + ___ = d'. This is elision, same as l'."},
         {type:"fb",opts:["Est-ce","Il y a","Qu'est-ce","Comment"],hint:"The two-word question marker that turns statements into yes/no questions.",s:"{1} qu'il y a un café près d'ici?",a:"Est-ce"},
         {type:"mc",q:"'Qu'est-ce qu'il y a dans le frigo?' asks:",opts:["What is in the fridge?","Where is the fridge?","Is there a fridge?","How big is the fridge?"],ans:"What is in the fridge?",hint:"Qu'est-ce que = what. Combined with il y a = what is there."},
-        {type:"fb",opts:["un","une","le","la"],hint:"Indefinite articles: masculine for sofa, feminine for table.",s:"Il y a {1} canapé et ___ table dans le salon.",a:["un","une"]},
+        {type:"drag_fill",hint:"Indefinite articles: masculine for sofa, feminine for table.",s:"Il y a {1} canapé et {2} table dans le salon.",blanks:{"1":"un","2":"une"},pool:["un","une","le","la"]},
         {type:"mc",q:"Which sentence is correct?",opts:["Il y a pas de chaises","Il n'y a pas de chaises","Il n'y a pas des chaises","Il y a ne pas chaises"],ans:"Il n'y a pas de chaises",hint:"Negation frames the whole verb expression, and the article after it simplifies."},
         {type:"fb",opts:["a","y","est","va"],hint:"The verb in il y a. In negation: il n'y ___ pas.",s:"Il n'y {1} pas de balcon.",a:"a"}
   ]},

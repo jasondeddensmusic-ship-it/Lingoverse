@@ -123,7 +123,7 @@ export default {n:8,lang:"fr",srcLang:"en",track:"v2",title:"Les courses",sub:"S
         {type:"fb",opts:["Ces","Ce","Cette","Cet"],hint:"Shoes is plural. Which demonstrative for plural?",s:"{1} chaussures sont en solde.",a:"Ces"},
         {type:"match",pairs:[{trg:"ce pantalon-ci",src:"these pants here"},{trg:"cette robe-là",src:"that dress there"},{trg:"ces chaussures-ci",src:"these shoes here"},{trg:"cet hôtel-là",src:"that hotel there"}]},
         {type:"mc",q:"'Cet appartement' uses 'cet' because appartement is:",opts:["Feminine","Plural","Masculine starting with a consonant","Masculine starting with a vowel"],ans:"Masculine starting with a vowel",hint:"Appartement is ___ and begins with 'a' (a ___)."},
-        {type:"fb",opts:["ce","cet","cette","ces"],hint:"Manteau is masculine, starts with consonant. Same form both times.",s:"Tu préfères {1} manteau-ci ou ___ manteau-là?",a:["ce","ce"]},
+        {type:"drag_fill",hint:"Manteau is masculine, starts with consonant. Same form both times.",s:"Tu préfères {1} manteau-ci ou {2} manteau-là?",blanks:{"1":"ce","2":"ce"},pool:["ce","cet","cette","ces"]},
         {type:"mc",q:"French demonstratives (ce/cette/ces) cover:",opts:["Both 'this' and 'that'","Only 'that'","Only 'this'","Only 'these'"],ans:"Both 'this' and 'that'",hint:"French does not have separate words for this/that by default."}
   ]},
   {id:"fre8l6",title:"100 à 1000",icon:"💯",xp:15,board:true,steps:[

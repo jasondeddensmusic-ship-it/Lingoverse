@@ -122,7 +122,7 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
           {trg:"En 2030, il y aura...",src:"prediction (simple)"}
         ]},
         {type:"mc",q:"'Cet été, nous ___ en Espagne.' (voyager, vacation plan)",opts:["Avons voyagé","Voyagerons","Allons voyager","Voyagions"],ans:"Allons voyager",hint:"Summer vacation plan = near-ish, concrete = futur proche."},
-        {type:"fb",opts:["pense","pensera","ira","va aller"],hint:"The main clause uses present tense; the prediction about the future uses futur simple.",s:"Je {1} que tout ___ bien. (think / go: present + futur simple)",a:["pense","ira"]},
+        {type:"drag_fill",hint:"The main clause uses present tense; the prediction about the future uses futur simple.",s:"Je {1} que tout {2} bien. (think / go: present + futur simple)",blanks:{"1":"pense","2":"ira"},pool:["pense","pensera","ira","va aller"]},
         {type:"mc",q:"At a New Year's party, resolutions use:",opts:["Futur proche only","Present","Passé composé","Futur simple typically"],ans:"Futur simple typically",hint:"I will exercise more, I will eat better = formal resolutions."},
         {type:"fb",opts:["va","verra","a regardé","regardait"],hint:"Tonight, we're going to watch a film. Immediate plan.",s:"Ce soir, on {1} regarder un film. (going to)",a:"va"},
         {type:"match",pairs:[{trg:"Je vais partir",src:"I'm leaving (soon)"},{trg:"Je partirai",src:"I will leave (someday)"},{trg:"On va manger",src:"We're eating (now-ish)"},{trg:"On mangera",src:"We'll eat (later/formal)"}]},
@@ -150,7 +150,7 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
         {type:"mc",q:"'S'il' is a contraction of:",opts:["Si + il","Se + il","Sa + il","Son + il"],ans:"Si + il",hint:"Si before il contracts. But: si + elle stays separate."},
         {type:"fb",opts:["auras","as","avais","aies"],hint:"If you don't eat, you'll be hungry. Future consequence.",s:"Si tu ne manges pas, tu {1} faim plus tard. (avoir, consequence)",a:"auras"},
         {type:"mc",q:"Summary: the si + future rule says:",opts:["Always use future after si","Never use futur simple after si","Only use futur proche after si","Use any tense after si"],ans:"Never use futur simple after si",hint:"Si takes present. The OTHER cla___ gets ___e."},
-        {type:"fb",opts:["êtes","serez","recevrez","recevez"],hint:"If you are good, you will receive a gift. Present + future.",s:"Si vous {1} gentils, vous ___ un cadeau. (être/recevoir, present/future)",a:["êtes","recevrez"]}
+        {type:"drag_fill",hint:"If you are good, you will receive a gift. Present + future.",s:"Si vous {1} gentils, vous {2} un cadeau. (être/recevoir, present/future)",blanks:{"1":"êtes","2":"recevrez"},pool:["êtes","serez","recevrez","recevez"]}
   ]},
   {id:"fre14l8",title:"Révision du futur",icon:"🏆",xp:15,board:true,steps:[
         {type:"intro",title:"Future tense mastery",desc:"Review everything: futur proche, futur simple (regular + irregular), quand + future, si + present/future, plans, predictions, and promises.",goals:["Choose the right future in any context","Use irregular stems confidently","Apply quand and si rules correctly"]},
@@ -161,16 +161,16 @@ export default {n:14,lang:"fr",srcLang:"en",track:"v2",title:"Le futur",sub:"Fut
         {type:"fb",opts:["seras","es","as été","étais"],hint:"When you're big. After quand, French uses the future tense.",s:"Quand tu {1} grand, tu comprendras. (être, after quand)",a:"seras"},
         {type:"match",pairs:[{trg:"Je vais partir",src:"I'm going to leave"},{trg:"Je partirai",src:"I will leave"},{trg:"Si je pars...",src:"If I leave... (present)"},{trg:"Quand je partirai...",src:"When I leave... (future)"}]},
         {type:"mc",q:"Irregular stem: 'Nous ___ en avance.' (être)",opts:["Étions","Sommes","Serons","Avons été"],ans:"Serons",hint:"Être has an irregular stem. Add the nous ending to it."},
-        {type:"fb",opts:["seras","es","apprendras","apprends"],hint:"You will be happy when you learn the news. Both future.",s:"Tu {1} content quand tu ___ la nouvelle. (être / apprendre, future)",a:["seras","apprendras"]},
+        {type:"drag_fill",hint:"You will be happy when you learn the news. Both future.",s:"Tu {1} content quand tu {2} la nouvelle. (être / apprendre, future)",blanks:{"1":"seras","2":"apprendras"},pool:["seras","es","apprendras","apprends"]},
         {type:"mc",q:"A promise: 'Je ne t'___ jamais.' (oublier, futur simple)",opts:["Oubliais","Oublie","Ai oublié","Oublierai"],ans:"Oublierai",hint:"I will never forget you. Promise = futur simple."},
-        {type:"fb",opts:["fait","fera","ira","va aller"],hint:"If it's nice, we'll go. Si + present, result + future.",s:"S'il {1} beau demain, on ___ à la plage. (faire / aller)",a:["fait","ira"]},
+        {type:"drag_fill",hint:"If it's nice, we'll go. Si + present, result + future.",s:"S'il {1} beau demain, on {2} à la plage. (faire / aller)",blanks:{"1":"fait","2":"ira"},pool:["fait","fera","ira","va aller"]},
         {type:"match",pairs:[{trg:"être -> ser-",src:"je serai"},{trg:"avoir -> aur-",src:"j'aurai"},{trg:"faire -> fer-",src:"je ferai"},{trg:"aller -> ir-",src:"j'irai"}]},
         {type:"mc",q:"'Dès que j'___ le temps, je t'appellerai.' (avoir)",opts:["Aurai","Ai","Avais","Aie"],ans:"Aurai",hint:"As soon as I have time. After dès que = future."},
         {type:"fb",opts:["devra","doit","a dû","devait"],hint:"He will have to answer us. Devoir -> devr- + -a.",s:"Il {1} nous répondre la semaine prochaine. (devoir, futur simple)",a:"devra"},
         {type:"mc",q:"Which mixes both futures naturally?",opts:["Je partirai et je vais revenir","Je vais partir et je reviendrai","Je vais partir et je vais revenir","Je partirai et je reviendrai"],ans:"Je vais partir et je reviendrai",hint:"Near action (going to leave) + distant promise (will come back)."},
         {type:"fb",opts:["saurez","savez","avez su","saviez"],hint:"You will know all the details soon. Savoir -> saur-.",s:"Vous {1} tous les détails bientôt. (savoir, futur simple)",a:"saurez"},
         {type:"mc",q:"You've mastered the French future! The key insight is:",opts:["Only one future tense exists","Future = past","French has two future systems with different uses","French never uses future tense"],ans:"French has two future systems with different uses",hint:"Futur proche for near/spoken, futur simple for formal/distant."},
-        {type:"fb",opts:["serons","sommes","visiterons","visitons"],hint:"When we're in France, we'll visit the Louvre. Both future.",s:"Quand nous {1} en France, nous ___ le Louvre. (être / visiter, future)",a:["serons","visiterons"]}
+        {type:"drag_fill",hint:"When we're in France, we'll visit the Louvre. Both future.",s:"Quand nous {1} en France, nous {2} le Louvre. (être / visiter, future)",blanks:{"1":"serons","2":"visiterons"},pool:["serons","sommes","visiterons","visitons"]}
   ]},
   {id:"fre14l8b",title:"La Nature et la Météo",icon:"⛈️",xp:15,board:true,steps:[
         {type:"intro",title:"La Nature et la Météo",desc:"Learn vocabulary for nature and weather phenomena in French.",goals:["Learn 14 nature and weather words","Use il fait/il y a for weather","Describe landscapes and weather conditions"]},

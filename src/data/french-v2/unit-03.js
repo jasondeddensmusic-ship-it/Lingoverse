@@ -198,7 +198,7 @@ export default {n:3,lang:"fr",srcLang:"en",track:"v2",title:"La famille",sub:"Fa
         {type:"fb",opts:["vieux","vieille","vieilles","vieil"],hint:"Old in masculine plural: same as singular for this adjective.",s:"Mes grands-parents sont {1} mais actifs. (old, masculine plural)",a:"vieux"},
         {type:"mc",q:"'Nous sommes six dans la famille' means:",opts:["We have six families","There are six of us","We are six years old","Six is the family number"],ans:"There are six of us",hint:"Nous sommes + number = we are this many."},
         {type:"match",pairs:[{trg:"beau/belle",src:"beautiful"},{trg:"vieux/vieille",src:"old"},{trg:"nouveau/nouvelle",src:"new"},{trg:"bon/bonne",src:"good"}]},
-        {type:"fb",opts:["belle","beau","bel","beaux"],hint:"Beautiful before a feminine noun.",s:"C'est une {1} maison avec un ___ jardin. (beautiful, big)",a:"belle"},
+        {type:"fb",opts:["belle","beau","bel","beaux"],hint:"Beautiful before a feminine noun. BAGS adjective + maison.",s:"C'est une {1} maison.",a:"belle",sSrc:"It is a beautiful house."},
         {type:"mc",q:"'Il est grand. C'est un bon père.' This mixing of il est and c'est is:",opts:["Wrong","Only formal","Correct: il est + adjective, c'est + noun","Only casual"],ans:"Correct: il est + adjective, c'est + noun",hint:"Each pattern used ___ly in its own context."},
         {type:"mc",q:"Family descriptions follow which pattern?",opts:["Description, name, age","Name, description, age","Age, description, name","Name, age, description"],ans:"Name, age, description",hint:"S'appelle, a ... ans, est + adjectives."},
         {type:"fb",opts:["ans","an","âge","année"],hint:"She has seventeen ___. The word for years in age.",s:"Elle a dix-sept {1}. Elle est étudiante.",a:"ans"},
