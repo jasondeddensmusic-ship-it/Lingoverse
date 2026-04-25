@@ -136,11 +136,11 @@ const LESSON_13 = {
     ]},
 
     {type:"fb",
-     s:"Dat boek {1} me echt ___. Ik kon niet stoppen met lezen.",
-     a:["spreekt aan"],
-     opts:["spreekt aan","duidt aan","kondigt aan","accentueert"],
-     hint:"Which separable verb means something appeals to you or captures your interest?",
-     sSrc:"That book really {1} to me. I could not stop reading."},
+     s:"Dat boek {1} me echt aan. Ik kon niet stoppen met lezen.",
+     a:["spreekt"],
+     opts:["spreekt","duidt","kondigt","accentueert"],
+     hint:"Which separable verb (with particle 'aan') means something appeals to you or captures your interest?",
+     sSrc:"That book really appeals to me. I could not stop reading."},
 
     {type:"mc",
      q:"De brief moet met een handtekening worden ontvangen. Je stuurt hem ___.",

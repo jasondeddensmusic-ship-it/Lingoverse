@@ -136,11 +136,11 @@ const LESSON_15 = {
     ]},
 
     {type:"fb",
-     s:"Het verhaal {1} zich ___ in de achttiende eeuw in Amsterdam.",
-     a:["speelt af"],
-     opts:["speelt af","waait af","beeldt af","drukt af"],
-     hint:"Which reflexive separable verb means an event or story takes place somewhere?",
-     sSrc:"The story {1} in the eighteenth century in Amsterdam."},
+     s:"Het verhaal {1} zich af in de achttiende eeuw in Amsterdam.",
+     a:["speelt"],
+     opts:["speelt","waait","beeldt","drukt"],
+     hint:"Which reflexive separable verb (with particle 'af') means an event or story takes place somewhere?",
+     sSrc:"The story takes place in the eighteenth century in Amsterdam."},
 
     {type:"mc",
      q:"Waar ga je naartoe om aan het strand te liggen en in zee te zwemmen?",

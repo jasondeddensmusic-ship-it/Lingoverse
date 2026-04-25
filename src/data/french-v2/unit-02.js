@@ -114,7 +114,7 @@ export default {n:2,lang:"fr",srcLang:"en",track:"v2",title:"Je me présente",su
         {type:"fb",opts:["es","est","suis","êtes"],hint:"Informal you are: the tu form of être.",s:"Tu {1} prêt? Oui, je suis prêt!",a:"es"},
         {type:"match",pairs:[{trg:"je suis",src:"I am"},{trg:"tu es",src:"you are (informal)"},{trg:"nous sommes",src:"we are"},{trg:"ils sont",src:"they are"}]},
         {type:"mc",q:"A mixed group (men and women) uses:",opts:["Elles sont","On est","Ils sont","Nous sommes"],ans:"Ils sont",hint:"Any mixed group defaults to the masculine ___."},
-        {type:"fb",opts:["est","es","suis","sont"],hint:"He/she is: the same form for both il and elle.",s:"Elle {1} française. Il ___ allemand.",a:"est"},
+        {type:"drag_fill",hint:"He/she is: the same form for both il and elle.",s:"Elle {1} française. Il {2} allemand.",blanks:{"1":"est"},pool:["est","es","suis","sont"]},
         {type:"mc",q:"'On est' is the casual replacement for:",opts:["Je suis","Tu es","Ils sont","Nous sommes"],ans:"Nous sommes",hint:"In spoken French, on replaces ___ for 'we'."},
         {type:"mc",q:"The circumflex on 'êtes' (ê) marks:",opts:["A historical lost S","A nasal vowel","A feminine form","Emphasis"],ans:"A historical lost S",hint:"Latin estis became êtes. The hat replaces the S."},
         {type:"mc",q:"How many DIFFERENT forms does être have in present tense?",opts:["Three","Six","Five","Four"],ans:"Six",hint:"Every person has a unique form. No repeats."},

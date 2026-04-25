@@ -60,14 +60,14 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
           {trg:"...j'achèterais",src:"...I would buy"}
         ]},
         {type:"mc",q:"'Si j'étais toi, je ___.' (partir)",opts:["Pars","Partirai","Partirais","Partais"],ans:"Partirais",hint:"If I were you (hypothetical) = si + imparfait, result = conditional."},
-        {type:"fb",opts:["irions","allons","avions","avons"],hint:"We'd go to France if we had vacation. Both hypothetical.",s:"Nous {1} en France si nous ___ des vacances. (aller / avoir)",a:["irions","avions"]},
+        {type:"drag_fill",hint:"We'd go to France if we had vacation. Both hypothetical.",s:"Nous {1} en France si nous {2} des vacances. (aller / avoir)",blanks:{"1":"irions","2":"avions"},pool:["irions","allons","avions","avons"]},
         {type:"mc",q:"'Si je parlais chinois...' This implies:",opts:["I speak Chinese at home","I'm learning Chinese now","I will speak Chinese soon","I don't speak Chinese"],ans:"I don't speak Chinese",hint:"Si + imparfait = the situation is NOT real right now."},
-        {type:"fb",opts:["était","est","serait","sera"],hint:"If she were here, she'd be happy. Both hypothetical.",s:"Si elle {1} là, elle ___ contente. (être x2: impf. / cond.)",a:["était","serait"]},
+        {type:"drag_fill",hint:"If she were here, she'd be happy. Both hypothetical.",s:"Si elle {1} là, elle {2} contente. (être x2: impf. / cond.)",blanks:{"1":"était","2":"serait"},pool:["était","est","serait","sera"]},
         {type:"match",pairs:[{trg:"Si j'étais riche",src:"If I were rich"},{trg:"j'achèterais un yacht",src:"I would buy a yacht"},{trg:"Si tu pouvais voler",src:"If you could fly"},{trg:"où irais-tu?",src:"where would you go?"}]},
         {type:"mc",q:"The difference: 'Si tu viens' (present) vs 'Si tu venais' (imparfait):",opts:["Present = likely, imparfait = unlikely","Same meaning","Imparfait = past","Present = polite"],ans:"Present = likely, imparfait = unlikely",hint:"Si + ___ = might happen. Si + ___ = probably won't."},
-        {type:"fb",opts:["était","est","pourrait","pourra"],hint:"If we were invisible, we could see everything! Fantasy.",s:"Si on {1} invisibles, on ___ tout voir! (être / pouvoir)",a:["était","pourrait"]},
+        {type:"drag_fill",hint:"If we were invisible, we could see everything! Fantasy.",s:"Si on {1} invisibles, on {2} tout voir! (être / pouvoir)",blanks:{"1":"était","2":"pourrait"},pool:["était","est","pourrait","pourra"]},
         {type:"mc",q:"'Si j'avais su...' (If I had known): this uses ___ after si.",opts:["Present","Plus-que-parfait","Imparfait","Conditional"],ans:"Plus-que-parfait",hint:"For past hypotheticals (B1+ topic), but the pattern is similar."},
-        {type:"fb",opts:["ferais","fais","étais","es"],hint:"What would you do if you were president? Imaginary.",s:"Que {1}-tu si tu ___ président? (faire / être)",a:["ferais","étais"]}
+        {type:"drag_fill",hint:"What would you do if you were president? Imaginary.",s:"Que {1}-tu si tu {2} président? (faire / être)",blanks:{"1":"ferais","2":"étais"},pool:["ferais","fais","étais","es"]}
   ]},
   {id:"fre16l4",title:"Rêves et souhaits",icon:"✨",xp:15,board:true,steps:[
         {type:"intro",title:"Expressing wishes and dreams",desc:"The conditional is perfect for expressing what you'd like, what you'd do, or what the world would look like. Practice dreaming in French!",goals:["Express wishes with the conditional","Talk about dream scenarios","Use je voudrais, j'aimerais for desires"]},
@@ -195,7 +195,7 @@ export default {n:16,lang:"fr",srcLang:"en",track:"v2",title:"Le conditionnel",s
         {type:"mc",q:"Conditional: 'Je ___ un café.' (would like, polite)",opts:["Voudrais","Veux","Voulais","Voudrai"],ans:"Voudrais",hint:"Polite request at a café. Conditional of vouloir."},
         {type:"fb",opts:["devrais","dois","devais","devras"],hint:"You should rest. Conditional for gentle advice.",s:"Tu {1} te reposer. (devoir, advice)",a:"devrais"},
         {type:"mc",q:"Which sentence uses reported speech?",opts:["Il viendra demain","Il a dit qu'il viendrait","Il venait souvent","Il est venu hier"],ans:"Il a dit qu'il viendrait",hint:"He said he would come = future becomes con___ional in reporting."},
-        {type:"fb",opts:["futur","conditionnel","présent","imparfait"],hint:"Two si patterns. Likely = which tense? Hypothetical = which tense?",s:"Si + present -> {1}, Si + imparfait -> ___.",a:["futur","conditionnel"]},
+        {type:"drag_fill",hint:"Two si patterns. Likely = which tense? Hypothetical = which tense?",s:"Si + present -> {1}, Si + imparfait -> {2}.",blanks:{"1":"futur","2":"conditionnel"},pool:["futur","conditionnel","présent","imparfait"]},
         {type:"mc",q:"After these units, you can now:",opts:["Hold a professional debate in French","Write formal academic papers","Tell stories about past events using multiple tenses","Translate literary texts"],ans:"Tell stories about past events using multiple tenses",hint:"Think ___ what tense skills you built across these recent units."},
         {type:"fb",opts:["devrais","dois","devais","devras"],hint:"You should now understand a lot! Encouraging conditional.",s:"Félicitations! Tu {1} maintenant comprendre beaucoup de français! (pouvoir, conditional of encouragement)",a:"devrais"}
   ]},

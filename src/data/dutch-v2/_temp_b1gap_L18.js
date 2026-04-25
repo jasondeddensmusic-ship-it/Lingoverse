@@ -67,11 +67,11 @@ const LESSON_18 = {
      funFact:"Multiple meanings: hand something over, give off a smell, or criticize someone (informal)."},
 
     {type:"fb",
-     s:"De bewakers {1} het terrein ___ met hekken en camera's.",
-     a:["schermen af"],
-     opts:["schermen af","geven af","houden af","leggen af"],
-     hint:"Which separable verb means to protect or screen off an area?",
-     sSrc:"The guards {1} the area with fences and cameras."},
+     s:"De bewakers {1} het terrein af met hekken en camera's.",
+     a:["schermen"],
+     opts:["schermen","geven","houden","leggen"],
+     hint:"Which separable verb stem (with particle 'af') means to protect or screen off an area?",
+     sSrc:"The guards screen off the area with fences and cameras."},
 
     {type:"teach", trg:"afkappen", src:"to cut off / to put a stop to", pos:"verb", gender:null,
      note:"Separable verb. Ik kap af, jij kapt af.",

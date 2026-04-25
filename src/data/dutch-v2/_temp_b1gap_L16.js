@@ -130,11 +130,11 @@ const LESSON_16 = {
     ]},
 
     {type:"fb",
-     s:"Ajax {1} twee doelpunten ___. Ze moeten harder spelen.",
-     a:["ligt achter"],
-     opts:["ligt achter","stapt af","speelt af","sluit aan"],
-     hint:"Which separable verb means a team is trailing in a competition?",
-     sSrc:"Ajax {1} by two goals. They need to play harder."},
+     s:"Ajax {1} twee doelpunten achter. Ze moeten harder spelen.",
+     a:["ligt"],
+     opts:["ligt","stapt","speelt","sluit"],
+     hint:"Which separable verb stem (with particle 'achter') means a team is trailing in a competition?",
+     sSrc:"Ajax is two goals behind. They need to play harder."},
 
     {type:"mc",
      q:"De Romeinen noemden de volken buiten hun rijk ___.",
