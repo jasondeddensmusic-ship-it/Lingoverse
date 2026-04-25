@@ -53,7 +53,7 @@ const LESSON_8 = {
      exampleSrc:"A: The alteration of colors is due to light.\nB: We must protect the paintings from sunlight.",
      funFact:"In music, an 'alteration' means adding a sharp or flat to a note. In art restoration, it describes unwanted color changes."},
 
-    {type:"teach", trg:"les armoiries", src:"coat of arms", pos:"noun", gender:"f",
+    {type:"teach", trg:"les armoiries", src:"coat of arms", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Heraldic symbols of a family or institution. Always plural.",
      example:"A: Les armoiries de la ville sont visibles sur la mairie.\nB: Elles représentent un lion et une fleur de lys.",
      exampleSrc:"A: The city's coat of arms is visible on the town hall.\nB: It depicts a lion and a fleur-de-lis.",

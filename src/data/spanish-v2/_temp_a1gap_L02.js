@@ -73,7 +73,7 @@ const LESSON_2 = {
      hint:"Think about the physical greeting Spaniards give on each cheek when meeting friends.",
      sSrc:"In Spain, friends give each other two {1} to say hello."},
 
-    {type:"teach", trg:"el alma", src:"the soul", pos:"noun", gender:"f",
+    {type:"teach", trg:"el alma", src:"the soul", pos:"noun", gender:"m",
      note:"Feminine noun, but uses 'el' (el alma, not la alma).\nTo avoid two 'a' sounds together.",
      example:"A: La música llega al alma.\nB: Tienes razón.",
      exampleSrc:"A: Music reaches the soul.\nB: You are right.",

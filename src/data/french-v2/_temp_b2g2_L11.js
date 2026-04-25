@@ -11,7 +11,7 @@ const LESSON_11 = {
      exampleSrc:"A: The team of four horses pulled the stagecoach.\nB: It was the means of transport for the rich.",
      funFact:"Versailles hosted spectacular attelage competitions. Today, competitive carriage driving is still popular in France."},
 
-    {type:"teach", trg:"les chartes", src:"the charters", pos:"noun", gender:"f",
+    {type:"teach", trg:"les chartes", src:"the charters", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Official documents granting rights or privileges.",
      example:"A: Les chartes medievales garantissaient les droits des villes.\nB: Elles etaient signees par le roi.",
      exampleSrc:"A: Medieval charters guaranteed the rights of cities.\nB: They were signed by the king.",
@@ -59,7 +59,7 @@ const LESSON_11 = {
      exampleSrc:"A: The Champs-Elysees is the most famous avenue in Paris.\nB: It attracts millions of visitors.",
      funFact:"Haussmann designed Paris' arteres (main boulevards) for both beauty and military crowd control."},
 
-    {type:"teach", trg:"les cabinets", src:"the offices, the toilet (old)", pos:"noun", gender:"m",
+    {type:"teach", trg:"les cabinets", src:"the offices, the toilet (old)", pos:"noun", gender:"pl",
      note:"Masculine plural noun. Professional offices or, in old usage, the toilet.",
      example:"A: Le cabinet du ministre est au deuxieme etage.\nB: Il recoit sur rendez-vous uniquement.",
      exampleSrc:"A: The minister's office is on the second floor.\nB: He sees visitors by appointment only.",
@@ -96,7 +96,7 @@ const LESSON_11 = {
      ans:"L'arroseur arrose",
      hint:"A Lumiere brothers film from 1895 involving a gardener and a prankster."},
 
-    {type:"teach", trg:"les clous", src:"the nails, the pedestrian crossing", pos:"noun", gender:"m",
+    {type:"teach", trg:"les clous", src:"the nails, the pedestrian crossing", pos:"noun", gender:"pl",
      note:"Masculine plural noun. Nails or, figuratively, the studs of a crosswalk.",
      example:"A: Traversez aux clous, c'est plus sur.\nB: Oui, les voitures doivent s'arreter.",
      exampleSrc:"A: Cross at the crosswalk, it's safer.\nB: Yes, cars must stop.",

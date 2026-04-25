@@ -41,7 +41,7 @@ const LESSON_18 = {
      ans:"l'av\u00e8nement",
      hint:"From Latin 'advenire' (to arrive). Used for the dawn of a new era or a king's accession."},
 
-    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"f",
+    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Heraldic symbols identifying a family, city, or institution.",
      example:"A: Les armoiries de Paris portent un navire.\nB: Oui, avec la devise 'Fluctuat nec mergitur'.",
      exampleSrc:"A: The coat of arms of Paris bears a ship.\nB: Yes, with the motto 'It is tossed but does not sink'.",

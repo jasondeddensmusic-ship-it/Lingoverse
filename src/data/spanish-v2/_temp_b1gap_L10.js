@@ -30,7 +30,7 @@ const LESSON_10 = {
      exampleSrc:"A: Can you help me assemble this bookshelf?\nB: Sure, where are the instructions?",
      funFact:"From Latin 'armare' (to equip). The double meaning (to arm/to assemble) makes sense: you 'equip' something by putting parts together."},
 
-    {type:"teach", trg:"el ancla", src:"the anchor", pos:"noun", gender:"f",
+    {type:"teach", trg:"el ancla", src:"the anchor", pos:"noun", gender:"m",
      note:"Feminine noun but uses 'el' in singular.\nLike 'el agua'. Echar el ancla = to drop anchor.",
      example:"A: El capit\u00e1n orden\u00f3 echar el ancla.\nB: Por fin llegamos al puerto.",
      exampleSrc:"A: The captain ordered to drop anchor.\nB: We finally arrived at the port.",

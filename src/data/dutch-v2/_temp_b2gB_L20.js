@@ -48,7 +48,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
  exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in tropical countries.\nB: And then processed in factories here.",
  funFact:"Suriname was once one of the world's largest bauxite producers, and mining there was dominated by Dutch company Billiton (now part of BHP)."},
 
-{type:"teach", trg:"de bib", src:"library (informal, Belgian Dutch)", pos:"noun", gender:"n",
+{type:"teach", trg:"de bib", src:"library (informal, Belgian Dutch)", pos:"noun", gender:"c",
  note:"Short for 'bibliotheek'. Used in Flanders.\nIn the Netherlands: 'de bieb' (also informal).",
  example:"A: Ga je mee naar de bib?\nB: Ja, ik moet een boek terugbrengen.\nA: Ik wil iets nieuws lenen.\nB: Goed idee, ik ook.",
  exampleSrc:"A: Are you coming to the library?\nB: Yes, I need to return a book.\nA: I want to borrow something new.\nB: Good idea, me too.",

@@ -91,7 +91,7 @@ const LESSON_16 = {
      exampleSrc:"A: I like the harmony of this place.\nB: Yes, it is very peaceful.",
      funFact:"From Greek 'harmonia' (fitting together). Used both for music and for peaceful coexistence."},
 
-    {type:"teach", trg:"el arma", src:"the weapon", pos:"noun", gender:"f",
+    {type:"teach", trg:"el arma", src:"the weapon", pos:"noun", gender:"m",
      note:"Feminine noun, but uses 'el' (el arma).\nLike el agua, el alma. Stressed 'a' rule.",
      example:"A: El museo tiene armas antiguas.\nB: \u00bfEspadas y escudos?",
      exampleSrc:"A: The museum has ancient weapons.\nB: Swords and shields?",

@@ -15,7 +15,7 @@ const LESSON_5 = {
      example:"A: Heb je al het documentatiemateriaal verzameld?\nB: Bijna. Ik mis nog twee rapporten.\nA: Die staan in de gedeelde map.\nB: Gevonden. Nu kan ik het dossier afronden.",
      exampleSrc:"A: Have you collected all the documentation material?\nB: Almost. I'm still missing two reports.\nA: Those are in the shared folder.\nB: Found them. Now I can finalize the file.",
      funFact:"Dutch loves stacking compound nouns. Documentatiemateriaal is 23 letters long, but native speakers don't bat an eye. They see three clear parts."},
-    {type:"teach", trg:"de informatieverschaffing", src:"provision of information", pos:"noun", gender:"n",
+    {type:"teach", trg:"de informatieverschaffing", src:"provision of information", pos:"noun", gender:"c",
      note:"De-word. Informatie + verschaffing (providing).\nFormal, used in government and legal contexts.",
      example:"A: De informatieverschaffing door de overheid moet beter.\nB: Wat bedoel je?\nA: Burgers weten vaak niet waar ze recht op hebben.\nB: Klopt, de website is veel te ingewikkeld.",
      exampleSrc:"A: The provision of information by the government must improve.\nB: What do you mean?\nA: Citizens often don't know what they are entitled to.\nB: True, the website is far too complicated.",

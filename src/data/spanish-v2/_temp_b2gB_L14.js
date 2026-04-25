@@ -43,7 +43,7 @@ const LESSON_14 = {id:"esv2_b2gB_l14",title:"Economía y comercio",icon:"📊",x
  exampleSrc:"A: Public sector employment offers job stability.\nB: That's why many people prepare for civil service exams.",
  funFact:"In Spain, getting a government job requires passing 'oposiciones', notoriously competitive state exams."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / horn (of a bull) / shaft",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / horn (of a bull) / shaft",pos:"noun",gender:"m",
  note:"Feminine noun (but uses 'el' for phonetic reasons: el asta).\nLike 'el agua'. Plural: las astas.",
  example:"A: La bandera ondea en lo alto del asta.\nB: La han puesto muy alta para la ceremonia oficial.",
  exampleSrc:"A: The flag waves at the top of the flagpole.\nB: They have put it very high for the official ceremony.",

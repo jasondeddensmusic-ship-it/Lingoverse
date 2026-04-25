@@ -28,7 +28,7 @@ const LESSON_14 = {id:"esv2_b2g9_l14", title:"Objetos y materiales", icon:"\u{1F
    exampleSrc:"A: Put another log on the fire.\nB: Is this one dry enough?\nA: Yes, it is perfect. It will burn well.\nB: I love the warmth of the fireplace.",
    funFact:"The expression 'dormir como un le\u00f1o' (to sleep like a log) exists in both Spanish and English with the same meaning."},
 
-  {type:"teach", trg:"el asta", src:"the flagpole; antler; shaft", pos:"noun", gender:"f",
+  {type:"teach", trg:"el asta", src:"the flagpole; antler; shaft", pos:"noun", gender:"m",
    note:"From Latin hasta (spear shaft).\nNote: feminine but uses 'el' in singular for phonetics.",
    example:"A: La bandera ondea en el asta del ayuntamiento.\nB: La cambiaron la semana pasada.\nA: S\u00ed, la anterior estaba muy desgastada.\nB: Es importante mantener los s\u00edmbolos en buen estado.",
    exampleSrc:"A: The flag waves on the flagpole of the town hall.\nB: They changed it last week.\nA: Yes, the previous one was very worn.\nB: It is important to maintain symbols in good condition.",

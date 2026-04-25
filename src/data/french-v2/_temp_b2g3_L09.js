@@ -102,7 +102,7 @@ const LESSON_9 = {
      exampleSrc:"A: The castle owner organizes guided tours.\nB: It's a good way to finance the upkeep.",
      funFact:"Many French chatelains struggle to maintain their heritage properties. The state offers tax breaks through 'monuments historiques' classification."},
 
-    {type:"teach", trg:"les chartes", src:"charters", pos:"noun", gender:"f",
+    {type:"teach", trg:"les chartes", src:"charters", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Official documents granting rights. Singular: une charte.",
      example:"A: La charte de l'environnement a été ajoutée à la Constitution.\nB: C'est un progrès important pour l'écologie.",
      exampleSrc:"A: The environmental charter was added to the Constitution.\nB: It's an important step for ecology.",

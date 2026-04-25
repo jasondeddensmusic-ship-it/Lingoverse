@@ -58,7 +58,7 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
  exampleSrc:"A: He learned to play the harmonica in one summer.\nB: Now he plays incredible blues songs.",
  funFact:"From Greek harmonikos (harmonious). The harmonica is popular in Spanish folk and blues music."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal)",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal)",pos:"noun",gender:"m",
  note:"Feminine noun with 'el' for phonetic reasons (stressed 'a').\nPlural: las astas.",
  example:"A: La bandera ondeaba en lo alto del asta.\nB: Se veía desde toda la plaza.",
  exampleSrc:"A: The flag waved at the top of the flagpole.\nB: It could be seen from across the square.",
@@ -110,7 +110,7 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
  exampleSrc:"A: The bus driver braked just in time.\nB: He avoided a very serious accident.",
  funFact:"In physics, 'conductor' also means an electrical conductor. Same word, different field."},
 
-{type:"teach",trg:"el acta",src:"the minutes / official record",pos:"noun",gender:"f",
+{type:"teach",trg:"el acta",src:"the minutes / official record",pos:"noun",gender:"m",
  note:"Feminine noun with 'el' (stressed initial 'a').\nPlural: las actas.",
  example:"A: ¿Quién levanta el acta de la reunión?\nB: Yo me encargo, tengo buenas notas.",
  exampleSrc:"A: Who is taking the minutes of the meeting?\nB: I will handle it, I have good notes.",

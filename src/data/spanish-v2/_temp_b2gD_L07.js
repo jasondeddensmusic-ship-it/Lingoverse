@@ -54,7 +54,7 @@ const LESSON_7 = {id:"esv2_b2gD_l7",title:"Cuerpo y apariencia",icon:"\uD83D\uDC
  exampleSrc:"A: The bullfighter put on his hat before entering the ring.\nB: It's a gesture full of tradition and symbolism.",
  funFact:"'Me importa un bledo / una montera' means 'I couldn't care less'. The montera is also used in some regional folk costumes."},
 
-{type:"teach",trg:"el asta",src:"the horn (of animal) / flagpole / shaft",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the horn (of animal) / flagpole / shaft",pos:"noun",gender:"m",
  note:"Feminine noun, but uses 'el' (el asta) due to initial stressed 'a'.\nHorn of a bull or pole for a flag.",
  example:"A: El toro levantó las astas y el público contuvo la respiración.\nB: El torero mantuvo la calma en todo momento.",
  exampleSrc:"A: The bull raised its horns and the audience held its breath.\nB: The bullfighter remained calm at all times.",

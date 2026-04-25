@@ -97,7 +97,7 @@ const LESSON_7 = {id:"frv2_b2g9_l7", title:"Caractère et Personnalité", icon:"
    exampleSrc:"A: He does everything as he pleases.\nB: Nobody can control him.",
    funFact:"En guise de remerciement means 'by way of thanks'. Very common in formal French."},
 
-  {type:"teach", trg:"les grandeurs", src:"grandeur, delusions of grandeur", pos:"noun", gender:"f",
+  {type:"teach", trg:"les grandeurs", src:"grandeur, delusions of grandeur", pos:"noun", gender:"pl",
    note:"Plural of grandeur.\nFolie des grandeurs = delusions of grandeur, megalomania.",
    example:"A: Il souffre de la folie des grandeurs.\nB: Ses projets sont complètement irréalistes.",
    exampleSrc:"A: He suffers from delusions of grandeur.\nB: His plans are completely unrealistic.",

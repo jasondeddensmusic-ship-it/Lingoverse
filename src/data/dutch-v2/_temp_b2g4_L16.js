@@ -85,7 +85,7 @@ const LESSON_16 = {
      example:"A: Er zijn enkele aandachtspunten in het rapport.\nB: Welke?\nA: De kosten en de planning.\nB: Laten we die volgende vergadering bespreken.",
      exampleSrc:"A: There are some points of concern in the report.\nB: Which ones?\nA: The costs and the planning.\nB: Let us discuss those at the next meeting.",
      funFact:"'Aandachtspunt' is a staple of Dutch meeting culture. It is softer than 'probleem' (problem). Dutch managers prefer 'aandachtspunten' to avoid sounding negative."},
-    {type:"teach", trg:"de aanspreekvorm", src:"the form of address", pos:"noun", gender:"n",
+    {type:"teach", trg:"de aanspreekvorm", src:"the form of address", pos:"noun", gender:"c",
      note:"A de-word. Compound: aanspreken (to address) + vorm (form).\n'U' vs. 'je/jij' = formal vs. informal.",
      example:"A: Welke aanspreekvorm moet ik gebruiken?\nB: Bij de directeur altijd 'u'.\nA: En bij collega's?\nB: Meestal 'je', tenzij ze veel ouder zijn.",
      exampleSrc:"A: Which form of address should I use?\nB: With the director always 'u' (formal you).\nA: And with colleagues?\nB: Usually 'je' (informal you), unless they are much older.",

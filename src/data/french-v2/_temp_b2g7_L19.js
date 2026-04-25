@@ -23,7 +23,7 @@ const LESSON_19 = {
      exampleSrc:"A: The Sacre-Coeur basilica overlooks Montmartre.\nB: Its white dome is visible from far away.",
      funFact:"Unlike a cathedral (bishop's seat), a basilica is an honorary title. France has 177 basilicas, more than any other country."},
 
-    {type:"teach", trg:"les armoiries", src:"a coat of arms", pos:"noun", gender:"f",
+    {type:"teach", trg:"les armoiries", src:"a coat of arms", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Heraldic symbols representing a family or institution.\nAlways plural.",
      example:"A: Les armoiries de la ville ornent l'hotel de ville.\nB: Elles datent du Moyen Age.",
      exampleSrc:"A: The city's coat of arms decorates the town hall.\nB: They date from the Middle Ages.",

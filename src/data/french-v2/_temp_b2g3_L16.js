@@ -11,7 +11,7 @@ const LESSON_16 = {
      exampleSrc:"A: The outburst of violence surprised everyone.\nB: The situation deteriorated very quickly.",
      funFact:"Literally 'unchaining'. The image is powerful: emotions or forces breaking free from restraints. Used for storms, crowds, and media frenzies."},
 
-    {type:"teach", trg:"les démêlés", src:"disputes, legal troubles", pos:"noun", gender:"m",
+    {type:"teach", trg:"les démêlés", src:"disputes, legal troubles", pos:"noun", gender:"pl",
      note:"Masculine plural noun. Run-ins with authority or ongoing disputes. Always plural.",
      example:"A: Il a eu des démêlés avec la justice.\nB: Son avocat essaie de régler l'affaire.",
      exampleSrc:"A: He has had run-ins with the law.\nB: His lawyer is trying to settle the matter.",

@@ -36,7 +36,7 @@ const LESSON_12 = {
      ans:"Eindhoven",
      hint:"Home to the High Tech Campus and a major Technical University. A southern city."},
 
-    {type:"teach", trg:"de festivalorganisator", src:"the festival organiser", pos:"noun", gender:"n",
+    {type:"teach", trg:"de festivalorganisator", src:"the festival organiser", pos:"noun", gender:"c",
      note:"Common gender (de). Festival + organisator (organiser).\n'Organiseren' = to organise.",
      example:"A: Mijn zus is festivalorganisator.\nB: Wat voor festivals?\nA: Muziekfestivals in heel Nederland.\nB: Wat een gave baan!",
      exampleSrc:"A: My sister is a festival organiser.\nB: What kind of festivals?\nA: Music festivals all over the Netherlands.\nB: What a cool job!",

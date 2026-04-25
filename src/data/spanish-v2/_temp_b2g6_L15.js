@@ -40,7 +40,7 @@ const LESSON_15 = {id:"esv2_b2g6_l15",title:"Industria y fabricación",icon:"�
  exampleSrc:"A: On the ranches they branded cattle with a branding iron.\nB: Each rancher had his own design.",
  funFact:"'Fierro' is the traditional form. In modern Spain, 'hierro' is standard. 'Fierro' persists in Latin America."},
 
-{type:"teach",trg:"el asta",src:"the shaft / pole / horn",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the shaft / pole / horn",pos:"noun",gender:"m",
  note:"Feminine noun (but uses 'el' for phonetics: el asta).\nA pole, or an animal's horn.",
  example:"A: La bandera ondea en el asta del ayuntamiento.\nB: La cambiaron por una nueva esta mañana.",
  exampleSrc:"A: The flag waves on the pole at city hall.\nB: They changed it for a new one this morning.",
