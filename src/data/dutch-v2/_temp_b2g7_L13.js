@@ -66,7 +66,7 @@ const LESSON_13 = {
      example:"A: Er zijn drie aandachtspunten voor deze vergadering.\nB: Welke?\nA: Budget, planning en personeelstekort.\nB: Laten we met het budget beginnen.",
      exampleSrc:"A: There are three points of attention for this meeting.\nB: Which ones?\nA: Budget, planning, and staff shortage.\nB: Let's start with the budget.",
      funFact:"'Aandachtspunt' is a quintessential Dutch meeting word. Every 'vergadering' (meeting) has 'aandachtspunten' on the agenda. Meetings are sacred in Dutch work culture."},
-    {type:"teach", trg:"de beleidsmens", src:"policy person, bureaucrat", pos:"noun", gender:"c",
+    {type:"teach", trg:"de beleidsmens", src:"policy person, bureaucrat", pos:"noun", gender:"n",
      note:"De-word. Beleid (policy) + mens (person).\nSomeone who thinks in terms of policy and procedures.",
      example:"A: Hij is een typische beleidsmens.\nB: Wat bedoel je?\nA: Hij denkt in regels en procedures, niet in mensen.\nB: Dat is soms nodig, maar het mag niet overheersen.",
      exampleSrc:"A: He is a typical policy person.\nB: What do you mean?\nA: He thinks in rules and procedures, not in people.\nB: That is sometimes necessary, but it shouldn't dominate.",

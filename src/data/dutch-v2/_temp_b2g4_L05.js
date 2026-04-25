@@ -50,7 +50,7 @@ const LESSON_5 = {
      example:"A: Het zuurstofgehalte in het water is te laag.\nB: Dat is slecht voor de vissen.\nA: We moeten de vervuiling aanpakken.\nB: Anders sterft het ecosysteem.",
      exampleSrc:"A: The oxygen level in the water is too low.\nB: That is bad for the fish.\nA: We need to address the pollution.\nB: Otherwise the ecosystem will die.",
      funFact:"Used in compounds for measuring content: alcoholgehalte, zuurstofgehalte, vetgehalte (fat content), suikergehalte (sugar content). Also figuratively: van hoog gehalte (of high quality)."},
-    {type:"teach", trg:"het geldmiddel", src:"the funds, the financial resources", pos:"noun", gender:"c",
+    {type:"teach", trg:"het geldmiddel", src:"the funds, the financial resources", pos:"noun", gender:"n",
      note:"A de-word. Compound: geld (money) + middel (means).\nUsually plural: geldmiddelen.",
      example:"A: Er zijn onvoldoende geldmiddelen voor het project.\nB: Kunnen we subsidie aanvragen?\nA: Dat is een optie, maar het duurt lang.\nB: We hebben geen andere keuze.",
      exampleSrc:"A: There are insufficient funds for the project.\nB: Can we apply for a subsidy?\nA: That is an option, but it takes long.\nB: We have no other choice.",

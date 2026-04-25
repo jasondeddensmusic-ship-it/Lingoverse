@@ -12,7 +12,7 @@ const LESSON_14 = {
      exampleSrc:"A: In America they eat turkey at Thanksgiving.\nB: We don't eat that very often.\nA: No, we have gourmet (tabletop grilling) at Christmas.\nB: That's much cosier!",
      funFact:"The Dutch word 'kalkoen' comes from 'Calicut', a city in India. The English 'turkey' comes from Turkey. Both languages got the origin wrong!"},
 
-    {type:"teach", trg:"het konijnenpoot", src:"the rabbit's foot", pos:"noun", gender:"c",
+    {type:"teach", trg:"de konijnenpoot", src:"the rabbit's foot", pos:"noun", gender:"c",
      note:"Common gender (de konijnenpoot). Konijn (rabbit) + poot (paw/foot).\n'Een geluksbrenger' = a lucky charm.",
      example:"A: Heb je een konijnenpoot als geluksbrenger?\nB: Nee, dat is niet aardig voor het konijn.\nA: Het is maar bijgeloof.\nB: Toch, ik heb liever een klavertjevier.",
      exampleSrc:"A: Do you have a rabbit's foot as a lucky charm?\nB: No, that's not nice for the rabbit.\nA: It's just superstition.\nB: Still, I prefer a four-leaf clover.",

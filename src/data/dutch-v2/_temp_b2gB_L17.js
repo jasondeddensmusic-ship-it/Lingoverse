@@ -36,7 +36,7 @@ const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}"
  exampleSrc:"A: This is an important point of attention.\nB: Shall we put it on the agenda?\nA: Yes, it deserves more attention.\nB: I'll make a note of it.",
  funFact:"'Aandachtspunt' is one of the most common words in Dutch bureaucratic language. Every report, every meeting has its 'aandachtspunten'."},
 
-{type:"teach", trg:"de inschakeling", src:"involvement / engagement / activation", pos:"noun", gender:"c",
+{type:"teach", trg:"de inschakeling", src:"involvement / engagement / activation", pos:"noun", gender:"n",
  note:"From 'inschakelen' (to involve, to switch on).\n'De hulpdiensten inschakelen' = to call emergency services.",
  example:"A: De inschakeling van experts was nodig.\nB: Konden ze het probleem oplossen?\nA: Ja, dankzij hun kennis.\nB: Soms heb je specialisten nodig.",
  exampleSrc:"A: The involvement of experts was necessary.\nB: Could they solve the problem?\nA: Yes, thanks to their knowledge.\nB: Sometimes you need specialists.",

@@ -35,7 +35,7 @@ const LESSON_14 = {
      example:"A: Er heerst bestselleritis in de boekenwereld.\nB: Wat bedoel je?\nA: Alleen boeken die snel verkopen krijgen aandacht.\nB: Ten koste van goede literatuur.",
      exampleSrc:"A: There is a bestseller obsession in the book world.\nB: What do you mean?\nA: Only books that sell quickly get attention.\nB: At the expense of good literature.",
      funFact:"Dutch adds '-itis' (inflammation) to words for humorous criticism. 'Vergaderitis' (meeting-itis), 'subsidie-itis' (subsidy-itis). It implies an unhealthy obsession."},
-    {type:"teach", trg:"het bauxiet", src:"the bauxite", pos:"noun", gender:"c",
+    {type:"teach", trg:"het bauxiet", src:"the bauxite", pos:"noun", gender:"n",
      note:"A de-word. The ore from which aluminum is extracted.\nNamed after Les Baux in France.",
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in Australie en Afrika.\nB: En verwerkt in Europa?",
      exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in Australia and Africa.\nB: And processed in Europe?",

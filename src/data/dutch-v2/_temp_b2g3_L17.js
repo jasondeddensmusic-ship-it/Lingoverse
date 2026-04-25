@@ -45,7 +45,7 @@ const LESSON_17 = {
      example:"A: Het begeleidingstraject duurt zes maanden.\nB: Wat houdt het in?\nA: Coaching, workshops en mentoring.\nB: Dat klinkt heel compleet.",
      exampleSrc:"A: The guidance program lasts six months.\nB: What does it involve?\nA: Coaching, workshops, and mentoring.\nB: That sounds very complete.",
      funFact:"COMPOUND: begeleiding (guidance) + traject (trajectory/path). Dutch organizations love 'trajecten': 'sollicitatietraject' (application process), 'veranderingstraject' (change process), 'loopbaantraject' (career path)."},
-    {type:"teach", trg:"het beleidsmens", src:"the policy person", pos:"noun", gender:"c",
+    {type:"teach", trg:"de beleidsmens", src:"the policy person", pos:"noun", gender:"c",
      note:"A de-word. Compound: beleid (policy) + mens (person).\nSomeone who works in policy.",
      example:"A: Ze is een echt beleidsmens.\nB: Ze maakt graag plannen?\nA: Ja, regels en structuur. Dat is haar ding.\nB: Iemand moet het doen.",
      exampleSrc:"A: She is a real policy person.\nB: She likes making plans?\nA: Yes, rules and structure. That is her thing.\nB: Someone has to do it.",

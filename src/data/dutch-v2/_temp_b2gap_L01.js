@@ -60,7 +60,7 @@ const LESSON_1 = {
      example:"A: Dit rapport is een aanvulling op het vorige.\nB: Mooi, dan hebben we het complete plaatje.\nA: Er staan ook nieuwe cijfers in.\nB: Perfect, die had ik nodig.",
      exampleSrc:"A: This report is a supplement to the previous one.\nB: Great, then we have the complete picture.\nA: It also contains new figures.\nB: Perfect, I needed those.",
      funFact:"Very common in formal writing. 'Ter aanvulling op' (in addition to) appears in almost every Dutch business email."},
-    {type:"teach", trg:"het aandachtspunt", src:"the point of attention, the concern", pos:"noun", gender:"c",
+    {type:"teach", trg:"het aandachtspunt", src:"the point of attention, the concern", pos:"noun", gender:"n",
      note:"A de-word. Compound: aandacht (attention) + punt (point).\nUsed in meetings and reports.",
      example:"A: Wat zijn de belangrijkste aandachtspunten?\nB: Drie dingen: budget, planning en personeel.\nA: Laten we met het budget beginnen.\nB: Goed, dat is het meest urgent.",
      exampleSrc:"A: What are the main points of attention?\nB: Three things: budget, planning, and staff.\nA: Let's start with the budget.\nB: Good, that is the most urgent.",

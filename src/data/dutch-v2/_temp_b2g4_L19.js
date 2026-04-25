@@ -60,7 +60,7 @@ const LESSON_19 = {
      example:"A: Ze was mooi opgedost voor het feest.\nB: In een nieuwe jurk?\nA: Ja, met sieraden en alles.\nB: Ze zag er schitterend uit.",
      exampleSrc:"A: She was nicely dressed up for the party.\nB: In a new dress?\nA: Yes, with jewelry and everything.\nB: She looked magnificent.",
      funFact:"'Opgedost' is informal and slightly old-fashioned. Young Dutch people might say 'aangekleed' (dressed up) instead. 'Dossen' survives mainly in the compound 'opgedost'."},
-    {type:"teach", trg:"het drukgebruiker", src:"the drug user", pos:"noun", gender:"c",
+    {type:"teach", trg:"de drukgebruiker", src:"the drug user", pos:"noun", gender:"c",
      note:"A de-word. Compound: drugs + gebruiker.\n'Drugsgebruiker' is more common than 'druggebruiker'.",
      example:"A: De hulpverlening voor drugsgebruikers is goed in Nederland.\nB: Met gebruiksruimten en programma's?\nA: Ja, pragmatisch beleid.\nB: Dat vermindert de schade.",
      exampleSrc:"A: The assistance for drug users is good in the Netherlands.\nB: With consumption rooms and programs?\nA: Yes, pragmatic policy.\nB: That reduces the harm.",
