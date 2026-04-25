@@ -83,7 +83,7 @@ const LESSON_6 = {
     {type:"mc", q:"What is the difference between 'master' and 'laurea magistrale' in Italy?",
      opts:["They are the same thing with different names","Master is professional (one year); magistrale is academic (two years)","Master is cheaper and publicly funded","Magistrale is for business; master is for sciences"],
      ans:"Master is professional (one year); magistrale is academic (two years)",
-     hint:"The 'm...' is often private and expensive. The 'laurea m...' is the standard a... degree funded by the public university system."},
+     hint:"The English-loan title is often a private specialized program; the laurea-prefixed degree is the longer publicly funded pathway through the university system."},
 
     {type:"fb", s:"Il {1} e il sogno di molti giovani.",
      a:["posto fisso"],

@@ -97,7 +97,7 @@ const BATCH6_L1 = {id:"itv2_u13l_b6_1", title:"Verbi impersonali e congiuntivo",
 {type:"mc", q:"Quale congiunzione significa 'unless' e richiede 'non' pleonastico?",
  opts:["a meno che non","purche","nonostante","affinché"],
  ans:"a meno che non",
- hint:"This expression requires a grammatically unnecessary 'n...' that does not make it negative."},
+ hint:"This expression requires a grammatically pleonastic word that looks like a negation but does not negate the clause."},
 
 {type:"fb", s:"{1} cosa tu decida, ti sostengo.", a:["Qualunque"],
  opts:["Qualunque","Chiunque","Dovunque","Nonostante"],

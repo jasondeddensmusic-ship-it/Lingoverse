@@ -78,7 +78,7 @@ const LESSON_5 = {
     {type:"mc", q:"Why is 'i capelli' always plural in Italian?",
      opts:["Italian treats hair as countable individual strands","It is an exception","It is a foreign word","It changes by region"],
      ans:"Italian treats hair as countable individual strands",
-     hint:"English t... 'h...' as a mass noun. I... sees each strand as separate, hence the plural."},
+     hint:"English uses a mass noun for the substance on your head. The Romance approach is to count each piece separately, hence the obligatory plural."},
 
     {type:"fb", s:"Ho i capelli {1} e gli occhi verdi.",
      a:["castani"],

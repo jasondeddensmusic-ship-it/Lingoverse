@@ -112,7 +112,7 @@ const BATCH7_L1 = {id:"itv2_u24l_b7_1", title:"Condizioni e alternative", icon:"
 {type:"mc", q:"Quale congiunzione introduce una condizione con il congiuntivo e contiene 'non'?",
  opts:["nel caso in cui","qualora","a meno che non","purche"],
  ans:"a meno che non",
- hint:"Meaning 'unless.' The 'n...' is pleonastic (not actually negative)."},
+ hint:"Meaning 'unless'. The negative-looking particle inside is pleonastic (not actually negating the clause)."},
 
 {type:"fb", s:"Ti aiuto, {1} tu studi.", a:["purche"],
  opts:["purche","perché","finché","affinché"],

@@ -64,7 +64,7 @@ const LESSON_4 = {
     {type:"mc", q:"How do Italians say 'to give a like' on social media?",
      opts:["Mettere un like","Fare un pollice","Cliccare un bene","Dare un cuore"],
      ans:"Mettere un like",
-     hint:"'M...' means 'to put.' The English noun 'l...' is used directly. Some also say 'm... un mi piace.'"},
+     hint:"Italian uses the verb meaning 'to put' (not give, do, or click). The English social-media noun is borrowed directly."},
 
     {type:"fb", s:"Hai visto la mia {1} di oggi su Instagram?",
      a:["storia"],

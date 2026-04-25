@@ -108,7 +108,7 @@ const BATCH6_L1 = {id:"itv2_u19l_b6_1", title:"Il carattere e la personalita", i
 {type:"mc", q:"'Sensibile' in italiano NON significa...",
  opts:["easily moved","sensible (English)","sensitive","emotionally responsive"],
  ans:"sensible (English)",
- hint:"A famous false friend. The E... 's...' is 'sensato' in Italian."},
+ hint:"A famous false friend. The cognate-looking translation IS the trap. Italian uses 'sensato' for the practical-judgment meaning."},
 
 {type:"fb", s:"Laura e molto {1}, puoi sempre contare su di lei.", a:["affidabile"],
  opts:["affidabile","vanitosa","ingenua","pigra"],
