@@ -100,7 +100,7 @@ const LESSON_20 = {
      q:"Wat betekent 'huis-tuin-en-keukenwoord'?",
      opts:["Een woord dat met eten te maken heeft","Een woord uit de bouwsector","Een dialectwoord","Een heel alledaags, gewoon woord"],
      ans:"Een heel alledaags, gewoon woord",
-     hint:"Huis (house) + tuin (garden) + keuken (kitchen) creates an expression meaning ordinary, everyday. Add 'w...' and you get?"},
+     hint:"Huis-tuin-en-keuken is a Dutch idiom evoking the most banal household imagery. The compound describes the kind of vocabulary that's anything but specialized."},
     {type:"match", pairs:[
       {trg:"de generatiearmoede", src:"generational poverty"},
       {trg:"de hobbyvereniging", src:"hobby association"},

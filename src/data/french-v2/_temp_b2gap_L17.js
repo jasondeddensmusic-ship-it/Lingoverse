@@ -39,7 +39,7 @@ const LESSON_17 = {
      q:"Quelle expression signifie 'vraiment, effectivement' ?",
      opts:["bel et bien","assez peu","au pr\u00e9alable","dangereusement"],
      ans:"bel et bien",
-     hint:"Uses the archaic form 'b...' (beautiful) that only survives in this fixed expression."},
+     hint:"This three-word expression preserves the archaic masculine form of 'beau' (beautiful), which only survives in fixed phrases."},
 
     {type:"teach", trg:"assur\u00e9ment", src:"assuredly, certainly", pos:"adv", gender:null,
      note:"Adverb. Used to express strong certainty. Formal register.",
@@ -88,7 +88,7 @@ const LESSON_17 = {
      q:"Quelle expression signifie 'depuis tres longtemps' de facon familiere ?",
      opts:["assur\u00e9ment","depuis belle lurette","du premier coup","dans son ensemble"],
      ans:"depuis belle lurette",
-     hint:"'L...' comes from 'heurette' (little hour). Used ironically for very long periods."},
+     hint:"The expression contains a diminutive noun from 'heurette' (little hour), used ironically for very long stretches."},
 
     {type:"teach", trg:"de haut en bas", src:"from top to bottom", pos:"adv", gender:null,
      note:"Adverbial expression. Thoroughly, or looking someone up and down.",
@@ -112,7 +112,7 @@ const LESSON_17 = {
      s:"Elle a reussi le concours {1}, sans aucune preparation speciale.",
      a:["du premier coup"],
      opts:["du premier coup","de c\u00f4t\u00e9","de haut en bas","depuis belle lurette"],
-     hint:"On the first attempt, without needing to retry. 'C...' appears in many French expressions.",
+     hint:"On the first attempt, without needing to retry. The expression contains an ordinal number plus a noun for 'strike/blow'.",
      sSrc:"She passed the competitive exam {1}, without any special preparation."},
 
     {type:"teach", trg:"au secours", src:"help! (cry for help)", pos:"intj", gender:null,

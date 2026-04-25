@@ -145,7 +145,7 @@ const LESSON_20 = {
      q:"Quel mot designe l'etat de ne pas etre identifie ou reconnu ?",
      opts:["l'adduction","l'anonymat","la connexion","la dissociation"],
      ans:"l'anonymat",
-     hint:"From Greek 'anonymos' (nameless). 'Sous couvert d'a...' is a common journalistic phrase."},
+     hint:"From Greek 'anonymos' (nameless). The journalistic phrase 'sous couvert de ___' uses this state-of-being noun."},
 
     {type:"fb",
      s:"Les jeunes ont une forte {1} pour les nouvelles technologies.",

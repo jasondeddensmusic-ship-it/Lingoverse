@@ -133,7 +133,7 @@ const LESSON_10 = {
      q:"Quel substantif masculin désigne le moment où le soleil apparaît à l'horizon le matin ?",
      opts:["le complet","le curieux","le lever","le dixième"],
      ans:"le lever",
-     hint:"A noun formed from the verb 'l...' (to raise). Think of the sun coming up."},
+     hint:"This noun is the substantivized infinitive of the verb meaning 'to raise/rise'. Sunrise is its archetypal example."},
 
     {type:"fb",
      s:"Le voyage s'est déroulé sans {1}, tout était parfait.",
