@@ -77,7 +77,7 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
         {type:"drag_fill",hint:"Although... there are also disadvantages.",s:"{1} veel werknemers tevreden zijn, zijn er ook {2}.",blanks:{"1":"Hoewel","2":"nadelen"},pool:["Hoewel","nadelen","Omdat","voordelen"]},
         {type:"fb",opts:["werkende","gewerkte","werkend","werkde"],hint:"A verb form ending in -d(e) used as an adjective before a noun",s:"De ___ bevolking werkt minstens een dag thuis.",a:"werkende"},
         {type:"match",pairs:[{trg:"het thuiswerken",src:"working from home"},{trg:"de werk-privebalans",src:"work-life balance"},{trg:"de werksfeer",src:"work atmosphere"},{trg:"de maatregelen",src:"the measures"}]},
-        {type:"mc",q:"'De komende jaren worden er nieuwe maatregelen verwacht'. 'komende' means:",opts:["Past event","Going away","Coming/upcoming","Leaving soon"],ans:"Coming/upcoming",hint:"Present participle: komend = c..."}
+        {type:"mc",q:"'De komende jaren worden er nieuwe maatregelen verwacht'. 'komende' means:",opts:["Past event","Going away","Coming/upcoming","Leaving soon"],ans:"Coming/upcoming",hint:"Komend is the present participle of komen. As an adjective it describes what is approaching, not what has happened."}
   ]},
   {id:"v2u20l4",title:"Een E-mail Schrijven",icon:"✉️",xp:15,board:true,steps:[
         {type:"intro",title:"Een E-mail Schrijven",desc:"Structured writing practice. You'll work through a formal complaint email step by step, using the register and vocabulary you've learned. Opening, problem description, request, closing.",goals:["Write a formal complaint email","Structure: opening → problem → request → closing","Use formal register: Geachte, Zou u, Met vriendelijke groet","Translation exercises for email phrases"]},
@@ -145,7 +145,7 @@ export default {n:20,lang:"nl",srcLang:"en",track:"v2",title:"B1 Klaar!",sub:"Di
         {type:"fb",opts:["ongeveer","precies","altijd","gemiddeld"],hint:"Approximately 17 million",s:"Er wonen ___ 17 miljoen mensen in Nederland.",a:"ongeveer"},
         {type:"mc",q:"How many bicycles does the Netherlands have?",opts:["About 5 million","About 23 million","About 12 million","About 50 million"],ans:"About 23 million",hint:"More bikes than people!"},
         {type:"fb",opts:["derde","kwart","helft","percentage"],hint:"Een ___ = 1/3 (ordinal number as fraction)",s:"Een ___ van de studenten werkt parttime.",a:"derde"},
-        {type:"mc",q:"'Boven het gemiddelde' means:",opts:["Below average","Exactly average","Above average","Far from average"],ans:"Above average",hint:"Boven = a..., het gemiddelde = the a..."},
+        {type:"mc",q:"'Boven het gemiddelde' means:",opts:["Below average","Exactly average","Above average","Far from average"],ans:"Above average",hint:"Boven is the spatial preposition for higher than. Het gemiddelde is the noun for the statistical mean."},
         {type:"drag_fill",hint:"Half cycles. A third works part-time.",s:"De {1} van de bevolking fietst. Een {2} werkt parttime.",blanks:{"1":"helft","2":"derde"},pool:["helft","derde","kwart","percentage"]},
         {type:"match",pairs:[{trg:"het percentage",src:"the percentage"},{trg:"gemiddeld",src:"on average"},{trg:"een kwart",src:"a quarter"},{trg:"de helft",src:"the half"}]},
         {type:"fb",opts:["Ongeveer","Precies","Altijd","Helemaal"],hint:"Approximately 90 percent",s:"___ 90 procent van de Nederlanders spreekt Engels.",a:"Ongeveer"},
