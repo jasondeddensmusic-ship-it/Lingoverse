@@ -75,7 +75,7 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 {type:"fb", s:"A: В Париж на самолёте?\nB: Да, в {1} Шереметьево.",
  a:["аэропорт"],
  opts:["аэропорт","вокзал","метро","автобус"],
- hint:"Flying to Paris, you go to the [blank].",
+ hint:"Flying to Paris, you go to the ___.",
  sSrc:"A: To Paris by plane?\nB: Yes, to Sheremetyevo airport."},
 
 {type:"match", pairs:[
@@ -444,13 +444,13 @@ const UNIT_12 = {n:12, lang:"ru", srcLang:"en", track:"v2", title:"Путеше�
 {type:"fb", s:"A: Суп в {1}?\nB: Да, там.",
  a:["холодильнике"],
  opts:["холодильнике","кухне","тарелке","доме"],
- hint:"Where do you store leftover soup to keep it cold? The [blank] keeps things cold.",
+ hint:"Where do you store leftover soup to keep it cold? The ___ keeps things cold.",
  sSrc:"A: Is the soup in the fridge?\nB: Yes, it's there."},
 
 {type:"fb", s:"A: Ты любишь {1}?\nB: Да, особенно мясо.",
  a:["готовить"],
  opts:["готовить","мыть","болеть","любить"],
- hint:"The question is about enjoying [blank] food. What verb means to cook?",
+ hint:"The question is about enjoying ___ food. What verb means to cook?",
  sSrc:"A: Do you like to cook?\nB: Yes, especially meat."},
 
 {type:"mc", q:"Which body part has a SILENT consonant in pronunciation?",

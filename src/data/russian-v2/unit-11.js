@@ -259,7 +259,7 @@ const UNIT_11 = {n:11, lang:"ru", srcLang:"en", track:"v2", title:"Хобби", 
 {type:"fb", s:"A: Как русский язык?\nB: Не {1}, но нужно учить.",
  a:["легко"],
  opts:["легко","трудно","скучно","интересно"],
- hint:"The 'but need to study' clue suggests a comment about difficulty. 'Не [blank]' = 'not [blank].'",
+ hint:"The 'but need to study' clue suggests a comment about difficulty. 'Не ___' = 'not ___.'",
  sSrc:"A: How's Russian?\nB: Not easy, but need to study."},
 
 {type:"fb", s:"A: Почему никого нет?\nB: Всем {1}, они ушли.",
