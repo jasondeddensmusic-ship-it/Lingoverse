@@ -187,7 +187,7 @@ export default {n:11,lang:"nl",srcLang:"en",track:"v2",title:"Op het Werk",sub:"
         {type:"mc",q:"'Volgens mij is dat een goed idee.'. 'Volgens mij' means:",opts:["I'm sure","The boss said","In my opinion","Everyone thinks"],ans:"In my opinion",hint:"Volgens = according to"},
         {type:"fb",opts:["denk","vind","heb","wil"],hint:"I think that...",s:"Ik ___ dat we meer tijd nodig hebben.",a:"denk"},
         {type:"match",pairs:[{trg:"voordat",src:"before"},{trg:"nadat",src:"after"},{trg:"zodra",src:"as soon as"},{trg:"totdat",src:"until"}]},
-        {type:"mc",q:"'De klant heeft altijd gelijk' means:",opts:["The customer is always late","The company is always correct","The client needs help","The customer is always right"],ans:"The customer is always right",hint:"Gelijk = r.../correct"},
+        {type:"mc",q:"'De klant heeft altijd gelijk' means:",opts:["The customer is always late","The company is always correct","The client needs help","The customer is always right"],ans:"The customer is always right",hint:"Famous business saying. Gelijk hebben is the Dutch idiom for being correct in an argument."},
         {type:"fb",opts:["aangekomen","gekomen","aankomen","kwam"],hint:"The compound tense before another past event, using 'zijn'",s:"Nadat zij was ___, begon de vergadering. (arrived)",a:"aangekomen"},
         {type:"drag_fill",hint:"I have three years of experience as a programmer.",s:"Ik {1} drie jaar {2} als programmeur.",blanks:{"1":"heb","2":"ervaring"},pool:["heb","ervaring","had","opleiding"]},
         {type:"mc",q:"The Dutch 'borrel' is:",opts:["Friday afternoon drinks with colleagues","A type of soup","A formal meeting","A holiday"],ans:"Friday afternoon drinks with colleagues",hint:"Bitterballen, beer, social glue"},

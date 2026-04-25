@@ -127,7 +127,7 @@ export default {n:5,lang:"nl",srcLang:"en",track:"v2",title:"Mijn Familie & Thui
         {type:"match",pairs:[{trg:"opruimen",src:"to tidy up"},{trg:"schoonmaken",src:"to clean"},{trg:"afwassen",src:"to do the dishes"},{trg:"stofzuigen",src:"to vacuum"}]},
         {type:"drag_fill",hint:"Present: splits. Modal: stays whole.",s:"Ik was elke avond {1}. Ik moet de kamer {2}.",blanks:{"1":"af","2":"opruimen"},pool:["af","opruimen","schoon","op"]},
         {type:"fb",opts:["dicht","doen","open","uit"],hint:"Close the door!",s:"Doe de deur ___!",a:"dicht"},
-        {type:"mc",q:"'Stofzuigen' literally means:",opts:["room-sweeping","floor-cleaning","dust-sucking","carpet-washing"],ans:"dust-sucking",hint:"stof = d..., zuigen = to suck"},
+        {type:"mc",q:"'Stofzuigen' literally means:",opts:["room-sweeping","floor-cleaning","dust-sucking","carpet-washing"],ans:"dust-sucking",hint:"Compound of stof (the particles a vacuum picks up) + zuigen (the action of pulling air in)."},
         {type:"fb",opts:["maakt","schoonmaakt","maken","schoon"],hint:"In main clause: verb in pos 2, prefix at end",s:"Hij ___ elke dag de woonkamer schoon.",a:"maakt"},
         {type:"mc",q:"Which part separates from 'make-___' and moves to the end: 'Ik maak het raam ___'?",opts:["ik","maak","het raam","open"],ans:"open",hint:"Think about what word completes the verb and moves to the end in a main clause"},
         {type:"tr",mk:"u5_tidy_room",dir:"produce"},
