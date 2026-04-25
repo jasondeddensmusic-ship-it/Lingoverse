@@ -175,7 +175,7 @@ export default {n:6,lang:"fr",srcLang:"en",track:"v2",title:"La maison",sub:"Hom
         {type:"mc",q:"'La salle de bains' is:",opts:["The bathroom","The living room","The kitchen","The bedroom"],ans:"The bathroom",hint:"This room's name literally means 'room of baths'."},
         {type:"fb",opts:["sous","sur","dans","devant"],hint:"The cat sleeps UNDER the bed. Which preposition?",s:"Le chat dort {1} le lit.",a:"sous"},
         {type:"match",pairs:[{trg:"la cuisine",src:"the kitchen"},{trg:"le salon",src:"the living room"},{trg:"la chambre",src:"the bedroom"},{trg:"le couloir",src:"the hallway"}]},
-        {type:"mc",q:"'Il n'y a pas de jardin' means:",opts:["The garden is big","There is no garden","There is a garden","The garden is behind"],ans:"There is no garden",hint:"Il n'y a pas de = t... is no. Negation of existence."},
+        {type:"mc",q:"'Il n'y a pas de jardin' means:",opts:["The garden is big","There is no garden","There is a garden","The garden is behind"],ans:"There is no garden",hint:"Negation of il y a + de. Declares the absence of the noun that follows."},
         {type:"fb",opts:["à","en","de","du"],hint:"Next to: ___ côté de. First word of this preposition.",s:"L'étagère est {1} côté du bureau.",a:"à"},
         {type:"mc",q:"Which is correct?",opts:["Chez moi est grand","Grand chez moi c'est","C'est grand chez moi","Moi chez est grand"],ans:"C'est grand chez moi",hint:"C'___ + adjective + location. Standard description pattern."},
         {type:"fb",opts:["chez","dans","à","sur"],hint:"Come to my place. Which preposition means 'to/at someone's home'?",s:"Viens {1} moi, on regarde un film!",a:"chez"},
