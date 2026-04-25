@@ -1,6 +1,6 @@
 // Batch 9 – Unit 16 (B1.1 Plans): Future Plans & Career
 const BATCH9_L1 = {
-  id:"jav2_u16l_b9_1", title:"将来(しょうらい)", icon:"🎯", xp:15, board:true,
+  id:"jav2_u16l_b9_1", title:"将来(しょうらい) (II)", icon:"🎯", xp:15, board:true,
   steps:[
     {type:"intro", title:"将来(しょうらい)",
      desc:"Learn vocabulary for discussing future plans, career goals, and aspirations. Essential for B1-level conversations about life direction.",

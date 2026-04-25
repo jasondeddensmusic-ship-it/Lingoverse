@@ -1,6 +1,6 @@
 // Batch 7 – Unit 05 (A1.2 Food & Drink): Kitchen & Cooking Vocabulary
 const BATCH7_L1 = {
-  id:"jav2_u05l_b7_1", title:"台所(だいどころ)", icon:"🍳", xp:15, board:true,
+  id:"jav2_u05l_b7_1", title:"台所(だいどころ) (II)", icon:"🍳", xp:15, board:true,
   steps:[
     {type:"intro", title:"台所(だいどころ)",
      desc:"Learn kitchen items and basic cooking vocabulary. Japanese cooking (和食(わしょく), washoku) is a UNESCO World Heritage tradition, and knowing these words opens the door to food culture conversations.",

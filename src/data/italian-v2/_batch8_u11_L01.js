@@ -1,5 +1,5 @@
 // Batch 8. Unit 11 extra lesson. Past Tense: Irregular Past Participles
-const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari", icon:"🔀", xp:15, board:true, steps:[
+const BATCH8_L1 = {id:"itv2_u11l_b8_1", title:"Participi irregolari (II)", icon:"🔀", xp:15, board:true, steps:[
 {type:"intro", title:"Participi irregolari",
  desc:"Master the most common irregular past participles used in everyday Italian conversation.",
  goals:["Recognize irregular past participles","Use them in passato prossimo sentences","Avoid common mistakes with irregular forms"]},

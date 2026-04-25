@@ -1,6 +1,6 @@
 // Unit 19 Batch 5 Lesson 2: 仮定法(かていほう) (Counterfactual & Wish Expressions)
 const BATCH5_L_2 = {
-  id:"jav2_u19l_b5_2", title:"仮定法(かていほう)", icon:"💫", xp:15, board:true,
+  id:"jav2_u19l_b5_2", title:"仮定法(かていほう) (II)", icon:"💫", xp:15, board:true,
   steps:[
     {type:"intro", title:"仮定法(かていほう)",
      desc:"Go beyond real conditions to express wishes, regrets, and counterfactuals. 'If only I had studied more,' 'I wish I could speak Japanese.' These patterns combine conditionals with のに (regret), たい (want), and ばよかった (should have). They are essential for expressing complex emotions.",

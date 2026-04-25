@@ -1,6 +1,6 @@
 // Unit 17 Batch2. Lesson 1: Digital Life & Apps
 const BATCH2_U17_L1 = {
-  id:"itv2_u17l_b2_1", title:"La vita digitale", icon:"📲", xp:15, board:true,
+  id:"itv2_u17l_b2_1", title:"La vita digitale (III)", icon:"📲", xp:15, board:true,
   steps:[
     {type:"intro", title:"La vita digitale",
      desc:"Expand your Italian tech vocabulary with terms for apps, online services, digital payments, and smart devices. These words reflect how Italians interact with technology daily.",

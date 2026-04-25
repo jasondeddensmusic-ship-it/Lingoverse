@@ -1,6 +1,6 @@
 // Batch 9 – Unit 29 (B2): 経済用語(けいざいようご)
 const BATCH9_L1 = {
-  id:"jav2_u29l_b9_1", title:"経済用語(けいざいようご)", icon:"💹", xp:15, board:true,
+  id:"jav2_u29l_b9_1", title:"経済用語(けいざいようご) (II)", icon:"💹", xp:15, board:true,
   steps:[
     {type:"intro", title:"経済用語(けいざいようご)",
      desc:"Economic terms and market vocabulary",

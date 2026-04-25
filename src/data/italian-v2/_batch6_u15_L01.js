@@ -1,5 +1,5 @@
 // Batch 6. Unit 15 extra lesson. La casa e l'affitto: Home Repairs & Problems
-const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa", icon:"\u{1F527}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u15l_b6_1", title:"Problemi in casa (II)", icon:"\u{1F527}", xp:15, board:true, steps:[
 {type:"intro", title:"Problemi in casa",
  desc:"Learn vocabulary for common household problems, repairs, and communicating with landlords and technicians.",
  goals:["Describe common household problems","Request repairs from a landlord","Communicate with technicians"]},

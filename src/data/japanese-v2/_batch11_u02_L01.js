@@ -1,6 +1,6 @@
 // Batch 11 – Unit 02 (A1.1 Self-Introduction): Jobs & Occupations
 const BATCH11_L1 = {
-  id:"jav2_u02l_b11_1", title:"仕事(しごと)", icon:"👔", xp:15, board:true,
+  id:"jav2_u02l_b11_1", title:"仕事(しごと) (II)", icon:"👔", xp:15, board:true,
   steps:[
     {type:"intro", title:"仕事(しごと)",
      desc:"Learn to talk about jobs and occupations. These words let you introduce yourself professionally and ask others about their work.",

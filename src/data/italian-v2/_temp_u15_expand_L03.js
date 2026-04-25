@@ -1,6 +1,6 @@
 // Unit 15 Expansion. Lesson 6: Household Problems
 const LESSON_6 = {
-  id:"itv2_u15l6", title:"Problemi in casa", icon:"🔧", xp:15, board:true,
+  id:"itv2_u15l6", title:"Problemi in casa (III)", icon:"🔧", xp:15, board:true,
   steps:[
     {type:"intro", title:"Problemi in casa",
      desc:"Learn to describe and report household problems: leaks, broken appliances, plumbing issues, and how to call for repairs. Essential survival vocabulary for living in Italy.",

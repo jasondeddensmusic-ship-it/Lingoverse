@@ -1,6 +1,6 @@
 // Batch 10 – Unit 22 (B1.2 Giving/Receiving): Favors & Kindness
 const BATCH10_L1 = {
-  id:"jav2_u22l_b10_1", title:"恩(おん)と義理(ぎり)", icon:"🤝", xp:15, board:true,
+  id:"jav2_u22l_b10_1", title:"恩(おん)と義理(ぎり) (II)", icon:"🤝", xp:15, board:true,
   steps:[
     {type:"intro", title:"恩(おん)と義理(ぎり)", desc:"Learn vocabulary about social obligations, favors, and the giving/receiving of kindness in Japanese culture.", goals:["Express gratitude for favors","Understand social obligation concepts","Navigate the web of Japanese mutual aid"]},
     {type:"teach", trg:"恩(おん)", src:"favor / debt of gratitude", pos:"noun", gender:null, note:"恩(おん)がある = to owe a favor.\n恩返(おんがえ)し = repaying a favor.", example:"A: 先生(せんせい)には恩(おん)があります。\nB: 素晴(すば)らしい先生(せんせい)だったんですね。\nA: どうでしたか？\nB: とても良(よ)かったです。", exampleSrc:"A: I owe a debt of gratitude to my teacher.\nB: They must have been a wonderful teacher.\nA: How was it?\nB: It was very good.", funFact:"恩(おん) (恩) is a core Japanese concept: receiving kindness creates a moral debt. 恩知(おんし)らず (ungrateful person) is a severe insult. The fairy tale 鶴(つる)の恩返(おんがえ)し (the crane's return of gratitude) teaches children about 恩(おん). Repaying 恩(おん) is a lifelong obligation."},

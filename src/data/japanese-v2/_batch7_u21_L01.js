@@ -1,6 +1,6 @@
 // Batch 7 – Unit 21 (B1.2 Society & News): Social Issues Vocabulary
 const BATCH7_L1 = {
-  id:"jav2_u21l_b7_1", title:"社会(しゃかい)問題(もんだい)", icon:"📰", xp:15, board:true,
+  id:"jav2_u21l_b7_1", title:"社会(しゃかい)問題(もんだい) (II)", icon:"📰", xp:15, board:true,
   steps:[
     {type:"intro", title:"社会(しゃかい)問題(もんだい)",
      desc:"Learn vocabulary for discussing social issues facing modern Japan. These words appear in news, documentaries, and daily conversation about society's challenges.",

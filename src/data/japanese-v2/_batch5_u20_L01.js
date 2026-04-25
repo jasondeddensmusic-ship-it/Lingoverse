@@ -1,6 +1,6 @@
 // Unit 20 Batch 5 Lesson 1: 謙譲語(けんじょうご) (Humble Language)
 const BATCH5_L_1 = {
-  id:"jav2_u20l_b5_1", title:"謙譲語(けんじょうご)", icon:"🙇", xp:15, board:true,
+  id:"jav2_u20l_b5_1", title:"謙譲語(けんじょうご) (II)", icon:"🙇", xp:15, board:true,
   steps:[
     {type:"intro", title:"謙譲語(けんじょうご)",
      desc:"Humble language (kenjougo) is the mirror of honorific language. Instead of elevating others, you lower yourself. 'I humbly go' instead of 'I go.' 'I humbly receive' instead of 'I receive.' This system shows respect by making your own actions seem smaller. It is mandatory in business Japanese.",

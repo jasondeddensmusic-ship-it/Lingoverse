@@ -1,6 +1,6 @@
 // Batch 4. Unit 10, Lesson 1: Hotel & Accommodation Vocabulary
 const BATCH4_U10_L1 = {
-  id:"itv2_u10l_b4_1", title:"In albergo", icon:"\uD83C\uDFE8", xp:15, board:true,
+  id:"itv2_u10l_b4_1", title:"In albergo (II)", icon:"\uD83C\uDFE8", xp:15, board:true,
   steps:[
     {type:"intro", title:"In albergo",
      desc:"Learn essential Italian vocabulary for booking and staying at hotels, B&Bs, and other accommodation.",

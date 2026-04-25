@@ -1,6 +1,6 @@
 // Batch 7 – Unit 35 (B2.2 Information Society): Digital & Technology Vocabulary
 const BATCH7_L1 = {
-  id:"jav2_u35l_b7_1", title:"デジタル社会(しゃかい)", icon:"💻", xp:15, board:true,
+  id:"jav2_u35l_b7_1", title:"デジタル社会(しゃかい) (II)", icon:"💻", xp:15, board:true,
   steps:[
     {type:"intro", title:"デジタル社会(しゃかい)",
      desc:"Learn vocabulary for the digital age: AI, data, privacy, and technology ethics. These terms are essential for understanding modern Japan's relationship with technology.",

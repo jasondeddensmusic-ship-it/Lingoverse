@@ -1,5 +1,5 @@
 // Batch 6. Unit 12 extra lesson. Essere al passato: Movement & Direction Verbs
-const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento", icon:"\u{1F3C3}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u12l_b6_1", title:"Verbi di movimento (II)", icon:"\u{1F3C3}", xp:15, board:true, steps:[
 {type:"intro", title:"Verbi di movimento",
  desc:"Learn key verbs of movement and direction that use 'essere' in the past tense, plus physical action verbs.",
  goals:["Master movement verbs with essere","Describe physical actions and directions","Use past tense with movement verbs correctly"]},

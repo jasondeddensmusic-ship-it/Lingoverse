@@ -1,6 +1,6 @@
 // Batch 11 – Unit 10 (A1.3 Weather & Seasons): Nature & Environment Basics
 const BATCH11_L1 = {
-  id:"jav2_u10l_b11_1", title:"自然(しぜん)", icon:"🌿", xp:15, board:true,
+  id:"jav2_u10l_b11_1", title:"自然(しぜん) (II)", icon:"🌿", xp:15, board:true,
   steps:[
     {type:"intro", title:"自然(しぜん)",
      desc:"Learn essential nature vocabulary to describe the natural world around you. These words connect to weather, seasons, and Japanese cultural appreciation of nature.",

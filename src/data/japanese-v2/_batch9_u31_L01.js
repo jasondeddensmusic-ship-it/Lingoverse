@@ -1,6 +1,6 @@
 // Batch 9 – Unit 31 (B2): 裁判(さいばん)
 const BATCH9_L1 = {
-  id:"jav2_u31l_b9_1", title:"裁判(さいばん)", icon:"⚖️", xp:15, board:true,
+  id:"jav2_u31l_b9_1", title:"裁判(さいばん) (II)", icon:"⚖️", xp:15, board:true,
   steps:[
     {type:"intro", title:"裁判(さいばん)",
      desc:"Legal system and court vocabulary",

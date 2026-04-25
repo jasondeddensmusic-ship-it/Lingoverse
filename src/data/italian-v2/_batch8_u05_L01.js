@@ -1,6 +1,6 @@
 // Batch 8. Unit 05 extra lesson. Home: Household Chores & Routines
-const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Le faccende domestiche", icon:"🧹", xp:15, board:true, steps:[
-{type:"intro", title:"Le faccende domestiche",
+const BATCH8_L1 = {id:"itv2_u05l_b8_1", title:"Casa e manutenzione", icon:"🧹", xp:15, board:true, steps:[
+{type:"intro", title:"Casa e manutenzione",
  desc:"Learn vocabulary for household chores, cleaning, and maintaining a home in Italian.",
  goals:["Name common household chores","Talk about cleaning routines","Use domestic vocabulary in context"]},
 

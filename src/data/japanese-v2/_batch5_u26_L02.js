@@ -1,6 +1,6 @@
 // Unit 26 Batch 5 Lesson 2: メディアリテラシー (Media Literacy & Critical Thinking)
 const BATCH5_L_2 = {
-  id:"jav2_u26l_b5_2", title:"メディアリテラシー", icon:"🧐", xp:15, board:true,
+  id:"jav2_u26l_b5_2", title:"メディアリテラシー (II)", icon:"🧐", xp:15, board:true,
   steps:[
     {type:"intro", title:"メディアリテラシー",
      desc:"In an age of information overload, critical evaluation of media is essential. Learn vocabulary for analyzing sources, identifying bias, and distinguishing fact from opinion. These skills and their Japanese vocabulary are increasingly tested on JLPT N2 and are vital for informed citizenship.",

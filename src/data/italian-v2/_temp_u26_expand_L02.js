@@ -1,6 +1,6 @@
 // Unit 26 Expansion. Lesson 5: I diritti civili
 const LESSON_5 = {
-  id:"itv2_u26l5", title:"I diritti civili", icon:"✊", xp:15, board:true,
+  id:"itv2_u26l5", title:"I diritti civili (II)", icon:"✊", xp:15, board:true,
   steps:[
     {type:"intro", title:"I diritti civili",
      desc:"Learn vocabulary for discussing civil rights, social justice, and democratic principles. These terms are essential for understanding Italian political and social debates.",

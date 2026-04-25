@@ -1,6 +1,6 @@
 // Batch 4. Unit 11, Lesson 2: Common Irregular Past Participles
 const BATCH4_U11_L2 = {
-  id:"itv2_u11l_b4_2", title:"Participi irregolari", icon:"\uD83D\uDD11", xp:15, board:true,
+  id:"itv2_u11l_b4_2", title:"Participi irregolari (IV)", icon:"\uD83D\uDD11", xp:15, board:true,
   steps:[
     {type:"intro", title:"Participi irregolari",
      desc:"Master the most common irregular past participles that you need for everyday conversation.",

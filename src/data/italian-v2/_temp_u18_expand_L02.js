@@ -1,6 +1,6 @@
 // Unit 18 Expansion. Lesson 5: Sustainability and Recycling Culture
 const LESSON_5 = {
-  id:"itv2_u18l5", title:"Vita sostenibile", icon:"♻️", xp:15, board:true,
+  id:"itv2_u18l5", title:"Vita sostenibile (II)", icon:"♻️", xp:15, board:true,
   steps:[
     {type:"intro", title:"Vita sostenibile",
      desc:"Learn how Italians practice sustainability in daily life: zero-waste shopping, organic food, sustainable fashion, and the culture of repairing rather than replacing.",

@@ -1,8 +1,8 @@
 // Batch 4. Unit 05, Lesson 2: Household Chores & Daily Tasks
 const BATCH4_U05_L2 = {
-  id:"itv2_u05l_b4_2", title:"Le faccende domestiche", icon:"\uD83E\uDDF9", xp:15, board:true,
+  id:"itv2_u05l_b4_2", title:"Faccende quotidiane", icon:"\uD83E\uDDF9", xp:15, board:true,
   steps:[
-    {type:"intro", title:"Le faccende domestiche",
+    {type:"intro", title:"Faccende quotidiane",
      desc:"Learn vocabulary for household chores and daily tasks that keep an Italian home running smoothly.",
      goals:["Name common household chores","Describe what you do at home","Use dovere (must) with chore vocabulary"]},
 

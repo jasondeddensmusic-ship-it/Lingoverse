@@ -1,5 +1,5 @@
 // Batch 8. Unit 31 extra lesson. Advanced Media: Journalism & Press
-const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo", icon:"📰", xp:15, board:true, steps:[
+const BATCH8_L1 = {id:"itv2_u31l_b8_1", title:"Il giornalismo (II)", icon:"📰", xp:15, board:true, steps:[
 {type:"intro", title:"Il giornalismo",
  desc:"Learn vocabulary for journalism, the press, and media production in Italian.",
  goals:["Discuss journalism and news production","Use press vocabulary","Understand Italian media landscape"]},

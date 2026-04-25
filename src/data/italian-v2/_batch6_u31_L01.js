@@ -1,5 +1,5 @@
 // Batch 6. Unit 31 extra lesson. I media avanzati: Journalism & Press Vocabulary
-const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo", icon:"\u{1F4F0}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u31l_b6_1", title:"Il giornalismo (III)", icon:"\u{1F4F0}", xp:15, board:true, steps:[
 {type:"intro", title:"Il giornalismo",
  desc:"Learn advanced vocabulary for journalism, the press, and media analysis in Italian.",
  goals:["Discuss journalistic practices and ethics","Analyze news sources and credibility","Use advanced media vocabulary"]},

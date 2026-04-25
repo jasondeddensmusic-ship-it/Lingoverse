@@ -1,5 +1,5 @@
 // Batch 6. Unit 17 extra lesson. I media e la tecnologia: Social Media & Digital Life
-const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale", icon:"\u{1F4F1}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u17l_b6_1", title:"La vita digitale (II)", icon:"\u{1F4F1}", xp:15, board:true, steps:[
 {type:"intro", title:"La vita digitale",
  desc:"Learn vocabulary for social media, digital communication, and online life in Italian.",
  goals:["Discuss social media and online habits","Talk about digital communication","Understand internet vocabulary in Italian"]},

@@ -1,5 +1,5 @@
 // Batch 6. Unit 06 extra lesson. In città: Public Services & Emergencies
-const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici", icon:"\u{1F3E5}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u06l_b6_1", title:"I servizi pubblici (II)", icon:"\u{1F3E5}", xp:15, board:true, steps:[
 {type:"intro", title:"I servizi pubblici",
  desc:"Learn essential vocabulary for public services, emergencies, and getting help in Italian cities.",
  goals:["Ask for help at a police station","Describe an emergency","Navigate public service offices"]},

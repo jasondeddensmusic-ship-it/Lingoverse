@@ -1,6 +1,6 @@
 // Batch 4. Unit 12 Lesson 2: Abilities & Skills
 const BATCH4_L_2 = {
-  id:"jav2_u12l_b4_2", title:"能力(のうりょく)", icon:"🏅", xp:15, board:true,
+  id:"jav2_u12l_b4_2", title:"能力(のうりょく) (II)", icon:"🏅", xp:15, board:true,
   steps:[
     {type:"intro", title:"能力(のうりょく)とスキル",
      desc:"Learn vocabulary for talking about abilities, skills, and talents. These words help you describe what you and others can and cannot do.",

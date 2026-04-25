@@ -1,6 +1,6 @@
 // Batch 9 – Unit 21 (B1.2 Society): Social Issues
 const BATCH9_L1 = {
-  id:"jav2_u21l_b9_1", title:"社会(しゃかい)問題(もんだい)", icon:"📢", xp:15, board:true,
+  id:"jav2_u21l_b9_1", title:"社会(しゃかい)問題(もんだい) (III)", icon:"📢", xp:15, board:true,
   steps:[
     {type:"intro", title:"社会(しゃかい)問題(もんだい)",
      desc:"Learn vocabulary for discussing social issues facing modern Japan, from aging society to work-life balance.",

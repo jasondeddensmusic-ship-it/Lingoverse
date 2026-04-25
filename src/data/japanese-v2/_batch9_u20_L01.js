@@ -1,6 +1,6 @@
 // Batch 9 – Unit 20 (B1.2 Keigo): Humble Expressions
 const BATCH9_L1 = {
-  id:"jav2_u20l_b9_1", title:"謙譲語(けんじょうご)", icon:"🎩", xp:15, board:true,
+  id:"jav2_u20l_b9_1", title:"謙譲語(けんじょうご) (III)", icon:"🎩", xp:15, board:true,
   steps:[
     {type:"intro", title:"謙譲語(けんじょうご)",
      desc:"Learn humble speech (けんじょうご), the form of keigo where you lower yourself to show respect to the listener.",

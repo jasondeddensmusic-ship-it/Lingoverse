@@ -1,6 +1,6 @@
 // Batch 9 – Unit 27 (B2): エネルギー
 const BATCH9_L1 = {
-  id:"jav2_u27l_b9_1", title:"エネルギー", icon:"⚡", xp:15, board:true,
+  id:"jav2_u27l_b9_1", title:"エネルギー (II)", icon:"⚡", xp:15, board:true,
   steps:[
     {type:"intro", title:"エネルギー",
      desc:"Energy and sustainability vocabulary",

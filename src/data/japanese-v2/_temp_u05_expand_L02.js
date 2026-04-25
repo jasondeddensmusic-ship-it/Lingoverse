@@ -1,6 +1,6 @@
 // Unit 05 Expansion L04. Ordering at a Restaurant
 const LESSON_4 = {
-  id:"jav2_u5l4", title:"レストランで", icon:"🍽️", xp:15, board:true,
+  id:"jav2_u5l4", title:"レストランで (II)", icon:"🍽️", xp:15, board:true,
   steps:[
     {type:"intro", title:"レストランで",
      desc:"Learn to order food at a Japanese restaurant. From entering to paying the bill, these phrases cover the entire dining experience.",

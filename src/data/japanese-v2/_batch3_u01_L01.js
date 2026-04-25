@@ -3,7 +3,7 @@
 // もういちど, ゆっくり, しつもん, こたえ, きょうは, どうぞよろしく,
 // せいかい, all absent from unit-01.js and _temp_u01 files.
 const BATCH3_L_1 = {
-  id:"jav2_u1l_b3_1", title:"丁寧(ていねい)なことば", icon:"🙏", xp:15, board:true,
+  id:"jav2_u1l_b3_1", title:"丁寧(ていねい)なことば (II)", icon:"🙏", xp:15, board:true,
   steps:[
     {type:"intro", title:"丁寧(ていねい)なことば",
      desc:"Learn essential polite phrases and classroom expressions. These words let you interact gracefully in everyday situations and ask for help in Japanese.",

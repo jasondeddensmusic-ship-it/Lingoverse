@@ -1,6 +1,6 @@
 // Batch 8 – Unit 27 (B2.1 Environment): Energy & Sustainability
 const BATCH8_L1 = {
-  id:"jav2_u27l_b8_1", title:"エネルギーと持続(じぞく)", icon:"🌱", xp:15, board:true,
+  id:"jav2_u27l_b8_1", title:"エネルギーと持続(じぞく) (II)", icon:"🌱", xp:15, board:true,
   steps:[
     {type:"intro", title:"エネルギーと持続(じぞく)",
      desc:"Master energy and sustainability vocabulary at N2 level. These terms are essential for discussing Japan's environmental policies and global climate action.",
