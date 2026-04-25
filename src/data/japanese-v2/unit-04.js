@@ -67,7 +67,7 @@ const UNIT_04 = {
   {type:"fb", s:"これは{1}ですか?", a:"いくら", opts:["いくら","なん","だれ","どこ"], sSrc:"How much is this?",
    hint:"The question word specifically for asking about price."},
 
-  {type:"teach", trg:"赤(あか)", src:"red", pos:"noun", gender:null,
+  {type:"teach", trg:"赤(あか)", src:"red", pos:"adj", gender:null,
    note:"The color red. As an adjective: 赤(あか)い (akai, red).\nKanji: 赤.",
    example:"A: 赤(あか)い傘(かさ)はいくらですか?\nB: 二百(にひゃく)円(えん)です。",
    exampleSrc:"A: How much is the red umbrella?\nB: It is 200 yen.",
@@ -79,7 +79,7 @@ const UNIT_04 = {
    exampleSrc:"A: I like the blue bag.\nB: Me too!",
    funFact:"Ao covers blue AND green in traditional Japanese. Traffic lights are called 'ao' even though they look green. The word 'midori' (green) only became its own color category in modern times. Old Japanese had just four color words: aka, ao, shiro, kuro."},
 
-  {type:"teach", trg:"白(しろ)", src:"white", pos:"noun", gender:null,
+  {type:"teach", trg:"白(しろ)", src:"white", pos:"adj", gender:null,
    note:"The color white. As an adjective: 白(しろ)い (shiroi). Symbol of purity.\nKanji: 白.",
    example:"A: 白(しろ)い眼鏡(めがね)はいくらですか?\nB: 千(せん)円(えん)です。",
    exampleSrc:"A: How much are the white glasses?\nB: 1000 yen.",
@@ -88,19 +88,19 @@ const UNIT_04 = {
   {type:"mc", q:"青(あお) traditionally covers:", opts:["Only blue","Blue and green","Blue and red","Only green"], ans:"Blue and green",
    hint:"Japanese originally had just four basic color terms, and ao covered a wide range."},
 
-  {type:"teach", trg:"黒(くろ)", src:"black", pos:"noun", gender:null,
+  {type:"teach", trg:"黒(くろ)", src:"black", pos:"adj", gender:null,
    note:"The color black. As an adjective: 黒(くろ)い (kuroi).\nKanji: 黒.",
    example:"A: 黒(くろ)いかばんをください。\nB: はい、どうぞ。",
    exampleSrc:"A: Please give me the black bag.\nB: Here you go.",
    funFact:"Kuro appears in kurofune (黒船, black ships), the name Japanese people gave to Commodore Perry's American warships that forced Japan to open to trade in 1853. The word still evokes foreign disruption."},
 
-  {type:"teach", trg:"緑(みどり)", src:"green", pos:"noun", gender:null,
+  {type:"teach", trg:"緑(みどり)", src:"green", pos:"adj", gender:null,
    note:"Green as a distinct color. Newer addition to Japanese color terms.\nKanji: 緑.",
    example:"A: 緑(みどり)の傘(かさ)が欲(ほ)しいです。\nB: あそこにありますよ。",
    exampleSrc:"A: I want a green umbrella.\nB: There is one over there.",
    funFact:"Midori only became recognized as a separate basic color in the 20th century. Before that, green was a shade of ao (blue). You can still see this in how traffic lights are called ao-shingou (blue signal) despite being green."},
 
-  {type:"teach", trg:"黄色(きいろ)", src:"yellow", pos:"noun", gender:null,
+  {type:"teach", trg:"黄色(きいろ)", src:"yellow", pos:"adj", gender:null,
    note:"The color yellow. As a na-adjective: 黄色(きいろ)な (kiiro na) or 黄色(きいろ)い (kiiroi).\nKanji: 黄色.",
    example:"A: 黄色(きいろ)い本(ほん)はいくらですか?\nB: 五百(ごひゃく)円(えん)です。",
    exampleSrc:"A: How much is the yellow book?\nB: 500 yen.",

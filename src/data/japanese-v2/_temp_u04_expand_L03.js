@@ -12,19 +12,19 @@ const LESSON_5 = {
      exampleSrc:"A: What color do you like?\nB: I like blue.",
      funFact:"色 means both 'color' and, in classical Japanese, 'romance/sensuality.' Iroke (色気) means sex appeal. The Hyakunin Isshu (100 Poems) opens with a poem about the impermanence of color/beauty. This double meaning runs deep in Japanese culture."},
 
-    {type:"teach", trg:"ちゃいろ", src:"brown", pos:"noun", gender:null,
+    {type:"teach", trg:"ちゃいろ", src:"brown", pos:"adj", gender:null,
      note:"Tea-color. Cha (tea) + iro (color). As an adjective: ちゃいろい.\nKanji: 茶色.",
      example:"A: ちゃいろいくつがほしいです。\nB: あそこにありますよ。",
      exampleSrc:"A: I want brown shoes.\nB: There are some over there.",
      funFact:"Brown is literally 'tea color' because Japanese green tea, when brewed strong or aged, turns brown. Many Japanese compound colors use this pattern: mizuiro (water-color = light blue), momoiro (peach-color = pink), haiiro (ash-color = gray)."},
 
-    {type:"teach", trg:"ピンク", src:"pink", pos:"noun", gender:null,
+    {type:"teach", trg:"ピンク", src:"pink", pos:"adj", gender:null,
      note:"Loanword from English. Written in katakana.\nTraditional Japanese: もも色 (momoiro, peach-color).",
      example:"A: ピンクのかさがかわいいですね。\nB: にほんではさくらのいろですね。",
      exampleSrc:"A: The pink umbrella is cute.\nB: In Japan, it's the color of cherry blossoms.",
      funFact:"Pink in Japan is strongly associated with cherry blossoms (sakura). The traditional word momoiro (peach color) is gentler and more poetic. Marketing in Japan uses pink heavily for spring products, girls' items, and kawaii (cute) branding."},
 
-    {type:"teach", trg:"むらさき", src:"purple", pos:"noun", gender:null,
+    {type:"teach", trg:"むらさき", src:"purple", pos:"adj", gender:null,
      note:"Historically the color of royalty and highest rank in Japan.\nKanji: 紫.",
      example:"A: むらさきのふくはありますか？\nB: はい、こちらにあります。",
      exampleSrc:"A: Do you have purple clothes?\nB: Yes, we have some here.",
@@ -39,7 +39,7 @@ const LESSON_5 = {
      exampleSrc:"A: I like orange scarves.\nB: It's a warm color.",
      funFact:"The traditional word daidai (bitter orange) is also used at New Year. Daidai on top of mochi (rice cakes) symbolizes 'generation to generation' (daidai also means 'generation'). The loanword orenji is now more common for the color."},
 
-    {type:"teach", trg:"グレー", src:"gray", pos:"noun", gender:null,
+    {type:"teach", trg:"グレー", src:"gray", pos:"adj", gender:null,
      note:"From English 'gray.' Traditional Japanese: はいいろ (haiiro, ash-color).\nWritten in katakana.",
      example:"A: グレーのスーツをきています。\nB: かっこいいですね。",
      exampleSrc:"A: I'm wearing a gray suit.\nB: That's cool/stylish.",

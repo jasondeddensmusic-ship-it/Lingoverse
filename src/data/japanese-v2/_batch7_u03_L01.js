@@ -30,13 +30,13 @@ const BATCH7_L1 = {
      exampleSrc:"A: I like brown shoes.\nB: Me too.",
      funFact:"茶色(ちゃいろ) literally means 'tea color' because Japanese green tea, when brewed strong or aged, turns brown. Many Japanese colors are named after natural objects: ねずみ色(いろ) (mouse color = gray), 桜色(さくらいろ) (cherry blossom color = pink), 空色(そらいろ) (sky color = light blue)."},
 
-    {type:"teach", trg:"緑(みどり)", src:"green", pos:"noun", gender:null,
+    {type:"teach", trg:"緑(みどり)", src:"green", pos:"adj", gender:null,
      note:"Noun only (no i-adjective form). 緑(みどり)色(いろ)の = green (adjective).\nTraffic lights: 青(あお) not 緑(みどり).",
      example:"A: 緑(みどり)のTシャツはありますか？\nB: はい、こちらです。",
      exampleSrc:"A: Do you have a green T-shirt?\nB: Yes, here it is.",
      funFact:"Japanese traditionally considered green a shade of blue (青(あお)). Traffic lights that look green are still called 青信号(あおしんごう) (blue signal). 緑(みどり) as a distinct color is relatively modern. This is why vegetables are 青物(あおもの) (blue things) and green apples are 青(あお)りんご."},
 
-    {type:"teach", trg:"紫(むらさき)", src:"purple", pos:"noun", gender:null,
+    {type:"teach", trg:"紫(むらさき)", src:"purple", pos:"adj", gender:null,
      note:"Noun form. 紫(むらさき)色(いろ)の = purple (adjective).\nHistorically the most prestigious color in Japan.",
      example:"A: 紫(むらさき)の傘(かさ)を買(か)いました。\nB: きれいな色(いろ)ですね。",
      exampleSrc:"A: I bought a purple umbrella.\nB: That is a pretty color.",
