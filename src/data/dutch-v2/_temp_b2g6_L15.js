@@ -103,7 +103,7 @@ const LESSON_15 = {
      q:"Wat is 'huiswerkbegeleiding'?",
      opts:["Een schoolvak","Een ouderavond","Bijles en ondersteuning bij het huiswerk","Een boek met uitleg"],
      ans:"Bijles en ondersteuning bij het huiswerk",
-     hint:"'H...' is homework and 'begeleiding' is guidance. Extra support for students outside school hours."}
+     hint:"The compound combines after-school assignments with the noun for mentoring. It's a service, not a class or a book."}
   ]
 };
 export default LESSON_15;

@@ -145,7 +145,7 @@ const LESSON_20 = {
      q:"Comment dit-on 'homepage' en français ?",
      opts:["page d'argent","page d'avis","page d'accueil","page d'album"],
      ans:"page d'accueil",
-     hint:"This uses the word for 'welcome' or 'reception' combined with 'p...'."},
+     hint:"All four options share the same frame. The third uses the noun French speakers say when greeting visitors."},
 
     {type:"fb",
      s:"J'ai {1} à comprendre cet exercice, tu peux m'aider ?",
