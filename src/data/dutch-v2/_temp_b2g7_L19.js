@@ -40,7 +40,7 @@ const LESSON_19 = {
      opts:["Drie: bedrijf + verzamel + gebouw","Twee: bedrijfsverzamel + gebouw","Vier: be + drijf + verzamel + gebouw","Een: het is een enkel woord"],
      ans:"Drie: bedrijf + verzamel + gebouw",
      hint:"Dutch compounds break into meaningful parts. A building (g...) that collects (v...) businesses (b...)."},
-    {type:"teach", trg:"de herpositioneringsproces", src:"repositioning process", pos:"noun", gender:"n",
+    {type:"teach", trg:"het herpositioneringsproces", src:"repositioning process", pos:"noun", gender:"n",
      note:"Het-word. Her (re-) + positionering (positioning) + s + proces.\nBusiness and marketing strategy term.",
      example:"A: Het merk ondergaat een herpositioneringsproces.\nB: Van goedkoop naar premium?\nA: Precies. Nieuwe verpakking, hogere prijs.\nB: Dat is een risico, maar het kan werken.",
      exampleSrc:"A: The brand is undergoing a repositioning process.\nB: From cheap to premium?\nA: Exactly. New packaging, higher price.\nB: That is a risk, but it can work.",

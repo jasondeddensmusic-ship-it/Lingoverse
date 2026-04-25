@@ -48,7 +48,7 @@ const LESSON_17 = {id:"nlv2_b2gB_l17", title:"Recht en Bestuur", icon:"\u{2696}"
  exampleSrc:"A: Have you seen the exam schedule yet?\nB: Yes, three exams in one week.\nA: That'll be tough.\nB: I'd better start studying.",
  funFact:"Dutch 'rooster' means both a schedule/timetable AND a physical grid/grill. Context tells you which one."},
 
-{type:"teach", trg:"de keuzeonderdeel", src:"elective / optional component", pos:"noun", gender:"n",
+{type:"teach", trg:"het keuzeonderdeel", src:"elective / optional component", pos:"noun", gender:"n",
  note:"Het keuzeonderdeel. Keuze (choice) + onderdeel (component).\nAn optional part of a curriculum.",
  example:"A: Welk keuzeonderdeel heb je gekozen?\nB: Filosofie. En jij?\nA: Economie, dat leek me nuttig.\nB: Allebei interessante keuzes.",
  exampleSrc:"A: Which elective did you choose?\nB: Philosophy. And you?\nA: Economics, that seemed useful.\nB: Both interesting choices.",

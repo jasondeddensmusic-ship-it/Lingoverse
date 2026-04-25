@@ -100,7 +100,7 @@ const LESSON_7 = {
      example:"A: De departementale richtlijnen zijn gewijzigd.\nB: Welk departement?\nA: Het ministerie van Onderwijs.\nB: Dat heeft gevolgen voor alle scholen.",
      exampleSrc:"A: The departmental guidelines have been changed.\nB: Which department?\nA: The Ministry of Education.\nB: That has consequences for all schools.",
      funFact:"In Dutch government, 'departement' means a ministry. 'Departementaal' sounds very official. In Belgian Dutch, it also refers to provincial departments."},
-    {type:"teach", trg:"de documentatiemateriaal", src:"the documentation material", pos:"noun", gender:"c",
+    {type:"teach", trg:"het documentatiemateriaal", src:"the documentation material", pos:"noun", gender:"c",
      note:"A de-word. Compound: documentatie + materiaal.\nAcademic and professional term.",
      example:"A: Het documentatiemateriaal ligt klaar.\nB: Waar kan ik het ophalen?\nA: Bij de administratie.\nB: Ik ga er meteen heen.",
      exampleSrc:"A: The documentation material is ready.\nB: Where can I pick it up?\nA: At the administration desk.\nB: I will go there right away.",

@@ -65,7 +65,7 @@ const LESSON_11 = {
      example:"A: Bij de driesprong moet je linksaf.\nB: Welke driesprong? Er zijn er twee.\nA: De tweede. Bij het tankstation.\nB: Oké, dan weet ik het.",
      exampleSrc:"A: At the three-way intersection you must turn left.\nB: Which intersection? There are two.\nA: The second one. At the gas station.\nB: Okay, then I know.",
      funFact:"COMPOUND: drie (three) + sprong (jump/leap). Also used figuratively: 'op een driesprong staan' means facing three choices. Related to 'tweesprong' (fork in the road, two choices)."},
-    {type:"teach", trg:"de blikveld", src:"the field of vision, the perspective", pos:"noun", gender:"n",
+    {type:"teach", trg:"het blikveld", src:"the field of vision, the perspective", pos:"noun", gender:"n",
      note:"A het-word. Compound: blik (gaze) + veld (field).\nBoth literal (vision) and figurative (perspective).",
      example:"A: Je moet je blikveld verbreden.\nB: Hoe bedoel je?\nA: Kijk niet alleen naar je eigen vakgebied.\nB: Je hebt gelijk. Ik moet breder denken.",
      exampleSrc:"A: You need to broaden your field of vision.\nB: What do you mean?\nA: Don't only look at your own field.\nB: You are right. I need to think more broadly.",

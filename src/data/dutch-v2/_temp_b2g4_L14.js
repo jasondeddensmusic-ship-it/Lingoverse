@@ -70,7 +70,7 @@ const LESSON_14 = {
      example:"A: Er staat een boekenkist bij de school.\nB: Kan iedereen boeken lenen?\nA: Ja, neem een boek mee en leg er een terug.\nB: Wat een leuk initiatief.",
      exampleSrc:"A: There is a book chest at the school.\nB: Can everyone borrow books?\nA: Yes, take a book and put one back.\nB: What a nice initiative.",
      funFact:"'Boekenkisten' and 'minibiebjes' (mini libraries) are popular in Dutch neighborhoods. Free book-sharing is part of Dutch community culture. Almost every neighborhood has one."},
-    {type:"teach", trg:"de bedrijfsverzamelgebouw", src:"the business collection building, the shared office building", pos:"noun", gender:"n",
+    {type:"teach", trg:"het bedrijfsverzamelgebouw", src:"the business collection building, the shared office building", pos:"noun", gender:"n",
      note:"A het-word. Compound: bedrijf + verzamel + gebouw.\nA building housing multiple small businesses.",
      example:"A: Het bedrijfsverzamelgebouw zit vol.\nB: Hoeveel bedrijven zitten er?\nA: Meer dan twintig.\nB: Handig, je hebt meteen netwerkmogelijkheden.",
      exampleSrc:"A: The shared office building is full.\nB: How many businesses are in it?\nA: More than twenty.\nB: Handy, you immediately have networking opportunities.",

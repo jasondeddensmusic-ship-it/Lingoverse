@@ -85,7 +85,7 @@ const LESSON_18 = {
      example:"A: We moeten streven naar discoursverhoging.\nB: Hoe bedoel je?\nA: Minder schreeuwen, meer luisteren.\nB: Dat zou de politiek verbeteren.",
      exampleSrc:"A: We must strive for raising the level of discourse.\nB: What do you mean?\nA: Less shouting, more listening.\nB: That would improve politics.",
      funFact:"'Discoursverhoging' is a term used in Dutch media criticism. The call for more civilized public debate is a recurring theme in Dutch newspapers."},
-    {type:"teach", trg:"de cannabisgebruik", src:"the cannabis use", pos:"noun", gender:"n",
+    {type:"teach", trg:"het cannabisgebruik", src:"the cannabis use", pos:"noun", gender:"n",
      note:"A het-word. Compound: cannabis + gebruik.\nDutch drug policy vocabulary.",
      example:"A: Het cannabisgebruik onder jongeren is gedaald.\nB: Door betere voorlichting?\nA: Waarschijnlijk, en door het imago.\nB: Gezondheid wordt steeds belangrijker.",
      exampleSrc:"A: Cannabis use among young people has decreased.\nB: Because of better education?\nA: Probably, and because of the image.\nB: Health is becoming increasingly important.",

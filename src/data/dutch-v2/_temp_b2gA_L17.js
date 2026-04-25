@@ -24,7 +24,7 @@ const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}",
    exampleSrc:"A: That was a whopper of a fish!\nB: How big was it?\nA: At least a meter long.\nB: What a whopper! Do you have a photo?",
    funFact:"'De Kanjertraining' is the most widely used anti-bullying programme in Dutch primary schools. Over 2,000 schools use it. Being a 'kanjer' here means being confident and kind."},
 
-  {type:"teach", trg:"de kapsel", src:"hairstyle, haircut", pos:"noun", gender:"n",
+  {type:"teach", trg:"het kapsel", src:"hairstyle, haircut", pos:"noun", gender:"n",
    note:"het-word. From kappen (to cut/style hair).\nEveryday vocabulary for appearance.",
    example:"A: Wat een leuk kapsel heb je!\nB: Dank je, ik ben net naar de kapper geweest.\nA: Welk kapsel wil je de volgende keer?\nB: Misschien iets korter.",
    exampleSrc:"A: What a nice hairstyle you have!\nB: Thanks, I just went to the hairdresser.\nA: What hairstyle do you want next time?\nB: Maybe something shorter.",

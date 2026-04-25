@@ -15,7 +15,7 @@ const LESSON_20 = {
      example:"A: Veel jongeren ervaren bestaansonzekerheid.\nB: Door de woningmarkt?\nA: Ja, en flexcontracten en stijgende kosten.\nB: De toekomst voelt onzeker.",
      exampleSrc:"A: Many young people experience existential insecurity.\nB: Because of the housing market?\nA: Yes, and flex contracts and rising costs.\nB: The future feels uncertain.",
      funFact:"'Bestaansonzekerheid' is a very current Dutch word. Young Dutch people call themselves 'generation flex' due to uncertain work contracts and unaffordable housing. It is a major social issue."},
-    {type:"teach", trg:"de bewegingsregime", src:"the movement regime", pos:"noun", gender:"n",
+    {type:"teach", trg:"het bewegingsregime", src:"the movement regime", pos:"noun", gender:"n",
      note:"A het-word. Compound: beweging + regime.\nStructured exercise plan from medical/sports context.",
      example:"A: Het bewegingsregime moet strikt gevolgd worden.\nB: Wat gebeurt er anders?\nA: Dan duurt het herstel langer.\nB: Dan houd ik me eraan.",
      exampleSrc:"A: The exercise regimen must be strictly followed.\nB: What happens otherwise?\nA: Then recovery takes longer.\nB: Then I will stick to it.",

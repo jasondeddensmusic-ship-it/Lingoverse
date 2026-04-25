@@ -100,7 +100,7 @@ const LESSON_20 = {
      example:"A: Zijn cynisme is soms vermoeiend.\nB: Hij gelooft nergens meer in?\nA: Nee, hij ziet overal bedrog.\nB: Dat is een eenzame manier van leven.",
      exampleSrc:"A: His cynicism is sometimes tiring.\nB: He does not believe in anything anymore?\nA: No, he sees deceit everywhere.\nB: That is a lonely way of living.",
      funFact:"Dutch humor has a cynical edge. Cabaret (stand-up comedy) is a beloved Dutch art form, and performers like Youp van 't Hek and Freek de Jonge are known for their sharp cynisme."},
-    {type:"teach", trg:"de enthousiasme", src:"the enthusiasm", pos:"noun", gender:"n",
+    {type:"teach", trg:"het enthousiasme", src:"the enthusiasm", pos:"noun", gender:"n",
      note:"A het-word. From Greek 'enthousiasmos'.\n'Met veel enthousiasme' = with much enthusiasm.",
      example:"A: Het enthousiasme van de kinderen is aanstekelijk.\nB: Ze zijn zo blij met het nieuwe speelplein.\nA: Een goede investering van de gemeente.\nB: Kinderen verdienen het beste.",
      exampleSrc:"A: The enthusiasm of the children is contagious.\nB: They are so happy with the new playground.\nA: A good investment by the municipality.\nB: Children deserve the best.",

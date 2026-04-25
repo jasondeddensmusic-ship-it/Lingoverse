@@ -7,7 +7,7 @@ const COVERAGE_U89 = {
     {type:"match",pairs:[{trg:"het informatiemateriaal",src:"the information material / brochures"},{trg:"het gejoel",src:"the jeering / hooting / cheering"},{trg:"de knokkel",src:"the knuckle"},{trg:"de hobbyclub",src:"the hobby club"}]},
     {type:"match",pairs:[{trg:"de jukebox",src:"the jukebox"},{trg:"de karamel",src:"caramel"},{trg:"het kroost",src:"the offspring / brood"},{trg:"de acne",src:"acne"}]},
     {type:"match",pairs:[{trg:"de hartstichting",src:"the Heart Foundation"},{trg:"het korset",src:"the corset"},{trg:"de kookcultuur",src:"the cooking culture / food culture"},{trg:"de gum",src:"the eraser / gum"}]},
-    {type:"match",pairs:[{trg:"de bauxiet",src:"bauxite"},{trg:"de hostess",src:"the hostess / receptionist"},{trg:"de interimbasis",src:"the interim basis / temporary basis"},{trg:"de hoofdsponsor",src:"the main sponsor"},{trg:"de investeringsaanpak",src:"the investment approach"}]}
+    {type:"match",pairs:[{trg:"het bauxiet",src:"bauxite"},{trg:"de hostess",src:"the hostess / receptionist"},{trg:"de interimbasis",src:"the interim basis / temporary basis"},{trg:"de hoofdsponsor",src:"the main sponsor"},{trg:"de investeringsaanpak",src:"the investment approach"}]}
   ]
 };
 

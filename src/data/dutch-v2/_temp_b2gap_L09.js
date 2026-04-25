@@ -45,7 +45,7 @@ const LESSON_9 = {
      example:"A: Hij is overgegaan tot het boeddhisme.\nB: Hoe lang geleden?\nA: Vijf jaar. Hij mediteert elke dag.\nB: Het heeft hem veel rust gebracht.",
      exampleSrc:"A: He converted to Buddhism.\nB: How long ago?\nA: Five years. He meditates every day.\nB: It has brought him a lot of peace.",
      funFact:"Buddhism is growing in the Netherlands. There are over 100 Buddhist centers. Many Dutch people combine Buddhist meditation with their secular or Christian background."},
-    {type:"teach", trg:"de avonturenboek", src:"the adventure book", pos:"noun", gender:"n",
+    {type:"teach", trg:"het avonturenboek", src:"the adventure book", pos:"noun", gender:"n",
      note:"A het-word (boek is het). Compound: avonturen + boek.\n'Avonturenroman' = adventure novel.",
      example:"A: Dit avonturenboek is een bestseller.\nB: Waar gaat het over?\nA: Een reis door de Amazone.\nB: Spannend. Mag ik het lenen?",
      exampleSrc:"A: This adventure book is a bestseller.\nB: What is it about?\nA: A journey through the Amazon.\nB: Exciting. May I borrow it?",

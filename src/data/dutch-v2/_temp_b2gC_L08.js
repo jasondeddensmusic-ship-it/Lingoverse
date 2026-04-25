@@ -36,7 +36,7 @@ const LESSON_8 = {
      ans:"Synoniemen voor hetzelfde apparaat",
      hint:"Both words describe the same appliance: one emphasises ice, the other cooling."},
 
-    {type:"teach", trg:"de korset", src:"the corset", pos:"noun", gender:"n",
+    {type:"teach", trg:"het korset", src:"the corset", pos:"noun", gender:"n",
      note:"Neuter (het korset). From French 'corset'.\n'Een strak korset' = a tight corset.",
      example:"A: Vrouwen droegen vroeger een korset.\nB: Dat moet oncomfortabel zijn geweest.\nA: Zeker, ze konden nauwelijks ademen.\nB: Gelukkig is dat niet meer de mode.",
      exampleSrc:"A: Women used to wear a corset.\nB: That must have been uncomfortable.\nA: Certainly, they could barely breathe.\nB: Fortunately that's no longer in fashion.",

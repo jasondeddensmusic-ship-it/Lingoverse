@@ -45,7 +45,7 @@ const LESSON_16 = {
      example:"A: De winkels zijn vol. Het is weer decemberstress.\nB: Ik doe alles online dit jaar.\nA: Slim. Geen drukte, geen files.\nB: En je kunt rustig vergelijken.",
      exampleSrc:"A: The shops are full. It is December stress again.\nB: I am doing everything online this year.\nA: Smart. No crowds, no traffic jams.\nB: And you can compare calmly.",
      funFact:"COMPOUND: december + stress. With Sinterklaas (Dec 5), Christmas (Dec 25-26), and New Year all in one month, December is the most stressful and expensive month for Dutch families."},
-    {type:"teach", trg:"de doorslaapprobleem", src:"the sleep maintenance problem", pos:"noun", gender:"n",
+    {type:"teach", trg:"het doorslaapprobleem", src:"the sleep maintenance problem", pos:"noun", gender:"n",
      note:"A het-word. Compound: doorslaap (sleep through) + probleem.\nWaking up during the night.",
      example:"A: Ik heb een doorslaapprobleem.\nB: Word je vaak wakker?\nA: Ja, om drie uur. Dan kan ik niet meer slapen.\nB: Misschien helpt mediteren voor het slapengaan.",
      exampleSrc:"A: I have a sleep maintenance problem.\nB: Do you wake up often?\nA: Yes, at three o'clock. Then I cannot fall asleep again.\nB: Maybe meditating before bedtime helps.",

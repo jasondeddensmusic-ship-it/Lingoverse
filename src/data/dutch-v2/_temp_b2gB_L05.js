@@ -42,7 +42,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
  exampleSrc:"A: Immigration flows have increased.\nB: That puts pressure on public services.\nA: But it also brings a lot of culture.\nB: It's a nuanced story.",
  funFact:"Post-colonial immigration from Indonesia, Suriname, and the Antilles shaped modern Dutch multicultural society."},
 
-{type:"teach", trg:"de kompas", src:"compass", pos:"noun", gender:"n",
+{type:"teach", trg:"het kompas", src:"compass", pos:"noun", gender:"n",
  note:"Het kompas. Essential tool for Dutch seafarers.\n'Het morele kompas' = moral compass.",
  example:"A: Zonder kompas waren de zeereizen onmogelijk.\nB: Het was de belangrijkste uitvinding voor navigatie.\nA: Nu gebruiken we GPS.\nB: Maar het kompas werkt altijd, zonder batterij.",
  exampleSrc:"A: Without a compass, sea voyages were impossible.\nB: It was the most important invention for navigation.\nA: Now we use GPS.\nB: But the compass always works, without batteries.",
@@ -94,7 +94,7 @@ const LESSON_5 = {id:"nlv2_b2gB_l5", title:"Koloniaal Verleden", icon:"\u{1F30D}
 {type:"match", pairs:[
  {trg:"de koffieplantage", src:"coffee plantation"},
  {trg:"de immigrantenstromen", src:"immigration flows"},
- {trg:"de kompas", src:"compass"},
+ {trg:"het kompas", src:"compass"},
  {trg:"de kruidnagel", src:"clove"}
 ]}
 ]};

@@ -80,7 +80,7 @@ const LESSON_16 = {
      example:"A: Ze sleuren het wetsvoorstel door het parlement.\nB: Zonder debat?\nA: Bijna, er was nauwelijks discussie.\nB: Dat is niet hoe democratie hoort te werken.",
      exampleSrc:"A: They are pushing the bill through parliament.\nB: Without debate?\nA: Almost, there was barely any discussion.\nB: That is not how democracy should work.",
      funFact:"'Doorsleuren' implies force and haste. In politics, it means pushing legislation through without proper debate. The word carries strong negative connotation."},
-    {type:"teach", trg:"de aandachtspunt", src:"the point of attention, the concern", pos:"noun", gender:"n",
+    {type:"teach", trg:"het aandachtspunt", src:"the point of attention, the concern", pos:"noun", gender:"n",
      note:"A het-word. Compound: aandacht (attention) + punt (point).\nUsed in meetings and reports.",
      example:"A: Er zijn enkele aandachtspunten in het rapport.\nB: Welke?\nA: De kosten en de planning.\nB: Laten we die volgende vergadering bespreken.",
      exampleSrc:"A: There are some points of concern in the report.\nB: Which ones?\nA: The costs and the planning.\nB: Let us discuss those at the next meeting.",

@@ -67,7 +67,7 @@ const LESSON_13 = {
      hint:"Which word means the immediate cause or trigger for a decision?",
      sSrc:"What was the {1} for your decision to move?"},
 
-    {type:"teach", trg:"de beeldverhaal", src:"the comic / the graphic story", pos:"noun", gender:"n",
+    {type:"teach", trg:"het beeldverhaal", src:"the comic / the graphic story", pos:"noun", gender:"n",
      note:"Neuter gender (het). Beeld (image) + verhaal (story).",
      example:"A: Kuifje is een beroemd beeldverhaal.\nB: Ja, het komt uit België!",
      exampleSrc:"A: Tintin is a famous comic.\nB: Yes, it comes from Belgium!",

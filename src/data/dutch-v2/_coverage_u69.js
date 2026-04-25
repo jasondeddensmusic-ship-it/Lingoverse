@@ -4,7 +4,7 @@ const COVERAGE_U69 = {
   id:"duv2_u69_coverage_review", title:"Herhaling: Dekkingscheck", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"Herhaling: Dekkingscheck",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"de handelscontact",src:"the trade contact"},{trg:"de hoepelrok",src:"the hoop skirt"},{trg:"de haarlok",src:"the lock of hair"},{trg:"de handkus",src:"the hand kiss"}]},
+    {type:"match",pairs:[{trg:"het handelscontact",src:"the trade contact"},{trg:"de hoepelrok",src:"the hoop skirt"},{trg:"de haarlok",src:"the lock of hair"},{trg:"de handkus",src:"the hand kiss"}]},
     {type:"match",pairs:[{trg:"het ecoplan",src:"the eco plan"},{trg:"de fruitsoort",src:"the type of fruit"},{trg:"de dwarsverbinding",src:"the cross-connection"},{trg:"het documentatiemateriaal",src:"the documentation material"}]},
     {type:"match",pairs:[{trg:"de informaticus",src:"the computer scientist"},{trg:"het dialectniveau",src:"the dialect level"},{trg:"kaatsen",src:"to play Frisian handball"},{trg:"karakteriseren",src:"to characterize"}]},
     {type:"match",pairs:[{trg:"de jukebox",src:"the jukebox"},{trg:"de hobbyclub",src:"the hobby club"},{trg:"de intentieverklaring",src:"the letter of intent"},{trg:"het internationalisme",src:"the internationalism"},{trg:"het kalendermaand",src:"the calendar month"},{trg:"de kaper",src:"the privateer, the hijacker"}]},

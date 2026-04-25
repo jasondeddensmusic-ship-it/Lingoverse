@@ -73,7 +73,7 @@ const LESSON_9 = {
      exampleSrc:"A: In the seventeenth century women wore hoopskirts.\nB: Were those not uncomfortable?\nA: Probably yes, but it was fashion.\nA: Fashion sometimes trumps comfort.",
      funFact:"Dutch Golden Age portraits by Rembrandt and Vermeer show the fashion of the era, though hoopskirts were more common in Spanish and French courts."},
 
-    {type:"teach", trg:"de grondrecht", src:"the fundamental right", pos:"noun", gender:"n",
+    {type:"teach", trg:"het grondrecht", src:"the fundamental right", pos:"noun", gender:"n",
      note:"Compound: grond (ground, foundation) + recht (right).\nConstitutional rights.",
      example:"A: Vrijheid van meningsuiting is een grondrecht.\nB: Staat dat in de grondwet?\nA: Ja, in artikel zeven.\nB: Dat is een van de belangrijkste rechten.",
      exampleSrc:"A: Freedom of expression is a fundamental right.\nB: Is that in the constitution?\nA: Yes, in article seven.\nB: That is one of the most important rights.",

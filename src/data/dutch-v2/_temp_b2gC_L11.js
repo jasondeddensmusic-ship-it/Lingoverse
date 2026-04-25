@@ -42,7 +42,7 @@ const LESSON_11 = {
      exampleSrc:"A: Where is your brood today?\nB: At grandpa and grandma's, luckily!\nA: A bit of peace and quiet then?\nB: Yes, we're enjoying the silence.",
      funFact:"'Kroost' is a warm, slightly humorous word for your children. It implies a lively group of kids. Formal alternatives: 'nageslacht', 'nakomelingen'."},
 
-    {type:"teach", trg:"de korfbal", src:"korfball", pos:"noun", gender:"n",
+    {type:"teach", trg:"het korfbal", src:"korfball", pos:"noun", gender:"n",
      note:"Neuter (het korfbal). Korf (basket) + bal (ball).\nA uniquely Dutch sport, invented in 1902.",
      example:"A: Speel jij korfbal?\nB: Ja, al sinds de basisschool.\nA: Is het een gemengde sport?\nB: Ja, mannen en vrouwen spelen samen!",
      exampleSrc:"A: Do you play korfball?\nB: Yes, since primary school.\nA: Is it a mixed sport?\nB: Yes, men and women play together!",

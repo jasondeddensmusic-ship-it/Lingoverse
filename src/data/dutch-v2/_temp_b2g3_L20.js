@@ -45,7 +45,7 @@ const LESSON_20 = {
      example:"A: De emediaspecialiste adviseert over online strategie.\nB: Wat raadt ze aan?\nA: Meer video-content en minder tekst.\nB: De trend is duidelijk visueel.",
      exampleSrc:"A: The e-media specialist advises on online strategy.\nB: What does she recommend?\nA: More video content and less text.\nB: The trend is clearly visual.",
      funFact:"COMPOUND: e-media + specialiste. New compound nouns are constantly being created in Dutch to describe digital-age professions. 'E-' prefix jobs: e-marketeer, e-commerce specialist, e-health consultant."},
-    {type:"teach", trg:"de eindresultaat", src:"the final result", pos:"noun", gender:"n",
+    {type:"teach", trg:"het eindresultaat", src:"the final result", pos:"noun", gender:"n",
      note:"A het-word. Compound: eind (end) + resultaat.\nThe outcome after everything is done.",
      example:"A: Het eindresultaat is boven verwachting.\nB: Hoeveel beter dan gepland?\nA: Vijftien procent boven het doel.\nB: Gefeliciteerd! Dat is fantastisch.",
      exampleSrc:"A: The final result is above expectations.\nB: How much better than planned?\nA: Fifteen percent above the target.\nB: Congratulations! That is fantastic.",

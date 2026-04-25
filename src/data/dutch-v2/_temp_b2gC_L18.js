@@ -42,7 +42,7 @@ const LESSON_18 = {
      exampleSrc:"A: Do you play keyboard?\nB: Yes, in a band.\nA: What kind of music?\nB: Pop and a bit of jazz.",
      funFact:"In Dutch, 'keyboard' is the musical instrument. The computer keyboard is 'toetsenbord' (key-board). Different words for different keyboards!"},
 
-    {type:"teach", trg:"de handelscontact", src:"the trade contact / business contact", pos:"noun", gender:"n",
+    {type:"teach", trg:"het handelscontact", src:"the trade contact / business contact", pos:"noun", gender:"n",
      note:"Neuter (het handelscontact). Handel (trade) + contact.\n'Handelsrelatie' = trade relationship.",
      example:"A: We hebben een nieuw handelscontact in Japan.\nB: Wat voor bedrijf is het?\nA: Een technologiebedrijf in Osaka.\nB: Spannend, Japan is een grote markt.",
      exampleSrc:"A: We have a new trade contact in Japan.\nB: What kind of company is it?\nA: A technology company in Osaka.\nB: Exciting, Japan is a large market.",

@@ -30,7 +30,7 @@ const LESSON_16 = {id:"nlv2_b2gB_l16", title:"Kunst en Cultuur", icon:"\u{1F3A8}
  exampleSrc:"A: Dutch design is world-famous.\nB: Are you thinking of Droog Design?\nA: Yes, and the Design Academy Eindhoven.\nB: They train real top talents.",
  funFact:"Dutch Design Week in Eindhoven is the largest design event in Northern Europe, attracting over 350,000 visitors annually."},
 
-{type:"teach", trg:"de gejoel", src:"cheering / jeering / uproar", pos:"noun", gender:"n",
+{type:"teach", trg:"het gejoel", src:"cheering / jeering / uproar", pos:"noun", gender:"n",
  note:"Het gejoel. From 'joelen' (to shout/cheer).\nCan be positive (cheering) or negative (jeering).",
  example:"A: Het gejoel in het stadion was oorverdovend.\nB: Wie had er gescoord?\nA: Onze spits, in de laatste minuut!\nB: Geen wonder dat iedereen gek werd.",
  exampleSrc:"A: The cheering in the stadium was deafening.\nB: Who had scored?\nA: Our striker, in the last minute!\nB: No wonder everyone went crazy.",

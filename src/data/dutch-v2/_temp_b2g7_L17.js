@@ -66,7 +66,7 @@ const LESSON_17 = {
      example:"A: Het park is vijftig hectare groot.\nB: Dat is enorm voor een stadspark.\nA: Er passen drie voetbalvelden in.\nB: Ideaal om in te wandelen.",
      exampleSrc:"A: The park is fifty hectares.\nB: That is enormous for a city park.\nA: Three football pitches fit in it.\nB: Ideal for walking.",
      funFact:"Dutch farmers measure their land in hectares. The average Dutch farm is about 35 hectares, but some arable farms in Flevoland exceed 100 hectares."},
-    {type:"teach", trg:"de ecoplan", src:"eco plan, environmental plan", pos:"noun", gender:"n",
+    {type:"teach", trg:"het ecoplan", src:"eco plan, environmental plan", pos:"noun", gender:"n",
      note:"Het-word. Eco (ecological) + plan.\nGovernment or business environmental strategy.",
      example:"A: De school heeft een ecoplan opgesteld.\nB: Wat staat erin?\nA: Zonnepanelen, afvalscheiding en een schooltuin.\nB: Goed voorbeeld voor de kinderen.",
      exampleSrc:"A: The school has drawn up an eco plan.\nB: What does it include?\nA: Solar panels, waste separation, and a school garden.\nB: Good example for the children.",

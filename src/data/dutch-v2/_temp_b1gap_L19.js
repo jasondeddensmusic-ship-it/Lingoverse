@@ -36,7 +36,7 @@ const LESSON_19 = {
      ans:"aanhouder",
      hint:"Which word completes the proverb about perseverance leading to success?"},
 
-    {type:"teach", trg:"de aandenken", src:"the souvenir / the keepsake", pos:"noun", gender:"n",
+    {type:"teach", trg:"het aandenken", src:"the souvenir / the keepsake", pos:"noun", gender:"n",
      note:"Neuter gender (het). An object kept as a memory.",
      example:"A: Dit is een aandenken aan onze vakantie.\nB: Wat een mooi beeldje!",
      exampleSrc:"A: This is a souvenir from our holiday.\nB: What a beautiful figurine!",
@@ -54,7 +54,7 @@ const LESSON_19 = {
      exampleSrc:"A: The activists demand stricter environmental laws.\nB: They are right.",
      funFact:"Actie + voerder (carrier). Dutch activism has a long tradition: squatters, environmentalists, union movements."},
 
-    {type:"teach", trg:"de batist", src:"the batiste (fabric)", pos:"noun", gender:"n",
+    {type:"teach", trg:"het batist", src:"the batiste (fabric)", pos:"noun", gender:"n",
      note:"Neuter gender (het). A fine, lightweight fabric.",
      example:"A: Dit is van batist.\nB: Heel zacht en licht materiaal.",
      exampleSrc:"A: This is made of batiste.\nB: Very soft and light material.",
@@ -91,7 +91,7 @@ const LESSON_19 = {
      exampleSrc:"A: We need to mark the boundaries.\nB: With posts or paint?",
      funFact:"From 'baken' (beacon). Dutch maritime history: beacons marked safe waterways. Now used for any boundary."},
 
-    {type:"teach", trg:"de bedrijfsongeluk", src:"the industrial accident", pos:"noun", gender:"n",
+    {type:"teach", trg:"het bedrijfsongeluk", src:"the industrial accident", pos:"noun", gender:"n",
      note:"Neuter gender (het). Bedrijf + ongeluk compound.",
      example:"A: Er was een bedrijfsongeluk in de fabriek.\nB: Is iemand gewond?",
      exampleSrc:"A: There was an industrial accident in the factory.\nB: Was anyone hurt?",

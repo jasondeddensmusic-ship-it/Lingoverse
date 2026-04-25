@@ -42,7 +42,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
  exampleSrc:"A: How much do you earn on an annual basis?\nB: That's a personal question!\nA: Sorry, I mean in general.\nA: In this sector around fifty thousand.",
  funFact:"Discussing salary is more acceptable in the Netherlands than in many countries, but still requires some tact. Dutch job ads often list salary ranges."},
 
-{type:"teach", trg:"de bauxiet", src:"bauxite", pos:"noun", gender:"n",
+{type:"teach", trg:"het bauxiet", src:"bauxite", pos:"noun", gender:"n",
  note:"Het bauxiet. The ore from which aluminum is extracted.\nNamed after Les Baux in southern France.",
  example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in tropische landen.\nB: En dan verwerkt in fabrieken hier.",
  exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in tropical countries.\nB: And then processed in factories here.",
@@ -94,7 +94,7 @@ const LESSON_20 = {id:"nlv2_b2gB_l20", title:"Uitdrukkingen en Vaste Verbindinge
 {type:"match", pairs:[
  {trg:"de ingebruikname", src:"commissioning"},
  {trg:"de jaarbasis", src:"annual basis"},
- {trg:"de bauxiet", src:"bauxite"},
+ {trg:"het bauxiet", src:"bauxite"},
  {trg:"de bib", src:"library (informal)"}
 ]}
 ]};

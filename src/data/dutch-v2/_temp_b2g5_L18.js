@@ -40,7 +40,7 @@ const LESSON_18 = {
      example:"A: In Nederland gebruiken we een decimale komma.\nB: Niet een punt?\nA: Nee, 3,14 in plaats van 3.14.\nB: Dat is verwarrend voor Amerikanen.",
      exampleSrc:"A: In the Netherlands we use a decimal comma.\nB: Not a period?\nA: No, 3,14 instead of 3.14.\nB: That is confusing for Americans.",
      funFact:"The Netherlands (and most of Europe) uses a comma as the decimal separator: 3,14. The thousand separator is a period: 1.000.000. This is the opposite of English convention and causes endless confusion."},
-    {type:"teach", trg:"de bauxiet", src:"bauxite (mineral/ore)", pos:"noun", gender:"c",
+    {type:"teach", trg:"het bauxiet", src:"bauxite (mineral/ore)", pos:"noun", gender:"c",
      note:"A de-word. From French 'Les Baux' (location in Provence).\nRaw material for aluminum.",
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in Australie en Brazilie.\nB: Nederland verwerkt het in de haven van Rotterdam.",
      exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in Australia and Brazil.\nB: The Netherlands processes it in the port of Rotterdam.",

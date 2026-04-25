@@ -50,7 +50,7 @@ const LESSON_15 = {
      example:"A: De contributieperiode loopt van januari tot december.\nB: Kan ik maandelijks betalen?\nA: Ja, of in een keer per jaar.\nB: Dan betaal ik maandelijks.",
      exampleSrc:"A: The contribution period runs from January to December.\nB: Can I pay monthly?\nA: Yes, or in one lump sum per year.\nB: Then I will pay monthly.",
      funFact:"COMPOUND: contributie (contribution/membership fee) + periode. Dutch people are great joiners: sports clubs, cultural associations, political parties. 'Contributie' is the universal word for membership fees."},
-    {type:"teach", trg:"de collegerooster", src:"the class schedule", pos:"noun", gender:"n",
+    {type:"teach", trg:"het collegerooster", src:"the class schedule", pos:"noun", gender:"n",
      note:"A het-word. Compound: college (lecture) + rooster (schedule/grid).\nThe university timetable.",
      example:"A: Heb je het collegerooster al gezien?\nB: Ja, ik heb maandag vrij.\nA: Geluksvogel. Ik heb elke dag colleges.\nB: Dat is pittig. Veel succes.",
      exampleSrc:"A: Have you seen the class schedule yet?\nB: Yes, I have Monday off.\nA: Lucky you. I have lectures every day.\nB: That is tough. Good luck.",
