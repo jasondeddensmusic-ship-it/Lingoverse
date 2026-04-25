@@ -13,7 +13,7 @@ const COVERAGE_U38 = {
     {type:"match",pairs:[{trg:"la autovaloración",src:"the self-assessment"},{trg:"el bíblico",src:"biblical"},{trg:"la bulimia",src:"the bulimia"},{trg:"el atado",src:"the bundle, packet"}]},
     {type:"match",pairs:[{trg:"la anorexia",src:"the anorexia"},{trg:"el adelantado",src:"the pioneer, governor (historical)"},{trg:"a media luz",src:"in dim light, in half-light"},{trg:"el acer(c)amiento",src:"the rapprochement"}]},
     {type:"match",pairs:[{trg:"la amiga",src:"the friend (female)"},{trg:"el cabezón",src:"the stubborn person, big-headed"},{trg:"la cacería",src:"the hunt"},{trg:"el almirante",src:"the admiral"}]},
-    {type:"match",pairs:[{trg:"el alhaja",src:"the jewel, treasure"},{trg:"el animal doméstico",src:"the domestic animal, pet"},{trg:"el cabrero",src:"the goatherd"},{trg:"la barriguita",src:"the little belly"},{trg:"la alhambra",src:"the Alhambra (metaphorical: treasure)"}]},
+    {type:"match",pairs:[{trg:"la alhaja",src:"the jewel, treasure"},{trg:"el animal doméstico",src:"the domestic animal, pet"},{trg:"el cabrero",src:"the goatherd"},{trg:"la barriguita",src:"the little belly"},{trg:"la alhambra",src:"the Alhambra (metaphorical: treasure)"}]},
     {type:"fb",s:"{1}",a:["antártico"],opts:["antártico","el bálsamo","el acaso","la aversión"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Antarctic"},
     {type:"fb",s:"{1}",a:["azucarar"],opts:["aniquilar","azucarar","agonizar","aterrorizar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to add sugar to, to sweeten"},
     {type:"fb",s:"{1}",a:["agonizar"],opts:["aterrorizar","aniquilar","agonizar","azucarar"],hint:"Type the target-language form. Meaning shown below.",sSrc:"to be dying, to agonize"},

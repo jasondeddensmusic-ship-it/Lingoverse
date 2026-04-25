@@ -43,7 +43,7 @@ const LESSON_10 = {id:"esv2_b2g8_l10",title:"Artes y cultura",icon:"🎭",xp:15,
  exampleSrc:"A: I have a huge world map on the wall of my study.\nB: With all the countries updated?",
  funFact:"From Latin mappa mundi. The oldest surviving mapamundi is the Hereford map from around 1300."},
 
-{type:"teach",trg:"el lamento",src:"the lament / wail",pos:"noun",gender:"f",
+{type:"teach",trg:"el lamento",src:"the lament / wail",pos:"noun",gender:"m",
  note:"Masculine noun. An expression of grief or sorrow.\nVerb: lamentar (to lament).",
  example:"A: Se escuchaban los lamentos de las víctimas del desastre.\nB: Fue una tragedia que conmovió a todo el país.",
  exampleSrc:"A: The laments of the disaster victims could be heard.\nB: It was a tragedy that moved the entire country.",

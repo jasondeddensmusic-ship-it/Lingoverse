@@ -4,7 +4,7 @@ const COVERAGE_U81 = {
   id:"spv2_u81_coverage_review", title:"Repaso: cobertura léxica", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"Repaso: cobertura léxica",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"la hilera",src:"the row / line / series"},{trg:"el listón",src:"the bar (standard) / ribbon / strip"},{trg:"el montera",src:"the bullfighter's hat"},{trg:"el moño",src:"the bun (hairstyle) / bow"}]},
+    {type:"match",pairs:[{trg:"la hilera",src:"the row / line / series"},{trg:"el listón",src:"the bar (standard) / ribbon / strip"},{trg:"la montera",src:"the bullfighter's hat"},{trg:"el moño",src:"the bun (hairstyle) / bow"}]},
     {type:"match",pairs:[{trg:"el fetiche",src:"the fetish / talisman"},{trg:"la línea",src:"the line / connection / range"},{trg:"el lineamiento",src:"the guideline / directive"},{trg:"como que no",src:"no way / as if not"}]},
     {type:"match",pairs:[{trg:"la consideración",src:"the consideration / respect"},{trg:"el motivo",src:"the reason / motive"},{trg:"la inconveniencia",src:"the inconvenience / unsuitability"},{trg:"oficioso",src:"unofficial / officious"}]},
     {type:"match",pairs:[{trg:"el mercado común",src:"the common market"},{trg:"la dirección comercial",src:"the commercial management / sales department"},{trg:"el empleo estatal",src:"the public sector employment / government job"},{trg:"el asta",src:"the flagpole / horn (of a bull) / shaft"}]},

@@ -78,7 +78,7 @@ const LESSON_14 = {id:"esv2_b2gap_l14",title:"Materiales e industria",icon:"🏭
  exampleSrc:"A: We need a van for the move.\nB: My cousin has one, I will ask him to help us.",
  funFact:"Diminutive of camión (truck). In Latin America, 'camioneta' can also mean an SUV."},
 
-{type:"teach",trg:"la carreta",src:"the cart / wagon",pos:"noun",gender:"m",
+{type:"teach",trg:"la carreta",src:"the cart / wagon",pos:"noun",gender:"f",
  note:"Feminine noun. A traditional wheeled vehicle pulled by animals.",
  example:"A: Las carretas de bueyes llevaban la cosecha.\nB: Era el medio de transporte principal del campo.",
  exampleSrc:"A: Ox carts carried the harvest.\nB: It was the main means of transport in the countryside.",

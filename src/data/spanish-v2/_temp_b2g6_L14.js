@@ -28,7 +28,7 @@ const LESSON_14 = {id:"esv2_b2g6_l14",title:"Alimentación y agricultura",icon:"
 
 {type:"mc",q:"¿Qué es el brécol?",opts:["Una verdura verde parecida a un arbolito","Un tipo de pan","Un arbusto de jardín","Una herramienta de carpintería"],ans:"Una verdura verde parecida a un arbolito",hint:"A green vegetable that looks like tiny trees. Also called broccoli."},
 
-{type:"teach",trg:"el grumo",src:"the lump / clump",pos:"noun",gender:"f",
+{type:"teach",trg:"el grumo",src:"the lump / clump",pos:"noun",gender:"m",
  note:"Masculine noun. A small, solid lump in a liquid.\nFrom Latin grumus (heap).",
  example:"A: La salsa tiene grumos, no la mezclaste bien.\nB: Déjame pasarla por el colador.",
  exampleSrc:"A: The sauce has lumps, you did not mix it well.\nB: Let me strain it.",

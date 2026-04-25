@@ -17,7 +17,7 @@ const COVERAGE_U45 = {
     {type:"match",pairs:[{trg:"la complementación",src:"the complementation / completion"},{trg:"cronológico",src:"chronological"},{trg:"la definición",src:"the definition"},{trg:"el denominador",src:"the denominator"}]},
     {type:"match",pairs:[{trg:"cotejar",src:"to compare / to cross-check"},{trg:"achacar",src:"to attribute / to blame on"},{trg:"accionar",src:"to activate / to take action"},{trg:"la aspiración",src:"the aspiration / ambition"}]},
     {type:"match",pairs:[{trg:"cosificar",src:"to objectify / to treat as a thing"},{trg:"coquetear",src:"to flirt"},{trg:"apuntalar",src:"to prop up / to shore up"},{trg:"costear",src:"to fund / to cover the cost of"}]},
-    {type:"match",pairs:[{trg:"abusar",src:"to abuse / to take advantage"},{trg:"dar de alta",src:"to discharge / to register"},{trg:"la agrado",src:"the pleasure / liking"}]},
+    {type:"match",pairs:[{trg:"abusar",src:"to abuse / to take advantage"},{trg:"dar de alta",src:"to discharge / to register"},{trg:"el agrado",src:"the pleasure / liking"}]},
     {type:"fb",s:"El aprendizaje {1} mejora los resultados escolares.",a:["cooperativo"],opts:["cooperativo","el brécol","el cabrito","el amasijo"],hint:"Type the target-language form. Meaning shown below.",sSrc:"{1} learning improves school results."},
     {type:"fb",s:"{1}",a:["aritmético"],opts:["el amasijo","aritmético","el brécol","el cabrito"],hint:"Type the target-language form. Meaning shown below.",sSrc:"arithmetic / arithmetical"},
     {type:"fb",s:"Ordena los acontecimientos en orden {1}.",a:["cronológico"],opts:["el cabrito","el amasijo","cronológico","el brécol"],hint:"Type the target-language form. Meaning shown below.",sSrc:"Arrange the events in {1} order."},

@@ -31,7 +31,7 @@ const LESSON_11 = {id:"esv2_b2gB_l11",title:"Artes y expresión creativa",icon:"
  ans:"Establecer un estándar difícil de superar",
  hint:"Think about the bar in high jump that athletes must clear. Setting it high means great expectations."},
 
-{type:"teach",trg:"el montera",src:"the bullfighter's hat",pos:"noun",gender:"f",
+{type:"teach",trg:"la montera",src:"the bullfighter's hat",pos:"noun",gender:"f",
  note:"Feminine noun (la montera). The distinctive hat worn by matadors.\nAlso: a type of glass roof.",
  example:"A: El torero se puso la montera antes de salir al ruedo.\nB: Es un ritual que se repite en cada corrida.",
  exampleSrc:"A: The bullfighter put on his hat before entering the ring.\nB: It is a ritual repeated at every bullfight.",
