@@ -405,7 +405,7 @@ const UNIT_26 = {n:26, lang:"pt", srcLang:"en", track:"v2", title:"Ciência e te
  s:"Foi um simples {1}.",a:"mal-entendido",sSrc:"It was a simple {1}."},
 {type:"fb",opts:["mediar","perdoar","desculpar","resolver"],
  hint:"Verb meaning 'to forgive.'",
- s:"Eu te {1}.",a:"perdoo",sSrc:"I {1} you."},
+ s:"Eu te {1}.",a:"perdoo",opts:["perdoo","medio","desculpo","resolvo"],sSrc:"I {1} you."},
 {type:"fb",opts:["acordo","conflito","mal-entendido","solução"],
  hint:"Masculine noun for a deal or agreement reached between parties.",
  s:"Chegamos a um {1}.",a:"acordo",sSrc:"We reached a {1}."},

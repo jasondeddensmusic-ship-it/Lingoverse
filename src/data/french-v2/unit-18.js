@@ -199,7 +199,7 @@ export default {n:18,lang:"fr",srcLang:"en",track:"v2",title:"Les pronoms relati
     {type:"mc",q:"'Une solution ___.' Which adjective means 'lasting / sustainable'?",opts:["efficace","importante","difficile","durable"],ans:"durable",hint:"From Latin durare. This adjective appears in 'le développement ___', the official term for sustainable development."},
     {type:"fb",opts:["efficace","durable","difficile","importante"],hint:"An effective policy produces real results. Look for the adjective meaning 'producing results'.",s:"Le gouvernement cherche une politique {1}. (effective)",a:"efficace"},
     {type:"mc",q:"'Je doute que le gouvernement ___.' Which verb form follows 'douter que'?",opts:["Subjunctive (agisse)","Infinitive (agir)","Conditional (agirait)","Indicative (agit)"],ans:"Subjunctive (agisse)",hint:"Douter que always triggers which mood? The same mood as 'il faut que' and 'je veux que'."},
-    {type:"fb",opts:["discuter","douter","hésiter","oser"],hint:"I dare say that the situation is serious. A rhetorical, bold statement.",s:"J'{1} dire que la situation est grave. (to dare)",a:"ose"},
+    {type:"fb",opts:["discute","doute","hésite","ose"],hint:"First-person singular present of the verb meaning to dare. A rhetorical, bold statement.",s:"J'{1} dire que la situation est grave.",a:"ose"},
     {type:"match",pairs:[
       {trg:"discuter de",src:"to discuss (a topic)"},
       {trg:"douter que + subj.",src:"to doubt that"},
