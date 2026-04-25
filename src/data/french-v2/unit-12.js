@@ -111,7 +111,11 @@ export default {n:12,lang:"fr",srcLang:"en",track:"v2",title:"PC vs imparfait",s
         {type:"fb",opts:["savait","a su","sait","saura"],hint:"He didn't know it was so far. Knowledge = mental state.",s:"Il ne {1} pas que c'était si loin. (to know, mental state)",a:"savait"},
         {type:"match",pairs:[{trg:"j'avais faim",src:"→ j'ai mangé"},{trg:"il faisait froid",src:"→ j'ai mis un pull"},{trg:"elle était malade",src:"→ elle est restée"},{trg:"nous étions fatigués",src:"→ nous avons dormi"}]},
         {type:"mc",q:"'Il ___ qu'elle ___ à Paris.' (to think / to live)",opts:["pensait / habitait","a pensé / a habité","pensait / a habité","a pensé / habitait"],ans:"pensait / habitait",hint:"Both are states: he thought (mental state) she lived (ongoing)."},
+<<<<<<< HEAD
         {type:"drag_fill",hint:"They didn't go (event) because they didn't have money (state).",s:"Ils ne {1} pas au restaurant parce qu'ils n'{2} pas d'argent. (to go / to have)",blanks:{"1":"sont allés","2":"avaient"},pool:["sont allés","allaient","avaient","ont eu"]},
+=======
+        {type:"drag_fill",hint:"They didn't go (event) because they didn't have money (state).",s:"Ils ne {1} pas au restaurant parce qu'ils n'{2} pas d'argent. (to go / to have)",blanks:{"1":"sontallés","2":"avaient"},pool:["sont allés","allaient","avaient","ont eu"]},
+>>>>>>> origin/main
         {type:"mc",q:"After learning reasons/emotions: states explain ___, events show ___.",opts:["What / why","Why / what","How / when","When / how"],ans:"Why / what",hint:"States tell you ___ (reason). Events tell you WHAT happened."}
   ]},
   {id:"fre12l6",title:"Changement d'état",icon:"🔄",xp:15,board:true,steps:[
@@ -160,17 +164,30 @@ export default {n:12,lang:"fr",srcLang:"en",track:"v2",title:"PC vs imparfait",s
         {type:"mc",q:"'Hier, il ___ beau et les oiseaux ___.' (weather + description)",opts:["faisait / chantaient","a fait / ont chanté","a fait / chantaient","faisait / ont chanté"],ans:"faisait / chantaient",hint:"Weather + ongoing activity = two background descriptions."},
         {type:"fb",opts:["est entré","entrait","entre","entrera"],hint:"Suddenly = a specific, sudden event. Which tense for events?",s:"Soudain, le chien {1} dans la maison. (to enter, event)",a:"est entré"},
         {type:"mc",q:"'Je ___ un taxi parce que le bus ne ___ pas.' (take / come)",opts:["prenais / est venu","ai pris / venait","ai pris / est venu","prenais / venait"],ans:"ai pris / venait",hint:"Took a taxi (action) because bus wasn't coming (ongoing state/reason)."},
+<<<<<<< HEAD
         {type:"drag_fill",hint:"She found out (moment) and was surprised (state).",s:"Elle {1} la nouvelle et elle {2} très surprise. (to learn / to be)",blanks:{"1":"a appris","2":"était"},pool:["a appris","apprenait","était","a été"]},
         {type:"match",pairs:[{trg:"Il pleuvait",src:"background (imparfait)"},{trg:"J'ai pris mon parapluie",src:"action (PC)"},{trg:"J'étais en retard",src:"state (imparfait)"},{trg:"J'ai couru",src:"action (PC)"}]},
         {type:"mc",q:"'Pendant 10 ans, elle ___ professeur.' (bounded career)",opts:["Était","Est","A été","Sera"],ans:"A été",hint:"Ten years = bounded period with start and end."},
         {type:"drag_fill",hint:"I was 18 (age = state) when I entered (event).",s:"Quand j'{1} 18 ans, j'{2} à l'université. (have, age / enter, event)",blanks:{"1":"avais","2":"suis entré"},pool:["avais","ai eu","suis entré","entrais"]},
+=======
+        {type:"drag_fill",hint:"She found out (moment) and was surprised (state).",s:"Elle {1} la nouvelle et elle {2} très surprise. (to learn / to be)",blanks:{"1":"aappris","2":"était"},pool:["a appris","apprenait","était","a été"]},
+        {type:"match",pairs:[{trg:"Il pleuvait",src:"background (imparfait)"},{trg:"J'ai pris mon parapluie",src:"action (PC)"},{trg:"J'étais en retard",src:"state (imparfait)"},{trg:"J'ai couru",src:"action (PC)"}]},
+        {type:"mc",q:"'Pendant 10 ans, elle ___ professeur.' (bounded career)",opts:["Était","Est","A été","Sera"],ans:"A été",hint:"Ten years = bounded period with start and end."},
+        {type:"drag_fill",hint:"I was 18 (age = state) when I entered (event).",s:"Quand j'{1} 18 ans, j'{2} à l'université. (have, age / enter, event)",blanks:{"1":"avais","2":"suisentré"},pool:["avais","ai eu","suis entré","entrais"]},
+>>>>>>> origin/main
         {type:"mc",q:"'Avant, il ne ___ pas nager. Un jour, il ___ des cours.'",opts:["pouvait / a pris","a pu / prenait","pouvait / prenait","savait / a pris"],ans:"savait / a pris",hint:"Didn't know how (ongoing) + decided to take lessons (event)."},
         {type:"drag_fill",hint:"Every evening, we used to eat and talk. Two regular habits.",s:"Tous les soirs, nous {1} ensemble et nous {2} de notre journée. (eat / talk, habits)",blanks:{"1":"mangions","2":"parlions"},pool:["mangions","avons mangé","parlions","avons parlé"]},
         {type:"match",pairs:[{trg:"J'ai su",src:"I found out"},{trg:"Je savais",src:"I knew (ongoing)"},{trg:"J'ai connu",src:"I met"},{trg:"Je connaissais",src:"I knew (person)"}]},
         {type:"mc",q:"Complete the story: 'C'___ dimanche. Il ___ beau. J'___ de sortir.'",opts:["était / faisait / ai décidé","a été / a fait / ai décidé","était / faisait / décidais","a été / a fait / décidais"],ans:"était / faisait / ai décidé",hint:"Day + weather = scene setting. Decision = the event."},
+<<<<<<< HEAD
         {type:"drag_fill",hint:"Kids were playing (scene) when rain started (sudden event).",s:"Les enfants {1} quand il {2} à pleuvoir. (play, ongoing / start, event)",blanks:{"1":"jouaient","2":"a commencé"},pool:["jouaient","ont joué","a commencé","commençait"]},
         {type:"mc",q:"Which is the trickiest case?",opts:["Weather = imparfait (always)","'J'ai su' = found out (change of state)","Pendant + time = PC (bounded)","Emotions = imparfait (always)"],ans:"'J'ai su' = found out (change of state)",hint:"___ verbs changing meaning in PC is the most nuanced pattern."},
         {type:"drag_fill",hint:"Late (time) + tired (state) + went to bed (action).",s:"Il {1} tard et je {2} fatigué, alors je {3} couché. (be, time / be, state / go, event)",blanks:{"1":"était","2":"étais","3":"me suis"},pool:["était","a été","étais","me suis"]},
+=======
+        {type:"drag_fill",hint:"Kids were playing (scene) when rain started (sudden event).",s:"Les enfants {1} quand il {2} à pleuvoir. (play, ongoing / start, event)",blanks:{"1":"jouaient","2":"acommencé"},pool:["jouaient","ont joué","a commencé","commençait"]},
+        {type:"mc",q:"Which is the trickiest case?",opts:["Weather = imparfait (always)","'J'ai su' = found out (change of state)","Pendant + time = PC (bounded)","Emotions = imparfait (always)"],ans:"'J'ai su' = found out (change of state)",hint:"___ verbs changing meaning in PC is the most nuanced pattern."},
+        {type:"drag_fill",hint:"Late (time) + tired (state) + went to bed (action).",s:"Il {1} tard et je {2} fatigué, alors je {3} couché. (be, time / be, state / go, event)",blanks:{"1":"était","2":"étais","3":"mesuis"},pool:["était","a été","étais","me suis"]},
+>>>>>>> origin/main
         {type:"mc",q:"You've mastered the PC vs imparfait distinction! The key is recognizing:",opts:["Only signal words","Only verb forms","Context: events vs states/backgrounds","Only time expressions"],ans:"Context: events vs states/backgrounds",hint:"It's about understanding what role each verb plays in the story."},
         {type:"drag_fill",hint:"It was the best day (state/description) when I got my diploma (event).",s:"C'{1} le plus beau jour de ma vie quand j'{2} obtenu mon diplôme. (be / have)",blanks:{"1":"était","2":"ai"},pool:["était","a été","ai","avais"]}
   ]},
