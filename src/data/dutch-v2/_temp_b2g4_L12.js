@@ -80,7 +80,7 @@ const LESSON_12 = {
      example:"A: We hebben een extern bureau ingehuurd.\nB: Waarvoor?\nA: Voor een onafhankelijk onderzoek.\nB: Slim, dat is objectiever.",
      exampleSrc:"A: We have hired an external agency.\nB: For what?\nA: For an independent investigation.\nB: Smart, that is more objective.",
      funFact:"Dutch organizations frequently use 'externe consultants'. The distinction between 'intern' (internal) and 'extern' (external) is important in Dutch business and education."},
-    {type:"teach", trg:"de evacueren", src:"to evacuate", pos:"noun", gender:null,
+    {type:"teach", trg:"evacueren", src:"to evacuate", pos:"verb", gender:null,
      note:"From Latin 'evacuare'. Regular verb.\n'Het gebouw evacueren' = to evacuate the building.",
      example:"A: Het gebouw werd geëvacueerd.\nB: Was er brand?\nA: Nee, een gaslek.\nB: Gelukkig was iedereen snel buiten.",
      exampleSrc:"A: The building was evacuated.\nB: Was there a fire?\nA: No, a gas leak.\nB: Fortunately everyone was outside quickly.",
