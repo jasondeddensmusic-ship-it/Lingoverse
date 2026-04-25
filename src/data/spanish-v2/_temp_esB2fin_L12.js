@@ -42,11 +42,11 @@ const LESSON_12 = {
      funFact:"The prefix 'des-' in Spanish reverses meaning, like English 'dis-' or 'un-'. Desventaja, desacuerdo, descuidado all follow this pattern."},
 
     {type:"drag_fill",
-     s:"Vivir en una ciudad grande tiene {ventajas} pero tambi\u00e9n muchas {desventajas}.",
-     blanks:{ventajas:"ventajas",desventajas:"desventajas"},
+     s:"Vivir en una ciudad grande tiene {1} pero tambi\u00e9n muchas {2}.",
+     blanks:{"1":"ventajas","2":"desventajas"},
      pool:["ventajas","desventajas","razones","opciones"],
      hint:"Drag the pros first, then the cons. One positive, one negative.",
-     sSrc:"Living in a large city has {ventajas} but also many {desventajas}."},
+     sSrc:"Living in a large city has [pros] but also many [cons]."},
 
     {type:"teach", trg:"la consecuencia", src:"the consequence", pos:"noun", gender:"f",
      note:"A result or effect of an action or situation.",
