@@ -102,7 +102,7 @@ const LESSON_1 = {id:"esv2_b2g9_l1", title:"El mundo empresarial", icon:"\u{1F4B
    hint:"International buying and selling between countries.",
    sSrc:"Spain has a lot of {1} with France and Germany."},
 
-  {type:"mc", q:"El {blank} gan\u00f3 el premio final del programa de televisi\u00f3n.",
+  {type:"mc", q:"El ___ gan\u00f3 el premio final del programa de televisi\u00f3n.",
    opts:["conductor","coordinador","concursante","causante"],
    ans:"concursante",
    hint:"A person who takes part in a competition or game show."},
