@@ -72,11 +72,11 @@ const LESSON_13 = {
      funFact:"From Latin 'positura' (placement). Your postura is where you 'place' yourself in a debate. Also means literal body posture."},
 
     {type:"drag_fill",
-     s:"Para debatir, necesitas {analizar} los datos y luego {defender} tu opini\u00f3n.",
-     blanks:{analizar:"analizar",defender:"defender"},
+     s:"Para debatir, necesitas {1} los datos y luego {2} tu opini\u00f3n.",
+     blanks:{"1":"analizar","2":"defender"},
      pool:["analizar","defender","explicar","rechazar"],
      hint:"First you examine the evidence, then you argue in support of your view.",
-     sSrc:"To debate, you need to {analizar} the data and then {defender} your opinion."},
+     sSrc:"To debate, you need to [analyze] the data and then [defend] your opinion."},
 
     {type:"mc", q:"\u00bfCu\u00e1l es el opuesto de 'analizar'?",
      opts:["Sintetizar","Proponer","Criticar","Rechazar"],
@@ -97,11 +97,11 @@ const LESSON_13 = {
      hint:"This compound noun describes the goal of fair distribution of rights and opportunities in society."},
 
     {type:"drag_fill",
-     s:"El orador supo {defender} su postura con datos y {analizar} los puntos d\u00e9biles del contrario.",
-     blanks:{defender:"defender",analizar:"analizar"},
+     s:"El orador supo {1} su postura con datos y {2} los puntos d\u00e9biles del contrario.",
+     blanks:{"1":"defender","2":"analizar"},
      pool:["defender","analizar","rechazar","demostrar"],
      hint:"He argued in favor of his stance and examined the weak points of the other side.",
-     sSrc:"The speaker was able to {defender} his position and {analizar} the weak points of the opponent."}
+     sSrc:"The speaker was able to [defend] his position and [analyze] the weak points of the opponent."}
   ]
 };
 export default LESSON_13;
