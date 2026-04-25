@@ -90,7 +90,7 @@ const UNIT_14 = {
   {type:"match", pairs:[{trg:"正(ただ)しい",src:"correct"},{trg:"違(ちが)う",src:"different / wrong"},{trg:"思(おも)う",src:"to think"},{trg:"言(い)う",src:"to say"}]},
 
   {type:"mc", q:"違(ちが)います is a gentle way to say:", opts:["yes","thank you","no / that is wrong","I do not know"], ans:"no / that is wrong",
-   hint:"Literally meaning 'it differs,' this is used instead of directly saying 'w....'"},
+   hint:"Literally meaning 'it differs', the phrase softens disagreement. Used to indicate incorrectness without bluntness."},
 ]},
 
 // ═══ L2: たぶん (Probably) ═══

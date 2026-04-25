@@ -99,7 +99,7 @@ const LESSON_5 = {
     {type:"mc", q:"What is 'il permesso retribuito'?",
      opts:["A parking permit for staff","A written work authorization","Unpaid personal time off","Paid leave from work"],
      ans:"Paid leave from work",
-     hint:"'Retribuito' means 'p....' This l... is for medical, family, or other reasons, and the worker still receives salary."}
+     hint:"Retribuito (compensated) modifies permesso. Used for medical, family, or other reasons while the worker still receives salary."}
   ]
 };
 export default LESSON_5;

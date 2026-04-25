@@ -135,7 +135,7 @@ const BATCH2_U03_L1 = {
     {type:"mc", q:"What is the difference between 'vivere' and 'abitare'?",
      opts:["They are identical","Vivere is formal only","Abitare means to work","Vivere = live (exist), abitare = reside (address)"],
      ans:"Vivere = live (exist), abitare = reside (address)",
-     hint:"One asks about your life in general, the other specifically about where you r.... Both translate to 'l....'"}
+     hint:"One asks about your life-experience in general, the other specifically about where you sleep at night. Both translate to the same English verb."}
   ,{type:"mc",q:"How do you say \"age\" in Italian?",opts:["l'età","avere","ho","hai"],ans:"l'età",hint:"Recall the Italian vocabulary word taught in this lesson."},{type:"mc",q:"How do you say \"adult\" in Italian?",opts:["l'età","l'adulto","avere","ho"],ans:"l'adulto",hint:"Recall the Italian vocabulary word taught in this lesson."}]
 };
 export default BATCH2_U03_L1;

@@ -105,7 +105,7 @@ const LESSON_6 = {
     {type:"mc", q:"Why is 'rubinetto' called that?",
      opts:["It comes from 'rubare' (to steal), because faucets waste water","It is borrowed from the French word 'robinet'","It was invented by a man named Rubinetto","It comes from 'rubino' (ruby), after the old valve shape"],
      ans:"It comes from 'rubino' (ruby), after the old valve shape",
-     hint:"A diminutive of 'r....' O... v... handles had a gemstone-like appearance that inspired the name."}
+     hint:"The -etto ending marks a diminutive form. Antique faucet handles had a red gemstone-like appearance that inspired the name."}
   ]
 };
 export default LESSON_6;
