@@ -115,7 +115,7 @@ const LESSON_14 = {
      q:"Quel terme designe les reserves d'eau souterraines ?",
      opts:["l'erosion","le reboisement","la nappe phreatique","la biodiversite"],
      ans:"la nappe phreatique",
-     hint:"Underground water reserves. 'N...' means layer. Weather reports monitor their levels."}
+     hint:"Underground water reserves. The compound term combines a noun meaning 'layer' with an adjective from Greek phreatos (well)."}
   ]
 };
 export default LESSON_14;

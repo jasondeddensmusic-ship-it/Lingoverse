@@ -100,7 +100,7 @@ const LESSON_5 = {id:"itv2_u9l5", title:"I sintomi", icon:"\uD83E\uDE7A", xp:15,
   {type:"mc", q:"What is the difference between 'tosse secca' and 'tosse grassa'?",
    opts:["Secca is worse","Grassa is a children's cough","Secca is dry, grassa is productive (with mucus)","They are the same"],
    ans:"Secca is dry, grassa is productive (with mucus)",
-   hint:"'S...' (d...) and 'g...' (literally 'fat,' meaning p...). Each needs different treatment."},
+   hint:"Italian uses adjectives meaning 'parched' and 'fat' (the medical term refers to phlegm production). Each cough type needs different treatment."},
 
   {type:"fb", s:"Mi {1} tutto il corpo! Potrebbe essere un'allergia.",
    a:["prude"],

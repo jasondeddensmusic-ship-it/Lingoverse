@@ -84,7 +84,7 @@ const LESSON_5 = {
     {type:"mc", q:"How does Italian express 'never'?",
      opts:["Non + verb + mai","Mai alone before the verb","Non alone before the verb","Sempre with non"],
      ans:"Non + verb + mai",
-     hint:"Italian uses a double negative construction. Both 'n...' before and 'm...' after the v... are required."},
+     hint:"Italian uses a sandwich construction with the negator preceding the conjugated form and the temporal adverb following it. Both pieces obligatory."},
 
     {type:"fb", s:"Di {1} mi sveglio alle sette.",
      a:["solito"],

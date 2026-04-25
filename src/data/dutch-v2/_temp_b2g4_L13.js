@@ -120,7 +120,7 @@ const LESSON_13 = {
     {type:"mc", q:"Which word means 'striking' or 'remarkable'?",
      opts:["fervent","frappant","felblauw","familiair"],
      ans:"frappant",
-     hint:"From French 'f...'. Used for surprising resemblances or coincidences."},
+     hint:"From the French verb meaning 'to strike'. Used for surprising resemblances or coincidences that hit you."},
     {type:"fb", s:"De {1} in de Betuwe is eeuwenoud.", a:["fruitteelt"],
      opts:["fruitteelt","fruitsoort","friettent","frietaardappel"],
      hint:"The cultivation of fruit trees. A centuries-old tradition in that river region.",

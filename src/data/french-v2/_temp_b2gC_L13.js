@@ -107,7 +107,7 @@ const LESSON_13 = {id:"frv2_b2gC_l13", title:"Conflits et émotions fortes", ico
  q:"Quelle est la métaphore française pour 'to pay attention' ?",
  opts:["Donner (give) attention","Acheter (buy) attention","Vendre (sell) attention","Prêter (lend) attention"],
  ans:"Prêter (lend) attention",
- hint:"French uses a different verb than English. You 'l...' your focus rather than 'pay' for it."}
+ hint:"French treats focus as something temporarily extended (like a loan), not bought, sold, or freely given."}
 
 ]};
 export default LESSON_13;

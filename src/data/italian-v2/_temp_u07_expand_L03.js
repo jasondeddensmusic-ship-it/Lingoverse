@@ -70,7 +70,7 @@ const LESSON_6 = {id:"itv2_u7l6", title:"Allergie e dieta", icon:"\u26A0\uFE0F",
   {type:"mc", q:"How do you say 'I am allergic to nuts' in Italian (male speaker)?",
    opts:["Sono allergico alle noci","Sono allergica alle noci","Ho allergia noci","Noci allergia ho"],
    ans:"Sono allergico alle noci",
-   hint:"Male speaker = 'a...' (masculine -o). Use 'a' + article: 'a... n....' 'S...' = I am."},
+   hint:"Use the io form of essere + the masculine -o adjective ending. Pair with the 'a' preposition contracted with 'le' before the food noun."},
 
   {type:"fb", s:"Avete piatti {1} glutine?",
    a:["senza"],

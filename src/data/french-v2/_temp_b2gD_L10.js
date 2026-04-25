@@ -75,7 +75,7 @@ const LESSON_10 = {id:"frv2_b2gD_l10", title:"Questions sociales", icon:"🤝", 
    q:"Que signifie 'sans encombre'?",
    opts:["Sans aucune aide extérieure","Sans problème ni difficulté","Avec beaucoup d'obstacles","En courant très vite"],
    ans:"Sans problème ni difficulté",
-   hint:"This fixed expression uses an old word for 'obstacle' preceded by 's...' (without)."},
+   hint:"This fixed expression literally means 'without obstacle'. Picks the option synonymous with smooth, hassle-free."},
 
   {type:"match", pairs:[
     {trg:"main-d'oeuvre", src:"workforce"},

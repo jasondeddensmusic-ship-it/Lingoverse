@@ -62,7 +62,7 @@ const BATCH8_L1 = {id:"itv2_u10l_b8_1", title:"L'alloggio", icon:"🏨", xp:15, 
  q:"What is the difference between 'camera matrimoniale' and 'camera doppia'?",
  opts:["Matrimoniale has one large bed, doppia has two single beds","They are exactly the same","Matrimoniale is cheaper","Doppia has a larger bathroom"],
  ans:"Matrimoniale has one large bed, doppia has two single beds",
- hint:"'M...' relates to 'matrimonio' (marriage), so it has one b... for a couple. 'D...' means double, so two b...."},
+ hint:"The first Italian adjective references a married couple's sleeping arrangement; the second references the count two. They are not equivalent options."},
 
 {type:"match", pairs:[
   {trg:"prenotare", src:"to book"},
