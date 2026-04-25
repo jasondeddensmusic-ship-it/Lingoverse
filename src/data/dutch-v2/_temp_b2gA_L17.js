@@ -30,7 +30,7 @@ const LESSON_17 = {id:"nlv2_b2gA_l17", title:"Recht & Bestuur", icon:"\u{2696}",
    exampleSrc:"A: What a nice hairstyle you have!\nB: Thanks, I just went to the hairdresser.\nA: What hairstyle do you want next time?\nB: Maybe something shorter.",
    funFact:"The Dutch word 'kapper' (hairdresser) comes from the same root as 'kapsel'. Going to the kapper is a social ritual in the Netherlands. Many people visit their kapper every 6-8 weeks."},
 
-  {type:"teach", trg:"de karakteristiek", src:"characteristic, distinctive feature", pos:"noun", gender:null,
+  {type:"teach", trg:"de karakteristiek", src:"characteristic, distinctive feature", pos:"noun", gender:"c",
    note:"As adjective: characteristic, typical.\nAlso used as noun: de karakteristiek (the characteristic).",
    example:"A: De grachten zijn karakteristiek voor Amsterdam.\nB: Dat klopt, je ziet ze nergens anders zo.\nA: Wat vind jij het meest karakteristiek aan Nederland?\nB: De vlakheid van het landschap.",
    exampleSrc:"A: The canals are characteristic of Amsterdam.\nB: That's true, you don't see them like that anywhere else.\nA: What do you find most characteristic about the Netherlands?\nB: The flatness of the landscape.",

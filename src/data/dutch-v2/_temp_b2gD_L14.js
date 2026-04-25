@@ -61,7 +61,7 @@ const LESSON_14 = {
      hint:"A black candy made from liquorice root. The Dutch eat more of this per capita than any other nation.",
      sSrc:"The Netherlands is known for its {1}, especially the salty variety that shocks foreigners."},
 
-    {type:"teach", trg:"het kweken", src:"to grow / to cultivate / breeding", pos:"noun", gender:null,
+    {type:"teach", trg:"het kweken", src:"to grow / to cultivate / breeding", pos:"noun", gender:"n",
      note:"Verb. From Middle Dutch.\n'Planten kweken' = to grow plants. 'Dieren kweken' = to breed animals.",
      example:"A: Mijn buurman kweekt rozen in zijn tuin.\nB: Hoeveel soorten heeft hij?\nA: Meer dan twintig verschillende.\nB: Dat is indrukwekkend!",
      exampleSrc:"A: My neighbour grows roses in his garden.\nB: How many varieties does he have?\nA: More than twenty different ones.\nB: That's impressive!",

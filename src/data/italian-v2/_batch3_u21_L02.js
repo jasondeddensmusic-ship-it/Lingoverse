@@ -6,7 +6,7 @@ const BATCH3_U21_L2 = {
      desc:"Master the conditional for formal requests, workplace communication, and giving sophisticated advice. These patterns elevate your Italian to professional level.",
      goals:["Make formal requests in professional Italian","Give nuanced advice using the conditional","Navigate formal vs. informal register"]},
 
-    {type:"teach", trg:"le sarei grato", src:"I would be grateful to you (formal)", pos:"noun", gender:null,
+    {type:"teach", trg:"le sarei grato", src:"I would be grateful to you (formal)", pos:"noun", gender:"f",
      note:"Formal expression. 'Le' = to you (Lei form).\n'Le sarei grato se...' = I would be grateful if...",
      example:"A: Le sarei grato se potesse rispondere entro venerdì.\nB: Certo, faro del mio meglio.",
      exampleSrc:"A: I would be grateful if you could reply by Friday.\nB: Of course, I will do my best.",
@@ -60,7 +60,7 @@ const BATCH3_U21_L2 = {
      exampleSrc:"A: I would propose postponing the meeting.\nB: For what reason?",
      funFact:"'Proporre' has an irregular conditional like 'porre' (porrei). 'Proporrei' is the standard meeting language for introducing a new idea. It is more assertive than 'suggerirei' but still diplomatic thanks to the conditional mood."},
 
-    {type:"teach", trg:"le dispiacerebbe", src:"would you mind (formal)", pos:"noun", gender:null,
+    {type:"teach", trg:"le dispiacerebbe", src:"would you mind (formal)", pos:"noun", gender:"f",
      note:"'Le dispiacerebbe + infinitive?' = Would you mind...? (formal)\nExtremely polite request form.",
      example:"A: Le dispiacerebbe chiudere la porta?\nB: No, nessun problema.",
      exampleSrc:"A: Would you mind closing the door?\nB: No, no problem.",

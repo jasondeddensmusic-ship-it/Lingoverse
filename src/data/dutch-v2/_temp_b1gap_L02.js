@@ -115,13 +115,13 @@ const LESSON_2 = {
      exampleSrc:"A: The political affair is big news.\nB: Yes, it is in all the newspapers.",
      funFact:"Used for political scandals more than romantic affairs. The 'Toeslagenaffaire' shook Dutch politics."},
 
-    {type:"teach", trg:"het antisociaal", src:"antisocial (behavior)", pos:"noun", gender:null,
+    {type:"teach", trg:"het antisociaal", src:"antisocial (behavior)", pos:"noun", gender:"n",
      note:"Used as adjective. Describes behavior harmful to society.",
      example:"A: Dat is echt antisociaal gedrag.\nB: Ja, hij houdt geen rekening met anderen.",
      exampleSrc:"A: That is really antisocial behavior.\nB: Yes, he does not consider others.",
      funFact:"In Dutch, 'antisociaal' specifically means harmful to society, not just shy or withdrawn."},
 
-    {type:"teach", trg:"het autoritair", src:"authoritarian", pos:"noun", gender:null,
+    {type:"teach", trg:"het autoritair", src:"authoritarian", pos:"noun", gender:"n",
      note:"Adjective. Describes a strict, domineering leadership style.",
      example:"A: De nieuwe directeur is heel autoritair.\nB: Niemand durft iets te zeggen.",
      exampleSrc:"A: The new director is very authoritarian.\nB: Nobody dares to say anything.",

@@ -34,7 +34,7 @@ const LESSON_20 = {id:"esv2_b2g5_l20",title:"Palabras para dominar",icon:"🎯",
 
 {type:"mc",q:"¿Qué expresa 'como que no'?",opts:["Rechazo o incredulidad","Acuerdo total","Duda moderada","Alegría"],ans:"Rechazo o incredulidad",hint:"A very colloquial way of saying 'no way' or expressing strong refusal."},
 
-{type:"teach",trg:"el cual",src:"which / who (formal relative)",pos:"noun",gender:null,
+{type:"teach",trg:"el cual",src:"which / who (formal relative)",pos:"noun",gender:"m",
  note:"Relative pronoun. Used in formal writing.\nForms: el cual, la cual, los cuales, las cuales.",
  example:"A: La empresa, la cual fue fundada en 1990, tiene mil empleados.\nB: Es una de las más grandes del sector.",
  exampleSrc:"A: The company, which was founded in 1990, has a thousand employees.\nB: It is one of the largest in the sector.",

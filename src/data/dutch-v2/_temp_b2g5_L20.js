@@ -10,7 +10,7 @@ const LESSON_20 = {
      example:"A: Er is een heropleving van de Nederlandse taal in Belgie.\nB: Hoe bedoel je?\nA: Meer jongeren zijn er trots op.\nB: Dat is mooi om te zien.",
      exampleSrc:"A: There is a revival of the Dutch language in Belgium.\nB: What do you mean?\nA: More young people are proud of it.\nB: That is nice to see.",
      funFact:"Flanders has experienced a cultural 'heropleving' with Dutch-language music, literature, and film gaining international recognition. Belgian Dutch and Netherlands Dutch are growing closer through media."},
-    {type:"teach", trg:"de hartstochtig", src:"passionate", pos:"noun", gender:null,
+    {type:"teach", trg:"de hartstochtig", src:"passionate", pos:"noun", gender:"c",
      note:"Compound: hart (heart) + tocht (passion, archaic) + '-ig' suffix.\n'Hartstochtelijk' = passionately.",
      example:"A: Hij is een hartstochtelijk verzamelaar.\nB: Wat verzamelt hij?\nA: Oude landkaarten van Nederland.\nB: Dat is een dure hobby!",
      exampleSrc:"A: He is a passionate collector.\nB: What does he collect?\nA: Old maps of the Netherlands.\nB: That is an expensive hobby!",

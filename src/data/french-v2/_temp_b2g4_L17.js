@@ -41,7 +41,7 @@ const LESSON_17 = {
      ans:"un hoax",
      hint:"An English borrowing. The Academie francaise proposed 'infox' as a French alternative."},
 
-    {type:"teach", trg:"le flirter", src:"to flirt", pos:"noun", gender:null,
+    {type:"teach", trg:"le flirter", src:"to flirt", pos:"noun", gender:"m",
      note:"Verb. To engage in playful romantic behavior.\nBorrowed from English, then sent back.",
      example:"A: Il flirte avec elle depuis des semaines.\nB: Il devrait l'inviter a diner.",
      exampleSrc:"A: He's been flirting with her for weeks.\nB: He should invite her to dinner.",

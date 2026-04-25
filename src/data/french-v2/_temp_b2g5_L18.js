@@ -46,7 +46,7 @@ const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"�
    exampleSrc:"A: We arrived before the others.\nB: Was the train early?\nA: No, we took a shortcut.\nB: Well played, we have time to settle in.",
    funFact:"'Arriver' comes from Latin 'ad ripam' (to the riverbank). Originally meant reaching the shore after a voyage."},
 
-  {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:null,
+  {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:"m",
    note:"Ordinal number: 50th.\nUsed for anniversaries, editions, and rankings.",
    example:"A: C'est le cinquantième anniversaire du festival.\nB: Un demi-siècle de musique!\nA: La programmation est exceptionnelle cette année.\nB: Ils ont invité les plus grands artistes.",
    exampleSrc:"A: It's the fiftieth anniversary of the festival.\nB: Half a century of music!\nA: The lineup is exceptional this year.\nB: They invited the greatest artists.",

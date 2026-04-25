@@ -102,7 +102,7 @@ const LESSON_13 = {
      exampleSrc:"A: He expressed his disapproval with just a look.\nB: No need for words, it was clear.",
      funFact:"French culture has an art of expressing disapproval without words. A raised eyebrow, a sigh, or a 'pfff' sound conveys volumes."},
 
-    {type:"teach", trg:"le déshumaniser", src:"to dehumanize", pos:"noun", gender:null,
+    {type:"teach", trg:"le déshumaniser", src:"to dehumanize", pos:"noun", gender:"m",
      note:"Verb. To deprive someone of human qualities or dignity.",
      example:"A: La guerre déshumanise les soldats et les civils.\nB: C'est une tragédie universelle.",
      exampleSrc:"A: War dehumanizes soldiers and civilians.\nB: It is a universal tragedy.",

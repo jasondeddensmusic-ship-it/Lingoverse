@@ -22,7 +22,7 @@ const LESSON_19 = {id:"frv2_b2g5_l19", title:"Langue et expression", icon:"💬"
    exampleSrc:"A: The jockey must be very lightweight.\nB: It's so as not to slow down the horse.\nA: Racing is a demanding sport.\nB: Yes, for the rider as much as for the horse.",
    funFact:"English borrowed 'jockey' from Scots, then French borrowed it back. Horse racing is called 'le turf' in French."},
 
-  {type:"teach", trg:"la différencié", src:"differentiated", pos:"noun", gender:null,
+  {type:"teach", trg:"la différencié", src:"differentiated", pos:"noun", gender:"f",
    note:"Distinct from others, made different.\nFeminine: différenciée. Used in education and marketing.",
    example:"A: L'enseignement différencié s'adapte à chaque élève.\nB: C'est l'idéal mais difficile à mettre en oeuvre.\nA: Les outils numériques peuvent aider.\nB: Oui, chaque élève avance à son rythme.",
    exampleSrc:"A: Differentiated teaching adapts to each student.\nB: It's ideal but hard to implement.\nA: Digital tools can help.\nB: Yes, each student progresses at their own pace.",
