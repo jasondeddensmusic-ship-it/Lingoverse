@@ -243,7 +243,7 @@ export default {n:10,lang:"nl",srcLang:"en",track:"v2",title:"Vroeger & Verhalen
         {type:"mc",q:"Which word means 'it is cloudy'?",opts:["het is bewolkt","het is mistig","het waait","het onweert"],ans:"het is bewolkt",hint:"___ comes from wolk (cloud). Add be- prefix."},
         {type:"mc",q:"'De regenboog' is literally:",opts:["the wet-arc","the rain-bow","the sky-color","the water-bridge"],ans:"the rain-bow",hint:"Regen (___) + boog (___/arc). Same logic as English."},
         {type:"fb",opts:["storm","wind","mist","wolk"],hint:"Extreme weather with very strong winds. Cognate with English.",s:"Er komt een ___ aan! Windkracht 9!",a:"storm"},
-        {type:"mc",q:"'Het meer' means 'the lake'. What other meaning does 'meer' have?",opts:["sea","less","more","pond"],ans:"more",hint:"Context matters: het meer = the lake, meer = more."},
+        {type:"mc",q:"'Het meer' means 'the lake'. What other meaning does 'meer' have?",opts:["sea","less","more","pond"],ans:"more",hint:"Drop the article and 'meer' becomes a comparison word (the opposite of 'minder')."},
         {type:"match",pairs:[{trg:"de wind",src:"the wind"},{trg:"de wolk",src:"the cloud"},{trg:"de donder",src:"the thunder"},{trg:"de bliksem",src:"the lightning"},{trg:"de regenboog",src:"the rainbow"}]},
         {type:"fb",opts:["bos","meer","berg","zee"],hint:"A large area with many trees. Het-word. De Veluwe is famous for this.",s:"Laten we door het ___ wandelen.\n(Let's walk through the forest.)",a:"bos"},
         {type:"drag_fill",hint:"After the rain shines the sun and we see a rainbow in the sky.",s:"Na de {1} schijnt de zon en we zien een {2} aan de hemel.",blanks:{"1":"regen","2":"regenboog"},pool:["regen","regenboog","storm","bliksem"]},

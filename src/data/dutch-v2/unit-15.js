@@ -162,7 +162,7 @@ export default {n:15,lang:"nl",srcLang:"en",track:"v2",title:"Opleiding & Toekom
   ]},
   {id:"v2u15l8",title:"Unit 15 Review",icon:"🔄",xp:20,board:true,steps:[
         {type:"intro",title:"Unit 15 Review",desc:"Education, infinitive constructions, progressive, laten, and verb clusters. The last B1.1 review.",goals:["Education vocabulary review","om te / zonder te / in plaats van te","Zitten/staan/liggen te (progressive)","Laten: suggestions, causatives, expressions"]},
-        {type:"mc",q:"'Slagen voor het examen' means:",opts:["To pass the exam","To fail the exam","To take the exam","To study for the exam"],ans:"To pass the exam",hint:"Slagen = p..., zakken = fail"},
+        {type:"mc",q:"'Slagen voor het examen' means:",opts:["To pass the exam","To fail the exam","To take the exam","To study for the exam"],ans:"To pass the exam",hint:"Slagen is the positive outcome verb. Zakken is the negative outcome (literally 'to sink')."},
         {type:"fb",opts:["zonder","om","in","voor"],hint:"He left, not having paid (a negative conjunction)",s:"Hij ging weg ___ te betalen. (without)",a:"zonder"},
         {type:"match",pairs:[{trg:"om te",src:"in order to"},{trg:"zonder te",src:"without"},{trg:"proberen te",src:"to try to"},{trg:"vergeten te",src:"to forget to"}]},
         {type:"fb",opts:["ligt","zit","staat","loopt"],hint:"The cat LIES sleeping",s:"De kat ___ te slapen. (lies. progressive)",a:"ligt"},

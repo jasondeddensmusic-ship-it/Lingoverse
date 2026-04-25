@@ -129,7 +129,7 @@ const UNIT_27 =
 {type:"drag_fill",s:"은/는 = {1}. 도 = {2}. 만 = {3}.\n커녕 = {4}.\n(Topic. Even. Only. Let-alone.)",blanks:{"1":"topic","2":"even/also","3":"only","4":"let alone"},pool:["topic","even/also","only","let alone","subject","and","but","because"],hint:"Think about which particles mark the topic, add emphasis, and limit scope in this pattern."},
 
 {type:"drag_fill",s:"쉬{1}커녕 더 바빠졌{2}요. 이해{3}커녕 관심{4} 없어요.\n(Far from resting, got busier. Far from understanding, no interest.)",blanks:{"1":"기는","2":"어","3":"는","4":"도"},pool:["기는","어","는","도","는","았","은","을"],hint:"Verb nominalized + topic before 커녕. Past tense polite. Noun + topic before 커녕. Inclusive marker."},
-{type:"mc",q:"칭찬은커녕 비판만 받았어요.\n만 here means?\n(Far from praise, only received criticism.)",opts:["만 = even","만 = also","만 = only","만 = but"],ans:"만 = only",hint:"만 = only. One of the first particles."},
+{type:"mc",q:"칭찬은커녕 비판만 받았어요.\n만 here means?\n(Far from praise, only received criticism.)",opts:["만 = even","만 = also","만 = only","만 = but"],ans:"만 = only",hint:"This 만 restricts the criticism to the exclusion of everything else (no praise, just criticism)."},
 ]},
 // --- L6: -(으)나 마나 vs -(으)ㄴ/는들 (No Use & Even If) ---
 {id:"kou27l6",title:"나 마나 vs 는들",icon:"🔄",xp:20,board:true,steps:[

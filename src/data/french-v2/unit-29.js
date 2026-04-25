@@ -25,7 +25,7 @@ export default {n:29,lang:"fr",srcLang:"en",track:"v2",title:"Proverbes, Express
         {type:"fb",opts:["moine","roi","saint","prêtre"],hint:"A religious person living in a monastery",s:"L'habit ne fait pas le {1}.",a:["moine"]},
         {type:"mc",q:"What animal appears in the proverb about patience and steady effort?",opts:["Un oiseau","Un ours","Un moine","Un renard"],ans:"Un oiseau",hint:"A small creature that builds something piece by piece"},
         {type:"drag_fill",hint:"First the skin, then what you do to the bear",s:"Il ne faut pas vendre la {1} de l'ours avant de l'avoir {2}.",blanks:{"1":"peau","2":"tué"},pool:["peau","tué","vu","main"]},
-        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who lives well sees well","Who will live will see","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Translate each word: qui=___, vivra=will ___, verra=will ___"},
+        {type:"mc",q:"What is the literal meaning of 'Qui vivra verra'?",opts:["Who lives well sees well","Who will live will see","Life is short","Living is seeing"],ans:"Who will live will see",hint:"Both verbs are in the future tense. Translate each word literally rather than the proverb's meaning."},
         {type:"fb",opts:["Qui","Que","Quoi","Quel"],hint:"The relative pronoun meaning 'who' as a subject",s:"{1} vivra verra.",a:["Qui"]}
   ]},
   {id:"fre29l2",title:"Expressions culinaires",icon:"🍑",xp:15,board:true,steps:[
