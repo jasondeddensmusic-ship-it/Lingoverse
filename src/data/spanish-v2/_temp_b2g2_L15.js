@@ -110,7 +110,7 @@ const LESSON_15 = {id:"esv2_b2g2_l15",title:"Influir y comunicar",icon:"🗣️"
  exampleSrc:"A: They discharged him from the hospital this morning.\nB: He is feeling much better now.",
  funFact:"The opposite is 'dar de baja' (to deregister/discharge). Essential for Spanish bureaucracy."},
 
-{type:"teach",trg:"la agrado",src:"the pleasure / liking",pos:"noun",gender:"m",
+{type:"teach",trg:"el agrado",src:"the pleasure / liking",pos:"noun",gender:"m",
  note:"Masculine noun. A feeling of pleasure or satisfaction.",
  example:"A: Espero que la cena sea de su agrado.\nB: Todo estuvo delicioso, muchas gracias.",
  exampleSrc:"A: I hope the dinner is to your liking.\nB: Everything was delicious, thank you very much.",

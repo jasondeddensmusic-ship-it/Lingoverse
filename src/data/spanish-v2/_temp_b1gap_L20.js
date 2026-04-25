@@ -54,7 +54,7 @@ const LESSON_20 = {
      exampleSrc:"A: Have you tried Argentine alfajores?\nB: Yes, with dulce de leche. Delicious.",
      funFact:"From Arabic 'al-hasu' (the filling). In Spain, alfajor is a honey-almond bar. In Argentina, it is two cookies with dulce de leche. Same name, different sweet."},
 
-    {type:"teach", trg:"el alhaja", src:"the jewel, treasure", pos:"noun", gender:"f",
+    {type:"teach", trg:"la alhaja", src:"the jewel, treasure", pos:"noun", gender:"f",
      note:"Feminine noun but uses 'el' sometimes.\nAlso figurative: a gem of a person.",
      example:"A: Esta pulsera es una alhaja de familia.\nB: Qu\u00e9 bonita, gu\u00e1rdala bien.",
      exampleSrc:"A: This bracelet is a family jewel.\nB: How beautiful, keep it safe.",

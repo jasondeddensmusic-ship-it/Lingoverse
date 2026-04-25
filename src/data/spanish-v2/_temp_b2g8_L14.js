@@ -37,7 +37,7 @@ const LESSON_14 = {id:"esv2_b2g8_l14",title:"Política y gobernanza",icon:"🏛�
  exampleSrc:"A: The economic indicators for this quarter are positive.\nB: Unemployment has dropped two points.",
  funFact:"Spain's INE (Instituto Nacional de Estadística) publishes monthly indicators that move markets and policy."},
 
-{type:"teach",trg:"la contragolpe",src:"the counterattack / backlash",pos:"noun",gender:"m",
+{type:"teach",trg:"el contragolpe",src:"the counterattack / backlash",pos:"noun",gender:"m",
  note:"Masculine noun. A retaliatory strike, or an unexpected reversal.\nContra (against) + golpe (blow).",
  example:"A: El contragolpe político fue más fuerte de lo esperado.\nB: La oposición reaccionó con mucha agresividad.",
  exampleSrc:"A: The political counterattack was stronger than expected.\nB: The opposition reacted very aggressively.",
