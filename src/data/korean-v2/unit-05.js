@@ -188,7 +188,7 @@ const UNIT_5 =
   {type:"fb",s:"커피___ 있어요. (coffee exists. subject/new info)",a:"가",opts:["가","는","를","이"],hint:"Vowel ending or consonant ending?"},
   {type:"fb",s:"저는 밥___ 먹어요.\n(I eat rice. rice is object)",a:"을",opts:["을","를","은","이"],hint:"Consonant or vowel ending?"},
   {type:"match",pairs:[{nl:"은/는",en:"TOPIC: as for X"},{nl:"이/가",en:"SUBJECT: new info"},{nl:"을/를",en:"OBJECT: acted upon"},{nl:"도",en:"ALSO: replaces topic/subject"}]},
-  {type:"drag_fill",s:"{1}는 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"저","2":"를","3":"가"},pool:["는","가","를","이","을"],hint:"I (topic) study Korean (object). Korean (subject) is interesting."},
+  {type:"drag_fill",s:"저{1} 한국어{2} 공부해요. 한국어{3} 재미있어요.",blanks:{"1":"는","2":"를","3":"가"},pool:["는","가","를","이","을"],hint:"I (topic) study Korean (object). Korean (subject) is interesting."},
   {type:"mc",q:"제가 vs 저는: the difference is:",opts:["제가 is formal, 저는 is casual","제가 is past; 저는 is present","They are completely identical","제가: focus on ME; 저는: topic"],ans:"제가: focus on ME; 저는: topic",hint:"제가 highlights the speaker as the one performing the action; 저는 frames the speaker as what the sentence is generally about."},
   {type:"mc",q:"도 replaces 은/는 or 이/가. It means:",opts:["Also / too","Not","But","And"],ans:"Also / too",hint:"저도 = me too. 도 replaces 는 or 가 entirely."},
 ]},

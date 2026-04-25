@@ -427,8 +427,8 @@ const UNIT_02 = {
        hint:"Italian adjectives ending in -e are invariable for gender in the singular. Only the plural form changes. Think of the -e class: one form covers both masculine and feminine."},
 
       {type:"drag_fill",
-       s:"L'italiano e {interessante} ma non e {difficile}.",
-       blanks:{"interessante":"interesting","difficile":"difficult"},
+       s:"L'italiano e {1} ma non e {2}.",
+       blanks:{"1":"interessante","2":"difficile"},
        pool:["interessante","difficile","facile","bello"],
        hint:"Drag the two adjectives into the correct blanks. One means engaging; the other means hard.",
        sSrc:"Italian is [interesting] but it is not [difficult]."},
