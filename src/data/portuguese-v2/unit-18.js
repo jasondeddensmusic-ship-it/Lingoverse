@@ -31,7 +31,7 @@ const UNIT_18 = {n:18, lang:"pt", srcLang:"en", track:"v2", title:"Eu me chamo..
 
 {type:"teach", trg:"vos", src:"yourselves", pos:"pron", gender:null,
  note:"Second person plural reflexive. Rare in Brazil, used mostly in church contexts and literature.",
- example:"A: Irmãos, vos reuni aqui hoje. (formal)\nB: Estamos juntos, padre.",
+ example:"A: Irmãos, vos reuni aqui hoje.\nB: Estamos juntos, padre.",
  exampleSrc:"A: Brothers, I have gathered you here today. (formal)\nB: We are together, father.",
  funFact:"Most Brazilians replace 'vos' with 'vocês se' in everyday speech. 'Vos' survives in prayers."},
 
