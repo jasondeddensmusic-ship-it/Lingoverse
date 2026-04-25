@@ -1,6 +1,6 @@
 // Batch 10 – Unit 20 (B1.2 Keigo): Honorific Expressions
 const BATCH10_L1 = {
-  id:"jav2_u20l_b10_1", title:"尊敬語(そんけいご)", icon:"👑", xp:15, board:true,
+  id:"jav2_u20l_b10_1", title:"尊敬語(そんけいご) (II)", icon:"👑", xp:15, board:true,
   steps:[
     {type:"intro", title:"尊敬語(そんけいご)",
      desc:"Learn honorific speech (尊敬語(そんけいご)), the form of keigo where you elevate the listener or person being discussed to show respect.",

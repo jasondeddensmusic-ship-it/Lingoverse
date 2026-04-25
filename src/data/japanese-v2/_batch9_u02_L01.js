@@ -1,6 +1,6 @@
 // Batch 9 – Unit 02 (A1.1 Self-Intro): Personal Details
 const BATCH9_L1 = {
-  id:"jav2_u02l_b9_1", title:"自己紹介(じこしょうかい)", icon:"📝", xp:15, board:true,
+  id:"jav2_u02l_b9_1", title:"自己紹介(じこしょうかい) (II)", icon:"📝", xp:15, board:true,
   steps:[
     {type:"intro", title:"自己紹介(じこしょうかい)",
      desc:"Learn to share personal details like your nationality, job, and age. These are common topics in first conversations.",

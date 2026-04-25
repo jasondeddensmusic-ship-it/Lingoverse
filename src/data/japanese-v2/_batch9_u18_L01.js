@@ -1,6 +1,6 @@
 // Batch 9 – Unit 18 (B1.2 Causative): Workplace Hierarchy
 const BATCH9_L1 = {
-  id:"jav2_u18l_b9_1", title:"職場(しょくば)の関係(かんけい)", icon:"👔", xp:15, board:true,
+  id:"jav2_u18l_b9_1", title:"職場(しょくば)の関係(かんけい) (II)", icon:"👔", xp:15, board:true,
   steps:[
     {type:"intro", title:"職場(しょくば)の関係(かんけい)",
      desc:"Learn workplace hierarchy vocabulary. Japanese offices have clear senpai-kohai dynamics and specific terms for organizational relationships.",

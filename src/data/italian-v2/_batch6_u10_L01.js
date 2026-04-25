@@ -1,5 +1,5 @@
 // Batch 6. Unit 10 extra lesson. I viaggi: At the Airport
-const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto", icon:"\u{2708}\u{FE0F}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u10l_b6_1", title:"All'aeroporto (II)", icon:"\u{2708}\u{FE0F}", xp:15, board:true, steps:[
 {type:"intro", title:"All'aeroporto",
  desc:"Learn essential airport vocabulary for navigating Italian airports, checking in, and boarding flights.",
  goals:["Check in for a flight","Navigate airport areas","Understand boarding announcements"]},

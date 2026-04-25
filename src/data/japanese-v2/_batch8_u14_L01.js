@@ -1,6 +1,6 @@
 // Batch 8 – Unit 14 (A2.2 Opinions): Emotions & Feelings
 const BATCH8_L1 = {
-  id:"jav2_u14l_b8_1", title:"気持(きも)ちと感情(かんじょう)", icon:"😊", xp:15, board:true,
+  id:"jav2_u14l_b8_1", title:"気持(きも)ちと感情(かんじょう) (II)", icon:"😊", xp:15, board:true,
   steps:[
     {type:"intro", title:"気持(きも)ちと感情(かんじょう)",
      desc:"Expand your emotional vocabulary beyond basic adjectives. These words let you express nuanced feelings and emotional states essential for meaningful conversations.",

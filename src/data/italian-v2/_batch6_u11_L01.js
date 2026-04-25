@@ -1,5 +1,5 @@
 // Batch 6. Unit 11 extra lesson. Il passato: Common Irregular Past Participles
-const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari", icon:"\u{1F4DA}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u11l_b6_1", title:"Participi irregolari (III)", icon:"\u{1F4DA}", xp:15, board:true, steps:[
 {type:"intro", title:"Participi irregolari",
  desc:"Master the most common irregular past participles in Italian and practice using them in everyday sentences.",
  goals:["Learn 15 key irregular past participles","Use them correctly with avere and essere","Build sentences about past events"]},

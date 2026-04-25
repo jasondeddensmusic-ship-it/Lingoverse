@@ -1,6 +1,6 @@
 // Batch 9 – Unit 33 (B2): 古典文学(こてんぶんがく)
 const BATCH9_L1 = {
-  id:"jav2_u33l_b9_1", title:"古典文学(こてんぶんがく)", icon:"📖", xp:15, board:true,
+  id:"jav2_u33l_b9_1", title:"古典文学(こてんぶんがく) (II)", icon:"📖", xp:15, board:true,
   steps:[
     {type:"intro", title:"古典文学(こてんぶんがく)",
      desc:"Classical literature and poetry vocabulary",

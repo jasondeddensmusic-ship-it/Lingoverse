@@ -1,6 +1,6 @@
 // Batch 10 – Unit 27 (B2): 自然保護(しぜんほご)
 const BATCH10_L1 = {
-  id:"jav2_u27l_b10_1", title:"自然保護(しぜんほご)", icon:"🌿", xp:15, board:true,
+  id:"jav2_u27l_b10_1", title:"自然保護(しぜんほご) (II)", icon:"🌿", xp:15, board:true,
   steps:[
     {type:"intro", title:"自然保護(しぜんほご)",
      desc:"Nature conservation and ecology vocabulary",

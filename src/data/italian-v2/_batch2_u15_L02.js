@@ -1,6 +1,6 @@
 // Unit 15 Batch2. Lesson 2: Moving & Neighborhood Life
 const BATCH2_U15_L2 = {
-  id:"itv2_u15l_b2_2", title:"Il quartiere", icon:"🏘️", xp:15, board:true,
+  id:"itv2_u15l_b2_2", title:"Il quartiere (II)", icon:"🏘️", xp:15, board:true,
   steps:[
     {type:"intro", title:"Il quartiere",
      desc:"Learn vocabulary for neighborhoods, moving logistics, and community life. These words help you describe where you live and navigate the practical side of Italian housing.",

@@ -1,6 +1,6 @@
 // Batch 7 – Unit 26 (B2.1 News & Media): Media Literacy Vocabulary
 const BATCH7_L1 = {
-  id:"jav2_u26l_b7_1", title:"メディアリテラシー", icon:"📺", xp:15, board:true,
+  id:"jav2_u26l_b7_1", title:"メディアリテラシー (III)", icon:"📺", xp:15, board:true,
   steps:[
     {type:"intro", title:"メディアリテラシー",
      desc:"Learn vocabulary for discussing media, journalism, and information literacy. These JLPT N2 words are essential for understanding news reports and discussing media critically.",

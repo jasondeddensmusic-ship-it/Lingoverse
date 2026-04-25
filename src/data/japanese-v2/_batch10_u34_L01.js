@@ -1,6 +1,6 @@
 // Batch 10 – Unit 34 (B2): 国際協力(こくさいきょうりょく)
 const BATCH10_L1 = {
-  id:"jav2_u34l_b10_1", title:"国際協力(こくさいきょうりょく)", icon:"🤝", xp:15, board:true,
+  id:"jav2_u34l_b10_1", title:"国際協力(こくさいきょうりょく) (II)", icon:"🤝", xp:15, board:true,
   steps:[
     {type:"intro", title:"国際協力(こくさいきょうりょく)",
      desc:"International cooperation and development vocabulary",

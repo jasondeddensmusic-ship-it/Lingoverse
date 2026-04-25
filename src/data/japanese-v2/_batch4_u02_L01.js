@@ -1,6 +1,6 @@
 // Batch 4. Unit 02 Lesson 1: Countries & Nationalities
 const BATCH4_L_1 = {
-  id:"jav2_u02l_b4_1", title:"国(くに)と国籍(こくせき)", icon:"🌏", xp:15, board:true,
+  id:"jav2_u02l_b4_1", title:"国(くに)と国籍(こくせき) (II)", icon:"🌏", xp:15, board:true,
   steps:[
     {type:"intro", title:"国(くに)と国籍(こくせき)",
      desc:"Learn more country names and how to talk about nationalities and languages in Japanese.",

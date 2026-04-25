@@ -1,6 +1,6 @@
 // Batch 4. Unit 07, Lesson 1: Regional Italian Dishes
 const BATCH4_U07_L1 = {
-  id:"itv2_u07l_b4_1", title:"Piatti regionali", icon:"\uD83C\uDDEE\uD83C\uDDF9", xp:15, board:true,
+  id:"itv2_u07l_b4_1", title:"Piatti regionali (II)", icon:"\uD83C\uDDEE\uD83C\uDDF9", xp:15, board:true,
   steps:[
     {type:"intro", title:"Piatti regionali",
      desc:"Explore Italy's regional cuisine vocabulary, from Neapolitan classics to Sicilian specialties.",

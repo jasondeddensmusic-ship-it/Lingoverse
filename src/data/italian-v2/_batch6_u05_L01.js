@@ -1,6 +1,6 @@
 // Batch 6. Unit 05 extra lesson. A casa: Household Chores & Maintenance
-const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Le faccende domestiche", icon:"\u{1F9F9}", xp:15, board:true, steps:[
-{type:"intro", title:"Le faccende domestiche",
+const BATCH6_L1 = {id:"itv2_u05l_b6_1", title:"Pulire e mantenere casa", icon:"\u{1F9F9}", xp:15, board:true, steps:[
+{type:"intro", title:"Pulire e mantenere casa",
  desc:"Learn vocabulary for household chores, cleaning, and basic home maintenance.",
  goals:["Name common household chores","Discuss cleaning and tidying up","Talk about home maintenance tasks"]},
 

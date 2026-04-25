@@ -1,6 +1,6 @@
 // Batch 3. Unit 09, Lesson 1: In farmacia (At the Pharmacy)
 const BATCH3_U09_L1 = {
-  id:"itv2_u09l_b3_1", title:"In farmacia", icon:"\uD83D\uDC8A", xp:15, board:true,
+  id:"itv2_u09l_b3_1", title:"In farmacia (II)", icon:"\uD83D\uDC8A", xp:15, board:true,
   steps:[
     {type:"intro", title:"In farmacia",
      desc:"Learn vocabulary for visiting an Italian pharmacy. Pharmacists in Italy are trusted health advisors who can recommend treatments for common ailments.",

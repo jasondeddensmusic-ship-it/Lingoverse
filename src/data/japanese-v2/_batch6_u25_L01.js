@@ -1,6 +1,6 @@
 // Batch 6 – Unit 25 (B2.1 Business): Negotiations & Contracts
 const BATCH6_L1 = {
-  id:"jav2_u25l_b6_1", title:"交渉(こうしょう)と契約(けいやく)", icon:"📑", xp:15, board:true,
+  id:"jav2_u25l_b6_1", title:"交渉(こうしょう)と契約(けいやく) (II)", icon:"📑", xp:15, board:true,
   steps:[
     {type:"intro", title:"交渉(こうしょう)と契約(けいやく)",
      desc:"Master advanced business vocabulary for negotiations and contracts. These JLPT N2 words are essential for anyone working in a Japanese business environment.",

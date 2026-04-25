@@ -1,6 +1,6 @@
 // Batch 9 – Unit 05 (A1.2 Food): Cooking & Kitchen
 const BATCH9_L1 = {
-  id:"jav2_u05l_b9_1", title:"台所(だいどころ)", icon:"🍳", xp:15, board:true,
+  id:"jav2_u05l_b9_1", title:"台所(だいどころ) (III)", icon:"🍳", xp:15, board:true,
   steps:[
     {type:"intro", title:"台所(だいどころ)",
      desc:"Learn kitchen vocabulary and basic cooking terms. Japanese cuisine has a rich vocabulary for preparation methods and kitchen tools.",

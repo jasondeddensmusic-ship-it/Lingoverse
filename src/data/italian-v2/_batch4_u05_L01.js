@@ -1,8 +1,8 @@
 // Batch 4. Unit 05, Lesson 1: Furniture & Household Objects
 const BATCH4_U05_L1 = {
-  id:"itv2_u05l_b4_1", title:"I mobili", icon:"\uD83D\uDECB", xp:15, board:true,
+  id:"itv2_u05l_b4_1", title:"Mobili e oggetti di casa", icon:"\uD83D\uDECB", xp:15, board:true,
   steps:[
-    {type:"intro", title:"I mobili",
+    {type:"intro", title:"Mobili e oggetti di casa",
      desc:"Learn Italian names for furniture and common household objects found in every home.",
      goals:["Name furniture in different rooms","Describe your home setup","Use prepositions of location with furniture"]},
 

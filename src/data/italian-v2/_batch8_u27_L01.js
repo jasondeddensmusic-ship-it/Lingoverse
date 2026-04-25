@@ -1,5 +1,5 @@
 // Batch 8. Unit 27 extra lesson. Science: Laboratory & Methodology
-const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico", icon:"🧪", xp:15, board:true, steps:[
+const BATCH8_L1 = {id:"itv2_u27l_b8_1", title:"Il metodo scientifico (II)", icon:"🧪", xp:15, board:true, steps:[
 {type:"intro", title:"Il metodo scientifico",
  desc:"Learn vocabulary for scientific methodology, laboratory work, and the research process.",
  goals:["Describe the scientific method","Use laboratory vocabulary","Discuss research methodology"]},

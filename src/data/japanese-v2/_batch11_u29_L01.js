@@ -1,6 +1,6 @@
 // Batch 11 – Unit 29 (B2.2 Economy): Economic & Financial Terms
 const BATCH11_L1 = {
-  id:"jav2_u29l_b11_1", title:"経済用語(けいざいようご)", icon:"💹", xp:15, board:true,
+  id:"jav2_u29l_b11_1", title:"経済用語(けいざいようご) (III)", icon:"💹", xp:15, board:true,
   steps:[
     {type:"intro", title:"経済用語(けいざいようご)",
      desc:"Learn essential economic and financial vocabulary. These terms appear frequently in news, business discussions, and JLPT N2 reading passages.",

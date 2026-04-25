@@ -1,5 +1,5 @@
 // Batch 6. Unit 34 extra lesson. Le relazioni internazionali: Diplomacy & Cooperation
-const BATCH6_L1 = {id:"itv2_u34l_b6_1", title:"La diplomazia", icon:"\u{1F91D}", xp:15, board:true, steps:[
+const BATCH6_L1 = {id:"itv2_u34l_b6_1", title:"La diplomazia (II)", icon:"\u{1F91D}", xp:15, board:true, steps:[
 {type:"intro", title:"La diplomazia",
  desc:"Learn advanced vocabulary for diplomacy, international cooperation, and geopolitical discourse.",
  goals:["Discuss diplomatic relations and negotiations","Understand international organization vocabulary","Analyze geopolitical situations"]},
