@@ -30,7 +30,7 @@ const LESSON_16 = {
      example:"A: In de avonduren is het rustig in het park.\nB: Dat is de beste tijd om te wandelen.\nA: De zon gaat dan mooi onder.\nB: Nederlandse zonsondergangen zijn prachtig.",
      exampleSrc:"A: In the evening hours it is quiet in the park.\nB: That is the best time to walk.\nA: The sun sets beautifully then.\nB: Dutch sunsets are gorgeous.",
      funFact:"The Netherlands has spectacular sunsets because of its flat landscape and big skies. Dutch Golden Age painters like Ruysdael captured these 'avondluchten' (evening skies) magnificently."},
-    {type:"teach", trg:"de buitengerechtelijk", src:"extrajudicial, out of court", pos:"noun", gender:null,
+    {type:"teach", trg:"de buitengerechtelijk", src:"extrajudicial, out of court", pos:"noun", gender:"c",
      note:"Compound: buiten (outside) + gerechtelijk (judicial).\n'Buitengerechtelijke schikking' = out-of-court settlement.",
      example:"A: Ze bereikten een buitengerechtelijke schikking.\nB: Zonder rechter?\nA: Ja, via mediation.\nB: Dat is sneller en goedkoper.",
      exampleSrc:"A: They reached an out-of-court settlement.\nB: Without a judge?\nA: Yes, through mediation.\nB: That is faster and cheaper.",

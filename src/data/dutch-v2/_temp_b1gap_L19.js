@@ -103,19 +103,19 @@ const LESSON_19 = {
      ans:"babbelen",
      hint:"Which informal verb means to have a cozy, casual chat?"},
 
-    {type:"teach", trg:"de achttienhonderd", src:"eighteen hundred", pos:"noun", gender:null,
+    {type:"teach", trg:"de achttienhonderd", src:"eighteen hundred", pos:"noun", gender:"c",
      note:"Number. The year 1800 or the number 1800.",
      example:"A: Dit huis is gebouwd in achttienhonderd.\nB: Wauw, meer dan tweehonderd jaar oud.",
      exampleSrc:"A: This house was built in eighteen hundred.\nB: Wow, more than two hundred years old.",
      funFact:"Dutch says years differently: 1800 = 'achttienhonderd', not 'duizend achthonderd'."},
 
-    {type:"teach", trg:"de achthonderd", src:"eight hundred", pos:"noun", gender:null,
+    {type:"teach", trg:"de achthonderd", src:"eight hundred", pos:"noun", gender:"c",
      note:"800. Compound: acht (8) + honderd (100). Used with definite article in counting contexts.",
      example:"A: Er zijn achthonderd leerlingen op deze school.\nB: Dat is een grote school.",
      exampleSrc:"A: There are eight hundred students at this school.\nB: That is a big school.",
      funFact:"Dutch number compounds: acht (8) + honderd (100). No spaces. Larger numbers get very long."},
 
-    {type:"teach", trg:"de achttien", src:"eighteen", pos:"noun", gender:null,
+    {type:"teach", trg:"de achttien", src:"eighteen", pos:"noun", gender:"c",
      note:"18. Dutch teens use -tien ending: twaalf, dertien, veertien... zeventien, achttien, negentien.",
      example:"A: Ze is achttien geworden!\nB: Gefeliciteerd! Ze is nu volwassen.",
      exampleSrc:"A: She turned eighteen!\nB: Congratulations! She is now an adult.",

@@ -35,7 +35,7 @@ const LESSON_19 = {
      ans:"affublé",
      hint:"This adjective always implies looking ridiculous in one's clothing. It inherently carries mockery."},
 
-    {type:"teach", trg:"la célébrissime", src:"extremely famous", pos:"noun", gender:null,
+    {type:"teach", trg:"la célébrissime", src:"extremely famous", pos:"noun", gender:"f",
      note:"Adjective. Superlative of 'celebre'. Extremely well-known.",
      example:"A: La célébrissime tour Eiffel attire des millions de visiteurs.\nB: C'est le monument le plus visité au monde.",
      exampleSrc:"A: The ultra-famous Eiffel Tower attracts millions of visitors.\nB: It's the most visited monument in the world.",
@@ -53,7 +53,7 @@ const LESSON_19 = {
      exampleSrc:"A: His navy blue suit is very elegant.\nB: He had it custom-made.",
      funFact:"'Sur mesure' (custom-made) is the gold standard in French fashion. Ready-to-wear is 'pret-a-porter', itself a French expression used worldwide."},
 
-    {type:"teach", trg:"le chômer", src:"to be unemployed, to be idle", pos:"noun", gender:null,
+    {type:"teach", trg:"le chômer", src:"to be unemployed, to be idle", pos:"noun", gender:"m",
      note:"Verb. To be without work. 'Jour chome' is a public holiday (no-work day).",
      example:"A: Il chôme depuis six mois.\nB: Le marché du travail est difficile en ce moment.",
      exampleSrc:"A: He has been unemployed for six months.\nB: The job market is tough right now.",
@@ -66,7 +66,7 @@ const LESSON_19 = {
      hint:"This noun refers to a horse-cart driver, famous in French idiom for their colorful language.",
      sSrc:"He swears like a {1}, it's really not polite."},
 
-    {type:"teach", trg:"le dévolu", src:"devoted, set on", pos:"noun", gender:null,
+    {type:"teach", trg:"le dévolu", src:"devoted, set on", pos:"noun", gender:"m",
      note:"Adjective. Used in 'jeter son devolu sur' meaning to set one's sights on.",
      example:"A: Elle a jeté son dévolu sur ce poste.\nB: Elle fera tout pour l'obtenir.",
      exampleSrc:"A: She has set her sights on this position.\nB: She will do everything to get it.",

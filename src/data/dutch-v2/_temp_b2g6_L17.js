@@ -24,13 +24,13 @@ const LESSON_17 = {
      exampleSrc:"A: The city was shrouded in fog.\nB: Could you not see anything?\nA: Barely, it was very thick.\nB: Typical autumn in the Netherlands.",
      funFact:"The expression 'in nevelen gehuld' (shrouded in mists) is used figuratively for something mysterious or unclear. Very literary Dutch."},
 
-    {type:"teach", trg:"het Deens", src:"Danish (language)", pos:"noun", gender:null,
+    {type:"teach", trg:"het Deens", src:"Danish (language)", pos:"noun", gender:"n",
      note:"From 'Denemarken' (Denmark).\nCapitalized when referring to the language.",
      example:"A: Spreek jij Deens?\nB: Een beetje, ik heb in Kopenhagen gestudeerd.\nA: Het lijkt op Nederlands, toch?\nB: De schrijftaal wel, maar de uitspraak is heel anders.",
      exampleSrc:"A: Do you speak Danish?\nB: A bit, I studied in Copenhagen.\nA: It resembles Dutch, right?\nB: The written language does, but the pronunciation is very different.",
      funFact:"Dutch and Danish are both Germanic languages. A Dutch person reading Danish can understand much of it, but speaking is a different story entirely."},
 
-    {type:"teach", trg:"het Duits", src:"German (language)", pos:"noun", gender:null,
+    {type:"teach", trg:"het Duits", src:"German (language)", pos:"noun", gender:"n",
      note:"From 'Duitsland' (Germany).\nThe closest major relative of Dutch.",
      example:"A: Ik leer Duits op school.\nB: Dat is handig, Duitsland is onze buurman.\nA: Veel woorden lijken op Nederlands.\nB: Maar de grammatica is moeilijker.",
      exampleSrc:"A: I am learning German at school.\nB: That is useful, Germany is our neighbor.\nA: Many words resemble Dutch.\nB: But the grammar is harder.",
@@ -67,7 +67,7 @@ const LESSON_17 = {
      hint:"The frozen layer covering the polar region. Compound of 'ijs' (ice) and 'kap' (cap).",
      sSrc:"The {1} on the North Pole is melting due to climate change."},
 
-    {type:"teach", trg:"het Germaans", src:"Germanic (language family)", pos:"noun", gender:null,
+    {type:"teach", trg:"het Germaans", src:"Germanic (language family)", pos:"noun", gender:"n",
      note:"From Latin 'Germanus'.\nThe language family that includes Dutch, German, English, and Scandinavian languages.",
      example:"A: Nederlands is een Germaanse taal.\nB: Net als Duits en Engels.\nA: En ook de Scandinavische talen.\nB: Ze hebben allemaal dezelfde oorsprong.",
      exampleSrc:"A: Dutch is a Germanic language.\nB: Just like German and English.\nA: And also the Scandinavian languages.\nB: They all have the same origin.",

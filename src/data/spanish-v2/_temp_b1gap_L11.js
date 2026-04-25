@@ -79,7 +79,7 @@ const LESSON_11 = {
      hint:"A verb meaning to make something soft or tender, especially food before cooking.",
      sSrc:"You need to {1} the meat with a bit of lemon before grilling it."},
 
-    {type:"teach", trg:"el alumbrar", src:"to light up, to illuminate", pos:"noun", gender:null,
+    {type:"teach", trg:"el alumbrar", src:"to light up, to illuminate", pos:"noun", gender:"m",
      note:"Regular -ar verb. To provide light.\nAlumbrado p\u00fablico = street lighting.",
      example:"A: Las velas alumbran toda la habitaci\u00f3n.\nB: Qu\u00e9 ambiente tan bonito.",
      exampleSrc:"A: The candles light up the whole room.\nB: What a beautiful atmosphere.",

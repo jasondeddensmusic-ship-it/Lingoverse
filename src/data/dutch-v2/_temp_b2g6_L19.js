@@ -67,13 +67,13 @@ const LESSON_19 = {
      hint:"To observe or follow rules strictly. The most formal way to say 'pay attention to' in Dutch.",
      sSrc:"You must strictly {1} the traffic rules."},
 
-    {type:"teach", trg:"de contextgebonden", src:"context-dependent, context-bound", pos:"noun", gender:null,
+    {type:"teach", trg:"de contextgebonden", src:"context-dependent, context-bound", pos:"noun", gender:"c",
      note:"Compound: context + gebonden (bound, tied).\nMeaning depends on the situation.",
      example:"A: De betekenis van dit woord is contextgebonden.\nB: Het hangt dus af van de zin?\nA: Precies, het kan verschillende dingen betekenen.\nB: Dat maakt Nederlands lastig.",
      exampleSrc:"A: The meaning of this word is context-dependent.\nB: So it depends on the sentence?\nA: Exactly, it can mean different things.\nB: That makes Dutch tricky.",
      funFact:"Many Dutch words are 'contextgebonden'. The word 'bank' can mean a couch, a financial bank, or a park bench depending on context."},
 
-    {type:"teach", trg:"het Germaans", src:"Germanic", pos:"noun", gender:null,
+    {type:"teach", trg:"het Germaans", src:"Germanic", pos:"noun", gender:"n",
      note:"Relating to the Germanic language family or peoples.\nDutch, German, English are all Germaans.",
      example:"A: Nederlands heeft veel Germaanse woorden.\nB: Zoals welke?\nA: Huis, water, brood, melk.\nB: Die zijn inderdaad in alle Germaanse talen te vinden.",
      exampleSrc:"A: Dutch has many Germanic words.\nB: Such as which?\nA: House, water, bread, milk.\nB: Those are indeed found in all Germanic languages.",

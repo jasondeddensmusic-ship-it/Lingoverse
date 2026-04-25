@@ -90,7 +90,7 @@ const LESSON_10 = {
      exampleSrc:"A: It's the tenth floor.\nB: Fortunately there's an elevator.",
      funFact:"French ordinals add '-ième' to the cardinal: deux > deuxième, dix > dixième. Exception: premier/première."},
 
-    {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:null,
+    {type:"teach", trg:"le cinquantième", src:"the fiftieth", pos:"noun", gender:"m",
      note:"Adjective or noun. The ordinal for fifty.",
      example:"A: C'est le cinquantième anniversaire de l'entreprise.\nB: On organise une grande fête.",
      exampleSrc:"A: It's the fiftieth anniversary of the company.\nB: We're organizing a big celebration.",

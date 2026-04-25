@@ -53,7 +53,7 @@ const LESSON_13 = {
      exampleSrc:"A: He smokes a cigarillo after dinner.\nB: The smell is less strong than a cigar.",
      funFact:"From Spanish 'cigarrillo' (little cigar). France taxes tobacco heavily, making cigarillos a luxury."},
 
-    {type:"teach", trg:"la creme", src:"the cream (color), cream-colored", pos:"noun", gender:null,
+    {type:"teach", trg:"la creme", src:"the cream (color), cream-colored", pos:"noun", gender:"f",
      note:"Adjective. Cream-colored, off-white. Invariable when used as a color.",
      example:"A: Elle porte un tailleur creme tres elegant.\nB: Ca lui va a merveille.",
      exampleSrc:"A: She's wearing a very elegant cream suit.\nB: It suits her perfectly.",
@@ -96,7 +96,7 @@ const LESSON_13 = {
      ans:"le baisemain",
      hint:"A traditional gesture of gallantry. Think 'baiser' (to kiss) + 'main' (hand)."},
 
-    {type:"teach", trg:"le corse", src:"Corsican", pos:"noun", gender:null,
+    {type:"teach", trg:"le corse", src:"Corsican", pos:"noun", gender:"m",
      note:"Adjective. From or relating to Corsica. Also used as a noun.",
      example:"A: La cuisine corse est un tresor meconnu.\nB: Le brocciu et la charcuterie sont exceptionnels.",
      exampleSrc:"A: Corsican cuisine is an underrated treasure.\nB: The brocciu and charcuterie are exceptional.",

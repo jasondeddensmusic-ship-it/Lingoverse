@@ -40,7 +40,7 @@ const LESSON_15 = {
      example:"A: Het attentieniveau van de leerlingen daalt na de lunch.\nB: Dat is normaal.\nA: Misschien moeten we na de pauze een actieve les plannen.\nB: Goed idee, beweging helpt.",
      exampleSrc:"A: The attention level of the students drops after lunch.\nB: That is normal.\nA: Maybe we should plan an active lesson after the break.\nB: Good idea, movement helps.",
      funFact:"Dutch education research shows attention spans drop after 20-25 minutes. Many Dutch schools now use 'bewegend leren' (active learning) with physical activities integrated into lessons."},
-    {type:"teach", trg:"de contextgebonden", src:"context-dependent", pos:"noun", gender:null,
+    {type:"teach", trg:"de contextgebonden", src:"context-dependent", pos:"noun", gender:"c",
      note:"Compound: context + gebonden (bound).\n'Contextgebonden kennis' = context-dependent knowledge.",
      example:"A: Taalgebruik is sterk contextgebonden.\nB: Dat klopt. Wat je zegt hangt af van de situatie.\nA: Formeel op het werk, informeel met vrienden.\nB: Dat is een basisregel.",
      exampleSrc:"A: Language use is strongly context-dependent.\nB: That is true. What you say depends on the situation.\nA: Formal at work, informal with friends.\nB: That is a basic rule.",

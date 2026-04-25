@@ -23,7 +23,7 @@ const LESSON_16 = {
      exampleSrc:"A: Heredity explains this resemblance.\nB: You're the spitting image of your father.",
      funFact:"In French law, 'hérédité' also relates to inheritance rights. Biology and law use the same word."},
 
-    {type:"teach", trg:"la nôtre", src:"ours (feminine possessive)", pos:"noun", gender:null,
+    {type:"teach", trg:"la nôtre", src:"ours (feminine possessive)", pos:"noun", gender:"f",
      note:"Emphatic possessive pronoun. 'Le nôtre' (m), 'la nôtre' (f), 'les nôtres' (pl).",
      example:"A: Leur maison est belle, mais la nôtre aussi.\nB: Oui, on a bien rénové.",
      exampleSrc:"A: Their house is beautiful, but ours too.\nB: Yes, we renovated well.",
