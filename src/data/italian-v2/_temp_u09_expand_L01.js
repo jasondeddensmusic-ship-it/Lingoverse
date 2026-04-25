@@ -1,7 +1,7 @@
 // Italian V2 Unit 09 Expansion. Lesson 4: In farmacia (At the Pharmacy)
 // Expands health unit with pharmacy visits, common medicines, and over-the-counter products.
 
-const LESSON_4 = {id:"itv2_u9l4", title:"In farmacia", icon:"\uD83D\uDC8A", xp:15, board:true, steps:[
+const LESSON_4 = {id:"itv2_u9l4b", title:"In farmacia", icon:"\uD83D\uDC8A", xp:15, board:true, steps:[
   {type:"intro", title:"In farmacia",
    desc:"Learn how to ask for medicines and health products at an Italian pharmacy. Italian pharmacists can recommend treatments for many common ailments without a doctor's visit.",
    goals:["Ask for common medicines at a pharmacy","Describe symptoms to a pharmacist","Understand dosage instructions"]},

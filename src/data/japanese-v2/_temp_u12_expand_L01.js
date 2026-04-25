@@ -1,7 +1,7 @@
 // Unit 12 Expansion L3. Sports & Hobbies Abilities
 // Potential form with sports, hobbies, and physical skills.
 
-const LESSON_3 = {id:"jav2_u12l3", title:"スポーツとしゅみ", icon:"⚽", xp:15, board:true, steps:[
+const LESSON_3 = {id:"jav2_u12l3b", title:"スポーツとしゅみ", icon:"⚽", xp:15, board:true, steps:[
   {type:"intro", title:"スポーツとしゅみ",
    desc:"Talk about what sports and hobbies you can do. This lesson combines potential forms with sports and hobby vocabulary, so you can discuss your skills and interests with confidence.",
    goals:["Use potential forms with sports and physical activities","Talk about hobbies using ability expressions","Compare skill levels with じょうず and へた"]},

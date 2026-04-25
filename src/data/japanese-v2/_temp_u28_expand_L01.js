@@ -1,6 +1,6 @@
 // Unit 28 Expansion. Lesson 3: Academic Writing Style
 const LESSON_3 = {
-  id:"jav2_u28l3", title:"がくじゅつぶん", icon:"🎓", xp:15, board:true,
+  id:"jav2_u28l3b", title:"がくじゅつぶん", icon:"🎓", xp:15, board:true,
   steps:[
     {type:"intro", title:"Academic Writing Style",
      desc:"Japanese academic writing has strict conventions: impersonal tone, nominalized verbs, hedging expressions, and specific citation patterns. Master the constructions that make academic Japanese distinct from everyday writing and speaking.",
