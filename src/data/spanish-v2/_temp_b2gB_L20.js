@@ -20,7 +20,7 @@ const LESSON_20 = {id:"esv2_b2gB_l20",title:"Pensamiento abstracto",icon:"🧠",
  exampleSrc:"A: The Eucharist is the central sacrament of Catholicism.\nB: The faithful receive it during Mass.",
  funFact:"In Spain, 'primera comunión' (first communion) is a major family celebration, often quite elaborate."},
 
-{type:"teach",trg:"el hada madrina",src:"the fairy godmother",pos:"noun",gender:"f",
+{type:"teach",trg:"el hada madrina",src:"the fairy godmother",pos:"noun",gender:"m",
  note:"Feminine noun (uses 'el' before: el hada, like el agua).\nA magical protector in fairy tales.",
  example:"A: Cenicienta no habría ido al baile sin su hada madrina.\nB: Es uno de los personajes más queridos de los cuentos.",
  exampleSrc:"A: Cinderella would not have gone to the ball without her fairy godmother.\nB: She is one of the most beloved characters in fairy tales.",

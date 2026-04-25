@@ -78,7 +78,7 @@ const LESSON_16 = {id:"esv2_b2g2_l16",title:"Geografía y descripción",icon:"�
  exampleSrc:"A: His message was quite cryptic.\nB: I did not understand anything he was trying to say.",
  funFact:"From Greek kryptos (hidden). Same root as 'criptografía' (cryptography)."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / antler",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / antler",pos:"noun",gender:"m",
  note:"Feminine noun, but 'el asta' (uses el before a- for phonetics).\nA pole for flags, or an animal horn.",
  example:"A: La bandera ondeaba en lo alto del asta.\nB: Se veía desde toda la plaza.",
  exampleSrc:"A: The flag waved at the top of the flagpole.\nB: It could be seen from the entire square.",

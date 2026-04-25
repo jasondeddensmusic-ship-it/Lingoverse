@@ -48,7 +48,7 @@ const LESSON_15 = {
      exampleSrc:"A: This is an important point of attention.\nB: Why?\nA: Customer satisfaction has been declining for three months.\nB: Let's put that at the top of the agenda.",
      funFact:"'Aandachtspunt' is one of the most-used words in Dutch business meetings. Every meeting agenda has them. The Dutch love to identify, discuss, and track 'aandachtspunten'."},
 
-    {type:"teach", trg:"de investeringsaanpak", src:"the investment approach", pos:"noun", gender:"n",
+    {type:"teach", trg:"de investeringsaanpak", src:"the investment approach", pos:"noun", gender:"c",
      note:"Common gender (de). Investering (investment) + aanpak (approach).\n'Een nieuwe investeringsaanpak' = a new investment approach.",
      example:"A: De investeringsaanpak moet veranderen.\nB: Wat stel je voor?\nA: Meer focus op duurzame projecten.\nB: Dat past bij de huidige trend.",
      exampleSrc:"A: The investment approach needs to change.\nB: What do you suggest?\nA: More focus on sustainable projects.\nB: That fits the current trend.",

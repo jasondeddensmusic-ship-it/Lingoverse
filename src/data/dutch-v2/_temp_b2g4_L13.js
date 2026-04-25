@@ -45,7 +45,7 @@ const LESSON_13 = {
      example:"A: Bauxiet is de grondstof voor aluminium.\nB: Waar wordt het gewonnen?\nA: Vooral in tropische landen.\nB: Australië is de grootste producent.",
      exampleSrc:"A: Bauxite is the raw material for aluminum.\nB: Where is it mined?\nA: Mainly in tropical countries.\nB: Australia is the largest producer.",
      funFact:"Suriname, a former Dutch colony, was a major bauxite producer. The Dutch company Billiton (now BHP Billiton) was originally a bauxite mining company from the Dutch East Indies."},
-    {type:"teach", trg:"de bierlucht", src:"the smell of beer", pos:"noun", gender:"n",
+    {type:"teach", trg:"de bierlucht", src:"the smell of beer", pos:"noun", gender:"c",
      note:"A de-word. Compound: bier (beer) + lucht (smell/air).\nUsually negative connotation.",
      example:"A: Er hangt een bierlucht in de kroeg.\nB: Dat hoort er een beetje bij.\nA: Maar dit is erg sterk.\nB: Ze hebben gisteravond een feest gehad.",
      exampleSrc:"A: There is a smell of beer in the pub.\nB: That comes with the territory.\nA: But this is very strong.\nB: They had a party last night.",

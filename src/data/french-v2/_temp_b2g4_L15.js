@@ -29,7 +29,7 @@ const LESSON_15 = {
      exampleSrc:"A: Put on your hooded jacket, it's pouring.\nB: I hate it, it makes me look ridiculous.",
      funFact:"In Britain, 'cagoule' means a cheap rain jacket. In France, it can also mean a balaclava for skiing."},
 
-    {type:"teach", trg:"les fetes", src:"holidays, celebrations", pos:"noun", gender:"f",
+    {type:"teach", trg:"les fetes", src:"holidays, celebrations", pos:"noun", gender:"pl",
      note:"Feminine plural. Parties, holidays, or festivities.\nFrance has many public holidays.",
      example:"A: Les fetes de fin d'annee approchent.\nB: Tu as prevu quelque chose pour le reveillon ?",
      exampleSrc:"A: The end-of-year holidays are approaching.\nB: Have you planned anything for New Year's Eve?",

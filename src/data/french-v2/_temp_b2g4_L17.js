@@ -47,7 +47,7 @@ const LESSON_17 = {
      exampleSrc:"A: He's been flirting with her for weeks.\nB: He should invite her to dinner.",
      funFact:"English borrowed 'flirt' from Old French 'fleureter' (to touch lightly, like a flower). French took it back."},
 
-    {type:"teach", trg:"les désillusions", src:"the disillusioned", pos:"noun", gender:"m",
+    {type:"teach", trg:"les désillusions", src:"the disillusioned", pos:"noun", gender:"pl",
      note:"Plural noun. People who have lost their illusions.\nFrom des- + illusion.",
      example:"A: Les desillusionnes de la politique sont nombreux.\nB: Ils ne votent plus.",
      exampleSrc:"A: Those disillusioned with politics are numerous.\nB: They no longer vote.",

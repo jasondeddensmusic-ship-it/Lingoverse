@@ -23,7 +23,7 @@ const LESSON_8 = {
      exampleSrc:"A: Don Quixote is the archetype of the idealistic dreamer.\nB: A universal character.",
      funFact:"Jung popularized 'archetype' in psychology. From Greek 'archetypon' (original pattern)."},
 
-    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"f",
+    {type:"teach", trg:"les armoiries", src:"the coat of arms", pos:"noun", gender:"pl",
      note:"Feminine plural noun. A heraldic emblem representing a family or institution.",
      example:"A: Les armoiries de la ville datent du Moyen Age.\nB: Elles montrent un lion et une couronne.",
      exampleSrc:"A: The city's coat of arms dates from the Middle Ages.\nB: It shows a lion and a crown.",

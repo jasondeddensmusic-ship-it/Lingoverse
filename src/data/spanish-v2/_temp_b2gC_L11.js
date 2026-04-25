@@ -48,7 +48,7 @@ const LESSON_11 = {id:"esv2_b2gC_l11",title:"Química y materiales",icon:"🧪",
 
 {type:"fb",s:"La capa de {1} protege la Tierra de la radiación ultravioleta.",a:["ozono"],opts:["ozono","nitrógeno","nitrato","pegamento"],hint:"A layer of a gas made of three oxygen atoms that shields Earth from harmful rays.",sSrc:"The {1} layer protects Earth from ultraviolet radiation."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal) / shaft",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal) / shaft",pos:"noun",gender:"m",
  note:"Feminine noun but uses 'el' (like el agua).\nThe pole for a flag or an animal's horn.",
  example:"A: La bandera ondea en lo alto del asta.\nB: La cambiaron esta mañana por la fiesta nacional.",
  exampleSrc:"A: The flag waves at the top of the pole.\nB: They changed it this morning for the national holiday.",

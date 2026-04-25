@@ -6,7 +6,7 @@ const LESSON_6 = {
      desc:"Explore the natural world in Spanish. Animals, water, air, and the landscape around you.",
      goals:["Learn 20 nature and animal words","Describe the natural environment","Use nature vocabulary in context"]},
 
-    {type:"teach", trg:"el agua", src:"the water", pos:"noun", gender:"f",
+    {type:"teach", trg:"el agua", src:"the water", pos:"noun", gender:"m",
      note:"Feminine noun, but uses 'el' (el agua, not la agua).\nLike 'el alma', to avoid two 'a' sounds.",
      example:"A: \u00bfQuieres agua?\nB: Sí, un vaso de agua, por favor.",
      exampleSrc:"A: Do you want water?\nB: Yes, a glass of water, please.",
@@ -24,7 +24,7 @@ const LESSON_6 = {
      exampleSrc:"A: Do you like animals?\nB: Yes, I have two cats.",
      funFact:"From Latin 'animalis' (having breath), from 'anima' (soul, breath). Animals are literally 'those who breathe'."},
 
-    {type:"teach", trg:"el ave", src:"the bird", pos:"noun", gender:"f",
+    {type:"teach", trg:"el ave", src:"the bird", pos:"noun", gender:"m",
      note:"Feminine noun, but uses 'el' (el ave).\nMore literary than 'pájaro' (everyday bird).",
      example:"A: Mira esa ave tan grande.\nB: Es un águila.",
      exampleSrc:"A: Look at that big bird.\nB: It is an eagle.",

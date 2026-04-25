@@ -74,7 +74,7 @@ const LESSON_17 = {id:"frv2_b2g5_l17", title:"Gastronomie et terroir", icon:"�
    exampleSrc:"A: This service has real added value.\nB: It makes the difference with the competition.\nA: Customers are willing to pay more.\nB: When quality is there, the price is justified.",
    funFact:"'Valeur ajoutée' (added value) is a key business concept. The French VAT tax is 'TVA: Taxe sur la Valeur Ajoutée'."},
 
-  {type:"teach", trg:"les fêtes", src:"the holidays / festivities", pos:"noun", gender:"f",
+  {type:"teach", trg:"les fêtes", src:"the holidays / festivities", pos:"noun", gender:"pl",
    note:"Celebrations, holidays, or festivals.\nPlural of 'fête'. 'Les fêtes' often means the Christmas period.",
    example:"A: Les fêtes de fin d'année approchent.\nB: Tu as déjà acheté les cadeaux?\nA: Pas encore, je suis toujours en retard.\nB: Moi aussi, c'est la tradition!",
    exampleSrc:"A: The year-end holidays are approaching.\nB: Have you already bought the gifts?\nA: Not yet, I'm always late.\nB: Me too, it's tradition!",

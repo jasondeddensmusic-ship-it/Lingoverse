@@ -2,7 +2,7 @@
 const LESSON_20 = {id:"esv2_b2gap_l20",title:"Conceptos abstractos II",icon:"🎓",xp:15,board:true,steps:[
 {type:"intro",title:"Conceptos abstractos II",desc:"Complete your B2 vocabulary with final abstract nouns covering quality, organization, and process.",goals:["Learn 20 final abstract nouns","Discuss processes and outcomes","Use formal vocabulary with confidence"]},
 
-{type:"teach",trg:"el acta",src:"the minutes / official record",pos:"noun",gender:"f",
+{type:"teach",trg:"el acta",src:"the minutes / official record",pos:"noun",gender:"m",
  note:"Feminine noun with 'el' (stressed initial 'a').\n'Levantar acta' = to draw up minutes.",
  example:"A: El secretario levantó el acta de la junta.\nB: Todos los acuerdos quedaron registrados.",
  exampleSrc:"A: The secretary drew up the minutes of the meeting.\nB: All agreements were recorded.",

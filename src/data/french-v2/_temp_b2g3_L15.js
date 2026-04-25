@@ -5,7 +5,7 @@ const LESSON_15 = {
      desc:"Learn vocabulary for discussing identity, heritage, and cultural belonging in the French-speaking world.",
      goals:["Learn 17 B2 identity and cultural words","Discuss cultural heritage and belonging","Express ideas about identity and origins"]},
 
-    {type:"teach", trg:"les appartenances", src:"belongings, affiliations", pos:"noun", gender:"f",
+    {type:"teach", trg:"les appartenances", src:"belongings, affiliations", pos:"noun", gender:"pl",
      note:"Feminine plural noun. Group memberships or things one belongs to.",
      example:"A: Ses appartenances culturelles sont multiples.\nB: C'est la richesse d'une identité métissée.",
      exampleSrc:"A: Her cultural affiliations are multiple.\nB: That's the richness of a mixed identity.",

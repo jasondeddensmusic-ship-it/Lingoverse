@@ -35,7 +35,7 @@ const LESSON_18 = {
      example:"A: De keuken is geschilderd in antraciet.\nB: Is dat niet te donker?\nA: Nee, het staat heel modern.\nB: Met wit erbij misschien.",
      exampleSrc:"A: The kitchen is painted in anthracite.\nB: Isn't that too dark?\nA: No, it looks very modern.\nB: With white alongside it maybe.",
      funFact:"'Antraciet' as a color name is very popular in Dutch interior design. It refers to a specific dark gray, almost black. Dutch people use it confidently. In English, 'charcoal' serves a similar role."},
-    {type:"teach", trg:"de decimaal", src:"the decimal", pos:"noun", gender:"n",
+    {type:"teach", trg:"de decimaal", src:"the decimal", pos:"noun", gender:"c",
      note:"A het-word (also adj: decimaal). From Latin 'decimus' (tenth).\n'Decimale komma' = decimal comma.",
      example:"A: In Nederland gebruiken we een decimale komma.\nB: Niet een punt?\nA: Nee, 3,14 in plaats van 3.14.\nB: Dat is verwarrend voor Amerikanen.",
      exampleSrc:"A: In the Netherlands we use a decimal comma.\nB: Not a period?\nA: No, 3,14 instead of 3.14.\nB: That is confusing for Americans.",

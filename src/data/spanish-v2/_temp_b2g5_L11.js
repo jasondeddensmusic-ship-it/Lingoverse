@@ -66,7 +66,7 @@ const LESSON_11 = {id:"esv2_b2g5_l11",title:"Familia y relaciones",icon:"👨‍
  exampleSrc:"A: She has her grandfather's facial features.\nB: Yes, the same eyes and the same nose.",
  funFact:"From Greek physis (nature) + gnomon (judge). The pseudoscience of reading character from faces."},
 
-{type:"teach",trg:"el hada madrina",src:"the fairy godmother",pos:"noun",gender:"f",
+{type:"teach",trg:"el hada madrina",src:"the fairy godmother",pos:"noun",gender:"m",
  note:"Feminine noun with masculine article (el hada, like el agua).\nFrom hada (fairy) + madrina (godmother).",
  example:"A: En los cuentos siempre aparece un hada madrina.\nB: Es la que concede los deseos mágicos.",
  exampleSrc:"A: In fairy tales, a fairy godmother always appears.\nB: She is the one who grants magical wishes.",

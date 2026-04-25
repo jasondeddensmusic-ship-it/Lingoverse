@@ -24,7 +24,7 @@ const LESSON_1 = {
      exampleSrc:"A: Shall we take a walk?\nB: Yes, let's go to the grove in the park.",
      funFact:"From '\u00e1rbol' (tree) + suffix '-eda' meaning a collection. Like 'alameda' (poplar grove) which became a word for boulevard."},
 
-    {type:"teach", trg:"el alga", src:"the seaweed", pos:"noun", gender:"f",
+    {type:"teach", trg:"el alga", src:"the seaweed", pos:"noun", gender:"m",
      note:"Feminine noun, but uses 'el' in singular.\nPlural: las algas. Like 'el agua'.",
      example:"A: La playa tiene muchas algas hoy.\nB: Es normal en verano.",
      exampleSrc:"A: The beach has a lot of seaweed today.\nB: It is normal in summer.",

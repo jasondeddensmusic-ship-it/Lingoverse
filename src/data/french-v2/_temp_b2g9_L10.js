@@ -36,7 +36,7 @@ const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:
    exampleSrc:"A: Neology is essential for living languages.\nB: Without new words, a language dies.",
    funFact:"French has official commissions for néologie that coin terms for new technologies."},
 
-  {type:"teach", trg:"les griffes", src:"claws, designer labels", pos:"noun", gender:"f",
+  {type:"teach", trg:"les griffes", src:"claws, designer labels", pos:"noun", gender:"pl",
    note:"Plural of griffe. Both claws and fashion labels.\nLa griffe d'un couturier = a designer's label.",
    example:"A: Elle ne porte que des griffes.\nB: Son budget vêtements est impressionnant.",
    exampleSrc:"A: She only wears designer labels.\nB: Her clothing budget is impressive.",
@@ -81,7 +81,7 @@ const LESSON_10 = {id:"frv2_b2g9_l10", title:"Culture et Arts", icon:"🎨", xp:
    exampleSrc:"A: The jet set gathers in Monaco every summer.\nB: It's a world apart.",
    funFact:"French pronunciation keeps 'jet' but frenchifies 'set': zheh-SEHT."},
 
-  {type:"teach", trg:"les fêtes", src:"festivities, holidays", pos:"noun", gender:"f",
+  {type:"teach", trg:"les fêtes", src:"festivities, holidays", pos:"noun", gender:"pl",
    note:"Plural of fête. Celebrations, festivals.\nLes fêtes = the holiday season (Christmas/New Year).",
    example:"A: Les fêtes de fin d'année approchent.\nB: Il faut commencer à préparer les cadeaux.",
    exampleSrc:"A: The year-end holidays are approaching.\nB: We need to start preparing gifts.",

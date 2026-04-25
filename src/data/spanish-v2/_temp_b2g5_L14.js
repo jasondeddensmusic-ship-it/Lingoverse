@@ -26,7 +26,7 @@ const LESSON_14 = {id:"esv2_b2g5_l14",title:"Agricultura y vida rural",icon:"�
  exampleSrc:"A: The reapers used the sickle to cut the wheat.\nB: It was very hard work under the sun.",
  funFact:"The hoz y el martillo (hammer and sickle) was adopted from Russian. In geography, 'hoces' are river gorges."},
 
-{type:"teach",trg:"el hacha",src:"the axe",pos:"noun",gender:"f",
+{type:"teach",trg:"el hacha",src:"the axe",pos:"noun",gender:"m",
  note:"Feminine noun with masculine article (el hacha, like el agua).\nUsed for chopping wood.",
  example:"A: Necesitamos el hacha para cortar la leña.\nB: Está en el cobertizo del jardín.",
  exampleSrc:"A: We need the axe to chop the firewood.\nB: It's in the garden shed.",
@@ -72,7 +72,7 @@ const LESSON_14 = {id:"esv2_b2g5_l14",title:"Agricultura y vida rural",icon:"�
  exampleSrc:"A: The water tank stores rainwater for irrigation.\nB: It's a system that has been used since the Moors.",
  funFact:"From Arabic al-birka (the pool). Many Spanish agricultural terms come from Arabic due to Moorish influence."},
 
-{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal) / shaft",pos:"noun",gender:"f",
+{type:"teach",trg:"el asta",src:"the flagpole / horn (of an animal) / shaft",pos:"noun",gender:"m",
  note:"Feminine noun with masculine article (el asta).\nThe horn of a bull, or a pole for flags.",
  example:"A: El toro embistió con las astas hacia delante.\nB: El torero esquivó el golpe por centímetros.",
  exampleSrc:"A: The bull charged with its horns forward.\nB: The bullfighter dodged the blow by centimeters.",

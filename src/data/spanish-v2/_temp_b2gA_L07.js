@@ -64,7 +64,7 @@ const LESSON_7 = {id:"esv2_b2gA_l7", title:"Épocas históricas", icon:"🏛️"
  hint:"This adjective describes the New Stone Age period of farming and settlement.",
  sSrc:"The {1} peoples began to farm the land and raise animals."},
 
-{type:"teach", trg:"el asta", src:"the shaft / flagpole / antler", pos:"noun", gender:"f",
+{type:"teach", trg:"el asta", src:"the shaft / flagpole / antler", pos:"noun", gender:"m",
  note:"Uses 'el' despite being feminine (starts with stressed a-).\nMultiple meanings.",
  example:"A: La bandera ondeaba en lo alto del asta.\nB: A media asta significa duelo nacional.",
  exampleSrc:"A: The flag was waving at the top of the pole.\nB: At half-mast means national mourning.",

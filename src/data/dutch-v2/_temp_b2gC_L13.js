@@ -24,7 +24,7 @@ const LESSON_13 = {
      exampleSrc:"A: The electorate is divided.\nB: On which topic?\nA: Immigration and the economy.\nB: Those themes always play a role.",
      funFact:"The Netherlands has a proportional representation system with many parties. Coalition governments are the norm, requiring compromise."},
 
-    {type:"teach", trg:"de feministe", src:"the feminist (female)", pos:"noun", gender:"n",
+    {type:"teach", trg:"de feministe", src:"the feminist (female)", pos:"noun", gender:"c",
      note:"Common gender (de). From 'feminisme' (feminism).\n'De feministische beweging' = the feminist movement.",
      example:"A: Aletta Jacobs was een beroemde feministe.\nB: Wat heeft zij gedaan?\nA: Ze streed voor vrouwenkiesrecht.\nB: En ze was de eerste vrouwelijke student.",
      exampleSrc:"A: Aletta Jacobs was a famous feminist.\nB: What did she do?\nA: She fought for women's suffrage.\nB: And she was the first female student.",
