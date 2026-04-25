@@ -111,9 +111,9 @@ export default {n:4,lang:"fr",srcLang:"en",track:"v2",title:"À table!",sub:"Foo
         {type:"fb",opts:["a","est","sont","ont"],hint:"There are: il y ___. The impersonal expression.",s:"Il y {1} des tomates dans le frigo.",a:"a"},
         {type:"mc",q:"'Il y a' works for:",opts:["Only singular","Only plural","Both singular and plural","Only feminine"],ans:"Both singular and plural",hint:"Il y a un chat. Il y a des chats. ___ correct."},
         {type:"match",pairs:[{trg:"la pomme",src:"apple (f)"},{trg:"la tomate",src:"tomato (f)"},{trg:"l'orange",src:"orange (f)"},{trg:"la carotte",src:"carrot (f)"}]},
-        {type:"mc",q:"'Des bananes' uses des because:",opts:["Banane is masculine","It means THE bananas","Des is always used","It means SOME bananas (plural)"],ans:"It means SOME bananas (plural)",hint:"Des = some (___ indefinite/partitive)."},
+        {type:"mc",q:"'Des bananes' uses des because:",opts:["Banane is masculine","It means THE bananas","Des is always used","It means SOME bananas (plural)"],ans:"It means SOME bananas (plural)",hint:"Des is the indefinite/partitive article that pairs with multiple items rather than a single one."},
         {type:"fb",opts:["Il","Elle","C'est","On"],hint:"There is/are: the impersonal subject.",s:"{1} y a du fromage et des carottes.",a:"Il"},
-        {type:"mc",q:"'Pomme de terre' literally means:",opts:["Apple of earth","Potato","Ground fruit","Earthen apple"],ans:"Apple of earth",hint:"Pomme = a.... De = of. Terre = e.../ground."},
+        {type:"mc",q:"'Pomme de terre' literally means:",opts:["Apple of earth","Potato","Ground fruit","Earthen apple"],ans:"Apple of earth",hint:"Translate the three words individually, do NOT translate the meaning of the whole expression."},
         {type:"mc",q:"Words ending in -tion are almost always:",opts:["Masculine","Feminine","Plural","Irregular"],ans:"Feminine",hint:"La nation, la situation, la confiture: notice the la pattern."},
         {type:"fb",opts:["Il","Elle","C'est","On"],hint:"There is/are: the impersonal subject pronoun.",s:"{1} y a des tomates et des carottes dans le frigo.",a:"Il"}
   ]},
