@@ -85,7 +85,7 @@ const UNIT_24 = {
       {type:"mc", q:"What is unusual about 'a meno che non'?",
        opts:["The 'non' makes it a negative statement","The 'non' does not negate; it is an expletive remnant of Latin","It uses the indicative instead of subjunctive","It means 'because' in this context"],
        ans:"The 'non' does not negate; it is an expletive remnant of Latin",
-       hint:"'A meno che n... piova' means 'unless it rains,' NOT 'unless it does not rain.' The 'n...' is grammatically required but meaningless."},
+       hint:"'A meno che __ piova' translates as 'unless it rains'. Surprisingly, the seemingly-negative particle has no semantic effect."},
 
       {type:"fb", s:"Se avro tempo, {1} alla festa.",
        a:["verro"],

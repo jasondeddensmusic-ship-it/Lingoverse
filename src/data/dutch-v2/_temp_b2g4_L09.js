@@ -112,7 +112,7 @@ const LESSON_9 = {
     {type:"mc", q:"In Dutch, what does 'collaboratie' specifically refer to?",
      opts:["wartime collaboration with the enemy","business partnership","academic cooperation","teamwork"],
      ans:"wartime collaboration with the enemy",
-     hint:"Unlike English 'c...', this Dutch word has a strong WWII association."},
+     hint:"The Dutch word carries a heavy WWII connotation, unlike its neutral English cognate."},
     {type:"fb", s:"Dit is een {1} schending van de regels.", a:["flagrante"],
      opts:["flagrante","finale","filosofische","folkloristische"],
      hint:"Blatant, obvious. From Latin 'flagrans' (burning).",

@@ -297,7 +297,7 @@ const UNIT_30 = {
        q:"Perche 'a meno che' richiede 'non' nella frase?",
        opts:["Per enfatizzare il dubbio","Per rendere la frase negativa","E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo","E opzionale e si puo omettere"],
        ans:"E un 'non pleonastico' grammaticalmente obbligatorio ma non negativo",
-       hint:"This 'n...' is a quirk of Italian grammar. It looks like a negation but does not negate anything. It is required by the grammar but adds no negative meaning."}
+       hint:"This is a quirk of Italian grammar. The word looks like a negation but does not negate anything. Required by the grammar but adds no negative meaning."}
     ]}
   ,
   BATCH8_L1,

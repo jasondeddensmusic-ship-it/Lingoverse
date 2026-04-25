@@ -48,7 +48,7 @@ const UNIT_09 = {
    funFact:"Otsuri literally comes from 'tsuri' meaning to fish up or hook back, as in getting money fished back to you. In Japan, cashiers place your change on a small tray rather than in your hand. This is considered more hygienic and polite."},
 
   {type:"mc", q:"店員(てんいん) means:", opts:["shop clerk","customer","manager","friend"], ans:"shop clerk",
-   hint:"The compound of 's...' + 'member' describing the person who works there."},
+   hint:"店 marks the venue (a retail establishment) and 員 marks personnel. Compound = staff member of a retail venue."},
 
   {type:"teach", trg:"レシート", src:"receipt", pos:"noun", gender:null,
    note:"Loanword from English 'receipt.' Written in katakana. Given at most shops.",

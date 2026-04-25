@@ -43,7 +43,7 @@ const UNIT_35 = {
    funFact:"個人情報 is a four-kanji compound: 個 (individual), 人 (person), 情 (feeling/information), 報 (report). Japan's 個人情報保護法(こじんじょうほうほごほう) was significantly revised in 2022 to strengthen data protection, introducing mandatory breach notification and stricter penalties. The law reflects growing concern about how companies collect and use 個人情報(こじんじょうほう) in the digital age."},
 
   {type:"mc", q:"プライバシー保護(ほご) means:", opts:["privacy protection","privacy violation","privacy invasion","privacy setting"], ans:"privacy protection",
-   hint:"保護(ほご) means 'p...' or 'conservation,' combined with the loanword for p...."},
+   hint:"保護(ほご) carries the meaning of safeguarding/conservation, the opposite of violating or invading."},
 
   {type:"teach", trg:"サイバー攻撃(こうげき)", src:"cyberattack", pos:"noun", gender:null,
    note:"Mixed word: サイバー (cyber) + 攻撃(こうげき) (attack).\nサイバーセキュリティー = cybersecurity.",
@@ -89,7 +89,7 @@ const UNIT_35 = {
   {type:"match", pairs:[{trg:"サイバー攻撃(こうげき)",src:"cyberattack"},{trg:"アルゴリズム",src:"algorithm"},{trg:"自動化(じどうか)",src:"automation"},{trg:"個人情報(こじんじょうほう)",src:"personal data"}]},
 
   {type:"mc", q:"アルゴリズムのバイアス means:", opts:["algorithmic speed","algorithmic update","algorithmic bias","algorithmic encryption"], ans:"algorithmic bias",
-   hint:"バイアス is a loanword meaning 'b...' or 'prejudice,' describing unfair patterns in automated decision-making."},
+   hint:"バイアス is a loanword referring to prejudice or skew. The English origin word describes unfair patterns in automated decision-making."},
 
   {type:"mc", q:"フェイクニュースを見分(みわ)ける means:", opts:["to spread fake news","to create fake news","to report fake news","to distinguish fake news"], ans:"to distinguish fake news",
    hint:"見分(みわ)ける means 'to tell apart' or 'to identify correctly,' a critical information literacy skill."},

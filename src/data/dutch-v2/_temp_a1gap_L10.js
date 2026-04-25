@@ -73,7 +73,7 @@ const LESSON_10 = {
      s:"Het is {1}. Dat betekent 8:30.",
      a:["half negen"],
      opts:["half negen","half acht","negen uur","acht uur"],
-     hint:"In Dutch, 'h...' refers to the NEXT hour. Which expression equals 8:30?",
+     hint:"In Dutch midpoint format, the number spoken is the upcoming hour. Which option references the upcoming hour for 8:30?",
      sSrc:"It is {1}. That means 8:30."},
 
     {type:"teach", trg:"half zes", src:"half past five (5:30)", pos:"num", gender:null,
