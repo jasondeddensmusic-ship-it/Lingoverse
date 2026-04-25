@@ -66,7 +66,7 @@ const LESSON_20 = {
      hint:"The lack of sharpness in an image. In politics, it means deliberate vagueness.",
      sSrc:"Artistic {1} gives a poetic effect to the photo."},
 
-    {type:"teach", trg:"la grille-pain", src:"the toaster", pos:"noun", gender:"m",
+    {type:"teach", trg:"le grille-pain", src:"the toaster", pos:"noun", gender:"m",
      note:"Masculine noun. A device for toasting bread.\nCompound: grille (grills) + pain (bread).",
      example:"A: Le grille-pain est en panne.\nB: Il faudra faire les tartines au four.",
      exampleSrc:"A: The toaster is broken.\nB: We'll have to make toast in the oven.",

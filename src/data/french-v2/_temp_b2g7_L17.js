@@ -23,7 +23,7 @@ const LESSON_17 = {
      exampleSrc:"A: The difference is infinitesimal.\nB: We can consider it identical.",
      funFact:"From Latin 'infimus' meaning lowest. Not related to 'infini' (infinite) despite looking similar. A common confusion."},
 
-    {type:"teach", trg:"la dechainement", src:"an unleashing", pos:"noun", gender:"m",
+    {type:"teach", trg:"le dechainement", src:"an unleashing", pos:"noun", gender:"m",
      note:"Masculine noun. A violent outburst of emotion or force.",
      example:"A: Le dechainement des elements a surpris les marins.\nB: La tempete etait imprevisible.",
      exampleSrc:"A: The unleashing of the elements surprised the sailors.\nB: The storm was unpredictable.",

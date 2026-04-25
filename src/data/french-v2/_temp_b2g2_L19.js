@@ -72,7 +72,7 @@ const LESSON_19 = {
      hint:"The principle of separating religion from the state. A 1905 law in France.",
      sSrc:"{1} is enshrined in the French Republic's principles."},
 
-    {type:"teach", trg:"le banlieue", src:"the suburb, the outskirts", pos:"noun", gender:"f",
+    {type:"teach", trg:"la banlieue", src:"the suburb, the outskirts", pos:"noun", gender:"f",
      note:"Feminine noun. A suburban area, often with negative connotations in French.",
      example:"A: Les banlieues francaises font face a de nombreux defis.\nB: Le chomage et l'exclusion restent eleves.",
      exampleSrc:"A: French suburbs face many challenges.\nB: Unemployment and exclusion remain high.",

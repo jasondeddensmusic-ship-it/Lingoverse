@@ -5,7 +5,7 @@ const COVERAGE_U64 = {
   steps:[
     {type:"intro",title:"Révision : couverture lexicale",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
     {type:"match",pairs:[{trg:"la martingale",src:"a martingale, a sure system"},{trg:"liberatoire",src:"liberating, discharging (debt)"},{trg:"l'integrisme",src:"fundamentalism"},{trg:"la grossierete",src:"rudeness, coarseness"}]},
-    {type:"match",pairs:[{trg:"la moquerie",src:"mockery, ridicule"},{trg:"l'exaltation",src:"exaltation, fervor"},{trg:"l'exhibitionnisme",src:"exhibitionism"},{trg:"la desillusionnement",src:"disillusionment"}]},
+    {type:"match",pairs:[{trg:"la moquerie",src:"mockery, ridicule"},{trg:"l'exaltation",src:"exaltation, fervor"},{trg:"l'exhibitionnisme",src:"exhibitionism"},{trg:"le désillusionnement",src:"disillusionment"}]},
     {type:"match",pairs:[{trg:"le melanges",src:"a miscellany, a collection"},{trg:"l'encombre",src:"an obstacle, a hindrance"},{trg:"la division",src:"a division"},{trg:"l'extremite",src:"an extremity, an end"}]},
     {type:"fb",s:"Ce paiement est {1}.",a:["liberatoire"],opts:["liberatoire","la martingale","l'integrisme","la grossierete"],hint:"Type the target-language form. Meaning shown below.",sSrc:"This payment is discharging."},
     {type:"fb",s:"{1}",a:["l'integrisme"],opts:["la moquerie","l'integrisme","la martingale","la grossierete"],hint:"Type the target-language form. Meaning shown below.",sSrc:"fundamentalism"},

@@ -66,7 +66,7 @@ const LESSON_16 = {
      exampleSrc:"A: This Pacific atoll is uninhabited.\nB: Only seabirds live there.",
      funFact:"France has atolls in French Polynesia and New Caledonia. Mururoa atoll was the site of French nuclear testing until 1996."},
 
-    {type:"teach", trg:"la bosquet", src:"a grove, a copse", pos:"noun", gender:"m",
+    {type:"teach", trg:"le bosquet", src:"a grove, a copse", pos:"noun", gender:"m",
      note:"Masculine noun. A small group of trees.",
      example:"A: Le bosquet de chenes offre une ombre agreable.\nB: Pique-niquons ici.",
      exampleSrc:"A: The oak grove offers pleasant shade.\nB: Let's picnic here.",

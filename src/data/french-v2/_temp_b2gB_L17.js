@@ -23,7 +23,7 @@ const LESSON_17 = {
      exampleSrc:"A: It's an accounting sleight of hand.\nB: They doctored the figures to hide the losses.",
      funFact:"'Tour de passe-passe' comes from magic shows. In modern French, it always implies deception, usually financial or political."},
 
-    {type:"teach", trg:"la desillusionnement", src:"disillusionment", pos:"noun", gender:"m",
+    {type:"teach", trg:"le désillusionnement", src:"disillusionment", pos:"noun", gender:"m",
      note:"Masculine noun. The state of having lost one's ideals or hopes.\nDes (removal) + illusion. Also: desenchantement.",
      example:"A: Le desillusionment des jeunes electeurs est profond.\nB: Ils ne croient plus aux promesses politiques.",
      exampleSrc:"A: The disillusionment of young voters is deep.\nB: They no longer believe in political promises.",

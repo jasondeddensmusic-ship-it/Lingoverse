@@ -59,7 +59,7 @@ const LESSON_16 = {
      exampleSrc:"A: After the factory closed, he changed careers.\nB: He became a baker.",
      funFact:"'Reconversion professionnelle' is a hot topic in France. The government funds retraining programs."},
 
-    {type:"teach", trg:"le precarite", src:"the precariousness, job insecurity", pos:"noun", gender:"f",
+    {type:"teach", trg:"la precarite", src:"the precariousness, job insecurity", pos:"noun", gender:"f",
      note:"Feminine noun. Instability, especially in employment or living conditions.",
      example:"A: La precarite de l'emploi touche surtout les jeunes.\nB: Les CDD remplacent de plus en plus les CDI.",
      exampleSrc:"A: Job insecurity affects young people the most.\nB: Fixed-term contracts are increasingly replacing permanent ones.",

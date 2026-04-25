@@ -23,7 +23,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
  exampleSrc:"A: Put your initials at the bottom of each page.\nB: Okay, and my full signature on the last page?",
  funFact:"French law distinguishes paraphe (initials on each page) from signature (full name at the end)."},
 
-{type:"teach", trg:"la passe-passe", src:"sleight of hand, trick", pos:"noun", gender:"m",
+{type:"teach", trg:"le passe-passe", src:"sleight of hand, trick", pos:"noun", gender:"m",
  note:"Masculine noun. In 'tour de passe-passe.'\nA magic trick or deceptive maneuver.",
  example:"A: Ce tour de passe-passe financier a trompé tout le monde.\nB: Les auditeurs n'ont rien vu pendant des années.",
  exampleSrc:"A: This financial sleight of hand fooled everyone.\nB: The auditors saw nothing for years.",
@@ -41,7 +41,7 @@ const LESSON_16 = {id:"frv2_b2gC_l16", title:"Histoire et patrimoine", icon:"\u{
  exampleSrc:"A: This statement put him at odds with his allies.\nB: He is now in a very uncomfortable position.",
  funFact:"In architecture, en porte-à-faux means cantilevered. In politics, it means being in a contradictory position."},
 
-{type:"teach", trg:"la désillusionnement", src:"disillusionment", pos:"noun", gender:"m",
+{type:"teach", trg:"le désillusionnement", src:"disillusionment", pos:"noun", gender:"m",
  note:"Masculine noun. The loss of illusions or hopes.\nFrom dés- (un-) + illusion.",
  example:"A: Le désillusionnement des jeunes envers la politique est inquiétant.\nB: Ils ne croient plus aux promesses des candidats.",
  exampleSrc:"A: The disillusionment of young people toward politics is worrying.\nB: They no longer believe in candidates' promises.",

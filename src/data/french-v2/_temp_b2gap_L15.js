@@ -53,7 +53,7 @@ const LESSON_15 = {
      exampleSrc:"A: This project is a real millstone.\nB: We can't seem to get rid of it.",
      funFact:"'Trainer un boulet' means to drag a ball and chain. In slang, calling someone a 'boulet' is quite rude."},
 
-    {type:"teach", trg:"le clivage", src:"the divide, the rift", pos:"noun", gender:"f",
+    {type:"teach", trg:"le clivage", src:"the divide, the rift", pos:"noun", gender:"m",
      note:"Masculine noun. A sharp division between groups or ideas.",
      example:"A: Le clivage entre les generations s'accentue.\nB: Les jeunes et les aines ne se comprennent plus.",
      exampleSrc:"A: The generational divide is growing.\nB: Young and old no longer understand each other.",

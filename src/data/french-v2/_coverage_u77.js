@@ -4,7 +4,7 @@ const COVERAGE_U77 = {
   id:"frv2_u77_coverage_review", title:"Révision : couverture lexicale", icon:"🎯", xp:10, board:true,
   steps:[
     {type:"intro",title:"Révision : couverture lexicale",desc:"This review covers additional vocabulary from the batch lessons that wasn't yet tested in a quiz. Match pairs + fill-in exercises close the gap.",goals:["Review untested vocabulary from this unit","Practice production on short target-language forms"]},
-    {type:"match",pairs:[{trg:"un indigene",src:"an indigenous person"},{trg:"l'encombre",src:"the obstacle, hindrance"},{trg:"l'exclamation",src:"the exclamation"},{trg:"le desillusionne",src:"the disillusioned person"},{trg:"le decimeche",src:"the decimeter"},{trg:"la perf",src:"the performance (informal)"}]},
+    {type:"match",pairs:[{trg:"un indigene",src:"an indigenous person"},{trg:"l'encombre",src:"the obstacle, hindrance"},{trg:"l'exclamation",src:"the exclamation"},{trg:"le désillusionné",src:"the disillusioned person"},{trg:"le décimètre",src:"the decimeter"},{trg:"la perf",src:"the performance (informal)"}]},
     {type:"fb",s:"{1}",a:["l'encombre"],opts:["l'encombre","un indigene","l'exclamation","le desillusionne"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the obstacle, hindrance"},
     {type:"fb",s:"{1}",a:["l'exclamation"],opts:["le desillusionne","l'exclamation","un indigene","l'encombre"],hint:"Type the target-language form. Meaning shown below.",sSrc:"the exclamation"},
     {type:"fb",s:"{1}",a:["l'exclusion"],opts:["l'encombre","l'exclamation","l'exclusion","un indigene"],hint:"Type the target-language form. Meaning shown below.",sSrc:"exclusion"},
