@@ -74,7 +74,7 @@ const LESSON_18 = {id:"frv2_b2g5_l18", title:"Voyages et exploration", icon:"�
    exampleSrc:"A: You can see wildflowers here and there.\nB: The landscape is magnificent.\nA: Nature is reclaiming its rights.\nB: It's soothing to walk here.",
    funFact:"A simple but elegant expression. 'Ci et là' is a more literary variant of the same idea."},
 
-  {type:"teach", trg:"de chez soi", src:"from one's own home", pos:"noun", gender:null,
+  {type:"teach", trg:"de chez soi", src:"from one's own home", pos:"adv", gender:null,
    note:"From the comfort of home. Used with working, ordering, traveling virtually.",
    example:"A: On peut visiter des musées de chez soi.\nB: Les visites virtuelles sont incroyables.\nA: Ce n'est pas pareil qu'en vrai.\nB: Non, mais c'est un bon début.",
    exampleSrc:"A: You can visit museums from home.\nB: Virtual tours are incredible.\nA: It's not the same as in person.\nB: No, but it's a good start.",
