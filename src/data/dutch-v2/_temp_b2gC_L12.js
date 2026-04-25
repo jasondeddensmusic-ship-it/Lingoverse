@@ -67,7 +67,7 @@ const LESSON_12 = {
      exampleSrc:"A: The brevity of his speech was noticeable.\nB: Yes, he only spoke for five minutes.\nA: Normally he talks for an hour.\nB: Maybe he was in a hurry.",
      funFact:"The Dutch value directness and brevity: 'Doe maar normaal, dan doe je al gek genoeg' (Act normal, that's crazy enough). No unnecessary words."},
 
-    {type:"teach", trg:"de kweken", src:"to cultivate / to breed / to grow", pos:"noun", gender:null,
+    {type:"teach", trg:"kweken", src:"to cultivate / to breed / to grow", pos:"verb", gender:null,
      note:"'Kweken' = to grow/breed. Separable.\n'De kweker' = the grower. 'De kwekerij' = the nursery.",
      example:"A: Mijn buurman kweekt zijn eigen tomaten.\nB: In een kas?\nA: Nee, gewoon in de achtertuin.\nB: Wat leuk, ik wil dat ook proberen.",
      exampleSrc:"A: My neighbour grows his own tomatoes.\nB: In a greenhouse?\nA: No, just in the back garden.\nB: How nice, I want to try that too.",

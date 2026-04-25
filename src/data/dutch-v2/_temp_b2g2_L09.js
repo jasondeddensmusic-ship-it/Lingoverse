@@ -70,7 +70,7 @@ const LESSON_9 = {
      example:"A: Ze deed belijdenis in de kerk.\nB: Op welke leeftijd?\nA: Achttien. Het was een bewuste keuze.\nB: Dat vind ik mooi.",
      exampleSrc:"A: She made her confession of faith in church.\nB: At what age?\nA: Eighteen. It was a conscious choice.\nB: I think that is beautiful.",
      funFact:"In Dutch Reformed tradition, 'belijdenis doen' (making one's profession of faith) is a major life event, similar to Catholic confirmation. It typically happens in the late teens."},
-    {type:"teach", trg:"de complimenteren", src:"to compliment", pos:"noun", gender:null,
+    {type:"teach", trg:"complimenteren", src:"to compliment", pos:"verb", gender:null,
      note:"Inseparable verb. From French 'complimenter'.\n'Iemand complimenteren met' = to compliment someone on.",
      example:"A: Ik wil je complimenteren met je presentatie.\nB: Dank je! Ik was best zenuwachtig.\nA: Dat was helemaal niet te merken.\nB: Fijn om te horen.",
      exampleSrc:"A: I want to compliment you on your presentation.\nB: Thank you! I was quite nervous.\nA: That was not noticeable at all.\nB: Nice to hear.",

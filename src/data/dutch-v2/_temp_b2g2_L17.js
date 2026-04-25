@@ -40,7 +40,7 @@ const LESSON_17 = {
      example:"A: De complexiteit van dit vraagstuk wordt onderschat.\nB: Het heeft vele lagen.\nA: Economisch, sociaal en politiek.\nB: We moeten het multidisciplinair aanpakken.",
      exampleSrc:"A: The complexity of this issue is underestimated.\nB: It has many layers.\nA: Economic, social, and political.\nB: We need to approach it in a multidisciplinary way.",
      funFact:"Dutch politicians love saying 'de complexiteit van het probleem' to explain why solutions take long. It is almost a cliche in the Tweede Kamer (House of Representatives)."},
-    {type:"teach", trg:"de complimenteren", src:"to compliment", pos:"noun", gender:null,
+    {type:"teach", trg:"complimenteren", src:"to compliment", pos:"verb", gender:null,
      note:"Inseparable verb. From French.\n'Complimenteren met' = to compliment on.",
      example:"A: Mag ik je complimenteren met je toespraak?\nB: Dank je, dat waardeer ik.\nA: Het was helder en overtuigend.\nB: Dat was ook mijn doel.",
      exampleSrc:"A: May I compliment you on your speech?\nB: Thank you, I appreciate that.\nA: It was clear and convincing.\nB: That was also my aim.",
