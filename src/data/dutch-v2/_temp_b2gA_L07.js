@@ -60,7 +60,7 @@ const LESSON_7 = {id:"nlv2_b2gA_l7", title:"Inspiratie & Creativiteit", icon:"\u
   {type:"mc", q:"Ben je een professionele fotograaf? Nee, ik ben een hobbyist. Wat is een 'hobbyist'?",
    opts:["a creative director","someone who does something as a hobby","a professional photographer","a hobby shop owner"],
    ans:"someone who does something as a hobby",
-   hint:"The -ist suffix indicates a person. H... + -ist = s... who does it for fun."},
+   hint:"The -ist suffix marks a person. The stem is the same loan word English uses for non-professional pursuits."},
 
   {type:"fb", s:"Wat is jouw {1} van dit gedicht?",
    a:["interpretatie"], opts:["interpretatie","inspiratiebron","improvisatie","introductie"],
