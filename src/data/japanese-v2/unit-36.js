@@ -92,7 +92,7 @@ const UNIT_36 = {
    hint:"This connector introduces an unexpected result that contradicts what came before."},
 
   {type:"mc", q:"事実(じじつ)に基(もと)づく means:", opts:["unrelated to facts","contrary to facts","in spite of facts","based on facts"], ans:"based on facts",
-   hint:"基(もと)づく means 'to be grounded in,' and 事実(じじつ) is the word for 'f....'"},
+   hint:"基(もと)づく means 'to be grounded in'. The grammatical structure positively connects 事実 to the predicate, not negates it."},
 ]},
 
 // ═══ L2: Cross-Domain Synthesis & Exam Preparation ═══

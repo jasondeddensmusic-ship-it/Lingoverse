@@ -31,7 +31,7 @@ const BATCH5_L_1 = {
      funFact:"媒体(ばいたい) uses 媒(ばい) (matchmaker/intermediary) and 体(たい) (body/entity). The word comes from the idea of a medium connecting message sender and receiver. Traditional 媒体(ばいたい) (TV, newspaper, radio) are called マスメディア (mass media). Digital 媒体(ばいたい) are called ニューメディア or デジタルメディア. The shift between these is a major topic in Japanese business."},
 
     {type:"mc", q:"生(なま)放送(ほうそう) means:", opts:["A live broadcast","A recorded program","A news report","A commercial break"], ans:"A live broadcast",
-     hint:"生(なま) means 'raw/l...' and 放送(ほうそう) means 'b....'"},
+     hint:"生(なま) refers to unprocessed/unedited content (the same kanji used for 'raw' food). Combined with 放送, it points to a real-time transmission."},
 
     {type:"teach", trg:"編集(へんしゅう)", src:"editing / compilation", pos:"noun", gender:null,
      note:"Kanji: 編集(へんしゅう). 編集(へんしゅう)する = to edit.\n編集者(へんしゅうしゃ) = editor. 編集長(へんしゅうちょう) = editor-in-chief.",

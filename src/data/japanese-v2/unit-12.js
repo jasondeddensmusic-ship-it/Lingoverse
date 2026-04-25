@@ -109,7 +109,7 @@ const UNIT_12 = {
    funFact:"Combining もう with the potential form is a great way to celebrate language learning milestones. もう話(はな)せます (I can already speak it), もうわかります (I can already understand it). Japanese teachers love hearing these from students."},
 
   {type:"mc", q:"もう食(た)べました means:", opts:["I already ate","I have not eaten yet","I am still eating","I want to eat"], ans:"I already ate",
-   hint:"もう with past tense means the action is completed: 'a....'"},
+   hint:"もう paired with the past-tense -ました ending signals completion (the deed is done, not pending or in progress)."},
 
   {type:"teach", trg:"まだわかりません", src:"I do not understand yet", pos:"verb", gender:null,
    note:"まだ + negative = not yet. わかりません = do not understand.\nExpresses current inability with hope of future understanding.",

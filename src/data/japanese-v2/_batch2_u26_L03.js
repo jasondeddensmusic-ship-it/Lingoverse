@@ -25,7 +25,7 @@ const BATCH2_L_3 = {
      funFact:"出典 uses 出(しゅつ) (come out) and 典(てん) (canon/classic). A source is where information 'comes out from.' In Japanese academic culture, citing 出典(しゅってん) is mandatory. Plagiarism is taken seriously, and university students learn proper citation formats. News credibility also depends on identifiable 出典(しゅってん) for claims and statistics."},
 
     {type:"mc", q:"偏向(へんこう)報道(ほうどう) means:", opts:["Biased reporting","Live broadcast","Editorial column","Breaking news"], ans:"Biased reporting",
-     hint:"The compound combines the word for 'bias/leaning' with the word for 'r....'"},
+     hint:"The compound combines 偏向 (the noun for skew/leaning) with 報道 (the formal news-coverage noun)."},
 
     {type:"teach", trg:"客観的(きゃっかんてき)", src:"objective", pos:"adj", gender:null,
      note:"Opposite: 主観的(しゅかんてき) (subjective).\n客観的(きゃっかんてき)に見(み)る = to view objectively.",
