@@ -124,7 +124,7 @@ const BATCH2_U02_L1 = {
     {type:"mc", q:"Come si dice 'half an hour' in italiano?",
      opts:["Mezza ora","Meta ora","Mezz'ora","Mezzo ora"],
      ans:"Mezz'ora",
-     hint:"The word for 'half' contracts before 'o....' The apostrophe marks the dropped vowel."},
+     hint:"The word for 'half' contracts before a vowel-initial noun. The apostrophe marks the dropped vowel."},
 
     {type:"fb", s:"Un caffè {1}, per favore.",
      a:["doppio"],

@@ -90,7 +90,7 @@ const BATCH6_L1 = {id:"itv2_u29l_b6_1", title:"I pregiudizi cognitivi", icon:"\u
 {type:"mc", q:"Perche la malattia 'influenza' si chiama così?",
  opts:["Named after a famous patient","Medieval belief that epidemics were caused by stellar influence","Named after an Italian doctor","From a Latin word for sneezing"],
  ans:"Medieval belief that epidemics were caused by stellar influence",
- hint:"The same word as 'i....' Stars w... believed to cause disease outbreaks."},
+ hint:"The Italian disease name is itself a cognate of an astrology-related term. Pre-modern medicine connected celestial bodies to outbreaks."},
 {type:"fb", s:"{1} non significa causazione. E un errore logico comune.", a:["Correlazione"],
  opts:["Correlazione","Convinzione","Conformismo","Nostalgia"],
  hint:"A statistical relationship between variables that does not prove one causes the other.",

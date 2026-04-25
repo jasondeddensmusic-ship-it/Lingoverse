@@ -136,7 +136,7 @@ const LESSON_5 = {
     {type:"mc", q:"What does 'qualche volta' literally mean?",
      opts:["Some time(s)","Every time","No time","All times"],
      ans:"Some time(s)",
-     hint:"'Qualche' means 'some' and 'volta' means 't....' Despite meaning some, 'qualche' always takes a singular noun."}
+     hint:"Qualche is the indefinite quantifier; volta is the noun for an occasion. Despite the meaning, qualche always takes a singular noun."}
   ]
 };
 export default LESSON_5;

@@ -87,7 +87,7 @@ const LESSON_5 = {
     {type:"mc", q:"What is the difference between 'su' and 'sopra'?",
      opts:["Sopra is informal","Su = touching, sopra = not touching","They are identical","Su = above, sopra = on"],
      ans:"Su = touching, sopra = not touching",
-     hint:"The cat ON the table (t...) uses 'su.' The lamp ABOVE the table (hanging, not t...) uses 's....'"},
+     hint:"The cat resting directly on a surface vs. a lamp hanging in the air over the same surface. The two prepositions distinguish contact from elevation."},
 
     {type:"fb", s:"La farmacia e {1} al supermercato.",
      a:["accanto"],

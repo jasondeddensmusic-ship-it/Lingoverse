@@ -82,7 +82,7 @@ const BATCH8_L1 = {id:"itv2_u04l_b8_1", title:"La colazione italiana", icon:"ðŸ¥
  q:"What does 'amaro' mean when ordering coffee?",
  opts:["Very hot","Without sugar (bitter)","Extra sweet","With milk"],
  ans:"Without sugar (bitter)",
- hint:"It literally means 'b....' Italians who like unsweetened coffee use this word."},
+ hint:"The adjective describes the dominant taste profile when no sweetener is added. Not about temperature, sweetness, or dairy."},
 
 {type:"fb",
  s:"Una {1} d'arancia, per favore.",

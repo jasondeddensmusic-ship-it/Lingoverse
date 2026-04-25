@@ -94,7 +94,7 @@ const LESSON_4 = {
     {type:"mc", q:"What does 'aula magna' mean?",
      opts:["A digital classroom","A small study room","The great hall (for ceremonies)","An outdoor lecture space"],
      ans:"The great hall (for ceremonies)",
-     hint:"'Magna' means 'g....' Many Italian universities have historic grand halls where Galileo and other scholars once taught."},
+     hint:"Magna is the Latin-derived adjective for impressive scale (think Magna Carta). Italian universities have these spaces for ceremonial use."},
 
     {type:"fb", s:"Mangiamo in {1} oggi?",
      a:["mensa"],
