@@ -1308,4 +1308,17 @@ button:focus:not(:focus-visible), a:focus:not(:focus-visible),
 [dir="rtl"] .trg-inline { direction: ltr; unicode-bidi: isolate; display: inline; }
 [dir="rtl"] .meta-text { direction: auto; text-align: start; unicode-bidi: plaintext; }
 [dir="rtl"] input.trg-input, [dir="rtl"] textarea.trg-input { text-align: left; direction: ltr; }
+
+/* ── REDUCED MOTION (WCAG 2.3.3) ──
+   Users with prefers-reduced-motion enabled get NO entrance animations and
+   minimal transitions. Smooth scrolls become instant. Confetti / celebrations
+   keep their content but skip motion. Vestibular-safe defaults. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 `;
