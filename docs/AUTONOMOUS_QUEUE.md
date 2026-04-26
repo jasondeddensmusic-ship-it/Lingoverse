@@ -69,11 +69,30 @@ Findings from owner-requested CEFR + competitor audit (in this session, before t
 ### VISUAL-002 — PWA + offline mode (recommended in audit)
 - **description:** Service worker + IndexedDB caching of unit JSON. Data is already static. ~1–2 weeks. Closes the single most-cited gap vs Duolingo/Babbel/Busuu.
 - **acceptance:** App works fully offline after first load; passes Lighthouse PWA audit.
+- **PHASE 1 DONE 2026-04-26 (PR #637):** manifest + service worker, cache-first for static assets.
+- **PHASE 2 DONE 2026-04-26 (PR #639):** update banner + Google Fonts caching.
+- **INSTALL PROMPT DONE 2026-04-26 (PR #649):** beforeinstallprompt + iOS Add-to-Home-Screen hint.
+- **MANIFEST FIX DONE 2026-04-26 (PR #662):** honest icon size declaration.
 
 ### VISUAL-003 — AI conversation mode (recommended in audit, highest impact-per-effort)
 - **description:** Wire LLM (Claude/GPT) into existing `Chat.jsx` page, scoped to taught vocabulary per unit. Even one role-play scenario per unit closes the AirTalk/Busuu gap. Reuses existing teach card data. ~2–3 weeks.
 - **acceptance:** User completes a unit → unit-scoped role-play available; LLM constrained to that unit's vocabulary.
 - **PHASE 1 DONE 2026-04-26 (PR #638):** unit picker + vocab-scoped primer + adaptive quick-start prompts.
+- **CLEAR BUTTON DONE 2026-04-26 (PR #654):** clear chat history without losing unit scope.
+
+### VISUAL-A11Y — WCAG AA proxy compliance — DONE 2026-04-26
+- **acceptance:** `node scripts/audit_a11y.mjs --strict` passes (threshold 0). CI blocks any regression.
+- **DONE (PRs #640-#660):** 76 → 0 violations across 5 patterns. Locked in via strict CI gate. Includes:
+  - 0 imgs without alt
+  - 0 buttons without accessible name
+  - 0 icon-only buttons without aria-label
+  - 0 clickable divs without keyboard handler
+  - 0 inputs without label
+  - + skip-to-content link, role="main" landmark, :focus-visible defaults, prefers-reduced-motion respect, page titles, html lang sync, autocomplete attrs, input lang attrs.
+
+### VISUAL-PERF — Bundle size locked — DONE 2026-04-26
+- **acceptance:** `node scripts/audit_bundle_size.mjs --strict` passes.
+- **DONE (PR #652):** baseline locked at 2026-04-26 sizes + 15% slack. CI blocks doubling. Future code-split work tightens budgets one chunk at a time.
 
 ### VISUAL-A11Y — Close accessibility gaps (WCAG AA baseline)
 - **description:** Pre-Claude-Design accessibility baseline. Validator `scripts/audit_a11y.mjs` (added 2026-04-26) flags: imgs without alt, buttons without accessible names, clickable divs without keyboard handlers, inputs without labels, icon-only buttons. Initial baseline: 76 total violations across 32 files. LessonEngine + AuthScreen + VocabularyPage are top offenders.
