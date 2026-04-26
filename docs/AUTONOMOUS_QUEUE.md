@@ -60,6 +60,47 @@ Findings from owner-requested CEFR + competitor audit (in this session, before t
 - **description:** A1 averages only 83% function coverage (vs 89% at A2/B1). Missing across all non-German: F14 Make appointments, F15 Fill forms, F22 Admin situations (B1), F21 Personal significance (B2). Italian and Portuguese also miss daily-routine + ability-modal A1 lessons.
 - **acceptance:** PP58 audit per language shows 100% on A1+B1 functions; ≥90% on A2/B2.
 
+## P1 — Expert Panel Audit (added 2026-04-26 — owner directive)
+
+Owner-directed (2026-04-26): "Get professional AI agent opinions left and right. I must be forgetting areas." Multi-disciplinary expert panel audits curriculum + style across every dimension that matters for adult language learning. Validators (Rule I) catch mechanical regressions; the panel catches what they can't.
+
+Master spec: `docs/agents/EXPERT_PANEL.md`. Run cadence + cost-control + synthesis pipeline are documented there.
+
+### EXPERT-PANEL-001 — Tier 1 audit on German A1+A2 (pilot)
+- **description:** Spawn 6 Tier 1 panelists in parallel (max 4 simultaneous per Rule B7) audited against German A1+A2 only. Validates the panel design before scaling to all languages. Each panelist gets the German A1+A2 unit slice + CLAUDE.md + their persona file. Output: 6 structured findings reports.
+- **roles to spawn:**
+  - SLA Researcher (`docs/agents/EXPERT_SLA_RESEARCHER.md`)
+  - Cognitive Psychologist (`docs/agents/EXPERT_COGNITIVE_PSYCHOLOGIST.md`)
+  - Educational Psychologist (`docs/agents/EXPERT_EDUCATIONAL_PSYCHOLOGIST.md`)
+  - Native-Speaker Linguist for German (`docs/agents/EXPERT_NATIVE_LINGUIST.md` with `<TARGET_LANG>=de`)
+  - Real-World Language Teacher (`docs/agents/EXPERT_LANGUAGE_TEACHER.md`)
+  - Curriculum Designer (`docs/agents/EXPERT_CURRICULUM_DESIGNER.md`)
+- **preconditions:** Owner approves the run. (Cost: ~6 × Sonnet runs at ~30K tokens each = ~180K tokens = ~$1-2 USD per panel run.)
+- **acceptance:** All 6 reports written to `docs/expert-panel/<date>/<role>.md`. Synthesis script produces deduped findings list ranked by consensus × severity.
+
+### EXPERT-PANEL-002 — Synthesis script
+- **description:** Build `scripts/synthesize_expert_panel.cjs` that reads all reports under `docs/expert-panel/<date>/`, dedupes findings (same issue flagged by 2+ panelists = boost), clusters by theme, ranks by severity × consensus, and emits a list of proposed queue items as `EXPERT-PANEL-FINDING-<id>`.
+- **acceptance:** Script runs end-to-end on 6 pilot reports, produces structured output that's easy for the owner to triage (accept / defer / reject per item).
+
+### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages
+- **description:** Once Tier 1 pilot for German validates the design, run Tier 1 for the other 9 languages. Native-Speaker Linguist persona substitutes per language (de/nl/fr/es/it/pt/ko/ja/zh/ru). Other 5 roles run language-agnostic but with the relevant slice.
+- **estimated:** 60 panelist-runs total (10 langs × 6 roles). Spread over multiple sessions — max 4 simultaneous per Rule B7.
+- **STOPS-ON:** Owner approves the budget + sequence (which language first).
+
+### EXPERT-PANEL-004 — Tier 2 panelists (12 specialty roles)
+- **description:** Add persona files + spawn for 12 Tier 2 roles: Neuroscientist (drafted), Sociolinguist, Pragmatics Specialist, Phonologist, Cultural Anthropologist, Discourse Analyst, Corpus Linguist, Translation Theorist, Heritage-Language Specialist, Polyglot Practitioner, Phonetic Acquisition Researcher, Assessment Psychometrician.
+- **runs:** Quarterly OR after major curriculum revisions.
+- **acceptance:** Persona files written for all 12; first quarterly run completed and findings synthesized.
+
+### EXPERT-PANEL-005 — Tier 3 specialist panelists (situational)
+- **description:** Persona files for: Tonologist (zh), Morphologist (de/ru/ko), Writing-System Expert (ko/ja/zh/ru/ar), UX Researcher, Gamification Designer, Behavioral Economist, HCI/A11y Specialist, Dyslexia Specialist, ADHD-Friendly Learning Expert, Speech-Language Pathologist, AI Ethics Expert, Brand Strategist, Customer-Success Specialist, Cultural Sensitivity Reviewer, Inclusive Design Expert, Data Privacy Specialist.
+- **runs:** Per relevant feature/content launch.
+- **acceptance:** Persona files exist; relevant spawns happen at the right milestones.
+
+### EXPERT-PANEL-006 — Findings → New PP rules + validators
+- **description:** Per Rule I3, repeated findings across panels → new PP rule + new validator. Run after each panel cycle: review the EXPERT-PANEL-FINDING-* queue items, identify patterns appearing 3+ times, codify as PP69, PP70, etc.
+- **acceptance:** New PP rules added to CLAUDE.md citing the panelists. New validator scripts wired into CI.
+
 ## P1 — Visual cleanup (Brilliant / Duolingo tier)
 
 ### VISUAL-001 — Three hero screens redesigned via Claude Design
