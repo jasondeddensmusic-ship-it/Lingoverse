@@ -12,7 +12,7 @@
  * What this checks:
  * - Reads `dist/assets/*.js` after `npm run build`
  * - Compares each chunk against its budget (BUDGETS map below)
- * - Default budgets match current baseline + 10% slack
+ * - Default budgets match current baseline + 15% slack
  *
  * Budgets are conservative: locked-in baselines that ALLOW small
  * growth but block doubling. Tighten over time as code-splitting
