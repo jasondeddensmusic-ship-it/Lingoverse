@@ -8,6 +8,7 @@ import { getPreferredVoice, playAudio, SpeakerButton, AUDIO_ENABLED, UISounds } 
 import { useFocusNav, KB_FOCUS_SEL, useSwipe } from '../hooks.js';
 import { Confetti, ContinueButton, NavArrow, ScoreCircle, FlagButton, AppIcon, BrandIcon, _memStore, renderNavTitle } from './shared.jsx';
 import { recordQuizOutcome } from '../srs.js';
+import { clickableProps, scrimProps } from '../a11y.js';
 
 function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,onBack,onComplete,addFlag,lang="nl",hideQuizRom=false,onContinue=null}){
   const dk=document.documentElement.classList.contains("dark");
@@ -717,7 +718,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         </div>
       </div>
       {/* Grammar settings panel — tabbed color pack system, VerumLingua candy gloss */}
-      {showGrammarSettings&&grammarHl&&typeof window!=="undefined"&&window.innerWidth<600&&<div onClick={()=>setShowGrammarSettings(false)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
+      {showGrammarSettings&&grammarHl&&typeof window!=="undefined"&&window.innerWidth<600&&<div {...scrimProps(()=>setShowGrammarSettings(false))} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
       {showGrammarSettings&&grammarHl&&(()=>{
         if(!langPacks) return <div style={{marginTop:8,padding:"12px 14px",borderRadius:14,background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",fontSize:12,color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)"}}>{t("le_no_grammar",baseLang)}</div>;
         const isMobile = typeof window !== "undefined" && window.innerWidth < 600;
@@ -1523,14 +1524,14 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
 
     // ── Outer wrapper: full-screen backdrop, flex-centered ──
     return(
-      <div onClick={onClose} style={{
+      <div {...scrimProps(onClose)} style={{
         position:"fixed",inset:0,zIndex:99998,
         display:"flex",alignItems:"center",justifyContent:"center",
         background:"rgba(8,6,24,0.62)",
         backdropFilter:"blur(10px)",WebkitBackdropFilter:"blur(10px)"
       }}>
         {/* Main bubble panel */}
-        <div onClick={e=>e.stopPropagation()} style={{
+        <div role="dialog" aria-modal="true" onClick={e=>e.stopPropagation()} style={{
           width:"min(560px,calc(100vw - 16px))",maxHeight:"88vh",overflowY:"auto",
           position:"relative",overflow:"hidden",
           borderRadius:26,
@@ -1996,8 +1997,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:10000,
       display:"flex",alignItems:"center",justifyContent:"center",
       background:"rgba(0,0,0,0.4)",backdropFilter:"blur(4px)",
-    }} onClick={()=>setMiniWordPopup(null)}>
-      <div onClick={e=>e.stopPropagation()} style={{
+    }} {...scrimProps(()=>setMiniWordPopup(null))}>
+      <div role="dialog" aria-modal="true" onClick={e=>e.stopPropagation()} style={{
         background:dk
           ?"linear-gradient(180deg,rgba(38,28,72,0.98),rgba(30,22,58,0.98))"
           :"linear-gradient(180deg,rgba(255,255,255,0.99),rgba(250,245,255,0.99))",
@@ -2155,7 +2156,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
     if(!english) return null;
     const visible=startVisible||showTrans;
     if(!visible) return <div style={{marginTop:6}}><button onClick={()=>setShowTrans(true)} style={{background:"none",border:"none",color:"var(--gray-300)",fontSize:12,cursor:"pointer",fontFamily:"'Nunito','system-ui',sans-serif",padding:"2px 8px",borderRadius:6,transition:"all .15s"}} onMouseEnter={e=>{e.target.style.color="var(--purple-accent-text)";}} onMouseLeave={e=>{e.target.style.color="var(--gray-300)";}}>👁 {t("le_show_translation",baseLang)}</button></div>;
-    return <div style={{marginTop:6,cursor:startVisible?"default":"pointer"}} onClick={()=>{if(!startVisible)setShowTrans(false);}}><div style={{fontSize:14,color:"var(--gray-700)",fontWeight:500,lineHeight:1.45,fontFamily:"'Nunito','system-ui',sans-serif",...srcDir}}>{english}</div></div>;
+    return <div style={{marginTop:6,cursor:startVisible?"default":"pointer"}} {...(startVisible?{}:clickableProps(()=>setShowTrans(false),{label:"Hide translation"}))}><div style={{fontSize:14,color:"var(--gray-700)",fontWeight:500,lineHeight:1.45,fontFamily:"'Nunito','system-ui',sans-serif",...srcDir}}>{english}</div></div>;
   };
 
   // ── Shared example renderer: operators gray, non-ASCII purple ──
@@ -4095,16 +4096,18 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           <div style={{display:"flex",flexDirection:"column",gap:8}}>
             <div style={{fontSize:11,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>{LANGUAGES.find(l=>l.code===lang)?.native||lang}</div>
             {nlItems.map((w,i)=>{const d=matchDone.includes(w),s=matchSel.nl===w,f=focusIdx===i&&!d;
-              return <div key={i} data-match-nl={i} data-match-side="nl" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
+              return <div key={i} role="button" tabIndex={d?-1:0} aria-label={`Match ${w}`} aria-pressed={s} aria-disabled={d} data-match-nl={i} data-match-side="nl" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
                 onClick={()=>{if(!d){UISounds.click();handleMatch("nl",w);}}}
+                onKeyDown={(e)=>{if(d)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();UISounds.click();handleMatch("nl",w);}}}
                 onPointerDown={(e)=>{if(d)return;e.preventDefault();matchDragRef.current={active:true,side:"nl",val:w,startEl:e.currentTarget};e.currentTarget.setPointerCapture&&e.currentTarget.releasePointerCapture(e.pointerId);handleMatch("nl",w);const container=matchContainerRef.current;if(!container)return;const rect=container.getBoundingClientRect();const elR=e.currentTarget.getBoundingClientRect();setMatchPendingLine({x1:elR.right-rect.left,y1:elR.top+elR.height/2-rect.top,x2:e.clientX-rect.left,y2:e.clientY-rect.top});}}
                 onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i);}}}>{universalHl(w, lang, {noColor:true})}{d&&" ✓"}</div>;})}
           </div>
           <div style={{display:"flex",flexDirection:"column",gap:8}}>
             <div style={{fontSize:11,fontWeight:700,color:"var(--gray-400)",textTransform:"uppercase",letterSpacing:1}}>{BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"}</div>
             {enItems.map((w,i)=>{const d=matchDone.includes(w),s=matchSel.en===w,f=focusIdx===i+nlCount&&!d;
-              return <div key={i} data-match-en={i} data-match-side="en" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
+              return <div key={i} role="button" tabIndex={d?-1:0} aria-label={`Match ${w}`} aria-pressed={s} aria-disabled={d} data-match-en={i} data-match-side="en" data-match-val={w} style={{padding:"10px 14px",borderRadius:"var(--radius-sm)",border:`2px solid ${d?"#7B5EE8":s?"var(--blue)":f?"#7B5EE8":"var(--gray-200)"}`,background:d?"rgba(123,94,232,0.08)":s?"var(--blue-light)":f?"rgba(123,94,232,0.04)":"var(--white)",cursor:d?"default":"pointer",fontWeight:600,fontSize:14,opacity:d?.6:1,transition:"all .2s",position:"relative",zIndex:2,outline:f?"3px solid var(--purple-accent)":"none",outlineOffset:f?2:0,boxShadow:f?"0 0 0 6px rgba(123,94,232,0.12)":"none",touchAction:"none",userSelect:"none",WebkitUserSelect:"none"}}
                 onClick={()=>{if(!d){UISounds.click();handleMatch("en",w);}}}
+                onKeyDown={(e)=>{if(d)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();UISounds.click();handleMatch("en",w);}}}
                 onPointerDown={(e)=>{if(d)return;e.preventDefault();matchDragRef.current={active:true,side:"en",val:w,startEl:e.currentTarget};e.currentTarget.setPointerCapture&&e.currentTarget.releasePointerCapture(e.pointerId);handleMatch("en",w);const container=matchContainerRef.current;if(!container)return;const rect=container.getBoundingClientRect();const elR=e.currentTarget.getBoundingClientRect();setMatchPendingLine({x1:elR.left-rect.left,y1:elR.top+elR.height/2-rect.top,x2:e.clientX-rect.left,y2:e.clientY-rect.top});}}
                 onMouseEnter={()=>{if(!d){UISounds.tick();setFocusIdx(i+nlCount);}}}>{cap(w)}{d&&" ✓"}</div>;})}
           </div>
