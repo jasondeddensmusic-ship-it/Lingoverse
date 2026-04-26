@@ -82,20 +82,32 @@ Master spec: `docs/agents/EXPERT_PANEL.md`. Run cadence + cost-control + synthes
 - **description:** Build `scripts/synthesize_expert_panel.cjs` that reads all reports under `docs/expert-panel/<date>/`, dedupes findings (same issue flagged by 2+ panelists = boost), clusters by theme, ranks by severity × consensus, and emits a list of proposed queue items as `EXPERT-PANEL-FINDING-<id>`.
 - **acceptance:** Script runs end-to-end on 6 pilot reports, produces structured output that's easy for the owner to triage (accept / defer / reject per item).
 
-### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages
-- **description:** Once Tier 1 pilot for German validates the design, run Tier 1 for the other 9 languages. Native-Speaker Linguist persona substitutes per language (de/nl/fr/es/it/pt/ko/ja/zh/ru). Other 5 roles run language-agnostic but with the relevant slice.
-- **estimated:** 60 panelist-runs total (10 langs × 6 roles). Spread over multiple sessions — max 4 simultaneous per Rule B7.
-- **STOPS-ON:** Owner approves the budget + sequence (which language first).
+### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages (Korean-first per owner)
+- **description:** Once Tier 1 pilot for German validates the design, run Tier 1 for the other 9 languages. Native-Speaker Linguist persona substitutes per language. Other 5 roles run language-agnostic but with the relevant slice.
+- **owner-approved sequence (2026-04-26):** Korean → Spanish → French → Italian → Portuguese → Japanese → Chinese → Dutch → Russian. Korean first because most morphologically distinct from English (largest test of curriculum's adaptability). Spanish second (largest learner base globally). Romance trio together for cross-language pattern detection. Japanese + Chinese together (script-heavy). Dutch + Russian last (smaller corpora, recent additions).
+- **estimated:** 60 panelist-runs total (10 langs × 6 roles). Owner has Max plan — token cost is not a blocker.
+- **acceptance:** All 10 languages have Tier 1 reports under `docs/expert-panel/<date>/<lang>/`. Synthesis run per language. Cross-language patterns identified by EXPERT-PANEL-006.
 
-### EXPERT-PANEL-004 — Tier 2 panelists (12 specialty roles)
-- **description:** Add persona files + spawn for 12 Tier 2 roles: Neuroscientist (drafted), Sociolinguist, Pragmatics Specialist, Phonologist, Cultural Anthropologist, Discourse Analyst, Corpus Linguist, Translation Theorist, Heritage-Language Specialist, Polyglot Practitioner, Phonetic Acquisition Researcher, Assessment Psychometrician.
+### EXPERT-PANEL-004 — Tier 2 panelists (16 specialty roles)
+- **description:** Add persona files + spawn for 16 Tier 2 roles. The 4 starred ⭐ are drafted in this PR. Remaining 12 stub-on-first-use per Rule B8.
+- **drafted personas (ready to spawn):**
+  - Neuroscientist — `EXPERT_NEUROSCIENTIST.md`
+  - Bilingual Education Researcher ⭐ — `EXPERT_BILINGUAL_EDUCATION.md`
+  - Communicative-Approach Purist ⭐ — `EXPERT_COMMUNICATIVE_PURIST.md`
+  - Reading Acquisition & Script Specialist ⭐ — `EXPERT_READING_ACQUISITION.md`
+  - Standardized Test-Prep Specialist ⭐ — `EXPERT_TEST_PREP.md`
+- **stub-on-first-use:** Sociolinguist, Pragmatics Specialist, Phonologist, Cultural Anthropologist, Discourse Analyst, Corpus Linguist, Translation Theorist, Heritage-Language Specialist, Polyglot Practitioner, Phonetic Acquisition Researcher, Assessment Psychometrician
 - **runs:** Quarterly OR after major curriculum revisions.
-- **acceptance:** Persona files written for all 12; first quarterly run completed and findings synthesized.
+- **acceptance:** All 16 persona files written before spawn; first quarterly run completed and findings synthesized.
 
-### EXPERT-PANEL-005 — Tier 3 specialist panelists (situational)
-- **description:** Persona files for: Tonologist (zh), Morphologist (de/ru/ko), Writing-System Expert (ko/ja/zh/ru/ar), UX Researcher, Gamification Designer, Behavioral Economist, HCI/A11y Specialist, Dyslexia Specialist, ADHD-Friendly Learning Expert, Speech-Language Pathologist, AI Ethics Expert, Brand Strategist, Customer-Success Specialist, Cultural Sensitivity Reviewer, Inclusive Design Expert, Data Privacy Specialist.
+### EXPERT-PANEL-005 — Tier 3 specialist panelists (situational, 18 roles)
+- **description:** Persona files for situational specialists. The 2 starred ⭐ are drafted in this PR.
+- **drafted personas (ready to spawn):**
+  - Music & Song-Based Learning Specialist ⭐ — `EXPERT_MUSIC_LEARNING.md`
+  - Sign-Language & Multimodal Specialist ⭐ — `EXPERT_MULTIMODAL.md`
+- **stub-on-first-use:** Tonologist (zh), Morphologist (de/ru/ko), Writing-System Expert (ko/ja/zh/ru/ar), UX Researcher, Gamification Designer, Behavioral Economist, HCI/A11y Specialist, Dyslexia Specialist, ADHD-Friendly Learning Expert, Speech-Language Pathologist, AI Ethics Expert, Brand Strategist, Customer-Success Specialist, Cultural Sensitivity Reviewer, Inclusive Design Expert, Data Privacy Specialist
 - **runs:** Per relevant feature/content launch.
-- **acceptance:** Persona files exist; relevant spawns happen at the right milestones.
+- **acceptance:** Persona files exist for relevant spawn; spawns happen at the right milestones.
 
 ### EXPERT-PANEL-006 — Findings → New PP rules + validators
 - **description:** Per Rule I3, repeated findings across panels → new PP rule + new validator. Run after each panel cycle: review the EXPERT-PANEL-FINDING-* queue items, identify patterns appearing 3+ times, codify as PP69, PP70, etc.

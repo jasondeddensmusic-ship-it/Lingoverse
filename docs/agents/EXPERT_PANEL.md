@@ -17,7 +17,7 @@ Validators (Rule I) catch mechanical regressions. They do not catch:
 
 The expert panel runs **once per major content milestone** (after a language launches, after a level unlocks, after a major curriculum revision). Each role spawns as a fresh AI agent with a deeply-detailed persona + the relevant slice of curriculum. Findings are synthesized into actionable queue items.
 
-## Roster — three tiers
+## Roster — three tiers (42 total roles)
 
 ### Tier 1 — Core (always run)
 
@@ -34,7 +34,7 @@ These six roles produce the highest-leverage findings. Run on every major milest
 
 ### Tier 2 — Expanded (run quarterly or after big revisions)
 
-Twelve roles that catch important issues but with lower frequency.
+Sixteen roles that catch important issues but with lower frequency.
 
 | Role | Audits |
 |---|---|
@@ -50,6 +50,10 @@ Twelve roles that catch important issues but with lower frequency.
 | **Polyglot Practitioner** | What actually works when you've learned 8+ languages — practitioner-side critique |
 | **Phonetic Acquisition Researcher** | Adult phonological learning, perceptual training, accent reduction realism |
 | **Assessment Psychometrician** | Test-item validity, distractor quality, ceiling/floor effects in quizzes |
+| **Bilingual Education Researcher** ⭐ NEW | Source-target language pair design, cognate exploitation, L1 transfer, heritage-learner support, translanguaging in AI tutor |
+| **Communicative-Approach Purist** ⭐ NEW | TBLT alignment, communicative-purpose audit per lesson, productive-vs-receptive ratio, AI tutor centrality, "grammar-translation in disguise" detection |
+| **Reading Acquisition & Script Specialist** ⭐ NEW | Foundations-script pedagogy depth, post-Foundations reinforcement, romanization management, kanji-radical decomposition, reading-fluency training |
+| **Standardized Test-Prep Specialist** ⭐ NEW | Official-exam wordlist intersection, productive-skill training matching exam format, "certification-grade" marketing-claim verification |
 
 ### Tier 3 — Specialist (situational)
 
@@ -74,6 +78,8 @@ Run when the relevant feature/content launches or a specific concern arises.
 | **Cultural Sensitivity Reviewer** | Per-region content review (e.g., German content for German-speaking Switzerland vs Austria vs Germany) |
 | **Inclusive Design Expert** | Gender-inclusive language, neurodiversity, religious/cultural inclusion |
 | **Data Privacy Specialist** | GDPR / CCPA compliance audit |
+| **Music & Song-Based Learning Specialist** ⭐ NEW | Music feature presence, song selection criteria, prosody training via song, cultural transmission via lyrics |
+| **Sign-Language & Multimodal Specialist** ⭐ NEW | Sign-language acknowledgment, gesture in spoken-language pedagogy, captioning/transcript availability, UDL alignment, future-state vision |
 
 ## Orchestration
 
@@ -121,13 +127,73 @@ Every panelist gets:
 
 ### Synthesis pipeline
 
-After all panelists submit:
+After all panelists submit, the synthesis script (`scripts/synthesize_expert_panel.cjs`) processes findings using the following methodology.
 
-1. **Dedup findings** — same issue flagged by 3 panelists = high-priority queue item
-2. **Cluster by theme** — "scaffolding gap at A2" might be flagged by Educational Psychologist + SLA Researcher + Teacher
-3. **Tier critical/important/nice-to-have** by severity × consensus
-4. **Generate queue items** — each item = `EXPERT-PANEL-<id>` with citations to which panelists flagged it
-5. **Owner reviews** — accept / defer / reject per item
+#### Consensus vs unique-signal weighting (owner-approved 2026-04-26)
+
+**Consensus tier — high confidence**
+
+Multiple panelists flagged related findings = the issue is real. Weighting:
+
+| Panelists agreeing | Weight | Tier |
+|---|---|---|
+| 3+ panelists | × 3 | AUTO-CRITICAL |
+| 2 panelists | × 2 | IMPORTANT (review both findings to understand the cluster) |
+| 1 panelist | × 1 | CONDITIONAL — proceed to unique-signal scoring below |
+
+**Unique-signal tier — domain-expertise weighting**
+
+A single panelist's finding is NOT discarded. Domain experts see things only they would see — a Tonologist's unique flag on Mandarin tones is high-priority even alone. Score using these factors:
+
+| Factor | Boost |
+|---|---|
+| Panelist is Tier-1 expert in the relevant domain | +1.0 |
+| Panelist is Tier-2 specialist in the relevant domain | +0.5 |
+| Finding has file:line citation (specific evidence) | +0.5 |
+| Finding has academic citation (research-backed) | +0.5 |
+| Severity 8-10 claimed by panelist | +1.0 |
+| Severity 5-7 claimed | +0.5 |
+| Severity 1-4 | +0.0 |
+| Suggested fix is concrete (not vague) | +0.5 |
+
+**Final tiering**
+
+| Total weighted score | Final tier | Action |
+|---|---|---|
+| ≥ 5 | CRITICAL | Auto-create EXPERT-PANEL-FINDING-* queue item; flag for next session |
+| 3-4 | IMPORTANT | Auto-create queue item with "review" tag |
+| 1-2 | NICE-TO-HAVE | Aggregate into a single backlog doc; surface only if patterns emerge |
+| < 1 | NOISE | Drop, but log in `docs/expert-panel/<date>/discarded.log` for audit |
+
+**Examples:**
+
+- Educational Psychologist + SLA Researcher + Teacher all flag "no scaffolding for B1 learner who fails 3 times" → 3 panelists × 3 = 9 → CRITICAL.
+- Only the Tonologist flags "Mandarin tone-3 sandhi is taught wrong" → 1 panelist × 1 + Tier-2-domain-relevant +0.5 + file:line +0.5 + severity 9 +1.0 + concrete fix +0.5 = 3.5 → IMPORTANT.
+- Only the Music-Based Learning Specialist flags "no songs in curriculum" → 1 × 1 + Tier-3-domain-relevant +0.0 (no boost since music isn't a launched feature yet) + concrete fix +0.5 + severity 7 +0.5 = 2.0 → NICE-TO-HAVE roadmap item.
+- Heritage-Language Specialist flags "no heritage-learner mode" → 1 × 1 + Tier-2-domain-relevant +0.5 + file:line +0.5 + severity 8 +1.0 + concrete fix +0.5 = 3.5 → IMPORTANT.
+
+#### Pipeline steps
+
+1. **Parse all reports** under `docs/expert-panel/<date>/<role>.md`
+2. **Extract findings** — each report's Critical / Important / Nice-to-have sections
+3. **Cluster** by theme (semantic similarity + same file:line citations)
+4. **Apply consensus weighting** (× number of panelists agreeing)
+5. **Apply unique-signal weighting** (boosts above)
+6. **Tier** into CRITICAL / IMPORTANT / NICE-TO-HAVE / NOISE
+7. **Generate queue items** — each CRITICAL + IMPORTANT becomes an `EXPERT-PANEL-FINDING-<id>` with citations
+8. **Owner reviews** — accept / defer / reject per item, with reasoning logged
+
+#### Conflict resolution
+
+When two panelists flag the SAME thing with OPPOSITE judgments (e.g., Communicative Purist says "too much grammar drilling" while Curriculum Designer says "grammar coverage gap"):
+- Both findings logged
+- Conflict explicitly noted in the synthesis report
+- Owner decides which lens wins for this product's positioning
+- Decision logged in `docs/DECISION_LOG.md` for future reference
+
+#### Findings cache
+
+Findings are cached per (curriculum slice × panel run). Re-runs only happen after material content changes, not after every PR. The cache lives in `docs/expert-panel/cache/`.
 
 ### Run cadence
 
