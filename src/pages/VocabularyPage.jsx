@@ -6,6 +6,7 @@ import { WORD_DB, GRAMMAR_PACKS, resolvePackColor, pillGradient, GRAMMAR_CATEGOR
 import { cap } from '../utils.js';
 import { SpeakerButton } from '../audio.jsx';
 import { useBottomSheet } from '../hooks.js';
+import { clickableProps, scrimProps } from '../a11y.js';
 
 function VocabularyPage({lang,user,showToast,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
@@ -262,7 +263,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     // When grammarHl ON: entire word (article+noun) gets ONE unified color from resolvePackColor
     const transColor=grammarHl?"#7B5EE8":(dk?"rgba(200,184,255,0.6)":"rgba(100,80,160,0.55)");
     return(
-      <div onClick={()=>setExpanded(expanded===entry?null:entry)} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
+      <div {...clickableProps(()=>setExpanded(expanded===entry?null:entry),{label:`${entry.word}${entry.en?" — "+entry.en:""}`})} aria-expanded={expanded===entry} style={{borderRadius:22,overflow:"hidden",marginBottom:8,transition:"all .25s",position:"relative",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow}}>
         <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
         <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
           <div style={{flex:1,minWidth:0}}>
@@ -391,8 +392,8 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
     };
 
     return(
-      <div className={isMobile?"bs-overlay":""} onClick={()=>{if(isMobile)bs.dismiss();else{setExpanded(null);setPopupTab("overview");}}} style={isMobile?{}:{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
-        <div ref={isMobile?bs.panelRef:undefined} className={isMobile?("bs-panel"+(bs.closing?" closing":"")):""} onPointerDown={isMobile?bs.onPointerDown:undefined} onClick={e=>e.stopPropagation()} style={{
+      <div className={isMobile?"bs-overlay":""} {...scrimProps(()=>{if(isMobile)bs.dismiss();else{setExpanded(null);setPopupTab("overview");}})} style={isMobile?{}:{position:"fixed",top:0,left:0,right:0,bottom:0,zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",background:"rgba(0,0,0,0.45)",backdropFilter:"blur(6px)",animation:"fadeIn .2s"}}>
+        <div ref={isMobile?bs.panelRef:undefined} role="dialog" aria-modal="true" aria-label="Word details" className={isMobile?("bs-panel"+(bs.closing?" closing":"")):""} onPointerDown={isMobile?bs.onPointerDown:undefined} onClick={e=>e.stopPropagation()} style={{
           width:isMobile?"100%":"min(460px, 92vw)",
           maxHeight:isMobile?"85vh":"88vh",
           borderRadius:isMobile?"24px 24px 0 0":24,position:"relative",
@@ -829,7 +830,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
         </div>
 
         {/* Grammar settings panel — copied from lesson engine, VerumLingua candy gloss */}
-        {showGrammarSettings&&grammarHl&&isMobile&&<div onClick={()=>setShowGrammarSettings(false)} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
+        {showGrammarSettings&&grammarHl&&isMobile&&<div {...scrimProps(()=>setShowGrammarSettings(false))} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",zIndex:9998,backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)"}}/>}
         {showGrammarSettings&&grammarHl&&(()=>{
           if(!langPacks) return <div style={{marginTop:8,padding:"12px 14px",borderRadius:14,background:dk?"rgba(30,30,46,0.95)":"rgba(255,255,255,0.97)",border:dk?"1px solid rgba(255,255,255,0.08)":"1px solid rgba(0,0,0,0.06)",boxShadow:dk?"0 4px 20px rgba(0,0,0,0.4)":"0 4px 16px rgba(0,0,0,0.08)",fontSize:12,color:dk?"rgba(255,255,255,0.5)":"var(--gray-500)",marginBottom:14}}>No grammar packs available for this language yet.</div>;
           return <div style={{
@@ -1145,7 +1146,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
             {(()=>{
               const card=reviewWords[reviewIndex];
               if(!card)return null;
-              return <div onClick={()=>setReviewFlipped(p=>!p)} style={{
+              return <div {...clickableProps(()=>setReviewFlipped(p=>!p),{label:reviewFlipped?"Show front":"Show translation"})} style={{
                 cursor:"pointer",position:"relative",overflow:"hidden",borderRadius:22,padding:isMobile?"32px 24px":"40px 32px",
                 minHeight:isMobile?220:260,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",
                 background:panelBg,border:panelBorder,boxShadow:panelShadow,transition:"all .3s",
@@ -1271,7 +1272,7 @@ function VocabularyPage({lang,user,showToast,baseLang="en"}){
           {filtered.map((item,i)=>{
             const isOpen=gramExpanded===i;
             return <div key={i} style={{marginBottom:8}}>
-              <div onClick={()=>setGramExpanded(isOpen?null:i)} style={{borderRadius:18,overflow:"hidden",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow,transition:"all .25s",position:"relative"}}>
+              <div {...clickableProps(()=>setGramExpanded(isOpen?null:i),{label:item.title||`Grammar item ${i+1}`})} aria-expanded={isOpen} style={{borderRadius:18,overflow:"hidden",cursor:"pointer",background:bubbleBg,border:bubbleBorder,boxShadow:bubbleShadow,transition:"all .25s",position:"relative"}}>
                 <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",background:bubbleGloss,borderRadius:"0 0 50% 50%",pointerEvents:"none",zIndex:0}}/>
                 <div style={{display:"flex",alignItems:"center",gap:8,padding:"13px 18px",position:"relative",zIndex:1}}>
                   <div style={{flex:1,minWidth:0}}>
