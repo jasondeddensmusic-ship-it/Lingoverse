@@ -80,24 +80,15 @@ Findings from owner-requested CEFR + competitor audit (in this session, before t
 - **PHASE 1 DONE 2026-04-26 (PR #638):** unit picker + vocab-scoped primer + adaptive quick-start prompts.
 - **CLEAR BUTTON DONE 2026-04-26 (PR #654):** clear chat history without losing unit scope.
 
-### VISUAL-A11Y — WCAG AA proxy compliance — DONE 2026-04-26
-- **acceptance:** `node scripts/audit_a11y.mjs --strict` passes (threshold 0). CI blocks any regression.
-- **DONE (PRs #640-#660):** 76 → 0 violations across 5 patterns. Locked in via strict CI gate. Includes:
-  - 0 imgs without alt
-  - 0 buttons without accessible name
-  - 0 icon-only buttons without aria-label
-  - 0 clickable divs without keyboard handler
-  - 0 inputs without label
-  - + skip-to-content link, role="main" landmark, :focus-visible defaults, prefers-reduced-motion respect, page titles, html lang sync, autocomplete attrs, input lang attrs.
-
-### VISUAL-PERF — Bundle size locked — DONE 2026-04-26
-- **acceptance:** `node scripts/audit_bundle_size.mjs --strict` passes.
-- **DONE (PR #652):** baseline locked at 2026-04-26 sizes + 15% slack. CI blocks doubling. Future code-split work tightens budgets one chunk at a time.
-
 ### ~~VISUAL-A11Y~~ — DONE 2026-04-26 (PRs #640-#669)
-- Initial baseline 76 → 0 across 5 patterns (imgs/buttons/icon-buttons/clickable-divs/inputs).
+- **acceptance:** `node scripts/audit_a11y.mjs --strict` passes (threshold 0). CI blocks any regression.
+- 76 → 0 violations across 5 patterns (imgs/buttons/icon-buttons/clickable-divs/inputs).
 - `scripts/audit_a11y.mjs --strict` (threshold 0) is now BLOCKING in CI + pre-commit (PR #648).
 - Additional WCAG improvements shipped: skip-to-content link (#650), :focus-visible defaults (#644), prefers-reduced-motion respect (#657), per-page document.title (#655), html lang sync (#656), input lang attrs (#660), span lang on native names (#669), autocomplete + name attrs on auth (#658, #666), Toast/XpPop aria-live (#668).
+
+### ~~VISUAL-PERF~~ — Bundle size locked — DONE 2026-04-26 (PR #652)
+- **acceptance:** `node scripts/audit_bundle_size.mjs --strict` passes.
+- Baseline locked at 2026-04-26 sizes + 15% slack. CI blocks doubling. Future code-split work tightens budgets one chunk at a time. Bundle code-split spawned as a separate task.
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
