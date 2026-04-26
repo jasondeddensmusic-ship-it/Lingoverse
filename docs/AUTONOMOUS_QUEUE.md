@@ -94,10 +94,10 @@ Findings from owner-requested CEFR + competitor audit (in this session, before t
 - **acceptance:** `node scripts/audit_bundle_size.mjs --strict` passes.
 - **DONE (PR #652):** baseline locked at 2026-04-26 sizes + 15% slack. CI blocks doubling. Future code-split work tightens budgets one chunk at a time.
 
-### VISUAL-A11Y — Close accessibility gaps (WCAG AA baseline)
-- **description:** Pre-Claude-Design accessibility baseline. Validator `scripts/audit_a11y.mjs` (added 2026-04-26) flags: imgs without alt, buttons without accessible names, clickable divs without keyboard handlers, inputs without labels, icon-only buttons. Initial baseline: 76 total violations across 32 files. LessonEngine + AuthScreen + VocabularyPage are top offenders.
-- **acceptance:** `node scripts/audit_a11y.mjs` reports < 20 total. Tighten threshold in `--strict` mode once below.
-- Auto-runs in CI (informational, surfacing) and pre-commit (informational, telemetry).
+### ~~VISUAL-A11Y~~ — DONE 2026-04-26 (PRs #640-#669)
+- Initial baseline 76 → 0 across 5 patterns (imgs/buttons/icon-buttons/clickable-divs/inputs).
+- `scripts/audit_a11y.mjs --strict` (threshold 0) is now BLOCKING in CI + pre-commit (PR #648).
+- Additional WCAG improvements shipped: skip-to-content link (#650), :focus-visible defaults (#644), prefers-reduced-motion respect (#657), per-page document.title (#655), html lang sync (#656), input lang attrs (#660), span lang on native names (#669), autocomplete + name attrs on auth (#658, #666), Toast/XpPop aria-live (#668).
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
