@@ -68,8 +68,11 @@ function lineOf(text, idx) {
 }
 
 for (const file of files) {
-  const text = fs.readFileSync(file, 'utf8');
+  let text = fs.readFileSync(file, 'utf8');
   const rel = path.relative(process.cwd(), file);
+  // Strip line + block comments so JSDoc examples don't generate false positives
+  text = text.replace(/\/\*[\s\S]*?\*\//g, (m) => m.replace(/[^\n]/g, ' '));
+  text = text.replace(/\/\/[^\n]*/g, (m) => m.replace(/[^\n]/g, ' '));
 
   // 1. <img ... /> without alt=
   for (const m of text.matchAll(/<img\b([^>]*)\/?>/g)) {
@@ -106,13 +109,18 @@ for (const file of files) {
     }
   }
 
-  // 3. <div onClick=...> without role="button" / onKeyDown / tabIndex
+  // 3. <div onClick=...> without role / onKeyDown / tabIndex.
+  // Exempt: any explicit role attribute (button/dialog/link/menu/etc.) AND
+  //         onClick that's purely event-suppression (e.stopPropagation).
   for (const m of text.matchAll(/<div\b([^>]*onClick[^>]*)>/g)) {
     const attrs = m[1];
-    const hasRole = /\brole\s*=\s*["']button["']/.test(attrs);
+    const hasAnyRole = /\brole\s*=\s*["'][^"']+["']/.test(attrs);
     const hasKey = /\bonKeyDown\s*=/.test(attrs) || /\bonKeyUp\s*=/.test(attrs) || /\bonKeyPress\s*=/.test(attrs);
     const hasTab = /\btabIndex\s*=/.test(attrs);
-    if (!hasRole && !hasKey && !hasTab) {
+    // onClick={e=>e.stopPropagation()} or onClick={(e)=>e.stopPropagation()}
+    const stopOnly = /onClick\s*=\s*\{?\s*\(?\s*e\s*\)?\s*=>\s*e\.stopPropagation\(\s*\)\s*\}?/.test(attrs);
+    if (stopOnly) continue;
+    if (!hasAnyRole && !hasKey && !hasTab) {
       violations.clickableDiv.push({ file: rel, line: lineOf(text, m.index) });
     }
   }
