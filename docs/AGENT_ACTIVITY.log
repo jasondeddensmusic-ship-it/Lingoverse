@@ -70,3 +70,8 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-26 | main | Visual consistency in CI | PR #670 — informational gate, surfaces 1,061 debt for Claude Design
 2026-04-26 | main | Queue cleanup | PR #671 — VISUAL-A11Y marked DONE with full PR list
 2026-04-26 | main | Spawned task | code-split index-*.js by language (perf, 2-3 day refactor for future session)
+2026-04-26 | main | Bundle audit docstring fix | PR #673 — 10% slack → 15% slack accuracy
+2026-04-26 | main | npm validate scripts catch new gates | PR #674 — validate runs a11y --strict; validate:full builds + bundle --strict
+2026-04-26 | main | App-level error boundary | PR #675 — AppErrorBoundary renders brand panel for unhandled crashes anywhere in the React tree
+2026-04-26 | main | Queue dedupe | PR #676 — VISUAL-A11Y entry consolidated; VISUAL-PERF strikethrough
+2026-04-26 | main | Bundle code-split Phase 1 | PR #677 — 47 MB → 3.6 MB index (-92%); 10 lang modules now lazy chunks; budget audit updated; user spawned task complete
