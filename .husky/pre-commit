@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+# Fast pre-commit gate. Catches the most common regressions BEFORE the commit lands.
+# Heavy validators (PP63 example-vocab, full structural) run in CI instead.
+#
+# To bypass in genuine emergencies: git commit --no-verify
+# (but per Rule H/B: don't unless explicitly approved.)
+
+set -e
+
+echo "→ pre-commit: filler markers (PP66)"
+node scripts/check_filler.cjs
+
+echo "→ pre-commit: runtime PP-rules (PP8/22c/43/48/64/67)"
+node scripts/validate_runtime.mjs > /dev/null
+
+echo "→ pre-commit: POS / gender consistency"
+node scripts/audit_pos_gender.mjs > /dev/null
+
+echo "→ pre-commit: hint quality strict"
+node scripts/audit_hint_quality.mjs > /dev/null
+
+echo "→ pre-commit: conflict markers"
+if grep -rE '^(<<<<<<<|=======|>>>>>>>)' src/ 2>/dev/null; then
+  echo "ERROR: merge conflict markers in src/"
+  exit 1
+fi
+
+echo "✓ pre-commit clean"

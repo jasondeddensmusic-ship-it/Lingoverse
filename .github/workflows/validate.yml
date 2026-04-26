@@ -1,0 +1,66 @@
+name: Validate
+
+# Runs on every PR and every push to a non-main branch.
+# Blocks merge if ANY validator returns nonzero.
+# Goal: regressions caught BEFORE main, not in monthly cleanup sweeps.
+
+on:
+  push:
+    branches-ignore: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build (compile gate)
+        run: npm run build
+
+      - name: Conflict markers must not exist
+        run: |
+          if grep -rE '^(<<<<<<<|=======|>>>>>>>)' src/ 2>/dev/null; then
+            echo "::error::Merge conflict markers found in src/"
+            exit 1
+          fi
+          echo "OK: no conflict markers"
+
+      - name: Filler markers (PP66)
+        run: node scripts/check_filler.cjs
+
+      - name: Runtime PP-rules (PP8/PP22c/PP43/PP48/PP64/PP67)
+        run: node scripts/validate_runtime.mjs
+
+      - name: Structural runtime
+        run: node scripts/validate_structural_runtime.mjs
+
+      - name: Teach card content
+        run: node scripts/audit_teach_content.mjs
+
+      - name: MC quality
+        run: node scripts/audit_mc_quality.mjs
+
+      - name: Placement questions
+        run: node scripts/audit_placement_questions.mjs
+
+      - name: Boring funFacts (10/10 must stay 0)
+        run: node scripts/audit_boring_funfacts.mjs
+
+      - name: PP63 example-vocab integrity (all languages, including batch files)
+        run: node scripts/pp63_audit.cjs --all --include-batch
+
+      - name: POS / gender consistency (added 2026-04-26 to prevent passes 13-21 regression)
+        run: node scripts/audit_pos_gender.mjs
+
+      - name: Hint quality strict (added 2026-04-26 to prevent passes 1-11 regression)
+        run: node scripts/audit_hint_quality.mjs
