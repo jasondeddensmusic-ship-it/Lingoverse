@@ -66,7 +66,7 @@ Owner-directed (2026-04-26): "Get professional AI agent opinions left and right.
 
 Master spec: `docs/agents/EXPERT_PANEL.md`. Run cadence + cost-control + synthesis pipeline are documented there.
 
-### EXPERT-PANEL-001 — Tier 1 audit on German A1+A2 (pilot)
+### EXPERT-PANEL-001 — Tier 1 audit on German A1+A2 (pilot) — ✅ OWNER-APPROVED 2026-04-27
 - **description:** Spawn 6 Tier 1 panelists in parallel (max 4 simultaneous per Rule B7) audited against German A1+A2 only. Validates the panel design before scaling to all languages. Each panelist gets the German A1+A2 unit slice + CLAUDE.md + their persona file. Output: 6 structured findings reports.
 - **roles to spawn:**
   - SLA Researcher (`docs/agents/EXPERT_SLA_RESEARCHER.md`)
@@ -75,39 +75,64 @@ Master spec: `docs/agents/EXPERT_PANEL.md`. Run cadence + cost-control + synthes
   - Native-Speaker Linguist for German (`docs/agents/EXPERT_NATIVE_LINGUIST.md` with `<TARGET_LANG>=de`)
   - Real-World Language Teacher (`docs/agents/EXPERT_LANGUAGE_TEACHER.md`)
   - Curriculum Designer (`docs/agents/EXPERT_CURRICULUM_DESIGNER.md`)
-- **preconditions:** Owner approves the run. (Cost: ~6 × Sonnet runs at ~30K tokens each = ~180K tokens = ~$1-2 USD per panel run.)
-- **acceptance:** All 6 reports written to `docs/expert-panel/<date>/<role>.md`. Synthesis script produces deduped findings list ranked by consensus × severity.
+- **status:** APPROVED. Owner has Max plan; token cost is not a blocker. Next session: spawn the pilot.
+- **acceptance:** All 6 reports written to `docs/expert-panel/2026-XX-XX-de-pilot/<role>.md`. Synthesis script (built per EXPERT-PANEL-002) produces deduped findings list ranked per the methodology in `docs/agents/EXPERT_PANEL.md`.
 
 ### EXPERT-PANEL-002 — Synthesis script
 - **description:** Build `scripts/synthesize_expert_panel.cjs` that reads all reports under `docs/expert-panel/<date>/`, dedupes findings (same issue flagged by 2+ panelists = boost), clusters by theme, ranks by severity × consensus, and emits a list of proposed queue items as `EXPERT-PANEL-FINDING-<id>`.
 - **acceptance:** Script runs end-to-end on 6 pilot reports, produces structured output that's easy for the owner to triage (accept / defer / reject per item).
 
-### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages (Korean-first per owner)
+### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages (Korean-first) — ✅ SEQUENCE CONFIRMED 2026-04-27
 - **description:** Once Tier 1 pilot for German validates the design, run Tier 1 for the other 9 languages. Native-Speaker Linguist persona substitutes per language. Other 5 roles run language-agnostic but with the relevant slice.
-- **owner-approved sequence (2026-04-26):** Korean → Spanish → French → Italian → Portuguese → Japanese → Chinese → Dutch → Russian. Korean first because most morphologically distinct from English (largest test of curriculum's adaptability). Spanish second (largest learner base globally). Romance trio together for cross-language pattern detection. Japanese + Chinese together (script-heavy). Dutch + Russian last (smaller corpora, recent additions).
+- **owner-confirmed sequence:** Korean → Spanish → French → Italian → Portuguese → Japanese → Chinese → Dutch → Russian. Korean first because most morphologically distinct from English (largest test of curriculum's adaptability). Spanish second (largest learner base globally). Romance trio together for cross-language pattern detection. Japanese + Chinese together (script-heavy). Dutch + Russian last (smaller corpora, recent additions).
 - **estimated:** 60 panelist-runs total (10 langs × 6 roles). Owner has Max plan — token cost is not a blocker.
 - **acceptance:** All 10 languages have Tier 1 reports under `docs/expert-panel/<date>/<lang>/`. Synthesis run per language. Cross-language patterns identified by EXPERT-PANEL-006.
 
-### EXPERT-PANEL-004 — Tier 2 panelists (16 specialty roles)
-- **description:** Add persona files + spawn for 16 Tier 2 roles. The 4 starred ⭐ are drafted in this PR. Remaining 12 stub-on-first-use per Rule B8.
-- **drafted personas (ready to spawn):**
-  - Neuroscientist — `EXPERT_NEUROSCIENTIST.md`
-  - Bilingual Education Researcher ⭐ — `EXPERT_BILINGUAL_EDUCATION.md`
-  - Communicative-Approach Purist ⭐ — `EXPERT_COMMUNICATIVE_PURIST.md`
-  - Reading Acquisition & Script Specialist ⭐ — `EXPERT_READING_ACQUISITION.md`
-  - Standardized Test-Prep Specialist ⭐ — `EXPERT_TEST_PREP.md`
-- **stub-on-first-use:** Sociolinguist, Pragmatics Specialist, Phonologist, Cultural Anthropologist, Discourse Analyst, Corpus Linguist, Translation Theorist, Heritage-Language Specialist, Polyglot Practitioner, Phonetic Acquisition Researcher, Assessment Psychometrician
-- **runs:** Quarterly OR after major curriculum revisions.
-- **acceptance:** All 16 persona files written before spawn; first quarterly run completed and findings synthesized.
+### EXPERT-PANEL-004 — Tier 2 panelists (16 specialty roles) — ✅ ALL PERSONAS DRAFTED 2026-04-27
+- **status:** All 16 persona files complete (`docs/agents/EXPERT_*.md`). Ready to spawn at quarterly cadence.
+- **personas:**
+  - `EXPERT_NEUROSCIENTIST.md` — memory consolidation, plasticity
+  - `EXPERT_BILINGUAL_EDUCATION.md` — Cummins/García/Grosjean
+  - `EXPERT_COMMUNICATIVE_PURIST.md` — TBLT alignment
+  - `EXPERT_READING_ACQUISITION.md` — script learning depth
+  - `EXPERT_TEST_PREP.md` — official-exam alignment
+  - `EXPERT_SOCIOLINGUIST.md` — register, dialect, T/V, honorifics
+  - `EXPERT_PRAGMATICS.md` — speech acts, politeness, modal particles
+  - `EXPERT_PHONOLOGIST.md` — sounds, IPA, suprasegmentals
+  - `EXPERT_CULTURAL_ANTHROPOLOGIST.md` — culture authenticity, stereotype audit
+  - `EXPERT_DISCOURSE_ANALYST.md` — turn-taking, repair, conversation realism
+  - `EXPERT_CORPUS_LINGUIST.md` — frequency lists, collocations
+  - `EXPERT_TRANSLATION_THEORIST.md` — equivalence, glossing
+  - `EXPERT_HERITAGE_LANGUAGE.md` — heritage-learner needs
+  - `EXPERT_POLYGLOT.md` — practitioner critique
+  - `EXPERT_PHONETIC_ACQUISITION.md` — adult phonological learning
+  - `EXPERT_PSYCHOMETRICIAN.md` — test validity, item quality
+- **runs:** Quarterly OR after major curriculum revisions. Owner Max plan; cost not blocker.
+- **acceptance:** First quarterly run completed and findings synthesized via EXPERT-PANEL-002 script.
 
-### EXPERT-PANEL-005 — Tier 3 specialist panelists (situational, 18 roles)
-- **description:** Persona files for situational specialists. The 2 starred ⭐ are drafted in this PR.
-- **drafted personas (ready to spawn):**
-  - Music & Song-Based Learning Specialist ⭐ — `EXPERT_MUSIC_LEARNING.md`
-  - Sign-Language & Multimodal Specialist ⭐ — `EXPERT_MULTIMODAL.md`
-- **stub-on-first-use:** Tonologist (zh), Morphologist (de/ru/ko), Writing-System Expert (ko/ja/zh/ru/ar), UX Researcher, Gamification Designer, Behavioral Economist, HCI/A11y Specialist, Dyslexia Specialist, ADHD-Friendly Learning Expert, Speech-Language Pathologist, AI Ethics Expert, Brand Strategist, Customer-Success Specialist, Cultural Sensitivity Reviewer, Inclusive Design Expert, Data Privacy Specialist
-- **runs:** Per relevant feature/content launch.
-- **acceptance:** Persona files exist for relevant spawn; spawns happen at the right milestones.
+### EXPERT-PANEL-005 — Tier 3 specialist panelists (18 roles) — ✅ ALL PERSONAS DRAFTED 2026-04-27
+- **status:** All 18 persona files complete. Ready to spawn at relevant feature/content milestones.
+- **personas:**
+  - `EXPERT_MUSIC_LEARNING.md` — songs as pedagogy
+  - `EXPERT_MULTIMODAL.md` — sign-language + multimodal
+  - `EXPERT_TONOLOGIST.md` — Mandarin tones, pitch accent
+  - `EXPERT_MORPHOLOGIST.md` — Russian/German/Korean morphology
+  - `EXPERT_WRITING_SYSTEM.md` — Hangul/Hanzi/Cyrillic/Arabic scripts
+  - `EXPERT_UX_RESEARCHER.md` — engagement vs learning outcomes
+  - `EXPERT_GAMIFICATION_DESIGNER.md` — supportive gamification
+  - `EXPERT_BEHAVIORAL_ECONOMIST.md` — habit formation
+  - `EXPERT_HCI_A11Y.md` — WCAG 2.2 AAA + cognitive accessibility
+  - `EXPERT_DYSLEXIA.md` — literacy differences
+  - `EXPERT_ADHD.md` — ADHD-friendly learning
+  - `EXPERT_SLP.md` — speech-language pathology
+  - `EXPERT_AI_ETHICS.md` — Verumius LLM behavior audit
+  - `EXPERT_BRAND_STRATEGIST.md` — voice/tone vs competitors
+  - `EXPERT_CUSTOMER_SUCCESS.md` — retention metrics
+  - `EXPERT_CULTURAL_SENSITIVITY.md` — per-region content review
+  - `EXPERT_INCLUSIVE_DESIGN.md` — gender/LGBTQ+/age/religion inclusion
+  - `EXPERT_DATA_PRIVACY.md` — GDPR/CCPA/COPPA compliance
+- **runs:** Per relevant feature/content launch (e.g., Tonologist when Mandarin content updates; Music when audio launches).
+- **acceptance:** Spawns happen at the right milestones; findings synthesized.
 
 ### EXPERT-PANEL-006 — Findings → New PP rules + validators
 - **description:** Per Rule I3, repeated findings across panels → new PP rule + new validator. Run after each panel cycle: review the EXPERT-PANEL-FINDING-* queue items, identify patterns appearing 3+ times, codify as PP69, PP70, etc.
