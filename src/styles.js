@@ -600,6 +600,28 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 }
 .btn-danger:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(224,74,74,0.45), inset 0 2px 0 rgba(255,255,255,0.35) !important; }
 
+/* ── KEYBOARD FOCUS (Tab focus + arrow-key kb-focus) ──
+   :focus-visible: native browser keyboard focus (Tab/Shift-Tab). Subtler than
+   kb-focus (which is reserved for arrow-key list navigation via useFocusNav).
+   Applies broadly to interactive elements without their own focus style. */
+button:focus-visible, a:focus-visible, [role="button"]:focus-visible,
+[role="dialog"]:focus-visible, [tabindex]:focus-visible,
+input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 3px solid rgba(123,94,232,0.55) !important;
+  outline-offset: 2px !important;
+  border-radius: 6px;
+}
+:root.dark button:focus-visible, :root.dark a:focus-visible,
+:root.dark [role="button"]:focus-visible, :root.dark [tabindex]:focus-visible,
+:root.dark input:focus-visible, :root.dark textarea:focus-visible {
+  outline-color: rgba(200,180,255,0.7) !important;
+}
+/* Suppress mouse-focus rings — only show on keyboard focus */
+button:focus:not(:focus-visible), a:focus:not(:focus-visible),
+[role="button"]:focus:not(:focus-visible), [tabindex]:focus:not(:focus-visible) {
+  outline: none !important;
+}
+
 /* ── KEYBOARD FOCUS (arrow key navigation) ── */
 .kb-focus { outline: 3px solid rgba(200,180,255,0.5) !important; outline-offset: 3px !important; transform: translateY(-2px) scale(1.05) !important; filter: brightness(1.12) !important; box-shadow: 0 0 28px rgba(123,94,232,0.5), 0 0 48px rgba(123,94,232,0.15), 0 8px 24px rgba(123,94,232,0.3) !important; transition: all 0.15s !important; z-index: 5 !important; position: relative; }
 .card.kb-focus { border-color: rgba(200,180,255,0.5) !important; transform: translateY(-2px) scale(1.05) !important; box-shadow: 0 0 28px rgba(123,94,232,0.5), 0 0 48px rgba(123,94,232,0.15), 0 8px 24px rgba(123,94,232,0.3) !important; filter: brightness(1.12) !important; }
