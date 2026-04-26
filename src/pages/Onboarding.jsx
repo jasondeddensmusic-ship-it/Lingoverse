@@ -71,7 +71,7 @@ function Onboarding({ onComplete, onSourceLangChange }) {
               style={{ cursor: "pointer", ...(l.rtl ? { direction: "rtl" } : {}) }}>
               <CountryFlag code={l.code} size={32} variant="plain" />
               <div className="name">{l.name}</div>
-              <div className="native">{l.native}</div>
+              <div className="native" lang={l.code}>{l.native}</div>
             </div>
           ))}
         </div>
@@ -121,7 +121,7 @@ function Onboarding({ onComplete, onSourceLangChange }) {
               style={{ cursor: "pointer" }}>
               <CountryFlag code={l.code} size={32} variant="plain" />
               <div className="name">{l.name}</div>
-              <div className="native">{l.native}</div>
+              <div className="native" lang={l.code}>{l.native}</div>
             </div>
           ))}
         </div>

@@ -10,7 +10,7 @@ function LangSel({selected,onSelect,baseLang}){
     <div role="radiogroup" aria-label="Language" style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center"}}>
       {available.map(l=>(
         <div key={l.code} className={`lang-card ${selected===l.code?"active":""}`} {...clickableProps(()=>onSelect(l.code),{label:l.name,role:"radio"})} aria-checked={selected===l.code}>
-          <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
+          <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native" lang={l.code}>{l.native}</div>
         </div>
       ))}
     </div>
