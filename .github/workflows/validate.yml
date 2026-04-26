@@ -82,3 +82,7 @@ jobs:
 
       - name: Bundle size budgets (BLOCKING — locks baseline + 15% slack)
         run: node scripts/audit_bundle_size.mjs --strict
+
+      - name: Visual consistency (informational, surfaces VISUAL-001 for Claude Design)
+        run: node scripts/audit_visual_consistency.mjs --verbose
+        continue-on-error: true
