@@ -2,9 +2,10 @@
 
 > Source of truth for "what to do next" in an autonomous session. Agents pop the top item, execute it, commit + push + watch CI, mark it DONE, and proceed. Queue empty = autonomy stops cleanly.
 >
-> Rules: see `CLAUDE.md` Rule H (Autonomy Protocol).
+> Rules: see `CLAUDE.md` Rule H (Autonomy Protocol) and Rule H12 (queue-first, no handoff drift).
 > Blocked items move to `docs/BLOCKED.md`.
-> Regenerate with: `node scripts/generate_queue.cjs` (when that script exists).
+>
+> **2026-04-26 audit response (PR #632):** CI gates + pre-commit + Rule I (validator-first) shipped. The 27 validator scripts now run automatically on every PR. Two new validators (`audit_pos_gender.mjs`, `audit_hint_quality.mjs`) codify the bug patterns from passes 1–21 so they cannot regress.
 
 ## Format
 
@@ -21,7 +22,57 @@ Each item has:
 
 ## P0 — Safety / regression
 
-_None currently._
+_None currently. CI gate + pre-commit hook prevent regressions in 12 validation dimensions._
+
+## ~~P0 — Foundation fix~~ DONE 2026-04-26 (PR #632)
+
+- ✅ CI workflow `.github/workflows/validate.yml` runs 12 validators on every PR.
+- ✅ Pre-commit hook `.husky/pre-commit` runs 4 fastest validators before commit.
+- ✅ `scripts/audit_pos_gender.mjs` codifies passes 13/14/15/18/19/20/21 patterns.
+- ✅ `scripts/audit_hint_quality.mjs` codifies passes 1–11 hint-leak patterns.
+- ✅ Rule H12 (queue-first, no handoff drift) added to CLAUDE.md.
+- ✅ Rule I (I1–I6, validator-first engineering) added to CLAUDE.md.
+- ✅ 9 stale worktrees cleaned from `.git/worktrees/`.
+- All 39,038 cards, 0 violations across 12 dimensions.
+
+## P1 — Language quality (from 2026-04-26 audit)
+
+Findings from owner-requested CEFR + competitor audit (in this session, before the foundation fix):
+
+### LANG-QUALITY-001 — Add `verb_table` steps to Italian / Japanese / Chinese / Portuguese / Russian
+- **acceptance:** Italian 30+, Japanese 30+, Chinese 20+, Portuguese 20+, Russian 50+ verb_table steps. Currently 10/0/0/0/0. Conjugation paradigms are the spine of Romance/Slavic verb learning.
+- **estimated:** 2–3 days per language with content-author agent + dual linguist gate (Rule G).
+
+### LANG-QUALITY-002 — Spanish A1/A2 dialogue scaling to 3+ turns
+- **description:** Spanish 77% of teach-card examples are 2-turn ping-pong; German 73% are 3+ turn. Re-author A1 dialogues to German density.
+- **acceptance:** `node scripts/audit_dialogue_turns.mjs spanish` shows ≥70% multi-turn at A1.
+
+### LANG-QUALITY-003 — Drop option pool from B2 fb quizzes (force free recall)
+- **description:** Every fb/drag_fill ships pre-populated with options. Real free-recall is 0% across the corpus. At B2 a polyglot needs to type from memory, not pick from a 4-option pool.
+- **acceptance:** ≥30% of B2 fb steps have `opts:[]` or are converted to a new `tr` (translation) step type.
+- **STOPS-ON:** Engine work on `tr` step rendering may need owner approval.
+
+### LANG-QUALITY-004 — Russian / Portuguese / Chinese density triple
+- **description:** Russian 737 cards / 50% PP57. Portuguese 851 / 50%. Chinese 920. Russian B2 has 70 quiz steps total — exhaustible in two evenings. Either soft-launch as "in development" or commit to ~3,000 more cards each.
+- **acceptance:** PP55 ≥70% per language at every CEFR level, PP57 ≥80%.
+
+### LANG-QUALITY-005 — Close PP58 communicative-function gaps for 9 non-German languages
+- **description:** A1 averages only 83% function coverage (vs 89% at A2/B1). Missing across all non-German: F14 Make appointments, F15 Fill forms, F22 Admin situations (B1), F21 Personal significance (B2). Italian and Portuguese also miss daily-routine + ability-modal A1 lessons.
+- **acceptance:** PP58 audit per language shows 100% on A1+B1 functions; ≥90% on A2/B2.
+
+## P1 — Visual cleanup (Brilliant / Duolingo tier)
+
+### VISUAL-001 — Three hero screens redesigned via Claude Design
+- **description:** Owner directive 2026-04-26: get into Claude Design (claude.ai/design, launched 2026-04-17) for visual cleanup. Redesign Home, Lesson, LearnPage to Brilliant tier. Owner uploads `design_spine_mandatory.md` + screenshots, iterates designs, hands off mockups to me for React/CSS-in-JS implementation.
+- **STOPS-ON:** Owner needs to run claude.ai/design session and share approved mockups.
+
+### VISUAL-002 — PWA + offline mode (recommended in audit)
+- **description:** Service worker + IndexedDB caching of unit JSON. Data is already static. ~1–2 weeks. Closes the single most-cited gap vs Duolingo/Babbel/Busuu.
+- **acceptance:** App works fully offline after first load; passes Lighthouse PWA audit.
+
+### VISUAL-003 — AI conversation mode (recommended in audit, highest impact-per-effort)
+- **description:** Wire LLM (Claude/GPT) into existing `Chat.jsx` page, scoped to taught vocabulary per unit. Even one role-play scenario per unit closes the AirTalk/Busuu gap. Reuses existing teach card data. ~2–3 weeks.
+- **acceptance:** User completes a unit → unit-scoped role-play available; LLM constrained to that unit's vocabulary.
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
