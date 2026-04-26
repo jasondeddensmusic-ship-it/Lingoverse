@@ -33,7 +33,11 @@ import path from 'path';
 const ROOT = path.resolve(process.cwd(), 'src');
 const VERBOSE = process.argv.includes('--verbose');
 const STRICT = process.argv.includes('--strict');
-const THRESHOLD = 200; // Above this in --strict mode = fail (initial baseline)
+// Threshold can be raised via --max=N. After PRs #640-#647, baseline is 0
+// for clickable-divs/inputs/buttons. Default threshold is 0 in strict mode
+// to lock in the gain — any new violation fails CI.
+const maxArg = process.argv.find(a => a.startsWith('--max='));
+const THRESHOLD = maxArg ? parseInt(maxArg.slice(6), 10) : 0;
 
 function walk(dir) {
   const out = [];

@@ -20,10 +20,8 @@ node scripts/audit_pos_gender.mjs > /dev/null
 echo "→ pre-commit: hint quality strict"
 node scripts/audit_hint_quality.mjs > /dev/null
 
-# Accessibility audit runs as informational telemetry (won't block commit
-# unless we tighten thresholds via --strict). Counts surfaced in CI.
-echo "→ pre-commit: a11y baseline (informational)"
-node scripts/audit_a11y.mjs 2>&1 | grep "TOTAL:" || true
+echo "→ pre-commit: a11y strict (threshold 0)"
+node scripts/audit_a11y.mjs --strict > /dev/null
 
 echo "→ pre-commit: conflict markers"
 if grep -rE '^(<<<<<<<|=======|>>>>>>>)' src/ 2>/dev/null; then
