@@ -7,6 +7,7 @@ import CountryFlag from '../components/CountryFlag.jsx';
 import GlossyPopup from '../components/GlossyPopup.jsx';
 import { getUserCefr } from '../helpers.js';
 import { CAN_DO, CEFR_SUB_LEVELS, CEFR_BAND_COLORS, getBand } from '../data/cefr-can-do.js';
+import { clickableProps } from '../a11y.js';
 
 function buildUnitsVocabCount(lang) {
   const seen = new Set();
@@ -145,7 +146,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
         </div>
         <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center"}}>
           {LANGUAGES.map(l=>(
-            <div key={l.code} className={`lang-card ${lang===l.code?"active":""}`} onClick={()=>setLang(l.code)} style={{cursor:"pointer"}}>
+            <div key={l.code} className={`lang-card ${lang===l.code?"active":""}`} {...clickableProps(()=>setLang(l.code),{label:l.name,role:"radio"})} aria-checked={lang===l.code} style={{cursor:"pointer"}}>
               <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
             </div>
           ))}

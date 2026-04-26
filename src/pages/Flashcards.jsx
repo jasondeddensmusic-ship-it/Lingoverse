@@ -5,6 +5,7 @@ import { POS_COLORS, GENDER_COLORS } from '../data/dictionary.js';
 import { shuffle, cap, UNITS } from '../utils.js';
 import { SpeakerButton } from '../audio.jsx';
 import { AppIcon } from '../components/shared.jsx';
+import { clickableProps } from '../a11y.js';
 import {
   Rating, loadSrsData, saveSrsData, initCard, reviewCard,
   previewIntervals, getDueCards, getStats, initSrsForLearnedWords, formatNextReview
@@ -184,7 +185,7 @@ function TeachStyleCard({ card, lang, baseLang, revealed, onReveal, showToast })
       >
         {/* Tap overlay — catches all taps when unrevealed, above SpeakerButton */}
         {!revealed && (
-          <div onClick={onReveal} style={{position:"absolute",top:0,left:0,right:0,bottom:0,zIndex:10,cursor:"pointer"}}/>
+          <div {...clickableProps(onReveal,{label:"Reveal answer"})} style={{position:"absolute",top:0,left:0,right:0,bottom:0,zIndex:10,cursor:"pointer"}}/>
         )}
         {/* Top strip */}
         <div style={{

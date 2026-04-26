@@ -481,7 +481,7 @@ export default function App(){
               if(e.key==="Escape"){e.preventDefault();setShowVerumius(false);}
             }}
             placeholder="Ask Verumius…"/>
-          <button className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius} onTouchEnd={e=>{e.preventDefault();if(vInput.trim()&&!vLoading)sendToVerumius();}}>
+          <button aria-label="Send" className="vr-send" disabled={!vInput.trim()||vLoading} onClick={sendToVerumius} onTouchEnd={e=>{e.preventDefault();if(vInput.trim()&&!vLoading)sendToVerumius();}}>
             <svg width="16" height="16" viewBox="0 0 13 13" fill="white"><path d="M0.5 12.5L6.5 0.5L12.5 12.5L6.5 9L0.5 12.5Z"/></svg>
           </button>
         </div>

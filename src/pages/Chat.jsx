@@ -209,7 +209,7 @@ function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
           placeholder={`${t("le_type_in",baseLang)} ${L?.name||""}...`}
           disabled={loading}
           style={{flex:1,padding:"12px 16px",borderRadius:16,border:dk?"1.5px solid rgba(123,94,232,0.3)":"1.5px solid rgba(200,190,240,0.5)",background:dk?"rgba(30,26,55,0.8)":"white",fontSize:16,fontFamily:"inherit",outline:"none",color:"var(--gray-700)",WebkitAppearance:"none"}}/>
-        <button onClick={()=>sendMsg()} disabled={!input.trim()||loading}
+        <button aria-label="Send message" onClick={()=>sendMsg()} disabled={!input.trim()||loading}
           style={{width:44,height:44,borderRadius:14,border:"none",cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",background:input.trim()?"linear-gradient(135deg,#7B5EE8,#6040C0)":"var(--gray-200)",color:"white",transition:"all .15s",opacity:loading?0.5:1}}>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="white"><path d="M1 15L8 1L15 15L8 11L1 15Z"/></svg>
         </button>

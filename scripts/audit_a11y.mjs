@@ -67,6 +67,39 @@ function lineOf(text, idx) {
   return text.slice(0, idx).split('\n').length;
 }
 
+// Find every opening JSX tag of a given name, returning [tagStartIdx, attrsStr]
+// pairs. Walks the source char-by-char tracking JSX expression depth ({...})
+// and string quotes so attributes containing `>` (e.g. arrow functions, JSX)
+// don't terminate the tag prematurely.
+function findOpenTags(text, tagName) {
+  const out = [];
+  const re = new RegExp(`<${tagName}\\b`, 'g');
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    let depth = 0;
+    let inStr = null;
+    let i = m.index + m[0].length;
+    while (i < text.length) {
+      const ch = text[i];
+      if (inStr) {
+        if (ch === '\\' && i + 1 < text.length) { i += 2; continue; }
+        if (ch === inStr) inStr = null;
+      } else if (ch === '"' || ch === "'" || ch === '`') {
+        inStr = ch;
+      } else if (ch === '{') depth++;
+      else if (ch === '}') depth--;
+      else if (ch === '>' && depth === 0) {
+        // Slice the attrs portion (excluding `<TagName` prefix and trailing `>`)
+        const attrs = text.slice(m.index + m[0].length, i);
+        out.push({ index: m.index, attrs, end: i });
+        break;
+      }
+      i++;
+    }
+  }
+  return out;
+}
+
 for (const file of files) {
   let text = fs.readFileSync(file, 'utf8');
   const rel = path.relative(process.cwd(), file);
@@ -75,22 +108,21 @@ for (const file of files) {
   text = text.replace(/\/\/[^\n]*/g, (m) => m.replace(/[^\n]/g, ' '));
 
   // 1. <img ... /> without alt=
-  for (const m of text.matchAll(/<img\b([^>]*)\/?>/g)) {
-    const attrs = m[1];
-    if (!/\balt\s*=/.test(attrs)) {
-      violations.imgNoAlt.push({ file: rel, line: lineOf(text, m.index) });
+  for (const tag of findOpenTags(text, 'img')) {
+    if (!/\balt\s*=/.test(tag.attrs)) {
+      violations.imgNoAlt.push({ file: rel, line: lineOf(text, tag.index) });
     }
   }
 
   // 2. <button> without accessible name. We look at the opening tag + the
   // first ~400 chars after to see if there's text content or aria-label.
-  for (const m of text.matchAll(/<button\b([^>]*)>/g)) {
-    const attrs = m[1];
+  for (const tag of findOpenTags(text, 'button')) {
+    const attrs = tag.attrs;
     const hasAria = /\baria-label\s*=/.test(attrs) || /\baria-labelledby\s*=/.test(attrs);
     const hasTitle = /\btitle\s*=/.test(attrs);
     if (hasAria || hasTitle) continue;
     // Look ahead for text or props
-    const after = text.slice(m.index + m[0].length, m.index + m[0].length + 400);
+    const after = text.slice(tag.end + 1, tag.end + 1 + 400);
     const closeIdx = after.indexOf('</button>');
     const inner = closeIdx >= 0 ? after.slice(0, closeIdx) : after;
     // Strip JSX comments
@@ -98,36 +130,36 @@ for (const file of files) {
     // Icon-only: only an <svg> child, no text, no other children.
     const svgOnly = /^<svg[\s\S]*<\/svg>$/.test(stripped);
     if (svgOnly) {
-      violations.iconOnlyBtn.push({ file: rel, line: lineOf(text, m.index) });
+      violations.iconOnlyBtn.push({ file: rel, line: lineOf(text, tag.index) });
       continue;
     }
     // Trust JSX expression children: `{t("key")}`, `{label}`, etc. typically
-    // produce accessible text content. Only flag genuinely empty buttons:
-    // `<button></button>` or `<button> </button>`.
+    // produce accessible text content. Only flag genuinely empty buttons.
     if (stripped === '') {
-      violations.buttonNoName.push({ file: rel, line: lineOf(text, m.index) });
+      violations.buttonNoName.push({ file: rel, line: lineOf(text, tag.index) });
     }
   }
 
   // 3. <div onClick=...> without role / onKeyDown / tabIndex.
-  // Exempt: any explicit role attribute (button/dialog/link/menu/etc.) AND
-  //         onClick that's purely event-suppression (e.stopPropagation).
-  for (const m of text.matchAll(/<div\b([^>]*onClick[^>]*)>/g)) {
-    const attrs = m[1];
+  // Exempt: any explicit role attribute AND onClick that's pure
+  // event-suppression (e.stopPropagation).
+  for (const tag of findOpenTags(text, 'div')) {
+    const attrs = tag.attrs;
+    if (!/\bonClick\s*=/.test(attrs)) continue;
     const hasAnyRole = /\brole\s*=\s*["'][^"']+["']/.test(attrs);
     const hasKey = /\bonKeyDown\s*=/.test(attrs) || /\bonKeyUp\s*=/.test(attrs) || /\bonKeyPress\s*=/.test(attrs);
     const hasTab = /\btabIndex\s*=/.test(attrs);
     // onClick={e=>e.stopPropagation()} or onClick={(e)=>e.stopPropagation()}
-    const stopOnly = /onClick\s*=\s*\{?\s*\(?\s*e\s*\)?\s*=>\s*e\.stopPropagation\(\s*\)\s*\}?/.test(attrs);
+    const stopOnly = /onClick\s*=\s*\{\s*\(?\s*e\s*\)?\s*=>\s*e\.stopPropagation\(\s*\)\s*\}/.test(attrs);
     if (stopOnly) continue;
     if (!hasAnyRole && !hasKey && !hasTab) {
-      violations.clickableDiv.push({ file: rel, line: lineOf(text, m.index) });
+      violations.clickableDiv.push({ file: rel, line: lineOf(text, tag.index) });
     }
   }
 
   // 4. <input type="text|search|email|password|tel|url|number"> without label
-  for (const m of text.matchAll(/<input\b([^>]*)\/?>/g)) {
-    const attrs = m[1];
+  for (const tag of findOpenTags(text, 'input')) {
+    const attrs = tag.attrs;
     const typeM = attrs.match(/\btype\s*=\s*["']([^"']+)["']/);
     const type = typeM ? typeM[1] : 'text';
     // Only check text-y inputs; checkbox/radio/file/range/etc. are fine
@@ -137,7 +169,7 @@ for (const file of files) {
     // We don't try to find a paired <label htmlFor=>; if the input has neither
     // aria-label nor id (so a label could refer to it), flag.
     if (!hasAria && !hasId) {
-      violations.inputNoLabel.push({ file: rel, line: lineOf(text, m.index) });
+      violations.inputNoLabel.push({ file: rel, line: lineOf(text, tag.index) });
     }
   }
 }
@@ -181,6 +213,16 @@ if (VERBOSE) {
   if (totals.inputNoLabel > 0) {
     console.log('Inputs without label (first 20):');
     for (const v of violations.inputNoLabel.slice(0, 20)) console.log(`  ${v.file}:${v.line}`);
+    console.log('');
+  }
+  if (totals.iconOnlyBtn > 0) {
+    console.log('Icon-only buttons without aria-label (first 20):');
+    for (const v of violations.iconOnlyBtn.slice(0, 20)) console.log(`  ${v.file}:${v.line}`);
+    console.log('');
+  }
+  if (totals.clickableDiv > 0) {
+    console.log('Clickable divs without keyboard handler (first 30):');
+    for (const v of violations.clickableDiv.slice(0, 30)) console.log(`  ${v.file}:${v.line}`);
     console.log('');
   }
 }

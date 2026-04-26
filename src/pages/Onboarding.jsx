@@ -3,6 +3,7 @@ import { LANGUAGES, BASE_LANGUAGES } from '../data/metadata.js';
 import { t } from '../data/vocabulary.js';
 import { getPlacementBank } from '../data/placement-questions/index.js';
 import CountryFlag from '../components/CountryFlag.jsx';
+import { clickableProps } from '../a11y.js';
 
 const PlacementQuiz = React.lazy(() => import('./PlacementQuiz.jsx'));
 
@@ -65,7 +66,8 @@ function Onboarding({ onComplete, onSourceLangChange }) {
           {BASE_LANGUAGES.map(l => (
             <div key={l.code}
               className={`lang-card ${baseSel === l.code ? "active" : ""}`}
-              onClick={() => setBaseSel(l.code)}
+              {...clickableProps(() => setBaseSel(l.code), { label: l.name, role: "radio" })}
+              aria-checked={baseSel === l.code}
               style={{ cursor: "pointer", ...(l.rtl ? { direction: "rtl" } : {}) }}>
               <CountryFlag code={l.code} size={32} variant="plain" />
               <div className="name">{l.name}</div>
@@ -114,7 +116,8 @@ function Onboarding({ onComplete, onSourceLangChange }) {
           {LANGUAGES.filter(l => l.code !== baseSel && (baseSel !== "ar" || l.code === "de")).map(l => (
             <div key={l.code}
               className={`lang-card ${targetSel === l.code ? "active" : ""}`}
-              onClick={() => setTargetSel(l.code)}
+              {...clickableProps(() => setTargetSel(l.code), { label: l.name, role: "radio" })}
+              aria-checked={targetSel === l.code}
               style={{ cursor: "pointer" }}>
               <CountryFlag code={l.code} size={32} variant="plain" />
               <div className="name">{l.name}</div>

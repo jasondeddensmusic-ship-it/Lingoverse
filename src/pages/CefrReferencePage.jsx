@@ -11,6 +11,7 @@ import { FRENCH_CEFR } from '../data/cefr-reference/french.js';
 import { SPANISH_CEFR } from '../data/cefr-reference/spanish.js';
 import { ITALIAN_CEFR } from '../data/cefr-reference/italian.js';
 import { JAPANESE_CEFR } from '../data/cefr-reference/japanese.js';
+import { clickableProps } from '../a11y.js';
 
 const CEFR_REFS = { de: GERMAN_CEFR, ko: KOREAN_CEFR, nl: DUTCH_CEFR, fr: FRENCH_CEFR, es: SPANISH_CEFR, it: ITALIAN_CEFR, ja: JAPANESE_CEFR };
 
@@ -363,7 +364,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
                   <span style={{fontSize:14,fontWeight:800,fontFamily:"'Quicksand',sans-serif",color:"var(--gray-800)",textTransform:"uppercase",letterSpacing:0.8}}>{lv} Grammar Constructs ({items.length})</span>
                 </div>
                 {items.map((g,gi)=>(
-                  <div key={gi} style={{...rowStyle,cursor:"pointer"}} onClick={()=>setExpandedGrammar(expandedGrammar===`${lv}-${gi}`?null:`${lv}-${gi}`)}>
+                  <div key={gi} style={{...rowStyle,cursor:"pointer"}} {...clickableProps(()=>setExpandedGrammar(expandedGrammar===`${lv}-${gi}`?null:`${lv}-${gi}`),{label:g.name||g.title||`Grammar ${gi+1}`})} aria-expanded={expandedGrammar===`${lv}-${gi}`}>
                     <GlossArc/>
                     <div style={{position:"relative",zIndex:1,display:"flex",alignItems:"flex-start",gap:10}}>
                       <div style={{flex:1}}>
@@ -593,7 +594,8 @@ function VocabTable({words,dk,lang,baseLang="en",rowStyle,LevelPill,posLabel,gen
         const isOpen = expanded === i;
         return(
         <div key={i}
-          onClick={()=>setExpanded(isOpen?null:i)}
+          {...clickableProps(()=>setExpanded(isOpen?null:i),{label:item.title||item.word||`Item ${i+1}`})}
+          aria-expanded={isOpen}
           style={{...rowStyle,padding:"10px 14px",opacity:learned?0.5:1,transition:"all .2s ease",cursor:"pointer"}}>
           <GlossArc/>
           <div style={{position:"relative",zIndex:1}}>
