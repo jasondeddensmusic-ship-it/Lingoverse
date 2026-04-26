@@ -94,6 +94,15 @@ export default function App(){
     setFlags(prev=>[...prev,f]);
   };
   const [page,setPage]=useState("home");
+  // Sync document.title with the current page so screen readers + browser
+  // tabs reflect where the user is. Lang code in title helps users with
+  // multiple language tabs open.
+  useEffect(()=>{
+    const titles={home:"Home",learn:"Learn",vocabulary:"Vocabulary",flashcards:"Flashcards",quiz:"Quiz",chat:"Verumius Chat",grammar:"Grammar",idioms:"Idioms","cefr-reference":"CEFR Reference",settings:"Settings",profile:"Profile",curriculum:"Personal Curriculum"};
+    const langName=LANG_META[lang]?.name||"";
+    const pageName=titles[page]||"VerumLingua";
+    document.title=`${pageName}${langName?" — "+langName:""} · VerumLingua`;
+  },[page,lang]);
   const [flashcardMode,setFlashcardMode]=useState("due"); // "due" | "browse"
   const [jumpTo,setJumpTo]=useState(null);
   const [toast,setToast]=useState(null);
