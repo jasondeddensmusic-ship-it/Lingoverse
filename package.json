@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node scripts/validate_runtime.mjs && node scripts/check_filler.cjs && node scripts/audit_teach_content.mjs && node scripts/audit_mc_quality.mjs && node scripts/audit_placement_questions.mjs && node scripts/audit_boring_funfacts.mjs && node scripts/audit_pos_gender.mjs && node scripts/audit_hint_quality.mjs",
+    "validate:full": "npm run validate && node scripts/pp63_audit.cjs --all --include-batch && node scripts/validate_structural_runtime.mjs",
+    "prepare": "husky"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
@@ -16,6 +19,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "husky": "^9.1.7",
     "vite": "^6.0.0"
   }
 }
