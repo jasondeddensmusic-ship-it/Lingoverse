@@ -73,6 +73,12 @@ Findings from owner-requested CEFR + competitor audit (in this session, before t
 ### VISUAL-003 — AI conversation mode (recommended in audit, highest impact-per-effort)
 - **description:** Wire LLM (Claude/GPT) into existing `Chat.jsx` page, scoped to taught vocabulary per unit. Even one role-play scenario per unit closes the AirTalk/Busuu gap. Reuses existing teach card data. ~2–3 weeks.
 - **acceptance:** User completes a unit → unit-scoped role-play available; LLM constrained to that unit's vocabulary.
+- **PHASE 1 DONE 2026-04-26 (PR #638):** unit picker + vocab-scoped primer + adaptive quick-start prompts.
+
+### VISUAL-A11Y — Close accessibility gaps (WCAG AA baseline)
+- **description:** Pre-Claude-Design accessibility baseline. Validator `scripts/audit_a11y.mjs` (added 2026-04-26) flags: imgs without alt, buttons without accessible names, clickable divs without keyboard handlers, inputs without labels, icon-only buttons. Initial baseline: 76 total violations across 32 files. LessonEngine + AuthScreen + VocabularyPage are top offenders.
+- **acceptance:** `node scripts/audit_a11y.mjs` reports < 20 total. Tighten threshold in `--strict` mode once below.
+- Auto-runs in CI (informational, surfacing) and pre-commit (informational, telemetry).
 
 ## P1 — Pedagogical completeness (mechanical, no external blockers)
 
