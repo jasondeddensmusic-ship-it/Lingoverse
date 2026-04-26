@@ -17,7 +17,7 @@ Validators (Rule I) catch mechanical regressions. They do not catch:
 
 The expert panel runs **once per major content milestone** (after a language launches, after a level unlocks, after a major curriculum revision). Each role spawns as a fresh AI agent with a deeply-detailed persona + the relevant slice of curriculum. Findings are synthesized into actionable queue items.
 
-## Roster — three tiers (42 total roles)
+## Roster — three tiers (40 total roles, **all personas drafted + ready to spawn as of 2026-04-27**)
 
 ### Tier 1 — Core (always run)
 
