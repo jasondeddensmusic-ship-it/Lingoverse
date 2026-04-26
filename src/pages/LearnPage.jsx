@@ -6,6 +6,7 @@ import { UNITS, compareCefrLevel } from '../utils.js';
 import { SpeakerButton, UISounds, FOUNDATIONS_LOCK_ENABLED } from '../audio.jsx';
 import { NavArrow, AppIcon, BrandIcon, FlagButton, LessonErrorBoundary } from '../components/shared.jsx';
 import LessonEngine from '../components/LessonEngine.jsx';
+import { clickableProps, scrimProps } from '../a11y.js';
 
 // ── Helper: check if Foundations is unlocked for a language ──
 // This checks COMPLETION status only. FOUNDATIONS_LOCK_ENABLED controls click-blocking separately.
@@ -156,8 +157,8 @@ function GlossyPopup({title,children,onClose}){
   },[onClose]);
   useEffect(()=>{if(ref.current)ref.current.focus();},[]);
   return(
-    <div ref={ref} tabIndex={-1} style={{position:"fixed",inset:0,zIndex:9990,display:"flex",alignItems:"center",justifyContent:"center",background:"rgba(0,0,0,0.55)",backdropFilter:"blur(6px)",WebkitBackdropFilter:"blur(6px)",animation:"fadeIn 0.2s ease"}} onClick={onClose} onKeyDown={e=>{if(e.code==="Escape"||e.code==="Backspace"){e.preventDefault();onClose();}}}>
-      <div onClick={e=>e.stopPropagation()} style={{
+    <div ref={ref} role="presentation" tabIndex={-1} style={{position:"fixed",inset:0,zIndex:9990,display:"flex",alignItems:"center",justifyContent:"center",background:"rgba(0,0,0,0.55)",backdropFilter:"blur(6px)",WebkitBackdropFilter:"blur(6px)",animation:"fadeIn 0.2s ease"}} onClick={onClose} onKeyDown={e=>{if(e.code==="Escape"||e.code==="Backspace"){e.preventDefault();onClose();}}}>
+      <div role="dialog" aria-modal="true" onClick={e=>e.stopPropagation()} style={{
         width:"90%",maxWidth:380,maxHeight:"80vh",overflowY:"auto",
         borderRadius:28,padding:"28px 24px 22px",
         background:dk?"linear-gradient(180deg, rgba(60,52,110,0.95) 0%, rgba(42,38,82,0.95) 50%, rgba(30,28,60,0.95) 100%)":"linear-gradient(180deg, #FFFFFF 0%, #FAF8FF 30%, #F4F0FF 60%, #EDE8FF 100%)",
@@ -439,7 +440,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                     <div key={ri} style={{display:"grid",gridTemplateColumns:`36px repeat(${item.grid.cols}, 1fr)`,gap:4,marginBottom:4}}>
                       <div style={{display:"flex",alignItems:"center",justifyContent:"center",fontSize:9,fontWeight:800,color:row.color||"#7B5EE8",textTransform:"uppercase",letterSpacing:0.5}}>{row.label}</div>
                       {row.cells.map((cell,ci)=>cell.ch?(
-                        <div key={ci} onClick={()=>setSelectedChar({ch:cell.ch,rom:cell.rom,title:item.title,color:row.color})} style={{textAlign:"center",padding:"7px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:`1.5px solid ${row.color||"#7B5EE8"}${dk?"30":"20"}`,cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
+                        <div key={ci} {...clickableProps(()=>setSelectedChar({ch:cell.ch,rom:cell.rom,title:item.title,color:row.color}),{label:`${cell.ch}${cell.rom?" "+cell.rom:""}`})} style={{textAlign:"center",padding:"7px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:`1.5px solid ${row.color||"#7B5EE8"}${dk?"30":"20"}`,cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
                           <div style={{fontSize:22,fontWeight:700,color:row.color||"#7B5EE8",lineHeight:1.2,...(isRtl&&/[\u0600-\u06FF]/.test(cell.ch)?{direction:"rtl"}:{})}}>{cell.ch}</div>
                           {cell.rom&&<div style={{fontSize:9,color:"var(--gray-400)",marginTop:1}}>{cell.rom}</div>}
                         </div>
@@ -453,15 +454,15 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
                     const parts=pair.trim().split(" ");
                     const ch=parts[0];
                     const rom=parts.slice(1).join(" ");
-                    return <div key={k} onClick={()=>setSelectedChar({ch,rom,title:item.title})} style={{textAlign:"center",padding:"8px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:dk?"1.5px solid rgba(123,94,232,0.2)":"1.5px solid rgba(180,165,240,0.3)",cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
+                    return <div key={k} {...clickableProps(()=>setSelectedChar({ch,rom,title:item.title}),{label:`${ch}${rom?" "+rom:""}`})} style={{textAlign:"center",padding:"8px 2px",borderRadius:12,background:dk?"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0.03) 100%)":"linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(245,244,250,0.8) 100%)",border:dk?"1.5px solid rgba(123,94,232,0.2)":"1.5px solid rgba(180,165,240,0.3)",cursor:"pointer",transition:"all .25s cubic-bezier(.4,0,.2,1)",boxShadow:dk?"0 2px 6px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.06)":"0 2px 6px rgba(123,94,232,0.06), inset 0 1px 0 rgba(255,255,255,0.9)"}}>
                       <div style={{fontSize:24,fontWeight:700,color:"var(--purple-accent-text)",lineHeight:1.2}}>{ch}</div>
                       {rom&&<div style={{fontSize:10,color:"var(--gray-400)",marginTop:2}}>{rom}</div>}
                     </div>;
                   })}
                   </div>
                 </div>}
-                {selectedChar&&allChars.includes(selectedChar.ch)&&<div style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",zIndex:999,display:"flex",alignItems:"center",justifyContent:"center",padding:20}} onClick={()=>setSelectedChar(null)}>
-                  <div className="anim" style={{maxWidth:320,width:"100%",padding:"32px 24px",textAlign:"center",borderRadius:22,background:dk?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)":"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",boxShadow:dk?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",position:"relative",overflow:"hidden"}} onClick={e=>e.stopPropagation()}>
+                {selectedChar&&allChars.includes(selectedChar.ch)&&<div {...scrimProps(()=>setSelectedChar(null))} style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",zIndex:999,display:"flex",alignItems:"center",justifyContent:"center",padding:20}}>
+                  <div role="dialog" aria-modal="true" aria-label={`Character ${selectedChar.ch}`} className="anim" style={{maxWidth:320,width:"100%",padding:"32px 24px",textAlign:"center",borderRadius:22,background:dk?"linear-gradient(180deg, rgba(123,94,232,0.55) 0%, rgba(100,78,205,0.42) 45%, rgba(80,60,180,0.32) 100%)":"linear-gradient(180deg, rgba(196,182,255,0.96) 0%, rgba(210,200,255,0.93) 45%, rgba(220,213,255,0.9) 100%)",border:dk?"1.5px solid rgba(160,140,255,0.5)":"1.5px solid rgba(165,148,238,0.7)",boxShadow:dk?"0 8px 32px rgba(0,0,0,0.4), 0 0 18px rgba(123,94,232,0.3), inset 0 2px 0 rgba(255,255,255,0.13), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 8px 32px rgba(123,94,232,0.18), 0 0 16px rgba(165,148,238,0.25), inset 0 2px 0 rgba(255,255,255,0.82), inset 0 -3px 0 rgba(110,85,200,0.1)",position:"relative",overflow:"hidden"}} onClick={e=>e.stopPropagation()}>
                     <div style={{position:"absolute",top:0,left:"5%",right:"5%",height:"42%",borderRadius:"0 0 50% 50%",background:dk?"linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.01) 60%, transparent 100%)":"linear-gradient(180deg, rgba(255,255,255,0.68) 0%, rgba(255,255,255,0.14) 60%, transparent 100%)",pointerEvents:"none"}}/>
                     <div style={{fontSize:72,fontWeight:800,color:selectedChar.color||"#7B5EE8",marginBottom:8,lineHeight:1,position:"relative",zIndex:1,fontFamily:"'Quicksand',sans-serif"}}>{selectedChar.ch}</div>
                     {selectedChar.rom&&<div style={{fontSize:22,color:"var(--gray-600)",fontWeight:600,marginBottom:16,fontFamily:"'Nunito',sans-serif",position:"relative",zIndex:1}}>{selectedChar.rom}</div>}
@@ -598,7 +599,7 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               const sp=secProgress(sec);
               const done=sp.pct===100;
               return(
-              <div key={sec.id} className="anim" onClick={()=>setFkSection(sec.id)} style={{
+              <div key={sec.id} className="anim" {...clickableProps(()=>setFkSection(sec.id),{label:sec.title||sec.id})} style={{
                 cursor:"pointer",padding:"16px 18px",borderRadius:18,position:"relative",overflow:"hidden",
                 display:"flex",alignItems:"center",gap:14,
                 background:done?(dk?"linear-gradient(180deg, rgba(46,205,167,0.12) 0%, rgba(46,205,167,0.06) 50%, rgba(46,205,167,0.02) 100%)":"linear-gradient(180deg, rgba(46,205,167,0.12) 0%, rgba(46,205,167,0.06) 50%, rgba(255,255,255,0.9) 100%)"):(dk?"linear-gradient(180deg, rgba(55,45,105,0.94) 0%, rgba(42,36,90,0.96) 50%, rgba(30,26,68,0.98) 100%)":"linear-gradient(180deg, #FDFBFF 0%, #F6F2FF 40%, #F0ECFF 70%, #EDE8FF 100%)"),
@@ -752,13 +753,13 @@ function UnitMap({lang,user,setUser,chapterNav,setChapterNav,fkSection,setFkSect
               <div style={{fontSize:24,marginBottom:6}}>🔒</div>
               <div style={{fontSize:13,fontWeight:700,color:"#92400E",marginBottom:4}}>{t("map_unlock_foundations",baseLang)}</div>
               <div style={{fontSize:11,color:"#B45309",lineHeight:1.5}}>{t("map_unlock_desc",baseLang)}</div>
-              <div onClick={()=>{
+              <div {...clickableProps(()=>{
                 setUser(u=>{
                   const p={...(u.progress||{}),foundationsUnlocked:{...((u.progress||{}).foundationsUnlocked||{})}};
                   p.foundationsUnlocked[lang]=true;
                   return{...u,progress:p};
                 });
-              }} style={{marginTop:10,fontSize:11,color:"#B45309",cursor:"pointer",textDecoration:"underline",opacity:0.7}}>
+              },{label:t("map_unlock_anyway",baseLang)})} style={{marginTop:10,fontSize:11,color:"#B45309",cursor:"pointer",textDecoration:"underline",opacity:0.7}}>
                 {t("map_unlock_anyway",baseLang)} →
               </div>
             </div>}
