@@ -3599,7 +3599,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             const isFocused=i===focusIdx&&!answered;
             if(answered){if(o===st.ans)cls+=" correct";else if(o===selOpt)cls+=" wrong";else cls+=" dis";}
             const hasKo=/[\uAC00-\uD7AF]/.test(o);const hasArabic=/[\u0600-\u06FF]/.test(o);
-            return <div key={i} className={cls} style={{wordBreak:"keep-all",whiteSpace:hasKo&&o.length<=12?"nowrap":"normal",...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{}), ...(hasKo?{fontSize:o.length<=4?18:o.length<=8?16:14,fontWeight:700,lineHeight:1.35}:{}), ...(hasArabic?{direction:"rtl",fontFamily:"'Noto Sans Arabic',sans-serif"}:{})}} onMouseEnter={()=>{if(!answered)UISounds.tick();}} onClick={()=>{if(answered)return;UISounds.click();setSelOpt(o);checkAndNext(o===st.ans);}}><div className="quiz-letter">{"ABCD"[i]}</div>{/[\uAC00-\uD7AF]/.test(o)?o.split(/([\uAC00-\uD7AF\u3130-\u318F]+)/).map((seg,si)=>/[\uAC00-\uD7AF\u3130-\u318F]/.test(seg)?<span key={si} style={{color:"var(--purple-accent-text)",fontWeight:800}}>{seg}</span>:<span key={si}>{seg}</span>):o}</div>;
+            return <div key={i} role="button" tabIndex={answered?-1:0} aria-label={`Option ${"ABCD"[i]}: ${o}`} aria-disabled={answered} className={cls} style={{wordBreak:"keep-all",whiteSpace:hasKo&&o.length<=12?"nowrap":"normal",...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{}), ...(hasKo?{fontSize:o.length<=4?18:o.length<=8?16:14,fontWeight:700,lineHeight:1.35}:{}), ...(hasArabic?{direction:"rtl",fontFamily:"'Noto Sans Arabic',sans-serif"}:{})}} onMouseEnter={()=>{if(!answered)UISounds.tick();}} onClick={()=>{if(answered)return;UISounds.click();setSelOpt(o);checkAndNext(o===st.ans);}} onKeyDown={(e)=>{if(answered)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();UISounds.click();setSelOpt(o);checkAndNext(o===st.ans);}}}><div className="quiz-letter">{"ABCD"[i]}</div>{/[\uAC00-\uD7AF]/.test(o)?o.split(/([\uAC00-\uD7AF\u3130-\u318F]+)/).map((seg,si)=>/[\uAC00-\uD7AF\u3130-\u318F]/.test(seg)?<span key={si} style={{color:"var(--purple-accent-text)",fontWeight:800}}>{seg}</span>:<span key={si}>{seg}</span>):o}</div>;
           })}
           </div>;
         })()}
@@ -3786,12 +3786,13 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             const isFocused=i===focusIdx&&!answered;
             if(answered){if(isCorrect(o)){bg="var(--teal-light)";bc="var(--teal)";col="var(--teal-dark)";}else if(o===selOpt){bg="var(--coral-light)";bc="var(--coral)";col="var(--coral)";}}
             const hasKo=/[\uAC00-\uD7AF]/.test(o);const hasArabic=/[\u0600-\u06FF]/.test(o);
-            return <div key={i} className="quiz-opt" style={{background:bg,border:`2px solid ${bc}`,color:col,textAlign:"center",wordBreak:"keep-all",whiteSpace:hasKo&&o.length<=8?"nowrap":"normal",transition:"all .2s, transform .15s",...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{}), ...(hasKo?{fontSize:o.length<=4?20:o.length<=8?17:14,fontWeight:700}:{}), ...(hasArabic?{direction:"rtl",fontFamily:"'Noto Sans Arabic',sans-serif"}:{})}}
+            return <div key={i} role="button" tabIndex={answered?-1:0} aria-label={`Answer ${o}`} aria-disabled={answered} className="quiz-opt" style={{background:bg,border:`2px solid ${bc}`,color:col,textAlign:"center",wordBreak:"keep-all",whiteSpace:hasKo&&o.length<=8?"nowrap":"normal",transition:"all .2s, transform .15s",...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{}), ...(hasKo?{fontSize:o.length<=4?20:o.length<=8?17:14,fontWeight:700}:{}), ...(hasArabic?{direction:"rtl",fontFamily:"'Noto Sans Arabic',sans-serif"}:{})}}
               onMouseEnter={e=>{if(!answered){UISounds.tick();e.currentTarget.style.borderColor="rgba(123,94,232,0.4)";e.currentTarget.style.background="linear-gradient(180deg, #f5f0ff, #ede4ff)";e.currentTarget.style.transform="translateY(-2px)";e.currentTarget.style.boxShadow="0 8px 24px rgba(123,94,232,0.15), 0 0 20px rgba(123,94,232,0.08)";}}}
               onMouseLeave={e=>{if(!answered){e.currentTarget.style.borderColor=bc;e.currentTarget.style.background=bg;e.currentTarget.style.transform="translateY(0)";e.currentTarget.style.boxShadow="";}}}
               onMouseDown={e=>{if(!answered)e.currentTarget.style.transform="translateY(1px) scale(0.98)";}}
               onMouseUp={e=>{if(!answered)e.currentTarget.style.transform="translateY(-2px)";}}
-              onClick={()=>{if(answered)return;UISounds.click();setSelOpt(o);checkAndNext(isCorrect(o));}}>{/[\uAC00-\uD7AF]/.test(o)?o.split(/([\uAC00-\uD7AF\u3130-\u318F]+)/).map((seg,si)=>/[\uAC00-\uD7AF\u3130-\u318F]/.test(seg)?<span key={si} style={{color:"var(--purple-accent-text)",fontWeight:800}}>{seg}</span>:<span key={si}>{seg}</span>):o}</div>;
+              onClick={()=>{if(answered)return;UISounds.click();setSelOpt(o);checkAndNext(isCorrect(o));}}
+              onKeyDown={e=>{if(answered)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();UISounds.click();setSelOpt(o);checkAndNext(isCorrect(o));}}}>{/[\uAC00-\uD7AF]/.test(o)?o.split(/([\uAC00-\uD7AF\u3130-\u318F]+)/).map((seg,si)=>/[\uAC00-\uD7AF\u3130-\u318F]/.test(seg)?<span key={si} style={{color:"var(--purple-accent-text)",fontWeight:800}}>{seg}</span>:<span key={si}>{seg}</span>):o}</div>;
           })}
           </div>;
         })()}
@@ -3996,9 +3997,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {availablePool.map((word,i)=>{
             const isFocused=i===(dfPoolIdx%Math.max(availablePool.length,1));
             const isDragging=dfDrag?.word===word;
-            return <div key={word}
+            return <div key={word} role="button" tabIndex={0} aria-label={`Place tile ${word}`}
               onPointerDown={e=>onTilePointerDown(e,word)}
               onClick={()=>{if(!dfDragOccurred.current&&!dfDrag)placeTile(word);}}
+              onKeyDown={e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();placeTile(word);}}}
               style={{
                 background:"var(--card-bg)",border:"2px solid rgba(255,255,255,0.55)",borderRadius:14,
                 padding:"10px 20px",cursor:dfDrag?"grabbing":"grab",fontWeight:700,fontSize:16,

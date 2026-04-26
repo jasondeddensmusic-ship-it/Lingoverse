@@ -4,6 +4,7 @@ import { VOCAB, t } from '../data/vocabulary.js';
 import { shuffle, cap, UNITS } from '../utils.js';
 import { UISounds } from '../audio.jsx';
 import { Confetti, ContinueButton, NavArrow, ScoreCircle, AppIcon } from '../components/shared.jsx';
+import { clickableProps } from '../a11y.js';
 
 function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
   const dk=document.documentElement.classList.contains("dark");
@@ -173,7 +174,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
           ].map(m=>{
             const active=qMode===m.id;
             const restShadow=active?"0 5px 16px rgba(85,53,181,0.35), inset 0 2px 0 rgba(255,255,255,0.3), inset 0 -3px 0 rgba(0,0,0,0.18)":"0 3px 10px rgba(0,0,0,0.08), inset 0 2px 0 rgba(255,255,255,0.8), inset 0 -2px 0 rgba(0,0,0,0.04)";
-            return <div key={m.id} onClick={()=>{if(!m.disabled)setQMode(m.id);}} style={{
+            return <div key={m.id} {...clickableProps(()=>{if(!m.disabled)setQMode(m.id);},{label:m.label})} aria-disabled={m.disabled} aria-pressed={active} style={{
               borderRadius:20,padding:"24px 16px",textAlign:"center",
               cursor:m.disabled?"default":"pointer",
               transition:"all .15s",position:"relative",overflow:"hidden",
@@ -270,7 +271,7 @@ function Quiz({lang,baseLang="en",user,addXp,learnWord,onPerfect,showToast}){
             let cls="quiz-opt";
             const isFocused=i===focusIdx&&!answered;
             if(answered){if(o===q.ans)cls+=" correct";else if(o===selOpt)cls+=" wrong";else cls+=" dis";}
-            return <div key={i} className={cls} style={{...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{})}} onMouseEnter={()=>{if(!answered)UISounds.tick();}} onClick={()=>doAnswer(o)}><div className="quiz-letter">{"ABCD"[i]}</div>{o}</div>;
+            return <div key={i} role="button" tabIndex={answered?-1:0} aria-label={`Answer ${"ABCD"[i]}: ${o}`} aria-disabled={answered} className={cls} style={{...(isFocused?{outline:"3px solid var(--purple-accent)",outlineOffset:2,boxShadow:"0 0 0 6px rgba(123,94,232,0.12)"}:{})}} onMouseEnter={()=>{if(!answered)UISounds.tick();}} onClick={()=>doAnswer(o)} onKeyDown={(e)=>{if(answered)return;if(e.key==="Enter"||e.key===" "){e.preventDefault();doAnswer(o);}}}><div className="quiz-letter">{"ABCD"[i]}</div>{o}</div>;
           })}
         </div>
 

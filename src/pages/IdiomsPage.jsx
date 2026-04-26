@@ -4,6 +4,7 @@ import { t } from '../data/vocabulary.js';
 import { AppIcon } from '../components/shared.jsx';
 import { DUTCH_IDIOMS } from '../data/grammar/idioms-dutch.js';
 import { GERMAN_IDIOMS } from '../data/grammar/idioms-german.js';
+import { clickableProps } from '../a11y.js';
 
 function IdiomsPage({lang,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
@@ -127,7 +128,8 @@ function IdiomsPage({lang,baseLang="en"}){
           const phrase = isPhrase(id.level);
           return(
             <div key={i} style={{...bubble,padding:0,cursor:"pointer"}}
-              onClick={()=>setExpanded(isOpen?null:i)}
+              {...clickableProps(()=>setExpanded(isOpen?null:i),{label:id.idiom||id.phrase||`Idiom ${i+1}`})}
+              aria-expanded={isOpen}
               onMouseEnter={e=>{if(!isOpen){e.currentTarget.style.transform="translateY(-1px)";e.currentTarget.style.filter="brightness(1.05)";}}}
               onMouseLeave={e=>{e.currentTarget.style.transform="";e.currentTarget.style.filter="";}}>
               {gloss}

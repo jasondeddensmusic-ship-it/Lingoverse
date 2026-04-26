@@ -15,6 +15,7 @@ import { JAPANESE_GRAMMAR } from '../data/grammar/japanese.js';
 import { CHINESE_GRAMMAR } from '../data/grammar/chinese.js';
 import { PORTUGUESE_GRAMMAR } from '../data/grammar/portuguese.js';
 import { RUSSIAN_GRAMMAR } from '../data/grammar/russian.js';
+import { scrimProps } from '../a11y.js';
 
 /* ── All-purple brand palette ── */
 const P="#7B5EE8";
@@ -362,7 +363,7 @@ function GrammarPage({lang,baseLang="en"}){
 
       {/* ══════ MOBILE BOTTOM SHEET ══════ */}
       {entry&&isMobile&&ReactDOM.createPortal(<>
-        <div className="bs-overlay" onClick={bs.dismiss} style={{
+        <div className="bs-overlay" {...scrimProps(bs.dismiss)} style={{
           position:"fixed",inset:0,zIndex:10001,
           background:dk?"rgba(0,0,0,0.6)":"rgba(15,10,40,0.35)",
           backdropFilter:"blur(8px)",WebkitBackdropFilter:"blur(8px)",
@@ -403,7 +404,7 @@ function GrammarPage({lang,baseLang="en"}){
       </>,document.body)}
 
       {/* ══════ DESKTOP MODAL ══════ */}
-      {entry&&!isMobile&&ReactDOM.createPortal(<div style={{
+      {entry&&!isMobile&&ReactDOM.createPortal(<div role="presentation" tabIndex={-1} onKeyDown={e=>{if(e.key==="Escape"){e.preventDefault();closePopup();}}} style={{
         position:"fixed",inset:0,zIndex:10001,
         background:dk?"rgba(0,0,0,0.55)":"rgba(15,10,40,0.3)",
         backdropFilter:"blur(6px)",WebkitBackdropFilter:"blur(6px)",
