@@ -1,7 +1,7 @@
 {
   "name": "VerumLingua — Language Learning",
   "short_name": "VerumLingua",
-  "description": "Certification-grade language learning across 10 languages, with cultural context and verb tables.",
+  "description": "Certification-grade language learning across 10 languages — German, Korean, Dutch, French, Spanish, Italian, Japanese, Chinese, Portuguese, Russian. CEFR-aligned A1 to B2, with cultural context, verb tables, and an AI tutor.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
