@@ -33,3 +33,40 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-26 | main | Visual debt inventory pre-design | PR #634 — audit_visual_consistency.mjs surfaces 1,104 debt items; LessonEngine.jsx (321), LearnPage.jsx (222) top offenders. Input artifact for upcoming claude.ai/design session.
 2026-04-26 | main | Stale worktrees cleaned | 9 dead worktree dirs removed from .git/worktrees/; git operations no longer emit permission-denied errors
 2026-04-26 | main | DECISION_LOG D127 added | Foundation fix decision recorded
+2026-04-26 | main | Engine: Expert Mode | PR #636 — B1+ free-text input on fb quizzes, gated by `vl_expert_mode` localStorage; SettingsPage toggle wired
+2026-04-26 | main | PWA Phase 1 | PR #637 — manifest.webmanifest + service worker, cache-first for /assets/*, network-only for /auth/api/, theme #7B5EE8
+2026-04-26 | main | AI chat Phase 1 | PR #638 — Chat.jsx unit-scoped vocab tutor, role-play prompts, brand purple ramp tokens (17 design tokens)
+2026-04-26 | main | PWA Phase 2 | PR #639 — UpdateBanner SW activation listener + Google Fonts caching (FONT_CACHE bucket); first-install suppression
+2026-04-26 | main | A11y baseline | PR #640 — audit_a11y.mjs: 5 patterns, baseline 76 violations across 32 files; informational telemetry
+2026-04-26 | main | A11y aria-labels round | PR #641 — 16 inputs labeled, 8 buttons labeled across AuthScreen/DevGate/App/Chat/Idioms/CefrRef/Vocab/LessonEngine; 76 → 52
+2026-04-26 | main | A11y clickableProps helper | PR #642 — src/a11y.js with clickableProps + scrimProps; App + shared + AuthScreen + Chat 4 files cleared; 52 → 33
+2026-04-26 | main | A11y LessonEngine clickable divs | PR #643 — match game tiles + scrim wrappers; LessonEngine 8 → 0; 33 → 25
+2026-04-26 | main | :focus-visible defaults | PR #644 — Tab focus rings in styles.js; suppress on mouse focus
+2026-04-26 | main | A11y LearnPage clickable divs | PR #645 — script-grid cells + section cards + foundation modal; LearnPage 7 → 0; 25 → 18
+2026-04-26 | main | A11y VocabularyPage clickable divs | PR #646 — word card + flashcard flip + grammar rows; VocabularyPage 6 → 0; 25 → 19
+2026-04-26 | main | A11y final cleanup + audit polish | PR #647 — brace-balanced parser + remaining clickable divs; 19 → 5 (5 pending #646 merge)
+2026-04-26 | main | A11y locked at 0 | PR #648 — strict mode in CI + pre-commit; default threshold 0; --max=N override
+2026-04-26 | main | PWA install prompt | PR #649 — beforeinstallprompt + iOS Add-to-Home-Screen hint after 30s; 30-day dismissal memory
+2026-04-26 | main | Skip-to-content link | PR #650 — WCAG 2.4.1 bypass blocks; role="main" landmark added
+2026-04-26 | main | Banner stacking fix | PR #651 — InstallPrompt at 140px, UpdateBanner at 80px, no overlap
+2026-04-26 | main | HTML/SEO polish | PR #652 — noscript fallback + OpenGraph + Twitter + Apple PWA meta; bundle size audit (locks baseline + 15% slack)
+2026-04-26 | main | Dead code + audit refinement | PR #653 — removed unused FLAG_COLORS in AuthScreen; visual_consistency skips CountryFlag
+2026-04-26 | main | Chat Clear button | PR #654 — clear chat history without losing unit scope
+2026-04-26 | main | Per-page document.title | PR #655 — Home/Learn/Vocab etc. titles; lang in title
+2026-04-26 | main | <html lang> sync | PR #656 — root.lang = baseLang for screen readers + SEO + CSS :lang()
+2026-04-26 | main | prefers-reduced-motion | PR #657 — WCAG 2.3.3; *.duration → 0.01ms when OS reduce-motion
+2026-04-26 | main | autocomplete on auth inputs | PR #658 — WCAG 1.3.5; username/current-password/new-password/nickname
+2026-04-26 | main | <title> SEO expansion | PR #659 — descriptive static title for initial paint + crawlers
+2026-04-26 | main | Input lang attrs | PR #660 — WCAG 3.1.2; tr-mode + Expert Mode + verb table inputs
+2026-04-26 | main | Vocab search lang attr | PR #661 — target-language autocomplete/IME for vocab search
+2026-04-26 | main | Manifest icon honest size | PR #662 — declare actual 1062x1246 + drop false maskable claim
+2026-04-26 | main | OS dark mode default | PR #663 — prefers-color-scheme on first visit; vl_dark_mode persists user choice
+2026-04-26 | main | Queue update | PR #664 — DONE annotations for VISUAL-002/003/A11Y/PERF
+2026-04-26 | main | CLAUDE.md validator state | PR #665 — recorded 2026-04-26 foundation overhaul (30+ PRs)
+2026-04-26 | main | Auth name= attrs | PR #666 — name= matching autoComplete; Safari + 1Password compatibility
+2026-04-26 | main | Manifest description sync | PR #667 — manifest description matches index.html meta
+2026-04-26 | main | Toast aria-live | PR #668 — WCAG 4.1.3 status messages; XpPop also announced; emoji icon aria-hidden
+2026-04-26 | main | Native names lang= | PR #669 — WCAG 3.1.2; "Deutsch" → German voice in Onboarding/Profile/LangSel
+2026-04-26 | main | Visual consistency in CI | PR #670 — informational gate, surfaces 1,061 debt for Claude Design
+2026-04-26 | main | Queue cleanup | PR #671 — VISUAL-A11Y marked DONE with full PR list
+2026-04-26 | main | Spawned task | code-split index-*.js by language (perf, 2-3 day refactor for future session)
