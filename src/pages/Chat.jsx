@@ -203,7 +203,7 @@ function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
       </div>
 
       <div style={{display:"flex",gap:8,paddingTop:10,flexShrink:0}}>
-        <input value={input} onChange={e=>setInput(e.target.value)}
+        <input aria-label={`Message Verumius in ${L?.name||""}`} value={input} onChange={e=>setInput(e.target.value)}
           onKeyDown={e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendMsg();}}}
           placeholder={`${t("le_type_in",baseLang)} ${L?.name||""}...`}
           disabled={loading}

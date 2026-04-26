@@ -325,6 +325,7 @@ function CefrReferencePage({lang, baseLang="en", user}){
           {/* Search */}
           <div style={{display:"flex",gap:8,alignItems:"center",marginBottom:12}}>
             <input
+              aria-label={t("cefr_search_ph",baseLang)}
               type="text" value={search} onChange={e=>setSearch(e.target.value)}
               placeholder={t("cefr_search_ph",baseLang)}
               style={{

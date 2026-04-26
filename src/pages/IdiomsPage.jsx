@@ -94,6 +94,7 @@ function IdiomsPage({lang,baseLang="en"}){
         <div style={{maxWidth:480,margin:"0 auto 18px",...bubble,padding:0}}>
           {gloss}
           <input
+            aria-label={t("idioms_search_ph",baseLang)}
             type="text" value={search} onChange={e => setSearch(e.target.value)}
             placeholder={t("idioms_search_ph",baseLang)}
             style={{
