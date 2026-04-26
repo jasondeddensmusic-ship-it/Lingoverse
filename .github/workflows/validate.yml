@@ -76,3 +76,7 @@ jobs:
       - name: Dialogue turns per language (informational, surfaces LANG-QUALITY-002)
         run: node scripts/audit_dialogue_turns.mjs
         continue-on-error: true
+
+      - name: Accessibility (WCAG AA proxy, informational, surfaces VISUAL-A11Y)
+        run: node scripts/audit_a11y.mjs --verbose
+        continue-on-error: true
