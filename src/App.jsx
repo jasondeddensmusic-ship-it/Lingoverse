@@ -109,7 +109,18 @@ export default function App(){
   const [pops,setPops]=useState([]);
   const [user,setUser]=useState({xp:0,streak:1,wl:0,lw:new Set(),cm:0,achs:[],ls:new Set()});
   const [showResetModal,setShowResetModal]=useState(false);
-  const [darkMode,setDarkMode]=useState(false);
+  // Honor OS-level prefers-color-scheme on first load. Persisted user choice
+  // (via vl_dark_mode localStorage) wins. Falls back to OS preference, else
+  // light mode.
+  const [darkMode,setDarkMode]=useState(()=>{
+    try{
+      const saved=localStorage.getItem("vl_dark_mode");
+      if(saved!==null)return saved==="true";
+      return window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;
+    }catch(e){return false;}
+  });
+  // Persist dark mode toggle so OS-default doesn't override user choice next visit
+  useEffect(()=>{try{localStorage.setItem("vl_dark_mode",String(darkMode));}catch(e){}},[darkMode]);
   const [cloudMode,setCloudMode]=useState(()=>{try{return localStorage.getItem("vl_cloud_mode")==="true";}catch(e){return false;}});
   const [showSearch,setShowSearch]=useState(false);
   const [searchQuery,setSearchQuery]=useState("");
