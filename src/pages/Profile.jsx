@@ -147,7 +147,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
         <div style={{display:"flex",gap:10,flexWrap:"wrap",justifyContent:"center"}}>
           {LANGUAGES.map(l=>(
             <div key={l.code} className={`lang-card ${lang===l.code?"active":""}`} {...clickableProps(()=>setLang(l.code),{label:l.name,role:"radio"})} aria-checked={lang===l.code} style={{cursor:"pointer"}}>
-              <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native">{l.native}</div>
+              <CountryFlag code={l.code} size={32} variant="plain"/><div className="name">{l.name}</div><div className="native" lang={l.code}>{l.native}</div>
             </div>
           ))}
         </div>
