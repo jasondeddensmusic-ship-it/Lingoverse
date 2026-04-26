@@ -64,3 +64,15 @@ jobs:
 
       - name: Hint quality strict (added 2026-04-26 to prevent passes 1-11 regression)
         run: node scripts/audit_hint_quality.mjs
+
+      - name: Verb table coverage (informational, surfaces LANG-QUALITY-001)
+        run: node scripts/audit_verb_tables.mjs
+        continue-on-error: true
+
+      - name: Production ratio per CEFR level (informational, surfaces LANG-QUALITY-003)
+        run: node scripts/audit_production_ratio.mjs
+        continue-on-error: true
+
+      - name: Dialogue turns per language (informational, surfaces LANG-QUALITY-002)
+        run: node scripts/audit_dialogue_turns.mjs
+        continue-on-error: true
