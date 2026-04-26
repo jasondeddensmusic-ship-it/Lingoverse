@@ -67,6 +67,12 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
   const [showTrans,setShowTrans]=useState(false);
   const [selOpt,setSelOpt]=useState(null);
   const [inputVal,setInputVal]=useState("");
+  // Expert mode: B1+ fb cards render free-text input instead of option pool (per LANG-QUALITY-003).
+  // Set via Settings → Learning → Expert Mode. Persisted in localStorage.
+  const expertMode=(()=>{try{return localStorage.getItem("vl_expert_mode")==="true";}catch(e){return false;}})();
+  const unitLevel=String(unit?.level||"");
+  const isB1plus=/^B[12]/.test(unitLevel);
+  const expertFreeText=expertMode&&isB1plus;
   const [matchSel,setMatchSel]=useState({nl:null,en:null});
   const [matchDone,setMatchDone]=useState([]);
   const [done,setDone]=useState(false);
@@ -3749,8 +3755,27 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           {showHint&&st.hint&&!answered&&!hideQuizRom&&<div style={{color:"var(--gray-400)",fontSize:13,marginTop:4}}><AppIcon name="lightbulb" size={20} style={{marginRight:5,display:"inline-block"}}/>{smartHl(st.hint)}</div>}
         </div>
         </div>
-        {/* Options — clean flat buttons */}
-        {(()=>{
+        {/* Expert mode (B1+ only): free-text input. Otherwise: option pool grid. */}
+        {expertFreeText ? (
+          <div style={{display:"flex",gap:8,alignItems:"center"}}>
+            <input
+              className="chat-input trg-input"
+              value={inputVal}
+              onChange={e=>setInputVal(e.target.value)}
+              onKeyDown={e=>{if(e.key==="Enter"&&!answered&&inputVal.trim()){const ok=isCorrect(inputVal.trim());setSelOpt(inputVal.trim());checkAndNext(ok);}}}
+              placeholder={t("le_type_in",baseLang)+" "+(LANGUAGES.find(l=>l.code===lang)?.native||lang)+"..."}
+              disabled={answered}
+              autoFocus
+              style={{flex:1}}
+            />
+            <button
+              className="btn"
+              style={{fontSize:15,padding:"14px 24px",borderRadius:16,background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:800,border:"none",cursor:answered||!inputVal.trim()?"default":"pointer",opacity:answered||!inputVal.trim()?0.5:1,boxShadow:"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)",transition:"all .15s",letterSpacing:0.3}}
+              disabled={answered||!inputVal.trim()}
+              onClick={()=>{const ok=isCorrect(inputVal.trim());setSelOpt(inputVal.trim());checkAndNext(ok);}}
+            >{t("le_check",baseLang)||"Check"}</button>
+          </div>
+        ) : (()=>{
           const fbOpts=shuffleOpts(st.opts,si);
           const hasKoFb=fbOpts.some(o=>/[\uAC00-\uD7AF]/.test(o));
           return <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:10}}>
@@ -3768,7 +3793,8 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
           })}
           </div>;
         })()}
-        {!answered&&<div style={{textAlign:"center",marginTop:8,fontSize:11,color:"var(--gray-300)"}}>{t("le_arrow_space",baseLang)}</div>}
+        {!answered&&!expertFreeText&&<div style={{textAlign:"center",marginTop:8,fontSize:11,color:"var(--gray-300)"}}>{t("le_arrow_space",baseLang)}</div>}
+        {!answered&&expertFreeText&&<div style={{textAlign:"center",marginTop:8,fontSize:11,color:"var(--purple-accent-text)",fontWeight:700,letterSpacing:0.4}}>EXPERT MODE — type the answer</div>}
         {answered&&<div style={{textAlign:"center",marginTop:12,fontSize:14,fontWeight:700,color:isCorrect(selOpt)?"var(--teal-dark)":"var(--coral)"}}>{isCorrect(selOpt)?t("le_correct",baseLang):fbAnswers.length>1?`${t("le_not_quite",baseLang)} — ${t("le_accepted",baseLang)}: ${fbAnswers.join(" / ")}`:`${t("le_not_quite",baseLang)} — ${t("le_answer_is",baseLang)}: ${showAnswer}`}</div>}
         {answered&&<ContinueButton onClick={goNext} correct={isCorrect(selOpt)} baseLang={baseLang} spaceRef={continueRef} onBack={goBack} canGoBack={si>0}/>}
       </div>

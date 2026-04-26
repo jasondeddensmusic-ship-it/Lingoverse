@@ -17,12 +17,14 @@ function SettingsPage({lang,baseLang="en",darkMode,setDarkMode,cloudMode,setClou
   const [storyMode,setStoryMode]=useState(()=>lsBool("vl_story_mode",false));
   const [uiSounds,setUiSounds]=useState(()=>lsBool("vl_ui_sounds",true));
   const [grammarHl,setGrammarHl]=useState(()=>lsBool("vl_grammar_hl",true));
+  const [expertMode,setExpertMode]=useState(()=>lsBool("vl_expert_mode",false));
   const dailyGoal=user?.dailyGoal||15;
 
   // ── Toggle helpers ──
   const toggleStory=()=>{const v=!storyMode;setStoryMode(v);lsSet("vl_story_mode",v);};
   const toggleSounds=()=>{const v=!uiSounds;setUiSounds(v);lsSet("vl_ui_sounds",v);};
   const toggleGrammar=()=>{const v=!grammarHl;setGrammarHl(v);lsSet("vl_grammar_hl",v);};
+  const toggleExpert=()=>{const v=!expertMode;setExpertMode(v);lsSet("vl_expert_mode",v);};
   const setGoal=(min)=>{if(setUser)setUser(u=>({...u,dailyGoal:min}));};
 
   // ── Styles ──
@@ -144,12 +146,19 @@ function SettingsPage({lang,baseLang="en",darkMode,setDarkMode,cloudMode,setClou
           </div>
           <Toggle on={grammarHl} onToggle={toggleGrammar}/>
         </div>
-        <div style={rowStyle}>
+        <div style={{...rowStyle,...rowBorder}}>
           <div>
             <div style={labelStyle}>{t("settings_sounds",baseLang)}</div>
             <div style={descStyle}>{t("settings_sounds_desc",baseLang)}</div>
           </div>
           <Toggle on={uiSounds} onToggle={toggleSounds}/>
+        </div>
+        <div style={rowStyle}>
+          <div>
+            <div style={labelStyle}>Expert Mode (B1+)</div>
+            <div style={descStyle}>Hide answer options on fill-in-the-blank quizzes at B1 and B2 levels — type from memory.</div>
+          </div>
+          <Toggle on={expertMode} onToggle={toggleExpert}/>
         </div>
       </div>
 
