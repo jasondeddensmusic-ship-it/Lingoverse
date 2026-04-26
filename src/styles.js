@@ -600,6 +600,32 @@ h3 { font-size: clamp(16px, 3.5vw, 22px); }
 }
 .btn-danger:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(224,74,74,0.45), inset 0 2px 0 rgba(255,255,255,0.35) !important; }
 
+/* ── SKIP-TO-CONTENT LINK (WCAG 2.4.1 — bypass blocks) ──
+   Hidden visually until keyboard-focused, then slides into view at top-left.
+   Lets screen-reader / keyboard-only users jump past the nav to the main
+   content. Invisible to mouse users. */
+.vl-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 99999;
+  background: linear-gradient(135deg, #7B5EE8, #5840B8);
+  color: white !important;
+  padding: 10px 16px;
+  border-radius: 0 0 12px 0;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Quicksand','Nunito',sans-serif;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(40,30,90,0.35);
+  transition: left .15s ease;
+}
+.vl-skip-link:focus, .vl-skip-link:focus-visible {
+  left: 0;
+  outline: 2px solid white !important;
+  outline-offset: 2px !important;
+}
+
 /* ── KEYBOARD FOCUS (Tab focus + arrow-key kb-focus) ──
    :focus-visible: native browser keyboard focus (Tab/Shift-Tab). Subtler than
    kb-focus (which is reserved for arrow-key list navigation via useFocusNav).
