@@ -62,7 +62,9 @@ function InstallPrompt(){
   const banner=(
     <div role="region" aria-live="polite" style={{
       position:'fixed',left:'50%',transform:'translateX(-50%)',
-      bottom:'calc(env(safe-area-inset-bottom, 0px) + 80px)',
+      // Sits ABOVE bottom nav AND above the UpdateBanner if both visible.
+      // UpdateBanner uses bottom 80px; we use 140px so they stack vertically.
+      bottom:'calc(env(safe-area-inset-bottom, 0px) + 140px)',
       zIndex:9997,
       display:'flex',alignItems:'center',gap:10,
       padding:'12px 14px',borderRadius:16,
