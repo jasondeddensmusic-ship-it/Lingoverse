@@ -15,6 +15,7 @@ import NebulaBackground from './components/NebulaBackground.jsx';
 import VLLogo from './components/VLLogo.jsx';
 import CountryFlag from './components/CountryFlag.jsx';
 import { Toast, XpPop } from './components/Toast.jsx';
+import UpdateBanner from './components/UpdateBanner.jsx';
 
 // ── Page imports (React.lazy for code splitting) ──
 const Home = React.lazy(() => import('./pages/Home.jsx'));
@@ -660,6 +661,7 @@ export default function App(){
       </React.Suspense>
       {toast&&<Toast key={toast.key} message={toast.message} icon={toast.icon} onDone={()=>setToast(null)}/>}
       {pops.map(p=><XpPop key={p.key} amount={p.amount} x={p.x} y={p.y}/>)}
+      <UpdateBanner/>
     </>
   );
 }
