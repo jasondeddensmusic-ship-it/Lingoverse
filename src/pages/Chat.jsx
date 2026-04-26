@@ -130,7 +130,12 @@ function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
           <h2 className="hd" style={{fontSize:22,fontWeight:800,display:"flex",alignItems:"center",gap:8}}><AppIcon name="robot" size={26}/> Verumius</h2>
           <p style={{color:"var(--gray-400)",fontSize:12}}>{t("chat_ai_partner",baseLang)} · {L?.native} <CountryFlag code={lang} size={14}/></p>
         </div>
-        <span className="badge badge-gold" style={{fontSize:11}}>+3 XP</span>
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          {msgs.length>0&&(
+            <button onClick={()=>setMsgs([])} aria-label="Clear chat" title="Clear chat history" style={{background:dk?"rgba(255,255,255,0.06)":"rgba(0,0,0,0.04)",border:"1px solid "+(dk?"rgba(255,255,255,0.1)":"rgba(0,0,0,0.08)"),borderRadius:10,padding:"4px 10px",fontSize:11,fontWeight:600,cursor:"pointer",color:dk?"rgba(200,184,255,0.7)":"var(--gray-500)",fontFamily:"inherit"}}>Clear</button>
+          )}
+          <span className="badge badge-gold" style={{fontSize:11}}>+3 XP</span>
+        </div>
       </div>
 
       {/* Unit-scope chip — shows active unit or a "Pick a unit" button */}
