@@ -264,10 +264,14 @@ export default function App(){
     return()=>window.removeEventListener("keydown",handler);
   },[showSearch,showVerumius]);
 
-  // ── RTL: set dir attribute on <html> when baseLang is Arabic ──
+  // ── RTL + lang attr: keep <html lang dir> in sync with the source-language UI ──
+  // lang affects screen-reader pronunciation, search-engine indexing, and CSS :lang().
+  // dir flips text direction for Arabic. Both are kept on <html> per WCAG/HTML5.
   useEffect(()=>{
-    document.documentElement.dir=baseLang==="ar"?"rtl":"ltr";
-    return()=>{document.documentElement.dir="ltr";};
+    const root=document.documentElement;
+    root.dir=baseLang==="ar"?"rtl":"ltr";
+    root.lang=baseLang||"en";
+    return()=>{root.dir="ltr";root.lang="en";};
   },[baseLang]);
 
   // ── Close search float on click outside ──
