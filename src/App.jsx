@@ -17,6 +17,7 @@ import CountryFlag from './components/CountryFlag.jsx';
 import { Toast, XpPop } from './components/Toast.jsx';
 import { clickableProps, scrimProps } from './a11y.js';
 import UpdateBanner from './components/UpdateBanner.jsx';
+import InstallPrompt from './components/InstallPrompt.jsx';
 
 // ── Page imports (React.lazy for code splitting) ──
 const Home = React.lazy(() => import('./pages/Home.jsx'));
@@ -663,6 +664,7 @@ export default function App(){
       {toast&&<Toast key={toast.key} message={toast.message} icon={toast.icon} onDone={()=>setToast(null)}/>}
       {pops.map(p=><XpPop key={p.key} amount={p.amount} x={p.x} y={p.y}/>)}
       <UpdateBanner/>
+      {authed&&ob&&<InstallPrompt/>}
     </>
   );
 }
