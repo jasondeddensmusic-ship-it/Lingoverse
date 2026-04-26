@@ -3,6 +3,7 @@ import { LANGUAGES, BASE_LANGUAGES } from '../data/metadata.js';
 import { t } from '../data/vocabulary.js';
 import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
+import { clickableProps } from '../a11y.js';
 
 // Flag color mappings for logo gradient
 const FLAG_COLORS={
@@ -109,7 +110,7 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
           <div style={{width:80,height:80,borderRadius:22,margin:"0 auto 10px",background:"linear-gradient(135deg, var(--blue-light), var(--teal-light))",border:"3px solid var(--blue)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:40,boxShadow:"0 4px 16px rgba(74,143,231,0.2)"}}>{avatar}</div>
           <div style={{display:"flex",gap:6,justifyContent:"center",flexWrap:"wrap",maxWidth:300,margin:"0 auto"}}>
             {avatars.map(a=>(
-              <div key={a} onClick={()=>setAvatar(a)} style={{width:36,height:36,borderRadius:10,display:"flex",alignItems:"center",justifyContent:"center",fontSize:18,cursor:"pointer",border:`2px solid ${avatar===a?"var(--blue)":"var(--gray-200)"}`,background:avatar===a?"var(--blue-light)":"var(--white)",transition:"all .15s"}}>{a}</div>
+              <div key={a} {...clickableProps(()=>setAvatar(a),{label:`Avatar ${a}`})} aria-pressed={avatar===a} style={{width:36,height:36,borderRadius:10,display:"flex",alignItems:"center",justifyContent:"center",fontSize:18,cursor:"pointer",border:`2px solid ${avatar===a?"var(--blue)":"var(--gray-200)"}`,background:avatar===a?"var(--blue-light)":"var(--white)",transition:"all .15s"}}>{a}</div>
             ))}
           </div>
         </div>
@@ -124,7 +125,7 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
             <div style={{fontSize:13,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>{t("auth_your_level",baseLang)}</div>
             <div style={{display:"flex",gap:6}}>
               {[{id:"beginner",label:"🌱 "+t("level_beginner",baseLang),desc:t("ob_starting_fresh",baseLang)},{id:"some",label:"📗 "+t("ob_some_basics",baseLang),desc:t("ob_know_few",baseLang)},{id:"inter",label:"📘 "+t("level_intermediate",baseLang),desc:t("ob_can_converse",baseLang)}].map(l=>(
-                <div key={l.id} onClick={()=>setLevel(l.id)} style={{flex:1,padding:"10px 8px",borderRadius:12,border:`2px solid ${level===l.id?"var(--teal)":"var(--gray-200)"}`,background:level===l.id?"var(--teal-light)":"var(--white)",cursor:"pointer",textAlign:"center",transition:"all .15s"}}>
+                <div key={l.id} {...clickableProps(()=>setLevel(l.id),{label:l.label})} aria-pressed={level===l.id} style={{flex:1,padding:"10px 8px",borderRadius:12,border:`2px solid ${level===l.id?"var(--teal)":"var(--gray-200)"}`,background:level===l.id?"var(--teal-light)":"var(--white)",cursor:"pointer",textAlign:"center",transition:"all .15s"}}>
                   <div style={{fontSize:12,fontWeight:700,color:level===l.id?"var(--teal-dark)":"var(--gray-600)"}}>{l.label}</div>
                 </div>
               ))}
@@ -136,7 +137,7 @@ function AuthScreen({onAuth,lang,baseLang="en"}){
             <div style={{fontSize:13,fontWeight:700,color:"var(--gray-600)",marginBottom:8}}>{t("auth_daily_goal",baseLang)}</div>
             <div style={{display:"flex",gap:6}}>
               {[{min:5,label:"5 min",emoji:"🐢"},{min:15,label:"15 min",emoji:"🚶"},{min:30,label:"30 min",emoji:"🏃"}].map(g=>(
-                <div key={g.min} onClick={()=>setDailyGoal(g.min)} style={{flex:1,padding:"10px 8px",borderRadius:12,border:`2px solid ${dailyGoal===g.min?"var(--blue)":"var(--gray-200)"}`,background:dailyGoal===g.min?"var(--blue-light)":"var(--white)",cursor:"pointer",textAlign:"center",transition:"all .15s"}}>
+                <div key={g.min} {...clickableProps(()=>setDailyGoal(g.min),{label:g.label})} aria-pressed={dailyGoal===g.min} style={{flex:1,padding:"10px 8px",borderRadius:12,border:`2px solid ${dailyGoal===g.min?"var(--blue)":"var(--gray-200)"}`,background:dailyGoal===g.min?"var(--blue-light)":"var(--white)",cursor:"pointer",textAlign:"center",transition:"all .15s"}}>
                   <div style={{fontSize:18}}>{g.emoji}</div>
                   <div style={{fontSize:12,fontWeight:700,color:dailyGoal===g.min?"var(--blue)":"var(--gray-600)"}}>{g.label}</div>
                 </div>

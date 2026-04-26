@@ -4,6 +4,7 @@ import { t } from '../data/vocabulary.js';
 import { UNITS } from '../utils.js';
 import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
+import { scrimProps } from '../a11y.js';
 
 const CHAT_ENDPOINT="https://verumlingua-ai.xqkv62nnqq.workers.dev";
 
@@ -150,8 +151,8 @@ function Chat({lang,baseLang="en",user,addXp,addChat,learnedWords}){
 
       {/* Unit picker modal */}
       {showUnitPicker&&(
-        <div onClick={()=>setShowUnitPicker(false)} style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.55)",zIndex:9999,display:"flex",alignItems:"flex-end",justifyContent:"center"}}>
-          <div onClick={e=>e.stopPropagation()} style={{width:"100%",maxWidth:480,maxHeight:"75vh",background:dk?"#1E1A37":"white",borderRadius:"20px 20px 0 0",padding:"16px 16px 20px",overflowY:"auto",WebkitOverflowScrolling:"touch"}}>
+        <div {...scrimProps(()=>setShowUnitPicker(false))} style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.55)",zIndex:9999,display:"flex",alignItems:"flex-end",justifyContent:"center"}}>
+          <div role="dialog" aria-modal="true" aria-label="Pick a unit to practice" onClick={e=>e.stopPropagation()} style={{width:"100%",maxWidth:480,maxHeight:"75vh",background:dk?"#1E1A37":"white",borderRadius:"20px 20px 0 0",padding:"16px 16px 20px",overflowY:"auto",WebkitOverflowScrolling:"touch"}}>
             <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:12}}>
               <h3 style={{fontSize:16,fontWeight:800,color:dk?"#E8E5F4":"#2A1A4E",fontFamily:"'Quicksand',sans-serif"}}>Pick a unit to practice</h3>
               <button onClick={()=>setShowUnitPicker(false)} style={{background:"transparent",border:"none",fontSize:22,cursor:"pointer",color:dk?"#C0AEF8":"#5840B8",lineHeight:1,padding:0,width:28,height:28}}>×</button>

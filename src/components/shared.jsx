@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { t } from '../data/vocabulary.js';
 import { ICON_REG } from '../data/metadata.js';
+import { clickableProps, scrimProps } from '../a11y.js';
 
 function FlagButton({lessonId,stepIndex,stepData,addFlag,baseLang="en"}){
   const [open,setOpen]=useState(false);
@@ -36,8 +37,8 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag,baseLang="en"}){
   );
 
   return(
-    <div style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:"rgba(0,0,0,0.3)",zIndex:100,display:"flex",alignItems:"center",justifyContent:"center",padding:20}} onClick={()=>{setOpen(false);setReason(null);setDetail("");}}>
-      <div style={{maxWidth:440,width:"100%",background:"var(--card-bg)",border:"2px solid var(--coral)",borderRadius:20,padding:20,animation:"fadeUp .2s",boxShadow:"0 20px 60px rgba(0,0,0,0.15)"}} onClick={e=>e.stopPropagation()}>
+    <div style={{position:"fixed",top:0,left:0,right:0,bottom:0,background:"rgba(0,0,0,0.3)",zIndex:100,display:"flex",alignItems:"center",justifyContent:"center",padding:20}} {...scrimProps(()=>{setOpen(false);setReason(null);setDetail("");})}>
+      <div role="dialog" aria-modal="true" aria-label={t("flag_whats_wrong",baseLang)} style={{maxWidth:440,width:"100%",background:"var(--card-bg)",border:"2px solid var(--coral)",borderRadius:20,padding:20,animation:"fadeUp .2s",boxShadow:"0 20px 60px rgba(0,0,0,0.15)"}} onClick={e=>e.stopPropagation()}>
       {sent?(
         <div style={{textAlign:"center",padding:16}}>
           <div style={{fontSize:28,marginBottom:8}}>✅</div>
@@ -52,7 +53,7 @@ function FlagButton({lessonId,stepIndex,stepData,addFlag,baseLang="en"}){
           </div>
           <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:6}}>
             {reasons.map(r=>(
-              <div key={r.id} onClick={()=>setReason(r.id)} style={{
+              <div key={r.id} {...clickableProps(()=>setReason(r.id),{label:r.label})} style={{
                 padding:"10px 12px",borderRadius:8,cursor:"pointer",
                 border:`2px solid ${reason===r.id?"var(--coral)":"var(--gray-200)"}`,
                 background:reason===r.id?"var(--coral-light)":"var(--white)",

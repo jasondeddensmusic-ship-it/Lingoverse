@@ -15,6 +15,7 @@ import NebulaBackground from './components/NebulaBackground.jsx';
 import VLLogo from './components/VLLogo.jsx';
 import CountryFlag from './components/CountryFlag.jsx';
 import { Toast, XpPop } from './components/Toast.jsx';
+import { clickableProps, scrimProps } from './a11y.js';
 import UpdateBanner from './components/UpdateBanner.jsx';
 
 // ── Page imports (React.lazy for code splitting) ──
@@ -396,14 +397,14 @@ export default function App(){
     return(
       <div className="topnav">
         <div className="topnav-items" style={{justifyContent:"center",gap:0,flex:1}}>
-          <div className={`topnav-item ${page==="profile"?"active":""}`} onClick={()=>setPage("profile")} style={{flex:1,justifyContent:"center"}}>
+          <div className={`topnav-item ${page==="profile"?"active":""}`} {...clickableProps(()=>setPage("profile"),{label:t("nav_profile",baseLang)})} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="avatar" size={28}/></span><span>{t("nav_profile",baseLang)}</span>
           </div>
-          <div className="topnav-logo-wrap" onClick={()=>setPage("home")}>
+          <div className="topnav-logo-wrap" {...clickableProps(()=>setPage("home"),{label:"Home"})}>
             <span style={{marginRight:6,display:"inline-flex"}}><CountryFlag code={lang} size={22}/></span>
             <VLLogo size={26} glow={darkMode}/><span className="topnav-logo" style={{fontSize:20,marginLeft:6}}>VerumLingua</span>
           </div>
-          <div className={`topnav-item ${showVerumius&&vrFullscreen?"active":""}`} onClick={()=>{if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}else{setVrSource("nav");setVrPos(null);setVrFullscreen(true);setShowVerumius(true);}}} style={{flex:1,justifyContent:"center"}}>
+          <div className={`topnav-item ${showVerumius&&vrFullscreen?"active":""}`} {...clickableProps(()=>{if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}else{setVrSource("nav");setVrPos(null);setVrFullscreen(true);setShowVerumius(true);}},{label:t("nav_chat",baseLang)})} style={{flex:1,justifyContent:"center"}}>
             <span className="icon"><AppIcon name="robot" size={28}/></span><span>{t("nav_chat",baseLang)}</span>
           </div>
         </div>
@@ -424,7 +425,7 @@ export default function App(){
       <div className="bottomnav">
         {tabs.map(tb=>(
           <div key={tb.id} className={`bottomnav-item ${page===tb.id?"active":""}`}
-            onClick={()=>{setPage(tb.id);if(tb.id==="chat"){setShowVerumius(false);setVrFullscreen(false);setVrPos(null);}}}>
+            {...clickableProps(()=>{setPage(tb.id);if(tb.id==="chat"){setShowVerumius(false);setVrFullscreen(false);setVrPos(null);}},{label:tb.label})}>
             <span className="bottomnav-icon"><AppIcon name={tb.icon} size={24}/></span>
             <span>{tb.label}</span>
           </div>
@@ -501,22 +502,22 @@ export default function App(){
             <AppIcon name="robot" size={20}/>
           </button>
         </div>}
-        <div className="vl-tab-handle" onClick={()=>setShowTools(t=>!t)}>
+        <div className="vl-tab-handle" {...clickableProps(()=>setShowTools(t=>!t),{label:"Toggle tools"})}>
           <div className="vl-tab-dot"/><div className="vl-tab-dot"/><div className="vl-tab-dot"/>
         </div>
       </div>
       {/* Verumius FAB (mobile) */}
-      {ob&&authed&&page!=="chat"&&<div className={"vr-fab"+(showVerumius?" open":"")} onClick={()=>{
+      {ob&&authed&&page!=="chat"&&<div className={"vr-fab"+(showVerumius?" open":"")} {...clickableProps(()=>{
         if(showVerumius){setVrFullscreen(false);setVrPos(null);setShowVerumius(false);}
         else{setVrSource("fab");setVrFullscreen(false);setShowVerumius(true);}
-      }}>
+      },{label:"Open Verumius chat"})}>
         {showVerumius
           ?<svg width="20" height="20" viewBox="0 0 20 20" fill="white"><path d="M4 4L16 16M16 4L4 16" stroke="white" strokeWidth="2.5" strokeLinecap="round"/></svg>
           :<AppIcon name="robot" size={28}/>}
       </div>}
       {/* Reset Modal */}
-      {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} onClick={()=>setShowResetModal(false)}>
-        <div onClick={e=>e.stopPropagation()} style={{background:"var(--card-bg)",borderRadius:24,padding:"36px 40px",maxWidth:360,textAlign:"center",boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
+      {showResetModal&&<div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.6)",zIndex:9999,display:"flex",alignItems:"center",justifyContent:"center",backdropFilter:"blur(4px)"}} {...scrimProps(()=>setShowResetModal(false))}>
+        <div role="dialog" aria-modal="true" aria-label="Reset progress confirmation" onClick={e=>e.stopPropagation()} style={{background:"var(--card-bg)",borderRadius:24,padding:"36px 40px",maxWidth:360,textAlign:"center",boxShadow:"0 20px 60px rgba(0,0,0,0.3)"}}>
           <div style={{marginBottom:12}}><AppIcon name="trash_bin" size={52}/></div>
           <h2 style={{fontSize:20,fontWeight:800,marginBottom:8,color:"var(--gray-800)"}}>Reset All Progress?</h2>
           <p style={{fontSize:14,color:"var(--gray-500)",marginBottom:24,lineHeight:1.5}}>This will erase all XP, completed lessons, achievements, flags, and quiz history. This cannot be undone.</p>
@@ -560,7 +561,7 @@ export default function App(){
                 const blk={display:"inline-flex",alignItems:"center",justifyContent:"center",background:"linear-gradient(180deg,#9B7AE8 0%,#7B5EE8 55%,#6040C8 100%)",color:"#fff",borderRadius:5,fontSize:8,fontWeight:900,padding:"0 5px",height:15,letterSpacing:.3,flexShrink:0,boxShadow:"0 2px 5px rgba(123,94,232,0.28),inset 0 1px 0 rgba(255,255,255,0.38)"};
                 const ht=r.hitText?_findHit(r.hitText,r.normQ):null;
                 return(
-                  <div key={i} className="sf-row" onClick={()=>setPreviewResult(r)} style={{display:"flex",alignItems:"center",gap:8}}>
+                  <div key={i} className="sf-row" {...clickableProps(()=>setPreviewResult(r))} style={{display:"flex",alignItems:"center",gap:8}}>
                     <div style={{flex:1,minWidth:0}}>
                       <div style={{display:"flex",alignItems:"center",gap:4,marginBottom:4}}>
                         <span style={blk}>{(r.unit.level||"").slice(0,2)}</span>
@@ -608,8 +609,8 @@ export default function App(){
           return(<div style={{padding:"16px",fontSize:13,color:"var(--gray-500)"}}>{s.title&&<div style={{fontWeight:700,color:"var(--gray-700)",marginBottom:8}}>{s.title}</div>}{s.q&&<div style={{marginBottom:8,fontWeight:600}}>{s.q}</div>}{s.text&&<div style={{lineHeight:1.6}}>{s.text}</div>}{s.s&&<div style={{fontWeight:600,color:"var(--gray-700)"}}>{s.s}</div>}<div style={{height:12}}/></div>);
         };
         return(
-          <div className="sp-ov" onClick={()=>setPreviewResult(null)}>
-            <div className="sp-wrap" onClick={e=>e.stopPropagation()}>
+          <div className="sp-ov" {...scrimProps(()=>setPreviewResult(null))}>
+            <div className="sp-wrap" role="dialog" aria-modal="true" onClick={e=>e.stopPropagation()}>
               <div className="sp-bar">
                 {(()=>{
                   const lNum=(unit.lessons||[]).findIndex(l=>l.id===lesson.id)+1;
