@@ -641,8 +641,9 @@ export default function App(){
       <React.Suspense fallback={<Loading/>}>
       {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard} onSourceLangChange={setBaseLang}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
         <>
+          <a href="#main" className="vl-skip-link">Skip to main content</a>
           <NavBar/>
-          <div className="main anim" key={page}>
+          <div id="main" className="main anim" key={page} role="main">
             {page==="home"&&<Home user={user} setPage={setPage} lang={lang} baseLang={baseLang} setFlashcardMode={setFlashcardMode}/>}
             {page==="learn"&&<LearnPage lang={lang} baseLang={baseLang} user={user} setUser={setUser} addXp={addXp} learnWord={learnWord} showToast={showToast} addFlag={addFlag} jumpTo={jumpTo} clearJumpTo={()=>setJumpTo(null)}/>}
             {page==="vocabulary"&&<VocabularyPage lang={lang} user={user} showToast={showToast} baseLang={baseLang}/>}
