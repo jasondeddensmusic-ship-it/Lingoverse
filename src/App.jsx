@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from "react"
 // ── Data imports ──
 import { LANGUAGES, LANG_META } from './data/metadata.js';
 import { tk, t, ACHS, ARTICLE_COLORS, getArticle } from './data/vocabulary.js';
-import { searchUnits, _findHit, UNITS } from './utils.js';
+import { searchUnits, _findHit, UNITS, loadUnitsForLang, prefetchAllUnits } from './utils.js';
 import { UISounds, UI_SOUNDS_ENABLED } from './audio.jsx';
 import { useFocusNav } from './hooks.js';
 import { CSS } from "./styles.js";
@@ -94,6 +94,28 @@ export default function App(){
     setFlags(prev=>[...prev,f]);
   };
   const [page,setPage]=useState("home");
+  // Lazy-load the active language's unit data on mount + on lang/baseLang
+  // change. Pages render once the units are in the UNITS array. We also
+  // background-prefetch the other 9 languages 5s after the active load
+  // completes so cross-language search and unit-counts eventually have
+  // full data.
+  const [unitsLoaded,setUnitsLoaded]=useState(false);
+  useEffect(()=>{
+    let cancelled=false;
+    setUnitsLoaded(false);
+    loadUnitsForLang(lang,baseLang).then(()=>{
+      if(cancelled)return;
+      setUnitsLoaded(true);
+      // Idle prefetch — non-blocking, fires once per session
+      const idleHandle=setTimeout(()=>{prefetchAllUnits();},5000);
+      return()=>clearTimeout(idleHandle);
+    }).catch((err)=>{
+      // Even on failure, render the app so user can switch lang
+      console.error("[utils] failed to load units for",lang,err);
+      if(!cancelled)setUnitsLoaded(true);
+    });
+    return()=>{cancelled=true;};
+  },[lang,baseLang]);
   // Sync document.title with the current page so screen readers + browser
   // tabs reflect where the user is. Lang code in title helps users with
   // multiple language tabs open.
@@ -664,7 +686,7 @@ export default function App(){
       })()}
       {/* ── Main routing ── */}
       <React.Suspense fallback={<Loading/>}>
-      {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard} onSourceLangChange={setBaseLang}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:(
+      {!devAccess?<DevGate onAccess={()=>{try{sessionStorage.setItem("lingoverse:dev","1");}catch(e){}setDevAccess(true);}}/>:!ob?<Onboarding onComplete={onboard} onSourceLangChange={setBaseLang}/>:!authed?<AuthScreen lang={lang} baseLang={baseLang} onAuth={(p)=>{setProfile(p);setAuthed(true);showToast(`${t("home_welcome",baseLang)} ${p.displayName}!`,"🎉");}}/>:!unitsLoaded?<Loading/>:(
         <>
           <a href="#main" className="vl-skip-link">Skip to main content</a>
           <NavBar/>

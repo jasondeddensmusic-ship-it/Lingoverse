@@ -32,12 +32,15 @@ const STRICT = process.argv.includes('--strict');
 
 // Budgets in KB, matched to chunk-name prefix (since Vite hashes filenames).
 // Numbers reflect 2026-04-26 baseline + 15% slack. Tighten when code-splits land.
+// Phase 1 lazy-load (PR #677, 2026-04-26): each language's units module
+// is now a separate chunk. Active-lang download dropped from 47 MB → ~8 MB
+// for German users. Budgets below reflect post-split + 15% slack.
 const BUDGETS = {
-  'index': 55_000,             // currently ~47,265 KB — LARGEST chunk, all data
+  'index': 4_300,              // was 55,000 — DRAMATIC drop. Only app shell + utils.
   'CefrReferencePage': 3_700,  // currently ~3,224 KB
   'GrammarPage': 1_080,        // currently ~937 KB
   'dictionary': 580,           // currently ~506 KB
-  'LearnPage': 440,            // currently ~379 KB
+  'LearnPage': 440,            // currently ~381 KB
   'Onboarding': 110,           // currently ~95 KB
   'IdiomsPage': 110,           // currently ~96 KB
   'VocabularyPage': 90,        // currently ~78 KB
@@ -47,6 +50,18 @@ const BUDGETS = {
   'Chat': 12,                  // currently ~10 KB
   'AuthScreen': 11,            // currently ~9 KB
   'Home': 10,                  // currently ~8 KB
+  // Lazy-loaded language chunks (Phase 1 split). Tighten as content grows.
+  'units-japanese-v2': 7_500,    // currently ~6,486 KB (largest lang)
+  'units-german-v2-ar': 6_300,   // currently ~5,453 KB
+  'units-korean-v2': 6_300,      // currently ~5,423 KB
+  'units-dutch-v2': 5_800,       // currently ~5,054 KB
+  'units-german-v2': 5_650,      // currently ~4,908 KB
+  'units-italian-v2': 5_300,     // currently ~4,608 KB
+  'units-spanish-v2': 5_300,     // currently ~4,576 KB
+  'units-french-v2': 5_100,      // currently ~4,425 KB
+  'units-chinese-v2': 1_420,     // currently ~1,235 KB
+  'units-portuguese-v2': 905,    // currently ~787 KB
+  'units-russian-v2': 740,       // currently ~641 KB
 };
 
 const distDir = path.resolve(process.cwd(), 'dist/assets');
