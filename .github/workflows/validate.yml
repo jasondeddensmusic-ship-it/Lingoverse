@@ -79,3 +79,6 @@ jobs:
 
       - name: Accessibility (WCAG AA proxy, BLOCKING — baseline 0 after PR #647)
         run: node scripts/audit_a11y.mjs --strict --verbose
+
+      - name: Bundle size budgets (BLOCKING — locks baseline + 15% slack)
+        run: node scripts/audit_bundle_size.mjs --strict
