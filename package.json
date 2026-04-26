@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate": "node scripts/validate_runtime.mjs && node scripts/check_filler.cjs && node scripts/audit_teach_content.mjs && node scripts/audit_mc_quality.mjs && node scripts/audit_placement_questions.mjs && node scripts/audit_boring_funfacts.mjs && node scripts/audit_pos_gender.mjs && node scripts/audit_hint_quality.mjs",
-    "validate:full": "npm run validate && node scripts/pp63_audit.cjs --all --include-batch && node scripts/validate_structural_runtime.mjs",
+    "validate": "node scripts/validate_runtime.mjs && node scripts/check_filler.cjs && node scripts/audit_teach_content.mjs && node scripts/audit_mc_quality.mjs && node scripts/audit_placement_questions.mjs && node scripts/audit_boring_funfacts.mjs && node scripts/audit_pos_gender.mjs && node scripts/audit_hint_quality.mjs && node scripts/audit_a11y.mjs --strict",
+    "validate:full": "npm run validate && node scripts/pp63_audit.cjs --all --include-batch && node scripts/validate_structural_runtime.mjs && npm run build && node scripts/audit_bundle_size.mjs --strict",
     "prepare": "husky"
   },
   "dependencies": {
