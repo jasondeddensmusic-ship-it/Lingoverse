@@ -3703,7 +3703,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
             {isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}
           </div>
           <div style={{display:"flex",gap:10,alignItems:"stretch"}}>
-            <input className={`chat-input${!isNlEn?" trg-input":""}`} value={inputVal} onChange={e=>setInputVal(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!answered&&inputVal.trim())checkAns();}} placeholder={`${t("le_type_in",baseLang)} ${isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}...`} disabled={answered} autoFocus/>
+            <input className={`chat-input${!isNlEn?" trg-input":""}`} aria-label={`${t("le_type_in",baseLang)} ${isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}`} value={inputVal} onChange={e=>setInputVal(e.target.value)} onKeyDown={e=>{if(e.key==="Enter"&&!answered&&inputVal.trim())checkAns();}} placeholder={`${t("le_type_in",baseLang)} ${isNlEn?(BASE_LANGUAGES.find(l=>l.code===baseLang)?.native||"English"):(LANGUAGES.find(l=>l.code===lang)?.native||lang)}...`} disabled={answered} autoFocus/>
             <button className="btn" style={{fontSize:15,padding:"14px 24px",borderRadius:16,background:"linear-gradient(180deg, #B8A8FA 0%, #9B7AE8 20%, #7B5EE8 55%, #6545C8 85%, #5840B8 100%)",color:"white",fontWeight:800,border:"none",cursor:answered||!inputVal.trim()?"default":"pointer",opacity:answered||!inputVal.trim()?0.5:1,boxShadow:"0 6px 20px rgba(123,94,232,0.45), inset 0 2px 0 rgba(255,255,255,0.4), inset 0 -3px 0 rgba(0,0,0,0.15)",transition:"all .15s",position:"relative",overflow:"hidden",letterSpacing:0.3}} disabled={answered||!inputVal.trim()} onClick={checkAns} onMouseEnter={e=>{if(!answered&&inputVal.trim())e.currentTarget.style.transform="scale(1.05)";}} onMouseLeave={e=>{e.currentTarget.style.transform="scale(1)";}}>
               <span style={{position:"absolute",top:0,left:"8%",right:"8%",height:"38%",borderRadius:"0 0 50% 50%",background:"linear-gradient(180deg, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.06) 100%)",pointerEvents:"none"}}/>
               <span style={{position:"relative",zIndex:1}}>Check</span>
@@ -3759,6 +3759,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
         {expertFreeText ? (
           <div style={{display:"flex",gap:8,alignItems:"center"}}>
             <input
+              aria-label="Type your answer"
               className="chat-input trg-input"
               value={inputVal}
               onChange={e=>setInputVal(e.target.value)}
@@ -4145,7 +4146,7 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
               return(
                 <div key={p} style={{display:"flex",alignItems:"center",gap:12}}>
                   <span style={{width:100,fontSize:14,fontWeight:700,color:"var(--gray-600)",textAlign:"right"}}>{pronLabels[p]||p}</span>
-                  <input value={val} onChange={e=>!conjChecked&&setConjAnswers(a=>({...a,[p]:e.target.value}))} placeholder="..." style={{flex:1,padding:"10px 14px",borderRadius:12,border:`2px solid ${conjChecked?(correct?"var(--teal)":"var(--coral)"):"var(--gray-200)"}`,fontSize:15,fontWeight:600,background:conjChecked?(correct?"var(--teal-light)":"var(--coral-light)"):"var(--white)",outline:"none"}}/>
+                  <input aria-label={`Conjugation for ${pronLabels[p]||p}`} value={val} onChange={e=>!conjChecked&&setConjAnswers(a=>({...a,[p]:e.target.value}))} placeholder="..." style={{flex:1,padding:"10px 14px",borderRadius:12,border:`2px solid ${conjChecked?(correct?"var(--teal)":"var(--coral)"):"var(--gray-200)"}`,fontSize:15,fontWeight:600,background:conjChecked?(correct?"var(--teal-light)":"var(--coral-light)"):"var(--white)",outline:"none"}}/>
                   {conjChecked&&wrong&&<span style={{fontSize:12,color:"var(--coral)",fontWeight:700,whiteSpace:"nowrap"}}>{st.forms[p]}</span>}
                   {conjChecked&&correct&&<span style={{color:"var(--teal)",fontWeight:800}}>✓</span>}
                 </div>

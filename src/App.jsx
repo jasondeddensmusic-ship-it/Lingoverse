@@ -474,7 +474,7 @@ export default function App(){
           {vLoading&&<div className="vr-typing"><div className="vr-dot"/><div className="vr-dot"/><div className="vr-dot"/></div>}
         </div>
         <div className="vr-inp-bar">
-          <input className="vr-inp" value={vInput} onChange={e=>setVInput(e.target.value)}
+          <input className="vr-inp" aria-label="Message Verumius" value={vInput} onChange={e=>setVInput(e.target.value)}
             onKeyDown={e=>{
               if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendToVerumius();}
               if(e.key==="Escape"){e.preventDefault();setShowVerumius(false);}
@@ -545,7 +545,7 @@ export default function App(){
           <div className="sf-panel">
             <div className="sf-hdr">
               <svg width="13" height="13" viewBox="0 0 15 15" fill="none" stroke="rgba(130,115,175,0.65)" strokeWidth="2.3" strokeLinecap="round" style={{flexShrink:0}}><circle cx="6.5" cy="6.5" r="4.2"/><line x1="9.8" y1="9.8" x2="13.2" y2="13.2"/></svg>
-              <input className="sf-inp" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
+              <input className="sf-inp" aria-label="Search any word or phrase" autoFocus placeholder="Search any word or phrase…" value={searchQuery}
                 onChange={e=>setSearchQuery(e.target.value)}
                 onKeyDown={e=>{if(e.key==="Escape"){setShowSearch(false);setSearchQuery("");}}}
               />

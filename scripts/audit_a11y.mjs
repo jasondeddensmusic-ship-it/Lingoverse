@@ -80,7 +80,7 @@ for (const file of files) {
   }
 
   // 2. <button> without accessible name. We look at the opening tag + the
-  // first ~200 chars after to see if there's text content or aria-label.
+  // first ~400 chars after to see if there's text content or aria-label.
   for (const m of text.matchAll(/<button\b([^>]*)>/g)) {
     const attrs = m[1];
     const hasAria = /\baria-label\s*=/.test(attrs) || /\baria-labelledby\s*=/.test(attrs);
@@ -90,19 +90,18 @@ for (const file of files) {
     const after = text.slice(m.index + m[0].length, m.index + m[0].length + 400);
     const closeIdx = after.indexOf('</button>');
     const inner = closeIdx >= 0 ? after.slice(0, closeIdx) : after;
-    // Strip JSX comments and check for any non-whitespace text or non-svg child.
-    const stripped = inner
-      .replace(/\{\/\*[\s\S]*?\*\/\}/g, '')
-      .replace(/\{[^{}]*\}/g, ' EXPR ') // generic JSX expression
-      .trim();
-    // If the only content is <svg>...</svg> with no text, flag as icon-only.
+    // Strip JSX comments
+    const stripped = inner.replace(/\{\/\*[\s\S]*?\*\/\}/g, '').trim();
+    // Icon-only: only an <svg> child, no text, no other children.
     const svgOnly = /^<svg[\s\S]*<\/svg>$/.test(stripped);
     if (svgOnly) {
       violations.iconOnlyBtn.push({ file: rel, line: lineOf(text, m.index) });
       continue;
     }
-    // If genuinely empty (nothing between open/close)
-    if (stripped === '' || stripped === 'EXPR') {
+    // Trust JSX expression children: `{t("key")}`, `{label}`, etc. typically
+    // produce accessible text content. Only flag genuinely empty buttons:
+    // `<button></button>` or `<button> </button>`.
+    if (stripped === '') {
       violations.buttonNoName.push({ file: rel, line: lineOf(text, m.index) });
     }
   }
