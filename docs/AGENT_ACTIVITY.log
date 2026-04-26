@@ -27,3 +27,9 @@ audit trail. Format: `YYYY-MM-DDTHH:MM:SSZ | agent-id | task | outcome`.
 2026-04-19 | japanese-linguist-sonnet-A | Japanese PP67 batch2-6 | 70 files, 85 fbs, all batch2-6 cleared (kanji+furigana per PP65)
 2026-04-19 | japanese-linguist-sonnet-B | Japanese PP67 batch7-11 + units | 60 files, ~70 fbs, all remaining cleared
 2026-04-19 | main | PP67 ALL 10 LANGUAGES CLEAN — 0/945 under-production | verified build + filler + validator all PASS
+2026-04-26 | main | Owner audit response: foundation fix shipped | PR #632 — CI workflow .github/workflows/validate.yml runs 12 validators on every PR; .husky/pre-commit runs 4 fastest before commit; Rules H12 + I codified
+2026-04-26 | main | New validators added per Rule I3 | scripts/audit_pos_gender.mjs (8 patterns), scripts/audit_hint_quality.mjs (4 patterns); both 0 violations across 39,038 cards
+2026-04-26 | main | Quality audits surfaced for queue | PR #633 — audit_verb_tables.mjs (7 langs below min), audit_production_ratio.mjs (21 cells <40% prod); both informational/exit-0
+2026-04-26 | main | Visual debt inventory pre-design | PR #634 — audit_visual_consistency.mjs surfaces 1,104 debt items; LessonEngine.jsx (321), LearnPage.jsx (222) top offenders. Input artifact for upcoming claude.ai/design session.
+2026-04-26 | main | Stale worktrees cleaned | 9 dead worktree dirs removed from .git/worktrees/; git operations no longer emit permission-denied errors
+2026-04-26 | main | DECISION_LOG D127 added | Foundation fix decision recorded

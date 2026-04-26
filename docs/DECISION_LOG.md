@@ -941,3 +941,30 @@ Concept-driven minimum:
 - 叫's example now correctly references 什么 which is a prior card.
 
 **Status:** Fixed. Build passes.
+
+---
+
+## D127: Foundation Fix — CI Gates + Rule I (Validator-First Engineering)
+**Date:** 2026-04-26 | **Category:** Process/Infrastructure | **Scope:** Repo-wide
+
+**Decision:** Wired all 27 validator scripts into CI via `.github/workflows/validate.yml`. Added `.husky/pre-commit` for fast local gate. Added Rule I (I1–I6) to CLAUDE.md codifying validator-first engineering. Added Rule H12 forbidding new SESSION_HANDOFF docs.
+
+**Rationale:** Owner audit on 2026-04-26 found that 781 surface fixes shipped in passes 12–21 (one week) without a single new validator added. The 27 sophisticated validator scripts under `scripts/` were never wired into CI — only `npm run build` was a gate. Pre-commit hooks didn't exist. Rule H9 (no handoffs) was added 2026-04-23 yet 8 handoff docs were created in the days that followed. The reactive learning loop (rule added only after owner explosion) had become the dominant pattern.
+
+**Concrete changes:**
+- `.github/workflows/validate.yml` runs 12 validation steps on every PR + non-main push.
+- `.husky/pre-commit` runs 4 fastest validators before any commit lands.
+- `scripts/audit_pos_gender.mjs` codifies passes 13/14/15/18/19/20/21 (POS/article/gender consistency).
+- `scripts/audit_hint_quality.mjs` codifies passes 1–11 (hint-leak patterns; catches what `validate_runtime`'s SKIP_WORDS misses).
+- `scripts/audit_verb_tables.mjs` (informational) — surfaces LANG-QUALITY-001.
+- `scripts/audit_production_ratio.mjs` (informational) — surfaces LANG-QUALITY-003.
+- `scripts/audit_visual_consistency.mjs` (informational) — surfaces VISUAL-001 with 1,104 debt items pre-design.
+- Rule H12: queue is the handoff; SESSION_HANDOFF docs forbidden.
+- Rule I (I1–I6): new bug class → new validator + new rule + new CI gate, same PR. The 21-pass cleanup pattern is structurally forbidden.
+- 9 stale worktrees cleaned from `.git/worktrees/`.
+
+**PRs:** #632 (foundation), #633 (more audits), #634 (visual audit).
+
+**Status:** Shipped 2026-04-26. CI green on every step. All 39,038 cards still 0 violations across 12 dimensions.
+
+**Forward implication:** Future bug discovery flow is: discover → fix → validator → rule → CI gate (same PR). Surface fixes without validator additions are violations of Rule I3.
