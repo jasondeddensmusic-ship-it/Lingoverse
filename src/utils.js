@@ -4,18 +4,33 @@
 import { LEVEL_XP } from './data/vocabulary.js';
 import { LANGUAGES, LANG_META, CEFR_LEVELS } from './data/metadata.js';
 import { FOUNDATIONS_BY_LANG, FK_PLAYTHROUGH } from './data/foundations.js';
-import dutchV2Units from './data/units-dutch-v2.js';
-import koreanV2Units from './data/units-korean-v2.js';
-import germanV2Units from './data/units-german-v2.js';
-import frenchV2Units from './data/units-french-v2.js';
-import spanishV2Units from './data/units-spanish-v2.js';
-import italianV2Units from './data/units-italian-v2.js';
-import japaneseV2Units from './data/units-japanese-v2.js';
-import chineseV2Units from './data/units-chinese-v2.js';
-import portugueseV2Units from './data/units-portuguese-v2.js';
-import russianV2Units from './data/units-russian-v2.js';
+// 'other' is the small Arabic-target placeholder set — keep synchronous (tiny).
 import otherUnits from './data/units-other.js';
-import { UNITS_GERMAN_V2_AR } from './data/units-german-v2-ar.js';
+
+// ── LAZY LANGUAGE LOADERS ──
+// Each language's units module is loaded on demand via dynamic import.
+// Vite splits each into its own chunk, so users only download the data
+// for languages they actually study.
+//
+// IMPORTANT: dictionary.js still imports 5 of these synchronously (Dutch,
+// Korean, German, French, Spanish). Vite dedupes — those modules load
+// regardless of whether utils.js requests them. The pure win in Phase 1
+// is for the other 5 (Italian, Japanese, Chinese, Portuguese, Russian),
+// which had no other importer until now.
+const LANG_LOADERS = {
+  nl: () => import('./data/units-dutch-v2.js'),
+  ko: () => import('./data/units-korean-v2.js'),
+  de: () => import('./data/units-german-v2.js'),
+  fr: () => import('./data/units-french-v2.js'),
+  es: () => import('./data/units-spanish-v2.js'),
+  it: () => import('./data/units-italian-v2.js'),
+  ja: () => import('./data/units-japanese-v2.js'),
+  zh: () => import('./data/units-chinese-v2.js'),
+  pt: () => import('./data/units-portuguese-v2.js'),
+  ru: () => import('./data/units-russian-v2.js'),
+};
+// German with Arabic source has its own module
+const GERMAN_AR_LOADER = () => import('./data/units-german-v2-ar.js');
 
 const __devWarnings=[];
 
@@ -509,8 +524,13 @@ const xpNext = xp=>LEVEL_XP[getLevel(xp)]||12000;
 const xpCurr = xp=>LEVEL_XP[getLevel(xp)-1]||0;
 
 
-// ── Unit Assembly & Normalization ──
-const _RAW_UNITS = [...dutchV2Units, ...koreanV2Units, ...germanV2Units, ...UNITS_GERMAN_V2_AR, ...frenchV2Units, ...spanishV2Units, ...italianV2Units, ...japaneseV2Units, ...chineseV2Units, ...portugueseV2Units, ...russianV2Units, ...otherUnits].filter(u=>u&&u.lang);
+// ── Unit Assembly & Normalization (Lazy) ──
+// _RAW_UNITS used to be a synchronous concatenation of all 10 languages'
+// unit arrays. With lazy loading, it starts empty (plus the small `other`
+// placeholders) and grows as `loadUnitsForLang()` is called. The same
+// applies to UNITS — both arrays are mutated in place so existing
+// importers see updates without changing their code.
+const _RAW_UNITS = [...otherUnits].filter(u => u && u.lang);
 // ── FIELD NORMALIZATION: support both legacy nl/en AND new trg/src ──
 // After migration, old field names can be removed. Until then, both coexist.
 function _normStep(st){
@@ -544,12 +564,75 @@ function _normStep(st){
   });
   return st;
 }
-const UNITS=_RAW_UNITS.map(u=>{
-  if(!u||!u.lessons)return u;
-  u.lessons.forEach(l=>{if(l.steps)l.steps.forEach(_normStep);});
-  if(!u.srcLang)u.srcLang="en";
-  return u;
-});
+// UNITS is the live, append-only array exposed to consumers. Starts with
+// just the synchronously-imported `otherUnits` placeholders. As languages
+// load, _ingestUnits() pushes their normalized units onto this array.
+// Importers see the array reference once and observe growth in place.
+const UNITS = [];
+function _ingestUnits(rawUnits) {
+  if (!rawUnits || !rawUnits.length) return;
+  for (const u of rawUnits) {
+    if (!u || !u.lang) continue;
+    // Idempotent: skip if already present (same lang + n + srcLang)
+    const srcLang = u.srcLang || "en";
+    if (UNITS.some(x => x.lang === u.lang && x.n === u.n && (x.srcLang || "en") === srcLang)) continue;
+    if (u.lessons) u.lessons.forEach(l => { if (l.steps) l.steps.forEach(_normStep); });
+    if (!u.srcLang) u.srcLang = "en";
+    UNITS.push(u);
+  }
+}
+// Seed UNITS with the already-loaded `other` placeholder modules
+_ingestUnits(_RAW_UNITS);
+
+// Track which lang+srcLang combos are loaded so we don't re-import.
+const _LOADED = new Set();
+
+/**
+ * Load a target language's units into UNITS. Idempotent — calling twice
+ * with the same args resolves immediately on the second call.
+ *
+ * Special case: German with Arabic source needs both the base German
+ * module AND the Arabic-source variant. Pass baseLang="ar" + lang="de".
+ *
+ * @param {string} lang - target language code (e.g. "de", "ko", "ja")
+ * @param {string} [baseLang="en"] - source language code
+ * @returns {Promise<void>} resolves when the units are loaded + normalized
+ */
+async function loadUnitsForLang(lang, baseLang = "en") {
+  if (!lang || !LANG_LOADERS[lang]) return;
+  const key = `${lang}::${baseLang}`;
+  if (_LOADED.has(key)) return;
+  // Always ensure the base lang is loaded
+  if (!_LOADED.has(`${lang}::en`)) {
+    const mod = await LANG_LOADERS[lang]();
+    _ingestUnits(mod.default || []);
+    _LOADED.add(`${lang}::en`);
+  }
+  // German + Arabic source: also load the Arabic variant
+  if (baseLang === "ar" && lang === "de") {
+    const arMod = await GERMAN_AR_LOADER();
+    _ingestUnits(arMod.UNITS_GERMAN_V2_AR || []);
+    _LOADED.add("de::ar");
+    return;
+  }
+  _LOADED.add(key);
+}
+
+/**
+ * Background-prefetch all remaining language modules. Fire-and-forget.
+ * Intended use: call from App.jsx ~5s after the active language loads,
+ * during user idle time, so cross-language search + unit-count features
+ * eventually have full data without blocking initial paint.
+ */
+function prefetchAllUnits() {
+  for (const [lang, loader] of Object.entries(LANG_LOADERS)) {
+    if (_LOADED.has(`${lang}::en`)) continue;
+    loader().then(mod => {
+      _ingestUnits(mod.default || []);
+      _LOADED.add(`${lang}::en`);
+    }).catch(() => {/* non-fatal: language won't appear until next try */});
+  }
+}
 
 // ── Korean Romanization & Search ──
 // ── CURRICULUM SEARCH (D113) ──
@@ -674,7 +757,7 @@ const compareCefrLevel=(a,b)=>{
 };
 
 export { shuffle, pick, clamp, getLevel, cap, xpNext, xpCurr };
-export { _normStep, UNITS, _RAW_UNITS };
+export { _normStep, UNITS, _RAW_UNITS, loadUnitsForLang, prefetchAllUnits };
 export { _romanize, _normS, _findHit, searchUnits };
 export { compareCefrLevel };
 export { __contentWarnings, validateLessonForLeaks };
