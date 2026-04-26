@@ -11,11 +11,15 @@ if (!window.storage) {
   };
 }
 
-// Service Worker registration (PWA Phase 1 — offline mode + install prompt support).
+// Service Worker registration (PWA Phase 2 — offline mode + update banner).
 // Tracked in AUTONOMOUS_QUEUE under VISUAL-002.
 // Skip in dev (Vite serves /sw.js as 404 unless built; service workers only useful in prod).
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
   window.addEventListener('load', () => {
+    // Mark first-install so the UpdateBanner suppresses its message on first visit.
+    if (!navigator.serviceWorker.controller) {
+      try { sessionStorage.setItem('vl_sw_first_install', 'true'); } catch (e) {}
+    }
     navigator.serviceWorker.register('/sw.js').catch(() => {
       // non-fatal: app still works without offline
     });
