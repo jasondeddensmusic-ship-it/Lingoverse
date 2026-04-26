@@ -321,6 +321,38 @@ Replaces "native-speaker review" as a bottleneck. The owner speaks 8+ languages 
 9. **H9. NO SESSION HANDOFFS.** Do NOT write `docs/SESSION_HANDOFF_*.md` files at the end of a session, between priorities, or to summarize progress. Ever — unless the owner explicitly asks for one. The queue (`docs/AUTONOMOUS_QUEUE.md`), git log, merged PR titles, and the Validator State section of this file are the source of truth. Writing a handoff doc pauses autonomous execution to produce a status report nobody asked for, burns context, and adds low-value PR noise. Existing `docs/SESSION_HANDOFF_*.md` files remain as archive; do not retroactively delete, but do not add new ones. If you catch yourself about to write `SESSION_HANDOFF_<date>.md`: stop, update the queue if needed, then proceed to the next queue item.
 10. **H10. INTERRUPTS ARE STACKED, NOT REPLACEMENTS.** When the owner sends a new priority mid-task (bug report, aesthetic complaint, re-scoping request), treat it as a stack push, not a task replacement. (a) Commit/PR any in-flight partial work so it isn't orphaned. (b) Drive the interrupt to completion through the full gauntlet: code, build, audits, PR, merge, CI green. (c) Pop back to the prior task and resume from the exact point of interruption **without waiting for another prompt**. The todo list should preserve the paused task across the interrupt window. If an interrupt genuinely invalidates the prior priority, state so explicitly and switch; otherwise default is resume. Applies recursively (interrupt-inside-an-interrupt still returns to the outermost stack frame). Owner flagged 2026-04-23: "weird how you didn't continue your actual to do list work."
 11. **H11. NEVER SELF-TERMINATE.** The agent does NOT stop, "wrap up," write "session summary," or hand control back to the owner until ONE of: (a) the owner explicitly says stop/pause/switch-task; (b) the autonomous queue is empty AND every blocker has been recorded in `docs/BLOCKED.md`; (c) Rule H4 termination conditions fire (three consecutive failures, red main for the bounded retry window); or (d) the runtime actually auto-compacts / hits an infrastructure limit — not the agent's own estimate of remaining context. Forbidden self-termination phrases: "Session wrap", "final state", "Next agent picks up", "I'm running low on context now", "let me provide a concise wrap-up", any summary paragraph that replaces a next tool call. "Context is getting tight" is NOT a stop signal — it's a signal to ship smaller, faster batches, not to quit. If the owner's standing directive is "work until context fills," then the ONLY valid end-of-turn state is the runtime cutting the agent off mid-tool-call. An agent that voluntarily stops with capacity remaining is in direct violation. Owner flagged 2026-04-24: "why the HELL did YOU stop?!?"
+12. **H12. QUEUE-FIRST, NO HANDOFF DRIFT.** Every PR description must update `docs/AUTONOMOUS_QUEUE.md` inline (DONE markers, new items discovered, etc.). The queue IS the handoff. Do NOT create `docs/SESSION_HANDOFF_*.md` files for any reason except direct owner request — H9 was added 2026-04-23 yet 8 handoff docs were created in the days that followed. The pattern is now mechanically enforced: an agent that writes a handoff file is in direct violation. Existing 17 handoff files remain as archive; new ones are forbidden. Owner flagged 2026-04-26 audit: *"the rules aren't being updated enough... we are actually becoming less functional than the early stages"* — H12 is the response.
+
+### Rule I: Validator-First Engineering (2026-04-26)
+
+Owner audit on 2026-04-26 surfaced the core process gap: bug discovered → fix data → ship → bug recurs. Between 2026-04-19 and 2026-04-26, **781 surface fixes shipped (passes 12–21) without a single new validator added**. Bug classes that recurred:
+- POS mistags (273 cards across 6 languages)
+- Gender field missing or contradicting article (143 + 70 cards)
+- Hint dotted-letter / quoted-letter / common-word leaks (164 cards)
+- Dutch verbs prefixed with `de` (29 cards)
+
+The 27 validator scripts under `scripts/` were sophisticated but **none ran in CI** — only `npm run build` was gated. Pre-commit hooks didn't exist.
+
+1. **I1. CI gate is mandatory for every validator.** New file `.github/workflows/validate.yml` runs every audit on every push to a non-main branch and every PR. Failure blocks merge. The previous "manually run validate_runtime before each PR" pattern is forbidden — humans/agents forget; CI doesn't.
+2. **I2. Pre-commit hook for fast checks.** `.husky/pre-commit` runs the four lightest validators (filler, runtime PP-rules, POS/gender, hint quality) before any commit lands. Bypass only with `--no-verify` and only with explicit owner approval (per Rule B/C, never on main).
+3. **I3. New bug pattern → new validator, same PR.** If a fix touches >10 cards across multiple files (i.e. it's a CLASS of bug), the agent MUST in the same PR (a) write a validator that detects the pattern, (b) wire it into `.github/workflows/validate.yml`, (c) add a test case (run it against the now-clean corpus → confirms it stays at 0). Surface fixes without validator additions are forbidden.
+4. **I4. New rule for every recurring bug class.** If a fix retrospectively codifies a principle (e.g. "Dutch infinitives don't take articles"), the agent adds a PP-numbered rule to CLAUDE.md citing the validator script. The rule's existence is what makes future agents respect it.
+5. **I5. The 21-pass cleanup pattern is forbidden going forward.** Pass 1 fixes → pass 2 fixes the regressions of pass 1 → pass 3 fixes the regressions of pass 2 → ... pass 21. This pattern means we have no permanent guardrails. If you catch yourself running >2 passes on the same bug class, stop and write the validator first.
+6. **I6. Validators are first-class citizens.** Track validator count alongside PR count in any session-state docs. A session that ships 50 surface fixes and 0 validators is a worse session than one that ships 5 surface fixes and 1 validator.
+
+**Validators currently wired into CI (as of 2026-04-26):**
+- `validate_runtime.mjs` — PP8/22c/43/48/64/67 (39,038 cards)
+- `validate_structural_runtime.mjs` — structural integrity
+- `audit_teach_content.mjs` — teach card content
+- `audit_mc_quality.mjs` — MC step quality
+- `audit_placement_questions.mjs` — placement bank
+- `audit_boring_funfacts.mjs` — boring/template funFacts (10/10 must stay 0)
+- `audit_pos_gender.mjs` — POS-article-gender consistency (NEW)
+- `audit_hint_quality.mjs` — strict hint-leak detection (NEW)
+- `pp63_audit.cjs --all --include-batch` — example-vocab integrity
+- `check_filler.cjs` — PP66 filler markers
+- Conflict marker grep
+- `npm run build` — compile gate
 
 ---
 
