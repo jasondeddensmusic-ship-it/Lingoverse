@@ -5,22 +5,6 @@ import { AppIcon } from '../components/shared.jsx';
 import CountryFlag from '../components/CountryFlag.jsx';
 import { clickableProps } from '../a11y.js';
 
-// Flag color mappings for logo gradient
-const FLAG_COLORS={
-  nl:["#AE1C28","#FFFFFF","#21468B"], // Red White Blue (horizontal)
-  fr:["#002395","#FFFFFF","#ED2939"], // Blue White Red
-  de:["#000000","#DD0000","#FFCE00"], // Black Red Gold
-  es:["#AA151B","#F1BF00","#AA151B"], // Red Yellow Red
-  ro:["#002B7F","#FCD116","#CE1126"], // Blue Yellow Red
-  it:["#008C45","#FFFFFF","#CD212A"], // Green White Red
-  pt:["#006600","#FF0000","#FFCC00"],
-  ja:["#FFFFFF","#BC002D","#FFFFFF"], // White Red White (hinomaru)
-  ko:["#FFFFFF","#003478","#C60C30"], // White Blue Red
-  zh:["#DE2910","#FFDE00","#DE2910"], // Red Yellow Red
-  en:["#00247D","#FFFFFF","#CF142B"], // Blue White Red (union jack)
-  ru:["#FFFFFF","#0039A6","#D52B1E"], // White Blue Red
-};
-
 function AuthScreen({onAuth,lang,baseLang="en"}){
   const dk=document.documentElement.classList.contains("dark");
   const [mode,setMode]=useState("welcome"); // welcome | login | create

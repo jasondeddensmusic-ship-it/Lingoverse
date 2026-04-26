@@ -51,10 +51,13 @@ function walk(dir) {
 
 // Scope: actual code (components, pages, app entry). Skip data/ — color tokens
 // in data are intentional (unit color assignments, etc.) not visual debt.
+// Skip CountryFlag.jsx — it intentionally uses each country's flag colors,
+// which are immutable national symbols, not theme tokens.
 const files = walk(ROOT).filter(f => {
   if (f.endsWith('styles.js')) return false;
   if (/[\\\/]data[\\\/]/.test(f)) return false;
   if (/\.bak\./.test(f)) return false;
+  if (/CountryFlag\.jsx$/.test(f)) return false;
   return true;
 });
 const violations = {
