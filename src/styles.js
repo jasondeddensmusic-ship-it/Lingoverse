@@ -44,6 +44,27 @@ export const CSS = `
   --example-bg: linear-gradient(180deg, var(--gray-50), white);
   --purple-accent: #7050D8;
   --purple-accent-text: #7050D8;
+  /* ── BRAND PURPLE RAMP — single source of truth for inline styles. ──
+     These exact hex values are referenced across LessonEngine/LearnPage/etc.
+     Adding them here lets audit_visual_consistency.mjs recognize them as
+     palette colors instead of hardcoded debt. */
+  --brand-purple: #7B5EE8;            /* primary brand */
+  --brand-purple-deep: #5840B8;       /* pressed / dark text on light */
+  --brand-purple-mid: #6545C8;        /* hover / borders */
+  --brand-purple-darkest: #4A2BA6;    /* active / strong contrast */
+  --brand-purple-soft: #8B6AE4;       /* secondary accents */
+  --brand-purple-light: #9B7AE8;      /* tertiary */
+  --brand-purple-pale: #A488F0;       /* hover surfaces */
+  --brand-purple-pastel: #B8A8FA;     /* highlights */
+  --brand-purple-mist: #C0AEF8;       /* lightest accent */
+  --brand-purple-mist-warm: #C0AEFA;  /* warm variant */
+  --brand-purple-tint: #F0ECFF;       /* card backgrounds */
+  --brand-purple-tint-2: #EDE8FF;     /* alt card */
+  --brand-purple-tint-3: #F4F0FF;     /* lightest tint */
+  --brand-purple-tint-4: #F8F5FF;     /* whisper tint */
+  --brand-purple-press: #6040C0;      /* button press */
+  --brand-gold-deep: #E8960A;         /* het article / warning */
+  --slate-deep: #1F2937;              /* dark slate text */
   /* ── GLASS SYSTEM (auto light/dark) ── */
   --card-bg: linear-gradient(180deg, rgba(255,255,255,0.82) 0%, rgba(250,250,254,0.78) 50%, rgba(245,244,250,0.75) 100%);
   --card-border: rgba(220,215,235,0.5);
