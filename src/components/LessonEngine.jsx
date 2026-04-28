@@ -1140,7 +1140,10 @@ function LessonEngine({lesson,baseLang="en",unit,user,addXp,learnWord,showToast,
       const word=s.trg||s.nl||"";
       return(s.type==="teach"&&word&&lwAtStart.current&&!lwAtStart.current.has(word));
     }).length;
-    const streak=user?.streak||1;
+    // "Lessons done" — honest metric. Replaces the legacy `user.streak` value
+    // which was hard-coded to 1 and never incremented (see Expert Panel pilot triage,
+    // streak conflict resolution: replace dead UI with truthful count).
+    const streak=Object.keys(user?.cu||{}).length;
     const candyBtn=(label,onClick,idx,{grad,shadow}={})=>{
       const g=grad||"linear-gradient(180deg, #606078 0%, #4A4A60 30%, #38384E 60%, #2C2C40 100%)";
       const sh=shadow||"rgba(60,60,80,0.4)";

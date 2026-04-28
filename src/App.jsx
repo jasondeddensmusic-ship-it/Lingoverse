@@ -386,8 +386,10 @@ export default function App(){
     if(user.wl>=1)unlock("first_word");
     if(user.wl>=10)unlock("vocab_10");
     if(user.cm>=5)unlock("chat_5");
-    if(user.streak>=3)unlock("streak_3");
-  },[user.wl,user.cm,user.streak]);
+    // streak_3 achievement now triggers on 3 completed lessons (honest metric)
+    // — see Expert Panel pilot triage, streak conflict resolution.
+    if(Object.keys(user.cu||{}).length>=3)unlock("streak_3");
+  },[user.wl,user.cm,user.cu]);
 
   useEffect(()=>{
     setUser(u=>{const ls=new Set(u.ls);ls.add(lang);if(ls.size>=3&&!u.achs.includes("polyglot"))setTimeout(()=>unlock("polyglot"),500);return{...u,ls};});
