@@ -55,7 +55,7 @@ function Profile({user,lang,baseLang="en",setLang,onLogout,flags=[],setFlags,set
       <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:12,marginBottom:20}}>
         {[
           {icon:"lightning_bolt",value:user.xp,label:t("prof_total_xp",baseLang)},
-          {icon:"flame",value:`${user.streak} ${t("prof_days",baseLang)}`,label:t("prof_streak",baseLang)},
+          {icon:"flame",value:`${Object.keys(user.cu||{}).length}`,label:t("prof_streak",baseLang)},
           {icon:"trophy",value:`${t("prof_level",baseLang)} ${lv}`,label:t("prof_rank",baseLang)},
           {icon:"brain",value:user.wl,label:t("prof_words_learned",baseLang)},
         ].map((s,i)=>(

@@ -1,0 +1,3354 @@
+{
+  "date": "2026-04-27-de-pilot",
+  "panelists": [
+    {
+      "slug": "cognitive-psychologist",
+      "role": "Cognitive Psychologist",
+      "scores": {
+        "spacing schedule": 8,
+        "retrieval mode dominance": 5,
+        "interleaving": 4,
+        "error framing": 3,
+        "cognitive load calibration": 7,
+        "overall": 5.4
+      },
+      "findingsCount": 8,
+      "strengthsCount": 3
+    },
+    {
+      "slug": "curriculum-designer",
+      "role": "Curriculum Designer",
+      "scores": {
+        "backward-design alignment": 8,
+        "bloom-level distribution": 5,
+        "vertical articulation": 8,
+        "horizontal coherence": 7,
+        "assessment validity": 7,
+        "one-pager defensibility": 8,
+        "overall": 7
+      },
+      "findingsCount": 38,
+      "strengthsCount": 3
+    },
+    {
+      "slug": "educational-psychologist",
+      "role": "Educational Psychologist",
+      "scores": {
+        "autonomy support": 9,
+        "competence support": 8,
+        "relatedness support": 9,
+        "scaffolding adequacy": 7,
+        "mindset framing": 9,
+        "dark-pattern absence": 10,
+        "overall": 8.7
+      },
+      "findingsCount": 11,
+      "strengthsCount": 3
+    },
+    {
+      "slug": "language-teacher",
+      "role": "Language Teacher",
+      "scores": {
+        "real-student smell test": 8,
+        "stuck-student support": 7,
+        "communicative needs coverage": 7,
+        "pacing realism": 9,
+        "motivation-curve sustainability": 8,
+        "cultural/emotional engagement": 9,
+        "overall": 8
+      },
+      "findingsCount": 20,
+      "strengthsCount": 3
+    },
+    {
+      "slug": "native-linguist-de",
+      "role": "Native Linguist (de)",
+      "scores": {
+        "naturalness": 7,
+        "register consistency": 6,
+        "cultural accuracy": 6,
+        "frequency calibration": 8,
+        "pragmatic realism": 7,
+        "overall": 7
+      },
+      "findingsCount": 26,
+      "strengthsCount": 3
+    },
+    {
+      "slug": "sla-researcher",
+      "role": "SLA Researcher",
+      "scores": {
+        "comprehensible-input calibration": 7,
+        "pushed-output adequacy": 5,
+        "interaction quality": 4,
+        "form-meaning-use triad": 8,
+        "spiraling adequacy": 5,
+        "overall": 6
+      },
+      "findingsCount": 14,
+      "strengthsCount": 3
+    }
+  ],
+  "clusters": [
+    {
+      "id": "EXPERT-PANEL-FINDING-001",
+      "themeId": "production-mode-gap",
+      "label": "Production-mode (free recall) gap — opts:[] exposed / no `tr` step / Quiz is 100% recognition / Bloom-Apply starved",
+      "tier": "CRITICAL",
+      "consensusN": 3,
+      "finalScore": 11.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "academic citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "cognitive-psychologist",
+        "curriculum-designer",
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "critical",
+          "title": "Finding 1 — Standalone Quiz is 100% recognition mode",
+          "filePaths": [
+            "src/pages/Quiz.jsx"
+          ],
+          "lineRefs": [
+            "src/pages/Quiz.jsx:30-70",
+            "Quiz.jsx:268-280"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "critical",
+          "title": "All 12 units, system-wide** | **Bloom-level Apply tier is starved.** Step-type counts across U1-U12: teach=1,560 (Understand), mc=792 (Remember/Understand), match=241 (Remember), fb=575 (Understand…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "sla-researcher",
+          "section": "critical",
+          "title": "[unit-01..12, all fb cards: 355/355 contain opts:[...]](../../../src/data/german-v2/) | **Every fill-in-blank quiz exposes a 4-option pool, eliminating actual recall demand.** Sample u01:22 {type:\"…",
+          "filePaths": [
+            "src/data/german-v2"
+          ],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [
+            "Swain 1985",
+            "Roediger & Karpicke 2006"
+          ],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-002",
+      "themeId": "unit8-flat-file",
+      "label": "Unit-08 file ships as a single line — authoring/template debt",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 7,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 9",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer",
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-08.js (single line)] | **Unit-08 ships as one 119KB single-line file** with no in-source breaks. Every other unit has structured // ─── L1: ... ─── comments (e.g. unit-01.j…",
+          "filePaths": [
+            "src/data/german-v2/unit-08.js"
+          ],
+          "lineRefs": [
+            "unit-01.js:7",
+            "unit-02.js:6",
+            "unit-12.js:636"
+          ],
+          "unitRefs": [
+            8,
+            1,
+            2,
+            12
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U8 \"Müllprofessor\" — coherent journey, broken file structure.** Der falsche Eimer → Hildis Lektion → Recycling-Codes → Abendbrot-discovery → meeting Mia. The arc holds; the file shape is the issue …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            8
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "Unit 8 is structurally underweight given its A2.1 placement.** u08 has 13 lessons but the whole file is on a single line (no newlines), suggesting machine-generated bulk vs. authored content. Spot-…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            8,
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-003",
+      "themeId": "no-adaptive-scaffolding",
+      "label": "Scaffolding triggers on dose, not on struggle — no adaptive response to wrong-streak",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 6.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "academic citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "cognitive-psychologist",
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "E. No \"lapse handling\" beyond FSRS defaults.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [
+            "Bahrick 1979",
+            "Pashler et al. 2007"
+          ],
+          "concreteFix": true
+        },
+        {
+          "panelist": "educational-psychologist",
+          "section": "critical",
+          "title": "CF-2 | src/components/LessonEngine.jsx:43-60 (breather logic) | Scaffolding triggers on dose, not on struggle",
+          "filePaths": [
+            "src/components/LessonEngine.jsx"
+          ],
+          "lineRefs": [
+            "src/components/LessonEngine.jsx:43-60",
+            "LessonEngine.jsx:3587"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-004",
+      "themeId": "story-cards-not-rendered",
+      "label": "No `type:\"story\"` cards rendered — narrative is described in `intro` text only",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 6,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer",
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:0 across all 12 units] | **type:\"story\" step type appears 0 times in A1+A2** despite STORY_BIBLE.md defining 6 recurring characters (Hildi, Lukas, Yilmaz, KD, Mia, He…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:0"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "sla-researcher",
+          "section": "critical",
+          "title": "[no type:\"story\" cards exist in any of the 36 German units; story is referenced only via intro desc strings and dialogue subtext](../../../src/data/german-v2/) | Grep type:\"story\" = 0 hits. The Ver…",
+          "filePaths": [
+            "src/data/german-v2"
+          ],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-005",
+      "themeId": "konjunktiv-umlauts-stripped",
+      "label": "Konjunktiv II umlauts stripped in `grammar/german.js` — wrong forms taught in reference",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 6,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer",
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "[unit-13.js entry vs unit-12.js capstone] | **A2→B1 transition shows a small assumed-knowledge step.** U12 L7 \"Konjunktiv II und Nebensätze\" exposes Konjunktiv II at A2.3, but U13 L5 \"Ich würde mic…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            13,
+            12
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Talk about past, future, and hypotheticals**: narrate yesterday with Perfekt haben + sein, plan tomorrow with future-as-present + werden hints, express polite wishes with Konjunktiv II basics (möch…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            7,
+            10,
+            11,
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "critical",
+          "title": "CRIT-1: Konjunktiv II grammar reference is grammatically wrong",
+          "filePaths": [],
+          "lineRefs": [
+            "grammar/german.js:964-998",
+            "unit-12.js:662"
+          ],
+          "unitRefs": [
+            12
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Specific \"I'd like...\" chunk for ordering** — *\"Ich hätte gern ___, bitte\"* (with Konjunktiv II *hätte*) is THE polite ordering formula. Unit 5 teaches *\"Ich möchte\"* and *\"Ich nehme\"* but the *hät…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            5
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-006",
+      "themeId": "country-prepositions-untaught",
+      "label": "Country-preposition rule (`aus der Türkei` vs `aus Deutschland`) used in examples but never taught",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 6,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer",
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Country prepositions (aus der Türkei vs aus Deutschland)**: introduced via examples at U1 L4, never explicitly taught as a rule until B1+. Native-linguist auditor flagged the same. From a curriculu…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            2
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:107] | example: Woher kommst du? — Ich komme aus der Türkei. | This is fine. BUT later: [unit-01.js:78] Wohin fährst du? — Ich fahre nach Hamburg. and [unit-01.js:155…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:107",
+            "unit-01.js:78",
+            "unit-01.js:155"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-007",
+      "themeId": "etymology-pronunciation-tschuss",
+      "label": "`Tschüss` etymology (French adieu) wrong; pronunciation hint wrong",
+      "tier": "CRITICAL",
+      "consensusN": 2,
+      "finalScore": 6,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6"
+      ],
+      "panelists": [
+        "language-teacher",
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-5: funFacts are an unsung hero of the A1+A2 slice",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:36",
+            "unit-01.js:21",
+            "unit-11.js:441"
+          ],
+          "unitRefs": [
+            1,
+            11
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:36] | Tschüss\" ... \"Pronounced like 'choose' with a softer ch.\" | **Pronunciation hint is wrong.** *Tschüss* starts with /tʃ/ (English ch as in \"church\"), not the sof…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:36"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:36 funFact] | \"'Tschüss' evolved from the French 'adieu' (to God), which became 'adjuees' in dialect, then 'tschuess.'\" | **Etymology is wrong.** *Tschüss* comes from…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:36"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-008",
+      "themeId": "a1-1-vs-a1-2-imbalance",
+      "label": "A1.1 vs A1.2 sub-level ratio is 5:1 — unbalanced",
+      "tier": "IMPORTANT",
+      "consensusN": 2,
+      "finalScore": 4,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer",
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "[unit-01.js:5, unit-02.js:5, unit-03.js:5, unit-04.js:5, unit-05.js:5, unit-06.js:5] | **A1.1 vs A1.2 ratio is 5:1.** Five units of A1.1 (U1-U5) and one unit of A1.2 (U6). A2 is balanced (2+2+2 acr…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:5",
+            "unit-02.js:5",
+            "unit-03.js:5",
+            "unit-04.js:5",
+            "unit-05.js:5",
+            "unit-06.js:5"
+          ],
+          "unitRefs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-4: B-CEFR badging on lessons appropriate; sub-level visible",
+          "filePaths": [],
+          "lineRefs": [
+            "LearnPage.jsx:235"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-009",
+      "themeId": "speak-slower-chunk-missing",
+      "label": "\"Können Sie langsamer sprechen?\" survival chunk never taught",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 4,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 9",
+        "concrete fix"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "critical",
+          "title": "CRIT-3: \"Können Sie langsamer sprechen?\" never taught as a chunk",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-02.js:121"
+          ],
+          "unitRefs": [
+            2,
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "\"Können Sie langsamer sprechen, bitte?\" as a memorized chunk** — components present, the chunk itself isn't. (Critical, see CRIT-3.)",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-010",
+      "themeId": "stereotype-debt",
+      "label": "\"Germans love X / Germans are X\" cultural-stereotype framing across funFacts",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 4,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 9",
+        "concrete fix"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "Multiple files | funFact:\"Germans love X / Germans are X / Germans always X\" appears **122 times across v2; ~30 land in A1-A2.** Examples in slice: \"Germans love compound nouns\", \"Germans love thei…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-05.js:90] | verboten funFact: \"Verboten signs are everywhere in Germany. Germans are known for following rules, and these signs are taken seriously.\" | Stereotype + factual…",
+          "filePaths": [
+            "src/data/german-v2/unit-05.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-05.js:90"
+          ],
+          "unitRefs": [
+            5
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "The \"Germans love X\" trope is the single biggest cultural problem.** Even when the content is friendly or self-deprecating, it constructs national essentialism. A German learner-of-Italian wouldn't…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "The \"Germans are direct\" funFact at [unit-01.js:66]** (\"In business, this directness is respected, not rude\") is exactly the kind of self-mythologizing that Germans would themselves push back on. I…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:66"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-011",
+      "themeId": "food-allergy-vocab-missing",
+      "label": "Restaurant unit teaches no dietary-restriction / allergy vocabulary (real-world safety gap)",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "severity-language 9",
+        "concrete fix"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "critical",
+          "title": "CRIT-2: Restaurant unit teaches no dietary restriction vocabulary",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            5,
+            18
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Food allergy / dietary restriction vocab** — *Allergie, allergisch gegen, vegan, vegetarisch, glutenfrei, laktosefrei, koscher, halal*. Critical for safety; absent in A1+A2. (Critical, see CRIT-2.)",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-012",
+      "themeId": null,
+      "label": "[Themeless] Free production is under-trained.** With only 3 tr steps in 12 units (zero in A2",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "severity-language 9",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Free production is under-trained.** With only 3 tr steps in 12 units (zero in A2), a learner has rarely been asked to produce a full German sentence from English without options. Goethe-A2 writing …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-013",
+      "themeId": null,
+      "label": "[Themeless] IMPORTANT-1: Akkusativ vs Dativ contrast not consolidated until Unit 11",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6",
+        "concrete fix"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-1: Akkusativ vs Dativ contrast not consolidated until Unit 11",
+          "filePaths": [],
+          "lineRefs": [
+            "grammar/german.js:491"
+          ],
+          "unitRefs": [
+            11,
+            4,
+            6,
+            7,
+            8
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-014",
+      "themeId": null,
+      "label": "[Themeless] IMPORTANT-2: Numbers 21-99 reversal (vierundzwanzig) deserves more drilling",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6",
+        "concrete fix"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-2: Numbers 21-99 reversal (vierundzwanzig) deserves more drilling",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-04.js:275-276"
+          ],
+          "unitRefs": [
+            4,
+            6
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-015",
+      "themeId": null,
+      "label": "[Themeless] IMPORTANT-3: Separable verbs taught grammatically but few drilling reps",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6",
+        "concrete fix"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-3: Separable verbs taught grammatically but few drilling reps",
+          "filePaths": [],
+          "lineRefs": [
+            "grammar/german.js:151-173"
+          ],
+          "unitRefs": [
+            8,
+            10,
+            5
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-016",
+      "themeId": "wrong-answer-feedback",
+      "label": "Wrong-answer feedback is corrective-only (no explanation, no missed-items review)",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "cognitive-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "critical",
+          "title": "Finding 2 — Wrong-answer experience is punishment, not data",
+          "filePaths": [
+            "src/components/LessonEngine.jsx",
+            "src/App.jsx"
+          ],
+          "lineRefs": [
+            "src/components/LessonEngine.jsx:3607",
+            "vocabulary.js:2716"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-017",
+      "themeId": "across-unit-interleaving-absent",
+      "label": "Across-unit interleaving absent — match outcomes don't enter SRS, Daily Review caps at 20",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "cognitive-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "critical",
+          "title": "Finding 3 — Across-unit interleaving and lesson-error-driven relearning are absent",
+          "filePaths": [
+            "src/components/LessonEngine.jsx",
+            "src/pages/Quiz.jsx",
+            "src/pages/Flashcards.jsx"
+          ],
+          "lineRefs": [
+            "src/components/LessonEngine.jsx:1135-1230",
+            "src/pages/Quiz.jsx:30-55",
+            "src/pages/Flashcards.jsx:19"
+          ],
+          "unitRefs": [
+            12,
+            8,
+            4
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-018",
+      "themeId": "working-memory-overload",
+      "label": "Drag_fill / match working-memory load near or above Cowan limit",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "cognitive-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "B. Working-memory load on drag_fill is right at the upper bound; some examples exceed it.",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-04.js:185",
+            "unit-04.js:198",
+            "unit-04.js:218"
+          ],
+          "unitRefs": [
+            4,
+            12
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "C. Match steps with 6+ pairs exceed working-memory capacity at the moment of choice.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-019",
+      "themeId": "intro-goals-voice",
+      "label": "`intro.goals` arrays are author-voice (\"Learn X\"), not learner-voice CEFR can-dos (\"I can X\")",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:9 + every intro step] | **intro.goals arrays are can-dos in author voice, not learner voice.** \"Learn basic greetings\", \"Master essential greetings\", \"Test your Germa…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:9"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-020",
+      "themeId": "hint-quality-uneven",
+      "label": "Hint quality uneven — math-disguised number hints, hint that contains the answer",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "[unit-01.js:265] | **Some mc \"test\" what was just stated in the prompt.** q:\"Which question word would you use to ask 'What is your name?'\" hint:\"In German, you ask 'How are you called?' not 'What …",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:265"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-021",
+      "themeId": "continued-stub-intros",
+      "label": "\"(continued)\" lessons ship generic stub intros — relatedness flatten",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 7"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "critical",
+          "title": "CF-1 | src/data/german-v2/unit-01.js:84 (and 34 other \"(continued)\" lessons across A1+A2) | Generic placeholder intros undermine autonomy + relatedness",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:84",
+            "unit-01.js:9"
+          ],
+          "unitRefs": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-7 | src/data/german-v2/unit-01.js:9 lesson goals are concrete and outcome-framed",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:9"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-022",
+      "themeId": "streak-non-functional",
+      "label": "Streak UI displayed but variable never incremented (vestigial / dead)",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "critical",
+          "title": "CF-3 | src/components/LessonEngine.jsx:1180 | Streak displayed prominently despite being non-functional creates a misleading status signal",
+          "filePaths": [
+            "src/components/LessonEngine.jsx"
+          ],
+          "lineRefs": [
+            "src/components/LessonEngine.jsx:1180"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-3 | src/pages/Profile.jsx | No leaderboard, no comparison, all metrics are personal",
+          "filePaths": [
+            "src/pages/Profile.jsx"
+          ],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-023",
+      "themeId": "embarrassing-absences",
+      "label": "\"Embarrassing absences\" — emergency phrases, brauchen, train-ticket types, \"Ich hätte gern...\"",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "severity-language 9"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-7: Unit 7 (\"Der Arztbesuch\") mid-A2 dip",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Emergency phrases** — *Notfall, Krankenwagen, Polizei, 112, Hilfe!*. Tourist-trip survival. Absent in A1+A2.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Pharmacy \"auf Rezept\" vs \"rezeptfrei\"** — Unit 7 has *Apotheke* but doesn't draw the prescription/OTC distinction explicitly. German pharmacies are gatekept differently than US/UK ones; this is the…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-024",
+      "themeId": "lexical-error-grippe",
+      "label": "`Grippe` glossed as \"the flu, the cold\" — Grippe ≠ Erkältung (lexical error)",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-07.js:9] | trg:\"die Grippe\", src:\"the flu, the cold\" (gloss includes \"the cold\") | **Lexical error.** *Grippe* is influenza/flu, NOT a cold. *Erkältung* is the cold (mild).…",
+          "filePaths": [
+            "src/data/german-v2/unit-07.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-07.js:9"
+          ],
+          "unitRefs": [
+            7
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-025",
+      "themeId": "register-zigzag-dialogues",
+      "label": "Du/Sie boundary not scaffolded inside dialogues — register zigzag mid-lesson",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:14, 14-table] | fahren verb table shows du fährst, er fährt. Correct. But the example: A: Fahren Sie nach Hamburg? B: Nein, ich fahre nach Berlin. — note the formal *…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:14",
+            "unit-01.js:58",
+            "unit-01.js:37"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-026",
+      "themeId": "no-multi-turn-dialogues",
+      "label": "Dialogues are 2-turn ping-pong; no clarification / repair / recast moves",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "academic citation"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "critical",
+          "title": "[unit-01..12, dialogue length: ~85% are 2-turn ping-pong](../../../src/data/german-v2/) | Across the 12 units, ~1,460 A:/B: exchanges exist but only ~209 (14%) extend to 3+ turns (4+ lines). U07 is…",
+          "filePaths": [
+            "src/data/german-v2"
+          ],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            7,
+            2,
+            5,
+            10,
+            12
+          ],
+          "academic": [
+            "Long 1996",
+            "Pica 1994"
+          ],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-027",
+      "themeId": "re-teach-no-recycling-frame",
+      "label": "Re-teaches without `deepen`/`recyclingOf` flag — learner sees \"new word\" badge on review",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "academic citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "Re-teaching without recycling-frame.** Apotheke is taught as a type:\"teach\" card in u02:31 AND again as a type:\"teach\" card in u07:8. The u07 card adds detail (red A regulation, opening hours, cont…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            2,
+            7
+          ],
+          "academic": [
+            "Bjork 2011"
+          ],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-028",
+      "themeId": null,
+      "label": "[Themeless] IF-1 | src/pages/Onboarding.jsx:161-188 | Placement-quiz framing is exemplary",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-1 | src/pages/Onboarding.jsx:161-188 | Placement-quiz framing is exemplary",
+          "filePaths": [
+            "src/pages/Onboarding.jsx"
+          ],
+          "lineRefs": [
+            "src/pages/Onboarding.jsx:161-188"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-029",
+      "themeId": null,
+      "label": "[Themeless] IMPORTANT-6: Story-mode toggle solves the \"I hate the mascot\" problem",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "severity-language 6"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "IMPORTANT-6: Story-mode toggle solves the \"I hate the mascot\" problem",
+          "filePaths": [],
+          "lineRefs": [
+            "LessonEngine.jsx:32-42"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-030",
+      "themeId": null,
+      "label": "[Themeless] [src/data/german-v2/unit-01.js:138-141] | haben verb_table omits the -e in du ha",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:138-141] | haben verb_table omits the -e in du habst → hast, but lists *ihr habt* with t. The asymmetry is correct, but the note says \"haben is irregular in du (hast)…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:138-141"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:16] | mc opt: \"Thank you very much\" as a wrong answer for *Entschuldigung*. The other distractors are \"Goodbye\", \"Hello there\". | Fine pedagogically, but stylisticall…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:16"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-01.js:37] | Auf Wiedersehen example: Vielen Dank für Ihre Hilfe! — Gern geschehen. Auf Wiedersehen! | Acceptable, but in a real shop or office, a native would more often sa…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:37"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Du/Sie boundary is taught but never quite scaffolded inside dialogues.** [src/data/german-v2/unit-01.js:146 tip is excellent: \"Use 'du' with: Friends and family / Children and teenagers / Fellow st…",
+          "filePaths": [
+            "src/data/german-v2/unit-01.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-01.js:146"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-031",
+      "themeId": null,
+      "label": "[Themeless] [src/data/german-v2/unit-03.js:42] | das Mädchen taught as neuter at A1 with a g",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-03.js:42] | das Mädchen taught as neuter at A1 with a good explanation of -chen → neuter rule. | This is correct AND well-handled, but it should be noted somewhere that ref…",
+          "filePaths": [
+            "src/data/german-v2/unit-03.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-03.js:42"
+          ],
+          "unitRefs": [
+            3
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-032",
+      "themeId": null,
+      "label": "[Themeless] Verb tables vs. communicative use are decoupled.** The verb_table step gives ful",
+      "tier": "IMPORTANT",
+      "consensusN": 1,
+      "finalScore": 3,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "academic citation",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "Verb tables vs. communicative use are decoupled.** The verb_table step gives full paradigms (sein, haben, fahren, sprechen, kommen, lernen, wohnen, schlafen) — that is form-coverage. But the immedi…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [
+            "Ellis 2006"
+          ],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-033",
+      "themeId": "daily-review-visibility",
+      "label": "Daily Review tile only renders when dueCount > 0 — invisible cue when caught up",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "cognitive-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "D. The \"Daily Review\" tile is excellent but architecturally undercommunicated.",
+          "filePaths": [
+            "src/pages/Home.jsx"
+          ],
+          "lineRefs": [
+            "src/pages/Home.jsx:87-120"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-034",
+      "themeId": "random-salad-u6",
+      "label": "Unit-06 is horizontal-coherence \"random salad\" — multiple unrelated themes",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-06.js:1-490] | **Unit-06 is random-salad horizontal incoherence.** 18 lessons, sub:\"Daily life, health, work, hobbies & Hildi's tea\". Lesson titles include Beim Arzt (docto…",
+          "filePaths": [
+            "src/data/german-v2/unit-06.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-06.js:1-490"
+          ],
+          "unitRefs": [
+            6,
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Sub-level boundaries are leaky.** U6 (A1.2) teaches Bürgeramt + Beim Arzt vocabulary. U7 (A2.1) teaches Arztbesuch. Same domain, two adjacent units. Either unit-06's Beim Arzt lesson is a primer fo…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            6,
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U6 \"Alles auf Deutsch\" — RANDOM SALAD.** 18 lessons spanning daily routine + health + work + hobbies + civic + tea-with-Hildi + stationery. No Verumius journey thread. Compare to U7 \"Der Arztbesuch…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            6,
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-035",
+      "themeId": "per-unit-lesson-count-variance",
+      "label": "Per-unit lesson count varies 9-24 with no documented rationale (pacing fatigue risk)",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "severity-language 5"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "[unit-01.js: 18 lessons, unit-07.js: 9 lessons] | **Per-unit lesson count varies 9-24 with no obvious rationale.** U1=18, U2=22, U3=16, U4=13, U5=11, U6=18+ (24 cited in CLAUDE.md is per-build, not…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            7,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-036",
+      "themeId": "no-listening-speaking",
+      "label": "No real listening / speaking practice (TTS deferred; one-pager limit)",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "[communicative-functions-mapping.md line 39: F18 \"Understand simple announcements\"] | **One A1 communicative function (#18) is mapped to U1+U4 with practice-type \"Story context, comprehension quiz\"…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            4
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "No real listening/speaking practice.** \"Pronounce / understand spoken German\" cannot be claimed. All audio is deferred. A learner who completes A1+A2 has NEVER heard a German speaker in this app. C…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-037",
+      "themeId": "weil-pre-taught-in-examples",
+      "label": "Weil-clauses appear in U7 examples 2 units before they're taught grammar",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Subordinate clauses**: U9 L5/L6 \"Ob oder dass?\" + \"ADUSO\" cluster is well-built, but U7 L4 \"Untersuchung und Diagnose\" already exposes a weil clause in teach.example (\"Ich bin krank, weil ich kalt …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            9,
+            7
+          ],
+          "academic": [],
+          "concreteFix": true
+        },
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Handle illness, neighbor conflict, and bureaucracy**: visit a Hausarzt, describe pain (dative verbs: tut weh + hilft), read a Beipackzettel, sort recycling (subordinate clauses with weil/dass), joi…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            7,
+            8,
+            9,
+            11
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-038",
+      "themeId": "mein-familienname",
+      "label": "Pragmatically odd phrasings (e.g., \"Mein Familienname ist Weber\")",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Mein Familienname ist Weber is grammatically fine but pragmatically odd.** [unit-01.js:345] No native answers the question *Wie ist Ihr Familienname?* with *Mein Familienname ist Weber*. They say *…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:345"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-039",
+      "themeId": "country-cultural-asymmetry",
+      "label": "Cultural depth asymmetric — Berlin centrism, regional DACH variation under-treated",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Bavarian/Austrian variation is mentioned but minimally taught.** [unit-01.js:286,287] Servus and Grüß Gott get one-line treatments. For a curriculum that targets DACH (Germany + Austria + Switzerla…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:286"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        },
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Berlin centrism.** [122 funFacts mention Berlin across v2.] Of course Berlin is the largest German city, but the curriculum treats Berlin as Germany. Munich, Hamburg, Frankfurt, Cologne, Leipzig, S…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-040",
+      "themeId": "vocab-spiraling-weak",
+      "label": "~50% of A1 lemmas are dead vocab by A2 — recycling under floor",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "Spiraling: ~50% of sampled A1 lemmas are functionally dead by A2.** Random sample of 8 vocab items from u1-3, grepping their occurrence in u4-12: Bahnhof (taught u01) → 2 hits in 9 units; geradeaus…",
+          "filePaths": [
+            "scripts/audit_pos_gender.mjs",
+            "scripts/audit_a11y.mjs"
+          ],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            4,
+            2,
+            3,
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-041",
+      "themeId": "hint-arithmetic",
+      "label": "Number-quiz hints are arithmetic riddles, not language-bridges",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "Hint quality is uneven at A1.** Many u01 hints are excellent (\"Think about getting someone's attention on the street.\" for Entschuldigung), but math-disguised number hints are weak: \"Add two and th…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-042",
+      "themeId": null,
+      "label": "[Themeless] A. Retrieval-vs-recognition ratio is below the literature recommendation, but do",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "academic citation"
+      ],
+      "panelists": [
+        "cognitive-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "A. Retrieval-vs-recognition ratio is below the literature recommendation, but does NOT shift across CEFR levels.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [
+            "McDaniel & Donnelly 1996",
+            "Pyc & Rawson 2009"
+          ],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-043",
+      "themeId": null,
+      "label": "[Themeless] Many mc steps with 4-option answer-clustering | **Spot-check assessment validity",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Many mc steps with 4-option answer-clustering | **Spot-check assessment validity:** [unit-04.js:106] Ich kaufe ___ Fisch. opts:[\"den\",\"der\",\"dem\",\"des\"] ans:\"den\" — correct answer first option. [un…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-04.js:106",
+            "unit-04.js:108",
+            "unit-04.js:109"
+          ],
+          "unitRefs": [
+            4
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-044",
+      "themeId": null,
+      "label": "[Themeless] Survive arrival in Germany**: greet formally (Sie/du distinction), introduce sel",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Survive arrival in Germany**: greet formally (Sie/du distinction), introduce self with name + nationality + profession, ask/give directions, navigate Berlin via U-Bahn, order food (modal verbs: ich…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            2,
+            5
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-045",
+      "themeId": null,
+      "label": "[Themeless] Set up daily life**: rent and describe an apartment (rooms + furniture), introdu",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Set up daily life**: rent and describe an apartment (rooms + furniture), introduce family (possessives, all cases nominative), shop in a supermarket (accusative case + DOGFU prepositions + kein/nic…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            3,
+            4,
+            6
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-046",
+      "themeId": null,
+      "label": "[Themeless] IF-2 | src/audio.jsx:14-96 (UISounds) | Sound design is non-coercive",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-2 | src/audio.jsx:14-96 (UISounds) | Sound design is non-coercive",
+          "filePaths": [
+            "src/audio.jsx"
+          ],
+          "lineRefs": [
+            "src/audio.jsx:14-96"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-047",
+      "themeId": null,
+      "label": "[Themeless] IF-4 | src/components/shared.jsx:6-84 (FlagButton) | Learners have voice",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-4 | src/components/shared.jsx:6-84 (FlagButton) | Learners have voice",
+          "filePaths": [
+            "src/components/shared.jsx"
+          ],
+          "lineRefs": [
+            "src/components/shared.jsx:6-84"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-048",
+      "themeId": null,
+      "label": "[Themeless] IF-5 | src/components/LessonEngine.jsx:669 (retryLesson) and :1188 (Try Again bu",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-5 | src/components/LessonEngine.jsx:669 (retryLesson) and :1188 (Try Again button) | Failure carries zero penalty",
+          "filePaths": [
+            "src/components/LessonEngine.jsx"
+          ],
+          "lineRefs": [
+            "src/components/LessonEngine.jsx:669"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-049",
+      "themeId": null,
+      "label": "[Themeless] IF-6 | src/pages/LearnPage.jsx:756-764 | Foundations lock has a \"Unlock anyway\" ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-6 | src/pages/LearnPage.jsx:756-764 | Foundations lock has a \"Unlock anyway\" override",
+          "filePaths": [
+            "src/pages/LearnPage.jsx"
+          ],
+          "lineRefs": [
+            "src/pages/LearnPage.jsx:756-764"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-050",
+      "themeId": null,
+      "label": "[Themeless] IF-8 | Expert Mode LessonEngine.jsx:73-76 | Scaffolding fades for advanced learn",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "educational-psychologist"
+      ],
+      "findings": [
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-8 | Expert Mode LessonEngine.jsx:73-76 | Scaffolding fades for advanced learners",
+          "filePaths": [],
+          "lineRefs": [
+            "LessonEngine.jsx:73-76"
+          ],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-051",
+      "themeId": null,
+      "label": "[Themeless] Numbers > 1000 spoken patterns** — *einhundert* and *tausend* are taught (unit-0",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Numbers > 1000 spoken patterns** — *einhundert* and *tausend* are taught (unit-04.js:275-276), but the spoken pattern *\"zweitausenddreihundertfünfundzwanzig\"* (2,325) — read-aloud intuition for pri…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-04.js:275-276"
+          ],
+          "unitRefs": [
+            4
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-052",
+      "themeId": null,
+      "label": "[Themeless] [src/data/german-v2/unit-04.js:74] | dreißig / vierzig / fünfzig and note: \"Tens",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "critical",
+          "title": "[src/data/german-v2/unit-04.js:74] | dreißig / vierzig / fünfzig and note: \"Tens: add -zig to the root. dreißig is the exception (not dreizig).\" | True so far. But the note doesn't explain that *se…",
+          "filePaths": [
+            "src/data/german-v2/unit-04.js"
+          ],
+          "lineRefs": [
+            "src/data/german-v2/unit-04.js:74",
+            "unit-01.js:373"
+          ],
+          "unitRefs": [
+            4,
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-053",
+      "themeId": null,
+      "label": "[Themeless] Wie ist Ihre Adresse? example: Meine Adresse ist Berliner Str. 12.** [unit-01.js",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Wie ist Ihre Adresse? example: Meine Adresse ist Berliner Str. 12.** [unit-01.js:346] Real Germans say *Berliner Straße 12* (full word, comma optional, never *Berliner Str. 12* in speech). The abbr…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:346"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-054",
+      "themeId": null,
+      "label": "[Themeless] das Café vs der Kaffee is well-explained** [unit-02.js:41] — but pronunciation n",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "das Café vs der Kaffee is well-explained** [unit-02.js:41] — but pronunciation note \"ho-TEL\" for das Hotel [unit-02.js:33] suggests final-syllable stress, which is correct for the loanword, but con…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-02.js:41",
+            "unit-02.js:33"
+          ],
+          "unitRefs": [
+            2
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-055",
+      "themeId": null,
+      "label": "[Themeless] The Eszett (ß) is taught accurately in foundations but funFact at [unit-02.js:9]",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "The Eszett (ß) is taught accurately in foundations but funFact at [unit-02.js:9]** says \"The ß (Eszett) is unique to German.\" This is technically true today (Switzerland dropped it), but historical…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-02.js:9"
+          ],
+          "unitRefs": [
+            2
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-056",
+      "themeId": null,
+      "label": "[Themeless] du heißt is taught without -e at [unit-01.js:75]** with the correct rule \"stem e",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "du heißt is taught without -e at [unit-01.js:75]** with the correct rule \"stem ends in -ß so no extra -e.\" Good. But du tanzt, du sitzt have the same rule and aren't covered. Once is teaching, twic…",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:75"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-057",
+      "themeId": null,
+      "label": "[Themeless] A2 medical unit (Unit 7) example dialogues are unusually natural.** Compliment: ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "A2 medical unit (Unit 7) example dialogues are unusually natural.** Compliment: the doctor-patient dialogues feel realistic ([unit-07.js:9-22]). Better than most A2 textbooks.",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-07.js:9-22"
+          ],
+          "unitRefs": [
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-058",
+      "themeId": null,
+      "label": "[Themeless] The Döner funFact** [unit-01.js:234] is excellent. Accurate, current, respectful",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "The Döner funFact** [unit-01.js:234] is excellent. Accurate, current, respectful, names the Turkish-German inventor (Kadir Nurman) explicitly. This is the model for what funFacts should be.",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:234"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-059",
+      "themeId": null,
+      "label": "[Themeless] Fräulein is correctly flagged as outdated/offensive** [unit-01.js:349]. Good. Th",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Fräulein is correctly flagged as outdated/offensive** [unit-01.js:349]. Good. The same care should be applied across other gendered language patterns.",
+          "filePaths": [],
+          "lineRefs": [
+            "unit-01.js:349"
+          ],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-060",
+      "themeId": null,
+      "label": "[Themeless] i+1 vs i+5 calibration: u01 hits 30+ teach cards in 7 lessons before any meaning",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2.5,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "important",
+          "title": "i+1 vs i+5 calibration: u01 hits 30+ teach cards in 7 lessons before any meaningful production task.** Lesson 1 alone introduces Hallo, Entschuldigung, der Zug, fahren, Deutsch, sprechen, ein bissc…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-061",
+      "themeId": "ai-conversation-not-wired",
+      "label": "AI Chat exists but not wired into lesson flow",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "No real conversation practice.** AI Chat is mentioned in CLAUDE.md as \"AI conversation Phase 1\" but is not wired into the lesson flow. Apply/Analyze/Evaluate Bloom levels (the top three) live in co…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-062",
+      "themeId": null,
+      "label": "[Themeless] Sentence-bracket / V2 word order**: introduced as a rule in U1 L4 tip (\"V2 word ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Sentence-bracket / V2 word order**: introduced as a rule in U1 L4 tip (\"V2 word order\"), but never explicitly recycled when separable verbs arrive in U3 L5 (aufstehen). Separable-verb prefix-flying…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            3
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-063",
+      "themeId": null,
+      "label": "[Themeless] man indefinite pronoun**: taught U1 L11 (Bausteine, line 323) but never recycled",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "man indefinite pronoun**: taught U1 L11 (Bausteine, line 323) but never recycled in A2 capstone or used as a teaching device for passive avoidance. CEFR puts man constructions at A1+ recycle throug…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-064",
+      "themeId": null,
+      "label": "[Themeless] Adjective declension**: introduced U11 (Christmas market: \"Der rote Schal\") but ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Adjective declension**: introduced U11 (Christmas market: \"Der rote Schal\") but the predicative-vs-attributive distinction was implicit since U2 L7 \"Eigenschaften und mehr\". Predicative adjectives …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            11,
+            2
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-065",
+      "themeId": null,
+      "label": "[Themeless] U2 \"Entschuldigung, wo ist...?\" — coherent journey.** 22 lessons but they all th",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U2 \"Entschuldigung, wo ist...?\" — coherent journey.** 22 lessons but they all thread through \"Verumius lost in Berlin → finds Döner → finds his way → reflects\". Der Döner-Umweg (L8) is the comedic …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            2
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-066",
+      "themeId": null,
+      "label": "[Themeless] U3 \"Die Wohnungssuche\" — coherent journey.** Wohnung frei → Familie → Verwandte ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U3 \"Die Wohnungssuche\" — coherent journey.** Wohnung frei → Familie → Verwandte → Besichtigung → Aufräumen → Möbel → Haustiere → Hausordnung → Prüfung → Willkommen zu Hause. Linear narrative spine.…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            3
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-067",
+      "themeId": null,
+      "label": "[Themeless] U4 \"Im Supermarkt\" — mostly coherent, tight on grammar.** Einkaufswagen-Panik → ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U4 \"Im Supermarkt\" — mostly coherent, tight on grammar.** Einkaufswagen-Panik → Obst → Nummern/Farben → Akkusativ-Alarm → DOGFU → Nummer-ziehen → Speed-Checkout → Küchenparade. Grammar-pivot lesson…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            4
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-068",
+      "themeId": null,
+      "label": "[Themeless] U5 \"Hunger!\" — coherent journey.** Was gibt's → Wie schmeckt's → Speisekarte → M",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U5 \"Hunger!\" — coherent journey.** Was gibt's → Wie schmeckt's → Speisekarte → Modal verbs → Bestellen → Rechnung → Hotel → Stammtisch. Restaurant-to-stammtisch arc; modal verbs naturally land in r…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            5
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-069",
+      "themeId": null,
+      "label": "[Themeless] U7 \"Der Arztbesuch\" — coherent and tight.** As above; gold standard for unit hor",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U7 \"Der Arztbesuch\" — coherent and tight.** As above; gold standard for unit horizontal coherence.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            7
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-070",
+      "themeId": null,
+      "label": "[Themeless] U9 \"Freizeit und Vereine\" — coherent.** Lauftreff (Mia intro) → Was machst du ge",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U9 \"Freizeit und Vereine\" — coherent.** Lauftreff (Mia intro) → Was machst du gern → Vereinssitzung → Mitmachen → ob/dass grammar → Digital → Nach dem Lauf → Vereinsprüfung. Clean Vereinskultur arc…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            9
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-071",
+      "themeId": null,
+      "label": "[Themeless] U10 \"Deutsche Bahn\" — coherent.** 47 Minuten Verspätung → Unterwegs → Mein Platz",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U10 \"Deutsche Bahn\" — coherent.** 47 Minuten Verspätung → Unterwegs → Mein Platz → Perfekt mit sein → Koffer → Wenn-clauses → Hin und her → Anschluss → Fahrkartenkontrolle → Reiseprüfung. Train-jou…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            10
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-072",
+      "themeId": null,
+      "label": "[Themeless] U11 \"Auf dem Weihnachtsmarkt\" — coherent.** Gendarmenmarkt → Kleidung → Opa Hein",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U11 \"Auf dem Weihnachtsmarkt\" — coherent.** Gendarmenmarkt → Kleidung → Opa Heinrichs Brötchen → adjective declension → Wetter → Glühwein → Weihnachtsprüfung. Christmas-market arc with adjective de…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            11
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-073",
+      "themeId": null,
+      "label": "[Themeless] U12 \"Halbjahresbilanz\" — appropriately reflective.** Six-month reflection unit; ",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "U12 \"Halbjahresbilanz\" — appropriately reflective.** Six-month reflection unit; mixed-bag is structurally correct here because the unit IS a recap. Literaturcafé + Papierkram + Konjunktiv II + KD l…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-074",
+      "themeId": null,
+      "label": "[Themeless] Connect ideas in extended speech**: use coordinating conjunctions (und/aber/oder",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Connect ideas in extended speech**: use coordinating conjunctions (und/aber/oder/denn), subordinate weil/dass/wenn/ob, comparative+superlative, Wechselpräpositionen with case choice, adjective decl…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            9,
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-075",
+      "themeId": null,
+      "label": "[Themeless] No writing-as-output beyond fb/drag_fill.** The \"Write simple messages / fill in",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "No writing-as-output beyond fb/drag_fill.** The \"Write simple messages / fill in forms\" function (A1 F15) is taught conceptually via examples but never tested as an output task. A learner cannot de…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-076",
+      "themeId": null,
+      "label": "[Themeless] Cultural depth is asymmetric across units.** U2 (Berlin), U7 (Hausarzt + Beipack",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "curriculum-designer"
+      ],
+      "findings": [
+        {
+          "panelist": "curriculum-designer",
+          "section": "important",
+          "title": "Cultural depth is asymmetric across units.** U2 (Berlin), U7 (Hausarzt + Beipackzettel), U9 (Vereinskultur), U11 (Christmas market) are culturally deep. U4 (supermarket), U6 (mixed bag) are thin on…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            2,
+            7,
+            9,
+            11,
+            4,
+            6
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-077",
+      "themeId": null,
+      "label": "[Themeless] \"Ich brauche...\" as a A1 staple** — brauchen does not get a dedicated teach card",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "\"Ich brauche...\" as a A1 staple** — brauchen does not get a dedicated teach card with conjugation in the early units (grep returns hits but mostly in late-unit examples). For A1 communicative compe…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-078",
+      "themeId": null,
+      "label": "[Themeless] Money / paying with card vs cash awareness** — the *\"Zusammen oder getrennt?\"* l",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Money / paying with card vs cash awareness** — the *\"Zusammen oder getrennt?\"* lesson in Unit 5 is great, but Germans famously prefer cash and *\"Karte oder bar?\"* / *\"Nur Bargeld\"* are real-world p…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            5
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-079",
+      "themeId": null,
+      "label": "[Themeless] Train ticket + DB-Navigator + ICE/RE/S-Bahn** — Unit 1 introduces the train stat",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "Train ticket + DB-Navigator + ICE/RE/S-Bahn** — Unit 1 introduces the train station, Unit 10 has 47 minutes Verspätung (good!) but the *types* of trains and *types* of tickets aren't clearly taught…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            10
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-080",
+      "themeId": null,
+      "label": "[Themeless] \"Ich verstehe nur Bahnhof\"** — the canonical German \"I don't understand a thing\"",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "language-teacher"
+      ],
+      "findings": [
+        {
+          "panelist": "language-teacher",
+          "section": "important",
+          "title": "\"Ich verstehe nur Bahnhof\"** — the canonical German \"I don't understand a thing\" idiom. Cultural goldmine and a confidence-saver. Could be one card in Unit 12.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            12
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-081",
+      "themeId": null,
+      "label": "[Themeless] Religious/political neutrality is mostly held.** Good — no jarring missteps in t",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "native-linguist-de"
+      ],
+      "findings": [
+        {
+          "panelist": "native-linguist-de",
+          "section": "important",
+          "title": "Religious/political neutrality is mostly held.** Good — no jarring missteps in the slice. The Hauptbahnhof, Kaiser-Wilhelm-Gedächtniskirche, and Brandenburger Tor references are factual and appropr…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-082",
+      "themeId": null,
+      "label": "[Themeless] Add tip cards on register & sociolinguistic variation.** The du/Sie tip in u01 i",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "nicetohave",
+          "title": "Add tip cards on register & sociolinguistic variation.** The du/Sie tip in u01 is solid but learners don't see du/Sie negotiation modeled in dialogue. Add scenes where Verumius gets it wrong (Bist …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-083",
+      "themeId": null,
+      "label": "[Themeless] Pronunciation phonetics column is partial.** Most teach cards in u01 carry phone",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "nicetohave",
+          "title": "Pronunciation phonetics column is partial.** Most teach cards in u01 carry phonetic:\"...\" (e.g., phonetic:\"vee SHPAYT ist ess\") but coverage drops sharply after u02. For non-Latin-script languages …",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1,
+            2
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-084",
+      "themeId": null,
+      "label": "[Themeless] No tr (free translation) tasks at A2.** The engine supports tr (3 instances in u",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "concrete fix"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "nicetohave",
+          "title": "No tr (free translation) tasks at A2.** The engine supports tr (3 instances in u01 only) but A2 — where pushed output should kick in — has zero. Add 1 tr per A2 lesson minimum.",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": true
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-085",
+      "themeId": null,
+      "label": "[Themeless] Cumulative learner vocabulary tracking surface.** The roadmap mentions \"cumulati",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)",
+        "file/line citation"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "nicetohave",
+          "title": "Cumulative learner vocabulary tracking surface.** The roadmap mentions \"cumulative vocab tracking\" in the story system vision; this would be the perfect substrate for genuine i+1 calibration on a p…",
+          "filePaths": [
+            "src/srs.js"
+          ],
+          "lineRefs": [],
+          "unitRefs": [],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    },
+    {
+      "id": "EXPERT-PANEL-FINDING-086",
+      "themeId": null,
+      "label": "[Themeless] exampleSrc translations occasionally over-translate.** u01:69 stimmt example tra",
+      "tier": "NICE-TO-HAVE",
+      "consensusN": 1,
+      "finalScore": 2,
+      "boosts": [
+        "Tier-1 panelist(s)"
+      ],
+      "panelists": [
+        "sla-researcher"
+      ],
+      "findings": [
+        {
+          "panelist": "sla-researcher",
+          "section": "nicetohave",
+          "title": "exampleSrc translations occasionally over-translate.** u01:69 stimmt example translates \"Berlin ist die Hauptstadt, oder?\" as \"Berlin is the capital, right?\" — perfect. But in some cards the source…",
+          "filePaths": [],
+          "lineRefs": [],
+          "unitRefs": [
+            1
+          ],
+          "academic": [],
+          "concreteFix": false
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "themeId": "streak-non-functional",
+      "label": "Streak UI displayed but variable never incremented (vestigial / dead)",
+      "strengthSide": [
+        {
+          "panelist": "educational-psychologist",
+          "label": "Streak UI displayed but variable never incremented (vestigial / dead)",
+          "title": "2. Streak is vestigial — by design or accident, the dark pattern is absent"
+        }
+      ],
+      "findingSide": [
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "critical",
+          "title": "Finding 2 — Wrong-answer experience is punishment, not data",
+          "keywordHits": 5
+        },
+        {
+          "panelist": "cognitive-psychologist",
+          "section": "important",
+          "title": "D. The \"Daily Review\" tile is excellent but architecturally undercommunicated.",
+          "keywordHits": 2
+        },
+        {
+          "panelist": "educational-psychologist",
+          "section": "critical",
+          "title": "CF-3 | src/components/LessonEngine.jsx:1180 | Streak displayed prominently despite being non-functional creates a misleading status signal",
+          "keywordHits": 4
+        },
+        {
+          "panelist": "educational-psychologist",
+          "section": "important",
+          "title": "IF-3 | src/pages/Profile.jsx | No leaderboard, no comparison, all metrics are personal",
+          "keywordHits": 2
+        }
+      ]
+    }
+  ],
+  "strengths": [
+    {
+      "themeId": "strength-foundations",
+      "label": "Foundations module is genuinely excellent (alphabet, ich-Laut/ach-Laut, Eszett)",
+      "panelists": [
+        {
+          "slug": "language-teacher",
+          "role": "Language Teacher",
+          "title": "Foundations module is exam-design quality.** foundations.js:280-298 has a \"four English speaker traps\" table (W=V, V=F, J=Y, Z=TS) that is *exactly* what every A1 teacher writes on the whiteboard i…"
+        },
+        {
+          "slug": "native-linguist-de",
+          "role": "Native Linguist (de)",
+          "title": "Foundations module is excellent.** [src/data/foundations.js:257-500] — the alphabet/vowels/consonants/CH/SP-ST/Auslautverhärtung sections are accurate, well-organized, and avoid the \"use German let…"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-fsrs-correct",
+      "label": "FSRS implementation is genuinely correct (request_retention 0.9, persistence)",
+      "panelists": [
+        {
+          "slug": "cognitive-psychologist",
+          "role": "Cognitive Psychologist",
+          "title": "FSRS is the right algorithm and the integration is genuinely correct.** src/srs.js:9 uses ts-fsrs with default generatorParameters() (request_retention 0.9, established empirically by the FSRS team…"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-distractor-quality",
+      "label": "MC distractor quality is high (semantic competition, not absurd ringers)",
+      "panelists": [
+        {
+          "slug": "cognitive-psychologist",
+          "role": "Cognitive Psychologist",
+          "title": "Distractor quality in MC items is high.** Sampling 25 MC questions across units 01-12: distractors are near-misses, not absurd ringers. Examples: Welcher Artikel ist richtig? '___ Brot ist frisch.'…"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-capstone-design",
+      "label": "Capstone backward design (U12 L14 numbered 25-construct A2 prüfung)",
+      "panelists": [
+        {
+          "slug": "curriculum-designer",
+          "role": "Curriculum Designer",
+          "title": "Capstone backward design is exemplary.** [src/data/german-v2/unit-12.js:637-720] — deu_r12l14 \"Die große Prüfung\" is annotated in source comments with all 25 A2 grammar constructs being tested in n…"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-verumius-narrative",
+      "label": "Verumius narrative + cultural funFacts deliver genuine relatedness",
+      "panelists": [
+        {
+          "slug": "educational-psychologist",
+          "role": "Educational Psychologist",
+          "title": "3. Relatedness through narrative AND through cultural funFacts"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-modal-particles",
+      "label": "Modal particles (doch, mal, halt, schon) taught explicitly at A1 — rare",
+      "panelists": [
+        {
+          "slug": "native-linguist-de",
+          "role": "Native Linguist (de)",
+          "title": "Modal particles are taught explicitly.** [src/data/german-v2/unit-02.js:78,80; unit-12.js:746] — doch, mal, schon, and halt (separately glossed) are taught with usage notes. This is the secret hear…"
+        }
+      ]
+    },
+    {
+      "themeId": "strength-separable-verbs",
+      "label": "Separable verbs taught with split-position rule (incl. UMziehen vs umZIEHEN)",
+      "panelists": [
+        {
+          "slug": "native-linguist-de",
+          "role": "Native Linguist (de)",
+          "title": "Separable verbs are introduced systematically with the splitting rule explained.** [src/data/german-v2/unit-03.js:131-137; unit-05.js:149] — aufstehen, einkaufen, mitbringen, aufräumen, anmachen/au…"
+        }
+      ]
+    }
+  ]
+}

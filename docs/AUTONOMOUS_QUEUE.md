@@ -66,21 +66,19 @@ Owner-directed (2026-04-26): "Get professional AI agent opinions left and right.
 
 Master spec: `docs/agents/EXPERT_PANEL.md`. Run cadence + cost-control + synthesis pipeline are documented there.
 
-### EXPERT-PANEL-001 — Tier 1 audit on German A1+A2 (pilot) — ✅ OWNER-APPROVED 2026-04-27
-- **description:** Spawn 6 Tier 1 panelists in parallel (max 4 simultaneous per Rule B7) audited against German A1+A2 only. Validates the panel design before scaling to all languages. Each panelist gets the German A1+A2 unit slice + CLAUDE.md + their persona file. Output: 6 structured findings reports.
-- **roles to spawn:**
-  - SLA Researcher (`docs/agents/EXPERT_SLA_RESEARCHER.md`)
-  - Cognitive Psychologist (`docs/agents/EXPERT_COGNITIVE_PSYCHOLOGIST.md`)
-  - Educational Psychologist (`docs/agents/EXPERT_EDUCATIONAL_PSYCHOLOGIST.md`)
-  - Native-Speaker Linguist for German (`docs/agents/EXPERT_NATIVE_LINGUIST.md` with `<TARGET_LANG>=de`)
-  - Real-World Language Teacher (`docs/agents/EXPERT_LANGUAGE_TEACHER.md`)
-  - Curriculum Designer (`docs/agents/EXPERT_CURRICULUM_DESIGNER.md`)
-- **status:** APPROVED. Owner has Max plan; token cost is not a blocker. Next session: spawn the pilot.
-- **acceptance:** All 6 reports written to `docs/expert-panel/2026-XX-XX-de-pilot/<role>.md`. Synthesis script (built per EXPERT-PANEL-002) produces deduped findings list ranked per the methodology in `docs/agents/EXPERT_PANEL.md`.
+### ~~EXPERT-PANEL-001~~ — Tier 1 audit on German A1+A2 (pilot) — ✅ DONE 2026-04-27
+- **description:** Spawned 6 Tier 1 panelists in two waves of 4+2 (Rule B7) — SLA, Cog, Ed Psych, Native DE in Wave 1; Language Teacher + Curriculum Designer in Wave 2. Each got their persona file + CLAUDE.md + the German A1+A2 unit slice (units 01-12).
+- **outputs:** 6 reports under `docs/expert-panel/2026-04-27-de-pilot/<role>.md`. Per-panelist scores: Cog 5.4, SLA 6.0, Native-DE 7.0, Curriculum 7.0, Lang Teacher 8.0, Ed Psych 8.7.
+- **synthesis:** `docs/expert-panel/2026-04-27-de-pilot/SYNTHESIS.md` — 7 CRITICAL, 25 IMPORTANT, 54 NICE-TO-HAVE, 1 cross-panelist conflict (streak: vestigial-strength vs broken-UI), 7 strengths-consensus themes.
 
-### EXPERT-PANEL-002 — Synthesis script
-- **description:** Build `scripts/synthesize_expert_panel.cjs` that reads all reports under `docs/expert-panel/<date>/`, dedupes findings (same issue flagged by 2+ panelists = boost), clusters by theme, ranks by severity × consensus, and emits a list of proposed queue items as `EXPERT-PANEL-FINDING-<id>`.
-- **acceptance:** Script runs end-to-end on 6 pilot reports, produces structured output that's easy for the owner to triage (accept / defer / reject per item).
+### ~~EXPERT-PANEL-002~~ — Synthesis script — ✅ DONE 2026-04-27
+- **description:** Built `scripts/synthesize_expert_panel.cjs`. Implements consensus weighting (`consensusN × consensusWeight` per spec) + unique-signal boosts (Tier-1 +1.0, file/line +0.5, academic +0.5, severity-language +1.0/+0.5, concrete fix +0.5) + section-severity caps to prevent over-scoring weak clusters. Tier mapping: ≥5 CRITICAL, 3-4 IMPORTANT, 1-2 NICE-TO-HAVE, <1 NOISE. Strength themes are isolated from finding themes; conflict detection scans every finding's text against strength-cross-classification keywords (catches buried cross-panelist conflicts).
+- **outputs:** `SYNTHESIS.md` (human-readable triage doc), `findings.json` (machine-readable), `discarded.log` (NOISE audit trail).
+- **acceptance:** Pilot run produced 7 CRITICAL findings (production-mode-gap auto-CRITICAL via 3-panelist consensus; six 2-panelist clusters reaching CRITICAL with strong unique-signal boosts).
+
+### EXPERT-PANEL-001-TRIAGE — Owner triage of pilot CRITICAL/IMPORTANT findings
+- **description:** Read `docs/expert-panel/2026-04-27-de-pilot/SYNTHESIS.md` and check `[ ] accept / [ ] defer / [ ] reject` per finding. Critical-tier findings auto-create queue items as `EXPERT-PANEL-FINDING-<id>` after acceptance. Owner-rejected items are logged with reason for future-panel calibration.
+- **STOPS-ON:** owner triage decisions.
 
 ### EXPERT-PANEL-003 — Tier 1 expansion to all 10 languages (Korean-first) — ✅ SEQUENCE CONFIRMED 2026-04-27
 - **description:** Once Tier 1 pilot for German validates the design, run Tier 1 for the other 9 languages. Native-Speaker Linguist persona substitutes per language. Other 5 roles run language-agnostic but with the relevant slice.
